@@ -1,0 +1,11 @@
+\documentclass[a4paper,11pt,reqno]{standalone}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+% For reproducible build: https://tex.stackexchange.com/questions/229605
+\RequireLuaTeX
+\pdfvariable suppressoptionalinfo \numexpr32+64+512\relax
+
+\begin{document}
+$(A \otimes B) \simeq (B \otimes A)$
+\end{document}
