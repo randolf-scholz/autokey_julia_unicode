@@ -1,6 +1,6 @@
 # Autokey Unicode characters
 
-![demo](output.gif)
+![demo](demo.gif)
 
 ## Usage
 
