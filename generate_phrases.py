@@ -85,12 +85,12 @@ PATH.mkdir(exist_ok=True)
 for ucode, char, abbrv, note in data[1:]:
     abbrvs = abbrv.split(", ")  # sometimes multiple abbreviations exist
     for abb in abbrvs:
-        assert is_abbrv(abb), F"{abb=} is not valid abbreviation."
+        assert is_abbrv(abb), F"{abb} is not valid abbreviation."
 
     name = abbrvs[0][1:].replace("/", "")   # remove '/' for valid filenames
 
     # add space at the end, otherwise \delta cannot be typed as \del exists
-    abbrvs = [abb+" " for abb in abbrvs]    
+    abbrvs = [abb+" " for abb in abbrvs]
     TEMPLATE['abbreviation']['abbreviations'] = abbrvs
     TEMPLATE['description'] = note
 
