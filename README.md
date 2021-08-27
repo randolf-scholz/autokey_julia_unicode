@@ -35,7 +35,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
 - Can show strange behaviour with **VSCode**.
   - Seems to be fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
   - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
-- Composed characters seem to not always work as intended.
+- Composed characters seem to not always work as intended, not many editors render them correctly.
 
 ### Supported Alphabets
 
