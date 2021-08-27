@@ -37,6 +37,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
   - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
 - Composed characters seem to not always work as intended, not many editors render them correctly.
 - Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives a⁽ᵏ⁾. With AutoKey we need to add the superscripts one at a time.
+- Seems like it doesnt work with a German keyboard because AutoKey interprets `\` and `[AltGr]+?` (what you type on a German keyboard to get backslash) as different things.
 
 ### Supported Alphabets
 
