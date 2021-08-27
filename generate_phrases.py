@@ -99,3 +99,48 @@ for ucode, char, abbrv, note in data[1:]:
 
     with open(F"{PATH}/{name}.txt", "w") as file:
         file.write(char)
+
+HELPSCRIPT = """
+import webbrowser
+webbrowser.open("https://docs.julialang.org/en/v1/manual/unicode-input/")
+"""
+
+HELPCONFIG = {
+    "type": "script",
+    "description": "Help for Julia Unicode",
+    "store": {},
+    "modes": [
+        1
+    ],
+    "usageCount": 0,
+    "prompt": False,
+    "omitTrigger": False,
+    "showInTrayMenu": True,
+    "abbreviation": {
+        "abbreviations": [
+            r"\help ",
+        ],
+        "backspace": False,
+        "ignoreCase": False,
+        "immediate": True,
+        "triggerInside": True,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": None,
+    },
+    "filter": {
+        "regex": None,
+        "isRecursive": False,
+    }
+}
+
+with open(F"{PATH}/.julia_unicode_help.json", "w") as file:
+    json.dump(HELPCONFIG, file, indent=True)
+
+with open(F"{PATH}/julia_unicode_help.py", "w") as file:
+    file.write(HELPSCRIPT)
+
+print(r"Finished Installation. Restart AutoKey to enable.")
+print(r"Type '\help'+[SPACE] for list of all abbreviations.")
