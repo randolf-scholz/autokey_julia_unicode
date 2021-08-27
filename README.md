@@ -28,7 +28,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
 1. MathJax supports unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
 2. LaTeX has unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/)
 
-## Known Issues
+## Known Issues & Limitations
 
 - So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
 - Seems to behave weird with **Gnome Terminal**, no idea what's going on.
@@ -36,6 +36,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
   - Seems to be fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
   - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
 - Composed characters seem to not always work as intended, not many editors render them correctly.
+- Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives a⁽ᵏ⁾. With AutoKey we need to add the superscripts one at a time.
 
 ### Supported Alphabets
 
