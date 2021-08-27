@@ -12,21 +12,34 @@ This script adds all the unicode character abbreviations supported by [Julia](ht
 2. Execute `generate_phrases.py` (requires python >3.7)
 3. Restart autokey
 
+
+## Features
+
+For overview see [Supported Alphabets](#supported-alphabets)
+
 ## Advantages of Unicode
 
-1. Work even when MathJax / LaTeX is not available
-2. Is character efficient
-3. Increases readability of uncompiled documents
-4. Is copy-paste persistent
+1. Work even when MathJax / LaTeX is not available.
+2. Is character efficient.
+3. Increases readability of uncompiled documents.
+4. Copy-paste persistance.
 
 ## Compatibility with MathJax & LaTeX
 
 1. MathJax supports unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
 2. LaTeX has unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/)
 
-## Supported Alphabets
+## Known Issues
 
-### Serif Font
+- Seems to behave weird with **Gnome Terminal**, no idea what's going on.
+- Can show strange behaviour with **VSCode**.
+  - Seems to be fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
+  - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
+- Composed characters seem to not always work as intended.
+
+### Supported Alphabets
+
+#### Serif Font
 
 | family | `bf`   | `it`   | `bi`   |
 |--------|--------|--------|--------|
@@ -34,7 +47,7 @@ This script adds all the unicode character abbreviations supported by [Julia](ht
 | greek  | 𝛂𝛃𝛄𝚨𝚩𝚪 | 𝛼𝛽𝛾𝛢𝛣𝛤 | 𝜶𝜷𝜸𝜜𝜝𝜞 |
 | letter |        |        |        |
 
-### Sans Serif Font
+#### Sans Serif Font
 
 | family | `sans` | `bsans` | `isans` | `bisans` |
 |--------|--------|---------|---------|----------|
@@ -42,7 +55,7 @@ This script adds all the unicode character abbreviations supported by [Julia](ht
 | greek  |        | 𝝰𝝱𝝲𝝖𝝗𝝘  |         | 𝞪𝞫𝞬𝞐𝞑𝞒   |
 | letter | 𝟢𝟣𝟤    | 𝟬𝟭𝟮     |         |          |
 
-### Speciality Font
+#### Speciality Font
 
 | family | `tt`   | `bb`   | `frak` | `bfrak` | `scr`  | `bscr` |
 |--------|--------|--------|--------|---------|--------|--------|
