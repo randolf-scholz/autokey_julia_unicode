@@ -6,12 +6,11 @@
 
 This script adds all the unicode character abbreviations supported by [Julia](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input) to autokey. However, instead of `[TAB]`, they are triggered on `[SPACE]`. If you do not want perform the replacement, simply hit `[BACKSPACE]` afterwards.
 
-## Installation
+## Installation & Requirements
 
-1. Install [autokey](https://github.com/autokey/autokey)
-2. Execute `generate_phrases.py` (requires python >3.7)
+1. Install [autokey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
+2. Execute `generate_phrases.py` (requires python ≥3.7)
 3. Restart autokey
-
 
 ## Features
 
@@ -31,6 +30,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
 
 ## Known Issues
 
+- So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
 - Seems to behave weird with **Gnome Terminal**, no idea what's going on.
 - Can show strange behaviour with **VSCode**.
   - Seems to be fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
