@@ -1,0 +1,22 @@
+Code point(s);Character(s);Tab completion sequence(s);Unicode name(s)
+U+2016;‖;\norm, \|;Double Vertical Line
+U+2551;║;\bignorm, \big|;Box Drawings Double Vertical
+U+02030;‰;\permille;Per Mille Sign
+U+027F5;⟵;\longleftarrow, \longfrom;Long Leftwards Arrow
+U+027F6;⟶;\longrightarrow,\longto;Long Rightwards Arrow
+U+02190;←;\leftarrow, \from;Leftwards Arrow / Left Arrow
+U+02206;∆;\increment, \inc;Increment
+U+21AF;↯;\downzigarrow, \lightning, \contradiction;Downwards Zigzag Arrow, Lightning, Contradiction
+;𝙽𝚊𝙽;\NaN, \nan, \NAN;Not a Number
+;𝚌𝚘𝚗𝚜𝚝.;\const;constant
+;𝚒𝚒𝚍;\iid;Independent and identically distributed random variables
+U+2717;✗;\xmark, \ballot_x;Ballot X
+U+2718;✘;\hxmark, \heavy_ballot_x;Heavy Ballot X
+U+1F5F8;🗸;\lcmark, \lightcheckmark;Light Check Mark
+U+2713;✓;\cmark, \checkmark;Check Mark
+U+2714;✔;\hcmark, \heavycheckmark;Heavy Check Mark
+U+021DC;⇜;\leftsquigarrow, \leadsfrom;Leftwards Squiggle Arrow / Left Squiggle Arrow
+U+021DD;⇝;\rightsquigarrow, \leadsto;Rightwards Squiggle Arrow / Right Squiggle Arrow
+U+21AD;↭;\leftrightsquigarrow, \corresponds;Left Right Wave Arrow
+U+27FF;⟿;\longrightsquigarrow, \longleadsto;Long Rightwards Squiggle Arrow
+U+2B33;⬳;\longleftsquigarrow, \longleadsfrom;Long Leftwards Squiggle Arrow
