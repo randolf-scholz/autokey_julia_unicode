@@ -1,3 +1,4 @@
 symbols-a4.pdf
-.ipynb_checkpoints/
-__pycache__/
+*.ipynb_checkpoints/
+*__pycache__/
+*.~lock.*.csv#

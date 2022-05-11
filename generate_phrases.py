@@ -25,7 +25,7 @@ else:
     print(f"Found autokey directory at {BASE_PATH}.")
 
 UNICODE_PATTERN = ("U", "+") + (hexdigits,) * 5
-ABBRV_CHARS = ascii_letters + digits + ":^/_+-=()!|"
+ABBRV_CHARS = ascii_letters + digits + ";,:^/_+-=()!|*%"
 
 TEMPLATE = {
     "abbreviation": {
@@ -161,9 +161,15 @@ def gerenerate_phrases(filename: str, target_dir: str):
     path = BASE_PATH.joinpath(target_dir)
     path.mkdir(exist_ok=True)
 
+    try:
+        ucode, char, abbrv, note = next(iter(data[1:]))
+    except BaseException as E:
+        print(next(iter(data[1:])))
+        raise E
+
     for ucode, char, abbrv, note in data[1:]:
         # sometimes multiple abbreviations exist
-        abbrvs: list[str] = [abb.strip(" ") for abb in abbrv.split(",")]
+        abbrvs: list[str] = [abb.strip(" ") for abb in abbrv.split(", ")]
 
         for abb in abbrvs:
             assert is_abbrv(abb), f"{abb} is not valid abbreviation."

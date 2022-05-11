@@ -3,7 +3,7 @@ U+2016;‖;\norm, \|;Double Vertical Line
 U+2551;║;\bignorm, \big|;Box Drawings Double Vertical
 U+02030;‰;\permille;Per Mille Sign
 U+027F5;⟵;\longleftarrow, \longfrom;Long Leftwards Arrow
-U+027F6;⟶;\longrightarrow,\longto;Long Rightwards Arrow
+U+027F6;⟶;\longrightarrow, \longto;Long Rightwards Arrow
 U+02190;←;\leftarrow, \from;Leftwards Arrow / Left Arrow
 U+02206;∆;\increment, \inc;Increment
 U+21AF;↯;\downzigarrow, \lightning, \contradiction;Downwards Zigzag Arrow, Lightning, Contradiction
@@ -12,9 +12,12 @@ U+21AF;↯;\downzigarrow, \lightning, \contradiction;Downwards Zigzag Arrow, Lig
 ;𝚒𝚒𝚍;\iid;Independent and identically distributed random variables
 U+2717;✗;\xmark, \ballot_x;Ballot X
 U+2718;✘;\hxmark, \heavy_ballot_x;Heavy Ballot X
+U+274C;❌;\redxmark, \cross_mark;Cross Mark
+U+274E;❎;\xmarkbox, \negative_squared_cross_mark;Negative Squared Cross Mark
 U+1F5F8;🗸;\lcmark, \lightcheckmark;Light Check Mark
 U+2713;✓;\cmark, \checkmark;Check Mark
 U+2714;✔;\hcmark, \heavycheckmark;Heavy Check Mark
+U+2705;✅;\cmarkbox;White Heavy Check Mark
 U+021DC;⇜;\leftsquigarrow, \leadsfrom;Leftwards Squiggle Arrow / Left Squiggle Arrow
 U+021DD;⇝;\rightsquigarrow, \leadsto;Rightwards Squiggle Arrow / Right Squiggle Arrow
 U+21AD;↭;\leftrightsquigarrow, \corresponds;Left Right Wave Arrow
@@ -23,3 +26,20 @@ U+2B33;⬳;\longleftsquigarrow, \longleadsfrom;Long Leftwards Squiggle Arrow
 U+1F937;¯\_(ツ)_/¯;\:shrug:;Shrug Emoji
 U+2AEB;⫫;\independence, \indep, \independent;Independence
 U+2014;—;\--;Em Dash
+U+FF1A;：;\:, \colon;Fullwidth Colon
+U+2610;☐;\bbox;Ballot Box
+U+1F5F9;🗹;\cbbox;Ballot Box with Bold Check
+U+1F5F7;🗷;\xbbox;Ballot Box with Bold Script X 
+U+FE62;﹢;\+;Small Plus Sign
+U+FE63;﹣;\- ;Small Hyphen-Minus 
+U+204E;⁎;\_*;Low Asterisk
+U+2030;‰;\%%, \permille;Per Mille Sign
+U+2031;‱;\%%%, \permyriad;Per Ten Thousand Sign
+U+FF0C;，;\,, \fullwidthcomma;Fullwidth Comma
+U+0039F;Ο;\Omicron;Greek Capital Letter Omicron
+U+0039C;Μ;\Mu;Greek Capital Letter Mu
+U+0039D;Ν;\Nu;Greek Capital Letter Nu
+U+003BF;ο;\omicron;Greek Small Letter Omicron
+U+22C5;⋅;\cdotp;Dot Operator
+U+2219;∙;\bullet;Bullet Operator
+U+2022;•;\textbullet;Bullet
