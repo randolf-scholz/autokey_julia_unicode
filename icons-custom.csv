@@ -43,3 +43,23 @@ U+003BF;ο;\omicron;Greek Small Letter Omicron
 U+22C5;⋅;\cdotp;Dot Operator
 U+2219;∙;\bullet;Bullet Operator
 U+2022;•;\textbullet;Bullet
+U+1D7D8;𝟘;\bb0;Mathematical Double-Struck Digit Zero
+U+1D7D9;𝟙;\bb1;Mathematical Double-Struck Digit One
+U+1D7DA;𝟚;\bb2;Mathematical Double-Struck Digit Two
+U+1D7DB;𝟛;\bb3;Mathematical Double-Struck Digit Three
+U+1D7DC;𝟜;\bb4;Mathematical Double-Struck Digit Four
+U+1D7DD;𝟝;\bb5;Mathematical Double-Struck Digit Five
+U+1D7DE;𝟞;\bb6;Mathematical Double-Struck Digit Six
+U+1D7DF;𝟟;\bb7;Mathematical Double-Struck Digit Seven
+U+1D7E0;𝟠;\bb8;Mathematical Double-Struck Digit Eight
+U+1D7E1;𝟡;\bb9;Mathematical Double-Struck Digit Nine
+U+1D7CE;𝟎;\bf0;Mathematical Bold Digit Zero
+U+1D7CF;𝟏;\bf1;Mathematical Bold Digit One
+U+1D7D0;𝟐;\bf2;Mathematical Bold Digit Two
+U+1D7D1;𝟑;\bf3;Mathematical Bold Digit Three
+U+1D7D2;𝟒;\bf4;Mathematical Bold Digit Four
+U+1D7D3;𝟓;\bf5;Mathematical Bold Digit Five
+U+1D7D4;𝟔;\bf6;Mathematical Bold Digit Six
+U+1D7D5;𝟕;\bf7;Mathematical Bold Digit Seven
+U+1D7D6;𝟖;\bf8;Mathematical Bold Digit Eight
+U+1D7D7;𝟗;\bf9;Mathematical Bold Digit Nine
