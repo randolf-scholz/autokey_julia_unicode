@@ -25,7 +25,7 @@ else:
     print(f"Found autokey directory at {BASE_PATH}.")
 
 UNICODE_PATTERN = ("U", "+") + (hexdigits,) * 5
-ABBRV_CHARS = ascii_letters + digits + ";,:^/_+-=()!|*%"
+ABBRV_CHARS = ascii_letters + digits + ";,:^/_+-=()!|*~%"
 
 TEMPLATE = {
     "abbreviation": {
