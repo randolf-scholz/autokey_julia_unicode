@@ -64,3 +64,6 @@ U+1D7D5;𝟕;\bf7;Mathematical Bold Digit Seven
 U+1D7D6;𝟖;\bf8;Mathematical Bold Digit Eight
 U+1D7D7;𝟗;\bf9;Mathematical Bold Digit Nine
 U+2368;⍨;\:~;APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+U+030A;̊;\ring;Combining Ring Above
+U+211C;ℜ;\frakR;Black-Letter Capital R
+U+2111;ℑ;\frakI;Black-Letter Capital I
