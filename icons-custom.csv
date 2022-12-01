@@ -1,95 +1,127 @@
-Code point(s);Character(s);Tab completion sequence(s);Unicode name(s)
-U+2016;‖;\norm, \|;Double Vertical Line
-U+2551;║;\bignorm, \big|;Box Drawings Double Vertical
-U+02030;‰;\permille;Per Mille Sign
-U+027F5;⟵;\longleftarrow, \longfrom;Long Leftwards Arrow
-U+027F6;⟶;\longrightarrow, \longto;Long Rightwards Arrow
-U+02190;←;\leftarrow, \from;Leftwards Arrow / Left Arrow
-U+02206;∆;\increment, \inc;Increment
-U+21AF;↯;\downzigarrow, \lightning, \contradiction;Downwards Zigzag Arrow, Lightning, Contradiction
-;𝙽𝚊𝙽;\NaN, \nan, \NAN;Not a Number
-;𝚌𝚘𝚗𝚜𝚝.;\const;constant
-;𝚒𝚒𝚍;\iid;Independent and identically distributed random variables
-U+2717;✗;\xmark, \ballot_x;Ballot X
-U+2718;✘;\hxmark, \heavy_ballot_x;Heavy Ballot X
-U+274C;❌;\redxmark, \cross_mark;Cross Mark
-U+274E;❎;\xmarkbox, \negative_squared_cross_mark;Negative Squared Cross Mark
-U+1F5F8;🗸;\lcmark, \lightcheckmark;Light Check Mark
-U+2713;✓;\cmark, \checkmark;Check Mark
-U+2714;✔;\hcmark, \heavycheckmark;Heavy Check Mark
-U+2705;✅;\cmarkbox;White Heavy Check Mark
-U+021DC;⇜;\leftsquigarrow, \leadsfrom;Leftwards Squiggle Arrow / Left Squiggle Arrow
-U+021DD;⇝;\rightsquigarrow, \leadsto;Rightwards Squiggle Arrow / Right Squiggle Arrow
-U+21AD;↭;\leftrightsquigarrow, \corresponds;Left Right Wave Arrow
-U+27FF;⟿;\longrightsquigarrow, \longleadsto;Long Rightwards Squiggle Arrow
-U+2B33;⬳;\longleftsquigarrow, \longleadsfrom;Long Leftwards Squiggle Arrow
-U+1F937;¯\_(ツ)_/¯;\:shrug:;Shrug Emoji
-U+2AEB;⫫;\independence, \indep, \independent;Independence
-U+2014;—;\--;Em Dash
-U+FF1A;：;\:, \colon;Fullwidth Colon
-U+2610;☐;\bbox;Ballot Box
-U+1F5F9;🗹;\cbbox;Ballot Box with Bold Check
-U+1F5F7;🗷;\xbbox;Ballot Box with Bold Script X 
-U+FE62;﹢;\+;Small Plus Sign
-U+FE63;﹣;\- ;Small Hyphen-Minus 
-U+204E;⁎;\_*;Low Asterisk
-U+2030;‰;\%%, \permille;Per Mille Sign
-U+2031;‱;\%%%, \permyriad;Per Ten Thousand Sign
-U+FF0C;，;\,, \fullwidthcomma;Fullwidth Comma
-U+0039F;Ο;\Omicron;Greek Capital Letter Omicron
-U+0039C;Μ;\Mu;Greek Capital Letter Mu
-U+0039D;Ν;\Nu;Greek Capital Letter Nu
-U+003BF;ο;\omicron;Greek Small Letter Omicron
-U+22C5;⋅;\cdotp;Dot Operator
-U+2219;∙;\bullet;Bullet Operator
-U+2022;•;\textbullet;Bullet
-U+1D7D8;𝟘;\bb0;Mathematical Double-Struck Digit Zero
-U+1D7D9;𝟙;\bb1;Mathematical Double-Struck Digit One
-U+1D7DA;𝟚;\bb2;Mathematical Double-Struck Digit Two
-U+1D7DB;𝟛;\bb3;Mathematical Double-Struck Digit Three
-U+1D7DC;𝟜;\bb4;Mathematical Double-Struck Digit Four
-U+1D7DD;𝟝;\bb5;Mathematical Double-Struck Digit Five
-U+1D7DE;𝟞;\bb6;Mathematical Double-Struck Digit Six
-U+1D7DF;𝟟;\bb7;Mathematical Double-Struck Digit Seven
-U+1D7E0;𝟠;\bb8;Mathematical Double-Struck Digit Eight
-U+1D7E1;𝟡;\bb9;Mathematical Double-Struck Digit Nine
-U+1D7CE;𝟎;\bf0;Mathematical Bold Digit Zero
-U+1D7CF;𝟏;\bf1;Mathematical Bold Digit One
-U+1D7D0;𝟐;\bf2;Mathematical Bold Digit Two
-U+1D7D1;𝟑;\bf3;Mathematical Bold Digit Three
-U+1D7D2;𝟒;\bf4;Mathematical Bold Digit Four
-U+1D7D3;𝟓;\bf5;Mathematical Bold Digit Five
-U+1D7D4;𝟔;\bf6;Mathematical Bold Digit Six
-U+1D7D5;𝟕;\bf7;Mathematical Bold Digit Seven
-U+1D7D6;𝟖;\bf8;Mathematical Bold Digit Eight
-U+1D7D7;𝟗;\bf9;Mathematical Bold Digit Nine
-U+2368;⍨;\:~;APL FUNCTIONAL SYMBOL TILDE DIAERESIS
-U+030A;̊;\ring;Combining Ring Above
-U+211C;ℜ;\frakR;Black-Letter Capital R
-U+2111;ℑ;\frakI;Black-Letter Capital I
-U+1D00;ᴀ;\scA;Latin Letter Small Capital A
-U+0299;ʙ;\scB;Latin Letter Small Capital B
-U+1D04;ᴄ;\scC;Latin Letter Small Capital C
-U+1D05;ᴅ;\scD;Latin Letter Small Capital D
-U+1D07;ᴇ;\scE;Latin Letter Small Capital E
-U+A730;ꜰ;\scF;Latin Letter Small Capital F
-U+0262;ɢ;\scG;Latin Letter Small Capital G
-U+029C;ʜ;\scH;Latin Letter Small Capital H
-U+026A;ɪ;\scI;Latin Letter Small Capital I
-U+1D0A;ᴊ;\scJ;Latin Letter Small Capital J
-U+1D0B;ᴋ;\scK;Latin Letter Small Capital K
-U+029F;ʟ;\scL;Latin Letter Small Capital L
-U+1D0D;ᴍ;\scM;Latin Letter Small Capital M
-U+0274;ɴ;\scN;Latin Letter Small Capital N
-U+1D0F;ᴏ;\scO;Latin Letter Small Capital O
-U+1D18;ᴘ;\scP;Latin Letter Small Capital P
-U+A7AF;ꞯ;\scQ;Latin Letter Small Capital Q
-U+0280;ʀ;\scR;Latin Letter Small Capital R
-U+A731;ꜱ;\scS;Latin Letter Small Capital S
-U+1D1B;ᴛ;\scT;Latin Letter Small Capital T
-U+1D1C;ᴜ;\scU;Latin Letter Small Capital U
-U+1D20;ᴠ;\scV;Latin Letter Small Capital V
-U+1D21;ᴡ;\scW;Latin Letter Small Capital W
-;;\scX;Latin Letter Small Capital X
-U+028F;ʏ;\scY;Latin Letter Small Capital Y
-U+1D22;ᴢ;\scZ;Latin Letter Small Capital Z
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
+U+2016	‖	\norm, \|	Double Vertical Line
+U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
+U+02030	‰	\permille	Per Mille Sign
+U+027F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
+U+027F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
+U+02190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
+U+02206	∆	\increment, \inc	Increment
+U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow, Lightning, Contradiction
+	𝙽𝚊𝙽	\NaN, \nan, \NAN	Not a Number
+	𝚌𝚘𝚗𝚜𝚝.	\const	constant
+	𝚒𝚒𝚍	\iid	Independent and identically distributed random variables
+U+2717	✗	\xmark, \ballot_x	Ballot X
+U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
+U+274C	❌	\redxmark, \cross_mark	Cross Mark
+U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
+U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
+U+2713	✓	\cmark, \checkmark	Check Mark
+U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
+U+2705	✅	\cmarkbox	White Heavy Check Mark
+U+021DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
+U+021DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
+U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
+U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
+U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
+U+1F937	¯\_(ツ)_/¯	\:shrug:	Shrug Emoji
+U+2AEB	⫫	\independence, \indep, \independent	Independence
+U+2014	—	\--	Em Dash
+U+FF1A	：	\:, \colon	Fullwidth Colon
+U+2610	☐	\bbox	Ballot Box
+U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
+U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X 
+U+FE62	﹢	\+	Small Plus Sign
+U+FE63	﹣	\- 	Small Hyphen-Minus 
+U+204E	⁎	\_*	Low Asterisk
+U+2030	‰	\%%, \permille	Per Mille Sign
+U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
+U+FF0C	，	\,, \fullwidthcomma	Fullwidth Comma
+U+FF1B	；	\;, \fullwidthsemicolon	Fullwidth Semicolon
+U+0039F	Ο	\Omicron	Greek Capital Letter Omicron
+U+0039C	Μ	\Mu	Greek Capital Letter Mu
+U+0039D	Ν	\Nu	Greek Capital Letter Nu
+U+003BF	ο	\omicron	Greek Small Letter Omicron
+U+22C5	⋅	\cdotp	Dot Operator
+U+2219	∙	\bullet	Bullet Operator
+U+2022	•	\textbullet	Bullet
+U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+U+030A	̊	\ring	Combining Ring Above
+U+211C	ℜ	\frakR	Black-Letter Capital R
+U+2111	ℑ	\frakI	Black-Letter Capital I
+U+1D00	ᴀ	\scA	Latin Letter Small Capital A
+U+0299	ʙ	\scB	Latin Letter Small Capital B
+U+1D04	ᴄ	\scC	Latin Letter Small Capital C
+U+1D05	ᴅ	\scD	Latin Letter Small Capital D
+U+1D07	ᴇ	\scE	Latin Letter Small Capital E
+U+A730	ꜰ	\scF	Latin Letter Small Capital F
+U+0262	ɢ	\scG	Latin Letter Small Capital G
+U+029C	ʜ	\scH	Latin Letter Small Capital H
+U+026A	ɪ	\scI	Latin Letter Small Capital I
+U+1D0A	ᴊ	\scJ	Latin Letter Small Capital J
+U+1D0B	ᴋ	\scK	Latin Letter Small Capital K
+U+029F	ʟ	\scL	Latin Letter Small Capital L
+U+1D0D	ᴍ	\scM	Latin Letter Small Capital M
+U+0274	ɴ	\scN	Latin Letter Small Capital N
+U+1D0F	ᴏ	\scO	Latin Letter Small Capital O
+U+1D18	ᴘ	\scP	Latin Letter Small Capital P
+U+A7AF	ꞯ	\scQ	Latin Letter Small Capital Q
+U+0280	ʀ	\scR	Latin Letter Small Capital R
+U+A731	ꜱ	\scS	Latin Letter Small Capital S
+U+1D1B	ᴛ	\scT	Latin Letter Small Capital T
+U+1D1C	ᴜ	\scU	Latin Letter Small Capital U
+U+1D20	ᴠ	\scV	Latin Letter Small Capital V
+U+1D21	ᴡ	\scW	Latin Letter Small Capital W
+		\scX	Latin Letter Small Capital X
+U+028F	ʏ	\scY	Latin Letter Small Capital Y
+U+1D22	ᴢ	\scZ	Latin Letter Small Capital Z
+U+1D7CE	𝟎	\bf0	Mathematical Bold Digit Zero
+U+1D7CF	𝟏	\bf1	Mathematical Bold Digit One
+U+1D7D0	𝟐	\bf2	Mathematical Bold Digit Two
+U+1D7D1	𝟑	\bf3	Mathematical Bold Digit Three
+U+1D7D2	𝟒	\bf4	Mathematical Bold Digit Four
+U+1D7D3	𝟓	\bf5	Mathematical Bold Digit Five
+U+1D7D4	𝟔	\bf6	Mathematical Bold Digit Six
+U+1D7D5	𝟕	\bf7	Mathematical Bold Digit Seven
+U+1D7D6	𝟖	\bf8	Mathematical Bold Digit Eight
+U+1D7D7	𝟗	\bf9	Mathematical Bold Digit Nine
+U+1D7D8	𝟘	\bb0	Mathematical Double-Struck Digit Zero
+U+1D7D9	𝟙	\bb1	Mathematical Double-Struck Digit One
+U+1D7DA	𝟚	\bb2	Mathematical Double-Struck Digit Two
+U+1D7DB	𝟛	\bb3	Mathematical Double-Struck Digit Three
+U+1D7DC	𝟜	\bb4	Mathematical Double-Struck Digit Four
+U+1D7DD	𝟝	\bb5	Mathematical Double-Struck Digit Five
+U+1D7DE	𝟞	\bb6	Mathematical Double-Struck Digit Six
+U+1D7DF	𝟟	\bb7	Mathematical Double-Struck Digit Seven
+U+1D7E0	𝟠	\bb8	Mathematical Double-Struck Digit Eight
+U+1D7E1	𝟡	\bb9	Mathematical Double-Struck Digit Nine
+U+1D7E2	𝟢	\sans0	Mathematical Sans-Serif Digit Zero
+U+1D7E3	𝟣	\sans1	Mathematical Sans-Serif Digit One
+U+1D7E4	𝟤	\sans2	Mathematical Sans-Serif Digit Two
+U+1D7E5	𝟥	\sans3	Mathematical Sans-Serif Digit Three
+U+1D7E6	𝟦	\sans4	Mathematical Sans-Serif Digit Four
+U+1D7E7	𝟧	\sans5	Mathematical Sans-Serif Digit Five
+U+1D7E8	𝟨	\sans6	Mathematical Sans-Serif Digit Six
+U+1D7E9	𝟩	\sans7	Mathematical Sans-Serif Digit Seven
+U+1D7EA	𝟪	\sans8	Mathematical Sans-Serif Digit Eight
+U+1D7EB	𝟫	\sans9	Mathematical Sans-Serif Digit Nine
+U+1D7EC	𝟬	\bsans0	Mathematical Sans-Serif Bold Digit Zero
+U+1D7ED	𝟭	\bsans1	Mathematical Sans-Serif Bold Digit One
+U+1D7EE	𝟮	\bsans2	Mathematical Sans-Serif Bold Digit Two
+U+1D7EF	𝟯	\bsans3	Mathematical Sans-Serif Bold Digit Three
+U+1D7F0	𝟰	\bsans4	Mathematical Sans-Serif Bold Digit Four
+U+1D7F1	𝟱	\bsans5	Mathematical Sans-Serif Bold Digit Five
+U+1D7F2	𝟲	\bsans6	Mathematical Sans-Serif Bold Digit Six
+U+1D7F3	𝟳	\bsans7	Mathematical Sans-Serif Bold Digit Seven
+U+1D7F4	𝟴	\bsans8	Mathematical Sans-Serif Bold Digit Eight
+U+1D7F5	𝟵	\bsans9	Mathematical Sans-Serif Bold Digit Nine
+U+1D7F6	𝟶	\tt0	Mathematical Monospace Digit Zero
+U+1D7F7	𝟷	\tt1	Mathematical Monospace Digit One
+U+1D7F8	𝟸	\tt2	Mathematical Monospace Digit Two
+U+1D7F9	𝟹	\tt3	Mathematical Monospace Digit Three
+U+1D7FA	𝟺	\tt4	Mathematical Monospace Digit Four
+U+1D7FB	𝟻	\tt5	Mathematical Monospace Digit Five
+U+1D7FC	𝟼	\tt6	Mathematical Monospace Digit Six
+U+1D7FD	𝟽	\tt7	Mathematical Monospace Digit Seven
+U+1D7FE	𝟾	\tt8	Mathematical Monospace Digit Eight
+U+1D7FF	𝟿	\tt9	Mathematical Monospace Digit Nine
+U+00B0	°	\deg	Degree Sign

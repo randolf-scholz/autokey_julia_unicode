@@ -139,7 +139,7 @@ def set_sendMode():
 def load_icons(fname):
     with open(fname, "r", encoding="utf8") as csvfile:
         # scraped from https://docs.julialang.org/en/v1/manual/unicode-input/
-        reader_obj = csv.reader(csvfile, delimiter=";")
+        reader_obj = csv.reader(csvfile, delimiter="\t")
         data = list(reader_obj)
     return data
 
