@@ -17,7 +17,7 @@ from typing import Optional
 # Globals / Constants / Templates
 
 LOGGER = logging.getLogger(__name__)
-BASE_PATH = Path.home().joinpath(".config/autokey/data/")
+BASE_PATH = Path.home() / ".config/autokey/data/"
 
 
 if not BASE_PATH.exists():
@@ -171,7 +171,8 @@ def gerenerate_phrases(filename: str, target_dir: str) -> None:
 
     assert len(data[1]) == 4, f"Wrong data format. {data[1]}"
 
-    parsed = Counter()
+    parsed = Counter()  # ucode -> count
+    skipped = []  # items
 
     for item in data[1:]:
         ucode, char, abbrv, note = item
@@ -188,18 +189,20 @@ def gerenerate_phrases(filename: str, target_dir: str) -> None:
         # guard against invalid unicode
         if not is_unicode(ucode):
             LOGGER.error("Invalid unicode: %s", item)
+            skipped.append(item)
             continue
 
         parsed[ucode] += 1
 
-        with open(path.joinpath(f".{ucode}.json"), "w", encoding="utf8") as file:
+        with open(path / f".{ucode}.json", "w", encoding="utf8") as file:
             json.dump(TEMPLATE, file, indent=True)
 
-        with open(path.joinpath(f"{ucode}.txt"), "w", encoding="utf8") as file:
+        with open(path / f"{ucode}.txt", "w", encoding="utf8") as file:
             file.write(char)
 
         LOGGER.info("Generated %s: %s \t%s \t'%s'", ucode, char, abbrv, note)
 
+    # duplicates information
     no_duplicates = True
     for ucode, count in parsed.items():
         if count > 1:
@@ -207,6 +210,13 @@ def gerenerate_phrases(filename: str, target_dir: str) -> None:
             no_duplicates = False
     if no_duplicates:
         LOGGER.info("No duplicates detected ✔.")
+
+    if skipped:
+        LOGGER.warning("Skipped %d items.", len(skipped))
+        for item in skipped:
+            LOGGER.warning("Skipped: %s", item)
+    else:
+        LOGGER.info("No items skipped ✔.")
 
     LOGGER.info("Installed %s in %s", filename, path)
 
