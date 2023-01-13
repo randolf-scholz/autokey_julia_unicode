@@ -252,7 +252,7 @@ U+01D6A	ᵪ	\_chi	Greek Subscript Small Letter Chi
 U+01D9C	ᶜ	\^c	Modifier Letter Small C
 U+01DA0	ᶠ	\^f	Modifier Letter Small F
 U+01DA5	ᶥ	\^iota	Modifier Letter Small Iota
-U+01DB2	ᶲ	\^Phi	Modifier Letter Small Phi
+U+01DB2	ᶲ	\^ltphi	Modifier Letter Small Phi
 U+01DBB	ᶻ	\^z	Modifier Letter Small Z
 U+01DBF	ᶿ	\^theta	Modifier Letter Small Theta
 U+02002	 	\enspace	En Space
@@ -266,8 +266,8 @@ U+02016	‖	\Vert	Double Vertical Line / Double Vertical Bar
 U+02018	‘	\lq	Left Single Quotation Mark / Single Turned Comma Quotation Mark
 U+02019	’	\rq	Right Single Quotation Mark / Single Comma Quotation Mark
 U+0201B	‛	\reapos	Single High-Reversed-9 Quotation Mark / Single Reversed Comma Quotation Mark
-U+0201C	“	\quotedblleft	Left Double Quotation Mark / Double Turned Comma Quotation Mark
-U+0201D	”	\quotedblright	Right Double Quotation Mark / Double Comma Quotation Mark
+U+0201C	“	\ldq	Left Double Quotation Mark / Double Turned Comma Quotation Mark
+U+0201D	”	\rdq	Right Double Quotation Mark / Double Comma Quotation Mark
 U+02020	†	\dagger	Dagger
 U+02021	‡	\ddagger	Double Dagger
 U+02022	•	\bullet	Bullet
@@ -361,7 +361,7 @@ U+0210D	ℍ	\bbH	Double-Struck Capital H / Double-Struck H
 U+0210E	ℎ	\ith, \planck	Planck Constant
 U+0210F	ℏ	\hslash	Planck Constant Over Two Pi / Planck Constant Over 2 Pi
 U+02110	ℐ	\scrI	Script Capital I / Script I
-U+02111	ℑ	\Im	Black-Letter Capital I / Black-Letter I
+U+02111	ℑ	\Im, \frakI	Black-Letter Capital I / Black-Letter I
 U+02112	ℒ	\scrL	Script Capital L / Script L
 U+02113	ℓ	\ell	Script Small L
 U+02115	ℕ	\bbN	Double-Struck Capital N / Double-Struck N
@@ -370,7 +370,7 @@ U+02118	℘	\wp	Script Capital P / Script P
 U+02119	ℙ	\bbP	Double-Struck Capital P / Double-Struck P
 U+0211A	ℚ	\bbQ	Double-Struck Capital Q / Double-Struck Q
 U+0211B	ℛ	\scrR	Script Capital R / Script R
-U+0211C	ℜ	\Re	Black-Letter Capital R / Black-Letter R
+U+0211C	ℜ	\Re, \frakR	Black-Letter Capital R / Black-Letter R
 U+0211D	ℝ	\bbR	Double-Struck Capital R / Double-Struck R
 U+0211E	℞	\xrat	Prescription Take
 U+02122	™	\trademark, \:tm:	Trade Mark Sign / Trademark
@@ -725,8 +725,8 @@ U+022B8	⊸	\multimap	Multimap
 U+022B9	⊹	\hermitconjmatrix	Hermitian Conjugate Matrix
 U+022BA	⊺	\intercal	Intercalate
 U+022BB	⊻	\veebar, \xor	Xor
-U+022BC	⊼	\barwedge	Nand
-U+022BD	⊽	\barvee	Nor
+U+022BC	⊼	\barwedge, \nand	Nand
+U+022BD	⊽	\barvee, \nor	Nor
 U+022BE	⊾	\rightanglearc	Right Angle With Arc
 U+022BF	⊿	\varlrtriangle	Right Triangle
 U+022C0	⋀	\bigwedge	N-Ary Logical And
@@ -968,7 +968,7 @@ U+02606	☆	\bigwhitestar	White Star
 U+02609	☉	\astrosun	Sun
 U+0260E	☎	\:phone:	Black Telephone
 U+02611	☑	\:ballot_box_with_check:	Ballot Box With Check
-U+02614	☔	\:umbrella:	Umbrella With Rain Drops
+U+02614	☔	\:umbrella_with_rain_drops:, \:umbrella:	Umbrella With Rain Drops
 U+02615	☕	\:coffee:	Hot Beverage
 U+0261D	☝	\:point_up:	White Up Pointing Index
 U+02621	☡	\danger	Caution Sign
@@ -1035,7 +1035,7 @@ U+026AC	⚬	\mdsmwhtcircle	Medium Small White Circle
 U+026B2	⚲	\neuter	Neuter
 U+026BD	⚽	\:soccer:	Soccer Ball
 U+026BE	⚾	\:baseball:	Baseball
-U+026C4	⛄	\:snowman:	Snowman Without Snow
+U+026C4	⛄	\:snowman:, \:snowman_without_snow:	Snowman Without Snow
 U+026C5	⛅	\:partly_sunny:	Sun Behind Cloud
 U+026CE	⛎	\:ophiuchus:	Ophiuchus
 U+026D4	⛔	\:no_entry:	No Entry
@@ -1286,7 +1286,7 @@ U+02A19	⨙	\intcap	Integral With Intersection
 U+02A1A	⨚	\intcup	Integral With Union
 U+02A1B	⨛	\upint	Integral With Overbar
 U+02A1C	⨜	\lowint	Integral With Underbar
-U+02A1D	⨝	\Join, \join	Join
+U+02A1D	⨝	\join	Join
 U+02A1F	⨟	\bbsemi	Z Notation Schema Composition
 U+02A22	⨢	\ringplus	Plus Sign With Small Circle Above
 U+02A23	⨣	\plushat	Plus Sign With Circumflex Accent Above
@@ -1475,6 +1475,8 @@ U+02ADC	⫝̸	\forks	Forking
 U+02ADD	⫝	\forksnot	Nonforking
 U+02AE3	⫣	\dashV	Double Vertical Bar Left Turnstile
 U+02AE4	⫤	\Dashv	Vertical Bar Double Left Turnstile
+U+02AEA	⫪	\Top, \downvDash	Double Down Tack
+U+02AEB	⫫	\upvDash, \Bot, \indep	Double Up Tack
 U+02AF4	⫴	\interleave	Triple Vertical Bar Binary Relation
 U+02AF6	⫶	\tdcol	Triple Colon Operator
 U+02AF7	⫷	\lllnest	Triple Nested Less-Than
@@ -2243,7 +2245,7 @@ U+1D6C2	𝛂	\bfalpha	Mathematical Bold Small Alpha
 U+1D6C3	𝛃	\bfbeta	Mathematical Bold Small Beta
 U+1D6C4	𝛄	\bfgamma	Mathematical Bold Small Gamma
 U+1D6C5	𝛅	\bfdelta	Mathematical Bold Small Delta
-U+1D6C6	𝛆	\bfepsilon	Mathematical Bold Small Epsilon
+U+1D6C6	𝛆	\bfvarepsilon	Mathematical Bold Small Epsilon
 U+1D6C7	𝛇	\bfzeta	Mathematical Bold Small Zeta
 U+1D6C8	𝛈	\bfeta	Mathematical Bold Small Eta
 U+1D6C9	𝛉	\bftheta	Mathematical Bold Small Theta
@@ -2265,7 +2267,7 @@ U+1D6D8	𝛘	\bfchi	Mathematical Bold Small Chi
 U+1D6D9	𝛙	\bfpsi	Mathematical Bold Small Psi
 U+1D6DA	𝛚	\bfomega	Mathematical Bold Small Omega
 U+1D6DB	𝛛	\bfpartial	Mathematical Bold Partial Differential
-U+1D6DC	𝛜	\bfvarepsilon	Mathematical Bold Epsilon Symbol
+U+1D6DC	𝛜	\bfepsilon	Mathematical Bold Epsilon Symbol
 U+1D6DD	𝛝	\bfvartheta	Mathematical Bold Theta Symbol
 U+1D6DE	𝛞	\bfvarkappa	Mathematical Bold Kappa Symbol
 U+1D6DF	𝛟	\bfphi	Mathematical Bold Phi Symbol
@@ -2301,7 +2303,7 @@ U+1D6FC	𝛼	\italpha	Mathematical Italic Small Alpha
 U+1D6FD	𝛽	\itbeta	Mathematical Italic Small Beta
 U+1D6FE	𝛾	\itgamma	Mathematical Italic Small Gamma
 U+1D6FF	𝛿	\itdelta	Mathematical Italic Small Delta
-U+1D700	𝜀	\itepsilon	Mathematical Italic Small Epsilon
+U+1D700	𝜀	\itvarepsilon	Mathematical Italic Small Epsilon
 U+1D701	𝜁	\itzeta	Mathematical Italic Small Zeta
 U+1D702	𝜂	\iteta	Mathematical Italic Small Eta
 U+1D703	𝜃	\ittheta	Mathematical Italic Small Theta
@@ -2318,15 +2320,15 @@ U+1D70D	𝜍	\itvarsigma	Mathematical Italic Small Final Sigma
 U+1D70E	𝜎	\itsigma	Mathematical Italic Small Sigma
 U+1D70F	𝜏	\ittau	Mathematical Italic Small Tau
 U+1D710	𝜐	\itupsilon	Mathematical Italic Small Upsilon
-U+1D711	𝜑	\itphi	Mathematical Italic Small Phi
+U+1D711	𝜑	\itvarphi	Mathematical Italic Small Phi
 U+1D712	𝜒	\itchi	Mathematical Italic Small Chi
 U+1D713	𝜓	\itpsi	Mathematical Italic Small Psi
 U+1D714	𝜔	\itomega	Mathematical Italic Small Omega
 U+1D715	𝜕	\itpartial	Mathematical Italic Partial Differential
-U+1D716	𝜖	\itvarepsilon	Mathematical Italic Epsilon Symbol
+U+1D716	𝜖	\itepsilon	Mathematical Italic Epsilon Symbol
 U+1D717	𝜗	\itvartheta	Mathematical Italic Theta Symbol
 U+1D718	𝜘	\itvarkappa	Mathematical Italic Kappa Symbol
-U+1D719	𝜙	\itvarphi	Mathematical Italic Phi Symbol
+U+1D719	𝜙	\itphi	Mathematical Italic Phi Symbol
 U+1D71A	𝜚	\itvarrho	Mathematical Italic Rho Symbol
 U+1D71B	𝜛	\itvarpi	Mathematical Italic Pi Symbol
 U+1D71C	𝜜	\biAlpha	Mathematical Bold Italic Capital Alpha
@@ -2359,7 +2361,7 @@ U+1D736	𝜶	\bialpha	Mathematical Bold Italic Small Alpha
 U+1D737	𝜷	\bibeta	Mathematical Bold Italic Small Beta
 U+1D738	𝜸	\bigamma	Mathematical Bold Italic Small Gamma
 U+1D739	𝜹	\bidelta	Mathematical Bold Italic Small Delta
-U+1D73A	𝜺	\biepsilon	Mathematical Bold Italic Small Epsilon
+U+1D73A	𝜺	\bivarepsilon	Mathematical Bold Italic Small Epsilon
 U+1D73B	𝜻	\bizeta	Mathematical Bold Italic Small Zeta
 U+1D73C	𝜼	\bieta	Mathematical Bold Italic Small Eta
 U+1D73D	𝜽	\bitheta	Mathematical Bold Italic Small Theta
@@ -2376,15 +2378,15 @@ U+1D747	𝝇	\bivarsigma	Mathematical Bold Italic Small Final Sigma
 U+1D748	𝝈	\bisigma	Mathematical Bold Italic Small Sigma
 U+1D749	𝝉	\bitau	Mathematical Bold Italic Small Tau
 U+1D74A	𝝊	\biupsilon	Mathematical Bold Italic Small Upsilon
-U+1D74B	𝝋	\biphi	Mathematical Bold Italic Small Phi
+U+1D74B	𝝋	\bivarphi	Mathematical Bold Italic Small Phi
 U+1D74C	𝝌	\bichi	Mathematical Bold Italic Small Chi
 U+1D74D	𝝍	\bipsi	Mathematical Bold Italic Small Psi
 U+1D74E	𝝎	\biomega	Mathematical Bold Italic Small Omega
 U+1D74F	𝝏	\bipartial	Mathematical Bold Italic Partial Differential
-U+1D750	𝝐	\bivarepsilon	Mathematical Bold Italic Epsilon Symbol
+U+1D750	𝝐	\biepsilon	Mathematical Bold Italic Epsilon Symbol
 U+1D751	𝝑	\bivartheta	Mathematical Bold Italic Theta Symbol
 U+1D752	𝝒	\bivarkappa	Mathematical Bold Italic Kappa Symbol
-U+1D753	𝝓	\bivarphi	Mathematical Bold Italic Phi Symbol
+U+1D753	𝝓	\biphi	Mathematical Bold Italic Phi Symbol
 U+1D754	𝝔	\bivarrho	Mathematical Bold Italic Rho Symbol
 U+1D755	𝝕	\bivarpi	Mathematical Bold Italic Pi Symbol
 U+1D756	𝝖	\bsansAlpha	Mathematical Sans-Serif Bold Capital Alpha
@@ -2417,7 +2419,7 @@ U+1D770	𝝰	\bsansalpha	Mathematical Sans-Serif Bold Small Alpha
 U+1D771	𝝱	\bsansbeta	Mathematical Sans-Serif Bold Small Beta
 U+1D772	𝝲	\bsansgamma	Mathematical Sans-Serif Bold Small Gamma
 U+1D773	𝝳	\bsansdelta	Mathematical Sans-Serif Bold Small Delta
-U+1D774	𝝴	\bsansepsilon	Mathematical Sans-Serif Bold Small Epsilon
+U+1D774	𝝴	\bsansvarepsilon	Mathematical Sans-Serif Bold Small Epsilon
 U+1D775	𝝵	\bsanszeta	Mathematical Sans-Serif Bold Small Zeta
 U+1D776	𝝶	\bsanseta	Mathematical Sans-Serif Bold Small Eta
 U+1D777	𝝷	\bsanstheta	Mathematical Sans-Serif Bold Small Theta
@@ -2434,15 +2436,15 @@ U+1D781	𝞁	\bsansvarsigma	Mathematical Sans-Serif Bold Small Final Sigma
 U+1D782	𝞂	\bsanssigma	Mathematical Sans-Serif Bold Small Sigma
 U+1D783	𝞃	\bsanstau	Mathematical Sans-Serif Bold Small Tau
 U+1D784	𝞄	\bsansupsilon	Mathematical Sans-Serif Bold Small Upsilon
-U+1D785	𝞅	\bsansphi	Mathematical Sans-Serif Bold Small Phi
+U+1D785	𝞅	\bsansvarphi	Mathematical Sans-Serif Bold Small Phi
 U+1D786	𝞆	\bsanschi	Mathematical Sans-Serif Bold Small Chi
 U+1D787	𝞇	\bsanspsi	Mathematical Sans-Serif Bold Small Psi
 U+1D788	𝞈	\bsansomega	Mathematical Sans-Serif Bold Small Omega
 U+1D789	𝞉	\bsanspartial	Mathematical Sans-Serif Bold Partial Differential
-U+1D78A	𝞊	\bsansvarepsilon	Mathematical Sans-Serif Bold Epsilon Symbol
+U+1D78A	𝞊	\bsansepsilon	Mathematical Sans-Serif Bold Epsilon Symbol
 U+1D78B	𝞋	\bsansvartheta	Mathematical Sans-Serif Bold Theta Symbol
 U+1D78C	𝞌	\bsansvarkappa	Mathematical Sans-Serif Bold Kappa Symbol
-U+1D78D	𝞍	\bsansvarphi	Mathematical Sans-Serif Bold Phi Symbol
+U+1D78D	𝞍	\bsansphi	Mathematical Sans-Serif Bold Phi Symbol
 U+1D78E	𝞎	\bsansvarrho	Mathematical Sans-Serif Bold Rho Symbol
 U+1D78F	𝞏	\bsansvarpi	Mathematical Sans-Serif Bold Pi Symbol
 U+1D790	𝞐	\bisansAlpha	Mathematical Sans-Serif Bold Italic Capital Alpha
@@ -2475,7 +2477,7 @@ U+1D7AA	𝞪	\bisansalpha	Mathematical Sans-Serif Bold Italic Small Alpha
 U+1D7AB	𝞫	\bisansbeta	Mathematical Sans-Serif Bold Italic Small Beta
 U+1D7AC	𝞬	\bisansgamma	Mathematical Sans-Serif Bold Italic Small Gamma
 U+1D7AD	𝞭	\bisansdelta	Mathematical Sans-Serif Bold Italic Small Delta
-U+1D7AE	𝞮	\bisansepsilon	Mathematical Sans-Serif Bold Italic Small Epsilon
+U+1D7AE	𝞮	\bisansvarepsilon	Mathematical Sans-Serif Bold Italic Small Epsilon
 U+1D7AF	𝞯	\bisanszeta	Mathematical Sans-Serif Bold Italic Small Zeta
 U+1D7B0	𝞰	\bisanseta	Mathematical Sans-Serif Bold Italic Small Eta
 U+1D7B1	𝞱	\bisanstheta	Mathematical Sans-Serif Bold Italic Small Theta
@@ -2492,15 +2494,15 @@ U+1D7BB	𝞻	\bisansvarsigma	Mathematical Sans-Serif Bold Italic Small Final Sig
 U+1D7BC	𝞼	\bisanssigma	Mathematical Sans-Serif Bold Italic Small Sigma
 U+1D7BD	𝞽	\bisanstau	Mathematical Sans-Serif Bold Italic Small Tau
 U+1D7BE	𝞾	\bisansupsilon	Mathematical Sans-Serif Bold Italic Small Upsilon
-U+1D7BF	𝞿	\bisansphi	Mathematical Sans-Serif Bold Italic Small Phi
+U+1D7BF	𝞿	\bisansvarphi	Mathematical Sans-Serif Bold Italic Small Phi
 U+1D7C0	𝟀	\bisanschi	Mathematical Sans-Serif Bold Italic Small Chi
 U+1D7C1	𝟁	\bisanspsi	Mathematical Sans-Serif Bold Italic Small Psi
 U+1D7C2	𝟂	\bisansomega	Mathematical Sans-Serif Bold Italic Small Omega
 U+1D7C3	𝟃	\bisanspartial	Mathematical Sans-Serif Bold Italic Partial Differential
-U+1D7C4	𝟄	\bisansvarepsilon	Mathematical Sans-Serif Bold Italic Epsilon Symbol
+U+1D7C4	𝟄	\bisansepsilon	Mathematical Sans-Serif Bold Italic Epsilon Symbol
 U+1D7C5	𝟅	\bisansvartheta	Mathematical Sans-Serif Bold Italic Theta Symbol
 U+1D7C6	𝟆	\bisansvarkappa	Mathematical Sans-Serif Bold Italic Kappa Symbol
-U+1D7C7	𝟇	\bisansvarphi	Mathematical Sans-Serif Bold Italic Phi Symbol
+U+1D7C7	𝟇	\bisansphi	Mathematical Sans-Serif Bold Italic Phi Symbol
 U+1D7C8	𝟈	\bisansvarrho	Mathematical Sans-Serif Bold Italic Rho Symbol
 U+1D7C9	𝟉	\bisansvarpi	Mathematical Sans-Serif Bold Italic Pi Symbol
 U+1D7CA	𝟊	\bfDigamma	Mathematical Bold Capital Digamma
@@ -2620,6 +2622,9 @@ U+1F31D	🌝	\:full_moon_with_face:	Full Moon With Face
 U+1F31E	🌞	\:sun_with_face:	Sun With Face
 U+1F31F	🌟	\:star2:	Glowing Star
 U+1F320	🌠	\:stars:	Shooting Star
+U+1F32D	🌭	\:hotdog:	Hot Dog
+U+1F32E	🌮	\:taco:	Taco
+U+1F32F	🌯	\:burrito:	Burrito
 U+1F330	🌰	\:chestnut:	Chestnut
 U+1F331	🌱	\:seedling:	Seedling
 U+1F332	🌲	\:evergreen_tree:	Evergreen Tree
@@ -2686,7 +2691,7 @@ U+1F36F	🍯	\:honey_pot:	Honey Pot
 U+1F370	🍰	\:cake:	Shortcake
 U+1F371	🍱	\:bento:	Bento Box
 U+1F372	🍲	\:stew:	Pot Of Food
-U+1F373	🍳	\:egg:	Cooking
+U+1F373	🍳	\:fried_egg:	Cooking
 U+1F374	🍴	\:fork_and_knife:	Fork And Knife
 U+1F375	🍵	\:tea:	Teacup Without Handle
 U+1F376	🍶	\:sake:	Sake Bottle And Cup
@@ -2696,6 +2701,8 @@ U+1F379	🍹	\:tropical_drink:	Tropical Drink
 U+1F37A	🍺	\:beer:	Beer Mug
 U+1F37B	🍻	\:beers:	Clinking Beer Mugs
 U+1F37C	🍼	\:baby_bottle:	Baby Bottle
+U+1F37E	🍾	\:champagne:	Bottle With Popping Cork
+U+1F37F	🍿	\:popcorn:	Popcorn
 U+1F380	🎀	\:ribbon:	Ribbon
 U+1F381	🎁	\:gift:	Wrapped Present
 U+1F382	🎂	\:birthday:	Birthday Cake
@@ -2753,11 +2760,17 @@ U+1F3C1	🏁	\:checkered_flag:	Chequered Flag
 U+1F3C2	🏂	\:snowboarder:	Snowboarder
 U+1F3C3	🏃	\:runner:	Runner
 U+1F3C4	🏄	\:surfer:	Surfer
+U+1F3C5	🏅	\:sports_medal:	Sports Medal
 U+1F3C6	🏆	\:trophy:	Trophy
 U+1F3C7	🏇	\:horse_racing:	Horse Racing
 U+1F3C8	🏈	\:football:	American Football
 U+1F3C9	🏉	\:rugby_football:	Rugby Football
 U+1F3CA	🏊	\:swimmer:	Swimmer
+U+1F3CF	🏏	\:cricket_bat_and_ball:	Cricket Bat And Ball
+U+1F3D0	🏐	\:volleyball:	Volleyball
+U+1F3D1	🏑	\:field_hockey_stick_and_ball:	Field Hockey Stick And Ball
+U+1F3D2	🏒	\:ice_hockey_stick_and_puck:	Ice Hockey Stick And Puck
+U+1F3D3	🏓	\:table_tennis_paddle_and_ball:	Table Tennis Paddle And Ball
 U+1F3E0	🏠	\:house:	House Building
 U+1F3E1	🏡	\:house_with_garden:	House With Garden
 U+1F3E2	🏢	\:office:	Office Building
@@ -2775,6 +2788,10 @@ U+1F3ED	🏭	\:factory:	Factory
 U+1F3EE	🏮	\:izakaya_lantern:	Izakaya Lantern
 U+1F3EF	🏯	\:japanese_castle:	Japanese Castle
 U+1F3F0	🏰	\:european_castle:	European Castle
+U+1F3F4	🏴	\:waving_black_flag:	Waving Black Flag
+U+1F3F8	🏸	\:badminton_racquet_and_shuttlecock:	Badminton Racquet And Shuttlecock
+U+1F3F9	🏹	\:bow_and_arrow:	Bow And Arrow
+U+1F3FA	🏺	\:amphora:	Amphora
 U+1F3FB	🏻	\:skin-tone-2:	Emoji Modifier Fitzpatrick Type-1-2
 U+1F3FC	🏼	\:skin-tone-3:	Emoji Modifier Fitzpatrick Type-3
 U+1F3FD	🏽	\:skin-tone-4:	Emoji Modifier Fitzpatrick Type-4
@@ -2810,7 +2827,7 @@ U+1F41A	🐚	\:shell:	Spiral Shell
 U+1F41B	🐛	\:bug:	Bug
 U+1F41C	🐜	\:ant:	Ant
 U+1F41D	🐝	\:bee:	Honeybee
-U+1F41E	🐞	\:beetle:	Lady Beetle
+U+1F41E	🐞	\:ladybug:	Lady Beetle
 U+1F41F	🐟	\:fish:	Fish
 U+1F420	🐠	\:tropical_fish:	Tropical Fish
 U+1F421	🐡	\:blowfish:	Blowfish
@@ -2885,7 +2902,7 @@ U+1F467	👧	\:girl:	Girl
 U+1F468	👨	\:man:	Man
 U+1F469	👩	\:woman:	Woman
 U+1F46A	👪	\:family:	Family
-U+1F46B	👫	\:couple:	Man And Woman Holding Hands
+U+1F46B	👫	\:couple:, \:man_and_woman_holding_hands:	Man And Woman Holding Hands
 U+1F46C	👬	\:two_men_holding_hands:	Two Men Holding Hands
 U+1F46D	👭	\:two_women_holding_hands:	Two Women Holding Hands
 U+1F46E	👮	\:cop:	Police Officer
@@ -3003,7 +3020,7 @@ U+1F4DD	📝	\:memo:	Memo
 U+1F4DE	📞	\:telephone_receiver:	Telephone Receiver
 U+1F4DF	📟	\:pager:	Pager
 U+1F4E0	📠	\:fax:	Fax Machine
-U+1F4E1	📡	\:satellite:	Satellite Antenna
+U+1F4E1	📡	\:satellite:, \:satellite_antenna:	Satellite Antenna
 U+1F4E2	📢	\:loudspeaker:	Public Address Loudspeaker
 U+1F4E3	📣	\:mega:	Cheering Megaphone
 U+1F4E4	📤	\:outbox_tray:	Outbox Tray
@@ -3026,10 +3043,12 @@ U+1F4F4	📴	\:mobile_phone_off:	Mobile Phone Off
 U+1F4F5	📵	\:no_mobile_phones:	No Mobile Phones
 U+1F4F6	📶	\:signal_strength:	Antenna With Bars
 U+1F4F7	📷	\:camera:	Camera
+U+1F4F8	📸	\:camera_with_flash:	Camera With Flash
 U+1F4F9	📹	\:video_camera:	Video Camera
 U+1F4FA	📺	\:tv:	Television
 U+1F4FB	📻	\:radio:	Radio
 U+1F4FC	📼	\:vhs:	Videocassette
+U+1F4FF	📿	\:prayer_beads:	Prayer Beads
 U+1F500	🔀	\:twisted_rightwards_arrows:	Twisted Rightwards Arrows
 U+1F501	🔁	\:repeat:	Clockwise Rightwards And Leftwards Open Circle Arrows
 U+1F502	🔂	\:repeat_one:	Clockwise Rightwards And Leftwards Open Circle Arrows With Circled One Overlay
@@ -3092,6 +3111,10 @@ U+1F53A	🔺	\:small_red_triangle:	Up-Pointing Red Triangle
 U+1F53B	🔻	\:small_red_triangle_down:	Down-Pointing Red Triangle
 U+1F53C	🔼	\:arrow_up_small:	Up-Pointing Small Red Triangle
 U+1F53D	🔽	\:arrow_down_small:	Down-Pointing Small Red Triangle
+U+1F54B	🕋	\:kaaba:	Kaaba
+U+1F54C	🕌	\:mosque:	Mosque
+U+1F54D	🕍	\:synagogue:	Synagogue
+U+1F54E	🕎	\:menorah_with_nine_branches:	Menorah With Nine Branches
 U+1F550	🕐	\:clock1:	Clock Face One Oclock
 U+1F551	🕑	\:clock2:	Clock Face Two Oclock
 U+1F552	🕒	\:clock3:	Clock Face Three Oclock
@@ -3116,6 +3139,10 @@ U+1F564	🕤	\:clock930:	Clock Face Nine-Thirty
 U+1F565	🕥	\:clock1030:	Clock Face Ten-Thirty
 U+1F566	🕦	\:clock1130:	Clock Face Eleven-Thirty
 U+1F567	🕧	\:clock1230:	Clock Face Twelve-Thirty
+U+1F57A	🕺	\:man_dancing:	Man Dancing
+U+1F595	🖕	\:middle_finger:	Reversed Hand With Middle Finger Extended
+U+1F596	🖖	\:spock-hand:	Raised Hand With Part Between Middle And Ring Fingers
+U+1F5A4	🖤	\:black_heart:	Black Heart
 U+1F5FB	🗻	\:mount_fuji:	Mount Fuji
 U+1F5FC	🗼	\:tokyo_tower:	Tokyo Tower
 U+1F5FD	🗽	\:statue_of_liberty:	Statue Of Liberty
@@ -3186,6 +3213,10 @@ U+1F63D	😽	\:kissing_cat:	Kissing Cat Face With Closed Eyes
 U+1F63E	😾	\:pouting_cat:	Pouting Cat Face
 U+1F63F	😿	\:crying_cat_face:	Crying Cat Face
 U+1F640	🙀	\:scream_cat:	Weary Cat Face
+U+1F641	🙁	\:slightly_frowning_face:	Slightly Frowning Face
+U+1F642	🙂	\:slightly_smiling_face:	Slightly Smiling Face
+U+1F643	🙃	\:upside_down_face:	Upside-Down Face
+U+1F644	🙄	\:face_with_rolling_eyes:	Face With Rolling Eyes
 U+1F645	🙅	\:no_good:	Face With No Good Gesture
 U+1F646	🙆	\:ok_woman:	Face With Ok Gesture
 U+1F647	🙇	\:bow:	Person Bowing Deeply
@@ -3267,3 +3298,326 @@ U+1F6C2	🛂	\:passport_control:	Passport Control
 U+1F6C3	🛃	\:customs:	Customs
 U+1F6C4	🛄	\:baggage_claim:	Baggage Claim
 U+1F6C5	🛅	\:left_luggage:	Left Luggage
+U+1F6CC	🛌	\:sleeping_accommodation:	Sleeping Accommodation
+U+1F6D0	🛐	\:place_of_worship:	Place Of Worship
+U+1F6D1	🛑	\:octagonal_sign:	Octagonal Sign
+U+1F6D2	🛒	\:shopping_trolley:	Shopping Trolley
+U+1F6D5	🛕	\:hindu_temple:	Hindu Temple
+U+1F6D6	🛖	\:hut:	Hut
+U+1F6D7	🛗	\:elevator:	Elevator
+U+1F6EB	🛫	\:airplane_departure:	Airplane Departure
+U+1F6EC	🛬	\:airplane_arriving:	Airplane Arriving
+U+1F6F4	🛴	\:scooter:	Scooter
+U+1F6F5	🛵	\:motor_scooter:	Motor Scooter
+U+1F6F6	🛶	\:canoe:	Canoe
+U+1F6F7	🛷	\:sled:	Sled
+U+1F6F8	🛸	\:flying_saucer:	Flying Saucer
+U+1F6F9	🛹	\:skateboard:	Skateboard
+U+1F6FA	🛺	\:auto_rickshaw:	Auto Rickshaw
+U+1F6FB	🛻	\:pickup_truck:	Pickup Truck
+U+1F6FC	🛼	\:roller_skate:	Roller Skate
+U+1F7E0	🟠	\:large_orange_circle:	Large Orange Circle
+U+1F7E1	🟡	\:large_yellow_circle:	Large Yellow Circle
+U+1F7E2	🟢	\:large_green_circle:	Large Green Circle
+U+1F7E3	🟣	\:large_purple_circle:	Large Purple Circle
+U+1F7E4	🟤	\:large_brown_circle:	Large Brown Circle
+U+1F7E5	🟥	\:large_red_square:	Large Red Square
+U+1F7E6	🟦	\:large_blue_square:	Large Blue Square
+U+1F7E7	🟧	\:large_orange_square:	Large Orange Square
+U+1F7E8	🟨	\:large_yellow_square:	Large Yellow Square
+U+1F7E9	🟩	\:large_green_square:	Large Green Square
+U+1F7EA	🟪	\:large_purple_square:	Large Purple Square
+U+1F7EB	🟫	\:large_brown_square:	Large Brown Square
+U+1F90C	🤌	\:pinched_fingers:	Pinched Fingers
+U+1F90D	🤍	\:white_heart:	White Heart
+U+1F90E	🤎	\:brown_heart:	Brown Heart
+U+1F90F	🤏	\:pinching_hand:	Pinching Hand
+U+1F910	🤐	\:zipper_mouth_face:	Zipper-Mouth Face
+U+1F911	🤑	\:money_mouth_face:	Money-Mouth Face
+U+1F912	🤒	\:face_with_thermometer:	Face With Thermometer
+U+1F913	🤓	\:nerd_face:	Nerd Face
+U+1F914	🤔	\:thinking_face:	Thinking Face
+U+1F915	🤕	\:face_with_head_bandage:	Face With Head-Bandage
+U+1F916	🤖	\:robot_face:	Robot Face
+U+1F917	🤗	\:hugging_face:	Hugging Face
+U+1F918	🤘	\:the_horns:	Sign Of The Horns
+U+1F919	🤙	\:call_me_hand:	Call Me Hand
+U+1F91A	🤚	\:raised_back_of_hand:	Raised Back Of Hand
+U+1F91B	🤛	\:left-facing_fist:	Left-Facing Fist
+U+1F91C	🤜	\:right-facing_fist:	Right-Facing Fist
+U+1F91D	🤝	\:handshake:	Handshake
+U+1F91E	🤞	\:crossed_fingers:	Hand With Index And Middle Fingers Crossed
+U+1F91F	🤟	\:i_love_you_hand_sign:	I Love You Hand Sign
+U+1F920	🤠	\:face_with_cowboy_hat:	Face With Cowboy Hat
+U+1F921	🤡	\:clown_face:	Clown Face
+U+1F922	🤢	\:nauseated_face:	Nauseated Face
+U+1F923	🤣	\:rolling_on_the_floor_laughing:	Rolling On The Floor Laughing
+U+1F924	🤤	\:drooling_face:	Drooling Face
+U+1F925	🤥	\:lying_face:	Lying Face
+U+1F926	🤦	\:face_palm:	Face Palm
+U+1F927	🤧	\:sneezing_face:	Sneezing Face
+U+1F928	🤨	\:face_with_raised_eyebrow:	Face With One Eyebrow Raised
+U+1F929	🤩	\:star-struck:	Grinning Face With Star Eyes
+U+1F92A	🤪	\:zany_face:	Grinning Face With One Large And One Small Eye
+U+1F92B	🤫	\:shushing_face:	Face With Finger Covering Closed Lips
+U+1F92C	🤬	\:face_with_symbols_on_mouth:	Serious Face With Symbols Covering Mouth
+U+1F92D	🤭	\:face_with_hand_over_mouth:	Smiling Face With Smiling Eyes And Hand Covering Mouth
+U+1F92E	🤮	\:face_vomiting:	Face With Open Mouth Vomiting
+U+1F92F	🤯	\:exploding_head:	Shocked Face With Exploding Head
+U+1F930	🤰	\:pregnant_woman:	Pregnant Woman
+U+1F931	🤱	\:breast-feeding:	Breast-Feeding
+U+1F932	🤲	\:palms_up_together:	Palms Up Together
+U+1F933	🤳	\:selfie:	Selfie
+U+1F934	🤴	\:prince:	Prince
+U+1F935	🤵	\:person_in_tuxedo:	Man In Tuxedo
+U+1F936	🤶	\:mrs_claus:	Mother Christmas
+U+1F937	🤷	\:shrug:	Shrug
+U+1F938	🤸	\:person_doing_cartwheel:	Person Doing Cartwheel
+U+1F939	🤹	\:juggling:	Juggling
+U+1F93A	🤺	\:fencer:	Fencer
+U+1F93C	🤼	\:wrestlers:	Wrestlers
+U+1F93D	🤽	\:water_polo:	Water Polo
+U+1F93E	🤾	\:handball:	Handball
+U+1F93F	🤿	\:diving_mask:	Diving Mask
+U+1F940	🥀	\:wilted_flower:	Wilted Flower
+U+1F941	🥁	\:drum_with_drumsticks:	Drum With Drumsticks
+U+1F942	🥂	\:clinking_glasses:	Clinking Glasses
+U+1F943	🥃	\:tumbler_glass:	Tumbler Glass
+U+1F944	🥄	\:spoon:	Spoon
+U+1F945	🥅	\:goal_net:	Goal Net
+U+1F947	🥇	\:first_place_medal:	First Place Medal
+U+1F948	🥈	\:second_place_medal:	Second Place Medal
+U+1F949	🥉	\:third_place_medal:	Third Place Medal
+U+1F94A	🥊	\:boxing_glove:	Boxing Glove
+U+1F94B	🥋	\:martial_arts_uniform:	Martial Arts Uniform
+U+1F94C	🥌	\:curling_stone:	Curling Stone
+U+1F94D	🥍	\:lacrosse:	Lacrosse Stick And Ball
+U+1F94E	🥎	\:softball:	Softball
+U+1F94F	🥏	\:flying_disc:	Flying Disc
+U+1F950	🥐	\:croissant:	Croissant
+U+1F951	🥑	\:avocado:	Avocado
+U+1F952	🥒	\:cucumber:	Cucumber
+U+1F953	🥓	\:bacon:	Bacon
+U+1F954	🥔	\:potato:	Potato
+U+1F955	🥕	\:carrot:	Carrot
+U+1F956	🥖	\:baguette_bread:	Baguette Bread
+U+1F957	🥗	\:green_salad:	Green Salad
+U+1F958	🥘	\:shallow_pan_of_food:	Shallow Pan Of Food
+U+1F959	🥙	\:stuffed_flatbread:	Stuffed Flatbread
+U+1F95A	🥚	\:egg:	Egg
+U+1F95B	🥛	\:glass_of_milk:	Glass Of Milk
+U+1F95C	🥜	\:peanuts:	Peanuts
+U+1F95D	🥝	\:kiwifruit:	Kiwifruit
+U+1F95E	🥞	\:pancakes:	Pancakes
+U+1F95F	🥟	\:dumpling:	Dumpling
+U+1F960	🥠	\:fortune_cookie:	Fortune Cookie
+U+1F961	🥡	\:takeout_box:	Takeout Box
+U+1F962	🥢	\:chopsticks:	Chopsticks
+U+1F963	🥣	\:bowl_with_spoon:	Bowl With Spoon
+U+1F964	🥤	\:cup_with_straw:	Cup With Straw
+U+1F965	🥥	\:coconut:	Coconut
+U+1F966	🥦	\:broccoli:	Broccoli
+U+1F967	🥧	\:pie:	Pie
+U+1F968	🥨	\:pretzel:	Pretzel
+U+1F969	🥩	\:cut_of_meat:	Cut Of Meat
+U+1F96A	🥪	\:sandwich:	Sandwich
+U+1F96B	🥫	\:canned_food:	Canned Food
+U+1F96C	🥬	\:leafy_green:	Leafy Green
+U+1F96D	🥭	\:mango:	Mango
+U+1F96E	🥮	\:moon_cake:	Moon Cake
+U+1F96F	🥯	\:bagel:	Bagel
+U+1F970	🥰	\:smiling_face_with_3_hearts:	Smiling Face With Smiling Eyes And Three Hearts
+U+1F971	🥱	\:yawning_face:	Yawning Face
+U+1F972	🥲	\:smiling_face_with_tear:	Smiling Face With Tear
+U+1F973	🥳	\:partying_face:	Face With Party Horn And Party Hat
+U+1F974	🥴	\:woozy_face:	Face With Uneven Eyes And Wavy Mouth
+U+1F975	🥵	\:hot_face:	Overheated Face
+U+1F976	🥶	\:cold_face:	Freezing Face
+U+1F977	🥷	\:ninja:	Ninja
+U+1F978	🥸	\:disguised_face:	Disguised Face
+U+1F97A	🥺	\:pleading_face:	Face With Pleading Eyes
+U+1F97B	🥻	\:sari:	Sari
+U+1F97C	🥼	\:lab_coat:	Lab Coat
+U+1F97D	🥽	\:goggles:	Goggles
+U+1F97E	🥾	\:hiking_boot:	Hiking Boot
+U+1F97F	🥿	\:womans_flat_shoe:	Flat Shoe
+U+1F980	🦀	\:crab:	Crab
+U+1F981	🦁	\:lion_face:	Lion Face
+U+1F982	🦂	\:scorpion:	Scorpion
+U+1F983	🦃	\:turkey:	Turkey
+U+1F984	🦄	\:unicorn_face:	Unicorn Face
+U+1F985	🦅	\:eagle:	Eagle
+U+1F986	🦆	\:duck:	Duck
+U+1F987	🦇	\:bat:	Bat
+U+1F988	🦈	\:shark:	Shark
+U+1F989	🦉	\:owl:	Owl
+U+1F98A	🦊	\:fox_face:	Fox Face
+U+1F98B	🦋	\:butterfly:	Butterfly
+U+1F98C	🦌	\:deer:	Deer
+U+1F98D	🦍	\:gorilla:	Gorilla
+U+1F98E	🦎	\:lizard:	Lizard
+U+1F98F	🦏	\:rhinoceros:	Rhinoceros
+U+1F990	🦐	\:shrimp:	Shrimp
+U+1F991	🦑	\:squid:	Squid
+U+1F992	🦒	\:giraffe_face:	Giraffe Face
+U+1F993	🦓	\:zebra_face:	Zebra Face
+U+1F994	🦔	\:hedgehog:	Hedgehog
+U+1F995	🦕	\:sauropod:	Sauropod
+U+1F996	🦖	\:t-rex:	T-Rex
+U+1F997	🦗	\:cricket:	Cricket
+U+1F998	🦘	\:kangaroo:	Kangaroo
+U+1F999	🦙	\:llama:	Llama
+U+1F99A	🦚	\:peacock:	Peacock
+U+1F99B	🦛	\:hippopotamus:	Hippopotamus
+U+1F99C	🦜	\:parrot:	Parrot
+U+1F99D	🦝	\:raccoon:	Raccoon
+U+1F99E	🦞	\:lobster:	Lobster
+U+1F99F	🦟	\:mosquito:	Mosquito
+U+1F9A0	🦠	\:microbe:	Microbe
+U+1F9A1	🦡	\:badger:	Badger
+U+1F9A2	🦢	\:swan:	Swan
+U+1F9A3	🦣	\:mammoth:	Mammoth
+U+1F9A4	🦤	\:dodo:	Dodo
+U+1F9A5	🦥	\:sloth:	Sloth
+U+1F9A6	🦦	\:otter:	Otter
+U+1F9A7	🦧	\:orangutan:	Orangutan
+U+1F9A8	🦨	\:skunk:	Skunk
+U+1F9A9	🦩	\:flamingo:	Flamingo
+U+1F9AA	🦪	\:oyster:	Oyster
+U+1F9AB	🦫	\:beaver:	Beaver
+U+1F9AC	🦬	\:bison:	Bison
+U+1F9AD	🦭	\:seal:	Seal
+U+1F9AE	🦮	\:guide_dog:	Guide Dog
+U+1F9AF	🦯	\:probing_cane:	Probing Cane
+U+1F9B4	🦴	\:bone:	Bone
+U+1F9B5	🦵	\:leg:	Leg
+U+1F9B6	🦶	\:foot:	Foot
+U+1F9B7	🦷	\:tooth:	Tooth
+U+1F9B8	🦸	\:superhero:	Superhero
+U+1F9B9	🦹	\:supervillain:	Supervillain
+U+1F9BA	🦺	\:safety_vest:	Safety Vest
+U+1F9BB	🦻	\:ear_with_hearing_aid:	Ear With Hearing Aid
+U+1F9BC	🦼	\:motorized_wheelchair:	Motorized Wheelchair
+U+1F9BD	🦽	\:manual_wheelchair:	Manual Wheelchair
+U+1F9BE	🦾	\:mechanical_arm:	Mechanical Arm
+U+1F9BF	🦿	\:mechanical_leg:	Mechanical Leg
+U+1F9C0	🧀	\:cheese_wedge:	Cheese Wedge
+U+1F9C1	🧁	\:cupcake:	Cupcake
+U+1F9C2	🧂	\:salt:	Salt Shaker
+U+1F9C3	🧃	\:beverage_box:	Beverage Box
+U+1F9C4	🧄	\:garlic:	Garlic
+U+1F9C5	🧅	\:onion:	Onion
+U+1F9C6	🧆	\:falafel:	Falafel
+U+1F9C7	🧇	\:waffle:	Waffle
+U+1F9C8	🧈	\:butter:	Butter
+U+1F9C9	🧉	\:mate_drink:	Mate Drink
+U+1F9CA	🧊	\:ice_cube:	Ice Cube
+U+1F9CB	🧋	\:bubble_tea:	Bubble Tea
+U+1F9CD	🧍	\:standing_person:	Standing Person
+U+1F9CE	🧎	\:kneeling_person:	Kneeling Person
+U+1F9CF	🧏	\:deaf_person:	Deaf Person
+U+1F9D0	🧐	\:face_with_monocle:	Face With Monocle
+U+1F9D1	🧑	\:adult:	Adult
+U+1F9D2	🧒	\:child:	Child
+U+1F9D3	🧓	\:older_adult:	Older Adult
+U+1F9D4	🧔	\:bearded_person:	Bearded Person
+U+1F9D5	🧕	\:person_with_headscarf:	Person With Headscarf
+U+1F9D6	🧖	\:person_in_steamy_room:	Person In Steamy Room
+U+1F9D7	🧗	\:person_climbing:	Person Climbing
+U+1F9D8	🧘	\:person_in_lotus_position:	Person In Lotus Position
+U+1F9D9	🧙	\:mage:	Mage
+U+1F9DA	🧚	\:fairy:	Fairy
+U+1F9DB	🧛	\:vampire:	Vampire
+U+1F9DC	🧜	\:merperson:	Merperson
+U+1F9DD	🧝	\:elf:	Elf
+U+1F9DE	🧞	\:genie:	Genie
+U+1F9DF	🧟	\:zombie:	Zombie
+U+1F9E0	🧠	\:brain:	Brain
+U+1F9E1	🧡	\:orange_heart:	Orange Heart
+U+1F9E2	🧢	\:billed_cap:	Billed Cap
+U+1F9E3	🧣	\:scarf:	Scarf
+U+1F9E4	🧤	\:gloves:	Gloves
+U+1F9E5	🧥	\:coat:	Coat
+U+1F9E6	🧦	\:socks:	Socks
+U+1F9E7	🧧	\:red_envelope:	Red Gift Envelope
+U+1F9E8	🧨	\:firecracker:	Firecracker
+U+1F9E9	🧩	\:jigsaw:	Jigsaw Puzzle Piece
+U+1F9EA	🧪	\:test_tube:	Test Tube
+U+1F9EB	🧫	\:petri_dish:	Petri Dish
+U+1F9EC	🧬	\:dna:	Dna Double Helix
+U+1F9ED	🧭	\:compass:	Compass
+U+1F9EE	🧮	\:abacus:	Abacus
+U+1F9EF	🧯	\:fire_extinguisher:	Fire Extinguisher
+U+1F9F0	🧰	\:toolbox:	Toolbox
+U+1F9F1	🧱	\:bricks:	Brick
+U+1F9F2	🧲	\:magnet:	Magnet
+U+1F9F3	🧳	\:luggage:	Luggage
+U+1F9F4	🧴	\:lotion_bottle:	Lotion Bottle
+U+1F9F5	🧵	\:thread:	Spool Of Thread
+U+1F9F6	🧶	\:yarn:	Ball Of Yarn
+U+1F9F7	🧷	\:safety_pin:	Safety Pin
+U+1F9F8	🧸	\:teddy_bear:	Teddy Bear
+U+1F9F9	🧹	\:broom:	Broom
+U+1F9FA	🧺	\:basket:	Basket
+U+1F9FB	🧻	\:roll_of_paper:	Roll Of Paper
+U+1F9FC	🧼	\:soap:	Bar Of Soap
+U+1F9FD	🧽	\:sponge:	Sponge
+U+1F9FE	🧾	\:receipt:	Receipt
+U+1F9FF	🧿	\:nazar_amulet:	Nazar Amulet
+U+1FA70	🩰	\:ballet_shoes:	Ballet Shoes
+U+1FA71	🩱	\:one-piece_swimsuit:	One-Piece Swimsuit
+U+1FA72	🩲	\:briefs:	Briefs
+U+1FA73	🩳	\:shorts:	Shorts
+U+1FA74	🩴	\:thong_sandal:	Thong Sandal
+U+1FA78	🩸	\:drop_of_blood:	Drop Of Blood
+U+1FA79	🩹	\:adhesive_bandage:	Adhesive Bandage
+U+1FA7A	🩺	\:stethoscope:	Stethoscope
+U+1FA80	🪀	\:yo-yo:	Yo-Yo
+U+1FA81	🪁	\:kite:	Kite
+U+1FA82	🪂	\:parachute:	Parachute
+U+1FA83	🪃	\:boomerang:	Boomerang
+U+1FA84	🪄	\:magic_wand:	Magic Wand
+U+1FA85	🪅	\:pinata:	Pinata
+U+1FA86	🪆	\:nesting_dolls:	Nesting Dolls
+U+1FA90	🪐	\:ringed_planet:	Ringed Planet
+U+1FA91	🪑	\:chair:	Chair
+U+1FA92	🪒	\:razor:	Razor
+U+1FA93	🪓	\:axe:	Axe
+U+1FA94	🪔	\:diya_lamp:	Diya Lamp
+U+1FA95	🪕	\:banjo:	Banjo
+U+1FA96	🪖	\:military_helmet:	Military Helmet
+U+1FA97	🪗	\:accordion:	Accordion
+U+1FA98	🪘	\:long_drum:	Long Drum
+U+1FA99	🪙	\:coin:	Coin
+U+1FA9A	🪚	\:carpentry_saw:	Carpentry Saw
+U+1FA9B	🪛	\:screwdriver:	Screwdriver
+U+1FA9C	🪜	\:ladder:	Ladder
+U+1FA9D	🪝	\:hook:	Hook
+U+1FA9E	🪞	\:mirror:	Mirror
+U+1FA9F	🪟	\:window:	Window
+U+1FAA0	🪠	\:plunger:	Plunger
+U+1FAA1	🪡	\:sewing_needle:	Sewing Needle
+U+1FAA2	🪢	\:knot:	Knot
+U+1FAA3	🪣	\:bucket:	Bucket
+U+1FAA4	🪤	\:mouse_trap:	Mouse Trap
+U+1FAA5	🪥	\:toothbrush:	Toothbrush
+U+1FAA6	🪦	\:headstone:	Headstone
+U+1FAA7	🪧	\:placard:	Placard
+U+1FAA8	🪨	\:rock:	Rock
+U+1FAB0	🪰	\:fly:	Fly
+U+1FAB1	🪱	\:worm:	Worm
+U+1FAB2	🪲	\:beetle:	Beetle
+U+1FAB3	🪳	\:cockroach:	Cockroach
+U+1FAB4	🪴	\:potted_plant:	Potted Plant
+U+1FAB5	🪵	\:wood:	Wood
+U+1FAB6	🪶	\:feather:	Feather
+U+1FAC0	🫀	\:anatomical_heart:	Anatomical Heart
+U+1FAC1	🫁	\:lungs:	Lungs
+U+1FAC2	🫂	\:people_hugging:	People Hugging
+U+1FAD0	🫐	\:blueberries:	Blueberries
+U+1FAD1	🫑	\:bell_pepper:	Bell Pepper
+U+1FAD2	🫒	\:olive:	Olive
+U+1FAD3	🫓	\:flatbread:	Flatbread
+U+1FAD4	🫔	\:tamale:	Tamale
+U+1FAD5	🫕	\:fondue:	Fondue
+U+1FAD6	🫖	\:teapot:	Teapot
