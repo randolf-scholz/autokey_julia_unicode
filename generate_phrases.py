@@ -27,7 +27,7 @@ else:
     print(f"Found autokey directory at {BASE_PATH}.")
 
 UNICODE_PATTERN = ("U", "+") + (hexdigits,) * 5
-ABBRV_CHARS = ascii_letters + digits + ";,:^/_+-=()!|*~%"
+ABBRV_CHARS = ascii_letters + digits + ";,.:^/_+-=()!|*~%"
 
 ILLEGAL_FILENAME_CHARS_LINUX = ["/"]
 ILLEGAL_FILENAME_CHARS_WINDOWS = list(r'\/?%*:|"<>.,;=')
@@ -106,7 +106,8 @@ def is_unicode(s: str) -> bool:
 
 def is_abbrv(s: str) -> bool:
     """Check if string is a valid abbreviation."""
-    return len(s) > 1 and s[0] == "\\" and all(c in ABBRV_CHARS for c in s[1:])
+    return len(s) > 1 and s[0] == "\\" and " " not in s and "\t" not in s
+    # all(c in ABBRV_CHARS for c in s[1:])
 
 
 def query_choice(choices: list[str], question: Optional[str] = None) -> str:
