@@ -262,3 +262,6 @@ U+24E7	ⓧ	\ox	CIRCLED LATIN SMALL LETTER X
 U+24E8	ⓨ	\oy	CIRCLED LATIN SMALL LETTER Y
 U+24E9	ⓩ	\oz	CIRCLED LATIN SMALL LETTER Z
 U+24EA	⓪	\o0	CIRCLED DIGIT ZERO
+U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
+U+FE62	﹢	\p, \smallplus, \unaryplus	Small Plus Sign
+U+FE63	﹣	\m, \smallminus, \unaryminus	Small Hyphen-Minus 
