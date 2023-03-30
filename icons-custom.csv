@@ -27,8 +27,8 @@ U+FF1A	：	\:, \colon	Fullwidth Colon
 U+2610	☐	\bbox	Ballot Box
 U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
 U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X 
-U+FE62	﹢	\+	Small Plus Sign
-U+FE63	﹣	\- 	Small Hyphen-Minus 
+U+FE62	﹢	\+, \smallplus, \unaryplus	Small Plus Sign
+U+FE63	﹣	\-, \smallminus, \unaryminus	Small Hyphen-Minus 
 U+204E	⁎	\_*	Low Asterisk
 U+2030	‰	\%%, \permille	Per Mille Sign
 U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
@@ -263,5 +263,3 @@ U+24E8	ⓨ	\oy	CIRCLED LATIN SMALL LETTER Y
 U+24E9	ⓩ	\oz	CIRCLED LATIN SMALL LETTER Z
 U+24EA	⓪	\o0	CIRCLED DIGIT ZERO
 U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
-U+FE62	﹢	\p, \smallplus, \unaryplus	Small Plus Sign
-U+FE63	﹣	\m, \smallminus, \unaryminus	Small Hyphen-Minus 
