@@ -263,3 +263,14 @@ U+24E8	ⓨ	\oy	CIRCLED LATIN SMALL LETTER Y
 U+24E9	ⓩ	\oz	CIRCLED LATIN SMALL LETTER Z
 U+24EA	⓪	\o0	CIRCLED DIGIT ZERO
 U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
+U+2032	′	\’	Prime
+U+2033	″	\’’	Double Prime
+U+2034	‴	\’’’	Triple Prime
+U+2035	‵	\`	Reversed Prime
+U+2036	‶	\``	Reversed Double Prime
+U+2037	‷	\```	Reversed Triple Prime
+U+2057	⁗	\’’’’	Quadruple Prime
+U+2047	⁇	\??	Double Question Mark
+U+2048	⁈	\?!	Question Exclamation Mark
+U+2049	⁉	\!?	Exclamation Question Mark
+U+203C	‼	\!!	Double Exclamation Mark
