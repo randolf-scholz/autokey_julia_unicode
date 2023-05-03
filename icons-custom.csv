@@ -1,75 +1,39 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
-U+2016	‖	\norm, \|	Double Vertical Line
-U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
-U+02030	‰	\permille	Per Mille Sign
-U+027F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
-U+027F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
-U+02190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
-U+02206	∆	\increment, \inc	Increment
-U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow, Lightning, Contradiction
-U+2717	✗	\xmark, \ballot_x	Ballot X
-U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
-U+274C	❌	\redxmark, \cross_mark	Cross Mark
-U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
-U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
-U+2713	✓	\cmark, \checkmark	Check Mark
-U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
-U+2705	✅	\cmarkbox	White Heavy Check Mark
-U+021DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
-U+021DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
-U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
-U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
-U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
-U+1F937	¯\_(ツ)_/¯	\:shrug:	Shrug Emoji
-U+2AEB	⫫	\independence, \indep, \independent	Independence
-U+2014	—	\--	Em Dash
-U+FF1A	：	\:, \colon	Fullwidth Colon
-U+2610	☐	\bbox	Ballot Box
-U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
-U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X 
-U+FE62	﹢	\+, \smallplus, \unaryplus	Small Plus Sign
-U+FE63	﹣	\-, \smallminus, \unaryminus	Small Hyphen-Minus 
-U+204E	⁎	\_*	Low Asterisk
-U+2030	‰	\%%, \permille	Per Mille Sign
-U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
-U+FF0C	，	\,, \fullwidthcomma	Fullwidth Comma
-U+FF1B	；	\;, \fullwidthsemicolon	Fullwidth Semicolon
-U+0039F	Ο	\Omicron	Greek Capital Letter Omicron
 U+0039C	Μ	\Mu	Greek Capital Letter Mu
 U+0039D	Ν	\Nu	Greek Capital Letter Nu
+U+0039F	Ο	\Omicron	Greek Capital Letter Omicron
 U+003BF	ο	\omicron	Greek Small Letter Omicron
-U+22C5	⋅	\cdotp	Dot Operator
-U+2219	∙	\bullet	Bullet Operator
-U+2022	•	\textbullet	Bullet
-U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
-U+030A	̊	\ring	Combining Ring Above
-U+211C	ℜ	\frakR	Black-Letter Capital R
-U+2111	ℑ	\frakI	Black-Letter Capital I
-U+1D00	ᴀ	\scA	Latin Letter Small Capital A
+U+00B0	°	\deg	Degree Sign
+U+02030	‰	\permille	Per Mille Sign
+U+02190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
+U+021DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
+U+021DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
+U+02206	∆	\increment, \inc	Increment
+U+0262	ɢ	\scG	Latin Letter Small Capital G
+U+026A	ɪ	\scI	Latin Letter Small Capital I
+U+0274	ɴ	\scN	Latin Letter Small Capital N
+U+027F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
+U+027F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
+U+0280	ʀ	\scR	Latin Letter Small Capital R
+U+028F	ʏ	\scY	Latin Letter Small Capital Y
 U+0299	ʙ	\scB	Latin Letter Small Capital B
+U+029C	ʜ	\scH	Latin Letter Small Capital H
+U+029F	ʟ	\scL	Latin Letter Small Capital L
+U+030A	̊	\ring	Combining Ring Above
+U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
+U+1D00	ᴀ	\scA	Latin Letter Small Capital A
 U+1D04	ᴄ	\scC	Latin Letter Small Capital C
 U+1D05	ᴅ	\scD	Latin Letter Small Capital D
 U+1D07	ᴇ	\scE	Latin Letter Small Capital E
-U+A730	ꜰ	\scF	Latin Letter Small Capital F
-U+0262	ɢ	\scG	Latin Letter Small Capital G
-U+029C	ʜ	\scH	Latin Letter Small Capital H
-U+026A	ɪ	\scI	Latin Letter Small Capital I
 U+1D0A	ᴊ	\scJ	Latin Letter Small Capital J
 U+1D0B	ᴋ	\scK	Latin Letter Small Capital K
-U+029F	ʟ	\scL	Latin Letter Small Capital L
 U+1D0D	ᴍ	\scM	Latin Letter Small Capital M
-U+0274	ɴ	\scN	Latin Letter Small Capital N
 U+1D0F	ᴏ	\scO	Latin Letter Small Capital O
 U+1D18	ᴘ	\scP	Latin Letter Small Capital P
-U+A7AF	ꞯ	\scQ	Latin Letter Small Capital Q
-U+0280	ʀ	\scR	Latin Letter Small Capital R
-U+A731	ꜱ	\scS	Latin Letter Small Capital S
 U+1D1B	ᴛ	\scT	Latin Letter Small Capital T
 U+1D1C	ᴜ	\scU	Latin Letter Small Capital U
 U+1D20	ᴠ	\scV	Latin Letter Small Capital V
 U+1D21	ᴡ	\scW	Latin Letter Small Capital W
-		\scX	Latin Letter Small Capital X
-U+028F	ʏ	\scY	Latin Letter Small Capital Y
 U+1D22	ᴢ	\scZ	Latin Letter Small Capital Z
 U+1D7CE	𝟎	\bf0	Mathematical Bold Digit Zero
 U+1D7CF	𝟏	\bf1	Mathematical Bold Digit One
@@ -121,8 +85,35 @@ U+1D7FC	𝟼	\tt6	Mathematical Monospace Digit Six
 U+1D7FD	𝟽	\tt7	Mathematical Monospace Digit Seven
 U+1D7FE	𝟾	\tt8	Mathematical Monospace Digit Eight
 U+1D7FF	𝟿	\tt9	Mathematical Monospace Digit Nine
-U+00B0	°	\deg	Degree Sign
+U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X 
+U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
+U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
+U+1F937	¯\_(ツ)_/¯	\:shrug:	Shrug Emoji
+U+2014	—	\--	Em Dash
+U+2016	‖	\norm, \|	Double Vertical Line
+U+2022	•	\textbullet	Bullet
+U+2030	‰	\%%, \permille	Per Mille Sign
+U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
+U+2032	′	\’	Prime
+U+2033	″	\’’	Double Prime
+U+2034	‴	\’’’	Triple Prime
+U+2035	‵	\`	Reversed Prime
+U+2036	‶	\``	Reversed Double Prime
+U+2037	‷	\```	Reversed Triple Prime
+U+203C	‼	\!!	Double Exclamation Mark
 U+2044	⁄	\/, \over	Fraction Slash
+U+2047	⁇	\??	Double Question Mark
+U+2048	⁈	\?!	Question Exclamation Mark
+U+2049	⁉	\!?	Exclamation Question Mark
+U+204E	⁎	\_*	Low Asterisk
+U+2057	⁗	\’’’’	Quadruple Prime
+U+2111	ℑ	\frakI	Black-Letter Capital I
+U+211C	ℜ	\frakR	Black-Letter Capital R
+U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
+U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow, Lightning, Contradiction
+U+2219	∙	\bullet	Bullet Operator
+U+22C5	⋅	\cdotp	Dot Operator
+U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
 U+2460	①	\o1	CIRCLED DIGIT ONE
 U+2461	②	\o2	CIRCLED DIGIT TWO
 U+2462	③	\o3	CIRCLED DIGIT THREE
@@ -262,15 +253,56 @@ U+24E7	ⓧ	\ox	CIRCLED LATIN SMALL LETTER X
 U+24E8	ⓨ	\oy	CIRCLED LATIN SMALL LETTER Y
 U+24E9	ⓩ	\oz	CIRCLED LATIN SMALL LETTER Z
 U+24EA	⓪	\o0	CIRCLED DIGIT ZERO
-U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
-U+2032	′	\’	Prime
-U+2033	″	\’’	Double Prime
-U+2034	‴	\’’’	Triple Prime
-U+2035	‵	\`	Reversed Prime
-U+2036	‶	\``	Reversed Double Prime
-U+2037	‷	\```	Reversed Triple Prime
-U+2057	⁗	\’’’’	Quadruple Prime
-U+2047	⁇	\??	Double Question Mark
-U+2048	⁈	\?!	Question Exclamation Mark
-U+2049	⁉	\!?	Exclamation Question Mark
-U+203C	‼	\!!	Double Exclamation Mark
+U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
+U+2610	☐	\bbox	Ballot Box
+U+2705	✅	\cmarkbox	White Heavy Check Mark
+U+2713	✓	\cmark, \checkmark	Check Mark
+U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
+U+2717	✗	\xmark, \ballot_x	Ballot X
+U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
+U+274C	❌	\redxmark, \cross_mark	Cross Mark
+U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
+U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
+U+2AEB	⫫	\independence, \indep, \independent	Independence
+U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
+U+A730	ꜰ	\scF	Latin Letter Small Capital F
+U+A731	ꜱ	\scS	Latin Letter Small Capital S
+U+A7AF	ꞯ	\scQ	Latin Letter Small Capital Q
+U+FE62	﹢	\+, \smallplus, \unaryplus	Small Plus Sign
+U+FE63	﹣	\-, \smallminus, \unaryminus	Small Hyphen-Minus 
+U+FF0C	，	\,, \fullwidthcomma	Fullwidth Comma
+U+FF1A	：	\:, \colon	Fullwidth Colon
+U+FF1B	；	\;, \fullwidthsemicolon	Fullwidth Semicolon
+		\scX	Latin Letter Small Capital X
+U+2160	Ⅰ	\RM1	Roman Numeral One
+U+2161	Ⅱ	\RM2	Roman Numeral Two
+U+2162	Ⅲ	\RM3	Roman Numeral Three
+U+2163	Ⅳ	\RM4	Roman Numeral Four
+U+2164	Ⅴ	\RM5	Roman Numeral Five
+U+2165	Ⅵ	\RM6	Roman Numeral Six
+U+2166	Ⅶ	\RM7	Roman Numeral Seven
+U+2167	Ⅷ	\RM8	Roman Numeral Eight
+U+2168	Ⅸ	\RM9	Roman Numeral Nine
+U+2169	Ⅹ	\RM10	Roman Numeral Ten
+U+216A	Ⅺ	\RM11	Roman Numeral Eleven
+U+216B	Ⅻ	\RM12	Roman Numeral Twelve
+U+216C	Ⅼ 	\RM50	Roman Numeral Fifty
+U+216D	Ⅽ	\RM100	Roman Numeral One Hundred
+U+216E	Ⅾ	\RM500	Roman Numeral Five Hundred
+U+216F	Ⅿ	\RM1000	Roman Numeral One Thousand
+U+2170	ⅰ	\rm1	Small Roman Numeral One
+U+2171	ⅱ	\rm2	Small Roman Numeral Two
+U+2172	ⅲ	\rm3	Small Roman Numeral Three
+U+2173	ⅳ	\rm4	Small Roman Numeral Four
+U+2174	ⅴ	\rm5	Small Roman Numeral Five
+U+2175	ⅵ	\rm6	Small Roman Numeral Six
+U+2176	ⅶ	\rm7	Small Roman Numeral Seven
+U+2177	ⅷ	\rm8	Small Roman Numeral Eight
+U+2178	ⅸ	\rm9	Small Roman Numeral Nine
+U+2179	ⅹ	\rm10	Small Roman Numeral Ten
+U+217A	ⅺ	\rm11	Small Roman Numeral Eleven
+U+217B	ⅻ	\rm12	Small Roman Numeral Twelve
+U+217C	ⅼ	\rm50	Small Roman Numeral Fifty
+U+217D	ⅽ	\rm100	Small Roman Numeral One Hundred
+U+217E	ⅾ	\rm500	Small Roman Numeral Five Hundred
+U+217F	ⅿ	\rm1000	Small Roman Numeral One Thousand
