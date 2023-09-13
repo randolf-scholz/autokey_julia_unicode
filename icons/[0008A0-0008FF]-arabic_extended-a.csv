@@ -1,0 +1,97 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+08A0	"""ࢠ"""	08A0..08FF	Arabic Extended-A	Arabic letter beh with small v below		
+08A1	"""ࢡ"""	08A0..08FF	Arabic Extended-A	Arabic letter beh with hamza above		
+08A2	"""ࢢ"""	08A0..08FF	Arabic Extended-A	Arabic letter jeem with two dots above		
+08A3	"""ࢣ"""	08A0..08FF	Arabic Extended-A	Arabic letter tah with two dots above		
+08A4	"""ࢤ"""	08A0..08FF	Arabic Extended-A	Arabic letter feh with dot below and three dots above		
+08A5	"""ࢥ"""	08A0..08FF	Arabic Extended-A	Arabic letter qaf with dot below		
+08A6	"""ࢦ"""	08A0..08FF	Arabic Extended-A	Arabic letter lam with double bar		
+08A7	"""ࢧ"""	08A0..08FF	Arabic Extended-A	Arabic letter meem with three dots above		
+08A8	"""ࢨ"""	08A0..08FF	Arabic Extended-A	Arabic letter yeh with two dots below and hamza above		
+08A9	"""ࢩ"""	08A0..08FF	Arabic Extended-A	Arabic letter yeh with two dots below and dot above		
+08AA	"""ࢪ"""	08A0..08FF	Arabic Extended-A	Arabic letter reh with loop		
+08AB	"""ࢫ"""	08A0..08FF	Arabic Extended-A	Arabic letter waw with dot within		
+08AC	"""ࢬ"""	08A0..08FF	Arabic Extended-A	Arabic letter rohingya yeh		
+08AD	"""ࢭ"""	08A0..08FF	Arabic Extended-A	Arabic letter low alef		
+08AE	"""ࢮ"""	08A0..08FF	Arabic Extended-A	Arabic letter dal with three dots below		
+08AF	"""ࢯ"""	08A0..08FF	Arabic Extended-A	Arabic letter sad with three dots below		
+08B0	"""ࢰ"""	08A0..08FF	Arabic Extended-A	Arabic letter gaf with inverted stroke		
+08B1	"""ࢱ"""	08A0..08FF	Arabic Extended-A	Arabic letter straight waw		
+08B2	"""ࢲ"""	08A0..08FF	Arabic Extended-A	Arabic letter zain with inverted v above		
+08B3	"""ࢳ"""	08A0..08FF	Arabic Extended-A	Arabic letter ain with three dots below		
+08B4	"""ࢴ"""	08A0..08FF	Arabic Extended-A	Arabic letter kaf with dot below		
+08B5	"""ࢵ"""	08A0..08FF	Arabic Extended-A	Arabic letter qaf with dot below and no dots above		
+08B6	"""ࢶ"""	08A0..08FF	Arabic Extended-A	Arabic letter beh with small meem above		
+08B7	"""ࢷ"""	08A0..08FF	Arabic Extended-A	Arabic letter peh with small meem above		
+08B8	"""ࢸ"""	08A0..08FF	Arabic Extended-A	Arabic letter teh with small teh above		
+08B9	"""ࢹ"""	08A0..08FF	Arabic Extended-A	Arabic letter reh with small noon above		
+08BA	"""ࢺ"""	08A0..08FF	Arabic Extended-A	Arabic letter yeh with two dots below and small noon above		
+08BB	"""ࢻ"""	08A0..08FF	Arabic Extended-A	Arabic letter african feh		
+08BC	"""ࢼ"""	08A0..08FF	Arabic Extended-A	Arabic letter african qaf		
+08BD	"""ࢽ"""	08A0..08FF	Arabic Extended-A	Arabic letter african noon		
+08BE	"""ࢾ"""	08A0..08FF	Arabic Extended-A	Arabic letter peh with small v		
+08BF	"""ࢿ"""	08A0..08FF	Arabic Extended-A	Arabic letter teh with small v		
+08C0	"""ࣀ"""	08A0..08FF	Arabic Extended-A	Arabic letter tteh with small v		
+08C1	"""ࣁ"""	08A0..08FF	Arabic Extended-A	Arabic letter tcheh with small v		
+08C2	"""ࣂ"""	08A0..08FF	Arabic Extended-A	Arabic letter keheh with small v		
+08C3	"""ࣃ"""	08A0..08FF	Arabic Extended-A	Arabic letter ghain with three dots above		
+08C4	"""ࣄ"""	08A0..08FF	Arabic Extended-A	Arabic letter african qaf with three dots above		
+08C5	"""ࣅ"""	08A0..08FF	Arabic Extended-A	Arabic letter jeem with three dots above		
+08C6	"""ࣆ"""	08A0..08FF	Arabic Extended-A	Arabic letter jeem with three dots below		
+08C7	"""ࣇ"""	08A0..08FF	Arabic Extended-A	Arabic letter lam with small arabic letter tah above		
+08C8	"""ࣈ"""	08A0..08FF	Arabic Extended-A	Arabic letter graf		
+08C9	"""ࣉ"""	08A0..08FF	Arabic Extended-A	Arabic small farsi yeh		
+08CA	"""࣊"""	08A0..08FF	Arabic Extended-A	Arabic small high farsi yeh		
+08CB	"""࣋"""	08A0..08FF	Arabic Extended-A	Arabic small high yeh barree with two dots below		
+08CC	"""࣌"""	08A0..08FF	Arabic Extended-A	Arabic small high word sah		
+08CD	"""࣍"""	08A0..08FF	Arabic Extended-A	Arabic small high zah		
+08CE	"""࣎"""	08A0..08FF	Arabic Extended-A	Arabic large round dot above		
+08CF	"""࣏"""	08A0..08FF	Arabic Extended-A	Arabic large round dot below		
+08D0	"""࣐"""	08A0..08FF	Arabic Extended-A	Arabic sukun below		
+08D1	"""࣑"""	08A0..08FF	Arabic Extended-A	Arabic large circle below		
+08D2	"""࣒"""	08A0..08FF	Arabic Extended-A	Arabic large round dot inside circle below		
+08D3	"""࣓"""	08A0..08FF	Arabic Extended-A	Arabic small low waw		
+08D4	"""ࣔ"""	08A0..08FF	Arabic Extended-A	Arabic small high word ar-rub		
+08D5	"""ࣕ"""	08A0..08FF	Arabic Extended-A	Arabic small high sad		
+08D6	"""ࣖ"""	08A0..08FF	Arabic Extended-A	Arabic small high ain		
+08D7	"""ࣗ"""	08A0..08FF	Arabic Extended-A	Arabic small high qaf		
+08D8	"""ࣘ"""	08A0..08FF	Arabic Extended-A	Arabic small high noon with kasra		
+08D9	"""ࣙ"""	08A0..08FF	Arabic Extended-A	Arabic small low noon with kasra		
+08DA	"""ࣚ"""	08A0..08FF	Arabic Extended-A	Arabic small high word ath-thalatha		
+08DB	"""ࣛ"""	08A0..08FF	Arabic Extended-A	Arabic small high word as-sajda		
+08DC	"""ࣜ"""	08A0..08FF	Arabic Extended-A	Arabic small high word an-nisf		
+08DD	"""ࣝ"""	08A0..08FF	Arabic Extended-A	Arabic small high word sakta		
+08DE	"""ࣞ"""	08A0..08FF	Arabic Extended-A	Arabic small high word qif		
+08DF	"""ࣟ"""	08A0..08FF	Arabic Extended-A	Arabic small high word waqfa		
+08E0	"""࣠"""	08A0..08FF	Arabic Extended-A	Arabic small high footnote marker		
+08E1	"""࣡"""	08A0..08FF	Arabic Extended-A	Arabic small high sign safha		
+08E2	"""࣢"""	08A0..08FF	Arabic Extended-A	Arabic disputed end of ayah		
+08E3	"""ࣣ"""	08A0..08FF	Arabic Extended-A	Arabic turned damma below		
+08E4	"""ࣤ"""	08A0..08FF	Arabic Extended-A	Arabic curly fatha		
+08E5	"""ࣥ"""	08A0..08FF	Arabic Extended-A	Arabic curly damma		
+08E6	"""ࣦ"""	08A0..08FF	Arabic Extended-A	Arabic curly kasra		
+08E7	"""ࣧ"""	08A0..08FF	Arabic Extended-A	Arabic curly fathatan		
+08E8	"""ࣨ"""	08A0..08FF	Arabic Extended-A	Arabic curly dammatan		
+08E9	"""ࣩ"""	08A0..08FF	Arabic Extended-A	Arabic curly kasratan		
+08EA	"""࣪"""	08A0..08FF	Arabic Extended-A	Arabic tone one dot above		
+08EB	"""࣫"""	08A0..08FF	Arabic Extended-A	Arabic tone two dots above		
+08EC	"""࣬"""	08A0..08FF	Arabic Extended-A	Arabic tone loop above		
+08ED	"""࣭"""	08A0..08FF	Arabic Extended-A	Arabic tone one dot below		
+08EE	"""࣮"""	08A0..08FF	Arabic Extended-A	Arabic tone two dots below		
+08EF	"""࣯"""	08A0..08FF	Arabic Extended-A	Arabic tone loop below		
+08F0	"""ࣰ"""	08A0..08FF	Arabic Extended-A	Arabic open fathatan		
+08F1	"""ࣱ"""	08A0..08FF	Arabic Extended-A	Arabic open dammatan		
+08F2	"""ࣲ"""	08A0..08FF	Arabic Extended-A	Arabic open kasratan		
+08F3	"""ࣳ"""	08A0..08FF	Arabic Extended-A	Arabic small high waw		
+08F4	"""ࣴ"""	08A0..08FF	Arabic Extended-A	Arabic fatha with ring		
+08F5	"""ࣵ"""	08A0..08FF	Arabic Extended-A	Arabic fatha with dot above		
+08F6	"""ࣶ"""	08A0..08FF	Arabic Extended-A	Arabic kasra with dot below		
+08F7	"""ࣷ"""	08A0..08FF	Arabic Extended-A	Arabic left arrowhead above		
+08F8	"""ࣸ"""	08A0..08FF	Arabic Extended-A	Arabic right arrowhead above		
+08F9	"""ࣹ"""	08A0..08FF	Arabic Extended-A	Arabic left arrowhead below		
+08FA	"""ࣺ"""	08A0..08FF	Arabic Extended-A	Arabic right arrowhead below		
+08FB	"""ࣻ"""	08A0..08FF	Arabic Extended-A	Arabic double right arrowhead above		
+08FC	"""ࣼ"""	08A0..08FF	Arabic Extended-A	Arabic double right arrowhead above with dot		
+08FD	"""ࣽ"""	08A0..08FF	Arabic Extended-A	Arabic right arrowhead above with dot		
+08FE	"""ࣾ"""	08A0..08FF	Arabic Extended-A	Arabic damma with dot		
+08FF	"""ࣿ"""	08A0..08FF	Arabic Extended-A	Arabic mark sideways noon ghunna		

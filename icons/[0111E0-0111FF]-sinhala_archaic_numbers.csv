@@ -1,0 +1,21 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+111E1	"""𑇡"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit one		
+111E2	"""𑇢"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit two		
+111E3	"""𑇣"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit three		
+111E4	"""𑇤"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit four		
+111E5	"""𑇥"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit five		
+111E6	"""𑇦"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit six		
+111E7	"""𑇧"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit seven		
+111E8	"""𑇨"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit eight		
+111E9	"""𑇩"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit nine		
+111EA	"""𑇪"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number ten		
+111EB	"""𑇫"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number twenty		
+111EC	"""𑇬"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number thirty		
+111ED	"""𑇭"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number forty		
+111EE	"""𑇮"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number fifty		
+111EF	"""𑇯"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number sixty		
+111F0	"""𑇰"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number seventy		
+111F1	"""𑇱"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number eighty		
+111F2	"""𑇲"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number ninety		
+111F3	"""𑇳"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number one hundred		
+111F4	"""𑇴"""	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number one thousand		

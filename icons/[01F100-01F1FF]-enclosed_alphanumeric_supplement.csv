@@ -1,0 +1,201 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1F100	"""🄀"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit zero full stop		
+1F101	"""🄁"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit zero comma		
+1F102	"""🄂"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit one comma		
+1F103	"""🄃"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit two comma		
+1F104	"""🄄"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit three comma		
+1F105	"""🄅"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit four comma		
+1F106	"""🄆"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit five comma		
+1F107	"""🄇"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit six comma		
+1F108	"""🄈"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit seven comma		
+1F109	"""🄉"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit eight comma		
+1F10A	"""🄊"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Digit nine comma		
+1F10B	"""🄋"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Dingbat circled sans-serif digit zero		
+1F10C	"""🄌"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Dingbat negative circled sans-serif digit zero		
+1F10D	"""🄍"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled zero with slash		
+1F10E	"""🄎"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled anticlockwise arrow		
+1F10F	"""🄏"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled dollar sign with overlaid backslash		
+1F110	"""🄐"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter a		
+1F111	"""🄑"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter b		
+1F112	"""🄒"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter c		
+1F113	"""🄓"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter d		
+1F114	"""🄔"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter e		
+1F115	"""🄕"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter f		
+1F116	"""🄖"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter g		
+1F117	"""🄗"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter h		
+1F118	"""🄘"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter i		
+1F119	"""🄙"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter j		
+1F11A	"""🄚"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter k		
+1F11B	"""🄛"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter l		
+1F11C	"""🄜"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter m		
+1F11D	"""🄝"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter n		
+1F11E	"""🄞"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter o		
+1F11F	"""🄟"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter p		
+1F120	"""🄠"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter q		
+1F121	"""🄡"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter r		
+1F122	"""🄢"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter s		
+1F123	"""🄣"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter t		
+1F124	"""🄤"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter u		
+1F125	"""🄥"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter v		
+1F126	"""🄦"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter w		
+1F127	"""🄧"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter x		
+1F128	"""🄨"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter y		
+1F129	"""🄩"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Parenthesized latin capital letter z		
+1F12A	"""🄪"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Tortoise shell bracketed latin capital letter s		
+1F12B	"""🄫"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled italic latin capital letter c		
+1F12C	"""🄬"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled italic latin capital letter r		
+1F12D	"""🄭"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled cd		
+1F12E	"""🄮"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled wz		
+1F12F	"""🄯"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Copyleft symbol		
+1F130	"""🄰"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter a		
+1F131	"""🄱"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter b		
+1F132	"""🄲"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter c		
+1F133	"""🄳"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter d		
+1F134	"""🄴"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter e		
+1F135	"""🄵"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter f		
+1F136	"""🄶"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter g		
+1F137	"""🄷"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter h		
+1F138	"""🄸"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter i		
+1F139	"""🄹"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter j		
+1F13A	"""🄺"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter k		
+1F13B	"""🄻"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter l		
+1F13C	"""🄼"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter m		
+1F13D	"""🄽"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter n		
+1F13E	"""🄾"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter o		
+1F13F	"""🄿"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter p		
+1F140	"""🅀"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter q		
+1F141	"""🅁"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter r		
+1F142	"""🅂"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter s		
+1F143	"""🅃"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter t		
+1F144	"""🅄"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter u		
+1F145	"""🅅"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter v		
+1F146	"""🅆"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter w		
+1F147	"""🅇"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter x		
+1F148	"""🅈"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter y		
+1F149	"""🅉"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin capital letter z		
+1F14A	"""🅊"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared hv		
+1F14B	"""🅋"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared mv		
+1F14C	"""🅌"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared sd		
+1F14D	"""🅍"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared ss		
+1F14E	"""🅎"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared ppv		
+1F14F	"""🅏"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared wc		
+1F150	"""🅐"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter a		
+1F151	"""🅑"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter b		
+1F152	"""🅒"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter c		
+1F153	"""🅓"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter d		
+1F154	"""🅔"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter e		
+1F155	"""🅕"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter f		
+1F156	"""🅖"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter g		
+1F157	"""🅗"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter h		
+1F158	"""🅘"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter i		
+1F159	"""🅙"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter j		
+1F15A	"""🅚"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter k		
+1F15B	"""🅛"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter l		
+1F15C	"""🅜"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter m		
+1F15D	"""🅝"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter n		
+1F15E	"""🅞"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter o		
+1F15F	"""🅟"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter p		
+1F160	"""🅠"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter q		
+1F161	"""🅡"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter r		
+1F162	"""🅢"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter s		
+1F163	"""🅣"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter t		
+1F164	"""🅤"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter u		
+1F165	"""🅥"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter v		
+1F166	"""🅦"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter w		
+1F167	"""🅧"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter x		
+1F168	"""🅨"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter y		
+1F169	"""🅩"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative circled latin capital letter z		
+1F16A	"""🅪"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Raised mc sign		
+1F16B	"""🅫"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Raised md sign		
+1F16C	"""🅬"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Raised mr sign		
+1F16D	"""🅭"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled cc		
+1F16E	"""🅮"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled c with overlaid backslash		
+1F16F	"""🅯"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Circled human figure		
+1F170	"""🅰"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter a		
+1F171	"""🅱"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter b		
+1F172	"""🅲"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter c		
+1F173	"""🅳"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter d		
+1F174	"""🅴"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter e		
+1F175	"""🅵"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter f		
+1F176	"""🅶"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter g		
+1F177	"""🅷"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter h		
+1F178	"""🅸"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter i		
+1F179	"""🅹"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter j		
+1F17A	"""🅺"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter k		
+1F17B	"""🅻"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter l		
+1F17C	"""🅼"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter m		
+1F17D	"""🅽"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter n		
+1F17E	"""🅾"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter o		
+1F17F	"""🅿"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter p		
+1F180	"""🆀"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter q		
+1F181	"""🆁"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter r		
+1F182	"""🆂"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter s		
+1F183	"""🆃"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter t		
+1F184	"""🆄"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter u		
+1F185	"""🆅"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter v		
+1F186	"""🆆"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter w		
+1F187	"""🆇"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter x		
+1F188	"""🆈"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter y		
+1F189	"""🆉"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared latin capital letter z		
+1F18A	"""🆊"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Crossed negative squared latin capital letter p		
+1F18B	"""🆋"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared ic		
+1F18C	"""🆌"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared pa		
+1F18D	"""🆍"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared sa		
+1F18E	"""🆎"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared ab		
+1F18F	"""🆏"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Negative squared wc		
+1F190	"""🆐"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Square dj		
+1F191	"""🆑"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared cl		
+1F192	"""🆒"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared cool		
+1F193	"""🆓"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared free		
+1F194	"""🆔"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared id		
+1F195	"""🆕"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared new		
+1F196	"""🆖"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared ng		
+1F197	"""🆗"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared ok		
+1F198	"""🆘"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared sos		
+1F199	"""🆙"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared up with exclamation mark		
+1F19A	"""🆚"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared vs		
+1F19B	"""🆛"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared three d		
+1F19C	"""🆜"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared second screen		
+1F19D	"""🆝"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared two k		
+1F19E	"""🆞"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared four k		
+1F19F	"""🆟"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared eight k		
+1F1A0	"""🆠"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared five point one		
+1F1A1	"""🆡"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared seven point one		
+1F1A2	"""🆢"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared twenty-two point two		
+1F1A3	"""🆣"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared sixty p		
+1F1A4	"""🆤"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared one hundred twenty p		
+1F1A5	"""🆥"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared latin small letter d		
+1F1A6	"""🆦"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared hc		
+1F1A7	"""🆧"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared hdr		
+1F1A8	"""🆨"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared hi-res		
+1F1A9	"""🆩"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared lossless		
+1F1AA	"""🆪"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared shv		
+1F1AB	"""🆫"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared uhd		
+1F1AC	"""🆬"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Squared vod		
+1F1AD	"""🆭"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Mask work symbol		
+1F1E6	"""🇦"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter a		
+1F1E7	"""🇧"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter b		
+1F1E8	"""🇨"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter c		
+1F1E9	"""🇩"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter d		
+1F1EA	"""🇪"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter e		
+1F1EB	"""🇫"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter f		
+1F1EC	"""🇬"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter g		
+1F1ED	"""🇭"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter h		
+1F1EE	"""🇮"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter i		
+1F1EF	"""🇯"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter j		
+1F1F0	"""🇰"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter k		
+1F1F1	"""🇱"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter l		
+1F1F2	"""🇲"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter m		
+1F1F3	"""🇳"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter n		
+1F1F4	"""🇴"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter o		
+1F1F5	"""🇵"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter p		
+1F1F6	"""🇶"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter q		
+1F1F7	"""🇷"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter r		
+1F1F8	"""🇸"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter s		
+1F1F9	"""🇹"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter t		
+1F1FA	"""🇺"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter u		
+1F1FB	"""🇻"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter v		
+1F1FC	"""🇼"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter w		
+1F1FD	"""🇽"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter x		
+1F1FE	"""🇾"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter y		
+1F1FF	"""🇿"""	1F100..1F1FF	Enclosed Alphanumeric Supplement	Regional indicator symbol letter z		

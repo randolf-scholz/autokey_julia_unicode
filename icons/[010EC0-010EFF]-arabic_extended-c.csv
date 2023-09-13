@@ -1,0 +1,4 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10EFD	"""𐻽"""	10EC0..10EFF	Arabic Extended-C	Arabic small low word sakta		
+10EFE	"""𐻾"""	10EC0..10EFF	Arabic Extended-C	Arabic small low word qasr		
+10EFF	"""𐻿"""	10EC0..10EFF	Arabic Extended-C	Arabic small low word madda		

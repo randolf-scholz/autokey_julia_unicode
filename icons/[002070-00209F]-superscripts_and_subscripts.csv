@@ -1,0 +1,43 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2070	"""⁰"""	2070..209F	Superscripts and Subscripts	Superscript zero		
+2071	"""ⁱ"""	2070..209F	Superscripts and Subscripts	Superscript latin small letter i		
+2074	"""⁴"""	2070..209F	Superscripts and Subscripts	Superscript four		
+2075	"""⁵"""	2070..209F	Superscripts and Subscripts	Superscript five		
+2076	"""⁶"""	2070..209F	Superscripts and Subscripts	Superscript six		
+2077	"""⁷"""	2070..209F	Superscripts and Subscripts	Superscript seven		
+2078	"""⁸"""	2070..209F	Superscripts and Subscripts	Superscript eight		
+2079	"""⁹"""	2070..209F	Superscripts and Subscripts	Superscript nine		
+207A	"""⁺"""	2070..209F	Superscripts and Subscripts	Superscript plus sign		
+207B	"""⁻"""	2070..209F	Superscripts and Subscripts	Superscript minus		
+207C	"""⁼"""	2070..209F	Superscripts and Subscripts	Superscript equals sign		
+207D	"""⁽"""	2070..209F	Superscripts and Subscripts	Superscript left parenthesis		
+207E	"""⁾"""	2070..209F	Superscripts and Subscripts	Superscript right parenthesis		
+207F	"""ⁿ"""	2070..209F	Superscripts and Subscripts	Superscript latin small letter n		
+2080	"""₀"""	2070..209F	Superscripts and Subscripts	Subscript zero		
+2081	"""₁"""	2070..209F	Superscripts and Subscripts	Subscript one		
+2082	"""₂"""	2070..209F	Superscripts and Subscripts	Subscript two		
+2083	"""₃"""	2070..209F	Superscripts and Subscripts	Subscript three		
+2084	"""₄"""	2070..209F	Superscripts and Subscripts	Subscript four		
+2085	"""₅"""	2070..209F	Superscripts and Subscripts	Subscript five		
+2086	"""₆"""	2070..209F	Superscripts and Subscripts	Subscript six		
+2087	"""₇"""	2070..209F	Superscripts and Subscripts	Subscript seven		
+2088	"""₈"""	2070..209F	Superscripts and Subscripts	Subscript eight		
+2089	"""₉"""	2070..209F	Superscripts and Subscripts	Subscript nine		
+208A	"""₊"""	2070..209F	Superscripts and Subscripts	Subscript plus sign		
+208B	"""₋"""	2070..209F	Superscripts and Subscripts	Subscript minus		
+208C	"""₌"""	2070..209F	Superscripts and Subscripts	Subscript equals sign		
+208D	"""₍"""	2070..209F	Superscripts and Subscripts	Subscript left parenthesis		
+208E	"""₎"""	2070..209F	Superscripts and Subscripts	Subscript right parenthesis		
+2090	"""ₐ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter a		
+2091	"""ₑ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter e		
+2092	"""ₒ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter o		
+2093	"""ₓ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter x		
+2094	"""ₔ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter schwa		
+2095	"""ₕ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter h		
+2096	"""ₖ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter k		
+2097	"""ₗ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter l		
+2098	"""ₘ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter m		
+2099	"""ₙ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter n		
+209A	"""ₚ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter p		
+209B	"""ₛ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter s		
+209C	"""ₜ"""	2070..209F	Superscripts and Subscripts	Latin subscript small letter t		

@@ -1,0 +1,40 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10300	"""𐌀"""	10300..1032F	Old Italic	Old italic letter a		
+10301	"""𐌁"""	10300..1032F	Old Italic	Old italic letter be		
+10302	"""𐌂"""	10300..1032F	Old Italic	Old italic letter ke		
+10303	"""𐌃"""	10300..1032F	Old Italic	Old italic letter de		
+10304	"""𐌄"""	10300..1032F	Old Italic	Old italic letter e		
+10305	"""𐌅"""	10300..1032F	Old Italic	Old italic letter ve		
+10306	"""𐌆"""	10300..1032F	Old Italic	Old italic letter ze		
+10307	"""𐌇"""	10300..1032F	Old Italic	Old italic letter he		
+10308	"""𐌈"""	10300..1032F	Old Italic	Old italic letter the		
+10309	"""𐌉"""	10300..1032F	Old Italic	Old italic letter i		
+1030A	"""𐌊"""	10300..1032F	Old Italic	Old italic letter ka		
+1030B	"""𐌋"""	10300..1032F	Old Italic	Old italic letter el		
+1030C	"""𐌌"""	10300..1032F	Old Italic	Old italic letter em		
+1030D	"""𐌍"""	10300..1032F	Old Italic	Old italic letter en		
+1030E	"""𐌎"""	10300..1032F	Old Italic	Old italic letter esh		
+1030F	"""𐌏"""	10300..1032F	Old Italic	Old italic letter o		
+10310	"""𐌐"""	10300..1032F	Old Italic	Old italic letter pe		
+10311	"""𐌑"""	10300..1032F	Old Italic	Old italic letter she		
+10312	"""𐌒"""	10300..1032F	Old Italic	Old italic letter ku		
+10313	"""𐌓"""	10300..1032F	Old Italic	Old italic letter er		
+10314	"""𐌔"""	10300..1032F	Old Italic	Old italic letter es		
+10315	"""𐌕"""	10300..1032F	Old Italic	Old italic letter te		
+10316	"""𐌖"""	10300..1032F	Old Italic	Old italic letter u		
+10317	"""𐌗"""	10300..1032F	Old Italic	Old italic letter eks		
+10318	"""𐌘"""	10300..1032F	Old Italic	Old italic letter phe		
+10319	"""𐌙"""	10300..1032F	Old Italic	Old italic letter khe		
+1031A	"""𐌚"""	10300..1032F	Old Italic	Old italic letter ef		
+1031B	"""𐌛"""	10300..1032F	Old Italic	Old italic letter ers		
+1031C	"""𐌜"""	10300..1032F	Old Italic	Old italic letter che		
+1031D	"""𐌝"""	10300..1032F	Old Italic	Old italic letter ii		
+1031E	"""𐌞"""	10300..1032F	Old Italic	Old italic letter uu		
+1031F	"""𐌟"""	10300..1032F	Old Italic	Old italic letter ess		
+10320	"""𐌠"""	10300..1032F	Old Italic	Old italic numeral one		
+10321	"""𐌡"""	10300..1032F	Old Italic	Old italic numeral five		
+10322	"""𐌢"""	10300..1032F	Old Italic	Old italic numeral ten		
+10323	"""𐌣"""	10300..1032F	Old Italic	Old italic numeral fifty		
+1032D	"""𐌭"""	10300..1032F	Old Italic	Old italic letter ye		
+1032E	"""𐌮"""	10300..1032F	Old Italic	Old italic letter northern tse		
+1032F	"""𐌯"""	10300..1032F	Old Italic	Old italic letter southern tse		

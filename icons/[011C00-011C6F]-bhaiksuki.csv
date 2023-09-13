@@ -1,0 +1,98 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+11C00	"""𑰀"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter a		
+11C01	"""𑰁"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter aa		
+11C02	"""𑰂"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter i		
+11C03	"""𑰃"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ii		
+11C04	"""𑰄"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter u		
+11C05	"""𑰅"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter uu		
+11C06	"""𑰆"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic r		
+11C07	"""𑰇"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic rr		
+11C08	"""𑰈"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic l		
+11C0A	"""𑰊"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter e		
+11C0B	"""𑰋"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ai		
+11C0C	"""𑰌"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter o		
+11C0D	"""𑰍"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter au		
+11C0E	"""𑰎"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ka		
+11C0F	"""𑰏"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter kha		
+11C10	"""𑰐"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ga		
+11C11	"""𑰑"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter gha		
+11C12	"""𑰒"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nga		
+11C13	"""𑰓"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ca		
+11C14	"""𑰔"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter cha		
+11C15	"""𑰕"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ja		
+11C16	"""𑰖"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter jha		
+11C17	"""𑰗"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nya		
+11C18	"""𑰘"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter tta		
+11C19	"""𑰙"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ttha		
+11C1A	"""𑰚"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter dda		
+11C1B	"""𑰛"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ddha		
+11C1C	"""𑰜"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nna		
+11C1D	"""𑰝"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ta		
+11C1E	"""𑰞"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter tha		
+11C1F	"""𑰟"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter da		
+11C20	"""𑰠"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter dha		
+11C21	"""𑰡"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter na		
+11C22	"""𑰢"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter pa		
+11C23	"""𑰣"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter pha		
+11C24	"""𑰤"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ba		
+11C25	"""𑰥"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter bha		
+11C26	"""𑰦"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ma		
+11C27	"""𑰧"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ya		
+11C28	"""𑰨"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ra		
+11C29	"""𑰩"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter la		
+11C2A	"""𑰪"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter va		
+11C2B	"""𑰫"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter sha		
+11C2C	"""𑰬"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ssa		
+11C2D	"""𑰭"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter sa		
+11C2E	"""𑰮"""	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ha		
+11C2F	"""𑰯"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign aa		
+11C30	"""𑰰"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign i		
+11C31	"""𑰱"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign ii		
+11C32	"""𑰲"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign u		
+11C33	"""𑰳"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign uu		
+11C34	"""𑰴"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic r		
+11C35	"""𑰵"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic rr		
+11C36	"""𑰶"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic l		
+11C38	"""𑰸"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign e		
+11C39	"""𑰹"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign ai		
+11C3A	"""𑰺"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign o		
+11C3B	"""𑰻"""	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign au		
+11C3C	"""𑰼"""	11C00..11C6F	Bhaiksuki	Bhaiksuki sign candrabindu		
+11C3D	"""𑰽"""	11C00..11C6F	Bhaiksuki	Bhaiksuki sign anusvara		
+11C3E	"""𑰾"""	11C00..11C6F	Bhaiksuki	Bhaiksuki sign visarga		
+11C3F	"""𑰿"""	11C00..11C6F	Bhaiksuki	Bhaiksuki sign virama		
+11C40	"""𑱀"""	11C00..11C6F	Bhaiksuki	Bhaiksuki sign avagraha		
+11C41	"""𑱁"""	11C00..11C6F	Bhaiksuki	Bhaiksuki danda		
+11C42	"""𑱂"""	11C00..11C6F	Bhaiksuki	Bhaiksuki double danda		
+11C43	"""𑱃"""	11C00..11C6F	Bhaiksuki	Bhaiksuki word separator		
+11C44	"""𑱄"""	11C00..11C6F	Bhaiksuki	Bhaiksuki gap filler-1		
+11C45	"""𑱅"""	11C00..11C6F	Bhaiksuki	Bhaiksuki gap filler-2		
+11C50	"""𑱐"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit zero		
+11C51	"""𑱑"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit one		
+11C52	"""𑱒"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit two		
+11C53	"""𑱓"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit three		
+11C54	"""𑱔"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit four		
+11C55	"""𑱕"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit five		
+11C56	"""𑱖"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit six		
+11C57	"""𑱗"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit seven		
+11C58	"""𑱘"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit eight		
+11C59	"""𑱙"""	11C00..11C6F	Bhaiksuki	Bhaiksuki digit nine		
+11C5A	"""𑱚"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number one		
+11C5B	"""𑱛"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number two		
+11C5C	"""𑱜"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number three		
+11C5D	"""𑱝"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number four		
+11C5E	"""𑱞"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number five		
+11C5F	"""𑱟"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number six		
+11C60	"""𑱠"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number seven		
+11C61	"""𑱡"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number eight		
+11C62	"""𑱢"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number nine		
+11C63	"""𑱣"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number ten		
+11C64	"""𑱤"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number twenty		
+11C65	"""𑱥"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number thirty		
+11C66	"""𑱦"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number forty		
+11C67	"""𑱧"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number fifty		
+11C68	"""𑱨"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number sixty		
+11C69	"""𑱩"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number seventy		
+11C6A	"""𑱪"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number eighty		
+11C6B	"""𑱫"""	11C00..11C6F	Bhaiksuki	Bhaiksuki number ninety		
+11C6C	"""𑱬"""	11C00..11C6F	Bhaiksuki	Bhaiksuki hundreds unit mark		

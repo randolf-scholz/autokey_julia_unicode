@@ -1,0 +1,44 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1CD0	"""᳐"""	1CD0..1CFF	Vedic Extensions	Vedic tone karshana		
+1CD1	"""᳑"""	1CD0..1CFF	Vedic Extensions	Vedic tone shara		
+1CD2	"""᳒"""	1CD0..1CFF	Vedic Extensions	Vedic tone prenkha		
+1CD3	"""᳓"""	1CD0..1CFF	Vedic Extensions	Vedic sign nihshvasa		
+1CD4	"""᳔"""	1CD0..1CFF	Vedic Extensions	Vedic sign yajurvedic midline svarita		
+1CD5	"""᳕"""	1CD0..1CFF	Vedic Extensions	Vedic tone yajurvedic aggravated independent svarita		
+1CD6	"""᳖"""	1CD0..1CFF	Vedic Extensions	Vedic tone yajurvedic independent svarita		
+1CD7	"""᳗"""	1CD0..1CFF	Vedic Extensions	Vedic tone yajurvedic kathaka independent svarita		
+1CD8	"""᳘"""	1CD0..1CFF	Vedic Extensions	Vedic tone candra below		
+1CD9	"""᳙"""	1CD0..1CFF	Vedic Extensions	Vedic tone yajurvedic kathaka independent svarita schroeder		
+1CDA	"""᳚"""	1CD0..1CFF	Vedic Extensions	Vedic tone double svarita		
+1CDB	"""᳛"""	1CD0..1CFF	Vedic Extensions	Vedic tone triple svarita		
+1CDC	"""᳜"""	1CD0..1CFF	Vedic Extensions	Vedic tone kathaka anudatta		
+1CDD	"""᳝"""	1CD0..1CFF	Vedic Extensions	Vedic tone dot below		
+1CDE	"""᳞"""	1CD0..1CFF	Vedic Extensions	Vedic tone two dots below		
+1CDF	"""᳟"""	1CD0..1CFF	Vedic Extensions	Vedic tone three dots below		
+1CE0	"""᳠"""	1CD0..1CFF	Vedic Extensions	Vedic tone rigvedic kashmiri independent svarita		
+1CE1	"""᳡"""	1CD0..1CFF	Vedic Extensions	Vedic tone atharvavedic independent svarita		
+1CE2	"""᳢"""	1CD0..1CFF	Vedic Extensions	Vedic sign visarga svarita		
+1CE3	"""᳣"""	1CD0..1CFF	Vedic Extensions	Vedic sign visarga udatta		
+1CE4	"""᳤"""	1CD0..1CFF	Vedic Extensions	Vedic sign reversed visarga udatta		
+1CE5	"""᳥"""	1CD0..1CFF	Vedic Extensions	Vedic sign visarga anudatta		
+1CE6	"""᳦"""	1CD0..1CFF	Vedic Extensions	Vedic sign reversed visarga anudatta		
+1CE7	"""᳧"""	1CD0..1CFF	Vedic Extensions	Vedic sign visarga udatta with tail		
+1CE8	"""᳨"""	1CD0..1CFF	Vedic Extensions	Vedic sign visarga anudatta with tail		
+1CE9	"""ᳩ"""	1CD0..1CFF	Vedic Extensions	Vedic sign anusvara antargomukha		
+1CEA	"""ᳪ"""	1CD0..1CFF	Vedic Extensions	Vedic sign anusvara bahirgomukha		
+1CEB	"""ᳫ"""	1CD0..1CFF	Vedic Extensions	Vedic sign anusvara vamagomukha		
+1CEC	"""ᳬ"""	1CD0..1CFF	Vedic Extensions	Vedic sign anusvara vamagomukha with tail		
+1CED	"""᳭"""	1CD0..1CFF	Vedic Extensions	Vedic sign tiryak		
+1CEE	"""ᳮ"""	1CD0..1CFF	Vedic Extensions	Vedic sign hexiform long anusvara		
+1CEF	"""ᳯ"""	1CD0..1CFF	Vedic Extensions	Vedic sign long anusvara		
+1CF0	"""ᳰ"""	1CD0..1CFF	Vedic Extensions	Vedic sign rthang long anusvara		
+1CF1	"""ᳱ"""	1CD0..1CFF	Vedic Extensions	Vedic sign anusvara ubhayato mukha		
+1CF2	"""ᳲ"""	1CD0..1CFF	Vedic Extensions	Vedic sign ardhavisarga		
+1CF3	"""ᳳ"""	1CD0..1CFF	Vedic Extensions	Vedic sign rotated ardhavisarga		
+1CF4	"""᳴"""	1CD0..1CFF	Vedic Extensions	Vedic tone candra above		
+1CF5	"""ᳵ"""	1CD0..1CFF	Vedic Extensions	Vedic sign jihvamuliya		
+1CF6	"""ᳶ"""	1CD0..1CFF	Vedic Extensions	Vedic sign upadhmaniya		
+1CF7	"""᳷"""	1CD0..1CFF	Vedic Extensions	Vedic sign atikrama		
+1CF8	"""᳸"""	1CD0..1CFF	Vedic Extensions	Vedic tone ring above		
+1CF9	"""᳹"""	1CD0..1CFF	Vedic Extensions	Vedic tone double ring above		
+1CFA	"""ᳺ"""	1CD0..1CFF	Vedic Extensions	Vedic sign double anusvara antargomukha		

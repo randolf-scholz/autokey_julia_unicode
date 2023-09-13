@@ -1,0 +1,83 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1F0A0	"""🂠"""	1F0A0..1F0FF	Playing Cards	Playing card back		
+1F0A1	"""🂡"""	1F0A0..1F0FF	Playing Cards	Playing card ace of spades		
+1F0A2	"""🂢"""	1F0A0..1F0FF	Playing Cards	Playing card two of spades		
+1F0A3	"""🂣"""	1F0A0..1F0FF	Playing Cards	Playing card three of spades		
+1F0A4	"""🂤"""	1F0A0..1F0FF	Playing Cards	Playing card four of spades		
+1F0A5	"""🂥"""	1F0A0..1F0FF	Playing Cards	Playing card five of spades		
+1F0A6	"""🂦"""	1F0A0..1F0FF	Playing Cards	Playing card six of spades		
+1F0A7	"""🂧"""	1F0A0..1F0FF	Playing Cards	Playing card seven of spades		
+1F0A8	"""🂨"""	1F0A0..1F0FF	Playing Cards	Playing card eight of spades		
+1F0A9	"""🂩"""	1F0A0..1F0FF	Playing Cards	Playing card nine of spades		
+1F0AA	"""🂪"""	1F0A0..1F0FF	Playing Cards	Playing card ten of spades		
+1F0AB	"""🂫"""	1F0A0..1F0FF	Playing Cards	Playing card jack of spades		
+1F0AC	"""🂬"""	1F0A0..1F0FF	Playing Cards	Playing card knight of spades		
+1F0AD	"""🂭"""	1F0A0..1F0FF	Playing Cards	Playing card queen of spades		
+1F0AE	"""🂮"""	1F0A0..1F0FF	Playing Cards	Playing card king of spades		
+1F0B1	"""🂱"""	1F0A0..1F0FF	Playing Cards	Playing card ace of hearts		
+1F0B2	"""🂲"""	1F0A0..1F0FF	Playing Cards	Playing card two of hearts		
+1F0B3	"""🂳"""	1F0A0..1F0FF	Playing Cards	Playing card three of hearts		
+1F0B4	"""🂴"""	1F0A0..1F0FF	Playing Cards	Playing card four of hearts		
+1F0B5	"""🂵"""	1F0A0..1F0FF	Playing Cards	Playing card five of hearts		
+1F0B6	"""🂶"""	1F0A0..1F0FF	Playing Cards	Playing card six of hearts		
+1F0B7	"""🂷"""	1F0A0..1F0FF	Playing Cards	Playing card seven of hearts		
+1F0B8	"""🂸"""	1F0A0..1F0FF	Playing Cards	Playing card eight of hearts		
+1F0B9	"""🂹"""	1F0A0..1F0FF	Playing Cards	Playing card nine of hearts		
+1F0BA	"""🂺"""	1F0A0..1F0FF	Playing Cards	Playing card ten of hearts		
+1F0BB	"""🂻"""	1F0A0..1F0FF	Playing Cards	Playing card jack of hearts		
+1F0BC	"""🂼"""	1F0A0..1F0FF	Playing Cards	Playing card knight of hearts		
+1F0BD	"""🂽"""	1F0A0..1F0FF	Playing Cards	Playing card queen of hearts		
+1F0BE	"""🂾"""	1F0A0..1F0FF	Playing Cards	Playing card king of hearts		
+1F0BF	"""🂿"""	1F0A0..1F0FF	Playing Cards	Playing card red joker		
+1F0C1	"""🃁"""	1F0A0..1F0FF	Playing Cards	Playing card ace of diamonds		
+1F0C2	"""🃂"""	1F0A0..1F0FF	Playing Cards	Playing card two of diamonds		
+1F0C3	"""🃃"""	1F0A0..1F0FF	Playing Cards	Playing card three of diamonds		
+1F0C4	"""🃄"""	1F0A0..1F0FF	Playing Cards	Playing card four of diamonds		
+1F0C5	"""🃅"""	1F0A0..1F0FF	Playing Cards	Playing card five of diamonds		
+1F0C6	"""🃆"""	1F0A0..1F0FF	Playing Cards	Playing card six of diamonds		
+1F0C7	"""🃇"""	1F0A0..1F0FF	Playing Cards	Playing card seven of diamonds		
+1F0C8	"""🃈"""	1F0A0..1F0FF	Playing Cards	Playing card eight of diamonds		
+1F0C9	"""🃉"""	1F0A0..1F0FF	Playing Cards	Playing card nine of diamonds		
+1F0CA	"""🃊"""	1F0A0..1F0FF	Playing Cards	Playing card ten of diamonds		
+1F0CB	"""🃋"""	1F0A0..1F0FF	Playing Cards	Playing card jack of diamonds		
+1F0CC	"""🃌"""	1F0A0..1F0FF	Playing Cards	Playing card knight of diamonds		
+1F0CD	"""🃍"""	1F0A0..1F0FF	Playing Cards	Playing card queen of diamonds		
+1F0CE	"""🃎"""	1F0A0..1F0FF	Playing Cards	Playing card king of diamonds		
+1F0CF	"""🃏"""	1F0A0..1F0FF	Playing Cards	Playing card black joker		
+1F0D1	"""🃑"""	1F0A0..1F0FF	Playing Cards	Playing card ace of clubs		
+1F0D2	"""🃒"""	1F0A0..1F0FF	Playing Cards	Playing card two of clubs		
+1F0D3	"""🃓"""	1F0A0..1F0FF	Playing Cards	Playing card three of clubs		
+1F0D4	"""🃔"""	1F0A0..1F0FF	Playing Cards	Playing card four of clubs		
+1F0D5	"""🃕"""	1F0A0..1F0FF	Playing Cards	Playing card five of clubs		
+1F0D6	"""🃖"""	1F0A0..1F0FF	Playing Cards	Playing card six of clubs		
+1F0D7	"""🃗"""	1F0A0..1F0FF	Playing Cards	Playing card seven of clubs		
+1F0D8	"""🃘"""	1F0A0..1F0FF	Playing Cards	Playing card eight of clubs		
+1F0D9	"""🃙"""	1F0A0..1F0FF	Playing Cards	Playing card nine of clubs		
+1F0DA	"""🃚"""	1F0A0..1F0FF	Playing Cards	Playing card ten of clubs		
+1F0DB	"""🃛"""	1F0A0..1F0FF	Playing Cards	Playing card jack of clubs		
+1F0DC	"""🃜"""	1F0A0..1F0FF	Playing Cards	Playing card knight of clubs		
+1F0DD	"""🃝"""	1F0A0..1F0FF	Playing Cards	Playing card queen of clubs		
+1F0DE	"""🃞"""	1F0A0..1F0FF	Playing Cards	Playing card king of clubs		
+1F0DF	"""🃟"""	1F0A0..1F0FF	Playing Cards	Playing card white joker		
+1F0E0	"""🃠"""	1F0A0..1F0FF	Playing Cards	Playing card fool		
+1F0E1	"""🃡"""	1F0A0..1F0FF	Playing Cards	Playing card trump-1		
+1F0E2	"""🃢"""	1F0A0..1F0FF	Playing Cards	Playing card trump-2		
+1F0E3	"""🃣"""	1F0A0..1F0FF	Playing Cards	Playing card trump-3		
+1F0E4	"""🃤"""	1F0A0..1F0FF	Playing Cards	Playing card trump-4		
+1F0E5	"""🃥"""	1F0A0..1F0FF	Playing Cards	Playing card trump-5		
+1F0E6	"""🃦"""	1F0A0..1F0FF	Playing Cards	Playing card trump-6		
+1F0E7	"""🃧"""	1F0A0..1F0FF	Playing Cards	Playing card trump-7		
+1F0E8	"""🃨"""	1F0A0..1F0FF	Playing Cards	Playing card trump-8		
+1F0E9	"""🃩"""	1F0A0..1F0FF	Playing Cards	Playing card trump-9		
+1F0EA	"""🃪"""	1F0A0..1F0FF	Playing Cards	Playing card trump-10		
+1F0EB	"""🃫"""	1F0A0..1F0FF	Playing Cards	Playing card trump-11		
+1F0EC	"""🃬"""	1F0A0..1F0FF	Playing Cards	Playing card trump-12		
+1F0ED	"""🃭"""	1F0A0..1F0FF	Playing Cards	Playing card trump-13		
+1F0EE	"""🃮"""	1F0A0..1F0FF	Playing Cards	Playing card trump-14		
+1F0EF	"""🃯"""	1F0A0..1F0FF	Playing Cards	Playing card trump-15		
+1F0F0	"""🃰"""	1F0A0..1F0FF	Playing Cards	Playing card trump-16		
+1F0F1	"""🃱"""	1F0A0..1F0FF	Playing Cards	Playing card trump-17		
+1F0F2	"""🃲"""	1F0A0..1F0FF	Playing Cards	Playing card trump-18		
+1F0F3	"""🃳"""	1F0A0..1F0FF	Playing Cards	Playing card trump-19		
+1F0F4	"""🃴"""	1F0A0..1F0FF	Playing Cards	Playing card trump-20		
+1F0F5	"""🃵"""	1F0A0..1F0FF	Playing Cards	Playing card trump-21		

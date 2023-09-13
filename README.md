@@ -64,3 +64,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
 | latin  | 𝚊𝚋𝚌𝙰𝙱𝙲 | 𝕒𝕓𝕔𝔸𝔹ℂ | 𝔞𝔟𝔠𝔄𝔅ℭ | 𝖆𝖇𝖈𝕬𝕭𝕮  | 𝒶𝒷𝒸𝒜ℬ𝒞 | 𝓪𝓫𝓬𝓐𝓑𝓒 |
 | greek  |        |        |        |         |        |        |
 | letter | 𝟶𝟷𝟸    | 𝟘𝟙𝟚    |        |         |        |        |
+
+## About Unicode data
+
+The files are available at: <https://www.unicode.org/ucd/>, resp. <https://www.unicode.org/Public/UCD/latest/ucd/>.

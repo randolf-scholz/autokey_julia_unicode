@@ -1,0 +1,57 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1BC0	"""ᯀ"""	1BC0..1BFF	Batak	Batak letter a		
+1BC1	"""ᯁ"""	1BC0..1BFF	Batak	Batak letter simalungun a		
+1BC2	"""ᯂ"""	1BC0..1BFF	Batak	Batak letter ha		
+1BC3	"""ᯃ"""	1BC0..1BFF	Batak	Batak letter simalungun ha		
+1BC4	"""ᯄ"""	1BC0..1BFF	Batak	Batak letter mandailing ha		
+1BC5	"""ᯅ"""	1BC0..1BFF	Batak	Batak letter ba		
+1BC6	"""ᯆ"""	1BC0..1BFF	Batak	Batak letter karo ba		
+1BC7	"""ᯇ"""	1BC0..1BFF	Batak	Batak letter pa		
+1BC8	"""ᯈ"""	1BC0..1BFF	Batak	Batak letter simalungun pa		
+1BC9	"""ᯉ"""	1BC0..1BFF	Batak	Batak letter na		
+1BCA	"""ᯊ"""	1BC0..1BFF	Batak	Batak letter mandailing na		
+1BCB	"""ᯋ"""	1BC0..1BFF	Batak	Batak letter wa		
+1BCC	"""ᯌ"""	1BC0..1BFF	Batak	Batak letter simalungun wa		
+1BCD	"""ᯍ"""	1BC0..1BFF	Batak	Batak letter pakpak wa		
+1BCE	"""ᯎ"""	1BC0..1BFF	Batak	Batak letter ga		
+1BCF	"""ᯏ"""	1BC0..1BFF	Batak	Batak letter simalungun ga		
+1BD0	"""ᯐ"""	1BC0..1BFF	Batak	Batak letter ja		
+1BD1	"""ᯑ"""	1BC0..1BFF	Batak	Batak letter da		
+1BD2	"""ᯒ"""	1BC0..1BFF	Batak	Batak letter ra		
+1BD3	"""ᯓ"""	1BC0..1BFF	Batak	Batak letter simalungun ra		
+1BD4	"""ᯔ"""	1BC0..1BFF	Batak	Batak letter ma		
+1BD5	"""ᯕ"""	1BC0..1BFF	Batak	Batak letter simalungun ma		
+1BD6	"""ᯖ"""	1BC0..1BFF	Batak	Batak letter southern ta		
+1BD7	"""ᯗ"""	1BC0..1BFF	Batak	Batak letter northern ta		
+1BD8	"""ᯘ"""	1BC0..1BFF	Batak	Batak letter sa		
+1BD9	"""ᯙ"""	1BC0..1BFF	Batak	Batak letter simalungun sa		
+1BDA	"""ᯚ"""	1BC0..1BFF	Batak	Batak letter mandailing sa		
+1BDB	"""ᯛ"""	1BC0..1BFF	Batak	Batak letter ya		
+1BDC	"""ᯜ"""	1BC0..1BFF	Batak	Batak letter simalungun ya		
+1BDD	"""ᯝ"""	1BC0..1BFF	Batak	Batak letter nga		
+1BDE	"""ᯞ"""	1BC0..1BFF	Batak	Batak letter la		
+1BDF	"""ᯟ"""	1BC0..1BFF	Batak	Batak letter simalungun la		
+1BE0	"""ᯠ"""	1BC0..1BFF	Batak	Batak letter nya		
+1BE1	"""ᯡ"""	1BC0..1BFF	Batak	Batak letter ca		
+1BE2	"""ᯢ"""	1BC0..1BFF	Batak	Batak letter nda		
+1BE3	"""ᯣ"""	1BC0..1BFF	Batak	Batak letter mba		
+1BE4	"""ᯤ"""	1BC0..1BFF	Batak	Batak letter i		
+1BE5	"""ᯥ"""	1BC0..1BFF	Batak	Batak letter u		
+1BE6	"""᯦"""	1BC0..1BFF	Batak	Batak sign tompi		
+1BE7	"""ᯧ"""	1BC0..1BFF	Batak	Batak vowel sign e		
+1BE8	"""ᯨ"""	1BC0..1BFF	Batak	Batak vowel sign pakpak e		
+1BE9	"""ᯩ"""	1BC0..1BFF	Batak	Batak vowel sign ee		
+1BEA	"""ᯪ"""	1BC0..1BFF	Batak	Batak vowel sign i		
+1BEB	"""ᯫ"""	1BC0..1BFF	Batak	Batak vowel sign karo i		
+1BEC	"""ᯬ"""	1BC0..1BFF	Batak	Batak vowel sign o		
+1BED	"""ᯭ"""	1BC0..1BFF	Batak	Batak vowel sign karo o		
+1BEE	"""ᯮ"""	1BC0..1BFF	Batak	Batak vowel sign u		
+1BEF	"""ᯯ"""	1BC0..1BFF	Batak	Batak vowel sign u for simalungun sa		
+1BF0	"""ᯰ"""	1BC0..1BFF	Batak	Batak consonant sign ng		
+1BF1	"""ᯱ"""	1BC0..1BFF	Batak	Batak consonant sign h		
+1BF2	"""᯲"""	1BC0..1BFF	Batak	Batak pangolat		
+1BF3	"""᯳"""	1BC0..1BFF	Batak	Batak panongonan		
+1BFC	"""᯼"""	1BC0..1BFF	Batak	Batak symbol bindu na metek		
+1BFD	"""᯽"""	1BC0..1BFF	Batak	Batak symbol bindu pinarboras		
+1BFE	"""᯾"""	1BC0..1BFF	Batak	Batak symbol bindu judul		
+1BFF	"""᯿"""	1BC0..1BFF	Batak	Batak symbol bindu pangolat		

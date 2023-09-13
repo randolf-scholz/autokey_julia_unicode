@@ -1,0 +1,769 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1F300	"""🌀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cyclone		
+1F301	"""🌁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Foggy		
+1F302	"""🌂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Closed umbrella		
+1F303	"""🌃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Night with stars		
+1F304	"""🌄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sunrise over mountains		
+1F305	"""🌅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sunrise		
+1F306	"""🌆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cityscape at dusk		
+1F307	"""🌇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sunset over buildings		
+1F308	"""🌈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rainbow		
+1F309	"""🌉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bridge at night		
+1F30A	"""🌊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Water wave		
+1F30B	"""🌋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Volcano		
+1F30C	"""🌌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Milky way		
+1F30D	"""🌍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Earth globe europe-africa		
+1F30E	"""🌎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Earth globe americas		
+1F30F	"""🌏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Earth globe asia-australia		
+1F310	"""🌐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Globe with meridians		
+1F311	"""🌑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	New moon symbol		
+1F312	"""🌒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waxing crescent moon symbol		
+1F313	"""🌓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	First quarter moon symbol		
+1F314	"""🌔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waxing gibbous moon symbol		
+1F315	"""🌕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Full moon symbol		
+1F316	"""🌖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waning gibbous moon symbol		
+1F317	"""🌗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Last quarter moon symbol		
+1F318	"""🌘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waning crescent moon symbol		
+1F319	"""🌙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Crescent moon		
+1F31A	"""🌚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	New moon with face		
+1F31B	"""🌛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	First quarter moon with face		
+1F31C	"""🌜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Last quarter moon with face		
+1F31D	"""🌝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Full moon with face		
+1F31E	"""🌞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sun with face		
+1F31F	"""🌟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Glowing star		
+1F320	"""🌠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Shooting star		
+1F321	"""🌡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Thermometer		
+1F322	"""🌢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black droplet		
+1F323	"""🌣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White sun		
+1F324	"""🌤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White sun with small cloud		
+1F325	"""🌥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White sun behind cloud		
+1F326	"""🌦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White sun behind cloud with rain		
+1F327	"""🌧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cloud with rain		
+1F328	"""🌨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cloud with snow		
+1F329	"""🌩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cloud with lightning		
+1F32A	"""🌪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cloud with tornado		
+1F32B	"""🌫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fog		
+1F32C	"""🌬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wind blowing face		
+1F32D	"""🌭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hot dog		
+1F32E	"""🌮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Taco		
+1F32F	"""🌯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Burrito		
+1F330	"""🌰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chestnut		
+1F331	"""🌱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Seedling		
+1F332	"""🌲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Evergreen tree		
+1F333	"""🌳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Deciduous tree		
+1F334	"""🌴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Palm tree		
+1F335	"""🌵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cactus		
+1F336	"""🌶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hot pepper		
+1F337	"""🌷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tulip		
+1F338	"""🌸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cherry blossom		
+1F339	"""🌹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rose		
+1F33A	"""🌺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hibiscus		
+1F33B	"""🌻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sunflower		
+1F33C	"""🌼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Blossom		
+1F33D	"""🌽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ear of maize		
+1F33E	"""🌾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ear of rice		
+1F33F	"""🌿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Herb		
+1F340	"""🍀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Four leaf clover		
+1F341	"""🍁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Maple leaf		
+1F342	"""🍂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fallen leaf		
+1F343	"""🍃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Leaf fluttering in wind		
+1F344	"""🍄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mushroom		
+1F345	"""🍅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tomato		
+1F346	"""🍆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Aubergine		
+1F347	"""🍇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Grapes		
+1F348	"""🍈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Melon		
+1F349	"""🍉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Watermelon		
+1F34A	"""🍊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tangerine		
+1F34B	"""🍋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lemon		
+1F34C	"""🍌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Banana		
+1F34D	"""🍍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pineapple		
+1F34E	"""🍎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Red apple		
+1F34F	"""🍏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Green apple		
+1F350	"""🍐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pear		
+1F351	"""🍑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Peach		
+1F352	"""🍒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cherries		
+1F353	"""🍓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Strawberry		
+1F354	"""🍔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hamburger		
+1F355	"""🍕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Slice of pizza		
+1F356	"""🍖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Meat on bone		
+1F357	"""🍗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Poultry leg		
+1F358	"""🍘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rice cracker		
+1F359	"""🍙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rice ball		
+1F35A	"""🍚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cooked rice		
+1F35B	"""🍛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Curry and rice		
+1F35C	"""🍜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Steaming bowl		
+1F35D	"""🍝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spaghetti		
+1F35E	"""🍞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bread		
+1F35F	"""🍟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	French fries		
+1F360	"""🍠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Roasted sweet potato		
+1F361	"""🍡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dango		
+1F362	"""🍢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Oden		
+1F363	"""🍣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sushi		
+1F364	"""🍤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fried shrimp		
+1F365	"""🍥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fish cake with swirl design		
+1F366	"""🍦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Soft ice cream		
+1F367	"""🍧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Shaved ice		
+1F368	"""🍨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ice cream		
+1F369	"""🍩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Doughnut		
+1F36A	"""🍪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cookie		
+1F36B	"""🍫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chocolate bar		
+1F36C	"""🍬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Candy		
+1F36D	"""🍭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lollipop		
+1F36E	"""🍮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Custard		
+1F36F	"""🍯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Honey pot		
+1F370	"""🍰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Shortcake		
+1F371	"""🍱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bento box		
+1F372	"""🍲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pot of food		
+1F373	"""🍳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cooking		
+1F374	"""🍴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fork and knife		
+1F375	"""🍵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Teacup without handle		
+1F376	"""🍶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sake bottle and cup		
+1F377	"""🍷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wine glass		
+1F378	"""🍸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cocktail glass		
+1F379	"""🍹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tropical drink		
+1F37A	"""🍺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Beer mug		
+1F37B	"""🍻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clinking beer mugs		
+1F37C	"""🍼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Baby bottle		
+1F37D	"""🍽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fork and knife with plate		
+1F37E	"""🍾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bottle with popping cork		
+1F37F	"""🍿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Popcorn		
+1F380	"""🎀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ribbon		
+1F381	"""🎁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wrapped present		
+1F382	"""🎂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Birthday cake		
+1F383	"""🎃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Jack-o-lantern		
+1F384	"""🎄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Christmas tree		
+1F385	"""🎅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Father christmas		
+1F386	"""🎆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fireworks		
+1F387	"""🎇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Firework sparkler		
+1F388	"""🎈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Balloon		
+1F389	"""🎉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Party popper		
+1F38A	"""🎊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Confetti ball		
+1F38B	"""🎋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tanabata tree		
+1F38C	"""🎌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Crossed flags		
+1F38D	"""🎍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pine decoration		
+1F38E	"""🎎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese dolls		
+1F38F	"""🎏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Carp streamer		
+1F390	"""🎐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wind chime		
+1F391	"""🎑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Moon viewing ceremony		
+1F392	"""🎒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	School satchel		
+1F393	"""🎓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Graduation cap		
+1F394	"""🎔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heart with tip on the left		
+1F395	"""🎕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bouquet of flowers		
+1F396	"""🎖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Military medal		
+1F397	"""🎗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reminder ribbon		
+1F398	"""🎘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Musical keyboard with jacks		
+1F399	"""🎙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Studio microphone		
+1F39A	"""🎚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Level slider		
+1F39B	"""🎛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Control knobs		
+1F39C	"""🎜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Beamed ascending musical notes		
+1F39D	"""🎝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Beamed descending musical notes		
+1F39E	"""🎞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Film frames		
+1F39F	"""🎟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Admission tickets		
+1F3A0	"""🎠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Carousel horse		
+1F3A1	"""🎡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ferris wheel		
+1F3A2	"""🎢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Roller coaster		
+1F3A3	"""🎣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fishing pole and fish		
+1F3A4	"""🎤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Microphone		
+1F3A5	"""🎥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Movie camera		
+1F3A6	"""🎦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cinema		
+1F3A7	"""🎧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Headphone		
+1F3A8	"""🎨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Artist palette		
+1F3A9	"""🎩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Top hat		
+1F3AA	"""🎪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Circus tent		
+1F3AB	"""🎫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ticket		
+1F3AC	"""🎬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clapper board		
+1F3AD	"""🎭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Performing arts		
+1F3AE	"""🎮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Video game		
+1F3AF	"""🎯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Direct hit		
+1F3B0	"""🎰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Slot machine		
+1F3B1	"""🎱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Billiards		
+1F3B2	"""🎲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Game die		
+1F3B3	"""🎳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bowling		
+1F3B4	"""🎴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Flower playing cards		
+1F3B5	"""🎵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Musical note		
+1F3B6	"""🎶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Multiple musical notes		
+1F3B7	"""🎷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Saxophone		
+1F3B8	"""🎸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Guitar		
+1F3B9	"""🎹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Musical keyboard		
+1F3BA	"""🎺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Trumpet		
+1F3BB	"""🎻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Violin		
+1F3BC	"""🎼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Musical score		
+1F3BD	"""🎽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Running shirt with sash		
+1F3BE	"""🎾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tennis racquet and ball		
+1F3BF	"""🎿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ski and ski boot		
+1F3C0	"""🏀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Basketball and hoop		
+1F3C1	"""🏁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chequered flag		
+1F3C2	"""🏂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Snowboarder		
+1F3C3	"""🏃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Runner		
+1F3C4	"""🏄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Surfer		
+1F3C5	"""🏅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sports medal		
+1F3C6	"""🏆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Trophy		
+1F3C7	"""🏇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Horse racing		
+1F3C8	"""🏈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	American football		
+1F3C9	"""🏉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rugby football		
+1F3CA	"""🏊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Swimmer		
+1F3CB	"""🏋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Weight lifter		
+1F3CC	"""🏌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Golfer		
+1F3CD	"""🏍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Racing motorcycle		
+1F3CE	"""🏎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Racing car		
+1F3CF	"""🏏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cricket bat and ball		
+1F3D0	"""🏐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Volleyball		
+1F3D1	"""🏑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Field hockey stick and ball		
+1F3D2	"""🏒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ice hockey stick and puck		
+1F3D3	"""🏓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Table tennis paddle and ball		
+1F3D4	"""🏔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Snow capped mountain		
+1F3D5	"""🏕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Camping		
+1F3D6	"""🏖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Beach with umbrella		
+1F3D7	"""🏗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Building construction		
+1F3D8	"""🏘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	House buildings		
+1F3D9	"""🏙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cityscape		
+1F3DA	"""🏚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Derelict house building		
+1F3DB	"""🏛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Classical building		
+1F3DC	"""🏜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Desert		
+1F3DD	"""🏝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Desert island		
+1F3DE	"""🏞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	National park		
+1F3DF	"""🏟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Stadium		
+1F3E0	"""🏠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	House building		
+1F3E1	"""🏡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	House with garden		
+1F3E2	"""🏢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Office building		
+1F3E3	"""🏣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese post office		
+1F3E4	"""🏤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	European post office		
+1F3E5	"""🏥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hospital		
+1F3E6	"""🏦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bank		
+1F3E7	"""🏧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Automated teller machine		
+1F3E8	"""🏨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hotel		
+1F3E9	"""🏩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Love hotel		
+1F3EA	"""🏪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Convenience store		
+1F3EB	"""🏫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	School		
+1F3EC	"""🏬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Department store		
+1F3ED	"""🏭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Factory		
+1F3EE	"""🏮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Izakaya lantern		
+1F3EF	"""🏯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese castle		
+1F3F0	"""🏰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	European castle		
+1F3F1	"""🏱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White pennant		
+1F3F2	"""🏲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black pennant		
+1F3F3	"""🏳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waving white flag		
+1F3F4	"""🏴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waving black flag		
+1F3F5	"""🏵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rosette		
+1F3F6	"""🏶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black rosette		
+1F3F7	"""🏷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Label		
+1F3F8	"""🏸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Badminton racquet and shuttlecock		
+1F3F9	"""🏹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bow and arrow		
+1F3FA	"""🏺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Amphora		
+1F3FB	"""🏻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Emoji modifier fitzpatrick type-1-2		
+1F3FC	"""🏼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Emoji modifier fitzpatrick type-3		
+1F3FD	"""🏽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Emoji modifier fitzpatrick type-4		
+1F3FE	"""🏾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Emoji modifier fitzpatrick type-5		
+1F3FF	"""🏿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Emoji modifier fitzpatrick type-6		
+1F400	"""🐀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rat		
+1F401	"""🐁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mouse		
+1F402	"""🐂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ox		
+1F403	"""🐃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Water buffalo		
+1F404	"""🐄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cow		
+1F405	"""🐅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tiger		
+1F406	"""🐆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Leopard		
+1F407	"""🐇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rabbit		
+1F408	"""🐈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cat		
+1F409	"""🐉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dragon		
+1F40A	"""🐊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Crocodile		
+1F40B	"""🐋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Whale		
+1F40C	"""🐌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Snail		
+1F40D	"""🐍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Snake		
+1F40E	"""🐎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Horse		
+1F40F	"""🐏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ram		
+1F410	"""🐐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Goat		
+1F411	"""🐑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sheep		
+1F412	"""🐒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Monkey		
+1F413	"""🐓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rooster		
+1F414	"""🐔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chicken		
+1F415	"""🐕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dog		
+1F416	"""🐖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pig		
+1F417	"""🐗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Boar		
+1F418	"""🐘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Elephant		
+1F419	"""🐙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Octopus		
+1F41A	"""🐚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spiral shell		
+1F41B	"""🐛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bug		
+1F41C	"""🐜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ant		
+1F41D	"""🐝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Honeybee		
+1F41E	"""🐞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lady beetle		
+1F41F	"""🐟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fish		
+1F420	"""🐠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tropical fish		
+1F421	"""🐡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Blowfish		
+1F422	"""🐢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Turtle		
+1F423	"""🐣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hatching chick		
+1F424	"""🐤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Baby chick		
+1F425	"""🐥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Front-facing baby chick		
+1F426	"""🐦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bird		
+1F427	"""🐧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Penguin		
+1F428	"""🐨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Koala		
+1F429	"""🐩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Poodle		
+1F42A	"""🐪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dromedary camel		
+1F42B	"""🐫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bactrian camel		
+1F42C	"""🐬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dolphin		
+1F42D	"""🐭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mouse face		
+1F42E	"""🐮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cow face		
+1F42F	"""🐯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tiger face		
+1F430	"""🐰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rabbit face		
+1F431	"""🐱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cat face		
+1F432	"""🐲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dragon face		
+1F433	"""🐳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spouting whale		
+1F434	"""🐴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Horse face		
+1F435	"""🐵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Monkey face		
+1F436	"""🐶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dog face		
+1F437	"""🐷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pig face		
+1F438	"""🐸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Frog face		
+1F439	"""🐹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hamster face		
+1F43A	"""🐺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wolf face		
+1F43B	"""🐻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bear face		
+1F43C	"""🐼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Panda face		
+1F43D	"""🐽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pig nose		
+1F43E	"""🐾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Paw prints		
+1F43F	"""🐿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chipmunk		
+1F440	"""👀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Eyes		
+1F441	"""👁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Eye		
+1F442	"""👂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ear		
+1F443	"""👃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Nose		
+1F444	"""👄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mouth		
+1F445	"""👅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tongue		
+1F446	"""👆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White up pointing backhand index		
+1F447	"""👇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White down pointing backhand index		
+1F448	"""👈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White left pointing backhand index		
+1F449	"""👉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White right pointing backhand index		
+1F44A	"""👊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fisted hand sign		
+1F44B	"""👋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Waving hand sign		
+1F44C	"""👌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ok hand sign		
+1F44D	"""👍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Thumbs up sign		
+1F44E	"""👎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Thumbs down sign		
+1F44F	"""👏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clapping hands sign		
+1F450	"""👐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open hands sign		
+1F451	"""👑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Crown		
+1F452	"""👒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Womans hat		
+1F453	"""👓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Eyeglasses		
+1F454	"""👔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Necktie		
+1F455	"""👕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	T-shirt		
+1F456	"""👖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Jeans		
+1F457	"""👗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dress		
+1F458	"""👘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Kimono		
+1F459	"""👙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bikini		
+1F45A	"""👚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Womans clothes		
+1F45B	"""👛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Purse		
+1F45C	"""👜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Handbag		
+1F45D	"""👝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pouch		
+1F45E	"""👞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mans shoe		
+1F45F	"""👟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Athletic shoe		
+1F460	"""👠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	High-heeled shoe		
+1F461	"""👡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Womans sandal		
+1F462	"""👢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Womans boots		
+1F463	"""👣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Footprints		
+1F464	"""👤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bust in silhouette		
+1F465	"""👥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Busts in silhouette		
+1F466	"""👦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Boy		
+1F467	"""👧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Girl		
+1F468	"""👨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man		
+1F469	"""👩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Woman		
+1F46A	"""👪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Family		
+1F46B	"""👫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man and woman holding hands		
+1F46C	"""👬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Two men holding hands		
+1F46D	"""👭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Two women holding hands		
+1F46E	"""👮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Police officer		
+1F46F	"""👯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Woman with bunny ears		
+1F470	"""👰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bride with veil		
+1F471	"""👱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Person with blond hair		
+1F472	"""👲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man with gua pi mao		
+1F473	"""👳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man with turban		
+1F474	"""👴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Older man		
+1F475	"""👵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Older woman		
+1F476	"""👶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Baby		
+1F477	"""👷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Construction worker		
+1F478	"""👸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Princess		
+1F479	"""👹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese ogre		
+1F47A	"""👺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese goblin		
+1F47B	"""👻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ghost		
+1F47C	"""👼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Baby angel		
+1F47D	"""👽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Extraterrestrial alien		
+1F47E	"""👾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Alien monster		
+1F47F	"""👿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Imp		
+1F480	"""💀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Skull		
+1F481	"""💁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Information desk person		
+1F482	"""💂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Guardsman		
+1F483	"""💃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dancer		
+1F484	"""💄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lipstick		
+1F485	"""💅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Nail polish		
+1F486	"""💆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Face massage		
+1F487	"""💇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Haircut		
+1F488	"""💈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Barber pole		
+1F489	"""💉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Syringe		
+1F48A	"""💊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pill		
+1F48B	"""💋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Kiss mark		
+1F48C	"""💌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Love letter		
+1F48D	"""💍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ring		
+1F48E	"""💎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Gem stone		
+1F48F	"""💏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Kiss		
+1F490	"""💐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bouquet		
+1F491	"""💑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Couple with heart		
+1F492	"""💒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wedding		
+1F493	"""💓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Beating heart		
+1F494	"""💔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Broken heart		
+1F495	"""💕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Two hearts		
+1F496	"""💖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sparkling heart		
+1F497	"""💗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Growing heart		
+1F498	"""💘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heart with arrow		
+1F499	"""💙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Blue heart		
+1F49A	"""💚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Green heart		
+1F49B	"""💛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Yellow heart		
+1F49C	"""💜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Purple heart		
+1F49D	"""💝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heart with ribbon		
+1F49E	"""💞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Revolving hearts		
+1F49F	"""💟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heart decoration		
+1F4A0	"""💠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Diamond shape with a dot inside		
+1F4A1	"""💡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Electric light bulb		
+1F4A2	"""💢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Anger symbol		
+1F4A3	"""💣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bomb		
+1F4A4	"""💤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sleeping symbol		
+1F4A5	"""💥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Collision symbol		
+1F4A6	"""💦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Splashing sweat symbol		
+1F4A7	"""💧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Droplet		
+1F4A8	"""💨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dash symbol		
+1F4A9	"""💩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pile of poo		
+1F4AA	"""💪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Flexed biceps		
+1F4AB	"""💫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dizzy symbol		
+1F4AC	"""💬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speech balloon		
+1F4AD	"""💭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Thought balloon		
+1F4AE	"""💮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White flower		
+1F4AF	"""💯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hundred points symbol		
+1F4B0	"""💰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Money bag		
+1F4B1	"""💱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Currency exchange		
+1F4B2	"""💲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heavy dollar sign		
+1F4B3	"""💳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Credit card		
+1F4B4	"""💴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Banknote with yen sign		
+1F4B5	"""💵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Banknote with dollar sign		
+1F4B6	"""💶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Banknote with euro sign		
+1F4B7	"""💷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Banknote with pound sign		
+1F4B8	"""💸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Money with wings		
+1F4B9	"""💹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chart with upwards trend and yen sign		
+1F4BA	"""💺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Seat		
+1F4BB	"""💻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Personal computer		
+1F4BC	"""💼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Briefcase		
+1F4BD	"""💽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Minidisc		
+1F4BE	"""💾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Floppy disk		
+1F4BF	"""💿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Optical disc		
+1F4C0	"""📀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dvd		
+1F4C1	"""📁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	File folder		
+1F4C2	"""📂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open file folder		
+1F4C3	"""📃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Page with curl		
+1F4C4	"""📄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Page facing up		
+1F4C5	"""📅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Calendar		
+1F4C6	"""📆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tear-off calendar		
+1F4C7	"""📇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Card index		
+1F4C8	"""📈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chart with upwards trend		
+1F4C9	"""📉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Chart with downwards trend		
+1F4CA	"""📊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bar chart		
+1F4CB	"""📋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clipboard		
+1F4CC	"""📌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pushpin		
+1F4CD	"""📍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Round pushpin		
+1F4CE	"""📎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Paperclip		
+1F4CF	"""📏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Straight ruler		
+1F4D0	"""📐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Triangular ruler		
+1F4D1	"""📑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bookmark tabs		
+1F4D2	"""📒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ledger		
+1F4D3	"""📓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Notebook		
+1F4D4	"""📔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Notebook with decorative cover		
+1F4D5	"""📕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Closed book		
+1F4D6	"""📖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open book		
+1F4D7	"""📗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Green book		
+1F4D8	"""📘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Blue book		
+1F4D9	"""📙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Orange book		
+1F4DA	"""📚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Books		
+1F4DB	"""📛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Name badge		
+1F4DC	"""📜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Scroll		
+1F4DD	"""📝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Memo		
+1F4DE	"""📞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Telephone receiver		
+1F4DF	"""📟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pager		
+1F4E0	"""📠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fax machine		
+1F4E1	"""📡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Satellite antenna		
+1F4E2	"""📢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Public address loudspeaker		
+1F4E3	"""📣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cheering megaphone		
+1F4E4	"""📤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Outbox tray		
+1F4E5	"""📥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Inbox tray		
+1F4E6	"""📦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Package		
+1F4E7	"""📧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	E-mail symbol		
+1F4E8	"""📨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Incoming envelope		
+1F4E9	"""📩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Envelope with downwards arrow above		
+1F4EA	"""📪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Closed mailbox with lowered flag		
+1F4EB	"""📫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Closed mailbox with raised flag		
+1F4EC	"""📬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open mailbox with raised flag		
+1F4ED	"""📭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open mailbox with lowered flag		
+1F4EE	"""📮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Postbox		
+1F4EF	"""📯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Postal horn		
+1F4F0	"""📰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Newspaper		
+1F4F1	"""📱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mobile phone		
+1F4F2	"""📲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mobile phone with rightwards arrow at left		
+1F4F3	"""📳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Vibration mode		
+1F4F4	"""📴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mobile phone off		
+1F4F5	"""📵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	No mobile phones		
+1F4F6	"""📶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Antenna with bars		
+1F4F7	"""📷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Camera		
+1F4F8	"""📸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Camera with flash		
+1F4F9	"""📹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Video camera		
+1F4FA	"""📺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Television		
+1F4FB	"""📻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Radio		
+1F4FC	"""📼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Videocassette		
+1F4FD	"""📽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Film projector		
+1F4FE	"""📾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Portable stereo		
+1F4FF	"""📿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Prayer beads		
+1F500	"""🔀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Twisted rightwards arrows		
+1F501	"""🔁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clockwise rightwards and leftwards open circle arrows		
+1F502	"""🔂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clockwise rightwards and leftwards open circle arrows with circled one overlay		
+1F503	"""🔃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clockwise downwards and upwards open circle arrows		
+1F504	"""🔄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Anticlockwise downwards and upwards open circle arrows		
+1F505	"""🔅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Low brightness symbol		
+1F506	"""🔆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	High brightness symbol		
+1F507	"""🔇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speaker with cancellation stroke		
+1F508	"""🔈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speaker		
+1F509	"""🔉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speaker with one sound wave		
+1F50A	"""🔊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speaker with three sound waves		
+1F50B	"""🔋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Battery		
+1F50C	"""🔌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Electric plug		
+1F50D	"""🔍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left-pointing magnifying glass		
+1F50E	"""🔎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right-pointing magnifying glass		
+1F50F	"""🔏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lock with ink pen		
+1F510	"""🔐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Closed lock with key		
+1F511	"""🔑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Key		
+1F512	"""🔒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lock		
+1F513	"""🔓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open lock		
+1F514	"""🔔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bell		
+1F515	"""🔕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bell with cancellation stroke		
+1F516	"""🔖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bookmark		
+1F517	"""🔗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Link symbol		
+1F518	"""🔘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Radio button		
+1F519	"""🔙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Back with leftwards arrow above		
+1F51A	"""🔚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	End with leftwards arrow above		
+1F51B	"""🔛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	On with exclamation mark with left right arrow above		
+1F51C	"""🔜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Soon with rightwards arrow above		
+1F51D	"""🔝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Top with upwards arrow above		
+1F51E	"""🔞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	No one under eighteen symbol		
+1F51F	"""🔟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Keycap ten		
+1F520	"""🔠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Input symbol for latin capital letters		
+1F521	"""🔡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Input symbol for latin small letters		
+1F522	"""🔢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Input symbol for numbers		
+1F523	"""🔣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Input symbol for symbols		
+1F524	"""🔤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Input symbol for latin letters		
+1F525	"""🔥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fire		
+1F526	"""🔦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Electric torch		
+1F527	"""🔧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wrench		
+1F528	"""🔨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hammer		
+1F529	"""🔩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Nut and bolt		
+1F52A	"""🔪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hocho		
+1F52B	"""🔫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pistol		
+1F52C	"""🔬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Microscope		
+1F52D	"""🔭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Telescope		
+1F52E	"""🔮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Crystal ball		
+1F52F	"""🔯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Six pointed star with middle dot		
+1F530	"""🔰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Japanese symbol for beginner		
+1F531	"""🔱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Trident emblem		
+1F532	"""🔲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black square button		
+1F533	"""🔳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White square button		
+1F534	"""🔴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Large red circle		
+1F535	"""🔵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Large blue circle		
+1F536	"""🔶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Large orange diamond		
+1F537	"""🔷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Large blue diamond		
+1F538	"""🔸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Small orange diamond		
+1F539	"""🔹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Small blue diamond		
+1F53A	"""🔺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Up-pointing red triangle		
+1F53B	"""🔻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Down-pointing red triangle		
+1F53C	"""🔼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Up-pointing small red triangle		
+1F53D	"""🔽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Down-pointing small red triangle		
+1F53E	"""🔾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower right shadowed white circle		
+1F53F	"""🔿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Upper right shadowed white circle		
+1F540	"""🕀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Circled cross pommee		
+1F541	"""🕁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cross pommee with half-circle below		
+1F542	"""🕂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cross pommee		
+1F543	"""🕃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Notched left semicircle with three dots		
+1F544	"""🕄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Notched right semicircle with three dots		
+1F545	"""🕅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Symbol for marks chapter		
+1F546	"""🕆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White latin cross		
+1F547	"""🕇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Heavy latin cross		
+1F548	"""🕈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Celtic cross		
+1F549	"""🕉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Om symbol		
+1F54A	"""🕊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dove of peace		
+1F54B	"""🕋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Kaaba		
+1F54C	"""🕌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mosque		
+1F54D	"""🕍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Synagogue		
+1F54E	"""🕎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Menorah with nine branches		
+1F54F	"""🕏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bowl of hygieia		
+1F550	"""🕐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face one oclock		
+1F551	"""🕑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face two oclock		
+1F552	"""🕒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face three oclock		
+1F553	"""🕓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face four oclock		
+1F554	"""🕔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face five oclock		
+1F555	"""🕕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face six oclock		
+1F556	"""🕖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face seven oclock		
+1F557	"""🕗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face eight oclock		
+1F558	"""🕘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face nine oclock		
+1F559	"""🕙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face ten oclock		
+1F55A	"""🕚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face eleven oclock		
+1F55B	"""🕛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face twelve oclock		
+1F55C	"""🕜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face one-thirty		
+1F55D	"""🕝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face two-thirty		
+1F55E	"""🕞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face three-thirty		
+1F55F	"""🕟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face four-thirty		
+1F560	"""🕠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face five-thirty		
+1F561	"""🕡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face six-thirty		
+1F562	"""🕢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face seven-thirty		
+1F563	"""🕣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face eight-thirty		
+1F564	"""🕤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face nine-thirty		
+1F565	"""🕥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face ten-thirty		
+1F566	"""🕦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face eleven-thirty		
+1F567	"""🕧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clock face twelve-thirty		
+1F568	"""🕨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right speaker		
+1F569	"""🕩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right speaker with one sound wave		
+1F56A	"""🕪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right speaker with three sound waves		
+1F56B	"""🕫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bullhorn		
+1F56C	"""🕬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Bullhorn with sound waves		
+1F56D	"""🕭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ringing bell		
+1F56E	"""🕮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Book		
+1F56F	"""🕯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Candle		
+1F570	"""🕰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mantelpiece clock		
+1F571	"""🕱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black skull and crossbones		
+1F572	"""🕲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	No piracy		
+1F573	"""🕳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hole		
+1F574	"""🕴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man in business suit levitating		
+1F575	"""🕵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sleuth or spy		
+1F576	"""🕶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dark sunglasses		
+1F577	"""🕷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spider		
+1F578	"""🕸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spider web		
+1F579	"""🕹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Joystick		
+1F57A	"""🕺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Man dancing		
+1F57B	"""🕻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left hand telephone receiver		
+1F57C	"""🕼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Telephone receiver with page		
+1F57D	"""🕽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right hand telephone receiver		
+1F57E	"""🕾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White touchtone telephone		
+1F57F	"""🕿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black touchtone telephone		
+1F580	"""🖀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Telephone on top of modem		
+1F581	"""🖁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clamshell mobile phone		
+1F582	"""🖂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Back of envelope		
+1F583	"""🖃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Stamped envelope		
+1F584	"""🖄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Envelope with lightning		
+1F585	"""🖅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Flying envelope		
+1F586	"""🖆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pen over stamped envelope		
+1F587	"""🖇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Linked paperclips		
+1F588	"""🖈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black pushpin		
+1F589	"""🖉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower left pencil		
+1F58A	"""🖊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower left ballpoint pen		
+1F58B	"""🖋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower left fountain pen		
+1F58C	"""🖌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower left paintbrush		
+1F58D	"""🖍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lower left crayon		
+1F58E	"""🖎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left writing hand		
+1F58F	"""🖏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Turned ok hand sign		
+1F590	"""🖐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Raised hand with fingers splayed		
+1F591	"""🖑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reversed raised hand with fingers splayed		
+1F592	"""🖒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reversed thumbs up sign		
+1F593	"""🖓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reversed thumbs down sign		
+1F594	"""🖔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reversed victory hand		
+1F595	"""🖕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Reversed hand with middle finger extended		
+1F596	"""🖖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Raised hand with part between middle and ring fingers		
+1F597	"""🖗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White down pointing left hand index		
+1F598	"""🖘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways white left pointing index		
+1F599	"""🖙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways white right pointing index		
+1F59A	"""🖚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways black left pointing index		
+1F59B	"""🖛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways black right pointing index		
+1F59C	"""🖜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black left pointing backhand index		
+1F59D	"""🖝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black right pointing backhand index		
+1F59E	"""🖞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways white up pointing index		
+1F59F	"""🖟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways white down pointing index		
+1F5A0	"""🖠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways black up pointing index		
+1F5A1	"""🖡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Sideways black down pointing index		
+1F5A2	"""🖢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black up pointing backhand index		
+1F5A3	"""🖣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black down pointing backhand index		
+1F5A4	"""🖤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black heart		
+1F5A5	"""🖥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Desktop computer		
+1F5A6	"""🖦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Keyboard and mouse		
+1F5A7	"""🖧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three networked computers		
+1F5A8	"""🖨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Printer		
+1F5A9	"""🖩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pocket calculator		
+1F5AA	"""🖪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black hard shell floppy disk		
+1F5AB	"""🖫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	White hard shell floppy disk		
+1F5AC	"""🖬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Soft shell floppy disk		
+1F5AD	"""🖭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tape cartridge		
+1F5AE	"""🖮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wired keyboard		
+1F5AF	"""🖯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	One button mouse		
+1F5B0	"""🖰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Two button mouse		
+1F5B1	"""🖱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three button mouse		
+1F5B2	"""🖲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Trackball		
+1F5B3	"""🖳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Old personal computer		
+1F5B4	"""🖴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Hard disk		
+1F5B5	"""🖵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Screen		
+1F5B6	"""🖶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Printer icon		
+1F5B7	"""🖷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Fax icon		
+1F5B8	"""🖸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Optical disc icon		
+1F5B9	"""🖹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Document with text		
+1F5BA	"""🖺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Document with text and picture		
+1F5BB	"""🖻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Document with picture		
+1F5BC	"""🖼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Frame with picture		
+1F5BD	"""🖽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Frame with tiles		
+1F5BE	"""🖾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Frame with an x		
+1F5BF	"""🖿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Black folder		
+1F5C0	"""🗀"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Folder		
+1F5C1	"""🗁"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Open folder		
+1F5C2	"""🗂"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Card index dividers		
+1F5C3	"""🗃"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Card file box		
+1F5C4	"""🗄"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	File cabinet		
+1F5C5	"""🗅"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty note		
+1F5C6	"""🗆"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty note page		
+1F5C7	"""🗇"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty note pad		
+1F5C8	"""🗈"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Note		
+1F5C9	"""🗉"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Note page		
+1F5CA	"""🗊"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Note pad		
+1F5CB	"""🗋"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty document		
+1F5CC	"""🗌"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty page		
+1F5CD	"""🗍"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Empty pages		
+1F5CE	"""🗎"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Document		
+1F5CF	"""🗏"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Page		
+1F5D0	"""🗐"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Pages		
+1F5D1	"""🗑"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Wastebasket		
+1F5D2	"""🗒"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spiral note pad		
+1F5D3	"""🗓"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Spiral calendar pad		
+1F5D4	"""🗔"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Desktop window		
+1F5D5	"""🗕"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Minimize		
+1F5D6	"""🗖"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Maximize		
+1F5D7	"""🗗"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Overlap		
+1F5D8	"""🗘"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Clockwise right and left semicircle arrows		
+1F5D9	"""🗙"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Cancellation x		
+1F5DA	"""🗚"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Increase font size symbol		
+1F5DB	"""🗛"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Decrease font size symbol		
+1F5DC	"""🗜"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Compression		
+1F5DD	"""🗝"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Old key		
+1F5DE	"""🗞"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Rolled-up newspaper		
+1F5DF	"""🗟"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Page with circled text		
+1F5E0	"""🗠"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Stock chart		
+1F5E1	"""🗡"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Dagger knife		
+1F5E2	"""🗢"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lips		
+1F5E3	"""🗣"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Speaking head in silhouette		
+1F5E4	"""🗤"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three rays above		
+1F5E5	"""🗥"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three rays below		
+1F5E6	"""🗦"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three rays left		
+1F5E7	"""🗧"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three rays right		
+1F5E8	"""🗨"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left speech bubble		
+1F5E9	"""🗩"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right speech bubble		
+1F5EA	"""🗪"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Two speech bubbles		
+1F5EB	"""🗫"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Three speech bubbles		
+1F5EC	"""🗬"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left thought bubble		
+1F5ED	"""🗭"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right thought bubble		
+1F5EE	"""🗮"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Left anger bubble		
+1F5EF	"""🗯"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Right anger bubble		
+1F5F0	"""🗰"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mood bubble		
+1F5F1	"""🗱"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lightning mood bubble		
+1F5F2	"""🗲"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Lightning mood		
+1F5F3	"""🗳"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot box with ballot		
+1F5F4	"""🗴"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot script x		
+1F5F5	"""🗵"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot box with script x		
+1F5F6	"""🗶"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot bold script x		
+1F5F7	"""🗷"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot box with bold script x		
+1F5F8	"""🗸"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Light check mark		
+1F5F9	"""🗹"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Ballot box with bold check		
+1F5FA	"""🗺"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	World map		
+1F5FB	"""🗻"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Mount fuji		
+1F5FC	"""🗼"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Tokyo tower		
+1F5FD	"""🗽"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Statue of liberty		
+1F5FE	"""🗾"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Silhouette of japan		
+1F5FF	"""🗿"""	1F300..1F5FF	Miscellaneous Symbols and Pictographs	Moyai		

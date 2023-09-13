@@ -1,0 +1,27 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10F70	"""𐽰"""	10F70..10FAF	Old Uyghur	Old uyghur letter aleph		
+10F71	"""𐽱"""	10F70..10FAF	Old Uyghur	Old uyghur letter beth		
+10F72	"""𐽲"""	10F70..10FAF	Old Uyghur	Old uyghur letter gimel-heth		
+10F73	"""𐽳"""	10F70..10FAF	Old Uyghur	Old uyghur letter waw		
+10F74	"""𐽴"""	10F70..10FAF	Old Uyghur	Old uyghur letter zayin		
+10F75	"""𐽵"""	10F70..10FAF	Old Uyghur	Old uyghur letter final heth		
+10F76	"""𐽶"""	10F70..10FAF	Old Uyghur	Old uyghur letter yodh		
+10F77	"""𐽷"""	10F70..10FAF	Old Uyghur	Old uyghur letter kaph		
+10F78	"""𐽸"""	10F70..10FAF	Old Uyghur	Old uyghur letter lamedh		
+10F79	"""𐽹"""	10F70..10FAF	Old Uyghur	Old uyghur letter mem		
+10F7A	"""𐽺"""	10F70..10FAF	Old Uyghur	Old uyghur letter nun		
+10F7B	"""𐽻"""	10F70..10FAF	Old Uyghur	Old uyghur letter samekh		
+10F7C	"""𐽼"""	10F70..10FAF	Old Uyghur	Old uyghur letter pe		
+10F7D	"""𐽽"""	10F70..10FAF	Old Uyghur	Old uyghur letter sadhe		
+10F7E	"""𐽾"""	10F70..10FAF	Old Uyghur	Old uyghur letter resh		
+10F7F	"""𐽿"""	10F70..10FAF	Old Uyghur	Old uyghur letter shin		
+10F80	"""𐾀"""	10F70..10FAF	Old Uyghur	Old uyghur letter taw		
+10F81	"""𐾁"""	10F70..10FAF	Old Uyghur	Old uyghur letter lesh		
+10F82	"""𐾂"""	10F70..10FAF	Old Uyghur	Old uyghur combining dot above		
+10F83	"""𐾃"""	10F70..10FAF	Old Uyghur	Old uyghur combining dot below		
+10F84	"""𐾄"""	10F70..10FAF	Old Uyghur	Old uyghur combining two dots above		
+10F85	"""𐾅"""	10F70..10FAF	Old Uyghur	Old uyghur combining two dots below		
+10F86	"""𐾆"""	10F70..10FAF	Old Uyghur	Old uyghur punctuation bar		
+10F87	"""𐾇"""	10F70..10FAF	Old Uyghur	Old uyghur punctuation two bars		
+10F88	"""𐾈"""	10F70..10FAF	Old Uyghur	Old uyghur punctuation two dots		
+10F89	"""𐾉"""	10F70..10FAF	Old Uyghur	Old uyghur punctuation four dots		

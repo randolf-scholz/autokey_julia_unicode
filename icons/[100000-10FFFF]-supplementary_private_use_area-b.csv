@@ -1,0 +1,3 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+100000	"""􀀀"""	100000..10FFFF	Supplementary Private Use Area-B	<plane 16 private use, first>		
+10FFFD	"""􏿽"""	100000..10FFFF	Supplementary Private Use Area-B	<plane 16 private use, last>		

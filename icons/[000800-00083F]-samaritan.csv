@@ -1,0 +1,62 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0800	"""ࠀ"""	0800..083F	Samaritan	Samaritan letter alaf		
+0801	"""ࠁ"""	0800..083F	Samaritan	Samaritan letter bit		
+0802	"""ࠂ"""	0800..083F	Samaritan	Samaritan letter gaman		
+0803	"""ࠃ"""	0800..083F	Samaritan	Samaritan letter dalat		
+0804	"""ࠄ"""	0800..083F	Samaritan	Samaritan letter iy		
+0805	"""ࠅ"""	0800..083F	Samaritan	Samaritan letter baa		
+0806	"""ࠆ"""	0800..083F	Samaritan	Samaritan letter zen		
+0807	"""ࠇ"""	0800..083F	Samaritan	Samaritan letter it		
+0808	"""ࠈ"""	0800..083F	Samaritan	Samaritan letter tit		
+0809	"""ࠉ"""	0800..083F	Samaritan	Samaritan letter yut		
+080A	"""ࠊ"""	0800..083F	Samaritan	Samaritan letter kaaf		
+080B	"""ࠋ"""	0800..083F	Samaritan	Samaritan letter labat		
+080C	"""ࠌ"""	0800..083F	Samaritan	Samaritan letter mim		
+080D	"""ࠍ"""	0800..083F	Samaritan	Samaritan letter nun		
+080E	"""ࠎ"""	0800..083F	Samaritan	Samaritan letter singaat		
+080F	"""ࠏ"""	0800..083F	Samaritan	Samaritan letter in		
+0810	"""ࠐ"""	0800..083F	Samaritan	Samaritan letter fi		
+0811	"""ࠑ"""	0800..083F	Samaritan	Samaritan letter tsaadiy		
+0812	"""ࠒ"""	0800..083F	Samaritan	Samaritan letter quf		
+0813	"""ࠓ"""	0800..083F	Samaritan	Samaritan letter rish		
+0814	"""ࠔ"""	0800..083F	Samaritan	Samaritan letter shan		
+0815	"""ࠕ"""	0800..083F	Samaritan	Samaritan letter taaf		
+0816	"""ࠖ"""	0800..083F	Samaritan	Samaritan mark in		
+0817	"""ࠗ"""	0800..083F	Samaritan	Samaritan mark in-alaf		
+0818	"""࠘"""	0800..083F	Samaritan	Samaritan mark occlusion		
+0819	"""࠙"""	0800..083F	Samaritan	Samaritan mark dagesh		
+081A	"""ࠚ"""	0800..083F	Samaritan	Samaritan modifier letter epenthetic yut		
+081B	"""ࠛ"""	0800..083F	Samaritan	Samaritan mark epenthetic yut		
+081C	"""ࠜ"""	0800..083F	Samaritan	Samaritan vowel sign long e		
+081D	"""ࠝ"""	0800..083F	Samaritan	Samaritan vowel sign e		
+081E	"""ࠞ"""	0800..083F	Samaritan	Samaritan vowel sign overlong aa		
+081F	"""ࠟ"""	0800..083F	Samaritan	Samaritan vowel sign long aa		
+0820	"""ࠠ"""	0800..083F	Samaritan	Samaritan vowel sign aa		
+0821	"""ࠡ"""	0800..083F	Samaritan	Samaritan vowel sign overlong a		
+0822	"""ࠢ"""	0800..083F	Samaritan	Samaritan vowel sign long a		
+0823	"""ࠣ"""	0800..083F	Samaritan	Samaritan vowel sign a		
+0824	"""ࠤ"""	0800..083F	Samaritan	Samaritan modifier letter short a		
+0825	"""ࠥ"""	0800..083F	Samaritan	Samaritan vowel sign short a		
+0826	"""ࠦ"""	0800..083F	Samaritan	Samaritan vowel sign long u		
+0827	"""ࠧ"""	0800..083F	Samaritan	Samaritan vowel sign u		
+0828	"""ࠨ"""	0800..083F	Samaritan	Samaritan modifier letter i		
+0829	"""ࠩ"""	0800..083F	Samaritan	Samaritan vowel sign long i		
+082A	"""ࠪ"""	0800..083F	Samaritan	Samaritan vowel sign i		
+082B	"""ࠫ"""	0800..083F	Samaritan	Samaritan vowel sign o		
+082C	"""ࠬ"""	0800..083F	Samaritan	Samaritan vowel sign sukun		
+082D	"""࠭"""	0800..083F	Samaritan	Samaritan mark nequdaa		
+0830	"""࠰"""	0800..083F	Samaritan	Samaritan punctuation nequdaa		
+0831	"""࠱"""	0800..083F	Samaritan	Samaritan punctuation afsaaq		
+0832	"""࠲"""	0800..083F	Samaritan	Samaritan punctuation anged		
+0833	"""࠳"""	0800..083F	Samaritan	Samaritan punctuation bau		
+0834	"""࠴"""	0800..083F	Samaritan	Samaritan punctuation atmaau		
+0835	"""࠵"""	0800..083F	Samaritan	Samaritan punctuation shiyyaalaa		
+0836	"""࠶"""	0800..083F	Samaritan	Samaritan abbreviation mark		
+0837	"""࠷"""	0800..083F	Samaritan	Samaritan punctuation melodic qitsa		
+0838	"""࠸"""	0800..083F	Samaritan	Samaritan punctuation ziqaa		
+0839	"""࠹"""	0800..083F	Samaritan	Samaritan punctuation qitsa		
+083A	"""࠺"""	0800..083F	Samaritan	Samaritan punctuation zaef		
+083B	"""࠻"""	0800..083F	Samaritan	Samaritan punctuation turu		
+083C	"""࠼"""	0800..083F	Samaritan	Samaritan punctuation arkaanu		
+083D	"""࠽"""	0800..083F	Samaritan	Samaritan punctuation sof mashfaat		
+083E	"""࠾"""	0800..083F	Samaritan	Samaritan punctuation annaau		

@@ -1,0 +1,129 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2900	"""⤀"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow with vertical stroke		
+2901	"""⤁"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow with double vertical stroke		
+2902	"""⤂"""	2900..297F	Supplemental Arrows-B	Leftwards double arrow with vertical stroke		
+2903	"""⤃"""	2900..297F	Supplemental Arrows-B	Rightwards double arrow with vertical stroke		
+2904	"""⤄"""	2900..297F	Supplemental Arrows-B	Left right double arrow with vertical stroke		
+2905	"""⤅"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow from bar		
+2906	"""⤆"""	2900..297F	Supplemental Arrows-B	Leftwards double arrow from bar		
+2907	"""⤇"""	2900..297F	Supplemental Arrows-B	Rightwards double arrow from bar		
+2908	"""⤈"""	2900..297F	Supplemental Arrows-B	Downwards arrow with horizontal stroke		
+2909	"""⤉"""	2900..297F	Supplemental Arrows-B	Upwards arrow with horizontal stroke		
+290A	"""⤊"""	2900..297F	Supplemental Arrows-B	Upwards triple arrow		
+290B	"""⤋"""	2900..297F	Supplemental Arrows-B	Downwards triple arrow		
+290C	"""⤌"""	2900..297F	Supplemental Arrows-B	Leftwards double dash arrow		
+290D	"""⤍"""	2900..297F	Supplemental Arrows-B	Rightwards double dash arrow		
+290E	"""⤎"""	2900..297F	Supplemental Arrows-B	Leftwards triple dash arrow		
+290F	"""⤏"""	2900..297F	Supplemental Arrows-B	Rightwards triple dash arrow		
+2910	"""⤐"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed triple dash arrow		
+2911	"""⤑"""	2900..297F	Supplemental Arrows-B	Rightwards arrow with dotted stem		
+2912	"""⤒"""	2900..297F	Supplemental Arrows-B	Upwards arrow to bar		
+2913	"""⤓"""	2900..297F	Supplemental Arrows-B	Downwards arrow to bar		
+2914	"""⤔"""	2900..297F	Supplemental Arrows-B	Rightwards arrow with tail with vertical stroke		
+2915	"""⤕"""	2900..297F	Supplemental Arrows-B	Rightwards arrow with tail with double vertical stroke		
+2916	"""⤖"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow with tail		
+2917	"""⤗"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow with tail with vertical stroke		
+2918	"""⤘"""	2900..297F	Supplemental Arrows-B	Rightwards two-headed arrow with tail with double vertical stroke		
+2919	"""⤙"""	2900..297F	Supplemental Arrows-B	Leftwards arrow-tail		
+291A	"""⤚"""	2900..297F	Supplemental Arrows-B	Rightwards arrow-tail		
+291B	"""⤛"""	2900..297F	Supplemental Arrows-B	Leftwards double arrow-tail		
+291C	"""⤜"""	2900..297F	Supplemental Arrows-B	Rightwards double arrow-tail		
+291D	"""⤝"""	2900..297F	Supplemental Arrows-B	Leftwards arrow to black diamond		
+291E	"""⤞"""	2900..297F	Supplemental Arrows-B	Rightwards arrow to black diamond		
+291F	"""⤟"""	2900..297F	Supplemental Arrows-B	Leftwards arrow from bar to black diamond		
+2920	"""⤠"""	2900..297F	Supplemental Arrows-B	Rightwards arrow from bar to black diamond		
+2921	"""⤡"""	2900..297F	Supplemental Arrows-B	North west and south east arrow		
+2922	"""⤢"""	2900..297F	Supplemental Arrows-B	North east and south west arrow		
+2923	"""⤣"""	2900..297F	Supplemental Arrows-B	North west arrow with hook		
+2924	"""⤤"""	2900..297F	Supplemental Arrows-B	North east arrow with hook		
+2925	"""⤥"""	2900..297F	Supplemental Arrows-B	South east arrow with hook		
+2926	"""⤦"""	2900..297F	Supplemental Arrows-B	South west arrow with hook		
+2927	"""⤧"""	2900..297F	Supplemental Arrows-B	North west arrow and north east arrow		
+2928	"""⤨"""	2900..297F	Supplemental Arrows-B	North east arrow and south east arrow		
+2929	"""⤩"""	2900..297F	Supplemental Arrows-B	South east arrow and south west arrow		
+292A	"""⤪"""	2900..297F	Supplemental Arrows-B	South west arrow and north west arrow		
+292B	"""⤫"""	2900..297F	Supplemental Arrows-B	Rising diagonal crossing falling diagonal		
+292C	"""⤬"""	2900..297F	Supplemental Arrows-B	Falling diagonal crossing rising diagonal		
+292D	"""⤭"""	2900..297F	Supplemental Arrows-B	South east arrow crossing north east arrow		
+292E	"""⤮"""	2900..297F	Supplemental Arrows-B	North east arrow crossing south east arrow		
+292F	"""⤯"""	2900..297F	Supplemental Arrows-B	Falling diagonal crossing north east arrow		
+2930	"""⤰"""	2900..297F	Supplemental Arrows-B	Rising diagonal crossing south east arrow		
+2931	"""⤱"""	2900..297F	Supplemental Arrows-B	North east arrow crossing north west arrow		
+2932	"""⤲"""	2900..297F	Supplemental Arrows-B	North west arrow crossing north east arrow		
+2933	"""⤳"""	2900..297F	Supplemental Arrows-B	Wave arrow pointing directly right		
+2934	"""⤴"""	2900..297F	Supplemental Arrows-B	Arrow pointing rightwards then curving upwards		
+2935	"""⤵"""	2900..297F	Supplemental Arrows-B	Arrow pointing rightwards then curving downwards		
+2936	"""⤶"""	2900..297F	Supplemental Arrows-B	Arrow pointing downwards then curving leftwards		
+2937	"""⤷"""	2900..297F	Supplemental Arrows-B	Arrow pointing downwards then curving rightwards		
+2938	"""⤸"""	2900..297F	Supplemental Arrows-B	Right-side arc clockwise arrow		
+2939	"""⤹"""	2900..297F	Supplemental Arrows-B	Left-side arc anticlockwise arrow		
+293A	"""⤺"""	2900..297F	Supplemental Arrows-B	Top arc anticlockwise arrow		
+293B	"""⤻"""	2900..297F	Supplemental Arrows-B	Bottom arc anticlockwise arrow		
+293C	"""⤼"""	2900..297F	Supplemental Arrows-B	Top arc clockwise arrow with minus		
+293D	"""⤽"""	2900..297F	Supplemental Arrows-B	Top arc anticlockwise arrow with plus		
+293E	"""⤾"""	2900..297F	Supplemental Arrows-B	Lower right semicircular clockwise arrow		
+293F	"""⤿"""	2900..297F	Supplemental Arrows-B	Lower left semicircular anticlockwise arrow		
+2940	"""⥀"""	2900..297F	Supplemental Arrows-B	Anticlockwise closed circle arrow		
+2941	"""⥁"""	2900..297F	Supplemental Arrows-B	Clockwise closed circle arrow		
+2942	"""⥂"""	2900..297F	Supplemental Arrows-B	Rightwards arrow above short leftwards arrow		
+2943	"""⥃"""	2900..297F	Supplemental Arrows-B	Leftwards arrow above short rightwards arrow		
+2944	"""⥄"""	2900..297F	Supplemental Arrows-B	Short rightwards arrow above leftwards arrow		
+2945	"""⥅"""	2900..297F	Supplemental Arrows-B	Rightwards arrow with plus below		
+2946	"""⥆"""	2900..297F	Supplemental Arrows-B	Leftwards arrow with plus below		
+2947	"""⥇"""	2900..297F	Supplemental Arrows-B	Rightwards arrow through x		
+2948	"""⥈"""	2900..297F	Supplemental Arrows-B	Left right arrow through small circle		
+2949	"""⥉"""	2900..297F	Supplemental Arrows-B	Upwards two-headed arrow from small circle		
+294A	"""⥊"""	2900..297F	Supplemental Arrows-B	Left barb up right barb down harpoon		
+294B	"""⥋"""	2900..297F	Supplemental Arrows-B	Left barb down right barb up harpoon		
+294C	"""⥌"""	2900..297F	Supplemental Arrows-B	Up barb right down barb left harpoon		
+294D	"""⥍"""	2900..297F	Supplemental Arrows-B	Up barb left down barb right harpoon		
+294E	"""⥎"""	2900..297F	Supplemental Arrows-B	Left barb up right barb up harpoon		
+294F	"""⥏"""	2900..297F	Supplemental Arrows-B	Up barb right down barb right harpoon		
+2950	"""⥐"""	2900..297F	Supplemental Arrows-B	Left barb down right barb down harpoon		
+2951	"""⥑"""	2900..297F	Supplemental Arrows-B	Up barb left down barb left harpoon		
+2952	"""⥒"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb up to bar		
+2953	"""⥓"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb up to bar		
+2954	"""⥔"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb right to bar		
+2955	"""⥕"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb right to bar		
+2956	"""⥖"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb down to bar		
+2957	"""⥗"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb down to bar		
+2958	"""⥘"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb left to bar		
+2959	"""⥙"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb left to bar		
+295A	"""⥚"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb up from bar		
+295B	"""⥛"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb up from bar		
+295C	"""⥜"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb right from bar		
+295D	"""⥝"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb right from bar		
+295E	"""⥞"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb down from bar		
+295F	"""⥟"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb down from bar		
+2960	"""⥠"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb left from bar		
+2961	"""⥡"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb left from bar		
+2962	"""⥢"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb up above leftwards harpoon with barb down		
+2963	"""⥣"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb left beside upwards harpoon with barb right		
+2964	"""⥤"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb up above rightwards harpoon with barb down		
+2965	"""⥥"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb left beside downwards harpoon with barb right		
+2966	"""⥦"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb up above rightwards harpoon with barb up		
+2967	"""⥧"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb down above rightwards harpoon with barb down		
+2968	"""⥨"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb up above leftwards harpoon with barb up		
+2969	"""⥩"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb down above leftwards harpoon with barb down		
+296A	"""⥪"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb up above long dash		
+296B	"""⥫"""	2900..297F	Supplemental Arrows-B	Leftwards harpoon with barb down below long dash		
+296C	"""⥬"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb up above long dash		
+296D	"""⥭"""	2900..297F	Supplemental Arrows-B	Rightwards harpoon with barb down below long dash		
+296E	"""⥮"""	2900..297F	Supplemental Arrows-B	Upwards harpoon with barb left beside downwards harpoon with barb right		
+296F	"""⥯"""	2900..297F	Supplemental Arrows-B	Downwards harpoon with barb left beside upwards harpoon with barb right		
+2970	"""⥰"""	2900..297F	Supplemental Arrows-B	Right double arrow with rounded head		
+2971	"""⥱"""	2900..297F	Supplemental Arrows-B	Equals sign above rightwards arrow		
+2972	"""⥲"""	2900..297F	Supplemental Arrows-B	Tilde operator above rightwards arrow		
+2973	"""⥳"""	2900..297F	Supplemental Arrows-B	Leftwards arrow above tilde operator		
+2974	"""⥴"""	2900..297F	Supplemental Arrows-B	Rightwards arrow above tilde operator		
+2975	"""⥵"""	2900..297F	Supplemental Arrows-B	Rightwards arrow above almost equal to		
+2976	"""⥶"""	2900..297F	Supplemental Arrows-B	Less-than above leftwards arrow		
+2977	"""⥷"""	2900..297F	Supplemental Arrows-B	Leftwards arrow through less-than		
+2978	"""⥸"""	2900..297F	Supplemental Arrows-B	Greater-than above rightwards arrow		
+2979	"""⥹"""	2900..297F	Supplemental Arrows-B	Subset above rightwards arrow		
+297A	"""⥺"""	2900..297F	Supplemental Arrows-B	Leftwards arrow through subset		
+297B	"""⥻"""	2900..297F	Supplemental Arrows-B	Superset above leftwards arrow		
+297C	"""⥼"""	2900..297F	Supplemental Arrows-B	Left fish tail		
+297D	"""⥽"""	2900..297F	Supplemental Arrows-B	Right fish tail		
+297E	"""⥾"""	2900..297F	Supplemental Arrows-B	Up fish tail		
+297F	"""⥿"""	2900..297F	Supplemental Arrows-B	Down fish tail		

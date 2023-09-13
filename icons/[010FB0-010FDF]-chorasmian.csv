@@ -1,0 +1,29 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10FB0	"""𐾰"""	10FB0..10FDF	Chorasmian	Chorasmian letter aleph		
+10FB1	"""𐾱"""	10FB0..10FDF	Chorasmian	Chorasmian letter small aleph		
+10FB2	"""𐾲"""	10FB0..10FDF	Chorasmian	Chorasmian letter beth		
+10FB3	"""𐾳"""	10FB0..10FDF	Chorasmian	Chorasmian letter gimel		
+10FB4	"""𐾴"""	10FB0..10FDF	Chorasmian	Chorasmian letter daleth		
+10FB5	"""𐾵"""	10FB0..10FDF	Chorasmian	Chorasmian letter he		
+10FB6	"""𐾶"""	10FB0..10FDF	Chorasmian	Chorasmian letter waw		
+10FB7	"""𐾷"""	10FB0..10FDF	Chorasmian	Chorasmian letter curled waw		
+10FB8	"""𐾸"""	10FB0..10FDF	Chorasmian	Chorasmian letter zayin		
+10FB9	"""𐾹"""	10FB0..10FDF	Chorasmian	Chorasmian letter heth		
+10FBA	"""𐾺"""	10FB0..10FDF	Chorasmian	Chorasmian letter yodh		
+10FBB	"""𐾻"""	10FB0..10FDF	Chorasmian	Chorasmian letter kaph		
+10FBC	"""𐾼"""	10FB0..10FDF	Chorasmian	Chorasmian letter lamedh		
+10FBD	"""𐾽"""	10FB0..10FDF	Chorasmian	Chorasmian letter mem		
+10FBE	"""𐾾"""	10FB0..10FDF	Chorasmian	Chorasmian letter nun		
+10FBF	"""𐾿"""	10FB0..10FDF	Chorasmian	Chorasmian letter samekh		
+10FC0	"""𐿀"""	10FB0..10FDF	Chorasmian	Chorasmian letter ayin		
+10FC1	"""𐿁"""	10FB0..10FDF	Chorasmian	Chorasmian letter pe		
+10FC2	"""𐿂"""	10FB0..10FDF	Chorasmian	Chorasmian letter resh		
+10FC3	"""𐿃"""	10FB0..10FDF	Chorasmian	Chorasmian letter shin		
+10FC4	"""𐿄"""	10FB0..10FDF	Chorasmian	Chorasmian letter taw		
+10FC5	"""𐿅"""	10FB0..10FDF	Chorasmian	Chorasmian number one		
+10FC6	"""𐿆"""	10FB0..10FDF	Chorasmian	Chorasmian number two		
+10FC7	"""𐿇"""	10FB0..10FDF	Chorasmian	Chorasmian number three		
+10FC8	"""𐿈"""	10FB0..10FDF	Chorasmian	Chorasmian number four		
+10FC9	"""𐿉"""	10FB0..10FDF	Chorasmian	Chorasmian number ten		
+10FCA	"""𐿊"""	10FB0..10FDF	Chorasmian	Chorasmian number twenty		
+10FCB	"""𐿋"""	10FB0..10FDF	Chorasmian	Chorasmian number one hundred		

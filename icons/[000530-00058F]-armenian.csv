@@ -1,0 +1,92 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0531	"""Ա"""	0530..058F	Armenian	Armenian capital letter ayb		
+0532	"""Բ"""	0530..058F	Armenian	Armenian capital letter ben		
+0533	"""Գ"""	0530..058F	Armenian	Armenian capital letter gim		
+0534	"""Դ"""	0530..058F	Armenian	Armenian capital letter da		
+0535	"""Ե"""	0530..058F	Armenian	Armenian capital letter ech		
+0536	"""Զ"""	0530..058F	Armenian	Armenian capital letter za		
+0537	"""Է"""	0530..058F	Armenian	Armenian capital letter eh		
+0538	"""Ը"""	0530..058F	Armenian	Armenian capital letter et		
+0539	"""Թ"""	0530..058F	Armenian	Armenian capital letter to		
+053A	"""Ժ"""	0530..058F	Armenian	Armenian capital letter zhe		
+053B	"""Ի"""	0530..058F	Armenian	Armenian capital letter ini		
+053C	"""Լ"""	0530..058F	Armenian	Armenian capital letter liwn		
+053D	"""Խ"""	0530..058F	Armenian	Armenian capital letter xeh		
+053E	"""Ծ"""	0530..058F	Armenian	Armenian capital letter ca		
+053F	"""Կ"""	0530..058F	Armenian	Armenian capital letter ken		
+0540	"""Հ"""	0530..058F	Armenian	Armenian capital letter ho		
+0541	"""Ձ"""	0530..058F	Armenian	Armenian capital letter ja		
+0542	"""Ղ"""	0530..058F	Armenian	Armenian capital letter ghad		
+0543	"""Ճ"""	0530..058F	Armenian	Armenian capital letter cheh		
+0544	"""Մ"""	0530..058F	Armenian	Armenian capital letter men		
+0545	"""Յ"""	0530..058F	Armenian	Armenian capital letter yi		
+0546	"""Ն"""	0530..058F	Armenian	Armenian capital letter now		
+0547	"""Շ"""	0530..058F	Armenian	Armenian capital letter sha		
+0548	"""Ո"""	0530..058F	Armenian	Armenian capital letter vo		
+0549	"""Չ"""	0530..058F	Armenian	Armenian capital letter cha		
+054A	"""Պ"""	0530..058F	Armenian	Armenian capital letter peh		
+054B	"""Ջ"""	0530..058F	Armenian	Armenian capital letter jheh		
+054C	"""Ռ"""	0530..058F	Armenian	Armenian capital letter ra		
+054D	"""Ս"""	0530..058F	Armenian	Armenian capital letter seh		
+054E	"""Վ"""	0530..058F	Armenian	Armenian capital letter vew		
+054F	"""Տ"""	0530..058F	Armenian	Armenian capital letter tiwn		
+0550	"""Ր"""	0530..058F	Armenian	Armenian capital letter reh		
+0551	"""Ց"""	0530..058F	Armenian	Armenian capital letter co		
+0552	"""Ւ"""	0530..058F	Armenian	Armenian capital letter yiwn		
+0553	"""Փ"""	0530..058F	Armenian	Armenian capital letter piwr		
+0554	"""Ք"""	0530..058F	Armenian	Armenian capital letter keh		
+0555	"""Օ"""	0530..058F	Armenian	Armenian capital letter oh		
+0556	"""Ֆ"""	0530..058F	Armenian	Armenian capital letter feh		
+0559	"""ՙ"""	0530..058F	Armenian	Armenian modifier letter left half ring		
+055A	"""՚"""	0530..058F	Armenian	Armenian apostrophe		
+055B	"""՛"""	0530..058F	Armenian	Armenian emphasis mark		
+055C	"""՜"""	0530..058F	Armenian	Armenian exclamation mark		
+055D	"""՝"""	0530..058F	Armenian	Armenian comma		
+055E	"""՞"""	0530..058F	Armenian	Armenian question mark		
+055F	"""՟"""	0530..058F	Armenian	Armenian abbreviation mark		
+0560	"""ՠ"""	0530..058F	Armenian	Armenian small letter turned ayb		
+0561	"""ա"""	0530..058F	Armenian	Armenian small letter ayb		
+0562	"""բ"""	0530..058F	Armenian	Armenian small letter ben		
+0563	"""գ"""	0530..058F	Armenian	Armenian small letter gim		
+0564	"""դ"""	0530..058F	Armenian	Armenian small letter da		
+0565	"""ե"""	0530..058F	Armenian	Armenian small letter ech		
+0566	"""զ"""	0530..058F	Armenian	Armenian small letter za		
+0567	"""է"""	0530..058F	Armenian	Armenian small letter eh		
+0568	"""ը"""	0530..058F	Armenian	Armenian small letter et		
+0569	"""թ"""	0530..058F	Armenian	Armenian small letter to		
+056A	"""ժ"""	0530..058F	Armenian	Armenian small letter zhe		
+056B	"""ի"""	0530..058F	Armenian	Armenian small letter ini		
+056C	"""լ"""	0530..058F	Armenian	Armenian small letter liwn		
+056D	"""խ"""	0530..058F	Armenian	Armenian small letter xeh		
+056E	"""ծ"""	0530..058F	Armenian	Armenian small letter ca		
+056F	"""կ"""	0530..058F	Armenian	Armenian small letter ken		
+0570	"""հ"""	0530..058F	Armenian	Armenian small letter ho		
+0571	"""ձ"""	0530..058F	Armenian	Armenian small letter ja		
+0572	"""ղ"""	0530..058F	Armenian	Armenian small letter ghad		
+0573	"""ճ"""	0530..058F	Armenian	Armenian small letter cheh		
+0574	"""մ"""	0530..058F	Armenian	Armenian small letter men		
+0575	"""յ"""	0530..058F	Armenian	Armenian small letter yi		
+0576	"""ն"""	0530..058F	Armenian	Armenian small letter now		
+0577	"""շ"""	0530..058F	Armenian	Armenian small letter sha		
+0578	"""ո"""	0530..058F	Armenian	Armenian small letter vo		
+0579	"""չ"""	0530..058F	Armenian	Armenian small letter cha		
+057A	"""պ"""	0530..058F	Armenian	Armenian small letter peh		
+057B	"""ջ"""	0530..058F	Armenian	Armenian small letter jheh		
+057C	"""ռ"""	0530..058F	Armenian	Armenian small letter ra		
+057D	"""ս"""	0530..058F	Armenian	Armenian small letter seh		
+057E	"""վ"""	0530..058F	Armenian	Armenian small letter vew		
+057F	"""տ"""	0530..058F	Armenian	Armenian small letter tiwn		
+0580	"""ր"""	0530..058F	Armenian	Armenian small letter reh		
+0581	"""ց"""	0530..058F	Armenian	Armenian small letter co		
+0582	"""ւ"""	0530..058F	Armenian	Armenian small letter yiwn		
+0583	"""փ"""	0530..058F	Armenian	Armenian small letter piwr		
+0584	"""ք"""	0530..058F	Armenian	Armenian small letter keh		
+0585	"""օ"""	0530..058F	Armenian	Armenian small letter oh		
+0586	"""ֆ"""	0530..058F	Armenian	Armenian small letter feh		
+0587	"""և"""	0530..058F	Armenian	Armenian small ligature ech yiwn		
+0588	"""ֈ"""	0530..058F	Armenian	Armenian small letter yi with stroke		
+0589	"""։"""	0530..058F	Armenian	Armenian full stop		
+058A	"""֊"""	0530..058F	Armenian	Armenian hyphen		
+058D	"""֍"""	0530..058F	Armenian	Right-facing armenian eternity sign		
+058E	"""֎"""	0530..058F	Armenian	Left-facing armenian eternity sign		
+058F	"""֏"""	0530..058F	Armenian	Armenian dram sign		

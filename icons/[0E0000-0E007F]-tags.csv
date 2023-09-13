@@ -1,0 +1,98 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+E0001	"""󠀁"""	E0000..E007F	Tags	Language tag		
+E0020	"""󠀠"""	E0000..E007F	Tags	Tag space		
+E0021	"""󠀡"""	E0000..E007F	Tags	Tag exclamation mark		
+E0022	"""󠀢"""	E0000..E007F	Tags	Tag quotation mark		
+E0023	"""󠀣"""	E0000..E007F	Tags	Tag number sign		
+E0024	"""󠀤"""	E0000..E007F	Tags	Tag dollar sign		
+E0025	"""󠀥"""	E0000..E007F	Tags	Tag percent sign		
+E0026	"""󠀦"""	E0000..E007F	Tags	Tag ampersand		
+E0027	"""󠀧"""	E0000..E007F	Tags	Tag apostrophe		
+E0028	"""󠀨"""	E0000..E007F	Tags	Tag left parenthesis		
+E0029	"""󠀩"""	E0000..E007F	Tags	Tag right parenthesis		
+E002A	"""󠀪"""	E0000..E007F	Tags	Tag asterisk		
+E002B	"""󠀫"""	E0000..E007F	Tags	Tag plus sign		
+E002C	"""󠀬"""	E0000..E007F	Tags	Tag comma		
+E002D	"""󠀭"""	E0000..E007F	Tags	Tag hyphen-minus		
+E002E	"""󠀮"""	E0000..E007F	Tags	Tag full stop		
+E002F	"""󠀯"""	E0000..E007F	Tags	Tag solidus		
+E0030	"""󠀰"""	E0000..E007F	Tags	Tag digit zero		
+E0031	"""󠀱"""	E0000..E007F	Tags	Tag digit one		
+E0032	"""󠀲"""	E0000..E007F	Tags	Tag digit two		
+E0033	"""󠀳"""	E0000..E007F	Tags	Tag digit three		
+E0034	"""󠀴"""	E0000..E007F	Tags	Tag digit four		
+E0035	"""󠀵"""	E0000..E007F	Tags	Tag digit five		
+E0036	"""󠀶"""	E0000..E007F	Tags	Tag digit six		
+E0037	"""󠀷"""	E0000..E007F	Tags	Tag digit seven		
+E0038	"""󠀸"""	E0000..E007F	Tags	Tag digit eight		
+E0039	"""󠀹"""	E0000..E007F	Tags	Tag digit nine		
+E003A	"""󠀺"""	E0000..E007F	Tags	Tag colon		
+E003B	"""󠀻"""	E0000..E007F	Tags	Tag semicolon		
+E003C	"""󠀼"""	E0000..E007F	Tags	Tag less-than sign		
+E003D	"""󠀽"""	E0000..E007F	Tags	Tag equals sign		
+E003E	"""󠀾"""	E0000..E007F	Tags	Tag greater-than sign		
+E003F	"""󠀿"""	E0000..E007F	Tags	Tag question mark		
+E0040	"""󠁀"""	E0000..E007F	Tags	Tag commercial at		
+E0041	"""󠁁"""	E0000..E007F	Tags	Tag latin capital letter a		
+E0042	"""󠁂"""	E0000..E007F	Tags	Tag latin capital letter b		
+E0043	"""󠁃"""	E0000..E007F	Tags	Tag latin capital letter c		
+E0044	"""󠁄"""	E0000..E007F	Tags	Tag latin capital letter d		
+E0045	"""󠁅"""	E0000..E007F	Tags	Tag latin capital letter e		
+E0046	"""󠁆"""	E0000..E007F	Tags	Tag latin capital letter f		
+E0047	"""󠁇"""	E0000..E007F	Tags	Tag latin capital letter g		
+E0048	"""󠁈"""	E0000..E007F	Tags	Tag latin capital letter h		
+E0049	"""󠁉"""	E0000..E007F	Tags	Tag latin capital letter i		
+E004A	"""󠁊"""	E0000..E007F	Tags	Tag latin capital letter j		
+E004B	"""󠁋"""	E0000..E007F	Tags	Tag latin capital letter k		
+E004C	"""󠁌"""	E0000..E007F	Tags	Tag latin capital letter l		
+E004D	"""󠁍"""	E0000..E007F	Tags	Tag latin capital letter m		
+E004E	"""󠁎"""	E0000..E007F	Tags	Tag latin capital letter n		
+E004F	"""󠁏"""	E0000..E007F	Tags	Tag latin capital letter o		
+E0050	"""󠁐"""	E0000..E007F	Tags	Tag latin capital letter p		
+E0051	"""󠁑"""	E0000..E007F	Tags	Tag latin capital letter q		
+E0052	"""󠁒"""	E0000..E007F	Tags	Tag latin capital letter r		
+E0053	"""󠁓"""	E0000..E007F	Tags	Tag latin capital letter s		
+E0054	"""󠁔"""	E0000..E007F	Tags	Tag latin capital letter t		
+E0055	"""󠁕"""	E0000..E007F	Tags	Tag latin capital letter u		
+E0056	"""󠁖"""	E0000..E007F	Tags	Tag latin capital letter v		
+E0057	"""󠁗"""	E0000..E007F	Tags	Tag latin capital letter w		
+E0058	"""󠁘"""	E0000..E007F	Tags	Tag latin capital letter x		
+E0059	"""󠁙"""	E0000..E007F	Tags	Tag latin capital letter y		
+E005A	"""󠁚"""	E0000..E007F	Tags	Tag latin capital letter z		
+E005B	"""󠁛"""	E0000..E007F	Tags	Tag left square bracket		
+E005C	"""󠁜"""	E0000..E007F	Tags	Tag reverse solidus		
+E005D	"""󠁝"""	E0000..E007F	Tags	Tag right square bracket		
+E005E	"""󠁞"""	E0000..E007F	Tags	Tag circumflex accent		
+E005F	"""󠁟"""	E0000..E007F	Tags	Tag low line		
+E0060	"""󠁠"""	E0000..E007F	Tags	Tag grave accent		
+E0061	"""󠁡"""	E0000..E007F	Tags	Tag latin small letter a		
+E0062	"""󠁢"""	E0000..E007F	Tags	Tag latin small letter b		
+E0063	"""󠁣"""	E0000..E007F	Tags	Tag latin small letter c		
+E0064	"""󠁤"""	E0000..E007F	Tags	Tag latin small letter d		
+E0065	"""󠁥"""	E0000..E007F	Tags	Tag latin small letter e		
+E0066	"""󠁦"""	E0000..E007F	Tags	Tag latin small letter f		
+E0067	"""󠁧"""	E0000..E007F	Tags	Tag latin small letter g		
+E0068	"""󠁨"""	E0000..E007F	Tags	Tag latin small letter h		
+E0069	"""󠁩"""	E0000..E007F	Tags	Tag latin small letter i		
+E006A	"""󠁪"""	E0000..E007F	Tags	Tag latin small letter j		
+E006B	"""󠁫"""	E0000..E007F	Tags	Tag latin small letter k		
+E006C	"""󠁬"""	E0000..E007F	Tags	Tag latin small letter l		
+E006D	"""󠁭"""	E0000..E007F	Tags	Tag latin small letter m		
+E006E	"""󠁮"""	E0000..E007F	Tags	Tag latin small letter n		
+E006F	"""󠁯"""	E0000..E007F	Tags	Tag latin small letter o		
+E0070	"""󠁰"""	E0000..E007F	Tags	Tag latin small letter p		
+E0071	"""󠁱"""	E0000..E007F	Tags	Tag latin small letter q		
+E0072	"""󠁲"""	E0000..E007F	Tags	Tag latin small letter r		
+E0073	"""󠁳"""	E0000..E007F	Tags	Tag latin small letter s		
+E0074	"""󠁴"""	E0000..E007F	Tags	Tag latin small letter t		
+E0075	"""󠁵"""	E0000..E007F	Tags	Tag latin small letter u		
+E0076	"""󠁶"""	E0000..E007F	Tags	Tag latin small letter v		
+E0077	"""󠁷"""	E0000..E007F	Tags	Tag latin small letter w		
+E0078	"""󠁸"""	E0000..E007F	Tags	Tag latin small letter x		
+E0079	"""󠁹"""	E0000..E007F	Tags	Tag latin small letter y		
+E007A	"""󠁺"""	E0000..E007F	Tags	Tag latin small letter z		
+E007B	"""󠁻"""	E0000..E007F	Tags	Tag left curly bracket		
+E007C	"""󠁼"""	E0000..E007F	Tags	Tag vertical line		
+E007D	"""󠁽"""	E0000..E007F	Tags	Tag right curly bracket		
+E007E	"""󠁾"""	E0000..E007F	Tags	Tag tilde		
+E007F	"""󠁿"""	E0000..E007F	Tags	Cancel tag		

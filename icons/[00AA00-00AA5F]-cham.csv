@@ -1,0 +1,84 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+AA00	"""ꨀ"""	AA00..AA5F	Cham	Cham letter a		
+AA01	"""ꨁ"""	AA00..AA5F	Cham	Cham letter i		
+AA02	"""ꨂ"""	AA00..AA5F	Cham	Cham letter u		
+AA03	"""ꨃ"""	AA00..AA5F	Cham	Cham letter e		
+AA04	"""ꨄ"""	AA00..AA5F	Cham	Cham letter ai		
+AA05	"""ꨅ"""	AA00..AA5F	Cham	Cham letter o		
+AA06	"""ꨆ"""	AA00..AA5F	Cham	Cham letter ka		
+AA07	"""ꨇ"""	AA00..AA5F	Cham	Cham letter kha		
+AA08	"""ꨈ"""	AA00..AA5F	Cham	Cham letter ga		
+AA09	"""ꨉ"""	AA00..AA5F	Cham	Cham letter gha		
+AA0A	"""ꨊ"""	AA00..AA5F	Cham	Cham letter ngue		
+AA0B	"""ꨋ"""	AA00..AA5F	Cham	Cham letter nga		
+AA0C	"""ꨌ"""	AA00..AA5F	Cham	Cham letter cha		
+AA0D	"""ꨍ"""	AA00..AA5F	Cham	Cham letter chha		
+AA0E	"""ꨎ"""	AA00..AA5F	Cham	Cham letter ja		
+AA0F	"""ꨏ"""	AA00..AA5F	Cham	Cham letter jha		
+AA10	"""ꨐ"""	AA00..AA5F	Cham	Cham letter nhue		
+AA11	"""ꨑ"""	AA00..AA5F	Cham	Cham letter nha		
+AA12	"""ꨒ"""	AA00..AA5F	Cham	Cham letter nhja		
+AA13	"""ꨓ"""	AA00..AA5F	Cham	Cham letter ta		
+AA14	"""ꨔ"""	AA00..AA5F	Cham	Cham letter tha		
+AA15	"""ꨕ"""	AA00..AA5F	Cham	Cham letter da		
+AA16	"""ꨖ"""	AA00..AA5F	Cham	Cham letter dha		
+AA17	"""ꨗ"""	AA00..AA5F	Cham	Cham letter nue		
+AA18	"""ꨘ"""	AA00..AA5F	Cham	Cham letter na		
+AA19	"""ꨙ"""	AA00..AA5F	Cham	Cham letter dda		
+AA1A	"""ꨚ"""	AA00..AA5F	Cham	Cham letter pa		
+AA1B	"""ꨛ"""	AA00..AA5F	Cham	Cham letter ppa		
+AA1C	"""ꨜ"""	AA00..AA5F	Cham	Cham letter pha		
+AA1D	"""ꨝ"""	AA00..AA5F	Cham	Cham letter ba		
+AA1E	"""ꨞ"""	AA00..AA5F	Cham	Cham letter bha		
+AA1F	"""ꨟ"""	AA00..AA5F	Cham	Cham letter mue		
+AA20	"""ꨠ"""	AA00..AA5F	Cham	Cham letter ma		
+AA21	"""ꨡ"""	AA00..AA5F	Cham	Cham letter bba		
+AA22	"""ꨢ"""	AA00..AA5F	Cham	Cham letter ya		
+AA23	"""ꨣ"""	AA00..AA5F	Cham	Cham letter ra		
+AA24	"""ꨤ"""	AA00..AA5F	Cham	Cham letter la		
+AA25	"""ꨥ"""	AA00..AA5F	Cham	Cham letter va		
+AA26	"""ꨦ"""	AA00..AA5F	Cham	Cham letter ssa		
+AA27	"""ꨧ"""	AA00..AA5F	Cham	Cham letter sa		
+AA28	"""ꨨ"""	AA00..AA5F	Cham	Cham letter ha		
+AA29	"""ꨩ"""	AA00..AA5F	Cham	Cham vowel sign aa		
+AA2A	"""ꨪ"""	AA00..AA5F	Cham	Cham vowel sign i		
+AA2B	"""ꨫ"""	AA00..AA5F	Cham	Cham vowel sign ii		
+AA2C	"""ꨬ"""	AA00..AA5F	Cham	Cham vowel sign ei		
+AA2D	"""ꨭ"""	AA00..AA5F	Cham	Cham vowel sign u		
+AA2E	"""ꨮ"""	AA00..AA5F	Cham	Cham vowel sign oe		
+AA2F	"""ꨯ"""	AA00..AA5F	Cham	Cham vowel sign o		
+AA30	"""ꨰ"""	AA00..AA5F	Cham	Cham vowel sign ai		
+AA31	"""ꨱ"""	AA00..AA5F	Cham	Cham vowel sign au		
+AA32	"""ꨲ"""	AA00..AA5F	Cham	Cham vowel sign ue		
+AA33	"""ꨳ"""	AA00..AA5F	Cham	Cham consonant sign ya		
+AA34	"""ꨴ"""	AA00..AA5F	Cham	Cham consonant sign ra		
+AA35	"""ꨵ"""	AA00..AA5F	Cham	Cham consonant sign la		
+AA36	"""ꨶ"""	AA00..AA5F	Cham	Cham consonant sign wa		
+AA40	"""ꩀ"""	AA00..AA5F	Cham	Cham letter final k		
+AA41	"""ꩁ"""	AA00..AA5F	Cham	Cham letter final g		
+AA42	"""ꩂ"""	AA00..AA5F	Cham	Cham letter final ng		
+AA43	"""ꩃ"""	AA00..AA5F	Cham	Cham consonant sign final ng		
+AA44	"""ꩄ"""	AA00..AA5F	Cham	Cham letter final ch		
+AA45	"""ꩅ"""	AA00..AA5F	Cham	Cham letter final t		
+AA46	"""ꩆ"""	AA00..AA5F	Cham	Cham letter final n		
+AA47	"""ꩇ"""	AA00..AA5F	Cham	Cham letter final p		
+AA48	"""ꩈ"""	AA00..AA5F	Cham	Cham letter final y		
+AA49	"""ꩉ"""	AA00..AA5F	Cham	Cham letter final r		
+AA4A	"""ꩊ"""	AA00..AA5F	Cham	Cham letter final l		
+AA4B	"""ꩋ"""	AA00..AA5F	Cham	Cham letter final ss		
+AA4C	"""ꩌ"""	AA00..AA5F	Cham	Cham consonant sign final m		
+AA4D	"""ꩍ"""	AA00..AA5F	Cham	Cham consonant sign final h		
+AA50	"""꩐"""	AA00..AA5F	Cham	Cham digit zero		
+AA51	"""꩑"""	AA00..AA5F	Cham	Cham digit one		
+AA52	"""꩒"""	AA00..AA5F	Cham	Cham digit two		
+AA53	"""꩓"""	AA00..AA5F	Cham	Cham digit three		
+AA54	"""꩔"""	AA00..AA5F	Cham	Cham digit four		
+AA55	"""꩕"""	AA00..AA5F	Cham	Cham digit five		
+AA56	"""꩖"""	AA00..AA5F	Cham	Cham digit six		
+AA57	"""꩗"""	AA00..AA5F	Cham	Cham digit seven		
+AA58	"""꩘"""	AA00..AA5F	Cham	Cham digit eight		
+AA59	"""꩙"""	AA00..AA5F	Cham	Cham digit nine		
+AA5C	"""꩜"""	AA00..AA5F	Cham	Cham punctuation spiral		
+AA5D	"""꩝"""	AA00..AA5F	Cham	Cham punctuation danda		
+AA5E	"""꩞"""	AA00..AA5F	Cham	Cham punctuation double danda		
+AA5F	"""꩟"""	AA00..AA5F	Cham	Cham punctuation triple danda		

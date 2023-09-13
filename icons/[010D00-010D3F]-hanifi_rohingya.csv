@@ -1,0 +1,51 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10D00	"""𐴀"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter a		
+10D01	"""𐴁"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ba		
+10D02	"""𐴂"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter pa		
+10D03	"""𐴃"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ta		
+10D04	"""𐴄"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter tta		
+10D05	"""𐴅"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ja		
+10D06	"""𐴆"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ca		
+10D07	"""𐴇"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ha		
+10D08	"""𐴈"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter kha		
+10D09	"""𐴉"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter fa		
+10D0A	"""𐴊"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter da		
+10D0B	"""𐴋"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter dda		
+10D0C	"""𐴌"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ra		
+10D0D	"""𐴍"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter rra		
+10D0E	"""𐴎"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter za		
+10D0F	"""𐴏"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter sa		
+10D10	"""𐴐"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter sha		
+10D11	"""𐴑"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ka		
+10D12	"""𐴒"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ga		
+10D13	"""𐴓"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter la		
+10D14	"""𐴔"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ma		
+10D15	"""𐴕"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter na		
+10D16	"""𐴖"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter wa		
+10D17	"""𐴗"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter kinna wa		
+10D18	"""𐴘"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter ya		
+10D19	"""𐴙"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter kinna ya		
+10D1A	"""𐴚"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter nga		
+10D1B	"""𐴛"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter nya		
+10D1C	"""𐴜"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya letter va		
+10D1D	"""𐴝"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya vowel a		
+10D1E	"""𐴞"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya vowel i		
+10D1F	"""𐴟"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya vowel u		
+10D20	"""𐴠"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya vowel e		
+10D21	"""𐴡"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya vowel o		
+10D22	"""𐴢"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya mark sakin		
+10D23	"""𐴣"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya mark na khonna		
+10D24	"""𐴤"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya sign harbahay		
+10D25	"""𐴥"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya sign tahala		
+10D26	"""𐴦"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya sign tana		
+10D27	"""𐴧"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya sign tassi		
+10D30	"""𐴰"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit zero		
+10D31	"""𐴱"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit one		
+10D32	"""𐴲"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit two		
+10D33	"""𐴳"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit three		
+10D34	"""𐴴"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit four		
+10D35	"""𐴵"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit five		
+10D36	"""𐴶"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit six		
+10D37	"""𐴷"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit seven		
+10D38	"""𐴸"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit eight		
+10D39	"""𐴹"""	10D00..10D3F	Hanifi Rohingya	Hanifi rohingya digit nine		

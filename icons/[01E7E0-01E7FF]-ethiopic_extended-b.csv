@@ -1,0 +1,29 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1E7E0	"""𞟠"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhya		
+1E7E1	"""𞟡"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyu		
+1E7E2	"""𞟢"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyi		
+1E7E3	"""𞟣"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyaa		
+1E7E4	"""𞟤"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyee		
+1E7E5	"""𞟥"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhye		
+1E7E6	"""𞟦"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyo		
+1E7E8	"""𞟨"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage hhwa		
+1E7E9	"""𞟩"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwi		
+1E7EA	"""𞟪"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwee		
+1E7EB	"""𞟫"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwe		
+1E7ED	"""𞟭"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage mwi		
+1E7EE	"""𞟮"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage mwee		
+1E7F0	"""𞟰"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwi		
+1E7F1	"""𞟱"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwee		
+1E7F2	"""𞟲"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwe		
+1E7F3	"""𞟳"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage bwi		
+1E7F4	"""𞟴"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage bwee		
+1E7F5	"""𞟵"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwi		
+1E7F6	"""𞟶"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwee		
+1E7F7	"""𞟷"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwe		
+1E7F8	"""𞟸"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwi		
+1E7F9	"""𞟹"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwee		
+1E7FA	"""𞟺"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwe		
+1E7FB	"""𞟻"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage fwi		
+1E7FC	"""𞟼"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage fwee		
+1E7FD	"""𞟽"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage pwi		
+1E7FE	"""𞟾"""	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage pwee		

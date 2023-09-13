@@ -1,0 +1,257 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2600	"""☀"""	2600..26FF	Miscellaneous Symbols	Black sun with rays		
+2601	"""☁"""	2600..26FF	Miscellaneous Symbols	Cloud		
+2602	"""☂"""	2600..26FF	Miscellaneous Symbols	Umbrella		
+2603	"""☃"""	2600..26FF	Miscellaneous Symbols	Snowman		
+2604	"""☄"""	2600..26FF	Miscellaneous Symbols	Comet		
+2605	"""★"""	2600..26FF	Miscellaneous Symbols	Black star		
+2606	"""☆"""	2600..26FF	Miscellaneous Symbols	White star		
+2607	"""☇"""	2600..26FF	Miscellaneous Symbols	Lightning		
+2608	"""☈"""	2600..26FF	Miscellaneous Symbols	Thunderstorm		
+2609	"""☉"""	2600..26FF	Miscellaneous Symbols	Sun		
+260A	"""☊"""	2600..26FF	Miscellaneous Symbols	Ascending node		
+260B	"""☋"""	2600..26FF	Miscellaneous Symbols	Descending node		
+260C	"""☌"""	2600..26FF	Miscellaneous Symbols	Conjunction		
+260D	"""☍"""	2600..26FF	Miscellaneous Symbols	Opposition		
+260E	"""☎"""	2600..26FF	Miscellaneous Symbols	Black telephone		
+260F	"""☏"""	2600..26FF	Miscellaneous Symbols	White telephone		
+2610	"""☐"""	2600..26FF	Miscellaneous Symbols	Ballot box		
+2611	"""☑"""	2600..26FF	Miscellaneous Symbols	Ballot box with check		
+2612	"""☒"""	2600..26FF	Miscellaneous Symbols	Ballot box with x		
+2613	"""☓"""	2600..26FF	Miscellaneous Symbols	Saltire		
+2614	"""☔"""	2600..26FF	Miscellaneous Symbols	Umbrella with rain drops		
+2615	"""☕"""	2600..26FF	Miscellaneous Symbols	Hot beverage		
+2616	"""☖"""	2600..26FF	Miscellaneous Symbols	White shogi piece		
+2617	"""☗"""	2600..26FF	Miscellaneous Symbols	Black shogi piece		
+2618	"""☘"""	2600..26FF	Miscellaneous Symbols	Shamrock		
+2619	"""☙"""	2600..26FF	Miscellaneous Symbols	Reversed rotated floral heart bullet		
+261A	"""☚"""	2600..26FF	Miscellaneous Symbols	Black left pointing index		
+261B	"""☛"""	2600..26FF	Miscellaneous Symbols	Black right pointing index		
+261C	"""☜"""	2600..26FF	Miscellaneous Symbols	White left pointing index		
+261D	"""☝"""	2600..26FF	Miscellaneous Symbols	White up pointing index		
+261E	"""☞"""	2600..26FF	Miscellaneous Symbols	White right pointing index		
+261F	"""☟"""	2600..26FF	Miscellaneous Symbols	White down pointing index		
+2620	"""☠"""	2600..26FF	Miscellaneous Symbols	Skull and crossbones		
+2621	"""☡"""	2600..26FF	Miscellaneous Symbols	Caution sign		
+2622	"""☢"""	2600..26FF	Miscellaneous Symbols	Radioactive sign		
+2623	"""☣"""	2600..26FF	Miscellaneous Symbols	Biohazard sign		
+2624	"""☤"""	2600..26FF	Miscellaneous Symbols	Caduceus		
+2625	"""☥"""	2600..26FF	Miscellaneous Symbols	Ankh		
+2626	"""☦"""	2600..26FF	Miscellaneous Symbols	Orthodox cross		
+2627	"""☧"""	2600..26FF	Miscellaneous Symbols	Chi rho		
+2628	"""☨"""	2600..26FF	Miscellaneous Symbols	Cross of lorraine		
+2629	"""☩"""	2600..26FF	Miscellaneous Symbols	Cross of jerusalem		
+262A	"""☪"""	2600..26FF	Miscellaneous Symbols	Star and crescent		
+262B	"""☫"""	2600..26FF	Miscellaneous Symbols	Farsi symbol		
+262C	"""☬"""	2600..26FF	Miscellaneous Symbols	Adi shakti		
+262D	"""☭"""	2600..26FF	Miscellaneous Symbols	Hammer and sickle		
+262E	"""☮"""	2600..26FF	Miscellaneous Symbols	Peace symbol		
+262F	"""☯"""	2600..26FF	Miscellaneous Symbols	Yin yang		
+2630	"""☰"""	2600..26FF	Miscellaneous Symbols	Trigram for heaven		
+2631	"""☱"""	2600..26FF	Miscellaneous Symbols	Trigram for lake		
+2632	"""☲"""	2600..26FF	Miscellaneous Symbols	Trigram for fire		
+2633	"""☳"""	2600..26FF	Miscellaneous Symbols	Trigram for thunder		
+2634	"""☴"""	2600..26FF	Miscellaneous Symbols	Trigram for wind		
+2635	"""☵"""	2600..26FF	Miscellaneous Symbols	Trigram for water		
+2636	"""☶"""	2600..26FF	Miscellaneous Symbols	Trigram for mountain		
+2637	"""☷"""	2600..26FF	Miscellaneous Symbols	Trigram for earth		
+2638	"""☸"""	2600..26FF	Miscellaneous Symbols	Wheel of dharma		
+2639	"""☹"""	2600..26FF	Miscellaneous Symbols	White frowning face		
+263A	"""☺"""	2600..26FF	Miscellaneous Symbols	White smiling face		
+263B	"""☻"""	2600..26FF	Miscellaneous Symbols	Black smiling face		
+263C	"""☼"""	2600..26FF	Miscellaneous Symbols	White sun with rays		
+263D	"""☽"""	2600..26FF	Miscellaneous Symbols	First quarter moon		
+263E	"""☾"""	2600..26FF	Miscellaneous Symbols	Last quarter moon		
+263F	"""☿"""	2600..26FF	Miscellaneous Symbols	Mercury		
+2640	"""♀"""	2600..26FF	Miscellaneous Symbols	Female sign		
+2641	"""♁"""	2600..26FF	Miscellaneous Symbols	Earth		
+2642	"""♂"""	2600..26FF	Miscellaneous Symbols	Male sign		
+2643	"""♃"""	2600..26FF	Miscellaneous Symbols	Jupiter		
+2644	"""♄"""	2600..26FF	Miscellaneous Symbols	Saturn		
+2645	"""♅"""	2600..26FF	Miscellaneous Symbols	Uranus		
+2646	"""♆"""	2600..26FF	Miscellaneous Symbols	Neptune		
+2647	"""♇"""	2600..26FF	Miscellaneous Symbols	Pluto		
+2648	"""♈"""	2600..26FF	Miscellaneous Symbols	Aries		
+2649	"""♉"""	2600..26FF	Miscellaneous Symbols	Taurus		
+264A	"""♊"""	2600..26FF	Miscellaneous Symbols	Gemini		
+264B	"""♋"""	2600..26FF	Miscellaneous Symbols	Cancer		
+264C	"""♌"""	2600..26FF	Miscellaneous Symbols	Leo		
+264D	"""♍"""	2600..26FF	Miscellaneous Symbols	Virgo		
+264E	"""♎"""	2600..26FF	Miscellaneous Symbols	Libra		
+264F	"""♏"""	2600..26FF	Miscellaneous Symbols	Scorpius		
+2650	"""♐"""	2600..26FF	Miscellaneous Symbols	Sagittarius		
+2651	"""♑"""	2600..26FF	Miscellaneous Symbols	Capricorn		
+2652	"""♒"""	2600..26FF	Miscellaneous Symbols	Aquarius		
+2653	"""♓"""	2600..26FF	Miscellaneous Symbols	Pisces		
+2654	"""♔"""	2600..26FF	Miscellaneous Symbols	White chess king		
+2655	"""♕"""	2600..26FF	Miscellaneous Symbols	White chess queen		
+2656	"""♖"""	2600..26FF	Miscellaneous Symbols	White chess rook		
+2657	"""♗"""	2600..26FF	Miscellaneous Symbols	White chess bishop		
+2658	"""♘"""	2600..26FF	Miscellaneous Symbols	White chess knight		
+2659	"""♙"""	2600..26FF	Miscellaneous Symbols	White chess pawn		
+265A	"""♚"""	2600..26FF	Miscellaneous Symbols	Black chess king		
+265B	"""♛"""	2600..26FF	Miscellaneous Symbols	Black chess queen		
+265C	"""♜"""	2600..26FF	Miscellaneous Symbols	Black chess rook		
+265D	"""♝"""	2600..26FF	Miscellaneous Symbols	Black chess bishop		
+265E	"""♞"""	2600..26FF	Miscellaneous Symbols	Black chess knight		
+265F	"""♟"""	2600..26FF	Miscellaneous Symbols	Black chess pawn		
+2660	"""♠"""	2600..26FF	Miscellaneous Symbols	Black spade suit		
+2661	"""♡"""	2600..26FF	Miscellaneous Symbols	White heart suit		
+2662	"""♢"""	2600..26FF	Miscellaneous Symbols	White diamond suit		
+2663	"""♣"""	2600..26FF	Miscellaneous Symbols	Black club suit		
+2664	"""♤"""	2600..26FF	Miscellaneous Symbols	White spade suit		
+2665	"""♥"""	2600..26FF	Miscellaneous Symbols	Black heart suit		
+2666	"""♦"""	2600..26FF	Miscellaneous Symbols	Black diamond suit		
+2667	"""♧"""	2600..26FF	Miscellaneous Symbols	White club suit		
+2668	"""♨"""	2600..26FF	Miscellaneous Symbols	Hot springs		
+2669	"""♩"""	2600..26FF	Miscellaneous Symbols	Quarter note		
+266A	"""♪"""	2600..26FF	Miscellaneous Symbols	Eighth note		
+266B	"""♫"""	2600..26FF	Miscellaneous Symbols	Beamed eighth notes		
+266C	"""♬"""	2600..26FF	Miscellaneous Symbols	Beamed sixteenth notes		
+266D	"""♭"""	2600..26FF	Miscellaneous Symbols	Music flat sign		
+266E	"""♮"""	2600..26FF	Miscellaneous Symbols	Music natural sign		
+266F	"""♯"""	2600..26FF	Miscellaneous Symbols	Music sharp sign		
+2670	"""♰"""	2600..26FF	Miscellaneous Symbols	West syriac cross		
+2671	"""♱"""	2600..26FF	Miscellaneous Symbols	East syriac cross		
+2672	"""♲"""	2600..26FF	Miscellaneous Symbols	Universal recycling symbol		
+2673	"""♳"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-1 plastics		
+2674	"""♴"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-2 plastics		
+2675	"""♵"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-3 plastics		
+2676	"""♶"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-4 plastics		
+2677	"""♷"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-5 plastics		
+2678	"""♸"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-6 plastics		
+2679	"""♹"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for type-7 plastics		
+267A	"""♺"""	2600..26FF	Miscellaneous Symbols	Recycling symbol for generic materials		
+267B	"""♻"""	2600..26FF	Miscellaneous Symbols	Black universal recycling symbol		
+267C	"""♼"""	2600..26FF	Miscellaneous Symbols	Recycled paper symbol		
+267D	"""♽"""	2600..26FF	Miscellaneous Symbols	Partially-recycled paper symbol		
+267E	"""♾"""	2600..26FF	Miscellaneous Symbols	Permanent paper sign		
+267F	"""♿"""	2600..26FF	Miscellaneous Symbols	Wheelchair symbol		
+2680	"""⚀"""	2600..26FF	Miscellaneous Symbols	Die face-1		
+2681	"""⚁"""	2600..26FF	Miscellaneous Symbols	Die face-2		
+2682	"""⚂"""	2600..26FF	Miscellaneous Symbols	Die face-3		
+2683	"""⚃"""	2600..26FF	Miscellaneous Symbols	Die face-4		
+2684	"""⚄"""	2600..26FF	Miscellaneous Symbols	Die face-5		
+2685	"""⚅"""	2600..26FF	Miscellaneous Symbols	Die face-6		
+2686	"""⚆"""	2600..26FF	Miscellaneous Symbols	White circle with dot right		
+2687	"""⚇"""	2600..26FF	Miscellaneous Symbols	White circle with two dots		
+2688	"""⚈"""	2600..26FF	Miscellaneous Symbols	Black circle with white dot right		
+2689	"""⚉"""	2600..26FF	Miscellaneous Symbols	Black circle with two white dots		
+268A	"""⚊"""	2600..26FF	Miscellaneous Symbols	Monogram for yang		
+268B	"""⚋"""	2600..26FF	Miscellaneous Symbols	Monogram for yin		
+268C	"""⚌"""	2600..26FF	Miscellaneous Symbols	Digram for greater yang		
+268D	"""⚍"""	2600..26FF	Miscellaneous Symbols	Digram for lesser yin		
+268E	"""⚎"""	2600..26FF	Miscellaneous Symbols	Digram for lesser yang		
+268F	"""⚏"""	2600..26FF	Miscellaneous Symbols	Digram for greater yin		
+2690	"""⚐"""	2600..26FF	Miscellaneous Symbols	White flag		
+2691	"""⚑"""	2600..26FF	Miscellaneous Symbols	Black flag		
+2692	"""⚒"""	2600..26FF	Miscellaneous Symbols	Hammer and pick		
+2693	"""⚓"""	2600..26FF	Miscellaneous Symbols	Anchor		
+2694	"""⚔"""	2600..26FF	Miscellaneous Symbols	Crossed swords		
+2695	"""⚕"""	2600..26FF	Miscellaneous Symbols	Staff of aesculapius		
+2696	"""⚖"""	2600..26FF	Miscellaneous Symbols	Scales		
+2697	"""⚗"""	2600..26FF	Miscellaneous Symbols	Alembic		
+2698	"""⚘"""	2600..26FF	Miscellaneous Symbols	Flower		
+2699	"""⚙"""	2600..26FF	Miscellaneous Symbols	Gear		
+269A	"""⚚"""	2600..26FF	Miscellaneous Symbols	Staff of hermes		
+269B	"""⚛"""	2600..26FF	Miscellaneous Symbols	Atom symbol		
+269C	"""⚜"""	2600..26FF	Miscellaneous Symbols	Fleur-de-lis		
+269D	"""⚝"""	2600..26FF	Miscellaneous Symbols	Outlined white star		
+269E	"""⚞"""	2600..26FF	Miscellaneous Symbols	Three lines converging right		
+269F	"""⚟"""	2600..26FF	Miscellaneous Symbols	Three lines converging left		
+26A0	"""⚠"""	2600..26FF	Miscellaneous Symbols	Warning sign		
+26A1	"""⚡"""	2600..26FF	Miscellaneous Symbols	High voltage sign		
+26A2	"""⚢"""	2600..26FF	Miscellaneous Symbols	Doubled female sign		
+26A3	"""⚣"""	2600..26FF	Miscellaneous Symbols	Doubled male sign		
+26A4	"""⚤"""	2600..26FF	Miscellaneous Symbols	Interlocked female and male sign		
+26A5	"""⚥"""	2600..26FF	Miscellaneous Symbols	Male and female sign		
+26A6	"""⚦"""	2600..26FF	Miscellaneous Symbols	Male with stroke sign		
+26A7	"""⚧"""	2600..26FF	Miscellaneous Symbols	Male with stroke and male and female sign		
+26A8	"""⚨"""	2600..26FF	Miscellaneous Symbols	Vertical male with stroke sign		
+26A9	"""⚩"""	2600..26FF	Miscellaneous Symbols	Horizontal male with stroke sign		
+26AA	"""⚪"""	2600..26FF	Miscellaneous Symbols	Medium white circle		
+26AB	"""⚫"""	2600..26FF	Miscellaneous Symbols	Medium black circle		
+26AC	"""⚬"""	2600..26FF	Miscellaneous Symbols	Medium small white circle		
+26AD	"""⚭"""	2600..26FF	Miscellaneous Symbols	Marriage symbol		
+26AE	"""⚮"""	2600..26FF	Miscellaneous Symbols	Divorce symbol		
+26AF	"""⚯"""	2600..26FF	Miscellaneous Symbols	Unmarried partnership symbol		
+26B0	"""⚰"""	2600..26FF	Miscellaneous Symbols	Coffin		
+26B1	"""⚱"""	2600..26FF	Miscellaneous Symbols	Funeral urn		
+26B2	"""⚲"""	2600..26FF	Miscellaneous Symbols	Neuter		
+26B3	"""⚳"""	2600..26FF	Miscellaneous Symbols	Ceres		
+26B4	"""⚴"""	2600..26FF	Miscellaneous Symbols	Pallas		
+26B5	"""⚵"""	2600..26FF	Miscellaneous Symbols	Juno		
+26B6	"""⚶"""	2600..26FF	Miscellaneous Symbols	Vesta		
+26B7	"""⚷"""	2600..26FF	Miscellaneous Symbols	Chiron		
+26B8	"""⚸"""	2600..26FF	Miscellaneous Symbols	Black moon lilith		
+26B9	"""⚹"""	2600..26FF	Miscellaneous Symbols	Sextile		
+26BA	"""⚺"""	2600..26FF	Miscellaneous Symbols	Semisextile		
+26BB	"""⚻"""	2600..26FF	Miscellaneous Symbols	Quincunx		
+26BC	"""⚼"""	2600..26FF	Miscellaneous Symbols	Sesquiquadrate		
+26BD	"""⚽"""	2600..26FF	Miscellaneous Symbols	Soccer ball		
+26BE	"""⚾"""	2600..26FF	Miscellaneous Symbols	Baseball		
+26BF	"""⚿"""	2600..26FF	Miscellaneous Symbols	Squared key		
+26C0	"""⛀"""	2600..26FF	Miscellaneous Symbols	White draughts man		
+26C1	"""⛁"""	2600..26FF	Miscellaneous Symbols	White draughts king		
+26C2	"""⛂"""	2600..26FF	Miscellaneous Symbols	Black draughts man		
+26C3	"""⛃"""	2600..26FF	Miscellaneous Symbols	Black draughts king		
+26C4	"""⛄"""	2600..26FF	Miscellaneous Symbols	Snowman without snow		
+26C5	"""⛅"""	2600..26FF	Miscellaneous Symbols	Sun behind cloud		
+26C6	"""⛆"""	2600..26FF	Miscellaneous Symbols	Rain		
+26C7	"""⛇"""	2600..26FF	Miscellaneous Symbols	Black snowman		
+26C8	"""⛈"""	2600..26FF	Miscellaneous Symbols	Thunder cloud and rain		
+26C9	"""⛉"""	2600..26FF	Miscellaneous Symbols	Turned white shogi piece		
+26CA	"""⛊"""	2600..26FF	Miscellaneous Symbols	Turned black shogi piece		
+26CB	"""⛋"""	2600..26FF	Miscellaneous Symbols	White diamond in square		
+26CC	"""⛌"""	2600..26FF	Miscellaneous Symbols	Crossing lanes		
+26CD	"""⛍"""	2600..26FF	Miscellaneous Symbols	Disabled car		
+26CE	"""⛎"""	2600..26FF	Miscellaneous Symbols	Ophiuchus		
+26CF	"""⛏"""	2600..26FF	Miscellaneous Symbols	Pick		
+26D0	"""⛐"""	2600..26FF	Miscellaneous Symbols	Car sliding		
+26D1	"""⛑"""	2600..26FF	Miscellaneous Symbols	Helmet with white cross		
+26D2	"""⛒"""	2600..26FF	Miscellaneous Symbols	Circled crossing lanes		
+26D3	"""⛓"""	2600..26FF	Miscellaneous Symbols	Chains		
+26D4	"""⛔"""	2600..26FF	Miscellaneous Symbols	No entry		
+26D5	"""⛕"""	2600..26FF	Miscellaneous Symbols	Alternate one-way left way traffic		
+26D6	"""⛖"""	2600..26FF	Miscellaneous Symbols	Black two-way left way traffic		
+26D7	"""⛗"""	2600..26FF	Miscellaneous Symbols	White two-way left way traffic		
+26D8	"""⛘"""	2600..26FF	Miscellaneous Symbols	Black left lane merge		
+26D9	"""⛙"""	2600..26FF	Miscellaneous Symbols	White left lane merge		
+26DA	"""⛚"""	2600..26FF	Miscellaneous Symbols	Drive slow sign		
+26DB	"""⛛"""	2600..26FF	Miscellaneous Symbols	Heavy white down-pointing triangle		
+26DC	"""⛜"""	2600..26FF	Miscellaneous Symbols	Left closed entry		
+26DD	"""⛝"""	2600..26FF	Miscellaneous Symbols	Squared saltire		
+26DE	"""⛞"""	2600..26FF	Miscellaneous Symbols	Falling diagonal in white circle in black square		
+26DF	"""⛟"""	2600..26FF	Miscellaneous Symbols	Black truck		
+26E0	"""⛠"""	2600..26FF	Miscellaneous Symbols	Restricted left entry-1		
+26E1	"""⛡"""	2600..26FF	Miscellaneous Symbols	Restricted left entry-2		
+26E2	"""⛢"""	2600..26FF	Miscellaneous Symbols	Astronomical symbol for uranus		
+26E3	"""⛣"""	2600..26FF	Miscellaneous Symbols	Heavy circle with stroke and two dots above		
+26E4	"""⛤"""	2600..26FF	Miscellaneous Symbols	Pentagram		
+26E5	"""⛥"""	2600..26FF	Miscellaneous Symbols	Right-handed interlaced pentagram		
+26E6	"""⛦"""	2600..26FF	Miscellaneous Symbols	Left-handed interlaced pentagram		
+26E7	"""⛧"""	2600..26FF	Miscellaneous Symbols	Inverted pentagram		
+26E8	"""⛨"""	2600..26FF	Miscellaneous Symbols	Black cross on shield		
+26E9	"""⛩"""	2600..26FF	Miscellaneous Symbols	Shinto shrine		
+26EA	"""⛪"""	2600..26FF	Miscellaneous Symbols	Church		
+26EB	"""⛫"""	2600..26FF	Miscellaneous Symbols	Castle		
+26EC	"""⛬"""	2600..26FF	Miscellaneous Symbols	Historic site		
+26ED	"""⛭"""	2600..26FF	Miscellaneous Symbols	Gear without hub		
+26EE	"""⛮"""	2600..26FF	Miscellaneous Symbols	Gear with handles		
+26EF	"""⛯"""	2600..26FF	Miscellaneous Symbols	Map symbol for lighthouse		
+26F0	"""⛰"""	2600..26FF	Miscellaneous Symbols	Mountain		
+26F1	"""⛱"""	2600..26FF	Miscellaneous Symbols	Umbrella on ground		
+26F2	"""⛲"""	2600..26FF	Miscellaneous Symbols	Fountain		
+26F3	"""⛳"""	2600..26FF	Miscellaneous Symbols	Flag in hole		
+26F4	"""⛴"""	2600..26FF	Miscellaneous Symbols	Ferry		
+26F5	"""⛵"""	2600..26FF	Miscellaneous Symbols	Sailboat		
+26F6	"""⛶"""	2600..26FF	Miscellaneous Symbols	Square four corners		
+26F7	"""⛷"""	2600..26FF	Miscellaneous Symbols	Skier		
+26F8	"""⛸"""	2600..26FF	Miscellaneous Symbols	Ice skate		
+26F9	"""⛹"""	2600..26FF	Miscellaneous Symbols	Person with ball		
+26FA	"""⛺"""	2600..26FF	Miscellaneous Symbols	Tent		
+26FB	"""⛻"""	2600..26FF	Miscellaneous Symbols	Japanese bank symbol		
+26FC	"""⛼"""	2600..26FF	Miscellaneous Symbols	Headstone graveyard symbol		
+26FD	"""⛽"""	2600..26FF	Miscellaneous Symbols	Fuel pump		
+26FE	"""⛾"""	2600..26FF	Miscellaneous Symbols	Cup on black square		
+26FF	"""⛿"""	2600..26FF	Miscellaneous Symbols	White flag with horizontal middle black stripe		

@@ -1,0 +1,136 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0370	"""Ͱ"""	0370..03FF	Greek and Coptic	Greek capital letter heta		
+0371	"""ͱ"""	0370..03FF	Greek and Coptic	Greek small letter heta		
+0372	"""Ͳ"""	0370..03FF	Greek and Coptic	Greek capital letter archaic sampi		
+0373	"""ͳ"""	0370..03FF	Greek and Coptic	Greek small letter archaic sampi		
+0374	"""ʹ"""	0370..03FF	Greek and Coptic	Greek numeral sign		
+0375	"""͵"""	0370..03FF	Greek and Coptic	Greek lower numeral sign		
+0376	"""Ͷ"""	0370..03FF	Greek and Coptic	Greek capital letter pamphylian digamma		
+0377	"""ͷ"""	0370..03FF	Greek and Coptic	Greek small letter pamphylian digamma		
+037A	"""ͺ"""	0370..03FF	Greek and Coptic	Greek ypogegrammeni		
+037B	"""ͻ"""	0370..03FF	Greek and Coptic	Greek small reversed lunate sigma symbol		
+037C	"""ͼ"""	0370..03FF	Greek and Coptic	Greek small dotted lunate sigma symbol		
+037D	"""ͽ"""	0370..03FF	Greek and Coptic	Greek small reversed dotted lunate sigma symbol		
+037E	""";"""	0370..03FF	Greek and Coptic	Greek question mark		
+037F	"""Ϳ"""	0370..03FF	Greek and Coptic	Greek capital letter yot		
+0384	"""΄"""	0370..03FF	Greek and Coptic	Greek tonos		
+0385	"""΅"""	0370..03FF	Greek and Coptic	Greek dialytika tonos		
+0386	"""Ά"""	0370..03FF	Greek and Coptic	Greek capital letter alpha with tonos		
+0387	"""·"""	0370..03FF	Greek and Coptic	Greek ano teleia		
+0388	"""Έ"""	0370..03FF	Greek and Coptic	Greek capital letter epsilon with tonos		
+0389	"""Ή"""	0370..03FF	Greek and Coptic	Greek capital letter eta with tonos		
+038A	"""Ί"""	0370..03FF	Greek and Coptic	Greek capital letter iota with tonos		
+038C	"""Ό"""	0370..03FF	Greek and Coptic	Greek capital letter omicron with tonos		
+038E	"""Ύ"""	0370..03FF	Greek and Coptic	Greek capital letter upsilon with tonos		
+038F	"""Ώ"""	0370..03FF	Greek and Coptic	Greek capital letter omega with tonos		
+0390	"""ΐ"""	0370..03FF	Greek and Coptic	Greek small letter iota with dialytika and tonos		
+0391	"""Α"""	0370..03FF	Greek and Coptic	Greek capital letter alpha		
+0392	"""Β"""	0370..03FF	Greek and Coptic	Greek capital letter beta		
+0393	"""Γ"""	0370..03FF	Greek and Coptic	Greek capital letter gamma		
+0394	"""Δ"""	0370..03FF	Greek and Coptic	Greek capital letter delta		
+0395	"""Ε"""	0370..03FF	Greek and Coptic	Greek capital letter epsilon		
+0396	"""Ζ"""	0370..03FF	Greek and Coptic	Greek capital letter zeta		
+0397	"""Η"""	0370..03FF	Greek and Coptic	Greek capital letter eta		
+0398	"""Θ"""	0370..03FF	Greek and Coptic	Greek capital letter theta		
+0399	"""Ι"""	0370..03FF	Greek and Coptic	Greek capital letter iota		
+039A	"""Κ"""	0370..03FF	Greek and Coptic	Greek capital letter kappa		
+039B	"""Λ"""	0370..03FF	Greek and Coptic	Greek capital letter lamda		
+039C	"""Μ"""	0370..03FF	Greek and Coptic	Greek capital letter mu		
+039D	"""Ν"""	0370..03FF	Greek and Coptic	Greek capital letter nu		
+039E	"""Ξ"""	0370..03FF	Greek and Coptic	Greek capital letter xi		
+039F	"""Ο"""	0370..03FF	Greek and Coptic	Greek capital letter omicron		
+03A0	"""Π"""	0370..03FF	Greek and Coptic	Greek capital letter pi		
+03A1	"""Ρ"""	0370..03FF	Greek and Coptic	Greek capital letter rho		
+03A3	"""Σ"""	0370..03FF	Greek and Coptic	Greek capital letter sigma		
+03A4	"""Τ"""	0370..03FF	Greek and Coptic	Greek capital letter tau		
+03A5	"""Υ"""	0370..03FF	Greek and Coptic	Greek capital letter upsilon		
+03A6	"""Φ"""	0370..03FF	Greek and Coptic	Greek capital letter phi		
+03A7	"""Χ"""	0370..03FF	Greek and Coptic	Greek capital letter chi		
+03A8	"""Ψ"""	0370..03FF	Greek and Coptic	Greek capital letter psi		
+03A9	"""Ω"""	0370..03FF	Greek and Coptic	Greek capital letter omega		
+03AA	"""Ϊ"""	0370..03FF	Greek and Coptic	Greek capital letter iota with dialytika		
+03AB	"""Ϋ"""	0370..03FF	Greek and Coptic	Greek capital letter upsilon with dialytika		
+03AC	"""ά"""	0370..03FF	Greek and Coptic	Greek small letter alpha with tonos		
+03AD	"""έ"""	0370..03FF	Greek and Coptic	Greek small letter epsilon with tonos		
+03AE	"""ή"""	0370..03FF	Greek and Coptic	Greek small letter eta with tonos		
+03AF	"""ί"""	0370..03FF	Greek and Coptic	Greek small letter iota with tonos		
+03B0	"""ΰ"""	0370..03FF	Greek and Coptic	Greek small letter upsilon with dialytika and tonos		
+03B1	"""α"""	0370..03FF	Greek and Coptic	Greek small letter alpha		
+03B2	"""β"""	0370..03FF	Greek and Coptic	Greek small letter beta		
+03B3	"""γ"""	0370..03FF	Greek and Coptic	Greek small letter gamma		
+03B4	"""δ"""	0370..03FF	Greek and Coptic	Greek small letter delta		
+03B5	"""ε"""	0370..03FF	Greek and Coptic	Greek small letter epsilon		
+03B6	"""ζ"""	0370..03FF	Greek and Coptic	Greek small letter zeta		
+03B7	"""η"""	0370..03FF	Greek and Coptic	Greek small letter eta		
+03B8	"""θ"""	0370..03FF	Greek and Coptic	Greek small letter theta		
+03B9	"""ι"""	0370..03FF	Greek and Coptic	Greek small letter iota		
+03BA	"""κ"""	0370..03FF	Greek and Coptic	Greek small letter kappa		
+03BB	"""λ"""	0370..03FF	Greek and Coptic	Greek small letter lamda		
+03BC	"""μ"""	0370..03FF	Greek and Coptic	Greek small letter mu		
+03BD	"""ν"""	0370..03FF	Greek and Coptic	Greek small letter nu		
+03BE	"""ξ"""	0370..03FF	Greek and Coptic	Greek small letter xi		
+03BF	"""ο"""	0370..03FF	Greek and Coptic	Greek small letter omicron		
+03C0	"""π"""	0370..03FF	Greek and Coptic	Greek small letter pi		
+03C1	"""ρ"""	0370..03FF	Greek and Coptic	Greek small letter rho		
+03C2	"""ς"""	0370..03FF	Greek and Coptic	Greek small letter final sigma		
+03C3	"""σ"""	0370..03FF	Greek and Coptic	Greek small letter sigma		
+03C4	"""τ"""	0370..03FF	Greek and Coptic	Greek small letter tau		
+03C5	"""υ"""	0370..03FF	Greek and Coptic	Greek small letter upsilon		
+03C6	"""φ"""	0370..03FF	Greek and Coptic	Greek small letter phi		
+03C7	"""χ"""	0370..03FF	Greek and Coptic	Greek small letter chi		
+03C8	"""ψ"""	0370..03FF	Greek and Coptic	Greek small letter psi		
+03C9	"""ω"""	0370..03FF	Greek and Coptic	Greek small letter omega		
+03CA	"""ϊ"""	0370..03FF	Greek and Coptic	Greek small letter iota with dialytika		
+03CB	"""ϋ"""	0370..03FF	Greek and Coptic	Greek small letter upsilon with dialytika		
+03CC	"""ό"""	0370..03FF	Greek and Coptic	Greek small letter omicron with tonos		
+03CD	"""ύ"""	0370..03FF	Greek and Coptic	Greek small letter upsilon with tonos		
+03CE	"""ώ"""	0370..03FF	Greek and Coptic	Greek small letter omega with tonos		
+03CF	"""Ϗ"""	0370..03FF	Greek and Coptic	Greek capital kai symbol		
+03D0	"""ϐ"""	0370..03FF	Greek and Coptic	Greek beta symbol		
+03D1	"""ϑ"""	0370..03FF	Greek and Coptic	Greek theta symbol		
+03D2	"""ϒ"""	0370..03FF	Greek and Coptic	Greek upsilon with hook symbol		
+03D3	"""ϓ"""	0370..03FF	Greek and Coptic	Greek upsilon with acute and hook symbol		
+03D4	"""ϔ"""	0370..03FF	Greek and Coptic	Greek upsilon with diaeresis and hook symbol		
+03D5	"""ϕ"""	0370..03FF	Greek and Coptic	Greek phi symbol		
+03D6	"""ϖ"""	0370..03FF	Greek and Coptic	Greek pi symbol		
+03D7	"""ϗ"""	0370..03FF	Greek and Coptic	Greek kai symbol		
+03D8	"""Ϙ"""	0370..03FF	Greek and Coptic	Greek letter archaic koppa		
+03D9	"""ϙ"""	0370..03FF	Greek and Coptic	Greek small letter archaic koppa		
+03DA	"""Ϛ"""	0370..03FF	Greek and Coptic	Greek letter stigma		
+03DB	"""ϛ"""	0370..03FF	Greek and Coptic	Greek small letter stigma		
+03DC	"""Ϝ"""	0370..03FF	Greek and Coptic	Greek letter digamma		
+03DD	"""ϝ"""	0370..03FF	Greek and Coptic	Greek small letter digamma		
+03DE	"""Ϟ"""	0370..03FF	Greek and Coptic	Greek letter koppa		
+03DF	"""ϟ"""	0370..03FF	Greek and Coptic	Greek small letter koppa		
+03E0	"""Ϡ"""	0370..03FF	Greek and Coptic	Greek letter sampi		
+03E1	"""ϡ"""	0370..03FF	Greek and Coptic	Greek small letter sampi		
+03E2	"""Ϣ"""	0370..03FF	Greek and Coptic	Coptic capital letter shei		
+03E3	"""ϣ"""	0370..03FF	Greek and Coptic	Coptic small letter shei		
+03E4	"""Ϥ"""	0370..03FF	Greek and Coptic	Coptic capital letter fei		
+03E5	"""ϥ"""	0370..03FF	Greek and Coptic	Coptic small letter fei		
+03E6	"""Ϧ"""	0370..03FF	Greek and Coptic	Coptic capital letter khei		
+03E7	"""ϧ"""	0370..03FF	Greek and Coptic	Coptic small letter khei		
+03E8	"""Ϩ"""	0370..03FF	Greek and Coptic	Coptic capital letter hori		
+03E9	"""ϩ"""	0370..03FF	Greek and Coptic	Coptic small letter hori		
+03EA	"""Ϫ"""	0370..03FF	Greek and Coptic	Coptic capital letter gangia		
+03EB	"""ϫ"""	0370..03FF	Greek and Coptic	Coptic small letter gangia		
+03EC	"""Ϭ"""	0370..03FF	Greek and Coptic	Coptic capital letter shima		
+03ED	"""ϭ"""	0370..03FF	Greek and Coptic	Coptic small letter shima		
+03EE	"""Ϯ"""	0370..03FF	Greek and Coptic	Coptic capital letter dei		
+03EF	"""ϯ"""	0370..03FF	Greek and Coptic	Coptic small letter dei		
+03F0	"""ϰ"""	0370..03FF	Greek and Coptic	Greek kappa symbol		
+03F1	"""ϱ"""	0370..03FF	Greek and Coptic	Greek rho symbol		
+03F2	"""ϲ"""	0370..03FF	Greek and Coptic	Greek lunate sigma symbol		
+03F3	"""ϳ"""	0370..03FF	Greek and Coptic	Greek letter yot		
+03F4	"""ϴ"""	0370..03FF	Greek and Coptic	Greek capital theta symbol		
+03F5	"""ϵ"""	0370..03FF	Greek and Coptic	Greek lunate epsilon symbol		
+03F6	"""϶"""	0370..03FF	Greek and Coptic	Greek reversed lunate epsilon symbol		
+03F7	"""Ϸ"""	0370..03FF	Greek and Coptic	Greek capital letter sho		
+03F8	"""ϸ"""	0370..03FF	Greek and Coptic	Greek small letter sho		
+03F9	"""Ϲ"""	0370..03FF	Greek and Coptic	Greek capital lunate sigma symbol		
+03FA	"""Ϻ"""	0370..03FF	Greek and Coptic	Greek capital letter san		
+03FB	"""ϻ"""	0370..03FF	Greek and Coptic	Greek small letter san		
+03FC	"""ϼ"""	0370..03FF	Greek and Coptic	Greek rho with stroke symbol		
+03FD	"""Ͻ"""	0370..03FF	Greek and Coptic	Greek capital reversed lunate sigma symbol		
+03FE	"""Ͼ"""	0370..03FF	Greek and Coptic	Greek capital dotted lunate sigma symbol		
+03FF	"""Ͽ"""	0370..03FF	Greek and Coptic	Greek capital reversed dotted lunate sigma symbol		

@@ -164,7 +164,7 @@ def generate_help() -> None:
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
 
 
-def gerenerate_phrases(filename: str, target_dir: str) -> None:
+def generate_codes(filename: str, target_dir: str) -> None:
     """Read the icons from filename and create phrases files in target_dir."""
     data = load_icons(filename)
     path = BASE_PATH / target_dir
@@ -228,7 +228,12 @@ def gerenerate_phrases(filename: str, target_dir: str) -> None:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     set_sendmode()
-    gerenerate_phrases("icons.csv", "julia_unicode")
-    gerenerate_phrases("icons-custom.csv", "custom_unicode")
+    generate_codes("icons.csv", "julia_unicode")
+    generate_codes("custom_icons.csv", "custom_unicode")
+
+    # add custom unicode icons for all csv files in icons/
+    # for fname in Path("icons").glob("*.csv"):
+    #     gerenerate_phrases(fname, fname.stem)
+
     generate_help()
     LOGGER.info(r"Finished Installation. Restart AutoKey to enable.")

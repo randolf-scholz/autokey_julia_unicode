@@ -1,0 +1,58 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10100	"""𐄀"""	10100..1013F	Aegean Numbers	Aegean word separator line		
+10101	"""𐄁"""	10100..1013F	Aegean Numbers	Aegean word separator dot		
+10102	"""𐄂"""	10100..1013F	Aegean Numbers	Aegean check mark		
+10107	"""𐄇"""	10100..1013F	Aegean Numbers	Aegean number one		
+10108	"""𐄈"""	10100..1013F	Aegean Numbers	Aegean number two		
+10109	"""𐄉"""	10100..1013F	Aegean Numbers	Aegean number three		
+1010A	"""𐄊"""	10100..1013F	Aegean Numbers	Aegean number four		
+1010B	"""𐄋"""	10100..1013F	Aegean Numbers	Aegean number five		
+1010C	"""𐄌"""	10100..1013F	Aegean Numbers	Aegean number six		
+1010D	"""𐄍"""	10100..1013F	Aegean Numbers	Aegean number seven		
+1010E	"""𐄎"""	10100..1013F	Aegean Numbers	Aegean number eight		
+1010F	"""𐄏"""	10100..1013F	Aegean Numbers	Aegean number nine		
+10110	"""𐄐"""	10100..1013F	Aegean Numbers	Aegean number ten		
+10111	"""𐄑"""	10100..1013F	Aegean Numbers	Aegean number twenty		
+10112	"""𐄒"""	10100..1013F	Aegean Numbers	Aegean number thirty		
+10113	"""𐄓"""	10100..1013F	Aegean Numbers	Aegean number forty		
+10114	"""𐄔"""	10100..1013F	Aegean Numbers	Aegean number fifty		
+10115	"""𐄕"""	10100..1013F	Aegean Numbers	Aegean number sixty		
+10116	"""𐄖"""	10100..1013F	Aegean Numbers	Aegean number seventy		
+10117	"""𐄗"""	10100..1013F	Aegean Numbers	Aegean number eighty		
+10118	"""𐄘"""	10100..1013F	Aegean Numbers	Aegean number ninety		
+10119	"""𐄙"""	10100..1013F	Aegean Numbers	Aegean number one hundred		
+1011A	"""𐄚"""	10100..1013F	Aegean Numbers	Aegean number two hundred		
+1011B	"""𐄛"""	10100..1013F	Aegean Numbers	Aegean number three hundred		
+1011C	"""𐄜"""	10100..1013F	Aegean Numbers	Aegean number four hundred		
+1011D	"""𐄝"""	10100..1013F	Aegean Numbers	Aegean number five hundred		
+1011E	"""𐄞"""	10100..1013F	Aegean Numbers	Aegean number six hundred		
+1011F	"""𐄟"""	10100..1013F	Aegean Numbers	Aegean number seven hundred		
+10120	"""𐄠"""	10100..1013F	Aegean Numbers	Aegean number eight hundred		
+10121	"""𐄡"""	10100..1013F	Aegean Numbers	Aegean number nine hundred		
+10122	"""𐄢"""	10100..1013F	Aegean Numbers	Aegean number one thousand		
+10123	"""𐄣"""	10100..1013F	Aegean Numbers	Aegean number two thousand		
+10124	"""𐄤"""	10100..1013F	Aegean Numbers	Aegean number three thousand		
+10125	"""𐄥"""	10100..1013F	Aegean Numbers	Aegean number four thousand		
+10126	"""𐄦"""	10100..1013F	Aegean Numbers	Aegean number five thousand		
+10127	"""𐄧"""	10100..1013F	Aegean Numbers	Aegean number six thousand		
+10128	"""𐄨"""	10100..1013F	Aegean Numbers	Aegean number seven thousand		
+10129	"""𐄩"""	10100..1013F	Aegean Numbers	Aegean number eight thousand		
+1012A	"""𐄪"""	10100..1013F	Aegean Numbers	Aegean number nine thousand		
+1012B	"""𐄫"""	10100..1013F	Aegean Numbers	Aegean number ten thousand		
+1012C	"""𐄬"""	10100..1013F	Aegean Numbers	Aegean number twenty thousand		
+1012D	"""𐄭"""	10100..1013F	Aegean Numbers	Aegean number thirty thousand		
+1012E	"""𐄮"""	10100..1013F	Aegean Numbers	Aegean number forty thousand		
+1012F	"""𐄯"""	10100..1013F	Aegean Numbers	Aegean number fifty thousand		
+10130	"""𐄰"""	10100..1013F	Aegean Numbers	Aegean number sixty thousand		
+10131	"""𐄱"""	10100..1013F	Aegean Numbers	Aegean number seventy thousand		
+10132	"""𐄲"""	10100..1013F	Aegean Numbers	Aegean number eighty thousand		
+10133	"""𐄳"""	10100..1013F	Aegean Numbers	Aegean number ninety thousand		
+10137	"""𐄷"""	10100..1013F	Aegean Numbers	Aegean weight base unit		
+10138	"""𐄸"""	10100..1013F	Aegean Numbers	Aegean weight first subunit		
+10139	"""𐄹"""	10100..1013F	Aegean Numbers	Aegean weight second subunit		
+1013A	"""𐄺"""	10100..1013F	Aegean Numbers	Aegean weight third subunit		
+1013B	"""𐄻"""	10100..1013F	Aegean Numbers	Aegean weight fourth subunit		
+1013C	"""𐄼"""	10100..1013F	Aegean Numbers	Aegean dry measure first subunit		
+1013D	"""𐄽"""	10100..1013F	Aegean Numbers	Aegean liquid measure first subunit		
+1013E	"""𐄾"""	10100..1013F	Aegean Numbers	Aegean measure second subunit		
+1013F	"""𐄿"""	10100..1013F	Aegean Numbers	Aegean measure third subunit		
