@@ -108,33 +108,33 @@ U+002DC	˜	\tildelow	Small Tilde / Spacing Tilde
 U+002E1	ˡ	\^l	Modifier Letter Small L
 U+002E2	ˢ	\^s	Modifier Letter Small S
 U+002E3	ˣ	\^x	Modifier Letter Small X
-U+00300	 ̀ 	\grave	Combining Grave Accent / Non-Spacing Grave
-U+00301	 ́ 	\acute	Combining Acute Accent / Non-Spacing Acute
-U+00302	 ̂ 	\hat	Combining Circumflex Accent / Non-Spacing Circumflex
-U+00303	 ̃ 	\tilde	Combining Tilde / Non-Spacing Tilde
-U+00304	 ̄ 	\bar	Combining Macron / Non-Spacing Macron
-U+00305	 ̅ 	\overbar	Combining Overline / Non-Spacing Overscore
-U+00306	 ̆ 	\breve	Combining Breve / Non-Spacing Breve
-U+00307	 ̇ 	\dot	Combining Dot Above / Non-Spacing Dot Above
-U+00308	 ̈ 	\ddot	Combining Diaeresis / Non-Spacing Diaeresis
-U+00309	 ̉ 	\ovhook	Combining Hook Above / Non-Spacing Hook Above
-U+0030A	 ̊ 	\ocirc	Combining Ring Above / Non-Spacing Ring Above
-U+0030B	 ̋ 	\H	Combining Double Acute Accent / Non-Spacing Double Acute
-U+0030C	 ̌ 	\check	Combining Caron / Non-Spacing Hacek
-U+00310	 ̐ 	\candra	Combining Candrabindu / Non-Spacing Candrabindu
-U+00312	 ̒ 	\oturnedcomma	Combining Turned Comma Above / Non-Spacing Turned Comma Above
-U+00315	 ̕ 	\ocommatopright	Combining Comma Above Right / Non-Spacing Comma Above Right
-U+0031A	 ̚ 	\droang	Combining Left Angle Above / Non-Spacing Left Angle Above
-U+00321	 ̡ 	\palh	Combining Palatalized Hook Below / Non-Spacing Palatalized Hook Below
-U+00322	 ̢ 	\rh	Combining Retroflex Hook Below / Non-Spacing Retroflex Hook Below
-U+00327	 ̧ 	\c	Combining Cedilla / Non-Spacing Cedilla
-U+00328	 ̨ 	\k	Combining Ogonek / Non-Spacing Ogonek
-U+0032A	 ̪ 	\sbbrg	Combining Bridge Below / Non-Spacing Bridge Below
-U+00330	 ̰ 	\wideutilde	Combining Tilde Below / Non-Spacing Tilde Below
-U+00332	 ̲ 	\underbar	Combining Low Line / Non-Spacing Underscore
-U+00336	 ̶ 	\strike, \sout	Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay
-U+00338	 ̸ 	\not	Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
-U+0034D	 ͍ 	\underleftrightarrow	Combining Left Right Arrow Below
+U+00300	̀	\grave	Combining Grave Accent / Non-Spacing Grave
+U+00301	́	\acute	Combining Acute Accent / Non-Spacing Acute
+U+00302	̂	\hat	Combining Circumflex Accent / Non-Spacing Circumflex
+U+00303	̃	\tilde	Combining Tilde / Non-Spacing Tilde
+U+00304	̄	\bar	Combining Macron / Non-Spacing Macron
+U+00305	̅	\overbar	Combining Overline / Non-Spacing Overscore
+U+00306	̆	\breve	Combining Breve / Non-Spacing Breve
+U+00307	̇	\dot	Combining Dot Above / Non-Spacing Dot Above
+U+00308	̈	\ddot	Combining Diaeresis / Non-Spacing Diaeresis
+U+00309	̉	\ovhook	Combining Hook Above / Non-Spacing Hook Above
+U+0030A	̊	\ocirc	Combining Ring Above / Non-Spacing Ring Above
+U+0030B	̋	\H	Combining Double Acute Accent / Non-Spacing Double Acute
+U+0030C	̌	\check	Combining Caron / Non-Spacing Hacek
+U+00310	̐	\candra	Combining Candrabindu / Non-Spacing Candrabindu
+U+00312	̒	\oturnedcomma	Combining Turned Comma Above / Non-Spacing Turned Comma Above
+U+00315	̕	\ocommatopright	Combining Comma Above Right / Non-Spacing Comma Above Right
+U+0031A	̚	\droang	Combining Left Angle Above / Non-Spacing Left Angle Above
+U+00321	̡	\palh	Combining Palatalized Hook Below / Non-Spacing Palatalized Hook Below
+U+00322	̢	\rh	Combining Retroflex Hook Below / Non-Spacing Retroflex Hook Below
+U+00327	̧	\c	Combining Cedilla / Non-Spacing Cedilla
+U+00328	̨	\k	Combining Ogonek / Non-Spacing Ogonek
+U+0032A	̪	\sbbrg	Combining Bridge Below / Non-Spacing Bridge Below
+U+00330	̰	\wideutilde	Combining Tilde Below / Non-Spacing Tilde Below
+U+00332	̲	\underbar	Combining Low Line / Non-Spacing Underscore
+U+00336	̶	\strike, \sout	Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay
+U+00338	̸	\not	Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0034D	͍	\underleftrightarrow	Combining Left Right Arrow Below
 U+00391	Α	\Alpha	Greek Capital Letter Alpha
 U+00392	Β	\Beta	Greek Capital Letter Beta
 U+00393	Γ	\Gamma	Greek Capital Letter Gamma
