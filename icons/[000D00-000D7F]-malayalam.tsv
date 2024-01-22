@@ -1,0 +1,119 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0D00	"""ഀ"""	0D00..0D7F	Malayalam	Malayalam sign combining anusvara above		
+0D01	"""ഁ"""	0D00..0D7F	Malayalam	Malayalam sign candrabindu		
+0D02	"""ം"""	0D00..0D7F	Malayalam	Malayalam sign anusvara		
+0D03	"""ഃ"""	0D00..0D7F	Malayalam	Malayalam sign visarga		
+0D04	"""ഄ"""	0D00..0D7F	Malayalam	Malayalam letter vedic anusvara		
+0D05	"""അ"""	0D00..0D7F	Malayalam	Malayalam letter a		
+0D06	"""ആ"""	0D00..0D7F	Malayalam	Malayalam letter aa		
+0D07	"""ഇ"""	0D00..0D7F	Malayalam	Malayalam letter i		
+0D08	"""ഈ"""	0D00..0D7F	Malayalam	Malayalam letter ii		
+0D09	"""ഉ"""	0D00..0D7F	Malayalam	Malayalam letter u		
+0D0A	"""ഊ"""	0D00..0D7F	Malayalam	Malayalam letter uu		
+0D0B	"""ഋ"""	0D00..0D7F	Malayalam	Malayalam letter vocalic r		
+0D0C	"""ഌ"""	0D00..0D7F	Malayalam	Malayalam letter vocalic l		
+0D0E	"""എ"""	0D00..0D7F	Malayalam	Malayalam letter e		
+0D0F	"""ഏ"""	0D00..0D7F	Malayalam	Malayalam letter ee		
+0D10	"""ഐ"""	0D00..0D7F	Malayalam	Malayalam letter ai		
+0D12	"""ഒ"""	0D00..0D7F	Malayalam	Malayalam letter o		
+0D13	"""ഓ"""	0D00..0D7F	Malayalam	Malayalam letter oo		
+0D14	"""ഔ"""	0D00..0D7F	Malayalam	Malayalam letter au		
+0D15	"""ക"""	0D00..0D7F	Malayalam	Malayalam letter ka		
+0D16	"""ഖ"""	0D00..0D7F	Malayalam	Malayalam letter kha		
+0D17	"""ഗ"""	0D00..0D7F	Malayalam	Malayalam letter ga		
+0D18	"""ഘ"""	0D00..0D7F	Malayalam	Malayalam letter gha		
+0D19	"""ങ"""	0D00..0D7F	Malayalam	Malayalam letter nga		
+0D1A	"""ച"""	0D00..0D7F	Malayalam	Malayalam letter ca		
+0D1B	"""ഛ"""	0D00..0D7F	Malayalam	Malayalam letter cha		
+0D1C	"""ജ"""	0D00..0D7F	Malayalam	Malayalam letter ja		
+0D1D	"""ഝ"""	0D00..0D7F	Malayalam	Malayalam letter jha		
+0D1E	"""ഞ"""	0D00..0D7F	Malayalam	Malayalam letter nya		
+0D1F	"""ട"""	0D00..0D7F	Malayalam	Malayalam letter tta		
+0D20	"""ഠ"""	0D00..0D7F	Malayalam	Malayalam letter ttha		
+0D21	"""ഡ"""	0D00..0D7F	Malayalam	Malayalam letter dda		
+0D22	"""ഢ"""	0D00..0D7F	Malayalam	Malayalam letter ddha		
+0D23	"""ണ"""	0D00..0D7F	Malayalam	Malayalam letter nna		
+0D24	"""ത"""	0D00..0D7F	Malayalam	Malayalam letter ta		
+0D25	"""ഥ"""	0D00..0D7F	Malayalam	Malayalam letter tha		
+0D26	"""ദ"""	0D00..0D7F	Malayalam	Malayalam letter da		
+0D27	"""ധ"""	0D00..0D7F	Malayalam	Malayalam letter dha		
+0D28	"""ന"""	0D00..0D7F	Malayalam	Malayalam letter na		
+0D29	"""ഩ"""	0D00..0D7F	Malayalam	Malayalam letter nnna		
+0D2A	"""പ"""	0D00..0D7F	Malayalam	Malayalam letter pa		
+0D2B	"""ഫ"""	0D00..0D7F	Malayalam	Malayalam letter pha		
+0D2C	"""ബ"""	0D00..0D7F	Malayalam	Malayalam letter ba		
+0D2D	"""ഭ"""	0D00..0D7F	Malayalam	Malayalam letter bha		
+0D2E	"""മ"""	0D00..0D7F	Malayalam	Malayalam letter ma		
+0D2F	"""യ"""	0D00..0D7F	Malayalam	Malayalam letter ya		
+0D30	"""ര"""	0D00..0D7F	Malayalam	Malayalam letter ra		
+0D31	"""റ"""	0D00..0D7F	Malayalam	Malayalam letter rra		
+0D32	"""ല"""	0D00..0D7F	Malayalam	Malayalam letter la		
+0D33	"""ള"""	0D00..0D7F	Malayalam	Malayalam letter lla		
+0D34	"""ഴ"""	0D00..0D7F	Malayalam	Malayalam letter llla		
+0D35	"""വ"""	0D00..0D7F	Malayalam	Malayalam letter va		
+0D36	"""ശ"""	0D00..0D7F	Malayalam	Malayalam letter sha		
+0D37	"""ഷ"""	0D00..0D7F	Malayalam	Malayalam letter ssa		
+0D38	"""സ"""	0D00..0D7F	Malayalam	Malayalam letter sa		
+0D39	"""ഹ"""	0D00..0D7F	Malayalam	Malayalam letter ha		
+0D3A	"""ഺ"""	0D00..0D7F	Malayalam	Malayalam letter ttta		
+0D3B	"""഻"""	0D00..0D7F	Malayalam	Malayalam sign vertical bar virama		
+0D3C	"""഼"""	0D00..0D7F	Malayalam	Malayalam sign circular virama		
+0D3D	"""ഽ"""	0D00..0D7F	Malayalam	Malayalam sign avagraha		
+0D3E	"""ാ"""	0D00..0D7F	Malayalam	Malayalam vowel sign aa		
+0D3F	"""ി"""	0D00..0D7F	Malayalam	Malayalam vowel sign i		
+0D40	"""ീ"""	0D00..0D7F	Malayalam	Malayalam vowel sign ii		
+0D41	"""ു"""	0D00..0D7F	Malayalam	Malayalam vowel sign u		
+0D42	"""ൂ"""	0D00..0D7F	Malayalam	Malayalam vowel sign uu		
+0D43	"""ൃ"""	0D00..0D7F	Malayalam	Malayalam vowel sign vocalic r		
+0D44	"""ൄ"""	0D00..0D7F	Malayalam	Malayalam vowel sign vocalic rr		
+0D46	"""െ"""	0D00..0D7F	Malayalam	Malayalam vowel sign e		
+0D47	"""േ"""	0D00..0D7F	Malayalam	Malayalam vowel sign ee		
+0D48	"""ൈ"""	0D00..0D7F	Malayalam	Malayalam vowel sign ai		
+0D4A	"""ൊ"""	0D00..0D7F	Malayalam	Malayalam vowel sign o		
+0D4B	"""ോ"""	0D00..0D7F	Malayalam	Malayalam vowel sign oo		
+0D4C	"""ൌ"""	0D00..0D7F	Malayalam	Malayalam vowel sign au		
+0D4D	"""്"""	0D00..0D7F	Malayalam	Malayalam sign virama		
+0D4E	"""ൎ"""	0D00..0D7F	Malayalam	Malayalam letter dot reph		
+0D4F	"""൏"""	0D00..0D7F	Malayalam	Malayalam sign para		
+0D54	"""ൔ"""	0D00..0D7F	Malayalam	Malayalam letter chillu m		
+0D55	"""ൕ"""	0D00..0D7F	Malayalam	Malayalam letter chillu y		
+0D56	"""ൖ"""	0D00..0D7F	Malayalam	Malayalam letter chillu lll		
+0D57	"""ൗ"""	0D00..0D7F	Malayalam	Malayalam au length mark		
+0D58	"""൘"""	0D00..0D7F	Malayalam	Malayalam fraction one one-hundred-and-sixtieth		
+0D59	"""൙"""	0D00..0D7F	Malayalam	Malayalam fraction one fortieth		
+0D5A	"""൚"""	0D00..0D7F	Malayalam	Malayalam fraction three eightieths		
+0D5B	"""൛"""	0D00..0D7F	Malayalam	Malayalam fraction one twentieth		
+0D5C	"""൜"""	0D00..0D7F	Malayalam	Malayalam fraction one tenth		
+0D5D	"""൝"""	0D00..0D7F	Malayalam	Malayalam fraction three twentieths		
+0D5E	"""൞"""	0D00..0D7F	Malayalam	Malayalam fraction one fifth		
+0D5F	"""ൟ"""	0D00..0D7F	Malayalam	Malayalam letter archaic ii		
+0D60	"""ൠ"""	0D00..0D7F	Malayalam	Malayalam letter vocalic rr		
+0D61	"""ൡ"""	0D00..0D7F	Malayalam	Malayalam letter vocalic ll		
+0D62	"""ൢ"""	0D00..0D7F	Malayalam	Malayalam vowel sign vocalic l		
+0D63	"""ൣ"""	0D00..0D7F	Malayalam	Malayalam vowel sign vocalic ll		
+0D66	"""൦"""	0D00..0D7F	Malayalam	Malayalam digit zero		
+0D67	"""൧"""	0D00..0D7F	Malayalam	Malayalam digit one		
+0D68	"""൨"""	0D00..0D7F	Malayalam	Malayalam digit two		
+0D69	"""൩"""	0D00..0D7F	Malayalam	Malayalam digit three		
+0D6A	"""൪"""	0D00..0D7F	Malayalam	Malayalam digit four		
+0D6B	"""൫"""	0D00..0D7F	Malayalam	Malayalam digit five		
+0D6C	"""൬"""	0D00..0D7F	Malayalam	Malayalam digit six		
+0D6D	"""൭"""	0D00..0D7F	Malayalam	Malayalam digit seven		
+0D6E	"""൮"""	0D00..0D7F	Malayalam	Malayalam digit eight		
+0D6F	"""൯"""	0D00..0D7F	Malayalam	Malayalam digit nine		
+0D70	"""൰"""	0D00..0D7F	Malayalam	Malayalam number ten		
+0D71	"""൱"""	0D00..0D7F	Malayalam	Malayalam number one hundred		
+0D72	"""൲"""	0D00..0D7F	Malayalam	Malayalam number one thousand		
+0D73	"""൳"""	0D00..0D7F	Malayalam	Malayalam fraction one quarter		
+0D74	"""൴"""	0D00..0D7F	Malayalam	Malayalam fraction one half		
+0D75	"""൵"""	0D00..0D7F	Malayalam	Malayalam fraction three quarters		
+0D76	"""൶"""	0D00..0D7F	Malayalam	Malayalam fraction one sixteenth		
+0D77	"""൷"""	0D00..0D7F	Malayalam	Malayalam fraction one eighth		
+0D78	"""൸"""	0D00..0D7F	Malayalam	Malayalam fraction three sixteenths		
+0D79	"""൹"""	0D00..0D7F	Malayalam	Malayalam date mark		
+0D7A	"""ൺ"""	0D00..0D7F	Malayalam	Malayalam letter chillu nn		
+0D7B	"""ൻ"""	0D00..0D7F	Malayalam	Malayalam letter chillu n		
+0D7C	"""ർ"""	0D00..0D7F	Malayalam	Malayalam letter chillu rr		
+0D7D	"""ൽ"""	0D00..0D7F	Malayalam	Malayalam letter chillu l		
+0D7E	"""ൾ"""	0D00..0D7F	Malayalam	Malayalam letter chillu ll		
+0D7F	"""ൿ"""	0D00..0D7F	Malayalam	Malayalam letter chillu k		

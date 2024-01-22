@@ -1,0 +1,41 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10880	"""𐢀"""	10880..108AF	Nabataean	Nabataean letter final aleph		
+10881	"""𐢁"""	10880..108AF	Nabataean	Nabataean letter aleph		
+10882	"""𐢂"""	10880..108AF	Nabataean	Nabataean letter final beth		
+10883	"""𐢃"""	10880..108AF	Nabataean	Nabataean letter beth		
+10884	"""𐢄"""	10880..108AF	Nabataean	Nabataean letter gimel		
+10885	"""𐢅"""	10880..108AF	Nabataean	Nabataean letter daleth		
+10886	"""𐢆"""	10880..108AF	Nabataean	Nabataean letter final he		
+10887	"""𐢇"""	10880..108AF	Nabataean	Nabataean letter he		
+10888	"""𐢈"""	10880..108AF	Nabataean	Nabataean letter waw		
+10889	"""𐢉"""	10880..108AF	Nabataean	Nabataean letter zayin		
+1088A	"""𐢊"""	10880..108AF	Nabataean	Nabataean letter heth		
+1088B	"""𐢋"""	10880..108AF	Nabataean	Nabataean letter teth		
+1088C	"""𐢌"""	10880..108AF	Nabataean	Nabataean letter final yodh		
+1088D	"""𐢍"""	10880..108AF	Nabataean	Nabataean letter yodh		
+1088E	"""𐢎"""	10880..108AF	Nabataean	Nabataean letter final kaph		
+1088F	"""𐢏"""	10880..108AF	Nabataean	Nabataean letter kaph		
+10890	"""𐢐"""	10880..108AF	Nabataean	Nabataean letter final lamedh		
+10891	"""𐢑"""	10880..108AF	Nabataean	Nabataean letter lamedh		
+10892	"""𐢒"""	10880..108AF	Nabataean	Nabataean letter final mem		
+10893	"""𐢓"""	10880..108AF	Nabataean	Nabataean letter mem		
+10894	"""𐢔"""	10880..108AF	Nabataean	Nabataean letter final nun		
+10895	"""𐢕"""	10880..108AF	Nabataean	Nabataean letter nun		
+10896	"""𐢖"""	10880..108AF	Nabataean	Nabataean letter samekh		
+10897	"""𐢗"""	10880..108AF	Nabataean	Nabataean letter ayin		
+10898	"""𐢘"""	10880..108AF	Nabataean	Nabataean letter pe		
+10899	"""𐢙"""	10880..108AF	Nabataean	Nabataean letter sadhe		
+1089A	"""𐢚"""	10880..108AF	Nabataean	Nabataean letter qoph		
+1089B	"""𐢛"""	10880..108AF	Nabataean	Nabataean letter resh		
+1089C	"""𐢜"""	10880..108AF	Nabataean	Nabataean letter final shin		
+1089D	"""𐢝"""	10880..108AF	Nabataean	Nabataean letter shin		
+1089E	"""𐢞"""	10880..108AF	Nabataean	Nabataean letter taw		
+108A7	"""𐢧"""	10880..108AF	Nabataean	Nabataean number one		
+108A8	"""𐢨"""	10880..108AF	Nabataean	Nabataean number two		
+108A9	"""𐢩"""	10880..108AF	Nabataean	Nabataean number three		
+108AA	"""𐢪"""	10880..108AF	Nabataean	Nabataean number four		
+108AB	"""𐢫"""	10880..108AF	Nabataean	Nabataean cruciform number four		
+108AC	"""𐢬"""	10880..108AF	Nabataean	Nabataean number five		
+108AD	"""𐢭"""	10880..108AF	Nabataean	Nabataean number ten		
+108AE	"""𐢮"""	10880..108AF	Nabataean	Nabataean number twenty		
+108AF	"""𐢯"""	10880..108AF	Nabataean	Nabataean number one hundred		

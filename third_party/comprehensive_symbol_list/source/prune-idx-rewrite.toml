@@ -1,0 +1,7129 @@
+##################################################################
+# Define miscellaneous rules for rewriting the document's index. #
+# Author: Scott Pakin <scott+clsl@pakin.org>                     #
+##################################################################
+
+# -------------------------------- hats --------------------------------
+
+# ... accents ...
+
+# This rule should precede the following one.
+[[rewrite]]
+render_regex = '\\RHAT(crown|mortarboard)'
+item = ['\1', "as math-mode accent"]
+
+[[rewrite]]
+render_contains = '\RHAT'
+item = '\g<0>, as math-mode accent'
+
+# ... regular ...
+
+[[rewrite]]
+regex = '^(cowboy|hard|top|witch|wizard) hat$'
+item = ["hat", '\1']
+
+[[rewrite]]
+matches = "faHardHat"
+item = ["hat", "hard"]
+
+[[rewrite]]
+matches = ["faHatCowboy", "faHatCowboySide"]
+item = ["hat", "cowboy"]
+
+[[rewrite]]
+matches = "faHatWizard"
+item = ["hat", "wizard"]
+
+[[rewrite]]
+matches = ["graduation cap", "faGraduationCap"]
+item = "mortarboard"
+
+# ------------------------------- pages --------------------------------
+
+[[rewrite]]
+regex = '^page\s+(.+)$'
+item = ["page", '\1']
+
+[[rewrite]]
+matches = "pages"
+item = ["page", "multiple"]
+
+[[rewrite]]
+regex = '^Paper(Portrait|Landscape)$'
+lowercase_item = true
+item = ["page", '\1']
+
+# ------------------------------ vehicles ------------------------------
+
+# ... cars ...
+
+[[rewrite]]
+matches = ["car", "cars"]
+item = "automobile"
+
+[[rewrite]]
+contains = "vehicle"   # "recreational vehicle", "sport utility vehicle"
+item = "automobile"
+
+[[rewrite]]
+matches = "car crash"
+item = ["automobile", "crash"]
+
+[[rewrite]]
+matches = "automobile with key"
+item = ["automobile", "with key"]
+
+# ... boats and ships ...
+
+[[rewrite]]
+matches = [
+    "motor boat",
+    "sailboat",
+    "speedboat"
+]
+item = "boat"
+
+[[rewrite]]
+render_contains = '\PHship'    # This looks more like a boat to me.
+item = "boat"
+
+[[rewrite]]
+render_contains = '\asapBoat'  # This looks more like a ship to me.
+item = "ship"
+
+[[rewrite]]
+matches = [
+    "ships",
+    "passenger ship"
+]
+item = "ship"
+
+# ----------------------------- rectangles -----------------------------
+
+[[rewrite]]
+matches = [
+    "rectangles",
+    "hrectangle",
+    "vrectangle",
+    "oblong",          # Some of these are barely oblong, almost square.
+    "talloblong",
+    "bigtalloblong",
+    "bigbox"
+]
+item = "rectangle"
+
+[[rewrite]]
+matches = [
+    "hrectangleblack",
+    "vrectangleblack",
+    "Rectangle",
+    "RectangleBold",
+    "RectangleThin"
+]
+item = ["rectangle", "filled"]
+
+# -------------------------- ellipses (ovals) --------------------------
+
+[[rewrite]]
+matches = ["ellipses (ovals)", "ovals"]
+item = "ellipse"
+
+[[rewrite]]
+matches = ["Ellipse", "whthorzoval"]
+item = "ellipse"
+
+[[rewrite]]
+matches = ["EllipseSolid", "blkhorzoval"]
+item = ["ellipse", "filled"]
+
+[[rewrite]]
+matches = "whtvertoval"
+item = ["ellipse", "vertical"]
+
+[[rewrite]]
+matches = "blkvertoval"
+item = ["ellipse", "vertical, filled"]
+
+[[rewrite]]
+matches = "EllipseShadow"
+item = ["ellipse", "shadowed"]
+
+# ------------------------------- boots --------------------------------
+
+[[rewrite]]
+matches = "hiking boot"
+item = ["boot", "hiking"]
+
+[[rewrite]]
+matches = "ski and ski boot"
+item = ["boot", "ski"]
+
+[[rewrite]]
+matches = "womans boots"
+item = ["boot", "multiple"]
+
+# ------------------------ maps (geographical) -------------------------
+
+[[rewrite]]
+matches = "world map"
+item = ["map", "world"]
+
+[[rewrite]]
+matches = "map of Japan"
+item = ["map", "of Japan"]
+
+[[rewrite]]
+matches = "map, marked"
+item = ["map", "marked"]
+
+# --------------------------- diagonal lines ---------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = ["diagdown", "nwseline"]
+item = ["diagonal line", "down"]
+
+[[rewrite]]
+matches = ["diagup", "neswline"]
+item = ["diagonal line", "up"]
+
+[[rewrite]]
+matches = "Neswline"
+item = ["diagonal line", "up, double"]
+
+[[rewrite]]
+matches = "Nwseline"
+item = ["diagonal line", "down, double"]
+
+[[rewrite]]
+matches = [
+    "fdiagovrdiag",
+    "rdiagovfdiag"
+]
+item = ["diagonal line", "two, crossed"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = "ndiagdown"
+item = ["diagonal line", "down, negated"]
+
+[[rewrite]]
+matches = "ndiagup"
+item = ["diagonal line", "up, negated"]
+
+[[rewrite]]
+matches = "nNeswline"
+item = ["diagonal line", "up, double, negated"]
+
+[[rewrite]]
+matches = "nNwseline"
+item = ["diagonal line", "down, double, negated"]
+
+[[rewrite]]
+matches = "nneswline"
+item = ["diagonal line", "up, negated"]
+
+[[rewrite]]
+matches = "nnwseline"
+item = ["diagonal line", "down, negated"]
+
+# ------------------------------- grids --------------------------------
+
+[[rewrite]]
+matches = "topborder"
+item = ["grid", "top"]
+
+[[rewrite]]
+matches = "botborder"
+item = ["grid", "bottom"]
+
+[[rewrite]]
+matches = "lftborder"
+item = ["grid", "left"]
+
+[[rewrite]]
+matches = "rtborder"
+item = ["grid", "right"]
+
+[[rewrite]]
+matches = "empty"
+item = ["grid", "center"]
+
+[[rewrite]]
+matches = "hoshi"
+item = ["grid", "center, with filled circle"]
+
+# ------------------------------ borders -------------------------------
+
+[[rewrite]]
+regex = '^border\s+(.+)$'
+item = ["border", '\1']
+
+[[rewrite]]
+regex = '^([SZ])border$'
+item = ["border", '\1']
+
+[[rewrite]]
+matches = ["decorative borders", "fancy borders"]
+item = ["border", "decorative"]
+
+[[rewrite]]
+matches = "borders"
+item = "border"
+
+# ---------------------------- semicircles -----------------------------
+
+[[rewrite]]
+matches = ["topsemicircle", "botsemicircle"]
+item = "semicircle"
+
+[[rewrite]]
+regex = '^notched (left|right) semicircle with three dots$'
+item = ["semicircle", "notched with three dots"]
+
+[[rewrite]]
+matches = ["opluslhrim", "oplusrhrim"]
+item = ["semicircle", "plus"]
+
+# ------------------------------- locks --------------------------------
+
+[[rewrite]]
+matches = ["locks", "locked"]
+item = "lock"
+
+[[rewrite]]
+regex = 'lock.*with.*(key|pen)'
+item = ["lock", 'with \1']
+
+[[rewrite]]
+matches = ["open lock", "unlocked"]
+item = ["lock", "open"]
+
+# -------------------------- ellipses (dots) ---------------------------
+
+[[rewrite]]
+top_matches = "ellipses (dots)"
+item = ["ellipsis"]
+
+[[rewrite]]
+matches = [
+    "ldots",
+    "textellipsis",
+    "mathellipsis",
+    "baseline horizontal dots (horizontal ellipsis)"
+]
+item = "ellipsis"
+
+[[rewrite]]
+matches = [
+    "cdots",
+    "hdots",
+    "centered horizontal dots (horizontal ellipsis)"
+]
+item = ["ellipsis", "centered"]
+
+[[rewrite]]
+matches = ["ddots", "fixedddots"]
+item = ["ellipsis", "diagonal"]
+
+[[rewrite]]
+matches = [
+    "fixedvdots",
+    "vdots",
+    "tripledot",
+    "vertical dots (vertical ellipsis)"
+]
+item = ["ellipsis", "vertical"]
+
+[[rewrite]]
+matches = ["adots", "iddots", "revddots", "udots"]
+item = ["ellipsis", "anti-diagonal"]
+
+[[rewrite]]
+matches = "ddotdot"
+item = ["ellipsis", "diagonal, two"]
+
+[[rewrite]]
+matches = "udotdot"
+item = ["ellipsis", "anti-diagonal, two"]
+
+[[rewrite]]
+matches = ["vdotdot", "doubledot"]
+item = ["ellipsis", "vertical, two"]
+
+[[rewrite]]
+matches = ["quaddot", "fourvdots"]
+item = ["ellipsis", "vertical, four"]
+
+[[rewrite]]
+matches = "pentdot"
+item = ["ellipsis", "vertical, five"]
+
+[[rewrite]]
+matches = "hdotdot"
+item = ["ellipsis", "centered, two"]
+
+[[rewrite]]
+matches = "enleadertwodots"
+item = ["ellipsis", "two"]
+
+# ----------------------------- other dots -----------------------------
+
+[[rewrite]]
+matches = [
+    "binding dot",
+    "centerdot",
+    "udot"
+]
+item = ["dot", "middle"]
+
+[[rewrite]]
+render_contains = ['(\Dt)', '(\ARUNEeye)']
+item = ["dot", "middle"]
+
+[[rewrite]]
+matches = ["dot", "ldotp"]
+item = ["dot", "lower"]
+
+[[rewrite]]
+matches = "doubleeye"
+item = ["dot", "two"]
+
+[[rewrite]]
+matches = "tripleeye"
+item = ["dot", "three"]
+
+[[rewrite]]
+matches = ["squaredots", "quadeye"]
+item = ["dot", "four"]
+
+[[rewrite]]
+matches = ["fivedots", "penteye"]
+item = ["dot", "five"]
+
+# ------------------------- punctuation marks --------------------------
+
+[[rewrite]]
+matches = "MVPeriod"
+item = "period"
+
+[[rewrite]]
+matches = "textperiodcentered"
+item = ["period", "centered"]
+
+[[rewrite]]
+matches = ["fatsemi", "fcmp", "zcmp"]
+item = ["semicolon", "hollow"]
+
+[[rewrite]]
+matches = [
+    "paragraph",
+    "textparagraph",
+    "textpilcrow",
+    "mathparagraph",
+    "DCd"
+]
+word = "pilcrow"
+
+[[rewrite]]
+render_contains = ['+\P+', '\faParagraph', '\usym{2761}']
+word = "pilcrow"
+
+[[rewrite]]
+render_contains = [
+    '+\S+',
+    '+\wasyparagraph+',
+    '+\Paragraph+',
+    '+\textsection+'
+]
+item = "section mark"
+
+[[rewrite]]
+matches = ["mathsection", "NAK"]
+item = "section mark"
+
+[[rewrite]]
+regex = '^medium (flattened )?(left|right) parenthesis ornament$'
+item = ["parentheses", "dingbat"]
+
+[[rewrite]]
+regex = '^MV(Left|Right)Bracket$'
+item = ["parentheses", "sans serif"]
+
+[[rewrite]]
+matches = ["Lbrack", "Rbrack"]
+item = ["brackets", "blackboard bold"]
+render = 'blackboard bold (\Lbrack \: \Rbrack)'
+
+[[rewrite]]
+matches = ["Langle", "Rangle"]
+item = ["angle brackets", "blackboard bold"]
+render = 'blackboard bold (\Langle \: \Rangle)'
+
+[[rewrite]]
+matches = "hyphen, discretionary"
+item = ["hyphen", "discretionary"]
+
+[[rewrite]]
+matches = "textdblhyphen"
+item = ["hyphen", "double"]
+
+# ------------------------------ bullets -------------------------------
+
+[[rewrite]]
+regex = '^(hyphen|inverse)bullet$'
+item = ["bullet", '\1']
+
+[[rewrite]]
+matches = ["medbullet", "BEL"]
+item = "bullet"
+
+[[rewrite]]
+matches = "sqbullet"
+item = ["bullet", "square"]
+
+[[rewrite]]
+matches = "textopenbullet"
+item = ["bullet", "open"]
+
+[[rewrite]]
+matches = "bullets, as tally markers"
+item = ["bullet", "as tally markers"]
+
+[[rewrite]]
+consider_all_entries = true
+matches = "bullets"
+format_contains = 'hyperindexformat{\see{circles, squares'
+item = ["bullet"]
+seealso = "circle, square, rhombus, etc."
+
+# -------------------------- horizontal lines --------------------------
+
+[[rewrite]]
+matches = ["BigHBar", "HBar", "SmallHBar"]
+item = ["horizontal line", "high"]
+
+[[rewrite]]
+matches = ["leftrightline", "strns"]
+item = ["horizontal line", "middle"]
+
+[[rewrite]]
+matches = "lineh"
+item = ["horizontal line", "low"]
+
+[[rewrite]]
+matches = "linevh"
+item = ["horizontal line", "middle, with vertical line"]
+
+[[rewrite]]
+matches = "CuttingLine"
+item = ["horizontal line", "dashed"]
+
+[[rewrite]]
+matches = "Leftrightline"
+item = ["horizontal line", "middle, double"]
+
+[[rewrite]]
+matches = "nleftrightline"
+item = ["horizontal line", "middle, slashed"]
+
+[[rewrite]]
+matches = ["textdoublebarslash", "nLeftrightline"]
+item = ["horizontal line", "middle, double, slashed"]
+
+# --------------------------- vertical bars ----------------------------
+
+# This rule should precede the following rule
+[[rewrite]]
+render_contains = '(\ARUNEbar)'
+item = ["vertical bar", "short"]
+
+[[rewrite]]
+matches = [
+    "BigVBar",
+    "binding bar",
+    "divides",
+    "light vertical bar",
+    "linev",
+    "mid",
+    "textpipe",
+    "textpipevar",
+    "texttoneletterstem",
+    "textvertline",
+    "updownline",
+    "VBar",
+    "vertoverlay"
+]
+not_render_contains = '\MNSneswline'
+item = "vertical bar"
+
+[[rewrite]]
+render_contains = [
+    '\magicvertname',
+    '(\textbar)',
+    '(\Shfr)'
+]
+item = "vertical bar"
+
+[[rewrite]]
+render_contains = [
+    '\magicVertname',
+    '\FDSYMtVert',
+    '\MNSdVert'
+]
+item = ["vertical bar", "double"]
+
+[[rewrite]]
+matches = [
+    "textbardbl",
+    "textdoublepipe",
+    "textdoublepipevar",
+    "textdoublevertline",
+    "Updownline"
+]
+item = ["vertical bar", "double"]
+
+[[rewrite]]
+matches = [
+    "doublebar",
+    "textbrokenbar",
+    "brokenvert",
+    "splitvert"
+]
+item = ["vertical bar", "split"]
+
+[[rewrite]]
+matches = "triplebar"
+item = ["vertical bar", "split twice"]
+
+[[rewrite]]
+matches = "midcir"
+item = ["vertical bar", "ring under"]
+
+[[rewrite]]
+matches = "nmidcir"
+item = ["vertical bar", "ring under, negated"]
+
+[[rewrite]]
+matches = "cirmid"
+item = ["vertical bar", "ring over"]
+
+[[rewrite]]
+matches = "ncirmid"
+item = ["vertical bar", "ring over, negated"]
+
+[[rewrite]]
+matches = ["textdoublebarpipe", "textdoublebarpipevar"]
+item = ["vertical bar", "equals"]
+
+[[rewrite]]
+matches = ["medvert", "SmallVBar", "shortmid"]
+item = ["vertical bar", "short"]
+
+[[rewrite]]
+matches = ["dotmedvert", "medvertdot"]
+item = ["vertical bar", "short, dotted"]
+
+[[rewrite]]
+matches = [
+    "heavy vertical bar",
+    "medium vertical bar"
+]
+item = ["vertical bar", "heavy"]
+
+[[rewrite]]
+matches = [
+    "nmid",
+    "revnmid",
+    "DividesNot",
+    "ndivides",
+    "notdivides",
+    "nupdownline"
+]
+item = ["vertical bar", "negated"]
+
+[[rewrite]]
+matches = ["nUpdownline", "nhpar"]
+item = ["vertical bar", "double, negated"]
+
+[[rewrite]]
+matches = "nshortmid"
+item = ["vertical bar", "short, negated"]
+
+[[rewrite]]
+matches = "nhVvert"
+item = ["vertical bar", "triple, negated"]
+
+# ---------------------------- curly braces ----------------------------
+
+[[rewrite]]
+regex = '^textbrace(left|right)$'
+item = "braces"
+render = ""
+
+[[rewrite]]
+render_contains = ['+\{+', '+\}+']
+item = "braces"
+render = ""
+
+[[rewrite]]
+regex = '(left|right) curly bracket ornament'
+item = ["braces", "decorative"]
+render = ""
+
+# ------------------------------ slashes -------------------------------
+
+# ... special cases ...
+
+# \faSlash is called "slash", but the glyph is a backslash.
+[[rewrite]]
+render_contains = '(\faSlash)'
+item = "backslash"
+
+# ... regular ...
+
+[[rewrite]]
+matches = [
+    "/",
+    "slash",
+    "mathslash",
+    "medslash",
+    "not",
+    "notchar",
+    "right (forward) slash",
+    "xsol"
+]
+item = "slash"
+
+[[rewrite]]
+render_contains = '(\FDSYMtmathslash)'
+item = "slash"
+
+[[rewrite]]
+matches = ["fracslash", "textfractionsolidus"]
+item = ["slash", "fraction"]
+
+[[rewrite]]
+matches = "sslash"
+item = ["slash", "double"]
+
+[[rewrite]]
+matches = "trslash"
+item = ["slash", "triple"]
+
+[[rewrite]]
+matches = "dsol"
+item = ["slash", "bar over"]
+
+[[rewrite]]
+matches = [
+    "backslash",
+    "textbackslash",
+    "medbackslash",
+    "left (back) slash",
+    "xbsol"
+]
+item = "backslash"
+
+[[rewrite]]
+matches = "fatbslash"
+item = ["backslash", "hollow"]
+
+[[rewrite]]
+matches = "fatslash"
+item = ["slash", "hollow"]
+
+[[rewrite]]
+matches = "centernot"
+item = ["slash", "horizontally centered"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = "notslash"
+item = ["slash", "negated"]
+
+[[rewrite]]
+matches = ["notbackslash", "rsolbar"]
+item = ["backslash", "negated"]
+
+# -------------------- approximately equivalent to ---------------------
+
+[[rewrite]]
+matches = ["approxident", "triplesim", "threesim"]
+item = "approximately equivalent to"
+
+[[rewrite]]
+matches = "backtriplesim"
+item = ["approximately equivalent to", "reversed"]
+
+[[rewrite]]
+matches = ["napproxident", "ntriplesim"]
+item = ["approximately equivalent to", "negated"]
+
+[[rewrite]]
+matches = "nbacktriplesim"
+item = ["approximately equivalent to", "reversed, negated"]
+
+# ----------------------- approximately equal to -----------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = [
+    "approx",
+    "approxeq",
+    "approxeqq",
+    "thickapprox"
+]
+item = "approximately equal to"
+
+[[rewrite]]
+matches = ["backapprox", "backapproxeq"]
+item = ["approximately equal to", "reversed"]
+
+[[rewrite]]
+matches = "approxcolon"
+item = ["approximately equal to", "colon"]
+
+[[rewrite]]
+matches = "approxcoloncolon"
+item = ["approximately equal to", "colon, double"]
+
+[[rewrite]]
+matches = "hatapprox"
+item = ["approximately equal to", "hat"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = [
+    "napprox",
+    "napproxeq",
+    "napproxeqq",
+    "nthickapprox"
+]
+item = ["approximately equal to", "negated"]
+
+[[rewrite]]
+matches = ["nbackapprox", "nbackapproxeq"]
+item = ["approximately equal to", "reversed, negated"]
+
+# --------------------------- parallel lines ---------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = ["parallel", "bigparallel"]
+item = "parallel"
+
+[[rewrite]]
+matches = "shortparallel"
+item = ["parallel", "short"]
+
+[[rewrite]]
+matches = ["varparallel", "parallelslant"]
+item = ["parallel", "slanted"]
+
+[[rewrite]]
+matches = "varparallelinv"
+item = ["parallel", "slanted backward"]
+
+[[rewrite]]
+matches = "parsim"
+item = ["parallel", "similar"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = "nparallel"
+item = ["parallel", "negated"]
+
+[[rewrite]]
+matches = "nshortparallel"
+item = ["parallel", "short, negated"]
+
+[[rewrite]]
+matches = ["nparallelslant", "nvarparallel"]
+item = ["parallel", "slanted, negated"]
+
+[[rewrite]]
+matches = "nvarparallelinv"
+item = ["parallel", "slanted backward, negated"]
+
+# ----------------------------- ampersands -----------------------------
+
+[[rewrite]]
+contains = "&"
+item = "ampersand"
+
+[[rewrite]]
+matches = [
+    "binampersand",
+    "with",
+    "bigwith",
+    "additive and",
+    "quantified additive and"
+]
+item = "ampersand"
+
+[[rewrite]]
+matches = [
+    "upand",
+    "invamp",
+    "biginvamp",
+    "bindnasrepma",
+    "parr",
+    "bigparr",
+    "multiplicitive or",     # Note spelling error.
+    "quantified multiplicative or"
+]
+item = ["ampersand", "inverted"]
+
+# --------------------------- set membership ---------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = ["in", "smallin"]
+not_render_contains = '\EO'
+item = "set membership"
+
+[[rewrite]]
+matches = ["isins", "varisins"]
+item = ["set membership", "short vertical bar"]
+
+[[rewrite]]
+matches = "inplus"
+item = ["set membership", "plus"]
+
+[[rewrite]]
+matches = ["isinobar", "varisinobar", "barin"]
+item = ["set membership", "bar over"]
+
+[[rewrite]]
+matches = "isinvb"
+item = ["set membership", "bar under"]
+
+[[rewrite]]
+matches = "disin"
+item = ["set membership", "extended horizontal line"]
+
+[[rewrite]]
+matches = "isindot"
+item = ["set membership", "dot"]
+
+[[rewrite]]
+matches = "isinE"
+item = ["set membership", "equal"]
+
+# ... reversed ...
+
+[[rewrite]]
+matches = [
+    "ni",
+    "smallni",
+    "owns",
+    "smallowns",
+    "set owns element"
+]
+not_render_contains = '\EO'
+item = ["set membership", "reversed"]
+
+[[rewrite]]
+matches = ["nis", "varnis"]
+item = ["set membership", "reversed, short vertical bar"]
+
+[[rewrite]]
+matches = "niplus"
+item = ["set membership", "reversed, plus"]
+
+[[rewrite]]
+matches = ["niobar", "varniobar"]
+item = ["set membership", "reversed, bar over"]
+
+[[rewrite]]
+matches = "ownsbar"
+item = ["set membership", "reversed, bar under"]
+
+[[rewrite]]
+matches = "nisd"
+item = ["set membership", "reversed, extended horizontal line"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = [
+    "nin",
+    "notin",
+    "varnotin",
+    "notsmallin",
+    "set membership negated"
+]
+item = ["set membership", "negated"]
+
+[[rewrite]]
+matches = "nvarisinobar"
+item = ["set membership", "bar over, negated"]
+
+# ... negated and reversed ...
+
+[[rewrite]]
+matches = [
+    "nni",
+    "notni",
+    "notowner",
+    "varnotowner",
+    "notsmallowns",
+    "nowns",
+    "set owns element negated"
+]
+item = ["set membership", "reversed, negated"]
+
+[[rewrite]]
+matches = "nvarniobar"
+item = ["set membership", "reversed, negated, bar over"]
+
+# ------------------------------- exists -------------------------------
+
+[[rewrite]]
+matches = [
+    "exists",
+    "bigexists",
+    "existential bunch quantifier",
+    "existential individual quantifier"
+]
+item = "exists"
+
+[[rewrite]]
+matches = [
+    "hidden existential bunch quantifier",
+    "hidden existential individual quantifier"
+]
+item = ["exists", "tilde"]
+
+[[rewrite]]
+matches = [
+    "unique existential bunch quantifier",
+    "unique existential individual quantifier"
+]
+item = ["exists", "exclamation point"]
+
+[[rewrite]]
+matches = [
+    "nexists",
+    "existential bunch quantifier negation",
+    "existential individual quantifier negation"
+]
+item = ["exists", "negated"]
+
+# ----------------------------- pentagons ------------------------------
+
+[[rewrite]]
+matches = [
+    "pentago",
+    "pentagon",
+    "pentagons",
+    "rightpentagon"
+]
+item = "pentagon"
+
+[[rewrite]]
+matches = [
+    "pentagofill",
+    "pentagonblack",
+    "rightpentagonblack"
+]
+item = ["pentagon", "filled"]
+
+[[rewrite]]
+regex = '^pentagofillh[ablr]$'
+item = ["pentagon", "half filled"]
+
+[[rewrite]]
+matches = "pentagocross"
+item = ["pentagon", "crossed"]
+
+[[rewrite]]
+matches = "pentagodot"
+item = ["pentagon", "dotted"]
+
+[[rewrite]]
+matches = "pentagolineh"
+item = ["pentagon", "horizontally divided"]
+
+[[rewrite]]
+matches = "pentagolinev"
+item = ["pentagon", "vertically divided"]
+
+[[rewrite]]
+matches = "pentagolinevh"
+item = ["pentagon", "quartered"]
+
+[[rewrite]]
+matches = "DEL"
+item = ["pentagon", "irregular"]
+
+# ------------------------------ hexagons ------------------------------
+
+[[rewrite]]
+matches = [
+    "hexago",
+    "hexagon",
+    "hexagons",
+    "varhexagon"
+]
+item = "hexagon"
+
+[[rewrite]]
+matches = [
+    "hexagofill",
+    "hexagonblack",
+    "varhexagonblack"
+]
+item = ["hexagon", "filled"]
+
+[[rewrite]]
+regex = '^hexagofillh[ablr]$'
+item = ["hexagon", "half filled"]
+
+[[rewrite]]
+matches = "hexagocross"
+item = ["hexagon", "crossed"]
+
+[[rewrite]]
+matches = "hexagodot"
+item = ["hexagon", "dotted"]
+
+[[rewrite]]
+matches = "hexagolineh"
+item = ["hexagon", "horizontally divided"]
+
+[[rewrite]]
+matches = "hexagolinev"
+item = ["hexagon", "vertically divided"]
+
+[[rewrite]]
+matches = "hexagolinevh"
+item = ["hexagon", "quartered"]
+
+[[rewrite]]
+matches = "varhexagonlrbonds"
+item = ["hexagon", "with chemical bonds"]
+
+# -------------------------- logical negation --------------------------
+
+[[rewrite]]
+matches = [
+    "neg",
+    "lnot",
+    "textlnot",
+    "bitwise not operator/logical negation"
+]
+item = "logical negation"
+
+[[rewrite]]
+matches = ["turnedneg", "intprod"]
+item = ["logical negation", "inverted"]
+
+[[rewrite]]
+top_matches = "inverted negation"
+item = ["logical negation", "inverted"]
+
+[[rewrite]]
+matches = ["backneg", "invnot"]
+item = ["logical negation", "reversed"]
+
+[[rewrite]]
+matches = ["invbackneg", "turnedbackneg", "intprodr"]
+item = ["logical negation", "reversed and inverted"]
+
+[[rewrite]]
+render_contains = '(\STIXturnednot)'
+item = ["logical negation", "reversed and inverted"]
+
+[[rewrite]]
+render_contains = [
+    '($\invneg$)',
+    '(\FDSYMinvneg)'
+]
+item = ["logical negation", "reversed"]
+
+[[rewrite]]
+render_contains = [
+    '(\MNSinvneg)',
+    '(\FDSYMturnednot)'
+]
+item = ["logical negation", "inverted"]
+
+[[rewrite]]
+matches = "dotted negation"
+item = ["logical negation", "dotted"]
+
+[[rewrite]]
+matches = "Not"
+item = ["logical negation", "double bar"]
+
+[[rewrite]]
+matches = "bNot"
+item = ["logical negation", "double bar, reversed"]
+
+[[rewrite]]
+matches = "classical logical negation"
+item = ["logical negation", "classical"]
+
+# -------------------------- proportionality ---------------------------
+
+[[rewrite]]
+matches = ["propto", "varpropto", "wasypropto", "leftpropto"]
+item = "proportionality"
+
+[[rewrite]]
+matches = ["propfrom", "backpropto", "rightpropto"]
+item = ["proportionality", "reversed"]
+
+[[rewrite]]
+matches = "uppropto"
+item = ["proportionality", "down"]
+
+[[rewrite]]
+matches = "downpropto"
+item = ["proportionality", "up"]
+
+[[rewrite]]
+matches = "hbipropto"
+item = ["proportionality", "bidirectional"]
+
+[[rewrite]]
+matches = "vbipropto"
+item = ["proportionality", "bidirectional, vertical"]
+
+[[rewrite]]
+matches = ["neswbipropto", "nwsebipropto"]
+item = ["proportionality", "bidirectional, diagonal"]
+
+# ----------------------------- infinities -----------------------------
+
+[[rewrite]]
+matches = "infty"
+item = "infinity"
+
+[[rewrite]]
+matches = "iinfin"
+item = ["infinity", "incomplete"]
+
+[[rewrite]]
+matches = "tieinfty"
+item = ["infinity", "tie over"]
+
+[[rewrite]]
+matches = "nvinfty"
+item = ["infinity", "negated"]
+
+# ------------------------------- dashes -------------------------------
+
+# Distinguish a dashing emoji from punctuation-mark dashes.
+[[rewrite]]
+render_contains = '\usym{1F4A8}'
+item = "dashing away"
+
+[[rewrite]]
+render_regex = '\\text(em|en)dash'
+item = ["dash (punctuation mark)", '\1']
+
+[[rewrite]]
+matches = "textthreequartersemdash"
+item = ["dash (punctuation mark)", "three quarters em"]
+
+[[rewrite]]
+matches = "texttwelveudash"
+item = ["dash (punctuation mark)", "twelve u"]
+
+# ------------------------------- steel --------------------------------
+
+[[rewrite]]
+regex = '^Rounded([A-Z]+)steel'
+item = ["steel", 'rounded \1']
+
+[[rewrite]]
+regex = '^([A-Z]+)steel'
+item = ["steel", '\1']
+
+[[rewrite]]
+matches = "Circsteel"
+item = ["steel", "circular"]
+
+[[rewrite]]
+matches = "Rectsteel"
+item = ["steel", "rectangular"]
+
+[[rewrite]]
+matches = "Hexasteel"
+item = ["steel", "hexagonal"]
+
+[[rewrite]]
+matches = "Octosteel"
+item = ["steel", "octagonal"]
+
+[[rewrite]]
+matches = "Flatsteel"
+item = ["steel", "flat"]
+
+# -------------------------------- nibs --------------------------------
+
+# This looks like a pen to me.
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = '\twemoji{2712}'
+item = "pen"
+
+[[rewrite]]
+matches = ["nibs", "faPenNib"]
+item = "nib"
+
+[[rewrite]]
+regex = '^(black|white)\s+nib'
+item = 'nib'
+
+[[rewrite]]
+regex = '^Nib.*(Left|Right)'
+item = 'nib'
+
+[[rewrite]]
+regex = '^man.*nib'
+item = "nib shapes"
+
+# --------------------------- manfnt symbols ---------------------------
+
+[[rewrite]]
+regex = '^man.*(kidney|quadrifolium)$'
+item = '\1'
+
+[[rewrite]]
+regex = '^man(cone|cube)$'
+item = '\1'
+
+[[rewrite]]
+matches = "manimpossiblecube"
+item = ["cube", "impossible"]
+
+# ------------------------------- medals -------------------------------
+
+[[rewrite]]
+matches = "1st place medal"
+item = ["medal", "gold"]
+
+[[rewrite]]
+matches = "2nd place medal"
+item = ["medal", "silver"]
+
+[[rewrite]]
+matches = "3rd place medal"
+item = ["medal", "bronze"]
+
+[[rewrite]]
+regex = '^(.+\S)\s+medal$'
+item = ["medal", '\1']
+
+# ----------------------------- keyboards ------------------------------
+
+[[rewrite]]
+contains = "musical keyboard"
+item = ["keyboard", "musical"]
+
+[[rewrite]]
+matches = [
+    "Keyboard",
+    "keyboard",
+    "wired keyboard",
+    "tiKeyboard"
+]
+item = ["keyboard", "computer"]
+
+[[rewrite]]
+prefix = "faKeyboard"
+item = ["keyboard", "computer"]
+
+[[rewrite]]
+matches = "keyboard and mouse"
+item = ["keyboard", "computer, with mouse"]
+
+# ------------------------------ speakers ------------------------------
+
+# This rule should appear before the generic speaker rule.
+[[rewrite]]
+matches = [
+    "speaker",
+    "muted speaker",
+    "speaker with cancellation stroke",
+    "speaker low volume",
+    "volume",
+    "volume off",
+    "right speaker"
+]
+item = ["speaker", "muted"]
+
+[[rewrite]]
+matches = [
+    "speaker medium volume",
+    "volume down",
+    "speaker with one sound wave",
+    "right speaker with one sound wave"
+]
+item = ["speaker", "volume down"]
+
+[[rewrite]]
+matches = [
+    "speaker high volume",
+    "volume up",
+    "speaker with three sound waves",
+    "right speaker with three sound waves"
+]
+item = ["speaker", "volume up"]
+
+# --------------------------- media symbols ----------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+regex = '^(tiMedia.+)Outline$'
+item = '\1'
+continue = true
+
+[[rewrite]]
+matches = [
+    "forward",
+    "fast forward",
+    "tiMediaFastForward",
+    "fast-forward button",
+    "faFastForward",
+    "next track button",
+    "step forward"
+]
+item = ["media control symbols", "forward"]
+
+[[rewrite]]
+prefix = "Forward"
+item = ["media control symbols", "forward"]
+
+[[rewrite]]
+matches = [
+    "rewind",
+    "backward",
+    "step backward",
+    "tiMediaPlayReverse",
+    "tiMediaRewind"
+]
+item = ["media control symbols", "reverse"]
+
+[[rewrite]]
+matches = "tiMediaPlay"
+item = ["media control symbols", "play"]
+
+[[rewrite]]
+regex = '^tiMedia(.+)'
+lowercase_item = true
+item = ["media control symbols", '\1']
+
+[[rewrite]]
+prefix = [
+    "Rewind",
+    "fast reverse",
+    "fast backward",
+    "faFastBackward",
+]
+item = ["media control symbols", "reverse"]
+
+[[rewrite]]
+matches = [
+    "reverse button",
+    "last track button",
+    "play reverse"
+]
+item = ["media control symbols", "reverse"]
+
+[[rewrite]]
+matches = "play"
+not_render_contains = "EOPlay"
+item = ["media control symbols", "play"]
+
+[[rewrite]]
+matches = "play or pause button"
+item = ["media control symbols", "play or pause"]
+
+[[rewrite]]
+matches = "play button"
+item = ["media control symbols", "play"]
+
+[[rewrite]]
+matches = [
+    "ToBottom",
+    "fast down button",
+    "downwards button"
+]
+item = ["media control symbols", "down"]
+
+[[rewrite]]
+matches = [
+    "ToTop",
+    "fast up button",
+    "upwards button"
+]
+item = ["media control symbols", "up"]
+
+[[rewrite]]
+matches = [
+    "stop",
+    "stop button",
+]
+item = ["media control symbols", "stop"]
+
+[[rewrite]]
+render_contains = '\faStop'
+item = ["media control symbols", "stop"]
+
+[[rewrite]]
+matches = "adjust"
+item = "adjust contrast"
+
+# --------------------- speech and thought bubbles ---------------------
+
+# ... speech bubbles ...
+
+[[rewrite]]
+matches = "eye in speech bubble"
+item = ["speech bubble", "eye"]
+
+[[rewrite]]
+matches = ["two speech bubbles", "three speech bubbles"]
+item = ["speech bubble", "multiple"]
+
+[[rewrite]]
+render_contains = '\usym{1F4AC}'
+item = ["speech bubble", "text"]
+
+[[rewrite]]
+render_contains = '\twemoji{1f4ac}'
+item = ["speech bubble", "ellipsis"]
+
+[[rewrite]]
+contains = "anger bubble"
+item = ["speech bubble", "angry"]
+
+# This rule should follow all of the speech-balloon special cases.
+[[rewrite]]
+contains = ["speech bubble", "speech balloon"]
+item = "speech bubble"
+
+# ... thought bubbles ...
+
+[[rewrite]]
+render_contains = '\usym{1F4AD}'
+item = ["thought bubble", "text"]
+
+[[rewrite]]
+contains = "thought bubble"
+item = "thought bubble"
+
+[[rewrite]]
+matches = "thought balloon"
+item = "thought bubble"
+
+# --------------------------- database joins ---------------------------
+
+[[rewrite]]
+matches = "Join"
+item = ["join (database)", "natural"]
+
+[[rewrite]]
+regex = '^(left|right|full)outerjoin$'
+item = ["join (database)", '\1 outer']
+
+[[rewrite]]
+matches = "lJoin"
+item = ["join (database)", "left"]
+
+[[rewrite]]
+matches = "rJoin"
+item = ["join (database)", "right"]
+
+[[rewrite]]
+matches = "openJoin"
+item = ["join (database)", "open"]
+
+# ------------------------------- moons --------------------------------
+
+[[rewrite]]
+matches = "moons"
+item = "moon"
+
+[[rewrite]]
+render_contains = '(\Moon)'
+item = ["moon", "crescent"]
+
+[[rewrite]]
+matches = "newmoon"
+item = ["moon", "new"]
+
+[[rewrite]]
+render_contains = '\MoonPha{1}'
+item = ["moon", "new"]
+
+[[rewrite]]
+matches = ["rightmoon", "night"]
+item = ["moon", "first quarter"]
+
+[[rewrite]]
+render_contains = ['(\STARMoon)', '\MoonPha{2}']
+item = ["moon", "first quarter"]
+
+[[rewrite]]
+matches = "fullmoon"
+item = ["moon", "full"]
+
+[[rewrite]]
+render_contains = '\MoonPha{3}'
+item = ["moon", "full"]
+
+[[rewrite]]
+matches = ["leftmoon", "varMoon"]
+item = ["moon", "last quarter"]
+
+[[rewrite]]
+render_contains = ['($\ABXleftmoon$)', '\MoonPha{4}']
+item = ["moon", "last quarter"]
+
+[[rewrite]]
+regex = '^(.*(crescent|gibbous|quarter|full|new))\s+moon(?:\s+(face|with face))?$'
+item = ["moon", '\1']
+
+# ------------------------------- colons -------------------------------
+
+[[rewrite]]
+matches = "colon"
+item = "colon"
+
+[[rewrite]]
+matches = ["mathcolon", "ratio", "mathratio"]
+item = ["colon", "math mode"]
+
+[[rewrite]]
+render_contains = '(\TEUBtwodots)'
+item = ["colon", "math mode"]
+
+[[rewrite]]
+matches = ["Colon", "coloncolon", "dblcolon"]
+item = ["colon", "double"]
+
+[[rewrite]]
+matches = "colonapprox"
+item = ["colon", "approximately equal to"]
+
+[[rewrite]]
+matches = ["Colonapprox", "coloncolonapprox"]
+item = ["colon", "double, approximately equal to"]
+
+[[rewrite]]
+matches = "colonsim"
+item = ["colon", "similar to"]
+
+[[rewrite]]
+matches = ["Colonsim", "coloncolonsim"]
+item = ["colon", "double, similar to"]
+
+[[rewrite]]
+matches = "colonminus"
+item = ["colon", "minus"]
+
+[[rewrite]]
+render_contains = [
+    '($\MTOOLScoloneq$)',
+    '($\coloneq$)'
+]
+item = ["colon", "minus"]
+
+[[rewrite]]
+matches = "coloncolonminus"
+item = ["colon", "double, minus"]
+
+[[rewrite]]
+render_contains = [
+    '($\Coloneq$)',
+    '($\MTOOLSColoneq$)'
+]
+item = ["colon", "double, minus"]
+
+[[rewrite]]
+matches = ["colonequals", "coloneqq", "defines"]
+item = ["colon", "equals"]
+
+[[rewrite]]
+render_contains = [
+    '($\ABXcoloneq$)',
+    '(\FDSYMcoloneq)',
+    '(\MNScoloneq)',
+    '(\STIXcoloneq)'
+]
+item = ["colon", "equals"]
+
+[[rewrite]]
+matches = ["coloncolonequals", "Coloneqq"]
+item = ["colon", "double, equals"]
+
+[[rewrite]]
+render_contains = '(\STIXColoneq)'
+item = ["colon", "double, equals"]
+
+[[rewrite]]
+render_contains = ['\STIXthreedotcolon', '\TEUBthreedots']
+item = ["colon", "three dot"]
+
+[[rewrite]]
+render_contains = '\TEUBfourdots'
+item = ["colon", "four dot"]
+
+[[rewrite]]
+matches = "typecolon"
+item = ["colon", "hollow"]
+
+[[rewrite]]
+matches = "vcentcolon"
+item = ["colon", "vertically centered"]
+
+# --------------------------- multiplication ---------------------------
+
+[[rewrite]]
+render_contains = '(\tiTimesOutline)'
+item = ["times", "hollow"]
+
+[[rewrite]]
+render_contains = [
+    '(\faTimes)',
+    '(\tiTimes)',
+    '(\twemoji{2715})',
+    '(\usym{2715})',
+    '(\twemoji{2716})',
+    '(\usym{2716})',
+    '(\MVMultiplication)'
+]
+item = ["times", "decorative"]
+
+[[rewrite]]
+compare_lowercase = true
+top_matches = [
+    "times",
+    "multiply",
+    "multiplication X",
+    "opentimes",
+    "texttimes",
+    "vartimes"
+]
+item = "times"
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = ['(\FDSYMbtimes)', '(\STIXbtimes)']
+item = ["times", "closed bottom"]
+
+[[rewrite]]
+matches = "timesbar"
+item = ["times", "underbar"]
+
+[[rewrite]]
+matches = "bigtimes"
+item = ["times", "big"]
+
+[[rewrite]]
+matches = ["dottimes", "dotted times"]
+item = ["times", "dotted"]
+
+[[rewrite]]
+matches = ["lftimes", "ltimesblack"]
+item = ["times", "filled left"]
+
+[[rewrite]]
+matches = ["rftimes", "rtimesblack"]
+item = ["times", "filled right"]
+
+[[rewrite]]
+matches = "udtimes"
+item = ["times", "closed top and bottom"]
+
+[[rewrite]]
+matches = "lrtimes"
+item = ["times", "closed left and right"]
+
+[[rewrite]]
+matches = "dtimes"
+item = ["times", "closed bottom"]
+
+[[rewrite]]
+matches = "ltimes"
+item = ["times", "closed left"]
+
+[[rewrite]]
+matches = ["ttimes", "utimes"]
+item = ["times", "closed top"]
+
+[[rewrite]]
+matches = "rtimes"
+item = ["times", "closed right"]
+
+[[rewrite]]
+matches = "otimeslhrim"
+item = ["times", "half rim, left"]
+
+[[rewrite]]
+matches = "otimesrhrim"
+item = ["times", "half rim, right"]
+
+[[rewrite]]
+matches = "vectimes"
+item = ["times", "vector"]
+
+[[rewrite]]
+matches = "doublestar"
+item = ["times", "double"]
+
+# ------------------------------ division ------------------------------
+
+[[rewrite]]
+render_contains = [
+    '(\faDivide)',
+    '(\tiDivide)',
+    '{2797}'
+]
+item = ["division", "dingbat"]
+
+[[rewrite]]
+render_contains = '(\tiDivideOutline)'
+item = ["division", "hollow"]
+
+[[rewrite]]
+matches = [
+    "div",
+    "divide",
+    "division",
+    "Divides",
+    "divslash",
+    "smalldivslash",
+    "textdiv",
+    "MVDivision"
+]
+item = "division"
+
+[[rewrite]]
+matches = ["slashdiv", "backslashdiv"]
+item = ["division", "diagonal"]
+
+[[rewrite]]
+matches = "vertdiv"
+item = ["division", "vertical"]
+
+[[rewrite]]
+matches = "longdivision"
+item = ["division", "long"]
+
+[[rewrite]]
+matches = ["divdot", "dotdiv"]
+item = ["division", "single dot"]
+
+[[rewrite]]
+matches = "divideontimes"
+item = ["division", "times"]
+
+# ------------- check boxes, check marks, and cross marks --------------
+
+# ... check boxes ...
+
+# The check-box rules should appear before the check-mark rules.
+# These rules should also precede the "circled symbols" rules.
+
+[[rewrite]]
+matches = ["ballot box", "HollowBox"]
+item = ["check box", "empty"]
+
+[[rewrite]]
+matches = [
+    "ballot box with check",
+    "ballot box with bold check",
+    "CheckedBox",
+    "Checkedbox",
+    "faCheckSquare[regular]"
+]
+item = ["check box", "checked"]
+
+[[rewrite]]
+render_contains = [
+    "tiInputChecked",
+    "tiInputCheckedOutline"
+]
+item = ["check box", "checked"]
+
+[[rewrite]]
+matches = "faCheckCircle[regular]"
+item = ["check box", "checked, circular"]
+
+[[rewrite]]
+matches = "faCheckCircle"
+item = ["check box", "checked, circular, filled"]
+
+[[rewrite]]
+matches = "faCheckSquare"
+item = ["check box", "checked, filled"]
+
+[[rewrite]]
+render_contains = '\twemoji{2611}'
+item = ["check box", "checked, blue"]
+
+[[rewrite]]
+render_contains = '\twemoji{2705}'
+item = ["check box", "checked, green"]
+
+[[rewrite]]
+regex = '^ballot box with.*x$'
+item = ["check box", "crossed"]
+
+[[rewrite]]
+matches = ["XBox", "CrossedBox", "Crossedbox"]
+item = ["check box", "crossed"]
+
+[[rewrite]]
+matches = "faTimesCircle"
+item = ["check box", "crossed, circular, filled"]
+
+[[rewrite]]
+matches = "faTimesCircle[regular]"
+item = ["check box", "crossed, circular"]
+
+[[rewrite]]
+render_contains = '\twemoji{274e}'
+item = ["check box", "crossed, green"]
+
+# ... check marks ...
+
+[[rewrite]]
+matches = [
+    "check marks",
+    "ballot bold script x",
+    "ballot script x",
+    "ballot X",
+    "ballotx"
+]
+item = "check mark"
+
+[[rewrite]]
+matches = "faCheckDouble"
+item = ["check mark", "double"]
+
+[[rewrite]]
+render_contains = [
+    '\tiTickOutline',
+    '\usym{2705}'
+]
+item = ["check mark", "hollow"]
+
+[[rewrite]]
+matches = ["ballotcheck", "faCheck"]
+item = "check mark"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(check|tick).*(mark|box)'
+not_matches = "check marks"
+item = "check mark"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "checked"
+item = "check mark"
+
+[[rewrite]]
+matches = [
+    "heavy check mark",
+    "light check mark"
+]
+item = "check mark"
+
+# ... cross marks ...
+
+# These rules must precede the "cross (crucifix)" rules.
+
+[[rewrite]]
+render_contains = '\twemoji{274c}'
+item = ["cross mark", "red"]
+
+[[rewrite]]
+render_contains = [
+    '(\ifsCross)',
+    '(\textifsymbol[ifgeo]{14})',
+    '(\ARUNEcross)'
+]
+item = "cross mark"
+
+[[rewrite]]
+matches = [
+    "BigCross",
+    "Xs",
+    "SmallCross",
+    "heavy ballot X",
+    "cancellation x"
+]
+item = "cross mark"
+
+[[rewrite]]
+regex = '^(double|triple)cross$'
+item = ["cross mark", '\1']
+
+[[rewrite]]
+prefix = "XSolid"
+item = "cross mark"
+
+[[rewrite]]
+matches = "negative squared cross mark"
+item = ["cross mark", "white on black"]
+
+# --------------------------- glottal stops ----------------------------
+
+[[rewrite]]
+prefix = "textglotstop"
+item = "glottal stop"
+
+[[rewrite]]
+matches = ["invglotstop", "textinvglotstop"]
+item = ["glottal stop", "inverted"]
+
+[[rewrite]]
+matches = ["revglotstop", "textrevglotstop"]
+item = ["glottal stop", "reversed"]
+
+[[rewrite]]
+matches = "textbarglotstop"
+item = ["glottal stop", "barred"]
+
+[[rewrite]]
+matches = "textbarrevglotstop"
+item = ["glottal stop", "reversed, barred"]
+
+[[rewrite]]
+matches = "textcrinvglotstop"
+item = ["glottal stop", "inverted, barred"]
+
+[[rewrite]]
+matches = "textctinvglotstop"
+item = ["glottal stop", "inverted, with tail"]
+
+[[rewrite]]
+matches = "textraiseglotstop"
+item = ["glottal stop", "raised"]
+
+[[rewrite]]
+matches = "textturnglotstop"
+item = ["glottal stop", "inverted, reversed"]
+
+# --------------------------- food and drink ---------------------------
+
+# ... food ...
+
+[[rewrite]]
+matches = "aubergine"
+item = "eggplant"
+
+[[rewrite]]
+prefix = "curry"
+item = "curry"
+
+[[rewrite]]
+matches = "cooked rice"
+item = "rice bowl"
+
+[[rewrite]]
+matches = ["ear of rice",  "sheaf of rice"]
+item = "rice sheaf"
+
+[[rewrite]]
+contains = "ice cream"
+item = "ice cream"
+
+[[rewrite]]
+matches = "cheese wedge"
+item = "cheese"
+
+[[rewrite]]
+contains = "pizza"
+item = "pizza"
+
+# This rule should precede the following one.
+# (Despite being called "steaming bowl", no steam lines are drawn.)
+[[rewrite]]
+render_contains = '\twemoji{1f35c}'
+item = ["bowl", "with chopsticks"]
+
+[[rewrite]]
+matches = ["steaming", "steaming bowl"]
+item = ["bowl", "steaming"]
+
+# ... drink ...
+
+[[rewrite]]
+matches = ["coffee", "Coffeecup"]
+item = ["cup", "coffee"]
+
+[[rewrite]]
+matches = "cup with straw"
+item = ["cup", "with straw"]
+
+[[rewrite]]
+regex = '^wine\s+(.+)$'
+not_contains = "bottle"
+item = "wine"
+
+[[rewrite]]
+matches = "bottle with popping cork"
+item = ["bottle", "champagne"]
+
+[[rewrite]]
+regex = '^(.*)\s+bottle$'
+item = ["bottle", '\1']
+
+[[rewrite]]
+matches = "beer"
+item = "beer mug"
+
+[[rewrite]]
+matches = "clinking beer mugs"
+item = ["beer mug", "two, clinking"]
+
+[[rewrite]]
+matches = "clinking glasses"
+item = ["glasses", "clinking"]
+
+[[rewrite]]
+matches = "cocktail glass"
+item = "cocktail"
+
+[[rewrite]]
+matches = "glass of milk"
+item = "glass"
+
+# ------------------ smiles and frowns (mathematical) ------------------
+
+[[rewrite]]
+matches = ["smile symbols", "frown symbols"]
+item = "smiles and frowns"
+
+[[rewrite]]
+regex = '^(?:small)?(smile|frown)$'
+item = "smiles and frowns"
+
+[[rewrite]]
+matches = ["scoh", "sincoh"]
+item = "smiles and frowns"
+
+[[rewrite]]
+matches = [
+    "smile (bottom) and frowm (top)",   # sic
+    "frown (bottom) and smile (top)",
+    "smilefrown",
+    "frownsmile",
+    "sqsmilefrown",
+    "sqfrownsmile",
+    "coh",
+    "incoh"
+]
+item = ["smiles and frowns", "both"]
+
+[[rewrite]]
+matches = [
+    "nfrownsmile",
+    "nsmilefrown",
+    "nsqfrownsmile",
+    "nsqsmilefrown"
+]
+item = ["smiles and frowns", "both, negated"]
+
+[[rewrite]]
+matches = [
+    "frowneqsmile",
+    "frownsmileeq",
+    "smileeqfrown",
+    "smilefrowneq",
+    "sqfrowneqsmile",
+    "sqsmileeqfrown"
+]
+item = ["smiles and frowns", "both, equals"]
+
+[[rewrite]]
+matches = [
+    "nfrowneqsmile",
+    "nfrownsmileeq",
+    "nsmileeqfrown",
+    "nsmilefrowneq",
+    "nsqfrowneqsmile",
+    "nsqsmileeqfrown"
+]
+item = ["smiles and frowns", "both, equals, negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?(smile|frown)$'
+item = "smiles and frowns"
+
+[[rewrite]]
+regex = '^n(?:sq)?(smile|frown)$'
+item = ["smiles and frowns", "negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?(smile|frown)eq$'
+item = ["smiles and frowns", "equals"]
+
+[[rewrite]]
+regex = '^n(?:sq)?(smile|frown)eq$'
+item = ["smiles and frowns", "equals, negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?eq(smile|frown)$'
+item = ["smiles and frowns", "equals"]
+
+[[rewrite]]
+regex = '^n(?:sq)?eq(smile|frown)$'
+item = ["smiles and frowns", "equals, negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?double(smile|frown)$'
+item = ["smiles and frowns", "double"]
+
+[[rewrite]]
+regex = '^n(?:sq)?double(smile|frown)$'
+item = ["smiles and frowns", "double, negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?double(smile|frown)eq$'
+item = ["smiles and frowns", "double, equals"]
+
+[[rewrite]]
+regex = '^n(?:sq)?double(smile|frown)eq$'
+item = ["smiles and frowns", "double, equals, negated"]
+
+[[rewrite]]
+regex = '^(?:sq)?triple(smile|frown)$'
+item = ["smiles and frowns", "triple"]
+
+[[rewrite]]
+regex = '^n(?:sq)?triple(smile|frown)$'
+item = ["smiles and frowns", "triple, negated"]
+
+# ---------------------------- equivalences ----------------------------
+
+[[rewrite]]
+matches = [
+    "Equiv",
+    "equiv",
+    "Equivalence",
+    "Congruent"
+]
+item = "equivalence"
+
+[[rewrite]]
+matches = "equivclosed"
+item = ["equivalence", "closed"]
+
+[[rewrite]]
+matches = ["equivDD", "dotequiv"]
+item = ["equivalence", "with dots"]
+
+[[rewrite]]
+matches = [
+    "equivVert",
+    "equivVvert",
+    "NotCongruent"
+]
+item = ["equivalence", "with vertical lines"]
+
+[[rewrite]]
+matches = "eqvparsl"
+item = ["equivalence", "parallel slanted"]
+
+[[rewrite]]
+matches = [
+    "nequiv",
+    "notequiv",
+    "not classical equivalence"
+]
+item = ["equivalence", "negated"]
+
+[[rewrite]]
+matches = "nequivclosed"
+item = ["equivalence", "closed, negated"]
+
+[[rewrite]]
+regex = '^(.+?)\s+equivalence'
+item = ["equivalence", '\1']
+
+# --------------------- entailment and implication ---------------------
+
+# This section should appear after "equivalences".
+
+[[rewrite]]
+matches = "entailment"
+item = "entailment"
+
+[[rewrite]]
+regex = '^(.+?)\s+entailment'
+item = ["entailment", '\1']
+
+[[rewrite]]
+matches = "implication"
+item = "implication"
+
+[[rewrite]]
+regex = '^(.+?)\s+implication'
+item = ["implication", '\1']
+
+# ----------------------------- empty sets -----------------------------
+
+[[rewrite]]
+matches = [
+    "empty/null set",
+    "empty set",
+    "emptyset",
+    "varnothing"
+]
+item = "empty set"
+
+[[rewrite]]
+matches = "emptysetoarr"
+item = ["empty set", "with right arrow"]
+
+[[rewrite]]
+matches = "emptysetoarrl"
+item = ["empty set", "with left arrow"]
+
+[[rewrite]]
+matches = "emptysetobar"
+item = ["empty set", "with bar"]
+
+[[rewrite]]
+matches = "emptysetocirc"
+item = ["empty set", "with circle"]
+
+[[rewrite]]
+matches = "revemptyset"
+item = ["empty set", "reversed"]
+
+# ------------------------- exclamation points -------------------------
+
+[[rewrite]]
+matches = [
+    "red exclamation mark",
+    "heavy exclamation mark",
+    "heavy exclamation mark ornament",
+    "white exclamation mark",
+    "white exclamation mark ornament"
+]
+item = "exclamation point"
+
+[[rewrite]]
+matches = ["Exclam", "double exclamation mark", "DCc"]
+item = ["exclamation point", "double"]
+
+[[rewrite]]
+matches = "exclamation question mark"
+item = ["exclamation point", "and question mark"]
+
+[[rewrite]]
+matches = "textexclamdown"
+item = ["exclamation point", "upside-down"]
+
+# --------------------------- question marks ---------------------------
+
+[[rewrite]]
+matches = [
+    "black question mark ornament",
+    "white question mark ornament",
+    "white question mark",
+    "faQuestion"
+]
+item = "question mark"
+
+[[rewrite]]
+matches = "Question"
+item = ["question mark", "double"]
+
+[[rewrite]]
+matches = "textquestiondown"
+item = ["question mark", "upside down"]
+
+# -------------------------- quotation marks ---------------------------
+
+[[rewrite]]
+matches = "quotesinglbase"
+item = ["quotation marks", "single right base"]
+
+[[rewrite]]
+matches = "quotedblbase"
+item = ["quotation marks", "double right base"]
+
+[[rewrite]]
+matches = ["textquotesingle", "single quote"]
+item = ["quotation marks", "straight single"]
+
+[[rewrite]]
+matches = ["textquotedbl", "double quote"]
+item = ["quotation marks", "straight double"]
+
+[[rewrite]]
+matches = "triple quote"
+item = ["quotation marks", "straight triple"]
+
+[[rewrite]]
+matches = "textquotestraightbase"
+item = ["quotation marks", "straight single base"]
+
+[[rewrite]]
+matches = "textquotestraightdblbase"
+item = ["quotation marks", "straight double base"]
+
+[[rewrite]]
+regex = '^textquotedbl(left|right)$'
+item = ["quotation marks", 'double \1']
+
+[[rewrite]]
+regex = '^textquote(left|right)$'
+item = ["quotation marks", 'single \1']
+
+[[rewrite]]
+regex = '^faQuote(Left|Right)$'
+lowercase_item = true
+item = ["quotation marks", 'decorative double \1']
+
+[[rewrite]]
+matches = [
+    "heavy double comma quotation mark ornament",
+    "right quotation marks"
+]
+item = ["quotation marks", "decorative double right"]
+
+[[rewrite]]
+matches = [
+    "heavy double turned comma quotation mark ornament",
+    "left quotation marks"
+]
+item = ["quotation marks", "decorative double left"]
+
+[[rewrite]]
+matches = "heavyqtleft"
+item = ["quotation marks", "decorative double left, inverted"]
+
+[[rewrite]]
+matches = "heavyqtright"
+item = ["quotation marks", "decorative double right, inverted"]
+
+[[rewrite]]
+matches = "heavy low double comma quotation mark ornament"
+item = ["quotation marks", "decorative double left base"]
+
+[[rewrite]]
+matches = "heavy low single comma quotation mark ornament"
+item = ["quotation marks", "decorative single left base"]
+
+[[rewrite]]
+matches = "heavy single comma quotation mark ornament"
+item = ["quotation marks", "decorative right"]
+
+[[rewrite]]
+matches = "heavy single turned comma quotation mark ornament"
+item = ["quotation marks", "decorative left"]
+
+[[rewrite]]
+matches = "back quote (grave)"
+item = ["quotation marks", "single back"]
+
+[[rewrite]]
+regex = '^guillemet(left|right)$'
+item = ["guillemet", '\1']
+
+[[rewrite]]
+regex = '^guilsingl(left|right)$'
+item = ["guillemet", '\1 single']
+
+[[rewrite]]
+regex = '^heavy (left|right)-pointing angle quotation mark ornament$'
+item = ["guillemet", 'decorative \1 single']
+
+# ------------------------------- leaves -------------------------------
+
+[[rewrite]]
+matches = "leaf fluttering in wind"
+item = ["leaf", "fluttering"]
+
+[[rewrite]]
+matches = "fallen leaf"
+item = ["leaf", "falling"]
+
+[[rewrite]]
+contains = "maple leaf"
+item = ["leaf", "maple"]
+
+[[rewrite]]
+regex = '^adf.*leaf'
+item = ["leaf", "fleuron"]
+
+[[rewrite]]
+matches = ["textleaf", "faLeaf", "tiLeaf", "leaves", "textleaf"]
+item = "leaf"
+
+# -------------------------- dotless i and j ---------------------------
+
+[[rewrite]]
+render_contains = '(\i)'
+item = ["i", "dotless"]
+
+[[rewrite]]
+render_contains = [
+    '($\imath$)',
+    '(\BSKimath)',
+    '(\STIXimath)'
+]
+item = ["i", "dotless, math mode"]
+
+[[rewrite]]
+render_contains = '(\j)'
+item = ["j", "dotless"]
+
+[[rewrite]]
+render_contains = [
+    '($\jmath$)',
+    '(\BSKjmath)',
+    '(\STIXjmath)'
+]
+item = ["j", "dotless, math mode"]
+
+# --------------------------- legal symbols ----------------------------
+
+[[rewrite]]
+compare_lowercase = true
+contains = "copyright"
+item = ["legal symbols", "copyright"]
+
+[[rewrite]]
+matches = "ccCopy"
+item = ["legal symbols", "copyright"]
+
+[[rewrite]]
+contains = "copyleft"
+item = ["legal symbols", "copyleft"]
+
+[[rewrite]]
+prefix = ["textregistered", "faRegistered", "registered"]
+item = ["legal symbols", "registered trademark"]
+
+[[rewrite]]
+matches = [
+    "trademark",
+    "texttrademark",
+    "faTrademark",
+    "trade mark"
+]
+item = ["legal symbols", "trademark"]
+
+[[rewrite]]
+matches = "textservicemark"
+item = ["legal symbols", "service mark"]
+
+[[rewrite]]
+matches = "textcircledP"
+item = ["legal symbols", "phonographic copyright"]
+
+[[rewrite]]
+matches = ["ccby", "faCreativeCommonsBy"]
+item = ["legal symbols", "BY"]
+
+[[rewrite]]
+matches = ["ccnc", "faCreativeCommonsNc"]
+item = ["legal symbols", "NonCommercial"]
+
+[[rewrite]]
+matches = ["ccnd", "faCreativeCommonsNd"]
+item = ["legal symbols", "NoDerivatives"]
+
+[[rewrite]]
+matches = ["ccsa", "faCreativeCommonsSa"]
+item = ["legal symbols", "ShareAlike"]
+
+[[rewrite]]
+matches = "ccbyncnd"
+item = ["legal symbols", "CC BY-NC-ND"]
+
+[[rewrite]]
+prefix = ["ccPublicDomain", "faCreativeCommonsPd"]
+item = ["legal symbols", "public domain"]
+
+[[rewrite]]
+matches = ["cc", "ccLogo", "faCreativeCommons"]
+item = ["legal symbols", "CC"]
+
+[[rewrite]]
+matches = ["ccZero", "faCreativeCommonsZero"]
+item = ["legal symbols", "CC0"]
+
+[[rewrite]]
+matches = ["ccNonCommercialEU", "faCreativeCommonsNcEu"]
+item = ["legal symbols", "NonCommercial, euro"]
+
+[[rewrite]]
+matches = ["ccNonCommercialJP", "faCreativeCommonsNcJp"]
+item = ["legal symbols", "NonCommercial, yen"]
+
+[[rewrite]]
+regex = '^faCreativeCommons(Remix|Sampling|Share)$'
+item = ["legal symbols", '\1']
+
+[[rewrite]]
+matches = "faCreativeCommonsSamplingPlus"
+item = ["legal symbols", "Sampling Plus"]
+
+# This rule should appear at the end of this section.
+[[rewrite]]
+regex = '^cc([A-Z].+)$'
+item = ["legal symbols", '\1']
+
+# -------------------------- physics symbols ---------------------------
+
+[[rewrite]]
+matches = ["Gluon", "gluon", "gluons"]
+item = "gluon"
+
+[[rewrite]]
+regex = '^([A-Z])(boson|meson)(.+)$'
+item = ['\2', '\1 \3']
+
+[[rewrite]]
+matches = "Wboson"
+item = ["boson", "W"]
+
+[[rewrite]]
+regex = '^(eta|phi|Upsilon)meson$'
+item = ["meson", '\1']
+
+[[rewrite]]
+regex = '^(eta|phi|rho)meson(.+)$'
+item = ["meson", '\1, \2']
+
+[[rewrite]]
+regex = '^(quark|antiquark)([a-z])$'
+item = ['\1', '\2']
+
+[[rewrite]]
+regex = '^taulepton(plus|minus)$'
+item = ["tau lepton", '\1']
+
+[[rewrite]]
+regex = '^(Kaon|pion)(plus|minus|null)$'
+lowercase_item = true
+item = ['\1', '\2']
+
+[[rewrite]]
+matches = "Jpsimeson"
+item = ["meson", "J/psi"]
+
+[[rewrite]]
+regex = '^(Higgs|Z)boson$'
+item = ["boson", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(anti\w+)\*?$'
+word = '\1'
+lowercase_word = true
+
+# This rule should appear before the preceding rule.  This is a two-rule
+# hack to convert, e.g., "\fermiDistrib" to "Fermi distribution",
+# capitalized as such.
+[[rewrite]]
+regex = '^(.+)Distrib$'
+capitalize_word = true
+word = '\1 distribution'
+continue = true
+
+[[rewrite]]
+regex = '^(.+?)\s+Distribution$'
+item = '\1 distribution'
+
+[[rewrite]]
+regex = '^(error|experimental|external|internal)sym$'
+item = '\1'
+
+[[rewrite]]
+regex = '^(ionic|metal|h)bond$'
+item = ["bond, chemical", '\1']
+
+[[rewrite]]
+regex = '^spin(up|down)$'
+item = ["spin", '\1']
+
+[[rewrite]]
+regex = '^(svr|var)?photons?$'
+item = "photon"
+
+[[rewrite]]
+matches = "bond"
+item = "bond, chemical"
+
+[[rewrite]]
+matches = "covbond"
+item = ["bond, chemical", "covalent"]
+
+[[rewrite]]
+regex = '^(.+)covbond$'
+item = ["bond, chemical", 'covalent, \1']
+
+[[rewrite]]
+matches = ["bigbosonloop", "smallbosonloop"]
+item = ["boson", "loop"]
+
+[[rewrite]]
+regex = '^(?:big|small)bosonloop([A-Z])$'
+item = ["boson", 'loop, \1']
+
+# I don't know what all these types of fermions are so I'm lumping
+# them all under "fermion".
+[[rewrite]]
+regex = '^(h|sh|w|wh)fermion$'
+item = "fermion"
+
+# This rule should appear last in this section.
+[[rewrite]]
+matches = [
+    "adsorbate",
+    "adsorbent",
+    "anyon",
+    "atom",
+    "boson",
+    "conductivity",
+    "dipole",
+    "electron",
+    "exciton",
+    "fermion",
+    "graphene",
+    "graviton",
+    "hole",
+    "interaction",
+    "ion",
+    "magnon",
+    "method",
+    "muon",
+    "neutrino",
+    "neutron",
+    "nucleus",
+    "orbit",
+    "phonon",
+    "plasmon",
+    "polariton",
+    "polaron",
+    "positron",
+    "protein",
+    "proton",
+    "quadrupole",
+    "quark",
+    "reference",
+    "resistivity",
+    "solid",
+    "spin",
+    "surface",
+    "tachyon",
+    "water"
+]
+item = '\1'
+
+# --------------------- computers and peripherals ----------------------
+
+[[rewrite]]
+matches = [
+    "ComputerMouse",
+    "computer mouse",
+    "one button mouse",
+    "two button mouse",
+    "three button mouse"
+]
+item = ["mouse", "computer"]
+
+[[rewrite]]
+render_contains = '(\faMouse)'
+item = ["mouse", "computer"]
+
+[[rewrite]]
+matches = "mouse pointer"
+item = ["mouse", "pointer"]
+
+[[rewrite]]
+matches = [
+    "personal computer",
+    "old personal computer",
+    "desktop computer",
+    "laptop",
+    "tiDeviceDesktop",
+    "tiDeviceLaptop"
+]
+item = "computer"
+
+[[rewrite]]
+matches = "three networked computers"
+item = ["computer", "multiple, networked"]
+
+[[rewrite]]
+matches = "tiDeviceTablet"
+item = "tablet"
+
+# -------------------------- sports and games --------------------------
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = ['(\Football)', '(\faFutbol)']
+item = "soccer ball"
+
+[[rewrite]]
+matches = ["american football", "football"]
+item = ["football", "American"]
+
+[[rewrite]]
+matches = "field hockey"
+item = 'field hockey stick and ball'
+
+[[rewrite]]
+matches = "ice hockey"
+item = 'ice hockey stick and puck'
+
+[[rewrite]]
+matches = "cricket game"
+item = "cricket bat and ball"
+
+[[rewrite]]
+prefix = "table tennis"
+item = "ping pong"
+
+[[rewrite]]
+matches = "tennis"
+item = "tennis ball"
+
+[[rewrite]]
+matches = "pool 8 ball"
+item = "8 ball"
+
+[[rewrite]]
+matches = ["Cube", "epsdice", "fcdice"]
+item = "dice"
+
+[[rewrite]]
+render_contains = "fcData"
+item = ["dice", "3D"]
+
+[[rewrite]]
+prefix = "die face-"
+item = ["dice", "3D"]
+
+[[rewrite]]
+matches = "game die"
+item = ["dice", "3D"]
+
+[[rewrite]]
+matches = "flower playing cards"
+item = ["playing cards", "flower"]
+
+[[rewrite]]
+regex = 'playing (handball|water polo)$'
+item = '\1'
+
+[[rewrite]]
+regex = '^(runn|snowboard|ski)er$'
+item = '\1ing'
+
+[[rewrite]]
+contains = ["bicyclist", "biking", "cycling"]
+item = "cycling"
+not_contains = ["recycling", "Recycling"]
+
+[[rewrite]]
+contains = ["rowboat", "rowing boat"]
+item = "rowing"
+
+# ----------------------------- plus signs -----------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = [
+    '(\Plus)',
+    '(\faPlus)',
+    '(\tiPlus)',
+    '(\twemoji{2795})',
+    '(\usym{2795})'
+]
+item = ["plus", "bold"]
+
+[[rewrite]]
+matches = [
+    "plusses",
+    "bigplus",
+    "MVPlus",
+    "tplus"
+]
+item = "plus"
+
+[[rewrite]]
+matches = ["pluscirc", "circplus", "ringplus"]
+item = ["plus", "with circle"]
+
+[[rewrite]]
+matches = ["plusdot", "dotplus", "dotted plus"]
+item = ["plus", "with dot"]
+
+[[rewrite]]
+matches = ["pluseqq", "eqqplus"]
+item = ["plus", "with equal sign"]
+
+[[rewrite]]
+matches = "plushat"
+item = ["plus", "with hat"]
+
+[[rewrite]]
+matches = ["plussim", "simplus"]
+item = ["plus", "with similarity sign"]
+
+[[rewrite]]
+matches = "plustrif"
+item = ["plus", "with triangle"]
+
+[[rewrite]]
+matches = "plussubtwo"
+item = ["plus", "with subscripted 2"]
+
+[[rewrite]]
+matches = ["PlusCenterOpen", "PlusThinCenterOpen"]
+item = ["plus", "open center"]
+
+[[rewrite]]
+matches = "PlusOutline"
+item = ["plus", "outlined"]
+
+[[rewrite]]
+render_contains = "tiPlusOutline"
+item = ["plus", "hollow"]
+
+[[rewrite]]
+matches = "doubleplus"
+item = ["plus", "double"]
+
+[[rewrite]]
+matches = "tripleplus"
+item = ["plus", "triple"]
+
+# ----------------------------- pitchforks -----------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+matches = [
+    "pitchfork",
+    "pitchforks",
+    "downpitchfork",
+    "leftpitchfork",
+    "rightpitchfork",
+    "uppitchfork",
+    "hmleftpitchfork",
+    "hmrightpitchfork",
+    "nepitchfork",
+    "nwpitchfork",
+    "sepitchfork",
+    "swpitchfork"
+]
+item = "pitchfork"
+
+[[rewrite]]
+regex = '^n.*pitchfork$'
+item = ["pitchfork", "negated"]
+
+[[rewrite]]
+matches = ["forksnot", "forkv"]
+item = ["pitchfork", "truncated handle"]
+
+[[rewrite]]
+matches = ["forks", "nforksnot"]
+item = ["pitchfork", "truncated handle, negated"]
+
+[[rewrite]]
+matches = "topfork"
+item = ["pitchfork", "bar handle"]
+
+[[rewrite]]
+regex = '^x.*pitchfork'
+item = ["pitchfork", "extensible"]
+
+# ----------------------------- calendars ------------------------------
+
+[[rewrite]]
+matches = [
+    "spiral calendar",
+    "spiral calendar pad",
+    "tear-off calendar",
+    "calendar symbols"
+]
+item = "calendar"
+
+[[rewrite]]
+regex = '^faCalendar(Day|Week)'
+lowercase_item = true
+item = ["calendar", 'marked \1']
+
+[[rewrite]]
+regex = '^faCalendar(Check|Minus|Plus|Times)'
+lowercase_item = true
+item = ["calendar", 'with \1']
+
+# This rule should follow all other faCalendar and tiCalendar rules.
+[[rewrite]]
+prefix = ["faCalendar", "tiCalendar"]
+item = "calendar"
+
+# ------------------------------ daggers -------------------------------
+
+[[rewrite]]
+matches = [
+    "dag",
+    "dagger",
+    "textdagger",
+    "single dagger"
+]
+item = "dagger"
+
+[[rewrite]]
+matches = [
+    "ddag",
+    "ddagger",
+    "textdaggerdbl",
+    "double vertical dagger"
+]
+item = ["dagger", "double vertical"]
+
+[[rewrite]]
+matches = "double horizontal dagger"
+item = ["dagger", "double horizontal"]
+
+[[rewrite]]
+matches = "double horizontal and vertical dagger"
+item = ["dagger", "double horizontal and vertical"]
+
+[[rewrite]]
+matches = "dagger knife"
+item = "dagger"
+
+# ------------------------------- skulls -------------------------------
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = [
+    '(\AREVskull)',
+    '(\SKULLskull)'
+]
+item = ["skull", "and crossbones"]
+
+[[rewrite]]
+matches = ["skulls", "skull", "bigskull"]
+item = "skull"
+
+[[rewrite]]
+matches = [
+    "skull and crossbones",
+    "black skull and crossbones"
+]
+item = ["skull", "and crossbones"]
+
+# ------------------------------ playing cards ------------------------------
+
+# The idea in this section is to format the trump-* cards in numerical, as
+# opposed to alphabetical, order.
+
+[[rewrite]]
+regex = '^playing card trump-(\d)$'
+item = ["playing cards", 'trump 0\1']
+word = 'trump \1'
+
+[[rewrite]]
+regex = '^playing card trump-(\d{2,})$'
+item = ["playing cards", 'trump \1']
+
+# This rule should go last in this section.
+[[rewrite]]
+regex = '^playing card\s+(.+)$'
+item = ["playing cards", '\1']
+
+# ------------------------------- card suits --------------------------------
+
+[[rewrite]]
+matches = "card suits"
+item = "playing card suits"
+
+[[rewrite]]
+regex = 'var(diamond|heart)'
+item = ["playing card suits", '\1, filled']
+
+[[rewrite]]
+regex = 'var(club|spade)'
+item = ["playing card suits", '\1, hollow']
+
+[[rewrite]]
+regex = 'black.*(diamond|heart).*suit'
+item = ["playing card suits", '\1, filled']
+
+[[rewrite]]
+regex = 'white.*(club|spade).*suit'
+item = ["playing card suits", '\1, hollow']
+
+[[rewrite]]
+matches = "ETX"
+item = ["playing card suits", "heart, filled"]
+
+[[rewrite]]
+matches = "EOT"
+item = ["playing card suits", "diamond, filled"]
+
+[[rewrite]]
+matches = "ENQ"
+item = ["playing card suits", "club"]
+
+[[rewrite]]
+matches = "ACK"
+item = ["playing card suits", "spade"]
+
+# This rule should appear late in this section.
+[[rewrite]]
+regex = '(diamond|heart|club|spade).*suit'
+item = ["playing card suits", '\1']
+
+# --------------------------------- hearts ----------------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = [
+    '(\AREVvarheart)',
+    '(\faHeart)',
+    '(\tiHeart)',
+    '(\tiHeartFullOutline)',
+    '(\usym{1F5A4})',
+    '(\usym{2764})'
+]
+item = ["heart", "filled"]
+
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = '(\tiHeartHalfOutline)'
+item = ["heart", "half filled"]
+
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = [
+    '(\usym{1F499})',
+    '(\usym{1F49A})',
+    '(\usym{1F49B})',
+    '(\usym{1F49C})'
+]
+item = ["heart", "halftoned"]
+
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = '(\bccoeur)'
+item = ["heart", "red"]
+
+[[rewrite]]
+matches = [
+    "Heart",
+    "hearts"
+]
+item = "heart"
+
+[[rewrite]]
+regex = '^(black|blue|brown|green|orange|purple|red|white|yellow)\s+heart$'
+item = ["heart", '\1']
+
+[[rewrite]]
+regex = '^(anatomical|beating|floral|growing|sparkling)\s+heart$'
+item = ["heart", '\1']
+
+[[rewrite]]
+matches = "heart decoration"
+item = ["heart", "framed"]
+
+[[rewrite]]
+matches = ["heart exclamation", "heavy heart exclamation mark ornament"]
+item = ["heart", "exclamation point"]
+
+[[rewrite]]
+matches = ["heart, broken", "broken heart"]
+item = ["heart", "broken"]
+
+[[rewrite]]
+matches = "revolving hearts"
+item = ["heart", "multiple, revolving"]
+
+[[rewrite]]
+matches = "two hearts"
+item = ["heart", "multiple"]
+
+[[rewrite]]
+regex = '^heart\s+(with\s+.*)$'
+item = ["heart", '\1']
+
+[[rewrite]]
+matches = "rotated floral heart bullet"
+item = ["heart", "rotated floral"]
+
+[[rewrite]]
+matches = "rotated heavy black heart bullet"
+item = ["heart", "rotated"]
+
+# ---------------------------------- suns -----------------------------------
+
+[[rewrite]]
+matches = ["astrosun", "Sun"]
+not_render_contains = '(\ifsSun)'
+item = ["sun", "astronomical"]
+
+[[rewrite]]
+render_contains = [
+    '($\ABXSun$)',
+    '(\STARSun)',
+    '(\Sun)',
+    '(\usym{2609})'
+]
+item = ["sun", "astronomical"]
+
+[[rewrite]]
+matches = [
+    "suns",
+    "sunny",
+    "white sun",
+    "white sun with rays",
+    "SI"
+]
+item = "sun"
+
+[[rewrite]]
+matches = [
+    "sun behind cloud",
+    "sun behind large cloud",
+    "sun behind small cloud",
+    "white sun behind cloud",
+    "white sun with small cloud",
+    "SunCloud"
+]
+item = ["sun", "behind cloud"]
+
+[[rewrite]]
+matches = "HalfSun"
+item = ["sun", "half"]
+
+[[rewrite]]
+matches = "NoSun"
+item = ["sun", "eclipsed"]
+
+[[rewrite]]
+matches = "white sun behind cloud with rain"
+item = ["sun", "behind cloud with rain"]
+
+# ------------------------------- input types -------------------------------
+
+[[rewrite]]
+matches = ["input latin capital letters", "input latin uppercase"]
+item = ["input type", "Latin uppercase"]
+
+[[rewrite]]
+matches = ["input latin small letters", "input latin lowercase"]
+item = ["input type", "Latin lowercase"]
+
+[[rewrite]]
+render_contains = '\twemoji{1f524}'
+item = ["input type", "Latin lowercase"]
+
+[[rewrite]]
+render_contains = '\usym{1F524}'
+item = ["input type", "Latin uppercase"]
+
+[[rewrite]]
+matches = "input numbers"
+item = ["input type", "numbers"]
+
+[[rewrite]]
+matches = "input symbols"
+item = ["input type", "symbols"]
+
+# --------------------------------- houses ----------------------------------
+
+[[rewrite]]
+matches = ["house", "house building"]
+item = "house"
+
+[[rewrite]]
+prefix = "derelict house"
+item = ["house", "derelict"]
+
+[[rewrite]]
+matches = ["houses", "house buildings"]
+item = ["house", "multiple"]
+
+[[rewrite]]
+matches = "house damage"
+item = ["house", "damaged"]
+
+[[rewrite]]
+matches = "house with garden"
+item = ["house", "with garden"]
+
+# ------------------------------ fax machines -------------------------------
+
+[[rewrite]]
+render_contains = "faFax"
+item = "fax machine"
+
+[[rewrite]]
+matches = ["Faxmachine", "fax icon"]
+item = "fax machine"
+
+# ----------------------------- alpine symbols ------------------------------
+
+[[rewrite]]
+regex = '^(Half)?(Filled)?Hut$'
+item = "hut"
+
+[[rewrite]]
+regex = '^(Var)?(Ice)?Mountain$'
+item = 'mountain'
+
+[[rewrite]]
+matches = "Joch"
+item = "yoke"
+
+# -------------------------------- currency ---------------------------------
+
+# euros
+
+[[rewrite]]
+matches = [
+    "EUR",
+    "EURcr",
+    "EURdig",
+    "EURhv",
+    "euro",
+    "Euro",
+    "eurologo",
+    "EURtm",
+    "geneuro",
+    "geneuronarrow",
+    "geneurowide",
+    "officialeuro",
+    "texteuro",
+    "wasyeuro"
+]
+item = "euro"
+
+[[rewrite]]
+matches = "bbeuro"
+item = ["euro", "blackboard bold"]
+
+# dollars
+
+[[rewrite]]
+matches = [
+    "dollar",
+    "EyesDollar",
+    "textdollar",
+    "textdollaroldstyle",
+    "heavy dollar sign"
+]
+item = "dollar sign"
+
+[[rewrite]]
+render_contains = ['(\$)', '(\ltextdollar)']
+item = "dollar sign"
+
+[[rewrite]]
+matches = "bbdollar"
+item = ["dollar sign", "blackboard bold"]
+
+[[rewrite]]
+matches = "mathdollar"
+item = ["dollar sign", "math mode"]
+render = ""
+
+# cents
+
+[[rewrite]]
+consider_all_entries = true
+matches = ["textcent", "textcentoldstyle"]
+item = "cent"
+
+[[rewrite]]
+matches = "mathcent"
+item = ["cent", "math mode"]
+
+# pound
+
+[[rewrite]]
+matches = ["pound", "pounds"]
+item = "pound"
+
+# This rule must precede the following one.
+[[rewrite]]
+matches = "mathsterling"
+item = ["pound", "math mode"]
+
+[[rewrite]]
+contains = "sterling"
+item = "pound"
+
+# other currency
+
+# China2e uses "\Pound" for pfund.
+[[rewrite]]
+matches = ["Pound", "Pfund"]
+item = "pfund"
+
+[[rewrite]]
+matches = "Ecommerce"
+item = "e-commerce"
+
+[[rewrite]]
+matches = "textcurrency"
+item = "currency"
+
+[[rewrite]]
+matches = "textcolonmonetary"
+item = "cedi"
+
+[[rewrite]]
+regex = '^(?:text)?(baht|dong|florin|guarani|lira|naira|peso|won|yen)$'
+item = '\1'
+
+# -------------------------------- envelopes --------------------------------
+
+[[rewrite]]
+matches = [
+    "Envelope",
+    "Letter",
+    "Postbox",
+    "back of envelope",
+    "envelopes"
+]
+item = "envelope"
+
+[[rewrite]]
+matches = "red envelope"
+item = ["envelope", "gift"]
+
+[[rewrite]]
+regex = '^envelope\s+(with.*)$'
+item = ["envelope", '\1']
+
+[[rewrite]]
+matches = "flying envelope"
+item = ["envelope", "incoming"]
+
+[[rewrite]]
+matches = ["incoming envelope", "open envelope"]
+item = ["envelope", '\1']
+
+[[rewrite]]
+matches = "pen over stamped envelope"
+item = ["envelope", "with pen"]
+
+[[rewrite]]
+matches = "Email"
+item = ["envelope", "with lightning"]
+
+[[rewrite]]
+render_contains = '\twemoji{1f4e7}'
+item = ["envelope", "with E"]
+
+[[rewrite]]
+render_contains = '\usym{1F4E7}'
+item = ["envelope", "with at sign"]
+
+[[rewrite]]
+matches = "stamped envelope"
+item = ["envelope", "stamped"]
+
+# --------------------------------- primes ----------------------------------
+
+[[rewrite]]
+matches = ["prime", "primes"]
+item = "prime"
+
+[[rewrite]]
+matches = ["dprime", "second"]
+item = ["prime", "double"]
+
+[[rewrite]]
+matches = ["trprime", "third"]
+item = ["prime", "triple"]
+
+[[rewrite]]
+matches = ["qprime", "fourth"]
+item = ["prime", "quadruple"]
+
+[[rewrite]]
+matches = "backprime"
+item = ["prime", "backward"]
+
+[[rewrite]]
+matches = "backdprime"
+item = ["prime", "backward double"]
+
+[[rewrite]]
+matches = "backtrprime"
+item = ["prime", "backward triple"]
+
+[[rewrite]]
+consider_all_entries = true
+matches = ["angular minutes", "minutes, angular", "arcminutes"]
+see = "prime"
+
+[[rewrite]]
+consider_all_entries = true
+matches = ["angular seconds", "seconds, angular", "arcseconds"]
+see = "prime, double"
+
+# -------------------------- cleaning symbols --------------------------
+
+# I learned what these mean from
+# https://en.wikipedia.org/wiki/Laundry_symbol,
+# https://www.ihateironing.com/blog/laundry-symbols-explained/, and other
+# websites.
+
+[[rewrite]]
+matches = "CleaningA"
+item = ["dry cleaning", "any solvent"]
+
+[[rewrite]]
+matches = "CleaningF"
+item = ["dry cleaning", "hydrocarbon solvents (HCS) only"]
+
+[[rewrite]]
+matches = "CleaningFF"
+item = ["dry cleaning", "hydrocarbon solvents (HCS) only, delicate"]
+
+[[rewrite]]
+matches = "CleaningP"
+item = ["dry cleaning", "tetrachloroethylene (PCE) only"]
+
+[[rewrite]]
+matches = "CleaningPP"
+item = ["dry cleaning", "tetrachloroethylene (PCE) only, delicate"]
+
+[[rewrite]]
+regex = '^At(Forty|Sixty|NinetyFive)$'
+convert_numbers = true
+item = ["machine wash", 'at or below \1C']
+word = 'at or below \1\\textcelsius\\ '
+
+[[rewrite]]
+regex = '^Short(Thirty|Forty|Fifty|Sixty|NinetyFive)$'
+convert_numbers = true
+item = ["machine wash", 'at or below \1C, reduced spin speed']
+word = 'at or below \1\\textcelsius, reduced spin speed '
+
+[[rewrite]]
+matches = "Handwash"
+item = ["machine wash", "by hand"]
+
+[[rewrite]]
+matches = "WashCotton"
+item = ["machine wash", "cotton"]
+
+[[rewrite]]
+matches = "WashSynthetics"
+item = ["machine wash", "synthetics"]
+
+[[rewrite]]
+matches = "WashWool"
+item = ["machine wash", "wool/silk"]
+
+[[rewrite]]
+matches = "Dontwash"
+item = "do not wash"
+
+[[rewrite]]
+matches = "Bleech"
+item = "bleach"
+
+[[rewrite]]
+matches = "NoBleech"
+item = "do not bleach"
+
+[[rewrite]]
+matches = "IroningI"
+item = ["ironing", "low temperature"]
+
+[[rewrite]]
+matches = "IroningII"
+item = ["ironing", "medium temperature"]
+
+[[rewrite]]
+matches = "IroningIII"
+item = ["ironing", "high temperature"]
+
+[[rewrite]]
+matches = "NoIroning"
+item = "do not iron"
+
+[[rewrite]]
+matches = "NoChemicalCleaning"
+item = "no dry cleaning"
+
+[[rewrite]]
+matches = "NoTumbler"
+item = "do not tumble dry"
+
+[[rewrite]]
+matches = "Tumbler"
+item = "tumble dry"
+
+# ----------------------------- airplanes ------------------------------
+
+[[rewrite]]
+matches = [
+    "airplane arrival",
+    "airplane arriving",
+    "airplane landing"
+]
+item = ["airplane", "landing"]
+
+[[rewrite]]
+matches = [
+    "airplane departure",
+    "airplane takeoff"
+]
+item = ["airplane", "taking off"]
+
+[[rewrite]]
+matches = "airplane, slashed"
+item = ["airplane", "slashed"]
+
+[[rewrite]]
+matches = "paper airplane"
+item = ["airplane", "paper"]
+
+[[rewrite]]
+matches = [
+    "up-pointing military airplane",
+    "fighter jet"
+]
+item = ["airplane", "military"]
+
+[[rewrite]]
+matches = [
+    "airplane overhead",
+    "airplanes",
+    "Plane",
+    "plane",
+    "planes",
+    "small airplane",
+    "northeast-pointing airplane",
+    "up-pointing airplane",
+    "up-pointing small airplane"
+]
+item = "airplane"
+
+# --------------------------- keyboard keys ----------------------------
+
+[[rewrite]]
+matches = ["applecmd", "wasycmd"]
+item = ["keyboard symbols", "command"]
+
+[[rewrite]]
+render_contains = '(\KEYSAlt)'
+item = ["keyboard symbols", "alternate"]
+
+[[rewrite]]
+matches = "AltGr"
+item = ["keyboard symbols", "alternate graphic"]
+
+[[rewrite]]
+matches = "BSpace"
+item = ["keyboard symbols", "backspace"]
+
+[[rewrite]]
+matches = "Ctrl"
+item = ["keyboard symbols", "control"]
+
+[[rewrite]]
+matches = "Del"
+item = ["keyboard symbols", "delete"]
+
+[[rewrite]]
+render_contains = '(\KEYSEnd)'
+item = ["keyboard symbols", "end"]
+
+[[rewrite]]
+matches = "Esc"
+item = ["keyboard symbols", "escape"]
+
+[[rewrite]]
+matches = "Ins"
+item = ["keyboard symbols", "insert"]
+
+[[rewrite]]
+matches = "NumLock"
+item = ["keyboard symbols", "numeric lock"]
+
+[[rewrite]]
+regex = '^Pg(Down|Up)$'
+lowercase_word = true
+item = ["keyboard symbols", 'page \1']
+
+[[rewrite]]
+matches = "PrtSc"
+item = ["keyboard symbols", "print screen"]
+
+[[rewrite]]
+matches = "keystroke"
+item = ["keyboard symbols", "customizable"]
+
+# This rule should appear last in this section.
+[[rewrite]]
+matches = [
+    'Break',
+    'Enter',
+    'Home',
+    'Return',
+    'Scroll',
+    'Shift',
+    'Spacebar',
+    'Tab'
+]
+lowercase_word = true
+item = ["keyboard symbols", '\1']
+
+# ----------------------------- countries ------------------------------
+
+[[rewrite]]
+matches = "GreatBritain"
+item = "Great Britain"
+
+[[rewrite]]
+matches = [
+    "Albania",
+    "Latvia",
+    "Andorra",
+    "Liechtenstein",
+    "Austria",
+    "Lithuania",
+    "Belarus",
+    "Luxembourg",
+    "Belgium",
+    "Macedonia",
+    "Bosnia",
+    "Malta",
+    "Bulgaria",
+    "Moldova",
+    "Croatia",
+    "Montenegro",
+    "Czechia",
+    "Netherlands",
+    "Denmark",
+    "Norway",
+    "Estonia",
+    "Poland",
+    "Finland",
+    "Portugal",
+    "France",
+    "Romania",
+    "Germany",
+    "Serbia",
+    "Slovakia",
+    "Greece",
+    "Slovenia",
+    "Hungary",
+    "Spain",
+    "Iceland",
+    "Sweden",
+    "Ireland",
+    "Switzerland",
+    "Italy",
+]
+item = '\1'
+
+# -------------------------- circled symbols ---------------------------
+
+[[rewrite]]
+regex = '''
+^(?:big|var)*o\
+(backslash|circle|dash|dot|greater than|left|less than|minus|plus|right|slash|top|triangle|vee|wedge)\
+(?:up)?$\
+'''
+item = ["circled symbols", '\1']
+
+[[rewrite]]
+matches = [
+    "plus, circled",
+    "large circled plus",
+    "small circled plus",
+    "logical xor"
+]
+item = ["circled symbols", "plus"]
+
+[[rewrite]]
+regex = '^circleddot(left|right)$'
+item = ["circled symbols", 'dot, with \1 arrow']
+
+[[rewrite]]
+matches = [
+    "oast",
+    "bigoast",
+    "circledast"
+]
+item = ["circled symbols", "asterisk"]
+
+[[rewrite]]
+render_contains = '\CircAsterick'
+item = ["circled symbols", "asterisk"]
+
+[[rewrite]]
+regex = '^(big|var)?o(co)?ast'
+item = ["circled symbols", "asterisk"]
+
+[[rewrite]]
+matches = ["odiv", "bigodiv"]
+item = ["circled symbols", "division"]
+
+[[rewrite]]
+matches = ["circledbslash", "obslash", "varobslash"]
+item = ["circled symbols", "backslash"]
+
+[[rewrite]]
+matches = ["circledcirc", "ocirc", "bigocirc"]
+item = ["circled symbols", "circle"]
+
+[[rewrite]]
+regex = '^circled(right|two|white)(dot|dots|bullet)$'
+item = ["circled symbols", '\1 \2']
+
+[[rewrite]]
+matches = "circledvert"
+item = ["circled symbols", "bar"]
+
+[[rewrite]]
+regex = '^blackcircled(right|two)(dot|dots)$'
+item = ["circled symbols", '\1 \2, inverse']
+
+# This rule should precede the generic "circled <anything>" rule.
+[[rewrite]]
+matches = [
+    "circledequal",
+    "oequal",
+    "CircledEq"
+]
+item = ["circled symbols", "equal"]
+
+# This rule should precede the generic "circled <anything>" rule.
+[[rewrite]]
+matches = "circled cross pommee"
+item = ["circled symbols", "pommee cross"]
+
+# This rule should precede the generic "circled <anything>" rule.
+[[rewrite]]
+matches = "circled information source"
+item = ["circled symbols", "information"]
+
+[[rewrite]]
+regex = '^circled\s+([A-Za-z\s]+)$'
+item = ["circled symbols", '\1']
+
+[[rewrite]]
+matches = ["obot", "bigobot", "odplus"]
+item = ["circled symbols", "bottom"]
+
+[[rewrite]]
+matches = ["overt", "bigovert", "varobar"]
+item = ["circled symbols", "vertical line"]
+
+[[rewrite]]
+matches = [
+    "otimes",
+    "bigotimes",
+    "olcross",
+    "varotimes",
+    "small circled times",
+    "large circled times",
+    "crossed circle",
+    "crossed small circle"
+]
+item = ["circled symbols", "multiplication"]
+
+[[rewrite]]
+matches = "otimeshat"
+item = ["circled symbols", "multiplication, with hat"]
+
+[[rewrite]]
+matches = "Otimes"
+item = ["circled symbols", "multiplication, double circled"]
+
+[[rewrite]]
+render_contains = '\CircTimes'
+item = ["circled symbols", "multiplication"]
+
+[[rewrite]]
+regex = '^(?:var)?o(greater|less)than$'
+item = ["circled symbols", '\1 than']
+
+# This should should precede the generic "circled<anything>" rule.
+[[rewrite]]
+matches = "circledless"
+item = ["circled symbols", "less than"]
+
+# This should should precede the generic "circled<anything>" rule.
+[[rewrite]]
+matches = "circledgtr"
+item = ["circled symbols", "greater than"]
+
+[[rewrite]]
+regex = '^circled([A-Za-z]+)$'
+not_contains = [
+    "dotleft",
+    "dotright",
+    "downarrow"
+]
+item = ["circled symbols", '\1']
+
+[[rewrite]]
+matches = "odotslashdot"
+item = ["circled symbols", "dot, slash, dot"]
+
+[[rewrite]]
+matches = "operp"
+item = ["circled symbols", "perpendicular"]
+
+[[rewrite]]
+matches = [
+    "up slashed circle",
+    "up slashed small circle",
+    "down slashed circle",
+    "down slashed small circle"
+]
+item = ["circled symbols", "slash"]
+
+[[rewrite]]
+matches = "CircledA"
+item = ["circled symbols", "A"]
+
+[[rewrite]]
+render_contains = '\CircSm'
+item = ["circled symbols", "similar or equal to"]
+
+[[rewrite]]
+prefix = "faQuestionCircle"
+item = ["circled symbols", "question mark"]
+
+[[rewrite]]
+matches = "SunshineOpenCircled"
+item = ["circled symbols", "sun"]
+[[rewrite]]
+matches = [
+    "PhoneHandset",
+    "telephone location sign"
+]
+item = ["circled symbols", "telephone handset"]
+
+# This rule needs to precede the generic "user" rules.
+[[rewrite]]
+prefix = "faUserCircle"
+item = ["circled symbols", "user"]
+
+# ------------------------------- users --------------------------------
+
+[[rewrite]]
+regex = '^user\s+(.+)$'
+item = ["user", '\1']
+
+[[rewrite]]
+matches = ["faUserAltSlash", "faUserSlash"]
+item = ["user", "slashed"]
+
+[[rewrite]]
+matches = "faUserMd"
+item = ["user", "medical"]
+
+[[rewrite]]
+matches = "faUsers"
+item = ["user", "multiple"]
+
+[[rewrite]]
+matches = "faUsersCog"
+item = ["user", "multiple, cog"]
+
+[[rewrite]]
+matches = "faUsersSlash"
+item = ["user", "multiple, slashed"]
+
+[[rewrite]]
+regex = '^faUser([A-Z]\w+)'
+lowercase_item = true
+item = ["user", '\1']
+
+# This rule should appear late in this section.
+[[rewrite]]
+prefix = "faUser"
+item = "user"
+
+# ------------------------------- trees --------------------------------
+
+[[rewrite]]
+matches = "trees"
+word = "tree"
+
+[[rewrite]]
+regex = '^(.+?)\s+tree$'
+item = ["tree", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(autumn|summer|spring|winter|apple|palm|christmas)tree$'
+lowercase_item = true
+item = ["tree", '\1']
+
+[[rewrite]]
+matches = ["WorstTree", "tiTree", "faTree"]
+item = "tree"
+
+# ----------------------------- restrooms ------------------------------
+
+[[rewrite]]
+regex = '^(men|women|boy|girl)s$'
+word = "restroom"
+
+[[rewrite]]
+matches = ["Gentsroom", "Ladiesroom", "men's room", "women's room"]
+word = "restroom"
+
+# ------------------------------- chess --------------------------------
+
+[[rewrite]]
+regex = '^(?:white|black)\s+chess\s+(.+)$'
+item = ["chess", '\1']
+
+[[rewrite]]
+matches = ["chess pieces", "faChess"]
+item = ["chess", "pieces"]
+
+[[rewrite]]
+matches = "chess notation"
+item = ["chess", "notation"]
+
+[[rewrite]]
+compare_lowercase = true
+contains = "chessboard"
+item = ["chess", "board"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(?:black|white|sym|chess)\s*(bishop|king|knight|pawn|queen|rook)'
+item = ["chess", '\1']
+
+[[rewrite]]
+matches = ["rook", "knight", "pawn"]
+item = ["chess", '\1']
+
+[[rewrite]]
+matches = "chess symbols"
+word = "chess"
+
+# ---------------------------- cell phones -----------------------------
+
+[[rewrite]]
+matches = [
+    "mobile phone",
+    "Mobilefone",
+    "clamshell mobile phone",
+    "tiDevicePhone"
+]
+item = "cell phone"
+
+# This entry must appear before the "arrows" section.
+[[rewrite]]
+regex = '^mobile phone\s+(.+)$'
+item = ["cell phone", '\1']
+
+[[rewrite]]
+render_contains = '\usym{1F581}'
+item = "cell phone"
+
+[[rewrite]]
+matches = "telephones"
+item = ["cell phone", "multiple"]
+
+# ----------------------- traditional telephones -----------------------
+
+[[rewrite]]
+matches = "telephone receiver with page"
+item = ["telephone handset", "with page"]
+
+[[rewrite]]
+render_contains = '\usym{1F57C}'
+item = ["telephone handset", "with page"]
+
+[[rewrite]]
+render_contains = '\usym{1F580}'
+item = ["telephone handset", "atop modem"]
+
+[[rewrite]]
+matches = "phone volume"
+item = ["telephone handset", "volume"]
+
+[[rewrite]]
+render_contains = "faPhoneSquare"
+item = ["telephone handset", "inverse"]
+
+[[rewrite]]
+matches = "phone, slashed"
+item = ["telephone handset", "slashed"]
+
+[[rewrite]]
+render_contains = [
+    '\asapPhone',
+    '\faPhone',
+    '\mfPhoneAlt',
+    '\tiPhone'
+]
+item = "telephone handset"
+
+[[rewrite]]
+render_contains = ['\usym{1F57D}', '\usym{1F57B}']
+item = "telephone handset"
+
+# This rule should follow all of the more specific telephone-receiver entries.
+[[rewrite]]
+contains = "telephone receiver"
+item = "telephone handset"
+
+[[rewrite]]
+matches = [
+    "Telefon",
+    "Telephone",
+    "Phone",
+    "phone"
+]
+item = "telephone"
+
+[[rewrite]]
+contains = "touchtone telephone"
+item = "telephone"
+
+# ----------------------------- multimaps ------------------------------
+
+[[rewrite]]
+consider_all_entries = true
+matches = [
+    "linear implication",
+    "lollipop (mathematics)",
+    "spoon symbols (mathematics)"
+]
+format = "see{multimap}"
+
+[[rewrite]]
+matches = ["multimap", "rightspoon"]
+word = "multimap"
+
+[[rewrite]]
+matches = ["multimapinv", "leftspoon", "inverted multimap"]
+item = ["multimap", "inverse"]
+
+[[rewrite]]
+matches = ["leftrightspoon", "dualmap", "dual multimap", "multimapboth"]
+item = ["multimap", "dual"]
+
+[[rewrite]]
+matches = ["rightblackspoon", "multimapdot", "rightfilledspoon"]
+item = ["multimap", "black"]
+
+[[rewrite]]
+matches = ["leftrightblackspoon", "multimapdotboth"]
+item = ["multimap", "dual, black"]
+
+[[rewrite]]
+matches = ["multimapbothvert"]
+item = ["multimap", "dual, vertical"]
+
+[[rewrite]]
+matches = ["multimapdotbothvert"]
+item = ["multimap", "dual, vertical, black"]
+
+[[rewrite]]
+matches = ["multimapdotbothA", "origof", "whiteblackspoon"]
+item = ["multimap", "origin"]
+
+[[rewrite]]
+matches = ["multimapdotbothB", "imageof", "blackwhitespoon"]
+item = ["multimap", "image"]
+
+[[rewrite]]
+matches = ["multimapdotinv", "leftblackspoon", "leftfilledspoon"]
+item = ["multimap", "inverse, black"]
+
+[[rewrite]]
+matches = ["multimapdotbothAvert", "multimapdotbothBvert"]
+item = ["multimap", "vertical, black and white"]
+
+[[rewrite]]
+regex = '^(up|down)(black|filled)spoon$'
+item = ["multimap", "vertical, black"]
+
+[[rewrite]]
+matches = ["upspoon", "downspoon"]
+item = ["multimap", "vertical"]
+
+[[rewrite]]
+regex = '^[ns][ew](?:filled)?spoon$'
+item = ["multimap", "diagonal"]
+
+[[rewrite]]
+regex = '^not\s+.*multimap$'
+item = ["multimap", "negated"]
+
+[[rewrite]]
+matches = "ndualmap"
+item = ["multimap", "dual, negated"]
+
+# This rule should appear at the end of this section
+[[rewrite]]
+regex = '^n[a-z]*(spoon|multimap(inv)?|imageof|origof)$'
+item = ["multimap", "negated"]
+
+# ----------------------------- asterisks ------------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+top_matches = "asterisks"
+matches = "asterisks"
+item = ["asterisk"]
+
+[[rewrite]]
+matches = "dotted asterisk"
+item = ["asterisk", "dotted"]
+
+# This rule should appear before the lowercase comparison to "asterisk".
+[[rewrite]]
+contains = ["Asterisk", " asterisk"]
+item = ["asterisk", "dingbat"]
+
+[[rewrite]]
+render_contains = '\twemoji{2a-20e3}'
+item = ["asterisk", "dingbat"]
+
+[[rewrite]]
+contains = "asterisk"
+render_contains = ['(\STIXdingasterisk)', '(\faAsterisk)']
+item = ["asterisk", "dingbat"]
+
+# This rule should precede the following one.  Note that it moves the
+# symbol to a different top-level item.
+[[rewrite]]
+top_matches = "asterisks"
+matches = "circled"
+item = ["circled symbols", "asterisk"]
+
+[[rewrite]]
+top_matches = "asterisks"
+regex = '^(.+)$'
+item = ["asterisk", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "*",
+    "ast",
+    "asterisk",
+    "bigast",
+    "bigcoast",
+    "coasterisk",
+    "textasteriskcentered"
+]
+item = "asterisk"
+
+[[rewrite]]
+regex = '^(big)?box(co)?ast'
+item = ["asterisk", "boxed"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "asteriscus"
+item = ["asterisk", "metrical"]
+
+# ------------------------------- clouds -------------------------------
+
+[[rewrite]]
+top_matches = "clouds"
+item = "cloud"
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "cloud",
+    "cloudy",
+    "filledcloud",
+    "mathcloud",
+    "reversemathcloud"
+]
+item = "cloud"
+
+# This rule must follow the previous one.
+[[rewrite]]
+regex = '^Filled(Weak)?(.*)Cloud$'
+item = ["cloud", 'with \2']
+lowercase_item = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(weak)?(rain|snow)\s*cloud'
+item = ["cloud", 'with \2']
+lowercase_item = true
+
+[[rewrite]]
+regex = '^cloud\s+(.*)$'
+item = ["cloud", '\1']
+
+# ----------------------------- crucifixes -----------------------------
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "cross",
+    "crosses",
+    "crux",
+    "latin cross",
+    "summitsign",
+    "heavy latin cross"
+]
+item = "cross (crucifix)"
+
+# I believe all of these are pattee crosses, despite being called Maltese.
+[[rewrite]]
+matches = [
+    "maltese",
+    "CrossMaltese",
+    "Maltese cross",
+    "kreuz"
+]
+item = ["cross (crucifix)", "pattee"]
+word = "patt{\\'e}e"
+
+[[rewrite]]
+matches = "Celtic cross"
+item = ["cross (crucifix)", "Celtic"]
+
+[[rewrite]]
+matches = "cross pommee"
+item = ["cross (crucifix)", "pommee"]
+
+[[rewrite]]
+matches = "cross pommee with half-circle below"
+item = ["cross (crucifix)", "pommee, with half-circle below"]
+
+[[rewrite]]
+matches = "CrossBoldOutline"
+item = ["cross (crucifix)", "outlined, bold"]
+
+[[rewrite]]
+matches = "CrossOutline"
+item = ["cross (crucifix)", "outlined"]
+
+[[rewrite]]
+matches = "white latin cross"
+item = ["cross (crucifix)", "hollow"]
+
+[[rewrite]]
+matches = ["CrossOpenShadow", "shadowed white latin cross"]
+item = ["cross (crucifix)", "shadowed"]
+
+[[rewrite]]
+matches = "outlined latin cross"
+item = ["cross (crucifix)", "outlined"]
+
+[[rewrite]]
+matches = "heavy greek cross"
+item = ["cross (crucifix)", "Greek, bold"]
+
+[[rewrite]]
+matches = "outlined greek cross"
+item = ["cross (crucifix)", "Greek, outlined"]
+
+[[rewrite]]
+matches = "orthodox cross"
+item = ["cross (crucifix)", "Orthodox"]
+
+[[rewrite]]
+matches = "open center cross"
+item = ["cross (crucifix)", "open center"]
+
+[[rewrite]]
+matches = "heavy open center cross"
+item = ["cross (crucifix)", "open center, bold"]
+
+[[rewrite]]
+regex = '^(east|west)cross$'
+capitalize_word = true
+item = ["cross (crucifix)", '\1ern']
+
+[[rewrite]]
+matches = "CrossClowerTips"
+item = ["cross (crucifix)", "clover tipped"]  # "clower" = "clover"?
+
+[[rewrite]]
+matches = "crucifixes"
+item = "crucifix"
+see = "cross (crucifix)"
+
+# ---------------------------------- faces ----------------------------------
+
+# ... cat faces ...
+
+[[rewrite]]
+regex = '^(.*)heart-eyes(.*)$'
+item = '\1heart-shaped eyes\2'
+continue = true
+
+[[rewrite]]
+regex = '^(.*?)\s+cat(?:\sface)?$'
+item = ["cat", '\1']
+
+[[rewrite]]
+regex = '^cat(?:\sface)?\s+(.*?)'
+item = ["cat", '\1']
+
+[[rewrite]]
+regex = '^(.*?)\s+cat(?:\sface)?,?\s+(.*)$'
+item = ["cat", '\1, \2']
+
+# ... all other faces ...
+
+# This rule must precede the generic "face" rule.
+[[rewrite]]
+matches = "face towel"
+item = "towel"
+
+# This rule must precede the generic "face" rule.
+[[rewrite]]
+matches = "grinning squinting face"
+item = ["face", "grinning and squinting"]
+
+[[rewrite]]
+regex = '^face\s+(.*)$'
+item = ["face", '\1']
+
+# This rule must precede the following one.
+[[rewrite]]
+regex = '^(bear|cat|clown|cow|dog|dragon|frog|hamster|horse|monkey|mouse|panda|pig|rabbit|tiger|wind|wolf)\s+face$'
+item = '\1'
+
+[[rewrite]]
+regex = '^(.*?)\s+face$'
+item = ["face", '\1']
+not_contains = "moon"
+
+[[rewrite]]
+regex = '^(.*?)\s+face,?\s+(.*)$'
+not_contains = "clock face"
+item = ["face", '\1, \2']
+
+[[rewrite]]
+compare_lowercase = true
+matches = ["smiley", "smileface", "soh"]
+item = ["face", "smiley"]
+
+[[rewrite]]
+regex = '^([A-Za-z]+)Face$'
+item = ["face", '\1']
+lowercase_word = true
+word = '\1'
+
+[[rewrite]]
+matches = ["blacksmiley", "invsmileface", "STX"]
+item = ["face", "smiley, inverse"]
+
+[[rewrite]]
+matches = "grimace"
+item = ["face", "grimacing"]
+
+[[rewrite]]
+matches = ["frownie", "Frowny"]
+item = ["face", "frowning"]
+
+[[rewrite]]
+matches = ["textthing", "thething"]
+item = ["face", "with sunglasses"]
+
+[[rewrite]]
+matches = "sadface"
+item = ["face", "sad"]
+
+[[rewrite]]
+prefix = "faGrinBeamSweat"
+item = ["face", "grinning and sweating"]
+
+[[rewrite]]
+prefix = "faGrinWink"
+item = ["face", "grinning and winking"]
+
+# This rule should precede the following one.
+[[rewrite]]
+prefix = "faGrinSquintTears"
+item = ["face", "grinning and squinting, with tears"]
+
+[[rewrite]]
+prefix = "faGrinSquint"
+item = ["face", "grinning and squinting"]
+
+[[rewrite]]
+regex = '^faGrin(Hearts|Stars|Tears|Tongue)'
+lowercase_item = true
+item = ["face", 'grinning, with \1']
+
+# This rule should follow all of the other faGrin rules.
+[[rewrite]]
+prefix = "faGrin"
+item = ["face", "grinning"]
+
+[[rewrite]]
+regex = '^fa(Angry|Dizzy|Meh|Sad)'
+lowercase_item = true
+item = ["face", '\1']
+
+[[rewrite]]
+regex = '^fa(Frown|Kiss|Laugh)'
+lowercase_item = true
+item = ["face", '\1ing']
+
+[[rewrite]]
+render_contains = ['\HQ', 'Hq']
+item = ["face", "hieroglyphic"]
+
+[[rewrite]]
+top_matches = "faces"
+item = ["face"]
+
+# ------------------------------- clocks -------------------------------
+
+[[rewrite]]
+matches = ["clock", "clock symbols", "ClockLogo"]
+word = "clock"
+
+[[rewrite]]
+compare_lowercase = true
+contains = [" clock", "stopwatch", "alarm clock", "pocket watch"]
+word = "clock"
+
+# It's excessive to show a glyph for every half-hour of the day.  Hence, we
+# keep a single glyph (four o'clock, selected arbitrarily)...
+[[rewrite]]
+matches = "four o'clock"
+word = "clock"
+
+# ...and delete all other clocks showing the hour or half-hour.
+[[rewrite]]
+contains = ["o'clock", "-thirty"]
+item = ["clock", "showing a specific time"]
+render = ""
+
+# --------------------------- boxed symbols ----------------------------
+
+[[rewrite]]
+regex = '^(big)?boxbslash'
+word = '\1boxbackslash'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxbot'
+word = '\1boxbottom'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxdiag'
+word = '\1boxslash'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxcirc'
+word = '\1boxcircle'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxdiv'
+word = '\1boxdivision'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxtriangle'
+word = '\1boxtriangle'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxvert'
+word = '\1boxbar'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?boxvoid'
+word = '\1boxempty'
+continue = true
+
+[[rewrite]]
+regex = '^(big)?box([a-z]+)$'
+not_render_contains = [
+    '$\boxleft$',
+    '$\boxright$'
+]
+not_contains = [
+    "boxed",
+    "dotleft",
+    "dotright",
+    "onbox"
+]
+item = ["boxed symbols", '\2']
+
+[[rewrite]]
+matches = "plus, squared"
+item = ["boxed symbols", "plus"]
+
+# ------------------------------- angles -------------------------------
+
+[[rewrite]]
+matches = [
+    "angle",
+    "angdnr",
+    "revangle",
+    "turnangle"
+]
+item = "angle"
+
+[[rewrite]]
+render_contains = '\STIXangles'
+item = ["angle", "with S"]
+
+[[rewrite]]
+render_contains = '\STIXangleubar'
+item = ["angle", "with underbar"]
+
+[[rewrite]]
+matches = "revangleubar"
+item = ["angle", "with underbar"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^measangle..to..$'
+item = ["angle", "measured, with arrow"]
+
+[[rewrite]]
+contains = [
+    "sphericalangle",
+    "measangle",
+    "measuredangle",
+    "AngleSign",
+    "gtlpar",
+    "varangle"
+]
+item = ["angle", "spherical"]
+
+[[rewrite]]
+contains = "rightangle"
+item = ["angle", "right"]
+
+[[rewrite]]
+contains = "wideangle"
+item = ["angle", "obtuse"]
+
+[[rewrite]]
+contains = "threedangle"
+item = ["angle", "3-D"]
+
+# ------------------------------ genders -------------------------------
+
+# Categorize a picture of a man under "man".
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = "faMale"
+item = "man"
+
+# Categorize a picture of a womman under "womman".
+# This rule should appear early in this section.
+[[rewrite]]
+render_contains = "faFemale"
+item = "woman"
+
+[[rewrite]]
+matches = ["genderless", "Neutral"]
+item = ["gender signs", "neuter"]
+
+# This rule must precede the following one.
+[[rewrite]]
+render_contains = [
+    '\faTransgender*',
+    '\twemoji{26a7}',
+    '\usym{26A7}'
+]
+item = ["gender signs", "male with stroke and male and female"]
+
+[[rewrite]]
+render_contains = '\faTransgender'
+item = ["gender signs", "male and female"]
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "HERMAPHRODITE"
+item = ["gender signs", "male and female, filled"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "hermaphrodite"
+item = ["gender signs", "male and female"]
+
+[[rewrite]]
+matches = "male and female sign"
+item = ["gender signs", "male and female"]
+
+[[rewrite]]
+matches = "boy"
+render_contains = '$\ABXMars$'
+item = ["gender signs", "male"]
+
+[[rewrite]]
+matches = ["male sign", "FF"]
+item = ["gender signs", "male"]
+
+[[rewrite]]
+matches = "girl"
+render_contains = '$\ABXVenus'
+item = ["gender signs", "female"]
+
+[[rewrite]]
+matches = [
+    "female sign",
+    "textfemale",
+    "VT"
+]
+item = ["gender signs", "female"]
+
+[[rewrite]]
+matches = ["textuncrfemale", "neuter"]
+item = ["gender signs", "female, without stroke"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(male|female)/?(male|female)(?: sign)?$'
+lowercase_item = true
+item = ["gender signs", '\1/\2']
+
+[[rewrite]]
+matches = "interlocked female and male sign"
+item = ["gender signs", "female/male"]
+
+[[rewrite]]
+regex = '^doubled (male|female) sign$'
+item = ["gender signs", '\1/\1']
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = ["MALE", "FEMALE"]
+lowercase_item = true
+item = ["gender signs", '\1, filled']
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(male|female)$'
+lowercase_item = true
+item = ["gender signs", '\1']
+
+[[rewrite]]
+prefix = "male with stroke"
+item = ["gender signs", "male, extra stroke"]
+
+[[rewrite]]
+matches = [
+    "horizontal male with stroke sign",
+    "vertical male with stroke sign"
+]
+item = ["gender signs", "male, extra stroke"]
+
+# ---------------------------- men and women -----------------------------
+
+# This rule should precede the following rule.
+[[rewrite]]
+contains = "bowing"
+item = "bowing"
+
+[[rewrite]]
+regex = '^(man|woman|person)\s+(.*)$'
+not_contains = [
+     " and ",
+     " getting ",
+     " in ",
+     " wearing ",
+     " with ",
+     " working "
+]
+item = '\2'
+
+[[rewrite]]
+regex = '^(male|man)\s+(.*)$'
+not_contains = "sign"
+item = ['man', '\2']
+
+[[rewrite]]
+regex = '^(female|woman)\s+(.*)$'
+not_contains = "sign"
+item = ['woman', '\2']
+
+# ---------------------- astronomy and astrology -----------------------
+
+[[rewrite]]
+compare_lowercase = true
+matches = "scorpius"
+item = "Scorpio"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "capricornus"
+item = "Capricorn"
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune",
+    "pluto",
+
+    "aries",
+    "taurus",
+    "gemini",
+    "cancer",
+    "leo",
+    "virgo",
+    "libra",
+    "scorpio",
+    "sagittarius",
+    "capricorn",
+    "aquarius",
+    "pisces"
+]
+word = '\1'
+capitalize_word = true
+
+[[rewrite]]
+regex = '^(North|South)Node$'
+lowercase_item = true
+item = '\1 node'
+
+[[rewrite]]
+matches = "ascnode"
+item = "ascending node"
+
+[[rewrite]]
+matches = "descnode"
+item = "descending node"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "conjunction"
+item = ["conjunction", "astronomical"]
+
+# ------------------------------ numbers -------------------------------
+
+[[rewrite]]
+regex = '^MV(Zero|One|Two|Three|Four|Five|Six|Seven|Eight|Nine)$'
+convert_numbers = true
+item = '\1'
+
+[[rewrite]]
+regex = '^Stroke(One|Two|Three|Four|Five)$'
+convert_numbers = true
+item = ['\1', "tally"]
+
+[[rewrite]]
+render_regex = '\(\\showbullcntr\{(\d+)\}\)'
+item = ['\1', "tally"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = 'negative circled.*digit (one|two|three|four|five|six|seven|eight|nine)$'
+convert_numbers = true
+item = ['\1', "circled, filled"]
+
+[[rewrite]]
+regex = 'circled.*digit (one|two|three|four|five|six|seven|eight|nine)$'
+convert_numbers = true
+item = ['\1', "circled"]
+
+[[rewrite]]
+render_regex = '\\twemoji\{3(\d)-20e3\}'
+item = ['\1', "boxed, blue"]
+
+[[rewrite]]
+render_contains = '\twemoji{1f51f}'
+item = ["10", "boxed, blue"]
+
+[[rewrite]]
+contains = "keycap ten"
+item = ["10", "boxed"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = 'negative circled.*number ten'
+item = ["10", "circled, filled"]
+
+[[rewrite]]
+regex = 'circled.*number ten'
+item = ["10", "circled"]
+
+[[rewrite]]
+regex = '^text(zero|one|two|three|four|five|six|seven|eight|nine)oldstyle$'
+convert_numbers = true
+item = ['\1', "old style"]
+
+[[rewrite]]
+regex = '^text(one|two|three)superior$'
+convert_numbers = true
+item = ['\1', "superior"]
+
+[[rewrite]]
+regex = '^textturn(two|three)$'
+convert_numbers = true
+item = ['\1', "rotated"]
+
+[[rewrite]]
+matches = "textlhookfour"
+item = ["4", "hooked"]
+
+[[rewrite]]
+matches = "textcrtwo"
+item = ["2", "barred"]
+
+[[rewrite]]
+render_contains = '(\DOZx)'
+item = ["2", "rotated"]
+
+[[rewrite]]
+render_contains = '(\DOZe)'
+item = ["3", "rotated"]
+
+# ... ancient languages ...
+
+[[rewrite]]
+matches = "one"
+render_contains = '\textpmhg'
+item = ["1", "hieroglyphic"]
+
+[[rewrite]]
+matches = "ten"
+render_contains = '\textpmhg'
+item = ["10", "hieroglyphic"]
+
+[[rewrite]]
+contains = "hundred"
+render_contains = '\textpmhg'
+item = ["100", "hieroglyphic"]
+
+[[rewrite]]
+matches = "thousand"
+render_contains = '\textpmhg'
+item = ["1000", "hieroglyphic"]
+
+[[rewrite]]
+matches = "million"
+render_contains = '\textpmhg'
+item = ["1000000", "hieroglyphic"]
+
+[[rewrite]]
+regex = '^(\d+)$'
+render_contains = '\ARUNEs'
+item = ['\1', "runic"]
+
+[[rewrite]]
+regex = '^BN([ivxlcdm]+)$'
+convert_numbers = true
+item = ['\1', "Linear B"]
+
+[[rewrite]]
+matches = "EOzero"
+item = ["0", "Epi-Olmec"]
+
+[[rewrite]]
+regex = '^EO([ivx]+)$'
+convert_numbers = true
+item = ['\1', "Epi-Olmec"]
+
+# ------------------------------- globes -------------------------------
+
+[[rewrite]]
+matches = "faGlobe"
+item = ["globe", "with meridians"]
+
+[[rewrite]]
+matches = ["Mundus", "world", "tiGlobe", "tiGlobeOutline"]
+word = "globe"
+
+[[rewrite]]
+regex = '^globe\s+(.+)$'
+item = ["globe", '\1']
+
+[[rewrite]]
+regex = '^faGlobe(Africa|Americas|Asia|Europe)$'
+item = ["globe", 'showing \1']
+
+# ------------------------- therefore symbols --------------------------
+
+[[rewrite]]
+matches = [
+    "therefore",
+    "uptherefore",
+    "wasytherefore"
+]
+item = "therefore"
+
+[[rewrite]]
+regex = '^(down|left|right)therefore$'
+item = ["therefore", '\1']
+
+[[rewrite]]
+matches = ["because", "since"]
+item = ["therefore", "down"]
+
+# -------------------- various mathematical symbols --------------------
+
+[[rewrite]]
+matches = ["wreath", "wr"]
+item = "wreath product"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "forall"
+item = "for all"
+
+[[rewrite]]
+matches = [
+    "universal bunch quantifier",
+    "universal individual quantifier"
+]
+item = "for all"
+
+[[rewrite]]
+matches = "suum"
+item = ["sum", "horizontally extensible"]
+
+[[rewrite]]
+matches = "varsum"
+item = "sum"
+
+[[rewrite]]
+matches = [
+    "osum",
+    "varosum",
+    "modtwosum",
+    "varmodtwosum"
+]
+item = ["sum", "circular"]
+
+[[rewrite]]
+matches = ["prod", "varprod", "smallprod"]
+item = "product"
+
+[[rewrite]]
+matches = "prood"
+item = ["product", "horizontally extensible"]
+
+[[rewrite]]
+matches = [
+    "coprod",
+    "varcoprod",
+    "amalg",
+    "varamalg"
+]
+item = "coproduct"
+
+[[rewrite]]
+matches = ["Im", "im", "oldIm"]
+item = "imaginary"
+
+[[rewrite]]
+matches = ["Re", "oldRe"]
+item = "real"
+
+[[rewrite]]
+contains = "mathwitch"
+item = ["witch", "math mode"]
+
+[[rewrite]]
+regex = '^math.*ghost'
+item = ["ghost", "math mode"]
+
+[[rewrite]]
+consider_all_entries = true
+compare_lowercase = true
+contains = ["percent", "%"]
+word = "percent"
+
+[[rewrite]]
+matches = ["perthousand", "tcperthousand", "textperthousand", "permil"]
+item = "per mill"
+
+[[rewrite]]
+matches = ["tcpertenthousand", "textpertenthousand"]
+item = "permyriad"
+
+[[rewrite]]
+matches = "powerset"
+item = "power set"
+
+[[rewrite]]
+matches = "Eulerconst"
+item = "Euler's constant"
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'q\.?e\.?d'
+item = "end of proof"
+
+[[rewrite]]
+render_contains = ['(\End)', '(\wasserdicht)']
+item = 'end of proof'
+
+[[rewrite]]
+matches = "hksqrt"
+item = ["square root", "with hook"]
+
+[[rewrite]]
+matches = ["sqrt*", "surd", "textsurd"]
+item = ["square root", "without overbar"]
+
+[[rewrite]]
+matches = ["pm", "textpm"]
+word = "plus or minus"
+
+[[rewrite]]
+matches = "mp"
+word = "minus or plus"
+
+[[rewrite]]
+regex = '^[dnst]{3,4}stile$'
+word = "consequence relation"
+
+[[rewrite]]
+matches = "consequence relation denied"
+item = ["consequence relation", "denied"]
+
+[[rewrite]]
+regex = '^(continuous.*)\s(function|multi-function|map|multi-map)$'
+item = ["function", '\g<0>']
+
+[[rewrite]]
+matches = ["function/backward composition", "circ"]
+item = ["function", "composition"]
+
+[[rewrite]]
+matches = "function converse"
+item = ["function", "converse"]
+
+[[rewrite]]
+matches = ["partial", "varpartialdiff"]
+item = "partial derivative"
+
+[[rewrite]]
+matches = "partialslash"
+item = ["partial derivative", "slashed"]
+
+[[rewrite]]
+top_matches = "annuity"
+word = "annuity symbols"
+
+[[rewrite]]
+regex = '^text(one|three)(half|quarters?)$'
+item = ["fractions", '\1 \2']
+
+# This rule should precede the generic "minus" rule.
+[[rewrite]]
+render_contains = [
+    '\faMinus',
+    '\tiMinus',
+    '\twemoji{2796}',
+    '\usym{2796}',
+    '\MVMinus'
+]
+item = ["minus", "decorative"]
+
+[[rewrite]]
+matches = ["minus", "textminus", "tminus"]
+item = "minus"
+
+[[rewrite]]
+regex = '^minushook(down|up)$'
+item = ["minus", "hooked"]
+
+[[rewrite]]
+regex = '^hook(down|up)minus$'
+item = ["minus", "hooked"]
+
+[[rewrite]]
+regex = '^minus(colon|dot)$'
+item = ["minus", '\1']
+
+[[rewrite]]
+matches = "dashcolon"
+item = ["minus", "colon"]
+
+[[rewrite]]
+matches = "minuscoloncolon"
+item = ["minus", "colon, double"]
+
+[[rewrite]]
+matches = ["minusfdots", "minusrdots", "dotsminusdots"]
+item = ["minus", "dots"]
+
+[[rewrite]]
+matches = "dotted minus"
+item = ["minus", "dot"]
+
+[[rewrite]]
+matches = "minuso"
+item = ["minus", "with circle overlay"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(comma|dot|u)minus$'
+item = ["minus", '\1']
+
+[[rewrite]]
+matches = "textdiscount"
+item = ["minus", "commercial"]
+
+[[rewrite]]
+matches = "bigcomplementop"
+item = "complement"
+
+[[rewrite]]
+matches = "shuffle"
+item = "shuffle product"
+
+[[rewrite]]
+matches = "smashtimes"
+item = "smash product"
+
+[[rewrite]]
+matches = "bagmember"
+item = "bag membership"
+
+[[rewrite]]
+matches = ["intercal", "varintercal"]
+item = "intercalate"
+
+[[rewrite]]
+matches = ["interleave", "biginterleave"]
+item = "interleave"
+
+[[rewrite]]
+matches = "suchthat"
+item = "such that"
+
+[[rewrite]]
+matches = "wp"
+word = "Weierstrass elliptic function"
+
+[[rewrite]]
+matches = "sqrt"
+word = "square root"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "bowtie"
+word = "bow tie"
+
+[[rewrite]]
+prefix = "choice"
+word = "choice"
+
+[[rewrite]]
+regex = '^Y(up|down|left|right)$'
+item = ["Y", '\1']
+
+[[rewrite]]
+regex = '^(up|down|left|right)Y$'
+item = ["Y", '\1']
+
+[[rewrite]]
+matches = "zproject"
+item = "restriction"
+
+[[rewrite]]
+regex = '^restrict(barb|mallet|wand)(?:up)?$'
+item = ["restriction", '\1']
+
+[[rewrite]]
+matches = "nrestriction"
+item = ["restriction", "negated"]
+
+[[rewrite]]
+matches = ["ularc", "manrotatedquartercircle"]
+item = ["arc", "upper left"]
+
+[[rewrite]]
+matches = ["urarc", "manquartercircle"]
+item = ["arc", "upper right"]
+
+[[rewrite]]
+matches = "llarc"
+item = ["arc", "lower left"]
+
+[[rewrite]]
+matches = "lrarc"
+item = ["arc", "lower right"]
+
+[[rewrite]]
+matches = "Finv"
+item = ["F", "inverted"]
+
+[[rewrite]]
+matches = "trapezium"  # UK
+item = "trapezoid"     # US
+
+[[rewrite]]
+regex = '^(.*\S)\s+fixed point$'
+item = ["fixed point", '\1']
+
+[[rewrite]]
+matches = [
+    "cshuffle",
+    "complete shuffle product"
+]
+item = ["shuffle product", "complete"]
+
+[[rewrite]]
+regex = '^(partial|total) function$'
+item = ["function", '\1']
+
+[[rewrite]]
+matches = ["crossing", "hcrossing"]
+item = ["crossing", "horizontal"]
+
+[[rewrite]]
+matches = ["vcrossing", "scross"]
+item = ["crossing", "vertical"]
+
+[[rewrite]]
+matches = "scrossvh"
+item = ["crossing", "plus"]
+
+[[rewrite]]
+matches = ["neswcrossing", "nwsecrossing"]
+item = ["crossing", "diagonal"]
+
+[[rewrite]]
+matches = [
+    "cdot",
+    "cdotp",
+    "MultiplicationDot"
+]
+item = ["multiplication", "dot"]
+
+[[rewrite]]
+matches = "hermitmatrix"
+item = "Hermitian conjugate matrix"
+
+[[rewrite]]
+matches = ["strictif", "rightfishtail"]
+item = "strict implication"
+
+[[rewrite]]
+matches = ["strictfi", "leftfishtail"]
+item = "strict converse implication"
+
+[[rewrite]]
+matches = "strictiff"
+item = "strict biconditional"
+
+[[rewrite]]
+matches = "rightimply"
+item = "material implication"
+
+[[rewrite]]
+regex = '^(up|down)fishtail$'
+item = ["fish tail", '\1']
+
+[[rewrite]]
+matches = ["setminus", "smallsetminus"]
+item = "set difference"
+
+[[rewrite]]
+matches = [
+    "dfourier",
+    "Dfourier",
+    "dft",
+    "DFT",
+    "fourier",
+    "Fourier",
+    "InversTransformHoriz",
+    "InversTransformVert",
+    "laplace",
+    "Laplace",
+    "TransformHoriz",
+    "TransformVert",
+    "Ztransf",
+    "ztransf"
+]
+item = "transform"
+
+[[rewrite]]
+matches = "sequent denied"
+item = ["sequent", "denied"]
+
+[[rewrite]]
+regex = '^(up|down|left|right|[ns][ew])free$'
+item = "free"
+
+[[rewrite]]
+regex = '^n(up|down|left|right|[ns][ew])free$'
+item = ["free", "negated"]
+
+[[rewrite]]
+matches = "lsqhook"
+item = ["open box operator", "left"]
+
+[[rewrite]]
+matches = "rsqhook"
+item = ["open box operator", "right"]
+
+[[rewrite]]
+matches = "nclosure"
+item = ["closure", "negated"]
+
+[[rewrite]]
+regex = '^(left|right)threetimes$'
+item = ["semidirect product", '\1']
+
+[[rewrite]]
+regex = '^(up|down|left|right)slice$'
+item = "slice"
+
+[[rewrite]]
+matches = "ruledelayed"
+item = "rule delayed"
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "parallelogramblack"
+item = ["parallelogram", "filled"]
+
+[[rewrite]]
+prefix = "parallelogram"
+item = "parallelogram"
+
+[[rewrite]]
+matches = ["leftbroom", "rightbroom"]
+item = "broom"
+
+[[rewrite]]
+matches = ["dalambert", "laplac"]   # Note misspelling of "dalembert".
+item = "d'Alembert operator"
+
+[[rewrite]]
+matches = "divs"
+item = "divides"
+
+[[rewrite]]
+matches = "ndivs"
+item = ["divides", "negated"]
+
+[[rewrite]]
+matches = "topbot"
+item = ["top", "above bottom"]
+
+[[rewrite]]
+regex = '^relation(left|right)project$'
+item = ["relation", '\1 project']
+
+[[rewrite]]
+matches = "relationlifting"
+item = ["relation", "lifting"]
+
+[[rewrite]]
+matches = "profline"
+item = "arc"
+
+[[rewrite]]
+matches = "profsurf"
+item = "segment"
+
+[[rewrite]]
+matches = ["<", "!>"]
+item = ["delimiters", "angle bracket"]
+render = ""
+
+# ----------------------- miscellaneous rewrites -----------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+regex = '^(.+)\s+symbol$'
+not_matches = "medical symbol"
+word = '\1'
+continue = true
+
+# This rule must precede the following one.
+[[rewrite]]
+render_contains = '\faWater'
+word = "waves"
+
+# Convert certain control sequences to words and lowercase them.
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "air",
+    "alif",
+    "anaclasis",
+    "anchor",
+    "ankh",
+    "asterism",
+    "atom",
+    "ayn",
+    "beam",
+    "bearing",
+    "bed",
+    "bell",
+    "between",
+    "bicycle",
+    "biohazard",
+    "bowl",
+    "bra",
+    "caesura",
+    "candle",
+    "catalexis",
+    "cent",
+    "chair",
+    "closure",
+    "coda",
+    "complement",
+    "conclusion",
+    "convolution",
+    "corner",
+    "corresponds",
+    "currency",
+    "denarius",
+    "diameter",
+    "direct",
+    "dracma",
+    "e",
+    "ejective",
+    "emgma",
+    "enya",
+    "er",
+    "esh",
+    "eye",
+    "fax",
+    "fire",
+    "fisheye",
+    "florin",
+    "fog",
+    "force",
+    "fortune",
+    "game",
+    "gloves",
+    "hail",
+    "hemiobelion",
+    "industry",
+    "irritant",
+    "ket",
+    "length",
+    "lightning",
+    "longa",
+    "maxima",
+    "moai",
+    "moo",
+    "moon",
+    "nabla",
+    "natal",
+    "ninja",
+    "octagon",
+    "opposition",
+    "plus",
+    "printer",
+    "quincunx",
+    "radix",
+    "rain",
+    "request",
+    "respondens",
+    "restriction",
+    "retrograde",
+    "rupee",
+    "sector",
+    "semisextile",
+    "semisquare",
+    "separated",
+    "sesquiquadrate",
+    "sextile",
+    "sleet",
+    "spoon",
+    "staccatissimo",
+    "stater",
+    "station",
+    "sum",
+    "tape",
+    "tent",
+    "tenuto",
+    "tetartemorion",
+    "trine",
+    "vernal",
+    "vertex",
+    "viewdata",
+    "village",
+    "warning",
+    "water",
+    "wind",
+    "wheelchair"
+]
+lowercase_word = true
+word = '\1'
+
+# Convert certain control sequences to words, preserving their case.
+[[rewrite]]
+matches = [
+    "Amor",
+    "Bart",
+    "Burns",
+    "Ceres",
+    "Chiron",
+    "Eros",
+    "Hades",
+    "Hidalgo",
+    "Homer",
+    "Hygiea",
+    "Juno",
+    "Lilith",
+    "Lisa",
+    "Maggie",
+    "Marge",
+    "Pallas",
+    "Poseidon",
+    "Psyche",
+    "Rust",
+    "Sappho",
+    "Soyombo",
+    "Vesta",
+    "Zeus"
+]
+word = '\1'
+
+# Convert certain words from plural to singular.
+[[rewrite]]
+regex = '''\
+^(automobile|\
+bicycle|\
+boat|\
+boson|\
+broom|\
+consequence relation|\
+elevator|\
+fermion|\
+ghost|\
+helicopter|\
+kaon|\
+meson|\
+model|\
+motorcycle|\
+pion|\
+restriction|\
+snake|\
+taxi|\
+train)s$\
+'''
+item = '\1'
+
+[[rewrite]]
+matches = "bike"
+item = "bicycle"
+
+[[rewrite]]
+matches = "buses"
+item = "bus"
+
+[[rewrite]]
+regex = '^(?:lower|upper)\s+(?:left|right)\s+(.*)$'
+not_render_contains = ['\usym{1F53E}', '\usym{1F53F}']
+word = '\1'
+continue = true
+
+[[rewrite]]
+matches = ["bomb", "mfBomb", "faBomb"]
+word = "bomb"
+
+[[rewrite]]
+matches = "water wave"
+word = "waves"
+
+[[rewrite]]
+contains = "dbend"
+word = "dangerous bend"
+
+[[rewrite]]
+render_contains = '+\danger+'
+word = "dangerous bend"
+
+[[rewrite]]
+matches = [
+    "flower",
+    "flowers",
+    "white flower",
+    "wilted flower",
+    "sunflower",
+    "daisy",
+    "blossom"
+]
+word = "flower"
+
+[[rewrite]]
+contains = ["Flower", "florette"]
+word = "flower"
+
+[[rewrite]]
+matches = "sun"
+compare_lowercase = true
+word = "sun"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(blue|brown|green|orange|purple|red|yellow)\s+(.*)$'
+not_contains = ["exclamation mark", "hat", "lantern", "stoplight", "triangle"]
+word = '\2'
+lowercase_word = true
+
+[[rewrite]]
+matches = ["lightbulb", "electric light bulb"]
+word = "light bulb"
+
+[[rewrite]]
+matches = ["Info", "info circle", "information sign"]
+word = "information"
+
+[[rewrite]]
+compare_lowercase = true
+contains = 'scissor'
+item = 'scissors'
+
+[[rewrite]]
+matches = [
+    "cut",
+    "CutLeft",
+    "CutRight"
+]
+item = 'scissors'
+
+[[rewrite]]
+regex = '^battery\s+(.*)$'
+item = ["battery", '\1']
+
+[[rewrite]]
+regex = '^(.*?)\s+battery$'
+item = ["battery", '\1']
+
+[[rewrite]]
+regex = '^([A-Z]+) button \(blood type\)$'
+item = ["blood type", '\1']
+
+[[rewrite]]
+matches = "AR"
+word = "aspect ratio"
+
+[[rewrite]]
+matches = "bauhead"
+word = "head"
+
+[[rewrite]]
+matches = "accurrent"
+word = "alternating current"
+
+[[rewrite]]
+matches = "acidfree"
+word = "acid-free paper"
+
+[[rewrite]]
+matches = "ear with hearing aid"
+item = ["ear", "with hearing aid"]
+
+[[rewrite]]
+matches = ["medical symbol", "medicine"]
+item = "rod of Asclepius"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "yinyang"
+word = "yin-yang"
+
+[[rewrite]]
+matches = ["yin yang", "yin-yang symbols"]
+word = "yin-yang"
+
+[[rewrite]]
+matches = ["wheel", "wheel of dharma"]
+word = "dharmachakra"
+
+[[rewrite]]
+matches = ["Bat", "bats", "mathbat", "mathleftbat", "mathrightbat"]
+word = "bat"
+
+[[rewrite]]
+regex = '^search with (.*)$'
+item = ["search", 'with \1']
+
+[[rewrite]]
+matches = "faSearchMinus"
+item = ["search", "with minus sign"]
+
+[[rewrite]]
+regex = '^mahjong tile\s+(.+)$'
+item = ["mahjong tiles", '\1']
+
+[[rewrite]]
+matches = "mahjong red dragon"
+item = ["mahjong tiles", "red dragon"]
+
+[[rewrite]]
+matches = ["glotstop", "glottal"]
+word = "glottal stop"
+
+[[rewrite]]
+matches = "Jedi"
+word = "Jedi Order"
+
+# This rule must precede the "... button" rule.
+[[rewrite]]
+regex = "^Japanese ``(.*)'' button"
+item = ["Japanese buttons", '\1']
+
+# This rule must precede the "... button" rule.
+[[rewrite]]
+render_contains = ["1f518", "1F518"]
+item = "radio button"
+
+[[rewrite]]
+regex = '^(.*?)\s+button$'
+item = '\1'
+
+[[rewrite]]
+matches = ["old key", "keys"]
+word = "key"
+
+[[rewrite]]
+matches = "paint brush"
+word = "paintbrush"
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '\faPencilRuler'
+item = ["pencil", "and ruler"]
+
+[[rewrite]]
+compare_lowercase = true
+contains = "pencil"
+not_render_contains = "Hand"
+word = "pencil"
+
+# This rule should follow the previous one.
+[[rewrite]]
+prefix = ["tiPen", "faPen", "faHighlighter", "faMarker", "pens"]
+not_contains = ["Penny", "Nib"]
+word = "pen"
+
+[[rewrite]]
+contains = ["ballpoint pen", "fountain pen"]
+word = "pen"
+
+[[rewrite]]
+contains = "magnifying"
+word = "magnifying glass"
+
+[[rewrite]]
+regex = '^people\s+(.+)$'
+item = ["people", '\1']
+
+[[rewrite]]
+regex = '^person\s+(.+)$'
+item = ["person", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+top_contains = "peace"
+word = "peace"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "t-shirt"
+word = "T-shirt"
+
+[[rewrite]]
+matches = ["wireless", "wifi"]
+word = "wireless network"
+
+# This rule should precede the following one.
+[[rewrite]]
+contains = ["shoe", "sandal"]
+item = "shoe"
+
+[[rewrite]]
+regex = "^woman'?s\\s+(.+)$"
+word = '\1'
+
+[[rewrite]]
+regex = '^women\s+(.+)$'
+item = ["women", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+prefix = "bouquet"
+word = "bouquet"
+
+[[rewrite]]
+prefix = "click"
+item = "clicks"
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = ['{1f515}', '{1F515}']
+item = ["bell", "slashed"]
+
+[[rewrite]]
+contains = "bell"
+not_matches = ["dumbbell", "bell pepper"]
+word = "bell"
+
+[[rewrite]]
+regex = '^bowl\s+(.+)$'
+item = ["bowl", '\1']
+
+[[rewrite]]
+matches = "gem stone"
+word = "gem"
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^recycling symbol for\s+(.+)$'
+item = ["recycling", '\1']
+
+[[rewrite]]
+compare_lowercase = true
+top_contains = "recycl"
+not_render_contains = "(package)"
+word = "recycling"
+
+[[rewrite]]
+matches = ["Greenpoint", "PackingWaste"]
+word = "recycling"
+
+[[rewrite]]
+regex = '^chart\s+(.+)$'
+item = ["chart", '\1']
+
+[[rewrite]]
+matches = "Father Christmas"
+word = "Santa Claus"
+
+[[rewrite]]
+matches = "mx claus"
+word = "Mrs. Claus"
+
+[[rewrite]]
+matches = "store, slashed"
+item = ["store", "slashed"]
+
+[[rewrite]]
+contains = ["traffic light", "stoplight"]
+word = "traffic light"
+
+[[rewrite]]
+contains = ["locomotive", " train"]
+word = "train"
+
+[[rewrite]]
+prefix = "domino tile "
+item = "domino tiles"
+render = ""
+
+[[rewrite]]
+matches = "dna"
+item = "DNA"
+
+[[rewrite]]
+matches = "dvd"
+item = "DVD"
+
+# This rule must precede the following one.
+[[rewrite]]
+regex = '^document with\s+(\S.*)$'
+item = ["document", '\1']
+
+[[rewrite]]
+regex = '^document\s+(\S+)$'
+item = ["document", '\1']
+
+[[rewrite]]
+matches = "empty document"
+item = "document"
+
+[[rewrite]]
+prefix = "emoji modifier"
+item = ["emoji", "modifiers"]
+render = ""
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "two-hump camel"
+item = ["camel", "bactrian"]
+
+[[rewrite]]
+regex = '^(\S+)\s+camel$'
+item = ["camel", '\1']
+
+[[rewrite]]
+consider_all_entries = true
+compare_lowercase = true
+contains = ["pumpkin", "jack-o-lantern"]
+item = "jack-o'-lantern"
+
+# Split certain control sequences into exactly two words.
+[[rewrite]]
+matches = [
+    "EastPoint",
+    "MineSign",
+    "MoveDown",
+    "MoveUp",
+    "ParallelPort",
+    "PropertyLine",
+    "SerialInterface",
+    "SerialPort",
+    "SpecialForty",
+    "SpinUp",
+    "SpinDown",
+    "StoneMan",
+    "StrikingThrough",
+    "SurveySign",
+    "ThinFog",
+    "WeakRain"
+]
+regex = '^([A-Z][a-z]+)([A-Z][a-z]+)$'
+lowercase_word = true
+word = '\1 \2'
+
+[[rewrite]]
+matches = "studio microphone"
+item = "microphone"
+
+[[rewrite]]
+matches = "microphone off"
+item = ["microphone", "slashed"]
+
+[[rewrite]]
+matches = "menorah with nine branches"
+item = "menorah"
+
+[[rewrite]]
+regex = '^men\s+(\S.*)$'
+item = ["men", '\1']
+
+[[rewrite]]
+matches = ["AA", "Angstrom"]
+item = ["A with ring", "uppercase"]
+
+[[rewrite]]
+matches = "aa"
+item = ["A with ring", "lowercase"]
+
+[[rewrite]]
+matches = "Apollon"
+item = "Apollo"
+
+[[rewrite]]
+matches = "Admetos"
+item = "Admetus"
+
+[[rewrite]]
+matches = "Cupido"
+item = "Cupid"
+
+[[rewrite]]
+matches = "Kronos"
+item = "Chronos"
+
+[[rewrite]]
+matches = "Vulkanus"
+item = "Vulcan"
+
+[[rewrite]]
+matches = ["celsius", "tccentigrade", "textcelsius"]
+item = "celsius"
+
+[[rewrite]]
+compare_lowercase = true
+matches = ["radiation", "radioactive"]
+item = "radiation"
+
+[[rewrite]]
+matches = "pregnant"
+item = "pregnant woman"
+
+[[rewrite]]
+matches = ["print", "printer icon"]
+item = "printer"
+
+[[rewrite]]
+matches = "phase"
+item = "phasor"
+
+[[rewrite]]
+matches = "BOLogo"
+item = "Hochschule Bochum"
+
+[[rewrite]]
+matches = "BOLogoP"
+item = ["Hochschule Bochum", "portrait"]
+
+[[rewrite]]
+matches = "BOLogoL"
+item = ["Hochschule Bochum", "landscape"]
+
+[[rewrite]]
+matches = "sunset"
+item = "sunset over buildings"
+
+[[rewrite]]
+matches = [
+    "crossed swords",
+    "swords",
+    "textxswdown",
+    "textxswup",
+    "xswordsdown",
+    "xswordsup"
+]
+item = ["sword", "multiple, crossed"]
+
+[[rewrite]]
+regex = '^sym([AB])$'
+item = '\1'
+
+[[rewrite]]
+regex = '^(deaf|old)(?:er)?\s+(man|woman|person)$'
+item = ['\2', '\1']
+
+[[rewrite]]
+matches = "hanukiah"
+item = "menorah"
+
+[[rewrite]]
+matches = "plimsoll"
+item = "Plimsoll line"
+
+[[rewrite]]
+contains = "#"
+not_contains = 'C\#'
+item = "hash"
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = [
+    "hash",
+    "hashtag",
+    "number sign",
+    "varhash"
+]
+item = "hash"
+
+[[rewrite]]
+matches = "textnumero"
+item = "number sign"
+
+[[rewrite]]
+matches = "golfer"
+item = "golfing"
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^faHandshake(Alt)?Slash$'
+item = ["handshake", "slashed"]
+
+[[rewrite]]
+prefix = "faHandshake"
+item = "handshake"
+
+[[rewrite]]
+matches = "sleuth or spy"
+item = "spy"
+
+[[rewrite]]
+regex = '^two (men|women) holding hands$'
+item = ['\1', "holding hands"]
+
+[[rewrite]]
+consider_all_entries = true
+contains = "bullseye"
+item = "bullseye"
+
+[[rewrite]]
+matches = [
+    "carriagereturn",
+    "varcarriagereturn"
+]
+item = "carriage return"
+
+[[rewrite]]
+prefix = "FourClower"
+item = "clover"
+
+[[rewrite]]
+matches = ["clovers", "four leaf clover"]
+item = "clover"
+
+[[rewrite]]
+matches = "glasses"
+item = "eyeglasses"
+
+[[rewrite]]
+matches = "eyebrows"
+item = "eyes"
+
+[[rewrite]]
+matches = "dark sunglasses"
+item = "sunglasses"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "hourglass"
+item = "hourglass"
+
+[[rewrite]]
+matches = "kitchen knife"
+item = ["knife", "kitchen"]
+
+[[rewrite]]
+matches = "hocho"
+item = ["knife", "hocho"]
+
+[[rewrite]]
+matches = "windy"
+item = "wind"
+
+[[rewrite]]
+matches = [
+    "manual wheelchair",
+    "motorized wheelchair",
+    "wheelchair stationary"
+]
+item = "wheelchair"
+
+[[rewrite]]
+matches = [
+    "wrapped gift",
+    "wrapped present"
+]
+item = "gift"
+
+[[rewrite]]
+matches = "poo storm"
+item = ["poo", "storm"]
+
+[[rewrite]]
+matches = "power off"
+item = "power"
+
+[[rewrite]]
+matches = [
+    "ban",
+    "no",
+    "no entry sign",
+    "prohibited",
+    "prohibited sign"
+]
+item = "no"
+
+[[rewrite]]
+matches = "noway"
+item = "no entry"
+
+[[rewrite]]
+matches = "tape drive"
+item = "tape"
+
+[[rewrite]]
+matches = "braket"
+item = "bra-ket"
+
+[[rewrite]]
+regex = '^banknote with (.*?)\s+sign$'
+item = ["banknote", '\1']
+
+[[rewrite]]
+regex = '^(.*?)\s+banknote$'
+item = ["banknote", '\1']
+
+[[rewrite]]
+matches = "mount fuji"
+item = "Mount Fuji"
+
+[[rewrite]]
+matches = "electric torch"
+item = "flashlight"
+
+[[rewrite]]
+matches = "lady beetle"
+item = "ladybug"
+
+[[rewrite]]
+matches = ["bug", "beetle", "fly", "mosquito"]
+item = "insect"
+
+[[rewrite]]
+matches = "witches"
+item = "witch"
+
+[[rewrite]]
+matches = ["caution sign", "danger"]
+item = "warning"
+
+[[rewrite]]
+contains = "baby chick"
+item = "chick"
+
+[[rewrite]]
+matches = "chicks"
+item = ["chick", "multiple"]
+
+[[rewrite]]
+matches = "rip"
+item = "RIP"
+
+[[rewrite]]
+compare_lowercase = true
+matches = ["snow", "snowflakes"]
+item = "snowflake"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "snowflake"
+item = "snowflake"
+
+[[rewrite]]
+compare_lowercase = true
+prefix = ["snowman", "snowmen", "scsnowman"]
+item = "snowman"
+
+[[rewrite]]
+matches = "snowplow"
+item = "snow plow"
+
+[[rewrite]]
+contains = "floppy disk"
+item = "floppy disk"
+
+[[rewrite]]
+regex = '^sort\s+(.+)$'
+item = ["sort", '\1']
+
+[[rewrite]]
+matches = "SNPP"
+item = "nuclear power plant"
+
+[[rewrite]]
+regex = '^(hear|see|speak)-no-evil monkey$'
+item = ["monkey", '\1 no evil']
+
+[[rewrite]]
+matches = "spanner"
+item = "wrench"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "sparkle"
+item = "sparkle"
+
+[[rewrite]]
+matches = "small axe"
+item = "axe"
+
+[[rewrite]]
+matches = "film frames"
+item = "film"
+
+[[rewrite]]
+matches = "silhouette of Japan"
+item = "Japan"
+
+[[rewrite]]
+matches = "sinewave"
+item = "sine wave"
+
+[[rewrite]]
+matches = ["Terra", "varTerra"]
+item = "Earth"
+
+[[rewrite]]
+regex = '^var(Capricorn|Earth|Pluto|Uranus)$'
+item = '\1'
+
+[[rewrite]]
+contains = "mailbox"
+item = "mailbox"
+
+[[rewrite]]
+matches = "love hotel"
+item = ["hotel", "love"]
+
+[[rewrite]]
+matches = "love letter"
+item = ["envelope", "with heart"]
+
+[[rewrite]]
+matches = "camera with flash"
+item = "camera"
+
+[[rewrite]]
+matches = "roast chicken"
+item = ["chicken", "roasted"]
+
+[[rewrite]]
+matches = ["chicken thigh", "drumstick"]
+item = ["chicken", "thigh"]
+
+[[rewrite]]
+regex = '^Japanese\s+(castle|dolls|goblin|ogre|post office)$'
+item = '\1'
+
+[[rewrite]]
+matches = "Japanese symbol for beginner"
+item = "beginner"
+
+[[rewrite]]
+matches = "couplekiss"
+item = "couple with heart"
+
+[[rewrite]]
+matches = "kiss mark"
+item = "kiss"
+
+[[rewrite]]
+regex = '^replace\s+(.*)$'
+item = ["replace", '\1']
+
+[[rewrite]]
+matches = ["tally", "fcscore"]
+item = "tally markers"
+
+[[rewrite]]
+matches = "Looking"
+item = ["telescope", "man looking through"]
+
+[[rewrite]]
+matches = "linefeed"
+item = "line feed"
+
+[[rewrite]]
+matches = "thermometers"
+item = "thermometer"
+
+[[rewrite]]
+regex = '^thermometer\s+(.+)$'
+item = ["thermometer", '\1']
+
+[[rewrite]]
+regex = 'three rays\s+(.+)$'
+item = ["rays", 'three \1']
+
+[[rewrite]]
+regex = '^oncoming\s+(.+)$'
+item = '\1'
+
+[[rewrite]]
+matches = "baby angel"
+item = "angel"
+
+[[rewrite]]
+matches = "benzenr"
+item = "benzene"
+
+[[rewrite]]
+contains = "megaphone"
+item = "megaphone"
+
+[[rewrite]]
+matches = "inbox tray"
+item = "inbox"
+
+[[rewrite]]
+matches = "outbox tray"
+item = "outbox"
+
+[[rewrite]]
+matches = "postbox"
+item = "mailbox"
+
+[[rewrite]]
+contains = "bath"
+item = "bathtub"
+
+[[rewrite]]
+matches = ["degree", "textdegree"]
+item = "degree"
+
+[[rewrite]]
+compare_lowercase = true
+prefix = "diple"
+item = "diple"
+
+[[rewrite]]
+matches = "shopping trolley"
+item = "shopping cart"
+
+[[rewrite]]
+matches = "desert island"
+item = "island"
+
+[[rewrite]]
+matches = ["articulated lorry", "pickup truck"]
+item = "truck"
+
+[[rewrite]]
+matches = "faShippingFast"
+item = ["truck", "fast"]
+
+[[rewrite]]
+matches = "construction"
+item = "construction sign"
+
+[[rewrite]]
+matches = "building construction"
+item = "construction"
+
+[[rewrite]]
+regex = '^(factual|deontic|logical|doxastic|temporal)\s+(necessity|possibility|next|future|past|contingency|non-contingency)$'
+item = ['\2', '\1']
+
+[[rewrite]]
+matches = "bauforms"
+item = "Bauhaus forms"
+
+[[rewrite]]
+matches = "cityscape at dusk"
+item = ["cityscape", "at dusk"]
+
+[[rewrite]]
+matches = [
+    "ear of corn",
+    "ear of maize"
+]
+item = "corn"
+
+[[rewrite]]
+matches = [
+    "corners, box",
+    "lftbotcorner",
+    "lfttopcorner",
+    "rtbotcorner",
+    "rttopcorner",
+    "textcorner",
+    "textopencorner",
+    "FS"
+]
+item = "corner"
+
+[[rewrite]]
+matches = [
+    "ullcorner",
+    "ulrcorner",
+]
+item = ["corner", "both top and bottom"]
+
+[[rewrite]]
+matches = "textinterrobang"
+item = "interrobang"
+
+[[rewrite]]
+matches = "textinterrobangdown"
+item = ["interrobang", "inverted"]
+
+[[rewrite]]
+matches = "textrecipe"
+item = "recipe"
+
+[[rewrite]]
+consider_all_entries = true
+matches = "pharmaceutical prescription"
+see = "recipe"
+
+[[rewrite]]
+consider_all_entries = true
+matches = "prescription"
+see = "recipe"
+
+[[rewrite]]
+matches = "thus"
+item = "therefore"
+
+[[rewrite]]
+matches = "straight ruler"
+item = "ruler"
+
+[[rewrite]]
+matches = "triangular ruler"
+item = ["ruler", "triangular"]
+
+[[rewrite]]
+contains = ["pushpin", "thumbtack"]
+item = "pushpin"
+
+[[rewrite]]
+matches = ["litter in bin sign", "put litter in its place"]
+item = "litter in bin"
+
+[[rewrite]]
+regex = '^text(born|died|divorced|married)$'
+item = '\1'
+
+[[rewrite]]
+matches = ["satellitedish", "satellite antenna", "Satellite"]
+item = ["satellite dish"]
+
+[[rewrite]]
+matches = ["sauropod", "T-Rex"]
+item = "dinosaur"
+
+[[rewrite]]
+matches = "rqm"
+item = "reduced quadrupole moment"
+
+[[rewrite]]
+matches = ["izakaya lantern", "red paper lantern"]
+item = "lantern"
+
+[[rewrite]]
+matches = "brush"
+item = "paintbrush"
+
+[[rewrite]]
+prefix = "faClipboard"
+item = "clipboard"
+
+[[rewrite]]
+matches = "faSpellCheck"
+item = "spell check"
+
+[[rewrite]]
+prefix = "faMoneyCheck"
+item = "check (financial)"
+
+[[rewrite]]
+matches = "drop of blood"
+item = "blood"
+
+[[rewrite]]
+matches = "let blood"
+item = ["blood", "letting"]
+
+[[rewrite]]
+matches = "sunrise over mountains"
+item = ["sunrise", "over mountains"]
+
+[[rewrite]]
+matches = "symbol for marks chapter"
+item = "marks chapter"
+
+[[rewrite]]
+matches = ["temperature low", "temperature high"]
+item = ['\1', '\2']
+
+[[rewrite]]
+matches = "chalkboard with teacher"
+item = ["chalkboard", "with teacher"]
+
+[[rewrite]]
+regex = '^textord(masculine|feminine)$'
+item = ["ordinal", '\1']
+
+[[rewrite]]
+matches = [
+    "underscore",
+    "textunderscore",
+    "mathunderscore",
+    "US"
+]
+item = "underline"
+
+[[rewrite]]
+render_contains = '(\_)'
+item = "underline"
+
+[[rewrite]]
+regex = '^text(backslash|bar|blank|bullet|estimated)$'
+item = '\1'
+
+[[rewrite]]
+regex = '^umbrella\s+(.+)$'
+item = ["umbrella", '\1']
+
+[[rewrite]]
+matches = "closed umbrella"
+item = ["umbrella", "closed"]
+
+[[rewrite]]
+matches = "cut of meat"
+item = "meat"
+
+[[rewrite]]
+matches = "meat on bone"
+item = ["meat", "on bone"]
+
+[[rewrite]]
+matches = "cog"
+item = "gear"
+
+[[rewrite]]
+matches = "cogs"
+item = ["gear", "multiple"]
+
+[[rewrite]]
+matches = "guardsman"
+item = "guard"
+
+[[rewrite]]
+regex = '^mechanical (arm|leg)$'
+item = ['\1', "mechanical"]
+
+[[rewrite]]
+matches = "CYRSH"
+item = "sha"
+
+[[rewrite]]
+matches = [
+    "tropical fish",
+    "tuna",
+    "catfish"
+]
+item = "fish"
+
+[[rewrite]]
+matches = "fishing pole"
+item = "fishing pole and fish"
+
+[[rewrite]]
+prefix = "fish cake with swirl"
+item = "fish cake with swirl"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "bigo"
+item = "big O notation"
+
+[[rewrite]]
+matches = "infant"
+item = "baby"
+
+[[rewrite]]
+contains = "loudspeaker"
+item = "loudspeaker"
+
+[[rewrite]]
+matches = "invdiameter"
+item = ["diameter", "reversed"]
+
+[[rewrite]]
+matches = "video"
+item = "video camera"
+
+[[rewrite]]
+matches = "video, slashed"
+item = ["video camera", "slashed"]
+
+[[rewrite]]
+matches = "video game"
+item = "video game controller"
+
+[[rewrite]]
+render_contains = '(\faBtc)'
+item = "Bitcoin"
+
+[[rewrite]]
+matches = "AC"
+item = "alternating current"
+
+[[rewrite]]
+prefix = "alien"
+item = "extraterrestrial"
+
+[[rewrite]]
+matches = [
+    "optical disc",
+    "optical disc icon",
+    "optical disk"
+]
+item = "compact disc"
+
+[[rewrite]]
+matches = "bread slice"
+item = "bread"
+
+[[rewrite]]
+compare_lowercase = true
+prefix = "obelus"
+item = "obelus"
+
+[[rewrite]]
+compare_lowercase = true
+prefix = "terminus"
+item = "terminus"
+
+[[rewrite]]
+matches = [
+    "direct hit",
+    "darts"
+]
+item = "target"
+
+[[rewrite]]
+matches = "potable water"
+item = ["water", "potable"]
+
+[[rewrite]]
+matches = "non-potable water"
+item = ["water", "non-potable"]
+
+[[rewrite]]
+matches = "freeCodeCamp"
+item = "Free Code Camp"
+
+[[rewrite]]
+matches = [
+    "sake",
+    "sake bottle and cup"
+]
+item = ["bottle", "sake, with cup"]
+
+[[rewrite]]
+matches = "school satchel"
+item = "schoolbag"
+
+[[rewrite]]
+matches = "poultry leg"
+item = ["chicken", "thigh"]
+
+[[rewrite]]
+matches = "police cars revolving light"
+item = "police car light"
+
+[[rewrite]]
+matches = "textramshorns"
+item = "ram's horns"
+
+[[rewrite]]
+matches = "ascii circumflex"
+item = "caret"
+
+[[rewrite]]
+matches = "caretinsert"
+item = ["caret", "insertion"]
+
+[[rewrite]]
+contains = "visiblespace"
+item = ["space", "visible"]
+
+[[rewrite]]
+matches = "non-breaking space"
+item = ["space", "non-breaking"]
+
+[[rewrite]]
+matches = "shell"
+item = "shell, operating system"
+
+[[rewrite]]
+matches = "spiral shell"
+item = "seashell"
+
+[[rewrite]]
+matches = "MVAt"
+item = "at sign"
+
+[[rewrite]]
+regex = '^European (castle|post office)$'
+item = '\1'
+
+[[rewrite]]
+prefix = "flap"
+item = "flap"
+
+[[rewrite]]
+render_contains = ['\fcBalloon', '\faFly']
+item = ["hot air balloon"]
+
+[[rewrite]]
+matches = "stuffed flatbread"
+item = "flatbread"
+
+[[rewrite]]
+matches = "curly loop"
+item = "loop"
+
+[[rewrite]]
+matches = "double curly loop"
+item = ["loop", "double"]
+
+[[rewrite]]
+regex = '^([A-Za-z]+)bearing$'
+lowercase_item = true
+item = ["bearing", '\1']
+
+[[rewrite]]
+regex = '^antenna.*bars'
+item = "signal"
+
+[[rewrite]]
+regex = '^grip (horizontal|vertical)$'
+item = ["grip", "squares"]
+
+[[rewrite]]
+regex = '^grip lines\s*(horizontal|vertical)?$'
+item = ["grip", "lines"]
+
+[[rewrite]]
+matches = "textreferencemark"
+item = "reference mark"
+
+[[rewrite]]
+matches = "hzigzag"
+item = ["zigzag", "horizontal"]
+
+[[rewrite]]
+matches = "vzigzag"
+item = ["zigzag", "vertical"]
+
+[[rewrite]]
+matches = "elinters"
+item = "electrical intersection"
+
+[[rewrite]]
+matches = "busts in silhouette"
+item = ["bust in silhouette", "multiple"]
+
+[[rewrite]]
+matches = "actuarialangle"
+item = "actuarial angle"
+
+[[rewrite]]
+matches = "linked paperclips"
+item = ["paperclip", "multiple, linked"]
+
+[[rewrite]]
+matches = "toilet paper, slashed"
+item = ["toilet paper", "slashed"]
+
+[[rewrite]]
+matches = "texttildelow"
+item = ["tilde", "lowered"]
+
+[[rewrite]]
+regex = '^igo(circle|cross|square|triangle)$'
+item = ["Go stones", '\1']
+
+[[rewrite]]
+matches = "igonone"
+item = ["Go stones", "empty"]
+
+[[rewrite]]
+matches = "trident emblem"
+item = "trident"
+
+[[rewrite]]
+matches = "giraffes"
+item = ["giraffe", "multiple"]
+
+[[rewrite]]
+matches = "tram car"
+item = "tram"
+
+[[rewrite]]
+matches = "left luggage"
+item = "luggage"
+
+[[rewrite]]
+compare_lowercase = true
+contains = "suitcase"
+item = "luggage"
+
+[[rewrite]]
+regex = '^frame with (?:an )?(.+)$'
+item = ["frame", 'with \1']
+
+[[rewrite]]
+matches = "HF"
+item = "high frequency"
+
+[[rewrite]]
+matches = "VHF"
+item = "very high frequency"
+
+[[rewrite]]
+matches = "rolled-up newspaper"
+item = ["newspaper", "rolled"]
+
+[[rewrite]]
+matches = "bullhorn with sound waves"
+item = "bullhorn"
+
+[[rewrite]]
+matches = "proj"
+item = "projection"
+
+[[rewrite]]
+matches = "EmailCT"
+item = "lightning"
+
+[[rewrite]]
+matches = "wn"
+item = "why not"
+
+[[rewrite]]
+matches = "oc"
+item = "of course"
+render = "of course (!!)"   # Escape the exclamation mark.
+
+[[rewrite]]
+matches = "Circpipe"
+item = ["pipe", "circular"]
+
+[[rewrite]]
+matches = "Rectpipe"
+item = ["pipe", "rectangular"]
+
+[[rewrite]]
+matches = "recorder"
+item = "automatic telephone recorder"   # From the wasy Metafont source
+
+[[rewrite]]
+matches = "pullback"
+item = "pull back"
+
+[[rewrite]]
+matches = "pushout"
+item = "push out"
+
+[[rewrite]]
+matches = "MVComma"
+item = ["comma", "sans serif"]
+
+[[rewrite]]
+matches = "shallow pan of food"
+item = "pan"
+
+[[rewrite]]
+matches = "partof"
+item = "part of"
+
+[[rewrite]]
+matches = "wholeof"
+item = "whole of"
+
+[[rewrite]]
+matches = "pile of poo"
+item = "poo"
+
+[[rewrite]]
+matches = "Lineload"
+item = "line load"
+
+[[rewrite]]
+matches = "sA"
+item = "Soyombo"
+
+[[rewrite]]
+matches = "sO"
+item = ["Soyombo", "terminal"]
+
+[[rewrite]]
+matches = "gleichstark"
+item = "Gleich Stark"
+
+[[rewrite]]
+matches = "textlengthmark"
+item = "length mark"
+
+[[rewrite]]
+matches = "thermod"
+item = "thermodynamic"
+
+[[rewrite]]
+matches = "tint, slashed"
+item = ["tint", "slashed"]
+
+[[rewrite]]
+matches = "Pickup"
+item = "answering machine"
+
+[[rewrite]]
+matches = "svrexample"
+item = "example"
+
+[[rewrite]]
+render_contains = "Pisymbol{nkarta}{119}"
+item = ["hammer", "and sickle"]
+
+[[rewrite]]
+regex = '^hammer (and \w+)$'
+item = ["hammer", '\1']
+
+[[rewrite]]
+matches = "stst"
+item = "standard state"
+
+[[rewrite]]
+matches = "carousel horse"
+item = ["horse", "carousel"]
+
+[[rewrite]]
+matches = ["horse racing", "racehorse"]
+item = ["horse", "racing"]
+
+[[rewrite]]
+matches = "coins"
+item = ["coin", "multiple"]
+
+[[rewrite]]
+matches = ["curly hair", "white hair"]
+item = "hair"
+
+[[rewrite]]
+matches = "emf"
+item = "electromotive force"
+
+[[rewrite]]
+matches = "wastebasket"
+item = "trash"
+
+[[rewrite]]
+matches = "trash, restore from"
+item = ["trash", "restore from"]
+
+[[rewrite]]
+render_contains = '{\smtrT}'
+item = "rotated symbols"
+render = ""
+
+[[rewrite]]
+matches = "NUL"
+item = "null character"
+
+[[rewrite]]
+matches = "compass"
+render_contains = '\dsmathematical'
+item = ["compass", "drawing"]
+
+[[rewrite]]
+matches = "railway"
+item = "train"

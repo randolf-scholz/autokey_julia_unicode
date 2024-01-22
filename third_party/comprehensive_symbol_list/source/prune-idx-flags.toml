@@ -1,0 +1,1069 @@
+##############################################
+# Categorize flag symbols.                   #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------ generic and miscellaneous flags -------------------
+
+[[rewrite]]
+prefix = "triangular flag"
+item = "flag"
+
+[[rewrite]]
+matches = [
+    "Flag",
+    "VarFlag",
+    "waving black flag",
+    "waving white flag",
+    "black flag",
+    "white flag"
+]
+item = "flag"
+
+[[rewrite]]
+matches = ["chequered flag", "faFlagCheckered"]
+item = ["flag", "checkered"]
+
+[[rewrite]]
+matches = "crossed flags"
+item = ["flag", "multiple, crossed"]
+
+[[rewrite]]
+matches = "euflag"
+item = ["flag", "European Union"]
+
+[[rewrite]]
+matches = "pirate flag"
+item = ["flag", "Jolly Roger"]
+
+[[rewrite]]
+regex = '^(rainbow|transgender)\s+flag$'
+item = ["flag", '\1']
+
+[[rewrite]]
+matches = "flag in hole"
+item = "golf hole with flag"
+
+# This rule must precede the worldflags section.
+[[rewrite]]
+matches = "worldflag{Rainbow}"
+item = ["flag", "rainbow"]
+
+[[rewrite]]
+consider_all_entries = true
+top_matches = "flags"
+regex = '^(.*)$'
+item = ["flag", '\1']
+
+[[rewrite]]
+matches = ["white pennant", "black pennant"]
+item = "flag"
+
+# ------------------------------ worldflags ------------------------------
+
+[[rewrite]]
+matches = "worldflag{AD}"
+item = ["flag", "Andorra"]
+
+[[rewrite]]
+matches = "worldflag{AE}"
+item = ["flag", "United Arab Emirates"]
+
+[[rewrite]]
+matches = "worldflag{AF}"
+item = ["flag", "Afghanistan"]
+
+[[rewrite]]
+matches = "worldflag{AG}"
+item = ["flag", "Antigua and Barbuda"]
+
+[[rewrite]]
+matches = "worldflag{AL}"
+item = ["flag", "Albania"]
+
+[[rewrite]]
+matches = "worldflag{AM}"
+item = ["flag", "Armenia"]
+
+[[rewrite]]
+matches = "worldflag{AO}"
+item = ["flag", "Angola"]
+
+[[rewrite]]
+matches = "worldflag{AQ}"
+item = ["flag", "Antarctica"]
+
+[[rewrite]]
+matches = "worldflag{AR}"
+item = ["flag", "Argentina"]
+
+[[rewrite]]
+matches = "worldflag{AT}"
+item = ["flag", "Austria"]
+
+[[rewrite]]
+matches = "worldflag{AT-B}"
+item = ["flag", "Burgenland"]
+
+[[rewrite]]
+matches = "worldflag{AT-K}"
+item = ["flag", "Carinthia"]
+
+[[rewrite]]
+matches = "worldflag{AT-N}"
+item = ["flag", "Lower Austria"]
+
+[[rewrite]]
+matches = "worldflag{AT-O}"
+item = ["flag", "Upper Austria"]
+
+[[rewrite]]
+matches = "worldflag{AT-S}"
+item = ["flag", "Salzburg"]
+
+[[rewrite]]
+matches = "worldflag{AT-St}"
+item = ["flag", "Styria"]
+
+[[rewrite]]
+matches = "worldflag{AT-T}"
+item = ["flag", "The Tyrol"]
+
+[[rewrite]]
+matches = "worldflag{AT-V}"
+item = ["flag", "Vorarlberg"]
+
+[[rewrite]]
+matches = "worldflag{AT-W}"
+item = ["flag", "Vienna"]
+
+[[rewrite]]
+matches = "worldflag{AU}"
+item = ["flag", "Australia"]
+
+[[rewrite]]
+matches = "worldflag{AX}"
+item = ["flag", "AAland"]
+word = '{\AA}land'
+preserve_escapes = true
+
+[[rewrite]]
+matches = "worldflag{AZ}"
+item = ["flag", "Azerbaijan"]
+
+[[rewrite]]
+matches = "worldflag{BA}"
+item = ["flag", "Bosnia and Herzegovina"]
+
+[[rewrite]]
+matches = "worldflag{BB}"
+item = ["flag", "Barbados"]
+
+[[rewrite]]
+matches = "worldflag{BD}"
+item = ["flag", "Bangladesh"]
+
+[[rewrite]]
+matches = "worldflag{BE}"
+item = ["flag", "Belgium"]
+
+[[rewrite]]
+matches = "worldflag{BF}"
+item = ["flag", "Burkina Faso"]
+
+[[rewrite]]
+matches = "worldflag{BG}"
+item = ["flag", "Bulgaria"]
+
+[[rewrite]]
+matches = "worldflag{BH}"
+item = ["flag", "Bahrain"]
+
+[[rewrite]]
+matches = "worldflag{BI}"
+item = ["flag", "Burundi"]
+
+[[rewrite]]
+matches = "worldflag{BJ}"
+item = ["flag", "Benin"]
+
+[[rewrite]]
+matches = "worldflag{BN}"
+item = ["flag", "Brunei"]
+
+[[rewrite]]
+matches = "worldflag{BO}"
+item = ["flag", "Bolivia"]
+
+[[rewrite]]
+matches = "worldflag{BR}"
+item = ["flag", "Brazil"]
+
+[[rewrite]]
+matches = "worldflag{BS}"
+item = ["flag", "Bahamas"]
+
+[[rewrite]]
+matches = "worldflag{BT}"
+item = ["flag", "Bhutan"]
+
+[[rewrite]]
+matches = "worldflag{BW}"
+item = ["flag", "Botswana"]
+
+[[rewrite]]
+matches = "worldflag{BY}"
+item = ["flag", "Belarus"]
+
+[[rewrite]]
+matches = "worldflag{BZ}"
+item = ["flag", "Belize"]
+
+[[rewrite]]
+matches = "worldflag{CA}"
+item = ["flag", "Canada"]
+
+[[rewrite]]
+matches = "worldflag{CD}"
+item = ["flag", "Congo Brazzaville"]
+word = "Congo--Brazzaville"
+
+[[rewrite]]
+matches = "worldflag{CF}"
+item = ["flag", "Central African Republic"]
+
+[[rewrite]]
+matches = "worldflag{CG}"
+item = ["flag", "Congo Kinshasa"]
+word = "Congo--Kinshasa"
+
+[[rewrite]]
+matches = "worldflag{CH}"
+item = ["flag", "Switzerland"]
+
+[[rewrite]]
+matches = "worldflag{CI}"
+item = ["flag", "Cote d'Ivoire"]
+word = "C\\^ote d'Ivoire"
+
+[[rewrite]]
+matches = "worldflag{CK}"
+item = ["flag", "Cook Islands"]
+
+[[rewrite]]
+matches = "worldflag{CL}"
+item = ["flag", "Chile"]
+
+[[rewrite]]
+matches = "worldflag{CM}"
+item = ["flag", "Cameroon"]
+
+[[rewrite]]
+matches = "worldflag{CN}"
+item = ["flag", "China"]
+
+[[rewrite]]
+matches = "worldflag{CO}"
+item = ["flag", "Colombia"]
+
+[[rewrite]]
+matches = "worldflag{CR}"
+item = ["flag", "Costa Rica"]
+
+[[rewrite]]
+matches = "worldflag{CU}"
+item = ["flag", "Cuba"]
+
+[[rewrite]]
+matches = "worldflag{CV}"
+item = ["flag", "Cape Verde"]
+
+[[rewrite]]
+matches = "worldflag{CY}"
+item = ["flag", "Cyprus"]
+
+[[rewrite]]
+matches = "worldflag{CZ}"
+item = ["flag", "Czech Republic"]
+
+[[rewrite]]
+matches = "worldflag{DE}"
+item = ["flag", "Germany"]
+
+[[rewrite]]
+matches = "worldflag{DJ}"
+item = ["flag", "Djibouti"]
+
+[[rewrite]]
+matches = "worldflag{DK}"
+item = ["flag", "Denmark"]
+
+[[rewrite]]
+matches = "worldflag{DM}"
+item = ["flag", "Dominica"]
+
+[[rewrite]]
+matches = "worldflag{DO}"
+item = ["flag", "Dominican Republic"]
+
+[[rewrite]]
+matches = "worldflag{DZ}"
+item = ["flag", "Algeria"]
+
+[[rewrite]]
+matches = "worldflag{EC}"
+item = ["flag", "Ecuador"]
+
+[[rewrite]]
+matches = "worldflag{EE}"
+item = ["flag", "Estonia"]
+
+[[rewrite]]
+matches = "worldflag{EG}"
+item = ["flag", "Egypt"]
+
+[[rewrite]]
+matches = "worldflag{EH}"
+item = ["flag", "Western Sahara"]
+
+[[rewrite]]
+matches = "worldflag{ER}"
+item = ["flag", "Eritrea"]
+
+[[rewrite]]
+matches = "worldflag{ES}"
+item = ["flag", "Spain"]
+
+[[rewrite]]
+matches = "worldflag{ET}"
+item = ["flag", "Ethiopia"]
+
+[[rewrite]]
+matches = "worldflag{EU}"
+item = ["flag", "European Union"]
+
+[[rewrite]]
+matches = "worldflag{FI}"
+item = ["flag", "Finland"]
+
+[[rewrite]]
+matches = "worldflag{FJ}"
+item = ["flag", "Fiji"]
+
+[[rewrite]]
+matches = "worldflag{FM}"
+item = ["flag", "Micronesia, Federated States of"]
+
+[[rewrite]]
+matches = "worldflag{FO}"
+item = ["flag", "Faroe Islands"]
+
+[[rewrite]]
+matches = "worldflag{FR}"
+item = ["flag", "France"]
+
+[[rewrite]]
+matches = "worldflag{GA}"
+item = ["flag", "Gabon"]
+
+[[rewrite]]
+matches = "worldflag{GB}"
+item = ["flag", "United Kingdom"]
+
+[[rewrite]]
+matches = "worldflag{GD}"
+item = ["flag", "Grenada"]
+
+[[rewrite]]
+matches = "worldflag{GE}"
+item = ["flag", "Georgia"]
+
+[[rewrite]]
+matches = "worldflag{GF}"
+item = ["flag", "French Guiana"]
+
+[[rewrite]]
+matches = "worldflag{GG}"
+item = ["flag", "Guernsey"]
+
+[[rewrite]]
+matches = "worldflag{GH}"
+item = ["flag", "Ghana"]
+
+[[rewrite]]
+matches = "worldflag{GI}"
+item = ["flag", "Gibraltar"]
+
+[[rewrite]]
+matches = "worldflag{GL}"
+item = ["flag", "Greenland"]
+
+[[rewrite]]
+matches = "worldflag{GM}"
+item = ["flag", "Gambia"]
+
+[[rewrite]]
+matches = "worldflag{GN}"
+item = ["flag", "Guinea"]
+
+[[rewrite]]
+matches = "worldflag{GQ}"
+item = ["flag", "Equatorial Guinea"]
+
+[[rewrite]]
+matches = "worldflag{GR}"
+item = ["flag", "Greece"]
+
+[[rewrite]]
+matches = "worldflag{GT}"
+item = ["flag", "Guatemala"]
+
+[[rewrite]]
+matches = "worldflag{GW}"
+item = ["flag", "Guinea-Bissau"]
+
+[[rewrite]]
+matches = "worldflag{GY}"
+item = ["flag", "Guyana"]
+
+[[rewrite]]
+matches = "worldflag{HN}"
+item = ["flag", "Honduras"]
+
+[[rewrite]]
+matches = "worldflag{HR}"
+item = ["flag", "Croatia"]
+
+[[rewrite]]
+matches = "worldflag{HT}"
+item = ["flag", "Haiti"]
+
+[[rewrite]]
+matches = "worldflag{HU}"
+item = ["flag", "Hungary"]
+
+[[rewrite]]
+matches = "worldflag{ID}"
+item = ["flag", "Indonesia"]
+
+[[rewrite]]
+matches = "worldflag{IE}"
+item = ["flag", "Ireland"]
+
+[[rewrite]]
+matches = "worldflag{IL}"
+item = ["flag", "Israel"]
+
+[[rewrite]]
+matches = "worldflag{IM}"
+item = ["flag", "Isle of Man"]
+
+[[rewrite]]
+matches = "worldflag{IN}"
+item = ["flag", "India"]
+
+[[rewrite]]
+matches = "worldflag{IQ}"
+item = ["flag", "Iraq"]
+
+[[rewrite]]
+matches = "worldflag{IR}"
+item = ["flag", "Iran"]
+
+[[rewrite]]
+matches = "worldflag{IS}"
+item = ["flag", "Iceland"]
+
+[[rewrite]]
+matches = "worldflag{IT}"
+item = ["flag", "Italy"]
+
+[[rewrite]]
+matches = "worldflag{JE}"
+item = ["flag", "Jersey"]
+
+[[rewrite]]
+matches = "worldflag{JM}"
+item = ["flag", "Jamaica"]
+
+[[rewrite]]
+matches = "worldflag{JO}"
+item = ["flag", "Jordan"]
+
+[[rewrite]]
+matches = "worldflag{JP}"
+item = ["flag", "Japan"]
+
+[[rewrite]]
+matches = "worldflag{KE}"
+item = ["flag", "Kenya"]
+
+[[rewrite]]
+matches = "worldflag{KG}"
+item = ["flag", "Kyrgyzstan"]
+
+[[rewrite]]
+matches = "worldflag{KH}"
+item = ["flag", "Cambodia"]
+
+[[rewrite]]
+matches = "worldflag{KI}"
+item = ["flag", "Kiribati"]
+
+[[rewrite]]
+matches = "worldflag{KM}"
+item = ["flag", "Comoros"]
+
+[[rewrite]]
+matches = "worldflag{KN}"
+item = ["flag", "Saint Kitts and Nevis"]
+
+[[rewrite]]
+matches = "worldflag{KO}"
+item = ["flag", "Kosovo"]
+
+[[rewrite]]
+matches = "worldflag{KP}"
+item = ["flag", "North Korea"]
+
+[[rewrite]]
+matches = "worldflag{KR}"
+item = ["flag", "South Korea"]
+
+[[rewrite]]
+matches = "worldflag{KW}"
+item = ["flag", "Kuwait"]
+
+[[rewrite]]
+matches = "worldflag{KZ}"
+item = ["flag", "Kazakhstan"]
+
+[[rewrite]]
+matches = "worldflag{LA}"
+item = ["flag", "Laos"]
+
+[[rewrite]]
+matches = "worldflag{LB}"
+item = ["flag", "Lebanon"]
+
+[[rewrite]]
+matches = "worldflag{LC}"
+item = ["flag", "Saint Lucia"]
+
+[[rewrite]]
+matches = "worldflag{LI}"
+item = ["flag", "Liechtenstein"]
+
+[[rewrite]]
+matches = "worldflag{LK}"
+item = ["flag", "Sri Lanka"]
+
+[[rewrite]]
+matches = "worldflag{LR}"
+item = ["flag", "Liberia"]
+
+[[rewrite]]
+matches = "worldflag{LS}"
+item = ["flag", "Lesotho"]
+
+[[rewrite]]
+matches = "worldflag{LT}"
+item = ["flag", "Lithuania"]
+
+[[rewrite]]
+matches = "worldflag{LU}"
+item = ["flag", "Luxembourg"]
+
+[[rewrite]]
+matches = "worldflag{LV}"
+item = ["flag", "Latvia"]
+
+[[rewrite]]
+matches = "worldflag{LY}"
+item = ["flag", "Libya"]
+
+[[rewrite]]
+matches = "worldflag{MA}"
+item = ["flag", "Morocco"]
+
+[[rewrite]]
+matches = "worldflag{MD}"
+item = ["flag", "Moldova"]
+
+[[rewrite]]
+matches = "worldflag{ME}"
+item = ["flag", "Montenegro"]
+
+[[rewrite]]
+matches = "worldflag{MG}"
+item = ["flag", "Madagascar"]
+
+[[rewrite]]
+matches = "worldflag{MH}"
+item = ["flag", "Marshall Islands"]
+
+[[rewrite]]
+matches = "worldflag{MK}"
+item = ["flag", "North Macedonia"]
+
+[[rewrite]]
+matches = "worldflag{ML}"
+item = ["flag", "Mali"]
+
+[[rewrite]]
+matches = "worldflag{MM}"
+item = ["flag", "Myanmar"]
+
+[[rewrite]]
+matches = "worldflag{MN}"
+item = ["flag", "Mongolia"]
+
+[[rewrite]]
+matches = "worldflag{MR}"
+item = ["flag", "Mauritania"]
+
+[[rewrite]]
+matches = "worldflag{MT}"
+item = ["flag", "Malta"]
+
+[[rewrite]]
+matches = "worldflag{MU}"
+item = ["flag", "Mauritius"]
+
+[[rewrite]]
+matches = "worldflag{MV}"
+item = ["flag", "Maldives"]
+
+[[rewrite]]
+matches = "worldflag{MW}"
+item = ["flag", "Malawi"]
+
+[[rewrite]]
+matches = "worldflag{MX}"
+item = ["flag", "Mexico"]
+
+[[rewrite]]
+matches = "worldflag{MY}"
+item = ["flag", "Malaysia"]
+
+[[rewrite]]
+matches = "worldflag{MZ}"
+item = ["flag", "Mozambique"]
+
+[[rewrite]]
+matches = "worldflag{NA}"
+item = ["flag", "Namibia"]
+
+[[rewrite]]
+matches = "worldflag{NE}"
+item = ["flag", "Niger"]
+
+[[rewrite]]
+matches = "worldflag{NG}"
+item = ["flag", "Nigeria"]
+
+[[rewrite]]
+matches = "worldflag{NI}"
+item = ["flag", "Nicaragua"]
+
+[[rewrite]]
+matches = "worldflag{NL}"
+item = ["flag", "Netherlands"]
+
+[[rewrite]]
+matches = "worldflag{NO}"
+item = ["flag", "Norway"]
+
+[[rewrite]]
+matches = "worldflag{NP}"
+item = ["flag", "Nepal"]
+
+[[rewrite]]
+matches = "worldflag{NR}"
+item = ["flag", "Nauru"]
+
+[[rewrite]]
+matches = "worldflag{NU}"
+item = ["flag", "Niue"]
+
+[[rewrite]]
+matches = "worldflag{NZ}"
+item = ["flag", "New Zealand"]
+
+[[rewrite]]
+matches = "worldflag{OM}"
+item = ["flag", "Oman"]
+
+[[rewrite]]
+matches = "worldflag{PA}"
+item = ["flag", "Panama"]
+
+[[rewrite]]
+matches = "worldflag{PE}"
+item = ["flag", "Peru"]
+
+[[rewrite]]
+matches = "worldflag{PG}"
+item = ["flag", "Papua New Guinea"]
+
+[[rewrite]]
+matches = "worldflag{PH}"
+item = ["flag", "Philippines"]
+
+[[rewrite]]
+matches = "worldflag{PK}"
+item = ["flag", "Pakistan"]
+
+[[rewrite]]
+matches = "worldflag{PL}"
+item = ["flag", "Poland"]
+
+[[rewrite]]
+matches = "worldflag{PR}"
+item = ["flag", "Puerto Rico"]
+
+[[rewrite]]
+matches = "worldflag{PS}"
+item = ["flag", "Palestinian Territories"]
+
+[[rewrite]]
+matches = "worldflag{PT}"
+item = ["flag", "Portugal"]
+
+[[rewrite]]
+matches = "worldflag{PW}"
+item = ["flag", "Palau"]
+
+[[rewrite]]
+matches = "worldflag{PY}"
+item = ["flag", "Paraguay"]
+
+[[rewrite]]
+matches = "worldflag{QA}"
+item = ["flag", "Qatar"]
+
+[[rewrite]]
+matches = "worldflag{RE}"
+item = ["flag", "Reunion"]
+word = "R\\'eunion"
+
+[[rewrite]]
+matches = "worldflag{RO}"
+item = ["flag", "Romania"]
+
+[[rewrite]]
+matches = "worldflag{RS}"
+item = ["flag", "Serbia"]
+
+[[rewrite]]
+matches = "worldflag{RU}"
+item = ["flag", "Russian Federation"]
+
+[[rewrite]]
+matches = "worldflag{RW}"
+item = ["flag", "Rwanda"]
+
+[[rewrite]]
+matches = "worldflag{SA}"
+item = ["flag", "Saudi Arabia"]
+
+[[rewrite]]
+matches = "worldflag{SB}"
+item = ["flag", "Solomon Islands"]
+
+[[rewrite]]
+matches = "worldflag{SC}"
+item = ["flag", "Seychelles"]
+
+[[rewrite]]
+matches = "worldflag{SD}"
+item = ["flag", "Sudan"]
+
+[[rewrite]]
+matches = "worldflag{SE}"
+item = ["flag", "Sweden"]
+
+[[rewrite]]
+matches = "worldflag{SG}"
+item = ["flag", "Singapore"]
+
+[[rewrite]]
+matches = "worldflag{SI}"
+item = ["flag", "Slovenia"]
+
+[[rewrite]]
+matches = "worldflag{SK}"
+item = ["flag", "Slovakia"]
+
+[[rewrite]]
+matches = "worldflag{SL}"
+item = ["flag", "Sierra Leone"]
+
+[[rewrite]]
+matches = "worldflag{SM}"
+item = ["flag", "San Marino"]
+
+[[rewrite]]
+matches = "worldflag{SN}"
+item = ["flag", "Senegal"]
+
+[[rewrite]]
+matches = "worldflag{SO}"
+item = ["flag", "Somalia"]
+
+[[rewrite]]
+matches = "worldflag{SR}"
+item = ["flag", "Suriname"]
+
+[[rewrite]]
+matches = "worldflag{SS}"
+item = ["flag", "South Sudan"]
+
+[[rewrite]]
+matches = "worldflag{ST}"
+item = ["flag", "Sao Tome and Principe"]
+word = "S\\~ao Tom\\'e and Pr\\'incipe"
+
+[[rewrite]]
+matches = "worldflag{SV}"
+item = ["flag", "El Salvador"]
+
+[[rewrite]]
+matches = "worldflag{SY}"
+item = ["flag", "Syria"]
+
+[[rewrite]]
+matches = "worldflag{SZ}"
+item = ["flag", "Swaziland"]
+
+[[rewrite]]
+matches = "worldflag{StEustasius}"
+item = ["flag", "Saint Eustasius"]
+
+[[rewrite]]
+matches = "worldflag{TD}"
+item = ["flag", "Chad"]
+
+[[rewrite]]
+matches = "worldflag{TG}"
+item = ["flag", "Togo"]
+
+[[rewrite]]
+matches = "worldflag{TH}"
+item = ["flag", "Thailand"]
+
+[[rewrite]]
+matches = "worldflag{TJ}"
+item = ["flag", "Tajikistan"]
+
+[[rewrite]]
+matches = "worldflag{TL}"
+item = ["flag", "Timor-Leste"]
+
+[[rewrite]]
+matches = "worldflag{TM}"
+item = ["flag", "Turkmenistan"]
+
+[[rewrite]]
+matches = "worldflag{TN}"
+item = ["flag", "Tunisia"]
+
+[[rewrite]]
+matches = "worldflag{TO}"
+item = ["flag", "Tonga"]
+
+[[rewrite]]
+matches = "worldflag{TR}"
+item = ["flag", "Turkey"]
+
+[[rewrite]]
+matches = "worldflag{TT}"
+item = ["flag", "Trinidad and Tobago"]
+
+[[rewrite]]
+matches = "worldflag{TV}"
+item = ["flag", "Tuvalu"]
+
+[[rewrite]]
+matches = "worldflag{TW}"
+item = ["flag", "Taiwan"]
+
+[[rewrite]]
+matches = "worldflag{TZ}"
+item = ["flag", "Tanzania"]
+
+[[rewrite]]
+matches = "worldflag{UA}"
+item = ["flag", "Ukraine"]
+
+[[rewrite]]
+matches = "worldflag{UG}"
+item = ["flag", "Uganda"]
+
+[[rewrite]]
+matches = "worldflag{UNO}"
+item = ["flag", "United Nations"]
+
+[[rewrite]]
+matches = "worldflag{US}"
+item = ["flag", "United States of America"]
+
+[[rewrite]]
+matches = "worldflag{UY}"
+item = ["flag", "Uruguay"]
+
+[[rewrite]]
+matches = "worldflag{UZ}"
+item = ["flag", "Uzbekistan"]
+
+[[rewrite]]
+matches = "worldflag{VA}"
+item = ["flag", "Holy See"]
+
+[[rewrite]]
+matches = "worldflag{VC}"
+item = ["flag", "Saint Vincent and Grenadines"]
+
+[[rewrite]]
+matches = "worldflag{VE}"
+item = ["flag", "Venezuela"]
+
+[[rewrite]]
+matches = "worldflag{VN}"
+item = ["flag", "Vietnam"]
+
+[[rewrite]]
+matches = "worldflag{VU}"
+item = ["flag", "Vanuatu"]
+
+[[rewrite]]
+matches = "worldflag{WB}"
+item = ["flag", "Wieselburger Bier"]
+
+[[rewrite]]
+matches = "worldflag{WHO}"
+item = ["flag", "World Health Organization"]
+
+[[rewrite]]
+matches = "worldflag{WS}"
+item = ["flag", "Samoa"]
+
+[[rewrite]]
+matches = "worldflag{YE}"
+item = ["flag", "Yemen"]
+
+[[rewrite]]
+matches = "worldflag{ZA}"
+item = ["flag", "South Africa"]
+
+[[rewrite]]
+matches = "worldflag{ZM}"
+item = ["flag", "Zambia"]
+
+[[rewrite]]
+matches = "worldflag{ZW}"
+item = ["flag", "Zimbabwe"]
+
+# Non-country-code flags follow.
+
+[[rewrite]]
+regex = 'worldflag\{Red(.*)\}'
+item = ["flag", 'Red \1']
+word = 'Red \1'
+
+[[rewrite]]
+matches = "worldflag{JollyRoger}"
+item = ["flag", "Jolly Roger"]
+
+[[rewrite]]
+regex = '^worldflag{(.*)\}$'
+item = ["flag", '\1']
+
+# ------------------------------- twemoji --------------------------------
+
+[[rewrite]]
+contains = 'flag: {\AA}land Islands'
+item = ["flag", "AAland"]
+word = '{\AA}land'
+preserve_escapes = true
+
+[[rewrite]]
+regex = '^flag:.*Ivoire$'
+item = ["flag", "Cote d'Ivoire"]
+word = "C\\^ote d'Ivoire"
+
+[[rewrite]]
+regex = 'flag:\s+(.+)'
+item = ["flag", '\1']
+continue = true
+
+[[rewrite]]
+top_matches = "flag"
+regex = '^St\.\s+(.*)$'
+item = 'Saint \1'
+word = 'Saint \1'
+continue = true
+
+[[rewrite]]
+top_matches = "flag"
+regex = '^(.*?)\s+(\\?&)\s+(.*)$'
+word = '\1 and \3'
+continue = true
+
+[[rewrite]]
+top_matches = "flag"
+prefix = "Cocos"
+word = "Cocos Islands"
+
+[[rewrite]]
+top_matches = "flag"
+regex = '^Congo - (.*)$'
+item = 'Congo \1'
+word = 'Congo--\1'
+
+[[rewrite]]
+top_matches = "flag"
+matches = "Czechia"
+item = "Czech Republic"
+
+[[rewrite]]
+top_matches = "flag"
+matches = "Micronesia"
+word = "Micronesia, Federated States of"
+
+[[rewrite]]
+top_matches = "flag"
+prefix = "Myanmar"
+word = "Myanmar"
+
+[[rewrite]]
+top_matches = "flag"
+matches = "Russia"
+word = "Russian Federation"
+
+[[rewrite]]
+top_matches = "flag"
+regex = '^R.*union$'
+item = "Reunion"
+word = "R\\'eunion"
+
+[[rewrite]]
+top_matches = "flag"
+regex = 'S.*o Tom.*and Pr.*cipe'
+item = "Sao Tome and Principe"
+word = "S\\~ao Tom\\'e and Pr\\'incipe"
+
+[[rewrite]]
+top_matches = "flag"
+matches = "U.S. Outlying Islands"
+word = "United States Minor Outlying Islands"
+
+[[rewrite]]
+top_matches = "flag"
+matches = "U.S. Virgin Islands"
+word = "United States Virgin Islands"
+
+[[rewrite]]
+top_matches = "flag"
+matches = "United States"
+word = "United States of America"

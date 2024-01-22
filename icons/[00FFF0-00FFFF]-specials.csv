@@ -1,6 +1,0 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-FFF9	"""￹"""	FFF0..FFFF	Specials	Interlinear annotation anchor		
-FFFA	"""￺"""	FFF0..FFFF	Specials	Interlinear annotation separator		
-FFFB	"""￻"""	FFF0..FFFF	Specials	Interlinear annotation terminator		
-FFFC	"""￼"""	FFF0..FFFF	Specials	Object replacement character		
-FFFD	"""�"""	FFF0..FFFF	Specials	Replacement character		

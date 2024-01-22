@@ -1,0 +1,923 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+12000	"""𒀀"""	12000..123FF	Cuneiform	Cuneiform sign a		
+12001	"""𒀁"""	12000..123FF	Cuneiform	Cuneiform sign a times a		
+12002	"""𒀂"""	12000..123FF	Cuneiform	Cuneiform sign a times bad		
+12003	"""𒀃"""	12000..123FF	Cuneiform	Cuneiform sign a times gan2 tenu		
+12004	"""𒀄"""	12000..123FF	Cuneiform	Cuneiform sign a times ha		
+12005	"""𒀅"""	12000..123FF	Cuneiform	Cuneiform sign a times igi		
+12006	"""𒀆"""	12000..123FF	Cuneiform	Cuneiform sign a times lagar gunu		
+12007	"""𒀇"""	12000..123FF	Cuneiform	Cuneiform sign a times mush		
+12008	"""𒀈"""	12000..123FF	Cuneiform	Cuneiform sign a times sag		
+12009	"""𒀉"""	12000..123FF	Cuneiform	Cuneiform sign a2		
+1200A	"""𒀊"""	12000..123FF	Cuneiform	Cuneiform sign ab		
+1200B	"""𒀋"""	12000..123FF	Cuneiform	Cuneiform sign ab times ash2		
+1200C	"""𒀌"""	12000..123FF	Cuneiform	Cuneiform sign ab times dun3 gunu		
+1200D	"""𒀍"""	12000..123FF	Cuneiform	Cuneiform sign ab times gal		
+1200E	"""𒀎"""	12000..123FF	Cuneiform	Cuneiform sign ab times gan2 tenu		
+1200F	"""𒀏"""	12000..123FF	Cuneiform	Cuneiform sign ab times ha		
+12010	"""𒀐"""	12000..123FF	Cuneiform	Cuneiform sign ab times igi gunu		
+12011	"""𒀑"""	12000..123FF	Cuneiform	Cuneiform sign ab times imin		
+12012	"""𒀒"""	12000..123FF	Cuneiform	Cuneiform sign ab times lagab		
+12013	"""𒀓"""	12000..123FF	Cuneiform	Cuneiform sign ab times shesh		
+12014	"""𒀔"""	12000..123FF	Cuneiform	Cuneiform sign ab times u plus u plus u		
+12015	"""𒀕"""	12000..123FF	Cuneiform	Cuneiform sign ab gunu		
+12016	"""𒀖"""	12000..123FF	Cuneiform	Cuneiform sign ab2		
+12017	"""𒀗"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times balag		
+12018	"""𒀘"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times gan2 tenu		
+12019	"""𒀙"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times me plus en		
+1201A	"""𒀚"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times sha3		
+1201B	"""𒀛"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times tak4		
+1201C	"""𒀜"""	12000..123FF	Cuneiform	Cuneiform sign ad		
+1201D	"""𒀝"""	12000..123FF	Cuneiform	Cuneiform sign ak		
+1201E	"""𒀞"""	12000..123FF	Cuneiform	Cuneiform sign ak times erin2		
+1201F	"""𒀟"""	12000..123FF	Cuneiform	Cuneiform sign ak times shita plus gish		
+12020	"""𒀠"""	12000..123FF	Cuneiform	Cuneiform sign al		
+12021	"""𒀡"""	12000..123FF	Cuneiform	Cuneiform sign al times al		
+12022	"""𒀢"""	12000..123FF	Cuneiform	Cuneiform sign al times dim2		
+12023	"""𒀣"""	12000..123FF	Cuneiform	Cuneiform sign al times gish		
+12024	"""𒀤"""	12000..123FF	Cuneiform	Cuneiform sign al times ha		
+12025	"""𒀥"""	12000..123FF	Cuneiform	Cuneiform sign al times kad3		
+12026	"""𒀦"""	12000..123FF	Cuneiform	Cuneiform sign al times ki		
+12027	"""𒀧"""	12000..123FF	Cuneiform	Cuneiform sign al times she		
+12028	"""𒀨"""	12000..123FF	Cuneiform	Cuneiform sign al times ush		
+12029	"""𒀩"""	12000..123FF	Cuneiform	Cuneiform sign alan		
+1202A	"""𒀪"""	12000..123FF	Cuneiform	Cuneiform sign aleph		
+1202B	"""𒀫"""	12000..123FF	Cuneiform	Cuneiform sign amar		
+1202C	"""𒀬"""	12000..123FF	Cuneiform	Cuneiform sign amar times she		
+1202D	"""𒀭"""	12000..123FF	Cuneiform	Cuneiform sign an		
+1202E	"""𒀮"""	12000..123FF	Cuneiform	Cuneiform sign an over an		
+1202F	"""𒀯"""	12000..123FF	Cuneiform	Cuneiform sign an three times		
+12030	"""𒀰"""	12000..123FF	Cuneiform	Cuneiform sign an plus naga opposing an plus naga		
+12031	"""𒀱"""	12000..123FF	Cuneiform	Cuneiform sign an plus naga squared		
+12032	"""𒀲"""	12000..123FF	Cuneiform	Cuneiform sign anshe		
+12033	"""𒀳"""	12000..123FF	Cuneiform	Cuneiform sign apin		
+12034	"""𒀴"""	12000..123FF	Cuneiform	Cuneiform sign arad		
+12035	"""𒀵"""	12000..123FF	Cuneiform	Cuneiform sign arad times kur		
+12036	"""𒀶"""	12000..123FF	Cuneiform	Cuneiform sign arkab		
+12037	"""𒀷"""	12000..123FF	Cuneiform	Cuneiform sign asal2		
+12038	"""𒀸"""	12000..123FF	Cuneiform	Cuneiform sign ash		
+12039	"""𒀹"""	12000..123FF	Cuneiform	Cuneiform sign ash zida tenu		
+1203A	"""𒀺"""	12000..123FF	Cuneiform	Cuneiform sign ash kaba tenu		
+1203B	"""𒀻"""	12000..123FF	Cuneiform	Cuneiform sign ash over ash tug2 over tug2 tug2 over tug2 pap		
+1203C	"""𒀼"""	12000..123FF	Cuneiform	Cuneiform sign ash over ash over ash		
+1203D	"""𒀽"""	12000..123FF	Cuneiform	Cuneiform sign ash over ash over ash crossing ash over ash over ash		
+1203E	"""𒀾"""	12000..123FF	Cuneiform	Cuneiform sign ash2		
+1203F	"""𒀿"""	12000..123FF	Cuneiform	Cuneiform sign ashgab		
+12040	"""𒁀"""	12000..123FF	Cuneiform	Cuneiform sign ba		
+12041	"""𒁁"""	12000..123FF	Cuneiform	Cuneiform sign bad		
+12042	"""𒁂"""	12000..123FF	Cuneiform	Cuneiform sign bag3		
+12043	"""𒁃"""	12000..123FF	Cuneiform	Cuneiform sign bahar2		
+12044	"""𒁄"""	12000..123FF	Cuneiform	Cuneiform sign bal		
+12045	"""𒁅"""	12000..123FF	Cuneiform	Cuneiform sign bal over bal		
+12046	"""𒁆"""	12000..123FF	Cuneiform	Cuneiform sign balag		
+12047	"""𒁇"""	12000..123FF	Cuneiform	Cuneiform sign bar		
+12048	"""𒁈"""	12000..123FF	Cuneiform	Cuneiform sign bara2		
+12049	"""𒁉"""	12000..123FF	Cuneiform	Cuneiform sign bi		
+1204A	"""𒁊"""	12000..123FF	Cuneiform	Cuneiform sign bi times a		
+1204B	"""𒁋"""	12000..123FF	Cuneiform	Cuneiform sign bi times gar		
+1204C	"""𒁌"""	12000..123FF	Cuneiform	Cuneiform sign bi times igi gunu		
+1204D	"""𒁍"""	12000..123FF	Cuneiform	Cuneiform sign bu		
+1204E	"""𒁎"""	12000..123FF	Cuneiform	Cuneiform sign bu over bu ab		
+1204F	"""𒁏"""	12000..123FF	Cuneiform	Cuneiform sign bu over bu un		
+12050	"""𒁐"""	12000..123FF	Cuneiform	Cuneiform sign bu crossing bu		
+12051	"""𒁑"""	12000..123FF	Cuneiform	Cuneiform sign bulug		
+12052	"""𒁒"""	12000..123FF	Cuneiform	Cuneiform sign bulug over bulug		
+12053	"""𒁓"""	12000..123FF	Cuneiform	Cuneiform sign bur		
+12054	"""𒁔"""	12000..123FF	Cuneiform	Cuneiform sign bur2		
+12055	"""𒁕"""	12000..123FF	Cuneiform	Cuneiform sign da		
+12056	"""𒁖"""	12000..123FF	Cuneiform	Cuneiform sign dag		
+12057	"""𒁗"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times a plus mash		
+12058	"""𒁘"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times amar		
+12059	"""𒁙"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times balag		
+1205A	"""𒁚"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times bi		
+1205B	"""𒁛"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ga		
+1205C	"""𒁜"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ga plus mash		
+1205D	"""𒁝"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gi		
+1205E	"""𒁞"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gir2		
+1205F	"""𒁟"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gud		
+12060	"""𒁠"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ha		
+12061	"""𒁡"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ir		
+12062	"""𒁢"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ir plus lu		
+12063	"""𒁣"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times kak		
+12064	"""𒁤"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times la		
+12065	"""𒁥"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lu		
+12066	"""𒁦"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lu plus mash2		
+12067	"""𒁧"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lum		
+12068	"""𒁨"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ne		
+12069	"""𒁩"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times pap plus pap		
+1206A	"""𒁪"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times si		
+1206B	"""𒁫"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times tak4		
+1206C	"""𒁬"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times u2 plus gir2		
+1206D	"""𒁭"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ush		
+1206E	"""𒁮"""	12000..123FF	Cuneiform	Cuneiform sign dam		
+1206F	"""𒁯"""	12000..123FF	Cuneiform	Cuneiform sign dar		
+12070	"""𒁰"""	12000..123FF	Cuneiform	Cuneiform sign dara3		
+12071	"""𒁱"""	12000..123FF	Cuneiform	Cuneiform sign dara4		
+12072	"""𒁲"""	12000..123FF	Cuneiform	Cuneiform sign di		
+12073	"""𒁳"""	12000..123FF	Cuneiform	Cuneiform sign dib		
+12074	"""𒁴"""	12000..123FF	Cuneiform	Cuneiform sign dim		
+12075	"""𒁵"""	12000..123FF	Cuneiform	Cuneiform sign dim times she		
+12076	"""𒁶"""	12000..123FF	Cuneiform	Cuneiform sign dim2		
+12077	"""𒁷"""	12000..123FF	Cuneiform	Cuneiform sign din		
+12078	"""𒁸"""	12000..123FF	Cuneiform	Cuneiform sign din kaskal u gunu dish		
+12079	"""𒁹"""	12000..123FF	Cuneiform	Cuneiform sign dish		
+1207A	"""𒁺"""	12000..123FF	Cuneiform	Cuneiform sign du		
+1207B	"""𒁻"""	12000..123FF	Cuneiform	Cuneiform sign du over du		
+1207C	"""𒁼"""	12000..123FF	Cuneiform	Cuneiform sign du gunu		
+1207D	"""𒁽"""	12000..123FF	Cuneiform	Cuneiform sign du sheshig		
+1207E	"""𒁾"""	12000..123FF	Cuneiform	Cuneiform sign dub		
+1207F	"""𒁿"""	12000..123FF	Cuneiform	Cuneiform sign dub times esh2		
+12080	"""𒂀"""	12000..123FF	Cuneiform	Cuneiform sign dub2		
+12081	"""𒂁"""	12000..123FF	Cuneiform	Cuneiform sign dug		
+12082	"""𒂂"""	12000..123FF	Cuneiform	Cuneiform sign dugud		
+12083	"""𒂃"""	12000..123FF	Cuneiform	Cuneiform sign duh		
+12084	"""𒂄"""	12000..123FF	Cuneiform	Cuneiform sign dun		
+12085	"""𒂅"""	12000..123FF	Cuneiform	Cuneiform sign dun3		
+12086	"""𒂆"""	12000..123FF	Cuneiform	Cuneiform sign dun3 gunu		
+12087	"""𒂇"""	12000..123FF	Cuneiform	Cuneiform sign dun3 gunu gunu		
+12088	"""𒂈"""	12000..123FF	Cuneiform	Cuneiform sign dun4		
+12089	"""𒂉"""	12000..123FF	Cuneiform	Cuneiform sign dur2		
+1208A	"""𒂊"""	12000..123FF	Cuneiform	Cuneiform sign e		
+1208B	"""𒂋"""	12000..123FF	Cuneiform	Cuneiform sign e times pap		
+1208C	"""𒂌"""	12000..123FF	Cuneiform	Cuneiform sign e over e nun over nun		
+1208D	"""𒂍"""	12000..123FF	Cuneiform	Cuneiform sign e2		
+1208E	"""𒂎"""	12000..123FF	Cuneiform	Cuneiform sign e2 times a plus ha plus da		
+1208F	"""𒂏"""	12000..123FF	Cuneiform	Cuneiform sign e2 times gar		
+12090	"""𒂐"""	12000..123FF	Cuneiform	Cuneiform sign e2 times mi		
+12091	"""𒂑"""	12000..123FF	Cuneiform	Cuneiform sign e2 times sal		
+12092	"""𒂒"""	12000..123FF	Cuneiform	Cuneiform sign e2 times she		
+12093	"""𒂓"""	12000..123FF	Cuneiform	Cuneiform sign e2 times u		
+12094	"""𒂔"""	12000..123FF	Cuneiform	Cuneiform sign edin		
+12095	"""𒂕"""	12000..123FF	Cuneiform	Cuneiform sign egir		
+12096	"""𒂖"""	12000..123FF	Cuneiform	Cuneiform sign el		
+12097	"""𒂗"""	12000..123FF	Cuneiform	Cuneiform sign en		
+12098	"""𒂘"""	12000..123FF	Cuneiform	Cuneiform sign en times gan2		
+12099	"""𒂙"""	12000..123FF	Cuneiform	Cuneiform sign en times gan2 tenu		
+1209A	"""𒂚"""	12000..123FF	Cuneiform	Cuneiform sign en times me		
+1209B	"""𒂛"""	12000..123FF	Cuneiform	Cuneiform sign en crossing en		
+1209C	"""𒂜"""	12000..123FF	Cuneiform	Cuneiform sign en opposing en		
+1209D	"""𒂝"""	12000..123FF	Cuneiform	Cuneiform sign en squared		
+1209E	"""𒂞"""	12000..123FF	Cuneiform	Cuneiform sign eren		
+1209F	"""𒂟"""	12000..123FF	Cuneiform	Cuneiform sign erin2		
+120A0	"""𒂠"""	12000..123FF	Cuneiform	Cuneiform sign esh2		
+120A1	"""𒂡"""	12000..123FF	Cuneiform	Cuneiform sign ezen		
+120A2	"""𒂢"""	12000..123FF	Cuneiform	Cuneiform sign ezen times a		
+120A3	"""𒂣"""	12000..123FF	Cuneiform	Cuneiform sign ezen times a plus lal		
+120A4	"""𒂤"""	12000..123FF	Cuneiform	Cuneiform sign ezen times a plus lal times lal		
+120A5	"""𒂥"""	12000..123FF	Cuneiform	Cuneiform sign ezen times an		
+120A6	"""𒂦"""	12000..123FF	Cuneiform	Cuneiform sign ezen times bad		
+120A7	"""𒂧"""	12000..123FF	Cuneiform	Cuneiform sign ezen times dun3 gunu		
+120A8	"""𒂨"""	12000..123FF	Cuneiform	Cuneiform sign ezen times dun3 gunu gunu		
+120A9	"""𒂩"""	12000..123FF	Cuneiform	Cuneiform sign ezen times ha		
+120AA	"""𒂪"""	12000..123FF	Cuneiform	Cuneiform sign ezen times ha gunu		
+120AB	"""𒂫"""	12000..123FF	Cuneiform	Cuneiform sign ezen times igi gunu		
+120AC	"""𒂬"""	12000..123FF	Cuneiform	Cuneiform sign ezen times kaskal		
+120AD	"""𒂭"""	12000..123FF	Cuneiform	Cuneiform sign ezen times kaskal squared		
+120AE	"""𒂮"""	12000..123FF	Cuneiform	Cuneiform sign ezen times ku3		
+120AF	"""𒂯"""	12000..123FF	Cuneiform	Cuneiform sign ezen times la		
+120B0	"""𒂰"""	12000..123FF	Cuneiform	Cuneiform sign ezen times lal times lal		
+120B1	"""𒂱"""	12000..123FF	Cuneiform	Cuneiform sign ezen times li		
+120B2	"""𒂲"""	12000..123FF	Cuneiform	Cuneiform sign ezen times lu		
+120B3	"""𒂳"""	12000..123FF	Cuneiform	Cuneiform sign ezen times u2		
+120B4	"""𒂴"""	12000..123FF	Cuneiform	Cuneiform sign ezen times ud		
+120B5	"""𒂵"""	12000..123FF	Cuneiform	Cuneiform sign ga		
+120B6	"""𒂶"""	12000..123FF	Cuneiform	Cuneiform sign ga gunu		
+120B7	"""𒂷"""	12000..123FF	Cuneiform	Cuneiform sign ga2		
+120B8	"""𒂸"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus da plus ha		
+120B9	"""𒂹"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus ha		
+120BA	"""𒂺"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus igi		
+120BB	"""𒂻"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ab2 tenu plus tab		
+120BC	"""𒂼"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times an		
+120BD	"""𒂽"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash		
+120BE	"""𒂾"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash2 plus gal		
+120BF	"""𒂿"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times bad		
+120C0	"""𒃀"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times bar plus ra		
+120C1	"""𒃁"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times bur		
+120C2	"""𒃂"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times bur plus ra		
+120C3	"""𒃃"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times da		
+120C4	"""𒃄"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times di		
+120C5	"""𒃅"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times dim times she		
+120C6	"""𒃆"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times dub		
+120C7	"""𒃇"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times el		
+120C8	"""𒃈"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times el plus la		
+120C9	"""𒃉"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times en		
+120CA	"""𒃊"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times en times gan2 tenu		
+120CB	"""𒃋"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gan2 tenu		
+120CC	"""𒃌"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gar		
+120CD	"""𒃍"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi		
+120CE	"""𒃎"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi4		
+120CF	"""𒃏"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi4 plus a		
+120D0	"""𒃐"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times gir2 plus su		
+120D1	"""𒃑"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ha plus lu plus esh2		
+120D2	"""𒃒"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times hal		
+120D3	"""𒃓"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times hal plus la		
+120D4	"""𒃔"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times hi plus li		
+120D5	"""𒃕"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times hub2		
+120D6	"""𒃖"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times igi gunu		
+120D7	"""𒃗"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ish plus hu plus ash		
+120D8	"""𒃘"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times kak		
+120D9	"""𒃙"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times kaskal		
+120DA	"""𒃚"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times kid		
+120DB	"""𒃛"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times kid plus lal		
+120DC	"""𒃜"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ku3 plus an		
+120DD	"""𒃝"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times la		
+120DE	"""𒃞"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times me plus en		
+120DF	"""𒃟"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times mi		
+120E0	"""𒃠"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times nun		
+120E1	"""𒃡"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times nun over nun		
+120E2	"""𒃢"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times pa		
+120E3	"""𒃣"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times sal		
+120E4	"""𒃤"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times sar		
+120E5	"""𒃥"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times she		
+120E6	"""𒃦"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times she plus tur		
+120E7	"""𒃧"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times shid		
+120E8	"""𒃨"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times sum		
+120E9	"""𒃩"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times tak4		
+120EA	"""𒃪"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times u		
+120EB	"""𒃫"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ud		
+120EC	"""𒃬"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ud plus du		
+120ED	"""𒃭"""	12000..123FF	Cuneiform	Cuneiform sign ga2 over ga2		
+120EE	"""𒃮"""	12000..123FF	Cuneiform	Cuneiform sign gaba		
+120EF	"""𒃯"""	12000..123FF	Cuneiform	Cuneiform sign gaba crossing gaba		
+120F0	"""𒃰"""	12000..123FF	Cuneiform	Cuneiform sign gad		
+120F1	"""𒃱"""	12000..123FF	Cuneiform	Cuneiform sign gad over gad gar over gar		
+120F2	"""𒃲"""	12000..123FF	Cuneiform	Cuneiform sign gal		
+120F3	"""𒃳"""	12000..123FF	Cuneiform	Cuneiform sign gal gad over gad gar over gar		
+120F4	"""𒃴"""	12000..123FF	Cuneiform	Cuneiform sign galam		
+120F5	"""𒃵"""	12000..123FF	Cuneiform	Cuneiform sign gam		
+120F6	"""𒃶"""	12000..123FF	Cuneiform	Cuneiform sign gan		
+120F7	"""𒃷"""	12000..123FF	Cuneiform	Cuneiform sign gan2		
+120F8	"""𒃸"""	12000..123FF	Cuneiform	Cuneiform sign gan2 tenu		
+120F9	"""𒃹"""	12000..123FF	Cuneiform	Cuneiform sign gan2 over gan2		
+120FA	"""𒃺"""	12000..123FF	Cuneiform	Cuneiform sign gan2 crossing gan2		
+120FB	"""𒃻"""	12000..123FF	Cuneiform	Cuneiform sign gar		
+120FC	"""𒃼"""	12000..123FF	Cuneiform	Cuneiform sign gar3		
+120FD	"""𒃽"""	12000..123FF	Cuneiform	Cuneiform sign gashan		
+120FE	"""𒃾"""	12000..123FF	Cuneiform	Cuneiform sign geshtin		
+120FF	"""𒃿"""	12000..123FF	Cuneiform	Cuneiform sign geshtin times kur		
+12100	"""𒄀"""	12000..123FF	Cuneiform	Cuneiform sign gi		
+12101	"""𒄁"""	12000..123FF	Cuneiform	Cuneiform sign gi times e		
+12102	"""𒄂"""	12000..123FF	Cuneiform	Cuneiform sign gi times u		
+12103	"""𒄃"""	12000..123FF	Cuneiform	Cuneiform sign gi crossing gi		
+12104	"""𒄄"""	12000..123FF	Cuneiform	Cuneiform sign gi4		
+12105	"""𒄅"""	12000..123FF	Cuneiform	Cuneiform sign gi4 over gi4		
+12106	"""𒄆"""	12000..123FF	Cuneiform	Cuneiform sign gi4 crossing gi4		
+12107	"""𒄇"""	12000..123FF	Cuneiform	Cuneiform sign gidim		
+12108	"""𒄈"""	12000..123FF	Cuneiform	Cuneiform sign gir2		
+12109	"""𒄉"""	12000..123FF	Cuneiform	Cuneiform sign gir2 gunu		
+1210A	"""𒄊"""	12000..123FF	Cuneiform	Cuneiform sign gir3		
+1210B	"""𒄋"""	12000..123FF	Cuneiform	Cuneiform sign gir3 times a plus igi		
+1210C	"""𒄌"""	12000..123FF	Cuneiform	Cuneiform sign gir3 times gan2 tenu		
+1210D	"""𒄍"""	12000..123FF	Cuneiform	Cuneiform sign gir3 times igi		
+1210E	"""𒄎"""	12000..123FF	Cuneiform	Cuneiform sign gir3 times lu plus igi		
+1210F	"""𒄏"""	12000..123FF	Cuneiform	Cuneiform sign gir3 times pa		
+12110	"""𒄐"""	12000..123FF	Cuneiform	Cuneiform sign gisal		
+12111	"""𒄑"""	12000..123FF	Cuneiform	Cuneiform sign gish		
+12112	"""𒄒"""	12000..123FF	Cuneiform	Cuneiform sign gish crossing gish		
+12113	"""𒄓"""	12000..123FF	Cuneiform	Cuneiform sign gish times bad		
+12114	"""𒄔"""	12000..123FF	Cuneiform	Cuneiform sign gish times tak4		
+12115	"""𒄕"""	12000..123FF	Cuneiform	Cuneiform sign gish tenu		
+12116	"""𒄖"""	12000..123FF	Cuneiform	Cuneiform sign gu		
+12117	"""𒄗"""	12000..123FF	Cuneiform	Cuneiform sign gu crossing gu		
+12118	"""𒄘"""	12000..123FF	Cuneiform	Cuneiform sign gu2		
+12119	"""𒄙"""	12000..123FF	Cuneiform	Cuneiform sign gu2 times kak		
+1211A	"""𒄚"""	12000..123FF	Cuneiform	Cuneiform sign gu2 times kak times igi gunu		
+1211B	"""𒄛"""	12000..123FF	Cuneiform	Cuneiform sign gu2 times nun		
+1211C	"""𒄜"""	12000..123FF	Cuneiform	Cuneiform sign gu2 times sal plus tug2		
+1211D	"""𒄝"""	12000..123FF	Cuneiform	Cuneiform sign gu2 gunu		
+1211E	"""𒄞"""	12000..123FF	Cuneiform	Cuneiform sign gud		
+1211F	"""𒄟"""	12000..123FF	Cuneiform	Cuneiform sign gud times a plus kur		
+12120	"""𒄠"""	12000..123FF	Cuneiform	Cuneiform sign gud times kur		
+12121	"""𒄡"""	12000..123FF	Cuneiform	Cuneiform sign gud over gud lugal		
+12122	"""𒄢"""	12000..123FF	Cuneiform	Cuneiform sign gul		
+12123	"""𒄣"""	12000..123FF	Cuneiform	Cuneiform sign gum		
+12124	"""𒄤"""	12000..123FF	Cuneiform	Cuneiform sign gum times she		
+12125	"""𒄥"""	12000..123FF	Cuneiform	Cuneiform sign gur		
+12126	"""𒄦"""	12000..123FF	Cuneiform	Cuneiform sign gur7		
+12127	"""𒄧"""	12000..123FF	Cuneiform	Cuneiform sign gurun		
+12128	"""𒄨"""	12000..123FF	Cuneiform	Cuneiform sign gurush		
+12129	"""𒄩"""	12000..123FF	Cuneiform	Cuneiform sign ha		
+1212A	"""𒄪"""	12000..123FF	Cuneiform	Cuneiform sign ha tenu		
+1212B	"""𒄫"""	12000..123FF	Cuneiform	Cuneiform sign ha gunu		
+1212C	"""𒄬"""	12000..123FF	Cuneiform	Cuneiform sign hal		
+1212D	"""𒄭"""	12000..123FF	Cuneiform	Cuneiform sign hi		
+1212E	"""𒄮"""	12000..123FF	Cuneiform	Cuneiform sign hi times ash		
+1212F	"""𒄯"""	12000..123FF	Cuneiform	Cuneiform sign hi times ash2		
+12130	"""𒄰"""	12000..123FF	Cuneiform	Cuneiform sign hi times bad		
+12131	"""𒄱"""	12000..123FF	Cuneiform	Cuneiform sign hi times dish		
+12132	"""𒄲"""	12000..123FF	Cuneiform	Cuneiform sign hi times gad		
+12133	"""𒄳"""	12000..123FF	Cuneiform	Cuneiform sign hi times kin		
+12134	"""𒄴"""	12000..123FF	Cuneiform	Cuneiform sign hi times nun		
+12135	"""𒄵"""	12000..123FF	Cuneiform	Cuneiform sign hi times she		
+12136	"""𒄶"""	12000..123FF	Cuneiform	Cuneiform sign hi times u		
+12137	"""𒄷"""	12000..123FF	Cuneiform	Cuneiform sign hu		
+12138	"""𒄸"""	12000..123FF	Cuneiform	Cuneiform sign hub2		
+12139	"""𒄹"""	12000..123FF	Cuneiform	Cuneiform sign hub2 times an		
+1213A	"""𒄺"""	12000..123FF	Cuneiform	Cuneiform sign hub2 times hal		
+1213B	"""𒄻"""	12000..123FF	Cuneiform	Cuneiform sign hub2 times kaskal		
+1213C	"""𒄼"""	12000..123FF	Cuneiform	Cuneiform sign hub2 times lish		
+1213D	"""𒄽"""	12000..123FF	Cuneiform	Cuneiform sign hub2 times ud		
+1213E	"""𒄾"""	12000..123FF	Cuneiform	Cuneiform sign hul2		
+1213F	"""𒄿"""	12000..123FF	Cuneiform	Cuneiform sign i		
+12140	"""𒅀"""	12000..123FF	Cuneiform	Cuneiform sign i a		
+12141	"""𒅁"""	12000..123FF	Cuneiform	Cuneiform sign ib		
+12142	"""𒅂"""	12000..123FF	Cuneiform	Cuneiform sign idim		
+12143	"""𒅃"""	12000..123FF	Cuneiform	Cuneiform sign idim over idim bur		
+12144	"""𒅄"""	12000..123FF	Cuneiform	Cuneiform sign idim over idim squared		
+12145	"""𒅅"""	12000..123FF	Cuneiform	Cuneiform sign ig		
+12146	"""𒅆"""	12000..123FF	Cuneiform	Cuneiform sign igi		
+12147	"""𒅇"""	12000..123FF	Cuneiform	Cuneiform sign igi dib		
+12148	"""𒅈"""	12000..123FF	Cuneiform	Cuneiform sign igi ri		
+12149	"""𒅉"""	12000..123FF	Cuneiform	Cuneiform sign igi over igi shir over shir ud over ud		
+1214A	"""𒅊"""	12000..123FF	Cuneiform	Cuneiform sign igi gunu		
+1214B	"""𒅋"""	12000..123FF	Cuneiform	Cuneiform sign il		
+1214C	"""𒅌"""	12000..123FF	Cuneiform	Cuneiform sign il times gan2 tenu		
+1214D	"""𒅍"""	12000..123FF	Cuneiform	Cuneiform sign il2		
+1214E	"""𒅎"""	12000..123FF	Cuneiform	Cuneiform sign im		
+1214F	"""𒅏"""	12000..123FF	Cuneiform	Cuneiform sign im times tak4		
+12150	"""𒅐"""	12000..123FF	Cuneiform	Cuneiform sign im crossing im		
+12151	"""𒅑"""	12000..123FF	Cuneiform	Cuneiform sign im opposing im		
+12152	"""𒅒"""	12000..123FF	Cuneiform	Cuneiform sign im squared		
+12153	"""𒅓"""	12000..123FF	Cuneiform	Cuneiform sign imin		
+12154	"""𒅔"""	12000..123FF	Cuneiform	Cuneiform sign in		
+12155	"""𒅕"""	12000..123FF	Cuneiform	Cuneiform sign ir		
+12156	"""𒅖"""	12000..123FF	Cuneiform	Cuneiform sign ish		
+12157	"""𒅗"""	12000..123FF	Cuneiform	Cuneiform sign ka		
+12158	"""𒅘"""	12000..123FF	Cuneiform	Cuneiform sign ka times a		
+12159	"""𒅙"""	12000..123FF	Cuneiform	Cuneiform sign ka times ad		
+1215A	"""𒅚"""	12000..123FF	Cuneiform	Cuneiform sign ka times ad plus ku3		
+1215B	"""𒅛"""	12000..123FF	Cuneiform	Cuneiform sign ka times ash2		
+1215C	"""𒅜"""	12000..123FF	Cuneiform	Cuneiform sign ka times bad		
+1215D	"""𒅝"""	12000..123FF	Cuneiform	Cuneiform sign ka times balag		
+1215E	"""𒅞"""	12000..123FF	Cuneiform	Cuneiform sign ka times bar		
+1215F	"""𒅟"""	12000..123FF	Cuneiform	Cuneiform sign ka times bi		
+12160	"""𒅠"""	12000..123FF	Cuneiform	Cuneiform sign ka times erin2		
+12161	"""𒅡"""	12000..123FF	Cuneiform	Cuneiform sign ka times esh2		
+12162	"""𒅢"""	12000..123FF	Cuneiform	Cuneiform sign ka times ga		
+12163	"""𒅣"""	12000..123FF	Cuneiform	Cuneiform sign ka times gal		
+12164	"""𒅤"""	12000..123FF	Cuneiform	Cuneiform sign ka times gan2 tenu		
+12165	"""𒅥"""	12000..123FF	Cuneiform	Cuneiform sign ka times gar		
+12166	"""𒅦"""	12000..123FF	Cuneiform	Cuneiform sign ka times gar plus sha3 plus a		
+12167	"""𒅧"""	12000..123FF	Cuneiform	Cuneiform sign ka times gi		
+12168	"""𒅨"""	12000..123FF	Cuneiform	Cuneiform sign ka times gir2		
+12169	"""𒅩"""	12000..123FF	Cuneiform	Cuneiform sign ka times gish plus sar		
+1216A	"""𒅪"""	12000..123FF	Cuneiform	Cuneiform sign ka times gish crossing gish		
+1216B	"""𒅫"""	12000..123FF	Cuneiform	Cuneiform sign ka times gu		
+1216C	"""𒅬"""	12000..123FF	Cuneiform	Cuneiform sign ka times gur7		
+1216D	"""𒅭"""	12000..123FF	Cuneiform	Cuneiform sign ka times igi		
+1216E	"""𒅮"""	12000..123FF	Cuneiform	Cuneiform sign ka times im		
+1216F	"""𒅯"""	12000..123FF	Cuneiform	Cuneiform sign ka times kak		
+12170	"""𒅰"""	12000..123FF	Cuneiform	Cuneiform sign ka times ki		
+12171	"""𒅱"""	12000..123FF	Cuneiform	Cuneiform sign ka times kid		
+12172	"""𒅲"""	12000..123FF	Cuneiform	Cuneiform sign ka times li		
+12173	"""𒅳"""	12000..123FF	Cuneiform	Cuneiform sign ka times lu		
+12174	"""𒅴"""	12000..123FF	Cuneiform	Cuneiform sign ka times me		
+12175	"""𒅵"""	12000..123FF	Cuneiform	Cuneiform sign ka times me plus du		
+12176	"""𒅶"""	12000..123FF	Cuneiform	Cuneiform sign ka times me plus gi		
+12177	"""𒅷"""	12000..123FF	Cuneiform	Cuneiform sign ka times me plus te		
+12178	"""𒅸"""	12000..123FF	Cuneiform	Cuneiform sign ka times mi		
+12179	"""𒅹"""	12000..123FF	Cuneiform	Cuneiform sign ka times mi plus nunuz		
+1217A	"""𒅺"""	12000..123FF	Cuneiform	Cuneiform sign ka times ne		
+1217B	"""𒅻"""	12000..123FF	Cuneiform	Cuneiform sign ka times nun		
+1217C	"""𒅼"""	12000..123FF	Cuneiform	Cuneiform sign ka times pi		
+1217D	"""𒅽"""	12000..123FF	Cuneiform	Cuneiform sign ka times ru		
+1217E	"""𒅾"""	12000..123FF	Cuneiform	Cuneiform sign ka times sa		
+1217F	"""𒅿"""	12000..123FF	Cuneiform	Cuneiform sign ka times sar		
+12180	"""𒆀"""	12000..123FF	Cuneiform	Cuneiform sign ka times sha		
+12181	"""𒆁"""	12000..123FF	Cuneiform	Cuneiform sign ka times she		
+12182	"""𒆂"""	12000..123FF	Cuneiform	Cuneiform sign ka times shid		
+12183	"""𒆃"""	12000..123FF	Cuneiform	Cuneiform sign ka times shu		
+12184	"""𒆄"""	12000..123FF	Cuneiform	Cuneiform sign ka times sig		
+12185	"""𒆅"""	12000..123FF	Cuneiform	Cuneiform sign ka times suhur		
+12186	"""𒆆"""	12000..123FF	Cuneiform	Cuneiform sign ka times tar		
+12187	"""𒆇"""	12000..123FF	Cuneiform	Cuneiform sign ka times u		
+12188	"""𒆈"""	12000..123FF	Cuneiform	Cuneiform sign ka times u2		
+12189	"""𒆉"""	12000..123FF	Cuneiform	Cuneiform sign ka times ud		
+1218A	"""𒆊"""	12000..123FF	Cuneiform	Cuneiform sign ka times umum times pa		
+1218B	"""𒆋"""	12000..123FF	Cuneiform	Cuneiform sign ka times ush		
+1218C	"""𒆌"""	12000..123FF	Cuneiform	Cuneiform sign ka times zi		
+1218D	"""𒆍"""	12000..123FF	Cuneiform	Cuneiform sign ka2		
+1218E	"""𒆎"""	12000..123FF	Cuneiform	Cuneiform sign ka2 crossing ka2		
+1218F	"""𒆏"""	12000..123FF	Cuneiform	Cuneiform sign kab		
+12190	"""𒆐"""	12000..123FF	Cuneiform	Cuneiform sign kad2		
+12191	"""𒆑"""	12000..123FF	Cuneiform	Cuneiform sign kad3		
+12192	"""𒆒"""	12000..123FF	Cuneiform	Cuneiform sign kad4		
+12193	"""𒆓"""	12000..123FF	Cuneiform	Cuneiform sign kad5		
+12194	"""𒆔"""	12000..123FF	Cuneiform	Cuneiform sign kad5 over kad5		
+12195	"""𒆕"""	12000..123FF	Cuneiform	Cuneiform sign kak		
+12196	"""𒆖"""	12000..123FF	Cuneiform	Cuneiform sign kak times igi gunu		
+12197	"""𒆗"""	12000..123FF	Cuneiform	Cuneiform sign kal		
+12198	"""𒆘"""	12000..123FF	Cuneiform	Cuneiform sign kal times bad		
+12199	"""𒆙"""	12000..123FF	Cuneiform	Cuneiform sign kal crossing kal		
+1219A	"""𒆚"""	12000..123FF	Cuneiform	Cuneiform sign kam2		
+1219B	"""𒆛"""	12000..123FF	Cuneiform	Cuneiform sign kam4		
+1219C	"""𒆜"""	12000..123FF	Cuneiform	Cuneiform sign kaskal		
+1219D	"""𒆝"""	12000..123FF	Cuneiform	Cuneiform sign kaskal lagab times u over lagab times u		
+1219E	"""𒆞"""	12000..123FF	Cuneiform	Cuneiform sign kaskal over kaskal lagab times u over lagab times u		
+1219F	"""𒆟"""	12000..123FF	Cuneiform	Cuneiform sign kesh2		
+121A0	"""𒆠"""	12000..123FF	Cuneiform	Cuneiform sign ki		
+121A1	"""𒆡"""	12000..123FF	Cuneiform	Cuneiform sign ki times bad		
+121A2	"""𒆢"""	12000..123FF	Cuneiform	Cuneiform sign ki times u		
+121A3	"""𒆣"""	12000..123FF	Cuneiform	Cuneiform sign ki times ud		
+121A4	"""𒆤"""	12000..123FF	Cuneiform	Cuneiform sign kid		
+121A5	"""𒆥"""	12000..123FF	Cuneiform	Cuneiform sign kin		
+121A6	"""𒆦"""	12000..123FF	Cuneiform	Cuneiform sign kisal		
+121A7	"""𒆧"""	12000..123FF	Cuneiform	Cuneiform sign kish		
+121A8	"""𒆨"""	12000..123FF	Cuneiform	Cuneiform sign kisim5		
+121A9	"""𒆩"""	12000..123FF	Cuneiform	Cuneiform sign kisim5 over kisim5		
+121AA	"""𒆪"""	12000..123FF	Cuneiform	Cuneiform sign ku		
+121AB	"""𒆫"""	12000..123FF	Cuneiform	Cuneiform sign ku over hi times ash2 ku over hi times ash2		
+121AC	"""𒆬"""	12000..123FF	Cuneiform	Cuneiform sign ku3		
+121AD	"""𒆭"""	12000..123FF	Cuneiform	Cuneiform sign ku4		
+121AE	"""𒆮"""	12000..123FF	Cuneiform	Cuneiform sign ku4 variant form		
+121AF	"""𒆯"""	12000..123FF	Cuneiform	Cuneiform sign ku7		
+121B0	"""𒆰"""	12000..123FF	Cuneiform	Cuneiform sign kul		
+121B1	"""𒆱"""	12000..123FF	Cuneiform	Cuneiform sign kul gunu		
+121B2	"""𒆲"""	12000..123FF	Cuneiform	Cuneiform sign kun		
+121B3	"""𒆳"""	12000..123FF	Cuneiform	Cuneiform sign kur		
+121B4	"""𒆴"""	12000..123FF	Cuneiform	Cuneiform sign kur opposing kur		
+121B5	"""𒆵"""	12000..123FF	Cuneiform	Cuneiform sign kushu2		
+121B6	"""𒆶"""	12000..123FF	Cuneiform	Cuneiform sign kwu318		
+121B7	"""𒆷"""	12000..123FF	Cuneiform	Cuneiform sign la		
+121B8	"""𒆸"""	12000..123FF	Cuneiform	Cuneiform sign lagab		
+121B9	"""𒆹"""	12000..123FF	Cuneiform	Cuneiform sign lagab times a		
+121BA	"""𒆺"""	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus da plus ha		
+121BB	"""𒆻"""	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus gar		
+121BC	"""𒆼"""	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus lal		
+121BD	"""𒆽"""	12000..123FF	Cuneiform	Cuneiform sign lagab times al		
+121BE	"""𒆾"""	12000..123FF	Cuneiform	Cuneiform sign lagab times an		
+121BF	"""𒆿"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ash zida tenu		
+121C0	"""𒇀"""	12000..123FF	Cuneiform	Cuneiform sign lagab times bad		
+121C1	"""𒇁"""	12000..123FF	Cuneiform	Cuneiform sign lagab times bi		
+121C2	"""𒇂"""	12000..123FF	Cuneiform	Cuneiform sign lagab times dar		
+121C3	"""𒇃"""	12000..123FF	Cuneiform	Cuneiform sign lagab times en		
+121C4	"""𒇄"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ga		
+121C5	"""𒇅"""	12000..123FF	Cuneiform	Cuneiform sign lagab times gar		
+121C6	"""𒇆"""	12000..123FF	Cuneiform	Cuneiform sign lagab times gud		
+121C7	"""𒇇"""	12000..123FF	Cuneiform	Cuneiform sign lagab times gud plus gud		
+121C8	"""𒇈"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ha		
+121C9	"""𒇉"""	12000..123FF	Cuneiform	Cuneiform sign lagab times hal		
+121CA	"""𒇊"""	12000..123FF	Cuneiform	Cuneiform sign lagab times hi times nun		
+121CB	"""𒇋"""	12000..123FF	Cuneiform	Cuneiform sign lagab times igi gunu		
+121CC	"""𒇌"""	12000..123FF	Cuneiform	Cuneiform sign lagab times im		
+121CD	"""𒇍"""	12000..123FF	Cuneiform	Cuneiform sign lagab times im plus ha		
+121CE	"""𒇎"""	12000..123FF	Cuneiform	Cuneiform sign lagab times im plus lu		
+121CF	"""𒇏"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ki		
+121D0	"""𒇐"""	12000..123FF	Cuneiform	Cuneiform sign lagab times kin		
+121D1	"""𒇑"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ku3		
+121D2	"""𒇒"""	12000..123FF	Cuneiform	Cuneiform sign lagab times kul		
+121D3	"""𒇓"""	12000..123FF	Cuneiform	Cuneiform sign lagab times kul plus hi plus a		
+121D4	"""𒇔"""	12000..123FF	Cuneiform	Cuneiform sign lagab times lagab		
+121D5	"""𒇕"""	12000..123FF	Cuneiform	Cuneiform sign lagab times lish		
+121D6	"""𒇖"""	12000..123FF	Cuneiform	Cuneiform sign lagab times lu		
+121D7	"""𒇗"""	12000..123FF	Cuneiform	Cuneiform sign lagab times lul		
+121D8	"""𒇘"""	12000..123FF	Cuneiform	Cuneiform sign lagab times me		
+121D9	"""𒇙"""	12000..123FF	Cuneiform	Cuneiform sign lagab times me plus en		
+121DA	"""𒇚"""	12000..123FF	Cuneiform	Cuneiform sign lagab times mush		
+121DB	"""𒇛"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ne		
+121DC	"""𒇜"""	12000..123FF	Cuneiform	Cuneiform sign lagab times she plus sum		
+121DD	"""𒇝"""	12000..123FF	Cuneiform	Cuneiform sign lagab times shita plus gish plus erin2		
+121DE	"""𒇞"""	12000..123FF	Cuneiform	Cuneiform sign lagab times shita plus gish tenu		
+121DF	"""𒇟"""	12000..123FF	Cuneiform	Cuneiform sign lagab times shu2		
+121E0	"""𒇠"""	12000..123FF	Cuneiform	Cuneiform sign lagab times shu2 plus shu2		
+121E1	"""𒇡"""	12000..123FF	Cuneiform	Cuneiform sign lagab times sum		
+121E2	"""𒇢"""	12000..123FF	Cuneiform	Cuneiform sign lagab times tag		
+121E3	"""𒇣"""	12000..123FF	Cuneiform	Cuneiform sign lagab times tak4		
+121E4	"""𒇤"""	12000..123FF	Cuneiform	Cuneiform sign lagab times te plus a plus su plus na		
+121E5	"""𒇥"""	12000..123FF	Cuneiform	Cuneiform sign lagab times u		
+121E6	"""𒇦"""	12000..123FF	Cuneiform	Cuneiform sign lagab times u plus a		
+121E7	"""𒇧"""	12000..123FF	Cuneiform	Cuneiform sign lagab times u plus u plus u		
+121E8	"""𒇨"""	12000..123FF	Cuneiform	Cuneiform sign lagab times u2 plus ash		
+121E9	"""𒇩"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ud		
+121EA	"""𒇪"""	12000..123FF	Cuneiform	Cuneiform sign lagab times ush		
+121EB	"""𒇫"""	12000..123FF	Cuneiform	Cuneiform sign lagab squared		
+121EC	"""𒇬"""	12000..123FF	Cuneiform	Cuneiform sign lagar		
+121ED	"""𒇭"""	12000..123FF	Cuneiform	Cuneiform sign lagar times she		
+121EE	"""𒇮"""	12000..123FF	Cuneiform	Cuneiform sign lagar times she plus sum		
+121EF	"""𒇯"""	12000..123FF	Cuneiform	Cuneiform sign lagar gunu		
+121F0	"""𒇰"""	12000..123FF	Cuneiform	Cuneiform sign lagar gunu over lagar gunu she		
+121F1	"""𒇱"""	12000..123FF	Cuneiform	Cuneiform sign lahshu		
+121F2	"""𒇲"""	12000..123FF	Cuneiform	Cuneiform sign lal		
+121F3	"""𒇳"""	12000..123FF	Cuneiform	Cuneiform sign lal times lal		
+121F4	"""𒇴"""	12000..123FF	Cuneiform	Cuneiform sign lam		
+121F5	"""𒇵"""	12000..123FF	Cuneiform	Cuneiform sign lam times kur		
+121F6	"""𒇶"""	12000..123FF	Cuneiform	Cuneiform sign lam times kur plus ru		
+121F7	"""𒇷"""	12000..123FF	Cuneiform	Cuneiform sign li		
+121F8	"""𒇸"""	12000..123FF	Cuneiform	Cuneiform sign lil		
+121F9	"""𒇹"""	12000..123FF	Cuneiform	Cuneiform sign limmu2		
+121FA	"""𒇺"""	12000..123FF	Cuneiform	Cuneiform sign lish		
+121FB	"""𒇻"""	12000..123FF	Cuneiform	Cuneiform sign lu		
+121FC	"""𒇼"""	12000..123FF	Cuneiform	Cuneiform sign lu times bad		
+121FD	"""𒇽"""	12000..123FF	Cuneiform	Cuneiform sign lu2		
+121FE	"""𒇾"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times al		
+121FF	"""𒇿"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times bad		
+12200	"""𒈀"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2		
+12201	"""𒈁"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2 tenu		
+12202	"""𒈂"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times gan2 tenu		
+12203	"""𒈃"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times hi times bad		
+12204	"""𒈄"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times im		
+12205	"""𒈅"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad2		
+12206	"""𒈆"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad3		
+12207	"""𒈇"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad3 plus ash		
+12208	"""𒈈"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times ki		
+12209	"""𒈉"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times la plus ash		
+1220A	"""𒈊"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times lagab		
+1220B	"""𒈋"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times me plus en		
+1220C	"""𒈌"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times ne		
+1220D	"""𒈍"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times nu		
+1220E	"""𒈎"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times si plus ash		
+1220F	"""𒈏"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times sik2 plus bu		
+12210	"""𒈐"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times tug2		
+12211	"""𒈑"""	12000..123FF	Cuneiform	Cuneiform sign lu2 tenu		
+12212	"""𒈒"""	12000..123FF	Cuneiform	Cuneiform sign lu2 crossing lu2		
+12213	"""𒈓"""	12000..123FF	Cuneiform	Cuneiform sign lu2 opposing lu2		
+12214	"""𒈔"""	12000..123FF	Cuneiform	Cuneiform sign lu2 squared		
+12215	"""𒈕"""	12000..123FF	Cuneiform	Cuneiform sign lu2 sheshig		
+12216	"""𒈖"""	12000..123FF	Cuneiform	Cuneiform sign lu3		
+12217	"""𒈗"""	12000..123FF	Cuneiform	Cuneiform sign lugal		
+12218	"""𒈘"""	12000..123FF	Cuneiform	Cuneiform sign lugal over lugal		
+12219	"""𒈙"""	12000..123FF	Cuneiform	Cuneiform sign lugal opposing lugal		
+1221A	"""𒈚"""	12000..123FF	Cuneiform	Cuneiform sign lugal sheshig		
+1221B	"""𒈛"""	12000..123FF	Cuneiform	Cuneiform sign luh		
+1221C	"""𒈜"""	12000..123FF	Cuneiform	Cuneiform sign lul		
+1221D	"""𒈝"""	12000..123FF	Cuneiform	Cuneiform sign lum		
+1221E	"""𒈞"""	12000..123FF	Cuneiform	Cuneiform sign lum over lum		
+1221F	"""𒈟"""	12000..123FF	Cuneiform	Cuneiform sign lum over lum gar over gar		
+12220	"""𒈠"""	12000..123FF	Cuneiform	Cuneiform sign ma		
+12221	"""𒈡"""	12000..123FF	Cuneiform	Cuneiform sign ma times tak4		
+12222	"""𒈢"""	12000..123FF	Cuneiform	Cuneiform sign ma gunu		
+12223	"""𒈣"""	12000..123FF	Cuneiform	Cuneiform sign ma2		
+12224	"""𒈤"""	12000..123FF	Cuneiform	Cuneiform sign mah		
+12225	"""𒈥"""	12000..123FF	Cuneiform	Cuneiform sign mar		
+12226	"""𒈦"""	12000..123FF	Cuneiform	Cuneiform sign mash		
+12227	"""𒈧"""	12000..123FF	Cuneiform	Cuneiform sign mash2		
+12228	"""𒈨"""	12000..123FF	Cuneiform	Cuneiform sign me		
+12229	"""𒈩"""	12000..123FF	Cuneiform	Cuneiform sign mes		
+1222A	"""𒈪"""	12000..123FF	Cuneiform	Cuneiform sign mi		
+1222B	"""𒈫"""	12000..123FF	Cuneiform	Cuneiform sign min		
+1222C	"""𒈬"""	12000..123FF	Cuneiform	Cuneiform sign mu		
+1222D	"""𒈭"""	12000..123FF	Cuneiform	Cuneiform sign mu over mu		
+1222E	"""𒈮"""	12000..123FF	Cuneiform	Cuneiform sign mug		
+1222F	"""𒈯"""	12000..123FF	Cuneiform	Cuneiform sign mug gunu		
+12230	"""𒈰"""	12000..123FF	Cuneiform	Cuneiform sign munsub		
+12231	"""𒈱"""	12000..123FF	Cuneiform	Cuneiform sign murgu2		
+12232	"""𒈲"""	12000..123FF	Cuneiform	Cuneiform sign mush		
+12233	"""𒈳"""	12000..123FF	Cuneiform	Cuneiform sign mush times a		
+12234	"""𒈴"""	12000..123FF	Cuneiform	Cuneiform sign mush times kur		
+12235	"""𒈵"""	12000..123FF	Cuneiform	Cuneiform sign mush times za		
+12236	"""𒈶"""	12000..123FF	Cuneiform	Cuneiform sign mush over mush		
+12237	"""𒈷"""	12000..123FF	Cuneiform	Cuneiform sign mush over mush times a plus na		
+12238	"""𒈸"""	12000..123FF	Cuneiform	Cuneiform sign mush crossing mush		
+12239	"""𒈹"""	12000..123FF	Cuneiform	Cuneiform sign mush3		
+1223A	"""𒈺"""	12000..123FF	Cuneiform	Cuneiform sign mush3 times a		
+1223B	"""𒈻"""	12000..123FF	Cuneiform	Cuneiform sign mush3 times a plus di		
+1223C	"""𒈼"""	12000..123FF	Cuneiform	Cuneiform sign mush3 times di		
+1223D	"""𒈽"""	12000..123FF	Cuneiform	Cuneiform sign mush3 gunu		
+1223E	"""𒈾"""	12000..123FF	Cuneiform	Cuneiform sign na		
+1223F	"""𒈿"""	12000..123FF	Cuneiform	Cuneiform sign na2		
+12240	"""𒉀"""	12000..123FF	Cuneiform	Cuneiform sign naga		
+12241	"""𒉁"""	12000..123FF	Cuneiform	Cuneiform sign naga inverted		
+12242	"""𒉂"""	12000..123FF	Cuneiform	Cuneiform sign naga times shu tenu		
+12243	"""𒉃"""	12000..123FF	Cuneiform	Cuneiform sign naga opposing naga		
+12244	"""𒉄"""	12000..123FF	Cuneiform	Cuneiform sign nagar		
+12245	"""𒉅"""	12000..123FF	Cuneiform	Cuneiform sign nam nutillu		
+12246	"""𒉆"""	12000..123FF	Cuneiform	Cuneiform sign nam		
+12247	"""𒉇"""	12000..123FF	Cuneiform	Cuneiform sign nam2		
+12248	"""𒉈"""	12000..123FF	Cuneiform	Cuneiform sign ne		
+12249	"""𒉉"""	12000..123FF	Cuneiform	Cuneiform sign ne times a		
+1224A	"""𒉊"""	12000..123FF	Cuneiform	Cuneiform sign ne times ud		
+1224B	"""𒉋"""	12000..123FF	Cuneiform	Cuneiform sign ne sheshig		
+1224C	"""𒉌"""	12000..123FF	Cuneiform	Cuneiform sign ni		
+1224D	"""𒉍"""	12000..123FF	Cuneiform	Cuneiform sign ni times e		
+1224E	"""𒉎"""	12000..123FF	Cuneiform	Cuneiform sign ni2		
+1224F	"""𒉏"""	12000..123FF	Cuneiform	Cuneiform sign nim		
+12250	"""𒉐"""	12000..123FF	Cuneiform	Cuneiform sign nim times gan2 tenu		
+12251	"""𒉑"""	12000..123FF	Cuneiform	Cuneiform sign nim times gar plus gan2 tenu		
+12252	"""𒉒"""	12000..123FF	Cuneiform	Cuneiform sign ninda2		
+12253	"""𒉓"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times an		
+12254	"""𒉔"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ash		
+12255	"""𒉕"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ash plus ash		
+12256	"""𒉖"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times gud		
+12257	"""𒉗"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times me plus gan2 tenu		
+12258	"""𒉘"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ne		
+12259	"""𒉙"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times nun		
+1225A	"""𒉚"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she		
+1225B	"""𒉛"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus a an		
+1225C	"""𒉜"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus ash		
+1225D	"""𒉝"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus ash plus ash		
+1225E	"""𒉞"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times u2 plus ash		
+1225F	"""𒉟"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ush		
+12260	"""𒉠"""	12000..123FF	Cuneiform	Cuneiform sign nisag		
+12261	"""𒉡"""	12000..123FF	Cuneiform	Cuneiform sign nu		
+12262	"""𒉢"""	12000..123FF	Cuneiform	Cuneiform sign nu11		
+12263	"""𒉣"""	12000..123FF	Cuneiform	Cuneiform sign nun		
+12264	"""𒉤"""	12000..123FF	Cuneiform	Cuneiform sign nun lagar times gar		
+12265	"""𒉥"""	12000..123FF	Cuneiform	Cuneiform sign nun lagar times mash		
+12266	"""𒉦"""	12000..123FF	Cuneiform	Cuneiform sign nun lagar times sal		
+12267	"""𒉧"""	12000..123FF	Cuneiform	Cuneiform sign nun lagar times sal over nun lagar times sal		
+12268	"""𒉨"""	12000..123FF	Cuneiform	Cuneiform sign nun lagar times ush		
+12269	"""𒉩"""	12000..123FF	Cuneiform	Cuneiform sign nun tenu		
+1226A	"""𒉪"""	12000..123FF	Cuneiform	Cuneiform sign nun over nun		
+1226B	"""𒉫"""	12000..123FF	Cuneiform	Cuneiform sign nun crossing nun		
+1226C	"""𒉬"""	12000..123FF	Cuneiform	Cuneiform sign nun crossing nun lagar over lagar		
+1226D	"""𒉭"""	12000..123FF	Cuneiform	Cuneiform sign nunuz		
+1226E	"""𒉮"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times ashgab		
+1226F	"""𒉯"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times bi		
+12270	"""𒉰"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times dug		
+12271	"""𒉱"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times gud		
+12272	"""𒉲"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times igi gunu		
+12273	"""𒉳"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times kad3		
+12274	"""𒉴"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times la		
+12275	"""𒉵"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times ne		
+12276	"""𒉶"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times sila3		
+12277	"""𒉷"""	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times u2		
+12278	"""𒉸"""	12000..123FF	Cuneiform	Cuneiform sign nunuz kisim5 times bi		
+12279	"""𒉹"""	12000..123FF	Cuneiform	Cuneiform sign nunuz kisim5 times bi u		
+1227A	"""𒉺"""	12000..123FF	Cuneiform	Cuneiform sign pa		
+1227B	"""𒉻"""	12000..123FF	Cuneiform	Cuneiform sign pad		
+1227C	"""𒉼"""	12000..123FF	Cuneiform	Cuneiform sign pan		
+1227D	"""𒉽"""	12000..123FF	Cuneiform	Cuneiform sign pap		
+1227E	"""𒉾"""	12000..123FF	Cuneiform	Cuneiform sign pesh2		
+1227F	"""𒉿"""	12000..123FF	Cuneiform	Cuneiform sign pi		
+12280	"""𒊀"""	12000..123FF	Cuneiform	Cuneiform sign pi times a		
+12281	"""𒊁"""	12000..123FF	Cuneiform	Cuneiform sign pi times ab		
+12282	"""𒊂"""	12000..123FF	Cuneiform	Cuneiform sign pi times bi		
+12283	"""𒊃"""	12000..123FF	Cuneiform	Cuneiform sign pi times bu		
+12284	"""𒊄"""	12000..123FF	Cuneiform	Cuneiform sign pi times e		
+12285	"""𒊅"""	12000..123FF	Cuneiform	Cuneiform sign pi times i		
+12286	"""𒊆"""	12000..123FF	Cuneiform	Cuneiform sign pi times ib		
+12287	"""𒊇"""	12000..123FF	Cuneiform	Cuneiform sign pi times u		
+12288	"""𒊈"""	12000..123FF	Cuneiform	Cuneiform sign pi times u2		
+12289	"""𒊉"""	12000..123FF	Cuneiform	Cuneiform sign pi crossing pi		
+1228A	"""𒊊"""	12000..123FF	Cuneiform	Cuneiform sign pirig		
+1228B	"""𒊋"""	12000..123FF	Cuneiform	Cuneiform sign pirig times kal		
+1228C	"""𒊌"""	12000..123FF	Cuneiform	Cuneiform sign pirig times ud		
+1228D	"""𒊍"""	12000..123FF	Cuneiform	Cuneiform sign pirig times za		
+1228E	"""𒊎"""	12000..123FF	Cuneiform	Cuneiform sign pirig opposing pirig		
+1228F	"""𒊏"""	12000..123FF	Cuneiform	Cuneiform sign ra		
+12290	"""𒊐"""	12000..123FF	Cuneiform	Cuneiform sign rab		
+12291	"""𒊑"""	12000..123FF	Cuneiform	Cuneiform sign ri		
+12292	"""𒊒"""	12000..123FF	Cuneiform	Cuneiform sign ru		
+12293	"""𒊓"""	12000..123FF	Cuneiform	Cuneiform sign sa		
+12294	"""𒊔"""	12000..123FF	Cuneiform	Cuneiform sign sag nutillu		
+12295	"""𒊕"""	12000..123FF	Cuneiform	Cuneiform sign sag		
+12296	"""𒊖"""	12000..123FF	Cuneiform	Cuneiform sign sag times a		
+12297	"""𒊗"""	12000..123FF	Cuneiform	Cuneiform sign sag times du		
+12298	"""𒊘"""	12000..123FF	Cuneiform	Cuneiform sign sag times dub		
+12299	"""𒊙"""	12000..123FF	Cuneiform	Cuneiform sign sag times ha		
+1229A	"""𒊚"""	12000..123FF	Cuneiform	Cuneiform sign sag times kak		
+1229B	"""𒊛"""	12000..123FF	Cuneiform	Cuneiform sign sag times kur		
+1229C	"""𒊜"""	12000..123FF	Cuneiform	Cuneiform sign sag times lum		
+1229D	"""𒊝"""	12000..123FF	Cuneiform	Cuneiform sign sag times mi		
+1229E	"""𒊞"""	12000..123FF	Cuneiform	Cuneiform sign sag times nun		
+1229F	"""𒊟"""	12000..123FF	Cuneiform	Cuneiform sign sag times sal		
+122A0	"""𒊠"""	12000..123FF	Cuneiform	Cuneiform sign sag times shid		
+122A1	"""𒊡"""	12000..123FF	Cuneiform	Cuneiform sign sag times tab		
+122A2	"""𒊢"""	12000..123FF	Cuneiform	Cuneiform sign sag times u2		
+122A3	"""𒊣"""	12000..123FF	Cuneiform	Cuneiform sign sag times ub		
+122A4	"""𒊤"""	12000..123FF	Cuneiform	Cuneiform sign sag times um		
+122A5	"""𒊥"""	12000..123FF	Cuneiform	Cuneiform sign sag times ur		
+122A6	"""𒊦"""	12000..123FF	Cuneiform	Cuneiform sign sag times ush		
+122A7	"""𒊧"""	12000..123FF	Cuneiform	Cuneiform sign sag over sag		
+122A8	"""𒊨"""	12000..123FF	Cuneiform	Cuneiform sign sag gunu		
+122A9	"""𒊩"""	12000..123FF	Cuneiform	Cuneiform sign sal		
+122AA	"""𒊪"""	12000..123FF	Cuneiform	Cuneiform sign sal lagab times ash2		
+122AB	"""𒊫"""	12000..123FF	Cuneiform	Cuneiform sign sanga2		
+122AC	"""𒊬"""	12000..123FF	Cuneiform	Cuneiform sign sar		
+122AD	"""𒊭"""	12000..123FF	Cuneiform	Cuneiform sign sha		
+122AE	"""𒊮"""	12000..123FF	Cuneiform	Cuneiform sign sha3		
+122AF	"""𒊯"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times a		
+122B0	"""𒊰"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times bad		
+122B1	"""𒊱"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times gish		
+122B2	"""𒊲"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times ne		
+122B3	"""𒊳"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times shu2		
+122B4	"""𒊴"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times tur		
+122B5	"""𒊵"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times u		
+122B6	"""𒊶"""	12000..123FF	Cuneiform	Cuneiform sign sha3 times u plus a		
+122B7	"""𒊷"""	12000..123FF	Cuneiform	Cuneiform sign sha6		
+122B8	"""𒊸"""	12000..123FF	Cuneiform	Cuneiform sign shab6		
+122B9	"""𒊹"""	12000..123FF	Cuneiform	Cuneiform sign shar2		
+122BA	"""𒊺"""	12000..123FF	Cuneiform	Cuneiform sign she		
+122BB	"""𒊻"""	12000..123FF	Cuneiform	Cuneiform sign she hu		
+122BC	"""𒊼"""	12000..123FF	Cuneiform	Cuneiform sign she over she gad over gad gar over gar		
+122BD	"""𒊽"""	12000..123FF	Cuneiform	Cuneiform sign she over she tab over tab gar over gar		
+122BE	"""𒊾"""	12000..123FF	Cuneiform	Cuneiform sign sheg9		
+122BF	"""𒊿"""	12000..123FF	Cuneiform	Cuneiform sign shen		
+122C0	"""𒋀"""	12000..123FF	Cuneiform	Cuneiform sign shesh		
+122C1	"""𒋁"""	12000..123FF	Cuneiform	Cuneiform sign shesh2		
+122C2	"""𒋂"""	12000..123FF	Cuneiform	Cuneiform sign sheshlam		
+122C3	"""𒋃"""	12000..123FF	Cuneiform	Cuneiform sign shid		
+122C4	"""𒋄"""	12000..123FF	Cuneiform	Cuneiform sign shid times a		
+122C5	"""𒋅"""	12000..123FF	Cuneiform	Cuneiform sign shid times im		
+122C6	"""𒋆"""	12000..123FF	Cuneiform	Cuneiform sign shim		
+122C7	"""𒋇"""	12000..123FF	Cuneiform	Cuneiform sign shim times a		
+122C8	"""𒋈"""	12000..123FF	Cuneiform	Cuneiform sign shim times bal		
+122C9	"""𒋉"""	12000..123FF	Cuneiform	Cuneiform sign shim times bulug		
+122CA	"""𒋊"""	12000..123FF	Cuneiform	Cuneiform sign shim times din		
+122CB	"""𒋋"""	12000..123FF	Cuneiform	Cuneiform sign shim times gar		
+122CC	"""𒋌"""	12000..123FF	Cuneiform	Cuneiform sign shim times igi		
+122CD	"""𒋍"""	12000..123FF	Cuneiform	Cuneiform sign shim times igi gunu		
+122CE	"""𒋎"""	12000..123FF	Cuneiform	Cuneiform sign shim times kushu2		
+122CF	"""𒋏"""	12000..123FF	Cuneiform	Cuneiform sign shim times lul		
+122D0	"""𒋐"""	12000..123FF	Cuneiform	Cuneiform sign shim times mug		
+122D1	"""𒋑"""	12000..123FF	Cuneiform	Cuneiform sign shim times sal		
+122D2	"""𒋒"""	12000..123FF	Cuneiform	Cuneiform sign shinig		
+122D3	"""𒋓"""	12000..123FF	Cuneiform	Cuneiform sign shir		
+122D4	"""𒋔"""	12000..123FF	Cuneiform	Cuneiform sign shir tenu		
+122D5	"""𒋕"""	12000..123FF	Cuneiform	Cuneiform sign shir over shir bur over bur		
+122D6	"""𒋖"""	12000..123FF	Cuneiform	Cuneiform sign shita		
+122D7	"""𒋗"""	12000..123FF	Cuneiform	Cuneiform sign shu		
+122D8	"""𒋘"""	12000..123FF	Cuneiform	Cuneiform sign shu over inverted shu		
+122D9	"""𒋙"""	12000..123FF	Cuneiform	Cuneiform sign shu2		
+122DA	"""𒋚"""	12000..123FF	Cuneiform	Cuneiform sign shubur		
+122DB	"""𒋛"""	12000..123FF	Cuneiform	Cuneiform sign si		
+122DC	"""𒋜"""	12000..123FF	Cuneiform	Cuneiform sign si gunu		
+122DD	"""𒋝"""	12000..123FF	Cuneiform	Cuneiform sign sig		
+122DE	"""𒋞"""	12000..123FF	Cuneiform	Cuneiform sign sig4		
+122DF	"""𒋟"""	12000..123FF	Cuneiform	Cuneiform sign sig4 over sig4 shu2		
+122E0	"""𒋠"""	12000..123FF	Cuneiform	Cuneiform sign sik2		
+122E1	"""𒋡"""	12000..123FF	Cuneiform	Cuneiform sign sila3		
+122E2	"""𒋢"""	12000..123FF	Cuneiform	Cuneiform sign su		
+122E3	"""𒋣"""	12000..123FF	Cuneiform	Cuneiform sign su over su		
+122E4	"""𒋤"""	12000..123FF	Cuneiform	Cuneiform sign sud		
+122E5	"""𒋥"""	12000..123FF	Cuneiform	Cuneiform sign sud2		
+122E6	"""𒋦"""	12000..123FF	Cuneiform	Cuneiform sign suhur		
+122E7	"""𒋧"""	12000..123FF	Cuneiform	Cuneiform sign sum		
+122E8	"""𒋨"""	12000..123FF	Cuneiform	Cuneiform sign sumash		
+122E9	"""𒋩"""	12000..123FF	Cuneiform	Cuneiform sign sur		
+122EA	"""𒋪"""	12000..123FF	Cuneiform	Cuneiform sign sur9		
+122EB	"""𒋫"""	12000..123FF	Cuneiform	Cuneiform sign ta		
+122EC	"""𒋬"""	12000..123FF	Cuneiform	Cuneiform sign ta asterisk		
+122ED	"""𒋭"""	12000..123FF	Cuneiform	Cuneiform sign ta times hi		
+122EE	"""𒋮"""	12000..123FF	Cuneiform	Cuneiform sign ta times mi		
+122EF	"""𒋯"""	12000..123FF	Cuneiform	Cuneiform sign ta gunu		
+122F0	"""𒋰"""	12000..123FF	Cuneiform	Cuneiform sign tab		
+122F1	"""𒋱"""	12000..123FF	Cuneiform	Cuneiform sign tab over tab ni over ni dish over dish		
+122F2	"""𒋲"""	12000..123FF	Cuneiform	Cuneiform sign tab squared		
+122F3	"""𒋳"""	12000..123FF	Cuneiform	Cuneiform sign tag		
+122F4	"""𒋴"""	12000..123FF	Cuneiform	Cuneiform sign tag times bi		
+122F5	"""𒋵"""	12000..123FF	Cuneiform	Cuneiform sign tag times gud		
+122F6	"""𒋶"""	12000..123FF	Cuneiform	Cuneiform sign tag times she		
+122F7	"""𒋷"""	12000..123FF	Cuneiform	Cuneiform sign tag times shu		
+122F8	"""𒋸"""	12000..123FF	Cuneiform	Cuneiform sign tag times tug2		
+122F9	"""𒋹"""	12000..123FF	Cuneiform	Cuneiform sign tag times ud		
+122FA	"""𒋺"""	12000..123FF	Cuneiform	Cuneiform sign tak4		
+122FB	"""𒋻"""	12000..123FF	Cuneiform	Cuneiform sign tar		
+122FC	"""𒋼"""	12000..123FF	Cuneiform	Cuneiform sign te		
+122FD	"""𒋽"""	12000..123FF	Cuneiform	Cuneiform sign te gunu		
+122FE	"""𒋾"""	12000..123FF	Cuneiform	Cuneiform sign ti		
+122FF	"""𒋿"""	12000..123FF	Cuneiform	Cuneiform sign ti tenu		
+12300	"""𒌀"""	12000..123FF	Cuneiform	Cuneiform sign til		
+12301	"""𒌁"""	12000..123FF	Cuneiform	Cuneiform sign tir		
+12302	"""𒌂"""	12000..123FF	Cuneiform	Cuneiform sign tir times tak4		
+12303	"""𒌃"""	12000..123FF	Cuneiform	Cuneiform sign tir over tir		
+12304	"""𒌄"""	12000..123FF	Cuneiform	Cuneiform sign tir over tir gad over gad gar over gar		
+12305	"""𒌅"""	12000..123FF	Cuneiform	Cuneiform sign tu		
+12306	"""𒌆"""	12000..123FF	Cuneiform	Cuneiform sign tug2		
+12307	"""𒌇"""	12000..123FF	Cuneiform	Cuneiform sign tuk		
+12308	"""𒌈"""	12000..123FF	Cuneiform	Cuneiform sign tum		
+12309	"""𒌉"""	12000..123FF	Cuneiform	Cuneiform sign tur		
+1230A	"""𒌊"""	12000..123FF	Cuneiform	Cuneiform sign tur over tur za over za		
+1230B	"""𒌋"""	12000..123FF	Cuneiform	Cuneiform sign u		
+1230C	"""𒌌"""	12000..123FF	Cuneiform	Cuneiform sign u gud		
+1230D	"""𒌍"""	12000..123FF	Cuneiform	Cuneiform sign u u u		
+1230E	"""𒌎"""	12000..123FF	Cuneiform	Cuneiform sign u over u pa over pa gar over gar		
+1230F	"""𒌏"""	12000..123FF	Cuneiform	Cuneiform sign u over u sur over sur		
+12310	"""𒌐"""	12000..123FF	Cuneiform	Cuneiform sign u over u u reversed over u reversed		
+12311	"""𒌑"""	12000..123FF	Cuneiform	Cuneiform sign u2		
+12312	"""𒌒"""	12000..123FF	Cuneiform	Cuneiform sign ub		
+12313	"""𒌓"""	12000..123FF	Cuneiform	Cuneiform sign ud		
+12314	"""𒌔"""	12000..123FF	Cuneiform	Cuneiform sign ud kushu2		
+12315	"""𒌕"""	12000..123FF	Cuneiform	Cuneiform sign ud times bad		
+12316	"""𒌖"""	12000..123FF	Cuneiform	Cuneiform sign ud times mi		
+12317	"""𒌗"""	12000..123FF	Cuneiform	Cuneiform sign ud times u plus u plus u		
+12318	"""𒌘"""	12000..123FF	Cuneiform	Cuneiform sign ud times u plus u plus u gunu		
+12319	"""𒌙"""	12000..123FF	Cuneiform	Cuneiform sign ud gunu		
+1231A	"""𒌚"""	12000..123FF	Cuneiform	Cuneiform sign ud sheshig		
+1231B	"""𒌛"""	12000..123FF	Cuneiform	Cuneiform sign ud sheshig times bad		
+1231C	"""𒌜"""	12000..123FF	Cuneiform	Cuneiform sign udug		
+1231D	"""𒌝"""	12000..123FF	Cuneiform	Cuneiform sign um		
+1231E	"""𒌞"""	12000..123FF	Cuneiform	Cuneiform sign um times lagab		
+1231F	"""𒌟"""	12000..123FF	Cuneiform	Cuneiform sign um times me plus da		
+12320	"""𒌠"""	12000..123FF	Cuneiform	Cuneiform sign um times sha3		
+12321	"""𒌡"""	12000..123FF	Cuneiform	Cuneiform sign um times u		
+12322	"""𒌢"""	12000..123FF	Cuneiform	Cuneiform sign umbin		
+12323	"""𒌣"""	12000..123FF	Cuneiform	Cuneiform sign umum		
+12324	"""𒌤"""	12000..123FF	Cuneiform	Cuneiform sign umum times kaskal		
+12325	"""𒌥"""	12000..123FF	Cuneiform	Cuneiform sign umum times pa		
+12326	"""𒌦"""	12000..123FF	Cuneiform	Cuneiform sign un		
+12327	"""𒌧"""	12000..123FF	Cuneiform	Cuneiform sign un gunu		
+12328	"""𒌨"""	12000..123FF	Cuneiform	Cuneiform sign ur		
+12329	"""𒌩"""	12000..123FF	Cuneiform	Cuneiform sign ur crossing ur		
+1232A	"""𒌪"""	12000..123FF	Cuneiform	Cuneiform sign ur sheshig		
+1232B	"""𒌫"""	12000..123FF	Cuneiform	Cuneiform sign ur2		
+1232C	"""𒌬"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times a plus ha		
+1232D	"""𒌭"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times a plus na		
+1232E	"""𒌮"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times al		
+1232F	"""𒌯"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times ha		
+12330	"""𒌰"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times nun		
+12331	"""𒌱"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2		
+12332	"""𒌲"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2 plus ash		
+12333	"""𒌳"""	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2 plus bi		
+12334	"""𒌴"""	12000..123FF	Cuneiform	Cuneiform sign ur4		
+12335	"""𒌵"""	12000..123FF	Cuneiform	Cuneiform sign uri		
+12336	"""𒌶"""	12000..123FF	Cuneiform	Cuneiform sign uri3		
+12337	"""𒌷"""	12000..123FF	Cuneiform	Cuneiform sign uru		
+12338	"""𒌸"""	12000..123FF	Cuneiform	Cuneiform sign uru times a		
+12339	"""𒌹"""	12000..123FF	Cuneiform	Cuneiform sign uru times ashgab		
+1233A	"""𒌺"""	12000..123FF	Cuneiform	Cuneiform sign uru times bar		
+1233B	"""𒌻"""	12000..123FF	Cuneiform	Cuneiform sign uru times dun		
+1233C	"""𒌼"""	12000..123FF	Cuneiform	Cuneiform sign uru times ga		
+1233D	"""𒌽"""	12000..123FF	Cuneiform	Cuneiform sign uru times gal		
+1233E	"""𒌾"""	12000..123FF	Cuneiform	Cuneiform sign uru times gan2 tenu		
+1233F	"""𒌿"""	12000..123FF	Cuneiform	Cuneiform sign uru times gar		
+12340	"""𒍀"""	12000..123FF	Cuneiform	Cuneiform sign uru times gu		
+12341	"""𒍁"""	12000..123FF	Cuneiform	Cuneiform sign uru times ha		
+12342	"""𒍂"""	12000..123FF	Cuneiform	Cuneiform sign uru times igi		
+12343	"""𒍃"""	12000..123FF	Cuneiform	Cuneiform sign uru times im		
+12344	"""𒍄"""	12000..123FF	Cuneiform	Cuneiform sign uru times ish		
+12345	"""𒍅"""	12000..123FF	Cuneiform	Cuneiform sign uru times ki		
+12346	"""𒍆"""	12000..123FF	Cuneiform	Cuneiform sign uru times lum		
+12347	"""𒍇"""	12000..123FF	Cuneiform	Cuneiform sign uru times min		
+12348	"""𒍈"""	12000..123FF	Cuneiform	Cuneiform sign uru times pa		
+12349	"""𒍉"""	12000..123FF	Cuneiform	Cuneiform sign uru times she		
+1234A	"""𒍊"""	12000..123FF	Cuneiform	Cuneiform sign uru times sig4		
+1234B	"""𒍋"""	12000..123FF	Cuneiform	Cuneiform sign uru times tu		
+1234C	"""𒍌"""	12000..123FF	Cuneiform	Cuneiform sign uru times u plus gud		
+1234D	"""𒍍"""	12000..123FF	Cuneiform	Cuneiform sign uru times ud		
+1234E	"""𒍎"""	12000..123FF	Cuneiform	Cuneiform sign uru times uruda		
+1234F	"""𒍏"""	12000..123FF	Cuneiform	Cuneiform sign uruda		
+12350	"""𒍐"""	12000..123FF	Cuneiform	Cuneiform sign uruda times u		
+12351	"""𒍑"""	12000..123FF	Cuneiform	Cuneiform sign ush		
+12352	"""𒍒"""	12000..123FF	Cuneiform	Cuneiform sign ush times a		
+12353	"""𒍓"""	12000..123FF	Cuneiform	Cuneiform sign ush times ku		
+12354	"""𒍔"""	12000..123FF	Cuneiform	Cuneiform sign ush times kur		
+12355	"""𒍕"""	12000..123FF	Cuneiform	Cuneiform sign ush times tak4		
+12356	"""𒍖"""	12000..123FF	Cuneiform	Cuneiform sign ushx		
+12357	"""𒍗"""	12000..123FF	Cuneiform	Cuneiform sign ush2		
+12358	"""𒍘"""	12000..123FF	Cuneiform	Cuneiform sign ushumx		
+12359	"""𒍙"""	12000..123FF	Cuneiform	Cuneiform sign utuki		
+1235A	"""𒍚"""	12000..123FF	Cuneiform	Cuneiform sign uz3		
+1235B	"""𒍛"""	12000..123FF	Cuneiform	Cuneiform sign uz3 times kaskal		
+1235C	"""𒍜"""	12000..123FF	Cuneiform	Cuneiform sign uzu		
+1235D	"""𒍝"""	12000..123FF	Cuneiform	Cuneiform sign za		
+1235E	"""𒍞"""	12000..123FF	Cuneiform	Cuneiform sign za tenu		
+1235F	"""𒍟"""	12000..123FF	Cuneiform	Cuneiform sign za squared times kur		
+12360	"""𒍠"""	12000..123FF	Cuneiform	Cuneiform sign zag		
+12361	"""𒍡"""	12000..123FF	Cuneiform	Cuneiform sign zamx		
+12362	"""𒍢"""	12000..123FF	Cuneiform	Cuneiform sign ze2		
+12363	"""𒍣"""	12000..123FF	Cuneiform	Cuneiform sign zi		
+12364	"""𒍤"""	12000..123FF	Cuneiform	Cuneiform sign zi over zi		
+12365	"""𒍥"""	12000..123FF	Cuneiform	Cuneiform sign zi3		
+12366	"""𒍦"""	12000..123FF	Cuneiform	Cuneiform sign zib		
+12367	"""𒍧"""	12000..123FF	Cuneiform	Cuneiform sign zib kaba tenu		
+12368	"""𒍨"""	12000..123FF	Cuneiform	Cuneiform sign zig		
+12369	"""𒍩"""	12000..123FF	Cuneiform	Cuneiform sign ziz2		
+1236A	"""𒍪"""	12000..123FF	Cuneiform	Cuneiform sign zu		
+1236B	"""𒍫"""	12000..123FF	Cuneiform	Cuneiform sign zu5		
+1236C	"""𒍬"""	12000..123FF	Cuneiform	Cuneiform sign zu5 times a		
+1236D	"""𒍭"""	12000..123FF	Cuneiform	Cuneiform sign zubur		
+1236E	"""𒍮"""	12000..123FF	Cuneiform	Cuneiform sign zum		
+1236F	"""𒍯"""	12000..123FF	Cuneiform	Cuneiform sign kap elamite		
+12370	"""𒍰"""	12000..123FF	Cuneiform	Cuneiform sign ab times nun		
+12371	"""𒍱"""	12000..123FF	Cuneiform	Cuneiform sign ab2 times a		
+12372	"""𒍲"""	12000..123FF	Cuneiform	Cuneiform sign amar times kug		
+12373	"""𒍳"""	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times u2 plus mash		
+12374	"""𒍴"""	12000..123FF	Cuneiform	Cuneiform sign dag3		
+12375	"""𒍵"""	12000..123FF	Cuneiform	Cuneiform sign dish plus shu		
+12376	"""𒍶"""	12000..123FF	Cuneiform	Cuneiform sign dub times she		
+12377	"""𒍷"""	12000..123FF	Cuneiform	Cuneiform sign ezen times gud		
+12378	"""𒍸"""	12000..123FF	Cuneiform	Cuneiform sign ezen times she		
+12379	"""𒍹"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times an plus kak plus a		
+1237A	"""𒍺"""	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash2		
+1237B	"""𒍻"""	12000..123FF	Cuneiform	Cuneiform sign ge22		
+1237C	"""𒍼"""	12000..123FF	Cuneiform	Cuneiform sign gig		
+1237D	"""𒍽"""	12000..123FF	Cuneiform	Cuneiform sign hush		
+1237E	"""𒍾"""	12000..123FF	Cuneiform	Cuneiform sign ka times anshe		
+1237F	"""𒍿"""	12000..123FF	Cuneiform	Cuneiform sign ka times ash3		
+12380	"""𒎀"""	12000..123FF	Cuneiform	Cuneiform sign ka times gish		
+12381	"""𒎁"""	12000..123FF	Cuneiform	Cuneiform sign ka times gud		
+12382	"""𒎂"""	12000..123FF	Cuneiform	Cuneiform sign ka times hi times ash2		
+12383	"""𒎃"""	12000..123FF	Cuneiform	Cuneiform sign ka times lum		
+12384	"""𒎄"""	12000..123FF	Cuneiform	Cuneiform sign ka times pa		
+12385	"""𒎅"""	12000..123FF	Cuneiform	Cuneiform sign ka times shul		
+12386	"""𒎆"""	12000..123FF	Cuneiform	Cuneiform sign ka times tu		
+12387	"""𒎇"""	12000..123FF	Cuneiform	Cuneiform sign ka times ur2		
+12388	"""𒎈"""	12000..123FF	Cuneiform	Cuneiform sign lagab times gi		
+12389	"""𒎉"""	12000..123FF	Cuneiform	Cuneiform sign lu2 sheshig times bad		
+1238A	"""𒎊"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2 plus lal		
+1238B	"""𒎋"""	12000..123FF	Cuneiform	Cuneiform sign lu2 times shu		
+1238C	"""𒎌"""	12000..123FF	Cuneiform	Cuneiform sign mesh		
+1238D	"""𒎍"""	12000..123FF	Cuneiform	Cuneiform sign mush3 times za		
+1238E	"""𒎎"""	12000..123FF	Cuneiform	Cuneiform sign na4		
+1238F	"""𒎏"""	12000..123FF	Cuneiform	Cuneiform sign nin		
+12390	"""𒎐"""	12000..123FF	Cuneiform	Cuneiform sign nin9		
+12391	"""𒎑"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times bal		
+12392	"""𒎒"""	12000..123FF	Cuneiform	Cuneiform sign ninda2 times gi		
+12393	"""𒎓"""	12000..123FF	Cuneiform	Cuneiform sign nu11 rotated ninety degrees		
+12394	"""𒎔"""	12000..123FF	Cuneiform	Cuneiform sign pesh2 asterisk		
+12395	"""𒎕"""	12000..123FF	Cuneiform	Cuneiform sign pir2		
+12396	"""𒎖"""	12000..123FF	Cuneiform	Cuneiform sign sag times igi gunu		
+12397	"""𒎗"""	12000..123FF	Cuneiform	Cuneiform sign ti2		
+12398	"""𒎘"""	12000..123FF	Cuneiform	Cuneiform sign um times me		
+12399	"""𒎙"""	12000..123FF	Cuneiform	Cuneiform sign u u		

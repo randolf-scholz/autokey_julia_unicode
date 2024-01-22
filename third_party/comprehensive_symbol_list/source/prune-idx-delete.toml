@@ -1,0 +1,743 @@
+#################################################################
+# Specify index entries to delete, generally due to redundancy. #
+# Author: Scott Pakin <scott+clsl@pakin.org>                    #
+#################################################################
+
+[[delete]]
+# Example: "1f468-1f3fb-200d-1f384"
+regex = '^[-0-9a-f]{4,}$'
+not_matches = ["babe", "deaf", "face"]
+
+[[delete]]
+# Example: "twemoji{sun behind large cloud}"
+regex = '^[A-Za-z]+\{[^\}]+\}$'
+not_prefix = ["worldflag{", "usym{", "MoonPha{"]
+not_contains = "square button"
+
+[[delete]]
+# Example: "\aiStackOverflow", which already is indexed under "StackOverflow"
+regex = '^ai([A-Z]|iNaturalist|arXiv|bioRxiv|dblp)'
+
+[[delete]]
+# Example: "\fcDinosaurB", which already is indexed under "dinosaur"
+regex = '^fc([A-Z]|hamburger|pink|sheet)'
+
+[[delete]]
+# Example: "\tiSocialGithub", which already is indexed under "GitHub"
+regex = '^ti(Social|Vendor|Dropbox)'
+
+[[delete]]
+# Example: "\jBV"
+regex = '^j[A-Z][A-Z]$'
+
+[[delete]]
+# Example: "\Fanquantnn", which is subsumed by "Frege logic symbols"
+regex = '^F[an]*(content|quant)'
+
+[[delete]]
+# Example 1: "\Pisymbol{nkarta}{38}"
+# Example 2: "{\pigpenfont A}"
+prefix = ["Pisymbol{", "pigpenfont"]
+not_render_contains = '\Pisymbol{nkarta}{119}'  # hammer and sickle
+
+[[delete]]
+# Example 1: "\asapFemaleAtDrinkingFountain", which already is indexed
+# under "female at drinking fountain"
+# Example 2: "\mfMobilePhoneBroadcast", which already is indexed under
+# "mobile phone"
+# Example 3: "\tiPointOfInterestOutline", which is indexed already under
+# "point of interest"
+# Example 4: "\faBriefcase", which is indexed already under "briefcase"
+# Example 5: "\staveXLVIII"
+# Example 6: "lilyTimeSignature", which is subsumed by "musical symbols"
+regex = '^(asap|mf|ti|fa|stave|lily)[A-Z]'
+not_contains = [  # The following index entries will be rewritten later.
+    "Angry",
+    "Bomb",
+    "Calendar",
+    "Check",
+    "Chess",
+    "Copyright",
+    "CreativeCommons",
+    "Device",
+    "Dizzy",
+    "Equal",
+    "Fast",
+    "faUser",
+    "Fist",
+    "Frown",
+    "Globe",
+    "GraduationCap",
+    "Greater",
+    "Grin",
+    "Hand",
+    "Hat",
+    "Hourglass",
+    "Keyboard",
+    "Kiss",
+    "Laugh",
+    "Leaf",
+    "Less",
+    "Media",
+    "Meh",
+    "Minus",
+    "Peace",
+    "Question",
+    "Quote",
+    "Sad",
+    "Suitcase",
+    "Stop",
+    "Thumbs",
+    "TimeC",
+    "Times",
+    "Trademark",
+    "Tree",
+    "Water"
+]
+not_prefix = ["tiPen", "faPen", "faHighlight", "faMarker"]
+
+[[delete]]
+# Example: "\mfMobileDevice", which already is indexed under "mobile
+# devices".
+matches = "mfMobileDevice"
+
+[[delete]]
+# Example: "\adfflourishleftdouble", which already is indexed under
+# "flourishes"
+prefix = "adf"
+not_contains = "leaf"
+
+[[delete]]
+# Example: "\APLboxupcaret", which is subsumed by "APL symbols"
+prefix = "APL"
+not_matches = ["APLcirc", "APLnot", "APLvert"]
+
+[[delete]]
+# Example: "\bcvaletcoeur", which is indexed already under "jack of
+# hearts"
+prefix = "bc"
+not_matches = "bcontraction"
+
+[[delete]]
+# Example: "\hamrepeatfromstartseveral", which is subsumed by "Hamburg
+# Notation System"
+prefix = "ham"
+render_contains = "verb"
+
+[[delete]]
+# Example: "\LBlackVerySmallLozenge", which already is indexed under
+# "circles"
+compare_lowercase = true
+regex = '^(blk|wht|black|white|lblack|lwhite|dotted|filled)'
+contains = ["lozenge", "pointer"]
+
+[[delete]]
+# Example: "folder delete", which already is indexed under "folder
+# symbols"
+compare_lowercase = true
+contains = "folder"
+not_matches = "folder symbols"
+
+[[delete]]
+# Example: "blitzd", whch already is indexed under both "lightning"
+# and "contradiction symbols"
+prefix = "blitz"
+
+[[delete]]
+# Example: "alla breve...see musical symbols", as this is rendered when
+# possible.
+consider_all_entries = true
+format_contains = "musical symbols"
+
+[[delete]]
+# Example 1: "dangerous bend symbols", which is redundant with
+# individual "dangerous bend" entries
+# Example 2: "fltns", which already is indexed under "polygons"
+# Example 3: "bombs", which is redundant with individual "bomb" entries.
+matches = ["dangerous bend symbols", "fltns", "bombs"]
+
+[[delete]]
+# Example: "\fgeleftB", which already is indexed under "Frege logic
+# symbols"
+prefix = "fge"
+not_matches = ["fgerightarrow", "fgeleftarrow"]
+
+[[delete]]
+# Example: "\hat[cowboy]", which already is indexed under "cowboy hat"
+contains = "hat["
+
+[[delete]]
+# Example: "\arnfamily"
+regex = 'ar.family'
+
+[[delete]]
+# Example: "\partialvartlcirclerightint", which is used only to construct
+# other symbols.
+regex = '^partial.*int$'
+
+[[delete]]
+# Example: "\actuarial" and "\angl", which are subsumed by "actuarial symbols"
+matches = ["actuarial", "angl", "angln", "anglr"]
+
+[[delete]]
+# Example: "smartctrbull=\textsf{smartctrbull} (\pkgname [index!=false]{bullcntr} package option)"
+render_contains = "package option)"
+
+[[delete]]
+# Example: "\renderCLOCK{3}{f}", because it's unlikely anyone will care to
+# use a clock without a frame.
+render_regex = '\\renderCLOCK\{\d\}\{f\}'
+
+[[delete]]
+# Example: "\Arrowvert", because such symbols are arrow bodies without
+# a head or tail.
+compare_lowercase = true
+matches = "arrowvert"
+
+[[delete]]
+# Example: "\bbslash", which is subsumed by "blackboard bold"
+prefix = ["bb", "Bb"]
+not_contains = [
+    "package",
+    "Bbbk",
+    "bbdollar",
+    "bbeuro"
+]
+
+[[delete]]
+# Example: "\ClsBrknBracBar", which is subsumed by "delimiters"
+prefix = "Cls"
+
+[[delete]]
+# Example: "\diceiv", which is subsumed by "dice"
+regex = '^dice[iv]+$'
+
+[[delete]]
+# Example: "dot (__ or __)", which is subsumed by "accents>dot" and
+# "accents>dot below".
+matches = "dot"
+render_contains = " or "
+
+[[delete]]
+# Example: "\rightevaw", which is a faked right symbol subsumed by
+# "delimiters".
+matches = ["rightevaw", "rightwave"]
+
+[[delete]]
+# Example: "\PAUSe", which is subsumed by "musical symbols".
+render_contains = ['\MSXPAUSe', '\MSXPAuse', '\MSXpause']
+
+[[delete]]
+# Example: "stars>Jewish" and "stars>with crescent", which will be
+# rewritten later.
+top_matches = "stars"
+matches = ["Jewish", "with crescent"]
+
+[[delete]]
+# Example: "\circleddot...see \odot", which is unnecessary to index.
+consider_all_entries = true
+regex = '^circled?(dot|minus|plus|slash|times)(left|right)?$'
+format_contains = "hyperindexformat"
+
+[[delete]]
+# Example "\Circle (O vs. o)", which is unnecessary to index.
+render_contains = '\Circle+ (\trysym{'
+
+[[delete]]
+# Example: "see...does not exist", which will be replaced by actual symbols.
+consider_all_entries = true
+matches = ["does not divide", "does not exist"]
+
+[[delete]]
+# Example: "null set", which will be replaced with a reference to "empty set".
+consider_all_entries = true
+matches = "null set"
+
+[[delete]]
+# Example: "dollar sign...see \$", which will be replaced with inlined
+# dollar-sign symbols.
+consider_all_entries = true
+matches = ["dollar sign", "dollar", "Cedi", "sterling"]
+format_contains = "hyperindexformat"
+
+[[delete]]
+# Example: "\dotsb", which already is indexed under both "ellipses
+# (dots)" and "dots (ellipses)".
+regex = '^dots[bcimo]?$'
+
+[[delete]]
+# Example: "ellipsis", which already is indexed under both "ellipses
+# (dots)" and "dots (ellipses)".
+matches = "ellipsis"
+
+[[delete]]
+# Example: "Celtcross", which is redundant with "Celtic cross".
+# Example: "menorahs", which is redundant with "menorah".
+matches = ["Celtcross", "menorahs"]
+
+[[delete]]
+# Example: "keys, computer", which will be replaced by "see...keyboard symbols".
+matches = ["keys, computer", "computer keys"]
+
+[[delete]]
+# Example: "clubs", which will be replaced with "club...see playing
+# cards, club".
+matches = ["clubs", "spades"]
+
+[[delete]]
+# Example: "hands", which will contain the glyphs.  "fists", "printer's
+# fists", "manicules", and "pointing finger" will all point to "hand".
+consider_all_entries = true
+matches = ["hands", "pointing finger", "printer's fist"]
+
+[[delete]]
+# Example: "\textara" and other commands for which which readers are
+# unlikely to search.
+prefix = "text"
+render_contains = 'verb+\text'
+not_render_contains = "("
+
+[[delete]]
+# Example: "\mathbold" and other commands for which which readers are
+# unlikely to search.
+prefix = "math"
+render_contains = 'verb+\math'
+not_render_contains = "("
+
+[[delete]]
+# Example: "\DeclareFontFamily" and other commands for which which readers
+# are unlikely to search.
+compare_lowercase = true
+prefix = "declare"
+not_contains = "declaremathoperator"
+
+[[delete]]
+# Example: "customs control", which is redundant with existing symbols.
+consider_all_entries = true
+matches = "customs control"
+
+[[delete]]
+# Example: "\xleftwitchonbroom*", for which readers are unlikely to search.
+regex = '^x(left|right).*(bat|broom|ghost|witch)'
+
+[[delete]]
+# Example: "tacks", which will be replaced with actual symbols.
+matches = "tacks"
+
+[[delete]]
+# Example: "\Relbar", which is used only to construct extensible symbols.
+compare_lowercase = true
+matches = "relbar"
+
+[[delete]]
+# Example: "\resmes", which already is indexed under "restriction of a
+# measure".
+matches = "resmes"
+
+[[delete]]
+# Example: "\downparenthfill", which is unlikely to be a search term.
+render_regex = '^\\(sp)?verb\+\\[A-Za-z]+fill\+$'
+
+[[delete]]
+# Example: "lightbulb10.2602gf (file)", which is unlikely to be a search term.
+prefix = "lightbulb10"
+
+[[delete]]
+# Example: "\countriesofeuropefamily", which is unlikely to be a search term.
+regex = 'family$'
+
+[[delete]]
+# Example: "\m", which is unlikely to be a search term.
+render_contains = '+\m+'
+
+[[delete]]
+# Example: "transforms", which will be replaced with actual symbols".
+consider_all_entries = true
+matches = "transforms"
+
+[[delete]]
+# Example: "\BGconditional", which already is covered by
+# "Begriffsschrift symbols".
+prefix = "BG"
+
+[[delete]]
+# Example: "\RRelbar", which is unlikely to be a search term.
+compare_lowercase = true
+contains = "relbar"
+
+[[delete]]
+# Example "space>visible", which will be replaced with actual symbols.
+consider_all_entries = true
+top_matches = "space"
+matches = "visible"
+
+[[delete]]
+# Example: "\leftdbltail", which is used primarily to construct other
+# symbols.
+regex = '^(left|right)(dbl)?tail$'
+
+[[delete]]
+# Example: "\cos", which is an atomic math object, not a symbol.
+matches = [
+    "atan",
+    "cos",
+    "lcm",
+    "lim",
+    "liminf",
+    "limsup",
+    "log",
+    "min",
+    "varinjlim",
+    "varprojlim"
+]
+
+[[delete]]
+# Example: "\longrightPP".  I have no idea what this symbol represents
+# or how to refer to it in the index.
+regex = '^(long)?(left|right)PP$'
+
+[[delete]]
+# Example: "\textknit{=}", which is unlikely to be a search term.
+prefix = "textknit"
+
+[[delete]]
+# Example 1: "\,", which already is indexed under "space, thin".
+# Example 2: "\-", which already is indexed under "hyphen, discretionary".
+# Example 3: "\\", which does not render a symbol.
+render_contains = ['+\,+', '+\-+', '+\\+']
+
+[[delete]]
+# Example: "operators, logical...see logical operators", which is a
+# dangling link.
+consider_all_entries = true
+top_matches = "operators"
+matches = ["logical", "unary"]
+
+[[delete]]
+# Example 1: "dots (ellipses)", which will be replaced with various
+# dot patterns.
+# Example 2: "actuarial symbols", which is redundant with "actuarial angle".
+# Example 3: "clothing", which is redundant with "clothes".
+# Example 4: "Laplacian", which will be replaced with actual symbols.
+# Example 5: "set operators>intersection", which is redundant with "set
+# intersection".
+# Example 6: "word balloons", which will be replaced with "see...speech
+# bubble".
+# Example 7: "Go board", which will be replaced with actual symbols.
+# Example 8: "independence>statistical", which will be replaced with actual
+# symbols.
+# Example 9: "logical operators>xor", which follows all of the
+# "logical _____" entries with symbols.
+# Example 10: "lozenges...see rhombuses", which will be replaced with
+# actual symbols.
+# Example 11: "angles>measured", which already is indexed under
+# "angle>measured".
+# Example 11: "product integrals", which already is indexed under
+# "integral>product".
+# Example 12: "inequalities", which is less specific than "greater than"
+# and "less than".
+# Example 13: "hammer and sickle", which will be replaced with an actual
+# symbol.
+# Example 14: "quasi-quotation marks", which will be redirected to a
+# rewritten symbol name
+# Example 15: "Angstrom unit", which will be replaced with a "see..." to
+# a non-control sequence.
+# Example 16: "dominance", which will be replaced with "see..."s to
+# non-control sequences.
+consider_all_entries = true
+top_matches = [
+    "dots (ellipses)",
+    "actuarial symbols",
+    "clothing",
+    "independence",
+    "Laplacian",
+    "logical operators",
+    "lozenges",
+    "set operators",
+    "word balloons",
+    "Go boards",
+    "angles",
+    "product integrals",
+    "inequalities",
+    "hammer and sickle",
+    "quasi-quotation marks",
+    "Angstrom unit",
+    "dominance"
+]
+not_render_contains = '\STIXangles'
+
+[[delete]]
+# Example: "\textRubikUa", which is unlikely to be a search term.
+matches = [
+    "acarc",
+    "acbar",
+    "accentset",
+    "acontraction",
+    "BasicTree",
+    "bcontraction",
+    "big",
+    "Big",
+    "bigg",
+    "Bigg",
+    "black",
+    "blackstone",
+    "bm",
+    "boldmath",
+    "boldsymbol",
+    "braceld",
+    "bracerd",
+    "bracevert",
+    "bullenum",
+    "changenotsign",
+    "ClockFramefalse",
+    "ClockFrametrue",
+    "ClockStyle",
+    "clocktime",
+    "constvec",
+    "cr",
+    "CR",
+    "diatop",
+    "diaunder",
+    "does not imply",
+    "double",
+    "Goofy",
+    "gvcropped",
+    "heartctrbull",
+    "hfil",
+    "HH",
+    "holter",
+    "hpause",
+    "ialign",
+    "IC",
+    "input",
+    "joinrel",
+    "labvel",
+    "land",
+    "largectrbull",
+    "left",
+    "Left",
+    "llangle",
+    "LMex",
+    "lor",
+    "lsf",
+    "ltriple",
+    "makeatletter",
+    "makeatother",
+    "maya",
+    "mbox",
+    "MC",
+    "metre",
+    "moverlay",
+    "musMeter",
+    "NBSP",
+    "offinterlineskip",
+    "oldstylenums",
+    "ooalign",
+    "overset",
+    "p@",
+    "pgfornament",
+    "pmb",
+    "polter",
+    "probabilistic independence",
+    "relations",
+    "reveject",
+    "right",
+    "rrangle",
+    "rtriple",
+    "SavedStyle",
+    "selectfont",
+    "setBold",
+    "Shilling",      # I can find no evidence of this symbol representing a shilling.
+    "showclock",
+    "slashed",
+    "smallctrbull",
+    "smartctrbull",
+    "stackengine",
+    "statistical independence",
+    "Strichmaxerl",
+    "SYN",
+    "tabcolsep",
+    "Takt",
+    "textdblhyphenchar",
+    "textRubikUa",
+    "Thermo",
+    "ThisStyle",
+    "tone",
+    "triple",
+    "upbar",
+    "uplett",
+    "usebox",
+    "usepackage",
+    "users",
+    "usf",
+    "usfz",
+    "usymH",
+    "usymW",
+    "varmathbb",
+    "vcenter",
+    "vrule",
+    "white",
+    "whitestone",
+    "worldflag",
+    "Zodiac"
+]
+
+[[delete]]
+# Example: "bullseye...see \textbullseye", which will be replaced with
+# actual symbols.
+consider_all_entries = true
+matches = [
+    "absolute value",
+    "abzuglich",
+    "adjoint",
+    "advancing",
+    "alternative denial",
+    "ampersand",
+    "and",
+    "asterisks",
+    "better",
+    "biconditional",
+    "blank",
+    "born",
+    "bullseye",
+    "cardinality",
+    "caret",
+    "carriage return",
+    "Cartesian product",
+    "centigrade",
+    "cents",
+    "congruent",
+    "conjunction, logical",
+    "converse implication",
+    "converse nonimplication",
+    "cross ratio",
+    "curly pi",
+    "cutoff subtraction",
+    "d'Alembert operator",
+    "dasharrow",
+    "degrees",
+    "Deleatur",
+    "derivative, partial",
+    "Descartes's equal sign",
+    "diamonds",
+    "died",
+    "differential, inexact",
+    "discount",
+    "disjunction",
+    "ditto marks",
+    "division times",
+    "divorced",
+    "doublecap",
+    "doublecup",
+    "element of",
+    "entails",
+    "equilibrium",
+    "equivalence",
+    "estimated",
+    "eszett",
+    "evaluated at",
+    "exclusive disjunction",
+    "ezh",
+    "falsum",
+    "feet",
+    "fish hook",
+    "florin",
+    "gaffing hook",
+    "ge",
+    "gets",
+    "gggtr",
+    "greater-than signs",
+    "greatest lower bound",
+    "Green Dot",
+    "Grune Punkt",
+    "guillemotleft",
+    "guillemotright",
+    "hash mark",
+    "iff",
+    "impliedby",
+    "implies",
+    "inches",
+    "inexact differential",
+    "infimum",
+    "interior",
+    "intersection",
+    "joint denial",
+    "Kronecker product",
+    "Kronecker sum",
+    "land",
+    "le",
+    "leaf",
+    "less-than signs",
+    "llless",
+    "lnot",
+    "lor",
+    "lowering",
+    "lrJoin",
+    "lsemantic",
+    "married",
+    "material biconditional",
+    "material conditional",
+    "material equivalence",
+    "material implication",
+    "material nonimplication",
+    "Maxwell-Stefan diffusion coefficient",
+    "membership",
+    "micro",
+    "millesimal sign",
+    "minus, double-dotted",
+    "monus",
+    "multiplicative disjunction",
+    "ne",
+    "negation",
+    "nibar",
+    "norm",
+    "not",
+    "notowns",
+    "nuclear power plant",
+    "number sign",
+    "or",
+    "orthogonal to",
+    "owns",
+    "par",
+    "paragraph mark",
+    "parallel lines, slanted",
+    "parts per thousand",
+    "percent sign",
+    "pilcrow",
+    "pipe",
+    "plus-or-minus sign",
+    "pomega",
+    "power set",
+    "proper subset/superset",
+    "Quine corners",
+    "raising",
+    "rationalized Planck constant",
+    "recipe",
+    "reduced quadrupole moment",
+    "retracting",
+    "reverse solidus",
+    "ring equal to",
+    "ring in equal to",
+    "ring sum",
+    "rsemantic",
+    "satisfies",
+    "seagull",
+    "section mark",
+    "set interior",
+    "stochastic independence",
+    "strict implication",
+    "supremum",
+    "swung dash",
+    "tailed z",
+    "tautology",
+    "tensor product",
+    "thousandths",
+    "to",
+    "transversal intersection",
+    "union",
+    "vinculum",
+    "Weierstrass p function",
+    "won",
+    "xor"
+]
+format_contains = "hyperindexformat"

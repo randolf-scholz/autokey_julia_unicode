@@ -1,0 +1,20 @@
+##################################################
+# Extract characters from a font as EPS graphics #
+# By Scott Pakin <scott+clsl@pakin.org>          #
+##################################################
+
+# Usage: fontforge -script <fontname> [<char#> ...]
+Open($1)
+shift
+if ($argc == 1)
+  Select(0x0000, 0xFFFF)
+else
+  slots = $selection
+  i = 0
+  while (i < $argc - 1)
+    slots[Strtol($argv[i + 1], 0)] = 1
+    i++
+  endloop
+  Select(slots)
+endif
+Export("u%U.eps")

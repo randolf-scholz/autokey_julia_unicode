@@ -1,0 +1,36 @@
+%% Simple \MF{} symbol example: light bulb
+%% (Demonstrates simplicity, not necesarily good style)
+
+mode_setup;      % Target a given printer.
+
+define_pixels(em, cap, sb);   % Convert to device-specific units.
+define_corrected_pixels(o);   % Same, but add a device-specific fudge factor.
+
+%% Define a light bulb at the character position for ``A'' with width
+%% 1/2 em\#, height cap\#, and depth 1pt\#.
+beginchar("A", 1/2 em#, cap#, 1pt#); "A light bulb";
+  pickup pencircle scaled 1/2pt;   % Use a pen with a small, circular tip.
+
+  %% Define the points we need.
+  top z1 = (w/2, h+o);          % z1 is at the top of a circle.
+  rt z2 = (w+sb+o-x4, y4);      % z2 is at the same height as z4 but opposite side.
+  bot z3 = (z1 - (0, w-sb-o));  % z3 is at the bottom of the circle.
+  lft z4 = (sb-o, 1/2[y1,y3]);  % z4 is on the left of the circle.
+  path bulb;               % Define a path for the bulb itself.
+  bulb = z1 .. z2 .. z3 .. z4 .. cycle;  % The bulb is a closed path.
+  
+  z5 = point 2-1/3 of bulb; % z5 lies on the bulb, a little to the right of z3.
+  z6 = (x5, 0);        % z6 is at the bottom, directly under z5.
+  z7 = (x8, 0);        % z7 is at the bottom, directly under z8.
+  z8 = point 2+1/3 of bulb; % z8 lies on the bulb, a little to the left of z3.
+  bot z67 = (1/2[x6,x7], pen_bot-o-1/8pt);  % z67 lies halfway between z6 and z7 but a jot lower.
+  
+  %% Draw the bulb and the base.
+  draw bulb;                           % Draw the bulb proper.
+  draw z5 -- z6 .. z67 .. z7 -- z8;    % Draw the base of the bulb.
+
+  %% Display key positions and points to help us debug.
+  makegrid (0, sb, w/2, w-sb) (0, -1pt, y2, h);  % Label interesting x and y coordinates.
+  penlabels(1,2,3,4,5,6,67,7,8);       % Label control points for debugging.
+endchar;
+end

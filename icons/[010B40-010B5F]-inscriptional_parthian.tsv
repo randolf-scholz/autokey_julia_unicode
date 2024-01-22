@@ -1,0 +1,31 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10B40	"""𐭀"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter aleph		
+10B41	"""𐭁"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter beth		
+10B42	"""𐭂"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter gimel		
+10B43	"""𐭃"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter daleth		
+10B44	"""𐭄"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter he		
+10B45	"""𐭅"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter waw		
+10B46	"""𐭆"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter zayin		
+10B47	"""𐭇"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter heth		
+10B48	"""𐭈"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter teth		
+10B49	"""𐭉"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter yodh		
+10B4A	"""𐭊"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter kaph		
+10B4B	"""𐭋"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter lamedh		
+10B4C	"""𐭌"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter mem		
+10B4D	"""𐭍"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter nun		
+10B4E	"""𐭎"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter samekh		
+10B4F	"""𐭏"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter ayin		
+10B50	"""𐭐"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter pe		
+10B51	"""𐭑"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter sadhe		
+10B52	"""𐭒"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter qoph		
+10B53	"""𐭓"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter resh		
+10B54	"""𐭔"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter shin		
+10B55	"""𐭕"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter taw		
+10B58	"""𐭘"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one		
+10B59	"""𐭙"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number two		
+10B5A	"""𐭚"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number three		
+10B5B	"""𐭛"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number four		
+10B5C	"""𐭜"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number ten		
+10B5D	"""𐭝"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number twenty		
+10B5E	"""𐭞"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one hundred		
+10B5F	"""𐭟"""	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one thousand		

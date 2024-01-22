@@ -1,0 +1,126 @@
+##############################################
+# Categorize mathematical map symbols.       #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ... rightward ...
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^(var)?(long)?(var)?(right)?mapsto$'
+item = "maps to"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(var)?(long)?(var)?(right)?mapsto$'
+item = ["maps to", "double"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^n(var)?(long)?(var)?(right)?mapsto$'
+item = ["maps to", "negated"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^n(var)?(long)?(var)?(right)?mapsto$'
+item = ["maps to", "double, negated"]
+
+[[rewrite]]
+matches = "twoheadmapsto"
+item = ["maps to", "double headed"]
+
+[[rewrite]]
+matches = ["xmapsto", "xvarmapsto"]
+item = ["maps to", "extensible"]
+
+# ... downward ...
+
+[[rewrite]]
+prefix = ["downmaps", "mapsdown"]
+item = ["maps to", "downward"]
+
+[[rewrite]]
+prefix = ["Downmaps", "Mapsdown"]
+item = ["maps to", "downward, double"]
+
+[[rewrite]]
+prefix = ["ndownmaps", "nmapsdown"]
+item = ["maps to", "downward, negated"]
+
+[[rewrite]]
+prefix = ["nDownmaps", "nMapsdown"]
+item = ["maps to", "downward, double, negated"]
+
+# ... upward ...
+
+[[rewrite]]
+prefix = ["upmaps", "mapsup"]
+item = ["maps to", "upward"]
+
+[[rewrite]]
+prefix = ["Upmaps", "Mapsup"]
+item = ["maps to", "upward, double"]
+
+[[rewrite]]
+prefix = ["nupmaps", "nmapsup"]
+item = ["maps to", "upward, negated"]
+
+[[rewrite]]
+prefix = ["nUpmaps", "nMapsup"]
+item = ["maps to", "upward, double, negated"]
+
+# ... leftward ...
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^(var)?(long)?(var)?mapsfrom$'
+item = ["maps to", "leftward"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(var)?(long)?(var)?mapsfrom$'
+item = ["maps to", "leftward, double"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '^n(var)?(long)?(var)?mapsfrom$'
+item = ["maps to", "leftward, negated"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^n(var)?(long)?(var)?mapsfrom$'
+item = ["maps to", "leftward, double, negated"]
+
+[[rewrite]]
+matches = "leftmapsto"
+item = ["maps to", "leftward"]
+
+[[rewrite]]
+matches = "Leftmapsto"
+item = ["maps to", "leftward, double"]
+
+[[rewrite]]
+matches = "nleftmapsto"
+item = ["maps to", "leftward, negated"]
+
+[[rewrite]]
+matches = "nLeftmapsto"
+item = ["maps to", "leftward, double, negated"]
+
+[[rewrite]]
+matches = "twoheadmapsfrom"
+item = ["maps to", "leftward, double headed"]
+
+[[rewrite]]
+matches = "xvarmapsfrom"
+item = ["maps to", "leftward, extensible"]
+
+# ... diagonal ...
+
+[[rewrite]]
+regex = '^(ne|nw|se|sw)mapsto$'
+item = ["maps to", "diagonal"]
+
+[[rewrite]]
+regex = '^n(ne|nw|se|sw)mapsto$'
+item = ["maps to", "diagonal, negated"]

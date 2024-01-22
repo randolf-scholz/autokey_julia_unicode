@@ -1,0 +1,112 @@
+% =====================================
+% FAKEALLRUNES.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% Provide a mock version of allrunes.sty that doesn't redefine
+% existing LaTeX symbols.
+
+\NeedsTeXFormat{LaTeX2e}
+\def\fileversion{v2.1}
+\def\filedate{2004/01/06}
+\ProvidesPackage{allrunes}[\filedate\space\fileversion\space allrunes package.]
+
+% Font declaration
+\DeclareFontEncoding{LRC}{}{}
+\DeclareFontSubstitution{LRC}{fruc}{m}{n}
+\DeclareFontFamily{LRC}{fruc}{}
+\DeclareFontShape{LRC}{fruc}{m}{n}{%
+  <-> frucmn
+}{}
+
+% Rune separators
+\DeclareRobustCommand{\ARUNEdot}{{\usefont{LRC}{fruc}{m}{n}\char46}}
+\DeclareRobustCommand{\ARUNEdoubledot}{{\usefont{LRC}{fruc}{m}{n}\char58}}
+\DeclareRobustCommand{\ARUNEtripledot}{{\usefont{LRC}{fruc}{m}{n}\char59}}
+\DeclareRobustCommand{\ARUNEquaddot}{{\usefont{LRC}{fruc}{m}{n}\char60}}
+\DeclareRobustCommand{\ARUNEpentdot}{{\usefont{LRC}{fruc}{m}{n}\char61}}
+\DeclareRobustCommand{\ARUNEeye}{{\usefont{LRC}{fruc}{m}{n}\char46}}
+\DeclareRobustCommand{\ARUNEdoubleeye}{{\usefont{LRC}{fruc}{m}{n}\char58}}
+\DeclareRobustCommand{\ARUNEtripleeye}{{\usefont{LRC}{fruc}{m}{n}\char62}}
+\DeclareRobustCommand{\ARUNEquadeye}{{\usefont{LRC}{fruc}{m}{n}\char63}}
+\DeclareRobustCommand{\ARUNEpenteye}{{\usefont{LRC}{fruc}{m}{n}\char64}}
+\DeclareRobustCommand{\ARUNEbar}{{\usefont{LRC}{fruc}{m}{n}\char33}}
+\DeclareRobustCommand{\ARUNEdoublebar}{{\usefont{LRC}{fruc}{m}{n}\char34}}
+\DeclareRobustCommand{\ARUNEtriplebar}{{\usefont{LRC}{fruc}{m}{n}\char35}}
+\DeclareRobustCommand{\ARUNEcross}{{\usefont{LRC}{fruc}{m}{n}\char42}}
+\DeclareRobustCommand{\ARUNEdoublecross}{{\usefont{LRC}{fruc}{m}{n}\char37}}
+\DeclareRobustCommand{\ARUNEtriplecross}{{\usefont{LRC}{fruc}{m}{n}\char38}}
+\DeclareRobustCommand{\ARUNEplus}{{\usefont{LRC}{fruc}{m}{n}\char43}}
+\DeclareRobustCommand{\ARUNEdoubleplus}{{\usefont{LRC}{fruc}{m}{n}\char44}}
+\DeclareRobustCommand{\ARUNEtripleplus}{{\usefont{LRC}{fruc}{m}{n}\char45}}
+\DeclareRobustCommand{\ARUNEstar}{{\usefont{LRC}{fruc}{m}{n}\char36}}
+\DeclareRobustCommand{\ARUNEdoublestar}{{\usefont{LRC}{fruc}{m}{n}\char37}}
+
+% Text symbols
+\DeclareRobustCommand{\ARUNEth}{{\usefont{LRC}{fruc}{m}{n}\char254}}
+%\DeclareRobustCommand{\ARUNETH}{{\usefont{LRC}{fruc}{m}{n}\char222}}
+\DeclareRobustCommand{\ARUNEA}{{\usefont{LRC}{fruc}{m}{n}\char161}}
+\DeclareRobustCommand{\ARUNEa}{{\usefont{LRC}{fruc}{m}{n}\char225}}
+\DeclareRobustCommand{\ARUNEk}{{\usefont{LRC}{fruc}{m}{n}\char171}}
+\DeclareRobustCommand{\ARUNEK}{{\usefont{LRC}{fruc}{m}{n}\char131}}
+\DeclareRobustCommand{\ARUNEh}{{\usefont{LRC}{fruc}{m}{n}\char232}}
+\DeclareRobustCommand{\ARUNEi}{{\usefont{LRC}{fruc}{m}{n}\char193}}
+\DeclareRobustCommand{\ARUNEj}{{\usefont{LRC}{fruc}{m}{n}\char170}}
+\DeclareRobustCommand{\ARUNEp}{{\usefont{LRC}{fruc}{m}{n}\char160}}
+\DeclareRobustCommand{\ARUNER}{{\usefont{LRC}{fruc}{m}{n}\char154}}
+\DeclareRobustCommand{\ARUNERR}{{\usefont{LRC}{fruc}{m}{n}\char122}}
+\DeclareRobustCommand{\ARUNEs}{{\usefont{LRC}{fruc}{m}{n}\char195}}
+\DeclareRobustCommand{\ARUNEtextsection}{{\usefont{LRC}{fruc}{m}{n}\char196}}
+\DeclareRobustCommand{\ARUNEsthree}{{\usefont{LRC}{fruc}{m}{n}\char211}}
+\DeclareRobustCommand{\ARUNEsfour}{{\usefont{LRC}{fruc}{m}{n}\char227}}
+\DeclareRobustCommand{\ARUNEsfive}{{\usefont{LRC}{fruc}{m}{n}\char243}}
+\DeclareRobustCommand{\ARUNEssix}{{\usefont{LRC}{fruc}{m}{n}\char212}}
+\DeclareRobustCommand{\ARUNEsseven}{{\usefont{LRC}{fruc}{m}{n}\char228}}
+\DeclareRobustCommand{\ARUNEseight}{{\usefont{LRC}{fruc}{m}{n}\char244}}
+\DeclareRobustCommand{\ARUNEng}{{\usefont{LRC}{fruc}{m}{n}\char173}}
+\DeclareRobustCommand{\ARUNENG}{{\usefont{LRC}{fruc}{m}{n}\char141}}
+\DeclareRobustCommand{\ARUNEing}{{\usefont{LRC}{fruc}{m}{n}\char181}}
+\DeclareRobustCommand{\ARUNEIng}{{\usefont{LRC}{fruc}{m}{n}\char189}}
+\DeclareRobustCommand{\ARUNEING}{{\usefont{LRC}{fruc}{m}{n}\char157}}
+\DeclareRobustCommand{\ARUNEd}{{\usefont{LRC}{fruc}{m}{n}\char164}}
+
+% Non-backslashed letters
+\def\ARUNEdefchar#1{%
+  \expandafter\DeclareRobustCommand\expandafter{\csname ARUNEC#1\endcsname}
+    {{\usefont{LRC}{fruc}{m}{n}#1}}%
+}
+\ARUNEdefchar{f}
+\ARUNEdefchar{F}
+\ARUNEdefchar{u}
+\ARUNEdefchar{U}
+\ARUNEdefchar{a}
+\ARUNEdefchar{r}
+\ARUNEdefchar{k}
+\ARUNEdefchar{g}
+\ARUNEdefchar{w}
+\ARUNEdefchar{h}
+\ARUNEdefchar{H}
+\ARUNEdefchar{n}
+\ARUNEdefchar{i}
+\ARUNEdefchar{j}
+\ARUNEdefchar{J}
+\ARUNEdefchar{A}
+\ARUNEdefchar{I}
+\ARUNEdefchar{p}
+\ARUNEdefchar{P}
+\ARUNEdefchar{R}
+\ARUNEdefchar{s}
+\ARUNEdefchar{S}
+\ARUNEdefchar{t}
+\ARUNEdefchar{b}
+\ARUNEdefchar{e}
+\ARUNEdefchar{T}
+\ARUNEdefchar{B}
+\ARUNEdefchar{E}
+\ARUNEdefchar{m}
+\ARUNEdefchar{l}
+\ARUNEdefchar{d}
+\ARUNEdefchar{D}
+\ARUNEdefchar{o}
+
+\endinput

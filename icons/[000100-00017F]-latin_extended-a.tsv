@@ -1,0 +1,129 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0100	"""Ā"""	0100..017F	Latin Extended-A	Latin capital letter a with macron		
+0101	"""ā"""	0100..017F	Latin Extended-A	Latin small letter a with macron		
+0102	"""Ă"""	0100..017F	Latin Extended-A	Latin capital letter a with breve		
+0103	"""ă"""	0100..017F	Latin Extended-A	Latin small letter a with breve		
+0104	"""Ą"""	0100..017F	Latin Extended-A	Latin capital letter a with ogonek		
+0105	"""ą"""	0100..017F	Latin Extended-A	Latin small letter a with ogonek		
+0106	"""Ć"""	0100..017F	Latin Extended-A	Latin capital letter c with acute		
+0107	"""ć"""	0100..017F	Latin Extended-A	Latin small letter c with acute		
+0108	"""Ĉ"""	0100..017F	Latin Extended-A	Latin capital letter c with circumflex		
+0109	"""ĉ"""	0100..017F	Latin Extended-A	Latin small letter c with circumflex		
+010A	"""Ċ"""	0100..017F	Latin Extended-A	Latin capital letter c with dot above		
+010B	"""ċ"""	0100..017F	Latin Extended-A	Latin small letter c with dot above		
+010C	"""Č"""	0100..017F	Latin Extended-A	Latin capital letter c with caron		
+010D	"""č"""	0100..017F	Latin Extended-A	Latin small letter c with caron		
+010E	"""Ď"""	0100..017F	Latin Extended-A	Latin capital letter d with caron		
+010F	"""ď"""	0100..017F	Latin Extended-A	Latin small letter d with caron		
+0110	"""Đ"""	0100..017F	Latin Extended-A	Latin capital letter d with stroke		
+0111	"""đ"""	0100..017F	Latin Extended-A	Latin small letter d with stroke		
+0112	"""Ē"""	0100..017F	Latin Extended-A	Latin capital letter e with macron		
+0113	"""ē"""	0100..017F	Latin Extended-A	Latin small letter e with macron		
+0114	"""Ĕ"""	0100..017F	Latin Extended-A	Latin capital letter e with breve		
+0115	"""ĕ"""	0100..017F	Latin Extended-A	Latin small letter e with breve		
+0116	"""Ė"""	0100..017F	Latin Extended-A	Latin capital letter e with dot above		
+0117	"""ė"""	0100..017F	Latin Extended-A	Latin small letter e with dot above		
+0118	"""Ę"""	0100..017F	Latin Extended-A	Latin capital letter e with ogonek		
+0119	"""ę"""	0100..017F	Latin Extended-A	Latin small letter e with ogonek		
+011A	"""Ě"""	0100..017F	Latin Extended-A	Latin capital letter e with caron		
+011B	"""ě"""	0100..017F	Latin Extended-A	Latin small letter e with caron		
+011C	"""Ĝ"""	0100..017F	Latin Extended-A	Latin capital letter g with circumflex		
+011D	"""ĝ"""	0100..017F	Latin Extended-A	Latin small letter g with circumflex		
+011E	"""Ğ"""	0100..017F	Latin Extended-A	Latin capital letter g with breve		
+011F	"""ğ"""	0100..017F	Latin Extended-A	Latin small letter g with breve		
+0120	"""Ġ"""	0100..017F	Latin Extended-A	Latin capital letter g with dot above		
+0121	"""ġ"""	0100..017F	Latin Extended-A	Latin small letter g with dot above		
+0122	"""Ģ"""	0100..017F	Latin Extended-A	Latin capital letter g with cedilla		
+0123	"""ģ"""	0100..017F	Latin Extended-A	Latin small letter g with cedilla		
+0124	"""Ĥ"""	0100..017F	Latin Extended-A	Latin capital letter h with circumflex		
+0125	"""ĥ"""	0100..017F	Latin Extended-A	Latin small letter h with circumflex		
+0126	"""Ħ"""	0100..017F	Latin Extended-A	Latin capital letter h with stroke		
+0127	"""ħ"""	0100..017F	Latin Extended-A	Latin small letter h with stroke		
+0128	"""Ĩ"""	0100..017F	Latin Extended-A	Latin capital letter i with tilde		
+0129	"""ĩ"""	0100..017F	Latin Extended-A	Latin small letter i with tilde		
+012A	"""Ī"""	0100..017F	Latin Extended-A	Latin capital letter i with macron		
+012B	"""ī"""	0100..017F	Latin Extended-A	Latin small letter i with macron		
+012C	"""Ĭ"""	0100..017F	Latin Extended-A	Latin capital letter i with breve		
+012D	"""ĭ"""	0100..017F	Latin Extended-A	Latin small letter i with breve		
+012E	"""Į"""	0100..017F	Latin Extended-A	Latin capital letter i with ogonek		
+012F	"""į"""	0100..017F	Latin Extended-A	Latin small letter i with ogonek		
+0130	"""İ"""	0100..017F	Latin Extended-A	Latin capital letter i with dot above		
+0131	"""ı"""	0100..017F	Latin Extended-A	Latin small letter dotless i		
+0132	"""Ĳ"""	0100..017F	Latin Extended-A	Latin capital ligature ij		
+0133	"""ĳ"""	0100..017F	Latin Extended-A	Latin small ligature ij		
+0134	"""Ĵ"""	0100..017F	Latin Extended-A	Latin capital letter j with circumflex		
+0135	"""ĵ"""	0100..017F	Latin Extended-A	Latin small letter j with circumflex		
+0136	"""Ķ"""	0100..017F	Latin Extended-A	Latin capital letter k with cedilla		
+0137	"""ķ"""	0100..017F	Latin Extended-A	Latin small letter k with cedilla		
+0138	"""ĸ"""	0100..017F	Latin Extended-A	Latin small letter kra		
+0139	"""Ĺ"""	0100..017F	Latin Extended-A	Latin capital letter l with acute		
+013A	"""ĺ"""	0100..017F	Latin Extended-A	Latin small letter l with acute		
+013B	"""Ļ"""	0100..017F	Latin Extended-A	Latin capital letter l with cedilla		
+013C	"""ļ"""	0100..017F	Latin Extended-A	Latin small letter l with cedilla		
+013D	"""Ľ"""	0100..017F	Latin Extended-A	Latin capital letter l with caron		
+013E	"""ľ"""	0100..017F	Latin Extended-A	Latin small letter l with caron		
+013F	"""Ŀ"""	0100..017F	Latin Extended-A	Latin capital letter l with middle dot		
+0140	"""ŀ"""	0100..017F	Latin Extended-A	Latin small letter l with middle dot		
+0141	"""Ł"""	0100..017F	Latin Extended-A	Latin capital letter l with stroke		
+0142	"""ł"""	0100..017F	Latin Extended-A	Latin small letter l with stroke		
+0143	"""Ń"""	0100..017F	Latin Extended-A	Latin capital letter n with acute		
+0144	"""ń"""	0100..017F	Latin Extended-A	Latin small letter n with acute		
+0145	"""Ņ"""	0100..017F	Latin Extended-A	Latin capital letter n with cedilla		
+0146	"""ņ"""	0100..017F	Latin Extended-A	Latin small letter n with cedilla		
+0147	"""Ň"""	0100..017F	Latin Extended-A	Latin capital letter n with caron		
+0148	"""ň"""	0100..017F	Latin Extended-A	Latin small letter n with caron		
+0149	"""ŉ"""	0100..017F	Latin Extended-A	Latin small letter n preceded by apostrophe		
+014A	"""Ŋ"""	0100..017F	Latin Extended-A	Latin capital letter eng		
+014B	"""ŋ"""	0100..017F	Latin Extended-A	Latin small letter eng		
+014C	"""Ō"""	0100..017F	Latin Extended-A	Latin capital letter o with macron		
+014D	"""ō"""	0100..017F	Latin Extended-A	Latin small letter o with macron		
+014E	"""Ŏ"""	0100..017F	Latin Extended-A	Latin capital letter o with breve		
+014F	"""ŏ"""	0100..017F	Latin Extended-A	Latin small letter o with breve		
+0150	"""Ő"""	0100..017F	Latin Extended-A	Latin capital letter o with double acute		
+0151	"""ő"""	0100..017F	Latin Extended-A	Latin small letter o with double acute		
+0152	"""Œ"""	0100..017F	Latin Extended-A	Latin capital ligature oe		
+0153	"""œ"""	0100..017F	Latin Extended-A	Latin small ligature oe		
+0154	"""Ŕ"""	0100..017F	Latin Extended-A	Latin capital letter r with acute		
+0155	"""ŕ"""	0100..017F	Latin Extended-A	Latin small letter r with acute		
+0156	"""Ŗ"""	0100..017F	Latin Extended-A	Latin capital letter r with cedilla		
+0157	"""ŗ"""	0100..017F	Latin Extended-A	Latin small letter r with cedilla		
+0158	"""Ř"""	0100..017F	Latin Extended-A	Latin capital letter r with caron		
+0159	"""ř"""	0100..017F	Latin Extended-A	Latin small letter r with caron		
+015A	"""Ś"""	0100..017F	Latin Extended-A	Latin capital letter s with acute		
+015B	"""ś"""	0100..017F	Latin Extended-A	Latin small letter s with acute		
+015C	"""Ŝ"""	0100..017F	Latin Extended-A	Latin capital letter s with circumflex		
+015D	"""ŝ"""	0100..017F	Latin Extended-A	Latin small letter s with circumflex		
+015E	"""Ş"""	0100..017F	Latin Extended-A	Latin capital letter s with cedilla		
+015F	"""ş"""	0100..017F	Latin Extended-A	Latin small letter s with cedilla		
+0160	"""Š"""	0100..017F	Latin Extended-A	Latin capital letter s with caron		
+0161	"""š"""	0100..017F	Latin Extended-A	Latin small letter s with caron		
+0162	"""Ţ"""	0100..017F	Latin Extended-A	Latin capital letter t with cedilla		
+0163	"""ţ"""	0100..017F	Latin Extended-A	Latin small letter t with cedilla		
+0164	"""Ť"""	0100..017F	Latin Extended-A	Latin capital letter t with caron		
+0165	"""ť"""	0100..017F	Latin Extended-A	Latin small letter t with caron		
+0166	"""Ŧ"""	0100..017F	Latin Extended-A	Latin capital letter t with stroke		
+0167	"""ŧ"""	0100..017F	Latin Extended-A	Latin small letter t with stroke		
+0168	"""Ũ"""	0100..017F	Latin Extended-A	Latin capital letter u with tilde		
+0169	"""ũ"""	0100..017F	Latin Extended-A	Latin small letter u with tilde		
+016A	"""Ū"""	0100..017F	Latin Extended-A	Latin capital letter u with macron		
+016B	"""ū"""	0100..017F	Latin Extended-A	Latin small letter u with macron		
+016C	"""Ŭ"""	0100..017F	Latin Extended-A	Latin capital letter u with breve		
+016D	"""ŭ"""	0100..017F	Latin Extended-A	Latin small letter u with breve		
+016E	"""Ů"""	0100..017F	Latin Extended-A	Latin capital letter u with ring above		
+016F	"""ů"""	0100..017F	Latin Extended-A	Latin small letter u with ring above		
+0170	"""Ű"""	0100..017F	Latin Extended-A	Latin capital letter u with double acute		
+0171	"""ű"""	0100..017F	Latin Extended-A	Latin small letter u with double acute		
+0172	"""Ų"""	0100..017F	Latin Extended-A	Latin capital letter u with ogonek		
+0173	"""ų"""	0100..017F	Latin Extended-A	Latin small letter u with ogonek		
+0174	"""Ŵ"""	0100..017F	Latin Extended-A	Latin capital letter w with circumflex		
+0175	"""ŵ"""	0100..017F	Latin Extended-A	Latin small letter w with circumflex		
+0176	"""Ŷ"""	0100..017F	Latin Extended-A	Latin capital letter y with circumflex		
+0177	"""ŷ"""	0100..017F	Latin Extended-A	Latin small letter y with circumflex		
+0178	"""Ÿ"""	0100..017F	Latin Extended-A	Latin capital letter y with diaeresis		
+0179	"""Ź"""	0100..017F	Latin Extended-A	Latin capital letter z with acute		
+017A	"""ź"""	0100..017F	Latin Extended-A	Latin small letter z with acute		
+017B	"""Ż"""	0100..017F	Latin Extended-A	Latin capital letter z with dot above		
+017C	"""ż"""	0100..017F	Latin Extended-A	Latin small letter z with dot above		
+017D	"""Ž"""	0100..017F	Latin Extended-A	Latin capital letter z with caron		
+017E	"""ž"""	0100..017F	Latin Extended-A	Latin small letter z with caron		
+017F	"""ſ"""	0100..017F	Latin Extended-A	Latin small letter long s		

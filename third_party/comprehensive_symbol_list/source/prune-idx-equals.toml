@@ -1,0 +1,244 @@
+##############################################
+# Categorize equality symbols.               #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ---------------------------- equal signs -----------------------------
+
+# ... regular ...
+
+# This rule should precede the generic "equals" rule.
+[[rewrite]]
+render_contains = '\tiEqualsOutline'
+item = ["equal", "hollow"]
+
+[[rewrite]]
+matches = ["equals", "equal"]
+item = "equal"
+
+[[rewrite]]
+render_contains = [
+    '($\ABXeqcolon$)',
+    '(\FDSYMeqcolon)',
+    '(\STIXeqcolon'
+]
+item = ["equal", "colon"]
+
+[[rewrite]]
+matches = ["eqcolon", "eqcolon", "eqqcolon", "equalscolon"]
+item = ["equal", "colon"]
+
+[[rewrite]]
+matches = ["Eqqcolon", "equalscoloncolon", "Eqcolon"]
+item = ["equal", "colon, double"]
+
+[[rewrite]]
+regex = '^eq(?:ual)?(dot|closed|parallel)$'
+item = ["equal", '\1']
+
+[[rewrite]]
+regex = '^(arc|dot|hat|closed|parallel|star|triangle)(?:eq|equal)$'
+item = ["equal", '\1']
+
+[[rewrite]]
+matches = "triangleq"
+item = ["equal", "triangle"]
+
+[[rewrite]]
+matches = "eparsl"
+item = ["equal", "parallel slanted"]
+
+[[rewrite]]
+matches = "smeparsl"
+item = ["equal", "parallel slanted, similar"]
+
+[[rewrite]]
+regex = '^[Bb]ump(?:ed)?eqq?$'
+item = ["equal", "bump"]
+
+[[rewrite]]
+matches = ["eqbump", "eqbumped"]
+item = ["equal", "bump"]
+
+[[rewrite]]
+matches = ["eqcirc", "circeq"]
+item = ["equal", "ring"]
+
+[[rewrite]]
+matches = ["botdoteq", "topdoteq"]
+item = ["equal", "dot"]
+
+[[rewrite]]
+matches = [
+    "Doteq",
+    "doteqdot",
+    "ddotseq",
+    "dotseq"
+]
+item = ["equal", "dots"]
+
+[[rewrite]]
+matches = "eqdef"
+item = ["equal", "by definition"]
+
+[[rewrite]]
+matches = "eqeq"
+item = ["equal", "double"]
+
+[[rewrite]]
+matches = "eqeqeq"
+item = ["equal", "triple"]
+
+[[rewrite]]
+matches = "fallingdotseq"
+item = ["equal", "dots, falling"]
+
+[[rewrite]]
+matches = "risingdotseq"
+item = ["equal", "dots, rising"]
+
+[[rewrite]]
+matches = "measeq"
+item = ["equal", "measure"]
+
+[[rewrite]]
+matches = "questeq"
+item = ["equal", "question mark"]
+
+[[rewrite]]
+matches = "veeeq"
+item = ["equal", "V"]
+
+[[rewrite]]
+matches = "wedgeq"
+item = ["equal", "wedge"]
+
+[[rewrite]]
+matches = "asteq"
+item = ["equal", "asterisk"]
+
+[[rewrite]]
+matches = ["eqsim", "eqqsim", "backeqsim"]
+item = ["equal", "similar"]
+
+[[rewrite]]
+matches = "xlongequal"
+item = ["equal", "extensible"]
+
+[[rewrite]]
+matches = [
+    "eqless",
+    "eqqless",
+    "eqqslantless",
+    "eqslantless"
+]
+item = ["equal", "or less than"]
+
+[[rewrite]]
+matches = [
+    "eqgtr",
+    "eqqgtr",
+    "eqqslantgtr",
+    "eqslantgtr"
+]
+item = ["equal", "or greater than"]
+
+[[rewrite]]
+matches = "egsdot"
+item = ["equal", "or greater than, dotted"]
+
+[[rewrite]]
+matches = "elsdot"
+item = ["equal", "or less than, dotted"]
+
+[[rewrite]]
+matches = ["faEquals", "tiEquals"]
+item = ["equal", "decorative"]
+
+[[rewrite]]
+matches = "asymp"
+item = ["equal", "asymptotically"]
+
+[[rewrite]]
+matches = "curlyeqprec"
+item = ["equal", "or precedes"]
+
+[[rewrite]]
+matches = "curlyeqsucc"
+item = ["equal", "or succeeds"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = [
+    "not equal",
+    "nequal",
+    "neq",
+    "ne"
+]
+not_render_contains = '\EOne' 
+item = ["equal", "negated"]
+
+[[rewrite]]
+matches = ["neqcirc", "ncirceq"]
+item = ["equal", "ring, negated"]
+
+[[rewrite]]
+regex = '^n[Bb]umpeqq?$'
+item = ["equal", "bump, negated"]
+
+[[rewrite]]
+regex = '^n(?:eq|equal)?(arc|bump|closed|dot|hat|triangle)(?:eq|equal)?$'
+item = ["equal", '\1, negated']
+
+[[rewrite]]
+matches = "nDoteq"
+item = ["equal", "dots, negated"]
+
+[[rewrite]]
+matches = "nfallingdotseq"
+item = ["equal", "dots, falling, negated"]
+
+[[rewrite]]
+matches = "nrisingdotseq"
+item = ["equal", "dots, rising, negated"]
+
+[[rewrite]]
+matches = "nstareq"
+item = ["equal", "star, negated"]
+
+[[rewrite]]
+matches = "nveeeq"
+item = ["equal", "V, negated"]
+
+[[rewrite]]
+matches = "nwedgeq"
+item = ["equal", "wedge, negated"]
+
+[[rewrite]]
+matches = ["neqsim", "nbackeqsim"]
+item = ["equal", "similar, negated"]
+
+[[rewrite]]
+matches = "neqslantgtr"
+item = ["equal", "or greater than, negated"]
+
+[[rewrite]]
+matches = "neqslantless"
+item = ["equal", "or less than, negated"]
+
+[[rewrite]]
+matches = "faNotEqual"
+item = ["equal", "decorative, negated"]
+
+[[rewrite]]
+matches = ["nasymp", "notasymp"]
+item = ["equal", "asymptotically, negated"]
+
+[[rewrite]]
+matches = "ncurlyeqprec"
+item = ["equal", "or precedes, negated"]
+
+[[rewrite]]
+matches = "ncurlyeqsucc"
+item = ["equal", "or succeeds, negated"]

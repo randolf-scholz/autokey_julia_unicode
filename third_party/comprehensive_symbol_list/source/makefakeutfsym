@@ -1,0 +1,127 @@
+#! /usr/bin/env python
+
+##############################################
+# Convert each utfsym picture to a PDF file. #
+#                                            #
+# Author: Scott Pakin <scott.clsl@pakin.org> #
+##############################################
+
+import concurrent.futures
+import glob
+import os
+import re
+import subprocess
+import sys
+
+
+def kpsewhich(fname):
+    'Find a filename in the TeX tree.'
+    proc = subprocess.run(['kpsewhich', fname], capture_output=True,
+                          check=True, encoding='utf-8')
+    return proc.stdout.strip()
+
+
+# Extract the package description from utfsym.sty.
+desc_re = re.compile(r'\\ProvidesExplPackage\{utfsym\}(\{.*\})$')
+sty = kpsewhich('utfsym.sty')
+with open(sty) as r:
+    for ln in r:
+        match = desc_re.search(ln)
+        if match is not None:
+            desc = match[1]
+            break
+
+# Acquire a list of all defined symbols.
+udir = os.path.dirname(kpsewhich('usym1F600.tikz'))
+tikz_files = glob.glob(os.path.join(udir, '*.tikz'))
+symbols = [os.path.splitext(os.path.basename(fn))[0] for fn in tikz_files]
+symbols.sort(key=lambda s: int(s[4:], 16))
+
+# Create a fakeutfsym.sty file.
+with open('fakeutfsym.sty', 'w') as w:
+    w.write('''\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a generated file.  DO NOT EDIT. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+''')
+    w.write('''\
+\\NeedsTeXFormat{LaTeX2e}
+\\ProvidesExplPackage{fakeutfsym}%s
+\\RequirePackage{graphicx}
+
+\\NewDocumentCommand{\\usym}{m}{\\includegraphics{utfsym/usym#1}}
+\\NewDocumentCommand{\\usymW}{m m}{\\includegraphics[width=#2]{utfsym/usym#1}}
+\\NewDocumentCommand{\\usymH}{m m}{\\includegraphics[height=#2]{utfsym/usym#1}}
+
+\\endinput
+''' % desc)
+
+# Create and switch to a utfsym subdirectory.
+try:
+    os.mkdir('utfsym')
+except FileExistsError:
+    pass
+os.chdir('utfsym')
+
+
+def run_and_return_output(cmd_line):
+    'Run a command line and return its combined stdout + stderr.'
+    stdout = 'RUN: ' + ' '.join(cmd_line) + '\n'
+    proc = subprocess.run(cmd_line, check=True,
+                          stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    stdout += proc.stdout.decode('utf-8')
+    return stdout
+
+
+# For speed, dump a LaTeX format file with utfsym preloaded.
+with open('preloaded.tex', 'w') as w:
+    w.write(r'''
+\documentclass{minimal}
+\usepackage{utfsym}
+\begin{document}
+\end{document}
+'''[1:])
+subprocess.run([
+    'pdflatex',
+    '--ini',
+    '&pdflatex',
+    'mylatex.ltx',
+    'preloaded.tex'
+],
+    check=True)
+
+
+def generate_graphic(sym):
+    'Generate a PDF file for a given utfsym symbol.'
+    stdout = f'*** PROCESSING {sym} ***\n\n'
+
+    # Create a LaTeX file.
+    stdout += f'CREATE: {sym}.tex\n'
+    with open(sym + '.tex', 'w') as w:
+        w.write(r'''
+\documentclass{minimal}
+\usepackage{utfsym}
+\begin{document}
+\usym{%s}
+\end{document}
+''' % sym[4:])
+
+    # Compile the LaTeX file to PDF.
+    stdout += run_and_return_output(['pdflatex', '&mylatex', sym + '.tex'])
+
+    # Crop the PDF file.
+    stdout += run_and_return_output(['pdfcrop', sym + '.pdf'])
+
+    # Overwrite the original PDF file with the cropped version.
+    stdout += f'RUN: mv {sym}-crop.pdf {sym}.pdf\n'
+    os.rename(f'{sym}-crop.pdf', f'{sym}.pdf')
+
+    # Output the buffered output.
+    stdout += '\n'
+    print(stdout)
+
+
+# Concurrently process all symbols.
+with concurrent.futures.ProcessPoolExecutor() as executor:
+    executor.map(generate_graphic, symbols)

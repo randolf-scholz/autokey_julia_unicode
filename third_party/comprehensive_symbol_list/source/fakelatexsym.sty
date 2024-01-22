@@ -1,0 +1,34 @@
+% =====================================
+% FAKELATEXSYM.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% We don't want to waste a precious math alphabet when loading the real
+% latexsym.sty.  Hence, we simply define explicitly all of the symbols
+% as text symbols.
+
+% Load the real latexsym, but stop right after the \ProvidesPackage.
+\let\origProvidesPackage=\ProvidesPackage
+\def\ProvidesPackage#1[#2]{%
+  \origProvidesPackage#1[#2]%
+  \endinput
+}
+\usepackage{latexsym}
+\let\ProvidesPackage=\origProvidesPackage
+
+% Define all of the symbols explicitly.
+\newcommand{\fakelatexsym}[1]{\text{\usefont{U}{lasy}{m}{n}\char#1}}
+\renewcommand{\mho}{\fakelatexsym{"30}}
+\renewcommand{\Join}{\fakelatexsym{"31}}
+\renewcommand{\Box}{\fakelatexsym{"32}}
+\renewcommand{\Diamond}{\fakelatexsym{"33}}
+\renewcommand{\leadsto}{\fakelatexsym{"3B}}
+\renewcommand{\sqsubset}{\fakelatexsym{"3C}}
+\renewcommand{\sqsupset}{\fakelatexsym{"3D}}
+\renewcommand{\lhd}{\fakelatexsym{"01}}
+\renewcommand{\unlhd}{\fakelatexsym{"02}}
+\renewcommand{\rhd}{\fakelatexsym{"03}}
+\renewcommand{\unrhd}{\fakelatexsym{"04}}
+\let\not@base\@undefined
+
+\endinput

@@ -1,0 +1,238 @@
+#! /usr/bin/env python
+
+##############################################
+# Convert LuaLaTeX symbol packages to a      #
+# faked version that works with pdfLaTeX.    #
+#                                            #
+# By Scott Pakin <scott.clsl@pakin.org>      #
+##############################################
+
+import argparse
+import os
+import re
+import string
+import subprocess
+import sys
+
+# Define a "do not edit" header string.
+do_not_edit = '''\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a generated file.  DO NOT EDIT. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+'''
+
+
+def kpsewhich(fname):
+    'Find a filename in the TeX tree.'
+    proc = subprocess.run(['kpsewhich', fname], capture_output=True,
+                          check=True, encoding='utf-8')
+    return proc.stdout.strip()
+
+
+class ParsingInfo():
+    '''Represent the information needed to parse one type of symbol from
+    the input LaTeX package.  Information is provided as a
+    semicolon-separated tuple {regexp, symbol suffix, hex increment}.'''
+
+    def __init__(self, info):
+        fields = info.split(' ; ')
+        if len(fields) == 0:
+            raise RuntimeError('failed to parse %s' % repr(info))
+        self.regexp = re.compile(fields[0], re.DOTALL)
+        self.suffix = ''
+        if len(fields) > 1:
+            self.suffix = fields[1]
+        self.increment = 0
+        if len(fields) > 2:
+            self.increment = int(fields[2], 0)
+
+
+class SubFont():
+    'Construct a sub-font containing up to 256 characters.'
+
+    def __init__(self, name, ttf, sym_num):
+        self.name = name
+        self.ttf = ttf
+        self.sym_num = sym_num
+
+    def _gen_encoding_file(self):
+        'Generate an input encoding file.'
+        enc_in = 'fake' + self.name + '-in.enc'
+        with open(enc_in, 'w') as w:
+            w.write(do_not_edit)
+            w.write(f'/{self.name} [\n')
+            for i, (sym, num) in enumerate(self.sym_num):
+                w.write('  /uni%04X  %% %3d: \\%s\n' % (num, i, sym))
+            w.write(']\n')
+        return enc_in
+
+    def _gen_font_files(self, enc_in):
+        'Generate a .tfm, .map, and .enc file from an input .enc file.'
+        args = ['otftotfm',
+                f'--map-file=fake{self.name}.map',
+                '--no-updmap',
+                f'--encoding={enc_in}',
+                '--directory=' + os.getcwd(),
+                ttf,
+                f'fake{self.name}']
+        sys.stderr.write('RUNNING: %s\n' % ' '.join(args))
+        subprocess.run(args, check=True, encoding='utf-8')
+
+    def _find_encoding_name(self):
+        'Return the name of the generated encoding file.'
+        # Read the .map file to find the encoding name.
+        map = 'fake' + self.name + '.map'
+        with open(map) as r:
+            for ln in r:
+                toks = ln.split()
+                if len(toks) == 6:
+                    return toks[4][2:]
+        raise Exception(f'failed to parse {map}')
+
+    def _rename_encoding(self, enc):
+        'Rename the encoding file and its reference in the map file.'
+        new_enc = 'fake' + self.name + '.enc'
+        os.rename(enc, new_enc)
+        map = 'fake' + self.name + '.map'
+        with open(map) as r:
+            all_map = r.readlines()
+        with open(map, 'w') as w:
+            for ln in all_map:
+                ln = ln.replace(enc, new_enc)
+                w.write(ln)
+
+    def generate(self):
+        enc_in = self._gen_encoding_file()
+        self._gen_font_files(enc_in)
+        enc = self._find_encoding_name()
+        self._rename_encoding(enc)
+        os.remove(enc_in)
+
+
+class LaTeXPackage():
+    'Generate a LaTeX package that provides access to multiple font files.'
+
+    def __init__(self, sty, base, names, sym_num):
+        self.sty = sty
+        self.base = base
+        self.names = names
+        self.sym_num = sym_num
+
+    def _provides_description(self):
+        '''Return the optional argument of the original package's
+        ProvidesPackage line.'''
+        with open(self.sty) as r:
+            all_sty = r.read()
+        provides_re = re.compile(r'\\ProvidesPackage\s*\{.*?\}\s*\[(.*?)\]',
+                                 re.DOTALL)
+        return provides_re.search(all_sty).group(1)
+
+    def _map_lines(self):
+        'Return the contents of all .map files.'
+        map_lines = []
+        for name in self.names:
+            with open(name + '.map') as r:
+                for ln in r:
+                    fields = ln.split()
+                    if len(fields) == 6:
+                        map_lines.append(ln.strip())
+        return map_lines
+
+    def generate(self):
+        'Generate a .sty file.'
+        with open(f'fake{self.base}.sty', 'w') as w:
+            # Write a header block.
+            w.write(do_not_edit)
+            w.write('\\NeedsTeXFormat{LaTeX2e}\n')
+            desc = self._provides_description()
+            w.write('\\ProvidesPackage{fake%s}[%s]\n' % (self.base, desc))
+            w.write('\n')
+
+            # Inline all map-file contents.
+            for name, ln in zip(self.names, self._map_lines()):
+                w.write('\\pdfmapline{=%s}\n' % ln)
+                w.write('\\font\\%s=%s at 10pt\n' % (name, name))
+            w.write('\n')
+
+            # Define all symbols.
+            idx = 0  # Index into self.names
+            ofs = 0  # Offset into the 256-character font
+            for sym, num in self.sym_num:
+                w.write('\\DeclareRobustCommand*{\\%s}{{\\%s\\char"%02X}}'
+                        '  %% "%04X\n' %
+                        (sym, self.names[idx], ofs, num))
+                ofs += 1
+                if ofs == 256:
+                    ofs = 0
+                    idx += 1
+            w.write('\n')
+
+            # Write a trailer line.
+            w.write('\\endinput\n')
+
+
+###########################################################################
+
+# Parse the command line.
+parser = argparse.ArgumentParser(description='Generate a pdfLaTeX-compatible'
+                                 ' interface to a LuaLaTeX package.')
+parser.add_argument('base',
+                    help='base name for files to read and write')
+parser.add_argument('in_font',
+                    help='name of underlying .ttf or .otf font file')
+parser.add_argument('--regexp', action='append',
+                    help='regular expression for extracting a LaTeX symbol'
+                    ' name (no slash) as "sym" and a hexadecimal code (no'
+                    ' prefix) as "hex".  Optionally followed by " ; " and'
+                    ' a symbol suffix and " ; " and a code increment')
+cl_args = parser.parse_args()
+base = cl_args.base
+in_font = cl_args.in_font
+if cl_args.regexp is None:
+    sym_hex_parsers = [ParsingInfo(r'\\symbol\{\"(?P<hex>[0-9A-F]+)\}.*?'
+                                   r'\\def\\(?P<sym>[A-Za-z]+)')]
+else:
+    sym_hex_parsers = [ParsingInfo(regexp) for regexp in cl_args.regexp]
+
+# Find the original package and font files.
+sty = kpsewhich(base + '.sty')
+ttf = kpsewhich(in_font)   # Misnomer; may be either TTF or OTF.
+
+# Read the entire package file into a single string.
+with open(sty) as r:
+    all_sty = r.read()
+
+# Construct a list of {symbol name, Unicode number} pairs.
+sym_num = []
+for shp in sym_hex_parsers:
+    for match in shp.regexp.finditer(all_sty):
+        sym, hex = match.group('sym'), match.group('hex')
+        sym_num.append((sym + shp.suffix, int(hex, 16) + shp.increment))
+if sym_num == []:
+    sys.exit('No {symbol, hex} pairs found')
+
+# Generate sub-fonts.
+if len(sym_num) <= 256:
+    # Single required font file
+    subfont = SubFont(base, ttf, sym_num)
+    subfont.generate()
+    names = ['fake' + base]
+else:
+    # Two or more required font files
+    names = []
+    sub_sym_num = sym_num
+    while sub_sym_num != []:
+        suffix = string.ascii_uppercase[len(names)]
+        names.append('fake' + base + suffix)
+        subfont = SubFont(base + suffix, ttf, sub_sym_num[:256])
+        subfont.generate()
+        sub_sym_num = sub_sym_num[256:]
+
+# Generate a LaTeX package.
+package = LaTeXPackage(sty, base, names, sym_num)
+package.generate()
+
+# Delete all map files now that they've been inlined.
+for name in names:
+    os.remove(name + '.map')

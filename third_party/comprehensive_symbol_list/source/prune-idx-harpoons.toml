@@ -1,0 +1,202 @@
+##############################################
+# Categorize harpoon symbols.                #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------------ regular -------------------------------
+
+# ... basic ...
+
+[[rewrite]]
+matches = "harpoons"
+item = "harpoon"
+
+[[rewrite]]
+regex = '^(down|up)harpoon(ccw|cw|left|right)$'
+item = "harpoon"
+
+[[rewrite]]
+regex = '^(left|right)harpoon(ccw|cw|down|up)$'
+item = "harpoon"
+
+[[rewrite]]
+regex = '^[ns][ew]harpoon(ccw|cw|[ns][ew])$'
+item = "harpoon"
+
+[[rewrite]]
+matches = ["varleftharp", "varrightharp"]
+item = "harpoon"
+
+[[rewrite]]
+regex = '^long(var)?(left|right)harp(oon)?(up|down)?$'
+item = ["harpoon", "long"]
+
+# ... double ...
+
+[[rewrite]]
+matches = [
+    "downdownharpoons",
+    "downharpoonsleftright",
+    "leftharpoonsupdown",
+    "leftleftharpoons",
+    "rightharpoonsupdown",
+    "rightrightharpoons",
+    "upharpoonsleftright",
+    "upupharpoons"
+]
+item = ["harpoon", "double, same side"]
+
+[[rewrite]]
+matches = [
+    "downupharpoons",
+    "downupharpoonsleftright",
+    "leftrightharpoons",
+    "leftrightharpoonsdown",
+    "leftrightharpoonsup",
+    "neswharpoons",
+    "nwseharpoons",
+    "rightleftharpoons",
+    "rightleftharpoonsdown",
+    "rightleftharpoonsup",
+    "senwharpoons",
+    "swneharpoons",
+    "updownharpoons",
+    "updownharpoonsleftright"
+]
+item = ["harpoon", "double, opposite sides"]
+
+[[rewrite]]
+matches = [
+    "leftrightharpoon",
+    "leftrightharpoondownup",
+    "leftrightharpoonupdown",
+    "neswharpoonnwse",
+    "neswharpoonsenw",
+    "nwseharpoonnesw",
+    "nwseharpoonswne",
+    "rightleftharpoon",
+    "updownharpoonleftright",
+    "updownharpoonrightleft",
+    "varleftrightharp",
+    "varrightleftharp"
+]
+item = ["harpoon", "double ended, opposite sides"]
+
+[[rewrite]]
+matches = ["longvarleftrightharp", "longvarrightleftharp"]
+item = ["harpoon", "double ended, opposite sides, long"]
+
+[[rewrite]]
+matches = [
+    "leftrightharpoondowndown",
+    "leftrightharpoonupup",
+    "updownharpoonleftleft",
+    "updownharpoonrightright"
+]
+item = ["harpoon", "double ended, same side"]
+
+# ... barred ...
+
+[[rewrite]]
+matches = [
+    "bardownharpoonleft",
+    "bardownharpoonright",
+    "barrightharpoondown",
+    "barrightharpoonup",
+    "leftharpoondownbar",
+    "leftharpoonupbar",
+    "upharpoonleftbar",
+    "upharpoonrightbar"
+]
+item = ["harpoon", "barred tail"]
+
+[[rewrite]]
+matches = [
+    "barupharpoonleft",
+    "barupharpoonright",
+    "barleftharpoondown",
+    "barleftharpoonup",
+    "downharpoonleftbar",
+    "downharpoonrightbar",
+    "rightharpoondownbar",
+    "rightharpoonupbar"
+]
+item = ["harpoon", "barred head"]
+
+[[rewrite]]
+matches = [
+    "barleftharpoon",
+    "barrightharpoon",
+    "dashleftharpoondown",
+    "dashrightharpoondown",
+    "leftbarharpoon",
+    "leftharpoonupdash",
+    "rightbarharpoon",
+    "rightharpoonupdash"
+]
+item = ["harpoon", "barred, parallel"]
+
+# ... extensible ...
+
+[[rewrite]]
+regex = '^x(var)?(left|right)harp(oon)?(up|down)?$'
+item = ["harpoon", "extensible"]
+
+[[rewrite]]
+matches = [
+    "autoleftrightharpoons",
+    "autorightleftharpoons",
+    "xleftrightharpoons",
+    "xrightleftharpoons"
+]
+item = ["harpoon", "double, opposite sides, extensible"]
+
+[[rewrite]]
+matches = ["xvarleftrightharp", "xvarrightleftharp"]
+item = ["harpoon", "double ended, opposite sides, extensible"]
+
+# ------------------------------ negated -------------------------------
+
+# ... basic ...
+
+[[rewrite]]
+regex = '^n(down|up)harpoon(ccw|cw|left|right)$'
+item = ["harpoon", "negated"]
+
+[[rewrite]]
+regex = '^n(left|right)harpoon(ccw|cw|down|up)$'
+item = ["harpoon", "negated"]
+
+[[rewrite]]
+regex = '^n[ns][ew]harpoon(ccw|cw|[ns][ew])$'
+item = ["harpoon", "negated"]
+
+# ... double ...
+
+[[rewrite]]
+matches = [
+    "ndownupharpoons",
+    "ndownupharpoonsleftright",
+    "nleftrightharpoons",
+    "nneswharpoons",
+    "nnwseharpoons",
+    "nsenwharpoons",
+    "nswneharpoons",
+    "nrightleftharpoons",
+    "nupdownharpoons",
+    "nupdownharpoonsleftright"
+]
+item = ["harpoon", "double, opposite sides, negated"]
+
+[[rewrite]]
+matches = [
+    "nleftrightharpoondownup",
+    "nleftrightharpoonupdown",
+    "nneswharpoonnwse",
+    "nneswharpoonsenw",
+    "nnwseharpoonnesw",
+    "nnwseharpoonswne",
+    "nupdownharpoonleftright",
+    "nupdownharpoonrightleft"
+]
+item = ["harpoon", "double ended, opposite sides, negated"]

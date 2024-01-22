@@ -1,0 +1,2183 @@
+##########################################################
+# Redirect common search terms to an appropriate target. #
+# Author: Scott Pakin <scott+clsl@pakin.org>             #
+##########################################################
+
+# ------------------------------ precedes ------------------------------
+
+[[create]]
+top_matches = "precedes"
+matches = "precedes"
+item = ["dominance"]
+see = "precedes"
+
+[[create]]
+top_matches = "precedes"
+matches = "negated"
+item = ["dominance", "negative"]
+see = "precedes, negated"
+
+[[create]]
+top_matches = "precedes"
+matches = "or equal to"
+render_contains = 'preccurlyeq'
+item = ["dominance", "weak"]
+see = "precedes, or equal to"
+
+[[create]]
+top_matches = "precedes"
+matches = "or equal to, negated"
+render_contains = 'npreccurlyeq'
+item = ["dominance", "negative weak"]
+see = "precedes, or equal to, negated"
+
+[[create]]
+top_matches = "precedes"
+matches = "double"
+render_contains = ['\BSKllcurly', '\STIXPrec']
+item = ["dominance", "strict"]
+see = "precedes, double"
+
+# ------------------------------- music --------------------------------
+
+[[create]]
+matches = "segno"
+render_contains = ['\musSegno', '\MSXsegno']
+item = ["dal segno"]
+see = "segno"
+
+[[create]]
+top_matches = "alla breve"
+matches = "alla breve"
+item = ["meter, musical"]
+see = "alla breve"
+
+[[create]]
+top_matches = "alla breve"
+matches = "reversed"
+item = ["meter, musical"]
+see = "alla breve, reversed"
+
+[[create]]
+top_matches = "common time"
+matches = "common time"
+item = ["meter, musical"]
+see = "common time"
+
+[[create]]
+top_matches = "common time"
+matches = "forward and reversed"
+item = ["meter, musical"]
+see = "common time, forward and reversed"
+
+# ---------------------- unions and intersections ----------------------
+
+[[create]]
+top_matches = "union"
+matches = "union"
+item = ["set union"]
+see = "union"
+
+[[create]]
+top_matches = "union"
+matches = "union"
+item = ["cup"]
+see = "union"
+
+[[create]]
+top_matches = "union"
+matches = "square"
+item = ["bunch join"]
+see = "union, square"
+
+[[create]]
+top_matches = "union"
+matches = "square"
+item = ["map join"]
+see = "union, square"
+
+[[create]]
+top_matches = "intersection"
+matches = "intersection"
+item = ["set intersection"]
+see = "intersection"
+
+[[create]]
+top_matches = "intersection"
+matches = "intersection"
+item = ["cap"]
+see = "intersection"
+
+[[create]]
+top_matches = "intersection"
+matches = "square"
+item = ["bunch meet"]
+see = "intersection, square"
+
+[[create]]
+top_matches = "intersection"
+matches = "square"
+item = ["map meet"]
+see = "intersection, square"
+
+# ------------------------------ letters -------------------------------
+
+[[create]]
+render_contains = '\hbar'
+item = ["Planck's constant"]
+render = "Planck's constant ($\\hbar$)"
+see = "barred letters, h"
+
+[[create]]
+top_matches = "barred letters"
+matches = "d"
+item = ["inexact differential"]
+see = "barred letters, d"
+
+[[create]]
+top_matches = "barred letters"
+matches = "d"
+item = ["differential, inexact"]
+see = "barred letters, d"
+
+[[create]]
+matches = "barred letters"
+item = "crossed letters"
+see = "barred letters"
+
+[[create]]
+top_matches = "boko letters"
+item = ["Hausa letters"]
+see = "boko letters"
+render = ""
+
+[[create]]
+top_matches = "z"
+matches = "round"
+item = ["ezh"]
+see = "round z"
+
+[[create]]
+top_matches = "z"
+matches = "round"
+item = ["tailed letters", "z"]
+see = "round z"
+
+[[create]]
+matches = "rotated letters"
+item = "upside-down letters"
+see = "rotated letters"
+
+[[create]]
+matches = "schwa"
+item = ["rotated letters", "e"]
+see = "schwa"
+
+[[create]]
+top_matches = "barred letters"
+matches = "D"
+item = ["Maxwell-Stefan diffusion coefficient"]
+see = "barred letters, D"
+
+[[create]]
+top_matches = "rotated letters"
+matches = "s, inverted"
+item = ["s", "lazy"]
+see = "rotated letters, s, inverted"
+
+# ------------------------- logical operations -------------------------
+
+# ... not sign ...
+
+[[create]]
+top_matches = "logical negation"
+item = ["negation"]
+see = "logical negation"
+
+[[create]]
+top_matches = "logical negation"
+item = ["not"]
+see = "logical negation"
+
+[[create]]
+top_matches = "logical negation"
+matches = "inverted"
+item = ["interior product"]
+see = "logical negation, inverted"
+
+# ... wedge ...
+
+[[create]]
+render_contains = '($\wedge$)'
+item = ["and"]
+see = "wedge"
+
+[[create]]
+render_contains = '($\wedge$)'
+item = ["logical conjunction"]
+see = "wedge"
+
+[[create]]
+render_contains = '($\wedge$)'
+item = ["conjunction", "logical"]
+see = "wedge"
+
+[[create]]
+render_contains = '($\barwedge$)'
+item = ["nand"]
+see = "wedge, bar over"
+
+[[create]]
+top_matches = "wedge"
+matches = "double"
+item = ["merge"]
+see = "wedge, double"
+
+# ... vee ...
+
+[[create]]
+render_contains = '($\vee$)'
+item = ["or"]
+see = "vee"
+
+[[create]]
+render_contains = '($\vee$)'
+item = ["logical disjunction"]
+see = "vee"
+
+[[create]]
+render_contains = '($\vee$)'
+item = ["disjunction, logical"]
+see = "vee"
+
+[[create]]
+render_contains = '\STIXbarvee'
+item = ["nor"]
+see = "vee, bar over"
+
+[[create]]
+render_contains = '($\veebar$)'
+item = ["xor"]
+see = "vee, bar under"
+
+[[create]]
+render_contains = '($\veebar$)'
+item = ["exclusive or"]
+see = "vee, bar under"
+
+[[create]]
+render_contains = '($\veebar$)'
+item = ["exclusive disjunction, logical"]
+see = "vee, bar under"
+
+[[create]]
+render_contains = '($\veebar$)'
+item = ["logical exclusive disjunction"]
+see = "vee, bar under"
+
+# ----------------------------- turnstiles -----------------------------
+
+[[create]]
+top_matches = "turnstile"
+matches = "double dash, right"
+item = ["satisfies"]
+see = "turnstile, double dash, right"
+
+[[create]]
+top_matches = "turnstile"
+matches = "double dash, right"
+item = ["models"]
+see = "turnstile, double dash, right"
+
+[[create]]
+top_matches = "turnstile"
+matches = "short bar, right"
+item = ["footline"]
+see = "turnstile, short bar"
+
+[[create]]
+top_matches = "turnstile"
+item = ["assertion"]
+see = "turnstile"
+render = ""
+
+[[create]]
+top_matches = "turnstile"
+matches = "down"
+item = ["top"]
+see = "turnstile, down"
+
+[[create]]
+top_matches = "turnstile"
+matches = "down"
+item = ["tautology"]
+see = "turnstile, down"
+
+[[create]]
+top_matches = "turnstile"
+matches = "down"
+item = ["lattice", "top"]
+see = "turnstile, down"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["lattice", "bottom"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["tack"]
+see = "turnstile"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["perpendicular"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["orthogonal"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["bottom"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["falsum"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "up"
+item = ["independence"]
+see = "turnstile, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "double dash, up"
+item = ["independence"]
+see = "turnstile, double dash, up"
+
+[[create]]
+top_matches = "turnstile"
+matches = "double bar, down"
+item = ["postal mark"]
+see = "turnstile, double bar, down"
+
+# ---------------------------- gender signs ----------------------------
+
+[[create]]
+top_matches = "gender signs"
+matches = "male and female"
+item = ["hermaphrodite"]
+see = "gender signs, male and female"
+
+[[create]]
+top_matches = "gender signs"
+matches = "female/male"
+item = ["heterosexual"]
+see = "gender signs, female/male"
+
+[[create]]
+top_matches = "gender signs"
+matches = "male/male"
+item = ["homosexual"]
+see = "gender signs, male/male"
+
+[[create]]
+top_matches = "gender signs"
+matches = "female/female"
+item = ["lesbian"]
+see = "gender signs, female/female"
+
+[[create]]
+top_matches = "gender signs"
+matches = "male with stroke and male and female"
+item = ["transgender"]
+see = "gender signs, male with stroke and male and female"
+
+# -------------------------- quotation marks ---------------------------
+
+[[create]]
+top_matches = "quotation marks"
+matches = "straight double"
+item = ["ditto marks"]
+see = "quotation marks, straight double"
+
+[[create]]
+top_matches = "quotation marks"
+matches = "straight single"
+item = ["feet"]
+see = "quotation marks, straight single"
+
+# This rule belongs in a different category but is kept with the preceding
+# rule, which is a proper quotation-mark reference.
+[[create]]
+top_matches = "prime"
+render_regex = '\\[A-Z]*prime'
+item = ["feet"]
+see = "prime"
+
+[[create]]
+top_matches = "quotation marks"
+matches = "straight double"
+item = ["inches"]
+see = "quotation marks, straight double"
+
+# This rule belongs in a different category but is kept with the preceding
+# rule, which is a proper quotation-mark reference.
+[[create]]
+top_matches = "prime"
+render_regex = '\\[A-Z]*dprime'
+item = ["inches"]
+see = "prime, double"
+
+# ----------------------------- plus signs -----------------------------
+
+[[create]]
+render_contains = '\oplus'
+item = ["Kronecker sum"]
+see = "circled symbols, plus"
+render = 'Kronecker sum ($\oplus$)'
+
+[[create]]
+render_contains = '\oplus'
+item = ["xor"]
+see = "circled symbols, plus"
+render = 'xor ($\oplus$)'
+
+[[create]]
+render_contains = '\oplus'
+item = ["exclusive or"]
+see = "circled symbols, plus"
+render = 'exclusive or ($\oplus$)'
+
+[[create]]
+render_contains = '\oplus'
+item = ["ring sum"]
+see = "circled symbols, plus"
+render = 'ring sum ($\oplus$)'
+
+# ------------------------------- hands --------------------------------
+
+[[create]]
+matches = "hand"
+item = "printer's fists"
+see = "hand"
+render = ""
+
+[[create]]
+matches = "hand"
+item = "fists"
+see = "hand"
+render = ""
+
+[[create]]
+matches = "hand"
+item = "manicules"
+see = "hand"
+render = ""
+
+[[create]]
+matches = "hand"
+item = "pointing finger"
+see = "hand"
+render = ""
+
+[[create]]
+render_contains = '\faHandRock'
+item = ["rock, paper, scissors (also lizard, Spock)"]
+see = "hand"
+render = ""
+
+[[create]]
+render_contains = '\faHandRock'
+item = ["roshambo"]
+see = "hand"
+render = ""
+
+[[create]]
+top_matches = "hand"
+matches = "Spock sign"
+item = "Vulcan salute"
+see = "hand, Spock sign"
+render = ""
+
+[[create]]
+top_matches = "hand"
+matches = "victory sign"
+item = ["hand", "peace sign"]
+see = "hand, victory sign"
+render = ""
+
+[[create]]
+top_matches = "hamsa"
+item = ["hand", "with eye"]
+see = "hamsa"
+
+# -------------------------- cleaning symbols --------------------------
+
+[[create]]
+render_contains = '(\WashCotton)'
+item = "normal"
+see = "machine wash, cotton"
+
+[[create]]
+render_contains = '(\WashCotton)'
+item = "maximum agitation"
+see = "machine wash, cotton"
+
+[[create]]
+render_contains = '(\WashSynthetics)'
+item = "permanent press"
+see = "machine wash, synthetics"
+
+[[create]]
+render_contains = '(\WashSynthetics)'
+item = "medium agitation"
+see = "machine wash, synthetics"
+
+[[create]]
+render_contains = '(\WashWool)'
+item = "delicate"
+see = "machine wash, wool/silk"
+
+[[create]]
+render_contains = '(\WashWool)'
+item = "minimal agitation"
+see = "machine wash, wool/silk"
+
+# ------------------------------ accents -------------------------------
+
+# ... redirects from accents>X to accents>Y ...
+
+[[create]]
+top_matches = "accents"
+matches = "circumflex"
+word = "hat"
+see = 'accents, \g<0>'
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "caron"
+item = "hacek"
+word = "h\\'{a}\\v{c}ek"
+see = "accents, caron"
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "diaeresis"
+word = "umlaut"
+see = 'accents, di{\ae}resis'
+
+[[create]]
+top_matches = "accents"
+matches = "acute, double"
+item = "Hungarian umlaut"
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "ring"
+word = "krouzek"
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "ring"
+item = ["interior"]
+see = 'accents, \g<0>'
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "diaeresis"
+item = "trema"
+word = "tr{\\'e}ma"
+see = 'accents, di{\ae}resis'
+
+# ... redirects from the top level to an accent ...
+
+[[create]]
+top_matches = "accents"
+matches = "ring"
+item = ["set interior"]
+see = "accents, ring"
+
+[[create]]
+top_matches = "accents"
+matches = "diaeresis"
+item = ["umlaut"]
+see = 'accents, di{\\ae}resis'
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "caron"
+item = ["hacek"]
+word = "h\\'{a}\\v{c}ek"
+see = "accents, caron"
+
+[[create]]
+top_matches = "accents"
+matches = "ring"
+item = ["krouzek"]
+word = 'krou\\v{z}ek'
+see = "accents, ring"
+
+[[create]]
+top_matches = "accents"
+matches = "diaeresis"
+item = ["diaeresis"]
+word = 'di{\\ae}resis'
+see = 'accents, di{\\ae}resis'
+
+[[create]]
+top_matches = "accents"
+matches = "ring"
+item = ["ring accent"]
+see = "accents, ring"
+
+[[create]]
+top_matches = "accents"
+matches = "bar"
+item = ["vinculum"]
+see = "accents, bar"
+
+[[create]]
+top_matches = "accents"
+matches = "fermata"
+item = ["fermata", "accent"]
+see = "accents, fermata"
+
+[[create]]
+top_matches = "accents"
+matches = "circumflex"
+item = ["hat", "accent"]
+see = "accents, circumflex"
+
+# ... redirects from X to just "accents" ...
+
+[[create]]
+top_matches = "accents"
+matches = [
+    "acute",
+    "arc",
+    "breve",
+    "caron",
+    "cedilla",
+    "circumflex",
+    "grave",
+    "macron",
+    "ogonek"
+]
+item = ['\1']
+see = 'accents, \1'
+
+[[create]]
+top_matches = "accents"
+matches = "diaeresis"
+item = ["trema"]
+word = "tr{\\'e}ma"
+see = 'accents, di{\\ae}resis'
+
+[[create]]
+top_matches = "accents"
+matches = "bar"
+item = ["overline"]
+see = "accents, overline"
+
+[[create]]
+top_matches = "accents"
+matches = "bar below"
+item = ["underline"]
+see = "accents, underline"
+
+# ... redirects from accents>X to Y ...
+
+[[create]]
+render_contains = '\RHAT'
+item = ["accents", "decorative hat"]
+render = ""
+
+# -------------------------- phonetic accents --------------------------
+
+[[create]]
+top_matches = "accents"
+matches = "ring below"
+item = ["phonetic accents", "voiceless"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "caron below"
+item = ["phonetic accents", "voiced"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "half ring below, right"
+item = ["phonetic accents", "more rounded"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "half ring below, left"
+item = ["phonetic accents", "less rounded"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "plus below"
+item = ["phonetic accents", "advanced"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "bar below"
+item = ["phonetic accents", "retracted"]
+see = 'accents, \g<0>'
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "diaeresis"
+item = ["phonetic accents", "centralized"]
+see = 'accents, di{\ae}resis'
+
+[[create]]
+top_matches = "accents"
+matches = "X"
+item = ["phonetic accents", "mid-centralized"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "vertical line below"
+item = ["phonetic accents", "syllabic"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "breve below, inverted"
+item = ["phonetic accents", "non-syllabic"]
+see = 'accents, \g<0>'
+
+[[create]]
+preserve_escapes = true
+top_matches = "accents"
+matches = "diaeresis below"
+item = ["phonetic accents", "breathy voiced"]
+see = 'accents, di{\ae}resis below'
+
+[[create]]
+top_matches = "accents"
+matches = "tilde below"
+item = ["phonetic accents", "creaky voiced"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "seagull below"
+item = ["phonetic accents", "linguolabial"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tilde overlay"
+item = ["phonetic accents", "velarized/pharyngealized"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tack below, up"
+item = ["phonetic accents", "raised"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tack below, down"
+item = ["phonetic accents", "lowered"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tack below, left"
+item = ["phonetic accents", "advanced tongue root"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tack below, right"
+item = ["phonetic accents", "retracted tongue root"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "bridge below"
+item = ["phonetic accents", "dental"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "bridge below, inverted"
+item = ["phonetic accents", "apical"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "square below"
+item = ["phonetic accents", "laminal"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "tilde"
+item = ["phonetic accents", "nasalized"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "angle, left"
+item = ["phonetic accents", "no audible release"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "acute, double"
+item = ["phonetic accents", "tone, extra high"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "acute"
+item = ["phonetic accents", "tone, high"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "macron"
+item = ["phonetic accents", "tone, mid"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "grave"
+item = ["phonetic accents", "tone, low"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "grave, double"
+item = ["phonetic accents", "tone, extra low"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "breve"
+item = ["phonetic accents", "suprasegmental, extra short"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "caron"
+item = ["phonetic accents", "tone, rising"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "circumflex"
+item = ["phonetic accents", "tone, falling"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "high rising tone"
+item = ["phonetic accents", "tone, high rising"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "low rising tone"
+item = ["phonetic accents", "tone, low rising"]
+see = 'accents, \g<0>'
+
+[[create]]
+top_matches = "accents"
+matches = "rising and falling tone"
+item = ["phonetic accents", "tone, rising and falling"]
+see = 'accents, \g<0>'
+
+# -------------------- various mathematical symbols --------------------
+
+# ... logic ...
+
+[[create]]
+top_matches = "strict implication"
+item = ["fish tail", "right"]
+see = "strict implication"
+
+[[create]]
+top_matches = "strict implication"
+item = ["fish tail", "left"]
+see = "strict converse implication"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["joint denial"]
+see = "arrow"
+render = 'joint denial ($\downarrow$)'
+
+[[create]]
+top_matches = "equivalence"
+matches = "equivalence"
+item = ["material biconditional"]
+see = "equivalence"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["material conditional"]
+see = "arrow"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["alternative denial"]
+see = "arrow"
+render = 'alternative denial ($\uparrow$)'
+
+[[create]]
+top_matches = "vertical bar"
+render_contains = '\textbar'
+item = ["alternative denial"]
+see = "vertical bar"
+render = 'alternative denial (\textbar)'
+
+[[create]]
+top_matches = "superset"
+matches = "strict"
+item = ["material conditional"]
+see = "superset, strict"
+
+[[create]]
+top_matches = "arrow"
+matches = "double ended"
+item = ["material equivalence"]
+see = "arrow, double ended"
+
+[[create]]
+top_matches = "equivalence"
+matches = "equivalence"
+item = ["material equivalence"]
+see = "equivalence"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["material implication"]
+see = "arrow"
+
+[[create]]
+top_matches = "superset"
+matches = "strict"
+item = ["material implication"]
+see = "superset, strict"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["material nonimplication"]
+see = "arrow"
+render = 'material nonimplication ($\nrightarrow$)'  # Assuming AMS
+
+[[create]]
+top_matches = "superset"
+matches = "strict, negated"
+item = ["material nonimplication"]
+see = "superset, strict, negated"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["converse implication"]
+see = "arrow"
+render = 'converse implication ($\leftarrow$)'
+
+[[create]]
+top_matches = "subset"
+matches = "strict"
+item = ["converse implication"]
+see = "subset, strict"
+
+[[create]]
+top_matches = "arrow"
+matches = "arrow"
+item = ["converse nonimplication"]
+see = "arrow"
+render = 'converse nonimplication ($\nleftarrow$)'
+
+[[create]]
+top_matches = "subset"
+matches = "strict, negated"
+item = ["converse nonimplication"]
+see = "subset, strict, negated"
+
+[[create]]
+top_matches = "multimap"
+matches = "multimap"
+item = ["linear implication"]
+see = "multimap"
+
+[[create]]
+top_matches = "multimap"
+matches = "multimap"
+item = ["lollipop (mathematics)"]
+see = "multimap"
+
+[[create]]
+top_matches = "vertical bar"
+matches = "vertical bar"
+item = ["Sheffer's stroke"]
+see = "vertical bar"
+
+# ... set theory ...
+
+[[create]]
+top_matches = "subset"
+matches = "square"
+item = ["subbunch"]
+see = "subset, square"
+
+[[create]]
+top_matches = "subset"
+matches = "square"
+item = ["submap"]
+see = "subset, square"
+
+[[create]]
+top_matches = "subset"
+matches = "finite"
+item = ["subset", "double"]
+see = "subset, finite"
+
+[[create]]
+top_matches = "subset"
+matches = "strict"
+item = ["proper subset"]
+see = "subset, strict"
+
+[[create]]
+top_matches = "superset"
+matches = "strict"
+item = ["proper superset"]
+see = "superset, strict"
+
+[[create]]
+top_matches = "set membership"
+matches = "set membership"
+item = ["in"]
+see = "set membership"
+
+[[create]]
+top_matches = "set membership"
+matches = "set membership"
+item = ["member of"]
+see = "set membership"
+
+[[create]]
+top_matches = "set membership"
+matches = "set membership"
+item = ["element of"]
+see = "set membership"
+
+[[create]]
+top_matches = "set membership"
+matches = "reversed"
+item = ["owns"]
+see = "set membership, reversed"
+
+[[create]]
+matches = "aleph"
+item = ["cardinality"]
+see = "aleph"
+
+# ... equality and inequality ...
+
+[[create]]
+top_matches = "equal"
+render_contains = '\circeq'
+item = ["ring equals"]
+see = "equal, ring"
+render = 'ring equals ($\circeq$)'
+
+[[create]]
+top_matches = "equal"
+render_contains = '\eqcolon'
+item = ["excess"]
+see = "equal, colon"
+
+[[create]]
+top_matches = "equal"
+render_contains = '\eqcirc'
+item = ["ring within equals"]
+see = "equal, ring"
+render = 'ring within equals ($\eqcirc$)'
+
+[[create]]
+top_matches = "equal"
+render_contains = '$\doteqdot$'
+item = ["geometrically equal to"]
+see = "equal, dots"
+
+[[create]]
+top_matches = "equal"
+matches = "negated"
+item = ["not equal"]
+see = "equal, negated"
+
+[[create]]
+top_matches = "equal"
+render_contains = '$\bumpeq$'
+item = ["difference between"]
+see = "equal, bump"
+
+[[create]]
+top_matches = "equal"
+render_contains = '$\Bumpeq$'
+item = ["geometrically equivalent to"]
+see = "equal, bump"
+
+[[create]]
+top_matches = "equal"
+matches = "asymptotically"
+item = ["asymptotically equal to"]
+see = "equal, asymptotically"
+
+[[create]]
+top_matches = "less than"
+matches = "horizontally barred"
+item = ["smaller than"]
+see = "less than, horizontally barred"
+
+[[create]]
+top_matches = "greater than"
+matches = "horizontally barred"
+item = ["larger than"]
+see = "greater than, horizontally barred"
+
+[[create]]
+top_matches = "less than"
+matches = "much, underlined"
+item = ["partial meet contraction"]
+see = "less than, much, underlined"
+
+[[create]]
+top_matches = "equivalence"
+render_contains = '($\equiv$)'
+item = ["biconditional"]
+see = "equivalence"
+
+[[create]]
+top_matches = "arrow"
+matches = "double ended"
+item = ["biconditional"]
+see = "arrow, double ended"
+
+# ... Z notation ...
+
+[[create]]
+top_matches = "greater than"
+matches = "much"
+item = ["Z notation", "schema piping"]
+see = "greater than, much"
+
+[[create]]
+top_matches = "restriction"
+matches = "restriction"
+item = ["Z notation", "schema projection"]
+see = "restriction"
+
+[[create]]
+top_matches = "bullet"
+matches = "bullet"
+item = ["Z notation", "spot"]
+see = "bullet"
+
+[[create]]
+top_matches = "colon"
+matches = "hollow"
+item = ["Z notation", "type colon"]
+see = "colon, hollow"
+
+[[create]]
+top_matches = "bullet"
+matches = "bullet"
+item = ["Z notation", "spot"]
+see = "bullet"
+
+[[create]]
+top_matches = "semicolon"
+matches = "hollow"
+item = ["Z notation", "relational composition"]
+see = "semicolon, hollow"
+
+[[create]]
+top_matches = "delimiters"
+matches = "parenthesis with bar"
+item = ["Z notation", "relational image"]
+see = "delimiters, parenthesis with bar"
+render = 'relational image (\OpnParnBar\graybox\ClsParnBar)'
+
+[[create]]
+top_matches = "triangle"
+render_contains = '(\STIXdsub)'
+item = ["Z notation", "domain antirestriction"]
+see = "triangle, bar through"
+
+[[create]]
+top_matches = "triangle"
+render_contains = '(\STIXrsub)'
+item = ["Z notation", "range antirestriction"]
+see = "triangle, bar through"
+
+# ... delimiters ...
+
+[[create]]
+top_matches = "delimiters"
+matches = "vertical bar"
+item = ["absolute value"]
+see = "delimiters, vertical bar"
+render = 'absolute value ($\vert$\graybox$\vert$)'
+
+[[create]]
+top_matches = "delimiters"
+matches = "double vertical bar"
+item = ["norm"]
+see = "delimiters, double vertical bar"
+render = 'norm ($\Vert$\graybox$\Vert$)'
+
+[[create]]
+top_matches = "delimiters"
+matches = "upper corners"
+item = ["Quine corners"]
+see = "delimiters, upper corners"
+render = 'Quine corners ($\ulcorner$\graybox$\urcorner$)'
+
+[[create]]
+top_matches = "delimiters"
+matches = "upper corners"
+item = ["quasi-quotation marks"]
+see = "delimiters, upper corners"
+render = 'quasi-quotation marks ($\ulcorner$\graybox$\urcorner$)'
+
+# ... other ...
+
+[[create]]
+matches = "therefore"
+item = "thus"
+see = "therefore"
+
+[[create]]
+top_matches = "therefore"
+matches = "down"
+item = ["since"]
+see = "therefore, down"
+
+[[create]]
+top_matches = "therefore"
+matches = "down"
+item = ["because"]
+see = "therefore, down"
+
+[[create]]
+top_matches = "minus"
+matches = "dot"
+item = ["cutoff subtraction"]
+see = "minus, dot"
+
+[[create]]
+top_matches = "minus"
+matches = "dots"
+render_contains = "dotsminusdots"
+item = ["geometric proportion"]
+see = "minus, dots"
+
+[[create]]
+top_matches = "times"
+matches = "times"
+item = ["multiplication", "cross"]
+see = "times"
+
+[[create]]
+top_matches = "times"
+item = ["Cartesian product"]
+see = "times"
+
+[[create]]
+top_matches = "times"
+item = ["cross product"]
+see = "times"
+
+[[create]]
+render_contains = '\otimes'
+item = ["Kronecker product"]
+see = "circled symbols, multiplication"
+render = 'Kronecker product ($\otimes$)'
+
+[[create]]
+render_contains = '\otimes'
+item = ["tensor product"]
+see = "circled symbols, multiplication"
+render = 'tensor product ($\otimes$)'
+
+[[create]]
+top_matches = "partial derivative"
+item = ["derivative, partial"]
+see = "partial derivative"
+
+[[create]]
+top_matches = "proportionality"
+matches = "reversed"
+item = ["Descartes's equal sign"]
+see = "proportionality, reversed"
+
+[[create]]
+top_matches = "arrow"
+matches = "wavy"
+item = ["leads to"]
+see = "arrow, wavy"
+
+[[create]]
+top_matches = "nabla"
+item = ["Laplacian"]
+see = "nabla"
+render = 'Laplacian ($\nabla^2$)'
+
+[[create]]
+top_matches = "triangle"
+matches = "triangle"
+item = ["set symmetric difference"]
+see = "triangle"
+render = 'set symmetric difference ($\bigtriangleup$)'
+
+[[create]]
+top_matches = "arrow"
+matches = "double ended, double bodied"
+item = ["iff"]
+see = "arrow, double ended, double bodied"
+
+[[create]]
+top_matches = "pitchfork"
+matches = "pitchfork"
+item = ["transversal intersection"]
+see = "pitchfork"
+
+[[create]]
+top_matches = "transform"
+preserve_escapes = true
+seealso = "alphabets, math"
+render = ""
+
+[[create]]
+top_matches = "for all"
+matches = "for all"
+item = ["universal bunch quantifier"]
+see = "for all"
+
+[[create]]
+top_matches = "for all"
+matches = "for all"
+item = ["universal individual quantifier"]
+see = "for all"
+
+[[create]]
+top_matches = "rhombus"
+matches = "rhombus"
+item = ["diamond"]
+see = "rhombus"
+
+[[create]]
+top_matches = "end of proof"
+item = "QED"
+see = "end of proof"
+render = ""
+
+[[create]]
+top_matches = "smiles and frowns"
+matches = "both"
+render_contains = "frownsmile"
+item = ["coherence"]
+see = "smiles and frowns, both"
+
+[[create]]
+top_matches = "smiles and frowns"
+matches = "both"
+render_contains = "smilefrown"
+item = ["incoherence"]
+see = "smiles and frowns, both"
+
+[[create]]
+top_matches = "vertical bar"
+matches = "vertical bar"
+item = ["divides"]
+see = "vertical bar"
+
+[[create]]
+top_matches = "vertical bar"
+matches = "vertical bar"
+item = ["evaluated at"]
+see = "vertical bar"
+
+[[create]]
+top_matches = "vertical bar"
+matches = "negated"
+item = ["divides", "negated"]
+see = "vertical bar, negated"
+
+[[create]]
+top_matches = "dagger"
+matches = "dagger"
+item = ["adjoint"]
+see = "dagger"
+render = 'adjoint ($\dag$)'
+
+[[create]]
+top_matches = "dot"
+matches = "four"
+item = ["proportion"]
+see = "dot, four"
+
+[[create]]
+matches = "empty set"
+item = "null set"
+see = "empty set"
+render = ""
+
+[[create]]
+top_matches = "minus"
+matches = "colon"
+item = ["excess"]
+see = "minus, colon"
+
+[[create]]
+top_matches = "triangle"
+matches = "bar through"
+render_contains = '\STIXconictaper'
+item = ["conic taper"]
+see = "triangle, bar through"
+
+[[create]]
+render_contains = '\CircNgt'
+item = ["circled symbols", "tilde"]
+
+[[create]]
+top_matches = "colon"
+matches = "math mode"
+item = ["ratio"]
+see = "colon, math mode"
+
+[[create]]
+top_matches = "dot"
+item = ["dot"]
+seealso = "colon"
+render = ""
+
+[[create]]
+top_matches = "similar"
+matches = "similar"
+item = ["swung dash"]
+see = "similar"
+
+[[create]]
+top_matches = "similar"
+matches = "or equal to"
+render_contains = '\cong'
+item = ["congruent"]
+see = "similar, or equal to"
+
+[[create]]
+top_matches = "similar"
+matches = "dots, vertical"
+item = ["kernel contraction"]
+see = "similar, dots, vertical"
+
+[[create]]
+top_matches = "equal"
+matches = "asymptotically"
+item = ["Vinogradov notation"]
+see = "equal, asymptotically"
+
+[[create]]
+top_matches = "greater than"
+matches = "much"
+render_contains = '($\gg$)'
+item = ["Vinogradov notation"]
+see = "greater than, much"
+
+[[create]]
+top_matches = "less than"
+matches = "much"
+render_contains = '($\ll$)'
+item = ["Vinogradov notation"]
+see = "less than, much"
+
+[[create]]
+top_matches = "harpoon"
+matches = "double, opposite sides"
+item = ["equilibrium"]
+see = "harpoon, double, opposite sides"
+
+[[create]]
+top_matches = "accents"
+matches = ["bat", "ghost"]
+item = ['\1', "as math-mode accent"]
+see = 'accents, \1'
+
+[[create]]
+top_matches = "accents"
+matches = "witch on broom"
+item = ["witch", "as math-mode accent"]
+see = "accents, witch on broom"
+
+# --------------------------- miscellaneous ----------------------------
+
+[[create]]
+top_matches = "pilcrow"
+item = "paragraph mark"
+render = 'paragraph mark (\P)'
+see = "pilcrow"
+
+[[create]]
+matches = "wireless network"
+item = "wifi"
+see = "wireless network"
+
+[[create]]
+render_contains = ["Greenpoint", "PackingWaste"]
+item = "Green Dot"
+see = "recycling"
+
+[[create]]
+render_contains = ["Greenpoint", "PackingWaste"]
+item = "Grune Punkt"
+word = 'Gr\"une Punkt'
+see = "recycling"
+
+[[create]]
+matches = "Santa Claus"
+item = "Father Christmas"
+see = "Santa Claus"
+
+[[create]]
+matches = "traffic light"
+item = "stoplight"
+see = "traffic light"
+render = ""
+
+[[create]]
+compare_lowercase = true
+contains = ["fivestarlines", "manstar", "pentagram"]
+item = ["pentagram"]
+see = "star, pentagram"
+
+[[create]]
+top_matches = "star"
+matches = "of David"
+item = ["star", "Jewish"]
+see = "star, of David"
+
+[[create]]
+top_matches = "star"
+matches = "of David"
+item = ["Jewish star"]
+see = "star, of David"
+
+[[create]]
+contains = "keyboard symbols"
+item = "keys, computer"
+see = "keyboard symbols"
+
+[[create]]
+contains = "keyboard symbols"
+item = "computer keys"
+see = "keyboard symbols"
+
+[[create]]
+render_contains = "mathring"
+item = ["A with ring", "math mode"]
+see = "accents, ring"
+render = ""
+
+[[create]]
+render_contains = '\STIXAngstrom'
+preserve_escapes = true
+item = ["Angstrom unit"]
+word = '\AA{}ngstr\"om unit'
+see = "A with ring"
+
+[[create]]
+top_matches = "star"
+matches = "pentagram"
+item = ["assumption"]
+see = "star, pentagram"
+
+[[create]]
+top_matches = "oven"
+item = ["stove"]
+see = "oven"
+render = ""
+
+[[create]]
+matches = "per mill"
+item = "per thousand"
+see = "per mill"
+
+[[create]]
+matches = "per mill"
+item = "thousandths"
+see = "per mill"
+
+[[create]]
+matches = "per mill"
+item = "millesimal sign"
+see = "per mill"
+
+[[create]]
+matches = "permyriad"
+item = "per ten thousand"
+see = "permyriad"
+
+[[create]]
+matches = "permyriad"
+item = "ten thousandths"
+see = "permyriad"
+
+[[create]]
+top_matches = "airplane"
+matches = "military"
+item = ["fighter jet"]
+see = "airplane, military"
+
+[[create]]
+matches = "playing card suits"
+item = "card suits"
+see = "playing card suits"
+
+[[create]]
+matches = "playing card suits"
+item = "club"
+render = 'club ($\clubsuit$)'
+see = "playing card suits, club"
+
+[[create]]
+matches = "playing card suits"
+item = "spade"
+render = 'spade ($\spadesuit$)'
+see = "playing card suits, spade"
+
+[[create]]
+matches = "playing card suits"
+item = "diamond suit"
+render = 'diamond suit ($\diamondsuit$)'
+see = "playing card suits, diamond"
+
+[[create]]
+matches = "playing card suits"
+item = ["heart", "suit"]
+render = ""
+see = "playing card suits, heart"
+
+[[create]]
+matches = "water pistol"
+item = "squirt gun"
+see = "water pistol"
+
+[[create]]
+top_matches = "banknote"
+not_matches = "banknote"
+item = ['\1 banknote']
+see = 'banknote, \1'
+render = ""
+
+[[create]]
+matches = "nesting dolls"
+item = "matryoshkas"
+
+[[create]]
+matches = "warning"
+item = "caution"
+see = "warning"
+render = ""
+
+[[create]]
+matches = "warning"
+item = "danger"
+see = "warning"
+render = ""
+
+[[create]]
+matches = "wrench"
+item = "spanner"
+see = "wrench"
+render = ""
+
+[[create]]
+matches = "eggplant"
+item = "aubergine"
+see = "eggplant"
+render = ""
+
+[[create]]
+matches = "soccer ball"
+item = "football"
+see = "soccer ball"
+render = ""
+
+[[create]]
+matches = "mailbox"
+item = "postbox"
+see = "mailbox"
+render = ""
+
+[[create]]
+matches = "denarius"
+item = "deleatur"
+see = "denarius"
+render = ""
+
+[[create]]
+render_contains = '\ABXdotdiv'
+item = ["monus"]
+see = "division, single dot"
+render = 'monus ($\ABXdotdiv$)'
+
+[[create]]
+top_matches = "division"
+matches = "times"
+item = ["division times"]
+see = "division, times"
+
+[[create]]
+top_matches = "sharp s"
+item = ["eszett"]
+see = "sharp s"
+render = 'eszett (\ss)'
+
+[[create]]
+top_matches = "truck"
+item = ["lorry"]
+see = "truck"
+render = ""
+
+[[create]]
+matches = "pushpin"
+item = "thumbtack"
+see = "pushpin"
+render = ""
+
+[[create]]
+top_matches = "join (database)"
+item = ["database join"]
+see = "join (database)"
+render = ""
+
+[[create]]
+top_matches = "join (database)"
+item = ["relational algebra"]
+see = "join (database)"
+render = ""
+
+[[create]]
+matches = "registered trademark"
+item = ["registered trademark"]
+see = "legal symbols, registered trademark"
+
+[[create]]
+matches = "trademark"
+item = ["trademark"]
+see = "legal symbols, trademark"
+
+[[create]]
+matches = "jack-o'-lantern"
+item = "pumpkin"
+see = "jack-o'-lantern"
+render = ""
+
+[[create]]
+render_regex = '\\STAR(Earth|Air|Fire|Water)\b'
+lowercase_item = true
+item = ["elements", '\1']
+
+[[create]]
+top_matches = "media control symbols"
+matches = "reverse"
+item = ["rewind"]
+see = "media control symbols, reverse"
+render = ""
+
+[[create]]
+top_matches = "media control symbols"
+matches = "forward"
+item = ["fast forward"]
+see = "media control symbols, forward"
+render = ""
+
+[[create]]
+top_matches = "speaker"
+item = ["volume control"]
+see = "speaker"
+render = ""
+
+[[create]]
+top_matches = "ping pong"
+item = "table tennis"
+see = "ping pong"
+render = ""
+
+[[create]]
+top_matches = "mu"
+matches = "lowercase upright"
+item = ["micro"]
+see = "mu, lowercase upright"
+
+[[create]]
+top_matches = "gear"
+item = ["cog"]
+see = "gear"
+render = ""
+
+[[create]]
+top_matches = "baby"
+item = "infant"
+see = "baby"
+render = ""
+
+[[create]]
+top_matches = "video game controller"
+item = ["game controller"]
+see = "video game controller"
+render = ""
+
+[[create]]
+top_matches = "extraterrestrial"
+item = ["alien"]
+see = "extraterrestrial"
+render = ""
+
+[[create]]
+top_matches = "billed cap"
+item = ["baseball cap"]
+see = "billed cap"
+
+[[create]]
+top_matches = "ampersand"
+matches = "inverted"
+item = ["multiplicative disjunction"]
+see = "ampersand, inverted"
+
+[[create]]
+top_matches = "ampersand"
+matches = "inverted"
+item = ["par"]
+see = "ampersand, inverted"
+
+[[create]]
+top_matches = "hash"
+item = ["number sign"]
+see = "hash"
+
+[[create]]
+top_matches = "hash"
+item = ["pound sign"]
+see = "hash"
+
+[[create]]
+top_matches = "hash"
+item = ["octothorpe"]
+see = "hash"
+
+[[create]]
+top_matches = "pi"
+matches = "lowercase variant"
+item = ["pomega"]
+see = "pi, lowercase variant"
+
+[[create]]
+top_matches = "pi"
+matches = "lowercase variant"
+item = ["curly pi"]
+see = "pi, lowercase variant"
+
+[[create]]
+render_contains = '\blackacchack{\^}'
+item = ["caret"]
+see = "accents, circumflex"
+
+[[create]]
+render_contains = '\textasciicircum'
+item = ["caret"]
+see = "diacritics, circumflex"
+
+[[create]]
+top_matches = "diacritics"
+matches = "circumflex"
+item = "hat"
+see = "diacritics, circumflex"
+
+[[create]]
+top_matches = "diacritics"
+matches = "open"
+item = ["diacritics", "half ring, left"]
+see = "diacritics, open"
+
+[[create]]
+matches = "mortarboard"
+item = ["graduation cap"]
+see = "mortarboard"
+render = ""
+
+[[create]]
+top_matches = "slash"
+matches = "slash"
+item = ["solidus"]
+see = "slash"
+
+[[create]]
+top_matches = "slash"
+matches = "slash"
+item = ["not"]
+see = "slash"
+
+[[create]]
+top_matches = "backslash"
+matches = "backslash"
+item = ["reverse solidus"]
+see = "backslash"
+
+[[create]]
+matches = "celsius"
+item = ["centigrade"]
+see = "celsius"
+
+[[create]]
+matches = "speech bubble"
+item = ["word balloon"]
+see = "speech bubble"
+render = ""
+
+[[create]]
+matches = "vertical bar"
+item = ["pipe"]
+see = "vertical bar"
+
+[[create]]
+top_matches = "automobile"
+matches = "automobile"
+item = ["car"]
+see = "automobile"
+render = ""
+
+[[create]]
+top_matches = "delta"
+matches = "uppercase"
+item = ["Laplacian"]
+see = "delta, uppercase"
+render = 'Laplacian ($\Delta$)'
+
+[[create]]
+top_matches = "triangle"
+matches = "impossible"
+item = ["tribar"]
+see = "triangle, impossible"
+
+[[create]]
+top_matches = "triangle"
+matches = "impossible"
+item = ["Penrose triangle"]
+see = "triangle, impossible"
+
+[[create]]
+top_matches = "triangle"
+matches = "triangle"
+render_contains = '(\VarSummit)'
+item = ["summit"]
+see = "triangle"
+
+[[create]]
+top_matches = "triangle"
+matches = "filled"
+render_contains = '(\Summit)'
+item = ["summit"]
+see = "triangle, filled"
+
+[[create]]
+top_matches = "cross (crucifix)"
+render_contains = '(\SummitSign)'
+item = ["summit"]
+see = "cross (crucifix)"
+
+[[create]]
+top_matches = "flag"
+matches = "flag"
+item = ["pennant"]
+see = "flag"
+render = ""
+
+[[create]]
+matches = "luggage"
+item = ["suitcase"]
+see = "luggage"
+render = ""
+
+[[create]]
+matches = "medium coeli"
+item = "midheaven"
+see = 'medium c{\\oe}li'
+
+[[create]]
+matches = "imum coeli"
+item = "nadir"
+see = 'imum c{\\oe}li'
+
+[[create]]
+top_matches = "envelope"
+matches = "envelope"
+item = ["email"]
+see = "envelope"
+render = ""
+
+[[create]]
+top_matches = "envelope"
+matches = "envelope"
+item = ["e-mail"]
+see = "envelope"
+render = ""
+
+[[create]]
+top_matches = "insect"
+item = ["bug"]
+see = "insect"
+render = ""
+
+[[create]]
+top_matches = "cycling"
+item = ["biking"]
+see = "cycling"
+render = ""
+
+[[create]]
+top_matches = "minus"
+matches = "commercial"
+item = ["discount"]
+see = "minus, commercial"
+
+[[create]]
+top_matches = "minus"
+matches = "commercial"
+item = ["abzuglich"]
+word = 'abz\"uglich'
+see = "minus, commercial"
+
+[[create]]
+top_matches = "page"
+item = ["paper"]
+see = "page"
+render = ""
+
+[[create]]
+top_matches = "rhombus"
+matches = "rhombus"
+item = ["lozenge"]
+see = "rhombus"
+render = ""
+
+[[create]]
+matches = "pistol"
+item = ["gun"]
+see = "pistol"
+
+[[create]]
+render_contains = '\RHAT'
+item = ["hat", "as math-mode accent"]
+
+[[create]]
+top_matches = "hammer"
+matches = "and sickle"
+item = ["communism"]
+see = "hammer, and sickle"
+
+[[create]]
+top_matches = "trash"
+matches = "trash"
+item = ["wastebasket"]
+see = "trash"
+render = ""
+
+[[create]]
+top_matches = "trash"
+matches = "trash"
+item = ["rubbish bin"]
+see = "trash"
+render = ""
+
+[[create]]
+top_matches = "legal symbols"
+matches = [
+    "copyright",
+    "copyleft",
+    "registered trademark",
+    "service mark",
+    "trademark"
+]
+item = ['\g<0>']
+see = 'legal symbols, \g<0>'
+
+[[create]]
+matches = "headstone"
+item = ["tombstone"]
+
+[[create]]
+matches = "headstone"
+item = ["gravestone"]
+
+[[create]]
+top_matches = "chalkboard"
+matches = "chalkboard"
+item = ["blackboard"]
+see = "chalkboard"
+
+[[create]]
+top_matches = "chalkboard"
+matches = "chalkboard"
+item = ["whiteboard"]
+see = "chalkboard"
+
+[[create]]
+matches = "military"
+render_contains = '\dsmilitary'
+item = ["sword", "multiple, crossed"]
+
+[[create]]
+top_matches = "circled symbols"
+matches = "telephone handset"
+item = ["telephone handset", "circled"]
+see = "circled symbols, telephone handset"
+
+[[create]]
+top_matches = "circled symbols"
+matches = "user"
+item = ["user", "circled"]
+see = "circled symbols, user"

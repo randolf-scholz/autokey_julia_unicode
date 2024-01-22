@@ -1,0 +1,187 @@
+##############################################
+# Categorize integrals.                      #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+[[rewrite]]
+consider_all_entries = true
+top_matches = "integrals"
+matches = ["contour", "dotted", "product", "quaternion"]
+item = ["integral", '\1']
+
+[[rewrite]]
+top_matches = "integrals"
+matches = "integrals"
+item = ["integral"]
+
+[[rewrite]]
+matches = ["int", "intsl", "intup", "varint", "longint"]
+item = "integral"
+
+[[rewrite]]
+compare_lowercase = true
+matches = "prodi"
+item = ["integral", "product"]
+
+[[rewrite]]
+contains = "dotsint"
+item = ["integral", "dotted"]
+
+[[rewrite]]
+contains = ["ointclockwise", "lcircleleftint", "rcirclerightint"]
+item = ["integral", "clockwise contour"]
+
+[[rewrite]]
+contains = ["ointctrclockwise", "lcirclerightint", "rcircleleftint"]
+item = ["integral", "counterclockwise contour"]
+
+# This rule must follow the previous two rules.
+[[rewrite]]
+contains = "oint"
+not_contains = ["joint", "Joint", "point", "Point", "partial"]
+item = ["integral", "contour"]
+
+[[rewrite]]
+contains = "oiint"
+not_contains = "partial"
+item = ["integral", "closed surface"]
+
+[[rewrite]]
+contains = "oiiint"
+not_contains = "partial"
+item = ["integral", "closed volume"]
+
+[[rewrite]]
+contains = ["awint", "intctrclockwise"]
+item = ["integral", "counterclockwise"]
+
+[[rewrite]]
+contains = "intclockwise"
+item = ["integral", "clockwise"]
+
+[[rewrite]]
+matches = "iNint"
+item = ["integral", "multiple"]
+
+[[rewrite]]
+matches = "biNint"
+item = ["integral", "multiple, square"]
+
+[[rewrite]]
+matches = "oiNint"
+item = ["integral", "multiple, contour"]
+
+[[rewrite]]
+contains = "sqiiint"
+item = ["integral", "square, triple"]
+
+[[rewrite]]
+contains = "sqiint"
+item = ["integral", "square, double"]
+
+[[rewrite]]
+contains = "sqint"
+item = ["integral", "square"]
+
+[[rewrite]]
+contains = "iiiint"
+not_contains = "partial"
+item = ["integral", "quadruple"]
+
+# This rule must appear after "iiiint".
+[[rewrite]]
+contains = "iiint"
+not_contains = "partial"
+item = ["integral", "triple"]
+
+# This rule must appear after "iiint", "sqiint", and "sqiiint".
+[[rewrite]]
+contains = "iint"
+not_contains = "partial"
+item = ["integral", "double"]
+
+[[rewrite]]
+contains = "intlarhk"
+item = ["integral", "hooked arrow"]
+
+[[rewrite]]
+contains = ["intx", "xint"]
+item = ["integral", "times"]
+
+[[rewrite]]
+contains = ["intbar", "barint"]
+item = ["integral", "bar"]
+
+[[rewrite]]
+matches = ["aint", "dashint"]
+item = ["integral", "bar"]
+
+[[rewrite]]
+contains = ["intBar", "ddashint"]
+item = ["integral", "double bar"]
+
+[[rewrite]]
+contains = "intcap"
+item = ["integral", "intersection"]
+
+[[rewrite]]
+contains = "intcup"
+item = ["integral", "union"]
+
+[[rewrite]]
+contains = "sumint"
+item = ["integral", "sum"]
+
+[[rewrite]]
+contains = "cirfnint"
+item = ["integral", "circulation function"]
+
+[[rewrite]]
+contains = "rppolint"
+item = ["integral", "line with rectangular path around pole"]
+
+[[rewrite]]
+contains = "scpolint"
+item = ["integral", "line with semicircular path around pole"]
+
+[[rewrite]]
+contains = "npolint"
+item = ["integral", "line not including the pole"]
+
+[[rewrite]]
+contains = "pointint"
+item = ["integral", "around a point operator"]
+
+[[rewrite]]
+contains = ["fint", "strokedint"]
+not_contains = "offint"
+item = ["integral", "slash"]
+
+[[rewrite]]
+contains = "landupint"
+item = ["integral", "Landau up"]
+
+[[rewrite]]
+contains = "landdownint"
+item = ["integral", "Landau down"]
+
+# This rule must appear after "landdownint".
+[[rewrite]]
+contains = ["lowint", "downint"]
+item = ["integral", "underbar"]
+
+# This rule must appear after "landupint".
+[[rewrite]]
+contains = "upint"
+item = ["integral", "overbar"]
+
+[[rewrite]]
+contains = ["bigint"]
+not_contains = "biginterleave"
+not_render_contains = ["package", "pkg"]
+item = ["integral", "big"]
+
+# This rule must appear after most other integral rules.
+[[rewrite]]
+contains = "smallint"
+item = "integral"

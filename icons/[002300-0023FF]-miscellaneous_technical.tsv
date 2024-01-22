@@ -1,0 +1,257 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2300	"""⌀"""	2300..23FF	Miscellaneous Technical	Diameter sign		
+2301	"""⌁"""	2300..23FF	Miscellaneous Technical	Electric arrow		
+2302	"""⌂"""	2300..23FF	Miscellaneous Technical	House		
+2303	"""⌃"""	2300..23FF	Miscellaneous Technical	Up arrowhead		
+2304	"""⌄"""	2300..23FF	Miscellaneous Technical	Down arrowhead		
+2305	"""⌅"""	2300..23FF	Miscellaneous Technical	Projective		
+2306	"""⌆"""	2300..23FF	Miscellaneous Technical	Perspective		
+2307	"""⌇"""	2300..23FF	Miscellaneous Technical	Wavy line		
+2308	"""⌈"""	2300..23FF	Miscellaneous Technical	Left ceiling		
+2309	"""⌉"""	2300..23FF	Miscellaneous Technical	Right ceiling		
+230A	"""⌊"""	2300..23FF	Miscellaneous Technical	Left floor		
+230B	"""⌋"""	2300..23FF	Miscellaneous Technical	Right floor		
+230C	"""⌌"""	2300..23FF	Miscellaneous Technical	Bottom right crop		
+230D	"""⌍"""	2300..23FF	Miscellaneous Technical	Bottom left crop		
+230E	"""⌎"""	2300..23FF	Miscellaneous Technical	Top right crop		
+230F	"""⌏"""	2300..23FF	Miscellaneous Technical	Top left crop		
+2310	"""⌐"""	2300..23FF	Miscellaneous Technical	Reversed not sign		
+2311	"""⌑"""	2300..23FF	Miscellaneous Technical	Square lozenge		
+2312	"""⌒"""	2300..23FF	Miscellaneous Technical	Arc		
+2313	"""⌓"""	2300..23FF	Miscellaneous Technical	Segment		
+2314	"""⌔"""	2300..23FF	Miscellaneous Technical	Sector		
+2315	"""⌕"""	2300..23FF	Miscellaneous Technical	Telephone recorder		
+2316	"""⌖"""	2300..23FF	Miscellaneous Technical	Position indicator		
+2317	"""⌗"""	2300..23FF	Miscellaneous Technical	Viewdata square		
+2318	"""⌘"""	2300..23FF	Miscellaneous Technical	Place of interest sign		
+2319	"""⌙"""	2300..23FF	Miscellaneous Technical	Turned not sign		
+231A	"""⌚"""	2300..23FF	Miscellaneous Technical	Watch		
+231B	"""⌛"""	2300..23FF	Miscellaneous Technical	Hourglass		
+231C	"""⌜"""	2300..23FF	Miscellaneous Technical	Top left corner		
+231D	"""⌝"""	2300..23FF	Miscellaneous Technical	Top right corner		
+231E	"""⌞"""	2300..23FF	Miscellaneous Technical	Bottom left corner		
+231F	"""⌟"""	2300..23FF	Miscellaneous Technical	Bottom right corner		
+2320	"""⌠"""	2300..23FF	Miscellaneous Technical	Top half integral		
+2321	"""⌡"""	2300..23FF	Miscellaneous Technical	Bottom half integral		
+2322	"""⌢"""	2300..23FF	Miscellaneous Technical	Frown		
+2323	"""⌣"""	2300..23FF	Miscellaneous Technical	Smile		
+2324	"""⌤"""	2300..23FF	Miscellaneous Technical	Up arrowhead between two horizontal bars		
+2325	"""⌥"""	2300..23FF	Miscellaneous Technical	Option key		
+2326	"""⌦"""	2300..23FF	Miscellaneous Technical	Erase to the right		
+2327	"""⌧"""	2300..23FF	Miscellaneous Technical	X in a rectangle box		
+2328	"""⌨"""	2300..23FF	Miscellaneous Technical	Keyboard		
+2329	"""〈"""	2300..23FF	Miscellaneous Technical	Left-pointing angle bracket		
+232A	"""〉"""	2300..23FF	Miscellaneous Technical	Right-pointing angle bracket		
+232B	"""⌫"""	2300..23FF	Miscellaneous Technical	Erase to the left		
+232C	"""⌬"""	2300..23FF	Miscellaneous Technical	Benzene ring		
+232D	"""⌭"""	2300..23FF	Miscellaneous Technical	Cylindricity		
+232E	"""⌮"""	2300..23FF	Miscellaneous Technical	All around-profile		
+232F	"""⌯"""	2300..23FF	Miscellaneous Technical	Symmetry		
+2330	"""⌰"""	2300..23FF	Miscellaneous Technical	Total runout		
+2331	"""⌱"""	2300..23FF	Miscellaneous Technical	Dimension origin		
+2332	"""⌲"""	2300..23FF	Miscellaneous Technical	Conical taper		
+2333	"""⌳"""	2300..23FF	Miscellaneous Technical	Slope		
+2334	"""⌴"""	2300..23FF	Miscellaneous Technical	Counterbore		
+2335	"""⌵"""	2300..23FF	Miscellaneous Technical	Countersink		
+2336	"""⌶"""	2300..23FF	Miscellaneous Technical	Apl functional symbol i-beam		
+2337	"""⌷"""	2300..23FF	Miscellaneous Technical	Apl functional symbol squish quad		
+2338	"""⌸"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad equal		
+2339	"""⌹"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad divide		
+233A	"""⌺"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad diamond		
+233B	"""⌻"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad jot		
+233C	"""⌼"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad circle		
+233D	"""⌽"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle stile		
+233E	"""⌾"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle jot		
+233F	"""⌿"""	2300..23FF	Miscellaneous Technical	Apl functional symbol slash bar		
+2340	"""⍀"""	2300..23FF	Miscellaneous Technical	Apl functional symbol backslash bar		
+2341	"""⍁"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad slash		
+2342	"""⍂"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad backslash		
+2343	"""⍃"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad less-than		
+2344	"""⍄"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad greater-than		
+2345	"""⍅"""	2300..23FF	Miscellaneous Technical	Apl functional symbol leftwards vane		
+2346	"""⍆"""	2300..23FF	Miscellaneous Technical	Apl functional symbol rightwards vane		
+2347	"""⍇"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad leftwards arrow		
+2348	"""⍈"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad rightwards arrow		
+2349	"""⍉"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle backslash		
+234A	"""⍊"""	2300..23FF	Miscellaneous Technical	Apl functional symbol down tack underbar		
+234B	"""⍋"""	2300..23FF	Miscellaneous Technical	Apl functional symbol delta stile		
+234C	"""⍌"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad down caret		
+234D	"""⍍"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad delta		
+234E	"""⍎"""	2300..23FF	Miscellaneous Technical	Apl functional symbol down tack jot		
+234F	"""⍏"""	2300..23FF	Miscellaneous Technical	Apl functional symbol upwards vane		
+2350	"""⍐"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad upwards arrow		
+2351	"""⍑"""	2300..23FF	Miscellaneous Technical	Apl functional symbol up tack overbar		
+2352	"""⍒"""	2300..23FF	Miscellaneous Technical	Apl functional symbol del stile		
+2353	"""⍓"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad up caret		
+2354	"""⍔"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad del		
+2355	"""⍕"""	2300..23FF	Miscellaneous Technical	Apl functional symbol up tack jot		
+2356	"""⍖"""	2300..23FF	Miscellaneous Technical	Apl functional symbol downwards vane		
+2357	"""⍗"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad downwards arrow		
+2358	"""⍘"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quote underbar		
+2359	"""⍙"""	2300..23FF	Miscellaneous Technical	Apl functional symbol delta underbar		
+235A	"""⍚"""	2300..23FF	Miscellaneous Technical	Apl functional symbol diamond underbar		
+235B	"""⍛"""	2300..23FF	Miscellaneous Technical	Apl functional symbol jot underbar		
+235C	"""⍜"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle underbar		
+235D	"""⍝"""	2300..23FF	Miscellaneous Technical	Apl functional symbol up shoe jot		
+235E	"""⍞"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quote quad		
+235F	"""⍟"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle star		
+2360	"""⍠"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad colon		
+2361	"""⍡"""	2300..23FF	Miscellaneous Technical	Apl functional symbol up tack diaeresis		
+2362	"""⍢"""	2300..23FF	Miscellaneous Technical	Apl functional symbol del diaeresis		
+2363	"""⍣"""	2300..23FF	Miscellaneous Technical	Apl functional symbol star diaeresis		
+2364	"""⍤"""	2300..23FF	Miscellaneous Technical	Apl functional symbol jot diaeresis		
+2365	"""⍥"""	2300..23FF	Miscellaneous Technical	Apl functional symbol circle diaeresis		
+2366	"""⍦"""	2300..23FF	Miscellaneous Technical	Apl functional symbol down shoe stile		
+2367	"""⍧"""	2300..23FF	Miscellaneous Technical	Apl functional symbol left shoe stile		
+2368	"""⍨"""	2300..23FF	Miscellaneous Technical	Apl functional symbol tilde diaeresis		
+2369	"""⍩"""	2300..23FF	Miscellaneous Technical	Apl functional symbol greater-than diaeresis		
+236A	"""⍪"""	2300..23FF	Miscellaneous Technical	Apl functional symbol comma bar		
+236B	"""⍫"""	2300..23FF	Miscellaneous Technical	Apl functional symbol del tilde		
+236C	"""⍬"""	2300..23FF	Miscellaneous Technical	Apl functional symbol zilde		
+236D	"""⍭"""	2300..23FF	Miscellaneous Technical	Apl functional symbol stile tilde		
+236E	"""⍮"""	2300..23FF	Miscellaneous Technical	Apl functional symbol semicolon underbar		
+236F	"""⍯"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad not equal		
+2370	"""⍰"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad question		
+2371	"""⍱"""	2300..23FF	Miscellaneous Technical	Apl functional symbol down caret tilde		
+2372	"""⍲"""	2300..23FF	Miscellaneous Technical	Apl functional symbol up caret tilde		
+2373	"""⍳"""	2300..23FF	Miscellaneous Technical	Apl functional symbol iota		
+2374	"""⍴"""	2300..23FF	Miscellaneous Technical	Apl functional symbol rho		
+2375	"""⍵"""	2300..23FF	Miscellaneous Technical	Apl functional symbol omega		
+2376	"""⍶"""	2300..23FF	Miscellaneous Technical	Apl functional symbol alpha underbar		
+2377	"""⍷"""	2300..23FF	Miscellaneous Technical	Apl functional symbol epsilon underbar		
+2378	"""⍸"""	2300..23FF	Miscellaneous Technical	Apl functional symbol iota underbar		
+2379	"""⍹"""	2300..23FF	Miscellaneous Technical	Apl functional symbol omega underbar		
+237A	"""⍺"""	2300..23FF	Miscellaneous Technical	Apl functional symbol alpha		
+237B	"""⍻"""	2300..23FF	Miscellaneous Technical	Not check mark		
+237C	"""⍼"""	2300..23FF	Miscellaneous Technical	Right angle with downwards zigzag arrow		
+237D	"""⍽"""	2300..23FF	Miscellaneous Technical	Shouldered open box		
+237E	"""⍾"""	2300..23FF	Miscellaneous Technical	Bell symbol		
+237F	"""⍿"""	2300..23FF	Miscellaneous Technical	Vertical line with middle dot		
+2380	"""⎀"""	2300..23FF	Miscellaneous Technical	Insertion symbol		
+2381	"""⎁"""	2300..23FF	Miscellaneous Technical	Continuous underline symbol		
+2382	"""⎂"""	2300..23FF	Miscellaneous Technical	Discontinuous underline symbol		
+2383	"""⎃"""	2300..23FF	Miscellaneous Technical	Emphasis symbol		
+2384	"""⎄"""	2300..23FF	Miscellaneous Technical	Composition symbol		
+2385	"""⎅"""	2300..23FF	Miscellaneous Technical	White square with centre vertical line		
+2386	"""⎆"""	2300..23FF	Miscellaneous Technical	Enter symbol		
+2387	"""⎇"""	2300..23FF	Miscellaneous Technical	Alternative key symbol		
+2388	"""⎈"""	2300..23FF	Miscellaneous Technical	Helm symbol		
+2389	"""⎉"""	2300..23FF	Miscellaneous Technical	Circled horizontal bar with notch		
+238A	"""⎊"""	2300..23FF	Miscellaneous Technical	Circled triangle down		
+238B	"""⎋"""	2300..23FF	Miscellaneous Technical	Broken circle with northwest arrow		
+238C	"""⎌"""	2300..23FF	Miscellaneous Technical	Undo symbol		
+238D	"""⎍"""	2300..23FF	Miscellaneous Technical	Monostable symbol		
+238E	"""⎎"""	2300..23FF	Miscellaneous Technical	Hysteresis symbol		
+238F	"""⎏"""	2300..23FF	Miscellaneous Technical	Open-circuit-output h-type symbol		
+2390	"""⎐"""	2300..23FF	Miscellaneous Technical	Open-circuit-output l-type symbol		
+2391	"""⎑"""	2300..23FF	Miscellaneous Technical	Passive-pull-down-output symbol		
+2392	"""⎒"""	2300..23FF	Miscellaneous Technical	Passive-pull-up-output symbol		
+2393	"""⎓"""	2300..23FF	Miscellaneous Technical	Direct current symbol form two		
+2394	"""⎔"""	2300..23FF	Miscellaneous Technical	Software-function symbol		
+2395	"""⎕"""	2300..23FF	Miscellaneous Technical	Apl functional symbol quad		
+2396	"""⎖"""	2300..23FF	Miscellaneous Technical	Decimal separator key symbol		
+2397	"""⎗"""	2300..23FF	Miscellaneous Technical	Previous page		
+2398	"""⎘"""	2300..23FF	Miscellaneous Technical	Next page		
+2399	"""⎙"""	2300..23FF	Miscellaneous Technical	Print screen symbol		
+239A	"""⎚"""	2300..23FF	Miscellaneous Technical	Clear screen symbol		
+239B	"""⎛"""	2300..23FF	Miscellaneous Technical	Left parenthesis upper hook		
+239C	"""⎜"""	2300..23FF	Miscellaneous Technical	Left parenthesis extension		
+239D	"""⎝"""	2300..23FF	Miscellaneous Technical	Left parenthesis lower hook		
+239E	"""⎞"""	2300..23FF	Miscellaneous Technical	Right parenthesis upper hook		
+239F	"""⎟"""	2300..23FF	Miscellaneous Technical	Right parenthesis extension		
+23A0	"""⎠"""	2300..23FF	Miscellaneous Technical	Right parenthesis lower hook		
+23A1	"""⎡"""	2300..23FF	Miscellaneous Technical	Left square bracket upper corner		
+23A2	"""⎢"""	2300..23FF	Miscellaneous Technical	Left square bracket extension		
+23A3	"""⎣"""	2300..23FF	Miscellaneous Technical	Left square bracket lower corner		
+23A4	"""⎤"""	2300..23FF	Miscellaneous Technical	Right square bracket upper corner		
+23A5	"""⎥"""	2300..23FF	Miscellaneous Technical	Right square bracket extension		
+23A6	"""⎦"""	2300..23FF	Miscellaneous Technical	Right square bracket lower corner		
+23A7	"""⎧"""	2300..23FF	Miscellaneous Technical	Left curly bracket upper hook		
+23A8	"""⎨"""	2300..23FF	Miscellaneous Technical	Left curly bracket middle piece		
+23A9	"""⎩"""	2300..23FF	Miscellaneous Technical	Left curly bracket lower hook		
+23AA	"""⎪"""	2300..23FF	Miscellaneous Technical	Curly bracket extension		
+23AB	"""⎫"""	2300..23FF	Miscellaneous Technical	Right curly bracket upper hook		
+23AC	"""⎬"""	2300..23FF	Miscellaneous Technical	Right curly bracket middle piece		
+23AD	"""⎭"""	2300..23FF	Miscellaneous Technical	Right curly bracket lower hook		
+23AE	"""⎮"""	2300..23FF	Miscellaneous Technical	Integral extension		
+23AF	"""⎯"""	2300..23FF	Miscellaneous Technical	Horizontal line extension		
+23B0	"""⎰"""	2300..23FF	Miscellaneous Technical	Upper left or lower right curly bracket section		
+23B1	"""⎱"""	2300..23FF	Miscellaneous Technical	Upper right or lower left curly bracket section		
+23B2	"""⎲"""	2300..23FF	Miscellaneous Technical	Summation top		
+23B3	"""⎳"""	2300..23FF	Miscellaneous Technical	Summation bottom		
+23B4	"""⎴"""	2300..23FF	Miscellaneous Technical	Top square bracket		
+23B5	"""⎵"""	2300..23FF	Miscellaneous Technical	Bottom square bracket		
+23B6	"""⎶"""	2300..23FF	Miscellaneous Technical	Bottom square bracket over top square bracket		
+23B7	"""⎷"""	2300..23FF	Miscellaneous Technical	Radical symbol bottom		
+23B8	"""⎸"""	2300..23FF	Miscellaneous Technical	Left vertical box line		
+23B9	"""⎹"""	2300..23FF	Miscellaneous Technical	Right vertical box line		
+23BA	"""⎺"""	2300..23FF	Miscellaneous Technical	Horizontal scan line-1		
+23BB	"""⎻"""	2300..23FF	Miscellaneous Technical	Horizontal scan line-3		
+23BC	"""⎼"""	2300..23FF	Miscellaneous Technical	Horizontal scan line-7		
+23BD	"""⎽"""	2300..23FF	Miscellaneous Technical	Horizontal scan line-9		
+23BE	"""⎾"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical and top right		
+23BF	"""⎿"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical and bottom right		
+23C0	"""⏀"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical with circle		
+23C1	"""⏁"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light down and horizontal with circle		
+23C2	"""⏂"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light up and horizontal with circle		
+23C3	"""⏃"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical with triangle		
+23C4	"""⏄"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light down and horizontal with triangle		
+23C5	"""⏅"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light up and horizontal with triangle		
+23C6	"""⏆"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical and wave		
+23C7	"""⏇"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light down and horizontal with wave		
+23C8	"""⏈"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light up and horizontal with wave		
+23C9	"""⏉"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light down and horizontal		
+23CA	"""⏊"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light up and horizontal		
+23CB	"""⏋"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical and top left		
+23CC	"""⏌"""	2300..23FF	Miscellaneous Technical	Dentistry symbol light vertical and bottom left		
+23CD	"""⏍"""	2300..23FF	Miscellaneous Technical	Square foot		
+23CE	"""⏎"""	2300..23FF	Miscellaneous Technical	Return symbol		
+23CF	"""⏏"""	2300..23FF	Miscellaneous Technical	Eject symbol		
+23D0	"""⏐"""	2300..23FF	Miscellaneous Technical	Vertical line extension		
+23D1	"""⏑"""	2300..23FF	Miscellaneous Technical	Metrical breve		
+23D2	"""⏒"""	2300..23FF	Miscellaneous Technical	Metrical long over short		
+23D3	"""⏓"""	2300..23FF	Miscellaneous Technical	Metrical short over long		
+23D4	"""⏔"""	2300..23FF	Miscellaneous Technical	Metrical long over two shorts		
+23D5	"""⏕"""	2300..23FF	Miscellaneous Technical	Metrical two shorts over long		
+23D6	"""⏖"""	2300..23FF	Miscellaneous Technical	Metrical two shorts joined		
+23D7	"""⏗"""	2300..23FF	Miscellaneous Technical	Metrical triseme		
+23D8	"""⏘"""	2300..23FF	Miscellaneous Technical	Metrical tetraseme		
+23D9	"""⏙"""	2300..23FF	Miscellaneous Technical	Metrical pentaseme		
+23DA	"""⏚"""	2300..23FF	Miscellaneous Technical	Earth ground		
+23DB	"""⏛"""	2300..23FF	Miscellaneous Technical	Fuse		
+23DC	"""⏜"""	2300..23FF	Miscellaneous Technical	Top parenthesis		
+23DD	"""⏝"""	2300..23FF	Miscellaneous Technical	Bottom parenthesis		
+23DE	"""⏞"""	2300..23FF	Miscellaneous Technical	Top curly bracket		
+23DF	"""⏟"""	2300..23FF	Miscellaneous Technical	Bottom curly bracket		
+23E0	"""⏠"""	2300..23FF	Miscellaneous Technical	Top tortoise shell bracket		
+23E1	"""⏡"""	2300..23FF	Miscellaneous Technical	Bottom tortoise shell bracket		
+23E2	"""⏢"""	2300..23FF	Miscellaneous Technical	White trapezium		
+23E3	"""⏣"""	2300..23FF	Miscellaneous Technical	Benzene ring with circle		
+23E4	"""⏤"""	2300..23FF	Miscellaneous Technical	Straightness		
+23E5	"""⏥"""	2300..23FF	Miscellaneous Technical	Flatness		
+23E6	"""⏦"""	2300..23FF	Miscellaneous Technical	Ac current		
+23E7	"""⏧"""	2300..23FF	Miscellaneous Technical	Electrical intersection		
+23E8	"""⏨"""	2300..23FF	Miscellaneous Technical	Decimal exponent symbol		
+23E9	"""⏩"""	2300..23FF	Miscellaneous Technical	Black right-pointing double triangle		
+23EA	"""⏪"""	2300..23FF	Miscellaneous Technical	Black left-pointing double triangle		
+23EB	"""⏫"""	2300..23FF	Miscellaneous Technical	Black up-pointing double triangle		
+23EC	"""⏬"""	2300..23FF	Miscellaneous Technical	Black down-pointing double triangle		
+23ED	"""⏭"""	2300..23FF	Miscellaneous Technical	Black right-pointing double triangle with vertical bar		
+23EE	"""⏮"""	2300..23FF	Miscellaneous Technical	Black left-pointing double triangle with vertical bar		
+23EF	"""⏯"""	2300..23FF	Miscellaneous Technical	Black right-pointing triangle with double vertical bar		
+23F0	"""⏰"""	2300..23FF	Miscellaneous Technical	Alarm clock		
+23F1	"""⏱"""	2300..23FF	Miscellaneous Technical	Stopwatch		
+23F2	"""⏲"""	2300..23FF	Miscellaneous Technical	Timer clock		
+23F3	"""⏳"""	2300..23FF	Miscellaneous Technical	Hourglass with flowing sand		
+23F4	"""⏴"""	2300..23FF	Miscellaneous Technical	Black medium left-pointing triangle		
+23F5	"""⏵"""	2300..23FF	Miscellaneous Technical	Black medium right-pointing triangle		
+23F6	"""⏶"""	2300..23FF	Miscellaneous Technical	Black medium up-pointing triangle		
+23F7	"""⏷"""	2300..23FF	Miscellaneous Technical	Black medium down-pointing triangle		
+23F8	"""⏸"""	2300..23FF	Miscellaneous Technical	Double vertical bar		
+23F9	"""⏹"""	2300..23FF	Miscellaneous Technical	Black square for stop		
+23FA	"""⏺"""	2300..23FF	Miscellaneous Technical	Black circle for record		
+23FB	"""⏻"""	2300..23FF	Miscellaneous Technical	Power symbol		
+23FC	"""⏼"""	2300..23FF	Miscellaneous Technical	Power on-off symbol		
+23FD	"""⏽"""	2300..23FF	Miscellaneous Technical	Power on symbol		
+23FE	"""⏾"""	2300..23FF	Miscellaneous Technical	Power sleep symbol		
+23FF	"""⏿"""	2300..23FF	Miscellaneous Technical	Observer eye symbol		

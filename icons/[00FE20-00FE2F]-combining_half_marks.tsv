@@ -1,0 +1,17 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+FE20	"""︠"""	FE20..FE2F	Combining Half Marks	Combining ligature left half		
+FE21	"""︡"""	FE20..FE2F	Combining Half Marks	Combining ligature right half		
+FE22	"""︢"""	FE20..FE2F	Combining Half Marks	Combining double tilde left half		
+FE23	"""︣"""	FE20..FE2F	Combining Half Marks	Combining double tilde right half		
+FE24	"""︤"""	FE20..FE2F	Combining Half Marks	Combining macron left half		
+FE25	"""︥"""	FE20..FE2F	Combining Half Marks	Combining macron right half		
+FE26	"""︦"""	FE20..FE2F	Combining Half Marks	Combining conjoining macron		
+FE27	"""︧"""	FE20..FE2F	Combining Half Marks	Combining ligature left half below		
+FE28	"""︨"""	FE20..FE2F	Combining Half Marks	Combining ligature right half below		
+FE29	"""︩"""	FE20..FE2F	Combining Half Marks	Combining tilde left half below		
+FE2A	"""︪"""	FE20..FE2F	Combining Half Marks	Combining tilde right half below		
+FE2B	"""︫"""	FE20..FE2F	Combining Half Marks	Combining macron left half below		
+FE2C	"""︬"""	FE20..FE2F	Combining Half Marks	Combining macron right half below		
+FE2D	"""︭"""	FE20..FE2F	Combining Half Marks	Combining conjoining macron below		
+FE2E	"""︮"""	FE20..FE2F	Combining Half Marks	Combining cyrillic titlo left half		
+FE2F	"""︯"""	FE20..FE2F	Combining Half Marks	Combining cyrillic titlo right half		

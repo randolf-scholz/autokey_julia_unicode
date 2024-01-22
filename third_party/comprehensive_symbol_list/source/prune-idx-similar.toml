@@ -1,0 +1,110 @@
+##############################################
+# Categorize similarities.                   #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ... regular ...
+
+[[rewrite]]
+matches = "sim"
+item = "similar"
+
+[[rewrite]]
+matches = "thicksim"
+item = ["similar", "thick"]
+
+[[rewrite]]
+matches = [
+    "similar",
+    "simeq",
+    "cong"
+]
+not_render_contains = '\CircSm'
+item = ["similar", "or equal to"]
+
+[[rewrite]]
+matches = "simcolon"
+item = ["similar", "colon"]
+
+[[rewrite]]
+matches = "simcoloncolon"
+item = ["similar", "colon, double"]
+
+[[rewrite]]
+matches = "simgE"
+item = ["similar", "or greater than or equal to"]
+
+[[rewrite]]
+matches = "simgtr"
+item = ["similar", "or greater than"]
+
+[[rewrite]]
+matches = "simlE"
+item = ["similar", "or less than or equal to"]
+
+[[rewrite]]
+matches = "simless"
+item = ["similar", "or less than"]
+
+[[rewrite]]
+matches = "simrdots"
+item = ["similar", "dots, rising"]
+
+[[rewrite]]
+matches = "kernelcontraction"
+item = ["similar", "dots, vertical"]
+
+[[rewrite]]
+matches = "dotsim"
+item = ["similar", "dotted"]
+
+[[rewrite]]
+matches = "simminussim"
+item = ["similar", "minus, similar"]
+
+[[rewrite]]
+matches = "simneqq"
+item = ["similar", "or not equal to"]
+
+[[rewrite]]
+matches = "backsim"
+item = ["similar", "reversed"]
+
+[[rewrite]]
+matches = ["backsimeq", "backcong"]
+item = ["similar", "or equal to, reversed"]
+
+[[rewrite]]
+matches = "backsimneqq"
+item = ["similar", "or not equal to, reversed"]
+
+[[rewrite]]
+matches = ["congdot", "dotcong"]
+item = ["similar", "or equal to, dotted"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = "nsim"
+item = ["similar", "negated"]
+
+[[rewrite]]
+matches = [
+    "nsime",
+    "nsimeq",
+    "ncong",
+    "not similar"
+]
+item = ["similar", "or equal to, negated"]
+
+[[rewrite]]
+matches = "ncongdot"
+item = ["similar", "or equal to, dotted, negated"]
+
+[[rewrite]]
+matches = "nbacksim"
+item = ["similar", "reversed, negated"]
+
+[[rewrite]]
+matches = ["nbacksimeq", "nbackcong"]
+item = ["similar", "or equal to, reversed, negated"]

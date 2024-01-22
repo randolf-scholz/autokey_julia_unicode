@@ -1,0 +1,147 @@
+#! /usr/bin/env python
+
+##############################################
+# Patch a generatex .idx file to improve     #
+# index formatting.                          #
+#                                            #
+# Author: Scott Pakin <scott.clsl@pakin.org> #
+##############################################
+
+import re
+import sys
+
+
+def allow_breaks(s):
+    'Allow line breaks in long, verbatim strings.'
+    break_before = '[({'
+    break_after = '-.'
+    toks = [s[0]]
+    for c in s[1:]:
+        if c.isupper() and toks[-1].islower():
+            # Allow hyphenation between a lowercase letter and an
+            # uppercase letter.
+            toks.append('+\\-\\spverb+')
+        elif toks[-1] not in break_before and c in break_before:
+            # Allow a line break before certain characters.
+            toks.append('+\\linebreak[0]\\spverb+')
+        elif toks[-1] in break_after and c not in break_after:
+            # Allow a line break after certain characters.
+            toks.append('+\\linebreak[0]\\spverb+')
+        toks.append(c)
+    return ''.join(toks)
+
+
+# Map punctuation to names.
+punct2name = {
+    '\\{': 'lcurly',
+    '\\}': 'rcurly',
+    '\\|': 'Vert',
+    '|': 'vert',
+}
+
+# Define regular expressions to search for formatting that can be improved.
+magic_re = re.compile(r'^\\indexentry\{_=\\(magic[A-Za-z]+)')
+punct_re = re.compile(r'^\\indexentry{_=\\(?:sp)?verb\+([^+]+)\+')
+num_arg_re = re.compile(r'\{([0-9A-Fa-f]+)\}=')
+paren_spc_re = re.compile(r'\(\\(\S+)\s*\)')
+long_verb_re = re.compile(r'=\\spverb\+\\([^+]{25,})\+')
+dancers_re = re.compile(r'\(\\Pisymbol\s*\{dancers\}\{(\d+)\}\)')
+twemoji_flag_1_re = re.compile(r'=flag:\s+St\.\s+(.*?)\\\s+\(\\twemoji')
+twemoji_flag_2_re = re.compile(r'\{flag:\s+(.*?)'
+                               r'=flag:\s+(.*?)\\\s+\(\\twemoji')
+twemoji_flag_3_re = re.compile(r'\{(.*?)\s+flag=(.*?)\s+flag\\\s+\(\\twemoji')
+cs_space_re = re.compile(r'(\\[A-Za-z]+)\s+(?![A-Za-z\n])')
+sym_num_re = re.compile(r'^\\indexentry{([a-z][a-zA-Z]+\d)=\1(.*)$')
+extra_space_re = re.compile(r'\s{2,}')
+backslash_space_re = re.compile(r'(\w)\\\s+')
+curly_special_re = re.compile(r'\{([>={}!])\}')
+twemoji_bang_re = re.compile(r'([A-Z]{2,}!)')
+
+###########################################################################
+
+# Read the entire input file.
+if len(sys.argv) < 2:
+    sys.exit(f'Usage: {sys.argv[0]} <filename.idx>')
+with open(sys.argv[1]) as r:
+    all = r.readlines()
+
+# Process the file line-by-line.
+more = []
+for i in range(len(all)):
+    # Collapse multiple spaces into one and remove unnecessarily
+    # backslashed spaces.
+    all[i] = extra_space_re.sub(' ', all[i])
+    all[i] = backslash_space_re.sub(r'\1 ', all[i])
+
+    # Escape special characters.
+    all[i] = curly_special_re.sub(r'{!\1}', all[i])
+    special = all[i][12]
+    if special in '>=|{}' and all[i][13] == '=':
+        rest = all[i][14:]
+        if special not in '{}':
+            rest = rest.replace(f'{special}+', f'!{special}+')
+        all[i] = all[i][:12] + '!' + special + '=' + rest
+    all[i] = all[i].replace(r'verb+\|+', r'verb+\+\texttt{\char"7C}')
+
+    # Replace punctuation indexed under "_" with a "_" followed by a name.
+    match = punct_re.match(all[i])
+    if match is not None:
+        try:
+            all[i] = all[i][:13] + 'magic' + punct2name[match[1]] + all[i][13:]
+        except KeyError:
+            pass
+
+    # Consistently index "magic" punctuation.
+    match = magic_re.match(all[i])
+    if match is not None:
+        all[i] = all[i].replace('_', '_' + match[1], 1)
+
+    # Format numerical arguments (decimal or hexadecimal) to a fixed
+    # width of 5.
+    if "worldflag" not in all[i]:
+        all[i] = num_arg_re.sub(lambda m: '{%s}=' % m[1].rjust(5, '0'), all[i])
+
+    # Remove trailing spaces within parentheses to canonicalize formatting.
+    all[i] = paren_spc_re.sub(r'(\\\g<1>)', all[i])
+
+    # Remove spaces after control sequences to canonicalize formatting
+    # and improve typesetting.
+    all[i] = cs_space_re.sub(r'\1', all[i])
+
+    # Allow line breaks in long, control sequences typeset verbatim.
+    all[i] = long_verb_re.sub(lambda m: ('=\\spverb+\\' +
+                                         allow_breaks(m[1]) +
+                                         '+'),
+                              all[i])
+
+    # Insert space after each dancers symbol so the closing parenthesis
+    # doesn't overlap the symbol.
+    all[i] = dancers_re.sub(r'(\\Pisymbol{dancers}{\1}\\hspace{0.5em})',
+                            all[i])
+
+    # Re-index all twemoji flags as subentries under "flags".
+    all[i] = twemoji_flag_1_re.sub(r'=flag: St.\\ \1\\ (\\twemoji', all[i])
+    all[i] = twemoji_flag_2_re.sub(r'{flags>\1=\2 (\\twemoji', all[i])
+    if "mailbox" not in all[i]:
+        all[i] = twemoji_flag_3_re.sub(r'{flags>\1=\2 (\\twemoji', all[i])
+
+    # Remove "keycap:" from all tweomoji entries.
+    if '\\indexentry{keycap: ' in all[i]:
+        all[i] = all[i].replace('keycap: ', '')
+
+    # Remove numbers from numbered symbols (e.g., converting "dog2" to just
+    # "dog".
+    match = sym_num_re.match(all[i])
+    if match is not None:
+        sym = match[1][:-1]
+        all[i] = '\\indexentry{%s=%s%s\n' % (sym, sym, match[2])
+
+    # Double the "!" in emoji names containing that symbol such as "ON!
+    # arrow" and "UP! button".  "!" is the escape character in our
+    # Makeindex configuration.
+    all[i] = twemoji_bang_re.sub(r'\1!', all[i])
+
+# Overwrite the input file with the updates.
+with open(sys.argv[1], 'w') as w:
+    for ln in all + more:
+        w.write(ln)

@@ -1,0 +1,194 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+A720	"""꜠"""	A720..A7FF	Latin Extended-D	Modifier letter stress and high tone		
+A721	"""꜡"""	A720..A7FF	Latin Extended-D	Modifier letter stress and low tone		
+A722	"""Ꜣ"""	A720..A7FF	Latin Extended-D	Latin capital letter egyptological alef		
+A723	"""ꜣ"""	A720..A7FF	Latin Extended-D	Latin small letter egyptological alef		
+A724	"""Ꜥ"""	A720..A7FF	Latin Extended-D	Latin capital letter egyptological ain		
+A725	"""ꜥ"""	A720..A7FF	Latin Extended-D	Latin small letter egyptological ain		
+A726	"""Ꜧ"""	A720..A7FF	Latin Extended-D	Latin capital letter heng		
+A727	"""ꜧ"""	A720..A7FF	Latin Extended-D	Latin small letter heng		
+A728	"""Ꜩ"""	A720..A7FF	Latin Extended-D	Latin capital letter tz		
+A729	"""ꜩ"""	A720..A7FF	Latin Extended-D	Latin small letter tz		
+A72A	"""Ꜫ"""	A720..A7FF	Latin Extended-D	Latin capital letter tresillo		
+A72B	"""ꜫ"""	A720..A7FF	Latin Extended-D	Latin small letter tresillo		
+A72C	"""Ꜭ"""	A720..A7FF	Latin Extended-D	Latin capital letter cuatrillo		
+A72D	"""ꜭ"""	A720..A7FF	Latin Extended-D	Latin small letter cuatrillo		
+A72E	"""Ꜯ"""	A720..A7FF	Latin Extended-D	Latin capital letter cuatrillo with comma		
+A72F	"""ꜯ"""	A720..A7FF	Latin Extended-D	Latin small letter cuatrillo with comma		
+A730	"""ꜰ"""	A720..A7FF	Latin Extended-D	Latin letter small capital f		
+A731	"""ꜱ"""	A720..A7FF	Latin Extended-D	Latin letter small capital s		
+A732	"""Ꜳ"""	A720..A7FF	Latin Extended-D	Latin capital letter aa		
+A733	"""ꜳ"""	A720..A7FF	Latin Extended-D	Latin small letter aa		
+A734	"""Ꜵ"""	A720..A7FF	Latin Extended-D	Latin capital letter ao		
+A735	"""ꜵ"""	A720..A7FF	Latin Extended-D	Latin small letter ao		
+A736	"""Ꜷ"""	A720..A7FF	Latin Extended-D	Latin capital letter au		
+A737	"""ꜷ"""	A720..A7FF	Latin Extended-D	Latin small letter au		
+A738	"""Ꜹ"""	A720..A7FF	Latin Extended-D	Latin capital letter av		
+A739	"""ꜹ"""	A720..A7FF	Latin Extended-D	Latin small letter av		
+A73A	"""Ꜻ"""	A720..A7FF	Latin Extended-D	Latin capital letter av with horizontal bar		
+A73B	"""ꜻ"""	A720..A7FF	Latin Extended-D	Latin small letter av with horizontal bar		
+A73C	"""Ꜽ"""	A720..A7FF	Latin Extended-D	Latin capital letter ay		
+A73D	"""ꜽ"""	A720..A7FF	Latin Extended-D	Latin small letter ay		
+A73E	"""Ꜿ"""	A720..A7FF	Latin Extended-D	Latin capital letter reversed c with dot		
+A73F	"""ꜿ"""	A720..A7FF	Latin Extended-D	Latin small letter reversed c with dot		
+A740	"""Ꝁ"""	A720..A7FF	Latin Extended-D	Latin capital letter k with stroke		
+A741	"""ꝁ"""	A720..A7FF	Latin Extended-D	Latin small letter k with stroke		
+A742	"""Ꝃ"""	A720..A7FF	Latin Extended-D	Latin capital letter k with diagonal stroke		
+A743	"""ꝃ"""	A720..A7FF	Latin Extended-D	Latin small letter k with diagonal stroke		
+A744	"""Ꝅ"""	A720..A7FF	Latin Extended-D	Latin capital letter k with stroke and diagonal stroke		
+A745	"""ꝅ"""	A720..A7FF	Latin Extended-D	Latin small letter k with stroke and diagonal stroke		
+A746	"""Ꝇ"""	A720..A7FF	Latin Extended-D	Latin capital letter broken l		
+A747	"""ꝇ"""	A720..A7FF	Latin Extended-D	Latin small letter broken l		
+A748	"""Ꝉ"""	A720..A7FF	Latin Extended-D	Latin capital letter l with high stroke		
+A749	"""ꝉ"""	A720..A7FF	Latin Extended-D	Latin small letter l with high stroke		
+A74A	"""Ꝋ"""	A720..A7FF	Latin Extended-D	Latin capital letter o with long stroke overlay		
+A74B	"""ꝋ"""	A720..A7FF	Latin Extended-D	Latin small letter o with long stroke overlay		
+A74C	"""Ꝍ"""	A720..A7FF	Latin Extended-D	Latin capital letter o with loop		
+A74D	"""ꝍ"""	A720..A7FF	Latin Extended-D	Latin small letter o with loop		
+A74E	"""Ꝏ"""	A720..A7FF	Latin Extended-D	Latin capital letter oo		
+A74F	"""ꝏ"""	A720..A7FF	Latin Extended-D	Latin small letter oo		
+A750	"""Ꝑ"""	A720..A7FF	Latin Extended-D	Latin capital letter p with stroke through descender		
+A751	"""ꝑ"""	A720..A7FF	Latin Extended-D	Latin small letter p with stroke through descender		
+A752	"""Ꝓ"""	A720..A7FF	Latin Extended-D	Latin capital letter p with flourish		
+A753	"""ꝓ"""	A720..A7FF	Latin Extended-D	Latin small letter p with flourish		
+A754	"""Ꝕ"""	A720..A7FF	Latin Extended-D	Latin capital letter p with squirrel tail		
+A755	"""ꝕ"""	A720..A7FF	Latin Extended-D	Latin small letter p with squirrel tail		
+A756	"""Ꝗ"""	A720..A7FF	Latin Extended-D	Latin capital letter q with stroke through descender		
+A757	"""ꝗ"""	A720..A7FF	Latin Extended-D	Latin small letter q with stroke through descender		
+A758	"""Ꝙ"""	A720..A7FF	Latin Extended-D	Latin capital letter q with diagonal stroke		
+A759	"""ꝙ"""	A720..A7FF	Latin Extended-D	Latin small letter q with diagonal stroke		
+A75A	"""Ꝛ"""	A720..A7FF	Latin Extended-D	Latin capital letter r rotunda		
+A75B	"""ꝛ"""	A720..A7FF	Latin Extended-D	Latin small letter r rotunda		
+A75C	"""Ꝝ"""	A720..A7FF	Latin Extended-D	Latin capital letter rum rotunda		
+A75D	"""ꝝ"""	A720..A7FF	Latin Extended-D	Latin small letter rum rotunda		
+A75E	"""Ꝟ"""	A720..A7FF	Latin Extended-D	Latin capital letter v with diagonal stroke		
+A75F	"""ꝟ"""	A720..A7FF	Latin Extended-D	Latin small letter v with diagonal stroke		
+A760	"""Ꝡ"""	A720..A7FF	Latin Extended-D	Latin capital letter vy		
+A761	"""ꝡ"""	A720..A7FF	Latin Extended-D	Latin small letter vy		
+A762	"""Ꝣ"""	A720..A7FF	Latin Extended-D	Latin capital letter visigothic z		
+A763	"""ꝣ"""	A720..A7FF	Latin Extended-D	Latin small letter visigothic z		
+A764	"""Ꝥ"""	A720..A7FF	Latin Extended-D	Latin capital letter thorn with stroke		
+A765	"""ꝥ"""	A720..A7FF	Latin Extended-D	Latin small letter thorn with stroke		
+A766	"""Ꝧ"""	A720..A7FF	Latin Extended-D	Latin capital letter thorn with stroke through descender		
+A767	"""ꝧ"""	A720..A7FF	Latin Extended-D	Latin small letter thorn with stroke through descender		
+A768	"""Ꝩ"""	A720..A7FF	Latin Extended-D	Latin capital letter vend		
+A769	"""ꝩ"""	A720..A7FF	Latin Extended-D	Latin small letter vend		
+A76A	"""Ꝫ"""	A720..A7FF	Latin Extended-D	Latin capital letter et		
+A76B	"""ꝫ"""	A720..A7FF	Latin Extended-D	Latin small letter et		
+A76C	"""Ꝭ"""	A720..A7FF	Latin Extended-D	Latin capital letter is		
+A76D	"""ꝭ"""	A720..A7FF	Latin Extended-D	Latin small letter is		
+A76E	"""Ꝯ"""	A720..A7FF	Latin Extended-D	Latin capital letter con		
+A76F	"""ꝯ"""	A720..A7FF	Latin Extended-D	Latin small letter con		
+A770	"""ꝰ"""	A720..A7FF	Latin Extended-D	Modifier letter us		
+A771	"""ꝱ"""	A720..A7FF	Latin Extended-D	Latin small letter dum		
+A772	"""ꝲ"""	A720..A7FF	Latin Extended-D	Latin small letter lum		
+A773	"""ꝳ"""	A720..A7FF	Latin Extended-D	Latin small letter mum		
+A774	"""ꝴ"""	A720..A7FF	Latin Extended-D	Latin small letter num		
+A775	"""ꝵ"""	A720..A7FF	Latin Extended-D	Latin small letter rum		
+A776	"""ꝶ"""	A720..A7FF	Latin Extended-D	Latin letter small capital rum		
+A777	"""ꝷ"""	A720..A7FF	Latin Extended-D	Latin small letter tum		
+A778	"""ꝸ"""	A720..A7FF	Latin Extended-D	Latin small letter um		
+A779	"""Ꝺ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular d		
+A77A	"""ꝺ"""	A720..A7FF	Latin Extended-D	Latin small letter insular d		
+A77B	"""Ꝼ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular f		
+A77C	"""ꝼ"""	A720..A7FF	Latin Extended-D	Latin small letter insular f		
+A77D	"""Ᵹ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular g		
+A77E	"""Ꝿ"""	A720..A7FF	Latin Extended-D	Latin capital letter turned insular g		
+A77F	"""ꝿ"""	A720..A7FF	Latin Extended-D	Latin small letter turned insular g		
+A780	"""Ꞁ"""	A720..A7FF	Latin Extended-D	Latin capital letter turned l		
+A781	"""ꞁ"""	A720..A7FF	Latin Extended-D	Latin small letter turned l		
+A782	"""Ꞃ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular r		
+A783	"""ꞃ"""	A720..A7FF	Latin Extended-D	Latin small letter insular r		
+A784	"""Ꞅ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular s		
+A785	"""ꞅ"""	A720..A7FF	Latin Extended-D	Latin small letter insular s		
+A786	"""Ꞇ"""	A720..A7FF	Latin Extended-D	Latin capital letter insular t		
+A787	"""ꞇ"""	A720..A7FF	Latin Extended-D	Latin small letter insular t		
+A788	"""ꞈ"""	A720..A7FF	Latin Extended-D	Modifier letter low circumflex accent		
+A789	"""꞉"""	A720..A7FF	Latin Extended-D	Modifier letter colon		
+A78A	"""꞊"""	A720..A7FF	Latin Extended-D	Modifier letter short equals sign		
+A78B	"""Ꞌ"""	A720..A7FF	Latin Extended-D	Latin capital letter saltillo		
+A78C	"""ꞌ"""	A720..A7FF	Latin Extended-D	Latin small letter saltillo		
+A78D	"""Ɥ"""	A720..A7FF	Latin Extended-D	Latin capital letter turned h		
+A78E	"""ꞎ"""	A720..A7FF	Latin Extended-D	Latin small letter l with retroflex hook and belt		
+A78F	"""ꞏ"""	A720..A7FF	Latin Extended-D	Latin letter sinological dot		
+A790	"""Ꞑ"""	A720..A7FF	Latin Extended-D	Latin capital letter n with descender		
+A791	"""ꞑ"""	A720..A7FF	Latin Extended-D	Latin small letter n with descender		
+A792	"""Ꞓ"""	A720..A7FF	Latin Extended-D	Latin capital letter c with bar		
+A793	"""ꞓ"""	A720..A7FF	Latin Extended-D	Latin small letter c with bar		
+A794	"""ꞔ"""	A720..A7FF	Latin Extended-D	Latin small letter c with palatal hook		
+A795	"""ꞕ"""	A720..A7FF	Latin Extended-D	Latin small letter h with palatal hook		
+A796	"""Ꞗ"""	A720..A7FF	Latin Extended-D	Latin capital letter b with flourish		
+A797	"""ꞗ"""	A720..A7FF	Latin Extended-D	Latin small letter b with flourish		
+A798	"""Ꞙ"""	A720..A7FF	Latin Extended-D	Latin capital letter f with stroke		
+A799	"""ꞙ"""	A720..A7FF	Latin Extended-D	Latin small letter f with stroke		
+A79A	"""Ꞛ"""	A720..A7FF	Latin Extended-D	Latin capital letter volapuk ae		
+A79B	"""ꞛ"""	A720..A7FF	Latin Extended-D	Latin small letter volapuk ae		
+A79C	"""Ꞝ"""	A720..A7FF	Latin Extended-D	Latin capital letter volapuk oe		
+A79D	"""ꞝ"""	A720..A7FF	Latin Extended-D	Latin small letter volapuk oe		
+A79E	"""Ꞟ"""	A720..A7FF	Latin Extended-D	Latin capital letter volapuk ue		
+A79F	"""ꞟ"""	A720..A7FF	Latin Extended-D	Latin small letter volapuk ue		
+A7A0	"""Ꞡ"""	A720..A7FF	Latin Extended-D	Latin capital letter g with oblique stroke		
+A7A1	"""ꞡ"""	A720..A7FF	Latin Extended-D	Latin small letter g with oblique stroke		
+A7A2	"""Ꞣ"""	A720..A7FF	Latin Extended-D	Latin capital letter k with oblique stroke		
+A7A3	"""ꞣ"""	A720..A7FF	Latin Extended-D	Latin small letter k with oblique stroke		
+A7A4	"""Ꞥ"""	A720..A7FF	Latin Extended-D	Latin capital letter n with oblique stroke		
+A7A5	"""ꞥ"""	A720..A7FF	Latin Extended-D	Latin small letter n with oblique stroke		
+A7A6	"""Ꞧ"""	A720..A7FF	Latin Extended-D	Latin capital letter r with oblique stroke		
+A7A7	"""ꞧ"""	A720..A7FF	Latin Extended-D	Latin small letter r with oblique stroke		
+A7A8	"""Ꞩ"""	A720..A7FF	Latin Extended-D	Latin capital letter s with oblique stroke		
+A7A9	"""ꞩ"""	A720..A7FF	Latin Extended-D	Latin small letter s with oblique stroke		
+A7AA	"""Ɦ"""	A720..A7FF	Latin Extended-D	Latin capital letter h with hook		
+A7AB	"""Ɜ"""	A720..A7FF	Latin Extended-D	Latin capital letter reversed open e		
+A7AC	"""Ɡ"""	A720..A7FF	Latin Extended-D	Latin capital letter script g		
+A7AD	"""Ɬ"""	A720..A7FF	Latin Extended-D	Latin capital letter l with belt		
+A7AE	"""Ɪ"""	A720..A7FF	Latin Extended-D	Latin capital letter small capital i		
+A7AF	"""ꞯ"""	A720..A7FF	Latin Extended-D	Latin letter small capital q		
+A7B0	"""Ʞ"""	A720..A7FF	Latin Extended-D	Latin capital letter turned k		
+A7B1	"""Ʇ"""	A720..A7FF	Latin Extended-D	Latin capital letter turned t		
+A7B2	"""Ʝ"""	A720..A7FF	Latin Extended-D	Latin capital letter j with crossed-tail		
+A7B3	"""Ꭓ"""	A720..A7FF	Latin Extended-D	Latin capital letter chi		
+A7B4	"""Ꞵ"""	A720..A7FF	Latin Extended-D	Latin capital letter beta		
+A7B5	"""ꞵ"""	A720..A7FF	Latin Extended-D	Latin small letter beta		
+A7B6	"""Ꞷ"""	A720..A7FF	Latin Extended-D	Latin capital letter omega		
+A7B7	"""ꞷ"""	A720..A7FF	Latin Extended-D	Latin small letter omega		
+A7B8	"""Ꞹ"""	A720..A7FF	Latin Extended-D	Latin capital letter u with stroke		
+A7B9	"""ꞹ"""	A720..A7FF	Latin Extended-D	Latin small letter u with stroke		
+A7BA	"""Ꞻ"""	A720..A7FF	Latin Extended-D	Latin capital letter glottal a		
+A7BB	"""ꞻ"""	A720..A7FF	Latin Extended-D	Latin small letter glottal a		
+A7BC	"""Ꞽ"""	A720..A7FF	Latin Extended-D	Latin capital letter glottal i		
+A7BD	"""ꞽ"""	A720..A7FF	Latin Extended-D	Latin small letter glottal i		
+A7BE	"""Ꞿ"""	A720..A7FF	Latin Extended-D	Latin capital letter glottal u		
+A7BF	"""ꞿ"""	A720..A7FF	Latin Extended-D	Latin small letter glottal u		
+A7C0	"""Ꟁ"""	A720..A7FF	Latin Extended-D	Latin capital letter old polish o		
+A7C1	"""ꟁ"""	A720..A7FF	Latin Extended-D	Latin small letter old polish o		
+A7C2	"""Ꟃ"""	A720..A7FF	Latin Extended-D	Latin capital letter anglicana w		
+A7C3	"""ꟃ"""	A720..A7FF	Latin Extended-D	Latin small letter anglicana w		
+A7C4	"""Ꞔ"""	A720..A7FF	Latin Extended-D	Latin capital letter c with palatal hook		
+A7C5	"""Ʂ"""	A720..A7FF	Latin Extended-D	Latin capital letter s with hook		
+A7C6	"""Ᶎ"""	A720..A7FF	Latin Extended-D	Latin capital letter z with palatal hook		
+A7C7	"""Ꟈ"""	A720..A7FF	Latin Extended-D	Latin capital letter d with short stroke overlay		
+A7C8	"""ꟈ"""	A720..A7FF	Latin Extended-D	Latin small letter d with short stroke overlay		
+A7C9	"""Ꟊ"""	A720..A7FF	Latin Extended-D	Latin capital letter s with short stroke overlay		
+A7CA	"""ꟊ"""	A720..A7FF	Latin Extended-D	Latin small letter s with short stroke overlay		
+A7D0	"""Ꟑ"""	A720..A7FF	Latin Extended-D	Latin capital letter closed insular g		
+A7D1	"""ꟑ"""	A720..A7FF	Latin Extended-D	Latin small letter closed insular g		
+A7D3	"""ꟓ"""	A720..A7FF	Latin Extended-D	Latin small letter double thorn		
+A7D5	"""ꟕ"""	A720..A7FF	Latin Extended-D	Latin small letter double wynn		
+A7D6	"""Ꟗ"""	A720..A7FF	Latin Extended-D	Latin capital letter middle scots s		
+A7D7	"""ꟗ"""	A720..A7FF	Latin Extended-D	Latin small letter middle scots s		
+A7D8	"""Ꟙ"""	A720..A7FF	Latin Extended-D	Latin capital letter sigmoid s		
+A7D9	"""ꟙ"""	A720..A7FF	Latin Extended-D	Latin small letter sigmoid s		
+A7F2	"""ꟲ"""	A720..A7FF	Latin Extended-D	Modifier letter capital c		
+A7F3	"""ꟳ"""	A720..A7FF	Latin Extended-D	Modifier letter capital f		
+A7F4	"""ꟴ"""	A720..A7FF	Latin Extended-D	Modifier letter capital q		
+A7F5	"""Ꟶ"""	A720..A7FF	Latin Extended-D	Latin capital letter reversed half h		
+A7F6	"""ꟶ"""	A720..A7FF	Latin Extended-D	Latin small letter reversed half h		
+A7F7	"""ꟷ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter sideways i		
+A7F8	"""ꟸ"""	A720..A7FF	Latin Extended-D	Modifier letter capital h with stroke		
+A7F9	"""ꟹ"""	A720..A7FF	Latin Extended-D	Modifier letter small ligature oe		
+A7FA	"""ꟺ"""	A720..A7FF	Latin Extended-D	Latin letter small capital turned m		
+A7FB	"""ꟻ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter reversed f		
+A7FC	"""ꟼ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter reversed p		
+A7FD	"""ꟽ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter inverted m		
+A7FE	"""ꟾ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter i longa		
+A7FF	"""ꟿ"""	A720..A7FF	Latin Extended-D	Latin epigraphic letter archaic m		

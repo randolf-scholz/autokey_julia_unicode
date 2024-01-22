@@ -1,0 +1,56 @@
+% =====================================
+% FAKEAREVMATH.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% We don't want to change our math font or waste precious math alphabets
+% on arevmath when all we need are the "extra symbols" that that package
+% defines.  Hence, we simply define those symbols here (and for text
+% mode, not math mode).
+
+% The following calls are taken from arevmath.sty.
+\def\fileversion{0.1}%
+\def\filedate{2006/02/19}%
+\NeedsTeXFormat{LaTeX2e}%
+\ProvidesPackage{arevmath}%
+[\filedate\space\fileversion\space faked Arev Sans Math package]%
+
+% Define a customized replacement for \DeclareMathSymbol.
+\newcommand{\FakeArevMathSym}[2]{%
+  \expandafter\gdef\csname AREV#1\endcsname{{\usefont{U}{zavm}{m}{n}\char#2}}%
+}
+
+% The following definitions are derived from arevsymbols.tex and
+% filtered according to the arevmath documentation.
+\FakeArevMathSym{varspade}{85}
+\FakeArevMathSym{varheart}{86}
+\FakeArevMathSym{vardiamond}{87}
+\FakeArevMathSym{varclub}{88}
+\FakeArevMathSym{skull}{119}
+\FakeArevMathSym{radiation}{120}
+\FakeArevMathSym{biohazard}{121}
+\FakeArevMathSym{swords}{124}
+\FakeArevMathSym{warning}{125}
+\FakeArevMathSym{quarternote}{90}
+\FakeArevMathSym{eighthnote}{91}
+\FakeArevMathSym{sixteenthnote}{92}
+\FakeArevMathSym{steaming}{89}
+\FakeArevMathSym{westcross}{104}
+\FakeArevMathSym{eastcross}{105}
+\FakeArevMathSym{anchor}{123}
+\FakeArevMathSym{recycle}{122}
+\FakeArevMathSym{heavyqtleft}{130}
+\FakeArevMathSym{heavyqtright}{131}
+\FakeArevMathSym{yinyang}{100}
+\FakeArevMathSym{smileface}{102}
+\FakeArevMathSym{invsmileface}{103}
+\FakeArevMathSym{sadface}{101}
+\FakeArevMathSym{eth}{117}
+\FakeArevMathSym{mho}{118}
+\FakeArevMathSym{pointright}{126}
+\FakeArevMathSym{pencil}{127}
+\FakeArevMathSym{arrowbullet}{132}
+\FakeArevMathSym{ballotcheck}{128}
+\FakeArevMathSym{ballotx}{129}
+
+\endinput

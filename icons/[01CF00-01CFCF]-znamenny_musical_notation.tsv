@@ -1,0 +1,186 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1CF00	"""𜼀"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark gorazdo nizko s kryzhem on left		
+1CF01	"""𜼁"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark nizko s kryzhem on left		
+1CF02	"""𜼂"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark tsata on left		
+1CF03	"""𜼃"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark gorazdo nizko on left		
+1CF04	"""𜼄"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark nizko on left		
+1CF05	"""𜼅"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark sredne on left		
+1CF06	"""𜼆"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe on left		
+1CF07	"""𜼇"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe on left		
+1CF08	"""𜼈"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark vysoko on left		
+1CF09	"""𜼉"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe s khokhlom on left		
+1CF0A	"""𜼊"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe s khokhlom on left		
+1CF0B	"""𜼋"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark vysoko s khokhlom on left		
+1CF0C	"""𜼌"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark gorazdo nizko s kryzhem on right		
+1CF0D	"""𜼍"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark nizko s kryzhem on right		
+1CF0E	"""𜼎"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark tsata on right		
+1CF0F	"""𜼏"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark gorazdo nizko on right		
+1CF10	"""𜼐"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark nizko on right		
+1CF11	"""𜼑"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark sredne on right		
+1CF12	"""𜼒"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe on right		
+1CF13	"""𜼓"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe on right		
+1CF14	"""𜼔"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark vysoko on right		
+1CF15	"""𜼕"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe s khokhlom on right		
+1CF16	"""𜼖"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe s khokhlom on right		
+1CF17	"""𜼗"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark vysoko s khokhlom on right		
+1CF18	"""𜼘"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark tsata s kryzhem		
+1CF19	"""𜼙"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe s kryzhem		
+1CF1A	"""𜼚"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark stranno malo povyshe		
+1CF1B	"""𜼛"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe s kryzhem		
+1CF1C	"""𜼜"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark povyshe stranno		
+1CF1D	"""𜼝"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark vysoko s kryzhem		
+1CF1E	"""𜼞"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark malo povyshe stranno		
+1CF1F	"""𜼟"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark gorazdo vysoko		
+1CF20	"""𜼠"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark zelo		
+1CF21	"""𜼡"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark on		
+1CF22	"""𜼢"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark ravno		
+1CF23	"""𜼣"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark tikhaya		
+1CF24	"""𜼤"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark borzaya		
+1CF25	"""𜼥"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark udarka		
+1CF26	"""𜼦"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark podvertka		
+1CF27	"""𜼧"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark lomka		
+1CF28	"""𜼨"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark kupnaya		
+1CF29	"""𜼩"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark kachka		
+1CF2A	"""𜼪"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark zevok		
+1CF2B	"""𜼫"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark skoba		
+1CF2C	"""𜼬"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark razseka		
+1CF2D	"""𜼭"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark kryzh on left		
+1CF30	"""𜼰"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining tonal range mark mrachno		
+1CF31	"""𜼱"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining tonal range mark svetlo		
+1CF32	"""𜼲"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining tonal range mark tresvetlo		
+1CF33	"""𜼳"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark zaderzhka		
+1CF34	"""𜼴"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark demestvenny zaderzhka		
+1CF35	"""𜼵"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark otsechka		
+1CF36	"""𜼶"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark podchashie		
+1CF37	"""𜼷"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark podchashie with vertical stroke		
+1CF38	"""𜼸"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark chashka		
+1CF39	"""𜼹"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark chashka polnaya		
+1CF3A	"""𜼺"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark oblachko		
+1CF3B	"""𜼻"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark sorochya nozhka		
+1CF3C	"""𜼼"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark tochka		
+1CF3D	"""𜼽"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark dvoetochie		
+1CF3E	"""𜼾"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining attaching vertical omet		
+1CF3F	"""𜼿"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark curved omet		
+1CF40	"""𜽀"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining mark kryzh		
+1CF41	"""𜽁"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny combining lower tonal range indicator		
+1CF42	"""𜽂"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny priznak modifier level-2		
+1CF43	"""𜽃"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny priznak modifier level-3		
+1CF44	"""𜽄"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny priznak modifier direction flip		
+1CF45	"""𜽅"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny priznak modifier kryzh		
+1CF46	"""𜽆"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny priznak modifier rog		
+1CF50	"""𜽐"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume kryuk		
+1CF51	"""𜽑"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume kryuk tikhy		
+1CF52	"""𜽒"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume paraklit		
+1CF53	"""𜽓"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume dva v chelnu		
+1CF54	"""𜽔"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume klyuch		
+1CF55	"""𜽕"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume zanozhek		
+1CF56	"""𜽖"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume stopitsa		
+1CF57	"""𜽗"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume stopitsa s ochkom		
+1CF58	"""𜽘"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume perevodka		
+1CF59	"""𜽙"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume perevodka nepostoyannaya		
+1CF5A	"""𜽚"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume stopitsa with sorochya nozhka		
+1CF5B	"""𜽛"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume chelyustka		
+1CF5C	"""𜽜"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume palka		
+1CF5D	"""𜽝"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume zapyataya		
+1CF5E	"""𜽞"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume golubchik borzy		
+1CF5F	"""𜽟"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume golubchik tikhy		
+1CF60	"""𜽠"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume golubchik mrachny		
+1CF61	"""𜽡"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume golubchik svetly		
+1CF62	"""𜽢"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume golubchik tresvetly		
+1CF63	"""𜽣"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya prostaya		
+1CF64	"""𜽤"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya mrachnaya		
+1CF65	"""𜽥"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya svetlaya		
+1CF66	"""𜽦"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya tresvetlaya		
+1CF67	"""𜽧"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya klyuchevaya prostaya		
+1CF68	"""𜽨"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya klyuchevaya mrachnaya		
+1CF69	"""𜽩"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya klyuchevaya svetlaya		
+1CF6A	"""𜽪"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume vrakhiya klyuchevaya tresvetlaya		
+1CF6B	"""𜽫"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume double zapyataya		
+1CF6C	"""𜽬"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume reversed chelyustka		
+1CF6D	"""𜽭"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume derbitsa		
+1CF6E	"""𜽮"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume khamilo		
+1CF6F	"""𜽯"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume chashka		
+1CF70	"""𜽰"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume podchashie		
+1CF71	"""𜽱"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa mrachnaya		
+1CF72	"""𜽲"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa svetlaya		
+1CF73	"""𜽳"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa tresvetlaya		
+1CF74	"""𜽴"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa tikhaya		
+1CF75	"""𜽵"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume demestvenny klyuch		
+1CF76	"""𜽶"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa klyuchevaya svetlaya		
+1CF77	"""𜽷"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa klyuchenepostoyannaya		
+1CF78	"""𜽸"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa klyuchevaya tikhaya		
+1CF79	"""𜽹"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa dvoechelnaya prostaya		
+1CF7A	"""𜽺"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa dvoechelnaya svetlaya		
+1CF7B	"""𜽻"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa dvoechelnaya nepostoyannaya		
+1CF7C	"""𜽼"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume skameytsa dvoechelnaya klyuchevaya		
+1CF7D	"""𜽽"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume slozhitie		
+1CF7E	"""𜽾"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume slozhitie s zapyatoy		
+1CF7F	"""𜽿"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume slozhitie zakrytoe		
+1CF80	"""𜾀"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume slozhitie s kryzhem		
+1CF81	"""𜾁"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume kryzh		
+1CF82	"""𜾂"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume rog		
+1CF83	"""𜾃"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume fita		
+1CF84	"""𜾄"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume kobyla		
+1CF85	"""𜾅"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume zmeytsa		
+1CF86	"""𜾆"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya		
+1CF87	"""𜾇"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s zapyatoy		
+1CF88	"""𜾈"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s kryzhem		
+1CF89	"""𜾉"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s zapyatoy i kryzhem		
+1CF8A	"""𜾊"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s kryzhem i zapyatoy		
+1CF8B	"""𜾋"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya zakrytaya		
+1CF8C	"""𜾌"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya zakrytaya s zapyatoy		
+1CF8D	"""𜾍"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s rogom		
+1CF8E	"""𜾎"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s dvumya zapyatymi		
+1CF8F	"""𜾏"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya s zapyatoy i podchashiem		
+1CF90	"""𜾐"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume polkulizmy		
+1CF91	"""𜾑"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume statya nepostoyannaya		
+1CF92	"""𜾒"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela prostaya		
+1CF93	"""𜾓"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela mrachnotikhaya		
+1CF94	"""𜾔"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryzhevaya		
+1CF95	"""𜾕"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela polupovodnaya		
+1CF96	"""𜾖"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela povodnaya		
+1CF97	"""𜾗"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela nepostoyannaya		
+1CF98	"""𜾘"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela klyuchepovodnaya		
+1CF99	"""𜾙"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela klyuchenepostoyannaya		
+1CF9A	"""𜾚"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela tikhaya putnaya		
+1CF9B	"""𜾛"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela dvoechelnaya		
+1CF9C	"""𜾜"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela dvoechelnokryzhevaya		
+1CF9D	"""𜾝"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela dvoechelnopovodnaya		
+1CF9E	"""𜾞"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela dvoechelnaya klyuchevaya		
+1CF9F	"""𜾟"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela dvoechelnopovodnaya klyuchevaya		
+1CFA0	"""𜾠"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromnaya with single zapyataya		
+1CFA1	"""𜾡"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromopovodnaya with single zapyataya		
+1CFA2	"""𜾢"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromnaya		
+1CFA3	"""𜾣"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromopovodnaya		
+1CFA4	"""𜾤"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromopovodnaya with double zapyataya		
+1CFA5	"""𜾥"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromokryzhevaya		
+1CFA6	"""𜾦"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela gromokryzhevaya povodnaya		
+1CFA7	"""𜾧"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume mechik		
+1CFA8	"""𜾨"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume mechik povodny		
+1CFA9	"""𜾩"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume mechik klyuchevoy		
+1CFAA	"""𜾪"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume mechik klyuchepovodny		
+1CFAB	"""𜾫"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume mechik klyuchenepostoyanny		
+1CFAC	"""𜾬"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela tryasoglasnaya		
+1CFAD	"""𜾭"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela tryasopovodnaya		
+1CFAE	"""𜾮"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela tryasostrelnaya		
+1CFAF	"""𜾯"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka		
+1CFB0	"""𜾰"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka svetlaya		
+1CFB1	"""𜾱"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka tresvetlaya		
+1CFB2	"""𜾲"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka kryukovaya svetlaya		
+1CFB3	"""𜾳"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka klyuchevaya svetlaya		
+1CFB4	"""𜾴"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume osoka klyuchevaya nepostoyannaya		
+1CFB5	"""𜾵"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya		
+1CFB6	"""𜾶"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya povodnaya		
+1CFB7	"""𜾷"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromnaya with single zapyataya		
+1CFB8	"""𜾸"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromopovodnaya with single zapyataya		
+1CFB9	"""𜾹"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromnaya		
+1CFBA	"""𜾺"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromopovodnaya		
+1CFBB	"""𜾻"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromopovodnaya with double zapyataya		
+1CFBC	"""𜾼"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromokryzhevaya		
+1CFBD	"""𜾽"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya gromokryzhevaya povodnaya		
+1CFBE	"""𜾾"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume strela kryukovaya tryaska		
+1CFBF	"""𜾿"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume kufisma		
+1CFC0	"""𜿀"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume oblako		
+1CFC1	"""𜿁"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume duda		
+1CFC2	"""𜿂"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume nemka		
+1CFC3	"""𜿃"""	1CF00..1CFCF	Znamenny Musical Notation	Znamenny neume pauk		

@@ -1,0 +1,36 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1B100	"""𛄀"""	1B100..1B12F	Kana Extended-A	Hentaigana letter re-3		
+1B101	"""𛄁"""	1B100..1B12F	Kana Extended-A	Hentaigana letter re-4		
+1B102	"""𛄂"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-1		
+1B103	"""𛄃"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-2		
+1B104	"""𛄄"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-3		
+1B105	"""𛄅"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-4		
+1B106	"""𛄆"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-5		
+1B107	"""𛄇"""	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-6		
+1B108	"""𛄈"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-1		
+1B109	"""𛄉"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-2		
+1B10A	"""𛄊"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-3		
+1B10B	"""𛄋"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-4		
+1B10C	"""𛄌"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-5		
+1B10D	"""𛄍"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-1		
+1B10E	"""𛄎"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-2		
+1B10F	"""𛄏"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-3		
+1B110	"""𛄐"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-4		
+1B111	"""𛄑"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-5		
+1B112	"""𛄒"""	1B100..1B12F	Kana Extended-A	Hentaigana letter we-1		
+1B113	"""𛄓"""	1B100..1B12F	Kana Extended-A	Hentaigana letter we-2		
+1B114	"""𛄔"""	1B100..1B12F	Kana Extended-A	Hentaigana letter we-3		
+1B115	"""𛄕"""	1B100..1B12F	Kana Extended-A	Hentaigana letter we-4		
+1B116	"""𛄖"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-1		
+1B117	"""𛄗"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-2		
+1B118	"""𛄘"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-3		
+1B119	"""𛄙"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-4		
+1B11A	"""𛄚"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-5		
+1B11B	"""𛄛"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-6		
+1B11C	"""𛄜"""	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-7		
+1B11D	"""𛄝"""	1B100..1B12F	Kana Extended-A	Hentaigana letter n-mu-mo-1		
+1B11E	"""𛄞"""	1B100..1B12F	Kana Extended-A	Hentaigana letter n-mu-mo-2		
+1B11F	"""𛄟"""	1B100..1B12F	Kana Extended-A	Hiragana letter archaic wu		
+1B120	"""𛄠"""	1B100..1B12F	Kana Extended-A	Katakana letter archaic yi		
+1B121	"""𛄡"""	1B100..1B12F	Kana Extended-A	Katakana letter archaic ye		
+1B122	"""𛄢"""	1B100..1B12F	Kana Extended-A	Katakana letter archaic wu		

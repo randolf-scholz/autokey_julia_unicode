@@ -1,0 +1,355 @@
+##############################################
+# Categorize squares.                        #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ---------------------------- non-squares -----------------------------
+
+[[rewrite]]
+regex = '^(Black|White)EmptySquare$'
+lowercase_item = true
+item = ["chess", '\1 square']
+
+[[rewrite]]
+matches = [
+    "white square button",
+    "black square button"
+]
+
+[[rewrite]]
+regex = 'whitesquaretick(left|right)'
+item = ["square", 'tick \1']
+
+[[rewrite]]
+render_contains = '(\Square)'
+item = ["check box", "empty"]
+
+[[rewrite]]
+render_contains = "GOsquare"
+item = ["circled symbols", "square"]
+
+# ------------------------------ squares -------------------------------
+
+[[rewrite]]
+render_contains = [
+    "blackinwhitesquare",
+    "WhiteSquareContainingBlackSquare",
+    "WhiteVerySmallSquareContainingBlackSquare"
+]
+item = ["square", "filled, outlined"]
+
+[[rewrite]]
+render_contains = "WhiteSquareRoundCornersContainingBlackSquare"
+item = ["square", "filled, outlined, rounded corners"]
+
+[[rewrite]]
+render_contains = ["WhiteSquareRoundCorners", "squoval"]
+item = ["square", "rounded corners"]
+
+[[rewrite]]
+render_contains = "BlackSquareRoundCorners"
+item = ["square", "filled, rounded corners"]
+
+[[rewrite]]
+render_contains = [
+    '\usym{274F}',
+    '\usym{2751}',
+    '\usym{2752}',
+    '\usym{2750}',
+    '\SquareShadow',
+    '\SquareCastShadow'
+]
+item = ["square", "shadowed"]
+
+[[rewrite]]
+prefix = "FilledSquareShadow"
+item = ["square", "filled, shadowed"]
+
+[[rewrite]]
+matches = "errbarsquare"
+item = ["square", "error bars"]
+
+[[rewrite]]
+render_contains = "errbarblacksquare"
+item = ["square", "error bars, filled"]
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = [
+    '\twemoji{25ab}',
+    '\twemoji{25fd}',
+    '\twemoji{2b1c}',
+    '\twemoji{25fb}'
+]
+item = ["square", "white"]
+
+[[rewrite]]
+render_contains = '\twemoji{1f532}'
+item = ["square", "white with black outline"]
+
+[[rewrite]]
+regex = '^outline.*square$'
+item = ["square", "outlined"]
+
+[[rewrite]]
+matches = "outline square round corners"
+item = ["square", "outlined, rounded corners"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(wht|white|lwhite).*square'
+item = "square"
+
+[[rewrite]]
+regex = 'black.*\s.*square'
+render_contains = '\twemoji{'
+item = ["square", "black"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'black.*square'
+item = ["square", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^filled.*square$'
+item = ["square", "filled"]
+
+# This rule must precede the following one.
+[[rewrite]]
+compare_lowercase = true
+regex = '''
+^\
+(?:big|large|med|small|lg|md|sm|vy)*\
+(?:blk|black)\
+(?:var)?\
+square\
+$\
+'''
+item = ["square", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '''
+^\
+(?:big|large|med|small|lg|md|sm|vy)*\
+(?:wht|white)?\
+(?:var)?\
+square\
+$\
+'''
+item = "square"
+
+[[rewrite]]
+matches = [
+    "squaddot",
+    "dotted square",
+    "dotted small square"
+]
+item = ["square", "dot"]
+
+[[rewrite]]
+matches = "dotted square round corners"
+item = ["square", "dot, rounded corners"]
+
+[[rewrite]]
+matches = "dottedsquare"
+item = ["square", "dotted"]
+
+[[rewrite]]
+matches = "squarewithdots"
+item = ["square", "dots surrounding"]
+
+[[rewrite]]
+matches = "filledsquarewithdots"
+item = ["square", "dots surrounding, filled"]
+
+[[rewrite]]
+matches = "enclosesquare"
+item = ["square", "enclosing to the left"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(blue|brown|green|orange|purple|red|yellow)\s+square$'
+item = ["square", '\1']
+lowercase_word = true
+
+[[rewrite]]
+matches = ["squadfill", "SquareSolid", "Squaresteel", "bausquare"]
+item = ["square", "filled"]
+
+[[rewrite]]
+matches = ["squaretopblack", "squadfillha"]
+item = ["square", "half filled, top"]
+
+[[rewrite]]
+matches = ["squarebotblack", "squadfillhb"]
+item = ["square", "half filled, bottom"]
+
+[[rewrite]]
+matches = ["squareleftblack", "squadfillhl"]
+item = ["square", "half filled, left"]
+
+[[rewrite]]
+matches = ["squarerightblack", "squadfillhr"]
+item = ["square", "half filled, right"]
+
+[[rewrite]]
+matches = "squarellblack"
+item = ["square", "half filled, lower left"]
+
+[[rewrite]]
+matches = "squareulblack"
+item = ["square", "half filled, upper left"]
+
+[[rewrite]]
+matches = "squarelrblack"
+item = ["square", "half filled, lower right"]
+
+[[rewrite]]
+matches = "squareurblack"
+item = ["square", "half filled, upper right"]
+
+[[rewrite]]
+matches = "squarellquad"
+item = ["square", "nested, lower left"]
+
+[[rewrite]]
+matches = "squareulquad"
+item = ["square", "nested, upper left"]
+
+[[rewrite]]
+matches = "squarelrquad"
+item = ["square", "nested, lower right"]
+
+[[rewrite]]
+matches = "squareurquad"
+item = ["square", "nested, upper right"]
+
+[[rewrite]]
+matches = [
+    "squadcross",
+    "crossed square",
+    "crossed small square"
+]
+item = ["square", "crossed"]
+
+[[rewrite]]
+matches = "crossed square round corners"
+item = ["square", "crossed, rounded corners"]
+
+[[rewrite]]
+matches = [
+    "squadlineh",
+    "horizontally divided square",
+    "horizontally divided small square"
+]
+item = ["square", "horizontally divided"]
+
+[[rewrite]]
+matches = [
+    "squadlinev",
+    "vertically divided square",
+    "vertically divided small square"
+]
+item = ["square", "vertically divided"]
+
+[[rewrite]]
+matches = "horizontally divided square round corners"
+item = ["square", "horizontally divided, rounded corners"]
+
+[[rewrite]]
+matches = "vertically divided square round corners"
+item = ["square", "vertically divided, rounded corners"]
+
+[[rewrite]]
+matches = [
+    "up slashed square",
+    "up slashed small square"
+]
+item = ["square", "slashed"]
+
+[[rewrite]]
+matches = "up slahsed square round corners"  # Note typo.
+item = ["square", "slashed, rounded corners"]
+
+[[rewrite]]
+matches = [
+    "down slashed square",
+    "down slashed small square"
+]
+item = ["square", "backslashed"]
+
+[[rewrite]]
+matches = "down slashed square round corners"
+item = ["square", "backslashed, rounded corners"]
+
+[[rewrite]]
+matches = [
+    "squadlinevh",
+    "quartered square",
+    "quartered small square"
+]
+item = ["square", "quartered"]
+
+[[rewrite]]
+matches = "quartered square round corners"
+item = ["square", "quartered, rounded corners"]
+
+[[rewrite]]
+matches = "squarehfill"
+item = ["square", "horizontally striped"]
+
+[[rewrite]]
+matches = "squarevfill"
+item = ["square", "vertically striped"]
+
+[[rewrite]]
+matches = "squarehvfill"
+item = ["square", "grid"]
+
+[[rewrite]]
+matches = "squarecrossfill"
+item = ["square", "grid, diagonal"]
+
+[[rewrite]]
+regex = 'squaren[ew]s[we]fill'
+item = ["square", "diagonally striped"]
+
+# This rule must precede the following one.
+[[rewrite]]
+render_contains = '\tiThSmallOutline'
+item = ["square", "of squares"]
+
+[[rewrite]]
+render_contains = '\tiThSmall'
+item = ["square", "of filled squares"]
+
+[[rewrite]]
+matches = ["Box", "Squarepipe"]
+item = "square"
+
+[[rewrite]]
+compare_lowercase = true
+matches = ["squares", "squad"]
+item = "square"
+
+[[rewrite]]
+matches = "BS"
+item = ["square", "filled, containing white circle"]
+
+# ------------------------------- boxes --------------------------------
+
+[[rewrite]]
+matches = "boxonbox"
+item = ["square", "overlapping square"]
+
+[[rewrite]]
+compare_lowercase = true
+render_regex = '\$\\box(left|right)\$'
+item = ["square", "with arrow"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^boxdot(left|right)$'
+item = ["square", "dotted, with arrow"]

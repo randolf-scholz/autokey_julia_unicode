@@ -1,0 +1,116 @@
+% =====================================
+% FAKEMUSIXTEX.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% The MusiXTeX package gobbles up a large number of counts, dimens,
+% skips, toks, and fonts.  Because we care about only a few symbols, we
+% simply define them right here.
+
+% The following were copied from musixtex.tex.
+\def\mufl@x{0.83}%
+\def\mxversion{T.103}
+\def\mxdate{8 July 2001}
+
+% musixtex.sty doesn't specify a \ProvidesPackage so we make up our own
+% based on the preceding values.
+\ProvidesPackage{musixtex}[2001/07/08 vT.103 faked version of musixtex.sty]
+
+% Declare some fonts and a command to typeset a character in each font.
+\font\musixfont=musix20
+\newcommand*{\musixchar}{\musixfont\char}
+\font\xgregkeyfont=xgreg20
+\newcommand*{\xgregkeychar}{\xgregkeyfont\char}
+
+% The following are defined in musixtex.tex using \keychar.
+\DeclareRobustCommand{\MSXSegno}{{\quad\musixchar110}}
+\DeclareRobustCommand{\MSXallabreve}{{\musixchar82}}
+\DeclareRobustCommand{\MSXaltoclef}{{\musixchar75}}
+\DeclareRobustCommand{\MSXbassclef}{\raisebox{1ex}{\musixchar73}}
+\DeclareRobustCommand{\MSXduevolte}{\raisebox{-1ex}{\musixchar78}}
+\DeclareRobustCommand{\MSXmeterplus}{{\musixchar57}}
+\DeclareRobustCommand{\MSXreverseC}{{\musixchar84}}
+\DeclareRobustCommand{\MSXreverseallabreve}{{\musixchar123}}
+\DeclareRobustCommand{\MSXsmallaltoclef}{{\musixchar76}}
+\DeclareRobustCommand{\MSXsmallbassclef}{\raisebox{1ex}{\musixchar74}}
+\DeclareRobustCommand{\MSXsmalltrebleclef}{{\musixchar72}}
+\DeclareRobustCommand{\MSXtrebleclef}{{\musixchar71}}
+
+% The following are defined in musixtex.tex using \musixchar.
+\DeclareRobustCommand{\MSXDep}{{\musixchar33}}
+\DeclareRobustCommand{\MSXPAUSe}{{\musixchar59}}
+\DeclareRobustCommand{\MSXPAuse}{{\musixchar58}}
+\DeclareRobustCommand{\MSXPed}{{\musixchar35}}
+\DeclareRobustCommand{\MSXcaesura}{\raisebox{-3ex}{\musixchar79}}
+\DeclareRobustCommand{\MSXdownbow}{{\musixchar22}}
+\DeclareRobustCommand{\MSXds}{{\musixchar63}}
+\DeclareRobustCommand{\MSXhpause}{{\musixchar60}}
+\DeclareRobustCommand{\MSXhs}{{\musixchar65}}
+\DeclareRobustCommand{\MSXlonga}{{\musixchar39}}
+\DeclareRobustCommand{\MSXmaxima}{{\musixchar36}}
+\DeclareRobustCommand{\MSXpause}{{\musixchar61}}
+\DeclareRobustCommand{\MSXqp}{{\musixchar62}}
+\DeclareRobustCommand{\MSXqqs}{{\musixchar66}}
+\DeclareRobustCommand{\MSXqs}{{\musixchar64}}
+\DeclareRobustCommand{\MSXsDep}{{\musixchar104}}
+\DeclareRobustCommand{\MSXsPed}{{\musixchar34}}
+\DeclareRobustCommand{\MSXtrill}{{\musixchar69}}
+\DeclareRobustCommand{\MSXwqq}{{\musixchar127}}
+\DeclareRobustCommand{\MSXwq}{{\musixchar56}}
+%\DeclareRobustCommand{\MSXzlonga}{{\musixchar39}}
+%\DeclareRobustCommand{\MSXzmaxima}{{\musixchar36}}
+%\DeclareRobustCommand{\MSXzwqq}{{\musixchar127}}
+%\DeclareRobustCommand{\MSXzwq}{{\musixchar56}}
+
+% The following are defined in musixtex.tex using \nv@iv and a literal number.
+\DeclareRobustCommand{\MSXCoda}{{\musixchar105}}
+\DeclareRobustCommand{\MSXMordent}{{\musixchar119}}
+\DeclareRobustCommand{\MSXShakel}{{\musixchar106}}
+\DeclareRobustCommand{\MSXShakene}{{\musixchar109}}
+\DeclareRobustCommand{\MSXShakenw}{{\musixchar107}}
+\DeclareRobustCommand{\MSXShakesw}{{\musixchar108}}
+\DeclareRobustCommand{\MSXShake}{{\musixchar88}}
+\DeclareRobustCommand{\MSXbackturn}{{\musixchar67}}
+%\DeclareRobustCommand{\MSXbdownbow}{{\musixchar22}}
+%\DeclareRobustCommand{\MSXblpzst}{{\musixchar19}}
+%\DeclareRobustCommand{\MSXblsfz}{\raisebox{2ex}{\musixchar21}}
+%\DeclareRobustCommand{\MSXblsf}{\raisebox{2ex}{\musixchar31}}
+%\DeclareRobustCommand{\MSXbuppz}{{\musixchar28}}
+%\DeclareRobustCommand{\MSXbupzst}{{\musixchar18}}
+%\DeclareRobustCommand{\MSXbusf}{{\musixchar30}}
+\DeclareRobustCommand{\MSXcoda}{{\musixchar85}}
+\DeclareRobustCommand{\MSXdoublethumb}{{\musixchar121}}
+\DeclareRobustCommand{\MSXfermatadown}{\raisebox{2ex}{\musixchar81}}
+\DeclareRobustCommand{\MSXfermataup}{\raisebox{-1ex}{\musixchar80}}
+\DeclareRobustCommand{\MSXflageolett}{{\musixchar120}}
+\DeclareRobustCommand{\MSXlpzst}{{\musixchar19}}
+\DeclareRobustCommand{\MSXlsfz}{\raisebox{2ex}{\musixchar21}}
+\DeclareRobustCommand{\MSXlsf}{\raisebox{2ex}{\musixchar31}}
+\DeclareRobustCommand{\MSXmordent}{{\musixchar89}}
+%\DeclareRobustCommand{\MSXovbkt}{{\musixchar22}}
+\DeclareRobustCommand{\MSXsegno}{{\musixchar86}}
+\DeclareRobustCommand{\MSXshake}{{\musixchar87}}
+\DeclareRobustCommand{\MSXturn}{{\musixchar68}}
+%\DeclareRobustCommand{\MSXunbkt}{{\musixchar21}}
+\DeclareRobustCommand{\MSXuppz}{{\musixchar28}}
+\DeclareRobustCommand{\MSXupzst}{{\musixchar18}}
+\DeclareRobustCommand{\MSXusf}{{\musixchar30}}
+
+% The following are defined in musixtex.tex using \nv@iv and a number macro.
+\DeclareRobustCommand{\MSXlppz}{{\musixchar29}}
+\DeclareRobustCommand{\MSXlpz}{{\musixchar25}}
+\DeclareRobustCommand{\MSXlst}{{\musixchar27}}
+\DeclareRobustCommand{\MSXupbow}{{\musixchar23}}
+\DeclareRobustCommand{\MSXupz}{{\musixchar24}}
+\DeclareRobustCommand{\MSXusfz}{{\musixchar20}}
+\DeclareRobustCommand{\MSXust}{{\musixchar26}}
+
+% The following are defined in musixgre.tex.
+\DeclareRobustCommand{\MSXgregorianCclef}{{\xgregkeychar98}}
+\DeclareRobustCommand{\MSXgregorianFclef}{{\xgregkeychar122}}
+
+% The following is defined in musixper.tex
+\DeclareRobustCommand{\MSXdrumclef}{{\musixchar77}}
+
+% The following is defined in musixlit.tex
+\DeclareRobustCommand{\MSXoldGclef}{{\musixchar103}}

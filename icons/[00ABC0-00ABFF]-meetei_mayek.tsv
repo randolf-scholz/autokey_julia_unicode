@@ -1,0 +1,57 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+ABC0	"""ꯀ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter kok		
+ABC1	"""ꯁ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter sam		
+ABC2	"""ꯂ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter lai		
+ABC3	"""ꯃ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter mit		
+ABC4	"""ꯄ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter pa		
+ABC5	"""ꯅ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter na		
+ABC6	"""ꯆ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter chil		
+ABC7	"""ꯇ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter til		
+ABC8	"""ꯈ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter khou		
+ABC9	"""ꯉ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter ngou		
+ABCA	"""ꯊ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter thou		
+ABCB	"""ꯋ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter wai		
+ABCC	"""ꯌ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter yang		
+ABCD	"""ꯍ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter huk		
+ABCE	"""ꯎ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter un		
+ABCF	"""ꯏ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter i		
+ABD0	"""ꯐ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter pham		
+ABD1	"""ꯑ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter atiya		
+ABD2	"""ꯒ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter gok		
+ABD3	"""ꯓ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter jham		
+ABD4	"""ꯔ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter rai		
+ABD5	"""ꯕ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter ba		
+ABD6	"""ꯖ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter jil		
+ABD7	"""ꯗ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter dil		
+ABD8	"""ꯘ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter ghou		
+ABD9	"""ꯙ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter dhou		
+ABDA	"""ꯚ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter bham		
+ABDB	"""ꯛ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter kok lonsum		
+ABDC	"""ꯜ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter lai lonsum		
+ABDD	"""ꯝ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter mit lonsum		
+ABDE	"""ꯞ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter pa lonsum		
+ABDF	"""ꯟ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter na lonsum		
+ABE0	"""ꯠ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter til lonsum		
+ABE1	"""ꯡ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter ngou lonsum		
+ABE2	"""ꯢ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek letter i lonsum		
+ABE3	"""ꯣ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign onap		
+ABE4	"""ꯤ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign inap		
+ABE5	"""ꯥ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign anap		
+ABE6	"""ꯦ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign yenap		
+ABE7	"""ꯧ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign sounap		
+ABE8	"""ꯨ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign unap		
+ABE9	"""ꯩ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign cheinap		
+ABEA	"""ꯪ"""	ABC0..ABFF	Meetei Mayek	Meetei mayek vowel sign nung		
+ABEB	"""꯫"""	ABC0..ABFF	Meetei Mayek	Meetei mayek cheikhei		
+ABEC	"""꯬"""	ABC0..ABFF	Meetei Mayek	Meetei mayek lum iyek		
+ABED	"""꯭"""	ABC0..ABFF	Meetei Mayek	Meetei mayek apun iyek		
+ABF0	"""꯰"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit zero		
+ABF1	"""꯱"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit one		
+ABF2	"""꯲"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit two		
+ABF3	"""꯳"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit three		
+ABF4	"""꯴"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit four		
+ABF5	"""꯵"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit five		
+ABF6	"""꯶"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit six		
+ABF7	"""꯷"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit seven		
+ABF8	"""꯸"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit eight		
+ABF9	"""꯹"""	ABC0..ABFF	Meetei Mayek	Meetei mayek digit nine		

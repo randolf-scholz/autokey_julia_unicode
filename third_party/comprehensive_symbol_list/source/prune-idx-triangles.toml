@@ -1,0 +1,228 @@
+##############################################
+# Categorize triangles                       #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ... false positives ...
+
+[[rewrite]]
+render_regex = '\\GO(triangle|square)'
+item = ["Go stones", '\1']
+
+# ... regular ...
+
+# This rule should precede other triangle up/down rules.
+[[rewrite]]
+regex = '^Triangle(Down|Up)$'
+not_render_contains = '\ifsTriangle'
+item = ["triangle", "filled"]
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '(\STIXtriangles)'
+item = ["triangle", "s"]
+
+[[rewrite]]
+matches = [
+    "triangle",
+    "triangles",
+    "lhd",
+    "rhd",
+    "VarSummit",
+    "set symmetric difference"
+]
+item = "triangle"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(var)?(big)?triangle(up|down|left|right|pa|pb|pl|pr)?$'
+item = "triangle"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(large|med|small)triangle'
+item = "triangle"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^white\s*(up|down|left|right)\s*triangle[a-z]?$'
+item = "triangle"
+
+[[rewrite]]
+regex = '^crossed.*triangle$'
+item = ["triangle", "crossed"]
+
+[[rewrite]]
+regex = '^(up|down) slashed.*triangle$'
+item = ["triangle", "slashed"]
+
+# Despite the name, these triangles are drawn in black and white.
+[[rewrite]]
+regex = '^(up|down)-pointing.*red triangle$'
+item = ["triangle", "striped"]
+
+# These triangles, however, are drawn in red.
+[[rewrite]]
+prefix = "red triangle pointed"
+item = ["triangle", "red"]
+
+[[rewrite]]
+matches = [
+    "bautriangle",
+    "LHD",
+    "RHD",
+    "Summit",
+    "DLE",
+    "DCa",
+    "RS"
+]
+item = ["triangle", "filled"]
+
+[[rewrite]]
+prefix = "mantriangle"
+item = ["triangle", "filled"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]fill$'
+item = ["triangle", "filled"]
+
+[[rewrite]]
+contains = "blacktriangle"
+not_regex = '[ul][lr]blacktriangle$'
+item = ["triangle", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^black\s*(up|down|left|right)\s*triangle[a-z]?$'
+item = ["triangle", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^filled.*triangle'
+item = ["triangle", "filled"]
+
+[[rewrite]]
+regex = '^(down)?triangle(left|right)black$'
+item = ["triangle", "half filled"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]fillh[lr]$'
+item = ["triangle", "half filled"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]fillha$'
+item = ["triangle", "one third filled"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]fillhb$'
+item = ["triangle", "two thirds filled"]
+
+[[rewrite]]
+matches = "enclosetriangle"
+item = ["triangle", "enclosing"]
+
+[[rewrite]]
+regex = '^(horizontally divided|vertically divided|quartered).*triangle$'
+item = ["triangle", '\1']
+
+[[rewrite]]
+regex = '^trianglep[ablr]lineh$'
+item = ["triangle", "horizontally divided"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]linev$'
+item = ["triangle", "vertically divided"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]linevh$'
+item = ["triangle", "quartered"]
+
+[[rewrite]]
+regex = '^outline.*triangle'
+item = ["triangle", "outlined"]
+
+[[rewrite]]
+regex = '^(var)?[ul][lr]t?triangle$'
+item = ["triangle", "right"]
+
+[[rewrite]]
+regex = '[ul][lr]blacktriangle$'
+item = ["triangle", "right, filled"]
+
+[[rewrite]]
+matches = "lrtriangleeq"
+item = ["triangle", "right, equals"]
+
+[[rewrite]]
+matches = ["vbrtri", "ltrivb"]
+item = ["triangle", "vertical bar"]
+
+[[rewrite]]
+regex = '^triangle(c|pa|pb|pl|pr)dot$'
+item = ["triangle", "dotted"]
+
+[[rewrite]]
+regex = '^dotted.*triangle$'
+item = ["triangle", "dotted"]
+
+[[rewrite]]
+matches = "triangleodot"
+item = ["triangle", "dot over"]
+
+[[rewrite]]
+matches = "Tribar"
+item = ["triangle", "impossible"]
+
+[[rewrite]]
+regex = '^triangle(left|right)eq'
+item = ["triangle", "equals"]
+
+[[rewrite]]
+matches = "triangle with rounded corners"
+item = ["triangle", "rounded corners"]
+
+[[rewrite]]
+regex = '^triangle(serifs|plus|minus)$'
+item = ["triangle", '\1']
+
+[[rewrite]]
+matches = "triangletimes"
+item = ["triangle", "multiplication"]
+
+[[rewrite]]
+matches = [
+    "triangleubar",
+    "unlhd",
+    "unrhd"
+]
+item = ["triangle", "bar under"]
+
+[[rewrite]]
+regex = '^trianglep[ablr]cross'
+item = ["triangle", "crossed"]
+
+[[rewrite]]
+regex = '^white.*triangle containing black.*triangle$'
+item = ["triangle", "containing filled triangle"]
+
+[[rewrite]]
+matches = "whiteinwhitetriangle"
+item = ["triangle", "containing triangle"]
+
+[[rewrite]]
+matches = "rtriltri"
+item = ["triangle", "two"]
+
+[[rewrite]]
+matches = ["dsub", "rsub", "conictaper"]
+item = ["triangle", "bar through"]
+
+# ... negated ...
+
+[[rewrite]]
+regex = '^ntriangle(left|right)eq'
+item = ["triangle", "equals, negated"]
+
+[[rewrite]]
+regex = '^n(var)?triangle(left|right)$'
+item = ["triangle", "negated"]

@@ -1,0 +1,60 @@
+% =====================================
+% FAKEOLD-ARROWS.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% Provide a mock version of old-arrows.sty that (1) doesn't consume a
+% precious math alphabet and (2) renames all symbols to avoid conflicts
+% with other LaTeX packages.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{old-arrows}[2017/01/05 v2.0 Old Arrows]
+
+% Font declaration
+\DeclareFontFamily{OMS}{oasy}{\skewchar\font48 }
+\DeclareFontShape{OMS}{oasy}{m}{n}{%
+         <-5.5> oasy5     <5.5-6.5> oasy6
+      <6.5-7.5> oasy7     <7.5-8.5> oasy8
+      <8.5-9.5> oasy9     <9.5->    oasy10
+      }{}
+
+% Math symbols
+\DeclareRobustCommand{\OLDleftarrow}{{\usefont{OMS}{oasy}{m}{n}\char"20}}
+\DeclareRobustCommand{\OLDleftrightarrow}{{\usefont{OMS}{oasy}{m}{n}\char"24}}
+\DeclareRobustCommand{\OLDmapstochar}{{\usefont{OMS}{oasy}{m}{n}\char"37}}
+\DeclareRobustCommand{\OLDmeno}{{\usefont{OMS}{oasy}{m}{n}\char"00}}
+\DeclareRobustCommand{\OLDnearrow}{{\usefont{OMS}{oasy}{m}{n}\char"25}}
+\DeclareRobustCommand{\OLDnwarrow}{{\usefont{OMS}{oasy}{m}{n}\char"2D}}
+\DeclareRobustCommand{\OLDrightarrow}{{\usefont{OMS}{oasy}{m}{n}\char"21}}
+\DeclareRobustCommand{\OLDsearrow}{{\usefont{OMS}{oasy}{m}{n}\char"26}}
+\DeclareRobustCommand{\OLDswarrow}{{\usefont{OMS}{oasy}{m}{n}\char"2E}}
+\DeclareRobustCommand{\OLDnearrow}{{\usefont{OMS}{oasy}{m}{n}\char"25}}
+\DeclareRobustCommand{\OLDsearrow}{{\usefont{OMS}{oasy}{m}{n}\char"26}}
+\DeclareRobustCommand{\OLDnwarrow}{{\usefont{OMS}{oasy}{m}{n}\char"2D}}
+\DeclareRobustCommand{\OLDswarrow}{{\usefont{OMS}{oasy}{m}{n}\char"2E}}
+
+% Delimiters
+\DeclareRobustCommand{\OLDuparrow}{{\usefont{OMS}{oasy}{m}{n}\char"22}}
+\DeclareRobustCommand{\OLDdownarrow}{{\usefont{OMS}{oasy}{m}{n}\char"23}}
+\DeclareRobustCommand{\OLDupdownarrow}{{\usefont{OMS}{oasy}{m}{n}\char"6C}}
+
+% Combined symbols
+\DeclareRobustCommand{\OLDjoinrelaz}{\mathrel{\mkern-3mu}}
+\let\OLDrelbarra=\OLDmeno
+\DeclareRobustCommand{\OLDmapsto}{\OLDmapstochar\OLDrightarrow}
+\DeclareRobustCommand{\OLDmapsfrom}{\OLDleftarrow$\mapsfromchar$}
+\DeclareRobustCommand{\OLDhookrightarrow}{$\lhook\OLDjoinrelaz$\OLDrightarrow}
+\DeclareRobustCommand{\OLDhookleftarrow}{\OLDleftarrow$\OLDjoinrelaz\rhook$}
+\DeclareRobustCommand{\OLDlongrightarrow}{\OLDrelbarra$\OLDjoinrelaz$\OLDrightarrow}
+\DeclareRobustCommand{\OLDlongleftarrow}{\OLDleftarrow$\OLDjoinrelaz$\OLDrelbarra}
+\DeclareRobustCommand{\OLDlongmapsto}{\OLDmapstochar\OLDlongrightarrow}
+\DeclareRobustCommand{\OLDlongmapsfrom}{\OLDlongleftarrow$\mapsfromchar$}
+\DeclareRobustCommand{\OLDlongleftrightarrow}{\OLDleftarrow$\OLDjoinrelaz$\OLDrightarrow}
+\DeclareRobustCommand{\OLDlonghookrightarrow}{$\lhook\joinrel$\OLDlongrightarrow}
+\DeclareRobustCommand{\OLDlonghookleftarrow}{\OLDlongleftarrow$\joinrel\rhook$}
+\DeclareRobustCommand{\OLDlongleftharpoonup}{$\leftharpoonup\joinrel\relbar$}
+\DeclareRobustCommand{\OLDlongleftharpoondown}{$\leftharpoondown\joinrel\relbar$}
+\DeclareRobustCommand{\OLDlongrightharpoonup}{$\relbar\joinrel\rightharpoonup$}
+\DeclareRobustCommand{\OLDlongrightharpoondown}{$\relbar\joinrel\rightharpoondown$}
+
+\endinput

@@ -1,0 +1,208 @@
+#! /usr/bin/env python
+
+##############################################
+# Generate a fakeasapsym.sty file that works #
+# with pdfLaTeX.                             #
+#                                            #
+# Author: Scott Pakin <scott.clsl@pakin.org  #
+##############################################
+
+import os
+import re
+import subprocess
+import sys
+
+
+def kpsewhich(fname):
+    'Find a filename in the TeX tree.'
+    proc = subprocess.run(['kpsewhich', fname], capture_output=True,
+                          check=True, encoding='utf-8')
+    return proc.stdout.strip()
+
+
+def parse_definitions(tex):
+    '''Parse a .tex file that defines ASAP symbols.  Return an ordered
+    association of macro names to glyph name.'''
+    # Define definition patterns.
+    set_re = re.compile(r'^\\asapsym@set\{([a-z]+)\}\{(\d+)\}')
+    mk_re = re.compile(r'^\\asapsym@mk([a-z])\{([A-Za-z]+)\}\{(\w+)\}')
+
+    # Map a category to a tag (hard-wired here rather than parsed from
+    # the file).
+    cat2tag = {
+        'a': 'arrow',
+        'e': 'elevator',
+        'o': 'object',
+        'p': 'people',
+        'd': 'people',
+        's': 'signal',
+        't': 'transport'
+    }
+
+    # I *really* don't understand where these special cases for arrows
+    # come from or how to automate the association with glyph names.
+    arrow_glyphs = [
+        'one.ss01',
+        'two.ss01',
+        'three.ss01',
+        'four.ss01',
+        'five.ss01',
+        'six.ss01',
+        'seven.ss01',
+        'eight.ss01',
+        'one.ss02',
+        'two.ss02',
+        'three.ss02',
+        'four.ss02',
+        'five.ss02',
+        'six.ss02',
+        'seven.ss02',
+        'eight.ss02',
+        'one.ss03',
+        'two.ss03',
+        'three.ss03',
+        'four.ss03',
+        'five.ss03',
+        'six.ss03',
+        'seven.ss03',
+        'eight.ss03'
+    ]
+    next_arrow = 0
+
+    # Process the file line-by-line.
+    tag2ss = {}       # Map from a tag to a stylistic-set 2-digit number
+    sym2glyph = {}    # Map from a symbol name to a glyph name
+    with open(tex) as r:
+        for ln in r:
+            # Process stylistic-set definitions.
+            match = set_re.match(ln)
+            if match is not None:
+                tag2ss[match[1]] = match[2]
+                continue
+
+            # Process symbol definitions.
+            match = mk_re.match(ln)
+            if match is None:
+                continue
+            cat, base, char = match.groups()
+            tag = cat2tag[cat]
+            if cat == 'a':
+                # Arrow
+                sym2glyph[f'Arrow{base}'] = arrow_glyphs[next_arrow]
+                next_arrow += 1
+            elif cat in ['e', 'o', 'p', 't']:
+                # Elevator, object, people, sign, or transport
+                sym2glyph[base] = '%s.ss%s' % (char, tag2ss[tag])
+            elif cat == 's':
+                # Sign
+                sym2glyph[f'{base}Sign'] = '%s.ss%s' % (char, tag2ss[tag])
+            elif cat == 'd':
+                # Both male and female people
+                sym2glyph[f'Male{base}'] = '%s.ss%s' % (char, tag2ss[tag])
+                sym2glyph[f'Female{base}'] = '%s.ss%s' % \
+                    (char.lower(), tag2ss[tag])
+
+    # Convert the map to a list to ensure that the ordering used in the
+    # .tfm file and the .sty file are consistent.
+    sym_glyphs = list(sym2glyph.items())
+    sym_glyphs.sort(key=lambda sg: sg[1][::-1])
+    return sym_glyphs
+
+
+def write_encoding(sym_glyphs):
+    'Generate an input encoding file.'
+    with open('fakeasapsym-in.enc', 'w') as w:
+        w.write('/FakeASAPSymEncoding [\n')
+        for g in [sg[1] for sg in sym_glyphs]:
+            w.write(f'  /{g}\n')
+        w.write(']\n')
+
+
+def generate_font_files(ttf):
+    '''Create fakeasapsym.enc, fakeasapsym.tfm, and Asap-Symbol.pfb files.
+    Return a map-file line.'''
+    # Create all the font files.
+    args = [
+        'otftotfm',
+        '--map-file=fakeasapsym.map',
+        '--no-updmap',
+        '--encoding=fakeasapsym-in.enc',
+        '--directory=' + os.getcwd(),
+        ttf,
+        'fakeasapsym']
+    sys.stderr.write('RUNNING: %s\n' % ' '.join(args))
+    subprocess.run(args, check=True, encoding='utf-8')
+
+    # To make cleanup easier for the Makefile, rename the generated
+    # a_<hash>.enc to fakeasapsym.enc.
+    with open('fakeasapsym.map') as r:
+        for ln in r:
+            fields = ln.split()
+            if len(fields) == 6 and fields[0] == 'fakeasapsym':
+                mapfields = fields
+    enc = mapfields[4][2:]
+    os.rename(enc, 'fakeasapsym.enc')
+
+    # Remove fakeasapsym.map as it is no longer needed.
+    os.remove('fakeasapsym.map')
+
+    # Return a map-file line that can be used in a .sty file.
+    mapfields[4] = mapfields[4][:2] + 'fakeasapsym.enc'
+    return ' '.join(mapfields)
+
+
+def write_style_file(sty, map_line, sym_glyphs):
+    'Derive fakeasapsym.sty from asapsym.sty.'
+    # Acquire the ProvidesPackage description from asapsym.sty.
+    with open(sty) as r:
+        all_sty = r.read()
+    provides_re = re.compile(r'\\ProvidesPackage\{asapsym\}\s*\[(.*?)\]',
+                             re.DOTALL)
+    desc = provides_re.search(all_sty)[1]
+
+    # Create fakeasapsym.sty.
+    with open('fakeasapsym.sty', 'w') as w:
+        # Package header
+        w.write('''\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a generated file.  DO NOT EDIT. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\\NeedsTeXFormat{LaTeX2e}
+''')
+        w.write('\\ProvidesPackage{fakeasapsym}[%s]\n\n' % desc)
+
+        # Font definition
+        w.write('\\pdfmapline{=%s}\n' % map_line)
+        w.write('\\font\\fakeasapsym=fakeasapsym at 10pt\n\n')
+
+        # Primitive symbol list
+        signs = []
+        for i, (sym, glyph) in enumerate(sym_glyphs):
+            w.write('\\DeclareRobustCommand*{\\asap%s}'
+                    '{{\\fakeasapsym\\char"%02X}}  %% %s\n' %
+                    (sym, i, glyph))
+            if sym[-4:] == 'Sign' and sym != 'NotSign':
+                signs.append(sym)
+        w.write('\n')
+
+        # Composed symbol list.
+        for sym in signs:
+            w.write('\\DeclareRobustCommand*{\\asapNot%s}'
+                    '{\\asap%s\\llap{\\asapNotSign}}\n' %
+                    (sym, sym,))
+        w.write('\n')
+
+        # Package trailed
+        w.write('\\endinput\n')
+
+
+# Generate a pdfLaTeX-compatible version of asamsym.sty.
+tex = kpsewhich('asapsym-generic.tex')
+sym_glyphs = parse_definitions(tex)
+write_encoding(sym_glyphs)
+ttf = kpsewhich('Asap-Symbol.otf')
+map_line = generate_font_files(ttf)
+os.remove('fakeasapsym-in.enc')
+sty = kpsewhich('asapsym.sty')
+write_style_file(sty, map_line, sym_glyphs)

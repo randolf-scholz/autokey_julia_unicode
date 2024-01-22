@@ -1,0 +1,87 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+11300	"""𑌀"""	11300..1137F	Grantha	Grantha sign combining anusvara above		
+11301	"""𑌁"""	11300..1137F	Grantha	Grantha sign candrabindu		
+11302	"""𑌂"""	11300..1137F	Grantha	Grantha sign anusvara		
+11303	"""𑌃"""	11300..1137F	Grantha	Grantha sign visarga		
+11305	"""𑌅"""	11300..1137F	Grantha	Grantha letter a		
+11306	"""𑌆"""	11300..1137F	Grantha	Grantha letter aa		
+11307	"""𑌇"""	11300..1137F	Grantha	Grantha letter i		
+11308	"""𑌈"""	11300..1137F	Grantha	Grantha letter ii		
+11309	"""𑌉"""	11300..1137F	Grantha	Grantha letter u		
+1130A	"""𑌊"""	11300..1137F	Grantha	Grantha letter uu		
+1130B	"""𑌋"""	11300..1137F	Grantha	Grantha letter vocalic r		
+1130C	"""𑌌"""	11300..1137F	Grantha	Grantha letter vocalic l		
+1130F	"""𑌏"""	11300..1137F	Grantha	Grantha letter ee		
+11310	"""𑌐"""	11300..1137F	Grantha	Grantha letter ai		
+11313	"""𑌓"""	11300..1137F	Grantha	Grantha letter oo		
+11314	"""𑌔"""	11300..1137F	Grantha	Grantha letter au		
+11315	"""𑌕"""	11300..1137F	Grantha	Grantha letter ka		
+11316	"""𑌖"""	11300..1137F	Grantha	Grantha letter kha		
+11317	"""𑌗"""	11300..1137F	Grantha	Grantha letter ga		
+11318	"""𑌘"""	11300..1137F	Grantha	Grantha letter gha		
+11319	"""𑌙"""	11300..1137F	Grantha	Grantha letter nga		
+1131A	"""𑌚"""	11300..1137F	Grantha	Grantha letter ca		
+1131B	"""𑌛"""	11300..1137F	Grantha	Grantha letter cha		
+1131C	"""𑌜"""	11300..1137F	Grantha	Grantha letter ja		
+1131D	"""𑌝"""	11300..1137F	Grantha	Grantha letter jha		
+1131E	"""𑌞"""	11300..1137F	Grantha	Grantha letter nya		
+1131F	"""𑌟"""	11300..1137F	Grantha	Grantha letter tta		
+11320	"""𑌠"""	11300..1137F	Grantha	Grantha letter ttha		
+11321	"""𑌡"""	11300..1137F	Grantha	Grantha letter dda		
+11322	"""𑌢"""	11300..1137F	Grantha	Grantha letter ddha		
+11323	"""𑌣"""	11300..1137F	Grantha	Grantha letter nna		
+11324	"""𑌤"""	11300..1137F	Grantha	Grantha letter ta		
+11325	"""𑌥"""	11300..1137F	Grantha	Grantha letter tha		
+11326	"""𑌦"""	11300..1137F	Grantha	Grantha letter da		
+11327	"""𑌧"""	11300..1137F	Grantha	Grantha letter dha		
+11328	"""𑌨"""	11300..1137F	Grantha	Grantha letter na		
+1132A	"""𑌪"""	11300..1137F	Grantha	Grantha letter pa		
+1132B	"""𑌫"""	11300..1137F	Grantha	Grantha letter pha		
+1132C	"""𑌬"""	11300..1137F	Grantha	Grantha letter ba		
+1132D	"""𑌭"""	11300..1137F	Grantha	Grantha letter bha		
+1132E	"""𑌮"""	11300..1137F	Grantha	Grantha letter ma		
+1132F	"""𑌯"""	11300..1137F	Grantha	Grantha letter ya		
+11330	"""𑌰"""	11300..1137F	Grantha	Grantha letter ra		
+11332	"""𑌲"""	11300..1137F	Grantha	Grantha letter la		
+11333	"""𑌳"""	11300..1137F	Grantha	Grantha letter lla		
+11335	"""𑌵"""	11300..1137F	Grantha	Grantha letter va		
+11336	"""𑌶"""	11300..1137F	Grantha	Grantha letter sha		
+11337	"""𑌷"""	11300..1137F	Grantha	Grantha letter ssa		
+11338	"""𑌸"""	11300..1137F	Grantha	Grantha letter sa		
+11339	"""𑌹"""	11300..1137F	Grantha	Grantha letter ha		
+1133B	"""𑌻"""	11300..1137F	Grantha	Combining bindu below		
+1133C	"""𑌼"""	11300..1137F	Grantha	Grantha sign nukta		
+1133D	"""𑌽"""	11300..1137F	Grantha	Grantha sign avagraha		
+1133E	"""𑌾"""	11300..1137F	Grantha	Grantha vowel sign aa		
+1133F	"""𑌿"""	11300..1137F	Grantha	Grantha vowel sign i		
+11340	"""𑍀"""	11300..1137F	Grantha	Grantha vowel sign ii		
+11341	"""𑍁"""	11300..1137F	Grantha	Grantha vowel sign u		
+11342	"""𑍂"""	11300..1137F	Grantha	Grantha vowel sign uu		
+11343	"""𑍃"""	11300..1137F	Grantha	Grantha vowel sign vocalic r		
+11344	"""𑍄"""	11300..1137F	Grantha	Grantha vowel sign vocalic rr		
+11347	"""𑍇"""	11300..1137F	Grantha	Grantha vowel sign ee		
+11348	"""𑍈"""	11300..1137F	Grantha	Grantha vowel sign ai		
+1134B	"""𑍋"""	11300..1137F	Grantha	Grantha vowel sign oo		
+1134C	"""𑍌"""	11300..1137F	Grantha	Grantha vowel sign au		
+1134D	"""𑍍"""	11300..1137F	Grantha	Grantha sign virama		
+11350	"""𑍐"""	11300..1137F	Grantha	Grantha om		
+11357	"""𑍗"""	11300..1137F	Grantha	Grantha au length mark		
+1135D	"""𑍝"""	11300..1137F	Grantha	Grantha sign pluta		
+1135E	"""𑍞"""	11300..1137F	Grantha	Grantha letter vedic anusvara		
+1135F	"""𑍟"""	11300..1137F	Grantha	Grantha letter vedic double anusvara		
+11360	"""𑍠"""	11300..1137F	Grantha	Grantha letter vocalic rr		
+11361	"""𑍡"""	11300..1137F	Grantha	Grantha letter vocalic ll		
+11362	"""𑍢"""	11300..1137F	Grantha	Grantha vowel sign vocalic l		
+11363	"""𑍣"""	11300..1137F	Grantha	Grantha vowel sign vocalic ll		
+11366	"""𑍦"""	11300..1137F	Grantha	Combining grantha digit zero		
+11367	"""𑍧"""	11300..1137F	Grantha	Combining grantha digit one		
+11368	"""𑍨"""	11300..1137F	Grantha	Combining grantha digit two		
+11369	"""𑍩"""	11300..1137F	Grantha	Combining grantha digit three		
+1136A	"""𑍪"""	11300..1137F	Grantha	Combining grantha digit four		
+1136B	"""𑍫"""	11300..1137F	Grantha	Combining grantha digit five		
+1136C	"""𑍬"""	11300..1137F	Grantha	Combining grantha digit six		
+11370	"""𑍰"""	11300..1137F	Grantha	Combining grantha letter a		
+11371	"""𑍱"""	11300..1137F	Grantha	Combining grantha letter ka		
+11372	"""𑍲"""	11300..1137F	Grantha	Combining grantha letter na		
+11373	"""𑍳"""	11300..1137F	Grantha	Combining grantha letter vi		
+11374	"""𑍴"""	11300..1137F	Grantha	Combining grantha letter pa		

@@ -1,0 +1,2935 @@
+########################################################################
+# Define a list of symbols, all of whose glyphs are nearly identical.  #
+# An exemplar glyph will be selected for each item, which will be      #
+# listed only once in the index.                                       #
+#                                                                      #
+# Author: Scott Pakin <scott+clsl@pakin.org>                           #
+########################################################################
+
+[[merge]]
+matches = [
+    "actuarial angle",
+    "aleph",
+    "anaclasis",
+    "anger",
+    "antisigma",
+    "Apple",
+    "Aquarius",
+    "arc",
+    "Aries",
+    "artist",
+    "ascending node",
+    "astronaut",
+    "bag membership",
+    "beth",
+    "between",
+    "BlackBerry",
+    "bottom",
+    "bouncing ball",
+    "bra",
+    "bullet",
+    "Cancer",
+    "caron",
+    "catalexis",
+    "cauldron",
+    "cedilla",
+    "chestnut",
+    "choice",
+    "complement",
+    "convolution",
+    "coproduct",
+    "copyright",
+    "corresponds",
+    "currency",
+    "daleth",
+    "degree",
+    "descending node",
+    "diameter",
+    "Docker",
+    "Dropbox",
+    "edit",
+    "emgma",
+    "enya",
+    "Erlang",
+    "factory worker",
+    "feeding baby",
+    "filter",
+    "flap",
+    "for all",
+    "game",
+    "Gemini",
+    "gesturing NO",
+    "gesturing OK",
+    "gimel",
+    "group",
+    "Grunt",
+    "Hacker News",
+    "hamster",
+    "handball",
+    "health worker",
+    "Hermitian conjugate matrix",
+    "intercalate",
+    "interleave",
+    "Java",
+    "JavaScript",
+    "Jedi Order",
+    "Jupiter",
+    "k",
+    "ket",
+    "kidney",
+    "Leo",
+    "Libra",
+    "lifting weights",
+    "lightning",
+    "line feed",
+    "mage",
+    "Magento",
+    "Mars",
+    "Mercury",
+    "moo",
+    "multimap",
+    "musical score",
+    "nabla",
+    "Neptune",
+    "no bicycles",
+    "Node.js",
+    "no entry",
+    "no mobile phones",
+    "no pedestrians",
+    "npm",
+    "office worker",
+    "ogonek",
+    "opposition",
+    "partial derivative",
+    "permyriad",
+    "pfund",
+    "Pisces",
+    "police officer",
+    "prime",
+    "pull back",
+    "push out",
+    "Python",
+    "raising hand",
+    "Raspberry Pi",
+    "React",
+    "redo",
+    "reference",
+    "respondens",
+    "Rust",
+    "Sagittarius",
+    "Sass",
+    "Saturn",
+    "Scala",
+    "schwa",
+    "Scorpio",
+    "section mark",
+    "sha",
+    "slice",
+    "smash product",
+    "SUSE",
+    "Symfony",
+    "sync",
+    "Taurus",
+    "tipping hand",
+    "undo",
+    "Unity",
+    "utensils",
+    "Venus",
+    "Virgo",
+    "wagon",
+    "water polo",
+    "Weierstrass elliptic function",
+    "wreath product",
+    "Zenodo",
+    "zoom",
+    "zoom in",
+    "zoom out"
+]
+
+# Top-level entries, all of whose subentries should be independently
+# merged, and top-level "see..." entries.
+[[merge]]
+consider_all_entries = true
+top_matches = [
+    "accents",
+    "alla breve",
+    "ampersand",
+    "antiquark",
+    "approximately equivalent to",
+    "arc",
+    "assumption",
+    "asymptotically equal to",
+    "backslash",
+    "barred letters",
+    "battery",
+    "because",
+    "blackboard bold letters",
+    "bottom",
+    "boxed symbols",
+    "bunch join",
+    "bunch meet",
+    "camel",
+    "car",
+    "cardinality",
+    "Cartesian product",
+    "chess",
+    "circled symbols",
+    "clefs",
+    "Closed Access",
+    "closed captioning",
+    "closure",
+    "coherence",
+    "coin",
+    "colon",
+    "common time",
+    "cross product",
+    "curly pi",
+    "cutoff subtraction",
+    "dal segno",
+    "delimiters",
+    "derivative, partial",
+    "Descartes's equal sign",
+    "diaeresis",
+    "diagonal line",
+    "diamond",
+    "differential, inexact",
+    "digital signals",
+    "dominance",
+    "dot",
+    "eighth note",
+    "element of",
+    "ellipse",
+    "ellipsis",
+    "empty set",
+    "engma",
+    "entailment",
+    "entails",
+    "equilibrium",
+    "esh",
+    "euro",
+    "evaluated at",
+    "excess",
+    "exists",
+    "face",
+    "falsum",
+    "Father Christmas",
+    "fermata",
+    "fighter jet",
+    "fish tail",
+    "flat",
+    "footline",
+    "free",
+    "function",
+    "gender signs",
+    "geometric proportion",
+    "glottal stop",
+    "Go stones",
+    "half note",
+    "horizontal line",
+    "i",
+    "iff",
+    "implication",
+    "in",
+    "incoherence",
+    "inexact differential",
+    "integral",
+    "interior",
+    "interior product",
+    "j",
+    "join (database)",
+    "keyboard",
+    "lattice",
+    "leads to",
+    "ligatures",
+    "linear implication",
+    "location",
+    "logical negation",
+    "lollipop (mathematics)",
+    "long-legged letters",
+    "map join",
+    "map meet",
+    "marcato",
+    "member of",
+    "merge",
+    "micro",
+    "millesimal sign",
+    "models",
+    "multimap",
+    "multiplication",
+    "multiplicative disjunction",
+    "nand",
+    "negation",
+    "octothorpe",
+    "ordinal",
+    "orthogonal",
+    "overline",
+    "owns",
+    "par",
+    "parallel",
+    "parentheses",
+    "pentagram",
+    "period",
+    "per mill",
+    "perpendicular",
+    "per ten thousand",
+    "per thousand",
+    "phonetic accents",
+    "pipe",
+    "pitchfork",
+    "pomega",
+    "postal mark",
+    "pound sign",
+    "prime",
+    "proper subset",
+    "proper superset",
+    "proportion",
+    "quark",
+    "quarter note",
+    "ratio",
+    "registered trademark",
+    "restriction",
+    "reversed letters",
+    "reverse solidus",
+    "s",
+    "satisfies",
+    "semicolon",
+    "semidirect product",
+    "set difference",
+    "set interior",
+    "set intersection",
+    "set membership",
+    "set union",
+    "Sheffer's stroke",
+    "shuffle product",
+    "since",
+    "sixteenth note",
+    "sixty-fourth note",
+    "slash",
+    "small caps letters",
+    "solidus",
+    "space",
+    "steel",
+    "strict converse implication",
+    "strict implication",
+    "stroked letters",
+    "sum",
+    "swung dash",
+    "tack",
+    "tautology",
+    "telephone handset",
+    "ten thousandths",
+    "therefore",
+    "thirty-second note",
+    "thorn",
+    "thousandths",
+    "thus",
+    "top",
+    "trademark",
+    "traffic signal",
+    "transversal intersection",
+    "triangle",
+    "turnstile",
+    "universal bunch quantifier",
+    "universal individual quantifier",
+    "vee",
+    "vertical bar",
+    "vinculum",
+    "wedge",
+    "whole note",
+    "wifi",
+    "Y",
+    "yogh",
+    "Z notation"
+]
+
+[[merge]]
+top_matches = "flag"
+not_matches = ["flag", "multiple, crossed"]
+
+[[merge]]
+top_matches = "dice"
+matches = "3D"
+render_contains = '\usym'
+
+[[merge]]
+top_matches = "dice"
+matches = "dice"
+
+[[merge]]
+top_matches = "cloud"
+not_matches = "cloud"
+
+[[merge]]
+top_matches = "cat"
+not_matches = "cat"
+
+[[merge]]
+top_matches = "mouse"
+matches = "computer"
+
+# This rule should precede the following one.
+[[merge]]
+top_contains = "pilcrow"
+render_contains = ['\DCd', '\STIXmathparagraph']
+
+[[merge]]
+top_contains = "pilcrow"
+not_render_contains = ['\textpilcrow', '\usym{2761}']
+
+[[merge]]
+top_matches = "document"
+matches = "text"
+
+[[merge]]
+top_matches = "emoji"
+matches = "modifiers"
+
+[[merge]]
+top_matches = "jack-o'-lantern"
+render_contains = ["bigpumpkin", "greatpumpkin"]
+
+[[merge]]
+top_matches = "microphone"
+render_contains = ['\tiMicrophone', '\faMicrophone']
+
+[[merge]]
+top_matches = "keyboard symbols"
+matches = "delete"
+
+[[merge]]
+top_matches = "keyboard symbols"
+matches = "command"
+
+[[merge]]
+top_matches = "airplane"
+matches = "landing"
+
+[[merge]]
+top_matches = "airplane"
+matches = "taking off"
+
+[[merge]]
+top_matches = "house"
+not_matches = "house"
+
+[[merge]]
+top_matches = "sun"
+matches = "astronomical"
+
+[[merge]]
+top_matches = "sun"
+render_contains = [
+    '\STIXsun',
+    '(\usym{263C})',
+    '(\ifsSun)',
+    '(\sun)'
+]
+
+[[merge]]
+consider_all_entries = true
+top_matches = "sword"
+matches = "multiple, crossed"
+
+[[merge]]
+top_matches = "dagger"
+not_render_contains = ["1f5e1", "1F5E1"]
+
+[[merge]]
+top_matches = "calendar"
+prefix = "with"
+
+[[merge]]
+top_matches = "leaf"
+matches = "maple"
+
+[[merge]]
+top_matches = "leaf"
+matches = "fleuron"
+
+[[merge]]
+render_contains = ['$\ell$', '\STIXell']
+
+[[merge]]
+top_matches = "envelope"
+matches = "with lightning"
+
+[[merge]]
+top_matches = "envelope"
+matches = "with downward arrow"
+
+[[merge]]
+top_matches = "yin-yang"
+not_render_contains = '\twemoji{262f}'
+
+[[merge]]
+top_regex = '^[A-Z]+!* with arrow$'
+
+[[merge]]
+top_matches = "store"
+matches = "slashed"
+
+[[merge]]
+top_matches = "dangerous bend"
+render_contains = ['\dbend', '\textdbend']
+
+[[merge]]
+top_matches = "dangerous bend"
+render_contains = ['\lhdbend', '\textlhdbend']
+
+[[merge]]
+top_matches = "dangerous bend"
+render_contains = ['\reversedvideodbend', '\textreversedvideodbend']
+
+[[merge]]
+top_matches = "construction worker"
+render_contains = '\twemoji{1f477'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "feet"
+render_contains = "prime"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "feet"
+render_contains = ["SingleQuote", "textquotesingle"]
+
+[[merge]]
+consider_all_entries = true
+top_matches = "inches"
+render_contains = ["DoubleQuote", "textquotedbl"]
+
+[[merge]]
+top_matches = "quotation marks"
+prefix = "straight"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "ditto marks"
+
+[[merge]]
+top_matches = "rowing"
+render_contains = '\twemoji{1f6a3'
+
+[[merge]]
+top_matches = "user"
+matches = "slashed"
+
+[[merge]]
+top_regex = '^\d+$'
+matches = "old style"
+
+[[merge]]
+top_matches = "underline"
+not_render_contains = '\faUnderline'
+
+[[merge]]
+top_matches = "times"
+not_prefix = "decorative"
+
+[[merge]]
+consider_all_entries = true
+format_contains = 'gender signs'
+
+[[merge]]
+top_matches = "handshake"
+matches = "slashed"
+
+[[merge]]
+top_regex = '^\d+$'
+matches = "circled, filled"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "user"
+matches = "circled"
+
+[[merge]]
+top_matches = "hash"
+render_contains = ['($\ABXhash$)', '(\BSKhash)']
+
+[[merge]]
+top_matches = "hash"
+render_contains = [
+    '($\ABXvarhash$)',
+    '(\#)',
+    '(\BSKvarhash)',
+    '(\Numbr)',
+    '(\faHashtag)'
+]
+
+[[merge]]
+consider_all_entries = true
+top_matches = "number sign"
+not_render_contains = "textnumero"
+
+[[merge]]
+top_matches = "l"
+matches = "with belt"
+
+[[merge]]
+top_matches = "l"
+matches = "with tilde"
+
+[[merge]]
+top_matches = "diacritics"
+matches = "apostrophe, reversed"
+
+[[merge]]
+top_matches = "diacritics"
+matches = "secondary stress"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "diacritics"
+matches = "hat"
+
+[[merge]]
+top_matches = "asterisk"
+not_matches = "dingbat"
+
+[[merge]]
+top_matches = "sharp"
+matches = "sharp"
+
+[[merge]]
+top_matches = "natural"
+not_render_contains = '\EOna'
+
+[[merge]]
+top_matches = ["2", "3"]
+matches = "rotated"
+
+[[merge]]
+compare_lowercase = true
+top_matches = "end of proof"
+render_contains = "qed"
+
+[[merge]]
+top_matches = "hammer"
+matches = "and sickle"
+
+[[merge]]
+top_matches = "trash"
+matches = "restore from"
+
+[[merge]]
+top_matches = "conjunction"
+matches = "astronomical"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "copyright"
+
+# ------------------------------- logic --------------------------------
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material biconditional"
+format_contains = 'hyperindexformat{\see{equivalence'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material conditional"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material conditional"
+format_contains = 'hyperindexformat{\see{superset'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material equivalence"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material equivalence"
+format_contains = 'hyperindexformat{\see{equivalence'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material implication"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material implication"
+format_contains = 'hyperindexformat{\see{superset'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material nonimplication"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "material nonimplication"
+format_contains = 'hyperindexformat{\see{superset'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "converse implication"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "converse implication"
+format_contains = 'hyperindexformat{\see{subset'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "converse nonimplication"
+format_contains = 'hyperindexformat{\see{arrow'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "converse nonimplication"
+format_contains = 'hyperindexformat{\see{subset'
+
+# -------------------- various mathematical symbols --------------------
+
+[[merge]]
+regex = '''
+^((not|weak|material|entailment|intuitionistic|implication)\s)*\
+(entailment|equivalence|implication)$\
+'''
+not_render_contains = '(\Equivalence)'
+
+[[merge]]
+matches = ["plus or minus", "minus or plus"]
+
+[[merge]]
+consider_all_entries = true
+matches = "null set"
+
+[[merge]]
+top_matches = "infinity"
+render_contains = [
+    '(\STIXinfty)',
+    '($\ABXinfty$)',
+    '($\infty$)',
+    '(\MNSinfty)',
+    '(\FDSYMinfty)',
+    '(\Infin)'
+]
+
+[[merge]]
+top_matches = "infinity"
+matches = "incomplete"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "negated"
+
+[[merge]]
+top_matches = "witch"
+matches = "math mode"
+
+[[merge]]
+top_matches = "maps to"
+not_contains = "diagonal"
+
+[[merge]]
+top_matches = "square root"
+render_contains = ['{\STIXsqrt}', '{\sqrt}']
+
+[[merge]]
+top_matches = "square root"
+render_contains = "surd"
+
+[[merge]]
+top_matches = "proportionality"
+matches = "proportionality"
+
+[[merge]]
+top_matches = "proportionality"
+matches = "reversed"
+
+[[merge]]
+render_regex = '\$\\math(left|right)?bat\$'
+
+[[merge]]
+top_matches = "pentagon"
+not_matches = "half filled"
+
+[[merge]]
+top_matches = "hexagon"
+not_matches = "half filled"
+
+[[merge]]
+top_matches = "union"
+not_matches = "square, half"
+
+[[merge]]
+top_matches = "intersection"
+not_matches = "square, half"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "cup"
+matches = "cup"
+not_render_contains = '\BPcup'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "cap"
+matches = "cap"
+not_render_contains = '\fcBonnet'
+
+[[merge]]
+top_matches = "crossing"
+not_matches = "diagonal"
+
+[[merge]]
+top_matches = "transform"
+render_contains = ['$\laplace$', '\TransformHoriz']
+
+[[merge]]
+top_matches = "transform"
+render_contains = ['$\Laplace$', '\InversTransformHoriz']
+
+[[merge]]
+top_matches = "transform"
+render_contains = 'Ztransf'
+
+[[merge]]
+top_matches = "transform"
+render_contains = 'ztransf'
+
+[[merge]]
+top_matches = "transform"
+render_contains = 'dfourier'
+
+[[merge]]
+top_matches = "transform"
+render_contains = 'Dfourier'
+
+[[merge]]
+top_matches = "broom"
+render_contains = ['\leftbroom', '\rightbroom']
+
+[[merge]]
+top_matches = "product"
+not_render_contains = '$\varprod$'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "independence"
+format_contains = 'hyperindexformat{\see{turnstile, up}}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "independence"
+format_contains = 'hyperindexformat{\see{turnstile, double dash, up}}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "not"
+format_contains = 'hyperindexformat{\see{logical negation}}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "not"
+format_contains = 'hyperindexformat{\see{slash}}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "Vinogradov notation"
+format_contains = 'hyperindexformat{\see{equal'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "Vinogradov notation"
+format_contains = 'hyperindexformat{\see{greater'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "Vinogradov notation"
+format_contains = 'hyperindexformat{\see{less'
+
+[[merge]]
+consider_all_entries = true
+matches = "as math-mode accent"
+format_contains = 'hyperindexformat{\see{'
+
+# ------------------------------ accents -------------------------------
+
+[[merge]]
+consider_all_entries = true
+matches = [
+    "acute",
+    "caron",
+    "cedilla",
+    "circumflex",
+    "diaeresis",
+    "grave",
+    "hacek",
+    "krouzek",
+    "macron",
+    "ogonek",
+    "trema"
+]
+
+[[merge]]
+consider_all_entries = true
+top_matches = "breve"
+format_contains = '\see{accents'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "underline"
+format_contains = '\see{accents'
+
+[[merge]]
+consider_all_entries = true
+matches = [
+    "ring accent",
+    "umlaut"
+]
+format_contains = '\see{'
+
+[[merge]]
+top_matches = "A with ring"
+matches = "uppercase"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "hat"
+matches = "accent"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "biconditional"
+format_contains = '\see{arrow, double ended}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "biconditional"
+format_contains = '\see{equivalence}'
+
+# --------------------------- Greek letters ----------------------------
+
+[[merge]]
+compare_lowercase = true
+top_matches = [
+    "alpha",
+    "beta",
+    "gamma",
+    "delta",
+    "epsilon",
+    "zeta",
+    "eta",
+    "theta",
+    "iota",
+    "kappa",
+    "lambda",
+    "mu",
+    "nu",
+    "xi",
+    "omicron",
+    "pi",
+    "rho",
+    "sigma",
+    "tau",
+    "upsilon",
+    "phi",
+    "chi",
+    "psi",
+    "omega",
+    "digamma",
+    "stigma",
+    "coppa",
+    "koppa",
+    "qoppa",
+    "sampi"
+]
+
+# -------------------------- metrical symbols --------------------------
+
+[[merge]]
+top_matches = "obelus"
+render_contains = ['(\METREObelus)', '(\METREobelus)']
+
+[[merge]]
+top_matches = "obelus"
+render_contains = ['(\METREObelusstar)', '(\METREobelusstar)']
+
+[[merge]]
+top_matches = "terminus"
+render_contains = ['(\METRETerminus)', '(\METREterminus)']
+
+[[merge]]
+top_matches = "terminus"
+render_contains = ['(\METRETerminusstar)', '(\METREterminusstar)']
+
+# ---------------------- astronomy and astrology -----------------------
+
+[[merge]]
+top_matches = "Earth"
+render_contains = ['\ABXEarth', '\STARTerra']
+
+[[merge]]
+top_matches = "Earth"
+render_contains = [
+    '\ABXvarEarth',
+    '\Earth',
+    '\STARvarTerra',
+    '\earth',
+    '\usym{2641}'
+]
+
+# ------------------------------- arrows -------------------------------
+
+[[merge]]
+top_matches = "arrowhead"
+
+[[merge]]
+top_matches = "arrow"
+not_matches = [
+    "dingbat",
+    "fletched",
+    "two, filled"
+]
+
+# ----------------------------- recycling ------------------------------
+
+[[merge]]
+top_contains = "recycling"
+render_contains = ['\Recycling', '\RECYCrecycle', '\usym{2672}']
+
+[[merge]]
+top_contains = "recycling"
+render_contains = ['reenpoint', '\PackingWaste']
+
+[[merge]]
+top_contains = "recycling"
+render_contains = ['\usym{267B}', '\AREVrecycle']
+
+[[merge]]
+top_contains = "recycling"
+render_contains = ['\twemoji{267b}', '\bcrecyclage']
+
+[[merge]]
+consider_all_entries = true
+top_matches = "Green Dot"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "Grune Punkt"
+
+# ------------------------------ bow ties ------------------------------
+
+[[merge]]
+top_contains = "bow tie"
+render_contains = [
+   '\FDSYMbowtie',
+   '\MNSbowtie',
+   '\BSKbowtie',
+   '\bowtie',
+   '\STIXbowtie',
+   '\Bowtie'
+]
+
+[[merge]]
+top_contains = "bow tie"
+render_contains = ['\BSKblackbowtie', '\STIXfbowtie']
+
+[[merge]]
+top_contains = "bow tie"
+render_contains = ['\FDSYMupbowtie', '\MNSvertbowtie']
+
+[[merge]]
+top_contains = "bow tie"
+render_contains = ['\BSKlblackbowtie', '\STIXlfbowtie']
+
+[[merge]]
+top_contains = "bow tie"
+render_contains = ['\BSKrblackbowtie', '\STIXrfbowtie']
+
+# ------------------------------- globes -------------------------------
+
+[[merge]]
+top_matches = "globe"
+matches = "showing Americas"
+
+[[merge]]
+top_matches = "globe"
+matches = "showing Asia-Australia"
+
+[[merge]]
+top_matches = "globe"
+matches = "showing Europe-Africa"
+
+[[merge]]
+top_matches = "globe"
+matches = "with meridians"
+
+# ------------------------------ subsets -------------------------------
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*sqsubseteq\$?\)|\(\\Sb(map|nch)\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*sqsubseteqq\$?\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*(var)?sqsubsetneq\$?\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*(var)?sqsubsetneqq\$?\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*nsqsubseteq\$?\)|\(\\NotSbmap\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*nsqsubseteqq\$?\)|\(\\NotSbnch\)'
+
+[[merge]]
+top_matches = "subset"
+matches = "finite square, negated strict"
+
+[[merge]]
+top_matches = "subset"
+matches = "finite, strict square"
+
+[[merge]]
+top_matches = "subset"
+matches = "strict square"
+
+[[merge]]
+top_matches = "subset"
+matches = "strict square, negated"
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*subseteq\$?\)|\(\\Sbset\)'
+
+[[merge]]
+top_matches = "subset"
+render_regex = '\(\$?\\[A-Z]*subseteqq\$?\)'
+
+[[merge]]
+top_matches = "subset"
+matches = "finite, negated strict"
+
+[[merge]]
+top_matches = "subset"
+matches = "finite, strict"
+
+[[merge]]
+top_matches = "subset"
+matches = "strict"
+
+[[merge]]
+top_matches = "subset"
+matches = "ordinary, negated"
+render_contains = "subseteqq"
+
+# This rule must follow the previous rule.
+[[merge]]
+top_matches = "subset"
+matches = "ordinary, negated"
+
+[[merge]]
+top_matches = "subset"
+matches = "plus"
+
+[[merge]]
+top_matches = "subset"
+matches = "plus, strict"
+not_render_contains = '\STIXsubsetplus'
+
+[[merge]]
+top_matches = "subset"
+matches = "strict, negated"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "subbunch"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "submap"
+
+# ----------------------------- supersets ------------------------------
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*sqsupseteq\$?\)|\(\\Sb(map|nch)\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*sqsupseteqq\$?\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*(var)?sqsupsetneq\$?\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*(var)?sqsupsetneqq\$?\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*nsqsupseteq\$?\)|\(\\NotSbmap\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*nsqsupseteqq\$?\)|\(\\NotSbnch\)'
+
+[[merge]]
+top_matches = "superset"
+matches = "finite square, negated strict"
+
+[[merge]]
+top_matches = "superset"
+matches = "finite, strict square"
+
+[[merge]]
+top_matches = "superset"
+matches = "strict square"
+
+[[merge]]
+top_matches = "superset"
+matches = "strict square, negated"
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*supseteq\$?\)'
+
+[[merge]]
+top_matches = "superset"
+render_regex = '\(\$?\\[A-Z]*supseteqq\$?\)'
+
+[[merge]]
+top_matches = "superset"
+matches = "finite, strict"
+
+[[merge]]
+top_matches = "superset"
+matches = "strict"
+
+[[merge]]
+top_matches = "superset"
+matches = "ordinary, negated"
+render_contains = "supseteqq"
+
+# This rule must follow the previous rule.
+[[merge]]
+top_matches = "superset"
+matches = "ordinary, negated"
+
+[[merge]]
+top_matches = "superset"
+matches = "plus"
+
+[[merge]]
+top_matches = "superset"
+matches = "plus, strict"
+not_render_contains = '\STIXsupsetplus'
+
+[[merge]]
+top_matches = "superset"
+matches = "proper"
+
+[[merge]]
+top_matches = "superset"
+matches = "strict, negated"
+
+[[merge]]
+top_matches = "superset"
+matches = "finite, negated strict"
+
+# ------------------------------- stars --------------------------------
+
+[[merge]]
+render_regex = '''
+whitestar|\
+\(\\(MNSmedstar|\
+     FiveStarOpen|\
+     MNSlargestar|\
+     starlet|\
+     fcStarA|\
+     usym\{2606\})\)\
+'''
+
+[[merge]]
+render_contains = [
+    '($\star$)',
+    '(\MNSthinstar)',
+    '(\MNSsmallstar)',
+    '(\ABXbigstar)',
+    '(\MNSfilledstar)',
+    '(\FDSYMmedstar)',
+    '(\FDSYMstar)',
+    '(\FDSYMmedblackstar)',
+    '(\FDSYMsmallblackstar)',
+    '(\STIXstar)',
+    '(\BSKstar)',
+    '($\bigstar$)',
+    '(\FiveStar)',
+    '($\ABXbigstar$)',
+    '(\usym{2605})',
+    '(\faStar)',
+    '(\FDSYMbigstar)',
+    '(\FDSYMlargeblackstar)',
+    '(\BSKbigstar)',
+    '(\MNSfilledlargestar)',
+    '(\STIXbigstar)',
+    '(\STIXmedblackstar)',
+    '(\starletfill)',
+    '(\ARUNEstar)'
+]
+
+[[merge]]
+top_matches = "star"
+matches = "jack"
+
+[[merge]]
+top_matches = "star"
+matches = "pentagram"
+
+[[merge]]
+top_matches = "star"
+matches = "of David"
+
+[[merge]]
+top_matches = "star"
+matches = "shadowed"
+
+[[merge]]
+top_matches = "star"
+matches = "twelve pointed"
+
+[[merge]]
+top_matches = "star"
+matches = "and crescent"
+
+[[merge]]
+top_matches = "star"
+render_contains = [
+    '(\EightStar)',
+    '(\EightStarBold)',
+    '(\EightStarTaper)',
+    '(\twemoji{2734})',
+    '(\usym{2734})',
+    '(\usym{2737})',
+    '(\usym{2738})'
+]
+
+[[merge]]
+top_matches = "star"
+render_contains = [
+    '(\EightStarConvex)',
+    '(\usym{2735})'
+]
+
+[[merge]]
+top_matches = "star"
+matches = "of David, dotted"
+
+[[merge]]
+top_matches = "star"
+render_contains = "hexstar"
+
+# This rule must follow the preceding rule.
+[[merge]]
+top_matches = "star"
+matches = "six pointed"
+
+[[merge]]
+top_matches = "star"
+matches = "pinwheel"
+
+[[merge]]
+top_matches = "star"
+render_contains = ['(\FourStar)', '(\usym{2726})']
+
+[[merge]]
+top_matches = "star"
+render_contains = ['(\FourStarOpen)', '(\usym{2727})']
+
+[[merge]]
+top_matches = "star"
+matches = "open center"
+
+[[merge]]
+top_matches = "star"
+matches = "outlined"
+
+[[merge]]
+top_matches = "star"
+matches = "filled center"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "star"
+matches = "Jewish"
+
+[[merge]]
+consider_all_entries = true
+matches = "Jewish star"
+
+# ------------------------------ squares -------------------------------
+
+[[merge]]
+top_matches = "square"
+not_contains = "with arrow"
+
+[[merge]]
+top_matches = "square"
+render_contains = ['\boxdotLeft', 'boxdotRight']
+
+[[merge]]
+top_matches = "square"
+render_contains = ['\boxdotleft', 'boxdotright']
+
+[[merge]]
+top_matches = "square"
+render_contains = ['\boxLeft', 'boxRight']
+
+[[merge]]
+top_matches = "square"
+render_contains = ['\boxleft', 'boxright']
+
+# ------------- check boxes, check marks, and cross marks --------------
+
+[[merge]]
+top_matches = "check box"
+
+[[merge]]
+top_matches = "check mark"
+
+[[merge]]
+top_matches = "cross mark"
+render_contains = [
+    '(\BigCross)',
+    '(\XSolid)',
+    '(\ifsCross)',
+    '(\textifsymbol[ifgeo]{14})'
+]
+
+# ------------------------------ crosses -------------------------------
+
+[[merge]]
+top_matches = "cross (crucifix)"
+matches = "Celtic"
+
+[[merge]]
+top_matches = "cross (crucifix)"
+matches = "pattee"
+
+[[merge]]
+top_matches = "cross (crucifix)"
+matches = "outlined"
+
+[[merge]]
+top_matches = "cross (crucifix)"
+matches = "shadowed"
+
+# ------------------------------- hearts -------------------------------
+
+[[merge]]
+top_matches = "heart"
+matches = "filled"
+
+[[merge]]
+top_matches = "heart"
+matches = "multiple"
+
+[[merge]]
+top_matches = "heart"
+matches = "red"
+
+[[merge]]
+top_matches = "heart"
+render_contains = [
+    '(\Heart)',
+    '(\faHeart[regular])',
+    '(\tiHeartOutline)'
+]
+
+# ------------------------- playing card suits -------------------------
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "club"
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "club, hollow"
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "diamond"
+not_render_contains = '(\twemoji{2666})'
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "diamond, filled"
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "heart"
+not_render_contains = '(\twemoji{2665})'
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "heart, filled"
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "spade"
+
+[[merge]]
+top_matches = "playing card suits"
+matches = "spade, hollow"
+
+# ------------------------------- hands --------------------------------
+
+[[merge]]
+top_matches = "hand"
+matches = "rock sign"
+
+[[merge]]
+top_matches = "hand"
+matches = "paper sign"
+
+[[merge]]
+top_matches = "hand"
+matches = "scissors sign"
+
+[[merge]]
+top_matches = "hand"
+matches = "lizard sign"
+
+[[merge]]
+top_matches = "hand"
+matches = "Spock sign"
+
+[[merge]]
+top_matches = "hand"
+render_contains = '\twemoji{1f44d'
+
+# ----------------------------- plus signs -----------------------------
+
+[[merge]]
+top_matches = "plus"
+matches = "bold"
+
+[[merge]]
+top_matches = "plus"
+matches = "with triangle"
+
+[[merge]]
+top_matches = "plus"
+render_contains = ["circplus", "ringplus"]
+
+[[merge]]
+top_matches = "plus"
+render_contains = "pluscirc"
+
+[[merge]]
+top_matches = "plus"
+render_contains = ["dotplus", "DPlus"]
+
+[[merge]]
+top_matches = "plus"
+render_contains = "plusdot"
+
+[[merge]]
+top_matches = "plus"
+matches = "plus"
+not_render_contains = '\STIXtplus'
+
+# ------------------------------ currency ------------------------------
+
+[[merge]]
+top_matches = "dollar sign"
+render_contains = ['(\textdollar)', '(\ltextdollar)', '(\$)']
+
+[[merge]]
+top_matches = "pound"
+matches = "math mode"
+
+[[merge]]
+top_matches = "pound"
+not_render_contains = '\faPoundSign'
+
+# --------------------------- legal symbols ----------------------------
+
+[[merge]]
+top_matches = "legal symbols"
+not_matches = "public domain"
+
+[[merge]]
+top_matches = "legal symbols"
+not_render_contains = '\faCreativeCommonsPd*'
+
+# ---------------------------- equivalence -----------------------------
+
+[[merge]]
+top_matches = "equivalence"
+matches = "intuitionistic"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "not intuitionistic"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "material"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "not material"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "weak material"
+
+[[merge]]
+top_matches = "equivalence"
+matches = "not weak material"
+
+# ------------------------------ equality ------------------------------
+
+[[merge]]
+top_matches = "equal"
+matches = [
+    "asymptotically",
+    "asymptotically, negated",
+    "dots, falling",
+    "dots, falling, negated",
+    "dots, negated",
+    "dots, rising",
+    "dots, rising, negated",
+    "equal",
+    "extensible",
+    "hat",
+    "hat, negated",
+    "negated",
+    "or greater than, negated",
+    "or less than, negated",
+    "or precedes",
+    "or precedes, negated",
+    "or succeeds",
+    "or succeeds, negated",
+    "parallel",
+    "star",
+    "triangle",
+    "triangle, negated",
+    "V",
+    "wedge"
+]
+
+[[merge]]
+top_matches = "equal"
+matches = "dots"
+not_render_contains = "ddotseq"
+
+# colon following a full equal sign
+[[merge]]
+top_matches = "equal"
+matches = "colon, double"
+render_contains = ["Eqqcolon", "equalscoloncolon"]
+
+# colon following a half equal sign
+[[merge]]
+top_matches = "equal"
+matches = "colon, double"
+render_contains = "Eqcolon"
+
+# bump with a full equal sign below
+# This rule must appear before the half equal sign rules.
+[[merge]]
+top_matches = "equal"
+matches = "bump"
+render_contains = "bumpeqq"
+
+# negated bump with a full equal sign below
+# This rule must appear before the half equal sign rules.
+[[merge]]
+top_matches = "equal"
+matches = "bump, negated"
+render_contains = "bumpeqq"
+
+# bump with a half equal sign below
+[[merge]]
+top_matches = "equal"
+matches = "bump"
+render_contains = ["bumpeq", "bumpedeq"]
+
+# negated bump with a half equal sign below
+[[merge]]
+top_matches = "equal"
+matches = "bump, negated"
+render_contains = ["bumpeq", "bumpedeq"]
+
+# upper and lower bump
+[[merge]]
+top_matches = "equal"
+matches = "bump"
+render_contains = ["Bumpeq", "Bumpedeq"]
+
+# lower bump
+[[merge]]
+top_matches = "equal"
+matches = "bump"
+render_contains = ["eqbump", "eqbumped"]
+
+# negated lower bump
+[[merge]]
+top_matches = "equal"
+matches = "bump, negated"
+render_contains = ["neqbump", "neqbumped"]
+
+# negated upper and lower bump
+[[merge]]
+top_matches = "equal"
+matches = "bump, negated"
+render_contains = "nBumpeq"
+
+# full equal followed by a colon
+# This rule should precede the following one.
+[[merge]]
+top_matches = "equal"
+matches = "colon"
+render_contains = [
+    "eqqcolon",
+    "equalscolon",
+    '\ABXeqcolon',
+    '\FDSYMeqcolon',
+    '\STIXeqcolon'
+]
+
+# half equal followed by a colon
+[[merge]]
+top_matches = "equal"
+matches = "colon"
+render_contains = "eqcolon"
+
+# dot below an equal sign
+# This rule should precede the following one.
+[[merge]]
+top_matches = "equal"
+matches = "dot"
+render_contains = ["eqdot", "botdoteq"]
+
+# dot above an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "dot"
+render_contains = "doteq"
+
+# negated dot below an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "dot, negated"
+render_contains = "neqdot"
+
+# negated dot above an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "dot, negated"
+render_contains = "ndoteq"
+
+# ring above an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "ring"
+render_contains = "eqcirc"
+
+# ring within an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "ring"
+render_contains = "circeq"
+
+# equal to or greater than, slanted single bar
+[[merge]]
+top_matches = "equal"
+matches = "or greater than"
+not_render_contains = [
+   '(\STIXeqqslantgtr)',
+   '(\STIXeqgtr)',
+   '(\STIXeqqgtr)'
+]
+
+# equal to or less than, slanted single bar
+[[merge]]
+top_matches = "equal"
+matches = "or less than"
+not_render_contains = [
+    '(\STIXeqless)',
+    '(\STIXeqqslantless)',
+    '(\STIXeqqless)'
+]
+
+# negated ring above an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "ring, negated"
+render_contains = "neqcirc"
+
+# negated ring within an equal sign
+[[merge]]
+top_matches = "equal"
+matches = "ring, negated"
+render_contains = "ncirceq"
+
+# "similar to" below a half equal sign
+[[merge]]
+top_matches = "equal"
+matches = "similar"
+render_contains = "eqsim"
+not_render_contains = "backeqsim"
+
+# negated "similar to" below a half equal sign
+[[merge]]
+top_matches = "equal"
+matches = "similar, negated"
+render_contains = "neqsim"
+
+# not equal to
+[[merge]]
+consider_all_entries = true
+top_matches = "not equal"
+
+# ------------------------- smiles and frowns --------------------------
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(small)?(sq)?smile\b|\\SInCoh\b|\\CMLLsincoh\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(small)?(sq)?frown\b|\\SCoh\b|\\CMLLscoh\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?(sq)?smilefrown\b|\\Coh\b|\\CMLLcoh\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?frownsmile\b|\\InCoh\b|\\CMLLincoh\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?(sq)?smilefrowneq\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?(sq)?frownsmileeq\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?(sq)?frowneqsmile\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?(sq)?smileeqfrown\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)n?(sq)?smilefrown\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?(double|triple)smile\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?(double|triple)frown\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?doublesmileeq\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?doublefrowneq\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?frowneq\b'
+not_render_contains = ['\FDSYMfrowneq', '\FDSYMnfrowneq']   # Double equals
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?smileeq\b'
+not_render_contains = ['\FDSYMsmileeq', '\FDSYMnsmileeq']   # Double equals
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?eqfrown\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?eqsmile\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?frowneqsmile\b'
+
+[[merge]]
+top_matches = "smiles and frowns"
+render_regex = '\\([A-Z]+)?n?(sq)?smileeqfrown\b'
+
+# ---------------------------- subtraction -----------------------------
+
+[[merge]]
+top_matches = "minus"
+matches = "minus"
+
+[[merge]]
+top_matches = "minus"
+matches = "colon"
+
+[[merge]]
+top_matches = "minus"
+matches = "dot"
+render_contains = ["dotminus", "DMinus"]
+
+[[merge]]
+top_matches = "minus"
+matches = "dot"
+render_contains = "minusdot"
+
+[[merge]]
+top_matches = "minus"
+matches = "dots"
+render_contains = "dotsminusdots"
+
+[[merge]]
+top_matches = "minus"
+matches = "with circle overlay"
+
+# This rule should precede the "backneg"-matching rule.
+[[merge]]
+top_matches = "minus"
+matches = "hooked"
+render_contains = ["hookupminus", "invbackneg"]
+
+[[merge]]
+top_matches = "minus"
+matches = "hooked"
+render_contains = ["hookdownminus", "backneg"]
+
+[[merge]]
+top_matches = "minus"
+matches = "hooked"
+render_contains = ["minushookup", "invneg"]
+
+# This rule should follow all of the other hooked-minus rules.
+[[merge]]
+top_matches = "minus"
+matches = "hooked"
+render_contains = ["minushookdown", "neg"]
+
+[[merge]]
+top_matches = "minus"
+matches = "dots"
+render_contains = "minusrdots"
+
+[[merge]]
+top_matches = "minus"
+matches = "dots"
+render_contains = "minusfdots"
+
+# ------------------------------ division ------------------------------
+
+[[merge]]
+top_matches = "division"
+matches = "long"
+
+[[merge]]
+top_matches = "division"
+matches = "times"
+
+# Slash
+[[merge]]
+top_matches = "division"
+render_contains = [
+    '(\Divide)',
+    '(\Divides)',
+    '(\FDSYMdivslash)',
+    '(\FDSYMsmalldivslash)',
+    '(\MNSneswline)',
+    '(\MVDivision)'
+]
+
+# Line with dots
+[[merge]]
+top_matches = "division"
+render_contains = [
+    '($\div$)',
+    '(\BSKdiv)',
+    '(\Divd)',
+    '(\FDSYMdiv)',
+    '(\MNSdiv)',
+    '(\STIXdiv)',
+    '(\textdiv)'
+]
+
+[[merge]]
+top_matches = "division"
+matches = "dingbat"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "division times"
+
+[[merge]]
+top_matches = "eth"
+
+[[merge]]
+top_matches = "consequence relation"
+render_contains = 'stile}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "divides"
+format_contains = 'see{vertical bar, negated}'
+
+[[merge]]
+consider_all_entries = true
+top_matches = "divides"
+format_contains = 'see{vertical bar}'
+
+# -------------------------- assorted letters --------------------------
+
+# ... tailed letters ...
+
+[[merge]]
+top_matches = "tailed letters"
+matches = "c"
+
+[[merge]]
+top_matches = "tailed letters"
+matches = "j"
+
+[[merge]]
+top_matches = "tailed letters"
+matches = "esh"
+
+[[merge]]
+top_matches = "tailed letters"
+matches = "l"
+
+[[merge]]
+top_matches = "tailed letters"
+matches = "r"
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\textrtailn', '\tailn']
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\PHONFCtextltailn', '\textltailn']
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\PHONFCtextrtaild', '\taild']
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\textrtailt', '\tailt']
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\textctt', '\tailt']
+
+[[merge]]
+top_matches = "tailed letters"
+render_contains = ['\textctz', '\curlyz']
+
+# ... rotated letters ...
+
+[[merge]]
+top_matches = "rotated letters"
+render_contains = ["textturna", "inva"]
+
+[[merge]]
+top_matches = "rotated letters"
+render_contains = ["textturnscripta", "invscripta", "rotvara"]
+
+[[merge]]
+top_matches = "rotated letters"
+not_matches = "a"
+
+# ... other letters ...
+
+[[merge]]
+top_matches = "a"
+
+[[merge]]
+top_matches = "g"
+not_render_contains = '\textg'
+
+[[merge]]
+top_matches = "inverted letters"
+matches = "r, small caps"
+
+[[merge]]
+consider_all_entries = true
+top_matches = "rotated letters"
+matches = "e"
+
+[[merge]]
+top_matches = "o"
+matches = "open"
+
+[[merge]]
+top_matches = "F"
+matches = "inverted"
+
+# ------------------------------ corners -------------------------------
+
+[[merge]]
+top_matches = "corner"
+render_contains = ["llcorner", "lftbotcorner", "FS"]
+
+[[merge]]
+top_matches = "corner"
+render_contains = ["lrcorner", "rtbotcorner"]
+
+[[merge]]
+top_matches = "corner"
+render_contains = [
+    "ulcorner",
+    "lfttopcorner",
+    "textopencorner"
+]
+
+[[merge]]
+top_matches = "corner"
+render_contains = [
+    "urcorner",
+    "rttopcorner",
+    '\corner',
+    "textcorner"
+]
+
+# ----------------------- approximately equal to -----------------------
+
+[[merge]]
+top_matches = "approximately equal to"
+render_regex = '\(\$?\\[A-Z]*approxeq\$?\)'
+
+[[merge]]
+top_matches = "approximately equal to"
+render_regex = '\(\$?\\[A-Z]*(?:thick)?approx\$?\)'
+
+[[merge]]
+top_matches = "approximately equal to"
+render_regex = '\(\$?\\[A-Z]*napproxeq\$?\)'
+
+[[merge]]
+top_matches = "approximately equal to"
+render_regex = '\(\$?\\[A-Z]*n(?:thick)?approx\$?\)'
+
+# ----------------------------- rhombuses ------------------------------
+
+[[merge]]
+top_matches = "rhombus"
+not_matches = [
+    "curved, quartered",
+    "dotted, with arrow",
+    "half filled",
+    "patterned",
+    "quartered",
+    "shadowed",
+    "with arrow"
+]
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\DiamonddotLeft', '\DiamonddotRight']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\Diamonddotleft', '\Diamonddotright']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\DiamondLeft', '\DiamondRight']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\Diamondleft', '\Diamondright']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\STIXdiamondtopblack', '\rhombusfillha']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = [
+    '\STIXdiamondbotblack',
+    "LowerDiamond",
+    '\rhombusfillhb'
+]
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = ['\STIXdiamondleftblack', '\rhombusfillhl']
+
+[[merge]]
+top_matches = "rhombus"
+render_contains = [
+    '\STIXdiamondrightblack',
+    "RightDiamond",
+    '\rhombusfillhr'
+]
+
+[[merge]]
+top_matches = "rhombus"
+matches = "quartered"
+render_contains = ["diamondplus", "rhombuslinevh", "QuarteredDiamond"]
+
+[[merge]]
+top_matches = "rhombus"
+matches = "quartered"
+render_contains = ["diamondtimes", "CrossedDiamond"]
+
+# ------------------------------ circles -------------------------------
+
+[[merge]]
+top_matches = "circle"
+not_matches = [
+    "arrow",
+    "enclosing",
+    "half",
+    "half filled",
+    "quarter marked",
+    "striped",
+    "white on black, half"
+]
+
+[[merge]]
+top_matches = "circle"
+matches = "enclosing"
+render_contains = '\textcircled'
+
+[[merge]]
+compare_lowercase = true
+top_matches = "circle"
+matches = "half filled"
+render_contains = ["left", '\circletfillhl']
+
+[[merge]]
+compare_lowercase = true
+top_matches = "circle"
+matches = "half filled"
+render_contains = ["right", '\circletfillhr']
+
+[[merge]]
+top_matches = "circle"
+matches = "half filled"
+render_contains = ["bottom", '\circletfillhb']
+
+[[merge]]
+top_matches = "circle"
+matches = "half filled"
+render_contains = ["top", '\circletfillha']
+
+[[merge]]
+top_matches = "circle"
+matches = "striped"
+render_contains = ['\STIXcirclevertfill', '\usym{1F534}']
+
+# ---------------------------- greater than ----------------------------
+
+# ... easy cases ...
+
+[[merge]]
+top_matches = "greater than"
+matches = [
+    "greater than",
+    "but not approximately equal to",
+    "but not similar to",
+    "circle",
+    "dotted",
+    "dotted, negated",
+    "much, negated",
+    "negated",
+    "or approximately equal to",
+    "or approximately equal to, negated",
+    "or less than, negated",
+    "or less than, overlapping",
+    "or similar to, negated",
+    "very much, negated"
+]
+
+# ... regular ...
+
+[[merge]]
+top_matches = "greater than"
+matches = "closed"
+render_contains = "gtrclosed"
+
+[[merge]]
+top_matches = "greater than"
+matches = "closed"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "greater than"
+matches = "much"
+render_contains = ["ggg", "Gt"]
+
+[[merge]]
+top_matches = "greater than"
+matches = "much"
+not_render_contains = ["ggg", "Gt"]
+
+[[merge]]
+top_matches = "greater than"
+matches = "but not equal to"
+render_contains = "vertneqq"
+
+[[merge]]
+top_matches = "greater than"
+matches = "but not equal to"
+render_contains = "gneqq"
+
+[[merge]]
+top_matches = "greater than"
+matches = "but not equal to"
+render_contains = "gneq"
+not_render_contains = "gneqq"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to"
+render_contains = ["geqslant", "SbGre", '($\ABXgeq$)']
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to"
+render_contains = "geqq"
+not_render_contains = "geqqslant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to"
+render_contains = ["ge", "Gre"]
+not_render_contains = [
+    "geqq",
+    "geqslant",
+    "SbGre",
+    "LargerOrEqual",
+    "faGreaterThanEqual"
+]
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than"
+render_contains = "eqqless"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than"
+render_contains = "eqless"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than"
+render_contains = ["eqlessslant", "eqslantless", "gesl"]
+not_render_contains = "gesles"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, closed"
+render_contains = "geqclosed"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, closed"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, dotted"
+render_contains = "geqdot"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, dotted"
+render_contains = ["geqslantdot", "gesdot)"]
+
+[[merge]]
+top_matches = "greater than"
+matches = "or less than"
+render_contains = "gtrless"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or similar to"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "very much"
+not_render_contains = "nest"
+
+# ... negated ...
+
+[[merge]]
+top_matches = "greater than"
+matches = "closed, negated"
+render_contains = "gtrclosed"
+
+[[merge]]
+top_matches = "greater than"
+matches = "closed, negated"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than, negated"
+render_contains = "eqqless"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than, negated"
+render_contains = "eqless"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to or less than, negated"
+render_contains = ["eqlessslant", "eqslantless", "gesl"]
+not_render_contains = "gesles"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, closed, negated"
+render_contains = "geqclosed"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, closed, negated"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, dotted, negated"
+render_contains = "ngeqdot"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, dotted, negated"
+render_contains = ["ngeqslantdot", "ngesdot)"]
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, negated"
+render_contains = ["ngeqslant", '$\ABXngeq$', '(\NotSbGre)']
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, negated"
+render_contains = "ngeqq"
+
+[[merge]]
+top_matches = "greater than"
+matches = "or equal to, negated"
+render_contains = ["nge", '$\ABXnvargeq$', '(\NotGre)']
+not_render_contains = ["ngeqq", "ngeqslant"]
+
+# ----------------------------- less than ------------------------------
+
+# ... easy cases ...
+
+[[merge]]
+top_matches = "less than"
+matches = [
+    "less than",
+    "but not approximately equal to",
+    "but not similar to",
+    "circle",
+    "dotted",
+    "dotted, negated",
+    "much, negated",
+    "negated",
+    "or approximately equal to",
+    "or approximately equal to, negated",
+    "or greater than",
+    "or greater than, negated",
+    "or similar to, negated",
+    "very much, negated"
+]
+
+# ... regular ...
+
+[[merge]]
+top_matches = "less than"
+matches = "closed"
+render_contains = "lessclosed"
+
+[[merge]]
+top_matches = "less than"
+matches = "closed"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "less than"
+matches = "but not equal to"
+render_contains = "vertneqq"
+
+[[merge]]
+top_matches = "less than"
+matches = "but not equal to"
+render_contains = "lneqq"
+
+[[merge]]
+top_matches = "less than"
+matches = "but not equal to"
+render_contains = "lneq"
+not_render_contains = "lneqq"
+
+[[merge]]
+top_matches = "less than"
+matches = "much"
+render_contains = ["lll", "Lt"]
+
+[[merge]]
+top_matches = "less than"
+matches = "much"
+not_render_contains = ["lll", "Lt"]
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to"
+render_contains = ["leqslant", "SbLse", '($\ABXleq$)']
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to"
+render_contains = "leqq"
+not_render_contains = "leqqslant"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to"
+render_contains = ["leq", "Lse", 'le)']
+not_render_contains = ["leqq", "leqslant", "SbLse"]
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than"
+render_contains = "eqqgtr"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than"
+render_contains = "eqgtr"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than"
+render_contains = ["eqgtrslant", "eqslantgtr", "lesg"]
+not_render_contains = "lesges"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, closed"
+render_contains = "leqclosed"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, closed"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, dotted"
+render_contains = "leqdot"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, dotted"
+render_contains = ["leqslantdot", "lesdot)"]
+
+[[merge]]
+top_matches = "less than"
+matches = "or similar to"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "less than"
+matches = "very much"
+not_render_contains = "nest"
+
+# ... negated ...
+
+[[merge]]
+top_matches = "less than"
+matches = "closed, negated"
+render_contains = "lessclosed"
+
+[[merge]]
+top_matches = "less than"
+matches = "closed, negated"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than, negated"
+render_contains = ["eqqgtr", "lesg"]
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than, negated"
+render_contains = "eqgtr"
+not_render_contains = "slant"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to or greater than, negated"
+render_contains = ["eqgtrslant", "eqslantgtr"]
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, closed, negated"
+render_contains = "leqclosed"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, closed, negated"
+render_contains = "cc"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, dotted, negated"
+render_contains = "nleqdot"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, dotted, negated"
+render_contains = ["nleqslantdot", "nlesdot)"]
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, negated"
+render_contains = ["nleqslant", '$\ABXnleq$', '(\NotSbLse)']
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, negated"
+render_contains = "nleqq"
+
+[[merge]]
+top_matches = "less than"
+matches = "or equal to, negated"
+render_contains = ["nle", '$\ABXnvarleq$', '(\NotLse)']
+not_render_contains = ["nleqq", "nleqslant"]
+
+# ------------------------------- angles -------------------------------
+
+[[merge]]
+top_matches = "angle"
+matches = [
+    "angle",
+    "measured, with arrow",
+    "spherical",
+    "obtuse",
+    "with underbar"
+]
+
+[[merge]]
+top_matches = "angle"
+matches = "right"
+render_contains = "measuredrightangle"
+
+[[merge]]
+top_matches = "angle"
+matches = "right"
+render_contains = "rightanglemdot"
+
+[[merge]]
+top_matches = "angle"
+matches = "right"
+render_contains = ["rightanglesqr", "rightanglesquare"]
+
+# The following rule should appear last in this section.
+[[merge]]
+top_matches = "angle"
+matches = "right"
+render_contains = "rightangle"
+
+# ------------------------------- music --------------------------------
+
+# Barred, rising eighth notes
+[[merge]]
+top_matches = "musical notes"
+render_contains = [
+    '(\STIXtwonotes)',
+    '(\twoBeamedQuavers)',
+    '(\usym{1F39C})'
+]
+
+# Barred, rising eighth notes, thick
+[[merge]]
+top_matches = "musical notes"
+render_contains = ['(\faMusic)', '(\tiNotes)']
+
+# Barred, falling eighth notes
+[[merge]]
+top_matches = "musical notes"
+render_contains = [
+    '(\twonotes)',
+    '(\usym{1F39D})',
+    '(\usym{266B})'
+]
+
+[[merge]]
+consider_all_entries = true
+top_matches = "meter, musical"
+format_contains = "see{alla breve}"
+
+[[merge]]
+top_matches = "antidiple"
+render_contains = ['(\METREAntidiple)', '(\METREantidiple)']
+
+[[merge]]
+top_matches = "antidiple"
+render_contains = ['(\METREAntidiplestar)', '(\METREantidiplestar)']
+
+[[merge]]
+top_matches = "sharp"
+matches = "double"
+
+# ----------------------------- similarity -----------------------------
+
+[[merge]]
+top_matches = "similar"
+matches = [
+    "similar",
+    "dots, rising",
+    "dots, vertical",
+    "dotted",
+    "negated",
+    "or equal to, dotted",
+    "or not equal to",
+    "reversed",
+    "reversed, negated",
+    "thick"
+]
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to"
+render_contains = "cong"
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to"
+render_contains = ["simeq", "Sm"]
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, negated"
+render_contains = "ncong"
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, negated"
+render_contains = ["nsime", '\NotSm']
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, reversed"
+render_contains = "backcong"
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, reversed"
+render_contains = "backsimeq"
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, reversed, negated"
+render_contains = "nbackcong"
+
+[[merge]]
+top_matches = "similar"
+matches = "or equal to, reversed, negated"
+render_contains = "nbacksimeq"
+
+# ------------------------------ precedes ------------------------------
+
+[[merge]]
+top_matches = "precedes"
+matches = [
+    "precedes",
+    "negated",
+    "or approximately equal to",
+    "or approximately equal to, negated",
+    "or not approximately equal to",
+    "or not similar to",
+    "or similar to",
+    "or similar to, negated",
+    "under relation"
+]
+
+[[merge]]
+top_matches = "precedes"
+matches = "double"
+render_contains = ['\BSKllcurly', '\STIXPrec']
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to"
+render_contains = 'preceqq'
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to"
+render_contains = ['preceq', 'Preq']
+not_render_contains = 'preceqq'
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to"
+render_contains = 'preccurlyeq'
+
+[[merge]]
+top_matches = "precedes"
+matches = "or not equal to"
+render_contains = "precneqq"
+
+[[merge]]
+top_matches = "precedes"
+matches = "or not equal to"
+render_contains = "precneq"
+not_render_contains = "precneqq"
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to, negated"
+render_contains = 'npreceqq'
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to, negated"
+render_contains = ['npreceq', 'NotPreq']
+not_render_contains = 'npreceqq'
+
+[[merge]]
+top_matches = "precedes"
+matches = "or equal to, negated"
+render_contains = 'npreccurlyeq'
+
+# ------------------------------ succeeds ------------------------------
+
+[[merge]]
+top_matches = "succeeds"
+matches = [
+    "succeeds",
+    "negated",
+    "or approximately equal to",
+    "or approximately equal to, negated",
+    "or not approximately equal to",
+    "or not similar to",
+    "or similar to",
+    "or similar to, negated",
+    "under relation"
+]
+
+[[merge]]
+top_matches = "succeeds"
+matches = "double"
+render_contains = ['\BSKggcurly', '\STIXSucc']
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to"
+render_contains = 'succeqq'
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to"
+render_contains = ['succeq', 'Sucq']
+not_render_contains = 'succeqq'
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to"
+render_contains = 'succcurlyeq'
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or not equal to"
+render_contains = "succneqq"
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or not equal to"
+render_contains = "succneq"
+not_render_contains = "succneqq"
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to, negated"
+render_contains = 'nsucceqq'
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to, negated"
+render_contains = ['nsucceq', 'NotSucq']
+not_render_contains = 'nsucceqq'
+
+[[merge]]
+top_matches = "succeeds"
+matches = "or equal to, negated"
+render_contains = 'nsucccurlyeq'
+
+# ------------------------------ harpoons ------------------------------
+
+[[merge]]
+top_matches = "harpoon"
+matches = [
+    "harpoon",
+    "barred head",
+    "barred tail",
+    "barred, parallel",
+    "double ended, opposite sides",
+    "double ended, opposite sides, extensible",
+    "double ended, opposite sides, long",
+    "double ended, opposite sides, negated",
+    "double ended, same side",
+    "double, opposite sides",
+    "double, opposite sides, negated",
+    "double, same side",
+    "extensible",
+    "long",
+    "negated"
+]
+
+[[merge]]
+top_matches = "harpoon"
+matches = "double, opposite sides, extensible"
+render_contains = '\auto'
+
+[[merge]]
+top_matches = "harpoon"
+matches = "double, opposite sides, extensible"
+not_render_contains = '\auto'

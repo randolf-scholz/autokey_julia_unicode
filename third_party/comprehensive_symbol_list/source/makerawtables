@@ -1,0 +1,380 @@
+#! /usr/bin/env perl
+
+#############################################
+# Create a massive table of every character #
+# in every font used in the Comprehensive   #
+# LaTeX Symbol List                         #
+#                                           #
+# By Scott Pakin <scott+clsl@pakin.org>     #
+#############################################
+
+use Getopt::Long;
+use File::Basename;
+use warnings;
+use strict;
+
+# Parse the command line.
+my $paper = "letter";
+my $usagestr = "Usage: $0 [--paper=<letter|a4>]\n";
+GetOptions("p|paper=s" => \$paper) || die $usagestr;
+my ($paperwidth, $paperheight);
+if ($paper eq "letter") {
+    $paperwidth = "8.5in";
+    $paperheight = "11in";
+}
+elsif ($paper eq "a4") {
+    $paperwidth = "210mm";
+    $paperheight = "297mm";
+}
+else {
+    die $usagestr;
+}
+
+# Define a comparison function to use for sorting font names.
+sub compare_names ($$)
+{
+    return lc($_[0]) cmp lc($_[1]) || $_[0] cmp $_[1];
+}
+
+# Given a base name for a font file, see if the corresponding .sty file
+# exists and includes one or more \pdfmapline lines.  If so, return the
+# concatenation of those lines.  Otherwise, return an empty string.  This
+# function is intended to be used for faked font files.
+sub find_map_line ($)
+{
+    my $mapline = "";
+    my $sty = $_[0];
+    $sty =~ s/[A-Z]$//;  # One .sty representing multiple .tfm files
+    $sty .= ".sty";
+    open(STY, "<", $sty) || return $mapline;
+    while (my $ln = <STY>) {
+        $mapline .= $& if $ln =~ /^\\pdfmapline.*\}$/o;
+    }
+    close STY;
+    return $mapline;
+}
+
+# Define a subroutine that returns a list of valid font names to process.
+sub find_valid_fonts ()
+{
+    # Build the CLSL under strace to acquire a list of .tfm files.
+    my %unique_tfms;
+    open(STRACE, "strace -e trace=open,openat -s 32768 -f pdflatex -jobname symbols-letter-pdf \"\\\\PassOptionsToClass{letterpaper}{article}\\\\input symbols\" 2>&1|") || die "open: $!\n";
+    while (my $oneline = <STRACE>) {
+        next if $oneline !~ /open\(\"(.*?)\.tfm\",.*\)\s+=\s+(\S+)/ &&
+            $oneline !~ /openat\(\w+, \"(.*?)\.tfm\",.*\)\s+=\s+(\S+)/;
+        my ($tfm, $retcode) = (basename($1), $2);
+        next if $retcode eq "-1";
+        print defined $unique_tfms{$tfm} ? "$tfm (duplicate)\n" : "$tfm\n";
+        $unique_tfms{$tfm} = 1;
+    }
+    close STRACE || die;
+    my @tfmlist = sort compare_names keys %unique_tfms;
+
+    # Produce one table per font (overwriting as we go) to determine which
+    # fonts are missing, then remove those from the TFM list.
+    foreach my $tfm (@tfmlist) {
+        print "\n*** TESTING $tfm ***\n";
+        my $mapline = substr($tfm, 0, 4) eq "fake" ? find_map_line($tfm) : "";
+        if ($mapline eq "") {
+            open(PDFTEX, "|pdftex -jobname=testfont-$paper testfont") || die "open: $!\n";
+        }
+        else {
+            open(PDFTEX, "|pdftex -jobname=testfont-$paper '$mapline\\input testfont'") || die "open: $!\n";
+        }
+        print PDFTEX $tfm, "\n";
+        print PDFTEX "\\table\n";
+        print PDFTEX "\\bye\n";
+        close PDFTEX || do {
+            print "*** DISCARDING $tfm ***\n";
+            delete $unique_tfms{$tfm};
+        };
+    }
+    @tfmlist = sort compare_names keys %unique_tfms;
+
+    # For fonts that come in multiple sizes, discard all but the closest to
+    # 10 pt.
+    my %base2tfms;
+    foreach my $tfm (@tfmlist) {
+        if ($tfm =~ /^(\D+)\d+$/) {
+            push @{$base2tfms{$1}}, $tfm;
+        }
+        else {
+            push @{$base2tfms{$tfm}}, $tfm;
+        }
+    }
+    while (my ($base, $tfmref) = each %base2tfms) {
+        my @tfms = @$tfmref;
+        if ($#tfms == 0) {
+            $base2tfms{$base} = $tfms[0];
+            next;
+        }
+        my @sizes = map {/(\d+)/; $1 >= 100 ? $1/1000 : $1} @tfms;
+        my ($best_tfm, $least_badness) = (0, 2**30);
+        foreach my $i (0 .. $#sizes) {
+            my $bad = ($sizes[$i] - 10)**2;
+            if ($bad < $least_badness) {
+                $best_tfm = $tfms[$i];
+                $least_badness = $bad;
+            }
+        }
+        print "*** RETAINING ONLY $best_tfm OUT OF [@tfms] ***\n";
+        $base2tfms{$base} = $best_tfm;
+    }
+    @tfmlist = sort compare_names values %base2tfms;
+    return @tfmlist;
+}
+
+# Use the font list from a prior run if available.  Otherwise, process
+# symbols.tex to acquire a list of valid fonts.
+my @tfmlist;
+if (-e "rawtables-$paper.list") {
+    open(LIST, "<", "rawtables-$paper.list") || die "open: $!\n";
+    chomp(@tfmlist = <LIST>);
+    close LIST;
+}
+else {
+    # Slow path -- process symbols.tex using strace.
+    @tfmlist = find_valid_fonts();
+
+    # Dump the list of font names to disk to use for speeding up
+    # subsequent runs.
+    open(LIST, ">", "rawtables-$paper.list") || die "open: $!\n";
+    print LIST join("\n", @tfmlist), "\n";
+    close LIST;
+}
+
+# Determine the number of tables starting with each letter of the
+# alphabet to use for creating a PDF bookmarks list.
+my %lettertally;
+foreach my $tfm (@tfmlist) {
+    $lettertally{uc(substr $tfm, 0, 1)}++;
+}
+
+# Produce a series of font tables in a single PDF file.
+open(PDFTEX, ">", "rawtables-$paper.tex") || die "open: $!\n";
+printf PDFTEX "\%\% Specify %s paper.\n", $paper eq "a4" ? "A4" : "U.S. letter-sized";
+print PDFTEX "\\pdfpagewidth=$paperwidth\n";
+print PDFTEX "\\pdfpageheight=$paperheight\n";
+print PDFTEX <<'TESTFONT';
+
+% Define this document's metadata.
+\pdfinfo {
+  /Title (Raw Font Tables)
+  /Author (Scott Pakin <scott+clsl@pakin.org>)
+  /Subject (Tables of fonts used in the Comprehensive LaTeX Symbol List)
+  /Keywords (font tables, symbols, glyphs, characters, TeX, LaTeX)
+}
+
+% \reserve@table@space, which was derived from needspace.sty, ensures
+% that there is enough space remaining on the page for a complete font
+% table.
+\catcode`\@=11
+\newdimen\dimen@
+\newdimen\dimen@ii
+\def\reserve@table@space{%
+  \par \penalty-100\begingroup
+  \dimen@=\ht\tablebox
+  \dimen@ii\pagegoal \advance\dimen@ii-\pagetotal
+  \ifdim \dimen@>\dimen@ii
+    \ifdim \dimen@ii>\z@
+      \vfil
+    \fi
+    \break
+  \fi\endgroup
+}
+
+% \findfirstletter sets \firstletter to the first letter of its argument.
+\let\prevfirstletter=?
+\def\findfirstletter#1{\findfirstletter@i#1\null}
+\def\findfirstletter@i#1#2\null{\uppercase{\gdef\firstletter{#1}}}
+
+% \fonttable typesets a single font table given a count of fonts starting
+% with the same letter and a font name.
+\newbox\tablebox
+\def\fonttable#1#2{%
+  % Start a new page if we don't have enough space on the current one.
+  \def\fontname{#2}%
+  \setbox\tablebox=\vbox{\startfont\table}%
+  \reserve@table@space
+  % Start a new top-level bookmark for each letter of the alphabet.
+  \findfirstletter{#2}%
+  \ifx\firstletter\prevfirstletter
+  \else
+    \vfill\eject
+    \pdfdest name {\firstletter-fonts} xyz
+    \pdfoutline goto name {\firstletter-fonts} count -#1 {\firstletter}
+    \centerline{\sectionfont\firstletter}\par
+    \vskip1cm
+    \let\prevfirstletter=\firstletter
+  \fi
+  % Output a font table.
+  \pdfdest name {#2} xyz
+  \pdfoutline goto name {#2} {#2}
+  \startfont
+  \table
+  \vskip1cm plus 24pt minus 24pt
+}
+
+% Prepare fonts we'll need throughout the text.
+\input plnfss
+\input ot1cm.pfd
+\font\titlefont=cmbcsc10 at 24pt
+\font\symbolfont=cmsy10 at 12pt
+\def\symchar#1{{\symbolfont\char#1}}
+\font\manfnt=logo10 at 12pt
+\font\sectionfont=cminch
+
+% \LaTeX typesets the LaTeX logogram in either roman or italic.  The
+% code was derived from the definition of \LaTeX in texnames.sty.
+\def\LaTeX{%
+  \ifdim\fontdimen1\font>0pt
+    \bgroup
+      \itshape
+      L\kern-.36em\raise.3ex\hbox{\setfontsize{10pt}\itshape A}\kern-.23em\TeX
+    \egroup
+  \else
+    L\kern-.36em\raise.3ex\hbox{\setfontsize{10pt}\selectfont A}\kern-.16em\TeX
+  \fi
+}
+
+% \MF typesets the Metafont logogram.
+\def\MF{{\manfnt METAFONT}}
+
+% \CLSL is a shortcut for "Comprehensive LaTeX Symbol List".
+\def\CLSL{\textit{Comprehensive \LaTeX\ Symbol List}}
+
+% Typeset some title text.
+\pdfdest name {title} xyz
+\pdfoutline goto name {title} {Title page}
+\setfontsize{12pt}\usefont{OT1}{cmr}{m}{n}
+{\titlefont\centerline{Raw Font Tables}\par}
+\vskip10pt
+{\setfontsize{14pt}\usefont{OT1}{cmr}{m}{n}%
+ \centerline{Scott Pakin, \textit{scott+clsl@pakin.org}}\par}
+\vskip10pt
+\centerline{%
+  \number\day \
+  \ifcase\month
+     \or January\or February\or March%
+     \or April\or May\or June%
+     \or July\or August\or September%
+     \or October\or November\or December%
+  \fi
+  \ \number\year
+}
+\vskip1cm
+%
+This document presents, in alphabetical order, font tables for all of
+the fonts that appear in the \CLSL.  It was mechanically produced
+using a script that extracts the list of fonts used by the \CLSL\ and
+feeds this list into Knuth's \texttt{testfont.tex}, which is included
+in all \TeX\ distributions and can typeset font tables.  The purpose
+of this document is to provide a companion mechanism for locating
+symbols by organizing the myriad symbols available to \TeX\ and
+\LaTeX\ by font family rather than by \LaTeX\ symbol name.  It may
+also reveal some unnamed symbols---or symbols overlooked by the \CLSL.
+
+On the other hand, not every symbol shown in the \CLSL\ appears in
+this document.  Some symbols are defined by juxtaposing multiple other
+symbols; some symbols are defined in terms of graphics primitives
+instead of fonts.  The tables shown in this document are only those
+that correspond to ``true'' fonts---glyphs drawn in \MF, PostScript,
+or other such font formats and that have an associated \TeX\ font
+metric (\texttt{.tfm}) file.
+
+In each table, characters are numbered in both base~8 (octal) and
+base~16 (hexadecimal).  A character's octal position is formed by
+taking the first two octal digits from a table's left column and the
+third octal digit from the top row.  A character's hexadecimal
+position is formed by taking the first hexadecimal digit from a
+table's right column and the second hexadecimal digit from either the
+top or the bottom row, based on whether the character lies in the
+upper or lower row associated with the first hexadecimal digit.  To
+clarify this description with an example, the ``\symchar{"34}'' symbol
+in the \texttt{cmsy10} table can be produced by either
+\texttt{\string\char'064} (octal) or \texttt{\string\char"34}
+(hexadecimal).  The ``\symchar{"3C}'' symbol that lies directly
+beneath that in the table can be produced by either
+\texttt{\string\char'074} (octal) or \texttt{\string\char"3C}
+(hexadecimal).  The decimal equivalents of these are
+\texttt{\string\char52} and \texttt{\string\char60}, and their
+character equivalents are ``\texttt{4}'' and ``\texttt{<}'',
+respectively.
+
+\font\txexa=txexa at 10pt
+\def\sqiiint{%
+  \setbox0=\hbox{\txexa\char"52}%
+  \raise 10pt\box0\relax
+}
+\def\cs#1{\hbox{\texttt{\expandafter\string\csname#1\endcsname}}}
+
+To put this means of character usage in context, suppose we want to
+typeset \cs{sqiiint} (``\sqiiint\kern3pt'') from the \textsf{txfonts}
+package.  \textsf{txfonts} is a large package that redefines all text
+and math fonts, which may not be desirable just to typeset a single
+symbol.  The following is how we employ a single \textsf{txfonts}
+symbol without having to load the entire package.
+
+We observe that the symbol in question is character 52 hexadecimal (or
+122 octal) in the \texttt{txexa} table in this document.  The first
+step is to associate \texttt{txexa} with a \TeX\ control sequence;
+here we call it \cs{myfont}:
+
+\vskip 10pt
+\texttt{\string\font\string\myfont=txexa at 10pt}
+\vskip 10pt
+
+(If our document were typeset in a font size other than 10~pt., we
+would specify that size in the above.)  We then define a macro, here
+\cs{mysqiiint}, that sets the font and typesets a single character:
+
+\vskip 10pt
+\texttt{\string\newcommand*%
+\string{\string\mysqiiint\string}\string{%
+\string{\string\myfont\string\char"52\string}\string}}
+\vskip 10pt
+
+The extra pair of curly braces in the above limit the font change to
+the single character we want to typeset.  We can now use
+\cs{mysqiiint} without having to load the \textsf{txfonts} package.
+
+Alas, in this case the symbol winds up being typeset below the
+baseline.  This is an artifact of typesetting a mathematical symbol
+outside of math mode.  The solution is to explicitly raise the symbol
+to the desired height:
+
+\vskip 10pt
+\texttt{\string\newcommand*%
+\string{\string\mysqiiint\string}\string{%
+\string\raisebox\string{10pt\string}%
+\string{\string\myfont\string\char"52\string}\string}}
+\vskip 10pt
+
+Note that the \textsf{amstext} package's \cs{text} command is a useful
+mechanism for typesetting text characters in math mode.
+
+Fonts named ``\texttt{fake}\dots'' that appear in this document are
+generated from the corresponding non-\texttt{fake} font as a means of
+introducing pdf\LaTeX\ compatibility to fonts that otherwise lack it.  The
+character positions of a \texttt{fake}\dots\ font are meaningless and
+should be ignored.
+
+\vfill\eject
+
+% Use Knuth's testfont.tex to typeset a bunch of tables.
+\let\noinit=!
+\input testfont
+TESTFONT
+;#`
+foreach my $tfm (@tfmlist) {
+    print "*** PRODUCING A TABLE FOR $tfm ***\n";
+    my $mapline = substr($tfm, 0, 4) eq "fake" ? find_map_line($tfm) : "";
+    if ($mapline ne "") {
+        print PDFTEX $mapline, "\n";
+    }
+    printf PDFTEX "\\fonttable{%d}{%s}\n", $lettertally{uc(substr $tfm, 0, 1)}, $tfm;
+}
+print PDFTEX "\\bye\n";
+close PDFTEX || die;
+print "*** SUCCESSFULLY CREATED rawtables-$paper.tex ***\n";

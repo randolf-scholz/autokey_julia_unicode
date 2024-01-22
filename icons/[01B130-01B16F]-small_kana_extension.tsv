@@ -1,0 +1,10 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1B132	"""𛄲"""	1B130..1B16F	Small Kana Extension	Hiragana letter small ko		
+1B150	"""𛅐"""	1B130..1B16F	Small Kana Extension	Hiragana letter small wi		
+1B151	"""𛅑"""	1B130..1B16F	Small Kana Extension	Hiragana letter small we		
+1B152	"""𛅒"""	1B130..1B16F	Small Kana Extension	Hiragana letter small wo		
+1B155	"""𛅕"""	1B130..1B16F	Small Kana Extension	Katakana letter small ko		
+1B164	"""𛅤"""	1B130..1B16F	Small Kana Extension	Katakana letter small wi		
+1B165	"""𛅥"""	1B130..1B16F	Small Kana Extension	Katakana letter small we		
+1B166	"""𛅦"""	1B130..1B16F	Small Kana Extension	Katakana letter small wo		
+1B167	"""𛅧"""	1B130..1B16F	Small Kana Extension	Katakana letter small n		

@@ -1,0 +1,685 @@
+##############################################
+# Categorize turnstiles.                     #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# Regular turnstiles
+# ------------------
+
+# ... single bar, single dash ...
+
+[[rewrite]]
+matches = [
+    "assert",
+    "assertion",
+    "vdash",
+    "rightassert",
+    "rightvdash",
+    "shortrighttack"
+]
+item = ["turnstile", "right"]
+
+[[rewrite]]
+matches = [
+    "dashv",
+    "leftassert",
+    "leftvdash",
+    "shortlefttack"
+]
+item = ["turnstile", "left"]
+
+[[rewrite]]
+matches = [
+    "upvdash",
+    "upassert",
+    "shortuptack",
+    "perp",
+    "bot",
+    "bigbot",
+    "lattice bottom"
+]
+not_render_contains = ["Perp", '\CMLLBot']
+item = ["turnstile", "up"]
+
+[[rewrite]]
+matches = [
+    "downvdash",
+    "downassert",
+    "shortdowntack",
+    "top",
+    "bigtop",
+    "lattice top"
+]
+item = ["turnstile", "down"]
+
+[[rewrite]]
+matches = "nevdash"
+item = ["turnstile", "northeast"]
+
+[[rewrite]]
+matches = "nwvdash"
+item = ["turnstile", "northwest"]
+
+[[rewrite]]
+matches = "sevdash"
+item = ["turnstile", "southeast"]
+
+[[rewrite]]
+matches = "swvdash"
+item = ["turnstile", "southwest"]
+
+[[rewrite]]
+matches = "vBarv"
+item = ["turnstile", "up over down"]
+
+[[rewrite]]
+matches = "perps"
+item = ["turnstile", "up, with s"]
+
+# This rule should precede the generic "Perp" rule below.
+[[rewrite]]
+render_contains = [
+    '\SimPerp',
+    '\simperp',
+    '\simbot'
+]
+item = ["turnstile", "wavy bar, up"]
+
+# ... single bar, long single dash ...
+
+[[rewrite]]
+matches = [
+    "vlongdash",
+    "longleftfootline"
+]
+item = ["turnstile", "right, long"]
+
+[[rewrite]]
+matches = [
+    "longdashv",
+    "longrightfootline"
+]
+item = ["turnstile", "left, long"]
+
+[[rewrite]]
+matches = "wavy turnstile"
+item = ["turnstile", "wavy dash, right"]
+
+# ... short single bar, single dash ...
+
+[[rewrite]]
+matches = "leftfootline"
+item = ["turnstile", "short bar, right"]
+
+[[rewrite]]
+matches = "rightfootline"
+item = ["turnstile", "short bar, left"]
+
+[[rewrite]]
+matches = "upfootline"
+item = ["turnstile", "short bar, down"]
+
+[[rewrite]]
+matches = "topcir"
+item = ["turnstile", "short bar, down, ring below"]
+
+[[rewrite]]
+matches = "downfootline"
+item = ["turnstile", "short bar, up"]
+
+[[rewrite]]
+matches = "cirbot"
+item = ["turnstile", "short bar, up, ring above"]
+
+[[rewrite]]
+matches = "nefootline"
+item = ["turnstile", "short bar, southwest"]
+
+[[rewrite]]
+matches = "nwfootline"
+item = ["turnstile", "short bar, southeast"]
+
+[[rewrite]]
+matches = "sefootline"
+item = ["turnstile", "short bar, northwest"]
+
+[[rewrite]]
+matches = "swfootline"
+item = ["turnstile", "short bar, northeast"]
+
+# ... single bar, double dash ...
+
+[[rewrite]]
+matches = [
+    "model",
+    "models",
+    "rightmodels",
+    "rightvDash",
+    "vDash"
+]
+item = ["turnstile", "double dash, right"]
+
+[[rewrite]]
+matches = [
+    "leftmodels",
+    "Dashv",
+    "leftvDash",
+    "ismodeledby"
+]
+item = ["turnstile", "double dash, left"]
+
+[[rewrite]]
+render_contains = '(\BSKdashV)'
+item = ["turnstile", "double dash, left"]
+
+[[rewrite]]
+matches = [
+    "downmodels",
+    "downvDash",
+    "barV"
+]
+item = ["turnstile", "double dash, down"]
+
+[[rewrite]]
+matches = [
+    "upmodels",
+    "upvDash",
+    "Vbar",
+    "independent"
+]
+item = ["turnstile", "double dash, up"]
+
+[[rewrite]]
+render_contains = ["Perp", '\CMLLBot']
+item = ["turnstile", "double dash, up"]
+
+[[rewrite]]
+matches = "nemodels"
+item = ["turnstile", "double dash, northeast"]
+
+[[rewrite]]
+matches = "nwmodels"
+item = ["turnstile", "double dash, northwest"]
+
+[[rewrite]]
+matches = "semodels"
+item = ["turnstile", "double dash, southeast"]
+
+[[rewrite]]
+matches = "swmodels"
+item = ["turnstile", "double dash, southwest"]
+
+[[rewrite]]
+matches = "double wavy turnstile"
+item = ["turnstile", "wavy double dash, right"]
+
+# ... double bar, single dash ...
+
+[[rewrite]]
+matches = [
+    "Assert",
+    "turnstile",
+    "rightVdash",
+    "Vdash",
+    "varVdash",
+    "rightAssert"
+]
+item = ["turnstile", "double bar, right"]
+
+[[rewrite]]
+matches = [
+    "leftVdash",
+    "dashV"
+]
+render_not_contains = '(\BSKdashV)'
+item = ["turnstile", "double bar, left"]
+
+[[rewrite]]
+render_contains = '(\BSKdashVv)'
+item = ["turnstile", "double bar, left"]
+
+[[rewrite]]
+matches = "leftAssert"
+item = ["turnstile", "double bar, left"]
+
+[[rewrite]]
+matches = [
+    "upVdash",
+    "vBar",
+    "upAssert"
+]
+item = ["turnstile", "double bar, up"]
+
+[[rewrite]]
+matches = [
+    "downVdash",
+    "Barv",
+    "downAssert",
+    "postalmark"
+]
+item = ["turnstile", "double bar, down"]
+
+[[rewrite]]
+matches = "neVdash"
+item = ["turnstile", "double bar, northeast"]
+
+[[rewrite]]
+matches = "nwVdash"
+item = ["turnstile", "double bar, northwest"]
+
+[[rewrite]]
+matches = "seVdash"
+item = ["turnstile", "double bar, southeast"]
+
+[[rewrite]]
+matches = "swVdash"
+item = ["turnstile", "double bar, southwest"]
+
+[[rewrite]]
+matches = "dashVdash"
+item = ["turnstile", "double bar, left and right"]
+
+[[rewrite]]
+matches = "wavy double bar turnstile"
+item = ["turnstile", "double bar, wavy dash, right"]
+
+# ... double bar, double dash ...
+
+[[rewrite]]
+matches = [
+    "rightModels",
+    "VDash",
+    "rightVDash"
+]
+item = ["turnstile", "double bar, double dash, right"]
+
+[[rewrite]]
+matches = [
+    "leftModels",
+    "leftVDash",
+    "DashV"
+]
+item = ["turnstile", "double bar, double dash, left"]
+
+[[rewrite]]
+matches = [
+    "downModels",
+    "downVDash"
+]
+item = ["turnstile", "double bar, double dash, down"]
+
+[[rewrite]]
+matches = [
+     "upModels",
+     "upVDash"
+]
+item = ["turnstile", "double bar, double dash, up"]
+
+[[rewrite]]
+matches = "neModels"
+item = ["turnstile", "double bar, double dash, northeast"]
+
+[[rewrite]]
+matches = "nwModels"
+item = ["turnstile", "double bar, double dash, northwest"]
+
+[[rewrite]]
+matches = "seModels"
+item = ["turnstile", "double bar, double dash, southeast"]
+
+[[rewrite]]
+matches = "swModels"
+item = ["turnstile", "double bar, double dash, southwest"]
+
+[[rewrite]]
+matches = "DashVDash"
+item = ["turnstile", "double bar, double dash, left and right"]
+
+[[rewrite]]
+matches = "double wavy double bar turnstile"
+item = ["turnstile", "double bar, wavy double dash, right"]
+
+# ... triple bar, single dash ...
+
+[[rewrite]]
+matches = "Vvdash"
+item = ["turnstile", "triple bar, right"]
+
+[[rewrite]]
+matches = "dashVv"
+item = ["turnstile", "triple bar, left"]
+
+# ... single bar, triple dash
+
+[[rewrite]]
+matches = [
+    "vDdash",
+    "triple turnstile"
+]
+item = ["turnstile", "triple dash, right"]
+
+[[rewrite]]
+matches = "Ddashv"
+item = ["turnstile", "triple dash, left"]
+
+# ... triple bar, double dash ...
+
+[[rewrite]]
+matches = "VvDash"
+item = ["turnstile", "triple bar, double dash, right"]
+
+# ... double bar, triple dash ...
+
+[[rewrite]]
+matches = "double bar triple turnstile"
+item = ["turnstile", "double bar, triple dash, right"]
+
+
+# Negated turnstiles
+# ------------------
+
+# ... single bar, single dash ...
+
+[[rewrite]]
+matches = [
+    "assertion denied",
+    "nassert",
+    "nrightassert",
+    "nvdash",
+    "nrightassert",
+    "nrightvdash",
+    "nshortrighttack"
+]
+item = ["turnstile", "right, negated"]
+
+[[rewrite]]
+matches = [
+    "ndashv",
+    "nleftassert",
+    "nleftvdash",
+    "nshortlefttack"
+]
+item = ["turnstile", "left, negated"]
+
+[[rewrite]]
+matches = [
+    "nupassert",
+    "nupvdash",
+    "nshortuptack",
+    "notperp",
+    "nperp",
+    "notbot"
+]
+item = ["turnstile", "up, negated"]
+
+[[rewrite]]
+matches = [
+    "ndownassert",
+    "ndownvdash",
+    "nshortdowntack",
+    "nottop"
+]
+item = ["turnstile", "down, negated"]
+
+[[rewrite]]
+matches = "nnevdash"
+item = ["turnstile", "northeast, negated"]
+
+[[rewrite]]
+matches = "nnwvdash"
+item = ["turnstile", "northwest, negated"]
+
+[[rewrite]]
+matches = "nsevdash"
+item = ["turnstile", "southeast, negated"]
+
+[[rewrite]]
+matches = "nswvdash"
+item = ["turnstile", "southwest, negated"]
+
+[[rewrite]]
+matches = "wavy turnstile denied"
+item = ["turnstile", "wavy dash, right, negated"]
+
+# ... single bar, long single dash ...
+
+[[rewrite]]
+matches = [
+    "nvlongdash",
+    "nlongleftfootline"
+]
+item = ["turnstile", "right, long, negated"]
+
+[[rewrite]]
+matches = [
+    "nlongdashv",
+    "nlongrightfootline"
+]
+item = ["turnstile", "left, long, negated"]
+
+# ... short single bar, single dash ...
+
+[[rewrite]]
+matches = "nleftfootline"
+item = ["turnstile", "short bar, right, negated"]
+
+[[rewrite]]
+matches = "nrightfootline"
+item = ["turnstile", "short bar, left, negated"]
+
+[[rewrite]]
+matches = "nupfootline"
+item = ["turnstile", "short bar, down, negated"]
+
+[[rewrite]]
+matches = "ndownfootline"
+item = ["turnstile", "short bar, up, negated"]
+
+[[rewrite]]
+matches = "nnefootline"
+item = ["turnstile", "short bar, southwest, negated"]
+
+[[rewrite]]
+matches = "nnwfootline"
+item = ["turnstile", "short bar, southeast, negated"]
+
+[[rewrite]]
+matches = "nsefootline"
+item = ["turnstile", "short bar, northwest, negated"]
+
+[[rewrite]]
+matches = "nswfootline"
+item = ["turnstile", "short bar, northeast, negated"]
+
+# ... single bar, double dash ...
+
+[[rewrite]]
+matches = [
+    "nmodels",
+    "nrightmodels",
+    "nrightvDash",
+    "nvDash",
+    "model denied"
+]
+item = ["turnstile", "double dash, right, negated"]
+
+[[rewrite]]
+matches = [
+    "nleftmodels",
+    "nDashv",
+    "nleftvDash"
+]
+item = ["turnstile", "double dash, left, negated"]
+
+[[rewrite]]
+matches = [
+    "ndownmodels",
+    "ndownvDash",
+    "nbarV"
+]
+item = ["turnstile", "double dash, down, negated"]
+
+[[rewrite]]
+matches = [
+    "nupmodels",
+    "nupvDash",
+    "nVbar"
+]
+item = ["turnstile", "double dash, up, negated"]
+
+[[rewrite]]
+matches = "nnemodels"
+item = ["turnstile", "double dash, northeast, negated"]
+
+[[rewrite]]
+matches = "nnwmodels"
+item = ["turnstile", "double dash, northwest, negated"]
+
+[[rewrite]]
+matches = "nsemodels"
+item = ["turnstile", "double dash, southeast, negated"]
+
+[[rewrite]]
+matches = "nswmodels"
+item = ["turnstile", "double dash, southwest, negated"]
+
+[[rewrite]]
+matches = "double wavy turnstile denied"
+item = ["turnstile", "wavy double dash, right, negated"]
+
+# ... double bar, single dash ...
+
+[[rewrite]]
+matches = [
+    "nAssert",
+    "nrightVdash",
+    "nVdash",
+    "nrightAssert",
+    "turnstile denied"
+]
+item = ["turnstile", "double bar, right, negated"]
+
+[[rewrite]]
+matches = [
+    "nleftAssert",
+    "ndashV",
+    "nleftVdash"
+]
+item = ["turnstile", "double bar, left, negated"]
+
+[[rewrite]]
+matches = [
+    "nupVdash",
+    "nvBar",
+    "nupAssert"
+]
+item = ["turnstile", "double bar, up, negated"]
+
+[[rewrite]]
+matches = [
+    "ndownVdash",
+    "nBarv",
+    "ndownAssert"
+]
+item = ["turnstile", "double bar, down, negated"]
+
+[[rewrite]]
+matches = "nneVdash"
+item = ["turnstile", "double bar, northeast, negated"]
+
+[[rewrite]]
+matches = "nnwVdash"
+item = ["turnstile", "double bar, northwest, negated"]
+
+[[rewrite]]
+matches = "nseVdash"
+item = ["turnstile", "double bar, southeast, negated"]
+
+[[rewrite]]
+matches = "nswVdash"
+item = ["turnstile", "double bar, southwest, negated"]
+
+[[rewrite]]
+matches = "wavy double bar turnstile denied"
+item = ["turnstile", "double bar, wavy dash, right, negated"]
+
+# ... double bar, double dash ...
+
+[[rewrite]]
+matches = [
+    "nrightModels",
+    "nVDash",
+    "nrightVDash"
+]
+item = ["turnstile", "double bar, double dash, right, negated"]
+
+[[rewrite]]
+matches = [
+    "nleftModels",
+    "nleftVDash",
+    "nDashV"
+]
+item = ["turnstile", "double bar, double dash, left, negated"]
+
+[[rewrite]]
+matches = [
+    "ndownModels",
+    "ndownVDash"
+]
+item = ["turnstile", "double bar, double dash, down, negated"]
+
+[[rewrite]]
+matches = [
+     "nupModels",
+     "nupVDash"
+]
+item = ["turnstile", "double bar, double dash, up, negated"]
+
+[[rewrite]]
+matches = "nneModels"
+item = ["turnstile", "double bar, double dash, northeast, negated"]
+
+[[rewrite]]
+matches = "nnwModels"
+item = ["turnstile", "double bar, double dash, northwest, negated"]
+
+[[rewrite]]
+matches = "nseModels"
+item = ["turnstile", "double bar, double dash, southeast, negated"]
+
+[[rewrite]]
+matches = "nswModels"
+item = ["turnstile", "double bar, double dash, southwest, negated"]
+
+[[rewrite]]
+matches = "double wavy double bar turnstile denied"
+item = ["turnstile", "double bar, wavy double dash, right, negated"]
+
+# ... triple bar, single dash ...
+
+[[rewrite]]
+matches = ["nVvdash", "nVvash"]
+item = ["turnstile", "triple bar, right, negated"]
+
+[[rewrite]]
+matches = "ndashVv"
+item = ["turnstile", "triple bar, left, negated"]
+
+# ... single bar, triple dash
+
+[[rewrite]]
+matches = [
+    "nvDdash",
+    "triple turnstile denied"
+]
+item = ["turnstile", "triple dash, right, negated"]
+
+[[rewrite]]
+matches = "nDdashv"
+item = ["turnstile", "triple dash, left, negated"]
+
+# ... double bar, triple dash ...
+
+[[rewrite]]
+matches = "double bar triple turnstile denied"
+item = ["turnstile", "double bar, triple dash, right, negated"]

@@ -1,0 +1,742 @@
+##############################################
+# Categorize letters.                        #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# --------------------------- Greek letters ----------------------------
+
+# This rule should appear early in this section.
+[[rewrite]]
+matches = "ddigamma"
+word = "digamma"
+continue = true
+
+# This rule should appear early in this section.
+[[rewrite]]
+regex = '^(.*)ohm(.*)$'
+word = '\1Omega\2'
+continue = true
+
+# This rule should appear early in this section.
+[[rewrite]]
+matches = "epsi"
+word = "epsilon"
+continue = true
+
+# Backward lowercase
+[[rewrite]]
+regex = '''
+^(?:up|text|ni|bb|baby)?(?:rev|back)\
+(alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|\
+nu|xi|omicron|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|\
+stigma|digamma|[ckq]oppa|sampi|heta)\
+(?:up)?$\
+'''
+item = ['\1', "lowercase backward"]
+
+# Variant lowercase
+[[rewrite]]
+regex = '''
+^(?:up|text|ni|bb|baby)?(?:var|varvar)\
+(alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|\
+nu|xi|omicron|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|\
+stigma|digamma|[ckq]oppa|sampi|heta)\
+(?:up)?$\
+'''
+item = ['\1', "lowercase variant"]
+
+[[rewrite]]
+matches = "Varsampi"
+item = ["sampi", "lowercase variant"]
+
+# ... Begin special cases ...
+
+[[rewrite]]
+matches = ["riota", "turnediota", "iota, upside-down"]
+item = ["iota", "lowercase, upside-down"]
+
+[[rewrite]]
+contains = "textinvomega"
+item = ["omega", "lowercase, upside-down"]
+
+[[rewrite]]
+matches = ["agemO", "mho", "textmho", "rotOmega"]
+item = ["omega", "uppercase, upside-down"]
+
+[[rewrite]]
+regex = 'closed?(?:ni)?(epsilon|omega)'
+item = ['\1', "lowercase closed"]
+
+[[rewrite]]
+matches = "first ordinal (omega)"
+item = ["omega", "lowercase"]
+
+[[rewrite]]
+regex = 'closed?revepsilon'
+item = ["epsilon", "lowercase reversed and closed"]
+
+[[rewrite]]
+contains = "hookepsilon"
+item = ["epsilon", "lowercase with hook"]
+
+[[rewrite]]
+contains = "hookrevepsilon"
+item = ["epsilon", "lowercase reversed with hook"]
+
+[[rewrite]]
+matches = "ipagamma"
+item = ["gamma", "lowercase IPA form"]
+
+[[rewrite]]
+contains = "tailgamma"
+item = ["gamma", "lowercase with tail"]
+
+[[rewrite]]
+matches = "textgrgamma"
+word = "gamma"
+continue = true
+
+[[rewrite]]
+matches = [
+    "barlambda",
+    "crossnilambda",
+    "lambdabar",
+    "lambdaslash",
+    "textcrlambda"
+]
+item = ["lambda", "lowercase with slash"]
+
+[[rewrite]]
+regex = '^text([Oo])mikron$'
+item = 'text\1micron'
+continue = true
+
+# Treat "increment" as uppercase delta.
+[[rewrite]]
+matches = "increment"
+item = ["delta", "uppercase"]
+
+# Index "micro" as an upright mu.
+[[rewrite]]
+matches = [
+    "micro",
+    "textmicro",
+    "textmugreek"
+]
+item = ["mu", "lowercase upright"]
+
+# ... End special cases ...
+
+# Uppercase
+[[rewrite]]
+regex = '''
+^(?:up|text|ni|bb|tc)?(?:baby)?\
+(Alpha|Beta|Gamma|Delta|Epsilon|Zeta|Eta|Theta|Iota|Kappa|Lambda|Mu|\
+Nu|Xi|Omicron|Pi|Rho|Sigma|Tau|Upsilon|Phi|Chi|Psi|Omega|\
+Stigma|Digamma|[CKQ]oppa|Sampi|Heta)\
+(?:up)?$\
+'''
+item = ['\1', "uppercase"]
+lowercase_item = true
+
+# More uppercase
+[[rewrite]]
+regex = '''
+^(?:Up|textsc)\
+(alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|\
+nu|xi|omicron|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|\
+stigma|digamma|[ckq]oppa|sampi|heta)$\
+'''
+item = ['\1', "uppercase"]
+
+# Lowercase
+[[rewrite]]
+regex = '''
+^(?:up|text|ni|bb|tc)?(?:baby)?\
+(alpha|beta|gamma|delta|epsilon|zeta|eta|theta|iota|kappa|lambda|mu|\
+nu|xi|omicron|pi|rho|sigma|tau|upsilon|phi|chi|psi|omega|\
+stigma|digamma|[ckq]oppa|sampi|heta)\
+(?:up)?$\
+'''
+item = ['\1', "lowercase"]
+
+# -------------------------- assorted letters --------------------------
+
+# ... schwa ...
+
+[[rewrite]]
+matches = "textrhookschwa"
+item = ["schwa", "hooked"]
+
+[[rewrite]]
+contains = "schwa"
+not_render_contains = '\PHONFCtextschwa'
+item = "schwa"
+
+# This rule should precede the "rotated latters" rule.
+[[rewrite]]
+matches = "inve"
+item = "schwa"
+
+# ... variant letters ...
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "vari"
+item = ["i", "dotless"]
+
+[[rewrite]]
+render_matches = '\add@accent{127}{i}'
+item = ["i", "incorrectly accented"]
+word = 'incorrectly accented (\\add@accent{127}{i})'
+
+[[rewrite]]
+regex = '^var([A-Za-z])$'
+item = '\1'
+
+[[rewrite]]
+regex = '^(?:text)?script([A-Za-z])$'
+item = '\1'
+
+# ... barred letters ...
+
+[[rewrite]]
+regex = '^bar(?:sc)?([a-z])$'
+not_render_contains = '\faBars'
+item = ["barred letters", '\1']
+
+[[rewrite]]
+regex = '^([a-z])bar?$'
+item = ["barred letters", '\1']
+
+[[rewrite]]
+regex = '^text(?:cr|bar)([a-z])$'
+item = ["barred letters", '\1']
+
+[[rewrite]]
+matches = "planck"
+item = ["barred letters", "h"]
+
+[[rewrite]]
+regex = '^cross([a-z])$'
+item = ["barred letters", '\1']
+
+[[rewrite]]
+matches = "Zbar"
+item = ["barred letters", "Z"]
+
+[[rewrite]]
+matches = "dj"
+item = ["barred letters", "d"]
+
+[[rewrite]]
+matches = "DJ"
+item = ["barred letters", "D"]
+
+[[rewrite]]
+matches = "dlbari"
+item = ["barred letters", "i, dotless"]
+
+[[rewrite]]
+matches = ["textbardotlessj", "textObardotlessj"]
+item = ["barred letters", "j, dotless"]
+
+[[rewrite]]
+matches = "textdoublebaresh"
+item = ["barred letters", "esh, double"]
+
+# ... horned letters ...
+
+[[rewrite]]
+regex = '^([A-Z])HORN$'
+item = ["horned letters", '\1']
+
+[[rewrite]]
+regex = '^([a-z])horn$'
+not_matches = "thorn"
+item = ["horned letters", '\1']
+
+# ... hooked letters ...
+
+[[rewrite]]
+regex = '^hook([A-Za-z])$'
+item = ["hooked letters", '\1']
+
+[[rewrite]]
+regex = '^text(?:ht|lht|[lr]hook|frhook)([A-Za-z])(?:var)?$'
+item = ["hooked letters", '\1']
+
+[[rewrite]]
+regex = '^textlhtlong([A-Za-z])$'
+item = ["hooked letters", '\1, long']
+
+[[rewrite]]
+regex = '^texthtsc([A-Za-z])$'
+item = ["hooked letters", '\1, small caps']
+
+[[rewrite]]
+prefix = "texthtbardotlessj"
+item = ["hooked letters", "j, dotless, barred"]
+
+[[rewrite]]
+matches = "textrhookopeno"
+item = ["hooked letters", "o, open"]
+
+[[rewrite]]
+matches = "voicedh"
+item = ["hooked letters", "h"]
+
+# Let's count this as a hooked letter.
+[[rewrite]]
+matches = "textfrbarn"
+item = ["hooked letters", "n"]
+
+# I don't know why this is considered a schwa.  It looks to me like a
+# hooked d.
+[[rewrite]]
+render_contains = '\PHONFCtextschwa'
+item = ["hooked letters", "d"]
+
+# ... tailed letters ...
+
+[[rewrite]]
+regex = '^(?:text[lr]|textcomma)?tail([a-z])$'
+item = ["tailed letters", '\1']
+
+[[rewrite]]
+regex = '^curly([a-z])$'
+item = ["tailed letters", '\1']
+
+[[rewrite]]
+regex = '^textct([a-z])(?:var)?$'
+item = ["tailed letters", '\1']
+
+[[rewrite]]
+matches = ["textctesh", "curlyesh"]
+item = ["tailed letters", "esh"]
+
+[[rewrite]]
+prefix = "textctstretchc"
+item = ["tailed letters", "c, stretched"]
+
+[[rewrite]]
+matches = "textctturnt"
+item = ["tailed letters", "t, inverted"]
+
+[[rewrite]]
+matches = "texthtrtaild"
+item = ["tailed letters", "d, with hook"]
+
+[[rewrite]]
+matches = "textrtailhth"
+item = ["tailed letters", "h, with hook"]
+
+[[rewrite]]
+matches = "roundz"
+item = ["z", "round"]
+
+# ... slashed letters ...
+
+[[rewrite]]
+regex = '^slash([a-z])$'
+item = ["slashed letters", '\1']
+
+[[rewrite]]
+render_contains = '(\O)'
+item = ["slashed letters", "O"]
+
+[[rewrite]]
+render_contains = '(\o)'
+item = ["slashed letters", "o"]
+
+# ... stroked letters ...
+
+[[rewrite]]
+matches = "hslash"
+item = ["stroked letters", "h"]
+
+[[rewrite]]
+render_contains = '+\L+'
+item = ["stroked letters", "L"]
+
+[[rewrite]]
+render_contains = '+\l+'
+item = ["stroked letters", "l"]
+
+# ... inverted letters ...
+
+[[rewrite]]
+matches = "textinvscripta"
+item = ["inverted letters", "a"]
+
+[[rewrite]]
+regex = '^(?:text)?invsc([A-Za-z])$'
+item = ["inverted letters", '\1, small caps']
+
+[[rewrite]]
+matches = "pwedge"
+item = ["inverted letters", "v"]
+
+# ... rotated letters ...
+
+[[rewrite]]
+regex = '^rot(?:var)?([a-z])$'
+item = ["rotated letters", '\1']
+
+[[rewrite]]
+regex = '^inv(?:script)?([A-Za-z])$'
+item = ["rotated letters", '\1']
+
+[[rewrite]]
+regex = '^textturn(?:var|script)?([a-z])$'
+item = ["rotated letters", '\1']
+
+[[rewrite]]
+regex = '^textturnsc([A-Za-z])$'
+item = ["rotated letters", '\1, small caps']
+
+[[rewrite]]
+matches = ["tailinvr", "textturnrrtail"]
+item = ["rotated letters", "r, with tail"]
+
+[[rewrite]]
+matches = "sansLturned"
+item = ["rotated letters", "L, sans serif"]
+
+[[rewrite]]
+matches = ["invlazys", "ac"]
+item = ["rotated letters", "s, inverted"]
+
+# ... reversed letters ...
+
+[[rewrite]]
+regex = '^(?:text)?rev([A-Za-z])$'
+item = ["reversed letters", '\1']
+
+[[rewrite]]
+regex = '^textrevsc([A-Za-z])$'
+item = ["reversed letters", '\1, small caps']
+
+[[rewrite]]
+matches = "sansLmirrored"
+item = ["reversed letters", "L, sans serif"]
+
+# ... long-legged letters ...
+
+[[rewrite]]
+regex = '^textlongleg([A-Za-z])$'
+item = ["long-legged letters", '\1']
+
+[[rewrite]]
+regex = '^text([A-Za-z])rleg$'
+item = ["long-legged letters", '\1']
+
+[[rewrite]]
+matches = "legr"
+item = ["long-legged letters", "r"]
+
+[[rewrite]]
+regex = '^textturnlongleg([A-Za-z])$'
+item = ["long-legged letters", '\1, rotated']
+
+[[rewrite]]
+regex = '^textturn([A-Za-z])rleg$'
+item = ["long-legged letters", '\1, rotated']
+
+[[rewrite]]
+matches = "legm"
+item = ["long-legged letters", "m, rotated"]
+
+[[rewrite]]
+matches = "invlegr"
+item = ["long-legged letters", "r, rotated"]
+
+# ... small-caps letters ...
+
+[[rewrite]]
+regex = '^(?:text)?sc([a-z])$'
+item = ["small caps letters", '\1']
+not_render_contains = '\textsf'
+
+# ... blackboard bold letters ...
+
+[[rewrite]]
+compare_lowercase = true
+matches = "complex"
+item = ["blackboard bold letters", "C"]
+
+[[rewrite]]
+matches = ["Natural", "NATURAL"]
+item = ["blackboard bold letters", "N"]
+
+[[rewrite]]
+matches = "Bbbk"
+item = ["blackboard bold letters", "k"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "rational"
+item = ["blackboard bold letters", "Q"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "real"
+item = ["blackboard bold letters", "R"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "integer"
+item = ["blackboard bold letters", "Z"]
+
+[[rewrite]]
+regex = '^sym([AOU])E$'
+item = ["blackboard bold letters", '\1, umlaut']
+
+[[rewrite]]
+matches = "symC"
+item = ["blackboard bold letters", "C"]
+
+# ... Hebrew letters ...
+
+[[rewrite]]
+matches = [
+    "aleph",
+    "beth",
+    "gimel",
+    "daleth"
+]
+item = '\1'
+
+# ... boko (Hausa) letters ...
+
+[[rewrite]]
+regex = '^hausa([A-Za-z])$'
+item = ["boko letters", '\1']
+
+# ... yogh ...
+
+[[rewrite]]
+matches = ["yogh", "textyogh"]
+item = "yogh"
+
+[[rewrite]]
+matches = "textbenttailyogh"
+item = ["yogh", "with bent tail"]
+
+[[rewrite]]
+matches = ["curlyyogh", "textctyogh"]
+item = ["yogh", "with curly tail"]
+
+[[rewrite]]
+matches = "textrevyogh"
+item = ["yogh", "reversed"]
+
+# ... thorn ...
+
+[[rewrite]]
+prefix = ["thorn", "textthorn"]
+item = ["thorn", "lowercase"]
+
+[[rewrite]]
+matches = "th"
+item = ["thorn", "lowercase"]
+
+[[rewrite]]
+matches = ["Thorn", "TH"]
+item = ["thorn", "uppercase"]
+
+# ... ligatures ...
+
+[[rewrite]]
+matches = "textheng"
+item = ["ligatures", "h-engma"]
+
+[[rewrite]]
+matches = ["tesh", "textteshlig"]
+item = ["ligatures", "t-esh"]
+
+[[rewrite]]
+regex = '^textO?([A-Za-z])yoghlig$'
+item = ["ligatures", '\1-yogh']
+
+[[rewrite]]
+matches = "texththeng"
+item = ["ligatures", "h-engma, hooked"]
+
+[[rewrite]]
+matches = "lz"
+item = ["ligatures", "l-z"]
+
+[[rewrite]]
+matches = "ae"
+item = ["ligatures", "a-e"]
+
+[[rewrite]]
+matches = "AE"
+item = ["ligatures", "A-E"]
+
+[[rewrite]]
+matches = "oe"
+item = ["ligatures", "o-e"]
+
+[[rewrite]]
+matches = "OE"
+item = ["ligatures", "O-E"]
+
+[[rewrite]]
+matches = "oo"
+item = ["ligatures", "o-o"]
+
+[[rewrite]]
+matches = "dz"
+item = ["ligatures", "d-z"]
+
+[[rewrite]]
+matches = "fj"
+item = ["ligatures", "f-j"]
+
+[[rewrite]]
+matches = "ij"
+item = ["ligatures", "i-j"]
+
+[[rewrite]]
+matches = "IJ"
+item = ["ligatures", "I-J"]
+
+[[rewrite]]
+matches = "hv"
+item = ["ligatures", "h-v"]
+
+# Is this supposed to be an l-r ligature?
+[[rewrite]]
+matches = "textlfishhookrlig"
+item = ["ligatures", "l-r"]
+
+[[rewrite]]
+matches = "textturncelig"
+item = ["ligatures", "c-e, with c rotated"]
+
+[[rewrite]]
+matches = ["textdctzlig", "textctdctzlig"]
+item = ["ligatures", "d-z, with tail"]
+
+[[rewrite]]
+matches = "texttctclig"
+item = ["ligatures", "t-c, with tail"]
+
+[[rewrite]]
+matches = "textcttctclig"
+item = ["ligatures", "t-c, both tailed"]
+
+[[rewrite]]
+matches = "hookheng"
+item = ["ligatures", "h-engma, hooked"]
+
+[[rewrite]]
+regex = '^textsc([A-Za-z])([A-Za-z])lig$'
+item = ["ligatures", '\1-\2, small caps']
+
+[[rewrite]]
+regex = '^text([A-Za-z])([A-Za-z])lig$'
+item = ["ligatures", '\1-\2']
+
+# ... Swedish Viby i and y ...
+
+[[rewrite]]
+regex = '^text(?:raise)?viby([iy])$'
+item = ['\1', "Lidingo/Viby"]
+word = 'Liding{\\"o}/Viby'
+
+# ... other letters ...
+
+[[rewrite]]
+matches = ["eng", "engma", "ng"]
+item = ["engma", "lowercase"]
+
+[[rewrite]]
+render_contains = '{\NG}'
+item = ["engma", "uppercase"]
+
+[[rewrite]]
+matches = "nj"
+item = "enya"
+
+[[rewrite]]
+matches = "labdentalnas"
+item = "emgma"
+
+[[rewrite]]
+matches = "ell"
+item = "l"
+
+[[rewrite]]
+matches = ["longs", "long s"]
+item = ["s", "long"]
+
+[[rewrite]]
+matches = ["eth", "dh"]
+item = ["eth", "lowercase"]
+
+[[rewrite]]
+matches = "DH"
+item = ["eth", "uppercase"]
+
+[[rewrite]]
+matches = "ss"
+item = ["sharp s", "lowercase"]
+
+[[rewrite]]
+matches = "SS"
+item = ["sharp s", "uppercase"]
+
+[[rewrite]]
+matches = "textg"
+item = "g"
+
+[[rewrite]]
+matches = "lito"
+item = "o"
+
+[[rewrite]]
+regex = '^text(hard|soft)sign$'
+item = '\1 sign'
+
+[[rewrite]]
+matches = "textwynn"
+item = "wynn"
+
+[[rewrite]]
+matches = "textesh"
+item = "esh"
+
+[[rewrite]]
+prefix = "textstretchc"
+item = ["c", "stretched"]
+
+[[rewrite]]
+matches = ["openo", "textopeno", "varopeno"]
+item = ["o", "open"]
+
+[[rewrite]]
+matches = "udesc"
+item = ["u", "descending"]
+
+[[rewrite]]
+matches = ["textbeltl", "latfric"]
+item = ["l", "with belt"]
+
+[[rewrite]]
+matches = ["textltilde", "tildel"]
+item = ["l", "with tilde"]
+
+[[rewrite]]
+matches = "textfishhookr"
+item = ["r", "fishhook"]
+
+[[rewrite]]
+matches = "textlooptoprevesh"
+item = ["esh", "reversed with loop"]
+
+[[rewrite]]
+matches = "vod"
+item = ["v", "ring under"]

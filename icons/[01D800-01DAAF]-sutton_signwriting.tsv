@@ -1,0 +1,673 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1D800	"""𝠀"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index		
+1D801	"""𝠁"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index		
+1D802	"""𝠂"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup index		
+1D803	"""𝠃"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval index		
+1D804	"""𝠄"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index		
+1D805	"""𝠅"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index		
+1D806	"""𝠆"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index bent		
+1D807	"""𝠇"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index bent		
+1D808	"""𝠈"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb under index bent		
+1D809	"""𝠉"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index raised knuckle		
+1D80A	"""𝠊"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index cupped		
+1D80B	"""𝠋"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index hinged		
+1D80C	"""𝠌"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index hinged low		
+1D80D	"""𝠍"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index hinge		
+1D80E	"""𝠎"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle		
+1D80F	"""𝠏"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle		
+1D810	"""𝠐"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle bent		
+1D811	"""𝠑"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle raised knuckles		
+1D812	"""𝠒"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle hinged		
+1D813	"""𝠓"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index up middle hinged		
+1D814	"""𝠔"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index hinged middle up		
+1D815	"""𝠕"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined		
+1D816	"""𝠖"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined index bent		
+1D817	"""𝠗"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined middle bent		
+1D818	"""𝠘"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined cupped		
+1D819	"""𝠙"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined hinged		
+1D81A	"""𝠚"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle crossed		
+1D81B	"""𝠛"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle crossed		
+1D81C	"""𝠜"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle bent over index		
+1D81D	"""𝠝"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index bent over middle		
+1D81E	"""𝠞"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb		
+1D81F	"""𝠟"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle thumb		
+1D820	"""𝠠"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle straight thumb bent		
+1D821	"""𝠡"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle bent thumb straight		
+1D822	"""𝠢"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb bent		
+1D823	"""𝠣"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle hinged spread thumb side		
+1D824	"""𝠤"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index up middle hinged thumb side		
+1D825	"""𝠥"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index up middle hinged thumb conjoined		
+1D826	"""𝠦"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index hinged middle up thumb side		
+1D827	"""𝠧"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle up spread thumb forward		
+1D828	"""𝠨"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb cupped		
+1D829	"""𝠩"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb circled		
+1D82A	"""𝠪"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb hooked		
+1D82B	"""𝠫"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb hinged		
+1D82C	"""𝠬"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb between index middle straight		
+1D82D	"""𝠭"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined thumb side		
+1D82E	"""𝠮"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined thumb side conjoined		
+1D82F	"""𝠯"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined thumb side bent		
+1D830	"""𝠰"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb hooked index up		
+1D831	"""𝠱"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb hooked middle up		
+1D832	"""𝠲"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined hinged thumb side		
+1D833	"""𝠳"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle crossed thumb side		
+1D834	"""𝠴"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined thumb forward		
+1D835	"""𝠵"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle conjoined cupped thumb forward		
+1D836	"""𝠶"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb cupped index up		
+1D837	"""𝠷"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb cupped middle up		
+1D838	"""𝠸"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb circled index up		
+1D839	"""𝠹"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb circled index hinged		
+1D83A	"""𝠺"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb angled out middle up		
+1D83B	"""𝠻"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb angled in middle up		
+1D83C	"""𝠼"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb circled middle up		
+1D83D	"""𝠽"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb conjoined hinged		
+1D83E	"""𝠾"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb angled out		
+1D83F	"""𝠿"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle thumb angled		
+1D840	"""𝡀"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb angled out index up		
+1D841	"""𝡁"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb angled out index crossed		
+1D842	"""𝡂"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb angled index up		
+1D843	"""𝡃"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb hooked middle hinged		
+1D844	"""𝡄"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat four fingers		
+1D845	"""𝡅"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat four fingers bent		
+1D846	"""𝡆"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat four fingers hinged		
+1D847	"""𝡇"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat four fingers conjoined		
+1D848	"""𝡈"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat four fingers conjoined split		
+1D849	"""𝡉"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw four fingers conjoined		
+1D84A	"""𝡊"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist four fingers conjoined bent		
+1D84B	"""𝡋"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge four fingers conjoined		
+1D84C	"""𝡌"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread		
+1D84D	"""𝡍"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat heel five fingers spread		
+1D84E	"""𝡎"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread four bent		
+1D84F	"""𝡏"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat heel five fingers spread four bent		
+1D850	"""𝡐"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread bent		
+1D851	"""𝡑"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat heel five fingers spread bent		
+1D852	"""𝡒"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread thumb forward		
+1D853	"""𝡓"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup five fingers spread		
+1D854	"""𝡔"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup five fingers spread open		
+1D855	"""𝡕"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge five fingers spread open		
+1D856	"""𝡖"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval five fingers spread		
+1D857	"""𝡗"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread hinged		
+1D858	"""𝡘"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread hinged thumb side		
+1D859	"""𝡙"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat five fingers spread hinged no thumb		
+1D85A	"""𝡚"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat		
+1D85B	"""𝡛"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat between palm facings		
+1D85C	"""𝡜"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat heel		
+1D85D	"""𝡝"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat thumb side		
+1D85E	"""𝡞"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat heel thumb side		
+1D85F	"""𝡟"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat thumb bent		
+1D860	"""𝡠"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat thumb forward		
+1D861	"""𝡡"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat split index thumb side		
+1D862	"""𝡢"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat split centre		
+1D863	"""𝡣"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat split centre thumb side		
+1D864	"""𝡤"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat split centre thumb side bent		
+1D865	"""𝡥"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-flat split little		
+1D866	"""𝡦"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw		
+1D867	"""𝡧"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw thumb side		
+1D868	"""𝡨"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw no thumb		
+1D869	"""𝡩"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw thumb forward		
+1D86A	"""𝡪"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook curlicue		
+1D86B	"""𝡫"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook		
+1D86C	"""𝡬"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup open		
+1D86D	"""𝡭"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup		
+1D86E	"""𝡮"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup open thumb side		
+1D86F	"""𝡯"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup thumb side		
+1D870	"""𝡰"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup open no thumb		
+1D871	"""𝡱"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup no thumb		
+1D872	"""𝡲"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup open thumb forward		
+1D873	"""𝡳"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup thumb forward		
+1D874	"""𝡴"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-curlicue open		
+1D875	"""𝡵"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-curlicue		
+1D876	"""𝡶"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle		
+1D877	"""𝡷"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval		
+1D878	"""𝡸"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval thumb side		
+1D879	"""𝡹"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval no thumb		
+1D87A	"""𝡺"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval thumb forward		
+1D87B	"""𝡻"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge open		
+1D87C	"""𝡼"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge open thumb forward		
+1D87D	"""𝡽"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge		
+1D87E	"""𝡾"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge small		
+1D87F	"""𝡿"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge open thumb side		
+1D880	"""𝢀"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge thumb side		
+1D881	"""𝢁"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge open no thumb		
+1D882	"""𝢂"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge no thumb		
+1D883	"""𝢃"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge thumb side touching index		
+1D884	"""𝢄"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge thumb between middle ring		
+1D885	"""𝢅"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle		
+1D886	"""𝢆"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle ring		
+1D887	"""𝢇"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle ring		
+1D888	"""𝢈"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index middle ring		
+1D889	"""𝢉"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index middle ring		
+1D88A	"""𝢊"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge little		
+1D88B	"""𝢋"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle ring bent		
+1D88C	"""𝢌"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle ring conjoined		
+1D88D	"""𝢍"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index middle ring conjoined		
+1D88E	"""𝢎"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little down		
+1D88F	"""𝢏"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little down ripple straight		
+1D890	"""𝢐"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little down ripple curved		
+1D891	"""𝢑"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little down others circled		
+1D892	"""𝢒"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little up		
+1D893	"""𝢓"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb under little up		
+1D894	"""𝢔"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle little up		
+1D895	"""𝢕"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval little up		
+1D896	"""𝢖"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle little up		
+1D897	"""𝢗"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little raised knuckle		
+1D898	"""𝢘"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little bent		
+1D899	"""𝢙"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little touches thumb		
+1D89A	"""𝢚"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little thumb		
+1D89B	"""𝢛"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge little thumb		
+1D89C	"""𝢜"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little index thumb		
+1D89D	"""𝢝"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge little index thumb		
+1D89E	"""𝢞"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle little index thumb index thumb out		
+1D89F	"""𝢟"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle little index thumb index thumb		
+1D8A0	"""𝢠"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist little index		
+1D8A1	"""𝢡"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle little index		
+1D8A2	"""𝢢"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge little index		
+1D8A3	"""𝢣"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle little index		
+1D8A4	"""𝢤"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle little		
+1D8A5	"""𝢥"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle little		
+1D8A6	"""𝢦"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index middle little		
+1D8A7	"""𝢧"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge ring		
+1D8A8	"""𝢨"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index middle little		
+1D8A9	"""𝢩"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index middle cross little		
+1D8AA	"""𝢪"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index middle cross little		
+1D8AB	"""𝢫"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring down		
+1D8AC	"""𝢬"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge ring down index thumb hook middle		
+1D8AD	"""𝢭"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle ring down middle thumb index cross		
+1D8AE	"""𝢮"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring up		
+1D8AF	"""𝢯"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring raised knuckle		
+1D8B0	"""𝢰"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring little		
+1D8B1	"""𝢱"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle ring little		
+1D8B2	"""𝢲"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-oval ring little		
+1D8B3	"""𝢳"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle ring little		
+1D8B4	"""𝢴"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring middle		
+1D8B5	"""𝢵"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring middle conjoined		
+1D8B6	"""𝢶"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring middle raised knuckles		
+1D8B7	"""𝢷"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring index		
+1D8B8	"""𝢸"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist ring thumb		
+1D8B9	"""𝢹"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook ring thumb		
+1D8BA	"""𝢺"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index ring little		
+1D8BB	"""𝢻"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle index ring little		
+1D8BC	"""𝢼"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-curlicue index ring little on		
+1D8BD	"""𝢽"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook index ring little out		
+1D8BE	"""𝢾"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook index ring little in		
+1D8BF	"""𝢿"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook index ring little under		
+1D8C0	"""𝣀"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup index ring little		
+1D8C1	"""𝣁"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index ring little		
+1D8C2	"""𝣂"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index ring little out		
+1D8C3	"""𝣃"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index ring little		
+1D8C4	"""𝣄"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle down		
+1D8C5	"""𝣅"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge middle		
+1D8C6	"""𝣆"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle up		
+1D8C7	"""𝣇"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle middle up		
+1D8C8	"""𝣈"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle raised knuckle		
+1D8C9	"""𝣉"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle up thumb side		
+1D8CA	"""𝣊"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook middle thumb		
+1D8CB	"""𝣋"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle thumb little		
+1D8CC	"""𝣌"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle little		
+1D8CD	"""𝣍"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist middle ring little		
+1D8CE	"""𝣎"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle middle ring little		
+1D8CF	"""𝣏"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-curlicue middle ring little on		
+1D8D0	"""𝣐"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup middle ring little		
+1D8D1	"""𝣑"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge middle ring little		
+1D8D2	"""𝣒"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle middle ring little out		
+1D8D3	"""𝣓"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle middle ring little in		
+1D8D4	"""𝣔"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle middle ring little		
+1D8D5	"""𝣕"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-circle middle ring little bent		
+1D8D6	"""𝣖"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw middle ring little conjoined		
+1D8D7	"""𝣗"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw middle ring little conjoined side		
+1D8D8	"""𝣘"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook middle ring little conjoined out		
+1D8D9	"""𝣙"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook middle ring little conjoined in		
+1D8DA	"""𝣚"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hook middle ring little conjoined		
+1D8DB	"""𝣛"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index hinged		
+1D8DC	"""𝣜"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side		
+1D8DD	"""𝣝"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index thumb side		
+1D8DE	"""𝣞"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side thumb diagonal		
+1D8DF	"""𝣟"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side thumb conjoined		
+1D8E0	"""𝣠"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side thumb bent		
+1D8E1	"""𝣡"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side index bent		
+1D8E2	"""𝣢"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side both bent		
+1D8E3	"""𝣣"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb side index hinge		
+1D8E4	"""𝣤"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb forward index straight		
+1D8E5	"""𝣥"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb forward index bent		
+1D8E6	"""𝣦"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb hook		
+1D8E7	"""𝣧"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb curlicue		
+1D8E8	"""𝣨"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb curve thumb inside		
+1D8E9	"""𝣩"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-claw index thumb curve thumb inside		
+1D8EA	"""𝣪"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb curve thumb under		
+1D8EB	"""𝣫"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist index thumb circle		
+1D8EC	"""𝣬"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup index thumb		
+1D8ED	"""𝣭"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-cup index thumb open		
+1D8EE	"""𝣮"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index thumb open		
+1D8EF	"""𝣯"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index thumb large		
+1D8F0	"""𝣰"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index thumb		
+1D8F1	"""𝣱"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-hinge index thumb small		
+1D8F2	"""𝣲"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index thumb out		
+1D8F3	"""𝣳"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index thumb in		
+1D8F4	"""𝣴"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-angle index thumb		
+1D8F5	"""𝣵"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb		
+1D8F6	"""𝣶"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb heel		
+1D8F7	"""𝣷"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb side diagonal		
+1D8F8	"""𝣸"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb side conjoined		
+1D8F9	"""𝣹"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb side bent		
+1D8FA	"""𝣺"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb forward		
+1D8FB	"""𝣻"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb between index middle		
+1D8FC	"""𝣼"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb between middle ring		
+1D8FD	"""𝣽"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb between ring little		
+1D8FE	"""𝣾"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb under two fingers		
+1D8FF	"""𝣿"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb over two fingers		
+1D900	"""𝤀"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb under three fingers		
+1D901	"""𝤁"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb under four fingers		
+1D902	"""𝤂"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist thumb over four raised knuckles		
+1D903	"""𝤃"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist		
+1D904	"""𝤄"""	1D800..1DAAF	Sutton SignWriting	Signwriting hand-fist heel		
+1D905	"""𝤅"""	1D800..1DAAF	Sutton SignWriting	Signwriting touch single		
+1D906	"""𝤆"""	1D800..1DAAF	Sutton SignWriting	Signwriting touch multiple		
+1D907	"""𝤇"""	1D800..1DAAF	Sutton SignWriting	Signwriting touch between		
+1D908	"""𝤈"""	1D800..1DAAF	Sutton SignWriting	Signwriting grasp single		
+1D909	"""𝤉"""	1D800..1DAAF	Sutton SignWriting	Signwriting grasp multiple		
+1D90A	"""𝤊"""	1D800..1DAAF	Sutton SignWriting	Signwriting grasp between		
+1D90B	"""𝤋"""	1D800..1DAAF	Sutton SignWriting	Signwriting strike single		
+1D90C	"""𝤌"""	1D800..1DAAF	Sutton SignWriting	Signwriting strike multiple		
+1D90D	"""𝤍"""	1D800..1DAAF	Sutton SignWriting	Signwriting strike between		
+1D90E	"""𝤎"""	1D800..1DAAF	Sutton SignWriting	Signwriting brush single		
+1D90F	"""𝤏"""	1D800..1DAAF	Sutton SignWriting	Signwriting brush multiple		
+1D910	"""𝤐"""	1D800..1DAAF	Sutton SignWriting	Signwriting brush between		
+1D911	"""𝤑"""	1D800..1DAAF	Sutton SignWriting	Signwriting rub single		
+1D912	"""𝤒"""	1D800..1DAAF	Sutton SignWriting	Signwriting rub multiple		
+1D913	"""𝤓"""	1D800..1DAAF	Sutton SignWriting	Signwriting rub between		
+1D914	"""𝤔"""	1D800..1DAAF	Sutton SignWriting	Signwriting surface symbols		
+1D915	"""𝤕"""	1D800..1DAAF	Sutton SignWriting	Signwriting surface between		
+1D916	"""𝤖"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze large single		
+1D917	"""𝤗"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze small single		
+1D918	"""𝤘"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze large multiple		
+1D919	"""𝤙"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze small multiple		
+1D91A	"""𝤚"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze sequential		
+1D91B	"""𝤛"""	1D800..1DAAF	Sutton SignWriting	Signwriting flick large single		
+1D91C	"""𝤜"""	1D800..1DAAF	Sutton SignWriting	Signwriting flick small single		
+1D91D	"""𝤝"""	1D800..1DAAF	Sutton SignWriting	Signwriting flick large multiple		
+1D91E	"""𝤞"""	1D800..1DAAF	Sutton SignWriting	Signwriting flick small multiple		
+1D91F	"""𝤟"""	1D800..1DAAF	Sutton SignWriting	Signwriting flick sequential		
+1D920	"""𝤠"""	1D800..1DAAF	Sutton SignWriting	Signwriting squeeze flick alternating		
+1D921	"""𝤡"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge up down large		
+1D922	"""𝤢"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge up down small		
+1D923	"""𝤣"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge up sequential		
+1D924	"""𝤤"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge down sequential		
+1D925	"""𝤥"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge up down alternating large		
+1D926	"""𝤦"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge up down alternating small		
+1D927	"""𝤧"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-hinge side to side scissors		
+1D928	"""𝤨"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane finger contact		
+1D929	"""𝤩"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane finger contact		
+1D92A	"""𝤪"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane single straight small		
+1D92B	"""𝤫"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane single straight medium		
+1D92C	"""𝤬"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane single straight large		
+1D92D	"""𝤭"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane single straight largest		
+1D92E	"""𝤮"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane single wrist flex		
+1D92F	"""𝤯"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane double straight		
+1D930	"""𝤰"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane double wrist flex		
+1D931	"""𝤱"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane double alternating		
+1D932	"""𝤲"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane double alternating wrist flex		
+1D933	"""𝤳"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane cross		
+1D934	"""𝤴"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane triple straight movement		
+1D935	"""𝤵"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane triple wrist flex		
+1D936	"""𝤶"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane triple alternating		
+1D937	"""𝤷"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane triple alternating wrist flex		
+1D938	"""𝤸"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane bend small		
+1D939	"""𝤹"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane bend medium		
+1D93A	"""𝤺"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane bend large		
+1D93B	"""𝤻"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane corner small		
+1D93C	"""𝤼"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane corner medium		
+1D93D	"""𝤽"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane corner large		
+1D93E	"""𝤾"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane corner rotation		
+1D93F	"""𝤿"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane check small		
+1D940	"""𝥀"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane check medium		
+1D941	"""𝥁"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane check large		
+1D942	"""𝥂"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane box small		
+1D943	"""𝥃"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane box medium		
+1D944	"""𝥄"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane box large		
+1D945	"""𝥅"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane zigzag small		
+1D946	"""𝥆"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane zigzag medium		
+1D947	"""𝥇"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane zigzag large		
+1D948	"""𝥈"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane peaks small		
+1D949	"""𝥉"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane peaks medium		
+1D94A	"""𝥊"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane peaks large		
+1D94B	"""𝥋"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-wallplane single		
+1D94C	"""𝥌"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-wallplane double		
+1D94D	"""𝥍"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-wallplane alternating		
+1D94E	"""𝥎"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-floorplane single		
+1D94F	"""𝥏"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-floorplane double		
+1D950	"""𝥐"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane rotation-floorplane alternating		
+1D951	"""𝥑"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane shaking		
+1D952	"""𝥒"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane arm spiral single		
+1D953	"""𝥓"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane arm spiral double		
+1D954	"""𝥔"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-wallplane arm spiral triple		
+1D955	"""𝥕"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal away small		
+1D956	"""𝥖"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal away medium		
+1D957	"""𝥗"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal away large		
+1D958	"""𝥘"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal away largest		
+1D959	"""𝥙"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal towards small		
+1D95A	"""𝥚"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal towards medium		
+1D95B	"""𝥛"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal towards large		
+1D95C	"""𝥜"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal towards largest		
+1D95D	"""𝥝"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between away small		
+1D95E	"""𝥞"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between away medium		
+1D95F	"""𝥟"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between away large		
+1D960	"""𝥠"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between away largest		
+1D961	"""𝥡"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between towards small		
+1D962	"""𝥢"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between towards medium		
+1D963	"""𝥣"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between towards large		
+1D964	"""𝥤"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-diagonal between towards largest		
+1D965	"""𝥥"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane single straight small		
+1D966	"""𝥦"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane single straight medium		
+1D967	"""𝥧"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane single straight large		
+1D968	"""𝥨"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane single straight largest		
+1D969	"""𝥩"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane single wrist flex		
+1D96A	"""𝥪"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane double straight		
+1D96B	"""𝥫"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane double wrist flex		
+1D96C	"""𝥬"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane double alternating		
+1D96D	"""𝥭"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane double alternating wrist flex		
+1D96E	"""𝥮"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane cross		
+1D96F	"""𝥯"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane triple straight movement		
+1D970	"""𝥰"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane triple wrist flex		
+1D971	"""𝥱"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane triple alternating movement		
+1D972	"""𝥲"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane triple alternating wrist flex		
+1D973	"""𝥳"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane bend		
+1D974	"""𝥴"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane corner small		
+1D975	"""𝥵"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane corner medium		
+1D976	"""𝥶"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane corner large		
+1D977	"""𝥷"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane check		
+1D978	"""𝥸"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane box small		
+1D979	"""𝥹"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane box medium		
+1D97A	"""𝥺"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane box large		
+1D97B	"""𝥻"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane zigzag small		
+1D97C	"""𝥼"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane zigzag medium		
+1D97D	"""𝥽"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane zigzag large		
+1D97E	"""𝥾"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane peaks small		
+1D97F	"""𝥿"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane peaks medium		
+1D980	"""𝦀"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane peaks large		
+1D981	"""𝦁"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-floorplane single		
+1D982	"""𝦂"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-floorplane double		
+1D983	"""𝦃"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-floorplane alternating		
+1D984	"""𝦄"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-wallplane single		
+1D985	"""𝦅"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-wallplane double		
+1D986	"""𝦆"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane rotation-wallplane alternating		
+1D987	"""𝦇"""	1D800..1DAAF	Sutton SignWriting	Signwriting travel-floorplane shaking		
+1D988	"""𝦈"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve quarter small		
+1D989	"""𝦉"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve quarter medium		
+1D98A	"""𝦊"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve quarter large		
+1D98B	"""𝦋"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve quarter largest		
+1D98C	"""𝦌"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve half-circle small		
+1D98D	"""𝦍"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve half-circle medium		
+1D98E	"""𝦎"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve half-circle large		
+1D98F	"""𝦏"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve half-circle largest		
+1D990	"""𝦐"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve three-quarter circle small		
+1D991	"""𝦑"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve three-quarter circle medium		
+1D992	"""𝦒"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane hump small		
+1D993	"""𝦓"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane hump medium		
+1D994	"""𝦔"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane hump large		
+1D995	"""𝦕"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop small		
+1D996	"""𝦖"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop medium		
+1D997	"""𝦗"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop large		
+1D998	"""𝦘"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop small double		
+1D999	"""𝦙"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve double small		
+1D99A	"""𝦚"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve double medium		
+1D99B	"""𝦛"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve double large		
+1D99C	"""𝦜"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve triple small		
+1D99D	"""𝦝"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve triple medium		
+1D99E	"""𝦞"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave curve triple large		
+1D99F	"""𝦟"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve then straight		
+1D9A0	"""𝦠"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curved cross small		
+1D9A1	"""𝦡"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curved cross medium		
+1D9A2	"""𝦢"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane single		
+1D9A3	"""𝦣"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane double		
+1D9A4	"""𝦤"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane alternate		
+1D9A5	"""𝦥"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane shaking		
+1D9A6	"""𝦦"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve hitting front wall		
+1D9A7	"""𝦧"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane hump hitting front wall		
+1D9A8	"""𝦨"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop hitting front wall		
+1D9A9	"""𝦩"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave hitting front wall		
+1D9AA	"""𝦪"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane single hitting front wall		
+1D9AB	"""𝦫"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane double hitting front wall		
+1D9AC	"""𝦬"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane alternating hitting front wall		
+1D9AD	"""𝦭"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane curve hitting chest		
+1D9AE	"""𝦮"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane hump hitting chest		
+1D9AF	"""𝦯"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane loop hitting chest		
+1D9B0	"""𝦰"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave hitting chest		
+1D9B1	"""𝦱"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane single hitting chest		
+1D9B2	"""𝦲"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane double hitting chest		
+1D9B3	"""𝦳"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-wallplane alternating hitting chest		
+1D9B4	"""𝦴"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave diagonal path small		
+1D9B5	"""𝦵"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave diagonal path medium		
+1D9B6	"""𝦶"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wave diagonal path large		
+1D9B7	"""𝦷"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve hitting ceiling small		
+1D9B8	"""𝦸"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve hitting ceiling large		
+1D9B9	"""𝦹"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting ceiling small double		
+1D9BA	"""𝦺"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting ceiling large double		
+1D9BB	"""𝦻"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting ceiling small triple		
+1D9BC	"""𝦼"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting ceiling large triple		
+1D9BD	"""𝦽"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting ceiling small single		
+1D9BE	"""𝦾"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting ceiling large single		
+1D9BF	"""𝦿"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting ceiling small double		
+1D9C0	"""𝧀"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting ceiling large double		
+1D9C1	"""𝧁"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave hitting ceiling small		
+1D9C2	"""𝧂"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave hitting ceiling large		
+1D9C3	"""𝧃"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane single hitting ceiling		
+1D9C4	"""𝧄"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane double hitting ceiling		
+1D9C5	"""𝧅"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane alternating hitting ceiling		
+1D9C6	"""𝧆"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve hitting floor small		
+1D9C7	"""𝧇"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve hitting floor large		
+1D9C8	"""𝧈"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting floor small double		
+1D9C9	"""𝧉"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting floor large double		
+1D9CA	"""𝧊"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting floor triple small triple		
+1D9CB	"""𝧋"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump hitting floor triple large triple		
+1D9CC	"""𝧌"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting floor small single		
+1D9CD	"""𝧍"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting floor large single		
+1D9CE	"""𝧎"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting floor small double		
+1D9CF	"""𝧏"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop hitting floor large double		
+1D9D0	"""𝧐"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave hitting floor small		
+1D9D1	"""𝧑"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave hitting floor large		
+1D9D2	"""𝧒"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane single hitting floor		
+1D9D3	"""𝧓"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane double hitting floor		
+1D9D4	"""𝧔"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane alternating hitting floor		
+1D9D5	"""𝧕"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve small		
+1D9D6	"""𝧖"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve medium		
+1D9D7	"""𝧗"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve large		
+1D9D8	"""𝧘"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve largest		
+1D9D9	"""𝧙"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane curve combined		
+1D9DA	"""𝧚"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane hump small		
+1D9DB	"""𝧛"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane loop small		
+1D9DC	"""𝧜"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave snake		
+1D9DD	"""𝧝"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave small		
+1D9DE	"""𝧞"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wave large		
+1D9DF	"""𝧟"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane single		
+1D9E0	"""𝧠"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane double		
+1D9E1	"""𝧡"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation-floorplane alternating		
+1D9E2	"""𝧢"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane shaking parallel		
+1D9E3	"""𝧣"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane arm circle small single		
+1D9E4	"""𝧤"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane arm circle medium single		
+1D9E5	"""𝧥"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane arm circle small double		
+1D9E6	"""𝧦"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane arm circle medium double		
+1D9E7	"""𝧧"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall small single		
+1D9E8	"""𝧨"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall medium single		
+1D9E9	"""𝧩"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall large single		
+1D9EA	"""𝧪"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall small double		
+1D9EB	"""𝧫"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall medium double		
+1D9EC	"""𝧬"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane arm circle hitting wall large double		
+1D9ED	"""𝧭"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wrist circle front single		
+1D9EE	"""𝧮"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane wrist circle front double		
+1D9EF	"""𝧯"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wrist circle hitting wall single		
+1D9F0	"""𝧰"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane wrist circle hitting wall double		
+1D9F1	"""𝧱"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane finger circles single		
+1D9F2	"""𝧲"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane finger circles double		
+1D9F3	"""𝧳"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane finger circles hitting wall single		
+1D9F4	"""𝧴"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane finger circles hitting wall double		
+1D9F5	"""𝧵"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic arrowhead small		
+1D9F6	"""𝧶"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic arrowhead large		
+1D9F7	"""𝧷"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic fast		
+1D9F8	"""𝧸"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic slow		
+1D9F9	"""𝧹"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic tense		
+1D9FA	"""𝧺"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic relaxed		
+1D9FB	"""𝧻"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic simultaneous		
+1D9FC	"""𝧼"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic simultaneous alternating		
+1D9FD	"""𝧽"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic every other time		
+1D9FE	"""𝧾"""	1D800..1DAAF	Sutton SignWriting	Signwriting dynamic gradual		
+1D9FF	"""𝧿"""	1D800..1DAAF	Sutton SignWriting	Signwriting head		
+1DA00	"""𝨀"""	1D800..1DAAF	Sutton SignWriting	Signwriting head rim		
+1DA01	"""𝨁"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement-wallplane straight		
+1DA02	"""𝨂"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement-wallplane tilt		
+1DA03	"""𝨃"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement-floorplane straight		
+1DA04	"""𝨄"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement-wallplane curve		
+1DA05	"""𝨅"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement-floorplane curve		
+1DA06	"""𝨆"""	1D800..1DAAF	Sutton SignWriting	Signwriting head movement circle		
+1DA07	"""𝨇"""	1D800..1DAAF	Sutton SignWriting	Signwriting face direction position nose forward tilting		
+1DA08	"""𝨈"""	1D800..1DAAF	Sutton SignWriting	Signwriting face direction position nose up or down		
+1DA09	"""𝨉"""	1D800..1DAAF	Sutton SignWriting	Signwriting face direction position nose up or down tilting		
+1DA0A	"""𝨊"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyebrows straight up		
+1DA0B	"""𝨋"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyebrows straight neutral		
+1DA0C	"""𝨌"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyebrows straight down		
+1DA0D	"""𝨍"""	1D800..1DAAF	Sutton SignWriting	Signwriting dreamy eyebrows neutral down		
+1DA0E	"""𝨎"""	1D800..1DAAF	Sutton SignWriting	Signwriting dreamy eyebrows down neutral		
+1DA0F	"""𝨏"""	1D800..1DAAF	Sutton SignWriting	Signwriting dreamy eyebrows up neutral		
+1DA10	"""𝨐"""	1D800..1DAAF	Sutton SignWriting	Signwriting dreamy eyebrows neutral up		
+1DA11	"""𝨑"""	1D800..1DAAF	Sutton SignWriting	Signwriting forehead neutral		
+1DA12	"""𝨒"""	1D800..1DAAF	Sutton SignWriting	Signwriting forehead contact		
+1DA13	"""𝨓"""	1D800..1DAAF	Sutton SignWriting	Signwriting forehead wrinkled		
+1DA14	"""𝨔"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes open		
+1DA15	"""𝨕"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes squeezed		
+1DA16	"""𝨖"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes closed		
+1DA17	"""𝨗"""	1D800..1DAAF	Sutton SignWriting	Signwriting eye blink single		
+1DA18	"""𝨘"""	1D800..1DAAF	Sutton SignWriting	Signwriting eye blink multiple		
+1DA19	"""𝨙"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes half open		
+1DA1A	"""𝨚"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes wide open		
+1DA1B	"""𝨛"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes half closed		
+1DA1C	"""𝨜"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyes widening movement		
+1DA1D	"""𝨝"""	1D800..1DAAF	Sutton SignWriting	Signwriting eye wink		
+1DA1E	"""𝨞"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyelashes up		
+1DA1F	"""𝨟"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyelashes down		
+1DA20	"""𝨠"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyelashes fluttering		
+1DA21	"""𝨡"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-wallplane straight		
+1DA22	"""𝨢"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-wallplane straight double		
+1DA23	"""𝨣"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-wallplane straight alternating		
+1DA24	"""𝨤"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-floorplane straight		
+1DA25	"""𝨥"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-floorplane straight double		
+1DA26	"""𝨦"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-floorplane straight alternating		
+1DA27	"""𝨧"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-wallplane curved		
+1DA28	"""𝨨"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-floorplane curved		
+1DA29	"""𝨩"""	1D800..1DAAF	Sutton SignWriting	Signwriting eyegaze-wallplane circling		
+1DA2A	"""𝨪"""	1D800..1DAAF	Sutton SignWriting	Signwriting cheeks puffed		
+1DA2B	"""𝨫"""	1D800..1DAAF	Sutton SignWriting	Signwriting cheeks neutral		
+1DA2C	"""𝨬"""	1D800..1DAAF	Sutton SignWriting	Signwriting cheeks sucked		
+1DA2D	"""𝨭"""	1D800..1DAAF	Sutton SignWriting	Signwriting tense cheeks high		
+1DA2E	"""𝨮"""	1D800..1DAAF	Sutton SignWriting	Signwriting tense cheeks middle		
+1DA2F	"""𝨯"""	1D800..1DAAF	Sutton SignWriting	Signwriting tense cheeks low		
+1DA30	"""𝨰"""	1D800..1DAAF	Sutton SignWriting	Signwriting ears		
+1DA31	"""𝨱"""	1D800..1DAAF	Sutton SignWriting	Signwriting nose neutral		
+1DA32	"""𝨲"""	1D800..1DAAF	Sutton SignWriting	Signwriting nose contact		
+1DA33	"""𝨳"""	1D800..1DAAF	Sutton SignWriting	Signwriting nose wrinkles		
+1DA34	"""𝨴"""	1D800..1DAAF	Sutton SignWriting	Signwriting nose wiggles		
+1DA35	"""𝨵"""	1D800..1DAAF	Sutton SignWriting	Signwriting air blowing out		
+1DA36	"""𝨶"""	1D800..1DAAF	Sutton SignWriting	Signwriting air sucking in		
+1DA37	"""𝨷"""	1D800..1DAAF	Sutton SignWriting	Signwriting air blow small rotations		
+1DA38	"""𝨸"""	1D800..1DAAF	Sutton SignWriting	Signwriting air suck small rotations		
+1DA39	"""𝨹"""	1D800..1DAAF	Sutton SignWriting	Signwriting breath inhale		
+1DA3A	"""𝨺"""	1D800..1DAAF	Sutton SignWriting	Signwriting breath exhale		
+1DA3B	"""𝨻"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth closed neutral		
+1DA3C	"""𝨼"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth closed forward		
+1DA3D	"""𝨽"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth closed contact		
+1DA3E	"""𝨾"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth smile		
+1DA3F	"""𝨿"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth smile wrinkled		
+1DA40	"""𝩀"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth smile open		
+1DA41	"""𝩁"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth frown		
+1DA42	"""𝩂"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth frown wrinkled		
+1DA43	"""𝩃"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth frown open		
+1DA44	"""𝩄"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open circle		
+1DA45	"""𝩅"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open forward		
+1DA46	"""𝩆"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open wrinkled		
+1DA47	"""𝩇"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open oval		
+1DA48	"""𝩈"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open oval wrinkled		
+1DA49	"""𝩉"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open oval yawn		
+1DA4A	"""𝩊"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open rectangle		
+1DA4B	"""𝩋"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open rectangle wrinkled		
+1DA4C	"""𝩌"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth open rectangle yawn		
+1DA4D	"""𝩍"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth kiss		
+1DA4E	"""𝩎"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth kiss forward		
+1DA4F	"""𝩏"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth kiss wrinkled		
+1DA50	"""𝩐"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth tense		
+1DA51	"""𝩑"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth tense forward		
+1DA52	"""𝩒"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth tense sucked		
+1DA53	"""𝩓"""	1D800..1DAAF	Sutton SignWriting	Signwriting lips pressed together		
+1DA54	"""𝩔"""	1D800..1DAAF	Sutton SignWriting	Signwriting lip lower over upper		
+1DA55	"""𝩕"""	1D800..1DAAF	Sutton SignWriting	Signwriting lip upper over lower		
+1DA56	"""𝩖"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth corners		
+1DA57	"""𝩗"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth wrinkles single		
+1DA58	"""𝩘"""	1D800..1DAAF	Sutton SignWriting	Signwriting mouth wrinkles double		
+1DA59	"""𝩙"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue sticking out far		
+1DA5A	"""𝩚"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue licking lips		
+1DA5B	"""𝩛"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue tip between lips		
+1DA5C	"""𝩜"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue tip touching inside mouth		
+1DA5D	"""𝩝"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue inside mouth relaxed		
+1DA5E	"""𝩞"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue moves against cheek		
+1DA5F	"""𝩟"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue centre sticking out		
+1DA60	"""𝩠"""	1D800..1DAAF	Sutton SignWriting	Signwriting tongue centre inside mouth		
+1DA61	"""𝩡"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth		
+1DA62	"""𝩢"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth movement		
+1DA63	"""𝩣"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth on tongue		
+1DA64	"""𝩤"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth on tongue movement		
+1DA65	"""𝩥"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth on lips		
+1DA66	"""𝩦"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth on lips movement		
+1DA67	"""𝩧"""	1D800..1DAAF	Sutton SignWriting	Signwriting teeth bite lips		
+1DA68	"""𝩨"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-wallplane jaw		
+1DA69	"""𝩩"""	1D800..1DAAF	Sutton SignWriting	Signwriting movement-floorplane jaw		
+1DA6A	"""𝩪"""	1D800..1DAAF	Sutton SignWriting	Signwriting neck		
+1DA6B	"""𝩫"""	1D800..1DAAF	Sutton SignWriting	Signwriting hair		
+1DA6C	"""𝩬"""	1D800..1DAAF	Sutton SignWriting	Signwriting excitement		
+1DA6D	"""𝩭"""	1D800..1DAAF	Sutton SignWriting	Signwriting shoulder hip spine		
+1DA6E	"""𝩮"""	1D800..1DAAF	Sutton SignWriting	Signwriting shoulder hip positions		
+1DA6F	"""𝩯"""	1D800..1DAAF	Sutton SignWriting	Signwriting wallplane shoulder hip move		
+1DA70	"""𝩰"""	1D800..1DAAF	Sutton SignWriting	Signwriting floorplane shoulder hip move		
+1DA71	"""𝩱"""	1D800..1DAAF	Sutton SignWriting	Signwriting shoulder tilting from waist		
+1DA72	"""𝩲"""	1D800..1DAAF	Sutton SignWriting	Signwriting torso-wallplane straight stretch		
+1DA73	"""𝩳"""	1D800..1DAAF	Sutton SignWriting	Signwriting torso-wallplane curved bend		
+1DA74	"""𝩴"""	1D800..1DAAF	Sutton SignWriting	Signwriting torso-floorplane twisting		
+1DA75	"""𝩵"""	1D800..1DAAF	Sutton SignWriting	Signwriting upper body tilting from hip joints		
+1DA76	"""𝩶"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb combination		
+1DA77	"""𝩷"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-1		
+1DA78	"""𝩸"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-2		
+1DA79	"""𝩹"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-3		
+1DA7A	"""𝩺"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-4		
+1DA7B	"""𝩻"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-5		
+1DA7C	"""𝩼"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-6		
+1DA7D	"""𝩽"""	1D800..1DAAF	Sutton SignWriting	Signwriting limb length-7		
+1DA7E	"""𝩾"""	1D800..1DAAF	Sutton SignWriting	Signwriting finger		
+1DA7F	"""𝩿"""	1D800..1DAAF	Sutton SignWriting	Signwriting location-wallplane space		
+1DA80	"""𝪀"""	1D800..1DAAF	Sutton SignWriting	Signwriting location-floorplane space		
+1DA81	"""𝪁"""	1D800..1DAAF	Sutton SignWriting	Signwriting location height		
+1DA82	"""𝪂"""	1D800..1DAAF	Sutton SignWriting	Signwriting location width		
+1DA83	"""𝪃"""	1D800..1DAAF	Sutton SignWriting	Signwriting location depth		
+1DA84	"""𝪄"""	1D800..1DAAF	Sutton SignWriting	Signwriting location head neck		
+1DA85	"""𝪅"""	1D800..1DAAF	Sutton SignWriting	Signwriting location torso		
+1DA86	"""𝪆"""	1D800..1DAAF	Sutton SignWriting	Signwriting location limbs digits		
+1DA87	"""𝪇"""	1D800..1DAAF	Sutton SignWriting	Signwriting comma		
+1DA88	"""𝪈"""	1D800..1DAAF	Sutton SignWriting	Signwriting full stop		
+1DA89	"""𝪉"""	1D800..1DAAF	Sutton SignWriting	Signwriting semicolon		
+1DA8A	"""𝪊"""	1D800..1DAAF	Sutton SignWriting	Signwriting colon		
+1DA8B	"""𝪋"""	1D800..1DAAF	Sutton SignWriting	Signwriting parenthesis		
+1DA9B	"""𝪛"""	1D800..1DAAF	Sutton SignWriting	Signwriting fill modifier-2		
+1DA9C	"""𝪜"""	1D800..1DAAF	Sutton SignWriting	Signwriting fill modifier-3		
+1DA9D	"""𝪝"""	1D800..1DAAF	Sutton SignWriting	Signwriting fill modifier-4		
+1DA9E	"""𝪞"""	1D800..1DAAF	Sutton SignWriting	Signwriting fill modifier-5		
+1DA9F	"""𝪟"""	1D800..1DAAF	Sutton SignWriting	Signwriting fill modifier-6		
+1DAA1	"""𝪡"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-2		
+1DAA2	"""𝪢"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-3		
+1DAA3	"""𝪣"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-4		
+1DAA4	"""𝪤"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-5		
+1DAA5	"""𝪥"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-6		
+1DAA6	"""𝪦"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-7		
+1DAA7	"""𝪧"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-8		
+1DAA8	"""𝪨"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-9		
+1DAA9	"""𝪩"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-10		
+1DAAA	"""𝪪"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-11		
+1DAAB	"""𝪫"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-12		
+1DAAC	"""𝪬"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-13		
+1DAAD	"""𝪭"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-14		
+1DAAE	"""𝪮"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-15		
+1DAAF	"""𝪯"""	1D800..1DAAF	Sutton SignWriting	Signwriting rotation modifier-16		

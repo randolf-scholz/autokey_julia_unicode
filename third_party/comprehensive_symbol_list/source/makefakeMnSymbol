@@ -1,0 +1,187 @@
+#! /usr/bin/env perl
+
+# Convert MnSymbol.sty to a faked version that does not require
+# the definition of any additional math alphabets
+#
+# By Scott Pakin <scott.clsl@pakin.org>
+
+use POSIX;
+use warnings;
+use strict;
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+print strftime("\\ProvidesPackage{fakeMnSymbol}[\%Y/\%m/\%d v1.0 faked version of MnSymbol.sty]\n", localtime());
+
+# Read the font metrics for the largesymbol font in preparation for
+# faking the variable-sized delimiters.
+my $tfmfile = `kpsewhich MnSymbolE10.tfm`;
+my @nextlarger;      # Map from a character number to the next larger character
+my @varchar;         # Map from a character number to a varchar hash
+if ($tfmfile ne "") {
+    chomp $tfmfile;
+    open (LARGESYMBOLS, "tftopl $tfmfile|") || die "tftopl $tfmfile: $!\n";
+    my $charnum = -1;   # Character number of the current character
+    while (my $oneline = <LARGESYMBOLS>) {
+	chomp $oneline;
+	if ($oneline =~ /^\(CHARACTER ([CO]) (\w+)/) {
+	    $charnum = $1 eq "O" ? oct($2) : ord($2);
+	}
+	elsif ($oneline =~ /\(NEXTLARGER ([CO]) (\w+)/) {
+	    $nextlarger[$charnum] = $1 eq "O" ? oct($2) : ord($2);
+	}
+	elsif ($oneline =~ /\((TOP|MID|BOT|REP) ([CO]) (\w+)/) {
+	    $varchar[$charnum]->{$1} = $2 eq "O" ? oct($3) : ord($3);
+	}
+    }
+    close LARGESYMBOLS;
+}
+
+# Process each symbol declaration in turn.
+my $slot = 0;
+my %families;
+while (<>) {
+    # Process all symbols defined with \Decl@Mn@Char.
+    /\\Set\@Mn\@Sym\{(\d+)\}/ && do {$slot=0+$1; next};
+    /^\\Decl\@Mn\@Char\\@?(\w+)\s*\{(\w+)\}/ && do {
+	my $symname = $1;
+	my $family = $2;
+	if ($family =~ /^MnSy(\w)$/) {
+	    $family = "MnSymbol" . $1;
+	}
+	elsif ($family eq "symbols") {
+	    $family = "MnSymbolF";
+	}
+	else {
+	    die "${0}: unrecognized symbol family \"$family\"\n";
+	}
+	if (!defined $families{$family}) {
+	    $families{$family}++;
+	    print "\n";
+	    print "\\DeclareFontFamily{U}{$family}{}\n";
+	    print "\\DeclareFontShape{U}{$family}{m}{n}{<-> ${family}10}{}\n";
+	}
+	print "\\DeclareRobustCommand{\\MNS$symname}";
+	print "{\\mbox{\\usefont{U}{$family}{m}{n}\\char$slot}}\n";
+	$slot++;
+    };
+
+    # Process variable-sized symbols specially.
+    /^\\Decl\@Mn\@(Open|Close|Delim)\s*\{([^\}]+)\}.*\{\'(\d+)\}\s*$/ && do {
+	my $charnum = oct $3;
+	my %sym2name = ("[" => "lbracket",
+			"]" => "rbracket",
+			"|" => "pipe",
+			"<" => "less",
+			">" => "greater",
+			"/" => "slash",
+			"(" => "lparen",
+			")" => "rparen");
+	my $symname = substr($2, 0, 1) eq "\\" ? substr($2, 1) : $sym2name{$2};
+	my $family = "MnSymbolE";
+	if (!defined $families{$family}) {
+	    $families{$family}++;
+	    print "\n";
+	    print "\\DeclareFontFamily{U}{$family}{}\n";
+	    print "\\DeclareFontShape{U}{$family}{m}{n}{<-> ${family}10}{}\n";
+	}
+	my $tcharnum;       # Character number of the \big symbol size
+	my $dcharnum;       # Character number of the variable-sized symbol
+	$tcharnum = defined $nextlarger[$charnum] ? $nextlarger[$charnum] : $charnum;
+	for ($dcharnum=$tcharnum; defined $nextlarger[$dcharnum]; $dcharnum=$nextlarger[$dcharnum]) {
+	}
+
+	# Define the text-sized version of the delimiter.
+	print "\\DeclareRobustCommand{\\MNSt$symname}";
+	print "{\\mbox{\\usefont{U}{$family}{m}{n}";
+	if (defined $varchar[$tcharnum]) {
+	    # Even the \big size is variable-sized.
+	    my $rep = $varchar[$tcharnum]->{REP};
+	    my $top = $varchar[$tcharnum]->{TOP} || $rep;
+	    my $bot = $varchar[$tcharnum]->{BOT} || $rep;
+	    my $mid = $varchar[$tcharnum]->{MID} || $rep;
+	    print "\\CLSLfaketdelim{$top}{$mid}{$bot}";
+	}
+	else {
+	    print "\\char$tcharnum";
+	}
+	print "}}\n";
+
+	# Define the display-sized version of the delimiter.
+	print "\\DeclareRobustCommand{\\MNSd$symname}";
+	print "{\\mbox{\\usefont{U}{$family}{m}{n}";
+	my $rep = $varchar[$dcharnum]->{REP};
+	if (defined $rep) {
+	    my $top = $varchar[$dcharnum]->{TOP} || $rep;
+	    my $bot = $varchar[$dcharnum]->{BOT} || $rep;
+	    my $mid = $varchar[$dcharnum]->{MID} || $rep;
+	    print "\\CLSLfakeddelim{$top}{$mid}{$bot}{$rep}";
+	}
+	else {
+	    print "\\char$dcharnum";
+	}
+	print "}}\n";
+    };
+}
+
+# Output some trailer boilerplate.
+print <<'TRAILER';
+
+% Redefine some problematic symbols.
+\DeclareRobustCommand{\MNSdlparen}{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char140}}
+\DeclareRobustCommand{\MNSdrparen}{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char145}}
+
+% The following symbols were renamed and adapted from MnSymbol.sty.
+\let\MNSrelbar=\MNSleftrightline
+\DeclareRobustCommand\MNSjoinrel{\mathrel{\mkern-12.4mu}}
+\DeclareRobustCommand\MNSlongrightarrow{\DOTSB\MNSleftrightline\MNSjoinrel\MNSrightarrow}
+\DeclareRobustCommand\MNSlongleftarrow{\DOTSB\MNSleftarrow\MNSjoinrel\MNSleftrightline}
+\DeclareRobustCommand\MNSlongleftrightarrow{\DOTSB\MNSleftarrow\MNSjoinrel\MNSrightarrow}
+\DeclareRobustCommand\MNSLongrightarrow{\DOTSB\MNSLeftrightline\MNSjoinrel\MNSRightarrow}
+\DeclareRobustCommand\MNSLongleftarrow{\DOTSB\MNSLeftarrow\MNSjoinrel\MNSLeftrightline}
+\DeclareRobustCommand\MNSLongleftrightarrow{\DOTSB\MNSLeftarrow\MNSjoinrel\MNSRightarrow}
+\DeclareRobustCommand\MNSlongmapsto{\DOTSB\MNSleftfootline\MNSjoinrel\MNSrightarrow}
+\DeclareRobustCommand\MNSemptyfilledspoon{\DOTSB\MNSleftspoon\mkern-13mu\MNSrightfilledspoon}
+\DeclareRobustCommand\MNSfilledemptyspoon{\DOTSB\MNSleftfilledspoon\mkern-13mu\MNSrightspoon}
+\DeclareRobustCommand\MNSlargeemptyfilledspoon{\DOTSB\mathrel{\MNScirc\mkern-3mu\MNSrelbar\mkern-3mu\MNSbullet}}
+\DeclareRobustCommand\MNSlargefilledemptyspoon{\DOTSB\mathrel{\MNSbullet\mkern-3mu\MNSrelbar\mkern-3mu\MNScirc}}
+\DeclareRobustCommand\MNScoloneq{\ensuremath{\mathrel{{\MNSvdotdot}{\MNSequal}}}}
+
+% The following accents were renamed and adapted from MnSymbol.sty.
+\DeclareRobustCommand{\MNSoverbrace}[1]{\CLSLfakewidetopaccent{#1}{1.5ex}{'251}{2.1ex}{'253}{{U}{MnSymbolE}{m}{n}}}
+\DeclareRobustCommand{\MNSunderbrace}[1]{\CLSLfakewidetopaccent{#1}{-1.7ex}{'256}{-1.7ex}{'260}{{U}{MnSymbolE}{m}{n}}}
+\DeclareRobustCommand{\MNSwidehat}[1]{\CLSLfakewidetopaccent{#1}{0ex}{'302}{0.6ex}{'303}{{U}{MnSymbolE}{m}{n}}}
+\DeclareRobustCommand{\MNSwidetilde}[1]{\CLSLfakewidetopaccent{#1}{0ex}{'307}{0.6ex}{'310}{{U}{MnSymbolE}{m}{n}}}
+\DeclareRobustCommand{\MNSwideparen}[1]{\CLSLfakewidetopaccent{#1}{0ex}{'314}{0.6ex}{'315}{{U}{MnSymbolE}{m}{n}}}
+\DeclareRobustCommand{\MNSvec}[1]{\CLSLfakewidetopaccent{#1}{0ex}{'321}{0ex}{'321}{{U}{MnSymbolE}{m}{n}}}
+\def\MNSlinesegmentfill@{\arrowfill@\MNSleftfootline\MNSrelbar\MNSrightfootline}
+\def\MNSleftharpoonfill@{\arrowfill@\MNSleftharpooncw\MNSrelbar\MNSrelbar}
+\def\MNSrightharpoonfill@{\arrowfill@\MNSrelbar\MNSrelbar\MNSrightharpoonccw}
+\DeclareRobustCommand{\MNSoverlinesegment}{\mathpalette{\overarrow@\MNSlinesegmentfill@}}
+\DeclareRobustCommand{\MNSoverleftharpoon}{\mathpalette{\overarrow@\MNSleftharpoonfill@}}
+\DeclareRobustCommand{\MNSoverrightharpoon}{\mathpalette{\overarrow@\MNSrightharpoonfill@}}
+\DeclareRobustCommand{\MNSunderlinesegment}{\mathpalette{\underarrow@\MNSlinesegmentfill@}}
+\def\MNSbracefill@#1#2#3#4#5{$\m@th#5#1\leaders\hbox{$#4$}\hfill#2\leaders\hbox{$#4$}\hfill#3$}
+\def\MNSdowngroupfill@{\MNSbracefill@\MNSbraceld{}\MNSbracerd\MNSbracemid}
+\def\MNSupgroupfill@{\MNSbracefill@\MNSbracelu{}\MNSbraceru\MNSbracemid}
+\def\MNSoverbrace@#1#2#3{\vbox{\m@th\ialign{##\crcr
+  #1#2\crcr\noalign{\kern2\p@\nointerlineskip}%
+  $\m@th\hfil#2#3\hfil$\crcr}}}
+\def\MNSunderbrace@#1#2#3{\vtop{\m@th\ialign{##\crcr
+  $\m@th\hfil#2#3\hfil$\crcr
+  \noalign{\kern2\p@\nointerlineskip}%
+  #1#2\crcr}}}
+\def\MNSbraceld{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char'263}}
+\def\MNSbracelu{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char'264}}
+\def\MNSbracerd{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char'265}}
+\def\MNSbraceru{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char'266}}
+\def\MNSbracemid{\mbox{\usefont{U}{MnSymbolE}{m}{n}\char'271}}
+\DeclareRobustCommand{\MNSovergroup}{\mathpalette{\MNSoverbrace@\MNSdowngroupfill@}}
+\DeclareRobustCommand{\MNSundergroup}{\mathpalette{\MNSunderbrace@\MNSupgroupfill@}}
+
+\endinput
+TRAILER
+;

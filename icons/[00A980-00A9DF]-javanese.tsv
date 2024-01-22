@@ -1,0 +1,92 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+A980	"""ꦀ"""	A980..A9DF	Javanese	Javanese sign panyangga		
+A981	"""ꦁ"""	A980..A9DF	Javanese	Javanese sign cecak		
+A982	"""ꦂ"""	A980..A9DF	Javanese	Javanese sign layar		
+A983	"""ꦃ"""	A980..A9DF	Javanese	Javanese sign wignyan		
+A984	"""ꦄ"""	A980..A9DF	Javanese	Javanese letter a		
+A985	"""ꦅ"""	A980..A9DF	Javanese	Javanese letter i kawi		
+A986	"""ꦆ"""	A980..A9DF	Javanese	Javanese letter i		
+A987	"""ꦇ"""	A980..A9DF	Javanese	Javanese letter ii		
+A988	"""ꦈ"""	A980..A9DF	Javanese	Javanese letter u		
+A989	"""ꦉ"""	A980..A9DF	Javanese	Javanese letter pa cerek		
+A98A	"""ꦊ"""	A980..A9DF	Javanese	Javanese letter nga lelet		
+A98B	"""ꦋ"""	A980..A9DF	Javanese	Javanese letter nga lelet raswadi		
+A98C	"""ꦌ"""	A980..A9DF	Javanese	Javanese letter e		
+A98D	"""ꦍ"""	A980..A9DF	Javanese	Javanese letter ai		
+A98E	"""ꦎ"""	A980..A9DF	Javanese	Javanese letter o		
+A98F	"""ꦏ"""	A980..A9DF	Javanese	Javanese letter ka		
+A990	"""ꦐ"""	A980..A9DF	Javanese	Javanese letter ka sasak		
+A991	"""ꦑ"""	A980..A9DF	Javanese	Javanese letter ka murda		
+A992	"""ꦒ"""	A980..A9DF	Javanese	Javanese letter ga		
+A993	"""ꦓ"""	A980..A9DF	Javanese	Javanese letter ga murda		
+A994	"""ꦔ"""	A980..A9DF	Javanese	Javanese letter nga		
+A995	"""ꦕ"""	A980..A9DF	Javanese	Javanese letter ca		
+A996	"""ꦖ"""	A980..A9DF	Javanese	Javanese letter ca murda		
+A997	"""ꦗ"""	A980..A9DF	Javanese	Javanese letter ja		
+A998	"""ꦘ"""	A980..A9DF	Javanese	Javanese letter nya murda		
+A999	"""ꦙ"""	A980..A9DF	Javanese	Javanese letter ja mahaprana		
+A99A	"""ꦚ"""	A980..A9DF	Javanese	Javanese letter nya		
+A99B	"""ꦛ"""	A980..A9DF	Javanese	Javanese letter tta		
+A99C	"""ꦜ"""	A980..A9DF	Javanese	Javanese letter tta mahaprana		
+A99D	"""ꦝ"""	A980..A9DF	Javanese	Javanese letter dda		
+A99E	"""ꦞ"""	A980..A9DF	Javanese	Javanese letter dda mahaprana		
+A99F	"""ꦟ"""	A980..A9DF	Javanese	Javanese letter na murda		
+A9A0	"""ꦠ"""	A980..A9DF	Javanese	Javanese letter ta		
+A9A1	"""ꦡ"""	A980..A9DF	Javanese	Javanese letter ta murda		
+A9A2	"""ꦢ"""	A980..A9DF	Javanese	Javanese letter da		
+A9A3	"""ꦣ"""	A980..A9DF	Javanese	Javanese letter da mahaprana		
+A9A4	"""ꦤ"""	A980..A9DF	Javanese	Javanese letter na		
+A9A5	"""ꦥ"""	A980..A9DF	Javanese	Javanese letter pa		
+A9A6	"""ꦦ"""	A980..A9DF	Javanese	Javanese letter pa murda		
+A9A7	"""ꦧ"""	A980..A9DF	Javanese	Javanese letter ba		
+A9A8	"""ꦨ"""	A980..A9DF	Javanese	Javanese letter ba murda		
+A9A9	"""ꦩ"""	A980..A9DF	Javanese	Javanese letter ma		
+A9AA	"""ꦪ"""	A980..A9DF	Javanese	Javanese letter ya		
+A9AB	"""ꦫ"""	A980..A9DF	Javanese	Javanese letter ra		
+A9AC	"""ꦬ"""	A980..A9DF	Javanese	Javanese letter ra agung		
+A9AD	"""ꦭ"""	A980..A9DF	Javanese	Javanese letter la		
+A9AE	"""ꦮ"""	A980..A9DF	Javanese	Javanese letter wa		
+A9AF	"""ꦯ"""	A980..A9DF	Javanese	Javanese letter sa murda		
+A9B0	"""ꦰ"""	A980..A9DF	Javanese	Javanese letter sa mahaprana		
+A9B1	"""ꦱ"""	A980..A9DF	Javanese	Javanese letter sa		
+A9B2	"""ꦲ"""	A980..A9DF	Javanese	Javanese letter ha		
+A9B3	"""꦳"""	A980..A9DF	Javanese	Javanese sign cecak telu		
+A9B4	"""ꦴ"""	A980..A9DF	Javanese	Javanese vowel sign tarung		
+A9B5	"""ꦵ"""	A980..A9DF	Javanese	Javanese vowel sign tolong		
+A9B6	"""ꦶ"""	A980..A9DF	Javanese	Javanese vowel sign wulu		
+A9B7	"""ꦷ"""	A980..A9DF	Javanese	Javanese vowel sign wulu melik		
+A9B8	"""ꦸ"""	A980..A9DF	Javanese	Javanese vowel sign suku		
+A9B9	"""ꦹ"""	A980..A9DF	Javanese	Javanese vowel sign suku mendut		
+A9BA	"""ꦺ"""	A980..A9DF	Javanese	Javanese vowel sign taling		
+A9BB	"""ꦻ"""	A980..A9DF	Javanese	Javanese vowel sign dirga mure		
+A9BC	"""ꦼ"""	A980..A9DF	Javanese	Javanese vowel sign pepet		
+A9BD	"""ꦽ"""	A980..A9DF	Javanese	Javanese consonant sign keret		
+A9BE	"""ꦾ"""	A980..A9DF	Javanese	Javanese consonant sign pengkal		
+A9BF	"""ꦿ"""	A980..A9DF	Javanese	Javanese consonant sign cakra		
+A9C0	"""꧀"""	A980..A9DF	Javanese	Javanese pangkon		
+A9C1	"""꧁"""	A980..A9DF	Javanese	Javanese left rerenggan		
+A9C2	"""꧂"""	A980..A9DF	Javanese	Javanese right rerenggan		
+A9C3	"""꧃"""	A980..A9DF	Javanese	Javanese pada andap		
+A9C4	"""꧄"""	A980..A9DF	Javanese	Javanese pada madya		
+A9C5	"""꧅"""	A980..A9DF	Javanese	Javanese pada luhur		
+A9C6	"""꧆"""	A980..A9DF	Javanese	Javanese pada windu		
+A9C7	"""꧇"""	A980..A9DF	Javanese	Javanese pada pangkat		
+A9C8	"""꧈"""	A980..A9DF	Javanese	Javanese pada lingsa		
+A9C9	"""꧉"""	A980..A9DF	Javanese	Javanese pada lungsi		
+A9CA	"""꧊"""	A980..A9DF	Javanese	Javanese pada adeg		
+A9CB	"""꧋"""	A980..A9DF	Javanese	Javanese pada adeg adeg		
+A9CC	"""꧌"""	A980..A9DF	Javanese	Javanese pada piseleh		
+A9CD	"""꧍"""	A980..A9DF	Javanese	Javanese turned pada piseleh		
+A9CF	"""ꧏ"""	A980..A9DF	Javanese	Javanese pangrangkep		
+A9D0	"""꧐"""	A980..A9DF	Javanese	Javanese digit zero		
+A9D1	"""꧑"""	A980..A9DF	Javanese	Javanese digit one		
+A9D2	"""꧒"""	A980..A9DF	Javanese	Javanese digit two		
+A9D3	"""꧓"""	A980..A9DF	Javanese	Javanese digit three		
+A9D4	"""꧔"""	A980..A9DF	Javanese	Javanese digit four		
+A9D5	"""꧕"""	A980..A9DF	Javanese	Javanese digit five		
+A9D6	"""꧖"""	A980..A9DF	Javanese	Javanese digit six		
+A9D7	"""꧗"""	A980..A9DF	Javanese	Javanese digit seven		
+A9D8	"""꧘"""	A980..A9DF	Javanese	Javanese digit eight		
+A9D9	"""꧙"""	A980..A9DF	Javanese	Javanese digit nine		
+A9DE	"""꧞"""	A980..A9DF	Javanese	Javanese pada tirta tumetes		
+A9DF	"""꧟"""	A980..A9DF	Javanese	Javanese pada isen-isen		

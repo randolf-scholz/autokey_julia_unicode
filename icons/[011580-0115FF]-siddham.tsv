@@ -1,0 +1,93 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+11580	"""𑖀"""	11580..115FF	Siddham	Siddham letter a		
+11581	"""𑖁"""	11580..115FF	Siddham	Siddham letter aa		
+11582	"""𑖂"""	11580..115FF	Siddham	Siddham letter i		
+11583	"""𑖃"""	11580..115FF	Siddham	Siddham letter ii		
+11584	"""𑖄"""	11580..115FF	Siddham	Siddham letter u		
+11585	"""𑖅"""	11580..115FF	Siddham	Siddham letter uu		
+11586	"""𑖆"""	11580..115FF	Siddham	Siddham letter vocalic r		
+11587	"""𑖇"""	11580..115FF	Siddham	Siddham letter vocalic rr		
+11588	"""𑖈"""	11580..115FF	Siddham	Siddham letter vocalic l		
+11589	"""𑖉"""	11580..115FF	Siddham	Siddham letter vocalic ll		
+1158A	"""𑖊"""	11580..115FF	Siddham	Siddham letter e		
+1158B	"""𑖋"""	11580..115FF	Siddham	Siddham letter ai		
+1158C	"""𑖌"""	11580..115FF	Siddham	Siddham letter o		
+1158D	"""𑖍"""	11580..115FF	Siddham	Siddham letter au		
+1158E	"""𑖎"""	11580..115FF	Siddham	Siddham letter ka		
+1158F	"""𑖏"""	11580..115FF	Siddham	Siddham letter kha		
+11590	"""𑖐"""	11580..115FF	Siddham	Siddham letter ga		
+11591	"""𑖑"""	11580..115FF	Siddham	Siddham letter gha		
+11592	"""𑖒"""	11580..115FF	Siddham	Siddham letter nga		
+11593	"""𑖓"""	11580..115FF	Siddham	Siddham letter ca		
+11594	"""𑖔"""	11580..115FF	Siddham	Siddham letter cha		
+11595	"""𑖕"""	11580..115FF	Siddham	Siddham letter ja		
+11596	"""𑖖"""	11580..115FF	Siddham	Siddham letter jha		
+11597	"""𑖗"""	11580..115FF	Siddham	Siddham letter nya		
+11598	"""𑖘"""	11580..115FF	Siddham	Siddham letter tta		
+11599	"""𑖙"""	11580..115FF	Siddham	Siddham letter ttha		
+1159A	"""𑖚"""	11580..115FF	Siddham	Siddham letter dda		
+1159B	"""𑖛"""	11580..115FF	Siddham	Siddham letter ddha		
+1159C	"""𑖜"""	11580..115FF	Siddham	Siddham letter nna		
+1159D	"""𑖝"""	11580..115FF	Siddham	Siddham letter ta		
+1159E	"""𑖞"""	11580..115FF	Siddham	Siddham letter tha		
+1159F	"""𑖟"""	11580..115FF	Siddham	Siddham letter da		
+115A0	"""𑖠"""	11580..115FF	Siddham	Siddham letter dha		
+115A1	"""𑖡"""	11580..115FF	Siddham	Siddham letter na		
+115A2	"""𑖢"""	11580..115FF	Siddham	Siddham letter pa		
+115A3	"""𑖣"""	11580..115FF	Siddham	Siddham letter pha		
+115A4	"""𑖤"""	11580..115FF	Siddham	Siddham letter ba		
+115A5	"""𑖥"""	11580..115FF	Siddham	Siddham letter bha		
+115A6	"""𑖦"""	11580..115FF	Siddham	Siddham letter ma		
+115A7	"""𑖧"""	11580..115FF	Siddham	Siddham letter ya		
+115A8	"""𑖨"""	11580..115FF	Siddham	Siddham letter ra		
+115A9	"""𑖩"""	11580..115FF	Siddham	Siddham letter la		
+115AA	"""𑖪"""	11580..115FF	Siddham	Siddham letter va		
+115AB	"""𑖫"""	11580..115FF	Siddham	Siddham letter sha		
+115AC	"""𑖬"""	11580..115FF	Siddham	Siddham letter ssa		
+115AD	"""𑖭"""	11580..115FF	Siddham	Siddham letter sa		
+115AE	"""𑖮"""	11580..115FF	Siddham	Siddham letter ha		
+115AF	"""𑖯"""	11580..115FF	Siddham	Siddham vowel sign aa		
+115B0	"""𑖰"""	11580..115FF	Siddham	Siddham vowel sign i		
+115B1	"""𑖱"""	11580..115FF	Siddham	Siddham vowel sign ii		
+115B2	"""𑖲"""	11580..115FF	Siddham	Siddham vowel sign u		
+115B3	"""𑖳"""	11580..115FF	Siddham	Siddham vowel sign uu		
+115B4	"""𑖴"""	11580..115FF	Siddham	Siddham vowel sign vocalic r		
+115B5	"""𑖵"""	11580..115FF	Siddham	Siddham vowel sign vocalic rr		
+115B8	"""𑖸"""	11580..115FF	Siddham	Siddham vowel sign e		
+115B9	"""𑖹"""	11580..115FF	Siddham	Siddham vowel sign ai		
+115BA	"""𑖺"""	11580..115FF	Siddham	Siddham vowel sign o		
+115BB	"""𑖻"""	11580..115FF	Siddham	Siddham vowel sign au		
+115BC	"""𑖼"""	11580..115FF	Siddham	Siddham sign candrabindu		
+115BD	"""𑖽"""	11580..115FF	Siddham	Siddham sign anusvara		
+115BE	"""𑖾"""	11580..115FF	Siddham	Siddham sign visarga		
+115BF	"""𑖿"""	11580..115FF	Siddham	Siddham sign virama		
+115C0	"""𑗀"""	11580..115FF	Siddham	Siddham sign nukta		
+115C1	"""𑗁"""	11580..115FF	Siddham	Siddham sign siddham		
+115C2	"""𑗂"""	11580..115FF	Siddham	Siddham danda		
+115C3	"""𑗃"""	11580..115FF	Siddham	Siddham double danda		
+115C4	"""𑗄"""	11580..115FF	Siddham	Siddham separator dot		
+115C5	"""𑗅"""	11580..115FF	Siddham	Siddham separator bar		
+115C6	"""𑗆"""	11580..115FF	Siddham	Siddham repetition mark-1		
+115C7	"""𑗇"""	11580..115FF	Siddham	Siddham repetition mark-2		
+115C8	"""𑗈"""	11580..115FF	Siddham	Siddham repetition mark-3		
+115C9	"""𑗉"""	11580..115FF	Siddham	Siddham end of text mark		
+115CA	"""𑗊"""	11580..115FF	Siddham	Siddham section mark with trident and u-shaped ornaments		
+115CB	"""𑗋"""	11580..115FF	Siddham	Siddham section mark with trident and dotted crescents		
+115CC	"""𑗌"""	11580..115FF	Siddham	Siddham section mark with rays and dotted crescents		
+115CD	"""𑗍"""	11580..115FF	Siddham	Siddham section mark with rays and dotted double crescents		
+115CE	"""𑗎"""	11580..115FF	Siddham	Siddham section mark with rays and dotted triple crescents		
+115CF	"""𑗏"""	11580..115FF	Siddham	Siddham section mark double ring		
+115D0	"""𑗐"""	11580..115FF	Siddham	Siddham section mark double ring with rays		
+115D1	"""𑗑"""	11580..115FF	Siddham	Siddham section mark with double crescents		
+115D2	"""𑗒"""	11580..115FF	Siddham	Siddham section mark with triple crescents		
+115D3	"""𑗓"""	11580..115FF	Siddham	Siddham section mark with quadruple crescents		
+115D4	"""𑗔"""	11580..115FF	Siddham	Siddham section mark with septuple crescents		
+115D5	"""𑗕"""	11580..115FF	Siddham	Siddham section mark with circles and rays		
+115D6	"""𑗖"""	11580..115FF	Siddham	Siddham section mark with circles and two enclosures		
+115D7	"""𑗗"""	11580..115FF	Siddham	Siddham section mark with circles and four enclosures		
+115D8	"""𑗘"""	11580..115FF	Siddham	Siddham letter three-circle alternate i		
+115D9	"""𑗙"""	11580..115FF	Siddham	Siddham letter two-circle alternate i		
+115DA	"""𑗚"""	11580..115FF	Siddham	Siddham letter two-circle alternate ii		
+115DB	"""𑗛"""	11580..115FF	Siddham	Siddham letter alternate u		
+115DC	"""𑗜"""	11580..115FF	Siddham	Siddham vowel sign alternate u		
+115DD	"""𑗝"""	11580..115FF	Siddham	Siddham vowel sign alternate uu		

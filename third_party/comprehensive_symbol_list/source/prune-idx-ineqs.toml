@@ -1,0 +1,512 @@
+##############################################
+# Categorize inequalities.                   #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ----------------------------- less than ------------------------------
+
+# ... less than ...
+
+[[rewrite]]
+matches = [
+    "textless",
+    "less",
+    "slanted bar less than"
+]
+item = "less than"
+
+[[rewrite]]
+matches = ["lessdot", "precdot"]
+item = ["less than", "dotted"]
+
+[[rewrite]]
+matches = [
+    "lessclosed",
+    "lesscc",
+    "ltcc"
+]
+item = ["less than", "closed"]
+
+[[rewrite]]
+matches = ["ll", "Lt"]
+item = ["less than", "much"]
+
+[[rewrite]]
+render_contains = '(\faLessThan)'
+item = ["less than", "decorative"]
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '\ABXlll'
+item = ["less than", "much"]
+
+[[rewrite]]
+matches = [
+    "lll",
+    "llless",
+    "lllnest"
+]
+item = ["less than", "very much"]
+
+[[rewrite]]
+matches = "partialmeetcontraction"
+item = ["less than", "much, underlined"]
+
+[[rewrite]]
+matches = "smt"
+item = ["less than", "horizontally barred"]
+
+# ... less than or equal to ...
+
+[[rewrite]]
+matches = [
+    "le",
+    "leq",
+    "leqq",
+    "leqslant",
+    "leqqslant",
+    "LessOrEqual",
+    "varleq",
+    "less than or equal",
+    "slanted bar less than or equal"
+]
+not_render_contains = '\CircLse'
+item = ["less than", "or equal to"]
+
+[[rewrite]]
+render_contains = '(\faLessThanEqual)'
+item = ["less than", "or equal to, decorative"]
+
+[[rewrite]]
+matches = [
+    "leqdot",
+    "lesdot",
+    "leqslantdot",
+    "lesdoto",
+    "lesdotor"
+]
+item = ["less than", "or equal to, dotted"]
+
+[[rewrite]]
+matches = [
+    "leqclosed",
+    "leqslcc",
+    "lescc"
+]
+item = ["less than", "or equal to, closed"]
+
+[[rewrite]]
+matches = [
+    "lvertneqq",
+    "lneqq",
+    "lneq"
+]
+item = ["less than", "but not equal to"]
+
+[[rewrite]]
+matches = "smte"
+item = ["less than", "or equal to, horizontally barred"]
+
+# ... less-than and greater-than combinations ...
+
+[[rewrite]]
+matches = "lessgtr"
+item = ["less than", "or greater than"]
+
+[[rewrite]]
+matches = [
+    "lesg",
+    "lesges",
+    "lesseqgtr",
+    "lesseqgtrslant",
+    "lesseqqgtr",
+    "lesseqslantgtr",
+    "lgE"
+]
+item = ["less than", "or equal to or greater than"]
+
+[[rewrite]]
+matches = "lessneqqgtr"
+item = ["less than", "or greater than but not equal to"]
+
+[[rewrite]]
+matches = "lsimg"
+item = ["less than", "or similar to or greater than"]
+
+# ... less than, other variants ...
+
+[[rewrite]]
+prefix = ["lesssim", "apprle"]
+item = ["less than", "or similar to"]
+
+[[rewrite]]
+matches = "lsime"
+item = ["less than", "or similar to or equal to"]
+
+[[rewrite]]
+matches = "lnsim"
+item = ["less than", "but not similar to"]
+
+[[rewrite]]
+matches = "lessapprox"
+item = ["less than", "or approximately equal to"]
+
+[[rewrite]]
+matches = "lnapprox"
+item = ["less than", "but not approximately equal to"]
+
+[[rewrite]]
+matches = "ltcir"
+item = ["less than", "circle"]
+
+[[rewrite]]
+matches = "ltlarr"
+item = ["less than", "arrow"]
+
+[[rewrite]]
+matches = "ltquest"
+item = ["less than", "question mark"]
+
+# ... less than, negated ...
+
+[[rewrite]]
+matches = [
+    "nless",
+    "not less than",
+    "slanted bar not less than"
+]
+item = ["less than", "negated"]
+
+[[rewrite]]
+matches = "nlessdot"
+item = ["less than", "dotted, negated"]
+
+[[rewrite]]
+matches = [
+    "nlesscc",
+    "nlessclosed",
+    "nltcc"
+]
+item = ["less than", "closed, negated"]
+
+[[rewrite]]
+matches = "nll"
+item = ["less than", "much, negated"]
+
+[[rewrite]]
+matches = "nlll"
+item = ["less than", "very much, negated"]
+
+# ... less than or equal to, negated ...
+
+[[rewrite]]
+matches = [
+    "nle",
+    "nleq",
+    "nleqq",
+    "nleqslant",
+    "nvarleq",
+    "not less than or equal",
+    "slanted bar not less than or equal"
+]
+item = ["less than", "or equal to, negated"]
+
+[[rewrite]]
+matches = [
+    "nleqclosed",
+    "nleqslcc",
+    "nlescc"
+]
+item = ["less than", "or equal to, closed, negated"]
+
+[[rewrite]]
+matches = [
+    "nleqdot",
+    "nleqslantdot",
+    "nlesdot"
+]
+item = ["less than", "or equal to, dotted, negated"]
+
+# ... less-than and greater-than combinations, negated ...
+
+[[rewrite]]
+matches = "nlessgtr"
+item = ["less than", "or greater than, negated"]
+
+[[rewrite]]
+matches = [
+    "nlesg",
+    "nlesseqgtr",
+    "nlesseqgtrslant",
+    "nlesseqqgtr",
+    "nlesseqslantgtr"
+]
+item = ["less than", "or equal to or greater than, negated"]
+
+# ... less than, other variants, negated ...
+
+[[rewrite]]
+matches = "nlesssim"
+item = ["less than", "or similar to, negated"]
+
+[[rewrite]]
+matches = "nlessapprox"
+item = ["less than", "or approximately equal to, negated"]
+
+# ---------------------------- greater than ----------------------------
+
+# ... greater than ...
+
+[[rewrite]]
+matches = [
+    "textgreater",
+    "gtr",
+    "slanted bar greater than"
+]
+item = "greater than"
+
+[[rewrite]]
+render_contains = '(\faGreaterThan)'
+item = ["greater than", "decorative"]
+
+[[rewrite]]
+matches = ["gg", "Gt", "zpipe"]
+item = ["greater than", "much"]
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '\ABXggg'
+item = ["greater than", "much"]
+
+[[rewrite]]
+matches = [
+    "ggg",
+    "gggtr",
+    "gggnest"
+]
+item = ["greater than", "very much"]
+
+[[rewrite]]
+matches = [
+    "gtcc",
+    "gtrcc",
+    "gtrclosed"
+]
+item = ["greater than", "closed"]
+
+[[rewrite]]
+matches = ["gtrdot", "succdot"]
+item = ["greater than", "dotted"]
+
+[[rewrite]]
+matches = "lat"
+item = ["greater than", "horizontally barred"]
+
+# ... greater than or equal to ...
+
+[[rewrite]]
+matches = [
+    "ge",
+    "geq",
+    "geqq",
+    "geqslant",
+    "geqqslant",
+    "vargeq",
+    "LargerOrEqual",
+    "greater than or equal",
+    "greater than or equal to",
+    "slanted bar greater than or equal"
+]
+not_render_contains = '\CircGre'
+item = ["greater than", "or equal to"]
+
+[[rewrite]]
+render_contains = '(\faGreaterThanEqual)'
+item = ["greater than", "or equal to, decorative"]
+
+[[rewrite]]
+matches = [
+    "gescc",
+    "geqslcc",
+    "geqclosed"
+]
+item = ["greater than", "or equal to, closed"]
+
+[[rewrite]]
+matches = [
+    "geqdot",
+    "geqslantdot",
+    "gesdot",
+    "gesdoto",
+    "gesdotol"
+]
+item = ["greater than", "or equal to, dotted"]
+
+[[rewrite]]
+matches = [
+    "gneq",
+    "gneqq",
+    "gvertneqq"
+]
+item = ["greater than", "but not equal to"]
+
+[[rewrite]]
+matches = "late"
+item = ["greater than", "or equal to, horizontally barred"]
+
+# ... greater-than and less-than combinations ...
+
+[[rewrite]]
+matches = "gtrless"
+item = ["greater than", "or less than"]
+
+[[rewrite]]
+matches = [
+    "gesl",
+    "gesles",
+    "gtreqless",
+    "gtreqlessslant",
+    "gtreqqless",
+    "gtreqslantless"
+]
+item = ["greater than", "or equal to or less than"]
+
+[[rewrite]]
+matches = "gtrneqqless"
+item = ["greater than", "or less than but not equal to"]
+
+[[rewrite]]
+matches = "glE"
+item = ["greater than", "or less than or equal to"]
+
+[[rewrite]]
+matches = "gla"
+item = ["greater than", "or less than"]
+
+[[rewrite]]
+matches = "glj"
+item = ["greater than", "or less than, overlapping"]
+
+# ... greater than, other variants ...
+
+[[rewrite]]
+matches = "gtcir"
+item = ["greater than", "circle"]
+
+[[rewrite]]
+matches = "gtquest"
+item = ["greater than", "question mark"]
+
+[[rewrite]]
+matches = ["gtrsim", "gtrsimslant", "apprge"]
+item = ["greater than", "or similar to"]
+
+[[rewrite]]
+matches = "gsime"
+item = ["greater than", "or similar to or equal to"]
+
+[[rewrite]]
+matches = "gsiml"
+item = ["greater than", "or similar to or less than"]
+
+[[rewrite]]
+matches = "gnsim"
+item = ["greater than", "but not similar to"]
+
+[[rewrite]]
+matches = "gtrapprox"
+item = ["greater than", "or approximately equal to"]
+
+[[rewrite]]
+matches = "gnapprox"
+item = ["greater than", "but not approximately equal to"]
+
+[[rewrite]]
+matches = "gtrarr"
+item = ["greater than", "arrow"]
+
+# ... greater than, negated ...
+
+[[rewrite]]
+matches = [
+    "ngtr",
+    "not greater than",
+    "slanted bar not greater than"
+]
+item = ["greater than", "negated"]
+
+[[rewrite]]
+matches = "ngtrdot"
+item = ["greater than", "dotted, negated"]
+
+[[rewrite]]
+matches = [
+    "ngtcc",
+    "ngtrcc",
+    "ngtrclosed"
+]
+item = ["greater than", "closed, negated"]
+
+[[rewrite]]
+matches = "ngg"
+item = ["greater than", "much, negated"]
+
+[[rewrite]]
+matches = "nggg"
+item = ["greater than", "very much, negated"]
+
+# ... greater than or equal to, negated ...
+
+[[rewrite]]
+matches = [
+    "nge",
+    "ngeq",
+    "ngeqq",
+    "ngeqslant",
+    "nvargeq",
+    "not greater than or equal",
+    "slanted bar not greater than or equal"
+]
+item = ["greater than", "or equal to, negated"]
+
+[[rewrite]]
+matches = [
+    "ngeqclosed",
+    "ngeqslcc",
+    "ngescc"
+]
+item = ["greater than", "or equal to, closed, negated"]
+
+[[rewrite]]
+matches = [
+    "ngeqdot",
+    "ngeqslantdot",
+    "ngesdot"
+]
+item = ["greater than", "or equal to, dotted, negated"]
+
+# ... greater-than and less-than combinations, negated ...
+
+[[rewrite]]
+matches = "ngtrless"
+item = ["greater than", "or less than, negated"]
+
+[[rewrite]]
+matches = [
+    "ngesl",
+    "ngtreqless",
+    "ngtreqqless",
+    "ngtreqslantless",
+    "ngtreqlessslant"
+]
+item = ["greater than", "or equal to or less than, negated"]
+
+# ... greater than, other variants, negated ...
+
+[[rewrite]]
+matches = "ngtrsim"
+item = ["greater than", "or similar to, negated"]
+
+[[rewrite]]
+matches = "ngtrapprox"
+item = ["greater than", "or approximately equal to, negated"]

@@ -1,0 +1,88 @@
+#! /usr/bin/env perl
+
+###############################################################
+# Convert boisik.sty to a faked version that does not require #
+# the definition of any additional math alphabets	      #
+#							      #
+# By Scott Pakin <scott.clsl@pakin.org>			      #
+###############################################################
+
+use POSIX;
+use warnings;
+use strict;
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+
+# Read and process boisik.sty.
+while (my $oneline = <>) {
+    chomp $oneline;
+
+    # Output some package header information.
+    if ($oneline =~ /NeedsTeXFormat/o) {
+        print $oneline, "\n";
+        next;
+    }
+    if ($oneline =~ /ProvidesPackage/o) {
+        $oneline =~ s/boisik/fakeboisik/;
+        $oneline =~ s/bsk/faked bsk/;
+        print $oneline, "\n\n";
+	print <<'HEADER';
+\DeclareFontEncoding{LBL}{}{}
+\DeclareFontFamily{LBL}{bskm}{\skewchar\font130 }
+\DeclareFontShape{LBL}{bskm}{m}{it}{<->bskmi10}{}
+\newcommand*{\BSKletterschar}[1]{{\usefont{LBL}{bskm}{m}{it}\char#1}}
+
+\DeclareFontEncoding{LBM}{}{}
+\DeclareFontFamily{LBM}{bskms}{\skewchar\font130 }
+\DeclareFontShape{LBM}{bskms}{m}{n}{<->bskms10}{}
+\newcommand*{\BSKbsksymbolschar}[1]{{\usefont{LBM}{bskms}{m}{n}\char#1}}
+
+\DeclareFontEncoding{LBS}{}{}
+\DeclareFontFamily{LBS}{bsk}{}
+\DeclareFontShape{LBS}{bsk}{m}{n}{<->ssub*bsksy/m/n}{}
+\newcommand*{\BSKsymbolschar}[1]{{\usefont{LBS}{bsk}{m}{n}\char#1}}
+
+\DeclareFontFamily{U}{bskarr}{}
+\DeclareFontShape{U}{bskarr}{m}{n}{<->bskarr10}{}
+\newcommand*{\BSKbskarrchar}[1]{{\usefont{U}{bskarr}{m}{n}\char#1}}
+
+\DeclareFontFamily{U}{bskma}{}
+\DeclareFontShape{U}{bskma}{m}{n}{<->bskma10}{}
+\newcommand*{\BSKbskaddchar}[1]{{\usefont{U}{bskma}{m}{n}\char#1}}
+
+\DeclareFontFamily{U}{bskex}{}
+\DeclareFontShape{U}{bskex}{m}{n}{<->sfixed*bskex10}{}
+\newcommand*{\BSKlargesymbolschar}[1]{{\usefont{U}{bskex}{m}{n}\char#1}}
+
+HEADER
+    ;
+        next;
+    }
+
+    # Define most of boisik's symbols.
+    if ($oneline =~ /^\\DeclareMath(?:Symbol|Delimiter)\{\\([A-Za-z\@]+)\}.*\{(\w+)\}\s*\{(\"\w+)\}\s*$/o) {
+	my ($sym, $cat, $slot) = ($1, $2, $3);
+	print "\\DeclareRobustCommand{\\BSK$sym}{\\BSK${cat}char{$slot}}\n";
+    }
+}
+
+# Write some trailer boilerplate.
+print <<'TRAILER';
+
+\DeclareRobustCommand{\BSKmaltese}{\BSKbsksymbolschar{"EE}}
+\DeclareRobustCommand{\BSKcheckmark}{\BSKbsksymbolschar{"EF}}
+\DeclareRobustCommand{\BSKtintup}{\raisebox{2ex}{\BSKlargesymbolschar{"8A}}}
+\DeclareRobustCommand{\BSKdintup}{\raisebox{3ex}{\BSKlargesymbolschar{"8B}}}
+
+\DeclareRobustCommand{\BSKvec}[1]{%
+  \mbox{#1}%
+  \llap{\makebox[\wd0]{\BSKletterschar{"81}}\hspace{4pt}}%
+}
+
+\endinput
+TRAILER
+;

@@ -1,0 +1,65 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1B80	"""ᮀ"""	1B80..1BBF	Sundanese	Sundanese sign panyecek		
+1B81	"""ᮁ"""	1B80..1BBF	Sundanese	Sundanese sign panglayar		
+1B82	"""ᮂ"""	1B80..1BBF	Sundanese	Sundanese sign pangwisad		
+1B83	"""ᮃ"""	1B80..1BBF	Sundanese	Sundanese letter a		
+1B84	"""ᮄ"""	1B80..1BBF	Sundanese	Sundanese letter i		
+1B85	"""ᮅ"""	1B80..1BBF	Sundanese	Sundanese letter u		
+1B86	"""ᮆ"""	1B80..1BBF	Sundanese	Sundanese letter ae		
+1B87	"""ᮇ"""	1B80..1BBF	Sundanese	Sundanese letter o		
+1B88	"""ᮈ"""	1B80..1BBF	Sundanese	Sundanese letter e		
+1B89	"""ᮉ"""	1B80..1BBF	Sundanese	Sundanese letter eu		
+1B8A	"""ᮊ"""	1B80..1BBF	Sundanese	Sundanese letter ka		
+1B8B	"""ᮋ"""	1B80..1BBF	Sundanese	Sundanese letter qa		
+1B8C	"""ᮌ"""	1B80..1BBF	Sundanese	Sundanese letter ga		
+1B8D	"""ᮍ"""	1B80..1BBF	Sundanese	Sundanese letter nga		
+1B8E	"""ᮎ"""	1B80..1BBF	Sundanese	Sundanese letter ca		
+1B8F	"""ᮏ"""	1B80..1BBF	Sundanese	Sundanese letter ja		
+1B90	"""ᮐ"""	1B80..1BBF	Sundanese	Sundanese letter za		
+1B91	"""ᮑ"""	1B80..1BBF	Sundanese	Sundanese letter nya		
+1B92	"""ᮒ"""	1B80..1BBF	Sundanese	Sundanese letter ta		
+1B93	"""ᮓ"""	1B80..1BBF	Sundanese	Sundanese letter da		
+1B94	"""ᮔ"""	1B80..1BBF	Sundanese	Sundanese letter na		
+1B95	"""ᮕ"""	1B80..1BBF	Sundanese	Sundanese letter pa		
+1B96	"""ᮖ"""	1B80..1BBF	Sundanese	Sundanese letter fa		
+1B97	"""ᮗ"""	1B80..1BBF	Sundanese	Sundanese letter va		
+1B98	"""ᮘ"""	1B80..1BBF	Sundanese	Sundanese letter ba		
+1B99	"""ᮙ"""	1B80..1BBF	Sundanese	Sundanese letter ma		
+1B9A	"""ᮚ"""	1B80..1BBF	Sundanese	Sundanese letter ya		
+1B9B	"""ᮛ"""	1B80..1BBF	Sundanese	Sundanese letter ra		
+1B9C	"""ᮜ"""	1B80..1BBF	Sundanese	Sundanese letter la		
+1B9D	"""ᮝ"""	1B80..1BBF	Sundanese	Sundanese letter wa		
+1B9E	"""ᮞ"""	1B80..1BBF	Sundanese	Sundanese letter sa		
+1B9F	"""ᮟ"""	1B80..1BBF	Sundanese	Sundanese letter xa		
+1BA0	"""ᮠ"""	1B80..1BBF	Sundanese	Sundanese letter ha		
+1BA1	"""ᮡ"""	1B80..1BBF	Sundanese	Sundanese consonant sign pamingkal		
+1BA2	"""ᮢ"""	1B80..1BBF	Sundanese	Sundanese consonant sign panyakra		
+1BA3	"""ᮣ"""	1B80..1BBF	Sundanese	Sundanese consonant sign panyiku		
+1BA4	"""ᮤ"""	1B80..1BBF	Sundanese	Sundanese vowel sign panghulu		
+1BA5	"""ᮥ"""	1B80..1BBF	Sundanese	Sundanese vowel sign panyuku		
+1BA6	"""ᮦ"""	1B80..1BBF	Sundanese	Sundanese vowel sign panaelaeng		
+1BA7	"""ᮧ"""	1B80..1BBF	Sundanese	Sundanese vowel sign panolong		
+1BA8	"""ᮨ"""	1B80..1BBF	Sundanese	Sundanese vowel sign pamepet		
+1BA9	"""ᮩ"""	1B80..1BBF	Sundanese	Sundanese vowel sign paneuleung		
+1BAA	"""᮪"""	1B80..1BBF	Sundanese	Sundanese sign pamaaeh		
+1BAB	"""᮫"""	1B80..1BBF	Sundanese	Sundanese sign virama		
+1BAC	"""ᮬ"""	1B80..1BBF	Sundanese	Sundanese consonant sign pasangan ma		
+1BAD	"""ᮭ"""	1B80..1BBF	Sundanese	Sundanese consonant sign pasangan wa		
+1BAE	"""ᮮ"""	1B80..1BBF	Sundanese	Sundanese letter kha		
+1BAF	"""ᮯ"""	1B80..1BBF	Sundanese	Sundanese letter sya		
+1BB0	"""᮰"""	1B80..1BBF	Sundanese	Sundanese digit zero		
+1BB1	"""᮱"""	1B80..1BBF	Sundanese	Sundanese digit one		
+1BB2	"""᮲"""	1B80..1BBF	Sundanese	Sundanese digit two		
+1BB3	"""᮳"""	1B80..1BBF	Sundanese	Sundanese digit three		
+1BB4	"""᮴"""	1B80..1BBF	Sundanese	Sundanese digit four		
+1BB5	"""᮵"""	1B80..1BBF	Sundanese	Sundanese digit five		
+1BB6	"""᮶"""	1B80..1BBF	Sundanese	Sundanese digit six		
+1BB7	"""᮷"""	1B80..1BBF	Sundanese	Sundanese digit seven		
+1BB8	"""᮸"""	1B80..1BBF	Sundanese	Sundanese digit eight		
+1BB9	"""᮹"""	1B80..1BBF	Sundanese	Sundanese digit nine		
+1BBA	"""ᮺ"""	1B80..1BBF	Sundanese	Sundanese avagraha		
+1BBB	"""ᮻ"""	1B80..1BBF	Sundanese	Sundanese letter reu		
+1BBC	"""ᮼ"""	1B80..1BBF	Sundanese	Sundanese letter leu		
+1BBD	"""ᮽ"""	1B80..1BBF	Sundanese	Sundanese letter bha		
+1BBE	"""ᮾ"""	1B80..1BBF	Sundanese	Sundanese letter final k		
+1BBF	"""ᮿ"""	1B80..1BBF	Sundanese	Sundanese letter final m		

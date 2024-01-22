@@ -1,0 +1,152 @@
+#! /usr/bin/env python
+
+################################################
+# Convert each figchild picture to a PDF file. #
+#                                              #
+# Author: Scott Pakin <scott.clsl@pakin.org>   #
+################################################
+
+import concurrent.futures
+import os
+import re
+import subprocess
+import sys
+
+
+def kpsewhich(fname):
+    'Find a filename in the TeX tree.'
+    proc = subprocess.run(['kpsewhich', fname], capture_output=True,
+                          check=True, encoding='utf-8')
+    return proc.stdout.strip()
+
+
+# Extract all commands defined by figchild.sty and the package description.
+desc = None
+commands = []
+newcmd_re = re.compile(r'^\\newcommand{\\(fc\w+)\}')
+desc_re = re.compile(r'\\ProvidesPackage\{figchild\}\[(.*?)\]')
+sty = kpsewhich('figchild.sty')
+with open(sty) as r:
+    for ln in r:
+        # Extract the package description.
+        if desc is None:
+            match = desc_re.search(ln)
+            if match is not None:
+                desc = match[1]
+
+        # Extract a command.
+        match = newcmd_re.search(ln)
+        if match is None:
+            continue
+        if match[1] != 'fcAlligatorB':   # Undocumented and broken
+            commands.append(match[1])
+commands.sort(key=lambda s: s.lower())
+
+# Create a fakefigchild.sty file.
+with open('fakefigchild.sty', 'w') as w:
+    w.write('''\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a generated file.  DO NOT EDIT. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+''')
+    w.write('''\
+\\NeedsTeXFormat{LaTeX2e}
+\\ProvidesPackage{fakefigchild}[%s]
+\\RequirePackage{graphicx}
+
+''' % desc)
+    for cmd in commands:
+        ht = 20
+        if cmd == 'fcPencil':
+            # Special case for \fcPencil, which is abnormally wide and short.
+            ht = 5
+        w.write('\\DeclareRobustCommand{\\%s}{%%\n' % cmd)
+        w.write('  \\includegraphics[height=%dpt,keepaspectratio]'
+                '{figchild/%s}%%\n' % (ht, cmd))
+        w.write('}\n')
+    w.write('\n')
+    w.write('\\endinput\n')
+
+# Create and switch to a figchild subdirectory.
+try:
+    os.mkdir('figchild')
+except FileExistsError:
+    pass
+os.chdir('figchild')
+
+# For speed, dump a LaTeX format file with figchild preloaded.
+with open('preloaded.tex', 'w') as w:
+    w.write(r'''
+\documentclass{minimal}
+\usepackage[a2paper,landscape]{geometry}
+\usepackage{figchild}
+\usepackage{graphicx}
+\begin{document}
+\end{document}
+'''[1:])
+subprocess.run([
+    'pdflatex',
+    '--ini',
+    '&pdflatex',
+    'mylatex.ltx',
+    'preloaded.tex'
+],
+    check=True)
+
+
+def run_and_return_output(cmd_line):
+    'Run a command line and return its combined stdout + stderr.'
+    stdout = 'RUN: ' + ' '.join(cmd_line) + '\n'
+    proc = subprocess.run(cmd_line, check=True,
+                          stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    stdout += proc.stdout.decode('utf-8')
+    return stdout
+
+
+def generate_graphic(cmd):
+    'Generate a PDF file for a given figchild command.'
+    stdout = f'*** PROCESSING {cmd} ***\n\n'
+
+    # Create a LaTeX file.
+    stdout += f'CREATE: {cmd}.tex\n'
+    div = 48
+    if cmd == 'fcPencil':
+        # Special case for \fcPencil, which is abnormally wide and short.
+        div = 12
+    with open(cmd + '.tex', 'w') as w:
+        w.write(r'''
+\documentclass{minimal}
+\begin{document}
+
+\newsavebox{\fig}
+\savebox{\fig}{\%s{1}{black}{1}}
+\newlength{\figheight}
+\settoheight{\figheight}{\usebox{\fig}}
+
+\makeatletter
+\edef\figscale{\expandafter\strip@pt\dimexpr\figheight / %d\relax}
+\makeatother
+
+\%s{1}{black}{\figscale}
+\end{document}
+'''[1:] % (cmd, div, cmd))
+
+    # Compile the LaTeX file to PDF.
+    stdout += run_and_return_output(['pdflatex', '&mylatex', cmd + '.tex'])
+
+    # Crop the PDF file.
+    stdout += run_and_return_output(['pdfcrop', cmd + '.pdf'])
+
+    # Overwrite the original PDF file with the cropped version.
+    stdout += f'RUN: mv {cmd}-crop.pdf {cmd}.pdf\n'
+    os.rename(f'{cmd}-crop.pdf', f'{cmd}.pdf')
+
+    # Output the buffered output.
+    stdout += '\n'
+    print(stdout)
+
+
+# Concurrently process all figures.
+with concurrent.futures.ProcessPoolExecutor() as executor:
+    executor.map(generate_graphic, commands)

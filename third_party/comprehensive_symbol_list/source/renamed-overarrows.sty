@@ -1,0 +1,154 @@
+% =====================================
+% RENAMED-OVERARROWS.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% Redefine all overarrows commands with an OVARS prefix.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{renamed-overarrows}[2023/04/05 v1.0 renamed overarrows]
+
+\RequirePackage[noesvect]{overarrows}
+
+\DeclareOverArrowCommand{OVARSoverrightarrow}{%
+  amsmath, middle config=relbar,
+  end=\ovar@rightarrow,
+  right arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderrightarrow}{%
+  amsmath, middle config=relbar,
+  end=\ovar@rightarrow,
+  right arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverleftarrow}{%
+  amsmath, middle config=relbar,
+  start=\ovar@leftarrow,
+  end=\relbar,
+  left arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderleftarrow}{%
+  amsmath, middle config=relbar,
+  start=\ovar@leftarrow,
+  end=\relbar,
+  left arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverleftrightarrow}{%
+  amsmath, middle config=relbar,
+  start=\ovar@leftarrow,
+  end=\ovar@rightarrow,
+  center arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderleftrightarrow}{%
+  amsmath, middle config=relbar,
+  start=\ovar@leftarrow,
+  end=\ovar@rightarrow,
+  center arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverrightharpoonup}{%
+  amsmath, middle config=relbar,
+  end=\rightharpoonup,
+  right arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderrightharpoonup}{%
+  amsmath, middle config=relbar,
+  end=\rightharpoonup,
+  right arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverrightharpoondown}{%
+  amsmath, middle config=relbar,
+  end=\rightharpoondown,
+  right arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderrightharpoondown}{%
+  amsmath, middle config=relbar,
+  end=\rightharpoondown,
+  right arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverleftharpoonup}{%
+  amsmath, middle config=relbar,
+  start=\leftharpoonup,
+  end=\relbar,
+  left arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderleftharpoonup}{%
+  amsmath, middle config=relbar,
+  start=\leftharpoonup,
+  end=\relbar,
+  left arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverleftharpoondown}{%
+  amsmath, middle config=relbar,
+  start=\leftharpoondown,
+  end=\relbar,
+  left arrow,
+}
+
+\DeclareOverArrowCommand{OVARSunderleftharpoondown}{%
+  amsmath, middle config=relbar,
+  start=\leftharpoondown,
+  end=\relbar,
+  left arrow,
+  arrow under,
+}
+
+\DeclareOverArrowCommand{OVARSoverbar}{%
+  amsmath, middle config=relbar,
+  start={\std@minus}, end={\std@minus},% \relbar is defined with \mathsm@sh
+  shift leftright=0,
+  space after arrow=-0.3ex,
+}
+
+\DeclareOverArrowCommand{OVARSunderbar}{%
+  amsmath, middle config=relbar,
+  start={\std@minus}, end={\std@minus},% \relbar is defined with \mathsm@sh
+  shift leftright=0,
+  arrow under,
+  space before arrow=-0.3ex,
+}
+
+% The following is adapted from the overarrows documentation.
+\NewOverArrowCommand[tikz]{OVARSoverarchedleftrightarrow}{%
+  add tikz options={y=\overarrowlength},
+  add tikz options={line width={\overarrowsmallerthickness}},
+  path options={arrows={<[scale=0.5]->[scale=0.5]}},
+  path={(0,0) arc (-250:70:0.5 and 0.1)},
+  center arrow,
+  min length=25,
+  space after arrow=0.4ex,
+}
+
+% The following is adapted from the overarrows documentation.
+\NewOverArrowCommand[picture]{OVARSoverbandedarrow}{%
+  picture command={%
+    \qbezier
+    (0.0\overarrowlength,0)
+    (0.5\overarrowlength,0)
+    (0.9\overarrowlength,0.2\overarrowlength)
+    \put(0.9\overarrowlength,0.2\overarrowlength)
+        {\vector(2,1){0.2\overarrowlength}}
+  },
+  geometry={(\overarrowlength,0.4\overarrowlength)(0,0)},
+  line thickness={\overarrowsmallerthickness},
+  center arrow,
+  space after arrow=0.4ex,
+}
+
+\endinput

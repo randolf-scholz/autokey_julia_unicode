@@ -1,0 +1,234 @@
+##############################################
+# Categorize unions and intersections.       #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------------- unions -------------------------------
+
+# ... rounded ...
+
+[[rewrite]]
+matches = [
+    "cup",
+    "bigcup",
+    "varcup",
+    "set union",
+    "set union quantifier"
+]
+not_render_contains = '\BPcup'
+item = "union"
+
+[[rewrite]]
+matches = [
+    "Cup",
+    "doublecup"
+]
+item = ["union", "double"]
+
+[[rewrite]]
+matches = [
+    "cupdot",
+    "bigcupdot",
+    "dcup",
+    "bigdcup",
+    "dotcup",
+    "dotted union"
+]
+item = ["union", "dotted"]
+
+[[rewrite]]
+matches = "barcup"
+item = ["union", "bar"]
+
+[[rewrite]]
+matches = [
+    "cupplus",
+    "bigcupplus",
+    "uplus",
+    "biguplus"
+]
+item = ["union", "plus"]
+
+[[rewrite]]
+matches = "upin"
+item = ["union", "vertical line"]
+
+[[rewrite]]
+matches = "closedvarcup"
+item = ["union", "closed"]
+
+[[rewrite]]
+matches = "closedvarcupsmashprod"
+item = ["union", "closed, smash product"]
+
+[[rewrite]]
+matches = "cupbarcap"
+item = ["union", "bar, intersection"]
+
+[[rewrite]]
+matches = "cupovercap"
+item = ["union", "over intersection"]
+
+[[rewrite]]
+matches = "cupleftarrow"
+item = ["union", "left arrow"]
+
+[[rewrite]]
+matches = "cupvee"
+item = ["union", "vee"]
+
+[[rewrite]]
+matches = "twocups"
+item = ["union", "two adjacent"]
+
+# ... square ...
+
+[[rewrite]]
+matches = [
+    "bigsqcup",
+    "sqcup",
+    "varsqcup",
+    "bunch join",
+    "bunch join quantifier",
+    "map join"
+]
+item = ["union", "square"]
+
+[[rewrite]]
+matches = [
+    "doublesqcup",
+    "Sqcup",
+    "sqdoublecup"
+]
+item = ["union", "square, double"]
+
+[[rewrite]]
+matches = [
+    "bigsqcupdot",
+    "sqcupdot"
+]
+item = ["union", "square, dotted"]
+
+[[rewrite]]
+matches = [
+    "bigsqcupplus",
+    "sqcupplus",
+    "bigsquplus",
+    "squplus"
+]
+item = ["union", "square, plus"]
+
+[[rewrite]]
+matches = [
+    "lefthalfcup",
+    "righthalfcup"
+]
+item = ["union", "square, half"]
+
+# --------------------------- intersections ----------------------------
+
+# ... rounded ...
+
+[[rewrite]]
+matches = [
+    "cap",
+    "bigcap",
+    "varcap",
+    "set intersection",
+    "set intersection quantifier"
+]    
+not_render_contains = '\fcBonnet'
+item = "intersection"
+
+[[rewrite]]
+matches = [
+    "Cap",
+    "doublecap"
+]
+item = ["intersection", "double"]
+
+[[rewrite]]
+matches = "barcap"
+item = ["intersection", "bar"]
+
+[[rewrite]]
+matches = [
+    "capdot",
+    "bigcapdot"
+]
+item = ["intersection", "dotted"]
+
+[[rewrite]]
+matches = "mlcp"
+item = ["intersection", "vertical line"]
+
+[[rewrite]]
+matches = [
+    "capplus",
+    "bigcapplus",
+    "bignplus",
+    "nplus"
+]
+item = ["intersection", "plus"]
+
+[[rewrite]]
+matches = "capbarcup"
+item = ["intersection", "bar, union"]
+
+[[rewrite]]
+matches = "capovercup"
+item = ["intersection", "over union"]
+
+[[rewrite]]
+matches = "capwedge"
+item = ["intersection", "wedge"]
+
+[[rewrite]]
+matches = "closedvarcap"
+item = ["intersection", "closed"]
+
+[[rewrite]]
+matches = [
+    "lefthalfcap",
+    "righthalfcap"
+]
+item = ["intersection", "square, half"]
+
+[[rewrite]]
+matches = "twocaps"
+item = ["intersection", "two adjacent"]
+
+# ... square ...
+
+[[rewrite]]
+matches = [
+    "sqcap",
+    "bigsqcap",
+    "varsqcap",
+    "bunch meet",
+    "bunch meet quantifier",
+    "map meet"
+]
+item = ["intersection", "square"]
+
+[[rewrite]]
+matches = [
+    "doublesqcap",
+    "Sqcap",
+    "sqdoublecap"
+]
+item = ["intersection", "square, double"]
+
+[[rewrite]]
+matches = [
+    "sqcapdot",
+    "bigsqcapdot"
+]
+item = ["union", "square, dotted"]
+
+[[rewrite]]
+matches = [
+    "sqcapplus",
+    "bigsqcapplus"
+]
+item = ["intersection", "square, plus"]

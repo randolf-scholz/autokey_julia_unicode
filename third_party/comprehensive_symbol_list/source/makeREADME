@@ -1,0 +1,231 @@
+#! /usr/bin/env perl
+
+################################################
+# Generate a README file for the Comprehensive #
+# LaTeX Symbol List.                           #
+#                                              #
+# Author: Scott Pakin <scott+clsl@pakin.org>   #
+################################################
+
+use POSIX;
+use warnings;
+use strict;
+
+###########################################################################
+
+# Center a string within a given field length.
+sub center_string ($$)
+{
+    my ($string, $fieldlen) = @_;
+    my $prespaces = int (($fieldlen - length($string)) / 2);
+    my $postspaces = $fieldlen - length($string) - $prespaces;
+
+    return (" " x $prespaces) . $string . (" " x $postspaces);
+}
+
+
+# Format a list to a given number of columns.
+sub format_list ($$@)
+{
+    my ($numcols, $textwidth, @list) = @_;
+    my $itemwidth = int (($textwidth-4) / $numcols);
+
+    my $col = 0;
+    foreach my $item (@list) {
+        print "    " if $col%$numcols==0;
+        printf "%-${itemwidth}.${itemwidth}s", $item;
+        print "\n" if ++$col%$numcols==0;
+    }
+    print "\n";
+}
+
+
+# Return the human-readable name of a PostScript font file.
+sub find_pfb_name ($)
+{
+    my $pfb = $_[0];
+    my $pfbfile = `kpsewhich $pfb`;
+    die "${0}: Failed to locate $pfb\n" if !defined $pfbfile;
+    chomp $pfbfile;
+    local $/ = undef;
+    open (PFBFILE, "<$pfbfile") || die "open(\"$pfbfile\"): $!\n";
+    my $entirefile = <PFBFILE>;
+    close PFBFILE or die "close(\"$pfbfile\"): $!\n";
+    my $fullname;
+    if ($entirefile =~ /FullName\s*\(([^\)]*)\)/) {
+        # Best choice: FullName
+        $fullname = $1;
+        $fullname =~ s/\\(\d\d\d)/chr(oct($1))/ge;
+        $fullname =~ s/^\s+//;
+        $fullname =~ s/\s+$//;
+    }
+    elsif ($entirefile =~ m,FontName\s*/(\S+),) {
+        # Tolerable: FontName
+        $fullname = $1;
+    }
+    else {
+        die "${pfbfile}: FullName not found\n";
+    }
+    return $fullname;
+}
+
+
+# Return the human-readable name of a TrueType font file.
+sub find_ttf_name ($)
+{
+    my $ttf = $_[0];
+    my $ttffile = `kpsewhich $ttf`;
+    die "${0}: Failed to locate $ttf\n" if !defined $ttffile;
+    chomp $ttffile;
+    my %key_value;
+    local $/ = "\n";
+    open(TTFFILE, "otfinfo --info $ttffile|") || die "open(\"$ttffile\"): $!\n";
+    while (my $ln = <TTFFILE>) {
+        chomp $ln;
+        next if $ln !~ /^([^:]+):\s*(.*)$/;
+        $key_value{$1} = $2;
+    }
+    close TTFFILE or die "close(\"$ttffile\"): $!\n";
+    foreach my $key ("Full name",
+                     "Preferred family",
+                     "Family",
+                     "PostScript name") {
+        my $val = $key_value{$key};
+        return $val if $val ne "";
+    }
+    die "${ttffile}: Font information not found\n";
+}
+
+
+# Output all PostScript and TrueType font files and their associated,
+# human-readable font name.
+sub format_scalable_list ($\@)
+{
+    my $itemwidth = $_[0];
+    foreach my $fname (@{$_[1]}) {
+        my $fullname;
+        if ($fname =~ /\.pfb$/) {
+            $fullname = find_pfb_name $fname;
+        }
+        elsif ($fname =~ /\.ttf$/) {
+            $fullname = find_ttf_name $fname;
+        }
+        else {
+            die "${0}: Unrecognized file type for $fname\n";
+        }
+        printf "    %-${itemwidth}.${itemwidth}s (%s)\n", $fname, $fullname;
+    }
+}
+
+
+# Sort a list and discard duplicates.
+sub sort_unique (@)
+{
+    my %uniq;
+    foreach my $e (@_) {
+        $uniq{$e} = 1;
+    }
+    return sort keys %uniq;
+}
+
+###########################################################################
+
+# Check the command-line arguments.
+die "Usage: $0 <.log file> <.ind file>\n" if $#ARGV<1;
+my ($logfilename, $indfilename) = @ARGV;
+
+# Get the symbol count from the index file.
+my $numsymbols = 0;
+open (INDFILE, "<$indfilename") || die "open(): $!\nStopped";
+while (<INDFILE>) {
+    /\\item \\(sp)?verb/ && $numsymbols++;
+}
+close INDFILE;
+my $roundnumsymbols = int($numsymbols/100) * 100;
+
+# Read an entire pdflatex log file.
+open (LOGFILE, "<$logfilename") || die "open(): $!\nStopped";
+undef $/;
+my $logfile = <LOGFILE>;
+$logfile =~ s/\n//g;
+close LOGFILE;
+
+# Get a list of .mf files (indirectly via corresponding .pk files), .pfb,
+# and .ttf files referenced by the log file.
+my @mffiles = sort_unique map {"$_.mf"} ($logfile =~ m!<(?:[^>]+/)?([^/<>.]+)\.\d+pk>!g);
+my @scalable_files = sort_unique ($logfile =~ m!<(?:[^>]+/)?([^/<>.]+\.(?:pfb|ttf))>!g);
+
+# Tally the number of unique typefaces in @mffiles and @scalable_files.
+my %allfonts;
+foreach (@mffiles, @scalable_files) {
+    my $fname = $_;
+    $fname =~ s/\.(ttf|pfb|mf)$//;
+    $fname =~ s/\d+$//;
+    $allfonts{$fname} = 1;
+}
+my $numtypefaces = keys %allfonts;
+
+# Write the README header.
+my $date = strftime "%d %B %Y", localtime;
+$date =~ s/\b0+/ /g;
+my $headerwidth = 40;
+my $linewidth = 75;
+my $centerspace = " " x int(($linewidth-$headerwidth)/2);
+printf "%s+-%s-+\n", $centerspace, ("-" x ($headerwidth-4));
+printf "%s| %s |\n",
+    $centerspace,
+    center_string("THE COMPREHENSIVE LATEX SYMBOL LIST", $headerwidth-4);
+printf "%s| %s |\n",
+    $centerspace,
+    center_string("By Scott Pakin, scott+clsl\@pakin.org", $headerwidth-4);
+printf "%s| %s |\n",
+    $centerspace,
+    center_string("", $headerwidth-4);
+printf "%s| %s |\n",
+    $centerspace,
+    center_string($date, $headerwidth-4);
+printf "%s+-%s-+\n", $centerspace, ("-" x ($headerwidth-4));
+
+# Output some text.
+print <<"EOF1";
+
+The Comprehensive LaTeX Symbol List is an organized list of over $roundnumsymbols
+symbols commonly available to LaTeX users.  Some of these symbols are
+guaranteed to be available in every TeX distribution.  Others require
+font files that come with some, but not all, TeX distributions.  The
+rest require font files that must be downloaded explicitly from CTAN
+(http://www.ctan.org/) and installed.  The Comprehensive LaTeX Symbol
+List currently showcases symbols from $numtypefaces separate typefaces.
+
+The same directory that contains this README file also contains
+SYMLIST (an ASCII list of symbols that appear in the symbols list) and
+prebuilt versions of the symbol list for both A4 and U.S. Letter sized
+paper.  If you'd like to build symbols.tex yourself (not recommended
+for normal use), a Makefile is provided.  symbols.tex tries to be
+smart about fonts; it omits tables of symbols that require (seemingly)
+unavailable fonts.  The "Document Characteristics" table at the end of
+the document lists the packages that were unavailable during the
+build.
+
+The prebuilt versions of the symbol list use primarily Type 1 fonts.
+Type 1 fonts are scalable and should look good at any resolution and on
+any output device.  However, some of the fonts used by symbols.tex are
+available only in a METAFONT-generated bitmap format.  The prebuilt
+symbol lists utilize 1200 DPI versions of all of the bitmapped fonts as
+1200 DPI is a reasonably high printer resolution and therefore should
+obscure the artifacts of bitmap rendering.
+
+The following bitmapped fonts were used to typeset the symbol list:
+
+EOF1
+
+format_list (3, $linewidth, @mffiles);
+
+print <<"EOF2";
+
+For completeness, the following scalable fonts (some converted from
+OpenType to PostScript Type 1) were used to typeset the symbol list:
+
+EOF2
+
+format_scalable_list (22, @scalable_files);

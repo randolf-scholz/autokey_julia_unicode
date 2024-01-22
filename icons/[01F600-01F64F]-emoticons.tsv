@@ -1,0 +1,81 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+1F600	"""😀"""	1F600..1F64F	Emoticons	Grinning face		
+1F601	"""😁"""	1F600..1F64F	Emoticons	Grinning face with smiling eyes		
+1F602	"""😂"""	1F600..1F64F	Emoticons	Face with tears of joy		
+1F603	"""😃"""	1F600..1F64F	Emoticons	Smiling face with open mouth		
+1F604	"""😄"""	1F600..1F64F	Emoticons	Smiling face with open mouth and smiling eyes		
+1F605	"""😅"""	1F600..1F64F	Emoticons	Smiling face with open mouth and cold sweat		
+1F606	"""😆"""	1F600..1F64F	Emoticons	Smiling face with open mouth and tightly-closed eyes		
+1F607	"""😇"""	1F600..1F64F	Emoticons	Smiling face with halo		
+1F608	"""😈"""	1F600..1F64F	Emoticons	Smiling face with horns		
+1F609	"""😉"""	1F600..1F64F	Emoticons	Winking face		
+1F60A	"""😊"""	1F600..1F64F	Emoticons	Smiling face with smiling eyes		
+1F60B	"""😋"""	1F600..1F64F	Emoticons	Face savouring delicious food		
+1F60C	"""😌"""	1F600..1F64F	Emoticons	Relieved face		
+1F60D	"""😍"""	1F600..1F64F	Emoticons	Smiling face with heart-shaped eyes		
+1F60E	"""😎"""	1F600..1F64F	Emoticons	Smiling face with sunglasses		
+1F60F	"""😏"""	1F600..1F64F	Emoticons	Smirking face		
+1F610	"""😐"""	1F600..1F64F	Emoticons	Neutral face		
+1F611	"""😑"""	1F600..1F64F	Emoticons	Expressionless face		
+1F612	"""😒"""	1F600..1F64F	Emoticons	Unamused face		
+1F613	"""😓"""	1F600..1F64F	Emoticons	Face with cold sweat		
+1F614	"""😔"""	1F600..1F64F	Emoticons	Pensive face		
+1F615	"""😕"""	1F600..1F64F	Emoticons	Confused face		
+1F616	"""😖"""	1F600..1F64F	Emoticons	Confounded face		
+1F617	"""😗"""	1F600..1F64F	Emoticons	Kissing face		
+1F618	"""😘"""	1F600..1F64F	Emoticons	Face throwing a kiss		
+1F619	"""😙"""	1F600..1F64F	Emoticons	Kissing face with smiling eyes		
+1F61A	"""😚"""	1F600..1F64F	Emoticons	Kissing face with closed eyes		
+1F61B	"""😛"""	1F600..1F64F	Emoticons	Face with stuck-out tongue		
+1F61C	"""😜"""	1F600..1F64F	Emoticons	Face with stuck-out tongue and winking eye		
+1F61D	"""😝"""	1F600..1F64F	Emoticons	Face with stuck-out tongue and tightly-closed eyes		
+1F61E	"""😞"""	1F600..1F64F	Emoticons	Disappointed face		
+1F61F	"""😟"""	1F600..1F64F	Emoticons	Worried face		
+1F620	"""😠"""	1F600..1F64F	Emoticons	Angry face		
+1F621	"""😡"""	1F600..1F64F	Emoticons	Pouting face		
+1F622	"""😢"""	1F600..1F64F	Emoticons	Crying face		
+1F623	"""😣"""	1F600..1F64F	Emoticons	Persevering face		
+1F624	"""😤"""	1F600..1F64F	Emoticons	Face with look of triumph		
+1F625	"""😥"""	1F600..1F64F	Emoticons	Disappointed but relieved face		
+1F626	"""😦"""	1F600..1F64F	Emoticons	Frowning face with open mouth		
+1F627	"""😧"""	1F600..1F64F	Emoticons	Anguished face		
+1F628	"""😨"""	1F600..1F64F	Emoticons	Fearful face		
+1F629	"""😩"""	1F600..1F64F	Emoticons	Weary face		
+1F62A	"""😪"""	1F600..1F64F	Emoticons	Sleepy face		
+1F62B	"""😫"""	1F600..1F64F	Emoticons	Tired face		
+1F62C	"""😬"""	1F600..1F64F	Emoticons	Grimacing face		
+1F62D	"""😭"""	1F600..1F64F	Emoticons	Loudly crying face		
+1F62E	"""😮"""	1F600..1F64F	Emoticons	Face with open mouth		
+1F62F	"""😯"""	1F600..1F64F	Emoticons	Hushed face		
+1F630	"""😰"""	1F600..1F64F	Emoticons	Face with open mouth and cold sweat		
+1F631	"""😱"""	1F600..1F64F	Emoticons	Face screaming in fear		
+1F632	"""😲"""	1F600..1F64F	Emoticons	Astonished face		
+1F633	"""😳"""	1F600..1F64F	Emoticons	Flushed face		
+1F634	"""😴"""	1F600..1F64F	Emoticons	Sleeping face		
+1F635	"""😵"""	1F600..1F64F	Emoticons	Dizzy face		
+1F636	"""😶"""	1F600..1F64F	Emoticons	Face without mouth		
+1F637	"""😷"""	1F600..1F64F	Emoticons	Face with medical mask		
+1F638	"""😸"""	1F600..1F64F	Emoticons	Grinning cat face with smiling eyes		
+1F639	"""😹"""	1F600..1F64F	Emoticons	Cat face with tears of joy		
+1F63A	"""😺"""	1F600..1F64F	Emoticons	Smiling cat face with open mouth		
+1F63B	"""😻"""	1F600..1F64F	Emoticons	Smiling cat face with heart-shaped eyes		
+1F63C	"""😼"""	1F600..1F64F	Emoticons	Cat face with wry smile		
+1F63D	"""😽"""	1F600..1F64F	Emoticons	Kissing cat face with closed eyes		
+1F63E	"""😾"""	1F600..1F64F	Emoticons	Pouting cat face		
+1F63F	"""😿"""	1F600..1F64F	Emoticons	Crying cat face		
+1F640	"""🙀"""	1F600..1F64F	Emoticons	Weary cat face		
+1F641	"""🙁"""	1F600..1F64F	Emoticons	Slightly frowning face		
+1F642	"""🙂"""	1F600..1F64F	Emoticons	Slightly smiling face		
+1F643	"""🙃"""	1F600..1F64F	Emoticons	Upside-down face		
+1F644	"""🙄"""	1F600..1F64F	Emoticons	Face with rolling eyes		
+1F645	"""🙅"""	1F600..1F64F	Emoticons	Face with no good gesture		
+1F646	"""🙆"""	1F600..1F64F	Emoticons	Face with ok gesture		
+1F647	"""🙇"""	1F600..1F64F	Emoticons	Person bowing deeply		
+1F648	"""🙈"""	1F600..1F64F	Emoticons	See-no-evil monkey		
+1F649	"""🙉"""	1F600..1F64F	Emoticons	Hear-no-evil monkey		
+1F64A	"""🙊"""	1F600..1F64F	Emoticons	Speak-no-evil monkey		
+1F64B	"""🙋"""	1F600..1F64F	Emoticons	Happy person raising one hand		
+1F64C	"""🙌"""	1F600..1F64F	Emoticons	Person raising both hands in celebration		
+1F64D	"""🙍"""	1F600..1F64F	Emoticons	Person frowning		
+1F64E	"""🙎"""	1F600..1F64F	Emoticons	Person with pouting face		
+1F64F	"""🙏"""	1F600..1F64F	Emoticons	Person with folded hands		

@@ -1,0 +1,97 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0980	"""ঀ"""	0980..09FF	Bengali	Bengali anji		
+0981	"""ঁ"""	0980..09FF	Bengali	Bengali sign candrabindu		
+0982	"""ং"""	0980..09FF	Bengali	Bengali sign anusvara		
+0983	"""ঃ"""	0980..09FF	Bengali	Bengali sign visarga		
+0985	"""অ"""	0980..09FF	Bengali	Bengali letter a		
+0986	"""আ"""	0980..09FF	Bengali	Bengali letter aa		
+0987	"""ই"""	0980..09FF	Bengali	Bengali letter i		
+0988	"""ঈ"""	0980..09FF	Bengali	Bengali letter ii		
+0989	"""উ"""	0980..09FF	Bengali	Bengali letter u		
+098A	"""ঊ"""	0980..09FF	Bengali	Bengali letter uu		
+098B	"""ঋ"""	0980..09FF	Bengali	Bengali letter vocalic r		
+098C	"""ঌ"""	0980..09FF	Bengali	Bengali letter vocalic l		
+098F	"""এ"""	0980..09FF	Bengali	Bengali letter e		
+0990	"""ঐ"""	0980..09FF	Bengali	Bengali letter ai		
+0993	"""ও"""	0980..09FF	Bengali	Bengali letter o		
+0994	"""ঔ"""	0980..09FF	Bengali	Bengali letter au		
+0995	"""ক"""	0980..09FF	Bengali	Bengali letter ka		
+0996	"""খ"""	0980..09FF	Bengali	Bengali letter kha		
+0997	"""গ"""	0980..09FF	Bengali	Bengali letter ga		
+0998	"""ঘ"""	0980..09FF	Bengali	Bengali letter gha		
+0999	"""ঙ"""	0980..09FF	Bengali	Bengali letter nga		
+099A	"""চ"""	0980..09FF	Bengali	Bengali letter ca		
+099B	"""ছ"""	0980..09FF	Bengali	Bengali letter cha		
+099C	"""জ"""	0980..09FF	Bengali	Bengali letter ja		
+099D	"""ঝ"""	0980..09FF	Bengali	Bengali letter jha		
+099E	"""ঞ"""	0980..09FF	Bengali	Bengali letter nya		
+099F	"""ট"""	0980..09FF	Bengali	Bengali letter tta		
+09A0	"""ঠ"""	0980..09FF	Bengali	Bengali letter ttha		
+09A1	"""ড"""	0980..09FF	Bengali	Bengali letter dda		
+09A2	"""ঢ"""	0980..09FF	Bengali	Bengali letter ddha		
+09A3	"""ণ"""	0980..09FF	Bengali	Bengali letter nna		
+09A4	"""ত"""	0980..09FF	Bengali	Bengali letter ta		
+09A5	"""থ"""	0980..09FF	Bengali	Bengali letter tha		
+09A6	"""দ"""	0980..09FF	Bengali	Bengali letter da		
+09A7	"""ধ"""	0980..09FF	Bengali	Bengali letter dha		
+09A8	"""ন"""	0980..09FF	Bengali	Bengali letter na		
+09AA	"""প"""	0980..09FF	Bengali	Bengali letter pa		
+09AB	"""ফ"""	0980..09FF	Bengali	Bengali letter pha		
+09AC	"""ব"""	0980..09FF	Bengali	Bengali letter ba		
+09AD	"""ভ"""	0980..09FF	Bengali	Bengali letter bha		
+09AE	"""ম"""	0980..09FF	Bengali	Bengali letter ma		
+09AF	"""য"""	0980..09FF	Bengali	Bengali letter ya		
+09B0	"""র"""	0980..09FF	Bengali	Bengali letter ra		
+09B2	"""ল"""	0980..09FF	Bengali	Bengali letter la		
+09B6	"""শ"""	0980..09FF	Bengali	Bengali letter sha		
+09B7	"""ষ"""	0980..09FF	Bengali	Bengali letter ssa		
+09B8	"""স"""	0980..09FF	Bengali	Bengali letter sa		
+09B9	"""হ"""	0980..09FF	Bengali	Bengali letter ha		
+09BC	"""়"""	0980..09FF	Bengali	Bengali sign nukta		
+09BD	"""ঽ"""	0980..09FF	Bengali	Bengali sign avagraha		
+09BE	"""া"""	0980..09FF	Bengali	Bengali vowel sign aa		
+09BF	"""ি"""	0980..09FF	Bengali	Bengali vowel sign i		
+09C0	"""ী"""	0980..09FF	Bengali	Bengali vowel sign ii		
+09C1	"""ু"""	0980..09FF	Bengali	Bengali vowel sign u		
+09C2	"""ূ"""	0980..09FF	Bengali	Bengali vowel sign uu		
+09C3	"""ৃ"""	0980..09FF	Bengali	Bengali vowel sign vocalic r		
+09C4	"""ৄ"""	0980..09FF	Bengali	Bengali vowel sign vocalic rr		
+09C7	"""ে"""	0980..09FF	Bengali	Bengali vowel sign e		
+09C8	"""ৈ"""	0980..09FF	Bengali	Bengali vowel sign ai		
+09CB	"""ো"""	0980..09FF	Bengali	Bengali vowel sign o		
+09CC	"""ৌ"""	0980..09FF	Bengali	Bengali vowel sign au		
+09CD	"""্"""	0980..09FF	Bengali	Bengali sign virama		
+09CE	"""ৎ"""	0980..09FF	Bengali	Bengali letter khanda ta		
+09D7	"""ৗ"""	0980..09FF	Bengali	Bengali au length mark		
+09DC	"""ড়"""	0980..09FF	Bengali	Bengali letter rra		
+09DD	"""ঢ়"""	0980..09FF	Bengali	Bengali letter rha		
+09DF	"""য়"""	0980..09FF	Bengali	Bengali letter yya		
+09E0	"""ৠ"""	0980..09FF	Bengali	Bengali letter vocalic rr		
+09E1	"""ৡ"""	0980..09FF	Bengali	Bengali letter vocalic ll		
+09E2	"""ৢ"""	0980..09FF	Bengali	Bengali vowel sign vocalic l		
+09E3	"""ৣ"""	0980..09FF	Bengali	Bengali vowel sign vocalic ll		
+09E6	"""০"""	0980..09FF	Bengali	Bengali digit zero		
+09E7	"""১"""	0980..09FF	Bengali	Bengali digit one		
+09E8	"""২"""	0980..09FF	Bengali	Bengali digit two		
+09E9	"""৩"""	0980..09FF	Bengali	Bengali digit three		
+09EA	"""৪"""	0980..09FF	Bengali	Bengali digit four		
+09EB	"""৫"""	0980..09FF	Bengali	Bengali digit five		
+09EC	"""৬"""	0980..09FF	Bengali	Bengali digit six		
+09ED	"""৭"""	0980..09FF	Bengali	Bengali digit seven		
+09EE	"""৮"""	0980..09FF	Bengali	Bengali digit eight		
+09EF	"""৯"""	0980..09FF	Bengali	Bengali digit nine		
+09F0	"""ৰ"""	0980..09FF	Bengali	Bengali letter ra with middle diagonal		
+09F1	"""ৱ"""	0980..09FF	Bengali	Bengali letter ra with lower diagonal		
+09F2	"""৲"""	0980..09FF	Bengali	Bengali rupee mark		
+09F3	"""৳"""	0980..09FF	Bengali	Bengali rupee sign		
+09F4	"""৴"""	0980..09FF	Bengali	Bengali currency numerator one		
+09F5	"""৵"""	0980..09FF	Bengali	Bengali currency numerator two		
+09F6	"""৶"""	0980..09FF	Bengali	Bengali currency numerator three		
+09F7	"""৷"""	0980..09FF	Bengali	Bengali currency numerator four		
+09F8	"""৸"""	0980..09FF	Bengali	Bengali currency numerator one less than the denominator		
+09F9	"""৹"""	0980..09FF	Bengali	Bengali currency denominator sixteen		
+09FA	"""৺"""	0980..09FF	Bengali	Bengali isshar		
+09FB	"""৻"""	0980..09FF	Bengali	Bengali ganda mark		
+09FC	"""ৼ"""	0980..09FF	Bengali	Bengali letter vedic anusvara		
+09FD	"""৽"""	0980..09FF	Bengali	Bengali abbreviation sign		
+09FE	"""৾"""	0980..09FF	Bengali	Bengali sandhi mark		

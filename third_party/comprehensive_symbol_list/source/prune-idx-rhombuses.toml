@@ -1,0 +1,289 @@
+##############################################
+# Categorize rhombuses.                      #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+[[rewrite]]
+matches = "rhombuses"
+item = "rhombus"
+
+[[rewrite]]
+matches = [
+    "white diamond",
+    "white really small diamond",
+    "lozenge",
+    "largelozenge",
+    "medlozenge",
+    "smalllozenge"
+]
+item = "rhombus"
+
+[[rewrite]]
+contains = "whtlozenge"
+item = "rhombus"
+
+[[rewrite]]
+regex = '^(Big|Small)?(Lower|Right)Diamond$'
+item = ["rhombus", "half filled"]
+
+[[rewrite]]
+regex = '^diamond(left|right|top|bot)black$'
+item = ["rhombus", "half filled"]
+
+[[rewrite]]
+contains = ["blklozenge", "blacklozenge"]
+item = ["rhombus", "filled"]
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "rhombusfill"
+item = ["rhombus", "filled"]
+
+[[rewrite]]
+prefix = "rhombusfill"
+item = ["rhombus", "half filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^diamond(black|solid)$'
+item = ["rhombus", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^filled(big|small)?diamond(shape)?$'
+item = ["rhombus", "filled"]
+
+[[rewrite]]
+matches = [
+    "white curved diamond",
+    "sqlozenge",
+    "wasylozenge"
+]
+item = ["rhombus", "curved"]
+
+[[rewrite]]
+matches = "black curved diamond"
+item = ["rhombus", "curved, filled"]
+
+[[rewrite]]
+matches = [
+    "black diamond",
+    "black really small diamond"
+]
+item = ["rhombus", "filled"]
+
+[[rewrite]]
+prefix = "DiamondShadow"
+item = ["rhombus", "shadowed"]
+
+[[rewrite]]
+prefix = "FilledDiamondShadow"
+item = ["rhombus", "filled, shadowed"]
+
+[[rewrite]]
+matches = "SectioningDiamond"
+item = ["rhombus", "of rhombuses"]
+
+[[rewrite]]
+matches = "diamond with a dot"
+item = ["rhombus", "of blue rhombuses, with dot"]
+
+[[rewrite]]
+matches = [
+    "black diamond minus white X",
+    "OrnamentDiamondSolid",
+    "FilledSectioningDiamond"
+]
+item = ["rhombus", "of filled rhombuses"]
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "concavediamond"
+item = ["rhombus", "concave"]
+
+[[rewrite]]
+prefix = "concavediamond"
+item = ["rhombus", "concave, with tick"]
+
+[[rewrite]]
+matches = [
+    "crossed curved diamond",
+    "quartered curved diamond",
+    "quarted lozenge"               # Note spelling error.
+]
+item = ["rhombus", "curved, quartered"]
+
+[[rewrite]]
+matches = [
+    "crossed diamond",
+    "quartered diamond",
+    "rhombuslinevh"
+]
+item = ["rhombus", "quartered"]
+
+[[rewrite]]
+regex = '^diamond(plus|times)$'
+item = ["rhombus", "quartered"]
+
+[[rewrite]]
+regex = '^(up|down) slashed (lozenge|curved diamond)$'
+item = ["rhombus", "curved, slashed"]
+
+[[rewrite]]
+regex = '^(crossed|horizontally divided|vertically divided) lozenge$'
+item = ["rhombus", 'curved, \1']
+
+[[rewrite]]
+regex = '^(up|down) slashed diamond$'
+item = ["rhombus", "slashed"]
+
+[[rewrite]]
+regex = '^diamond(b|back)?slash$'
+item = ["rhombus", "slashed"]
+
+[[rewrite]]
+matches = "enclosediamond"
+item = ["rhombus", "enclosing"]
+
+[[rewrite]]
+matches = "diamonddots"
+item = ["rhombus", "of dots"]
+
+[[rewrite]]
+matches = "errbarblackdiamond"
+item = ["rhombus", "error bars, filled"]
+
+[[rewrite]]
+matches = "errbardiamond"
+item = ["rhombus", "error bars"]
+
+[[rewrite]]
+regex = '^(horizontally|vertically) divided curved diamond$'
+item = ["rhombus", 'curved, \1 divided']
+
+[[rewrite]]
+regex = '^(horizontally|vertically) divided diamond$'
+item = ["rhombus", '\1 divided']
+
+[[rewrite]]
+matches = ["diamondminus", "lozengeminus", "rhombuslineh"]
+item = ["rhombus", "horizontally divided"]
+
+[[rewrite]]
+matches = "rhombuslinev"
+item = ["rhombus", "vertically divided"]
+
+[[rewrite]]
+regex = '^diamond(bar|vert)$'
+item = ["rhombus", "vertically divided"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(diamond|rhombus)(dot|cdot)$'
+item = ["rhombus", "dotted"]
+
+[[rewrite]]
+matches = "lozengedot"
+item = ["rhombus", "dotted"]
+
+[[rewrite]]
+matches = "dotted curved diamond"
+item = ["rhombus", "curved, dotted"]
+
+[[rewrite]]
+matches = "dotted diamond"
+item = ["rhombus", "dotted"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = "diamond shape with a dot inside"
+item = ["rhombus", "dotted multiply"]
+
+[[rewrite]]
+regex = '^diamond(circle|triangle)$'
+item = ["rhombus", '\1']
+
+[[rewrite]]
+matches = "diamonddiamond"
+item = ["rhombus", "rhombus"]
+
+[[rewrite]]
+matches = "white curved diamond containing black diamond"
+item = ["rhombus", "curved, small rhombus, filled"]
+
+[[rewrite]]
+matches = [
+    "blackinwhitediamond",
+    "white diamond containing black diamond"
+]
+item = ["rhombus", "small rhombus, filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^diamond(left|right)$'
+item = ["rhombus", "with arrow"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^diamonddot(left|right)$'
+item = ["rhombus", "dotted, with arrow"]
+
+# This rule should precede the generic blue/orange diamond rule.
+[[rewrite]]
+contains = "blue diamond"
+render_contains = '\usym'
+item = ["rhombus", "striped"]
+
+# This rule should precede the generic blue/orange diamond rule.
+[[rewrite]]
+contains = "orange diamond"
+render_contains = '\usym'
+item = ["rhombus", "patterned"]
+
+[[rewrite]]
+regex = '(blue|orange) diamond$'
+item = ["rhombus", '\1']
+
+[[rewrite]]
+matches = "manconcentricdiamond"
+item = ["rhombus", "concentric"]
+
+[[rewrite]]
+matches = [
+    "outline curved diamond",
+    "outline lozenge"
+]
+item = ["rhombus", "curved, outlined"]
+
+[[rewrite]]
+matches = "outline diamond"
+item = ["rhombus", "outlined"]
+
+[[rewrite]]
+matches = "rhombuscross"
+item = ["rhombus", "crossed"]
+
+# This rule should precede the following one.
+[[rewrite]]
+compare_lowercase = true
+regex = '''
+^(big|large|med|small|lg|md|sm|vy)*\
+(wht|white)?\
+(diamond|rhombus)\
+(op|shape|[a-z])?$\
+'''
+item = "rhombus"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '''
+^(big|large|med|small|lg|md|sm|vy)*\
+(blk|black)\
+diamond\
+(shape|[a-z])?$\
+'''
+item = ["rhombus", "filled"]
+
+[[rewrite]]
+matches = "ataribox"
+item = ["rhombus", "white on black"]

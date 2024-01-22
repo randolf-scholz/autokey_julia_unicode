@@ -1,0 +1,302 @@
+                 +--------------------------------------+
+                 | THE COMPREHENSIVE LATEX SYMBOL LIST  |
+                 | By Scott Pakin, scott+clsl@pakin.org |
+                 |                                      |
+                 |            3 January 2024            |
+                 +--------------------------------------+
+
+The Comprehensive LaTeX Symbol List is an organized list of over 20300
+symbols commonly available to LaTeX users.  Some of these symbols are
+guaranteed to be available in every TeX distribution.  Others require
+font files that come with some, but not all, TeX distributions.  The
+rest require font files that must be downloaded explicitly from CTAN
+(http://www.ctan.org/) and installed.  The Comprehensive LaTeX Symbol
+List currently showcases symbols from 225 separate typefaces.
+
+The same directory that contains this README file also contains
+SYMLIST (an ASCII list of symbols that appear in the symbols list) and
+prebuilt versions of the symbol list for both A4 and U.S. Letter sized
+paper.  If you'd like to build symbols.tex yourself (not recommended
+for normal use), a Makefile is provided.  symbols.tex tries to be
+smart about fonts; it omits tables of symbols that require (seemingly)
+unavailable fonts.  The "Document Characteristics" table at the end of
+the document lists the packages that were unavailable during the
+build.
+
+The prebuilt versions of the symbol list use primarily Type 1 fonts.
+Type 1 fonts are scalable and should look good at any resolution and on
+any output device.  However, some of the fonts used by symbols.tex are
+available only in a METAFONT-generated bitmap format.  The prebuilt
+symbol lists utilize 1200 DPI versions of all of the bitmapped fonts as
+1200 DPI is a reasonably high printer resolution and therefore should
+obscure the artifacts of bitmap rendering.
+
+The following bitmapped fonts were used to typeset the symbol list:
+
+    ark10.mf               astrosym.mf            bbm10.mf               
+    bbm9.mf                bbmss10.mf             bbmtt10.mf             
+    bskarr10.mf            bskex10.mf             bskma10.mf             
+    bskmi10.mf             bskms10.mf             bsksy10.mf             
+    china10.mf             clock.mf               cmapl10.mf             
+    cmph10.mf              cmphi10.mf             cookingsymbols.mf      
+    cryst.mf               dancers.mf             dice3d.mf              
+    dozchars10.mf          dozchars9.mf           fcr10.mf               
+    fcr9.mf                feyntext10.mf          fselch10.mf            
+    fulmr10.mf             fulmr9.mf              go10.mf                
+    go1bla10.mf            go1whi10.mf            go2bla10.mf            
+    go2whi10.mf            greenpoint.mf          hands.mf               
+    ifclk10.mf             ifgeo10.mf             ifsym10.mf             
+    ifwea10.mf             igoblacki8.mf          igoblacki9.mf          
+    igoblackiii8.mf        igoblackiii9.mf        igowhitei9.mf          
+    igowhiteiii9.mf        knot1.mf               knot2.mf               
+    knot3.mf               knot4.mf               knot5.mf               
+    knot6.mf               knot7.mf               lightbulb10.mf         
+    magic.mf               mbb10.mf               mbb9.mf                
+    milstd.mf              moonphase.mf           nkarta.mf              
+    shuffle10.mf           simpsons.mf            skull.mf               
+    soyombo.mf             soyombot.mf            trsy10.mf              
+    ulsy10.mf              wnr10.mf               wsuipa10.mf            
+    wsuipa9.mf             
+
+For completeness, the following scalable fonts (some converted from
+OpenType to PostScript Type 1) were used to typeset the symbol list:
+
+    ASCII.pfb              (ASCII)
+    ArevSans-Roman.pfb     (Arev Sans)
+    ArrowsADF.pfb          (Arrows ADF)
+    Asap-Symbol.pfb        (Asap Symbol)
+    BulletsADF.pfb         (Bullets ADF)
+    DSSerif-Bold.pfb       (Double Struck Serif Bold)
+    DSSerif.pfb            (Double Struck Serif)
+    EBGaramond-Italic.pfb  (EB Garamond Italic)
+    Epi-Olmec.pfb          (Epi-Olmce)
+    FdSymbolA-Book.pfb     (FdSymbolA-Book)
+    FdSymbolB-Book.pfb     (FdSymbolB-Book)
+    FdSymbolB-Medium.pfb   (FdSymbolB-Medium)
+    FdSymbolC-Book.pfb     (FdSymbolC-Book)
+    FdSymbolD-Book.pfb     (FdSymbolD-Book)
+    FdSymbolE-Book.pfb     (FdSymbolE-Book)
+    FdSymbolF-Book.pfb     (FdSymbolF-Book)
+    FontAwesome5Brands-Reg (Font Awesome 5 Brands Regular)
+    FontAwesome5Free-Regul (Font Awesome 5 Free Regular)
+    FontAwesome5Free-Solid (Font Awesome 5 Free Solid)
+    HamNoSysUnicode.ttf    (Hamnosysunicode)
+    LinearA.pfb            (LinearA)
+    LinearACmplxSigns.pfb  (LinearACmplxSigns)
+    Logix.pfb              (Logix)
+    MnSymbol10.pfb         (MnSymbol10)
+    OrnementsADF.pfb       (Ornements ADF)
+    SVRsymbols.pfb         (SVRsymbols)
+    SkakNew-Diagram.pfb    (SkakNew-Diagram)
+    SkakNew-Figurine.pfb   (SkakNew-Figurine)
+    WebOMintsGD.pfb        (WebOMints GD)
+    academicons.ttf        (Academicons)
+    ar10.pfb               (ar10)
+    ar9.pfb                (ar9)
+    arrow.pfb              (arrow)
+    bbding10.pfb           (bbding)
+    bbold10.pfb            (BBOLD10)
+    callig15.pfb           (CALLIG15)
+    ccicons.pfb            (CCIcons)
+    cmbsy10.pfb            (CMBSY10)
+    cmbsy7.pfb             (CMBSY7)
+    cmbx10.pfb             (CMBX10)
+    cmbx7.pfb              (CMBX7)
+    cmbx9.pfb              (CMBX9)
+    cmcsc10.pfb            (CMCSC10)
+    cmcsc9.pfb             (CMCSC9)
+    cmex10.pfb             (CMEX10)
+    cmllr10.pfb            (CMLL Regular 10pt)
+    cmllr9.pfb             (CMLL Regular 9pt)
+    cmmi10.pfb             (CMMI10)
+    cmmi5.pfb              (CMMI5)
+    cmmi6.pfb              (CMMI6)
+    cmmi7.pfb              (CMMI7)
+    cmmi8.pfb              (CMMI8)
+    cmmi9.pfb              (CMMI9)
+    cmmib10.pfb            (CMMIB10)
+    cmmib5.pfb             (CMMIB5)
+    cmr10.pfb              (CMR10)
+    cmr12.pfb              (CMR12)
+    cmr17.pfb              (CMR17)
+    cmr5.pfb               (CMR5)
+    cmr6.pfb               (CMR6)
+    cmr7.pfb               (CMR7)
+    cmr9.pfb               (CMR9)
+    cmrj.pfb               (Computer Modern Figured Bass)
+    cmss10.pfb             (CMSS10)
+    cmss17.pfb             (CMSS17)
+    cmss8.pfb              (CMSS8)
+    cmss9.pfb              (CMSS9)
+    cmssi10.pfb            (CMSSI10)
+    cmsy10.pfb             (CMSY10)
+    cmsy5.pfb              (CMSY5)
+    cmsy6.pfb              (CMSY6)
+    cmsy7.pfb              (CMSY7)
+    cmsy8.pfb              (CMSY8)
+    cmsy9.pfb              (CMSY9)
+    cmti10.pfb             (CMTI10)
+    cmti9.pfb              (CMTI9)
+    cmtt10.pfb             (CMTT10)
+    cmtt8.pfb              (CMTT8)
+    cmtt9.pfb              (CMTT9)
+    cmupint.pfb            (cmupint)
+    countriesofeurope.pfb  (Countries of Europe)
+    cypr10.pfb             (Archaic Cypriot)
+    dictsym.pfb            (Dictionary Symbols Georg Verweyen)
+    dingbat.pfb            (dingbat)
+    dsrom10.pfb            (dsrom10)
+    dsss10.pfb             (dsss10)
+    esint10.pfb            (esint10)
+    esrelation10.pfb       (esrelation10)
+    eufm10.pfb             (EUFM10)
+    eufm7.pfb              (EUFM7)
+    eurm10.pfb             (EURM10)
+    eusm10.pfb             (EUSM10)
+    eusm7.pfb              (EUSM7)
+    feymr10.pfb            (TeX feymr10 Regular)
+    fgeit10.pfb            (fgeit10)
+    fgerm10.pfb            (fgerm10)
+    font-mfizz.ttf         (font-mfizz)
+    fourier-alt.pfb        (Fourier-Alternate-Roman)
+    fourier-mcl.pfb        (Fourier-Math-Cal)
+    fourier-mex.pfb        (Fourier-Math-Extension)
+    fourier-mlit.pfb       (Fourier-Math-Letters-Italic)
+    fourier-ms.pfb         (Fourier-Math-Symbols)
+    fourier-orns.pfb       (fourier-orns)
+    frcsl10.pfb            (frcsl10)
+    frucmn.pfb             (frucmn)
+    gmtr0900.pfb           (gmtr0900)
+    gmtr1000.pfb           (gmtr1000)
+    grmn0900.pfb           (grmn0900)
+    grmn1000.pfb           (grmn1000)
+    icelandic.pfb          (icelandic)
+    knitnn.pfb             (KnittingSymbols-nogrid-foreground)
+    knitnp.pfb             (KnittingSymbols-nogrid-purl)
+    lcirclew.pfb           (LCIRCLEW10)
+    linb10.pfb             (Archaic Linear B)
+    line10.pfb             (LINE10)
+    lmr10.pfb              (LMRoman10-Regular)
+    logo10.pfb             (LOGO10)
+    logo9.pfb              (LOGO9)
+    logosl10.pfb           (LOGOSL10)
+    manfnt.pfb             (manfnt)
+    marvosym.pfb           (MarVoSym with TeX support)
+    matha10.pfb            (TeX matha10 Regular)
+    matha9.pfb             (TeX matha9 Regular)
+    mathb10.pfb            (TeX mathb10 Regular)
+    mathb9.pfb             (TeX mathb9 Regular)
+    mathx10.pfb            (TeX mathx10 Regular)
+    md-chr7v.pfb           (MathDesign CH Regular Extension 10)
+    md-chr8c.pfb           (MathDesign CH Regular TS1 10)
+    md-gmr7v.pfb           (MathDesign GM Regular Extension 10)
+    md-gmr8c.pfb           (MathDesign GM Regular TS1 10)
+    md-utr7v.pfb           (MathDesign UT Regular 10)
+    md-utr7y.pfb           (MathDesign UT Regular Symbol 10)
+    md-utr8c.pfb           (MathDesign UT Regular TS1 10)
+    md-utrma.pfb           (MathDesign UT Regular MathDesignSymbolA 10)
+    md-utrmb.pfb           (MathDesign UT Regular MathDesignSymbolB 10)
+    miama.pfb              (Miama Nueva)
+    msam10.pfb             (MSAM10)
+    msam7.pfb              (MSAM7)
+    msbm10.pfb             (MSBM10)
+    msbm7.pfb              (MSBM7)
+    msym10.pfb             (MSYM10)
+    musix11.pfb            (musix11)
+    musix13.pfb            (musix13)
+    musix16.pfb            (musix16)
+    musix20.pfb            (musix20)
+    oasy10.pfb             (OAMathSymbols10)
+    phaistos.pfb           (phaistos)
+    plimsoll.pfb           (Plimsoll)
+    pmhg.pfb               (Archaic Poor Mans Hieroglyphs)
+    prodint.pfb            (prodint)
+    proto10.pfb            (Archaic ProtoSemitic)
+    qzcmi.pfb              (TeXGyreChorus-MediumItalic)
+    recycle.pfb            (Recycle)
+    rojud.pfb              (rojud)
+    rsfs10.pfb             (rsfs10)
+    rtcxr.pfb              (rtcxr)
+    sarab10.pfb            (Archaic South Arabian)
+    sfbx0700.pfb           (Computer Modern Bold Extended)
+    sfbx0800.pfb           (Computer Modern Bold Extended)
+    sfbx1000.pfb           (Computer Modern Bold Extended)
+    sfbx1200.pfb           (Computer Modern Bold Extended)
+    sfbx1440.pfb           (Computer Modern Bold Extended)
+    sfbx2074.pfb           (Computer Modern Bold Extended)
+    sfbx2488.pfb           (Computer Modern Bold Extended)
+    sfcc0700.pfb           (Computer Modern Caps and Small Caps)
+    sfcc0900.pfb           (Computer Modern Caps and Small Caps)
+    sfcc1000.pfb           (Computer Modern Caps and Small Caps)
+    sfrm0500.pfb           (Computer Modern Roman)
+    sfrm0600.pfb           (Computer Modern Roman)
+    sfrm0700.pfb           (Computer Modern Roman)
+    sfrm0800.pfb           (Computer Modern Roman)
+    sfrm0900.pfb           (Computer Modern Roman)
+    sfrm1000.pfb           (Computer Modern Roman)
+    sfrm1095.pfb           (Computer Modern Roman)
+    sfrm1200.pfb           (Computer Modern Roman)
+    sfrm2488.pfb           (Computer Modern Roman)
+    sfsi1000.pfb           (Computer Modern Sans Serif Slanted)
+    sfsl1200.pfb           (Computer Modern Slanted)
+    sfss0800.pfb           (Computer Modern Sans Serif)
+    sfss1000.pfb           (Computer Modern Sans Serif)
+    sfsx0800.pfb           (Computer Modern Sans Serif Bold Extended)
+    sfsx1000.pfb           (Computer Modern Sans Serif Bold Extended)
+    sfti0600.pfb           (Computer Modern Italic)
+    sfti0700.pfb           (Computer Modern Italic)
+    sfti0800.pfb           (Computer Modern Italic)
+    sfti1000.pfb           (Computer Modern Italic)
+    sftt0800.pfb           (Computer Modern Typewriter)
+    sftt0900.pfb           (Computer Modern Typewriter)
+    sftt1000.pfb           (Computer Modern Typewriter)
+    smfer10.pfb            (Semafor-NoPillar)
+    smfpr10.pfb            (Semafor-PersonPillar)
+    smfr10.pfb             (Semafor-Regular)
+    starfont.pfb           (StarFont Sans)
+    stix-mathbb.pfb        (STIXMathBlackboard Regular)
+    stix-mathbbit.pfb      (STIXMathBlackboard Italic)
+    stix-mathcal.pfb       (STIXMathCalligraphy Regular)
+    stix-mathex.pfb        (STIXMathExtensions Regular)
+    stix-mathfrak.pfb      (STIXMathFraktur Regular)
+    stix-mathit.pfb        (STIXMath Italic)
+    stix-mathrm-bold.pfb   (STIXMath Bold)
+    stix-mathrm.pfb        (STIXMath Regular)
+    stix-mathscr.pfb       (STIXMathScript Regular)
+    stix-mathsf.pfb        (STIXMathSans Regular)
+    stix-mathsfit.pfb      (STIXMathSans Italic)
+    stix-mathtt.pfb        (STIXMathTyperwriter-Regular)
+    stmary10.pfb           (stmary10)
+    stmary9.pfb            (stmary9)
+    tfrupee.pfb            (RupeeTechFat)
+    tipa10.pfb             (TeX tipa10 Regular)
+    tipa8.pfb              (TeX tipa8 Regular)
+    tipa9.pfb              (TeX tipa9 Regular)
+    tipx10.pfb             (TeX tipx10 Regular)
+    tipx9.pfb              (TeX tipx9 Regular)
+    txexa.pfb              (txexa)
+    txmia.pfb              (txmia)
+    txsy.pfb               (txsy)
+    txsyc.pfb              (txsyc)
+    typicons.ttf           (Typicons)
+    uhvb8a.pfb             (Nimbus Sans L Bold)
+    uhvbo8a.pfb            (Nimbus Sans L Bold Italic)
+    uhvr8a.pfb             (Nimbus Sans L Regular)
+    umranda.pfb            (umranda)
+    umrandb.pfb            (umrandb)
+    usyr.pfb               (Standard Symbols L)
+    utmr8a.pfb             (Nimbus Roman No9 L Regular)
+    utmri8a.pfb            (Nimbus Roman No9 L Regular Italic)
+    uzcmi8a.pfb            (URW Chancery L Medium Italic)
+    uzdr.pfb               (Dingbats)
+    vect10.pfb             (TeX vect10 Regular)
+    vnr10.pfb              (VNR10)
+    vnr9.pfb               (VNR9)
+    wasy10.pfb             (wasy10)
+    wasy9.pfb              (wasy9)
+    xgreg20.pfb            (xgreg20)
+    yfrak.pfb              (Yannis Fraktur Regular)
+    ygoth.pfb              (Yannis Gotisch Regular)
+    yhcmex.pfb             (Yhcmex)
+    yswab.pfb              (Yannis Schwabacher Regular)
+    zxxrw8a.pfb            (Boondox Calligraphic Regular)

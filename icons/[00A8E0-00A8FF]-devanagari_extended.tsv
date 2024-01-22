@@ -1,0 +1,33 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+A8E0	"""꣠"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit zero		
+A8E1	"""꣡"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit one		
+A8E2	"""꣢"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit two		
+A8E3	"""꣣"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit three		
+A8E4	"""꣤"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit four		
+A8E5	"""꣥"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit five		
+A8E6	"""꣦"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit six		
+A8E7	"""꣧"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit seven		
+A8E8	"""꣨"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit eight		
+A8E9	"""꣩"""	A8E0..A8FF	Devanagari Extended	Combining devanagari digit nine		
+A8EA	"""꣪"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter a		
+A8EB	"""꣫"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter u		
+A8EC	"""꣬"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter ka		
+A8ED	"""꣭"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter na		
+A8EE	"""꣮"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter pa		
+A8EF	"""꣯"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter ra		
+A8F0	"""꣰"""	A8E0..A8FF	Devanagari Extended	Combining devanagari letter vi		
+A8F1	"""꣱"""	A8E0..A8FF	Devanagari Extended	Combining devanagari sign avagraha		
+A8F2	"""ꣲ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign spacing candrabindu		
+A8F3	"""ꣳ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign candrabindu virama		
+A8F4	"""ꣴ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign double candrabindu virama		
+A8F5	"""ꣵ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign candrabindu two		
+A8F6	"""ꣶ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign candrabindu three		
+A8F7	"""ꣷ"""	A8E0..A8FF	Devanagari Extended	Devanagari sign candrabindu avagraha		
+A8F8	"""꣸"""	A8E0..A8FF	Devanagari Extended	Devanagari sign pushpika		
+A8F9	"""꣹"""	A8E0..A8FF	Devanagari Extended	Devanagari gap filler		
+A8FA	"""꣺"""	A8E0..A8FF	Devanagari Extended	Devanagari caret		
+A8FB	"""ꣻ"""	A8E0..A8FF	Devanagari Extended	Devanagari headstroke		
+A8FC	"""꣼"""	A8E0..A8FF	Devanagari Extended	Devanagari sign siddham		
+A8FD	"""ꣽ"""	A8E0..A8FF	Devanagari Extended	Devanagari jain om		
+A8FE	"""ꣾ"""	A8E0..A8FF	Devanagari Extended	Devanagari letter ay		
+A8FF	"""ꣿ"""	A8E0..A8FF	Devanagari Extended	Devanagari vowel sign ay		

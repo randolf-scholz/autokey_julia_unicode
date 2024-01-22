@@ -1,0 +1,802 @@
+################################################################
+# Rewrite entries for all accents to put them under "accents". #
+# Author: Scott Pakin <scott+clsl@pakin.org>                   #
+################################################################
+
+# ---------------------- accents with an argument ----------------------
+
+# This entry must appear before other "\|" entries.
+# What is this accent actually called?
+[[rewrite]]
+render_contains = '\encfour{\blackacchack{\FCbar}}'
+item = ["accents", "fang"]
+
+# This entry must appear before other "ring" entries.
+[[rewrite]]
+render_contains = [
+    '\blackacc{\ABXwidering}',
+    '\blackacc{\FOURmathring}',
+    '\blackacc{\FOURwidering}',
+    '\blackacc{\YHwidering}'
+]
+item = ["accents", "combination ring and arc"]
+
+[[rewrite]]
+matches = "`"
+item = ["accents", "grave"]
+
+[[rewrite]]
+matches = "."
+render_contains = "blackacc"
+item = ["accents", "dot"]
+
+[[rewrite]]
+render_contains = [
+    '\blackacc{\STIXdot}',
+    '\blackacc{\dot}'
+]
+item = ["accents", "dot"]
+
+[[rewrite]]
+matches = ["acutus", "'"]
+item = ["accents", "acute"]
+
+[[rewrite]]
+matches = "APLcirc"
+item = ["accents", "circle overlay"]
+
+[[rewrite]]
+matches = ["APLnot", "textsuperimposetilde"]
+item = ["accents", "tilde overlay"]
+
+[[rewrite]]
+matches = "APLvert"
+item = ["accents", "vertical line overlay"]
+
+[[rewrite]]
+matches = "asteraccent"
+item = ["accents", "asterisk"]
+
+[[rewrite]]
+matches = ["bar", "_magicequalname"]
+render_contains = "blackacc"
+item = ["accents", "macron"]
+
+[[rewrite]]
+matches = "bibridge"
+item = ["accents", "bridge above and below"]
+
+[[rewrite]]
+matches = ["b", "underbar", "ushort", "ushortw"]
+render_contains = "blackacc"
+item = ["accents", "bar below"]
+
+[[rewrite]]
+matches = "c"
+render_contains = "blackacc"
+item = ["accents", "cedilla"]
+
+[[rewrite]]
+matches = "C"
+render_contains = "blackacc"
+item = ["accents", "grave, double"]
+
+[[rewrite]]
+matches = "crtilde"
+item = ["accents", "tilde, crossed"]
+
+[[rewrite]]
+matches = "candra"
+item = ["accents", "candrabindu"]
+
+[[rewrite]]
+matches = "cb"
+render_contains = "blackacc"
+item = ["accents", "comma below"]
+
+[[rewrite]]
+matches = ["check", "v", "varwidecheck", "widecheck"]
+item = ["accents", "caron"]
+
+[[rewrite]]
+matches = ["circumflexus", "~", "Umd", "varwidetilde"]
+item = ["accents", "tilde"]
+
+[[rewrite]]
+matches = "closure"
+render_contains = "blackacc"
+item = ["accents", "macron"]
+
+[[rewrite]]
+matches = "Cyrillic breve"
+item = ["accents", "breve, Cyrillic"]
+
+[[rewrite]]
+matches = "dental"
+item = ["accents", "bridge below"]
+
+[[rewrite]]
+matches = "d"
+render_contains = "blackacc"
+item = ["accents", "dot below"]
+
+[[rewrite]]
+matches = "ddot"
+item = ["accents", "dot, double"]
+
+[[rewrite]]
+matches = "dddot"
+item = ["accents", "dot, triple"]
+
+[[rewrite]]
+matches = "ddddot"
+item = ["accents", "dot, quadruple"]
+
+[[rewrite]]
+matches = "droang"
+item = ["accents", "angle, left"]
+
+[[rewrite]]
+matches = "mathring"
+item = ["accents", "ring"]
+
+[[rewrite]]
+matches = "dottedtilde"
+item = ["accents", "homothetic"]
+
+[[rewrite]]
+matches = "doubletilde"
+item = ["accents", "almost equal to"]
+
+[[rewrite]]
+preserve_escapes = true
+matches = ["diaeresis", '"']
+item = ["accents", "diaeresis"]
+word = 'di{\ae}resis'
+
+[[rewrite]]
+matches = ["D", "td", "textsubumlaut"]
+render_contains = "blackacc"
+preserve_escapes = true
+item = ["accents", "diaeresis below"]
+word = 'di{\ae}resis below'
+
+[[rewrite]]
+matches = [
+    "f",
+    "inverted breve",
+    "newtie",
+    "ohill",
+    "Cyrillic flex",
+    "textroundcap"
+]
+render_contains = "blackacc"
+item = ["accents", "breve, inverted"]
+
+[[rewrite]]
+matches = "finpartvoice"
+item = ["accents", "voiced consonant, final partial"]
+
+[[rewrite]]
+matches = "finpartvoiceless"
+item = ["accents", "voiceless consonant, final partial"]
+
+[[rewrite]]
+matches = ["G", "textdoublegrave", "Cyrillic umlaut"]
+render_contains = "blackacc"
+item = ["accents", "grave, double"]
+
+[[rewrite]]
+matches = ["grave", "gravis"]
+item = ["accents", "grave"]
+
+[[rewrite]]
+matches = "H"
+render_contains = "blackacc"
+item = ["accents", "acute, double"]
+
+[[rewrite]]
+matches = "h"
+render_contains = "blackacc"
+item = ["accents", "hook"]
+
+[[rewrite]]
+matches = ["hat", "^", "varwidehat", "widehat"]
+render_contains = "blackacc"
+item = ["accents", "circumflex"]
+
+[[rewrite]]
+matches = "hat"
+render_matches = ""
+item = ["accents", "circumflex"]
+
+[[rewrite]]
+matches = ["hill", "textsubarch", "underarch"]
+item = ["accents", "breve below, inverted"]
+
+[[rewrite]]
+matches = "inipartvoice"
+item = ["accents", "voiced consonant, initial partial"]
+
+[[rewrite]]
+matches = "inipartvoiceless"
+item = ["accents", "voiceless consonant, initial partial"]
+
+[[rewrite]]
+matches = "k"
+render_contains = "blackacc"
+item = ["accents", "ogonek"]
+
+[[rewrite]]
+matches = "middlebar"
+item = ["accents", "macron overlay"]
+
+[[rewrite]]
+matches = ["middleslash", "Ohne"]
+item = ["accents", "solidus overlay"]
+
+[[rewrite]]
+matches = "ocommatopright"
+item = ["accents", "comma"]
+
+[[rewrite]]
+matches = "od"
+item = ["accents", "ring below"]
+
+[[rewrite]]
+matches = "oturnedcomma"
+item = ["accents", "comma, inverted"]
+
+[[rewrite]]
+regex = '^(?:a)?over(arc|bar|brace|bracket|bridge|group|parenthesis)\*?$'
+item = ["accents", '\1']
+
+[[rewrite]]
+regex = '^over(left|right)(pitchfork|broom)$'
+item = ["accents", '\2, \1']
+
+[[rewrite]]
+regex = '^(left|right)arrowaccent$'
+item = ["accents", 'arrow, \1']
+
+[[rewrite]]
+regex = '^(left|right)harpoonaccent$'
+item = ["accents", 'harpoon, \1 up']
+
+[[rewrite]]
+regex = '^(?:short)?over(left|right)harp(?:oon)?(up|down)$'
+item = ["accents", 'harpoon, \1 \2']
+
+[[rewrite]]
+matches = ["overrightharp", "overrightharpoon", "shortoverrightharp"]
+item = ["accents", "harpoon, right up"]
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '\FDSYMoverleftharpoon'
+item = ["accents", "harpoon, left down"]
+
+[[rewrite]]
+matches = ["overleftharp", "overleftharpoon", "shortoverleftharp"]
+item = ["accents", "harpoon, left up"]
+
+[[rewrite]]
+matches = ["overrightleftharp", "shortoverrightleftharp"]
+item = ["accents", "harpoon, right up, left down"]
+
+[[rewrite]]
+matches = ["overleftrightharp", "shortoverleftrightharp"]
+item = ["accents", "harpoon, left up, right down"]
+
+[[rewrite]]
+matches = ["overleftrightvecc", "shortoverleftrightvecc"]
+item = ["accents", "arrow, double-ended"]
+
+[[rewrite]]
+matches = "overline"
+item = ["accents", "bar"]
+
+[[rewrite]]
+matches = "overlinesegment"
+item = ["accents", "line segment"]
+
+[[rewrite]]
+matches = ["overparen", "texttoptiebar", "wideparen"]
+item = ["accents", "parenthesis"]
+
+[[rewrite]]
+matches = "ovhook"
+item = ["accents", "hook"]
+
+[[rewrite]]
+matches = "partvoice"
+item = ["accents", "voiced consonant, partial"]
+
+[[rewrite]]
+matches = "partvoiceless"
+item = ["accents", "voiceless consonant, partial"]
+
+[[rewrite]]
+matches = ["r", "ring"]
+render_contains = "blackacc"
+item = ["accents", "ring"]
+
+[[rewrite]]
+matches = "rc"
+item = ["accents", "cedilla, reversed"]
+
+[[rewrite]]
+matches = ["shortunderleftrightvecc", "spreadlips", "underleftrightvecc"]
+item = ["accents", "arrow below, double-ended"]
+
+[[rewrite]]
+regex = '^(short)?(straight)?lvecc$'
+item = ["accents", "arrow, left"]
+
+[[rewrite]]
+regex = '^(short)?(straight)?vecc$'
+item = ["accents", "arrow, right"]
+
+[[rewrite]]
+regex = '^(short)?under(straight)?lvecc$'
+item = ["accents", "arrow below, left"]
+
+[[rewrite]]
+regex = '^(short)?under(straight)?vecc$'
+item = ["accents", "arrow below, right"]
+
+[[rewrite]]
+matches = "sliding"
+item = ["accents", "arrow below, right"]
+
+[[rewrite]]
+matches = "spiritusasper"
+item = ["accents", "spiritus asper"]
+
+[[rewrite]]
+matches = "spirituslenis"
+item = ["accents", "spiritus lenis"]
+
+[[rewrite]]
+matches = "subcorner"
+item = ["accents", "angle below, left"]
+
+[[rewrite]]
+matches = "strokethrough"
+item = ["accents", "solidus overlay"]
+
+[[rewrite]]
+matches = ["subdoublebar", "ushortdw"]
+item = ["accents", "bar below, double"]
+
+[[rewrite]]
+matches = "subdoublevert"
+item = ["accents", "vertical line below, double"]
+
+[[rewrite]]
+matches = "sublptr"
+item = ["accents", "arrowhead below, left"]
+
+[[rewrite]]
+matches = "subrptr"
+item = ["accents", "arrowhead below, right"]
+
+[[rewrite]]
+matches = ["syl", "textsyllabic"]
+item = ["accents", "vertical line below"]
+
+[[rewrite]]
+matches = "t"
+render_contains = "blackacc"
+item = ["accents", "tie"]
+
+[[rewrite]]
+regex = '^text(acute|breve|grave|ring|tilde)(dot|macron)$'
+item = ["accents", 'combination \1 and \2']
+
+[[rewrite]]
+matches = "textacutewedge"
+item = ["accents", "combination acute and caron"]
+
+[[rewrite]]
+matches = "textadvancing"
+item = ["accents", "tack below, left"]
+
+[[rewrite]]
+matches = "textbottomtiebar"
+item = ["accents", "arc below, inverted"]
+
+[[rewrite]]
+regex = '^textcircum(acute|dot)$'
+item = ["accents", 'combination circumflex and \1']
+
+[[rewrite]]
+regex = '^textdot(acute|breve)$'
+item = ["accents", 'combination dot and \1']
+
+[[rewrite]]
+matches = "textdoublevbaraccent"
+item = ["accents", "vertical line, double"]
+
+[[rewrite]]
+matches = "textfallrise"
+item = ["accents", "falling and rising tone"]
+
+[[rewrite]]
+matches = "textgravecircum"
+item = ["accents", "combination grave and circumflex"]
+
+[[rewrite]]
+matches = "textgravemid"
+item = ["accents", "combination grave and macron"]
+
+[[rewrite]]
+matches = "texthighrise"
+item = ["accents", "high rising tone"]
+
+[[rewrite]]
+matches = "textinvsubbridge"
+item = ["accents", "bridge below, inverted"]
+
+[[rewrite]]
+matches = "textlowering"
+item = ["accents", "tack below, down"]
+
+[[rewrite]]
+matches = "textlowrise"
+item = ["accents", "low rising tone"]
+
+[[rewrite]]
+matches = "textmidacute"
+item = ["accents", "combination macron and acute"]
+
+[[rewrite]]
+matches = "textovercross"
+item = ["accents", "X"]
+
+[[rewrite]]
+matches = "textoverw"
+item = ["accents", "arch, inverted double"]
+
+[[rewrite]]
+matches = "textpolhook"
+item = ["accents", "hook below, inverted and reversed"]
+
+[[rewrite]]
+matches = "textraising"
+item = ["accents", "tack below, up"]
+
+[[rewrite]]
+matches = "textretracting"
+item = ["accents", "tack below, right"]
+
+[[rewrite]]
+matches = "textrisefall"
+item = ["accents", "rising and falling tone"]
+
+[[rewrite]]
+matches = "textseagull"
+item = ["accents", "seagull below"]
+
+[[rewrite]]
+matches = "textsubcircum"
+item = ["accents", "circumflex below"]
+
+[[rewrite]]
+matches = "textsublhalfring"
+item = ["accents", "half ring below, left"]
+
+[[rewrite]]
+matches = "textsubrhalfring"
+item = ["accents", "half ring below, right"]
+
+[[rewrite]]
+regex = '^textsub(acute|grave)$'
+item = ["accents", '\1 below, inverted']
+
+[[rewrite]]
+regex = '^textsub(bar|bridge|dot|plus|ring|square|tilde)$'
+item = ["accents", '\1 below']
+
+[[rewrite]]
+matches = "textsubw"
+item = ["accents", "arch below, inverted double"]
+
+[[rewrite]]
+matches = "textsubwedge"
+item = ["accents", "caron below"]
+
+[[rewrite]]
+matches = "textvbaraccent"
+item = ["accents", "vertical line"]
+
+[[rewrite]]
+matches = "u"
+render_contains = "blackacchack"
+item = ["accents", "breve"]
+
+[[rewrite]]
+matches = "U"
+render_contains = '\blackacchack{\smtrU}'
+item = ["accents", "breve, below"]
+
+# What is this accent actually called?
+[[rewrite]]
+matches = "U"
+render_contains = '\encfour{\blackacchack{\U}}'
+item = ["accents", "fang, double"]
+
+[[rewrite]]
+matches = "U"
+render_contains = '\enctwoA{\blackacchack{\U}}'
+item = ["accents", "breve, Cyrillic"]
+
+[[rewrite]]
+regex = '^(?:a)?under(arc|brace|bracket|group|parenthesis)$'
+item = ["accents", '\1 below, inverted']
+
+[[rewrite]]
+regex = '^under(left|right)(pitchfork|broom)$'
+item = ["accents", '\2 below, \1']
+
+[[rewrite]]
+matches = "underline"
+render_contains = "blackacc"
+item = ["accents", "bar below"]
+
+[[rewrite]]
+matches = "underparen"
+item = ["accents", "parenthesis below, inverted"]
+
+[[rewrite]]
+regex = '^(?:short)?under(left|right)harp(?:oon)?(?:up|down)$'
+item = ["accents", 'harpoon below, \1 down']
+
+[[rewrite]]
+matches = ["underleftharp", "underleftharpoon", "shortunderleftharp"]
+item = ["accents", "harpoon below, left up"]
+
+[[rewrite]]
+matches = ["underrightharp", "underrightharpoon", "shortunderrightharp"]
+item = ["accents", "harpoon below, right up"]
+
+[[rewrite]]
+matches = ["underleftrightharp", "shortunderleftrightharp"]
+item = ["accents", "harpoon below, left up, right down"]
+
+[[rewrite]]
+matches = ["underrightleftharp", "shortunderrightleftharp"]
+item = ["accents", "harpoon below, right up, left down"]
+
+[[rewrite]]
+matches = "underlinesegment"
+item = ["accents", "line segment below"]
+
+[[rewrite]]
+matches = ["ut", "utilde"]
+item = ["accents", "tilde below"]
+
+[[rewrite]]
+matches = ["vec", "vv"]
+item = ["accents", "arrow, right"]
+
+[[rewrite]]
+regex = '^wide(arc|bar|ring|tilde|triangle)$'
+item = ["accents", '\1']
+
+[[rewrite]]
+matches = "whistle"
+item = ["accents", "arrow below, up"]
+
+[[rewrite]]
+matches = "widebridgeabove"
+item = ["accents", "bridge"]
+
+[[rewrite]]
+matches = "wideOarc"
+item = ["accents", "arrow, curved right"]
+
+[[rewrite]]
+regex = '^double\s+(.*)$'
+render_contains = "blackacc"
+item = ["accents", '\1, double']
+
+[[rewrite]]
+matches = ["Fermi", "Ferli"]
+item = ["accents", "fermata"]
+
+[[rewrite]]
+matches = [
+    "acute",
+    "breve",
+    "macron",
+    "tilde"
+]
+render_contains = "blackacc"
+item = ["accents", '\g<0>']
+
+# ... halloweenmath accents ...
+
+# Here we lump together various halloweenmath decorative accents that
+# aren't particularly useful individually.
+
+[[rewrite]]
+regex = '^over.*(bat|ghost)\*?'
+item = ["accents", '\1']
+
+[[rewrite]]
+regex = '^over(?:left|right)witchon(broom|pitchfork)\*?$'
+item = ["accents", 'witch on \1']
+
+[[rewrite]]
+regex = '^under.*(bat|ghost)\*?'
+item = ["accents", '\1 below']
+
+[[rewrite]]
+regex = '^under(?:left|right)witchon(broom|pitchfork)\*?$'
+item = ["accents", 'witch on \1 below']
+
+# --------------- diacritics (accents with no argument) ----------------
+
+[[rewrite]]
+matches = "underwedge"
+item = ["diacritics", "wedge below"]
+
+[[rewrite]]
+regex = '^text(acute|grave)dbl$'
+item = ["diacritics", '\1, double']
+
+[[rewrite]]
+matches = "textdownstep"
+item = ["diacritics", "arrow down"]
+
+# I'm just guessing what "celtpal" means.
+[[rewrite]]
+matches = "textceltpal"
+item = ["diacritics", "Celtic palatal"]
+
+[[rewrite]]
+matches = "textupstep"
+item = ["diacritics", "arrow up"]
+
+[[rewrite]]
+matches = "texthalflength"
+item = ["diacritics", "half-length vowel"]
+
+[[rewrite]]
+matches = "texthooktop"
+item = ["diacritics", "hook"]
+
+[[rewrite]]
+matches = "textlptr"
+item = ["diacritics", "less than"]
+
+[[rewrite]]
+matches = "textrptr"
+item = ["diacritics", "greater than"]
+
+[[rewrite]]
+matches = ["textpalhook", "textpalhookvar", "textpalhooklong"]
+item = ["diacritics", "palatal hook"]
+
+[[rewrite]]
+matches = "textprimstress"
+item = ["diacritics", "primary stress"]
+
+[[rewrite]]
+matches = "textsecstress"
+item = ["diacritics", "secondary stress"]
+
+[[rewrite]]
+matches = "textrectangle"
+item = ["diacritics", "rectangle"]
+
+[[rewrite]]
+matches = "textretractingvar"
+item = ["diacritics", "retracting"]
+
+[[rewrite]]
+matches = "textrevapostrophe"
+item = ["diacritics", "apostrophe, reversed"]
+
+[[rewrite]]
+matches = "textrthook"
+item = ["diacritics", "hook right"]
+
+[[rewrite]]
+matches = "textrthooklong"
+item = ["diacritics", "hook right, long"]
+
+[[rewrite]]
+matches = "textrhoticity"
+item = ["diacritics", "rhoticity"]
+
+[[rewrite]]
+matches = "undertilde"
+item = ["diacritics", "tilde below"]
+
+[[rewrite]]
+matches = "textasciidieresis"
+item = ["diacritics", "diaeresis"]
+word = 'di{\\ae}resis'
+
+[[rewrite]]
+matches = "textasciicircum"
+item = ["diacritics", "circumflex"]
+
+[[rewrite]]
+render_contains = '(\^{})'
+item = ["diacritics", "circumflex"]
+
+[[rewrite]]
+render_contains = '(\corner)'
+item = ["diacritics", "corner"]
+
+[[rewrite]]
+matches = [
+    "open",
+    "stress",
+    "syllabic"
+]
+item = ["diacritics", '\1']
+
+[[rewrite]]
+regex = '^(up|down|left|right)t$'
+item = ["diacritics", 'tack \1']
+
+[[rewrite]]
+regex = '^(up|down|left|right)p$'
+item = ["diacritics", 'pointer \1']
+
+[[rewrite]]
+regex = '^under(dots|ring|tilde|wedge)$'
+item = ["diacritics", '\1 below']
+
+[[rewrite]]
+matches = "overring"
+item = ["diacritics", "ring"]
+
+[[rewrite]]
+matches = "ain"
+item = ["diacritics", "apostrophe, reversed"]
+
+[[rewrite]]
+matches = "polishhook"
+item = ["diacritics", "Polish hook"]
+
+[[rewrite]]
+matches = "secstress"
+item = ["diacritics", "secondary stress"]
+
+[[rewrite]]
+matches = "midtilde"
+item = ["diacritics", "tilde, middle"]
+
+[[rewrite]]
+matches = "halflength"
+item = ["diacritics", "half length"]
+
+[[rewrite]]
+matches = "obrbrak"
+item = ["diacritics", "down bracket, below"]
+
+[[rewrite]]
+matches = "ubrbrak"
+item = ["diacritics", "up bracket, above"]
+
+[[rewrite]]
+matches = ["barOver", "BarOver"]
+item = ["diacritics", "macron"]
+
+[[rewrite]]
+render_contains = '(\magicequal{})'
+item = ["diacritics", "macron"]
+
+[[rewrite]]
+render_contains = '(\~{})'
+item = ["diacritics", "tilde"]
+
+# This rule should appear near the end of this section.
+[[rewrite]]
+regex = '^textascii(.+)$'
+item = ["diacritics", '\1']

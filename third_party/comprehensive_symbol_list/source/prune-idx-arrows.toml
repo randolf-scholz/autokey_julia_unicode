@@ -1,0 +1,494 @@
+##############################################
+# Categorize arrow symbols.                  #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------ early special cases -------------------------
+
+[[rewrite]]
+contains = "arrow"
+render_contains = "blackacc"
+item = ["arrow", "accents"]
+render = ""
+
+[[rewrite]]
+contains = "threearrows"
+item = ["arrow", "three"]
+
+[[rewrite]]
+matches = [
+   "envelope with arrow",
+   "envelope with downwards arrow above"
+]
+item = ["envelope", "with downward arrow"]
+
+[[rewrite]]
+render_contains = ["{1f519}", "{1F519}"]
+item = "BACK with arrow"
+
+[[rewrite]]
+render_contains = ["{1f51a}", "{1F51A}"]
+item = "END with arrow"
+
+[[rewrite]]
+render_contains = ["{1f51b}", "{1F51B}"]
+item = "ON!! with arrow"
+
+[[rewrite]]
+render_contains = ["{1f51c}", "{1F51C}"]
+item = "SOON with arrow"
+
+[[rewrite]]
+render_contains = ["{1f51d}", "{1F51D}"]
+item = "TOP with arrow"
+
+[[rewrite]]
+matches = "heart with arrow"
+item = ["heart", "with arrow"]
+
+# ----------------------------- arrowheads -----------------------------
+
+[[rewrite]]
+matches = "arrowheads"
+item = "arrowhead"
+
+[[rewrite]]
+regex = '^outline.*arrow head$'
+item = ["arrowhead", "outlined"]
+
+[[rewrite]]
+regex = '^black.*arrow head$'
+item = ["arrowhead", "filled"]
+
+[[rewrite]]
+render_contains = '\usym{27A4}'
+item = ["arrowhead", "filled"]
+
+[[rewrite]]
+regex = '^white.*arrow head$'
+item = ["arrowhead", "hollow"]
+
+[[rewrite]]
+regex = '^dotted.*arrow head$'
+item = ["arrowhead", "dotted"]
+
+[[rewrite]]
+compare_lowercase = true
+contains = ["arrowhead", "arrowbullet"]
+item = ["arrowhead", "half filled"]
+
+# ----------------------------- non-arrows -----------------------------
+
+# This rule should appear early in the arrows section because we're
+# *not* categorizing keyboard symbols as arrows.
+[[rewrite]]
+matches = "UArrow"
+item = ["keyboard symbols", "up arrow"]
+
+# This rule should appear early in the arrows section because we're
+# *not* categorizing keyboard symbols as arrows.
+[[rewrite]]
+matches = "DArrow"
+item = ["keyboard symbols", "down arrow"]
+
+# This rule should appear early in the arrows section because we're
+# *not* categorizing keyboard symbols as arrows.
+[[rewrite]]
+matches = "LArrow"
+item = ["keyboard symbols", "left arrow"]
+
+# This rule should appear early in the arrows section because we're
+# *not* categorizing keyboard symbols as arrows.
+[[rewrite]]
+matches = "RArrow"
+item = ["keyboard symbols", "right arrow"]
+
+[[rewrite]]
+matches = "people with arrows"
+item = ["people", "with arrows"]
+
+# This rule ideally belongs in prune-idx-triangles, but arrows are
+# processed first so it has to be handled here.
+[[rewrite]]
+matches = [
+    "DOWNarrow",
+    "LEFTarrow",
+    "RIGHTarrow",
+    "UParrow"
+]
+item = ["triangle", "filled"]
+
+# This rule ideally belongs in prune-idx-harpoons, but arrows are
+# processed first so it has to be handled here.
+[[rewrite]]
+matches = [
+    "left harpoon down arrow",
+    "left harpoon up arrow",
+    "right harpoon down arrow",
+    "right harpoon up arrow"
+]
+item = "harpoon"
+
+[[rewrite]]
+regex = '^mobile phone with.*arrow'
+item = ["cell phone", "with arrow"]
+
+# ------------------------------- arrows -------------------------------
+
+# This rule should precede the following one.
+[[rewrite]]
+render_contains = '\faArrows*'
+item = ["arrow", "crossing, dingbat"]
+
+# This rule should precede the generic "arrows" rule.
+[[rewrite]]
+consider_all_entries = true
+top_matches = "arrows"
+matches = "double-headed, diagonal"
+item = ["arrow", "double headed"]
+
+# This rule should precede the following one.
+[[rewrite]]
+top_matches = "arrows"
+matches = "arrows"
+item = ["arrow"]
+
+[[rewrite]]
+top_matches = "arrows"
+regex = '^(.+)$'
+item = ["arrow", '\1']
+
+[[rewrite]]
+regex = 'arrow.*arrow'
+item = ["arrow", "two"]
+
+[[rewrite]]
+matches = "xtofrom"
+item = ["arrow", "two, extensible"]
+
+# This rule should appear before the following rule.
+[[rewrite]]
+render_regex = '\\usym\{1F5(0[0-4]|D8)\}'
+item = ["arrow", "two, filled"]
+
+# This rule should appear early in the arrows section.
+[[rewrite]]
+contains = "arrows"
+not_contains = ["curvearrows", "arrowsub", "arrowsup"]
+not_render_contains = [
+    "faArrows",
+    "pkgname",
+    "twemoji"
+]
+item = ["arrow", "two"]
+
+# This rule should appear early in the arrows section.
+[[rewrite]]
+regex = '^(.*)arow(.*)$'
+word = '\1arrow\2'
+continue = true
+
+[[rewrite]]
+matches = [
+    "to",
+    "gets",
+    "CAN",
+    "EM",
+    "SUB",
+    "ESC"
+]
+not_render_contains = '\EOto'
+item = "arrow"
+
+[[rewrite]]
+matches = ["nto", "ngets"]
+item = ["arrow", "negated"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '(LLeft|RRight|UUp|DDown).*arrow'
+item = ["arrow", "triple bodied"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '(Lleft|Rright|Uup|Ddown).*arrow'
+item = ["arrow", "triple bodied"]
+
+# This rule should precede the following one.
+[[rewrite]]
+regex = '(Leftright|Updown|Nesw|Nwse|Longleftright).*arrow'
+item = ["arrow", "double ended, double bodied"]
+
+[[rewrite]]
+regex = '(Left|Right|Up|Down|Long|Ne|Nw|Se|Sw).*arrow'
+item = ["arrow", "double bodied"]
+
+[[rewrite]]
+regex = '(twohead|double).*arrow'
+item = ["arrow", "double headed"]
+
+[[rewrite]]
+render_contains = "BParrow"
+item = ["arrow", "double tailed"]
+
+# This rule must precede the generic "heavy.*arrow" rule.
+[[rewrite]]
+matches = [
+    "fgerightarrow",
+    "wedge-tailed rightwards arrow",
+    "heavy wedge-tailed rightwards arrow"
+]
+item = ["arrow", "fletched"]
+
+[[rewrite]]
+regex = 'feathered.*arrow'
+item = ["arrow", "fletched"]
+
+[[rewrite]]
+regex = 'shad.*arrow'   # "shadowed" or "shaded"
+item = ["arrow", "shadowed"]
+
+[[rewrite]]
+contains = "arrowon"
+item = ["arrow", "overlaid on a circle"]
+
+[[rewrite]]
+regex = 'circleon.*arrow'
+item = ["arrow", "circle centered"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(hook|hk).*arrow'
+item = ["arrow", "hooked"]
+
+# This rule must precede the "curve...arrow" rule.
+[[rewrite]]
+matches = [
+    "ArrowBoldDownRight",
+    "ArrowBoldRightShort",
+    "ArrowBoldUpRight",
+    "ArrowBoldRightCircled",
+    "ArrowBoldRightStrobe",
+    "MVRightArrow",
+    "heavy black curved downwards and rightwards arrow",
+    "heavy black curved upwards and rightwards arrow"
+]
+item = ["arrow", "dingbat"]
+
+[[rewrite]]
+regex = '(curve|(?<!v)arc).*arrow'
+item = ["arrow", "curved"]
+
+[[rewrite]]
+matches = ["Lefttorque", "Righttorque"]
+item = ["arrow", "curved"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'loop.*arrow'
+item = ["arrow", "looped"]
+
+[[rewrite]]
+regex = 'ov.*arrow'
+not_contains = "barover"
+item = ["arrow", "crossing"]
+
+[[rewrite]]
+regex = '^to[nsew]a$'
+item = ["arrow", "crossing"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'white.*arrow'
+item = ["arrow", "outlined"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'black.*arrow'
+not_matches = "blackcircledownarrow"
+item = ["arrow", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'zig.*arrow'
+item = ["arrow", "zigzagged"]
+
+[[rewrite]]
+compare_lowercase = true
+contains = "arrowtriangle"
+item = ["arrow", "triangle headed"]
+
+[[rewrite]]
+matches = "triangle-headed rightwards arrow"
+item = ["arrow", "triangle headed"]
+
+[[rewrite]]
+contains = 'arrowtail'
+item = ["arrow", "with tail"]
+
+[[rewrite]]
+render_contains = [
+    '$\curlyveedownarrow$',
+    '$\curlywedgeuparrow$',
+    '\BSKcurlywedgedownarrow',
+    '\BSKcurlywedgeuparrow'
+]
+item = ["arrow", "joined"]
+
+[[rewrite]]
+render_contains = [
+    '$\curlyveeuparrow$',
+    '$\curlywedgedownarrow$',
+    '\BSKcurlyveedownarrow',
+    '\BSKcurlyveeuparrow'
+]
+item = ["arrow", "forked"]
+
+[[rewrite]]
+render_contains = 'twemoji'
+regex = '(up|down|left|right|clockwise).*?\s+arrow'
+item = ["arrow", "buttons"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = 'ribbon.*arrow'
+item = ["arrow", "ribbon"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(squig|wav[ey]).*arrow'
+item = ["arrow", "wavy"]
+
+[[rewrite]]
+matches = ["leadsto", "longleadsto"]
+item = ["arrow", "wavy"]
+
+# This rule must follow the "dashed" rule.
+[[rewrite]]
+matches = [
+    "dashed triangle-headed rightwards arrow",
+    "heavy dashed triangle-headed rightwards arrow"
+]
+item = ["arrow", "dingbat"]
+
+# I think "bk" is short for "broken".
+[[rewrite]]
+compare_lowercase = true
+regex = '(dash|bk).*arrow'
+item = ["arrow", "dashed"]
+
+[[rewrite]]
+regex = 'dot.*arrow'
+item = ["arrow", "dotted"]
+
+[[rewrite]]
+regex = 'Square.*arrow'
+item = ["arrow", "with rectangular body"]
+
+# This rule must precede the other "circle...arrow" rules.
+[[rewrite]]
+regex = 'circle(left|right)arrow'
+item = ["arrow", "with circular tail"]
+
+[[rewrite]]
+regex = 'Circle.*arrow'
+item = ["arrow", "with rounded body"]
+
+[[rewrite]]
+regex = '(circle|lefttoright|righttoleft|uptodown|downtoup).*arrow'
+not_contains = ["blackcircledownarrow", "circleon"]
+item = ["arrow", "circular"]
+
+[[rewrite]]
+matches = ["leftturn", "rightturn"]
+item = ["arrow", "circular"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^[dlr]+sh$'
+item = ["arrow", "bent"]
+
+[[rewrite]]
+contains = "fork arrow"
+item = ["arrow", "fork tailed"]
+
+[[rewrite]]
+contains = "fish arrow"
+item = ["arrow", "fish headed"]
+
+[[rewrite]]
+regex = '^heavy.*arrow$'
+item = ["arrow", "dingbat"]
+
+[[rewrite]]
+matches = [
+    "drafting point rightwards arrow",
+    "open-outlined rightwards arrow",
+    "teardrop-barbed rightwards arrow"
+]
+item = ["arrow", "dingbat"]
+
+[[rewrite]]
+matches = [
+    "shpos",
+    "shneg",
+    "shift for subscripts",
+    "shift for superscripts"
+]
+item = ["arrow"]
+
+[[rewrite]]
+matches = [
+    "shift",
+    "shift for accents",
+    "DCb",
+    "GS"
+]
+item = ["arrow", "double ended"]
+
+[[rewrite]]
+matches = "ETB"
+item = ["arrow", "double ended, bar under"]
+
+[[rewrite]]
+contains = "flat arrow"
+item = ["arrow", "flat"]
+
+[[rewrite]]
+matches = "pointer"
+item = ["arrow", "hollow"]
+
+# Explicitly ignore more non-arrows.
+[[rewrite]]
+contains = [
+    " arrow",      # Various emoji arrows
+    "arrowbullet",
+    "wheelbarrow"
+]
+
+# This rule should appear late in the arrows section.
+[[rewrite]]
+compare_lowercase = true
+regex = '(updown|downup|leftright|rightleft|(ne|nw|se|sw){2})arrow'
+item = ["arrow", "double ended"]
+
+# This rule should appear late in the arrows section.
+[[rewrite]]
+compare_lowercase = true
+regex = '^n(?!n?[ew]).*(arrow|leadsto)'
+item = ["arrow", "negated"]
+
+# This rule should appear last in the arrows section.
+[[rewrite]]
+compare_lowercase = true
+contains = ["arrow", "textglob"]
+not_contains = [
+    "geneuronarrow",
+    "cupleftarrow",
+    "leftarrowsubset",
+    "rightarrowsupset"
+]
+not_regex = '(black|white)(circle|diamond)downarrow'
+not_render_contains = ["textsf", "pkgname"]
+item = "arrow"
+render = 'arrow ($\rightarrow$)'

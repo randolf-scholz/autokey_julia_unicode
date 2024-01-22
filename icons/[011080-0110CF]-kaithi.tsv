@@ -1,0 +1,69 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+11080	"""𑂀"""	11080..110CF	Kaithi	Kaithi sign candrabindu		
+11081	"""𑂁"""	11080..110CF	Kaithi	Kaithi sign anusvara		
+11082	"""𑂂"""	11080..110CF	Kaithi	Kaithi sign visarga		
+11083	"""𑂃"""	11080..110CF	Kaithi	Kaithi letter a		
+11084	"""𑂄"""	11080..110CF	Kaithi	Kaithi letter aa		
+11085	"""𑂅"""	11080..110CF	Kaithi	Kaithi letter i		
+11086	"""𑂆"""	11080..110CF	Kaithi	Kaithi letter ii		
+11087	"""𑂇"""	11080..110CF	Kaithi	Kaithi letter u		
+11088	"""𑂈"""	11080..110CF	Kaithi	Kaithi letter uu		
+11089	"""𑂉"""	11080..110CF	Kaithi	Kaithi letter e		
+1108A	"""𑂊"""	11080..110CF	Kaithi	Kaithi letter ai		
+1108B	"""𑂋"""	11080..110CF	Kaithi	Kaithi letter o		
+1108C	"""𑂌"""	11080..110CF	Kaithi	Kaithi letter au		
+1108D	"""𑂍"""	11080..110CF	Kaithi	Kaithi letter ka		
+1108E	"""𑂎"""	11080..110CF	Kaithi	Kaithi letter kha		
+1108F	"""𑂏"""	11080..110CF	Kaithi	Kaithi letter ga		
+11090	"""𑂐"""	11080..110CF	Kaithi	Kaithi letter gha		
+11091	"""𑂑"""	11080..110CF	Kaithi	Kaithi letter nga		
+11092	"""𑂒"""	11080..110CF	Kaithi	Kaithi letter ca		
+11093	"""𑂓"""	11080..110CF	Kaithi	Kaithi letter cha		
+11094	"""𑂔"""	11080..110CF	Kaithi	Kaithi letter ja		
+11095	"""𑂕"""	11080..110CF	Kaithi	Kaithi letter jha		
+11096	"""𑂖"""	11080..110CF	Kaithi	Kaithi letter nya		
+11097	"""𑂗"""	11080..110CF	Kaithi	Kaithi letter tta		
+11098	"""𑂘"""	11080..110CF	Kaithi	Kaithi letter ttha		
+11099	"""𑂙"""	11080..110CF	Kaithi	Kaithi letter dda		
+1109A	"""𑂚"""	11080..110CF	Kaithi	Kaithi letter dddha		
+1109B	"""𑂛"""	11080..110CF	Kaithi	Kaithi letter ddha		
+1109C	"""𑂜"""	11080..110CF	Kaithi	Kaithi letter rha		
+1109D	"""𑂝"""	11080..110CF	Kaithi	Kaithi letter nna		
+1109E	"""𑂞"""	11080..110CF	Kaithi	Kaithi letter ta		
+1109F	"""𑂟"""	11080..110CF	Kaithi	Kaithi letter tha		
+110A0	"""𑂠"""	11080..110CF	Kaithi	Kaithi letter da		
+110A1	"""𑂡"""	11080..110CF	Kaithi	Kaithi letter dha		
+110A2	"""𑂢"""	11080..110CF	Kaithi	Kaithi letter na		
+110A3	"""𑂣"""	11080..110CF	Kaithi	Kaithi letter pa		
+110A4	"""𑂤"""	11080..110CF	Kaithi	Kaithi letter pha		
+110A5	"""𑂥"""	11080..110CF	Kaithi	Kaithi letter ba		
+110A6	"""𑂦"""	11080..110CF	Kaithi	Kaithi letter bha		
+110A7	"""𑂧"""	11080..110CF	Kaithi	Kaithi letter ma		
+110A8	"""𑂨"""	11080..110CF	Kaithi	Kaithi letter ya		
+110A9	"""𑂩"""	11080..110CF	Kaithi	Kaithi letter ra		
+110AA	"""𑂪"""	11080..110CF	Kaithi	Kaithi letter la		
+110AB	"""𑂫"""	11080..110CF	Kaithi	Kaithi letter va		
+110AC	"""𑂬"""	11080..110CF	Kaithi	Kaithi letter sha		
+110AD	"""𑂭"""	11080..110CF	Kaithi	Kaithi letter ssa		
+110AE	"""𑂮"""	11080..110CF	Kaithi	Kaithi letter sa		
+110AF	"""𑂯"""	11080..110CF	Kaithi	Kaithi letter ha		
+110B0	"""𑂰"""	11080..110CF	Kaithi	Kaithi vowel sign aa		
+110B1	"""𑂱"""	11080..110CF	Kaithi	Kaithi vowel sign i		
+110B2	"""𑂲"""	11080..110CF	Kaithi	Kaithi vowel sign ii		
+110B3	"""𑂳"""	11080..110CF	Kaithi	Kaithi vowel sign u		
+110B4	"""𑂴"""	11080..110CF	Kaithi	Kaithi vowel sign uu		
+110B5	"""𑂵"""	11080..110CF	Kaithi	Kaithi vowel sign e		
+110B6	"""𑂶"""	11080..110CF	Kaithi	Kaithi vowel sign ai		
+110B7	"""𑂷"""	11080..110CF	Kaithi	Kaithi vowel sign o		
+110B8	"""𑂸"""	11080..110CF	Kaithi	Kaithi vowel sign au		
+110B9	"""𑂹"""	11080..110CF	Kaithi	Kaithi sign virama		
+110BA	"""𑂺"""	11080..110CF	Kaithi	Kaithi sign nukta		
+110BB	"""𑂻"""	11080..110CF	Kaithi	Kaithi abbreviation sign		
+110BC	"""𑂼"""	11080..110CF	Kaithi	Kaithi enumeration sign		
+110BD	"""𑂽"""	11080..110CF	Kaithi	Kaithi number sign		
+110BE	"""𑂾"""	11080..110CF	Kaithi	Kaithi section mark		
+110BF	"""𑂿"""	11080..110CF	Kaithi	Kaithi double section mark		
+110C0	"""𑃀"""	11080..110CF	Kaithi	Kaithi danda		
+110C1	"""𑃁"""	11080..110CF	Kaithi	Kaithi double danda		
+110C2	"""𑃂"""	11080..110CF	Kaithi	Kaithi vowel sign vocalic r		
+110CD	"""𑃍"""	11080..110CF	Kaithi	Kaithi number sign above		

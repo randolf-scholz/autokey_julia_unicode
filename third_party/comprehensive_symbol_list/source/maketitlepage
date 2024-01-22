@@ -1,0 +1,261 @@
+#! /usr/bin/env python
+
+##############################################
+# Generate a fancy title page.               #
+#                                            #
+# Author: Scott Pakin <scott.clsl@pakin.org> #
+##############################################
+
+import random
+import re
+import subprocess
+import sys
+
+
+def read_logos():
+    '''Read a list of logo symbols from symbols.tex.  Return a regular
+    expression that matches them.'''
+    # Prepare to match tables and symbols.
+    table_re = re.compile(r'^\\begin\{(?:long)?symtable}.*'
+                          r'(Brand Icons|Academic Profile Icons)\}')
+    logo_re = re.compile(r'\\K(\S+)')
+
+    # Read a list of logos from symbols.tex.
+    logo_icons = []
+    with open('symbols.tex') as r:
+        in_logo_table = False
+        for ln in r:
+            if in_logo_table:
+                # We're in a table of logos.
+                if '\\end{longsymtable}' in ln or '\\end{symtable}' in ln:
+                    # We reached the end of the table.
+                    in_logo_table = False
+                    continue
+                for m in logo_re.finditer(ln):
+                    # Store all brand-name symbols encountered.
+                    logo_icons.append(m[1])
+            elif table_re.match(ln) is not None:
+                # We weren't in a table of logos but are now.
+                in_logo_table = True
+
+    # Convert the list to a regular expression and return it.
+    esc_syms = [re.escape(b) for b in logo_icons]
+    return re.compile('^(%s)$' % '|'.join(esc_syms))
+
+
+def read_glyphs(fname):
+    'Return a set of glyphs read from an index file.'
+    # Define a list of symbols to ignore.
+    ignore = [
+        r'\pkgname',        # Not a symbol
+        r'\trysym',         # Not a symbol
+        r'$\neswarrow$',    # Not defined in the document's preamble
+        r'$\nwsearrow$',    # Not defined in the document's preamble
+        r'{\ndttstile}',    # I don't know why this fails.
+        r'\blackacc\actuarial',    # Not defined in the document's preamble
+        r'$\dashint$',      # Not defined in the document's preamble
+        r'$\ddashint$',     # Not defined in the document's preamble
+        r'$\independent$',  # Not defined in the document's preamble
+        r'\irony',          # Not defined in the document's preamble
+        r'$\topbot$',       # Not defined in the document's preamble
+        r'$\dotcup$',       # Not defined in the document's preamble
+        r'$\rqm$',          # Not defined in the document's preamble
+        r'$\threesim$',     # Not defined in the document's preamble
+        r'\AA',             # Font-encoding error (not sure why)
+        r'\aa',             # Font-encoding error (not sure why)
+        r'{\OGONk}',        # Font-encoding error (not sure why)
+        r'{\underparenthesis}',    # Not defined in the document's preamble
+        r'{\overparenthesis}',     # Not defined in the document's preamble
+        r'$\stst$',         # Not defined in the document's preamble
+        r'\DEDEwholeof',    # Not defined in the document's preamble
+        r'\DEDEpartof',     # Not defined in the document's preamble
+        r'$\suchthat$',     # Not defined in the document's preamble
+        r'\definitedescription',   # Not defined in the document's preamble
+        r'$\revddots$',     # Not defined in the document's preamble
+        r'$\barcirc$',      # Not defined in the document's preamble
+        r'$\bbar$',         # Not defined in the document's preamble
+        r'$\dbar$',         # Not defined in the document's preamble
+        r'\ismodeledby',    # Not defined in the document's preamble
+        r'\hksqrt',         # Not defined in the document's preamble
+        r'\asterism',       # Not defined in the document's preamble
+        r'\suchthat',       # Not defined in the document's preamble
+        r'\twemoji',        # Color; we want only black-and-white here
+        r'\worldflag',      # Color; we want only black-and-white here
+        r'\RHAT',           # Color; we want only black-and-white here
+        r'\euflag',         # Color; we want only black-and-white here
+        r'\spverb+(+',      # Single parenthesis confuses us
+    ]
+    smiley_re = re.compile(r'^\\d?([A-Z].*ey|Ninja)$')
+    tree_re = re.compile(r'^\\(Autumn|Summer|Worst|Spring|Winter)[Tt]ree$')
+    logos_re = read_logos()
+
+    # Extract a list of symbols from the index file.
+    glyphs = set()
+    glyph_re = re.compile(r'^\\indexentry\{.*\(([^)]*\\[^)]+)\)\|hyperpage')
+    with open(fname) as r:
+        for ln in r:
+            m = glyph_re.match(ln)
+            if m is not None:
+                g = m[1].strip()
+                if any([bad in g for bad in ignore]):
+                    continue
+                if g in [
+                        '}',   # Confusion from "\textknit{(}"
+                        '$',   # Confusion from "($($)"
+                        '}}',  # Confusion from "\ensuremath{...\char`(}}"
+                ]:
+                    continue
+                if g.startswith(r'\bc'):
+                    continue   # Color; we want only black-and-white here
+                if smiley_re.match(g) is not None:
+                    continue   # Color; we want only black-and-white here
+                if tree_re.match(g) is not None:
+                    continue   # Color; we want only black-and-white here
+                if logos_re.match(g) is not None:
+                    continue   # Don't give free advertising to organizations
+                glyphs.add(g)
+    return glyphs
+
+
+def write_latex_file(paper_size, glyphs, terminate_after=False):
+    'Write a .tex file suitable for inclusion in symbols.tex.'
+    tex_name = f'title-{paper_size}.tex'
+    with open(tex_name, 'w') as w:
+        # Output header boilerplate.
+        w.write(r'''
+% Show a glyph with some trailing stretchable space.  If the glyph is
+% too tall or too wide, shrink it to fit.  If the glyph is too deep,
+% discard it.
+\newlength{\symdim}
+\newsavebox{\symbox}
+\newcommand*{\maybeshow}[1]{%
+  \savebox{\symbox}{#1}%
+  \settoheight{\symdim}{\usebox{\symbox}}%
+  \ifdim\symdim>10pt\relax
+    \savebox{\symbox}{\resizebox{!}{10pt}{\usebox{\symbox}}}%
+  \fi
+  \settowidth{\symdim}{\usebox{\symbox}}%
+  \ifdim\symdim>10pt\relax
+    \savebox{\symbox}{\resizebox{10pt}{!}{\usebox{\symbox}}}%
+  \fi
+  \settodepth{\symdim}{\usebox{\symbox}}%
+  \ifdim\symdim<2pt\relax
+    \usebox{\symbox}%
+    \hskip 1.5pt plus 1pt\relax
+  \fi
+}
+
+% Define the title block.
+\makeatletter
+\let\todaysdate=\@date
+\makeatother
+\newsavebox{\titlebox}
+\begin{lrbox}{\titlebox}
+  \usefont{T1}{phv}{bx}{n}%
+  \begin{tabular}{@{}c@{}}
+    \\[20pt]
+    \fontsize{28}{30}\selectfont The Comprehensive \\[14pt]
+    \fontsize{28}{30}\selectfont \LaTeX\ Symbol List \\[3cm]
+    \fontsize{14}{18}\selectfont
+        Scott Pakin, \textit{scott-ctan@pakin.org} \\[1cm]
+    \fontsize{14}{18}\selectfont \todaysdate
+  \end{tabular}
+\end{lrbox}
+\renewcommand*{\windowpagestuff}{%
+  \centering\usebox{\titlebox}%
+}
+
+% Typeset the title page.
+''')
+
+        # Use the cutwin package to draw the title page.
+        top = 12 if paper_size == 'a4' else 10
+        margin = '2cm' if paper_size == 'a4' else '1in'
+        w.write('\\begin{cutout}{%d}{%s}{%s}{20}\n' % (top, margin, margin))
+        w.write(r'  \cutfuzz\parindent=0pt\parfillskip=0pt' + '\n')
+        for g in glyphs:
+            w.write(r'  \maybeshow{%s}%%' % g)
+            w.write('\n')
+        w.write('\\end{cutout}\n')
+        if terminate_after:
+            w.write('\n')
+            w.write('\\end{titlepage}\n')
+            w.write('\\end{document}\n')
+
+
+def build_latex_file(paper_size):
+    '''Run pdflatex on the title page as incorporated into the symbol
+    list.  Return the page count.'''
+    # Run pdflatex.
+    subprocess.run(['pdflatex',
+                    '-jobname',
+                    'symbols-' + paper_size,
+                    r'\PassOptionsToClass{%spaper}{article}' % paper_size +
+                    r'\def\titlefile{title-%s}\input symbols' % paper_size],
+                   check=True)
+
+    # Query the log file for the page count.
+    symbols_base = f'symbols-{paper_size}'
+    rerun = False
+    with open(f'{symbols_base}.log') as r:
+        for ln in r:
+            # Check if we need to re-run pdflatex.
+            if ln.startswith('LaTeX Warning: Temporary extra page added'
+                             ' at the end. Rerun to get it removed.'):
+                rerun = True
+                break
+
+            # Return the number of pages.
+            if ln.startswith(f'Output written on {symbols_base}.pdf'):
+                fields = ln.split()
+                return int(fields[4][1:])
+
+    # Try again if we got stuck with an extra page.
+    if rerun:
+        return build_latex_file(paper_size)
+    raise RuntimeError(f'unexpected contents of symbols-{paper_size}.log')
+
+
+def binary_search_num_glyphs(paper_size, glyphs, lb, ub):
+    '''Return the maximum number of glyphs that can fit on a single page.
+    The invariant is that lb glyphs fit on the page and ub glyphs do not.'''
+    # Handle the base case.
+    if lb == ub - 1:
+        sys.stderr.write(f'INFO: Binary search found {lb} symbols is'
+                         f' optimal for {paper_size} paper.\n')
+        return lb
+
+    # Build with the midpoint of lb and ub number of glyphs.
+    mb = (lb + ub)//2
+    write_latex_file(paper_size, glyphs[:mb], terminate_after=True)
+    npages = build_latex_file(paper_size)
+    sys.stderr.write(f'INFO: Binary search found that {mb} symbols produce' +
+                     (' 1 page' if npages == 1 else f' {npages} pages') +
+                     ' of output.\n')
+
+    # Narrow the range of glyphs and recursively try again.
+    if npages == 1:
+        return binary_search_num_glyphs(paper_size, glyphs, mb, ub)
+    else:
+        return binary_search_num_glyphs(paper_size, glyphs, lb, mb)
+
+
+###########################################################################
+
+# Parse the command line.
+try:
+    idx_name = sys.argv[1]
+    paper_size = sys.argv[2]
+except IndexError:
+    raise SystemExit('Usage: %s <file.idx> "a4"|"letter"' % sys.argv[0])
+
+# Acquire a list of glyphs and randomize their order.
+glyphs = list(read_glyphs(idx_name))
+random.shuffle(glyphs)
+
+# Determine the maximum number of glyphs that can fit on a page.
+nglyphs = binary_search_num_glyphs(paper_size, glyphs, 1000, 3000)
+
+# Perform a final build to leave LaTeX's auxiliary files as we found them.
+write_latex_file(paper_size, glyphs[:nglyphs])
+build_latex_file(paper_size)

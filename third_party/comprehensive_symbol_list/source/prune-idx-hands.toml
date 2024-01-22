@@ -1,0 +1,226 @@
+##############################################
+# Categorize hand symbols.                   #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ... single hand ...
+
+# Caution: some hand symbols use "left" to mean "left hand" while
+# others use it to mean "left pointing".
+
+[[rewrite]]
+matches = ["fists", "raised hand"]
+item = "hand"
+
+[[rewrite]]
+matches = [
+    "faFistRaised",
+    "fisted hand sign",
+    "raised fist",
+    "oncoming fist",
+    "left-facing fist",
+    "right-facing fist"
+]
+item = ["hand", "fist"]
+
+[[rewrite]]
+regex = '^(?:left|right)point(left|right)$'
+item = ["hand", 'pointing \1']
+
+[[rewrite]]
+regex = '^(?:left|right)thumbs(down|up)$'
+item = ["hand", 'thumbs \1']
+
+[[rewrite]]
+regex = '^(?:ti|fa)Thumbs(Down|Up)'
+lowercase_item = true
+item = ["hand", 'thumbs \1']
+
+[[rewrite]]
+regex = '^thumbs\s+(down|up):'
+item = ["hand", 'thumbs \1']
+
+[[rewrite]]
+regex = '^(?:reversed )?thumbs\s+(down|up)(\s+sign)?$'
+item = ["hand", 'thumbs \1']
+
+[[rewrite]]
+matches = [
+    "tiThumbsOk",
+    "thumbs OK",
+    "turned ok hand sign",
+    "OK hand",
+    "OK hand sign",
+    "OK sign"
+]
+item = ["hand", "OK sign"]
+
+[[rewrite]]
+matches = ["lefthand", "PointingHand", "pointright"]
+item = ["hand", "pointing right"]
+
+[[rewrite]]
+matches = "righthand"
+item = ["hand", "pointing left"]
+
+[[rewrite]]
+regex = '^Hand(?:Cuff)?Left$'
+item = ["hand", "pointing left"]
+
+[[rewrite]]
+regex = '^Hand(?:Cuff)?Right$'
+item = ["hand", "pointing right"]
+
+[[rewrite]]
+regex = '^Hand(?:Cuff)?LeftUp$'
+item = ["hand", "pointing upper left"]
+
+[[rewrite]]
+regex = '^Hand(?:Cuff)?RightUp$'
+item = ["hand", "pointing upper right"]
+
+[[rewrite]]
+regex = '^backhand index pointing (up|down|left|right)$'
+item = ["hand", 'pointing \1']
+
+[[rewrite]]
+regex = '(?:black|white) (up|down|left|right) pointing (?:backhand )?index$'
+item = ["hand", 'pointing \1']
+
+[[rewrite]]
+contains = "hand with fingers splayed"
+item = ["hand", "fingers splayed"]
+
+[[rewrite]]
+matches = [
+    "HandPencilLeft",
+    "left writing hand",
+    "writing hand",
+    "WritingHand"
+]
+item = ["hand", "writing"]
+
+[[rewrite]]
+regex = '^faHandPoint(Left|Right|Up|Down)'
+lowercase_item = true
+item = ["hand", 'pointing \1']
+
+[[rewrite]]
+regex = '^faHand(Rock|Paper|Scissors|Lizard)'
+lowercase_item = true
+item = ["hand", '\1 sign']
+
+[[rewrite]]
+prefix = [
+    "faHandSpock",
+    "raised hand with part between middle and ring fingers",
+    "vulcan salute"
+]
+item = ["hand", "Spock sign"]
+
+[[rewrite]]
+prefix = [
+    "faHandPeace",
+    "victory hand",
+    "reversed victory hand"
+]
+item = ["hand", "victory sign"]
+
+[[rewrite]]
+matches = "white down pointing left hand index"
+item = ["hand", "pointing down"]
+
+[[rewrite]]
+regex = '^faHandPoint(er|Up)'
+item = ["hand", "pointing up"]
+
+[[rewrite]]
+matches = "index pointing up"
+item = ["hand", "pointing up"]
+
+[[rewrite]]
+matches = "faHandSparkles"
+item = ["hand", "sparkles"]
+
+[[rewrite]]
+matches = "faHandHolding"
+item = ["hand", "holding position"]
+
+[[rewrite]]
+regex = '^faHandHolding(Heart|Water)$'
+lowercase_item = true
+item = ["hand", 'holding \1']
+
+[[rewrite]]
+matches = "faHandHoldingMedical"
+item = ["hand", "holding medical sign"]
+
+[[rewrite]]
+matches = "faHandHoldingUsd"
+item = ["hand", "holding dollar sign"]
+
+[[rewrite]]
+matches = [
+    "faHandMiddleFinger",
+    "reversed hand with middle finger extended",
+    "middle finger"
+]
+item = ["hand", "middle finger extended"]
+
+[[rewrite]]
+matches = "crossed fingers"
+item = ["hand", "crossed fingers"]
+
+[[rewrite]]
+regex = '^(call me|waving) hand'
+item = ["hand", '\1']
+
+[[rewrite]]
+matches = ["pinched fingers", "pinching hand"]
+item = ["hand", "pinching"]
+
+[[rewrite]]
+regex = '^raised(?: back of) hand$'
+item = "hand"
+
+[[rewrite]]
+matches = "love-you gesture"
+item = ["hand", "love-you sign"]
+
+[[rewrite]]
+matches = "sign of the horns"
+item = ["hand", "horns"]
+
+# ... multiple hands ...
+
+[[rewrite]]
+matches = "faHands"
+item = "hands"
+
+[[rewrite]]
+matches = ["faPrayingHands", "folded hands", "praying hands"]
+item = ["hands", "praying"]
+
+[[rewrite]]
+matches = "faHandsHelping"
+item = ["hands", "helping"]
+
+[[rewrite]]
+matches = "faHandsWash"
+item = ["hands", "washing"]
+
+[[rewrite]]
+prefix = "clapping hands"
+item = ["hands", "clapping"]
+
+[[rewrite]]
+prefix = "open hands"
+item = ["hands", "open"]
+
+[[rewrite]]
+prefix = "raising hands"
+item = ["hands", "raising"]
+
+[[rewrite]]
+matches = "palms up together"
+item = ["hands", "palms up"]

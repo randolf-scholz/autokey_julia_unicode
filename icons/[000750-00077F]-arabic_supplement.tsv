@@ -1,0 +1,49 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0750	"""ݐ"""	0750..077F	Arabic Supplement	Arabic letter beh with three dots horizontally below		
+0751	"""ݑ"""	0750..077F	Arabic Supplement	Arabic letter beh with dot below and three dots above		
+0752	"""ݒ"""	0750..077F	Arabic Supplement	Arabic letter beh with three dots pointing upwards below		
+0753	"""ݓ"""	0750..077F	Arabic Supplement	Arabic letter beh with three dots pointing upwards below and two dots above		
+0754	"""ݔ"""	0750..077F	Arabic Supplement	Arabic letter beh with two dots below and dot above		
+0755	"""ݕ"""	0750..077F	Arabic Supplement	Arabic letter beh with inverted small v below		
+0756	"""ݖ"""	0750..077F	Arabic Supplement	Arabic letter beh with small v		
+0757	"""ݗ"""	0750..077F	Arabic Supplement	Arabic letter hah with two dots above		
+0758	"""ݘ"""	0750..077F	Arabic Supplement	Arabic letter hah with three dots pointing upwards below		
+0759	"""ݙ"""	0750..077F	Arabic Supplement	Arabic letter dal with two dots vertically below and small tah		
+075A	"""ݚ"""	0750..077F	Arabic Supplement	Arabic letter dal with inverted small v below		
+075B	"""ݛ"""	0750..077F	Arabic Supplement	Arabic letter reh with stroke		
+075C	"""ݜ"""	0750..077F	Arabic Supplement	Arabic letter seen with four dots above		
+075D	"""ݝ"""	0750..077F	Arabic Supplement	Arabic letter ain with two dots above		
+075E	"""ݞ"""	0750..077F	Arabic Supplement	Arabic letter ain with three dots pointing downwards above		
+075F	"""ݟ"""	0750..077F	Arabic Supplement	Arabic letter ain with two dots vertically above		
+0760	"""ݠ"""	0750..077F	Arabic Supplement	Arabic letter feh with two dots below		
+0761	"""ݡ"""	0750..077F	Arabic Supplement	Arabic letter feh with three dots pointing upwards below		
+0762	"""ݢ"""	0750..077F	Arabic Supplement	Arabic letter keheh with dot above		
+0763	"""ݣ"""	0750..077F	Arabic Supplement	Arabic letter keheh with three dots above		
+0764	"""ݤ"""	0750..077F	Arabic Supplement	Arabic letter keheh with three dots pointing upwards below		
+0765	"""ݥ"""	0750..077F	Arabic Supplement	Arabic letter meem with dot above		
+0766	"""ݦ"""	0750..077F	Arabic Supplement	Arabic letter meem with dot below		
+0767	"""ݧ"""	0750..077F	Arabic Supplement	Arabic letter noon with two dots below		
+0768	"""ݨ"""	0750..077F	Arabic Supplement	Arabic letter noon with small tah		
+0769	"""ݩ"""	0750..077F	Arabic Supplement	Arabic letter noon with small v		
+076A	"""ݪ"""	0750..077F	Arabic Supplement	Arabic letter lam with bar		
+076B	"""ݫ"""	0750..077F	Arabic Supplement	Arabic letter reh with two dots vertically above		
+076C	"""ݬ"""	0750..077F	Arabic Supplement	Arabic letter reh with hamza above		
+076D	"""ݭ"""	0750..077F	Arabic Supplement	Arabic letter seen with two dots vertically above		
+076E	"""ݮ"""	0750..077F	Arabic Supplement	Arabic letter hah with small arabic letter tah below		
+076F	"""ݯ"""	0750..077F	Arabic Supplement	Arabic letter hah with small arabic letter tah and two dots		
+0770	"""ݰ"""	0750..077F	Arabic Supplement	Arabic letter seen with small arabic letter tah and two dots		
+0771	"""ݱ"""	0750..077F	Arabic Supplement	Arabic letter reh with small arabic letter tah and two dots		
+0772	"""ݲ"""	0750..077F	Arabic Supplement	Arabic letter hah with small arabic letter tah above		
+0773	"""ݳ"""	0750..077F	Arabic Supplement	Arabic letter alef with extended arabic-indic digit two above		
+0774	"""ݴ"""	0750..077F	Arabic Supplement	Arabic letter alef with extended arabic-indic digit three above		
+0775	"""ݵ"""	0750..077F	Arabic Supplement	Arabic letter farsi yeh with extended arabic-indic digit two above		
+0776	"""ݶ"""	0750..077F	Arabic Supplement	Arabic letter farsi yeh with extended arabic-indic digit three above		
+0777	"""ݷ"""	0750..077F	Arabic Supplement	Arabic letter farsi yeh with extended arabic-indic digit four below		
+0778	"""ݸ"""	0750..077F	Arabic Supplement	Arabic letter waw with extended arabic-indic digit two above		
+0779	"""ݹ"""	0750..077F	Arabic Supplement	Arabic letter waw with extended arabic-indic digit three above		
+077A	"""ݺ"""	0750..077F	Arabic Supplement	Arabic letter yeh barree with extended arabic-indic digit two above		
+077B	"""ݻ"""	0750..077F	Arabic Supplement	Arabic letter yeh barree with extended arabic-indic digit three above		
+077C	"""ݼ"""	0750..077F	Arabic Supplement	Arabic letter hah with extended arabic-indic digit four below		
+077D	"""ݽ"""	0750..077F	Arabic Supplement	Arabic letter seen with extended arabic-indic digit four above		
+077E	"""ݾ"""	0750..077F	Arabic Supplement	Arabic letter seen with inverted v		
+077F	"""ݿ"""	0750..077F	Arabic Supplement	Arabic letter kaf with two dots above		

@@ -1,0 +1,33 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2580	"""▀"""	2580..259F	Block Elements	Upper half block		
+2581	"""▁"""	2580..259F	Block Elements	Lower one eighth block		
+2582	"""▂"""	2580..259F	Block Elements	Lower one quarter block		
+2583	"""▃"""	2580..259F	Block Elements	Lower three eighths block		
+2584	"""▄"""	2580..259F	Block Elements	Lower half block		
+2585	"""▅"""	2580..259F	Block Elements	Lower five eighths block		
+2586	"""▆"""	2580..259F	Block Elements	Lower three quarters block		
+2587	"""▇"""	2580..259F	Block Elements	Lower seven eighths block		
+2588	"""█"""	2580..259F	Block Elements	Full block		
+2589	"""▉"""	2580..259F	Block Elements	Left seven eighths block		
+258A	"""▊"""	2580..259F	Block Elements	Left three quarters block		
+258B	"""▋"""	2580..259F	Block Elements	Left five eighths block		
+258C	"""▌"""	2580..259F	Block Elements	Left half block		
+258D	"""▍"""	2580..259F	Block Elements	Left three eighths block		
+258E	"""▎"""	2580..259F	Block Elements	Left one quarter block		
+258F	"""▏"""	2580..259F	Block Elements	Left one eighth block		
+2590	"""▐"""	2580..259F	Block Elements	Right half block		
+2591	"""░"""	2580..259F	Block Elements	Light shade		
+2592	"""▒"""	2580..259F	Block Elements	Medium shade		
+2593	"""▓"""	2580..259F	Block Elements	Dark shade		
+2594	"""▔"""	2580..259F	Block Elements	Upper one eighth block		
+2595	"""▕"""	2580..259F	Block Elements	Right one eighth block		
+2596	"""▖"""	2580..259F	Block Elements	Quadrant lower left		
+2597	"""▗"""	2580..259F	Block Elements	Quadrant lower right		
+2598	"""▘"""	2580..259F	Block Elements	Quadrant upper left		
+2599	"""▙"""	2580..259F	Block Elements	Quadrant upper left and lower left and lower right		
+259A	"""▚"""	2580..259F	Block Elements	Quadrant upper left and lower right		
+259B	"""▛"""	2580..259F	Block Elements	Quadrant upper left and upper right and lower left		
+259C	"""▜"""	2580..259F	Block Elements	Quadrant upper left and upper right and lower right		
+259D	"""▝"""	2580..259F	Block Elements	Quadrant upper right		
+259E	"""▞"""	2580..259F	Block Elements	Quadrant upper right and lower left		
+259F	"""▟"""	2580..259F	Block Elements	Quadrant upper right and lower left and lower right		

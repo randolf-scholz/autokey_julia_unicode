@@ -1,0 +1,409 @@
+#! /usr/bin/env perl
+
+# Convert stix.sty to a faked version that does not require
+# the definition of any additional math alphabets
+#
+# By Scott Pakin <scott.clsl@pakin.org>
+
+use POSIX;
+use warnings;
+use strict;
+
+# Define a subroutine that normalizes symbol-category names.
+sub normalize_category ($)
+{
+    my $cat = $_[0];
+    $cat =~ s/\W/\@/g;
+    $cat =~ s/1/\@i/;
+    $cat =~ s/2/\@ii/;
+    $cat =~ s/3/\@iii/;
+    $cat =~ s/4/\@iv/;
+    return $cat;
+}
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+
+# Read and process stix.sty.
+my $ifstixupint = "";          # State variable for the stix@upint conditional
+my $defstixdel = 0;            # 1=already defined \defSTIXdel
+while (my $oneline = <>) {
+    chomp $oneline;
+
+    # Output some package header information.
+    if ($oneline =~ /NeedsTeXFormat/o) {
+        print $oneline, "\n";
+        next;
+    }
+    if ($oneline =~ /ProvidesPackage/o) {
+        print $oneline, "\n";
+        $oneline = <>;
+        $oneline =~ s/STIX/fake STIX/;
+        print $oneline, "\n";
+        next;
+    }
+
+    # Define macros for all symbol fonts.
+    if ($oneline =~ /DeclareFont(Encoding|Substitution)/o) {
+        print $oneline, "\n";
+        next;
+    }
+    if ($oneline =~ /DeclareSymbolFont\{([-\w]+)\}\s*\{(\w+)\}\s*\{(\w+)\}\s*\{(\w+)\}\s*\{(\w+)\}/o) {
+        my ($cat, $enc, $face, $weight, $slant) = ($1, $2, $3, $4, $5);
+        $cat = normalize_category $cat;
+        print "\\newcommand{\\STIXSYM$cat}[1]{\\text{\\usefont{$enc}{$face}{$weight}{$slant}\\char#1}}\n";
+        next;
+    }
+
+    # Output a macro definition.
+    if (substr($oneline, 0, 6) eq '\stix@' && !$defstixdel) {
+        print <<'DEFSTIXDEL';
+
+% Simplify delimiter construction.
+\newcommand{\defSTIXdel}[8][2]{%
+  \ifnum#8=-1\relax
+    \DeclareRobustCommand{#2}{%
+      \raisebox{#3}{%
+        \usefont#4%
+        \CLSLfaketdelim{#5}{#6}{#7}%
+      }%
+    }%
+  \else
+    \DeclareRobustCommand{#2}{%
+      \raisebox{#3}{%
+        \usefont#4%
+        \CLSLfakeddelim[#1]{#5}{#6}{#7}{#8}%
+      }%
+    }%
+  \fi
+}
+
+DEFSTIXDEL
+    ;
+        $defstixdel = 1;
+    }
+
+    # Some lines contain multiple definitions.  We iterate until no
+    # definitions remain.
+    while ($oneline !~ /^\s*$/o) {
+        # Process the stix@upint conditional.
+        if ($ifstixupint eq "THEN") {
+            # Ignore the "then" clause.
+            $ifstixupint = "ELSE" if $oneline eq "\\else";
+            last;
+        }
+        elsif ($ifstixupint eq "ELSE") {
+            # Process the "else" clause.
+            if ($oneline eq "\\fi") {
+                $ifstixupint = "";
+                last;
+            }
+        }
+        elsif ($ifstixupint eq "") {
+            # Test if we're entering the conditional.
+            if ($oneline eq "\\ifstix\@upint") {
+                $ifstixupint = "THEN";
+                last;
+            }
+        }
+
+	# Handle variable-sized operators.
+	if ($oneline =~ /\\stix\@MathSymbol\{\\([A-Za-z\@]+)\}\s*\{\\mathop\}\s*\{(largesymbols|integrals)\}\s*\{\"([0-9A-F]+)\}/o) {
+	    # Define both large and small variants.
+	    my ($sym, $cat, $slot) = ($1, $2, hex $3);
+	    if ($cat ne "integrals" || substr($sym, 0, 5) ne "small") {
+		my $slotinc = $cat eq "integrals" ? 54 : 22;
+		my $raise1 = $cat eq "integrals" ? 0 : 1.5;
+		my $raise2 = $cat eq "integrals" ? -1 : 2;
+		printf "\\DeclareRobustCommand{\\STIXt%s}{\\raisebox{%.1gex}{\\STIXSYM%s{\"%02X}}}\n", $sym, $raise1, $cat, $slot;
+		printf "\\DeclareRobustCommand{\\STIXd%s}{\\raisebox{%.1gex}{\\STIXSYM%s{\"%02X}}}\n", $sym, $raise2, $cat, $slot+$slotinc;
+		last;
+	    }
+	}
+
+	# Handle math accents.
+	if ($oneline =~ /\\stix\@MathAccent\{\\([A-Za-z\@]+)\}.*\{\"([0-9A-F]+)\}/o) {
+	    my ($sym, $slot) = ($1, hex $2);
+	    print "\\DeclareRobustCommand{\\STIX$sym}[1]{\%\n";
+	    printf "  \\CLSLfakewidetopaccent{#1}{0pt}{\"%02X}{2pt}{\"%02X}{{LS1}{stix}{m}{it}}\%\%\n", $slot, $slot+3;
+	    print "}\n";
+	    last;
+	}
+
+        # Define macros for most symbols.
+        if ($oneline =~ /\\stix\@MathSymbol\{\\([A-Za-z\@]+)\}\s*\{.*?\}\s*\{([-\w]+)\}\s*\{(.*?)\}(.*)$/o) {
+            my ($sym, $cat, $slot, $more) = ($1, $2, $3, $4);
+            $cat = normalize_category $cat;
+            print "\\DeclareRobustCommand{\\STIX$sym}{\\STIXSYM${cat}{$slot}}\n";
+            $oneline = $more;   # Look for another macro definition on the same line.
+            next;
+        }
+
+        # Handle let bindings.
+        if ($oneline =~ /\\let\\([A-Za-z\@]+)=?\\([A-Za-z\@]+)(.*)$/o) {
+            print "\\let\\STIX$1=\\STIX$2\n";
+            $oneline = $3;   # Look for another macro definition on the same line.
+            next;
+        }
+
+        # Handle integrals.
+        if ($oneline =~ /\\def\\([A-Za-z\@]+)\{\\DOTSI\\([A-Za-z\@]+)\\.limits\@\}/o) {
+            print "\\let\\STIX$1=\\STIX$2\n";
+            last;
+        }
+
+	# Preprocess symbolic delimiters into named delimiters.
+        if ($oneline =~ /\\stix\@MathDelimiter\{(.)\}/o) {
+	    # Map symbols to names.
+	    my $sym = $1;
+	    my %sym2name = ("(" => "lparen",
+			    ")" => "rparen",
+			    "[" => "lbracket",
+			    "]" => "rbracket",
+			    "<" => "less",
+			    ">" => "greater",
+			    "/" => "slash");
+	    my $name = $sym2name{$sym};
+	    if (defined $name) {
+		$oneline =~ s/\\stix\@MathDelimiter\{\Q$sym\E\}/\\stix\@MathDelimiter\{\\$name\}/;
+	    }
+	}
+
+        # Handle delimiters.
+        if ($oneline =~ /\\stix\@MathDelimiter\{\\([A-Za-z\@]+)\}\s*\{\\(\w+)\}\s*\{(\w+)\}\s*\{(.*?)\}\s*\{(\w+)\}\s*\{(.*?)\}/o) {
+            # Take care of the simple cases first.
+            my ($sym, $role, $cat1, $slot1, $cat2, $slot2) = ($1, $2, $3, $4, $5, $6);
+            $cat1 = normalize_category $cat1;
+            $cat2 = normalize_category $cat2;
+            if ($cat1 eq $cat2 && $slot1 eq $slot2) {
+                # Relations and ordinary symbols
+                print "\\DeclareRobustCommand{\\STIX$sym}{\\STIXSYM${cat1}{$slot1}}\n";
+            }
+            print "\\DeclareRobustCommand{\\STIXt$sym}{\\STIXSYM${cat1}{$slot1}}\n";
+
+            # Ignore delimiters that have to be handled manually.
+            last if $sym =~ /arrow|group|moustache/i;
+
+            # Vertical lines have to be composed out of pieces.
+            if ($sym =~ /vert/i) {
+                my $font = "{LS2}{stixex}{m}{n}";
+                print "\\defSTIXdel{\\STIXd$sym}{0ex}{$font}{$slot2}{$slot2}{$slot2}{$slot2}\n";
+                last;
+            }
+
+            # Handle the remaining cases.
+            my $slot2num = hex(substr($slot2, 1));
+            if ($slot2num < 24) {
+                # Choose the largest variant available.
+                $slot2 = sprintf '"%02X', $slot2num + 3*24;
+            }
+            print "\\DeclareRobustCommand{\\STIXd$sym}{\\raisebox{4ex}{\\STIXSYM${cat2}{$slot2}}}\n";
+            last;
+        }
+
+        # Nothing left to do for the current line.
+        last;
+    }
+}
+
+# Define various aliases.
+foreach my $sym (qw(checkmark circledR maltese vdots yen)) {
+    print "\\let\\STIX$sym=\\STIX${sym}math\n";
+}
+print <<'ALIASES';
+\let\STIXcdots=\STIXunicodecdots
+\let\STIXdotsb=\STIXcdots
+\let\STIXdotsm=\STIXcdots
+\let\STIXmathellipsis=\STIXunicodeellipsis
+\let\STIXbackslash=\STIXtbackslash
+\let\STIXnot=\STIXnotchar
+\let\STIXtbar=\STIXtvert
+\let\STIXdbar=\STIXdvert
+ALIASES
+;
+
+# Define most delimiters.
+my $font = "";
+foreach my $delim (["{LS1}{stixsf}{m}{n}", -1, -1, -1, -1, -1, -1],
+                   ["uparrow",     0x7E, 0x3C, 0x3C, 0x3C, -1, 15],
+                   ["downarrow",   0x3C, 0x3C, 0x3C, 0x9A, -1, 15],
+                   ["updownarrow", 0x7E, 0x3C, 0x3C, 0x9A,  0, 15],
+                   ["Uparrow",     0xD8, 0x3D, 0x3D, 0x3D, -1, 15],
+                   ["Downarrow",   0x3D, 0x3D, 0x3D, 0xDA, -1, 15],
+                   ["Updownarrow", 0xD8, 0x3D, 0x3D, 0xDA,  0, 15],
+                   ["Uuparrow",    0x5F, 0x3E, 0x3E, 0x3E, -1, 15],
+                   ["Ddownarrow",  0x3E, 0x3E, 0x3E, 0x60, -1, 15],
+                   ["UUparrow",    0xFE, 0x3F, 0x3F, 0x3F, -1, 15],
+                   ["DDownarrow",  0x3F, 0x3F, 0x3F, 0xFF, -1, 15],
+		   ["arrowvert",   0x3C, 0x3C, 0x3C, 0x3C, -1, 20],
+		   ["Arrowvert",   0x3D, 0x3D, 0x3D, 0x3D, -1, 20],
+
+                   ["{LS2}{stixex}{m}{n}", -1, -1, -1, -1, -1, -1],
+                   ["rgroup",      0x69, 0x6E, -1, 0x6B, -2, 2],
+                   ["lgroup",      0x68, 0x6E, -1, 0x6A, -2, 2],
+                   ["lmoustache",  0x68, 0x6E, -1, 0x6B, -2, 2],
+                   ["rmoustache",  0x69, 0x6E, -1, 0x6A, -2, 2]) {
+    my ($name, $top, $mid, $rep, $bot, $raise, $scale) = @$delim;
+    if ($top == -1) {
+        $font = $name;
+        next;
+    }
+    $scale = $scale == 2 ? "" : "[$scale]";
+    printf '\\defSTIXdel%s{\\STIXd%s}{%sex}{%s}{"%02X}{"%02X}{"%02X}', $scale, $name, $raise, $font, $top, $mid, $bot;
+    if ($rep == -1) {
+        print "{-1}\n";
+    }
+    else {
+        printf "{\"%02X}\n", $rep;
+    }
+}
+
+# Define all of STIX's composite symbols.
+print <<'COMPOSITE';
+
+% Extensible braces
+\def\stix@braceglue{\hskip -.15em plus .15em}
+\def\STIXdownbracefill{$\m@th%
+    \STIXbraceld\stix@braceglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@braceglue\STIXbracemu\stix@braceglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@braceglue\STIXbracerd$}
+\def\STIXupbracefill{$\m@th%
+    \STIXbracelu\stix@braceglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@braceglue\STIXbracemd\stix@braceglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@braceglue\STIXbraceru$}
+\def\stix@overbrace#1#2{%
+    \mathop {%
+        \vbox {%
+            \m@th%
+            \ialign{##\crcr%
+                \noalign{\kern.3\fontdimen5\textfont2}%
+            \csname STIXdown#1fill\endcsname\crcr%
+                \noalign{\kern.5\fontdimen5\textfont2\nointerlineskip}%
+                $\hfil\displaystyle{#2}\hfil$\crcr%
+            }%
+        }%
+    }%
+    \limits%
+}
+\def\stix@underbrace#1#2{
+    \mathop {%
+        \vtop {%
+            \m@th%
+            \ialign{##\crcr%
+                $\hfil\displaystyle{#2}\hfil$\crcr%
+                \noalign{\kern.5\fontdimen5\textfont2\nointerlineskip}%
+                \csname STIXup#1fill\endcsname\crcr%
+                \noalign{\kern.3\fontdimen5\textfont2}%
+            }%
+        }%
+    }%
+    \limits%
+}
+\def\STIXoverbrace#1{\stix@overbrace{brace}{#1}}
+\def\STIXunderbrace#1{\stix@underbrace{brace}{#1}}
+
+% Extensible parentheses
+\def\stix@parenglue{\hskip -.2em plus .2em}
+\def\STIXdownparenfill{$\m@th%
+    \STIXparenld\stix@parenglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@parenglue\STIXparenrd$}
+\def\STIXupparenfill{$\m@th%
+    \STIXparenlu\stix@parenglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@parenglue\STIXparenru$}
+\def\STIXoverparen#1{\stix@overbrace{paren}{#1}}
+\def\STIXunderparen#1{\stix@underbrace{paren}{#1}}
+
+% Extensible brackets
+\def\stix@bracketglue{\hskip -.85em plus .85em}
+\def\STIXdownbracketfill{$\m@th%
+    \STIXbracketld\stix@bracketglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@bracketglue\STIXbracketrd$}
+\def\STIXupbracketfill{$\m@th%
+    \STIXbracketlu\stix@bracketglue%
+    \cleaders\hbox{\STIXbraceex}\hfill%
+    \stix@bracketglue\STIXbracketru$}
+\def\STIXoverbracket#1{\stix@overbrace{bracket}{#1}}
+\def\STIXunderbracket#1{\stix@underbrace{bracket}{#1}}
+
+% Extensible arrows and harpoons
+\def\stix@arrowaccentglue{\hskip -.23em plus .23em}
+\def\STIXoverleftarrowfill{$\m@th%
+    \STIXarrowaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{\STIXarrowaccentex}\hfill$}
+\def\STIXoverrightarrowfill{$\m@th%
+    \cleaders\hbox{\STIXarrowaccentex}\hfill%
+    \stix@arrowaccentglue\STIXarrowaccentrt$}
+\def\STIXoverleftrightarrowfill{$\m@th%
+    \STIXarrowaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{\STIXarrowaccentex}\hfill%
+    \stix@arrowaccentglue\STIXarrowaccentrt$}
+\def\STIXoverleftharpoonfill{$\m@th%
+    \STIXharpoonaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{\STIXarrowaccentex}\hfill$}
+\def\STIXoverrightharpoonfill{$\m@th%
+   \cleaders\hbox{\STIXarrowaccentex}\hfill%
+   \stix@arrowaccentglue\STIXharpoonaccentrt$}
+\def\stix@overarrow#1#2#3{%
+    \vbox {%
+        \m@th%
+        \ialign{##\crcr%
+            \csname STIXover#1fill\endcsname\crcr%
+            \noalign{\kern -1ex\nointerlineskip}%
+            $\hfil#2#3\hfil$\crcr%
+        }%
+    }%
+}
+\def\stix@underarrow#1#2#3{
+    \vtop {%
+        \m@th%
+        \ialign{##\crcr%
+            $\hfil#2#3\hfil$\crcr%
+            \noalign{\kern .2ex\nointerlineskip}%
+            \csname STIXover#1fill\endcsname\crcr%
+            \noalign{\kern -1ex\nointerlineskip}%
+        }%
+    }%
+}
+\def\STIXoverleftarrow{\mathpalette{\stix@overarrow{leftarrow}}}
+\def\STIXoverrightarrow{\mathpalette{\stix@overarrow{rightarrow}}}
+\def\STIXoverleftrightarrow{\mathpalette{\stix@overarrow{leftrightarrow}}}
+\def\STIXoverleftharpoon{\mathpalette{\stix@overarrow{leftharpoon}}}
+\def\STIXoverrightharpoon{\mathpalette{\stix@overarrow{rightharpoon}}}
+\def\STIXunderleftarrow{\mathpalette{\stix@underarrow{leftarrow}}}
+\def\STIXunderrightarrow{\mathpalette{\stix@underarrow{rightarrow}}}
+\def\STIXunderleftrightarrow{\mathpalette{\stix@underarrow{leftrightarrow}}}
+\def\STIXunderleftharpoon{\mathpalette{\stix@underarrow{leftharpoon}}}
+\def\STIXunderrightharpoon{\mathpalette{\stix@underarrow{rightharpoon}}}
+
+% Radicals
+% TODO: Correct the height for short radicands like "a".
+\def\STIXoverline#1{{%
+  \let\STIXarrowaccentrt=\relax
+  \mathpalette{\stix@overarrow{rightarrow}}{#1}%
+}}
+\DeclareRobustCommand{\STIXlongdivision}[1]{%
+  \raisebox{8.9pt}{\STIXSYMlargesymbols{"FA}}%
+  \kern-1pt%
+  \STIXoverline{\kern1pt\rule{0pt}{6.94444pt}#1}%
+}
+\DeclareRobustCommand{\STIXsqrt}[1]{%
+  \raisebox{8.9pt}{\STIXSYMlargesymbols{"F9}}%
+  \kern-0.5pt%
+  \STIXoverline{\kern1pt\rule{0pt}{6.94444pt}#1}%
+}
+
+COMPOSITE
+    ;
+
+# Output some trailer boilerplate.
+print "\\endinput\n";

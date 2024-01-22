@@ -9,7 +9,7 @@ import json
 import logging
 import sys
 import shutil
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Final, NewType, TypeGuard
 
@@ -224,11 +224,14 @@ def generate_codes(filename: str, target_dir: str, template: dict) -> None:
 
     # load data
     data = load_icons(filename)
-
     header = data[0]
     assert len(data[1]) == 4, f"Wrong data format. {data[1]}"
 
+    LOGGER.info("-" * 80)
+    LOGGER.info("Installing icons from %s to %s", filename, path)
+
     parsed = Counter()  # ucode -> count
+    all_abbreviations = defaultdict(list)  # abbrv -> ucode
     skipped = []  # items
 
     for item in data[1:]:
@@ -259,26 +262,45 @@ def generate_codes(filename: str, target_dir: str, template: dict) -> None:
             template=template,
         )
 
-        LOGGER.info("Generated %s", item)
+        LOGGER.info("Registered %s", item)
         parsed[ucode] += 1
+        for abb in abbreviations:
+            all_abbreviations[abb].append(ucode)
+
+    LOGGER.info("-" * 80)
+    LOGGER.info("Finished  %s in %s", filename, path)
 
     # duplicates information
-    no_duplicates = True
+    num_duplicate_ucodes = 0
     for ucode, count in parsed.items():
         if count > 1:
-            LOGGER.warning("Duplicate unicode: %s", ucode)
-            no_duplicates = False
-    if no_duplicates:
-        LOGGER.info("No duplicates detected ✔.")
-
-    if skipped:
-        LOGGER.warning("Skipped %d items.", len(skipped))
-        for item, reason in skipped:
-            LOGGER.warning("Skipped: %s, reason=%s", item, reason)
+            LOGGER.warning("❌ Duplicate unicode: %s", ucode)
+            num_duplicate_ucodes += 1
+    if num_duplicate_ucodes:
+        LOGGER.warning("❌ %d duplicate unicodes.", len(parsed))
     else:
-        LOGGER.info("No items skipped ✔.")
+        LOGGER.info("✅ No duplicates detected.")
 
-    LOGGER.info("Installed %s in %s", filename, path)
+    # check if all abbreviations are unique
+    num_duplicate_abbrv = 0
+    for abb, ucodes in all_abbreviations.items():
+        if len(ucodes) > 1:
+            LOGGER.warning("❌ Duplicate abbreviation: %s -> %s", abb, ucodes)
+            num_duplicate_abbrv += 1
+    if num_duplicate_abbrv:
+        LOGGER.warning("❌ %d duplicate abbreviations.", num_duplicate_abbrv)
+    else:
+        LOGGER.info("✅ All abbreviations unique.")
+
+    # check skipped items
+    for item, reason in skipped:
+        LOGGER.warning("❌ Skipped: %s, reason=%s", item, reason)
+    if skipped:
+        LOGGER.warning("❌ %d skipped items.", len(skipped))
+    else:
+        LOGGER.info("✅ No items skipped.")
+
+    LOGGER.info("-" * 80)
 
 
 # %% Generate help script

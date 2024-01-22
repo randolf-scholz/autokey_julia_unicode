@@ -1,0 +1,92 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+0C80	"""ಀ"""	0C80..0CFF	Kannada	Kannada sign spacing candrabindu		
+0C81	"""ಁ"""	0C80..0CFF	Kannada	Kannada sign candrabindu		
+0C82	"""ಂ"""	0C80..0CFF	Kannada	Kannada sign anusvara		
+0C83	"""ಃ"""	0C80..0CFF	Kannada	Kannada sign visarga		
+0C84	"""಄"""	0C80..0CFF	Kannada	Kannada sign siddham		
+0C85	"""ಅ"""	0C80..0CFF	Kannada	Kannada letter a		
+0C86	"""ಆ"""	0C80..0CFF	Kannada	Kannada letter aa		
+0C87	"""ಇ"""	0C80..0CFF	Kannada	Kannada letter i		
+0C88	"""ಈ"""	0C80..0CFF	Kannada	Kannada letter ii		
+0C89	"""ಉ"""	0C80..0CFF	Kannada	Kannada letter u		
+0C8A	"""ಊ"""	0C80..0CFF	Kannada	Kannada letter uu		
+0C8B	"""ಋ"""	0C80..0CFF	Kannada	Kannada letter vocalic r		
+0C8C	"""ಌ"""	0C80..0CFF	Kannada	Kannada letter vocalic l		
+0C8E	"""ಎ"""	0C80..0CFF	Kannada	Kannada letter e		
+0C8F	"""ಏ"""	0C80..0CFF	Kannada	Kannada letter ee		
+0C90	"""ಐ"""	0C80..0CFF	Kannada	Kannada letter ai		
+0C92	"""ಒ"""	0C80..0CFF	Kannada	Kannada letter o		
+0C93	"""ಓ"""	0C80..0CFF	Kannada	Kannada letter oo		
+0C94	"""ಔ"""	0C80..0CFF	Kannada	Kannada letter au		
+0C95	"""ಕ"""	0C80..0CFF	Kannada	Kannada letter ka		
+0C96	"""ಖ"""	0C80..0CFF	Kannada	Kannada letter kha		
+0C97	"""ಗ"""	0C80..0CFF	Kannada	Kannada letter ga		
+0C98	"""ಘ"""	0C80..0CFF	Kannada	Kannada letter gha		
+0C99	"""ಙ"""	0C80..0CFF	Kannada	Kannada letter nga		
+0C9A	"""ಚ"""	0C80..0CFF	Kannada	Kannada letter ca		
+0C9B	"""ಛ"""	0C80..0CFF	Kannada	Kannada letter cha		
+0C9C	"""ಜ"""	0C80..0CFF	Kannada	Kannada letter ja		
+0C9D	"""ಝ"""	0C80..0CFF	Kannada	Kannada letter jha		
+0C9E	"""ಞ"""	0C80..0CFF	Kannada	Kannada letter nya		
+0C9F	"""ಟ"""	0C80..0CFF	Kannada	Kannada letter tta		
+0CA0	"""ಠ"""	0C80..0CFF	Kannada	Kannada letter ttha		
+0CA1	"""ಡ"""	0C80..0CFF	Kannada	Kannada letter dda		
+0CA2	"""ಢ"""	0C80..0CFF	Kannada	Kannada letter ddha		
+0CA3	"""ಣ"""	0C80..0CFF	Kannada	Kannada letter nna		
+0CA4	"""ತ"""	0C80..0CFF	Kannada	Kannada letter ta		
+0CA5	"""ಥ"""	0C80..0CFF	Kannada	Kannada letter tha		
+0CA6	"""ದ"""	0C80..0CFF	Kannada	Kannada letter da		
+0CA7	"""ಧ"""	0C80..0CFF	Kannada	Kannada letter dha		
+0CA8	"""ನ"""	0C80..0CFF	Kannada	Kannada letter na		
+0CAA	"""ಪ"""	0C80..0CFF	Kannada	Kannada letter pa		
+0CAB	"""ಫ"""	0C80..0CFF	Kannada	Kannada letter pha		
+0CAC	"""ಬ"""	0C80..0CFF	Kannada	Kannada letter ba		
+0CAD	"""ಭ"""	0C80..0CFF	Kannada	Kannada letter bha		
+0CAE	"""ಮ"""	0C80..0CFF	Kannada	Kannada letter ma		
+0CAF	"""ಯ"""	0C80..0CFF	Kannada	Kannada letter ya		
+0CB0	"""ರ"""	0C80..0CFF	Kannada	Kannada letter ra		
+0CB1	"""ಱ"""	0C80..0CFF	Kannada	Kannada letter rra		
+0CB2	"""ಲ"""	0C80..0CFF	Kannada	Kannada letter la		
+0CB3	"""ಳ"""	0C80..0CFF	Kannada	Kannada letter lla		
+0CB5	"""ವ"""	0C80..0CFF	Kannada	Kannada letter va		
+0CB6	"""ಶ"""	0C80..0CFF	Kannada	Kannada letter sha		
+0CB7	"""ಷ"""	0C80..0CFF	Kannada	Kannada letter ssa		
+0CB8	"""ಸ"""	0C80..0CFF	Kannada	Kannada letter sa		
+0CB9	"""ಹ"""	0C80..0CFF	Kannada	Kannada letter ha		
+0CBC	"""಼"""	0C80..0CFF	Kannada	Kannada sign nukta		
+0CBD	"""ಽ"""	0C80..0CFF	Kannada	Kannada sign avagraha		
+0CBE	"""ಾ"""	0C80..0CFF	Kannada	Kannada vowel sign aa		
+0CBF	"""ಿ"""	0C80..0CFF	Kannada	Kannada vowel sign i		
+0CC0	"""ೀ"""	0C80..0CFF	Kannada	Kannada vowel sign ii		
+0CC1	"""ು"""	0C80..0CFF	Kannada	Kannada vowel sign u		
+0CC2	"""ೂ"""	0C80..0CFF	Kannada	Kannada vowel sign uu		
+0CC3	"""ೃ"""	0C80..0CFF	Kannada	Kannada vowel sign vocalic r		
+0CC4	"""ೄ"""	0C80..0CFF	Kannada	Kannada vowel sign vocalic rr		
+0CC6	"""ೆ"""	0C80..0CFF	Kannada	Kannada vowel sign e		
+0CC7	"""ೇ"""	0C80..0CFF	Kannada	Kannada vowel sign ee		
+0CC8	"""ೈ"""	0C80..0CFF	Kannada	Kannada vowel sign ai		
+0CCA	"""ೊ"""	0C80..0CFF	Kannada	Kannada vowel sign o		
+0CCB	"""ೋ"""	0C80..0CFF	Kannada	Kannada vowel sign oo		
+0CCC	"""ೌ"""	0C80..0CFF	Kannada	Kannada vowel sign au		
+0CCD	"""್"""	0C80..0CFF	Kannada	Kannada sign virama		
+0CD5	"""ೕ"""	0C80..0CFF	Kannada	Kannada length mark		
+0CD6	"""ೖ"""	0C80..0CFF	Kannada	Kannada ai length mark		
+0CDD	"""ೝ"""	0C80..0CFF	Kannada	Kannada letter nakaara pollu		
+0CDE	"""ೞ"""	0C80..0CFF	Kannada	Kannada letter fa		
+0CE0	"""ೠ"""	0C80..0CFF	Kannada	Kannada letter vocalic rr		
+0CE1	"""ೡ"""	0C80..0CFF	Kannada	Kannada letter vocalic ll		
+0CE2	"""ೢ"""	0C80..0CFF	Kannada	Kannada vowel sign vocalic l		
+0CE3	"""ೣ"""	0C80..0CFF	Kannada	Kannada vowel sign vocalic ll		
+0CE6	"""೦"""	0C80..0CFF	Kannada	Kannada digit zero		
+0CE7	"""೧"""	0C80..0CFF	Kannada	Kannada digit one		
+0CE8	"""೨"""	0C80..0CFF	Kannada	Kannada digit two		
+0CE9	"""೩"""	0C80..0CFF	Kannada	Kannada digit three		
+0CEA	"""೪"""	0C80..0CFF	Kannada	Kannada digit four		
+0CEB	"""೫"""	0C80..0CFF	Kannada	Kannada digit five		
+0CEC	"""೬"""	0C80..0CFF	Kannada	Kannada digit six		
+0CED	"""೭"""	0C80..0CFF	Kannada	Kannada digit seven		
+0CEE	"""೮"""	0C80..0CFF	Kannada	Kannada digit eight		
+0CEF	"""೯"""	0C80..0CFF	Kannada	Kannada digit nine		
+0CF1	"""ೱ"""	0C80..0CFF	Kannada	Kannada sign jihvamuliya		
+0CF2	"""ೲ"""	0C80..0CFF	Kannada	Kannada sign upadhmaniya		
+0CF3	"""ೳ"""	0C80..0CFF	Kannada	Kannada sign combining anusvara above right		

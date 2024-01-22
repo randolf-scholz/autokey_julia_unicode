@@ -1,0 +1,359 @@
+##############################################
+# Categorize music symbols.                  #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ... early special cases ...
+[[rewrite]]
+render_contains = '(\AREVsixteenthnote)'
+item = "musical notes"
+
+# ... conversions from British to American terms ...
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?semibreve(.*)$'
+item = 'wholenote\1'
+continue = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?minim(.*)$'
+item = 'halfnote\1'
+continue = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?crotchet(.*)$'
+item = 'quarternote\1'
+continue = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?quaver(.*)$'
+item = 'eighthnote\1'
+continue = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?semiquaver(.*)$'
+item = 'sixteenthnote\1'
+continue = true
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(?:mus)?demisemiquaver(.*)$'
+item = 'thirtysecondnote\1'
+continue = true
+
+# ... musical notes ...
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(full|whole|half|quarter|eighth|sixteenth)note(down)?$'
+item = '\1 note'
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(full|whole|half|quarter|eighth|sixteenth)notedotted(down)?$'
+item = ['\1 note', "dotted"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(full|whole|half|quarter|eighth|sixteenth)notedotteddouble(down)?$'
+item = ['\1 note', "double dotted"]
+
+[[rewrite]]
+regex = '^mus(Whole|Half|Quarter|Eighth|Sixteenth)$'
+lowercase_item = true
+item = '\1 note'
+
+[[rewrite]]
+regex = '^mus(Whole|Half|Quarter|Eighth|Sixteenth)Dotted$'
+lowercase_item = true
+item = ['\1 note', "dotted"]
+
+[[rewrite]]
+matches = "musSemiminim"
+item = "quarter note"
+
+[[rewrite]]
+matches = "musSeminiminimDotted"
+item = ["quarter note", "dotted"]
+
+[[rewrite]]
+matches = ["musCorchea", "musFusa"]
+item = "eighth note"
+
+[[rewrite]]
+matches = ["musCorcheaDotted", "musFusaDotted"]
+item = ["eighth note", "dotted"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "thirtysecondnote",
+    "thirtysecondnotedown",
+    "musthirtysecond"
+]
+item = "thirty-second note"
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "thirtysecondnotedotted",
+    "thirtysecondnotedotteddown",
+    "musthirtyseconddotted"
+]
+item = ["thirty-second note", "dotted"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = ["thirtysecondnotedotteddouble", "thirtysecondnotedotteddoubledown"]
+item = ["thirty-second note", "double dotted"]
+
+[[rewrite]]
+matches = "musSixtyFourth"
+item = "sixty-fourth note"
+
+[[rewrite]]
+matches = "musSixtyFourthDotted"
+item = ["sixty-fourth note", "dotted"]
+
+# ... rests ...
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(full|whole|half|quarter|eighth|sixteenth)\s*note\s*rest$'
+item = ['\1 note', "rest"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(full|whole|half|quarter|eighth|sixteenth)noterestdotted$'
+item = ['\1 note', "rest, dotted"]
+
+[[rewrite]]
+matches = "qp"
+item = ["quarter note", "rest"]
+
+[[rewrite]]
+matches = "ds"
+item = ["eighth note", "rest"]
+
+[[rewrite]]
+matches = "qs"
+item = ["sixteenth note", "rest"]
+
+[[rewrite]]
+matches = ["hs", "thirty-second note rest"]
+item = ["thirty-second note", "rest"]
+
+[[rewrite]]
+matches = "qqs"
+item = ["sixty-fourth note", "rest"]
+
+[[rewrite]]
+matches = ["fermata", "fermataup"]
+item = "fermata"
+
+[[rewrite]]
+matches = "fermatadown"
+item = ["fermata", "inverted"]
+
+[[rewrite]]
+contains = "BeamedQuaver"
+word = "musical notes"
+
+[[rewrite]]
+matches = [
+    "musical note",
+    "music",
+    "multiple musical notes",
+    "twonotes",
+    "beamed ascending musical notes",
+    "beamed descending musical notes",
+    "beamed eighth notes",
+    "beamed sixteenth notes",
+    "textmusicalnote"
+]
+word = "musical notes"
+
+# ... sharps, flats, and naturals ...
+
+[[rewrite]]
+matches = [
+    "flat",
+    "fl",
+    "musFlat",
+    "music flat sign"
+]
+item = "flat"
+
+[[rewrite]]
+matches = ["flatflat", "musDoubleFlat"]
+item = ["flat", "double"]
+
+[[rewrite]]
+matches = [
+    "sharp",
+    "sh",
+    "music sharp sign",
+    "musSharp"
+]
+item = "sharp"
+
+[[rewrite]]
+matches = [
+    "natural",
+    "na",
+    "musNatural",
+    "music natural sign"
+]
+item = "natural"
+
+[[rewrite]]
+matches = ["doublesharp", "musDoubleSharp"]
+item = ["sharp", "double"]
+
+[[rewrite]]
+prefix = "sharpSlash"
+item = ["sharp", "with extra slashes and stems"]
+
+# ... clefs ...
+
+[[rewrite]]
+matches = ["clefC", "clefCInline"]
+item = ["clefs", "alto"]
+
+[[rewrite]]
+matches = ["clefF", "clefFInline", "clefa"]
+item = ["clefs", "bass"]
+
+[[rewrite]]
+matches = ["clefG", "clefGInline", "clesol"]
+item = ["clefs", "treble"]
+
+[[rewrite]]
+regex = '^(small)?([a-z]+)clef$'
+item = ["clefs", '\2']
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "oldGclef"
+item = ["clefs", "old G"]
+
+[[rewrite]]
+regex = '^([a-z]+)([CFG])clef$'
+item = ["clefs", '\1 \2']
+word = '\1 \2'
+capitalize_word = true
+
+# ... meters ...
+
+[[rewrite]]
+matches = ["meterCutC", "cut time", "lilyTimeCHalf"]
+item = "alla breve"
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "reverseallabreve"
+item = ["alla breve", "reversed"]
+
+[[rewrite]]
+regex = 'alla.*breve'
+item = "alla breve"
+
+[[rewrite]]
+matches = "reverseC"
+item = ["common time", "forward and reversed"]
+
+[[rewrite]]
+matches = ["meterC", "lilyTimeC"]
+item = "common time"
+
+[[rewrite]]
+matches = [
+    "meterCThree",
+    "meterCThreeTwo",
+    "meterCZ",
+    "meterO",
+    "meterplus"
+]
+item = "meter, musical"
+
+# ... other ...
+
+[[rewrite]]
+regex = '^accordion[A-Z]'
+word = "accordion notation"
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "mordent",
+    "turn",
+    "trill"
+]
+lowercase_item = true
+item = '\1'
+
+[[rewrite]]
+matches = "duevolte"
+item = "due volte"
+
+[[rewrite]]
+regex = '^((?:de)?cresc)Hairpin$'
+item = '\1endo'
+
+[[rewrite]]
+regex = '^(marcato|portato)$'
+item = ['\1', "up"]
+
+[[rewrite]]
+regex = '^(marcato|portato)Down$'
+item = ['\1', "down"]
+
+[[rewrite]]
+matches = "lsfz"
+item = ["marcato", "down"]
+
+[[rewrite]]
+matches = "backturn"
+item = ["turn", "reversed"]
+
+[[rewrite]]
+regex = '^(up|down)bow$'
+item = '\1 bow'
+
+[[rewrite]]
+matches = ["Ped", "sPed"]
+item = ["pedal", "engage"]
+
+[[rewrite]]
+matches = ["Dep", "sDep"]
+item = ["pedal", "release"]
+
+[[rewrite]]
+matches = ["wq", "wqq"]
+item = "breve"
+
+[[rewrite]]
+matches = "flageolett"   # Note misspelling.
+item = "flageolet"
+
+[[rewrite]]
+matches = "doublethumb"
+item = "double thumb"
+
+[[rewrite]]
+matches = [
+    "segno",
+    "Segno",
+    "musSegno"
+]
+item = "segno"
+
+[[rewrite]]
+compare_lowercase = true
+prefix = "shake"
+item = "shake"

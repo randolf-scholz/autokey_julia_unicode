@@ -1,0 +1,112 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+2000	""" """	2000..206F	General Punctuation	En quad		
+2001	""" """	2000..206F	General Punctuation	Em quad		
+2002	""" """	2000..206F	General Punctuation	En space		
+2003	""" """	2000..206F	General Punctuation	Em space		
+2004	""" """	2000..206F	General Punctuation	Three-per-em space		
+2005	""" """	2000..206F	General Punctuation	Four-per-em space		
+2006	""" """	2000..206F	General Punctuation	Six-per-em space		
+2007	""" """	2000..206F	General Punctuation	Figure space		
+2008	""" """	2000..206F	General Punctuation	Punctuation space		
+2009	""" """	2000..206F	General Punctuation	Thin space		
+200A	""" """	2000..206F	General Punctuation	Hair space		
+200B	"""​"""	2000..206F	General Punctuation	Zero width space		
+200C	"""‌"""	2000..206F	General Punctuation	Zero width non-joiner		
+200D	"""‍"""	2000..206F	General Punctuation	Zero width joiner		
+200E	"""‎"""	2000..206F	General Punctuation	Left-to-right mark		
+200F	"""‏"""	2000..206F	General Punctuation	Right-to-left mark		
+2010	"""‐"""	2000..206F	General Punctuation	Hyphen		
+2011	"""‑"""	2000..206F	General Punctuation	Non-breaking hyphen		
+2012	"""‒"""	2000..206F	General Punctuation	Figure dash		
+2013	"""–"""	2000..206F	General Punctuation	En dash		
+2014	"""—"""	2000..206F	General Punctuation	Em dash		
+2015	"""―"""	2000..206F	General Punctuation	Horizontal bar		
+2016	"""‖"""	2000..206F	General Punctuation	Double vertical line		
+2017	"""‗"""	2000..206F	General Punctuation	Double low line		
+2018	"""‘"""	2000..206F	General Punctuation	Left single quotation mark		
+2019	"""’"""	2000..206F	General Punctuation	Right single quotation mark		
+201A	"""‚"""	2000..206F	General Punctuation	Single low-9 quotation mark		
+201B	"""‛"""	2000..206F	General Punctuation	Single high-reversed-9 quotation mark		
+201C	"""“"""	2000..206F	General Punctuation	Left double quotation mark		
+201D	"""”"""	2000..206F	General Punctuation	Right double quotation mark		
+201E	"""„"""	2000..206F	General Punctuation	Double low-9 quotation mark		
+201F	"""‟"""	2000..206F	General Punctuation	Double high-reversed-9 quotation mark		
+2020	"""†"""	2000..206F	General Punctuation	Dagger		
+2021	"""‡"""	2000..206F	General Punctuation	Double dagger		
+2022	"""•"""	2000..206F	General Punctuation	Bullet		
+2023	"""‣"""	2000..206F	General Punctuation	Triangular bullet		
+2024	"""․"""	2000..206F	General Punctuation	One dot leader		
+2025	"""‥"""	2000..206F	General Punctuation	Two dot leader		
+2026	"""…"""	2000..206F	General Punctuation	Horizontal ellipsis		
+2027	"""‧"""	2000..206F	General Punctuation	Hyphenation point		
+2028	""" """	2000..206F	General Punctuation	Line separator		
+2029	""" """	2000..206F	General Punctuation	Paragraph separator		
+202A	"""‪"""	2000..206F	General Punctuation	Left-to-right embedding		
+202B	"""‫"""	2000..206F	General Punctuation	Right-to-left embedding		
+202C	"""‬"""	2000..206F	General Punctuation	Pop directional formatting		
+202D	"""‭"""	2000..206F	General Punctuation	Left-to-right override		
+202E	"""‮"""	2000..206F	General Punctuation	Right-to-left override		
+202F	""" """	2000..206F	General Punctuation	Narrow no-break space		
+2030	"""‰"""	2000..206F	General Punctuation	Per mille sign		
+2031	"""‱"""	2000..206F	General Punctuation	Per ten thousand sign		
+2032	"""′"""	2000..206F	General Punctuation	Prime		
+2033	"""″"""	2000..206F	General Punctuation	Double prime		
+2034	"""‴"""	2000..206F	General Punctuation	Triple prime		
+2035	"""‵"""	2000..206F	General Punctuation	Reversed prime		
+2036	"""‶"""	2000..206F	General Punctuation	Reversed double prime		
+2037	"""‷"""	2000..206F	General Punctuation	Reversed triple prime		
+2038	"""‸"""	2000..206F	General Punctuation	Caret		
+2039	"""‹"""	2000..206F	General Punctuation	Single left-pointing angle quotation mark		
+203A	"""›"""	2000..206F	General Punctuation	Single right-pointing angle quotation mark		
+203B	"""※"""	2000..206F	General Punctuation	Reference mark		
+203C	"""‼"""	2000..206F	General Punctuation	Double exclamation mark		
+203D	"""‽"""	2000..206F	General Punctuation	Interrobang		
+203E	"""‾"""	2000..206F	General Punctuation	Overline		
+203F	"""‿"""	2000..206F	General Punctuation	Undertie		
+2040	"""⁀"""	2000..206F	General Punctuation	Character tie		
+2041	"""⁁"""	2000..206F	General Punctuation	Caret insertion point		
+2042	"""⁂"""	2000..206F	General Punctuation	Asterism		
+2043	"""⁃"""	2000..206F	General Punctuation	Hyphen bullet		
+2044	"""⁄"""	2000..206F	General Punctuation	Fraction slash		
+2045	"""⁅"""	2000..206F	General Punctuation	Left square bracket with quill		
+2046	"""⁆"""	2000..206F	General Punctuation	Right square bracket with quill		
+2047	"""⁇"""	2000..206F	General Punctuation	Double question mark		
+2048	"""⁈"""	2000..206F	General Punctuation	Question exclamation mark		
+2049	"""⁉"""	2000..206F	General Punctuation	Exclamation question mark		
+204A	"""⁊"""	2000..206F	General Punctuation	Tironian sign et		
+204B	"""⁋"""	2000..206F	General Punctuation	Reversed pilcrow sign		
+204C	"""⁌"""	2000..206F	General Punctuation	Black leftwards bullet		
+204D	"""⁍"""	2000..206F	General Punctuation	Black rightwards bullet		
+204E	"""⁎"""	2000..206F	General Punctuation	Low asterisk		
+204F	"""⁏"""	2000..206F	General Punctuation	Reversed semicolon		
+2050	"""⁐"""	2000..206F	General Punctuation	Close up		
+2051	"""⁑"""	2000..206F	General Punctuation	Two asterisks aligned vertically		
+2052	"""⁒"""	2000..206F	General Punctuation	Commercial minus sign		
+2053	"""⁓"""	2000..206F	General Punctuation	Swung dash		
+2054	"""⁔"""	2000..206F	General Punctuation	Inverted undertie		
+2055	"""⁕"""	2000..206F	General Punctuation	Flower punctuation mark		
+2056	"""⁖"""	2000..206F	General Punctuation	Three dot punctuation		
+2057	"""⁗"""	2000..206F	General Punctuation	Quadruple prime		
+2058	"""⁘"""	2000..206F	General Punctuation	Four dot punctuation		
+2059	"""⁙"""	2000..206F	General Punctuation	Five dot punctuation		
+205A	"""⁚"""	2000..206F	General Punctuation	Two dot punctuation		
+205B	"""⁛"""	2000..206F	General Punctuation	Four dot mark		
+205C	"""⁜"""	2000..206F	General Punctuation	Dotted cross		
+205D	"""⁝"""	2000..206F	General Punctuation	Tricolon		
+205E	"""⁞"""	2000..206F	General Punctuation	Vertical four dots		
+205F	""" """	2000..206F	General Punctuation	Medium mathematical space		
+2060	"""⁠"""	2000..206F	General Punctuation	Word joiner		
+2061	"""⁡"""	2000..206F	General Punctuation	Function application		
+2062	"""⁢"""	2000..206F	General Punctuation	Invisible times		
+2063	"""⁣"""	2000..206F	General Punctuation	Invisible separator		
+2064	"""⁤"""	2000..206F	General Punctuation	Invisible plus		
+2066	"""⁦"""	2000..206F	General Punctuation	Left-to-right isolate		
+2067	"""⁧"""	2000..206F	General Punctuation	Right-to-left isolate		
+2068	"""⁨"""	2000..206F	General Punctuation	First strong isolate		
+2069	"""⁩"""	2000..206F	General Punctuation	Pop directional isolate		
+206A	"""⁪"""	2000..206F	General Punctuation	Inhibit symmetric swapping		
+206B	"""⁫"""	2000..206F	General Punctuation	Activate symmetric swapping		
+206C	"""⁬"""	2000..206F	General Punctuation	Inhibit arabic form shaping		
+206D	"""⁭"""	2000..206F	General Punctuation	Activate arabic form shaping		
+206E	"""⁮"""	2000..206F	General Punctuation	National digit shapes		
+206F	"""⁯"""	2000..206F	General Punctuation	Nominal digit shapes		

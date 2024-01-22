@@ -1,0 +1,64 @@
+% =====================================
+% FAKEGO.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+% 
+% The go package stomps all over the LaTeX namespace.  Rather than
+% individually rename each of the fairly few user-visible symbols that
+% go provides, we provide this package to define only those symbols we
+% care to typeset.
+
+% The original package lacks the following two lines so we fabricate
+% them ourselves from the header comments.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fakego}[1991/11/01 v0.05 faked go package]
+%                                ^^
+%                            made-up day
+
+% Define all of the go package's fonts as shapes within a single font family.
+\DeclareFontFamily{U}{gofont}{}
+\DeclareFontShape{U}{gofont}{m}{n}{<-> go1whi10}{}
+\DeclareFontShape{U}{gofont}{b}{n}{<-> go1bla10}{}
+\DeclareFontShape{U}{gofont}{m}{sl}{<-> go2whi10}{}
+\DeclareFontShape{U}{gofont}{b}{sl}{<-> go2bla10}{}
+\DeclareFontShape{U}{gofont}{m}{it}{<-> go10}{}
+
+% Typeset a number 1-253 in a black circle.
+\DeclareRobustCommand{\GOblack}[1]{{%
+  \@tempcnta=#1\relax
+  \ifnum\@tempcnta<128
+    \usefont{U}{gofont}{b}{n}%
+  \else
+    \advance\@tempcnta by -128
+    \usefont{U}{gofont}{b}{sl}%
+  \fi
+  \char\@tempcnta
+}}
+
+% Typeset a number 1-253 in a white circle.
+\DeclareRobustCommand{\GOwhite}[1]{{%
+  \@tempcnta=#1\relax
+  \ifnum\@tempcnta<128
+    \usefont{U}{gofont}{m}{n}%
+  \else
+    \advance\@tempcnta by -128
+    \usefont{U}{gofont}{m}{sl}%
+  \fi
+  \char\@tempcnta
+}}
+
+% Define all of the remaining symbols.
+\DeclareRobustCommand{\GOhoshi}{{\usefont{U}{gofont}{m}{it}\char0}}
+\DeclareRobustCommand{\GOempty}{{\usefont{U}{gofont}{m}{it}\char1}}
+\DeclareRobustCommand{\GOlftborder}{{\usefont{U}{gofont}{m}{it}\char2}}
+\DeclareRobustCommand{\GOrtborder}{{\usefont{U}{gofont}{m}{it}\char3}}
+\DeclareRobustCommand{\GOtopborder}{{\usefont{U}{gofont}{m}{it}\char4}}
+\DeclareRobustCommand{\GObotborder}{{\usefont{U}{gofont}{m}{it}\char5}}
+\DeclareRobustCommand{\GOlfttopcorner}{{\usefont{U}{gofont}{m}{it}\char6}}
+\DeclareRobustCommand{\GOrttopcorner}{{\usefont{U}{gofont}{m}{it}\char7}}
+\DeclareRobustCommand{\GOlftbotcorner}{{\usefont{U}{gofont}{m}{it}\char8}}
+\DeclareRobustCommand{\GOrtbotcorner}{{\usefont{U}{gofont}{m}{it}\char9}}
+\DeclareRobustCommand{\GOsquare}{{\usefont{U}{gofont}{m}{sl}\char126}}
+\DeclareRobustCommand{\GOtriangle}{{\usefont{U}{gofont}{m}{sl}\char127}}
+
+\endinput

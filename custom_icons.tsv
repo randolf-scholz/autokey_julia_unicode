@@ -4,7 +4,6 @@ U+0039D	Ν	\Nu	Greek Capital Letter Nu
 U+0039F	Ο	\Omicron	Greek Capital Letter Omicron
 U+003BF	ο	\omicron	Greek Small Letter Omicron
 U+00B0	°	\deg	Degree Sign
-U+02030	‰	\permille	Per Mille Sign
 U+02190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
 U+021DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
 U+021DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
@@ -254,15 +253,15 @@ U+24E9	ⓩ	\oz	CIRCLED LATIN SMALL LETTER Z
 U+24EA	⓪	\o0	CIRCLED DIGIT ZERO
 U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
 U+2610	☐	\bbox	Ballot Box
-U+2705	✅	\cmarkbox	White Heavy Check Mark
+U+2705	✅	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark
 U+2713	✓	\cmark, \checkmark	Check Mark
 U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
 U+2717	✗	\xmark, \ballot_x	Ballot X
 U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
-U+274C	❌	\redxmark, \cross_mark	Cross Mark
+U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark
 U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
 U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
-U+2AEB	⫫	\independence, \indep, \independent	Independence
+U+2AEB	⫫	\indep, \independence, \independent	Independence
 U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
 U+A730	ꜰ	\scF	Latin Letter Small Capital F
 U+A731	ꜱ	\scS	Latin Letter Small Capital S

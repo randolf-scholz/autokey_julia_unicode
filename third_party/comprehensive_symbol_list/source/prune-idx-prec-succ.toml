@@ -1,0 +1,148 @@
+##############################################
+# Categorize precedes and succeeds symbols.  #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------------ precedes ------------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = "prec"
+item = "precedes"
+
+[[rewrite]]
+matches = "precsim"
+item = ["precedes", "or similar to"]
+
+[[rewrite]]
+matches = "precnsim"
+item = ["precedes", "or not similar to"]
+
+[[rewrite]]
+matches = "closedprec"
+item = ["precedes", "closed"]
+
+[[rewrite]]
+matches = ["llcurly", "Prec"]
+item = ["precedes", "double"]
+
+[[rewrite]]
+matches = "precapprox"
+item = ["precedes", "or approximately equal to"]
+
+[[rewrite]]
+matches = "precnapprox"
+item = ["precedes", "or not approximately equal to"]
+
+[[rewrite]]
+matches = [
+    "preccurlyeq",
+    "preceq",
+    "preceqq",
+    "precedes or equal"
+]
+item = ["precedes", "or equal to"]
+
+[[rewrite]]
+matches = ["precneq", "precneqq"]
+item = ["precedes", "or not equal to"]
+
+[[rewrite]]
+matches = "prurel"
+item = ["precedes", "under relation"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nprec", "not precedes"]
+item = ["precedes", "negated"]
+
+[[rewrite]]
+matches = "nprecsim"
+item = ["precedes", "or similar to, negated"]
+
+[[rewrite]]
+matches = "nprecapprox"
+item = ["precedes", "or approximately equal to, negated"]
+
+[[rewrite]]
+matches = [
+    "npreccurlyeq",
+    "npreceq",
+    "npreceqq",
+    "not precedes or equal"
+]
+item = ["precedes", "or equal to, negated"]
+
+# ------------------------------ succeeds ------------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = "succ"
+item = "succeeds"
+
+[[rewrite]]
+matches = "succsim"
+item = ["succeeds", "or similar to"]
+
+[[rewrite]]
+matches = "succnsim"
+item = ["succeeds", "or not similar to"]
+
+[[rewrite]]
+matches = "closedsucc"
+item = ["succeeds", "closed"]
+
+[[rewrite]]
+matches = ["ggcurly", "Succ"]
+item = ["succeeds", "double"]
+
+[[rewrite]]
+matches = "succapprox"
+item = ["succeeds", "or approximately equal to"]
+
+[[rewrite]]
+matches = "succnapprox"
+item = ["succeeds", "or not approximately equal to"]
+
+[[rewrite]]
+matches = [
+    "succcurlyeq",
+    "succeq",
+    "succeqq",
+    "succeeds or equal"
+]
+item = ["succeeds", "or equal to"]
+
+[[rewrite]]
+matches = ["succneq", "succneqq"]
+item = ["succeeds", "or not equal to"]
+
+[[rewrite]]
+matches = "scurel"
+item = ["succeeds", "under relation"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nsucc", "not succeeds"]
+item = ["succeeds", "negated"]
+
+[[rewrite]]
+matches = "nsuccsim"
+item = ["succeeds", "or similar to, negated"]
+
+[[rewrite]]
+matches = "nsuccapprox"
+item = ["succeeds", "or approximately equal to, negated"]
+
+[[rewrite]]
+matches = [
+    "nsucccurlyeq",
+    "nsucceq",
+    "nsucceqq",
+    "not succeeds or equal"
+]
+item = ["succeeds", "or equal to, negated"]

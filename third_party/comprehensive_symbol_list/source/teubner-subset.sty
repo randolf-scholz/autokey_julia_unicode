@@ -1,0 +1,93 @@
+% =====================================
+% TEUBNER-SUBSET.STY
+% By Scott Pakin <scott+clsl@pakin.org>
+% =====================================
+%
+% The teubner package (re)defines a lot of macros with two- and
+% three-letter names, which are bound to conflict with lots of other
+% packages.  Because we care about only a few symbols, we simply define
+% them right here.
+%
+% teubner requires that babel be preloaded with the "greek" option.  So
+% far, this is the only package in the Comprehensive LaTeX Symbol List
+% that requires babel.  If we add any more we'll need to hoist the
+% \usepackage{babel} earlier in symbols.tex.
+
+\ProvidesPackage{teubner-subset}[2009/10/07 v1.0 Subset of teubner's symbols] 
+
+\savesymbol{euro}
+\usepackage[greek,english]{babel}
+\restoresymbol{TEUB}{euro}
+\let\origProvidesPackage=\ProvidesPackage
+\def\ProvidesPackage#1[#2]{\origProvidesPackage{#1}[#2]\endinput}
+\usepackage{teubner}
+\let\ProvidesPackage=\origProvidesPackage
+%
+\DeclareTextSymbol{\stigma}{LGR}{006}
+\DeclareTextSymbol{\varstigma}{LGR}{007}
+\DeclareTextSymbol{\koppa}{LGR}{18}
+\DeclareTextSymbol{\coppa}{LGR}{19}
+\DeclareTextSymbol{\sampi}{LGR}{27}
+\DeclareTextSymbol{\Coppa}{LGR}{21}
+\DeclareTextSymbol{\Stigma}{LGR}{22}
+\DeclareTextSymbol{\Sampi}{LGR}{23}
+\DeclareTextSymbol{\TEUBdigamma}{LGR}{147}
+\DeclareTextSymbol{\TEUBDigamma}{LGR}{195}
+%
+\input{lgrcmr.fd}
+\DeclareFontFamily{U}{mtr}{\hyphenchar\font\m@ne}
+\EC@family{U}{mtr}{m}{n}{gmtr}
+\DeclareFontShape{U}{mtr}{m}{it}{<->ssub*mtr/m/n}{}
+\newcommand*\metricsfont{\fontencoding{U}\fontfamily{mtr}\upshape}
+\DeclareRobustCommand{\longa}{{\metricsfont l}}
+\DeclareRobustCommand{\brevis}{{\metricsfont b}}
+\DeclareRobustCommand{\bbrevis}{{\metricsfont c}}
+\DeclareRobustCommand{\barbrevis}{{\metricsfont i}}
+\DeclareRobustCommand{\ubarbrevis}{{\metricsfont d}}
+\DeclareRobustCommand{\ubarbbrevis}{{\metricsfont e}}
+\DeclareRobustCommand{\ubarsbrevis}{{\metricsfont f}}
+\DeclareRobustCommand{\corona}{{\metricsfont\char20}}
+\DeclareRobustCommand{\coronainv}{{\metricsfont\char21}}
+\DeclareRobustCommand{\catal}{{\metricsfont g}}
+\DeclareRobustCommand{\ipercatal}{{\metricsfont h}}
+\DeclareRobustCommand{\barbbrevis}{{\metricsfont j}}
+\DeclareRobustCommand{\hiatus}{\textsuperscript{\upshape H}}
+\DeclareRobustCommand{\anceps}{{\metricsfont X}}
+\DeclareRobustCommand{\banceps}{{\metricsfont Y}}
+\DeclareRobustCommand{\ancepsdbrevis}{{\metricsfont Z}}
+\DeclareRobustCommand{\aeolicbii}{{\metricsfont I}}
+\DeclareRobustCommand{\aeolicbiii}{{\metricsfont J}}
+\DeclareRobustCommand{\aeolicbiv}{{\metricsfont K}}
+\DeclareRobustCommand{\ubrevislonga}{{\metricsfont\char107}}
+\DeclareRobustCommand{\iam}{{\metricsfont\barbrevis\longa\brevis\longa}}
+\DeclareRobustCommand{\chor}{{\metricsfont\longa\brevis\brevis\longa}}
+\DeclareRobustCommand{\enopl}{{%
+  \metricsfont\brevis\longa\brevis\brevis\longa\brevis\brevis\longa}}
+\DeclareRobustCommand{\hexam}{{%
+  \metricsfont\longa\brevis\brevis\longa\brevis\brevis
+  \longa\brevis\brevis\longa\brevis\brevis\longa\brevis\brevis
+  \longa\longa}}
+\DeclareRobustCommand{\dBar}{\ensuremath{\vert\vert}}
+\DeclareRobustCommand{\pentam}{{%
+  \metricsfont\longa\barbbrevis\longa\barbbrevis\longa\dBar
+  \longa\brevis\brevis\longa\brevis\brevis\longa}}
+\DeclareRobustCommand{\fourMACRO}{{%
+  \metricsfont\longa\longa\longa\longa}}
+\DeclareRobustCommand{\TWOtr}{{%
+  \metricsfont\longa\brevis\longa\anceps\ \longa\brevis\longa\anceps\ }}
+%
+\DeclareRobustCommand{\hemiobelion}{{\metricsfont A}}
+\DeclareRobustCommand{\tetartemorion}{{\metricsfont B}}
+\DeclareRobustCommand{\stater}{{\metricsfont C}}
+\DeclareRobustCommand{\dracma}{{\metricsfont D}}
+\DeclareRobustCommand{\denarius}{{\metricsfont E}}
+%
+\DeclareRobustCommand{\antilabe}{\makebox[1ex]{\TEUBtwodots\hfill\TEUBtwodots}\space}
+\DeclareRobustCommand{\TEUBtwodots}{%
+  \mbox{\kern1\p@\vbox to1ex{\hbox{.}\vss\hbox{.}}}}
+\DeclareRobustCommand{\TEUBthreedots}{%
+  \mbox{\kern1\p@\vbox to 2ex{\hbox{.}\vss\hbox{.}\vss\hbox{.}}}}
+\DeclareRobustCommand{\TEUBfourdots}{%
+  \mbox{\kern1\p@\vbox to 2ex{\hbox{.}\vss\hbox{.}\vss\hbox{.}\vss\hbox{.}}}}
+
+% END OF TEUBNER-SUBSET.STY

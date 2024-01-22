@@ -1,0 +1,211 @@
+#! /usr/bin/env perl
+
+# Convert fdsymbol.sty to a faked version that does not require
+# the definition of any additional math alphabets
+#
+# By Scott Pakin <scott.clsl@pakin.org>
+
+use POSIX;
+use warnings;
+use strict;
+
+# Define a subroutine to construct text and display delimiters.
+sub output_delimiter ($$$$$$$)
+{
+    my ($name, $smclass, $small, $top, $mid, $bot, $rep) = @_;
+    if ($smclass eq "fake") {
+	printf '\DeclareRobustCommand{\FDSYMt%s}{{\usefont{U}{FdSymbolF}{m}{n}\raisebox{0pt}{\CLSLfaketdelim{%d}{%d}{%d}}}}%s', $name, $top, $mid, $bot, "\n";
+    }
+    else {
+	printf '\DeclareRobustCommand{\FDSYMt%s}{{\usefont{U}{FdSymbol%s}{m}{n}\char%d}}%s', $name, $smclass, $small, "\n";
+    }
+    printf '\DeclareRobustCommand{\FDSYMd%s}{{\usefont{U}{FdSymbolF}{m}{n}\raisebox{20pt}{\CLSLfakeddelim{%d}{%d}{%d}{%d}}}}%s', $name, $top, $mid, $bot, $rep, "\n";
+}
+
+# Define a subroutine to construct an extensible accent.
+sub output_accent ($$$$$)
+{
+    my ($name, $smraise, $smchar, $lgraise, $lgchar) = @_;
+    printf '\DeclareRobustCommand{\FDSYM%s}[1]{\CLSLfakewidetopaccent{#1}{%dpt}{%d}{%dpt}{%d}{{U}{FdSymbolE}{m}{n}}}%s', $name, $smraise, $smchar, $lgraise, $lgchar, "\n";
+}
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+
+# Read and process fdsymbol.sty.
+my $seen_symfont = 0;          # 1=we've seen a \DeclareSymbolFont; 1=we haven't
+my $slot = 0;                  # Current character slot
+my $lastsym;                   # Name of last symbol declared
+my $ignored_conditional = 0;   # 1=on false branch of conditional; 0=true branch or not in conditional
+while (my $oneline = <>) {
+    chomp $oneline;
+
+    # Output some package header information.
+    if ($oneline =~ /NeedsTeXFormat/o) {
+        print $oneline, "\n";
+        next;
+    }
+    if ($oneline =~ /ProvidesPackage/o) {
+        $oneline =~ s/fdsymbol/fakefdsymbol/;
+        $oneline =~ s/FdSymbol/faked FdSymbol/;
+        print $oneline, "\n\n";
+        next;
+    }
+
+    # Handle conditionals.
+    if ($oneline =~ /^\\fi\s*$/) {
+        $ignored_conditional = 0;
+        next;
+    }
+    if ($oneline =~ /^\\else\s*$/) {
+        $ignored_conditional = 1 - $ignored_conditional;
+        next;
+    }
+    if ($oneline =~ /^\\iffdsy\@sfop/o) {
+        $ignored_conditional = 1;    # Ignore sans-serif operators.
+        next;
+    }
+    if ($oneline =~ /^\\iffdsy\@largedelims/o) {
+        $ignored_conditional = 1;    # Don't use large delimiters.
+        next;
+    }
+    next if $ignored_conditional;
+
+    # Declare fonts.
+    if ($oneline =~ /DeclareFontFamily\{U\}\{(FdSymbol\w+)\}\{\}/o) {
+        print $oneline, "\n";
+        print "\\DeclareFontShape{U}{$1}{m}{n}{<-> $1-Book}{}\n";
+        print "\\DeclareFontShape{U}{$1}{b}{n}{<-> $1-Medium}{}\n";
+        next;
+    }
+    if ($oneline =~ /DeclareSymbolFont\{(.*?)s\}\{U\}(\{FdSymbol\w+\}\{m\}\{n\})/o) {
+        if (!$seen_symfont) {
+            print "\n";
+            $seen_symfont = 1;
+        }
+        print "\\newcommand*{\\FDSYM$1char}[1]{{\\usefont{U}$2\\char#1}}\n";
+        next;
+    }
+
+    # Define all basic symbol characters.
+    if ($oneline =~ /\\fdsy\@setslot\{(\d+)\}/o) {
+        $slot = $1;
+        print "\n";
+        next;
+    }
+    if ($oneline =~ /\\fdsy\@DeclareSymbol\{\\([A-Za-z\@]+)\}\{(\w+)s\}/o) {
+        $lastsym = $1;
+        print "\\DeclareRobustCommand{\\FDSYM$lastsym}{\\FDSYM$2char{$slot}}\n";
+        $slot++;
+        next;
+    }
+    if ($oneline =~ /\\fdsy\@DeclareAlias\{\\([A-Za-z\@]+)\}\{\w+s\}/o) {
+        print "\\let\\FDSYM$1=\\FDSYM$lastsym\n";
+        next;
+    }
+    if ($oneline =~ /\\let\\([A-Za-z\@]+)=?\\([A-Za-z\@]+)/o && $2 ne "undefined") {
+        print "\\let\\FDSYM$1=\\FDSYM$2\n";
+        next;
+    }
+
+    # Define most delimiters.
+    if ($oneline =~ /\\fdsy\@Declare(?:Open|Close|Delimiter)\{\\([A-Za-z\@]+)\}.*\{delimiters\}\{\"(.*?)\}/o) {
+        my $sym = $1;
+        my $smallchar = hex($2);
+        my $bigchar = $smallchar + 5;
+
+	# Include a special case for vertical-line delimiters.
+	if ($sym =~ /^[rl]?(V?v?)ert$/) {
+	    my $segchar = $1 eq "Vv" ? $smallchar + 2 : $smallchar - 1;
+	    output_delimiter $sym, "F", $smallchar, $segchar, $segchar, $segchar, $segchar;
+	    next;
+	}
+
+	# Include a special case for left and right groups.
+	if ($sym =~ /^[rl]group$/) {
+	    output_delimiter $sym, "fake", -1, $smallchar, 132, $smallchar+2, 132;
+	    next;
+	}
+
+	# Ignore moustaches for now (handled below).
+	next if $sym =~ /^[lr]moustache$/;
+
+	# Handle all of the normal delimiters.
+        print "\\DeclareRobustCommand{\\FDSYMt$sym}{{\\usefont{U}{FdSymbolF}{m}{n}\\char$smallchar}}\n";
+        print "\\DeclareRobustCommand{\\FDSYMd$sym}{{\\usefont{U}{FdSymbolF}{m}{n}\\char$bigchar}}\n";
+        next;
+    }
+
+    # Define various math symbols.
+    if ($oneline =~ /\\DeclareMathSymbol\{\\([A-Za-z\@]+)\}.*\{(\w+)s\}\{\"(\w+)\}/o) {
+	my $sym = $1;
+	my $cat = $2;
+        my $char = hex $3;
+	print "\\DeclareRobustCommand{\\FDSYM$sym}{\\FDSYM${cat}char{$char}}\n";
+    }
+
+    # Define all of our accents.
+    if ($oneline =~ /\\DeclareMathAccent\{\\([A-Za-z\@]+)\}.*\{\"(\w+)\}/o) {
+	my $sym = $1;
+        my $smallacc = hex($2);
+	my $bigacc = $smallacc;
+	$bigacc += 2 if substr($sym, 0, 4) eq "wide";
+	output_accent $sym, 0, $smallacc, 2, $bigacc;
+    }
+}
+
+# Output a few special-case delimiters.
+output_delimiter "uparrow",     "C",  1, 198, 200, 200, 200;
+output_delimiter "downarrow",   "C",  3, 200, 200, 199, 200;
+output_delimiter "Uparrow",     "C",  9, 201, 203, 203, 203;
+output_delimiter "Downarrow",   "C", 11, 203, 203, 202, 203;
+output_delimiter "updownarrow", "C", 17, 198, 200, 199, 200;
+output_delimiter "Updownarrow", "C", 21, 201, 203, 202, 203;
+output_delimiter "lmoustache",  "fake", -1, 126, 132, 129, 132;
+output_delimiter "rmoustache",  "fake", -1, 127, 132, 128, 132;
+
+# Output various other symbol definitions.
+print <<'FDSYM_COMPOSITIONS'
+\DeclareRobustCommand{\FDSYMdotcong}{\mathrel{\dot{\text{\FDSYMcong}}}}
+\DeclareRobustCommand{\FDSYMthicksim}{{\usefont{U}{FdSymbolB}{b}{n}\char2}}
+\DeclareRobustCommand{\FDSYMthickapprox}{{\usefont{U}{FdSymbolB}{b}{n}\char4}}
+\DeclareRobustCommand{\FDSYMhbar}{\CLSLfakewidetopaccent{h}{1.8pt}{133}{2pt}{133}{{U}{FdSymbolE}{m}{n}}}
+\DeclareRobustCommand{\FDSYMhslash}{\CLSLfakewidetopaccent{h}{1.8pt}{134}{2pt}{134}{{U}{FdSymbolE}{m}{n}}}
+\DeclareRobustCommand{\FDSYMcenterdot}{\mathbin{\rule{0.15em}{0.15em}}}
+\let\FDSYMvdots=\FDSYM@vdots
+
+\DeclareRobustCommand{\FDSYMrelbar}{\mathrel{\smash{\text{\FDSYMminus}}}}
+\DeclareRobustCommand{\FDSYMRelbar}{\mathrel{\smash{\text{\FDSYMequal}}}}
+\makeatletter
+  \def\FDSYMlinesegmentfill@{\arrowfill@{\text{\FDSYMleftfootline}}\FDSYMrelbar{\text{\FDSYMrightfootline}}}
+  \def\FDSYMleftharpoonfill@{\arrowfill@{\text{\FDSYMleftharpoondown}}\FDSYMrelbar\FDSYMrelbar}
+  \def\FDSYMrightharpoonfill@{\arrowfill@\FDSYMrelbar\FDSYMrelbar{\text{\FDSYMrightharpoonup}}}
+  \DeclareRobustCommand{\FDSYMoverlinesegment}{\mathpalette{\overarrow@\FDSYMlinesegmentfill@}}
+  \DeclareRobustCommand{\FDSYMoverleftharpoon}{\mathpalette{\overarrow@\FDSYMleftharpoonfill@}}
+  \DeclareRobustCommand{\FDSYMoverrightharpoon}{\mathpalette{\overarrow@\FDSYMrightharpoonfill@}}
+  \DeclareRobustCommand{\FDSYMunderlinesegment}{\mathpalette{\underarrow@\FDSYMlinesegmentfill@}}
+  \DeclareRobustCommand{\FDSYMovergroup}{\mathpalette{\overarrow@\FDSYMdowngroupfill@}}
+  \DeclareRobustCommand{\FDSYMundergroup}{\mathpalette{\underarrow@\FDSYMupgroupfill@}}
+  \def\FDSYMbracefill@#1#2#3#4#5{%
+    $\m@th#5\hbox{#1}\leaders\hbox{#4}\hfill\hbox{#2}\leaders\hbox{#4}\hfill\hbox{#3}$%
+  }
+  \def\FDSYMdownbracefill@{\FDSYMbracefill@\FDSYMbraceld\FDSYMbracemd\FDSYMbracerd\FDSYMbracemid}
+  \def\FDSYMupbracefill@{\FDSYMbracefill@\FDSYMbracelu\FDSYMbracemu\FDSYMbraceru\FDSYMbracemid}
+  \def\FDSYMdowngroupfill@{\FDSYMbracefill@\FDSYMbraceld{}\FDSYMbracerd\FDSYMbracemid}
+  \def\FDSYMupgroupfill@{\FDSYMbracefill@\FDSYMbracelu{}\FDSYMbraceru\FDSYMbracemid}
+  \DeclareRobustCommand{\FDSYMoverbrace}[1]{%
+    \mathop{\mathpalette{\overarrow@\FDSYMdownbracefill@}{#1}}\limits
+  }
+  \DeclareRobustCommand{\FDSYMunderbrace}[1]{%
+    \mathop{\mathpalette{\underarrow@\FDSYMupbracefill@}{#1}}\limits%
+  }
+\makeatother
+FDSYM_COMPOSITIONS
+    ;
+
+# Write some trailer boilerplate.
+print "\n";
+print "\\endinput\n";

@@ -1,0 +1,336 @@
+###############################################################
+# Rewrite entries for all subsets to put them under "subset". #
+# Author: Scott Pakin <scott+clsl@pakin.org>                  #
+###############################################################
+
+# ------------------------------ subsets -------------------------------
+
+# ... regular ...
+
+# This rule must appear first in this section.
+[[rewrite]]
+matches = "subsets"
+render_matches = ""
+item = "subset"
+
+[[rewrite]]
+render_contains = '(\Sbset)'
+item = ["subset", "ordinary"]
+
+[[rewrite]]
+matches = ["subset", "strict subset"]
+item = ["subset", "strict"]
+
+[[rewrite]]
+matches = "subseteq"
+item = ["subset", "ordinary"]
+
+[[rewrite]]
+matches = "subseteqq"
+item = ["subset", "ordinary"]
+
+[[rewrite]]
+matches = ["subsetneq", "varsubsetneq"]
+item = ["subset", "proper"]
+
+[[rewrite]]
+matches = ["subsetneqq", "varsubsetneqq"]
+item = ["subset", "proper"]
+
+[[rewrite]]
+matches = "subsetdot"
+item = ["subset", "dotted, strict"]
+
+[[rewrite]]
+matches = "subedot"
+item = ["subset", "dotted"]
+
+[[rewrite]]
+matches = "subsetplus"
+item = ["subset", "plus, strict"]
+
+[[rewrite]]
+matches = "submult"
+item = ["subset", "times, strict"]
+
+[[rewrite]]
+matches = "subrarr"
+item = ["subset", "right arrow, strict"]
+
+[[rewrite]]
+matches = "subsetpluseq"
+item = ["subset", "plus"]
+
+[[rewrite]]
+matches = "subsetcirc"
+item = ["subset", "circle, strict"]
+
+[[rewrite]]
+matches = "subsetapprox"
+item = ["subset", "approximately equal to"]
+
+[[rewrite]]
+matches = "subsim"
+item = ["subset", "similar to"]
+
+[[rewrite]]
+matches = "subsub"
+item = ["subset", "atop subset"]
+
+[[rewrite]]
+matches = "subsup"
+item = ["subset", "atop superset"]
+
+[[rewrite]]
+matches = ["Subset", "strict finite subset"]
+item = ["subset", "finite, strict"]
+
+[[rewrite]]
+matches = "finite subset"
+item = ["subset", "finite"]
+
+[[rewrite]]
+matches = "leftarrowsubset"
+item = ["subset", "left arrow, strict"]
+
+[[rewrite]]
+matches = "bsolhsub"
+item = ["subset", "backslash"]
+
+[[rewrite]]
+matches = "csub"
+item = ["subset", "closed, strict"]
+
+[[rewrite]]
+matches = "csube"
+item = ["subset", "closed"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nsubseteq", "nsubseteqq", "subset negated"]
+item = ["subset", "ordinary, negated"]
+
+[[rewrite]]
+matches = ["nsubset", "strict subset negated"]
+item = ["subset", "strict, negated"]
+
+[[rewrite]]
+matches = ["nSubset", "strict finite subset negated"]
+item = ["subset", "finite, negated strict"]
+
+[[rewrite]]
+matches = "finite subset negated"
+item = ["subset", "negated finite"]
+
+# --------------------------- square subsets ---------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = ["sqsubset", "strict subbunch", "strict submap"]
+item = ["subset", "strict square"]
+
+[[rewrite]]
+matches = ["sqsubseteq", "sqsubseteqq", "subbunch", "submap"]
+item = ["subset", "square"]
+
+[[rewrite]]
+matches = ["sqsubsetneq", "varsqsubsetneq"]
+item = ["subset", "proper square"]
+
+[[rewrite]]
+matches = ["sqsubsetneqq", "varsqsubsetneqq"]
+item = ["subset", "proper square"]
+
+[[rewrite]]
+matches = "weak subbunch"
+item = ["subset", "dotted square"]
+
+[[rewrite]]
+matches = "strict weak subbunch"
+item = ["subset", "dotted square, strict"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nsqsubseteq", "nsqsubseteqq", "subbunch negated", "submap negated"]
+item = ["subset", "square, negated"]
+
+[[rewrite]]
+matches = ["nsqsubset", "strict subbunch negated", "strict submap negated"]
+item = ["subset", "strict square, negated"]
+
+[[rewrite]]
+matches = ["Sqsubset", "sqSubset"]
+item = ["subset", "finite, strict square"]
+
+[[rewrite]]
+matches = ["nSqsubset", "nsqSubset"]
+item = ["subset", "finite square, negated strict"]
+
+[[rewrite]]
+matches = "weak subbunch negated"
+item = ["subset", "dotted square, negated"]
+
+[[rewrite]]
+matches = "strict weak subbunch negated"
+item = ["subset", "dotted square, negated strict"]
+
+# ------------------------------ supersets -------------------------------
+
+# ... regular ...
+
+# This rule must appear first in this section.
+[[rewrite]]
+matches = "supersets"
+render_matches = ""
+item = "superset"
+
+[[rewrite]]
+matches = "supset"
+item = ["superset", "strict"]
+
+[[rewrite]]
+matches = "supseteq"
+item = ["superset", "ordinary"]
+
+[[rewrite]]
+matches = "supseteqq"
+item = ["superset", "ordinary"]
+
+[[rewrite]]
+matches = ["supsetneq", "varsupsetneq"]
+item = ["superset", "proper"]
+
+[[rewrite]]
+matches = ["supsetneqq", "varsupsetneqq"]
+item = ["superset", "proper"]
+
+[[rewrite]]
+matches = "supsetdot"
+item = ["superset", "dotted, strict"]
+
+[[rewrite]]
+matches = "supedot"
+item = ["superset", "dotted"]
+
+[[rewrite]]
+matches = "supsetplus"
+item = ["superset", "plus, strict"]
+
+[[rewrite]]
+matches = "supmult"
+item = ["superset", "times, strict"]
+
+[[rewrite]]
+matches = "suplarr"
+item = ["superset", "left arrow, strict"]
+
+[[rewrite]]
+render_contains = "STIXrightarrowsupset"
+item = ["superset", "right arrow, strict"]
+
+[[rewrite]]
+matches = "supsetpluseq"
+item = ["superset", "plus"]
+
+[[rewrite]]
+matches = "supsetcirc"
+item = ["superset", "circle, strict"]
+
+[[rewrite]]
+matches = "supsetapprox"
+item = ["superset", "approximately equal to"]
+
+[[rewrite]]
+matches = "supsim"
+item = ["superset", "similar to"]
+
+[[rewrite]]
+matches = "supsub"
+item = ["superset", "atop subset"]
+
+[[rewrite]]
+matches = "supsup"
+item = ["superset", "atop superset"]
+
+[[rewrite]]
+matches = "Supset"
+item = ["superset", "finite, strict"]
+
+[[rewrite]]
+matches = "suphsol"
+item = ["superset", "solidus"]
+
+[[rewrite]]
+matches = "suphsub"
+item = ["superset", "subset"]
+
+[[rewrite]]
+matches = "supdsub"
+item = ["superset", "subset dash"]
+
+[[rewrite]]
+matches = "csup"
+item = ["supset", "closed, strict"]
+
+[[rewrite]]
+matches = "csupe"
+item = ["supset", "closed"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nsupseteq", "nsupseteqq"]
+item = ["superset", "ordinary, negated"]
+
+[[rewrite]]
+matches = "nsupset"
+item = ["superset", "strict, negated"]
+
+[[rewrite]]
+matches = "nSupset"
+item = ["superset", "finite, negated strict"]
+
+# -------------------------- square supersets --------------------------
+
+# ... regular ...
+
+[[rewrite]]
+matches = "sqsupset"
+item = ["superset", "strict square"]
+
+[[rewrite]]
+matches = "sqsupseteq"
+item = ["superset", "square"]
+
+[[rewrite]]
+matches = "sqsupseteqq"
+item = ["superset", "square"]
+
+[[rewrite]]
+matches = ["sqsupsetneq", "varsqsupsetneq"]
+item = ["superset", "proper square"]
+
+[[rewrite]]
+matches = ["sqsupsetneqq", "varsqsupsetneqq"]
+item = ["superset", "proper square"]
+
+[[rewrite]]
+matches = ["Sqsupset", "sqSupset"]
+item = ["superset", "finite, strict square"]
+
+# ... negated ...
+
+[[rewrite]]
+matches = ["nSqsupset", "nsqSupset"]
+item = ["superset", "finite square, negated strict"]
+
+[[rewrite]]
+matches = "nsqsupset"
+item = ["superset", "strict square, negated"]
+
+[[rewrite]]
+matches = ["nsqsupseteq", "nsqsupseteqq"]
+item = ["superset", "square, negated"]

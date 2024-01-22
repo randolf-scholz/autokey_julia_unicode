@@ -1,0 +1,124 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+10080	"""𐂀"""	10080..100FF	Linear B Ideograms	Linear b ideogram b100 man		
+10081	"""𐂁"""	10080..100FF	Linear B Ideograms	Linear b ideogram b102 woman		
+10082	"""𐂂"""	10080..100FF	Linear B Ideograms	Linear b ideogram b104 deer		
+10083	"""𐂃"""	10080..100FF	Linear B Ideograms	Linear b ideogram b105 equid		
+10084	"""𐂄"""	10080..100FF	Linear B Ideograms	Linear b ideogram b105f mare		
+10085	"""𐂅"""	10080..100FF	Linear B Ideograms	Linear b ideogram b105m stallion		
+10086	"""𐂆"""	10080..100FF	Linear B Ideograms	Linear b ideogram b106f ewe		
+10087	"""𐂇"""	10080..100FF	Linear B Ideograms	Linear b ideogram b106m ram		
+10088	"""𐂈"""	10080..100FF	Linear B Ideograms	Linear b ideogram b107f she-goat		
+10089	"""𐂉"""	10080..100FF	Linear B Ideograms	Linear b ideogram b107m he-goat		
+1008A	"""𐂊"""	10080..100FF	Linear B Ideograms	Linear b ideogram b108f sow		
+1008B	"""𐂋"""	10080..100FF	Linear B Ideograms	Linear b ideogram b108m boar		
+1008C	"""𐂌"""	10080..100FF	Linear B Ideograms	Linear b ideogram b109f cow		
+1008D	"""𐂍"""	10080..100FF	Linear B Ideograms	Linear b ideogram b109m bull		
+1008E	"""𐂎"""	10080..100FF	Linear B Ideograms	Linear b ideogram b120 wheat		
+1008F	"""𐂏"""	10080..100FF	Linear B Ideograms	Linear b ideogram b121 barley		
+10090	"""𐂐"""	10080..100FF	Linear B Ideograms	Linear b ideogram b122 olive		
+10091	"""𐂑"""	10080..100FF	Linear B Ideograms	Linear b ideogram b123 spice		
+10092	"""𐂒"""	10080..100FF	Linear B Ideograms	Linear b ideogram b125 cyperus		
+10093	"""𐂓"""	10080..100FF	Linear B Ideograms	Linear b monogram b127 kapo		
+10094	"""𐂔"""	10080..100FF	Linear B Ideograms	Linear b monogram b128 kanako		
+10095	"""𐂕"""	10080..100FF	Linear B Ideograms	Linear b ideogram b130 oil		
+10096	"""𐂖"""	10080..100FF	Linear B Ideograms	Linear b ideogram b131 wine		
+10097	"""𐂗"""	10080..100FF	Linear B Ideograms	Linear b ideogram b132		
+10098	"""𐂘"""	10080..100FF	Linear B Ideograms	Linear b monogram b133 arepa		
+10099	"""𐂙"""	10080..100FF	Linear B Ideograms	Linear b monogram b135 meri		
+1009A	"""𐂚"""	10080..100FF	Linear B Ideograms	Linear b ideogram b140 bronze		
+1009B	"""𐂛"""	10080..100FF	Linear B Ideograms	Linear b ideogram b141 gold		
+1009C	"""𐂜"""	10080..100FF	Linear B Ideograms	Linear b ideogram b142		
+1009D	"""𐂝"""	10080..100FF	Linear B Ideograms	Linear b ideogram b145 wool		
+1009E	"""𐂞"""	10080..100FF	Linear B Ideograms	Linear b ideogram b146		
+1009F	"""𐂟"""	10080..100FF	Linear B Ideograms	Linear b ideogram b150		
+100A0	"""𐂠"""	10080..100FF	Linear B Ideograms	Linear b ideogram b151 horn		
+100A1	"""𐂡"""	10080..100FF	Linear B Ideograms	Linear b ideogram b152		
+100A2	"""𐂢"""	10080..100FF	Linear B Ideograms	Linear b ideogram b153		
+100A3	"""𐂣"""	10080..100FF	Linear B Ideograms	Linear b ideogram b154		
+100A4	"""𐂤"""	10080..100FF	Linear B Ideograms	Linear b monogram b156 turo2		
+100A5	"""𐂥"""	10080..100FF	Linear B Ideograms	Linear b ideogram b157		
+100A6	"""𐂦"""	10080..100FF	Linear B Ideograms	Linear b ideogram b158		
+100A7	"""𐂧"""	10080..100FF	Linear B Ideograms	Linear b ideogram b159 cloth		
+100A8	"""𐂨"""	10080..100FF	Linear B Ideograms	Linear b ideogram b160		
+100A9	"""𐂩"""	10080..100FF	Linear B Ideograms	Linear b ideogram b161		
+100AA	"""𐂪"""	10080..100FF	Linear B Ideograms	Linear b ideogram b162 garment		
+100AB	"""𐂫"""	10080..100FF	Linear B Ideograms	Linear b ideogram b163 armour		
+100AC	"""𐂬"""	10080..100FF	Linear B Ideograms	Linear b ideogram b164		
+100AD	"""𐂭"""	10080..100FF	Linear B Ideograms	Linear b ideogram b165		
+100AE	"""𐂮"""	10080..100FF	Linear B Ideograms	Linear b ideogram b166		
+100AF	"""𐂯"""	10080..100FF	Linear B Ideograms	Linear b ideogram b167		
+100B0	"""𐂰"""	10080..100FF	Linear B Ideograms	Linear b ideogram b168		
+100B1	"""𐂱"""	10080..100FF	Linear B Ideograms	Linear b ideogram b169		
+100B2	"""𐂲"""	10080..100FF	Linear B Ideograms	Linear b ideogram b170		
+100B3	"""𐂳"""	10080..100FF	Linear B Ideograms	Linear b ideogram b171		
+100B4	"""𐂴"""	10080..100FF	Linear B Ideograms	Linear b ideogram b172		
+100B5	"""𐂵"""	10080..100FF	Linear B Ideograms	Linear b ideogram b173 month		
+100B6	"""𐂶"""	10080..100FF	Linear B Ideograms	Linear b ideogram b174		
+100B7	"""𐂷"""	10080..100FF	Linear B Ideograms	Linear b ideogram b176 tree		
+100B8	"""𐂸"""	10080..100FF	Linear B Ideograms	Linear b ideogram b177		
+100B9	"""𐂹"""	10080..100FF	Linear B Ideograms	Linear b ideogram b178		
+100BA	"""𐂺"""	10080..100FF	Linear B Ideograms	Linear b ideogram b179		
+100BB	"""𐂻"""	10080..100FF	Linear B Ideograms	Linear b ideogram b180		
+100BC	"""𐂼"""	10080..100FF	Linear B Ideograms	Linear b ideogram b181		
+100BD	"""𐂽"""	10080..100FF	Linear B Ideograms	Linear b ideogram b182		
+100BE	"""𐂾"""	10080..100FF	Linear B Ideograms	Linear b ideogram b183		
+100BF	"""𐂿"""	10080..100FF	Linear B Ideograms	Linear b ideogram b184		
+100C0	"""𐃀"""	10080..100FF	Linear B Ideograms	Linear b ideogram b185		
+100C1	"""𐃁"""	10080..100FF	Linear B Ideograms	Linear b ideogram b189		
+100C2	"""𐃂"""	10080..100FF	Linear B Ideograms	Linear b ideogram b190		
+100C3	"""𐃃"""	10080..100FF	Linear B Ideograms	Linear b ideogram b191 helmet		
+100C4	"""𐃄"""	10080..100FF	Linear B Ideograms	Linear b ideogram b220 footstool		
+100C5	"""𐃅"""	10080..100FF	Linear B Ideograms	Linear b ideogram b225 bathtub		
+100C6	"""𐃆"""	10080..100FF	Linear B Ideograms	Linear b ideogram b230 spear		
+100C7	"""𐃇"""	10080..100FF	Linear B Ideograms	Linear b ideogram b231 arrow		
+100C8	"""𐃈"""	10080..100FF	Linear B Ideograms	Linear b ideogram b232		
+100C9	"""𐃉"""	10080..100FF	Linear B Ideograms	Linear b ideogram b233 sword		
+100CA	"""𐃊"""	10080..100FF	Linear B Ideograms	Linear b ideogram b234		
+100CB	"""𐃋"""	10080..100FF	Linear B Ideograms	Linear b ideogram b236		
+100CC	"""𐃌"""	10080..100FF	Linear B Ideograms	Linear b ideogram b240 wheeled chariot		
+100CD	"""𐃍"""	10080..100FF	Linear B Ideograms	Linear b ideogram b241 chariot		
+100CE	"""𐃎"""	10080..100FF	Linear B Ideograms	Linear b ideogram b242 chariot frame		
+100CF	"""𐃏"""	10080..100FF	Linear B Ideograms	Linear b ideogram b243 wheel		
+100D0	"""𐃐"""	10080..100FF	Linear B Ideograms	Linear b ideogram b245		
+100D1	"""𐃑"""	10080..100FF	Linear B Ideograms	Linear b ideogram b246		
+100D2	"""𐃒"""	10080..100FF	Linear B Ideograms	Linear b monogram b247 dipte		
+100D3	"""𐃓"""	10080..100FF	Linear B Ideograms	Linear b ideogram b248		
+100D4	"""𐃔"""	10080..100FF	Linear B Ideograms	Linear b ideogram b249		
+100D5	"""𐃕"""	10080..100FF	Linear B Ideograms	Linear b ideogram b251		
+100D6	"""𐃖"""	10080..100FF	Linear B Ideograms	Linear b ideogram b252		
+100D7	"""𐃗"""	10080..100FF	Linear B Ideograms	Linear b ideogram b253		
+100D8	"""𐃘"""	10080..100FF	Linear B Ideograms	Linear b ideogram b254 dart		
+100D9	"""𐃙"""	10080..100FF	Linear B Ideograms	Linear b ideogram b255		
+100DA	"""𐃚"""	10080..100FF	Linear B Ideograms	Linear b ideogram b256		
+100DB	"""𐃛"""	10080..100FF	Linear B Ideograms	Linear b ideogram b257		
+100DC	"""𐃜"""	10080..100FF	Linear B Ideograms	Linear b ideogram b258		
+100DD	"""𐃝"""	10080..100FF	Linear B Ideograms	Linear b ideogram b259		
+100DE	"""𐃞"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b155		
+100DF	"""𐃟"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b200		
+100E0	"""𐃠"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b201		
+100E1	"""𐃡"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b202		
+100E2	"""𐃢"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b203		
+100E3	"""𐃣"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b204		
+100E4	"""𐃤"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b205		
+100E5	"""𐃥"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b206		
+100E6	"""𐃦"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b207		
+100E7	"""𐃧"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b208		
+100E8	"""𐃨"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b209		
+100E9	"""𐃩"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b210		
+100EA	"""𐃪"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b211		
+100EB	"""𐃫"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b212		
+100EC	"""𐃬"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b213		
+100ED	"""𐃭"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b214		
+100EE	"""𐃮"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b215		
+100EF	"""𐃯"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b216		
+100F0	"""𐃰"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b217		
+100F1	"""𐃱"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b218		
+100F2	"""𐃲"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b219		
+100F3	"""𐃳"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b221		
+100F4	"""𐃴"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b222		
+100F5	"""𐃵"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b226		
+100F6	"""𐃶"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b227		
+100F7	"""𐃷"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b228		
+100F8	"""𐃸"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b229		
+100F9	"""𐃹"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b250		
+100FA	"""𐃺"""	10080..100FF	Linear B Ideograms	Linear b ideogram vessel b305		

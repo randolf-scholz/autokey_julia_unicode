@@ -1,0 +1,60 @@
+#! /usr/bin/env perl
+
+# Convert cmupint.sty to a faked version that does not require
+# the definition of any additional math alphabets
+#
+# By Scott Pakin <scott+clsl@pakin.org>
+
+use warnings;
+use strict;
+
+# Read and process cmupint.sty.
+my %raw_sym2slot;   # Map from a no-limits integral to a font slot
+my %sym2slot;       # Map from an integral with limits to a font slot
+my $provides;       # \ProvidesPackage line
+while (my $line = <>) {
+    chomp $line;
+    if ($line =~ /^\\DeclareMathSymbol\{\\(\w+)\}.*\{(\d+)\}/) {
+	$raw_sym2slot{$1} = $2 + 0;
+    }
+    elsif ($line =~ /^\\def\\(\w+)\{\\relax\\(\w+)/) {
+	$sym2slot{$1} = $raw_sym2slot{$2};
+    }
+    elsif ($line =~ /^\\ProvidesPackage/) {
+	$provides = $line;
+    }
+}
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+print $provides, "\n";
+print <<'DEFCMD';
+\newcommand*{\cmupintsym}[2]{%
+  \raisebox{#1}{%
+    \usefont{U}{cmupint}{m}{n}\selectfont
+    \char#2%
+  }%
+}
+
+DEFCMD
+;
+
+# Define each symbol as a text symbol.
+foreach my $sym (sort {$sym2slot{$a} <=> $sym2slot{$b}} keys %sym2slot) {
+    printf '\DeclareRobustCommand{\CMUP%sT}{\cmupintsym{8pt}{%d}}'."\n", $sym, $sym2slot{$sym};
+    printf '\DeclareRobustCommand{\CMUP%sD}{\cmupintsym{13pt}{%d}}'."\n", $sym, $sym2slot{$sym} + 1;
+}
+
+# \idotsint needs to be constructed manually.
+print <<'IDOTSINT';
+\DeclareRobustCommand{\CMUPidotsintT}{\CMUPintT$\,\intdots@$\CMUPintT}
+\DeclareRobustCommand{\CMUPidotsintD}{\CMUPintD$\,\intdots@$\CMUPintD}
+IDOTSINT
+;
+
+# Output some header boilerplate.
+print "\n";
+print "\\endinput\n";

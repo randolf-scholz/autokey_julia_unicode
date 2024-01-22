@@ -1,0 +1,32 @@
+#! /usr/bin/env perl
+
+# Convert starfont.sty to a faked version that does not conflict with
+# every other package providing astronomical symbols
+#
+# By Scott Pakin <scott.clsl@pakin.org>
+
+use POSIX;
+use warnings;
+use strict;
+
+# Output some header boilerplate.
+print "\%" x 43, "\n";
+print "\% This is a generated file.  DO NOT EDIT. \%\n";
+print "\%" x 43, "\n";
+print "\n";
+
+# Read and process starfont.sty.
+while (my $oneline = <>) {
+    chomp $oneline;
+
+    # Modify the package header information.
+    $oneline =~ s/starfont\.sty/fakestarfont.sty/;
+    $oneline =~ s/\{starfont\}/\{fakestarfont\}/;
+    $oneline =~ s/Anthony/faked Anthony/;
+
+    # Replace all symbol definitions.
+    $oneline =~ s/^\\def\\((var)?[A-Z])/\\def\\STAR$1/;
+
+    # Output all lines, modified or not.
+    print $oneline, "\n";
+}

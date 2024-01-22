@@ -1,0 +1,253 @@
+##############################################
+# Categorize circles.                        #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------------ circles -------------------------------
+
+[[rewrite]]
+matches = "circles"
+item = "circle"
+
+# This rule should precede the following one.
+[[rewrite]]
+matches = "CIRCLE"
+item = ["circle", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+matches = [
+    "bigcirc",
+    "medcirc",
+    "textbigcircle",
+    "varbigcirc",
+    "ovoid",
+    "bigovoid",
+    "circlet",
+    "circle",
+    "bigcircle",
+    "largecircle",
+    "medcircle",
+    "smallcircle"
+]
+item = "circle"
+
+[[rewrite]]
+matches = ["HT", "SO"]
+item = "circle"
+
+[[rewrite]]
+prefix = "WhiteCircle"
+item = "circle"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(small|sm|md|med|lg|large)(wht|white)circle[a-z]?$'
+item = "circle"
+
+[[rewrite]]
+compare_lowercase = true
+regex = '^(blue|brown|green|orange|purple|red|yellow)\s+circle$'
+item = ["circle", '\1']
+
+# This rule should precede other "white circle" rules.
+[[rewrite]]
+render_contains = '\twemoji{26aa}'
+item = ["circle", "white"]
+
+[[rewrite]]
+matches = [
+    "white circle",
+    "white small circle",
+    "white really small circle"
+]
+item = "circle"
+
+# This rule should precede other "black circle" rules.
+[[rewrite]]
+render_contains = '\twemoji{26ab}'
+item = ["circle", "black"]
+
+[[rewrite]]
+matches = [
+    "baucircle",
+    "black circle",
+    "black small circle",
+    "black really small circle",
+    "CircleSolid",
+    "circletfill"
+]
+item = ["circle", "filled"]
+
+[[rewrite]]
+regex = '^(Filled|Black).*Circle'
+item = ["circle", "filled"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '(sm|small|md|med|lg|large)(blk|black)circle[a-z]?$'
+item = ["circle", "filled"]
+
+[[rewrite]]
+matches = [
+    "dotted circle",
+    "dotted small circle",
+    "circletdot"
+]
+item = ["circle", "dotted"]
+
+[[rewrite]]
+matches = "dottedcircle"
+item = ["circle", "of dots"]
+
+[[rewrite]]
+matches = ["enclosecircle", "textcircled", "Kr"]
+item = ["circle", "enclosing"]
+
+[[rewrite]]
+matches = ["barcirc", "circlehbar"]
+item = ["circle", "horizontally divided"]
+
+[[rewrite]]
+matches = "cirE"
+item = ["circle", "equals"]
+
+[[rewrite]]
+matches = "cirscir"
+item = ["circle", "with small circle"]
+
+[[rewrite]]
+matches = "blackcircledownarrow"
+item = ["circle", "filled, arrow"]
+
+[[rewrite]]
+matches = ["circleleft", "circleright"]
+item = ["circle", "arrow"]
+
+[[rewrite]]
+matches = "errbarblackcircle"
+item = ["circle", "filled, error bars"]
+
+[[rewrite]]
+matches = "errbarcircle"
+item = ["circle", "error bars"]
+
+[[rewrite]]
+regex = '^HalfCircle(Left|Right)$'
+item = ["circle", "filled, half"]
+
+[[rewrite]]
+matches = [
+    "LEFTCIRCLE",
+    "RIGHTCIRCLE",
+    "blacklefthalfcircle",
+    "blackrighthalfcircle"
+]
+item = ["circle", "filled, half"]
+
+[[rewrite]]
+matches = ["LEFTcircle", "RIGHTcircle"]
+item = ["circle", "half filled"]
+
+[[rewrite]]
+regex = '^circle(top|bottom|left|right)halfblack$'
+item = ["circle", "half filled"]
+
+[[rewrite]]
+regex = '^circletfillh[ablr]$'
+item = ["circle", "half filled"]
+
+[[rewrite]]
+matches = ["Leftcircle", "Rightcircle"]
+item = ["circle", "half"]
+
+[[rewrite]]
+matches = [
+    "shadowed white circle",
+    "upper right shadowed white circle",
+    "lower right shadowed white circle",
+    "CircleShadow"
+]
+item = ["circle", "shadowed"]
+
+[[rewrite]]
+matches = [
+    "white circle containing black circle",
+    "white small circle containing black circle"
+]
+item = ["circle", "containing filled circle"]
+
+[[rewrite]]
+matches = "manfilledquartercircle"
+item = ["circle", "filled, quarter"]
+
+[[rewrite]]
+matches = "manconcentriccircles"
+item = ["circle", "concentric"]
+
+[[rewrite]]
+matches = [
+    "outline circle",
+    "outline small circle"
+]
+item = ["circle", "outlined"]
+
+[[rewrite]]
+regex = '''
+^(hollow red|\
+horizontally divided|\
+vertically divided|\
+quartered)\
+\s+(small\s+)?circle$\
+'''
+item = ["circle", '\1']
+
+[[rewrite]]
+matches = "circletlineh"
+item = ["circle", "horizontally divided"]
+
+[[rewrite]]
+matches = "circletlinev"
+item = ["circle", "vertically divided"]
+
+[[rewrite]]
+matches = "circletlinevh"
+item = ["circle", "quartered"]
+
+# I don't know what "logof" is supposed to represent, so I'm calling
+# it a circle divided into fifths.
+[[rewrite]]
+matches = "logof"
+item = ["circle", "fifths"]
+
+[[rewrite]]
+matches = "circletcross"
+item = ["circle", "crossed"]
+
+[[rewrite]]
+regex = '^circle[ul][lr]quad$'
+item = ["circle", "quarter marked"]
+
+[[rewrite]]
+regex = '^circle[ul][lr]quadblack$'
+item = ["circle", "quarter filled"]
+
+[[rewrite]]
+regex = '^blackcircle[ul][lr]quadwhite'
+item = ["circle", "three quarters filled"]
+
+[[rewrite]]
+matches = ["inversewhitecircle", "LF"]
+item = ["circle", "white on black"]
+
+[[rewrite]]
+regex = '^inv(erse)?white(lower|upper)halfcircle$'
+item = ["circle", "white on black, half"]
+
+[[rewrite]]
+regex = '^large (blue|red) circle$'
+item = ["circle", "striped"]    # utfsym is black-and-white.
+
+[[rewrite]]
+matches = "circlevertfill"
+item = ["circle", "striped"]

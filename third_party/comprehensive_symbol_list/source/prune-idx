@@ -1,0 +1,1628 @@
+#! /usr/bin/env python
+
+##############################################
+# Remove unnecessary index entries and merge #
+# other index entries to improve index       #
+# usability.                                 #
+#                                            #
+# Author: Scott Pakin <scott.clsl@pakin.org> #
+##############################################
+
+import argparse
+import collections.abc
+import copy
+import multiprocessing
+import re
+import subprocess
+import sys
+import textwrap
+import toml
+from collections import defaultdict
+from dataclasses import dataclass
+
+
+class Subitem():
+    '''Represent an index key and an optional rendering of that key.
+    The rendering is split into a rendering of the key proper, an
+    optional rendering of the corresponding glyph, and optional
+    suffix material.'''
+
+    glyph_re = re.compile(r'^(.*?)\s+\((\S+)\)([^()]*)$')
+
+    def __init__(self, key, latex=None):
+        self.key = key
+        self.full_render = latex
+
+    @property
+    def full_render(self):
+        '''Return the render, glyph, and suffix as a single string or None
+        if no rendering is defined.'''
+        if self.render is None:
+            return None
+        if self.glyph is None:
+            return self.render
+        return '%s (%s)%s' % (self.render, self.glyph, self.suffix or '')
+
+    @full_render.setter
+    def full_render(self, latex):
+        'Parse LaTeX code into a render, glyph, and suffix.'
+        self.render = None
+        self.glyph = None
+        self.suffix = None
+        if latex is None:
+            return
+        match = self.glyph_re.match(latex)
+        if match is None:
+            self.render = latex
+        else:
+            self.render = match[1]
+            if match[2] != '':
+                self.glyph = match[2]
+                if match[3] != '':
+                    self.suffix = match[3]
+
+    def __repr__(self):
+        return repr((self.key, self.render, self.glyph, self.suffix))
+
+    def __str__(self):
+        if self.render is None:
+            return self.key
+        if self.glyph is None:
+            return f'{self.key}={self.render}'
+        return '%s=%s (%s)%s' % \
+            (self.key, self.render, self.glyph, self.suffix or '')
+
+
+class IndexEntry():
+    'Represent a single line of an .idx file.'
+
+    entry_re = re.compile(r'^\\indexentry\{(.*)\|(.*)\}\{(\d+)\}$')
+    item_re = re.compile(r'^([^=]+)(=.*)?$')
+    glyph_re = re.compile(r'^(.*?)\s+\((\S+)\)$')
+
+    def __init__(self, ln):
+        # Parse the line into an item, page-number formatting code, and the
+        # page number itself.  From the formatting code, extract a grouping
+        # code, which is either "(", ")", or None.
+        match = self.entry_re.match(ln)
+        if match is None:
+            raise ValueError('failed to parse %s' % repr(ln))
+        item_str = match[1]
+        self.group = None
+        self.format = match[2]
+        if self.format[0] in ['(', ')']:
+            self.group = self.format[0]
+            self.format = self.format[1:]
+        self.page = int(match[3])
+        self.trace = False   # Used only for debugging
+
+        # Parse the item into one or more sub-items.
+        sub_gt = '*GREATER-THAN*'   # Replacement for quoted ">" (i.e., "!>")
+        item_str = item_str.replace('!>', sub_gt)
+        subitems = [it.replace(sub_gt, '!>') for it in item_str.split('>')]
+
+        # Convert each sub-item into a Subitem object.
+        self.subitems = []
+        for si in subitems:
+            match = self.item_re.match(si)
+            if match is None:
+                raise ValueError('failed to parse %s' % repr(ln))
+            render = match[2]
+            if render is not None:
+                render = render[1:]   # Drop the "=".
+            self.subitems.append(Subitem(match[1], render))
+
+        # To help with debugging, save the original version of the object
+        # before rewrites.
+        self.original = copy.deepcopy(self)
+
+    def __repr__(self):
+        return repr(([repr(si) for si in self.subitems],
+                     self.group, self.format, self.page))
+
+    def __str__(self):
+        toks = []
+        toks.append('\\indexentry{')
+        toks.append('>'.join([str(si) for si in self.subitems]))
+        toks.append('|')
+        if self.group is not None:
+            toks.append(self.group)
+        toks.append(self.format)
+        toks.append('}{%d}' % self.page)
+        return ''.join(toks)
+
+    def prioritization_key(self):
+        'Return a key for use in sorting entries in priority order.'
+        # The key first prioritizes entries using a small set of glyphs
+        # known to look nicer than the first occurring glyph for the same
+        # item.  Then, it prioritizes all non-None glyphs.  Finally, it
+        # prioritizes all non-None renderings.
+        subitemN = self.subitems[-1]
+        n_subs = len(self.subitems)
+        if all([si.render is None for si in self.subitems]):
+            # Subitem tally, normal priority glyph, no glyph, no rendering.
+            return (n_subs, 0, True, True)
+        if all([si.glyph is None for si in self.subitems]):
+            # Subitem tally, normal priority glyph, no glyph, rendering.
+            return (n_subs, 0, True, False)
+        for code in [
+                # Nicer-looking variants
+                r'$\forall$',
+                r'\ABXwidering',
+                r'\worldflag{',
+                r'\FDSYMrightangle',
+                r'\sphericalangle',
+                r'\Opn',               # logix open delimiter
+                r'\twemoji{27a1}',     # "right arrow"
+                r'\MNSbrace',
+                r'\overbracket',
+                r'\leftrightarrow',
+                r'\FDSYMoverbrace',
+                r'\FDSYMunderbrace',
+                r'\overbracket',
+                r'\underbracket',
+                r'\overparenthesis',
+                r'\underparenthesis',
+                r'\shortunderlvecc',
+                r'\shortundervecc',
+                r'\shortvecc',
+                r'\shortlvecc',
+                r'\FDSYMnsubset',
+                r'\FDSYMnsupset',
+                r'\FDSYMnsqsubset',
+                r'\FDSYMnsqsupset',
+                r'\FDSYMnSqsubset',
+                r'\FDSYMnSqsupset',
+                r'\FiveStar',
+                r'\officialeuro',
+                r'\mfWireless',
+                r'\bcfeutricolore',
+                r'\squadlineh',
+                r'\squadlinev',
+                r'\squadcross',
+                r'\squaddot',
+                r'\SquareCastShadowBottomRight',
+                r'\WhiteSquareG',
+                r'\BlackSquareG',
+                r'\FDSYMemptyset',
+                r'\STIXAngstrom',
+                r'\textregistered',
+                r'\texttrademark',
+                r'\neg',
+                r'\exists',
+                r'\times',
+                r'\invamp',
+                r'\igoblackstone',
+                r'\MNSrightfree',
+                r'\MNSnrightfree',
+                r'$\prod$',
+                r'\MVLeftBracket',
+                r'\faQuestionCircle[regular]',
+                r'\BlackCircleG',
+                r'\FDSYMmedblackdiamond',
+                r'\musSegno',
+                r'\MNStbigostar',
+                r'\faUserCircle[regular]',
+
+                # Squares and rhombuses with arrows
+                r'$\boxRight',
+                r'$\boxright',
+                r'$\boxdotRight',
+                r'$\boxdotright',
+                r'$\DiamondRight',
+                r'$\Diamondright',
+                r'$\DiamonddotRight',
+                r'$\Diamonddotright',
+
+                # Chess pieces
+                r'\symbishop',
+                r'\symking',
+                r'\symknight',
+                r'\sympawn',
+                r'\symqueen',
+                r'\symrook',
+
+                # Halloween math
+                r'\overrightwitchonbroom',
+                r'\underrightwitchonbroom',
+                r'\overrightwitchonpitchfork',
+                r'\underrightwitchonpitchfork',
+                r'\overrightswishingghost',
+                r'\underrightswishingghost',
+                r'\mathbat',
+
+                # Harpoons
+                r'\rightharpoonup',
+                r'\STIXbarrightharpoonup',
+                r'\STIXrightharpoonupbar',
+                r'\ABXrightbarharpoon',
+                r'\MNSnleftrightharpoonupdown',
+                r'\MNSnleftrightharpoons',
+                r'\MTOOLSxrightharpoonup',
+                r'\longvarrightharp',
+                r'\FDSYMnrightharpoonup',
+                r'\ABXrightrightharpoons',
+
+                # Corners
+                r'\GOlftbotcorner',
+                r'\GOlfttopcorner',
+                r'\GOrtbotcorner',
+                r'\GOrttopcorner',
+
+                # Basic Greek letters with no embellishments.
+                r'$\alpha$', r'$\beta$', r'$\gamma$', r'$\delta$',
+                r'$\epsilon$', r'$\zeta$', r'$\eta$', r'$\theta$',
+                r'$\iota$', r'$\kappa$', r'$\lambda$', r'$\mu$', r'$\nu$',
+                r'$\xi$', r'$\omicron$', r'$\pi$', r'$\rho$', r'$\sigma$',
+                r'$\tau$', r'$\upsilon$', r'$\phi$', r'$\chi$', r'$\psi$',
+                r'$\omega$', r'\textAlpha', r'\textBeta', r'\textGamma',
+                r'\textDelta', r'\textEpsilon', r'\textZeta', r'\textEta',
+                r'\textTheta', r'\textIota', r'\textKappa', r'\textLambda',
+                r'\textMu', r'\textNu', r'\textXi', r'\textOmicron',
+                r'\textPi', r'\textRho', r'\textSigma', r'\textTau',
+                r'\textUpsilon', r'\textPhi', r'\textChi', r'\textPsi',
+                r'\textOmega',
+        ]:
+            if code in subitemN.glyph:
+                # Subitem tally, high priority glyph, glyph, rendering.
+                return (n_subs, -1, False, False)
+        glyphN_lower = subitemN.glyph.lower()
+        if 'arrow' in glyphN_lower and 'right' in glyphN_lower and \
+           'left' not in glyphN_lower:
+            # Subitem tally, high priority glyph, glyph, rendering.
+            return (n_subs, -1, False, False)
+        if 'triangle' in glyphN_lower and 'down' not in glyphN_lower and \
+           'left' not in glyphN_lower:
+            if 'up' in glyphN_lower or 'right' not in glyphN_lower:
+                # Subitem tally, high priority glyph, glyph, rendering.
+                return (n_subs, -1, False, False)
+            else:
+                # Subitem tally, medium priority glyph, glyph, rendering.
+                return (n_subs, 0, False, False)
+        if '\\usym{' in glyphN_lower:
+            # Subitem tally, low priority glyph, glyph, rendering.
+            return (n_subs, +1, False, False)
+        # Subitem tally, normal priority glyph, glyph, rendering
+        return (n_subs, 0, False, False)
+
+
+class EntryToTag(collections.abc.Mapping):
+    "Map an entry's glyph to a unique tag."
+
+    def __init__(self):
+        self.glyph2tag = {}
+
+    def __getitem__(self, e):
+        'Given an entry, return an associated tag.'
+        # Use an existing tag if available.  Otherwise create a new one.
+        subitemN = e.subitems[-1]
+        glyph = subitemN.glyph
+        try:
+            tag = self.glyph2tag[glyph]
+        except KeyError:
+            # Create a tag of the form "!dummy-<page>-<glyph_hash>".  The
+            # leading "!" ensures that Makeindex will sort "TAG=SYM" ahead
+            # of "ITEM (SYM)".  For example, under "man", a basic man
+            # symbol should precede "getting haircut (<glyph>)."
+            h = '%019x' % hash(glyph)
+            tag = '!!dummy-%04d-%s' % \
+                (e.page, h[-6:])  # Escape the "!" with a second "!".
+            self.glyph2tag[glyph] = tag
+        return tag
+
+    def __iter__():
+        return iter(self.glyph2tag)
+
+    def __len__():
+        return len(self.glyph2tag)
+
+
+class EntryMatcher():
+    'Represent a rule for matching an IndexEntry.'
+
+    def __init__(self, rule):
+        # Initialize object variables.
+        self.compare_lowercase = rule.get('compare_lowercase', False)
+        self.consider_all_entries = rule.get('consider_all_entries', False)
+        self.trace = rule.get('trace', False)
+        self.rule_type = None   # Overridden by a child class
+        self.re_match = None
+        have_regex = False
+
+        # Initialize additional object variables used only for debugging.
+        self.rule = rule
+        self.triggered = False
+        mrule = rule.get('matches', [])
+        if isinstance(mrule, str):
+            self.remaining_matches = set([mrule])
+        else:
+            self.remaining_matches = set(mrule)
+
+        # Define a function for all other keys.  For example, define
+        # self.not_prefix_fail as self._make_not_contain_failure_func
+        # applied to rule['not_prefix'].
+        self.subject_to_function = defaultdict(lambda: [])
+        for adverb in [None, 'not']:
+            for subject in [
+                    None,
+                    'render',
+                    'top',
+                    'format'
+            ]:
+                for verb in ['matches', 'contains', 'prefix', 'regex']:
+                    toml_key = '_'.join([c
+                                         for c in [adverb, subject, verb]
+                                         if c is not None])
+                    try:
+                        toml_value = rule[toml_key]
+                        factory_name = '_make_%s_failure_func' % \
+                            '_'.join([c
+                                      for c in [adverb, verb]
+                                      if c is not None])
+                        factory = getattr(self, factory_name)
+                        func = factory(toml_value)
+                        self.subject_to_function[subject].append(func)
+                        if verb == 'regex':
+                            if have_regex:
+                                raise RuntimeError('more than one regex'
+                                                   ' was used in rule %s' %
+                                                   rule)
+                            have_regex = True
+                    except KeyError:
+                        pass
+
+        # Abort the program if there is not at least one function in the list.
+        if len(self.subject_to_function) == 0:
+            raise RuntimeError('no matching patterns found in rule %s' % rule)
+
+    @staticmethod
+    def _succeed(item):
+        '''Return a function that itself always returns False (no match
+        failure).'''
+        return False
+
+    @staticmethod
+    def _make_matches_failure_func(pattern):
+        'Return a function that itself returns True on a match failure.'
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: item != pattern
+        else:
+            pattern = set(pattern)
+            return lambda item: all([item != p for p in pattern])
+
+    @staticmethod
+    def _make_not_matches_failure_func(pattern):
+        'Return a function that itself returns False on a match failure.'
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: item == pattern
+        else:
+            pattern = set(pattern)
+            return lambda item: any([item == p for p in pattern])
+
+    @staticmethod
+    def _make_contains_failure_func(pattern):
+        '''Return a function that itself returns True on a containing
+        failure.'''
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: pattern not in item
+        else:
+            return lambda item: all([p not in item for p in pattern])
+
+    @staticmethod
+    def _make_not_contains_failure_func(pattern):
+        '''Return a function that itself returns False on a containing
+        failure.'''
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: pattern in item
+        else:
+            return lambda item: any([p in item for p in pattern])
+
+    @staticmethod
+    def _make_prefix_failure_func(pattern):
+        'Return a function that itself returns True on a prefix failure.'
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: not item.startswith(pattern)
+        else:
+            return lambda item: all([not item.startswith(p) for p in pattern])
+
+    @staticmethod
+    def _make_not_prefix_failure_func(pattern):
+        'Return a function that itself returns False on a prefix failure.'
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            return lambda item: item.startswith(pattern)
+        else:
+            return lambda item: any([item.startswith(p) for p in pattern])
+
+    def _make_regex_failure_func(self, pattern):
+        '''Return a function that itself returns True on a regular-expression
+        match failure.'''
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            regex = re.compile(pattern)
+            return lambda item: (setattr(self, 're_match', regex.search(item)),
+                                 self.re_match is None)[1]
+        else:
+            raise ValueError('lists of regular expressions are not supported')
+
+    def _make_not_regex_failure_func(self, pattern):
+        '''Return a function that itself returns False on a regular-expression
+        match failure.'''
+        if pattern is None:
+            return lambda item: False
+        elif isinstance(pattern, str):
+            regex = re.compile(pattern)
+            return lambda item: (setattr(self, 're_match', regex.search(item)),
+                                 self.re_match is not None)[1]
+        else:
+            raise ValueError('lists of regular expressions are not supported')
+
+    def matches_pattern(self, entry):
+        'Return True if the entry matches the pattern.'
+        # Extract the first item, final item, and final rendering code.
+        top_item = entry.subitems[0].key
+        item = entry.subitems[-1].key
+        try:
+            full_render = entry.subitems[-1].full_render or ''
+        except IndexError:
+            full_render = ''
+        if self.compare_lowercase:
+            top_item = top_item.lower()
+            item = item.lower()
+            full_render = full_render.lower()
+        format = entry.format or ''
+
+        # Ignore non-symbol entries unless consider_all_entries is True.
+        if not self.consider_all_entries:
+            if format.startswith('hyperindexformat'):
+                # "see" and "see also"
+                return False
+            if '\\href' in full_render:
+                # Package or other hyperlink
+                return False
+
+        # Return False if we do not match the IndexEntry.
+        for subject, arg in [
+                (None, item),
+                ('render', full_render),
+                ('top', top_item),
+                ('format', format)
+        ]:
+            for match_func in self.subject_to_function[subject]:
+                if match_func(arg):
+                    return False
+
+        # The rule matched the IndexEntry.  Provide trace output if
+        # requested for either the entry or the rule.
+        if entry.trace or self.trace:
+            sys.stderr.write('=== Trace ===\n')
+            if entry.trace:
+                sys.stderr.write('Trigger: entry\n')
+            else:
+                sys.stderr.write('Trigger: rule\n')
+            sys.stderr.write('Entry:\n    %s\n' % str(entry))
+            sys.stderr.write('Rule:\n')
+            rule_str = '[[%s]]\n' % self.rule_type
+            rule_str += toml.dumps(self.rule)
+            sys.stderr.write(textwrap.indent(rule_str, '    '))
+
+        # As a special case for simple matches, discard the alternative
+        # that matched.
+        self.remaining_matches.discard(item)
+
+        # Return True, and record that the rule was triggered.
+        self.triggered = True
+        return True
+
+
+class EntryTracer(EntryMatcher):
+    'Represent a single rule for tracing an IndexEntry.'
+
+    def __init__(self, rule):
+        super().__init__(rule)
+        self.rule_type = 'trace'
+
+
+class EntryDeleter(EntryMatcher):
+    'Represent a single rule for deleting an IndexEntry.'
+
+    def __init__(self, rule):
+        super().__init__(rule)
+        self.rule_type = 'delete'
+
+
+class EntryRewriter(EntryMatcher):
+    'Represent a single rule for rewriting an IndexEntry.'
+
+    # Split a string into up to 10 fields.  The 11th group contains all
+    # remaining fields.
+    fields_re = re.compile(r'(\S+)' + r'((?:\s+)\S+)?'*9 + r'(.*)$')
+
+    def __init__(self, rule):
+        super().__init__(rule)
+        self.rule_type = 'rewrite'
+        self.item = rule.get('item', None)
+        self.word = rule.get('word', None)
+        self.render = rule.get('render', None)
+        self.lowercase_item = rule.get('lowercase_item', False)
+        self.lowercase_word = rule.get('lowercase_word', False)
+        self.uppercase_word = rule.get('uppercase_word', False)
+        self.capitalize_word = rule.get('capitalize_word', False)
+        self.pluralize_word = rule.get('pluralize_word', False)
+        self.preserve_escapes = rule.get('preserve_escapes', False)
+        if sum([int(e) for e in [self.lowercase_word,
+                                 self.uppercase_word,
+                                 self.capitalize_word]]) > 1:
+            raise ValueError('lowercase_word, uppercase_word, and'
+                             ' capitalize_word are mutually exclusive')
+        self.format = rule.get('format', None)
+        self.see = rule.get('see', None)
+        self.seealso = rule.get('seealso', None)
+        self.stop_on_match = not rule.get('continue', False)
+        self.convert_numbers = rule.get('convert_numbers', False)
+        self.number_words = self.construct_number_words()
+        if sum([int(e is not None) for e in [self.format,
+                                             self.see,
+                                             self.seealso]]) > 1:
+            raise ValueError('format, see, and seealso are mutually exclusive')
+
+    @staticmethod
+    def construct_number_words(number_words=[]):
+        '''Construct names for numbers 0-99 as a reverse-sorted list of
+        {number, name} tuples.'''
+        # If we were called previously, return the list from before.
+        if number_words != []:
+            return number_words
+
+        # Define base names.
+        units = [
+            "zero", "one", "two", "three", "four", "five", "six", "seven",
+            "eight", "nine"
+        ]
+        specials = [
+            "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+            "sixteen", "seventeen", "eighteen", "nineteen"
+        ]
+        tens = [
+                "twenty", "thirty", "forty", "fifty", "sixty",
+                "seventy", "eighty", "ninety"
+        ]
+        roman_units = [
+            "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix"
+        ]
+        roman_tens = [
+            "x", "xx", "xxx", "xl", "l", "lx", "lxx", "lxxx", "xc"
+        ]
+        roman_hundreds = [
+            "c", "cc", "ccc", "cd", "d", "dc", "dcc", "dccc", "cm", "m"
+        ]
+
+        # Construct names for various Roman numerals.
+        number_words.extend(zip([str(d) for d in range(1, 10)], roman_units))
+        number_words.extend(zip([str(d) for d in range(11, 20)],
+                                ['x' + r for r in roman_units]))
+        number_words.extend(zip([str(d*10) for d in range(1, 10)], roman_tens))
+        number_words.extend(zip([str(d*100) for d in range(1, 11)],
+                                roman_hundreds))
+
+        # Construct names for the numbers 0-99.
+        number_words.extend(zip([str(d) for d in range(20)], units + specials))
+        num = 19
+        for t in tens:
+            num += 1
+            number_words.append((str(num), t))
+            for u in units[1:]:
+                num += 1
+                number_words.append((str(num), t + u))
+
+        # Reverse the list so longer matches occur first.
+        number_words.reverse()
+        return number_words
+
+    def _maybe_lowercase_subitem(self, si):
+        'Conditionally lowercase a subitem.'
+        if self.lowercase_item:
+            return si.lower()
+        return si
+
+    def _expand_back_refs(self, entry, s):
+        '''Expand "\1", "\2", etc. within a string based on the current
+        regular-expression match.'''
+        'Provide different means of expanding back references.'
+        # If preserve_escapes is True, return the string unmodified.
+        if self.preserve_escapes:
+            return s
+
+        # If the TOML regex key was not used and no back references are
+        # present, return the string unmodified.
+        re_match = self.re_match
+        if re_match is None and '\\' not in s:
+            return s
+
+        # If the TOML regex key was not used and back references may be
+        # present, construct a regular expression that maps back
+        # references to space-separated item fields, numbered starting from
+        # 1 and with 0 representing the entire item string.
+        if re_match is None:
+            item = entry.subitems[-1].key
+            re_match = self.fields_re.match(item)
+
+        # Expand back references in the given string.
+        try:
+            return re_match.expand(s)
+        except re.error:
+            raise RuntimeError('rule %s failed on entry %s' %
+                               (self.rule, entry))
+
+    @staticmethod
+    def _clean_whitespace(s):
+        'Remove leading, trailing, and extra internal spaces.'
+        return ' '.join(s.split())
+
+    def _words_to_numbers(self, s):
+        'Replace number words with numbers.'
+        # Split the string based on \1.  Ignore implicit matches; require
+        # explicit regex matches.
+        if self.re_match[1] == self.re_match[0]:
+            return s
+        if s in ["Epi-Olmec", "Linear B"]:
+            return s  # Ignore words containing "i" (Roman numeral 1).
+        before, target, after = s.rpartition(self.re_match[1])
+
+        # Replace the target string with a number it matches a spelled-out
+        # number or Roman numerals.
+        target = target.lower()
+        for num, word in self.number_words:
+            if word == target:
+                target = num
+                break
+        return before + target + after
+
+    def rewrite(self, entry):
+        '''Rewrite a single IndexEntry in place.  Return True if the entry
+        matched the pattern.'''
+        # Return False if we can't rewrite the IndexEntry.
+        if not self.matches_pattern(entry):
+            return False
+
+        # Point to the final subitem.
+        subitemN = entry.subitems[-1]
+
+        # Rewrite the IndexEntry.  In this context, "word" corresponds to
+        # Subitem.render -- the rendering of the item's key, excluding the
+        # glyph and suffix.
+        if self.format is not None:
+            entry.format = self._expand_back_refs(entry, self.format)
+        elif self.see is not None:
+            entry.format = 'hyperindexformat{\\see{%s}}' % \
+                self._expand_back_refs(entry, self.see)
+        elif self.seealso is not None:
+            entry.format = 'hyperindexformat{\\seealso{%s}}' % \
+                self._expand_back_refs(entry, self.seealso)
+        word = self.word
+
+        def maybe_words_to_numbers(s):
+            return self._words_to_numbers(s) if self.convert_numbers else s
+
+        if self.item is not None:
+            if isinstance(self.item, str):
+                # Replace the final subitem's key.
+                item = self._clean_whitespace(self.item)
+                subitemN.key = \
+                    maybe_words_to_numbers(
+                        self._maybe_lowercase_subitem(
+                            self._expand_back_refs(entry, item)
+                        )
+                    )
+            else:
+                # Replace all subitems, retaining the final glyph and suffix.
+                full_render = subitemN.full_render
+                entry.subitems = [
+                    Subitem(
+                        self._clean_whitespace(
+                            maybe_words_to_numbers(
+                                self._maybe_lowercase_subitem(
+                                    self._expand_back_refs(entry, k)
+                                )
+                            )
+                        )
+                    )
+                    for k in self.item
+                ]
+                subitemN = entry.subitems[-1]
+                subitemN.full_render = full_render
+            if word is None:
+                # Specified item but unspecified word: use the final
+                # subitem's key as the word.
+                word = subitemN.key
+        if word is not None:
+            word = self._clean_whitespace(self._expand_back_refs(entry, word))
+            word = maybe_words_to_numbers(word)
+            if self.lowercase_word:
+                word = word.lower()
+            if self.uppercase_word:
+                word = word.upper()
+            if self.capitalize_word:
+                word = word.title()
+            if self.pluralize_word:
+                word = word + 'es' if word[-1] == 's' else word + 's'
+            if self.item is None:
+                # Specified word but unspecified item: use word as the key
+                # for the final subitem.
+                subitemN.key = word
+        if self.render is not None:
+            # Specified full rendering: ignore word and use that instead.
+            subitemN.full_render = self.render
+        elif word is not None:
+            # Specified word but unspecified rendering: use word but
+            # preserve glyph and suffix.
+            subitemN.render = word
+        return self.stop_on_match
+
+
+class EntryMerger(EntryMatcher):
+    'Represent a single rule for merging IndexEntry objects.'
+
+    merge_marker = '\\textcolor{Green}{$^+$}'  # Marker for merged symbols
+
+    def __init__(self, state, rule):
+        super().__init__(rule)
+        self.rule_type = 'merge'
+        self.state = state    # Map from item to representative entry
+
+    def prepare_to_merge(self, entry):
+        '''Prepare to rewrite an entry to use the same glyph as other entries
+        named with the same item.'''
+        # Return False if we can't merge the IndexEntry.
+        if not self.matches_pattern(entry):
+            return False
+
+        # Merging two or more entries requires identical subitems matched
+        # by the same rule.
+        key = tuple([id(self)] + [si.key for si in entry.subitems])
+
+        # Append the current entry to the list associated with the
+        # current key.
+        if entry.subitems[-1].suffix is not None:
+            return True
+        try:
+            self.state[key].append(entry)
+        except KeyError:
+            self.state[key] = [entry]
+        return True
+
+    @classmethod
+    def perform_all_merges(self, state):
+        '''Perform all merges based on information gathered by
+        prepare_to_merge.  This method should be called only once.'''
+        # For any key with more than two non-")" entries, mark all entries
+        # with a "merged" suffix.
+        for key, entries in state.items():
+            # The merge must be of two or more symbols, excluding ends of
+            # ranges.
+            no_close_entries = [e for e in entries if e.group != ')']
+            if len(no_close_entries) < 2:
+                continue
+
+            # Find the first non-")" entry to use as the exemplar.
+            for e in entries:
+                if e.group == ')':
+                    continue
+                e.subitems[-1].suffix = self.merge_marker
+                full_render = e.subitems[-1].full_render
+                break
+
+            # Copy the rendering used by the exemplar to all other entries.
+            for e in entries:
+                e.subitems[-1].full_render = full_render
+
+
+class EntryCreator(EntryRewriter):
+    '''Represent a single rule for generating new entries from existing
+    entries.  This class is just like EntryRewriter except it first
+    duplicates the entry.'''
+
+    def __init__(self, rule):
+        super().__init__(rule)
+        self.rule_type = 'create'
+
+    def create(self, entry):
+        'Given an entry, return a new entry or None.'
+
+        # Return None if we don't match the IndexEntry.
+        if not self.matches_pattern(entry):
+            return None
+
+        # Create a new IndexEntry to return.
+        new_entry = copy.deepcopy(entry)
+        if not self.rewrite(new_entry):
+            raise RuntimeError(f'failed to rewrite entry {new_entry}')
+        return new_entry
+
+
+@dataclass
+class Rules():
+    'Represent a collection of rules of different types.'
+
+    tracers:   list
+    deleters:  list
+    rewriters: list
+    creators:  list
+    mergers:   list
+
+    def __post_init__(self):
+        self.merge_state = {}
+
+
+###########################################################################
+
+def process_delimiters(all_entries):
+    '''Given a list of entries, return a list of rewriting rules and a list
+    of deleting rules.'''
+    # Map left delimiters to right delimiters and descriptions.
+    delimiter_info = {
+        '(': (')', 'parenthesis'),
+        '[': (']', 'square brackets'),
+        'alas': ('alad', 'curly brace'),
+        'Alas': ('Alad', 'curly brace'),
+        'angus': ('angud', 'angle bracket'),
+        'Angus': ('Angud', 'angle bracket'),
+        'langlebar': ('ranglebar', 'angle bracket with bar'),
+        'langledot': ('rangledot', 'angle bracket with dot'),
+        'langle': ('rangle', 'angle bracket'),
+        'lAngle': ('rAngle', 'double angle bracket'),
+        'lbag': ('rbag', 'bag'),
+        'Lbag': ('Rbag', 'bag'),
+        'lblkbrbrak': ('rblkbrbrak', 'tortoise shell, filled'),
+        'lbrace': ('rbrace', 'curly brace'),
+        'lBrace': ('rBrace', 'curly brace with bar'),
+        'lbracklltick': ('rbracklrtick', 'square bracket with lower tick'),
+        'lbrack': ('rbrack', 'square bracket'),
+        'lBrack': ('rBrack', 'square bracket with bar'),
+        'lbrackubar': ('rbrackubar', 'square bracket with underbar'),
+        'lbrackultick': ('rbrackurtick', 'square bracket with upper tick'),
+        'lbrbrak': ('rbrbrak', 'tortoise shell'),
+        'Lbrbrak': ('Rbrbrak', 'tortoise shell with bar'),
+        'lceil': ('rceil', 'ceiling'),
+        'lCeil': ('rCeil', 'double ceiling'),
+        'lcorners': ('rcorners', 'corners'),
+        'lcurvyangle': ('rcurvyangle', 'curved angle bracket'),
+        'ldbrack': ('rdbrack', 'bracket with bar'),
+        'leftevaw': ('leftevaw', 'wavy line'),
+        'leftwave': ('leftwave', 'wavy line'),
+        'levaw': ('revaw', 'wavy line'),
+        'lfilet': ('rfilet', 'wavy line'),
+        'lFloor': ('rFloor', 'double floor'),
+        'lfloor': ('rfloor', 'floor'),
+        'lgroup': ('rgroup', 'group brace'),
+        'llangle': ('rrangle', 'angle bracket with bar'),
+        'llbracket': ('rrbracket', 'bracket with bar'),
+        'llceil': ('rrceil', 'double ceiling'),
+        'llcorner': ('lrcorner', 'lower corners'),
+        'llfloor': ('rrfloor', 'double floor'),
+        'llparenthesis': ('rrparenthesis', 'double parenthesis'),
+        'lmoustache': ('rmoustache', 'moustache'),
+        'Lparengtr': ('Rparenless',
+                      'double parenthesis with greater/less than'),
+        'lparenless': ('rparengtr', 'parenthesis with less/greater than'),
+        'lparen': ('rparen', 'parenthesis'),
+        'lParen': ('rParen', 'parenthesis with bar'),
+        'Lparen': ('Rparen', 'parenthesis with bar'),
+        'lsem': ('rsem', 'bracket with bar'),
+        'ltriplevert': ('rtriplevert', 'triple vertical bar'),
+        'lVert': ('rVert', 'double vertical bar'),
+        'lvert': ('rvert', 'vertical bar'),
+        'lVvert': ('rVvert', 'triple vertical bar'),
+        'Lvzigzag': ('Rvzigzag', 'double zigzag'),
+        'lvzigzag': ('rvzigzag', 'zigzag'),
+        'lwave': ('rwave', 'wavy line'),
+        'lWavy': ('rWavy', 'double wavy line'),
+        'lwavy': ('rwavy', 'wavy line'),
+        'niv': ('vin', 'lower corners'),
+        'quadras': ('quadrad', 'square bracket with bar'),
+        'Quadras': ('Quadrad', 'square bracket with bar'),
+        'textlangle': ('textrangle', 'angle bracket'),
+        'textlbrackdbl': ('textrbrackdbl', 'square bracket with bar'),
+        'textlquill': ('textrquill', 'quill'),
+        'thickvert': ('thickvert', 'vertical bar'),
+        'triple<': ('triple!>', 'triple angle bracket'),
+        'triple[': ('triple]', 'triple square bracket'),
+        'ulcorner': ('urcorner', 'upper corners'),
+        'vert': ('vert', 'vertical bar'),
+        'Vert': ('Vert', 'double bar'),
+        'VERT': ('VERT', 'triple vertical bar'),
+        'Vvert': ('Vvert', 'triple vertical bar'),
+        'vvvert': ('vvvert', 'triple vertical bar'),
+    }
+
+    # Iterate over all entries in search of delimiters.
+    rewrites = []
+    deletes = []
+    display_re = re.compile('^(.*)(MNS|FDSYM|STIX)d(.*)$')
+    for e in all_entries:
+        # Extract the key and glyph.
+        subitemN = e.subitems[-1]
+        glyphN = subitemN.glyph
+        if glyphN is None:
+            continue
+        lKey = subitemN.key
+
+        # Perform the substitution.
+        rule = {}
+        try:
+            rKey, desc = delimiter_info[lKey]
+            if lKey == 'llangle':
+                # Special case for MnSymbol's \llangle, which is doubled,
+                # not barred.
+                if 'MNSdllangle' in glyphN:
+                    desc = 'double angle bracket'
+                    glyphN = '\\MNStllangle'
+                rule['render_contains'] = glyphN
+        except KeyError:
+            continue
+        lGlyph = display_re.sub(r'\1\2t\3', glyphN)
+        rGlyph = lGlyph.replace(lKey, rKey)
+        rGlyph = rGlyph.replace(r'\nathtriple\langle', r'\nathtriple\rangle')
+        rule.update({
+            'matches': lKey,
+            'item': ['delimiters', desc],
+            'render': '%s (%s\\graybox %s)' % (desc, lGlyph, rGlyph),
+            'autogenerated': True,
+        })
+        rewrites.append(EntryRewriter(rule))
+        if rKey != lKey:
+            deletes.append(EntryDeleter({
+                'matches': rKey,
+                'autogenerated': True,
+            }))
+    return rewrites, deletes
+
+
+def read_logix_rewrites():
+    '''Map logix symbol names to symbol replacements by parsing the logix
+    documentation.  Return a list of EntryRewriters or an empty list on
+    error.'''
+    # Find the logix.tex file.
+    proc = subprocess.run(['kpsewhich', '--format=doc', 'logix.tex'],
+                          capture_output=True, encoding='utf-8')
+    if proc.returncode != 0:
+        return []
+    logix_tex = proc.stdout.strip()
+    space_slash_re = re.compile(r'\s+/\s+')
+
+    def patch_desc(desc):
+        'Modify the item or word.'
+        desc = desc.lower()
+        if desc.split()[0] in ['lblack', 'lwhite']:  # Non-word
+            desc = desc[1:]
+        desc = desc.replace('finte', 'finite')       # Typo, I assume
+        desc = desc.replace('asterick', 'asterisk')  # Spelling error
+        desc = desc.replace('long ', '')             # Unnecessary
+        desc = desc.replace('short ', '')            # Unnecessary
+        desc = desc.replace('very ', '')             # Unnecessary
+        desc = desc.replace('extra ', '')            # Unnecessary
+        desc = desc.replace(' (rule)', '')           # Unnecessary
+        desc = space_slash_re.sub('/', desc)         # Nicer-looking
+        desc = desc.replace('plus/minus', 'plus or minus')   # Nicer-looking
+        desc = desc.replace('minus/plus', 'minus or plus')   # Nicer-looking
+        return desc
+
+    # Parse the logix.tex file.
+    rules = []
+    with open(logix_tex) as r:
+        for ln in r:
+            # Map a LaTeX command to a description.
+            fields = [f.strip() for f in ln.split('&')]
+            if len(fields) != 3:
+                continue
+            item = fields[1][16:]   # Ignore "{\textbackslash}".
+            desc = fields[0]
+            if ' em ' in desc:
+                continue
+            if 'End Law' in desc:
+                continue      # Don't rename *all* \End symbols to "end law".
+            desc = patch_desc(desc)
+
+            # Create an EntryRewriter corresponding to the mapping from
+            # command to description.
+            desc_fields = desc.split()
+            if desc_fields[0] == 'circled':
+                # Special case for circled symbols
+                rules.append(EntryRewriter({
+                    'matches': item,
+                    'item': ['circled symbols', ' '.join(desc_fields[1:])],
+                    'continue': True,
+                    'autogenerated': True
+                }))
+            elif desc_fields[0] == 'open':
+                # Special case for open/close delimiters
+                phrase = ' '.join(desc_fields[1:])
+                cls_item = 'Cls' + item[3:]
+                rules.append(EntryRewriter({
+                    'matches': item,
+                    'item': ['delimiters', phrase],
+                    'render': '%s (\\%s \\graybox \\%s)' %
+                    (phrase, item, cls_item),
+                    'autogenerated': True
+                }))
+            else:
+                # Common case
+                rules.append(EntryRewriter({
+                    'matches': item,
+                    'word': desc,
+                    'continue': 'true',
+                    'autogenerated': True
+                }))
+    return rules
+
+
+def read_unicode_names():
+    'Return a mapping from hexadecimal code to Unicode name'
+    hex2name = {}
+    with open('unicode.txt') as r:
+        for ln in r:
+            fields = ln.strip().split(None, 1)
+            hex2name[fields[0]] = fields[1]
+    return hex2name
+
+
+def auto_merge_man_woman(state, entries):
+    '''Return a list of EntryMerger objects that merge "man..." and
+    "woman..." emoji.'''
+    # Construct a mapping from a noun to the entries that present "man" and
+    # "woman" versions of that noun.
+    noun2entries = defaultdict(lambda: [])
+    for e in entries:
+        # Consider only twemoji symbols.
+        subitemN = e.subitems[-1]
+        if subitemN.glyph is None:
+            continue
+        if 'twemoji' not in subitemN.glyph:
+            continue
+
+        # Consider only "man NOUN" and "woman NOUN" constructs.
+        fields = subitemN.key.split()
+        if len(fields) != 2:
+            continue
+        if fields[0] not in ['man', 'woman']:
+            continue
+        noun2entries[fields[1]].append(e)
+
+    # Create a new EntryMerger for all entries containing exactly one "man"
+    # and one "woman" glyph.
+    new_merges = []
+    for noun, ents in noun2entries.items():
+        glyphs = set([e.subitems[-1].glyph for e in ents])
+        if len(glyphs) != 2:
+            continue
+        if "biking" in noun:
+            # Other entries will be merged into these.
+            continue
+        genders = set([e.subitems[-1].key.split()[0] for e in ents])
+        if 'man' in genders and 'woman' in genders:
+            new_merges.append(EntryMerger(state, {
+                'autogenerated': True,
+                'matches': noun,
+            }))
+    return new_merges
+
+
+def merge_top_levels(entries):
+    'Merge "ITEM (SYM)" into "ITEM" at the top level when SYM is unique.'
+    # Group all entries by top-level key.
+    key2entries = defaultdict(lambda: [])
+    for e in entries:
+        if e.subitems[0].glyph == 'package':
+            # Ignore package names.
+            continue
+        key2entries[e.subitems[0].key].append(e)
+
+    # For each key associated with a unique glyph, assign that glyph
+    # to all top-level subitems.
+    for key, es in key2entries.items():
+        # Reject certain cases.
+        if len(es) == 1:
+            continue     # Nothing to merge
+        hyperindex, hyperpage = False, False
+        for e in es:
+            if len(e.subitems) != 1:
+                continue    # Consider only entries with no subentries.
+            if e.format.startswith('hyperpage'):
+                hyperpage = True
+            elif e.format.startswith('hyperindexformat'):
+                hyperindex = True
+
+        # Determine if there is a unique glyph.
+        glyphs_sfxs = set()   # Pairs of {glyph, suffix}
+        for e in es:
+            glyph = e.subitems[0].glyph
+            sfx = e.subitems[0].suffix
+            if glyph is not None:
+                glyphs_sfxs.add((glyph, sfx))
+        if len(glyphs_sfxs) != 1:
+            continue    # Glyph is not unique.
+        glyph, sfx = list(glyphs_sfxs)[0]
+        if '\\' not in glyph:
+            continue    # Glyph is not a control word.
+
+        # Find the entry whose rendering matches the unique glyph.
+        for e in es:
+            if e.subitems[0].glyph == glyph and e.subitems[0].suffix == sfx:
+                full_render = e.subitems[0].full_render
+                break
+
+        # Assign the same rendering to each entry.
+        for e in es:
+            e.subitems[0].full_render = full_render
+
+
+def reformat_same_item_different_glyphs(entries):
+    '''Rewrite "ITEM=ITEM (SYM1)" and "ITEM=ITEM (SYM2)" as "ITEM" with
+    subitems "SYM1" and "SYM1".'''
+    # Bin entries by item name.
+    unmodified_entries = []     # Entries to leave alone
+    normalized_entries = []     # Entries updated from "ITEM" to "ITEM=ITEM"
+    key2entries = defaultdict(lambda: [])
+    for e in entries:
+        if len(e.subitems) != 1:
+            unmodified_entries.append(e)
+            continue
+        subitemN = e.subitems[-1]
+        if subitemN.render is None:
+            subitemN.render = subitemN.key
+            normalized_entries.append(e)
+            continue
+        if 'href' in subitemN.render:
+            unmodified_entries.append(e)
+            continue
+        if subitemN.glyph is None:
+            unmodified_entries.append(e)
+            continue
+        key2entries[subitemN.key].append(e)
+
+    # Discard entries that should not be merged.
+    for item, ents in key2entries.copy().items():
+        # Ignore items that repeat a single glyph.
+        unique_glyphs = set([e.subitems[-1].glyph
+                             for e in ents
+                             if e.subitems[-1].glyph is not None])
+        if len(unique_glyphs) < 2:
+            unmodified_entries.extend(ents)
+            del key2entries[item]
+            continue
+
+        # Ignore items with different renderings, excluding the glyph.
+        common_rendering = [si.render for si in ents[0].subitems]
+        for e in ents:
+            rendering = [si.render for si in e.subitems]
+            if rendering != common_rendering:
+                unmodified_entries.extend(ents)
+                del key2entries[item]
+                break
+
+    # Rewrite the remaining entries as "ITEM>TAG=SYM" with a per-glyph TAG.
+    ent2tag = EntryToTag()
+    for item, ents in key2entries.items():
+        for e in ents:
+            # Delete the glyph from the final subitem then append TAG as a
+            # new subitem with rendering SYM.
+            subitemN = e.subitems[-1]
+            glyph = subitemN.glyph
+            suffix = subitemN.suffix or ''
+            subitemN.glyph = None
+            tag = ent2tag[e]
+            e.subitems.append(Subitem(tag, glyph + suffix))
+
+    # Return the concatenation of the modified and unmodified index entries.
+    new_entries = []
+    for ents in key2entries.values():
+        new_entries.extend(ents)
+    return new_entries + normalized_entries + unmodified_entries
+
+
+def fix_overlapping_ranges(entries):
+    "Ensure that page ranges don't overlap."
+    clean_entries = []
+    range_state = {}    # Map from an item to its most recent entry.
+    for e in all_entries:
+        # Discard items that are not part of a page range.
+        if len(e.subitems) != 1:
+            clean_entries.append(e)
+            continue
+        if e.group is None:
+            clean_entries.append(e)
+            continue
+
+        # Prevent adjacent open and adjacent close ranges.
+        range_key = '>'.join([str(si) for si in e.subitems])
+        if e.group == '(':
+            # Keep the oldest open range.
+            try:
+                prev_entry = range_state[range_key]
+                if prev_entry.group == '(':
+                    # Keep the previous (open) entry; discard the current
+                    # (open) entry.
+                    pass
+                elif prev_entry.group == ')':
+                    # Keep both the previous (open) and current (closed)
+                    # entries.  Remember the current entry.
+                    clean_entries.append(e)
+                    range_state[range_key] = e
+            except KeyError:
+                # First time encountering this item.
+                clean_entries.append(e)
+                range_state[range_key] = e
+        elif e.group == ')':
+            # Keep the newest close range.
+            try:
+                prev_entry = range_state[range_key]
+                if prev_entry.group == '(':
+                    # Keep both the previous (open) and current (close)
+                    # entry.  Remember the current entry.
+                    clean_entries.append(e)
+                    range_state[range_key] = e
+                elif prev_entry.group == ')':
+                    # Overwrite the previous (close) entry's page number
+                    # with the current (close) entry's page number.
+                    prev_entry.page = e.page
+            except KeyError:
+                # First time encountering this item, but it's erroneous
+                # (close with no open) so we discard it.
+                pass
+    return clean_entries
+
+
+def split_second_levels(entries):
+    '''If "ITEM1>ITEM2 (G1)" and "ITEM1>ITEM2 (G2)" are both encountered,
+    replace them with "ITEM1>ITEM2>G1" and "ITEM1<ITEM2>G2".'''
+    # Group all entries by the first two keys.  Ignore entries without
+    # exactly two levels.
+    keys2entries = defaultdict(lambda: [])
+    for e in entries:
+        if len(e.subitems) != 2:
+            continue
+        keys2entries[(e.subitems[0].key, e.subitems[1].key)].append(e)
+
+    # Introduce a new level if and only if more than two entries associated
+    # with a pair of keys have a parenthesized glyph.
+    for entries in keys2entries.values():
+        # Discard entries we can't split.
+        if len(entries) == 1:
+            continue
+        unique_glyphs = set()
+        for e in entries:
+            glyph = e.subitems[-1].glyph
+            if glyph is not None:
+                unique_glyphs.add(glyph)
+        if len(unique_glyphs) < 2:
+            continue
+
+        # Add a level to each entry containing just the glyph.
+        ent2tag = EntryToTag()
+        for e in entries:
+            if e.subitems[-1].glyph is None:
+                continue
+            tag = ent2tag[e]
+            render = e.subitems[1].glyph
+            if e.subitems[1].suffix is not None:
+                render += e.subitems[1].suffix
+            si2 = Subitem(tag, render)
+            e.subitems[1].full_render = None
+            e.subitems.append(si2)
+
+
+def mark_all_items(entries):
+    '''Globally replace "WORD=ITEM..." with
+    "WORD=\\markboth{WORD}{WORD}ITEM...".'''
+    for e in entries:
+        key = e.subitems[0].key
+        for si in e.subitems:
+            if si.render is None or si.render == '':
+                si.render = si.key
+            si.render = '%s\\markboth{%s}{%s}' % (si.render, key, key)
+
+
+def parse_rules_from_files(toml_fnames):
+    'Process all TOML files into a Rules object.'
+
+    # Read a list of actions from each TOML-format file.
+    toml_data = {
+        'trace': [],
+        'delete': [],
+        'rewrite': [],
+        'create': [],
+        'merge': [],
+    }
+    for fn in toml_fnames:
+        print('Parsing', fn)
+        new_data = toml.load(fn)
+        for key in toml_data:
+            try:
+                toml_data[key].extend(new_data[key])
+            except KeyError:
+                pass
+    rules = Rules([], [], [], [], [])
+
+    # Convert each trace entry to an EntryMatcher.
+    try:
+        for t in toml_data['trace']:
+            rules.tracers.append(EntryTracer(t))
+    except KeyError:
+        pass
+
+    # Convert each delete entry to an EntryDeleter.
+    try:
+        for d in toml_data['delete']:
+            rules.deleters.append(EntryDeleter(d))
+    except KeyError:
+        pass
+
+    # Convert each rewrite entry to an EntryRewriter.
+    try:
+        for rw in toml_data['rewrite']:
+            rules.rewriters.append(EntryRewriter(rw))
+    except KeyError:
+        pass
+
+    # Convert each create entry to an EntryCreator.
+    try:
+        for cr in toml_data['create']:
+            rules.creators.append(EntryCreator(cr))
+    except KeyError:
+        pass
+
+    # Convert each merge entry to an EntryMerger.
+    try:
+        for m in toml_data['merge']:
+            rules.mergers.append(EntryMerger(rules.merge_state, m))
+    except KeyError:
+        pass
+
+    # Return the collection of rules.
+    return rules
+
+
+def report_unused(rules):
+    'Report all unused rules, excluding autogenerated ones.'
+    for r in rules:
+        if r.rule.get('autogenerated', False):
+            continue
+        if r.triggered and r.remaining_matches != set():
+            sys.stderr.write('=== Partially triggered ===\n')
+            sys.stderr.write('Rule:\n')
+            rule_str = '[[%s]]\n' % r.rule_type
+            rule_str += toml.dumps(r.rule)
+            sys.stderr.write(textwrap.indent(rule_str, '    '))
+            sys.stderr.write('Remaining:\n')
+            rem_str = ',\n'.join([repr(m)
+                                  for m in sorted(r.remaining_matches)]) + '\n'
+            sys.stderr.write(textwrap.indent(rem_str, '    '))
+            continue
+        if not r.triggered:
+            sys.stderr.write('=== Untriggered ===\n')
+            sys.stderr.write('Rule:\n')
+            rule_str = '[[%s]]\n' % r.rule_type
+            rule_str += toml.dumps(r.rule)
+            sys.stderr.write(textwrap.indent(rule_str, '    '))
+
+
+###########################################################################
+
+if __name__ == '__main__':
+    # Parse the command line.
+    parser = argparse.ArgumentParser(
+        prog='prune-idx',
+        description='Delete, merge, and rewrite index entries.')
+    parser.add_argument('index_file', help='.idx file to modify')
+    parser.add_argument('toml_files', nargs='+',
+                        help='one or more TOML files of modification rules')
+    parser.add_argument('--report-unused', action='store_true',
+                        help='report rules that never triggered')
+    cl_args = parser.parse_args()
+
+    # Parse the index file into a list of IndexEntry objects.
+    all_entries = []
+    with open(cl_args.index_file) as r:
+        for ln in r:
+            all_entries.append(IndexEntry(ln))
+
+    # Read a list of actions from all of the TOML files.
+    rules = parse_rules_from_files(cl_args.toml_files)
+
+    # Prepend logix symbols to the rewriters.  Other rewriters will rewrite
+    # some of these.
+    rules.rewriters = read_logix_rewrites() + rules.rewriters
+
+    # Automatically merge "man" and "woman" emoji because they tend to look
+    # extremely similar.
+    rules.mergers.extend(auto_merge_man_woman(rules.merge_state, all_entries))
+
+    # Handle delimiters specially.
+    all_entries.sort(key=lambda e: e.prioritization_key())
+    print('Preparing to process %d index entries' % len(all_entries))
+    more_rewriters, more_deleters = process_delimiters(all_entries)
+    rules.rewriters.extend(more_rewriters)
+    rules.deleters.extend(more_deleters)
+
+    def apply_tracers(entry):
+        '''Apply trace-creation rules until one succeeds.  In that case, set
+        the entry's trace flag to True.  Otherwise return the entry
+        unmodified.'''
+        for t in rules.tracers:
+            if t.matches_pattern(entry):
+                entry.trace = True
+                return entry
+        return entry
+
+    # Trace entries for debug purposes.
+    print('Applying [[trace]] rules (%d)' % len(rules.tracers))
+    with multiprocessing.Pool() as pool:
+        all_entries = pool.map(apply_tracers, all_entries)
+
+    def apply_deleters(entry):
+        '''Apply entry-deleting rules until one succeeds.  In that case return
+        None.  Otherwise return the entry unmodified.'''
+        for d in rules.deleters:
+            if d.matches_pattern(entry):
+                return None
+        return entry
+
+    # Delete uninteresting entries.
+    print('Applying [[delete]] rules (%d)' % len(rules.deleters))
+    if cl_args.report_unused:
+        # Sequential but allowing rule updates
+        pruned_entries = [apply_deleters(e) for e in all_entries]
+        report_unused(rules.deleters)
+    else:
+        # Parallel but with read-only rules
+        with multiprocessing.Pool() as pool:
+            pruned_entries = pool.map(apply_deleters, all_entries)
+    all_entries = [e for e in pruned_entries if e is not None]
+
+    def apply_rewriters(entry):
+        'Apply entry-rewriting rules until one succeeds.'
+        for rw in rules.rewriters:
+            if rw.rewrite(entry):
+                return entry
+        return entry
+
+    # Rewrite utfsym symbols in place.  This is faster than appending
+    # EntryRewriters to the rewriters list.
+    print('Applying [[rewrite]] rules (%d)' % len(rules.rewriters))
+    hex2name = read_unicode_names()
+    utfsym_re = re.compile(r'^usym\{([0-9A-F]+)\}$')
+    for e in all_entries:
+        key = e.subitems[0].key
+        match = utfsym_re.match(key)
+        if match is None:
+            continue
+        cp = match[1].lstrip('0')
+        name = hex2name[cp]
+        e.subitems[0].key = name
+        e.subitems[0].full_render = '%s (\\usym{%s})' % (name, cp)
+
+    # Apply the rewriting actions to each entry, stopping on the first match.
+    if cl_args.report_unused:
+        # Sequential but allowing rule updates
+        all_entries = [apply_rewriters(e) for e in all_entries]
+        report_unused(rules.rewriters)
+    else:
+        # Parallel but with read-only rules
+        with multiprocessing.Pool() as pool:
+            all_entries = pool.map(apply_rewriters, all_entries)
+
+    # Rewrite "NUM..." to use only "NUM" as the key.  Doing so indexes
+    # terms like "8 ball" under Numbers instead of Symbols.
+    initial_num_re = re.compile(r'^(\d+)(\D.*)$')
+    for e in all_entries:
+        match = initial_num_re.match(e.subitems[0].key)
+        if match is None:
+            continue
+        e.subitems.insert(0, Subitem(match[1]))
+
+    def apply_creators(entry):
+        'Apply all entry-creating rules to the current entry.'
+        new_entries = []
+        for cr in rules.creators:
+            e = cr.create(entry)
+            if e is not None:
+                new_entries.append(e)
+        return new_entries
+
+    # Apply the creating actions to each entry, stopping on the first match.
+    print('Applying [[create]] rules (%d)' % len(rules.creators))
+    if cl_args.report_unused:
+        # Sequential but allowing rule updates
+        all_entries.extend([e
+                            for es in [apply_creators(entry)
+                                       for entry in all_entries]
+                            for e in es])
+        report_unused(rules.creators)
+    else:
+        # Parallel but with read-only rules
+        with multiprocessing.Pool() as pool:
+            all_entries.extend([e
+                                for es in pool.map(apply_creators, all_entries)
+                                for e in es])
+
+    # The next few stanzas all pertain to merging.
+    print('Applying [[merge]] rules (%d)' % len(rules.mergers))
+
+    # Move index entries with no specified glyph or rendering to the end of
+    # the list so merges see any glyphs first.  Also, move certain entries
+    # to the beginning of the list so their glyphs are used instead of the
+    # glyph that appears first in the document.
+    all_entries.sort(key=lambda e: e.prioritization_key())
+
+    # Remove duplicates before merging.  Otherwise, duplicate entries will
+    # be marked as having multiple glyphs when they in fact have only one.
+    entries_seen = set()
+    unique_entries = []
+    for e in all_entries:
+        e_str = str(e)
+        if e_str in entries_seen:
+            continue
+        unique_entries.append(e)
+        entries_seen.add(e_str)
+    all_entries = unique_entries
+
+    # Merge glyphs that are essentially just font variants, stopping on the
+    # first match for each entry.
+    for e in all_entries:
+        for m in rules.mergers:
+            if m.prepare_to_merge(e):
+                break
+    if cl_args.report_unused:
+        report_unused(rules.mergers)
+    EntryMerger.perform_all_merges(rules.merge_state)
+
+    # Replace top-level "ITEM" entries with "ITEM (SYM)" when both exist
+    # and SYM is unique.
+    merge_top_levels(all_entries)
+
+    # The next few stanzas all pertain to cleanup.
+    print('Cleaning up the index')
+
+    # Use subitems for different glyphs corresponding to the same item.
+    all_entries = reformat_same_item_different_glyphs(all_entries)
+
+    # Clean up the index by simplifying "ITEM=ITEM" to just "ITEM".  In many
+    # cases this enables Makeindex to merge entries with and without subitems.
+    for e in all_entries:
+        for si in e.subitems:
+            if si.key == si.full_render:
+                si.full_render = None
+
+    # Clean up the index by making all "see" and "see also" entries point
+    # to the same page (0).  The prevents Makeindex from generating
+    # multiple "see" or "see also" entries per entry.
+    for e in all_entries:
+        if e.format.startswith("hyperindexformat{\\see"):
+            e.page = 0
+
+    # Fix overlapping page ranges.
+    all_entries = fix_overlapping_ranges(all_entries)
+
+    # Split repeated second-level terms into third levels.
+    split_second_levels(all_entries)
+
+    # Insert a \markboth{...}{...} into every entry.
+    mark_all_items(all_entries)
+
+    # Overwrite the input file with all remaining entries.
+    print('Writing %d entries' % len(all_entries))
+    with open(cl_args.index_file, 'w') as w:
+        for e in all_entries:
+            w.write('%s\n' % str(e))

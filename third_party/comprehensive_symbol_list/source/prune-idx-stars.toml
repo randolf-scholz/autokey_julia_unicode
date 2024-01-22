@@ -1,0 +1,221 @@
+##############################################
+# Categorize stars.                          #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# This rule should appear early in this section.
+[[rewrite]]
+contains = "ostar"
+item = ["circled symbols", "star"]
+
+# This rule should appear early in this section.
+[[rewrite]]
+matches = "star warrior"
+item = ["star warrior, Epi-Olmec"]
+
+# This rule should precede the FiveStar prefix rule and the black/white
+# star rule.
+[[rewrite]]
+matches = ["FiveStarOpenCircled", "circled white star"]
+item = ["circled symbols", "star"]
+
+# I find that unicode 2742 looks more like a sun than a star.  This rule
+# should appear early in this section.
+[[rewrite]]
+matches = "circled open center eight pointed star"
+item = ["circled symbols", "sun"]
+
+# This rule must precede the the generic "____ star" rules.
+[[rewrite]]
+render_contains = "EOstar"
+item = ["star", "Epi-Olmec"]
+
+# This rule must precede the the generic "____ star" rules.
+[[rewrite]]
+matches = "Jewish star"
+item = ["star", "of David"]
+
+# This rule should appear early in this section.
+[[rewrite]]
+matches = [
+    "stars",
+    "star",
+    "black star",
+    "white star",
+    "thinstar"
+]
+word = "star"
+
+[[rewrite]]
+render_contains = '(\faStarHalf)'
+item = ["star", "half"]
+
+[[rewrite]]
+render_contains = ['(\faStarHalf*)', '(\starletfillh']
+item = ["star", "half filled"]
+
+[[rewrite]]
+matches = "manstar"
+item = ["star", "knotted"]
+
+# This rule should precede the generic "____ pointed star" rule.
+[[rewrite]]
+render_contains = '(\FiveStarCenterOpen)'
+item = ["star", "open center"]
+
+# This rule should precede the generic "____ pointed star" rule.
+[[rewrite]]
+render_contains = [
+    '(\FiveStarOpenDotted)',
+    '(\usym{272C})'
+]
+item = ["star", "filled center"]
+
+# This rule should precede the generic "____ pointed star" rule.
+[[rewrite]]
+render_contains = [
+    '(\FiveStarOutlineHeavy)',
+    '(\FiveStarOutline)',
+    '(\usym{272E})'
+]
+item = ["star", "outlined"]
+
+# This rule should precede the generic "____ pointed star" rule.
+[[rewrite]]
+render_contains = [
+    "dotted six-pointed star",
+    "six pointed star with middle dot"
+]
+item = ["star", "of David, dotted"]
+
+# This rule should precede the generic "____ pointed star" rule.
+[[rewrite]]
+matches = "FiveStarConvex"
+item = ["star", "pinwheel"]
+
+[[rewrite]]
+matches = "starletdot"
+item = ["star", "dotted"]
+
+[[rewrite]]
+matches = "starletcross"
+item = ["star", "crossed out"]
+
+[[rewrite]]
+matches = "starletlinev"
+item = ["star", "vertically slashed"]
+
+[[rewrite]]
+matches = "starletlineh"
+item = ["star", "horizontally slashed"]
+
+[[rewrite]]
+matches = "starletlinevh"
+item = ["star", "plus"]
+
+# This rule must follow the preceding starlet rules.
+[[rewrite]]
+prefix = "starlet"
+item = "star"
+
+[[rewrite]]
+regex = '\b(\S+)[-\s]pointed.*star'
+item = ["star", '\1 pointed']
+
+[[rewrite]]
+render_contains = ["ABXbigvarstar", "ABXvarstar", "STIXvarstar"]
+item = ["star", "six pointed"]
+
+[[rewrite]]
+compare_lowercase = true
+regex = '''
+^(?:filled)?\
+(?:big|large|med|small|lg|md|sm|vy)*\
+(?:blk|wht|black|white)?\
+(?:var)?\
+star$\
+'''
+word = "star"
+
+[[rewrite]]
+contains = [
+    "davidsstar",
+    "DavidStar",
+    "star of David",
+    "starofdavid"
+]
+item = ["star", "of David"]
+
+[[rewrite]]
+matches = "star of life"
+item = ["star", "of life"]
+
+[[rewrite]]
+matches = "star and crescent"
+item = ["star", "and crescent"]
+
+[[rewrite]]
+regex = '^(.*?)\s*(?:black|white)(.*)star$'
+item = ["star", '\1 \2']
+
+[[rewrite]]
+prefix = "FourStar"
+item = ["star", "four pointed"]
+
+[[rewrite]]
+compare_lowercase = true
+contains = "pentagram"
+item = ["star", "pentagram"]
+
+# This rule should precede the FiveStar prefix rule.
+[[rewrite]]
+matches = [
+    "FiveStarLines",
+    "assumption",
+    "bigassumption",
+    "Bigassumption",
+    "biggassumption"
+]
+item = ["star", "pentagram"]
+
+# This rule should precede the FiveStar prefix rule.
+[[rewrite]]
+matches = "FiveStarShadow"
+item = ["star", "shadowed"]
+
+[[rewrite]]
+prefix = "FiveStar"
+word = "star"
+
+[[rewrite]]
+prefix = "SixStar"
+item = ["star", "six pointed"]
+
+[[rewrite]]
+prefix = "EightStar"
+item = ["star", "eight pointed"]
+
+[[rewrite]]
+prefix = "SixteenStar"
+item = ["star", "sixteen pointed"]
+
+[[rewrite]]
+prefix = "TwelweStar"
+item = ["star", "twelve pointed"]
+
+[[rewrite]]
+prefix = "JackStar"
+item = ["star", "jack"]
+
+[[rewrite]]
+matches = ["large circled star", "small circled star"]
+item = ["circled symbols", "star"]
+
+[[rewrite]]
+matches = ["hexstar", "varhexstar"]
+item = ["star", "six pointed"]
+
+# This rule should appear late in this section.
+[[rewrite]]
+regex = '^(.+?)\s+star$'
+item = ["star", '\1']

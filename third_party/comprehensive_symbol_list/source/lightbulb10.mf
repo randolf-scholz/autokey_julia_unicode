@@ -1,0 +1,13 @@
+%% Simple \MF{} symbol example: light bulb
+%% (Demonstrates simplicity, not necesarily good style)
+
+font_identifier := "LightBulb10";    % Name the font.
+font_size 10pt#;                     % Specify the design size.
+
+em# := 10pt#;    % ``M'' width is 10 points.
+cap# := 7pt#;    % Capital letter height is 7 points above the baseline.
+sb# := 1/4pt#;   % Leave this much space on the side of each character.
+o# := 1/16pt#;   % Amount that curves overshoot borders.
+
+input lightbulb  % Load the file that draws the actual glyph.
+

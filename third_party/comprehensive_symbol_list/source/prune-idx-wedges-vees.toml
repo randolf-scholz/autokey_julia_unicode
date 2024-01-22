@@ -1,0 +1,191 @@
+##############################################
+# Categorize wedges and vees.                #
+# Author: Scott Pakin <scott+clsl@pakin.org> #
+##############################################
+
+# ------------------------------- wedges -------------------------------
+
+[[rewrite]]
+matches = [
+    "wedge",
+    "bigwedge",
+    "quantified conjunction",
+    "bitwise and operator/logical conjunction"
+]
+item = "wedge"
+
+[[rewrite]]
+matches = [
+    "barwedge",
+    "varbarwedge",
+    "bitwise nand operator"
+]
+item = ["wedge", "bar over"]
+
+[[rewrite]]
+matches = "midbarwedge"
+item = ["wedge", "bar through"]
+
+[[rewrite]]
+matches = "wedgemidvert"
+item = ["wedge", "vertical line through"]
+
+[[rewrite]]
+matches = "wedgebar"
+item = ["wedge", "bar under"]
+
+[[rewrite]]
+matches = ["doublebarwedge", "vardoublebarwedge"]
+item = ["wedge", "double bar over"]
+
+[[rewrite]]
+matches = "wedgedoublebar"
+item = ["wedge", "double bar under"]
+
+[[rewrite]]
+matches = ["circwedge", "bigcircwedge"]
+item = ["wedge", "circle"]
+
+[[rewrite]]
+matches = ["curlywedge", "bigcurlywedge", "varcurlywedge"]
+item = ["wedge", "curly"]
+
+[[rewrite]]
+matches = ["curlywedgedot", "bigcurlywedgedot"]
+item = ["wedge", "curly, dot"]
+
+[[rewrite]]
+matches = ["doublecurlywedge", "bigdoublecurlywedge"]
+item = ["wedge", "curly, double"]
+
+[[rewrite]]
+matches = "closedcurlywedge"
+item = ["wedge", "curly, closed"]
+
+[[rewrite]]
+matches = [
+    "doublewedge",
+    "bigdoublewedge",
+    "wedgeonwedge",
+    "conjquant",
+    "merge"
+]
+item = ["wedge", "double"]
+
+[[rewrite]]
+matches = "Wedge"
+item = ["wedge", "nested"]
+
+[[rewrite]]
+matches = ["dwedge", "bigdwedge", "wedgedot", "bigwedgedot"]
+item = ["wedge", "dot within"]
+
+[[rewrite]]
+matches = ["wedgeodot", "dotted conjunction"]
+item = ["wedge", "dot above"]
+
+[[rewrite]]
+matches = "bigslopedwedge"
+item = ["wedge", "sloped"]
+
+[[rewrite]]
+matches = "slanted bar and"
+item = ["wedge", "slanted bar"]
+
+[[rewrite]]
+matches = "slanted bar nand"
+item = ["wedge", "slanted bar, bar over"]
+
+# -------------------------------- vees --------------------------------
+
+[[rewrite]]
+matches = [
+    "vee",
+    "bigvee",
+    "quantified disjuntion",      # Note spelling error.
+    "bitwise or operator/logical disjunction"
+]
+item = "vee"
+
+[[rewrite]]
+matches = [
+    "barvee",
+    "bitwise nor operator"
+]
+item = ["vee", "bar over"]
+
+[[rewrite]]
+matches = "midbarvee"
+item = ["vee", "bar through"]
+
+[[rewrite]]
+matches = "veemidvert"
+item = ["vee", "vertical line through"]
+
+[[rewrite]]
+matches = [
+    "veebar",
+    "varveebar",
+    "bitwise xor operator"
+]
+item = ["vee", "bar under"]
+
+[[rewrite]]
+matches = "doublebarvee"
+item = ["vee", "double bar over"]
+
+[[rewrite]]
+matches = "veedoublebar"
+item = ["vee", "double bar under"]
+
+[[rewrite]]
+matches = ["curlyvee", "bigcurlyvee", "varcurlyvee"]
+item = ["vee", "curly"]
+
+[[rewrite]]
+matches = ["curlyveedot", "bigcurlyveedot"]
+item = ["vee", "curly, dot"]
+
+[[rewrite]]
+matches = ["doublecurlyvee", "bigdoublecurlyvee"]
+item = ["vee", "curly, double"]
+
+[[rewrite]]
+matches = "closedcurlyvee"
+item = ["vee", "curly, closed"]
+
+[[rewrite]]
+matches = ["doublevee", "bigdoublevee", "veeonvee", "disjquant"]
+item = ["vee", "double"]
+
+[[rewrite]]
+matches = "Vee"
+item = ["vee", "nested"]
+
+[[rewrite]]
+matches = ["veedot", "bigveedot"]
+item = ["vee", "dot within"]
+
+[[rewrite]]
+matches = ["veeodot", "dotted disjunction"]
+item = ["vee", "dot above"]
+
+[[rewrite]]
+matches = "bigslopedvee"
+item = ["vee", "sloped"]
+
+[[rewrite]]
+matches = "slanted bar or"
+item = ["vee", "slanted bar"]
+
+[[rewrite]]
+matches = "slanted bar nor"
+item = ["vee", "slanted bar, bar over"]
+
+[[rewrite]]
+matches = "slanted bar xor"
+item = ["vee", "slanted bar, bar under"]
+
+[[rewrite]]
+matches = "veeonwedge"
+item = ["vee", "wedge"]
