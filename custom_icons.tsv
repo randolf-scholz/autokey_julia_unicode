@@ -20,7 +20,7 @@ U+0299	ʙ	\scB	Latin Letter Small Capital B
 U+029C	ʜ	\scH	Latin Letter Small Capital H
 U+029F	ʟ	\scL	Latin Letter Small Capital L
 U+030A	̊	\ring	Combining Ring Above
-U+1AB2	◌᪲	\^oo, \^infty	Combining Infinity
+U+1AB2	᪲	\^oo, \^infty	Combining Infinity
 U+1D00	ᴀ	\scA	Latin Letter Small Capital A
 U+1D04	ᴄ	\scC	Latin Letter Small Capital C
 U+1D05	ᴅ	\scD	Latin Letter Small Capital D
@@ -88,15 +88,14 @@ U+1D7FF	𝟿	\tt9	Mathematical Monospace Digit Nine
 U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X 
 U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
 U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
-U+1F937	¯\_(ツ)_/¯	\:shrug:	Shrug Emoji
 U+2014	—	\--	Em Dash
 U+2016	‖	\norm, \|	Double Vertical Line
 U+2022	•	\textbullet	Bullet
 U+2030	‰	\%%, \permille	Per Mille Sign
 U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
-U+2032	′	\’	Prime
-U+2033	″	\’’	Double Prime
-U+2034	‴	\’’’	Triple Prime
+U+2032	′	\'	Prime
+U+2033	″	\''	Double Prime
+U+2034	‴	\'''	Triple Prime
 U+2035	‵	\`	Reversed Prime
 U+2036	‶	\``	Reversed Double Prime
 U+2037	‷	\```	Reversed Triple Prime
@@ -106,7 +105,7 @@ U+2047	⁇	\??	Double Question Mark
 U+2048	⁈	\?!	Question Exclamation Mark
 U+2049	⁉	\!?	Exclamation Question Mark
 U+204E	⁎	\_*	Low Asterisk
-U+2057	⁗	\’’’’	Quadruple Prime
+U+2057	⁗	\''''	Quadruple Prime
 U+2111	ℑ	\frakI	Black-Letter Capital I
 U+211C	ℜ	\frakR	Black-Letter Capital R
 U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
@@ -271,9 +270,8 @@ U+A7AF	ꞯ	\scQ	Latin Letter Small Capital Q
 U+FE62	﹢	\+, \smallplus, \unaryplus	Small Plus Sign
 U+FE63	﹣	\-, \smallminus, \unaryminus	Small Hyphen-Minus 
 U+FF0C	，	\,, \fullwidthcomma	Fullwidth Comma
-U+FF1A	：	\:, \colon	Fullwidth Colon
+U+FF1A	：	\:, \colon, \fullwidthcolon	Fullwidth Colon
 U+FF1B	；	\;, \fullwidthsemicolon	Fullwidth Semicolon
-		\scX	Latin Letter Small Capital X
 U+2160	Ⅰ	\RM1	Roman Numeral One
 U+2161	Ⅱ	\RM2	Roman Numeral Two
 U+2162	Ⅲ	\RM3	Roman Numeral Three
@@ -286,7 +284,7 @@ U+2168	Ⅸ	\RM9	Roman Numeral Nine
 U+2169	Ⅹ	\RM10	Roman Numeral Ten
 U+216A	Ⅺ	\RM11	Roman Numeral Eleven
 U+216B	Ⅻ	\RM12	Roman Numeral Twelve
-U+216C	Ⅼ 	\RM50	Roman Numeral Fifty
+U+216C	Ⅼ	\RM50	Roman Numeral Fifty
 U+216D	Ⅽ	\RM100	Roman Numeral One Hundred
 U+216E	Ⅾ	\RM500	Roman Numeral Five Hundred
 U+216F	Ⅿ	\RM1000	Roman Numeral One Thousand

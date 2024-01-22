@@ -332,26 +332,26 @@ U+0209B	ₛ	\_s	Latin Subscript Small Letter S
 U+0209C	ₜ	\_t	Latin Subscript Small Letter T
 U+020A7	₧	\pes	Peseta Sign
 U+020AC	€	\euro	Euro Sign
-U+020D0	 ⃐ 	\leftharpoonaccent	Combining Left Harpoon Above / Non-Spacing Left Harpoon Above
-U+020D1	 ⃑ 	\rightharpoonaccent	Combining Right Harpoon Above / Non-Spacing Right Harpoon Above
-U+020D2	 ⃒ 	\vertoverlay	Combining Long Vertical Line Overlay / Non-Spacing Long Vertical Bar Overlay
-U+020D6	 ⃖ 	\overleftarrow	Combining Left Arrow Above / Non-Spacing Left Arrow Above
-U+020D7	 ⃗ 	\vec	Combining Right Arrow Above / Non-Spacing Right Arrow Above
-U+020DB	 ⃛ 	\dddot	Combining Three Dots Above / Non-Spacing Three Dots Above
-U+020DC	 ⃜ 	\ddddot	Combining Four Dots Above / Non-Spacing Four Dots Above
-U+020DD	 ⃝ 	\enclosecircle	Combining Enclosing Circle / Enclosing Circle
-U+020DE	 ⃞ 	\enclosesquare	Combining Enclosing Square / Enclosing Square
-U+020DF	 ⃟ 	\enclosediamond	Combining Enclosing Diamond / Enclosing Diamond
-U+020E1	 ⃡ 	\overleftrightarrow	Combining Left Right Arrow Above / Non-Spacing Left Right Arrow Above
-U+020E4	 ⃤ 	\enclosetriangle	Combining Enclosing Upward Pointing Triangle
-U+020E7	 ⃧ 	\annuity	Combining Annuity Symbol
-U+020E8	 ⃨ 	\threeunderdot	Combining Triple Underdot
-U+020E9	 ⃩ 	\widebridgeabove	Combining Wide Bridge Above
-U+020EC	 ⃬ 	\underrightharpoondown	Combining Rightwards Harpoon With Barb Downwards
-U+020ED	 ⃭ 	\underleftharpoondown	Combining Leftwards Harpoon With Barb Downwards
-U+020EE	 ⃮ 	\underleftarrow	Combining Left Arrow Below
-U+020EF	 ⃯ 	\underrightarrow	Combining Right Arrow Below
-U+020F0	 ⃰ 	\asteraccent	Combining Asterisk Above
+U+020D0	⃐	\leftharpoonaccent	Combining Left Harpoon Above / Non-Spacing Left Harpoon Above
+U+020D1	⃑	\rightharpoonaccent	Combining Right Harpoon Above / Non-Spacing Right Harpoon Above
+U+020D2	⃒	\vertoverlay	Combining Long Vertical Line Overlay / Non-Spacing Long Vertical Bar Overlay
+U+020D6	⃖	\overleftarrow	Combining Left Arrow Above / Non-Spacing Left Arrow Above
+U+020D7	⃗	\vec	Combining Right Arrow Above / Non-Spacing Right Arrow Above
+U+020DB	⃛	\dddot	Combining Three Dots Above / Non-Spacing Three Dots Above
+U+020DC	⃜	\ddddot	Combining Four Dots Above / Non-Spacing Four Dots Above
+U+020DD	⃝	\enclosecircle	Combining Enclosing Circle / Enclosing Circle
+U+020DE	⃞	\enclosesquare	Combining Enclosing Square / Enclosing Square
+U+020DF	⃟	\enclosediamond	Combining Enclosing Diamond / Enclosing Diamond
+U+020E1	⃡	\overleftrightarrow	Combining Left Right Arrow Above / Non-Spacing Left Right Arrow Above
+U+020E4	⃤	\enclosetriangle	Combining Enclosing Upward Pointing Triangle
+U+020E7	⃧	\annuity	Combining Annuity Symbol
+U+020E8	⃨	\threeunderdot	Combining Triple Underdot
+U+020E9	⃩	\widebridgeabove	Combining Wide Bridge Above
+U+020EC	⃬	\underrightharpoondown	Combining Rightwards Harpoon With Barb Downwards
+U+020ED	⃭	\underleftharpoondown	Combining Leftwards Harpoon With Barb Downwards
+U+020EE	⃮	\underleftarrow	Combining Left Arrow Below
+U+020EF	⃯	\underrightarrow	Combining Right Arrow Below
+U+020F0	⃰	\asteraccent	Combining Asterisk Above
 U+02102	ℂ	\bbC	Double-Struck Capital C / Double-Struck C
 U+02107	ℇ	\eulermascheroni	Euler Constant / Eulers
 U+0210A	ℊ	\scrg	Script Small G
