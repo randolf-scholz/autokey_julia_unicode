@@ -1,0 +1,1762 @@
+% Unicode symbols for LaTeX
+%
+% © Randolf Scholz
+%
+%% This package simply contains a list of newunicodechar declarations,
+%% which allows to use a reasonable subset of Unicode characters together
+%% with pdflatex.
+%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{unicode-symbols}[2024/01/23 Unicode symbols]
+\RequirePackage{amssymb}
+\RequirePackage[verbose]{newunicodechar}
+\RequirePackage{dsfont}    % provides \mathds
+\RequirePackage{bbm}       % provides \mathbbm
+\RequirePackage{xfrac}     % provides \sfrac
+\RequirePackage{mathrsfs}  % provides \mathscr
+\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
+%\RequirePackage{txfonts}   % leftsquigarrow
+% The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
+
+\ProvideDocumentCommand{\hmmax}{}{0}       % @bm: prevents "too many alphabets" error
+\ProvideDocumentCommand{\bmmax}{}{0}       % @bm: prevents "too many alphabets" error
+\RequirePackage{bm}        % provides \bm
+
+
+\newcommand{\cmark}{\ding{51}}% ✓
+\newcommand{\xmark}{\ding{55}}% ✗
+
+\newcommand\circled[1]{\textcircled{\footnotesize #1}}
+
+\makeatletter
+\providecommand{\leftsquigarrow}{%
+  \mathrel{\mathpalette\reflect@squig\relax}%
+}
+\newcommand{\reflect@squig}[2]{%
+  \reflectbox{$\m@th#1\rightsquigarrow$}%
+}
+\makeatother
+
+
+% TODO: smarter implementation
+% https://tex.stackexchange.com/a/601583/119955
+%\def\z"{}
+%\def\UnicodeMathSymbol#1#2#3#4{%
+% \ifnum#1>"A0
+%   \DeclareUnicodeCharacter{\z#1}{#2}%
+%  \fi}
+%\input{unicode-math-table}
+
+
+% Missing Greek
+%BEGIN_FOLD
+
+% GREEK LETTERS
+%BEGIN_FOLD
+\newcommand {\omicron} {o}
+\newcommand {\Alpha}   {\rm{A}}
+\newcommand {\Beta}    {\rm{B}}
+\newcommand {\Epsilon} {\rm{E}}
+\newcommand {\Zeta}    {\rm{Z}}
+\newcommand {\Eta}     {\rm{H}}
+\newcommand {\Iota}    {\rm{I}}
+\newcommand {\Kappa}   {\rm{K}}
+\newcommand {\Mu}      {\rm{M}}
+\newcommand {\Nu}      {\rm{N}}
+\newcommand {\Omicron} {\rm{O}}
+\newcommand {\Rho}     {\rm{P}}
+\newcommand {\Tau}     {\rm{T}}
+\newcommand {\Chi}     {\rm{X}}
+\newcommand {\heta}    {\eta}   % used for bold short (name conflict Beta)
+\newcommand {\Heta}    {\Eta}   % used for bold short (avoid typo Beta/BEta)
+%END_FOLD
+
+% GREEK SHORTHANDS
+%BEGIN_FOLD
+\newcommand {\eps}     {\epsilon}
+\newcommand {\Eps}     {\Epsilon}
+\newcommand {\ups}     {\upsilon}
+\newcommand {\Ups}     {\Upsilon}
+\newcommand {\omi}     {\omicron}
+\newcommand {\lam}     {\lambda}
+\newcommand {\Lam}     {\Lambda}
+\newcommand {\veps}    {\varepsilon} % ϵ vs ε
+\newcommand {\vkappa}  {\varkappa}   % κ vs ϰ
+\newcommand {\vphi}    {\varphi}     % ϕ vs φ
+\newcommand {\vtheta}  {\vartheta}   % θ vs ϑ
+\newcommand {\vpi}     {\varpi}      % π vs ϖ
+\newcommand {\vrho}    {\varrho}     % ρ vs ϱ
+\newcommand {\vsigma}  {\varsigma}   % σ vs ς
+%END_FOLD
+
+%END_FOLD
+
+
+
+% combining characters
+%BEGIN_FOLD
+\newunicodechar{̂}{\hat}
+\newunicodechar{̃}{\tilde}
+\newunicodechar{̄}{\bar}
+\newunicodechar{̇}{\dot}
+\newunicodechar{̈}{\ddot}
+\newunicodechar{⃛}{\dddot}
+\newunicodechar{̊}{\mathring}
+\newunicodechar{⃗}{\vec}
+\newunicodechar{᪲}{^{∞}}
+%END_FOLD
+
+
+% box characters
+%BEGIN_FOLD
+%├─
+%\newunicodechar{─}{\textbf{\cmark}}
+%END_FOLD
+
+
+% misc
+%BEGIN_FOLD
+\newunicodechar{✓}{\textbf{\cmark}}
+\newunicodechar{✗}{\textbf{\xmark}}
+\newunicodechar{✔}{\textbf{\cmark}}
+\newunicodechar{✘}{\textbf{\xmark}}
+\newunicodechar{—}{\text{--}}
+\newunicodechar{⁎}{\ensuremath{_*}}
+\newunicodechar{﹢}{\ensuremath{\texttt{+}}}
+\newunicodechar{﹣}{\ensuremath{\texttt{-}}}
+\newunicodechar{ℵ}{\ensuremath{\aleph}}
+\newunicodechar{ℶ}{\ensuremath{\beth}}
+\newunicodechar{ℷ}{\ensuremath{\gimel}}
+\newunicodechar{ℸ}{\ensuremath{\daleth}}
+\newunicodechar{√}{\ensuremath{\sqrt}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{⧺}{\ensuremath{\mathbin{+\!\!\!+}}}
+\newunicodechar{⌊}{\ensuremath{\lfloor}}
+\newunicodechar{⌋}{\ensuremath{\rfloor}}
+\newunicodechar{⌈}{\ensuremath{\lceil}}
+\newunicodechar{⌉}{\ensuremath{\rceil}}
+\newunicodechar{“}{``}
+\newunicodechar{”}{''}
+%END_FOLD
+
+% fractions
+%BEGIN_FOLD
+\newunicodechar{⁄}{\ensuremath{\over}}
+\newunicodechar{↉}{\ensuremath{\tfrac{0}{3}}}
+\newunicodechar{⅟}{\ensuremath{\tfrac{1}}}
+\newunicodechar{½}{\ensuremath{\tfrac{1}{2}}}
+\newunicodechar{⅓}{\ensuremath{\tfrac{1}{3}}}
+\newunicodechar{¼}{\ensuremath{\tfrac{1}{4}}}
+\newunicodechar{⅕}{\ensuremath{\tfrac{1}{5}}}
+\newunicodechar{⅙}{\ensuremath{\tfrac{1}{6}}}
+\newunicodechar{⅐}{\ensuremath{\tfrac{1}{7}}}
+\newunicodechar{⅛}{\ensuremath{\tfrac{1}{8}}}
+\newunicodechar{⅑}{\ensuremath{\tfrac{1}{9}}}
+\newunicodechar{⅒}{\ensuremath{\tfrac{1}{10}}}
+\newunicodechar{⅔}{\ensuremath{\tfrac{2}{3}}}
+\newunicodechar{⅖}{\ensuremath{\tfrac{2}{5}}}
+\newunicodechar{¾}{\ensuremath{\tfrac{3}{4}}}
+\newunicodechar{⅗}{\ensuremath{\tfrac{3}{5}}}
+\newunicodechar{⅜}{\ensuremath{\tfrac{3}{8}}}
+\newunicodechar{⅘}{\ensuremath{\tfrac{4}{5}}}
+\newunicodechar{⅚}{\ensuremath{\tfrac{5}{6}}}
+\newunicodechar{⅝}{\ensuremath{\tfrac{5}{8}}}
+\newunicodechar{⅞}{\ensuremath{\tfrac{7}{8}}}
+%END_FOLD
+
+% arrows
+%BEGIN_FOLD
+
+
+% https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
+\newunicodechar{←}{\ensuremath{\leftarrow}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{↓}{\ensuremath{\downarrow}}
+\newunicodechar{↑}{\ensuremath{\uparrow}}
+\newunicodechar{↗}{\ensuremath{\nearrow}}
+\newunicodechar{↘}{\ensuremath{\searrow}}
+\newunicodechar{↙}{\ensuremath{\swarrow}}
+\newunicodechar{↖}{\ensuremath{\nwarrow}}
+\newunicodechar{↕}{\ensuremath{\updownarrow}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+
+\newunicodechar{↥}{\ensuremath{\mapsup}}
+\newunicodechar{↞}{\twoheadleftarrow}
+\newunicodechar{↠}{\twoheadrightarrow}
+
+\newunicodechar{⟶}{\ensuremath{\longrightarrow}}
+\newunicodechar{↦}{\ensuremath{\mapsto}}
+\newunicodechar{⟼}{\ensuremath{\longmapsto}}
+
+\newunicodechar{⟵}{\ensuremath{\longleftarrow}}
+\newunicodechar{↤}{\ensuremath{\mapsfrom}}
+\newunicodechar{⟻}{\ensuremath{\longmapsfrom}}
+
+\newunicodechar{⇝}{\ensuremath{\rightsquigarrow}}
+\newunicodechar{⇜}{\ensuremath{\leftsquigarrow}}
+\newunicodechar{↭}{\ensuremath{\leftrightsquigarrow}}
+
+\newunicodechar{⟿}{\ensuremath{\rightsquigarrow}}  % FIXME
+\newunicodechar{⬳}{\ensuremath{\leftsquigarrow}}   % FIXME
+%END_FOLD
+
+% dots
+%BEGIN_FOLD
+\newunicodechar{…}{\ensuremath{\ldots}}
+\newunicodechar{⋯}{\ensuremath{\cdots}}
+\newunicodechar{⋮}{\ensuremath{\vdots}}
+\newunicodechar{⋱}{\ensuremath{\ddots}}
+\newunicodechar{⋅}{\ensuremath{\cdot}}
+\newunicodechar{：}{\ensuremath{\colon}}
+\newunicodechar{，}{\ensuremath{,\,}}  % fullwidth colon
+\newunicodechar{；}{\ensuremath{;\,}}  % fullwidth semicolon
+%END_FOLD
+
+
+% Probability
+%BEGIN_FOLD
+\newunicodechar{⫫}{\ensuremath{\mathbin{\perp\!\!\!\perp}}}
+%END_FOLD
+
+% Linear Algebra
+%BEGIN_FOLD
+\newunicodechar{⟨}{\ensuremath{\langle}}
+\newunicodechar{⟩}{\ensuremath{\rangle}}
+\newunicodechar{∣}{\ensuremath{\mid}}
+\newunicodechar{‖}{\ensuremath{\|}}
+\newunicodechar{║}{\ensuremath{\big\|}}
+\newunicodechar{∥}{\ensuremath{\parallel}}
+\newunicodechar{∠}{\ensuremath{\angle}}
+\newunicodechar{∡}{\ensuremath{\measuredangle}}
+\newunicodechar{∢}{\ensuremath{\sphericalangle}}
+\newunicodechar{⟂}{\ensuremath{\perp}}
+%\newunicodechar{}{\ensuremath{\vdots}}
+%\newunicodechar{}{\ensuremath{\ddots}}
+%END_FOLD
+
+% set theory
+%BEGIN_FOLD
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{∉}{\ensuremath{\notin}}
+\newunicodechar{∋}{\ensuremath{\ni}}
+\newunicodechar{∌}{\ensuremath{\nni}}
+\newunicodechar{∅}{\ensuremath{\varnothing}}
+\newunicodechar{∁}{\ensuremath{\complement}}
+\newunicodechar{∖}{\ensuremath{\setminus}}
+
+\newunicodechar{⊂}{\ensuremath{\subset}}
+\newunicodechar{⊆}{\ensuremath{\subseteq}}
+\newunicodechar{⊃}{\ensuremath{\supset}}
+\newunicodechar{⊇}{\ensuremath{\supseteq}}
+
+\newunicodechar{⊄}{\ensuremath{\nsubset}}
+\newunicodechar{⊈}{\ensuremath{\nsubseteq}}
+\newunicodechar{⊅}{\ensuremath{\nsupset}}
+\newunicodechar{⊉}{\ensuremath{\nsupseteq}}
+
+\newunicodechar{⊏}{\ensuremath{\sqsubset}}
+\newunicodechar{⊑}{\ensuremath{\sqsubseteq}}
+\newunicodechar{⊐}{\ensuremath{\sqsupset}}
+\newunicodechar{⊒}{\ensuremath{\sqsupseteq}}
+
+
+\newunicodechar{∪}{\ensuremath{\cup}}
+\newunicodechar{∩}{\ensuremath{\cap}}
+\newunicodechar{⋃}{\ensuremath{\bigcup}}
+\newunicodechar{⋂}{\ensuremath{\bigcap}}
+
+\newunicodechar{⊔}{\ensuremath{\sqcup}}
+\newunicodechar{⊓}{\ensuremath{\sqcap}}
+\newunicodechar{⨆}{\ensuremath{\bigsqcup}}
+\newunicodechar{⨅}{\ensuremath{\bigsqcap}}
+%END_FOLD
+
+% inequality-like
+%BEGIN_FOLD
+\newunicodechar{≻}{\ensuremath{\succ}}
+\newunicodechar{⪰}{\ensuremath{\succeq}}
+\newunicodechar{≺}{\ensuremath{\prec}}
+\newunicodechar{⪯}{\ensuremath{\preceq}}
+\newunicodechar{≍}{\ensuremath{\asymp}}
+
+\newunicodechar{≤}{\ensuremath{\le}}
+\newunicodechar{≥}{\ensuremath{\ge}}
+\newunicodechar{≳}{\ensuremath{\gtrsim}}
+\newunicodechar{≲}{\ensuremath{\lesssim}}
+\newunicodechar{⪆}{\ensuremath{\gtrapprox}}
+\newunicodechar{⪅}{\ensuremath{\lessapprox}}
+
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{≪}{\ensuremath{\ll}}
+\newunicodechar{⋘}{\ensuremath{\lll}}
+\newunicodechar{⋙}{\ensuremath{\ggg}}
+%END_FOLD
+
+% equality-like
+%BEGIN_FOLD
+\newunicodechar{∼}{\ensuremath{\sim}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≃}{\ensuremath{\simeq}}
+\newunicodechar{≌}{\ensuremath{\backcong}}
+\newunicodechar{≅}{\ensuremath{\cong}}
+\newunicodechar{≊}{\ensuremath{\approxeq}}
+\newunicodechar{≋}{\ensuremath{\approxident}}
+\newunicodechar{≡}{\ensuremath{\equiv}}
+\newunicodechar{≗}{\ensuremath{\circeq}}
+\newunicodechar{≐}{\ensuremath{\doteq}}
+
+
+\newunicodechar{≈}{\ensuremath{\thickapprox}}
+\newunicodechar{≠}{\ensuremath{\ne}}
+\newunicodechar{≁}{\ensuremath{\nsim}}
+\newunicodechar{≉}{\ensuremath{\not\approx}}
+\newunicodechar{≆}{\ensuremath{\simneqq}}
+\newunicodechar{≇}{\ensuremath{\ncong}}
+
+%END_FOLD
+
+% left-to-right
+
+\newunicodechar{∝}{\ensuremath{\propto}}
+\newunicodechar{≔}{\ensuremath{\coloneqq}}
+\newunicodechar{≕}{\ensuremath{\eqqcolon}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{⨉}{\ensuremath{\bigtimes}}
+\newunicodechar{÷}{\ensuremath{\div}}
+\newunicodechar{∘}{\ensuremath{\circ}}
+\newunicodechar{○}{\ensuremath{\bigcirc}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{∓}{\ensuremath{\mp}}
+
+
+% Integrals, Sums and Products
+%BEGIN_FOLD
+\newunicodechar{∑}{\ensuremath{\sum}}
+\newunicodechar{∏}{\ensuremath{\prod}}
+\newunicodechar{∐}{\ensuremath{\coprod}}
+\newunicodechar{∫}{\ensuremath{\int}}
+\newunicodechar{∬}{\ensuremath{\iint}}
+\newunicodechar{∭}{\ensuremath{\iiint}}
+\newunicodechar{⨌}{\ensuremath{\iiiint}}
+\newunicodechar{∮}{\ensuremath{\oint}}
+
+\newunicodechar{⊙}{\ensuremath{\odot}}
+\newunicodechar{⊕}{\ensuremath{\oplus}}
+\newunicodechar{⊖}{\ensuremath{\ominus}}
+\newunicodechar{⊗}{\ensuremath{\mathbin{\otimes}}}
+\newunicodechar{⊘}{\ensuremath{\oslash}}
+\newunicodechar{⨁}{\ensuremath{\bigoplus}}
+\newunicodechar{⨂}{\ensuremath{\bigotimes}}
+\newunicodechar{⨀}{\ensuremath{\bigodot}}
+
+\newunicodechar{⊡}{\ensuremath{\boxdot}}
+\newunicodechar{⊞}{\ensuremath{\boxplus}}
+\newunicodechar{⊟}{\ensuremath{\boxminus}}
+\newunicodechar{⊠}{\ensuremath{\boxtimes}}
+%END_FOLD
+
+
+% logic
+%BEGIN_FOLD
+\newunicodechar{⟹}{\ensuremath{\implies}}
+\newunicodechar{⟸}{\ensuremath{\impliedby}}
+\newunicodechar{⟺}{\ensuremath{\iff}}
+\newunicodechar{¬}{\ensuremath{\neg}}
+\newunicodechar{∃}{\ensuremath{\exists}}
+\newunicodechar{∄}{\ensuremath{\nexists}}
+\newunicodechar{∀}{\ensuremath{\forall}}
+
+\newunicodechar{⊥}{\ensuremath{\bot}}
+\newunicodechar{⊤}{\ensuremath{\top}}
+\newunicodechar{⊢}{\ensuremath{\vdash}}
+\newunicodechar{⊨}{\ensuremath{\vDash}}
+\newunicodechar{†}{\ensuremath{\dagger}}
+\newunicodechar{‡}{\ensuremath{\ddagger}}
+
+\newunicodechar{⊢}{\ensuremath{\vdash}}
+\newunicodechar{⊨}{\ensuremath{\vDash}}
+\newunicodechar{†}{\ensuremath{\dagger}}
+\newunicodechar{‡}{\ensuremath{\ddagger}}
+
+\newunicodechar{⊬}{\ensuremath{\nvdash}}  % U+22AC
+\newunicodechar{⊭}{\ensuremath{\nvDash}}  % U+22AD
+\newunicodechar{⊮}{\ensuremath{\nVdash}}  % U+22AE
+\newunicodechar{⊯}{\ensuremath{\nVDash}}  % U+22AF
+
+\newunicodechar{∨}{\ensuremath{\vee}}
+\newunicodechar{∧}{\ensuremath{\wedge}}
+\newunicodechar{⋁}{\ensuremath{\bigvee}}
+\newunicodechar{⋀}{\ensuremath{\bigwedge}}
+
+\newunicodechar{∂}{\ensuremath{\partial}}
+\newunicodechar{∇}{\ensuremath{\nabla}}
+\newunicodechar{∆}{\ensuremath{\Delta}}
+%END_FOLD
+
+% sub/super-scripts
+%BEGIN_FOLD
+
+% supscript digits
+\newunicodechar{¹}{\ensuremath{^{1}}}
+\newunicodechar{²}{\ensuremath{^{2}}}
+\newunicodechar{³}{\ensuremath{^{3}}}
+\newunicodechar{⁴}{\ensuremath{^{4}}}
+\newunicodechar{⁵}{\ensuremath{^{5}}}
+\newunicodechar{⁶}{\ensuremath{^{6}}}
+\newunicodechar{⁷}{\ensuremath{^{7}}}
+\newunicodechar{⁸}{\ensuremath{^{8}}}
+\newunicodechar{⁹}{\ensuremath{^{9}}}
+\newunicodechar{⁰}{\ensuremath{^{0}}}
+
+
+%subscript digits
+\newunicodechar{₁}{\ensuremath{_{1}}}
+\newunicodechar{₂}{\ensuremath{_{2}}}
+\newunicodechar{₃}{\ensuremath{_{3}}}
+\newunicodechar{₄}{\ensuremath{_{4}}}
+\newunicodechar{₅}{\ensuremath{_{5}}}
+\newunicodechar{₆}{\ensuremath{_{6}}}
+\newunicodechar{₇}{\ensuremath{_{7}}}
+\newunicodechar{₈}{\ensuremath{_{8}}}
+\newunicodechar{₉}{\ensuremath{_{9}}}
+\newunicodechar{₀}{\ensuremath{_{0}}}
+
+%supscript lowercase latin
+\newunicodechar{ᵃ}{\ensuremath{^{a}}}
+\newunicodechar{ᵇ}{\ensuremath{^{b}}}
+\newunicodechar{ᶜ}{\ensuremath{^{c}}}
+\newunicodechar{ᵈ}{\ensuremath{^{d}}}
+\newunicodechar{ᵉ}{\ensuremath{^{e}}}
+\newunicodechar{ᶠ}{\ensuremath{^{f}}}
+\newunicodechar{ᵍ}{\ensuremath{^{g}}}
+\newunicodechar{ʰ}{\ensuremath{^{h}}}
+\newunicodechar{ⁱ}{\ensuremath{^{i}}}
+\newunicodechar{ʲ}{\ensuremath{^{j}}}
+\newunicodechar{ᵏ}{\ensuremath{^{k}}}
+\newunicodechar{ˡ}{\ensuremath{^{l}}}
+\newunicodechar{ᵐ}{\ensuremath{^{m}}}
+\newunicodechar{ⁿ}{\ensuremath{^{n}}}
+\newunicodechar{ᵒ}{\ensuremath{^{o}}}
+\newunicodechar{ᵖ}{\ensuremath{^{p}}}
+\newunicodechar{𐞥}{\ensuremath{^{q}}}
+\newunicodechar{ʳ}{\ensuremath{^{r}}}
+\newunicodechar{ˢ}{\ensuremath{^{s}}}
+\newunicodechar{ᵗ}{\ensuremath{^{t}}}
+\newunicodechar{ᵘ}{\ensuremath{^{u}}}
+\newunicodechar{ᵛ}{\ensuremath{^{v}}}
+\newunicodechar{ʷ}{\ensuremath{^{w}}}
+\newunicodechar{ˣ}{\ensuremath{^{x}}}
+\newunicodechar{ʸ}{\ensuremath{^{y}}}
+\newunicodechar{ᶻ}{\ensuremath{^{z}}}
+
+
+%subscript lowercase latin
+\newunicodechar{ₐ}  {\ensuremath{_{a}}}
+%\newunicodechar{\_b}{\ensuremath{_{b}}}
+%\newunicodechar{\_c}{\ensuremath{_{c}}}
+%\newunicodechar{\_d}{\ensuremath{_{d}}}
+\newunicodechar{ₑ}  {\ensuremath{_{e}}}
+%\newunicodechar{\_f}{\ensuremath{_{f}}}
+%\newunicodechar{\_g}{\ensuremath{_{g}}}
+\newunicodechar{ₕ}  {\ensuremath{_{h}}}
+\newunicodechar{ᵢ}  {\ensuremath{_{i}}}
+\newunicodechar{ⱼ}  {\ensuremath{_{j}}}
+\newunicodechar{ₖ}  {\ensuremath{_{k}}}
+\newunicodechar{ₗ}  {\ensuremath{_{l}}}
+\newunicodechar{ₘ}  {\ensuremath{_{m}}}
+\newunicodechar{ₙ}  {\ensuremath{_{n}}}
+\newunicodechar{ₒ}  {\ensuremath{_{o}}}
+\newunicodechar{ₚ}  {\ensuremath{_{p}}}
+%\newunicodechar{\_q}{\ensuremath{_{q}}}
+\newunicodechar{ᵣ}  {\ensuremath{_{r}}}
+\newunicodechar{ₛ}  {\ensuremath{_{s}}}
+\newunicodechar{ₜ}  {\ensuremath{_{t}}}
+\newunicodechar{ᵤ}  {\ensuremath{_{u}}}
+\newunicodechar{ᵥ}  {\ensuremath{_{v}}}
+%\newunicodechar{\_w}{\ensuremath{_{w}}}
+\newunicodechar{ₓ}  {\ensuremath{_{x}}}
+%\newunicodechar{\_y}{\ensuremath{_{y}}}
+%\newunicodechar{\_z}{\ensuremath{_{z}}}
+
+
+%supscript uppercase latin
+\newunicodechar{ᴬ}{\ensuremath{^{A}}}
+\newunicodechar{ᴮ}{\ensuremath{^{B}}}
+\newunicodechar{ꟲ}{\ensuremath{^{C}}}
+\newunicodechar{ᴰ}{\ensuremath{^{D}}}
+\newunicodechar{ᴱ}{\ensuremath{^{E}}}
+\newunicodechar{ꟳ}{\ensuremath{^{F}}}
+\newunicodechar{ᴳ}{\ensuremath{^{G}}}
+\newunicodechar{ᴴ}{\ensuremath{^{H}}}
+\newunicodechar{ᴵ}{\ensuremath{^{I}}}
+\newunicodechar{ᴶ}{\ensuremath{^{J}}}
+\newunicodechar{ᴷ}{\ensuremath{^{K}}}
+\newunicodechar{ᴸ}{\ensuremath{^{L}}}
+\newunicodechar{ᴹ}{\ensuremath{^{M}}}
+\newunicodechar{ᴺ}{\ensuremath{^{N}}}
+\newunicodechar{ᴼ}{\ensuremath{^{O}}}
+\newunicodechar{ᴾ}{\ensuremath{^{P}}}
+\newunicodechar{ꟴ}{\ensuremath{^{Q}}}
+\newunicodechar{ᴿ}{\ensuremath{^{R}}}
+%\newunicodechar{ }{\ensuremath{^{S}}}
+\newunicodechar{ᵀ}{\ensuremath{^{T}}}
+\newunicodechar{ᵁ}{\ensuremath{^{U}}}
+\newunicodechar{ⱽ}{\ensuremath{^{V}}}
+\newunicodechar{ᵂ}{\ensuremath{^{W}}}
+%\newunicodechar{ }{\ensuremath{^{X}}}
+%\newunicodechar{ }{\ensuremath{^{Y}}}
+%\newunicodechar{ }{\ensuremath{^{Z}}}
+
+
+%subscript uppercase latin
+
+
+%supscript lowercase greek
+\newunicodechar{ᵝ}  {\ensuremath{^{\beta}}}
+\newunicodechar{ᵞ}  {\ensuremath{^{\gamma}}}
+\newunicodechar{ᵟ}  {\ensuremath{^{\delta}}}
+\newunicodechar{ᵋ}  {\ensuremath{^{\varepsilon}}}
+\newunicodechar{ᶿ}  {\ensuremath{^{\theta}}}
+\newunicodechar{ᶥ}  {\ensuremath{^{\itoa}}}
+%\newunicodechar{\^upsilon}  {\ensuremath{^{\upsilon}}}
+\newunicodechar{ᵠ}  {\ensuremath{^{\varphi}}}
+\newunicodechar{ᵡ}  {\ensuremath{^{\chi}}}
+
+%subscript lowercase greek
+\newunicodechar{ᵦ}  {\ensuremath{_{\beta}}}
+\newunicodechar{ᵧ}  {\ensuremath{_{\gamma}}}
+\newunicodechar{ᵨ}  {\ensuremath{_{\varrho}}}
+\newunicodechar{ᵩ}  {\ensuremath{_{\varphi}}}
+\newunicodechar{ᵪ}  {\ensuremath{_{\chi}}}
+
+%supscript symbols
+\newunicodechar{⁺}  {\ensuremath{^{\texttt{+}}}}
+\newunicodechar{⁻}  {\ensuremath{^{\texttt{-}}}}
+\newunicodechar{⁽}  {\ensuremath{^{(}}}
+\newunicodechar{⁾}  {\ensuremath{^{)}}}
+\newunicodechar{⁼}  {\ensuremath{^{=}}}
+
+%subscript symbols
+\newunicodechar{₊}  {\ensuremath{_{\texttt{+}}}}
+\newunicodechar{₋}  {\ensuremath{_{\texttt{-}}}}
+\newunicodechar{₌}  {\ensuremath{_{(}}}
+\newunicodechar{₍}  {\ensuremath{_{)}}}
+\newunicodechar{₎}  {\ensuremath{_{=}}}
+%END_FOLD
+
+% Special Characters
+
+\newunicodechar{ℓ}{\ensuremath{\ell}}
+\newunicodechar{ħ}{\ensuremath{\hbar}}
+
+% Greek
+%BEGIN_FOLD
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
+\newunicodechar{ϑ}{\ensuremath{\vartheta}}
+\newunicodechar{φ}{\ensuremath{\varphi}}
+\newunicodechar{ϱ}{\ensuremath{\varrho}}
+\newunicodechar{ϖ}{\ensuremath{\varpi}}
+\newunicodechar{ς}{\ensuremath{\varsigma}}
+\newunicodechar{ϰ}{\ensuremath{\varkappa}}
+%END_FOLD
+
+% lowercase greek
+%BEGIN_FOLD
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{ϵ}{\ensuremath{\epsilon}}
+\newunicodechar{ζ}{\ensuremath{\zeta}}
+\newunicodechar{η}{\ensuremath{\heta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{ι}{\ensuremath{\iota}}
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{ν}{\ensuremath{\nu}}
+\newunicodechar{ξ}{\ensuremath{\xi}}
+\newunicodechar{ο}{\ensuremath{\omicron}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{υ}{\ensuremath{\upsilon}}
+\newunicodechar{ϕ}{\ensuremath{\phi}}
+\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{ψ}{\ensuremath{\psi}}
+\newunicodechar{ω}{\ensuremath{\omega}}
+%END_FOLD
+
+% Uppercase greek
+%BEGIN_FOLD
+\newunicodechar{Α}{\ensuremath{\Alpha}}
+\newunicodechar{Β}{\ensuremath{\Beta}}
+\newunicodechar{Γ}{\ensuremath{\Gamma}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Ε}{\ensuremath{\Epsilon}}
+\newunicodechar{Ζ}{\ensuremath{\Zeta}}
+\newunicodechar{Η}{\ensuremath{\Heta}}
+\newunicodechar{Θ}{\ensuremath{\Theta}}
+\newunicodechar{Ι}{\ensuremath{\Iota}}
+\newunicodechar{Κ}{\ensuremath{\Kappa}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{Μ}{\ensuremath{\Mu}}
+\newunicodechar{Ν}{\ensuremath{\Nu}}
+\newunicodechar{Ξ}{\ensuremath{\Xi}}
+\newunicodechar{Ο}{\ensuremath{\Omicron}}
+\newunicodechar{Π}{\ensuremath{\Pi}}
+\newunicodechar{Ρ}{\ensuremath{\Rho}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Τ}{\ensuremath{\Tau}}
+\newunicodechar{Υ}{\ensuremath{\Upsilon}}
+\newunicodechar{Φ}{\ensuremath{\Phi}}
+\newunicodechar{Χ}{\ensuremath{\Chi}}
+\newunicodechar{Ψ}{\ensuremath{\Psi}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+%END_FOLD
+
+
+%END_FOLD
+
+
+
+% Bold Characters
+%BEGIN_FOLD
+
+%numbers
+%\newunicodechar{𝟎}   {\mathbf{0}}
+%\newunicodechar{𝟏}   {\mathbf{1}}
+%\newunicodechar{𝟐}   {\mathbf{2}}
+%\newunicodechar{𝟑}   {\mathbf{3}}
+%\newunicodechar{𝟒}   {\mathbf{4}}
+%\newunicodechar{𝟓}   {\mathbf{5}}
+%\newunicodechar{𝟔}   {\mathbf{6}}
+%\newunicodechar{𝟕}   {\mathbf{7}}
+%\newunicodechar{𝟖}   {\mathbf{8}}
+%\newunicodechar{𝟗}   {\mathbf{9}}
+
+%bold uppercase Latin
+%BEGIN_FOLD
+%\newunicodechar{𝐀}   {\mathbf{A}}
+%\newunicodechar{𝐁}   {\mathbf{B}}
+%\newunicodechar{𝐂}   {\mathbf{C}}
+%\newunicodechar{𝐃}   {\mathbf{D}}
+%\newunicodechar{𝐄}   {\mathbf{E}}
+%\newunicodechar{𝐅}   {\mathbf{F}}
+%\newunicodechar{𝐆}   {\mathbf{G}}
+%\newunicodechar{𝐇}   {\mathbf{H}}
+%\newunicodechar{𝐈}   {\mathbf{I}}
+%\newunicodechar{𝐉}   {\mathbf{J}}
+%\newunicodechar{𝐊}   {\mathbf{K}}
+%\newunicodechar{𝐋}   {\mathbf{L}}
+%\newunicodechar{𝐌}   {\mathbf{M}}
+%\newunicodechar{𝐍}   {\mathbf{N}}
+%\newunicodechar{𝐎}   {\mathbf{O}}
+%\newunicodechar{𝐏}   {\mathbf{P}}
+%\newunicodechar{𝐐}   {\mathbf{Q}}
+%\newunicodechar{𝐑}   {\mathbf{R}}
+%\newunicodechar{𝐒}   {\mathbf{S}}
+%\newunicodechar{𝐓}   {\mathbf{T}}
+%\newunicodechar{𝐔}   {\mathbf{U}}
+%\newunicodechar{𝐕}   {\mathbf{V}}
+%\newunicodechar{𝐖}   {\mathbf{W}}
+%\newunicodechar{𝐗}   {\mathbf{X}}
+%\newunicodechar{𝐘}   {\mathbf{Y}}
+%\newunicodechar{𝐙}   {\mathbf{Z}}
+%END_FOLD
+
+
+%bold lowercase latin
+%BEGIN_FOLD
+%\newunicodechar{𝐚}   {\mathbf{a}}
+%\newunicodechar{𝐛}   {\mathbf{b}}
+%\newunicodechar{𝐜}   {\mathbf{c}}
+%\newunicodechar{𝐝}   {\mathbf{d}}
+%\newunicodechar{𝐞}   {\mathbf{e}}
+%\newunicodechar{𝐟}   {\mathbf{f}}
+%\newunicodechar{𝐠}   {\mathbf{g}}
+%\newunicodechar{𝐡}   {\mathbf{h}}
+%\newunicodechar{𝐢}   {\mathbf{i}}
+%\newunicodechar{𝐣}   {\mathbf{j}}
+%\newunicodechar{𝐤}   {\mathbf{k}}
+%\newunicodechar{𝐥}   {\mathbf{l}}
+%\newunicodechar{𝐦}   {\mathbf{m}}
+%\newunicodechar{𝐧}   {\mathbf{n}}
+%\newunicodechar{𝐨}   {\mathbf{o}}
+%\newunicodechar{𝐩}   {\mathbf{p}}
+%\newunicodechar{𝐪}   {\mathbf{q}}
+%\newunicodechar{𝐫}   {\mathbf{r}}
+%\newunicodechar{𝐬}   {\mathbf{s}}
+%\newunicodechar{𝐭}   {\mathbf{t}}
+%\newunicodechar{𝐮}   {\mathbf{u}}
+%\newunicodechar{𝐯}   {\mathbf{v}}
+%\newunicodechar{𝐰}   {\mathbf{w}}
+%\newunicodechar{𝐱}   {\mathbf{x}}
+%\newunicodechar{𝐲}   {\mathbf{y}}
+%\newunicodechar{𝐳}   {\mathbf{z}}
+%END_FOLD
+
+
+% bold owercase greek
+%BEGIN_FOLD
+\newunicodechar{𝛂}{\ensuremath{\boldsymbol{\alpha}}}
+\newunicodechar{𝛃}{\ensuremath{\boldsymbol{\beta}}}
+\newunicodechar{𝛄}{\ensuremath{\boldsymbol{\gamma}}}
+\newunicodechar{𝛅}{\ensuremath{\boldsymbol{\delta}}}
+\newunicodechar{𝛆}{\ensuremath{\boldsymbol{\epsilon}}}
+\newunicodechar{𝛇}{\ensuremath{\boldsymbol{\zeta}}}
+\newunicodechar{𝛈}{\ensuremath{\boldsymbol{\heta}}}
+\newunicodechar{𝛉}{\ensuremath{\boldsymbol{\theta}}}
+\newunicodechar{𝛊}{\ensuremath{\boldsymbol{\iota}}}
+\newunicodechar{𝛋}{\ensuremath{\boldsymbol{\kappa}}}
+\newunicodechar{𝛌}{\ensuremath{\boldsymbol{\lambda}}}
+\newunicodechar{𝛍}{\ensuremath{\boldsymbol{\mu}}}
+\newunicodechar{𝛎}{\ensuremath{\boldsymbol{\nu}}}
+\newunicodechar{𝛏}{\ensuremath{\boldsymbol{\xi}}}
+\newunicodechar{𝛐}{\ensuremath{\boldsymbol{\omicron}}}
+\newunicodechar{𝛑}{\ensuremath{\boldsymbol{\pi}}}
+\newunicodechar{𝛒}{\ensuremath{\boldsymbol{\rho}}}
+\newunicodechar{𝛔}{\ensuremath{\boldsymbol{\sigma}}}
+\newunicodechar{𝛕}{\ensuremath{\boldsymbol{\tau}}}
+\newunicodechar{𝛖}{\ensuremath{\boldsymbol{\upsilon}}}
+\newunicodechar{𝛟}{\ensuremath{\boldsymbol{\phi}}}
+\newunicodechar{𝛘}{\ensuremath{\boldsymbol{\chi}}}
+\newunicodechar{𝛙}{\ensuremath{\boldsymbol{\psi}}}
+\newunicodechar{𝛚}{\ensuremath{\boldsymbol{\omega}}}
+%END_FOLD
+
+% bold uppercase greek
+%BEGIN_FOLD
+\newunicodechar{𝚨}{\ensuremath{\boldsymbol{\Alpha}}}
+\newunicodechar{𝚩}{\ensuremath{\boldsymbol{\Beta}}}
+\newunicodechar{𝚪}{\ensuremath{\boldsymbol{\Gamma}}}
+\newunicodechar{𝚫}{\ensuremath{\boldsymbol{\Delta}}}
+\newunicodechar{𝚬}{\ensuremath{\boldsymbol{\Epsilon}}}
+\newunicodechar{𝚭}{\ensuremath{\boldsymbol{\Zeta}}}
+\newunicodechar{𝚮}{\ensuremath{\boldsymbol{\Heta}}}
+\newunicodechar{𝚯}{\ensuremath{\boldsymbol{\Theta}}}
+\newunicodechar{𝚰}{\ensuremath{\boldsymbol{\Iota}}}
+\newunicodechar{𝚱}{\ensuremath{\boldsymbol{\Kappa}}}
+\newunicodechar{𝚲}{\ensuremath{\boldsymbol{\Lambda}}}
+\newunicodechar{𝚳}{\ensuremath{\boldsymbol{\Mu}}}
+\newunicodechar{𝚴}{\ensuremath{\boldsymbol{\Nu}}}
+\newunicodechar{𝚵}{\ensuremath{\boldsymbol{\Xi}}}
+\newunicodechar{𝚶}{\ensuremath{\boldsymbol{\Omicron}}}
+\newunicodechar{𝚷}{\ensuremath{\boldsymbol{\Pi}}}
+\newunicodechar{𝚸}{\ensuremath{\boldsymbol{\Rho}}}
+\newunicodechar{𝚺}{\ensuremath{\boldsymbol{\Sigma}}}
+\newunicodechar{𝚻}{\ensuremath{\boldsymbol{\Tau}}}
+\newunicodechar{𝚼}{\ensuremath{\boldsymbol{\Upsilon}}}
+\newunicodechar{𝚽}{\ensuremath{\boldsymbol{\Phi}}}
+\newunicodechar{𝚾}{\ensuremath{\boldsymbol{\Chi}}}
+\newunicodechar{𝚿}{\ensuremath{\boldsymbol{\Psi}}}
+\newunicodechar{𝛀}{\ensuremath{\boldsymbol{\Omega}}}
+%END_FOLD
+
+%END_FOLD
+
+% SERIF
+%BEGIN_FOLD
+
+%END_FOLD
+
+
+% SERIF
+%BEGIN_FOLD
+
+% SERIF BOLD UPPERCASE LATIN (\bf<char>)
+%BEGIN_FOLD
+\newunicodechar{𝐀}{\ensuremath{\mathbf{A}}}  % U+1D400 Mathematical Bold Capital A
+\newunicodechar{𝐁}{\ensuremath{\mathbf{B}}}  % U+1D401 Mathematical Bold Capital B
+\newunicodechar{𝐂}{\ensuremath{\mathbf{C}}}  % U+1D402 Mathematical Bold Capital C
+\newunicodechar{𝐃}{\ensuremath{\mathbf{D}}}  % U+1D403 Mathematical Bold Capital D
+\newunicodechar{𝐄}{\ensuremath{\mathbf{E}}}  % U+1D404 Mathematical Bold Capital E
+\newunicodechar{𝐅}{\ensuremath{\mathbf{F}}}  % U+1D405 Mathematical Bold Capital F
+\newunicodechar{𝐆}{\ensuremath{\mathbf{G}}}  % U+1D406 Mathematical Bold Capital G
+\newunicodechar{𝐇}{\ensuremath{\mathbf{H}}}  % U+1D407 Mathematical Bold Capital H
+\newunicodechar{𝐈}{\ensuremath{\mathbf{I}}}  % U+1D408 Mathematical Bold Capital I
+\newunicodechar{𝐉}{\ensuremath{\mathbf{J}}}  % U+1D409 Mathematical Bold Capital J
+\newunicodechar{𝐊}{\ensuremath{\mathbf{K}}}  % U+1D40A Mathematical Bold Capital K
+\newunicodechar{𝐋}{\ensuremath{\mathbf{L}}}  % U+1D40B Mathematical Bold Capital L
+\newunicodechar{𝐌}{\ensuremath{\mathbf{M}}}  % U+1D40C Mathematical Bold Capital M
+\newunicodechar{𝐍}{\ensuremath{\mathbf{N}}}  % U+1D40D Mathematical Bold Capital N
+\newunicodechar{𝐎}{\ensuremath{\mathbf{O}}}  % U+1D40E Mathematical Bold Capital O
+\newunicodechar{𝐏}{\ensuremath{\mathbf{P}}}  % U+1D40F Mathematical Bold Capital P
+\newunicodechar{𝐐}{\ensuremath{\mathbf{Q}}}  % U+1D410 Mathematical Bold Capital Q
+\newunicodechar{𝐑}{\ensuremath{\mathbf{R}}}  % U+1D411 Mathematical Bold Capital R
+\newunicodechar{𝐒}{\ensuremath{\mathbf{S}}}  % U+1D412 Mathematical Bold Capital S
+\newunicodechar{𝐓}{\ensuremath{\mathbf{T}}}  % U+1D413 Mathematical Bold Capital T
+\newunicodechar{𝐔}{\ensuremath{\mathbf{U}}}  % U+1D414 Mathematical Bold Capital U
+\newunicodechar{𝐕}{\ensuremath{\mathbf{V}}}  % U+1D415 Mathematical Bold Capital V
+\newunicodechar{𝐖}{\ensuremath{\mathbf{W}}}  % U+1D416 Mathematical Bold Capital W
+\newunicodechar{𝐗}{\ensuremath{\mathbf{X}}}  % U+1D417 Mathematical Bold Capital X
+\newunicodechar{𝐘}{\ensuremath{\mathbf{Y}}}  % U+1D418 Mathematical Bold Capital Y
+\newunicodechar{𝐙}{\ensuremath{\mathbf{Z}}}  % U+1D419 Mathematical Bold Capital Z
+%END_FOLD
+
+% SERIF BOLD LOWERCASE LATIN (\bf<char>)
+%BEGIN_FOLD
+\newunicodechar{𝐚}{\ensuremath{\mathbf{a}}}  % U+1D41A Mathematical Bold Small A
+\newunicodechar{𝐛}{\ensuremath{\mathbf{b}}}  % U+1D41B Mathematical Bold Small B
+\newunicodechar{𝐜}{\ensuremath{\mathbf{c}}}  % U+1D41C Mathematical Bold Small C
+\newunicodechar{𝐝}{\ensuremath{\mathbf{d}}}  % U+1D41D Mathematical Bold Small D
+\newunicodechar{𝐞}{\ensuremath{\mathbf{e}}}  % U+1D41E Mathematical Bold Small E
+\newunicodechar{𝐟}{\ensuremath{\mathbf{f}}}  % U+1D41F Mathematical Bold Small F
+\newunicodechar{𝐠}{\ensuremath{\mathbf{g}}}  % U+1D420 Mathematical Bold Small G
+\newunicodechar{𝐡}{\ensuremath{\mathbf{h}}}  % U+1D421 Mathematical Bold Small H
+\newunicodechar{𝐢}{\ensuremath{\mathbf{i}}}  % U+1D422 Mathematical Bold Small I
+\newunicodechar{𝐣}{\ensuremath{\mathbf{j}}}  % U+1D423 Mathematical Bold Small J
+\newunicodechar{𝐤}{\ensuremath{\mathbf{k}}}  % U+1D424 Mathematical Bold Small K
+\newunicodechar{𝐥}{\ensuremath{\mathbf{l}}}  % U+1D425 Mathematical Bold Small L
+\newunicodechar{𝐦}{\ensuremath{\mathbf{m}}}  % U+1D426 Mathematical Bold Small M
+\newunicodechar{𝐧}{\ensuremath{\mathbf{n}}}  % U+1D427 Mathematical Bold Small N
+\newunicodechar{𝐨}{\ensuremath{\mathbf{o}}}  % U+1D428 Mathematical Bold Small O
+\newunicodechar{𝐩}{\ensuremath{\mathbf{p}}}  % U+1D429 Mathematical Bold Small P
+\newunicodechar{𝐪}{\ensuremath{\mathbf{q}}}  % U+1D42A Mathematical Bold Small Q
+\newunicodechar{𝐫}{\ensuremath{\mathbf{r}}}  % U+1D42B Mathematical Bold Small R
+\newunicodechar{𝐬}{\ensuremath{\mathbf{s}}}  % U+1D42C Mathematical Bold Small S
+\newunicodechar{𝐭}{\ensuremath{\mathbf{t}}}  % U+1D42D Mathematical Bold Small T
+\newunicodechar{𝐮}{\ensuremath{\mathbf{u}}}  % U+1D42E Mathematical Bold Small U
+\newunicodechar{𝐯}{\ensuremath{\mathbf{v}}}  % U+1D42F Mathematical Bold Small V
+\newunicodechar{𝐰}{\ensuremath{\mathbf{w}}}  % U+1D430 Mathematical Bold Small W
+\newunicodechar{𝐱}{\ensuremath{\mathbf{x}}}  % U+1D431 Mathematical Bold Small X
+\newunicodechar{𝐲}{\ensuremath{\mathbf{y}}}  % U+1D432 Mathematical Bold Small Y
+\newunicodechar{𝐳}{\ensuremath{\mathbf{z}}}  % U+1D433 Mathematical Bold Small Z
+%END_FOLD
+
+% SERIF BOLD DIGITS (\bf<char>)
+%BEGIN_FOLD
+\newunicodechar{𝟎}{\ensuremath{\mathbf{0}}}  % U+1D7CE Mathematical Bold Digit Zero
+\newunicodechar{𝟏}{\ensuremath{\mathbf{1}}}  % U+1D7CF Mathematical Bold Digit One
+\newunicodechar{𝟐}{\ensuremath{\mathbf{2}}}  % U+1D7D0 Mathematical Bold Digit Two
+\newunicodechar{𝟑}{\ensuremath{\mathbf{3}}}  % U+1D7D1 Mathematical Bold Digit Three
+\newunicodechar{𝟒}{\ensuremath{\mathbf{4}}}  % U+1D7D2 Mathematical Bold Digit Four
+\newunicodechar{𝟓}{\ensuremath{\mathbf{5}}}  % U+1D7D3 Mathematical Bold Digit Five
+\newunicodechar{𝟔}{\ensuremath{\mathbf{6}}}  % U+1D7D4 Mathematical Bold Digit Six
+\newunicodechar{𝟕}{\ensuremath{\mathbf{7}}}  % U+1D7D5 Mathematical Bold Digit Seven
+\newunicodechar{𝟖}{\ensuremath{\mathbf{8}}}  % U+1D7D6 Mathematical Bold Digit Eight
+\newunicodechar{𝟗}{\ensuremath{\mathbf{9}}}  % U+1D7D7 Mathematical Bold Digit Nine
+%END_FOLD
+
+% SERIF ITALIC UPPERCASE LATIN (\it<char>)
+%BEGIN_FOLD
+\newunicodechar{𝐴}{\textit{A}}  % U+1D434 Mathematical Italic Capital A
+\newunicodechar{𝐵}{\textit{B}}  % U+1D435 Mathematical Italic Capital B
+\newunicodechar{𝐶}{\textit{C}}  % U+1D436 Mathematical Italic Capital C
+\newunicodechar{𝐷}{\textit{D}}  % U+1D437 Mathematical Italic Capital D
+\newunicodechar{𝐸}{\textit{E}}  % U+1D438 Mathematical Italic Capital E
+\newunicodechar{𝐹}{\textit{F}}  % U+1D439 Mathematical Italic Capital F
+\newunicodechar{𝐺}{\textit{G}}  % U+1D43A Mathematical Italic Capital G
+\newunicodechar{𝐻}{\textit{H}}  % U+1D43B Mathematical Italic Capital H
+\newunicodechar{𝐼}{\textit{I}}  % U+1D43C Mathematical Italic Capital I
+\newunicodechar{𝐽}{\textit{J}}  % U+1D43D Mathematical Italic Capital J
+\newunicodechar{𝐾}{\textit{K}}  % U+1D43E Mathematical Italic Capital K
+\newunicodechar{𝐿}{\textit{L}}  % U+1D43F Mathematical Italic Capital L
+\newunicodechar{𝑀}{\textit{M}}  % U+1D440 Mathematical Italic Capital M
+\newunicodechar{𝑁}{\textit{N}}  % U+1D441 Mathematical Italic Capital N
+\newunicodechar{𝑂}{\textit{O}}  % U+1D442 Mathematical Italic Capital O
+\newunicodechar{𝑃}{\textit{P}}  % U+1D443 Mathematical Italic Capital P
+\newunicodechar{𝑄}{\textit{Q}}  % U+1D444 Mathematical Italic Capital Q
+\newunicodechar{𝑅}{\textit{R}}  % U+1D445 Mathematical Italic Capital R
+\newunicodechar{𝑆}{\textit{S}}  % U+1D446 Mathematical Italic Capital S
+\newunicodechar{𝑇}{\textit{T}}  % U+1D447 Mathematical Italic Capital T
+\newunicodechar{𝑈}{\textit{U}}  % U+1D448 Mathematical Italic Capital U
+\newunicodechar{𝑉}{\textit{V}}  % U+1D449 Mathematical Italic Capital V
+\newunicodechar{𝑊}{\textit{W}}  % U+1D44A Mathematical Italic Capital W
+\newunicodechar{𝑋}{\textit{X}}  % U+1D44B Mathematical Italic Capital X
+\newunicodechar{𝑌}{\textit{Y}}  % U+1D44C Mathematical Italic Capital Y
+\newunicodechar{𝑍}{\textit{Z}}  % U+1D44D Mathematical Italic Capital Z
+%END_FOLD
+
+% SERIF ITALIC LOWERCASE LATIN (\it<char>)
+%BEGIN_FOLD
+\newunicodechar{𝑎}{\textit{a}}  % U+1D44E Mathematical Italic Small A
+\newunicodechar{𝑏}{\textit{b}}  % U+1D44F Mathematical Italic Small B
+\newunicodechar{𝑐}{\textit{c}}  % U+1D450 Mathematical Italic Small C
+\newunicodechar{𝑑}{\textit{d}}  % U+1D451 Mathematical Italic Small D
+\newunicodechar{𝑒}{\textit{e}}  % U+1D452 Mathematical Italic Small E
+\newunicodechar{𝑓}{\textit{f}}  % U+1D453 Mathematical Italic Small F
+\newunicodechar{𝑔}{\textit{g}}  % U+1D454 Mathematical Italic Small G
+\newunicodechar{ℎ}{\textit{h}}  % U+210E  Mathematical Italic Small H
+\newunicodechar{𝑖}{\textit{i}}  % U+1D456 Mathematical Italic Small I
+\newunicodechar{𝑗}{\textit{j}}  % U+1D457 Mathematical Italic Small J
+\newunicodechar{𝑘}{\textit{k}}  % U+1D458 Mathematical Italic Small K
+\newunicodechar{𝑙}{\textit{l}}  % U+1D459 Mathematical Italic Small L
+\newunicodechar{𝑚}{\textit{m}}  % U+1D45A Mathematical Italic Small M
+\newunicodechar{𝑛}{\textit{n}}  % U+1D45B Mathematical Italic Small N
+\newunicodechar{𝑜}{\textit{o}}  % U+1D45C Mathematical Italic Small O
+\newunicodechar{𝑝}{\textit{p}}  % U+1D45D Mathematical Italic Small P
+\newunicodechar{𝑞}{\textit{q}}  % U+1D45E Mathematical Italic Small Q
+\newunicodechar{𝑟}{\textit{r}}  % U+1D45F Mathematical Italic Small R
+\newunicodechar{𝑠}{\textit{s}}  % U+1D460 Mathematical Italic Small S
+\newunicodechar{𝑡}{\textit{t}}  % U+1D461 Mathematical Italic Small T
+\newunicodechar{𝑢}{\textit{u}}  % U+1D462 Mathematical Italic Small U
+\newunicodechar{𝑣}{\textit{v}}  % U+1D463 Mathematical Italic Small V
+\newunicodechar{𝑤}{\textit{w}}  % U+1D464 Mathematical Italic Small W
+\newunicodechar{𝑥}{\textit{x}}  % U+1D465 Mathematical Italic Small X
+\newunicodechar{𝑦}{\textit{y}}  % U+1D466 Mathematical Italic Small Y
+\newunicodechar{𝑧}{\textit{z}}  % U+1D467 Mathematical Italic Small Z
+%END_FOLD
+
+% SERIF BOLD ITALIC UPPERCASE LATIN (\bi<char>)
+%BEGIN_FOLD
+
+%END_FOLD
+
+% SERIF BOLD ITALIC LOWERCASE LATIN (\bi<char>)
+%BEGIN_FOLD
+
+%END_FOLD
+
+%END_FOLD
+
+
+
+% SANS SERIF
+%BEGIN_FOLD
+
+% SANS SERIF UPPERCASE LATIN (\sans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝖠}{\textsf{A}}  % U+1D5A0 Mathematical Sans-Serif Capital A
+\newunicodechar{𝖡}{\textsf{B}}  % U+1D5A1 Mathematical Sans-Serif Capital B
+\newunicodechar{𝖢}{\textsf{C}}  % U+1D5A2 Mathematical Sans-Serif Capital C
+\newunicodechar{𝖣}{\textsf{D}}  % U+1D5A3 Mathematical Sans-Serif Capital D
+\newunicodechar{𝖤}{\textsf{E}}  % U+1D5A4 Mathematical Sans-Serif Capital E
+\newunicodechar{𝖥}{\textsf{F}}  % U+1D5A5 Mathematical Sans-Serif Capital F
+\newunicodechar{𝖦}{\textsf{G}}  % U+1D5A6 Mathematical Sans-Serif Capital G
+\newunicodechar{𝖧}{\textsf{H}}  % U+1D5A7 Mathematical Sans-Serif Capital H
+\newunicodechar{𝖨}{\textsf{I}}  % U+1D5A8 Mathematical Sans-Serif Capital I
+\newunicodechar{𝖩}{\textsf{J}}  % U+1D5A9 Mathematical Sans-Serif Capital J
+\newunicodechar{𝖪}{\textsf{K}}  % U+1D5AA Mathematical Sans-Serif Capital K
+\newunicodechar{𝖫}{\textsf{L}}  % U+1D5AB Mathematical Sans-Serif Capital L
+\newunicodechar{𝖬}{\textsf{M}}  % U+1D5AC Mathematical Sans-Serif Capital M
+\newunicodechar{𝖭}{\textsf{N}}  % U+1D5AD Mathematical Sans-Serif Capital N
+\newunicodechar{𝖮}{\textsf{O}}  % U+1D5AE Mathematical Sans-Serif Capital O
+\newunicodechar{𝖯}{\textsf{P}}  % U+1D5AF Mathematical Sans-Serif Capital P
+\newunicodechar{𝖰}{\textsf{Q}}  % U+1D5B0 Mathematical Sans-Serif Capital Q
+\newunicodechar{𝖱}{\textsf{R}}  % U+1D5B1 Mathematical Sans-Serif Capital R
+\newunicodechar{𝖲}{\textsf{S}}  % U+1D5B2 Mathematical Sans-Serif Capital S
+\newunicodechar{𝖳}{\textsf{T}}  % U+1D5B3 Mathematical Sans-Serif Capital T
+\newunicodechar{𝖴}{\textsf{U}}  % U+1D5B4 Mathematical Sans-Serif Capital U
+\newunicodechar{𝖵}{\textsf{V}}  % U+1D5B5 Mathematical Sans-Serif Capital V
+\newunicodechar{𝖶}{\textsf{W}}  % U+1D5B6 Mathematical Sans-Serif Capital W
+\newunicodechar{𝖷}{\textsf{X}}  % U+1D5B7 Mathematical Sans-Serif Capital X
+\newunicodechar{𝖸}{\textsf{Y}}  % U+1D5B8 Mathematical Sans-Serif Capital Y
+\newunicodechar{𝖹}{\textsf{Z}}  % U+1D5B9 Mathematical Sans-Serif Capital Z
+%END_FOLD
+
+% SANS SERIF LOWERCASE LATIN (\sans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝖺}{\textsf{a}}  % U+1D5BA Mathematical Sans-Serif Small A
+\newunicodechar{𝖻}{\textsf{b}}  % U+1D5BB Mathematical Sans-Serif Small B
+\newunicodechar{𝖼}{\textsf{c}}  % U+1D5BC Mathematical Sans-Serif Small C
+\newunicodechar{𝖽}{\textsf{d}}  % U+1D5BD Mathematical Sans-Serif Small D
+\newunicodechar{𝖾}{\textsf{e}}  % U+1D5BE Mathematical Sans-Serif Small E
+\newunicodechar{𝖿}{\textsf{f}}  % U+1D5BF Mathematical Sans-Serif Small F
+\newunicodechar{𝗀}{\textsf{g}}  % U+1D5C0 Mathematical Sans-Serif Small G
+\newunicodechar{𝗁}{\textsf{h}}  % U+1D5C1 Mathematical Sans-Serif Small H
+\newunicodechar{𝗂}{\textsf{i}}  % U+1D5C2 Mathematical Sans-Serif Small I
+\newunicodechar{𝗃}{\textsf{j}}  % U+1D5C3 Mathematical Sans-Serif Small J
+\newunicodechar{𝗄}{\textsf{k}}  % U+1D5C4 Mathematical Sans-Serif Small K
+\newunicodechar{𝗅}{\textsf{l}}  % U+1D5C5 Mathematical Sans-Serif Small L
+\newunicodechar{𝗆}{\textsf{m}}  % U+1D5C6 Mathematical Sans-Serif Small M
+\newunicodechar{𝗇}{\textsf{n}}  % U+1D5C7 Mathematical Sans-Serif Small N
+\newunicodechar{𝗈}{\textsf{o}}  % U+1D5C8 Mathematical Sans-Serif Small O
+\newunicodechar{𝗉}{\textsf{p}}  % U+1D5C9 Mathematical Sans-Serif Small P
+\newunicodechar{𝗊}{\textsf{q}}  % U+1D5CA Mathematical Sans-Serif Small Q
+\newunicodechar{𝗋}{\textsf{r}}  % U+1D5CB Mathematical Sans-Serif Small R
+\newunicodechar{𝗌}{\textsf{s}}  % U+1D5CC Mathematical Sans-Serif Small S
+\newunicodechar{𝗍}{\textsf{t}}  % U+1D5CD Mathematical Sans-Serif Small T
+\newunicodechar{𝗎}{\textsf{u}}  % U+1D5CE Mathematical Sans-Serif Small U
+\newunicodechar{𝗏}{\textsf{v}}  % U+1D5CF Mathematical Sans-Serif Small V
+\newunicodechar{𝗐}{\textsf{w}}  % U+1D5D0 Mathematical Sans-Serif Small W
+\newunicodechar{𝗑}{\textsf{x}}  % U+1D5D1 Mathematical Sans-Serif Small X
+\newunicodechar{𝗒}{\textsf{y}}  % U+1D5D2 Mathematical Sans-Serif Small Y
+\newunicodechar{𝗓}{\textsf{z}}  % U+1D5D3 Mathematical Sans-Serif Small Z
+%END_FOLD
+
+% SANS SERIF DIGITS (\sans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝟢}{\textsf{0}}  % U+1D7E2 Mathematical Sans-Serif Digit Zero
+\newunicodechar{𝟣}{\textsf{1}}  % U+1D7E3 Mathematical Sans-Serif Digit One
+\newunicodechar{𝟤}{\textsf{2}}  % U+1D7E4 Mathematical Sans-Serif Digit Two
+\newunicodechar{𝟥}{\textsf{3}}  % U+1D7E5 Mathematical Sans-Serif Digit Three
+\newunicodechar{𝟦}{\textsf{4}}  % U+1D7E6 Mathematical Sans-Serif Digit Four
+\newunicodechar{𝟧}{\textsf{5}}  % U+1D7E7 Mathematical Sans-Serif Digit Five
+\newunicodechar{𝟨}{\textsf{6}}  % U+1D7E8 Mathematical Sans-Serif Digit Six
+\newunicodechar{𝟩}{\textsf{7}}  % U+1D7E9 Mathematical Sans-Serif Digit Seven
+\newunicodechar{𝟪}{\textsf{8}}  % U+1D7EA Mathematical Sans-Serif Digit Eight
+\newunicodechar{𝟫}{\textsf{9}}  % U+1D7EB Mathematical Sans-Serif Digit Nine
+%END_FOLD
+
+% SANS SERIF BOLD UPPERCASE LATIN (\bsans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝗔}{\textsf{\textbf{A}}}  % U+1D5D4 Mathematical Sans-Serif Bold Capital A
+\newunicodechar{𝗕}{\textsf{\textbf{B}}}  % U+1D5D5 Mathematical Sans-Serif Bold Capital B
+\newunicodechar{𝗖}{\textsf{\textbf{C}}}  % U+1D5D6 Mathematical Sans-Serif Bold Capital C
+\newunicodechar{𝗗}{\textsf{\textbf{D}}}  % U+1D5D7 Mathematical Sans-Serif Bold Capital D
+\newunicodechar{𝗘}{\textsf{\textbf{E}}}  % U+1D5D8 Mathematical Sans-Serif Bold Capital E
+\newunicodechar{𝗙}{\textsf{\textbf{F}}}  % U+1D5D9 Mathematical Sans-Serif Bold Capital F
+\newunicodechar{𝗚}{\textsf{\textbf{G}}}  % U+1D5DA Mathematical Sans-Serif Bold Capital G
+\newunicodechar{𝗛}{\textsf{\textbf{H}}}  % U+1D5DB Mathematical Sans-Serif Bold Capital H
+\newunicodechar{𝗜}{\textsf{\textbf{I}}}  % U+1D5DC Mathematical Sans-Serif Bold Capital I
+\newunicodechar{𝗝}{\textsf{\textbf{J}}}  % U+1D5DD Mathematical Sans-Serif Bold Capital J
+\newunicodechar{𝗞}{\textsf{\textbf{K}}}  % U+1D5DE Mathematical Sans-Serif Bold Capital K
+\newunicodechar{𝗟}{\textsf{\textbf{L}}}  % U+1D5DF Mathematical Sans-Serif Bold Capital L
+\newunicodechar{𝗠}{\textsf{\textbf{M}}}  % U+1D5E0 Mathematical Sans-Serif Bold Capital M
+\newunicodechar{𝗡}{\textsf{\textbf{N}}}  % U+1D5E1 Mathematical Sans-Serif Bold Capital N
+\newunicodechar{𝗢}{\textsf{\textbf{O}}}  % U+1D5E2 Mathematical Sans-Serif Bold Capital O
+\newunicodechar{𝗣}{\textsf{\textbf{P}}}  % U+1D5E3 Mathematical Sans-Serif Bold Capital P
+\newunicodechar{𝗤}{\textsf{\textbf{Q}}}  % U+1D5E4 Mathematical Sans-Serif Bold Capital Q
+\newunicodechar{𝗥}{\textsf{\textbf{R}}}  % U+1D5E5 Mathematical Sans-Serif Bold Capital R
+\newunicodechar{𝗦}{\textsf{\textbf{S}}}  % U+1D5E6 Mathematical Sans-Serif Bold Capital S
+\newunicodechar{𝗧}{\textsf{\textbf{T}}}  % U+1D5E7 Mathematical Sans-Serif Bold Capital T
+\newunicodechar{𝗨}{\textsf{\textbf{U}}}  % U+1D5E8 Mathematical Sans-Serif Bold Capital U
+\newunicodechar{𝗩}{\textsf{\textbf{V}}}  % U+1D5E9 Mathematical Sans-Serif Bold Capital V
+\newunicodechar{𝗪}{\textsf{\textbf{W}}}  % U+1D5EA Mathematical Sans-Serif Bold Capital W
+\newunicodechar{𝗫}{\textsf{\textbf{X}}}  % U+1D5EB Mathematical Sans-Serif Bold Capital X
+\newunicodechar{𝗬}{\textsf{\textbf{Y}}}  % U+1D5EC Mathematical Sans-Serif Bold Capital Y
+\newunicodechar{𝗭}{\textsf{\textbf{Z}}}  % U+1D5ED Mathematical Sans-Serif Bold Capital Z
+%END_FOLD
+
+% SANS SERIF BOLD LOWERCASE LATIN (\bsans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝗮}{\textsf{\textbf{a}}}  % U+1D5EE Mathematical Sans-Serif Bold Small A
+\newunicodechar{𝗯}{\textsf{\textbf{b}}}  % U+1D5EF Mathematical Sans-Serif Bold Small B
+\newunicodechar{𝗰}{\textsf{\textbf{c}}}  % U+1D5F0 Mathematical Sans-Serif Bold Small C
+\newunicodechar{𝗱}{\textsf{\textbf{d}}}  % U+1D5F1 Mathematical Sans-Serif Bold Small D
+\newunicodechar{𝗲}{\textsf{\textbf{e}}}  % U+1D5F2 Mathematical Sans-Serif Bold Small E
+\newunicodechar{𝗳}{\textsf{\textbf{f}}}  % U+1D5F3 Mathematical Sans-Serif Bold Small F
+\newunicodechar{𝗴}{\textsf{\textbf{g}}}  % U+1D5F4 Mathematical Sans-Serif Bold Small G
+\newunicodechar{𝗵}{\textsf{\textbf{h}}}  % U+1D5F5 Mathematical Sans-Serif Bold Small H
+\newunicodechar{𝗶}{\textsf{\textbf{i}}}  % U+1D5F6 Mathematical Sans-Serif Bold Small I
+\newunicodechar{𝗷}{\textsf{\textbf{j}}}  % U+1D5F7 Mathematical Sans-Serif Bold Small J
+\newunicodechar{𝗸}{\textsf{\textbf{k}}}  % U+1D5F8 Mathematical Sans-Serif Bold Small K
+\newunicodechar{𝗹}{\textsf{\textbf{l}}}  % U+1D5F9 Mathematical Sans-Serif Bold Small L
+\newunicodechar{𝗺}{\textsf{\textbf{m}}}  % U+1D5FA Mathematical Sans-Serif Bold Small M
+\newunicodechar{𝗻}{\textsf{\textbf{n}}}  % U+1D5FB Mathematical Sans-Serif Bold Small N
+\newunicodechar{𝗼}{\textsf{\textbf{o}}}  % U+1D5FC Mathematical Sans-Serif Bold Small O
+\newunicodechar{𝗽}{\textsf{\textbf{p}}}  % U+1D5FD Mathematical Sans-Serif Bold Small P
+\newunicodechar{𝗾}{\textsf{\textbf{q}}}  % U+1D5FE Mathematical Sans-Serif Bold Small Q
+\newunicodechar{𝗿}{\textsf{\textbf{r}}}  % U+1D5FF Mathematical Sans-Serif Bold Small R
+\newunicodechar{𝘀}{\textsf{\textbf{s}}}  % U+1D600 Mathematical Sans-Serif Bold Small S
+\newunicodechar{𝘁}{\textsf{\textbf{t}}}  % U+1D601 Mathematical Sans-Serif Bold Small T
+\newunicodechar{𝘂}{\textsf{\textbf{u}}}  % U+1D602 Mathematical Sans-Serif Bold Small U
+\newunicodechar{𝘃}{\textsf{\textbf{v}}}  % U+1D603 Mathematical Sans-Serif Bold Small V
+\newunicodechar{𝘄}{\textsf{\textbf{w}}}  % U+1D604 Mathematical Sans-Serif Bold Small W
+\newunicodechar{𝘅}{\textsf{\textbf{x}}}  % U+1D605 Mathematical Sans-Serif Bold Small X
+\newunicodechar{𝘆}{\textsf{\textbf{y}}}  % U+1D606 Mathematical Sans-Serif Bold Small Y
+\newunicodechar{𝘇}{\textsf{\textbf{z}}}  % U+1D607 Mathematical Sans-Serif Bold Small Z
+%END_FOLD
+
+% SANS SERIF BOLD DIGITS (\bsans<char>)
+%BEGIN_FOLD
+\newunicodechar{𝟬}{\textsf{\textbf{0}}}  % U+1D7EC Mathematical Sans-Serif Bold Digit Zero
+\newunicodechar{𝟭}{\textsf{\textbf{1}}}  % U+1D7ED Mathematical Sans-Serif Bold Digit One
+\newunicodechar{𝟮}{\textsf{\textbf{2}}}  % U+1D7EE Mathematical Sans-Serif Bold Digit Two
+\newunicodechar{𝟯}{\textsf{\textbf{3}}}  % U+1D7EF Mathematical Sans-Serif Bold Digit Three
+\newunicodechar{𝟰}{\textsf{\textbf{4}}}  % U+1D7F0 Mathematical Sans-Serif Bold Digit Four
+\newunicodechar{𝟱}{\textsf{\textbf{5}}}  % U+1D7F1 Mathematical Sans-Serif Bold Digit Five
+\newunicodechar{𝟲}{\textsf{\textbf{6}}}  % U+1D7F2 Mathematical Sans-Serif Bold Digit Six
+\newunicodechar{𝟳}{\textsf{\textbf{7}}}  % U+1D7F3 Mathematical Sans-Serif Bold Digit Seven
+\newunicodechar{𝟴}{\textsf{\textbf{8}}}  % U+1D7F4 Mathematical Sans-Serif Bold Digit Eight
+\newunicodechar{𝟵}{\textsf{\textbf{9}}}  % U+1D7F5 Mathematical Sans-Serif Bold Digit Nine
+%END_FOLD
+
+% SANS SERIF ITALIC UPPERCASE LATIN
+%BEGIN_FOLD
+\newunicodechar{𝘈}{\textsf{\textit{A}}}  % U+1D608 Mathematical Sans-Serif Italic Capital A
+\newunicodechar{𝘉}{\textsf{\textit{B}}}  % U+1D609 Mathematical Sans-Serif Italic Capital B
+\newunicodechar{𝘊}{\textsf{\textit{C}}}  % U+1D60A Mathematical Sans-Serif Italic Capital C
+\newunicodechar{𝘋}{\textsf{\textit{D}}}  % U+1D60B Mathematical Sans-Serif Italic Capital D
+\newunicodechar{𝘌}{\textsf{\textit{E}}}  % U+1D60C Mathematical Sans-Serif Italic Capital E
+\newunicodechar{𝘍}{\textsf{\textit{F}}}  % U+1D60D Mathematical Sans-Serif Italic Capital F
+\newunicodechar{𝘎}{\textsf{\textit{G}}}  % U+1D60E Mathematical Sans-Serif Italic Capital G
+\newunicodechar{𝘏}{\textsf{\textit{H}}}  % U+1D60F Mathematical Sans-Serif Italic Capital H
+\newunicodechar{𝘐}{\textsf{\textit{I}}}  % U+1D610 Mathematical Sans-Serif Italic Capital I
+\newunicodechar{𝘑}{\textsf{\textit{J}}}  % U+1D611 Mathematical Sans-Serif Italic Capital J
+\newunicodechar{𝘒}{\textsf{\textit{K}}}  % U+1D612 Mathematical Sans-Serif Italic Capital K
+\newunicodechar{𝘓}{\textsf{\textit{L}}}  % U+1D613 Mathematical Sans-Serif Italic Capital L
+\newunicodechar{𝘔}{\textsf{\textit{M}}}  % U+1D614 Mathematical Sans-Serif Italic Capital M
+\newunicodechar{𝘕}{\textsf{\textit{N}}}  % U+1D615 Mathematical Sans-Serif Italic Capital N
+\newunicodechar{𝘖}{\textsf{\textit{O}}}  % U+1D616 Mathematical Sans-Serif Italic Capital O
+\newunicodechar{𝘗}{\textsf{\textit{P}}}  % U+1D617 Mathematical Sans-Serif Italic Capital P
+\newunicodechar{𝘘}{\textsf{\textit{Q}}}  % U+1D618 Mathematical Sans-Serif Italic Capital Q
+\newunicodechar{𝘙}{\textsf{\textit{R}}}  % U+1D619 Mathematical Sans-Serif Italic Capital R
+\newunicodechar{𝘚}{\textsf{\textit{S}}}  % U+1D61A Mathematical Sans-Serif Italic Capital S
+\newunicodechar{𝘛}{\textsf{\textit{T}}}  % U+1D61B Mathematical Sans-Serif Italic Capital T
+\newunicodechar{𝘜}{\textsf{\textit{U}}}  % U+1D61C Mathematical Sans-Serif Italic Capital U
+\newunicodechar{𝘝}{\textsf{\textit{V}}}  % U+1D61D Mathematical Sans-Serif Italic Capital V
+\newunicodechar{𝘞}{\textsf{\textit{W}}}  % U+1D61E Mathematical Sans-Serif Italic Capital W
+\newunicodechar{𝘟}{\textsf{\textit{X}}}  % U+1D61F Mathematical Sans-Serif Italic Capital X
+\newunicodechar{𝘠}{\textsf{\textit{Y}}}  % U+1D620 Mathematical Sans-Serif Italic Capital Y
+\newunicodechar{𝘡}{\textsf{\textit{Z}}}  % U+1D621 Mathematical Sans-Serif Italic Capital Z
+%END_FOLD
+
+% SANS SERIF ITALIC LOWERCASE LATIN
+%BEGIN_FOLD
+\newunicodechar{𝘢}{\textsf{\textit{a}}}  % U+1D622 Mathematical Sans-Serif Italic Small A
+\newunicodechar{𝘣}{\textsf{\textit{b}}}  % U+1D623 Mathematical Sans-Serif Italic Small B
+\newunicodechar{𝘤}{\textsf{\textit{c}}}  % U+1D624 Mathematical Sans-Serif Italic Small C
+\newunicodechar{𝘥}{\textsf{\textit{d}}}  % U+1D625 Mathematical Sans-Serif Italic Small D
+\newunicodechar{𝘦}{\textsf{\textit{e}}}  % U+1D626 Mathematical Sans-Serif Italic Small E
+\newunicodechar{𝘧}{\textsf{\textit{f}}}  % U+1D627 Mathematical Sans-Serif Italic Small F
+\newunicodechar{𝘨}{\textsf{\textit{g}}}  % U+1D628 Mathematical Sans-Serif Italic Small G
+\newunicodechar{𝘩}{\textsf{\textit{h}}}  % U+1D629 Mathematical Sans-Serif Italic Small H
+\newunicodechar{𝘪}{\textsf{\textit{i}}}  % U+1D62A Mathematical Sans-Serif Italic Small I
+\newunicodechar{𝘫}{\textsf{\textit{j}}}  % U+1D62B Mathematical Sans-Serif Italic Small J
+\newunicodechar{𝘬}{\textsf{\textit{k}}}  % U+1D62C Mathematical Sans-Serif Italic Small K
+\newunicodechar{𝘭}{\textsf{\textit{l}}}  % U+1D62D Mathematical Sans-Serif Italic Small L
+\newunicodechar{𝘮}{\textsf{\textit{m}}}  % U+1D62E Mathematical Sans-Serif Italic Small M
+\newunicodechar{𝘯}{\textsf{\textit{n}}}  % U+1D62F Mathematical Sans-Serif Italic Small N
+\newunicodechar{𝘰}{\textsf{\textit{o}}}  % U+1D630 Mathematical Sans-Serif Italic Small O
+\newunicodechar{𝘱}{\textsf{\textit{p}}}  % U+1D631 Mathematical Sans-Serif Italic Small P
+\newunicodechar{𝘲}{\textsf{\textit{q}}}  % U+1D632 Mathematical Sans-Serif Italic Small Q
+\newunicodechar{𝘳}{\textsf{\textit{r}}}  % U+1D633 Mathematical Sans-Serif Italic Small R
+\newunicodechar{𝘴}{\textsf{\textit{s}}}  % U+1D634 Mathematical Sans-Serif Italic Small S
+\newunicodechar{𝘵}{\textsf{\textit{t}}}  % U+1D635 Mathematical Sans-Serif Italic Small T
+\newunicodechar{𝘶}{\textsf{\textit{u}}}  % U+1D636 Mathematical Sans-Serif Italic Small U
+\newunicodechar{𝘷}{\textsf{\textit{v}}}  % U+1D637 Mathematical Sans-Serif Italic Small V
+\newunicodechar{𝘸}{\textsf{\textit{w}}}  % U+1D638 Mathematical Sans-Serif Italic Small W
+\newunicodechar{𝘹}{\textsf{\textit{x}}}  % U+1D639 Mathematical Sans-Serif Italic Small X
+\newunicodechar{𝘺}{\textsf{\textit{y}}}  % U+1D63A Mathematical Sans-Serif Italic Small Y
+\newunicodechar{𝘻}{\textsf{\textit{z}}}  % U+1D63B Mathematical Sans-Serif Italic Small Z
+%END_FOLD
+
+% SANS SERIF BOLD ITALIC UPPERCASE LATIN
+%BEGIN_FOLD
+\newunicodechar{𝘼}{\textsf{\textbf{\textit{A}}}}  % U+1D63C Mathematical Sans-Serif Bold Italic Capital A
+\newunicodechar{𝘽}{\textsf{\textbf{\textit{B}}}}  % U+1D63D Mathematical Sans-Serif Bold Italic Capital B
+\newunicodechar{𝘾}{\textsf{\textbf{\textit{C}}}}  % U+1D63E Mathematical Sans-Serif Bold Italic Capital C
+\newunicodechar{𝘿}{\textsf{\textbf{\textit{D}}}}  % U+1D63F Mathematical Sans-Serif Bold Italic Capital D
+\newunicodechar{𝙀}{\textsf{\textbf{\textit{E}}}}  % U+1D640 Mathematical Sans-Serif Bold Italic Capital E
+\newunicodechar{𝙁}{\textsf{\textbf{\textit{F}}}}  % U+1D641 Mathematical Sans-Serif Bold Italic Capital F
+\newunicodechar{𝙂}{\textsf{\textbf{\textit{G}}}}  % U+1D642 Mathematical Sans-Serif Bold Italic Capital G
+\newunicodechar{𝙃}{\textsf{\textbf{\textit{H}}}}  % U+1D643 Mathematical Sans-Serif Bold Italic Capital H
+\newunicodechar{𝙄}{\textsf{\textbf{\textit{I}}}}  % U+1D644 Mathematical Sans-Serif Bold Italic Capital I
+\newunicodechar{𝙅}{\textsf{\textbf{\textit{J}}}}  % U+1D645 Mathematical Sans-Serif Bold Italic Capital J
+\newunicodechar{𝙆}{\textsf{\textbf{\textit{K}}}}  % U+1D646 Mathematical Sans-Serif Bold Italic Capital K
+\newunicodechar{𝙇}{\textsf{\textbf{\textit{L}}}}  % U+1D647 Mathematical Sans-Serif Bold Italic Capital L
+\newunicodechar{𝙈}{\textsf{\textbf{\textit{M}}}}  % U+1D648 Mathematical Sans-Serif Bold Italic Capital M
+\newunicodechar{𝙉}{\textsf{\textbf{\textit{N}}}}  % U+1D649 Mathematical Sans-Serif Bold Italic Capital N
+\newunicodechar{𝙊}{\textsf{\textbf{\textit{O}}}}  % U+1D64A Mathematical Sans-Serif Bold Italic Capital O
+\newunicodechar{𝙋}{\textsf{\textbf{\textit{P}}}}  % U+1D64B Mathematical Sans-Serif Bold Italic Capital P
+\newunicodechar{𝙌}{\textsf{\textbf{\textit{Q}}}}  % U+1D64C Mathematical Sans-Serif Bold Italic Capital Q
+\newunicodechar{𝙍}{\textsf{\textbf{\textit{R}}}}  % U+1D64D Mathematical Sans-Serif Bold Italic Capital R
+\newunicodechar{𝙎}{\textsf{\textbf{\textit{S}}}}  % U+1D64E Mathematical Sans-Serif Bold Italic Capital S
+\newunicodechar{𝙏}{\textsf{\textbf{\textit{T}}}}  % U+1D64F Mathematical Sans-Serif Bold Italic Capital T
+\newunicodechar{𝙐}{\textsf{\textbf{\textit{U}}}}  % U+1D650 Mathematical Sans-Serif Bold Italic Capital U
+\newunicodechar{𝙑}{\textsf{\textbf{\textit{V}}}}  % U+1D651 Mathematical Sans-Serif Bold Italic Capital V
+\newunicodechar{𝙒}{\textsf{\textbf{\textit{W}}}}  % U+1D652 Mathematical Sans-Serif Bold Italic Capital W
+\newunicodechar{𝙓}{\textsf{\textbf{\textit{X}}}}  % U+1D653 Mathematical Sans-Serif Bold Italic Capital X
+\newunicodechar{𝙔}{\textsf{\textbf{\textit{Y}}}}  % U+1D654 Mathematical Sans-Serif Bold Italic Capital Y
+\newunicodechar{𝙕}{\textsf{\textbf{\textit{Z}}}}  % U+1D655 Mathematical Sans-Serif Bold Italic Capital Z
+%END_FOLD
+
+% SANS SERIF BOLD ITALIC LOWERCASE LATIN
+%BEGIN_FOLD
+\newunicodechar{𝙖}{\textsf{\textbf{\textit{a}}}}  % U+1D656 Mathematical Sans-Serif Bold Italic Small A
+\newunicodechar{𝙗}{\textsf{\textbf{\textit{b}}}}  % U+1D657 Mathematical Sans-Serif Bold Italic Small B
+\newunicodechar{𝙘}{\textsf{\textbf{\textit{c}}}}  % U+1D658 Mathematical Sans-Serif Bold Italic Small C
+\newunicodechar{𝙙}{\textsf{\textbf{\textit{d}}}}  % U+1D659 Mathematical Sans-Serif Bold Italic Small D
+\newunicodechar{𝙚}{\textsf{\textbf{\textit{e}}}}  % U+1D65A Mathematical Sans-Serif Bold Italic Small E
+\newunicodechar{𝙛}{\textsf{\textbf{\textit{f}}}}  % U+1D65B Mathematical Sans-Serif Bold Italic Small F
+\newunicodechar{𝙜}{\textsf{\textbf{\textit{g}}}}  % U+1D65C Mathematical Sans-Serif Bold Italic Small G
+\newunicodechar{𝙝}{\textsf{\textbf{\textit{h}}}}  % U+1D65D Mathematical Sans-Serif Bold Italic Small H
+\newunicodechar{𝙞}{\textsf{\textbf{\textit{i}}}}  % U+1D65E Mathematical Sans-Serif Bold Italic Small I
+\newunicodechar{𝙟}{\textsf{\textbf{\textit{j}}}}  % U+1D65F Mathematical Sans-Serif Bold Italic Small J
+\newunicodechar{𝙠}{\textsf{\textbf{\textit{k}}}}  % U+1D660 Mathematical Sans-Serif Bold Italic Small K
+\newunicodechar{𝙡}{\textsf{\textbf{\textit{l}}}}  % U+1D661 Mathematical Sans-Serif Bold Italic Small L
+\newunicodechar{𝙢}{\textsf{\textbf{\textit{m}}}}  % U+1D662 Mathematical Sans-Serif Bold Italic Small M
+\newunicodechar{𝙣}{\textsf{\textbf{\textit{n}}}}  % U+1D663 Mathematical Sans-Serif Bold Italic Small N
+\newunicodechar{𝙤}{\textsf{\textbf{\textit{o}}}}  % U+1D664 Mathematical Sans-Serif Bold Italic Small O
+\newunicodechar{𝙥}{\textsf{\textbf{\textit{p}}}}  % U+1D665 Mathematical Sans-Serif Bold Italic Small P
+\newunicodechar{𝙦}{\textsf{\textbf{\textit{q}}}}  % U+1D666 Mathematical Sans-Serif Bold Italic Small Q
+\newunicodechar{𝙧}{\textsf{\textbf{\textit{r}}}}  % U+1D667 Mathematical Sans-Serif Bold Italic Small R
+\newunicodechar{𝙨}{\textsf{\textbf{\textit{s}}}}  % U+1D668 Mathematical Sans-Serif Bold Italic Small S
+\newunicodechar{𝙩}{\textsf{\textbf{\textit{t}}}}  % U+1D669 Mathematical Sans-Serif Bold Italic Small T
+\newunicodechar{𝙪}{\textsf{\textbf{\textit{u}}}}  % U+1D66A Mathematical Sans-Serif Bold Italic Small U
+\newunicodechar{𝙫}{\textsf{\textbf{\textit{v}}}}  % U+1D66B Mathematical Sans-Serif Bold Italic Small V
+\newunicodechar{𝙬}{\textsf{\textbf{\textit{w}}}}  % U+1D66C Mathematical Sans-Serif Bold Italic Small W
+\newunicodechar{𝙭}{\textsf{\textbf{\textit{x}}}}  % U+1D66D Mathematical Sans-Serif Bold Italic Small X
+\newunicodechar{𝙮}{\textsf{\textbf{\textit{y}}}}  % U+1D66E Mathematical Sans-Serif Bold Italic Small Y
+\newunicodechar{𝙯}{\textsf{\textbf{\textit{z}}}}  % U+1D66F Mathematical Sans-Serif Bold Italic Small Z
+%END_FOLD
+
+%END_FOLD
+
+
+
+% SCRIPT
+%BEGIN_FOLD
+
+% SCRIPT UPPERCASE LATIN (\scr<char>)
+%BEGIN_FOLD
+\newunicodechar{𝒜}{\ensuremath{\mathscr{A}}}  % U+1D49C Mathematical Script Capital A
+\newunicodechar{ℬ}{\ensuremath{\mathscr{B}}}  % U+212C  Mathematical Script Capital B
+\newunicodechar{𝒞}{\ensuremath{\mathscr{C}}}  % U+1D49E Mathematical Script Capital C
+\newunicodechar{𝒟}{\ensuremath{\mathscr{D}}}  % U+1D49F Mathematical Script Capital D
+\newunicodechar{ℰ}{\ensuremath{\mathscr{E}}}  % U+2130  Mathematical Script Capital E
+\newunicodechar{ℱ}{\ensuremath{\mathscr{F}}}  % U+2131  Mathematical Script Capital F
+\newunicodechar{𝒢}{\ensuremath{\mathscr{G}}}  % U+1D4A2 Mathematical Script Capital G
+\newunicodechar{ℋ}{\ensuremath{\mathscr{H}}}  % U+210B  Mathematical Script Capital H
+\newunicodechar{ℐ}{\ensuremath{\mathscr{I}}}  % U+2110  Mathematical Script Capital I
+\newunicodechar{𝒥}{\ensuremath{\mathscr{J}}}  % U+1D4A5 Mathematical Script Capital J
+\newunicodechar{𝒦}{\ensuremath{\mathscr{K}}}  % U+1D4A6 Mathematical Script Capital K
+\newunicodechar{ℒ}{\ensuremath{\mathscr{L}}}  % U+2112  Mathematical Script Capital L
+\newunicodechar{ℳ}{\ensuremath{\mathscr{M}}}  % U+2133  Mathematical Script Capital M
+\newunicodechar{𝒩}{\ensuremath{\mathscr{N}}}  % U+1D4A9 Mathematical Script Capital N
+\newunicodechar{𝒪}{\ensuremath{\mathscr{O}}}  % U+1D4AA Mathematical Script Capital O
+\newunicodechar{𝒫}{\ensuremath{\mathscr{P}}}  % U+1D4AB Mathematical Script Capital P
+\newunicodechar{𝒬}{\ensuremath{\mathscr{Q}}}  % U+1D4AC Mathematical Script Capital Q
+\newunicodechar{ℛ}{\ensuremath{\mathscr{R}}}  % U+211B  Mathematical Script Capital R
+\newunicodechar{𝒮}{\ensuremath{\mathscr{S}}}  % U+1D4AE Mathematical Script Capital S
+\newunicodechar{𝒯}{\ensuremath{\mathscr{T}}}  % U+1D4AF Mathematical Script Capital T
+\newunicodechar{𝒰}{\ensuremath{\mathscr{U}}}  % U+1D4B0 Mathematical Script Capital U
+\newunicodechar{𝒱}{\ensuremath{\mathscr{V}}}  % U+1D4B1 Mathematical Script Capital V
+\newunicodechar{𝒲}{\ensuremath{\mathscr{W}}}  % U+1D4B2 Mathematical Script Capital W
+\newunicodechar{𝒳}{\ensuremath{\mathscr{X}}}  % U+1D4B3 Mathematical Script Capital X
+\newunicodechar{𝒴}{\ensuremath{\mathscr{Y}}}  % U+1D4B4 Mathematical Script Capital Y
+\newunicodechar{𝒵}{\ensuremath{\mathscr{Z}}}  % U+1D4B5 Mathematical Script Capital Z
+%END_FOLD
+
+% SCRIPT LOWERCASE LATIN (\scr<char>)
+%BEGIN_FOLD
+\newunicodechar{𝒶}{\ensuremath{\mathscr{a}}}  % U+1D4B6 Mathematical Script Small A
+\newunicodechar{𝒷}{\ensuremath{\mathscr{b}}}  % U+1D4B7 Mathematical Script Small B
+\newunicodechar{𝒸}{\ensuremath{\mathscr{c}}}  % U+1D4B8 Mathematical Script Small C
+\newunicodechar{𝒹}{\ensuremath{\mathscr{d}}}  % U+1D4B9 Mathematical Script Small D
+\newunicodechar{ℯ}{\ensuremath{\mathscr{e}}}  % U+212F  Mathematical Script Small E
+\newunicodechar{𝒻}{\ensuremath{\mathscr{f}}}  % U+1D4BB Mathematical Script Small F
+\newunicodechar{ℊ}{\ensuremath{\mathscr{g}}}  % U+210A  Mathematical Script Small G
+\newunicodechar{𝒽}{\ensuremath{\mathscr{h}}}  % U+1D4BD Mathematical Script Small H
+\newunicodechar{𝒾}{\ensuremath{\mathscr{i}}}  % U+1D4BE Mathematical Script Small I
+\newunicodechar{𝒿}{\ensuremath{\mathscr{j}}}  % U+1D4BF Mathematical Script Small J
+\newunicodechar{𝓀}{\ensuremath{\mathscr{k}}}  % U+1D4C0 Mathematical Script Small K
+\newunicodechar{𝓁}{\ensuremath{\mathscr{l}}}  % U+1D4C1 Mathematical Script Small L
+\newunicodechar{𝓂}{\ensuremath{\mathscr{m}}}  % U+1D4C2 Mathematical Script Small M
+\newunicodechar{𝓃}{\ensuremath{\mathscr{n}}}  % U+1D4C3 Mathematical Script Small N
+\newunicodechar{ℴ}{\ensuremath{\mathscr{o}}}  % U+2134  Mathematical Script Small N
+\newunicodechar{𝓅}{\ensuremath{\mathscr{p}}}  % U+1D4C5 Mathematical Script Small P
+\newunicodechar{𝓆}{\ensuremath{\mathscr{q}}}  % U+1D4C6 Mathematical Script Small Q
+\newunicodechar{𝓇}{\ensuremath{\mathscr{r}}}  % U+1D4C7 Mathematical Script Small R
+\newunicodechar{𝓈}{\ensuremath{\mathscr{s}}}  % U+1D4C8 Mathematical Script Small S
+\newunicodechar{𝓉}{\ensuremath{\mathscr{t}}}  % U+1D4C9 Mathematical Script Small T
+\newunicodechar{𝓊}{\ensuremath{\mathscr{u}}}  % U+1D4CA Mathematical Script Small U
+\newunicodechar{𝓋}{\ensuremath{\mathscr{v}}}  % U+1D4CB Mathematical Script Small V
+\newunicodechar{𝓌}{\ensuremath{\mathscr{w}}}  % U+1D4CC Mathematical Script Small W
+\newunicodechar{𝓍}{\ensuremath{\mathscr{x}}}  % U+1D4CD Mathematical Script Small X
+\newunicodechar{𝓎}{\ensuremath{\mathscr{y}}}  % U+1D4CE Mathematical Script Small Y
+\newunicodechar{𝓏}{\ensuremath{\mathscr{z}}}  % U+1D4CF Mathematical Script Small Z
+%END_FOLD
+
+%END_FOLD
+
+
+% CALLIGRAPHY
+%BEGIN_FOLD
+
+% CALLIGRAPHY UPPERCASE LATIN (\bscr<char>, \cal<char>)
+%BEGIN_FOLD
+\newunicodechar{𝓐}{\ensuremath{\mathcal{A}}}  % U+1D4D0 Mathematical Bold Script Capital A
+\newunicodechar{𝓑}{\ensuremath{\mathcal{B}}}  % U+1D4D1 Mathematical Bold Script Capital B
+\newunicodechar{𝓒}{\ensuremath{\mathcal{C}}}  % U+1D4D2 Mathematical Bold Script Capital C
+\newunicodechar{𝓓}{\ensuremath{\mathcal{D}}}  % U+1D4D3 Mathematical Bold Script Capital D
+\newunicodechar{𝓔}{\ensuremath{\mathcal{E}}}  % U+1D4D4 Mathematical Bold Script Capital E
+\newunicodechar{𝓕}{\ensuremath{\mathcal{F}}}  % U+1D4D5 Mathematical Bold Script Capital F
+\newunicodechar{𝓖}{\ensuremath{\mathcal{G}}}  % U+1D4D6 Mathematical Bold Script Capital G
+\newunicodechar{𝓗}{\ensuremath{\mathcal{H}}}  % U+1D4D7 Mathematical Bold Script Capital H
+\newunicodechar{𝓘}{\ensuremath{\mathcal{I}}}  % U+1D4D8 Mathematical Bold Script Capital I
+\newunicodechar{𝓙}{\ensuremath{\mathcal{J}}}  % U+1D4D9 Mathematical Bold Script Capital J
+\newunicodechar{𝓚}{\ensuremath{\mathcal{K}}}  % U+1D4DA Mathematical Bold Script Capital K
+\newunicodechar{𝓛}{\ensuremath{\mathcal{L}}}  % U+1D4DB Mathematical Bold Script Capital L
+\newunicodechar{𝓜}{\ensuremath{\mathcal{M}}}  % U+1D4DC Mathematical Bold Script Capital M
+\newunicodechar{𝓝}{\ensuremath{\mathcal{N}}}  % U+1D4DD Mathematical Bold Script Capital N
+\newunicodechar{𝓞}{\ensuremath{\mathcal{O}}}  % U+1D4DE Mathematical Bold Script Capital O
+\newunicodechar{𝓟}{\ensuremath{\mathcal{P}}}  % U+1D4DF Mathematical Bold Script Capital P
+\newunicodechar{𝓠}{\ensuremath{\mathcal{Q}}}  % U+1D4E0 Mathematical Bold Script Capital Q
+\newunicodechar{𝓡}{\ensuremath{\mathcal{R}}}  % U+1D4E1 Mathematical Bold Script Capital R
+\newunicodechar{𝓢}{\ensuremath{\mathcal{S}}}  % U+1D4E2 Mathematical Bold Script Capital S
+\newunicodechar{𝓣}{\ensuremath{\mathcal{T}}}  % U+1D4E3 Mathematical Bold Script Capital T
+\newunicodechar{𝓤}{\ensuremath{\mathcal{U}}}  % U+1D4E4 Mathematical Bold Script Capital U
+\newunicodechar{𝓥}{\ensuremath{\mathcal{V}}}  % U+1D4E5 Mathematical Bold Script Capital V
+\newunicodechar{𝓦}{\ensuremath{\mathcal{W}}}  % U+1D4E6 Mathematical Bold Script Capital W
+\newunicodechar{𝓧}{\ensuremath{\mathcal{X}}}  % U+1D4E7 Mathematical Bold Script Capital X
+\newunicodechar{𝓨}{\ensuremath{\mathcal{Y}}}  % U+1D4E8 Mathematical Bold Script Capital Y
+\newunicodechar{𝓩}{\ensuremath{\mathcal{Z}}}  % U+1D4E9 Mathematical Bold Script Capital Z
+%END_FOLD
+
+% CALLIGRAPHY LOWERCASE LATIN (\bscr<char>, \cal<char>)
+%BEGIN_FOLD
+\newunicodechar{𝓪}{\ensuremath{\mathcal{a}}}  % U+1D4EA Mathematical Bold Script Small A
+\newunicodechar{𝓫}{\ensuremath{\mathcal{b}}}  % U+1D4EB Mathematical Bold Script Small B
+\newunicodechar{𝓬}{\ensuremath{\mathcal{c}}}  % U+1D4EC Mathematical Bold Script Small C
+\newunicodechar{𝓭}{\ensuremath{\mathcal{d}}}  % U+1D4ED Mathematical Bold Script Small D
+\newunicodechar{𝓮}{\ensuremath{\mathcal{e}}}  % U+1D4EE Mathematical Bold Script Small E
+\newunicodechar{𝓯}{\ensuremath{\mathcal{f}}}  % U+1D4EF Mathematical Bold Script Small F
+\newunicodechar{𝓰}{\ensuremath{\mathcal{g}}}  % U+1D4F0 Mathematical Bold Script Small G
+\newunicodechar{𝓱}{\ensuremath{\mathcal{h}}}  % U+1D4F1 Mathematical Bold Script Small H
+\newunicodechar{𝓲}{\ensuremath{\mathcal{i}}}  % U+1D4F2 Mathematical Bold Script Small I
+\newunicodechar{𝓳}{\ensuremath{\mathcal{j}}}  % U+1D4F3 Mathematical Bold Script Small J
+\newunicodechar{𝓴}{\ensuremath{\mathcal{k}}}  % U+1D4F4 Mathematical Bold Script Small K
+\newunicodechar{𝓵}{\ensuremath{\mathcal{l}}}  % U+1D4F5 Mathematical Bold Script Small L
+\newunicodechar{𝓶}{\ensuremath{\mathcal{m}}}  % U+1D4F6 Mathematical Bold Script Small M
+\newunicodechar{𝓷}{\ensuremath{\mathcal{n}}}  % U+1D4F7 Mathematical Bold Script Small N
+\newunicodechar{𝓸}{\ensuremath{\mathcal{o}}}  % U+1D4F8 Mathematical Bold Script Small O
+\newunicodechar{𝓹}{\ensuremath{\mathcal{p}}}  % U+1D4F9 Mathematical Bold Script Small P
+\newunicodechar{𝓺}{\ensuremath{\mathcal{q}}}  % U+1D4FA Mathematical Bold Script Small Q
+\newunicodechar{𝓻}{\ensuremath{\mathcal{r}}}  % U+1D4FB Mathematical Bold Script Small R
+\newunicodechar{𝓼}{\ensuremath{\mathcal{s}}}  % U+1D4FC Mathematical Bold Script Small S
+\newunicodechar{𝓽}{\ensuremath{\mathcal{t}}}  % U+1D4FD Mathematical Bold Script Small T
+\newunicodechar{𝓾}{\ensuremath{\mathcal{u}}}  % U+1D4FE Mathematical Bold Script Small U
+\newunicodechar{𝓿}{\ensuremath{\mathcal{v}}}  % U+1D4FF Mathematical Bold Script Small V
+\newunicodechar{𝔀}{\ensuremath{\mathcal{w}}}  % U+1D500 Mathematical Bold Script Small W
+\newunicodechar{𝔁}{\ensuremath{\mathcal{x}}}  % U+1D501 Mathematical Bold Script Small X
+\newunicodechar{𝔂}{\ensuremath{\mathcal{y}}}  % U+1D502 Mathematical Bold Script Small Y
+\newunicodechar{𝔃}{\ensuremath{\mathcal{z}}}  % U+1D503 Mathematical Bold Script Small Z
+%END_FOLD
+
+%END_FOLD
+
+
+
+% FRAKTUR
+%BEGIN_FOLD
+
+% FRAKTUR UPPERCASE LATIN (\frak<char>)
+%BEGIN_FOLD
+\newunicodechar{𝔄}{\ensuremath{\mathfrak{A}}}  % U+1D504 Mathematical Fraktur Capital A
+\newunicodechar{𝔅}{\ensuremath{\mathfrak{B}}}  % U+1D505 Mathematical Fraktur Capital B
+\newunicodechar{ℭ}{\ensuremath{\mathfrak{C}}}  % U+212D  Mathematical Fraktur Capital C
+\newunicodechar{𝔇}{\ensuremath{\mathfrak{D}}}  % U+1D507 Mathematical Fraktur Capital D
+\newunicodechar{𝔈}{\ensuremath{\mathfrak{E}}}  % U+1D508 Mathematical Fraktur Capital E
+\newunicodechar{𝔉}{\ensuremath{\mathfrak{F}}}  % U+1D509 Mathematical Fraktur Capital F
+\newunicodechar{𝔊}{\ensuremath{\mathfrak{G}}}  % U+1D50A Mathematical Fraktur Capital G
+\newunicodechar{ℌ}{\ensuremath{\mathfrak{H}}}  % U+210C  Mathematical Fraktur Capital H
+\newunicodechar{ℑ}{\ensuremath{\mathfrak{I}}}  % U+2111  Mathematical Fraktur Capital I
+\newunicodechar{𝔍}{\ensuremath{\mathfrak{J}}}  % U+1D50D Mathematical Fraktur Capital J
+\newunicodechar{𝔎}{\ensuremath{\mathfrak{K}}}  % U+1D50E Mathematical Fraktur Capital K
+\newunicodechar{𝔏}{\ensuremath{\mathfrak{L}}}  % U+1D50F Mathematical Fraktur Capital L
+\newunicodechar{𝔐}{\ensuremath{\mathfrak{M}}}  % U+1D510 Mathematical Fraktur Capital M
+\newunicodechar{𝔑}{\ensuremath{\mathfrak{N}}}  % U+1D511 Mathematical Fraktur Capital N
+\newunicodechar{𝔒}{\ensuremath{\mathfrak{O}}}  % U+1D512 Mathematical Fraktur Capital O
+\newunicodechar{𝔓}{\ensuremath{\mathfrak{P}}}  % U+1D513 Mathematical Fraktur Capital P
+\newunicodechar{𝔔}{\ensuremath{\mathfrak{Q}}}  % U+1D514 Mathematical Fraktur Capital Q
+\newunicodechar{ℜ}{\ensuremath{\mathfrak{R}}}  % U+211C  Mathematical Fraktur Capital R
+\newunicodechar{𝔖}{\ensuremath{\mathfrak{S}}}  % U+1D516 Mathematical Fraktur Capital S
+\newunicodechar{𝔗}{\ensuremath{\mathfrak{T}}}  % U+1D517 Mathematical Fraktur Capital T
+\newunicodechar{𝔘}{\ensuremath{\mathfrak{U}}}  % U+1D518 Mathematical Fraktur Capital U
+\newunicodechar{𝔙}{\ensuremath{\mathfrak{V}}}  % U+1D519 Mathematical Fraktur Capital V
+\newunicodechar{𝔚}{\ensuremath{\mathfrak{W}}}  % U+1D51A Mathematical Fraktur Capital W
+\newunicodechar{𝔛}{\ensuremath{\mathfrak{X}}}  % U+1D51B Mathematical Fraktur Capital X
+\newunicodechar{𝔜}{\ensuremath{\mathfrak{Y}}}  % U+1D51C Mathematical Fraktur Capital Y
+\newunicodechar{ℨ}{\ensuremath{\mathfrak{Z}}}  % U+2128  Mathematical Fraktur Capital Z
+%END_FOLD
+
+% FRAKTUR LOWERCASE LATIN (\frak<char>)
+%BEGIN_FOLD
+\newunicodechar{𝔞}{\ensuremath{\mathfrak{a}}}  % U+1D51E Mathematical Fraktur Small A
+\newunicodechar{𝔟}{\ensuremath{\mathfrak{b}}}  % U+1D51F Mathematical Fraktur Small B
+\newunicodechar{𝔠}{\ensuremath{\mathfrak{c}}}  % U+1D520 Mathematical Fraktur Small C
+\newunicodechar{𝔡}{\ensuremath{\mathfrak{d}}}  % U+1D521 Mathematical Fraktur Small D
+\newunicodechar{𝔢}{\ensuremath{\mathfrak{e}}}  % U+1D522 Mathematical Fraktur Small E
+\newunicodechar{𝔣}{\ensuremath{\mathfrak{f}}}  % U+1D523 Mathematical Fraktur Small F
+\newunicodechar{𝔤}{\ensuremath{\mathfrak{g}}}  % U+1D524 Mathematical Fraktur Small G
+\newunicodechar{𝔥}{\ensuremath{\mathfrak{h}}}  % U+1D525 Mathematical Fraktur Small H
+\newunicodechar{𝔦}{\ensuremath{\mathfrak{i}}}  % U+1D526 Mathematical Fraktur Small I
+\newunicodechar{𝔧}{\ensuremath{\mathfrak{j}}}  % U+1D527 Mathematical Fraktur Small J
+\newunicodechar{𝔨}{\ensuremath{\mathfrak{k}}}  % U+1D528 Mathematical Fraktur Small K
+\newunicodechar{𝔩}{\ensuremath{\mathfrak{l}}}  % U+1D529 Mathematical Fraktur Small L
+\newunicodechar{𝔪}{\ensuremath{\mathfrak{m}}}  % U+1D52A Mathematical Fraktur Small M
+\newunicodechar{𝔫}{\ensuremath{\mathfrak{n}}}  % U+1D52B Mathematical Fraktur Small N
+\newunicodechar{𝔬}{\ensuremath{\mathfrak{o}}}  % U+1D52C Mathematical Fraktur Small O
+\newunicodechar{𝔭}{\ensuremath{\mathfrak{p}}}  % U+1D52D Mathematical Fraktur Small P
+\newunicodechar{𝔮}{\ensuremath{\mathfrak{q}}}  % U+1D52E Mathematical Fraktur Small Q
+\newunicodechar{𝔯}{\ensuremath{\mathfrak{r}}}  % U+1D52F Mathematical Fraktur Small R
+\newunicodechar{𝔰}{\ensuremath{\mathfrak{s}}}  % U+1D530 Mathematical Fraktur Small S
+\newunicodechar{𝔱}{\ensuremath{\mathfrak{t}}}  % U+1D531 Mathematical Fraktur Small T
+\newunicodechar{𝔲}{\ensuremath{\mathfrak{u}}}  % U+1D532 Mathematical Fraktur Small U
+\newunicodechar{𝔳}{\ensuremath{\mathfrak{v}}}  % U+1D533 Mathematical Fraktur Small V
+\newunicodechar{𝔴}{\ensuremath{\mathfrak{w}}}  % U+1D534 Mathematical Fraktur Small W
+\newunicodechar{𝔵}{\ensuremath{\mathfrak{x}}}  % U+1D535 Mathematical Fraktur Small X
+\newunicodechar{𝔶}{\ensuremath{\mathfrak{y}}}  % U+1D536 Mathematical Fraktur Small Y
+\newunicodechar{𝔷}{\ensuremath{\mathfrak{z}}}  % U+1D537 Mathematical Fraktur Small Z
+%END_FOLD
+
+% BOLD FRAKTUR UPPERCASE LATIN (\bfrak<char>)
+%BEGIN_FOLD
+\newunicodechar{𝕬}{\enusremath{\boldsymbol{\mathfrak{A}}}}  % U+1D56C Mathematical Bold Fraktur Capital A
+\newunicodechar{𝕭}{\enusremath{\boldsymbol{\mathfrak{B}}}}  % U+1D56D Mathematical Bold Fraktur Capital B
+\newunicodechar{𝕮}{\enusremath{\boldsymbol{\mathfrak{C}}}}  % U+1D56E Mathematical Bold Fraktur Capital C
+\newunicodechar{𝕯}{\enusremath{\boldsymbol{\mathfrak{D}}}}  % U+1D56F Mathematical Bold Fraktur Capital D
+\newunicodechar{𝕰}{\enusremath{\boldsymbol{\mathfrak{E}}}}  % U+1D570 Mathematical Bold Fraktur Capital E
+\newunicodechar{𝕱}{\enusremath{\boldsymbol{\mathfrak{F}}}}  % U+1D571 Mathematical Bold Fraktur Capital F
+\newunicodechar{𝕲}{\enusremath{\boldsymbol{\mathfrak{G}}}}  % U+1D572 Mathematical Bold Fraktur Capital G
+\newunicodechar{𝕳}{\enusremath{\boldsymbol{\mathfrak{H}}}}  % U+1D573 Mathematical Bold Fraktur Capital H
+\newunicodechar{𝕴}{\enusremath{\boldsymbol{\mathfrak{I}}}}  % U+1D574 Mathematical Bold Fraktur Capital I
+\newunicodechar{𝕵}{\enusremath{\boldsymbol{\mathfrak{J}}}}  % U+1D575 Mathematical Bold Fraktur Capital J
+\newunicodechar{𝕶}{\enusremath{\boldsymbol{\mathfrak{K}}}}  % U+1D576 Mathematical Bold Fraktur Capital K
+\newunicodechar{𝕷}{\enusremath{\boldsymbol{\mathfrak{L}}}}  % U+1D577 Mathematical Bold Fraktur Capital L
+\newunicodechar{𝕸}{\enusremath{\boldsymbol{\mathfrak{M}}}}  % U+1D578 Mathematical Bold Fraktur Capital M
+\newunicodechar{𝕹}{\enusremath{\boldsymbol{\mathfrak{N}}}}  % U+1D579 Mathematical Bold Fraktur Capital N
+\newunicodechar{𝕺}{\enusremath{\boldsymbol{\mathfrak{O}}}}  % U+1D57A Mathematical Bold Fraktur Capital O
+\newunicodechar{𝕻}{\enusremath{\boldsymbol{\mathfrak{P}}}}  % U+1D57B Mathematical Bold Fraktur Capital P
+\newunicodechar{𝕼}{\enusremath{\boldsymbol{\mathfrak{Q}}}}  % U+1D57C Mathematical Bold Fraktur Capital Q
+\newunicodechar{𝕽}{\enusremath{\boldsymbol{\mathfrak{R}}}}  % U+1D57D Mathematical Bold Fraktur Capital R
+\newunicodechar{𝕾}{\enusremath{\boldsymbol{\mathfrak{S}}}}  % U+1D57E Mathematical Bold Fraktur Capital S
+\newunicodechar{𝕿}{\enusremath{\boldsymbol{\mathfrak{T}}}}  % U+1D57F Mathematical Bold Fraktur Capital T
+\newunicodechar{𝖀}{\enusremath{\boldsymbol{\mathfrak{U}}}}  % U+1D580 Mathematical Bold Fraktur Capital U
+\newunicodechar{𝖁}{\enusremath{\boldsymbol{\mathfrak{V}}}}  % U+1D581 Mathematical Bold Fraktur Capital V
+\newunicodechar{𝖂}{\enusremath{\boldsymbol{\mathfrak{W}}}}  % U+1D582 Mathematical Bold Fraktur Capital W
+\newunicodechar{𝖃}{\enusremath{\boldsymbol{\mathfrak{X}}}}  % U+1D583 Mathematical Bold Fraktur Capital X
+\newunicodechar{𝖄}{\enusremath{\boldsymbol{\mathfrak{Y}}}}  % U+1D584 Mathematical Bold Fraktur Capital Y
+\newunicodechar{𝖅}{\enusremath{\boldsymbol{\mathfrak{Z}}}}  % U+1D585 Mathematical Bold Fraktur Capital Z
+%END_FOLD
+
+% BOLD FRAKTUR LOWERCASE LATIN (\bfrak<char>)
+%BEGIN_FOLD
+\newunicodechar{𝖆}{\enusremath{\boldsymbol{\mathfrak{a}}}}  % U+1D586 Mathematical Bold Fraktur Small A
+\newunicodechar{𝖇}{\enusremath{\boldsymbol{\mathfrak{b}}}}  % U+1D587 Mathematical Bold Fraktur Small B
+\newunicodechar{𝖈}{\enusremath{\boldsymbol{\mathfrak{c}}}}  % U+1D588 Mathematical Bold Fraktur Small C
+\newunicodechar{𝖉}{\enusremath{\boldsymbol{\mathfrak{d}}}}  % U+1D589 Mathematical Bold Fraktur Small D
+\newunicodechar{𝖊}{\enusremath{\boldsymbol{\mathfrak{e}}}}  % U+1D58A Mathematical Bold Fraktur Small E
+\newunicodechar{𝖋}{\enusremath{\boldsymbol{\mathfrak{f}}}}  % U+1D58B Mathematical Bold Fraktur Small F
+\newunicodechar{𝖌}{\enusremath{\boldsymbol{\mathfrak{g}}}}  % U+1D58C Mathematical Bold Fraktur Small G
+\newunicodechar{𝖍}{\enusremath{\boldsymbol{\mathfrak{h}}}}  % U+1D58D Mathematical Bold Fraktur Small H
+\newunicodechar{𝖎}{\enusremath{\boldsymbol{\mathfrak{i}}}}  % U+1D58E Mathematical Bold Fraktur Small I
+\newunicodechar{𝖏}{\enusremath{\boldsymbol{\mathfrak{j}}}}  % U+1D58F Mathematical Bold Fraktur Small J
+\newunicodechar{𝖐}{\enusremath{\boldsymbol{\mathfrak{k}}}}  % U+1D590 Mathematical Bold Fraktur Small K
+\newunicodechar{𝖑}{\enusremath{\boldsymbol{\mathfrak{l}}}}  % U+1D591 Mathematical Bold Fraktur Small L
+\newunicodechar{𝖒}{\enusremath{\boldsymbol{\mathfrak{m}}}}  % U+1D592 Mathematical Bold Fraktur Small M
+\newunicodechar{𝖓}{\enusremath{\boldsymbol{\mathfrak{n}}}}  % U+1D593 Mathematical Bold Fraktur Small N
+\newunicodechar{𝖔}{\enusremath{\boldsymbol{\mathfrak{o}}}}  % U+1D594 Mathematical Bold Fraktur Small O
+\newunicodechar{𝖕}{\enusremath{\boldsymbol{\mathfrak{p}}}}  % U+1D595 Mathematical Bold Fraktur Small P
+\newunicodechar{𝖖}{\enusremath{\boldsymbol{\mathfrak{q}}}}  % U+1D596 Mathematical Bold Fraktur Small Q
+\newunicodechar{𝖗}{\enusremath{\boldsymbol{\mathfrak{r}}}}  % U+1D597 Mathematical Bold Fraktur Small R
+\newunicodechar{𝖘}{\enusremath{\boldsymbol{\mathfrak{s}}}}  % U+1D598 Mathematical Bold Fraktur Small S
+\newunicodechar{𝖙}{\enusremath{\boldsymbol{\mathfrak{t}}}}  % U+1D599 Mathematical Bold Fraktur Small T
+\newunicodechar{𝖚}{\enusremath{\boldsymbol{\mathfrak{u}}}}  % U+1D59A Mathematical Bold Fraktur Small U
+\newunicodechar{𝖛}{\enusremath{\boldsymbol{\mathfrak{v}}}}  % U+1D59B Mathematical Bold Fraktur Small V
+\newunicodechar{𝖜}{\enusremath{\boldsymbol{\mathfrak{w}}}}  % U+1D59C Mathematical Bold Fraktur Small W
+\newunicodechar{𝖝}{\enusremath{\boldsymbol{\mathfrak{x}}}}  % U+1D59D Mathematical Bold Fraktur Small X
+\newunicodechar{𝖞}{\enusremath{\boldsymbol{\mathfrak{y}}}}  % U+1D59E Mathematical Bold Fraktur Small Y
+\newunicodechar{𝖟}{\enusremath{\boldsymbol{\mathfrak{z}}}}  % U+1D59F Mathematical Bold Fraktur Small Z
+%END_FOLD
+
+%END_FOLD
+
+
+
+% BACKBOARD BOLD
+%BEGIN_FOLD
+
+% BLACKBOARD BOLD UPPERCASE LATIN (\bb<char>)
+%BEGIN_FOLD
+\newunicodechar{𝔸}{\ensuremath{\mathds{a}}}  % U+1D538 Mathematical Double-Struck Capital A
+\newunicodechar{𝔹}{\ensuremath{\mathds{B}}}  % U+1D539 Mathematical Double-Struck Capital B
+\newunicodechar{ℂ}{\ensuremath{\mathds{C}}}  % U+2102  Mathematical Double-Struck Capital C
+\newunicodechar{𝔻}{\ensuremath{\mathds{D}}}  % U+1D53B Mathematical Double-Struck Capital D
+\newunicodechar{𝔼}{\ensuremath{\mathds{E}}}  % U+1D53C Mathematical Double-Struck Capital E
+\newunicodechar{𝔽}{\ensuremath{\mathds{F}}}  % U+1D53D Mathematical Double-Struck Capital F
+\newunicodechar{𝔾}{\ensuremath{\mathds{G}}}  % U+1D53E Mathematical Double-Struck Capital G
+\newunicodechar{ℍ}{\ensuremath{\mathds{H}}}  % U+210D  Mathematical Double-Struck Capital H
+\newunicodechar{𝕀}{\ensuremath{\mathds{I}}}  % U+1D540 Mathematical Double-Struck Capital I
+\newunicodechar{𝕁}{\ensuremath{\mathds{J}}}  % U+1D541 Mathematical Double-Struck Capital J
+\newunicodechar{𝕂}{\ensuremath{\mathds{K}}}  % U+1D542 Mathematical Double-Struck Capital K
+\newunicodechar{𝕃}{\ensuremath{\mathds{L}}}  % U+1D543 Mathematical Double-Struck Capital L
+\newunicodechar{𝕄}{\ensuremath{\mathds{M}}}  % U+1D544 Mathematical Double-Struck Capital M
+\newunicodechar{ℕ}{\ensuremath{\mathds{N}}}  % U+2115  Mathematical Double-Struck Capital N
+\newunicodechar{𝕆}{\ensuremath{\mathds{O}}}  % U+1D546 Mathematical Double-Struck Capital O
+\newunicodechar{ℙ}{\ensuremath{\mathds{P}}}  % U+2119  Mathematical Double-Struck Capital P
+\newunicodechar{ℚ}{\ensuremath{\mathds{Q}}}  % U+211A  Mathematical Double-Struck Capital Q
+\newunicodechar{ℝ}{\ensuremath{\mathds{R}}}  % U+211D  Mathematical Double-Struck Capital R
+\newunicodechar{𝕊}{\ensuremath{\mathds{S}}}  % U+1D54A Mathematical Double-Struck Capital S
+\newunicodechar{𝕋}{\ensuremath{\mathds{T}}}  % U+1D54B Mathematical Double-Struck Capital T
+\newunicodechar{𝕌}{\ensuremath{\mathds{U}}}  % U+1D54C Mathematical Double-Struck Capital U
+\newunicodechar{𝕍}{\ensuremath{\mathds{V}}}  % U+1D54D Mathematical Double-Struck Capital V
+\newunicodechar{𝕎}{\ensuremath{\mathds{W}}}  % U+1D54E Mathematical Double-Struck Capital W
+\newunicodechar{𝕏}{\ensuremath{\mathds{X}}}  % U+1D54F Mathematical Double-Struck Capital X
+\newunicodechar{𝕐}{\ensuremath{\mathds{Y}}}  % U+1D550 Mathematical Double-Struck Capital Y
+\newunicodechar{ℤ}{\ensuremath{\mathds{Z}}}  % U+2124  Mathematical Double-Struck Capital Z
+%END_FOLD
+
+% BLACKBOARD BOLD LOWERCASE LATIN (\bb<char>)
+%BEGIN_FOLD
+\newunicodechar{𝕒}{\ensuremath{\mathbbm{a}}}  % U+1D552 Mathematical Double-Struck Small A
+\newunicodechar{𝕓}{\ensuremath{\mathbbm{b}}}  % U+1D553 Mathematical Double-Struck Small B
+\newunicodechar{𝕔}{\ensuremath{\mathbbm{c}}}  % U+1D554 Mathematical Double-Struck Small C
+\newunicodechar{𝕕}{\ensuremath{\mathbbm{d}}}  % U+1D555 Mathematical Double-Struck Small D
+\newunicodechar{𝕖}{\ensuremath{\mathbbm{e}}}  % U+1D556 Mathematical Double-Struck Small E
+\newunicodechar{𝕗}{\ensuremath{\mathbbm{f}}}  % U+1D557 Mathematical Double-Struck Small F
+\newunicodechar{𝕘}{\ensuremath{\mathbbm{g}}}  % U+1D558 Mathematical Double-Struck Small G
+\newunicodechar{𝕙}{\ensuremath{\mathbbm{h}}}  % U+1D559 Mathematical Double-Struck Small H
+\newunicodechar{𝕚}{\ensuremath{\mathbbm{i}}}  % U+1D55A Mathematical Double-Struck Small I
+\newunicodechar{𝕛}{\ensuremath{\mathbbm{j}}}  % U+1D55B Mathematical Double-Struck Small J
+\newunicodechar{𝕜}{\ensuremath{\mathbbm{k}}}  % U+1D55C Mathematical Double-Struck Small K
+\newunicodechar{𝕝}{\ensuremath{\mathbbm{l}}}  % U+1D55D Mathematical Double-Struck Small L
+\newunicodechar{𝕞}{\ensuremath{\mathbbm{m}}}  % U+1D55E Mathematical Double-Struck Small M
+\newunicodechar{𝕟}{\ensuremath{\mathbbm{n}}}  % U+1D55F Mathematical Double-Struck Small N
+\newunicodechar{𝕠}{\ensuremath{\mathbbm{o}}}  % U+1D560 Mathematical Double-Struck Small O
+\newunicodechar{𝕡}{\ensuremath{\mathbbm{p}}}  % U+1D561 Mathematical Double-Struck Small P
+\newunicodechar{𝕢}{\ensuremath{\mathbbm{q}}}  % U+1D562 Mathematical Double-Struck Small Q
+\newunicodechar{𝕣}{\ensuremath{\mathbbm{r}}}  % U+1D563 Mathematical Double-Struck Small R
+\newunicodechar{𝕤}{\ensuremath{\mathbbm{s}}}  % U+1D564 Mathematical Double-Struck Small S
+\newunicodechar{𝕥}{\ensuremath{\mathbbm{t}}}  % U+1D565 Mathematical Double-Struck Small T
+\newunicodechar{𝕦}{\ensuremath{\mathbbm{u}}}  % U+1D566 Mathematical Double-Struck Small U
+\newunicodechar{𝕧}{\ensuremath{\mathbbm{v}}}  % U+1D567 Mathematical Double-Struck Small V
+\newunicodechar{𝕨}{\ensuremath{\mathbbm{w}}}  % U+1D568 Mathematical Double-Struck Small W
+\newunicodechar{𝕩}{\ensuremath{\mathbbm{x}}}  % U+1D569 Mathematical Double-Struck Small X
+\newunicodechar{𝕪}{\ensuremath{\mathbbm{y}}}  % U+1D56A Mathematical Double-Struck Small Y
+\newunicodechar{𝕫}{\ensuremath{\mathbbm{z}}}  % U+1D56B Mathematical Double-Struck Small Z
+%END_FOLD
+
+% BLACKBOARD BOLD DIGITS (\bb<char>)
+%BEGIN_FOLD
+\newunicodechar{𝟘}{\ensuremath{\mathbbm{0}}}  % U+1D7D8 Mathematical Double-Struck Digit Zero
+\newunicodechar{𝟙}{\ensuremath{\mathbbm{1}}}  % U+1D7D9 Mathematical Double-Struck Digit One
+\newunicodechar{𝟚}{\ensuremath{\mathbbm{2}}}  % U+1D7DA Mathematical Double-Struck Digit Two
+\newunicodechar{𝟛}{\ensuremath{\mathbbm{3}}}  % U+1D7DB Mathematical Double-Struck Digit Three
+\newunicodechar{𝟜}{\ensuremath{\mathbbm{4}}}  % U+1D7DC Mathematical Double-Struck Digit Four
+\newunicodechar{𝟝}{\ensuremath{\mathbbm{5}}}  % U+1D7DD Mathematical Double-Struck Digit Five
+\newunicodechar{𝟞}{\ensuremath{\mathbbm{6}}}  % U+1D7DE Mathematical Double-Struck Digit Six
+\newunicodechar{𝟟}{\ensuremath{\mathbbm{7}}}  % U+1D7DF Mathematical Double-Struck Digit Seven
+\newunicodechar{𝟠}{\ensuremath{\mathbbm{8}}}  % U+1D7E0 Mathematical Double-Struck Digit Eight
+\newunicodechar{𝟡}{\ensuremath{\mathbbm{9}}}  % U+1D7E1 Mathematical Double-Struck Digit Nine
+%END_FOLD
+
+%END_FOLD
+
+
+
+% TYPEWRITER
+%BEGIN_FOLD
+
+% TYPEWRITER UPPERCASE LATIN (\tt<char>)
+%BEGIN_FOLD
+\newunicodechar{𝙰}{\texttt{A}}  % U+1D670 Mathematical Monospace Capital A
+\newunicodechar{𝙱}{\texttt{B}}  % U+1D671 Mathematical Monospace Capital B
+\newunicodechar{𝙲}{\texttt{C}}  % U+1D672 Mathematical Monospace Capital C
+\newunicodechar{𝙳}{\texttt{D}}  % U+1D673 Mathematical Monospace Capital D
+\newunicodechar{𝙴}{\texttt{E}}  % U+1D674 Mathematical Monospace Capital E
+\newunicodechar{𝙵}{\texttt{F}}  % U+1D675 Mathematical Monospace Capital F
+\newunicodechar{𝙶}{\texttt{G}}  % U+1D676 Mathematical Monospace Capital G
+\newunicodechar{𝙷}{\texttt{H}}  % U+1D677 Mathematical Monospace Capital H
+\newunicodechar{𝙸}{\texttt{I}}  % U+1D678 Mathematical Monospace Capital I
+\newunicodechar{𝙹}{\texttt{J}}  % U+1D679 Mathematical Monospace Capital J
+\newunicodechar{𝙺}{\texttt{K}}  % U+1D67A Mathematical Monospace Capital K
+\newunicodechar{𝙻}{\texttt{L}}  % U+1D67B Mathematical Monospace Capital L
+\newunicodechar{𝙼}{\texttt{M}}  % U+1D67C Mathematical Monospace Capital M
+\newunicodechar{𝙽}{\texttt{N}}  % U+1D67D Mathematical Monospace Capital N
+\newunicodechar{𝙾}{\texttt{O}}  % U+1D67E Mathematical Monospace Capital O
+\newunicodechar{𝙿}{\texttt{P}}  % U+1D67F Mathematical Monospace Capital P
+\newunicodechar{𝚀}{\texttt{Q}}  % U+1D680 Mathematical Monospace Capital Q
+\newunicodechar{𝚁}{\texttt{R}}  % U+1D681 Mathematical Monospace Capital R
+\newunicodechar{𝚂}{\texttt{S}}  % U+1D682 Mathematical Monospace Capital S
+\newunicodechar{𝚃}{\texttt{T}}  % U+1D683 Mathematical Monospace Capital T
+\newunicodechar{𝚄}{\texttt{U}}  % U+1D684 Mathematical Monospace Capital U
+\newunicodechar{𝚅}{\texttt{V}}  % U+1D685 Mathematical Monospace Capital V
+\newunicodechar{𝚆}{\texttt{W}}  % U+1D686 Mathematical Monospace Capital W
+\newunicodechar{𝚇}{\texttt{X}}  % U+1D687 Mathematical Monospace Capital X
+\newunicodechar{𝚈}{\texttt{Y}}  % U+1D688 Mathematical Monospace Capital Y
+\newunicodechar{𝚉}{\texttt{Z}}  % U+1D689 Mathematical Monospace Capital Z
+%END_FOLD
+
+% TYPEWRITER LOWERCASE LATIN (\tt<char>)
+%BEGIN_FOLD
+\newunicodechar{𝚊}{\texttt{a}}  % U+1D68A Mathematical Monospace Small A
+\newunicodechar{𝚋}{\texttt{b}}  % U+1D68B Mathematical Monospace Small B
+\newunicodechar{𝚌}{\texttt{c}}  % U+1D68C Mathematical Monospace Small C
+\newunicodechar{𝚍}{\texttt{d}}  % U+1D68D Mathematical Monospace Small D
+\newunicodechar{𝚎}{\texttt{e}}  % U+1D68E Mathematical Monospace Small E
+\newunicodechar{𝚏}{\texttt{f}}  % U+1D68F Mathematical Monospace Small F
+\newunicodechar{𝚐}{\texttt{g}}  % U+1D690 Mathematical Monospace Small G
+\newunicodechar{𝚑}{\texttt{h}}  % U+1D691 Mathematical Monospace Small H
+\newunicodechar{𝚒}{\texttt{i}}  % U+1D692 Mathematical Monospace Small I
+\newunicodechar{𝚓}{\texttt{j}}  % U+1D693 Mathematical Monospace Small J
+\newunicodechar{𝚔}{\texttt{k}}  % U+1D694 Mathematical Monospace Small K
+\newunicodechar{𝚕}{\texttt{l}}  % U+1D695 Mathematical Monospace Small L
+\newunicodechar{𝚖}{\texttt{m}}  % U+1D696 Mathematical Monospace Small M
+\newunicodechar{𝚗}{\texttt{n}}  % U+1D697 Mathematical Monospace Small N
+\newunicodechar{𝚘}{\texttt{o}}  % U+1D698 Mathematical Monospace Small O
+\newunicodechar{𝚙}{\texttt{p}}  % U+1D699 Mathematical Monospace Small P
+\newunicodechar{𝚚}{\texttt{q}}  % U+1D69A Mathematical Monospace Small Q
+\newunicodechar{𝚛}{\texttt{r}}  % U+1D69B Mathematical Monospace Small R
+\newunicodechar{𝚜}{\texttt{s}}  % U+1D69C Mathematical Monospace Small S
+\newunicodechar{𝚝}{\texttt{t}}  % U+1D69D Mathematical Monospace Small T
+\newunicodechar{𝚞}{\texttt{u}}  % U+1D69E Mathematical Monospace Small U
+\newunicodechar{𝚟}{\texttt{v}}  % U+1D69F Mathematical Monospace Small V
+\newunicodechar{𝚠}{\texttt{w}}  % U+1D6A0 Mathematical Monospace Small W
+\newunicodechar{𝚡}{\texttt{x}}  % U+1D6A1 Mathematical Monospace Small X
+\newunicodechar{𝚢}{\texttt{y}}  % U+1D6A2 Mathematical Monospace Small Y
+\newunicodechar{𝚣}{\texttt{z}}  % U+1D6A3 Mathematical Monospace Small Z
+%END_FOLD
+
+% TYPEWRITER DIGITS (\tt<char>)
+%BEGIN_FOLD
+\newunicodechar{𝟶}{\texttt{0}}  % U+1D7F6 Mathematical Monospace Digit Zero
+\newunicodechar{𝟷}{\texttt{1}}  % U+1D7F7 Mathematical Monospace Digit One
+\newunicodechar{𝟸}{\texttt{2}}  % U+1D7F8 Mathematical Monospace Digit Two
+\newunicodechar{𝟹}{\texttt{3}}  % U+1D7F9 Mathematical Monospace Digit Three
+\newunicodechar{𝟺}{\texttt{4}}  % U+1D7FA Mathematical Monospace Digit Four
+\newunicodechar{𝟻}{\texttt{5}}  % U+1D7FB Mathematical Monospace Digit Five
+\newunicodechar{𝟼}{\texttt{6}}  % U+1D7FC Mathematical Monospace Digit Six
+\newunicodechar{𝟽}{\texttt{7}}  % U+1D7FD Mathematical Monospace Digit Seven
+\newunicodechar{𝟾}{\texttt{8}}  % U+1D7FE Mathematical Monospace Digit Eight
+\newunicodechar{𝟿}{\texttt{9}}  % U+1D7FF Mathematical Monospace Digit Nine
+%END_FOLD
+
+%END_FOLD
+
+
+
+% SMALL CAPS LATIN
+%BEGIN_FOLD
+\newunicodechar{ᴀ}{\textsc{a}}  % U+1D00 Latin Letter Small Capital A
+\newunicodechar{ʙ}{\textsc{b}}  % U+0299 Latin Letter Small Capital B
+\newunicodechar{ᴄ}{\textsc{c}}  % U+1D04 Latin Letter Small Capital C
+\newunicodechar{ᴅ}{\textsc{d}}  % U+1D05 Latin Letter Small Capital D
+\newunicodechar{ᴇ}{\textsc{e}}  % U+1D07 Latin Letter Small Capital E
+\newunicodechar{ꜰ}{\textsc{f}}  % U+A730 Latin Letter Small Capital F
+\newunicodechar{ɢ}{\textsc{g}}  % U+0262 Latin Letter Small Capital G
+\newunicodechar{ʜ}{\textsc{h}}  % U+029C Latin Letter Small Capital H
+\newunicodechar{ɪ}{\textsc{i}}  % U+026A Latin Letter Small Capital I
+\newunicodechar{ᴊ}{\textsc{j}}  % U+1D0A Latin Letter Small Capital J
+\newunicodechar{ᴋ}{\textsc{k}}  % U+1D0B Latin Letter Small Capital K
+\newunicodechar{ʟ}{\textsc{l}}  % U+029F Latin Letter Small Capital L
+\newunicodechar{ᴍ}{\textsc{m}}  % U+1D0D Latin Letter Small Capital M
+\newunicodechar{ɴ}{\textsc{n}}  % U+0274 Latin Letter Small Capital N
+\newunicodechar{ᴏ}{\textsc{o}}  % U+1D0F Latin Letter Small Capital O
+\newunicodechar{ᴘ}{\textsc{p}}  % U+1D18 Latin Letter Small Capital P
+\newunicodechar{ꞯ}{\textsc{q}}  % U+A7AF Latin Letter Small Capital Q
+\newunicodechar{ʀ}{\textsc{r}}  % U+0280 Latin Letter Small Capital R
+\newunicodechar{ꜱ}{\textsc{s}}  % U+A731 Latin Letter Small Capital S
+\newunicodechar{ᴛ}{\textsc{t}}  % U+1D1B Latin Letter Small Capital T
+\newunicodechar{ᴜ}{\textsc{u}}  % U+1D1C Latin Letter Small Capital U
+\newunicodechar{ᴠ}{\textsc{v}}  % U+1D20 Latin Letter Small Capital V
+\newunicodechar{ᴡ}{\textsc{w}}  % U+1D21 Latin Letter Small Capital W
+%\newunicodechar{}{\textsc{x}}  % U+???? Latin Letter Small Capital X
+\newunicodechar{ʏ}{\textsc{y}}  % U+028F Latin Letter Small Capital Y
+\newunicodechar{ᴢ}{\textsc{z}}  % U+1D22 Latin Letter Small Capital Z
+%END_FOLD
+
+
+
+
+
+
+
+% CIRCLED LETTERS
+%BEGIN_FOLD
+\newunicodechar{①}{\circled{1}}   % U+2460 CIRCLED DIGIT ONE
+\newunicodechar{②}{\circled{2}}   % U+2461 CIRCLED DIGIT TWO
+\newunicodechar{③}{\circled{3}}   % U+2462 CIRCLED DIGIT THREE
+\newunicodechar{④}{\circled{4}}   % U+2463 CIRCLED DIGIT FOUR
+\newunicodechar{⑤}{\circled{5}}   % U+2464 CIRCLED DIGIT FIVE
+\newunicodechar{⑥}{\circled{6}}   % U+2465 CIRCLED DIGIT SIX
+\newunicodechar{⑦}{\circled{7}}   % U+2466 CIRCLED DIGIT SEVEN
+\newunicodechar{⑧}{\circled{8}}   % U+2467 CIRCLED DIGIT EIGHT
+\newunicodechar{⑨}{\circled{9}}   % U+2468 CIRCLED DIGIT NINE
+\newunicodechar{⑩}{\circled{10}}  % U+2469 CIRCLED NUMBER TEN
+\newunicodechar{⑪}{\circled{11}}  % U+246A CIRCLED NUMBER ELEVEN
+\newunicodechar{⑫}{\circled{12}}  % U+246B CIRCLED NUMBER TWELVE
+\newunicodechar{⑬}{\circled{13}}  % U+246C CIRCLED NUMBER THIRTEEN
+\newunicodechar{⑭}{\circled{14}}  % U+246D CIRCLED NUMBER FOURTEEN
+\newunicodechar{⑮}{\circled{15}}  % U+246E CIRCLED NUMBER FIFTEEN
+\newunicodechar{⑯}{\circled{16}}  % U+246F CIRCLED NUMBER SIXTEEN
+\newunicodechar{⑰}{\circled{17}}  % U+2470 CIRCLED NUMBER SEVENTEEN
+\newunicodechar{⑱}{\circled{18}}  % U+2471 CIRCLED NUMBER EIGHTEEN
+\newunicodechar{⑲}{\circled{19}}  % U+2472 CIRCLED NUMBER NINETEEN
+\newunicodechar{⑳}{\circled{20}}  % U+2473 CIRCLED NUMBER TWENTY
+\newunicodechar{Ⓐ}{\circled{A}}  % U+24B6 CIRCLED LATIN CAPITAL LETTER A
+\newunicodechar{Ⓑ}{\circled{B}}  % U+24B7 CIRCLED LATIN CAPITAL LETTER B
+\newunicodechar{Ⓒ}{\circled{C}}  % U+24B8 CIRCLED LATIN CAPITAL LETTER C
+\newunicodechar{Ⓓ}{\circled{D}}  % U+24B9 CIRCLED LATIN CAPITAL LETTER D
+\newunicodechar{Ⓔ}{\circled{E}}  % U+24BA CIRCLED LATIN CAPITAL LETTER E
+\newunicodechar{Ⓕ}{\circled{F}}  % U+24BB CIRCLED LATIN CAPITAL LETTER F
+\newunicodechar{Ⓖ}{\circled{G}}  % U+24BC CIRCLED LATIN CAPITAL LETTER G
+\newunicodechar{Ⓗ}{\circled{H}}  % U+24BD CIRCLED LATIN CAPITAL LETTER H
+\newunicodechar{Ⓘ}{\circled{I}}  % U+24BE CIRCLED LATIN CAPITAL LETTER I
+\newunicodechar{Ⓙ}{\circled{J}}  % U+24BF CIRCLED LATIN CAPITAL LETTER J
+\newunicodechar{Ⓚ}{\circled{K}}  % U+24C0 CIRCLED LATIN CAPITAL LETTER K
+\newunicodechar{Ⓛ}{\circled{L}}  % U+24C1 CIRCLED LATIN CAPITAL LETTER L
+\newunicodechar{Ⓜ}{\circled{M}}  % U+24C2 CIRCLED LATIN CAPITAL LETTER M
+\newunicodechar{Ⓝ}{\circled{N}}  % U+24C3 CIRCLED LATIN CAPITAL LETTER N
+\newunicodechar{Ⓞ}{\circled{O}}  % U+24C4 CIRCLED LATIN CAPITAL LETTER O
+\newunicodechar{Ⓟ}{\circled{P}}  % U+24C5 CIRCLED LATIN CAPITAL LETTER P
+\newunicodechar{Ⓠ}{\circled{Q}}  % U+24C6 CIRCLED LATIN CAPITAL LETTER Q
+\newunicodechar{Ⓡ}{\circled{R}}  % U+24C7 CIRCLED LATIN CAPITAL LETTER R
+\newunicodechar{Ⓢ}{\circled{S}}  % U+24C8 CIRCLED LATIN CAPITAL LETTER S
+\newunicodechar{Ⓣ}{\circled{T}}  % U+24C9 CIRCLED LATIN CAPITAL LETTER T
+\newunicodechar{Ⓤ}{\circled{U}}  % U+24CA CIRCLED LATIN CAPITAL LETTER U
+\newunicodechar{Ⓥ}{\circled{V}}  % U+24CB CIRCLED LATIN CAPITAL LETTER V
+\newunicodechar{Ⓦ}{\circled{W}}  % U+24CC CIRCLED LATIN CAPITAL LETTER W
+\newunicodechar{Ⓧ}{\circled{X}}  % U+24CD CIRCLED LATIN CAPITAL LETTER X
+\newunicodechar{Ⓨ}{\circled{Y}}  % U+24CE CIRCLED LATIN CAPITAL LETTER Y
+\newunicodechar{Ⓩ}{\circled{Z}}  % U+24CF CIRCLED LATIN CAPITAL LETTER Z
+\newunicodechar{ⓐ}{\circled{a}}  % U+24D0 CIRCLED LATIN SMALL LETTER A
+\newunicodechar{ⓑ}{\circled{b}}  % U+24D1 CIRCLED LATIN SMALL LETTER B
+\newunicodechar{ⓒ}{\circled{c}}  % U+24D2 CIRCLED LATIN SMALL LETTER C
+\newunicodechar{ⓓ}{\circled{d}}  % U+24D3 CIRCLED LATIN SMALL LETTER D
+\newunicodechar{ⓔ}{\circled{e}}  % U+24D4 CIRCLED LATIN SMALL LETTER E
+\newunicodechar{ⓕ}{\circled{f}}  % U+24D5 CIRCLED LATIN SMALL LETTER F
+\newunicodechar{ⓖ}{\circled{g}}  % U+24D6 CIRCLED LATIN SMALL LETTER G
+\newunicodechar{ⓗ}{\circled{h}}  % U+24D7 CIRCLED LATIN SMALL LETTER H
+\newunicodechar{ⓘ}{\circled{i}}  % U+24D8 CIRCLED LATIN SMALL LETTER I
+\newunicodechar{ⓙ}{\circled{j}}  % U+24D9 CIRCLED LATIN SMALL LETTER J
+\newunicodechar{ⓚ}{\circled{k}}  % U+24DA CIRCLED LATIN SMALL LETTER K
+\newunicodechar{ⓛ}{\circled{l}}  % U+24DB CIRCLED LATIN SMALL LETTER L
+\newunicodechar{ⓜ}{\circled{m}}  % U+24DC CIRCLED LATIN SMALL LETTER M
+\newunicodechar{ⓝ}{\circled{n}}  % U+24DD CIRCLED LATIN SMALL LETTER N
+\newunicodechar{ⓞ}{\circled{o}}  % U+24DE CIRCLED LATIN SMALL LETTER O
+\newunicodechar{ⓟ}{\circled{p}}  % U+24DF CIRCLED LATIN SMALL LETTER P
+\newunicodechar{ⓠ}{\circled{q}}  % U+24E0 CIRCLED LATIN SMALL LETTER Q
+\newunicodechar{ⓡ}{\circled{r}}  % U+24E1 CIRCLED LATIN SMALL LETTER R
+\newunicodechar{ⓢ}{\circled{s}}  % U+24E2 CIRCLED LATIN SMALL LETTER S
+\newunicodechar{ⓣ}{\circled{t}}  % U+24E3 CIRCLED LATIN SMALL LETTER T
+\newunicodechar{ⓤ}{\circled{u}}  % U+24E4 CIRCLED LATIN SMALL LETTER U
+\newunicodechar{ⓥ}{\circled{v}}  % U+24E5 CIRCLED LATIN SMALL LETTER V
+\newunicodechar{ⓦ}{\circled{w}}  % U+24E6 CIRCLED LATIN SMALL LETTER W
+\newunicodechar{ⓧ}{\circled{x}}  % U+24E7 CIRCLED LATIN SMALL LETTER X
+\newunicodechar{ⓨ}{\circled{y}}  % U+24E8 CIRCLED LATIN SMALL LETTER Y
+\newunicodechar{ⓩ}{\circled{z}}  % U+24E9 CIRCLED LATIN SMALL LETTER Z
+\newunicodechar{⓪}{\circled{0}}  % U+24EA CIRCLED DIGIT ZERO
+%END_FOLD
+
+% ROMAN NUMERALS
+%BEGIN_FOLD
+\newunicodechar{Ⅰ}{\relax\ifmmode{\mathrm{ I   }}\else{\rmfamily I   }\fi} % U+2160 Roman Numeral One
+\newunicodechar{Ⅱ}{\relax\ifmmode{\mathrm{ II  }}\else{\rmfamily II  }\fi} % U+2161 Roman Numeral Two
+\newunicodechar{Ⅲ}{\relax\ifmmode{\mathrm{ III }}\else{\rmfamily III }\fi} % U+2162 Roman Numeral Three
+\newunicodechar{Ⅳ}{\relax\ifmmode{\mathrm{ IV  }}\else{\rmfamily IV  }\fi} % U+2163 Roman Numeral Four
+\newunicodechar{Ⅴ}{\relax\ifmmode{\mathrm{ V   }}\else{\rmfamily V   }\fi} % U+2164 Roman Numeral Five
+\newunicodechar{Ⅵ}{\relax\ifmmode{\mathrm{ VI  }}\else{\rmfamily VI  }\fi} % U+2165 Roman Numeral Six
+\newunicodechar{Ⅶ}{\relax\ifmmode{\mathrm{ VII }}\else{\rmfamily VII }\fi} % U+2166 Roman Numeral Seven
+\newunicodechar{Ⅷ}{\relax\ifmmode{\mathrm{ VIII}}\else{\rmfamily VIII}\fi} % U+2167 Roman Numeral Eight
+\newunicodechar{Ⅸ}{\relax\ifmmode{\mathrm{ IX  }}\else{\rmfamily IX  }\fi} % U+2168 Roman Numeral Nine
+\newunicodechar{Ⅹ}{\relax\ifmmode{\mathrm{ X   }}\else{\rmfamily X   }\fi} % U+2169 Roman Numeral Ten
+\newunicodechar{Ⅺ}{\relax\ifmmode{\mathrm{ XI  }}\else{\rmfamily XI  }\fi} % U+216A Roman Numeral Eleven
+\newunicodechar{Ⅻ}{\relax\ifmmode{\mathrm{ XII }}\else{\rmfamily XII }\fi} % U+216B Roman Numeral Twelve
+\newunicodechar{Ⅼ}{\relax\ifmmode{\mathrm{ L   }}\else{\rmfamily L   }\fi} % U+216C Roman Numeral Fifty
+\newunicodechar{Ⅽ}{\relax\ifmmode{\mathrm{ C   }}\else{\rmfamily C   }\fi} % U+216D Roman Numeral One Hundred
+\newunicodechar{Ⅾ}{\relax\ifmmode{\mathrm{ D   }}\else{\rmfamily D   }\fi} % U+216E Roman Numeral Five Hundred
+\newunicodechar{Ⅿ}{\relax\ifmmode{\mathrm{ M   }}\else{\rmfamily M   }\fi} % U+216F Roman Numeral One Thousand
+\newunicodechar{ⅰ}{\relax\ifmmode{\mathrm{ i   }}\else{\rmfamily i   }\fi} % U+2170 Small Roman Numeral One
+\newunicodechar{ⅱ}{\relax\ifmmode{\mathrm{ ii  }}\else{\rmfamily ii  }\fi} % U+2171 Small Roman Numeral Two
+\newunicodechar{ⅲ}{\relax\ifmmode{\mathrm{ iii }}\else{\rmfamily iii }\fi} % U+2172 Small Roman Numeral Three
+\newunicodechar{ⅳ}{\relax\ifmmode{\mathrm{ iv  }}\else{\rmfamily iv  }\fi} % U+2173 Small Roman Numeral Four
+\newunicodechar{ⅴ}{\relax\ifmmode{\mathrm{ v   }}\else{\rmfamily v   }\fi} % U+2174 Small Roman Numeral Five
+\newunicodechar{ⅵ}{\relax\ifmmode{\mathrm{ vi  }}\else{\rmfamily vi  }\fi} % U+2175 Small Roman Numeral Six
+\newunicodechar{ⅶ}{\relax\ifmmode{\mathrm{ vii }}\else{\rmfamily vii }\fi} % U+2176 Small Roman Numeral Seven
+\newunicodechar{ⅷ}{\relax\ifmmode{\mathrm{ viii}}\else{\rmfamily viii}\fi} % U+2177 Small Roman Numeral Eight
+\newunicodechar{ⅸ}{\relax\ifmmode{\mathrm{ ix  }}\else{\rmfamily ix  }\fi} % U+2178 Small Roman Numeral Nine
+\newunicodechar{ⅹ}{\relax\ifmmode{\mathrm{ x   }}\else{\rmfamily x   }\fi} % U+2179 Small Roman Numeral Ten
+\newunicodechar{ⅺ}{\relax\ifmmode{\mathrm{ xi  }}\else{\rmfamily xi  }\fi} % U+217A Small Roman Numeral Eleven
+\newunicodechar{ⅻ}{\relax\ifmmode{\mathrm{ xii }}\else{\rmfamily xii }\fi} % U+217B Small Roman Numeral Twelve
+\newunicodechar{ⅼ}{\relax\ifmmode{\mathrm{ l   }}\else{\rmfamily l   }\fi} % U+217C Small Roman Numeral Fifty
+\newunicodechar{ⅽ}{\relax\ifmmode{\mathrm{ c   }}\else{\rmfamily c   }\fi} % U+217D Small Roman Numeral One Hundred
+\newunicodechar{ⅾ}{\relax\ifmmode{\mathrm{ d   }}\else{\rmfamily d   }\fi} % U+217E Small Roman Numeral Five Hundred
+\newunicodechar{ⅿ}{\relax\ifmmode{\mathrm{ m   }}\else{\rmfamily m   }\fi} % U+217F Small Roman Numeral One Thousand
+%END_FOLD
+
