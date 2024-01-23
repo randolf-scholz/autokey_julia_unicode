@@ -32,6 +32,8 @@ For overview see [Supported Alphabets](#supported-alphabets)
 1. MathJax supports unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
 2. LaTeX has unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/). For usage with `pdflatex`, try the attached `unicode-symbols.sty` package.
 
+⚠️ **BEWARE** ⚠️ If you intend to use <https://overleaf.com>, this platform only the first 65536 unicode characters (the "basic plane"). This means that you cannot use any of the characters in the "supplementary planes" (e.g. the greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally ([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
+
 ## Known Issues & Limitations
 
 - So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
