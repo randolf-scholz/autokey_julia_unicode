@@ -44,13 +44,13 @@ ABBREVIATION = NewType("ABBREVIATION", str)
 
 
 def is_char(s: str, /) -> TypeGuard[CHAR]:
-    """Check wether string is a single character."""
+    """Check whether string is a single character."""
     # test exact match against regex
     return isinstance(s, str) and len(s) == 1
 
 
 def is_unicode(s: str, /) -> TypeGuard[UCODE]:
-    """Check wether string is a unicode-code (like U+0000A)."""
+    """Check whether string is a unicode-code (like U+0000A)."""
     # test exact match against regex
     return UNICODE_PATTERN.fullmatch(s) is not None
 
@@ -122,13 +122,13 @@ def query_choice(*, choices, question=DEFAULT_QUESTION, default=0):
         except (KeyboardInterrupt, SystemExit):
             print("Operation aborted. Exiting.")
             sys.exit(0)
-
-        try:
-            if user_choice == "" and default is not None:
-                return options[default]
-            return options[int(user_choice)]
-        except (KeyError, ValueError):
-            print("Did not understand input.")
+        else:
+            try:
+                if user_choice == "" and default is not None:
+                    return options[default]
+                return options[int(user_choice)]
+            except (KeyError, ValueError):
+                print("Did not understand input.")
             continue
 
 
@@ -224,7 +224,7 @@ def generate_codes(filename: str, target_dir: str, template: dict) -> None:
 
     # load data
     data = load_icons(filename)
-    header = data[0]
+    # header = data[0]
     assert len(data[1]) == 4, f"Wrong data format. {data[1]}"
 
     LOGGER.info("-" * 80)
