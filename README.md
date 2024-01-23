@@ -1,5 +1,7 @@
 # Autokey Unicode characters
 
+**⚠ New ⚠:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
+
 ![demo](demo.gif)
 
 ## Usage
