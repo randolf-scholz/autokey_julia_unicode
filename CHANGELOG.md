@@ -4,7 +4,7 @@
 
 Finally merged a dev branch into main.
 
-⚠️ Added `unicode-symbols.sty` which provides a subset of the unicode symbols for usage with `pdflatex`. ⚠
+⚠️ Added `unicode-symbols.sty` which provides a subset of the unicode symbols for usage with `pdflatex`. ⚠️
 
 - Revamped the generation script
 - renamed `.csv` files to `.tsv`, since we use tabs as separators
