@@ -1,5 +1,6 @@
-symbols-a4.pdf
 *.ipynb_checkpoints/
 *__pycache__/
 *.~lock.*.csv#
-*.vscode/
+*.virtual_documents
+.idea/
+.vscode/
