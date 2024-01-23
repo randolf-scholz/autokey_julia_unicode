@@ -1,0 +1,55 @@
+exclude: '(\.git/|\.venv/|\.idea/|third_party/)'
+minimum_pre_commit_version: 3.6.0
+default_language_version:
+  python: python3.11
+  node: "20.10.0"
+repos:
+  # https://pre-commit.com/hooks.html
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+        description: "prevents giant files from being committed."
+      - id: check-ast
+        description: "simply checks whether the files parse as valid python."
+      - id: check-builtin-literals
+        description: "requires literal syntax when initializing empty or zero python builtin types."
+      - id: check-byte-order-marker
+        description: "forbids files which have a utf-8 byte-order marker."
+      - id: check-json
+        description: "checks json files for parseable syntax."
+      - id: check-executables-have-shebangs
+        description: "ensures that (non-binary) executables have a shebang."
+      - id: check-shebang-scripts-are-executable
+        description: "ensures that (non-binary) files with a shebang are executable."
+      - id: check-symlinks
+        description: "checks for symlinks which do not point to anything."
+      - id: check-toml
+        description: "checks toml files for parseable syntax."
+      - id: check-xml
+        description: "checks xml files for parseable syntax."
+      - id: check-yaml
+        description: "checks yaml files for parseable syntax."
+      - id: debug-statements
+        description: "checks for debugger imports and py37+ `breakpoint()` calls in python source."
+      - id: end-of-file-fixer
+        description: "ensures that a file is either empty, or ends with one newline."
+      - id: pretty-format-json
+        args: ["--autofix"]
+        exclude: ^.*.ipynb$
+        description: "sets a standard for formatting json files."
+      - id: requirements-txt-fixer
+        description: "sorts entries in requirements.txt"
+      - id: trailing-whitespace
+        description: "trims trailing whitespace."
+        exclude: ^.*.tsv$
+  # nbstripout-fast
+  - repo: https://github.com/deshaw/nbstripout-fast.git
+    rev: v1.0.3
+    hooks:
+      - id: nbstripout-fast
+  # pyright
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.348
+    hooks:
+      - id: pyright

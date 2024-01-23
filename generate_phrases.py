@@ -361,8 +361,8 @@ def main():
     template = TEMPLATE | {"sendMode": sendmode}
 
     # clean up old files
-    generate_codes("icons.tsv", "julia_unicode", template=template)
-    generate_codes("custom_icons.tsv", "custom_unicode", template=template)
+    generate_codes("icons/icons.tsv", "julia_unicode", template=template)
+    generate_codes("icons/custom_icons.tsv", "custom_unicode", template=template)
 
     # add custom unicode icons for all csv files in icons/
     # for fname in Path("icons").glob("*.csv"):

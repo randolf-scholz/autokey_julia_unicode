@@ -17,5 +17,5 @@ Super / sub-scripts are rendered differently:
 
 Binary relations have the correct spacing:
 
-- LaTeX:   $\alpha\simeq\beta$ 
+- LaTeX:   $\alpha\simeq\beta$
 - Unicode: $α≃β$
