@@ -22,24 +22,28 @@ For overview see [Supported Alphabets](#supported-alphabets)
 
 ## Advantages of Unicode
 
-1. Work even when MathJax / LaTeX is not available.
-2. Is character efficient.
-3. Increases readability of uncompiled documents.
-4. Copy-paste persistance.
+1. Work even when MathJax / LaTeX is not available (e.g. E-mails, chat clients, etc.)
+2. Is character efficient (e.g. when writing comments on https://math.stackexchange.com)
+3. Increases readability of source code.
+4. Copy-paste persistent.
 
 ## Compatibility with MathJax & LaTeX
 
 1. MathJax supports unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
 2. LaTeX has unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/). For usage with `pdflatex`, try the attached `unicode-symbols.sty` package.
 
-⚠️ **BEWARE** ⚠️ If you intend to use <https://overleaf.com>, this platform only the first 65536 unicode characters (the "basic plane"). This means that you cannot use any of the characters in the "supplementary planes" (e.g. the greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally ([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
+⚠️ **BEWARE** ⚠️ If you intend to use <https://overleaf.com>,
+this platform only supports the first 65536 unicode characters
+(the "basic plane"). This means that you cannot use any of the characters in the "supplementary planes"
+(e.g. the greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally
+([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
 
 ## Known Issues & Limitations
 
 - So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
 - Seems to behave weird with **Gnome Terminal**, no idea what's going on.
 - Can show strange behaviour with **VSCode**.
-  - Seems to be fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
+  - Seems fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
   - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
 - Composed characters seem to not always work as intended, not many editors render them correctly.
 - Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives a⁽ᵏ⁾. With AutoKey we need to add the superscripts one at a time.
