@@ -266,8 +266,32 @@ U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
 U+A730	ꜰ	\scF	Latin Letter Small Capital F
 U+A731	ꜱ	\scS	Latin Letter Small Capital S
 U+A7AF	ꞯ	\scQ	Latin Letter Small Capital Q
-U+FE62	﹢	\+, \smallplus, \unaryplus	Small Plus Sign
-U+FE63	﹣	\-, \smallminus, \unaryminus	Small Hyphen-Minus 
+U+FE50	﹐	\small,	Small Comma
+U+FE51	﹑	\smallvar,	Small Ideographic Comma
+U+FE52	﹒	\small.	Small Full Stop
+U+FE54	﹔	\small;	Small Semicolon
+U+FE55	﹕	\small:	Small Colon
+U+FE56	﹖	\small?	Small Question Mark
+U+FE57	﹗	\small!	Small Exclamation Mark
+U+FE58	﹘	\small--	Small Em Dash
+U+FE59	﹙	\small(	Small Left Parenthesis
+U+FE5A	﹚	\small)	Small Right Parenthesis
+U+FE5B	﹛	\small{, \smalllbrace	Small Left Curly Bracket
+U+FE5C	﹜	\small}, \smallrbrace	Small Right Curly Bracket
+U+FE5D	﹝	\smallrshell	Small Right Tortoise Shell Bracket
+U+FE5E	﹞	\smalllshell	Small Left Tortoise Shell Bracket
+U+FE5F	﹟	\small#, \smallhashtag	Small Number Sign
+U+FE60	﹠	\small&, \smallampersand	Small Ampersand
+U+FE61	﹡	\small*	Small Asterisk
+U+FE62	﹢	\+, \small+, \smallplus, \unaryplus	Small Plus Sign
+U+FE63	﹣	\-, \small-, \smallminus, \unaryminus	Small Hyphen-Minus 
+U+FE64	﹤	\small<, \smalllt	Small Less-Than Sign
+U+FE65	﹥	\small>, \smallgt	Small Greater-Than Sign
+U+FE66	﹦	\small=, \smalleq	Small Equals Sign
+U+FE68	﹨	\smallbackslash	Small Reverse Solidus
+U+FE69	﹩	\small$	Small Dollar Sign
+U+FE6A	﹪	\small%	Small Percent Sign
+U+FE6B	﹫	\small@	Small Commercial At
 U+FF0C	，	\,, \fullwidthcomma	Fullwidth Comma
 U+FF1A	：	\:, \colon, \fullwidthcolon	Fullwidth Colon
 U+FF1B	；	\;, \fullwidthsemicolon	Fullwidth Semicolon
