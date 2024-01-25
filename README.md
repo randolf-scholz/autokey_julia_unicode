@@ -57,7 +57,7 @@ this platform only supports the first 65536 unicode characters
 |--------|--------|--------|--------|
 | latin  | 𝐚𝐛𝐜𝐀𝐁𝐂 | 𝑎𝑏𝑐𝐴𝐵𝐶 | 𝒂𝒃𝒄𝑨𝑩𝑪 |
 | greek  | 𝛂𝛃𝛄𝚨𝚩𝚪 | 𝛼𝛽𝛾𝛢𝛣𝛤 | 𝜶𝜷𝜸𝜜𝜝𝜞 |
-| letter |        |        |        |
+| letter | 𝟎𝟏𝟐    |        |        |
 
 #### Sans Serif Font
 
