@@ -1,0 +1,147 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{etoolbox}
+\usepackage{newunicodechar}
+
+
+\makeatletter
+\newif\ifinchain\inchainfalse
+\newcommand{\chain}[1]{%
+    \ifinchain%
+        #1%
+    \else%
+        \inchaintrue%
+        \sb\bgroup{#1}%
+    \fi%
+    % test if the next character is also a chain
+    \@ifnextchar{\chain}{}{\egroup\inchainfalse}%
+}
+
+% % implement with toggle
+% \newtoggle{insub}
+% \newtoggle{peeking}
+% \NewDocumentCommand{\sub}{o}{%
+%     \iftoggle{peeking}{\togglefalse{peeking}}{
+%     \iftoggle{insub}{%
+%         #1%
+%     }{%
+%         \toggletrue{insub}%
+%         \sb\bgroup{#1}%
+%     }%
+%     \toggletrue{peeking}
+%     \@checknextchar}%
+%     % \togglefalse{peeking}%
+%     % test if the next character is also a chain
+%     % \@ifnextchar{\sub}{!!}{%
+%     % % log the next token
+%     % \futurelet\@next\meaning%
+%     % %
+%     % \typeout{Next token: \@next}
+%     % % \typeout{Next token:\expandafter\meaning\@let@token}%
+%     % % log the next token after expansion
+%     % \egroup\togglefalse{insub}}%
+% }
+
+% \def\@checknextchar{\futurelet\@next\@decidenext}
+% \def\@decidenext{%
+% \typeout{The next token is: \meaning\@next}%
+
+% % Problem: in the unicode case we have:
+% % \protected macro:->\UTFviii@three@octets �
+% % We need to expand the token to get its replacement text:
+
+% \def\val{\expandafter\expandafter\expandafter\@next}
+
+
+% \ifx\val\sub%
+%     \typeout{Keep going!}%
+%     !!%
+% \else%
+%     \typeout{Stop!}%
+%     \egroup\togglefalse{insub}%
+% \fi%
+% \togglefalse{peeking}
+% }
+
+
+\newtoggle{insub}
+\def\@ExpandSub{%
+    \typeout{Given Input: \meaning\@input}%
+    \typeout{Followup command: \meaning\@following}%
+    \iftoggle{insub}{
+        \@input%
+    }{
+        \toggletrue{insub}%
+        \sb\bgroup\@input%
+    }%
+    \ifx\@following\sub%
+        \typeout{keep going!}%
+    \else%
+        \typeout{Stop!}%
+        \egroup\togglefalse{insub}%
+    \fi%
+}
+
+
+% \DeclareRobustCommand*{\sub}[1]{\futurelet\@following\@ExpandSub{#1}}
+\protected\def\sub#1{%
+    \let\@input#1%
+    \futurelet\@following\@ExpandSub%
+}
+\protected\def\testtwoargB#1#2{\typeout{Testing two args B: '#1' and '#2'}}
+\makeatother
+
+% \newunicodechar{ᵢ}{\sub[i]}
+% \newunicodechar{ⱼ}{\sub[j]}
+% \newunicodechar{ₖ}{\sub[k]}
+% \newunicodechar{ₗ}{\sub[l]}
+% \newunicodechar{ₘ}{\sub[m]}
+% \newunicodechar{ₙ}{\sub[n]}
+
+% \DeclareUnicodeCharacter{1D62}{\sub[i]}
+% \DeclareUnicodeCharacter{2C7C}{\sub[j]}
+% \DeclareUnicodeCharacter{2096}{\sub[k]}
+% \DeclareUnicodeCharacter{2097}{\sub[l]}
+% \DeclareUnicodeCharacter{2098}{\sub[m]}
+% \DeclareUnicodeCharacter{2099}{\sub[n]}
+
+
+% \DeclareUnicodeCharacter{1D62}{\sub{i}}
+% \DeclareUnicodeCharacter{2C7C}{\sub{j}}
+% \DeclareUnicodeCharacter{2096}{\sub{k}}
+% \DeclareUnicodeCharacter{2097}{\sub{l}}
+% \DeclareUnicodeCharacter{2098}{\sub{m}}
+% \DeclareUnicodeCharacter{2099}{\sub{n}}
+
+% \let{ᵢ}{\sub{i}}
+% \let{ⱼ}{\sub{j}}
+% \let{ₖ}{\sub{k}}
+% \let{ₗ}{\sub{l}}
+% \let{ₘ}{\sub{m}}
+% \let{ₙ}{\sub{n}}
+
+% \newunicodechar{•}{\bullet}
+
+
+\AtBeginDocument{
+\newunicodechar{ᵢ}{\sub{i}}
+\newunicodechar{ⱼ}{\sub{j}}
+\newunicodechar{ₖ}{\sub{k}}
+\newunicodechar{ₗ}{\sub{l}}
+\newunicodechar{ₘ}{\sub{m}}
+\newunicodechar{ₙ}{\sub{n}}
+}
+
+\begin{document}
+
+$\testtwoargB{a}{b}$
+
+\begin{tabular}{l}
+$a_{ijklmn}$ \\
+$a\chain{i}\chain{j}\chain{k}\chain{l}\chain{m}\chain{n}$ \\
+$a\sub{i}\sub{j}\sub{k}\sub{l}\sub{m}\sub{n}$ \\
+% $a\sub[i]\sub[j]\sub[k]\sub[l]\sub[m]\sub[n]$ \\
+$aᵢⱼₖₗₘₙ$
+\end{tabular}
+\end{document}
+
