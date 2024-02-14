@@ -19,7 +19,7 @@
 % There are two things we may want to have:
 % 1. combined subscripts and superscripts (e.g. $a^{i}_{j}$) gives i and j stacked
 % 2. non-combined subscripts and superscripts (e.g. $a^{i}{}_{j}$) gives i and j side by side
-% The latter is covered by the tensor package, and we would like to be compatible with it. 
+% The latter is covered by the tensor package, and we would like to be compatible with it.
 
 \usepackage{etoolbox}
 \newtoggle{inUnicodeSubscript}
@@ -30,13 +30,13 @@
 
 \makeatletter
 
-\newif\if@unisup\@unisupfalse
-\newcommand{\@unisupA}[1]{\if@unisup{#1}\else\sp\bgroup\fi}
-\newcommand{\@unisupB}{\@ifnextchar{\@unisupA}{\@unisuptrue}{\egroup\@unisupfalse}}
-\newunicodechar{ⁱ}{\@unisupA{i}\expandafter{\@unisupB}}
-\newunicodechar{ʲ}{\@unisupA{j}\expandafter{\@unisupB}}
-\newunicodechar{ᵏ}{\@unisupA{k}\expandafter{\@unisupB}}
-\newunicodechar{ˡ}{\@unisupA{l}\expandafter{\@unisupB}}
+%\newif\if@unisup\@unisupfalse
+%\newcommand{\@unisupA}[1]{\if@unisup{#1}\else\sp\bgroup\fi}
+%\newcommand{\@unisupB}{\@ifnextchar{\@unisupA}{\@unisuptrue}{\egroup\@unisupfalse}}
+%\newunicodechar{ⁱ}{\@unisupA{i}\expandafter{\@unisupB}}
+%\newunicodechar{ʲ}{\@unisupA{j}\expandafter{\@unisupB}}
+%\newunicodechar{ᵏ}{\@unisupA{k}\expandafter{\@unisupB}}
+%\newunicodechar{ˡ}{\@unisupA{l}\expandafter{\@unisupB}}
 
 
 % \newif\if@unisub\@unisubfalse
@@ -78,12 +78,12 @@
 
 
 % \newcommand{\@unisubB}{\@ifnextchar{\@unisubA}{\@unisubtrue}{\egroup\@unisubfalse}}
-% \newunicodechar{ᵢ}{{\sub{i}}}
-% \newunicodechar{ⱼ}{{\sub{j}}}
-% \newunicodechar{ₖ}{{\sub{k}}}
-% \newunicodechar{ₗ}{{\sub{l}}}
-% \newunicodechar{ₘ}{{\sub{m}}}
-% \newunicodechar{ₙ}{{\sub{n}}}
+ \newunicodechar{ᵢ}{\sub{i}}
+ \newunicodechar{ⱼ}{\sub{j}}
+ \newunicodechar{ₖ}{\sub{k}}
+ \newunicodechar{ₗ}{\sub{l}}
+ \newunicodechar{ₘ}{\sub{m}}
+ \newunicodechar{ₙ}{\sub{n}}
 
 
 % \newif\if@unisub\@unisubfalse
@@ -95,26 +95,28 @@
 % \newunicodechar{ₗ}{\@unisubA{l}\expandafter{\@unisubB}}
 
 % endregion proposed patch
-\DeclareUnicodeCharacter{1D62}{{\sub{i}}}
-\DeclareUnicodeCharacter{2C7C}{{\sub{j}}}
-\DeclareUnicodeCharacter{2096}{{\sub{k}}}
-\DeclareUnicodeCharacter{2097}{{\sub{l}}}
-\DeclareUnicodeCharacter{2098}{{\sub{m}}}
-\DeclareUnicodeCharacter{2099}{{\sub{n}}}
+%\DeclareUnicodeCharacter{1D62}{{\sub{i}}}
+%\DeclareUnicodeCharacter{2C7C}{{\sub{j}}}
+%\DeclareUnicodeCharacter{2096}{{\sub{k}}}
+%\DeclareUnicodeCharacter{2097}{{\sub{l}}}
+%\DeclareUnicodeCharacter{2098}{{\sub{m}}}
+%\DeclareUnicodeCharacter{2099}{{\sub{n}}}
 
-\catcode`ᵢ=\active
-\catcode`ⱼ=\active
-\catcode`ₖ=\active
-\catcode`ₗ=\active
-\catcode`ₘ=\active
-\catcode`ₙ=\active
 
-\defᵢ{\sub{i}}
-\defⱼ{\sub{j}}
-\defₖ{\sub{k}}
-\defₗ{\sub{l}}
-\defₘ{\sub{m}}
-\defₙ{\sub{n}}
+
+%\catcode`ᵢ=\active
+%\catcode`ⱼ=\active
+%\catcode`ₖ=\active
+%\catcode`ₗ=\active
+%\catcode`ₘ=\active
+%\catcode`ₙ=\active
+%
+%\defᵢ{\sub{i}}
+%\defⱼ{\sub{j}}
+%\defₖ{\sub{k}}
+%\defₗ{\sub{l}}
+%\defₘ{\sub{m}}
+%\defₙ{\sub{n}}
 
 
 
@@ -126,7 +128,7 @@
 
 \section*{Multiple subscripts}
 \begin{tabular}{l}
-$a_{ijklmn}$ \\ 
+$a_{ijklmn}$ \\
 $a\sb\bgroup{ijklmn}\egroup$ \\
 $a\sub{i}\sub{j}\sub{k}\sub{l}\sub{m}\sub{n}$ \\
 $aᵢⱼₖₗₘₙ$
@@ -138,12 +140,12 @@ $aᵢⱼₖₗₘₙ$
 % $a_{i}$ \\
 % $a\sb\bgroup{i}\egroup$ \\
 % $a\subscript{i}$ \\
-% $aᵢ$ 
+% $aᵢ$
 % \end{tabular}
 
 % \section*{Two subscripts}
 % \begin{tabular}{l}
-% $a_{ij}$ \\ 
+% $a_{ij}$ \\
 % $a\sb\bgroup{ij}\egroup$ \\
 % $a\subscript{i}\subscript{j}$ \\
 % $aᵢⱼ$
@@ -152,31 +154,31 @@ $aᵢⱼₖₗₘₙ$
 
 % \section*{All superscripts}
 % \begin{tabular}{l}
-% $a^{ijkl}$ \\ 
+% $a^{ijkl}$ \\
 % $aⁱʲᵏˡ$
 % \end{tabular}
 
 % \section*{One superscript followed by one subscript}
 % \begin{tabular}{l}
-% $a^{i}_{j}$ \\ 
+% $a^{i}_{j}$ \\
 % $aⁱⱼ$
 % \end{tabular}
 
 % \section*{One subscript followed by one superscript}
 % \begin{tabular}{l}
-% $a_{j}^{i}$ \\ 
+% $a_{j}^{i}$ \\
 % $aⱼⁱ$
 % \end{tabular}
 
 % \section*{Long sub+supscript}
 % \begin{tabular}{l}
-% $a^{ijkl}_{ijkl}$ \\ 
+% $a^{ijkl}_{ijkl}$ \\
 % $aⁱʲᵏˡᵢⱼₖₗ$
 % \end{tabular}
 
 % section*{sequence of alternating sub+supscripts}
 % \begin{tabular}{l}
-% $a^{ij}_{kl}$ \\ 
+% $a^{ij}_{kl}$ \\
 % $aⁱₗʲₗ$
-% \end{tabular} 
+% \end{tabular}
 \end{document}

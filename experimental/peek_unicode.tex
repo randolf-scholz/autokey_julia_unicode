@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+
+% Define your replacement text as usual
+\def\smiley{:-)}
+
+% Redefine newunicodechar to also save the replacement in a command
+\let\oldnewunicodechar\newunicodechar
+\renewcommand{\newunicodechar}[2]{%
+  \oldnewunicodechar{#1}{#2}%
+  \expandafter\def\csname myuni#1\endcsname{#2}%
+}
+
+% Define the \peek command
+\newcommand{\peek}{%
+  \futurelet\next\dopeek
+}
+
+\newcommand{\dopeek}{%
+	\typeout{Saw \meaning\next}
+  \ifx\next\bgroup
+    \expandafter\aftergroup
+  \fi
+
+  \expandafter\ifx\csname myuni\next\endcsname\relax
+    \errmessage{No replacement found for '\meaning\next'.}%
+  \else
+    \csname myuni\next\endcsname
+  \fi
+}
+
+% Register the Unicode character with its replacement
+\newunicodechar{😄}{\smiley}
+
+\begin{document}
+
+😄
+\peek{😄}
+
+\end{document}
