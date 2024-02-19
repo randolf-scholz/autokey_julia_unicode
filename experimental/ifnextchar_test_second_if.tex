@@ -1,0 +1,215 @@
+
+\RequirePackage{iftex}
+
+\documentclass{article}
+
+\ifPDFTeX
+	\usepackage[utf8]{inputenc}
+\fi
+\usepackage{etoolbox}
+\usepackage{newunicodechar}
+\usepackage{amsmath}
+
+
+
+\AtBeginDocument{
+
+\ifPDFTeX
+	\typeout{>>> USING PDFLATEX <<<}
+	\newunicodechar{ᵢ}{{\sub{i}}}
+	\newunicodechar{ⱼ}{{\sub{j}}}
+	\newunicodechar{ₖ}{{\sub{k}}}
+	\newunicodechar{ₗ}{{\sub{l}}}
+	\newunicodechar{ₘ}{{\sub{m}}}
+	\newunicodechar{ₙ}{{\sub{n}}}
+%	\DeclareUnicodeCharacter{1D62}{\sub{i}}
+%	\DeclareUnicodeCharacter{2C7C}{\sub{j}}
+%	\DeclareUnicodeCharacter{2096}{\sub{k}}
+%	\DeclareUnicodeCharacter{2097}{\sub{l}}
+%	\DeclareUnicodeCharacter{2098}{\sub{m}}
+%	\DeclareUnicodeCharacter{2099}{\sub{n}}
+\fi
+
+\ifLuaTeX
+	\typeout{>>> USING LUALATEX <<<}
+	\newunicodechar{ᵢ}{\sub{i}}
+	\newunicodechar{ⱼ}{\sub{j}}
+	\newunicodechar{ₖ}{\sub{k}}
+	\newunicodechar{ₗ}{\sub{l}}
+	\newunicodechar{ₘ}{\sub{m}}
+	\newunicodechar{ₙ}{\sub{n}}
+%	\DeclareUnicodeCharacter{1D62}{\sub{i}}
+%	\DeclareUnicodeCharacter{2C7C}{\sub{j}}
+%	\DeclareUnicodeCharacter{2096}{\sub{k}}
+%	\DeclareUnicodeCharacter{2097}{\sub{l}}
+%	\DeclareUnicodeCharacter{2098}{\sub{m}}
+%	\DeclareUnicodeCharacter{2099}{\sub{n}}
+\fi
+
+}
+
+
+\begingroup
+  \catcode`@=11
+  \long\gdef\firstofmany#1{\@firstofmany#1\@marker}
+  \long\gdef\@firstofmany#1#2\@marker{\unexpanded{#1}}
+\endgroup
+
+
+
+%%% Attempt to expand \foo and handle errors.
+%\newcommand{\testexpansion}{
+%  \edef\result{\noexpand\relax} % Default to \relax
+%  \begingroup
+%  \edef\temp{
+%    \noexpand\expandafter\noexpand\foo
+%  }
+%  \expandafter\endgroup\temp
+%  \ifx\temp\relax
+%    % Error case: \foo expansion failed, \result already set to \relax
+%  \else
+%    \edef\result{\temp} % Store successful expansion of \foo in \result
+%  \fi
+%}
+%
+%% Attempt to expand \foo and handle errors.
+%\newcommand{\testexpansion}[2]{
+%  % Begin a group to localize any changes
+%  \begingroup
+%    % Try to expand the command given as #2
+%    \edef\temp{\noexpand#2}
+%    % End the group but keep the result for testing
+%    \expandafter\endgroup\temp
+%    % Test if the expansion was successful and store the result in #1
+%    \ifx\temp\relax
+%      \def#1{\relax} % If expansion fails, store \relax in #1
+%    \else
+%      \edef#1{\temp} % Store successful expansion in #1
+%    \fi
+%}
+%
+%
+
+
+
+
+\makeatletter
+\newtoggle{insub}
+\newtoggle{testingmode}
+\def\@ExpandSub{%
+    \typeout{------------- Expanding subscript -------------------}%
+    \typeout{Input: \meaning\@input}%
+    \typeout{Followup: \meaning\@following}%
+    % if \@following is \UTFviii@three@octets, get the replacement text
+
+
+    \ifx\@following\UTFviii@three@octets%  <--- doesn't work!
+        \typeout{>>> That's unicode!}%
+    \else%
+        \typeout{>>> That's NOT unicode...}%
+%        \let\@actual\@following
+    \fi%
+
+	\@ifnextchar\UTFviii@three@octets{%
+        \typeout{>>> That's unicode!}%
+    }{%
+        \typeout{>>> That's NOT unicode...}%
+%        \let\@actual\@following
+    }%
+
+    \iftoggle{insub}{%
+        \@input%
+    }{%
+        \toggletrue{insub}%
+        \sb\bgroup\@input%
+    }%
+
+
+	% check if the subsequent item is also a `\sub`
+	\toggletrue{testingmode}
+	\edef\@actual{\expandafter\empty\@following}% <-- works in LUA!
+	\typeout{Actual is \meaning\@actual}
+
+	\ifx\@actual\continue@subscript%
+        \typeout{ ---- keep going! ----}%
+    \else%
+        \typeout{ ---- Stop! ---- }%
+        \egroup\togglefalse{insub}%
+    \fi%
+	\togglefalse{testingmode}
+}%
+
+\def\continue@subscript{\relax}
+\def\sub#1{%
+	\iftoggle{testingmode}{%
+		\continue@subscript%
+	}{%
+		\let\@input#1%
+		\futurelet\@following\@ExpandSub%
+	}%
+}%
+\makeatother
+
+
+\newcommand{\needsthree}[3]{#3#2#1}
+\newcommand{\needsnone}{42}
+\protected\def\foo{\needsthree}
+\protected\def\bar{\needsnone}
+\edef\result{\expandafter\empty\bar}
+\typeout{>>>>>>>>>>>>>>>>>>> RESULT: \meaning\needsthree}
+\typeout{>>>>>>>>>>>>>>>>>>> RESULT: \meaning\result}
+
+
+
+\begin{document}
+\begin{tabular}{l}
+$a_{ijklmn}$ \\
+%$a\chain{i}\chain{j}\chain{k}\chain{l}\chain{m}\chain{n}$ \\
+$aᵢ^{j}$ \\
+%$aᵢ\needsthree 123$ \\
+%$a\sub{i}\sub{j}\sub{k}\sub{l}\sub{m}\sub{n}$ \\
+% $a\sub[i]\sub[j]\sub[k]\sub[l]\sub[m]\sub[n]$ \\
+$aᵢⱼₖₗₘₙ$
+\end{tabular}
+
+%
+%\def\a{\b}\def\b{c}
+%\message{Hello \a\space #}
+%\detokenize\expandafter{\expanded{Hello \a\space #}} \\
+%\detokenize{\expanded{Hello \a\space #}} \\
+%\detokenize\expandafter{Hello \a\space #} \\
+%\detokenize{Hello \a\space #} \\
+%\bye
+\end{document}
+
+%
+%
+%\def\bar{>bar<}
+%\def\foo{\bar} % Direct definition
+%\protected\def\protectedfoo{\bar} % Indirect protected definition
+%
+%
+%
+%\newcommand{\comparemacros}[2]{%
+%	Input 1: \meaning#1
+%    Input 2: \meaning#2
+%
+%
+%  \edef\firstexpansion{\detokenize\expandafter{#1}}%
+%  \edef\secondexpansion{\detokenize\expandafter{#2}}%
+%  \ifdefstring{\firstexpansion}{\secondexpansion}{%
+%    True: \texttt{\meaning#1} is equivalent to \texttt{\meaning#2}.%
+%  }{%
+%    False: \texttt{\meaning#1} is not equivalent to \texttt{\meaning#2}.%
+%  }%
+%}
+%
+%
+%
+%
+%\comparemacros{\foo}{\bar}
+%
+%\comparemacros{\protectedfoo}{\bar}
+%
+%
+%
