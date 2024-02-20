@@ -1,0 +1,369 @@
+\documentclass{minimal}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage{etoolbox}
+
+\makeatletter
+
+
+
+
+%% Define the macro to capture three tokens and then execute a command
+%\def\capturethree#1#2#3#4{%
+%  % #1 is the command to be executed after capturing
+%  % #2, #3, #4 are the placeholders for the tokens to be captured
+%  \def\first{#2}% Store the first token
+%  \def\second{#3}% Store the second token
+%  \def\third{#4}% Store the third token
+%  \def\next{#1}% The command to execute
+%  \futurelet\firstToken\captureFirst% Start capturing process
+%}
+%
+%% Define auxiliary macros for capturing tokens
+%\def\captureFirst#1{%
+%  \let\first=#1% Capture the first token
+%  \futurelet\secondToken\captureSecond% Proceed to capture the second token
+%}
+%
+%\def\captureSecond#1{%
+%  \let\second=#1% Capture the second token
+%  \futurelet\thirdToken\captureThird% Proceed to capture the third token
+%}
+%
+%\def\captureThird#1{%
+%  \let\third=#1% Capture the third token
+%  \next\first\second\third% Execute the command with the captured tokens
+%}
+%
+%
+%
+
+%\def\copythree#1{%
+%  % #1 is the command to execute with the captured tokens
+%  \typeout{>>> COPY4MACRO \meaning#1}
+%  \def\nextcommand{#1}% Store the command for later use
+%  \futurenextroutine% Start the token capturing process
+%}
+%
+%\def\ignoreOneCopyFour#1#2#3#4#5{%
+%%\typeout{INPUT 1: \meaning#1}%
+%%\typeout{INPUT 2: \meaning#2}%
+%%\typeout{INPUT 3: \meaning#3}%
+%%\typeout{INPUT 4: \meaning#4}%
+%%\typeout{INPUT 4: \meaning#5}%
+%#2#3#4#5#1#2#3#4#5%
+%%	% transforms the token sequence \ignoreOneCopyFour#0#1#2#3#4 into #1#2#3#4#0#1#2#3#4.
+%%	\let\@firstcs=#1%
+%%	\@caputureFirstToken%
+%}
+%
+%\def\@caputureFirstToken{%
+%  \afterassignment\@captureSecondToken% After capturing the first token, move to capture the second
+%  \def\@firsttoken=% Capture the first token
+%}
+%
+%\def\@captureSecondToken{%
+%  \afterassignment\@captureThirdToken% After capturing the second token, move to capture the third
+%  \let\@secondtoken=% Capture the second token
+%}
+%
+%\def\@captureThirdToken{%
+%  \afterassignment\@captureFourthToken%
+%  \let\@thirdtoken=% Capture the third token
+%}
+%
+%\def\@captureFourthToken{%
+%  \afterassignment\@constructSequence%
+%  \let\@fourthtoken=% Capture the third token
+%}
+%
+%\def\@constructSequence{%
+%%  #1#2#3% Print the captured tokens
+%\typeout{CS 1: \meaning\@firstcs}%
+%%\typeout{CS 2: \meaning\@secondcs}%
+%\typeout{INPUT 1: \meaning\@firsttoken}%
+%\typeout{INPUT 2: \meaning\@secondtoken}%
+%\typeout{INPUT 3: \meaning\@thirdtoken}%
+%\typeout{INPUT 4: \meaning\@fourthtoken}%
+%%
+%%
+%\noexpand\@firsttoken\noexpand\@secondtoken\noexpand\@thirdtoken\noexpand\@fourthtoken%
+%\@firstcs%
+%\noexpand\@firsttoken\noexpand\@secondtoken\noexpand\@thirdtoken\noexpand\@fourthtoken%
+%%
+%}
+
+%
+%
+%\def\copythree#1{%
+%  % #1 is the command to be executed with the captured tokens
+%  \def\nextcommand{#1}% Store the command for later use
+%  \copythreeaux % Proceed to capture the next three tokens
+%}
+%
+%\def\copythreeaux#1#2#3{%
+%  #1#2#3% Output the tokens as they were input
+%  \nextcommand{#1}{#2}{#3}% Then repeat them as arguments to the stored command
+%}
+%
+%
+
+
+%
+%
+%
+%
+%\def\continue@subscript{\relax}
+%
+%\newcommand{\@unisubA}{%
+%	\iftoggle{check@subscript}{%
+%		\continue@subscript%
+%	}{%
+%		\iftoggle{subscript}{%
+%		}{%
+%			<START>%\sb\bgroup%
+%		}%
+%	}
+%}%
+%
+%\newcommand{\@unisubB}[5]{%
+%	\typeout{------------------------------------------------------------------}
+%	\typeout{INPUT 1: \meaning#1}%
+%%	\typeout{INPUT 2: \meaning#2}%
+%%	\typeout{INPUT 3: \meaning#3}%
+%%	\typeout{INPUT 4: \meaning#4}%
+%%	\typeout{INPUT 5: \meaning#5}%
+%%	\typeout{INPUT 6: \meaning#6}%
+%%	\typeout{INPUT 7: \meaning#7}%
+%%	\typeout{INPUT 8: \meaning#8}%
+%
+%	% NOTE: we want the unicode-branch to come second, so we use \unless here
+%%	\unless\ifx#1\UTFviii@three@octets%
+%%		\ifx#1\@unisubA%
+%%			\typeout{  >>> Enter subscript mode}
+%%			\toggletrue{subscript}
+%%		\else
+%%			\typeout{  >>> Exit subscriptmode}
+%%			<STOP>
+%%%			\egroup%
+%%			\togglefalse{subscript}
+%%		\fi
+%%%		\@ifnextchar\@unisubA{\toggletrue{subscript}}{\egroup\togglefalse{subscript}}%
+%%	\fi%
+%%		\@ifnextchar\@unisubA{\toggletrue{subscript}}{\egroup\togglefalse{subscript}}%
+%
+%%		\expandafter\expandafter\expandafter\@unisubC#1#2#3%
+%%		\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\@unisubB%
+%%		\expandafter\expandafter\expandafter\ignoreOneCopyFour%
+%		%
+%
+%
+%
+%
+%%	\ifcsname u8:#1#2#3\endcsname%
+%%		\typeout{  >>> Expand Unicode Duplet}%
+%%		\expandafter\@unisubC\csname u8:#1#2#3\endcsname
+%%	\fi
+%
+%	\let\@token#1%
+%	\typeout{The token: \meaning\@token}
+%
+%	\ifcsname u8:#1#2#3#4\endcsname%
+%		\typeout{  >>> Expand Unicode Triplet}%
+%		\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname
+%		\expandafter\@unisubC\csname u8:#1#2#3#4\endcsname
+%	\fi
+%
+%	\ifcsname u8:#1#2#3#4#5\endcsname%
+%		\typeout{  >>> Expand Unicode Quadruplet}%
+%		\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname
+%%		\expandafter\@unisubC\csname u8:#1#2#3#4#5\endcsname
+%	\fi
+%
+%	\typeout{The token EXPANDED: \meaning\@token}
+%
+%	\ifx#1\@unisubA%
+%		\typeout{  >>> Enter subscript mode}
+%		\toggletrue{subscript}
+%	\else
+%		\typeout{  >>> Exit subscriptmode}
+%		<STOP>
+%%			\egroup%
+%		\togglefalse{subscript}
+%	\fi
+%
+%	#1#2#3#4#5% <-- append the tokens again!
+%}%
+%
+%\newcommand{\@unisubC}[1]{
+%	\typeout{ >> RECEIVED 1 \meaning#1}
+%%	\typeout{ >> RECEIVED 2 \meaning#1}
+%%	\edef\Actual{#1}
+%	\if#1\@unisubA%
+%		\typeout{ (C) >>> Enter subscript mode}
+%		<START>
+%		\toggletrue{subscript}
+%	\else
+%		\typeout{ (C) >>> Exit subscriptmode}
+%		<STOP>
+%		\togglefalse{subscript}
+%	\fi
+%}
+
+
+\newunicodechar{😄}{Smile!}
+\newcommand{\reinsertfour}[4]{
+	\typeout{REINSERTING 1: \meaning#1}
+	#1#2#3#4
+}
+
+
+\newtoggle{subscript@continue}
+\newtoggle{check@subscript}
+
+\newcommand{\subscript}[1]{
+    \iftoggle{subscript@continue}{%
+        #1%
+    }{%
+        \sb\bgroup{#1}%
+        \toggletrue{subscript@continue}%
+    }%
+
+	% Test whether to terminate the subscript
+	% NOTE: need expandafter to deal with subsequent unicode!
+	\expandafter\subscript@check@dispatch%
+    % test if the next character is also a chain
+%    \@ifnextchar{\sub}{}{\egroup\togglefalse{insub}}%
+}
+
+\newcommand{\subscript@check@dispatch}[1]{%
+	\typeout{------------------------------------------------------------------}
+
+	% check if subscript@successor is unicode. In this case, dispatch the correct combinator.
+%	\let\subscript@successor#1%
+	\typeout{The successor: \meaning#1}
+
+	\ifx#1\UTFviii@four@octets%
+		\typeout{ >>> Unicode 4 octets}
+		\def\subscript@test{\subscript@check@unicode@four}%
+	\else\ifx#1\UTFviii@three@octets%
+		\typeout{ >>> Unicode 3 octets}
+		\def\subscript@test{\subscript@check@unicode@three}%
+	\else\ifx#1\UTFviii@two@octets%
+		\typeout{ >>> Unicode 2 octets}
+		\def\subscript@test{\subscript@check@unicode@two}%
+	\else
+		\typeout{ >>> Not Unicode}
+		\def\subscript@test{\subscript@check@default}%
+	\fi\fi\fi
+	\subscript@test#1% reinsert first token
+}%
+
+
+\newcommand{\subscript@check@unicode@four}[4]{
+	\ifcsname u8:#1#2#3#4\endcsname%
+		\typeout{  >>> Expand Unicode Quadruplet}%
+		\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname%
+		\expandafter\let\expandafter\@token\@token% expand replacement once
+	\else
+		\let\@token=\relax
+	\fi
+	% reinsert 4 tokens
+	#1#2#3#4%
+}
+
+\newcommand{\subscript@check@unicode@three}[3]{
+	\ifcsname u8:#1#2#3\endcsname%
+		\typeout{  >>> Expand Unicode Triplet}%
+		\expandafter\let\expandafter\@token\csname u8:#1#2#3\endcsname%
+		\expandafter\let\expandafter\@token\@token% expand replacement once
+	\else
+		\let\@token=\relax
+	\fi
+
+	% reinsert 3 tokens
+	#1#2#3%
+}
+
+\newcommand{\subscript@check@unicode@two}[2]{
+	\ifcsname u8:#1#2\endcsname%
+		\typeout{  >>> Expand Unicode Triplet}%
+		\expandafter\let\expandafter\@token\csname u8:#1#2\endcsname%
+		\expandafter\let\expandafter\@token\@token% expand replacement once
+	\else
+		\let\@token=\relax
+	\fi
+
+	% reinsert 2 tokens
+	#1#2%
+}
+
+
+
+
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+\makeatother
+
+\def\needsthree#1#2#3{#3#2#1}
+
+
+% Assume \hidden is defined somewhere
+\def\hidden#1{argument #1 !}
+\def\foo{Hidden}
+
+% Creating aliases
+\let\foo=\hidden
+\let\bar=\hidden
+
+% Now, to compare \foo and \bar without expanding \hidden
+\ifx\foo\bar
+    % The true branch, executed if \foo and \bar have the same meaning
+    \typeout{>>>>>>>>>>>>>> foo and bar are aliases to the same macro.}
+\else
+    % The false branch, executed if \foo and \bar do not have the same meaning
+    \typeout{>>>>>>>>>>>>>>>> foo and bar are not aliases to the same macro.}
+\fi
+
+\begin{document}
+%\tracingmacros=2  \tracingcommands=2
+
+\reinsertfour😄12345
+
+\begin{tabular}{l}
+   $a_{ijklmn}$ \\
+%	$aᵢ123456789$ \\
+   $aᵢⱼ123456789$ \\
+   $aᵢⱼₖ123456789$
+\end{tabular}
+%
+%% spacing test supscript
+%\begin{tabular}{l}
+%   $a^{ijklmn}$ \\ $aⁱʲᵏˡᵐⁿ$
+%\end{tabular}
+%
+%% comined test
+%\begin{tabular}{l}
+%   $a^{i}_{j}$ \\ $aⁱⱼ$
+%\end{tabular}
+%
+%% reverse comined test
+%\begin{tabular}{l}
+%   $a_{j}^{i}$ \\ $aⱼⁱ$
+%\end{tabular}
+%
+%% long sub+supscript
+%\begin{tabular}{l}
+%   $a^{ijklmn}_{ijklmn}$ \\ $aⁱʲᵏˡᵐⁿᵢⱼₖₗₘₙ$
+%\end{tabular}
+
+% multiple sub+supscripts
+% \begin{tabular}{l}
+%    $a^{ij}_{kl}$ \\ $aⁱₗʲₗ$   % Error: Double subscript. (fair enough!)
+% \end{tabular}
+
+\end{document}
