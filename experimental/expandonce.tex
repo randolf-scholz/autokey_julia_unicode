@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{etoolbox}
+
+\def\mymacro#1{Does something with #1}
+\def\foo{\mymacro{1}}
+\def\bar{\mymacro{2}}
+\def\baz{\mymacro{3}}
+\def\qux{\mymacro{4}\extra}
+\def\mymacrosecond{\something\mymacro{3}}
+\def\nomymacro{\something\different}
+\def\nomultiple{\something\different\entirely\here}
+\def\hiddenmymacro{\foo}
+
+
+
+
+\makeatletter
+
+\def\getfirsttok#1#2{
+	% stores the first token of #2 in #1, without expansion.
+%	\edef\@input{\expandonce{#2}}%
+	\def\@extract##1##2\@terminator{\let#1=##1}%
+	\expandafter\@extract#2\@terminator%
+}
+
+\newcommand{\startswithmymacro}[1]{%
+	\begingroup
+	\getfirsttok{\result}{#1}
+	\typeout{The Result : \meaning\result}
+	\ifx\result\mymacro T\else F\fi
+%   \edef\@tempa{\expandonce{#1}}%
+%   \def\@tempb##1##2\@terminator{\def\@tempc{##1}}%
+%   \expandafter\@tempb\@tempa\@terminator%
+%   \expandafter\ifx\@tempc\mymacro T\else F\fi
+   \endgroup
+}
+\makeatother
+
+\begin{document}
+
+\startswithmymacro{\foo} % true
+\startswithmymacro{\bar} % true
+\startswithmymacro{\baz} % true
+\startswithmymacro{\qux} % true
+\startswithmymacro{\mymacrosecond} % false
+\startswithmymacro{\nomymacro} % false
+\startswithmymacro{\hiddenmymacro} % false
+\startswithmymacro{\nomultiple} % false
+\end{document}
