@@ -7,51 +7,6 @@
 
 \newtoggle{subscript@continue}
 
-\newcommand{\subscript}[1]{%
-\iftoggle{subscript@continue}{%
-	%
-	#1%
-	%
-}{%
-	\toggletrue{subscript@continue}%
-	\let\subscript@list=\relax%
-	\ifmmode%
-		\def\subscript@list{\sb\bgroup}
-		\sb{#1\subscript@connect}%
-	\else%
-		\textsubscript{#1\subscript@connect}%
-	\fi%
-}%
-%%
-%#1%
-%%
-%\futurelet\subscript@successor\subscript@check@dispatch%
-}
-
-\newcommand{\subscript@finalize}{%
-\ifmmode%
-	\sb\bgroup\subcript@list\egroup%
-\else%
-	\
-
-}
-
-%\newcommand{\subscript}[1]{
-%\ifmmode%
-%	\sb\bgroup%
-%\else
-%	\textsubscript\begingroup%
-%\fi
-%}%
-%%
-%#1%
-%%
-%\futurelet\subscript@successor\subscript@check@dispatch%
-%}
-
-
-
-
 
 \def\getfirsttok#1#2{
 	% stores the first token of #2 in #1, without expansion.
@@ -61,28 +16,88 @@
 }
 
 
-\newcommand{\subscript@check@dispatch}{%
-% check if subscript@successor is unicode. In this case, dispatch the correct combinator.
-%	\let\subscript@successor#1%
-\typeout{>>> The successor: \meaning\subscript@successor}
+\protected\long\def\appto#1#2{%
+  \edef#1{%
+    \unexpanded\expandafter{#1#2}%
+  }%
+}
+
+\newtoggle{subscript@stop}
+
+\def\subscript@start{\relax}  % marker for the start of a subscript
+\let\subscript@list\subscript@start%
+
+\newcommand{\subscript}[1]{%
 %
-% inspect the first token
-\getfirsttok{\subscript@successor}{\subscript@successor}
-\typeout{>>> The result: \meaning\subscript@successor}
+% 1. If we are already in a subscript, \subscript appends the given tokens to the \subscript@list
+%    Else, it resets the \subscriptlist
+% 2. Executes \subscript@checknext which determines if the next character is also a subscript.
+%    In this case, we go back to 1, else we stop the process.
+%
+\ifx\subscript@list\subscript@start%
+	% start the subscript
+	\toggletrue{subscript@continue}%
+	% insert the first item
+	\def\subscript@list{#1}%
+\else%
+	% append to existing list
+	\appto{\subscript@list}{#1}%
+\fi%
+%
+%
+% Check the next token to determine whether to switch of subscript@continue
+% This will peek at one or multiple tokens, but reinsert them without modification.
+% Also, this will not add any content to the document or the \subscript@list.
+%
+\futurelet\subscript@successor\subscript@check@dispatch%
+}
+
+\newcommand{\subscript@finalize}{
+%
+\typeout{Terminating with current list '\meaning\subscript@list'}%
+%
+% write the subscript
+\ifmmode%
+	\edef\subsctript@actual{\sb\bgroup\subscript@list\egroup}%
+	\typeout{ >>> Inserting '\meaning\subsctript@actual'}%
+	\sb\bgroup\subscript@list\egroup%
+\else%
+	\edef\subsctript@actual{\sb\bgroup\subscript@list\egroup}%
+	\typeout{ >>> Inserting '\meaning\subsctript@actual'}%
+	\textsubscript{\subscript@list}%
+\fi%
+% reset the list
+\let\subscript@list\subscript@start%
+%
+}
+
+
+\newcommand{\subscript@check@dispatch}{%
+%
+% Chooses how many tokens to grab and dispatches the correct test command.
+%
+\typeout{>>> The successor: \meaning\subscript@successor}%
+%
+% inspect the first token of the successor
+%
+\getfirsttok{\subscript@successor}{\subscript@successor}%
+\typeout{>>> The result: \meaning\subscript@successor}%
+%
+% Choose the test command
 %
 \ifx\subscript@successor\UTFviii@four@octets%
-	\typeout{ >>> Unicode 4 octets}
+	\typeout{ >>> Unicode 4 octets}%
 	\def\subscript@test{\subscript@check@unicode@four}%
 \else\ifx\subscript@successor\UTFviii@three@octets%
-	\typeout{ >>> Unicode 3 octets}
+	\typeout{ >>> Unicode 3 octets}%
 	\def\subscript@test{\subscript@check@unicode@three}%
 \else\ifx\subscript@successor\UTFviii@two@octets%
-	\typeout{ >>> Unicode 2 octets}
+	\typeout{ >>> Unicode 2 octets}%
 	\def\subscript@test{\subscript@check@unicode@two}%
-\else
-	\typeout{ >>> Not Unicode}
+\else%
+	\typeout{ >>> Not Unicode}%
 	\def\subscript@test{\subscript@check@default}%
-\fi\fi\fi
+\fi\fi\fi%
 %
 % dispatch the test command.
 %
@@ -100,7 +115,9 @@
 	\GenericError{}{... does not define a macro...}{}{}
 	\let\@token=\relax
 \fi
-% reinsert 4 tokens
+%
+\typeout{ Reinserting '\meaning#1#2#3#4'}%
+%
 #1#2#3#4%
 }
 
@@ -114,7 +131,9 @@
 	\GenericError{}{... does not define a macro...}{}{}
 	\let\@token=\relax
 \fi
-% reinsert 3 tokens
+%
+\typeout{ Reinserting '\meaning#1#2#3'}%
+%
 #1#2#3%
 }
 
@@ -123,34 +142,41 @@
 	\typeout{  >>> Expand Unicode Triplet}%
 	\expandafter\let\expandafter\@token\csname u8:#1#2\endcsname%
 	\getfirsttok{\@result}{\@token}
-	\subscript@check{\@token}
+	\subscript@check{\@result}
 \else
 	\GenericError{}{... does not define a macro...}{}{}
 	\let\@token=\relax
 \fi
-% reinsert 2 tokens
+%
+\typeout{ Reinserting '\meaning#1#2'}%
+%
 #1#2%
 }
 
 \newcommand{\subscript@check@default}[1]{% grabs 1 token
+%
+% Get the first token of the successor
+%
 \getfirsttok{\@result}{#1}%
 \subscript@check{\@result}%
+%
+\typeout{ Reinserting '\meaning#1'}
+%
 #1%
 }
 
-\def\subscript@check#1{
-\typeout{Testing against '\meaning#1'}
-\ifx#1\subscript%
-	\typeout{Keep going!}
-	\def\subscript@check@next{#1}
-\else
-	\typeout{Terminating!}
-	\togglefalse{subscript@continue}
-	\def\subscript@check@next{\relax}
-%	\ifmmode\egroup\else\endgroup\fi
-\fi
+\newcommand{\subscript@check}[1]{%
 %
-\subscript@check@next%
+% Check if the input is a subscript
+%
+\typeout{Testing against '\meaning#1'}
+%
+\ifx#1\subscript%
+	\typeout{keep going}%
+\else
+	\typeout{Terminating!}%
+	\subscript@finalize%
+\fi%
 %
 }
 
@@ -171,6 +197,6 @@
 %\tracingmacros=2  \tracingcommands=2
 %$\shownine\shownine0ᵢⱼ123456789$
 
-Start: $aₖ$xxa\textsubscript{k}b aₖb
+Start: $aₖ123$ and $bᵢⱼ123$ and $cᵢⱼₖ123$
 
 \end{document}
