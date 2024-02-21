@@ -1,0 +1,233 @@
+% !TeX root = ./subscript.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{subscript}[2024/02/21 Combining Subscripts]
+
+
+%Package Options
+
+
+%region utilities --------------------------------------------------------------
+% variables used by the package
+\newif\ifsubscript@debug\subscript@debugtrue%  Debug flag
+
+\newcommand{\subscript@log}[1]{%
+%
+% Prints the given message if the debug flag is set.
+%
+\ifsubscript@debug%
+	\PackageInfo{subscript}{#1}%
+\fi%
+}
+
+\newcommand{\subscript@start}{\relax}%  marker for the start of a subscript
+\let\subscript@list=\subscript@start%  Initialize the list
+%endregion utilities -----------------------------------------------------------
+
+
+
+% region public interface ------------------------------------------------------
+\newcommand{\subscript}[1]{%
+%
+% 1. If we are already in a subscript, \subscript appends the given tokens to the \subscript@list
+%    Else, it resets the \subscriptlist
+% 2. Executes \subscript@checknext which determines if the next character is also a subscript.
+%    In this case, we go back to 1, else we stop the process.
+%
+\ifx\subscript@list\subscript@start%
+	% Initialize the list with the first token
+	\def\subscript@list{#1}%
+\else%
+	% append token to existing list
+	\subscript@list@append{#1}%
+\fi%
+%
+% Check the next token to determine whether to switch of subscript@continue
+% This will peek at one or multiple tokens, but reinsert them without modification.
+% Also, this will not add any content to the document or the \subscript@list.
+%
+\futurelet\subscript@successor\subscript@check@dispatch%
+}
+% endregion public interface ---------------------------------------------------
+
+
+
+% region private implementation ------------------------------------------------
+\newcommand{\subscript@finalize}{%
+%
+\subscript@log{Terminating with current list '\meaning\subscript@list'}%
+%
+\ifmmode%
+	% \edef\subscript@actual{\sb\bgroup\subscript@list\egroup}%
+	\subscript@log{ >>> Inserting '\meaning\subscript@list'}%
+	\sb\bgroup\subscript@list\egroup%
+\else%
+	% \edef\subscript@actual{\textsubscript{\subscript@list}}%
+	\subscript@log{ >>> Inserting '\meaning\subscript@list'}%
+	\textsubscript{\subscript@list}%
+\fi%
+%
+% reset the list
+\let\subscript@list\subscript@start%
+%
+}
+
+
+\newcommand{\subscript@check@dispatch}{%
+%
+% Chooses how many tokens to grab and dispatches the correct test command.
+%
+% \subscript@log{>>> The successor: \meaning\subscript@successor}%
+%
+% inspect the first token of the successor
+%
+% \getfirsttok{\subscript@successor}{\subscript@successor}%
+% \expandafter\futurelet\expandafter\subscript@successor\expandafter\subscript@drop\subscript@successor\subscript@drop%
+% Choose the test command
+%
+% \show\subscript@successor%
+%
+\ifx\subscript@successor\subscript%
+	\subscript@log{ >>> Direct Subscript}%
+	\def\subscript@test{\subscript@check@default}%
+\else%
+	\letfirsttok{\subscript@peekfirsttok}{\subscript@successor}%
+\ifx\subscript@peekfirsttok\UTFviii@two@octets%
+	\subscript@log{ >>> Unicode 2 octets}%
+	\def\subscript@test{\subscript@check@unicode@two}%
+\else\ifx\subscript@peekfirsttok\UTFviii@three@octets%
+	\subscript@log{ >>> Unicode 3 octets}%
+	\def\subscript@test{\subscript@check@unicode@three}%
+\else\ifx\subscript@peekfirsttok\UTFviii@four@octets%
+	\subscript@log{ >>> Unicode 4 octets}%
+	\def\subscript@test{\subscript@check@unicode@four}%
+\else%
+	% \PackageError{subscript}{Unreachable}{Try somehing else}%
+	\subscript@log{ >>> Not Unicode}%
+	\def\subscript@test{\subscript@check@default}%
+\fi\fi\fi\fi%
+%
+% dispatch the test command.
+%
+\subscript@test%
+}%
+
+
+\newcommand{\subscript@check@unicode@four}[4]{% grabs 4 tokens
+%
+\subscript@log{>>> Expand Unicode Quadruplet}%
+%
+\unless\ifcsname u8:#1#2#3#4\endcsname%
+	\PackageError{subscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\subscript@token\csname u8:#1#2#3#4\endcsname%
+\subscript@check{\subscript@token}
+%
+\subscript@log{Reinserting '\meaning#1#2#3#4'}%
+#1#2#3#4%
+}
+
+
+\newcommand{\subscript@check@unicode@three}[3]{% grabs 3 tokens
+%
+\subscript@log{>>> Expand Unicode Triplet}%
+%
+\unless\ifcsname u8:#1#2#3\endcsname%
+	\PackageError{subscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\subscript@token\csname u8:#1#2#3\endcsname%
+\subscript@check{\subscript@token}
+%
+\subscript@log{Reinserting '\meaning#1#2#3'}%
+#1#2#3%
+}
+
+
+\newcommand{\subscript@check@unicode@two}[2]{% grabs 2 tokens
+%
+\subscript@log{>>> Expand Unicode Duplet}%
+%
+\unless\ifcsname u8:#1#2\endcsname%
+	\PackageError{subscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\subscript@token\csname u8:#1#2\endcsname%
+\subscript@check{\subscript@token}%
+%
+\subscript@log{Reinserting '\meaning#1#2'}%
+#1#2%
+}
+
+
+\newcommand{\subscript@check@default}[1]{% grabs 1 token
+%
+% Get the first token of the successor
+%
+\subscript@check{#1}%
+%
+\subscript@log{Reinserting '\meaning#1'}%
+#1%
+}
+
+
+\newcommand{\subscript@check}[1]{%
+%
+\subscript@log{Testing against '\meaning#1'}%
+%
+% \startswithtokenmymacro{#1}%
+%
+%
+% \expandafter\futurelet\expandafter\subscript@firsttoken\expandafter\drop@start#1\drop@stop%
+%
+%
+\ifx#1\subscript%
+	\subscript@log{keep going}%
+\else%
+	% \expandafter\futurelet\expandafter\subscript@firsttoken\expandafter\drop@start#1\drop@stop%
+	\getfirsttok{\subscript@firsttoken}{#1}%
+\ifx\subscript@firsttoken\subscript%
+	\subscript@log{keep going}%
+\else%
+	\subscript@log{Terminating!}%
+	\subscript@finalize%
+\fi\fi%
+%
+}
+
+
+
+
+\def\drop@start#1\drop@stop{}% drops tokens between \drop@start and \drop@stop
+
+\def\subscript@drop#1\subscript@drop{}
+
+
+\def\swtmmA#1\swtmmA{\ifx\next\subscript TRUE\else FALSE\fi}
+\def\startswithtokenmymacro#1{%
+   \expandafter\futurelet\expandafter\next\expandafter\swtmmA#1\swtmmA
+}
+
+
+\def\drop@start#1\drop@stop{}% drops tokens between \drop@start and \drop@stop
+\newcommand{\letfirsttok}[2]{
+%
+% stores the first token of #2 in #1
+%
+\expandafter\futurelet\expandafter#1\expandafter\drop@start#2\drop@stop
+}
+
+\newcommand{\getfirsttok}[2]{%
+%
+% stores the first token of #2 in #1
+%
+\def\@extract##1##2\@terminator{\let#1=##1}%
+\expandafter\@extract#2\@terminator%
+}
+
+\newcommand{\subscript@list@append}[1]{%
+	\edef\subscript@list{\unexpanded\expandafter{\subscript@list#1}}%
+}
+% endregion private implementation ---------------------------------------------
+
+\endinput

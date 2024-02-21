@@ -1,0 +1,31 @@
+\documentclass[a4paper,11pt,reqno]{scrartcl}
+
+\usepackage{newunicodechar}
+\usepackage{subscript}
+\usepackage{tensor}
+
+\AtBeginDocument{
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+}
+
+\newcommand{\needsfour}[4]{#4#3#2#1}
+
+
+\begin{document}
+
+$aᵢⱼ$ and $bᵢⱼ$ and $cᵢⱼₖ$ and cᵢ and dᵢⱼ and eᵢⱼₖxx
+
+\begin{tabular}{l}
+$a_{ijklmn}$ \\ $aᵢⱼₖₗₘₙ$ \\
+$a\subscript{i}xx$ \\
+$a\subscript{i}\subscript{j}xx$ \\
+\end{tabular}
+
+aᵢ\needsfour4321
+
+\end{document}
