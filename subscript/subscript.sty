@@ -1,10 +1,15 @@
 % !TeX root = ./subscript.sty
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{subscript}[2024/02/21 Combining Subscripts]
+\RequirePackage{xstring}
 
+% %Package Options
+% \def\reflect{\@star@or@long\accommand}
+% \fboxrule=0.0pt
 
-%Package Options
-
+% \def\accommand#1{\framebox[4cm][l]{\color{red}
+%      {\tt\string#1:}} %
+%      \parbox[t]{7cm}{\tt\expandafter\strip@prefix\meaning#1}}
 
 %region utilities --------------------------------------------------------------
 % variables used by the package
@@ -45,7 +50,7 @@
 % This will peek at one or multiple tokens, but reinsert them without modification.
 % Also, this will not add any content to the document or the \subscript@list.
 %
-\futurelet\subscript@successor\subscript@check@dispatch%
+\futurelet\subscript@successor\subscript@dispatch%
 }
 % endregion public interface ---------------------------------------------------
 
@@ -72,44 +77,57 @@
 }
 
 
-\newcommand{\subscript@check@dispatch}{%
+\def\subscript@UTFviii@two{\protected macro:->\UTFviii@two@octets}%
+\def\subscript@UTFviii@three{\protected macro:->\UTFviii@three@octets}%
+\def\subscript@UTFviii@four{\protected macro:->\UTFviii@four@octets}%
+
+\newcommand{\subscript@dispatch}{%
 %
-% Chooses how many tokens to grab and dispatches the correct test command.
+% There are 2 cases we consider:
+% 1. The next token is a subscript, in which case we continue the process.
+% 2. The next token is some unicode character, in which case:
+%	2.1. We grab the necessary number of tokens if using an 8-bit engine
+%	2.2. We expand the unicode character once to get the replacement tokens.
+%   2.3. We compare the first token of the replacement tokens to the subscript token.
 %
-% \subscript@log{>>> The successor: \meaning\subscript@successor}%
+\subscript@log{>>> Dispatching on \meaning\subscript@successor'}%
+\edef\subscript@meaning{\meaning\subscript@successor}%
 %
-% inspect the first token of the successor
+\saveexpandmode\expandarg%
 %
-% \getfirsttok{\subscript@successor}{\subscript@successor}%
-% \expandafter\futurelet\expandafter\subscript@successor\expandafter\subscript@drop\subscript@successor\subscript@drop%
-% Choose the test command
+\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@four}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 4 octets}%
+	\def\subscript@execute{\subscript@check@unicode@four}%
+}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@three}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 3 octets}%
+	\def\subscript@execute{\subscript@check@unicode@three}%
+}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@two}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 2 octets}%
+	\def\subscript@execute{\subscript@check@unicode@two}%
+}{% default case
+	\def\subscript@execute{\subscript@check{\subscript@successor}}%
+}}}%
 %
-% \show\subscript@successor%
+\restoreexpandmode%
 %
-\ifx\subscript@successor\subscript%
-	\subscript@log{ >>> Direct Subscript}%
-	\def\subscript@test{\subscript@check@default}%
-\else%
-	\letfirsttok{\subscript@peekfirsttok}{\subscript@successor}%
-\ifx\subscript@peekfirsttok\UTFviii@two@octets%
-	\subscript@log{ >>> Unicode 2 octets}%
-	\def\subscript@test{\subscript@check@unicode@two}%
-\else\ifx\subscript@peekfirsttok\UTFviii@three@octets%
-	\subscript@log{ >>> Unicode 3 octets}%
-	\def\subscript@test{\subscript@check@unicode@three}%
-\else\ifx\subscript@peekfirsttok\UTFviii@four@octets%
-	\subscript@log{ >>> Unicode 4 octets}%
-	\def\subscript@test{\subscript@check@unicode@four}%
-\else%
-	% \PackageError{subscript}{Unreachable}{Try somehing else}%
-	\subscript@log{ >>> Not Unicode}%
-	\def\subscript@test{\subscript@check@default}%
-\fi\fi\fi\fi%
+% dispatch the selected command.
 %
-% dispatch the test command.
-%
-\subscript@test%
+\subscript@execute%
 }%
+
+
+
+\newcommand{\subscript@check}[1]{%
+%
+\subscript@log{Testing against '\meaning#1'}%
+%
+\ifx#1\subscript%
+	\subscript@log{ >>> Another subscript detected!}%
+\else%
+	\subscript@log{ >>> Terminating!}%
+	\subscript@finalize%
+\fi%
+}
 
 
 \newcommand{\subscript@check@unicode@four}[4]{% grabs 4 tokens
@@ -121,7 +139,10 @@
 \fi%
 %
 \expandafter\let\expandafter\subscript@token\csname u8:#1#2#3#4\endcsname%
-\subscript@check{\subscript@token}
+\subscript@log{Detected unicode '\meaning\subscript@token'}%
+%
+\subscript@getfirsttok{\subscript@firsttoken}{\subscript@token}%
+\subscript@check{\subscript@firsttoken}%
 %
 \subscript@log{Reinserting '\meaning#1#2#3#4'}%
 #1#2#3#4%
@@ -137,7 +158,10 @@
 \fi%
 %
 \expandafter\let\expandafter\subscript@token\csname u8:#1#2#3\endcsname%
-\subscript@check{\subscript@token}
+\subscript@log{Detected unicode '\meaning\subscript@token'}%
+%
+\subscript@getfirsttok{\subscript@firsttoken}{\subscript@token}%
+\subscript@check{\subscript@firsttoken}%
 %
 \subscript@log{Reinserting '\meaning#1#2#3'}%
 #1#2#3%
@@ -153,71 +177,17 @@
 \fi%
 %
 \expandafter\let\expandafter\subscript@token\csname u8:#1#2\endcsname%
-\subscript@check{\subscript@token}%
+\subscript@log{Detected unicode '\meaning\subscript@token'}%
+%
+\subscript@getfirsttok{\subscript@firsttoken}{\subscript@token}%
+\subscript@check{\subscript@firsttoken}%
 %
 \subscript@log{Reinserting '\meaning#1#2'}%
 #1#2%
 }
 
 
-\newcommand{\subscript@check@default}[1]{% grabs 1 token
-%
-% Get the first token of the successor
-%
-\subscript@check{#1}%
-%
-\subscript@log{Reinserting '\meaning#1'}%
-#1%
-}
-
-
-\newcommand{\subscript@check}[1]{%
-%
-\subscript@log{Testing against '\meaning#1'}%
-%
-% \startswithtokenmymacro{#1}%
-%
-%
-% \expandafter\futurelet\expandafter\subscript@firsttoken\expandafter\drop@start#1\drop@stop%
-%
-%
-\ifx#1\subscript%
-	\subscript@log{keep going}%
-\else%
-	% \expandafter\futurelet\expandafter\subscript@firsttoken\expandafter\drop@start#1\drop@stop%
-	\getfirsttok{\subscript@firsttoken}{#1}%
-\ifx\subscript@firsttoken\subscript%
-	\subscript@log{keep going}%
-\else%
-	\subscript@log{Terminating!}%
-	\subscript@finalize%
-\fi\fi%
-%
-}
-
-
-
-
-\def\drop@start#1\drop@stop{}% drops tokens between \drop@start and \drop@stop
-
-\def\subscript@drop#1\subscript@drop{}
-
-
-\def\swtmmA#1\swtmmA{\ifx\next\subscript TRUE\else FALSE\fi}
-\def\startswithtokenmymacro#1{%
-   \expandafter\futurelet\expandafter\next\expandafter\swtmmA#1\swtmmA
-}
-
-
-\def\drop@start#1\drop@stop{}% drops tokens between \drop@start and \drop@stop
-\newcommand{\letfirsttok}[2]{
-%
-% stores the first token of #2 in #1
-%
-\expandafter\futurelet\expandafter#1\expandafter\drop@start#2\drop@stop
-}
-
-\newcommand{\getfirsttok}[2]{%
+\newcommand{\subscript@getfirsttok}[2]{%
 %
 % stores the first token of #2 in #1
 %
