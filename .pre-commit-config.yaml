@@ -50,6 +50,6 @@ repos:
       - id: nbstripout-fast
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.348
+    rev: v1.1.351
     hooks:
       - id: pyright
