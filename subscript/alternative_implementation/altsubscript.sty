@@ -1,6 +1,24 @@
 % !TeX root = ./subscript.sty
+%
+% ALTERNATIVE IMPLMENTATION BASED ON \futurelet without \expandafter
+%
+% - problems if successor is a macro
+% - problems if successor is a unicode character
+% - requires awkward string tests.
+%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{subscript}[2024/02/21 Combining Subscripts]
+%
+% Usage: \newunicodechar{ᵢ}{\subscript{i}}
+% This allows to use multiple unicode subscripts in succession:
+% - `xᵢⱼₖ` ⇝ `x\textsubscript{ijk}`
+% - `$xᵢⱼₖ$` ⇝ `$x_{ijk}$`
+%
+% The package is designed to work with both pdftex and luatex.
+%
+% Note: Usage of the form `x\subscript{i}\subscript{j}' is not supported.
+%
+
 \RequirePackage{xstring}
 \RequirePackage{iftex}
 
@@ -78,10 +96,49 @@
 %
 % Expand successor first before \futurelet
 %
-\expandafter\futurelet\expandafter\subscript@successor\expandafter\subscript@dispatch%
+\futurelet\subscript@successor\subscript@dispatch%
 }
 % endregion public interface ---------------------------------------------------
 
+\def\subscript@UTFviii@two{\protected macro:->\UTFviii@two@octets}%
+\def\subscript@UTFviii@three{\protected macro:->\UTFviii@three@octets}%
+\def\subscript@UTFviii@four{\protected macro:->\UTFviii@four@octets}%
+
+\newcommand{\subscript@dispatch@pdftex}{%
+%
+% There are 2 cases we consider:
+% 1. The next token is a subscript, in which case we continue the process.
+% 2. The next token is some unicode character, in which case:
+%	2.1. We grab the necessary number of tokens if using an 8-bit engine
+%	2.2. We expand the unicode character once to get the replacement tokens.
+%   2.3. We compare the first token of the replacement tokens to the subscript token.
+%
+\subscript@log{>>> Dispatching on \meaning\subscript@successor'}%
+%
+\edef\subscript@meaning{\meaning\subscript@successor}%
+%
+\saveexpandmode\expandarg%
+%
+%
+\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@four}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 4 octets}%
+	\def\subscript@execute{\subscript@check@unicode@four}%
+}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@three}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 3 octets}%
+	\def\subscript@execute{\subscript@check@unicode@three}%
+}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@two}{% *: ignore catcode
+	\subscript@log{ >>> Detected Unicode 2 octets}%
+	\def\subscript@execute{\subscript@check@unicode@two}%
+}{% default case
+	\def\subscript@execute{\subscript@check{\subscript@successor}}%
+}}}%
+%
+\restoreexpandmode%
+%
+% dispatch the selected command.
+%
+\subscript@execute%
+}%
 
 
 \newcommand{\subscript@dispatch@luatex}{%
@@ -131,6 +188,7 @@
 }
 
 
+
 \newcommand{\subscript@finalize}{%
 %
 \subscript@log{Terminating with current list '\meaning\subscript@list'}%
@@ -149,44 +207,6 @@
 \let\subscript@list\subscript@start%
 %
 }
-
-\def\subscript@UTFviii@two{\protected macro:->\UTFviii@two@octets}%
-\def\subscript@UTFviii@three{\protected macro:->\UTFviii@three@octets}%
-\def\subscript@UTFviii@four{\protected macro:->\UTFviii@four@octets}%
-
-\newcommand{\subscript@dispatch@pdftex}{%
-%
-% There are 2 cases we consider:
-% 1. The next token is a subscript, in which case we continue the process.
-% 2. The next token is some unicode character, in which case:
-%	2.1. We grab the necessary number of tokens if using an 8-bit engine
-%	2.2. We expand the unicode character once to get the replacement tokens.
-%   2.3. We compare the first token of the replacement tokens to the subscript token.
-%
-\subscript@log{>>> Dispatching on \meaning\subscript@successor'}%
-\edef\subscript@meaning{\meaning\subscript@successor}%
-%
-\saveexpandmode\expandarg%
-%
-\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@four}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 4 octets}%
-	\def\subscript@execute{\subscript@check@unicode@four}%
-}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@three}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 3 octets}%
-	\def\subscript@execute{\subscript@check@unicode@three}%
-}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@two}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 2 octets}%
-	\def\subscript@execute{\subscript@check@unicode@two}%
-}{% default case
-	\def\subscript@execute{\subscript@check{\subscript@successor}}%
-}}}%
-%
-\restoreexpandmode%
-%
-% dispatch the selected command.
-%
-\subscript@execute%
-}%
 
 
 \newcommand{\subscript@check@unicode@four}[4]{% grabs 4 tokens

@@ -1,7 +1,20 @@
 % !TeX root = ./subscript.sty
+%
+% IMPLEMENTATION BASED ON \expandafter + \futurelet
+%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{subscript}[2024/02/21 Combining Subscripts]
-\RequirePackage{xstring}
+%
+% Usage: \newunicodechar{ᵢ}{\subscript{i}}
+% This allows to use multiple unicode subscripts in succession:
+% - `xᵢⱼₖ` ⇝ `x\textsubscript{ijk}`
+% - `$xᵢⱼₖ$` ⇝ `$x_{ijk}$`
+%
+% The package is designed to work with both pdftex and luatex.
+%
+% Note: Usage of the form `x\subscript{i}\subscript{j}' is not supported.
+%
+
 \RequirePackage{iftex}
 
 % region Package Options -------------------------------------------------------
@@ -64,9 +77,11 @@
 %
 \ifx\subscript@list\subscript@start%
 	% Initialize the list with the first token
+	\subscript@log{Initializing list with '\meaning#1'}%
 	\def\subscript@list{#1}%
 \else%
 	% append token to existing list
+	\subscript@log{Appending '\meaning#1' to '\subscript@list'}%
 	\subscript@list@append{#1}%
 \fi%
 %
@@ -83,6 +98,36 @@
 % endregion public interface ---------------------------------------------------
 
 
+\newcommand{\subscript@dispatch@pdftex}{%
+%
+% There are 2 cases we consider:
+% 1. The next token is a subscript, in which case we continue the process.
+% 2. The next token is some unicode character, in which case:
+%	2.1. We grab the necessary number of tokens if using an 8-bit engine
+%	2.2. We expand the unicode character once to get the replacement tokens.
+%   2.3. We compare the first token of the replacement tokens to the subscript token.
+%
+\subscript@log{>>> Dispatching on \meaning\subscript@successor'}%
+%
+\ifx\subscript@successor\UTFviii@four@octets%
+	\subscript@log{ >>> Detected Unicode 4 octets}%
+	\def\subscript@execute{\subscript@check@unicode@four}%
+\else\ifx\subscript@successor\UTFviii@three@octets%
+	\subscript@log{ >>> Detected Unicode 3 octets}%
+	\def\subscript@execute{\subscript@check@unicode@three}%
+\else\ifx\subscript@successor\UTFviii@two@octets%
+	\subscript@log{ >>> Detected Unicode 2 octets}%
+	\def\subscript@execute{\subscript@check@unicode@two}%
+\else%
+	\subscript@log{ >>> Detected non-Unicode}%
+	\def\subscript@execute{\subscript@check{\subscript@successor}}%
+\fi\fi\fi%
+%
+% dispatch the selected command.
+%
+\subscript@execute%
+}%
+
 
 \newcommand{\subscript@dispatch@luatex}{%
 %
@@ -95,14 +140,15 @@
 	\subscript@log{ >>> Testing Expanded '\meaning\subscript@expanded'}%
 \ifx\subscript@expanded\subscript%
 	\subscript@log{ >>> E-Successor is another subscript!}%
-\else%
-	\subscript@getfirsttok{\subscript@firsttoken}{\subscript@expanded}%
-	\subscript@log{ >>> Testing first token '\meaning\subscript@firsttoken'}%
-\ifx\subscript@firsttoken\subscript%
-	\subscript@log{ >>> 1-Successor is another subscript!}%
+% \else%
+% 	\subscript@getfirsttok{\subscript@firsttoken}{\subscript@expanded}%
+% 	\subscript@log{ >>> Testing first token '\meaning\subscript@firsttoken'}%
+% \ifx\subscript@firsttoken\subscript%
+% 	\subscript@log{ >>> 1-Successor is another subscript!}%
 \else%
 	\subscript@log{ >>> Successor is not a subscript!}%
-\fi\fi\fi%
+	\subscript@finalize%
+\fi\fi%\fi%
 %
 % \subscript@log{ >>> Testing for Unicode \meaning\subscript@successor}%
 % %
@@ -150,48 +196,29 @@
 %
 }
 
-\def\subscript@UTFviii@two{\protected macro:->\UTFviii@two@octets}%
-\def\subscript@UTFviii@three{\protected macro:->\UTFviii@three@octets}%
-\def\subscript@UTFviii@four{\protected macro:->\UTFviii@four@octets}%
 
-\newcommand{\subscript@dispatch@pdftex}{%
-%
-% There are 2 cases we consider:
-% 1. The next token is a subscript, in which case we continue the process.
-% 2. The next token is some unicode character, in which case:
-%	2.1. We grab the necessary number of tokens if using an 8-bit engine
-%	2.2. We expand the unicode character once to get the replacement tokens.
-%   2.3. We compare the first token of the replacement tokens to the subscript token.
-%
-\subscript@log{>>> Dispatching on \meaning\subscript@successor'}%
-\edef\subscript@meaning{\meaning\subscript@successor}%
-%
-\saveexpandmode\expandarg%
-%
-\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@four}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 4 octets}%
-	\def\subscript@execute{\subscript@check@unicode@four}%
-}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@three}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 3 octets}%
-	\def\subscript@execute{\subscript@check@unicode@three}%
-}{\IfBeginWith*{\subscript@meaning}{\subscript@UTFviii@two}{% *: ignore catcode
-	\subscript@log{ >>> Detected Unicode 2 octets}%
-	\def\subscript@execute{\subscript@check@unicode@two}%
-}{% default case
-	\def\subscript@execute{\subscript@check{\subscript@successor}}%
-}}}%
-%
-\restoreexpandmode%
-%
-% dispatch the selected command.
-%
-\subscript@execute%
-}%
-
-
-\newcommand{\subscript@check@unicode@four}[4]{% grabs 4 tokens
+\newcommand{\subscript@check@unicode@four}[5]{% grabs 1+4 tokens
 %
 \subscript@log{>>> Expand Unicode Quadruplet}%
+%
+\unless\ifcsname u8:#1#2#3#4#5\endcsname%
+	\PackageError{subscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\subscript@token\csname u8:#1#2#3#4#5\endcsname%
+\subscript@log{Detected unicode '\meaning\subscript@token'}%
+%
+\subscript@getfirsttok{\subscript@firsttoken}{\subscript@token}%
+\subscript@check{\subscript@firsttoken}%
+%
+\subscript@log{Reinserting '\meaning#1#2#3#4#5'}%
+#1#2#3#4#5%
+}
+
+
+\newcommand{\subscript@check@unicode@three}[4]{% grabs 1+3 tokens
+%
+\subscript@log{>>> Expand Unicode Triplet}%
 %
 \unless\ifcsname u8:#1#2#3#4\endcsname%
 	\PackageError{subscript}{Detected undefined unicode.}%
@@ -208,9 +235,9 @@
 }
 
 
-\newcommand{\subscript@check@unicode@three}[3]{% grabs 3 tokens
+\newcommand{\subscript@check@unicode@two}[3]{% grabs 1+2 tokens
 %
-\subscript@log{>>> Expand Unicode Triplet}%
+\subscript@log{>>> Expand Unicode Duplet}%
 %
 \unless\ifcsname u8:#1#2#3\endcsname%
 	\PackageError{subscript}{Detected undefined unicode.}%
@@ -224,25 +251,6 @@
 %
 \subscript@log{Reinserting '\meaning#1#2#3'}%
 #1#2#3%
-}
-
-
-\newcommand{\subscript@check@unicode@two}[2]{% grabs 2 tokens
-%
-\subscript@log{>>> Expand Unicode Duplet}%
-%
-\unless\ifcsname u8:#1#2\endcsname%
-	\PackageError{subscript}{Detected undefined unicode.}%
-\fi%
-%
-\expandafter\let\expandafter\subscript@token\csname u8:#1#2\endcsname%
-\subscript@log{Detected unicode '\meaning\subscript@token'}%
-%
-\subscript@getfirsttok{\subscript@firsttoken}{\subscript@token}%
-\subscript@check{\subscript@firsttoken}%
-%
-\subscript@log{Reinserting '\meaning#1#2'}%
-#1#2%
 }
 % endregion private implementation ---------------------------------------------
 

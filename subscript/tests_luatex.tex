@@ -1,3 +1,4 @@
+% !TeX TXS-program:compile = txs:///lualatex
 \documentclass{standalone}
 
 \usepackage{newunicodechar}
@@ -32,28 +33,28 @@
 
 \begin{document}
 
-%$aᵢⱼ$
+$aᵢⱼₖ$
 
-$a\subscript{i}\subscript{j}$
-%
-%% test mathmode
-%\begin{tabular}{l}
-%$a_{ijklmn}$
-%\\ $aᵢⱼₖₗₘₙ$
-%\\ $a\subscript{ijklmn}$
-%\\ $a\subscript{i}\subscript{j}\subscript{k}\subscript{l}\subscript{m}\subscript{n}$
-%\end{tabular}
+a\subscript{ij$kl$mn}
 
-%% test textmode
-%\begin{tabular}{ll}
-%a\textsubscript{ijklmn}
-%\\ aᵢⱼₖₗₘₙ
-%\\ a\subscript{ijklmn}
-%\\ a\subscript{i}\subscript{j}\subscript{k}\subscript{l}\subscript{m}\subscript{n}
-%\end{tabular}
+$a\subscript{ijk}$
 
-%$aᵢ\needsfour4321$
+% test mathmode
+\begin{tabular}{l}
+$a_{ijklmn}$
+\\ $aᵢⱼₖₗₘₙ$
+\\ $a\subscript{ijklmn}$
+\end{tabular}
 
+% test textmode
+\begin{tabular}{ll}
+a\textsubscript{ijklmn}
+\\ aᵢⱼₖₗₘₙ
+\\ a\subscript{ijklmn}
+\end{tabular}
 
+$aᵢ\needsfour4321$
+
+dₘ
 
 \end{document}
