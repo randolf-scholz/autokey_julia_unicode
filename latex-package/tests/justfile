@@ -1,20 +1,18 @@
-# FILEPATH: /home/rscholz/Research/GitHub/autokey_julia_unicode/latex-package/run_tests.justfile
-
 # Define the default task
 default: test
 
 # Define the test task
-test outputdir="__tex__":
+test outputdir="__tex__" texmf="../texmf":
     #!/usr/bin/env bash
     set -e  # Exit on error
     echo "Running tests..."
     # clear the output directory (ok to fail if it does not exist)
     rm -rf {{outputdir}} || true
     mkdir -p {{outputdir}}
-    if [ -d "texmf" ]; then
-        export TEXMFHOME=texmf
+    if [ -d "{{texmf}}" ]; then
+        export TEXMFHOME="{{texmf}}"
     else
-        echo "No texmf directory found"
+        echo "No texmf directory found at {{texmf}}!"
         exit 1
     fi
     shopt -s nullglob

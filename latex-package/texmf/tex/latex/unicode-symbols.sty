@@ -9,6 +9,8 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-symbols}[2024/01/23 Unicode symbols]
+\RequirePackage{unicode-subscripts}
+\RequirePackage{unicode-superscripts}
 \RequirePackage{amssymb}
 \RequirePackage[verbose]{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
@@ -526,156 +528,156 @@
 % \_<char>
 % region subscripts (\_<char>) -------------------------------------------------
 % region subscript lowercase latin ---------------------------------------------
-\newunicodechar{ₐ}  {\ensuremath{_{a}}}
-%\newunicodechar{\_b}{\ensuremath{_{b}}}
-%\newunicodechar{\_c}{\ensuremath{_{c}}}
-%\newunicodechar{\_d}{\ensuremath{_{d}}}
-\newunicodechar{ₑ}  {\ensuremath{_{e}}}
-%\newunicodechar{\_f}{\ensuremath{_{f}}}
-%\newunicodechar{\_g}{\ensuremath{_{g}}}
-\newunicodechar{ₕ}  {\ensuremath{_{h}}}
-\newunicodechar{ᵢ}  {\ensuremath{_{i}}}
-\newunicodechar{ⱼ}  {\ensuremath{_{j}}}
-\newunicodechar{ₖ}  {\ensuremath{_{k}}}
-\newunicodechar{ₗ}  {\ensuremath{_{l}}}
-\newunicodechar{ₘ}  {\ensuremath{_{m}}}
-\newunicodechar{ₙ}  {\ensuremath{_{n}}}
-\newunicodechar{ₒ}  {\ensuremath{_{o}}}
-\newunicodechar{ₚ}  {\ensuremath{_{p}}}
-%\newunicodechar{\_q}{\ensuremath{_{q}}}
-\newunicodechar{ᵣ}  {\ensuremath{_{r}}}
-\newunicodechar{ₛ}  {\ensuremath{_{s}}}
-\newunicodechar{ₜ}  {\ensuremath{_{t}}}
-\newunicodechar{ᵤ}  {\ensuremath{_{u}}}
-\newunicodechar{ᵥ}  {\ensuremath{_{v}}}
-%\newunicodechar{\_w}{\ensuremath{_{w}}}
-\newunicodechar{ₓ}  {\ensuremath{_{x}}}
-%\newunicodechar{\_y}{\ensuremath{_{y}}}
-%\newunicodechar{\_z}{\ensuremath{_{z}}}
+\newunicodechar{ₐ}{\subscript{a}}
+%\newunicodechar{\_b}{\subscript{b}}
+%\newunicodechar{\_c}{\subscript{c}}
+%\newunicodechar{\_d}{\subscript{d}}
+\newunicodechar{ₑ}{\subscript{e}}
+%\newunicodechar{\_f}{\subscript{f}}
+%\newunicodechar{\_g}{\subscript{g}}
+\newunicodechar{ₕ}{\subscript{h}}
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+\newunicodechar{ₒ}{\subscript{o}}
+\newunicodechar{ₚ}{\subscript{p}}
+%\newunicodechar{\_q}{\subscript{q}}
+\newunicodechar{ᵣ}{\subscript{r}}
+\newunicodechar{ₛ}{\subscript{s}}
+\newunicodechar{ₜ}{\subscript{t}}
+\newunicodechar{ᵤ}{\subscript{u}}
+\newunicodechar{ᵥ}{\subscript{v}}
+%\newunicodechar{\_w}{\subscript{w}}
+\newunicodechar{ₓ}{\subscript{x}}
+%\newunicodechar{\_y}{\subscript{y}}
+%\newunicodechar{\_z}{\subscript{z}}
 % endregion subscript lowercase latin ------------------------------------------
 
 % region subscript lowercase greek ---------------------------------------------
-\newunicodechar{ᵦ}  {\ensuremath{_{\beta}}}
-\newunicodechar{ᵧ}  {\ensuremath{_{\gamma}}}
-\newunicodechar{ᵨ}  {\ensuremath{_{\varrho}}}
-\newunicodechar{ᵩ}  {\ensuremath{_{\varphi}}}
-\newunicodechar{ᵪ}  {\ensuremath{_{\chi}}}
+\newunicodechar{ᵦ}{\subscript{\ensuremath{\beta}}}
+\newunicodechar{ᵧ}{\subscript{\ensuremath{\gamma}}}
+\newunicodechar{ᵨ}{\subscript{\ensuremath{\varrho}}}
+\newunicodechar{ᵩ}{\subscript{\ensuremath{\varphi}}}
+\newunicodechar{ᵪ}{\subscript{\ensuremath{\chi}}}
 % endregion subscript lowercase greek ------------------------------------------
 
 % region subscript digits ------------------------------------------------------
-\newunicodechar{₁}{\ensuremath{_{1}}}
-\newunicodechar{₂}{\ensuremath{_{2}}}
-\newunicodechar{₃}{\ensuremath{_{3}}}
-\newunicodechar{₄}{\ensuremath{_{4}}}
-\newunicodechar{₅}{\ensuremath{_{5}}}
-\newunicodechar{₆}{\ensuremath{_{6}}}
-\newunicodechar{₇}{\ensuremath{_{7}}}
-\newunicodechar{₈}{\ensuremath{_{8}}}
-\newunicodechar{₉}{\ensuremath{_{9}}}
-\newunicodechar{₀}{\ensuremath{_{0}}}
+\newunicodechar{₁}{\subscript{1}}
+\newunicodechar{₂}{\subscript{2}}
+\newunicodechar{₃}{\subscript{3}}
+\newunicodechar{₄}{\subscript{4}}
+\newunicodechar{₅}{\subscript{5}}
+\newunicodechar{₆}{\subscript{6}}
+\newunicodechar{₇}{\subscript{7}}
+\newunicodechar{₈}{\subscript{8}}
+\newunicodechar{₉}{\subscript{9}}
+\newunicodechar{₀}{\subscript{0}}
 % endregion subscript digits ---------------------------------------------------
 
 % region subscript symbols -----------------------------------------------------
-\newunicodechar{₊}{\ensuremath{_{\texttt{+}}}}
-\newunicodechar{₋}{\ensuremath{_{\texttt{-}}}}
-\newunicodechar{₌}{\ensuremath{_{(}}}
-\newunicodechar{₍}{\ensuremath{_{)}}}
-\newunicodechar{₎}{\ensuremath{_{=}}}
+\newunicodechar{₊}{\subscript{\texttt{+}}}
+\newunicodechar{₋}{\subscript{\texttt{-}}}
+\newunicodechar{₌}{\subscript{=}}
+\newunicodechar{₍}{\subscript{)}}
+\newunicodechar{₎}{\subscript{)}}
 % endregion subscript symbols --------------------------------------------------
 % endregion subscripts (\_<char>) ----------------------------------------------
 
 % \^<char>
 % region superscripts (\^<char>) -----------------------------------------------
 % region superscript uppercase latin -------------------------------------------
-\newunicodechar{ᴬ}{\ensuremath{^{A}}}
-\newunicodechar{ᴮ}{\ensuremath{^{B}}}
-% \newunicodechar{\^C}{\ensuremath{^{C}}}
-\newunicodechar{ᴰ}{\ensuremath{^{D}}}
-\newunicodechar{ᴱ}{\ensuremath{^{E}}}
-% \newunicodechar{\^F}{\ensuremath{^{F}}}
-\newunicodechar{ᴳ}{\ensuremath{^{G}}}
-\newunicodechar{ᴴ}{\ensuremath{^{H}}}
-\newunicodechar{ᴵ}{\ensuremath{^{I}}}
-\newunicodechar{ᴶ}{\ensuremath{^{J}}}
-\newunicodechar{ᴷ}{\ensuremath{^{K}}}
-\newunicodechar{ᴸ}{\ensuremath{^{L}}}
-\newunicodechar{ᴹ}{\ensuremath{^{M}}}
-\newunicodechar{ᴺ}{\ensuremath{^{N}}}
-\newunicodechar{ᴼ}{\ensuremath{^{O}}}
-\newunicodechar{ᴾ}{\ensuremath{^{P}}}
-% \newunicodechar{\^Q}{\ensuremath{^{Q}}}
-\newunicodechar{ᴿ}{\ensuremath{^{R}}}
-%\newunicodechar{\^S}{\ensuremath{^{S}}}
-\newunicodechar{ᵀ}{\ensuremath{^{T}}}
-\newunicodechar{ᵁ}{\ensuremath{^{U}}}
-\newunicodechar{ⱽ}{\ensuremath{^{V}}}
-\newunicodechar{ᵂ}{\ensuremath{^{W}}}
-%\newunicodechar{\^X}{\ensuremath{^{X}}}
-%\newunicodechar{\^Y}{\ensuremath{^{Y}}}
-%\newunicodechar{\^Z}{\ensuremath{^{Z}}}
+\newunicodechar{ᴬ}{\superscript{A}}
+\newunicodechar{ᴮ}{\superscript{B}}
+% \newunicodechar{\^C}{\superscript{C}}
+\newunicodechar{ᴰ}{\superscript{D}}
+\newunicodechar{ᴱ}{\superscript{E}}
+% \newunicodechar{\^F}{\superscript{F}}
+\newunicodechar{ᴳ}{\superscript{G}}
+\newunicodechar{ᴴ}{\superscript{H}}
+\newunicodechar{ᴵ}{\superscript{I}}
+\newunicodechar{ᴶ}{\superscript{J}}
+\newunicodechar{ᴷ}{\superscript{K}}
+\newunicodechar{ᴸ}{\superscript{L}}
+\newunicodechar{ᴹ}{\superscript{M}}
+\newunicodechar{ᴺ}{\superscript{N}}
+\newunicodechar{ᴼ}{\superscript{O}}
+\newunicodechar{ᴾ}{\superscript{P}}
+% \newunicodechar{\^Q}{\superscript{Q}}
+\newunicodechar{ᴿ}{\superscript{R}}
+%\newunicodechar{\^S}{\superscript{S}}
+\newunicodechar{ᵀ}{\superscript{T}}
+\newunicodechar{ᵁ}{\superscript{U}}
+\newunicodechar{ⱽ}{\superscript{V}}
+\newunicodechar{ᵂ}{\superscript{W}}
+%\newunicodechar{\^X}{\superscript{X}}
+%\newunicodechar{\^Y}{\superscript{Y}}
+%\newunicodechar{\^Z}{\superscript{Z}}
 % endregion superscript uppercase latin ----------------------------------------
 
 % region superscript lowercase latin -------------------------------------------
-\newunicodechar{ᵃ}{\ensuremath{^{a}}}
-\newunicodechar{ᵇ}{\ensuremath{^{b}}}
-\newunicodechar{ᶜ}{\ensuremath{^{c}}}
-\newunicodechar{ᵈ}{\ensuremath{^{d}}}
-\newunicodechar{ᵉ}{\ensuremath{^{e}}}
-\newunicodechar{ᶠ}{\ensuremath{^{f}}}
-\newunicodechar{ᵍ}{\ensuremath{^{g}}}
-\newunicodechar{ʰ}{\ensuremath{^{h}}}
-\newunicodechar{ⁱ}{\ensuremath{^{i}}}
-\newunicodechar{ʲ}{\ensuremath{^{j}}}
-\newunicodechar{ᵏ}{\ensuremath{^{k}}}
-\newunicodechar{ˡ}{\ensuremath{^{l}}}
-\newunicodechar{ᵐ}{\ensuremath{^{m}}}
-\newunicodechar{ⁿ}{\ensuremath{^{n}}}
-\newunicodechar{ᵒ}{\ensuremath{^{o}}}
-\newunicodechar{ᵖ}{\ensuremath{^{p}}}
-% \newunicodechar{\^q}{\ensuremath{^{q}}}
-\newunicodechar{ʳ}{\ensuremath{^{r}}}
-\newunicodechar{ˢ}{\ensuremath{^{s}}}
-\newunicodechar{ᵗ}{\ensuremath{^{t}}}
-\newunicodechar{ᵘ}{\ensuremath{^{u}}}
-\newunicodechar{ᵛ}{\ensuremath{^{v}}}
-\newunicodechar{ʷ}{\ensuremath{^{w}}}
-\newunicodechar{ˣ}{\ensuremath{^{x}}}
-\newunicodechar{ʸ}{\ensuremath{^{y}}}
-\newunicodechar{ᶻ}{\ensuremath{^{z}}}
+\newunicodechar{ᵃ}{\superscript{a}}
+\newunicodechar{ᵇ}{\superscript{b}}
+\newunicodechar{ᶜ}{\superscript{c}}
+\newunicodechar{ᵈ}{\superscript{d}}
+\newunicodechar{ᵉ}{\superscript{e}}
+\newunicodechar{ᶠ}{\superscript{f}}
+\newunicodechar{ᵍ}{\superscript{g}}
+\newunicodechar{ʰ}{\superscript{h}}
+\newunicodechar{ⁱ}{\superscript{i}}
+\newunicodechar{ʲ}{\superscript{j}}
+\newunicodechar{ᵏ}{\superscript{k}}
+\newunicodechar{ˡ}{\superscript{l}}
+\newunicodechar{ᵐ}{\superscript{m}}
+\newunicodechar{ⁿ}{\superscript{n}}
+\newunicodechar{ᵒ}{\superscript{o}}
+\newunicodechar{ᵖ}{\superscript{p}}
+% \newunicodechar{\^q}{\superscript{q}}
+\newunicodechar{ʳ}{\superscript{r}}
+\newunicodechar{ˢ}{\superscript{s}}
+\newunicodechar{ᵗ}{\superscript{t}}
+\newunicodechar{ᵘ}{\superscript{u}}
+\newunicodechar{ᵛ}{\superscript{v}}
+\newunicodechar{ʷ}{\superscript{w}}
+\newunicodechar{ˣ}{\superscript{x}}
+\newunicodechar{ʸ}{\superscript{y}}
+\newunicodechar{ᶻ}{\superscript{z}}
 % endregion superscript lowercase latin ----------------------------------------
 
 % region superscript lowercase greek -------------------------------------------
-\newunicodechar{ᵅ}{\ensuremath{^{\alpha}}}
-\newunicodechar{ᵝ}{\ensuremath{^{\beta}}}
-\newunicodechar{ᵞ}{\ensuremath{^{\gamma}}}
-\newunicodechar{ᵟ}{\ensuremath{^{\delta}}}
-\newunicodechar{ᵋ}{\ensuremath{^{\varepsilon}}}
-\newunicodechar{ᶿ}{\ensuremath{^{\theta}}}
-\newunicodechar{ᶥ}{\ensuremath{^{\itoa}}}
-\newunicodechar{ᶹ}{\ensuremath{^{\upsilon}}}
-\newunicodechar{ᵠ}{\ensuremath{^{\varphi}}}
-\newunicodechar{ᵡ}{\ensuremath{^{\chi}}}
+\newunicodechar{ᵅ}{\superscript{\ensuremath{\alpha}}}
+\newunicodechar{ᵝ}{\superscript{\ensuremath{\beta}}}
+\newunicodechar{ᵞ}{\superscript{\ensuremath{\gamma}}}
+\newunicodechar{ᵟ}{\superscript{\ensuremath{\delta}}}
+\newunicodechar{ᵋ}{\superscript{\ensuremath{\varepsilon}}}
+\newunicodechar{ᶿ}{\superscript{\ensuremath{\theta}}}
+\newunicodechar{ᶥ}{\superscript{\ensuremath{\iota}}}
+\newunicodechar{ᶹ}{\superscript{\ensuremath{\upsilon}}}
+\newunicodechar{ᵠ}{\superscript{\ensuremath{\varphi}}}
+\newunicodechar{ᵡ}{\superscript{\ensuremath{\chi}}}
 % endregion superscript lowercase greek ----------------------------------------
 
 % region superscript digits ----------------------------------------------------
-\newunicodechar{¹}{\ensuremath{^{1}}}
-\newunicodechar{²}{\ensuremath{^{2}}}
-\newunicodechar{³}{\ensuremath{^{3}}}
-\newunicodechar{⁴}{\ensuremath{^{4}}}
-\newunicodechar{⁵}{\ensuremath{^{5}}}
-\newunicodechar{⁶}{\ensuremath{^{6}}}
-\newunicodechar{⁷}{\ensuremath{^{7}}}
-\newunicodechar{⁸}{\ensuremath{^{8}}}
-\newunicodechar{⁹}{\ensuremath{^{9}}}
-\newunicodechar{⁰}{\ensuremath{^{0}}}
+\newunicodechar{¹}{\superscript{1}}
+\newunicodechar{²}{\superscript{2}}
+\newunicodechar{³}{\superscript{3}}
+\newunicodechar{⁴}{\superscript{4}}
+\newunicodechar{⁵}{\superscript{5}}
+\newunicodechar{⁶}{\superscript{6}}
+\newunicodechar{⁷}{\superscript{7}}
+\newunicodechar{⁸}{\superscript{8}}
+\newunicodechar{⁹}{\superscript{9}}
+\newunicodechar{⁰}{\superscript{0}}
 % endregion superscript digits -------------------------------------------------
 
 % region superscript symbols ---------------------------------------------------
-\newunicodechar{⁺}{\ensuremath{^{\texttt{+}}}}
-\newunicodechar{⁻}{\ensuremath{^{\texttt{-}}}}
-\newunicodechar{⁽}{\ensuremath{^{(}}}
-\newunicodechar{⁾}{\ensuremath{^{)}}}
-\newunicodechar{⁼}{\ensuremath{^{=}}}
+\newunicodechar{⁺}{\superscript{\texttt{+}}}
+\newunicodechar{⁻}{\superscript{\texttt{-}}}
+\newunicodechar{⁼}{\superscript{=}}
+\newunicodechar{⁽}{\superscript{(}}
+\newunicodechar{⁾}{\superscript{)}}
 % endregion superscript symbols ------------------------------------------------
 % endregion superscripts (\^<char>) --------------------------------------------
 

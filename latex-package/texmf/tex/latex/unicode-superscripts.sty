@@ -3,10 +3,10 @@
 %
 % Provides public command: `\superscript{arg}`
 % Internally uses the namespaces`\usuperscript@`
-% Automatically loads the sister package `unicode-subscript`
+% Automatically loads the sister package `unicode-subscripts`
 %
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{unicode-superscript}[2024/02/21 Combining superscripts]
+\ProvidesPackage{unicode-superscripts}[2024/02/21 Combining superscripts]
 \RequirePackage{iftex}
 %
 % Usage: \newunicodechar{ᵢ}{\superscript{i}}
@@ -26,9 +26,9 @@
 
 % Automatically load the sister package, passing the same options
 \ifusuperscript@debug%
-	\RequirePackage[debug]{unicode-subscript}
+	\RequirePackage[debug]{unicode-subscripts}
 \else%
-	\RequirePackage{unicode-subscript}%
+	\RequirePackage{unicode-subscripts}%
 \fi%
 % endregion Package Options ----------------------------------------------------
 
