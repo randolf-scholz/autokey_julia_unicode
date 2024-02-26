@@ -1,5 +1,4 @@
-% !TeX root = ./subscript.sty
-%
+% region preamble --------------------------------------------------------------
 % IMPLEMENTATION BASED ON \expandafter + \futurelet
 %
 % Provides two public commands: `\subscript{arg}` and `\superscript{arg}`.
@@ -7,6 +6,7 @@
 %
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-subscript}[2024/02/21 Combining Subscripts]
+\RequirePackage{iftex}
 %
 % Usage: \newunicodechar{ᵢ}{\subscript{i}}
 % This allows to use multiple unicode subscripts in succession:
@@ -14,66 +14,30 @@
 % - `$xᵢⱼₖ$` ⇝ `$x_{ijk}$`
 %
 % The package is designed to work with both pdftex and luatex.
-%
 % Note: Usage of the form `x\subscript{i}\subscript{j}' is not supported.
-%
+% endregion preamble -----------------------------------------------------------
 
-\RequirePackage{iftex}
 
 % region Package Options -------------------------------------------------------
 \newif\ifusubscript@debug\usubscript@debugfalse%  Debug flag
 \newif\ifusubscript@testing\usubscript@testingfalse%  Testing flag
-
 \DeclareOption{debug}{\usubscript@debugtrue}
 \ProcessOptions\relax%
 % endregion Package Options ----------------------------------------------------
 
 
-% region public interface ------------------------------------------------------
-\newcommand{\subscript}[1]{%
-%
-% 1. If we are already in a subscript, \subscript appends the given tokens to the \usubscript@list
-%    Else, it resets the \subscriptlist
-% 2. Executes \usubscript@checknext which determines if the next character is also a subscript.
-%    In this case, we go back to 1, else we stop the process.
-%
-\ifx\usubscript@list\usubscript@start%
-	% Initialize the list with the first token
-	\usubscript@log{Initializing list with '\meaning#1'}%
-	\def\usubscript@list{#1}%
-\else%
-	% append token to existing list
-	\usubscript@log{Appending '\meaning#1' to '\usubscript@list'}%
-	\usubscript@list@append{#1}%
-\fi%
-%
-% Check the next token to determine whether to switch of subscript@continue
-% This will peek at one or multiple tokens, but reinsert them without modification.
-% Also, this will not add any content to the document or the \usubscript@list.
-%
-% \futurelet\usubscript@successor\usubscript@dispatch%
-%
-% Expand successor first before \futurelet
-%
-\expandafter\futurelet\expandafter\usubscript@successor\expandafter\usubscript@dispatch%
-}
-% endregion public interface ---------------------------------------------------
-
-
-
-
-%region utilities --------------------------------------------------------------
-% variables used by the package
+% region globals and helper functions ------------------------------------------\
+% global subscript list variable
 \newcommand{\usubscript@start}{\relax}%  marker for the start of a subscript
-\let\usubscript@list=\usubscript@start%  initialize the list
+\newcommand{\usubscript@list@reset}{\let\usubscript@list=\usubscript@start}
+\newcommand{\usubscript@list@append}[1]{\edef\usubscript@list{\unexpanded\expandafter{\usubscript@list#1}}}
+\usubscript@list@reset% initialize the list
 
 \newcommand{\usubscript@log}[1]{%
 %
 % Prints the given message if the debug flag is set.
 %
-\ifusubscript@debug%
-	\PackageInfo{subscript}{#1}%
-\fi%
+\ifusubscript@debug\PackageInfo{subscript}{#1}\fi%
 }
 
 \newcommand{\usubscript@getfirsttok}[2]{%
@@ -84,27 +48,77 @@
 \expandafter\@extract#2\@terminator%
 }
 
-\newcommand{\usubscript@list@append}[1]{%
+% select the correct dispatch function
+\ifpdftex%
+	\def\usubscript@check@successor{\usubscript@check@successor@pdftex}%
+\else%
+	\def\usubscript@check@successor{\usubscript@check{\usubscript@successor}}%
+\fi%
+% endregion globals and helper functions ---------------------------------------
+
+
+% region public interface ------------------------------------------------------
+\newcommand{\subscript}[1]{%
 %
-% Appends the given token to the \usubscript@list
+% 1. If we are already in a subscript, \subscript appends the given tokens to the \usubscript@list
+%    Else, it resets the \subscriptlist
+% 2. Executes \usubscript@check@successor which determines if the next character is also a subscript.
+%    In this case, we go back to 1, else we stop the process.
 %
-\edef\usubscript@list{\unexpanded\expandafter{\usubscript@list#1}}%
+\ifx\usubscript@list\usubscript@start%
+	% Initialize the list with the frst token.
+	\usubscript@log{Initializing list with '\meaning#1'}%
+	\def\usubscript@list{#1}%
+\else%
+	% Append token to existing list.
+	\usubscript@log{Appending '\meaning#1' to '\usubscript@list'}%
+	\usubscript@list@append{#1}%
+\fi%
+%
+% Check the next token to determine whether to continue the subscript or to terminate it
+% Expands successor first before \futurelet, this is important to handle unicode in pdftex
+\expandafter\futurelet\expandafter\usubscript@successor\expandafter\usubscript@check@successor%
+}
+% endregion public interface ---------------------------------------------------
+
+
+% region private implementation ------------------------------------------------
+\newcommand{\usubscript@check}[1]{%
+%
+% Test whether to terminate the subscript
+%
+\usubscript@log{Testing against '\meaning#1'}%
+%
+\ifx#1\subscript%
+	\usubscript@log{ >>> Successor is another subscript!}%
+\else%
+	\usubscript@log{ >>> Successor is not a subscript!}%
+	\usubscript@finalize%
+\fi%
 }
 
 
-% select the correct dispatch function
-\ifpdftex%
-	\def\usubscript@dispatch{\usubscript@dispatch@pdftex}%
+\newcommand{\usubscript@finalize}{%
+%
+% Terminate the subscript and insert the result
+%
+\usubscript@log{Terminating with current list '\meaning\usubscript@list'}%
+%
+\ifmmode%
+	% \edef\usubscript@actual{\sb\bgroup\usubscript@list\egroup}%
+	\usubscript@log{ >>> Inserting '^{\meaning\usubscript@list}{}'}%
+	\sb\bgroup\usubscript@list\egroup%
 \else%
-	\def\usubscript@dispatch{\usubscript@dispatch@luatex}%
+	% \edef\usubscript@actual{\textsubscript{\usubscript@list}}%
+	\usubscript@log{ >>> Inserting '\textsubscript{\meaning\usubscript@list}'}%
+	\textsubscript{\usubscript@list}%
 \fi%
-%endregion utilities -----------------------------------------------------------
+%
+\usubscript@list@reset%
+}
 
 
-
-
-
-\newcommand{\usubscript@dispatch@pdftex}{%
+\newcommand{\usubscript@check@successor@pdftex}{%
 %
 % There are 2 cases we consider:
 % 1. The next token is a subscript, in which case we continue the process.
@@ -133,74 +147,6 @@
 %
 \usubscript@execute%
 }%
-
-
-\newcommand{\usubscript@dispatch@luatex}{%
-%
-\usubscript@log{ >>> Testing for subscript '\meaning\usubscript@successor'}%
-%
-\ifx\usubscript@successor\subscript%
-	\usubscript@log{ >>> Successor is another subscript!}%
-\else%
-	\edef\usubscript@expanded{\unexpanded\expandafter{\usubscript@successor}}%
-	\usubscript@log{ >>> Testing Expanded '\meaning\usubscript@expanded'}%
-\ifx\usubscript@expanded\subscript%
-	\usubscript@log{ >>> E-Successor is another subscript!}%
-% \else%
-% 	\usubscript@getfirsttok{\usubscript@firsttoken}{\usubscript@expanded}%
-% 	\usubscript@log{ >>> Testing first token '\meaning\usubscript@firsttoken'}%
-% \ifx\usubscript@firsttoken\subscript%
-% 	\usubscript@log{ >>> 1-Successor is another subscript!}%
-\else%
-	\usubscript@log{ >>> Successor is not a subscript!}%
-	\usubscript@finalize%
-\fi\fi%\fi%
-%
-% \usubscript@log{ >>> Testing for Unicode \meaning\usubscript@successor}%
-% %
-% \edef\usubscript@expanded{\unexpanded\expandafter{\usubscript@successor}}%
-% \usubscript@log{ >>> Testing Expanded \meaning\usubscript@expanded}%
-% %
-% \usubscript@getfirsttok{\usubscript@firsttoken}{\usubscript@expanded}%
-% \usubscript@log{ >>> Testing first token \meaning\usubscript@firsttoken}%
-% %
-% \usubscript@check{\usubscript@firsttoken}%
-}
-
-
-
-% region private implementation ------------------------------------------------
-\newcommand{\usubscript@check}[1]{%
-%
-\usubscript@log{Testing against '\meaning#1'}%
-%
-\ifx#1\subscript%
-	\usubscript@log{ >>> Successor is another subscript!}%
-\else%
-	\usubscript@log{ >>> Successor is not a subscript!}%
-	\usubscript@finalize%
-\fi%
-}
-
-
-\newcommand{\usubscript@finalize}{%
-%
-\usubscript@log{Terminating with current list '\meaning\usubscript@list'}%
-%
-\ifmmode%
-	% \edef\usubscript@actual{\sb\bgroup\usubscript@list\egroup}%
-	\usubscript@log{ >>> Inserting '\meaning\usubscript@list'}%
-	\sb\bgroup\usubscript@list\egroup%
-\else%
-	% \edef\usubscript@actual{\textsubscript{\usubscript@list}}%
-	\usubscript@log{ >>> Inserting '\meaning\usubscript@list'}%
-	\textsubscript{\usubscript@list}%
-\fi%
-%
-% reset the list
-\let\usubscript@list\usubscript@start%
-%
-}
 
 
 \newcommand{\usubscript@check@unicode@four}[5]{% grabs 1+4 tokens
