@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2024-02-26
+
+Main work was refactoring the `unicode-symbols` package. It is now located in the `latex-package` directory.
+Additionally a main achievement is the novel code for sub- and superscripts which automatically combines multiple sub- and superscripts into a single command.
+
+For example $xᵢⱼ$ will render identically to $x_{ij}$.
+
 ## 2024-01-23
 
 Finally merged a dev branch into main.
