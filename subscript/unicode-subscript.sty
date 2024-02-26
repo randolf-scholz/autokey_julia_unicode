@@ -1,8 +1,9 @@
 % region preamble --------------------------------------------------------------
 % IMPLEMENTATION BASED ON \expandafter + \futurelet
 %
-% Provides two public commands: `\subscript{arg}` and `\superscript{arg}`.
-% Internally uses the namespace `\unisubscript@` and `\unisuperscript@`
+% Provides public command: `\subscript{arg}`
+% Internally uses the namespaces`\usubscript@`
+% Automatically loads the sister package `unicode-superscript`
 %
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-subscript}[2024/02/21 Combining Subscripts]
@@ -20,9 +21,15 @@
 
 % region Package Options -------------------------------------------------------
 \newif\ifusubscript@debug\usubscript@debugfalse%  Debug flag
-\newif\ifusubscript@testing\usubscript@testingfalse%  Testing flag
 \DeclareOption{debug}{\usubscript@debugtrue}
 \ProcessOptions\relax%
+
+% Automatically load the sister package, passing the same options
+\ifusubscript@debug%
+	\RequirePackage[debug]{unicode-superscript}
+\else%
+	\RequirePackage{unicode-superscript}%
+\fi%
 % endregion Package Options ----------------------------------------------------
 
 
@@ -105,11 +112,9 @@
 \usubscript@log{Terminating with current list '\meaning\usubscript@list'}%
 %
 \ifmmode%
-	% \edef\usubscript@actual{\sb\bgroup\usubscript@list\egroup}%
-	\usubscript@log{ >>> Inserting '^{\meaning\usubscript@list}{}'}%
+	\usubscript@log{ >>> Inserting '_{\meaning\usubscript@list}{}'}%
 	\sb\bgroup\usubscript@list\egroup%
 \else%
-	% \edef\usubscript@actual{\textsubscript{\usubscript@list}}%
 	\usubscript@log{ >>> Inserting '\textsubscript{\meaning\usubscript@list}'}%
 	\textsubscript{\usubscript@list}%
 \fi%

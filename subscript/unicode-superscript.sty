@@ -1,0 +1,214 @@
+% region preamble --------------------------------------------------------------
+% IMPLEMENTATION BASED ON \expandafter + \futurelet
+%
+% Provides public command: `\superscript{arg}`
+% Internally uses the namespaces`\usuperscript@`
+% Automatically loads the sister package `unicode-subscript`
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{unicode-superscript}[2024/02/21 Combining superscripts]
+\RequirePackage{iftex}
+%
+% Usage: \newunicodechar{ᵢ}{\superscript{i}}
+% This allows to use multiple unicode superscripts in succession:
+% - `xᵢⱼₖ` ⇝ `x\textsuperscript{ijk}`
+% - `$xᵢⱼₖ$` ⇝ `$x_{ijk}$`
+%
+% The package is designed to work with both pdftex and luatex.
+% Note: Usage of the form `x\superscript{i}\superscript{j}' is not supported.
+% endregion preamble -----------------------------------------------------------
+
+
+% region Package Options -------------------------------------------------------
+\newif\ifusuperscript@debug\usuperscript@debugfalse%  Debug flag
+\DeclareOption{debug}{\usuperscript@debugtrue}
+\ProcessOptions\relax%
+
+% Automatically load the sister package, passing the same options
+\ifusuperscript@debug%
+	\RequirePackage[debug]{unicode-subscript}
+\else%
+	\RequirePackage{unicode-subscript}%
+\fi%
+% endregion Package Options ----------------------------------------------------
+
+
+% region globals and helper functions ------------------------------------------\
+% global superscript list variable
+\newcommand{\usuperscript@start}{\relax}%  marker for the start of a superscript
+\newcommand{\usuperscript@list@reset}{\let\usuperscript@list=\usuperscript@start}
+\newcommand{\usuperscript@list@append}[1]{\edef\usuperscript@list{\unexpanded\expandafter{\usuperscript@list#1}}}
+\usuperscript@list@reset% initialize the list
+
+\newcommand{\usuperscript@log}[1]{%
+%
+% Prints the given message if the debug flag is set.
+%
+\ifusuperscript@debug\PackageInfo{superscript}{#1}\fi%
+}
+
+\newcommand{\usuperscript@getfirsttok}[2]{%
+%
+% stores the first token of #2 in #1
+%
+\def\@extract##1##2\@terminator{\let#1=##1}%
+\expandafter\@extract#2\@terminator%
+}
+
+% select the correct dispatch function
+\ifpdftex%
+	\def\usuperscript@check@successor{\usuperscript@check@successor@pdftex}%
+\else%
+	\def\usuperscript@check@successor{\usuperscript@check{\usuperscript@successor}}%
+\fi%
+% endregion globals and helper functions ---------------------------------------
+
+
+% region public interface ------------------------------------------------------
+\newcommand{\superscript}[1]{%
+%
+% 1. If we are already in a superscript, \superscript appends the given tokens to the \usuperscript@list
+%    Else, it resets the \superscriptlist
+% 2. Executes \usuperscript@check@successor which determines if the next character is also a superscript.
+%    In this case, we go back to 1, else we stop the process.
+%
+\ifx\usuperscript@list\usuperscript@start%
+	% Initialize the list with the frst token.
+	\usuperscript@log{Initializing list with '\meaning#1'}%
+	\def\usuperscript@list{#1}%
+\else%
+	% Append token to existing list.
+	\usuperscript@log{Appending '\meaning#1' to '\usuperscript@list'}%
+	\usuperscript@list@append{#1}%
+\fi%
+%
+% Check the next token to determine whether to continue the superscript or to terminate it
+% Expands successor first before \futurelet, this is important to handle unicode in pdftex
+\expandafter\futurelet\expandafter\usuperscript@successor\expandafter\usuperscript@check@successor%
+}
+% endregion public interface ---------------------------------------------------
+
+
+% region private implementation ------------------------------------------------
+\newcommand{\usuperscript@check}[1]{%
+%
+% Test whether to terminate the superscript
+%
+\usuperscript@log{Testing against '\meaning#1'}%
+%
+\ifx#1\superscript%
+	\usuperscript@log{ >>> Successor is another superscript!}%
+\else%
+	\usuperscript@log{ >>> Successor is not a superscript!}%
+	\usuperscript@finalize%
+\fi%
+}
+
+
+\newcommand{\usuperscript@finalize}{%
+%
+% Terminate the superscript and insert the result
+%
+\usuperscript@log{Terminating with current list '\meaning\usuperscript@list'}%
+%
+\ifmmode%
+	\usuperscript@log{ >>> Inserting '^{\meaning\usuperscript@list}{}'}%
+	\sp\bgroup\usuperscript@list\egroup%
+\else%
+	\usuperscript@log{ >>> Inserting '\textsuperscript{\meaning\usuperscript@list}'}%
+	\textsuperscript{\usuperscript@list}%
+\fi%
+%
+\usuperscript@list@reset%
+}
+
+
+\newcommand{\usuperscript@check@successor@pdftex}{%
+%
+% There are 2 cases we consider:
+% 1. The next token is a superscript, in which case we continue the process.
+% 2. The next token is some unicode character, in which case:
+%	2.1. We grab the necessary number of tokens if using an 8-bit engine
+%	2.2. We expand the unicode character once to get the replacement tokens.
+%   2.3. We compare the first token of the replacement tokens to the superscript token.
+%
+\usuperscript@log{>>> Dispatching on \meaning\usuperscript@successor'}%
+%
+\ifx\usuperscript@successor\UTFviii@four@octets%
+	\usuperscript@log{ >>> Detected Unicode 4 octets}%
+	\def\usuperscript@execute{\usuperscript@check@unicode@four}%
+\else\ifx\usuperscript@successor\UTFviii@three@octets%
+	\usuperscript@log{ >>> Detected Unicode 3 octets}%
+	\def\usuperscript@execute{\usuperscript@check@unicode@three}%
+\else\ifx\usuperscript@successor\UTFviii@two@octets%
+	\usuperscript@log{ >>> Detected Unicode 2 octets}%
+	\def\usuperscript@execute{\usuperscript@check@unicode@two}%
+\else%
+	\usuperscript@log{ >>> Detected non-Unicode}%
+	\def\usuperscript@execute{\usuperscript@check{\usuperscript@successor}}%
+\fi\fi\fi%
+%
+% dispatch the selected command.
+%
+\usuperscript@execute%
+}%
+
+
+\newcommand{\usuperscript@check@unicode@four}[5]{% grabs 1+4 tokens
+%
+\usuperscript@log{>>> Expand Unicode Quadruplet}%
+%
+\unless\ifcsname u8:#1#2#3#4#5\endcsname%
+	\PackageError{superscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\usuperscript@token\csname u8:#1#2#3#4#5\endcsname%
+\usuperscript@log{Detected unicode '\meaning\usuperscript@token'}%
+%
+\usuperscript@getfirsttok{\usuperscript@firsttoken}{\usuperscript@token}%
+\usuperscript@check{\usuperscript@firsttoken}%
+%
+\usuperscript@log{Reinserting '\meaning#1#2#3#4#5'}%
+#1#2#3#4#5%
+}
+
+
+\newcommand{\usuperscript@check@unicode@three}[4]{% grabs 1+3 tokens
+%
+\usuperscript@log{>>> Expand Unicode Triplet}%
+%
+\unless\ifcsname u8:#1#2#3#4\endcsname%
+	\PackageError{superscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\usuperscript@token\csname u8:#1#2#3#4\endcsname%
+\usuperscript@log{Detected unicode '\meaning\usuperscript@token'}%
+%
+\usuperscript@getfirsttok{\usuperscript@firsttoken}{\usuperscript@token}%
+\usuperscript@check{\usuperscript@firsttoken}%
+%
+\usuperscript@log{Reinserting '\meaning#1#2#3#4'}%
+#1#2#3#4%
+}
+
+
+\newcommand{\usuperscript@check@unicode@two}[3]{% grabs 1+2 tokens
+%
+\usuperscript@log{>>> Expand Unicode Duplet}%
+%
+\unless\ifcsname u8:#1#2#3\endcsname%
+	\PackageError{superscript}{Detected undefined unicode.}%
+\fi%
+%
+\expandafter\let\expandafter\usuperscript@token\csname u8:#1#2#3\endcsname%
+\usuperscript@log{Detected unicode '\meaning\usuperscript@token'}%
+%
+\usuperscript@getfirsttok{\usuperscript@firsttoken}{\usuperscript@token}%
+\usuperscript@check{\usuperscript@firsttoken}%
+%
+\usuperscript@log{Reinserting '\meaning#1#2#3'}%
+#1#2#3%
+}
+% endregion private implementation ---------------------------------------------
+
+\endinput
