@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\makeatletter
+
+\newcommand*{\unicode@roman@number}[1]{\romannumeral #1\relax}
+\newcommand*{\unicode@Roman@Number}[1]{\expandafter\@slowromancap\romannumeral #1@}
+
+
+% NOTE: \relax added due to https://tex.stackexchange.com/a/82656/119955
+\newcommand*{\romannumber}[1]{%
+\relax\ifmmode%
+	\mathrm{\romannumeral #1\relax}%
+\else%
+	{\rmfamily\romannumeral #1\relax}
+\fi%
+}
+
+
+\newcommand*{\RomanNumber}[1]{%
+\relax\ifmmode%
+	\mathrm{\expandafter\@slowromancap\romannumeral #1@}%
+\else%
+	{\rmfamily\expandafter\@slowromancap\romannumeral #1@}
+\fi%
+}
+
+\let\rom\romannumber%
+\let\Rom\RomanNumber%
+
+\makeatother
+\begin{document}
+Charles's sister Bona, married the eldest son of Philip \rom{6} of France,
+the future John \rom{2} of France, in 1335.
+
+Today is the year \rom{2011} and \Rom{2011}
+
+Today is the year $\rom{2011}$ and $\Rom{2011}$
+
+\begin{tabular}{ll}
+\rom{2222} & $\rom{2222}$ \\
+\Rom{2222} & $\Rom{2222}$ \\
+\end{tabular}
+
+\end{document}

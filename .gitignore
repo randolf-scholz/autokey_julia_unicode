@@ -4,3 +4,4 @@
 *.virtual_documents
 .idea/
 .vscode/
+**/__tex__/

@@ -1,0 +1,34 @@
+# Define the default task
+default: test
+
+# Define the test task
+test outputdir="__tex__" texmf="../texmf":
+    #!/usr/bin/env bash
+    set -e  # Exit on error
+    echo "Running tests..."
+    # clear the output directory (ok to fail if it does not exist)
+    rm -rf {{outputdir}} || true
+    mkdir -p {{outputdir}}
+    if [ -d "{{texmf}}" ]; then
+        export TEXMFHOME="{{texmf}}"
+    else
+        echo "No texmf directory found at {{texmf}}!"
+        exit 1
+    fi
+    shopt -s nullglob
+    for file in test{,s}_*.tex; do
+        echo "Compiling $file";
+        latexmk -pdf -output-directory={{outputdir}} $file;
+    done
+
+    # # remove metadata from the pdf files
+    # for file in __tex__/*.pdf; do
+    #     qpdf --linearize $file $file.tmp;
+    #     mv $file.tmp $file;
+    # done
+
+    # # check sha256sums of the pdf files
+    # for file in __tex__/*.pdf; do
+    #     echo "Checking $file";
+    #     sha256sum $file;
+    # done

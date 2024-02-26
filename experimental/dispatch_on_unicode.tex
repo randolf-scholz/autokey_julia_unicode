@@ -1,0 +1,159 @@
+\documentclass{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage{etoolbox}
+
+\makeatletter
+
+\newtoggle{subscript@continue}
+
+\newcommand{\subscript}[1]{%
+\iftoggle{subscript@continue}{%
+%
+}{%
+\toggletrue{subscript@continue}%
+	\ifmmode%
+		\sb\bgroup%
+	\else%
+		\noexpand\textsubscript\begingroup%
+	\fi%
+}%
+%
+#1%
+%
+\futurelet\subscript@successor\subscript@check@dispatch%
+}%
+
+%\newcommand{\subscript}[1]{
+%\ifmmode%
+%	\sb\bgroup%
+%\else
+%	\textsubscript\begingroup%
+%\fi
+%}%
+%%
+%#1%
+%%
+%\futurelet\subscript@successor\subscript@check@dispatch%
+%}
+
+
+
+
+
+\def\getfirsttok#1#2{%
+	% stores the first token of #2 in #1, without expansion.
+%	\edef\@input{\expandonce{#2}}%
+	\def\@extract##1##2\@terminator{\let#1=##1}%
+	\expandafter\@extract#2\@terminator%
+}%
+
+
+\newcommand{\subscript@check@dispatch}{%
+% check if subscript@successor is unicode. In this case, dispatch the correct combinator.
+%	\let\subscript@successor#1%
+\typeout{>>> The successor: \meaning\subscript@successor}%
+%
+% inspect the first token
+\getfirsttok{\subscript@successor}{\subscript@successor}%
+\typeout{>>> The result: \meaning\subscript@successor}%
+%
+\ifx\subscript@successor\UTFviii@four@octets%
+	\typeout{ >>> Unicode 4 octets}%
+	\def\subscript@test{\subscript@check@unicode@four}%
+\else\ifx\subscript@successor\UTFviii@three@octets%
+	\typeout{ >>> Unicode 3 octets}%
+	\def\subscript@test{\subscript@check@unicode@three}%
+\else\ifx\subscript@successor\UTFviii@two@octets%
+	\typeout{ >>> Unicode 2 octets}%
+	\def\subscript@test{\subscript@check@unicode@two}%
+\else%
+	\typeout{ >>> Not Unicode}%
+	\def\subscript@test{\subscript@check@default}%
+\fi\fi\fi%
+%
+% dispatch the test command.
+%
+\subscript@test%
+}%
+
+
+\newcommand{\subscript@check@unicode@four}[4]{% grabs 4 tokens
+\ifcsname u8:#1#2#3#4\endcsname%
+	\typeout{  >>> Expand Unicode Quadruplet}%
+	\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname%
+	\getfirsttok{\@result}{\@token}
+	\subscript@check{\@result}
+\else
+	\GenericError{}{... does not define a macro...}{}{}
+	\let\@token=\relax
+\fi
+% reinsert 4 tokens
+#1#2#3#4%
+}
+
+\newcommand{\subscript@check@unicode@three}[3]{% grabs 3 tokens
+\ifcsname u8:#1#2#3\endcsname%
+	\typeout{  >>> Expand Unicode Triplet}%
+	\expandafter\let\expandafter\@token\csname u8:#1#2#3\endcsname%
+	\getfirsttok{\@result}{\@token}
+	\subscript@check{\@result}
+\else
+	\GenericError{}{... does not define a macro...}{}{}
+	\let\@token=\relax
+\fi
+% reinsert 3 tokens
+#1#2#3%
+}
+
+\newcommand{\subscript@check@unicode@two}[2]{% grabs 2 tokens
+\ifcsname u8:#1#2\endcsname%
+	\typeout{  >>> Expand Unicode Triplet}%
+	\expandafter\let\expandafter\@token\csname u8:#1#2\endcsname%
+	\getfirsttok{\@result}{\@token}%
+	\subscript@check{\@token}%
+\else%
+	\GenericError{}{... does not define a macro...}{}{}
+	\let\@token=\relax%
+\fi%
+% reinsert 2 tokens
+#1#2%
+}
+
+\newcommand{\subscript@check@default}[1]{% grabs 1 token
+\getfirsttok{\@result}{#1}%
+\subscript@check{\@result}%
+#1%
+}%
+
+\def\subscript@check#1{%
+\typeout{Testing against '\meaning#1'}%
+\ifx#1\subscript%
+	\typeout{Keep going!}%
+\else%
+	\typeout{Terminating!}%
+	\togglefalse{subscript@continue}%
+	\ifmmode\egroup\else\endgroup\fi%
+\fi%
+}%
+
+
+
+\makeatother
+
+\AtBeginDocument{
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+}
+
+\begin{document}
+%\tracingmacros=2  \tracingcommands=2
+%$\shownine\shownine0ᵢⱼ123456789$
+
+Start: $aᵢⱼₖₗ$xxa\textsubscript{k}b aₖb
+
+\end{document}

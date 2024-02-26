@@ -1,0 +1,38 @@
+\documentclass{article}
+\makeatletter
+\newif\if@unisub\@unisubfalse%
+\def\unicodesubscript#1{%
+    \if@unisub%
+        % If already in a subscript sequence, just add the character
+        #1%
+    \else%
+        % Start a new subscript sequence
+        \sb\bgroup#1\@unisubtrue%
+        \@checknextchar%
+    \fi%
+}
+\def\@checknextchar{\futurelet\@next\@decidenext}
+\def\@decidenext{%
+    \ifx\@next\@unicodesubscript%
+        \let\@tempa\@gatherunicodesubscripts%
+    \else%
+        \let\@tempa\@finishunicodesubscript%
+    \fi%
+    \@tempa%
+}
+\def\@gatherunicodesubscripts{%
+    % Remove \@unicodesubscript from the stream and continue
+    \afterassignment\@checknextchar%
+    \let\@tempb=%
+}%
+\def\@finishunicodesubscript{%
+    \@unisubfalse\egroup%
+}%
+\makeatother
+% Public interface
+
+\begin{document}
+
+Example: $x\unicodesubscript{i}\unicodesubscript{j}$
+
+\end{document}

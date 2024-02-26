@@ -2,7 +2,8 @@
 
 ## [CHANGELOG](CHANGELOG.md)
 
-**⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
+- 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to $x_{ij}$.
+- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
 
 ![demo](demo.gif)
 

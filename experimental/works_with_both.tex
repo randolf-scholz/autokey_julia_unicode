@@ -1,0 +1,164 @@
+\documentclass{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage{etoolbox}
+
+\makeatletter
+
+
+\newcommand{\shownine}[9]{
+\typeout{INPUT 0: '\meaning#1'}%
+\typeout{INPUT 1: '\meaning#2'}%
+\typeout{INPUT 2: '\meaning#3'}%
+\typeout{INPUT 3: '\meaning#4'}%
+\typeout{INPUT 4: '\meaning#5'}%
+\typeout{INPUT 5: '\meaning#6'}%
+\typeout{INPUT 6: '\meaning#7'}%
+\typeout{INPUT 7: '\meaning#8'}%
+\typeout{INPUT 8: '\meaning#9'}%
+}
+
+\newif\ifsubscript@continue\subscript@continuefalse
+
+\def\subscript@marker{\relax}
+
+\def\getfirsttok#1#2{
+	% stores the first token of #2 in #1, without expansion.
+%	\edef\@input{\expandonce{#2}}%
+	\def\@extract##1##2\@terminator{\let#1=##1}%
+	\expandafter\@extract#2\@terminator%
+}
+
+
+\newtoggle{subscript@continue}
+\newtoggle{subscript@testing}
+\newcommand{\subscript}[1]{
+%	\subscriptmarker%
+%	\typeout{------- called subscript with argument '\meaning#1' -------}
+    \ifsubscript@continue\else%
+%		\typeout{>>> Already in subscript!}%
+%		\typeout{>>> Starting new subscript}
+        \subscript@continuetrue
+        \sb\bgroup%
+    \fi
+%	\typeout{   ---   Placing '\meaning#1'   ---   }
+	#1%
+%	\typeout{   ---   Testing subscript '\meaning#1'   ---   }
+	\subscript@check@terminate%
+}
+
+\newcommand{\subscript@check@terminate}[4]{%
+\typeout{INPUT 1: '\meaning#1'}%
+\typeout{INPUT 2: '\meaning#2'}%
+\typeout{INPUT 3: '\meaning#3'}%
+\typeout{INPUT 4: '\meaning#4'}%
+%
+%\let\@token=#1%
+\let\@token=\relax%
+\let\@actual=\relax%
+%\typeout{The token: '\meaning\@token'}
+%
+\getfirsttok{\@lead}{#1}
+\typeout{The Lead: \meaning\@lead}
+%
+%
+\ifx\@lead\UTFviii@four@octets%
+	\typeout{4 OCTETS!!!}
+	\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname%
+\else\ifx\@lead\UTFviii@three@octets%
+	\typeout{3 OCTETS!!!}
+	\expandafter\let\expandafter\@token\csname u8:#1#2#3\endcsname%
+\else\ifx\@lead\UTFviii@two@octets%
+	\typeout{2 OCTETS!!!}
+	\expandafter\let\expandafter\@token\csname u8:#1#2\endcsname%
+\else%
+	\def\@token{#1}%
+\fi\fi\fi
+%
+%\ifcsname u8:#1#2#3#4\endcsname%
+%%	\typeout{  >>> Expand Unicode Quadruplet}%
+%%	\edef\@token{\expandonce{\csname u8:#1#2#3#4\endcsname}}
+%%	\def\@token{\csname u8:#1#2#3#4\endcsname}
+%	\expandafter\let\expandafter\@token\csname u8:#1#2#3#4\endcsname%
+%%	\expandafter\let\expandafter\@actual\@token% expand replacement once
+%\else\ifcsname u8:#1#2#3\endcsname%
+%%	\typeout{  >>> Expand Unicode Triplet}%
+%%	\edef\@token{\expandonce{\csname u8:#1#2#3\endcsname}}
+%%	\edef\@actual{\@token}
+%%	\edef\@actual{\expandonce\@token}
+%%	\def\@token{\csname u8:#1#2#3\endcsname}
+%	\expandafter\let\expandafter\@token\csname u8:#1#2#3\endcsname%
+%%	\expandafter\let\expandafter\@actual\expandonce\@eoken% expand replacement once
+%\else\ifcsname u8:#1#2\endcsname%
+%%	\typeout{  >>> Expand Unicode Duplet}%
+%%	\edef\@token{\expandonce{\csname u8:#1#2\endcsname}}
+%%	\def\@token{\csname u8:#1#2\endcsname}
+%	\expandafter\let\expandafter\@token\csname u8:#1#2\endcsname%
+%%	\expandafter\let\expandafter\@actual\expandonce\@token% expand replacement once
+%\else
+%	\def\@token{#1}%
+%\fi
+%\fi
+%\fi
+%
+\getfirsttok{\@result}{\@token}
+\typeout{>>> The token: '\meaning\@token'}%
+\typeout{>>> Expanded token: '\meaning\@result'}
+%
+%\ifx\@token\subscript%
+%%	\typeout{  >>> Keep Going}%
+%%		\toggletrue{subscript}
+%\else%
+%%	\typeout{  >>> Exit subscriptmode }%
+%%		<STOP>
+%%			\egroup%
+%	\egroup%
+%	\subscript@continuefalse
+%	\togglefalse{subscript@continue}%
+%\fi%
+%\typeout{---------- DONE ---------------}%
+%
+%
+\subscript@terminate{\@result}
+#1#2#3#4% <-- append the tokens again!
+% FIXME: Problem! this does not work when #4 is a unicode-triplet, because the last octet is missing!
+}%
+
+
+
+\newcommand{\subscript@terminate}[1]{
+\typeout{>>> ???? : '\meaning#1'}%
+\ifx#1\subscript%
+%	\typeout{  >>> Keep Going}%
+%		\toggletrue{subscript}
+\else%
+%	\typeout{  >>> Exit subscriptmode }%
+%		<STOP>
+%			\egroup%
+	\egroup%
+	\subscript@continuefalse
+	\togglefalse{subscript@continue}%
+\fi%
+}
+
+\makeatother
+
+\AtBeginDocument{
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+}
+
+\newcommand{\needsthree}[3]{#3#2#1}
+
+\begin{document}
+%\tracingmacros=2  \tracingcommands=2
+%$\shownine\shownine0ᵢⱼ123456789$
+
+
+Start: $aᵢⱼₖₘ$x
+
+\end{document}

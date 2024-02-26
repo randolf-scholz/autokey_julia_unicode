@@ -1,0 +1,45 @@
+\documentclass{minimal}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+
+\newunicodechar{😄}{Smile!}
+
+\newcommand{\reinserttwo}[2]{
+	\typeout{REINSERTING 1: \meaning#1}
+	\typeout{REINSERTING 2: \meaning#2}
+	#1#2%
+}
+
+\newcommand{\reinsertthree}[3]{
+	\typeout{REINSERTING 1: \meaning#1}
+	\typeout{REINSERTING 2: \meaning#2}
+	\typeout{REINSERTING 3: \meaning#3}
+	#1#2#3%
+}
+
+\newcommand{\reinsertfour}[4]{
+	\typeout{REINSERTING 1: \meaning#1}
+	\typeout{REINSERTING 2: \meaning#2}
+	\typeout{REINSERTING 3: \meaning#3}
+	\typeout{REINSERTING 4: \meaning#4}
+	#1#2#3#4%
+}
+
+\newcommand{\reinsertfive}[5]{
+	\typeout{REINSERTING 1: \meaning#1}
+	\typeout{REINSERTING 2: \meaning#2}
+	\typeout{REINSERTING 3: \meaning#3}
+	\typeout{REINSERTING 4: \meaning#4}
+	\typeout{REINSERTING 5: \meaning#5}
+	#1#2#3#4#5%
+}
+
+
+\begin{document}
+%\tracingmacros=2  \tracingcommands=2
+
+\reinserttwo😄12345
+
+$\reinserttwo😄12345$
+
+\end{document}

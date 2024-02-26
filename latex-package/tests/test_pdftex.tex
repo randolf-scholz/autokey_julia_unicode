@@ -1,0 +1,40 @@
+% !TeX TXS-program:compile = txs:///pdflatex
+\documentclass{standalone}
+\usepackage{newunicodechar}
+\usepackage[debug]{unicode-subscripts}
+
+\newunicodechar{ᵢ}{\subscript{i}}
+\newunicodechar{ⱼ}{\subscript{j}}
+\newunicodechar{ₖ}{\subscript{k}}
+\newunicodechar{ₗ}{\subscript{l}}
+\newunicodechar{ₘ}{\subscript{m}}
+\newunicodechar{ₙ}{\subscript{n}}
+\newcommand{\needsfour}[4]{#4#3#2#1}
+
+\begin{document}
+
+$aᵢⱼₖ$
+
+a\subscript{ij$kl$mn}
+
+$a\subscript{ijk}$
+
+% test mathmode
+\begin{tabular}{l}
+$a_{ijklmn}$
+\\ $aᵢⱼₖₗₘₙ$
+\\ $a\subscript{ijklmn}$
+\end{tabular}
+
+% test textmode
+\begin{tabular}{ll}
+a\textsubscript{ijklmn}
+\\ aᵢⱼₖₗₘₙ
+\\ a\subscript{ijklmn}
+\end{tabular}
+
+$aᵢ\needsfour4321$
+
+dₘ
+
+\end{document}

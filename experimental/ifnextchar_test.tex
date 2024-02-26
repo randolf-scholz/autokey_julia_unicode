@@ -1,0 +1,197 @@
+
+\RequirePackage{iftex}
+
+\documentclass{article}
+
+\ifPDFTeX
+	\usepackage[utf8]{inputenc}
+\fi
+\usepackage{etoolbox}
+\usepackage{newunicodechar}
+
+
+\makeatletter
+\def\split#1{%
+  \def\middle{}%
+  \def\last{}%
+  \let\next=\split@next
+  \split@#1\@@end}
+\def\split@#1{%
+  \def\first{#1}%
+  \split@next}
+\def\split@next#1{%
+  \ifx#1\@@end
+    \let\next=\relax
+  \else
+    \expandafter\expandafter\expandafter\def
+    \expandafter\expandafter\expandafter\middle
+    \expandafter\expandafter\expandafter{\expandafter\middle\last}%
+    \def\last{#1}%
+  \fi
+  \next}
+\makeatother
+
+
+\begingroup
+  \catcode`@=11
+  \long\gdef\firstofmany#1{\@firstofmany#1\@marker}
+  \long\gdef\@firstofmany#1#2\@marker{\unexpanded{#1}}
+\endgroup
+
+\makeatletter
+\newtoggle{insub}
+\def\@ExpandSub{%
+    \typeout{------------- Expanding subscript -------------------}
+    \typeout{Input: \meaning\@input}%
+    \typeout{Followup: \meaning\@following}%
+	\expandonce{\@following}
+    % if \@following is \UTFviii@three@octets, get the replacement text
+    \ifx\@following\UTFviii@three@octets%  <--- doesn't work!
+        \typeout{>>> That's unicode!}%
+    \else%
+        \typeout{>>> That's NOT unicode...}%
+%        \let\@actual\@following
+    \fi%
+
+
+    \iftoggle{insub}{
+        \@input%
+    }{
+        \toggletrue{insub}%
+        \sb\bgroup\@input%
+    }%
+
+
+
+	\ifx\@following\sub%
+        \typeout{>>> CONTINUE}
+	\else%
+		\let\first{\firstofmany{\@following}}
+
+
+		\typeout{FIRST : \meaning\first}
+
+
+		\edef\@actual{\@following}
+		\typeout{ ACTUAL = \meaning\@actual}
+
+		\let\@foo{\expandonce{\@actual}}
+		\typeout{ MAYBE: \meaning\@foo}
+
+%		\edef\@actual{\expandafter\relax\@following}
+%		\typeout{ ACTUALLY \meaning\@actual }
+
+
+%		\edef\@actual{\expandonce{\@following}}
+%		\typeout{ ACTUAL = \meaning\@actual}
+
+		\ifx\@following\sub%
+			\typeout{>>> CONTINUE ANYWAY}
+		\else
+			\typeout{>>> STOP}
+			\egroup\togglefalse{insub}%
+	\fi%
+
+%    \ifx\@following\sub%
+%        \typeout{keep going!}%
+%    \else%
+%        \typeout{Stop!}%
+%        \egroup\togglefalse{insub}%
+%    \fi%
+}
+
+
+\def\sub#1{%
+    \let\@input#1%
+    \futurelet\@following\@ExpandSub%
+}
+\makeatother
+
+
+
+
+\AtBeginDocument{
+\ifPDFTeX
+	\typeout{>>> USING PDFLATEX <<<}
+%	\newunicodechar{ᵢ}{\sub{i}}
+%	\newunicodechar{ⱼ}{\sub{j}}
+%	\newunicodechar{ₖ}{\sub{k}}
+%	\newunicodechar{ₗ}{\sub{l}}
+%	\newunicodechar{ₘ}{\sub{m}}
+%	\newunicodechar{ₙ}{\sub{n}}
+	\DeclareUnicodeCharacter{1D62}{\sub{i}}
+	\DeclareUnicodeCharacter{2C7C}{\sub{j}}
+	\DeclareUnicodeCharacter{2096}{\sub{k}}
+	\DeclareUnicodeCharacter{2097}{\sub{l}}
+	\DeclareUnicodeCharacter{2098}{\sub{m}}
+	\DeclareUnicodeCharacter{2099}{\sub{n}}
+
+
+\fi
+\ifLuaTeX
+	\typeout{>>> USING LUALATEX <<<}
+	\newunicodechar{ᵢ}{\sub{i}}
+	\newunicodechar{ⱼ}{\sub{j}}
+	\newunicodechar{ₖ}{\sub{k}}
+	\newunicodechar{ₗ}{\sub{l}}
+	\newunicodechar{ₘ}{\sub{m}}
+	\newunicodechar{ₙ}{\sub{n}}
+%	\DeclareUnicodeCharacter{1D62}{\sub{i}}
+%	\DeclareUnicodeCharacter{2C7C}{\sub{j}}
+%	\DeclareUnicodeCharacter{2096}{\sub{k}}
+%	\DeclareUnicodeCharacter{2097}{\sub{l}}
+%	\DeclareUnicodeCharacter{2098}{\sub{m}}
+%	\DeclareUnicodeCharacter{2099}{\sub{n}}
+\fi
+}
+
+\begin{document}
+\begin{tabular}{l}
+$a_{ijklmn}$ \\
+%$a\chain{i}\chain{j}\chain{k}\chain{l}\chain{m}\chain{n}$ \\
+%$a\sub{i}\sub{j}\sub{k}\sub{l}\sub{m}\sub{n}$ \\
+% $a\sub[i]\sub[j]\sub[k]\sub[l]\sub[m]\sub[n]$ \\
+$aᵢⱼ$
+\end{tabular}
+
+
+\def\a{\b}\def\b{c}
+\message{Hello \a\space #}
+\detokenize\expandafter{\expanded{Hello \a\space #}} \\
+\detokenize{\expanded{Hello \a\space #}} \\
+\detokenize\expandafter{Hello \a\space #} \\
+\detokenize{Hello \a\space #} \\
+%\bye
+\end{document}
+
+%
+%
+%\def\bar{>bar<}
+%\def\foo{\bar} % Direct definition
+%\protected\def\protectedfoo{\bar} % Indirect protected definition
+%
+%
+%
+%\newcommand{\comparemacros}[2]{%
+%	Input 1: \meaning#1
+%    Input 2: \meaning#2
+%
+%
+%  \edef\firstexpansion{\detokenize\expandafter{#1}}%
+%  \edef\secondexpansion{\detokenize\expandafter{#2}}%
+%  \ifdefstring{\firstexpansion}{\secondexpansion}{%
+%    True: \texttt{\meaning#1} is equivalent to \texttt{\meaning#2}.%
+%  }{%
+%    False: \texttt{\meaning#1} is not equivalent to \texttt{\meaning#2}.%
+%  }%
+%}
+%
+%
+%
+%
+%\comparemacros{\foo}{\bar}
+%
+%\comparemacros{\protectedfoo}{\bar}
+%
+%
+%

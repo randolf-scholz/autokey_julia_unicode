@@ -1,0 +1,265 @@
+\documentclass{minimal}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage{etoolbox}
+
+\makeatletter
+\newtoggle{subscript}
+\newtoggle{check@subscript}
+
+
+
+%% Define the macro to capture three tokens and then execute a command
+%\def\capturethree#1#2#3#4{%
+%  % #1 is the command to be executed after capturing
+%  % #2, #3, #4 are the placeholders for the tokens to be captured
+%  \def\first{#2}% Store the first token
+%  \def\second{#3}% Store the second token
+%  \def\third{#4}% Store the third token
+%  \def\next{#1}% The command to execute
+%  \futurelet\firstToken\captureFirst% Start capturing process
+%}
+%
+%% Define auxiliary macros for capturing tokens
+%\def\captureFirst#1{%
+%  \let\first=#1% Capture the first token
+%  \futurelet\secondToken\captureSecond% Proceed to capture the second token
+%}
+%
+%\def\captureSecond#1{%
+%  \let\second=#1% Capture the second token
+%  \futurelet\thirdToken\captureThird% Proceed to capture the third token
+%}
+%
+%\def\captureThird#1{%
+%  \let\third=#1% Capture the third token
+%  \next\first\second\third% Execute the command with the captured tokens
+%}
+%
+%
+%
+
+%\def\copythree#1{%
+%  % #1 is the command to execute with the captured tokens
+%  \typeout{>>> COPY4MACRO \meaning#1}
+%  \def\nextcommand{#1}% Store the command for later use
+%  \futurenextroutine% Start the token capturing process
+%}
+
+\def\ignoreOneCopyFour#1#2#3#4#5{%
+%\typeout{INPUT 1: \meaning#1}%
+%\typeout{INPUT 2: \meaning#2}%
+%\typeout{INPUT 3: \meaning#3}%
+%\typeout{INPUT 4: \meaning#4}%
+%\typeout{INPUT 4: \meaning#5}%
+#2#3#4#5#1#2#3#4#5%
+%	% transforms the token sequence \ignoreOneCopyFour#0#1#2#3#4 into #1#2#3#4#0#1#2#3#4.
+%	\let\@firstcs=#1%
+%	\@caputureFirstToken%
+}
+
+\def\@caputureFirstToken{%
+  \afterassignment\@captureSecondToken% After capturing the first token, move to capture the second
+  \def\@firsttoken=% Capture the first token
+}
+
+\def\@captureSecondToken{%
+  \afterassignment\@captureThirdToken% After capturing the second token, move to capture the third
+  \let\@secondtoken=% Capture the second token
+}
+
+\def\@captureThirdToken{%
+  \afterassignment\@captureFourthToken%
+  \let\@thirdtoken=% Capture the third token
+}
+
+\def\@captureFourthToken{%
+  \afterassignment\@constructSequence%
+  \let\@fourthtoken=% Capture the third token
+}
+
+\def\@constructSequence{%
+%  #1#2#3% Print the captured tokens
+\typeout{CS 1: \meaning\@firstcs}%
+%\typeout{CS 2: \meaning\@secondcs}%
+\typeout{INPUT 1: \meaning\@firsttoken}%
+\typeout{INPUT 2: \meaning\@secondtoken}%
+\typeout{INPUT 3: \meaning\@thirdtoken}%
+\typeout{INPUT 4: \meaning\@fourthtoken}%
+%
+%
+\noexpand\@firsttoken\noexpand\@secondtoken\noexpand\@thirdtoken\noexpand\@fourthtoken%
+\@firstcs%
+\noexpand\@firsttoken\noexpand\@secondtoken\noexpand\@thirdtoken\noexpand\@fourthtoken%
+%
+}
+
+%
+%
+%\def\copythree#1{%
+%  % #1 is the command to be executed with the captured tokens
+%  \def\nextcommand{#1}% Store the command for later use
+%  \copythreeaux % Proceed to capture the next three tokens
+%}
+%
+%\def\copythreeaux#1#2#3{%
+%  #1#2#3% Output the tokens as they were input
+%  \nextcommand{#1}{#2}{#3}% Then repeat them as arguments to the stored command
+%}
+%
+%
+
+
+
+
+
+
+\def\continue@subscript{\relax}
+
+\newcommand{\@unisubA}{%
+	\iftoggle{check@subscript}{%
+		\continue@subscript%
+	}{%
+		\iftoggle{subscript}{%
+		}{%
+			<START>%\sb\bgroup%
+		}%
+	}
+}%
+
+\newcommand{\@unisubB}[8]{%
+	\typeout{------------------------------------------------------------------}
+%	\typeout{INPUT 1: \meaning#1}%
+%	\typeout{INPUT 2: \meaning#2}%
+%	\typeout{INPUT 3: \meaning#3}%
+%	\typeout{INPUT 4: \meaning#4}%
+%	\typeout{INPUT 5: \meaning#5}%
+%	\typeout{INPUT 6: \meaning#6}%
+%	\typeout{INPUT 7: \meaning#7}%
+%	\typeout{INPUT 8: \meaning#8}%
+
+	% NOTE: we want the unicode-branch to come second, so we use \unless here
+	\unless\ifx#1\UTFviii@three@octets%
+		\ifx#1\@unisubA%
+			\typeout{  >>> Enter subscript mode}
+			\toggletrue{subscript}
+		\else
+			\typeout{  >>> Exit subscriptmode}
+			<STOP>
+%			\egroup%
+			\togglefalse{subscript}
+		\fi
+%		\@ifnextchar\@unisubA{\toggletrue{subscript}}{\egroup\togglefalse{subscript}}%
+	\else%
+%		\@ifnextchar\@unisubA{\toggletrue{subscript}}{\egroup\togglefalse{subscript}}%
+		\typeout{  >>> Expand Unicode}%
+%		\expandafter\expandafter\expandafter\@unisubC#1#2#3%
+%		\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\@unisubB%
+%		\expandafter\expandafter\expandafter\ignoreOneCopyFour%
+		%
+		\ifcsname u8:#1#2#3#4\endcsname
+			\typeout{I know this guy!!}
+			\def\exampleb{\expandafter\noexpand\csname u8:#1#2#3#4\endcsname}
+			\typeout{ Its my boy \meaning\exampleb}
+		\fi
+		\expandafter\@unisubC\csname u8:#1#2#3#4\endcsname
+%		\expandafter\@unisubC\UTFviii@three@octets#2#3#4%
+%		\@unisubC{\expandafter\noexpand\csname u8:#1#2#3#4\endcsname}%
+	\fi#1#2#3#4#5% <-- append the token again!
+}%
+
+\newcommand{\@unisubC}[1]{
+	\typeout{ >> RECEIVED 1 \meaning#1}
+%	\typeout{ >> RECEIVED 2 \meaning#1}
+%	\edef\Actual{#1}
+	\ifx#1\@unisubA%
+		\typeout{ (C) >>> Enter subscript mode}
+		<START>
+		\toggletrue{subscript}
+	\else
+		\typeout{ (C) >>> Exit subscriptmode}
+		<STOP>
+		\togglefalse{subscript}
+	\fi
+}
+
+
+%\newif\if@unisub\@unisubfalse
+%\newcommand{\@unisubA}{\if@unisub\else\sb\bgroup\fi}
+%
+%\newcommand{\@unisubB}[1]{%
+%	\typeout{>>>>>>>> INPUT: \meaning#1}
+%	\ifx#1\UTFviii@three@octets%
+%		\typeout{ >> UNICODE!! <<}
+%		% in this case, we need toget  the next thre tokens and combine them
+%		% 7 expandafters -> 2 tokens (\UTFviii@three@octets��)
+%%		\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\@unisubB\expandafter\expandafter\expandafter#1%
+%		\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\expandafter\@unisubB#1%
+%	\else%
+%		\typeout{ >> NOT UNICODE <<}
+%		\@ifnextchar\@unisubA{\@unisubtrue}{\egroup\@unisubfalse}%
+%	\fi%
+%}%
+
+\newunicodechar{ᵢ}{\@unisubA i \expandafter\@unisubB}
+\newunicodechar{ⱼ}{\@unisubA j \expandafter\@unisubB}
+\newunicodechar{ₖ}{\@unisubA k \expandafter\@unisubB}
+\newunicodechar{ₗ}{\@unisubA l \expandafter\@unisubB}
+\newunicodechar{ₘ}{\@unisubA m \expandafter\@unisubB}
+\newunicodechar{ₙ}{\@unisubA n \expandafter\@unisubB}
+\makeatother
+
+\def\needsthree#1#2#3{#3#2#1}
+
+\begin{document}
+%\tracingmacros=2  \tracingcommands=2
+\def\z{M}
+\def\Z{C}
+\def\a{\z er}
+\def\b{ry }
+\def\c{\Z hr}
+\def\d{ist}
+\def\e{mas}
+%
+%\expandafter\expandafter\expandafter\expandafter
+%\expandafter\expandafter\expandafter\a
+%\expandafter\expandafter\expandafter\b\expandafter\c\d \e
+
+
+%\a\b\c\d\e
+
+
+abc\ignoreOneCopyFour\LaTeX\LaTeX123456
+
+% spacing test subscript
+\begin{tabular}{l}
+   $a_{ijklmn}$ \\
+   $aᵢⱼxxxxxxxxxxxxxxxxxx$
+\end{tabular}
+%
+%% spacing test supscript
+%\begin{tabular}{l}
+%   $a^{ijklmn}$ \\ $aⁱʲᵏˡᵐⁿ$
+%\end{tabular}
+%
+%% comined test
+%\begin{tabular}{l}
+%   $a^{i}_{j}$ \\ $aⁱⱼ$
+%\end{tabular}
+%
+%% reverse comined test
+%\begin{tabular}{l}
+%   $a_{j}^{i}$ \\ $aⱼⁱ$
+%\end{tabular}
+%
+%% long sub+supscript
+%\begin{tabular}{l}
+%   $a^{ijklmn}_{ijklmn}$ \\ $aⁱʲᵏˡᵐⁿᵢⱼₖₗₘₙ$
+%\end{tabular}
+
+% multiple sub+supscripts
+% \begin{tabular}{l}
+%    $a^{ij}_{kl}$ \\ $aⁱₗʲₗ$   % Error: Double subscript. (fair enough!)
+% \end{tabular}
+
+\end{document}
