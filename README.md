@@ -52,6 +52,12 @@ this platform only supports the first 65536 unicode characters
 
 ### Supported Alphabets
 
+To create single characters of the given alphabet, simply type `\<modifier><char><space>`.
+
+- For blackboard bold R (`ℝ`), type `\bbR `.
+- For a circled one (`①`), type `\o1`.
+- For a bold italic capital gamma (`𝜞`), type `\biGamma `.
+
 #### Serif Font
 
 | family | `bf`   | `it`   | `bi`   |
