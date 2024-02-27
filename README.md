@@ -54,9 +54,11 @@ this platform only supports the first 65536 unicode characters
 
 To create single characters of the given alphabet, simply type `\<modifier><char><space>`.
 
-- For blackboard bold R (`ℝ`), type `\bbR `.
-- For a circled one (`①`), type `\o1`.
-- For a bold italic capital gamma (`𝜞`), type `\biGamma `.
+- For blackboard bold R, `ℝ`, type `\bbR `.
+- For a circled one, `①`, type `\o1`.
+- For a bold italic capital gamma, `𝜞`, type `\biGamma `.
+- For the sub and superscripts, `Xᵢ²`, type `X\_i \^2 `.
+- For the roman numeral `Ⅷ`, type `\RM8 `.
 
 #### Serif Font
 
@@ -64,7 +66,7 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 |--------|--------|--------|--------|
 | latin  | 𝐚𝐛𝐜𝐀𝐁𝐂 | 𝑎𝑏𝑐𝐴𝐵𝐶 | 𝒂𝒃𝒄𝑨𝑩𝑪 |
 | greek  | 𝛂𝛃𝛄𝚨𝚩𝚪 | 𝛼𝛽𝛾𝛢𝛣𝛤 | 𝜶𝜷𝜸𝜜𝜝𝜞 |
-| letter | 𝟎𝟏𝟐    |        |        |
+| digits | 𝟎𝟏𝟐    |        |        |
 
 #### Sans Serif Font
 
@@ -72,7 +74,7 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 |--------|--------|---------|---------|----------|
 | latin  | 𝖺𝖻𝖼𝖠𝖡𝖢 | 𝗮𝗯𝗰𝗔𝗕𝗖  | 𝘢𝘣𝘤𝘈𝘉𝘊  | 𝙖𝙗𝙘𝘼𝘽𝘾   |
 | greek  |        | 𝝰𝝱𝝲𝝖𝝗𝝘  |         | 𝞪𝞫𝞬𝞐𝞑𝞒   |
-| letter | 𝟢𝟣𝟤    | 𝟬𝟭𝟮     |         |          |
+| digits | 𝟢𝟣𝟤    | 𝟬𝟭𝟮     |         |          |
 
 #### Speciality Font
 
@@ -80,7 +82,20 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 |--------|--------|--------|--------|---------|--------|--------|
 | latin  | 𝚊𝚋𝚌𝙰𝙱𝙲 | 𝕒𝕓𝕔𝔸𝔹ℂ | 𝔞𝔟𝔠𝔄𝔅ℭ | 𝖆𝖇𝖈𝕬𝕭𝕮  | 𝒶𝒷𝒸𝒜ℬ𝒞 | 𝓪𝓫𝓬𝓐𝓑𝓒 |
 | greek  |        |        |        |         |        |        |
-| letter | 𝟶𝟷𝟸    | 𝟘𝟙𝟚    |        |         |        |        |
+| digits | 𝟶𝟷𝟸    | 𝟘𝟙𝟚    |        |         |        |        |
+
+#### Other Families
+
+| family 	| `^` 	| `_` 	| `o`  	| `rm` 	| `RM`  	| `sc` 	|
+|--------	|-----	|-----	|------	|------	|-------	|------	|
+| latin  	| ⁱʲᵏ 	| ᵢⱼₖ 	| ⓐⓑⒶⒷ 	|      	|       	| ᴀʙᴄᴅ 	|
+| greek  	| ᵅᵝᵞ 	| ᵦᵧ  	|      	|      	|       	|      	|
+| digits 	| ⁰¹² 	| ₀₁₂ 	| ⓪①②  	| ⅰⅱⅲⅳ 	| ⅠⅡⅢⅣ  	|      	|
+
+Note: Generally here not all characters are available.
+
+- small capital letters is missing `\scX`.
+- Sub- and superscripts is missing quite a few letters, see: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 
 ## About Unicode data
 
