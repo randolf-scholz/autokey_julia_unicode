@@ -11,6 +11,7 @@
 \ProvidesPackage{unicode-symbols}[2024/02/26 Unicode symbols]
 \RequirePackage{unicode-subscripts}
 \RequirePackage{unicode-superscripts}
+\RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage[verbose]{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
@@ -97,7 +98,6 @@
 \newcommand{\vpi}   {\varpi}      % π vs ϖ
 \newcommand{\vrho}  {\varrho}     % ρ vs ϱ
 \newcommand{\vsigma}{\varsigma}   % σ vs ς
-\newcommand{\varTheta}{\Theta}    % Θ vs ϴ (latex has no symbol...)
 % endregion greek shorthand macros ---------------------------------------------
 % endregion greek macros -------------------------------------------------------
 \makeatother
@@ -368,8 +368,6 @@
 \newunicodechar{≗}{\ensuremath{\circeq}}
 \newunicodechar{≐}{\ensuremath{\doteq}}
 
-
-\newunicodechar{≈}{\ensuremath{\thickapprox}}
 \newunicodechar{≠}{\ensuremath{\ne}}
 \newunicodechar{≁}{\ensuremath{\nsim}}
 \newunicodechar{≉}{\ensuremath{\not\approx}}
@@ -396,11 +394,6 @@
 
 \newunicodechar{⊥}{\ensuremath{\bot}}
 \newunicodechar{⊤}{\ensuremath{\top}}
-\newunicodechar{⊢}{\ensuremath{\vdash}}
-\newunicodechar{⊨}{\ensuremath{\vDash}}
-\newunicodechar{†}{\ensuremath{\dagger}}
-\newunicodechar{‡}{\ensuremath{\ddagger}}
-
 \newunicodechar{⊢}{\ensuremath{\vdash}}
 \newunicodechar{⊨}{\ensuremath{\vDash}}
 \newunicodechar{†}{\ensuremath{\dagger}}
@@ -516,13 +509,6 @@
 \newunicodechar{ט}{\ensuremath{\tet}}
 \newunicodechar{י}{\ensuremath{\yod}}
 % endregion hebrew numerals ----------------------------------------------------
-
-% region hebrew letterlike symbols ---------------------------------------------
-\newunicodechar{ℵ}{\ensuremath{\aleph}}  % U+2135
-\newunicodechar{ℶ}{\ensuremath{\beth}}  % U+2136
-\newunicodechar{ℷ}{\ensuremath{\gimel}}  % U+2137
-\newunicodechar{ℸ}{\ensuremath{\daleth}}  % U+2138
-% endregion hebrew letterlike symbols ------------------------------------------
 % endregion hebrew -------------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -777,7 +763,7 @@
 \newunicodechar{𝛃}{\ensuremath{\boldsymbol{\beta}}}
 \newunicodechar{𝛄}{\ensuremath{\boldsymbol{\gamma}}}
 \newunicodechar{𝛅}{\ensuremath{\boldsymbol{\delta}}}
-\newunicodechar{𝛆}{\ensuremath{\boldsymbol{\epsilon}}}
+\newunicodechar{𝛜}{\ensuremath{\boldsymbol{\epsilon}}}
 \newunicodechar{𝛇}{\ensuremath{\boldsymbol{\zeta}}}
 \newunicodechar{𝛈}{\ensuremath{\boldsymbol{\heta}}}
 \newunicodechar{𝛉}{\ensuremath{\boldsymbol{\theta}}}
