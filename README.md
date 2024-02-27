@@ -55,10 +55,10 @@ this platform only supports the first 65536 unicode characters
 To create single characters of the given alphabet, simply type `\<modifier><char><space>`.
 
 - For blackboard bold R, `ℝ`, type `\bbR `.
-- For a circled one, `①`, type `\o1`.
+- For a circled one, `①`, type `\o1 `.
 - For a bold italic capital gamma, `𝜞`, type `\biGamma `.
 - For the sub and superscripts, `Xᵢ²`, type `X\_i \^2 `.
-- For the roman numeral `Ⅷ`, type `\RM8 `.
+- For the roman numeral `Ⅷ` (this is a single UTF-8 glyph, and not `V`+`I`+`I`+`I`), type `\RM8 `.
 
 #### Serif Font
 
@@ -92,9 +92,9 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 | greek  	| ᵅᵝᵞ 	| ᵦᵧ  	|      	|      	|       	|      	|
 | digits 	| ⁰¹² 	| ₀₁₂ 	| ⓪①②  	| ⅰⅱⅲⅳ 	| ⅠⅡⅢⅣ  	|      	|
 
-Note: Generally here not all characters are available.
+Note: Generally here not all characters are available:
 
-- small capital letters is missing `\scX`.
+- Small capital letters is missing `\scX`.
 - Sub- and superscripts is missing quite a few letters, see: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
 
 ## About Unicode data
