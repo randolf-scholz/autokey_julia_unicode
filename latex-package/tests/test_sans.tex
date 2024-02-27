@@ -1,0 +1,155 @@
+\documentclass{standalone}
+%\usepackage[T1]{fontenc}
+\usepackage{unicode-symbols}
+\usepackage{newunicodechar}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
+\SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
+
+\newcommand{\SANS}[1]{\ifmmode\mathsf{#1}\else\textsf{#1}\fi}
+\newcommand{\BSANS}[1]{\ifmmode\boldsymbol{\mathsf{#1}}\else\textbf{\textsf{#1}}\fi}
+\newcommand{\ISANS}[1]{\ifmmode\mathsfit{#1}\else\textit{\textsf{#1}}\fi}
+\newcommand{\BISANS}[1]{\ifmmode\bm{\mathsfit{#1}}\else\textbf{\textsf{\textit{#1}}}\fi}
+
+\newunicodechar{ϰ}{\ensuremath{\varkappa}}
+
+
+\begin{document}
+
+\begin{tabular}{c|cc|cc|cc|cc|cc|cc|cc|cc}
+\toprule
+&\multicolumn{4}{c|}{sans} & \multicolumn{4}{|c}{bsans} & \multicolumn{4}{|c}{isans} & \multicolumn{4}{|c}{bisans}\\
+ref&\multicolumn{2}{c|}{text} & \multicolumn{2}{|c|}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math}
+& \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} \\
+\midrule
+A & \SANS{A} & 𝖠 & $\SANS{A}$ & $𝖠$ & \BSANS{A} & 𝗔 & $\BSANS{A}$ & $𝗔$ & \ISANS{A} & 𝘈 & $\ISANS{A}$ & $𝘈$ & \BISANS{A} & 𝘼 & $\BISANS{A}$ & $𝘼$  \\
+B & \SANS{B} & 𝖡 & $\SANS{B}$ & $𝖡$ & \BSANS{B} & 𝗕 & $\BSANS{B}$ & $𝗕$ & \ISANS{B} & 𝘉 & $\ISANS{B}$ & $𝘉$ & \BISANS{B} & 𝘽 & $\BISANS{B}$ & $𝘽$  \\
+C & \SANS{C} & 𝖢 & $\SANS{C}$ & $𝖢$ & \BSANS{C} & 𝗖 & $\BSANS{C}$ & $𝗖$ & \ISANS{C} & 𝘊 & $\ISANS{C}$ & $𝘊$ & \BISANS{C} & 𝘾 & $\BISANS{C}$ & $𝘾$  \\
+D & \SANS{D} & 𝖣 & $\SANS{D}$ & $𝖣$ & \BSANS{D} & 𝗗 & $\BSANS{D}$ & $𝗗$ & \ISANS{D} & 𝘋 & $\ISANS{D}$ & $𝘋$ & \BISANS{D} & 𝘿 & $\BISANS{D}$ & $𝘿$  \\
+E & \SANS{E} & 𝖤 & $\SANS{E}$ & $𝖤$ & \BSANS{E} & 𝗘 & $\BSANS{E}$ & $𝗘$ & \ISANS{E} & 𝘌 & $\ISANS{E}$ & $𝘌$ & \BISANS{E} & 𝙀 & $\BISANS{E}$ & $𝙀$  \\
+F & \SANS{F} & 𝖥 & $\SANS{F}$ & $𝖥$ & \BSANS{F} & 𝗙 & $\BSANS{F}$ & $𝗙$ & \ISANS{F} & 𝘍 & $\ISANS{F}$ & $𝘍$ & \BISANS{F} & 𝙁 & $\BISANS{F}$ & $𝙁$  \\
+G & \SANS{G} & 𝖦 & $\SANS{G}$ & $𝖦$ & \BSANS{G} & 𝗚 & $\BSANS{G}$ & $𝗚$ & \ISANS{G} & 𝘎 & $\ISANS{G}$ & $𝘎$ & \BISANS{G} & 𝙂 & $\BISANS{G}$ & $𝙂$  \\
+H & \SANS{H} & 𝖧 & $\SANS{H}$ & $𝖧$ & \BSANS{H} & 𝗛 & $\BSANS{H}$ & $𝗛$ & \ISANS{H} & 𝘏 & $\ISANS{H}$ & $𝘏$ & \BISANS{H} & 𝙃 & $\BISANS{H}$ & $𝙃$  \\
+I & \SANS{I} & 𝖨 & $\SANS{I}$ & $𝖨$ & \BSANS{I} & 𝗜 & $\BSANS{I}$ & $𝗜$ & \ISANS{I} & 𝘐 & $\ISANS{I}$ & $𝘐$ & \BISANS{I} & 𝙄 & $\BISANS{I}$ & $𝙄$  \\
+J & \SANS{J} & 𝖩 & $\SANS{J}$ & $𝖩$ & \BSANS{J} & 𝗝 & $\BSANS{J}$ & $𝗝$ & \ISANS{J} & 𝘑 & $\ISANS{J}$ & $𝘑$ & \BISANS{J} & 𝙅 & $\BISANS{J}$ & $𝙅$  \\
+K & \SANS{K} & 𝖪 & $\SANS{K}$ & $𝖪$ & \BSANS{K} & 𝗞 & $\BSANS{K}$ & $𝗞$ & \ISANS{K} & 𝘒 & $\ISANS{K}$ & $𝘒$ & \BISANS{K} & 𝙆 & $\BISANS{K}$ & $𝙆$  \\
+L & \SANS{L} & 𝖫 & $\SANS{L}$ & $𝖫$ & \BSANS{L} & 𝗟 & $\BSANS{L}$ & $𝗟$ & \ISANS{L} & 𝘓 & $\ISANS{L}$ & $𝘓$ & \BISANS{L} & 𝙇 & $\BISANS{L}$ & $𝙇$  \\
+M & \SANS{M} & 𝖬 & $\SANS{M}$ & $𝖬$ & \BSANS{M} & 𝗠 & $\BSANS{M}$ & $𝗠$ & \ISANS{M} & 𝘔 & $\ISANS{M}$ & $𝘔$ & \BISANS{M} & 𝙈 & $\BISANS{M}$ & $𝙈$  \\
+N & \SANS{N} & 𝖭 & $\SANS{N}$ & $𝖭$ & \BSANS{N} & 𝗡 & $\BSANS{N}$ & $𝗡$ & \ISANS{N} & 𝘕 & $\ISANS{N}$ & $𝘕$ & \BISANS{N} & 𝙉 & $\BISANS{N}$ & $𝙉$  \\
+O & \SANS{O} & 𝖮 & $\SANS{O}$ & $𝖮$ & \BSANS{O} & 𝗢 & $\BSANS{O}$ & $𝗢$ & \ISANS{O} & 𝘖 & $\ISANS{O}$ & $𝘖$ & \BISANS{O} & 𝙊 & $\BISANS{O}$ & $𝙊$  \\
+P & \SANS{P} & 𝖯 & $\SANS{P}$ & $𝖯$ & \BSANS{P} & 𝗣 & $\BSANS{P}$ & $𝗣$ & \ISANS{P} & 𝘗 & $\ISANS{P}$ & $𝘗$ & \BISANS{P} & 𝙋 & $\BISANS{P}$ & $𝙋$  \\
+Q & \SANS{Q} & 𝖰 & $\SANS{Q}$ & $𝖰$ & \BSANS{Q} & 𝗤 & $\BSANS{Q}$ & $𝗤$ & \ISANS{Q} & 𝘘 & $\ISANS{Q}$ & $𝘘$ & \BISANS{Q} & 𝙌 & $\BISANS{Q}$ & $𝙌$  \\
+R & \SANS{R} & 𝖱 & $\SANS{R}$ & $𝖱$ & \BSANS{R} & 𝗥 & $\BSANS{R}$ & $𝗥$ & \ISANS{R} & 𝘙 & $\ISANS{R}$ & $𝘙$ & \BISANS{R} & 𝙍 & $\BISANS{R}$ & $𝙍$  \\
+S & \SANS{S} & 𝖲 & $\SANS{S}$ & $𝖲$ & \BSANS{S} & 𝗦 & $\BSANS{S}$ & $𝗦$ & \ISANS{S} & 𝘚 & $\ISANS{S}$ & $𝘚$ & \BISANS{S} & 𝙎 & $\BISANS{S}$ & $𝙎$  \\
+T & \SANS{T} & 𝖳 & $\SANS{T}$ & $𝖳$ & \BSANS{T} & 𝗧 & $\BSANS{T}$ & $𝗧$ & \ISANS{T} & 𝘛 & $\ISANS{T}$ & $𝘛$ & \BISANS{T} & 𝙏 & $\BISANS{T}$ & $𝙏$  \\
+U & \SANS{U} & 𝖴 & $\SANS{U}$ & $𝖴$ & \BSANS{U} & 𝗨 & $\BSANS{U}$ & $𝗨$ & \ISANS{U} & 𝘜 & $\ISANS{U}$ & $𝘜$ & \BISANS{U} & 𝙐 & $\BISANS{U}$ & $𝙐$  \\
+V & \SANS{V} & 𝖵 & $\SANS{V}$ & $𝖵$ & \BSANS{V} & 𝗩 & $\BSANS{V}$ & $𝗩$ & \ISANS{V} & 𝘝 & $\ISANS{V}$ & $𝘝$ & \BISANS{V} & 𝙑 & $\BISANS{V}$ & $𝙑$  \\
+W & \SANS{W} & 𝖶 & $\SANS{W}$ & $𝖶$ & \BSANS{W} & 𝗪 & $\BSANS{W}$ & $𝗪$ & \ISANS{W} & 𝘞 & $\ISANS{W}$ & $𝘞$ & \BISANS{W} & 𝙒 & $\BISANS{W}$ & $𝙒$  \\
+X & \SANS{X} & 𝖷 & $\SANS{X}$ & $𝖷$ & \BSANS{X} & 𝗫 & $\BSANS{X}$ & $𝗫$ & \ISANS{X} & 𝘟 & $\ISANS{X}$ & $𝘟$ & \BISANS{X} & 𝙓 & $\BISANS{X}$ & $𝙓$  \\
+Y & \SANS{Y} & 𝖸 & $\SANS{Y}$ & $𝖸$ & \BSANS{Y} & 𝗬 & $\BSANS{Y}$ & $𝗬$ & \ISANS{Y} & 𝘠 & $\ISANS{Y}$ & $𝘠$ & \BISANS{Y} & 𝙔 & $\BISANS{Y}$ & $𝙔$  \\
+Z & \SANS{Z} & 𝖹 & $\SANS{Z}$ & $𝖹$ & \BSANS{Z} & 𝗭 & $\BSANS{Z}$ & $𝗭$ & \ISANS{Z} & 𝘡 & $\ISANS{Z}$ & $𝘡$ & \BISANS{Z} & 𝙕 & $\BISANS{Z}$ & $𝙕$  \\
+\midrule
+a & \SANS{a} & 𝖺 & $\SANS{a}$ & $𝖺$ & \BSANS{a} & 𝗮 & $\BSANS{a}$ & $𝗮$ & \ISANS{a} & 𝘢 & $\ISANS{a}$ & $𝘢$ & \BISANS{a} & 𝙖 & $\BISANS{a}$ & $𝙖$ \\
+b & \SANS{b} & 𝖻 & $\SANS{b}$ & $𝖻$ & \BSANS{b} & 𝗯 & $\BSANS{b}$ & $𝗯$ & \ISANS{b} & 𝘣 & $\ISANS{b}$ & $𝘣$ & \BISANS{b} & 𝙗 & $\BISANS{b}$ & $𝙗$ \\
+c & \SANS{c} & 𝖼 & $\SANS{c}$ & $𝖼$ & \BSANS{c} & 𝗰 & $\BSANS{c}$ & $𝗰$ & \ISANS{c} & 𝘤 & $\ISANS{c}$ & $𝘤$ & \BISANS{c} & 𝙘 & $\BISANS{c}$ & $𝙘$ \\
+d & \SANS{d} & 𝖽 & $\SANS{d}$ & $𝖽$ & \BSANS{d} & 𝗱 & $\BSANS{d}$ & $𝗱$ & \ISANS{d} & 𝘥 & $\ISANS{d}$ & $𝘥$ & \BISANS{d} & 𝙙 & $\BISANS{d}$ & $𝙙$ \\
+e & \SANS{e} & 𝖾 & $\SANS{e}$ & $𝖾$ & \BSANS{e} & 𝗲 & $\BSANS{e}$ & $𝗲$ & \ISANS{e} & 𝘦 & $\ISANS{e}$ & $𝘦$ & \BISANS{e} & 𝙚 & $\BISANS{e}$ & $𝙚$ \\
+f & \SANS{f} & 𝖿 & $\SANS{f}$ & $𝖿$ & \BSANS{f} & 𝗳 & $\BSANS{f}$ & $𝗳$ & \ISANS{f} & 𝘧 & $\ISANS{f}$ & $𝘧$ & \BISANS{f} & 𝙛 & $\BISANS{f}$ & $𝙛$ \\
+g & \SANS{g} & 𝗀 & $\SANS{g}$ & $𝗀$ & \BSANS{g} & 𝗴 & $\BSANS{g}$ & $𝗴$ & \ISANS{g} & 𝘨 & $\ISANS{g}$ & $𝘨$ & \BISANS{g} & 𝙜 & $\BISANS{g}$ & $𝙜$ \\
+h & \SANS{h} & 𝗁 & $\SANS{h}$ & $𝗁$ & \BSANS{h} & 𝗵 & $\BSANS{h}$ & $𝗵$ & \ISANS{h} & 𝘩 & $\ISANS{h}$ & $𝘩$ & \BISANS{h} & 𝙝 & $\BISANS{h}$ & $𝙝$ \\
+i & \SANS{i} & 𝗂 & $\SANS{i}$ & $𝗂$ & \BSANS{i} & 𝗶 & $\BSANS{i}$ & $𝗶$ & \ISANS{i} & 𝘪 & $\ISANS{i}$ & $𝘪$ & \BISANS{i} & 𝙞 & $\BISANS{i}$ & $𝙞$ \\
+j & \SANS{j} & 𝗃 & $\SANS{j}$ & $𝗃$ & \BSANS{j} & 𝗷 & $\BSANS{j}$ & $𝗷$ & \ISANS{j} & 𝘫 & $\ISANS{j}$ & $𝘫$ & \BISANS{j} & 𝙟 & $\BISANS{j}$ & $𝙟$ \\
+k & \SANS{k} & 𝗄 & $\SANS{k}$ & $𝗄$ & \BSANS{k} & 𝗸 & $\BSANS{k}$ & $𝗸$ & \ISANS{k} & 𝘬 & $\ISANS{k}$ & $𝘬$ & \BISANS{k} & 𝙠 & $\BISANS{k}$ & $𝙠$ \\
+l & \SANS{l} & 𝗅 & $\SANS{l}$ & $𝗅$ & \BSANS{l} & 𝗹 & $\BSANS{l}$ & $𝗹$ & \ISANS{l} & 𝘭 & $\ISANS{l}$ & $𝘭$ & \BISANS{l} & 𝙡 & $\BISANS{l}$ & $𝙡$ \\
+m & \SANS{m} & 𝗆 & $\SANS{m}$ & $𝗆$ & \BSANS{m} & 𝗺 & $\BSANS{m}$ & $𝗺$ & \ISANS{m} & 𝘮 & $\ISANS{m}$ & $𝘮$ & \BISANS{m} & 𝙢 & $\BISANS{m}$ & $𝙢$ \\
+n & \SANS{n} & 𝗇 & $\SANS{n}$ & $𝗇$ & \BSANS{n} & 𝗻 & $\BSANS{n}$ & $𝗻$ & \ISANS{n} & 𝘯 & $\ISANS{n}$ & $𝘯$ & \BISANS{n} & 𝙣 & $\BISANS{n}$ & $𝙣$ \\
+o & \SANS{o} & 𝗈 & $\SANS{o}$ & $𝗈$ & \BSANS{o} & 𝗼 & $\BSANS{o}$ & $𝗼$ & \ISANS{o} & 𝘰 & $\ISANS{o}$ & $𝘰$ & \BISANS{o} & 𝙤 & $\BISANS{o}$ & $𝙤$ \\
+p & \SANS{p} & 𝗉 & $\SANS{p}$ & $𝗉$ & \BSANS{p} & 𝗽 & $\BSANS{p}$ & $𝗽$ & \ISANS{p} & 𝘱 & $\ISANS{p}$ & $𝘱$ & \BISANS{p} & 𝙥 & $\BISANS{p}$ & $𝙥$ \\
+q & \SANS{q} & 𝗊 & $\SANS{q}$ & $𝗊$ & \BSANS{q} & 𝗾 & $\BSANS{q}$ & $𝗾$ & \ISANS{q} & 𝘲 & $\ISANS{q}$ & $𝘲$ & \BISANS{q} & 𝙦 & $\BISANS{q}$ & $𝙦$ \\
+r & \SANS{r} & 𝗋 & $\SANS{r}$ & $𝗋$ & \BSANS{r} & 𝗿 & $\BSANS{r}$ & $𝗿$ & \ISANS{r} & 𝘳 & $\ISANS{r}$ & $𝘳$ & \BISANS{r} & 𝙧 & $\BISANS{r}$ & $𝙧$ \\
+s & \SANS{s} & 𝗌 & $\SANS{s}$ & $𝗌$ & \BSANS{s} & 𝘀 & $\BSANS{s}$ & $𝘀$ & \ISANS{s} & 𝘴 & $\ISANS{s}$ & $𝘴$ & \BISANS{s} & 𝙨 & $\BISANS{s}$ & $𝙨$ \\
+t & \SANS{t} & 𝗍 & $\SANS{t}$ & $𝗍$ & \BSANS{t} & 𝘁 & $\BSANS{t}$ & $𝘁$ & \ISANS{t} & 𝘵 & $\ISANS{t}$ & $𝘵$ & \BISANS{t} & 𝙩 & $\BISANS{t}$ & $𝙩$ \\
+u & \SANS{u} & 𝗎 & $\SANS{u}$ & $𝗎$ & \BSANS{u} & 𝘂 & $\BSANS{u}$ & $𝘂$ & \ISANS{u} & 𝘶 & $\ISANS{u}$ & $𝘶$ & \BISANS{u} & 𝙪 & $\BISANS{u}$ & $𝙪$ \\
+v & \SANS{v} & 𝗏 & $\SANS{v}$ & $𝗏$ & \BSANS{v} & 𝘃 & $\BSANS{v}$ & $𝘃$ & \ISANS{v} & 𝘷 & $\ISANS{v}$ & $𝘷$ & \BISANS{v} & 𝙫 & $\BISANS{v}$ & $𝙫$ \\
+w & \SANS{w} & 𝗐 & $\SANS{w}$ & $𝗐$ & \BSANS{w} & 𝘄 & $\BSANS{w}$ & $𝘄$ & \ISANS{w} & 𝘸 & $\ISANS{w}$ & $𝘸$ & \BISANS{w} & 𝙬 & $\BISANS{w}$ & $𝙬$ \\
+x & \SANS{x} & 𝗑 & $\SANS{x}$ & $𝗑$ & \BSANS{x} & 𝘅 & $\BSANS{x}$ & $𝘅$ & \ISANS{x} & 𝘹 & $\ISANS{x}$ & $𝘹$ & \BISANS{x} & 𝙭 & $\BISANS{x}$ & $𝙭$ \\
+y & \SANS{y} & 𝗒 & $\SANS{y}$ & $𝗒$ & \BSANS{y} & 𝘆 & $\BSANS{y}$ & $𝘆$ & \ISANS{y} & 𝘺 & $\ISANS{y}$ & $𝘺$ & \BISANS{y} & 𝙮 & $\BISANS{y}$ & $𝙮$ \\
+z & \SANS{z} & 𝗓 & $\SANS{z}$ & $𝗓$ & \BSANS{z} & 𝘇 & $\BSANS{z}$ & $𝘇$ & \ISANS{z} & 𝘻 & $\ISANS{z}$ & $𝘻$ & \BISANS{z} & 𝙯 & $\BISANS{z}$ & $𝙯$ \\
+\midrule
+0 & \SANS{0} & 𝟢 & $\SANS{0}$ & $𝟢$ & \BSANS{0} & 𝟬 & $\BSANS{0}$ & $𝟬$ & \ISANS{0} & - & $\ISANS{0}$ & $-$ & \BISANS{0} & - & $\BISANS{0}$ & $-$ \\
+1 & \SANS{1} & 𝟣 & $\SANS{1}$ & $𝟣$ & \BSANS{1} & 𝟭 & $\BSANS{1}$ & $𝟭$ & \ISANS{1} & - & $\ISANS{1}$ & $-$ & \BISANS{1} & - & $\BISANS{1}$ & $-$ \\
+2 & \SANS{2} & 𝟤 & $\SANS{2}$ & $𝟤$ & \BSANS{2} & 𝟮 & $\BSANS{2}$ & $𝟮$ & \ISANS{2} & - & $\ISANS{2}$ & $-$ & \BISANS{2} & - & $\BISANS{2}$ & $-$ \\
+3 & \SANS{3} & 𝟥 & $\SANS{3}$ & $𝟥$ & \BSANS{3} & 𝟯 & $\BSANS{3}$ & $𝟯$ & \ISANS{3} & - & $\ISANS{3}$ & $-$ & \BISANS{3} & - & $\BISANS{3}$ & $-$ \\
+4 & \SANS{4} & 𝟦 & $\SANS{4}$ & $𝟦$ & \BSANS{4} & 𝟰 & $\BSANS{4}$ & $𝟰$ & \ISANS{4} & - & $\ISANS{4}$ & $-$ & \BISANS{4} & - & $\BISANS{4}$ & $-$ \\
+5 & \SANS{5} & 𝟧 & $\SANS{5}$ & $𝟧$ & \BSANS{5} & 𝟱 & $\BSANS{5}$ & $𝟱$ & \ISANS{5} & - & $\ISANS{5}$ & $-$ & \BISANS{5} & - & $\BISANS{5}$ & $-$ \\
+6 & \SANS{6} & 𝟨 & $\SANS{6}$ & $𝟨$ & \BSANS{6} & 𝟲 & $\BSANS{6}$ & $𝟲$ & \ISANS{6} & - & $\ISANS{6}$ & $-$ & \BISANS{6} & - & $\BISANS{6}$ & $-$ \\
+7 & \SANS{7} & 𝟩 & $\SANS{7}$ & $𝟩$ & \BSANS{7} & 𝟳 & $\BSANS{7}$ & $𝟳$ & \ISANS{7} & - & $\ISANS{7}$ & $-$ & \BISANS{7} & - & $\BISANS{7}$ & $-$ \\
+8 & \SANS{8} & 𝟪 & $\SANS{8}$ & $𝟪$ & \BSANS{8} & 𝟴 & $\BSANS{8}$ & $𝟴$ & \ISANS{8} & - & $\ISANS{8}$ & $-$ & \BISANS{8} & - & $\BISANS{8}$ & $-$ \\
+9 & \SANS{9} & 𝟫 & $\SANS{9}$ & $𝟫$ & \BSANS{9} & 𝟵 & $\BSANS{9}$ & $𝟵$ & \ISANS{9} & - & $\ISANS{9}$ & $-$ & \BISANS{9} & - & $\BISANS{9}$ & $-$ \\
+\midrule
+Α & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝖 & $\BSANS{-}$ & $𝝖$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞐 & $\BISANS{-}$ & $𝞐$ \\
+Β & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝗 & $\BSANS{-}$ & $𝝗$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞑 & $\BISANS{-}$ & $𝞑$ \\
+Γ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝘 & $\BSANS{-}$ & $𝝘$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞒 & $\BISANS{-}$ & $𝞒$ \\
+Δ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝙 & $\BSANS{-}$ & $𝝙$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞓 & $\BISANS{-}$ & $𝞓$ \\
+Ε & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝚 & $\BSANS{-}$ & $𝝚$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞔 & $\BISANS{-}$ & $𝞔$ \\
+Ζ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝛 & $\BSANS{-}$ & $𝝛$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞕 & $\BISANS{-}$ & $𝞕$ \\
+Η & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝜 & $\BSANS{-}$ & $𝝜$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞖 & $\BISANS{-}$ & $𝞖$ \\
+Θ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝝 & $\BSANS{-}$ & $𝝝$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞗 & $\BISANS{-}$ & $𝞗$ \\
+Ι & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝞 & $\BSANS{-}$ & $𝝞$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞘 & $\BISANS{-}$ & $𝞘$ \\
+Κ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝟 & $\BSANS{-}$ & $𝝟$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞙 & $\BISANS{-}$ & $𝞙$ \\
+Λ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝠 & $\BSANS{-}$ & $𝝠$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞚 & $\BISANS{-}$ & $𝞚$ \\
+Μ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝡 & $\BSANS{-}$ & $𝝡$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞛 & $\BISANS{-}$ & $𝞛$ \\
+Ν & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝢 & $\BSANS{-}$ & $𝝢$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞜 & $\BISANS{-}$ & $𝞜$ \\
+Ξ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝣 & $\BSANS{-}$ & $𝝣$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞝 & $\BISANS{-}$ & $𝞝$ \\
+Ο & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝤 & $\BSANS{-}$ & $𝝤$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞞 & $\BISANS{-}$ & $𝞞$ \\
+Π & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝥 & $\BSANS{-}$ & $𝝥$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞟 & $\BISANS{-}$ & $𝞟$ \\
+Ρ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝦 & $\BSANS{-}$ & $𝝦$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞠 & $\BISANS{-}$ & $𝞠$ \\
+Σ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝨 & $\BSANS{-}$ & $𝝨$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞢 & $\BISANS{-}$ & $𝞢$ \\
+Τ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝩 & $\BSANS{-}$ & $𝝩$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞣 & $\BISANS{-}$ & $𝞣$ \\
+Υ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝪 & $\BSANS{-}$ & $𝝪$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞤 & $\BISANS{-}$ & $𝞤$ \\
+Φ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝫 & $\BSANS{-}$ & $𝝫$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞥 & $\BISANS{-}$ & $𝞥$ \\
+Χ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝬 & $\BSANS{-}$ & $𝝬$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞦 & $\BISANS{-}$ & $𝞦$ \\
+Ψ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝭 & $\BSANS{-}$ & $𝝭$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞧 & $\BISANS{-}$ & $𝞧$ \\
+Ω & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝮 & $\BSANS{-}$ & $𝝮$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞨 & $\BISANS{-}$ & $𝞨$ \\
+\midrule
+α & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝰 & $\BSANS{-}$ & $𝝰$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞪 & $\BISANS{-}$ & $𝞪$ \\
+β & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝱 & $\BSANS{-}$ & $𝝱$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞫 & $\BISANS{-}$ & $𝞫$ \\
+γ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝲 & $\BSANS{-}$ & $𝝲$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞬 & $\BISANS{-}$ & $𝞬$ \\
+δ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝳 & $\BSANS{-}$ & $𝝳$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞭 & $\BISANS{-}$ & $𝞭$ \\
+ϵ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞊 & $\BSANS{-}$ & $𝞊$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟄 & $\BISANS{-}$ & $𝟄$ \\
+ζ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝵 & $\BSANS{-}$ & $𝝵$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞯 & $\BISANS{-}$ & $𝞯$ \\
+η & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝶 & $\BSANS{-}$ & $𝝶$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞰 & $\BISANS{-}$ & $𝞰$ \\
+θ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝷 & $\BSANS{-}$ & $𝝷$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞱 & $\BISANS{-}$ & $𝞱$ \\
+ι & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝸 & $\BSANS{-}$ & $𝝸$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞲 & $\BISANS{-}$ & $𝞲$ \\
+κ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝹 & $\BSANS{-}$ & $𝝹$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞳 & $\BISANS{-}$ & $𝞳$ \\
+λ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝺 & $\BSANS{-}$ & $𝝺$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞴 & $\BISANS{-}$ & $𝞴$ \\
+μ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝻 & $\BSANS{-}$ & $𝝻$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞵 & $\BISANS{-}$ & $𝞵$ \\
+ν & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝼 & $\BSANS{-}$ & $𝝼$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞶 & $\BISANS{-}$ & $𝞶$ \\
+ξ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝽 & $\BSANS{-}$ & $𝝽$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞷 & $\BISANS{-}$ & $𝞷$ \\
+ο & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝾 & $\BSANS{-}$ & $𝝾$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞸 & $\BISANS{-}$ & $𝞸$ \\
+π & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝿 & $\BSANS{-}$ & $𝝿$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞹 & $\BISANS{-}$ & $𝞹$ \\
+ρ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞀 & $\BSANS{-}$ & $𝞀$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞺 & $\BISANS{-}$ & $𝞺$ \\
+σ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞂 & $\BSANS{-}$ & $𝞂$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞼 & $\BISANS{-}$ & $𝞼$ \\
+τ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞃 & $\BSANS{-}$ & $𝞃$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞽 & $\BISANS{-}$ & $𝞽$ \\
+υ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞄 & $\BSANS{-}$ & $𝞄$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞾 & $\BISANS{-}$ & $𝞾$ \\
+ϕ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞍 & $\BSANS{-}$ & $𝞍$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟇 & $\BISANS{-}$ & $𝟇$ \\
+χ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞆 & $\BSANS{-}$ & $𝞆$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟀 & $\BISANS{-}$ & $𝟀$ \\
+ψ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞇 & $\BSANS{-}$ & $𝞇$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟁 & $\BISANS{-}$ & $𝟁$ \\
+ω & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞈 & $\BSANS{-}$ & $𝞈$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟂 & $\BISANS{-}$ & $𝟂$ \\
+\midrule
+ϴ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝧 & $\BSANS{-}$ & $𝝧$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞡 & $\BISANS{-}$ & $𝞡$ \\
+ε & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝴 & $\BSANS{-}$ & $𝝴$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞮 & $\BISANS{-}$ & $𝞮$ \\
+ς & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞁 & $\BSANS{-}$ & $𝞁$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞻 & $\BISANS{-}$ & $𝞻$ \\
+φ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞅 & $\BSANS{-}$ & $𝞅$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞿 & $\BISANS{-}$ & $𝞿$ \\
+ϑ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞋 & $\BSANS{-}$ & $𝞋$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟅 & $\BISANS{-}$ & $𝟅$ \\
+ϰ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞌 & $\BSANS{-}$ & $𝞌$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟆 & $\BISANS{-}$ & $𝟆$ \\
+ϱ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞎 & $\BSANS{-}$ & $𝞎$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟈 & $\BISANS{-}$ & $𝟈$ \\
+ϖ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞏 & $\BSANS{-}$ & $𝞏$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟉 & $\BISANS{-}$ & $𝟉$ \\
+\midrule
+∇ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝝯 & $\BSANS{-}$ & $𝝯$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝞩 & $\BISANS{-}$ & $𝞩$ \\
+∂ & \SANS{-} & - & $\SANS{-}$ & $-$ & \BSANS{-} & 𝞉 & $\BSANS{-}$ & $𝞉$ & \ISANS{-} & - & $\ISANS{-}$ & $-$ & \BISANS{-} & 𝟃 & $\BISANS{-}$ & $𝟃$ \\
+\bottomrule
+\end{tabular}
+\end{document}

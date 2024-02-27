@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2024-02-27
+
+- Added italic and bold italic greek variants to `unicode-symbols.sty`.
+- Added missing "variant" greek symbols such as `𝛡` (`\bfvarpi`)
+
 ## 2024-02-26
 
 Main work was refactoring the `unicode-symbols` package. It is now located in the `latex-package` directory.
