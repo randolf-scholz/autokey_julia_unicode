@@ -53,30 +53,34 @@
   \relax\ifmmode\mathrm{\expandafter\@slowromancap\romannumeral #1@}%
   \else{\rmfamily\expandafter\@slowromancap\romannumeral #1@}\fi%
 }
+\newcommand{\sans}[1]{\mathsf{#1}}
+\newcommand{\isans}[1]{\mathit{\mathsf{#1}}}
+\newcommand{\bsans}[1]{\boldsymbol{\mathsf{#1}}}
+\newcommand{\bisans}[1]{\boldsymbol{\mathit{\mathsf{#1}}}}
 % endregion helper macros ------------------------------------------------------
 
 % region greek macros ----------------------------------------------------------
-% region greek lowercase macros ------------------------------------------------
-\newcommand {\omicron} {o}
-\newcommand {\heta}    {\eta}   % used for bold short (name conflict Beta)
-% endregion greek lowercase macros ---------------------------------------------
-
 % region greek uppercase macros ------------------------------------------------
-\newcommand {\Alpha}   {\rm{A}}
-\newcommand {\Beta}    {\rm{B}}
-\newcommand {\Epsilon} {\rm{E}}
-\newcommand {\Zeta}    {\rm{Z}}
-\newcommand {\Eta}     {\rm{H}}
-\newcommand {\Iota}    {\rm{I}}
-\newcommand {\Kappa}   {\rm{K}}
-\newcommand {\Mu}      {\rm{M}}
-\newcommand {\Nu}      {\rm{N}}
-\newcommand {\Omicron} {\rm{O}}
-\newcommand {\Rho}     {\rm{P}}
-\newcommand {\Tau}     {\rm{T}}
-\newcommand {\Chi}     {\rm{X}}
-\newcommand {\Heta}    {\Eta}   % used for bold short (avoid typo Beta/BEta)
+\newcommand{\Alpha}   {\rm{A}}
+\newcommand{\Beta}    {\rm{B}}
+\newcommand{\Epsilon} {\rm{E}}
+\newcommand{\Zeta}    {\rm{Z}}
+\newcommand{\Eta}     {\rm{H}}
+\newcommand{\Iota}    {\rm{I}}
+\newcommand{\Kappa}   {\rm{K}}
+\newcommand{\Mu}      {\rm{M}}
+\newcommand{\Nu}      {\rm{N}}
+\newcommand{\Omicron} {\rm{O}}
+\newcommand{\Rho}     {\rm{P}}
+\newcommand{\Tau}     {\rm{T}}
+\newcommand{\Chi}     {\rm{X}}
+\newcommand{\Heta}    {\Eta}   % used for bold short (avoid typo Beta/BEta)
 % endregion greek uppercase macros ---------------------------------------------
+
+% region greek lowercase macros ------------------------------------------------
+\newcommand{\omicron} {o}
+\newcommand{\heta}    {\eta}   % used for bold short (name conflict Beta)
+% endregion greek lowercase macros ---------------------------------------------
 
 % region greek shorthand macros ------------------------------------------------
 \newcommand {\eps}     {\epsilon}
@@ -459,7 +463,6 @@
 \newunicodechar{Ω}{\ensuremath{\Omega}}
 % endregion greek uppercase ----------------------------------------------------
 
-
 % region greek lowercase -------------------------------------------------------
 \newunicodechar{α}{\ensuremath{\alpha}}
 \newunicodechar{β}{\ensuremath{\beta}}
@@ -487,15 +490,15 @@
 \newunicodechar{ω}{\ensuremath{\omega}}
 % endregion greek lowercase ----------------------------------------------------
 
-
 % region greek variants --------------------------------------------------------
+\newunicodechar{ϴ}{\ensuremath{\varTheta}}
 \newunicodechar{ε}{\ensuremath{\varepsilon}}
-\newunicodechar{ϑ}{\ensuremath{\vartheta}}
+\newunicodechar{ς}{\ensuremath{\varsigma}}
 \newunicodechar{φ}{\ensuremath{\varphi}}
+\newunicodechar{ϑ}{\ensuremath{\vartheta}}
+\newunicodechar{ϰ}{\ensuremath{\varkappa}}
 \newunicodechar{ϱ}{\ensuremath{\varrho}}
 \newunicodechar{ϖ}{\ensuremath{\varpi}}
-\newunicodechar{ς}{\ensuremath{\varsigma}}
-\newunicodechar{ϰ}{\ensuremath{\varkappa}}
 % endregion greek variants -----------------------------------------------------
 % endregion greek --------------------------------------------------------------
 
@@ -805,6 +808,11 @@
 \newunicodechar{𝛓}{\ensuremath{\boldsymbol{\varsigma}}}
 % endregion bold greek variants ------------------------------------------------
 
+% region bold symbols ----------------------------------------------------------
+\newunicodechar{𝛛}{\ensuremath{\boldsymbol{\partial}}}
+\newunicodechar{𝛁}{\ensuremath{\boldsymbol{\nabla}}}
+% endregion bold symbols -------------------------------------------------------
+
 % region bold digits -----------------------------------------------------------
 \newunicodechar{𝟎}{\ensuremath{\mathbf{0}}}  % U+1D7CE Mathematical Bold Digit Zero
 \newunicodechar{𝟏}{\ensuremath{\mathbf{1}}}  % U+1D7CF Mathematical Bold Digit One
@@ -942,6 +950,11 @@
 \newunicodechar{𝜚}{\ensuremath{\mathit{\varrho}}}
 \newunicodechar{𝜍}{\ensuremath{\mathit{\varsigma}}}
 % endregion italic greek variants ----------------------------------------------
+
+% region italic symbols --------------------------------------------------------
+\newunicodechar{𝜕}{\ensuremath{\mathit{\partial}}}
+\newunicodechar{𝛻}{\ensuremath{\mathit{\nabla}}}
+% endregion italic symbols -----------------------------------------------------
 % endregion italic characters (\it<char>) --------------------------------------
 
 % \bi<char>
@@ -1067,6 +1080,11 @@
 \newunicodechar{𝝔}{\ensuremath{\boldsymbol{\mathit{\varrho}}}}
 \newunicodechar{𝝇}{\ensuremath{\boldsymbol{\mathit{\varsigma}}}}
 % endregion bold italic greek variants -----------------------------------------
+
+% region bold italic symbols ---------------------------------------------------
+\newunicodechar{𝝏}{\ensuremath{\boldsymbol{\mathit{\partial}}}}
+\newunicodechar{𝜵}{\ensuremath{\boldsymbol{\mathit{\nabla}}}}
+% endregion bold italic symbols ------------------------------------------------
 % endregion bold italic characters (\bi<char>) ---------------------------------
 
 % \sans<char>
@@ -1203,6 +1221,76 @@
 \newunicodechar{𝘇}{\textsf{\textbf{z}}}  % U+1D607 Mathematical Sans-Serif Bold Small Z
 % endregion bold sans serif lowercase latin ------------------------------------
 
+% region bold sans uppercase greek ---------------------------------------------
+\newunicodechar{𝝖}{\ensuremath{\boldsymbol{\mathsf{\Alpha}}}}
+\newunicodechar{𝝗}{\ensuremath{\boldsymbol{\mathsf{\Beta}}}}
+\newunicodechar{𝝘}{\ensuremath{\boldsymbol{\mathsf{\Gamma}}}}
+\newunicodechar{𝝙}{\ensuremath{\boldsymbol{\mathsf{\Delta}}}}
+\newunicodechar{𝝚}{\ensuremath{\boldsymbol{\mathsf{\Epsilon}}}}
+\newunicodechar{𝝛}{\ensuremath{\boldsymbol{\mathsf{\Zeta}}}}
+\newunicodechar{𝝜}{\ensuremath{\boldsymbol{\mathsf{\Heta}}}}
+\newunicodechar{𝝝}{\ensuremath{\boldsymbol{\mathsf{\Theta}}}}
+\newunicodechar{𝝞}{\ensuremath{\boldsymbol{\mathsf{\Iota}}}}
+\newunicodechar{𝝟}{\ensuremath{\boldsymbol{\mathsf{\Kappa}}}}
+\newunicodechar{𝝠}{\ensuremath{\boldsymbol{\mathsf{\Lambda}}}}
+\newunicodechar{𝝡}{\ensuremath{\boldsymbol{\mathsf{\Mu}}}}
+\newunicodechar{𝝢}{\ensuremath{\boldsymbol{\mathsf{\Nu}}}}
+\newunicodechar{𝝣}{\ensuremath{\boldsymbol{\mathsf{\Xi}}}}
+\newunicodechar{𝝤}{\ensuremath{\boldsymbol{\mathsf{\Omicron}}}}
+\newunicodechar{𝝥}{\ensuremath{\boldsymbol{\mathsf{\Pi}}}}
+\newunicodechar{𝝦}{\ensuremath{\boldsymbol{\mathsf{\Rho}}}}
+\newunicodechar{𝝨}{\ensuremath{\boldsymbol{\mathsf{\Sigma}}}}
+\newunicodechar{𝝩}{\ensuremath{\boldsymbol{\mathsf{\Tau}}}}
+\newunicodechar{𝝪}{\ensuremath{\boldsymbol{\mathsf{\Upsilon}}}}
+\newunicodechar{𝝫}{\ensuremath{\boldsymbol{\mathsf{\Phi}}}}
+\newunicodechar{𝝬}{\ensuremath{\boldsymbol{\mathsf{\Chi}}}}
+\newunicodechar{𝝭}{\ensuremath{\boldsymbol{\mathsf{\Psi}}}}
+\newunicodechar{𝝮}{\ensuremath{\boldsymbol{\mathsf{\Omega}}}}
+% endregion bold sans uppercase greek ------------------------------------------
+
+% region bold sans lowercase greek ---------------------------------------------
+\newunicodechar{𝝰}{\ensuremath{\boldsymbol{\mathsf{\alpha}}}}
+\newunicodechar{𝝱}{\ensuremath{\boldsymbol{\mathsf{\beta}}}}
+\newunicodechar{𝝲}{\ensuremath{\boldsymbol{\mathsf{\gamma}}}}
+\newunicodechar{𝝳}{\ensuremath{\boldsymbol{\mathsf{\delta}}}}
+\newunicodechar{𝞊}{\ensuremath{\boldsymbol{\mathsf{\epsilon}}}}
+\newunicodechar{𝝵}{\ensuremath{\boldsymbol{\mathsf{\zeta}}}}
+\newunicodechar{𝝶}{\ensuremath{\boldsymbol{\mathsf{\heta}}}}
+\newunicodechar{𝝷}{\ensuremath{\boldsymbol{\mathsf{\theta}}}}
+\newunicodechar{𝝸}{\ensuremath{\boldsymbol{\mathsf{\iota}}}}
+\newunicodechar{𝝹}{\ensuremath{\boldsymbol{\mathsf{\kappa}}}}
+\newunicodechar{𝝺}{\ensuremath{\boldsymbol{\mathsf{\lambda}}}}
+\newunicodechar{𝝻}{\ensuremath{\boldsymbol{\mathsf{\mu}}}}
+\newunicodechar{𝝼}{\ensuremath{\boldsymbol{\mathsf{\nu}}}}
+\newunicodechar{𝝽}{\ensuremath{\boldsymbol{\mathsf{\xi}}}}
+\newunicodechar{𝝾}{\ensuremath{\boldsymbol{\mathsf{\omicron}}}}
+\newunicodechar{𝝿}{\ensuremath{\boldsymbol{\mathsf{\pi}}}}
+\newunicodechar{𝞀}{\ensuremath{\boldsymbol{\mathsf{\rho}}}}
+\newunicodechar{𝞂}{\ensuremath{\boldsymbol{\mathsf{\sigma}}}}
+\newunicodechar{𝞃}{\ensuremath{\boldsymbol{\mathsf{\tau}}}}
+\newunicodechar{𝞄}{\ensuremath{\boldsymbol{\mathsf{\upsilon}}}}
+\newunicodechar{𝞍}{\ensuremath{\boldsymbol{\mathsf{\phi}}}}
+\newunicodechar{𝞆}{\ensuremath{\boldsymbol{\mathsf{\chi}}}}
+\newunicodechar{𝞇}{\ensuremath{\boldsymbol{\mathsf{\psi}}}}
+\newunicodechar{𝞈}{\ensuremath{\boldsymbol{\mathsf{\omega}}}}
+% endregion bold sans lowercase greek ------------------------------------------
+
+% region bold sans greek variants ----------------------------------------------
+\newunicodechar{𝝧}{\ensuremath{\boldsymbol{\mathsf{\varTheta}}}}
+\newunicodechar{𝝴}{\ensuremath{\boldsymbol{\mathsf{\varepsilon}}}}
+\newunicodechar{𝞁}{\ensuremath{\boldsymbol{\mathsf{\varsigma}}}}
+\newunicodechar{𝞅}{\ensuremath{\boldsymbol{\mathsf{\varphi}}}}
+\newunicodechar{𝞋}{\ensuremath{\boldsymbol{\mathsf{\vartheta}}}}
+\newunicodechar{𝞌}{\ensuremath{\boldsymbol{\mathsf{\varkappa}}}}
+\newunicodechar{𝞎}{\ensuremath{\boldsymbol{\mathsf{\varrho}}}}
+\newunicodechar{𝞏}{\ensuremath{\boldsymbol{\mathsf{\varpi}}}}
+% endregion bold sans greek variants -------------------------------------------
+
+% region bold sans symbols -----------------------------------------------------
+\newunicodechar{𝝯}{\ensuremath{\boldsymbol{\mathsf{\nabla}}}}
+\newunicodechar{𝞉}{\ensuremath{\boldsymbol{\mathsf{\partial}}}}
+% endregion bold sans symbols --------------------------------------------------
+
 % region bold sans serif digits ------------------------------------------------
 \newunicodechar{𝟬}{\textsf{\textbf{0}}}  % U+1D7EC Mathematical Sans-Serif Bold Digit Zero
 \newunicodechar{𝟭}{\textsf{\textbf{1}}}  % U+1D7ED Mathematical Sans-Serif Bold Digit One
@@ -1337,6 +1425,76 @@
 \newunicodechar{𝙮}{\textsf{\textbf{\textit{y}}}}  % U+1D66E Mathematical Sans-Serif Bold Italic Small Y
 \newunicodechar{𝙯}{\textsf{\textbf{\textit{z}}}}  % U+1D66F Mathematical Sans-Serif Bold Italic Small Z
 % endregion sans serif bold italic lowercase latin -----------------------------
+
+% region sans serif bold italic uppercase greek --------------------------------
+\newunicodechar{𝞐}{\ensuremath{\bisans{\Alpha}}}
+\newunicodechar{𝞑}{\ensuremath{\bisans{\Beta}}}
+\newunicodechar{𝞒}{\ensuremath{\bisans{\Gamma}}}
+\newunicodechar{𝞓}{\ensuremath{\bisans{\Delta}}}
+\newunicodechar{𝞔}{\ensuremath{\bisans{\Epsilon}}}
+\newunicodechar{𝞕}{\ensuremath{\bisans{\Zeta}}}
+\newunicodechar{𝞖}{\ensuremath{\bisans{\Heta}}}
+\newunicodechar{𝞗}{\ensuremath{\bisans{\Theta}}}
+\newunicodechar{𝞘}{\ensuremath{\bisans{\Iota}}}
+\newunicodechar{𝞙}{\ensuremath{\bisans{\Kappa}}}
+\newunicodechar{𝞚}{\ensuremath{\bisans{\Lambda}}}
+\newunicodechar{𝞛}{\ensuremath{\bisans{\Mu}}}
+\newunicodechar{𝞜}{\ensuremath{\bisans{\Nu}}}
+\newunicodechar{𝞝}{\ensuremath{\bisans{\Xi}}}
+\newunicodechar{𝞞}{\ensuremath{\bisans{\Omicron}}}
+\newunicodechar{𝞟}{\ensuremath{\bisans{\Pi}}}
+\newunicodechar{𝞠}{\ensuremath{\bisans{\Rho}}}
+\newunicodechar{𝞢}{\ensuremath{\bisans{\Sigma}}}
+\newunicodechar{𝞣}{\ensuremath{\bisans{\Tau}}}
+\newunicodechar{𝞤}{\ensuremath{\bisans{\Upsilon}}}
+\newunicodechar{𝞥}{\ensuremath{\bisans{\Phi}}}
+\newunicodechar{𝞦}{\ensuremath{\bisans{\Chi}}}
+\newunicodechar{𝞧}{\ensuremath{\bisans{\Psi}}}
+\newunicodechar{𝞨}{\ensuremath{\bisans{\Omega}}}
+% endregion sans serif bold italic uppercase greek -----------------------------
+
+% region sans serif bold italic lowercase greek --------------------------------
+\newunicodechar{𝞪}{\ensuremath{\bisans{\alpha}}}
+\newunicodechar{𝞫}{\ensuremath{\bisans{\beta}}}
+\newunicodechar{𝞬}{\ensuremath{\bisans{\gamma}}}
+\newunicodechar{𝞭}{\ensuremath{\bisans{\delta}}}
+\newunicodechar{𝟄}{\ensuremath{\bisans{\epsilon}}}
+\newunicodechar{𝞯}{\ensuremath{\bisans{\zeta}}}
+\newunicodechar{𝞰}{\ensuremath{\bisans{\heta}}}
+\newunicodechar{𝞱}{\ensuremath{\bisans{\theta}}}
+\newunicodechar{𝞲}{\ensuremath{\bisans{\iota}}}
+\newunicodechar{𝞳}{\ensuremath{\bisans{\kappa}}}
+\newunicodechar{𝞴}{\ensuremath{\bisans{\lambda}}}
+\newunicodechar{𝞵}{\ensuremath{\bisans{\mu}}}
+\newunicodechar{𝞶}{\ensuremath{\bisans{\nu}}}
+\newunicodechar{𝞷}{\ensuremath{\bisans{\xi}}}
+\newunicodechar{𝞸}{\ensuremath{\bisans{\omicron}}}
+\newunicodechar{𝞹}{\ensuremath{\bisans{\pi}}}
+\newunicodechar{𝞺}{\ensuremath{\bisans{\rho}}}
+\newunicodechar{𝞼}{\ensuremath{\bisans{\sigma}}}
+\newunicodechar{𝞽}{\ensuremath{\bisans{\tau}}}
+\newunicodechar{𝞾}{\ensuremath{\bisans{\upsilon}}}
+\newunicodechar{𝟇}{\ensuremath{\bisans{\phi}}}
+\newunicodechar{𝟀}{\ensuremath{\bisans{\chi}}}
+\newunicodechar{𝟁}{\ensuremath{\bisans{\psi}}}
+\newunicodechar{𝟂}{\ensuremath{\bisans{\omega}}}
+% endregion sans serif bold italic lowercase greek -----------------------------
+
+% region sans serif bold italic greek variants ---------------------------------
+\newunicodechar{𝞡}{\ensuremath{\bisans{\varTheta}}}
+\newunicodechar{𝞮}{\ensuremath{\bisans{\varepsilon}}}
+\newunicodechar{𝞻}{\ensuremath{\bisans{\varsigma}}}
+\newunicodechar{𝞿}{\ensuremath{\bisans{\varphi}}}
+\newunicodechar{𝟅}{\ensuremath{\bisans{\vartheta}}}
+\newunicodechar{𝟆}{\ensuremath{\bisans{\varkappa}}}
+\newunicodechar{𝟈}{\ensuremath{\bisans{\varrho}}}
+\newunicodechar{𝟉}{\ensuremath{\bisans{\varpi}}}
+% endregion sans serif bold italic greek variants ------------------------------
+
+% region sans serif bold italic symbols ----------------------------------------
+\newunicodechar{𝞩}{\ensuremath{\bisans{\nabla}}}
+\newunicodechar{𝟃}{\ensuremath{\bisans{\partial}}}
+% endregion sans serif bold italic symbols -------------------------------------
 % endregion bold sans serif italic characters (\bisans<char>) ------------------
 
 % \scr<char>
