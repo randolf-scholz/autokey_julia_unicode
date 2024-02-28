@@ -13,7 +13,7 @@
 \RequirePackage{unicode-superscripts}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
-\RequirePackage[verbose]{newunicodechar}
+\RequirePackage{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
 \RequirePackage{bbm}       % provides \mathbbm
 \RequirePackage{xfrac}     % provides \sfrac
@@ -59,6 +59,23 @@
 \newcommand{\bsans}[1]{\boldsymbol{\mathsf{#1}}}
 \newcommand{\bisans}[1]{\boldsymbol{\mathit{\mathsf{#1}}}}
 % endregion helper macros ------------------------------------------------------
+
+
+% region text/math macros ------------------------------------------------------
+\newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
+\newcommand{\unicode@ddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}
+\newcommand{\unicode@times}{\ifmmode\times\else\texttimes\fi}
+\newcommand{\unicode@leftarrow}{\ifmmode\leftarrow\else\textleftarrow\fi}
+\newcommand{\unicode@rightarrow}{\ifmmode\rightarrow\else\textrightarrow\fi}
+\newcommand{\unicode@downarrow}{\ifmmode\downarrow\else\textdownarrow\fi}
+\newcommand{\unicode@uparrow}{\ifmmode\uparrow\else\textuparrow\fi}
+\newcommand{\unicode@ellipsis}{\ifmmode\ldots\else\textellipsis\fi}
+\newcommand{\unicode@rangle}{\ifmmode\langle\else\textlangle\fi}
+\newcommand{\unicode@langle}{\ifmmode\rangle\else\textrangle\fi}
+\newcommand{\unicode@neg}{\ifmmode\neg\else\textlnot\fi}
+\newcommand{\unicode@div}{\ifmmode\div\else\textdiv\fi}
+\newcommand{\unicode@pm}{\ifmmode\pm\else\textpm\fi}
+% endregion text/math macros ---------------------------------------------------
 
 % region greek macros ----------------------------------------------------------
 % region greek uppercase macros ------------------------------------------------
@@ -107,10 +124,10 @@
 % Below this line, only \newunicodechar commands are allowed                   %
 % All macro definitions should use non-unicode replacements                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
 
 % region experimental ----------------------------------------------------------
 \newunicodechar{ᵸ}{^{\mathsf{H}}}  % Hermitian conjugate (note: cyrillic H)
-\newunicodechar{™}{\texttrademark}
 % endregion experimental -------------------------------------------------------
 
 % region misc ------------------------------------------------------------------
@@ -118,7 +135,7 @@
 \newunicodechar{✗}{\textbf{\xmark}}
 \newunicodechar{✔}{\textbf{\cmark}}
 \newunicodechar{✘}{\textbf{\xmark}}
-\newunicodechar{—}{\text{--}}
+\newunicodechar{—}{\textemdash}
 \newunicodechar{⁎}{\ensuremath{_*}}
 \newunicodechar{﹢}{\ensuremath{\texttt{+}}}  % small, unary +
 \newunicodechar{﹣}{\ensuremath{\texttt{-}}}  % small, unary -
@@ -129,8 +146,11 @@
 \newunicodechar{⌋}{\ensuremath{\rfloor}}
 \newunicodechar{⌈}{\ensuremath{\lceil}}
 \newunicodechar{⌉}{\ensuremath{\rceil}}
-\newunicodechar{“}{``}
-\newunicodechar{”}{''}
+\newunicodechar{“}{\textquotedblleft}
+\newunicodechar{”}{\textquotedblright}
+\newunicodechar{™}{\texttrademark}
+\newunicodechar{†}{\unicode@dagger}
+\newunicodechar{‡}{\unicode@ddagger}
 % endregion misc ---------------------------------------------------------------
 
 % region combining characters --------------------------------------------------
@@ -217,10 +237,10 @@
 
 % region arrows ----------------------------------------------------------------
 % https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
-\newunicodechar{←}{\ensuremath{\leftarrow}}
-\newunicodechar{→}{\ensuremath{\rightarrow}}
-\newunicodechar{↓}{\ensuremath{\downarrow}}
-\newunicodechar{↑}{\ensuremath{\uparrow}}
+\newunicodechar{←}{\unicode@leftarrow}
+\newunicodechar{→}{\unicode@rightarrow}
+\newunicodechar{↓}{\unicode@downarrow}
+\newunicodechar{↑}{\unicode@uparrow}
 \newunicodechar{↗}{\ensuremath{\nearrow}}
 \newunicodechar{↘}{\ensuremath{\searrow}}
 \newunicodechar{↙}{\ensuremath{\swarrow}}
@@ -396,8 +416,6 @@
 \newunicodechar{⊤}{\ensuremath{\top}}
 \newunicodechar{⊢}{\ensuremath{\vdash}}
 \newunicodechar{⊨}{\ensuremath{\vDash}}
-\newunicodechar{†}{\ensuremath{\dagger}}
-\newunicodechar{‡}{\ensuremath{\ddagger}}
 
 \newunicodechar{⊬}{\ensuremath{\nvdash}}  % U+22AC
 \newunicodechar{⊭}{\ensuremath{\nvDash}}  % U+22AD
@@ -2054,3 +2072,6 @@
 \newunicodechar{ⅾ}{\romannumber{500}} % U+217E Small Roman Numeral Five Hundred
 \newunicodechar{ⅿ}{\romannumber{1000}} % U+217F Small Roman Numeral One Thousand
 % endregion small roman numerals (\rm<char>) -----------------------------------
+
+\makeatother
+\endinput
