@@ -1,7 +1,7 @@
 \documentclass{standalone}
 %\usepackage[T1]{fontenc}
+\usepackage[verbose]{newunicodechar}
 \usepackage{unicode-symbols}
-\usepackage{newunicodechar}
 \usepackage{booktabs}
 \usepackage{multicol}
 
@@ -12,9 +12,6 @@
 \newcommand{\BSANS}[1]{\ifmmode\boldsymbol{\mathsf{#1}}\else\textbf{\textsf{#1}}\fi}
 \newcommand{\ISANS}[1]{\ifmmode\mathsfit{#1}\else\textit{\textsf{#1}}\fi}
 \newcommand{\BISANS}[1]{\ifmmode\bm{\mathsfit{#1}}\else\textbf{\textsf{\textit{#1}}}\fi}
-
-\newunicodechar{ϰ}{\ensuremath{\varkappa}}
-
 
 \begin{document}
 
