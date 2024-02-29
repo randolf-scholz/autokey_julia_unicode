@@ -44,6 +44,7 @@
 \newcommand{\xmark}{\ding{55}}% ✗
 \newcommand{\circled}[1]{\textcircled{\footnotesize #1}}
 \newcommand{\reflect@squig}[2]{\reflectbox{$\m@th#1\rightsquigarrow$}}
+\newcommand{\inftyabove}[1]{\overset{\infty}{#1}}
 \providecommand{\leftsquigarrow}{\mathrel{\mathpalette\reflect@squig\relax}}
 \providecommand{\increment}{\Delta} % U+2206
 \newcommand*{\romannumber}[1]{%
@@ -135,7 +136,8 @@
 \newunicodechar{✗}{\textbf{\xmark}}
 \newunicodechar{✔}{\textbf{\cmark}}
 \newunicodechar{✘}{\textbf{\xmark}}
-\newunicodechar{—}{\textemdash}
+\newunicodechar{–}{\text{\textendash}}
+\newunicodechar{—}{\text{\textemdash}}
 \newunicodechar{⁎}{\ensuremath{_*}}
 \newunicodechar{﹢}{\ensuremath{\texttt{+}}}  % small, unary +
 \newunicodechar{﹣}{\ensuremath{\texttt{-}}}  % small, unary -
@@ -154,17 +156,16 @@
 % endregion misc ---------------------------------------------------------------
 
 % region combining characters --------------------------------------------------
-\newunicodechar{̂}{\hat}
-\newunicodechar{̃}{\tilde}
-\newunicodechar{̄}{\bar}
-\newunicodechar{̇}{\dot}
-\newunicodechar{̈}{\ddot}
-\newunicodechar{⃛}{\dddot}
-\newunicodechar{̊}{\mathring}
-\newunicodechar{⃗}{\vec}
-\newunicodechar{᪲}{^{∞}}
+\newunicodechar{̂}{\hat}          % chktex 14
+\newunicodechar{̃}{\tilde}        % chktex 14
+\newunicodechar{̄}{\bar}          % chktex 14
+\newunicodechar{̇}{\dot}          % chktex 14
+\newunicodechar{̈}{\ddot}         % chktex 14
+\newunicodechar{⃛}{\dddot}        % chktex 14
+\newunicodechar{̊}{\mathring}     % chktex 14
+\newunicodechar{⃗}{\vec}          % chktex 14
+\newunicodechar{᪲}{\inftyabove}  % chktex 14
 % endregion combining characters -----------------------------------------------
-
 
 % region special characters ----------------------------------------------------
 \newunicodechar{ℓ}{\ensuremath{\ell}}
@@ -589,8 +590,8 @@
 \newunicodechar{₊}{\subscript{\texttt{+}}}
 \newunicodechar{₋}{\subscript{\texttt{-}}}
 \newunicodechar{₌}{\subscript{=}}
-\newunicodechar{₍}{\subscript{)}}
-\newunicodechar{₎}{\subscript{)}}
+\newunicodechar{₍}{\subscript{)}}  % chktex 9 chktex 10
+\newunicodechar{₎}{\subscript{)}}  % chktex 9 chktex 10
 % endregion subscript symbols --------------------------------------------------
 % endregion subscripts (\_<char>) ----------------------------------------------
 
@@ -684,8 +685,8 @@
 \newunicodechar{⁺}{\superscript{\texttt{+}}}
 \newunicodechar{⁻}{\superscript{\texttt{-}}}
 \newunicodechar{⁼}{\superscript{=}}
-\newunicodechar{⁽}{\superscript{(}}
-\newunicodechar{⁾}{\superscript{)}}
+\newunicodechar{⁽}{\superscript{(}}  % chktex 9
+\newunicodechar{⁾}{\superscript{)}}  % chktex 9
 % endregion superscript symbols ------------------------------------------------
 % endregion superscripts (\^<char>) --------------------------------------------
 

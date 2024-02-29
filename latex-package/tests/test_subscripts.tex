@@ -6,14 +6,11 @@
 \usepackage{multicol}
 
 \begin{document}
-\begin{tabular}{ll|ll|ll|ll}
+\begin{tabular}{ll|ll|ll|ll}  % chktex 44
 \toprule
 \multicolumn{4}{c|}{supscripts} & \multicolumn{4}{|c}{subscripts} \\
 text & uni & math & uni & text & uni & math & uni \\
 \midrule
-% \_<char>
-% region subscripts (\_<char>) -------------------------------------------------
-% region lowercase latin ---------------------------------------------
 \textsubscript{a} & ₐ & $_{a}$ & $ₐ$ & \textsuperscript{a} & ᵃ & $^{a}$ & $ᵃ$ \\
 \textsubscript{b} & — & $_{b}$ & $—$ & \textsuperscript{b} & ᵇ & $^{b}$ & $ᵇ$ \\
 \textsubscript{c} & — & $_{c}$ & $—$ & \textsuperscript{c} & ᶜ & $^{c}$ & $ᶜ$ \\
@@ -82,8 +79,8 @@ text & uni & math & uni & text & uni & math & uni \\
 \textsubscript{+} & ₊ & $_{+}$ & $₊$ & \textsuperscript{+} & ⁺ & $^{+}$ & $⁺$ \\
 \textsubscript{-} & ₋ & $_{-}$ & $₋$ & \textsuperscript{-} & ⁻ & $^{-}$ & $⁻$ \\
 \textsubscript{=} & ₌ & $_{=}$ & $₌$ & \textsuperscript{=} & ⁼ & $^{=}$ & $⁼$ \\
-\textsubscript{)} & ₍ & $_{)}$ & $₍$ & \textsuperscript{)} & ⁽ & $^{)}$ & $⁽$ \\
-\textsubscript{)} & ₎ & $_{)}$ & $₎$ & \textsuperscript{)} & ⁾ & $^{)}$ & $⁾$ \\
+\textsubscript{(} & ₍ & $_{(}$ & $₍$ & \textsuperscript{(} & ⁽ & $^{(}$ & $⁽$ \\  % chktex 9
+\textsubscript{)} & ₎ & $_{)}$ & $₎$ & \textsuperscript{)} & ⁾ & $^{)}$ & $⁾$ \\  % chktex 9
 \midrule
 \textsubscript{α} & — & $_{α}$ & $—$ & \textsuperscript{α} & ᵅ & $^{α}$ & $ᵅ$ \\
 \textsubscript{β} & ᵦ & $_{β}$ & $ᵦ$ & \textsuperscript{β} & ᵝ & $^{β}$ & $ᵝ$ \\
@@ -98,5 +95,4 @@ text & uni & math & uni & text & uni & math & uni \\
 \textsubscript{ϱ} & ᵨ & $_{ϱ}$ & $ᵨ$ & \textsuperscript{ϱ} & — & $^{ϱ}$ & $—$ \\
 \bottomrule
 \end{tabular}
-
 \end{document}

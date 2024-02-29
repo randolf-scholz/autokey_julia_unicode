@@ -94,6 +94,9 @@ repos:
         description: "Check LaTeX files with chktex"
         language: system
         types: [tex]
+        require_serial: true
+        exclude: "experimental/"
+        # chktex --format=$'%f:%l:%c %m [%k %n]\n' --quiet --nowarn=1
         entry: bash -c 'chktex "$@" 2>&1 | grep "." && exit 1' --
         args:
           - "--format=%f:%l:%c %m [%k %n]\n"
