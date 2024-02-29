@@ -2,25 +2,25 @@
 
 \makeatletter
 
-\newcommand*{\unicode@roman@number}[1]{\romannumeral #1\relax}
-\newcommand*{\unicode@Roman@Number}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\newcommand*{\unicode@roman@number}[1]{\romannumeral#1\relax}
+\newcommand*{\unicode@Roman@Number}[1]{\expandafter\@slowromancap\romannumeral#1@}
 
 
 % NOTE: \relax added due to https://tex.stackexchange.com/a/82656/119955
 \newcommand*{\romannumber}[1]{%
 \relax\ifmmode%
-	\mathrm{\romannumeral #1\relax}%
+	\mathrm{\romannumeral#1\relax}%
 \else%
-	{\rmfamily\romannumeral #1\relax}
+	{\rmfamily\romannumeral#1\relax}
 \fi%
 }
 
 
 \newcommand*{\RomanNumber}[1]{%
 \relax\ifmmode%
-	\mathrm{\expandafter\@slowromancap\romannumeral #1@}%
+	\mathrm{\expandafter\@slowromancap\romannumeral#1@}%
 \else%
-	{\rmfamily\expandafter\@slowromancap\romannumeral #1@}
+	{\rmfamily\expandafter\@slowromancap\romannumeral#1@}
 \fi%
 }
 

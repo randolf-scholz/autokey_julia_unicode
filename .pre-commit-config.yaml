@@ -98,3 +98,4 @@ repos:
         args:
           - "--format=%f:%l:%c %m [%k %n]\n"
           - "--quiet"
+          - "--nowarn=1"
