@@ -89,16 +89,30 @@ repos:
           - "--shell=bash"
           - "--color=always"
           - "--format=gcc"
+      - id: sty-has-endinput
+        name: sty-has-endinput
+        description: "Check that .sty/.cls files have \endinput statement."
+        language: system
+        files: .*\.(sty|cls)$
+        # use grep and exit code 1 if no matches
+        entry: bash -c "grep '\endinput' -q $@ || exit 1"
       - id: chktex
         name: chktex
         description: "Check LaTeX files with chktex"
         language: system
         types: [tex]
+        verbose: true
+        # pass_filenames: true
         require_serial: true
         exclude: "experimental/"
         # chktex --format=$'%f:%l:%c %m [%k %n]\n' --quiet --nowarn=1
-        entry: bash -c 'chktex "$@" 2>&1 | grep "." && exit 1' --
+        entry: chktex
         args:
           - "--format=%f:%l:%c %m [%k %n]\n"
           - "--quiet"
           - "--nowarn=1"
+        # entry: bash -c 'chktex "$@" 2>&1 | grep "." && exit 1' --
+        # args:
+        #   - "--format=%f:%l:%c %m [%k %n]\n"
+        #   - "--quiet"
+        #   - "--nowarn=1"
