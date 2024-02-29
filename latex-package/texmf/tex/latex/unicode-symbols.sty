@@ -125,6 +125,8 @@
 % Below this line, only \newunicodechar commands are allowed                   %
 % All macro definitions should use non-unicode replacements                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% region payload ===============================================================
 \makeatletter
 
 % region experimental ----------------------------------------------------------
@@ -2074,5 +2076,6 @@
 \newunicodechar{ⅿ}{\romannumber{1000}} % U+217F Small Roman Numeral One Thousand
 % endregion small roman numerals (\rm<char>) -----------------------------------
 
-\makeatother
-\endinput
+% endregion payload ============================================================
+\makeatother%
+\endinput%
