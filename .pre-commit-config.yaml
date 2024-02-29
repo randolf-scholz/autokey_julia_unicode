@@ -101,7 +101,14 @@ repos:
         args:
           - "--format=%f:%l:%c %m [%k %n]\n"
           - "--quiet"
+          - "--erroron=all"
           - "--nowarn=1"
+          - "--nowarn=19"
+          - "--nowarn=22"
+          - "--nowarn=30"
+          - "--nowarn=41"
+          - "--nowarn=46"
+          - "--"
         # entry: bash -c 'chktex "$@" 2>&1 | grep "." && exit 1' --
         # args:
         #   - "--format=%f:%l:%c %m [%k %n]\n"

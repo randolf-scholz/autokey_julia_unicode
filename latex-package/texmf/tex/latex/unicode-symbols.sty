@@ -13,6 +13,7 @@
 \RequirePackage{unicode-superscripts}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
+\RequirePackage{amsfonts}
 \RequirePackage{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
 \RequirePackage{bbm}       % provides \mathbbm
@@ -21,6 +22,29 @@
 \RequirePackage{pifont}    % http://ctan.org/pkg/pifont
 %\RequirePackage{txfonts}   % leftsquigarrow
 % The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
+
+
+% region stix2 -----------------------------------------------------------------
+% https://tex.stackexchange.com/a/610782/119955
+% \DeclareFontFamily{LS1}{stix2bb}{\skewchar\font127 }
+% \DeclareFontShape{LS1}{stix2bb}{m}{n} {<-> stix2-mathbb}{}
+% \DeclareFontShape{LS1}{stix2bb}{m}{it}{<-> stix2-mathbbit}{}
+% \DeclareFontShape{LS1}{stix2bb}{b}{n} {<->ssub * stix2bb/m/n}{}
+% \DeclareFontShape{LS1}{stix2bb}{b}{it}{<->ssub * stix2bb/m/it}{}
+
+% \DeclareFontFamily{LS2}{stix2ex}{}
+% \DeclareFontShape{LS2}{stix2ex}{m}{n} {<-> stix2-mathex}{}
+% \DeclareFontShape{LS2}{stix2ex}{b}{n} {<->ssub * stix2ex/m/n}{}
+
+% \DeclareFontFamily{LS2}{stix2cal}{\skewchar\font127 }
+% \DeclareFontShape{LS2}{stix2cal}{m}{n} {<-> stix2-mathcal}{}
+% \DeclareFontShape{LS2}{stix2cal}{b}{n} {<->ssub * stix2cal/m/n}{}
+
+% \DeclareFontFamily{LS2}{stix2tt}{\skewchar\font127 }
+% \DeclareFontShape{LS2}{stix2tt}{m}{n} {<-> stix2-mathtt}{}
+% \DeclareFontShape{LS2}{stix2tt}{b}{n} {<->ssub * stix2tt/m/n}{}
+% endregion stix2 --------------------------------------------------------------
+
 
 \ProvideDocumentCommand{\hmmax}{}{0}       % @bm: prevents "too many alphabets" error
 \ProvideDocumentCommand{\bmmax}{}{0}       % @bm: prevents "too many alphabets" error
@@ -52,8 +76,8 @@
   \else{\rmfamily\romannumeral #1\relax}\fi%
 }
 \newcommand*{\RomanNumber}[1]{%
-  \relax\ifmmode\mathrm{\expandafter\@slowromancap\romannumeral #1@}%
-  \else{\rmfamily\expandafter\@slowromancap\romannumeral #1@}\fi%
+  \relax\ifmmode\mathrm{\expandafter\@slowromancap\romannumeral #1@}% chktex 21
+  \else{\rmfamily\expandafter\@slowromancap\romannumeral #1@}\fi% chktex 21
 }
 \newcommand{\sans}[1]{\mathsf{#1}}
 \newcommand{\isans}[1]{\mathit{\mathsf{#1}}}
@@ -76,6 +100,24 @@
 \newcommand{\unicode@neg}{\ifmmode\neg\else\textlnot\fi}
 \newcommand{\unicode@div}{\ifmmode\div\else\textdiv\fi}
 \newcommand{\unicode@pm}{\ifmmode\pm\else\textpm\fi}
+
+\ifdefined\doubleplus%
+	\let\unicode@doubleplus=\doubleplus%
+\else%
+	\newcommand{\unicode@doubleplus}{\mathbin{\perp\!\!\!\perp}}% chktex 21
+	\let\doubleplus=\unicode@doubleplus%
+\fi
+
+\ifdefined\indep%
+	\let\unicode@indep=\indep%
+\else
+	\ifdefined\Vbar%
+		\let\unicode@indep=\Vbar%
+	\else%
+		\newcommand{\unicode@indep}{\mathbin{\perp\!\!\!\perp}}% chktex 21
+	\fi%
+	\let\indep=\unicode@indep%
+\fi%
 % endregion text/math macros ---------------------------------------------------
 
 % region greek macros ----------------------------------------------------------
@@ -145,7 +187,7 @@
 \newunicodechar{﹣}{\ensuremath{\texttt{-}}}  % small, unary -
 \newunicodechar{√}{\ensuremath{\sqrt}}
 \newunicodechar{∞}{\ensuremath{\infty}}
-\newunicodechar{⧺}{\ensuremath{\mathbin{+\!\!\!+}}}  % concatenation
+\newunicodechar{⧺}{\ensuremath{\doubleplus}}  % concatenation
 \newunicodechar{⌊}{\ensuremath{\lfloor}}
 \newunicodechar{⌋}{\ensuremath{\rfloor}}
 \newunicodechar{⌈}{\ensuremath{\lceil}}
@@ -285,7 +327,7 @@
 
 
 % region probability -----------------------------------------------------------
-\newunicodechar{⫫}{\ensuremath{\mathbin{\perp\!\!\!\perp}}}
+\newunicodechar{⫫}{\ensuremath{\indep}}
 % endregion probability --------------------------------------------------------
 
 
@@ -294,7 +336,7 @@
 \newunicodechar{⟩}{\ensuremath{\rangle}}
 \newunicodechar{∣}{\ensuremath{\mid}}
 \newunicodechar{‖}{\ensuremath{\|}}
-\newunicodechar{║}{\ensuremath{\big\|}}
+\newunicodechar{║}{\ensuremath{\big\|}}  % chktex 21
 \newunicodechar{∥}{\ensuremath{\parallel}}
 \newunicodechar{∠}{\ensuremath{\angle}}
 \newunicodechar{∡}{\ensuremath{\measuredangle}}
