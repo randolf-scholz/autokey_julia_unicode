@@ -1,13 +1,15 @@
 # region custom gitignore settings ---------------------------------------------
 *.~lock.*.csv#
-.idea/
 .ipynb_checkpoints/
+.mypy_cache/
 .virtual_documents/
 .vscode/
 __pycache__/
 __tex__/
 
 *.pdf
+# manually include all third party files
+!third_party/**
 # endregion custom gitignore settings ------------------------------------------
 
 
