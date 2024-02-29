@@ -1,8 +1,7 @@
-*.ipynb_checkpoints/
-*__pycache__/
 *.~lock.*.csv#
-*.virtual_documents
 .idea/
+.ipynb_checkpoints/
+.virtual_documents/
 .vscode/
-.mypy_cache/
-**/__tex__/
+__pycache__/
+__tex__/
