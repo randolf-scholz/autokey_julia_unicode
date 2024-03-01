@@ -1,9 +1,9 @@
 # region custom gitignore settings ---------------------------------------------
-.~lock.*#
 .ipynb_checkpoints/
 .mypy_cache/
 .virtual_documents/
 .vscode/
+.~lock.*#
 __pycache__/
 __tex__/
 
