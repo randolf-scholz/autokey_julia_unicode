@@ -1,4 +1,4 @@
-exclude: '(\.git/|\.venv/|\.idea/|third_party/)'
+exclude: '(\.git/|\.venv/|\.idea/|third_party/|experimental/)'
 minimum_pre_commit_version: 3.6.0
 default_language_version:
   python: python3.11
@@ -50,7 +50,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.2.2
+    rev: v0.3.0
     hooks:
       - id: ruff
         files: (^src/|^tests/)
@@ -94,7 +94,6 @@ repos:
         description: "Check LaTeX files with chktex"
         language: system
         types: [tex]
-        exclude: "experimental/"
         # chktex --format=$'%f:%l:%c %m [%k %n]\n' --quiet --nowarn=1 *files*
         entry: chktex
         args:
@@ -102,14 +101,22 @@ repos:
           - "--quiet"
           - "--erroron=all"
           - "--nowarn=1"
+          - "--nowarn=3"
           - "--nowarn=19"
+          - "--nowarn=21"
           - "--nowarn=22"
           - "--nowarn=30"
           - "--nowarn=41"
+          - "--nowarn=44"
           - "--nowarn=46"
           - "--"
-        # entry: bash -c 'chktex "$@" 2>&1 | grep "." && exit 1' --
-        # args:
-        #   - "--format=%f:%l:%c %m [%k %n]\n"
-        #   - "--quiet"
-        #   - "--nowarn=1"
+      - id: lacheck
+        name: lacheck
+        description: "A consistency checker for LaTeX documents"
+        language: system
+        types: [tex]
+        files: \.tex$
+        entry: bash -c '! printf "%s\n" "$@" | xargs -I _ lacheck _ | grep .' --
+        # NOTE: lacheck only takes a single file at a time, so we need to use xargs
+        # NOTE: lacheck always returns 0, so we need to grep for output
+        # NOTE: grep has exit code 1 if no matches are found, so we need to invert with `!`
