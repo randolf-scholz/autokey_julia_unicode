@@ -163,6 +163,39 @@
 \makeatother
 % endregion macros -------------------------------------------------------------
 
+
+% region free previously defined unicode chars ---------------------------------
+% cf. https://github.com/latex3/latex3/blob/main/texmf/tex/latex/base/utf8enc.dfu
+\expandafter\let\csname u8:\detokenize{–}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{—}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{“}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{”}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{™}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{†}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{±}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{½}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¼}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¾}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{←}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{→}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{…}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{×}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¬}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{²}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{³}\endcsname\relax
+% endregion free previously defined unicode chars ------------------------------
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Below this line, only \newunicodechar commands are allowed                   %
 % All macro definitions should use non-unicode replacements                    %
