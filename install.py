@@ -13,6 +13,7 @@ import shutil
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Final, NewType, TypeGuard, NamedTuple, Any, TypeVar, TypeAlias
+from enum import Enum
 
 # In[2]:
 # Globals / Constants / Templates
@@ -134,22 +135,22 @@ TEMPLATE: JSON = {
 
 # %% Helper function send-mode
 
-SEND_MODES: Final[list[str]] = [
-    r"<ctrl>+v",
-    r"<ctrl>+<shift>+v",
-    r"<shift>+<insert>",
-]
+SEND_MODES: Final[dict[int, str]] = {
+    0: r"<ctrl>+v",
+    1: r"<ctrl>+<shift>+v",
+    2: r"<shift>+<insert>",
+}
 DEFAULT_QUESTION = "Please pick one of the following:"
 
 
 def query_choice(
     *,
-    choices: list[T],
+    choices: list[T] | dict[int, T],
     question: str = DEFAULT_QUESTION,
     default: int | None = 0,
 ) -> T:
     """Ask the user to pick an option."""
-    options = dict(enumerate(choices))
+    options = choices if isinstance(choices, dict) else dict(enumerate(choices))
 
     if default is not None:
         assert default in options, f"Default {default} not in {options}"
@@ -204,7 +205,7 @@ class UnprocessedSample(NamedTuple):
 
     def __repr__(self) -> str:
         char, ucode, abbrevations = self.char, self.ucode, self.abbreviations
-        return f"{char=!r}: {ucode=!r} {abbrevations=!r}"
+        return f"{char=!r}: {ucode=!r}  {abbrevations=!r}"
 
 
 class UnicodeSample(NamedTuple):
@@ -214,6 +215,10 @@ class UnicodeSample(NamedTuple):
     char: CHAR
     abbreviations: list[ABBREVIATION]
     description: str
+
+    def __repr__(self) -> str:
+        char, ucode, abbrevations = self.char, self.ucode, self.abbreviations
+        return f"{ucode}: {char!r}  {abbrevations=!s}"
 
 
 def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
@@ -475,12 +480,15 @@ def main() -> None:
         )
     BASE_PATH = AUTOKEY_DIR / "data/" if AUTOKEY_DIR.exists() else Path.cwd()
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Install icons for usage with autokey.",
+    )
     parser.add_argument(
         "--sendmode",
         choices=SEND_MODES,
         default=None,
-        help="How should character substitutions be performed?",
+        type=int,
+        help=f"How should character substitutions be performed?\n{SEND_MODES}",
     )
     parser.add_argument(
         "--target-directory",
@@ -495,10 +503,19 @@ def main() -> None:
         type=str,
         help="Directories holding the `.tsv` files to be installed.",
     )
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Increase verbosity.",
+    )
     args = parser.parse_args()
 
+    if args.verbose:
+        LOGGER.setLevel(logging.DEBUG)
+
     # if sendmode is missing, ask user
-    sendmode = get_sendmode() if args.sendmode is None else args.sendmode
+    sendmode = get_sendmode() if args.sendmode is None else SEND_MODES[args.sendmode]
 
     # validate target_directory
     target_dir = Path(args.target_directory)
