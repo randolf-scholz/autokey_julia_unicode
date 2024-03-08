@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2024-03-08
+
+- Revamped the installation script, now with argparse.
+- Refactored the installation procedure. Now expects folders with `.tsv` files as input.
+- Split custom icons into separate files, according to unicode block.
+
 ## 2024-02-27
 
 - Added italic and bold italic greek variants to `unicode-symbols.sty`.
