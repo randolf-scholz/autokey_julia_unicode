@@ -1,13 +1,6 @@
 # Autokey Unicode characters
 
-[Usage](#usage) | [Installation](#installation) | [Changelog](#changelog) |
-
-## [CHANGELOG](CHANGELOG.md)
-
-- 2024-03-08: Revamped the installation script, refactored the installation procedure.
-- 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
-- 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
-- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
+[Usage](#usage) | [Installation](#installation) | [Changelog](#changelog) | [Features](#features) | [Known Issues](#known-issues--limitations) | [References](#references)
 
 ![demo](demo.gif)
 
@@ -113,6 +106,13 @@ Note: Generally here not all characters are available:
 - Composed characters seem to not always work as intended, not many editors render them correctly.
 - Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives a⁽ᵏ⁾. With AutoKey we need to add the superscripts one at a time.
 - Seems like it doesnt work with a German keyboard because AutoKey interprets `\` and `[AltGr]+?` (what you type on a German keyboard to get backslash) as different things.
+
+## [CHANGELOG](CHANGELOG.md)
+
+- 2024-03-08: Revamped the installation script, refactored the installation procedure.
+- 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
+- 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
+- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
 
 ## References
 
