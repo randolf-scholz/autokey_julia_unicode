@@ -1,49 +1,49 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A4D0	"""ꓐ"""	A4D0..A4FF	Lisu	Lisu letter ba		
-A4D1	"""ꓑ"""	A4D0..A4FF	Lisu	Lisu letter pa		
-A4D2	"""ꓒ"""	A4D0..A4FF	Lisu	Lisu letter pha		
-A4D3	"""ꓓ"""	A4D0..A4FF	Lisu	Lisu letter da		
-A4D4	"""ꓔ"""	A4D0..A4FF	Lisu	Lisu letter ta		
-A4D5	"""ꓕ"""	A4D0..A4FF	Lisu	Lisu letter tha		
-A4D6	"""ꓖ"""	A4D0..A4FF	Lisu	Lisu letter ga		
-A4D7	"""ꓗ"""	A4D0..A4FF	Lisu	Lisu letter ka		
-A4D8	"""ꓘ"""	A4D0..A4FF	Lisu	Lisu letter kha		
-A4D9	"""ꓙ"""	A4D0..A4FF	Lisu	Lisu letter ja		
-A4DA	"""ꓚ"""	A4D0..A4FF	Lisu	Lisu letter ca		
-A4DB	"""ꓛ"""	A4D0..A4FF	Lisu	Lisu letter cha		
-A4DC	"""ꓜ"""	A4D0..A4FF	Lisu	Lisu letter dza		
-A4DD	"""ꓝ"""	A4D0..A4FF	Lisu	Lisu letter tsa		
-A4DE	"""ꓞ"""	A4D0..A4FF	Lisu	Lisu letter tsha		
-A4DF	"""ꓟ"""	A4D0..A4FF	Lisu	Lisu letter ma		
-A4E0	"""ꓠ"""	A4D0..A4FF	Lisu	Lisu letter na		
-A4E1	"""ꓡ"""	A4D0..A4FF	Lisu	Lisu letter la		
-A4E2	"""ꓢ"""	A4D0..A4FF	Lisu	Lisu letter sa		
-A4E3	"""ꓣ"""	A4D0..A4FF	Lisu	Lisu letter zha		
-A4E4	"""ꓤ"""	A4D0..A4FF	Lisu	Lisu letter za		
-A4E5	"""ꓥ"""	A4D0..A4FF	Lisu	Lisu letter nga		
-A4E6	"""ꓦ"""	A4D0..A4FF	Lisu	Lisu letter ha		
-A4E7	"""ꓧ"""	A4D0..A4FF	Lisu	Lisu letter xa		
-A4E8	"""ꓨ"""	A4D0..A4FF	Lisu	Lisu letter hha		
-A4E9	"""ꓩ"""	A4D0..A4FF	Lisu	Lisu letter fa		
-A4EA	"""ꓪ"""	A4D0..A4FF	Lisu	Lisu letter wa		
-A4EB	"""ꓫ"""	A4D0..A4FF	Lisu	Lisu letter sha		
-A4EC	"""ꓬ"""	A4D0..A4FF	Lisu	Lisu letter ya		
-A4ED	"""ꓭ"""	A4D0..A4FF	Lisu	Lisu letter gha		
-A4EE	"""ꓮ"""	A4D0..A4FF	Lisu	Lisu letter a		
-A4EF	"""ꓯ"""	A4D0..A4FF	Lisu	Lisu letter ae		
-A4F0	"""ꓰ"""	A4D0..A4FF	Lisu	Lisu letter e		
-A4F1	"""ꓱ"""	A4D0..A4FF	Lisu	Lisu letter eu		
-A4F2	"""ꓲ"""	A4D0..A4FF	Lisu	Lisu letter i		
-A4F3	"""ꓳ"""	A4D0..A4FF	Lisu	Lisu letter o		
-A4F4	"""ꓴ"""	A4D0..A4FF	Lisu	Lisu letter u		
-A4F5	"""ꓵ"""	A4D0..A4FF	Lisu	Lisu letter ue		
-A4F6	"""ꓶ"""	A4D0..A4FF	Lisu	Lisu letter uh		
-A4F7	"""ꓷ"""	A4D0..A4FF	Lisu	Lisu letter oe		
-A4F8	"""ꓸ"""	A4D0..A4FF	Lisu	Lisu letter tone mya ti		
-A4F9	"""ꓹ"""	A4D0..A4FF	Lisu	Lisu letter tone na po		
-A4FA	"""ꓺ"""	A4D0..A4FF	Lisu	Lisu letter tone mya cya		
-A4FB	"""ꓻ"""	A4D0..A4FF	Lisu	Lisu letter tone mya bo		
-A4FC	"""ꓼ"""	A4D0..A4FF	Lisu	Lisu letter tone mya na		
-A4FD	"""ꓽ"""	A4D0..A4FF	Lisu	Lisu letter tone mya jeu		
-A4FE	"""꓾"""	A4D0..A4FF	Lisu	Lisu punctuation comma		
-A4FF	"""꓿"""	A4D0..A4FF	Lisu	Lisu punctuation full stop		
+U+A4D0	ꓐ	A4D0..A4FF	Lisu	Lisu letter ba		
+U+A4D1	ꓑ	A4D0..A4FF	Lisu	Lisu letter pa		
+U+A4D2	ꓒ	A4D0..A4FF	Lisu	Lisu letter pha		
+U+A4D3	ꓓ	A4D0..A4FF	Lisu	Lisu letter da		
+U+A4D4	ꓔ	A4D0..A4FF	Lisu	Lisu letter ta		
+U+A4D5	ꓕ	A4D0..A4FF	Lisu	Lisu letter tha		
+U+A4D6	ꓖ	A4D0..A4FF	Lisu	Lisu letter ga		
+U+A4D7	ꓗ	A4D0..A4FF	Lisu	Lisu letter ka		
+U+A4D8	ꓘ	A4D0..A4FF	Lisu	Lisu letter kha		
+U+A4D9	ꓙ	A4D0..A4FF	Lisu	Lisu letter ja		
+U+A4DA	ꓚ	A4D0..A4FF	Lisu	Lisu letter ca		
+U+A4DB	ꓛ	A4D0..A4FF	Lisu	Lisu letter cha		
+U+A4DC	ꓜ	A4D0..A4FF	Lisu	Lisu letter dza		
+U+A4DD	ꓝ	A4D0..A4FF	Lisu	Lisu letter tsa		
+U+A4DE	ꓞ	A4D0..A4FF	Lisu	Lisu letter tsha		
+U+A4DF	ꓟ	A4D0..A4FF	Lisu	Lisu letter ma		
+U+A4E0	ꓠ	A4D0..A4FF	Lisu	Lisu letter na		
+U+A4E1	ꓡ	A4D0..A4FF	Lisu	Lisu letter la		
+U+A4E2	ꓢ	A4D0..A4FF	Lisu	Lisu letter sa		
+U+A4E3	ꓣ	A4D0..A4FF	Lisu	Lisu letter zha		
+U+A4E4	ꓤ	A4D0..A4FF	Lisu	Lisu letter za		
+U+A4E5	ꓥ	A4D0..A4FF	Lisu	Lisu letter nga		
+U+A4E6	ꓦ	A4D0..A4FF	Lisu	Lisu letter ha		
+U+A4E7	ꓧ	A4D0..A4FF	Lisu	Lisu letter xa		
+U+A4E8	ꓨ	A4D0..A4FF	Lisu	Lisu letter hha		
+U+A4E9	ꓩ	A4D0..A4FF	Lisu	Lisu letter fa		
+U+A4EA	ꓪ	A4D0..A4FF	Lisu	Lisu letter wa		
+U+A4EB	ꓫ	A4D0..A4FF	Lisu	Lisu letter sha		
+U+A4EC	ꓬ	A4D0..A4FF	Lisu	Lisu letter ya		
+U+A4ED	ꓭ	A4D0..A4FF	Lisu	Lisu letter gha		
+U+A4EE	ꓮ	A4D0..A4FF	Lisu	Lisu letter a		
+U+A4EF	ꓯ	A4D0..A4FF	Lisu	Lisu letter ae		
+U+A4F0	ꓰ	A4D0..A4FF	Lisu	Lisu letter e		
+U+A4F1	ꓱ	A4D0..A4FF	Lisu	Lisu letter eu		
+U+A4F2	ꓲ	A4D0..A4FF	Lisu	Lisu letter i		
+U+A4F3	ꓳ	A4D0..A4FF	Lisu	Lisu letter o		
+U+A4F4	ꓴ	A4D0..A4FF	Lisu	Lisu letter u		
+U+A4F5	ꓵ	A4D0..A4FF	Lisu	Lisu letter ue		
+U+A4F6	ꓶ	A4D0..A4FF	Lisu	Lisu letter uh		
+U+A4F7	ꓷ	A4D0..A4FF	Lisu	Lisu letter oe		
+U+A4F8	ꓸ	A4D0..A4FF	Lisu	Lisu letter tone mya ti		
+U+A4F9	ꓹ	A4D0..A4FF	Lisu	Lisu letter tone na po		
+U+A4FA	ꓺ	A4D0..A4FF	Lisu	Lisu letter tone mya cya		
+U+A4FB	ꓻ	A4D0..A4FF	Lisu	Lisu letter tone mya bo		
+U+A4FC	ꓼ	A4D0..A4FF	Lisu	Lisu letter tone mya na		
+U+A4FD	ꓽ	A4D0..A4FF	Lisu	Lisu letter tone mya jeu		
+U+A4FE	꓾	A4D0..A4FF	Lisu	Lisu punctuation comma		
+U+A4FF	꓿	A4D0..A4FF	Lisu	Lisu punctuation full stop		

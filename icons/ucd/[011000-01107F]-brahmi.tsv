@@ -1,116 +1,116 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11000	"""𑀀"""	11000..1107F	Brahmi	Brahmi sign candrabindu		
-11001	"""𑀁"""	11000..1107F	Brahmi	Brahmi sign anusvara		
-11002	"""𑀂"""	11000..1107F	Brahmi	Brahmi sign visarga		
-11003	"""𑀃"""	11000..1107F	Brahmi	Brahmi sign jihvamuliya		
-11004	"""𑀄"""	11000..1107F	Brahmi	Brahmi sign upadhmaniya		
-11005	"""𑀅"""	11000..1107F	Brahmi	Brahmi letter a		
-11006	"""𑀆"""	11000..1107F	Brahmi	Brahmi letter aa		
-11007	"""𑀇"""	11000..1107F	Brahmi	Brahmi letter i		
-11008	"""𑀈"""	11000..1107F	Brahmi	Brahmi letter ii		
-11009	"""𑀉"""	11000..1107F	Brahmi	Brahmi letter u		
-1100A	"""𑀊"""	11000..1107F	Brahmi	Brahmi letter uu		
-1100B	"""𑀋"""	11000..1107F	Brahmi	Brahmi letter vocalic r		
-1100C	"""𑀌"""	11000..1107F	Brahmi	Brahmi letter vocalic rr		
-1100D	"""𑀍"""	11000..1107F	Brahmi	Brahmi letter vocalic l		
-1100E	"""𑀎"""	11000..1107F	Brahmi	Brahmi letter vocalic ll		
-1100F	"""𑀏"""	11000..1107F	Brahmi	Brahmi letter e		
-11010	"""𑀐"""	11000..1107F	Brahmi	Brahmi letter ai		
-11011	"""𑀑"""	11000..1107F	Brahmi	Brahmi letter o		
-11012	"""𑀒"""	11000..1107F	Brahmi	Brahmi letter au		
-11013	"""𑀓"""	11000..1107F	Brahmi	Brahmi letter ka		
-11014	"""𑀔"""	11000..1107F	Brahmi	Brahmi letter kha		
-11015	"""𑀕"""	11000..1107F	Brahmi	Brahmi letter ga		
-11016	"""𑀖"""	11000..1107F	Brahmi	Brahmi letter gha		
-11017	"""𑀗"""	11000..1107F	Brahmi	Brahmi letter nga		
-11018	"""𑀘"""	11000..1107F	Brahmi	Brahmi letter ca		
-11019	"""𑀙"""	11000..1107F	Brahmi	Brahmi letter cha		
-1101A	"""𑀚"""	11000..1107F	Brahmi	Brahmi letter ja		
-1101B	"""𑀛"""	11000..1107F	Brahmi	Brahmi letter jha		
-1101C	"""𑀜"""	11000..1107F	Brahmi	Brahmi letter nya		
-1101D	"""𑀝"""	11000..1107F	Brahmi	Brahmi letter tta		
-1101E	"""𑀞"""	11000..1107F	Brahmi	Brahmi letter ttha		
-1101F	"""𑀟"""	11000..1107F	Brahmi	Brahmi letter dda		
-11020	"""𑀠"""	11000..1107F	Brahmi	Brahmi letter ddha		
-11021	"""𑀡"""	11000..1107F	Brahmi	Brahmi letter nna		
-11022	"""𑀢"""	11000..1107F	Brahmi	Brahmi letter ta		
-11023	"""𑀣"""	11000..1107F	Brahmi	Brahmi letter tha		
-11024	"""𑀤"""	11000..1107F	Brahmi	Brahmi letter da		
-11025	"""𑀥"""	11000..1107F	Brahmi	Brahmi letter dha		
-11026	"""𑀦"""	11000..1107F	Brahmi	Brahmi letter na		
-11027	"""𑀧"""	11000..1107F	Brahmi	Brahmi letter pa		
-11028	"""𑀨"""	11000..1107F	Brahmi	Brahmi letter pha		
-11029	"""𑀩"""	11000..1107F	Brahmi	Brahmi letter ba		
-1102A	"""𑀪"""	11000..1107F	Brahmi	Brahmi letter bha		
-1102B	"""𑀫"""	11000..1107F	Brahmi	Brahmi letter ma		
-1102C	"""𑀬"""	11000..1107F	Brahmi	Brahmi letter ya		
-1102D	"""𑀭"""	11000..1107F	Brahmi	Brahmi letter ra		
-1102E	"""𑀮"""	11000..1107F	Brahmi	Brahmi letter la		
-1102F	"""𑀯"""	11000..1107F	Brahmi	Brahmi letter va		
-11030	"""𑀰"""	11000..1107F	Brahmi	Brahmi letter sha		
-11031	"""𑀱"""	11000..1107F	Brahmi	Brahmi letter ssa		
-11032	"""𑀲"""	11000..1107F	Brahmi	Brahmi letter sa		
-11033	"""𑀳"""	11000..1107F	Brahmi	Brahmi letter ha		
-11034	"""𑀴"""	11000..1107F	Brahmi	Brahmi letter lla		
-11035	"""𑀵"""	11000..1107F	Brahmi	Brahmi letter old tamil llla		
-11036	"""𑀶"""	11000..1107F	Brahmi	Brahmi letter old tamil rra		
-11037	"""𑀷"""	11000..1107F	Brahmi	Brahmi letter old tamil nnna		
-11038	"""𑀸"""	11000..1107F	Brahmi	Brahmi vowel sign aa		
-11039	"""𑀹"""	11000..1107F	Brahmi	Brahmi vowel sign bhattiprolu aa		
-1103A	"""𑀺"""	11000..1107F	Brahmi	Brahmi vowel sign i		
-1103B	"""𑀻"""	11000..1107F	Brahmi	Brahmi vowel sign ii		
-1103C	"""𑀼"""	11000..1107F	Brahmi	Brahmi vowel sign u		
-1103D	"""𑀽"""	11000..1107F	Brahmi	Brahmi vowel sign uu		
-1103E	"""𑀾"""	11000..1107F	Brahmi	Brahmi vowel sign vocalic r		
-1103F	"""𑀿"""	11000..1107F	Brahmi	Brahmi vowel sign vocalic rr		
-11040	"""𑁀"""	11000..1107F	Brahmi	Brahmi vowel sign vocalic l		
-11041	"""𑁁"""	11000..1107F	Brahmi	Brahmi vowel sign vocalic ll		
-11042	"""𑁂"""	11000..1107F	Brahmi	Brahmi vowel sign e		
-11043	"""𑁃"""	11000..1107F	Brahmi	Brahmi vowel sign ai		
-11044	"""𑁄"""	11000..1107F	Brahmi	Brahmi vowel sign o		
-11045	"""𑁅"""	11000..1107F	Brahmi	Brahmi vowel sign au		
-11046	"""𑁆"""	11000..1107F	Brahmi	Brahmi virama		
-11047	"""𑁇"""	11000..1107F	Brahmi	Brahmi danda		
-11048	"""𑁈"""	11000..1107F	Brahmi	Brahmi double danda		
-11049	"""𑁉"""	11000..1107F	Brahmi	Brahmi punctuation dot		
-1104A	"""𑁊"""	11000..1107F	Brahmi	Brahmi punctuation double dot		
-1104B	"""𑁋"""	11000..1107F	Brahmi	Brahmi punctuation line		
-1104C	"""𑁌"""	11000..1107F	Brahmi	Brahmi punctuation crescent bar		
-1104D	"""𑁍"""	11000..1107F	Brahmi	Brahmi punctuation lotus		
-11052	"""𑁒"""	11000..1107F	Brahmi	Brahmi number one		
-11053	"""𑁓"""	11000..1107F	Brahmi	Brahmi number two		
-11054	"""𑁔"""	11000..1107F	Brahmi	Brahmi number three		
-11055	"""𑁕"""	11000..1107F	Brahmi	Brahmi number four		
-11056	"""𑁖"""	11000..1107F	Brahmi	Brahmi number five		
-11057	"""𑁗"""	11000..1107F	Brahmi	Brahmi number six		
-11058	"""𑁘"""	11000..1107F	Brahmi	Brahmi number seven		
-11059	"""𑁙"""	11000..1107F	Brahmi	Brahmi number eight		
-1105A	"""𑁚"""	11000..1107F	Brahmi	Brahmi number nine		
-1105B	"""𑁛"""	11000..1107F	Brahmi	Brahmi number ten		
-1105C	"""𑁜"""	11000..1107F	Brahmi	Brahmi number twenty		
-1105D	"""𑁝"""	11000..1107F	Brahmi	Brahmi number thirty		
-1105E	"""𑁞"""	11000..1107F	Brahmi	Brahmi number forty		
-1105F	"""𑁟"""	11000..1107F	Brahmi	Brahmi number fifty		
-11060	"""𑁠"""	11000..1107F	Brahmi	Brahmi number sixty		
-11061	"""𑁡"""	11000..1107F	Brahmi	Brahmi number seventy		
-11062	"""𑁢"""	11000..1107F	Brahmi	Brahmi number eighty		
-11063	"""𑁣"""	11000..1107F	Brahmi	Brahmi number ninety		
-11064	"""𑁤"""	11000..1107F	Brahmi	Brahmi number one hundred		
-11065	"""𑁥"""	11000..1107F	Brahmi	Brahmi number one thousand		
-11066	"""𑁦"""	11000..1107F	Brahmi	Brahmi digit zero		
-11067	"""𑁧"""	11000..1107F	Brahmi	Brahmi digit one		
-11068	"""𑁨"""	11000..1107F	Brahmi	Brahmi digit two		
-11069	"""𑁩"""	11000..1107F	Brahmi	Brahmi digit three		
-1106A	"""𑁪"""	11000..1107F	Brahmi	Brahmi digit four		
-1106B	"""𑁫"""	11000..1107F	Brahmi	Brahmi digit five		
-1106C	"""𑁬"""	11000..1107F	Brahmi	Brahmi digit six		
-1106D	"""𑁭"""	11000..1107F	Brahmi	Brahmi digit seven		
-1106E	"""𑁮"""	11000..1107F	Brahmi	Brahmi digit eight		
-1106F	"""𑁯"""	11000..1107F	Brahmi	Brahmi digit nine		
-11070	"""𑁰"""	11000..1107F	Brahmi	Brahmi sign old tamil virama		
-11071	"""𑁱"""	11000..1107F	Brahmi	Brahmi letter old tamil short e		
-11072	"""𑁲"""	11000..1107F	Brahmi	Brahmi letter old tamil short o		
-11073	"""𑁳"""	11000..1107F	Brahmi	Brahmi vowel sign old tamil short e		
-11074	"""𑁴"""	11000..1107F	Brahmi	Brahmi vowel sign old tamil short o		
-11075	"""𑁵"""	11000..1107F	Brahmi	Brahmi letter old tamil lla		
-1107F	"""𑁿"""	11000..1107F	Brahmi	Brahmi number joiner		
+U+11000	𑀀	11000..1107F	Brahmi	Brahmi sign candrabindu		
+U+11001	𑀁	11000..1107F	Brahmi	Brahmi sign anusvara		
+U+11002	𑀂	11000..1107F	Brahmi	Brahmi sign visarga		
+U+11003	𑀃	11000..1107F	Brahmi	Brahmi sign jihvamuliya		
+U+11004	𑀄	11000..1107F	Brahmi	Brahmi sign upadhmaniya		
+U+11005	𑀅	11000..1107F	Brahmi	Brahmi letter a		
+U+11006	𑀆	11000..1107F	Brahmi	Brahmi letter aa		
+U+11007	𑀇	11000..1107F	Brahmi	Brahmi letter i		
+U+11008	𑀈	11000..1107F	Brahmi	Brahmi letter ii		
+U+11009	𑀉	11000..1107F	Brahmi	Brahmi letter u		
+U+1100A	𑀊	11000..1107F	Brahmi	Brahmi letter uu		
+U+1100B	𑀋	11000..1107F	Brahmi	Brahmi letter vocalic r		
+U+1100C	𑀌	11000..1107F	Brahmi	Brahmi letter vocalic rr		
+U+1100D	𑀍	11000..1107F	Brahmi	Brahmi letter vocalic l		
+U+1100E	𑀎	11000..1107F	Brahmi	Brahmi letter vocalic ll		
+U+1100F	𑀏	11000..1107F	Brahmi	Brahmi letter e		
+U+11010	𑀐	11000..1107F	Brahmi	Brahmi letter ai		
+U+11011	𑀑	11000..1107F	Brahmi	Brahmi letter o		
+U+11012	𑀒	11000..1107F	Brahmi	Brahmi letter au		
+U+11013	𑀓	11000..1107F	Brahmi	Brahmi letter ka		
+U+11014	𑀔	11000..1107F	Brahmi	Brahmi letter kha		
+U+11015	𑀕	11000..1107F	Brahmi	Brahmi letter ga		
+U+11016	𑀖	11000..1107F	Brahmi	Brahmi letter gha		
+U+11017	𑀗	11000..1107F	Brahmi	Brahmi letter nga		
+U+11018	𑀘	11000..1107F	Brahmi	Brahmi letter ca		
+U+11019	𑀙	11000..1107F	Brahmi	Brahmi letter cha		
+U+1101A	𑀚	11000..1107F	Brahmi	Brahmi letter ja		
+U+1101B	𑀛	11000..1107F	Brahmi	Brahmi letter jha		
+U+1101C	𑀜	11000..1107F	Brahmi	Brahmi letter nya		
+U+1101D	𑀝	11000..1107F	Brahmi	Brahmi letter tta		
+U+1101E	𑀞	11000..1107F	Brahmi	Brahmi letter ttha		
+U+1101F	𑀟	11000..1107F	Brahmi	Brahmi letter dda		
+U+11020	𑀠	11000..1107F	Brahmi	Brahmi letter ddha		
+U+11021	𑀡	11000..1107F	Brahmi	Brahmi letter nna		
+U+11022	𑀢	11000..1107F	Brahmi	Brahmi letter ta		
+U+11023	𑀣	11000..1107F	Brahmi	Brahmi letter tha		
+U+11024	𑀤	11000..1107F	Brahmi	Brahmi letter da		
+U+11025	𑀥	11000..1107F	Brahmi	Brahmi letter dha		
+U+11026	𑀦	11000..1107F	Brahmi	Brahmi letter na		
+U+11027	𑀧	11000..1107F	Brahmi	Brahmi letter pa		
+U+11028	𑀨	11000..1107F	Brahmi	Brahmi letter pha		
+U+11029	𑀩	11000..1107F	Brahmi	Brahmi letter ba		
+U+1102A	𑀪	11000..1107F	Brahmi	Brahmi letter bha		
+U+1102B	𑀫	11000..1107F	Brahmi	Brahmi letter ma		
+U+1102C	𑀬	11000..1107F	Brahmi	Brahmi letter ya		
+U+1102D	𑀭	11000..1107F	Brahmi	Brahmi letter ra		
+U+1102E	𑀮	11000..1107F	Brahmi	Brahmi letter la		
+U+1102F	𑀯	11000..1107F	Brahmi	Brahmi letter va		
+U+11030	𑀰	11000..1107F	Brahmi	Brahmi letter sha		
+U+11031	𑀱	11000..1107F	Brahmi	Brahmi letter ssa		
+U+11032	𑀲	11000..1107F	Brahmi	Brahmi letter sa		
+U+11033	𑀳	11000..1107F	Brahmi	Brahmi letter ha		
+U+11034	𑀴	11000..1107F	Brahmi	Brahmi letter lla		
+U+11035	𑀵	11000..1107F	Brahmi	Brahmi letter old tamil llla		
+U+11036	𑀶	11000..1107F	Brahmi	Brahmi letter old tamil rra		
+U+11037	𑀷	11000..1107F	Brahmi	Brahmi letter old tamil nnna		
+U+11038	𑀸	11000..1107F	Brahmi	Brahmi vowel sign aa		
+U+11039	𑀹	11000..1107F	Brahmi	Brahmi vowel sign bhattiprolu aa		
+U+1103A	𑀺	11000..1107F	Brahmi	Brahmi vowel sign i		
+U+1103B	𑀻	11000..1107F	Brahmi	Brahmi vowel sign ii		
+U+1103C	𑀼	11000..1107F	Brahmi	Brahmi vowel sign u		
+U+1103D	𑀽	11000..1107F	Brahmi	Brahmi vowel sign uu		
+U+1103E	𑀾	11000..1107F	Brahmi	Brahmi vowel sign vocalic r		
+U+1103F	𑀿	11000..1107F	Brahmi	Brahmi vowel sign vocalic rr		
+U+11040	𑁀	11000..1107F	Brahmi	Brahmi vowel sign vocalic l		
+U+11041	𑁁	11000..1107F	Brahmi	Brahmi vowel sign vocalic ll		
+U+11042	𑁂	11000..1107F	Brahmi	Brahmi vowel sign e		
+U+11043	𑁃	11000..1107F	Brahmi	Brahmi vowel sign ai		
+U+11044	𑁄	11000..1107F	Brahmi	Brahmi vowel sign o		
+U+11045	𑁅	11000..1107F	Brahmi	Brahmi vowel sign au		
+U+11046	𑁆	11000..1107F	Brahmi	Brahmi virama		
+U+11047	𑁇	11000..1107F	Brahmi	Brahmi danda		
+U+11048	𑁈	11000..1107F	Brahmi	Brahmi double danda		
+U+11049	𑁉	11000..1107F	Brahmi	Brahmi punctuation dot		
+U+1104A	𑁊	11000..1107F	Brahmi	Brahmi punctuation double dot		
+U+1104B	𑁋	11000..1107F	Brahmi	Brahmi punctuation line		
+U+1104C	𑁌	11000..1107F	Brahmi	Brahmi punctuation crescent bar		
+U+1104D	𑁍	11000..1107F	Brahmi	Brahmi punctuation lotus		
+U+11052	𑁒	11000..1107F	Brahmi	Brahmi number one		
+U+11053	𑁓	11000..1107F	Brahmi	Brahmi number two		
+U+11054	𑁔	11000..1107F	Brahmi	Brahmi number three		
+U+11055	𑁕	11000..1107F	Brahmi	Brahmi number four		
+U+11056	𑁖	11000..1107F	Brahmi	Brahmi number five		
+U+11057	𑁗	11000..1107F	Brahmi	Brahmi number six		
+U+11058	𑁘	11000..1107F	Brahmi	Brahmi number seven		
+U+11059	𑁙	11000..1107F	Brahmi	Brahmi number eight		
+U+1105A	𑁚	11000..1107F	Brahmi	Brahmi number nine		
+U+1105B	𑁛	11000..1107F	Brahmi	Brahmi number ten		
+U+1105C	𑁜	11000..1107F	Brahmi	Brahmi number twenty		
+U+1105D	𑁝	11000..1107F	Brahmi	Brahmi number thirty		
+U+1105E	𑁞	11000..1107F	Brahmi	Brahmi number forty		
+U+1105F	𑁟	11000..1107F	Brahmi	Brahmi number fifty		
+U+11060	𑁠	11000..1107F	Brahmi	Brahmi number sixty		
+U+11061	𑁡	11000..1107F	Brahmi	Brahmi number seventy		
+U+11062	𑁢	11000..1107F	Brahmi	Brahmi number eighty		
+U+11063	𑁣	11000..1107F	Brahmi	Brahmi number ninety		
+U+11064	𑁤	11000..1107F	Brahmi	Brahmi number one hundred		
+U+11065	𑁥	11000..1107F	Brahmi	Brahmi number one thousand		
+U+11066	𑁦	11000..1107F	Brahmi	Brahmi digit zero		
+U+11067	𑁧	11000..1107F	Brahmi	Brahmi digit one		
+U+11068	𑁨	11000..1107F	Brahmi	Brahmi digit two		
+U+11069	𑁩	11000..1107F	Brahmi	Brahmi digit three		
+U+1106A	𑁪	11000..1107F	Brahmi	Brahmi digit four		
+U+1106B	𑁫	11000..1107F	Brahmi	Brahmi digit five		
+U+1106C	𑁬	11000..1107F	Brahmi	Brahmi digit six		
+U+1106D	𑁭	11000..1107F	Brahmi	Brahmi digit seven		
+U+1106E	𑁮	11000..1107F	Brahmi	Brahmi digit eight		
+U+1106F	𑁯	11000..1107F	Brahmi	Brahmi digit nine		
+U+11070	𑁰	11000..1107F	Brahmi	Brahmi sign old tamil virama		
+U+11071	𑁱	11000..1107F	Brahmi	Brahmi letter old tamil short e		
+U+11072	𑁲	11000..1107F	Brahmi	Brahmi letter old tamil short o		
+U+11073	𑁳	11000..1107F	Brahmi	Brahmi vowel sign old tamil short e		
+U+11074	𑁴	11000..1107F	Brahmi	Brahmi vowel sign old tamil short o		
+U+11075	𑁵	11000..1107F	Brahmi	Brahmi letter old tamil lla		
+U+1107F	𑁿	11000..1107F	Brahmi	Brahmi number joiner		

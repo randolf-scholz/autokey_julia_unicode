@@ -1,97 +1,97 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11180	"""𑆀"""	11180..111DF	Sharada	Sharada sign candrabindu		
-11181	"""𑆁"""	11180..111DF	Sharada	Sharada sign anusvara		
-11182	"""𑆂"""	11180..111DF	Sharada	Sharada sign visarga		
-11183	"""𑆃"""	11180..111DF	Sharada	Sharada letter a		
-11184	"""𑆄"""	11180..111DF	Sharada	Sharada letter aa		
-11185	"""𑆅"""	11180..111DF	Sharada	Sharada letter i		
-11186	"""𑆆"""	11180..111DF	Sharada	Sharada letter ii		
-11187	"""𑆇"""	11180..111DF	Sharada	Sharada letter u		
-11188	"""𑆈"""	11180..111DF	Sharada	Sharada letter uu		
-11189	"""𑆉"""	11180..111DF	Sharada	Sharada letter vocalic r		
-1118A	"""𑆊"""	11180..111DF	Sharada	Sharada letter vocalic rr		
-1118B	"""𑆋"""	11180..111DF	Sharada	Sharada letter vocalic l		
-1118C	"""𑆌"""	11180..111DF	Sharada	Sharada letter vocalic ll		
-1118D	"""𑆍"""	11180..111DF	Sharada	Sharada letter e		
-1118E	"""𑆎"""	11180..111DF	Sharada	Sharada letter ai		
-1118F	"""𑆏"""	11180..111DF	Sharada	Sharada letter o		
-11190	"""𑆐"""	11180..111DF	Sharada	Sharada letter au		
-11191	"""𑆑"""	11180..111DF	Sharada	Sharada letter ka		
-11192	"""𑆒"""	11180..111DF	Sharada	Sharada letter kha		
-11193	"""𑆓"""	11180..111DF	Sharada	Sharada letter ga		
-11194	"""𑆔"""	11180..111DF	Sharada	Sharada letter gha		
-11195	"""𑆕"""	11180..111DF	Sharada	Sharada letter nga		
-11196	"""𑆖"""	11180..111DF	Sharada	Sharada letter ca		
-11197	"""𑆗"""	11180..111DF	Sharada	Sharada letter cha		
-11198	"""𑆘"""	11180..111DF	Sharada	Sharada letter ja		
-11199	"""𑆙"""	11180..111DF	Sharada	Sharada letter jha		
-1119A	"""𑆚"""	11180..111DF	Sharada	Sharada letter nya		
-1119B	"""𑆛"""	11180..111DF	Sharada	Sharada letter tta		
-1119C	"""𑆜"""	11180..111DF	Sharada	Sharada letter ttha		
-1119D	"""𑆝"""	11180..111DF	Sharada	Sharada letter dda		
-1119E	"""𑆞"""	11180..111DF	Sharada	Sharada letter ddha		
-1119F	"""𑆟"""	11180..111DF	Sharada	Sharada letter nna		
-111A0	"""𑆠"""	11180..111DF	Sharada	Sharada letter ta		
-111A1	"""𑆡"""	11180..111DF	Sharada	Sharada letter tha		
-111A2	"""𑆢"""	11180..111DF	Sharada	Sharada letter da		
-111A3	"""𑆣"""	11180..111DF	Sharada	Sharada letter dha		
-111A4	"""𑆤"""	11180..111DF	Sharada	Sharada letter na		
-111A5	"""𑆥"""	11180..111DF	Sharada	Sharada letter pa		
-111A6	"""𑆦"""	11180..111DF	Sharada	Sharada letter pha		
-111A7	"""𑆧"""	11180..111DF	Sharada	Sharada letter ba		
-111A8	"""𑆨"""	11180..111DF	Sharada	Sharada letter bha		
-111A9	"""𑆩"""	11180..111DF	Sharada	Sharada letter ma		
-111AA	"""𑆪"""	11180..111DF	Sharada	Sharada letter ya		
-111AB	"""𑆫"""	11180..111DF	Sharada	Sharada letter ra		
-111AC	"""𑆬"""	11180..111DF	Sharada	Sharada letter la		
-111AD	"""𑆭"""	11180..111DF	Sharada	Sharada letter lla		
-111AE	"""𑆮"""	11180..111DF	Sharada	Sharada letter va		
-111AF	"""𑆯"""	11180..111DF	Sharada	Sharada letter sha		
-111B0	"""𑆰"""	11180..111DF	Sharada	Sharada letter ssa		
-111B1	"""𑆱"""	11180..111DF	Sharada	Sharada letter sa		
-111B2	"""𑆲"""	11180..111DF	Sharada	Sharada letter ha		
-111B3	"""𑆳"""	11180..111DF	Sharada	Sharada vowel sign aa		
-111B4	"""𑆴"""	11180..111DF	Sharada	Sharada vowel sign i		
-111B5	"""𑆵"""	11180..111DF	Sharada	Sharada vowel sign ii		
-111B6	"""𑆶"""	11180..111DF	Sharada	Sharada vowel sign u		
-111B7	"""𑆷"""	11180..111DF	Sharada	Sharada vowel sign uu		
-111B8	"""𑆸"""	11180..111DF	Sharada	Sharada vowel sign vocalic r		
-111B9	"""𑆹"""	11180..111DF	Sharada	Sharada vowel sign vocalic rr		
-111BA	"""𑆺"""	11180..111DF	Sharada	Sharada vowel sign vocalic l		
-111BB	"""𑆻"""	11180..111DF	Sharada	Sharada vowel sign vocalic ll		
-111BC	"""𑆼"""	11180..111DF	Sharada	Sharada vowel sign e		
-111BD	"""𑆽"""	11180..111DF	Sharada	Sharada vowel sign ai		
-111BE	"""𑆾"""	11180..111DF	Sharada	Sharada vowel sign o		
-111BF	"""𑆿"""	11180..111DF	Sharada	Sharada vowel sign au		
-111C0	"""𑇀"""	11180..111DF	Sharada	Sharada sign virama		
-111C1	"""𑇁"""	11180..111DF	Sharada	Sharada sign avagraha		
-111C2	"""𑇂"""	11180..111DF	Sharada	Sharada sign jihvamuliya		
-111C3	"""𑇃"""	11180..111DF	Sharada	Sharada sign upadhmaniya		
-111C4	"""𑇄"""	11180..111DF	Sharada	Sharada om		
-111C5	"""𑇅"""	11180..111DF	Sharada	Sharada danda		
-111C6	"""𑇆"""	11180..111DF	Sharada	Sharada double danda		
-111C7	"""𑇇"""	11180..111DF	Sharada	Sharada abbreviation sign		
-111C8	"""𑇈"""	11180..111DF	Sharada	Sharada separator		
-111C9	"""𑇉"""	11180..111DF	Sharada	Sharada sandhi mark		
-111CA	"""𑇊"""	11180..111DF	Sharada	Sharada sign nukta		
-111CB	"""𑇋"""	11180..111DF	Sharada	Sharada vowel modifier mark		
-111CC	"""𑇌"""	11180..111DF	Sharada	Sharada extra short vowel mark		
-111CD	"""𑇍"""	11180..111DF	Sharada	Sharada sutra mark		
-111CE	"""𑇎"""	11180..111DF	Sharada	Sharada vowel sign prishthamatra e		
-111CF	"""𑇏"""	11180..111DF	Sharada	Sharada sign inverted candrabindu		
-111D0	"""𑇐"""	11180..111DF	Sharada	Sharada digit zero		
-111D1	"""𑇑"""	11180..111DF	Sharada	Sharada digit one		
-111D2	"""𑇒"""	11180..111DF	Sharada	Sharada digit two		
-111D3	"""𑇓"""	11180..111DF	Sharada	Sharada digit three		
-111D4	"""𑇔"""	11180..111DF	Sharada	Sharada digit four		
-111D5	"""𑇕"""	11180..111DF	Sharada	Sharada digit five		
-111D6	"""𑇖"""	11180..111DF	Sharada	Sharada digit six		
-111D7	"""𑇗"""	11180..111DF	Sharada	Sharada digit seven		
-111D8	"""𑇘"""	11180..111DF	Sharada	Sharada digit eight		
-111D9	"""𑇙"""	11180..111DF	Sharada	Sharada digit nine		
-111DA	"""𑇚"""	11180..111DF	Sharada	Sharada ekam		
-111DB	"""𑇛"""	11180..111DF	Sharada	Sharada sign siddham		
-111DC	"""𑇜"""	11180..111DF	Sharada	Sharada headstroke		
-111DD	"""𑇝"""	11180..111DF	Sharada	Sharada continuation sign		
-111DE	"""𑇞"""	11180..111DF	Sharada	Sharada section mark-1		
-111DF	"""𑇟"""	11180..111DF	Sharada	Sharada section mark-2		
+U+11180	𑆀	11180..111DF	Sharada	Sharada sign candrabindu		
+U+11181	𑆁	11180..111DF	Sharada	Sharada sign anusvara		
+U+11182	𑆂	11180..111DF	Sharada	Sharada sign visarga		
+U+11183	𑆃	11180..111DF	Sharada	Sharada letter a		
+U+11184	𑆄	11180..111DF	Sharada	Sharada letter aa		
+U+11185	𑆅	11180..111DF	Sharada	Sharada letter i		
+U+11186	𑆆	11180..111DF	Sharada	Sharada letter ii		
+U+11187	𑆇	11180..111DF	Sharada	Sharada letter u		
+U+11188	𑆈	11180..111DF	Sharada	Sharada letter uu		
+U+11189	𑆉	11180..111DF	Sharada	Sharada letter vocalic r		
+U+1118A	𑆊	11180..111DF	Sharada	Sharada letter vocalic rr		
+U+1118B	𑆋	11180..111DF	Sharada	Sharada letter vocalic l		
+U+1118C	𑆌	11180..111DF	Sharada	Sharada letter vocalic ll		
+U+1118D	𑆍	11180..111DF	Sharada	Sharada letter e		
+U+1118E	𑆎	11180..111DF	Sharada	Sharada letter ai		
+U+1118F	𑆏	11180..111DF	Sharada	Sharada letter o		
+U+11190	𑆐	11180..111DF	Sharada	Sharada letter au		
+U+11191	𑆑	11180..111DF	Sharada	Sharada letter ka		
+U+11192	𑆒	11180..111DF	Sharada	Sharada letter kha		
+U+11193	𑆓	11180..111DF	Sharada	Sharada letter ga		
+U+11194	𑆔	11180..111DF	Sharada	Sharada letter gha		
+U+11195	𑆕	11180..111DF	Sharada	Sharada letter nga		
+U+11196	𑆖	11180..111DF	Sharada	Sharada letter ca		
+U+11197	𑆗	11180..111DF	Sharada	Sharada letter cha		
+U+11198	𑆘	11180..111DF	Sharada	Sharada letter ja		
+U+11199	𑆙	11180..111DF	Sharada	Sharada letter jha		
+U+1119A	𑆚	11180..111DF	Sharada	Sharada letter nya		
+U+1119B	𑆛	11180..111DF	Sharada	Sharada letter tta		
+U+1119C	𑆜	11180..111DF	Sharada	Sharada letter ttha		
+U+1119D	𑆝	11180..111DF	Sharada	Sharada letter dda		
+U+1119E	𑆞	11180..111DF	Sharada	Sharada letter ddha		
+U+1119F	𑆟	11180..111DF	Sharada	Sharada letter nna		
+U+111A0	𑆠	11180..111DF	Sharada	Sharada letter ta		
+U+111A1	𑆡	11180..111DF	Sharada	Sharada letter tha		
+U+111A2	𑆢	11180..111DF	Sharada	Sharada letter da		
+U+111A3	𑆣	11180..111DF	Sharada	Sharada letter dha		
+U+111A4	𑆤	11180..111DF	Sharada	Sharada letter na		
+U+111A5	𑆥	11180..111DF	Sharada	Sharada letter pa		
+U+111A6	𑆦	11180..111DF	Sharada	Sharada letter pha		
+U+111A7	𑆧	11180..111DF	Sharada	Sharada letter ba		
+U+111A8	𑆨	11180..111DF	Sharada	Sharada letter bha		
+U+111A9	𑆩	11180..111DF	Sharada	Sharada letter ma		
+U+111AA	𑆪	11180..111DF	Sharada	Sharada letter ya		
+U+111AB	𑆫	11180..111DF	Sharada	Sharada letter ra		
+U+111AC	𑆬	11180..111DF	Sharada	Sharada letter la		
+U+111AD	𑆭	11180..111DF	Sharada	Sharada letter lla		
+U+111AE	𑆮	11180..111DF	Sharada	Sharada letter va		
+U+111AF	𑆯	11180..111DF	Sharada	Sharada letter sha		
+U+111B0	𑆰	11180..111DF	Sharada	Sharada letter ssa		
+U+111B1	𑆱	11180..111DF	Sharada	Sharada letter sa		
+U+111B2	𑆲	11180..111DF	Sharada	Sharada letter ha		
+U+111B3	𑆳	11180..111DF	Sharada	Sharada vowel sign aa		
+U+111B4	𑆴	11180..111DF	Sharada	Sharada vowel sign i		
+U+111B5	𑆵	11180..111DF	Sharada	Sharada vowel sign ii		
+U+111B6	𑆶	11180..111DF	Sharada	Sharada vowel sign u		
+U+111B7	𑆷	11180..111DF	Sharada	Sharada vowel sign uu		
+U+111B8	𑆸	11180..111DF	Sharada	Sharada vowel sign vocalic r		
+U+111B9	𑆹	11180..111DF	Sharada	Sharada vowel sign vocalic rr		
+U+111BA	𑆺	11180..111DF	Sharada	Sharada vowel sign vocalic l		
+U+111BB	𑆻	11180..111DF	Sharada	Sharada vowel sign vocalic ll		
+U+111BC	𑆼	11180..111DF	Sharada	Sharada vowel sign e		
+U+111BD	𑆽	11180..111DF	Sharada	Sharada vowel sign ai		
+U+111BE	𑆾	11180..111DF	Sharada	Sharada vowel sign o		
+U+111BF	𑆿	11180..111DF	Sharada	Sharada vowel sign au		
+U+111C0	𑇀	11180..111DF	Sharada	Sharada sign virama		
+U+111C1	𑇁	11180..111DF	Sharada	Sharada sign avagraha		
+U+111C2	𑇂	11180..111DF	Sharada	Sharada sign jihvamuliya		
+U+111C3	𑇃	11180..111DF	Sharada	Sharada sign upadhmaniya		
+U+111C4	𑇄	11180..111DF	Sharada	Sharada om		
+U+111C5	𑇅	11180..111DF	Sharada	Sharada danda		
+U+111C6	𑇆	11180..111DF	Sharada	Sharada double danda		
+U+111C7	𑇇	11180..111DF	Sharada	Sharada abbreviation sign		
+U+111C8	𑇈	11180..111DF	Sharada	Sharada separator		
+U+111C9	𑇉	11180..111DF	Sharada	Sharada sandhi mark		
+U+111CA	𑇊	11180..111DF	Sharada	Sharada sign nukta		
+U+111CB	𑇋	11180..111DF	Sharada	Sharada vowel modifier mark		
+U+111CC	𑇌	11180..111DF	Sharada	Sharada extra short vowel mark		
+U+111CD	𑇍	11180..111DF	Sharada	Sharada sutra mark		
+U+111CE	𑇎	11180..111DF	Sharada	Sharada vowel sign prishthamatra e		
+U+111CF	𑇏	11180..111DF	Sharada	Sharada sign inverted candrabindu		
+U+111D0	𑇐	11180..111DF	Sharada	Sharada digit zero		
+U+111D1	𑇑	11180..111DF	Sharada	Sharada digit one		
+U+111D2	𑇒	11180..111DF	Sharada	Sharada digit two		
+U+111D3	𑇓	11180..111DF	Sharada	Sharada digit three		
+U+111D4	𑇔	11180..111DF	Sharada	Sharada digit four		
+U+111D5	𑇕	11180..111DF	Sharada	Sharada digit five		
+U+111D6	𑇖	11180..111DF	Sharada	Sharada digit six		
+U+111D7	𑇗	11180..111DF	Sharada	Sharada digit seven		
+U+111D8	𑇘	11180..111DF	Sharada	Sharada digit eight		
+U+111D9	𑇙	11180..111DF	Sharada	Sharada digit nine		
+U+111DA	𑇚	11180..111DF	Sharada	Sharada ekam		
+U+111DB	𑇛	11180..111DF	Sharada	Sharada sign siddham		
+U+111DC	𑇜	11180..111DF	Sharada	Sharada headstroke		
+U+111DD	𑇝	11180..111DF	Sharada	Sharada continuation sign		
+U+111DE	𑇞	11180..111DF	Sharada	Sharada section mark-1		
+U+111DF	𑇟	11180..111DF	Sharada	Sharada section mark-2		

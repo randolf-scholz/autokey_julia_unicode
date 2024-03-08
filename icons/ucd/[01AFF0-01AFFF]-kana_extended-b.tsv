@@ -1,14 +1,14 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1AFF0	"""𚿰"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-2		
-1AFF1	"""𚿱"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-3		
-1AFF2	"""𚿲"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-4		
-1AFF3	"""𚿳"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-5		
-1AFF5	"""𚿵"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-7		
-1AFF6	"""𚿶"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-8		
-1AFF7	"""𚿷"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-1		
-1AFF8	"""𚿸"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-2		
-1AFF9	"""𚿹"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-3		
-1AFFA	"""𚿺"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-4		
-1AFFB	"""𚿻"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-5		
-1AFFD	"""𚿽"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-7		
-1AFFE	"""𚿾"""	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-8		
+U+1AFF0	𚿰	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-2		
+U+1AFF1	𚿱	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-3		
+U+1AFF2	𚿲	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-4		
+U+1AFF3	𚿳	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-5		
+U+1AFF5	𚿵	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-7		
+U+1AFF6	𚿶	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-8		
+U+1AFF7	𚿷	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-1		
+U+1AFF8	𚿸	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-2		
+U+1AFF9	𚿹	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-3		
+U+1AFFA	𚿺	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-4		
+U+1AFFB	𚿻	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-5		
+U+1AFFD	𚿽	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-7		
+U+1AFFE	𚿾	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-8		

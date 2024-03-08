@@ -1,39 +1,39 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1E000	"""𞀀"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter azu		
-1E001	"""𞀁"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter buky		
-1E002	"""𞀂"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter vede		
-1E003	"""𞀃"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter glagoli		
-1E004	"""𞀄"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter dobro		
-1E005	"""𞀅"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yestu		
-1E006	"""𞀆"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter zhivete		
-1E008	"""𞀈"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter zemlja		
-1E009	"""𞀉"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter izhe		
-1E00A	"""𞀊"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter initial izhe		
-1E00B	"""𞀋"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter i		
-1E00C	"""𞀌"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter djervi		
-1E00D	"""𞀍"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter kako		
-1E00E	"""𞀎"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter ljudije		
-1E00F	"""𞀏"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter myslite		
-1E010	"""𞀐"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter nashi		
-1E011	"""𞀑"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter onu		
-1E012	"""𞀒"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter pokoji		
-1E013	"""𞀓"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter ritsi		
-1E014	"""𞀔"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter slovo		
-1E015	"""𞀕"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter tvrido		
-1E016	"""𞀖"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter uku		
-1E017	"""𞀗"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter fritu		
-1E018	"""𞀘"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter heru		
-1E01B	"""𞀛"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter shta		
-1E01C	"""𞀜"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter tsi		
-1E01D	"""𞀝"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter chrivi		
-1E01E	"""𞀞"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter sha		
-1E01F	"""𞀟"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yeru		
-1E020	"""𞀠"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yeri		
-1E021	"""𞀡"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yati		
-1E023	"""𞀣"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yu		
-1E024	"""𞀤"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter small yus		
-1E026	"""𞀦"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yo		
-1E027	"""𞀧"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter iotated small yus		
-1E028	"""𞀨"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter big yus		
-1E029	"""𞀩"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter iotated big yus		
-1E02A	"""𞀪"""	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter fita		
+U+1E000	𞀀	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter azu		
+U+1E001	𞀁	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter buky		
+U+1E002	𞀂	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter vede		
+U+1E003	𞀃	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter glagoli		
+U+1E004	𞀄	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter dobro		
+U+1E005	𞀅	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yestu		
+U+1E006	𞀆	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter zhivete		
+U+1E008	𞀈	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter zemlja		
+U+1E009	𞀉	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter izhe		
+U+1E00A	𞀊	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter initial izhe		
+U+1E00B	𞀋	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter i		
+U+1E00C	𞀌	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter djervi		
+U+1E00D	𞀍	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter kako		
+U+1E00E	𞀎	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter ljudije		
+U+1E00F	𞀏	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter myslite		
+U+1E010	𞀐	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter nashi		
+U+1E011	𞀑	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter onu		
+U+1E012	𞀒	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter pokoji		
+U+1E013	𞀓	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter ritsi		
+U+1E014	𞀔	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter slovo		
+U+1E015	𞀕	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter tvrido		
+U+1E016	𞀖	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter uku		
+U+1E017	𞀗	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter fritu		
+U+1E018	𞀘	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter heru		
+U+1E01B	𞀛	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter shta		
+U+1E01C	𞀜	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter tsi		
+U+1E01D	𞀝	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter chrivi		
+U+1E01E	𞀞	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter sha		
+U+1E01F	𞀟	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yeru		
+U+1E020	𞀠	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yeri		
+U+1E021	𞀡	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yati		
+U+1E023	𞀣	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yu		
+U+1E024	𞀤	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter small yus		
+U+1E026	𞀦	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter yo		
+U+1E027	𞀧	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter iotated small yus		
+U+1E028	𞀨	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter big yus		
+U+1E029	𞀩	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter iotated big yus		
+U+1E02A	𞀪	1E000..1E02F	Glagolitic Supplement	Combining glagolitic letter fita		

@@ -1,33 +1,33 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2C60	"""Ⱡ"""	2C60..2C7F	Latin Extended-C	Latin capital letter l with double bar		
-2C61	"""ⱡ"""	2C60..2C7F	Latin Extended-C	Latin small letter l with double bar		
-2C62	"""Ɫ"""	2C60..2C7F	Latin Extended-C	Latin capital letter l with middle tilde		
-2C63	"""Ᵽ"""	2C60..2C7F	Latin Extended-C	Latin capital letter p with stroke		
-2C64	"""Ɽ"""	2C60..2C7F	Latin Extended-C	Latin capital letter r with tail		
-2C65	"""ⱥ"""	2C60..2C7F	Latin Extended-C	Latin small letter a with stroke		
-2C66	"""ⱦ"""	2C60..2C7F	Latin Extended-C	Latin small letter t with diagonal stroke		
-2C67	"""Ⱨ"""	2C60..2C7F	Latin Extended-C	Latin capital letter h with descender		
-2C68	"""ⱨ"""	2C60..2C7F	Latin Extended-C	Latin small letter h with descender		
-2C69	"""Ⱪ"""	2C60..2C7F	Latin Extended-C	Latin capital letter k with descender		
-2C6A	"""ⱪ"""	2C60..2C7F	Latin Extended-C	Latin small letter k with descender		
-2C6B	"""Ⱬ"""	2C60..2C7F	Latin Extended-C	Latin capital letter z with descender		
-2C6C	"""ⱬ"""	2C60..2C7F	Latin Extended-C	Latin small letter z with descender		
-2C6D	"""Ɑ"""	2C60..2C7F	Latin Extended-C	Latin capital letter alpha		
-2C6E	"""Ɱ"""	2C60..2C7F	Latin Extended-C	Latin capital letter m with hook		
-2C6F	"""Ɐ"""	2C60..2C7F	Latin Extended-C	Latin capital letter turned a		
-2C70	"""Ɒ"""	2C60..2C7F	Latin Extended-C	Latin capital letter turned alpha		
-2C71	"""ⱱ"""	2C60..2C7F	Latin Extended-C	Latin small letter v with right hook		
-2C72	"""Ⱳ"""	2C60..2C7F	Latin Extended-C	Latin capital letter w with hook		
-2C73	"""ⱳ"""	2C60..2C7F	Latin Extended-C	Latin small letter w with hook		
-2C74	"""ⱴ"""	2C60..2C7F	Latin Extended-C	Latin small letter v with curl		
-2C75	"""Ⱶ"""	2C60..2C7F	Latin Extended-C	Latin capital letter half h		
-2C76	"""ⱶ"""	2C60..2C7F	Latin Extended-C	Latin small letter half h		
-2C77	"""ⱷ"""	2C60..2C7F	Latin Extended-C	Latin small letter tailless phi		
-2C78	"""ⱸ"""	2C60..2C7F	Latin Extended-C	Latin small letter e with notch		
-2C79	"""ⱹ"""	2C60..2C7F	Latin Extended-C	Latin small letter turned r with tail		
-2C7A	"""ⱺ"""	2C60..2C7F	Latin Extended-C	Latin small letter o with low ring inside		
-2C7B	"""ⱻ"""	2C60..2C7F	Latin Extended-C	Latin letter small capital turned e		
-2C7C	"""ⱼ"""	2C60..2C7F	Latin Extended-C	Latin subscript small letter j		
-2C7D	"""ⱽ"""	2C60..2C7F	Latin Extended-C	Modifier letter capital v		
-2C7E	"""Ȿ"""	2C60..2C7F	Latin Extended-C	Latin capital letter s with swash tail		
-2C7F	"""Ɀ"""	2C60..2C7F	Latin Extended-C	Latin capital letter z with swash tail		
+U+2C60	Ⱡ	2C60..2C7F	Latin Extended-C	Latin capital letter l with double bar		
+U+2C61	ⱡ	2C60..2C7F	Latin Extended-C	Latin small letter l with double bar		
+U+2C62	Ɫ	2C60..2C7F	Latin Extended-C	Latin capital letter l with middle tilde		
+U+2C63	Ᵽ	2C60..2C7F	Latin Extended-C	Latin capital letter p with stroke		
+U+2C64	Ɽ	2C60..2C7F	Latin Extended-C	Latin capital letter r with tail		
+U+2C65	ⱥ	2C60..2C7F	Latin Extended-C	Latin small letter a with stroke		
+U+2C66	ⱦ	2C60..2C7F	Latin Extended-C	Latin small letter t with diagonal stroke		
+U+2C67	Ⱨ	2C60..2C7F	Latin Extended-C	Latin capital letter h with descender		
+U+2C68	ⱨ	2C60..2C7F	Latin Extended-C	Latin small letter h with descender		
+U+2C69	Ⱪ	2C60..2C7F	Latin Extended-C	Latin capital letter k with descender		
+U+2C6A	ⱪ	2C60..2C7F	Latin Extended-C	Latin small letter k with descender		
+U+2C6B	Ⱬ	2C60..2C7F	Latin Extended-C	Latin capital letter z with descender		
+U+2C6C	ⱬ	2C60..2C7F	Latin Extended-C	Latin small letter z with descender		
+U+2C6D	Ɑ	2C60..2C7F	Latin Extended-C	Latin capital letter alpha		
+U+2C6E	Ɱ	2C60..2C7F	Latin Extended-C	Latin capital letter m with hook		
+U+2C6F	Ɐ	2C60..2C7F	Latin Extended-C	Latin capital letter turned a		
+U+2C70	Ɒ	2C60..2C7F	Latin Extended-C	Latin capital letter turned alpha		
+U+2C71	ⱱ	2C60..2C7F	Latin Extended-C	Latin small letter v with right hook		
+U+2C72	Ⱳ	2C60..2C7F	Latin Extended-C	Latin capital letter w with hook		
+U+2C73	ⱳ	2C60..2C7F	Latin Extended-C	Latin small letter w with hook		
+U+2C74	ⱴ	2C60..2C7F	Latin Extended-C	Latin small letter v with curl		
+U+2C75	Ⱶ	2C60..2C7F	Latin Extended-C	Latin capital letter half h		
+U+2C76	ⱶ	2C60..2C7F	Latin Extended-C	Latin small letter half h		
+U+2C77	ⱷ	2C60..2C7F	Latin Extended-C	Latin small letter tailless phi		
+U+2C78	ⱸ	2C60..2C7F	Latin Extended-C	Latin small letter e with notch		
+U+2C79	ⱹ	2C60..2C7F	Latin Extended-C	Latin small letter turned r with tail		
+U+2C7A	ⱺ	2C60..2C7F	Latin Extended-C	Latin small letter o with low ring inside		
+U+2C7B	ⱻ	2C60..2C7F	Latin Extended-C	Latin letter small capital turned e		
+U+2C7C	ⱼ	2C60..2C7F	Latin Extended-C	Latin subscript small letter j		
+U+2C7D	ⱽ	2C60..2C7F	Latin Extended-C	Modifier letter capital v		
+U+2C7E	Ȿ	2C60..2C7F	Latin Extended-C	Latin capital letter s with swash tail		
+U+2C7F	Ɀ	2C60..2C7F	Latin Extended-C	Latin capital letter z with swash tail		

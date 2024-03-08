@@ -1,0 +1,51 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+1D7CE	𝟎	\bf0	Mathematical Bold Digit Zero	0
+U+1D7CF	𝟏	\bf1	Mathematical Bold Digit One	1
+U+1D7D0	𝟐	\bf2	Mathematical Bold Digit Two	2
+U+1D7D1	𝟑	\bf3	Mathematical Bold Digit Three	3
+U+1D7D2	𝟒	\bf4	Mathematical Bold Digit Four	4
+U+1D7D3	𝟓	\bf5	Mathematical Bold Digit Five	5
+U+1D7D4	𝟔	\bf6	Mathematical Bold Digit Six	6
+U+1D7D5	𝟕	\bf7	Mathematical Bold Digit Seven	7
+U+1D7D6	𝟖	\bf8	Mathematical Bold Digit Eight	8
+U+1D7D7	𝟗	\bf9	Mathematical Bold Digit Nine	9
+U+1D7D8	𝟘	\bb0	Mathematical Double-Struck Digit Zero	0
+U+1D7D9	𝟙	\bb1	Mathematical Double-Struck Digit One	1
+U+1D7DA	𝟚	\bb2	Mathematical Double-Struck Digit Two	2
+U+1D7DB	𝟛	\bb3	Mathematical Double-Struck Digit Three	3
+U+1D7DC	𝟜	\bb4	Mathematical Double-Struck Digit Four	4
+U+1D7DD	𝟝	\bb5	Mathematical Double-Struck Digit Five	5
+U+1D7DE	𝟞	\bb6	Mathematical Double-Struck Digit Six	6
+U+1D7DF	𝟟	\bb7	Mathematical Double-Struck Digit Seven	7
+U+1D7E0	𝟠	\bb8	Mathematical Double-Struck Digit Eight	8
+U+1D7E1	𝟡	\bb9	Mathematical Double-Struck Digit Nine	9
+U+1D7E2	𝟢	\sans0	Mathematical Sans-Serif Digit Zero	0
+U+1D7E3	𝟣	\sans1	Mathematical Sans-Serif Digit One	1
+U+1D7E4	𝟤	\sans2	Mathematical Sans-Serif Digit Two	2
+U+1D7E5	𝟥	\sans3	Mathematical Sans-Serif Digit Three	3
+U+1D7E6	𝟦	\sans4	Mathematical Sans-Serif Digit Four	4
+U+1D7E7	𝟧	\sans5	Mathematical Sans-Serif Digit Five	5
+U+1D7E8	𝟨	\sans6	Mathematical Sans-Serif Digit Six	6
+U+1D7E9	𝟩	\sans7	Mathematical Sans-Serif Digit Seven	7
+U+1D7EA	𝟪	\sans8	Mathematical Sans-Serif Digit Eight	8
+U+1D7EB	𝟫	\sans9	Mathematical Sans-Serif Digit Nine	9
+U+1D7EC	𝟬	\bsans0	Mathematical Sans-Serif Bold Digit Zero	0
+U+1D7ED	𝟭	\bsans1	Mathematical Sans-Serif Bold Digit One	1
+U+1D7EE	𝟮	\bsans2	Mathematical Sans-Serif Bold Digit Two	2
+U+1D7EF	𝟯	\bsans3	Mathematical Sans-Serif Bold Digit Three	3
+U+1D7F0	𝟰	\bsans4	Mathematical Sans-Serif Bold Digit Four	4
+U+1D7F1	𝟱	\bsans5	Mathematical Sans-Serif Bold Digit Five	5
+U+1D7F2	𝟲	\bsans6	Mathematical Sans-Serif Bold Digit Six	6
+U+1D7F3	𝟳	\bsans7	Mathematical Sans-Serif Bold Digit Seven	7
+U+1D7F4	𝟴	\bsans8	Mathematical Sans-Serif Bold Digit Eight	8
+U+1D7F5	𝟵	\bsans9	Mathematical Sans-Serif Bold Digit Nine	9
+U+1D7F6	𝟶	\tt0	Mathematical Monospace Digit Zero	0
+U+1D7F7	𝟷	\tt1	Mathematical Monospace Digit One	1
+U+1D7F8	𝟸	\tt2	Mathematical Monospace Digit Two	2
+U+1D7F9	𝟹	\tt3	Mathematical Monospace Digit Three	3
+U+1D7FA	𝟺	\tt4	Mathematical Monospace Digit Four	4
+U+1D7FB	𝟻	\tt5	Mathematical Monospace Digit Five	5
+U+1D7FC	𝟼	\tt6	Mathematical Monospace Digit Six	6
+U+1D7FD	𝟽	\tt7	Mathematical Monospace Digit Seven	7
+U+1D7FE	𝟾	\tt8	Mathematical Monospace Digit Eight	8
+U+1D7FF	𝟿	\tt9	Mathematical Monospace Digit Nine	9

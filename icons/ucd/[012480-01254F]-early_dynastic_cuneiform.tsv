@@ -1,197 +1,197 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-12480	"""𒒀"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ab times nun tenu		
-12481	"""𒒁"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ab times shu2		
-12482	"""𒒂"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ad times esh2		
-12483	"""𒒃"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bad times dish tenu		
-12484	"""𒒄"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times ab2		
-12485	"""𒒅"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times ni		
-12486	"""𒒆"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times za		
-12487	"""𒒇"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bu over bu times na2		
-12488	"""𒒈"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign da times tak4		
-12489	"""𒒉"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dag times kur		
-1248A	"""𒒊"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim times igi		
-1248B	"""𒒋"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim times u u u		
-1248C	"""𒒌"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim2 times ud		
-1248D	"""𒒍"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times anshe		
-1248E	"""𒒎"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ash		
-1248F	"""𒒏"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ash at left		
-12490	"""𒒐"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times din		
-12491	"""𒒑"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times dun		
-12492	"""𒒒"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times erin2		
-12493	"""𒒓"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ga		
-12494	"""𒒔"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gi		
-12495	"""𒒕"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gir2 gunu		
-12496	"""𒒖"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gish		
-12497	"""𒒗"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ha		
-12498	"""𒒘"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times hi		
-12499	"""𒒙"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times igi gunu		
-1249A	"""𒒚"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kaskal		
-1249B	"""𒒛"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kur		
-1249C	"""𒒜"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kushu2		
-1249D	"""𒒝"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kushu2 plus kaskal		
-1249E	"""𒒞"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lak-020		
-1249F	"""𒒟"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lam		
-124A0	"""𒒠"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lam times kur		
-124A1	"""𒒡"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times luh plus gish		
-124A2	"""𒒢"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mash		
-124A3	"""𒒣"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mes		
-124A4	"""𒒤"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mi		
-124A5	"""𒒥"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ni		
-124A6	"""𒒦"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times pi		
-124A7	"""𒒧"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times she		
-124A8	"""𒒨"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times si gunu		
-124A9	"""𒒩"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign e2 times kur		
-124AA	"""𒒪"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign e2 times pap		
-124AB	"""𒒫"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign erin2 x		
-124AC	"""𒒬"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign esh2 crossing esh2		
-124AD	"""𒒭"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times ash		
-124AE	"""𒒮"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times hi		
-124AF	"""𒒯"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times igi gunu		
-124B0	"""𒒰"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times la		
-124B1	"""𒒱"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times lal		
-124B2	"""𒒲"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times me		
-124B3	"""𒒳"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times mes		
-124B4	"""𒒴"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times su		
-124B5	"""𒒵"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen times su		
-124B6	"""𒒶"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times bahar2		
-124B7	"""𒒷"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dim gunu		
-124B8	"""𒒸"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dug times igi gunu		
-124B9	"""𒒹"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dug times kaskal		
-124BA	"""𒒺"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times eren		
-124BB	"""𒒻"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ga		
-124BC	"""𒒼"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times gar plus di		
-124BD	"""𒒽"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times gar plus ne		
-124BE	"""𒒾"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ha plus a		
-124BF	"""𒒿"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times kushu2 plus kaskal		
-124C0	"""𒓀"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times lam		
-124C1	"""𒓁"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times lam times kur		
-124C2	"""𒓂"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times luh		
-124C3	"""𒓃"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times mush		
-124C4	"""𒓄"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne		
-124C5	"""𒓅"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne plus e2		
-124C6	"""𒓆"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne plus gi		
-124C7	"""𒓇"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times shim		
-124C8	"""𒓈"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ziz2		
-124C9	"""𒓉"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gaba rotated ninety degrees		
-124CA	"""𒓊"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign geshtin times u		
-124CB	"""𒓋"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gish times gish crossing gish		
-124CC	"""𒓌"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gu2 times igi gunu		
-124CD	"""𒓍"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gud plus gish times tak4		
-124CE	"""𒓎"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ha tenu gunu		
-124CF	"""𒓏"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign hi times ash over hi times ash		
-124D0	"""𒓐"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times bu		
-124D1	"""𒓑"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times ka		
-124D2	"""𒓒"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times u u u		
-124D3	"""𒓓"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times ur		
-124D4	"""𒓔"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lagab times zu over zu		
-124D5	"""𒓕"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-003		
-124D6	"""𒓖"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-021		
-124D7	"""𒓗"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-025		
-124D8	"""𒓘"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-030		
-124D9	"""𒓙"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-050		
-124DA	"""𒓚"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-051		
-124DB	"""𒓛"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-062		
-124DC	"""𒓜"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-079 over lak-079 gunu		
-124DD	"""𒓝"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-080		
-124DE	"""𒓞"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-081 over lak-081		
-124DF	"""𒓟"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-092		
-124E0	"""𒓠"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-130		
-124E1	"""𒓡"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-142		
-124E2	"""𒓢"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-210		
-124E3	"""𒓣"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-219		
-124E4	"""𒓤"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-220		
-124E5	"""𒓥"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-225		
-124E6	"""𒓦"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-228		
-124E7	"""𒓧"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-238		
-124E8	"""𒓨"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-265		
-124E9	"""𒓩"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-266		
-124EA	"""𒓪"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-343		
-124EB	"""𒓫"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-347		
-124EC	"""𒓬"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-348		
-124ED	"""𒓭"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-383		
-124EE	"""𒓮"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-384		
-124EF	"""𒓯"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-390		
-124F0	"""𒓰"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-441		
-124F1	"""𒓱"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449		
-124F2	"""𒓲"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times gu		
-124F3	"""𒓳"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times igi		
-124F4	"""𒓴"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times pap plus lu3		
-124F5	"""𒓵"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times pap plus pap plus lu3		
-124F6	"""𒓶"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times u2 plus ba		
-124F7	"""𒓷"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-450		
-124F8	"""𒓸"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-457		
-124F9	"""𒓹"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-470		
-124FA	"""𒓺"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-483		
-124FB	"""𒓻"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-490		
-124FC	"""𒓼"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-492		
-124FD	"""𒓽"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-493		
-124FE	"""𒓾"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-495		
-124FF	"""𒓿"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-550		
-12500	"""𒔀"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-608		
-12501	"""𒔁"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617		
-12502	"""𒔂"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ash		
-12503	"""𒔃"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times bad		
-12504	"""𒔄"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times dun3 gunu gunu		
-12505	"""𒔅"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ku3		
-12506	"""𒔆"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times la		
-12507	"""𒔇"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times tar		
-12508	"""𒔈"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times te		
-12509	"""𒔉"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times u2		
-1250A	"""𒔊"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ud		
-1250B	"""𒔋"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times uruda		
-1250C	"""𒔌"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-636		
-1250D	"""𒔍"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648		
-1250E	"""𒔎"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times dub		
-1250F	"""𒔏"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ga		
-12510	"""𒔐"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times igi		
-12511	"""𒔑"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times igi gunu		
-12512	"""𒔒"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ni		
-12513	"""𒔓"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times pap plus pap plus lu3		
-12514	"""𒔔"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times shesh plus ki		
-12515	"""𒔕"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ud		
-12516	"""𒔖"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times uruda		
-12517	"""𒔗"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-724		
-12518	"""𒔘"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-749		
-12519	"""𒔙"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 gunu times ash		
-1251A	"""𒔚"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times dish		
-1251B	"""𒔛"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times hal		
-1251C	"""𒔜"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times pap		
-1251D	"""𒔝"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times pap plus pap plus lu3		
-1251E	"""𒔞"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times tak4		
-1251F	"""𒔟"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mi plus za7		
-12520	"""𒔠"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mush over mush times ga		
-12521	"""𒔡"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mush over mush times kak		
-12522	"""𒔢"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times dim gunu		
-12523	"""𒔣"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times gish		
-12524	"""𒔤"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times gul		
-12525	"""𒔥"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times hi		
-12526	"""𒔦"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times kesh2		
-12527	"""𒔧"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times lak-050		
-12528	"""𒔨"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times mash		
-12529	"""𒔩"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times pap plus pap		
-1252A	"""𒔪"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times u		
-1252B	"""𒔫"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times u plus u		
-1252C	"""𒔬"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times uruda		
-1252D	"""𒔭"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag gunu times ha		
-1252E	"""𒔮"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times en		
-1252F	"""𒔯"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times she at left		
-12530	"""𒔰"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times tak4		
-12531	"""𒔱"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sha6 tenu		
-12532	"""𒔲"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she over she		
-12533	"""𒔳"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus hub2		
-12534	"""𒔴"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus nam2		
-12535	"""𒔵"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus sar		
-12536	"""𒔶"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign shu2 plus dug times ni		
-12537	"""𒔷"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign shu2 plus e2 times an		
-12538	"""𒔸"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign si times tak4		
-12539	"""𒔹"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tak4 plus sag		
-1253A	"""𒔺"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tum times gan2 tenu		
-1253B	"""𒔻"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tum times three dish		
-1253C	"""𒔼"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ur2 inverted		
-1253D	"""𒔽"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ur2 times ud		
-1253E	"""𒔾"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times dara3		
-1253F	"""𒔿"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times lak-668		
-12540	"""𒕀"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times lu3		
-12541	"""𒕁"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign za7		
-12542	"""𒕂"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign zu over zu plus sar		
-12543	"""𒕃"""	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign zu5 times three dish tenu		
+U+12480	𒒀	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ab times nun tenu		
+U+12481	𒒁	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ab times shu2		
+U+12482	𒒂	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ad times esh2		
+U+12483	𒒃	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bad times dish tenu		
+U+12484	𒒄	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times ab2		
+U+12485	𒒅	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times ni		
+U+12486	𒒆	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bahar2 times za		
+U+12487	𒒇	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign bu over bu times na2		
+U+12488	𒒈	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign da times tak4		
+U+12489	𒒉	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dag times kur		
+U+1248A	𒒊	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim times igi		
+U+1248B	𒒋	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim times u u u		
+U+1248C	𒒌	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dim2 times ud		
+U+1248D	𒒍	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times anshe		
+U+1248E	𒒎	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ash		
+U+1248F	𒒏	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ash at left		
+U+12490	𒒐	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times din		
+U+12491	𒒑	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times dun		
+U+12492	𒒒	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times erin2		
+U+12493	𒒓	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ga		
+U+12494	𒒔	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gi		
+U+12495	𒒕	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gir2 gunu		
+U+12496	𒒖	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times gish		
+U+12497	𒒗	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ha		
+U+12498	𒒘	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times hi		
+U+12499	𒒙	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times igi gunu		
+U+1249A	𒒚	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kaskal		
+U+1249B	𒒛	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kur		
+U+1249C	𒒜	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kushu2		
+U+1249D	𒒝	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times kushu2 plus kaskal		
+U+1249E	𒒞	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lak-020		
+U+1249F	𒒟	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lam		
+U+124A0	𒒠	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times lam times kur		
+U+124A1	𒒡	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times luh plus gish		
+U+124A2	𒒢	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mash		
+U+124A3	𒒣	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mes		
+U+124A4	𒒤	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times mi		
+U+124A5	𒒥	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times ni		
+U+124A6	𒒦	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times pi		
+U+124A7	𒒧	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times she		
+U+124A8	𒒨	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign dug times si gunu		
+U+124A9	𒒩	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign e2 times kur		
+U+124AA	𒒪	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign e2 times pap		
+U+124AB	𒒫	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign erin2 x		
+U+124AC	𒒬	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign esh2 crossing esh2		
+U+124AD	𒒭	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times ash		
+U+124AE	𒒮	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times hi		
+U+124AF	𒒯	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times igi gunu		
+U+124B0	𒒰	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times la		
+U+124B1	𒒱	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times lal		
+U+124B2	𒒲	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times me		
+U+124B3	𒒳	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times mes		
+U+124B4	𒒴	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen sheshig times su		
+U+124B5	𒒵	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ezen times su		
+U+124B6	𒒶	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times bahar2		
+U+124B7	𒒷	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dim gunu		
+U+124B8	𒒸	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dug times igi gunu		
+U+124B9	𒒹	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times dug times kaskal		
+U+124BA	𒒺	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times eren		
+U+124BB	𒒻	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ga		
+U+124BC	𒒼	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times gar plus di		
+U+124BD	𒒽	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times gar plus ne		
+U+124BE	𒒾	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ha plus a		
+U+124BF	𒒿	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times kushu2 plus kaskal		
+U+124C0	𒓀	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times lam		
+U+124C1	𒓁	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times lam times kur		
+U+124C2	𒓂	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times luh		
+U+124C3	𒓃	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times mush		
+U+124C4	𒓄	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne		
+U+124C5	𒓅	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne plus e2		
+U+124C6	𒓆	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ne plus gi		
+U+124C7	𒓇	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times shim		
+U+124C8	𒓈	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ga2 times ziz2		
+U+124C9	𒓉	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gaba rotated ninety degrees		
+U+124CA	𒓊	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign geshtin times u		
+U+124CB	𒓋	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gish times gish crossing gish		
+U+124CC	𒓌	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gu2 times igi gunu		
+U+124CD	𒓍	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign gud plus gish times tak4		
+U+124CE	𒓎	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ha tenu gunu		
+U+124CF	𒓏	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign hi times ash over hi times ash		
+U+124D0	𒓐	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times bu		
+U+124D1	𒓑	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times ka		
+U+124D2	𒓒	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times u u u		
+U+124D3	𒓓	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ka times ur		
+U+124D4	𒓔	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lagab times zu over zu		
+U+124D5	𒓕	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-003		
+U+124D6	𒓖	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-021		
+U+124D7	𒓗	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-025		
+U+124D8	𒓘	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-030		
+U+124D9	𒓙	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-050		
+U+124DA	𒓚	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-051		
+U+124DB	𒓛	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-062		
+U+124DC	𒓜	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-079 over lak-079 gunu		
+U+124DD	𒓝	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-080		
+U+124DE	𒓞	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-081 over lak-081		
+U+124DF	𒓟	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-092		
+U+124E0	𒓠	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-130		
+U+124E1	𒓡	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-142		
+U+124E2	𒓢	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-210		
+U+124E3	𒓣	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-219		
+U+124E4	𒓤	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-220		
+U+124E5	𒓥	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-225		
+U+124E6	𒓦	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-228		
+U+124E7	𒓧	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-238		
+U+124E8	𒓨	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-265		
+U+124E9	𒓩	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-266		
+U+124EA	𒓪	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-343		
+U+124EB	𒓫	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-347		
+U+124EC	𒓬	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-348		
+U+124ED	𒓭	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-383		
+U+124EE	𒓮	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-384		
+U+124EF	𒓯	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-390		
+U+124F0	𒓰	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-441		
+U+124F1	𒓱	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449		
+U+124F2	𒓲	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times gu		
+U+124F3	𒓳	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times igi		
+U+124F4	𒓴	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times pap plus lu3		
+U+124F5	𒓵	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times pap plus pap plus lu3		
+U+124F6	𒓶	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-449 times u2 plus ba		
+U+124F7	𒓷	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-450		
+U+124F8	𒓸	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-457		
+U+124F9	𒓹	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-470		
+U+124FA	𒓺	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-483		
+U+124FB	𒓻	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-490		
+U+124FC	𒓼	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-492		
+U+124FD	𒓽	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-493		
+U+124FE	𒓾	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-495		
+U+124FF	𒓿	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-550		
+U+12500	𒔀	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-608		
+U+12501	𒔁	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617		
+U+12502	𒔂	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ash		
+U+12503	𒔃	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times bad		
+U+12504	𒔄	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times dun3 gunu gunu		
+U+12505	𒔅	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ku3		
+U+12506	𒔆	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times la		
+U+12507	𒔇	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times tar		
+U+12508	𒔈	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times te		
+U+12509	𒔉	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times u2		
+U+1250A	𒔊	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times ud		
+U+1250B	𒔋	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-617 times uruda		
+U+1250C	𒔌	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-636		
+U+1250D	𒔍	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648		
+U+1250E	𒔎	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times dub		
+U+1250F	𒔏	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ga		
+U+12510	𒔐	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times igi		
+U+12511	𒔑	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times igi gunu		
+U+12512	𒔒	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ni		
+U+12513	𒔓	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times pap plus pap plus lu3		
+U+12514	𒔔	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times shesh plus ki		
+U+12515	𒔕	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times ud		
+U+12516	𒔖	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-648 times uruda		
+U+12517	𒔗	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-724		
+U+12518	𒔘	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lak-749		
+U+12519	𒔙	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 gunu times ash		
+U+1251A	𒔚	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times dish		
+U+1251B	𒔛	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times hal		
+U+1251C	𒔜	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times pap		
+U+1251D	𒔝	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times pap plus pap plus lu3		
+U+1251E	𒔞	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign lu2 times tak4		
+U+1251F	𒔟	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mi plus za7		
+U+12520	𒔠	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mush over mush times ga		
+U+12521	𒔡	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign mush over mush times kak		
+U+12522	𒔢	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times dim gunu		
+U+12523	𒔣	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times gish		
+U+12524	𒔤	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times gul		
+U+12525	𒔥	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times hi		
+U+12526	𒔦	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times kesh2		
+U+12527	𒔧	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times lak-050		
+U+12528	𒔨	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times mash		
+U+12529	𒔩	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times pap plus pap		
+U+1252A	𒔪	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times u		
+U+1252B	𒔫	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times u plus u		
+U+1252C	𒔬	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ninda2 times uruda		
+U+1252D	𒔭	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag gunu times ha		
+U+1252E	𒔮	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times en		
+U+1252F	𒔯	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times she at left		
+U+12530	𒔰	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sag times tak4		
+U+12531	𒔱	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign sha6 tenu		
+U+12532	𒔲	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she over she		
+U+12533	𒔳	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus hub2		
+U+12534	𒔴	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus nam2		
+U+12535	𒔵	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign she plus sar		
+U+12536	𒔶	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign shu2 plus dug times ni		
+U+12537	𒔷	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign shu2 plus e2 times an		
+U+12538	𒔸	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign si times tak4		
+U+12539	𒔹	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tak4 plus sag		
+U+1253A	𒔺	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tum times gan2 tenu		
+U+1253B	𒔻	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign tum times three dish		
+U+1253C	𒔼	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ur2 inverted		
+U+1253D	𒔽	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign ur2 times ud		
+U+1253E	𒔾	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times dara3		
+U+1253F	𒔿	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times lak-668		
+U+12540	𒕀	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign uru times lu3		
+U+12541	𒕁	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign za7		
+U+12542	𒕂	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign zu over zu plus sar		
+U+12543	𒕃	12480..1254F	Early Dynastic Cuneiform	Cuneiform sign zu5 times three dish tenu		

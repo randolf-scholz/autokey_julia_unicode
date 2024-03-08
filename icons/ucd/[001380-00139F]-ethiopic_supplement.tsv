@@ -1,27 +1,27 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1380	"""ᎀ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit mwa		
-1381	"""ᎁ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable mwi		
-1382	"""ᎂ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable mwee		
-1383	"""ᎃ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable mwe		
-1384	"""ᎄ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit bwa		
-1385	"""ᎅ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable bwi		
-1386	"""ᎆ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable bwee		
-1387	"""ᎇ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable bwe		
-1388	"""ᎈ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit fwa		
-1389	"""ᎉ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable fwi		
-138A	"""ᎊ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable fwee		
-138B	"""ᎋ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable fwe		
-138C	"""ᎌ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit pwa		
-138D	"""ᎍ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable pwi		
-138E	"""ᎎ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable pwee		
-138F	"""ᎏ"""	1380..139F	Ethiopic Supplement	Ethiopic syllable pwe		
-1390	"""᎐"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark yizet		
-1391	"""᎑"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret		
-1392	"""᎒"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark rikrik		
-1393	"""᎓"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark short rikrik		
-1394	"""᎔"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark difat		
-1395	"""᎕"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kenat		
-1396	"""᎖"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark chiret		
-1397	"""᎗"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark hidet		
-1398	"""᎘"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret-hidet		
-1399	"""᎙"""	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kurt		
+U+1380	ᎀ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit mwa		
+U+1381	ᎁ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwi		
+U+1382	ᎂ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwee		
+U+1383	ᎃ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwe		
+U+1384	ᎄ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit bwa		
+U+1385	ᎅ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwi		
+U+1386	ᎆ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwee		
+U+1387	ᎇ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwe		
+U+1388	ᎈ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit fwa		
+U+1389	ᎉ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwi		
+U+138A	ᎊ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwee		
+U+138B	ᎋ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwe		
+U+138C	ᎌ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit pwa		
+U+138D	ᎍ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwi		
+U+138E	ᎎ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwee		
+U+138F	ᎏ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwe		
+U+1390	᎐	1380..139F	Ethiopic Supplement	Ethiopic tonal mark yizet		
+U+1391	᎑	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret		
+U+1392	᎒	1380..139F	Ethiopic Supplement	Ethiopic tonal mark rikrik		
+U+1393	᎓	1380..139F	Ethiopic Supplement	Ethiopic tonal mark short rikrik		
+U+1394	᎔	1380..139F	Ethiopic Supplement	Ethiopic tonal mark difat		
+U+1395	᎕	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kenat		
+U+1396	᎖	1380..139F	Ethiopic Supplement	Ethiopic tonal mark chiret		
+U+1397	᎗	1380..139F	Ethiopic Supplement	Ethiopic tonal mark hidet		
+U+1398	᎘	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret-hidet		
+U+1399	᎙	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kurt		

@@ -1,65 +1,65 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1DC0	"""᷀"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dotted grave accent		
-1DC1	"""᷁"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dotted acute accent		
-1DC2	"""᷂"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining snake below		
-1DC3	"""᷃"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining suspension mark		
-1DC4	"""᷄"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-acute		
-1DC5	"""᷅"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining grave-macron		
-1DC6	"""᷆"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-grave		
-1DC7	"""᷇"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining acute-macron		
-1DC8	"""᷈"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining grave-acute-grave		
-1DC9	"""᷉"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining acute-grave-acute		
-1DCA	"""᷊"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter r below		
-1DCB	"""᷋"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining breve-macron		
-1DCC	"""᷌"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-breve		
-1DCD	"""᷍"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining double circumflex above		
-1DCE	"""᷎"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining ogonek above		
-1DCF	"""᷏"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining zigzag below		
-1DD0	"""᷐"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining is below		
-1DD1	"""᷑"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining ur above		
-1DD2	"""᷒"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining us above		
-1DD3	"""ᷓ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter flattened open a above		
-1DD4	"""ᷔ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter ae		
-1DD5	"""ᷕ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter ao		
-1DD6	"""ᷖ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter av		
-1DD7	"""ᷗ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter c cedilla		
-1DD8	"""ᷘ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter insular d		
-1DD9	"""ᷙ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter eth		
-1DDA	"""ᷚ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter g		
-1DDB	"""ᷛ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital g		
-1DDC	"""ᷜ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter k		
-1DDD	"""ᷝ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter l		
-1DDE	"""ᷞ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital l		
-1DDF	"""ᷟ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital m		
-1DE0	"""ᷠ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter n		
-1DE1	"""ᷡ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital n		
-1DE2	"""ᷢ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital r		
-1DE3	"""ᷣ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter r rotunda		
-1DE4	"""ᷤ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter s		
-1DE5	"""ᷥ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter long s		
-1DE6	"""ᷦ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter z		
-1DE7	"""ᷧ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter alpha		
-1DE8	"""ᷨ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter b		
-1DE9	"""ᷩ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter beta		
-1DEA	"""ᷪ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter schwa		
-1DEB	"""ᷫ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter f		
-1DEC	"""ᷬ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter l with double middle tilde		
-1DED	"""ᷭ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter o with light centralization stroke		
-1DEE	"""ᷮ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter p		
-1DEF	"""ᷯ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter esh		
-1DF0	"""ᷰ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter u with light centralization stroke		
-1DF1	"""ᷱ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter w		
-1DF2	"""ᷲ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter a with diaeresis		
-1DF3	"""ᷳ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter o with diaeresis		
-1DF4	"""ᷴ"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter u with diaeresis		
-1DF5	"""᷵"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining up tack above		
-1DF6	"""᷶"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining kavyka above right		
-1DF7	"""᷷"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining kavyka above left		
-1DF8	"""᷸"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dot above left		
-1DF9	"""᷹"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining wide inverted bridge below		
-1DFA	"""᷺"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dot below left		
-1DFB	"""᷻"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining deletion mark		
-1DFC	"""᷼"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining double inverted breve below		
-1DFD	"""᷽"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining almost equal to below		
-1DFE	"""᷾"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining left arrowhead above		
-1DFF	"""᷿"""	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining right arrowhead and down arrowhead below		
+U+1DC0	᷀	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dotted grave accent		
+U+1DC1	᷁	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dotted acute accent		
+U+1DC2	᷂	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining snake below		
+U+1DC3	᷃	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining suspension mark		
+U+1DC4	᷄	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-acute		
+U+1DC5	᷅	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining grave-macron		
+U+1DC6	᷆	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-grave		
+U+1DC7	᷇	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining acute-macron		
+U+1DC8	᷈	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining grave-acute-grave		
+U+1DC9	᷉	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining acute-grave-acute		
+U+1DCA	᷊	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter r below		
+U+1DCB	᷋	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining breve-macron		
+U+1DCC	᷌	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining macron-breve		
+U+1DCD	᷍	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining double circumflex above		
+U+1DCE	᷎	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining ogonek above		
+U+1DCF	᷏	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining zigzag below		
+U+1DD0	᷐	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining is below		
+U+1DD1	᷑	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining ur above		
+U+1DD2	᷒	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining us above		
+U+1DD3	ᷓ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter flattened open a above		
+U+1DD4	ᷔ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter ae		
+U+1DD5	ᷕ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter ao		
+U+1DD6	ᷖ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter av		
+U+1DD7	ᷗ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter c cedilla		
+U+1DD8	ᷘ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter insular d		
+U+1DD9	ᷙ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter eth		
+U+1DDA	ᷚ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter g		
+U+1DDB	ᷛ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital g		
+U+1DDC	ᷜ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter k		
+U+1DDD	ᷝ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter l		
+U+1DDE	ᷞ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital l		
+U+1DDF	ᷟ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital m		
+U+1DE0	ᷠ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter n		
+U+1DE1	ᷡ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital n		
+U+1DE2	ᷢ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin letter small capital r		
+U+1DE3	ᷣ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter r rotunda		
+U+1DE4	ᷤ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter s		
+U+1DE5	ᷥ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter long s		
+U+1DE6	ᷦ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter z		
+U+1DE7	ᷧ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter alpha		
+U+1DE8	ᷨ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter b		
+U+1DE9	ᷩ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter beta		
+U+1DEA	ᷪ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter schwa		
+U+1DEB	ᷫ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter f		
+U+1DEC	ᷬ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter l with double middle tilde		
+U+1DED	ᷭ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter o with light centralization stroke		
+U+1DEE	ᷮ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter p		
+U+1DEF	ᷯ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter esh		
+U+1DF0	ᷰ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter u with light centralization stroke		
+U+1DF1	ᷱ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter w		
+U+1DF2	ᷲ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter a with diaeresis		
+U+1DF3	ᷳ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter o with diaeresis		
+U+1DF4	ᷴ	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining latin small letter u with diaeresis		
+U+1DF5	᷵	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining up tack above		
+U+1DF6	᷶	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining kavyka above right		
+U+1DF7	᷷	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining kavyka above left		
+U+1DF8	᷸	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dot above left		
+U+1DF9	᷹	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining wide inverted bridge below		
+U+1DFA	᷺	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining dot below left		
+U+1DFB	᷻	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining deletion mark		
+U+1DFC	᷼	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining double inverted breve below		
+U+1DFD	᷽	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining almost equal to below		
+U+1DFE	᷾	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining left arrowhead above		
+U+1DFF	᷿	1DC0..1DFF	Combining Diacritical Marks Supplement	Combining right arrowhead and down arrowhead below		

@@ -1,72 +1,72 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11100	"""𑄀"""	11100..1114F	Chakma	Chakma sign candrabindu		
-11101	"""𑄁"""	11100..1114F	Chakma	Chakma sign anusvara		
-11102	"""𑄂"""	11100..1114F	Chakma	Chakma sign visarga		
-11103	"""𑄃"""	11100..1114F	Chakma	Chakma letter aa		
-11104	"""𑄄"""	11100..1114F	Chakma	Chakma letter i		
-11105	"""𑄅"""	11100..1114F	Chakma	Chakma letter u		
-11106	"""𑄆"""	11100..1114F	Chakma	Chakma letter e		
-11107	"""𑄇"""	11100..1114F	Chakma	Chakma letter kaa		
-11108	"""𑄈"""	11100..1114F	Chakma	Chakma letter khaa		
-11109	"""𑄉"""	11100..1114F	Chakma	Chakma letter gaa		
-1110A	"""𑄊"""	11100..1114F	Chakma	Chakma letter ghaa		
-1110B	"""𑄋"""	11100..1114F	Chakma	Chakma letter ngaa		
-1110C	"""𑄌"""	11100..1114F	Chakma	Chakma letter caa		
-1110D	"""𑄍"""	11100..1114F	Chakma	Chakma letter chaa		
-1110E	"""𑄎"""	11100..1114F	Chakma	Chakma letter jaa		
-1110F	"""𑄏"""	11100..1114F	Chakma	Chakma letter jhaa		
-11110	"""𑄐"""	11100..1114F	Chakma	Chakma letter nyaa		
-11111	"""𑄑"""	11100..1114F	Chakma	Chakma letter ttaa		
-11112	"""𑄒"""	11100..1114F	Chakma	Chakma letter tthaa		
-11113	"""𑄓"""	11100..1114F	Chakma	Chakma letter ddaa		
-11114	"""𑄔"""	11100..1114F	Chakma	Chakma letter ddhaa		
-11115	"""𑄕"""	11100..1114F	Chakma	Chakma letter nnaa		
-11116	"""𑄖"""	11100..1114F	Chakma	Chakma letter taa		
-11117	"""𑄗"""	11100..1114F	Chakma	Chakma letter thaa		
-11118	"""𑄘"""	11100..1114F	Chakma	Chakma letter daa		
-11119	"""𑄙"""	11100..1114F	Chakma	Chakma letter dhaa		
-1111A	"""𑄚"""	11100..1114F	Chakma	Chakma letter naa		
-1111B	"""𑄛"""	11100..1114F	Chakma	Chakma letter paa		
-1111C	"""𑄜"""	11100..1114F	Chakma	Chakma letter phaa		
-1111D	"""𑄝"""	11100..1114F	Chakma	Chakma letter baa		
-1111E	"""𑄞"""	11100..1114F	Chakma	Chakma letter bhaa		
-1111F	"""𑄟"""	11100..1114F	Chakma	Chakma letter maa		
-11120	"""𑄠"""	11100..1114F	Chakma	Chakma letter yyaa		
-11121	"""𑄡"""	11100..1114F	Chakma	Chakma letter yaa		
-11122	"""𑄢"""	11100..1114F	Chakma	Chakma letter raa		
-11123	"""𑄣"""	11100..1114F	Chakma	Chakma letter laa		
-11124	"""𑄤"""	11100..1114F	Chakma	Chakma letter waa		
-11125	"""𑄥"""	11100..1114F	Chakma	Chakma letter saa		
-11126	"""𑄦"""	11100..1114F	Chakma	Chakma letter haa		
-11127	"""𑄧"""	11100..1114F	Chakma	Chakma vowel sign a		
-11128	"""𑄨"""	11100..1114F	Chakma	Chakma vowel sign i		
-11129	"""𑄩"""	11100..1114F	Chakma	Chakma vowel sign ii		
-1112A	"""𑄪"""	11100..1114F	Chakma	Chakma vowel sign u		
-1112B	"""𑄫"""	11100..1114F	Chakma	Chakma vowel sign uu		
-1112C	"""𑄬"""	11100..1114F	Chakma	Chakma vowel sign e		
-1112D	"""𑄭"""	11100..1114F	Chakma	Chakma vowel sign ai		
-1112E	"""𑄮"""	11100..1114F	Chakma	Chakma vowel sign o		
-1112F	"""𑄯"""	11100..1114F	Chakma	Chakma vowel sign au		
-11130	"""𑄰"""	11100..1114F	Chakma	Chakma vowel sign oi		
-11131	"""𑄱"""	11100..1114F	Chakma	Chakma o mark		
-11132	"""𑄲"""	11100..1114F	Chakma	Chakma au mark		
-11133	"""𑄳"""	11100..1114F	Chakma	Chakma virama		
-11134	"""𑄴"""	11100..1114F	Chakma	Chakma maayyaa		
-11136	"""𑄶"""	11100..1114F	Chakma	Chakma digit zero		
-11137	"""𑄷"""	11100..1114F	Chakma	Chakma digit one		
-11138	"""𑄸"""	11100..1114F	Chakma	Chakma digit two		
-11139	"""𑄹"""	11100..1114F	Chakma	Chakma digit three		
-1113A	"""𑄺"""	11100..1114F	Chakma	Chakma digit four		
-1113B	"""𑄻"""	11100..1114F	Chakma	Chakma digit five		
-1113C	"""𑄼"""	11100..1114F	Chakma	Chakma digit six		
-1113D	"""𑄽"""	11100..1114F	Chakma	Chakma digit seven		
-1113E	"""𑄾"""	11100..1114F	Chakma	Chakma digit eight		
-1113F	"""𑄿"""	11100..1114F	Chakma	Chakma digit nine		
-11140	"""𑅀"""	11100..1114F	Chakma	Chakma section mark		
-11141	"""𑅁"""	11100..1114F	Chakma	Chakma danda		
-11142	"""𑅂"""	11100..1114F	Chakma	Chakma double danda		
-11143	"""𑅃"""	11100..1114F	Chakma	Chakma question mark		
-11144	"""𑅄"""	11100..1114F	Chakma	Chakma letter lhaa		
-11145	"""𑅅"""	11100..1114F	Chakma	Chakma vowel sign aa		
-11146	"""𑅆"""	11100..1114F	Chakma	Chakma vowel sign ei		
-11147	"""𑅇"""	11100..1114F	Chakma	Chakma letter vaa		
+U+11100	𑄀	11100..1114F	Chakma	Chakma sign candrabindu		
+U+11101	𑄁	11100..1114F	Chakma	Chakma sign anusvara		
+U+11102	𑄂	11100..1114F	Chakma	Chakma sign visarga		
+U+11103	𑄃	11100..1114F	Chakma	Chakma letter aa		
+U+11104	𑄄	11100..1114F	Chakma	Chakma letter i		
+U+11105	𑄅	11100..1114F	Chakma	Chakma letter u		
+U+11106	𑄆	11100..1114F	Chakma	Chakma letter e		
+U+11107	𑄇	11100..1114F	Chakma	Chakma letter kaa		
+U+11108	𑄈	11100..1114F	Chakma	Chakma letter khaa		
+U+11109	𑄉	11100..1114F	Chakma	Chakma letter gaa		
+U+1110A	𑄊	11100..1114F	Chakma	Chakma letter ghaa		
+U+1110B	𑄋	11100..1114F	Chakma	Chakma letter ngaa		
+U+1110C	𑄌	11100..1114F	Chakma	Chakma letter caa		
+U+1110D	𑄍	11100..1114F	Chakma	Chakma letter chaa		
+U+1110E	𑄎	11100..1114F	Chakma	Chakma letter jaa		
+U+1110F	𑄏	11100..1114F	Chakma	Chakma letter jhaa		
+U+11110	𑄐	11100..1114F	Chakma	Chakma letter nyaa		
+U+11111	𑄑	11100..1114F	Chakma	Chakma letter ttaa		
+U+11112	𑄒	11100..1114F	Chakma	Chakma letter tthaa		
+U+11113	𑄓	11100..1114F	Chakma	Chakma letter ddaa		
+U+11114	𑄔	11100..1114F	Chakma	Chakma letter ddhaa		
+U+11115	𑄕	11100..1114F	Chakma	Chakma letter nnaa		
+U+11116	𑄖	11100..1114F	Chakma	Chakma letter taa		
+U+11117	𑄗	11100..1114F	Chakma	Chakma letter thaa		
+U+11118	𑄘	11100..1114F	Chakma	Chakma letter daa		
+U+11119	𑄙	11100..1114F	Chakma	Chakma letter dhaa		
+U+1111A	𑄚	11100..1114F	Chakma	Chakma letter naa		
+U+1111B	𑄛	11100..1114F	Chakma	Chakma letter paa		
+U+1111C	𑄜	11100..1114F	Chakma	Chakma letter phaa		
+U+1111D	𑄝	11100..1114F	Chakma	Chakma letter baa		
+U+1111E	𑄞	11100..1114F	Chakma	Chakma letter bhaa		
+U+1111F	𑄟	11100..1114F	Chakma	Chakma letter maa		
+U+11120	𑄠	11100..1114F	Chakma	Chakma letter yyaa		
+U+11121	𑄡	11100..1114F	Chakma	Chakma letter yaa		
+U+11122	𑄢	11100..1114F	Chakma	Chakma letter raa		
+U+11123	𑄣	11100..1114F	Chakma	Chakma letter laa		
+U+11124	𑄤	11100..1114F	Chakma	Chakma letter waa		
+U+11125	𑄥	11100..1114F	Chakma	Chakma letter saa		
+U+11126	𑄦	11100..1114F	Chakma	Chakma letter haa		
+U+11127	𑄧	11100..1114F	Chakma	Chakma vowel sign a		
+U+11128	𑄨	11100..1114F	Chakma	Chakma vowel sign i		
+U+11129	𑄩	11100..1114F	Chakma	Chakma vowel sign ii		
+U+1112A	𑄪	11100..1114F	Chakma	Chakma vowel sign u		
+U+1112B	𑄫	11100..1114F	Chakma	Chakma vowel sign uu		
+U+1112C	𑄬	11100..1114F	Chakma	Chakma vowel sign e		
+U+1112D	𑄭	11100..1114F	Chakma	Chakma vowel sign ai		
+U+1112E	𑄮	11100..1114F	Chakma	Chakma vowel sign o		
+U+1112F	𑄯	11100..1114F	Chakma	Chakma vowel sign au		
+U+11130	𑄰	11100..1114F	Chakma	Chakma vowel sign oi		
+U+11131	𑄱	11100..1114F	Chakma	Chakma o mark		
+U+11132	𑄲	11100..1114F	Chakma	Chakma au mark		
+U+11133	𑄳	11100..1114F	Chakma	Chakma virama		
+U+11134	𑄴	11100..1114F	Chakma	Chakma maayyaa		
+U+11136	𑄶	11100..1114F	Chakma	Chakma digit zero		
+U+11137	𑄷	11100..1114F	Chakma	Chakma digit one		
+U+11138	𑄸	11100..1114F	Chakma	Chakma digit two		
+U+11139	𑄹	11100..1114F	Chakma	Chakma digit three		
+U+1113A	𑄺	11100..1114F	Chakma	Chakma digit four		
+U+1113B	𑄻	11100..1114F	Chakma	Chakma digit five		
+U+1113C	𑄼	11100..1114F	Chakma	Chakma digit six		
+U+1113D	𑄽	11100..1114F	Chakma	Chakma digit seven		
+U+1113E	𑄾	11100..1114F	Chakma	Chakma digit eight		
+U+1113F	𑄿	11100..1114F	Chakma	Chakma digit nine		
+U+11140	𑅀	11100..1114F	Chakma	Chakma section mark		
+U+11141	𑅁	11100..1114F	Chakma	Chakma danda		
+U+11142	𑅂	11100..1114F	Chakma	Chakma double danda		
+U+11143	𑅃	11100..1114F	Chakma	Chakma question mark		
+U+11144	𑅄	11100..1114F	Chakma	Chakma letter lhaa		
+U+11145	𑅅	11100..1114F	Chakma	Chakma vowel sign aa		
+U+11146	𑅆	11100..1114F	Chakma	Chakma vowel sign ei		
+U+11147	𑅇	11100..1114F	Chakma	Chakma letter vaa		

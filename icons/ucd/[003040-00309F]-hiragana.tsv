@@ -1,94 +1,94 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-3041	"""ぁ"""	3040..309F	Hiragana	Hiragana letter small a		
-3042	"""あ"""	3040..309F	Hiragana	Hiragana letter a		
-3043	"""ぃ"""	3040..309F	Hiragana	Hiragana letter small i		
-3044	"""い"""	3040..309F	Hiragana	Hiragana letter i		
-3045	"""ぅ"""	3040..309F	Hiragana	Hiragana letter small u		
-3046	"""う"""	3040..309F	Hiragana	Hiragana letter u		
-3047	"""ぇ"""	3040..309F	Hiragana	Hiragana letter small e		
-3048	"""え"""	3040..309F	Hiragana	Hiragana letter e		
-3049	"""ぉ"""	3040..309F	Hiragana	Hiragana letter small o		
-304A	"""お"""	3040..309F	Hiragana	Hiragana letter o		
-304B	"""か"""	3040..309F	Hiragana	Hiragana letter ka		
-304C	"""が"""	3040..309F	Hiragana	Hiragana letter ga		
-304D	"""き"""	3040..309F	Hiragana	Hiragana letter ki		
-304E	"""ぎ"""	3040..309F	Hiragana	Hiragana letter gi		
-304F	"""く"""	3040..309F	Hiragana	Hiragana letter ku		
-3050	"""ぐ"""	3040..309F	Hiragana	Hiragana letter gu		
-3051	"""け"""	3040..309F	Hiragana	Hiragana letter ke		
-3052	"""げ"""	3040..309F	Hiragana	Hiragana letter ge		
-3053	"""こ"""	3040..309F	Hiragana	Hiragana letter ko		
-3054	"""ご"""	3040..309F	Hiragana	Hiragana letter go		
-3055	"""さ"""	3040..309F	Hiragana	Hiragana letter sa		
-3056	"""ざ"""	3040..309F	Hiragana	Hiragana letter za		
-3057	"""し"""	3040..309F	Hiragana	Hiragana letter si		
-3058	"""じ"""	3040..309F	Hiragana	Hiragana letter zi		
-3059	"""す"""	3040..309F	Hiragana	Hiragana letter su		
-305A	"""ず"""	3040..309F	Hiragana	Hiragana letter zu		
-305B	"""せ"""	3040..309F	Hiragana	Hiragana letter se		
-305C	"""ぜ"""	3040..309F	Hiragana	Hiragana letter ze		
-305D	"""そ"""	3040..309F	Hiragana	Hiragana letter so		
-305E	"""ぞ"""	3040..309F	Hiragana	Hiragana letter zo		
-305F	"""た"""	3040..309F	Hiragana	Hiragana letter ta		
-3060	"""だ"""	3040..309F	Hiragana	Hiragana letter da		
-3061	"""ち"""	3040..309F	Hiragana	Hiragana letter ti		
-3062	"""ぢ"""	3040..309F	Hiragana	Hiragana letter di		
-3063	"""っ"""	3040..309F	Hiragana	Hiragana letter small tu		
-3064	"""つ"""	3040..309F	Hiragana	Hiragana letter tu		
-3065	"""づ"""	3040..309F	Hiragana	Hiragana letter du		
-3066	"""て"""	3040..309F	Hiragana	Hiragana letter te		
-3067	"""で"""	3040..309F	Hiragana	Hiragana letter de		
-3068	"""と"""	3040..309F	Hiragana	Hiragana letter to		
-3069	"""ど"""	3040..309F	Hiragana	Hiragana letter do		
-306A	"""な"""	3040..309F	Hiragana	Hiragana letter na		
-306B	"""に"""	3040..309F	Hiragana	Hiragana letter ni		
-306C	"""ぬ"""	3040..309F	Hiragana	Hiragana letter nu		
-306D	"""ね"""	3040..309F	Hiragana	Hiragana letter ne		
-306E	"""の"""	3040..309F	Hiragana	Hiragana letter no		
-306F	"""は"""	3040..309F	Hiragana	Hiragana letter ha		
-3070	"""ば"""	3040..309F	Hiragana	Hiragana letter ba		
-3071	"""ぱ"""	3040..309F	Hiragana	Hiragana letter pa		
-3072	"""ひ"""	3040..309F	Hiragana	Hiragana letter hi		
-3073	"""び"""	3040..309F	Hiragana	Hiragana letter bi		
-3074	"""ぴ"""	3040..309F	Hiragana	Hiragana letter pi		
-3075	"""ふ"""	3040..309F	Hiragana	Hiragana letter hu		
-3076	"""ぶ"""	3040..309F	Hiragana	Hiragana letter bu		
-3077	"""ぷ"""	3040..309F	Hiragana	Hiragana letter pu		
-3078	"""へ"""	3040..309F	Hiragana	Hiragana letter he		
-3079	"""べ"""	3040..309F	Hiragana	Hiragana letter be		
-307A	"""ぺ"""	3040..309F	Hiragana	Hiragana letter pe		
-307B	"""ほ"""	3040..309F	Hiragana	Hiragana letter ho		
-307C	"""ぼ"""	3040..309F	Hiragana	Hiragana letter bo		
-307D	"""ぽ"""	3040..309F	Hiragana	Hiragana letter po		
-307E	"""ま"""	3040..309F	Hiragana	Hiragana letter ma		
-307F	"""み"""	3040..309F	Hiragana	Hiragana letter mi		
-3080	"""む"""	3040..309F	Hiragana	Hiragana letter mu		
-3081	"""め"""	3040..309F	Hiragana	Hiragana letter me		
-3082	"""も"""	3040..309F	Hiragana	Hiragana letter mo		
-3083	"""ゃ"""	3040..309F	Hiragana	Hiragana letter small ya		
-3084	"""や"""	3040..309F	Hiragana	Hiragana letter ya		
-3085	"""ゅ"""	3040..309F	Hiragana	Hiragana letter small yu		
-3086	"""ゆ"""	3040..309F	Hiragana	Hiragana letter yu		
-3087	"""ょ"""	3040..309F	Hiragana	Hiragana letter small yo		
-3088	"""よ"""	3040..309F	Hiragana	Hiragana letter yo		
-3089	"""ら"""	3040..309F	Hiragana	Hiragana letter ra		
-308A	"""り"""	3040..309F	Hiragana	Hiragana letter ri		
-308B	"""る"""	3040..309F	Hiragana	Hiragana letter ru		
-308C	"""れ"""	3040..309F	Hiragana	Hiragana letter re		
-308D	"""ろ"""	3040..309F	Hiragana	Hiragana letter ro		
-308E	"""ゎ"""	3040..309F	Hiragana	Hiragana letter small wa		
-308F	"""わ"""	3040..309F	Hiragana	Hiragana letter wa		
-3090	"""ゐ"""	3040..309F	Hiragana	Hiragana letter wi		
-3091	"""ゑ"""	3040..309F	Hiragana	Hiragana letter we		
-3092	"""を"""	3040..309F	Hiragana	Hiragana letter wo		
-3093	"""ん"""	3040..309F	Hiragana	Hiragana letter n		
-3094	"""ゔ"""	3040..309F	Hiragana	Hiragana letter vu		
-3095	"""ゕ"""	3040..309F	Hiragana	Hiragana letter small ka		
-3096	"""ゖ"""	3040..309F	Hiragana	Hiragana letter small ke		
-3099	"""゙"""	3040..309F	Hiragana	Combining katakana-hiragana voiced sound mark		
-309A	"""゚"""	3040..309F	Hiragana	Combining katakana-hiragana semi-voiced sound mark		
-309B	"""゛"""	3040..309F	Hiragana	Katakana-hiragana voiced sound mark		
-309C	"""゜"""	3040..309F	Hiragana	Katakana-hiragana semi-voiced sound mark		
-309D	"""ゝ"""	3040..309F	Hiragana	Hiragana iteration mark		
-309E	"""ゞ"""	3040..309F	Hiragana	Hiragana voiced iteration mark		
-309F	"""ゟ"""	3040..309F	Hiragana	Hiragana digraph yori		
+U+3041	ぁ	3040..309F	Hiragana	Hiragana letter small a		
+U+3042	あ	3040..309F	Hiragana	Hiragana letter a		
+U+3043	ぃ	3040..309F	Hiragana	Hiragana letter small i		
+U+3044	い	3040..309F	Hiragana	Hiragana letter i		
+U+3045	ぅ	3040..309F	Hiragana	Hiragana letter small u		
+U+3046	う	3040..309F	Hiragana	Hiragana letter u		
+U+3047	ぇ	3040..309F	Hiragana	Hiragana letter small e		
+U+3048	え	3040..309F	Hiragana	Hiragana letter e		
+U+3049	ぉ	3040..309F	Hiragana	Hiragana letter small o		
+U+304A	お	3040..309F	Hiragana	Hiragana letter o		
+U+304B	か	3040..309F	Hiragana	Hiragana letter ka		
+U+304C	が	3040..309F	Hiragana	Hiragana letter ga		
+U+304D	き	3040..309F	Hiragana	Hiragana letter ki		
+U+304E	ぎ	3040..309F	Hiragana	Hiragana letter gi		
+U+304F	く	3040..309F	Hiragana	Hiragana letter ku		
+U+3050	ぐ	3040..309F	Hiragana	Hiragana letter gu		
+U+3051	け	3040..309F	Hiragana	Hiragana letter ke		
+U+3052	げ	3040..309F	Hiragana	Hiragana letter ge		
+U+3053	こ	3040..309F	Hiragana	Hiragana letter ko		
+U+3054	ご	3040..309F	Hiragana	Hiragana letter go		
+U+3055	さ	3040..309F	Hiragana	Hiragana letter sa		
+U+3056	ざ	3040..309F	Hiragana	Hiragana letter za		
+U+3057	し	3040..309F	Hiragana	Hiragana letter si		
+U+3058	じ	3040..309F	Hiragana	Hiragana letter zi		
+U+3059	す	3040..309F	Hiragana	Hiragana letter su		
+U+305A	ず	3040..309F	Hiragana	Hiragana letter zu		
+U+305B	せ	3040..309F	Hiragana	Hiragana letter se		
+U+305C	ぜ	3040..309F	Hiragana	Hiragana letter ze		
+U+305D	そ	3040..309F	Hiragana	Hiragana letter so		
+U+305E	ぞ	3040..309F	Hiragana	Hiragana letter zo		
+U+305F	た	3040..309F	Hiragana	Hiragana letter ta		
+U+3060	だ	3040..309F	Hiragana	Hiragana letter da		
+U+3061	ち	3040..309F	Hiragana	Hiragana letter ti		
+U+3062	ぢ	3040..309F	Hiragana	Hiragana letter di		
+U+3063	っ	3040..309F	Hiragana	Hiragana letter small tu		
+U+3064	つ	3040..309F	Hiragana	Hiragana letter tu		
+U+3065	づ	3040..309F	Hiragana	Hiragana letter du		
+U+3066	て	3040..309F	Hiragana	Hiragana letter te		
+U+3067	で	3040..309F	Hiragana	Hiragana letter de		
+U+3068	と	3040..309F	Hiragana	Hiragana letter to		
+U+3069	ど	3040..309F	Hiragana	Hiragana letter do		
+U+306A	な	3040..309F	Hiragana	Hiragana letter na		
+U+306B	に	3040..309F	Hiragana	Hiragana letter ni		
+U+306C	ぬ	3040..309F	Hiragana	Hiragana letter nu		
+U+306D	ね	3040..309F	Hiragana	Hiragana letter ne		
+U+306E	の	3040..309F	Hiragana	Hiragana letter no		
+U+306F	は	3040..309F	Hiragana	Hiragana letter ha		
+U+3070	ば	3040..309F	Hiragana	Hiragana letter ba		
+U+3071	ぱ	3040..309F	Hiragana	Hiragana letter pa		
+U+3072	ひ	3040..309F	Hiragana	Hiragana letter hi		
+U+3073	び	3040..309F	Hiragana	Hiragana letter bi		
+U+3074	ぴ	3040..309F	Hiragana	Hiragana letter pi		
+U+3075	ふ	3040..309F	Hiragana	Hiragana letter hu		
+U+3076	ぶ	3040..309F	Hiragana	Hiragana letter bu		
+U+3077	ぷ	3040..309F	Hiragana	Hiragana letter pu		
+U+3078	へ	3040..309F	Hiragana	Hiragana letter he		
+U+3079	べ	3040..309F	Hiragana	Hiragana letter be		
+U+307A	ぺ	3040..309F	Hiragana	Hiragana letter pe		
+U+307B	ほ	3040..309F	Hiragana	Hiragana letter ho		
+U+307C	ぼ	3040..309F	Hiragana	Hiragana letter bo		
+U+307D	ぽ	3040..309F	Hiragana	Hiragana letter po		
+U+307E	ま	3040..309F	Hiragana	Hiragana letter ma		
+U+307F	み	3040..309F	Hiragana	Hiragana letter mi		
+U+3080	む	3040..309F	Hiragana	Hiragana letter mu		
+U+3081	め	3040..309F	Hiragana	Hiragana letter me		
+U+3082	も	3040..309F	Hiragana	Hiragana letter mo		
+U+3083	ゃ	3040..309F	Hiragana	Hiragana letter small ya		
+U+3084	や	3040..309F	Hiragana	Hiragana letter ya		
+U+3085	ゅ	3040..309F	Hiragana	Hiragana letter small yu		
+U+3086	ゆ	3040..309F	Hiragana	Hiragana letter yu		
+U+3087	ょ	3040..309F	Hiragana	Hiragana letter small yo		
+U+3088	よ	3040..309F	Hiragana	Hiragana letter yo		
+U+3089	ら	3040..309F	Hiragana	Hiragana letter ra		
+U+308A	り	3040..309F	Hiragana	Hiragana letter ri		
+U+308B	る	3040..309F	Hiragana	Hiragana letter ru		
+U+308C	れ	3040..309F	Hiragana	Hiragana letter re		
+U+308D	ろ	3040..309F	Hiragana	Hiragana letter ro		
+U+308E	ゎ	3040..309F	Hiragana	Hiragana letter small wa		
+U+308F	わ	3040..309F	Hiragana	Hiragana letter wa		
+U+3090	ゐ	3040..309F	Hiragana	Hiragana letter wi		
+U+3091	ゑ	3040..309F	Hiragana	Hiragana letter we		
+U+3092	を	3040..309F	Hiragana	Hiragana letter wo		
+U+3093	ん	3040..309F	Hiragana	Hiragana letter n		
+U+3094	ゔ	3040..309F	Hiragana	Hiragana letter vu		
+U+3095	ゕ	3040..309F	Hiragana	Hiragana letter small ka		
+U+3096	ゖ	3040..309F	Hiragana	Hiragana letter small ke		
+U+3099	゙	3040..309F	Hiragana	Combining katakana-hiragana voiced sound mark		
+U+309A	゚	3040..309F	Hiragana	Combining katakana-hiragana semi-voiced sound mark		
+U+309B	゛	3040..309F	Hiragana	Katakana-hiragana voiced sound mark		
+U+309C	゜	3040..309F	Hiragana	Katakana-hiragana semi-voiced sound mark		
+U+309D	ゝ	3040..309F	Hiragana	Hiragana iteration mark		
+U+309E	ゞ	3040..309F	Hiragana	Hiragana voiced iteration mark		
+U+309F	ゟ	3040..309F	Hiragana	Hiragana digraph yori		

@@ -1,0 +1,97 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+FF01	！	\fw!	Fullwidth exclamation mark	!
+U+FF02	＂	\fw“	Fullwidth quotation mark	“
+U+FF03	＃	\fw#	Fullwidth number sign	#
+U+FF04	＄	\fw$	Fullwidth dollar sign	$
+U+FF05	％	\fw%	Fullwidth percent sign	%
+U+FF06	＆	\fw&	Fullwidth ampersand	&
+U+FF07	＇	\fw'	Fullwidth apostrophe	'
+U+FF08	（	\fw(	Fullwidth left parenthesis	(
+U+FF09	）	\fw)	Fullwidth right parenthesis	)
+U+FF0A	＊	\fw*	Fullwidth asterisk	*
+U+FF0B	＋	\fw+	Fullwidth plus sign	+
+U+FF0C	，	\fw,, \,,\fullwidthcomma	Fullwidth comma	,
+U+FF0D	－	\fw-	Fullwidth hyphen-minus	-
+U+FF0E	．	\fw.	Fullwidth full stop	.
+U+FF0F	／	\fw/	Fullwidth solidus	/
+U+FF10	０	\fw0	Fullwidth digit zero	0
+U+FF11	１	\fw1	Fullwidth digit one	1
+U+FF12	２	\fw2	Fullwidth digit two	2
+U+FF13	３	\fw3	Fullwidth digit three	3
+U+FF14	４	\fw4	Fullwidth digit four	4
+U+FF15	５	\fw5	Fullwidth digit five	5
+U+FF16	６	\fw6	Fullwidth digit six	6
+U+FF17	７	\fw7	Fullwidth digit seven	7
+U+FF18	８	\fw8	Fullwidth digit eight	8
+U+FF19	９	\fw9	Fullwidth digit nine	9
+U+FF1A	：	\fw:, \:, \colon, \fullwidthcolon	Fullwidth colon	:
+U+FF1B	；	\fw;, \;, \fullwithsemicolon	Fullwidth semicolon	;
+U+FF1C	＜	\fw<	Fullwidth less-than sign	<
+U+FF1D	＝	\fw=	Fullwidth equals sign	=
+U+FF1E	＞	\fw>	Fullwidth greater-than sign	>
+U+FF1F	？	\fw?	Fullwidth question mark	?
+U+FF20	＠	\fw@	Fullwidth commercial at	@
+U+FF21	Ａ	\fwA	Fullwidth latin capital letter a	A
+U+FF22	Ｂ	\fwB	Fullwidth latin capital letter b	B
+U+FF23	Ｃ	\fwC	Fullwidth latin capital letter c	C
+U+FF24	Ｄ	\fwD	Fullwidth latin capital letter d	D
+U+FF25	Ｅ	\fwE	Fullwidth latin capital letter e	E
+U+FF26	Ｆ	\fwF	Fullwidth latin capital letter f	F
+U+FF27	Ｇ	\fwG	Fullwidth latin capital letter g	G
+U+FF28	Ｈ	\fwH	Fullwidth latin capital letter h	H
+U+FF29	Ｉ	\fwI	Fullwidth latin capital letter i	I
+U+FF2A	Ｊ	\fwJ	Fullwidth latin capital letter j	J
+U+FF2B	Ｋ	\fwK	Fullwidth latin capital letter k	K
+U+FF2C	Ｌ	\fwL	Fullwidth latin capital letter l	L
+U+FF2D	Ｍ	\fwM	Fullwidth latin capital letter m	M
+U+FF2E	Ｎ	\fwN	Fullwidth latin capital letter n	N
+U+FF2F	Ｏ	\fwO	Fullwidth latin capital letter o	O
+U+FF30	Ｐ	\fwP	Fullwidth latin capital letter p	P
+U+FF31	Ｑ	\fwQ	Fullwidth latin capital letter q	Q
+U+FF32	Ｒ	\fwR	Fullwidth latin capital letter r	R
+U+FF33	Ｓ	\fwS	Fullwidth latin capital letter s	S
+U+FF34	Ｔ	\fwT	Fullwidth latin capital letter t	T
+U+FF35	Ｕ	\fwU	Fullwidth latin capital letter u	U
+U+FF36	Ｖ	\fwV	Fullwidth latin capital letter v	V
+U+FF37	Ｗ	\fwW	Fullwidth latin capital letter w	W
+U+FF38	Ｘ	\fwX	Fullwidth latin capital letter x	X
+U+FF39	Ｙ	\fwY	Fullwidth latin capital letter y	Y
+U+FF3A	Ｚ	\fwZ	Fullwidth latin capital letter z	Z
+U+FF3B	［	\fw[	Fullwidth left square bracket	[
+U+FF3C	＼	\fw\	Fullwidth reverse solidus	\
+U+FF3D	］	\fw]	Fullwidth right square bracket	]
+U+FF3E	＾	\fw^	Fullwidth circumflex accent	^
+U+FF3F	＿	\fw_	Fullwidth low line	_
+U+FF40	｀	\fw`	Fullwidth grave accent	`
+U+FF41	ａ	\fwa	Fullwidth latin small letter a	a
+U+FF42	ｂ	\fwb	Fullwidth latin small letter b	b
+U+FF43	ｃ	\fwc	Fullwidth latin small letter c	c
+U+FF44	ｄ	\fwd	Fullwidth latin small letter d	d
+U+FF45	ｅ	\fwe	Fullwidth latin small letter e	e
+U+FF46	ｆ	\fwf	Fullwidth latin small letter f	f
+U+FF47	ｇ	\fwg	Fullwidth latin small letter g	g
+U+FF48	ｈ	\fwh	Fullwidth latin small letter h	h
+U+FF49	ｉ	\fwi	Fullwidth latin small letter i	i
+U+FF4A	ｊ	\fwj	Fullwidth latin small letter j	j
+U+FF4B	ｋ	\fwk	Fullwidth latin small letter k	k
+U+FF4C	ｌ	\fwl	Fullwidth latin small letter l	l
+U+FF4D	ｍ	\fwm	Fullwidth latin small letter m	m
+U+FF4E	ｎ	\fwn	Fullwidth latin small letter n	n
+U+FF4F	ｏ	\fwo	Fullwidth latin small letter o	o
+U+FF50	ｐ	\fwp	Fullwidth latin small letter p	p
+U+FF51	ｑ	\fwq	Fullwidth latin small letter q	q
+U+FF52	ｒ	\fwr	Fullwidth latin small letter r	r
+U+FF53	ｓ	\fws	Fullwidth latin small letter s	s
+U+FF54	ｔ	\fwt	Fullwidth latin small letter t	t
+U+FF55	ｕ	\fwu	Fullwidth latin small letter u	u
+U+FF56	ｖ	\fwv	Fullwidth latin small letter v	v
+U+FF57	ｗ	\fww	Fullwidth latin small letter w	w
+U+FF58	ｘ	\fwx	Fullwidth latin small letter x	x
+U+FF59	ｙ	\fwy	Fullwidth latin small letter y	y
+U+FF5A	ｚ	\fwz	Fullwidth latin small letter z	z
+U+FF5B	｛	\fw{	Fullwidth left curly bracket	{
+U+FF5C	｜	\fw|	Fullwidth vertical line	|
+U+FF5D	｝	\fw}	Fullwidth right curly bracket	}
+U+FF5E	～	\fw~	Fullwidth tilde	~
+U+FF5F	｟	\fw((	Fullwidth left white parenthesis	
+U+FF60	｠	\fw))	Fullwidth right white parenthesis	

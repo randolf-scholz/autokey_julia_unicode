@@ -1,76 +1,76 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11D00	"""𑴀"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter a		
-11D01	"""𑴁"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter aa		
-11D02	"""𑴂"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter i		
-11D03	"""𑴃"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ii		
-11D04	"""𑴄"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter u		
-11D05	"""𑴅"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter uu		
-11D06	"""𑴆"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter e		
-11D08	"""𑴈"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ai		
-11D09	"""𑴉"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter o		
-11D0B	"""𑴋"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter au		
-11D0C	"""𑴌"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ka		
-11D0D	"""𑴍"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter kha		
-11D0E	"""𑴎"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ga		
-11D0F	"""𑴏"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter gha		
-11D10	"""𑴐"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter nga		
-11D11	"""𑴑"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ca		
-11D12	"""𑴒"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter cha		
-11D13	"""𑴓"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ja		
-11D14	"""𑴔"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter jha		
-11D15	"""𑴕"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter nya		
-11D16	"""𑴖"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter tta		
-11D17	"""𑴗"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ttha		
-11D18	"""𑴘"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter dda		
-11D19	"""𑴙"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ddha		
-11D1A	"""𑴚"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter nna		
-11D1B	"""𑴛"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ta		
-11D1C	"""𑴜"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter tha		
-11D1D	"""𑴝"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter da		
-11D1E	"""𑴞"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter dha		
-11D1F	"""𑴟"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter na		
-11D20	"""𑴠"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter pa		
-11D21	"""𑴡"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter pha		
-11D22	"""𑴢"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ba		
-11D23	"""𑴣"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter bha		
-11D24	"""𑴤"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ma		
-11D25	"""𑴥"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ya		
-11D26	"""𑴦"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ra		
-11D27	"""𑴧"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter la		
-11D28	"""𑴨"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter va		
-11D29	"""𑴩"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter sha		
-11D2A	"""𑴪"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ssa		
-11D2B	"""𑴫"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter sa		
-11D2C	"""𑴬"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter ha		
-11D2D	"""𑴭"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter lla		
-11D2E	"""𑴮"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter kssa		
-11D2F	"""𑴯"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter jnya		
-11D30	"""𑴰"""	11D00..11D5F	Masaram Gondi	Masaram gondi letter tra		
-11D31	"""𑴱"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign aa		
-11D32	"""𑴲"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign i		
-11D33	"""𑴳"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign ii		
-11D34	"""𑴴"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign u		
-11D35	"""𑴵"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign uu		
-11D36	"""𑴶"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign vocalic r		
-11D3A	"""𑴺"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign e		
-11D3C	"""𑴼"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign ai		
-11D3D	"""𑴽"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign o		
-11D3F	"""𑴿"""	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign au		
-11D40	"""𑵀"""	11D00..11D5F	Masaram Gondi	Masaram gondi sign anusvara		
-11D41	"""𑵁"""	11D00..11D5F	Masaram Gondi	Masaram gondi sign visarga		
-11D42	"""𑵂"""	11D00..11D5F	Masaram Gondi	Masaram gondi sign nukta		
-11D43	"""𑵃"""	11D00..11D5F	Masaram Gondi	Masaram gondi sign candra		
-11D44	"""𑵄"""	11D00..11D5F	Masaram Gondi	Masaram gondi sign halanta		
-11D45	"""𑵅"""	11D00..11D5F	Masaram Gondi	Masaram gondi virama		
-11D46	"""𑵆"""	11D00..11D5F	Masaram Gondi	Masaram gondi repha		
-11D47	"""𑵇"""	11D00..11D5F	Masaram Gondi	Masaram gondi ra-kara		
-11D50	"""𑵐"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit zero		
-11D51	"""𑵑"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit one		
-11D52	"""𑵒"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit two		
-11D53	"""𑵓"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit three		
-11D54	"""𑵔"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit four		
-11D55	"""𑵕"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit five		
-11D56	"""𑵖"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit six		
-11D57	"""𑵗"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit seven		
-11D58	"""𑵘"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit eight		
-11D59	"""𑵙"""	11D00..11D5F	Masaram Gondi	Masaram gondi digit nine		
+U+11D00	𑴀	11D00..11D5F	Masaram Gondi	Masaram gondi letter a		
+U+11D01	𑴁	11D00..11D5F	Masaram Gondi	Masaram gondi letter aa		
+U+11D02	𑴂	11D00..11D5F	Masaram Gondi	Masaram gondi letter i		
+U+11D03	𑴃	11D00..11D5F	Masaram Gondi	Masaram gondi letter ii		
+U+11D04	𑴄	11D00..11D5F	Masaram Gondi	Masaram gondi letter u		
+U+11D05	𑴅	11D00..11D5F	Masaram Gondi	Masaram gondi letter uu		
+U+11D06	𑴆	11D00..11D5F	Masaram Gondi	Masaram gondi letter e		
+U+11D08	𑴈	11D00..11D5F	Masaram Gondi	Masaram gondi letter ai		
+U+11D09	𑴉	11D00..11D5F	Masaram Gondi	Masaram gondi letter o		
+U+11D0B	𑴋	11D00..11D5F	Masaram Gondi	Masaram gondi letter au		
+U+11D0C	𑴌	11D00..11D5F	Masaram Gondi	Masaram gondi letter ka		
+U+11D0D	𑴍	11D00..11D5F	Masaram Gondi	Masaram gondi letter kha		
+U+11D0E	𑴎	11D00..11D5F	Masaram Gondi	Masaram gondi letter ga		
+U+11D0F	𑴏	11D00..11D5F	Masaram Gondi	Masaram gondi letter gha		
+U+11D10	𑴐	11D00..11D5F	Masaram Gondi	Masaram gondi letter nga		
+U+11D11	𑴑	11D00..11D5F	Masaram Gondi	Masaram gondi letter ca		
+U+11D12	𑴒	11D00..11D5F	Masaram Gondi	Masaram gondi letter cha		
+U+11D13	𑴓	11D00..11D5F	Masaram Gondi	Masaram gondi letter ja		
+U+11D14	𑴔	11D00..11D5F	Masaram Gondi	Masaram gondi letter jha		
+U+11D15	𑴕	11D00..11D5F	Masaram Gondi	Masaram gondi letter nya		
+U+11D16	𑴖	11D00..11D5F	Masaram Gondi	Masaram gondi letter tta		
+U+11D17	𑴗	11D00..11D5F	Masaram Gondi	Masaram gondi letter ttha		
+U+11D18	𑴘	11D00..11D5F	Masaram Gondi	Masaram gondi letter dda		
+U+11D19	𑴙	11D00..11D5F	Masaram Gondi	Masaram gondi letter ddha		
+U+11D1A	𑴚	11D00..11D5F	Masaram Gondi	Masaram gondi letter nna		
+U+11D1B	𑴛	11D00..11D5F	Masaram Gondi	Masaram gondi letter ta		
+U+11D1C	𑴜	11D00..11D5F	Masaram Gondi	Masaram gondi letter tha		
+U+11D1D	𑴝	11D00..11D5F	Masaram Gondi	Masaram gondi letter da		
+U+11D1E	𑴞	11D00..11D5F	Masaram Gondi	Masaram gondi letter dha		
+U+11D1F	𑴟	11D00..11D5F	Masaram Gondi	Masaram gondi letter na		
+U+11D20	𑴠	11D00..11D5F	Masaram Gondi	Masaram gondi letter pa		
+U+11D21	𑴡	11D00..11D5F	Masaram Gondi	Masaram gondi letter pha		
+U+11D22	𑴢	11D00..11D5F	Masaram Gondi	Masaram gondi letter ba		
+U+11D23	𑴣	11D00..11D5F	Masaram Gondi	Masaram gondi letter bha		
+U+11D24	𑴤	11D00..11D5F	Masaram Gondi	Masaram gondi letter ma		
+U+11D25	𑴥	11D00..11D5F	Masaram Gondi	Masaram gondi letter ya		
+U+11D26	𑴦	11D00..11D5F	Masaram Gondi	Masaram gondi letter ra		
+U+11D27	𑴧	11D00..11D5F	Masaram Gondi	Masaram gondi letter la		
+U+11D28	𑴨	11D00..11D5F	Masaram Gondi	Masaram gondi letter va		
+U+11D29	𑴩	11D00..11D5F	Masaram Gondi	Masaram gondi letter sha		
+U+11D2A	𑴪	11D00..11D5F	Masaram Gondi	Masaram gondi letter ssa		
+U+11D2B	𑴫	11D00..11D5F	Masaram Gondi	Masaram gondi letter sa		
+U+11D2C	𑴬	11D00..11D5F	Masaram Gondi	Masaram gondi letter ha		
+U+11D2D	𑴭	11D00..11D5F	Masaram Gondi	Masaram gondi letter lla		
+U+11D2E	𑴮	11D00..11D5F	Masaram Gondi	Masaram gondi letter kssa		
+U+11D2F	𑴯	11D00..11D5F	Masaram Gondi	Masaram gondi letter jnya		
+U+11D30	𑴰	11D00..11D5F	Masaram Gondi	Masaram gondi letter tra		
+U+11D31	𑴱	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign aa		
+U+11D32	𑴲	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign i		
+U+11D33	𑴳	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign ii		
+U+11D34	𑴴	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign u		
+U+11D35	𑴵	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign uu		
+U+11D36	𑴶	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign vocalic r		
+U+11D3A	𑴺	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign e		
+U+11D3C	𑴼	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign ai		
+U+11D3D	𑴽	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign o		
+U+11D3F	𑴿	11D00..11D5F	Masaram Gondi	Masaram gondi vowel sign au		
+U+11D40	𑵀	11D00..11D5F	Masaram Gondi	Masaram gondi sign anusvara		
+U+11D41	𑵁	11D00..11D5F	Masaram Gondi	Masaram gondi sign visarga		
+U+11D42	𑵂	11D00..11D5F	Masaram Gondi	Masaram gondi sign nukta		
+U+11D43	𑵃	11D00..11D5F	Masaram Gondi	Masaram gondi sign candra		
+U+11D44	𑵄	11D00..11D5F	Masaram Gondi	Masaram gondi sign halanta		
+U+11D45	𑵅	11D00..11D5F	Masaram Gondi	Masaram gondi virama		
+U+11D46	𑵆	11D00..11D5F	Masaram Gondi	Masaram gondi repha		
+U+11D47	𑵇	11D00..11D5F	Masaram Gondi	Masaram gondi ra-kara		
+U+11D50	𑵐	11D00..11D5F	Masaram Gondi	Masaram gondi digit zero		
+U+11D51	𑵑	11D00..11D5F	Masaram Gondi	Masaram gondi digit one		
+U+11D52	𑵒	11D00..11D5F	Masaram Gondi	Masaram gondi digit two		
+U+11D53	𑵓	11D00..11D5F	Masaram Gondi	Masaram gondi digit three		
+U+11D54	𑵔	11D00..11D5F	Masaram Gondi	Masaram gondi digit four		
+U+11D55	𑵕	11D00..11D5F	Masaram Gondi	Masaram gondi digit five		
+U+11D56	𑵖	11D00..11D5F	Masaram Gondi	Masaram gondi digit six		
+U+11D57	𑵗	11D00..11D5F	Masaram Gondi	Masaram gondi digit seven		
+U+11D58	𑵘	11D00..11D5F	Masaram Gondi	Masaram gondi digit eight		
+U+11D59	𑵙	11D00..11D5F	Masaram Gondi	Masaram gondi digit nine		

@@ -1,26 +1,26 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1D360	"""𝍠"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit one		
-1D361	"""𝍡"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit two		
-1D362	"""𝍢"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit three		
-1D363	"""𝍣"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit four		
-1D364	"""𝍤"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit five		
-1D365	"""𝍥"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit six		
-1D366	"""𝍦"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit seven		
-1D367	"""𝍧"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit eight		
-1D368	"""𝍨"""	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit nine		
-1D369	"""𝍩"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit one		
-1D36A	"""𝍪"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit two		
-1D36B	"""𝍫"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit three		
-1D36C	"""𝍬"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit four		
-1D36D	"""𝍭"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit five		
-1D36E	"""𝍮"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit six		
-1D36F	"""𝍯"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit seven		
-1D370	"""𝍰"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit eight		
-1D371	"""𝍱"""	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit nine		
-1D372	"""𝍲"""	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark one		
-1D373	"""𝍳"""	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark two		
-1D374	"""𝍴"""	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark three		
-1D375	"""𝍵"""	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark four		
-1D376	"""𝍶"""	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark five		
-1D377	"""𝍷"""	1D360..1D37F	Counting Rod Numerals	Tally mark one		
-1D378	"""𝍸"""	1D360..1D37F	Counting Rod Numerals	Tally mark five		
+U+1D360	𝍠	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit one		
+U+1D361	𝍡	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit two		
+U+1D362	𝍢	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit three		
+U+1D363	𝍣	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit four		
+U+1D364	𝍤	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit five		
+U+1D365	𝍥	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit six		
+U+1D366	𝍦	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit seven		
+U+1D367	𝍧	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit eight		
+U+1D368	𝍨	1D360..1D37F	Counting Rod Numerals	Counting rod unit digit nine		
+U+1D369	𝍩	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit one		
+U+1D36A	𝍪	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit two		
+U+1D36B	𝍫	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit three		
+U+1D36C	𝍬	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit four		
+U+1D36D	𝍭	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit five		
+U+1D36E	𝍮	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit six		
+U+1D36F	𝍯	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit seven		
+U+1D370	𝍰	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit eight		
+U+1D371	𝍱	1D360..1D37F	Counting Rod Numerals	Counting rod tens digit nine		
+U+1D372	𝍲	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark one		
+U+1D373	𝍳	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark two		
+U+1D374	𝍴	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark three		
+U+1D375	𝍵	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark four		
+U+1D376	𝍶	1D360..1D37F	Counting Rod Numerals	Ideographic tally mark five		
+U+1D377	𝍷	1D360..1D37F	Counting Rod Numerals	Tally mark one		
+U+1D378	𝍸	1D360..1D37F	Counting Rod Numerals	Tally mark five		

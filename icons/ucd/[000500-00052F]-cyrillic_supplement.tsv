@@ -1,49 +1,49 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0500	"""Ԁ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi de		
-0501	"""ԁ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi de		
-0502	"""Ԃ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi dje		
-0503	"""ԃ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi dje		
-0504	"""Ԅ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi zje		
-0505	"""ԅ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi zje		
-0506	"""Ԇ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi dzje		
-0507	"""ԇ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi dzje		
-0508	"""Ԉ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi lje		
-0509	"""ԉ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi lje		
-050A	"""Ԋ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi nje		
-050B	"""ԋ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi nje		
-050C	"""Ԍ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi sje		
-050D	"""ԍ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi sje		
-050E	"""Ԏ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi tje		
-050F	"""ԏ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter komi tje		
-0510	"""Ԑ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter reversed ze		
-0511	"""ԑ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter reversed ze		
-0512	"""Ԓ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with hook		
-0513	"""ԓ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter el with hook		
-0514	"""Ԕ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter lha		
-0515	"""ԕ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter lha		
-0516	"""Ԗ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter rha		
-0517	"""ԗ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter rha		
-0518	"""Ԙ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter yae		
-0519	"""ԙ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter yae		
-051A	"""Ԛ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter qa		
-051B	"""ԛ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter qa		
-051C	"""Ԝ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter we		
-051D	"""ԝ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter we		
-051E	"""Ԟ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter aleut ka		
-051F	"""ԟ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter aleut ka		
-0520	"""Ԡ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with middle hook		
-0521	"""ԡ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter el with middle hook		
-0522	"""Ԣ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter en with middle hook		
-0523	"""ԣ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter en with middle hook		
-0524	"""Ԥ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter pe with descender		
-0525	"""ԥ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter pe with descender		
-0526	"""Ԧ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter shha with descender		
-0527	"""ԧ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter shha with descender		
-0528	"""Ԩ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter en with left hook		
-0529	"""ԩ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter en with left hook		
-052A	"""Ԫ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter dzzhe		
-052B	"""ԫ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter dzzhe		
-052C	"""Ԭ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter dche		
-052D	"""ԭ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter dche		
-052E	"""Ԯ"""	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with descender		
-052F	"""ԯ"""	0500..052F	Cyrillic Supplement	Cyrillic small letter el with descender		
+U+0500	Ԁ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi de		
+U+0501	ԁ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi de		
+U+0502	Ԃ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi dje		
+U+0503	ԃ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi dje		
+U+0504	Ԅ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi zje		
+U+0505	ԅ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi zje		
+U+0506	Ԇ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi dzje		
+U+0507	ԇ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi dzje		
+U+0508	Ԉ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi lje		
+U+0509	ԉ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi lje		
+U+050A	Ԋ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi nje		
+U+050B	ԋ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi nje		
+U+050C	Ԍ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi sje		
+U+050D	ԍ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi sje		
+U+050E	Ԏ	0500..052F	Cyrillic Supplement	Cyrillic capital letter komi tje		
+U+050F	ԏ	0500..052F	Cyrillic Supplement	Cyrillic small letter komi tje		
+U+0510	Ԑ	0500..052F	Cyrillic Supplement	Cyrillic capital letter reversed ze		
+U+0511	ԑ	0500..052F	Cyrillic Supplement	Cyrillic small letter reversed ze		
+U+0512	Ԓ	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with hook		
+U+0513	ԓ	0500..052F	Cyrillic Supplement	Cyrillic small letter el with hook		
+U+0514	Ԕ	0500..052F	Cyrillic Supplement	Cyrillic capital letter lha		
+U+0515	ԕ	0500..052F	Cyrillic Supplement	Cyrillic small letter lha		
+U+0516	Ԗ	0500..052F	Cyrillic Supplement	Cyrillic capital letter rha		
+U+0517	ԗ	0500..052F	Cyrillic Supplement	Cyrillic small letter rha		
+U+0518	Ԙ	0500..052F	Cyrillic Supplement	Cyrillic capital letter yae		
+U+0519	ԙ	0500..052F	Cyrillic Supplement	Cyrillic small letter yae		
+U+051A	Ԛ	0500..052F	Cyrillic Supplement	Cyrillic capital letter qa		
+U+051B	ԛ	0500..052F	Cyrillic Supplement	Cyrillic small letter qa		
+U+051C	Ԝ	0500..052F	Cyrillic Supplement	Cyrillic capital letter we		
+U+051D	ԝ	0500..052F	Cyrillic Supplement	Cyrillic small letter we		
+U+051E	Ԟ	0500..052F	Cyrillic Supplement	Cyrillic capital letter aleut ka		
+U+051F	ԟ	0500..052F	Cyrillic Supplement	Cyrillic small letter aleut ka		
+U+0520	Ԡ	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with middle hook		
+U+0521	ԡ	0500..052F	Cyrillic Supplement	Cyrillic small letter el with middle hook		
+U+0522	Ԣ	0500..052F	Cyrillic Supplement	Cyrillic capital letter en with middle hook		
+U+0523	ԣ	0500..052F	Cyrillic Supplement	Cyrillic small letter en with middle hook		
+U+0524	Ԥ	0500..052F	Cyrillic Supplement	Cyrillic capital letter pe with descender		
+U+0525	ԥ	0500..052F	Cyrillic Supplement	Cyrillic small letter pe with descender		
+U+0526	Ԧ	0500..052F	Cyrillic Supplement	Cyrillic capital letter shha with descender		
+U+0527	ԧ	0500..052F	Cyrillic Supplement	Cyrillic small letter shha with descender		
+U+0528	Ԩ	0500..052F	Cyrillic Supplement	Cyrillic capital letter en with left hook		
+U+0529	ԩ	0500..052F	Cyrillic Supplement	Cyrillic small letter en with left hook		
+U+052A	Ԫ	0500..052F	Cyrillic Supplement	Cyrillic capital letter dzzhe		
+U+052B	ԫ	0500..052F	Cyrillic Supplement	Cyrillic small letter dzzhe		
+U+052C	Ԭ	0500..052F	Cyrillic Supplement	Cyrillic capital letter dche		
+U+052D	ԭ	0500..052F	Cyrillic Supplement	Cyrillic small letter dche		
+U+052E	Ԯ	0500..052F	Cyrillic Supplement	Cyrillic capital letter el with descender		
+U+052F	ԯ	0500..052F	Cyrillic Supplement	Cyrillic small letter el with descender		

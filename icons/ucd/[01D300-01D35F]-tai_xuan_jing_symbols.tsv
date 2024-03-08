@@ -1,88 +1,88 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1D300	"""𝌀"""	1D300..1D35F	Tai Xuan Jing Symbols	Monogram for earth		
-1D301	"""𝌁"""	1D300..1D35F	Tai Xuan Jing Symbols	Digram for heavenly earth		
-1D302	"""𝌂"""	1D300..1D35F	Tai Xuan Jing Symbols	Digram for human earth		
-1D303	"""𝌃"""	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earthly heaven		
-1D304	"""𝌄"""	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earthly human		
-1D305	"""𝌅"""	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earth		
-1D306	"""𝌆"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for centre		
-1D307	"""𝌇"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for full circle		
-1D308	"""𝌈"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for mired		
-1D309	"""𝌉"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for barrier		
-1D30A	"""𝌊"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for keeping small		
-1D30B	"""𝌋"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contrariety		
-1D30C	"""𝌌"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ascent		
-1D30D	"""𝌍"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for opposition		
-1D30E	"""𝌎"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for branching out		
-1D30F	"""𝌏"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for defectiveness or distortion		
-1D310	"""𝌐"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for divergence		
-1D311	"""𝌑"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for youthfulness		
-1D312	"""𝌒"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for increase		
-1D313	"""𝌓"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for penetration		
-1D314	"""𝌔"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for reach		
-1D315	"""𝌕"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contact		
-1D316	"""𝌖"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for holding back		
-1D317	"""𝌗"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for waiting		
-1D318	"""𝌘"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for following		
-1D319	"""𝌙"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for advance		
-1D31A	"""𝌚"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for release		
-1D31B	"""𝌛"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for resistance		
-1D31C	"""𝌜"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ease		
-1D31D	"""𝌝"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for joy		
-1D31E	"""𝌞"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contention		
-1D31F	"""𝌟"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for endeavour		
-1D320	"""𝌠"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for duties		
-1D321	"""𝌡"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for change		
-1D322	"""𝌢"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for decisiveness		
-1D323	"""𝌣"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for bold resolution		
-1D324	"""𝌤"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for packing		
-1D325	"""𝌥"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for legion		
-1D326	"""𝌦"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closeness		
-1D327	"""𝌧"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for kinship		
-1D328	"""𝌨"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for gathering		
-1D329	"""𝌩"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for strength		
-1D32A	"""𝌪"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for purity		
-1D32B	"""𝌫"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for fullness		
-1D32C	"""𝌬"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for residence		
-1D32D	"""𝌭"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for law or model		
-1D32E	"""𝌮"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for response		
-1D32F	"""𝌯"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for going to meet		
-1D330	"""𝌰"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for encounters		
-1D331	"""𝌱"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for stove		
-1D332	"""𝌲"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for greatness		
-1D333	"""𝌳"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for enlargement		
-1D334	"""𝌴"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for pattern		
-1D335	"""𝌵"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ritual		
-1D336	"""𝌶"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for flight		
-1D337	"""𝌷"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for vastness or wasting		
-1D338	"""𝌸"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for constancy		
-1D339	"""𝌹"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for measure		
-1D33A	"""𝌺"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for eternity		
-1D33B	"""𝌻"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for unity		
-1D33C	"""𝌼"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for diminishment		
-1D33D	"""𝌽"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closed mouth		
-1D33E	"""𝌾"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for guardedness		
-1D33F	"""𝌿"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for gathering in		
-1D340	"""𝍀"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for massing		
-1D341	"""𝍁"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for accumulation		
-1D342	"""𝍂"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for embellishment		
-1D343	"""𝍃"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for doubt		
-1D344	"""𝍄"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for watch		
-1D345	"""𝍅"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for sinking		
-1D346	"""𝍆"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for inner		
-1D347	"""𝍇"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for departure		
-1D348	"""𝍈"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for darkening		
-1D349	"""𝍉"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for dimming		
-1D34A	"""𝍊"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for exhaustion		
-1D34B	"""𝍋"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for severance		
-1D34C	"""𝍌"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for stoppage		
-1D34D	"""𝍍"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for hardness		
-1D34E	"""𝍎"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for completion		
-1D34F	"""𝍏"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closure		
-1D350	"""𝍐"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for failure		
-1D351	"""𝍑"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for aggravation		
-1D352	"""𝍒"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for compliance		
-1D353	"""𝍓"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for on the verge		
-1D354	"""𝍔"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for difficulties		
-1D355	"""𝍕"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for labouring		
-1D356	"""𝍖"""	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for fostering		
+U+1D300	𝌀	1D300..1D35F	Tai Xuan Jing Symbols	Monogram for earth		
+U+1D301	𝌁	1D300..1D35F	Tai Xuan Jing Symbols	Digram for heavenly earth		
+U+1D302	𝌂	1D300..1D35F	Tai Xuan Jing Symbols	Digram for human earth		
+U+1D303	𝌃	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earthly heaven		
+U+1D304	𝌄	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earthly human		
+U+1D305	𝌅	1D300..1D35F	Tai Xuan Jing Symbols	Digram for earth		
+U+1D306	𝌆	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for centre		
+U+1D307	𝌇	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for full circle		
+U+1D308	𝌈	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for mired		
+U+1D309	𝌉	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for barrier		
+U+1D30A	𝌊	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for keeping small		
+U+1D30B	𝌋	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contrariety		
+U+1D30C	𝌌	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ascent		
+U+1D30D	𝌍	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for opposition		
+U+1D30E	𝌎	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for branching out		
+U+1D30F	𝌏	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for defectiveness or distortion		
+U+1D310	𝌐	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for divergence		
+U+1D311	𝌑	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for youthfulness		
+U+1D312	𝌒	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for increase		
+U+1D313	𝌓	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for penetration		
+U+1D314	𝌔	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for reach		
+U+1D315	𝌕	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contact		
+U+1D316	𝌖	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for holding back		
+U+1D317	𝌗	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for waiting		
+U+1D318	𝌘	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for following		
+U+1D319	𝌙	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for advance		
+U+1D31A	𝌚	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for release		
+U+1D31B	𝌛	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for resistance		
+U+1D31C	𝌜	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ease		
+U+1D31D	𝌝	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for joy		
+U+1D31E	𝌞	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for contention		
+U+1D31F	𝌟	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for endeavour		
+U+1D320	𝌠	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for duties		
+U+1D321	𝌡	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for change		
+U+1D322	𝌢	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for decisiveness		
+U+1D323	𝌣	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for bold resolution		
+U+1D324	𝌤	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for packing		
+U+1D325	𝌥	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for legion		
+U+1D326	𝌦	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closeness		
+U+1D327	𝌧	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for kinship		
+U+1D328	𝌨	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for gathering		
+U+1D329	𝌩	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for strength		
+U+1D32A	𝌪	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for purity		
+U+1D32B	𝌫	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for fullness		
+U+1D32C	𝌬	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for residence		
+U+1D32D	𝌭	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for law or model		
+U+1D32E	𝌮	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for response		
+U+1D32F	𝌯	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for going to meet		
+U+1D330	𝌰	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for encounters		
+U+1D331	𝌱	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for stove		
+U+1D332	𝌲	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for greatness		
+U+1D333	𝌳	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for enlargement		
+U+1D334	𝌴	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for pattern		
+U+1D335	𝌵	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for ritual		
+U+1D336	𝌶	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for flight		
+U+1D337	𝌷	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for vastness or wasting		
+U+1D338	𝌸	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for constancy		
+U+1D339	𝌹	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for measure		
+U+1D33A	𝌺	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for eternity		
+U+1D33B	𝌻	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for unity		
+U+1D33C	𝌼	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for diminishment		
+U+1D33D	𝌽	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closed mouth		
+U+1D33E	𝌾	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for guardedness		
+U+1D33F	𝌿	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for gathering in		
+U+1D340	𝍀	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for massing		
+U+1D341	𝍁	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for accumulation		
+U+1D342	𝍂	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for embellishment		
+U+1D343	𝍃	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for doubt		
+U+1D344	𝍄	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for watch		
+U+1D345	𝍅	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for sinking		
+U+1D346	𝍆	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for inner		
+U+1D347	𝍇	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for departure		
+U+1D348	𝍈	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for darkening		
+U+1D349	𝍉	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for dimming		
+U+1D34A	𝍊	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for exhaustion		
+U+1D34B	𝍋	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for severance		
+U+1D34C	𝍌	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for stoppage		
+U+1D34D	𝍍	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for hardness		
+U+1D34E	𝍎	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for completion		
+U+1D34F	𝍏	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for closure		
+U+1D350	𝍐	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for failure		
+U+1D351	𝍑	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for aggravation		
+U+1D352	𝍒	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for compliance		
+U+1D353	𝍓	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for on the verge		
+U+1D354	𝍔	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for difficulties		
+U+1D355	𝍕	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for labouring		
+U+1D356	𝍖	1D300..1D35F	Tai Xuan Jing Symbols	Tetragram for fostering		

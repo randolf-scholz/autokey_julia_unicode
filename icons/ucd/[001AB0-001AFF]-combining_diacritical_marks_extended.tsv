@@ -1,32 +1,32 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1AB0	"""᪰"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining doubled circumflex accent		
-1AB1	"""᪱"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining diaeresis-ring		
-1AB2	"""᪲"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining infinity		
-1AB3	"""᪳"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining downwards arrow		
-1AB4	"""᪴"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining triple dot		
-1AB5	"""᪵"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining x-x below		
-1AB6	"""᪶"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining wiggly line below		
-1AB7	"""᪷"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining open mark below		
-1AB8	"""᪸"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double open mark below		
-1AB9	"""᪹"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining light centralization stroke below		
-1ABA	"""᪺"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining strong centralization stroke below		
-1ABB	"""᪻"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses above		
-1ABC	"""᪼"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double parentheses above		
-1ABD	"""᪽"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses below		
-1ABE	"""᪾"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses overlay		
-1ABF	"""ᪿ"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter w below		
-1AC0	"""ᫀ"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter turned w below		
-1AC1	"""᫁"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining left parenthesis above left		
-1AC2	"""᫂"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining right parenthesis above right		
-1AC3	"""᫃"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining left parenthesis below left		
-1AC4	"""᫄"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining right parenthesis below right		
-1AC5	"""᫅"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining square brackets above		
-1AC6	"""᫆"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining number sign above		
-1AC7	"""᫇"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining inverted double arch above		
-1AC8	"""᫈"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining plus sign above		
-1AC9	"""᫉"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double plus sign above		
-1ACA	"""᫊"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double plus sign below		
-1ACB	"""᫋"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining triple acute accent		
-1ACC	"""ᫌ"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular g		
-1ACD	"""ᫍ"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular r		
-1ACE	"""ᫎ"""	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular t		
+U+1AB0	᪰	1AB0..1AFF	Combining Diacritical Marks Extended	Combining doubled circumflex accent		
+U+1AB1	᪱	1AB0..1AFF	Combining Diacritical Marks Extended	Combining diaeresis-ring		
+U+1AB2	᪲	1AB0..1AFF	Combining Diacritical Marks Extended	Combining infinity		
+U+1AB3	᪳	1AB0..1AFF	Combining Diacritical Marks Extended	Combining downwards arrow		
+U+1AB4	᪴	1AB0..1AFF	Combining Diacritical Marks Extended	Combining triple dot		
+U+1AB5	᪵	1AB0..1AFF	Combining Diacritical Marks Extended	Combining x-x below		
+U+1AB6	᪶	1AB0..1AFF	Combining Diacritical Marks Extended	Combining wiggly line below		
+U+1AB7	᪷	1AB0..1AFF	Combining Diacritical Marks Extended	Combining open mark below		
+U+1AB8	᪸	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double open mark below		
+U+1AB9	᪹	1AB0..1AFF	Combining Diacritical Marks Extended	Combining light centralization stroke below		
+U+1ABA	᪺	1AB0..1AFF	Combining Diacritical Marks Extended	Combining strong centralization stroke below		
+U+1ABB	᪻	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses above		
+U+1ABC	᪼	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double parentheses above		
+U+1ABD	᪽	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses below		
+U+1ABE	᪾	1AB0..1AFF	Combining Diacritical Marks Extended	Combining parentheses overlay		
+U+1ABF	ᪿ	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter w below		
+U+1AC0	ᫀ	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter turned w below		
+U+1AC1	᫁	1AB0..1AFF	Combining Diacritical Marks Extended	Combining left parenthesis above left		
+U+1AC2	᫂	1AB0..1AFF	Combining Diacritical Marks Extended	Combining right parenthesis above right		
+U+1AC3	᫃	1AB0..1AFF	Combining Diacritical Marks Extended	Combining left parenthesis below left		
+U+1AC4	᫄	1AB0..1AFF	Combining Diacritical Marks Extended	Combining right parenthesis below right		
+U+1AC5	᫅	1AB0..1AFF	Combining Diacritical Marks Extended	Combining square brackets above		
+U+1AC6	᫆	1AB0..1AFF	Combining Diacritical Marks Extended	Combining number sign above		
+U+1AC7	᫇	1AB0..1AFF	Combining Diacritical Marks Extended	Combining inverted double arch above		
+U+1AC8	᫈	1AB0..1AFF	Combining Diacritical Marks Extended	Combining plus sign above		
+U+1AC9	᫉	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double plus sign above		
+U+1ACA	᫊	1AB0..1AFF	Combining Diacritical Marks Extended	Combining double plus sign below		
+U+1ACB	᫋	1AB0..1AFF	Combining Diacritical Marks Extended	Combining triple acute accent		
+U+1ACC	ᫌ	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular g		
+U+1ACD	ᫍ	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular r		
+U+1ACE	ᫎ	1AB0..1AFF	Combining Diacritical Marks Extended	Combining latin small letter insular t		

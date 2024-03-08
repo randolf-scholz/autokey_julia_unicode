@@ -1,8 +1,8 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-16FE0	"""𖿠"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Tangut iteration mark		
-16FE1	"""𖿡"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Nushu iteration mark		
-16FE2	"""𖿢"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Old chinese hook mark		
-16FE3	"""𖿣"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Old chinese iteration mark		
-16FE4	"""𖿤"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Khitan small script filler		
-16FF0	"""𖿰"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Vietnamese alternate reading mark ca		
-16FF1	"""𖿱"""	16FE0..16FFF	Ideographic Symbols and Punctuation	Vietnamese alternate reading mark nhay		
+U+16FE0	𖿠	16FE0..16FFF	Ideographic Symbols and Punctuation	Tangut iteration mark		
+U+16FE1	𖿡	16FE0..16FFF	Ideographic Symbols and Punctuation	Nushu iteration mark		
+U+16FE2	𖿢	16FE0..16FFF	Ideographic Symbols and Punctuation	Old chinese hook mark		
+U+16FE3	𖿣	16FE0..16FFF	Ideographic Symbols and Punctuation	Old chinese iteration mark		
+U+16FE4	𖿤	16FE0..16FFF	Ideographic Symbols and Punctuation	Khitan small script filler		
+U+16FF0	𖿰	16FE0..16FFF	Ideographic Symbols and Punctuation	Vietnamese alternate reading mark ca		
+U+16FF1	𖿱	16FE0..16FFF	Ideographic Symbols and Punctuation	Vietnamese alternate reading mark nhay		

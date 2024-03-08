@@ -1,11 +1,11 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A830	"""꠰"""	A830..A83F	Common Indic Number Forms	North indic fraction one quarter		
-A831	"""꠱"""	A830..A83F	Common Indic Number Forms	North indic fraction one half		
-A832	"""꠲"""	A830..A83F	Common Indic Number Forms	North indic fraction three quarters		
-A833	"""꠳"""	A830..A83F	Common Indic Number Forms	North indic fraction one sixteenth		
-A834	"""꠴"""	A830..A83F	Common Indic Number Forms	North indic fraction one eighth		
-A835	"""꠵"""	A830..A83F	Common Indic Number Forms	North indic fraction three sixteenths		
-A836	"""꠶"""	A830..A83F	Common Indic Number Forms	North indic quarter mark		
-A837	"""꠷"""	A830..A83F	Common Indic Number Forms	North indic placeholder mark		
-A838	"""꠸"""	A830..A83F	Common Indic Number Forms	North indic rupee mark		
-A839	"""꠹"""	A830..A83F	Common Indic Number Forms	North indic quantity mark		
+U+A830	꠰	A830..A83F	Common Indic Number Forms	North indic fraction one quarter		
+U+A831	꠱	A830..A83F	Common Indic Number Forms	North indic fraction one half		
+U+A832	꠲	A830..A83F	Common Indic Number Forms	North indic fraction three quarters		
+U+A833	꠳	A830..A83F	Common Indic Number Forms	North indic fraction one sixteenth		
+U+A834	꠴	A830..A83F	Common Indic Number Forms	North indic fraction one eighth		
+U+A835	꠵	A830..A83F	Common Indic Number Forms	North indic fraction three sixteenths		
+U+A836	꠶	A830..A83F	Common Indic Number Forms	North indic quarter mark		
+U+A837	꠷	A830..A83F	Common Indic Number Forms	North indic placeholder mark		
+U+A838	꠸	A830..A83F	Common Indic Number Forms	North indic rupee mark		
+U+A839	꠹	A830..A83F	Common Indic Number Forms	North indic quantity mark		

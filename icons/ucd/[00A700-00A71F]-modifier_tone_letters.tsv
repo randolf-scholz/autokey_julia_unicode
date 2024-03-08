@@ -1,33 +1,33 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A700	"""꜀"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin ping		
-A701	"""꜁"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang ping		
-A702	"""꜂"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin shang		
-A703	"""꜃"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang shang		
-A704	"""꜄"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin qu		
-A705	"""꜅"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang qu		
-A706	"""꜆"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin ru		
-A707	"""꜇"""	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang ru		
-A708	"""꜈"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-high dotted tone bar		
-A709	"""꜉"""	A700..A71F	Modifier Tone Letters	Modifier letter high dotted tone bar		
-A70A	"""꜊"""	A700..A71F	Modifier Tone Letters	Modifier letter mid dotted tone bar		
-A70B	"""꜋"""	A700..A71F	Modifier Tone Letters	Modifier letter low dotted tone bar		
-A70C	"""꜌"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-low dotted tone bar		
-A70D	"""꜍"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-high dotted left-stem tone bar		
-A70E	"""꜎"""	A700..A71F	Modifier Tone Letters	Modifier letter high dotted left-stem tone bar		
-A70F	"""꜏"""	A700..A71F	Modifier Tone Letters	Modifier letter mid dotted left-stem tone bar		
-A710	"""꜐"""	A700..A71F	Modifier Tone Letters	Modifier letter low dotted left-stem tone bar		
-A711	"""꜑"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-low dotted left-stem tone bar		
-A712	"""꜒"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-high left-stem tone bar		
-A713	"""꜓"""	A700..A71F	Modifier Tone Letters	Modifier letter high left-stem tone bar		
-A714	"""꜔"""	A700..A71F	Modifier Tone Letters	Modifier letter mid left-stem tone bar		
-A715	"""꜕"""	A700..A71F	Modifier Tone Letters	Modifier letter low left-stem tone bar		
-A716	"""꜖"""	A700..A71F	Modifier Tone Letters	Modifier letter extra-low left-stem tone bar		
-A717	"""ꜗ"""	A700..A71F	Modifier Tone Letters	Modifier letter dot vertical bar		
-A718	"""ꜘ"""	A700..A71F	Modifier Tone Letters	Modifier letter dot slash		
-A719	"""ꜙ"""	A700..A71F	Modifier Tone Letters	Modifier letter dot horizontal bar		
-A71A	"""ꜚ"""	A700..A71F	Modifier Tone Letters	Modifier letter lower right corner angle		
-A71B	"""ꜛ"""	A700..A71F	Modifier Tone Letters	Modifier letter raised up arrow		
-A71C	"""ꜜ"""	A700..A71F	Modifier Tone Letters	Modifier letter raised down arrow		
-A71D	"""ꜝ"""	A700..A71F	Modifier Tone Letters	Modifier letter raised exclamation mark		
-A71E	"""ꜞ"""	A700..A71F	Modifier Tone Letters	Modifier letter raised inverted exclamation mark		
-A71F	"""ꜟ"""	A700..A71F	Modifier Tone Letters	Modifier letter low inverted exclamation mark		
+U+A700	꜀	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin ping		
+U+A701	꜁	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang ping		
+U+A702	꜂	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin shang		
+U+A703	꜃	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang shang		
+U+A704	꜄	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin qu		
+U+A705	꜅	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang qu		
+U+A706	꜆	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yin ru		
+U+A707	꜇	A700..A71F	Modifier Tone Letters	Modifier letter chinese tone yang ru		
+U+A708	꜈	A700..A71F	Modifier Tone Letters	Modifier letter extra-high dotted tone bar		
+U+A709	꜉	A700..A71F	Modifier Tone Letters	Modifier letter high dotted tone bar		
+U+A70A	꜊	A700..A71F	Modifier Tone Letters	Modifier letter mid dotted tone bar		
+U+A70B	꜋	A700..A71F	Modifier Tone Letters	Modifier letter low dotted tone bar		
+U+A70C	꜌	A700..A71F	Modifier Tone Letters	Modifier letter extra-low dotted tone bar		
+U+A70D	꜍	A700..A71F	Modifier Tone Letters	Modifier letter extra-high dotted left-stem tone bar		
+U+A70E	꜎	A700..A71F	Modifier Tone Letters	Modifier letter high dotted left-stem tone bar		
+U+A70F	꜏	A700..A71F	Modifier Tone Letters	Modifier letter mid dotted left-stem tone bar		
+U+A710	꜐	A700..A71F	Modifier Tone Letters	Modifier letter low dotted left-stem tone bar		
+U+A711	꜑	A700..A71F	Modifier Tone Letters	Modifier letter extra-low dotted left-stem tone bar		
+U+A712	꜒	A700..A71F	Modifier Tone Letters	Modifier letter extra-high left-stem tone bar		
+U+A713	꜓	A700..A71F	Modifier Tone Letters	Modifier letter high left-stem tone bar		
+U+A714	꜔	A700..A71F	Modifier Tone Letters	Modifier letter mid left-stem tone bar		
+U+A715	꜕	A700..A71F	Modifier Tone Letters	Modifier letter low left-stem tone bar		
+U+A716	꜖	A700..A71F	Modifier Tone Letters	Modifier letter extra-low left-stem tone bar		
+U+A717	ꜗ	A700..A71F	Modifier Tone Letters	Modifier letter dot vertical bar		
+U+A718	ꜘ	A700..A71F	Modifier Tone Letters	Modifier letter dot slash		
+U+A719	ꜙ	A700..A71F	Modifier Tone Letters	Modifier letter dot horizontal bar		
+U+A71A	ꜚ	A700..A71F	Modifier Tone Letters	Modifier letter lower right corner angle		
+U+A71B	ꜛ	A700..A71F	Modifier Tone Letters	Modifier letter raised up arrow		
+U+A71C	ꜜ	A700..A71F	Modifier Tone Letters	Modifier letter raised down arrow		
+U+A71D	ꜝ	A700..A71F	Modifier Tone Letters	Modifier letter raised exclamation mark		
+U+A71E	ꜞ	A700..A71F	Modifier Tone Letters	Modifier letter raised inverted exclamation mark		
+U+A71F	ꜟ	A700..A71F	Modifier Tone Letters	Modifier letter low inverted exclamation mark		

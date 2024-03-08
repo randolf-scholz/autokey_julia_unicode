@@ -1,87 +1,87 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11F00	"""𑼀"""	11F00..11F5F	Kawi	Kawi sign candrabindu		
-11F01	"""𑼁"""	11F00..11F5F	Kawi	Kawi sign anusvara		
-11F02	"""𑼂"""	11F00..11F5F	Kawi	Kawi sign repha		
-11F03	"""𑼃"""	11F00..11F5F	Kawi	Kawi sign visarga		
-11F04	"""𑼄"""	11F00..11F5F	Kawi	Kawi letter a		
-11F05	"""𑼅"""	11F00..11F5F	Kawi	Kawi letter aa		
-11F06	"""𑼆"""	11F00..11F5F	Kawi	Kawi letter i		
-11F07	"""𑼇"""	11F00..11F5F	Kawi	Kawi letter ii		
-11F08	"""𑼈"""	11F00..11F5F	Kawi	Kawi letter u		
-11F09	"""𑼉"""	11F00..11F5F	Kawi	Kawi letter uu		
-11F0A	"""𑼊"""	11F00..11F5F	Kawi	Kawi letter vocalic r		
-11F0B	"""𑼋"""	11F00..11F5F	Kawi	Kawi letter vocalic rr		
-11F0C	"""𑼌"""	11F00..11F5F	Kawi	Kawi letter vocalic l		
-11F0D	"""𑼍"""	11F00..11F5F	Kawi	Kawi letter vocalic ll		
-11F0E	"""𑼎"""	11F00..11F5F	Kawi	Kawi letter e		
-11F0F	"""𑼏"""	11F00..11F5F	Kawi	Kawi letter ai		
-11F10	"""𑼐"""	11F00..11F5F	Kawi	Kawi letter o		
-11F12	"""𑼒"""	11F00..11F5F	Kawi	Kawi letter ka		
-11F13	"""𑼓"""	11F00..11F5F	Kawi	Kawi letter kha		
-11F14	"""𑼔"""	11F00..11F5F	Kawi	Kawi letter ga		
-11F15	"""𑼕"""	11F00..11F5F	Kawi	Kawi letter gha		
-11F16	"""𑼖"""	11F00..11F5F	Kawi	Kawi letter nga		
-11F17	"""𑼗"""	11F00..11F5F	Kawi	Kawi letter ca		
-11F18	"""𑼘"""	11F00..11F5F	Kawi	Kawi letter cha		
-11F19	"""𑼙"""	11F00..11F5F	Kawi	Kawi letter ja		
-11F1A	"""𑼚"""	11F00..11F5F	Kawi	Kawi letter jha		
-11F1B	"""𑼛"""	11F00..11F5F	Kawi	Kawi letter nya		
-11F1C	"""𑼜"""	11F00..11F5F	Kawi	Kawi letter tta		
-11F1D	"""𑼝"""	11F00..11F5F	Kawi	Kawi letter ttha		
-11F1E	"""𑼞"""	11F00..11F5F	Kawi	Kawi letter dda		
-11F1F	"""𑼟"""	11F00..11F5F	Kawi	Kawi letter ddha		
-11F20	"""𑼠"""	11F00..11F5F	Kawi	Kawi letter nna		
-11F21	"""𑼡"""	11F00..11F5F	Kawi	Kawi letter ta		
-11F22	"""𑼢"""	11F00..11F5F	Kawi	Kawi letter tha		
-11F23	"""𑼣"""	11F00..11F5F	Kawi	Kawi letter da		
-11F24	"""𑼤"""	11F00..11F5F	Kawi	Kawi letter dha		
-11F25	"""𑼥"""	11F00..11F5F	Kawi	Kawi letter na		
-11F26	"""𑼦"""	11F00..11F5F	Kawi	Kawi letter pa		
-11F27	"""𑼧"""	11F00..11F5F	Kawi	Kawi letter pha		
-11F28	"""𑼨"""	11F00..11F5F	Kawi	Kawi letter ba		
-11F29	"""𑼩"""	11F00..11F5F	Kawi	Kawi letter bha		
-11F2A	"""𑼪"""	11F00..11F5F	Kawi	Kawi letter ma		
-11F2B	"""𑼫"""	11F00..11F5F	Kawi	Kawi letter ya		
-11F2C	"""𑼬"""	11F00..11F5F	Kawi	Kawi letter ra		
-11F2D	"""𑼭"""	11F00..11F5F	Kawi	Kawi letter la		
-11F2E	"""𑼮"""	11F00..11F5F	Kawi	Kawi letter wa		
-11F2F	"""𑼯"""	11F00..11F5F	Kawi	Kawi letter sha		
-11F30	"""𑼰"""	11F00..11F5F	Kawi	Kawi letter ssa		
-11F31	"""𑼱"""	11F00..11F5F	Kawi	Kawi letter sa		
-11F32	"""𑼲"""	11F00..11F5F	Kawi	Kawi letter ha		
-11F33	"""𑼳"""	11F00..11F5F	Kawi	Kawi letter jnya		
-11F34	"""𑼴"""	11F00..11F5F	Kawi	Kawi vowel sign aa		
-11F35	"""𑼵"""	11F00..11F5F	Kawi	Kawi vowel sign alternate aa		
-11F36	"""𑼶"""	11F00..11F5F	Kawi	Kawi vowel sign i		
-11F37	"""𑼷"""	11F00..11F5F	Kawi	Kawi vowel sign ii		
-11F38	"""𑼸"""	11F00..11F5F	Kawi	Kawi vowel sign u		
-11F39	"""𑼹"""	11F00..11F5F	Kawi	Kawi vowel sign uu		
-11F3A	"""𑼺"""	11F00..11F5F	Kawi	Kawi vowel sign vocalic r		
-11F3E	"""𑼾"""	11F00..11F5F	Kawi	Kawi vowel sign e		
-11F3F	"""𑼿"""	11F00..11F5F	Kawi	Kawi vowel sign ai		
-11F40	"""𑽀"""	11F00..11F5F	Kawi	Kawi vowel sign eu		
-11F41	"""𑽁"""	11F00..11F5F	Kawi	Kawi sign killer		
-11F42	"""𑽂"""	11F00..11F5F	Kawi	Kawi conjoiner		
-11F43	"""𑽃"""	11F00..11F5F	Kawi	Kawi danda		
-11F44	"""𑽄"""	11F00..11F5F	Kawi	Kawi double danda		
-11F45	"""𑽅"""	11F00..11F5F	Kawi	Kawi punctuation section marker		
-11F46	"""𑽆"""	11F00..11F5F	Kawi	Kawi punctuation alternate section marker		
-11F47	"""𑽇"""	11F00..11F5F	Kawi	Kawi punctuation flower		
-11F48	"""𑽈"""	11F00..11F5F	Kawi	Kawi punctuation space filler		
-11F49	"""𑽉"""	11F00..11F5F	Kawi	Kawi punctuation dot		
-11F4A	"""𑽊"""	11F00..11F5F	Kawi	Kawi punctuation double dot		
-11F4B	"""𑽋"""	11F00..11F5F	Kawi	Kawi punctuation triple dot		
-11F4C	"""𑽌"""	11F00..11F5F	Kawi	Kawi punctuation circle		
-11F4D	"""𑽍"""	11F00..11F5F	Kawi	Kawi punctuation filled circle		
-11F4E	"""𑽎"""	11F00..11F5F	Kawi	Kawi punctuation spiral		
-11F4F	"""𑽏"""	11F00..11F5F	Kawi	Kawi punctuation closing spiral		
-11F50	"""𑽐"""	11F00..11F5F	Kawi	Kawi digit zero		
-11F51	"""𑽑"""	11F00..11F5F	Kawi	Kawi digit one		
-11F52	"""𑽒"""	11F00..11F5F	Kawi	Kawi digit two		
-11F53	"""𑽓"""	11F00..11F5F	Kawi	Kawi digit three		
-11F54	"""𑽔"""	11F00..11F5F	Kawi	Kawi digit four		
-11F55	"""𑽕"""	11F00..11F5F	Kawi	Kawi digit five		
-11F56	"""𑽖"""	11F00..11F5F	Kawi	Kawi digit six		
-11F57	"""𑽗"""	11F00..11F5F	Kawi	Kawi digit seven		
-11F58	"""𑽘"""	11F00..11F5F	Kawi	Kawi digit eight		
-11F59	"""𑽙"""	11F00..11F5F	Kawi	Kawi digit nine		
+U+11F00	𑼀	11F00..11F5F	Kawi	Kawi sign candrabindu		
+U+11F01	𑼁	11F00..11F5F	Kawi	Kawi sign anusvara		
+U+11F02	𑼂	11F00..11F5F	Kawi	Kawi sign repha		
+U+11F03	𑼃	11F00..11F5F	Kawi	Kawi sign visarga		
+U+11F04	𑼄	11F00..11F5F	Kawi	Kawi letter a		
+U+11F05	𑼅	11F00..11F5F	Kawi	Kawi letter aa		
+U+11F06	𑼆	11F00..11F5F	Kawi	Kawi letter i		
+U+11F07	𑼇	11F00..11F5F	Kawi	Kawi letter ii		
+U+11F08	𑼈	11F00..11F5F	Kawi	Kawi letter u		
+U+11F09	𑼉	11F00..11F5F	Kawi	Kawi letter uu		
+U+11F0A	𑼊	11F00..11F5F	Kawi	Kawi letter vocalic r		
+U+11F0B	𑼋	11F00..11F5F	Kawi	Kawi letter vocalic rr		
+U+11F0C	𑼌	11F00..11F5F	Kawi	Kawi letter vocalic l		
+U+11F0D	𑼍	11F00..11F5F	Kawi	Kawi letter vocalic ll		
+U+11F0E	𑼎	11F00..11F5F	Kawi	Kawi letter e		
+U+11F0F	𑼏	11F00..11F5F	Kawi	Kawi letter ai		
+U+11F10	𑼐	11F00..11F5F	Kawi	Kawi letter o		
+U+11F12	𑼒	11F00..11F5F	Kawi	Kawi letter ka		
+U+11F13	𑼓	11F00..11F5F	Kawi	Kawi letter kha		
+U+11F14	𑼔	11F00..11F5F	Kawi	Kawi letter ga		
+U+11F15	𑼕	11F00..11F5F	Kawi	Kawi letter gha		
+U+11F16	𑼖	11F00..11F5F	Kawi	Kawi letter nga		
+U+11F17	𑼗	11F00..11F5F	Kawi	Kawi letter ca		
+U+11F18	𑼘	11F00..11F5F	Kawi	Kawi letter cha		
+U+11F19	𑼙	11F00..11F5F	Kawi	Kawi letter ja		
+U+11F1A	𑼚	11F00..11F5F	Kawi	Kawi letter jha		
+U+11F1B	𑼛	11F00..11F5F	Kawi	Kawi letter nya		
+U+11F1C	𑼜	11F00..11F5F	Kawi	Kawi letter tta		
+U+11F1D	𑼝	11F00..11F5F	Kawi	Kawi letter ttha		
+U+11F1E	𑼞	11F00..11F5F	Kawi	Kawi letter dda		
+U+11F1F	𑼟	11F00..11F5F	Kawi	Kawi letter ddha		
+U+11F20	𑼠	11F00..11F5F	Kawi	Kawi letter nna		
+U+11F21	𑼡	11F00..11F5F	Kawi	Kawi letter ta		
+U+11F22	𑼢	11F00..11F5F	Kawi	Kawi letter tha		
+U+11F23	𑼣	11F00..11F5F	Kawi	Kawi letter da		
+U+11F24	𑼤	11F00..11F5F	Kawi	Kawi letter dha		
+U+11F25	𑼥	11F00..11F5F	Kawi	Kawi letter na		
+U+11F26	𑼦	11F00..11F5F	Kawi	Kawi letter pa		
+U+11F27	𑼧	11F00..11F5F	Kawi	Kawi letter pha		
+U+11F28	𑼨	11F00..11F5F	Kawi	Kawi letter ba		
+U+11F29	𑼩	11F00..11F5F	Kawi	Kawi letter bha		
+U+11F2A	𑼪	11F00..11F5F	Kawi	Kawi letter ma		
+U+11F2B	𑼫	11F00..11F5F	Kawi	Kawi letter ya		
+U+11F2C	𑼬	11F00..11F5F	Kawi	Kawi letter ra		
+U+11F2D	𑼭	11F00..11F5F	Kawi	Kawi letter la		
+U+11F2E	𑼮	11F00..11F5F	Kawi	Kawi letter wa		
+U+11F2F	𑼯	11F00..11F5F	Kawi	Kawi letter sha		
+U+11F30	𑼰	11F00..11F5F	Kawi	Kawi letter ssa		
+U+11F31	𑼱	11F00..11F5F	Kawi	Kawi letter sa		
+U+11F32	𑼲	11F00..11F5F	Kawi	Kawi letter ha		
+U+11F33	𑼳	11F00..11F5F	Kawi	Kawi letter jnya		
+U+11F34	𑼴	11F00..11F5F	Kawi	Kawi vowel sign aa		
+U+11F35	𑼵	11F00..11F5F	Kawi	Kawi vowel sign alternate aa		
+U+11F36	𑼶	11F00..11F5F	Kawi	Kawi vowel sign i		
+U+11F37	𑼷	11F00..11F5F	Kawi	Kawi vowel sign ii		
+U+11F38	𑼸	11F00..11F5F	Kawi	Kawi vowel sign u		
+U+11F39	𑼹	11F00..11F5F	Kawi	Kawi vowel sign uu		
+U+11F3A	𑼺	11F00..11F5F	Kawi	Kawi vowel sign vocalic r		
+U+11F3E	𑼾	11F00..11F5F	Kawi	Kawi vowel sign e		
+U+11F3F	𑼿	11F00..11F5F	Kawi	Kawi vowel sign ai		
+U+11F40	𑽀	11F00..11F5F	Kawi	Kawi vowel sign eu		
+U+11F41	𑽁	11F00..11F5F	Kawi	Kawi sign killer		
+U+11F42	𑽂	11F00..11F5F	Kawi	Kawi conjoiner		
+U+11F43	𑽃	11F00..11F5F	Kawi	Kawi danda		
+U+11F44	𑽄	11F00..11F5F	Kawi	Kawi double danda		
+U+11F45	𑽅	11F00..11F5F	Kawi	Kawi punctuation section marker		
+U+11F46	𑽆	11F00..11F5F	Kawi	Kawi punctuation alternate section marker		
+U+11F47	𑽇	11F00..11F5F	Kawi	Kawi punctuation flower		
+U+11F48	𑽈	11F00..11F5F	Kawi	Kawi punctuation space filler		
+U+11F49	𑽉	11F00..11F5F	Kawi	Kawi punctuation dot		
+U+11F4A	𑽊	11F00..11F5F	Kawi	Kawi punctuation double dot		
+U+11F4B	𑽋	11F00..11F5F	Kawi	Kawi punctuation triple dot		
+U+11F4C	𑽌	11F00..11F5F	Kawi	Kawi punctuation circle		
+U+11F4D	𑽍	11F00..11F5F	Kawi	Kawi punctuation filled circle		
+U+11F4E	𑽎	11F00..11F5F	Kawi	Kawi punctuation spiral		
+U+11F4F	𑽏	11F00..11F5F	Kawi	Kawi punctuation closing spiral		
+U+11F50	𑽐	11F00..11F5F	Kawi	Kawi digit zero		
+U+11F51	𑽑	11F00..11F5F	Kawi	Kawi digit one		
+U+11F52	𑽒	11F00..11F5F	Kawi	Kawi digit two		
+U+11F53	𑽓	11F00..11F5F	Kawi	Kawi digit three		
+U+11F54	𑽔	11F00..11F5F	Kawi	Kawi digit four		
+U+11F55	𑽕	11F00..11F5F	Kawi	Kawi digit five		
+U+11F56	𑽖	11F00..11F5F	Kawi	Kawi digit six		
+U+11F57	𑽗	11F00..11F5F	Kawi	Kawi digit seven		
+U+11F58	𑽘	11F00..11F5F	Kawi	Kawi digit eight		
+U+11F59	𑽙	11F00..11F5F	Kawi	Kawi digit nine		

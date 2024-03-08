@@ -1,128 +1,128 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1A20	"""ᨠ"""	1A20..1AAF	Tai Tham	Tai tham letter high ka		
-1A21	"""ᨡ"""	1A20..1AAF	Tai Tham	Tai tham letter high kha		
-1A22	"""ᨢ"""	1A20..1AAF	Tai Tham	Tai tham letter high kxa		
-1A23	"""ᨣ"""	1A20..1AAF	Tai Tham	Tai tham letter low ka		
-1A24	"""ᨤ"""	1A20..1AAF	Tai Tham	Tai tham letter low kxa		
-1A25	"""ᨥ"""	1A20..1AAF	Tai Tham	Tai tham letter low kha		
-1A26	"""ᨦ"""	1A20..1AAF	Tai Tham	Tai tham letter nga		
-1A27	"""ᨧ"""	1A20..1AAF	Tai Tham	Tai tham letter high ca		
-1A28	"""ᨨ"""	1A20..1AAF	Tai Tham	Tai tham letter high cha		
-1A29	"""ᨩ"""	1A20..1AAF	Tai Tham	Tai tham letter low ca		
-1A2A	"""ᨪ"""	1A20..1AAF	Tai Tham	Tai tham letter low sa		
-1A2B	"""ᨫ"""	1A20..1AAF	Tai Tham	Tai tham letter low cha		
-1A2C	"""ᨬ"""	1A20..1AAF	Tai Tham	Tai tham letter nya		
-1A2D	"""ᨭ"""	1A20..1AAF	Tai Tham	Tai tham letter rata		
-1A2E	"""ᨮ"""	1A20..1AAF	Tai Tham	Tai tham letter high ratha		
-1A2F	"""ᨯ"""	1A20..1AAF	Tai Tham	Tai tham letter da		
-1A30	"""ᨰ"""	1A20..1AAF	Tai Tham	Tai tham letter low ratha		
-1A31	"""ᨱ"""	1A20..1AAF	Tai Tham	Tai tham letter rana		
-1A32	"""ᨲ"""	1A20..1AAF	Tai Tham	Tai tham letter high ta		
-1A33	"""ᨳ"""	1A20..1AAF	Tai Tham	Tai tham letter high tha		
-1A34	"""ᨴ"""	1A20..1AAF	Tai Tham	Tai tham letter low ta		
-1A35	"""ᨵ"""	1A20..1AAF	Tai Tham	Tai tham letter low tha		
-1A36	"""ᨶ"""	1A20..1AAF	Tai Tham	Tai tham letter na		
-1A37	"""ᨷ"""	1A20..1AAF	Tai Tham	Tai tham letter ba		
-1A38	"""ᨸ"""	1A20..1AAF	Tai Tham	Tai tham letter high pa		
-1A39	"""ᨹ"""	1A20..1AAF	Tai Tham	Tai tham letter high pha		
-1A3A	"""ᨺ"""	1A20..1AAF	Tai Tham	Tai tham letter high fa		
-1A3B	"""ᨻ"""	1A20..1AAF	Tai Tham	Tai tham letter low pa		
-1A3C	"""ᨼ"""	1A20..1AAF	Tai Tham	Tai tham letter low fa		
-1A3D	"""ᨽ"""	1A20..1AAF	Tai Tham	Tai tham letter low pha		
-1A3E	"""ᨾ"""	1A20..1AAF	Tai Tham	Tai tham letter ma		
-1A3F	"""ᨿ"""	1A20..1AAF	Tai Tham	Tai tham letter low ya		
-1A40	"""ᩀ"""	1A20..1AAF	Tai Tham	Tai tham letter high ya		
-1A41	"""ᩁ"""	1A20..1AAF	Tai Tham	Tai tham letter ra		
-1A42	"""ᩂ"""	1A20..1AAF	Tai Tham	Tai tham letter rue		
-1A43	"""ᩃ"""	1A20..1AAF	Tai Tham	Tai tham letter la		
-1A44	"""ᩄ"""	1A20..1AAF	Tai Tham	Tai tham letter lue		
-1A45	"""ᩅ"""	1A20..1AAF	Tai Tham	Tai tham letter wa		
-1A46	"""ᩆ"""	1A20..1AAF	Tai Tham	Tai tham letter high sha		
-1A47	"""ᩇ"""	1A20..1AAF	Tai Tham	Tai tham letter high ssa		
-1A48	"""ᩈ"""	1A20..1AAF	Tai Tham	Tai tham letter high sa		
-1A49	"""ᩉ"""	1A20..1AAF	Tai Tham	Tai tham letter high ha		
-1A4A	"""ᩊ"""	1A20..1AAF	Tai Tham	Tai tham letter lla		
-1A4B	"""ᩋ"""	1A20..1AAF	Tai Tham	Tai tham letter a		
-1A4C	"""ᩌ"""	1A20..1AAF	Tai Tham	Tai tham letter low ha		
-1A4D	"""ᩍ"""	1A20..1AAF	Tai Tham	Tai tham letter i		
-1A4E	"""ᩎ"""	1A20..1AAF	Tai Tham	Tai tham letter ii		
-1A4F	"""ᩏ"""	1A20..1AAF	Tai Tham	Tai tham letter u		
-1A50	"""ᩐ"""	1A20..1AAF	Tai Tham	Tai tham letter uu		
-1A51	"""ᩑ"""	1A20..1AAF	Tai Tham	Tai tham letter ee		
-1A52	"""ᩒ"""	1A20..1AAF	Tai Tham	Tai tham letter oo		
-1A53	"""ᩓ"""	1A20..1AAF	Tai Tham	Tai tham letter lae		
-1A54	"""ᩔ"""	1A20..1AAF	Tai Tham	Tai tham letter great sa		
-1A55	"""ᩕ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign medial ra		
-1A56	"""ᩖ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign medial la		
-1A57	"""ᩗ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign la tang lai		
-1A58	"""ᩘ"""	1A20..1AAF	Tai Tham	Tai tham sign mai kang lai		
-1A59	"""ᩙ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign final nga		
-1A5A	"""ᩚ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign low pa		
-1A5B	"""ᩛ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign high ratha or low pa		
-1A5C	"""ᩜ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign ma		
-1A5D	"""ᩝ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign ba		
-1A5E	"""ᩞ"""	1A20..1AAF	Tai Tham	Tai tham consonant sign sa		
-1A60	"""᩠"""	1A20..1AAF	Tai Tham	Tai tham sign sakot		
-1A61	"""ᩡ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign a		
-1A62	"""ᩢ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign mai sat		
-1A63	"""ᩣ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign aa		
-1A64	"""ᩤ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign tall aa		
-1A65	"""ᩥ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign i		
-1A66	"""ᩦ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign ii		
-1A67	"""ᩧ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign ue		
-1A68	"""ᩨ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign uue		
-1A69	"""ᩩ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign u		
-1A6A	"""ᩪ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign uu		
-1A6B	"""ᩫ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign o		
-1A6C	"""ᩬ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign oa below		
-1A6D	"""ᩭ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign oy		
-1A6E	"""ᩮ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign e		
-1A6F	"""ᩯ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign ae		
-1A70	"""ᩰ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign oo		
-1A71	"""ᩱ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign ai		
-1A72	"""ᩲ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign tham ai		
-1A73	"""ᩳ"""	1A20..1AAF	Tai Tham	Tai tham vowel sign oa above		
-1A74	"""ᩴ"""	1A20..1AAF	Tai Tham	Tai tham sign mai kang		
-1A75	"""᩵"""	1A20..1AAF	Tai Tham	Tai tham sign tone-1		
-1A76	"""᩶"""	1A20..1AAF	Tai Tham	Tai tham sign tone-2		
-1A77	"""᩷"""	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-3		
-1A78	"""᩸"""	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-4		
-1A79	"""᩹"""	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-5		
-1A7A	"""᩺"""	1A20..1AAF	Tai Tham	Tai tham sign ra haam		
-1A7B	"""᩻"""	1A20..1AAF	Tai Tham	Tai tham sign mai sam		
-1A7C	"""᩼"""	1A20..1AAF	Tai Tham	Tai tham sign khuen-lue karan		
-1A7F	"""᩿"""	1A20..1AAF	Tai Tham	Tai tham combining cryptogrammic dot		
-1A80	"""᪀"""	1A20..1AAF	Tai Tham	Tai tham hora digit zero		
-1A81	"""᪁"""	1A20..1AAF	Tai Tham	Tai tham hora digit one		
-1A82	"""᪂"""	1A20..1AAF	Tai Tham	Tai tham hora digit two		
-1A83	"""᪃"""	1A20..1AAF	Tai Tham	Tai tham hora digit three		
-1A84	"""᪄"""	1A20..1AAF	Tai Tham	Tai tham hora digit four		
-1A85	"""᪅"""	1A20..1AAF	Tai Tham	Tai tham hora digit five		
-1A86	"""᪆"""	1A20..1AAF	Tai Tham	Tai tham hora digit six		
-1A87	"""᪇"""	1A20..1AAF	Tai Tham	Tai tham hora digit seven		
-1A88	"""᪈"""	1A20..1AAF	Tai Tham	Tai tham hora digit eight		
-1A89	"""᪉"""	1A20..1AAF	Tai Tham	Tai tham hora digit nine		
-1A90	"""᪐"""	1A20..1AAF	Tai Tham	Tai tham tham digit zero		
-1A91	"""᪑"""	1A20..1AAF	Tai Tham	Tai tham tham digit one		
-1A92	"""᪒"""	1A20..1AAF	Tai Tham	Tai tham tham digit two		
-1A93	"""᪓"""	1A20..1AAF	Tai Tham	Tai tham tham digit three		
-1A94	"""᪔"""	1A20..1AAF	Tai Tham	Tai tham tham digit four		
-1A95	"""᪕"""	1A20..1AAF	Tai Tham	Tai tham tham digit five		
-1A96	"""᪖"""	1A20..1AAF	Tai Tham	Tai tham tham digit six		
-1A97	"""᪗"""	1A20..1AAF	Tai Tham	Tai tham tham digit seven		
-1A98	"""᪘"""	1A20..1AAF	Tai Tham	Tai tham tham digit eight		
-1A99	"""᪙"""	1A20..1AAF	Tai Tham	Tai tham tham digit nine		
-1AA0	"""᪠"""	1A20..1AAF	Tai Tham	Tai tham sign wiang		
-1AA1	"""᪡"""	1A20..1AAF	Tai Tham	Tai tham sign wiangwaak		
-1AA2	"""᪢"""	1A20..1AAF	Tai Tham	Tai tham sign sawan		
-1AA3	"""᪣"""	1A20..1AAF	Tai Tham	Tai tham sign keow		
-1AA4	"""᪤"""	1A20..1AAF	Tai Tham	Tai tham sign hoy		
-1AA5	"""᪥"""	1A20..1AAF	Tai Tham	Tai tham sign dokmai		
-1AA6	"""᪦"""	1A20..1AAF	Tai Tham	Tai tham sign reversed rotated rana		
-1AA7	"""ᪧ"""	1A20..1AAF	Tai Tham	Tai tham sign mai yamok		
-1AA8	"""᪨"""	1A20..1AAF	Tai Tham	Tai tham sign kaan		
-1AA9	"""᪩"""	1A20..1AAF	Tai Tham	Tai tham sign kaankuu		
-1AAA	"""᪪"""	1A20..1AAF	Tai Tham	Tai tham sign satkaan		
-1AAB	"""᪫"""	1A20..1AAF	Tai Tham	Tai tham sign satkaankuu		
-1AAC	"""᪬"""	1A20..1AAF	Tai Tham	Tai tham sign hang		
-1AAD	"""᪭"""	1A20..1AAF	Tai Tham	Tai tham sign caang		
+U+1A20	ᨠ	1A20..1AAF	Tai Tham	Tai tham letter high ka		
+U+1A21	ᨡ	1A20..1AAF	Tai Tham	Tai tham letter high kha		
+U+1A22	ᨢ	1A20..1AAF	Tai Tham	Tai tham letter high kxa		
+U+1A23	ᨣ	1A20..1AAF	Tai Tham	Tai tham letter low ka		
+U+1A24	ᨤ	1A20..1AAF	Tai Tham	Tai tham letter low kxa		
+U+1A25	ᨥ	1A20..1AAF	Tai Tham	Tai tham letter low kha		
+U+1A26	ᨦ	1A20..1AAF	Tai Tham	Tai tham letter nga		
+U+1A27	ᨧ	1A20..1AAF	Tai Tham	Tai tham letter high ca		
+U+1A28	ᨨ	1A20..1AAF	Tai Tham	Tai tham letter high cha		
+U+1A29	ᨩ	1A20..1AAF	Tai Tham	Tai tham letter low ca		
+U+1A2A	ᨪ	1A20..1AAF	Tai Tham	Tai tham letter low sa		
+U+1A2B	ᨫ	1A20..1AAF	Tai Tham	Tai tham letter low cha		
+U+1A2C	ᨬ	1A20..1AAF	Tai Tham	Tai tham letter nya		
+U+1A2D	ᨭ	1A20..1AAF	Tai Tham	Tai tham letter rata		
+U+1A2E	ᨮ	1A20..1AAF	Tai Tham	Tai tham letter high ratha		
+U+1A2F	ᨯ	1A20..1AAF	Tai Tham	Tai tham letter da		
+U+1A30	ᨰ	1A20..1AAF	Tai Tham	Tai tham letter low ratha		
+U+1A31	ᨱ	1A20..1AAF	Tai Tham	Tai tham letter rana		
+U+1A32	ᨲ	1A20..1AAF	Tai Tham	Tai tham letter high ta		
+U+1A33	ᨳ	1A20..1AAF	Tai Tham	Tai tham letter high tha		
+U+1A34	ᨴ	1A20..1AAF	Tai Tham	Tai tham letter low ta		
+U+1A35	ᨵ	1A20..1AAF	Tai Tham	Tai tham letter low tha		
+U+1A36	ᨶ	1A20..1AAF	Tai Tham	Tai tham letter na		
+U+1A37	ᨷ	1A20..1AAF	Tai Tham	Tai tham letter ba		
+U+1A38	ᨸ	1A20..1AAF	Tai Tham	Tai tham letter high pa		
+U+1A39	ᨹ	1A20..1AAF	Tai Tham	Tai tham letter high pha		
+U+1A3A	ᨺ	1A20..1AAF	Tai Tham	Tai tham letter high fa		
+U+1A3B	ᨻ	1A20..1AAF	Tai Tham	Tai tham letter low pa		
+U+1A3C	ᨼ	1A20..1AAF	Tai Tham	Tai tham letter low fa		
+U+1A3D	ᨽ	1A20..1AAF	Tai Tham	Tai tham letter low pha		
+U+1A3E	ᨾ	1A20..1AAF	Tai Tham	Tai tham letter ma		
+U+1A3F	ᨿ	1A20..1AAF	Tai Tham	Tai tham letter low ya		
+U+1A40	ᩀ	1A20..1AAF	Tai Tham	Tai tham letter high ya		
+U+1A41	ᩁ	1A20..1AAF	Tai Tham	Tai tham letter ra		
+U+1A42	ᩂ	1A20..1AAF	Tai Tham	Tai tham letter rue		
+U+1A43	ᩃ	1A20..1AAF	Tai Tham	Tai tham letter la		
+U+1A44	ᩄ	1A20..1AAF	Tai Tham	Tai tham letter lue		
+U+1A45	ᩅ	1A20..1AAF	Tai Tham	Tai tham letter wa		
+U+1A46	ᩆ	1A20..1AAF	Tai Tham	Tai tham letter high sha		
+U+1A47	ᩇ	1A20..1AAF	Tai Tham	Tai tham letter high ssa		
+U+1A48	ᩈ	1A20..1AAF	Tai Tham	Tai tham letter high sa		
+U+1A49	ᩉ	1A20..1AAF	Tai Tham	Tai tham letter high ha		
+U+1A4A	ᩊ	1A20..1AAF	Tai Tham	Tai tham letter lla		
+U+1A4B	ᩋ	1A20..1AAF	Tai Tham	Tai tham letter a		
+U+1A4C	ᩌ	1A20..1AAF	Tai Tham	Tai tham letter low ha		
+U+1A4D	ᩍ	1A20..1AAF	Tai Tham	Tai tham letter i		
+U+1A4E	ᩎ	1A20..1AAF	Tai Tham	Tai tham letter ii		
+U+1A4F	ᩏ	1A20..1AAF	Tai Tham	Tai tham letter u		
+U+1A50	ᩐ	1A20..1AAF	Tai Tham	Tai tham letter uu		
+U+1A51	ᩑ	1A20..1AAF	Tai Tham	Tai tham letter ee		
+U+1A52	ᩒ	1A20..1AAF	Tai Tham	Tai tham letter oo		
+U+1A53	ᩓ	1A20..1AAF	Tai Tham	Tai tham letter lae		
+U+1A54	ᩔ	1A20..1AAF	Tai Tham	Tai tham letter great sa		
+U+1A55	ᩕ	1A20..1AAF	Tai Tham	Tai tham consonant sign medial ra		
+U+1A56	ᩖ	1A20..1AAF	Tai Tham	Tai tham consonant sign medial la		
+U+1A57	ᩗ	1A20..1AAF	Tai Tham	Tai tham consonant sign la tang lai		
+U+1A58	ᩘ	1A20..1AAF	Tai Tham	Tai tham sign mai kang lai		
+U+1A59	ᩙ	1A20..1AAF	Tai Tham	Tai tham consonant sign final nga		
+U+1A5A	ᩚ	1A20..1AAF	Tai Tham	Tai tham consonant sign low pa		
+U+1A5B	ᩛ	1A20..1AAF	Tai Tham	Tai tham consonant sign high ratha or low pa		
+U+1A5C	ᩜ	1A20..1AAF	Tai Tham	Tai tham consonant sign ma		
+U+1A5D	ᩝ	1A20..1AAF	Tai Tham	Tai tham consonant sign ba		
+U+1A5E	ᩞ	1A20..1AAF	Tai Tham	Tai tham consonant sign sa		
+U+1A60	᩠	1A20..1AAF	Tai Tham	Tai tham sign sakot		
+U+1A61	ᩡ	1A20..1AAF	Tai Tham	Tai tham vowel sign a		
+U+1A62	ᩢ	1A20..1AAF	Tai Tham	Tai tham vowel sign mai sat		
+U+1A63	ᩣ	1A20..1AAF	Tai Tham	Tai tham vowel sign aa		
+U+1A64	ᩤ	1A20..1AAF	Tai Tham	Tai tham vowel sign tall aa		
+U+1A65	ᩥ	1A20..1AAF	Tai Tham	Tai tham vowel sign i		
+U+1A66	ᩦ	1A20..1AAF	Tai Tham	Tai tham vowel sign ii		
+U+1A67	ᩧ	1A20..1AAF	Tai Tham	Tai tham vowel sign ue		
+U+1A68	ᩨ	1A20..1AAF	Tai Tham	Tai tham vowel sign uue		
+U+1A69	ᩩ	1A20..1AAF	Tai Tham	Tai tham vowel sign u		
+U+1A6A	ᩪ	1A20..1AAF	Tai Tham	Tai tham vowel sign uu		
+U+1A6B	ᩫ	1A20..1AAF	Tai Tham	Tai tham vowel sign o		
+U+1A6C	ᩬ	1A20..1AAF	Tai Tham	Tai tham vowel sign oa below		
+U+1A6D	ᩭ	1A20..1AAF	Tai Tham	Tai tham vowel sign oy		
+U+1A6E	ᩮ	1A20..1AAF	Tai Tham	Tai tham vowel sign e		
+U+1A6F	ᩯ	1A20..1AAF	Tai Tham	Tai tham vowel sign ae		
+U+1A70	ᩰ	1A20..1AAF	Tai Tham	Tai tham vowel sign oo		
+U+1A71	ᩱ	1A20..1AAF	Tai Tham	Tai tham vowel sign ai		
+U+1A72	ᩲ	1A20..1AAF	Tai Tham	Tai tham vowel sign tham ai		
+U+1A73	ᩳ	1A20..1AAF	Tai Tham	Tai tham vowel sign oa above		
+U+1A74	ᩴ	1A20..1AAF	Tai Tham	Tai tham sign mai kang		
+U+1A75	᩵	1A20..1AAF	Tai Tham	Tai tham sign tone-1		
+U+1A76	᩶	1A20..1AAF	Tai Tham	Tai tham sign tone-2		
+U+1A77	᩷	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-3		
+U+1A78	᩸	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-4		
+U+1A79	᩹	1A20..1AAF	Tai Tham	Tai tham sign khuen tone-5		
+U+1A7A	᩺	1A20..1AAF	Tai Tham	Tai tham sign ra haam		
+U+1A7B	᩻	1A20..1AAF	Tai Tham	Tai tham sign mai sam		
+U+1A7C	᩼	1A20..1AAF	Tai Tham	Tai tham sign khuen-lue karan		
+U+1A7F	᩿	1A20..1AAF	Tai Tham	Tai tham combining cryptogrammic dot		
+U+1A80	᪀	1A20..1AAF	Tai Tham	Tai tham hora digit zero		
+U+1A81	᪁	1A20..1AAF	Tai Tham	Tai tham hora digit one		
+U+1A82	᪂	1A20..1AAF	Tai Tham	Tai tham hora digit two		
+U+1A83	᪃	1A20..1AAF	Tai Tham	Tai tham hora digit three		
+U+1A84	᪄	1A20..1AAF	Tai Tham	Tai tham hora digit four		
+U+1A85	᪅	1A20..1AAF	Tai Tham	Tai tham hora digit five		
+U+1A86	᪆	1A20..1AAF	Tai Tham	Tai tham hora digit six		
+U+1A87	᪇	1A20..1AAF	Tai Tham	Tai tham hora digit seven		
+U+1A88	᪈	1A20..1AAF	Tai Tham	Tai tham hora digit eight		
+U+1A89	᪉	1A20..1AAF	Tai Tham	Tai tham hora digit nine		
+U+1A90	᪐	1A20..1AAF	Tai Tham	Tai tham tham digit zero		
+U+1A91	᪑	1A20..1AAF	Tai Tham	Tai tham tham digit one		
+U+1A92	᪒	1A20..1AAF	Tai Tham	Tai tham tham digit two		
+U+1A93	᪓	1A20..1AAF	Tai Tham	Tai tham tham digit three		
+U+1A94	᪔	1A20..1AAF	Tai Tham	Tai tham tham digit four		
+U+1A95	᪕	1A20..1AAF	Tai Tham	Tai tham tham digit five		
+U+1A96	᪖	1A20..1AAF	Tai Tham	Tai tham tham digit six		
+U+1A97	᪗	1A20..1AAF	Tai Tham	Tai tham tham digit seven		
+U+1A98	᪘	1A20..1AAF	Tai Tham	Tai tham tham digit eight		
+U+1A99	᪙	1A20..1AAF	Tai Tham	Tai tham tham digit nine		
+U+1AA0	᪠	1A20..1AAF	Tai Tham	Tai tham sign wiang		
+U+1AA1	᪡	1A20..1AAF	Tai Tham	Tai tham sign wiangwaak		
+U+1AA2	᪢	1A20..1AAF	Tai Tham	Tai tham sign sawan		
+U+1AA3	᪣	1A20..1AAF	Tai Tham	Tai tham sign keow		
+U+1AA4	᪤	1A20..1AAF	Tai Tham	Tai tham sign hoy		
+U+1AA5	᪥	1A20..1AAF	Tai Tham	Tai tham sign dokmai		
+U+1AA6	᪦	1A20..1AAF	Tai Tham	Tai tham sign reversed rotated rana		
+U+1AA7	ᪧ	1A20..1AAF	Tai Tham	Tai tham sign mai yamok		
+U+1AA8	᪨	1A20..1AAF	Tai Tham	Tai tham sign kaan		
+U+1AA9	᪩	1A20..1AAF	Tai Tham	Tai tham sign kaankuu		
+U+1AAA	᪪	1A20..1AAF	Tai Tham	Tai tham sign satkaan		
+U+1AAB	᪫	1A20..1AAF	Tai Tham	Tai tham sign satkaankuu		
+U+1AAC	᪬	1A20..1AAF	Tai Tham	Tai tham sign hang		
+U+1AAD	᪭	1A20..1AAF	Tai Tham	Tai tham sign caang		

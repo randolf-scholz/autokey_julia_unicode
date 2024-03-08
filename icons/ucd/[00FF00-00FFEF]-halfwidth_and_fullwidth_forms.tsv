@@ -1,226 +1,226 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-FF01	"""！"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth exclamation mark		
-FF02	"""＂"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth quotation mark		
-FF03	"""＃"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth number sign		
-FF04	"""＄"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth dollar sign		
-FF05	"""％"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth percent sign		
-FF06	"""＆"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth ampersand		
-FF07	"""＇"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth apostrophe		
-FF08	"""（"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left parenthesis		
-FF09	"""）"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right parenthesis		
-FF0A	"""＊"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth asterisk		
-FF0B	"""＋"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth plus sign		
-FF0C	"""，"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth comma		
-FF0D	"""－"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth hyphen-minus		
-FF0E	"""．"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth full stop		
-FF0F	"""／"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth solidus		
-FF10	"""０"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit zero		
-FF11	"""１"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit one		
-FF12	"""２"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit two		
-FF13	"""３"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit three		
-FF14	"""４"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit four		
-FF15	"""５"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit five		
-FF16	"""６"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit six		
-FF17	"""７"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit seven		
-FF18	"""８"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit eight		
-FF19	"""９"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit nine		
-FF1A	"""："""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth colon		
-FF1B	"""；"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth semicolon		
-FF1C	"""＜"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth less-than sign		
-FF1D	"""＝"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth equals sign		
-FF1E	"""＞"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth greater-than sign		
-FF1F	"""？"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth question mark		
-FF20	"""＠"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth commercial at		
-FF21	"""Ａ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter a		
-FF22	"""Ｂ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter b		
-FF23	"""Ｃ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter c		
-FF24	"""Ｄ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter d		
-FF25	"""Ｅ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter e		
-FF26	"""Ｆ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter f		
-FF27	"""Ｇ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter g		
-FF28	"""Ｈ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter h		
-FF29	"""Ｉ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter i		
-FF2A	"""Ｊ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter j		
-FF2B	"""Ｋ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter k		
-FF2C	"""Ｌ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter l		
-FF2D	"""Ｍ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter m		
-FF2E	"""Ｎ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter n		
-FF2F	"""Ｏ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter o		
-FF30	"""Ｐ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter p		
-FF31	"""Ｑ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter q		
-FF32	"""Ｒ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter r		
-FF33	"""Ｓ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter s		
-FF34	"""Ｔ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter t		
-FF35	"""Ｕ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter u		
-FF36	"""Ｖ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter v		
-FF37	"""Ｗ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter w		
-FF38	"""Ｘ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter x		
-FF39	"""Ｙ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter y		
-FF3A	"""Ｚ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter z		
-FF3B	"""［"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left square bracket		
-FF3C	"""＼"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth reverse solidus		
-FF3D	"""］"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right square bracket		
-FF3E	"""＾"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth circumflex accent		
-FF3F	"""＿"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth low line		
-FF40	"""｀"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth grave accent		
-FF41	"""ａ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter a		
-FF42	"""ｂ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter b		
-FF43	"""ｃ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter c		
-FF44	"""ｄ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter d		
-FF45	"""ｅ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter e		
-FF46	"""ｆ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter f		
-FF47	"""ｇ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter g		
-FF48	"""ｈ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter h		
-FF49	"""ｉ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter i		
-FF4A	"""ｊ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter j		
-FF4B	"""ｋ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter k		
-FF4C	"""ｌ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter l		
-FF4D	"""ｍ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter m		
-FF4E	"""ｎ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter n		
-FF4F	"""ｏ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter o		
-FF50	"""ｐ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter p		
-FF51	"""ｑ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter q		
-FF52	"""ｒ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter r		
-FF53	"""ｓ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter s		
-FF54	"""ｔ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter t		
-FF55	"""ｕ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter u		
-FF56	"""ｖ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter v		
-FF57	"""ｗ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter w		
-FF58	"""ｘ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter x		
-FF59	"""ｙ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter y		
-FF5A	"""ｚ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter z		
-FF5B	"""｛"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left curly bracket		
-FF5C	"""｜"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth vertical line		
-FF5D	"""｝"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right curly bracket		
-FF5E	"""～"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth tilde		
-FF5F	"""｟"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left white parenthesis		
-FF60	"""｠"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right white parenthesis		
-FF61	"""｡"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth ideographic full stop		
-FF62	"""｢"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth left corner bracket		
-FF63	"""｣"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth right corner bracket		
-FF64	"""､"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth ideographic comma		
-FF65	"""･"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana middle dot		
-FF66	"""ｦ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter wo		
-FF67	"""ｧ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small a		
-FF68	"""ｨ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small i		
-FF69	"""ｩ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small u		
-FF6A	"""ｪ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small e		
-FF6B	"""ｫ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small o		
-FF6C	"""ｬ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small ya		
-FF6D	"""ｭ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small yu		
-FF6E	"""ｮ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small yo		
-FF6F	"""ｯ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small tu		
-FF70	"""ｰ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana-hiragana prolonged sound mark		
-FF71	"""ｱ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter a		
-FF72	"""ｲ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter i		
-FF73	"""ｳ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter u		
-FF74	"""ｴ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter e		
-FF75	"""ｵ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter o		
-FF76	"""ｶ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ka		
-FF77	"""ｷ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ki		
-FF78	"""ｸ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ku		
-FF79	"""ｹ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ke		
-FF7A	"""ｺ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ko		
-FF7B	"""ｻ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter sa		
-FF7C	"""ｼ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter si		
-FF7D	"""ｽ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter su		
-FF7E	"""ｾ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter se		
-FF7F	"""ｿ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter so		
-FF80	"""ﾀ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ta		
-FF81	"""ﾁ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ti		
-FF82	"""ﾂ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter tu		
-FF83	"""ﾃ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter te		
-FF84	"""ﾄ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter to		
-FF85	"""ﾅ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter na		
-FF86	"""ﾆ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ni		
-FF87	"""ﾇ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter nu		
-FF88	"""ﾈ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ne		
-FF89	"""ﾉ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter no		
-FF8A	"""ﾊ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ha		
-FF8B	"""ﾋ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter hi		
-FF8C	"""ﾌ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter hu		
-FF8D	"""ﾍ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter he		
-FF8E	"""ﾎ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ho		
-FF8F	"""ﾏ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ma		
-FF90	"""ﾐ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mi		
-FF91	"""ﾑ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mu		
-FF92	"""ﾒ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter me		
-FF93	"""ﾓ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mo		
-FF94	"""ﾔ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ya		
-FF95	"""ﾕ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter yu		
-FF96	"""ﾖ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter yo		
-FF97	"""ﾗ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ra		
-FF98	"""ﾘ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ri		
-FF99	"""ﾙ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ru		
-FF9A	"""ﾚ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter re		
-FF9B	"""ﾛ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ro		
-FF9C	"""ﾜ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter wa		
-FF9D	"""ﾝ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter n		
-FF9E	"""ﾞ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana voiced sound mark		
-FF9F	"""ﾟ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana semi-voiced sound mark		
-FFA0	"""ﾠ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul filler		
-FFA1	"""ﾡ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter kiyeok		
-FFA2	"""ﾢ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangkiyeok		
-FFA3	"""ﾣ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter kiyeok-sios		
-FFA4	"""ﾤ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun		
-FFA5	"""ﾥ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun-cieuc		
-FFA6	"""ﾦ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun-hieuh		
-FFA7	"""ﾧ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter tikeut		
-FFA8	"""ﾨ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangtikeut		
-FFA9	"""ﾩ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul		
-FFAA	"""ﾪ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-kiyeok		
-FFAB	"""ﾫ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-mieum		
-FFAC	"""ﾬ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-pieup		
-FFAD	"""ﾭ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-sios		
-FFAE	"""ﾮ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-thieuth		
-FFAF	"""ﾯ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-phieuph		
-FFB0	"""ﾰ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-hieuh		
-FFB1	"""ﾱ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter mieum		
-FFB2	"""ﾲ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter pieup		
-FFB3	"""ﾳ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangpieup		
-FFB4	"""ﾴ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter pieup-sios		
-FFB5	"""ﾵ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter sios		
-FFB6	"""ﾶ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangsios		
-FFB7	"""ﾷ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ieung		
-FFB8	"""ﾸ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter cieuc		
-FFB9	"""ﾹ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangcieuc		
-FFBA	"""ﾺ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter chieuch		
-FFBB	"""ﾻ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter khieukh		
-FFBC	"""ﾼ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter thieuth		
-FFBD	"""ﾽ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter phieuph		
-FFBE	"""ﾾ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter hieuh		
-FFC2	"""ￂ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter a		
-FFC3	"""ￃ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ae		
-FFC4	"""ￄ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ya		
-FFC5	"""ￅ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yae		
-FFC6	"""ￆ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter eo		
-FFC7	"""ￇ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter e		
-FFCA	"""ￊ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yeo		
-FFCB	"""ￋ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ye		
-FFCC	"""ￌ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter o		
-FFCD	"""ￍ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wa		
-FFCE	"""ￎ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wae		
-FFCF	"""ￏ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter oe		
-FFD2	"""ￒ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yo		
-FFD3	"""ￓ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter u		
-FFD4	"""ￔ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter weo		
-FFD5	"""ￕ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter we		
-FFD6	"""ￖ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wi		
-FFD7	"""ￗ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yu		
-FFDA	"""ￚ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter eu		
-FFDB	"""ￛ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yi		
-FFDC	"""ￜ"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter i		
-FFE0	"""￠"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth cent sign		
-FFE1	"""￡"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth pound sign		
-FFE2	"""￢"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth not sign		
-FFE3	"""￣"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth macron		
-FFE4	"""￤"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth broken bar		
-FFE5	"""￥"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth yen sign		
-FFE6	"""￦"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth won sign		
-FFE8	"""￨"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth forms light vertical		
-FFE9	"""￩"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth leftwards arrow		
-FFEA	"""￪"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth upwards arrow		
-FFEB	"""￫"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth rightwards arrow		
-FFEC	"""￬"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth downwards arrow		
-FFED	"""￭"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth black square		
-FFEE	"""￮"""	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth white circle		
+U+FF01	！	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth exclamation mark		
+U+FF02	＂	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth quotation mark		
+U+FF03	＃	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth number sign		
+U+FF04	＄	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth dollar sign		
+U+FF05	％	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth percent sign		
+U+FF06	＆	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth ampersand		
+U+FF07	＇	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth apostrophe		
+U+FF08	（	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left parenthesis		
+U+FF09	）	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right parenthesis		
+U+FF0A	＊	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth asterisk		
+U+FF0B	＋	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth plus sign		
+U+FF0C	，	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth comma		
+U+FF0D	－	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth hyphen-minus		
+U+FF0E	．	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth full stop		
+U+FF0F	／	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth solidus		
+U+FF10	０	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit zero		
+U+FF11	１	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit one		
+U+FF12	２	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit two		
+U+FF13	３	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit three		
+U+FF14	４	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit four		
+U+FF15	５	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit five		
+U+FF16	６	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit six		
+U+FF17	７	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit seven		
+U+FF18	８	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit eight		
+U+FF19	９	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth digit nine		
+U+FF1A	：	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth colon		
+U+FF1B	；	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth semicolon		
+U+FF1C	＜	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth less-than sign		
+U+FF1D	＝	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth equals sign		
+U+FF1E	＞	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth greater-than sign		
+U+FF1F	？	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth question mark		
+U+FF20	＠	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth commercial at		
+U+FF21	Ａ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter a		
+U+FF22	Ｂ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter b		
+U+FF23	Ｃ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter c		
+U+FF24	Ｄ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter d		
+U+FF25	Ｅ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter e		
+U+FF26	Ｆ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter f		
+U+FF27	Ｇ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter g		
+U+FF28	Ｈ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter h		
+U+FF29	Ｉ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter i		
+U+FF2A	Ｊ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter j		
+U+FF2B	Ｋ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter k		
+U+FF2C	Ｌ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter l		
+U+FF2D	Ｍ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter m		
+U+FF2E	Ｎ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter n		
+U+FF2F	Ｏ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter o		
+U+FF30	Ｐ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter p		
+U+FF31	Ｑ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter q		
+U+FF32	Ｒ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter r		
+U+FF33	Ｓ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter s		
+U+FF34	Ｔ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter t		
+U+FF35	Ｕ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter u		
+U+FF36	Ｖ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter v		
+U+FF37	Ｗ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter w		
+U+FF38	Ｘ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter x		
+U+FF39	Ｙ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter y		
+U+FF3A	Ｚ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin capital letter z		
+U+FF3B	［	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left square bracket		
+U+FF3C	＼	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth reverse solidus		
+U+FF3D	］	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right square bracket		
+U+FF3E	＾	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth circumflex accent		
+U+FF3F	＿	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth low line		
+U+FF40	｀	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth grave accent		
+U+FF41	ａ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter a		
+U+FF42	ｂ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter b		
+U+FF43	ｃ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter c		
+U+FF44	ｄ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter d		
+U+FF45	ｅ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter e		
+U+FF46	ｆ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter f		
+U+FF47	ｇ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter g		
+U+FF48	ｈ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter h		
+U+FF49	ｉ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter i		
+U+FF4A	ｊ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter j		
+U+FF4B	ｋ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter k		
+U+FF4C	ｌ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter l		
+U+FF4D	ｍ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter m		
+U+FF4E	ｎ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter n		
+U+FF4F	ｏ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter o		
+U+FF50	ｐ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter p		
+U+FF51	ｑ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter q		
+U+FF52	ｒ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter r		
+U+FF53	ｓ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter s		
+U+FF54	ｔ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter t		
+U+FF55	ｕ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter u		
+U+FF56	ｖ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter v		
+U+FF57	ｗ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter w		
+U+FF58	ｘ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter x		
+U+FF59	ｙ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter y		
+U+FF5A	ｚ	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth latin small letter z		
+U+FF5B	｛	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left curly bracket		
+U+FF5C	｜	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth vertical line		
+U+FF5D	｝	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right curly bracket		
+U+FF5E	～	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth tilde		
+U+FF5F	｟	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth left white parenthesis		
+U+FF60	｠	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth right white parenthesis		
+U+FF61	｡	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth ideographic full stop		
+U+FF62	｢	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth left corner bracket		
+U+FF63	｣	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth right corner bracket		
+U+FF64	､	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth ideographic comma		
+U+FF65	･	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana middle dot		
+U+FF66	ｦ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter wo		
+U+FF67	ｧ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small a		
+U+FF68	ｨ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small i		
+U+FF69	ｩ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small u		
+U+FF6A	ｪ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small e		
+U+FF6B	ｫ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small o		
+U+FF6C	ｬ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small ya		
+U+FF6D	ｭ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small yu		
+U+FF6E	ｮ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small yo		
+U+FF6F	ｯ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter small tu		
+U+FF70	ｰ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana-hiragana prolonged sound mark		
+U+FF71	ｱ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter a		
+U+FF72	ｲ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter i		
+U+FF73	ｳ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter u		
+U+FF74	ｴ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter e		
+U+FF75	ｵ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter o		
+U+FF76	ｶ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ka		
+U+FF77	ｷ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ki		
+U+FF78	ｸ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ku		
+U+FF79	ｹ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ke		
+U+FF7A	ｺ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ko		
+U+FF7B	ｻ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter sa		
+U+FF7C	ｼ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter si		
+U+FF7D	ｽ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter su		
+U+FF7E	ｾ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter se		
+U+FF7F	ｿ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter so		
+U+FF80	ﾀ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ta		
+U+FF81	ﾁ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ti		
+U+FF82	ﾂ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter tu		
+U+FF83	ﾃ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter te		
+U+FF84	ﾄ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter to		
+U+FF85	ﾅ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter na		
+U+FF86	ﾆ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ni		
+U+FF87	ﾇ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter nu		
+U+FF88	ﾈ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ne		
+U+FF89	ﾉ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter no		
+U+FF8A	ﾊ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ha		
+U+FF8B	ﾋ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter hi		
+U+FF8C	ﾌ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter hu		
+U+FF8D	ﾍ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter he		
+U+FF8E	ﾎ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ho		
+U+FF8F	ﾏ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ma		
+U+FF90	ﾐ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mi		
+U+FF91	ﾑ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mu		
+U+FF92	ﾒ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter me		
+U+FF93	ﾓ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter mo		
+U+FF94	ﾔ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ya		
+U+FF95	ﾕ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter yu		
+U+FF96	ﾖ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter yo		
+U+FF97	ﾗ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ra		
+U+FF98	ﾘ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ri		
+U+FF99	ﾙ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ru		
+U+FF9A	ﾚ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter re		
+U+FF9B	ﾛ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter ro		
+U+FF9C	ﾜ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter wa		
+U+FF9D	ﾝ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana letter n		
+U+FF9E	ﾞ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana voiced sound mark		
+U+FF9F	ﾟ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth katakana semi-voiced sound mark		
+U+FFA0	ﾠ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul filler		
+U+FFA1	ﾡ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter kiyeok		
+U+FFA2	ﾢ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangkiyeok		
+U+FFA3	ﾣ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter kiyeok-sios		
+U+FFA4	ﾤ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun		
+U+FFA5	ﾥ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun-cieuc		
+U+FFA6	ﾦ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter nieun-hieuh		
+U+FFA7	ﾧ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter tikeut		
+U+FFA8	ﾨ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangtikeut		
+U+FFA9	ﾩ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul		
+U+FFAA	ﾪ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-kiyeok		
+U+FFAB	ﾫ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-mieum		
+U+FFAC	ﾬ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-pieup		
+U+FFAD	ﾭ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-sios		
+U+FFAE	ﾮ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-thieuth		
+U+FFAF	ﾯ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-phieuph		
+U+FFB0	ﾰ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter rieul-hieuh		
+U+FFB1	ﾱ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter mieum		
+U+FFB2	ﾲ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter pieup		
+U+FFB3	ﾳ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangpieup		
+U+FFB4	ﾴ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter pieup-sios		
+U+FFB5	ﾵ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter sios		
+U+FFB6	ﾶ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangsios		
+U+FFB7	ﾷ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ieung		
+U+FFB8	ﾸ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter cieuc		
+U+FFB9	ﾹ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ssangcieuc		
+U+FFBA	ﾺ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter chieuch		
+U+FFBB	ﾻ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter khieukh		
+U+FFBC	ﾼ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter thieuth		
+U+FFBD	ﾽ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter phieuph		
+U+FFBE	ﾾ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter hieuh		
+U+FFC2	ￂ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter a		
+U+FFC3	ￃ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ae		
+U+FFC4	ￄ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ya		
+U+FFC5	ￅ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yae		
+U+FFC6	ￆ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter eo		
+U+FFC7	ￇ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter e		
+U+FFCA	ￊ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yeo		
+U+FFCB	ￋ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter ye		
+U+FFCC	ￌ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter o		
+U+FFCD	ￍ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wa		
+U+FFCE	ￎ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wae		
+U+FFCF	ￏ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter oe		
+U+FFD2	ￒ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yo		
+U+FFD3	ￓ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter u		
+U+FFD4	ￔ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter weo		
+U+FFD5	ￕ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter we		
+U+FFD6	ￖ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter wi		
+U+FFD7	ￗ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yu		
+U+FFDA	ￚ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter eu		
+U+FFDB	ￛ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter yi		
+U+FFDC	ￜ	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth hangul letter i		
+U+FFE0	￠	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth cent sign		
+U+FFE1	￡	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth pound sign		
+U+FFE2	￢	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth not sign		
+U+FFE3	￣	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth macron		
+U+FFE4	￤	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth broken bar		
+U+FFE5	￥	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth yen sign		
+U+FFE6	￦	FF00..FFEF	Halfwidth and Fullwidth Forms	Fullwidth won sign		
+U+FFE8	￨	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth forms light vertical		
+U+FFE9	￩	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth leftwards arrow		
+U+FFEA	￪	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth upwards arrow		
+U+FFEB	￫	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth rightwards arrow		
+U+FFEC	￬	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth downwards arrow		
+U+FFED	￭	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth black square		
+U+FFEE	￮	FF00..FFEF	Halfwidth and Fullwidth Forms	Halfwidth white circle		

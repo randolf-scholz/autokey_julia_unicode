@@ -1,42 +1,42 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0870	"""ࡰ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached fatha		
-0871	"""ࡱ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha		
-0872	"""ࡲ"""	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke		
-0873	"""ࡳ"""	0870..089F	Arabic Extended-B	Arabic letter alef with left middle stroke		
-0874	"""ࡴ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached kasra		
-0875	"""ࡵ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra		
-0876	"""ࡶ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached round dot above		
-0877	"""ࡷ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached right round dot		
-0878	"""ࡸ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached left round dot		
-0879	"""ࡹ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached round dot below		
-087A	"""ࡺ"""	0870..089F	Arabic Extended-B	Arabic letter alef with dot above		
-087B	"""ࡻ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha and dot above		
-087C	"""ࡼ"""	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke and dot above		
-087D	"""ࡽ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra and dot above		
-087E	"""ࡾ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha and left ring		
-087F	"""ࡿ"""	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke and left ring		
-0880	"""ࢀ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra and left ring		
-0881	"""ࢁ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached right hamza		
-0882	"""ࢂ"""	0870..089F	Arabic Extended-B	Arabic letter alef with attached left hamza		
-0883	"""ࢃ"""	0870..089F	Arabic Extended-B	Arabic tatweel with overstruck hamza		
-0884	"""ࢄ"""	0870..089F	Arabic Extended-B	Arabic tatweel with overstruck waw		
-0885	"""ࢅ"""	0870..089F	Arabic Extended-B	Arabic tatweel with two dots below		
-0886	"""ࢆ"""	0870..089F	Arabic Extended-B	Arabic letter thin yeh		
-0887	"""ࢇ"""	0870..089F	Arabic Extended-B	Arabic baseline round dot		
-0888	"""࢈"""	0870..089F	Arabic Extended-B	Arabic raised round dot		
-0889	"""ࢉ"""	0870..089F	Arabic Extended-B	Arabic letter noon with inverted small v		
-088A	"""ࢊ"""	0870..089F	Arabic Extended-B	Arabic letter hah with inverted small v below		
-088B	"""ࢋ"""	0870..089F	Arabic Extended-B	Arabic letter tah with dot below		
-088C	"""ࢌ"""	0870..089F	Arabic Extended-B	Arabic letter tah with three dots below		
-088D	"""ࢍ"""	0870..089F	Arabic Extended-B	Arabic letter keheh with two dots vertically below		
-088E	"""ࢎ"""	0870..089F	Arabic Extended-B	Arabic vertical tail		
-0890	"""࢐"""	0870..089F	Arabic Extended-B	Arabic pound mark above		
-0891	"""࢑"""	0870..089F	Arabic Extended-B	Arabic piastre mark above		
-0898	"""࢘"""	0870..089F	Arabic Extended-B	Arabic small high word al-juz		
-0899	"""࢙"""	0870..089F	Arabic Extended-B	Arabic small low word ishmaam		
-089A	"""࢚"""	0870..089F	Arabic Extended-B	Arabic small low word imaala		
-089B	"""࢛"""	0870..089F	Arabic Extended-B	Arabic small low word tasheel		
-089C	"""࢜"""	0870..089F	Arabic Extended-B	Arabic madda waajib		
-089D	"""࢝"""	0870..089F	Arabic Extended-B	Arabic superscript alef mokhassas		
-089E	"""࢞"""	0870..089F	Arabic Extended-B	Arabic doubled madda		
-089F	"""࢟"""	0870..089F	Arabic Extended-B	Arabic half madda over madda		
+U+0870	ࡰ	0870..089F	Arabic Extended-B	Arabic letter alef with attached fatha		
+U+0871	ࡱ	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha		
+U+0872	ࡲ	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke		
+U+0873	ࡳ	0870..089F	Arabic Extended-B	Arabic letter alef with left middle stroke		
+U+0874	ࡴ	0870..089F	Arabic Extended-B	Arabic letter alef with attached kasra		
+U+0875	ࡵ	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra		
+U+0876	ࡶ	0870..089F	Arabic Extended-B	Arabic letter alef with attached round dot above		
+U+0877	ࡷ	0870..089F	Arabic Extended-B	Arabic letter alef with attached right round dot		
+U+0878	ࡸ	0870..089F	Arabic Extended-B	Arabic letter alef with attached left round dot		
+U+0879	ࡹ	0870..089F	Arabic Extended-B	Arabic letter alef with attached round dot below		
+U+087A	ࡺ	0870..089F	Arabic Extended-B	Arabic letter alef with dot above		
+U+087B	ࡻ	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha and dot above		
+U+087C	ࡼ	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke and dot above		
+U+087D	ࡽ	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra and dot above		
+U+087E	ࡾ	0870..089F	Arabic Extended-B	Arabic letter alef with attached top right fatha and left ring		
+U+087F	ࡿ	0870..089F	Arabic Extended-B	Arabic letter alef with right middle stroke and left ring		
+U+0880	ࢀ	0870..089F	Arabic Extended-B	Arabic letter alef with attached bottom right kasra and left ring		
+U+0881	ࢁ	0870..089F	Arabic Extended-B	Arabic letter alef with attached right hamza		
+U+0882	ࢂ	0870..089F	Arabic Extended-B	Arabic letter alef with attached left hamza		
+U+0883	ࢃ	0870..089F	Arabic Extended-B	Arabic tatweel with overstruck hamza		
+U+0884	ࢄ	0870..089F	Arabic Extended-B	Arabic tatweel with overstruck waw		
+U+0885	ࢅ	0870..089F	Arabic Extended-B	Arabic tatweel with two dots below		
+U+0886	ࢆ	0870..089F	Arabic Extended-B	Arabic letter thin yeh		
+U+0887	ࢇ	0870..089F	Arabic Extended-B	Arabic baseline round dot		
+U+0888	࢈	0870..089F	Arabic Extended-B	Arabic raised round dot		
+U+0889	ࢉ	0870..089F	Arabic Extended-B	Arabic letter noon with inverted small v		
+U+088A	ࢊ	0870..089F	Arabic Extended-B	Arabic letter hah with inverted small v below		
+U+088B	ࢋ	0870..089F	Arabic Extended-B	Arabic letter tah with dot below		
+U+088C	ࢌ	0870..089F	Arabic Extended-B	Arabic letter tah with three dots below		
+U+088D	ࢍ	0870..089F	Arabic Extended-B	Arabic letter keheh with two dots vertically below		
+U+088E	ࢎ	0870..089F	Arabic Extended-B	Arabic vertical tail		
+U+0890	࢐	0870..089F	Arabic Extended-B	Arabic pound mark above		
+U+0891	࢑	0870..089F	Arabic Extended-B	Arabic piastre mark above		
+U+0898	࢘	0870..089F	Arabic Extended-B	Arabic small high word al-juz		
+U+0899	࢙	0870..089F	Arabic Extended-B	Arabic small low word ishmaam		
+U+089A	࢚	0870..089F	Arabic Extended-B	Arabic small low word imaala		
+U+089B	࢛	0870..089F	Arabic Extended-B	Arabic small low word tasheel		
+U+089C	࢜	0870..089F	Arabic Extended-B	Arabic madda waajib		
+U+089D	࢝	0870..089F	Arabic Extended-B	Arabic superscript alef mokhassas		
+U+089E	࢞	0870..089F	Arabic Extended-B	Arabic doubled madda		
+U+089F	࢟	0870..089F	Arabic Extended-B	Arabic half madda over madda		

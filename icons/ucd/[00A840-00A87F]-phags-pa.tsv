@@ -1,57 +1,57 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A840	"""ꡀ"""	A840..A87F	Phags-pa	Phags-pa letter ka		
-A841	"""ꡁ"""	A840..A87F	Phags-pa	Phags-pa letter kha		
-A842	"""ꡂ"""	A840..A87F	Phags-pa	Phags-pa letter ga		
-A843	"""ꡃ"""	A840..A87F	Phags-pa	Phags-pa letter nga		
-A844	"""ꡄ"""	A840..A87F	Phags-pa	Phags-pa letter ca		
-A845	"""ꡅ"""	A840..A87F	Phags-pa	Phags-pa letter cha		
-A846	"""ꡆ"""	A840..A87F	Phags-pa	Phags-pa letter ja		
-A847	"""ꡇ"""	A840..A87F	Phags-pa	Phags-pa letter nya		
-A848	"""ꡈ"""	A840..A87F	Phags-pa	Phags-pa letter ta		
-A849	"""ꡉ"""	A840..A87F	Phags-pa	Phags-pa letter tha		
-A84A	"""ꡊ"""	A840..A87F	Phags-pa	Phags-pa letter da		
-A84B	"""ꡋ"""	A840..A87F	Phags-pa	Phags-pa letter na		
-A84C	"""ꡌ"""	A840..A87F	Phags-pa	Phags-pa letter pa		
-A84D	"""ꡍ"""	A840..A87F	Phags-pa	Phags-pa letter pha		
-A84E	"""ꡎ"""	A840..A87F	Phags-pa	Phags-pa letter ba		
-A84F	"""ꡏ"""	A840..A87F	Phags-pa	Phags-pa letter ma		
-A850	"""ꡐ"""	A840..A87F	Phags-pa	Phags-pa letter tsa		
-A851	"""ꡑ"""	A840..A87F	Phags-pa	Phags-pa letter tsha		
-A852	"""ꡒ"""	A840..A87F	Phags-pa	Phags-pa letter dza		
-A853	"""ꡓ"""	A840..A87F	Phags-pa	Phags-pa letter wa		
-A854	"""ꡔ"""	A840..A87F	Phags-pa	Phags-pa letter zha		
-A855	"""ꡕ"""	A840..A87F	Phags-pa	Phags-pa letter za		
-A856	"""ꡖ"""	A840..A87F	Phags-pa	Phags-pa letter small a		
-A857	"""ꡗ"""	A840..A87F	Phags-pa	Phags-pa letter ya		
-A858	"""ꡘ"""	A840..A87F	Phags-pa	Phags-pa letter ra		
-A859	"""ꡙ"""	A840..A87F	Phags-pa	Phags-pa letter la		
-A85A	"""ꡚ"""	A840..A87F	Phags-pa	Phags-pa letter sha		
-A85B	"""ꡛ"""	A840..A87F	Phags-pa	Phags-pa letter sa		
-A85C	"""ꡜ"""	A840..A87F	Phags-pa	Phags-pa letter ha		
-A85D	"""ꡝ"""	A840..A87F	Phags-pa	Phags-pa letter a		
-A85E	"""ꡞ"""	A840..A87F	Phags-pa	Phags-pa letter i		
-A85F	"""ꡟ"""	A840..A87F	Phags-pa	Phags-pa letter u		
-A860	"""ꡠ"""	A840..A87F	Phags-pa	Phags-pa letter e		
-A861	"""ꡡ"""	A840..A87F	Phags-pa	Phags-pa letter o		
-A862	"""ꡢ"""	A840..A87F	Phags-pa	Phags-pa letter qa		
-A863	"""ꡣ"""	A840..A87F	Phags-pa	Phags-pa letter xa		
-A864	"""ꡤ"""	A840..A87F	Phags-pa	Phags-pa letter fa		
-A865	"""ꡥ"""	A840..A87F	Phags-pa	Phags-pa letter gga		
-A866	"""ꡦ"""	A840..A87F	Phags-pa	Phags-pa letter ee		
-A867	"""ꡧ"""	A840..A87F	Phags-pa	Phags-pa subjoined letter wa		
-A868	"""ꡨ"""	A840..A87F	Phags-pa	Phags-pa subjoined letter ya		
-A869	"""ꡩ"""	A840..A87F	Phags-pa	Phags-pa letter tta		
-A86A	"""ꡪ"""	A840..A87F	Phags-pa	Phags-pa letter ttha		
-A86B	"""ꡫ"""	A840..A87F	Phags-pa	Phags-pa letter dda		
-A86C	"""ꡬ"""	A840..A87F	Phags-pa	Phags-pa letter nna		
-A86D	"""ꡭ"""	A840..A87F	Phags-pa	Phags-pa letter alternate ya		
-A86E	"""ꡮ"""	A840..A87F	Phags-pa	Phags-pa letter voiceless sha		
-A86F	"""ꡯ"""	A840..A87F	Phags-pa	Phags-pa letter voiced ha		
-A870	"""ꡰ"""	A840..A87F	Phags-pa	Phags-pa letter aspirated fa		
-A871	"""ꡱ"""	A840..A87F	Phags-pa	Phags-pa subjoined letter ra		
-A872	"""ꡲ"""	A840..A87F	Phags-pa	Phags-pa superfixed letter ra		
-A873	"""ꡳ"""	A840..A87F	Phags-pa	Phags-pa letter candrabindu		
-A874	"""꡴"""	A840..A87F	Phags-pa	Phags-pa single head mark		
-A875	"""꡵"""	A840..A87F	Phags-pa	Phags-pa double head mark		
-A876	"""꡶"""	A840..A87F	Phags-pa	Phags-pa mark shad		
-A877	"""꡷"""	A840..A87F	Phags-pa	Phags-pa mark double shad		
+U+A840	ꡀ	A840..A87F	Phags-pa	Phags-pa letter ka		
+U+A841	ꡁ	A840..A87F	Phags-pa	Phags-pa letter kha		
+U+A842	ꡂ	A840..A87F	Phags-pa	Phags-pa letter ga		
+U+A843	ꡃ	A840..A87F	Phags-pa	Phags-pa letter nga		
+U+A844	ꡄ	A840..A87F	Phags-pa	Phags-pa letter ca		
+U+A845	ꡅ	A840..A87F	Phags-pa	Phags-pa letter cha		
+U+A846	ꡆ	A840..A87F	Phags-pa	Phags-pa letter ja		
+U+A847	ꡇ	A840..A87F	Phags-pa	Phags-pa letter nya		
+U+A848	ꡈ	A840..A87F	Phags-pa	Phags-pa letter ta		
+U+A849	ꡉ	A840..A87F	Phags-pa	Phags-pa letter tha		
+U+A84A	ꡊ	A840..A87F	Phags-pa	Phags-pa letter da		
+U+A84B	ꡋ	A840..A87F	Phags-pa	Phags-pa letter na		
+U+A84C	ꡌ	A840..A87F	Phags-pa	Phags-pa letter pa		
+U+A84D	ꡍ	A840..A87F	Phags-pa	Phags-pa letter pha		
+U+A84E	ꡎ	A840..A87F	Phags-pa	Phags-pa letter ba		
+U+A84F	ꡏ	A840..A87F	Phags-pa	Phags-pa letter ma		
+U+A850	ꡐ	A840..A87F	Phags-pa	Phags-pa letter tsa		
+U+A851	ꡑ	A840..A87F	Phags-pa	Phags-pa letter tsha		
+U+A852	ꡒ	A840..A87F	Phags-pa	Phags-pa letter dza		
+U+A853	ꡓ	A840..A87F	Phags-pa	Phags-pa letter wa		
+U+A854	ꡔ	A840..A87F	Phags-pa	Phags-pa letter zha		
+U+A855	ꡕ	A840..A87F	Phags-pa	Phags-pa letter za		
+U+A856	ꡖ	A840..A87F	Phags-pa	Phags-pa letter small a		
+U+A857	ꡗ	A840..A87F	Phags-pa	Phags-pa letter ya		
+U+A858	ꡘ	A840..A87F	Phags-pa	Phags-pa letter ra		
+U+A859	ꡙ	A840..A87F	Phags-pa	Phags-pa letter la		
+U+A85A	ꡚ	A840..A87F	Phags-pa	Phags-pa letter sha		
+U+A85B	ꡛ	A840..A87F	Phags-pa	Phags-pa letter sa		
+U+A85C	ꡜ	A840..A87F	Phags-pa	Phags-pa letter ha		
+U+A85D	ꡝ	A840..A87F	Phags-pa	Phags-pa letter a		
+U+A85E	ꡞ	A840..A87F	Phags-pa	Phags-pa letter i		
+U+A85F	ꡟ	A840..A87F	Phags-pa	Phags-pa letter u		
+U+A860	ꡠ	A840..A87F	Phags-pa	Phags-pa letter e		
+U+A861	ꡡ	A840..A87F	Phags-pa	Phags-pa letter o		
+U+A862	ꡢ	A840..A87F	Phags-pa	Phags-pa letter qa		
+U+A863	ꡣ	A840..A87F	Phags-pa	Phags-pa letter xa		
+U+A864	ꡤ	A840..A87F	Phags-pa	Phags-pa letter fa		
+U+A865	ꡥ	A840..A87F	Phags-pa	Phags-pa letter gga		
+U+A866	ꡦ	A840..A87F	Phags-pa	Phags-pa letter ee		
+U+A867	ꡧ	A840..A87F	Phags-pa	Phags-pa subjoined letter wa		
+U+A868	ꡨ	A840..A87F	Phags-pa	Phags-pa subjoined letter ya		
+U+A869	ꡩ	A840..A87F	Phags-pa	Phags-pa letter tta		
+U+A86A	ꡪ	A840..A87F	Phags-pa	Phags-pa letter ttha		
+U+A86B	ꡫ	A840..A87F	Phags-pa	Phags-pa letter dda		
+U+A86C	ꡬ	A840..A87F	Phags-pa	Phags-pa letter nna		
+U+A86D	ꡭ	A840..A87F	Phags-pa	Phags-pa letter alternate ya		
+U+A86E	ꡮ	A840..A87F	Phags-pa	Phags-pa letter voiceless sha		
+U+A86F	ꡯ	A840..A87F	Phags-pa	Phags-pa letter voiced ha		
+U+A870	ꡰ	A840..A87F	Phags-pa	Phags-pa letter aspirated fa		
+U+A871	ꡱ	A840..A87F	Phags-pa	Phags-pa subjoined letter ra		
+U+A872	ꡲ	A840..A87F	Phags-pa	Phags-pa superfixed letter ra		
+U+A873	ꡳ	A840..A87F	Phags-pa	Phags-pa letter candrabindu		
+U+A874	꡴	A840..A87F	Phags-pa	Phags-pa single head mark		
+U+A875	꡵	A840..A87F	Phags-pa	Phags-pa double head mark		
+U+A876	꡶	A840..A87F	Phags-pa	Phags-pa mark shad		
+U+A877	꡷	A840..A87F	Phags-pa	Phags-pa mark double shad		

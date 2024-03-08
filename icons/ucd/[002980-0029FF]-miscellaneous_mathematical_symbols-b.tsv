@@ -1,129 +1,129 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2980	"""⦀"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Triple vertical bar delimiter		
-2981	"""⦁"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation spot		
-2982	"""⦂"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation type colon		
-2983	"""⦃"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left white curly bracket		
-2984	"""⦄"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right white curly bracket		
-2985	"""⦅"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left white parenthesis		
-2986	"""⦆"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right white parenthesis		
-2987	"""⦇"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation left image bracket		
-2988	"""⦈"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation right image bracket		
-2989	"""⦉"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation left binding bracket		
-298A	"""⦊"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation right binding bracket		
-298B	"""⦋"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with underbar		
-298C	"""⦌"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with underbar		
-298D	"""⦍"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with tick in top corner		
-298E	"""⦎"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with tick in bottom corner		
-298F	"""⦏"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with tick in bottom corner		
-2990	"""⦐"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with tick in top corner		
-2991	"""⦑"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left angle bracket with dot		
-2992	"""⦒"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right angle bracket with dot		
-2993	"""⦓"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left arc less-than bracket		
-2994	"""⦔"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right arc greater-than bracket		
-2995	"""⦕"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Double left arc greater-than bracket		
-2996	"""⦖"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Double right arc less-than bracket		
-2997	"""⦗"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left black tortoise shell bracket		
-2998	"""⦘"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right black tortoise shell bracket		
-2999	"""⦙"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Dotted fence		
-299A	"""⦚"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Vertical zigzag line		
-299B	"""⦛"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle opening left		
-299C	"""⦜"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right angle variant with square		
-299D	"""⦝"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured right angle with dot		
-299E	"""⦞"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Angle with s inside		
-299F	"""⦟"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Acute angle		
-29A0	"""⦠"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Spherical angle opening left		
-29A1	"""⦡"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Spherical angle opening up		
-29A2	"""⦢"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Turned angle		
-29A3	"""⦣"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed angle		
-29A4	"""⦤"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Angle with underbar		
-29A5	"""⦥"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed angle with underbar		
-29A6	"""⦦"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Oblique angle opening up		
-29A7	"""⦧"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Oblique angle opening down		
-29A8	"""⦨"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing up and right		
-29A9	"""⦩"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing up and left		
-29AA	"""⦪"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing down and right		
-29AB	"""⦫"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing down and left		
-29AC	"""⦬"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing right and up		
-29AD	"""⦭"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing left and up		
-29AE	"""⦮"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing right and down		
-29AF	"""⦯"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing left and down		
-29B0	"""⦰"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed empty set		
-29B1	"""⦱"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with overbar		
-29B2	"""⦲"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with small circle above		
-29B3	"""⦳"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with right arrow above		
-29B4	"""⦴"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with left arrow above		
-29B5	"""⦵"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with horizontal bar		
-29B6	"""⦶"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled vertical bar		
-29B7	"""⦷"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled parallel		
-29B8	"""⦸"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled reverse solidus		
-29B9	"""⦹"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled perpendicular		
-29BA	"""⦺"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle divided by horizontal bar and top half divided by vertical bar		
-29BB	"""⦻"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with superimposed x		
-29BC	"""⦼"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled anticlockwise-rotated division sign		
-29BD	"""⦽"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Up arrow through circle		
-29BE	"""⦾"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled white bullet		
-29BF	"""⦿"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled bullet		
-29C0	"""⧀"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled less-than		
-29C1	"""⧁"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled greater-than		
-29C2	"""⧂"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with small circle to the right		
-29C3	"""⧃"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with two horizontal strokes to the right		
-29C4	"""⧄"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared rising diagonal slash		
-29C5	"""⧅"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared falling diagonal slash		
-29C6	"""⧆"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared asterisk		
-29C7	"""⧇"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared small circle		
-29C8	"""⧈"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared square		
-29C9	"""⧉"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Two joined squares		
-29CA	"""⧊"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with dot above		
-29CB	"""⧋"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with underbar		
-29CC	"""⧌"""	2980..29FF	Miscellaneous Mathematical Symbols-B	S in triangle		
-29CD	"""⧍"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with serifs at bottom		
-29CE	"""⧎"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right triangle above left triangle		
-29CF	"""⧏"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left triangle beside vertical bar		
-29D0	"""⧐"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Vertical bar beside right triangle		
-29D1	"""⧑"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Bowtie with left half black		
-29D2	"""⧒"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Bowtie with right half black		
-29D3	"""⧓"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Black bowtie		
-29D4	"""⧔"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Times with left half black		
-29D5	"""⧕"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Times with right half black		
-29D6	"""⧖"""	2980..29FF	Miscellaneous Mathematical Symbols-B	White hourglass		
-29D7	"""⧗"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Black hourglass		
-29D8	"""⧘"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left wiggly fence		
-29D9	"""⧙"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right wiggly fence		
-29DA	"""⧚"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left double wiggly fence		
-29DB	"""⧛"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right double wiggly fence		
-29DC	"""⧜"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Incomplete infinity		
-29DD	"""⧝"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Tie over infinity		
-29DE	"""⧞"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Infinity negated with vertical bar		
-29DF	"""⧟"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Double-ended multimap		
-29E0	"""⧠"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Square with contoured outline		
-29E1	"""⧡"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Increases as		
-29E2	"""⧢"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Shuffle product		
-29E3	"""⧣"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Equals sign and slanted parallel		
-29E4	"""⧤"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Equals sign and slanted parallel with tilde above		
-29E5	"""⧥"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Identical to and slanted parallel		
-29E6	"""⧦"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Gleich stark		
-29E7	"""⧧"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Thermodynamic		
-29E8	"""⧨"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Down-pointing triangle with left half black		
-29E9	"""⧩"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Down-pointing triangle with right half black		
-29EA	"""⧪"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Black diamond with down arrow		
-29EB	"""⧫"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Black lozenge		
-29EC	"""⧬"""	2980..29FF	Miscellaneous Mathematical Symbols-B	White circle with down arrow		
-29ED	"""⧭"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Black circle with down arrow		
-29EE	"""⧮"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white square		
-29EF	"""⧯"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black square		
-29F0	"""⧰"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white diamond		
-29F1	"""⧱"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black diamond		
-29F2	"""⧲"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white circle		
-29F3	"""⧳"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black circle		
-29F4	"""⧴"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Rule-delayed		
-29F5	"""⧵"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Reverse solidus operator		
-29F6	"""⧶"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Solidus with overbar		
-29F7	"""⧷"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Reverse solidus with horizontal stroke		
-29F8	"""⧸"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Big solidus		
-29F9	"""⧹"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Big reverse solidus		
-29FA	"""⧺"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Double plus		
-29FB	"""⧻"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Triple plus		
-29FC	"""⧼"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Left-pointing curved angle bracket		
-29FD	"""⧽"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Right-pointing curved angle bracket		
-29FE	"""⧾"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Tiny		
-29FF	"""⧿"""	2980..29FF	Miscellaneous Mathematical Symbols-B	Miny		
+U+2980	⦀	2980..29FF	Miscellaneous Mathematical Symbols-B	Triple vertical bar delimiter		
+U+2981	⦁	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation spot		
+U+2982	⦂	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation type colon		
+U+2983	⦃	2980..29FF	Miscellaneous Mathematical Symbols-B	Left white curly bracket		
+U+2984	⦄	2980..29FF	Miscellaneous Mathematical Symbols-B	Right white curly bracket		
+U+2985	⦅	2980..29FF	Miscellaneous Mathematical Symbols-B	Left white parenthesis		
+U+2986	⦆	2980..29FF	Miscellaneous Mathematical Symbols-B	Right white parenthesis		
+U+2987	⦇	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation left image bracket		
+U+2988	⦈	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation right image bracket		
+U+2989	⦉	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation left binding bracket		
+U+298A	⦊	2980..29FF	Miscellaneous Mathematical Symbols-B	Z notation right binding bracket		
+U+298B	⦋	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with underbar		
+U+298C	⦌	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with underbar		
+U+298D	⦍	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with tick in top corner		
+U+298E	⦎	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with tick in bottom corner		
+U+298F	⦏	2980..29FF	Miscellaneous Mathematical Symbols-B	Left square bracket with tick in bottom corner		
+U+2990	⦐	2980..29FF	Miscellaneous Mathematical Symbols-B	Right square bracket with tick in top corner		
+U+2991	⦑	2980..29FF	Miscellaneous Mathematical Symbols-B	Left angle bracket with dot		
+U+2992	⦒	2980..29FF	Miscellaneous Mathematical Symbols-B	Right angle bracket with dot		
+U+2993	⦓	2980..29FF	Miscellaneous Mathematical Symbols-B	Left arc less-than bracket		
+U+2994	⦔	2980..29FF	Miscellaneous Mathematical Symbols-B	Right arc greater-than bracket		
+U+2995	⦕	2980..29FF	Miscellaneous Mathematical Symbols-B	Double left arc greater-than bracket		
+U+2996	⦖	2980..29FF	Miscellaneous Mathematical Symbols-B	Double right arc less-than bracket		
+U+2997	⦗	2980..29FF	Miscellaneous Mathematical Symbols-B	Left black tortoise shell bracket		
+U+2998	⦘	2980..29FF	Miscellaneous Mathematical Symbols-B	Right black tortoise shell bracket		
+U+2999	⦙	2980..29FF	Miscellaneous Mathematical Symbols-B	Dotted fence		
+U+299A	⦚	2980..29FF	Miscellaneous Mathematical Symbols-B	Vertical zigzag line		
+U+299B	⦛	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle opening left		
+U+299C	⦜	2980..29FF	Miscellaneous Mathematical Symbols-B	Right angle variant with square		
+U+299D	⦝	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured right angle with dot		
+U+299E	⦞	2980..29FF	Miscellaneous Mathematical Symbols-B	Angle with s inside		
+U+299F	⦟	2980..29FF	Miscellaneous Mathematical Symbols-B	Acute angle		
+U+29A0	⦠	2980..29FF	Miscellaneous Mathematical Symbols-B	Spherical angle opening left		
+U+29A1	⦡	2980..29FF	Miscellaneous Mathematical Symbols-B	Spherical angle opening up		
+U+29A2	⦢	2980..29FF	Miscellaneous Mathematical Symbols-B	Turned angle		
+U+29A3	⦣	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed angle		
+U+29A4	⦤	2980..29FF	Miscellaneous Mathematical Symbols-B	Angle with underbar		
+U+29A5	⦥	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed angle with underbar		
+U+29A6	⦦	2980..29FF	Miscellaneous Mathematical Symbols-B	Oblique angle opening up		
+U+29A7	⦧	2980..29FF	Miscellaneous Mathematical Symbols-B	Oblique angle opening down		
+U+29A8	⦨	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing up and right		
+U+29A9	⦩	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing up and left		
+U+29AA	⦪	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing down and right		
+U+29AB	⦫	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing down and left		
+U+29AC	⦬	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing right and up		
+U+29AD	⦭	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing left and up		
+U+29AE	⦮	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing right and down		
+U+29AF	⦯	2980..29FF	Miscellaneous Mathematical Symbols-B	Measured angle with open arm ending in arrow pointing left and down		
+U+29B0	⦰	2980..29FF	Miscellaneous Mathematical Symbols-B	Reversed empty set		
+U+29B1	⦱	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with overbar		
+U+29B2	⦲	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with small circle above		
+U+29B3	⦳	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with right arrow above		
+U+29B4	⦴	2980..29FF	Miscellaneous Mathematical Symbols-B	Empty set with left arrow above		
+U+29B5	⦵	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with horizontal bar		
+U+29B6	⦶	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled vertical bar		
+U+29B7	⦷	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled parallel		
+U+29B8	⦸	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled reverse solidus		
+U+29B9	⦹	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled perpendicular		
+U+29BA	⦺	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle divided by horizontal bar and top half divided by vertical bar		
+U+29BB	⦻	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with superimposed x		
+U+29BC	⦼	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled anticlockwise-rotated division sign		
+U+29BD	⦽	2980..29FF	Miscellaneous Mathematical Symbols-B	Up arrow through circle		
+U+29BE	⦾	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled white bullet		
+U+29BF	⦿	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled bullet		
+U+29C0	⧀	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled less-than		
+U+29C1	⧁	2980..29FF	Miscellaneous Mathematical Symbols-B	Circled greater-than		
+U+29C2	⧂	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with small circle to the right		
+U+29C3	⧃	2980..29FF	Miscellaneous Mathematical Symbols-B	Circle with two horizontal strokes to the right		
+U+29C4	⧄	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared rising diagonal slash		
+U+29C5	⧅	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared falling diagonal slash		
+U+29C6	⧆	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared asterisk		
+U+29C7	⧇	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared small circle		
+U+29C8	⧈	2980..29FF	Miscellaneous Mathematical Symbols-B	Squared square		
+U+29C9	⧉	2980..29FF	Miscellaneous Mathematical Symbols-B	Two joined squares		
+U+29CA	⧊	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with dot above		
+U+29CB	⧋	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with underbar		
+U+29CC	⧌	2980..29FF	Miscellaneous Mathematical Symbols-B	S in triangle		
+U+29CD	⧍	2980..29FF	Miscellaneous Mathematical Symbols-B	Triangle with serifs at bottom		
+U+29CE	⧎	2980..29FF	Miscellaneous Mathematical Symbols-B	Right triangle above left triangle		
+U+29CF	⧏	2980..29FF	Miscellaneous Mathematical Symbols-B	Left triangle beside vertical bar		
+U+29D0	⧐	2980..29FF	Miscellaneous Mathematical Symbols-B	Vertical bar beside right triangle		
+U+29D1	⧑	2980..29FF	Miscellaneous Mathematical Symbols-B	Bowtie with left half black		
+U+29D2	⧒	2980..29FF	Miscellaneous Mathematical Symbols-B	Bowtie with right half black		
+U+29D3	⧓	2980..29FF	Miscellaneous Mathematical Symbols-B	Black bowtie		
+U+29D4	⧔	2980..29FF	Miscellaneous Mathematical Symbols-B	Times with left half black		
+U+29D5	⧕	2980..29FF	Miscellaneous Mathematical Symbols-B	Times with right half black		
+U+29D6	⧖	2980..29FF	Miscellaneous Mathematical Symbols-B	White hourglass		
+U+29D7	⧗	2980..29FF	Miscellaneous Mathematical Symbols-B	Black hourglass		
+U+29D8	⧘	2980..29FF	Miscellaneous Mathematical Symbols-B	Left wiggly fence		
+U+29D9	⧙	2980..29FF	Miscellaneous Mathematical Symbols-B	Right wiggly fence		
+U+29DA	⧚	2980..29FF	Miscellaneous Mathematical Symbols-B	Left double wiggly fence		
+U+29DB	⧛	2980..29FF	Miscellaneous Mathematical Symbols-B	Right double wiggly fence		
+U+29DC	⧜	2980..29FF	Miscellaneous Mathematical Symbols-B	Incomplete infinity		
+U+29DD	⧝	2980..29FF	Miscellaneous Mathematical Symbols-B	Tie over infinity		
+U+29DE	⧞	2980..29FF	Miscellaneous Mathematical Symbols-B	Infinity negated with vertical bar		
+U+29DF	⧟	2980..29FF	Miscellaneous Mathematical Symbols-B	Double-ended multimap		
+U+29E0	⧠	2980..29FF	Miscellaneous Mathematical Symbols-B	Square with contoured outline		
+U+29E1	⧡	2980..29FF	Miscellaneous Mathematical Symbols-B	Increases as		
+U+29E2	⧢	2980..29FF	Miscellaneous Mathematical Symbols-B	Shuffle product		
+U+29E3	⧣	2980..29FF	Miscellaneous Mathematical Symbols-B	Equals sign and slanted parallel		
+U+29E4	⧤	2980..29FF	Miscellaneous Mathematical Symbols-B	Equals sign and slanted parallel with tilde above		
+U+29E5	⧥	2980..29FF	Miscellaneous Mathematical Symbols-B	Identical to and slanted parallel		
+U+29E6	⧦	2980..29FF	Miscellaneous Mathematical Symbols-B	Gleich stark		
+U+29E7	⧧	2980..29FF	Miscellaneous Mathematical Symbols-B	Thermodynamic		
+U+29E8	⧨	2980..29FF	Miscellaneous Mathematical Symbols-B	Down-pointing triangle with left half black		
+U+29E9	⧩	2980..29FF	Miscellaneous Mathematical Symbols-B	Down-pointing triangle with right half black		
+U+29EA	⧪	2980..29FF	Miscellaneous Mathematical Symbols-B	Black diamond with down arrow		
+U+29EB	⧫	2980..29FF	Miscellaneous Mathematical Symbols-B	Black lozenge		
+U+29EC	⧬	2980..29FF	Miscellaneous Mathematical Symbols-B	White circle with down arrow		
+U+29ED	⧭	2980..29FF	Miscellaneous Mathematical Symbols-B	Black circle with down arrow		
+U+29EE	⧮	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white square		
+U+29EF	⧯	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black square		
+U+29F0	⧰	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white diamond		
+U+29F1	⧱	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black diamond		
+U+29F2	⧲	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred white circle		
+U+29F3	⧳	2980..29FF	Miscellaneous Mathematical Symbols-B	Error-barred black circle		
+U+29F4	⧴	2980..29FF	Miscellaneous Mathematical Symbols-B	Rule-delayed		
+U+29F5	⧵	2980..29FF	Miscellaneous Mathematical Symbols-B	Reverse solidus operator		
+U+29F6	⧶	2980..29FF	Miscellaneous Mathematical Symbols-B	Solidus with overbar		
+U+29F7	⧷	2980..29FF	Miscellaneous Mathematical Symbols-B	Reverse solidus with horizontal stroke		
+U+29F8	⧸	2980..29FF	Miscellaneous Mathematical Symbols-B	Big solidus		
+U+29F9	⧹	2980..29FF	Miscellaneous Mathematical Symbols-B	Big reverse solidus		
+U+29FA	⧺	2980..29FF	Miscellaneous Mathematical Symbols-B	Double plus		
+U+29FB	⧻	2980..29FF	Miscellaneous Mathematical Symbols-B	Triple plus		
+U+29FC	⧼	2980..29FF	Miscellaneous Mathematical Symbols-B	Left-pointing curved angle bracket		
+U+29FD	⧽	2980..29FF	Miscellaneous Mathematical Symbols-B	Right-pointing curved angle bracket		
+U+29FE	⧾	2980..29FF	Miscellaneous Mathematical Symbols-B	Tiny		
+U+29FF	⧿	2980..29FF	Miscellaneous Mathematical Symbols-B	Miny		

@@ -1,95 +1,95 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2E00	"""⸀"""	2E00..2E7F	Supplemental Punctuation	Right angle substitution marker		
-2E01	"""⸁"""	2E00..2E7F	Supplemental Punctuation	Right angle dotted substitution marker		
-2E02	"""⸂"""	2E00..2E7F	Supplemental Punctuation	Left substitution bracket		
-2E03	"""⸃"""	2E00..2E7F	Supplemental Punctuation	Right substitution bracket		
-2E04	"""⸄"""	2E00..2E7F	Supplemental Punctuation	Left dotted substitution bracket		
-2E05	"""⸅"""	2E00..2E7F	Supplemental Punctuation	Right dotted substitution bracket		
-2E06	"""⸆"""	2E00..2E7F	Supplemental Punctuation	Raised interpolation marker		
-2E07	"""⸇"""	2E00..2E7F	Supplemental Punctuation	Raised dotted interpolation marker		
-2E08	"""⸈"""	2E00..2E7F	Supplemental Punctuation	Dotted transposition marker		
-2E09	"""⸉"""	2E00..2E7F	Supplemental Punctuation	Left transposition bracket		
-2E0A	"""⸊"""	2E00..2E7F	Supplemental Punctuation	Right transposition bracket		
-2E0B	"""⸋"""	2E00..2E7F	Supplemental Punctuation	Raised square		
-2E0C	"""⸌"""	2E00..2E7F	Supplemental Punctuation	Left raised omission bracket		
-2E0D	"""⸍"""	2E00..2E7F	Supplemental Punctuation	Right raised omission bracket		
-2E0E	"""⸎"""	2E00..2E7F	Supplemental Punctuation	Editorial coronis		
-2E0F	"""⸏"""	2E00..2E7F	Supplemental Punctuation	Paragraphos		
-2E10	"""⸐"""	2E00..2E7F	Supplemental Punctuation	Forked paragraphos		
-2E11	"""⸑"""	2E00..2E7F	Supplemental Punctuation	Reversed forked paragraphos		
-2E12	"""⸒"""	2E00..2E7F	Supplemental Punctuation	Hypodiastole		
-2E13	"""⸓"""	2E00..2E7F	Supplemental Punctuation	Dotted obelos		
-2E14	"""⸔"""	2E00..2E7F	Supplemental Punctuation	Downwards ancora		
-2E15	"""⸕"""	2E00..2E7F	Supplemental Punctuation	Upwards ancora		
-2E16	"""⸖"""	2E00..2E7F	Supplemental Punctuation	Dotted right-pointing angle		
-2E17	"""⸗"""	2E00..2E7F	Supplemental Punctuation	Double oblique hyphen		
-2E18	"""⸘"""	2E00..2E7F	Supplemental Punctuation	Inverted interrobang		
-2E19	"""⸙"""	2E00..2E7F	Supplemental Punctuation	Palm branch		
-2E1A	"""⸚"""	2E00..2E7F	Supplemental Punctuation	Hyphen with diaeresis		
-2E1B	"""⸛"""	2E00..2E7F	Supplemental Punctuation	Tilde with ring above		
-2E1C	"""⸜"""	2E00..2E7F	Supplemental Punctuation	Left low paraphrase bracket		
-2E1D	"""⸝"""	2E00..2E7F	Supplemental Punctuation	Right low paraphrase bracket		
-2E1E	"""⸞"""	2E00..2E7F	Supplemental Punctuation	Tilde with dot above		
-2E1F	"""⸟"""	2E00..2E7F	Supplemental Punctuation	Tilde with dot below		
-2E20	"""⸠"""	2E00..2E7F	Supplemental Punctuation	Left vertical bar with quill		
-2E21	"""⸡"""	2E00..2E7F	Supplemental Punctuation	Right vertical bar with quill		
-2E22	"""⸢"""	2E00..2E7F	Supplemental Punctuation	Top left half bracket		
-2E23	"""⸣"""	2E00..2E7F	Supplemental Punctuation	Top right half bracket		
-2E24	"""⸤"""	2E00..2E7F	Supplemental Punctuation	Bottom left half bracket		
-2E25	"""⸥"""	2E00..2E7F	Supplemental Punctuation	Bottom right half bracket		
-2E26	"""⸦"""	2E00..2E7F	Supplemental Punctuation	Left sideways u bracket		
-2E27	"""⸧"""	2E00..2E7F	Supplemental Punctuation	Right sideways u bracket		
-2E28	"""⸨"""	2E00..2E7F	Supplemental Punctuation	Left double parenthesis		
-2E29	"""⸩"""	2E00..2E7F	Supplemental Punctuation	Right double parenthesis		
-2E2A	"""⸪"""	2E00..2E7F	Supplemental Punctuation	Two dots over one dot punctuation		
-2E2B	"""⸫"""	2E00..2E7F	Supplemental Punctuation	One dot over two dots punctuation		
-2E2C	"""⸬"""	2E00..2E7F	Supplemental Punctuation	Squared four dot punctuation		
-2E2D	"""⸭"""	2E00..2E7F	Supplemental Punctuation	Five dot mark		
-2E2E	"""⸮"""	2E00..2E7F	Supplemental Punctuation	Reversed question mark		
-2E2F	"""ⸯ"""	2E00..2E7F	Supplemental Punctuation	Vertical tilde		
-2E30	"""⸰"""	2E00..2E7F	Supplemental Punctuation	Ring point		
-2E31	"""⸱"""	2E00..2E7F	Supplemental Punctuation	Word separator middle dot		
-2E32	"""⸲"""	2E00..2E7F	Supplemental Punctuation	Turned comma		
-2E33	"""⸳"""	2E00..2E7F	Supplemental Punctuation	Raised dot		
-2E34	"""⸴"""	2E00..2E7F	Supplemental Punctuation	Raised comma		
-2E35	"""⸵"""	2E00..2E7F	Supplemental Punctuation	Turned semicolon		
-2E36	"""⸶"""	2E00..2E7F	Supplemental Punctuation	Dagger with left guard		
-2E37	"""⸷"""	2E00..2E7F	Supplemental Punctuation	Dagger with right guard		
-2E38	"""⸸"""	2E00..2E7F	Supplemental Punctuation	Turned dagger		
-2E39	"""⸹"""	2E00..2E7F	Supplemental Punctuation	Top half section sign		
-2E3A	"""⸺"""	2E00..2E7F	Supplemental Punctuation	Two-em dash		
-2E3B	"""⸻"""	2E00..2E7F	Supplemental Punctuation	Three-em dash		
-2E3C	"""⸼"""	2E00..2E7F	Supplemental Punctuation	Stenographic full stop		
-2E3D	"""⸽"""	2E00..2E7F	Supplemental Punctuation	Vertical six dots		
-2E3E	"""⸾"""	2E00..2E7F	Supplemental Punctuation	Wiggly vertical line		
-2E3F	"""⸿"""	2E00..2E7F	Supplemental Punctuation	Capitulum		
-2E40	"""⹀"""	2E00..2E7F	Supplemental Punctuation	Double hyphen		
-2E41	"""⹁"""	2E00..2E7F	Supplemental Punctuation	Reversed comma		
-2E42	"""⹂"""	2E00..2E7F	Supplemental Punctuation	Double low-reversed-9 quotation mark		
-2E43	"""⹃"""	2E00..2E7F	Supplemental Punctuation	Dash with left upturn		
-2E44	"""⹄"""	2E00..2E7F	Supplemental Punctuation	Double suspension mark		
-2E45	"""⹅"""	2E00..2E7F	Supplemental Punctuation	Inverted low kavyka		
-2E46	"""⹆"""	2E00..2E7F	Supplemental Punctuation	Inverted low kavyka with kavyka above		
-2E47	"""⹇"""	2E00..2E7F	Supplemental Punctuation	Low kavyka		
-2E48	"""⹈"""	2E00..2E7F	Supplemental Punctuation	Low kavyka with dot		
-2E49	"""⹉"""	2E00..2E7F	Supplemental Punctuation	Double stacked comma		
-2E4A	"""⹊"""	2E00..2E7F	Supplemental Punctuation	Dotted solidus		
-2E4B	"""⹋"""	2E00..2E7F	Supplemental Punctuation	Triple dagger		
-2E4C	"""⹌"""	2E00..2E7F	Supplemental Punctuation	Medieval comma		
-2E4D	"""⹍"""	2E00..2E7F	Supplemental Punctuation	Paragraphus mark		
-2E4E	"""⹎"""	2E00..2E7F	Supplemental Punctuation	Punctus elevatus mark		
-2E4F	"""⹏"""	2E00..2E7F	Supplemental Punctuation	Cornish verse divider		
-2E50	"""⹐"""	2E00..2E7F	Supplemental Punctuation	Cross patty with right crossbar		
-2E51	"""⹑"""	2E00..2E7F	Supplemental Punctuation	Cross patty with left crossbar		
-2E52	"""⹒"""	2E00..2E7F	Supplemental Punctuation	Tironian sign capital et		
-2E53	"""⹓"""	2E00..2E7F	Supplemental Punctuation	Medieval exclamation mark		
-2E54	"""⹔"""	2E00..2E7F	Supplemental Punctuation	Medieval question mark		
-2E55	"""⹕"""	2E00..2E7F	Supplemental Punctuation	Left square bracket with stroke		
-2E56	"""⹖"""	2E00..2E7F	Supplemental Punctuation	Right square bracket with stroke		
-2E57	"""⹗"""	2E00..2E7F	Supplemental Punctuation	Left square bracket with double stroke		
-2E58	"""⹘"""	2E00..2E7F	Supplemental Punctuation	Right square bracket with double stroke		
-2E59	"""⹙"""	2E00..2E7F	Supplemental Punctuation	Top half left parenthesis		
-2E5A	"""⹚"""	2E00..2E7F	Supplemental Punctuation	Top half right parenthesis		
-2E5B	"""⹛"""	2E00..2E7F	Supplemental Punctuation	Bottom half left parenthesis		
-2E5C	"""⹜"""	2E00..2E7F	Supplemental Punctuation	Bottom half right parenthesis		
-2E5D	"""⹝"""	2E00..2E7F	Supplemental Punctuation	Oblique hyphen		
+U+2E00	⸀	2E00..2E7F	Supplemental Punctuation	Right angle substitution marker		
+U+2E01	⸁	2E00..2E7F	Supplemental Punctuation	Right angle dotted substitution marker		
+U+2E02	⸂	2E00..2E7F	Supplemental Punctuation	Left substitution bracket		
+U+2E03	⸃	2E00..2E7F	Supplemental Punctuation	Right substitution bracket		
+U+2E04	⸄	2E00..2E7F	Supplemental Punctuation	Left dotted substitution bracket		
+U+2E05	⸅	2E00..2E7F	Supplemental Punctuation	Right dotted substitution bracket		
+U+2E06	⸆	2E00..2E7F	Supplemental Punctuation	Raised interpolation marker		
+U+2E07	⸇	2E00..2E7F	Supplemental Punctuation	Raised dotted interpolation marker		
+U+2E08	⸈	2E00..2E7F	Supplemental Punctuation	Dotted transposition marker		
+U+2E09	⸉	2E00..2E7F	Supplemental Punctuation	Left transposition bracket		
+U+2E0A	⸊	2E00..2E7F	Supplemental Punctuation	Right transposition bracket		
+U+2E0B	⸋	2E00..2E7F	Supplemental Punctuation	Raised square		
+U+2E0C	⸌	2E00..2E7F	Supplemental Punctuation	Left raised omission bracket		
+U+2E0D	⸍	2E00..2E7F	Supplemental Punctuation	Right raised omission bracket		
+U+2E0E	⸎	2E00..2E7F	Supplemental Punctuation	Editorial coronis		
+U+2E0F	⸏	2E00..2E7F	Supplemental Punctuation	Paragraphos		
+U+2E10	⸐	2E00..2E7F	Supplemental Punctuation	Forked paragraphos		
+U+2E11	⸑	2E00..2E7F	Supplemental Punctuation	Reversed forked paragraphos		
+U+2E12	⸒	2E00..2E7F	Supplemental Punctuation	Hypodiastole		
+U+2E13	⸓	2E00..2E7F	Supplemental Punctuation	Dotted obelos		
+U+2E14	⸔	2E00..2E7F	Supplemental Punctuation	Downwards ancora		
+U+2E15	⸕	2E00..2E7F	Supplemental Punctuation	Upwards ancora		
+U+2E16	⸖	2E00..2E7F	Supplemental Punctuation	Dotted right-pointing angle		
+U+2E17	⸗	2E00..2E7F	Supplemental Punctuation	Double oblique hyphen		
+U+2E18	⸘	2E00..2E7F	Supplemental Punctuation	Inverted interrobang		
+U+2E19	⸙	2E00..2E7F	Supplemental Punctuation	Palm branch		
+U+2E1A	⸚	2E00..2E7F	Supplemental Punctuation	Hyphen with diaeresis		
+U+2E1B	⸛	2E00..2E7F	Supplemental Punctuation	Tilde with ring above		
+U+2E1C	⸜	2E00..2E7F	Supplemental Punctuation	Left low paraphrase bracket		
+U+2E1D	⸝	2E00..2E7F	Supplemental Punctuation	Right low paraphrase bracket		
+U+2E1E	⸞	2E00..2E7F	Supplemental Punctuation	Tilde with dot above		
+U+2E1F	⸟	2E00..2E7F	Supplemental Punctuation	Tilde with dot below		
+U+2E20	⸠	2E00..2E7F	Supplemental Punctuation	Left vertical bar with quill		
+U+2E21	⸡	2E00..2E7F	Supplemental Punctuation	Right vertical bar with quill		
+U+2E22	⸢	2E00..2E7F	Supplemental Punctuation	Top left half bracket		
+U+2E23	⸣	2E00..2E7F	Supplemental Punctuation	Top right half bracket		
+U+2E24	⸤	2E00..2E7F	Supplemental Punctuation	Bottom left half bracket		
+U+2E25	⸥	2E00..2E7F	Supplemental Punctuation	Bottom right half bracket		
+U+2E26	⸦	2E00..2E7F	Supplemental Punctuation	Left sideways u bracket		
+U+2E27	⸧	2E00..2E7F	Supplemental Punctuation	Right sideways u bracket		
+U+2E28	⸨	2E00..2E7F	Supplemental Punctuation	Left double parenthesis		
+U+2E29	⸩	2E00..2E7F	Supplemental Punctuation	Right double parenthesis		
+U+2E2A	⸪	2E00..2E7F	Supplemental Punctuation	Two dots over one dot punctuation		
+U+2E2B	⸫	2E00..2E7F	Supplemental Punctuation	One dot over two dots punctuation		
+U+2E2C	⸬	2E00..2E7F	Supplemental Punctuation	Squared four dot punctuation		
+U+2E2D	⸭	2E00..2E7F	Supplemental Punctuation	Five dot mark		
+U+2E2E	⸮	2E00..2E7F	Supplemental Punctuation	Reversed question mark		
+U+2E2F	ⸯ	2E00..2E7F	Supplemental Punctuation	Vertical tilde		
+U+2E30	⸰	2E00..2E7F	Supplemental Punctuation	Ring point		
+U+2E31	⸱	2E00..2E7F	Supplemental Punctuation	Word separator middle dot		
+U+2E32	⸲	2E00..2E7F	Supplemental Punctuation	Turned comma		
+U+2E33	⸳	2E00..2E7F	Supplemental Punctuation	Raised dot		
+U+2E34	⸴	2E00..2E7F	Supplemental Punctuation	Raised comma		
+U+2E35	⸵	2E00..2E7F	Supplemental Punctuation	Turned semicolon		
+U+2E36	⸶	2E00..2E7F	Supplemental Punctuation	Dagger with left guard		
+U+2E37	⸷	2E00..2E7F	Supplemental Punctuation	Dagger with right guard		
+U+2E38	⸸	2E00..2E7F	Supplemental Punctuation	Turned dagger		
+U+2E39	⸹	2E00..2E7F	Supplemental Punctuation	Top half section sign		
+U+2E3A	⸺	2E00..2E7F	Supplemental Punctuation	Two-em dash		
+U+2E3B	⸻	2E00..2E7F	Supplemental Punctuation	Three-em dash		
+U+2E3C	⸼	2E00..2E7F	Supplemental Punctuation	Stenographic full stop		
+U+2E3D	⸽	2E00..2E7F	Supplemental Punctuation	Vertical six dots		
+U+2E3E	⸾	2E00..2E7F	Supplemental Punctuation	Wiggly vertical line		
+U+2E3F	⸿	2E00..2E7F	Supplemental Punctuation	Capitulum		
+U+2E40	⹀	2E00..2E7F	Supplemental Punctuation	Double hyphen		
+U+2E41	⹁	2E00..2E7F	Supplemental Punctuation	Reversed comma		
+U+2E42	⹂	2E00..2E7F	Supplemental Punctuation	Double low-reversed-9 quotation mark		
+U+2E43	⹃	2E00..2E7F	Supplemental Punctuation	Dash with left upturn		
+U+2E44	⹄	2E00..2E7F	Supplemental Punctuation	Double suspension mark		
+U+2E45	⹅	2E00..2E7F	Supplemental Punctuation	Inverted low kavyka		
+U+2E46	⹆	2E00..2E7F	Supplemental Punctuation	Inverted low kavyka with kavyka above		
+U+2E47	⹇	2E00..2E7F	Supplemental Punctuation	Low kavyka		
+U+2E48	⹈	2E00..2E7F	Supplemental Punctuation	Low kavyka with dot		
+U+2E49	⹉	2E00..2E7F	Supplemental Punctuation	Double stacked comma		
+U+2E4A	⹊	2E00..2E7F	Supplemental Punctuation	Dotted solidus		
+U+2E4B	⹋	2E00..2E7F	Supplemental Punctuation	Triple dagger		
+U+2E4C	⹌	2E00..2E7F	Supplemental Punctuation	Medieval comma		
+U+2E4D	⹍	2E00..2E7F	Supplemental Punctuation	Paragraphus mark		
+U+2E4E	⹎	2E00..2E7F	Supplemental Punctuation	Punctus elevatus mark		
+U+2E4F	⹏	2E00..2E7F	Supplemental Punctuation	Cornish verse divider		
+U+2E50	⹐	2E00..2E7F	Supplemental Punctuation	Cross patty with right crossbar		
+U+2E51	⹑	2E00..2E7F	Supplemental Punctuation	Cross patty with left crossbar		
+U+2E52	⹒	2E00..2E7F	Supplemental Punctuation	Tironian sign capital et		
+U+2E53	⹓	2E00..2E7F	Supplemental Punctuation	Medieval exclamation mark		
+U+2E54	⹔	2E00..2E7F	Supplemental Punctuation	Medieval question mark		
+U+2E55	⹕	2E00..2E7F	Supplemental Punctuation	Left square bracket with stroke		
+U+2E56	⹖	2E00..2E7F	Supplemental Punctuation	Right square bracket with stroke		
+U+2E57	⹗	2E00..2E7F	Supplemental Punctuation	Left square bracket with double stroke		
+U+2E58	⹘	2E00..2E7F	Supplemental Punctuation	Right square bracket with double stroke		
+U+2E59	⹙	2E00..2E7F	Supplemental Punctuation	Top half left parenthesis		
+U+2E5A	⹚	2E00..2E7F	Supplemental Punctuation	Top half right parenthesis		
+U+2E5B	⹛	2E00..2E7F	Supplemental Punctuation	Bottom half left parenthesis		
+U+2E5C	⹜	2E00..2E7F	Supplemental Punctuation	Bottom half right parenthesis		
+U+2E5D	⹝	2E00..2E7F	Supplemental Punctuation	Oblique hyphen		

@@ -1,75 +1,75 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1C00	"""ᰀ"""	1C00..1C4F	Lepcha	Lepcha letter ka		
-1C01	"""ᰁ"""	1C00..1C4F	Lepcha	Lepcha letter kla		
-1C02	"""ᰂ"""	1C00..1C4F	Lepcha	Lepcha letter kha		
-1C03	"""ᰃ"""	1C00..1C4F	Lepcha	Lepcha letter ga		
-1C04	"""ᰄ"""	1C00..1C4F	Lepcha	Lepcha letter gla		
-1C05	"""ᰅ"""	1C00..1C4F	Lepcha	Lepcha letter nga		
-1C06	"""ᰆ"""	1C00..1C4F	Lepcha	Lepcha letter ca		
-1C07	"""ᰇ"""	1C00..1C4F	Lepcha	Lepcha letter cha		
-1C08	"""ᰈ"""	1C00..1C4F	Lepcha	Lepcha letter ja		
-1C09	"""ᰉ"""	1C00..1C4F	Lepcha	Lepcha letter nya		
-1C0A	"""ᰊ"""	1C00..1C4F	Lepcha	Lepcha letter ta		
-1C0B	"""ᰋ"""	1C00..1C4F	Lepcha	Lepcha letter tha		
-1C0C	"""ᰌ"""	1C00..1C4F	Lepcha	Lepcha letter da		
-1C0D	"""ᰍ"""	1C00..1C4F	Lepcha	Lepcha letter na		
-1C0E	"""ᰎ"""	1C00..1C4F	Lepcha	Lepcha letter pa		
-1C0F	"""ᰏ"""	1C00..1C4F	Lepcha	Lepcha letter pla		
-1C10	"""ᰐ"""	1C00..1C4F	Lepcha	Lepcha letter pha		
-1C11	"""ᰑ"""	1C00..1C4F	Lepcha	Lepcha letter fa		
-1C12	"""ᰒ"""	1C00..1C4F	Lepcha	Lepcha letter fla		
-1C13	"""ᰓ"""	1C00..1C4F	Lepcha	Lepcha letter ba		
-1C14	"""ᰔ"""	1C00..1C4F	Lepcha	Lepcha letter bla		
-1C15	"""ᰕ"""	1C00..1C4F	Lepcha	Lepcha letter ma		
-1C16	"""ᰖ"""	1C00..1C4F	Lepcha	Lepcha letter mla		
-1C17	"""ᰗ"""	1C00..1C4F	Lepcha	Lepcha letter tsa		
-1C18	"""ᰘ"""	1C00..1C4F	Lepcha	Lepcha letter tsha		
-1C19	"""ᰙ"""	1C00..1C4F	Lepcha	Lepcha letter dza		
-1C1A	"""ᰚ"""	1C00..1C4F	Lepcha	Lepcha letter ya		
-1C1B	"""ᰛ"""	1C00..1C4F	Lepcha	Lepcha letter ra		
-1C1C	"""ᰜ"""	1C00..1C4F	Lepcha	Lepcha letter la		
-1C1D	"""ᰝ"""	1C00..1C4F	Lepcha	Lepcha letter ha		
-1C1E	"""ᰞ"""	1C00..1C4F	Lepcha	Lepcha letter hla		
-1C1F	"""ᰟ"""	1C00..1C4F	Lepcha	Lepcha letter va		
-1C20	"""ᰠ"""	1C00..1C4F	Lepcha	Lepcha letter sa		
-1C21	"""ᰡ"""	1C00..1C4F	Lepcha	Lepcha letter sha		
-1C22	"""ᰢ"""	1C00..1C4F	Lepcha	Lepcha letter wa		
-1C23	"""ᰣ"""	1C00..1C4F	Lepcha	Lepcha letter a		
-1C24	"""ᰤ"""	1C00..1C4F	Lepcha	Lepcha subjoined letter ya		
-1C25	"""ᰥ"""	1C00..1C4F	Lepcha	Lepcha subjoined letter ra		
-1C26	"""ᰦ"""	1C00..1C4F	Lepcha	Lepcha vowel sign aa		
-1C27	"""ᰧ"""	1C00..1C4F	Lepcha	Lepcha vowel sign i		
-1C28	"""ᰨ"""	1C00..1C4F	Lepcha	Lepcha vowel sign o		
-1C29	"""ᰩ"""	1C00..1C4F	Lepcha	Lepcha vowel sign oo		
-1C2A	"""ᰪ"""	1C00..1C4F	Lepcha	Lepcha vowel sign u		
-1C2B	"""ᰫ"""	1C00..1C4F	Lepcha	Lepcha vowel sign uu		
-1C2C	"""ᰬ"""	1C00..1C4F	Lepcha	Lepcha vowel sign e		
-1C2D	"""ᰭ"""	1C00..1C4F	Lepcha	Lepcha consonant sign k		
-1C2E	"""ᰮ"""	1C00..1C4F	Lepcha	Lepcha consonant sign m		
-1C2F	"""ᰯ"""	1C00..1C4F	Lepcha	Lepcha consonant sign l		
-1C30	"""ᰰ"""	1C00..1C4F	Lepcha	Lepcha consonant sign n		
-1C31	"""ᰱ"""	1C00..1C4F	Lepcha	Lepcha consonant sign p		
-1C32	"""ᰲ"""	1C00..1C4F	Lepcha	Lepcha consonant sign r		
-1C33	"""ᰳ"""	1C00..1C4F	Lepcha	Lepcha consonant sign t		
-1C34	"""ᰴ"""	1C00..1C4F	Lepcha	Lepcha consonant sign nyin-do		
-1C35	"""ᰵ"""	1C00..1C4F	Lepcha	Lepcha consonant sign kang		
-1C36	"""ᰶ"""	1C00..1C4F	Lepcha	Lepcha sign ran		
-1C37	"""᰷"""	1C00..1C4F	Lepcha	Lepcha sign nukta		
-1C3B	"""᰻"""	1C00..1C4F	Lepcha	Lepcha punctuation ta-rol		
-1C3C	"""᰼"""	1C00..1C4F	Lepcha	Lepcha punctuation nyet thyoom ta-rol		
-1C3D	"""᰽"""	1C00..1C4F	Lepcha	Lepcha punctuation cer-wa		
-1C3E	"""᰾"""	1C00..1C4F	Lepcha	Lepcha punctuation tshook cer-wa		
-1C3F	"""᰿"""	1C00..1C4F	Lepcha	Lepcha punctuation tshook		
-1C40	"""᱀"""	1C00..1C4F	Lepcha	Lepcha digit zero		
-1C41	"""᱁"""	1C00..1C4F	Lepcha	Lepcha digit one		
-1C42	"""᱂"""	1C00..1C4F	Lepcha	Lepcha digit two		
-1C43	"""᱃"""	1C00..1C4F	Lepcha	Lepcha digit three		
-1C44	"""᱄"""	1C00..1C4F	Lepcha	Lepcha digit four		
-1C45	"""᱅"""	1C00..1C4F	Lepcha	Lepcha digit five		
-1C46	"""᱆"""	1C00..1C4F	Lepcha	Lepcha digit six		
-1C47	"""᱇"""	1C00..1C4F	Lepcha	Lepcha digit seven		
-1C48	"""᱈"""	1C00..1C4F	Lepcha	Lepcha digit eight		
-1C49	"""᱉"""	1C00..1C4F	Lepcha	Lepcha digit nine		
-1C4D	"""ᱍ"""	1C00..1C4F	Lepcha	Lepcha letter tta		
-1C4E	"""ᱎ"""	1C00..1C4F	Lepcha	Lepcha letter ttha		
-1C4F	"""ᱏ"""	1C00..1C4F	Lepcha	Lepcha letter dda		
+U+1C00	ᰀ	1C00..1C4F	Lepcha	Lepcha letter ka		
+U+1C01	ᰁ	1C00..1C4F	Lepcha	Lepcha letter kla		
+U+1C02	ᰂ	1C00..1C4F	Lepcha	Lepcha letter kha		
+U+1C03	ᰃ	1C00..1C4F	Lepcha	Lepcha letter ga		
+U+1C04	ᰄ	1C00..1C4F	Lepcha	Lepcha letter gla		
+U+1C05	ᰅ	1C00..1C4F	Lepcha	Lepcha letter nga		
+U+1C06	ᰆ	1C00..1C4F	Lepcha	Lepcha letter ca		
+U+1C07	ᰇ	1C00..1C4F	Lepcha	Lepcha letter cha		
+U+1C08	ᰈ	1C00..1C4F	Lepcha	Lepcha letter ja		
+U+1C09	ᰉ	1C00..1C4F	Lepcha	Lepcha letter nya		
+U+1C0A	ᰊ	1C00..1C4F	Lepcha	Lepcha letter ta		
+U+1C0B	ᰋ	1C00..1C4F	Lepcha	Lepcha letter tha		
+U+1C0C	ᰌ	1C00..1C4F	Lepcha	Lepcha letter da		
+U+1C0D	ᰍ	1C00..1C4F	Lepcha	Lepcha letter na		
+U+1C0E	ᰎ	1C00..1C4F	Lepcha	Lepcha letter pa		
+U+1C0F	ᰏ	1C00..1C4F	Lepcha	Lepcha letter pla		
+U+1C10	ᰐ	1C00..1C4F	Lepcha	Lepcha letter pha		
+U+1C11	ᰑ	1C00..1C4F	Lepcha	Lepcha letter fa		
+U+1C12	ᰒ	1C00..1C4F	Lepcha	Lepcha letter fla		
+U+1C13	ᰓ	1C00..1C4F	Lepcha	Lepcha letter ba		
+U+1C14	ᰔ	1C00..1C4F	Lepcha	Lepcha letter bla		
+U+1C15	ᰕ	1C00..1C4F	Lepcha	Lepcha letter ma		
+U+1C16	ᰖ	1C00..1C4F	Lepcha	Lepcha letter mla		
+U+1C17	ᰗ	1C00..1C4F	Lepcha	Lepcha letter tsa		
+U+1C18	ᰘ	1C00..1C4F	Lepcha	Lepcha letter tsha		
+U+1C19	ᰙ	1C00..1C4F	Lepcha	Lepcha letter dza		
+U+1C1A	ᰚ	1C00..1C4F	Lepcha	Lepcha letter ya		
+U+1C1B	ᰛ	1C00..1C4F	Lepcha	Lepcha letter ra		
+U+1C1C	ᰜ	1C00..1C4F	Lepcha	Lepcha letter la		
+U+1C1D	ᰝ	1C00..1C4F	Lepcha	Lepcha letter ha		
+U+1C1E	ᰞ	1C00..1C4F	Lepcha	Lepcha letter hla		
+U+1C1F	ᰟ	1C00..1C4F	Lepcha	Lepcha letter va		
+U+1C20	ᰠ	1C00..1C4F	Lepcha	Lepcha letter sa		
+U+1C21	ᰡ	1C00..1C4F	Lepcha	Lepcha letter sha		
+U+1C22	ᰢ	1C00..1C4F	Lepcha	Lepcha letter wa		
+U+1C23	ᰣ	1C00..1C4F	Lepcha	Lepcha letter a		
+U+1C24	ᰤ	1C00..1C4F	Lepcha	Lepcha subjoined letter ya		
+U+1C25	ᰥ	1C00..1C4F	Lepcha	Lepcha subjoined letter ra		
+U+1C26	ᰦ	1C00..1C4F	Lepcha	Lepcha vowel sign aa		
+U+1C27	ᰧ	1C00..1C4F	Lepcha	Lepcha vowel sign i		
+U+1C28	ᰨ	1C00..1C4F	Lepcha	Lepcha vowel sign o		
+U+1C29	ᰩ	1C00..1C4F	Lepcha	Lepcha vowel sign oo		
+U+1C2A	ᰪ	1C00..1C4F	Lepcha	Lepcha vowel sign u		
+U+1C2B	ᰫ	1C00..1C4F	Lepcha	Lepcha vowel sign uu		
+U+1C2C	ᰬ	1C00..1C4F	Lepcha	Lepcha vowel sign e		
+U+1C2D	ᰭ	1C00..1C4F	Lepcha	Lepcha consonant sign k		
+U+1C2E	ᰮ	1C00..1C4F	Lepcha	Lepcha consonant sign m		
+U+1C2F	ᰯ	1C00..1C4F	Lepcha	Lepcha consonant sign l		
+U+1C30	ᰰ	1C00..1C4F	Lepcha	Lepcha consonant sign n		
+U+1C31	ᰱ	1C00..1C4F	Lepcha	Lepcha consonant sign p		
+U+1C32	ᰲ	1C00..1C4F	Lepcha	Lepcha consonant sign r		
+U+1C33	ᰳ	1C00..1C4F	Lepcha	Lepcha consonant sign t		
+U+1C34	ᰴ	1C00..1C4F	Lepcha	Lepcha consonant sign nyin-do		
+U+1C35	ᰵ	1C00..1C4F	Lepcha	Lepcha consonant sign kang		
+U+1C36	ᰶ	1C00..1C4F	Lepcha	Lepcha sign ran		
+U+1C37	᰷	1C00..1C4F	Lepcha	Lepcha sign nukta		
+U+1C3B	᰻	1C00..1C4F	Lepcha	Lepcha punctuation ta-rol		
+U+1C3C	᰼	1C00..1C4F	Lepcha	Lepcha punctuation nyet thyoom ta-rol		
+U+1C3D	᰽	1C00..1C4F	Lepcha	Lepcha punctuation cer-wa		
+U+1C3E	᰾	1C00..1C4F	Lepcha	Lepcha punctuation tshook cer-wa		
+U+1C3F	᰿	1C00..1C4F	Lepcha	Lepcha punctuation tshook		
+U+1C40	᱀	1C00..1C4F	Lepcha	Lepcha digit zero		
+U+1C41	᱁	1C00..1C4F	Lepcha	Lepcha digit one		
+U+1C42	᱂	1C00..1C4F	Lepcha	Lepcha digit two		
+U+1C43	᱃	1C00..1C4F	Lepcha	Lepcha digit three		
+U+1C44	᱄	1C00..1C4F	Lepcha	Lepcha digit four		
+U+1C45	᱅	1C00..1C4F	Lepcha	Lepcha digit five		
+U+1C46	᱆	1C00..1C4F	Lepcha	Lepcha digit six		
+U+1C47	᱇	1C00..1C4F	Lepcha	Lepcha digit seven		
+U+1C48	᱈	1C00..1C4F	Lepcha	Lepcha digit eight		
+U+1C49	᱉	1C00..1C4F	Lepcha	Lepcha digit nine		
+U+1C4D	ᱍ	1C00..1C4F	Lepcha	Lepcha letter tta		
+U+1C4E	ᱎ	1C00..1C4F	Lepcha	Lepcha letter ttha		
+U+1C4F	ᱏ	1C00..1C4F	Lepcha	Lepcha letter dda		

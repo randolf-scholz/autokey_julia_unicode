@@ -1,83 +1,83 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11480	"""𑒀"""	11480..114DF	Tirhuta	Tirhuta anji		
-11481	"""𑒁"""	11480..114DF	Tirhuta	Tirhuta letter a		
-11482	"""𑒂"""	11480..114DF	Tirhuta	Tirhuta letter aa		
-11483	"""𑒃"""	11480..114DF	Tirhuta	Tirhuta letter i		
-11484	"""𑒄"""	11480..114DF	Tirhuta	Tirhuta letter ii		
-11485	"""𑒅"""	11480..114DF	Tirhuta	Tirhuta letter u		
-11486	"""𑒆"""	11480..114DF	Tirhuta	Tirhuta letter uu		
-11487	"""𑒇"""	11480..114DF	Tirhuta	Tirhuta letter vocalic r		
-11488	"""𑒈"""	11480..114DF	Tirhuta	Tirhuta letter vocalic rr		
-11489	"""𑒉"""	11480..114DF	Tirhuta	Tirhuta letter vocalic l		
-1148A	"""𑒊"""	11480..114DF	Tirhuta	Tirhuta letter vocalic ll		
-1148B	"""𑒋"""	11480..114DF	Tirhuta	Tirhuta letter e		
-1148C	"""𑒌"""	11480..114DF	Tirhuta	Tirhuta letter ai		
-1148D	"""𑒍"""	11480..114DF	Tirhuta	Tirhuta letter o		
-1148E	"""𑒎"""	11480..114DF	Tirhuta	Tirhuta letter au		
-1148F	"""𑒏"""	11480..114DF	Tirhuta	Tirhuta letter ka		
-11490	"""𑒐"""	11480..114DF	Tirhuta	Tirhuta letter kha		
-11491	"""𑒑"""	11480..114DF	Tirhuta	Tirhuta letter ga		
-11492	"""𑒒"""	11480..114DF	Tirhuta	Tirhuta letter gha		
-11493	"""𑒓"""	11480..114DF	Tirhuta	Tirhuta letter nga		
-11494	"""𑒔"""	11480..114DF	Tirhuta	Tirhuta letter ca		
-11495	"""𑒕"""	11480..114DF	Tirhuta	Tirhuta letter cha		
-11496	"""𑒖"""	11480..114DF	Tirhuta	Tirhuta letter ja		
-11497	"""𑒗"""	11480..114DF	Tirhuta	Tirhuta letter jha		
-11498	"""𑒘"""	11480..114DF	Tirhuta	Tirhuta letter nya		
-11499	"""𑒙"""	11480..114DF	Tirhuta	Tirhuta letter tta		
-1149A	"""𑒚"""	11480..114DF	Tirhuta	Tirhuta letter ttha		
-1149B	"""𑒛"""	11480..114DF	Tirhuta	Tirhuta letter dda		
-1149C	"""𑒜"""	11480..114DF	Tirhuta	Tirhuta letter ddha		
-1149D	"""𑒝"""	11480..114DF	Tirhuta	Tirhuta letter nna		
-1149E	"""𑒞"""	11480..114DF	Tirhuta	Tirhuta letter ta		
-1149F	"""𑒟"""	11480..114DF	Tirhuta	Tirhuta letter tha		
-114A0	"""𑒠"""	11480..114DF	Tirhuta	Tirhuta letter da		
-114A1	"""𑒡"""	11480..114DF	Tirhuta	Tirhuta letter dha		
-114A2	"""𑒢"""	11480..114DF	Tirhuta	Tirhuta letter na		
-114A3	"""𑒣"""	11480..114DF	Tirhuta	Tirhuta letter pa		
-114A4	"""𑒤"""	11480..114DF	Tirhuta	Tirhuta letter pha		
-114A5	"""𑒥"""	11480..114DF	Tirhuta	Tirhuta letter ba		
-114A6	"""𑒦"""	11480..114DF	Tirhuta	Tirhuta letter bha		
-114A7	"""𑒧"""	11480..114DF	Tirhuta	Tirhuta letter ma		
-114A8	"""𑒨"""	11480..114DF	Tirhuta	Tirhuta letter ya		
-114A9	"""𑒩"""	11480..114DF	Tirhuta	Tirhuta letter ra		
-114AA	"""𑒪"""	11480..114DF	Tirhuta	Tirhuta letter la		
-114AB	"""𑒫"""	11480..114DF	Tirhuta	Tirhuta letter va		
-114AC	"""𑒬"""	11480..114DF	Tirhuta	Tirhuta letter sha		
-114AD	"""𑒭"""	11480..114DF	Tirhuta	Tirhuta letter ssa		
-114AE	"""𑒮"""	11480..114DF	Tirhuta	Tirhuta letter sa		
-114AF	"""𑒯"""	11480..114DF	Tirhuta	Tirhuta letter ha		
-114B0	"""𑒰"""	11480..114DF	Tirhuta	Tirhuta vowel sign aa		
-114B1	"""𑒱"""	11480..114DF	Tirhuta	Tirhuta vowel sign i		
-114B2	"""𑒲"""	11480..114DF	Tirhuta	Tirhuta vowel sign ii		
-114B3	"""𑒳"""	11480..114DF	Tirhuta	Tirhuta vowel sign u		
-114B4	"""𑒴"""	11480..114DF	Tirhuta	Tirhuta vowel sign uu		
-114B5	"""𑒵"""	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic r		
-114B6	"""𑒶"""	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic rr		
-114B7	"""𑒷"""	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic l		
-114B8	"""𑒸"""	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic ll		
-114B9	"""𑒹"""	11480..114DF	Tirhuta	Tirhuta vowel sign e		
-114BA	"""𑒺"""	11480..114DF	Tirhuta	Tirhuta vowel sign short e		
-114BB	"""𑒻"""	11480..114DF	Tirhuta	Tirhuta vowel sign ai		
-114BC	"""𑒼"""	11480..114DF	Tirhuta	Tirhuta vowel sign o		
-114BD	"""𑒽"""	11480..114DF	Tirhuta	Tirhuta vowel sign short o		
-114BE	"""𑒾"""	11480..114DF	Tirhuta	Tirhuta vowel sign au		
-114BF	"""𑒿"""	11480..114DF	Tirhuta	Tirhuta sign candrabindu		
-114C0	"""𑓀"""	11480..114DF	Tirhuta	Tirhuta sign anusvara		
-114C1	"""𑓁"""	11480..114DF	Tirhuta	Tirhuta sign visarga		
-114C2	"""𑓂"""	11480..114DF	Tirhuta	Tirhuta sign virama		
-114C3	"""𑓃"""	11480..114DF	Tirhuta	Tirhuta sign nukta		
-114C4	"""𑓄"""	11480..114DF	Tirhuta	Tirhuta sign avagraha		
-114C5	"""𑓅"""	11480..114DF	Tirhuta	Tirhuta gvang		
-114C6	"""𑓆"""	11480..114DF	Tirhuta	Tirhuta abbreviation sign		
-114C7	"""𑓇"""	11480..114DF	Tirhuta	Tirhuta om		
-114D0	"""𑓐"""	11480..114DF	Tirhuta	Tirhuta digit zero		
-114D1	"""𑓑"""	11480..114DF	Tirhuta	Tirhuta digit one		
-114D2	"""𑓒"""	11480..114DF	Tirhuta	Tirhuta digit two		
-114D3	"""𑓓"""	11480..114DF	Tirhuta	Tirhuta digit three		
-114D4	"""𑓔"""	11480..114DF	Tirhuta	Tirhuta digit four		
-114D5	"""𑓕"""	11480..114DF	Tirhuta	Tirhuta digit five		
-114D6	"""𑓖"""	11480..114DF	Tirhuta	Tirhuta digit six		
-114D7	"""𑓗"""	11480..114DF	Tirhuta	Tirhuta digit seven		
-114D8	"""𑓘"""	11480..114DF	Tirhuta	Tirhuta digit eight		
-114D9	"""𑓙"""	11480..114DF	Tirhuta	Tirhuta digit nine		
+U+11480	𑒀	11480..114DF	Tirhuta	Tirhuta anji		
+U+11481	𑒁	11480..114DF	Tirhuta	Tirhuta letter a		
+U+11482	𑒂	11480..114DF	Tirhuta	Tirhuta letter aa		
+U+11483	𑒃	11480..114DF	Tirhuta	Tirhuta letter i		
+U+11484	𑒄	11480..114DF	Tirhuta	Tirhuta letter ii		
+U+11485	𑒅	11480..114DF	Tirhuta	Tirhuta letter u		
+U+11486	𑒆	11480..114DF	Tirhuta	Tirhuta letter uu		
+U+11487	𑒇	11480..114DF	Tirhuta	Tirhuta letter vocalic r		
+U+11488	𑒈	11480..114DF	Tirhuta	Tirhuta letter vocalic rr		
+U+11489	𑒉	11480..114DF	Tirhuta	Tirhuta letter vocalic l		
+U+1148A	𑒊	11480..114DF	Tirhuta	Tirhuta letter vocalic ll		
+U+1148B	𑒋	11480..114DF	Tirhuta	Tirhuta letter e		
+U+1148C	𑒌	11480..114DF	Tirhuta	Tirhuta letter ai		
+U+1148D	𑒍	11480..114DF	Tirhuta	Tirhuta letter o		
+U+1148E	𑒎	11480..114DF	Tirhuta	Tirhuta letter au		
+U+1148F	𑒏	11480..114DF	Tirhuta	Tirhuta letter ka		
+U+11490	𑒐	11480..114DF	Tirhuta	Tirhuta letter kha		
+U+11491	𑒑	11480..114DF	Tirhuta	Tirhuta letter ga		
+U+11492	𑒒	11480..114DF	Tirhuta	Tirhuta letter gha		
+U+11493	𑒓	11480..114DF	Tirhuta	Tirhuta letter nga		
+U+11494	𑒔	11480..114DF	Tirhuta	Tirhuta letter ca		
+U+11495	𑒕	11480..114DF	Tirhuta	Tirhuta letter cha		
+U+11496	𑒖	11480..114DF	Tirhuta	Tirhuta letter ja		
+U+11497	𑒗	11480..114DF	Tirhuta	Tirhuta letter jha		
+U+11498	𑒘	11480..114DF	Tirhuta	Tirhuta letter nya		
+U+11499	𑒙	11480..114DF	Tirhuta	Tirhuta letter tta		
+U+1149A	𑒚	11480..114DF	Tirhuta	Tirhuta letter ttha		
+U+1149B	𑒛	11480..114DF	Tirhuta	Tirhuta letter dda		
+U+1149C	𑒜	11480..114DF	Tirhuta	Tirhuta letter ddha		
+U+1149D	𑒝	11480..114DF	Tirhuta	Tirhuta letter nna		
+U+1149E	𑒞	11480..114DF	Tirhuta	Tirhuta letter ta		
+U+1149F	𑒟	11480..114DF	Tirhuta	Tirhuta letter tha		
+U+114A0	𑒠	11480..114DF	Tirhuta	Tirhuta letter da		
+U+114A1	𑒡	11480..114DF	Tirhuta	Tirhuta letter dha		
+U+114A2	𑒢	11480..114DF	Tirhuta	Tirhuta letter na		
+U+114A3	𑒣	11480..114DF	Tirhuta	Tirhuta letter pa		
+U+114A4	𑒤	11480..114DF	Tirhuta	Tirhuta letter pha		
+U+114A5	𑒥	11480..114DF	Tirhuta	Tirhuta letter ba		
+U+114A6	𑒦	11480..114DF	Tirhuta	Tirhuta letter bha		
+U+114A7	𑒧	11480..114DF	Tirhuta	Tirhuta letter ma		
+U+114A8	𑒨	11480..114DF	Tirhuta	Tirhuta letter ya		
+U+114A9	𑒩	11480..114DF	Tirhuta	Tirhuta letter ra		
+U+114AA	𑒪	11480..114DF	Tirhuta	Tirhuta letter la		
+U+114AB	𑒫	11480..114DF	Tirhuta	Tirhuta letter va		
+U+114AC	𑒬	11480..114DF	Tirhuta	Tirhuta letter sha		
+U+114AD	𑒭	11480..114DF	Tirhuta	Tirhuta letter ssa		
+U+114AE	𑒮	11480..114DF	Tirhuta	Tirhuta letter sa		
+U+114AF	𑒯	11480..114DF	Tirhuta	Tirhuta letter ha		
+U+114B0	𑒰	11480..114DF	Tirhuta	Tirhuta vowel sign aa		
+U+114B1	𑒱	11480..114DF	Tirhuta	Tirhuta vowel sign i		
+U+114B2	𑒲	11480..114DF	Tirhuta	Tirhuta vowel sign ii		
+U+114B3	𑒳	11480..114DF	Tirhuta	Tirhuta vowel sign u		
+U+114B4	𑒴	11480..114DF	Tirhuta	Tirhuta vowel sign uu		
+U+114B5	𑒵	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic r		
+U+114B6	𑒶	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic rr		
+U+114B7	𑒷	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic l		
+U+114B8	𑒸	11480..114DF	Tirhuta	Tirhuta vowel sign vocalic ll		
+U+114B9	𑒹	11480..114DF	Tirhuta	Tirhuta vowel sign e		
+U+114BA	𑒺	11480..114DF	Tirhuta	Tirhuta vowel sign short e		
+U+114BB	𑒻	11480..114DF	Tirhuta	Tirhuta vowel sign ai		
+U+114BC	𑒼	11480..114DF	Tirhuta	Tirhuta vowel sign o		
+U+114BD	𑒽	11480..114DF	Tirhuta	Tirhuta vowel sign short o		
+U+114BE	𑒾	11480..114DF	Tirhuta	Tirhuta vowel sign au		
+U+114BF	𑒿	11480..114DF	Tirhuta	Tirhuta sign candrabindu		
+U+114C0	𑓀	11480..114DF	Tirhuta	Tirhuta sign anusvara		
+U+114C1	𑓁	11480..114DF	Tirhuta	Tirhuta sign visarga		
+U+114C2	𑓂	11480..114DF	Tirhuta	Tirhuta sign virama		
+U+114C3	𑓃	11480..114DF	Tirhuta	Tirhuta sign nukta		
+U+114C4	𑓄	11480..114DF	Tirhuta	Tirhuta sign avagraha		
+U+114C5	𑓅	11480..114DF	Tirhuta	Tirhuta gvang		
+U+114C6	𑓆	11480..114DF	Tirhuta	Tirhuta abbreviation sign		
+U+114C7	𑓇	11480..114DF	Tirhuta	Tirhuta om		
+U+114D0	𑓐	11480..114DF	Tirhuta	Tirhuta digit zero		
+U+114D1	𑓑	11480..114DF	Tirhuta	Tirhuta digit one		
+U+114D2	𑓒	11480..114DF	Tirhuta	Tirhuta digit two		
+U+114D3	𑓓	11480..114DF	Tirhuta	Tirhuta digit three		
+U+114D4	𑓔	11480..114DF	Tirhuta	Tirhuta digit four		
+U+114D5	𑓕	11480..114DF	Tirhuta	Tirhuta digit five		
+U+114D6	𑓖	11480..114DF	Tirhuta	Tirhuta digit six		
+U+114D7	𑓗	11480..114DF	Tirhuta	Tirhuta digit seven		
+U+114D8	𑓘	11480..114DF	Tirhuta	Tirhuta digit eight		
+U+114D9	𑓙	11480..114DF	Tirhuta	Tirhuta digit nine		

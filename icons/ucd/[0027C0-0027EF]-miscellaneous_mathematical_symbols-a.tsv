@@ -1,49 +1,49 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-27C0	"""⟀"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Three dimensional angle		
-27C1	"""⟁"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White triangle containing small white triangle		
-27C2	"""⟂"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Perpendicular		
-27C3	"""⟃"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Open subset		
-27C4	"""⟄"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Open superset		
-27C5	"""⟅"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left s-shaped bag delimiter		
-27C6	"""⟆"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Right s-shaped bag delimiter		
-27C7	"""⟇"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Or with dot inside		
-27C8	"""⟈"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Reverse solidus preceding subset		
-27C9	"""⟉"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Superset preceding solidus		
-27CA	"""⟊"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Vertical bar with horizontal stroke		
-27CB	"""⟋"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical rising diagonal		
-27CC	"""⟌"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long division		
-27CD	"""⟍"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical falling diagonal		
-27CE	"""⟎"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Squared logical and		
-27CF	"""⟏"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Squared logical or		
-27D0	"""⟐"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White diamond with centred dot		
-27D1	"""⟑"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	And with dot		
-27D2	"""⟒"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Element of opening upwards		
-27D3	"""⟓"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Lower right corner with dot		
-27D4	"""⟔"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Upper left corner with dot		
-27D5	"""⟕"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left outer join		
-27D6	"""⟖"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Right outer join		
-27D7	"""⟗"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Full outer join		
-27D8	"""⟘"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Large up tack		
-27D9	"""⟙"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Large down tack		
-27DA	"""⟚"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left and right double turnstile		
-27DB	"""⟛"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left and right tack		
-27DC	"""⟜"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left multimap		
-27DD	"""⟝"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long right tack		
-27DE	"""⟞"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long left tack		
-27DF	"""⟟"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Up tack with circle above		
-27E0	"""⟠"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Lozenge divided by horizontal rule		
-27E1	"""⟡"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond		
-27E2	"""⟢"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond with leftwards tick		
-27E3	"""⟣"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond with rightwards tick		
-27E4	"""⟤"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White square with leftwards tick		
-27E5	"""⟥"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	White square with rightwards tick		
-27E6	"""⟦"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left white square bracket		
-27E7	"""⟧"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right white square bracket		
-27E8	"""⟨"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left angle bracket		
-27E9	"""⟩"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right angle bracket		
-27EA	"""⟪"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left double angle bracket		
-27EB	"""⟫"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right double angle bracket		
-27EC	"""⟬"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left white tortoise shell bracket		
-27ED	"""⟭"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right white tortoise shell bracket		
-27EE	"""⟮"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left flattened parenthesis		
-27EF	"""⟯"""	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right flattened parenthesis		
+U+27C0	⟀	27C0..27EF	Miscellaneous Mathematical Symbols-A	Three dimensional angle		
+U+27C1	⟁	27C0..27EF	Miscellaneous Mathematical Symbols-A	White triangle containing small white triangle		
+U+27C2	⟂	27C0..27EF	Miscellaneous Mathematical Symbols-A	Perpendicular		
+U+27C3	⟃	27C0..27EF	Miscellaneous Mathematical Symbols-A	Open subset		
+U+27C4	⟄	27C0..27EF	Miscellaneous Mathematical Symbols-A	Open superset		
+U+27C5	⟅	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left s-shaped bag delimiter		
+U+27C6	⟆	27C0..27EF	Miscellaneous Mathematical Symbols-A	Right s-shaped bag delimiter		
+U+27C7	⟇	27C0..27EF	Miscellaneous Mathematical Symbols-A	Or with dot inside		
+U+27C8	⟈	27C0..27EF	Miscellaneous Mathematical Symbols-A	Reverse solidus preceding subset		
+U+27C9	⟉	27C0..27EF	Miscellaneous Mathematical Symbols-A	Superset preceding solidus		
+U+27CA	⟊	27C0..27EF	Miscellaneous Mathematical Symbols-A	Vertical bar with horizontal stroke		
+U+27CB	⟋	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical rising diagonal		
+U+27CC	⟌	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long division		
+U+27CD	⟍	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical falling diagonal		
+U+27CE	⟎	27C0..27EF	Miscellaneous Mathematical Symbols-A	Squared logical and		
+U+27CF	⟏	27C0..27EF	Miscellaneous Mathematical Symbols-A	Squared logical or		
+U+27D0	⟐	27C0..27EF	Miscellaneous Mathematical Symbols-A	White diamond with centred dot		
+U+27D1	⟑	27C0..27EF	Miscellaneous Mathematical Symbols-A	And with dot		
+U+27D2	⟒	27C0..27EF	Miscellaneous Mathematical Symbols-A	Element of opening upwards		
+U+27D3	⟓	27C0..27EF	Miscellaneous Mathematical Symbols-A	Lower right corner with dot		
+U+27D4	⟔	27C0..27EF	Miscellaneous Mathematical Symbols-A	Upper left corner with dot		
+U+27D5	⟕	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left outer join		
+U+27D6	⟖	27C0..27EF	Miscellaneous Mathematical Symbols-A	Right outer join		
+U+27D7	⟗	27C0..27EF	Miscellaneous Mathematical Symbols-A	Full outer join		
+U+27D8	⟘	27C0..27EF	Miscellaneous Mathematical Symbols-A	Large up tack		
+U+27D9	⟙	27C0..27EF	Miscellaneous Mathematical Symbols-A	Large down tack		
+U+27DA	⟚	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left and right double turnstile		
+U+27DB	⟛	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left and right tack		
+U+27DC	⟜	27C0..27EF	Miscellaneous Mathematical Symbols-A	Left multimap		
+U+27DD	⟝	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long right tack		
+U+27DE	⟞	27C0..27EF	Miscellaneous Mathematical Symbols-A	Long left tack		
+U+27DF	⟟	27C0..27EF	Miscellaneous Mathematical Symbols-A	Up tack with circle above		
+U+27E0	⟠	27C0..27EF	Miscellaneous Mathematical Symbols-A	Lozenge divided by horizontal rule		
+U+27E1	⟡	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond		
+U+27E2	⟢	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond with leftwards tick		
+U+27E3	⟣	27C0..27EF	Miscellaneous Mathematical Symbols-A	White concave-sided diamond with rightwards tick		
+U+27E4	⟤	27C0..27EF	Miscellaneous Mathematical Symbols-A	White square with leftwards tick		
+U+27E5	⟥	27C0..27EF	Miscellaneous Mathematical Symbols-A	White square with rightwards tick		
+U+27E6	⟦	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left white square bracket		
+U+27E7	⟧	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right white square bracket		
+U+27E8	⟨	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left angle bracket		
+U+27E9	⟩	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right angle bracket		
+U+27EA	⟪	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left double angle bracket		
+U+27EB	⟫	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right double angle bracket		
+U+27EC	⟬	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left white tortoise shell bracket		
+U+27ED	⟭	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right white tortoise shell bracket		
+U+27EE	⟮	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical left flattened parenthesis		
+U+27EF	⟯	27C0..27EF	Miscellaneous Mathematical Symbols-A	Mathematical right flattened parenthesis		

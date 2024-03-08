@@ -1,89 +1,89 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0591	"""֑"""	0590..05FF	Hebrew	Hebrew accent etnahta		
-0592	"""֒"""	0590..05FF	Hebrew	Hebrew accent segol		
-0593	"""֓"""	0590..05FF	Hebrew	Hebrew accent shalshelet		
-0594	"""֔"""	0590..05FF	Hebrew	Hebrew accent zaqef qatan		
-0595	"""֕"""	0590..05FF	Hebrew	Hebrew accent zaqef gadol		
-0596	"""֖"""	0590..05FF	Hebrew	Hebrew accent tipeha		
-0597	"""֗"""	0590..05FF	Hebrew	Hebrew accent revia		
-0598	"""֘"""	0590..05FF	Hebrew	Hebrew accent zarqa		
-0599	"""֙"""	0590..05FF	Hebrew	Hebrew accent pashta		
-059A	"""֚"""	0590..05FF	Hebrew	Hebrew accent yetiv		
-059B	"""֛"""	0590..05FF	Hebrew	Hebrew accent tevir		
-059C	"""֜"""	0590..05FF	Hebrew	Hebrew accent geresh		
-059D	"""֝"""	0590..05FF	Hebrew	Hebrew accent geresh muqdam		
-059E	"""֞"""	0590..05FF	Hebrew	Hebrew accent gershayim		
-059F	"""֟"""	0590..05FF	Hebrew	Hebrew accent qarney para		
-05A0	"""֠"""	0590..05FF	Hebrew	Hebrew accent telisha gedola		
-05A1	"""֡"""	0590..05FF	Hebrew	Hebrew accent pazer		
-05A2	"""֢"""	0590..05FF	Hebrew	Hebrew accent atnah hafukh		
-05A3	"""֣"""	0590..05FF	Hebrew	Hebrew accent munah		
-05A4	"""֤"""	0590..05FF	Hebrew	Hebrew accent mahapakh		
-05A5	"""֥"""	0590..05FF	Hebrew	Hebrew accent merkha		
-05A6	"""֦"""	0590..05FF	Hebrew	Hebrew accent merkha kefula		
-05A7	"""֧"""	0590..05FF	Hebrew	Hebrew accent darga		
-05A8	"""֨"""	0590..05FF	Hebrew	Hebrew accent qadma		
-05A9	"""֩"""	0590..05FF	Hebrew	Hebrew accent telisha qetana		
-05AA	"""֪"""	0590..05FF	Hebrew	Hebrew accent yerah ben yomo		
-05AB	"""֫"""	0590..05FF	Hebrew	Hebrew accent ole		
-05AC	"""֬"""	0590..05FF	Hebrew	Hebrew accent iluy		
-05AD	"""֭"""	0590..05FF	Hebrew	Hebrew accent dehi		
-05AE	"""֮"""	0590..05FF	Hebrew	Hebrew accent zinor		
-05AF	"""֯"""	0590..05FF	Hebrew	Hebrew mark masora circle		
-05B0	"""ְ"""	0590..05FF	Hebrew	Hebrew point sheva		
-05B1	"""ֱ"""	0590..05FF	Hebrew	Hebrew point hataf segol		
-05B2	"""ֲ"""	0590..05FF	Hebrew	Hebrew point hataf patah		
-05B3	"""ֳ"""	0590..05FF	Hebrew	Hebrew point hataf qamats		
-05B4	"""ִ"""	0590..05FF	Hebrew	Hebrew point hiriq		
-05B5	"""ֵ"""	0590..05FF	Hebrew	Hebrew point tsere		
-05B6	"""ֶ"""	0590..05FF	Hebrew	Hebrew point segol		
-05B7	"""ַ"""	0590..05FF	Hebrew	Hebrew point patah		
-05B8	"""ָ"""	0590..05FF	Hebrew	Hebrew point qamats		
-05B9	"""ֹ"""	0590..05FF	Hebrew	Hebrew point holam		
-05BA	"""ֺ"""	0590..05FF	Hebrew	Hebrew point holam haser for vav		
-05BB	"""ֻ"""	0590..05FF	Hebrew	Hebrew point qubuts		
-05BC	"""ּ"""	0590..05FF	Hebrew	Hebrew point dagesh or mapiq		
-05BD	"""ֽ"""	0590..05FF	Hebrew	Hebrew point meteg		
-05BE	"""־"""	0590..05FF	Hebrew	Hebrew punctuation maqaf		
-05BF	"""ֿ"""	0590..05FF	Hebrew	Hebrew point rafe		
-05C0	"""׀"""	0590..05FF	Hebrew	Hebrew punctuation paseq		
-05C1	"""ׁ"""	0590..05FF	Hebrew	Hebrew point shin dot		
-05C2	"""ׂ"""	0590..05FF	Hebrew	Hebrew point sin dot		
-05C3	"""׃"""	0590..05FF	Hebrew	Hebrew punctuation sof pasuq		
-05C4	"""ׄ"""	0590..05FF	Hebrew	Hebrew mark upper dot		
-05C5	"""ׅ"""	0590..05FF	Hebrew	Hebrew mark lower dot		
-05C6	"""׆"""	0590..05FF	Hebrew	Hebrew punctuation nun hafukha		
-05C7	"""ׇ"""	0590..05FF	Hebrew	Hebrew point qamats qatan		
-05D0	"""א"""	0590..05FF	Hebrew	Hebrew letter alef		
-05D1	"""ב"""	0590..05FF	Hebrew	Hebrew letter bet		
-05D2	"""ג"""	0590..05FF	Hebrew	Hebrew letter gimel		
-05D3	"""ד"""	0590..05FF	Hebrew	Hebrew letter dalet		
-05D4	"""ה"""	0590..05FF	Hebrew	Hebrew letter he		
-05D5	"""ו"""	0590..05FF	Hebrew	Hebrew letter vav		
-05D6	"""ז"""	0590..05FF	Hebrew	Hebrew letter zayin		
-05D7	"""ח"""	0590..05FF	Hebrew	Hebrew letter het		
-05D8	"""ט"""	0590..05FF	Hebrew	Hebrew letter tet		
-05D9	"""י"""	0590..05FF	Hebrew	Hebrew letter yod		
-05DA	"""ך"""	0590..05FF	Hebrew	Hebrew letter final kaf		
-05DB	"""כ"""	0590..05FF	Hebrew	Hebrew letter kaf		
-05DC	"""ל"""	0590..05FF	Hebrew	Hebrew letter lamed		
-05DD	"""ם"""	0590..05FF	Hebrew	Hebrew letter final mem		
-05DE	"""מ"""	0590..05FF	Hebrew	Hebrew letter mem		
-05DF	"""ן"""	0590..05FF	Hebrew	Hebrew letter final nun		
-05E0	"""נ"""	0590..05FF	Hebrew	Hebrew letter nun		
-05E1	"""ס"""	0590..05FF	Hebrew	Hebrew letter samekh		
-05E2	"""ע"""	0590..05FF	Hebrew	Hebrew letter ayin		
-05E3	"""ף"""	0590..05FF	Hebrew	Hebrew letter final pe		
-05E4	"""פ"""	0590..05FF	Hebrew	Hebrew letter pe		
-05E5	"""ץ"""	0590..05FF	Hebrew	Hebrew letter final tsadi		
-05E6	"""צ"""	0590..05FF	Hebrew	Hebrew letter tsadi		
-05E7	"""ק"""	0590..05FF	Hebrew	Hebrew letter qof		
-05E8	"""ר"""	0590..05FF	Hebrew	Hebrew letter resh		
-05E9	"""ש"""	0590..05FF	Hebrew	Hebrew letter shin		
-05EA	"""ת"""	0590..05FF	Hebrew	Hebrew letter tav		
-05EF	"""ׯ"""	0590..05FF	Hebrew	Hebrew yod triangle		
-05F0	"""װ"""	0590..05FF	Hebrew	Hebrew ligature yiddish double vav		
-05F1	"""ױ"""	0590..05FF	Hebrew	Hebrew ligature yiddish vav yod		
-05F2	"""ײ"""	0590..05FF	Hebrew	Hebrew ligature yiddish double yod		
-05F3	"""׳"""	0590..05FF	Hebrew	Hebrew punctuation geresh		
-05F4	"""״"""	0590..05FF	Hebrew	Hebrew punctuation gershayim		
+U+0591	֑	0590..05FF	Hebrew	Hebrew accent etnahta		
+U+0592	֒	0590..05FF	Hebrew	Hebrew accent segol		
+U+0593	֓	0590..05FF	Hebrew	Hebrew accent shalshelet		
+U+0594	֔	0590..05FF	Hebrew	Hebrew accent zaqef qatan		
+U+0595	֕	0590..05FF	Hebrew	Hebrew accent zaqef gadol		
+U+0596	֖	0590..05FF	Hebrew	Hebrew accent tipeha		
+U+0597	֗	0590..05FF	Hebrew	Hebrew accent revia		
+U+0598	֘	0590..05FF	Hebrew	Hebrew accent zarqa		
+U+0599	֙	0590..05FF	Hebrew	Hebrew accent pashta		
+U+059A	֚	0590..05FF	Hebrew	Hebrew accent yetiv		
+U+059B	֛	0590..05FF	Hebrew	Hebrew accent tevir		
+U+059C	֜	0590..05FF	Hebrew	Hebrew accent geresh		
+U+059D	֝	0590..05FF	Hebrew	Hebrew accent geresh muqdam		
+U+059E	֞	0590..05FF	Hebrew	Hebrew accent gershayim		
+U+059F	֟	0590..05FF	Hebrew	Hebrew accent qarney para		
+U+05A0	֠	0590..05FF	Hebrew	Hebrew accent telisha gedola		
+U+05A1	֡	0590..05FF	Hebrew	Hebrew accent pazer		
+U+05A2	֢	0590..05FF	Hebrew	Hebrew accent atnah hafukh		
+U+05A3	֣	0590..05FF	Hebrew	Hebrew accent munah		
+U+05A4	֤	0590..05FF	Hebrew	Hebrew accent mahapakh		
+U+05A5	֥	0590..05FF	Hebrew	Hebrew accent merkha		
+U+05A6	֦	0590..05FF	Hebrew	Hebrew accent merkha kefula		
+U+05A7	֧	0590..05FF	Hebrew	Hebrew accent darga		
+U+05A8	֨	0590..05FF	Hebrew	Hebrew accent qadma		
+U+05A9	֩	0590..05FF	Hebrew	Hebrew accent telisha qetana		
+U+05AA	֪	0590..05FF	Hebrew	Hebrew accent yerah ben yomo		
+U+05AB	֫	0590..05FF	Hebrew	Hebrew accent ole		
+U+05AC	֬	0590..05FF	Hebrew	Hebrew accent iluy		
+U+05AD	֭	0590..05FF	Hebrew	Hebrew accent dehi		
+U+05AE	֮	0590..05FF	Hebrew	Hebrew accent zinor		
+U+05AF	֯	0590..05FF	Hebrew	Hebrew mark masora circle		
+U+05B0	ְ	0590..05FF	Hebrew	Hebrew point sheva		
+U+05B1	ֱ	0590..05FF	Hebrew	Hebrew point hataf segol		
+U+05B2	ֲ	0590..05FF	Hebrew	Hebrew point hataf patah		
+U+05B3	ֳ	0590..05FF	Hebrew	Hebrew point hataf qamats		
+U+05B4	ִ	0590..05FF	Hebrew	Hebrew point hiriq		
+U+05B5	ֵ	0590..05FF	Hebrew	Hebrew point tsere		
+U+05B6	ֶ	0590..05FF	Hebrew	Hebrew point segol		
+U+05B7	ַ	0590..05FF	Hebrew	Hebrew point patah		
+U+05B8	ָ	0590..05FF	Hebrew	Hebrew point qamats		
+U+05B9	ֹ	0590..05FF	Hebrew	Hebrew point holam		
+U+05BA	ֺ	0590..05FF	Hebrew	Hebrew point holam haser for vav		
+U+05BB	ֻ	0590..05FF	Hebrew	Hebrew point qubuts		
+U+05BC	ּ	0590..05FF	Hebrew	Hebrew point dagesh or mapiq		
+U+05BD	ֽ	0590..05FF	Hebrew	Hebrew point meteg		
+U+05BE	־	0590..05FF	Hebrew	Hebrew punctuation maqaf		
+U+05BF	ֿ	0590..05FF	Hebrew	Hebrew point rafe		
+U+05C0	׀	0590..05FF	Hebrew	Hebrew punctuation paseq		
+U+05C1	ׁ	0590..05FF	Hebrew	Hebrew point shin dot		
+U+05C2	ׂ	0590..05FF	Hebrew	Hebrew point sin dot		
+U+05C3	׃	0590..05FF	Hebrew	Hebrew punctuation sof pasuq		
+U+05C4	ׄ	0590..05FF	Hebrew	Hebrew mark upper dot		
+U+05C5	ׅ	0590..05FF	Hebrew	Hebrew mark lower dot		
+U+05C6	׆	0590..05FF	Hebrew	Hebrew punctuation nun hafukha		
+U+05C7	ׇ	0590..05FF	Hebrew	Hebrew point qamats qatan		
+U+05D0	א	0590..05FF	Hebrew	Hebrew letter alef		
+U+05D1	ב	0590..05FF	Hebrew	Hebrew letter bet		
+U+05D2	ג	0590..05FF	Hebrew	Hebrew letter gimel		
+U+05D3	ד	0590..05FF	Hebrew	Hebrew letter dalet		
+U+05D4	ה	0590..05FF	Hebrew	Hebrew letter he		
+U+05D5	ו	0590..05FF	Hebrew	Hebrew letter vav		
+U+05D6	ז	0590..05FF	Hebrew	Hebrew letter zayin		
+U+05D7	ח	0590..05FF	Hebrew	Hebrew letter het		
+U+05D8	ט	0590..05FF	Hebrew	Hebrew letter tet		
+U+05D9	י	0590..05FF	Hebrew	Hebrew letter yod		
+U+05DA	ך	0590..05FF	Hebrew	Hebrew letter final kaf		
+U+05DB	כ	0590..05FF	Hebrew	Hebrew letter kaf		
+U+05DC	ל	0590..05FF	Hebrew	Hebrew letter lamed		
+U+05DD	ם	0590..05FF	Hebrew	Hebrew letter final mem		
+U+05DE	מ	0590..05FF	Hebrew	Hebrew letter mem		
+U+05DF	ן	0590..05FF	Hebrew	Hebrew letter final nun		
+U+05E0	נ	0590..05FF	Hebrew	Hebrew letter nun		
+U+05E1	ס	0590..05FF	Hebrew	Hebrew letter samekh		
+U+05E2	ע	0590..05FF	Hebrew	Hebrew letter ayin		
+U+05E3	ף	0590..05FF	Hebrew	Hebrew letter final pe		
+U+05E4	פ	0590..05FF	Hebrew	Hebrew letter pe		
+U+05E5	ץ	0590..05FF	Hebrew	Hebrew letter final tsadi		
+U+05E6	צ	0590..05FF	Hebrew	Hebrew letter tsadi		
+U+05E7	ק	0590..05FF	Hebrew	Hebrew letter qof		
+U+05E8	ר	0590..05FF	Hebrew	Hebrew letter resh		
+U+05E9	ש	0590..05FF	Hebrew	Hebrew letter shin		
+U+05EA	ת	0590..05FF	Hebrew	Hebrew letter tav		
+U+05EF	ׯ	0590..05FF	Hebrew	Hebrew yod triangle		
+U+05F0	װ	0590..05FF	Hebrew	Hebrew ligature yiddish double vav		
+U+05F1	ױ	0590..05FF	Hebrew	Hebrew ligature yiddish vav yod		
+U+05F2	ײ	0590..05FF	Hebrew	Hebrew ligature yiddish double yod		
+U+05F3	׳	0590..05FF	Hebrew	Hebrew punctuation geresh		
+U+05F4	״	0590..05FF	Hebrew	Hebrew punctuation gershayim		

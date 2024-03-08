@@ -1,73 +1,73 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0B82	"""ஂ"""	0B80..0BFF	Tamil	Tamil sign anusvara		
-0B83	"""ஃ"""	0B80..0BFF	Tamil	Tamil sign visarga		
-0B85	"""அ"""	0B80..0BFF	Tamil	Tamil letter a		
-0B86	"""ஆ"""	0B80..0BFF	Tamil	Tamil letter aa		
-0B87	"""இ"""	0B80..0BFF	Tamil	Tamil letter i		
-0B88	"""ஈ"""	0B80..0BFF	Tamil	Tamil letter ii		
-0B89	"""உ"""	0B80..0BFF	Tamil	Tamil letter u		
-0B8A	"""ஊ"""	0B80..0BFF	Tamil	Tamil letter uu		
-0B8E	"""எ"""	0B80..0BFF	Tamil	Tamil letter e		
-0B8F	"""ஏ"""	0B80..0BFF	Tamil	Tamil letter ee		
-0B90	"""ஐ"""	0B80..0BFF	Tamil	Tamil letter ai		
-0B92	"""ஒ"""	0B80..0BFF	Tamil	Tamil letter o		
-0B93	"""ஓ"""	0B80..0BFF	Tamil	Tamil letter oo		
-0B94	"""ஔ"""	0B80..0BFF	Tamil	Tamil letter au		
-0B95	"""க"""	0B80..0BFF	Tamil	Tamil letter ka		
-0B99	"""ங"""	0B80..0BFF	Tamil	Tamil letter nga		
-0B9A	"""ச"""	0B80..0BFF	Tamil	Tamil letter ca		
-0B9C	"""ஜ"""	0B80..0BFF	Tamil	Tamil letter ja		
-0B9E	"""ஞ"""	0B80..0BFF	Tamil	Tamil letter nya		
-0B9F	"""ட"""	0B80..0BFF	Tamil	Tamil letter tta		
-0BA3	"""ண"""	0B80..0BFF	Tamil	Tamil letter nna		
-0BA4	"""த"""	0B80..0BFF	Tamil	Tamil letter ta		
-0BA8	"""ந"""	0B80..0BFF	Tamil	Tamil letter na		
-0BA9	"""ன"""	0B80..0BFF	Tamil	Tamil letter nnna		
-0BAA	"""ப"""	0B80..0BFF	Tamil	Tamil letter pa		
-0BAE	"""ம"""	0B80..0BFF	Tamil	Tamil letter ma		
-0BAF	"""ய"""	0B80..0BFF	Tamil	Tamil letter ya		
-0BB0	"""ர"""	0B80..0BFF	Tamil	Tamil letter ra		
-0BB1	"""ற"""	0B80..0BFF	Tamil	Tamil letter rra		
-0BB2	"""ல"""	0B80..0BFF	Tamil	Tamil letter la		
-0BB3	"""ள"""	0B80..0BFF	Tamil	Tamil letter lla		
-0BB4	"""ழ"""	0B80..0BFF	Tamil	Tamil letter llla		
-0BB5	"""வ"""	0B80..0BFF	Tamil	Tamil letter va		
-0BB6	"""ஶ"""	0B80..0BFF	Tamil	Tamil letter sha		
-0BB7	"""ஷ"""	0B80..0BFF	Tamil	Tamil letter ssa		
-0BB8	"""ஸ"""	0B80..0BFF	Tamil	Tamil letter sa		
-0BB9	"""ஹ"""	0B80..0BFF	Tamil	Tamil letter ha		
-0BBE	"""ா"""	0B80..0BFF	Tamil	Tamil vowel sign aa		
-0BBF	"""ி"""	0B80..0BFF	Tamil	Tamil vowel sign i		
-0BC0	"""ீ"""	0B80..0BFF	Tamil	Tamil vowel sign ii		
-0BC1	"""ு"""	0B80..0BFF	Tamil	Tamil vowel sign u		
-0BC2	"""ூ"""	0B80..0BFF	Tamil	Tamil vowel sign uu		
-0BC6	"""ெ"""	0B80..0BFF	Tamil	Tamil vowel sign e		
-0BC7	"""ே"""	0B80..0BFF	Tamil	Tamil vowel sign ee		
-0BC8	"""ை"""	0B80..0BFF	Tamil	Tamil vowel sign ai		
-0BCA	"""ொ"""	0B80..0BFF	Tamil	Tamil vowel sign o		
-0BCB	"""ோ"""	0B80..0BFF	Tamil	Tamil vowel sign oo		
-0BCC	"""ௌ"""	0B80..0BFF	Tamil	Tamil vowel sign au		
-0BCD	"""்"""	0B80..0BFF	Tamil	Tamil sign virama		
-0BD0	"""ௐ"""	0B80..0BFF	Tamil	Tamil om		
-0BD7	"""ௗ"""	0B80..0BFF	Tamil	Tamil au length mark		
-0BE6	"""௦"""	0B80..0BFF	Tamil	Tamil digit zero		
-0BE7	"""௧"""	0B80..0BFF	Tamil	Tamil digit one		
-0BE8	"""௨"""	0B80..0BFF	Tamil	Tamil digit two		
-0BE9	"""௩"""	0B80..0BFF	Tamil	Tamil digit three		
-0BEA	"""௪"""	0B80..0BFF	Tamil	Tamil digit four		
-0BEB	"""௫"""	0B80..0BFF	Tamil	Tamil digit five		
-0BEC	"""௬"""	0B80..0BFF	Tamil	Tamil digit six		
-0BED	"""௭"""	0B80..0BFF	Tamil	Tamil digit seven		
-0BEE	"""௮"""	0B80..0BFF	Tamil	Tamil digit eight		
-0BEF	"""௯"""	0B80..0BFF	Tamil	Tamil digit nine		
-0BF0	"""௰"""	0B80..0BFF	Tamil	Tamil number ten		
-0BF1	"""௱"""	0B80..0BFF	Tamil	Tamil number one hundred		
-0BF2	"""௲"""	0B80..0BFF	Tamil	Tamil number one thousand		
-0BF3	"""௳"""	0B80..0BFF	Tamil	Tamil day sign		
-0BF4	"""௴"""	0B80..0BFF	Tamil	Tamil month sign		
-0BF5	"""௵"""	0B80..0BFF	Tamil	Tamil year sign		
-0BF6	"""௶"""	0B80..0BFF	Tamil	Tamil debit sign		
-0BF7	"""௷"""	0B80..0BFF	Tamil	Tamil credit sign		
-0BF8	"""௸"""	0B80..0BFF	Tamil	Tamil as above sign		
-0BF9	"""௹"""	0B80..0BFF	Tamil	Tamil rupee sign		
-0BFA	"""௺"""	0B80..0BFF	Tamil	Tamil number sign		
+U+0B82	ஂ	0B80..0BFF	Tamil	Tamil sign anusvara		
+U+0B83	ஃ	0B80..0BFF	Tamil	Tamil sign visarga		
+U+0B85	அ	0B80..0BFF	Tamil	Tamil letter a		
+U+0B86	ஆ	0B80..0BFF	Tamil	Tamil letter aa		
+U+0B87	இ	0B80..0BFF	Tamil	Tamil letter i		
+U+0B88	ஈ	0B80..0BFF	Tamil	Tamil letter ii		
+U+0B89	உ	0B80..0BFF	Tamil	Tamil letter u		
+U+0B8A	ஊ	0B80..0BFF	Tamil	Tamil letter uu		
+U+0B8E	எ	0B80..0BFF	Tamil	Tamil letter e		
+U+0B8F	ஏ	0B80..0BFF	Tamil	Tamil letter ee		
+U+0B90	ஐ	0B80..0BFF	Tamil	Tamil letter ai		
+U+0B92	ஒ	0B80..0BFF	Tamil	Tamil letter o		
+U+0B93	ஓ	0B80..0BFF	Tamil	Tamil letter oo		
+U+0B94	ஔ	0B80..0BFF	Tamil	Tamil letter au		
+U+0B95	க	0B80..0BFF	Tamil	Tamil letter ka		
+U+0B99	ங	0B80..0BFF	Tamil	Tamil letter nga		
+U+0B9A	ச	0B80..0BFF	Tamil	Tamil letter ca		
+U+0B9C	ஜ	0B80..0BFF	Tamil	Tamil letter ja		
+U+0B9E	ஞ	0B80..0BFF	Tamil	Tamil letter nya		
+U+0B9F	ட	0B80..0BFF	Tamil	Tamil letter tta		
+U+0BA3	ண	0B80..0BFF	Tamil	Tamil letter nna		
+U+0BA4	த	0B80..0BFF	Tamil	Tamil letter ta		
+U+0BA8	ந	0B80..0BFF	Tamil	Tamil letter na		
+U+0BA9	ன	0B80..0BFF	Tamil	Tamil letter nnna		
+U+0BAA	ப	0B80..0BFF	Tamil	Tamil letter pa		
+U+0BAE	ம	0B80..0BFF	Tamil	Tamil letter ma		
+U+0BAF	ய	0B80..0BFF	Tamil	Tamil letter ya		
+U+0BB0	ர	0B80..0BFF	Tamil	Tamil letter ra		
+U+0BB1	ற	0B80..0BFF	Tamil	Tamil letter rra		
+U+0BB2	ல	0B80..0BFF	Tamil	Tamil letter la		
+U+0BB3	ள	0B80..0BFF	Tamil	Tamil letter lla		
+U+0BB4	ழ	0B80..0BFF	Tamil	Tamil letter llla		
+U+0BB5	வ	0B80..0BFF	Tamil	Tamil letter va		
+U+0BB6	ஶ	0B80..0BFF	Tamil	Tamil letter sha		
+U+0BB7	ஷ	0B80..0BFF	Tamil	Tamil letter ssa		
+U+0BB8	ஸ	0B80..0BFF	Tamil	Tamil letter sa		
+U+0BB9	ஹ	0B80..0BFF	Tamil	Tamil letter ha		
+U+0BBE	ா	0B80..0BFF	Tamil	Tamil vowel sign aa		
+U+0BBF	ி	0B80..0BFF	Tamil	Tamil vowel sign i		
+U+0BC0	ீ	0B80..0BFF	Tamil	Tamil vowel sign ii		
+U+0BC1	ு	0B80..0BFF	Tamil	Tamil vowel sign u		
+U+0BC2	ூ	0B80..0BFF	Tamil	Tamil vowel sign uu		
+U+0BC6	ெ	0B80..0BFF	Tamil	Tamil vowel sign e		
+U+0BC7	ே	0B80..0BFF	Tamil	Tamil vowel sign ee		
+U+0BC8	ை	0B80..0BFF	Tamil	Tamil vowel sign ai		
+U+0BCA	ொ	0B80..0BFF	Tamil	Tamil vowel sign o		
+U+0BCB	ோ	0B80..0BFF	Tamil	Tamil vowel sign oo		
+U+0BCC	ௌ	0B80..0BFF	Tamil	Tamil vowel sign au		
+U+0BCD	்	0B80..0BFF	Tamil	Tamil sign virama		
+U+0BD0	ௐ	0B80..0BFF	Tamil	Tamil om		
+U+0BD7	ௗ	0B80..0BFF	Tamil	Tamil au length mark		
+U+0BE6	௦	0B80..0BFF	Tamil	Tamil digit zero		
+U+0BE7	௧	0B80..0BFF	Tamil	Tamil digit one		
+U+0BE8	௨	0B80..0BFF	Tamil	Tamil digit two		
+U+0BE9	௩	0B80..0BFF	Tamil	Tamil digit three		
+U+0BEA	௪	0B80..0BFF	Tamil	Tamil digit four		
+U+0BEB	௫	0B80..0BFF	Tamil	Tamil digit five		
+U+0BEC	௬	0B80..0BFF	Tamil	Tamil digit six		
+U+0BED	௭	0B80..0BFF	Tamil	Tamil digit seven		
+U+0BEE	௮	0B80..0BFF	Tamil	Tamil digit eight		
+U+0BEF	௯	0B80..0BFF	Tamil	Tamil digit nine		
+U+0BF0	௰	0B80..0BFF	Tamil	Tamil number ten		
+U+0BF1	௱	0B80..0BFF	Tamil	Tamil number one hundred		
+U+0BF2	௲	0B80..0BFF	Tamil	Tamil number one thousand		
+U+0BF3	௳	0B80..0BFF	Tamil	Tamil day sign		
+U+0BF4	௴	0B80..0BFF	Tamil	Tamil month sign		
+U+0BF5	௵	0B80..0BFF	Tamil	Tamil year sign		
+U+0BF6	௶	0B80..0BFF	Tamil	Tamil debit sign		
+U+0BF7	௷	0B80..0BFF	Tamil	Tamil credit sign		
+U+0BF8	௸	0B80..0BFF	Tamil	Tamil as above sign		
+U+0BF9	௹	0B80..0BFF	Tamil	Tamil rupee sign		
+U+0BFA	௺	0B80..0BFF	Tamil	Tamil number sign		
