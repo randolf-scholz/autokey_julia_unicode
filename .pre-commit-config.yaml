@@ -53,13 +53,14 @@ repos:
     rev: v0.3.1
     hooks:
       - id: ruff
-        files: (^src/|^tests/)
+        types_or: [python, pyi]
       - id: ruff
         name: ruff-isort
-        files: (^src/|^tests/)
         args: ["--select", "I", "--fix"]
+        types_or: [python, pyi]
       - id: ruff-format
-        files: (^src/|^tests/)
+        args: ["--preview"]
+        types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.353
