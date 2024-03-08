@@ -1,98 +1,98 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11400	"""𑐀"""	11400..1147F	Newa	Newa letter a		
-11401	"""𑐁"""	11400..1147F	Newa	Newa letter aa		
-11402	"""𑐂"""	11400..1147F	Newa	Newa letter i		
-11403	"""𑐃"""	11400..1147F	Newa	Newa letter ii		
-11404	"""𑐄"""	11400..1147F	Newa	Newa letter u		
-11405	"""𑐅"""	11400..1147F	Newa	Newa letter uu		
-11406	"""𑐆"""	11400..1147F	Newa	Newa letter vocalic r		
-11407	"""𑐇"""	11400..1147F	Newa	Newa letter vocalic rr		
-11408	"""𑐈"""	11400..1147F	Newa	Newa letter vocalic l		
-11409	"""𑐉"""	11400..1147F	Newa	Newa letter vocalic ll		
-1140A	"""𑐊"""	11400..1147F	Newa	Newa letter e		
-1140B	"""𑐋"""	11400..1147F	Newa	Newa letter ai		
-1140C	"""𑐌"""	11400..1147F	Newa	Newa letter o		
-1140D	"""𑐍"""	11400..1147F	Newa	Newa letter au		
-1140E	"""𑐎"""	11400..1147F	Newa	Newa letter ka		
-1140F	"""𑐏"""	11400..1147F	Newa	Newa letter kha		
-11410	"""𑐐"""	11400..1147F	Newa	Newa letter ga		
-11411	"""𑐑"""	11400..1147F	Newa	Newa letter gha		
-11412	"""𑐒"""	11400..1147F	Newa	Newa letter nga		
-11413	"""𑐓"""	11400..1147F	Newa	Newa letter ngha		
-11414	"""𑐔"""	11400..1147F	Newa	Newa letter ca		
-11415	"""𑐕"""	11400..1147F	Newa	Newa letter cha		
-11416	"""𑐖"""	11400..1147F	Newa	Newa letter ja		
-11417	"""𑐗"""	11400..1147F	Newa	Newa letter jha		
-11418	"""𑐘"""	11400..1147F	Newa	Newa letter nya		
-11419	"""𑐙"""	11400..1147F	Newa	Newa letter nyha		
-1141A	"""𑐚"""	11400..1147F	Newa	Newa letter tta		
-1141B	"""𑐛"""	11400..1147F	Newa	Newa letter ttha		
-1141C	"""𑐜"""	11400..1147F	Newa	Newa letter dda		
-1141D	"""𑐝"""	11400..1147F	Newa	Newa letter ddha		
-1141E	"""𑐞"""	11400..1147F	Newa	Newa letter nna		
-1141F	"""𑐟"""	11400..1147F	Newa	Newa letter ta		
-11420	"""𑐠"""	11400..1147F	Newa	Newa letter tha		
-11421	"""𑐡"""	11400..1147F	Newa	Newa letter da		
-11422	"""𑐢"""	11400..1147F	Newa	Newa letter dha		
-11423	"""𑐣"""	11400..1147F	Newa	Newa letter na		
-11424	"""𑐤"""	11400..1147F	Newa	Newa letter nha		
-11425	"""𑐥"""	11400..1147F	Newa	Newa letter pa		
-11426	"""𑐦"""	11400..1147F	Newa	Newa letter pha		
-11427	"""𑐧"""	11400..1147F	Newa	Newa letter ba		
-11428	"""𑐨"""	11400..1147F	Newa	Newa letter bha		
-11429	"""𑐩"""	11400..1147F	Newa	Newa letter ma		
-1142A	"""𑐪"""	11400..1147F	Newa	Newa letter mha		
-1142B	"""𑐫"""	11400..1147F	Newa	Newa letter ya		
-1142C	"""𑐬"""	11400..1147F	Newa	Newa letter ra		
-1142D	"""𑐭"""	11400..1147F	Newa	Newa letter rha		
-1142E	"""𑐮"""	11400..1147F	Newa	Newa letter la		
-1142F	"""𑐯"""	11400..1147F	Newa	Newa letter lha		
-11430	"""𑐰"""	11400..1147F	Newa	Newa letter wa		
-11431	"""𑐱"""	11400..1147F	Newa	Newa letter sha		
-11432	"""𑐲"""	11400..1147F	Newa	Newa letter ssa		
-11433	"""𑐳"""	11400..1147F	Newa	Newa letter sa		
-11434	"""𑐴"""	11400..1147F	Newa	Newa letter ha		
-11435	"""𑐵"""	11400..1147F	Newa	Newa vowel sign aa		
-11436	"""𑐶"""	11400..1147F	Newa	Newa vowel sign i		
-11437	"""𑐷"""	11400..1147F	Newa	Newa vowel sign ii		
-11438	"""𑐸"""	11400..1147F	Newa	Newa vowel sign u		
-11439	"""𑐹"""	11400..1147F	Newa	Newa vowel sign uu		
-1143A	"""𑐺"""	11400..1147F	Newa	Newa vowel sign vocalic r		
-1143B	"""𑐻"""	11400..1147F	Newa	Newa vowel sign vocalic rr		
-1143C	"""𑐼"""	11400..1147F	Newa	Newa vowel sign vocalic l		
-1143D	"""𑐽"""	11400..1147F	Newa	Newa vowel sign vocalic ll		
-1143E	"""𑐾"""	11400..1147F	Newa	Newa vowel sign e		
-1143F	"""𑐿"""	11400..1147F	Newa	Newa vowel sign ai		
-11440	"""𑑀"""	11400..1147F	Newa	Newa vowel sign o		
-11441	"""𑑁"""	11400..1147F	Newa	Newa vowel sign au		
-11442	"""𑑂"""	11400..1147F	Newa	Newa sign virama		
-11443	"""𑑃"""	11400..1147F	Newa	Newa sign candrabindu		
-11444	"""𑑄"""	11400..1147F	Newa	Newa sign anusvara		
-11445	"""𑑅"""	11400..1147F	Newa	Newa sign visarga		
-11446	"""𑑆"""	11400..1147F	Newa	Newa sign nukta		
-11447	"""𑑇"""	11400..1147F	Newa	Newa sign avagraha		
-11448	"""𑑈"""	11400..1147F	Newa	Newa sign final anusvara		
-11449	"""𑑉"""	11400..1147F	Newa	Newa om		
-1144A	"""𑑊"""	11400..1147F	Newa	Newa siddhi		
-1144B	"""𑑋"""	11400..1147F	Newa	Newa danda		
-1144C	"""𑑌"""	11400..1147F	Newa	Newa double danda		
-1144D	"""𑑍"""	11400..1147F	Newa	Newa comma		
-1144E	"""𑑎"""	11400..1147F	Newa	Newa gap filler		
-1144F	"""𑑏"""	11400..1147F	Newa	Newa abbreviation sign		
-11450	"""𑑐"""	11400..1147F	Newa	Newa digit zero		
-11451	"""𑑑"""	11400..1147F	Newa	Newa digit one		
-11452	"""𑑒"""	11400..1147F	Newa	Newa digit two		
-11453	"""𑑓"""	11400..1147F	Newa	Newa digit three		
-11454	"""𑑔"""	11400..1147F	Newa	Newa digit four		
-11455	"""𑑕"""	11400..1147F	Newa	Newa digit five		
-11456	"""𑑖"""	11400..1147F	Newa	Newa digit six		
-11457	"""𑑗"""	11400..1147F	Newa	Newa digit seven		
-11458	"""𑑘"""	11400..1147F	Newa	Newa digit eight		
-11459	"""𑑙"""	11400..1147F	Newa	Newa digit nine		
-1145A	"""𑑚"""	11400..1147F	Newa	Newa double comma		
-1145B	"""𑑛"""	11400..1147F	Newa	Newa placeholder mark		
-1145D	"""𑑝"""	11400..1147F	Newa	Newa insertion sign		
-1145E	"""𑑞"""	11400..1147F	Newa	Newa sandhi mark		
-1145F	"""𑑟"""	11400..1147F	Newa	Newa letter vedic anusvara		
-11460	"""𑑠"""	11400..1147F	Newa	Newa sign jihvamuliya		
-11461	"""𑑡"""	11400..1147F	Newa	Newa sign upadhmaniya		
+U+11400	𑐀	11400..1147F	Newa	Newa letter a		
+U+11401	𑐁	11400..1147F	Newa	Newa letter aa		
+U+11402	𑐂	11400..1147F	Newa	Newa letter i		
+U+11403	𑐃	11400..1147F	Newa	Newa letter ii		
+U+11404	𑐄	11400..1147F	Newa	Newa letter u		
+U+11405	𑐅	11400..1147F	Newa	Newa letter uu		
+U+11406	𑐆	11400..1147F	Newa	Newa letter vocalic r		
+U+11407	𑐇	11400..1147F	Newa	Newa letter vocalic rr		
+U+11408	𑐈	11400..1147F	Newa	Newa letter vocalic l		
+U+11409	𑐉	11400..1147F	Newa	Newa letter vocalic ll		
+U+1140A	𑐊	11400..1147F	Newa	Newa letter e		
+U+1140B	𑐋	11400..1147F	Newa	Newa letter ai		
+U+1140C	𑐌	11400..1147F	Newa	Newa letter o		
+U+1140D	𑐍	11400..1147F	Newa	Newa letter au		
+U+1140E	𑐎	11400..1147F	Newa	Newa letter ka		
+U+1140F	𑐏	11400..1147F	Newa	Newa letter kha		
+U+11410	𑐐	11400..1147F	Newa	Newa letter ga		
+U+11411	𑐑	11400..1147F	Newa	Newa letter gha		
+U+11412	𑐒	11400..1147F	Newa	Newa letter nga		
+U+11413	𑐓	11400..1147F	Newa	Newa letter ngha		
+U+11414	𑐔	11400..1147F	Newa	Newa letter ca		
+U+11415	𑐕	11400..1147F	Newa	Newa letter cha		
+U+11416	𑐖	11400..1147F	Newa	Newa letter ja		
+U+11417	𑐗	11400..1147F	Newa	Newa letter jha		
+U+11418	𑐘	11400..1147F	Newa	Newa letter nya		
+U+11419	𑐙	11400..1147F	Newa	Newa letter nyha		
+U+1141A	𑐚	11400..1147F	Newa	Newa letter tta		
+U+1141B	𑐛	11400..1147F	Newa	Newa letter ttha		
+U+1141C	𑐜	11400..1147F	Newa	Newa letter dda		
+U+1141D	𑐝	11400..1147F	Newa	Newa letter ddha		
+U+1141E	𑐞	11400..1147F	Newa	Newa letter nna		
+U+1141F	𑐟	11400..1147F	Newa	Newa letter ta		
+U+11420	𑐠	11400..1147F	Newa	Newa letter tha		
+U+11421	𑐡	11400..1147F	Newa	Newa letter da		
+U+11422	𑐢	11400..1147F	Newa	Newa letter dha		
+U+11423	𑐣	11400..1147F	Newa	Newa letter na		
+U+11424	𑐤	11400..1147F	Newa	Newa letter nha		
+U+11425	𑐥	11400..1147F	Newa	Newa letter pa		
+U+11426	𑐦	11400..1147F	Newa	Newa letter pha		
+U+11427	𑐧	11400..1147F	Newa	Newa letter ba		
+U+11428	𑐨	11400..1147F	Newa	Newa letter bha		
+U+11429	𑐩	11400..1147F	Newa	Newa letter ma		
+U+1142A	𑐪	11400..1147F	Newa	Newa letter mha		
+U+1142B	𑐫	11400..1147F	Newa	Newa letter ya		
+U+1142C	𑐬	11400..1147F	Newa	Newa letter ra		
+U+1142D	𑐭	11400..1147F	Newa	Newa letter rha		
+U+1142E	𑐮	11400..1147F	Newa	Newa letter la		
+U+1142F	𑐯	11400..1147F	Newa	Newa letter lha		
+U+11430	𑐰	11400..1147F	Newa	Newa letter wa		
+U+11431	𑐱	11400..1147F	Newa	Newa letter sha		
+U+11432	𑐲	11400..1147F	Newa	Newa letter ssa		
+U+11433	𑐳	11400..1147F	Newa	Newa letter sa		
+U+11434	𑐴	11400..1147F	Newa	Newa letter ha		
+U+11435	𑐵	11400..1147F	Newa	Newa vowel sign aa		
+U+11436	𑐶	11400..1147F	Newa	Newa vowel sign i		
+U+11437	𑐷	11400..1147F	Newa	Newa vowel sign ii		
+U+11438	𑐸	11400..1147F	Newa	Newa vowel sign u		
+U+11439	𑐹	11400..1147F	Newa	Newa vowel sign uu		
+U+1143A	𑐺	11400..1147F	Newa	Newa vowel sign vocalic r		
+U+1143B	𑐻	11400..1147F	Newa	Newa vowel sign vocalic rr		
+U+1143C	𑐼	11400..1147F	Newa	Newa vowel sign vocalic l		
+U+1143D	𑐽	11400..1147F	Newa	Newa vowel sign vocalic ll		
+U+1143E	𑐾	11400..1147F	Newa	Newa vowel sign e		
+U+1143F	𑐿	11400..1147F	Newa	Newa vowel sign ai		
+U+11440	𑑀	11400..1147F	Newa	Newa vowel sign o		
+U+11441	𑑁	11400..1147F	Newa	Newa vowel sign au		
+U+11442	𑑂	11400..1147F	Newa	Newa sign virama		
+U+11443	𑑃	11400..1147F	Newa	Newa sign candrabindu		
+U+11444	𑑄	11400..1147F	Newa	Newa sign anusvara		
+U+11445	𑑅	11400..1147F	Newa	Newa sign visarga		
+U+11446	𑑆	11400..1147F	Newa	Newa sign nukta		
+U+11447	𑑇	11400..1147F	Newa	Newa sign avagraha		
+U+11448	𑑈	11400..1147F	Newa	Newa sign final anusvara		
+U+11449	𑑉	11400..1147F	Newa	Newa om		
+U+1144A	𑑊	11400..1147F	Newa	Newa siddhi		
+U+1144B	𑑋	11400..1147F	Newa	Newa danda		
+U+1144C	𑑌	11400..1147F	Newa	Newa double danda		
+U+1144D	𑑍	11400..1147F	Newa	Newa comma		
+U+1144E	𑑎	11400..1147F	Newa	Newa gap filler		
+U+1144F	𑑏	11400..1147F	Newa	Newa abbreviation sign		
+U+11450	𑑐	11400..1147F	Newa	Newa digit zero		
+U+11451	𑑑	11400..1147F	Newa	Newa digit one		
+U+11452	𑑒	11400..1147F	Newa	Newa digit two		
+U+11453	𑑓	11400..1147F	Newa	Newa digit three		
+U+11454	𑑔	11400..1147F	Newa	Newa digit four		
+U+11455	𑑕	11400..1147F	Newa	Newa digit five		
+U+11456	𑑖	11400..1147F	Newa	Newa digit six		
+U+11457	𑑗	11400..1147F	Newa	Newa digit seven		
+U+11458	𑑘	11400..1147F	Newa	Newa digit eight		
+U+11459	𑑙	11400..1147F	Newa	Newa digit nine		
+U+1145A	𑑚	11400..1147F	Newa	Newa double comma		
+U+1145B	𑑛	11400..1147F	Newa	Newa placeholder mark		
+U+1145D	𑑝	11400..1147F	Newa	Newa insertion sign		
+U+1145E	𑑞	11400..1147F	Newa	Newa sandhi mark		
+U+1145F	𑑟	11400..1147F	Newa	Newa letter vedic anusvara		
+U+11460	𑑠	11400..1147F	Newa	Newa sign jihvamuliya		
+U+11461	𑑡	11400..1147F	Newa	Newa sign upadhmaniya		

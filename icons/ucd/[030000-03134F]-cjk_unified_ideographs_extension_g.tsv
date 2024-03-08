@@ -1,3 +1,3 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-30000	"""𰀀"""	30000..3134F	CJK Unified Ideographs Extension G	<cjk ideograph extension g, first>		
-3134A	"""𱍊"""	30000..3134F	CJK Unified Ideographs Extension G	<cjk ideograph extension g, last>		
+U+30000	𰀀	30000..3134F	CJK Unified Ideographs Extension G	<cjk ideograph extension g, first>		
+U+3134A	𱍊	30000..3134F	CJK Unified Ideographs Extension G	<cjk ideograph extension g, last>		

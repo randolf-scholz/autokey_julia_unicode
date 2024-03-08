@@ -1,113 +1,113 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2190	"""←"""	2190..21FF	Arrows	Leftwards arrow		
-2191	"""↑"""	2190..21FF	Arrows	Upwards arrow		
-2192	"""→"""	2190..21FF	Arrows	Rightwards arrow		
-2193	"""↓"""	2190..21FF	Arrows	Downwards arrow		
-2194	"""↔"""	2190..21FF	Arrows	Left right arrow		
-2195	"""↕"""	2190..21FF	Arrows	Up down arrow		
-2196	"""↖"""	2190..21FF	Arrows	North west arrow		
-2197	"""↗"""	2190..21FF	Arrows	North east arrow		
-2198	"""↘"""	2190..21FF	Arrows	South east arrow		
-2199	"""↙"""	2190..21FF	Arrows	South west arrow		
-219A	"""↚"""	2190..21FF	Arrows	Leftwards arrow with stroke		
-219B	"""↛"""	2190..21FF	Arrows	Rightwards arrow with stroke		
-219C	"""↜"""	2190..21FF	Arrows	Leftwards wave arrow		
-219D	"""↝"""	2190..21FF	Arrows	Rightwards wave arrow		
-219E	"""↞"""	2190..21FF	Arrows	Leftwards two headed arrow		
-219F	"""↟"""	2190..21FF	Arrows	Upwards two headed arrow		
-21A0	"""↠"""	2190..21FF	Arrows	Rightwards two headed arrow		
-21A1	"""↡"""	2190..21FF	Arrows	Downwards two headed arrow		
-21A2	"""↢"""	2190..21FF	Arrows	Leftwards arrow with tail		
-21A3	"""↣"""	2190..21FF	Arrows	Rightwards arrow with tail		
-21A4	"""↤"""	2190..21FF	Arrows	Leftwards arrow from bar		
-21A5	"""↥"""	2190..21FF	Arrows	Upwards arrow from bar		
-21A6	"""↦"""	2190..21FF	Arrows	Rightwards arrow from bar		
-21A7	"""↧"""	2190..21FF	Arrows	Downwards arrow from bar		
-21A8	"""↨"""	2190..21FF	Arrows	Up down arrow with base		
-21A9	"""↩"""	2190..21FF	Arrows	Leftwards arrow with hook		
-21AA	"""↪"""	2190..21FF	Arrows	Rightwards arrow with hook		
-21AB	"""↫"""	2190..21FF	Arrows	Leftwards arrow with loop		
-21AC	"""↬"""	2190..21FF	Arrows	Rightwards arrow with loop		
-21AD	"""↭"""	2190..21FF	Arrows	Left right wave arrow		
-21AE	"""↮"""	2190..21FF	Arrows	Left right arrow with stroke		
-21AF	"""↯"""	2190..21FF	Arrows	Downwards zigzag arrow		
-21B0	"""↰"""	2190..21FF	Arrows	Upwards arrow with tip leftwards		
-21B1	"""↱"""	2190..21FF	Arrows	Upwards arrow with tip rightwards		
-21B2	"""↲"""	2190..21FF	Arrows	Downwards arrow with tip leftwards		
-21B3	"""↳"""	2190..21FF	Arrows	Downwards arrow with tip rightwards		
-21B4	"""↴"""	2190..21FF	Arrows	Rightwards arrow with corner downwards		
-21B5	"""↵"""	2190..21FF	Arrows	Downwards arrow with corner leftwards		
-21B6	"""↶"""	2190..21FF	Arrows	Anticlockwise top semicircle arrow		
-21B7	"""↷"""	2190..21FF	Arrows	Clockwise top semicircle arrow		
-21B8	"""↸"""	2190..21FF	Arrows	North west arrow to long bar		
-21B9	"""↹"""	2190..21FF	Arrows	Leftwards arrow to bar over rightwards arrow to bar		
-21BA	"""↺"""	2190..21FF	Arrows	Anticlockwise open circle arrow		
-21BB	"""↻"""	2190..21FF	Arrows	Clockwise open circle arrow		
-21BC	"""↼"""	2190..21FF	Arrows	Leftwards harpoon with barb upwards		
-21BD	"""↽"""	2190..21FF	Arrows	Leftwards harpoon with barb downwards		
-21BE	"""↾"""	2190..21FF	Arrows	Upwards harpoon with barb rightwards		
-21BF	"""↿"""	2190..21FF	Arrows	Upwards harpoon with barb leftwards		
-21C0	"""⇀"""	2190..21FF	Arrows	Rightwards harpoon with barb upwards		
-21C1	"""⇁"""	2190..21FF	Arrows	Rightwards harpoon with barb downwards		
-21C2	"""⇂"""	2190..21FF	Arrows	Downwards harpoon with barb rightwards		
-21C3	"""⇃"""	2190..21FF	Arrows	Downwards harpoon with barb leftwards		
-21C4	"""⇄"""	2190..21FF	Arrows	Rightwards arrow over leftwards arrow		
-21C5	"""⇅"""	2190..21FF	Arrows	Upwards arrow leftwards of downwards arrow		
-21C6	"""⇆"""	2190..21FF	Arrows	Leftwards arrow over rightwards arrow		
-21C7	"""⇇"""	2190..21FF	Arrows	Leftwards paired arrows		
-21C8	"""⇈"""	2190..21FF	Arrows	Upwards paired arrows		
-21C9	"""⇉"""	2190..21FF	Arrows	Rightwards paired arrows		
-21CA	"""⇊"""	2190..21FF	Arrows	Downwards paired arrows		
-21CB	"""⇋"""	2190..21FF	Arrows	Leftwards harpoon over rightwards harpoon		
-21CC	"""⇌"""	2190..21FF	Arrows	Rightwards harpoon over leftwards harpoon		
-21CD	"""⇍"""	2190..21FF	Arrows	Leftwards double arrow with stroke		
-21CE	"""⇎"""	2190..21FF	Arrows	Left right double arrow with stroke		
-21CF	"""⇏"""	2190..21FF	Arrows	Rightwards double arrow with stroke		
-21D0	"""⇐"""	2190..21FF	Arrows	Leftwards double arrow		
-21D1	"""⇑"""	2190..21FF	Arrows	Upwards double arrow		
-21D2	"""⇒"""	2190..21FF	Arrows	Rightwards double arrow		
-21D3	"""⇓"""	2190..21FF	Arrows	Downwards double arrow		
-21D4	"""⇔"""	2190..21FF	Arrows	Left right double arrow		
-21D5	"""⇕"""	2190..21FF	Arrows	Up down double arrow		
-21D6	"""⇖"""	2190..21FF	Arrows	North west double arrow		
-21D7	"""⇗"""	2190..21FF	Arrows	North east double arrow		
-21D8	"""⇘"""	2190..21FF	Arrows	South east double arrow		
-21D9	"""⇙"""	2190..21FF	Arrows	South west double arrow		
-21DA	"""⇚"""	2190..21FF	Arrows	Leftwards triple arrow		
-21DB	"""⇛"""	2190..21FF	Arrows	Rightwards triple arrow		
-21DC	"""⇜"""	2190..21FF	Arrows	Leftwards squiggle arrow		
-21DD	"""⇝"""	2190..21FF	Arrows	Rightwards squiggle arrow		
-21DE	"""⇞"""	2190..21FF	Arrows	Upwards arrow with double stroke		
-21DF	"""⇟"""	2190..21FF	Arrows	Downwards arrow with double stroke		
-21E0	"""⇠"""	2190..21FF	Arrows	Leftwards dashed arrow		
-21E1	"""⇡"""	2190..21FF	Arrows	Upwards dashed arrow		
-21E2	"""⇢"""	2190..21FF	Arrows	Rightwards dashed arrow		
-21E3	"""⇣"""	2190..21FF	Arrows	Downwards dashed arrow		
-21E4	"""⇤"""	2190..21FF	Arrows	Leftwards arrow to bar		
-21E5	"""⇥"""	2190..21FF	Arrows	Rightwards arrow to bar		
-21E6	"""⇦"""	2190..21FF	Arrows	Leftwards white arrow		
-21E7	"""⇧"""	2190..21FF	Arrows	Upwards white arrow		
-21E8	"""⇨"""	2190..21FF	Arrows	Rightwards white arrow		
-21E9	"""⇩"""	2190..21FF	Arrows	Downwards white arrow		
-21EA	"""⇪"""	2190..21FF	Arrows	Upwards white arrow from bar		
-21EB	"""⇫"""	2190..21FF	Arrows	Upwards white arrow on pedestal		
-21EC	"""⇬"""	2190..21FF	Arrows	Upwards white arrow on pedestal with horizontal bar		
-21ED	"""⇭"""	2190..21FF	Arrows	Upwards white arrow on pedestal with vertical bar		
-21EE	"""⇮"""	2190..21FF	Arrows	Upwards white double arrow		
-21EF	"""⇯"""	2190..21FF	Arrows	Upwards white double arrow on pedestal		
-21F0	"""⇰"""	2190..21FF	Arrows	Rightwards white arrow from wall		
-21F1	"""⇱"""	2190..21FF	Arrows	North west arrow to corner		
-21F2	"""⇲"""	2190..21FF	Arrows	South east arrow to corner		
-21F3	"""⇳"""	2190..21FF	Arrows	Up down white arrow		
-21F4	"""⇴"""	2190..21FF	Arrows	Right arrow with small circle		
-21F5	"""⇵"""	2190..21FF	Arrows	Downwards arrow leftwards of upwards arrow		
-21F6	"""⇶"""	2190..21FF	Arrows	Three rightwards arrows		
-21F7	"""⇷"""	2190..21FF	Arrows	Leftwards arrow with vertical stroke		
-21F8	"""⇸"""	2190..21FF	Arrows	Rightwards arrow with vertical stroke		
-21F9	"""⇹"""	2190..21FF	Arrows	Left right arrow with vertical stroke		
-21FA	"""⇺"""	2190..21FF	Arrows	Leftwards arrow with double vertical stroke		
-21FB	"""⇻"""	2190..21FF	Arrows	Rightwards arrow with double vertical stroke		
-21FC	"""⇼"""	2190..21FF	Arrows	Left right arrow with double vertical stroke		
-21FD	"""⇽"""	2190..21FF	Arrows	Leftwards open-headed arrow		
-21FE	"""⇾"""	2190..21FF	Arrows	Rightwards open-headed arrow		
-21FF	"""⇿"""	2190..21FF	Arrows	Left right open-headed arrow		
+U+2190	←	2190..21FF	Arrows	Leftwards arrow		
+U+2191	↑	2190..21FF	Arrows	Upwards arrow		
+U+2192	→	2190..21FF	Arrows	Rightwards arrow		
+U+2193	↓	2190..21FF	Arrows	Downwards arrow		
+U+2194	↔	2190..21FF	Arrows	Left right arrow		
+U+2195	↕	2190..21FF	Arrows	Up down arrow		
+U+2196	↖	2190..21FF	Arrows	North west arrow		
+U+2197	↗	2190..21FF	Arrows	North east arrow		
+U+2198	↘	2190..21FF	Arrows	South east arrow		
+U+2199	↙	2190..21FF	Arrows	South west arrow		
+U+219A	↚	2190..21FF	Arrows	Leftwards arrow with stroke		
+U+219B	↛	2190..21FF	Arrows	Rightwards arrow with stroke		
+U+219C	↜	2190..21FF	Arrows	Leftwards wave arrow		
+U+219D	↝	2190..21FF	Arrows	Rightwards wave arrow		
+U+219E	↞	2190..21FF	Arrows	Leftwards two headed arrow		
+U+219F	↟	2190..21FF	Arrows	Upwards two headed arrow		
+U+21A0	↠	2190..21FF	Arrows	Rightwards two headed arrow		
+U+21A1	↡	2190..21FF	Arrows	Downwards two headed arrow		
+U+21A2	↢	2190..21FF	Arrows	Leftwards arrow with tail		
+U+21A3	↣	2190..21FF	Arrows	Rightwards arrow with tail		
+U+21A4	↤	2190..21FF	Arrows	Leftwards arrow from bar		
+U+21A5	↥	2190..21FF	Arrows	Upwards arrow from bar		
+U+21A6	↦	2190..21FF	Arrows	Rightwards arrow from bar		
+U+21A7	↧	2190..21FF	Arrows	Downwards arrow from bar		
+U+21A8	↨	2190..21FF	Arrows	Up down arrow with base		
+U+21A9	↩	2190..21FF	Arrows	Leftwards arrow with hook		
+U+21AA	↪	2190..21FF	Arrows	Rightwards arrow with hook		
+U+21AB	↫	2190..21FF	Arrows	Leftwards arrow with loop		
+U+21AC	↬	2190..21FF	Arrows	Rightwards arrow with loop		
+U+21AD	↭	2190..21FF	Arrows	Left right wave arrow		
+U+21AE	↮	2190..21FF	Arrows	Left right arrow with stroke		
+U+21AF	↯	2190..21FF	Arrows	Downwards zigzag arrow		
+U+21B0	↰	2190..21FF	Arrows	Upwards arrow with tip leftwards		
+U+21B1	↱	2190..21FF	Arrows	Upwards arrow with tip rightwards		
+U+21B2	↲	2190..21FF	Arrows	Downwards arrow with tip leftwards		
+U+21B3	↳	2190..21FF	Arrows	Downwards arrow with tip rightwards		
+U+21B4	↴	2190..21FF	Arrows	Rightwards arrow with corner downwards		
+U+21B5	↵	2190..21FF	Arrows	Downwards arrow with corner leftwards		
+U+21B6	↶	2190..21FF	Arrows	Anticlockwise top semicircle arrow		
+U+21B7	↷	2190..21FF	Arrows	Clockwise top semicircle arrow		
+U+21B8	↸	2190..21FF	Arrows	North west arrow to long bar		
+U+21B9	↹	2190..21FF	Arrows	Leftwards arrow to bar over rightwards arrow to bar		
+U+21BA	↺	2190..21FF	Arrows	Anticlockwise open circle arrow		
+U+21BB	↻	2190..21FF	Arrows	Clockwise open circle arrow		
+U+21BC	↼	2190..21FF	Arrows	Leftwards harpoon with barb upwards		
+U+21BD	↽	2190..21FF	Arrows	Leftwards harpoon with barb downwards		
+U+21BE	↾	2190..21FF	Arrows	Upwards harpoon with barb rightwards		
+U+21BF	↿	2190..21FF	Arrows	Upwards harpoon with barb leftwards		
+U+21C0	⇀	2190..21FF	Arrows	Rightwards harpoon with barb upwards		
+U+21C1	⇁	2190..21FF	Arrows	Rightwards harpoon with barb downwards		
+U+21C2	⇂	2190..21FF	Arrows	Downwards harpoon with barb rightwards		
+U+21C3	⇃	2190..21FF	Arrows	Downwards harpoon with barb leftwards		
+U+21C4	⇄	2190..21FF	Arrows	Rightwards arrow over leftwards arrow		
+U+21C5	⇅	2190..21FF	Arrows	Upwards arrow leftwards of downwards arrow		
+U+21C6	⇆	2190..21FF	Arrows	Leftwards arrow over rightwards arrow		
+U+21C7	⇇	2190..21FF	Arrows	Leftwards paired arrows		
+U+21C8	⇈	2190..21FF	Arrows	Upwards paired arrows		
+U+21C9	⇉	2190..21FF	Arrows	Rightwards paired arrows		
+U+21CA	⇊	2190..21FF	Arrows	Downwards paired arrows		
+U+21CB	⇋	2190..21FF	Arrows	Leftwards harpoon over rightwards harpoon		
+U+21CC	⇌	2190..21FF	Arrows	Rightwards harpoon over leftwards harpoon		
+U+21CD	⇍	2190..21FF	Arrows	Leftwards double arrow with stroke		
+U+21CE	⇎	2190..21FF	Arrows	Left right double arrow with stroke		
+U+21CF	⇏	2190..21FF	Arrows	Rightwards double arrow with stroke		
+U+21D0	⇐	2190..21FF	Arrows	Leftwards double arrow		
+U+21D1	⇑	2190..21FF	Arrows	Upwards double arrow		
+U+21D2	⇒	2190..21FF	Arrows	Rightwards double arrow		
+U+21D3	⇓	2190..21FF	Arrows	Downwards double arrow		
+U+21D4	⇔	2190..21FF	Arrows	Left right double arrow		
+U+21D5	⇕	2190..21FF	Arrows	Up down double arrow		
+U+21D6	⇖	2190..21FF	Arrows	North west double arrow		
+U+21D7	⇗	2190..21FF	Arrows	North east double arrow		
+U+21D8	⇘	2190..21FF	Arrows	South east double arrow		
+U+21D9	⇙	2190..21FF	Arrows	South west double arrow		
+U+21DA	⇚	2190..21FF	Arrows	Leftwards triple arrow		
+U+21DB	⇛	2190..21FF	Arrows	Rightwards triple arrow		
+U+21DC	⇜	2190..21FF	Arrows	Leftwards squiggle arrow		
+U+21DD	⇝	2190..21FF	Arrows	Rightwards squiggle arrow		
+U+21DE	⇞	2190..21FF	Arrows	Upwards arrow with double stroke		
+U+21DF	⇟	2190..21FF	Arrows	Downwards arrow with double stroke		
+U+21E0	⇠	2190..21FF	Arrows	Leftwards dashed arrow		
+U+21E1	⇡	2190..21FF	Arrows	Upwards dashed arrow		
+U+21E2	⇢	2190..21FF	Arrows	Rightwards dashed arrow		
+U+21E3	⇣	2190..21FF	Arrows	Downwards dashed arrow		
+U+21E4	⇤	2190..21FF	Arrows	Leftwards arrow to bar		
+U+21E5	⇥	2190..21FF	Arrows	Rightwards arrow to bar		
+U+21E6	⇦	2190..21FF	Arrows	Leftwards white arrow		
+U+21E7	⇧	2190..21FF	Arrows	Upwards white arrow		
+U+21E8	⇨	2190..21FF	Arrows	Rightwards white arrow		
+U+21E9	⇩	2190..21FF	Arrows	Downwards white arrow		
+U+21EA	⇪	2190..21FF	Arrows	Upwards white arrow from bar		
+U+21EB	⇫	2190..21FF	Arrows	Upwards white arrow on pedestal		
+U+21EC	⇬	2190..21FF	Arrows	Upwards white arrow on pedestal with horizontal bar		
+U+21ED	⇭	2190..21FF	Arrows	Upwards white arrow on pedestal with vertical bar		
+U+21EE	⇮	2190..21FF	Arrows	Upwards white double arrow		
+U+21EF	⇯	2190..21FF	Arrows	Upwards white double arrow on pedestal		
+U+21F0	⇰	2190..21FF	Arrows	Rightwards white arrow from wall		
+U+21F1	⇱	2190..21FF	Arrows	North west arrow to corner		
+U+21F2	⇲	2190..21FF	Arrows	South east arrow to corner		
+U+21F3	⇳	2190..21FF	Arrows	Up down white arrow		
+U+21F4	⇴	2190..21FF	Arrows	Right arrow with small circle		
+U+21F5	⇵	2190..21FF	Arrows	Downwards arrow leftwards of upwards arrow		
+U+21F6	⇶	2190..21FF	Arrows	Three rightwards arrows		
+U+21F7	⇷	2190..21FF	Arrows	Leftwards arrow with vertical stroke		
+U+21F8	⇸	2190..21FF	Arrows	Rightwards arrow with vertical stroke		
+U+21F9	⇹	2190..21FF	Arrows	Left right arrow with vertical stroke		
+U+21FA	⇺	2190..21FF	Arrows	Leftwards arrow with double vertical stroke		
+U+21FB	⇻	2190..21FF	Arrows	Rightwards arrow with double vertical stroke		
+U+21FC	⇼	2190..21FF	Arrows	Left right arrow with double vertical stroke		
+U+21FD	⇽	2190..21FF	Arrows	Leftwards open-headed arrow		
+U+21FE	⇾	2190..21FF	Arrows	Rightwards open-headed arrow		
+U+21FF	⇿	2190..21FF	Arrows	Left right open-headed arrow		

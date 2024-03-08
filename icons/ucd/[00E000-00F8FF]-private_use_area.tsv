@@ -1,3 +1,3 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-E000	""""""	E000..F8FF	Private Use Area	<private use, first>		
-F8FF	""""""	E000..F8FF	Private Use Area	<private use, last>		
+U+E000		E000..F8FF	Private Use Area	<private use, first>		
+U+F8FF		E000..F8FF	Private Use Area	<private use, last>		

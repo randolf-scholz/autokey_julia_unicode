@@ -1,89 +1,89 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-10000	"""𐀀"""	10000..1007F	Linear B Syllabary	Linear b syllable b008 a		
-10001	"""𐀁"""	10000..1007F	Linear B Syllabary	Linear b syllable b038 e		
-10002	"""𐀂"""	10000..1007F	Linear B Syllabary	Linear b syllable b028 i		
-10003	"""𐀃"""	10000..1007F	Linear B Syllabary	Linear b syllable b061 o		
-10004	"""𐀄"""	10000..1007F	Linear B Syllabary	Linear b syllable b010 u		
-10005	"""𐀅"""	10000..1007F	Linear B Syllabary	Linear b syllable b001 da		
-10006	"""𐀆"""	10000..1007F	Linear B Syllabary	Linear b syllable b045 de		
-10007	"""𐀇"""	10000..1007F	Linear B Syllabary	Linear b syllable b007 di		
-10008	"""𐀈"""	10000..1007F	Linear B Syllabary	Linear b syllable b014 do		
-10009	"""𐀉"""	10000..1007F	Linear B Syllabary	Linear b syllable b051 du		
-1000A	"""𐀊"""	10000..1007F	Linear B Syllabary	Linear b syllable b057 ja		
-1000B	"""𐀋"""	10000..1007F	Linear B Syllabary	Linear b syllable b046 je		
-1000D	"""𐀍"""	10000..1007F	Linear B Syllabary	Linear b syllable b036 jo		
-1000E	"""𐀎"""	10000..1007F	Linear B Syllabary	Linear b syllable b065 ju		
-1000F	"""𐀏"""	10000..1007F	Linear B Syllabary	Linear b syllable b077 ka		
-10010	"""𐀐"""	10000..1007F	Linear B Syllabary	Linear b syllable b044 ke		
-10011	"""𐀑"""	10000..1007F	Linear B Syllabary	Linear b syllable b067 ki		
-10012	"""𐀒"""	10000..1007F	Linear B Syllabary	Linear b syllable b070 ko		
-10013	"""𐀓"""	10000..1007F	Linear B Syllabary	Linear b syllable b081 ku		
-10014	"""𐀔"""	10000..1007F	Linear B Syllabary	Linear b syllable b080 ma		
-10015	"""𐀕"""	10000..1007F	Linear B Syllabary	Linear b syllable b013 me		
-10016	"""𐀖"""	10000..1007F	Linear B Syllabary	Linear b syllable b073 mi		
-10017	"""𐀗"""	10000..1007F	Linear B Syllabary	Linear b syllable b015 mo		
-10018	"""𐀘"""	10000..1007F	Linear B Syllabary	Linear b syllable b023 mu		
-10019	"""𐀙"""	10000..1007F	Linear B Syllabary	Linear b syllable b006 na		
-1001A	"""𐀚"""	10000..1007F	Linear B Syllabary	Linear b syllable b024 ne		
-1001B	"""𐀛"""	10000..1007F	Linear B Syllabary	Linear b syllable b030 ni		
-1001C	"""𐀜"""	10000..1007F	Linear B Syllabary	Linear b syllable b052 no		
-1001D	"""𐀝"""	10000..1007F	Linear B Syllabary	Linear b syllable b055 nu		
-1001E	"""𐀞"""	10000..1007F	Linear B Syllabary	Linear b syllable b003 pa		
-1001F	"""𐀟"""	10000..1007F	Linear B Syllabary	Linear b syllable b072 pe		
-10020	"""𐀠"""	10000..1007F	Linear B Syllabary	Linear b syllable b039 pi		
-10021	"""𐀡"""	10000..1007F	Linear B Syllabary	Linear b syllable b011 po		
-10022	"""𐀢"""	10000..1007F	Linear B Syllabary	Linear b syllable b050 pu		
-10023	"""𐀣"""	10000..1007F	Linear B Syllabary	Linear b syllable b016 qa		
-10024	"""𐀤"""	10000..1007F	Linear B Syllabary	Linear b syllable b078 qe		
-10025	"""𐀥"""	10000..1007F	Linear B Syllabary	Linear b syllable b021 qi		
-10026	"""𐀦"""	10000..1007F	Linear B Syllabary	Linear b syllable b032 qo		
-10028	"""𐀨"""	10000..1007F	Linear B Syllabary	Linear b syllable b060 ra		
-10029	"""𐀩"""	10000..1007F	Linear B Syllabary	Linear b syllable b027 re		
-1002A	"""𐀪"""	10000..1007F	Linear B Syllabary	Linear b syllable b053 ri		
-1002B	"""𐀫"""	10000..1007F	Linear B Syllabary	Linear b syllable b002 ro		
-1002C	"""𐀬"""	10000..1007F	Linear B Syllabary	Linear b syllable b026 ru		
-1002D	"""𐀭"""	10000..1007F	Linear B Syllabary	Linear b syllable b031 sa		
-1002E	"""𐀮"""	10000..1007F	Linear B Syllabary	Linear b syllable b009 se		
-1002F	"""𐀯"""	10000..1007F	Linear B Syllabary	Linear b syllable b041 si		
-10030	"""𐀰"""	10000..1007F	Linear B Syllabary	Linear b syllable b012 so		
-10031	"""𐀱"""	10000..1007F	Linear B Syllabary	Linear b syllable b058 su		
-10032	"""𐀲"""	10000..1007F	Linear B Syllabary	Linear b syllable b059 ta		
-10033	"""𐀳"""	10000..1007F	Linear B Syllabary	Linear b syllable b004 te		
-10034	"""𐀴"""	10000..1007F	Linear B Syllabary	Linear b syllable b037 ti		
-10035	"""𐀵"""	10000..1007F	Linear B Syllabary	Linear b syllable b005 to		
-10036	"""𐀶"""	10000..1007F	Linear B Syllabary	Linear b syllable b069 tu		
-10037	"""𐀷"""	10000..1007F	Linear B Syllabary	Linear b syllable b054 wa		
-10038	"""𐀸"""	10000..1007F	Linear B Syllabary	Linear b syllable b075 we		
-10039	"""𐀹"""	10000..1007F	Linear B Syllabary	Linear b syllable b040 wi		
-1003A	"""𐀺"""	10000..1007F	Linear B Syllabary	Linear b syllable b042 wo		
-1003C	"""𐀼"""	10000..1007F	Linear B Syllabary	Linear b syllable b017 za		
-1003D	"""𐀽"""	10000..1007F	Linear B Syllabary	Linear b syllable b074 ze		
-1003F	"""𐀿"""	10000..1007F	Linear B Syllabary	Linear b syllable b020 zo		
-10040	"""𐁀"""	10000..1007F	Linear B Syllabary	Linear b syllable b025 a2		
-10041	"""𐁁"""	10000..1007F	Linear B Syllabary	Linear b syllable b043 a3		
-10042	"""𐁂"""	10000..1007F	Linear B Syllabary	Linear b syllable b085 au		
-10043	"""𐁃"""	10000..1007F	Linear B Syllabary	Linear b syllable b071 dwe		
-10044	"""𐁄"""	10000..1007F	Linear B Syllabary	Linear b syllable b090 dwo		
-10045	"""𐁅"""	10000..1007F	Linear B Syllabary	Linear b syllable b048 nwa		
-10046	"""𐁆"""	10000..1007F	Linear B Syllabary	Linear b syllable b029 pu2		
-10047	"""𐁇"""	10000..1007F	Linear B Syllabary	Linear b syllable b062 pte		
-10048	"""𐁈"""	10000..1007F	Linear B Syllabary	Linear b syllable b076 ra2		
-10049	"""𐁉"""	10000..1007F	Linear B Syllabary	Linear b syllable b033 ra3		
-1004A	"""𐁊"""	10000..1007F	Linear B Syllabary	Linear b syllable b068 ro2		
-1004B	"""𐁋"""	10000..1007F	Linear B Syllabary	Linear b syllable b066 ta2		
-1004C	"""𐁌"""	10000..1007F	Linear B Syllabary	Linear b syllable b087 twe		
-1004D	"""𐁍"""	10000..1007F	Linear B Syllabary	Linear b syllable b091 two		
-10050	"""𐁐"""	10000..1007F	Linear B Syllabary	Linear b symbol b018		
-10051	"""𐁑"""	10000..1007F	Linear B Syllabary	Linear b symbol b019		
-10052	"""𐁒"""	10000..1007F	Linear B Syllabary	Linear b symbol b022		
-10053	"""𐁓"""	10000..1007F	Linear B Syllabary	Linear b symbol b034		
-10054	"""𐁔"""	10000..1007F	Linear B Syllabary	Linear b symbol b047		
-10055	"""𐁕"""	10000..1007F	Linear B Syllabary	Linear b symbol b049		
-10056	"""𐁖"""	10000..1007F	Linear B Syllabary	Linear b symbol b056		
-10057	"""𐁗"""	10000..1007F	Linear B Syllabary	Linear b symbol b063		
-10058	"""𐁘"""	10000..1007F	Linear B Syllabary	Linear b symbol b064		
-10059	"""𐁙"""	10000..1007F	Linear B Syllabary	Linear b symbol b079		
-1005A	"""𐁚"""	10000..1007F	Linear B Syllabary	Linear b symbol b082		
-1005B	"""𐁛"""	10000..1007F	Linear B Syllabary	Linear b symbol b083		
-1005C	"""𐁜"""	10000..1007F	Linear B Syllabary	Linear b symbol b086		
-1005D	"""𐁝"""	10000..1007F	Linear B Syllabary	Linear b symbol b089		
+U+10000	𐀀	10000..1007F	Linear B Syllabary	Linear b syllable b008 a		
+U+10001	𐀁	10000..1007F	Linear B Syllabary	Linear b syllable b038 e		
+U+10002	𐀂	10000..1007F	Linear B Syllabary	Linear b syllable b028 i		
+U+10003	𐀃	10000..1007F	Linear B Syllabary	Linear b syllable b061 o		
+U+10004	𐀄	10000..1007F	Linear B Syllabary	Linear b syllable b010 u		
+U+10005	𐀅	10000..1007F	Linear B Syllabary	Linear b syllable b001 da		
+U+10006	𐀆	10000..1007F	Linear B Syllabary	Linear b syllable b045 de		
+U+10007	𐀇	10000..1007F	Linear B Syllabary	Linear b syllable b007 di		
+U+10008	𐀈	10000..1007F	Linear B Syllabary	Linear b syllable b014 do		
+U+10009	𐀉	10000..1007F	Linear B Syllabary	Linear b syllable b051 du		
+U+1000A	𐀊	10000..1007F	Linear B Syllabary	Linear b syllable b057 ja		
+U+1000B	𐀋	10000..1007F	Linear B Syllabary	Linear b syllable b046 je		
+U+1000D	𐀍	10000..1007F	Linear B Syllabary	Linear b syllable b036 jo		
+U+1000E	𐀎	10000..1007F	Linear B Syllabary	Linear b syllable b065 ju		
+U+1000F	𐀏	10000..1007F	Linear B Syllabary	Linear b syllable b077 ka		
+U+10010	𐀐	10000..1007F	Linear B Syllabary	Linear b syllable b044 ke		
+U+10011	𐀑	10000..1007F	Linear B Syllabary	Linear b syllable b067 ki		
+U+10012	𐀒	10000..1007F	Linear B Syllabary	Linear b syllable b070 ko		
+U+10013	𐀓	10000..1007F	Linear B Syllabary	Linear b syllable b081 ku		
+U+10014	𐀔	10000..1007F	Linear B Syllabary	Linear b syllable b080 ma		
+U+10015	𐀕	10000..1007F	Linear B Syllabary	Linear b syllable b013 me		
+U+10016	𐀖	10000..1007F	Linear B Syllabary	Linear b syllable b073 mi		
+U+10017	𐀗	10000..1007F	Linear B Syllabary	Linear b syllable b015 mo		
+U+10018	𐀘	10000..1007F	Linear B Syllabary	Linear b syllable b023 mu		
+U+10019	𐀙	10000..1007F	Linear B Syllabary	Linear b syllable b006 na		
+U+1001A	𐀚	10000..1007F	Linear B Syllabary	Linear b syllable b024 ne		
+U+1001B	𐀛	10000..1007F	Linear B Syllabary	Linear b syllable b030 ni		
+U+1001C	𐀜	10000..1007F	Linear B Syllabary	Linear b syllable b052 no		
+U+1001D	𐀝	10000..1007F	Linear B Syllabary	Linear b syllable b055 nu		
+U+1001E	𐀞	10000..1007F	Linear B Syllabary	Linear b syllable b003 pa		
+U+1001F	𐀟	10000..1007F	Linear B Syllabary	Linear b syllable b072 pe		
+U+10020	𐀠	10000..1007F	Linear B Syllabary	Linear b syllable b039 pi		
+U+10021	𐀡	10000..1007F	Linear B Syllabary	Linear b syllable b011 po		
+U+10022	𐀢	10000..1007F	Linear B Syllabary	Linear b syllable b050 pu		
+U+10023	𐀣	10000..1007F	Linear B Syllabary	Linear b syllable b016 qa		
+U+10024	𐀤	10000..1007F	Linear B Syllabary	Linear b syllable b078 qe		
+U+10025	𐀥	10000..1007F	Linear B Syllabary	Linear b syllable b021 qi		
+U+10026	𐀦	10000..1007F	Linear B Syllabary	Linear b syllable b032 qo		
+U+10028	𐀨	10000..1007F	Linear B Syllabary	Linear b syllable b060 ra		
+U+10029	𐀩	10000..1007F	Linear B Syllabary	Linear b syllable b027 re		
+U+1002A	𐀪	10000..1007F	Linear B Syllabary	Linear b syllable b053 ri		
+U+1002B	𐀫	10000..1007F	Linear B Syllabary	Linear b syllable b002 ro		
+U+1002C	𐀬	10000..1007F	Linear B Syllabary	Linear b syllable b026 ru		
+U+1002D	𐀭	10000..1007F	Linear B Syllabary	Linear b syllable b031 sa		
+U+1002E	𐀮	10000..1007F	Linear B Syllabary	Linear b syllable b009 se		
+U+1002F	𐀯	10000..1007F	Linear B Syllabary	Linear b syllable b041 si		
+U+10030	𐀰	10000..1007F	Linear B Syllabary	Linear b syllable b012 so		
+U+10031	𐀱	10000..1007F	Linear B Syllabary	Linear b syllable b058 su		
+U+10032	𐀲	10000..1007F	Linear B Syllabary	Linear b syllable b059 ta		
+U+10033	𐀳	10000..1007F	Linear B Syllabary	Linear b syllable b004 te		
+U+10034	𐀴	10000..1007F	Linear B Syllabary	Linear b syllable b037 ti		
+U+10035	𐀵	10000..1007F	Linear B Syllabary	Linear b syllable b005 to		
+U+10036	𐀶	10000..1007F	Linear B Syllabary	Linear b syllable b069 tu		
+U+10037	𐀷	10000..1007F	Linear B Syllabary	Linear b syllable b054 wa		
+U+10038	𐀸	10000..1007F	Linear B Syllabary	Linear b syllable b075 we		
+U+10039	𐀹	10000..1007F	Linear B Syllabary	Linear b syllable b040 wi		
+U+1003A	𐀺	10000..1007F	Linear B Syllabary	Linear b syllable b042 wo		
+U+1003C	𐀼	10000..1007F	Linear B Syllabary	Linear b syllable b017 za		
+U+1003D	𐀽	10000..1007F	Linear B Syllabary	Linear b syllable b074 ze		
+U+1003F	𐀿	10000..1007F	Linear B Syllabary	Linear b syllable b020 zo		
+U+10040	𐁀	10000..1007F	Linear B Syllabary	Linear b syllable b025 a2		
+U+10041	𐁁	10000..1007F	Linear B Syllabary	Linear b syllable b043 a3		
+U+10042	𐁂	10000..1007F	Linear B Syllabary	Linear b syllable b085 au		
+U+10043	𐁃	10000..1007F	Linear B Syllabary	Linear b syllable b071 dwe		
+U+10044	𐁄	10000..1007F	Linear B Syllabary	Linear b syllable b090 dwo		
+U+10045	𐁅	10000..1007F	Linear B Syllabary	Linear b syllable b048 nwa		
+U+10046	𐁆	10000..1007F	Linear B Syllabary	Linear b syllable b029 pu2		
+U+10047	𐁇	10000..1007F	Linear B Syllabary	Linear b syllable b062 pte		
+U+10048	𐁈	10000..1007F	Linear B Syllabary	Linear b syllable b076 ra2		
+U+10049	𐁉	10000..1007F	Linear B Syllabary	Linear b syllable b033 ra3		
+U+1004A	𐁊	10000..1007F	Linear B Syllabary	Linear b syllable b068 ro2		
+U+1004B	𐁋	10000..1007F	Linear B Syllabary	Linear b syllable b066 ta2		
+U+1004C	𐁌	10000..1007F	Linear B Syllabary	Linear b syllable b087 twe		
+U+1004D	𐁍	10000..1007F	Linear B Syllabary	Linear b syllable b091 two		
+U+10050	𐁐	10000..1007F	Linear B Syllabary	Linear b symbol b018		
+U+10051	𐁑	10000..1007F	Linear B Syllabary	Linear b symbol b019		
+U+10052	𐁒	10000..1007F	Linear B Syllabary	Linear b symbol b022		
+U+10053	𐁓	10000..1007F	Linear B Syllabary	Linear b symbol b034		
+U+10054	𐁔	10000..1007F	Linear B Syllabary	Linear b symbol b047		
+U+10055	𐁕	10000..1007F	Linear B Syllabary	Linear b symbol b049		
+U+10056	𐁖	10000..1007F	Linear B Syllabary	Linear b symbol b056		
+U+10057	𐁗	10000..1007F	Linear B Syllabary	Linear b symbol b063		
+U+10058	𐁘	10000..1007F	Linear B Syllabary	Linear b symbol b064		
+U+10059	𐁙	10000..1007F	Linear B Syllabary	Linear b symbol b079		
+U+1005A	𐁚	10000..1007F	Linear B Syllabary	Linear b symbol b082		
+U+1005B	𐁛	10000..1007F	Linear B Syllabary	Linear b symbol b083		
+U+1005C	𐁜	10000..1007F	Linear B Syllabary	Linear b symbol b086		
+U+1005D	𐁝	10000..1007F	Linear B Syllabary	Linear b symbol b089		

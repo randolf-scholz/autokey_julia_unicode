@@ -1,0 +1,33 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+2160	Ⅰ	\RM1	Roman Numeral One	1
+U+2161	Ⅱ	\RM2	Roman Numeral Two	2
+U+2162	Ⅲ	\RM3	Roman Numeral Three	3
+U+2163	Ⅳ	\RM4	Roman Numeral Four	4
+U+2164	Ⅴ	\RM5	Roman Numeral Five	5
+U+2165	Ⅵ	\RM6	Roman Numeral Six	6
+U+2166	Ⅶ	\RM7	Roman Numeral Seven	7
+U+2167	Ⅷ	\RM8	Roman Numeral Eight	8
+U+2168	Ⅸ	\RM9	Roman Numeral Nine	9
+U+2169	Ⅹ	\RM10	Roman Numeral Ten	10
+U+216A	Ⅺ	\RM11	Roman Numeral Eleven	11
+U+216B	Ⅻ	\RM12	Roman Numeral Twelve	12
+U+216C	Ⅼ	\RM50	Roman Numeral Fifty	50
+U+216D	Ⅽ	\RM100	Roman Numeral One Hundred	100
+U+216E	Ⅾ	\RM500	Roman Numeral Five Hundred	500
+U+216F	Ⅿ	\RM1000	Roman Numeral One Thousand	1000
+U+2170	ⅰ	\rm1	Small Roman Numeral One	1
+U+2171	ⅱ	\rm2	Small Roman Numeral Two	2
+U+2172	ⅲ	\rm3	Small Roman Numeral Three	3
+U+2173	ⅳ	\rm4	Small Roman Numeral Four	4
+U+2174	ⅴ	\rm5	Small Roman Numeral Five	5
+U+2175	ⅵ	\rm6	Small Roman Numeral Six	6
+U+2176	ⅶ	\rm7	Small Roman Numeral Seven	7
+U+2177	ⅷ	\rm8	Small Roman Numeral Eight	8
+U+2178	ⅸ	\rm9	Small Roman Numeral Nine	9
+U+2179	ⅹ	\rm10	Small Roman Numeral Ten	10
+U+217A	ⅺ	\rm11	Small Roman Numeral Eleven	11
+U+217B	ⅻ	\rm12	Small Roman Numeral Twelve	12
+U+217C	ⅼ	\rm50	Small Roman Numeral Fifty	50
+U+217D	ⅽ	\rm100	Small Roman Numeral One Hundred	100
+U+217E	ⅾ	\rm500	Small Roman Numeral Five Hundred	500
+U+217F	ⅿ	\rm1000	Small Roman Numeral One Thousand	1000

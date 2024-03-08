@@ -51,8 +51,8 @@
 %
 % stores the first token of #2 in #1
 %
-\def\@extract##1##2\@terminator{\let#1=##1}%
-\expandafter\@extract#2\@terminator%
+\def\@extract##1##2\@terminator{\let#1=##1}% chktex 21
+\expandafter\@extract#2\@terminator% chktex 21
 }
 
 % select the correct dispatch function

@@ -1,41 +1,41 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-10F00	"""𐼀"""	10F00..10F2F	Old Sogdian	Old sogdian letter aleph		
-10F01	"""𐼁"""	10F00..10F2F	Old Sogdian	Old sogdian letter final aleph		
-10F02	"""𐼂"""	10F00..10F2F	Old Sogdian	Old sogdian letter beth		
-10F03	"""𐼃"""	10F00..10F2F	Old Sogdian	Old sogdian letter final beth		
-10F04	"""𐼄"""	10F00..10F2F	Old Sogdian	Old sogdian letter gimel		
-10F05	"""𐼅"""	10F00..10F2F	Old Sogdian	Old sogdian letter he		
-10F06	"""𐼆"""	10F00..10F2F	Old Sogdian	Old sogdian letter final he		
-10F07	"""𐼇"""	10F00..10F2F	Old Sogdian	Old sogdian letter waw		
-10F08	"""𐼈"""	10F00..10F2F	Old Sogdian	Old sogdian letter zayin		
-10F09	"""𐼉"""	10F00..10F2F	Old Sogdian	Old sogdian letter heth		
-10F0A	"""𐼊"""	10F00..10F2F	Old Sogdian	Old sogdian letter yodh		
-10F0B	"""𐼋"""	10F00..10F2F	Old Sogdian	Old sogdian letter kaph		
-10F0C	"""𐼌"""	10F00..10F2F	Old Sogdian	Old sogdian letter lamedh		
-10F0D	"""𐼍"""	10F00..10F2F	Old Sogdian	Old sogdian letter mem		
-10F0E	"""𐼎"""	10F00..10F2F	Old Sogdian	Old sogdian letter nun		
-10F0F	"""𐼏"""	10F00..10F2F	Old Sogdian	Old sogdian letter final nun		
-10F10	"""𐼐"""	10F00..10F2F	Old Sogdian	Old sogdian letter final nun with vertical tail		
-10F11	"""𐼑"""	10F00..10F2F	Old Sogdian	Old sogdian letter samekh		
-10F12	"""𐼒"""	10F00..10F2F	Old Sogdian	Old sogdian letter ayin		
-10F13	"""𐼓"""	10F00..10F2F	Old Sogdian	Old sogdian letter alternate ayin		
-10F14	"""𐼔"""	10F00..10F2F	Old Sogdian	Old sogdian letter pe		
-10F15	"""𐼕"""	10F00..10F2F	Old Sogdian	Old sogdian letter sadhe		
-10F16	"""𐼖"""	10F00..10F2F	Old Sogdian	Old sogdian letter final sadhe		
-10F17	"""𐼗"""	10F00..10F2F	Old Sogdian	Old sogdian letter final sadhe with vertical tail		
-10F18	"""𐼘"""	10F00..10F2F	Old Sogdian	Old sogdian letter resh-ayin-daleth		
-10F19	"""𐼙"""	10F00..10F2F	Old Sogdian	Old sogdian letter shin		
-10F1A	"""𐼚"""	10F00..10F2F	Old Sogdian	Old sogdian letter taw		
-10F1B	"""𐼛"""	10F00..10F2F	Old Sogdian	Old sogdian letter final taw		
-10F1C	"""𐼜"""	10F00..10F2F	Old Sogdian	Old sogdian letter final taw with vertical tail		
-10F1D	"""𐼝"""	10F00..10F2F	Old Sogdian	Old sogdian number one		
-10F1E	"""𐼞"""	10F00..10F2F	Old Sogdian	Old sogdian number two		
-10F1F	"""𐼟"""	10F00..10F2F	Old Sogdian	Old sogdian number three		
-10F20	"""𐼠"""	10F00..10F2F	Old Sogdian	Old sogdian number four		
-10F21	"""𐼡"""	10F00..10F2F	Old Sogdian	Old sogdian number five		
-10F22	"""𐼢"""	10F00..10F2F	Old Sogdian	Old sogdian number ten		
-10F23	"""𐼣"""	10F00..10F2F	Old Sogdian	Old sogdian number twenty		
-10F24	"""𐼤"""	10F00..10F2F	Old Sogdian	Old sogdian number thirty		
-10F25	"""𐼥"""	10F00..10F2F	Old Sogdian	Old sogdian number one hundred		
-10F26	"""𐼦"""	10F00..10F2F	Old Sogdian	Old sogdian fraction one half		
-10F27	"""𐼧"""	10F00..10F2F	Old Sogdian	Old sogdian ligature ayin-daleth		
+U+10F00	𐼀	10F00..10F2F	Old Sogdian	Old sogdian letter aleph		
+U+10F01	𐼁	10F00..10F2F	Old Sogdian	Old sogdian letter final aleph		
+U+10F02	𐼂	10F00..10F2F	Old Sogdian	Old sogdian letter beth		
+U+10F03	𐼃	10F00..10F2F	Old Sogdian	Old sogdian letter final beth		
+U+10F04	𐼄	10F00..10F2F	Old Sogdian	Old sogdian letter gimel		
+U+10F05	𐼅	10F00..10F2F	Old Sogdian	Old sogdian letter he		
+U+10F06	𐼆	10F00..10F2F	Old Sogdian	Old sogdian letter final he		
+U+10F07	𐼇	10F00..10F2F	Old Sogdian	Old sogdian letter waw		
+U+10F08	𐼈	10F00..10F2F	Old Sogdian	Old sogdian letter zayin		
+U+10F09	𐼉	10F00..10F2F	Old Sogdian	Old sogdian letter heth		
+U+10F0A	𐼊	10F00..10F2F	Old Sogdian	Old sogdian letter yodh		
+U+10F0B	𐼋	10F00..10F2F	Old Sogdian	Old sogdian letter kaph		
+U+10F0C	𐼌	10F00..10F2F	Old Sogdian	Old sogdian letter lamedh		
+U+10F0D	𐼍	10F00..10F2F	Old Sogdian	Old sogdian letter mem		
+U+10F0E	𐼎	10F00..10F2F	Old Sogdian	Old sogdian letter nun		
+U+10F0F	𐼏	10F00..10F2F	Old Sogdian	Old sogdian letter final nun		
+U+10F10	𐼐	10F00..10F2F	Old Sogdian	Old sogdian letter final nun with vertical tail		
+U+10F11	𐼑	10F00..10F2F	Old Sogdian	Old sogdian letter samekh		
+U+10F12	𐼒	10F00..10F2F	Old Sogdian	Old sogdian letter ayin		
+U+10F13	𐼓	10F00..10F2F	Old Sogdian	Old sogdian letter alternate ayin		
+U+10F14	𐼔	10F00..10F2F	Old Sogdian	Old sogdian letter pe		
+U+10F15	𐼕	10F00..10F2F	Old Sogdian	Old sogdian letter sadhe		
+U+10F16	𐼖	10F00..10F2F	Old Sogdian	Old sogdian letter final sadhe		
+U+10F17	𐼗	10F00..10F2F	Old Sogdian	Old sogdian letter final sadhe with vertical tail		
+U+10F18	𐼘	10F00..10F2F	Old Sogdian	Old sogdian letter resh-ayin-daleth		
+U+10F19	𐼙	10F00..10F2F	Old Sogdian	Old sogdian letter shin		
+U+10F1A	𐼚	10F00..10F2F	Old Sogdian	Old sogdian letter taw		
+U+10F1B	𐼛	10F00..10F2F	Old Sogdian	Old sogdian letter final taw		
+U+10F1C	𐼜	10F00..10F2F	Old Sogdian	Old sogdian letter final taw with vertical tail		
+U+10F1D	𐼝	10F00..10F2F	Old Sogdian	Old sogdian number one		
+U+10F1E	𐼞	10F00..10F2F	Old Sogdian	Old sogdian number two		
+U+10F1F	𐼟	10F00..10F2F	Old Sogdian	Old sogdian number three		
+U+10F20	𐼠	10F00..10F2F	Old Sogdian	Old sogdian number four		
+U+10F21	𐼡	10F00..10F2F	Old Sogdian	Old sogdian number five		
+U+10F22	𐼢	10F00..10F2F	Old Sogdian	Old sogdian number ten		
+U+10F23	𐼣	10F00..10F2F	Old Sogdian	Old sogdian number twenty		
+U+10F24	𐼤	10F00..10F2F	Old Sogdian	Old sogdian number thirty		
+U+10F25	𐼥	10F00..10F2F	Old Sogdian	Old sogdian number one hundred		
+U+10F26	𐼦	10F00..10F2F	Old Sogdian	Old sogdian fraction one half		
+U+10F27	𐼧	10F00..10F2F	Old Sogdian	Old sogdian ligature ayin-daleth		

@@ -1,113 +1,113 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0300	"""̀"""	0300..036F	Combining Diacritical Marks	Combining grave accent		
-0301	"""́"""	0300..036F	Combining Diacritical Marks	Combining acute accent		
-0302	"""̂"""	0300..036F	Combining Diacritical Marks	Combining circumflex accent		
-0303	"""̃"""	0300..036F	Combining Diacritical Marks	Combining tilde		
-0304	"""̄"""	0300..036F	Combining Diacritical Marks	Combining macron		
-0305	"""̅"""	0300..036F	Combining Diacritical Marks	Combining overline		
-0306	"""̆"""	0300..036F	Combining Diacritical Marks	Combining breve		
-0307	"""̇"""	0300..036F	Combining Diacritical Marks	Combining dot above		
-0308	"""̈"""	0300..036F	Combining Diacritical Marks	Combining diaeresis		
-0309	"""̉"""	0300..036F	Combining Diacritical Marks	Combining hook above		
-030A	"""̊"""	0300..036F	Combining Diacritical Marks	Combining ring above		
-030B	"""̋"""	0300..036F	Combining Diacritical Marks	Combining double acute accent		
-030C	"""̌"""	0300..036F	Combining Diacritical Marks	Combining caron		
-030D	"""̍"""	0300..036F	Combining Diacritical Marks	Combining vertical line above		
-030E	"""̎"""	0300..036F	Combining Diacritical Marks	Combining double vertical line above		
-030F	"""̏"""	0300..036F	Combining Diacritical Marks	Combining double grave accent		
-0310	"""̐"""	0300..036F	Combining Diacritical Marks	Combining candrabindu		
-0311	"""̑"""	0300..036F	Combining Diacritical Marks	Combining inverted breve		
-0312	"""̒"""	0300..036F	Combining Diacritical Marks	Combining turned comma above		
-0313	"""̓"""	0300..036F	Combining Diacritical Marks	Combining comma above		
-0314	"""̔"""	0300..036F	Combining Diacritical Marks	Combining reversed comma above		
-0315	"""̕"""	0300..036F	Combining Diacritical Marks	Combining comma above right		
-0316	"""̖"""	0300..036F	Combining Diacritical Marks	Combining grave accent below		
-0317	"""̗"""	0300..036F	Combining Diacritical Marks	Combining acute accent below		
-0318	"""̘"""	0300..036F	Combining Diacritical Marks	Combining left tack below		
-0319	"""̙"""	0300..036F	Combining Diacritical Marks	Combining right tack below		
-031A	"""̚"""	0300..036F	Combining Diacritical Marks	Combining left angle above		
-031B	"""̛"""	0300..036F	Combining Diacritical Marks	Combining horn		
-031C	"""̜"""	0300..036F	Combining Diacritical Marks	Combining left half ring below		
-031D	"""̝"""	0300..036F	Combining Diacritical Marks	Combining up tack below		
-031E	"""̞"""	0300..036F	Combining Diacritical Marks	Combining down tack below		
-031F	"""̟"""	0300..036F	Combining Diacritical Marks	Combining plus sign below		
-0320	"""̠"""	0300..036F	Combining Diacritical Marks	Combining minus sign below		
-0321	"""̡"""	0300..036F	Combining Diacritical Marks	Combining palatalized hook below		
-0322	"""̢"""	0300..036F	Combining Diacritical Marks	Combining retroflex hook below		
-0323	"""̣"""	0300..036F	Combining Diacritical Marks	Combining dot below		
-0324	"""̤"""	0300..036F	Combining Diacritical Marks	Combining diaeresis below		
-0325	"""̥"""	0300..036F	Combining Diacritical Marks	Combining ring below		
-0326	"""̦"""	0300..036F	Combining Diacritical Marks	Combining comma below		
-0327	"""̧"""	0300..036F	Combining Diacritical Marks	Combining cedilla		
-0328	"""̨"""	0300..036F	Combining Diacritical Marks	Combining ogonek		
-0329	"""̩"""	0300..036F	Combining Diacritical Marks	Combining vertical line below		
-032A	"""̪"""	0300..036F	Combining Diacritical Marks	Combining bridge below		
-032B	"""̫"""	0300..036F	Combining Diacritical Marks	Combining inverted double arch below		
-032C	"""̬"""	0300..036F	Combining Diacritical Marks	Combining caron below		
-032D	"""̭"""	0300..036F	Combining Diacritical Marks	Combining circumflex accent below		
-032E	"""̮"""	0300..036F	Combining Diacritical Marks	Combining breve below		
-032F	"""̯"""	0300..036F	Combining Diacritical Marks	Combining inverted breve below		
-0330	"""̰"""	0300..036F	Combining Diacritical Marks	Combining tilde below		
-0331	"""̱"""	0300..036F	Combining Diacritical Marks	Combining macron below		
-0332	"""̲"""	0300..036F	Combining Diacritical Marks	Combining low line		
-0333	"""̳"""	0300..036F	Combining Diacritical Marks	Combining double low line		
-0334	"""̴"""	0300..036F	Combining Diacritical Marks	Combining tilde overlay		
-0335	"""̵"""	0300..036F	Combining Diacritical Marks	Combining short stroke overlay		
-0336	"""̶"""	0300..036F	Combining Diacritical Marks	Combining long stroke overlay		
-0337	"""̷"""	0300..036F	Combining Diacritical Marks	Combining short solidus overlay		
-0338	"""̸"""	0300..036F	Combining Diacritical Marks	Combining long solidus overlay		
-0339	"""̹"""	0300..036F	Combining Diacritical Marks	Combining right half ring below		
-033A	"""̺"""	0300..036F	Combining Diacritical Marks	Combining inverted bridge below		
-033B	"""̻"""	0300..036F	Combining Diacritical Marks	Combining square below		
-033C	"""̼"""	0300..036F	Combining Diacritical Marks	Combining seagull below		
-033D	"""̽"""	0300..036F	Combining Diacritical Marks	Combining x above		
-033E	"""̾"""	0300..036F	Combining Diacritical Marks	Combining vertical tilde		
-033F	"""̿"""	0300..036F	Combining Diacritical Marks	Combining double overline		
-0340	"""̀"""	0300..036F	Combining Diacritical Marks	Combining grave tone mark		
-0341	"""́"""	0300..036F	Combining Diacritical Marks	Combining acute tone mark		
-0342	"""͂"""	0300..036F	Combining Diacritical Marks	Combining greek perispomeni		
-0343	"""̓"""	0300..036F	Combining Diacritical Marks	Combining greek koronis		
-0344	"""̈́"""	0300..036F	Combining Diacritical Marks	Combining greek dialytika tonos		
-0345	"""ͅ"""	0300..036F	Combining Diacritical Marks	Combining greek ypogegrammeni		
-0346	"""͆"""	0300..036F	Combining Diacritical Marks	Combining bridge above		
-0347	"""͇"""	0300..036F	Combining Diacritical Marks	Combining equals sign below		
-0348	"""͈"""	0300..036F	Combining Diacritical Marks	Combining double vertical line below		
-0349	"""͉"""	0300..036F	Combining Diacritical Marks	Combining left angle below		
-034A	"""͊"""	0300..036F	Combining Diacritical Marks	Combining not tilde above		
-034B	"""͋"""	0300..036F	Combining Diacritical Marks	Combining homothetic above		
-034C	"""͌"""	0300..036F	Combining Diacritical Marks	Combining almost equal to above		
-034D	"""͍"""	0300..036F	Combining Diacritical Marks	Combining left right arrow below		
-034E	"""͎"""	0300..036F	Combining Diacritical Marks	Combining upwards arrow below		
-034F	"""͏"""	0300..036F	Combining Diacritical Marks	Combining grapheme joiner		
-0350	"""͐"""	0300..036F	Combining Diacritical Marks	Combining right arrowhead above		
-0351	"""͑"""	0300..036F	Combining Diacritical Marks	Combining left half ring above		
-0352	"""͒"""	0300..036F	Combining Diacritical Marks	Combining fermata		
-0353	"""͓"""	0300..036F	Combining Diacritical Marks	Combining x below		
-0354	"""͔"""	0300..036F	Combining Diacritical Marks	Combining left arrowhead below		
-0355	"""͕"""	0300..036F	Combining Diacritical Marks	Combining right arrowhead below		
-0356	"""͖"""	0300..036F	Combining Diacritical Marks	Combining right arrowhead and up arrowhead below		
-0357	"""͗"""	0300..036F	Combining Diacritical Marks	Combining right half ring above		
-0358	"""͘"""	0300..036F	Combining Diacritical Marks	Combining dot above right		
-0359	"""͙"""	0300..036F	Combining Diacritical Marks	Combining asterisk below		
-035A	"""͚"""	0300..036F	Combining Diacritical Marks	Combining double ring below		
-035B	"""͛"""	0300..036F	Combining Diacritical Marks	Combining zigzag above		
-035C	"""͜"""	0300..036F	Combining Diacritical Marks	Combining double breve below		
-035D	"""͝"""	0300..036F	Combining Diacritical Marks	Combining double breve		
-035E	"""͞"""	0300..036F	Combining Diacritical Marks	Combining double macron		
-035F	"""͟"""	0300..036F	Combining Diacritical Marks	Combining double macron below		
-0360	"""͠"""	0300..036F	Combining Diacritical Marks	Combining double tilde		
-0361	"""͡"""	0300..036F	Combining Diacritical Marks	Combining double inverted breve		
-0362	"""͢"""	0300..036F	Combining Diacritical Marks	Combining double rightwards arrow below		
-0363	"""ͣ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter a		
-0364	"""ͤ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter e		
-0365	"""ͥ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter i		
-0366	"""ͦ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter o		
-0367	"""ͧ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter u		
-0368	"""ͨ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter c		
-0369	"""ͩ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter d		
-036A	"""ͪ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter h		
-036B	"""ͫ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter m		
-036C	"""ͬ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter r		
-036D	"""ͭ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter t		
-036E	"""ͮ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter v		
-036F	"""ͯ"""	0300..036F	Combining Diacritical Marks	Combining latin small letter x		
+U+0300	̀	0300..036F	Combining Diacritical Marks	Combining grave accent		
+U+0301	́	0300..036F	Combining Diacritical Marks	Combining acute accent		
+U+0302	̂	0300..036F	Combining Diacritical Marks	Combining circumflex accent		
+U+0303	̃	0300..036F	Combining Diacritical Marks	Combining tilde		
+U+0304	̄	0300..036F	Combining Diacritical Marks	Combining macron		
+U+0305	̅	0300..036F	Combining Diacritical Marks	Combining overline		
+U+0306	̆	0300..036F	Combining Diacritical Marks	Combining breve		
+U+0307	̇	0300..036F	Combining Diacritical Marks	Combining dot above		
+U+0308	̈	0300..036F	Combining Diacritical Marks	Combining diaeresis		
+U+0309	̉	0300..036F	Combining Diacritical Marks	Combining hook above		
+U+030A	̊	0300..036F	Combining Diacritical Marks	Combining ring above		
+U+030B	̋	0300..036F	Combining Diacritical Marks	Combining double acute accent		
+U+030C	̌	0300..036F	Combining Diacritical Marks	Combining caron		
+U+030D	̍	0300..036F	Combining Diacritical Marks	Combining vertical line above		
+U+030E	̎	0300..036F	Combining Diacritical Marks	Combining double vertical line above		
+U+030F	̏	0300..036F	Combining Diacritical Marks	Combining double grave accent		
+U+0310	̐	0300..036F	Combining Diacritical Marks	Combining candrabindu		
+U+0311	̑	0300..036F	Combining Diacritical Marks	Combining inverted breve		
+U+0312	̒	0300..036F	Combining Diacritical Marks	Combining turned comma above		
+U+0313	̓	0300..036F	Combining Diacritical Marks	Combining comma above		
+U+0314	̔	0300..036F	Combining Diacritical Marks	Combining reversed comma above		
+U+0315	̕	0300..036F	Combining Diacritical Marks	Combining comma above right		
+U+0316	̖	0300..036F	Combining Diacritical Marks	Combining grave accent below		
+U+0317	̗	0300..036F	Combining Diacritical Marks	Combining acute accent below		
+U+0318	̘	0300..036F	Combining Diacritical Marks	Combining left tack below		
+U+0319	̙	0300..036F	Combining Diacritical Marks	Combining right tack below		
+U+031A	̚	0300..036F	Combining Diacritical Marks	Combining left angle above		
+U+031B	̛	0300..036F	Combining Diacritical Marks	Combining horn		
+U+031C	̜	0300..036F	Combining Diacritical Marks	Combining left half ring below		
+U+031D	̝	0300..036F	Combining Diacritical Marks	Combining up tack below		
+U+031E	̞	0300..036F	Combining Diacritical Marks	Combining down tack below		
+U+031F	̟	0300..036F	Combining Diacritical Marks	Combining plus sign below		
+U+0320	̠	0300..036F	Combining Diacritical Marks	Combining minus sign below		
+U+0321	̡	0300..036F	Combining Diacritical Marks	Combining palatalized hook below		
+U+0322	̢	0300..036F	Combining Diacritical Marks	Combining retroflex hook below		
+U+0323	̣	0300..036F	Combining Diacritical Marks	Combining dot below		
+U+0324	̤	0300..036F	Combining Diacritical Marks	Combining diaeresis below		
+U+0325	̥	0300..036F	Combining Diacritical Marks	Combining ring below		
+U+0326	̦	0300..036F	Combining Diacritical Marks	Combining comma below		
+U+0327	̧	0300..036F	Combining Diacritical Marks	Combining cedilla		
+U+0328	̨	0300..036F	Combining Diacritical Marks	Combining ogonek		
+U+0329	̩	0300..036F	Combining Diacritical Marks	Combining vertical line below		
+U+032A	̪	0300..036F	Combining Diacritical Marks	Combining bridge below		
+U+032B	̫	0300..036F	Combining Diacritical Marks	Combining inverted double arch below		
+U+032C	̬	0300..036F	Combining Diacritical Marks	Combining caron below		
+U+032D	̭	0300..036F	Combining Diacritical Marks	Combining circumflex accent below		
+U+032E	̮	0300..036F	Combining Diacritical Marks	Combining breve below		
+U+032F	̯	0300..036F	Combining Diacritical Marks	Combining inverted breve below		
+U+0330	̰	0300..036F	Combining Diacritical Marks	Combining tilde below		
+U+0331	̱	0300..036F	Combining Diacritical Marks	Combining macron below		
+U+0332	̲	0300..036F	Combining Diacritical Marks	Combining low line		
+U+0333	̳	0300..036F	Combining Diacritical Marks	Combining double low line		
+U+0334	̴	0300..036F	Combining Diacritical Marks	Combining tilde overlay		
+U+0335	̵	0300..036F	Combining Diacritical Marks	Combining short stroke overlay		
+U+0336	̶	0300..036F	Combining Diacritical Marks	Combining long stroke overlay		
+U+0337	̷	0300..036F	Combining Diacritical Marks	Combining short solidus overlay		
+U+0338	̸	0300..036F	Combining Diacritical Marks	Combining long solidus overlay		
+U+0339	̹	0300..036F	Combining Diacritical Marks	Combining right half ring below		
+U+033A	̺	0300..036F	Combining Diacritical Marks	Combining inverted bridge below		
+U+033B	̻	0300..036F	Combining Diacritical Marks	Combining square below		
+U+033C	̼	0300..036F	Combining Diacritical Marks	Combining seagull below		
+U+033D	̽	0300..036F	Combining Diacritical Marks	Combining x above		
+U+033E	̾	0300..036F	Combining Diacritical Marks	Combining vertical tilde		
+U+033F	̿	0300..036F	Combining Diacritical Marks	Combining double overline		
+U+0340	̀	0300..036F	Combining Diacritical Marks	Combining grave tone mark		
+U+0341	́	0300..036F	Combining Diacritical Marks	Combining acute tone mark		
+U+0342	͂	0300..036F	Combining Diacritical Marks	Combining greek perispomeni		
+U+0343	̓	0300..036F	Combining Diacritical Marks	Combining greek koronis		
+U+0344	̈́	0300..036F	Combining Diacritical Marks	Combining greek dialytika tonos		
+U+0345	ͅ	0300..036F	Combining Diacritical Marks	Combining greek ypogegrammeni		
+U+0346	͆	0300..036F	Combining Diacritical Marks	Combining bridge above		
+U+0347	͇	0300..036F	Combining Diacritical Marks	Combining equals sign below		
+U+0348	͈	0300..036F	Combining Diacritical Marks	Combining double vertical line below		
+U+0349	͉	0300..036F	Combining Diacritical Marks	Combining left angle below		
+U+034A	͊	0300..036F	Combining Diacritical Marks	Combining not tilde above		
+U+034B	͋	0300..036F	Combining Diacritical Marks	Combining homothetic above		
+U+034C	͌	0300..036F	Combining Diacritical Marks	Combining almost equal to above		
+U+034D	͍	0300..036F	Combining Diacritical Marks	Combining left right arrow below		
+U+034E	͎	0300..036F	Combining Diacritical Marks	Combining upwards arrow below		
+U+034F	͏	0300..036F	Combining Diacritical Marks	Combining grapheme joiner		
+U+0350	͐	0300..036F	Combining Diacritical Marks	Combining right arrowhead above		
+U+0351	͑	0300..036F	Combining Diacritical Marks	Combining left half ring above		
+U+0352	͒	0300..036F	Combining Diacritical Marks	Combining fermata		
+U+0353	͓	0300..036F	Combining Diacritical Marks	Combining x below		
+U+0354	͔	0300..036F	Combining Diacritical Marks	Combining left arrowhead below		
+U+0355	͕	0300..036F	Combining Diacritical Marks	Combining right arrowhead below		
+U+0356	͖	0300..036F	Combining Diacritical Marks	Combining right arrowhead and up arrowhead below		
+U+0357	͗	0300..036F	Combining Diacritical Marks	Combining right half ring above		
+U+0358	͘	0300..036F	Combining Diacritical Marks	Combining dot above right		
+U+0359	͙	0300..036F	Combining Diacritical Marks	Combining asterisk below		
+U+035A	͚	0300..036F	Combining Diacritical Marks	Combining double ring below		
+U+035B	͛	0300..036F	Combining Diacritical Marks	Combining zigzag above		
+U+035C	͜	0300..036F	Combining Diacritical Marks	Combining double breve below		
+U+035D	͝	0300..036F	Combining Diacritical Marks	Combining double breve		
+U+035E	͞	0300..036F	Combining Diacritical Marks	Combining double macron		
+U+035F	͟	0300..036F	Combining Diacritical Marks	Combining double macron below		
+U+0360	͠	0300..036F	Combining Diacritical Marks	Combining double tilde		
+U+0361	͡	0300..036F	Combining Diacritical Marks	Combining double inverted breve		
+U+0362	͢	0300..036F	Combining Diacritical Marks	Combining double rightwards arrow below		
+U+0363	ͣ	0300..036F	Combining Diacritical Marks	Combining latin small letter a		
+U+0364	ͤ	0300..036F	Combining Diacritical Marks	Combining latin small letter e		
+U+0365	ͥ	0300..036F	Combining Diacritical Marks	Combining latin small letter i		
+U+0366	ͦ	0300..036F	Combining Diacritical Marks	Combining latin small letter o		
+U+0367	ͧ	0300..036F	Combining Diacritical Marks	Combining latin small letter u		
+U+0368	ͨ	0300..036F	Combining Diacritical Marks	Combining latin small letter c		
+U+0369	ͩ	0300..036F	Combining Diacritical Marks	Combining latin small letter d		
+U+036A	ͪ	0300..036F	Combining Diacritical Marks	Combining latin small letter h		
+U+036B	ͫ	0300..036F	Combining Diacritical Marks	Combining latin small letter m		
+U+036C	ͬ	0300..036F	Combining Diacritical Marks	Combining latin small letter r		
+U+036D	ͭ	0300..036F	Combining Diacritical Marks	Combining latin small letter t		
+U+036E	ͮ	0300..036F	Combining Diacritical Marks	Combining latin small letter v		
+U+036F	ͯ	0300..036F	Combining Diacritical Marks	Combining latin small letter x		

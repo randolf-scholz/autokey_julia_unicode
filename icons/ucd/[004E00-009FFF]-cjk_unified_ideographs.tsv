@@ -1,3 +1,3 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-4E00	"""一"""	4E00..9FFF	CJK Unified Ideographs	<cjk ideograph, first>		
-9FFF	"""鿿"""	4E00..9FFF	CJK Unified Ideographs	<cjk ideograph, last>		
+U+4E00	一	4E00..9FFF	CJK Unified Ideographs	<cjk ideograph, first>		
+U+9FFF	鿿	4E00..9FFF	CJK Unified Ideographs	<cjk ideograph, last>		

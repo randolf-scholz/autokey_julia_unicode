@@ -1,84 +1,84 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1980	"""ᦀ"""	1980..19DF	New Tai Lue	New tai lue letter high qa		
-1981	"""ᦁ"""	1980..19DF	New Tai Lue	New tai lue letter low qa		
-1982	"""ᦂ"""	1980..19DF	New Tai Lue	New tai lue letter high ka		
-1983	"""ᦃ"""	1980..19DF	New Tai Lue	New tai lue letter high xa		
-1984	"""ᦄ"""	1980..19DF	New Tai Lue	New tai lue letter high nga		
-1985	"""ᦅ"""	1980..19DF	New Tai Lue	New tai lue letter low ka		
-1986	"""ᦆ"""	1980..19DF	New Tai Lue	New tai lue letter low xa		
-1987	"""ᦇ"""	1980..19DF	New Tai Lue	New tai lue letter low nga		
-1988	"""ᦈ"""	1980..19DF	New Tai Lue	New tai lue letter high tsa		
-1989	"""ᦉ"""	1980..19DF	New Tai Lue	New tai lue letter high sa		
-198A	"""ᦊ"""	1980..19DF	New Tai Lue	New tai lue letter high ya		
-198B	"""ᦋ"""	1980..19DF	New Tai Lue	New tai lue letter low tsa		
-198C	"""ᦌ"""	1980..19DF	New Tai Lue	New tai lue letter low sa		
-198D	"""ᦍ"""	1980..19DF	New Tai Lue	New tai lue letter low ya		
-198E	"""ᦎ"""	1980..19DF	New Tai Lue	New tai lue letter high ta		
-198F	"""ᦏ"""	1980..19DF	New Tai Lue	New tai lue letter high tha		
-1990	"""ᦐ"""	1980..19DF	New Tai Lue	New tai lue letter high na		
-1991	"""ᦑ"""	1980..19DF	New Tai Lue	New tai lue letter low ta		
-1992	"""ᦒ"""	1980..19DF	New Tai Lue	New tai lue letter low tha		
-1993	"""ᦓ"""	1980..19DF	New Tai Lue	New tai lue letter low na		
-1994	"""ᦔ"""	1980..19DF	New Tai Lue	New tai lue letter high pa		
-1995	"""ᦕ"""	1980..19DF	New Tai Lue	New tai lue letter high pha		
-1996	"""ᦖ"""	1980..19DF	New Tai Lue	New tai lue letter high ma		
-1997	"""ᦗ"""	1980..19DF	New Tai Lue	New tai lue letter low pa		
-1998	"""ᦘ"""	1980..19DF	New Tai Lue	New tai lue letter low pha		
-1999	"""ᦙ"""	1980..19DF	New Tai Lue	New tai lue letter low ma		
-199A	"""ᦚ"""	1980..19DF	New Tai Lue	New tai lue letter high fa		
-199B	"""ᦛ"""	1980..19DF	New Tai Lue	New tai lue letter high va		
-199C	"""ᦜ"""	1980..19DF	New Tai Lue	New tai lue letter high la		
-199D	"""ᦝ"""	1980..19DF	New Tai Lue	New tai lue letter low fa		
-199E	"""ᦞ"""	1980..19DF	New Tai Lue	New tai lue letter low va		
-199F	"""ᦟ"""	1980..19DF	New Tai Lue	New tai lue letter low la		
-19A0	"""ᦠ"""	1980..19DF	New Tai Lue	New tai lue letter high ha		
-19A1	"""ᦡ"""	1980..19DF	New Tai Lue	New tai lue letter high da		
-19A2	"""ᦢ"""	1980..19DF	New Tai Lue	New tai lue letter high ba		
-19A3	"""ᦣ"""	1980..19DF	New Tai Lue	New tai lue letter low ha		
-19A4	"""ᦤ"""	1980..19DF	New Tai Lue	New tai lue letter low da		
-19A5	"""ᦥ"""	1980..19DF	New Tai Lue	New tai lue letter low ba		
-19A6	"""ᦦ"""	1980..19DF	New Tai Lue	New tai lue letter high kva		
-19A7	"""ᦧ"""	1980..19DF	New Tai Lue	New tai lue letter high xva		
-19A8	"""ᦨ"""	1980..19DF	New Tai Lue	New tai lue letter low kva		
-19A9	"""ᦩ"""	1980..19DF	New Tai Lue	New tai lue letter low xva		
-19AA	"""ᦪ"""	1980..19DF	New Tai Lue	New tai lue letter high sua		
-19AB	"""ᦫ"""	1980..19DF	New Tai Lue	New tai lue letter low sua		
-19B0	"""ᦰ"""	1980..19DF	New Tai Lue	New tai lue vowel sign vowel shortener		
-19B1	"""ᦱ"""	1980..19DF	New Tai Lue	New tai lue vowel sign aa		
-19B2	"""ᦲ"""	1980..19DF	New Tai Lue	New tai lue vowel sign ii		
-19B3	"""ᦳ"""	1980..19DF	New Tai Lue	New tai lue vowel sign u		
-19B4	"""ᦴ"""	1980..19DF	New Tai Lue	New tai lue vowel sign uu		
-19B5	"""ᦵ"""	1980..19DF	New Tai Lue	New tai lue vowel sign e		
-19B6	"""ᦶ"""	1980..19DF	New Tai Lue	New tai lue vowel sign ae		
-19B7	"""ᦷ"""	1980..19DF	New Tai Lue	New tai lue vowel sign o		
-19B8	"""ᦸ"""	1980..19DF	New Tai Lue	New tai lue vowel sign oa		
-19B9	"""ᦹ"""	1980..19DF	New Tai Lue	New tai lue vowel sign ue		
-19BA	"""ᦺ"""	1980..19DF	New Tai Lue	New tai lue vowel sign ay		
-19BB	"""ᦻ"""	1980..19DF	New Tai Lue	New tai lue vowel sign aay		
-19BC	"""ᦼ"""	1980..19DF	New Tai Lue	New tai lue vowel sign uy		
-19BD	"""ᦽ"""	1980..19DF	New Tai Lue	New tai lue vowel sign oy		
-19BE	"""ᦾ"""	1980..19DF	New Tai Lue	New tai lue vowel sign oay		
-19BF	"""ᦿ"""	1980..19DF	New Tai Lue	New tai lue vowel sign uey		
-19C0	"""ᧀ"""	1980..19DF	New Tai Lue	New tai lue vowel sign iy		
-19C1	"""ᧁ"""	1980..19DF	New Tai Lue	New tai lue letter final v		
-19C2	"""ᧂ"""	1980..19DF	New Tai Lue	New tai lue letter final ng		
-19C3	"""ᧃ"""	1980..19DF	New Tai Lue	New tai lue letter final n		
-19C4	"""ᧄ"""	1980..19DF	New Tai Lue	New tai lue letter final m		
-19C5	"""ᧅ"""	1980..19DF	New Tai Lue	New tai lue letter final k		
-19C6	"""ᧆ"""	1980..19DF	New Tai Lue	New tai lue letter final d		
-19C7	"""ᧇ"""	1980..19DF	New Tai Lue	New tai lue letter final b		
-19C8	"""ᧈ"""	1980..19DF	New Tai Lue	New tai lue tone mark-1		
-19C9	"""ᧉ"""	1980..19DF	New Tai Lue	New tai lue tone mark-2		
-19D0	"""᧐"""	1980..19DF	New Tai Lue	New tai lue digit zero		
-19D1	"""᧑"""	1980..19DF	New Tai Lue	New tai lue digit one		
-19D2	"""᧒"""	1980..19DF	New Tai Lue	New tai lue digit two		
-19D3	"""᧓"""	1980..19DF	New Tai Lue	New tai lue digit three		
-19D4	"""᧔"""	1980..19DF	New Tai Lue	New tai lue digit four		
-19D5	"""᧕"""	1980..19DF	New Tai Lue	New tai lue digit five		
-19D6	"""᧖"""	1980..19DF	New Tai Lue	New tai lue digit six		
-19D7	"""᧗"""	1980..19DF	New Tai Lue	New tai lue digit seven		
-19D8	"""᧘"""	1980..19DF	New Tai Lue	New tai lue digit eight		
-19D9	"""᧙"""	1980..19DF	New Tai Lue	New tai lue digit nine		
-19DA	"""᧚"""	1980..19DF	New Tai Lue	New tai lue tham digit one		
-19DE	"""᧞"""	1980..19DF	New Tai Lue	New tai lue sign lae		
-19DF	"""᧟"""	1980..19DF	New Tai Lue	New tai lue sign laev		
+U+1980	ᦀ	1980..19DF	New Tai Lue	New tai lue letter high qa		
+U+1981	ᦁ	1980..19DF	New Tai Lue	New tai lue letter low qa		
+U+1982	ᦂ	1980..19DF	New Tai Lue	New tai lue letter high ka		
+U+1983	ᦃ	1980..19DF	New Tai Lue	New tai lue letter high xa		
+U+1984	ᦄ	1980..19DF	New Tai Lue	New tai lue letter high nga		
+U+1985	ᦅ	1980..19DF	New Tai Lue	New tai lue letter low ka		
+U+1986	ᦆ	1980..19DF	New Tai Lue	New tai lue letter low xa		
+U+1987	ᦇ	1980..19DF	New Tai Lue	New tai lue letter low nga		
+U+1988	ᦈ	1980..19DF	New Tai Lue	New tai lue letter high tsa		
+U+1989	ᦉ	1980..19DF	New Tai Lue	New tai lue letter high sa		
+U+198A	ᦊ	1980..19DF	New Tai Lue	New tai lue letter high ya		
+U+198B	ᦋ	1980..19DF	New Tai Lue	New tai lue letter low tsa		
+U+198C	ᦌ	1980..19DF	New Tai Lue	New tai lue letter low sa		
+U+198D	ᦍ	1980..19DF	New Tai Lue	New tai lue letter low ya		
+U+198E	ᦎ	1980..19DF	New Tai Lue	New tai lue letter high ta		
+U+198F	ᦏ	1980..19DF	New Tai Lue	New tai lue letter high tha		
+U+1990	ᦐ	1980..19DF	New Tai Lue	New tai lue letter high na		
+U+1991	ᦑ	1980..19DF	New Tai Lue	New tai lue letter low ta		
+U+1992	ᦒ	1980..19DF	New Tai Lue	New tai lue letter low tha		
+U+1993	ᦓ	1980..19DF	New Tai Lue	New tai lue letter low na		
+U+1994	ᦔ	1980..19DF	New Tai Lue	New tai lue letter high pa		
+U+1995	ᦕ	1980..19DF	New Tai Lue	New tai lue letter high pha		
+U+1996	ᦖ	1980..19DF	New Tai Lue	New tai lue letter high ma		
+U+1997	ᦗ	1980..19DF	New Tai Lue	New tai lue letter low pa		
+U+1998	ᦘ	1980..19DF	New Tai Lue	New tai lue letter low pha		
+U+1999	ᦙ	1980..19DF	New Tai Lue	New tai lue letter low ma		
+U+199A	ᦚ	1980..19DF	New Tai Lue	New tai lue letter high fa		
+U+199B	ᦛ	1980..19DF	New Tai Lue	New tai lue letter high va		
+U+199C	ᦜ	1980..19DF	New Tai Lue	New tai lue letter high la		
+U+199D	ᦝ	1980..19DF	New Tai Lue	New tai lue letter low fa		
+U+199E	ᦞ	1980..19DF	New Tai Lue	New tai lue letter low va		
+U+199F	ᦟ	1980..19DF	New Tai Lue	New tai lue letter low la		
+U+19A0	ᦠ	1980..19DF	New Tai Lue	New tai lue letter high ha		
+U+19A1	ᦡ	1980..19DF	New Tai Lue	New tai lue letter high da		
+U+19A2	ᦢ	1980..19DF	New Tai Lue	New tai lue letter high ba		
+U+19A3	ᦣ	1980..19DF	New Tai Lue	New tai lue letter low ha		
+U+19A4	ᦤ	1980..19DF	New Tai Lue	New tai lue letter low da		
+U+19A5	ᦥ	1980..19DF	New Tai Lue	New tai lue letter low ba		
+U+19A6	ᦦ	1980..19DF	New Tai Lue	New tai lue letter high kva		
+U+19A7	ᦧ	1980..19DF	New Tai Lue	New tai lue letter high xva		
+U+19A8	ᦨ	1980..19DF	New Tai Lue	New tai lue letter low kva		
+U+19A9	ᦩ	1980..19DF	New Tai Lue	New tai lue letter low xva		
+U+19AA	ᦪ	1980..19DF	New Tai Lue	New tai lue letter high sua		
+U+19AB	ᦫ	1980..19DF	New Tai Lue	New tai lue letter low sua		
+U+19B0	ᦰ	1980..19DF	New Tai Lue	New tai lue vowel sign vowel shortener		
+U+19B1	ᦱ	1980..19DF	New Tai Lue	New tai lue vowel sign aa		
+U+19B2	ᦲ	1980..19DF	New Tai Lue	New tai lue vowel sign ii		
+U+19B3	ᦳ	1980..19DF	New Tai Lue	New tai lue vowel sign u		
+U+19B4	ᦴ	1980..19DF	New Tai Lue	New tai lue vowel sign uu		
+U+19B5	ᦵ	1980..19DF	New Tai Lue	New tai lue vowel sign e		
+U+19B6	ᦶ	1980..19DF	New Tai Lue	New tai lue vowel sign ae		
+U+19B7	ᦷ	1980..19DF	New Tai Lue	New tai lue vowel sign o		
+U+19B8	ᦸ	1980..19DF	New Tai Lue	New tai lue vowel sign oa		
+U+19B9	ᦹ	1980..19DF	New Tai Lue	New tai lue vowel sign ue		
+U+19BA	ᦺ	1980..19DF	New Tai Lue	New tai lue vowel sign ay		
+U+19BB	ᦻ	1980..19DF	New Tai Lue	New tai lue vowel sign aay		
+U+19BC	ᦼ	1980..19DF	New Tai Lue	New tai lue vowel sign uy		
+U+19BD	ᦽ	1980..19DF	New Tai Lue	New tai lue vowel sign oy		
+U+19BE	ᦾ	1980..19DF	New Tai Lue	New tai lue vowel sign oay		
+U+19BF	ᦿ	1980..19DF	New Tai Lue	New tai lue vowel sign uey		
+U+19C0	ᧀ	1980..19DF	New Tai Lue	New tai lue vowel sign iy		
+U+19C1	ᧁ	1980..19DF	New Tai Lue	New tai lue letter final v		
+U+19C2	ᧂ	1980..19DF	New Tai Lue	New tai lue letter final ng		
+U+19C3	ᧃ	1980..19DF	New Tai Lue	New tai lue letter final n		
+U+19C4	ᧄ	1980..19DF	New Tai Lue	New tai lue letter final m		
+U+19C5	ᧅ	1980..19DF	New Tai Lue	New tai lue letter final k		
+U+19C6	ᧆ	1980..19DF	New Tai Lue	New tai lue letter final d		
+U+19C7	ᧇ	1980..19DF	New Tai Lue	New tai lue letter final b		
+U+19C8	ᧈ	1980..19DF	New Tai Lue	New tai lue tone mark-1		
+U+19C9	ᧉ	1980..19DF	New Tai Lue	New tai lue tone mark-2		
+U+19D0	᧐	1980..19DF	New Tai Lue	New tai lue digit zero		
+U+19D1	᧑	1980..19DF	New Tai Lue	New tai lue digit one		
+U+19D2	᧒	1980..19DF	New Tai Lue	New tai lue digit two		
+U+19D3	᧓	1980..19DF	New Tai Lue	New tai lue digit three		
+U+19D4	᧔	1980..19DF	New Tai Lue	New tai lue digit four		
+U+19D5	᧕	1980..19DF	New Tai Lue	New tai lue digit five		
+U+19D6	᧖	1980..19DF	New Tai Lue	New tai lue digit six		
+U+19D7	᧗	1980..19DF	New Tai Lue	New tai lue digit seven		
+U+19D8	᧘	1980..19DF	New Tai Lue	New tai lue digit eight		
+U+19D9	᧙	1980..19DF	New Tai Lue	New tai lue digit nine		
+U+19DA	᧚	1980..19DF	New Tai Lue	New tai lue tham digit one		
+U+19DE	᧞	1980..19DF	New Tai Lue	New tai lue sign lae		
+U+19DF	᧟	1980..19DF	New Tai Lue	New tai lue sign laev		

@@ -1,97 +1,97 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-25A0	"""■"""	25A0..25FF	Geometric Shapes	Black square		
-25A1	"""□"""	25A0..25FF	Geometric Shapes	White square		
-25A2	"""▢"""	25A0..25FF	Geometric Shapes	White square with rounded corners		
-25A3	"""▣"""	25A0..25FF	Geometric Shapes	White square containing black small square		
-25A4	"""▤"""	25A0..25FF	Geometric Shapes	Square with horizontal fill		
-25A5	"""▥"""	25A0..25FF	Geometric Shapes	Square with vertical fill		
-25A6	"""▦"""	25A0..25FF	Geometric Shapes	Square with orthogonal crosshatch fill		
-25A7	"""▧"""	25A0..25FF	Geometric Shapes	Square with upper left to lower right fill		
-25A8	"""▨"""	25A0..25FF	Geometric Shapes	Square with upper right to lower left fill		
-25A9	"""▩"""	25A0..25FF	Geometric Shapes	Square with diagonal crosshatch fill		
-25AA	"""▪"""	25A0..25FF	Geometric Shapes	Black small square		
-25AB	"""▫"""	25A0..25FF	Geometric Shapes	White small square		
-25AC	"""▬"""	25A0..25FF	Geometric Shapes	Black rectangle		
-25AD	"""▭"""	25A0..25FF	Geometric Shapes	White rectangle		
-25AE	"""▮"""	25A0..25FF	Geometric Shapes	Black vertical rectangle		
-25AF	"""▯"""	25A0..25FF	Geometric Shapes	White vertical rectangle		
-25B0	"""▰"""	25A0..25FF	Geometric Shapes	Black parallelogram		
-25B1	"""▱"""	25A0..25FF	Geometric Shapes	White parallelogram		
-25B2	"""▲"""	25A0..25FF	Geometric Shapes	Black up-pointing triangle		
-25B3	"""△"""	25A0..25FF	Geometric Shapes	White up-pointing triangle		
-25B4	"""▴"""	25A0..25FF	Geometric Shapes	Black up-pointing small triangle		
-25B5	"""▵"""	25A0..25FF	Geometric Shapes	White up-pointing small triangle		
-25B6	"""▶"""	25A0..25FF	Geometric Shapes	Black right-pointing triangle		
-25B7	"""▷"""	25A0..25FF	Geometric Shapes	White right-pointing triangle		
-25B8	"""▸"""	25A0..25FF	Geometric Shapes	Black right-pointing small triangle		
-25B9	"""▹"""	25A0..25FF	Geometric Shapes	White right-pointing small triangle		
-25BA	"""►"""	25A0..25FF	Geometric Shapes	Black right-pointing pointer		
-25BB	"""▻"""	25A0..25FF	Geometric Shapes	White right-pointing pointer		
-25BC	"""▼"""	25A0..25FF	Geometric Shapes	Black down-pointing triangle		
-25BD	"""▽"""	25A0..25FF	Geometric Shapes	White down-pointing triangle		
-25BE	"""▾"""	25A0..25FF	Geometric Shapes	Black down-pointing small triangle		
-25BF	"""▿"""	25A0..25FF	Geometric Shapes	White down-pointing small triangle		
-25C0	"""◀"""	25A0..25FF	Geometric Shapes	Black left-pointing triangle		
-25C1	"""◁"""	25A0..25FF	Geometric Shapes	White left-pointing triangle		
-25C2	"""◂"""	25A0..25FF	Geometric Shapes	Black left-pointing small triangle		
-25C3	"""◃"""	25A0..25FF	Geometric Shapes	White left-pointing small triangle		
-25C4	"""◄"""	25A0..25FF	Geometric Shapes	Black left-pointing pointer		
-25C5	"""◅"""	25A0..25FF	Geometric Shapes	White left-pointing pointer		
-25C6	"""◆"""	25A0..25FF	Geometric Shapes	Black diamond		
-25C7	"""◇"""	25A0..25FF	Geometric Shapes	White diamond		
-25C8	"""◈"""	25A0..25FF	Geometric Shapes	White diamond containing black small diamond		
-25C9	"""◉"""	25A0..25FF	Geometric Shapes	Fisheye		
-25CA	"""◊"""	25A0..25FF	Geometric Shapes	Lozenge		
-25CB	"""○"""	25A0..25FF	Geometric Shapes	White circle		
-25CC	"""◌"""	25A0..25FF	Geometric Shapes	Dotted circle		
-25CD	"""◍"""	25A0..25FF	Geometric Shapes	Circle with vertical fill		
-25CE	"""◎"""	25A0..25FF	Geometric Shapes	Bullseye		
-25CF	"""●"""	25A0..25FF	Geometric Shapes	Black circle		
-25D0	"""◐"""	25A0..25FF	Geometric Shapes	Circle with left half black		
-25D1	"""◑"""	25A0..25FF	Geometric Shapes	Circle with right half black		
-25D2	"""◒"""	25A0..25FF	Geometric Shapes	Circle with lower half black		
-25D3	"""◓"""	25A0..25FF	Geometric Shapes	Circle with upper half black		
-25D4	"""◔"""	25A0..25FF	Geometric Shapes	Circle with upper right quadrant black		
-25D5	"""◕"""	25A0..25FF	Geometric Shapes	Circle with all but upper left quadrant black		
-25D6	"""◖"""	25A0..25FF	Geometric Shapes	Left half black circle		
-25D7	"""◗"""	25A0..25FF	Geometric Shapes	Right half black circle		
-25D8	"""◘"""	25A0..25FF	Geometric Shapes	Inverse bullet		
-25D9	"""◙"""	25A0..25FF	Geometric Shapes	Inverse white circle		
-25DA	"""◚"""	25A0..25FF	Geometric Shapes	Upper half inverse white circle		
-25DB	"""◛"""	25A0..25FF	Geometric Shapes	Lower half inverse white circle		
-25DC	"""◜"""	25A0..25FF	Geometric Shapes	Upper left quadrant circular arc		
-25DD	"""◝"""	25A0..25FF	Geometric Shapes	Upper right quadrant circular arc		
-25DE	"""◞"""	25A0..25FF	Geometric Shapes	Lower right quadrant circular arc		
-25DF	"""◟"""	25A0..25FF	Geometric Shapes	Lower left quadrant circular arc		
-25E0	"""◠"""	25A0..25FF	Geometric Shapes	Upper half circle		
-25E1	"""◡"""	25A0..25FF	Geometric Shapes	Lower half circle		
-25E2	"""◢"""	25A0..25FF	Geometric Shapes	Black lower right triangle		
-25E3	"""◣"""	25A0..25FF	Geometric Shapes	Black lower left triangle		
-25E4	"""◤"""	25A0..25FF	Geometric Shapes	Black upper left triangle		
-25E5	"""◥"""	25A0..25FF	Geometric Shapes	Black upper right triangle		
-25E6	"""◦"""	25A0..25FF	Geometric Shapes	White bullet		
-25E7	"""◧"""	25A0..25FF	Geometric Shapes	Square with left half black		
-25E8	"""◨"""	25A0..25FF	Geometric Shapes	Square with right half black		
-25E9	"""◩"""	25A0..25FF	Geometric Shapes	Square with upper left diagonal half black		
-25EA	"""◪"""	25A0..25FF	Geometric Shapes	Square with lower right diagonal half black		
-25EB	"""◫"""	25A0..25FF	Geometric Shapes	White square with vertical bisecting line		
-25EC	"""◬"""	25A0..25FF	Geometric Shapes	White up-pointing triangle with dot		
-25ED	"""◭"""	25A0..25FF	Geometric Shapes	Up-pointing triangle with left half black		
-25EE	"""◮"""	25A0..25FF	Geometric Shapes	Up-pointing triangle with right half black		
-25EF	"""◯"""	25A0..25FF	Geometric Shapes	Large circle		
-25F0	"""◰"""	25A0..25FF	Geometric Shapes	White square with upper left quadrant		
-25F1	"""◱"""	25A0..25FF	Geometric Shapes	White square with lower left quadrant		
-25F2	"""◲"""	25A0..25FF	Geometric Shapes	White square with lower right quadrant		
-25F3	"""◳"""	25A0..25FF	Geometric Shapes	White square with upper right quadrant		
-25F4	"""◴"""	25A0..25FF	Geometric Shapes	White circle with upper left quadrant		
-25F5	"""◵"""	25A0..25FF	Geometric Shapes	White circle with lower left quadrant		
-25F6	"""◶"""	25A0..25FF	Geometric Shapes	White circle with lower right quadrant		
-25F7	"""◷"""	25A0..25FF	Geometric Shapes	White circle with upper right quadrant		
-25F8	"""◸"""	25A0..25FF	Geometric Shapes	Upper left triangle		
-25F9	"""◹"""	25A0..25FF	Geometric Shapes	Upper right triangle		
-25FA	"""◺"""	25A0..25FF	Geometric Shapes	Lower left triangle		
-25FB	"""◻"""	25A0..25FF	Geometric Shapes	White medium square		
-25FC	"""◼"""	25A0..25FF	Geometric Shapes	Black medium square		
-25FD	"""◽"""	25A0..25FF	Geometric Shapes	White medium small square		
-25FE	"""◾"""	25A0..25FF	Geometric Shapes	Black medium small square		
-25FF	"""◿"""	25A0..25FF	Geometric Shapes	Lower right triangle		
+U+25A0	■	25A0..25FF	Geometric Shapes	Black square		
+U+25A1	□	25A0..25FF	Geometric Shapes	White square		
+U+25A2	▢	25A0..25FF	Geometric Shapes	White square with rounded corners		
+U+25A3	▣	25A0..25FF	Geometric Shapes	White square containing black small square		
+U+25A4	▤	25A0..25FF	Geometric Shapes	Square with horizontal fill		
+U+25A5	▥	25A0..25FF	Geometric Shapes	Square with vertical fill		
+U+25A6	▦	25A0..25FF	Geometric Shapes	Square with orthogonal crosshatch fill		
+U+25A7	▧	25A0..25FF	Geometric Shapes	Square with upper left to lower right fill		
+U+25A8	▨	25A0..25FF	Geometric Shapes	Square with upper right to lower left fill		
+U+25A9	▩	25A0..25FF	Geometric Shapes	Square with diagonal crosshatch fill		
+U+25AA	▪	25A0..25FF	Geometric Shapes	Black small square		
+U+25AB	▫	25A0..25FF	Geometric Shapes	White small square		
+U+25AC	▬	25A0..25FF	Geometric Shapes	Black rectangle		
+U+25AD	▭	25A0..25FF	Geometric Shapes	White rectangle		
+U+25AE	▮	25A0..25FF	Geometric Shapes	Black vertical rectangle		
+U+25AF	▯	25A0..25FF	Geometric Shapes	White vertical rectangle		
+U+25B0	▰	25A0..25FF	Geometric Shapes	Black parallelogram		
+U+25B1	▱	25A0..25FF	Geometric Shapes	White parallelogram		
+U+25B2	▲	25A0..25FF	Geometric Shapes	Black up-pointing triangle		
+U+25B3	△	25A0..25FF	Geometric Shapes	White up-pointing triangle		
+U+25B4	▴	25A0..25FF	Geometric Shapes	Black up-pointing small triangle		
+U+25B5	▵	25A0..25FF	Geometric Shapes	White up-pointing small triangle		
+U+25B6	▶	25A0..25FF	Geometric Shapes	Black right-pointing triangle		
+U+25B7	▷	25A0..25FF	Geometric Shapes	White right-pointing triangle		
+U+25B8	▸	25A0..25FF	Geometric Shapes	Black right-pointing small triangle		
+U+25B9	▹	25A0..25FF	Geometric Shapes	White right-pointing small triangle		
+U+25BA	►	25A0..25FF	Geometric Shapes	Black right-pointing pointer		
+U+25BB	▻	25A0..25FF	Geometric Shapes	White right-pointing pointer		
+U+25BC	▼	25A0..25FF	Geometric Shapes	Black down-pointing triangle		
+U+25BD	▽	25A0..25FF	Geometric Shapes	White down-pointing triangle		
+U+25BE	▾	25A0..25FF	Geometric Shapes	Black down-pointing small triangle		
+U+25BF	▿	25A0..25FF	Geometric Shapes	White down-pointing small triangle		
+U+25C0	◀	25A0..25FF	Geometric Shapes	Black left-pointing triangle		
+U+25C1	◁	25A0..25FF	Geometric Shapes	White left-pointing triangle		
+U+25C2	◂	25A0..25FF	Geometric Shapes	Black left-pointing small triangle		
+U+25C3	◃	25A0..25FF	Geometric Shapes	White left-pointing small triangle		
+U+25C4	◄	25A0..25FF	Geometric Shapes	Black left-pointing pointer		
+U+25C5	◅	25A0..25FF	Geometric Shapes	White left-pointing pointer		
+U+25C6	◆	25A0..25FF	Geometric Shapes	Black diamond		
+U+25C7	◇	25A0..25FF	Geometric Shapes	White diamond		
+U+25C8	◈	25A0..25FF	Geometric Shapes	White diamond containing black small diamond		
+U+25C9	◉	25A0..25FF	Geometric Shapes	Fisheye		
+U+25CA	◊	25A0..25FF	Geometric Shapes	Lozenge		
+U+25CB	○	25A0..25FF	Geometric Shapes	White circle		
+U+25CC	◌	25A0..25FF	Geometric Shapes	Dotted circle		
+U+25CD	◍	25A0..25FF	Geometric Shapes	Circle with vertical fill		
+U+25CE	◎	25A0..25FF	Geometric Shapes	Bullseye		
+U+25CF	●	25A0..25FF	Geometric Shapes	Black circle		
+U+25D0	◐	25A0..25FF	Geometric Shapes	Circle with left half black		
+U+25D1	◑	25A0..25FF	Geometric Shapes	Circle with right half black		
+U+25D2	◒	25A0..25FF	Geometric Shapes	Circle with lower half black		
+U+25D3	◓	25A0..25FF	Geometric Shapes	Circle with upper half black		
+U+25D4	◔	25A0..25FF	Geometric Shapes	Circle with upper right quadrant black		
+U+25D5	◕	25A0..25FF	Geometric Shapes	Circle with all but upper left quadrant black		
+U+25D6	◖	25A0..25FF	Geometric Shapes	Left half black circle		
+U+25D7	◗	25A0..25FF	Geometric Shapes	Right half black circle		
+U+25D8	◘	25A0..25FF	Geometric Shapes	Inverse bullet		
+U+25D9	◙	25A0..25FF	Geometric Shapes	Inverse white circle		
+U+25DA	◚	25A0..25FF	Geometric Shapes	Upper half inverse white circle		
+U+25DB	◛	25A0..25FF	Geometric Shapes	Lower half inverse white circle		
+U+25DC	◜	25A0..25FF	Geometric Shapes	Upper left quadrant circular arc		
+U+25DD	◝	25A0..25FF	Geometric Shapes	Upper right quadrant circular arc		
+U+25DE	◞	25A0..25FF	Geometric Shapes	Lower right quadrant circular arc		
+U+25DF	◟	25A0..25FF	Geometric Shapes	Lower left quadrant circular arc		
+U+25E0	◠	25A0..25FF	Geometric Shapes	Upper half circle		
+U+25E1	◡	25A0..25FF	Geometric Shapes	Lower half circle		
+U+25E2	◢	25A0..25FF	Geometric Shapes	Black lower right triangle		
+U+25E3	◣	25A0..25FF	Geometric Shapes	Black lower left triangle		
+U+25E4	◤	25A0..25FF	Geometric Shapes	Black upper left triangle		
+U+25E5	◥	25A0..25FF	Geometric Shapes	Black upper right triangle		
+U+25E6	◦	25A0..25FF	Geometric Shapes	White bullet		
+U+25E7	◧	25A0..25FF	Geometric Shapes	Square with left half black		
+U+25E8	◨	25A0..25FF	Geometric Shapes	Square with right half black		
+U+25E9	◩	25A0..25FF	Geometric Shapes	Square with upper left diagonal half black		
+U+25EA	◪	25A0..25FF	Geometric Shapes	Square with lower right diagonal half black		
+U+25EB	◫	25A0..25FF	Geometric Shapes	White square with vertical bisecting line		
+U+25EC	◬	25A0..25FF	Geometric Shapes	White up-pointing triangle with dot		
+U+25ED	◭	25A0..25FF	Geometric Shapes	Up-pointing triangle with left half black		
+U+25EE	◮	25A0..25FF	Geometric Shapes	Up-pointing triangle with right half black		
+U+25EF	◯	25A0..25FF	Geometric Shapes	Large circle		
+U+25F0	◰	25A0..25FF	Geometric Shapes	White square with upper left quadrant		
+U+25F1	◱	25A0..25FF	Geometric Shapes	White square with lower left quadrant		
+U+25F2	◲	25A0..25FF	Geometric Shapes	White square with lower right quadrant		
+U+25F3	◳	25A0..25FF	Geometric Shapes	White square with upper right quadrant		
+U+25F4	◴	25A0..25FF	Geometric Shapes	White circle with upper left quadrant		
+U+25F5	◵	25A0..25FF	Geometric Shapes	White circle with lower left quadrant		
+U+25F6	◶	25A0..25FF	Geometric Shapes	White circle with lower right quadrant		
+U+25F7	◷	25A0..25FF	Geometric Shapes	White circle with upper right quadrant		
+U+25F8	◸	25A0..25FF	Geometric Shapes	Upper left triangle		
+U+25F9	◹	25A0..25FF	Geometric Shapes	Upper right triangle		
+U+25FA	◺	25A0..25FF	Geometric Shapes	Lower left triangle		
+U+25FB	◻	25A0..25FF	Geometric Shapes	White medium square		
+U+25FC	◼	25A0..25FF	Geometric Shapes	Black medium square		
+U+25FD	◽	25A0..25FF	Geometric Shapes	White medium small square		
+U+25FE	◾	25A0..25FF	Geometric Shapes	Black medium small square		
+U+25FF	◿	25A0..25FF	Geometric Shapes	Lower right triangle		

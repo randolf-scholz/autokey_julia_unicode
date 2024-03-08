@@ -1,69 +1,69 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11680	"""𑚀"""	11680..116CF	Takri	Takri letter a		
-11681	"""𑚁"""	11680..116CF	Takri	Takri letter aa		
-11682	"""𑚂"""	11680..116CF	Takri	Takri letter i		
-11683	"""𑚃"""	11680..116CF	Takri	Takri letter ii		
-11684	"""𑚄"""	11680..116CF	Takri	Takri letter u		
-11685	"""𑚅"""	11680..116CF	Takri	Takri letter uu		
-11686	"""𑚆"""	11680..116CF	Takri	Takri letter e		
-11687	"""𑚇"""	11680..116CF	Takri	Takri letter ai		
-11688	"""𑚈"""	11680..116CF	Takri	Takri letter o		
-11689	"""𑚉"""	11680..116CF	Takri	Takri letter au		
-1168A	"""𑚊"""	11680..116CF	Takri	Takri letter ka		
-1168B	"""𑚋"""	11680..116CF	Takri	Takri letter kha		
-1168C	"""𑚌"""	11680..116CF	Takri	Takri letter ga		
-1168D	"""𑚍"""	11680..116CF	Takri	Takri letter gha		
-1168E	"""𑚎"""	11680..116CF	Takri	Takri letter nga		
-1168F	"""𑚏"""	11680..116CF	Takri	Takri letter ca		
-11690	"""𑚐"""	11680..116CF	Takri	Takri letter cha		
-11691	"""𑚑"""	11680..116CF	Takri	Takri letter ja		
-11692	"""𑚒"""	11680..116CF	Takri	Takri letter jha		
-11693	"""𑚓"""	11680..116CF	Takri	Takri letter nya		
-11694	"""𑚔"""	11680..116CF	Takri	Takri letter tta		
-11695	"""𑚕"""	11680..116CF	Takri	Takri letter ttha		
-11696	"""𑚖"""	11680..116CF	Takri	Takri letter dda		
-11697	"""𑚗"""	11680..116CF	Takri	Takri letter ddha		
-11698	"""𑚘"""	11680..116CF	Takri	Takri letter nna		
-11699	"""𑚙"""	11680..116CF	Takri	Takri letter ta		
-1169A	"""𑚚"""	11680..116CF	Takri	Takri letter tha		
-1169B	"""𑚛"""	11680..116CF	Takri	Takri letter da		
-1169C	"""𑚜"""	11680..116CF	Takri	Takri letter dha		
-1169D	"""𑚝"""	11680..116CF	Takri	Takri letter na		
-1169E	"""𑚞"""	11680..116CF	Takri	Takri letter pa		
-1169F	"""𑚟"""	11680..116CF	Takri	Takri letter pha		
-116A0	"""𑚠"""	11680..116CF	Takri	Takri letter ba		
-116A1	"""𑚡"""	11680..116CF	Takri	Takri letter bha		
-116A2	"""𑚢"""	11680..116CF	Takri	Takri letter ma		
-116A3	"""𑚣"""	11680..116CF	Takri	Takri letter ya		
-116A4	"""𑚤"""	11680..116CF	Takri	Takri letter ra		
-116A5	"""𑚥"""	11680..116CF	Takri	Takri letter la		
-116A6	"""𑚦"""	11680..116CF	Takri	Takri letter va		
-116A7	"""𑚧"""	11680..116CF	Takri	Takri letter sha		
-116A8	"""𑚨"""	11680..116CF	Takri	Takri letter sa		
-116A9	"""𑚩"""	11680..116CF	Takri	Takri letter ha		
-116AA	"""𑚪"""	11680..116CF	Takri	Takri letter rra		
-116AB	"""𑚫"""	11680..116CF	Takri	Takri sign anusvara		
-116AC	"""𑚬"""	11680..116CF	Takri	Takri sign visarga		
-116AD	"""𑚭"""	11680..116CF	Takri	Takri vowel sign aa		
-116AE	"""𑚮"""	11680..116CF	Takri	Takri vowel sign i		
-116AF	"""𑚯"""	11680..116CF	Takri	Takri vowel sign ii		
-116B0	"""𑚰"""	11680..116CF	Takri	Takri vowel sign u		
-116B1	"""𑚱"""	11680..116CF	Takri	Takri vowel sign uu		
-116B2	"""𑚲"""	11680..116CF	Takri	Takri vowel sign e		
-116B3	"""𑚳"""	11680..116CF	Takri	Takri vowel sign ai		
-116B4	"""𑚴"""	11680..116CF	Takri	Takri vowel sign o		
-116B5	"""𑚵"""	11680..116CF	Takri	Takri vowel sign au		
-116B6	"""𑚶"""	11680..116CF	Takri	Takri sign virama		
-116B7	"""𑚷"""	11680..116CF	Takri	Takri sign nukta		
-116B8	"""𑚸"""	11680..116CF	Takri	Takri letter archaic kha		
-116B9	"""𑚹"""	11680..116CF	Takri	Takri abbreviation sign		
-116C0	"""𑛀"""	11680..116CF	Takri	Takri digit zero		
-116C1	"""𑛁"""	11680..116CF	Takri	Takri digit one		
-116C2	"""𑛂"""	11680..116CF	Takri	Takri digit two		
-116C3	"""𑛃"""	11680..116CF	Takri	Takri digit three		
-116C4	"""𑛄"""	11680..116CF	Takri	Takri digit four		
-116C5	"""𑛅"""	11680..116CF	Takri	Takri digit five		
-116C6	"""𑛆"""	11680..116CF	Takri	Takri digit six		
-116C7	"""𑛇"""	11680..116CF	Takri	Takri digit seven		
-116C8	"""𑛈"""	11680..116CF	Takri	Takri digit eight		
-116C9	"""𑛉"""	11680..116CF	Takri	Takri digit nine		
+U+11680	𑚀	11680..116CF	Takri	Takri letter a		
+U+11681	𑚁	11680..116CF	Takri	Takri letter aa		
+U+11682	𑚂	11680..116CF	Takri	Takri letter i		
+U+11683	𑚃	11680..116CF	Takri	Takri letter ii		
+U+11684	𑚄	11680..116CF	Takri	Takri letter u		
+U+11685	𑚅	11680..116CF	Takri	Takri letter uu		
+U+11686	𑚆	11680..116CF	Takri	Takri letter e		
+U+11687	𑚇	11680..116CF	Takri	Takri letter ai		
+U+11688	𑚈	11680..116CF	Takri	Takri letter o		
+U+11689	𑚉	11680..116CF	Takri	Takri letter au		
+U+1168A	𑚊	11680..116CF	Takri	Takri letter ka		
+U+1168B	𑚋	11680..116CF	Takri	Takri letter kha		
+U+1168C	𑚌	11680..116CF	Takri	Takri letter ga		
+U+1168D	𑚍	11680..116CF	Takri	Takri letter gha		
+U+1168E	𑚎	11680..116CF	Takri	Takri letter nga		
+U+1168F	𑚏	11680..116CF	Takri	Takri letter ca		
+U+11690	𑚐	11680..116CF	Takri	Takri letter cha		
+U+11691	𑚑	11680..116CF	Takri	Takri letter ja		
+U+11692	𑚒	11680..116CF	Takri	Takri letter jha		
+U+11693	𑚓	11680..116CF	Takri	Takri letter nya		
+U+11694	𑚔	11680..116CF	Takri	Takri letter tta		
+U+11695	𑚕	11680..116CF	Takri	Takri letter ttha		
+U+11696	𑚖	11680..116CF	Takri	Takri letter dda		
+U+11697	𑚗	11680..116CF	Takri	Takri letter ddha		
+U+11698	𑚘	11680..116CF	Takri	Takri letter nna		
+U+11699	𑚙	11680..116CF	Takri	Takri letter ta		
+U+1169A	𑚚	11680..116CF	Takri	Takri letter tha		
+U+1169B	𑚛	11680..116CF	Takri	Takri letter da		
+U+1169C	𑚜	11680..116CF	Takri	Takri letter dha		
+U+1169D	𑚝	11680..116CF	Takri	Takri letter na		
+U+1169E	𑚞	11680..116CF	Takri	Takri letter pa		
+U+1169F	𑚟	11680..116CF	Takri	Takri letter pha		
+U+116A0	𑚠	11680..116CF	Takri	Takri letter ba		
+U+116A1	𑚡	11680..116CF	Takri	Takri letter bha		
+U+116A2	𑚢	11680..116CF	Takri	Takri letter ma		
+U+116A3	𑚣	11680..116CF	Takri	Takri letter ya		
+U+116A4	𑚤	11680..116CF	Takri	Takri letter ra		
+U+116A5	𑚥	11680..116CF	Takri	Takri letter la		
+U+116A6	𑚦	11680..116CF	Takri	Takri letter va		
+U+116A7	𑚧	11680..116CF	Takri	Takri letter sha		
+U+116A8	𑚨	11680..116CF	Takri	Takri letter sa		
+U+116A9	𑚩	11680..116CF	Takri	Takri letter ha		
+U+116AA	𑚪	11680..116CF	Takri	Takri letter rra		
+U+116AB	𑚫	11680..116CF	Takri	Takri sign anusvara		
+U+116AC	𑚬	11680..116CF	Takri	Takri sign visarga		
+U+116AD	𑚭	11680..116CF	Takri	Takri vowel sign aa		
+U+116AE	𑚮	11680..116CF	Takri	Takri vowel sign i		
+U+116AF	𑚯	11680..116CF	Takri	Takri vowel sign ii		
+U+116B0	𑚰	11680..116CF	Takri	Takri vowel sign u		
+U+116B1	𑚱	11680..116CF	Takri	Takri vowel sign uu		
+U+116B2	𑚲	11680..116CF	Takri	Takri vowel sign e		
+U+116B3	𑚳	11680..116CF	Takri	Takri vowel sign ai		
+U+116B4	𑚴	11680..116CF	Takri	Takri vowel sign o		
+U+116B5	𑚵	11680..116CF	Takri	Takri vowel sign au		
+U+116B6	𑚶	11680..116CF	Takri	Takri sign virama		
+U+116B7	𑚷	11680..116CF	Takri	Takri sign nukta		
+U+116B8	𑚸	11680..116CF	Takri	Takri letter archaic kha		
+U+116B9	𑚹	11680..116CF	Takri	Takri abbreviation sign		
+U+116C0	𑛀	11680..116CF	Takri	Takri digit zero		
+U+116C1	𑛁	11680..116CF	Takri	Takri digit one		
+U+116C2	𑛂	11680..116CF	Takri	Takri digit two		
+U+116C3	𑛃	11680..116CF	Takri	Takri digit three		
+U+116C4	𑛄	11680..116CF	Takri	Takri digit four		
+U+116C5	𑛅	11680..116CF	Takri	Takri digit five		
+U+116C6	𑛆	11680..116CF	Takri	Takri digit six		
+U+116C7	𑛇	11680..116CF	Takri	Takri digit seven		
+U+116C8	𑛈	11680..116CF	Takri	Takri digit eight		
+U+116C9	𑛉	11680..116CF	Takri	Takri digit nine		

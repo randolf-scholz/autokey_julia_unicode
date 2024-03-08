@@ -1,12 +1,12 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2440	"""⑀"""	2440..245F	Optical Character Recognition	Ocr hook		
-2441	"""⑁"""	2440..245F	Optical Character Recognition	Ocr chair		
-2442	"""⑂"""	2440..245F	Optical Character Recognition	Ocr fork		
-2443	"""⑃"""	2440..245F	Optical Character Recognition	Ocr inverted fork		
-2444	"""⑄"""	2440..245F	Optical Character Recognition	Ocr belt buckle		
-2445	"""⑅"""	2440..245F	Optical Character Recognition	Ocr bow tie		
-2446	"""⑆"""	2440..245F	Optical Character Recognition	Ocr branch bank identification		
-2447	"""⑇"""	2440..245F	Optical Character Recognition	Ocr amount of check		
-2448	"""⑈"""	2440..245F	Optical Character Recognition	Ocr dash		
-2449	"""⑉"""	2440..245F	Optical Character Recognition	Ocr customer account number		
-244A	"""⑊"""	2440..245F	Optical Character Recognition	Ocr double backslash		
+U+2440	⑀	2440..245F	Optical Character Recognition	Ocr hook		
+U+2441	⑁	2440..245F	Optical Character Recognition	Ocr chair		
+U+2442	⑂	2440..245F	Optical Character Recognition	Ocr fork		
+U+2443	⑃	2440..245F	Optical Character Recognition	Ocr inverted fork		
+U+2444	⑄	2440..245F	Optical Character Recognition	Ocr belt buckle		
+U+2445	⑅	2440..245F	Optical Character Recognition	Ocr bow tie		
+U+2446	⑆	2440..245F	Optical Character Recognition	Ocr branch bank identification		
+U+2447	⑇	2440..245F	Optical Character Recognition	Ocr amount of check		
+U+2448	⑈	2440..245F	Optical Character Recognition	Ocr dash		
+U+2449	⑉	2440..245F	Optical Character Recognition	Ocr customer account number		
+U+244A	⑊	2440..245F	Optical Character Recognition	Ocr double backslash		

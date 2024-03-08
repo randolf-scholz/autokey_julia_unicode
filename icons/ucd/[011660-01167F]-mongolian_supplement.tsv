@@ -1,14 +1,14 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11660	"""𑙠"""	11660..1167F	Mongolian Supplement	Mongolian birga with ornament		
-11661	"""𑙡"""	11660..1167F	Mongolian Supplement	Mongolian rotated birga		
-11662	"""𑙢"""	11660..1167F	Mongolian Supplement	Mongolian double birga with ornament		
-11663	"""𑙣"""	11660..1167F	Mongolian Supplement	Mongolian triple birga with ornament		
-11664	"""𑙤"""	11660..1167F	Mongolian Supplement	Mongolian birga with double ornament		
-11665	"""𑙥"""	11660..1167F	Mongolian Supplement	Mongolian rotated birga with ornament		
-11666	"""𑙦"""	11660..1167F	Mongolian Supplement	Mongolian rotated birga with double ornament		
-11667	"""𑙧"""	11660..1167F	Mongolian Supplement	Mongolian inverted birga		
-11668	"""𑙨"""	11660..1167F	Mongolian Supplement	Mongolian inverted birga with double ornament		
-11669	"""𑙩"""	11660..1167F	Mongolian Supplement	Mongolian swirl birga		
-1166A	"""𑙪"""	11660..1167F	Mongolian Supplement	Mongolian swirl birga with ornament		
-1166B	"""𑙫"""	11660..1167F	Mongolian Supplement	Mongolian swirl birga with double ornament		
-1166C	"""𑙬"""	11660..1167F	Mongolian Supplement	Mongolian turned swirl birga with double ornament		
+U+11660	𑙠	11660..1167F	Mongolian Supplement	Mongolian birga with ornament		
+U+11661	𑙡	11660..1167F	Mongolian Supplement	Mongolian rotated birga		
+U+11662	𑙢	11660..1167F	Mongolian Supplement	Mongolian double birga with ornament		
+U+11663	𑙣	11660..1167F	Mongolian Supplement	Mongolian triple birga with ornament		
+U+11664	𑙤	11660..1167F	Mongolian Supplement	Mongolian birga with double ornament		
+U+11665	𑙥	11660..1167F	Mongolian Supplement	Mongolian rotated birga with ornament		
+U+11666	𑙦	11660..1167F	Mongolian Supplement	Mongolian rotated birga with double ornament		
+U+11667	𑙧	11660..1167F	Mongolian Supplement	Mongolian inverted birga		
+U+11668	𑙨	11660..1167F	Mongolian Supplement	Mongolian inverted birga with double ornament		
+U+11669	𑙩	11660..1167F	Mongolian Supplement	Mongolian swirl birga		
+U+1166A	𑙪	11660..1167F	Mongolian Supplement	Mongolian swirl birga with ornament		
+U+1166B	𑙫	11660..1167F	Mongolian Supplement	Mongolian swirl birga with double ornament		
+U+1166C	𑙬	11660..1167F	Mongolian Supplement	Mongolian turned swirl birga with double ornament		

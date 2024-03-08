@@ -1,632 +1,632 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-FB50	"""ﭐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter alef wasla isolated form		
-FB51	"""ﭑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter alef wasla final form		
-FB52	"""ﭒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh isolated form		
-FB53	"""ﭓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh final form		
-FB54	"""ﭔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh initial form		
-FB55	"""ﭕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh medial form		
-FB56	"""ﭖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh isolated form		
-FB57	"""ﭗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh final form		
-FB58	"""ﭘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh initial form		
-FB59	"""ﭙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh medial form		
-FB5A	"""ﭚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh isolated form		
-FB5B	"""ﭛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh final form		
-FB5C	"""ﭜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh initial form		
-FB5D	"""ﭝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh medial form		
-FB5E	"""ﭞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh isolated form		
-FB5F	"""ﭟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh final form		
-FB60	"""ﭠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh initial form		
-FB61	"""ﭡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh medial form		
-FB62	"""ﭢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh isolated form		
-FB63	"""ﭣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh final form		
-FB64	"""ﭤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh initial form		
-FB65	"""ﭥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh medial form		
-FB66	"""ﭦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh isolated form		
-FB67	"""ﭧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh final form		
-FB68	"""ﭨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh initial form		
-FB69	"""ﭩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh medial form		
-FB6A	"""ﭪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh isolated form		
-FB6B	"""ﭫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh final form		
-FB6C	"""ﭬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh initial form		
-FB6D	"""ﭭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh medial form		
-FB6E	"""ﭮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh isolated form		
-FB6F	"""ﭯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh final form		
-FB70	"""ﭰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh initial form		
-FB71	"""ﭱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh medial form		
-FB72	"""ﭲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh isolated form		
-FB73	"""ﭳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh final form		
-FB74	"""ﭴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh initial form		
-FB75	"""ﭵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh medial form		
-FB76	"""ﭶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh isolated form		
-FB77	"""ﭷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh final form		
-FB78	"""ﭸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh initial form		
-FB79	"""ﭹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh medial form		
-FB7A	"""ﭺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh isolated form		
-FB7B	"""ﭻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh final form		
-FB7C	"""ﭼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh initial form		
-FB7D	"""ﭽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh medial form		
-FB7E	"""ﭾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh isolated form		
-FB7F	"""ﭿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh final form		
-FB80	"""ﮀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh initial form		
-FB81	"""ﮁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh medial form		
-FB82	"""ﮂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddahal isolated form		
-FB83	"""ﮃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddahal final form		
-FB84	"""ﮄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dahal isolated form		
-FB85	"""ﮅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dahal final form		
-FB86	"""ﮆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dul isolated form		
-FB87	"""ﮇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dul final form		
-FB88	"""ﮈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddal isolated form		
-FB89	"""ﮉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddal final form		
-FB8A	"""ﮊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter jeh isolated form		
-FB8B	"""ﮋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter jeh final form		
-FB8C	"""ﮌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rreh isolated form		
-FB8D	"""ﮍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rreh final form		
-FB8E	"""ﮎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh isolated form		
-FB8F	"""ﮏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh final form		
-FB90	"""ﮐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh initial form		
-FB91	"""ﮑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh medial form		
-FB92	"""ﮒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf isolated form		
-FB93	"""ﮓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf final form		
-FB94	"""ﮔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf initial form		
-FB95	"""ﮕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf medial form		
-FB96	"""ﮖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh isolated form		
-FB97	"""ﮗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh final form		
-FB98	"""ﮘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh initial form		
-FB99	"""ﮙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh medial form		
-FB9A	"""ﮚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh isolated form		
-FB9B	"""ﮛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh final form		
-FB9C	"""ﮜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh initial form		
-FB9D	"""ﮝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh medial form		
-FB9E	"""ﮞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter noon ghunna isolated form		
-FB9F	"""ﮟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter noon ghunna final form		
-FBA0	"""ﮠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon isolated form		
-FBA1	"""ﮡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon final form		
-FBA2	"""ﮢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon initial form		
-FBA3	"""ﮣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon medial form		
-FBA4	"""ﮤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh with yeh above isolated form		
-FBA5	"""ﮥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh with yeh above final form		
-FBA6	"""ﮦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal isolated form		
-FBA7	"""ﮧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal final form		
-FBA8	"""ﮨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal initial form		
-FBA9	"""ﮩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal medial form		
-FBAA	"""ﮪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee isolated form		
-FBAB	"""ﮫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee final form		
-FBAC	"""ﮬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee initial form		
-FBAD	"""ﮭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee medial form		
-FBAE	"""ﮮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree isolated form		
-FBAF	"""ﮯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree final form		
-FBB0	"""ﮰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree with hamza above isolated form		
-FBB1	"""ﮱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree with hamza above final form		
-FBB2	"""﮲"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol dot above		
-FBB3	"""﮳"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol dot below		
-FBB4	"""﮴"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots above		
-FBB5	"""﮵"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots below		
-FBB6	"""﮶"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots above		
-FBB7	"""﮷"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots below		
-FBB8	"""﮸"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots pointing downwards above		
-FBB9	"""﮹"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots pointing downwards below		
-FBBA	"""﮺"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol four dots above		
-FBBB	"""﮻"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol four dots below		
-FBBC	"""﮼"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol double vertical bar below		
-FBBD	"""﮽"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots vertically above		
-FBBE	"""﮾"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots vertically below		
-FBBF	"""﮿"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol ring		
-FBC0	"""﯀"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah above		
-FBC1	"""﯁"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah below		
-FBC2	"""﯂"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol wasla above		
-FBD3	"""ﯓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng isolated form		
-FBD4	"""ﯔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng final form		
-FBD5	"""ﯕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng initial form		
-FBD6	"""ﯖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng medial form		
-FBD7	"""ﯗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u isolated form		
-FBD8	"""ﯘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u final form		
-FBD9	"""ﯙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter oe isolated form		
-FBDA	"""ﯚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter oe final form		
-FBDB	"""ﯛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yu isolated form		
-FBDC	"""ﯜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yu final form		
-FBDD	"""ﯝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u with hamza above isolated form		
-FBDE	"""ﯞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ve isolated form		
-FBDF	"""ﯟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ve final form		
-FBE0	"""ﯠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz oe isolated form		
-FBE1	"""ﯡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz oe final form		
-FBE2	"""ﯢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz yu isolated form		
-FBE3	"""ﯣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz yu final form		
-FBE4	"""ﯤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e isolated form		
-FBE5	"""ﯥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e final form		
-FBE6	"""ﯦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e initial form		
-FBE7	"""ﯧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e medial form		
-FBE8	"""ﯨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter uighur kazakh kirghiz alef maksura initial form		
-FBE9	"""ﯩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter uighur kazakh kirghiz alef maksura medial form		
-FBEA	"""ﯪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef isolated form		
-FBEB	"""ﯫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef final form		
-FBEC	"""ﯬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with ae isolated form		
-FBED	"""ﯭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with ae final form		
-FBEE	"""ﯮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with waw isolated form		
-FBEF	"""ﯯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with waw final form		
-FBF0	"""ﯰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with u isolated form		
-FBF1	"""ﯱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with u final form		
-FBF2	"""ﯲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with oe isolated form		
-FBF3	"""ﯳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with oe final form		
-FBF4	"""ﯴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yu isolated form		
-FBF5	"""ﯵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yu final form		
-FBF6	"""ﯶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e isolated form		
-FBF7	"""ﯷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e final form		
-FBF8	"""ﯸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e initial form		
-FBF9	"""ﯹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura isolated form		
-FBFA	"""ﯺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura final form		
-FBFB	"""ﯻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura initial form		
-FBFC	"""ﯼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh isolated form		
-FBFD	"""ﯽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh final form		
-FBFE	"""ﯾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh initial form		
-FBFF	"""ﯿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh medial form		
-FC00	"""ﰀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with jeem isolated form		
-FC01	"""ﰁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with hah isolated form		
-FC02	"""ﰂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem isolated form		
-FC03	"""ﰃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef maksura isolated form		
-FC04	"""ﰄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yeh isolated form		
-FC05	"""ﰅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with jeem isolated form		
-FC06	"""ﰆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah isolated form		
-FC07	"""ﰇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah isolated form		
-FC08	"""ﰈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem isolated form		
-FC09	"""ﰉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with alef maksura isolated form		
-FC0A	"""ﰊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with yeh isolated form		
-FC0B	"""ﰋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem isolated form		
-FC0C	"""ﰌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah isolated form		
-FC0D	"""ﰍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah isolated form		
-FC0E	"""ﰎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem isolated form		
-FC0F	"""ﰏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with alef maksura isolated form		
-FC10	"""ﰐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with yeh isolated form		
-FC11	"""ﰑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with jeem isolated form		
-FC12	"""ﰒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem isolated form		
-FC13	"""ﰓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with alef maksura isolated form		
-FC14	"""ﰔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with yeh isolated form		
-FC15	"""ﰕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah isolated form		
-FC16	"""ﰖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem isolated form		
-FC17	"""ﰗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem isolated form		
-FC18	"""ﰘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem isolated form		
-FC19	"""ﰙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with jeem isolated form		
-FC1A	"""ﰚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with hah isolated form		
-FC1B	"""ﰛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with meem isolated form		
-FC1C	"""ﰜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem isolated form		
-FC1D	"""ﰝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah isolated form		
-FC1E	"""ﰞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah isolated form		
-FC1F	"""ﰟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem isolated form		
-FC20	"""ﰠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah isolated form		
-FC21	"""ﰡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem isolated form		
-FC22	"""ﰢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with jeem isolated form		
-FC23	"""ﰣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah isolated form		
-FC24	"""ﰤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah isolated form		
-FC25	"""ﰥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with meem isolated form		
-FC26	"""ﰦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with hah isolated form		
-FC27	"""ﰧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem isolated form		
-FC28	"""ﰨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem isolated form		
-FC29	"""ﰩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem isolated form		
-FC2A	"""ﰪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem isolated form		
-FC2B	"""ﰫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with jeem isolated form		
-FC2C	"""ﰬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem isolated form		
-FC2D	"""ﰭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with jeem isolated form		
-FC2E	"""ﰮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with hah isolated form		
-FC2F	"""ﰯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah isolated form		
-FC30	"""ﰰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem isolated form		
-FC31	"""ﰱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with alef maksura isolated form		
-FC32	"""ﰲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with yeh isolated form		
-FC33	"""ﰳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with hah isolated form		
-FC34	"""ﰴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem isolated form		
-FC35	"""ﰵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with alef maksura isolated form		
-FC36	"""ﰶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with yeh isolated form		
-FC37	"""ﰷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef isolated form		
-FC38	"""ﰸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with jeem isolated form		
-FC39	"""ﰹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with hah isolated form		
-FC3A	"""ﰺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with khah isolated form		
-FC3B	"""ﰻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam isolated form		
-FC3C	"""ﰼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem isolated form		
-FC3D	"""ﰽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef maksura isolated form		
-FC3E	"""ﰾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with yeh isolated form		
-FC3F	"""ﰿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem isolated form		
-FC40	"""ﱀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah isolated form		
-FC41	"""ﱁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah isolated form		
-FC42	"""ﱂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem isolated form		
-FC43	"""ﱃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with alef maksura isolated form		
-FC44	"""ﱄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with yeh isolated form		
-FC45	"""ﱅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem isolated form		
-FC46	"""ﱆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah isolated form		
-FC47	"""ﱇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah isolated form		
-FC48	"""ﱈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem isolated form		
-FC49	"""ﱉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with alef maksura isolated form		
-FC4A	"""ﱊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with yeh isolated form		
-FC4B	"""ﱋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem isolated form		
-FC4C	"""ﱌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah isolated form		
-FC4D	"""ﱍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with khah isolated form		
-FC4E	"""ﱎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem isolated form		
-FC4F	"""ﱏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with alef maksura isolated form		
-FC50	"""ﱐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with yeh isolated form		
-FC51	"""ﱑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with jeem isolated form		
-FC52	"""ﱒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem isolated form		
-FC53	"""ﱓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with alef maksura isolated form		
-FC54	"""ﱔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with yeh isolated form		
-FC55	"""ﱕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem isolated form		
-FC56	"""ﱖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah isolated form		
-FC57	"""ﱗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with khah isolated form		
-FC58	"""ﱘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem isolated form		
-FC59	"""ﱙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with alef maksura isolated form		
-FC5A	"""ﱚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with yeh isolated form		
-FC5B	"""ﱛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature thal with superscript alef isolated form		
-FC5C	"""ﱜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature reh with superscript alef isolated form		
-FC5D	"""ﱝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef maksura with superscript alef isolated form		
-FC5E	"""ﱞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with dammatan isolated form		
-FC5F	"""ﱟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasratan isolated form		
-FC60	"""ﱠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with fatha isolated form		
-FC61	"""ﱡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with damma isolated form		
-FC62	"""ﱢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasra isolated form		
-FC63	"""ﱣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with superscript alef isolated form		
-FC64	"""ﱤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with reh final form		
-FC65	"""ﱥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with zain final form		
-FC66	"""ﱦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem final form		
-FC67	"""ﱧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with noon final form		
-FC68	"""ﱨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef maksura final form		
-FC69	"""ﱩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yeh final form		
-FC6A	"""ﱪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with reh final form		
-FC6B	"""ﱫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with zain final form		
-FC6C	"""ﱬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem final form		
-FC6D	"""ﱭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with noon final form		
-FC6E	"""ﱮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with alef maksura final form		
-FC6F	"""ﱯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with yeh final form		
-FC70	"""ﱰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with reh final form		
-FC71	"""ﱱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with zain final form		
-FC72	"""ﱲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem final form		
-FC73	"""ﱳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with noon final form		
-FC74	"""ﱴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with alef maksura final form		
-FC75	"""ﱵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with yeh final form		
-FC76	"""ﱶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with reh final form		
-FC77	"""ﱷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with zain final form		
-FC78	"""ﱸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem final form		
-FC79	"""ﱹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with noon final form		
-FC7A	"""ﱺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with alef maksura final form		
-FC7B	"""ﱻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with yeh final form		
-FC7C	"""ﱼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with alef maksura final form		
-FC7D	"""ﱽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with yeh final form		
-FC7E	"""ﱾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with alef maksura final form		
-FC7F	"""ﱿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with yeh final form		
-FC80	"""ﲀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef final form		
-FC81	"""ﲁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam final form		
-FC82	"""ﲂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem final form		
-FC83	"""ﲃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef maksura final form		
-FC84	"""ﲄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with yeh final form		
-FC85	"""ﲅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem final form		
-FC86	"""ﲆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with alef maksura final form		
-FC87	"""ﲇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with yeh final form		
-FC88	"""ﲈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with alef final form		
-FC89	"""ﲉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem final form		
-FC8A	"""ﲊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with reh final form		
-FC8B	"""ﲋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with zain final form		
-FC8C	"""ﲌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem final form		
-FC8D	"""ﲍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with noon final form		
-FC8E	"""ﲎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with alef maksura final form		
-FC8F	"""ﲏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with yeh final form		
-FC90	"""ﲐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef maksura with superscript alef final form		
-FC91	"""ﲑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with reh final form		
-FC92	"""ﲒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with zain final form		
-FC93	"""ﲓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem final form		
-FC94	"""ﲔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with noon final form		
-FC95	"""ﲕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with alef maksura final form		
-FC96	"""ﲖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with yeh final form		
-FC97	"""ﲗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with jeem initial form		
-FC98	"""ﲘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with hah initial form		
-FC99	"""ﲙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with khah initial form		
-FC9A	"""ﲚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem initial form		
-FC9B	"""ﲛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with heh initial form		
-FC9C	"""ﲜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with jeem initial form		
-FC9D	"""ﲝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah initial form		
-FC9E	"""ﲞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah initial form		
-FC9F	"""ﲟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem initial form		
-FCA0	"""ﲠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with heh initial form		
-FCA1	"""ﲡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem initial form		
-FCA2	"""ﲢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah initial form		
-FCA3	"""ﲣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah initial form		
-FCA4	"""ﲤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem initial form		
-FCA5	"""ﲥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with heh initial form		
-FCA6	"""ﲦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem initial form		
-FCA7	"""ﲧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah initial form		
-FCA8	"""ﲨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem initial form		
-FCA9	"""ﲩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem initial form		
-FCAA	"""ﲪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem initial form		
-FCAB	"""ﲫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with jeem initial form		
-FCAC	"""ﲬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with meem initial form		
-FCAD	"""ﲭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem initial form		
-FCAE	"""ﲮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah initial form		
-FCAF	"""ﲯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah initial form		
-FCB0	"""ﲰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem initial form		
-FCB1	"""ﲱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah initial form		
-FCB2	"""ﲲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with khah initial form		
-FCB3	"""ﲳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem initial form		
-FCB4	"""ﲴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with jeem initial form		
-FCB5	"""ﲵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah initial form		
-FCB6	"""ﲶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah initial form		
-FCB7	"""ﲷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with meem initial form		
-FCB8	"""ﲸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with hah initial form		
-FCB9	"""ﲹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem initial form		
-FCBA	"""ﲺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem initial form		
-FCBB	"""ﲻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem initial form		
-FCBC	"""ﲼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with jeem initial form		
-FCBD	"""ﲽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem initial form		
-FCBE	"""ﲾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with jeem initial form		
-FCBF	"""ﲿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with hah initial form		
-FCC0	"""ﳀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah initial form		
-FCC1	"""ﳁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem initial form		
-FCC2	"""ﳂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with hah initial form		
-FCC3	"""ﳃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem initial form		
-FCC4	"""ﳄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with jeem initial form		
-FCC5	"""ﳅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with hah initial form		
-FCC6	"""ﳆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with khah initial form		
-FCC7	"""ﳇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam initial form		
-FCC8	"""ﳈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem initial form		
-FCC9	"""ﳉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem initial form		
-FCCA	"""ﳊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah initial form		
-FCCB	"""ﳋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah initial form		
-FCCC	"""ﳌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem initial form		
-FCCD	"""ﳍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with heh initial form		
-FCCE	"""ﳎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem initial form		
-FCCF	"""ﳏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah initial form		
-FCD0	"""ﳐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah initial form		
-FCD1	"""ﳑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem initial form		
-FCD2	"""ﳒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem initial form		
-FCD3	"""ﳓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah initial form		
-FCD4	"""ﳔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with khah initial form		
-FCD5	"""ﳕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem initial form		
-FCD6	"""ﳖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with heh initial form		
-FCD7	"""ﳗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with jeem initial form		
-FCD8	"""ﳘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem initial form		
-FCD9	"""ﳙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with superscript alef initial form		
-FCDA	"""ﳚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem initial form		
-FCDB	"""ﳛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah initial form		
-FCDC	"""ﳜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with khah initial form		
-FCDD	"""ﳝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem initial form		
-FCDE	"""ﳞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with heh initial form		
-FCDF	"""ﳟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem medial form		
-FCE0	"""ﳠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with heh medial form		
-FCE1	"""ﳡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem medial form		
-FCE2	"""ﳢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with heh medial form		
-FCE3	"""ﳣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem medial form		
-FCE4	"""ﳤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with heh medial form		
-FCE5	"""ﳥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem medial form		
-FCE6	"""ﳦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with heh medial form		
-FCE7	"""ﳧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem medial form		
-FCE8	"""ﳨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with heh medial form		
-FCE9	"""ﳩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem medial form		
-FCEA	"""ﳪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with heh medial form		
-FCEB	"""ﳫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam medial form		
-FCEC	"""ﳬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem medial form		
-FCED	"""ﳭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem medial form		
-FCEE	"""ﳮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem medial form		
-FCEF	"""ﳯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with heh medial form		
-FCF0	"""ﳰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem medial form		
-FCF1	"""ﳱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with heh medial form		
-FCF2	"""ﳲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with fatha medial form		
-FCF3	"""ﳳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with damma medial form		
-FCF4	"""ﳴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasra medial form		
-FCF5	"""ﳵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with alef maksura isolated form		
-FCF6	"""ﳶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with yeh isolated form		
-FCF7	"""ﳷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with alef maksura isolated form		
-FCF8	"""ﳸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with yeh isolated form		
-FCF9	"""ﳹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with alef maksura isolated form		
-FCFA	"""ﳺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with yeh isolated form		
-FCFB	"""ﳻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with alef maksura isolated form		
-FCFC	"""ﳼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with yeh isolated form		
-FCFD	"""ﳽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with alef maksura isolated form		
-FCFE	"""ﳾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with yeh isolated form		
-FCFF	"""ﳿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with alef maksura isolated form		
-FD00	"""ﴀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with yeh isolated form		
-FD01	"""ﴁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with alef maksura isolated form		
-FD02	"""ﴂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with yeh isolated form		
-FD03	"""ﴃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with alef maksura isolated form		
-FD04	"""ﴄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with yeh isolated form		
-FD05	"""ﴅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with alef maksura isolated form		
-FD06	"""ﴆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with yeh isolated form		
-FD07	"""ﴇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with alef maksura isolated form		
-FD08	"""ﴈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with yeh isolated form		
-FD09	"""ﴉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem isolated form		
-FD0A	"""ﴊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah isolated form		
-FD0B	"""ﴋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah isolated form		
-FD0C	"""ﴌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem isolated form		
-FD0D	"""ﴍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with reh isolated form		
-FD0E	"""ﴎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with reh isolated form		
-FD0F	"""ﴏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with reh isolated form		
-FD10	"""ﴐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with reh isolated form		
-FD11	"""ﴑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with alef maksura final form		
-FD12	"""ﴒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with yeh final form		
-FD13	"""ﴓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with alef maksura final form		
-FD14	"""ﴔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with yeh final form		
-FD15	"""ﴕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with alef maksura final form		
-FD16	"""ﴖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with yeh final form		
-FD17	"""ﴗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with alef maksura final form		
-FD18	"""ﴘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with yeh final form		
-FD19	"""ﴙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with alef maksura final form		
-FD1A	"""ﴚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with yeh final form		
-FD1B	"""ﴛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with alef maksura final form		
-FD1C	"""ﴜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with yeh final form		
-FD1D	"""ﴝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with alef maksura final form		
-FD1E	"""ﴞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with yeh final form		
-FD1F	"""ﴟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with alef maksura final form		
-FD20	"""ﴠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with yeh final form		
-FD21	"""ﴡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with alef maksura final form		
-FD22	"""ﴢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with yeh final form		
-FD23	"""ﴣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with alef maksura final form		
-FD24	"""ﴤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with yeh final form		
-FD25	"""ﴥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem final form		
-FD26	"""ﴦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah final form		
-FD27	"""ﴧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah final form		
-FD28	"""ﴨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem final form		
-FD29	"""ﴩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with reh final form		
-FD2A	"""ﴪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with reh final form		
-FD2B	"""ﴫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with reh final form		
-FD2C	"""ﴬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with reh final form		
-FD2D	"""ﴭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem initial form		
-FD2E	"""ﴮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah initial form		
-FD2F	"""ﴯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah initial form		
-FD30	"""ﴰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem initial form		
-FD31	"""ﴱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with heh initial form		
-FD32	"""ﴲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with heh initial form		
-FD33	"""ﴳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem initial form		
-FD34	"""ﴴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem medial form		
-FD35	"""ﴵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah medial form		
-FD36	"""ﴶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah medial form		
-FD37	"""ﴷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem medial form		
-FD38	"""ﴸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah medial form		
-FD39	"""ﴹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah medial form		
-FD3A	"""ﴺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem medial form		
-FD3B	"""ﴻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem medial form		
-FD3C	"""ﴼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef with fathatan final form		
-FD3D	"""ﴽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef with fathatan isolated form		
-FD3E	"""﴾"""	FB50..FDFF	Arabic Presentation Forms-A	Ornate left parenthesis		
-FD3F	"""﴿"""	FB50..FDFF	Arabic Presentation Forms-A	Ornate right parenthesis		
-FD40	"""﵀"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahu allaah		
-FD41	"""﵁"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anh		
-FD42	"""﵂"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhaa		
-FD43	"""﵃"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhum		
-FD44	"""﵄"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhumaa		
-FD45	"""﵅"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhunna		
-FD46	"""﵆"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallaahu alayhi wa-aalih		
-FD47	"""﵇"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhi as-salaam		
-FD48	"""﵈"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhim as-salaam		
-FD49	"""﵉"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhimaa as-salaam		
-FD4A	"""﵊"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhi as-salaatu was-salaam		
-FD4B	"""﵋"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature quddisa sirrah		
-FD4C	"""﵌"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallahu alayhi waaalihee wa-sallam		
-FD4D	"""﵍"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhaa as-salaam		
-FD4E	"""﵎"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tabaaraka wa-taaalaa		
-FD4F	"""﵏"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahum allaah		
-FD50	"""ﵐ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with meem initial form		
-FD51	"""ﵑ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with jeem final form		
-FD52	"""ﵒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with jeem initial form		
-FD53	"""ﵓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with meem initial form		
-FD54	"""ﵔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with meem initial form		
-FD55	"""ﵕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with jeem initial form		
-FD56	"""ﵖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with hah initial form		
-FD57	"""ﵗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with khah initial form		
-FD58	"""ﵘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with hah final form		
-FD59	"""ﵙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with hah initial form		
-FD5A	"""ﵚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem with yeh final form		
-FD5B	"""ﵛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem with alef maksura final form		
-FD5C	"""ﵜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah with jeem initial form		
-FD5D	"""ﵝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem with hah initial form		
-FD5E	"""ﵞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem with alef maksura final form		
-FD5F	"""ﵟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with hah final form		
-FD60	"""ﵠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with hah initial form		
-FD61	"""ﵡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with jeem initial form		
-FD62	"""ﵢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with meem final form		
-FD63	"""ﵣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with meem initial form		
-FD64	"""ﵤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with hah final form		
-FD65	"""ﵥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with hah initial form		
-FD66	"""ﵦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem with meem final form		
-FD67	"""ﵧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with meem final form		
-FD68	"""ﵨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with meem initial form		
-FD69	"""ﵩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem with yeh final form		
-FD6A	"""ﵪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with khah final form		
-FD6B	"""ﵫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with khah initial form		
-FD6C	"""ﵬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with meem final form		
-FD6D	"""ﵭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with meem initial form		
-FD6E	"""ﵮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah with alef maksura final form		
-FD6F	"""ﵯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah with meem final form		
-FD70	"""ﵰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah with meem initial form		
-FD71	"""ﵱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with hah final form		
-FD72	"""ﵲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with hah initial form		
-FD73	"""ﵳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with meem initial form		
-FD74	"""ﵴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with yeh final form		
-FD75	"""ﵵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem with meem final form		
-FD76	"""ﵶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with meem final form		
-FD77	"""ﵷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with meem initial form		
-FD78	"""ﵸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with alef maksura final form		
-FD79	"""ﵹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with meem final form		
-FD7A	"""ﵺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with yeh final form		
-FD7B	"""ﵻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with alef maksura final form		
-FD7C	"""ﵼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah with meem final form		
-FD7D	"""ﵽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah with meem initial form		
-FD7E	"""ﵾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with hah final form		
-FD7F	"""ﵿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with meem final form		
-FD80	"""ﶀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with meem final form		
-FD81	"""ﶁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with yeh final form		
-FD82	"""ﶂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with alef maksura final form		
-FD83	"""ﶃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with jeem initial form		
-FD84	"""ﶄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with jeem final form		
-FD85	"""ﶅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah with meem final form		
-FD86	"""ﶆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah with meem initial form		
-FD87	"""ﶇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with hah final form		
-FD88	"""ﶈ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with hah initial form		
-FD89	"""ﶉ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with jeem initial form		
-FD8A	"""ﶊ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with meem initial form		
-FD8B	"""ﶋ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with yeh final form		
-FD8C	"""ﶌ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with hah initial form		
-FD8D	"""ﶍ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with meem initial form		
-FD8E	"""ﶎ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with jeem initial form		
-FD8F	"""ﶏ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with meem initial form		
-FD92	"""ﶒ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with khah initial form		
-FD93	"""ﶓ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with jeem initial form		
-FD94	"""ﶔ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with meem initial form		
-FD95	"""ﶕ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with meem initial form		
-FD96	"""ﶖ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with alef maksura final form		
-FD97	"""ﶗ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with meem final form		
-FD98	"""ﶘ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with meem initial form		
-FD99	"""ﶙ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with alef maksura final form		
-FD9A	"""ﶚ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem with yeh final form		
-FD9B	"""ﶛ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem with alef maksura final form		
-FD9C	"""ﶜ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with meem final form		
-FD9D	"""ﶝ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with meem initial form		
-FD9E	"""ﶞ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah with yeh final form		
-FD9F	"""ﶟ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with yeh final form		
-FDA0	"""ﶠ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with alef maksura final form		
-FDA1	"""ﶡ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with yeh final form		
-FDA2	"""ﶢ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with alef maksura final form		
-FDA3	"""ﶣ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with yeh final form		
-FDA4	"""ﶤ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with alef maksura final form		
-FDA5	"""ﶥ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with yeh final form		
-FDA6	"""ﶦ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah with alef maksura final form		
-FDA7	"""ﶧ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with alef maksura final form		
-FDA8	"""ﶨ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah with alef maksura final form		
-FDA9	"""ﶩ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with yeh final form		
-FDAA	"""ﶪ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with yeh final form		
-FDAB	"""ﶫ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah with yeh final form		
-FDAC	"""ﶬ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with yeh final form		
-FDAD	"""ﶭ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with yeh final form		
-FDAE	"""ﶮ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah with yeh final form		
-FDAF	"""ﶯ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem with yeh final form		
-FDB0	"""ﶰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with yeh final form		
-FDB1	"""ﶱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem with yeh final form		
-FDB2	"""ﶲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with yeh final form		
-FDB3	"""ﶳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with yeh final form		
-FDB4	"""ﶴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with hah initial form		
-FDB5	"""ﶵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with meem initial form		
-FDB6	"""ﶶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with yeh final form		
-FDB7	"""ﶷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with yeh final form		
-FDB8	"""ﶸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with hah initial form		
-FDB9	"""ﶹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with yeh final form		
-FDBA	"""ﶺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with meem initial form		
-FDBB	"""ﶻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with meem final form		
-FDBC	"""ﶼ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with meem final form		
-FDBD	"""ﶽ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with hah final form		
-FDBE	"""ﶾ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah with yeh final form		
-FDBF	"""ﶿ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem with yeh final form		
-FDC0	"""ﷀ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with yeh final form		
-FDC1	"""ﷁ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem with yeh final form		
-FDC2	"""ﷂ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah with yeh final form		
-FDC3	"""ﷃ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with meem initial form		
-FDC4	"""ﷄ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem with meem initial form		
-FDC5	"""ﷅ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem with meem initial form		
-FDC6	"""ﷆ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah with yeh final form		
-FDC7	"""ﷇ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with yeh final form		
-FDCF	"""﷏"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salaamuhu alaynaa		
-FDF0	"""ﷰ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salla used as koranic stop sign isolated form		
-FDF1	"""ﷱ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qala used as koranic stop sign isolated form		
-FDF2	"""ﷲ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature allah isolated form		
-FDF3	"""ﷳ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature akbar isolated form		
-FDF4	"""ﷴ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature mohammad isolated form		
-FDF5	"""ﷵ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salam isolated form		
-FDF6	"""ﷶ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rasoul isolated form		
-FDF7	"""ﷷ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhe isolated form		
-FDF8	"""ﷸ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature wasallam isolated form		
-FDF9	"""ﷹ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salla isolated form		
-FDFA	"""ﷺ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallahou alayhe wasallam		
-FDFB	"""ﷻ"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jallajalalouhou		
-FDFC	"""﷼"""	FB50..FDFF	Arabic Presentation Forms-A	Rial sign		
-FDFD	"""﷽"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature bismillah ar-rahman ar-raheem		
-FDFE	"""﷾"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature subhaanahu wa taaalaa		
-FDFF	"""﷿"""	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature azza wa jall		
+U+FB50	ﭐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter alef wasla isolated form		
+U+FB51	ﭑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter alef wasla final form		
+U+FB52	ﭒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh isolated form		
+U+FB53	ﭓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh final form		
+U+FB54	ﭔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh initial form		
+U+FB55	ﭕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beeh medial form		
+U+FB56	ﭖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh isolated form		
+U+FB57	ﭗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh final form		
+U+FB58	ﭘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh initial form		
+U+FB59	ﭙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peh medial form		
+U+FB5A	ﭚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh isolated form		
+U+FB5B	ﭛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh final form		
+U+FB5C	ﭜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh initial form		
+U+FB5D	ﭝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter beheh medial form		
+U+FB5E	ﭞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh isolated form		
+U+FB5F	ﭟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh final form		
+U+FB60	ﭠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh initial form		
+U+FB61	ﭡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteheh medial form		
+U+FB62	ﭢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh isolated form		
+U+FB63	ﭣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh final form		
+U+FB64	ﭤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh initial form		
+U+FB65	ﭥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter teheh medial form		
+U+FB66	ﭦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh isolated form		
+U+FB67	ﭧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh final form		
+U+FB68	ﭨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh initial form		
+U+FB69	ﭩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tteh medial form		
+U+FB6A	ﭪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh isolated form		
+U+FB6B	ﭫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh final form		
+U+FB6C	ﭬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh initial form		
+U+FB6D	ﭭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter veh medial form		
+U+FB6E	ﭮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh isolated form		
+U+FB6F	ﭯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh final form		
+U+FB70	ﭰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh initial form		
+U+FB71	ﭱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter peheh medial form		
+U+FB72	ﭲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh isolated form		
+U+FB73	ﭳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh final form		
+U+FB74	ﭴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh initial form		
+U+FB75	ﭵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dyeh medial form		
+U+FB76	ﭶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh isolated form		
+U+FB77	ﭷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh final form		
+U+FB78	ﭸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh initial form		
+U+FB79	ﭹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter nyeh medial form		
+U+FB7A	ﭺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh isolated form		
+U+FB7B	ﭻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh final form		
+U+FB7C	ﭼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh initial form		
+U+FB7D	ﭽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheh medial form		
+U+FB7E	ﭾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh isolated form		
+U+FB7F	ﭿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh final form		
+U+FB80	ﮀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh initial form		
+U+FB81	ﮁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter tcheheh medial form		
+U+FB82	ﮂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddahal isolated form		
+U+FB83	ﮃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddahal final form		
+U+FB84	ﮄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dahal isolated form		
+U+FB85	ﮅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dahal final form		
+U+FB86	ﮆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dul isolated form		
+U+FB87	ﮇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter dul final form		
+U+FB88	ﮈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddal isolated form		
+U+FB89	ﮉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ddal final form		
+U+FB8A	ﮊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter jeh isolated form		
+U+FB8B	ﮋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter jeh final form		
+U+FB8C	ﮌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rreh isolated form		
+U+FB8D	ﮍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rreh final form		
+U+FB8E	ﮎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh isolated form		
+U+FB8F	ﮏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh final form		
+U+FB90	ﮐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh initial form		
+U+FB91	ﮑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter keheh medial form		
+U+FB92	ﮒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf isolated form		
+U+FB93	ﮓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf final form		
+U+FB94	ﮔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf initial form		
+U+FB95	ﮕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gaf medial form		
+U+FB96	ﮖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh isolated form		
+U+FB97	ﮗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh final form		
+U+FB98	ﮘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh initial form		
+U+FB99	ﮙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter gueh medial form		
+U+FB9A	ﮚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh isolated form		
+U+FB9B	ﮛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh final form		
+U+FB9C	ﮜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh initial form		
+U+FB9D	ﮝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ngoeh medial form		
+U+FB9E	ﮞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter noon ghunna isolated form		
+U+FB9F	ﮟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter noon ghunna final form		
+U+FBA0	ﮠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon isolated form		
+U+FBA1	ﮡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon final form		
+U+FBA2	ﮢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon initial form		
+U+FBA3	ﮣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter rnoon medial form		
+U+FBA4	ﮤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh with yeh above isolated form		
+U+FBA5	ﮥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh with yeh above final form		
+U+FBA6	ﮦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal isolated form		
+U+FBA7	ﮧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal final form		
+U+FBA8	ﮨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal initial form		
+U+FBA9	ﮩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh goal medial form		
+U+FBAA	ﮪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee isolated form		
+U+FBAB	ﮫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee final form		
+U+FBAC	ﮬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee initial form		
+U+FBAD	ﮭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter heh doachashmee medial form		
+U+FBAE	ﮮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree isolated form		
+U+FBAF	ﮯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree final form		
+U+FBB0	ﮰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree with hamza above isolated form		
+U+FBB1	ﮱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yeh barree with hamza above final form		
+U+FBB2	﮲	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol dot above		
+U+FBB3	﮳	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol dot below		
+U+FBB4	﮴	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots above		
+U+FBB5	﮵	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots below		
+U+FBB6	﮶	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots above		
+U+FBB7	﮷	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots below		
+U+FBB8	﮸	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots pointing downwards above		
+U+FBB9	﮹	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol three dots pointing downwards below		
+U+FBBA	﮺	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol four dots above		
+U+FBBB	﮻	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol four dots below		
+U+FBBC	﮼	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol double vertical bar below		
+U+FBBD	﮽	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots vertically above		
+U+FBBE	﮾	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol two dots vertically below		
+U+FBBF	﮿	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol ring		
+U+FBC0	﯀	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah above		
+U+FBC1	﯁	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah below		
+U+FBC2	﯂	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol wasla above		
+U+FBD3	ﯓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng isolated form		
+U+FBD4	ﯔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng final form		
+U+FBD5	ﯕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng initial form		
+U+FBD6	ﯖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng medial form		
+U+FBD7	ﯗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u isolated form		
+U+FBD8	ﯘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u final form		
+U+FBD9	ﯙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter oe isolated form		
+U+FBDA	ﯚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter oe final form		
+U+FBDB	ﯛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yu isolated form		
+U+FBDC	ﯜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter yu final form		
+U+FBDD	ﯝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter u with hamza above isolated form		
+U+FBDE	ﯞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ve isolated form		
+U+FBDF	ﯟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ve final form		
+U+FBE0	ﯠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz oe isolated form		
+U+FBE1	ﯡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz oe final form		
+U+FBE2	ﯢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz yu isolated form		
+U+FBE3	ﯣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter kirghiz yu final form		
+U+FBE4	ﯤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e isolated form		
+U+FBE5	ﯥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e final form		
+U+FBE6	ﯦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e initial form		
+U+FBE7	ﯧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter e medial form		
+U+FBE8	ﯨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter uighur kazakh kirghiz alef maksura initial form		
+U+FBE9	ﯩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter uighur kazakh kirghiz alef maksura medial form		
+U+FBEA	ﯪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef isolated form		
+U+FBEB	ﯫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef final form		
+U+FBEC	ﯬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with ae isolated form		
+U+FBED	ﯭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with ae final form		
+U+FBEE	ﯮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with waw isolated form		
+U+FBEF	ﯯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with waw final form		
+U+FBF0	ﯰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with u isolated form		
+U+FBF1	ﯱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with u final form		
+U+FBF2	ﯲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with oe isolated form		
+U+FBF3	ﯳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with oe final form		
+U+FBF4	ﯴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yu isolated form		
+U+FBF5	ﯵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yu final form		
+U+FBF6	ﯶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e isolated form		
+U+FBF7	ﯷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e final form		
+U+FBF8	ﯸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with e initial form		
+U+FBF9	ﯹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura isolated form		
+U+FBFA	ﯺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura final form		
+U+FBFB	ﯻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature uighur kirghiz yeh with hamza above with alef maksura initial form		
+U+FBFC	ﯼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh isolated form		
+U+FBFD	ﯽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh final form		
+U+FBFE	ﯾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh initial form		
+U+FBFF	ﯿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter farsi yeh medial form		
+U+FC00	ﰀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with jeem isolated form		
+U+FC01	ﰁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with hah isolated form		
+U+FC02	ﰂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem isolated form		
+U+FC03	ﰃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef maksura isolated form		
+U+FC04	ﰄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yeh isolated form		
+U+FC05	ﰅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with jeem isolated form		
+U+FC06	ﰆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah isolated form		
+U+FC07	ﰇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah isolated form		
+U+FC08	ﰈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem isolated form		
+U+FC09	ﰉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with alef maksura isolated form		
+U+FC0A	ﰊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with yeh isolated form		
+U+FC0B	ﰋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem isolated form		
+U+FC0C	ﰌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah isolated form		
+U+FC0D	ﰍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah isolated form		
+U+FC0E	ﰎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem isolated form		
+U+FC0F	ﰏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with alef maksura isolated form		
+U+FC10	ﰐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with yeh isolated form		
+U+FC11	ﰑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with jeem isolated form		
+U+FC12	ﰒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem isolated form		
+U+FC13	ﰓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with alef maksura isolated form		
+U+FC14	ﰔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with yeh isolated form		
+U+FC15	ﰕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah isolated form		
+U+FC16	ﰖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem isolated form		
+U+FC17	ﰗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem isolated form		
+U+FC18	ﰘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem isolated form		
+U+FC19	ﰙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with jeem isolated form		
+U+FC1A	ﰚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with hah isolated form		
+U+FC1B	ﰛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with meem isolated form		
+U+FC1C	ﰜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem isolated form		
+U+FC1D	ﰝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah isolated form		
+U+FC1E	ﰞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah isolated form		
+U+FC1F	ﰟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem isolated form		
+U+FC20	ﰠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah isolated form		
+U+FC21	ﰡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem isolated form		
+U+FC22	ﰢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with jeem isolated form		
+U+FC23	ﰣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah isolated form		
+U+FC24	ﰤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah isolated form		
+U+FC25	ﰥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with meem isolated form		
+U+FC26	ﰦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with hah isolated form		
+U+FC27	ﰧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem isolated form		
+U+FC28	ﰨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem isolated form		
+U+FC29	ﰩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem isolated form		
+U+FC2A	ﰪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem isolated form		
+U+FC2B	ﰫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with jeem isolated form		
+U+FC2C	ﰬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem isolated form		
+U+FC2D	ﰭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with jeem isolated form		
+U+FC2E	ﰮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with hah isolated form		
+U+FC2F	ﰯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah isolated form		
+U+FC30	ﰰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem isolated form		
+U+FC31	ﰱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with alef maksura isolated form		
+U+FC32	ﰲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with yeh isolated form		
+U+FC33	ﰳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with hah isolated form		
+U+FC34	ﰴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem isolated form		
+U+FC35	ﰵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with alef maksura isolated form		
+U+FC36	ﰶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with yeh isolated form		
+U+FC37	ﰷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef isolated form		
+U+FC38	ﰸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with jeem isolated form		
+U+FC39	ﰹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with hah isolated form		
+U+FC3A	ﰺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with khah isolated form		
+U+FC3B	ﰻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam isolated form		
+U+FC3C	ﰼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem isolated form		
+U+FC3D	ﰽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef maksura isolated form		
+U+FC3E	ﰾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with yeh isolated form		
+U+FC3F	ﰿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem isolated form		
+U+FC40	ﱀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah isolated form		
+U+FC41	ﱁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah isolated form		
+U+FC42	ﱂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem isolated form		
+U+FC43	ﱃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with alef maksura isolated form		
+U+FC44	ﱄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with yeh isolated form		
+U+FC45	ﱅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem isolated form		
+U+FC46	ﱆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah isolated form		
+U+FC47	ﱇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah isolated form		
+U+FC48	ﱈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem isolated form		
+U+FC49	ﱉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with alef maksura isolated form		
+U+FC4A	ﱊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with yeh isolated form		
+U+FC4B	ﱋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem isolated form		
+U+FC4C	ﱌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah isolated form		
+U+FC4D	ﱍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with khah isolated form		
+U+FC4E	ﱎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem isolated form		
+U+FC4F	ﱏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with alef maksura isolated form		
+U+FC50	ﱐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with yeh isolated form		
+U+FC51	ﱑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with jeem isolated form		
+U+FC52	ﱒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem isolated form		
+U+FC53	ﱓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with alef maksura isolated form		
+U+FC54	ﱔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with yeh isolated form		
+U+FC55	ﱕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem isolated form		
+U+FC56	ﱖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah isolated form		
+U+FC57	ﱗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with khah isolated form		
+U+FC58	ﱘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem isolated form		
+U+FC59	ﱙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with alef maksura isolated form		
+U+FC5A	ﱚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with yeh isolated form		
+U+FC5B	ﱛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature thal with superscript alef isolated form		
+U+FC5C	ﱜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature reh with superscript alef isolated form		
+U+FC5D	ﱝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef maksura with superscript alef isolated form		
+U+FC5E	ﱞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with dammatan isolated form		
+U+FC5F	ﱟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasratan isolated form		
+U+FC60	ﱠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with fatha isolated form		
+U+FC61	ﱡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with damma isolated form		
+U+FC62	ﱢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasra isolated form		
+U+FC63	ﱣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with superscript alef isolated form		
+U+FC64	ﱤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with reh final form		
+U+FC65	ﱥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with zain final form		
+U+FC66	ﱦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem final form		
+U+FC67	ﱧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with noon final form		
+U+FC68	ﱨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with alef maksura final form		
+U+FC69	ﱩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with yeh final form		
+U+FC6A	ﱪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with reh final form		
+U+FC6B	ﱫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with zain final form		
+U+FC6C	ﱬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem final form		
+U+FC6D	ﱭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with noon final form		
+U+FC6E	ﱮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with alef maksura final form		
+U+FC6F	ﱯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with yeh final form		
+U+FC70	ﱰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with reh final form		
+U+FC71	ﱱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with zain final form		
+U+FC72	ﱲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem final form		
+U+FC73	ﱳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with noon final form		
+U+FC74	ﱴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with alef maksura final form		
+U+FC75	ﱵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with yeh final form		
+U+FC76	ﱶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with reh final form		
+U+FC77	ﱷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with zain final form		
+U+FC78	ﱸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem final form		
+U+FC79	ﱹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with noon final form		
+U+FC7A	ﱺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with alef maksura final form		
+U+FC7B	ﱻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with yeh final form		
+U+FC7C	ﱼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with alef maksura final form		
+U+FC7D	ﱽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with yeh final form		
+U+FC7E	ﱾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with alef maksura final form		
+U+FC7F	ﱿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with yeh final form		
+U+FC80	ﲀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef final form		
+U+FC81	ﲁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam final form		
+U+FC82	ﲂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem final form		
+U+FC83	ﲃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with alef maksura final form		
+U+FC84	ﲄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with yeh final form		
+U+FC85	ﲅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem final form		
+U+FC86	ﲆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with alef maksura final form		
+U+FC87	ﲇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with yeh final form		
+U+FC88	ﲈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with alef final form		
+U+FC89	ﲉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem final form		
+U+FC8A	ﲊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with reh final form		
+U+FC8B	ﲋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with zain final form		
+U+FC8C	ﲌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem final form		
+U+FC8D	ﲍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with noon final form		
+U+FC8E	ﲎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with alef maksura final form		
+U+FC8F	ﲏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with yeh final form		
+U+FC90	ﲐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef maksura with superscript alef final form		
+U+FC91	ﲑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with reh final form		
+U+FC92	ﲒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with zain final form		
+U+FC93	ﲓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem final form		
+U+FC94	ﲔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with noon final form		
+U+FC95	ﲕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with alef maksura final form		
+U+FC96	ﲖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with yeh final form		
+U+FC97	ﲗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with jeem initial form		
+U+FC98	ﲘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with hah initial form		
+U+FC99	ﲙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with khah initial form		
+U+FC9A	ﲚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem initial form		
+U+FC9B	ﲛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with heh initial form		
+U+FC9C	ﲜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with jeem initial form		
+U+FC9D	ﲝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah initial form		
+U+FC9E	ﲞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah initial form		
+U+FC9F	ﲟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem initial form		
+U+FCA0	ﲠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with heh initial form		
+U+FCA1	ﲡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem initial form		
+U+FCA2	ﲢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah initial form		
+U+FCA3	ﲣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah initial form		
+U+FCA4	ﲤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem initial form		
+U+FCA5	ﲥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with heh initial form		
+U+FCA6	ﲦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem initial form		
+U+FCA7	ﲧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah initial form		
+U+FCA8	ﲨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem initial form		
+U+FCA9	ﲩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem initial form		
+U+FCAA	ﲪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem initial form		
+U+FCAB	ﲫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with jeem initial form		
+U+FCAC	ﲬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with meem initial form		
+U+FCAD	ﲭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem initial form		
+U+FCAE	ﲮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah initial form		
+U+FCAF	ﲯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah initial form		
+U+FCB0	ﲰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem initial form		
+U+FCB1	ﲱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah initial form		
+U+FCB2	ﲲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with khah initial form		
+U+FCB3	ﲳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem initial form		
+U+FCB4	ﲴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with jeem initial form		
+U+FCB5	ﲵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah initial form		
+U+FCB6	ﲶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah initial form		
+U+FCB7	ﲷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with meem initial form		
+U+FCB8	ﲸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with hah initial form		
+U+FCB9	ﲹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem initial form		
+U+FCBA	ﲺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem initial form		
+U+FCBB	ﲻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem initial form		
+U+FCBC	ﲼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with jeem initial form		
+U+FCBD	ﲽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem initial form		
+U+FCBE	ﲾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with jeem initial form		
+U+FCBF	ﲿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with hah initial form		
+U+FCC0	ﳀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah initial form		
+U+FCC1	ﳁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem initial form		
+U+FCC2	ﳂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with hah initial form		
+U+FCC3	ﳃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem initial form		
+U+FCC4	ﳄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with jeem initial form		
+U+FCC5	ﳅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with hah initial form		
+U+FCC6	ﳆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with khah initial form		
+U+FCC7	ﳇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam initial form		
+U+FCC8	ﳈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem initial form		
+U+FCC9	ﳉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem initial form		
+U+FCCA	ﳊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah initial form		
+U+FCCB	ﳋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah initial form		
+U+FCCC	ﳌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem initial form		
+U+FCCD	ﳍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with heh initial form		
+U+FCCE	ﳎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem initial form		
+U+FCCF	ﳏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah initial form		
+U+FCD0	ﳐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah initial form		
+U+FCD1	ﳑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem initial form		
+U+FCD2	ﳒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem initial form		
+U+FCD3	ﳓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah initial form		
+U+FCD4	ﳔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with khah initial form		
+U+FCD5	ﳕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem initial form		
+U+FCD6	ﳖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with heh initial form		
+U+FCD7	ﳗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with jeem initial form		
+U+FCD8	ﳘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem initial form		
+U+FCD9	ﳙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with superscript alef initial form		
+U+FCDA	ﳚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem initial form		
+U+FCDB	ﳛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah initial form		
+U+FCDC	ﳜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with khah initial form		
+U+FCDD	ﳝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem initial form		
+U+FCDE	ﳞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with heh initial form		
+U+FCDF	ﳟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with meem medial form		
+U+FCE0	ﳠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hamza above with heh medial form		
+U+FCE1	ﳡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with meem medial form		
+U+FCE2	ﳢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with heh medial form		
+U+FCE3	ﳣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem medial form		
+U+FCE4	ﳤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with heh medial form		
+U+FCE5	ﳥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with meem medial form		
+U+FCE6	ﳦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature theh with heh medial form		
+U+FCE7	ﳧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem medial form		
+U+FCE8	ﳨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with heh medial form		
+U+FCE9	ﳩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem medial form		
+U+FCEA	ﳪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with heh medial form		
+U+FCEB	ﳫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with lam medial form		
+U+FCEC	ﳬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem medial form		
+U+FCED	ﳭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem medial form		
+U+FCEE	ﳮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem medial form		
+U+FCEF	ﳯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with heh medial form		
+U+FCF0	ﳰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem medial form		
+U+FCF1	ﳱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with heh medial form		
+U+FCF2	ﳲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with fatha medial form		
+U+FCF3	ﳳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with damma medial form		
+U+FCF4	ﳴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature shadda with kasra medial form		
+U+FCF5	ﳵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with alef maksura isolated form		
+U+FCF6	ﳶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with yeh isolated form		
+U+FCF7	ﳷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with alef maksura isolated form		
+U+FCF8	ﳸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with yeh isolated form		
+U+FCF9	ﳹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with alef maksura isolated form		
+U+FCFA	ﳺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with yeh isolated form		
+U+FCFB	ﳻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with alef maksura isolated form		
+U+FCFC	ﳼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with yeh isolated form		
+U+FCFD	ﳽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with alef maksura isolated form		
+U+FCFE	ﳾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with yeh isolated form		
+U+FCFF	ﳿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with alef maksura isolated form		
+U+FD00	ﴀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with yeh isolated form		
+U+FD01	ﴁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with alef maksura isolated form		
+U+FD02	ﴂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with yeh isolated form		
+U+FD03	ﴃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with alef maksura isolated form		
+U+FD04	ﴄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with yeh isolated form		
+U+FD05	ﴅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with alef maksura isolated form		
+U+FD06	ﴆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with yeh isolated form		
+U+FD07	ﴇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with alef maksura isolated form		
+U+FD08	ﴈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with yeh isolated form		
+U+FD09	ﴉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem isolated form		
+U+FD0A	ﴊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah isolated form		
+U+FD0B	ﴋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah isolated form		
+U+FD0C	ﴌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem isolated form		
+U+FD0D	ﴍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with reh isolated form		
+U+FD0E	ﴎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with reh isolated form		
+U+FD0F	ﴏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with reh isolated form		
+U+FD10	ﴐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with reh isolated form		
+U+FD11	ﴑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with alef maksura final form		
+U+FD12	ﴒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with yeh final form		
+U+FD13	ﴓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with alef maksura final form		
+U+FD14	ﴔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with yeh final form		
+U+FD15	ﴕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with alef maksura final form		
+U+FD16	ﴖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with yeh final form		
+U+FD17	ﴗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with alef maksura final form		
+U+FD18	ﴘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with yeh final form		
+U+FD19	ﴙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with alef maksura final form		
+U+FD1A	ﴚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with yeh final form		
+U+FD1B	ﴛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with alef maksura final form		
+U+FD1C	ﴜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with yeh final form		
+U+FD1D	ﴝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with alef maksura final form		
+U+FD1E	ﴞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with yeh final form		
+U+FD1F	ﴟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with alef maksura final form		
+U+FD20	ﴠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature khah with yeh final form		
+U+FD21	ﴡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with alef maksura final form		
+U+FD22	ﴢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with yeh final form		
+U+FD23	ﴣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with alef maksura final form		
+U+FD24	ﴤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with yeh final form		
+U+FD25	ﴥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem final form		
+U+FD26	ﴦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah final form		
+U+FD27	ﴧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah final form		
+U+FD28	ﴨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem final form		
+U+FD29	ﴩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with reh final form		
+U+FD2A	ﴪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with reh final form		
+U+FD2B	ﴫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with reh final form		
+U+FD2C	ﴬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with reh final form		
+U+FD2D	ﴭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem initial form		
+U+FD2E	ﴮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah initial form		
+U+FD2F	ﴯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah initial form		
+U+FD30	ﴰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem initial form		
+U+FD31	ﴱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with heh initial form		
+U+FD32	ﴲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with heh initial form		
+U+FD33	ﴳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem initial form		
+U+FD34	ﴴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem medial form		
+U+FD35	ﴵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah medial form		
+U+FD36	ﴶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah medial form		
+U+FD37	ﴷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem medial form		
+U+FD38	ﴸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah medial form		
+U+FD39	ﴹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with khah medial form		
+U+FD3A	ﴺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem medial form		
+U+FD3B	ﴻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature zah with meem medial form		
+U+FD3C	ﴼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef with fathatan final form		
+U+FD3D	ﴽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alef with fathatan isolated form		
+U+FD3E	﴾	FB50..FDFF	Arabic Presentation Forms-A	Ornate left parenthesis		
+U+FD3F	﴿	FB50..FDFF	Arabic Presentation Forms-A	Ornate right parenthesis		
+U+FD40	﵀	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahu allaah		
+U+FD41	﵁	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anh		
+U+FD42	﵂	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhaa		
+U+FD43	﵃	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhum		
+U+FD44	﵄	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhumaa		
+U+FD45	﵅	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu anhunna		
+U+FD46	﵆	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallaahu alayhi wa-aalih		
+U+FD47	﵇	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhi as-salaam		
+U+FD48	﵈	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhim as-salaam		
+U+FD49	﵉	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhimaa as-salaam		
+U+FD4A	﵊	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhi as-salaatu was-salaam		
+U+FD4B	﵋	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature quddisa sirrah		
+U+FD4C	﵌	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallahu alayhi waaalihee wa-sallam		
+U+FD4D	﵍	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhaa as-salaam		
+U+FD4E	﵎	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tabaaraka wa-taaalaa		
+U+FD4F	﵏	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahum allaah		
+U+FD50	ﵐ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with meem initial form		
+U+FD51	ﵑ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with jeem final form		
+U+FD52	ﵒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with jeem initial form		
+U+FD53	ﵓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with hah with meem initial form		
+U+FD54	ﵔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with meem initial form		
+U+FD55	ﵕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with jeem initial form		
+U+FD56	ﵖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with hah initial form		
+U+FD57	ﵗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with khah initial form		
+U+FD58	ﵘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with hah final form		
+U+FD59	ﵙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with hah initial form		
+U+FD5A	ﵚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem with yeh final form		
+U+FD5B	ﵛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with meem with alef maksura final form		
+U+FD5C	ﵜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with hah with jeem initial form		
+U+FD5D	ﵝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem with hah initial form		
+U+FD5E	ﵞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with jeem with alef maksura final form		
+U+FD5F	ﵟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with hah final form		
+U+FD60	ﵠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with hah initial form		
+U+FD61	ﵡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with jeem initial form		
+U+FD62	ﵢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with meem final form		
+U+FD63	ﵣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with meem with meem initial form		
+U+FD64	ﵤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with hah final form		
+U+FD65	ﵥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with hah initial form		
+U+FD66	ﵦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem with meem final form		
+U+FD67	ﵧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with meem final form		
+U+FD68	ﵨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with meem initial form		
+U+FD69	ﵩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with jeem with yeh final form		
+U+FD6A	ﵪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with khah final form		
+U+FD6B	ﵫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with khah initial form		
+U+FD6C	ﵬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with meem final form		
+U+FD6D	ﵭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with meem with meem initial form		
+U+FD6E	ﵮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah with alef maksura final form		
+U+FD6F	ﵯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah with meem final form		
+U+FD70	ﵰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with khah with meem initial form		
+U+FD71	ﵱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with hah final form		
+U+FD72	ﵲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with hah initial form		
+U+FD73	ﵳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with meem initial form		
+U+FD74	ﵴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature tah with meem with yeh final form		
+U+FD75	ﵵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem with meem final form		
+U+FD76	ﵶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with meem final form		
+U+FD77	ﵷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with meem initial form		
+U+FD78	ﵸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with alef maksura final form		
+U+FD79	ﵹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with meem final form		
+U+FD7A	ﵺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with yeh final form		
+U+FD7B	ﵻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ghain with meem with alef maksura final form		
+U+FD7C	ﵼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah with meem final form		
+U+FD7D	ﵽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with khah with meem initial form		
+U+FD7E	ﵾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with hah final form		
+U+FD7F	ﵿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with meem final form		
+U+FD80	ﶀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with meem final form		
+U+FD81	ﶁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with yeh final form		
+U+FD82	ﶂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with alef maksura final form		
+U+FD83	ﶃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with jeem initial form		
+U+FD84	ﶄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with jeem final form		
+U+FD85	ﶅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah with meem final form		
+U+FD86	ﶆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with khah with meem initial form		
+U+FD87	ﶇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with hah final form		
+U+FD88	ﶈ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with hah initial form		
+U+FD89	ﶉ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with jeem initial form		
+U+FD8A	ﶊ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with meem initial form		
+U+FD8B	ﶋ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with hah with yeh final form		
+U+FD8C	ﶌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with hah initial form		
+U+FD8D	ﶍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with meem initial form		
+U+FD8E	ﶎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with jeem initial form		
+U+FD8F	ﶏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with meem initial form		
+U+FD92	ﶒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with khah initial form		
+U+FD93	ﶓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with jeem initial form		
+U+FD94	ﶔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with meem initial form		
+U+FD95	ﶕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with meem initial form		
+U+FD96	ﶖ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with alef maksura final form		
+U+FD97	ﶗ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with meem final form		
+U+FD98	ﶘ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with meem initial form		
+U+FD99	ﶙ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with alef maksura final form		
+U+FD9A	ﶚ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem with yeh final form		
+U+FD9B	ﶛ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with meem with alef maksura final form		
+U+FD9C	ﶜ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with meem final form		
+U+FD9D	ﶝ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with meem initial form		
+U+FD9E	ﶞ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with khah with yeh final form		
+U+FD9F	ﶟ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with yeh final form		
+U+FDA0	ﶠ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with jeem with alef maksura final form		
+U+FDA1	ﶡ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with yeh final form		
+U+FDA2	ﶢ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with khah with alef maksura final form		
+U+FDA3	ﶣ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with yeh final form		
+U+FDA4	ﶤ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature teh with meem with alef maksura final form		
+U+FDA5	ﶥ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with yeh final form		
+U+FDA6	ﶦ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah with alef maksura final form		
+U+FDA7	ﶧ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with meem with alef maksura final form		
+U+FDA8	ﶨ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah with alef maksura final form		
+U+FDA9	ﶩ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with hah with yeh final form		
+U+FDAA	ﶪ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sheen with hah with yeh final form		
+U+FDAB	ﶫ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature dad with hah with yeh final form		
+U+FDAC	ﶬ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with yeh final form		
+U+FDAD	ﶭ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with meem with yeh final form		
+U+FDAE	ﶮ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with hah with yeh final form		
+U+FDAF	ﶯ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with jeem with yeh final form		
+U+FDB0	ﶰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature yeh with meem with yeh final form		
+U+FDB1	ﶱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with meem with yeh final form		
+U+FDB2	ﶲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with yeh final form		
+U+FDB3	ﶳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with hah with yeh final form		
+U+FDB4	ﶴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qaf with meem with hah initial form		
+U+FDB5	ﶵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with hah with meem initial form		
+U+FDB6	ﶶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with meem with yeh final form		
+U+FDB7	ﶷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with yeh final form		
+U+FDB8	ﶸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with hah initial form		
+U+FDB9	ﶹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with yeh final form		
+U+FDBA	ﶺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with meem initial form		
+U+FDBB	ﶻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with meem final form		
+U+FDBC	ﶼ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature lam with jeem with meem final form		
+U+FDBD	ﶽ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with hah final form		
+U+FDBE	ﶾ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jeem with hah with yeh final form		
+U+FDBF	ﶿ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hah with jeem with yeh final form		
+U+FDC0	ﷀ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with yeh final form		
+U+FDC1	ﷁ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature feh with meem with yeh final form		
+U+FDC2	ﷂ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature beh with hah with yeh final form		
+U+FDC3	ﷃ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature kaf with meem with meem initial form		
+U+FDC4	ﷄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem with meem initial form		
+U+FDC5	ﷅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem with meem initial form		
+U+FDC6	ﷆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah with yeh final form		
+U+FDC7	ﷇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with yeh final form		
+U+FDCF	﷏	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salaamuhu alaynaa		
+U+FDF0	ﷰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salla used as koranic stop sign isolated form		
+U+FDF1	ﷱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qala used as koranic stop sign isolated form		
+U+FDF2	ﷲ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature allah isolated form		
+U+FDF3	ﷳ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature akbar isolated form		
+U+FDF4	ﷴ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature mohammad isolated form		
+U+FDF5	ﷵ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salam isolated form		
+U+FDF6	ﷶ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rasoul isolated form		
+U+FDF7	ﷷ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhe isolated form		
+U+FDF8	ﷸ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature wasallam isolated form		
+U+FDF9	ﷹ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salla isolated form		
+U+FDFA	ﷺ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallahou alayhe wasallam		
+U+FDFB	ﷻ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jallajalalouhou		
+U+FDFC	﷼	FB50..FDFF	Arabic Presentation Forms-A	Rial sign		
+U+FDFD	﷽	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature bismillah ar-rahman ar-raheem		
+U+FDFE	﷾	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature subhaanahu wa taaalaa		
+U+FDFF	﷿	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature azza wa jall		

@@ -1,92 +1,92 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0A81	"""ઁ"""	0A80..0AFF	Gujarati	Gujarati sign candrabindu		
-0A82	"""ં"""	0A80..0AFF	Gujarati	Gujarati sign anusvara		
-0A83	"""ઃ"""	0A80..0AFF	Gujarati	Gujarati sign visarga		
-0A85	"""અ"""	0A80..0AFF	Gujarati	Gujarati letter a		
-0A86	"""આ"""	0A80..0AFF	Gujarati	Gujarati letter aa		
-0A87	"""ઇ"""	0A80..0AFF	Gujarati	Gujarati letter i		
-0A88	"""ઈ"""	0A80..0AFF	Gujarati	Gujarati letter ii		
-0A89	"""ઉ"""	0A80..0AFF	Gujarati	Gujarati letter u		
-0A8A	"""ઊ"""	0A80..0AFF	Gujarati	Gujarati letter uu		
-0A8B	"""ઋ"""	0A80..0AFF	Gujarati	Gujarati letter vocalic r		
-0A8C	"""ઌ"""	0A80..0AFF	Gujarati	Gujarati letter vocalic l		
-0A8D	"""ઍ"""	0A80..0AFF	Gujarati	Gujarati vowel candra e		
-0A8F	"""એ"""	0A80..0AFF	Gujarati	Gujarati letter e		
-0A90	"""ઐ"""	0A80..0AFF	Gujarati	Gujarati letter ai		
-0A91	"""ઑ"""	0A80..0AFF	Gujarati	Gujarati vowel candra o		
-0A93	"""ઓ"""	0A80..0AFF	Gujarati	Gujarati letter o		
-0A94	"""ઔ"""	0A80..0AFF	Gujarati	Gujarati letter au		
-0A95	"""ક"""	0A80..0AFF	Gujarati	Gujarati letter ka		
-0A96	"""ખ"""	0A80..0AFF	Gujarati	Gujarati letter kha		
-0A97	"""ગ"""	0A80..0AFF	Gujarati	Gujarati letter ga		
-0A98	"""ઘ"""	0A80..0AFF	Gujarati	Gujarati letter gha		
-0A99	"""ઙ"""	0A80..0AFF	Gujarati	Gujarati letter nga		
-0A9A	"""ચ"""	0A80..0AFF	Gujarati	Gujarati letter ca		
-0A9B	"""છ"""	0A80..0AFF	Gujarati	Gujarati letter cha		
-0A9C	"""જ"""	0A80..0AFF	Gujarati	Gujarati letter ja		
-0A9D	"""ઝ"""	0A80..0AFF	Gujarati	Gujarati letter jha		
-0A9E	"""ઞ"""	0A80..0AFF	Gujarati	Gujarati letter nya		
-0A9F	"""ટ"""	0A80..0AFF	Gujarati	Gujarati letter tta		
-0AA0	"""ઠ"""	0A80..0AFF	Gujarati	Gujarati letter ttha		
-0AA1	"""ડ"""	0A80..0AFF	Gujarati	Gujarati letter dda		
-0AA2	"""ઢ"""	0A80..0AFF	Gujarati	Gujarati letter ddha		
-0AA3	"""ણ"""	0A80..0AFF	Gujarati	Gujarati letter nna		
-0AA4	"""ત"""	0A80..0AFF	Gujarati	Gujarati letter ta		
-0AA5	"""થ"""	0A80..0AFF	Gujarati	Gujarati letter tha		
-0AA6	"""દ"""	0A80..0AFF	Gujarati	Gujarati letter da		
-0AA7	"""ધ"""	0A80..0AFF	Gujarati	Gujarati letter dha		
-0AA8	"""ન"""	0A80..0AFF	Gujarati	Gujarati letter na		
-0AAA	"""પ"""	0A80..0AFF	Gujarati	Gujarati letter pa		
-0AAB	"""ફ"""	0A80..0AFF	Gujarati	Gujarati letter pha		
-0AAC	"""બ"""	0A80..0AFF	Gujarati	Gujarati letter ba		
-0AAD	"""ભ"""	0A80..0AFF	Gujarati	Gujarati letter bha		
-0AAE	"""મ"""	0A80..0AFF	Gujarati	Gujarati letter ma		
-0AAF	"""ય"""	0A80..0AFF	Gujarati	Gujarati letter ya		
-0AB0	"""ર"""	0A80..0AFF	Gujarati	Gujarati letter ra		
-0AB2	"""લ"""	0A80..0AFF	Gujarati	Gujarati letter la		
-0AB3	"""ળ"""	0A80..0AFF	Gujarati	Gujarati letter lla		
-0AB5	"""વ"""	0A80..0AFF	Gujarati	Gujarati letter va		
-0AB6	"""શ"""	0A80..0AFF	Gujarati	Gujarati letter sha		
-0AB7	"""ષ"""	0A80..0AFF	Gujarati	Gujarati letter ssa		
-0AB8	"""સ"""	0A80..0AFF	Gujarati	Gujarati letter sa		
-0AB9	"""હ"""	0A80..0AFF	Gujarati	Gujarati letter ha		
-0ABC	"""઼"""	0A80..0AFF	Gujarati	Gujarati sign nukta		
-0ABD	"""ઽ"""	0A80..0AFF	Gujarati	Gujarati sign avagraha		
-0ABE	"""ા"""	0A80..0AFF	Gujarati	Gujarati vowel sign aa		
-0ABF	"""િ"""	0A80..0AFF	Gujarati	Gujarati vowel sign i		
-0AC0	"""ી"""	0A80..0AFF	Gujarati	Gujarati vowel sign ii		
-0AC1	"""ુ"""	0A80..0AFF	Gujarati	Gujarati vowel sign u		
-0AC2	"""ૂ"""	0A80..0AFF	Gujarati	Gujarati vowel sign uu		
-0AC3	"""ૃ"""	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic r		
-0AC4	"""ૄ"""	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic rr		
-0AC5	"""ૅ"""	0A80..0AFF	Gujarati	Gujarati vowel sign candra e		
-0AC7	"""ે"""	0A80..0AFF	Gujarati	Gujarati vowel sign e		
-0AC8	"""ૈ"""	0A80..0AFF	Gujarati	Gujarati vowel sign ai		
-0AC9	"""ૉ"""	0A80..0AFF	Gujarati	Gujarati vowel sign candra o		
-0ACB	"""ો"""	0A80..0AFF	Gujarati	Gujarati vowel sign o		
-0ACC	"""ૌ"""	0A80..0AFF	Gujarati	Gujarati vowel sign au		
-0ACD	"""્"""	0A80..0AFF	Gujarati	Gujarati sign virama		
-0AD0	"""ૐ"""	0A80..0AFF	Gujarati	Gujarati om		
-0AE0	"""ૠ"""	0A80..0AFF	Gujarati	Gujarati letter vocalic rr		
-0AE1	"""ૡ"""	0A80..0AFF	Gujarati	Gujarati letter vocalic ll		
-0AE2	"""ૢ"""	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic l		
-0AE3	"""ૣ"""	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic ll		
-0AE6	"""૦"""	0A80..0AFF	Gujarati	Gujarati digit zero		
-0AE7	"""૧"""	0A80..0AFF	Gujarati	Gujarati digit one		
-0AE8	"""૨"""	0A80..0AFF	Gujarati	Gujarati digit two		
-0AE9	"""૩"""	0A80..0AFF	Gujarati	Gujarati digit three		
-0AEA	"""૪"""	0A80..0AFF	Gujarati	Gujarati digit four		
-0AEB	"""૫"""	0A80..0AFF	Gujarati	Gujarati digit five		
-0AEC	"""૬"""	0A80..0AFF	Gujarati	Gujarati digit six		
-0AED	"""૭"""	0A80..0AFF	Gujarati	Gujarati digit seven		
-0AEE	"""૮"""	0A80..0AFF	Gujarati	Gujarati digit eight		
-0AEF	"""૯"""	0A80..0AFF	Gujarati	Gujarati digit nine		
-0AF0	"""૰"""	0A80..0AFF	Gujarati	Gujarati abbreviation sign		
-0AF1	"""૱"""	0A80..0AFF	Gujarati	Gujarati rupee sign		
-0AF9	"""ૹ"""	0A80..0AFF	Gujarati	Gujarati letter zha		
-0AFA	"""ૺ"""	0A80..0AFF	Gujarati	Gujarati sign sukun		
-0AFB	"""ૻ"""	0A80..0AFF	Gujarati	Gujarati sign shadda		
-0AFC	"""ૼ"""	0A80..0AFF	Gujarati	Gujarati sign maddah		
-0AFD	"""૽"""	0A80..0AFF	Gujarati	Gujarati sign three-dot nukta above		
-0AFE	"""૾"""	0A80..0AFF	Gujarati	Gujarati sign circle nukta above		
-0AFF	"""૿"""	0A80..0AFF	Gujarati	Gujarati sign two-circle nukta above		
+U+0A81	ઁ	0A80..0AFF	Gujarati	Gujarati sign candrabindu		
+U+0A82	ં	0A80..0AFF	Gujarati	Gujarati sign anusvara		
+U+0A83	ઃ	0A80..0AFF	Gujarati	Gujarati sign visarga		
+U+0A85	અ	0A80..0AFF	Gujarati	Gujarati letter a		
+U+0A86	આ	0A80..0AFF	Gujarati	Gujarati letter aa		
+U+0A87	ઇ	0A80..0AFF	Gujarati	Gujarati letter i		
+U+0A88	ઈ	0A80..0AFF	Gujarati	Gujarati letter ii		
+U+0A89	ઉ	0A80..0AFF	Gujarati	Gujarati letter u		
+U+0A8A	ઊ	0A80..0AFF	Gujarati	Gujarati letter uu		
+U+0A8B	ઋ	0A80..0AFF	Gujarati	Gujarati letter vocalic r		
+U+0A8C	ઌ	0A80..0AFF	Gujarati	Gujarati letter vocalic l		
+U+0A8D	ઍ	0A80..0AFF	Gujarati	Gujarati vowel candra e		
+U+0A8F	એ	0A80..0AFF	Gujarati	Gujarati letter e		
+U+0A90	ઐ	0A80..0AFF	Gujarati	Gujarati letter ai		
+U+0A91	ઑ	0A80..0AFF	Gujarati	Gujarati vowel candra o		
+U+0A93	ઓ	0A80..0AFF	Gujarati	Gujarati letter o		
+U+0A94	ઔ	0A80..0AFF	Gujarati	Gujarati letter au		
+U+0A95	ક	0A80..0AFF	Gujarati	Gujarati letter ka		
+U+0A96	ખ	0A80..0AFF	Gujarati	Gujarati letter kha		
+U+0A97	ગ	0A80..0AFF	Gujarati	Gujarati letter ga		
+U+0A98	ઘ	0A80..0AFF	Gujarati	Gujarati letter gha		
+U+0A99	ઙ	0A80..0AFF	Gujarati	Gujarati letter nga		
+U+0A9A	ચ	0A80..0AFF	Gujarati	Gujarati letter ca		
+U+0A9B	છ	0A80..0AFF	Gujarati	Gujarati letter cha		
+U+0A9C	જ	0A80..0AFF	Gujarati	Gujarati letter ja		
+U+0A9D	ઝ	0A80..0AFF	Gujarati	Gujarati letter jha		
+U+0A9E	ઞ	0A80..0AFF	Gujarati	Gujarati letter nya		
+U+0A9F	ટ	0A80..0AFF	Gujarati	Gujarati letter tta		
+U+0AA0	ઠ	0A80..0AFF	Gujarati	Gujarati letter ttha		
+U+0AA1	ડ	0A80..0AFF	Gujarati	Gujarati letter dda		
+U+0AA2	ઢ	0A80..0AFF	Gujarati	Gujarati letter ddha		
+U+0AA3	ણ	0A80..0AFF	Gujarati	Gujarati letter nna		
+U+0AA4	ત	0A80..0AFF	Gujarati	Gujarati letter ta		
+U+0AA5	થ	0A80..0AFF	Gujarati	Gujarati letter tha		
+U+0AA6	દ	0A80..0AFF	Gujarati	Gujarati letter da		
+U+0AA7	ધ	0A80..0AFF	Gujarati	Gujarati letter dha		
+U+0AA8	ન	0A80..0AFF	Gujarati	Gujarati letter na		
+U+0AAA	પ	0A80..0AFF	Gujarati	Gujarati letter pa		
+U+0AAB	ફ	0A80..0AFF	Gujarati	Gujarati letter pha		
+U+0AAC	બ	0A80..0AFF	Gujarati	Gujarati letter ba		
+U+0AAD	ભ	0A80..0AFF	Gujarati	Gujarati letter bha		
+U+0AAE	મ	0A80..0AFF	Gujarati	Gujarati letter ma		
+U+0AAF	ય	0A80..0AFF	Gujarati	Gujarati letter ya		
+U+0AB0	ર	0A80..0AFF	Gujarati	Gujarati letter ra		
+U+0AB2	લ	0A80..0AFF	Gujarati	Gujarati letter la		
+U+0AB3	ળ	0A80..0AFF	Gujarati	Gujarati letter lla		
+U+0AB5	વ	0A80..0AFF	Gujarati	Gujarati letter va		
+U+0AB6	શ	0A80..0AFF	Gujarati	Gujarati letter sha		
+U+0AB7	ષ	0A80..0AFF	Gujarati	Gujarati letter ssa		
+U+0AB8	સ	0A80..0AFF	Gujarati	Gujarati letter sa		
+U+0AB9	હ	0A80..0AFF	Gujarati	Gujarati letter ha		
+U+0ABC	઼	0A80..0AFF	Gujarati	Gujarati sign nukta		
+U+0ABD	ઽ	0A80..0AFF	Gujarati	Gujarati sign avagraha		
+U+0ABE	ા	0A80..0AFF	Gujarati	Gujarati vowel sign aa		
+U+0ABF	િ	0A80..0AFF	Gujarati	Gujarati vowel sign i		
+U+0AC0	ી	0A80..0AFF	Gujarati	Gujarati vowel sign ii		
+U+0AC1	ુ	0A80..0AFF	Gujarati	Gujarati vowel sign u		
+U+0AC2	ૂ	0A80..0AFF	Gujarati	Gujarati vowel sign uu		
+U+0AC3	ૃ	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic r		
+U+0AC4	ૄ	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic rr		
+U+0AC5	ૅ	0A80..0AFF	Gujarati	Gujarati vowel sign candra e		
+U+0AC7	ે	0A80..0AFF	Gujarati	Gujarati vowel sign e		
+U+0AC8	ૈ	0A80..0AFF	Gujarati	Gujarati vowel sign ai		
+U+0AC9	ૉ	0A80..0AFF	Gujarati	Gujarati vowel sign candra o		
+U+0ACB	ો	0A80..0AFF	Gujarati	Gujarati vowel sign o		
+U+0ACC	ૌ	0A80..0AFF	Gujarati	Gujarati vowel sign au		
+U+0ACD	્	0A80..0AFF	Gujarati	Gujarati sign virama		
+U+0AD0	ૐ	0A80..0AFF	Gujarati	Gujarati om		
+U+0AE0	ૠ	0A80..0AFF	Gujarati	Gujarati letter vocalic rr		
+U+0AE1	ૡ	0A80..0AFF	Gujarati	Gujarati letter vocalic ll		
+U+0AE2	ૢ	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic l		
+U+0AE3	ૣ	0A80..0AFF	Gujarati	Gujarati vowel sign vocalic ll		
+U+0AE6	૦	0A80..0AFF	Gujarati	Gujarati digit zero		
+U+0AE7	૧	0A80..0AFF	Gujarati	Gujarati digit one		
+U+0AE8	૨	0A80..0AFF	Gujarati	Gujarati digit two		
+U+0AE9	૩	0A80..0AFF	Gujarati	Gujarati digit three		
+U+0AEA	૪	0A80..0AFF	Gujarati	Gujarati digit four		
+U+0AEB	૫	0A80..0AFF	Gujarati	Gujarati digit five		
+U+0AEC	૬	0A80..0AFF	Gujarati	Gujarati digit six		
+U+0AED	૭	0A80..0AFF	Gujarati	Gujarati digit seven		
+U+0AEE	૮	0A80..0AFF	Gujarati	Gujarati digit eight		
+U+0AEF	૯	0A80..0AFF	Gujarati	Gujarati digit nine		
+U+0AF0	૰	0A80..0AFF	Gujarati	Gujarati abbreviation sign		
+U+0AF1	૱	0A80..0AFF	Gujarati	Gujarati rupee sign		
+U+0AF9	ૹ	0A80..0AFF	Gujarati	Gujarati letter zha		
+U+0AFA	ૺ	0A80..0AFF	Gujarati	Gujarati sign sukun		
+U+0AFB	ૻ	0A80..0AFF	Gujarati	Gujarati sign shadda		
+U+0AFC	ૼ	0A80..0AFF	Gujarati	Gujarati sign maddah		
+U+0AFD	૽	0A80..0AFF	Gujarati	Gujarati sign three-dot nukta above		
+U+0AFE	૾	0A80..0AFF	Gujarati	Gujarati sign circle nukta above		
+U+0AFF	૿	0A80..0AFF	Gujarati	Gujarati sign two-circle nukta above		

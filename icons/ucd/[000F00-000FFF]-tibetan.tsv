@@ -1,212 +1,212 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0F00	"""ༀ"""	0F00..0FFF	Tibetan	Tibetan syllable om		
-0F01	"""༁"""	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo truncated a		
-0F02	"""༂"""	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo -um rnam bcad ma		
-0F03	"""༃"""	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo -um gter tsheg ma		
-0F04	"""༄"""	0F00..0FFF	Tibetan	Tibetan mark initial yig mgo mdun ma		
-0F05	"""༅"""	0F00..0FFF	Tibetan	Tibetan mark closing yig mgo sgab ma		
-0F06	"""༆"""	0F00..0FFF	Tibetan	Tibetan mark caret yig mgo phur shad ma		
-0F07	"""༇"""	0F00..0FFF	Tibetan	Tibetan mark yig mgo tsheg shad ma		
-0F08	"""༈"""	0F00..0FFF	Tibetan	Tibetan mark sbrul shad		
-0F09	"""༉"""	0F00..0FFF	Tibetan	Tibetan mark bskur yig mgo		
-0F0A	"""༊"""	0F00..0FFF	Tibetan	Tibetan mark bka- shog yig mgo		
-0F0B	"""་"""	0F00..0FFF	Tibetan	Tibetan mark intersyllabic tsheg		
-0F0C	"""༌"""	0F00..0FFF	Tibetan	Tibetan mark delimiter tsheg bstar		
-0F0D	"""།"""	0F00..0FFF	Tibetan	Tibetan mark shad		
-0F0E	"""༎"""	0F00..0FFF	Tibetan	Tibetan mark nyis shad		
-0F0F	"""༏"""	0F00..0FFF	Tibetan	Tibetan mark tsheg shad		
-0F10	"""༐"""	0F00..0FFF	Tibetan	Tibetan mark nyis tsheg shad		
-0F11	"""༑"""	0F00..0FFF	Tibetan	Tibetan mark rin chen spungs shad		
-0F12	"""༒"""	0F00..0FFF	Tibetan	Tibetan mark rgya gram shad		
-0F13	"""༓"""	0F00..0FFF	Tibetan	Tibetan mark caret -dzud rtags me long can		
-0F14	"""༔"""	0F00..0FFF	Tibetan	Tibetan mark gter tsheg		
-0F15	"""༕"""	0F00..0FFF	Tibetan	Tibetan logotype sign chad rtags		
-0F16	"""༖"""	0F00..0FFF	Tibetan	Tibetan logotype sign lhag rtags		
-0F17	"""༗"""	0F00..0FFF	Tibetan	Tibetan astrological sign sgra gcan -char rtags		
-0F18	"""༘"""	0F00..0FFF	Tibetan	Tibetan astrological sign -khyud pa		
-0F19	"""༙"""	0F00..0FFF	Tibetan	Tibetan astrological sign sdong tshugs		
-0F1A	"""༚"""	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gcig		
-0F1B	"""༛"""	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gnyis		
-0F1C	"""༜"""	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gsum		
-0F1D	"""༝"""	0F00..0FFF	Tibetan	Tibetan sign rdel nag gcig		
-0F1E	"""༞"""	0F00..0FFF	Tibetan	Tibetan sign rdel nag gnyis		
-0F1F	"""༟"""	0F00..0FFF	Tibetan	Tibetan sign rdel dkar rdel nag		
-0F20	"""༠"""	0F00..0FFF	Tibetan	Tibetan digit zero		
-0F21	"""༡"""	0F00..0FFF	Tibetan	Tibetan digit one		
-0F22	"""༢"""	0F00..0FFF	Tibetan	Tibetan digit two		
-0F23	"""༣"""	0F00..0FFF	Tibetan	Tibetan digit three		
-0F24	"""༤"""	0F00..0FFF	Tibetan	Tibetan digit four		
-0F25	"""༥"""	0F00..0FFF	Tibetan	Tibetan digit five		
-0F26	"""༦"""	0F00..0FFF	Tibetan	Tibetan digit six		
-0F27	"""༧"""	0F00..0FFF	Tibetan	Tibetan digit seven		
-0F28	"""༨"""	0F00..0FFF	Tibetan	Tibetan digit eight		
-0F29	"""༩"""	0F00..0FFF	Tibetan	Tibetan digit nine		
-0F2A	"""༪"""	0F00..0FFF	Tibetan	Tibetan digit half one		
-0F2B	"""༫"""	0F00..0FFF	Tibetan	Tibetan digit half two		
-0F2C	"""༬"""	0F00..0FFF	Tibetan	Tibetan digit half three		
-0F2D	"""༭"""	0F00..0FFF	Tibetan	Tibetan digit half four		
-0F2E	"""༮"""	0F00..0FFF	Tibetan	Tibetan digit half five		
-0F2F	"""༯"""	0F00..0FFF	Tibetan	Tibetan digit half six		
-0F30	"""༰"""	0F00..0FFF	Tibetan	Tibetan digit half seven		
-0F31	"""༱"""	0F00..0FFF	Tibetan	Tibetan digit half eight		
-0F32	"""༲"""	0F00..0FFF	Tibetan	Tibetan digit half nine		
-0F33	"""༳"""	0F00..0FFF	Tibetan	Tibetan digit half zero		
-0F34	"""༴"""	0F00..0FFF	Tibetan	Tibetan mark bsdus rtags		
-0F35	"""༵"""	0F00..0FFF	Tibetan	Tibetan mark ngas bzung nyi zla		
-0F36	"""༶"""	0F00..0FFF	Tibetan	Tibetan mark caret -dzud rtags bzhi mig can		
-0F37	"""༷"""	0F00..0FFF	Tibetan	Tibetan mark ngas bzung sgor rtags		
-0F38	"""༸"""	0F00..0FFF	Tibetan	Tibetan mark che mgo		
-0F39	"""༹"""	0F00..0FFF	Tibetan	Tibetan mark tsa -phru		
-0F3A	"""༺"""	0F00..0FFF	Tibetan	Tibetan mark gug rtags gyon		
-0F3B	"""༻"""	0F00..0FFF	Tibetan	Tibetan mark gug rtags gyas		
-0F3C	"""༼"""	0F00..0FFF	Tibetan	Tibetan mark ang khang gyon		
-0F3D	"""༽"""	0F00..0FFF	Tibetan	Tibetan mark ang khang gyas		
-0F3E	"""༾"""	0F00..0FFF	Tibetan	Tibetan sign yar tshes		
-0F3F	"""༿"""	0F00..0FFF	Tibetan	Tibetan sign mar tshes		
-0F40	"""ཀ"""	0F00..0FFF	Tibetan	Tibetan letter ka		
-0F41	"""ཁ"""	0F00..0FFF	Tibetan	Tibetan letter kha		
-0F42	"""ག"""	0F00..0FFF	Tibetan	Tibetan letter ga		
-0F43	"""གྷ"""	0F00..0FFF	Tibetan	Tibetan letter gha		
-0F44	"""ང"""	0F00..0FFF	Tibetan	Tibetan letter nga		
-0F45	"""ཅ"""	0F00..0FFF	Tibetan	Tibetan letter ca		
-0F46	"""ཆ"""	0F00..0FFF	Tibetan	Tibetan letter cha		
-0F47	"""ཇ"""	0F00..0FFF	Tibetan	Tibetan letter ja		
-0F49	"""ཉ"""	0F00..0FFF	Tibetan	Tibetan letter nya		
-0F4A	"""ཊ"""	0F00..0FFF	Tibetan	Tibetan letter tta		
-0F4B	"""ཋ"""	0F00..0FFF	Tibetan	Tibetan letter ttha		
-0F4C	"""ཌ"""	0F00..0FFF	Tibetan	Tibetan letter dda		
-0F4D	"""ཌྷ"""	0F00..0FFF	Tibetan	Tibetan letter ddha		
-0F4E	"""ཎ"""	0F00..0FFF	Tibetan	Tibetan letter nna		
-0F4F	"""ཏ"""	0F00..0FFF	Tibetan	Tibetan letter ta		
-0F50	"""ཐ"""	0F00..0FFF	Tibetan	Tibetan letter tha		
-0F51	"""ད"""	0F00..0FFF	Tibetan	Tibetan letter da		
-0F52	"""དྷ"""	0F00..0FFF	Tibetan	Tibetan letter dha		
-0F53	"""ན"""	0F00..0FFF	Tibetan	Tibetan letter na		
-0F54	"""པ"""	0F00..0FFF	Tibetan	Tibetan letter pa		
-0F55	"""ཕ"""	0F00..0FFF	Tibetan	Tibetan letter pha		
-0F56	"""བ"""	0F00..0FFF	Tibetan	Tibetan letter ba		
-0F57	"""བྷ"""	0F00..0FFF	Tibetan	Tibetan letter bha		
-0F58	"""མ"""	0F00..0FFF	Tibetan	Tibetan letter ma		
-0F59	"""ཙ"""	0F00..0FFF	Tibetan	Tibetan letter tsa		
-0F5A	"""ཚ"""	0F00..0FFF	Tibetan	Tibetan letter tsha		
-0F5B	"""ཛ"""	0F00..0FFF	Tibetan	Tibetan letter dza		
-0F5C	"""ཛྷ"""	0F00..0FFF	Tibetan	Tibetan letter dzha		
-0F5D	"""ཝ"""	0F00..0FFF	Tibetan	Tibetan letter wa		
-0F5E	"""ཞ"""	0F00..0FFF	Tibetan	Tibetan letter zha		
-0F5F	"""ཟ"""	0F00..0FFF	Tibetan	Tibetan letter za		
-0F60	"""འ"""	0F00..0FFF	Tibetan	Tibetan letter -a		
-0F61	"""ཡ"""	0F00..0FFF	Tibetan	Tibetan letter ya		
-0F62	"""ར"""	0F00..0FFF	Tibetan	Tibetan letter ra		
-0F63	"""ལ"""	0F00..0FFF	Tibetan	Tibetan letter la		
-0F64	"""ཤ"""	0F00..0FFF	Tibetan	Tibetan letter sha		
-0F65	"""ཥ"""	0F00..0FFF	Tibetan	Tibetan letter ssa		
-0F66	"""ས"""	0F00..0FFF	Tibetan	Tibetan letter sa		
-0F67	"""ཧ"""	0F00..0FFF	Tibetan	Tibetan letter ha		
-0F68	"""ཨ"""	0F00..0FFF	Tibetan	Tibetan letter a		
-0F69	"""ཀྵ"""	0F00..0FFF	Tibetan	Tibetan letter kssa		
-0F6A	"""ཪ"""	0F00..0FFF	Tibetan	Tibetan letter fixed-form ra		
-0F6B	"""ཫ"""	0F00..0FFF	Tibetan	Tibetan letter kka		
-0F6C	"""ཬ"""	0F00..0FFF	Tibetan	Tibetan letter rra		
-0F71	"""ཱ"""	0F00..0FFF	Tibetan	Tibetan vowel sign aa		
-0F72	"""ི"""	0F00..0FFF	Tibetan	Tibetan vowel sign i		
-0F73	"""ཱི"""	0F00..0FFF	Tibetan	Tibetan vowel sign ii		
-0F74	"""ུ"""	0F00..0FFF	Tibetan	Tibetan vowel sign u		
-0F75	"""ཱུ"""	0F00..0FFF	Tibetan	Tibetan vowel sign uu		
-0F76	"""ྲྀ"""	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic r		
-0F77	"""ཷ"""	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic rr		
-0F78	"""ླྀ"""	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic l		
-0F79	"""ཹ"""	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic ll		
-0F7A	"""ེ"""	0F00..0FFF	Tibetan	Tibetan vowel sign e		
-0F7B	"""ཻ"""	0F00..0FFF	Tibetan	Tibetan vowel sign ee		
-0F7C	"""ོ"""	0F00..0FFF	Tibetan	Tibetan vowel sign o		
-0F7D	"""ཽ"""	0F00..0FFF	Tibetan	Tibetan vowel sign oo		
-0F7E	"""ཾ"""	0F00..0FFF	Tibetan	Tibetan sign rjes su nga ro		
-0F7F	"""ཿ"""	0F00..0FFF	Tibetan	Tibetan sign rnam bcad		
-0F80	"""ྀ"""	0F00..0FFF	Tibetan	Tibetan vowel sign reversed i		
-0F81	"""ཱྀ"""	0F00..0FFF	Tibetan	Tibetan vowel sign reversed ii		
-0F82	"""ྂ"""	0F00..0FFF	Tibetan	Tibetan sign nyi zla naa da		
-0F83	"""ྃ"""	0F00..0FFF	Tibetan	Tibetan sign sna ldan		
-0F84	"""྄"""	0F00..0FFF	Tibetan	Tibetan mark halanta		
-0F85	"""྅"""	0F00..0FFF	Tibetan	Tibetan mark paluta		
-0F86	"""྆"""	0F00..0FFF	Tibetan	Tibetan sign lci rtags		
-0F87	"""྇"""	0F00..0FFF	Tibetan	Tibetan sign yang rtags		
-0F88	"""ྈ"""	0F00..0FFF	Tibetan	Tibetan sign lce tsa can		
-0F89	"""ྉ"""	0F00..0FFF	Tibetan	Tibetan sign mchu can		
-0F8A	"""ྊ"""	0F00..0FFF	Tibetan	Tibetan sign gru can rgyings		
-0F8B	"""ྋ"""	0F00..0FFF	Tibetan	Tibetan sign gru med rgyings		
-0F8C	"""ྌ"""	0F00..0FFF	Tibetan	Tibetan sign inverted mchu can		
-0F8D	"""ྍ"""	0F00..0FFF	Tibetan	Tibetan subjoined sign lce tsa can		
-0F8E	"""ྎ"""	0F00..0FFF	Tibetan	Tibetan subjoined sign mchu can		
-0F8F	"""ྏ"""	0F00..0FFF	Tibetan	Tibetan subjoined sign inverted mchu can		
-0F90	"""ྐ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ka		
-0F91	"""ྑ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter kha		
-0F92	"""ྒ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ga		
-0F93	"""ྒྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter gha		
-0F94	"""ྔ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter nga		
-0F95	"""ྕ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ca		
-0F96	"""ྖ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter cha		
-0F97	"""ྗ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ja		
-0F99	"""ྙ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter nya		
-0F9A	"""ྚ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter tta		
-0F9B	"""ྛ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ttha		
-0F9C	"""ྜ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter dda		
-0F9D	"""ྜྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ddha		
-0F9E	"""ྞ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter nna		
-0F9F	"""ྟ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ta		
-0FA0	"""ྠ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter tha		
-0FA1	"""ྡ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter da		
-0FA2	"""ྡྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter dha		
-0FA3	"""ྣ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter na		
-0FA4	"""ྤ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter pa		
-0FA5	"""ྥ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter pha		
-0FA6	"""ྦ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ba		
-0FA7	"""ྦྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter bha		
-0FA8	"""ྨ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ma		
-0FA9	"""ྩ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter tsa		
-0FAA	"""ྪ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter tsha		
-0FAB	"""ྫ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter dza		
-0FAC	"""ྫྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter dzha		
-0FAD	"""ྭ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter wa		
-0FAE	"""ྮ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter zha		
-0FAF	"""ྯ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter za		
-0FB0	"""ྰ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter -a		
-0FB1	"""ྱ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ya		
-0FB2	"""ྲ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ra		
-0FB3	"""ླ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter la		
-0FB4	"""ྴ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter sha		
-0FB5	"""ྵ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ssa		
-0FB6	"""ྶ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter sa		
-0FB7	"""ྷ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter ha		
-0FB8	"""ྸ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter a		
-0FB9	"""ྐྵ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter kssa		
-0FBA	"""ྺ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form wa		
-0FBB	"""ྻ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form ya		
-0FBC	"""ྼ"""	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form ra		
-0FBE	"""྾"""	0F00..0FFF	Tibetan	Tibetan ku ru kha		
-0FBF	"""྿"""	0F00..0FFF	Tibetan	Tibetan ku ru kha bzhi mig can		
-0FC0	"""࿀"""	0F00..0FFF	Tibetan	Tibetan cantillation sign heavy beat		
-0FC1	"""࿁"""	0F00..0FFF	Tibetan	Tibetan cantillation sign light beat		
-0FC2	"""࿂"""	0F00..0FFF	Tibetan	Tibetan cantillation sign cang te-u		
-0FC3	"""࿃"""	0F00..0FFF	Tibetan	Tibetan cantillation sign sbub -chal		
-0FC4	"""࿄"""	0F00..0FFF	Tibetan	Tibetan symbol dril bu		
-0FC5	"""࿅"""	0F00..0FFF	Tibetan	Tibetan symbol rdo rje		
-0FC6	"""࿆"""	0F00..0FFF	Tibetan	Tibetan symbol padma gdan		
-0FC7	"""࿇"""	0F00..0FFF	Tibetan	Tibetan symbol rdo rje rgya gram		
-0FC8	"""࿈"""	0F00..0FFF	Tibetan	Tibetan symbol phur pa		
-0FC9	"""࿉"""	0F00..0FFF	Tibetan	Tibetan symbol nor bu		
-0FCA	"""࿊"""	0F00..0FFF	Tibetan	Tibetan symbol nor bu nyis -khyil		
-0FCB	"""࿋"""	0F00..0FFF	Tibetan	Tibetan symbol nor bu gsum -khyil		
-0FCC	"""࿌"""	0F00..0FFF	Tibetan	Tibetan symbol nor bu bzhi -khyil		
-0FCE	"""࿎"""	0F00..0FFF	Tibetan	Tibetan sign rdel nag rdel dkar		
-0FCF	"""࿏"""	0F00..0FFF	Tibetan	Tibetan sign rdel nag gsum		
-0FD0	"""࿐"""	0F00..0FFF	Tibetan	Tibetan mark bska- shog gi mgo rgyan		
-0FD1	"""࿑"""	0F00..0FFF	Tibetan	Tibetan mark mnyam yig gi mgo rgyan		
-0FD2	"""࿒"""	0F00..0FFF	Tibetan	Tibetan mark nyis tsheg		
-0FD3	"""࿓"""	0F00..0FFF	Tibetan	Tibetan mark initial brda rnying yig mgo mdun ma		
-0FD4	"""࿔"""	0F00..0FFF	Tibetan	Tibetan mark closing brda rnying yig mgo sgab ma		
-0FD5	"""࿕"""	0F00..0FFF	Tibetan	Right-facing svasti sign		
-0FD6	"""࿖"""	0F00..0FFF	Tibetan	Left-facing svasti sign		
-0FD7	"""࿗"""	0F00..0FFF	Tibetan	Right-facing svasti sign with dots		
-0FD8	"""࿘"""	0F00..0FFF	Tibetan	Left-facing svasti sign with dots		
-0FD9	"""࿙"""	0F00..0FFF	Tibetan	Tibetan mark leading mchan rtags		
-0FDA	"""࿚"""	0F00..0FFF	Tibetan	Tibetan mark trailing mchan rtags		
+U+0F00	ༀ	0F00..0FFF	Tibetan	Tibetan syllable om		
+U+0F01	༁	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo truncated a		
+U+0F02	༂	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo -um rnam bcad ma		
+U+0F03	༃	0F00..0FFF	Tibetan	Tibetan mark gter yig mgo -um gter tsheg ma		
+U+0F04	༄	0F00..0FFF	Tibetan	Tibetan mark initial yig mgo mdun ma		
+U+0F05	༅	0F00..0FFF	Tibetan	Tibetan mark closing yig mgo sgab ma		
+U+0F06	༆	0F00..0FFF	Tibetan	Tibetan mark caret yig mgo phur shad ma		
+U+0F07	༇	0F00..0FFF	Tibetan	Tibetan mark yig mgo tsheg shad ma		
+U+0F08	༈	0F00..0FFF	Tibetan	Tibetan mark sbrul shad		
+U+0F09	༉	0F00..0FFF	Tibetan	Tibetan mark bskur yig mgo		
+U+0F0A	༊	0F00..0FFF	Tibetan	Tibetan mark bka- shog yig mgo		
+U+0F0B	་	0F00..0FFF	Tibetan	Tibetan mark intersyllabic tsheg		
+U+0F0C	༌	0F00..0FFF	Tibetan	Tibetan mark delimiter tsheg bstar		
+U+0F0D	།	0F00..0FFF	Tibetan	Tibetan mark shad		
+U+0F0E	༎	0F00..0FFF	Tibetan	Tibetan mark nyis shad		
+U+0F0F	༏	0F00..0FFF	Tibetan	Tibetan mark tsheg shad		
+U+0F10	༐	0F00..0FFF	Tibetan	Tibetan mark nyis tsheg shad		
+U+0F11	༑	0F00..0FFF	Tibetan	Tibetan mark rin chen spungs shad		
+U+0F12	༒	0F00..0FFF	Tibetan	Tibetan mark rgya gram shad		
+U+0F13	༓	0F00..0FFF	Tibetan	Tibetan mark caret -dzud rtags me long can		
+U+0F14	༔	0F00..0FFF	Tibetan	Tibetan mark gter tsheg		
+U+0F15	༕	0F00..0FFF	Tibetan	Tibetan logotype sign chad rtags		
+U+0F16	༖	0F00..0FFF	Tibetan	Tibetan logotype sign lhag rtags		
+U+0F17	༗	0F00..0FFF	Tibetan	Tibetan astrological sign sgra gcan -char rtags		
+U+0F18	༘	0F00..0FFF	Tibetan	Tibetan astrological sign -khyud pa		
+U+0F19	༙	0F00..0FFF	Tibetan	Tibetan astrological sign sdong tshugs		
+U+0F1A	༚	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gcig		
+U+0F1B	༛	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gnyis		
+U+0F1C	༜	0F00..0FFF	Tibetan	Tibetan sign rdel dkar gsum		
+U+0F1D	༝	0F00..0FFF	Tibetan	Tibetan sign rdel nag gcig		
+U+0F1E	༞	0F00..0FFF	Tibetan	Tibetan sign rdel nag gnyis		
+U+0F1F	༟	0F00..0FFF	Tibetan	Tibetan sign rdel dkar rdel nag		
+U+0F20	༠	0F00..0FFF	Tibetan	Tibetan digit zero		
+U+0F21	༡	0F00..0FFF	Tibetan	Tibetan digit one		
+U+0F22	༢	0F00..0FFF	Tibetan	Tibetan digit two		
+U+0F23	༣	0F00..0FFF	Tibetan	Tibetan digit three		
+U+0F24	༤	0F00..0FFF	Tibetan	Tibetan digit four		
+U+0F25	༥	0F00..0FFF	Tibetan	Tibetan digit five		
+U+0F26	༦	0F00..0FFF	Tibetan	Tibetan digit six		
+U+0F27	༧	0F00..0FFF	Tibetan	Tibetan digit seven		
+U+0F28	༨	0F00..0FFF	Tibetan	Tibetan digit eight		
+U+0F29	༩	0F00..0FFF	Tibetan	Tibetan digit nine		
+U+0F2A	༪	0F00..0FFF	Tibetan	Tibetan digit half one		
+U+0F2B	༫	0F00..0FFF	Tibetan	Tibetan digit half two		
+U+0F2C	༬	0F00..0FFF	Tibetan	Tibetan digit half three		
+U+0F2D	༭	0F00..0FFF	Tibetan	Tibetan digit half four		
+U+0F2E	༮	0F00..0FFF	Tibetan	Tibetan digit half five		
+U+0F2F	༯	0F00..0FFF	Tibetan	Tibetan digit half six		
+U+0F30	༰	0F00..0FFF	Tibetan	Tibetan digit half seven		
+U+0F31	༱	0F00..0FFF	Tibetan	Tibetan digit half eight		
+U+0F32	༲	0F00..0FFF	Tibetan	Tibetan digit half nine		
+U+0F33	༳	0F00..0FFF	Tibetan	Tibetan digit half zero		
+U+0F34	༴	0F00..0FFF	Tibetan	Tibetan mark bsdus rtags		
+U+0F35	༵	0F00..0FFF	Tibetan	Tibetan mark ngas bzung nyi zla		
+U+0F36	༶	0F00..0FFF	Tibetan	Tibetan mark caret -dzud rtags bzhi mig can		
+U+0F37	༷	0F00..0FFF	Tibetan	Tibetan mark ngas bzung sgor rtags		
+U+0F38	༸	0F00..0FFF	Tibetan	Tibetan mark che mgo		
+U+0F39	༹	0F00..0FFF	Tibetan	Tibetan mark tsa -phru		
+U+0F3A	༺	0F00..0FFF	Tibetan	Tibetan mark gug rtags gyon		
+U+0F3B	༻	0F00..0FFF	Tibetan	Tibetan mark gug rtags gyas		
+U+0F3C	༼	0F00..0FFF	Tibetan	Tibetan mark ang khang gyon		
+U+0F3D	༽	0F00..0FFF	Tibetan	Tibetan mark ang khang gyas		
+U+0F3E	༾	0F00..0FFF	Tibetan	Tibetan sign yar tshes		
+U+0F3F	༿	0F00..0FFF	Tibetan	Tibetan sign mar tshes		
+U+0F40	ཀ	0F00..0FFF	Tibetan	Tibetan letter ka		
+U+0F41	ཁ	0F00..0FFF	Tibetan	Tibetan letter kha		
+U+0F42	ག	0F00..0FFF	Tibetan	Tibetan letter ga		
+U+0F43	གྷ	0F00..0FFF	Tibetan	Tibetan letter gha		
+U+0F44	ང	0F00..0FFF	Tibetan	Tibetan letter nga		
+U+0F45	ཅ	0F00..0FFF	Tibetan	Tibetan letter ca		
+U+0F46	ཆ	0F00..0FFF	Tibetan	Tibetan letter cha		
+U+0F47	ཇ	0F00..0FFF	Tibetan	Tibetan letter ja		
+U+0F49	ཉ	0F00..0FFF	Tibetan	Tibetan letter nya		
+U+0F4A	ཊ	0F00..0FFF	Tibetan	Tibetan letter tta		
+U+0F4B	ཋ	0F00..0FFF	Tibetan	Tibetan letter ttha		
+U+0F4C	ཌ	0F00..0FFF	Tibetan	Tibetan letter dda		
+U+0F4D	ཌྷ	0F00..0FFF	Tibetan	Tibetan letter ddha		
+U+0F4E	ཎ	0F00..0FFF	Tibetan	Tibetan letter nna		
+U+0F4F	ཏ	0F00..0FFF	Tibetan	Tibetan letter ta		
+U+0F50	ཐ	0F00..0FFF	Tibetan	Tibetan letter tha		
+U+0F51	ད	0F00..0FFF	Tibetan	Tibetan letter da		
+U+0F52	དྷ	0F00..0FFF	Tibetan	Tibetan letter dha		
+U+0F53	ན	0F00..0FFF	Tibetan	Tibetan letter na		
+U+0F54	པ	0F00..0FFF	Tibetan	Tibetan letter pa		
+U+0F55	ཕ	0F00..0FFF	Tibetan	Tibetan letter pha		
+U+0F56	བ	0F00..0FFF	Tibetan	Tibetan letter ba		
+U+0F57	བྷ	0F00..0FFF	Tibetan	Tibetan letter bha		
+U+0F58	མ	0F00..0FFF	Tibetan	Tibetan letter ma		
+U+0F59	ཙ	0F00..0FFF	Tibetan	Tibetan letter tsa		
+U+0F5A	ཚ	0F00..0FFF	Tibetan	Tibetan letter tsha		
+U+0F5B	ཛ	0F00..0FFF	Tibetan	Tibetan letter dza		
+U+0F5C	ཛྷ	0F00..0FFF	Tibetan	Tibetan letter dzha		
+U+0F5D	ཝ	0F00..0FFF	Tibetan	Tibetan letter wa		
+U+0F5E	ཞ	0F00..0FFF	Tibetan	Tibetan letter zha		
+U+0F5F	ཟ	0F00..0FFF	Tibetan	Tibetan letter za		
+U+0F60	འ	0F00..0FFF	Tibetan	Tibetan letter -a		
+U+0F61	ཡ	0F00..0FFF	Tibetan	Tibetan letter ya		
+U+0F62	ར	0F00..0FFF	Tibetan	Tibetan letter ra		
+U+0F63	ལ	0F00..0FFF	Tibetan	Tibetan letter la		
+U+0F64	ཤ	0F00..0FFF	Tibetan	Tibetan letter sha		
+U+0F65	ཥ	0F00..0FFF	Tibetan	Tibetan letter ssa		
+U+0F66	ས	0F00..0FFF	Tibetan	Tibetan letter sa		
+U+0F67	ཧ	0F00..0FFF	Tibetan	Tibetan letter ha		
+U+0F68	ཨ	0F00..0FFF	Tibetan	Tibetan letter a		
+U+0F69	ཀྵ	0F00..0FFF	Tibetan	Tibetan letter kssa		
+U+0F6A	ཪ	0F00..0FFF	Tibetan	Tibetan letter fixed-form ra		
+U+0F6B	ཫ	0F00..0FFF	Tibetan	Tibetan letter kka		
+U+0F6C	ཬ	0F00..0FFF	Tibetan	Tibetan letter rra		
+U+0F71	ཱ	0F00..0FFF	Tibetan	Tibetan vowel sign aa		
+U+0F72	ི	0F00..0FFF	Tibetan	Tibetan vowel sign i		
+U+0F73	ཱི	0F00..0FFF	Tibetan	Tibetan vowel sign ii		
+U+0F74	ུ	0F00..0FFF	Tibetan	Tibetan vowel sign u		
+U+0F75	ཱུ	0F00..0FFF	Tibetan	Tibetan vowel sign uu		
+U+0F76	ྲྀ	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic r		
+U+0F77	ཷ	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic rr		
+U+0F78	ླྀ	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic l		
+U+0F79	ཹ	0F00..0FFF	Tibetan	Tibetan vowel sign vocalic ll		
+U+0F7A	ེ	0F00..0FFF	Tibetan	Tibetan vowel sign e		
+U+0F7B	ཻ	0F00..0FFF	Tibetan	Tibetan vowel sign ee		
+U+0F7C	ོ	0F00..0FFF	Tibetan	Tibetan vowel sign o		
+U+0F7D	ཽ	0F00..0FFF	Tibetan	Tibetan vowel sign oo		
+U+0F7E	ཾ	0F00..0FFF	Tibetan	Tibetan sign rjes su nga ro		
+U+0F7F	ཿ	0F00..0FFF	Tibetan	Tibetan sign rnam bcad		
+U+0F80	ྀ	0F00..0FFF	Tibetan	Tibetan vowel sign reversed i		
+U+0F81	ཱྀ	0F00..0FFF	Tibetan	Tibetan vowel sign reversed ii		
+U+0F82	ྂ	0F00..0FFF	Tibetan	Tibetan sign nyi zla naa da		
+U+0F83	ྃ	0F00..0FFF	Tibetan	Tibetan sign sna ldan		
+U+0F84	྄	0F00..0FFF	Tibetan	Tibetan mark halanta		
+U+0F85	྅	0F00..0FFF	Tibetan	Tibetan mark paluta		
+U+0F86	྆	0F00..0FFF	Tibetan	Tibetan sign lci rtags		
+U+0F87	྇	0F00..0FFF	Tibetan	Tibetan sign yang rtags		
+U+0F88	ྈ	0F00..0FFF	Tibetan	Tibetan sign lce tsa can		
+U+0F89	ྉ	0F00..0FFF	Tibetan	Tibetan sign mchu can		
+U+0F8A	ྊ	0F00..0FFF	Tibetan	Tibetan sign gru can rgyings		
+U+0F8B	ྋ	0F00..0FFF	Tibetan	Tibetan sign gru med rgyings		
+U+0F8C	ྌ	0F00..0FFF	Tibetan	Tibetan sign inverted mchu can		
+U+0F8D	ྍ	0F00..0FFF	Tibetan	Tibetan subjoined sign lce tsa can		
+U+0F8E	ྎ	0F00..0FFF	Tibetan	Tibetan subjoined sign mchu can		
+U+0F8F	ྏ	0F00..0FFF	Tibetan	Tibetan subjoined sign inverted mchu can		
+U+0F90	ྐ	0F00..0FFF	Tibetan	Tibetan subjoined letter ka		
+U+0F91	ྑ	0F00..0FFF	Tibetan	Tibetan subjoined letter kha		
+U+0F92	ྒ	0F00..0FFF	Tibetan	Tibetan subjoined letter ga		
+U+0F93	ྒྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter gha		
+U+0F94	ྔ	0F00..0FFF	Tibetan	Tibetan subjoined letter nga		
+U+0F95	ྕ	0F00..0FFF	Tibetan	Tibetan subjoined letter ca		
+U+0F96	ྖ	0F00..0FFF	Tibetan	Tibetan subjoined letter cha		
+U+0F97	ྗ	0F00..0FFF	Tibetan	Tibetan subjoined letter ja		
+U+0F99	ྙ	0F00..0FFF	Tibetan	Tibetan subjoined letter nya		
+U+0F9A	ྚ	0F00..0FFF	Tibetan	Tibetan subjoined letter tta		
+U+0F9B	ྛ	0F00..0FFF	Tibetan	Tibetan subjoined letter ttha		
+U+0F9C	ྜ	0F00..0FFF	Tibetan	Tibetan subjoined letter dda		
+U+0F9D	ྜྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter ddha		
+U+0F9E	ྞ	0F00..0FFF	Tibetan	Tibetan subjoined letter nna		
+U+0F9F	ྟ	0F00..0FFF	Tibetan	Tibetan subjoined letter ta		
+U+0FA0	ྠ	0F00..0FFF	Tibetan	Tibetan subjoined letter tha		
+U+0FA1	ྡ	0F00..0FFF	Tibetan	Tibetan subjoined letter da		
+U+0FA2	ྡྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter dha		
+U+0FA3	ྣ	0F00..0FFF	Tibetan	Tibetan subjoined letter na		
+U+0FA4	ྤ	0F00..0FFF	Tibetan	Tibetan subjoined letter pa		
+U+0FA5	ྥ	0F00..0FFF	Tibetan	Tibetan subjoined letter pha		
+U+0FA6	ྦ	0F00..0FFF	Tibetan	Tibetan subjoined letter ba		
+U+0FA7	ྦྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter bha		
+U+0FA8	ྨ	0F00..0FFF	Tibetan	Tibetan subjoined letter ma		
+U+0FA9	ྩ	0F00..0FFF	Tibetan	Tibetan subjoined letter tsa		
+U+0FAA	ྪ	0F00..0FFF	Tibetan	Tibetan subjoined letter tsha		
+U+0FAB	ྫ	0F00..0FFF	Tibetan	Tibetan subjoined letter dza		
+U+0FAC	ྫྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter dzha		
+U+0FAD	ྭ	0F00..0FFF	Tibetan	Tibetan subjoined letter wa		
+U+0FAE	ྮ	0F00..0FFF	Tibetan	Tibetan subjoined letter zha		
+U+0FAF	ྯ	0F00..0FFF	Tibetan	Tibetan subjoined letter za		
+U+0FB0	ྰ	0F00..0FFF	Tibetan	Tibetan subjoined letter -a		
+U+0FB1	ྱ	0F00..0FFF	Tibetan	Tibetan subjoined letter ya		
+U+0FB2	ྲ	0F00..0FFF	Tibetan	Tibetan subjoined letter ra		
+U+0FB3	ླ	0F00..0FFF	Tibetan	Tibetan subjoined letter la		
+U+0FB4	ྴ	0F00..0FFF	Tibetan	Tibetan subjoined letter sha		
+U+0FB5	ྵ	0F00..0FFF	Tibetan	Tibetan subjoined letter ssa		
+U+0FB6	ྶ	0F00..0FFF	Tibetan	Tibetan subjoined letter sa		
+U+0FB7	ྷ	0F00..0FFF	Tibetan	Tibetan subjoined letter ha		
+U+0FB8	ྸ	0F00..0FFF	Tibetan	Tibetan subjoined letter a		
+U+0FB9	ྐྵ	0F00..0FFF	Tibetan	Tibetan subjoined letter kssa		
+U+0FBA	ྺ	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form wa		
+U+0FBB	ྻ	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form ya		
+U+0FBC	ྼ	0F00..0FFF	Tibetan	Tibetan subjoined letter fixed-form ra		
+U+0FBE	྾	0F00..0FFF	Tibetan	Tibetan ku ru kha		
+U+0FBF	྿	0F00..0FFF	Tibetan	Tibetan ku ru kha bzhi mig can		
+U+0FC0	࿀	0F00..0FFF	Tibetan	Tibetan cantillation sign heavy beat		
+U+0FC1	࿁	0F00..0FFF	Tibetan	Tibetan cantillation sign light beat		
+U+0FC2	࿂	0F00..0FFF	Tibetan	Tibetan cantillation sign cang te-u		
+U+0FC3	࿃	0F00..0FFF	Tibetan	Tibetan cantillation sign sbub -chal		
+U+0FC4	࿄	0F00..0FFF	Tibetan	Tibetan symbol dril bu		
+U+0FC5	࿅	0F00..0FFF	Tibetan	Tibetan symbol rdo rje		
+U+0FC6	࿆	0F00..0FFF	Tibetan	Tibetan symbol padma gdan		
+U+0FC7	࿇	0F00..0FFF	Tibetan	Tibetan symbol rdo rje rgya gram		
+U+0FC8	࿈	0F00..0FFF	Tibetan	Tibetan symbol phur pa		
+U+0FC9	࿉	0F00..0FFF	Tibetan	Tibetan symbol nor bu		
+U+0FCA	࿊	0F00..0FFF	Tibetan	Tibetan symbol nor bu nyis -khyil		
+U+0FCB	࿋	0F00..0FFF	Tibetan	Tibetan symbol nor bu gsum -khyil		
+U+0FCC	࿌	0F00..0FFF	Tibetan	Tibetan symbol nor bu bzhi -khyil		
+U+0FCE	࿎	0F00..0FFF	Tibetan	Tibetan sign rdel nag rdel dkar		
+U+0FCF	࿏	0F00..0FFF	Tibetan	Tibetan sign rdel nag gsum		
+U+0FD0	࿐	0F00..0FFF	Tibetan	Tibetan mark bska- shog gi mgo rgyan		
+U+0FD1	࿑	0F00..0FFF	Tibetan	Tibetan mark mnyam yig gi mgo rgyan		
+U+0FD2	࿒	0F00..0FFF	Tibetan	Tibetan mark nyis tsheg		
+U+0FD3	࿓	0F00..0FFF	Tibetan	Tibetan mark initial brda rnying yig mgo mdun ma		
+U+0FD4	࿔	0F00..0FFF	Tibetan	Tibetan mark closing brda rnying yig mgo sgab ma		
+U+0FD5	࿕	0F00..0FFF	Tibetan	Right-facing svasti sign		
+U+0FD6	࿖	0F00..0FFF	Tibetan	Left-facing svasti sign		
+U+0FD7	࿗	0F00..0FFF	Tibetan	Right-facing svasti sign with dots		
+U+0FD8	࿘	0F00..0FFF	Tibetan	Left-facing svasti sign with dots		
+U+0FD9	࿙	0F00..0FFF	Tibetan	Tibetan mark leading mchan rtags		
+U+0FDA	࿚	0F00..0FFF	Tibetan	Tibetan mark trailing mchan rtags		

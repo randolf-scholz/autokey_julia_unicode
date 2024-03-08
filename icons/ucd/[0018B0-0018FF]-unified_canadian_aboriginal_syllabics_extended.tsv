@@ -1,71 +1,71 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-18B0	"""ᢰ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics oy		
-18B1	"""ᢱ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ay		
-18B2	"""ᢲ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics aay		
-18B3	"""ᢳ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics way		
-18B4	"""ᢴ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics poy		
-18B5	"""ᢵ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics pay		
-18B6	"""ᢶ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics pwoy		
-18B7	"""ᢷ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tay		
-18B8	"""ᢸ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics kay		
-18B9	"""ᢹ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics kway		
-18BA	"""ᢺ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics may		
-18BB	"""ᢻ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics noy		
-18BC	"""ᢼ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nay		
-18BD	"""ᢽ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics lay		
-18BE	"""ᢾ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics soy		
-18BF	"""ᢿ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics say		
-18C0	"""ᣀ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shoy		
-18C1	"""ᣁ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shay		
-18C2	"""ᣂ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shwoy		
-18C3	"""ᣃ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics yoy		
-18C4	"""ᣄ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics yay		
-18C5	"""ᣅ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ray		
-18C6	"""ᣆ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwi		
-18C7	"""ᣇ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwi		
-18C8	"""ᣈ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwii		
-18C9	"""ᣉ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwii		
-18CA	"""ᣊ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwo		
-18CB	"""ᣋ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwo		
-18CC	"""ᣌ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwoo		
-18CD	"""ᣍ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwoo		
-18CE	"""ᣎ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwee		
-18CF	"""ᣏ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwi		
-18D0	"""ᣐ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwii		
-18D1	"""ᣑ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwo		
-18D2	"""ᣒ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwoo		
-18D3	"""ᣓ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwa		
-18D4	"""ᣔ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway p		
-18D5	"""ᣕ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway t		
-18D6	"""ᣖ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway k		
-18D7	"""ᣗ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway c		
-18D8	"""ᣘ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway m		
-18D9	"""ᣙ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway n		
-18DA	"""ᣚ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway s		
-18DB	"""ᣛ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway sh		
-18DC	"""ᣜ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics eastern w		
-18DD	"""ᣝ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics western w		
-18DE	"""ᣞ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics final small ring		
-18DF	"""ᣟ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics final raised dot		
-18E0	"""ᣠ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics r-cree rwe		
-18E1	"""ᣡ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics west-cree loo		
-18E2	"""ᣢ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics west-cree laa		
-18E3	"""ᣣ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics thwe		
-18E4	"""ᣤ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics thwa		
-18E5	"""ᣥ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthwe		
-18E6	"""ᣦ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthoo		
-18E7	"""ᣧ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthaa		
-18E8	"""ᣨ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tlhwe		
-18E9	"""ᣩ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tlhoo		
-18EA	"""ᣪ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi shwe		
-18EB	"""ᣫ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi shoo		
-18EC	"""ᣬ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi hoo		
-18ED	"""ᣭ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gwu		
-18EE	"""ᣮ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier dene gee		
-18EF	"""ᣯ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gaa		
-18F0	"""ᣰ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gwa		
-18F1	"""ᣱ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi juu		
-18F2	"""ᣲ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier jwa		
-18F3	"""ᣳ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics beaver dene l		
-18F4	"""ᣴ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics beaver dene r		
-18F5	"""ᣵ"""	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier dental s		
+U+18B0	ᢰ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics oy		
+U+18B1	ᢱ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ay		
+U+18B2	ᢲ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics aay		
+U+18B3	ᢳ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics way		
+U+18B4	ᢴ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics poy		
+U+18B5	ᢵ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics pay		
+U+18B6	ᢶ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics pwoy		
+U+18B7	ᢷ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tay		
+U+18B8	ᢸ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics kay		
+U+18B9	ᢹ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics kway		
+U+18BA	ᢺ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics may		
+U+18BB	ᢻ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics noy		
+U+18BC	ᢼ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nay		
+U+18BD	ᢽ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics lay		
+U+18BE	ᢾ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics soy		
+U+18BF	ᢿ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics say		
+U+18C0	ᣀ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shoy		
+U+18C1	ᣁ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shay		
+U+18C2	ᣂ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics shwoy		
+U+18C3	ᣃ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics yoy		
+U+18C4	ᣄ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics yay		
+U+18C5	ᣅ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ray		
+U+18C6	ᣆ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwi		
+U+18C7	ᣇ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwi		
+U+18C8	ᣈ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwii		
+U+18C9	ᣉ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwii		
+U+18CA	ᣊ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwo		
+U+18CB	ᣋ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwo		
+U+18CC	ᣌ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics nwoo		
+U+18CD	ᣍ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway nwoo		
+U+18CE	ᣎ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwee		
+U+18CF	ᣏ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwi		
+U+18D0	ᣐ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwii		
+U+18D1	ᣑ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwo		
+U+18D2	ᣒ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwoo		
+U+18D3	ᣓ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics rwa		
+U+18D4	ᣔ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway p		
+U+18D5	ᣕ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway t		
+U+18D6	ᣖ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway k		
+U+18D7	ᣗ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway c		
+U+18D8	ᣘ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway m		
+U+18D9	ᣙ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway n		
+U+18DA	ᣚ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway s		
+U+18DB	ᣛ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics ojibway sh		
+U+18DC	ᣜ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics eastern w		
+U+18DD	ᣝ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics western w		
+U+18DE	ᣞ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics final small ring		
+U+18DF	ᣟ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics final raised dot		
+U+18E0	ᣠ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics r-cree rwe		
+U+18E1	ᣡ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics west-cree loo		
+U+18E2	ᣢ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics west-cree laa		
+U+18E3	ᣣ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics thwe		
+U+18E4	ᣤ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics thwa		
+U+18E5	ᣥ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthwe		
+U+18E6	ᣦ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthoo		
+U+18E7	ᣧ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tthaa		
+U+18E8	ᣨ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tlhwe		
+U+18E9	ᣩ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics tlhoo		
+U+18EA	ᣪ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi shwe		
+U+18EB	ᣫ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi shoo		
+U+18EC	ᣬ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi hoo		
+U+18ED	ᣭ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gwu		
+U+18EE	ᣮ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier dene gee		
+U+18EF	ᣯ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gaa		
+U+18F0	ᣰ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier gwa		
+U+18F1	ᣱ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics sayisi juu		
+U+18F2	ᣲ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier jwa		
+U+18F3	ᣳ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics beaver dene l		
+U+18F4	ᣴ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics beaver dene r		
+U+18F5	ᣵ	18B0..18FF	Unified Canadian Aboriginal Syllabics Extended	Canadian syllabics carrier dental s		

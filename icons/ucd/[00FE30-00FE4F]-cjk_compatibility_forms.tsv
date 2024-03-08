@@ -1,33 +1,33 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-FE30	"""︰"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical two dot leader		
-FE31	"""︱"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical em dash		
-FE32	"""︲"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical en dash		
-FE33	"""︳"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical low line		
-FE34	"""︴"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical wavy low line		
-FE35	"""︵"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left parenthesis		
-FE36	"""︶"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right parenthesis		
-FE37	"""︷"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left curly bracket		
-FE38	"""︸"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right curly bracket		
-FE39	"""︹"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left tortoise shell bracket		
-FE3A	"""︺"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right tortoise shell bracket		
-FE3B	"""︻"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left black lenticular bracket		
-FE3C	"""︼"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right black lenticular bracket		
-FE3D	"""︽"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left double angle bracket		
-FE3E	"""︾"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right double angle bracket		
-FE3F	"""︿"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left angle bracket		
-FE40	"""﹀"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right angle bracket		
-FE41	"""﹁"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left corner bracket		
-FE42	"""﹂"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right corner bracket		
-FE43	"""﹃"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left white corner bracket		
-FE44	"""﹄"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right white corner bracket		
-FE45	"""﹅"""	FE30..FE4F	CJK Compatibility Forms	Sesame dot		
-FE46	"""﹆"""	FE30..FE4F	CJK Compatibility Forms	White sesame dot		
-FE47	"""﹇"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left square bracket		
-FE48	"""﹈"""	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right square bracket		
-FE49	"""﹉"""	FE30..FE4F	CJK Compatibility Forms	Dashed overline		
-FE4A	"""﹊"""	FE30..FE4F	CJK Compatibility Forms	Centreline overline		
-FE4B	"""﹋"""	FE30..FE4F	CJK Compatibility Forms	Wavy overline		
-FE4C	"""﹌"""	FE30..FE4F	CJK Compatibility Forms	Double wavy overline		
-FE4D	"""﹍"""	FE30..FE4F	CJK Compatibility Forms	Dashed low line		
-FE4E	"""﹎"""	FE30..FE4F	CJK Compatibility Forms	Centreline low line		
-FE4F	"""﹏"""	FE30..FE4F	CJK Compatibility Forms	Wavy low line		
+U+FE30	︰	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical two dot leader		
+U+FE31	︱	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical em dash		
+U+FE32	︲	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical en dash		
+U+FE33	︳	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical low line		
+U+FE34	︴	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical wavy low line		
+U+FE35	︵	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left parenthesis		
+U+FE36	︶	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right parenthesis		
+U+FE37	︷	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left curly bracket		
+U+FE38	︸	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right curly bracket		
+U+FE39	︹	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left tortoise shell bracket		
+U+FE3A	︺	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right tortoise shell bracket		
+U+FE3B	︻	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left black lenticular bracket		
+U+FE3C	︼	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right black lenticular bracket		
+U+FE3D	︽	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left double angle bracket		
+U+FE3E	︾	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right double angle bracket		
+U+FE3F	︿	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left angle bracket		
+U+FE40	﹀	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right angle bracket		
+U+FE41	﹁	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left corner bracket		
+U+FE42	﹂	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right corner bracket		
+U+FE43	﹃	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left white corner bracket		
+U+FE44	﹄	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right white corner bracket		
+U+FE45	﹅	FE30..FE4F	CJK Compatibility Forms	Sesame dot		
+U+FE46	﹆	FE30..FE4F	CJK Compatibility Forms	White sesame dot		
+U+FE47	﹇	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left square bracket		
+U+FE48	﹈	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right square bracket		
+U+FE49	﹉	FE30..FE4F	CJK Compatibility Forms	Dashed overline		
+U+FE4A	﹊	FE30..FE4F	CJK Compatibility Forms	Centreline overline		
+U+FE4B	﹋	FE30..FE4F	CJK Compatibility Forms	Wavy overline		
+U+FE4C	﹌	FE30..FE4F	CJK Compatibility Forms	Double wavy overline		
+U+FE4D	﹍	FE30..FE4F	CJK Compatibility Forms	Dashed low line		
+U+FE4E	﹎	FE30..FE4F	CJK Compatibility Forms	Centreline low line		
+U+FE4F	﹏	FE30..FE4F	CJK Compatibility Forms	Wavy low line		

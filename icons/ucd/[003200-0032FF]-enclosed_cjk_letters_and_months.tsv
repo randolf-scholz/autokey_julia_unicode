@@ -1,256 +1,256 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-3200	"""㈀"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul kiyeok		
-3201	"""㈁"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul nieun		
-3202	"""㈂"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul tikeut		
-3203	"""㈃"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul rieul		
-3204	"""㈄"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul mieum		
-3205	"""㈅"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul pieup		
-3206	"""㈆"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul sios		
-3207	"""㈇"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul ieung		
-3208	"""㈈"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc		
-3209	"""㈉"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul chieuch		
-320A	"""㈊"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul khieukh		
-320B	"""㈋"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul thieuth		
-320C	"""㈌"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul phieuph		
-320D	"""㈍"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul hieuh		
-320E	"""㈎"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul kiyeok a		
-320F	"""㈏"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul nieun a		
-3210	"""㈐"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul tikeut a		
-3211	"""㈑"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul rieul a		
-3212	"""㈒"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul mieum a		
-3213	"""㈓"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul pieup a		
-3214	"""㈔"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul sios a		
-3215	"""㈕"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul ieung a		
-3216	"""㈖"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc a		
-3217	"""㈗"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul chieuch a		
-3218	"""㈘"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul khieukh a		
-3219	"""㈙"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul thieuth a		
-321A	"""㈚"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul phieuph a		
-321B	"""㈛"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul hieuh a		
-321C	"""㈜"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc u		
-321D	"""㈝"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized korean character ojeon		
-321E	"""㈞"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized korean character o hu		
-3220	"""㈠"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph one		
-3221	"""㈡"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph two		
-3222	"""㈢"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph three		
-3223	"""㈣"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph four		
-3224	"""㈤"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph five		
-3225	"""㈥"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph six		
-3226	"""㈦"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph seven		
-3227	"""㈧"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph eight		
-3228	"""㈨"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph nine		
-3229	"""㈩"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph ten		
-322A	"""㈪"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph moon		
-322B	"""㈫"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph fire		
-322C	"""㈬"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph water		
-322D	"""㈭"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph wood		
-322E	"""㈮"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph metal		
-322F	"""㈯"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph earth		
-3230	"""㈰"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph sun		
-3231	"""㈱"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph stock		
-3232	"""㈲"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph have		
-3233	"""㈳"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph society		
-3234	"""㈴"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph name		
-3235	"""㈵"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph special		
-3236	"""㈶"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph financial		
-3237	"""㈷"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph congratulation		
-3238	"""㈸"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph labor		
-3239	"""㈹"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph represent		
-323A	"""㈺"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph call		
-323B	"""㈻"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph study		
-323C	"""㈼"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph supervise		
-323D	"""㈽"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph enterprise		
-323E	"""㈾"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph resource		
-323F	"""㈿"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph alliance		
-3240	"""㉀"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph festival		
-3241	"""㉁"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph rest		
-3242	"""㉂"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph self		
-3243	"""㉃"""	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph reach		
-3244	"""㉄"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph question		
-3245	"""㉅"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph kindergarten		
-3246	"""㉆"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph school		
-3247	"""㉇"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph koto		
-3248	"""㉈"""	3200..32FF	Enclosed CJK Letters and Months	Circled number ten on black square		
-3249	"""㉉"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty on black square		
-324A	"""㉊"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty on black square		
-324B	"""㉋"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty on black square		
-324C	"""㉌"""	3200..32FF	Enclosed CJK Letters and Months	Circled number fifty on black square		
-324D	"""㉍"""	3200..32FF	Enclosed CJK Letters and Months	Circled number sixty on black square		
-324E	"""㉎"""	3200..32FF	Enclosed CJK Letters and Months	Circled number seventy on black square		
-324F	"""㉏"""	3200..32FF	Enclosed CJK Letters and Months	Circled number eighty on black square		
-3250	"""㉐"""	3200..32FF	Enclosed CJK Letters and Months	Partnership sign		
-3251	"""㉑"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty one		
-3252	"""㉒"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty two		
-3253	"""㉓"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty three		
-3254	"""㉔"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty four		
-3255	"""㉕"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty five		
-3256	"""㉖"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty six		
-3257	"""㉗"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty seven		
-3258	"""㉘"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty eight		
-3259	"""㉙"""	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty nine		
-325A	"""㉚"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty		
-325B	"""㉛"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty one		
-325C	"""㉜"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty two		
-325D	"""㉝"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty three		
-325E	"""㉞"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty four		
-325F	"""㉟"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty five		
-3260	"""㉠"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul kiyeok		
-3261	"""㉡"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul nieun		
-3262	"""㉢"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul tikeut		
-3263	"""㉣"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul rieul		
-3264	"""㉤"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul mieum		
-3265	"""㉥"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul pieup		
-3266	"""㉦"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul sios		
-3267	"""㉧"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung		
-3268	"""㉨"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul cieuc		
-3269	"""㉩"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul chieuch		
-326A	"""㉪"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul khieukh		
-326B	"""㉫"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul thieuth		
-326C	"""㉬"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul phieuph		
-326D	"""㉭"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul hieuh		
-326E	"""㉮"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul kiyeok a		
-326F	"""㉯"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul nieun a		
-3270	"""㉰"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul tikeut a		
-3271	"""㉱"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul rieul a		
-3272	"""㉲"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul mieum a		
-3273	"""㉳"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul pieup a		
-3274	"""㉴"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul sios a		
-3275	"""㉵"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung a		
-3276	"""㉶"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul cieuc a		
-3277	"""㉷"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul chieuch a		
-3278	"""㉸"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul khieukh a		
-3279	"""㉹"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul thieuth a		
-327A	"""㉺"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul phieuph a		
-327B	"""㉻"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul hieuh a		
-327C	"""㉼"""	3200..32FF	Enclosed CJK Letters and Months	Circled korean character chamko		
-327D	"""㉽"""	3200..32FF	Enclosed CJK Letters and Months	Circled korean character jueui		
-327E	"""㉾"""	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung u		
-327F	"""㉿"""	3200..32FF	Enclosed CJK Letters and Months	Korean standard symbol		
-3280	"""㊀"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph one		
-3281	"""㊁"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph two		
-3282	"""㊂"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph three		
-3283	"""㊃"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph four		
-3284	"""㊄"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph five		
-3285	"""㊅"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph six		
-3286	"""㊆"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph seven		
-3287	"""㊇"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph eight		
-3288	"""㊈"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph nine		
-3289	"""㊉"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph ten		
-328A	"""㊊"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph moon		
-328B	"""㊋"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph fire		
-328C	"""㊌"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph water		
-328D	"""㊍"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph wood		
-328E	"""㊎"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph metal		
-328F	"""㊏"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph earth		
-3290	"""㊐"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph sun		
-3291	"""㊑"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph stock		
-3292	"""㊒"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph have		
-3293	"""㊓"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph society		
-3294	"""㊔"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph name		
-3295	"""㊕"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph special		
-3296	"""㊖"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph financial		
-3297	"""㊗"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph congratulation		
-3298	"""㊘"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph labor		
-3299	"""㊙"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph secret		
-329A	"""㊚"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph male		
-329B	"""㊛"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph female		
-329C	"""㊜"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph suitable		
-329D	"""㊝"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph excellent		
-329E	"""㊞"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph print		
-329F	"""㊟"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph attention		
-32A0	"""㊠"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph item		
-32A1	"""㊡"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph rest		
-32A2	"""㊢"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph copy		
-32A3	"""㊣"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph correct		
-32A4	"""㊤"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph high		
-32A5	"""㊥"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph centre		
-32A6	"""㊦"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph low		
-32A7	"""㊧"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph left		
-32A8	"""㊨"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph right		
-32A9	"""㊩"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph medicine		
-32AA	"""㊪"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph religion		
-32AB	"""㊫"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph study		
-32AC	"""㊬"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph supervise		
-32AD	"""㊭"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph enterprise		
-32AE	"""㊮"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph resource		
-32AF	"""㊯"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph alliance		
-32B0	"""㊰"""	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph night		
-32B1	"""㊱"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty six		
-32B2	"""㊲"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty seven		
-32B3	"""㊳"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty eight		
-32B4	"""㊴"""	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty nine		
-32B5	"""㊵"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty		
-32B6	"""㊶"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty one		
-32B7	"""㊷"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty two		
-32B8	"""㊸"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty three		
-32B9	"""㊹"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty four		
-32BA	"""㊺"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty five		
-32BB	"""㊻"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty six		
-32BC	"""㊼"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty seven		
-32BD	"""㊽"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty eight		
-32BE	"""㊾"""	3200..32FF	Enclosed CJK Letters and Months	Circled number forty nine		
-32BF	"""㊿"""	3200..32FF	Enclosed CJK Letters and Months	Circled number fifty		
-32C0	"""㋀"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for january		
-32C1	"""㋁"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for february		
-32C2	"""㋂"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for march		
-32C3	"""㋃"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for april		
-32C4	"""㋄"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for may		
-32C5	"""㋅"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for june		
-32C6	"""㋆"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for july		
-32C7	"""㋇"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for august		
-32C8	"""㋈"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for september		
-32C9	"""㋉"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for october		
-32CA	"""㋊"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for november		
-32CB	"""㋋"""	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for december		
-32CC	"""㋌"""	3200..32FF	Enclosed CJK Letters and Months	Square hg		
-32CD	"""㋍"""	3200..32FF	Enclosed CJK Letters and Months	Square erg		
-32CE	"""㋎"""	3200..32FF	Enclosed CJK Letters and Months	Square ev		
-32CF	"""㋏"""	3200..32FF	Enclosed CJK Letters and Months	Limited liability sign		
-32D0	"""㋐"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana a		
-32D1	"""㋑"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana i		
-32D2	"""㋒"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana u		
-32D3	"""㋓"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana e		
-32D4	"""㋔"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana o		
-32D5	"""㋕"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ka		
-32D6	"""㋖"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ki		
-32D7	"""㋗"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ku		
-32D8	"""㋘"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ke		
-32D9	"""㋙"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ko		
-32DA	"""㋚"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana sa		
-32DB	"""㋛"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana si		
-32DC	"""㋜"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana su		
-32DD	"""㋝"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana se		
-32DE	"""㋞"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana so		
-32DF	"""㋟"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ta		
-32E0	"""㋠"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ti		
-32E1	"""㋡"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana tu		
-32E2	"""㋢"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana te		
-32E3	"""㋣"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana to		
-32E4	"""㋤"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana na		
-32E5	"""㋥"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ni		
-32E6	"""㋦"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana nu		
-32E7	"""㋧"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ne		
-32E8	"""㋨"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana no		
-32E9	"""㋩"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ha		
-32EA	"""㋪"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana hi		
-32EB	"""㋫"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana hu		
-32EC	"""㋬"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana he		
-32ED	"""㋭"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ho		
-32EE	"""㋮"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ma		
-32EF	"""㋯"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mi		
-32F0	"""㋰"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mu		
-32F1	"""㋱"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana me		
-32F2	"""㋲"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mo		
-32F3	"""㋳"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ya		
-32F4	"""㋴"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana yu		
-32F5	"""㋵"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana yo		
-32F6	"""㋶"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ra		
-32F7	"""㋷"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ri		
-32F8	"""㋸"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ru		
-32F9	"""㋹"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana re		
-32FA	"""㋺"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ro		
-32FB	"""㋻"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wa		
-32FC	"""㋼"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wi		
-32FD	"""㋽"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana we		
-32FE	"""㋾"""	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wo		
-32FF	"""㋿"""	3200..32FF	Enclosed CJK Letters and Months	Square era name reiwa		
+U+3200	㈀	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul kiyeok		
+U+3201	㈁	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul nieun		
+U+3202	㈂	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul tikeut		
+U+3203	㈃	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul rieul		
+U+3204	㈄	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul mieum		
+U+3205	㈅	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul pieup		
+U+3206	㈆	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul sios		
+U+3207	㈇	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul ieung		
+U+3208	㈈	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc		
+U+3209	㈉	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul chieuch		
+U+320A	㈊	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul khieukh		
+U+320B	㈋	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul thieuth		
+U+320C	㈌	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul phieuph		
+U+320D	㈍	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul hieuh		
+U+320E	㈎	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul kiyeok a		
+U+320F	㈏	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul nieun a		
+U+3210	㈐	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul tikeut a		
+U+3211	㈑	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul rieul a		
+U+3212	㈒	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul mieum a		
+U+3213	㈓	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul pieup a		
+U+3214	㈔	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul sios a		
+U+3215	㈕	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul ieung a		
+U+3216	㈖	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc a		
+U+3217	㈗	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul chieuch a		
+U+3218	㈘	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul khieukh a		
+U+3219	㈙	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul thieuth a		
+U+321A	㈚	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul phieuph a		
+U+321B	㈛	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul hieuh a		
+U+321C	㈜	3200..32FF	Enclosed CJK Letters and Months	Parenthesized hangul cieuc u		
+U+321D	㈝	3200..32FF	Enclosed CJK Letters and Months	Parenthesized korean character ojeon		
+U+321E	㈞	3200..32FF	Enclosed CJK Letters and Months	Parenthesized korean character o hu		
+U+3220	㈠	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph one		
+U+3221	㈡	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph two		
+U+3222	㈢	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph three		
+U+3223	㈣	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph four		
+U+3224	㈤	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph five		
+U+3225	㈥	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph six		
+U+3226	㈦	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph seven		
+U+3227	㈧	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph eight		
+U+3228	㈨	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph nine		
+U+3229	㈩	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph ten		
+U+322A	㈪	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph moon		
+U+322B	㈫	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph fire		
+U+322C	㈬	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph water		
+U+322D	㈭	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph wood		
+U+322E	㈮	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph metal		
+U+322F	㈯	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph earth		
+U+3230	㈰	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph sun		
+U+3231	㈱	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph stock		
+U+3232	㈲	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph have		
+U+3233	㈳	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph society		
+U+3234	㈴	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph name		
+U+3235	㈵	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph special		
+U+3236	㈶	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph financial		
+U+3237	㈷	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph congratulation		
+U+3238	㈸	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph labor		
+U+3239	㈹	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph represent		
+U+323A	㈺	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph call		
+U+323B	㈻	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph study		
+U+323C	㈼	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph supervise		
+U+323D	㈽	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph enterprise		
+U+323E	㈾	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph resource		
+U+323F	㈿	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph alliance		
+U+3240	㉀	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph festival		
+U+3241	㉁	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph rest		
+U+3242	㉂	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph self		
+U+3243	㉃	3200..32FF	Enclosed CJK Letters and Months	Parenthesized ideograph reach		
+U+3244	㉄	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph question		
+U+3245	㉅	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph kindergarten		
+U+3246	㉆	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph school		
+U+3247	㉇	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph koto		
+U+3248	㉈	3200..32FF	Enclosed CJK Letters and Months	Circled number ten on black square		
+U+3249	㉉	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty on black square		
+U+324A	㉊	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty on black square		
+U+324B	㉋	3200..32FF	Enclosed CJK Letters and Months	Circled number forty on black square		
+U+324C	㉌	3200..32FF	Enclosed CJK Letters and Months	Circled number fifty on black square		
+U+324D	㉍	3200..32FF	Enclosed CJK Letters and Months	Circled number sixty on black square		
+U+324E	㉎	3200..32FF	Enclosed CJK Letters and Months	Circled number seventy on black square		
+U+324F	㉏	3200..32FF	Enclosed CJK Letters and Months	Circled number eighty on black square		
+U+3250	㉐	3200..32FF	Enclosed CJK Letters and Months	Partnership sign		
+U+3251	㉑	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty one		
+U+3252	㉒	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty two		
+U+3253	㉓	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty three		
+U+3254	㉔	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty four		
+U+3255	㉕	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty five		
+U+3256	㉖	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty six		
+U+3257	㉗	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty seven		
+U+3258	㉘	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty eight		
+U+3259	㉙	3200..32FF	Enclosed CJK Letters and Months	Circled number twenty nine		
+U+325A	㉚	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty		
+U+325B	㉛	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty one		
+U+325C	㉜	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty two		
+U+325D	㉝	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty three		
+U+325E	㉞	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty four		
+U+325F	㉟	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty five		
+U+3260	㉠	3200..32FF	Enclosed CJK Letters and Months	Circled hangul kiyeok		
+U+3261	㉡	3200..32FF	Enclosed CJK Letters and Months	Circled hangul nieun		
+U+3262	㉢	3200..32FF	Enclosed CJK Letters and Months	Circled hangul tikeut		
+U+3263	㉣	3200..32FF	Enclosed CJK Letters and Months	Circled hangul rieul		
+U+3264	㉤	3200..32FF	Enclosed CJK Letters and Months	Circled hangul mieum		
+U+3265	㉥	3200..32FF	Enclosed CJK Letters and Months	Circled hangul pieup		
+U+3266	㉦	3200..32FF	Enclosed CJK Letters and Months	Circled hangul sios		
+U+3267	㉧	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung		
+U+3268	㉨	3200..32FF	Enclosed CJK Letters and Months	Circled hangul cieuc		
+U+3269	㉩	3200..32FF	Enclosed CJK Letters and Months	Circled hangul chieuch		
+U+326A	㉪	3200..32FF	Enclosed CJK Letters and Months	Circled hangul khieukh		
+U+326B	㉫	3200..32FF	Enclosed CJK Letters and Months	Circled hangul thieuth		
+U+326C	㉬	3200..32FF	Enclosed CJK Letters and Months	Circled hangul phieuph		
+U+326D	㉭	3200..32FF	Enclosed CJK Letters and Months	Circled hangul hieuh		
+U+326E	㉮	3200..32FF	Enclosed CJK Letters and Months	Circled hangul kiyeok a		
+U+326F	㉯	3200..32FF	Enclosed CJK Letters and Months	Circled hangul nieun a		
+U+3270	㉰	3200..32FF	Enclosed CJK Letters and Months	Circled hangul tikeut a		
+U+3271	㉱	3200..32FF	Enclosed CJK Letters and Months	Circled hangul rieul a		
+U+3272	㉲	3200..32FF	Enclosed CJK Letters and Months	Circled hangul mieum a		
+U+3273	㉳	3200..32FF	Enclosed CJK Letters and Months	Circled hangul pieup a		
+U+3274	㉴	3200..32FF	Enclosed CJK Letters and Months	Circled hangul sios a		
+U+3275	㉵	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung a		
+U+3276	㉶	3200..32FF	Enclosed CJK Letters and Months	Circled hangul cieuc a		
+U+3277	㉷	3200..32FF	Enclosed CJK Letters and Months	Circled hangul chieuch a		
+U+3278	㉸	3200..32FF	Enclosed CJK Letters and Months	Circled hangul khieukh a		
+U+3279	㉹	3200..32FF	Enclosed CJK Letters and Months	Circled hangul thieuth a		
+U+327A	㉺	3200..32FF	Enclosed CJK Letters and Months	Circled hangul phieuph a		
+U+327B	㉻	3200..32FF	Enclosed CJK Letters and Months	Circled hangul hieuh a		
+U+327C	㉼	3200..32FF	Enclosed CJK Letters and Months	Circled korean character chamko		
+U+327D	㉽	3200..32FF	Enclosed CJK Letters and Months	Circled korean character jueui		
+U+327E	㉾	3200..32FF	Enclosed CJK Letters and Months	Circled hangul ieung u		
+U+327F	㉿	3200..32FF	Enclosed CJK Letters and Months	Korean standard symbol		
+U+3280	㊀	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph one		
+U+3281	㊁	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph two		
+U+3282	㊂	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph three		
+U+3283	㊃	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph four		
+U+3284	㊄	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph five		
+U+3285	㊅	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph six		
+U+3286	㊆	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph seven		
+U+3287	㊇	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph eight		
+U+3288	㊈	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph nine		
+U+3289	㊉	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph ten		
+U+328A	㊊	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph moon		
+U+328B	㊋	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph fire		
+U+328C	㊌	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph water		
+U+328D	㊍	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph wood		
+U+328E	㊎	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph metal		
+U+328F	㊏	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph earth		
+U+3290	㊐	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph sun		
+U+3291	㊑	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph stock		
+U+3292	㊒	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph have		
+U+3293	㊓	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph society		
+U+3294	㊔	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph name		
+U+3295	㊕	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph special		
+U+3296	㊖	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph financial		
+U+3297	㊗	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph congratulation		
+U+3298	㊘	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph labor		
+U+3299	㊙	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph secret		
+U+329A	㊚	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph male		
+U+329B	㊛	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph female		
+U+329C	㊜	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph suitable		
+U+329D	㊝	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph excellent		
+U+329E	㊞	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph print		
+U+329F	㊟	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph attention		
+U+32A0	㊠	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph item		
+U+32A1	㊡	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph rest		
+U+32A2	㊢	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph copy		
+U+32A3	㊣	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph correct		
+U+32A4	㊤	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph high		
+U+32A5	㊥	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph centre		
+U+32A6	㊦	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph low		
+U+32A7	㊧	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph left		
+U+32A8	㊨	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph right		
+U+32A9	㊩	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph medicine		
+U+32AA	㊪	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph religion		
+U+32AB	㊫	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph study		
+U+32AC	㊬	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph supervise		
+U+32AD	㊭	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph enterprise		
+U+32AE	㊮	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph resource		
+U+32AF	㊯	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph alliance		
+U+32B0	㊰	3200..32FF	Enclosed CJK Letters and Months	Circled ideograph night		
+U+32B1	㊱	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty six		
+U+32B2	㊲	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty seven		
+U+32B3	㊳	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty eight		
+U+32B4	㊴	3200..32FF	Enclosed CJK Letters and Months	Circled number thirty nine		
+U+32B5	㊵	3200..32FF	Enclosed CJK Letters and Months	Circled number forty		
+U+32B6	㊶	3200..32FF	Enclosed CJK Letters and Months	Circled number forty one		
+U+32B7	㊷	3200..32FF	Enclosed CJK Letters and Months	Circled number forty two		
+U+32B8	㊸	3200..32FF	Enclosed CJK Letters and Months	Circled number forty three		
+U+32B9	㊹	3200..32FF	Enclosed CJK Letters and Months	Circled number forty four		
+U+32BA	㊺	3200..32FF	Enclosed CJK Letters and Months	Circled number forty five		
+U+32BB	㊻	3200..32FF	Enclosed CJK Letters and Months	Circled number forty six		
+U+32BC	㊼	3200..32FF	Enclosed CJK Letters and Months	Circled number forty seven		
+U+32BD	㊽	3200..32FF	Enclosed CJK Letters and Months	Circled number forty eight		
+U+32BE	㊾	3200..32FF	Enclosed CJK Letters and Months	Circled number forty nine		
+U+32BF	㊿	3200..32FF	Enclosed CJK Letters and Months	Circled number fifty		
+U+32C0	㋀	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for january		
+U+32C1	㋁	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for february		
+U+32C2	㋂	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for march		
+U+32C3	㋃	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for april		
+U+32C4	㋄	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for may		
+U+32C5	㋅	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for june		
+U+32C6	㋆	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for july		
+U+32C7	㋇	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for august		
+U+32C8	㋈	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for september		
+U+32C9	㋉	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for october		
+U+32CA	㋊	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for november		
+U+32CB	㋋	3200..32FF	Enclosed CJK Letters and Months	Ideographic telegraph symbol for december		
+U+32CC	㋌	3200..32FF	Enclosed CJK Letters and Months	Square hg		
+U+32CD	㋍	3200..32FF	Enclosed CJK Letters and Months	Square erg		
+U+32CE	㋎	3200..32FF	Enclosed CJK Letters and Months	Square ev		
+U+32CF	㋏	3200..32FF	Enclosed CJK Letters and Months	Limited liability sign		
+U+32D0	㋐	3200..32FF	Enclosed CJK Letters and Months	Circled katakana a		
+U+32D1	㋑	3200..32FF	Enclosed CJK Letters and Months	Circled katakana i		
+U+32D2	㋒	3200..32FF	Enclosed CJK Letters and Months	Circled katakana u		
+U+32D3	㋓	3200..32FF	Enclosed CJK Letters and Months	Circled katakana e		
+U+32D4	㋔	3200..32FF	Enclosed CJK Letters and Months	Circled katakana o		
+U+32D5	㋕	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ka		
+U+32D6	㋖	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ki		
+U+32D7	㋗	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ku		
+U+32D8	㋘	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ke		
+U+32D9	㋙	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ko		
+U+32DA	㋚	3200..32FF	Enclosed CJK Letters and Months	Circled katakana sa		
+U+32DB	㋛	3200..32FF	Enclosed CJK Letters and Months	Circled katakana si		
+U+32DC	㋜	3200..32FF	Enclosed CJK Letters and Months	Circled katakana su		
+U+32DD	㋝	3200..32FF	Enclosed CJK Letters and Months	Circled katakana se		
+U+32DE	㋞	3200..32FF	Enclosed CJK Letters and Months	Circled katakana so		
+U+32DF	㋟	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ta		
+U+32E0	㋠	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ti		
+U+32E1	㋡	3200..32FF	Enclosed CJK Letters and Months	Circled katakana tu		
+U+32E2	㋢	3200..32FF	Enclosed CJK Letters and Months	Circled katakana te		
+U+32E3	㋣	3200..32FF	Enclosed CJK Letters and Months	Circled katakana to		
+U+32E4	㋤	3200..32FF	Enclosed CJK Letters and Months	Circled katakana na		
+U+32E5	㋥	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ni		
+U+32E6	㋦	3200..32FF	Enclosed CJK Letters and Months	Circled katakana nu		
+U+32E7	㋧	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ne		
+U+32E8	㋨	3200..32FF	Enclosed CJK Letters and Months	Circled katakana no		
+U+32E9	㋩	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ha		
+U+32EA	㋪	3200..32FF	Enclosed CJK Letters and Months	Circled katakana hi		
+U+32EB	㋫	3200..32FF	Enclosed CJK Letters and Months	Circled katakana hu		
+U+32EC	㋬	3200..32FF	Enclosed CJK Letters and Months	Circled katakana he		
+U+32ED	㋭	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ho		
+U+32EE	㋮	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ma		
+U+32EF	㋯	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mi		
+U+32F0	㋰	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mu		
+U+32F1	㋱	3200..32FF	Enclosed CJK Letters and Months	Circled katakana me		
+U+32F2	㋲	3200..32FF	Enclosed CJK Letters and Months	Circled katakana mo		
+U+32F3	㋳	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ya		
+U+32F4	㋴	3200..32FF	Enclosed CJK Letters and Months	Circled katakana yu		
+U+32F5	㋵	3200..32FF	Enclosed CJK Letters and Months	Circled katakana yo		
+U+32F6	㋶	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ra		
+U+32F7	㋷	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ri		
+U+32F8	㋸	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ru		
+U+32F9	㋹	3200..32FF	Enclosed CJK Letters and Months	Circled katakana re		
+U+32FA	㋺	3200..32FF	Enclosed CJK Letters and Months	Circled katakana ro		
+U+32FB	㋻	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wa		
+U+32FC	㋼	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wi		
+U+32FD	㋽	3200..32FF	Enclosed CJK Letters and Months	Circled katakana we		
+U+32FE	㋾	3200..32FF	Enclosed CJK Letters and Months	Circled katakana wo		
+U+32FF	㋿	3200..32FF	Enclosed CJK Letters and Months	Square era name reiwa		

@@ -1,39 +1,39 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-13430	"""𓐰"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph vertical joiner		
-13431	"""𓐱"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph horizontal joiner		
-13432	"""𓐲"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top start		
-13433	"""𓐳"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom start		
-13434	"""𓐴"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top end		
-13435	"""𓐵"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom end		
-13436	"""𓐶"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph overlay middle		
-13437	"""𓐷"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin segment		
-13438	"""𓐸"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end segment		
-13439	"""𓐹"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at middle		
-1343A	"""𓐺"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top		
-1343B	"""𓐻"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom		
-1343C	"""𓐼"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin enclosure		
-1343D	"""𓐽"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end enclosure		
-1343E	"""𓐾"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin walled enclosure		
-1343F	"""𓐿"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end walled enclosure		
-13440	"""𓑀"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph mirror horizontally		
-13441	"""𓑁"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph full blank		
-13442	"""𓑂"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half blank		
-13443	"""𓑃"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph lost sign		
-13444	"""𓑄"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half lost sign		
-13445	"""𓑅"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph tall lost sign		
-13446	"""𓑆"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph wide lost sign		
-13447	"""𓑇"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start		
-13448	"""𓑈"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start		
-13449	"""𓑉"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start		
-1344A	"""𓑊"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top end		
-1344B	"""𓑋"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top		
-1344C	"""𓑌"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start and top end		
-1344D	"""𓑍"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and top		
-1344E	"""𓑎"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom end		
-1344F	"""𓑏"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start and bottom end		
-13450	"""𓑐"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom		
-13451	"""𓑑"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and bottom		
-13452	"""𓑒"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at end		
-13453	"""𓑓"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top and end		
-13454	"""𓑔"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom and end		
-13455	"""𓑕"""	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged		
+U+13430	𓐰	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph vertical joiner		
+U+13431	𓐱	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph horizontal joiner		
+U+13432	𓐲	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top start		
+U+13433	𓐳	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom start		
+U+13434	𓐴	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top end		
+U+13435	𓐵	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom end		
+U+13436	𓐶	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph overlay middle		
+U+13437	𓐷	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin segment		
+U+13438	𓐸	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end segment		
+U+13439	𓐹	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at middle		
+U+1343A	𓐺	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top		
+U+1343B	𓐻	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom		
+U+1343C	𓐼	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin enclosure		
+U+1343D	𓐽	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end enclosure		
+U+1343E	𓐾	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin walled enclosure		
+U+1343F	𓐿	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end walled enclosure		
+U+13440	𓑀	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph mirror horizontally		
+U+13441	𓑁	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph full blank		
+U+13442	𓑂	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half blank		
+U+13443	𓑃	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph lost sign		
+U+13444	𓑄	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half lost sign		
+U+13445	𓑅	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph tall lost sign		
+U+13446	𓑆	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph wide lost sign		
+U+13447	𓑇	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start		
+U+13448	𓑈	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start		
+U+13449	𓑉	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start		
+U+1344A	𓑊	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top end		
+U+1344B	𓑋	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top		
+U+1344C	𓑌	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start and top end		
+U+1344D	𓑍	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and top		
+U+1344E	𓑎	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom end		
+U+1344F	𓑏	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start and bottom end		
+U+13450	𓑐	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom		
+U+13451	𓑑	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and bottom		
+U+13452	𓑒	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at end		
+U+13453	𓑓	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top and end		
+U+13454	𓑔	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom and end		
+U+13455	𓑕	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged		

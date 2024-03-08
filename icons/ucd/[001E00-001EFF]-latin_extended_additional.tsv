@@ -1,257 +1,257 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1E00	"""Ḁ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with ring below		
-1E01	"""ḁ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with ring below		
-1E02	"""Ḃ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter b with dot above		
-1E03	"""ḃ"""	1E00..1EFF	Latin Extended Additional	Latin small letter b with dot above		
-1E04	"""Ḅ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter b with dot below		
-1E05	"""ḅ"""	1E00..1EFF	Latin Extended Additional	Latin small letter b with dot below		
-1E06	"""Ḇ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter b with line below		
-1E07	"""ḇ"""	1E00..1EFF	Latin Extended Additional	Latin small letter b with line below		
-1E08	"""Ḉ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter c with cedilla and acute		
-1E09	"""ḉ"""	1E00..1EFF	Latin Extended Additional	Latin small letter c with cedilla and acute		
-1E0A	"""Ḋ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter d with dot above		
-1E0B	"""ḋ"""	1E00..1EFF	Latin Extended Additional	Latin small letter d with dot above		
-1E0C	"""Ḍ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter d with dot below		
-1E0D	"""ḍ"""	1E00..1EFF	Latin Extended Additional	Latin small letter d with dot below		
-1E0E	"""Ḏ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter d with line below		
-1E0F	"""ḏ"""	1E00..1EFF	Latin Extended Additional	Latin small letter d with line below		
-1E10	"""Ḑ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter d with cedilla		
-1E11	"""ḑ"""	1E00..1EFF	Latin Extended Additional	Latin small letter d with cedilla		
-1E12	"""Ḓ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter d with circumflex below		
-1E13	"""ḓ"""	1E00..1EFF	Latin Extended Additional	Latin small letter d with circumflex below		
-1E14	"""Ḕ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with macron and grave		
-1E15	"""ḕ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with macron and grave		
-1E16	"""Ḗ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with macron and acute		
-1E17	"""ḗ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with macron and acute		
-1E18	"""Ḙ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex below		
-1E19	"""ḙ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex below		
-1E1A	"""Ḛ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with tilde below		
-1E1B	"""ḛ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with tilde below		
-1E1C	"""Ḝ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with cedilla and breve		
-1E1D	"""ḝ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with cedilla and breve		
-1E1E	"""Ḟ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter f with dot above		
-1E1F	"""ḟ"""	1E00..1EFF	Latin Extended Additional	Latin small letter f with dot above		
-1E20	"""Ḡ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter g with macron		
-1E21	"""ḡ"""	1E00..1EFF	Latin Extended Additional	Latin small letter g with macron		
-1E22	"""Ḣ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter h with dot above		
-1E23	"""ḣ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with dot above		
-1E24	"""Ḥ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter h with dot below		
-1E25	"""ḥ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with dot below		
-1E26	"""Ḧ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter h with diaeresis		
-1E27	"""ḧ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with diaeresis		
-1E28	"""Ḩ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter h with cedilla		
-1E29	"""ḩ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with cedilla		
-1E2A	"""Ḫ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter h with breve below		
-1E2B	"""ḫ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with breve below		
-1E2C	"""Ḭ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter i with tilde below		
-1E2D	"""ḭ"""	1E00..1EFF	Latin Extended Additional	Latin small letter i with tilde below		
-1E2E	"""Ḯ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter i with diaeresis and acute		
-1E2F	"""ḯ"""	1E00..1EFF	Latin Extended Additional	Latin small letter i with diaeresis and acute		
-1E30	"""Ḱ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter k with acute		
-1E31	"""ḱ"""	1E00..1EFF	Latin Extended Additional	Latin small letter k with acute		
-1E32	"""Ḳ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter k with dot below		
-1E33	"""ḳ"""	1E00..1EFF	Latin Extended Additional	Latin small letter k with dot below		
-1E34	"""Ḵ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter k with line below		
-1E35	"""ḵ"""	1E00..1EFF	Latin Extended Additional	Latin small letter k with line below		
-1E36	"""Ḷ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter l with dot below		
-1E37	"""ḷ"""	1E00..1EFF	Latin Extended Additional	Latin small letter l with dot below		
-1E38	"""Ḹ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter l with dot below and macron		
-1E39	"""ḹ"""	1E00..1EFF	Latin Extended Additional	Latin small letter l with dot below and macron		
-1E3A	"""Ḻ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter l with line below		
-1E3B	"""ḻ"""	1E00..1EFF	Latin Extended Additional	Latin small letter l with line below		
-1E3C	"""Ḽ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter l with circumflex below		
-1E3D	"""ḽ"""	1E00..1EFF	Latin Extended Additional	Latin small letter l with circumflex below		
-1E3E	"""Ḿ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter m with acute		
-1E3F	"""ḿ"""	1E00..1EFF	Latin Extended Additional	Latin small letter m with acute		
-1E40	"""Ṁ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter m with dot above		
-1E41	"""ṁ"""	1E00..1EFF	Latin Extended Additional	Latin small letter m with dot above		
-1E42	"""Ṃ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter m with dot below		
-1E43	"""ṃ"""	1E00..1EFF	Latin Extended Additional	Latin small letter m with dot below		
-1E44	"""Ṅ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter n with dot above		
-1E45	"""ṅ"""	1E00..1EFF	Latin Extended Additional	Latin small letter n with dot above		
-1E46	"""Ṇ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter n with dot below		
-1E47	"""ṇ"""	1E00..1EFF	Latin Extended Additional	Latin small letter n with dot below		
-1E48	"""Ṉ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter n with line below		
-1E49	"""ṉ"""	1E00..1EFF	Latin Extended Additional	Latin small letter n with line below		
-1E4A	"""Ṋ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter n with circumflex below		
-1E4B	"""ṋ"""	1E00..1EFF	Latin Extended Additional	Latin small letter n with circumflex below		
-1E4C	"""Ṍ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with tilde and acute		
-1E4D	"""ṍ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with tilde and acute		
-1E4E	"""Ṏ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with tilde and diaeresis		
-1E4F	"""ṏ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with tilde and diaeresis		
-1E50	"""Ṑ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with macron and grave		
-1E51	"""ṑ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with macron and grave		
-1E52	"""Ṓ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with macron and acute		
-1E53	"""ṓ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with macron and acute		
-1E54	"""Ṕ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter p with acute		
-1E55	"""ṕ"""	1E00..1EFF	Latin Extended Additional	Latin small letter p with acute		
-1E56	"""Ṗ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter p with dot above		
-1E57	"""ṗ"""	1E00..1EFF	Latin Extended Additional	Latin small letter p with dot above		
-1E58	"""Ṙ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot above		
-1E59	"""ṙ"""	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot above		
-1E5A	"""Ṛ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot below		
-1E5B	"""ṛ"""	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot below		
-1E5C	"""Ṝ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot below and macron		
-1E5D	"""ṝ"""	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot below and macron		
-1E5E	"""Ṟ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter r with line below		
-1E5F	"""ṟ"""	1E00..1EFF	Latin Extended Additional	Latin small letter r with line below		
-1E60	"""Ṡ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot above		
-1E61	"""ṡ"""	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot above		
-1E62	"""Ṣ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot below		
-1E63	"""ṣ"""	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot below		
-1E64	"""Ṥ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter s with acute and dot above		
-1E65	"""ṥ"""	1E00..1EFF	Latin Extended Additional	Latin small letter s with acute and dot above		
-1E66	"""Ṧ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter s with caron and dot above		
-1E67	"""ṧ"""	1E00..1EFF	Latin Extended Additional	Latin small letter s with caron and dot above		
-1E68	"""Ṩ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot below and dot above		
-1E69	"""ṩ"""	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot below and dot above		
-1E6A	"""Ṫ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter t with dot above		
-1E6B	"""ṫ"""	1E00..1EFF	Latin Extended Additional	Latin small letter t with dot above		
-1E6C	"""Ṭ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter t with dot below		
-1E6D	"""ṭ"""	1E00..1EFF	Latin Extended Additional	Latin small letter t with dot below		
-1E6E	"""Ṯ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter t with line below		
-1E6F	"""ṯ"""	1E00..1EFF	Latin Extended Additional	Latin small letter t with line below		
-1E70	"""Ṱ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter t with circumflex below		
-1E71	"""ṱ"""	1E00..1EFF	Latin Extended Additional	Latin small letter t with circumflex below		
-1E72	"""Ṳ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with diaeresis below		
-1E73	"""ṳ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with diaeresis below		
-1E74	"""Ṵ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with tilde below		
-1E75	"""ṵ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with tilde below		
-1E76	"""Ṷ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with circumflex below		
-1E77	"""ṷ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with circumflex below		
-1E78	"""Ṹ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with tilde and acute		
-1E79	"""ṹ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with tilde and acute		
-1E7A	"""Ṻ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with macron and diaeresis		
-1E7B	"""ṻ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with macron and diaeresis		
-1E7C	"""Ṽ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter v with tilde		
-1E7D	"""ṽ"""	1E00..1EFF	Latin Extended Additional	Latin small letter v with tilde		
-1E7E	"""Ṿ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter v with dot below		
-1E7F	"""ṿ"""	1E00..1EFF	Latin Extended Additional	Latin small letter v with dot below		
-1E80	"""Ẁ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter w with grave		
-1E81	"""ẁ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with grave		
-1E82	"""Ẃ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter w with acute		
-1E83	"""ẃ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with acute		
-1E84	"""Ẅ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter w with diaeresis		
-1E85	"""ẅ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with diaeresis		
-1E86	"""Ẇ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter w with dot above		
-1E87	"""ẇ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with dot above		
-1E88	"""Ẉ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter w with dot below		
-1E89	"""ẉ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with dot below		
-1E8A	"""Ẋ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter x with dot above		
-1E8B	"""ẋ"""	1E00..1EFF	Latin Extended Additional	Latin small letter x with dot above		
-1E8C	"""Ẍ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter x with diaeresis		
-1E8D	"""ẍ"""	1E00..1EFF	Latin Extended Additional	Latin small letter x with diaeresis		
-1E8E	"""Ẏ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with dot above		
-1E8F	"""ẏ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with dot above		
-1E90	"""Ẑ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter z with circumflex		
-1E91	"""ẑ"""	1E00..1EFF	Latin Extended Additional	Latin small letter z with circumflex		
-1E92	"""Ẓ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter z with dot below		
-1E93	"""ẓ"""	1E00..1EFF	Latin Extended Additional	Latin small letter z with dot below		
-1E94	"""Ẕ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter z with line below		
-1E95	"""ẕ"""	1E00..1EFF	Latin Extended Additional	Latin small letter z with line below		
-1E96	"""ẖ"""	1E00..1EFF	Latin Extended Additional	Latin small letter h with line below		
-1E97	"""ẗ"""	1E00..1EFF	Latin Extended Additional	Latin small letter t with diaeresis		
-1E98	"""ẘ"""	1E00..1EFF	Latin Extended Additional	Latin small letter w with ring above		
-1E99	"""ẙ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with ring above		
-1E9A	"""ẚ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with right half ring		
-1E9B	"""ẛ"""	1E00..1EFF	Latin Extended Additional	Latin small letter long s with dot above		
-1E9C	"""ẜ"""	1E00..1EFF	Latin Extended Additional	Latin small letter long s with diagonal stroke		
-1E9D	"""ẝ"""	1E00..1EFF	Latin Extended Additional	Latin small letter long s with high stroke		
-1E9E	"""ẞ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter sharp s		
-1E9F	"""ẟ"""	1E00..1EFF	Latin Extended Additional	Latin small letter delta		
-1EA0	"""Ạ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with dot below		
-1EA1	"""ạ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with dot below		
-1EA2	"""Ả"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with hook above		
-1EA3	"""ả"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with hook above		
-1EA4	"""Ấ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and acute		
-1EA5	"""ấ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and acute		
-1EA6	"""Ầ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and grave		
-1EA7	"""ầ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and grave		
-1EA8	"""Ẩ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and hook above		
-1EA9	"""ẩ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and hook above		
-1EAA	"""Ẫ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and tilde		
-1EAB	"""ẫ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and tilde		
-1EAC	"""Ậ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and dot below		
-1EAD	"""ậ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and dot below		
-1EAE	"""Ắ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and acute		
-1EAF	"""ắ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and acute		
-1EB0	"""Ằ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and grave		
-1EB1	"""ằ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and grave		
-1EB2	"""Ẳ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and hook above		
-1EB3	"""ẳ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and hook above		
-1EB4	"""Ẵ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and tilde		
-1EB5	"""ẵ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and tilde		
-1EB6	"""Ặ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and dot below		
-1EB7	"""ặ"""	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and dot below		
-1EB8	"""Ẹ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with dot below		
-1EB9	"""ẹ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with dot below		
-1EBA	"""Ẻ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with hook above		
-1EBB	"""ẻ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with hook above		
-1EBC	"""Ẽ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with tilde		
-1EBD	"""ẽ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with tilde		
-1EBE	"""Ế"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and acute		
-1EBF	"""ế"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and acute		
-1EC0	"""Ề"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and grave		
-1EC1	"""ề"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and grave		
-1EC2	"""Ể"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and hook above		
-1EC3	"""ể"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and hook above		
-1EC4	"""Ễ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and tilde		
-1EC5	"""ễ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and tilde		
-1EC6	"""Ệ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and dot below		
-1EC7	"""ệ"""	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and dot below		
-1EC8	"""Ỉ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter i with hook above		
-1EC9	"""ỉ"""	1E00..1EFF	Latin Extended Additional	Latin small letter i with hook above		
-1ECA	"""Ị"""	1E00..1EFF	Latin Extended Additional	Latin capital letter i with dot below		
-1ECB	"""ị"""	1E00..1EFF	Latin Extended Additional	Latin small letter i with dot below		
-1ECC	"""Ọ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with dot below		
-1ECD	"""ọ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with dot below		
-1ECE	"""Ỏ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with hook above		
-1ECF	"""ỏ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with hook above		
-1ED0	"""Ố"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and acute		
-1ED1	"""ố"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and acute		
-1ED2	"""Ồ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and grave		
-1ED3	"""ồ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and grave		
-1ED4	"""Ổ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and hook above		
-1ED5	"""ổ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and hook above		
-1ED6	"""Ỗ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and tilde		
-1ED7	"""ỗ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and tilde		
-1ED8	"""Ộ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and dot below		
-1ED9	"""ộ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and dot below		
-1EDA	"""Ớ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and acute		
-1EDB	"""ớ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and acute		
-1EDC	"""Ờ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and grave		
-1EDD	"""ờ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and grave		
-1EDE	"""Ở"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and hook above		
-1EDF	"""ở"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and hook above		
-1EE0	"""Ỡ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and tilde		
-1EE1	"""ỡ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and tilde		
-1EE2	"""Ợ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and dot below		
-1EE3	"""ợ"""	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and dot below		
-1EE4	"""Ụ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with dot below		
-1EE5	"""ụ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with dot below		
-1EE6	"""Ủ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with hook above		
-1EE7	"""ủ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with hook above		
-1EE8	"""Ứ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and acute		
-1EE9	"""ứ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and acute		
-1EEA	"""Ừ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and grave		
-1EEB	"""ừ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and grave		
-1EEC	"""Ử"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and hook above		
-1EED	"""ử"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and hook above		
-1EEE	"""Ữ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and tilde		
-1EEF	"""ữ"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and tilde		
-1EF0	"""Ự"""	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and dot below		
-1EF1	"""ự"""	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and dot below		
-1EF2	"""Ỳ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with grave		
-1EF3	"""ỳ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with grave		
-1EF4	"""Ỵ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with dot below		
-1EF5	"""ỵ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with dot below		
-1EF6	"""Ỷ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with hook above		
-1EF7	"""ỷ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with hook above		
-1EF8	"""Ỹ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with tilde		
-1EF9	"""ỹ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with tilde		
-1EFA	"""Ỻ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter middle-welsh ll		
-1EFB	"""ỻ"""	1E00..1EFF	Latin Extended Additional	Latin small letter middle-welsh ll		
-1EFC	"""Ỽ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter middle-welsh v		
-1EFD	"""ỽ"""	1E00..1EFF	Latin Extended Additional	Latin small letter middle-welsh v		
-1EFE	"""Ỿ"""	1E00..1EFF	Latin Extended Additional	Latin capital letter y with loop		
-1EFF	"""ỿ"""	1E00..1EFF	Latin Extended Additional	Latin small letter y with loop		
+U+1E00	Ḁ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with ring below		
+U+1E01	ḁ	1E00..1EFF	Latin Extended Additional	Latin small letter a with ring below		
+U+1E02	Ḃ	1E00..1EFF	Latin Extended Additional	Latin capital letter b with dot above		
+U+1E03	ḃ	1E00..1EFF	Latin Extended Additional	Latin small letter b with dot above		
+U+1E04	Ḅ	1E00..1EFF	Latin Extended Additional	Latin capital letter b with dot below		
+U+1E05	ḅ	1E00..1EFF	Latin Extended Additional	Latin small letter b with dot below		
+U+1E06	Ḇ	1E00..1EFF	Latin Extended Additional	Latin capital letter b with line below		
+U+1E07	ḇ	1E00..1EFF	Latin Extended Additional	Latin small letter b with line below		
+U+1E08	Ḉ	1E00..1EFF	Latin Extended Additional	Latin capital letter c with cedilla and acute		
+U+1E09	ḉ	1E00..1EFF	Latin Extended Additional	Latin small letter c with cedilla and acute		
+U+1E0A	Ḋ	1E00..1EFF	Latin Extended Additional	Latin capital letter d with dot above		
+U+1E0B	ḋ	1E00..1EFF	Latin Extended Additional	Latin small letter d with dot above		
+U+1E0C	Ḍ	1E00..1EFF	Latin Extended Additional	Latin capital letter d with dot below		
+U+1E0D	ḍ	1E00..1EFF	Latin Extended Additional	Latin small letter d with dot below		
+U+1E0E	Ḏ	1E00..1EFF	Latin Extended Additional	Latin capital letter d with line below		
+U+1E0F	ḏ	1E00..1EFF	Latin Extended Additional	Latin small letter d with line below		
+U+1E10	Ḑ	1E00..1EFF	Latin Extended Additional	Latin capital letter d with cedilla		
+U+1E11	ḑ	1E00..1EFF	Latin Extended Additional	Latin small letter d with cedilla		
+U+1E12	Ḓ	1E00..1EFF	Latin Extended Additional	Latin capital letter d with circumflex below		
+U+1E13	ḓ	1E00..1EFF	Latin Extended Additional	Latin small letter d with circumflex below		
+U+1E14	Ḕ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with macron and grave		
+U+1E15	ḕ	1E00..1EFF	Latin Extended Additional	Latin small letter e with macron and grave		
+U+1E16	Ḗ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with macron and acute		
+U+1E17	ḗ	1E00..1EFF	Latin Extended Additional	Latin small letter e with macron and acute		
+U+1E18	Ḙ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex below		
+U+1E19	ḙ	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex below		
+U+1E1A	Ḛ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with tilde below		
+U+1E1B	ḛ	1E00..1EFF	Latin Extended Additional	Latin small letter e with tilde below		
+U+1E1C	Ḝ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with cedilla and breve		
+U+1E1D	ḝ	1E00..1EFF	Latin Extended Additional	Latin small letter e with cedilla and breve		
+U+1E1E	Ḟ	1E00..1EFF	Latin Extended Additional	Latin capital letter f with dot above		
+U+1E1F	ḟ	1E00..1EFF	Latin Extended Additional	Latin small letter f with dot above		
+U+1E20	Ḡ	1E00..1EFF	Latin Extended Additional	Latin capital letter g with macron		
+U+1E21	ḡ	1E00..1EFF	Latin Extended Additional	Latin small letter g with macron		
+U+1E22	Ḣ	1E00..1EFF	Latin Extended Additional	Latin capital letter h with dot above		
+U+1E23	ḣ	1E00..1EFF	Latin Extended Additional	Latin small letter h with dot above		
+U+1E24	Ḥ	1E00..1EFF	Latin Extended Additional	Latin capital letter h with dot below		
+U+1E25	ḥ	1E00..1EFF	Latin Extended Additional	Latin small letter h with dot below		
+U+1E26	Ḧ	1E00..1EFF	Latin Extended Additional	Latin capital letter h with diaeresis		
+U+1E27	ḧ	1E00..1EFF	Latin Extended Additional	Latin small letter h with diaeresis		
+U+1E28	Ḩ	1E00..1EFF	Latin Extended Additional	Latin capital letter h with cedilla		
+U+1E29	ḩ	1E00..1EFF	Latin Extended Additional	Latin small letter h with cedilla		
+U+1E2A	Ḫ	1E00..1EFF	Latin Extended Additional	Latin capital letter h with breve below		
+U+1E2B	ḫ	1E00..1EFF	Latin Extended Additional	Latin small letter h with breve below		
+U+1E2C	Ḭ	1E00..1EFF	Latin Extended Additional	Latin capital letter i with tilde below		
+U+1E2D	ḭ	1E00..1EFF	Latin Extended Additional	Latin small letter i with tilde below		
+U+1E2E	Ḯ	1E00..1EFF	Latin Extended Additional	Latin capital letter i with diaeresis and acute		
+U+1E2F	ḯ	1E00..1EFF	Latin Extended Additional	Latin small letter i with diaeresis and acute		
+U+1E30	Ḱ	1E00..1EFF	Latin Extended Additional	Latin capital letter k with acute		
+U+1E31	ḱ	1E00..1EFF	Latin Extended Additional	Latin small letter k with acute		
+U+1E32	Ḳ	1E00..1EFF	Latin Extended Additional	Latin capital letter k with dot below		
+U+1E33	ḳ	1E00..1EFF	Latin Extended Additional	Latin small letter k with dot below		
+U+1E34	Ḵ	1E00..1EFF	Latin Extended Additional	Latin capital letter k with line below		
+U+1E35	ḵ	1E00..1EFF	Latin Extended Additional	Latin small letter k with line below		
+U+1E36	Ḷ	1E00..1EFF	Latin Extended Additional	Latin capital letter l with dot below		
+U+1E37	ḷ	1E00..1EFF	Latin Extended Additional	Latin small letter l with dot below		
+U+1E38	Ḹ	1E00..1EFF	Latin Extended Additional	Latin capital letter l with dot below and macron		
+U+1E39	ḹ	1E00..1EFF	Latin Extended Additional	Latin small letter l with dot below and macron		
+U+1E3A	Ḻ	1E00..1EFF	Latin Extended Additional	Latin capital letter l with line below		
+U+1E3B	ḻ	1E00..1EFF	Latin Extended Additional	Latin small letter l with line below		
+U+1E3C	Ḽ	1E00..1EFF	Latin Extended Additional	Latin capital letter l with circumflex below		
+U+1E3D	ḽ	1E00..1EFF	Latin Extended Additional	Latin small letter l with circumflex below		
+U+1E3E	Ḿ	1E00..1EFF	Latin Extended Additional	Latin capital letter m with acute		
+U+1E3F	ḿ	1E00..1EFF	Latin Extended Additional	Latin small letter m with acute		
+U+1E40	Ṁ	1E00..1EFF	Latin Extended Additional	Latin capital letter m with dot above		
+U+1E41	ṁ	1E00..1EFF	Latin Extended Additional	Latin small letter m with dot above		
+U+1E42	Ṃ	1E00..1EFF	Latin Extended Additional	Latin capital letter m with dot below		
+U+1E43	ṃ	1E00..1EFF	Latin Extended Additional	Latin small letter m with dot below		
+U+1E44	Ṅ	1E00..1EFF	Latin Extended Additional	Latin capital letter n with dot above		
+U+1E45	ṅ	1E00..1EFF	Latin Extended Additional	Latin small letter n with dot above		
+U+1E46	Ṇ	1E00..1EFF	Latin Extended Additional	Latin capital letter n with dot below		
+U+1E47	ṇ	1E00..1EFF	Latin Extended Additional	Latin small letter n with dot below		
+U+1E48	Ṉ	1E00..1EFF	Latin Extended Additional	Latin capital letter n with line below		
+U+1E49	ṉ	1E00..1EFF	Latin Extended Additional	Latin small letter n with line below		
+U+1E4A	Ṋ	1E00..1EFF	Latin Extended Additional	Latin capital letter n with circumflex below		
+U+1E4B	ṋ	1E00..1EFF	Latin Extended Additional	Latin small letter n with circumflex below		
+U+1E4C	Ṍ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with tilde and acute		
+U+1E4D	ṍ	1E00..1EFF	Latin Extended Additional	Latin small letter o with tilde and acute		
+U+1E4E	Ṏ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with tilde and diaeresis		
+U+1E4F	ṏ	1E00..1EFF	Latin Extended Additional	Latin small letter o with tilde and diaeresis		
+U+1E50	Ṑ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with macron and grave		
+U+1E51	ṑ	1E00..1EFF	Latin Extended Additional	Latin small letter o with macron and grave		
+U+1E52	Ṓ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with macron and acute		
+U+1E53	ṓ	1E00..1EFF	Latin Extended Additional	Latin small letter o with macron and acute		
+U+1E54	Ṕ	1E00..1EFF	Latin Extended Additional	Latin capital letter p with acute		
+U+1E55	ṕ	1E00..1EFF	Latin Extended Additional	Latin small letter p with acute		
+U+1E56	Ṗ	1E00..1EFF	Latin Extended Additional	Latin capital letter p with dot above		
+U+1E57	ṗ	1E00..1EFF	Latin Extended Additional	Latin small letter p with dot above		
+U+1E58	Ṙ	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot above		
+U+1E59	ṙ	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot above		
+U+1E5A	Ṛ	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot below		
+U+1E5B	ṛ	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot below		
+U+1E5C	Ṝ	1E00..1EFF	Latin Extended Additional	Latin capital letter r with dot below and macron		
+U+1E5D	ṝ	1E00..1EFF	Latin Extended Additional	Latin small letter r with dot below and macron		
+U+1E5E	Ṟ	1E00..1EFF	Latin Extended Additional	Latin capital letter r with line below		
+U+1E5F	ṟ	1E00..1EFF	Latin Extended Additional	Latin small letter r with line below		
+U+1E60	Ṡ	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot above		
+U+1E61	ṡ	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot above		
+U+1E62	Ṣ	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot below		
+U+1E63	ṣ	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot below		
+U+1E64	Ṥ	1E00..1EFF	Latin Extended Additional	Latin capital letter s with acute and dot above		
+U+1E65	ṥ	1E00..1EFF	Latin Extended Additional	Latin small letter s with acute and dot above		
+U+1E66	Ṧ	1E00..1EFF	Latin Extended Additional	Latin capital letter s with caron and dot above		
+U+1E67	ṧ	1E00..1EFF	Latin Extended Additional	Latin small letter s with caron and dot above		
+U+1E68	Ṩ	1E00..1EFF	Latin Extended Additional	Latin capital letter s with dot below and dot above		
+U+1E69	ṩ	1E00..1EFF	Latin Extended Additional	Latin small letter s with dot below and dot above		
+U+1E6A	Ṫ	1E00..1EFF	Latin Extended Additional	Latin capital letter t with dot above		
+U+1E6B	ṫ	1E00..1EFF	Latin Extended Additional	Latin small letter t with dot above		
+U+1E6C	Ṭ	1E00..1EFF	Latin Extended Additional	Latin capital letter t with dot below		
+U+1E6D	ṭ	1E00..1EFF	Latin Extended Additional	Latin small letter t with dot below		
+U+1E6E	Ṯ	1E00..1EFF	Latin Extended Additional	Latin capital letter t with line below		
+U+1E6F	ṯ	1E00..1EFF	Latin Extended Additional	Latin small letter t with line below		
+U+1E70	Ṱ	1E00..1EFF	Latin Extended Additional	Latin capital letter t with circumflex below		
+U+1E71	ṱ	1E00..1EFF	Latin Extended Additional	Latin small letter t with circumflex below		
+U+1E72	Ṳ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with diaeresis below		
+U+1E73	ṳ	1E00..1EFF	Latin Extended Additional	Latin small letter u with diaeresis below		
+U+1E74	Ṵ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with tilde below		
+U+1E75	ṵ	1E00..1EFF	Latin Extended Additional	Latin small letter u with tilde below		
+U+1E76	Ṷ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with circumflex below		
+U+1E77	ṷ	1E00..1EFF	Latin Extended Additional	Latin small letter u with circumflex below		
+U+1E78	Ṹ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with tilde and acute		
+U+1E79	ṹ	1E00..1EFF	Latin Extended Additional	Latin small letter u with tilde and acute		
+U+1E7A	Ṻ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with macron and diaeresis		
+U+1E7B	ṻ	1E00..1EFF	Latin Extended Additional	Latin small letter u with macron and diaeresis		
+U+1E7C	Ṽ	1E00..1EFF	Latin Extended Additional	Latin capital letter v with tilde		
+U+1E7D	ṽ	1E00..1EFF	Latin Extended Additional	Latin small letter v with tilde		
+U+1E7E	Ṿ	1E00..1EFF	Latin Extended Additional	Latin capital letter v with dot below		
+U+1E7F	ṿ	1E00..1EFF	Latin Extended Additional	Latin small letter v with dot below		
+U+1E80	Ẁ	1E00..1EFF	Latin Extended Additional	Latin capital letter w with grave		
+U+1E81	ẁ	1E00..1EFF	Latin Extended Additional	Latin small letter w with grave		
+U+1E82	Ẃ	1E00..1EFF	Latin Extended Additional	Latin capital letter w with acute		
+U+1E83	ẃ	1E00..1EFF	Latin Extended Additional	Latin small letter w with acute		
+U+1E84	Ẅ	1E00..1EFF	Latin Extended Additional	Latin capital letter w with diaeresis		
+U+1E85	ẅ	1E00..1EFF	Latin Extended Additional	Latin small letter w with diaeresis		
+U+1E86	Ẇ	1E00..1EFF	Latin Extended Additional	Latin capital letter w with dot above		
+U+1E87	ẇ	1E00..1EFF	Latin Extended Additional	Latin small letter w with dot above		
+U+1E88	Ẉ	1E00..1EFF	Latin Extended Additional	Latin capital letter w with dot below		
+U+1E89	ẉ	1E00..1EFF	Latin Extended Additional	Latin small letter w with dot below		
+U+1E8A	Ẋ	1E00..1EFF	Latin Extended Additional	Latin capital letter x with dot above		
+U+1E8B	ẋ	1E00..1EFF	Latin Extended Additional	Latin small letter x with dot above		
+U+1E8C	Ẍ	1E00..1EFF	Latin Extended Additional	Latin capital letter x with diaeresis		
+U+1E8D	ẍ	1E00..1EFF	Latin Extended Additional	Latin small letter x with diaeresis		
+U+1E8E	Ẏ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with dot above		
+U+1E8F	ẏ	1E00..1EFF	Latin Extended Additional	Latin small letter y with dot above		
+U+1E90	Ẑ	1E00..1EFF	Latin Extended Additional	Latin capital letter z with circumflex		
+U+1E91	ẑ	1E00..1EFF	Latin Extended Additional	Latin small letter z with circumflex		
+U+1E92	Ẓ	1E00..1EFF	Latin Extended Additional	Latin capital letter z with dot below		
+U+1E93	ẓ	1E00..1EFF	Latin Extended Additional	Latin small letter z with dot below		
+U+1E94	Ẕ	1E00..1EFF	Latin Extended Additional	Latin capital letter z with line below		
+U+1E95	ẕ	1E00..1EFF	Latin Extended Additional	Latin small letter z with line below		
+U+1E96	ẖ	1E00..1EFF	Latin Extended Additional	Latin small letter h with line below		
+U+1E97	ẗ	1E00..1EFF	Latin Extended Additional	Latin small letter t with diaeresis		
+U+1E98	ẘ	1E00..1EFF	Latin Extended Additional	Latin small letter w with ring above		
+U+1E99	ẙ	1E00..1EFF	Latin Extended Additional	Latin small letter y with ring above		
+U+1E9A	ẚ	1E00..1EFF	Latin Extended Additional	Latin small letter a with right half ring		
+U+1E9B	ẛ	1E00..1EFF	Latin Extended Additional	Latin small letter long s with dot above		
+U+1E9C	ẜ	1E00..1EFF	Latin Extended Additional	Latin small letter long s with diagonal stroke		
+U+1E9D	ẝ	1E00..1EFF	Latin Extended Additional	Latin small letter long s with high stroke		
+U+1E9E	ẞ	1E00..1EFF	Latin Extended Additional	Latin capital letter sharp s		
+U+1E9F	ẟ	1E00..1EFF	Latin Extended Additional	Latin small letter delta		
+U+1EA0	Ạ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with dot below		
+U+1EA1	ạ	1E00..1EFF	Latin Extended Additional	Latin small letter a with dot below		
+U+1EA2	Ả	1E00..1EFF	Latin Extended Additional	Latin capital letter a with hook above		
+U+1EA3	ả	1E00..1EFF	Latin Extended Additional	Latin small letter a with hook above		
+U+1EA4	Ấ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and acute		
+U+1EA5	ấ	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and acute		
+U+1EA6	Ầ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and grave		
+U+1EA7	ầ	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and grave		
+U+1EA8	Ẩ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and hook above		
+U+1EA9	ẩ	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and hook above		
+U+1EAA	Ẫ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and tilde		
+U+1EAB	ẫ	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and tilde		
+U+1EAC	Ậ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with circumflex and dot below		
+U+1EAD	ậ	1E00..1EFF	Latin Extended Additional	Latin small letter a with circumflex and dot below		
+U+1EAE	Ắ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and acute		
+U+1EAF	ắ	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and acute		
+U+1EB0	Ằ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and grave		
+U+1EB1	ằ	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and grave		
+U+1EB2	Ẳ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and hook above		
+U+1EB3	ẳ	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and hook above		
+U+1EB4	Ẵ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and tilde		
+U+1EB5	ẵ	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and tilde		
+U+1EB6	Ặ	1E00..1EFF	Latin Extended Additional	Latin capital letter a with breve and dot below		
+U+1EB7	ặ	1E00..1EFF	Latin Extended Additional	Latin small letter a with breve and dot below		
+U+1EB8	Ẹ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with dot below		
+U+1EB9	ẹ	1E00..1EFF	Latin Extended Additional	Latin small letter e with dot below		
+U+1EBA	Ẻ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with hook above		
+U+1EBB	ẻ	1E00..1EFF	Latin Extended Additional	Latin small letter e with hook above		
+U+1EBC	Ẽ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with tilde		
+U+1EBD	ẽ	1E00..1EFF	Latin Extended Additional	Latin small letter e with tilde		
+U+1EBE	Ế	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and acute		
+U+1EBF	ế	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and acute		
+U+1EC0	Ề	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and grave		
+U+1EC1	ề	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and grave		
+U+1EC2	Ể	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and hook above		
+U+1EC3	ể	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and hook above		
+U+1EC4	Ễ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and tilde		
+U+1EC5	ễ	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and tilde		
+U+1EC6	Ệ	1E00..1EFF	Latin Extended Additional	Latin capital letter e with circumflex and dot below		
+U+1EC7	ệ	1E00..1EFF	Latin Extended Additional	Latin small letter e with circumflex and dot below		
+U+1EC8	Ỉ	1E00..1EFF	Latin Extended Additional	Latin capital letter i with hook above		
+U+1EC9	ỉ	1E00..1EFF	Latin Extended Additional	Latin small letter i with hook above		
+U+1ECA	Ị	1E00..1EFF	Latin Extended Additional	Latin capital letter i with dot below		
+U+1ECB	ị	1E00..1EFF	Latin Extended Additional	Latin small letter i with dot below		
+U+1ECC	Ọ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with dot below		
+U+1ECD	ọ	1E00..1EFF	Latin Extended Additional	Latin small letter o with dot below		
+U+1ECE	Ỏ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with hook above		
+U+1ECF	ỏ	1E00..1EFF	Latin Extended Additional	Latin small letter o with hook above		
+U+1ED0	Ố	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and acute		
+U+1ED1	ố	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and acute		
+U+1ED2	Ồ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and grave		
+U+1ED3	ồ	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and grave		
+U+1ED4	Ổ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and hook above		
+U+1ED5	ổ	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and hook above		
+U+1ED6	Ỗ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and tilde		
+U+1ED7	ỗ	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and tilde		
+U+1ED8	Ộ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with circumflex and dot below		
+U+1ED9	ộ	1E00..1EFF	Latin Extended Additional	Latin small letter o with circumflex and dot below		
+U+1EDA	Ớ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and acute		
+U+1EDB	ớ	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and acute		
+U+1EDC	Ờ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and grave		
+U+1EDD	ờ	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and grave		
+U+1EDE	Ở	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and hook above		
+U+1EDF	ở	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and hook above		
+U+1EE0	Ỡ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and tilde		
+U+1EE1	ỡ	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and tilde		
+U+1EE2	Ợ	1E00..1EFF	Latin Extended Additional	Latin capital letter o with horn and dot below		
+U+1EE3	ợ	1E00..1EFF	Latin Extended Additional	Latin small letter o with horn and dot below		
+U+1EE4	Ụ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with dot below		
+U+1EE5	ụ	1E00..1EFF	Latin Extended Additional	Latin small letter u with dot below		
+U+1EE6	Ủ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with hook above		
+U+1EE7	ủ	1E00..1EFF	Latin Extended Additional	Latin small letter u with hook above		
+U+1EE8	Ứ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and acute		
+U+1EE9	ứ	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and acute		
+U+1EEA	Ừ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and grave		
+U+1EEB	ừ	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and grave		
+U+1EEC	Ử	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and hook above		
+U+1EED	ử	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and hook above		
+U+1EEE	Ữ	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and tilde		
+U+1EEF	ữ	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and tilde		
+U+1EF0	Ự	1E00..1EFF	Latin Extended Additional	Latin capital letter u with horn and dot below		
+U+1EF1	ự	1E00..1EFF	Latin Extended Additional	Latin small letter u with horn and dot below		
+U+1EF2	Ỳ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with grave		
+U+1EF3	ỳ	1E00..1EFF	Latin Extended Additional	Latin small letter y with grave		
+U+1EF4	Ỵ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with dot below		
+U+1EF5	ỵ	1E00..1EFF	Latin Extended Additional	Latin small letter y with dot below		
+U+1EF6	Ỷ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with hook above		
+U+1EF7	ỷ	1E00..1EFF	Latin Extended Additional	Latin small letter y with hook above		
+U+1EF8	Ỹ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with tilde		
+U+1EF9	ỹ	1E00..1EFF	Latin Extended Additional	Latin small letter y with tilde		
+U+1EFA	Ỻ	1E00..1EFF	Latin Extended Additional	Latin capital letter middle-welsh ll		
+U+1EFB	ỻ	1E00..1EFF	Latin Extended Additional	Latin small letter middle-welsh ll		
+U+1EFC	Ỽ	1E00..1EFF	Latin Extended Additional	Latin capital letter middle-welsh v		
+U+1EFD	ỽ	1E00..1EFF	Latin Extended Additional	Latin small letter middle-welsh v		
+U+1EFE	Ỿ	1E00..1EFF	Latin Extended Additional	Latin capital letter y with loop		
+U+1EFF	ỿ	1E00..1EFF	Latin Extended Additional	Latin small letter y with loop		

@@ -1,641 +1,641 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1400	"""᐀"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics hyphen		
-1401	"""ᐁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics e		
-1402	"""ᐂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aai		
-1403	"""ᐃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics i		
-1404	"""ᐄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ii		
-1405	"""ᐅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics o		
-1406	"""ᐆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics oo		
-1407	"""ᐇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree oo		
-1408	"""ᐈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ee		
-1409	"""ᐉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier i		
-140A	"""ᐊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics a		
-140B	"""ᐋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aa		
-140C	"""ᐌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics we		
-140D	"""ᐍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree we		
-140E	"""ᐎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wi		
-140F	"""ᐏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wi		
-1410	"""ᐐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wii		
-1411	"""ᐑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wii		
-1412	"""ᐒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wo		
-1413	"""ᐓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wo		
-1414	"""ᐔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woo		
-1415	"""ᐕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree woo		
-1416	"""ᐖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi woo		
-1417	"""ᐗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wa		
-1418	"""ᐘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wa		
-1419	"""ᐙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics waa		
-141A	"""ᐚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree waa		
-141B	"""ᐛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi waa		
-141C	"""ᐜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ai		
-141D	"""ᐝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree w		
-141E	"""ᐞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics glottal stop		
-141F	"""ᐟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final acute		
-1420	"""ᐠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final grave		
-1421	"""ᐡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final bottom half ring		
-1422	"""ᐢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final top half ring		
-1423	"""ᐣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final right half ring		
-1424	"""ᐤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final ring		
-1425	"""ᐥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final double acute		
-1426	"""ᐦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final double short vertical strokes		
-1427	"""ᐧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final middle dot		
-1428	"""ᐨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final short horizontal stroke		
-1429	"""ᐩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final plus		
-142A	"""ᐪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final down tack		
-142B	"""ᐫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics en		
-142C	"""ᐬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics in		
-142D	"""ᐭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics on		
-142E	"""ᐮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics an		
-142F	"""ᐯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pe		
-1430	"""ᐰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics paai		
-1431	"""ᐱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pi		
-1432	"""ᐲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pii		
-1433	"""ᐳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics po		
-1434	"""ᐴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics poo		
-1435	"""ᐵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree poo		
-1436	"""ᐶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hee		
-1437	"""ᐷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hi		
-1438	"""ᐸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pa		
-1439	"""ᐹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics paa		
-143A	"""ᐺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwe		
-143B	"""ᐻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwe		
-143C	"""ᐼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwi		
-143D	"""ᐽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwi		
-143E	"""ᐾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwii		
-143F	"""ᐿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwii		
-1440	"""ᑀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwo		
-1441	"""ᑁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwo		
-1442	"""ᑂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwoo		
-1443	"""ᑃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwoo		
-1444	"""ᑄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwa		
-1445	"""ᑅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwa		
-1446	"""ᑆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwaa		
-1447	"""ᑇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwaa		
-1448	"""ᑈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree pwaa		
-1449	"""ᑉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics p		
-144A	"""ᑊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree p		
-144B	"""ᑋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier h		
-144C	"""ᑌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics te		
-144D	"""ᑍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics taai		
-144E	"""ᑎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ti		
-144F	"""ᑏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tii		
-1450	"""ᑐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics to		
-1451	"""ᑑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics too		
-1452	"""ᑒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree too		
-1453	"""ᑓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dee		
-1454	"""ᑔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier di		
-1455	"""ᑕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ta		
-1456	"""ᑖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics taa		
-1457	"""ᑗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twe		
-1458	"""ᑘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twe		
-1459	"""ᑙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twi		
-145A	"""ᑚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twi		
-145B	"""ᑛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twii		
-145C	"""ᑜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twii		
-145D	"""ᑝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics two		
-145E	"""ᑞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree two		
-145F	"""ᑟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twoo		
-1460	"""ᑠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twoo		
-1461	"""ᑡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twa		
-1462	"""ᑢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twa		
-1463	"""ᑣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twaa		
-1464	"""ᑤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twaa		
-1465	"""ᑥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi twaa		
-1466	"""ᑦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics t		
-1467	"""ᑧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tte		
-1468	"""ᑨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tti		
-1469	"""ᑩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tto		
-146A	"""ᑪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tta		
-146B	"""ᑫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ke		
-146C	"""ᑬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kaai		
-146D	"""ᑭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ki		
-146E	"""ᑮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kii		
-146F	"""ᑯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ko		
-1470	"""ᑰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics koo		
-1471	"""ᑱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree koo		
-1472	"""ᑲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ka		
-1473	"""ᑳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kaa		
-1474	"""ᑴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwe		
-1475	"""ᑵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwe		
-1476	"""ᑶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwi		
-1477	"""ᑷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwi		
-1478	"""ᑸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwii		
-1479	"""ᑹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwii		
-147A	"""ᑺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwo		
-147B	"""ᑻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwo		
-147C	"""ᑼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwoo		
-147D	"""ᑽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwoo		
-147E	"""ᑾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwa		
-147F	"""ᑿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwa		
-1480	"""ᒀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwaa		
-1481	"""ᒁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwaa		
-1482	"""ᒂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi kwaa		
-1483	"""ᒃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics k		
-1484	"""ᒄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kw		
-1485	"""ᒅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey keh		
-1486	"""ᒆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey kih		
-1487	"""ᒇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey koh		
-1488	"""ᒈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey kah		
-1489	"""ᒉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ce		
-148A	"""ᒊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics caai		
-148B	"""ᒋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ci		
-148C	"""ᒌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cii		
-148D	"""ᒍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics co		
-148E	"""ᒎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics coo		
-148F	"""ᒏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree coo		
-1490	"""ᒐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ca		
-1491	"""ᒑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics caa		
-1492	"""ᒒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwe		
-1493	"""ᒓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwe		
-1494	"""ᒔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwi		
-1495	"""ᒕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwi		
-1496	"""ᒖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwii		
-1497	"""ᒗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwii		
-1498	"""ᒘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwo		
-1499	"""ᒙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwo		
-149A	"""ᒚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwoo		
-149B	"""ᒛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwoo		
-149C	"""ᒜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwa		
-149D	"""ᒝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwa		
-149E	"""ᒞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwaa		
-149F	"""ᒟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwaa		
-14A0	"""ᒠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi cwaa		
-14A1	"""ᒡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics c		
-14A2	"""ᒢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi th		
-14A3	"""ᒣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics me		
-14A4	"""ᒤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics maai		
-14A5	"""ᒥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mi		
-14A6	"""ᒦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mii		
-14A7	"""ᒧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mo		
-14A8	"""ᒨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics moo		
-14A9	"""ᒩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree moo		
-14AA	"""ᒪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ma		
-14AB	"""ᒫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics maa		
-14AC	"""ᒬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwe		
-14AD	"""ᒭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwe		
-14AE	"""ᒮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwi		
-14AF	"""ᒯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwi		
-14B0	"""ᒰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwii		
-14B1	"""ᒱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwii		
-14B2	"""ᒲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwo		
-14B3	"""ᒳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwo		
-14B4	"""ᒴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwoo		
-14B5	"""ᒵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwoo		
-14B6	"""ᒶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwa		
-14B7	"""ᒷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwa		
-14B8	"""ᒸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwaa		
-14B9	"""ᒹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwaa		
-14BA	"""ᒺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi mwaa		
-14BB	"""ᒻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics m		
-14BC	"""ᒼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree m		
-14BD	"""ᒽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mh		
-14BE	"""ᒾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics athapascan m		
-14BF	"""ᒿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi m		
-14C0	"""ᓀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ne		
-14C1	"""ᓁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naai		
-14C2	"""ᓂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ni		
-14C3	"""ᓃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nii		
-14C4	"""ᓄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics no		
-14C5	"""ᓅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics noo		
-14C6	"""ᓆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree noo		
-14C7	"""ᓇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics na		
-14C8	"""ᓈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naa		
-14C9	"""ᓉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwe		
-14CA	"""ᓊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwe		
-14CB	"""ᓋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwa		
-14CC	"""ᓌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwa		
-14CD	"""ᓍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwaa		
-14CE	"""ᓎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwaa		
-14CF	"""ᓏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi nwaa		
-14D0	"""ᓐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n		
-14D1	"""ᓑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ng		
-14D2	"""ᓒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nh		
-14D3	"""ᓓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics le		
-14D4	"""ᓔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics laai		
-14D5	"""ᓕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics li		
-14D6	"""ᓖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lii		
-14D7	"""ᓗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lo		
-14D8	"""ᓘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics loo		
-14D9	"""ᓙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree loo		
-14DA	"""ᓚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics la		
-14DB	"""ᓛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics laa		
-14DC	"""ᓜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwe		
-14DD	"""ᓝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwe		
-14DE	"""ᓞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwi		
-14DF	"""ᓟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwi		
-14E0	"""ᓠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwii		
-14E1	"""ᓡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwii		
-14E2	"""ᓢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwo		
-14E3	"""ᓣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwo		
-14E4	"""ᓤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwoo		
-14E5	"""ᓥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwoo		
-14E6	"""ᓦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwa		
-14E7	"""ᓧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwa		
-14E8	"""ᓨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwaa		
-14E9	"""ᓩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwaa		
-14EA	"""ᓪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics l		
-14EB	"""ᓫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree l		
-14EC	"""ᓬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics medial l		
-14ED	"""ᓭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics se		
-14EE	"""ᓮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics saai		
-14EF	"""ᓯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics si		
-14F0	"""ᓰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sii		
-14F1	"""ᓱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics so		
-14F2	"""ᓲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics soo		
-14F3	"""ᓳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree soo		
-14F4	"""ᓴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sa		
-14F5	"""ᓵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics saa		
-14F6	"""ᓶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swe		
-14F7	"""ᓷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swe		
-14F8	"""ᓸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swi		
-14F9	"""ᓹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swi		
-14FA	"""ᓺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swii		
-14FB	"""ᓻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swii		
-14FC	"""ᓼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swo		
-14FD	"""ᓽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swo		
-14FE	"""ᓾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swoo		
-14FF	"""ᓿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swoo		
-1500	"""ᔀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swa		
-1501	"""ᔁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swa		
-1502	"""ᔂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swaa		
-1503	"""ᔃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swaa		
-1504	"""ᔄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi swaa		
-1505	"""ᔅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics s		
-1506	"""ᔆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics athapascan s		
-1507	"""ᔇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sw		
-1508	"""ᔈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot s		
-1509	"""ᔉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics moose-cree sk		
-150A	"""ᔊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi skw		
-150B	"""ᔋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi s-w		
-150C	"""ᔌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi spwa		
-150D	"""ᔍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi stwa		
-150E	"""ᔎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi skwa		
-150F	"""ᔏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi scwa		
-1510	"""ᔐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics she		
-1511	"""ᔑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shi		
-1512	"""ᔒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shii		
-1513	"""ᔓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sho		
-1514	"""ᔔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shoo		
-1515	"""ᔕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sha		
-1516	"""ᔖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shaa		
-1517	"""ᔗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwe		
-1518	"""ᔘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwe		
-1519	"""ᔙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwi		
-151A	"""ᔚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwi		
-151B	"""ᔛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwii		
-151C	"""ᔜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwii		
-151D	"""ᔝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwo		
-151E	"""ᔞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwo		
-151F	"""ᔟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwoo		
-1520	"""ᔠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwoo		
-1521	"""ᔡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwa		
-1522	"""ᔢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwa		
-1523	"""ᔣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwaa		
-1524	"""ᔤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwaa		
-1525	"""ᔥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sh		
-1526	"""ᔦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ye		
-1527	"""ᔧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yaai		
-1528	"""ᔨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yi		
-1529	"""ᔩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yii		
-152A	"""ᔪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yo		
-152B	"""ᔫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yoo		
-152C	"""ᔬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree yoo		
-152D	"""ᔭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ya		
-152E	"""ᔮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yaa		
-152F	"""ᔯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywe		
-1530	"""ᔰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywe		
-1531	"""ᔱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywi		
-1532	"""ᔲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywi		
-1533	"""ᔳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywii		
-1534	"""ᔴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywii		
-1535	"""ᔵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywo		
-1536	"""ᔶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywo		
-1537	"""ᔷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywoo		
-1538	"""ᔸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywoo		
-1539	"""ᔹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywa		
-153A	"""ᔺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywa		
-153B	"""ᔻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywaa		
-153C	"""ᔼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywaa		
-153D	"""ᔽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi ywaa		
-153E	"""ᔾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y		
-153F	"""ᔿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics bible-cree y		
-1540	"""ᕀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree y		
-1541	"""ᕁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi yi		
-1542	"""ᕂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics re		
-1543	"""ᕃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics r-cree re		
-1544	"""ᕄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree le		
-1545	"""ᕅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics raai		
-1546	"""ᕆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ri		
-1547	"""ᕇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics rii		
-1548	"""ᕈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ro		
-1549	"""ᕉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics roo		
-154A	"""ᕊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lo		
-154B	"""ᕋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ra		
-154C	"""ᕌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics raa		
-154D	"""ᕍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree la		
-154E	"""ᕎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics rwaa		
-154F	"""ᕏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree rwaa		
-1550	"""ᕐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics r		
-1551	"""ᕑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree r		
-1552	"""ᕒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics medial r		
-1553	"""ᕓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fe		
-1554	"""ᕔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics faai		
-1555	"""ᕕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fi		
-1556	"""ᕖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fii		
-1557	"""ᕗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fo		
-1558	"""ᕘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics foo		
-1559	"""ᕙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fa		
-155A	"""ᕚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics faa		
-155B	"""ᕛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fwaa		
-155C	"""ᕜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree fwaa		
-155D	"""ᕝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics f		
-155E	"""ᕞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics the		
-155F	"""ᕟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree the		
-1560	"""ᕠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thi		
-1561	"""ᕡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree thi		
-1562	"""ᕢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thii		
-1563	"""ᕣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree thii		
-1564	"""ᕤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tho		
-1565	"""ᕥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thoo		
-1566	"""ᕦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tha		
-1567	"""ᕧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thaa		
-1568	"""ᕨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thwaa		
-1569	"""ᕩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree thwaa		
-156A	"""ᕪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th		
-156B	"""ᕫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tthe		
-156C	"""ᕬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tthi		
-156D	"""ᕭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ttho		
-156E	"""ᕮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ttha		
-156F	"""ᕯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tth		
-1570	"""ᕰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tye		
-1571	"""ᕱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tyi		
-1572	"""ᕲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tyo		
-1573	"""ᕳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tya		
-1574	"""ᕴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik he		
-1575	"""ᕵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hi		
-1576	"""ᕶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hii		
-1577	"""ᕷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik ho		
-1578	"""ᕸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hoo		
-1579	"""ᕹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik ha		
-157A	"""ᕺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik haa		
-157B	"""ᕻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik h		
-157C	"""ᕼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavut h		
-157D	"""ᕽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics hk		
-157E	"""ᕾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qaai		
-157F	"""ᕿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qi		
-1580	"""ᖀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qii		
-1581	"""ᖁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qo		
-1582	"""ᖂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qoo		
-1583	"""ᖃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qa		
-1584	"""ᖄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qaa		
-1585	"""ᖅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics q		
-1586	"""ᖆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlhe		
-1587	"""ᖇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlhi		
-1588	"""ᖈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlho		
-1589	"""ᖉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlha		
-158A	"""ᖊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree re		
-158B	"""ᖋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ri		
-158C	"""ᖌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ro		
-158D	"""ᖍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ra		
-158E	"""ᖎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngaai		
-158F	"""ᖏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngi		
-1590	"""ᖐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngii		
-1591	"""ᖑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngo		
-1592	"""ᖒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngoo		
-1593	"""ᖓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nga		
-1594	"""ᖔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngaa		
-1595	"""ᖕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ng		
-1596	"""ᖖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nng		
-1597	"""ᖗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi she		
-1598	"""ᖘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi shi		
-1599	"""ᖙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi sho		
-159A	"""ᖚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi sha		
-159B	"""ᖛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree the		
-159C	"""ᖜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thi		
-159D	"""ᖝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree tho		
-159E	"""ᖞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree tha		
-159F	"""ᖟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree th		
-15A0	"""ᖠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhi		
-15A1	"""ᖡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhii		
-15A2	"""ᖢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lho		
-15A3	"""ᖣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhoo		
-15A4	"""ᖤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lha		
-15A5	"""ᖥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhaa		
-15A6	"""ᖦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lh		
-15A7	"""ᖧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree the		
-15A8	"""ᖨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thi		
-15A9	"""ᖩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thii		
-15AA	"""ᖪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree tho		
-15AB	"""ᖫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thoo		
-15AC	"""ᖬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree tha		
-15AD	"""ᖭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thaa		
-15AE	"""ᖮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree th		
-15AF	"""ᖯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aivilik b		
-15B0	"""ᖰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot e		
-15B1	"""ᖱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot i		
-15B2	"""ᖲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot o		
-15B3	"""ᖳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot a		
-15B4	"""ᖴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot we		
-15B5	"""ᖵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wi		
-15B6	"""ᖶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wo		
-15B7	"""ᖷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wa		
-15B8	"""ᖸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ne		
-15B9	"""ᖹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ni		
-15BA	"""ᖺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot no		
-15BB	"""ᖻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot na		
-15BC	"""ᖼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ke		
-15BD	"""ᖽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ki		
-15BE	"""ᖾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ko		
-15BF	"""ᖿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ka		
-15C0	"""ᗀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi he		
-15C1	"""ᗁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi hi		
-15C2	"""ᗂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ho		
-15C3	"""ᗃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ha		
-15C4	"""ᗄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghu		
-15C5	"""ᗅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gho		
-15C6	"""ᗆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghe		
-15C7	"""ᗇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghee		
-15C8	"""ᗈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghi		
-15C9	"""ᗉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gha		
-15CA	"""ᗊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ru		
-15CB	"""ᗋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ro		
-15CC	"""ᗌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier re		
-15CD	"""ᗍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ree		
-15CE	"""ᗎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ri		
-15CF	"""ᗏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ra		
-15D0	"""ᗐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wu		
-15D1	"""ᗑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wo		
-15D2	"""ᗒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier we		
-15D3	"""ᗓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wee		
-15D4	"""ᗔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wi		
-15D5	"""ᗕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wa		
-15D6	"""ᗖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwu		
-15D7	"""ᗗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwo		
-15D8	"""ᗘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwe		
-15D9	"""ᗙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwee		
-15DA	"""ᗚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwi		
-15DB	"""ᗛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwa		
-15DC	"""ᗜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thu		
-15DD	"""ᗝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tho		
-15DE	"""ᗞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier the		
-15DF	"""ᗟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thee		
-15E0	"""ᗠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thi		
-15E1	"""ᗡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tha		
-15E2	"""ᗢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttu		
-15E3	"""ᗣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tto		
-15E4	"""ᗤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tte		
-15E5	"""ᗥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttee		
-15E6	"""ᗦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tti		
-15E7	"""ᗧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tta		
-15E8	"""ᗨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pu		
-15E9	"""ᗩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier po		
-15EA	"""ᗪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pe		
-15EB	"""ᗫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pee		
-15EC	"""ᗬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pi		
-15ED	"""ᗭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pa		
-15EE	"""ᗮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier p		
-15EF	"""ᗯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gu		
-15F0	"""ᗰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier go		
-15F1	"""ᗱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ge		
-15F2	"""ᗲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gee		
-15F3	"""ᗳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gi		
-15F4	"""ᗴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ga		
-15F5	"""ᗵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khu		
-15F6	"""ᗶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kho		
-15F7	"""ᗷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khe		
-15F8	"""ᗸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khee		
-15F9	"""ᗹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khi		
-15FA	"""ᗺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kha		
-15FB	"""ᗻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kku		
-15FC	"""ᗼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kko		
-15FD	"""ᗽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kke		
-15FE	"""ᗾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kkee		
-15FF	"""ᗿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kki		
-1600	"""ᘀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kka		
-1601	"""ᘁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kk		
-1602	"""ᘂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier nu		
-1603	"""ᘃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier no		
-1604	"""ᘄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ne		
-1605	"""ᘅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier nee		
-1606	"""ᘆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ni		
-1607	"""ᘇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier na		
-1608	"""ᘈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mu		
-1609	"""ᘉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mo		
-160A	"""ᘊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier me		
-160B	"""ᘋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mee		
-160C	"""ᘌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mi		
-160D	"""ᘍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ma		
-160E	"""ᘎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yu		
-160F	"""ᘏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yo		
-1610	"""ᘐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ye		
-1611	"""ᘑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yee		
-1612	"""ᘒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yi		
-1613	"""ᘓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ya		
-1614	"""ᘔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ju		
-1615	"""ᘕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ju		
-1616	"""ᘖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jo		
-1617	"""ᘗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier je		
-1618	"""ᘘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jee		
-1619	"""ᘙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ji		
-161A	"""ᘚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ji		
-161B	"""ᘛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ja		
-161C	"""ᘜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jju		
-161D	"""ᘝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jjo		
-161E	"""ᘞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jje		
-161F	"""ᘟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jjee		
-1620	"""ᘠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jji		
-1621	"""ᘡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jja		
-1622	"""ᘢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lu		
-1623	"""ᘣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lo		
-1624	"""ᘤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier le		
-1625	"""ᘥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lee		
-1626	"""ᘦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier li		
-1627	"""ᘧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier la		
-1628	"""ᘨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlu		
-1629	"""ᘩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlo		
-162A	"""ᘪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dle		
-162B	"""ᘫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlee		
-162C	"""ᘬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dli		
-162D	"""ᘭ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dla		
-162E	"""ᘮ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhu		
-162F	"""ᘯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lho		
-1630	"""ᘰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhe		
-1631	"""ᘱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhee		
-1632	"""ᘲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhi		
-1633	"""ᘳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lha		
-1634	"""ᘴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhu		
-1635	"""ᘵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlho		
-1636	"""ᘶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhe		
-1637	"""ᘷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhee		
-1638	"""ᘸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhi		
-1639	"""ᘹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlha		
-163A	"""ᘺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlu		
-163B	"""ᘻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlo		
-163C	"""ᘼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tle		
-163D	"""ᘽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlee		
-163E	"""ᘾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tli		
-163F	"""ᘿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tla		
-1640	"""ᙀ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zu		
-1641	"""ᙁ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zo		
-1642	"""ᙂ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ze		
-1643	"""ᙃ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zee		
-1644	"""ᙄ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zi		
-1645	"""ᙅ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier za		
-1646	"""ᙆ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier z		
-1647	"""ᙇ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier initial z		
-1648	"""ᙈ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzu		
-1649	"""ᙉ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzo		
-164A	"""ᙊ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dze		
-164B	"""ᙋ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzee		
-164C	"""ᙌ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzi		
-164D	"""ᙍ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dza		
-164E	"""ᙎ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier su		
-164F	"""ᙏ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier so		
-1650	"""ᙐ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier se		
-1651	"""ᙑ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier see		
-1652	"""ᙒ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier si		
-1653	"""ᙓ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sa		
-1654	"""ᙔ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shu		
-1655	"""ᙕ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sho		
-1656	"""ᙖ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier she		
-1657	"""ᙗ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shee		
-1658	"""ᙘ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shi		
-1659	"""ᙙ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sha		
-165A	"""ᙚ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sh		
-165B	"""ᙛ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsu		
-165C	"""ᙜ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tso		
-165D	"""ᙝ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tse		
-165E	"""ᙞ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsee		
-165F	"""ᙟ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsi		
-1660	"""ᙠ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsa		
-1661	"""ᙡ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chu		
-1662	"""ᙢ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier cho		
-1663	"""ᙣ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier che		
-1664	"""ᙤ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chee		
-1665	"""ᙥ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chi		
-1666	"""ᙦ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier cha		
-1667	"""ᙧ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsu		
-1668	"""ᙨ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttso		
-1669	"""ᙩ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttse		
-166A	"""ᙪ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsee		
-166B	"""ᙫ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsi		
-166C	"""ᙬ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsa		
-166D	"""᙭"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics chi sign		
-166E	"""᙮"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics full stop		
-166F	"""ᙯ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qai		
-1670	"""ᙰ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngai		
-1671	"""ᙱ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngi		
-1672	"""ᙲ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngii		
-1673	"""ᙳ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngo		
-1674	"""ᙴ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngoo		
-1675	"""ᙵ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nnga		
-1676	"""ᙶ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngaa		
-1677	"""ᙷ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwee		
-1678	"""ᙸ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwi		
-1679	"""ᙹ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwii		
-167A	"""ᙺ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwo		
-167B	"""ᙻ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwoo		
-167C	"""ᙼ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwa		
-167D	"""ᙽ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwaa		
-167E	"""ᙾ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree final th		
-167F	"""ᙿ"""	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot w		
+U+1400	᐀	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics hyphen		
+U+1401	ᐁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics e		
+U+1402	ᐂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aai		
+U+1403	ᐃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics i		
+U+1404	ᐄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ii		
+U+1405	ᐅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics o		
+U+1406	ᐆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics oo		
+U+1407	ᐇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree oo		
+U+1408	ᐈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ee		
+U+1409	ᐉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier i		
+U+140A	ᐊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics a		
+U+140B	ᐋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aa		
+U+140C	ᐌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics we		
+U+140D	ᐍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree we		
+U+140E	ᐎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wi		
+U+140F	ᐏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wi		
+U+1410	ᐐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wii		
+U+1411	ᐑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wii		
+U+1412	ᐒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wo		
+U+1413	ᐓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wo		
+U+1414	ᐔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woo		
+U+1415	ᐕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree woo		
+U+1416	ᐖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi woo		
+U+1417	ᐗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics wa		
+U+1418	ᐘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree wa		
+U+1419	ᐙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics waa		
+U+141A	ᐚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree waa		
+U+141B	ᐛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi waa		
+U+141C	ᐜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ai		
+U+141D	ᐝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree w		
+U+141E	ᐞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics glottal stop		
+U+141F	ᐟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final acute		
+U+1420	ᐠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final grave		
+U+1421	ᐡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final bottom half ring		
+U+1422	ᐢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final top half ring		
+U+1423	ᐣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final right half ring		
+U+1424	ᐤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final ring		
+U+1425	ᐥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final double acute		
+U+1426	ᐦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final double short vertical strokes		
+U+1427	ᐧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final middle dot		
+U+1428	ᐨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final short horizontal stroke		
+U+1429	ᐩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final plus		
+U+142A	ᐪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics final down tack		
+U+142B	ᐫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics en		
+U+142C	ᐬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics in		
+U+142D	ᐭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics on		
+U+142E	ᐮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics an		
+U+142F	ᐯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pe		
+U+1430	ᐰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics paai		
+U+1431	ᐱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pi		
+U+1432	ᐲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pii		
+U+1433	ᐳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics po		
+U+1434	ᐴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics poo		
+U+1435	ᐵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree poo		
+U+1436	ᐶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hee		
+U+1437	ᐷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hi		
+U+1438	ᐸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pa		
+U+1439	ᐹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics paa		
+U+143A	ᐺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwe		
+U+143B	ᐻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwe		
+U+143C	ᐼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwi		
+U+143D	ᐽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwi		
+U+143E	ᐾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwii		
+U+143F	ᐿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwii		
+U+1440	ᑀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwo		
+U+1441	ᑁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwo		
+U+1442	ᑂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwoo		
+U+1443	ᑃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwoo		
+U+1444	ᑄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwa		
+U+1445	ᑅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwa		
+U+1446	ᑆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics pwaa		
+U+1447	ᑇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree pwaa		
+U+1448	ᑈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree pwaa		
+U+1449	ᑉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics p		
+U+144A	ᑊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree p		
+U+144B	ᑋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier h		
+U+144C	ᑌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics te		
+U+144D	ᑍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics taai		
+U+144E	ᑎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ti		
+U+144F	ᑏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tii		
+U+1450	ᑐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics to		
+U+1451	ᑑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics too		
+U+1452	ᑒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree too		
+U+1453	ᑓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dee		
+U+1454	ᑔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier di		
+U+1455	ᑕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ta		
+U+1456	ᑖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics taa		
+U+1457	ᑗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twe		
+U+1458	ᑘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twe		
+U+1459	ᑙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twi		
+U+145A	ᑚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twi		
+U+145B	ᑛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twii		
+U+145C	ᑜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twii		
+U+145D	ᑝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics two		
+U+145E	ᑞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree two		
+U+145F	ᑟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twoo		
+U+1460	ᑠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twoo		
+U+1461	ᑡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twa		
+U+1462	ᑢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twa		
+U+1463	ᑣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics twaa		
+U+1464	ᑤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree twaa		
+U+1465	ᑥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi twaa		
+U+1466	ᑦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics t		
+U+1467	ᑧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tte		
+U+1468	ᑨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tti		
+U+1469	ᑩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tto		
+U+146A	ᑪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tta		
+U+146B	ᑫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ke		
+U+146C	ᑬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kaai		
+U+146D	ᑭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ki		
+U+146E	ᑮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kii		
+U+146F	ᑯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ko		
+U+1470	ᑰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics koo		
+U+1471	ᑱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree koo		
+U+1472	ᑲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ka		
+U+1473	ᑳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kaa		
+U+1474	ᑴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwe		
+U+1475	ᑵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwe		
+U+1476	ᑶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwi		
+U+1477	ᑷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwi		
+U+1478	ᑸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwii		
+U+1479	ᑹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwii		
+U+147A	ᑺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwo		
+U+147B	ᑻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwo		
+U+147C	ᑼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwoo		
+U+147D	ᑽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwoo		
+U+147E	ᑾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwa		
+U+147F	ᑿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwa		
+U+1480	ᒀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kwaa		
+U+1481	ᒁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree kwaa		
+U+1482	ᒂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi kwaa		
+U+1483	ᒃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics k		
+U+1484	ᒄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics kw		
+U+1485	ᒅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey keh		
+U+1486	ᒆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey kih		
+U+1487	ᒇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey koh		
+U+1488	ᒈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics south-slavey kah		
+U+1489	ᒉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ce		
+U+148A	ᒊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics caai		
+U+148B	ᒋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ci		
+U+148C	ᒌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cii		
+U+148D	ᒍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics co		
+U+148E	ᒎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics coo		
+U+148F	ᒏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree coo		
+U+1490	ᒐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ca		
+U+1491	ᒑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics caa		
+U+1492	ᒒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwe		
+U+1493	ᒓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwe		
+U+1494	ᒔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwi		
+U+1495	ᒕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwi		
+U+1496	ᒖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwii		
+U+1497	ᒗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwii		
+U+1498	ᒘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwo		
+U+1499	ᒙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwo		
+U+149A	ᒚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwoo		
+U+149B	ᒛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwoo		
+U+149C	ᒜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwa		
+U+149D	ᒝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwa		
+U+149E	ᒞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics cwaa		
+U+149F	ᒟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree cwaa		
+U+14A0	ᒠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi cwaa		
+U+14A1	ᒡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics c		
+U+14A2	ᒢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi th		
+U+14A3	ᒣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics me		
+U+14A4	ᒤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics maai		
+U+14A5	ᒥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mi		
+U+14A6	ᒦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mii		
+U+14A7	ᒧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mo		
+U+14A8	ᒨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics moo		
+U+14A9	ᒩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree moo		
+U+14AA	ᒪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ma		
+U+14AB	ᒫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics maa		
+U+14AC	ᒬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwe		
+U+14AD	ᒭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwe		
+U+14AE	ᒮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwi		
+U+14AF	ᒯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwi		
+U+14B0	ᒰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwii		
+U+14B1	ᒱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwii		
+U+14B2	ᒲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwo		
+U+14B3	ᒳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwo		
+U+14B4	ᒴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwoo		
+U+14B5	ᒵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwoo		
+U+14B6	ᒶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwa		
+U+14B7	ᒷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwa		
+U+14B8	ᒸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mwaa		
+U+14B9	ᒹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree mwaa		
+U+14BA	ᒺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi mwaa		
+U+14BB	ᒻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics m		
+U+14BC	ᒼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree m		
+U+14BD	ᒽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics mh		
+U+14BE	ᒾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics athapascan m		
+U+14BF	ᒿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi m		
+U+14C0	ᓀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ne		
+U+14C1	ᓁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naai		
+U+14C2	ᓂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ni		
+U+14C3	ᓃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nii		
+U+14C4	ᓄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics no		
+U+14C5	ᓅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics noo		
+U+14C6	ᓆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree noo		
+U+14C7	ᓇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics na		
+U+14C8	ᓈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naa		
+U+14C9	ᓉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwe		
+U+14CA	ᓊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwe		
+U+14CB	ᓋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwa		
+U+14CC	ᓌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwa		
+U+14CD	ᓍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nwaa		
+U+14CE	ᓎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree nwaa		
+U+14CF	ᓏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi nwaa		
+U+14D0	ᓐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n		
+U+14D1	ᓑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ng		
+U+14D2	ᓒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nh		
+U+14D3	ᓓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics le		
+U+14D4	ᓔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics laai		
+U+14D5	ᓕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics li		
+U+14D6	ᓖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lii		
+U+14D7	ᓗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lo		
+U+14D8	ᓘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics loo		
+U+14D9	ᓙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree loo		
+U+14DA	ᓚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics la		
+U+14DB	ᓛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics laa		
+U+14DC	ᓜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwe		
+U+14DD	ᓝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwe		
+U+14DE	ᓞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwi		
+U+14DF	ᓟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwi		
+U+14E0	ᓠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwii		
+U+14E1	ᓡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwii		
+U+14E2	ᓢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwo		
+U+14E3	ᓣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwo		
+U+14E4	ᓤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwoo		
+U+14E5	ᓥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwoo		
+U+14E6	ᓦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwa		
+U+14E7	ᓧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwa		
+U+14E8	ᓨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lwaa		
+U+14E9	ᓩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lwaa		
+U+14EA	ᓪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics l		
+U+14EB	ᓫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree l		
+U+14EC	ᓬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics medial l		
+U+14ED	ᓭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics se		
+U+14EE	ᓮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics saai		
+U+14EF	ᓯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics si		
+U+14F0	ᓰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sii		
+U+14F1	ᓱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics so		
+U+14F2	ᓲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics soo		
+U+14F3	ᓳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree soo		
+U+14F4	ᓴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sa		
+U+14F5	ᓵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics saa		
+U+14F6	ᓶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swe		
+U+14F7	ᓷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swe		
+U+14F8	ᓸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swi		
+U+14F9	ᓹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swi		
+U+14FA	ᓺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swii		
+U+14FB	ᓻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swii		
+U+14FC	ᓼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swo		
+U+14FD	ᓽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swo		
+U+14FE	ᓾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swoo		
+U+14FF	ᓿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swoo		
+U+1500	ᔀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swa		
+U+1501	ᔁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swa		
+U+1502	ᔂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics swaa		
+U+1503	ᔃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree swaa		
+U+1504	ᔄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi swaa		
+U+1505	ᔅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics s		
+U+1506	ᔆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics athapascan s		
+U+1507	ᔇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sw		
+U+1508	ᔈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot s		
+U+1509	ᔉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics moose-cree sk		
+U+150A	ᔊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi skw		
+U+150B	ᔋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi s-w		
+U+150C	ᔌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi spwa		
+U+150D	ᔍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi stwa		
+U+150E	ᔎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi skwa		
+U+150F	ᔏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi scwa		
+U+1510	ᔐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics she		
+U+1511	ᔑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shi		
+U+1512	ᔒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shii		
+U+1513	ᔓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sho		
+U+1514	ᔔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shoo		
+U+1515	ᔕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sha		
+U+1516	ᔖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shaa		
+U+1517	ᔗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwe		
+U+1518	ᔘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwe		
+U+1519	ᔙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwi		
+U+151A	ᔚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwi		
+U+151B	ᔛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwii		
+U+151C	ᔜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwii		
+U+151D	ᔝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwo		
+U+151E	ᔞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwo		
+U+151F	ᔟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwoo		
+U+1520	ᔠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwoo		
+U+1521	ᔡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwa		
+U+1522	ᔢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwa		
+U+1523	ᔣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics shwaa		
+U+1524	ᔤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree shwaa		
+U+1525	ᔥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sh		
+U+1526	ᔦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ye		
+U+1527	ᔧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yaai		
+U+1528	ᔨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yi		
+U+1529	ᔩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yii		
+U+152A	ᔪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yo		
+U+152B	ᔫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yoo		
+U+152C	ᔬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y-cree yoo		
+U+152D	ᔭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ya		
+U+152E	ᔮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics yaa		
+U+152F	ᔯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywe		
+U+1530	ᔰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywe		
+U+1531	ᔱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywi		
+U+1532	ᔲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywi		
+U+1533	ᔳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywii		
+U+1534	ᔴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywii		
+U+1535	ᔵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywo		
+U+1536	ᔶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywo		
+U+1537	ᔷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywoo		
+U+1538	ᔸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywoo		
+U+1539	ᔹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywa		
+U+153A	ᔺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywa		
+U+153B	ᔻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ywaa		
+U+153C	ᔼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ywaa		
+U+153D	ᔽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics naskapi ywaa		
+U+153E	ᔾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics y		
+U+153F	ᔿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics bible-cree y		
+U+1540	ᕀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree y		
+U+1541	ᕁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi yi		
+U+1542	ᕂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics re		
+U+1543	ᕃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics r-cree re		
+U+1544	ᕄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree le		
+U+1545	ᕅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics raai		
+U+1546	ᕆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ri		
+U+1547	ᕇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics rii		
+U+1548	ᕈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ro		
+U+1549	ᕉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics roo		
+U+154A	ᕊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree lo		
+U+154B	ᕋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ra		
+U+154C	ᕌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics raa		
+U+154D	ᕍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree la		
+U+154E	ᕎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics rwaa		
+U+154F	ᕏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree rwaa		
+U+1550	ᕐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics r		
+U+1551	ᕑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree r		
+U+1552	ᕒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics medial r		
+U+1553	ᕓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fe		
+U+1554	ᕔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics faai		
+U+1555	ᕕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fi		
+U+1556	ᕖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fii		
+U+1557	ᕗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fo		
+U+1558	ᕘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics foo		
+U+1559	ᕙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fa		
+U+155A	ᕚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics faa		
+U+155B	ᕛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics fwaa		
+U+155C	ᕜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree fwaa		
+U+155D	ᕝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics f		
+U+155E	ᕞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics the		
+U+155F	ᕟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree the		
+U+1560	ᕠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thi		
+U+1561	ᕡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree thi		
+U+1562	ᕢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thii		
+U+1563	ᕣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics n-cree thii		
+U+1564	ᕤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tho		
+U+1565	ᕥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thoo		
+U+1566	ᕦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tha		
+U+1567	ᕧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thaa		
+U+1568	ᕨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics thwaa		
+U+1569	ᕩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree thwaa		
+U+156A	ᕪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th		
+U+156B	ᕫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tthe		
+U+156C	ᕬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tthi		
+U+156D	ᕭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ttho		
+U+156E	ᕮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ttha		
+U+156F	ᕯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tth		
+U+1570	ᕰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tye		
+U+1571	ᕱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tyi		
+U+1572	ᕲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tyo		
+U+1573	ᕳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tya		
+U+1574	ᕴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik he		
+U+1575	ᕵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hi		
+U+1576	ᕶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hii		
+U+1577	ᕷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik ho		
+U+1578	ᕸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik hoo		
+U+1579	ᕹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik ha		
+U+157A	ᕺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik haa		
+U+157B	ᕻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavik h		
+U+157C	ᕼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nunavut h		
+U+157D	ᕽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics hk		
+U+157E	ᕾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qaai		
+U+157F	ᕿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qi		
+U+1580	ᖀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qii		
+U+1581	ᖁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qo		
+U+1582	ᖂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qoo		
+U+1583	ᖃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qa		
+U+1584	ᖄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qaa		
+U+1585	ᖅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics q		
+U+1586	ᖆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlhe		
+U+1587	ᖇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlhi		
+U+1588	ᖈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlho		
+U+1589	ᖉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics tlha		
+U+158A	ᖊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree re		
+U+158B	ᖋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ri		
+U+158C	ᖌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ro		
+U+158D	ᖍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics west-cree ra		
+U+158E	ᖎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngaai		
+U+158F	ᖏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngi		
+U+1590	ᖐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngii		
+U+1591	ᖑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngo		
+U+1592	ᖒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngoo		
+U+1593	ᖓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nga		
+U+1594	ᖔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngaa		
+U+1595	ᖕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ng		
+U+1596	ᖖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nng		
+U+1597	ᖗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi she		
+U+1598	ᖘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi shi		
+U+1599	ᖙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi sho		
+U+159A	ᖚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi sha		
+U+159B	ᖛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree the		
+U+159C	ᖜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thi		
+U+159D	ᖝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree tho		
+U+159E	ᖞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree tha		
+U+159F	ᖟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree th		
+U+15A0	ᖠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhi		
+U+15A1	ᖡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhii		
+U+15A2	ᖢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lho		
+U+15A3	ᖣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhoo		
+U+15A4	ᖤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lha		
+U+15A5	ᖥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lhaa		
+U+15A6	ᖦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics lh		
+U+15A7	ᖧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree the		
+U+15A8	ᖨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thi		
+U+15A9	ᖩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thii		
+U+15AA	ᖪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree tho		
+U+15AB	ᖫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thoo		
+U+15AC	ᖬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree tha		
+U+15AD	ᖭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree thaa		
+U+15AE	ᖮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics th-cree th		
+U+15AF	ᖯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics aivilik b		
+U+15B0	ᖰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot e		
+U+15B1	ᖱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot i		
+U+15B2	ᖲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot o		
+U+15B3	ᖳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot a		
+U+15B4	ᖴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot we		
+U+15B5	ᖵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wi		
+U+15B6	ᖶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wo		
+U+15B7	ᖷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot wa		
+U+15B8	ᖸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ne		
+U+15B9	ᖹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ni		
+U+15BA	ᖺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot no		
+U+15BB	ᖻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot na		
+U+15BC	ᖼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ke		
+U+15BD	ᖽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ki		
+U+15BE	ᖾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ko		
+U+15BF	ᖿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot ka		
+U+15C0	ᗀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi he		
+U+15C1	ᗁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi hi		
+U+15C2	ᗂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ho		
+U+15C3	ᗃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ha		
+U+15C4	ᗄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghu		
+U+15C5	ᗅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gho		
+U+15C6	ᗆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghe		
+U+15C7	ᗇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghee		
+U+15C8	ᗈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ghi		
+U+15C9	ᗉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gha		
+U+15CA	ᗊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ru		
+U+15CB	ᗋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ro		
+U+15CC	ᗌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier re		
+U+15CD	ᗍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ree		
+U+15CE	ᗎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ri		
+U+15CF	ᗏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ra		
+U+15D0	ᗐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wu		
+U+15D1	ᗑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wo		
+U+15D2	ᗒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier we		
+U+15D3	ᗓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wee		
+U+15D4	ᗔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wi		
+U+15D5	ᗕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier wa		
+U+15D6	ᗖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwu		
+U+15D7	ᗗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwo		
+U+15D8	ᗘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwe		
+U+15D9	ᗙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwee		
+U+15DA	ᗚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwi		
+U+15DB	ᗛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier hwa		
+U+15DC	ᗜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thu		
+U+15DD	ᗝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tho		
+U+15DE	ᗞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier the		
+U+15DF	ᗟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thee		
+U+15E0	ᗠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier thi		
+U+15E1	ᗡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tha		
+U+15E2	ᗢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttu		
+U+15E3	ᗣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tto		
+U+15E4	ᗤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tte		
+U+15E5	ᗥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttee		
+U+15E6	ᗦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tti		
+U+15E7	ᗧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tta		
+U+15E8	ᗨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pu		
+U+15E9	ᗩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier po		
+U+15EA	ᗪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pe		
+U+15EB	ᗫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pee		
+U+15EC	ᗬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pi		
+U+15ED	ᗭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier pa		
+U+15EE	ᗮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier p		
+U+15EF	ᗯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gu		
+U+15F0	ᗰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier go		
+U+15F1	ᗱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ge		
+U+15F2	ᗲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gee		
+U+15F3	ᗳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier gi		
+U+15F4	ᗴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ga		
+U+15F5	ᗵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khu		
+U+15F6	ᗶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kho		
+U+15F7	ᗷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khe		
+U+15F8	ᗸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khee		
+U+15F9	ᗹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier khi		
+U+15FA	ᗺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kha		
+U+15FB	ᗻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kku		
+U+15FC	ᗼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kko		
+U+15FD	ᗽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kke		
+U+15FE	ᗾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kkee		
+U+15FF	ᗿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kki		
+U+1600	ᘀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kka		
+U+1601	ᘁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier kk		
+U+1602	ᘂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier nu		
+U+1603	ᘃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier no		
+U+1604	ᘄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ne		
+U+1605	ᘅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier nee		
+U+1606	ᘆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ni		
+U+1607	ᘇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier na		
+U+1608	ᘈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mu		
+U+1609	ᘉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mo		
+U+160A	ᘊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier me		
+U+160B	ᘋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mee		
+U+160C	ᘌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier mi		
+U+160D	ᘍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ma		
+U+160E	ᘎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yu		
+U+160F	ᘏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yo		
+U+1610	ᘐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ye		
+U+1611	ᘑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yee		
+U+1612	ᘒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier yi		
+U+1613	ᘓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ya		
+U+1614	ᘔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ju		
+U+1615	ᘕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ju		
+U+1616	ᘖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jo		
+U+1617	ᘗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier je		
+U+1618	ᘘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jee		
+U+1619	ᘙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ji		
+U+161A	ᘚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics sayisi ji		
+U+161B	ᘛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ja		
+U+161C	ᘜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jju		
+U+161D	ᘝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jjo		
+U+161E	ᘞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jje		
+U+161F	ᘟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jjee		
+U+1620	ᘠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jji		
+U+1621	ᘡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier jja		
+U+1622	ᘢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lu		
+U+1623	ᘣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lo		
+U+1624	ᘤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier le		
+U+1625	ᘥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lee		
+U+1626	ᘦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier li		
+U+1627	ᘧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier la		
+U+1628	ᘨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlu		
+U+1629	ᘩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlo		
+U+162A	ᘪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dle		
+U+162B	ᘫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dlee		
+U+162C	ᘬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dli		
+U+162D	ᘭ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dla		
+U+162E	ᘮ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhu		
+U+162F	ᘯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lho		
+U+1630	ᘰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhe		
+U+1631	ᘱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhee		
+U+1632	ᘲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lhi		
+U+1633	ᘳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier lha		
+U+1634	ᘴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhu		
+U+1635	ᘵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlho		
+U+1636	ᘶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhe		
+U+1637	ᘷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhee		
+U+1638	ᘸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlhi		
+U+1639	ᘹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlha		
+U+163A	ᘺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlu		
+U+163B	ᘻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlo		
+U+163C	ᘼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tle		
+U+163D	ᘽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tlee		
+U+163E	ᘾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tli		
+U+163F	ᘿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tla		
+U+1640	ᙀ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zu		
+U+1641	ᙁ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zo		
+U+1642	ᙂ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ze		
+U+1643	ᙃ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zee		
+U+1644	ᙄ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier zi		
+U+1645	ᙅ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier za		
+U+1646	ᙆ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier z		
+U+1647	ᙇ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier initial z		
+U+1648	ᙈ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzu		
+U+1649	ᙉ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzo		
+U+164A	ᙊ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dze		
+U+164B	ᙋ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzee		
+U+164C	ᙌ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dzi		
+U+164D	ᙍ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier dza		
+U+164E	ᙎ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier su		
+U+164F	ᙏ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier so		
+U+1650	ᙐ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier se		
+U+1651	ᙑ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier see		
+U+1652	ᙒ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier si		
+U+1653	ᙓ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sa		
+U+1654	ᙔ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shu		
+U+1655	ᙕ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sho		
+U+1656	ᙖ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier she		
+U+1657	ᙗ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shee		
+U+1658	ᙘ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier shi		
+U+1659	ᙙ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sha		
+U+165A	ᙚ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier sh		
+U+165B	ᙛ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsu		
+U+165C	ᙜ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tso		
+U+165D	ᙝ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tse		
+U+165E	ᙞ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsee		
+U+165F	ᙟ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsi		
+U+1660	ᙠ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier tsa		
+U+1661	ᙡ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chu		
+U+1662	ᙢ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier cho		
+U+1663	ᙣ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier che		
+U+1664	ᙤ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chee		
+U+1665	ᙥ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier chi		
+U+1666	ᙦ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier cha		
+U+1667	ᙧ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsu		
+U+1668	ᙨ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttso		
+U+1669	ᙩ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttse		
+U+166A	ᙪ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsee		
+U+166B	ᙫ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsi		
+U+166C	ᙬ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics carrier ttsa		
+U+166D	᙭	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics chi sign		
+U+166E	᙮	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics full stop		
+U+166F	ᙯ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics qai		
+U+1670	ᙰ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics ngai		
+U+1671	ᙱ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngi		
+U+1672	ᙲ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngii		
+U+1673	ᙳ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngo		
+U+1674	ᙴ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngoo		
+U+1675	ᙵ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nnga		
+U+1676	ᙶ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics nngaa		
+U+1677	ᙷ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwee		
+U+1678	ᙸ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwi		
+U+1679	ᙹ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwii		
+U+167A	ᙺ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwo		
+U+167B	ᙻ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwoo		
+U+167C	ᙼ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwa		
+U+167D	ᙽ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree thwaa		
+U+167E	ᙾ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics woods-cree final th		
+U+167F	ᙿ	1400..167F	Unified Canadian Aboriginal Syllabics	Canadian syllabics blackfoot w		

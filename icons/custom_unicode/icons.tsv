@@ -1,0 +1,40 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
+U+00B0	°	\deg	Degree Sign
+U+030A	̊	\ring	Combining Ring Above
+U+039C	Μ	\Mu	Greek Capital Letter Mu
+U+039D	Ν	\Nu	Greek Capital Letter Nu
+U+039F	Ο	\Omicron	Greek Capital Letter Omicron
+U+03BF	ο	\omicron	Greek Small Letter Omicron
+U+1AB2	᪲	\^oo, \^infty	Combining Infinity
+U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X
+U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
+U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
+U+2111	ℑ	\frakI	Black-Letter Capital I
+U+211C	ℜ	\frakR	Black-Letter Capital R
+U+2190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
+U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
+U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow, Lightning, Contradiction
+U+21DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
+U+21DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
+U+2206	∆	\increment, \inc	Increment
+U+2219	∙	\bullet	Bullet Operator
+U+22C5	⋅	\cdotp	Dot Operator
+U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
+U+2610	☐	\bbox	Ballot Box
+U+2705	✅	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark
+U+2713	✓	\cmark, \checkmark	Check Mark
+U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
+U+2717	✗	\xmark, \ballot_x	Ballot X
+U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
+U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark
+U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
+U+27E6	⟦	\bb[, \[[	Mathematical Left White Square Bracket
+U+27E7	⟧	\bb], \]]	Mathematical Right White Square Bracket
+U+27EA	⟪	\bblangle	Mathematical Left Double Angle Bracket
+U+27EB	⟫	\bbrangle	Mathematical Right Double Angle Bracket
+U+27F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
+U+27F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
+U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
+U+2AEB	⫫	\indep, \independence, \independent	Independence
+U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow

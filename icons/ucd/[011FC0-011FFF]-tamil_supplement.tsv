@@ -1,52 +1,52 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11FC0	"""𑿀"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one three-hundred-and-twentieth		
-11FC1	"""𑿁"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one one-hundred-and-sixtieth		
-11FC2	"""𑿂"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one eightieth		
-11FC3	"""𑿃"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixty-fourth		
-11FC4	"""𑿄"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one fortieth		
-11FC5	"""𑿅"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one thirty-second		
-11FC6	"""𑿆"""	11FC0..11FFF	Tamil Supplement	Tamil fraction three eightieths		
-11FC7	"""𑿇"""	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixty-fourths		
-11FC8	"""𑿈"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one twentieth		
-11FC9	"""𑿉"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-1		
-11FCA	"""𑿊"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-2		
-11FCB	"""𑿋"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one tenth		
-11FCC	"""𑿌"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one eighth		
-11FCD	"""𑿍"""	11FC0..11FFF	Tamil Supplement	Tamil fraction three twentieths		
-11FCE	"""𑿎"""	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixteenths		
-11FCF	"""𑿏"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one fifth		
-11FD0	"""𑿐"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one quarter		
-11FD1	"""𑿑"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-1		
-11FD2	"""𑿒"""	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-2		
-11FD3	"""𑿓"""	11FC0..11FFF	Tamil Supplement	Tamil fraction three quarters		
-11FD4	"""𑿔"""	11FC0..11FFF	Tamil Supplement	Tamil fraction downscaling factor kiizh		
-11FD5	"""𑿕"""	11FC0..11FFF	Tamil Supplement	Tamil sign nel		
-11FD6	"""𑿖"""	11FC0..11FFF	Tamil Supplement	Tamil sign cevitu		
-11FD7	"""𑿗"""	11FC0..11FFF	Tamil Supplement	Tamil sign aazhaakku		
-11FD8	"""𑿘"""	11FC0..11FFF	Tamil Supplement	Tamil sign uzhakku		
-11FD9	"""𑿙"""	11FC0..11FFF	Tamil Supplement	Tamil sign muuvuzhakku		
-11FDA	"""𑿚"""	11FC0..11FFF	Tamil Supplement	Tamil sign kuruni		
-11FDB	"""𑿛"""	11FC0..11FFF	Tamil Supplement	Tamil sign pathakku		
-11FDC	"""𑿜"""	11FC0..11FFF	Tamil Supplement	Tamil sign mukkuruni		
-11FDD	"""𑿝"""	11FC0..11FFF	Tamil Supplement	Tamil sign kaacu		
-11FDE	"""𑿞"""	11FC0..11FFF	Tamil Supplement	Tamil sign panam		
-11FDF	"""𑿟"""	11FC0..11FFF	Tamil Supplement	Tamil sign pon		
-11FE0	"""𑿠"""	11FC0..11FFF	Tamil Supplement	Tamil sign varaakan		
-11FE1	"""𑿡"""	11FC0..11FFF	Tamil Supplement	Tamil sign paaram		
-11FE2	"""𑿢"""	11FC0..11FFF	Tamil Supplement	Tamil sign kuzhi		
-11FE3	"""𑿣"""	11FC0..11FFF	Tamil Supplement	Tamil sign veli		
-11FE4	"""𑿤"""	11FC0..11FFF	Tamil Supplement	Tamil wet cultivation sign		
-11FE5	"""𑿥"""	11FC0..11FFF	Tamil Supplement	Tamil dry cultivation sign		
-11FE6	"""𑿦"""	11FC0..11FFF	Tamil Supplement	Tamil land sign		
-11FE7	"""𑿧"""	11FC0..11FFF	Tamil Supplement	Tamil salt pan sign		
-11FE8	"""𑿨"""	11FC0..11FFF	Tamil Supplement	Tamil traditional credit sign		
-11FE9	"""𑿩"""	11FC0..11FFF	Tamil Supplement	Tamil traditional number sign		
-11FEA	"""𑿪"""	11FC0..11FFF	Tamil Supplement	Tamil current sign		
-11FEB	"""𑿫"""	11FC0..11FFF	Tamil Supplement	Tamil and odd sign		
-11FEC	"""𑿬"""	11FC0..11FFF	Tamil Supplement	Tamil spent sign		
-11FED	"""𑿭"""	11FC0..11FFF	Tamil Supplement	Tamil total sign		
-11FEE	"""𑿮"""	11FC0..11FFF	Tamil Supplement	Tamil in possession sign		
-11FEF	"""𑿯"""	11FC0..11FFF	Tamil Supplement	Tamil starting from sign		
-11FF0	"""𑿰"""	11FC0..11FFF	Tamil Supplement	Tamil sign muthaliya		
-11FF1	"""𑿱"""	11FC0..11FFF	Tamil Supplement	Tamil sign vakaiyaraa		
-11FFF	"""𑿿"""	11FC0..11FFF	Tamil Supplement	Tamil punctuation end of text		
+U+11FC0	𑿀	11FC0..11FFF	Tamil Supplement	Tamil fraction one three-hundred-and-twentieth		
+U+11FC1	𑿁	11FC0..11FFF	Tamil Supplement	Tamil fraction one one-hundred-and-sixtieth		
+U+11FC2	𑿂	11FC0..11FFF	Tamil Supplement	Tamil fraction one eightieth		
+U+11FC3	𑿃	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixty-fourth		
+U+11FC4	𑿄	11FC0..11FFF	Tamil Supplement	Tamil fraction one fortieth		
+U+11FC5	𑿅	11FC0..11FFF	Tamil Supplement	Tamil fraction one thirty-second		
+U+11FC6	𑿆	11FC0..11FFF	Tamil Supplement	Tamil fraction three eightieths		
+U+11FC7	𑿇	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixty-fourths		
+U+11FC8	𑿈	11FC0..11FFF	Tamil Supplement	Tamil fraction one twentieth		
+U+11FC9	𑿉	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-1		
+U+11FCA	𑿊	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-2		
+U+11FCB	𑿋	11FC0..11FFF	Tamil Supplement	Tamil fraction one tenth		
+U+11FCC	𑿌	11FC0..11FFF	Tamil Supplement	Tamil fraction one eighth		
+U+11FCD	𑿍	11FC0..11FFF	Tamil Supplement	Tamil fraction three twentieths		
+U+11FCE	𑿎	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixteenths		
+U+11FCF	𑿏	11FC0..11FFF	Tamil Supplement	Tamil fraction one fifth		
+U+11FD0	𑿐	11FC0..11FFF	Tamil Supplement	Tamil fraction one quarter		
+U+11FD1	𑿑	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-1		
+U+11FD2	𑿒	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-2		
+U+11FD3	𑿓	11FC0..11FFF	Tamil Supplement	Tamil fraction three quarters		
+U+11FD4	𑿔	11FC0..11FFF	Tamil Supplement	Tamil fraction downscaling factor kiizh		
+U+11FD5	𑿕	11FC0..11FFF	Tamil Supplement	Tamil sign nel		
+U+11FD6	𑿖	11FC0..11FFF	Tamil Supplement	Tamil sign cevitu		
+U+11FD7	𑿗	11FC0..11FFF	Tamil Supplement	Tamil sign aazhaakku		
+U+11FD8	𑿘	11FC0..11FFF	Tamil Supplement	Tamil sign uzhakku		
+U+11FD9	𑿙	11FC0..11FFF	Tamil Supplement	Tamil sign muuvuzhakku		
+U+11FDA	𑿚	11FC0..11FFF	Tamil Supplement	Tamil sign kuruni		
+U+11FDB	𑿛	11FC0..11FFF	Tamil Supplement	Tamil sign pathakku		
+U+11FDC	𑿜	11FC0..11FFF	Tamil Supplement	Tamil sign mukkuruni		
+U+11FDD	𑿝	11FC0..11FFF	Tamil Supplement	Tamil sign kaacu		
+U+11FDE	𑿞	11FC0..11FFF	Tamil Supplement	Tamil sign panam		
+U+11FDF	𑿟	11FC0..11FFF	Tamil Supplement	Tamil sign pon		
+U+11FE0	𑿠	11FC0..11FFF	Tamil Supplement	Tamil sign varaakan		
+U+11FE1	𑿡	11FC0..11FFF	Tamil Supplement	Tamil sign paaram		
+U+11FE2	𑿢	11FC0..11FFF	Tamil Supplement	Tamil sign kuzhi		
+U+11FE3	𑿣	11FC0..11FFF	Tamil Supplement	Tamil sign veli		
+U+11FE4	𑿤	11FC0..11FFF	Tamil Supplement	Tamil wet cultivation sign		
+U+11FE5	𑿥	11FC0..11FFF	Tamil Supplement	Tamil dry cultivation sign		
+U+11FE6	𑿦	11FC0..11FFF	Tamil Supplement	Tamil land sign		
+U+11FE7	𑿧	11FC0..11FFF	Tamil Supplement	Tamil salt pan sign		
+U+11FE8	𑿨	11FC0..11FFF	Tamil Supplement	Tamil traditional credit sign		
+U+11FE9	𑿩	11FC0..11FFF	Tamil Supplement	Tamil traditional number sign		
+U+11FEA	𑿪	11FC0..11FFF	Tamil Supplement	Tamil current sign		
+U+11FEB	𑿫	11FC0..11FFF	Tamil Supplement	Tamil and odd sign		
+U+11FEC	𑿬	11FC0..11FFF	Tamil Supplement	Tamil spent sign		
+U+11FED	𑿭	11FC0..11FFF	Tamil Supplement	Tamil total sign		
+U+11FEE	𑿮	11FC0..11FFF	Tamil Supplement	Tamil in possession sign		
+U+11FEF	𑿯	11FC0..11FFF	Tamil Supplement	Tamil starting from sign		
+U+11FF0	𑿰	11FC0..11FFF	Tamil Supplement	Tamil sign muthaliya		
+U+11FF1	𑿱	11FC0..11FFF	Tamil Supplement	Tamil sign vakaiyaraa		
+U+11FFF	𑿿	11FC0..11FFF	Tamil Supplement	Tamil punctuation end of text		

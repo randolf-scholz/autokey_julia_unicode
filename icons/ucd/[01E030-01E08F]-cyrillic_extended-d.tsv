@@ -1,64 +1,64 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1E030	"""𞀰"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small a		
-1E031	"""𞀱"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small be		
-1E032	"""𞀲"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ve		
-1E033	"""𞀳"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ghe		
-1E034	"""𞀴"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small de		
-1E035	"""𞀵"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ie		
-1E036	"""𞀶"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small zhe		
-1E037	"""𞀷"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ze		
-1E038	"""𞀸"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small i		
-1E039	"""𞀹"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ka		
-1E03A	"""𞀺"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small el		
-1E03B	"""𞀻"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small em		
-1E03C	"""𞀼"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small o		
-1E03D	"""𞀽"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small pe		
-1E03E	"""𞀾"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small er		
-1E03F	"""𞀿"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small es		
-1E040	"""𞁀"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small te		
-1E041	"""𞁁"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small u		
-1E042	"""𞁂"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ef		
-1E043	"""𞁃"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ha		
-1E044	"""𞁄"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small tse		
-1E045	"""𞁅"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small che		
-1E046	"""𞁆"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small sha		
-1E047	"""𞁇"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yeru		
-1E048	"""𞁈"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small e		
-1E049	"""𞁉"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yu		
-1E04A	"""𞁊"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small dzze		
-1E04B	"""𞁋"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small schwa		
-1E04C	"""𞁌"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small byelorussian-ukrainian i		
-1E04D	"""𞁍"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small je		
-1E04E	"""𞁎"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small barred o		
-1E04F	"""𞁏"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small straight u		
-1E050	"""𞁐"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small palochka		
-1E051	"""𞁑"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter a		
-1E052	"""𞁒"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter be		
-1E053	"""𞁓"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ve		
-1E054	"""𞁔"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ghe		
-1E055	"""𞁕"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter de		
-1E056	"""𞁖"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ie		
-1E057	"""𞁗"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter zhe		
-1E058	"""𞁘"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ze		
-1E059	"""𞁙"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter i		
-1E05A	"""𞁚"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ka		
-1E05B	"""𞁛"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter el		
-1E05C	"""𞁜"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter o		
-1E05D	"""𞁝"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter pe		
-1E05E	"""𞁞"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter es		
-1E05F	"""𞁟"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter u		
-1E060	"""𞁠"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ef		
-1E061	"""𞁡"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ha		
-1E062	"""𞁢"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter tse		
-1E063	"""𞁣"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter che		
-1E064	"""𞁤"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter sha		
-1E065	"""𞁥"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter hard sign		
-1E066	"""𞁦"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter yeru		
-1E067	"""𞁧"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ghe with upturn		
-1E068	"""𞁨"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter byelorussian-ukrainian i		
-1E069	"""𞁩"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter dze		
-1E06A	"""𞁪"""	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter dzhe		
-1E06B	"""𞁫"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small es with descender		
-1E06C	"""𞁬"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yeru with back yer		
-1E06D	"""𞁭"""	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small straight u with stroke		
-1E08F	"""𞂏"""	1E030..1E08F	Cyrillic Extended-D	Combining cyrillic small letter byelorussian-ukrainian i		
+U+1E030	𞀰	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small a		
+U+1E031	𞀱	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small be		
+U+1E032	𞀲	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ve		
+U+1E033	𞀳	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ghe		
+U+1E034	𞀴	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small de		
+U+1E035	𞀵	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ie		
+U+1E036	𞀶	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small zhe		
+U+1E037	𞀷	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ze		
+U+1E038	𞀸	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small i		
+U+1E039	𞀹	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ka		
+U+1E03A	𞀺	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small el		
+U+1E03B	𞀻	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small em		
+U+1E03C	𞀼	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small o		
+U+1E03D	𞀽	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small pe		
+U+1E03E	𞀾	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small er		
+U+1E03F	𞀿	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small es		
+U+1E040	𞁀	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small te		
+U+1E041	𞁁	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small u		
+U+1E042	𞁂	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ef		
+U+1E043	𞁃	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small ha		
+U+1E044	𞁄	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small tse		
+U+1E045	𞁅	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small che		
+U+1E046	𞁆	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small sha		
+U+1E047	𞁇	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yeru		
+U+1E048	𞁈	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small e		
+U+1E049	𞁉	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yu		
+U+1E04A	𞁊	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small dzze		
+U+1E04B	𞁋	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small schwa		
+U+1E04C	𞁌	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small byelorussian-ukrainian i		
+U+1E04D	𞁍	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small je		
+U+1E04E	𞁎	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small barred o		
+U+1E04F	𞁏	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small straight u		
+U+1E050	𞁐	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small palochka		
+U+1E051	𞁑	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter a		
+U+1E052	𞁒	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter be		
+U+1E053	𞁓	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ve		
+U+1E054	𞁔	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ghe		
+U+1E055	𞁕	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter de		
+U+1E056	𞁖	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ie		
+U+1E057	𞁗	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter zhe		
+U+1E058	𞁘	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ze		
+U+1E059	𞁙	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter i		
+U+1E05A	𞁚	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ka		
+U+1E05B	𞁛	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter el		
+U+1E05C	𞁜	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter o		
+U+1E05D	𞁝	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter pe		
+U+1E05E	𞁞	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter es		
+U+1E05F	𞁟	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter u		
+U+1E060	𞁠	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ef		
+U+1E061	𞁡	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ha		
+U+1E062	𞁢	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter tse		
+U+1E063	𞁣	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter che		
+U+1E064	𞁤	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter sha		
+U+1E065	𞁥	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter hard sign		
+U+1E066	𞁦	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter yeru		
+U+1E067	𞁧	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter ghe with upturn		
+U+1E068	𞁨	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter byelorussian-ukrainian i		
+U+1E069	𞁩	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter dze		
+U+1E06A	𞁪	1E030..1E08F	Cyrillic Extended-D	Cyrillic subscript small letter dzhe		
+U+1E06B	𞁫	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small es with descender		
+U+1E06C	𞁬	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small yeru with back yer		
+U+1E06D	𞁭	1E030..1E08F	Cyrillic Extended-D	Modifier letter cyrillic small straight u with stroke		
+U+1E08F	𞂏	1E030..1E08F	Cyrillic Extended-D	Combining cyrillic small letter byelorussian-ukrainian i		

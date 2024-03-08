@@ -1,31 +1,31 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1A00	"""ᨀ"""	1A00..1A1F	Buginese	Buginese letter ka		
-1A01	"""ᨁ"""	1A00..1A1F	Buginese	Buginese letter ga		
-1A02	"""ᨂ"""	1A00..1A1F	Buginese	Buginese letter nga		
-1A03	"""ᨃ"""	1A00..1A1F	Buginese	Buginese letter ngka		
-1A04	"""ᨄ"""	1A00..1A1F	Buginese	Buginese letter pa		
-1A05	"""ᨅ"""	1A00..1A1F	Buginese	Buginese letter ba		
-1A06	"""ᨆ"""	1A00..1A1F	Buginese	Buginese letter ma		
-1A07	"""ᨇ"""	1A00..1A1F	Buginese	Buginese letter mpa		
-1A08	"""ᨈ"""	1A00..1A1F	Buginese	Buginese letter ta		
-1A09	"""ᨉ"""	1A00..1A1F	Buginese	Buginese letter da		
-1A0A	"""ᨊ"""	1A00..1A1F	Buginese	Buginese letter na		
-1A0B	"""ᨋ"""	1A00..1A1F	Buginese	Buginese letter nra		
-1A0C	"""ᨌ"""	1A00..1A1F	Buginese	Buginese letter ca		
-1A0D	"""ᨍ"""	1A00..1A1F	Buginese	Buginese letter ja		
-1A0E	"""ᨎ"""	1A00..1A1F	Buginese	Buginese letter nya		
-1A0F	"""ᨏ"""	1A00..1A1F	Buginese	Buginese letter nyca		
-1A10	"""ᨐ"""	1A00..1A1F	Buginese	Buginese letter ya		
-1A11	"""ᨑ"""	1A00..1A1F	Buginese	Buginese letter ra		
-1A12	"""ᨒ"""	1A00..1A1F	Buginese	Buginese letter la		
-1A13	"""ᨓ"""	1A00..1A1F	Buginese	Buginese letter va		
-1A14	"""ᨔ"""	1A00..1A1F	Buginese	Buginese letter sa		
-1A15	"""ᨕ"""	1A00..1A1F	Buginese	Buginese letter a		
-1A16	"""ᨖ"""	1A00..1A1F	Buginese	Buginese letter ha		
-1A17	"""ᨗ"""	1A00..1A1F	Buginese	Buginese vowel sign i		
-1A18	"""ᨘ"""	1A00..1A1F	Buginese	Buginese vowel sign u		
-1A19	"""ᨙ"""	1A00..1A1F	Buginese	Buginese vowel sign e		
-1A1A	"""ᨚ"""	1A00..1A1F	Buginese	Buginese vowel sign o		
-1A1B	"""ᨛ"""	1A00..1A1F	Buginese	Buginese vowel sign ae		
-1A1E	"""᨞"""	1A00..1A1F	Buginese	Buginese pallawa		
-1A1F	"""᨟"""	1A00..1A1F	Buginese	Buginese end of section		
+U+1A00	ᨀ	1A00..1A1F	Buginese	Buginese letter ka		
+U+1A01	ᨁ	1A00..1A1F	Buginese	Buginese letter ga		
+U+1A02	ᨂ	1A00..1A1F	Buginese	Buginese letter nga		
+U+1A03	ᨃ	1A00..1A1F	Buginese	Buginese letter ngka		
+U+1A04	ᨄ	1A00..1A1F	Buginese	Buginese letter pa		
+U+1A05	ᨅ	1A00..1A1F	Buginese	Buginese letter ba		
+U+1A06	ᨆ	1A00..1A1F	Buginese	Buginese letter ma		
+U+1A07	ᨇ	1A00..1A1F	Buginese	Buginese letter mpa		
+U+1A08	ᨈ	1A00..1A1F	Buginese	Buginese letter ta		
+U+1A09	ᨉ	1A00..1A1F	Buginese	Buginese letter da		
+U+1A0A	ᨊ	1A00..1A1F	Buginese	Buginese letter na		
+U+1A0B	ᨋ	1A00..1A1F	Buginese	Buginese letter nra		
+U+1A0C	ᨌ	1A00..1A1F	Buginese	Buginese letter ca		
+U+1A0D	ᨍ	1A00..1A1F	Buginese	Buginese letter ja		
+U+1A0E	ᨎ	1A00..1A1F	Buginese	Buginese letter nya		
+U+1A0F	ᨏ	1A00..1A1F	Buginese	Buginese letter nyca		
+U+1A10	ᨐ	1A00..1A1F	Buginese	Buginese letter ya		
+U+1A11	ᨑ	1A00..1A1F	Buginese	Buginese letter ra		
+U+1A12	ᨒ	1A00..1A1F	Buginese	Buginese letter la		
+U+1A13	ᨓ	1A00..1A1F	Buginese	Buginese letter va		
+U+1A14	ᨔ	1A00..1A1F	Buginese	Buginese letter sa		
+U+1A15	ᨕ	1A00..1A1F	Buginese	Buginese letter a		
+U+1A16	ᨖ	1A00..1A1F	Buginese	Buginese letter ha		
+U+1A17	ᨗ	1A00..1A1F	Buginese	Buginese vowel sign i		
+U+1A18	ᨘ	1A00..1A1F	Buginese	Buginese vowel sign u		
+U+1A19	ᨙ	1A00..1A1F	Buginese	Buginese vowel sign e		
+U+1A1A	ᨚ	1A00..1A1F	Buginese	Buginese vowel sign o		
+U+1A1B	ᨛ	1A00..1A1F	Buginese	Buginese vowel sign ae		
+U+1A1E	᨞	1A00..1A1F	Buginese	Buginese pallawa		
+U+1A1F	᨟	1A00..1A1F	Buginese	Buginese end of section		

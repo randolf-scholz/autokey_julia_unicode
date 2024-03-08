@@ -1,80 +1,80 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11600	"""𑘀"""	11600..1165F	Modi	Modi letter a		
-11601	"""𑘁"""	11600..1165F	Modi	Modi letter aa		
-11602	"""𑘂"""	11600..1165F	Modi	Modi letter i		
-11603	"""𑘃"""	11600..1165F	Modi	Modi letter ii		
-11604	"""𑘄"""	11600..1165F	Modi	Modi letter u		
-11605	"""𑘅"""	11600..1165F	Modi	Modi letter uu		
-11606	"""𑘆"""	11600..1165F	Modi	Modi letter vocalic r		
-11607	"""𑘇"""	11600..1165F	Modi	Modi letter vocalic rr		
-11608	"""𑘈"""	11600..1165F	Modi	Modi letter vocalic l		
-11609	"""𑘉"""	11600..1165F	Modi	Modi letter vocalic ll		
-1160A	"""𑘊"""	11600..1165F	Modi	Modi letter e		
-1160B	"""𑘋"""	11600..1165F	Modi	Modi letter ai		
-1160C	"""𑘌"""	11600..1165F	Modi	Modi letter o		
-1160D	"""𑘍"""	11600..1165F	Modi	Modi letter au		
-1160E	"""𑘎"""	11600..1165F	Modi	Modi letter ka		
-1160F	"""𑘏"""	11600..1165F	Modi	Modi letter kha		
-11610	"""𑘐"""	11600..1165F	Modi	Modi letter ga		
-11611	"""𑘑"""	11600..1165F	Modi	Modi letter gha		
-11612	"""𑘒"""	11600..1165F	Modi	Modi letter nga		
-11613	"""𑘓"""	11600..1165F	Modi	Modi letter ca		
-11614	"""𑘔"""	11600..1165F	Modi	Modi letter cha		
-11615	"""𑘕"""	11600..1165F	Modi	Modi letter ja		
-11616	"""𑘖"""	11600..1165F	Modi	Modi letter jha		
-11617	"""𑘗"""	11600..1165F	Modi	Modi letter nya		
-11618	"""𑘘"""	11600..1165F	Modi	Modi letter tta		
-11619	"""𑘙"""	11600..1165F	Modi	Modi letter ttha		
-1161A	"""𑘚"""	11600..1165F	Modi	Modi letter dda		
-1161B	"""𑘛"""	11600..1165F	Modi	Modi letter ddha		
-1161C	"""𑘜"""	11600..1165F	Modi	Modi letter nna		
-1161D	"""𑘝"""	11600..1165F	Modi	Modi letter ta		
-1161E	"""𑘞"""	11600..1165F	Modi	Modi letter tha		
-1161F	"""𑘟"""	11600..1165F	Modi	Modi letter da		
-11620	"""𑘠"""	11600..1165F	Modi	Modi letter dha		
-11621	"""𑘡"""	11600..1165F	Modi	Modi letter na		
-11622	"""𑘢"""	11600..1165F	Modi	Modi letter pa		
-11623	"""𑘣"""	11600..1165F	Modi	Modi letter pha		
-11624	"""𑘤"""	11600..1165F	Modi	Modi letter ba		
-11625	"""𑘥"""	11600..1165F	Modi	Modi letter bha		
-11626	"""𑘦"""	11600..1165F	Modi	Modi letter ma		
-11627	"""𑘧"""	11600..1165F	Modi	Modi letter ya		
-11628	"""𑘨"""	11600..1165F	Modi	Modi letter ra		
-11629	"""𑘩"""	11600..1165F	Modi	Modi letter la		
-1162A	"""𑘪"""	11600..1165F	Modi	Modi letter va		
-1162B	"""𑘫"""	11600..1165F	Modi	Modi letter sha		
-1162C	"""𑘬"""	11600..1165F	Modi	Modi letter ssa		
-1162D	"""𑘭"""	11600..1165F	Modi	Modi letter sa		
-1162E	"""𑘮"""	11600..1165F	Modi	Modi letter ha		
-1162F	"""𑘯"""	11600..1165F	Modi	Modi letter lla		
-11630	"""𑘰"""	11600..1165F	Modi	Modi vowel sign aa		
-11631	"""𑘱"""	11600..1165F	Modi	Modi vowel sign i		
-11632	"""𑘲"""	11600..1165F	Modi	Modi vowel sign ii		
-11633	"""𑘳"""	11600..1165F	Modi	Modi vowel sign u		
-11634	"""𑘴"""	11600..1165F	Modi	Modi vowel sign uu		
-11635	"""𑘵"""	11600..1165F	Modi	Modi vowel sign vocalic r		
-11636	"""𑘶"""	11600..1165F	Modi	Modi vowel sign vocalic rr		
-11637	"""𑘷"""	11600..1165F	Modi	Modi vowel sign vocalic l		
-11638	"""𑘸"""	11600..1165F	Modi	Modi vowel sign vocalic ll		
-11639	"""𑘹"""	11600..1165F	Modi	Modi vowel sign e		
-1163A	"""𑘺"""	11600..1165F	Modi	Modi vowel sign ai		
-1163B	"""𑘻"""	11600..1165F	Modi	Modi vowel sign o		
-1163C	"""𑘼"""	11600..1165F	Modi	Modi vowel sign au		
-1163D	"""𑘽"""	11600..1165F	Modi	Modi sign anusvara		
-1163E	"""𑘾"""	11600..1165F	Modi	Modi sign visarga		
-1163F	"""𑘿"""	11600..1165F	Modi	Modi sign virama		
-11640	"""𑙀"""	11600..1165F	Modi	Modi sign ardhacandra		
-11641	"""𑙁"""	11600..1165F	Modi	Modi danda		
-11642	"""𑙂"""	11600..1165F	Modi	Modi double danda		
-11643	"""𑙃"""	11600..1165F	Modi	Modi abbreviation sign		
-11644	"""𑙄"""	11600..1165F	Modi	Modi sign huva		
-11650	"""𑙐"""	11600..1165F	Modi	Modi digit zero		
-11651	"""𑙑"""	11600..1165F	Modi	Modi digit one		
-11652	"""𑙒"""	11600..1165F	Modi	Modi digit two		
-11653	"""𑙓"""	11600..1165F	Modi	Modi digit three		
-11654	"""𑙔"""	11600..1165F	Modi	Modi digit four		
-11655	"""𑙕"""	11600..1165F	Modi	Modi digit five		
-11656	"""𑙖"""	11600..1165F	Modi	Modi digit six		
-11657	"""𑙗"""	11600..1165F	Modi	Modi digit seven		
-11658	"""𑙘"""	11600..1165F	Modi	Modi digit eight		
-11659	"""𑙙"""	11600..1165F	Modi	Modi digit nine		
+U+11600	𑘀	11600..1165F	Modi	Modi letter a		
+U+11601	𑘁	11600..1165F	Modi	Modi letter aa		
+U+11602	𑘂	11600..1165F	Modi	Modi letter i		
+U+11603	𑘃	11600..1165F	Modi	Modi letter ii		
+U+11604	𑘄	11600..1165F	Modi	Modi letter u		
+U+11605	𑘅	11600..1165F	Modi	Modi letter uu		
+U+11606	𑘆	11600..1165F	Modi	Modi letter vocalic r		
+U+11607	𑘇	11600..1165F	Modi	Modi letter vocalic rr		
+U+11608	𑘈	11600..1165F	Modi	Modi letter vocalic l		
+U+11609	𑘉	11600..1165F	Modi	Modi letter vocalic ll		
+U+1160A	𑘊	11600..1165F	Modi	Modi letter e		
+U+1160B	𑘋	11600..1165F	Modi	Modi letter ai		
+U+1160C	𑘌	11600..1165F	Modi	Modi letter o		
+U+1160D	𑘍	11600..1165F	Modi	Modi letter au		
+U+1160E	𑘎	11600..1165F	Modi	Modi letter ka		
+U+1160F	𑘏	11600..1165F	Modi	Modi letter kha		
+U+11610	𑘐	11600..1165F	Modi	Modi letter ga		
+U+11611	𑘑	11600..1165F	Modi	Modi letter gha		
+U+11612	𑘒	11600..1165F	Modi	Modi letter nga		
+U+11613	𑘓	11600..1165F	Modi	Modi letter ca		
+U+11614	𑘔	11600..1165F	Modi	Modi letter cha		
+U+11615	𑘕	11600..1165F	Modi	Modi letter ja		
+U+11616	𑘖	11600..1165F	Modi	Modi letter jha		
+U+11617	𑘗	11600..1165F	Modi	Modi letter nya		
+U+11618	𑘘	11600..1165F	Modi	Modi letter tta		
+U+11619	𑘙	11600..1165F	Modi	Modi letter ttha		
+U+1161A	𑘚	11600..1165F	Modi	Modi letter dda		
+U+1161B	𑘛	11600..1165F	Modi	Modi letter ddha		
+U+1161C	𑘜	11600..1165F	Modi	Modi letter nna		
+U+1161D	𑘝	11600..1165F	Modi	Modi letter ta		
+U+1161E	𑘞	11600..1165F	Modi	Modi letter tha		
+U+1161F	𑘟	11600..1165F	Modi	Modi letter da		
+U+11620	𑘠	11600..1165F	Modi	Modi letter dha		
+U+11621	𑘡	11600..1165F	Modi	Modi letter na		
+U+11622	𑘢	11600..1165F	Modi	Modi letter pa		
+U+11623	𑘣	11600..1165F	Modi	Modi letter pha		
+U+11624	𑘤	11600..1165F	Modi	Modi letter ba		
+U+11625	𑘥	11600..1165F	Modi	Modi letter bha		
+U+11626	𑘦	11600..1165F	Modi	Modi letter ma		
+U+11627	𑘧	11600..1165F	Modi	Modi letter ya		
+U+11628	𑘨	11600..1165F	Modi	Modi letter ra		
+U+11629	𑘩	11600..1165F	Modi	Modi letter la		
+U+1162A	𑘪	11600..1165F	Modi	Modi letter va		
+U+1162B	𑘫	11600..1165F	Modi	Modi letter sha		
+U+1162C	𑘬	11600..1165F	Modi	Modi letter ssa		
+U+1162D	𑘭	11600..1165F	Modi	Modi letter sa		
+U+1162E	𑘮	11600..1165F	Modi	Modi letter ha		
+U+1162F	𑘯	11600..1165F	Modi	Modi letter lla		
+U+11630	𑘰	11600..1165F	Modi	Modi vowel sign aa		
+U+11631	𑘱	11600..1165F	Modi	Modi vowel sign i		
+U+11632	𑘲	11600..1165F	Modi	Modi vowel sign ii		
+U+11633	𑘳	11600..1165F	Modi	Modi vowel sign u		
+U+11634	𑘴	11600..1165F	Modi	Modi vowel sign uu		
+U+11635	𑘵	11600..1165F	Modi	Modi vowel sign vocalic r		
+U+11636	𑘶	11600..1165F	Modi	Modi vowel sign vocalic rr		
+U+11637	𑘷	11600..1165F	Modi	Modi vowel sign vocalic l		
+U+11638	𑘸	11600..1165F	Modi	Modi vowel sign vocalic ll		
+U+11639	𑘹	11600..1165F	Modi	Modi vowel sign e		
+U+1163A	𑘺	11600..1165F	Modi	Modi vowel sign ai		
+U+1163B	𑘻	11600..1165F	Modi	Modi vowel sign o		
+U+1163C	𑘼	11600..1165F	Modi	Modi vowel sign au		
+U+1163D	𑘽	11600..1165F	Modi	Modi sign anusvara		
+U+1163E	𑘾	11600..1165F	Modi	Modi sign visarga		
+U+1163F	𑘿	11600..1165F	Modi	Modi sign virama		
+U+11640	𑙀	11600..1165F	Modi	Modi sign ardhacandra		
+U+11641	𑙁	11600..1165F	Modi	Modi danda		
+U+11642	𑙂	11600..1165F	Modi	Modi double danda		
+U+11643	𑙃	11600..1165F	Modi	Modi abbreviation sign		
+U+11644	𑙄	11600..1165F	Modi	Modi sign huva		
+U+11650	𑙐	11600..1165F	Modi	Modi digit zero		
+U+11651	𑙑	11600..1165F	Modi	Modi digit one		
+U+11652	𑙒	11600..1165F	Modi	Modi digit two		
+U+11653	𑙓	11600..1165F	Modi	Modi digit three		
+U+11654	𑙔	11600..1165F	Modi	Modi digit four		
+U+11655	𑙕	11600..1165F	Modi	Modi digit five		
+U+11656	𑙖	11600..1165F	Modi	Modi digit six		
+U+11657	𑙗	11600..1165F	Modi	Modi digit seven		
+U+11658	𑙘	11600..1165F	Modi	Modi digit eight		
+U+11659	𑙙	11600..1165F	Modi	Modi digit nine		

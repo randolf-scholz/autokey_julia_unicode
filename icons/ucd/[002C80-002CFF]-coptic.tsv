@@ -1,124 +1,124 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2C80	"""Ⲁ"""	2C80..2CFF	Coptic	Coptic capital letter alfa		
-2C81	"""ⲁ"""	2C80..2CFF	Coptic	Coptic small letter alfa		
-2C82	"""Ⲃ"""	2C80..2CFF	Coptic	Coptic capital letter vida		
-2C83	"""ⲃ"""	2C80..2CFF	Coptic	Coptic small letter vida		
-2C84	"""Ⲅ"""	2C80..2CFF	Coptic	Coptic capital letter gamma		
-2C85	"""ⲅ"""	2C80..2CFF	Coptic	Coptic small letter gamma		
-2C86	"""Ⲇ"""	2C80..2CFF	Coptic	Coptic capital letter dalda		
-2C87	"""ⲇ"""	2C80..2CFF	Coptic	Coptic small letter dalda		
-2C88	"""Ⲉ"""	2C80..2CFF	Coptic	Coptic capital letter eie		
-2C89	"""ⲉ"""	2C80..2CFF	Coptic	Coptic small letter eie		
-2C8A	"""Ⲋ"""	2C80..2CFF	Coptic	Coptic capital letter sou		
-2C8B	"""ⲋ"""	2C80..2CFF	Coptic	Coptic small letter sou		
-2C8C	"""Ⲍ"""	2C80..2CFF	Coptic	Coptic capital letter zata		
-2C8D	"""ⲍ"""	2C80..2CFF	Coptic	Coptic small letter zata		
-2C8E	"""Ⲏ"""	2C80..2CFF	Coptic	Coptic capital letter hate		
-2C8F	"""ⲏ"""	2C80..2CFF	Coptic	Coptic small letter hate		
-2C90	"""Ⲑ"""	2C80..2CFF	Coptic	Coptic capital letter thethe		
-2C91	"""ⲑ"""	2C80..2CFF	Coptic	Coptic small letter thethe		
-2C92	"""Ⲓ"""	2C80..2CFF	Coptic	Coptic capital letter iauda		
-2C93	"""ⲓ"""	2C80..2CFF	Coptic	Coptic small letter iauda		
-2C94	"""Ⲕ"""	2C80..2CFF	Coptic	Coptic capital letter kapa		
-2C95	"""ⲕ"""	2C80..2CFF	Coptic	Coptic small letter kapa		
-2C96	"""Ⲗ"""	2C80..2CFF	Coptic	Coptic capital letter laula		
-2C97	"""ⲗ"""	2C80..2CFF	Coptic	Coptic small letter laula		
-2C98	"""Ⲙ"""	2C80..2CFF	Coptic	Coptic capital letter mi		
-2C99	"""ⲙ"""	2C80..2CFF	Coptic	Coptic small letter mi		
-2C9A	"""Ⲛ"""	2C80..2CFF	Coptic	Coptic capital letter ni		
-2C9B	"""ⲛ"""	2C80..2CFF	Coptic	Coptic small letter ni		
-2C9C	"""Ⲝ"""	2C80..2CFF	Coptic	Coptic capital letter ksi		
-2C9D	"""ⲝ"""	2C80..2CFF	Coptic	Coptic small letter ksi		
-2C9E	"""Ⲟ"""	2C80..2CFF	Coptic	Coptic capital letter o		
-2C9F	"""ⲟ"""	2C80..2CFF	Coptic	Coptic small letter o		
-2CA0	"""Ⲡ"""	2C80..2CFF	Coptic	Coptic capital letter pi		
-2CA1	"""ⲡ"""	2C80..2CFF	Coptic	Coptic small letter pi		
-2CA2	"""Ⲣ"""	2C80..2CFF	Coptic	Coptic capital letter ro		
-2CA3	"""ⲣ"""	2C80..2CFF	Coptic	Coptic small letter ro		
-2CA4	"""Ⲥ"""	2C80..2CFF	Coptic	Coptic capital letter sima		
-2CA5	"""ⲥ"""	2C80..2CFF	Coptic	Coptic small letter sima		
-2CA6	"""Ⲧ"""	2C80..2CFF	Coptic	Coptic capital letter tau		
-2CA7	"""ⲧ"""	2C80..2CFF	Coptic	Coptic small letter tau		
-2CA8	"""Ⲩ"""	2C80..2CFF	Coptic	Coptic capital letter ua		
-2CA9	"""ⲩ"""	2C80..2CFF	Coptic	Coptic small letter ua		
-2CAA	"""Ⲫ"""	2C80..2CFF	Coptic	Coptic capital letter fi		
-2CAB	"""ⲫ"""	2C80..2CFF	Coptic	Coptic small letter fi		
-2CAC	"""Ⲭ"""	2C80..2CFF	Coptic	Coptic capital letter khi		
-2CAD	"""ⲭ"""	2C80..2CFF	Coptic	Coptic small letter khi		
-2CAE	"""Ⲯ"""	2C80..2CFF	Coptic	Coptic capital letter psi		
-2CAF	"""ⲯ"""	2C80..2CFF	Coptic	Coptic small letter psi		
-2CB0	"""Ⲱ"""	2C80..2CFF	Coptic	Coptic capital letter oou		
-2CB1	"""ⲱ"""	2C80..2CFF	Coptic	Coptic small letter oou		
-2CB2	"""Ⲳ"""	2C80..2CFF	Coptic	Coptic capital letter dialect-p alef		
-2CB3	"""ⲳ"""	2C80..2CFF	Coptic	Coptic small letter dialect-p alef		
-2CB4	"""Ⲵ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic ain		
-2CB5	"""ⲵ"""	2C80..2CFF	Coptic	Coptic small letter old coptic ain		
-2CB6	"""Ⲷ"""	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic eie		
-2CB7	"""ⲷ"""	2C80..2CFF	Coptic	Coptic small letter cryptogrammic eie		
-2CB8	"""Ⲹ"""	2C80..2CFF	Coptic	Coptic capital letter dialect-p kapa		
-2CB9	"""ⲹ"""	2C80..2CFF	Coptic	Coptic small letter dialect-p kapa		
-2CBA	"""Ⲻ"""	2C80..2CFF	Coptic	Coptic capital letter dialect-p ni		
-2CBB	"""ⲻ"""	2C80..2CFF	Coptic	Coptic small letter dialect-p ni		
-2CBC	"""Ⲽ"""	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic ni		
-2CBD	"""ⲽ"""	2C80..2CFF	Coptic	Coptic small letter cryptogrammic ni		
-2CBE	"""Ⲿ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic oou		
-2CBF	"""ⲿ"""	2C80..2CFF	Coptic	Coptic small letter old coptic oou		
-2CC0	"""Ⳁ"""	2C80..2CFF	Coptic	Coptic capital letter sampi		
-2CC1	"""ⳁ"""	2C80..2CFF	Coptic	Coptic small letter sampi		
-2CC2	"""Ⳃ"""	2C80..2CFF	Coptic	Coptic capital letter crossed shei		
-2CC3	"""ⳃ"""	2C80..2CFF	Coptic	Coptic small letter crossed shei		
-2CC4	"""Ⳅ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic shei		
-2CC5	"""ⳅ"""	2C80..2CFF	Coptic	Coptic small letter old coptic shei		
-2CC6	"""Ⳇ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic esh		
-2CC7	"""ⳇ"""	2C80..2CFF	Coptic	Coptic small letter old coptic esh		
-2CC8	"""Ⳉ"""	2C80..2CFF	Coptic	Coptic capital letter akhmimic khei		
-2CC9	"""ⳉ"""	2C80..2CFF	Coptic	Coptic small letter akhmimic khei		
-2CCA	"""Ⳋ"""	2C80..2CFF	Coptic	Coptic capital letter dialect-p hori		
-2CCB	"""ⳋ"""	2C80..2CFF	Coptic	Coptic small letter dialect-p hori		
-2CCC	"""Ⳍ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic hori		
-2CCD	"""ⳍ"""	2C80..2CFF	Coptic	Coptic small letter old coptic hori		
-2CCE	"""Ⳏ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic ha		
-2CCF	"""ⳏ"""	2C80..2CFF	Coptic	Coptic small letter old coptic ha		
-2CD0	"""Ⳑ"""	2C80..2CFF	Coptic	Coptic capital letter l-shaped ha		
-2CD1	"""ⳑ"""	2C80..2CFF	Coptic	Coptic small letter l-shaped ha		
-2CD2	"""Ⳓ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic hei		
-2CD3	"""ⳓ"""	2C80..2CFF	Coptic	Coptic small letter old coptic hei		
-2CD4	"""Ⳕ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic hat		
-2CD5	"""ⳕ"""	2C80..2CFF	Coptic	Coptic small letter old coptic hat		
-2CD6	"""Ⳗ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic gangia		
-2CD7	"""ⳗ"""	2C80..2CFF	Coptic	Coptic small letter old coptic gangia		
-2CD8	"""Ⳙ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic dja		
-2CD9	"""ⳙ"""	2C80..2CFF	Coptic	Coptic small letter old coptic dja		
-2CDA	"""Ⳛ"""	2C80..2CFF	Coptic	Coptic capital letter old coptic shima		
-2CDB	"""ⳛ"""	2C80..2CFF	Coptic	Coptic small letter old coptic shima		
-2CDC	"""Ⳝ"""	2C80..2CFF	Coptic	Coptic capital letter old nubian shima		
-2CDD	"""ⳝ"""	2C80..2CFF	Coptic	Coptic small letter old nubian shima		
-2CDE	"""Ⳟ"""	2C80..2CFF	Coptic	Coptic capital letter old nubian ngi		
-2CDF	"""ⳟ"""	2C80..2CFF	Coptic	Coptic small letter old nubian ngi		
-2CE0	"""Ⳡ"""	2C80..2CFF	Coptic	Coptic capital letter old nubian nyi		
-2CE1	"""ⳡ"""	2C80..2CFF	Coptic	Coptic small letter old nubian nyi		
-2CE2	"""Ⳣ"""	2C80..2CFF	Coptic	Coptic capital letter old nubian wau		
-2CE3	"""ⳣ"""	2C80..2CFF	Coptic	Coptic small letter old nubian wau		
-2CE4	"""ⳤ"""	2C80..2CFF	Coptic	Coptic symbol kai		
-2CE5	"""⳥"""	2C80..2CFF	Coptic	Coptic symbol mi ro		
-2CE6	"""⳦"""	2C80..2CFF	Coptic	Coptic symbol pi ro		
-2CE7	"""⳧"""	2C80..2CFF	Coptic	Coptic symbol stauros		
-2CE8	"""⳨"""	2C80..2CFF	Coptic	Coptic symbol tau ro		
-2CE9	"""⳩"""	2C80..2CFF	Coptic	Coptic symbol khi ro		
-2CEA	"""⳪"""	2C80..2CFF	Coptic	Coptic symbol shima sima		
-2CEB	"""Ⳬ"""	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic shei		
-2CEC	"""ⳬ"""	2C80..2CFF	Coptic	Coptic small letter cryptogrammic shei		
-2CED	"""Ⳮ"""	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic gangia		
-2CEE	"""ⳮ"""	2C80..2CFF	Coptic	Coptic small letter cryptogrammic gangia		
-2CEF	"""⳯"""	2C80..2CFF	Coptic	Coptic combining ni above		
-2CF0	"""⳰"""	2C80..2CFF	Coptic	Coptic combining spiritus asper		
-2CF1	"""⳱"""	2C80..2CFF	Coptic	Coptic combining spiritus lenis		
-2CF2	"""Ⳳ"""	2C80..2CFF	Coptic	Coptic capital letter bohairic khei		
-2CF3	"""ⳳ"""	2C80..2CFF	Coptic	Coptic small letter bohairic khei		
-2CF9	"""⳹"""	2C80..2CFF	Coptic	Coptic old nubian full stop		
-2CFA	"""⳺"""	2C80..2CFF	Coptic	Coptic old nubian direct question mark		
-2CFB	"""⳻"""	2C80..2CFF	Coptic	Coptic old nubian indirect question mark		
-2CFC	"""⳼"""	2C80..2CFF	Coptic	Coptic old nubian verse divider		
-2CFD	"""⳽"""	2C80..2CFF	Coptic	Coptic fraction one half		
-2CFE	"""⳾"""	2C80..2CFF	Coptic	Coptic full stop		
-2CFF	"""⳿"""	2C80..2CFF	Coptic	Coptic morphological divider		
+U+2C80	Ⲁ	2C80..2CFF	Coptic	Coptic capital letter alfa		
+U+2C81	ⲁ	2C80..2CFF	Coptic	Coptic small letter alfa		
+U+2C82	Ⲃ	2C80..2CFF	Coptic	Coptic capital letter vida		
+U+2C83	ⲃ	2C80..2CFF	Coptic	Coptic small letter vida		
+U+2C84	Ⲅ	2C80..2CFF	Coptic	Coptic capital letter gamma		
+U+2C85	ⲅ	2C80..2CFF	Coptic	Coptic small letter gamma		
+U+2C86	Ⲇ	2C80..2CFF	Coptic	Coptic capital letter dalda		
+U+2C87	ⲇ	2C80..2CFF	Coptic	Coptic small letter dalda		
+U+2C88	Ⲉ	2C80..2CFF	Coptic	Coptic capital letter eie		
+U+2C89	ⲉ	2C80..2CFF	Coptic	Coptic small letter eie		
+U+2C8A	Ⲋ	2C80..2CFF	Coptic	Coptic capital letter sou		
+U+2C8B	ⲋ	2C80..2CFF	Coptic	Coptic small letter sou		
+U+2C8C	Ⲍ	2C80..2CFF	Coptic	Coptic capital letter zata		
+U+2C8D	ⲍ	2C80..2CFF	Coptic	Coptic small letter zata		
+U+2C8E	Ⲏ	2C80..2CFF	Coptic	Coptic capital letter hate		
+U+2C8F	ⲏ	2C80..2CFF	Coptic	Coptic small letter hate		
+U+2C90	Ⲑ	2C80..2CFF	Coptic	Coptic capital letter thethe		
+U+2C91	ⲑ	2C80..2CFF	Coptic	Coptic small letter thethe		
+U+2C92	Ⲓ	2C80..2CFF	Coptic	Coptic capital letter iauda		
+U+2C93	ⲓ	2C80..2CFF	Coptic	Coptic small letter iauda		
+U+2C94	Ⲕ	2C80..2CFF	Coptic	Coptic capital letter kapa		
+U+2C95	ⲕ	2C80..2CFF	Coptic	Coptic small letter kapa		
+U+2C96	Ⲗ	2C80..2CFF	Coptic	Coptic capital letter laula		
+U+2C97	ⲗ	2C80..2CFF	Coptic	Coptic small letter laula		
+U+2C98	Ⲙ	2C80..2CFF	Coptic	Coptic capital letter mi		
+U+2C99	ⲙ	2C80..2CFF	Coptic	Coptic small letter mi		
+U+2C9A	Ⲛ	2C80..2CFF	Coptic	Coptic capital letter ni		
+U+2C9B	ⲛ	2C80..2CFF	Coptic	Coptic small letter ni		
+U+2C9C	Ⲝ	2C80..2CFF	Coptic	Coptic capital letter ksi		
+U+2C9D	ⲝ	2C80..2CFF	Coptic	Coptic small letter ksi		
+U+2C9E	Ⲟ	2C80..2CFF	Coptic	Coptic capital letter o		
+U+2C9F	ⲟ	2C80..2CFF	Coptic	Coptic small letter o		
+U+2CA0	Ⲡ	2C80..2CFF	Coptic	Coptic capital letter pi		
+U+2CA1	ⲡ	2C80..2CFF	Coptic	Coptic small letter pi		
+U+2CA2	Ⲣ	2C80..2CFF	Coptic	Coptic capital letter ro		
+U+2CA3	ⲣ	2C80..2CFF	Coptic	Coptic small letter ro		
+U+2CA4	Ⲥ	2C80..2CFF	Coptic	Coptic capital letter sima		
+U+2CA5	ⲥ	2C80..2CFF	Coptic	Coptic small letter sima		
+U+2CA6	Ⲧ	2C80..2CFF	Coptic	Coptic capital letter tau		
+U+2CA7	ⲧ	2C80..2CFF	Coptic	Coptic small letter tau		
+U+2CA8	Ⲩ	2C80..2CFF	Coptic	Coptic capital letter ua		
+U+2CA9	ⲩ	2C80..2CFF	Coptic	Coptic small letter ua		
+U+2CAA	Ⲫ	2C80..2CFF	Coptic	Coptic capital letter fi		
+U+2CAB	ⲫ	2C80..2CFF	Coptic	Coptic small letter fi		
+U+2CAC	Ⲭ	2C80..2CFF	Coptic	Coptic capital letter khi		
+U+2CAD	ⲭ	2C80..2CFF	Coptic	Coptic small letter khi		
+U+2CAE	Ⲯ	2C80..2CFF	Coptic	Coptic capital letter psi		
+U+2CAF	ⲯ	2C80..2CFF	Coptic	Coptic small letter psi		
+U+2CB0	Ⲱ	2C80..2CFF	Coptic	Coptic capital letter oou		
+U+2CB1	ⲱ	2C80..2CFF	Coptic	Coptic small letter oou		
+U+2CB2	Ⲳ	2C80..2CFF	Coptic	Coptic capital letter dialect-p alef		
+U+2CB3	ⲳ	2C80..2CFF	Coptic	Coptic small letter dialect-p alef		
+U+2CB4	Ⲵ	2C80..2CFF	Coptic	Coptic capital letter old coptic ain		
+U+2CB5	ⲵ	2C80..2CFF	Coptic	Coptic small letter old coptic ain		
+U+2CB6	Ⲷ	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic eie		
+U+2CB7	ⲷ	2C80..2CFF	Coptic	Coptic small letter cryptogrammic eie		
+U+2CB8	Ⲹ	2C80..2CFF	Coptic	Coptic capital letter dialect-p kapa		
+U+2CB9	ⲹ	2C80..2CFF	Coptic	Coptic small letter dialect-p kapa		
+U+2CBA	Ⲻ	2C80..2CFF	Coptic	Coptic capital letter dialect-p ni		
+U+2CBB	ⲻ	2C80..2CFF	Coptic	Coptic small letter dialect-p ni		
+U+2CBC	Ⲽ	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic ni		
+U+2CBD	ⲽ	2C80..2CFF	Coptic	Coptic small letter cryptogrammic ni		
+U+2CBE	Ⲿ	2C80..2CFF	Coptic	Coptic capital letter old coptic oou		
+U+2CBF	ⲿ	2C80..2CFF	Coptic	Coptic small letter old coptic oou		
+U+2CC0	Ⳁ	2C80..2CFF	Coptic	Coptic capital letter sampi		
+U+2CC1	ⳁ	2C80..2CFF	Coptic	Coptic small letter sampi		
+U+2CC2	Ⳃ	2C80..2CFF	Coptic	Coptic capital letter crossed shei		
+U+2CC3	ⳃ	2C80..2CFF	Coptic	Coptic small letter crossed shei		
+U+2CC4	Ⳅ	2C80..2CFF	Coptic	Coptic capital letter old coptic shei		
+U+2CC5	ⳅ	2C80..2CFF	Coptic	Coptic small letter old coptic shei		
+U+2CC6	Ⳇ	2C80..2CFF	Coptic	Coptic capital letter old coptic esh		
+U+2CC7	ⳇ	2C80..2CFF	Coptic	Coptic small letter old coptic esh		
+U+2CC8	Ⳉ	2C80..2CFF	Coptic	Coptic capital letter akhmimic khei		
+U+2CC9	ⳉ	2C80..2CFF	Coptic	Coptic small letter akhmimic khei		
+U+2CCA	Ⳋ	2C80..2CFF	Coptic	Coptic capital letter dialect-p hori		
+U+2CCB	ⳋ	2C80..2CFF	Coptic	Coptic small letter dialect-p hori		
+U+2CCC	Ⳍ	2C80..2CFF	Coptic	Coptic capital letter old coptic hori		
+U+2CCD	ⳍ	2C80..2CFF	Coptic	Coptic small letter old coptic hori		
+U+2CCE	Ⳏ	2C80..2CFF	Coptic	Coptic capital letter old coptic ha		
+U+2CCF	ⳏ	2C80..2CFF	Coptic	Coptic small letter old coptic ha		
+U+2CD0	Ⳑ	2C80..2CFF	Coptic	Coptic capital letter l-shaped ha		
+U+2CD1	ⳑ	2C80..2CFF	Coptic	Coptic small letter l-shaped ha		
+U+2CD2	Ⳓ	2C80..2CFF	Coptic	Coptic capital letter old coptic hei		
+U+2CD3	ⳓ	2C80..2CFF	Coptic	Coptic small letter old coptic hei		
+U+2CD4	Ⳕ	2C80..2CFF	Coptic	Coptic capital letter old coptic hat		
+U+2CD5	ⳕ	2C80..2CFF	Coptic	Coptic small letter old coptic hat		
+U+2CD6	Ⳗ	2C80..2CFF	Coptic	Coptic capital letter old coptic gangia		
+U+2CD7	ⳗ	2C80..2CFF	Coptic	Coptic small letter old coptic gangia		
+U+2CD8	Ⳙ	2C80..2CFF	Coptic	Coptic capital letter old coptic dja		
+U+2CD9	ⳙ	2C80..2CFF	Coptic	Coptic small letter old coptic dja		
+U+2CDA	Ⳛ	2C80..2CFF	Coptic	Coptic capital letter old coptic shima		
+U+2CDB	ⳛ	2C80..2CFF	Coptic	Coptic small letter old coptic shima		
+U+2CDC	Ⳝ	2C80..2CFF	Coptic	Coptic capital letter old nubian shima		
+U+2CDD	ⳝ	2C80..2CFF	Coptic	Coptic small letter old nubian shima		
+U+2CDE	Ⳟ	2C80..2CFF	Coptic	Coptic capital letter old nubian ngi		
+U+2CDF	ⳟ	2C80..2CFF	Coptic	Coptic small letter old nubian ngi		
+U+2CE0	Ⳡ	2C80..2CFF	Coptic	Coptic capital letter old nubian nyi		
+U+2CE1	ⳡ	2C80..2CFF	Coptic	Coptic small letter old nubian nyi		
+U+2CE2	Ⳣ	2C80..2CFF	Coptic	Coptic capital letter old nubian wau		
+U+2CE3	ⳣ	2C80..2CFF	Coptic	Coptic small letter old nubian wau		
+U+2CE4	ⳤ	2C80..2CFF	Coptic	Coptic symbol kai		
+U+2CE5	⳥	2C80..2CFF	Coptic	Coptic symbol mi ro		
+U+2CE6	⳦	2C80..2CFF	Coptic	Coptic symbol pi ro		
+U+2CE7	⳧	2C80..2CFF	Coptic	Coptic symbol stauros		
+U+2CE8	⳨	2C80..2CFF	Coptic	Coptic symbol tau ro		
+U+2CE9	⳩	2C80..2CFF	Coptic	Coptic symbol khi ro		
+U+2CEA	⳪	2C80..2CFF	Coptic	Coptic symbol shima sima		
+U+2CEB	Ⳬ	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic shei		
+U+2CEC	ⳬ	2C80..2CFF	Coptic	Coptic small letter cryptogrammic shei		
+U+2CED	Ⳮ	2C80..2CFF	Coptic	Coptic capital letter cryptogrammic gangia		
+U+2CEE	ⳮ	2C80..2CFF	Coptic	Coptic small letter cryptogrammic gangia		
+U+2CEF	⳯	2C80..2CFF	Coptic	Coptic combining ni above		
+U+2CF0	⳰	2C80..2CFF	Coptic	Coptic combining spiritus asper		
+U+2CF1	⳱	2C80..2CFF	Coptic	Coptic combining spiritus lenis		
+U+2CF2	Ⳳ	2C80..2CFF	Coptic	Coptic capital letter bohairic khei		
+U+2CF3	ⳳ	2C80..2CFF	Coptic	Coptic small letter bohairic khei		
+U+2CF9	⳹	2C80..2CFF	Coptic	Coptic old nubian full stop		
+U+2CFA	⳺	2C80..2CFF	Coptic	Coptic old nubian direct question mark		
+U+2CFB	⳻	2C80..2CFF	Coptic	Coptic old nubian indirect question mark		
+U+2CFC	⳼	2C80..2CFF	Coptic	Coptic old nubian verse divider		
+U+2CFD	⳽	2C80..2CFF	Coptic	Coptic fraction one half		
+U+2CFE	⳾	2C80..2CFF	Coptic	Coptic full stop		
+U+2CFF	⳿	2C80..2CFF	Coptic	Coptic morphological divider		

@@ -116,7 +116,7 @@
 	\getfirsttok{\@result}{\@token}%
 	\subscript@check{\@result}%
 \else%
-	\GenericError{}{... does not define a macro...}{}{}%
+	\GenericError{}{does not define a macro}{}{}%
 	\let\@token=\relax%
 \fi%
 %
@@ -127,12 +127,12 @@
 
 \newcommand{\subscript@check@unicode@three}[3]{% grabs 3 tokens
 \ifcsname u8:#1#2#3\endcsname%
-	\message{  >>> Expand Unicode Triplet}%
+	\message{>>> Expand Unicode Triplet}%
 	\expandafter\let\expandafter\@token\csname u8:#1#2#3\endcsname%
 	\getfirsttok{\@result}{\@token}%
 	\subscript@check{\@result}%
 \else%
-	\GenericError{}{... does not define a macro...}{}{}%
+	\GenericError{}{does not define a macro}{}{}%
 	\let\@token=\relax%
 \fi%
 %

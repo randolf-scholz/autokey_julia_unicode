@@ -1,44 +1,44 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-10350	"""𐍐"""	10350..1037F	Old Permic	Old permic letter an		
-10351	"""𐍑"""	10350..1037F	Old Permic	Old permic letter bur		
-10352	"""𐍒"""	10350..1037F	Old Permic	Old permic letter gai		
-10353	"""𐍓"""	10350..1037F	Old Permic	Old permic letter doi		
-10354	"""𐍔"""	10350..1037F	Old Permic	Old permic letter e		
-10355	"""𐍕"""	10350..1037F	Old Permic	Old permic letter zhoi		
-10356	"""𐍖"""	10350..1037F	Old Permic	Old permic letter dzhoi		
-10357	"""𐍗"""	10350..1037F	Old Permic	Old permic letter zata		
-10358	"""𐍘"""	10350..1037F	Old Permic	Old permic letter dzita		
-10359	"""𐍙"""	10350..1037F	Old Permic	Old permic letter i		
-1035A	"""𐍚"""	10350..1037F	Old Permic	Old permic letter koke		
-1035B	"""𐍛"""	10350..1037F	Old Permic	Old permic letter lei		
-1035C	"""𐍜"""	10350..1037F	Old Permic	Old permic letter menoe		
-1035D	"""𐍝"""	10350..1037F	Old Permic	Old permic letter nenoe		
-1035E	"""𐍞"""	10350..1037F	Old Permic	Old permic letter vooi		
-1035F	"""𐍟"""	10350..1037F	Old Permic	Old permic letter peei		
-10360	"""𐍠"""	10350..1037F	Old Permic	Old permic letter rei		
-10361	"""𐍡"""	10350..1037F	Old Permic	Old permic letter sii		
-10362	"""𐍢"""	10350..1037F	Old Permic	Old permic letter tai		
-10363	"""𐍣"""	10350..1037F	Old Permic	Old permic letter u		
-10364	"""𐍤"""	10350..1037F	Old Permic	Old permic letter chery		
-10365	"""𐍥"""	10350..1037F	Old Permic	Old permic letter shooi		
-10366	"""𐍦"""	10350..1037F	Old Permic	Old permic letter shchooi		
-10367	"""𐍧"""	10350..1037F	Old Permic	Old permic letter yry		
-10368	"""𐍨"""	10350..1037F	Old Permic	Old permic letter yeru		
-10369	"""𐍩"""	10350..1037F	Old Permic	Old permic letter o		
-1036A	"""𐍪"""	10350..1037F	Old Permic	Old permic letter oo		
-1036B	"""𐍫"""	10350..1037F	Old Permic	Old permic letter ef		
-1036C	"""𐍬"""	10350..1037F	Old Permic	Old permic letter ha		
-1036D	"""𐍭"""	10350..1037F	Old Permic	Old permic letter tsiu		
-1036E	"""𐍮"""	10350..1037F	Old Permic	Old permic letter ver		
-1036F	"""𐍯"""	10350..1037F	Old Permic	Old permic letter yer		
-10370	"""𐍰"""	10350..1037F	Old Permic	Old permic letter yeri		
-10371	"""𐍱"""	10350..1037F	Old Permic	Old permic letter yat		
-10372	"""𐍲"""	10350..1037F	Old Permic	Old permic letter ie		
-10373	"""𐍳"""	10350..1037F	Old Permic	Old permic letter yu		
-10374	"""𐍴"""	10350..1037F	Old Permic	Old permic letter ya		
-10375	"""𐍵"""	10350..1037F	Old Permic	Old permic letter ia		
-10376	"""𐍶"""	10350..1037F	Old Permic	Combining old permic letter an		
-10377	"""𐍷"""	10350..1037F	Old Permic	Combining old permic letter doi		
-10378	"""𐍸"""	10350..1037F	Old Permic	Combining old permic letter zata		
-10379	"""𐍹"""	10350..1037F	Old Permic	Combining old permic letter nenoe		
-1037A	"""𐍺"""	10350..1037F	Old Permic	Combining old permic letter sii		
+U+10350	𐍐	10350..1037F	Old Permic	Old permic letter an		
+U+10351	𐍑	10350..1037F	Old Permic	Old permic letter bur		
+U+10352	𐍒	10350..1037F	Old Permic	Old permic letter gai		
+U+10353	𐍓	10350..1037F	Old Permic	Old permic letter doi		
+U+10354	𐍔	10350..1037F	Old Permic	Old permic letter e		
+U+10355	𐍕	10350..1037F	Old Permic	Old permic letter zhoi		
+U+10356	𐍖	10350..1037F	Old Permic	Old permic letter dzhoi		
+U+10357	𐍗	10350..1037F	Old Permic	Old permic letter zata		
+U+10358	𐍘	10350..1037F	Old Permic	Old permic letter dzita		
+U+10359	𐍙	10350..1037F	Old Permic	Old permic letter i		
+U+1035A	𐍚	10350..1037F	Old Permic	Old permic letter koke		
+U+1035B	𐍛	10350..1037F	Old Permic	Old permic letter lei		
+U+1035C	𐍜	10350..1037F	Old Permic	Old permic letter menoe		
+U+1035D	𐍝	10350..1037F	Old Permic	Old permic letter nenoe		
+U+1035E	𐍞	10350..1037F	Old Permic	Old permic letter vooi		
+U+1035F	𐍟	10350..1037F	Old Permic	Old permic letter peei		
+U+10360	𐍠	10350..1037F	Old Permic	Old permic letter rei		
+U+10361	𐍡	10350..1037F	Old Permic	Old permic letter sii		
+U+10362	𐍢	10350..1037F	Old Permic	Old permic letter tai		
+U+10363	𐍣	10350..1037F	Old Permic	Old permic letter u		
+U+10364	𐍤	10350..1037F	Old Permic	Old permic letter chery		
+U+10365	𐍥	10350..1037F	Old Permic	Old permic letter shooi		
+U+10366	𐍦	10350..1037F	Old Permic	Old permic letter shchooi		
+U+10367	𐍧	10350..1037F	Old Permic	Old permic letter yry		
+U+10368	𐍨	10350..1037F	Old Permic	Old permic letter yeru		
+U+10369	𐍩	10350..1037F	Old Permic	Old permic letter o		
+U+1036A	𐍪	10350..1037F	Old Permic	Old permic letter oo		
+U+1036B	𐍫	10350..1037F	Old Permic	Old permic letter ef		
+U+1036C	𐍬	10350..1037F	Old Permic	Old permic letter ha		
+U+1036D	𐍭	10350..1037F	Old Permic	Old permic letter tsiu		
+U+1036E	𐍮	10350..1037F	Old Permic	Old permic letter ver		
+U+1036F	𐍯	10350..1037F	Old Permic	Old permic letter yer		
+U+10370	𐍰	10350..1037F	Old Permic	Old permic letter yeri		
+U+10371	𐍱	10350..1037F	Old Permic	Old permic letter yat		
+U+10372	𐍲	10350..1037F	Old Permic	Old permic letter ie		
+U+10373	𐍳	10350..1037F	Old Permic	Old permic letter yu		
+U+10374	𐍴	10350..1037F	Old Permic	Old permic letter ya		
+U+10375	𐍵	10350..1037F	Old Permic	Old permic letter ia		
+U+10376	𐍶	10350..1037F	Old Permic	Combining old permic letter an		
+U+10377	𐍷	10350..1037F	Old Permic	Combining old permic letter doi		
+U+10378	𐍸	10350..1037F	Old Permic	Combining old permic letter zata		
+U+10379	𐍹	10350..1037F	Old Permic	Combining old permic letter nenoe		
+U+1037A	𐍺	10350..1037F	Old Permic	Combining old permic letter sii		

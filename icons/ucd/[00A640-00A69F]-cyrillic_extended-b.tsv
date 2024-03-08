@@ -1,97 +1,97 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A640	"""Ꙁ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter zemlya		
-A641	"""ꙁ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter zemlya		
-A642	"""Ꙃ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzelo		
-A643	"""ꙃ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzelo		
-A644	"""Ꙅ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed dze		
-A645	"""ꙅ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed dze		
-A646	"""Ꙇ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iota		
-A647	"""ꙇ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iota		
-A648	"""Ꙉ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter djerv		
-A649	"""ꙉ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter djerv		
-A64A	"""Ꙋ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter monograph uk		
-A64B	"""ꙋ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter monograph uk		
-A64C	"""Ꙍ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter broad omega		
-A64D	"""ꙍ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter broad omega		
-A64E	"""Ꙏ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter neutral yer		
-A64F	"""ꙏ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter neutral yer		
-A650	"""Ꙑ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter yeru with back yer		
-A651	"""ꙑ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter yeru with back yer		
-A652	"""Ꙓ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified yat		
-A653	"""ꙓ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified yat		
-A654	"""Ꙕ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed yu		
-A655	"""ꙕ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed yu		
-A656	"""Ꙗ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified a		
-A657	"""ꙗ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified a		
-A658	"""Ꙙ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter closed little yus		
-A659	"""ꙙ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter closed little yus		
-A65A	"""Ꙛ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter blended yus		
-A65B	"""ꙛ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter blended yus		
-A65C	"""Ꙝ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified closed little yus		
-A65D	"""ꙝ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified closed little yus		
-A65E	"""Ꙟ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter yn		
-A65F	"""ꙟ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter yn		
-A660	"""Ꙡ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed tse		
-A661	"""ꙡ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed tse		
-A662	"""Ꙣ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft de		
-A663	"""ꙣ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft de		
-A664	"""Ꙥ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft el		
-A665	"""ꙥ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft el		
-A666	"""Ꙧ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft em		
-A667	"""ꙧ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft em		
-A668	"""Ꙩ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter monocular o		
-A669	"""ꙩ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter monocular o		
-A66A	"""Ꙫ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter binocular o		
-A66B	"""ꙫ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter binocular o		
-A66C	"""Ꙭ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter double monocular o		
-A66D	"""ꙭ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter double monocular o		
-A66E	"""ꙮ"""	A640..A69F	Cyrillic Extended-B	Cyrillic letter multiocular o		
-A66F	"""꙯"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic vzmet		
-A670	"""꙰"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic ten millions sign		
-A671	"""꙱"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic hundred millions sign		
-A672	"""꙲"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic thousand millions sign		
-A673	"""꙳"""	A640..A69F	Cyrillic Extended-B	Slavonic asterisk		
-A674	"""ꙴ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter ukrainian ie		
-A675	"""ꙵ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter i		
-A676	"""ꙶ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter yi		
-A677	"""ꙷ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter u		
-A678	"""ꙸ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter hard sign		
-A679	"""ꙹ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter yeru		
-A67A	"""ꙺ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter soft sign		
-A67B	"""ꙻ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter omega		
-A67C	"""꙼"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic kavyka		
-A67D	"""꙽"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic payerok		
-A67E	"""꙾"""	A640..A69F	Cyrillic Extended-B	Cyrillic kavyka		
-A67F	"""ꙿ"""	A640..A69F	Cyrillic Extended-B	Cyrillic payerok		
-A680	"""Ꚁ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dwe		
-A681	"""ꚁ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dwe		
-A682	"""Ꚃ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzwe		
-A683	"""ꚃ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzwe		
-A684	"""Ꚅ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter zhwe		
-A685	"""ꚅ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter zhwe		
-A686	"""Ꚇ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter cche		
-A687	"""ꚇ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter cche		
-A688	"""Ꚉ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzze		
-A689	"""ꚉ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzze		
-A68A	"""Ꚋ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter te with middle hook		
-A68B	"""ꚋ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter te with middle hook		
-A68C	"""Ꚍ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter twe		
-A68D	"""ꚍ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter twe		
-A68E	"""Ꚏ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tswe		
-A68F	"""ꚏ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tswe		
-A690	"""Ꚑ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tsse		
-A691	"""ꚑ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tsse		
-A692	"""Ꚓ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tche		
-A693	"""ꚓ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tche		
-A694	"""Ꚕ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter hwe		
-A695	"""ꚕ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter hwe		
-A696	"""Ꚗ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter shwe		
-A697	"""ꚗ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter shwe		
-A698	"""Ꚙ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter double o		
-A699	"""ꚙ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter double o		
-A69A	"""Ꚛ"""	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter crossed o		
-A69B	"""ꚛ"""	A640..A69F	Cyrillic Extended-B	Cyrillic small letter crossed o		
-A69C	"""ꚜ"""	A640..A69F	Cyrillic Extended-B	Modifier letter cyrillic hard sign		
-A69D	"""ꚝ"""	A640..A69F	Cyrillic Extended-B	Modifier letter cyrillic soft sign		
-A69E	"""ꚞ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter ef		
-A69F	"""ꚟ"""	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter iotified e		
+U+A640	Ꙁ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter zemlya		
+U+A641	ꙁ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter zemlya		
+U+A642	Ꙃ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzelo		
+U+A643	ꙃ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzelo		
+U+A644	Ꙅ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed dze		
+U+A645	ꙅ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed dze		
+U+A646	Ꙇ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iota		
+U+A647	ꙇ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iota		
+U+A648	Ꙉ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter djerv		
+U+A649	ꙉ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter djerv		
+U+A64A	Ꙋ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter monograph uk		
+U+A64B	ꙋ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter monograph uk		
+U+A64C	Ꙍ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter broad omega		
+U+A64D	ꙍ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter broad omega		
+U+A64E	Ꙏ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter neutral yer		
+U+A64F	ꙏ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter neutral yer		
+U+A650	Ꙑ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter yeru with back yer		
+U+A651	ꙑ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter yeru with back yer		
+U+A652	Ꙓ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified yat		
+U+A653	ꙓ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified yat		
+U+A654	Ꙕ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed yu		
+U+A655	ꙕ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed yu		
+U+A656	Ꙗ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified a		
+U+A657	ꙗ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified a		
+U+A658	Ꙙ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter closed little yus		
+U+A659	ꙙ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter closed little yus		
+U+A65A	Ꙛ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter blended yus		
+U+A65B	ꙛ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter blended yus		
+U+A65C	Ꙝ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter iotified closed little yus		
+U+A65D	ꙝ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter iotified closed little yus		
+U+A65E	Ꙟ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter yn		
+U+A65F	ꙟ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter yn		
+U+A660	Ꙡ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter reversed tse		
+U+A661	ꙡ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter reversed tse		
+U+A662	Ꙣ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft de		
+U+A663	ꙣ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft de		
+U+A664	Ꙥ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft el		
+U+A665	ꙥ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft el		
+U+A666	Ꙧ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter soft em		
+U+A667	ꙧ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter soft em		
+U+A668	Ꙩ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter monocular o		
+U+A669	ꙩ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter monocular o		
+U+A66A	Ꙫ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter binocular o		
+U+A66B	ꙫ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter binocular o		
+U+A66C	Ꙭ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter double monocular o		
+U+A66D	ꙭ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter double monocular o		
+U+A66E	ꙮ	A640..A69F	Cyrillic Extended-B	Cyrillic letter multiocular o		
+U+A66F	꙯	A640..A69F	Cyrillic Extended-B	Combining cyrillic vzmet		
+U+A670	꙰	A640..A69F	Cyrillic Extended-B	Combining cyrillic ten millions sign		
+U+A671	꙱	A640..A69F	Cyrillic Extended-B	Combining cyrillic hundred millions sign		
+U+A672	꙲	A640..A69F	Cyrillic Extended-B	Combining cyrillic thousand millions sign		
+U+A673	꙳	A640..A69F	Cyrillic Extended-B	Slavonic asterisk		
+U+A674	ꙴ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter ukrainian ie		
+U+A675	ꙵ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter i		
+U+A676	ꙶ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter yi		
+U+A677	ꙷ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter u		
+U+A678	ꙸ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter hard sign		
+U+A679	ꙹ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter yeru		
+U+A67A	ꙺ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter soft sign		
+U+A67B	ꙻ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter omega		
+U+A67C	꙼	A640..A69F	Cyrillic Extended-B	Combining cyrillic kavyka		
+U+A67D	꙽	A640..A69F	Cyrillic Extended-B	Combining cyrillic payerok		
+U+A67E	꙾	A640..A69F	Cyrillic Extended-B	Cyrillic kavyka		
+U+A67F	ꙿ	A640..A69F	Cyrillic Extended-B	Cyrillic payerok		
+U+A680	Ꚁ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dwe		
+U+A681	ꚁ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dwe		
+U+A682	Ꚃ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzwe		
+U+A683	ꚃ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzwe		
+U+A684	Ꚅ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter zhwe		
+U+A685	ꚅ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter zhwe		
+U+A686	Ꚇ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter cche		
+U+A687	ꚇ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter cche		
+U+A688	Ꚉ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter dzze		
+U+A689	ꚉ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter dzze		
+U+A68A	Ꚋ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter te with middle hook		
+U+A68B	ꚋ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter te with middle hook		
+U+A68C	Ꚍ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter twe		
+U+A68D	ꚍ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter twe		
+U+A68E	Ꚏ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tswe		
+U+A68F	ꚏ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tswe		
+U+A690	Ꚑ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tsse		
+U+A691	ꚑ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tsse		
+U+A692	Ꚓ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter tche		
+U+A693	ꚓ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter tche		
+U+A694	Ꚕ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter hwe		
+U+A695	ꚕ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter hwe		
+U+A696	Ꚗ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter shwe		
+U+A697	ꚗ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter shwe		
+U+A698	Ꚙ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter double o		
+U+A699	ꚙ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter double o		
+U+A69A	Ꚛ	A640..A69F	Cyrillic Extended-B	Cyrillic capital letter crossed o		
+U+A69B	ꚛ	A640..A69F	Cyrillic Extended-B	Cyrillic small letter crossed o		
+U+A69C	ꚜ	A640..A69F	Cyrillic Extended-B	Modifier letter cyrillic hard sign		
+U+A69D	ꚝ	A640..A69F	Cyrillic Extended-B	Modifier letter cyrillic soft sign		
+U+A69E	ꚞ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter ef		
+U+A69F	ꚟ	A640..A69F	Cyrillic Extended-B	Combining cyrillic letter iotified e		

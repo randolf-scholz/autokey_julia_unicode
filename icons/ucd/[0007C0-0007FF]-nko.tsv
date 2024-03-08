@@ -1,63 +1,63 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-07C0	"""߀"""	07C0..07FF	NKo	Nko digit zero		
-07C1	"""߁"""	07C0..07FF	NKo	Nko digit one		
-07C2	"""߂"""	07C0..07FF	NKo	Nko digit two		
-07C3	"""߃"""	07C0..07FF	NKo	Nko digit three		
-07C4	"""߄"""	07C0..07FF	NKo	Nko digit four		
-07C5	"""߅"""	07C0..07FF	NKo	Nko digit five		
-07C6	"""߆"""	07C0..07FF	NKo	Nko digit six		
-07C7	"""߇"""	07C0..07FF	NKo	Nko digit seven		
-07C8	"""߈"""	07C0..07FF	NKo	Nko digit eight		
-07C9	"""߉"""	07C0..07FF	NKo	Nko digit nine		
-07CA	"""ߊ"""	07C0..07FF	NKo	Nko letter a		
-07CB	"""ߋ"""	07C0..07FF	NKo	Nko letter ee		
-07CC	"""ߌ"""	07C0..07FF	NKo	Nko letter i		
-07CD	"""ߍ"""	07C0..07FF	NKo	Nko letter e		
-07CE	"""ߎ"""	07C0..07FF	NKo	Nko letter u		
-07CF	"""ߏ"""	07C0..07FF	NKo	Nko letter oo		
-07D0	"""ߐ"""	07C0..07FF	NKo	Nko letter o		
-07D1	"""ߑ"""	07C0..07FF	NKo	Nko letter dagbasinna		
-07D2	"""ߒ"""	07C0..07FF	NKo	Nko letter n		
-07D3	"""ߓ"""	07C0..07FF	NKo	Nko letter ba		
-07D4	"""ߔ"""	07C0..07FF	NKo	Nko letter pa		
-07D5	"""ߕ"""	07C0..07FF	NKo	Nko letter ta		
-07D6	"""ߖ"""	07C0..07FF	NKo	Nko letter ja		
-07D7	"""ߗ"""	07C0..07FF	NKo	Nko letter cha		
-07D8	"""ߘ"""	07C0..07FF	NKo	Nko letter da		
-07D9	"""ߙ"""	07C0..07FF	NKo	Nko letter ra		
-07DA	"""ߚ"""	07C0..07FF	NKo	Nko letter rra		
-07DB	"""ߛ"""	07C0..07FF	NKo	Nko letter sa		
-07DC	"""ߜ"""	07C0..07FF	NKo	Nko letter gba		
-07DD	"""ߝ"""	07C0..07FF	NKo	Nko letter fa		
-07DE	"""ߞ"""	07C0..07FF	NKo	Nko letter ka		
-07DF	"""ߟ"""	07C0..07FF	NKo	Nko letter la		
-07E0	"""ߠ"""	07C0..07FF	NKo	Nko letter na woloso		
-07E1	"""ߡ"""	07C0..07FF	NKo	Nko letter ma		
-07E2	"""ߢ"""	07C0..07FF	NKo	Nko letter nya		
-07E3	"""ߣ"""	07C0..07FF	NKo	Nko letter na		
-07E4	"""ߤ"""	07C0..07FF	NKo	Nko letter ha		
-07E5	"""ߥ"""	07C0..07FF	NKo	Nko letter wa		
-07E6	"""ߦ"""	07C0..07FF	NKo	Nko letter ya		
-07E7	"""ߧ"""	07C0..07FF	NKo	Nko letter nya woloso		
-07E8	"""ߨ"""	07C0..07FF	NKo	Nko letter jona ja		
-07E9	"""ߩ"""	07C0..07FF	NKo	Nko letter jona cha		
-07EA	"""ߪ"""	07C0..07FF	NKo	Nko letter jona ra		
-07EB	"""߫"""	07C0..07FF	NKo	Nko combining short high tone		
-07EC	"""߬"""	07C0..07FF	NKo	Nko combining short low tone		
-07ED	"""߭"""	07C0..07FF	NKo	Nko combining short rising tone		
-07EE	"""߮"""	07C0..07FF	NKo	Nko combining long descending tone		
-07EF	"""߯"""	07C0..07FF	NKo	Nko combining long high tone		
-07F0	"""߰"""	07C0..07FF	NKo	Nko combining long low tone		
-07F1	"""߱"""	07C0..07FF	NKo	Nko combining long rising tone		
-07F2	"""߲"""	07C0..07FF	NKo	Nko combining nasalization mark		
-07F3	"""߳"""	07C0..07FF	NKo	Nko combining double dot above		
-07F4	"""ߴ"""	07C0..07FF	NKo	Nko high tone apostrophe		
-07F5	"""ߵ"""	07C0..07FF	NKo	Nko low tone apostrophe		
-07F6	"""߶"""	07C0..07FF	NKo	Nko symbol oo dennen		
-07F7	"""߷"""	07C0..07FF	NKo	Nko symbol gbakurunen		
-07F8	"""߸"""	07C0..07FF	NKo	Nko comma		
-07F9	"""߹"""	07C0..07FF	NKo	Nko exclamation mark		
-07FA	"""ߺ"""	07C0..07FF	NKo	Nko lajanyalan		
-07FD	"""߽"""	07C0..07FF	NKo	Nko dantayalan		
-07FE	"""߾"""	07C0..07FF	NKo	Nko dorome sign		
-07FF	"""߿"""	07C0..07FF	NKo	Nko taman sign		
+U+07C0	߀	07C0..07FF	NKo	Nko digit zero		
+U+07C1	߁	07C0..07FF	NKo	Nko digit one		
+U+07C2	߂	07C0..07FF	NKo	Nko digit two		
+U+07C3	߃	07C0..07FF	NKo	Nko digit three		
+U+07C4	߄	07C0..07FF	NKo	Nko digit four		
+U+07C5	߅	07C0..07FF	NKo	Nko digit five		
+U+07C6	߆	07C0..07FF	NKo	Nko digit six		
+U+07C7	߇	07C0..07FF	NKo	Nko digit seven		
+U+07C8	߈	07C0..07FF	NKo	Nko digit eight		
+U+07C9	߉	07C0..07FF	NKo	Nko digit nine		
+U+07CA	ߊ	07C0..07FF	NKo	Nko letter a		
+U+07CB	ߋ	07C0..07FF	NKo	Nko letter ee		
+U+07CC	ߌ	07C0..07FF	NKo	Nko letter i		
+U+07CD	ߍ	07C0..07FF	NKo	Nko letter e		
+U+07CE	ߎ	07C0..07FF	NKo	Nko letter u		
+U+07CF	ߏ	07C0..07FF	NKo	Nko letter oo		
+U+07D0	ߐ	07C0..07FF	NKo	Nko letter o		
+U+07D1	ߑ	07C0..07FF	NKo	Nko letter dagbasinna		
+U+07D2	ߒ	07C0..07FF	NKo	Nko letter n		
+U+07D3	ߓ	07C0..07FF	NKo	Nko letter ba		
+U+07D4	ߔ	07C0..07FF	NKo	Nko letter pa		
+U+07D5	ߕ	07C0..07FF	NKo	Nko letter ta		
+U+07D6	ߖ	07C0..07FF	NKo	Nko letter ja		
+U+07D7	ߗ	07C0..07FF	NKo	Nko letter cha		
+U+07D8	ߘ	07C0..07FF	NKo	Nko letter da		
+U+07D9	ߙ	07C0..07FF	NKo	Nko letter ra		
+U+07DA	ߚ	07C0..07FF	NKo	Nko letter rra		
+U+07DB	ߛ	07C0..07FF	NKo	Nko letter sa		
+U+07DC	ߜ	07C0..07FF	NKo	Nko letter gba		
+U+07DD	ߝ	07C0..07FF	NKo	Nko letter fa		
+U+07DE	ߞ	07C0..07FF	NKo	Nko letter ka		
+U+07DF	ߟ	07C0..07FF	NKo	Nko letter la		
+U+07E0	ߠ	07C0..07FF	NKo	Nko letter na woloso		
+U+07E1	ߡ	07C0..07FF	NKo	Nko letter ma		
+U+07E2	ߢ	07C0..07FF	NKo	Nko letter nya		
+U+07E3	ߣ	07C0..07FF	NKo	Nko letter na		
+U+07E4	ߤ	07C0..07FF	NKo	Nko letter ha		
+U+07E5	ߥ	07C0..07FF	NKo	Nko letter wa		
+U+07E6	ߦ	07C0..07FF	NKo	Nko letter ya		
+U+07E7	ߧ	07C0..07FF	NKo	Nko letter nya woloso		
+U+07E8	ߨ	07C0..07FF	NKo	Nko letter jona ja		
+U+07E9	ߩ	07C0..07FF	NKo	Nko letter jona cha		
+U+07EA	ߪ	07C0..07FF	NKo	Nko letter jona ra		
+U+07EB	߫	07C0..07FF	NKo	Nko combining short high tone		
+U+07EC	߬	07C0..07FF	NKo	Nko combining short low tone		
+U+07ED	߭	07C0..07FF	NKo	Nko combining short rising tone		
+U+07EE	߮	07C0..07FF	NKo	Nko combining long descending tone		
+U+07EF	߯	07C0..07FF	NKo	Nko combining long high tone		
+U+07F0	߰	07C0..07FF	NKo	Nko combining long low tone		
+U+07F1	߱	07C0..07FF	NKo	Nko combining long rising tone		
+U+07F2	߲	07C0..07FF	NKo	Nko combining nasalization mark		
+U+07F3	߳	07C0..07FF	NKo	Nko combining double dot above		
+U+07F4	ߴ	07C0..07FF	NKo	Nko high tone apostrophe		
+U+07F5	ߵ	07C0..07FF	NKo	Nko low tone apostrophe		
+U+07F6	߶	07C0..07FF	NKo	Nko symbol oo dennen		
+U+07F7	߷	07C0..07FF	NKo	Nko symbol gbakurunen		
+U+07F8	߸	07C0..07FF	NKo	Nko comma		
+U+07F9	߹	07C0..07FF	NKo	Nko exclamation mark		
+U+07FA	ߺ	07C0..07FF	NKo	Nko lajanyalan		
+U+07FD	߽	07C0..07FF	NKo	Nko dantayalan		
+U+07FE	߾	07C0..07FF	NKo	Nko dorome sign		
+U+07FF	߿	07C0..07FF	NKo	Nko taman sign		

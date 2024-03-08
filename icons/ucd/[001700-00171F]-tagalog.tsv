@@ -1,24 +1,24 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-1700	"""ᜀ"""	1700..171F	Tagalog	Tagalog letter a		
-1701	"""ᜁ"""	1700..171F	Tagalog	Tagalog letter i		
-1702	"""ᜂ"""	1700..171F	Tagalog	Tagalog letter u		
-1703	"""ᜃ"""	1700..171F	Tagalog	Tagalog letter ka		
-1704	"""ᜄ"""	1700..171F	Tagalog	Tagalog letter ga		
-1705	"""ᜅ"""	1700..171F	Tagalog	Tagalog letter nga		
-1706	"""ᜆ"""	1700..171F	Tagalog	Tagalog letter ta		
-1707	"""ᜇ"""	1700..171F	Tagalog	Tagalog letter da		
-1708	"""ᜈ"""	1700..171F	Tagalog	Tagalog letter na		
-1709	"""ᜉ"""	1700..171F	Tagalog	Tagalog letter pa		
-170A	"""ᜊ"""	1700..171F	Tagalog	Tagalog letter ba		
-170B	"""ᜋ"""	1700..171F	Tagalog	Tagalog letter ma		
-170C	"""ᜌ"""	1700..171F	Tagalog	Tagalog letter ya		
-170D	"""ᜍ"""	1700..171F	Tagalog	Tagalog letter ra		
-170E	"""ᜎ"""	1700..171F	Tagalog	Tagalog letter la		
-170F	"""ᜏ"""	1700..171F	Tagalog	Tagalog letter wa		
-1710	"""ᜐ"""	1700..171F	Tagalog	Tagalog letter sa		
-1711	"""ᜑ"""	1700..171F	Tagalog	Tagalog letter ha		
-1712	"""ᜒ"""	1700..171F	Tagalog	Tagalog vowel sign i		
-1713	"""ᜓ"""	1700..171F	Tagalog	Tagalog vowel sign u		
-1714	"""᜔"""	1700..171F	Tagalog	Tagalog sign virama		
-1715	"""᜕"""	1700..171F	Tagalog	Tagalog sign pamudpod		
-171F	"""ᜟ"""	1700..171F	Tagalog	Tagalog letter archaic ra		
+U+1700	ᜀ	1700..171F	Tagalog	Tagalog letter a		
+U+1701	ᜁ	1700..171F	Tagalog	Tagalog letter i		
+U+1702	ᜂ	1700..171F	Tagalog	Tagalog letter u		
+U+1703	ᜃ	1700..171F	Tagalog	Tagalog letter ka		
+U+1704	ᜄ	1700..171F	Tagalog	Tagalog letter ga		
+U+1705	ᜅ	1700..171F	Tagalog	Tagalog letter nga		
+U+1706	ᜆ	1700..171F	Tagalog	Tagalog letter ta		
+U+1707	ᜇ	1700..171F	Tagalog	Tagalog letter da		
+U+1708	ᜈ	1700..171F	Tagalog	Tagalog letter na		
+U+1709	ᜉ	1700..171F	Tagalog	Tagalog letter pa		
+U+170A	ᜊ	1700..171F	Tagalog	Tagalog letter ba		
+U+170B	ᜋ	1700..171F	Tagalog	Tagalog letter ma		
+U+170C	ᜌ	1700..171F	Tagalog	Tagalog letter ya		
+U+170D	ᜍ	1700..171F	Tagalog	Tagalog letter ra		
+U+170E	ᜎ	1700..171F	Tagalog	Tagalog letter la		
+U+170F	ᜏ	1700..171F	Tagalog	Tagalog letter wa		
+U+1710	ᜐ	1700..171F	Tagalog	Tagalog letter sa		
+U+1711	ᜑ	1700..171F	Tagalog	Tagalog letter ha		
+U+1712	ᜒ	1700..171F	Tagalog	Tagalog vowel sign i		
+U+1713	ᜓ	1700..171F	Tagalog	Tagalog vowel sign u		
+U+1714	᜔	1700..171F	Tagalog	Tagalog sign virama		
+U+1715	᜕	1700..171F	Tagalog	Tagalog sign pamudpod		
+U+171F	ᜟ	1700..171F	Tagalog	Tagalog letter archaic ra		

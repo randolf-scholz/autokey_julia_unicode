@@ -1,117 +1,117 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-12400	"""𒐀"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ash		
-12401	"""𒐁"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ash		
-12402	"""𒐂"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ash		
-12403	"""𒐃"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ash		
-12404	"""𒐄"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six ash		
-12405	"""𒐅"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven ash		
-12406	"""𒐆"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight ash		
-12407	"""𒐇"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine ash		
-12408	"""𒐈"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three dish		
-12409	"""𒐉"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four dish		
-1240A	"""𒐊"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five dish		
-1240B	"""𒐋"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six dish		
-1240C	"""𒐌"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven dish		
-1240D	"""𒐍"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight dish		
-1240E	"""𒐎"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine dish		
-1240F	"""𒐏"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four u		
-12410	"""𒐐"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five u		
-12411	"""𒐑"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six u		
-12412	"""𒐒"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven u		
-12413	"""𒐓"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight u		
-12414	"""𒐔"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine u		
-12415	"""𒐕"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one gesh2		
-12416	"""𒐖"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two gesh2		
-12417	"""𒐗"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three gesh2		
-12418	"""𒐘"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four gesh2		
-12419	"""𒐙"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five gesh2		
-1241A	"""𒐚"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six gesh2		
-1241B	"""𒐛"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven gesh2		
-1241C	"""𒐜"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight gesh2		
-1241D	"""𒐝"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine gesh2		
-1241E	"""𒐞"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one geshu		
-1241F	"""𒐟"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two geshu		
-12420	"""𒐠"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three geshu		
-12421	"""𒐡"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four geshu		
-12422	"""𒐢"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five geshu		
-12423	"""𒐣"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two shar2		
-12424	"""𒐤"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three shar2		
-12425	"""𒐥"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three shar2 variant form		
-12426	"""𒐦"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four shar2		
-12427	"""𒐧"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five shar2		
-12428	"""𒐨"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six shar2		
-12429	"""𒐩"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven shar2		
-1242A	"""𒐪"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight shar2		
-1242B	"""𒐫"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine shar2		
-1242C	"""𒐬"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one sharu		
-1242D	"""𒐭"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two sharu		
-1242E	"""𒐮"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three sharu		
-1242F	"""𒐯"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three sharu variant form		
-12430	"""𒐰"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four sharu		
-12431	"""𒐱"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five sharu		
-12432	"""𒐲"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign shar2 times gal plus dish		
-12433	"""𒐳"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign shar2 times gal plus min		
-12434	"""𒐴"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one buru		
-12435	"""𒐵"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two buru		
-12436	"""𒐶"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three buru		
-12437	"""𒐷"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three buru variant form		
-12438	"""𒐸"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four buru		
-12439	"""𒐹"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five buru		
-1243A	"""𒐺"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three variant form esh16		
-1243B	"""𒐻"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three variant form esh21		
-1243C	"""𒐼"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu		
-1243D	"""𒐽"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu4		
-1243E	"""𒐾"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu a		
-1243F	"""𒐿"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu b		
-12440	"""𒑀"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six variant form ash9		
-12441	"""𒑁"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin3		
-12442	"""𒑂"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin a		
-12443	"""𒑃"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin b		
-12444	"""𒑄"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight variant form ussu		
-12445	"""𒑅"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight variant form ussu3		
-12446	"""𒑆"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu		
-12447	"""𒑇"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu3		
-12448	"""𒑈"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu4		
-12449	"""𒑉"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu a		
-1244A	"""𒑊"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ash tenu		
-1244B	"""𒑋"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ash tenu		
-1244C	"""𒑌"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ash tenu		
-1244D	"""𒑍"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ash tenu		
-1244E	"""𒑎"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six ash tenu		
-1244F	"""𒑏"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one ban2		
-12450	"""𒑐"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ban2		
-12451	"""𒑑"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ban2		
-12452	"""𒑒"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ban2		
-12453	"""𒑓"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ban2 variant form		
-12454	"""𒑔"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ban2		
-12455	"""𒑕"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ban2 variant form		
-12456	"""𒑖"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nigidamin		
-12457	"""𒑗"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nigidaesh		
-12458	"""𒑘"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one eshe3		
-12459	"""𒑙"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two eshe3		
-1245A	"""𒑚"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one third dish		
-1245B	"""𒑛"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two thirds dish		
-1245C	"""𒑜"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five sixths dish		
-1245D	"""𒑝"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one third variant form a		
-1245E	"""𒑞"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two thirds variant form a		
-1245F	"""𒑟"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one eighth ash		
-12460	"""𒑠"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one quarter ash		
-12461	"""𒑡"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign old assyrian one sixth		
-12462	"""𒑢"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign old assyrian one quarter		
-12463	"""𒑣"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one quarter gur		
-12464	"""𒑤"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one half gur		
-12465	"""𒑥"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite one third		
-12466	"""𒑦"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite two thirds		
-12467	"""𒑧"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite forty		
-12468	"""𒑨"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite fifty		
-12469	"""𒑩"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four u variant form		
-1246A	"""𒑪"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five u variant form		
-1246B	"""𒑫"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six u variant form		
-1246C	"""𒑬"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven u variant form		
-1246D	"""𒑭"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight u variant form		
-1246E	"""𒑮"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine u variant form		
-12470	"""𒑰"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign old assyrian word divider		
-12471	"""𒑱"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign vertical colon		
-12472	"""𒑲"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal colon		
-12473	"""𒑳"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal tricolon		
-12474	"""𒑴"""	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal quadcolon		
+U+12400	𒐀	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ash		
+U+12401	𒐁	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ash		
+U+12402	𒐂	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ash		
+U+12403	𒐃	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ash		
+U+12404	𒐄	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six ash		
+U+12405	𒐅	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven ash		
+U+12406	𒐆	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight ash		
+U+12407	𒐇	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine ash		
+U+12408	𒐈	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three dish		
+U+12409	𒐉	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four dish		
+U+1240A	𒐊	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five dish		
+U+1240B	𒐋	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six dish		
+U+1240C	𒐌	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven dish		
+U+1240D	𒐍	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight dish		
+U+1240E	𒐎	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine dish		
+U+1240F	𒐏	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four u		
+U+12410	𒐐	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five u		
+U+12411	𒐑	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six u		
+U+12412	𒐒	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven u		
+U+12413	𒐓	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight u		
+U+12414	𒐔	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine u		
+U+12415	𒐕	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one gesh2		
+U+12416	𒐖	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two gesh2		
+U+12417	𒐗	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three gesh2		
+U+12418	𒐘	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four gesh2		
+U+12419	𒐙	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five gesh2		
+U+1241A	𒐚	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six gesh2		
+U+1241B	𒐛	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven gesh2		
+U+1241C	𒐜	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight gesh2		
+U+1241D	𒐝	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine gesh2		
+U+1241E	𒐞	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one geshu		
+U+1241F	𒐟	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two geshu		
+U+12420	𒐠	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three geshu		
+U+12421	𒐡	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four geshu		
+U+12422	𒐢	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five geshu		
+U+12423	𒐣	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two shar2		
+U+12424	𒐤	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three shar2		
+U+12425	𒐥	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three shar2 variant form		
+U+12426	𒐦	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four shar2		
+U+12427	𒐧	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five shar2		
+U+12428	𒐨	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six shar2		
+U+12429	𒐩	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven shar2		
+U+1242A	𒐪	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight shar2		
+U+1242B	𒐫	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine shar2		
+U+1242C	𒐬	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one sharu		
+U+1242D	𒐭	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two sharu		
+U+1242E	𒐮	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three sharu		
+U+1242F	𒐯	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three sharu variant form		
+U+12430	𒐰	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four sharu		
+U+12431	𒐱	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five sharu		
+U+12432	𒐲	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign shar2 times gal plus dish		
+U+12433	𒐳	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign shar2 times gal plus min		
+U+12434	𒐴	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one buru		
+U+12435	𒐵	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two buru		
+U+12436	𒐶	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three buru		
+U+12437	𒐷	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three buru variant form		
+U+12438	𒐸	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four buru		
+U+12439	𒐹	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five buru		
+U+1243A	𒐺	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three variant form esh16		
+U+1243B	𒐻	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three variant form esh21		
+U+1243C	𒐼	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu		
+U+1243D	𒐽	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu4		
+U+1243E	𒐾	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu a		
+U+1243F	𒐿	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four variant form limmu b		
+U+12440	𒑀	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six variant form ash9		
+U+12441	𒑁	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin3		
+U+12442	𒑂	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin a		
+U+12443	𒑃	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven variant form imin b		
+U+12444	𒑄	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight variant form ussu		
+U+12445	𒑅	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight variant form ussu3		
+U+12446	𒑆	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu		
+U+12447	𒑇	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu3		
+U+12448	𒑈	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu4		
+U+12449	𒑉	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine variant form ilimmu a		
+U+1244A	𒑊	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ash tenu		
+U+1244B	𒑋	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ash tenu		
+U+1244C	𒑌	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ash tenu		
+U+1244D	𒑍	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ash tenu		
+U+1244E	𒑎	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six ash tenu		
+U+1244F	𒑏	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one ban2		
+U+12450	𒑐	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two ban2		
+U+12451	𒑑	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign three ban2		
+U+12452	𒑒	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ban2		
+U+12453	𒑓	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four ban2 variant form		
+U+12454	𒑔	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ban2		
+U+12455	𒑕	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five ban2 variant form		
+U+12456	𒑖	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nigidamin		
+U+12457	𒑗	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nigidaesh		
+U+12458	𒑘	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one eshe3		
+U+12459	𒑙	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two eshe3		
+U+1245A	𒑚	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one third dish		
+U+1245B	𒑛	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two thirds dish		
+U+1245C	𒑜	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five sixths dish		
+U+1245D	𒑝	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one third variant form a		
+U+1245E	𒑞	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign two thirds variant form a		
+U+1245F	𒑟	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one eighth ash		
+U+12460	𒑠	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one quarter ash		
+U+12461	𒑡	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign old assyrian one sixth		
+U+12462	𒑢	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign old assyrian one quarter		
+U+12463	𒑣	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one quarter gur		
+U+12464	𒑤	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign one half gur		
+U+12465	𒑥	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite one third		
+U+12466	𒑦	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite two thirds		
+U+12467	𒑧	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite forty		
+U+12468	𒑨	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign elamite fifty		
+U+12469	𒑩	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign four u variant form		
+U+1246A	𒑪	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign five u variant form		
+U+1246B	𒑫	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign six u variant form		
+U+1246C	𒑬	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign seven u variant form		
+U+1246D	𒑭	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign eight u variant form		
+U+1246E	𒑮	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform numeric sign nine u variant form		
+U+12470	𒑰	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign old assyrian word divider		
+U+12471	𒑱	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign vertical colon		
+U+12472	𒑲	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal colon		
+U+12473	𒑳	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal tricolon		
+U+12474	𒑴	12400..1247F	Cuneiform Numbers and Punctuation	Cuneiform punctuation sign diagonal quadcolon		

@@ -1,66 +1,66 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11700	"""𑜀"""	11700..1174F	Ahom	Ahom letter ka		
-11701	"""𑜁"""	11700..1174F	Ahom	Ahom letter kha		
-11702	"""𑜂"""	11700..1174F	Ahom	Ahom letter nga		
-11703	"""𑜃"""	11700..1174F	Ahom	Ahom letter na		
-11704	"""𑜄"""	11700..1174F	Ahom	Ahom letter ta		
-11705	"""𑜅"""	11700..1174F	Ahom	Ahom letter alternate ta		
-11706	"""𑜆"""	11700..1174F	Ahom	Ahom letter pa		
-11707	"""𑜇"""	11700..1174F	Ahom	Ahom letter pha		
-11708	"""𑜈"""	11700..1174F	Ahom	Ahom letter ba		
-11709	"""𑜉"""	11700..1174F	Ahom	Ahom letter ma		
-1170A	"""𑜊"""	11700..1174F	Ahom	Ahom letter ja		
-1170B	"""𑜋"""	11700..1174F	Ahom	Ahom letter cha		
-1170C	"""𑜌"""	11700..1174F	Ahom	Ahom letter tha		
-1170D	"""𑜍"""	11700..1174F	Ahom	Ahom letter ra		
-1170E	"""𑜎"""	11700..1174F	Ahom	Ahom letter la		
-1170F	"""𑜏"""	11700..1174F	Ahom	Ahom letter sa		
-11710	"""𑜐"""	11700..1174F	Ahom	Ahom letter nya		
-11711	"""𑜑"""	11700..1174F	Ahom	Ahom letter ha		
-11712	"""𑜒"""	11700..1174F	Ahom	Ahom letter a		
-11713	"""𑜓"""	11700..1174F	Ahom	Ahom letter da		
-11714	"""𑜔"""	11700..1174F	Ahom	Ahom letter dha		
-11715	"""𑜕"""	11700..1174F	Ahom	Ahom letter ga		
-11716	"""𑜖"""	11700..1174F	Ahom	Ahom letter alternate ga		
-11717	"""𑜗"""	11700..1174F	Ahom	Ahom letter gha		
-11718	"""𑜘"""	11700..1174F	Ahom	Ahom letter bha		
-11719	"""𑜙"""	11700..1174F	Ahom	Ahom letter jha		
-1171A	"""𑜚"""	11700..1174F	Ahom	Ahom letter alternate ba		
-1171D	"""𑜝"""	11700..1174F	Ahom	Ahom consonant sign medial la		
-1171E	"""𑜞"""	11700..1174F	Ahom	Ahom consonant sign medial ra		
-1171F	"""𑜟"""	11700..1174F	Ahom	Ahom consonant sign medial ligating ra		
-11720	"""𑜠"""	11700..1174F	Ahom	Ahom vowel sign a		
-11721	"""𑜡"""	11700..1174F	Ahom	Ahom vowel sign aa		
-11722	"""𑜢"""	11700..1174F	Ahom	Ahom vowel sign i		
-11723	"""𑜣"""	11700..1174F	Ahom	Ahom vowel sign ii		
-11724	"""𑜤"""	11700..1174F	Ahom	Ahom vowel sign u		
-11725	"""𑜥"""	11700..1174F	Ahom	Ahom vowel sign uu		
-11726	"""𑜦"""	11700..1174F	Ahom	Ahom vowel sign e		
-11727	"""𑜧"""	11700..1174F	Ahom	Ahom vowel sign aw		
-11728	"""𑜨"""	11700..1174F	Ahom	Ahom vowel sign o		
-11729	"""𑜩"""	11700..1174F	Ahom	Ahom vowel sign ai		
-1172A	"""𑜪"""	11700..1174F	Ahom	Ahom vowel sign am		
-1172B	"""𑜫"""	11700..1174F	Ahom	Ahom sign killer		
-11730	"""𑜰"""	11700..1174F	Ahom	Ahom digit zero		
-11731	"""𑜱"""	11700..1174F	Ahom	Ahom digit one		
-11732	"""𑜲"""	11700..1174F	Ahom	Ahom digit two		
-11733	"""𑜳"""	11700..1174F	Ahom	Ahom digit three		
-11734	"""𑜴"""	11700..1174F	Ahom	Ahom digit four		
-11735	"""𑜵"""	11700..1174F	Ahom	Ahom digit five		
-11736	"""𑜶"""	11700..1174F	Ahom	Ahom digit six		
-11737	"""𑜷"""	11700..1174F	Ahom	Ahom digit seven		
-11738	"""𑜸"""	11700..1174F	Ahom	Ahom digit eight		
-11739	"""𑜹"""	11700..1174F	Ahom	Ahom digit nine		
-1173A	"""𑜺"""	11700..1174F	Ahom	Ahom number ten		
-1173B	"""𑜻"""	11700..1174F	Ahom	Ahom number twenty		
-1173C	"""𑜼"""	11700..1174F	Ahom	Ahom sign small section		
-1173D	"""𑜽"""	11700..1174F	Ahom	Ahom sign section		
-1173E	"""𑜾"""	11700..1174F	Ahom	Ahom sign rulai		
-1173F	"""𑜿"""	11700..1174F	Ahom	Ahom symbol vi		
-11740	"""𑝀"""	11700..1174F	Ahom	Ahom letter ca		
-11741	"""𑝁"""	11700..1174F	Ahom	Ahom letter tta		
-11742	"""𑝂"""	11700..1174F	Ahom	Ahom letter ttha		
-11743	"""𑝃"""	11700..1174F	Ahom	Ahom letter dda		
-11744	"""𑝄"""	11700..1174F	Ahom	Ahom letter ddha		
-11745	"""𑝅"""	11700..1174F	Ahom	Ahom letter nna		
-11746	"""𑝆"""	11700..1174F	Ahom	Ahom letter lla		
+U+11700	𑜀	11700..1174F	Ahom	Ahom letter ka		
+U+11701	𑜁	11700..1174F	Ahom	Ahom letter kha		
+U+11702	𑜂	11700..1174F	Ahom	Ahom letter nga		
+U+11703	𑜃	11700..1174F	Ahom	Ahom letter na		
+U+11704	𑜄	11700..1174F	Ahom	Ahom letter ta		
+U+11705	𑜅	11700..1174F	Ahom	Ahom letter alternate ta		
+U+11706	𑜆	11700..1174F	Ahom	Ahom letter pa		
+U+11707	𑜇	11700..1174F	Ahom	Ahom letter pha		
+U+11708	𑜈	11700..1174F	Ahom	Ahom letter ba		
+U+11709	𑜉	11700..1174F	Ahom	Ahom letter ma		
+U+1170A	𑜊	11700..1174F	Ahom	Ahom letter ja		
+U+1170B	𑜋	11700..1174F	Ahom	Ahom letter cha		
+U+1170C	𑜌	11700..1174F	Ahom	Ahom letter tha		
+U+1170D	𑜍	11700..1174F	Ahom	Ahom letter ra		
+U+1170E	𑜎	11700..1174F	Ahom	Ahom letter la		
+U+1170F	𑜏	11700..1174F	Ahom	Ahom letter sa		
+U+11710	𑜐	11700..1174F	Ahom	Ahom letter nya		
+U+11711	𑜑	11700..1174F	Ahom	Ahom letter ha		
+U+11712	𑜒	11700..1174F	Ahom	Ahom letter a		
+U+11713	𑜓	11700..1174F	Ahom	Ahom letter da		
+U+11714	𑜔	11700..1174F	Ahom	Ahom letter dha		
+U+11715	𑜕	11700..1174F	Ahom	Ahom letter ga		
+U+11716	𑜖	11700..1174F	Ahom	Ahom letter alternate ga		
+U+11717	𑜗	11700..1174F	Ahom	Ahom letter gha		
+U+11718	𑜘	11700..1174F	Ahom	Ahom letter bha		
+U+11719	𑜙	11700..1174F	Ahom	Ahom letter jha		
+U+1171A	𑜚	11700..1174F	Ahom	Ahom letter alternate ba		
+U+1171D	𑜝	11700..1174F	Ahom	Ahom consonant sign medial la		
+U+1171E	𑜞	11700..1174F	Ahom	Ahom consonant sign medial ra		
+U+1171F	𑜟	11700..1174F	Ahom	Ahom consonant sign medial ligating ra		
+U+11720	𑜠	11700..1174F	Ahom	Ahom vowel sign a		
+U+11721	𑜡	11700..1174F	Ahom	Ahom vowel sign aa		
+U+11722	𑜢	11700..1174F	Ahom	Ahom vowel sign i		
+U+11723	𑜣	11700..1174F	Ahom	Ahom vowel sign ii		
+U+11724	𑜤	11700..1174F	Ahom	Ahom vowel sign u		
+U+11725	𑜥	11700..1174F	Ahom	Ahom vowel sign uu		
+U+11726	𑜦	11700..1174F	Ahom	Ahom vowel sign e		
+U+11727	𑜧	11700..1174F	Ahom	Ahom vowel sign aw		
+U+11728	𑜨	11700..1174F	Ahom	Ahom vowel sign o		
+U+11729	𑜩	11700..1174F	Ahom	Ahom vowel sign ai		
+U+1172A	𑜪	11700..1174F	Ahom	Ahom vowel sign am		
+U+1172B	𑜫	11700..1174F	Ahom	Ahom sign killer		
+U+11730	𑜰	11700..1174F	Ahom	Ahom digit zero		
+U+11731	𑜱	11700..1174F	Ahom	Ahom digit one		
+U+11732	𑜲	11700..1174F	Ahom	Ahom digit two		
+U+11733	𑜳	11700..1174F	Ahom	Ahom digit three		
+U+11734	𑜴	11700..1174F	Ahom	Ahom digit four		
+U+11735	𑜵	11700..1174F	Ahom	Ahom digit five		
+U+11736	𑜶	11700..1174F	Ahom	Ahom digit six		
+U+11737	𑜷	11700..1174F	Ahom	Ahom digit seven		
+U+11738	𑜸	11700..1174F	Ahom	Ahom digit eight		
+U+11739	𑜹	11700..1174F	Ahom	Ahom digit nine		
+U+1173A	𑜺	11700..1174F	Ahom	Ahom number ten		
+U+1173B	𑜻	11700..1174F	Ahom	Ahom number twenty		
+U+1173C	𑜼	11700..1174F	Ahom	Ahom sign small section		
+U+1173D	𑜽	11700..1174F	Ahom	Ahom sign section		
+U+1173E	𑜾	11700..1174F	Ahom	Ahom sign rulai		
+U+1173F	𑜿	11700..1174F	Ahom	Ahom symbol vi		
+U+11740	𑝀	11700..1174F	Ahom	Ahom letter ca		
+U+11741	𑝁	11700..1174F	Ahom	Ahom letter tta		
+U+11742	𑝂	11700..1174F	Ahom	Ahom letter ttha		
+U+11743	𑝃	11700..1174F	Ahom	Ahom letter dda		
+U+11744	𑝄	11700..1174F	Ahom	Ahom letter ddha		
+U+11745	𑝅	11700..1174F	Ahom	Ahom letter nna		
+U+11746	𑝆	11700..1174F	Ahom	Ahom letter lla		

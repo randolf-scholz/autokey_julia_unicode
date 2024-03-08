@@ -1,38 +1,38 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-A930	"""ꤰ"""	A930..A95F	Rejang	Rejang letter ka		
-A931	"""ꤱ"""	A930..A95F	Rejang	Rejang letter ga		
-A932	"""ꤲ"""	A930..A95F	Rejang	Rejang letter nga		
-A933	"""ꤳ"""	A930..A95F	Rejang	Rejang letter ta		
-A934	"""ꤴ"""	A930..A95F	Rejang	Rejang letter da		
-A935	"""ꤵ"""	A930..A95F	Rejang	Rejang letter na		
-A936	"""ꤶ"""	A930..A95F	Rejang	Rejang letter pa		
-A937	"""ꤷ"""	A930..A95F	Rejang	Rejang letter ba		
-A938	"""ꤸ"""	A930..A95F	Rejang	Rejang letter ma		
-A939	"""ꤹ"""	A930..A95F	Rejang	Rejang letter ca		
-A93A	"""ꤺ"""	A930..A95F	Rejang	Rejang letter ja		
-A93B	"""ꤻ"""	A930..A95F	Rejang	Rejang letter nya		
-A93C	"""ꤼ"""	A930..A95F	Rejang	Rejang letter sa		
-A93D	"""ꤽ"""	A930..A95F	Rejang	Rejang letter ra		
-A93E	"""ꤾ"""	A930..A95F	Rejang	Rejang letter la		
-A93F	"""ꤿ"""	A930..A95F	Rejang	Rejang letter ya		
-A940	"""ꥀ"""	A930..A95F	Rejang	Rejang letter wa		
-A941	"""ꥁ"""	A930..A95F	Rejang	Rejang letter ha		
-A942	"""ꥂ"""	A930..A95F	Rejang	Rejang letter mba		
-A943	"""ꥃ"""	A930..A95F	Rejang	Rejang letter ngga		
-A944	"""ꥄ"""	A930..A95F	Rejang	Rejang letter nda		
-A945	"""ꥅ"""	A930..A95F	Rejang	Rejang letter nyja		
-A946	"""ꥆ"""	A930..A95F	Rejang	Rejang letter a		
-A947	"""ꥇ"""	A930..A95F	Rejang	Rejang vowel sign i		
-A948	"""ꥈ"""	A930..A95F	Rejang	Rejang vowel sign u		
-A949	"""ꥉ"""	A930..A95F	Rejang	Rejang vowel sign e		
-A94A	"""ꥊ"""	A930..A95F	Rejang	Rejang vowel sign ai		
-A94B	"""ꥋ"""	A930..A95F	Rejang	Rejang vowel sign o		
-A94C	"""ꥌ"""	A930..A95F	Rejang	Rejang vowel sign au		
-A94D	"""ꥍ"""	A930..A95F	Rejang	Rejang vowel sign eu		
-A94E	"""ꥎ"""	A930..A95F	Rejang	Rejang vowel sign ea		
-A94F	"""ꥏ"""	A930..A95F	Rejang	Rejang consonant sign ng		
-A950	"""ꥐ"""	A930..A95F	Rejang	Rejang consonant sign n		
-A951	"""ꥑ"""	A930..A95F	Rejang	Rejang consonant sign r		
-A952	"""ꥒ"""	A930..A95F	Rejang	Rejang consonant sign h		
-A953	"""꥓"""	A930..A95F	Rejang	Rejang virama		
-A95F	"""꥟"""	A930..A95F	Rejang	Rejang section mark		
+U+A930	ꤰ	A930..A95F	Rejang	Rejang letter ka		
+U+A931	ꤱ	A930..A95F	Rejang	Rejang letter ga		
+U+A932	ꤲ	A930..A95F	Rejang	Rejang letter nga		
+U+A933	ꤳ	A930..A95F	Rejang	Rejang letter ta		
+U+A934	ꤴ	A930..A95F	Rejang	Rejang letter da		
+U+A935	ꤵ	A930..A95F	Rejang	Rejang letter na		
+U+A936	ꤶ	A930..A95F	Rejang	Rejang letter pa		
+U+A937	ꤷ	A930..A95F	Rejang	Rejang letter ba		
+U+A938	ꤸ	A930..A95F	Rejang	Rejang letter ma		
+U+A939	ꤹ	A930..A95F	Rejang	Rejang letter ca		
+U+A93A	ꤺ	A930..A95F	Rejang	Rejang letter ja		
+U+A93B	ꤻ	A930..A95F	Rejang	Rejang letter nya		
+U+A93C	ꤼ	A930..A95F	Rejang	Rejang letter sa		
+U+A93D	ꤽ	A930..A95F	Rejang	Rejang letter ra		
+U+A93E	ꤾ	A930..A95F	Rejang	Rejang letter la		
+U+A93F	ꤿ	A930..A95F	Rejang	Rejang letter ya		
+U+A940	ꥀ	A930..A95F	Rejang	Rejang letter wa		
+U+A941	ꥁ	A930..A95F	Rejang	Rejang letter ha		
+U+A942	ꥂ	A930..A95F	Rejang	Rejang letter mba		
+U+A943	ꥃ	A930..A95F	Rejang	Rejang letter ngga		
+U+A944	ꥄ	A930..A95F	Rejang	Rejang letter nda		
+U+A945	ꥅ	A930..A95F	Rejang	Rejang letter nyja		
+U+A946	ꥆ	A930..A95F	Rejang	Rejang letter a		
+U+A947	ꥇ	A930..A95F	Rejang	Rejang vowel sign i		
+U+A948	ꥈ	A930..A95F	Rejang	Rejang vowel sign u		
+U+A949	ꥉ	A930..A95F	Rejang	Rejang vowel sign e		
+U+A94A	ꥊ	A930..A95F	Rejang	Rejang vowel sign ai		
+U+A94B	ꥋ	A930..A95F	Rejang	Rejang vowel sign o		
+U+A94C	ꥌ	A930..A95F	Rejang	Rejang vowel sign au		
+U+A94D	ꥍ	A930..A95F	Rejang	Rejang vowel sign eu		
+U+A94E	ꥎ	A930..A95F	Rejang	Rejang vowel sign ea		
+U+A94F	ꥏ	A930..A95F	Rejang	Rejang consonant sign ng		
+U+A950	ꥐ	A930..A95F	Rejang	Rejang consonant sign n		
+U+A951	ꥑ	A930..A95F	Rejang	Rejang consonant sign r		
+U+A952	ꥒ	A930..A95F	Rejang	Rejang consonant sign h		
+U+A953	꥓	A930..A95F	Rejang	Rejang virama		
+U+A95F	꥟	A930..A95F	Rejang	Rejang section mark		

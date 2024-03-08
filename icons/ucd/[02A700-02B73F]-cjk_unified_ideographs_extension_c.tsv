@@ -1,3 +1,3 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2A700	"""𪜀"""	2A700..2B73F	CJK Unified Ideographs Extension C	<cjk ideograph extension c, first>		
-2B739	"""𫜹"""	2A700..2B73F	CJK Unified Ideographs Extension C	<cjk ideograph extension c, last>		
+U+2A700	𪜀	2A700..2B73F	CJK Unified Ideographs Extension C	<cjk ideograph extension c, first>		
+U+2B739	𫜹	2A700..2B73F	CJK Unified Ideographs Extension C	<cjk ideograph extension c, last>		

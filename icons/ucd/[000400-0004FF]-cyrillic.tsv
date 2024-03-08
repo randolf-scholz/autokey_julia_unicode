@@ -1,257 +1,257 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-0400	"""Ѐ"""	0400..04FF	Cyrillic	Cyrillic capital letter ie with grave		
-0401	"""Ё"""	0400..04FF	Cyrillic	Cyrillic capital letter io		
-0402	"""Ђ"""	0400..04FF	Cyrillic	Cyrillic capital letter dje		
-0403	"""Ѓ"""	0400..04FF	Cyrillic	Cyrillic capital letter gje		
-0404	"""Є"""	0400..04FF	Cyrillic	Cyrillic capital letter ukrainian ie		
-0405	"""Ѕ"""	0400..04FF	Cyrillic	Cyrillic capital letter dze		
-0406	"""І"""	0400..04FF	Cyrillic	Cyrillic capital letter byelorussian-ukrainian i		
-0407	"""Ї"""	0400..04FF	Cyrillic	Cyrillic capital letter yi		
-0408	"""Ј"""	0400..04FF	Cyrillic	Cyrillic capital letter je		
-0409	"""Љ"""	0400..04FF	Cyrillic	Cyrillic capital letter lje		
-040A	"""Њ"""	0400..04FF	Cyrillic	Cyrillic capital letter nje		
-040B	"""Ћ"""	0400..04FF	Cyrillic	Cyrillic capital letter tshe		
-040C	"""Ќ"""	0400..04FF	Cyrillic	Cyrillic capital letter kje		
-040D	"""Ѝ"""	0400..04FF	Cyrillic	Cyrillic capital letter i with grave		
-040E	"""Ў"""	0400..04FF	Cyrillic	Cyrillic capital letter short u		
-040F	"""Џ"""	0400..04FF	Cyrillic	Cyrillic capital letter dzhe		
-0410	"""А"""	0400..04FF	Cyrillic	Cyrillic capital letter a		
-0411	"""Б"""	0400..04FF	Cyrillic	Cyrillic capital letter be		
-0412	"""В"""	0400..04FF	Cyrillic	Cyrillic capital letter ve		
-0413	"""Г"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe		
-0414	"""Д"""	0400..04FF	Cyrillic	Cyrillic capital letter de		
-0415	"""Е"""	0400..04FF	Cyrillic	Cyrillic capital letter ie		
-0416	"""Ж"""	0400..04FF	Cyrillic	Cyrillic capital letter zhe		
-0417	"""З"""	0400..04FF	Cyrillic	Cyrillic capital letter ze		
-0418	"""И"""	0400..04FF	Cyrillic	Cyrillic capital letter i		
-0419	"""Й"""	0400..04FF	Cyrillic	Cyrillic capital letter short i		
-041A	"""К"""	0400..04FF	Cyrillic	Cyrillic capital letter ka		
-041B	"""Л"""	0400..04FF	Cyrillic	Cyrillic capital letter el		
-041C	"""М"""	0400..04FF	Cyrillic	Cyrillic capital letter em		
-041D	"""Н"""	0400..04FF	Cyrillic	Cyrillic capital letter en		
-041E	"""О"""	0400..04FF	Cyrillic	Cyrillic capital letter o		
-041F	"""П"""	0400..04FF	Cyrillic	Cyrillic capital letter pe		
-0420	"""Р"""	0400..04FF	Cyrillic	Cyrillic capital letter er		
-0421	"""С"""	0400..04FF	Cyrillic	Cyrillic capital letter es		
-0422	"""Т"""	0400..04FF	Cyrillic	Cyrillic capital letter te		
-0423	"""У"""	0400..04FF	Cyrillic	Cyrillic capital letter u		
-0424	"""Ф"""	0400..04FF	Cyrillic	Cyrillic capital letter ef		
-0425	"""Х"""	0400..04FF	Cyrillic	Cyrillic capital letter ha		
-0426	"""Ц"""	0400..04FF	Cyrillic	Cyrillic capital letter tse		
-0427	"""Ч"""	0400..04FF	Cyrillic	Cyrillic capital letter che		
-0428	"""Ш"""	0400..04FF	Cyrillic	Cyrillic capital letter sha		
-0429	"""Щ"""	0400..04FF	Cyrillic	Cyrillic capital letter shcha		
-042A	"""Ъ"""	0400..04FF	Cyrillic	Cyrillic capital letter hard sign		
-042B	"""Ы"""	0400..04FF	Cyrillic	Cyrillic capital letter yeru		
-042C	"""Ь"""	0400..04FF	Cyrillic	Cyrillic capital letter soft sign		
-042D	"""Э"""	0400..04FF	Cyrillic	Cyrillic capital letter e		
-042E	"""Ю"""	0400..04FF	Cyrillic	Cyrillic capital letter yu		
-042F	"""Я"""	0400..04FF	Cyrillic	Cyrillic capital letter ya		
-0430	"""а"""	0400..04FF	Cyrillic	Cyrillic small letter a		
-0431	"""б"""	0400..04FF	Cyrillic	Cyrillic small letter be		
-0432	"""в"""	0400..04FF	Cyrillic	Cyrillic small letter ve		
-0433	"""г"""	0400..04FF	Cyrillic	Cyrillic small letter ghe		
-0434	"""д"""	0400..04FF	Cyrillic	Cyrillic small letter de		
-0435	"""е"""	0400..04FF	Cyrillic	Cyrillic small letter ie		
-0436	"""ж"""	0400..04FF	Cyrillic	Cyrillic small letter zhe		
-0437	"""з"""	0400..04FF	Cyrillic	Cyrillic small letter ze		
-0438	"""и"""	0400..04FF	Cyrillic	Cyrillic small letter i		
-0439	"""й"""	0400..04FF	Cyrillic	Cyrillic small letter short i		
-043A	"""к"""	0400..04FF	Cyrillic	Cyrillic small letter ka		
-043B	"""л"""	0400..04FF	Cyrillic	Cyrillic small letter el		
-043C	"""м"""	0400..04FF	Cyrillic	Cyrillic small letter em		
-043D	"""н"""	0400..04FF	Cyrillic	Cyrillic small letter en		
-043E	"""о"""	0400..04FF	Cyrillic	Cyrillic small letter o		
-043F	"""п"""	0400..04FF	Cyrillic	Cyrillic small letter pe		
-0440	"""р"""	0400..04FF	Cyrillic	Cyrillic small letter er		
-0441	"""с"""	0400..04FF	Cyrillic	Cyrillic small letter es		
-0442	"""т"""	0400..04FF	Cyrillic	Cyrillic small letter te		
-0443	"""у"""	0400..04FF	Cyrillic	Cyrillic small letter u		
-0444	"""ф"""	0400..04FF	Cyrillic	Cyrillic small letter ef		
-0445	"""х"""	0400..04FF	Cyrillic	Cyrillic small letter ha		
-0446	"""ц"""	0400..04FF	Cyrillic	Cyrillic small letter tse		
-0447	"""ч"""	0400..04FF	Cyrillic	Cyrillic small letter che		
-0448	"""ш"""	0400..04FF	Cyrillic	Cyrillic small letter sha		
-0449	"""щ"""	0400..04FF	Cyrillic	Cyrillic small letter shcha		
-044A	"""ъ"""	0400..04FF	Cyrillic	Cyrillic small letter hard sign		
-044B	"""ы"""	0400..04FF	Cyrillic	Cyrillic small letter yeru		
-044C	"""ь"""	0400..04FF	Cyrillic	Cyrillic small letter soft sign		
-044D	"""э"""	0400..04FF	Cyrillic	Cyrillic small letter e		
-044E	"""ю"""	0400..04FF	Cyrillic	Cyrillic small letter yu		
-044F	"""я"""	0400..04FF	Cyrillic	Cyrillic small letter ya		
-0450	"""ѐ"""	0400..04FF	Cyrillic	Cyrillic small letter ie with grave		
-0451	"""ё"""	0400..04FF	Cyrillic	Cyrillic small letter io		
-0452	"""ђ"""	0400..04FF	Cyrillic	Cyrillic small letter dje		
-0453	"""ѓ"""	0400..04FF	Cyrillic	Cyrillic small letter gje		
-0454	"""є"""	0400..04FF	Cyrillic	Cyrillic small letter ukrainian ie		
-0455	"""ѕ"""	0400..04FF	Cyrillic	Cyrillic small letter dze		
-0456	"""і"""	0400..04FF	Cyrillic	Cyrillic small letter byelorussian-ukrainian i		
-0457	"""ї"""	0400..04FF	Cyrillic	Cyrillic small letter yi		
-0458	"""ј"""	0400..04FF	Cyrillic	Cyrillic small letter je		
-0459	"""љ"""	0400..04FF	Cyrillic	Cyrillic small letter lje		
-045A	"""њ"""	0400..04FF	Cyrillic	Cyrillic small letter nje		
-045B	"""ћ"""	0400..04FF	Cyrillic	Cyrillic small letter tshe		
-045C	"""ќ"""	0400..04FF	Cyrillic	Cyrillic small letter kje		
-045D	"""ѝ"""	0400..04FF	Cyrillic	Cyrillic small letter i with grave		
-045E	"""ў"""	0400..04FF	Cyrillic	Cyrillic small letter short u		
-045F	"""џ"""	0400..04FF	Cyrillic	Cyrillic small letter dzhe		
-0460	"""Ѡ"""	0400..04FF	Cyrillic	Cyrillic capital letter omega		
-0461	"""ѡ"""	0400..04FF	Cyrillic	Cyrillic small letter omega		
-0462	"""Ѣ"""	0400..04FF	Cyrillic	Cyrillic capital letter yat		
-0463	"""ѣ"""	0400..04FF	Cyrillic	Cyrillic small letter yat		
-0464	"""Ѥ"""	0400..04FF	Cyrillic	Cyrillic capital letter iotified e		
-0465	"""ѥ"""	0400..04FF	Cyrillic	Cyrillic small letter iotified e		
-0466	"""Ѧ"""	0400..04FF	Cyrillic	Cyrillic capital letter little yus		
-0467	"""ѧ"""	0400..04FF	Cyrillic	Cyrillic small letter little yus		
-0468	"""Ѩ"""	0400..04FF	Cyrillic	Cyrillic capital letter iotified little yus		
-0469	"""ѩ"""	0400..04FF	Cyrillic	Cyrillic small letter iotified little yus		
-046A	"""Ѫ"""	0400..04FF	Cyrillic	Cyrillic capital letter big yus		
-046B	"""ѫ"""	0400..04FF	Cyrillic	Cyrillic small letter big yus		
-046C	"""Ѭ"""	0400..04FF	Cyrillic	Cyrillic capital letter iotified big yus		
-046D	"""ѭ"""	0400..04FF	Cyrillic	Cyrillic small letter iotified big yus		
-046E	"""Ѯ"""	0400..04FF	Cyrillic	Cyrillic capital letter ksi		
-046F	"""ѯ"""	0400..04FF	Cyrillic	Cyrillic small letter ksi		
-0470	"""Ѱ"""	0400..04FF	Cyrillic	Cyrillic capital letter psi		
-0471	"""ѱ"""	0400..04FF	Cyrillic	Cyrillic small letter psi		
-0472	"""Ѳ"""	0400..04FF	Cyrillic	Cyrillic capital letter fita		
-0473	"""ѳ"""	0400..04FF	Cyrillic	Cyrillic small letter fita		
-0474	"""Ѵ"""	0400..04FF	Cyrillic	Cyrillic capital letter izhitsa		
-0475	"""ѵ"""	0400..04FF	Cyrillic	Cyrillic small letter izhitsa		
-0476	"""Ѷ"""	0400..04FF	Cyrillic	Cyrillic capital letter izhitsa with double grave accent		
-0477	"""ѷ"""	0400..04FF	Cyrillic	Cyrillic small letter izhitsa with double grave accent		
-0478	"""Ѹ"""	0400..04FF	Cyrillic	Cyrillic capital letter uk		
-0479	"""ѹ"""	0400..04FF	Cyrillic	Cyrillic small letter uk		
-047A	"""Ѻ"""	0400..04FF	Cyrillic	Cyrillic capital letter round omega		
-047B	"""ѻ"""	0400..04FF	Cyrillic	Cyrillic small letter round omega		
-047C	"""Ѽ"""	0400..04FF	Cyrillic	Cyrillic capital letter omega with titlo		
-047D	"""ѽ"""	0400..04FF	Cyrillic	Cyrillic small letter omega with titlo		
-047E	"""Ѿ"""	0400..04FF	Cyrillic	Cyrillic capital letter ot		
-047F	"""ѿ"""	0400..04FF	Cyrillic	Cyrillic small letter ot		
-0480	"""Ҁ"""	0400..04FF	Cyrillic	Cyrillic capital letter koppa		
-0481	"""ҁ"""	0400..04FF	Cyrillic	Cyrillic small letter koppa		
-0482	"""҂"""	0400..04FF	Cyrillic	Cyrillic thousands sign		
-0483	"""҃"""	0400..04FF	Cyrillic	Combining cyrillic titlo		
-0484	"""҄"""	0400..04FF	Cyrillic	Combining cyrillic palatalization		
-0485	"""҅"""	0400..04FF	Cyrillic	Combining cyrillic dasia pneumata		
-0486	"""҆"""	0400..04FF	Cyrillic	Combining cyrillic psili pneumata		
-0487	"""҇"""	0400..04FF	Cyrillic	Combining cyrillic pokrytie		
-0488	"""҈"""	0400..04FF	Cyrillic	Combining cyrillic hundred thousands sign		
-0489	"""҉"""	0400..04FF	Cyrillic	Combining cyrillic millions sign		
-048A	"""Ҋ"""	0400..04FF	Cyrillic	Cyrillic capital letter short i with tail		
-048B	"""ҋ"""	0400..04FF	Cyrillic	Cyrillic small letter short i with tail		
-048C	"""Ҍ"""	0400..04FF	Cyrillic	Cyrillic capital letter semisoft sign		
-048D	"""ҍ"""	0400..04FF	Cyrillic	Cyrillic small letter semisoft sign		
-048E	"""Ҏ"""	0400..04FF	Cyrillic	Cyrillic capital letter er with tick		
-048F	"""ҏ"""	0400..04FF	Cyrillic	Cyrillic small letter er with tick		
-0490	"""Ґ"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe with upturn		
-0491	"""ґ"""	0400..04FF	Cyrillic	Cyrillic small letter ghe with upturn		
-0492	"""Ғ"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe with stroke		
-0493	"""ғ"""	0400..04FF	Cyrillic	Cyrillic small letter ghe with stroke		
-0494	"""Ҕ"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe with middle hook		
-0495	"""ҕ"""	0400..04FF	Cyrillic	Cyrillic small letter ghe with middle hook		
-0496	"""Җ"""	0400..04FF	Cyrillic	Cyrillic capital letter zhe with descender		
-0497	"""җ"""	0400..04FF	Cyrillic	Cyrillic small letter zhe with descender		
-0498	"""Ҙ"""	0400..04FF	Cyrillic	Cyrillic capital letter ze with descender		
-0499	"""ҙ"""	0400..04FF	Cyrillic	Cyrillic small letter ze with descender		
-049A	"""Қ"""	0400..04FF	Cyrillic	Cyrillic capital letter ka with descender		
-049B	"""қ"""	0400..04FF	Cyrillic	Cyrillic small letter ka with descender		
-049C	"""Ҝ"""	0400..04FF	Cyrillic	Cyrillic capital letter ka with vertical stroke		
-049D	"""ҝ"""	0400..04FF	Cyrillic	Cyrillic small letter ka with vertical stroke		
-049E	"""Ҟ"""	0400..04FF	Cyrillic	Cyrillic capital letter ka with stroke		
-049F	"""ҟ"""	0400..04FF	Cyrillic	Cyrillic small letter ka with stroke		
-04A0	"""Ҡ"""	0400..04FF	Cyrillic	Cyrillic capital letter bashkir ka		
-04A1	"""ҡ"""	0400..04FF	Cyrillic	Cyrillic small letter bashkir ka		
-04A2	"""Ң"""	0400..04FF	Cyrillic	Cyrillic capital letter en with descender		
-04A3	"""ң"""	0400..04FF	Cyrillic	Cyrillic small letter en with descender		
-04A4	"""Ҥ"""	0400..04FF	Cyrillic	Cyrillic capital ligature en ghe		
-04A5	"""ҥ"""	0400..04FF	Cyrillic	Cyrillic small ligature en ghe		
-04A6	"""Ҧ"""	0400..04FF	Cyrillic	Cyrillic capital letter pe with middle hook		
-04A7	"""ҧ"""	0400..04FF	Cyrillic	Cyrillic small letter pe with middle hook		
-04A8	"""Ҩ"""	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian ha		
-04A9	"""ҩ"""	0400..04FF	Cyrillic	Cyrillic small letter abkhasian ha		
-04AA	"""Ҫ"""	0400..04FF	Cyrillic	Cyrillic capital letter es with descender		
-04AB	"""ҫ"""	0400..04FF	Cyrillic	Cyrillic small letter es with descender		
-04AC	"""Ҭ"""	0400..04FF	Cyrillic	Cyrillic capital letter te with descender		
-04AD	"""ҭ"""	0400..04FF	Cyrillic	Cyrillic small letter te with descender		
-04AE	"""Ү"""	0400..04FF	Cyrillic	Cyrillic capital letter straight u		
-04AF	"""ү"""	0400..04FF	Cyrillic	Cyrillic small letter straight u		
-04B0	"""Ұ"""	0400..04FF	Cyrillic	Cyrillic capital letter straight u with stroke		
-04B1	"""ұ"""	0400..04FF	Cyrillic	Cyrillic small letter straight u with stroke		
-04B2	"""Ҳ"""	0400..04FF	Cyrillic	Cyrillic capital letter ha with descender		
-04B3	"""ҳ"""	0400..04FF	Cyrillic	Cyrillic small letter ha with descender		
-04B4	"""Ҵ"""	0400..04FF	Cyrillic	Cyrillic capital ligature te tse		
-04B5	"""ҵ"""	0400..04FF	Cyrillic	Cyrillic small ligature te tse		
-04B6	"""Ҷ"""	0400..04FF	Cyrillic	Cyrillic capital letter che with descender		
-04B7	"""ҷ"""	0400..04FF	Cyrillic	Cyrillic small letter che with descender		
-04B8	"""Ҹ"""	0400..04FF	Cyrillic	Cyrillic capital letter che with vertical stroke		
-04B9	"""ҹ"""	0400..04FF	Cyrillic	Cyrillic small letter che with vertical stroke		
-04BA	"""Һ"""	0400..04FF	Cyrillic	Cyrillic capital letter shha		
-04BB	"""һ"""	0400..04FF	Cyrillic	Cyrillic small letter shha		
-04BC	"""Ҽ"""	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian che		
-04BD	"""ҽ"""	0400..04FF	Cyrillic	Cyrillic small letter abkhasian che		
-04BE	"""Ҿ"""	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian che with descender		
-04BF	"""ҿ"""	0400..04FF	Cyrillic	Cyrillic small letter abkhasian che with descender		
-04C0	"""Ӏ"""	0400..04FF	Cyrillic	Cyrillic letter palochka		
-04C1	"""Ӂ"""	0400..04FF	Cyrillic	Cyrillic capital letter zhe with breve		
-04C2	"""ӂ"""	0400..04FF	Cyrillic	Cyrillic small letter zhe with breve		
-04C3	"""Ӄ"""	0400..04FF	Cyrillic	Cyrillic capital letter ka with hook		
-04C4	"""ӄ"""	0400..04FF	Cyrillic	Cyrillic small letter ka with hook		
-04C5	"""Ӆ"""	0400..04FF	Cyrillic	Cyrillic capital letter el with tail		
-04C6	"""ӆ"""	0400..04FF	Cyrillic	Cyrillic small letter el with tail		
-04C7	"""Ӈ"""	0400..04FF	Cyrillic	Cyrillic capital letter en with hook		
-04C8	"""ӈ"""	0400..04FF	Cyrillic	Cyrillic small letter en with hook		
-04C9	"""Ӊ"""	0400..04FF	Cyrillic	Cyrillic capital letter en with tail		
-04CA	"""ӊ"""	0400..04FF	Cyrillic	Cyrillic small letter en with tail		
-04CB	"""Ӌ"""	0400..04FF	Cyrillic	Cyrillic capital letter khakassian che		
-04CC	"""ӌ"""	0400..04FF	Cyrillic	Cyrillic small letter khakassian che		
-04CD	"""Ӎ"""	0400..04FF	Cyrillic	Cyrillic capital letter em with tail		
-04CE	"""ӎ"""	0400..04FF	Cyrillic	Cyrillic small letter em with tail		
-04CF	"""ӏ"""	0400..04FF	Cyrillic	Cyrillic small letter palochka		
-04D0	"""Ӑ"""	0400..04FF	Cyrillic	Cyrillic capital letter a with breve		
-04D1	"""ӑ"""	0400..04FF	Cyrillic	Cyrillic small letter a with breve		
-04D2	"""Ӓ"""	0400..04FF	Cyrillic	Cyrillic capital letter a with diaeresis		
-04D3	"""ӓ"""	0400..04FF	Cyrillic	Cyrillic small letter a with diaeresis		
-04D4	"""Ӕ"""	0400..04FF	Cyrillic	Cyrillic capital ligature a ie		
-04D5	"""ӕ"""	0400..04FF	Cyrillic	Cyrillic small ligature a ie		
-04D6	"""Ӗ"""	0400..04FF	Cyrillic	Cyrillic capital letter ie with breve		
-04D7	"""ӗ"""	0400..04FF	Cyrillic	Cyrillic small letter ie with breve		
-04D8	"""Ә"""	0400..04FF	Cyrillic	Cyrillic capital letter schwa		
-04D9	"""ә"""	0400..04FF	Cyrillic	Cyrillic small letter schwa		
-04DA	"""Ӛ"""	0400..04FF	Cyrillic	Cyrillic capital letter schwa with diaeresis		
-04DB	"""ӛ"""	0400..04FF	Cyrillic	Cyrillic small letter schwa with diaeresis		
-04DC	"""Ӝ"""	0400..04FF	Cyrillic	Cyrillic capital letter zhe with diaeresis		
-04DD	"""ӝ"""	0400..04FF	Cyrillic	Cyrillic small letter zhe with diaeresis		
-04DE	"""Ӟ"""	0400..04FF	Cyrillic	Cyrillic capital letter ze with diaeresis		
-04DF	"""ӟ"""	0400..04FF	Cyrillic	Cyrillic small letter ze with diaeresis		
-04E0	"""Ӡ"""	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian dze		
-04E1	"""ӡ"""	0400..04FF	Cyrillic	Cyrillic small letter abkhasian dze		
-04E2	"""Ӣ"""	0400..04FF	Cyrillic	Cyrillic capital letter i with macron		
-04E3	"""ӣ"""	0400..04FF	Cyrillic	Cyrillic small letter i with macron		
-04E4	"""Ӥ"""	0400..04FF	Cyrillic	Cyrillic capital letter i with diaeresis		
-04E5	"""ӥ"""	0400..04FF	Cyrillic	Cyrillic small letter i with diaeresis		
-04E6	"""Ӧ"""	0400..04FF	Cyrillic	Cyrillic capital letter o with diaeresis		
-04E7	"""ӧ"""	0400..04FF	Cyrillic	Cyrillic small letter o with diaeresis		
-04E8	"""Ө"""	0400..04FF	Cyrillic	Cyrillic capital letter barred o		
-04E9	"""ө"""	0400..04FF	Cyrillic	Cyrillic small letter barred o		
-04EA	"""Ӫ"""	0400..04FF	Cyrillic	Cyrillic capital letter barred o with diaeresis		
-04EB	"""ӫ"""	0400..04FF	Cyrillic	Cyrillic small letter barred o with diaeresis		
-04EC	"""Ӭ"""	0400..04FF	Cyrillic	Cyrillic capital letter e with diaeresis		
-04ED	"""ӭ"""	0400..04FF	Cyrillic	Cyrillic small letter e with diaeresis		
-04EE	"""Ӯ"""	0400..04FF	Cyrillic	Cyrillic capital letter u with macron		
-04EF	"""ӯ"""	0400..04FF	Cyrillic	Cyrillic small letter u with macron		
-04F0	"""Ӱ"""	0400..04FF	Cyrillic	Cyrillic capital letter u with diaeresis		
-04F1	"""ӱ"""	0400..04FF	Cyrillic	Cyrillic small letter u with diaeresis		
-04F2	"""Ӳ"""	0400..04FF	Cyrillic	Cyrillic capital letter u with double acute		
-04F3	"""ӳ"""	0400..04FF	Cyrillic	Cyrillic small letter u with double acute		
-04F4	"""Ӵ"""	0400..04FF	Cyrillic	Cyrillic capital letter che with diaeresis		
-04F5	"""ӵ"""	0400..04FF	Cyrillic	Cyrillic small letter che with diaeresis		
-04F6	"""Ӷ"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe with descender		
-04F7	"""ӷ"""	0400..04FF	Cyrillic	Cyrillic small letter ghe with descender		
-04F8	"""Ӹ"""	0400..04FF	Cyrillic	Cyrillic capital letter yeru with diaeresis		
-04F9	"""ӹ"""	0400..04FF	Cyrillic	Cyrillic small letter yeru with diaeresis		
-04FA	"""Ӻ"""	0400..04FF	Cyrillic	Cyrillic capital letter ghe with stroke and hook		
-04FB	"""ӻ"""	0400..04FF	Cyrillic	Cyrillic small letter ghe with stroke and hook		
-04FC	"""Ӽ"""	0400..04FF	Cyrillic	Cyrillic capital letter ha with hook		
-04FD	"""ӽ"""	0400..04FF	Cyrillic	Cyrillic small letter ha with hook		
-04FE	"""Ӿ"""	0400..04FF	Cyrillic	Cyrillic capital letter ha with stroke		
-04FF	"""ӿ"""	0400..04FF	Cyrillic	Cyrillic small letter ha with stroke		
+U+0400	Ѐ	0400..04FF	Cyrillic	Cyrillic capital letter ie with grave		
+U+0401	Ё	0400..04FF	Cyrillic	Cyrillic capital letter io		
+U+0402	Ђ	0400..04FF	Cyrillic	Cyrillic capital letter dje		
+U+0403	Ѓ	0400..04FF	Cyrillic	Cyrillic capital letter gje		
+U+0404	Є	0400..04FF	Cyrillic	Cyrillic capital letter ukrainian ie		
+U+0405	Ѕ	0400..04FF	Cyrillic	Cyrillic capital letter dze		
+U+0406	І	0400..04FF	Cyrillic	Cyrillic capital letter byelorussian-ukrainian i		
+U+0407	Ї	0400..04FF	Cyrillic	Cyrillic capital letter yi		
+U+0408	Ј	0400..04FF	Cyrillic	Cyrillic capital letter je		
+U+0409	Љ	0400..04FF	Cyrillic	Cyrillic capital letter lje		
+U+040A	Њ	0400..04FF	Cyrillic	Cyrillic capital letter nje		
+U+040B	Ћ	0400..04FF	Cyrillic	Cyrillic capital letter tshe		
+U+040C	Ќ	0400..04FF	Cyrillic	Cyrillic capital letter kje		
+U+040D	Ѝ	0400..04FF	Cyrillic	Cyrillic capital letter i with grave		
+U+040E	Ў	0400..04FF	Cyrillic	Cyrillic capital letter short u		
+U+040F	Џ	0400..04FF	Cyrillic	Cyrillic capital letter dzhe		
+U+0410	А	0400..04FF	Cyrillic	Cyrillic capital letter a		
+U+0411	Б	0400..04FF	Cyrillic	Cyrillic capital letter be		
+U+0412	В	0400..04FF	Cyrillic	Cyrillic capital letter ve		
+U+0413	Г	0400..04FF	Cyrillic	Cyrillic capital letter ghe		
+U+0414	Д	0400..04FF	Cyrillic	Cyrillic capital letter de		
+U+0415	Е	0400..04FF	Cyrillic	Cyrillic capital letter ie		
+U+0416	Ж	0400..04FF	Cyrillic	Cyrillic capital letter zhe		
+U+0417	З	0400..04FF	Cyrillic	Cyrillic capital letter ze		
+U+0418	И	0400..04FF	Cyrillic	Cyrillic capital letter i		
+U+0419	Й	0400..04FF	Cyrillic	Cyrillic capital letter short i		
+U+041A	К	0400..04FF	Cyrillic	Cyrillic capital letter ka		
+U+041B	Л	0400..04FF	Cyrillic	Cyrillic capital letter el		
+U+041C	М	0400..04FF	Cyrillic	Cyrillic capital letter em		
+U+041D	Н	0400..04FF	Cyrillic	Cyrillic capital letter en		
+U+041E	О	0400..04FF	Cyrillic	Cyrillic capital letter o		
+U+041F	П	0400..04FF	Cyrillic	Cyrillic capital letter pe		
+U+0420	Р	0400..04FF	Cyrillic	Cyrillic capital letter er		
+U+0421	С	0400..04FF	Cyrillic	Cyrillic capital letter es		
+U+0422	Т	0400..04FF	Cyrillic	Cyrillic capital letter te		
+U+0423	У	0400..04FF	Cyrillic	Cyrillic capital letter u		
+U+0424	Ф	0400..04FF	Cyrillic	Cyrillic capital letter ef		
+U+0425	Х	0400..04FF	Cyrillic	Cyrillic capital letter ha		
+U+0426	Ц	0400..04FF	Cyrillic	Cyrillic capital letter tse		
+U+0427	Ч	0400..04FF	Cyrillic	Cyrillic capital letter che		
+U+0428	Ш	0400..04FF	Cyrillic	Cyrillic capital letter sha		
+U+0429	Щ	0400..04FF	Cyrillic	Cyrillic capital letter shcha		
+U+042A	Ъ	0400..04FF	Cyrillic	Cyrillic capital letter hard sign		
+U+042B	Ы	0400..04FF	Cyrillic	Cyrillic capital letter yeru		
+U+042C	Ь	0400..04FF	Cyrillic	Cyrillic capital letter soft sign		
+U+042D	Э	0400..04FF	Cyrillic	Cyrillic capital letter e		
+U+042E	Ю	0400..04FF	Cyrillic	Cyrillic capital letter yu		
+U+042F	Я	0400..04FF	Cyrillic	Cyrillic capital letter ya		
+U+0430	а	0400..04FF	Cyrillic	Cyrillic small letter a		
+U+0431	б	0400..04FF	Cyrillic	Cyrillic small letter be		
+U+0432	в	0400..04FF	Cyrillic	Cyrillic small letter ve		
+U+0433	г	0400..04FF	Cyrillic	Cyrillic small letter ghe		
+U+0434	д	0400..04FF	Cyrillic	Cyrillic small letter de		
+U+0435	е	0400..04FF	Cyrillic	Cyrillic small letter ie		
+U+0436	ж	0400..04FF	Cyrillic	Cyrillic small letter zhe		
+U+0437	з	0400..04FF	Cyrillic	Cyrillic small letter ze		
+U+0438	и	0400..04FF	Cyrillic	Cyrillic small letter i		
+U+0439	й	0400..04FF	Cyrillic	Cyrillic small letter short i		
+U+043A	к	0400..04FF	Cyrillic	Cyrillic small letter ka		
+U+043B	л	0400..04FF	Cyrillic	Cyrillic small letter el		
+U+043C	м	0400..04FF	Cyrillic	Cyrillic small letter em		
+U+043D	н	0400..04FF	Cyrillic	Cyrillic small letter en		
+U+043E	о	0400..04FF	Cyrillic	Cyrillic small letter o		
+U+043F	п	0400..04FF	Cyrillic	Cyrillic small letter pe		
+U+0440	р	0400..04FF	Cyrillic	Cyrillic small letter er		
+U+0441	с	0400..04FF	Cyrillic	Cyrillic small letter es		
+U+0442	т	0400..04FF	Cyrillic	Cyrillic small letter te		
+U+0443	у	0400..04FF	Cyrillic	Cyrillic small letter u		
+U+0444	ф	0400..04FF	Cyrillic	Cyrillic small letter ef		
+U+0445	х	0400..04FF	Cyrillic	Cyrillic small letter ha		
+U+0446	ц	0400..04FF	Cyrillic	Cyrillic small letter tse		
+U+0447	ч	0400..04FF	Cyrillic	Cyrillic small letter che		
+U+0448	ш	0400..04FF	Cyrillic	Cyrillic small letter sha		
+U+0449	щ	0400..04FF	Cyrillic	Cyrillic small letter shcha		
+U+044A	ъ	0400..04FF	Cyrillic	Cyrillic small letter hard sign		
+U+044B	ы	0400..04FF	Cyrillic	Cyrillic small letter yeru		
+U+044C	ь	0400..04FF	Cyrillic	Cyrillic small letter soft sign		
+U+044D	э	0400..04FF	Cyrillic	Cyrillic small letter e		
+U+044E	ю	0400..04FF	Cyrillic	Cyrillic small letter yu		
+U+044F	я	0400..04FF	Cyrillic	Cyrillic small letter ya		
+U+0450	ѐ	0400..04FF	Cyrillic	Cyrillic small letter ie with grave		
+U+0451	ё	0400..04FF	Cyrillic	Cyrillic small letter io		
+U+0452	ђ	0400..04FF	Cyrillic	Cyrillic small letter dje		
+U+0453	ѓ	0400..04FF	Cyrillic	Cyrillic small letter gje		
+U+0454	є	0400..04FF	Cyrillic	Cyrillic small letter ukrainian ie		
+U+0455	ѕ	0400..04FF	Cyrillic	Cyrillic small letter dze		
+U+0456	і	0400..04FF	Cyrillic	Cyrillic small letter byelorussian-ukrainian i		
+U+0457	ї	0400..04FF	Cyrillic	Cyrillic small letter yi		
+U+0458	ј	0400..04FF	Cyrillic	Cyrillic small letter je		
+U+0459	љ	0400..04FF	Cyrillic	Cyrillic small letter lje		
+U+045A	њ	0400..04FF	Cyrillic	Cyrillic small letter nje		
+U+045B	ћ	0400..04FF	Cyrillic	Cyrillic small letter tshe		
+U+045C	ќ	0400..04FF	Cyrillic	Cyrillic small letter kje		
+U+045D	ѝ	0400..04FF	Cyrillic	Cyrillic small letter i with grave		
+U+045E	ў	0400..04FF	Cyrillic	Cyrillic small letter short u		
+U+045F	џ	0400..04FF	Cyrillic	Cyrillic small letter dzhe		
+U+0460	Ѡ	0400..04FF	Cyrillic	Cyrillic capital letter omega		
+U+0461	ѡ	0400..04FF	Cyrillic	Cyrillic small letter omega		
+U+0462	Ѣ	0400..04FF	Cyrillic	Cyrillic capital letter yat		
+U+0463	ѣ	0400..04FF	Cyrillic	Cyrillic small letter yat		
+U+0464	Ѥ	0400..04FF	Cyrillic	Cyrillic capital letter iotified e		
+U+0465	ѥ	0400..04FF	Cyrillic	Cyrillic small letter iotified e		
+U+0466	Ѧ	0400..04FF	Cyrillic	Cyrillic capital letter little yus		
+U+0467	ѧ	0400..04FF	Cyrillic	Cyrillic small letter little yus		
+U+0468	Ѩ	0400..04FF	Cyrillic	Cyrillic capital letter iotified little yus		
+U+0469	ѩ	0400..04FF	Cyrillic	Cyrillic small letter iotified little yus		
+U+046A	Ѫ	0400..04FF	Cyrillic	Cyrillic capital letter big yus		
+U+046B	ѫ	0400..04FF	Cyrillic	Cyrillic small letter big yus		
+U+046C	Ѭ	0400..04FF	Cyrillic	Cyrillic capital letter iotified big yus		
+U+046D	ѭ	0400..04FF	Cyrillic	Cyrillic small letter iotified big yus		
+U+046E	Ѯ	0400..04FF	Cyrillic	Cyrillic capital letter ksi		
+U+046F	ѯ	0400..04FF	Cyrillic	Cyrillic small letter ksi		
+U+0470	Ѱ	0400..04FF	Cyrillic	Cyrillic capital letter psi		
+U+0471	ѱ	0400..04FF	Cyrillic	Cyrillic small letter psi		
+U+0472	Ѳ	0400..04FF	Cyrillic	Cyrillic capital letter fita		
+U+0473	ѳ	0400..04FF	Cyrillic	Cyrillic small letter fita		
+U+0474	Ѵ	0400..04FF	Cyrillic	Cyrillic capital letter izhitsa		
+U+0475	ѵ	0400..04FF	Cyrillic	Cyrillic small letter izhitsa		
+U+0476	Ѷ	0400..04FF	Cyrillic	Cyrillic capital letter izhitsa with double grave accent		
+U+0477	ѷ	0400..04FF	Cyrillic	Cyrillic small letter izhitsa with double grave accent		
+U+0478	Ѹ	0400..04FF	Cyrillic	Cyrillic capital letter uk		
+U+0479	ѹ	0400..04FF	Cyrillic	Cyrillic small letter uk		
+U+047A	Ѻ	0400..04FF	Cyrillic	Cyrillic capital letter round omega		
+U+047B	ѻ	0400..04FF	Cyrillic	Cyrillic small letter round omega		
+U+047C	Ѽ	0400..04FF	Cyrillic	Cyrillic capital letter omega with titlo		
+U+047D	ѽ	0400..04FF	Cyrillic	Cyrillic small letter omega with titlo		
+U+047E	Ѿ	0400..04FF	Cyrillic	Cyrillic capital letter ot		
+U+047F	ѿ	0400..04FF	Cyrillic	Cyrillic small letter ot		
+U+0480	Ҁ	0400..04FF	Cyrillic	Cyrillic capital letter koppa		
+U+0481	ҁ	0400..04FF	Cyrillic	Cyrillic small letter koppa		
+U+0482	҂	0400..04FF	Cyrillic	Cyrillic thousands sign		
+U+0483	҃	0400..04FF	Cyrillic	Combining cyrillic titlo		
+U+0484	҄	0400..04FF	Cyrillic	Combining cyrillic palatalization		
+U+0485	҅	0400..04FF	Cyrillic	Combining cyrillic dasia pneumata		
+U+0486	҆	0400..04FF	Cyrillic	Combining cyrillic psili pneumata		
+U+0487	҇	0400..04FF	Cyrillic	Combining cyrillic pokrytie		
+U+0488	҈	0400..04FF	Cyrillic	Combining cyrillic hundred thousands sign		
+U+0489	҉	0400..04FF	Cyrillic	Combining cyrillic millions sign		
+U+048A	Ҋ	0400..04FF	Cyrillic	Cyrillic capital letter short i with tail		
+U+048B	ҋ	0400..04FF	Cyrillic	Cyrillic small letter short i with tail		
+U+048C	Ҍ	0400..04FF	Cyrillic	Cyrillic capital letter semisoft sign		
+U+048D	ҍ	0400..04FF	Cyrillic	Cyrillic small letter semisoft sign		
+U+048E	Ҏ	0400..04FF	Cyrillic	Cyrillic capital letter er with tick		
+U+048F	ҏ	0400..04FF	Cyrillic	Cyrillic small letter er with tick		
+U+0490	Ґ	0400..04FF	Cyrillic	Cyrillic capital letter ghe with upturn		
+U+0491	ґ	0400..04FF	Cyrillic	Cyrillic small letter ghe with upturn		
+U+0492	Ғ	0400..04FF	Cyrillic	Cyrillic capital letter ghe with stroke		
+U+0493	ғ	0400..04FF	Cyrillic	Cyrillic small letter ghe with stroke		
+U+0494	Ҕ	0400..04FF	Cyrillic	Cyrillic capital letter ghe with middle hook		
+U+0495	ҕ	0400..04FF	Cyrillic	Cyrillic small letter ghe with middle hook		
+U+0496	Җ	0400..04FF	Cyrillic	Cyrillic capital letter zhe with descender		
+U+0497	җ	0400..04FF	Cyrillic	Cyrillic small letter zhe with descender		
+U+0498	Ҙ	0400..04FF	Cyrillic	Cyrillic capital letter ze with descender		
+U+0499	ҙ	0400..04FF	Cyrillic	Cyrillic small letter ze with descender		
+U+049A	Қ	0400..04FF	Cyrillic	Cyrillic capital letter ka with descender		
+U+049B	қ	0400..04FF	Cyrillic	Cyrillic small letter ka with descender		
+U+049C	Ҝ	0400..04FF	Cyrillic	Cyrillic capital letter ka with vertical stroke		
+U+049D	ҝ	0400..04FF	Cyrillic	Cyrillic small letter ka with vertical stroke		
+U+049E	Ҟ	0400..04FF	Cyrillic	Cyrillic capital letter ka with stroke		
+U+049F	ҟ	0400..04FF	Cyrillic	Cyrillic small letter ka with stroke		
+U+04A0	Ҡ	0400..04FF	Cyrillic	Cyrillic capital letter bashkir ka		
+U+04A1	ҡ	0400..04FF	Cyrillic	Cyrillic small letter bashkir ka		
+U+04A2	Ң	0400..04FF	Cyrillic	Cyrillic capital letter en with descender		
+U+04A3	ң	0400..04FF	Cyrillic	Cyrillic small letter en with descender		
+U+04A4	Ҥ	0400..04FF	Cyrillic	Cyrillic capital ligature en ghe		
+U+04A5	ҥ	0400..04FF	Cyrillic	Cyrillic small ligature en ghe		
+U+04A6	Ҧ	0400..04FF	Cyrillic	Cyrillic capital letter pe with middle hook		
+U+04A7	ҧ	0400..04FF	Cyrillic	Cyrillic small letter pe with middle hook		
+U+04A8	Ҩ	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian ha		
+U+04A9	ҩ	0400..04FF	Cyrillic	Cyrillic small letter abkhasian ha		
+U+04AA	Ҫ	0400..04FF	Cyrillic	Cyrillic capital letter es with descender		
+U+04AB	ҫ	0400..04FF	Cyrillic	Cyrillic small letter es with descender		
+U+04AC	Ҭ	0400..04FF	Cyrillic	Cyrillic capital letter te with descender		
+U+04AD	ҭ	0400..04FF	Cyrillic	Cyrillic small letter te with descender		
+U+04AE	Ү	0400..04FF	Cyrillic	Cyrillic capital letter straight u		
+U+04AF	ү	0400..04FF	Cyrillic	Cyrillic small letter straight u		
+U+04B0	Ұ	0400..04FF	Cyrillic	Cyrillic capital letter straight u with stroke		
+U+04B1	ұ	0400..04FF	Cyrillic	Cyrillic small letter straight u with stroke		
+U+04B2	Ҳ	0400..04FF	Cyrillic	Cyrillic capital letter ha with descender		
+U+04B3	ҳ	0400..04FF	Cyrillic	Cyrillic small letter ha with descender		
+U+04B4	Ҵ	0400..04FF	Cyrillic	Cyrillic capital ligature te tse		
+U+04B5	ҵ	0400..04FF	Cyrillic	Cyrillic small ligature te tse		
+U+04B6	Ҷ	0400..04FF	Cyrillic	Cyrillic capital letter che with descender		
+U+04B7	ҷ	0400..04FF	Cyrillic	Cyrillic small letter che with descender		
+U+04B8	Ҹ	0400..04FF	Cyrillic	Cyrillic capital letter che with vertical stroke		
+U+04B9	ҹ	0400..04FF	Cyrillic	Cyrillic small letter che with vertical stroke		
+U+04BA	Һ	0400..04FF	Cyrillic	Cyrillic capital letter shha		
+U+04BB	һ	0400..04FF	Cyrillic	Cyrillic small letter shha		
+U+04BC	Ҽ	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian che		
+U+04BD	ҽ	0400..04FF	Cyrillic	Cyrillic small letter abkhasian che		
+U+04BE	Ҿ	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian che with descender		
+U+04BF	ҿ	0400..04FF	Cyrillic	Cyrillic small letter abkhasian che with descender		
+U+04C0	Ӏ	0400..04FF	Cyrillic	Cyrillic letter palochka		
+U+04C1	Ӂ	0400..04FF	Cyrillic	Cyrillic capital letter zhe with breve		
+U+04C2	ӂ	0400..04FF	Cyrillic	Cyrillic small letter zhe with breve		
+U+04C3	Ӄ	0400..04FF	Cyrillic	Cyrillic capital letter ka with hook		
+U+04C4	ӄ	0400..04FF	Cyrillic	Cyrillic small letter ka with hook		
+U+04C5	Ӆ	0400..04FF	Cyrillic	Cyrillic capital letter el with tail		
+U+04C6	ӆ	0400..04FF	Cyrillic	Cyrillic small letter el with tail		
+U+04C7	Ӈ	0400..04FF	Cyrillic	Cyrillic capital letter en with hook		
+U+04C8	ӈ	0400..04FF	Cyrillic	Cyrillic small letter en with hook		
+U+04C9	Ӊ	0400..04FF	Cyrillic	Cyrillic capital letter en with tail		
+U+04CA	ӊ	0400..04FF	Cyrillic	Cyrillic small letter en with tail		
+U+04CB	Ӌ	0400..04FF	Cyrillic	Cyrillic capital letter khakassian che		
+U+04CC	ӌ	0400..04FF	Cyrillic	Cyrillic small letter khakassian che		
+U+04CD	Ӎ	0400..04FF	Cyrillic	Cyrillic capital letter em with tail		
+U+04CE	ӎ	0400..04FF	Cyrillic	Cyrillic small letter em with tail		
+U+04CF	ӏ	0400..04FF	Cyrillic	Cyrillic small letter palochka		
+U+04D0	Ӑ	0400..04FF	Cyrillic	Cyrillic capital letter a with breve		
+U+04D1	ӑ	0400..04FF	Cyrillic	Cyrillic small letter a with breve		
+U+04D2	Ӓ	0400..04FF	Cyrillic	Cyrillic capital letter a with diaeresis		
+U+04D3	ӓ	0400..04FF	Cyrillic	Cyrillic small letter a with diaeresis		
+U+04D4	Ӕ	0400..04FF	Cyrillic	Cyrillic capital ligature a ie		
+U+04D5	ӕ	0400..04FF	Cyrillic	Cyrillic small ligature a ie		
+U+04D6	Ӗ	0400..04FF	Cyrillic	Cyrillic capital letter ie with breve		
+U+04D7	ӗ	0400..04FF	Cyrillic	Cyrillic small letter ie with breve		
+U+04D8	Ә	0400..04FF	Cyrillic	Cyrillic capital letter schwa		
+U+04D9	ә	0400..04FF	Cyrillic	Cyrillic small letter schwa		
+U+04DA	Ӛ	0400..04FF	Cyrillic	Cyrillic capital letter schwa with diaeresis		
+U+04DB	ӛ	0400..04FF	Cyrillic	Cyrillic small letter schwa with diaeresis		
+U+04DC	Ӝ	0400..04FF	Cyrillic	Cyrillic capital letter zhe with diaeresis		
+U+04DD	ӝ	0400..04FF	Cyrillic	Cyrillic small letter zhe with diaeresis		
+U+04DE	Ӟ	0400..04FF	Cyrillic	Cyrillic capital letter ze with diaeresis		
+U+04DF	ӟ	0400..04FF	Cyrillic	Cyrillic small letter ze with diaeresis		
+U+04E0	Ӡ	0400..04FF	Cyrillic	Cyrillic capital letter abkhasian dze		
+U+04E1	ӡ	0400..04FF	Cyrillic	Cyrillic small letter abkhasian dze		
+U+04E2	Ӣ	0400..04FF	Cyrillic	Cyrillic capital letter i with macron		
+U+04E3	ӣ	0400..04FF	Cyrillic	Cyrillic small letter i with macron		
+U+04E4	Ӥ	0400..04FF	Cyrillic	Cyrillic capital letter i with diaeresis		
+U+04E5	ӥ	0400..04FF	Cyrillic	Cyrillic small letter i with diaeresis		
+U+04E6	Ӧ	0400..04FF	Cyrillic	Cyrillic capital letter o with diaeresis		
+U+04E7	ӧ	0400..04FF	Cyrillic	Cyrillic small letter o with diaeresis		
+U+04E8	Ө	0400..04FF	Cyrillic	Cyrillic capital letter barred o		
+U+04E9	ө	0400..04FF	Cyrillic	Cyrillic small letter barred o		
+U+04EA	Ӫ	0400..04FF	Cyrillic	Cyrillic capital letter barred o with diaeresis		
+U+04EB	ӫ	0400..04FF	Cyrillic	Cyrillic small letter barred o with diaeresis		
+U+04EC	Ӭ	0400..04FF	Cyrillic	Cyrillic capital letter e with diaeresis		
+U+04ED	ӭ	0400..04FF	Cyrillic	Cyrillic small letter e with diaeresis		
+U+04EE	Ӯ	0400..04FF	Cyrillic	Cyrillic capital letter u with macron		
+U+04EF	ӯ	0400..04FF	Cyrillic	Cyrillic small letter u with macron		
+U+04F0	Ӱ	0400..04FF	Cyrillic	Cyrillic capital letter u with diaeresis		
+U+04F1	ӱ	0400..04FF	Cyrillic	Cyrillic small letter u with diaeresis		
+U+04F2	Ӳ	0400..04FF	Cyrillic	Cyrillic capital letter u with double acute		
+U+04F3	ӳ	0400..04FF	Cyrillic	Cyrillic small letter u with double acute		
+U+04F4	Ӵ	0400..04FF	Cyrillic	Cyrillic capital letter che with diaeresis		
+U+04F5	ӵ	0400..04FF	Cyrillic	Cyrillic small letter che with diaeresis		
+U+04F6	Ӷ	0400..04FF	Cyrillic	Cyrillic capital letter ghe with descender		
+U+04F7	ӷ	0400..04FF	Cyrillic	Cyrillic small letter ghe with descender		
+U+04F8	Ӹ	0400..04FF	Cyrillic	Cyrillic capital letter yeru with diaeresis		
+U+04F9	ӹ	0400..04FF	Cyrillic	Cyrillic small letter yeru with diaeresis		
+U+04FA	Ӻ	0400..04FF	Cyrillic	Cyrillic capital letter ghe with stroke and hook		
+U+04FB	ӻ	0400..04FF	Cyrillic	Cyrillic small letter ghe with stroke and hook		
+U+04FC	Ӽ	0400..04FF	Cyrillic	Cyrillic capital letter ha with hook		
+U+04FD	ӽ	0400..04FF	Cyrillic	Cyrillic small letter ha with hook		
+U+04FE	Ӿ	0400..04FF	Cyrillic	Cyrillic capital letter ha with stroke		
+U+04FF	ӿ	0400..04FF	Cyrillic	Cyrillic small letter ha with stroke		

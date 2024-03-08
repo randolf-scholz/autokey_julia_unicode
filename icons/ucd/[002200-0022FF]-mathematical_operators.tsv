@@ -1,257 +1,257 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-2200	"""∀"""	2200..22FF	Mathematical Operators	For all		
-2201	"""∁"""	2200..22FF	Mathematical Operators	Complement		
-2202	"""∂"""	2200..22FF	Mathematical Operators	Partial differential		
-2203	"""∃"""	2200..22FF	Mathematical Operators	There exists		
-2204	"""∄"""	2200..22FF	Mathematical Operators	There does not exist		
-2205	"""∅"""	2200..22FF	Mathematical Operators	Empty set		
-2206	"""∆"""	2200..22FF	Mathematical Operators	Increment		
-2207	"""∇"""	2200..22FF	Mathematical Operators	Nabla		
-2208	"""∈"""	2200..22FF	Mathematical Operators	Element of		
-2209	"""∉"""	2200..22FF	Mathematical Operators	Not an element of		
-220A	"""∊"""	2200..22FF	Mathematical Operators	Small element of		
-220B	"""∋"""	2200..22FF	Mathematical Operators	Contains as member		
-220C	"""∌"""	2200..22FF	Mathematical Operators	Does not contain as member		
-220D	"""∍"""	2200..22FF	Mathematical Operators	Small contains as member		
-220E	"""∎"""	2200..22FF	Mathematical Operators	End of proof		
-220F	"""∏"""	2200..22FF	Mathematical Operators	N-ary product		
-2210	"""∐"""	2200..22FF	Mathematical Operators	N-ary coproduct		
-2211	"""∑"""	2200..22FF	Mathematical Operators	N-ary summation		
-2212	"""−"""	2200..22FF	Mathematical Operators	Minus sign		
-2213	"""∓"""	2200..22FF	Mathematical Operators	Minus-or-plus sign		
-2214	"""∔"""	2200..22FF	Mathematical Operators	Dot plus		
-2215	"""∕"""	2200..22FF	Mathematical Operators	Division slash		
-2216	"""∖"""	2200..22FF	Mathematical Operators	Set minus		
-2217	"""∗"""	2200..22FF	Mathematical Operators	Asterisk operator		
-2218	"""∘"""	2200..22FF	Mathematical Operators	Ring operator		
-2219	"""∙"""	2200..22FF	Mathematical Operators	Bullet operator		
-221A	"""√"""	2200..22FF	Mathematical Operators	Square root		
-221B	"""∛"""	2200..22FF	Mathematical Operators	Cube root		
-221C	"""∜"""	2200..22FF	Mathematical Operators	Fourth root		
-221D	"""∝"""	2200..22FF	Mathematical Operators	Proportional to		
-221E	"""∞"""	2200..22FF	Mathematical Operators	Infinity		
-221F	"""∟"""	2200..22FF	Mathematical Operators	Right angle		
-2220	"""∠"""	2200..22FF	Mathematical Operators	Angle		
-2221	"""∡"""	2200..22FF	Mathematical Operators	Measured angle		
-2222	"""∢"""	2200..22FF	Mathematical Operators	Spherical angle		
-2223	"""∣"""	2200..22FF	Mathematical Operators	Divides		
-2224	"""∤"""	2200..22FF	Mathematical Operators	Does not divide		
-2225	"""∥"""	2200..22FF	Mathematical Operators	Parallel to		
-2226	"""∦"""	2200..22FF	Mathematical Operators	Not parallel to		
-2227	"""∧"""	2200..22FF	Mathematical Operators	Logical and		
-2228	"""∨"""	2200..22FF	Mathematical Operators	Logical or		
-2229	"""∩"""	2200..22FF	Mathematical Operators	Intersection		
-222A	"""∪"""	2200..22FF	Mathematical Operators	Union		
-222B	"""∫"""	2200..22FF	Mathematical Operators	Integral		
-222C	"""∬"""	2200..22FF	Mathematical Operators	Double integral		
-222D	"""∭"""	2200..22FF	Mathematical Operators	Triple integral		
-222E	"""∮"""	2200..22FF	Mathematical Operators	Contour integral		
-222F	"""∯"""	2200..22FF	Mathematical Operators	Surface integral		
-2230	"""∰"""	2200..22FF	Mathematical Operators	Volume integral		
-2231	"""∱"""	2200..22FF	Mathematical Operators	Clockwise integral		
-2232	"""∲"""	2200..22FF	Mathematical Operators	Clockwise contour integral		
-2233	"""∳"""	2200..22FF	Mathematical Operators	Anticlockwise contour integral		
-2234	"""∴"""	2200..22FF	Mathematical Operators	Therefore		
-2235	"""∵"""	2200..22FF	Mathematical Operators	Because		
-2236	"""∶"""	2200..22FF	Mathematical Operators	Ratio		
-2237	"""∷"""	2200..22FF	Mathematical Operators	Proportion		
-2238	"""∸"""	2200..22FF	Mathematical Operators	Dot minus		
-2239	"""∹"""	2200..22FF	Mathematical Operators	Excess		
-223A	"""∺"""	2200..22FF	Mathematical Operators	Geometric proportion		
-223B	"""∻"""	2200..22FF	Mathematical Operators	Homothetic		
-223C	"""∼"""	2200..22FF	Mathematical Operators	Tilde operator		
-223D	"""∽"""	2200..22FF	Mathematical Operators	Reversed tilde		
-223E	"""∾"""	2200..22FF	Mathematical Operators	Inverted lazy s		
-223F	"""∿"""	2200..22FF	Mathematical Operators	Sine wave		
-2240	"""≀"""	2200..22FF	Mathematical Operators	Wreath product		
-2241	"""≁"""	2200..22FF	Mathematical Operators	Not tilde		
-2242	"""≂"""	2200..22FF	Mathematical Operators	Minus tilde		
-2243	"""≃"""	2200..22FF	Mathematical Operators	Asymptotically equal to		
-2244	"""≄"""	2200..22FF	Mathematical Operators	Not asymptotically equal to		
-2245	"""≅"""	2200..22FF	Mathematical Operators	Approximately equal to		
-2246	"""≆"""	2200..22FF	Mathematical Operators	Approximately but not actually equal to		
-2247	"""≇"""	2200..22FF	Mathematical Operators	Neither approximately nor actually equal to		
-2248	"""≈"""	2200..22FF	Mathematical Operators	Almost equal to		
-2249	"""≉"""	2200..22FF	Mathematical Operators	Not almost equal to		
-224A	"""≊"""	2200..22FF	Mathematical Operators	Almost equal or equal to		
-224B	"""≋"""	2200..22FF	Mathematical Operators	Triple tilde		
-224C	"""≌"""	2200..22FF	Mathematical Operators	All equal to		
-224D	"""≍"""	2200..22FF	Mathematical Operators	Equivalent to		
-224E	"""≎"""	2200..22FF	Mathematical Operators	Geometrically equivalent to		
-224F	"""≏"""	2200..22FF	Mathematical Operators	Difference between		
-2250	"""≐"""	2200..22FF	Mathematical Operators	Approaches the limit		
-2251	"""≑"""	2200..22FF	Mathematical Operators	Geometrically equal to		
-2252	"""≒"""	2200..22FF	Mathematical Operators	Approximately equal to or the image of		
-2253	"""≓"""	2200..22FF	Mathematical Operators	Image of or approximately equal to		
-2254	"""≔"""	2200..22FF	Mathematical Operators	Colon equals		
-2255	"""≕"""	2200..22FF	Mathematical Operators	Equals colon		
-2256	"""≖"""	2200..22FF	Mathematical Operators	Ring in equal to		
-2257	"""≗"""	2200..22FF	Mathematical Operators	Ring equal to		
-2258	"""≘"""	2200..22FF	Mathematical Operators	Corresponds to		
-2259	"""≙"""	2200..22FF	Mathematical Operators	Estimates		
-225A	"""≚"""	2200..22FF	Mathematical Operators	Equiangular to		
-225B	"""≛"""	2200..22FF	Mathematical Operators	Star equals		
-225C	"""≜"""	2200..22FF	Mathematical Operators	Delta equal to		
-225D	"""≝"""	2200..22FF	Mathematical Operators	Equal to by definition		
-225E	"""≞"""	2200..22FF	Mathematical Operators	Measured by		
-225F	"""≟"""	2200..22FF	Mathematical Operators	Questioned equal to		
-2260	"""≠"""	2200..22FF	Mathematical Operators	Not equal to		
-2261	"""≡"""	2200..22FF	Mathematical Operators	Identical to		
-2262	"""≢"""	2200..22FF	Mathematical Operators	Not identical to		
-2263	"""≣"""	2200..22FF	Mathematical Operators	Strictly equivalent to		
-2264	"""≤"""	2200..22FF	Mathematical Operators	Less-than or equal to		
-2265	"""≥"""	2200..22FF	Mathematical Operators	Greater-than or equal to		
-2266	"""≦"""	2200..22FF	Mathematical Operators	Less-than over equal to		
-2267	"""≧"""	2200..22FF	Mathematical Operators	Greater-than over equal to		
-2268	"""≨"""	2200..22FF	Mathematical Operators	Less-than but not equal to		
-2269	"""≩"""	2200..22FF	Mathematical Operators	Greater-than but not equal to		
-226A	"""≪"""	2200..22FF	Mathematical Operators	Much less-than		
-226B	"""≫"""	2200..22FF	Mathematical Operators	Much greater-than		
-226C	"""≬"""	2200..22FF	Mathematical Operators	Between		
-226D	"""≭"""	2200..22FF	Mathematical Operators	Not equivalent to		
-226E	"""≮"""	2200..22FF	Mathematical Operators	Not less-than		
-226F	"""≯"""	2200..22FF	Mathematical Operators	Not greater-than		
-2270	"""≰"""	2200..22FF	Mathematical Operators	Neither less-than nor equal to		
-2271	"""≱"""	2200..22FF	Mathematical Operators	Neither greater-than nor equal to		
-2272	"""≲"""	2200..22FF	Mathematical Operators	Less-than or equivalent to		
-2273	"""≳"""	2200..22FF	Mathematical Operators	Greater-than or equivalent to		
-2274	"""≴"""	2200..22FF	Mathematical Operators	Neither less-than nor equivalent to		
-2275	"""≵"""	2200..22FF	Mathematical Operators	Neither greater-than nor equivalent to		
-2276	"""≶"""	2200..22FF	Mathematical Operators	Less-than or greater-than		
-2277	"""≷"""	2200..22FF	Mathematical Operators	Greater-than or less-than		
-2278	"""≸"""	2200..22FF	Mathematical Operators	Neither less-than nor greater-than		
-2279	"""≹"""	2200..22FF	Mathematical Operators	Neither greater-than nor less-than		
-227A	"""≺"""	2200..22FF	Mathematical Operators	Precedes		
-227B	"""≻"""	2200..22FF	Mathematical Operators	Succeeds		
-227C	"""≼"""	2200..22FF	Mathematical Operators	Precedes or equal to		
-227D	"""≽"""	2200..22FF	Mathematical Operators	Succeeds or equal to		
-227E	"""≾"""	2200..22FF	Mathematical Operators	Precedes or equivalent to		
-227F	"""≿"""	2200..22FF	Mathematical Operators	Succeeds or equivalent to		
-2280	"""⊀"""	2200..22FF	Mathematical Operators	Does not precede		
-2281	"""⊁"""	2200..22FF	Mathematical Operators	Does not succeed		
-2282	"""⊂"""	2200..22FF	Mathematical Operators	Subset of		
-2283	"""⊃"""	2200..22FF	Mathematical Operators	Superset of		
-2284	"""⊄"""	2200..22FF	Mathematical Operators	Not a subset of		
-2285	"""⊅"""	2200..22FF	Mathematical Operators	Not a superset of		
-2286	"""⊆"""	2200..22FF	Mathematical Operators	Subset of or equal to		
-2287	"""⊇"""	2200..22FF	Mathematical Operators	Superset of or equal to		
-2288	"""⊈"""	2200..22FF	Mathematical Operators	Neither a subset of nor equal to		
-2289	"""⊉"""	2200..22FF	Mathematical Operators	Neither a superset of nor equal to		
-228A	"""⊊"""	2200..22FF	Mathematical Operators	Subset of with not equal to		
-228B	"""⊋"""	2200..22FF	Mathematical Operators	Superset of with not equal to		
-228C	"""⊌"""	2200..22FF	Mathematical Operators	Multiset		
-228D	"""⊍"""	2200..22FF	Mathematical Operators	Multiset multiplication		
-228E	"""⊎"""	2200..22FF	Mathematical Operators	Multiset union		
-228F	"""⊏"""	2200..22FF	Mathematical Operators	Square image of		
-2290	"""⊐"""	2200..22FF	Mathematical Operators	Square original of		
-2291	"""⊑"""	2200..22FF	Mathematical Operators	Square image of or equal to		
-2292	"""⊒"""	2200..22FF	Mathematical Operators	Square original of or equal to		
-2293	"""⊓"""	2200..22FF	Mathematical Operators	Square cap		
-2294	"""⊔"""	2200..22FF	Mathematical Operators	Square cup		
-2295	"""⊕"""	2200..22FF	Mathematical Operators	Circled plus		
-2296	"""⊖"""	2200..22FF	Mathematical Operators	Circled minus		
-2297	"""⊗"""	2200..22FF	Mathematical Operators	Circled times		
-2298	"""⊘"""	2200..22FF	Mathematical Operators	Circled division slash		
-2299	"""⊙"""	2200..22FF	Mathematical Operators	Circled dot operator		
-229A	"""⊚"""	2200..22FF	Mathematical Operators	Circled ring operator		
-229B	"""⊛"""	2200..22FF	Mathematical Operators	Circled asterisk operator		
-229C	"""⊜"""	2200..22FF	Mathematical Operators	Circled equals		
-229D	"""⊝"""	2200..22FF	Mathematical Operators	Circled dash		
-229E	"""⊞"""	2200..22FF	Mathematical Operators	Squared plus		
-229F	"""⊟"""	2200..22FF	Mathematical Operators	Squared minus		
-22A0	"""⊠"""	2200..22FF	Mathematical Operators	Squared times		
-22A1	"""⊡"""	2200..22FF	Mathematical Operators	Squared dot operator		
-22A2	"""⊢"""	2200..22FF	Mathematical Operators	Right tack		
-22A3	"""⊣"""	2200..22FF	Mathematical Operators	Left tack		
-22A4	"""⊤"""	2200..22FF	Mathematical Operators	Down tack		
-22A5	"""⊥"""	2200..22FF	Mathematical Operators	Up tack		
-22A6	"""⊦"""	2200..22FF	Mathematical Operators	Assertion		
-22A7	"""⊧"""	2200..22FF	Mathematical Operators	Models		
-22A8	"""⊨"""	2200..22FF	Mathematical Operators	True		
-22A9	"""⊩"""	2200..22FF	Mathematical Operators	Forces		
-22AA	"""⊪"""	2200..22FF	Mathematical Operators	Triple vertical bar right turnstile		
-22AB	"""⊫"""	2200..22FF	Mathematical Operators	Double vertical bar double right turnstile		
-22AC	"""⊬"""	2200..22FF	Mathematical Operators	Does not prove		
-22AD	"""⊭"""	2200..22FF	Mathematical Operators	Not true		
-22AE	"""⊮"""	2200..22FF	Mathematical Operators	Does not force		
-22AF	"""⊯"""	2200..22FF	Mathematical Operators	Negated double vertical bar double right turnstile		
-22B0	"""⊰"""	2200..22FF	Mathematical Operators	Precedes under relation		
-22B1	"""⊱"""	2200..22FF	Mathematical Operators	Succeeds under relation		
-22B2	"""⊲"""	2200..22FF	Mathematical Operators	Normal subgroup of		
-22B3	"""⊳"""	2200..22FF	Mathematical Operators	Contains as normal subgroup		
-22B4	"""⊴"""	2200..22FF	Mathematical Operators	Normal subgroup of or equal to		
-22B5	"""⊵"""	2200..22FF	Mathematical Operators	Contains as normal subgroup or equal to		
-22B6	"""⊶"""	2200..22FF	Mathematical Operators	Original of		
-22B7	"""⊷"""	2200..22FF	Mathematical Operators	Image of		
-22B8	"""⊸"""	2200..22FF	Mathematical Operators	Multimap		
-22B9	"""⊹"""	2200..22FF	Mathematical Operators	Hermitian conjugate matrix		
-22BA	"""⊺"""	2200..22FF	Mathematical Operators	Intercalate		
-22BB	"""⊻"""	2200..22FF	Mathematical Operators	Xor		
-22BC	"""⊼"""	2200..22FF	Mathematical Operators	Nand		
-22BD	"""⊽"""	2200..22FF	Mathematical Operators	Nor		
-22BE	"""⊾"""	2200..22FF	Mathematical Operators	Right angle with arc		
-22BF	"""⊿"""	2200..22FF	Mathematical Operators	Right triangle		
-22C0	"""⋀"""	2200..22FF	Mathematical Operators	N-ary logical and		
-22C1	"""⋁"""	2200..22FF	Mathematical Operators	N-ary logical or		
-22C2	"""⋂"""	2200..22FF	Mathematical Operators	N-ary intersection		
-22C3	"""⋃"""	2200..22FF	Mathematical Operators	N-ary union		
-22C4	"""⋄"""	2200..22FF	Mathematical Operators	Diamond operator		
-22C5	"""⋅"""	2200..22FF	Mathematical Operators	Dot operator		
-22C6	"""⋆"""	2200..22FF	Mathematical Operators	Star operator		
-22C7	"""⋇"""	2200..22FF	Mathematical Operators	Division times		
-22C8	"""⋈"""	2200..22FF	Mathematical Operators	Bowtie		
-22C9	"""⋉"""	2200..22FF	Mathematical Operators	Left normal factor semidirect product		
-22CA	"""⋊"""	2200..22FF	Mathematical Operators	Right normal factor semidirect product		
-22CB	"""⋋"""	2200..22FF	Mathematical Operators	Left semidirect product		
-22CC	"""⋌"""	2200..22FF	Mathematical Operators	Right semidirect product		
-22CD	"""⋍"""	2200..22FF	Mathematical Operators	Reversed tilde equals		
-22CE	"""⋎"""	2200..22FF	Mathematical Operators	Curly logical or		
-22CF	"""⋏"""	2200..22FF	Mathematical Operators	Curly logical and		
-22D0	"""⋐"""	2200..22FF	Mathematical Operators	Double subset		
-22D1	"""⋑"""	2200..22FF	Mathematical Operators	Double superset		
-22D2	"""⋒"""	2200..22FF	Mathematical Operators	Double intersection		
-22D3	"""⋓"""	2200..22FF	Mathematical Operators	Double union		
-22D4	"""⋔"""	2200..22FF	Mathematical Operators	Pitchfork		
-22D5	"""⋕"""	2200..22FF	Mathematical Operators	Equal and parallel to		
-22D6	"""⋖"""	2200..22FF	Mathematical Operators	Less-than with dot		
-22D7	"""⋗"""	2200..22FF	Mathematical Operators	Greater-than with dot		
-22D8	"""⋘"""	2200..22FF	Mathematical Operators	Very much less-than		
-22D9	"""⋙"""	2200..22FF	Mathematical Operators	Very much greater-than		
-22DA	"""⋚"""	2200..22FF	Mathematical Operators	Less-than equal to or greater-than		
-22DB	"""⋛"""	2200..22FF	Mathematical Operators	Greater-than equal to or less-than		
-22DC	"""⋜"""	2200..22FF	Mathematical Operators	Equal to or less-than		
-22DD	"""⋝"""	2200..22FF	Mathematical Operators	Equal to or greater-than		
-22DE	"""⋞"""	2200..22FF	Mathematical Operators	Equal to or precedes		
-22DF	"""⋟"""	2200..22FF	Mathematical Operators	Equal to or succeeds		
-22E0	"""⋠"""	2200..22FF	Mathematical Operators	Does not precede or equal		
-22E1	"""⋡"""	2200..22FF	Mathematical Operators	Does not succeed or equal		
-22E2	"""⋢"""	2200..22FF	Mathematical Operators	Not square image of or equal to		
-22E3	"""⋣"""	2200..22FF	Mathematical Operators	Not square original of or equal to		
-22E4	"""⋤"""	2200..22FF	Mathematical Operators	Square image of or not equal to		
-22E5	"""⋥"""	2200..22FF	Mathematical Operators	Square original of or not equal to		
-22E6	"""⋦"""	2200..22FF	Mathematical Operators	Less-than but not equivalent to		
-22E7	"""⋧"""	2200..22FF	Mathematical Operators	Greater-than but not equivalent to		
-22E8	"""⋨"""	2200..22FF	Mathematical Operators	Precedes but not equivalent to		
-22E9	"""⋩"""	2200..22FF	Mathematical Operators	Succeeds but not equivalent to		
-22EA	"""⋪"""	2200..22FF	Mathematical Operators	Not normal subgroup of		
-22EB	"""⋫"""	2200..22FF	Mathematical Operators	Does not contain as normal subgroup		
-22EC	"""⋬"""	2200..22FF	Mathematical Operators	Not normal subgroup of or equal to		
-22ED	"""⋭"""	2200..22FF	Mathematical Operators	Does not contain as normal subgroup or equal		
-22EE	"""⋮"""	2200..22FF	Mathematical Operators	Vertical ellipsis		
-22EF	"""⋯"""	2200..22FF	Mathematical Operators	Midline horizontal ellipsis		
-22F0	"""⋰"""	2200..22FF	Mathematical Operators	Up right diagonal ellipsis		
-22F1	"""⋱"""	2200..22FF	Mathematical Operators	Down right diagonal ellipsis		
-22F2	"""⋲"""	2200..22FF	Mathematical Operators	Element of with long horizontal stroke		
-22F3	"""⋳"""	2200..22FF	Mathematical Operators	Element of with vertical bar at end of horizontal stroke		
-22F4	"""⋴"""	2200..22FF	Mathematical Operators	Small element of with vertical bar at end of horizontal stroke		
-22F5	"""⋵"""	2200..22FF	Mathematical Operators	Element of with dot above		
-22F6	"""⋶"""	2200..22FF	Mathematical Operators	Element of with overbar		
-22F7	"""⋷"""	2200..22FF	Mathematical Operators	Small element of with overbar		
-22F8	"""⋸"""	2200..22FF	Mathematical Operators	Element of with underbar		
-22F9	"""⋹"""	2200..22FF	Mathematical Operators	Element of with two horizontal strokes		
-22FA	"""⋺"""	2200..22FF	Mathematical Operators	Contains with long horizontal stroke		
-22FB	"""⋻"""	2200..22FF	Mathematical Operators	Contains with vertical bar at end of horizontal stroke		
-22FC	"""⋼"""	2200..22FF	Mathematical Operators	Small contains with vertical bar at end of horizontal stroke		
-22FD	"""⋽"""	2200..22FF	Mathematical Operators	Contains with overbar		
-22FE	"""⋾"""	2200..22FF	Mathematical Operators	Small contains with overbar		
-22FF	"""⋿"""	2200..22FF	Mathematical Operators	Z notation bag membership		
+U+2200	∀	2200..22FF	Mathematical Operators	For all		
+U+2201	∁	2200..22FF	Mathematical Operators	Complement		
+U+2202	∂	2200..22FF	Mathematical Operators	Partial differential		
+U+2203	∃	2200..22FF	Mathematical Operators	There exists		
+U+2204	∄	2200..22FF	Mathematical Operators	There does not exist		
+U+2205	∅	2200..22FF	Mathematical Operators	Empty set		
+U+2206	∆	2200..22FF	Mathematical Operators	Increment		
+U+2207	∇	2200..22FF	Mathematical Operators	Nabla		
+U+2208	∈	2200..22FF	Mathematical Operators	Element of		
+U+2209	∉	2200..22FF	Mathematical Operators	Not an element of		
+U+220A	∊	2200..22FF	Mathematical Operators	Small element of		
+U+220B	∋	2200..22FF	Mathematical Operators	Contains as member		
+U+220C	∌	2200..22FF	Mathematical Operators	Does not contain as member		
+U+220D	∍	2200..22FF	Mathematical Operators	Small contains as member		
+U+220E	∎	2200..22FF	Mathematical Operators	End of proof		
+U+220F	∏	2200..22FF	Mathematical Operators	N-ary product		
+U+2210	∐	2200..22FF	Mathematical Operators	N-ary coproduct		
+U+2211	∑	2200..22FF	Mathematical Operators	N-ary summation		
+U+2212	−	2200..22FF	Mathematical Operators	Minus sign		
+U+2213	∓	2200..22FF	Mathematical Operators	Minus-or-plus sign		
+U+2214	∔	2200..22FF	Mathematical Operators	Dot plus		
+U+2215	∕	2200..22FF	Mathematical Operators	Division slash		
+U+2216	∖	2200..22FF	Mathematical Operators	Set minus		
+U+2217	∗	2200..22FF	Mathematical Operators	Asterisk operator		
+U+2218	∘	2200..22FF	Mathematical Operators	Ring operator		
+U+2219	∙	2200..22FF	Mathematical Operators	Bullet operator		
+U+221A	√	2200..22FF	Mathematical Operators	Square root		
+U+221B	∛	2200..22FF	Mathematical Operators	Cube root		
+U+221C	∜	2200..22FF	Mathematical Operators	Fourth root		
+U+221D	∝	2200..22FF	Mathematical Operators	Proportional to		
+U+221E	∞	2200..22FF	Mathematical Operators	Infinity		
+U+221F	∟	2200..22FF	Mathematical Operators	Right angle		
+U+2220	∠	2200..22FF	Mathematical Operators	Angle		
+U+2221	∡	2200..22FF	Mathematical Operators	Measured angle		
+U+2222	∢	2200..22FF	Mathematical Operators	Spherical angle		
+U+2223	∣	2200..22FF	Mathematical Operators	Divides		
+U+2224	∤	2200..22FF	Mathematical Operators	Does not divide		
+U+2225	∥	2200..22FF	Mathematical Operators	Parallel to		
+U+2226	∦	2200..22FF	Mathematical Operators	Not parallel to		
+U+2227	∧	2200..22FF	Mathematical Operators	Logical and		
+U+2228	∨	2200..22FF	Mathematical Operators	Logical or		
+U+2229	∩	2200..22FF	Mathematical Operators	Intersection		
+U+222A	∪	2200..22FF	Mathematical Operators	Union		
+U+222B	∫	2200..22FF	Mathematical Operators	Integral		
+U+222C	∬	2200..22FF	Mathematical Operators	Double integral		
+U+222D	∭	2200..22FF	Mathematical Operators	Triple integral		
+U+222E	∮	2200..22FF	Mathematical Operators	Contour integral		
+U+222F	∯	2200..22FF	Mathematical Operators	Surface integral		
+U+2230	∰	2200..22FF	Mathematical Operators	Volume integral		
+U+2231	∱	2200..22FF	Mathematical Operators	Clockwise integral		
+U+2232	∲	2200..22FF	Mathematical Operators	Clockwise contour integral		
+U+2233	∳	2200..22FF	Mathematical Operators	Anticlockwise contour integral		
+U+2234	∴	2200..22FF	Mathematical Operators	Therefore		
+U+2235	∵	2200..22FF	Mathematical Operators	Because		
+U+2236	∶	2200..22FF	Mathematical Operators	Ratio		
+U+2237	∷	2200..22FF	Mathematical Operators	Proportion		
+U+2238	∸	2200..22FF	Mathematical Operators	Dot minus		
+U+2239	∹	2200..22FF	Mathematical Operators	Excess		
+U+223A	∺	2200..22FF	Mathematical Operators	Geometric proportion		
+U+223B	∻	2200..22FF	Mathematical Operators	Homothetic		
+U+223C	∼	2200..22FF	Mathematical Operators	Tilde operator		
+U+223D	∽	2200..22FF	Mathematical Operators	Reversed tilde		
+U+223E	∾	2200..22FF	Mathematical Operators	Inverted lazy s		
+U+223F	∿	2200..22FF	Mathematical Operators	Sine wave		
+U+2240	≀	2200..22FF	Mathematical Operators	Wreath product		
+U+2241	≁	2200..22FF	Mathematical Operators	Not tilde		
+U+2242	≂	2200..22FF	Mathematical Operators	Minus tilde		
+U+2243	≃	2200..22FF	Mathematical Operators	Asymptotically equal to		
+U+2244	≄	2200..22FF	Mathematical Operators	Not asymptotically equal to		
+U+2245	≅	2200..22FF	Mathematical Operators	Approximately equal to		
+U+2246	≆	2200..22FF	Mathematical Operators	Approximately but not actually equal to		
+U+2247	≇	2200..22FF	Mathematical Operators	Neither approximately nor actually equal to		
+U+2248	≈	2200..22FF	Mathematical Operators	Almost equal to		
+U+2249	≉	2200..22FF	Mathematical Operators	Not almost equal to		
+U+224A	≊	2200..22FF	Mathematical Operators	Almost equal or equal to		
+U+224B	≋	2200..22FF	Mathematical Operators	Triple tilde		
+U+224C	≌	2200..22FF	Mathematical Operators	All equal to		
+U+224D	≍	2200..22FF	Mathematical Operators	Equivalent to		
+U+224E	≎	2200..22FF	Mathematical Operators	Geometrically equivalent to		
+U+224F	≏	2200..22FF	Mathematical Operators	Difference between		
+U+2250	≐	2200..22FF	Mathematical Operators	Approaches the limit		
+U+2251	≑	2200..22FF	Mathematical Operators	Geometrically equal to		
+U+2252	≒	2200..22FF	Mathematical Operators	Approximately equal to or the image of		
+U+2253	≓	2200..22FF	Mathematical Operators	Image of or approximately equal to		
+U+2254	≔	2200..22FF	Mathematical Operators	Colon equals		
+U+2255	≕	2200..22FF	Mathematical Operators	Equals colon		
+U+2256	≖	2200..22FF	Mathematical Operators	Ring in equal to		
+U+2257	≗	2200..22FF	Mathematical Operators	Ring equal to		
+U+2258	≘	2200..22FF	Mathematical Operators	Corresponds to		
+U+2259	≙	2200..22FF	Mathematical Operators	Estimates		
+U+225A	≚	2200..22FF	Mathematical Operators	Equiangular to		
+U+225B	≛	2200..22FF	Mathematical Operators	Star equals		
+U+225C	≜	2200..22FF	Mathematical Operators	Delta equal to		
+U+225D	≝	2200..22FF	Mathematical Operators	Equal to by definition		
+U+225E	≞	2200..22FF	Mathematical Operators	Measured by		
+U+225F	≟	2200..22FF	Mathematical Operators	Questioned equal to		
+U+2260	≠	2200..22FF	Mathematical Operators	Not equal to		
+U+2261	≡	2200..22FF	Mathematical Operators	Identical to		
+U+2262	≢	2200..22FF	Mathematical Operators	Not identical to		
+U+2263	≣	2200..22FF	Mathematical Operators	Strictly equivalent to		
+U+2264	≤	2200..22FF	Mathematical Operators	Less-than or equal to		
+U+2265	≥	2200..22FF	Mathematical Operators	Greater-than or equal to		
+U+2266	≦	2200..22FF	Mathematical Operators	Less-than over equal to		
+U+2267	≧	2200..22FF	Mathematical Operators	Greater-than over equal to		
+U+2268	≨	2200..22FF	Mathematical Operators	Less-than but not equal to		
+U+2269	≩	2200..22FF	Mathematical Operators	Greater-than but not equal to		
+U+226A	≪	2200..22FF	Mathematical Operators	Much less-than		
+U+226B	≫	2200..22FF	Mathematical Operators	Much greater-than		
+U+226C	≬	2200..22FF	Mathematical Operators	Between		
+U+226D	≭	2200..22FF	Mathematical Operators	Not equivalent to		
+U+226E	≮	2200..22FF	Mathematical Operators	Not less-than		
+U+226F	≯	2200..22FF	Mathematical Operators	Not greater-than		
+U+2270	≰	2200..22FF	Mathematical Operators	Neither less-than nor equal to		
+U+2271	≱	2200..22FF	Mathematical Operators	Neither greater-than nor equal to		
+U+2272	≲	2200..22FF	Mathematical Operators	Less-than or equivalent to		
+U+2273	≳	2200..22FF	Mathematical Operators	Greater-than or equivalent to		
+U+2274	≴	2200..22FF	Mathematical Operators	Neither less-than nor equivalent to		
+U+2275	≵	2200..22FF	Mathematical Operators	Neither greater-than nor equivalent to		
+U+2276	≶	2200..22FF	Mathematical Operators	Less-than or greater-than		
+U+2277	≷	2200..22FF	Mathematical Operators	Greater-than or less-than		
+U+2278	≸	2200..22FF	Mathematical Operators	Neither less-than nor greater-than		
+U+2279	≹	2200..22FF	Mathematical Operators	Neither greater-than nor less-than		
+U+227A	≺	2200..22FF	Mathematical Operators	Precedes		
+U+227B	≻	2200..22FF	Mathematical Operators	Succeeds		
+U+227C	≼	2200..22FF	Mathematical Operators	Precedes or equal to		
+U+227D	≽	2200..22FF	Mathematical Operators	Succeeds or equal to		
+U+227E	≾	2200..22FF	Mathematical Operators	Precedes or equivalent to		
+U+227F	≿	2200..22FF	Mathematical Operators	Succeeds or equivalent to		
+U+2280	⊀	2200..22FF	Mathematical Operators	Does not precede		
+U+2281	⊁	2200..22FF	Mathematical Operators	Does not succeed		
+U+2282	⊂	2200..22FF	Mathematical Operators	Subset of		
+U+2283	⊃	2200..22FF	Mathematical Operators	Superset of		
+U+2284	⊄	2200..22FF	Mathematical Operators	Not a subset of		
+U+2285	⊅	2200..22FF	Mathematical Operators	Not a superset of		
+U+2286	⊆	2200..22FF	Mathematical Operators	Subset of or equal to		
+U+2287	⊇	2200..22FF	Mathematical Operators	Superset of or equal to		
+U+2288	⊈	2200..22FF	Mathematical Operators	Neither a subset of nor equal to		
+U+2289	⊉	2200..22FF	Mathematical Operators	Neither a superset of nor equal to		
+U+228A	⊊	2200..22FF	Mathematical Operators	Subset of with not equal to		
+U+228B	⊋	2200..22FF	Mathematical Operators	Superset of with not equal to		
+U+228C	⊌	2200..22FF	Mathematical Operators	Multiset		
+U+228D	⊍	2200..22FF	Mathematical Operators	Multiset multiplication		
+U+228E	⊎	2200..22FF	Mathematical Operators	Multiset union		
+U+228F	⊏	2200..22FF	Mathematical Operators	Square image of		
+U+2290	⊐	2200..22FF	Mathematical Operators	Square original of		
+U+2291	⊑	2200..22FF	Mathematical Operators	Square image of or equal to		
+U+2292	⊒	2200..22FF	Mathematical Operators	Square original of or equal to		
+U+2293	⊓	2200..22FF	Mathematical Operators	Square cap		
+U+2294	⊔	2200..22FF	Mathematical Operators	Square cup		
+U+2295	⊕	2200..22FF	Mathematical Operators	Circled plus		
+U+2296	⊖	2200..22FF	Mathematical Operators	Circled minus		
+U+2297	⊗	2200..22FF	Mathematical Operators	Circled times		
+U+2298	⊘	2200..22FF	Mathematical Operators	Circled division slash		
+U+2299	⊙	2200..22FF	Mathematical Operators	Circled dot operator		
+U+229A	⊚	2200..22FF	Mathematical Operators	Circled ring operator		
+U+229B	⊛	2200..22FF	Mathematical Operators	Circled asterisk operator		
+U+229C	⊜	2200..22FF	Mathematical Operators	Circled equals		
+U+229D	⊝	2200..22FF	Mathematical Operators	Circled dash		
+U+229E	⊞	2200..22FF	Mathematical Operators	Squared plus		
+U+229F	⊟	2200..22FF	Mathematical Operators	Squared minus		
+U+22A0	⊠	2200..22FF	Mathematical Operators	Squared times		
+U+22A1	⊡	2200..22FF	Mathematical Operators	Squared dot operator		
+U+22A2	⊢	2200..22FF	Mathematical Operators	Right tack		
+U+22A3	⊣	2200..22FF	Mathematical Operators	Left tack		
+U+22A4	⊤	2200..22FF	Mathematical Operators	Down tack		
+U+22A5	⊥	2200..22FF	Mathematical Operators	Up tack		
+U+22A6	⊦	2200..22FF	Mathematical Operators	Assertion		
+U+22A7	⊧	2200..22FF	Mathematical Operators	Models		
+U+22A8	⊨	2200..22FF	Mathematical Operators	True		
+U+22A9	⊩	2200..22FF	Mathematical Operators	Forces		
+U+22AA	⊪	2200..22FF	Mathematical Operators	Triple vertical bar right turnstile		
+U+22AB	⊫	2200..22FF	Mathematical Operators	Double vertical bar double right turnstile		
+U+22AC	⊬	2200..22FF	Mathematical Operators	Does not prove		
+U+22AD	⊭	2200..22FF	Mathematical Operators	Not true		
+U+22AE	⊮	2200..22FF	Mathematical Operators	Does not force		
+U+22AF	⊯	2200..22FF	Mathematical Operators	Negated double vertical bar double right turnstile		
+U+22B0	⊰	2200..22FF	Mathematical Operators	Precedes under relation		
+U+22B1	⊱	2200..22FF	Mathematical Operators	Succeeds under relation		
+U+22B2	⊲	2200..22FF	Mathematical Operators	Normal subgroup of		
+U+22B3	⊳	2200..22FF	Mathematical Operators	Contains as normal subgroup		
+U+22B4	⊴	2200..22FF	Mathematical Operators	Normal subgroup of or equal to		
+U+22B5	⊵	2200..22FF	Mathematical Operators	Contains as normal subgroup or equal to		
+U+22B6	⊶	2200..22FF	Mathematical Operators	Original of		
+U+22B7	⊷	2200..22FF	Mathematical Operators	Image of		
+U+22B8	⊸	2200..22FF	Mathematical Operators	Multimap		
+U+22B9	⊹	2200..22FF	Mathematical Operators	Hermitian conjugate matrix		
+U+22BA	⊺	2200..22FF	Mathematical Operators	Intercalate		
+U+22BB	⊻	2200..22FF	Mathematical Operators	Xor		
+U+22BC	⊼	2200..22FF	Mathematical Operators	Nand		
+U+22BD	⊽	2200..22FF	Mathematical Operators	Nor		
+U+22BE	⊾	2200..22FF	Mathematical Operators	Right angle with arc		
+U+22BF	⊿	2200..22FF	Mathematical Operators	Right triangle		
+U+22C0	⋀	2200..22FF	Mathematical Operators	N-ary logical and		
+U+22C1	⋁	2200..22FF	Mathematical Operators	N-ary logical or		
+U+22C2	⋂	2200..22FF	Mathematical Operators	N-ary intersection		
+U+22C3	⋃	2200..22FF	Mathematical Operators	N-ary union		
+U+22C4	⋄	2200..22FF	Mathematical Operators	Diamond operator		
+U+22C5	⋅	2200..22FF	Mathematical Operators	Dot operator		
+U+22C6	⋆	2200..22FF	Mathematical Operators	Star operator		
+U+22C7	⋇	2200..22FF	Mathematical Operators	Division times		
+U+22C8	⋈	2200..22FF	Mathematical Operators	Bowtie		
+U+22C9	⋉	2200..22FF	Mathematical Operators	Left normal factor semidirect product		
+U+22CA	⋊	2200..22FF	Mathematical Operators	Right normal factor semidirect product		
+U+22CB	⋋	2200..22FF	Mathematical Operators	Left semidirect product		
+U+22CC	⋌	2200..22FF	Mathematical Operators	Right semidirect product		
+U+22CD	⋍	2200..22FF	Mathematical Operators	Reversed tilde equals		
+U+22CE	⋎	2200..22FF	Mathematical Operators	Curly logical or		
+U+22CF	⋏	2200..22FF	Mathematical Operators	Curly logical and		
+U+22D0	⋐	2200..22FF	Mathematical Operators	Double subset		
+U+22D1	⋑	2200..22FF	Mathematical Operators	Double superset		
+U+22D2	⋒	2200..22FF	Mathematical Operators	Double intersection		
+U+22D3	⋓	2200..22FF	Mathematical Operators	Double union		
+U+22D4	⋔	2200..22FF	Mathematical Operators	Pitchfork		
+U+22D5	⋕	2200..22FF	Mathematical Operators	Equal and parallel to		
+U+22D6	⋖	2200..22FF	Mathematical Operators	Less-than with dot		
+U+22D7	⋗	2200..22FF	Mathematical Operators	Greater-than with dot		
+U+22D8	⋘	2200..22FF	Mathematical Operators	Very much less-than		
+U+22D9	⋙	2200..22FF	Mathematical Operators	Very much greater-than		
+U+22DA	⋚	2200..22FF	Mathematical Operators	Less-than equal to or greater-than		
+U+22DB	⋛	2200..22FF	Mathematical Operators	Greater-than equal to or less-than		
+U+22DC	⋜	2200..22FF	Mathematical Operators	Equal to or less-than		
+U+22DD	⋝	2200..22FF	Mathematical Operators	Equal to or greater-than		
+U+22DE	⋞	2200..22FF	Mathematical Operators	Equal to or precedes		
+U+22DF	⋟	2200..22FF	Mathematical Operators	Equal to or succeeds		
+U+22E0	⋠	2200..22FF	Mathematical Operators	Does not precede or equal		
+U+22E1	⋡	2200..22FF	Mathematical Operators	Does not succeed or equal		
+U+22E2	⋢	2200..22FF	Mathematical Operators	Not square image of or equal to		
+U+22E3	⋣	2200..22FF	Mathematical Operators	Not square original of or equal to		
+U+22E4	⋤	2200..22FF	Mathematical Operators	Square image of or not equal to		
+U+22E5	⋥	2200..22FF	Mathematical Operators	Square original of or not equal to		
+U+22E6	⋦	2200..22FF	Mathematical Operators	Less-than but not equivalent to		
+U+22E7	⋧	2200..22FF	Mathematical Operators	Greater-than but not equivalent to		
+U+22E8	⋨	2200..22FF	Mathematical Operators	Precedes but not equivalent to		
+U+22E9	⋩	2200..22FF	Mathematical Operators	Succeeds but not equivalent to		
+U+22EA	⋪	2200..22FF	Mathematical Operators	Not normal subgroup of		
+U+22EB	⋫	2200..22FF	Mathematical Operators	Does not contain as normal subgroup		
+U+22EC	⋬	2200..22FF	Mathematical Operators	Not normal subgroup of or equal to		
+U+22ED	⋭	2200..22FF	Mathematical Operators	Does not contain as normal subgroup or equal		
+U+22EE	⋮	2200..22FF	Mathematical Operators	Vertical ellipsis		
+U+22EF	⋯	2200..22FF	Mathematical Operators	Midline horizontal ellipsis		
+U+22F0	⋰	2200..22FF	Mathematical Operators	Up right diagonal ellipsis		
+U+22F1	⋱	2200..22FF	Mathematical Operators	Down right diagonal ellipsis		
+U+22F2	⋲	2200..22FF	Mathematical Operators	Element of with long horizontal stroke		
+U+22F3	⋳	2200..22FF	Mathematical Operators	Element of with vertical bar at end of horizontal stroke		
+U+22F4	⋴	2200..22FF	Mathematical Operators	Small element of with vertical bar at end of horizontal stroke		
+U+22F5	⋵	2200..22FF	Mathematical Operators	Element of with dot above		
+U+22F6	⋶	2200..22FF	Mathematical Operators	Element of with overbar		
+U+22F7	⋷	2200..22FF	Mathematical Operators	Small element of with overbar		
+U+22F8	⋸	2200..22FF	Mathematical Operators	Element of with underbar		
+U+22F9	⋹	2200..22FF	Mathematical Operators	Element of with two horizontal strokes		
+U+22FA	⋺	2200..22FF	Mathematical Operators	Contains with long horizontal stroke		
+U+22FB	⋻	2200..22FF	Mathematical Operators	Contains with vertical bar at end of horizontal stroke		
+U+22FC	⋼	2200..22FF	Mathematical Operators	Small contains with vertical bar at end of horizontal stroke		
+U+22FD	⋽	2200..22FF	Mathematical Operators	Contains with overbar		
+U+22FE	⋾	2200..22FF	Mathematical Operators	Small contains with overbar		
+U+22FF	⋿	2200..22FF	Mathematical Operators	Z notation bag membership		

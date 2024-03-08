@@ -2,6 +2,7 @@
 
 ## [CHANGELOG](CHANGELOG.md)
 
+- 2024-03-08: Revamped the installation script, refactored the installation procedure.
 - 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
 - 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
 - 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
@@ -15,7 +16,7 @@ This script adds all the unicode character abbreviations supported by [Julia](ht
 ## Installation & Requirements
 
 1. Install [autokey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
-2. Execute `generate_phrases.py` (requires python ≥3.10)
+2. Execute `install.py` (requires python ≥3.10)
 3. Restart autokey
 
 ## Features
@@ -25,7 +26,7 @@ For overview see [Supported Alphabets](#supported-alphabets)
 ## Advantages of Unicode
 
 1. Work even when MathJax / LaTeX is not available (e.g. E-mails, chat clients, etc.)
-2. Is character efficient (e.g. when writing comments on https://math.stackexchange.com)
+2. Is character efficient (e.g. when writing comments on <https://math.stackexchange.com>)
 3. Increases readability of source code.
 4. Copy-paste persistent.
 
@@ -55,48 +56,61 @@ this platform only supports the first 65536 unicode characters
 
 To create single characters of the given alphabet, simply type `\<modifier><char><space>`.
 
-- For blackboard bold R, `ℝ`, type `\bbR `.
-- For a circled one, `①`, type `\o1 `.
-- For a bold italic capital gamma, `𝜞`, type `\biGamma `.
-- For the sub and superscripts, `Xᵢ²`, type `X\_i \^2 `.
-- For the roman numeral `Ⅷ` (this is a single UTF-8 glyph, and not `V`+`I`+`I`+`I`), type `\RM8 `.
+- For blackboard bold R, `ℝ`, type `\bbR␣`.
+- For a circled one, `①`, type `\o1␣`.
+- For a bold italic capital gamma, `𝜞`, type `\biGamma␣`.
+- For the sub and superscripts, `Xᵢ²`, type `X\_i␣\^2␣`.
+- For the roman numeral `Ⅷ` (this is a single UTF-8 glyph, and not `V`+`I`+`I`+`I`), type `\RM8␣`.
 
 #### Serif Font
 
-| family | `bf`   | `it`   | `bi`   |
-|--------|--------|--------|--------|
-| latin  | 𝐚𝐛𝐜𝐀𝐁𝐂 | 𝑎𝑏𝑐𝐴𝐵𝐶 | 𝒂𝒃𝒄𝑨𝑩𝑪 |
-| greek  | 𝛂𝛃𝛄𝚨𝚩𝚪 | 𝛼𝛽𝛾𝛢𝛣𝛤 | 𝜶𝜷𝜸𝜜𝜝𝜞 |
-| digits | 𝟎𝟏𝟐    |        |        |
+| family | `\bf<>` | `\it<>` | `\bi<>` |
+|---|---|---|---|
+| latin | 𝐚𝐛𝐜𝐀𝐁𝐂      | 𝑎𝑏𝑐𝐴𝐵𝐶      | 𝒂𝒃𝒄𝑨𝑩𝑪      |
+| greek | 𝛂𝛃𝛄𝚨𝚩𝚪      | 𝛼𝛽𝛾𝛢𝛣𝛤      | 𝜶𝜷𝜸𝜜𝜝𝜞      |
+| digits | 𝟎𝟏𝟐   | ⸻ | ⸻ |
 
 #### Sans Serif Font
 
-| family | `sans` | `bsans` | `isans` | `bisans` |
-|--------|--------|---------|---------|----------|
-| latin  | 𝖺𝖻𝖼𝖠𝖡𝖢 | 𝗮𝗯𝗰𝗔𝗕𝗖  | 𝘢𝘣𝘤𝘈𝘉𝘊  | 𝙖𝙗𝙘𝘼𝘽𝘾   |
-| greek  |        | 𝝰𝝱𝝲𝝖𝝗𝝘  |         | 𝞪𝞫𝞬𝞐𝞑𝞒   |
-| digits | 𝟢𝟣𝟤    | 𝟬𝟭𝟮     |         |          |
+| family | `\sans<>` | `\bsans<>` | `\isans<>` | `\bisans<>` |
+|---|---|---|---|---|
+| latin upper | 𝖠𝖡𝖢   | 𝗔𝗕𝗖   | 𝘈𝘉𝘊   | 𝘼𝘽𝘾   |
+| latin lower | 𝖺𝖻𝖼   | 𝗮𝗯𝗰   | 𝘢𝘣𝘤   | 𝙖𝙗𝙘   |
+| greek upper | ⸻ | 𝝖𝝗𝝘   | ⸻ | 𝞐𝞑𝞒   |
+| greek lower | ⸻ | 𝝰𝝱𝝲   | ⸻ | 𝞪𝞫𝞬   |
+| digits | 𝟢𝟣𝟤   | 𝟬𝟭𝟮   | ⸻ | ⸻ |
 
 #### Speciality Font
 
-| family | `tt`   | `bb`   | `frak` | `bfrak` | `scr`  | `bscr` |
-|--------|--------|--------|--------|---------|--------|--------|
-| latin  | 𝚊𝚋𝚌𝙰𝙱𝙲 | 𝕒𝕓𝕔𝔸𝔹ℂ | 𝔞𝔟𝔠𝔄𝔅ℭ | 𝖆𝖇𝖈𝕬𝕭𝕮  | 𝒶𝒷𝒸𝒜ℬ𝒞 | 𝓪𝓫𝓬𝓐𝓑𝓒 |
-| greek  |        |        |        |         |        |        |
-| digits | 𝟶𝟷𝟸    | 𝟘𝟙𝟚    |        |         |        |        |
+| family | `\tt<>` | `\bb<>` | `\frak<>` | `\bfrak<>` | `\scr<>` | `\bscr<>` |
+|---|---|---|---|---|---|---|
+| latin upper | 𝙰𝙱𝙲   | 𝔸𝔹ℂ  | 𝔄𝔅ℭ  | 𝕬𝕭𝕮   | 𝒜ℬ𝒞  | 𝓐𝓑𝓒   |
+| latin lower | 𝚊𝚋𝚌   | 𝕒𝕓𝕔   | 𝔞𝔟𝔠   | 𝖆𝖇𝖈   | 𝒶𝒷𝒸   | 𝓪𝓫𝓬   |
+| digits | 𝟶𝟷𝟸   | 𝟘𝟙𝟚   | ⸻ | ⸻ | ⸻ | ⸻ |
+
+#### Numerals
+
+| family | `\<>.` | `\rm<>` | `\RM<>` |
+|---|---|---|---|
+| 0 | ⸻ | ⸻ | ⸻ |
+| 1 | ⒈ | ⅰ | Ⅰ |
+| 2 | ⒉ | ⅱ | Ⅱ |
+| 3 | ⒊ | ⅲ | Ⅲ |
 
 #### Other Families
 
-| family 	| `^` 	| `_` 	| `o`  	| `rm` 	| `RM`  	| `sc` 	|
-|--------	|-----	|-----	|------	|------	|-------	|------	|
-| latin  	| ⁱʲᵏ 	| ᵢⱼₖ 	| ⓐⓑⒶⒷ 	|      	|       	| ᴀʙᴄᴅ 	|
-| greek  	| ᵅᵝᵞ 	| ᵦᵧ  	|      	|      	|       	|      	|
-| digits 	| ⁰¹² 	| ₀₁₂ 	| ⓪①②  	| ⅰⅱⅲⅳ 	| ⅠⅡⅢⅣ  	|      	|
+| family | `\^<>` | `\_<>` | `\o<>` | `\(<>)` | `\sc<>` | `\fw<>` |
+|---|---|---|---|---|---|---|
+| latin upper | ᴵᴶᴷ | ⸻ | ⒶⒷⒸ | ⸻ | ᴀʙᴄᴅ | ＡＢＣ |
+| latin lower | ⁱʲᵏ | ᵢⱼₖ | ⓐⓑⓒ | ⒜⒝⒞ | ⸻ | ａｂｃ |
+| greek upper | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ |
+| greek lower | ᵝᵞᵠ | ᵦᵧᵩ | ⸻ | ⸻ | ⸻ | ⸻ |
+| digits | ⁰¹² | ₀₁₂ | ⓪①② | ⑴⑵⑶ | ⸻ | ０１２ |
 
 Note: Generally here not all characters are available:
 
 - Small capital letters is missing `\scX`.
-- Sub- and superscripts is missing quite a few letters, see: https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts
+- Sub- and superscripts is missing quite a few letters, see: <https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts>.
 
 ## About Unicode data
 

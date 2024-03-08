@@ -1,66 +1,66 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
-11200	"""𑈀"""	11200..1124F	Khojki	Khojki letter a		
-11201	"""𑈁"""	11200..1124F	Khojki	Khojki letter aa		
-11202	"""𑈂"""	11200..1124F	Khojki	Khojki letter i		
-11203	"""𑈃"""	11200..1124F	Khojki	Khojki letter u		
-11204	"""𑈄"""	11200..1124F	Khojki	Khojki letter e		
-11205	"""𑈅"""	11200..1124F	Khojki	Khojki letter ai		
-11206	"""𑈆"""	11200..1124F	Khojki	Khojki letter o		
-11207	"""𑈇"""	11200..1124F	Khojki	Khojki letter au		
-11208	"""𑈈"""	11200..1124F	Khojki	Khojki letter ka		
-11209	"""𑈉"""	11200..1124F	Khojki	Khojki letter kha		
-1120A	"""𑈊"""	11200..1124F	Khojki	Khojki letter ga		
-1120B	"""𑈋"""	11200..1124F	Khojki	Khojki letter gga		
-1120C	"""𑈌"""	11200..1124F	Khojki	Khojki letter gha		
-1120D	"""𑈍"""	11200..1124F	Khojki	Khojki letter nga		
-1120E	"""𑈎"""	11200..1124F	Khojki	Khojki letter ca		
-1120F	"""𑈏"""	11200..1124F	Khojki	Khojki letter cha		
-11210	"""𑈐"""	11200..1124F	Khojki	Khojki letter ja		
-11211	"""𑈑"""	11200..1124F	Khojki	Khojki letter jja		
-11213	"""𑈓"""	11200..1124F	Khojki	Khojki letter nya		
-11214	"""𑈔"""	11200..1124F	Khojki	Khojki letter tta		
-11215	"""𑈕"""	11200..1124F	Khojki	Khojki letter ttha		
-11216	"""𑈖"""	11200..1124F	Khojki	Khojki letter dda		
-11217	"""𑈗"""	11200..1124F	Khojki	Khojki letter ddha		
-11218	"""𑈘"""	11200..1124F	Khojki	Khojki letter nna		
-11219	"""𑈙"""	11200..1124F	Khojki	Khojki letter ta		
-1121A	"""𑈚"""	11200..1124F	Khojki	Khojki letter tha		
-1121B	"""𑈛"""	11200..1124F	Khojki	Khojki letter da		
-1121C	"""𑈜"""	11200..1124F	Khojki	Khojki letter ddda		
-1121D	"""𑈝"""	11200..1124F	Khojki	Khojki letter dha		
-1121E	"""𑈞"""	11200..1124F	Khojki	Khojki letter na		
-1121F	"""𑈟"""	11200..1124F	Khojki	Khojki letter pa		
-11220	"""𑈠"""	11200..1124F	Khojki	Khojki letter pha		
-11221	"""𑈡"""	11200..1124F	Khojki	Khojki letter ba		
-11222	"""𑈢"""	11200..1124F	Khojki	Khojki letter bba		
-11223	"""𑈣"""	11200..1124F	Khojki	Khojki letter bha		
-11224	"""𑈤"""	11200..1124F	Khojki	Khojki letter ma		
-11225	"""𑈥"""	11200..1124F	Khojki	Khojki letter ya		
-11226	"""𑈦"""	11200..1124F	Khojki	Khojki letter ra		
-11227	"""𑈧"""	11200..1124F	Khojki	Khojki letter la		
-11228	"""𑈨"""	11200..1124F	Khojki	Khojki letter va		
-11229	"""𑈩"""	11200..1124F	Khojki	Khojki letter sa		
-1122A	"""𑈪"""	11200..1124F	Khojki	Khojki letter ha		
-1122B	"""𑈫"""	11200..1124F	Khojki	Khojki letter lla		
-1122C	"""𑈬"""	11200..1124F	Khojki	Khojki vowel sign aa		
-1122D	"""𑈭"""	11200..1124F	Khojki	Khojki vowel sign i		
-1122E	"""𑈮"""	11200..1124F	Khojki	Khojki vowel sign ii		
-1122F	"""𑈯"""	11200..1124F	Khojki	Khojki vowel sign u		
-11230	"""𑈰"""	11200..1124F	Khojki	Khojki vowel sign e		
-11231	"""𑈱"""	11200..1124F	Khojki	Khojki vowel sign ai		
-11232	"""𑈲"""	11200..1124F	Khojki	Khojki vowel sign o		
-11233	"""𑈳"""	11200..1124F	Khojki	Khojki vowel sign au		
-11234	"""𑈴"""	11200..1124F	Khojki	Khojki sign anusvara		
-11235	"""𑈵"""	11200..1124F	Khojki	Khojki sign virama		
-11236	"""𑈶"""	11200..1124F	Khojki	Khojki sign nukta		
-11237	"""𑈷"""	11200..1124F	Khojki	Khojki sign shadda		
-11238	"""𑈸"""	11200..1124F	Khojki	Khojki danda		
-11239	"""𑈹"""	11200..1124F	Khojki	Khojki double danda		
-1123A	"""𑈺"""	11200..1124F	Khojki	Khojki word separator		
-1123B	"""𑈻"""	11200..1124F	Khojki	Khojki section mark		
-1123C	"""𑈼"""	11200..1124F	Khojki	Khojki double section mark		
-1123D	"""𑈽"""	11200..1124F	Khojki	Khojki abbreviation sign		
-1123E	"""𑈾"""	11200..1124F	Khojki	Khojki sign sukun		
-1123F	"""𑈿"""	11200..1124F	Khojki	Khojki letter qa		
-11240	"""𑉀"""	11200..1124F	Khojki	Khojki letter short i		
-11241	"""𑉁"""	11200..1124F	Khojki	Khojki vowel sign vocalic r		
+U+11200	𑈀	11200..1124F	Khojki	Khojki letter a		
+U+11201	𑈁	11200..1124F	Khojki	Khojki letter aa		
+U+11202	𑈂	11200..1124F	Khojki	Khojki letter i		
+U+11203	𑈃	11200..1124F	Khojki	Khojki letter u		
+U+11204	𑈄	11200..1124F	Khojki	Khojki letter e		
+U+11205	𑈅	11200..1124F	Khojki	Khojki letter ai		
+U+11206	𑈆	11200..1124F	Khojki	Khojki letter o		
+U+11207	𑈇	11200..1124F	Khojki	Khojki letter au		
+U+11208	𑈈	11200..1124F	Khojki	Khojki letter ka		
+U+11209	𑈉	11200..1124F	Khojki	Khojki letter kha		
+U+1120A	𑈊	11200..1124F	Khojki	Khojki letter ga		
+U+1120B	𑈋	11200..1124F	Khojki	Khojki letter gga		
+U+1120C	𑈌	11200..1124F	Khojki	Khojki letter gha		
+U+1120D	𑈍	11200..1124F	Khojki	Khojki letter nga		
+U+1120E	𑈎	11200..1124F	Khojki	Khojki letter ca		
+U+1120F	𑈏	11200..1124F	Khojki	Khojki letter cha		
+U+11210	𑈐	11200..1124F	Khojki	Khojki letter ja		
+U+11211	𑈑	11200..1124F	Khojki	Khojki letter jja		
+U+11213	𑈓	11200..1124F	Khojki	Khojki letter nya		
+U+11214	𑈔	11200..1124F	Khojki	Khojki letter tta		
+U+11215	𑈕	11200..1124F	Khojki	Khojki letter ttha		
+U+11216	𑈖	11200..1124F	Khojki	Khojki letter dda		
+U+11217	𑈗	11200..1124F	Khojki	Khojki letter ddha		
+U+11218	𑈘	11200..1124F	Khojki	Khojki letter nna		
+U+11219	𑈙	11200..1124F	Khojki	Khojki letter ta		
+U+1121A	𑈚	11200..1124F	Khojki	Khojki letter tha		
+U+1121B	𑈛	11200..1124F	Khojki	Khojki letter da		
+U+1121C	𑈜	11200..1124F	Khojki	Khojki letter ddda		
+U+1121D	𑈝	11200..1124F	Khojki	Khojki letter dha		
+U+1121E	𑈞	11200..1124F	Khojki	Khojki letter na		
+U+1121F	𑈟	11200..1124F	Khojki	Khojki letter pa		
+U+11220	𑈠	11200..1124F	Khojki	Khojki letter pha		
+U+11221	𑈡	11200..1124F	Khojki	Khojki letter ba		
+U+11222	𑈢	11200..1124F	Khojki	Khojki letter bba		
+U+11223	𑈣	11200..1124F	Khojki	Khojki letter bha		
+U+11224	𑈤	11200..1124F	Khojki	Khojki letter ma		
+U+11225	𑈥	11200..1124F	Khojki	Khojki letter ya		
+U+11226	𑈦	11200..1124F	Khojki	Khojki letter ra		
+U+11227	𑈧	11200..1124F	Khojki	Khojki letter la		
+U+11228	𑈨	11200..1124F	Khojki	Khojki letter va		
+U+11229	𑈩	11200..1124F	Khojki	Khojki letter sa		
+U+1122A	𑈪	11200..1124F	Khojki	Khojki letter ha		
+U+1122B	𑈫	11200..1124F	Khojki	Khojki letter lla		
+U+1122C	𑈬	11200..1124F	Khojki	Khojki vowel sign aa		
+U+1122D	𑈭	11200..1124F	Khojki	Khojki vowel sign i		
+U+1122E	𑈮	11200..1124F	Khojki	Khojki vowel sign ii		
+U+1122F	𑈯	11200..1124F	Khojki	Khojki vowel sign u		
+U+11230	𑈰	11200..1124F	Khojki	Khojki vowel sign e		
+U+11231	𑈱	11200..1124F	Khojki	Khojki vowel sign ai		
+U+11232	𑈲	11200..1124F	Khojki	Khojki vowel sign o		
+U+11233	𑈳	11200..1124F	Khojki	Khojki vowel sign au		
+U+11234	𑈴	11200..1124F	Khojki	Khojki sign anusvara		
+U+11235	𑈵	11200..1124F	Khojki	Khojki sign virama		
+U+11236	𑈶	11200..1124F	Khojki	Khojki sign nukta		
+U+11237	𑈷	11200..1124F	Khojki	Khojki sign shadda		
+U+11238	𑈸	11200..1124F	Khojki	Khojki danda		
+U+11239	𑈹	11200..1124F	Khojki	Khojki double danda		
+U+1123A	𑈺	11200..1124F	Khojki	Khojki word separator		
+U+1123B	𑈻	11200..1124F	Khojki	Khojki section mark		
+U+1123C	𑈼	11200..1124F	Khojki	Khojki double section mark		
+U+1123D	𑈽	11200..1124F	Khojki	Khojki abbreviation sign		
+U+1123E	𑈾	11200..1124F	Khojki	Khojki sign sukun		
+U+1123F	𑈿	11200..1124F	Khojki	Khojki letter qa		
+U+11240	𑉀	11200..1124F	Khojki	Khojki letter short i		
+U+11241	𑉁	11200..1124F	Khojki	Khojki vowel sign vocalic r		
