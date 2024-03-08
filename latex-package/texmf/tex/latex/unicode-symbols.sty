@@ -8,13 +8,59 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{unicode-symbols}[2024/02/26 Unicode symbols]
+\ProvidesPackage{unicode-symbols}[2024/03/08 Unicode symbols]
+
+% region options ---------------------------------------------------------------
+% option stix/nostix (default: stix)
+\newif\ifunicode@stix\unicode@stixtrue
+\DeclareOption{stix}{\unicode@stixtrue}
+\DeclareOption{nostix}{\unicode@stixfalse}
+\ProcessOptions\relax
+% endregion options ------------------------------------------------------------
+
+% region dependencies ----------------------------------------------------------
+\RequirePackage{newunicodechar}
 \RequirePackage{unicode-subscripts}
 \RequirePackage{unicode-superscripts}
+
+% load lmodern to get rid of font shape warning
+\RequirePackage{lmodern}% https://tex.stackexchange.com/questions/58087
+
+% decide whether to use stix or not
+\ifunicode@stix
+	\@ifpackageloaded{amsmath}{%
+		\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
+	}{}
+	\RequirePackage{stix2}
+	% region stix2-patch -------------------------------------------------------
+	% REF: https://tex.stackexchange.com/q/542795
+	\DeclareFontFamily{LS1}{stix2bb}{\skewchar\font127 }
+	\DeclareFontShape{LS1}{stix2bb}{m}{n} {<-> stix2-mathbb}{}
+	\DeclareFontShape{LS1}{stix2bb}{m}{it}{<-> stix2-mathbbit}{}
+	\DeclareFontShape{LS1}{stix2bb}{b}{n} {<->ssub * stix2bb/m/n}{}
+	\DeclareFontShape{LS1}{stix2bb}{b}{it}{<->ssub * stix2bb/m/it}{}
+
+	\DeclareFontFamily{LS2}{stix2ex}{}
+	\DeclareFontShape{LS2}{stix2ex}{m}{n}{<-> stix2-mathex}{}
+	\DeclareFontShape{LS2}{stix2ex}{b}{n}{<->ssub * stix2ex/m/n}{}
+
+	\DeclareFontFamily{LS2}{stix2cal}{\skewchar\font127 }
+	\DeclareFontShape{LS2}{stix2cal}{m}{n}{<-> stix2-mathcal}{}
+	\DeclareFontShape{LS2}{stix2cal}{b}{n}{<->ssub * stix2cal/m/n}{}
+
+	\DeclareFontFamily{LS2}{stix2tt}{\skewchar\font127 }
+	\DeclareFontShape{LS2}{stix2tt}{m}{n}{<-> stix2-mathtt}{}
+	\DeclareFontShape{LS2}{stix2tt}{b}{n}{<->ssub * stix2tt/m/n}{}
+	% endregion stix2-patch ----------------------------------------------------
+
+	% Used to get rid of dont shape warning
+	\RequirePackage{anyfontsize}%  https://tex.stackexchange.com/questions/58087
+\else
+	\RequirePackage{amssymb}% not needed with stix2
+\fi
+
 \RequirePackage{amsmath}
-\RequirePackage{amssymb}
 \RequirePackage{amsfonts}
-\RequirePackage{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
 \RequirePackage{bbm}       % provides \mathbbm
 \RequirePackage{xfrac}     % provides \sfrac
@@ -23,32 +69,13 @@
 %\RequirePackage{txfonts}   % leftsquigarrow
 % The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
 
-
-% region stix2 -----------------------------------------------------------------
-% https://tex.stackexchange.com/a/610782/119955
-% \DeclareFontFamily{LS1}{stix2bb}{\skewchar\font127 }
-% \DeclareFontShape{LS1}{stix2bb}{m}{n} {<-> stix2-mathbb}{}
-% \DeclareFontShape{LS1}{stix2bb}{m}{it}{<-> stix2-mathbbit}{}
-% \DeclareFontShape{LS1}{stix2bb}{b}{n} {<->ssub * stix2bb/m/n}{}
-% \DeclareFontShape{LS1}{stix2bb}{b}{it}{<->ssub * stix2bb/m/it}{}
-
-% \DeclareFontFamily{LS2}{stix2ex}{}
-% \DeclareFontShape{LS2}{stix2ex}{m}{n} {<-> stix2-mathex}{}
-% \DeclareFontShape{LS2}{stix2ex}{b}{n} {<->ssub * stix2ex/m/n}{}
-
-% \DeclareFontFamily{LS2}{stix2cal}{\skewchar\font127 }
-% \DeclareFontShape{LS2}{stix2cal}{m}{n} {<-> stix2-mathcal}{}
-% \DeclareFontShape{LS2}{stix2cal}{b}{n} {<->ssub * stix2cal/m/n}{}
-
-% \DeclareFontFamily{LS2}{stix2tt}{\skewchar\font127 }
-% \DeclareFontShape{LS2}{stix2tt}{m}{n} {<-> stix2-mathtt}{}
-% \DeclareFontShape{LS2}{stix2tt}{b}{n} {<->ssub * stix2tt/m/n}{}
-% endregion stix2 --------------------------------------------------------------
-
-
+% region bm patch --------------------------------------------------------------
+% REF: https://tex.stackexchange.com/q/3676
 \ProvideDocumentCommand{\hmmax}{}{0}       % @bm: prevents "too many alphabets" error
 \ProvideDocumentCommand{\bmmax}{}{0}       % @bm: prevents "too many alphabets" error
-\RequirePackage{bm}        % provides \bm
+\RequirePackage{bm}                        % provides \bm
+% endregion bm patch -----------------------------------------------------------
+% endregion dependencies ----------------------------------------------------------
 
 
 % TODO: smarter implementation
@@ -193,6 +220,10 @@
 \expandafter\let\csname u8:\detokenize{¹}\endcsname\relax
 \expandafter\let\csname u8:\detokenize{²}\endcsname\relax
 \expandafter\let\csname u8:\detokenize{³}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{©}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{§}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{£}\endcsname\relax
 % endregion free previously defined unicode chars ------------------------------
 
 
@@ -209,6 +240,10 @@
 % endregion experimental -------------------------------------------------------
 
 % region misc ------------------------------------------------------------------
+\newunicodechar{©}{\copyright}
+\newunicodechar{¶}{\P}
+\newunicodechar{§}{\S}
+\newunicodechar{£}{\pounds}
 \newunicodechar{✓}{\textbf{\cmark}}
 \newunicodechar{✗}{\textbf{\xmark}}
 \newunicodechar{✔}{\textbf{\cmark}}
@@ -362,6 +397,14 @@
 % region probability -----------------------------------------------------------
 \newunicodechar{⫫}{\ensuremath{\indep}}
 % endregion probability --------------------------------------------------------
+
+
+% region brackets --------------------------------------------------------------
+\newunicodechar{⟦}{\lBrack}
+\newunicodechar{⟧}{\rBrack}
+\newunicodechar{⟪}{\lAngle}
+\newunicodechar{⟫}{\rAngle}
+% endregion brackets -----------------------------------------------------------
 
 
 % region linear algebra --------------------------------------------------------
