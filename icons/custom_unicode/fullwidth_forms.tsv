@@ -1,6 +1,6 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
 U+FF01	！	\fw!	Fullwidth exclamation mark	!
-U+FF02	＂	\fw“	Fullwidth quotation mark	“
+U+FF02	＂	\fw"	Fullwidth quotation mark	“
 U+FF03	＃	\fw#	Fullwidth number sign	#
 U+FF04	＄	\fw$	Fullwidth dollar sign	$
 U+FF05	％	\fw%	Fullwidth percent sign	%
