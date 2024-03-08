@@ -218,6 +218,7 @@ class UnicodeSample(NamedTuple):
 
 def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
     """Load the icons from the tsv file."""
+    LOGGER.info("Parsing %s", fname)
 
     with open(fname, "r", encoding="utf8") as tsv_file:
         # scraped from https://docs.julialang.org/en/v1/manual/unicode-input/
@@ -241,7 +242,7 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
     samples: list[UnicodeSample] = []
     # parsed = Counter()  # ucode -> count
     # all_abbreviations = defaultdict(list)  # abbrv -> ucode
-    LOGGER.info("Processing %d items.", len(data))
+    LOGGER.info("Pre-Processing %d items.", len(data))
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
 
     for item in data:
@@ -280,23 +281,14 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
 
     # check skipped items
     for item, reason in skipped:
-        LOGGER.warning("❌ Skipped: %s, reason=%r", item, reason)
+        LOGGER.info("❌ Skipped: %s, reason=%r", item, reason)
     if skipped:
-        LOGGER.warning("❌ %d skipped items.", len(skipped))
+        LOGGER.info("❌ %d skipped items.", len(skipped))
     else:
         LOGGER.info("✅ No items skipped.")
 
-    LOGGER.info("✅ %d items pre-processed.", len(samples))
+    LOGGER.info("✅ %d items sucessfully pre-processed.", len(samples))
     return samples
-
-
-def make_template(abbreviations: list[str], description: str, sendmode: str) -> JSON:
-    """Create the template."""
-    return TEMPLATE | {
-        "abbreviation": ABBREVIATION | {"abbreviations": abbreviations},
-        "description": description,
-        "sendMode": sendmode,
-    }
 
 
 def create_autokey_phrase(
@@ -342,7 +334,7 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
             choices=[False, True],
         )
         if not overwrite:
-            LOGGER.info("Aborting.")
+            LOGGER.debug("Aborting.")
             sys.exit(0)
 
         # delete directory
@@ -352,6 +344,9 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     target_dir.mkdir(exist_ok=True)
     # endregion ----------------------------------------------------------------
 
+    LOGGER.info("=" * 80)
+    LOGGER.info("Installing icons from %s", folder)
+
     parsed: Counter[UCODE] = Counter()  # ucode -> count
     all_abbreviations: dict[ABBREVIATION, list[UCODE]] = defaultdict(list)
 
@@ -359,7 +354,6 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     for filename in folder.glob("*.tsv"):
         # load  and process samples
         LOGGER.info("-" * 80)
-        LOGGER.info("Installing icons from %s to %s", filename, target_dir)
         raw_icons: list[UnprocessedSample] = load_icons(filename)
         samples: list[UnicodeSample] = process_icons(raw_icons)
 
@@ -370,22 +364,22 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
                 template=template,
             )
 
-            LOGGER.info("Registered %s", sample)
+            LOGGER.debug("Registered %s", sample)
             parsed[sample.ucode] += 1
             for abb in sample.abbreviations:
                 all_abbreviations[abb].append(sample.ucode)
 
-        LOGGER.info("-" * 80)
         LOGGER.info("Finished  %s in %s", filename, target_dir)
 
+    LOGGER.info("=" * 80)
     # duplicates information
     num_duplicate_ucodes = 0
     for ucode, count in parsed.items():
         if count > 1:
-            LOGGER.warning("❌ Duplicate unicode: %s", ucode)
+            LOGGER.info("❌ Duplicate unicode: %s", ucode)
             num_duplicate_ucodes += 1
     if num_duplicate_ucodes:
-        LOGGER.warning("❌ %d duplicate unicodes.", len(parsed))
+        LOGGER.info("❌ %d duplicate unicodes.", len(parsed))
     else:
         LOGGER.info("✅ No duplicates detected.")
 
@@ -393,14 +387,14 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     num_duplicate_abbrv = 0
     for abb, ucodes in all_abbreviations.items():
         if len(ucodes) > 1:
-            LOGGER.warning("❌ Duplicate abbreviation: %s -> %s", abb, ucodes)
+            LOGGER.info("❌ Duplicate abbreviation: %s -> %s", abb, ucodes)
             num_duplicate_abbrv += 1
     if num_duplicate_abbrv:
-        LOGGER.warning("❌ %d duplicate abbreviations.", num_duplicate_abbrv)
+        LOGGER.info("❌ %d duplicate abbreviations.", num_duplicate_abbrv)
     else:
         LOGGER.info("✅ All abbreviations unique.")
 
-    LOGGER.info("-" * 80)
+    LOGGER.info("✅ %d unique characters registered.", len(parsed))
 
 
 # %% Generate help script
@@ -442,6 +436,8 @@ HELP_CONFIG: JSON = {
 
 def generate_help(*, target_dir: Path) -> None:
     """Create help script and config."""
+    LOGGER.info("=" * 80)
+    LOGGER.info("Creating help script in %s.", target_dir)
 
     with open(target_dir / "julia_unicode_help.py", "w", encoding="utf8") as file:
         file.write(HELP_SCRIPT)
@@ -449,19 +445,30 @@ def generate_help(*, target_dir: Path) -> None:
     with open(target_dir / "julia_unicode_help.json", "w", encoding="utf8") as file:
         json.dump(HELP_CONFIG, file, indent=True)
 
-    LOGGER.info("Created help script in %s", target_dir)
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
+
+
+# %% Unused
+
+
+def make_template(abbreviations: list[str], description: str, sendmode: str) -> JSON:
+    """Create the template."""
+    return TEMPLATE | {
+        "abbreviation": ABBREVIATION | {"abbreviations": abbreviations},
+        "description": description,
+        "sendMode": sendmode,
+    }
 
 
 # %% Main
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.WARNING)
+    logging.basicConfig(level=logging.INFO)
 
     AUTOKEY_DIR = Path.home() / ".config/autokey/"
     if AUTOKEY_DIR.exists():
-        LOGGER.info("Found autokey directory at %s.", AUTOKEY_DIR)
+        LOGGER.debug("Found autokey directory at %s.", AUTOKEY_DIR)
     else:
         LOGGER.warning(
             "Autokey directory not found. Will generate files locally instead."
@@ -504,7 +511,7 @@ def main() -> None:
         generate_codes(directory, target_dir=target_dir, template=template)
 
     generate_help(target_dir=target_dir)
-    LOGGER.info(r"Finished Installation. Restart AutoKey to enable!")
+    LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 
 if __name__ == "__main__":

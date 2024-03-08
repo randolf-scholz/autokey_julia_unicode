@@ -15,7 +15,7 @@ This script adds all the unicode character abbreviations supported by [Julia](ht
 ## Installation & Requirements
 
 1. Install [autokey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
-2. Execute `generate_phrases.py` (requires python ≥3.10)
+2. Execute `install.py` (requires python ≥3.10)
 3. Restart autokey
 
 ## Features
