@@ -1,12 +1,5 @@
 # Autokey Unicode characters
 
-## [CHANGELOG](CHANGELOG.md)
-
-- 2024-03-08: Revamped the installation script, refactored the installation procedure.
-- 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
-- 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
-- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
-
 ![demo](demo.gif)
 
 ## Usage
@@ -115,3 +108,10 @@ Note: Generally here not all characters are available:
 ## About Unicode data
 
 The files are available at: <https://www.unicode.org/ucd/>, resp. <https://www.unicode.org/Public/UCD/latest/ucd/>.
+
+## [CHANGELOG](CHANGELOG.md)
+
+- 2024-03-08: Revamped the installation script, refactored the installation procedure.
+- 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
+- 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
+- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
