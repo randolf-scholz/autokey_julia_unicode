@@ -10,7 +10,7 @@ U+FF08	（	\fw(	Fullwidth left parenthesis	(
 U+FF09	）	\fw)	Fullwidth right parenthesis	)
 U+FF0A	＊	\fw*	Fullwidth asterisk	*
 U+FF0B	＋	\fw+	Fullwidth plus sign	+
-U+FF0C	，	\fw,, \,,\fullwidthcomma	Fullwidth comma	,
+U+FF0C	，	\fw,, \,, \fullwidthcomma	Fullwidth comma	,
 U+FF0D	－	\fw-	Fullwidth hyphen-minus	-
 U+FF0E	．	\fw.	Fullwidth full stop	.
 U+FF0F	／	\fw/	Fullwidth solidus	/

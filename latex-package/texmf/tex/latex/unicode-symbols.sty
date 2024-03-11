@@ -69,6 +69,35 @@
 %\RequirePackage{txfonts}   % leftsquigarrow
 % The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
 
+% region notes -----------------------
+%
+% TEX allows only 16 math alphabets to be used simultaneously
+%
+%
+%
+%
+%
+% for script/calligraphic fonts there are 3 main options:
+% - \mathcal builtin
+% - \mathscr from eulerscript package
+% - \mathscr from mathrsfs pacakage
+% BLACKBOARD BOLD OPTIONS:
+% - \mathbb builtin
+% - \varmathbb from txfonts/pxfonts package
+% - \mathbb from bbold/mathbbol package
+% - \mathbb from mbboard pacakge
+% - \mathbbm from bbm package
+% - \mathbb from dsserif package
+% - \mathds from dsfont pacakge
+%
+% Subjectively, \mathds is the most visually pleasing. However, it only covers capital latin letters.
+% Since this is the most important use case, we use \mathds with \mathbbm fallback.
+%
+% endregion notes --------------------
+
+
+
+
 % region bm patch --------------------------------------------------------------
 % REF: https://tex.stackexchange.com/q/3676
 \ProvideDocumentCommand{\hmmax}{}{0}       % @bm: prevents "too many alphabets" error
@@ -1943,16 +1972,22 @@
 % endregion blackboard bold digits ---------------------------------------------
 
 % region blackboard bold lowercase greek ---------------------------------------
-\newunicodechar{ℽ}{\ensuremath{\mathbbm{\varphi}}}  % U+213D  Double-Struck Small Phi
-\newunicodechar{ℼ}{\ensuremath{\mathbbm{\varpi}}}  % U+213C  Double-Struck Small Pi
+\newunicodechar{ℽ}{\ensuremath{\mathbbm{\gamma}}}  % U+213D  Double-Struck Small Gamma
+\newunicodechar{ℼ}{\ensuremath{\mathbbm{\pi}}}     % U+213C  Double-Struck Small Pi
 % endregion blackboard bold lowercase greek ------------------------------------
 
 % region blackboard bold capital greek -----------------------------------------
-\newunicodechar{ℿ}{\ensuremath{\mathbbm{\Pi}}}  % U+213F  Double-Struck Capital Pi
+\newunicodechar{ℾ}{\ensuremath{\mathbbm{\Gamma}}}  % U+213E  Double-Struck Capital Gamma
+\newunicodechar{ℿ}{\ensuremath{\mathbbm{\Pi}}}     % U+213F  Double-Struck Capital Pi
 % endregion blackboard bold capital greek --------------------------------------
 
 % region blackboard symbols ----------------------------------------------------
-\newunicodechar{⅀}{\ensuremath{\mathds{R}}}  % U+1D53D Mathematical Double-Struck Capital R
+\newunicodechar{⅀}{\ensuremath{\mathbbm{\sum}}}  % U+2144 Double-Struck N-Ary Summation
+\newunicodechar{ⅅ}{\ensuremath{\mathbbm{\mathit{D}}}}  % U+2145 Double-Struck Italic Capital D
+\newunicodechar{ⅆ}{\ensuremath{\mathbbm{\mathit{d}}}}  % U+2146 Double-Struck Italic Small D
+\newunicodechar{ⅇ}{\ensuremath{\mathbbm{\mathit{e}}}}  % U+2147 Double-Struck Italic Small E
+\newunicodechar{ⅈ}{\ensuremath{\mathbbm{\mathit{i}}}}  % U+2148 Double-Struck Italic Small I
+\newunicodechar{ⅉ}{\ensuremath{\mathbbm{\mathit{j}}}}  % U+2149 Double-Struck Italic Small J
 % endregion blackboard symbols -------------------------------------------------\bbiD
 % endregion blackboard bold characters (\bb<char>) -----------------------------
 
