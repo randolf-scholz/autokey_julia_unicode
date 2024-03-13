@@ -50,7 +50,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.1
+    rev: v0.3.2
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -78,46 +78,15 @@ repos:
             "MD033", # Inline HTML
             "--"  # otherwise files are interpreted as args
           ]
-  - repo: local
+  # shellcheck
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
     hooks:
-      - id: shellcheck
-        name: shellcheck
-        description: "Check shell scripts with shellcheck"
-        language: system
-        entry: shellcheck
-        types: [shell]
-        args:
-          - "--shell=bash"
-          - "--color=always"
-          - "--format=gcc"
-      - id: chktex
-        name: chktex
-        description: "Check LaTeX files with chktex"
-        language: system
-        types: [tex]
-        # chktex --format=$'%f:%l:%c %m [%k %n]\n' --quiet --nowarn=1 *files*
-        entry: chktex
-        args:
-          - "--format=%f:%l:%c %m [%k %n]\n"
-          - "--quiet"
-          - "--erroron=all"
-          - "--nowarn=1"
-          - "--nowarn=3"
-          - "--nowarn=19"
-          - "--nowarn=21"
-          - "--nowarn=22"
-          - "--nowarn=30"
-          - "--nowarn=41"
-          - "--nowarn=44"
-          - "--nowarn=46"
-          - "--"
-      - id: lacheck
-        name: lacheck
-        description: "A consistency checker for LaTeX documents"
-        language: system
-        types: [tex]
-        files: \.tex$
-        entry: bash -c '! printf "%s\n" "$@" | xargs -I _ lacheck _ | grep .' --
-        # NOTE: lacheck only takes a single file at a time, so we need to use xargs
-        # NOTE: lacheck always returns 0, so we need to grep for output
-        # NOTE: grep has exit code 1 if no matches are found, so we need to invert with `!`
+    - id: shellcheck
+      args: ["--shell=bash", "--color=always", "--format=gcc"]
+  # custom
+  - repo: https://github.com/randolf-scholz/assorted-hooks.git
+    rev: v0.1.57
+    hooks:
+    - id: chktex
+    - id: lacheck
