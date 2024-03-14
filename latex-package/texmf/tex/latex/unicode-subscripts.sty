@@ -1,4 +1,4 @@
-% region preamble --------------------------------------------------------------
+% region preamble ----------------------------------------------------------------------
 % IMPLEMENTATION BASED ON \expandafter + \futurelet
 %
 % Provides public command: `\subscript{arg}`
@@ -18,10 +18,10 @@
 %
 % The package is designed to work with both pdftex and luatex.
 % Note: Usage of the form `x\subscript{i}\subscript{j}' is not supported.
-% endregion preamble -----------------------------------------------------------
+% endregion preamble -------------------------------------------------------------------
 
 
-% region Package Options -------------------------------------------------------
+% region Package Options ---------------------------------------------------------------
 \newif\ifusubscript@debug\usubscript@debugfalse%  Debug flag
 \DeclareOption{debug}{\usubscript@debugtrue}
 \ProcessOptions\relax%
@@ -32,10 +32,10 @@
 \else%
 	\RequirePackage{unicode-superscripts}%
 \fi%
-% endregion Package Options ----------------------------------------------------
+% endregion Package Options ------------------------------------------------------------
 
 
-% region globals and helper functions ------------------------------------------\
+% region globals and helper functions --------------------------------------------------
 % global subscript list variable
 \newcommand{\usubscript@start}{\relax}%  marker for the start of a subscript
 \newcommand{\usubscript@list@reset}{\let\usubscript@list=\usubscript@start}
@@ -63,10 +63,10 @@
 \else%
 	\def\usubscript@check@successor{\usubscript@check{\usubscript@successor}}%
 \fi%
-% endregion globals and helper functions ---------------------------------------
+% endregion globals and helper functions -----------------------------------------------
 
 
-% region public interface ------------------------------------------------------
+% region public interface --------------------------------------------------------------
 \newcommand{\subscript}[1]{%
 %
 % 1. If we are already in a subscript, \subscript appends the given tokens to the \usubscript@list
@@ -88,10 +88,10 @@
 % Expands successor first before \futurelet, this is important to handle unicode in pdftex
 \expandafter\futurelet\expandafter\usubscript@successor\expandafter\usubscript@check@successor%
 }
-% endregion public interface ---------------------------------------------------
+% endregion public interface -----------------------------------------------------------
 
 
-% region private implementation ------------------------------------------------
+% region private implementation --------------------------------------------------------
 \newcommand{\usubscript@check}[1]{%
 %
 % Test whether to terminate the subscript
@@ -211,6 +211,6 @@
 \usubscript@log{Reinserting '\meaning#1#2#3'}%
 #1#2#3%
 }
-% endregion private implementation ---------------------------------------------
+% endregion private implementation -----------------------------------------------------
 
 \endinput

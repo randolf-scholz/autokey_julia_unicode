@@ -63,7 +63,7 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.353
+    rev: v1.1.354
     hooks:
       - id: pyright
   # markdownlint
@@ -86,7 +86,8 @@ repos:
       args: ["--shell=bash", "--color=always", "--format=gcc"]
   # custom
   - repo: https://github.com/randolf-scholz/assorted-hooks.git
-    rev: v0.1.57
+    rev: v0.1.52
     hooks:
     - id: chktex
     - id: lacheck
+    - id: check-separator-length

@@ -1,4 +1,4 @@
-# region custom gitignore settings ---------------------------------------------
+# region custom gitignore settings -----------------------------------------------------
 .ipynb_checkpoints/
 .mypy_cache/
 .virtual_documents/
@@ -10,10 +10,10 @@ __tex__/
 *.pdf
 # manually include all third party files
 !third_party/**
-# endregion custom gitignore settings ------------------------------------------
+# endregion custom gitignore settings --------------------------------------------------
 
 
-# region latex gitignore template ----------------------------------------------
+# region latex gitignore template ------------------------------------------------------
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -315,4 +315,4 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
-# end region latex gitignore template ------------------------------------------
+# end region latex gitignore template --------------------------------------------------
