@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf01e8a-0d2d-44bf-98c4-aa0763613a59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/autokey_julia_unicode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autokey_julia_unicode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pre-commit-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="2cf01e8a-0d2d-44bf-98c4-aa0763613a59" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694615931511</updated>
       <workItem from="1694615932623" duration="2895000" />
-      <workItem from="1710406116534" duration="1946000" />
+      <workItem from="1710406116534" duration="2532000" />
     </task>
     <servers />
   </component>
