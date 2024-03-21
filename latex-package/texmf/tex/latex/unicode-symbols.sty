@@ -27,6 +27,9 @@
 % load lmodern to get rid of font shape warning
 \RequirePackage{lmodern}% https://tex.stackexchange.com/questions/58087
 
+% TODO: Add switch to use mathfont (cf mathfont_user_guide) when LuaLaTeX or XeLaTeX is used.
+%\RequirePackage{mathfont}
+
 % decide whether to use stix or not
 \ifunicode@stix
 	\@ifpackageloaded{amsmath}{%
@@ -57,27 +60,26 @@
 	% Used to get rid of dont shape warning
 	\RequirePackage{anyfontsize}%  https://tex.stackexchange.com/questions/58087
 \else
+	\RequirePackage{amsfonts}
 	\RequirePackage{amssymb}% not needed with stix2
+	\RequirePackage{mathbbol}
+	\RequirePackage{mathrsfs}  % provides \mathscr
+	\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
 \fi
 
 \RequirePackage{amsmath}
-\RequirePackage{amsfonts}
 \RequirePackage{dsfont}    % provides \mathds
-\RequirePackage{bbm}       % provides \mathbbm
+%\RequirePackage{bbm}       % provides \mathbbm
+%\RequirePackage{mathbbol}
 \RequirePackage{xfrac}     % provides \sfrac
-\RequirePackage{mathrsfs}  % provides \mathscr
-\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
+
 %\RequirePackage{txfonts}   % leftsquigarrow
 % The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
 
+\unless\ifdefined\mathbbm\let\mathbbm\mathbb\fi
 % region notes -------------------------------------------------------------------------
 %
 % TEX allows only 16 math alphabets to be used simultaneously
-%
-%
-%
-%
-%
 % for script/calligraphic fonts there are 3 main options:
 % - \mathcal builtin
 % - \mathscr from eulerscript package
@@ -1984,21 +1986,16 @@
 
 % region blackboard symbols ------------------------------------------------------------
 \newunicodechar{⅀}{\ensuremath{\mathbbm{\sum}}}  % U+2144 Double-Struck N-Ary Summation
-\newunicodechar{ⅅ}{\ensuremath{\mathbbm{\mathit{D}}}}  % U+2145 Double-Struck Italic Capital D
-\newunicodechar{ⅆ}{\ensuremath{\mathbbm{\mathit{d}}}}  % U+2146 Double-Struck Italic Small D
-\newunicodechar{ⅇ}{\ensuremath{\mathbbm{\mathit{e}}}}  % U+2147 Double-Struck Italic Small E
-\newunicodechar{ⅈ}{\ensuremath{\mathbbm{\mathit{i}}}}  % U+2148 Double-Struck Italic Small I
-\newunicodechar{ⅉ}{\ensuremath{\mathbbm{\mathit{j}}}}  % U+2149 Double-Struck Italic Small J
 % endregion blackboard symbols ---------------------------------------------------------
 % endregion blackboard bold characters (\bb<char>) -------------------------------------
 
 % \bbi<char>
 % region blackboard bold italic characters (\bbi<char>) --------------------------------
-\newunicodechar{ⅅ}{\ensuremath{\mathbbi{D}}}  % U+2145  Double-Struck Italic Capital D
-\newunicodechar{ⅆ}{\ensuremath{\mathbbi{d}}}  % U+2146  Double-Struck Italic Small D
-\newunicodechar{ⅇ}{\ensuremath{\mathbbi{e}}}  % U+2147  Double-Struck Italic Small E
-\newunicodechar{ⅈ}{\ensuremath{\mathbbi{i}}}  % U+2148  Double-Struck Italic Small I
-\newunicodechar{ⅉ}{\ensuremath{\mathbbi{j}}}  % U+2149  Double-Struck Italic Small J
+\newunicodechar{ⅅ}{\ensuremath{\mathbbm{\mathit{D}}}}  % U+2145  Double-Struck Italic Capital D
+\newunicodechar{ⅆ}{\ensuremath{\mathbbm{\mathit{d}}}}  % U+2146  Double-Struck Italic Small D
+\newunicodechar{ⅇ}{\ensuremath{\mathbbm{\mathit{e}}}}  % U+2147  Double-Struck Italic Small E
+\newunicodechar{ⅈ}{\ensuremath{\mathbbm{\mathit{i}}}}  % U+2148  Double-Struck Italic Small I
+\newunicodechar{ⅉ}{\ensuremath{\mathbbm{\mathit{j}}}}  % U+2149  Double-Struck Italic Small J
 % endregion blackboard bold italic characters (\bbi<char>) -----------------------------
 
 % \tt<char>

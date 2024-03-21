@@ -98,6 +98,7 @@ Note: Generally here not all characters are available:
 
 ## Known Issues & Limitations
 
+- When using the `Markdown All in One` extension for VSCode, make sure to disable the `backspace` hotkey, otherwise autokey will not be able to insert the unicode characters.
 - So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
 - Seems to behave weird with **Gnome Terminal**, no idea what's going on.
 - Can show strange behaviour with **VSCode**.
