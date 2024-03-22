@@ -7,6 +7,7 @@
 %% with pdflatex.
 %
 
+% chktex-file 18
 % chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-symbols}[2024/03/08 Unicode symbols]
@@ -31,10 +32,10 @@
 %\RequirePackage{mathfont}
 
 % decide whether to use stix or not
+\@ifpackageloaded{amsmath}{%
+\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
+}{}
 \ifunicode@stix
-	\@ifpackageloaded{amsmath}{%
-		\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
-	}{}
 	\RequirePackage{stix2}
 	% region stix2-patch ---------------------------------------------------------------
 	% REF: https://tex.stackexchange.com/q/542795
@@ -65,8 +66,25 @@
 	\RequirePackage{mathbbol}
 	\RequirePackage{mathrsfs}  % provides \mathscr
 	\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
-	\RequirePackage{fdsymbol}
+	% \RequirePackage{fdsymbol}  % NOTE: do not use, some really ugly symbols like ∑.
 \fi
+
+%  Get some missing symbols
+\@ifpackageloaded{stix}{}{% REF:https://tex.stackexchange.com/a/318144/119955
+\DeclareFontEncoding{LS2}{}{\noaccents@}
+\DeclareFontSubstitution{LS2}{stix}{m}{n}
+\DeclareSymbolFont{stix@largesymbols}{LS2}{stixex}{m}{n}
+\SetSymbolFont{stix@largesymbols}{bold}{LS2}{stixex}{b}{n}
+\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
+\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
+\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
+\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
+\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
+\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
+\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
+\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
+}
+
 
 \RequirePackage{amsmath}
 \RequirePackage{dsfont}    % provides \mathds
