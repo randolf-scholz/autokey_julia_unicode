@@ -445,10 +445,10 @@ def generate_help(*, target_dir: Path) -> None:
 
     target_dir.mkdir(exist_ok=True)
 
-    with open(target_dir / "julia_unicode_help.py", "w", encoding="utf8") as file:
+    with open(target_dir / "julia_unicode_help.py", "w+", encoding="utf8") as file:
         file.write(HELP_SCRIPT)
 
-    with open(target_dir / "julia_unicode_help.json", "w", encoding="utf8") as file:
+    with open(target_dir / "julia_unicode_help.json", "w+", encoding="utf8") as file:
         json.dump(HELP_CONFIG, file, indent=True)
 
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
