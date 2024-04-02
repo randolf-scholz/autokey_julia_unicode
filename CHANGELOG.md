@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2024-04-02
+
+- Added missing letter-like symbols (now complete)
+
 ## 2024-03-08
 
 - Revamped the installation script, now with argparse.

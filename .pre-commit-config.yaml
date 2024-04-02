@@ -50,7 +50,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.3
+    rev: v0.3.5
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -63,7 +63,7 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.355
+    rev: v1.1.356
     hooks:
       - id: pyright
   # markdownlint
@@ -86,7 +86,7 @@ repos:
       args: ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]
   # custom
   - repo: https://github.com/randolf-scholz/assorted-hooks.git
-    rev: v0.1.62
+    rev: v0.1.63
     hooks:
     - id: chktex
     - id: lacheck
