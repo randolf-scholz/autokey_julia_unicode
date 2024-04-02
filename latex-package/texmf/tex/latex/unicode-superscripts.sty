@@ -1,10 +1,12 @@
-% region preamble --------------------------------------------------------------
+% region preamble ----------------------------------------------------------------------
 % IMPLEMENTATION BASED ON \expandafter + \futurelet
 %
 % Provides public command: `\superscript{arg}`
 % Internally uses the namespaces`\usuperscript@`
 % Automatically loads the sister package `unicode-subscripts`
 %
+
+% chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-superscripts}[2024/02/26 Combining superscripts]
 \RequirePackage{iftex}
@@ -16,10 +18,10 @@
 %
 % The package is designed to work with both pdftex and luatex.
 % Note: Usage of the form `x\superscript{i}\superscript{j}' is not supported.
-% endregion preamble -----------------------------------------------------------
+% endregion preamble -------------------------------------------------------------------
 
 
-% region Package Options -------------------------------------------------------
+% region Package Options ---------------------------------------------------------------
 \newif\ifusuperscript@debug\usuperscript@debugfalse%  Debug flag
 \DeclareOption{debug}{\usuperscript@debugtrue}
 \ProcessOptions\relax%
@@ -30,10 +32,10 @@
 \else%
 	\RequirePackage{unicode-subscripts}%
 \fi%
-% endregion Package Options ----------------------------------------------------
+% endregion Package Options ------------------------------------------------------------
 
 
-% region globals and helper functions ------------------------------------------\
+% region globals and helper functions --------------------------------------------------
 % global superscript list variable
 \newcommand{\usuperscript@start}{\relax}%  marker for the start of a superscript
 \newcommand{\usuperscript@list@reset}{\let\usuperscript@list=\usuperscript@start}
@@ -61,10 +63,10 @@
 \else%
 	\def\usuperscript@check@successor{\usuperscript@check{\usuperscript@successor}}%
 \fi%
-% endregion globals and helper functions ---------------------------------------
+% endregion globals and helper functions -----------------------------------------------
 
 
-% region public interface ------------------------------------------------------
+% region public interface --------------------------------------------------------------
 \newcommand{\superscript}[1]{%
 %
 % 1. If we are already in a superscript, \superscript appends the given tokens to the \usuperscript@list
@@ -86,10 +88,10 @@
 % Expands successor first before \futurelet, this is important to handle unicode in pdftex
 \expandafter\futurelet\expandafter\usuperscript@successor\expandafter\usuperscript@check@successor%
 }
-% endregion public interface ---------------------------------------------------
+% endregion public interface -----------------------------------------------------------
 
 
-% region private implementation ------------------------------------------------
+% region private implementation --------------------------------------------------------
 \newcommand{\usuperscript@check}[1]{%
 %
 % Test whether to terminate the superscript
@@ -209,6 +211,6 @@
 \usuperscript@log{Reinserting '\meaning#1#2#3'}%
 #1#2#3%
 }
-% endregion private implementation ---------------------------------------------
+% endregion private implementation -----------------------------------------------------
 
 \endinput

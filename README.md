@@ -1,4 +1,4 @@
-# Autokey Unicode characters
+# AutoKey Unicode characters
 
 [Usage](#usage) | [Installation](#installation) | [Changelog](#changelog) | [Features](#features) | [Known Issues](#known-issues--limitations) | [References](#references)
 
@@ -6,13 +6,13 @@
 
 ## Usage
 
-This script adds all the unicode character abbreviations supported by [Julia](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input) to autokey. However, instead of `[TAB]`, they are triggered on `[SPACE]`. If you do not want perform the replacement, simply hit `[BACKSPACE]` afterwards.
+This script adds all the Unicode character abbreviations supported by [Julia](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input) to AutoKey. However, instead of `[TAB]`, they are triggered on `[SPACE]`. If you do not want to perform the replacement, simply hit `[BACKSPACE]` afterwards.
 
 ## Installation
 
-1. Install [autokey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
+1. Install [AutoKey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
 2. Execute `install.py` (requires python ≥3.10)
-3. Restart autokey
+3. Restart AutoKey
 
 ## Features
 
@@ -27,13 +27,13 @@ For overview see [Supported Alphabets](#supported-alphabets)
 
 ### Compatibility with MathJax & LaTeX
 
-1. MathJax supports unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
-2. LaTeX has unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/). For usage with `pdflatex`, try the attached `unicode-symbols.sty` package.
+1. MathJax supports Unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
+2. LaTeX has Unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/). For usage with `pdflatex`, try the attached `unicode-symbols.sty` package.
 
 ⚠️ **BEWARE** ⚠️ If you intend to use <https://overleaf.com>,
-this platform only supports the first 65536 unicode characters
+this platform only supports the first 65536 Unicode characters
 (the "basic plane"). This means that you cannot use any of the characters in the "supplementary planes"
-(e.g. the greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally
+(e.g. the Greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally
 ([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
 
 ### Supported Alphabets
@@ -44,33 +44,33 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 - For a circled one, `①`, type `\o1␣`.
 - For a bold italic capital gamma, `𝜞`, type `\biGamma␣`.
 - For the sub and superscripts, `Xᵢ²`, type `X\_i␣\^2␣`.
-- For the roman numeral `Ⅷ` (this is a single UTF-8 glyph, and not `V`+`I`+`I`+`I`), type `\RM8␣`.
+- For the Roman numeral `Ⅷ` (this is a single UTF-8 glyph, and not `V`+`I`+`I`+`I`), type `\RM8␣`.
 
 #### Serif Font
 
 | family | `\bf<>` | `\it<>` | `\bi<>` |
 |---|---|---|---|
-| latin | 𝐚𝐛𝐜𝐀𝐁𝐂      | 𝑎𝑏𝑐𝐴𝐵𝐶      | 𝒂𝒃𝒄𝑨𝑩𝑪      |
-| greek | 𝛂𝛃𝛄𝚨𝚩𝚪      | 𝛼𝛽𝛾𝛢𝛣𝛤      | 𝜶𝜷𝜸𝜜𝜝𝜞      |
-| digits | 𝟎𝟏𝟐   | ⸻ | ⸻ |
+| Latin | 𝐚𝐛𝐜𝐀𝐁𝐂      | 𝑎𝑏𝑐𝐴𝐵𝐶      | 𝒂𝒃𝒄𝑨𝑩𝑪      |
+| Greek | 𝛂𝛃𝛄𝚨𝚩𝚪      | 𝛼𝛽𝛾𝛢𝛣𝛤      | 𝜶𝜷𝜸𝜜𝜝𝜞      |
+| Digits | 𝟎𝟏𝟐   | ⸻ | ⸻ |
 
 #### Sans Serif Font
 
 | family | `\sans<>` | `\bsans<>` | `\isans<>` | `\bisans<>` |
 |---|---|---|---|---|
-| latin upper | 𝖠𝖡𝖢   | 𝗔𝗕𝗖   | 𝘈𝘉𝘊   | 𝘼𝘽𝘾   |
-| latin lower | 𝖺𝖻𝖼   | 𝗮𝗯𝗰   | 𝘢𝘣𝘤   | 𝙖𝙗𝙘   |
-| greek upper | ⸻ | 𝝖𝝗𝝘   | ⸻ | 𝞐𝞑𝞒   |
-| greek lower | ⸻ | 𝝰𝝱𝝲   | ⸻ | 𝞪𝞫𝞬   |
-| digits | 𝟢𝟣𝟤   | 𝟬𝟭𝟮   | ⸻ | ⸻ |
+| Latin upper | 𝖠𝖡𝖢   | 𝗔𝗕𝗖   | 𝘈𝘉𝘊   | 𝘼𝘽𝘾   |
+| Latin lower | 𝖺𝖻𝖼   | 𝗮𝗯𝗰   | 𝘢𝘣𝘤   | 𝙖𝙗𝙘   |
+| Greek upper | ⸻ | 𝝖𝝗𝝘   | ⸻ | 𝞐𝞑𝞒   |
+| Greek lower | ⸻ | 𝝰𝝱𝝲   | ⸻ | 𝞪𝞫𝞬   |
+| Digits | 𝟢𝟣𝟤   | 𝟬𝟭𝟮   | ⸻ | ⸻ |
 
-#### Speciality Font
+#### Specialty Font
 
 | family | `\tt<>` | `\bb<>` | `\frak<>` | `\bfrak<>` | `\scr<>` | `\bscr<>` |
 |---|---|---|---|---|---|---|
-| latin upper | 𝙰𝙱𝙲   | 𝔸𝔹ℂ  | 𝔄𝔅ℭ  | 𝕬𝕭𝕮   | 𝒜ℬ𝒞  | 𝓐𝓑𝓒   |
-| latin lower | 𝚊𝚋𝚌   | 𝕒𝕓𝕔   | 𝔞𝔟𝔠   | 𝖆𝖇𝖈   | 𝒶𝒷𝒸   | 𝓪𝓫𝓬   |
-| digits | 𝟶𝟷𝟸   | 𝟘𝟙𝟚   | ⸻ | ⸻ | ⸻ | ⸻ |
+| Latin upper | 𝙰𝙱𝙲   | 𝔸𝔹ℂ  | 𝔄𝔅ℭ  | 𝕬𝕭𝕮   | 𝒜ℬ𝒞  | 𝓐𝓑𝓒   |
+| Latin lower | 𝚊𝚋𝚌   | 𝕒𝕓𝕔   | 𝔞𝔟𝔠   | 𝖆𝖇𝖈   | 𝒶𝒷𝒸   | 𝓪𝓫𝓬   |
+| Digits | 𝟶𝟷𝟸   | 𝟘𝟙𝟚   | ⸻ | ⸻ | ⸻ | ⸻ |
 
 #### Numerals
 
@@ -85,11 +85,11 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 
 | family | `\^<>` | `\_<>` | `\o<>` | `\(<>)` | `\sc<>` | `\fw<>` |
 |---|---|---|---|---|---|---|
-| latin upper | ᴵᴶᴷ | ⸻ | ⒶⒷⒸ | ⸻ | ᴀʙᴄᴅ | ＡＢＣ |
-| latin lower | ⁱʲᵏ | ᵢⱼₖ | ⓐⓑⓒ | ⒜⒝⒞ | ⸻ | ａｂｃ |
-| greek upper | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ |
-| greek lower | ᵝᵞᵠ | ᵦᵧᵩ | ⸻ | ⸻ | ⸻ | ⸻ |
-| digits | ⁰¹² | ₀₁₂ | ⓪①② | ⑴⑵⑶ | ⸻ | ０１２ |
+| Latin upper | ᴵᴶᴷ | ⸻ | ⒶⒷⒸ | ⸻ | ᴀʙᴄᴅ | ＡＢＣ |
+| Latin lower | ⁱʲᵏ | ᵢⱼₖ | ⓐⓑⓒ | ⒜⒝⒞ | ⸻ | ａｂｃ |
+| Greek upper | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ | ⸻ |
+| Greek lower | ᵝᵞᵠ | ᵦᵧᵩ | ⸻ | ⸻ | ⸻ | ⸻ |
+| Digits | ⁰¹² | ₀₁₂ | ⓪①② | ⑴⑵⑶ | ⸻ | ０１２ |
 
 Note: Generally here not all characters are available:
 
@@ -98,25 +98,27 @@ Note: Generally here not all characters are available:
 
 ## Known Issues & Limitations
 
-- So far was only tested with Ubuntu 20.04 LTS and Autokey 0.95.10
+- When using the `Markdown All in One` extension for VS Code, make sure to disable the `backspace` hotkey, otherwise `AutoKey` will not be able to insert the Unicode characters.
+- So far was only tested with Ubuntu 20.04 LTS and `Autokey` 0.95.10
 - Seems to behave weird with **Gnome Terminal**, no idea what's going on.
-- Can show strange behaviour with **VSCode**.
+- Can show strange behavior with **VS Code**.
   - Seems fixable by deleting all `[shift]+[insert]` hotkeys combinations. (`File > Preferences > Keyboard Shortcuts`)
-  - Our macros here insert symbols with `[shift]+[insert]` and [VScode seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
+  - Our macros here insert symbols with `[shift]+[insert]` and [VS Code seems to mess with that](https://github.com/microsoft/vscode/issues/90637)
 - Composed characters seem to not always work as intended, not many editors render them correctly.
-- Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives a⁽ᵏ⁾. With AutoKey we need to add the superscripts one at a time.
-- Seems like it doesnt work with a German keyboard because AutoKey interprets `\` and `[AltGr]+?` (what you type on a German keyboard to get backslash) as different things.
+- Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives `a⁽ᵏ⁾`. With `AutoKey` we need to add the superscripts one at a time.
+- Seems like it doesn't work with a German keyboard because `AutoKey` interprets `\` and `[AltGr]+?` (what you type on a German keyboard to get backslash) as different things.
 
 ## [CHANGELOG](CHANGELOG.md)
 
+- 2024-04-02: Added missing letter-like symbols
 - 2024-03-08: Revamped the installation script, refactored the installation procedure.
-- 2024-02-27: Added italic and bold italic greek variants  to `unicode-symbols.sty`.
+- 2024-02-27: Added italic and bold italic Greek variants to `unicode-symbols.sty`.
 - 2024-02-26: Combining subscripts: `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
-- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the unicode characters for usage with `pdflatex`.
+- 2024-01-23: **⚠️ New ⚠️:** Added `unicode-symbols.sty` which provides a useful subset of the Unicode characters for usage with `pdflatex`.
 
 ## References
 
 - [Unicode Database](https://www.unicode.org/ucd/)
 - [Julia Documentation](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input)
-- [Autokey Documentation](https://autokey.github.io/documentation.html)
+- [AutoKey Documentation](https://autokey.github.io/documentation.html)
 - [Latex Symbols](https://ctan.org/pkg/comprehensive)

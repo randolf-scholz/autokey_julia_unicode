@@ -1,4 +1,4 @@
-exclude: '(\.git/|\.venv/|\.idea/|third_party/|experimental/)'
+exclude: '(\.git/|\.venv/|\.idea/|third_party/|experimental/|bugs/)'
 minimum_pre_commit_version: 3.6.0
 default_language_version:
   python: python3.11
@@ -50,7 +50,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.1
+    rev: v0.3.5
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -63,7 +63,7 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.353
+    rev: v1.1.356
     hooks:
       - id: pyright
   # markdownlint
@@ -78,46 +78,16 @@ repos:
             "MD033", # Inline HTML
             "--"  # otherwise files are interpreted as args
           ]
-  - repo: local
+  # shellcheck
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
     hooks:
-      - id: shellcheck
-        name: shellcheck
-        description: "Check shell scripts with shellcheck"
-        language: system
-        entry: shellcheck
-        types: [shell]
-        args:
-          - "--shell=bash"
-          - "--color=always"
-          - "--format=gcc"
-      - id: chktex
-        name: chktex
-        description: "Check LaTeX files with chktex"
-        language: system
-        types: [tex]
-        # chktex --format=$'%f:%l:%c %m [%k %n]\n' --quiet --nowarn=1 *files*
-        entry: chktex
-        args:
-          - "--format=%f:%l:%c %m [%k %n]\n"
-          - "--quiet"
-          - "--erroron=all"
-          - "--nowarn=1"
-          - "--nowarn=3"
-          - "--nowarn=19"
-          - "--nowarn=21"
-          - "--nowarn=22"
-          - "--nowarn=30"
-          - "--nowarn=41"
-          - "--nowarn=44"
-          - "--nowarn=46"
-          - "--"
-      - id: lacheck
-        name: lacheck
-        description: "A consistency checker for LaTeX documents"
-        language: system
-        types: [tex]
-        files: \.tex$
-        entry: bash -c '! printf "%s\n" "$@" | xargs -I _ lacheck _ | grep .' --
-        # NOTE: lacheck only takes a single file at a time, so we need to use xargs
-        # NOTE: lacheck always returns 0, so we need to grep for output
-        # NOTE: grep has exit code 1 if no matches are found, so we need to invert with `!`
+    - id: shellcheck
+      args: ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]
+  # custom
+  - repo: https://github.com/randolf-scholz/assorted-hooks.git
+    rev: v0.1.63
+    hooks:
+    - id: chktex
+    - id: lacheck
+    - id: check-separator-length

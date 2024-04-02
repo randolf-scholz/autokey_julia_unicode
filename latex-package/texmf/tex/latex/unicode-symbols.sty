@@ -7,48 +7,126 @@
 %% with pdflatex.
 %
 
+% chktex-file 18
+% chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{unicode-symbols}[2024/02/26 Unicode symbols]
+\ProvidesPackage{unicode-symbols}[2024/03/08 Unicode symbols]
+
+% region options -----------------------------------------------------------------------
+% option stix/nostix (default: stix)
+\newif\ifunicode@stix\unicode@stixtrue
+\DeclareOption{stix}{\unicode@stixtrue}
+\DeclareOption{nostix}{\unicode@stixfalse}
+\ProcessOptions\relax
+% endregion options --------------------------------------------------------------------
+
+% region dependencies ------------------------------------------------------------------
+\RequirePackage{newunicodechar}
 \RequirePackage{unicode-subscripts}
 \RequirePackage{unicode-superscripts}
+
+% load lmodern to get rid of font shape warning
+\RequirePackage{lmodern}% https://tex.stackexchange.com/questions/58087
+
+% TODO: Add switch to use mathfont (cf mathfont_user_guide) when LuaLaTeX or XeLaTeX is used.
+%\RequirePackage{mathfont}
+
+% decide whether to use stix or not
+\@ifpackageloaded{amsmath}{%
+\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
+}{}
+\ifunicode@stix
+	\RequirePackage{stix2}
+	% region stix2-patch ---------------------------------------------------------------
+	% REF: https://tex.stackexchange.com/q/542795
+	\DeclareFontFamily{LS1}{stix2bb}{\skewchar\font127 }
+	\DeclareFontShape{LS1}{stix2bb}{m}{n} {<-> stix2-mathbb}{}
+	\DeclareFontShape{LS1}{stix2bb}{m}{it}{<-> stix2-mathbbit}{}
+	\DeclareFontShape{LS1}{stix2bb}{b}{n} {<->ssub * stix2bb/m/n}{}
+	\DeclareFontShape{LS1}{stix2bb}{b}{it}{<->ssub * stix2bb/m/it}{}
+
+	\DeclareFontFamily{LS2}{stix2ex}{}
+	\DeclareFontShape{LS2}{stix2ex}{m}{n}{<-> stix2-mathex}{}
+	\DeclareFontShape{LS2}{stix2ex}{b}{n}{<->ssub * stix2ex/m/n}{}
+
+	\DeclareFontFamily{LS2}{stix2cal}{\skewchar\font127 }
+	\DeclareFontShape{LS2}{stix2cal}{m}{n}{<-> stix2-mathcal}{}
+	\DeclareFontShape{LS2}{stix2cal}{b}{n}{<->ssub * stix2cal/m/n}{}
+
+	\DeclareFontFamily{LS2}{stix2tt}{\skewchar\font127 }
+	\DeclareFontShape{LS2}{stix2tt}{m}{n}{<-> stix2-mathtt}{}
+	\DeclareFontShape{LS2}{stix2tt}{b}{n}{<->ssub * stix2tt/m/n}{}
+	% endregion stix2-patch ------------------------------------------------------------
+
+	% Used to get rid of dont shape warning
+	\RequirePackage{anyfontsize}%  https://tex.stackexchange.com/questions/58087
+\else
+	\RequirePackage{amsfonts}
+	\RequirePackage{amssymb}% not needed with stix2
+	\RequirePackage{mathbbol}
+	\RequirePackage{mathrsfs}  % provides \mathscr
+	\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
+	% \RequirePackage{fdsymbol}  % NOTE: do not use, some really ugly symbols like ∑.
+\fi
+
+%  Get some missing symbols
+\@ifpackageloaded{stix}{}{% REF:https://tex.stackexchange.com/a/318144/119955
+\DeclareFontEncoding{LS2}{}{\noaccents@}
+\DeclareFontSubstitution{LS2}{stix}{m}{n}
+\DeclareSymbolFont{stix@largesymbols}{LS2}{stixex}{m}{n}
+\SetSymbolFont{stix@largesymbols}{bold}{LS2}{stixex}{b}{n}
+\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
+\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
+\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
+\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
+\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
+\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
+\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
+\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
+}
+
+
 \RequirePackage{amsmath}
-\RequirePackage{amssymb}
-\RequirePackage{amsfonts}
-\RequirePackage{newunicodechar}
 \RequirePackage{dsfont}    % provides \mathds
-\RequirePackage{bbm}       % provides \mathbbm
+%\RequirePackage{bbm}       % provides \mathbbm
+%\RequirePackage{mathbbol}
 \RequirePackage{xfrac}     % provides \sfrac
-\RequirePackage{mathrsfs}  % provides \mathscr
-\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
+
 %\RequirePackage{txfonts}   % leftsquigarrow
 % The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
 
+\unless\ifdefined\mathbbm\let\mathbbm\mathbb\fi
+% region notes -------------------------------------------------------------------------
+%
+% TEX allows only 16 math alphabets to be used simultaneously
+% for script/calligraphic fonts there are 3 main options:
+% - \mathcal builtin
+% - \mathscr from eulerscript package
+% - \mathscr from mathrsfs pacakage
+% BLACKBOARD BOLD OPTIONS:
+% - \mathbb builtin
+% - \varmathbb from txfonts/pxfonts package
+% - \mathbb from bbold/mathbbol package
+% - \mathbb from mbboard pacakge
+% - \mathbbm from bbm package
+% - \mathbb from dsserif package
+% - \mathds from dsfont pacakge
+%
+% Subjectively, \mathds is the most visually pleasing. However, it only covers capital latin letters.
+% Since this is the most important use case, we use \mathds with \mathbbm fallback.
+%
+% endregion notes ----------------------------------------------------------------------
 
-% region stix2 -----------------------------------------------------------------
-% https://tex.stackexchange.com/a/610782/119955
-% \DeclareFontFamily{LS1}{stix2bb}{\skewchar\font127 }
-% \DeclareFontShape{LS1}{stix2bb}{m}{n} {<-> stix2-mathbb}{}
-% \DeclareFontShape{LS1}{stix2bb}{m}{it}{<-> stix2-mathbbit}{}
-% \DeclareFontShape{LS1}{stix2bb}{b}{n} {<->ssub * stix2bb/m/n}{}
-% \DeclareFontShape{LS1}{stix2bb}{b}{it}{<->ssub * stix2bb/m/it}{}
-
-% \DeclareFontFamily{LS2}{stix2ex}{}
-% \DeclareFontShape{LS2}{stix2ex}{m}{n} {<-> stix2-mathex}{}
-% \DeclareFontShape{LS2}{stix2ex}{b}{n} {<->ssub * stix2ex/m/n}{}
-
-% \DeclareFontFamily{LS2}{stix2cal}{\skewchar\font127 }
-% \DeclareFontShape{LS2}{stix2cal}{m}{n} {<-> stix2-mathcal}{}
-% \DeclareFontShape{LS2}{stix2cal}{b}{n} {<->ssub * stix2cal/m/n}{}
-
-% \DeclareFontFamily{LS2}{stix2tt}{\skewchar\font127 }
-% \DeclareFontShape{LS2}{stix2tt}{m}{n} {<-> stix2-mathtt}{}
-% \DeclareFontShape{LS2}{stix2tt}{b}{n} {<->ssub * stix2tt/m/n}{}
-% endregion stix2 --------------------------------------------------------------
 
 
+
+% region bm patch ----------------------------------------------------------------------
+% REF: https://tex.stackexchange.com/q/3676
 \ProvideDocumentCommand{\hmmax}{}{0}       % @bm: prevents "too many alphabets" error
 \ProvideDocumentCommand{\bmmax}{}{0}       % @bm: prevents "too many alphabets" error
-\RequirePackage{bm}        % provides \bm
+\RequirePackage{bm}                        % provides \bm
+% endregion bm patch -------------------------------------------------------------------
+% endregion dependencies ---------------------------------------------------------------
 
 
 % TODO: smarter implementation
@@ -61,9 +139,9 @@
 %\input{unicode-math-table}
 
 
-% region macros ----------------------------------------------------------------
+% region macros ------------------------------------------------------------------------
 \makeatletter
-% region helper macros ---------------------------------------------------------
+% region helper macros -----------------------------------------------------------------
 \newcommand{\cmark}{\ding{51}}% ✓
 \newcommand{\xmark}{\ding{55}}% ✗
 \newcommand{\circled}[1]{\textcircled{\footnotesize #1}}
@@ -83,10 +161,10 @@
 \newcommand{\isans}[1]{\mathit{\mathsf{#1}}}
 \newcommand{\bsans}[1]{\boldsymbol{\mathsf{#1}}}
 \newcommand{\bisans}[1]{\boldsymbol{\mathit{\mathsf{#1}}}}
-% endregion helper macros ------------------------------------------------------
+% endregion helper macros --------------------------------------------------------------
 
 
-% region text/math macros ------------------------------------------------------
+% region text/math macros --------------------------------------------------------------
 \newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
 \newcommand{\unicode@ddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}
 \newcommand{\unicode@times}{\ifmmode\times\else\texttimes\fi}
@@ -100,6 +178,7 @@
 \newcommand{\unicode@neg}{\ifmmode\neg\else\textlnot\fi}
 \newcommand{\unicode@div}{\ifmmode\div\else\textdiv\fi}
 \newcommand{\unicode@pm}{\ifmmode\pm\else\textpm\fi}
+\newcommand{\unicode@contradiction}{\ensuremath{\downzigzagarrow}}
 
 \ifdefined\doubleplus%
 	\let\unicode@doubleplus=\doubleplus%
@@ -118,10 +197,10 @@
 	\fi%
 	\let\indep=\unicode@indep%
 \fi%
-% endregion text/math macros ---------------------------------------------------
+% endregion text/math macros -----------------------------------------------------------
 
-% region greek macros ----------------------------------------------------------
-% region greek uppercase macros ------------------------------------------------
+% region greek macros ------------------------------------------------------------------
+% region greek uppercase macros --------------------------------------------------------
 \newcommand{\Alpha}  {\rm{A}}
 \newcommand{\Beta}   {\rm{B}}
 \newcommand{\Epsilon}{\rm{E}}
@@ -136,14 +215,14 @@
 \newcommand{\Tau}    {\rm{T}}
 \newcommand{\Chi}    {\rm{X}}
 \newcommand{\Heta}   {\Eta}
-% endregion greek uppercase macros ---------------------------------------------
+% endregion greek uppercase macros -----------------------------------------------------
 
-% region greek lowercase macros ------------------------------------------------
+% region greek lowercase macros --------------------------------------------------------
 \newcommand{\omicron}{o}
 \newcommand{\heta}   {\eta}   % used for bold short (name conflict Beta)
-% endregion greek lowercase macros ---------------------------------------------
+% endregion greek lowercase macros -----------------------------------------------------
 
-% region greek shorthand macros ------------------------------------------------
+% region greek shorthand macros --------------------------------------------------------
 \newcommand{\eps}   {\epsilon}
 \newcommand{\Eps}   {\Epsilon}
 \newcommand{\ups}   {\upsilon}
@@ -158,13 +237,13 @@
 \newcommand{\vpi}   {\varpi}      % π vs ϖ
 \newcommand{\vrho}  {\varrho}     % ρ vs ϱ
 \newcommand{\vsigma}{\varsigma}   % σ vs ς
-% endregion greek shorthand macros ---------------------------------------------
-% endregion greek macros -------------------------------------------------------
+% endregion greek shorthand macros -----------------------------------------------------
+% endregion greek macros ---------------------------------------------------------------
 \makeatother
-% endregion macros -------------------------------------------------------------
+% endregion macros ---------------------------------------------------------------------
 
 
-% region free previously defined unicode chars ---------------------------------
+% region free previously defined unicode chars -----------------------------------------
 % cf. https://github.com/latex3/latex3/blob/main/texmf/tex/latex/base/utf8enc.dfu
 \expandafter\let\csname u8:\detokenize{–}\endcsname\relax
 \expandafter\let\csname u8:\detokenize{—}\endcsname\relax
@@ -193,7 +272,11 @@
 \expandafter\let\csname u8:\detokenize{¹}\endcsname\relax
 \expandafter\let\csname u8:\detokenize{²}\endcsname\relax
 \expandafter\let\csname u8:\detokenize{³}\endcsname\relax
-% endregion free previously defined unicode chars ------------------------------
+\expandafter\let\csname u8:\detokenize{©}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{§}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{£}\endcsname\relax
+% endregion free previously defined unicode chars --------------------------------------
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -201,14 +284,18 @@
 % All macro definitions should use non-unicode replacements                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% region payload ===============================================================
+% region payload =======================================================================
 \makeatletter
 
-% region experimental ----------------------------------------------------------
+% region experimental ------------------------------------------------------------------
 \newunicodechar{ᵸ}{^{\mathsf{H}}}  % Hermitian conjugate (note: cyrillic H)
-% endregion experimental -------------------------------------------------------
+% endregion experimental ---------------------------------------------------------------
 
-% region misc ------------------------------------------------------------------
+% region misc --------------------------------------------------------------------------
+\newunicodechar{©}{\copyright}
+\newunicodechar{¶}{\P}
+\newunicodechar{§}{\S}
+\newunicodechar{£}{\pounds}
 \newunicodechar{✓}{\textbf{\cmark}}
 \newunicodechar{✗}{\textbf{\xmark}}
 \newunicodechar{✔}{\textbf{\cmark}}
@@ -230,9 +317,11 @@
 \newunicodechar{™}{\texttrademark}
 \newunicodechar{†}{\unicode@dagger}
 \newunicodechar{‡}{\unicode@ddagger}
-% endregion misc ---------------------------------------------------------------
+\newunicodechar{↯}{\unicode@contradiction}
+\newunicodechar{≙}{\hateq} % U+02259 Estimates
+% endregion misc -----------------------------------------------------------------------
 
-% region combining characters --------------------------------------------------
+% region combining characters ----------------------------------------------------------
 \newunicodechar{̂}{\hat}          % chktex 14
 \newunicodechar{̃}{\tilde}        % chktex 14
 \newunicodechar{̄}{\bar}          % chktex 14
@@ -242,19 +331,19 @@
 \newunicodechar{̊}{\mathring}     % chktex 14
 \newunicodechar{⃗}{\vec}          % chktex 14
 \newunicodechar{᪲}{\inftyabove}  % chktex 14
-% endregion combining characters -----------------------------------------------
+% endregion combining characters -------------------------------------------------------
 
-% region special characters ----------------------------------------------------
+% region special characters ------------------------------------------------------------
 \newunicodechar{ℓ}{\ensuremath{\ell}}
 \newunicodechar{ħ}{\ensuremath{\hbar}}
 \newunicodechar{ℵ}{\ensuremath{\aleph}}
 \newunicodechar{ℶ}{\ensuremath{\beth}}
 \newunicodechar{ℷ}{\ensuremath{\gimel}}
 \newunicodechar{ℸ}{\ensuremath{\daleth}}
-% endregion special characters -------------------------------------------------
+% endregion special characters ---------------------------------------------------------
 
 
-% region operators -------------------------------------------------------------
+% region operators ---------------------------------------------------------------------
 \newunicodechar{∝}{\ensuremath{\propto}}
 \newunicodechar{≔}{\ensuremath{\coloneqq}}
 \newunicodechar{≕}{\ensuremath{\eqqcolon}}
@@ -264,7 +353,7 @@
 \newunicodechar{±}{\ensuremath{\pm}}
 \newunicodechar{∓}{\ensuremath{\mp}}
 
-% region circled operators -----------------------------------------------------
+% region circled operators -------------------------------------------------------------
 \newunicodechar{⊙}{\ensuremath{\odot}}
 \newunicodechar{⊕}{\ensuremath{\oplus}}
 \newunicodechar{⊖}{\ensuremath{\ominus}}
@@ -277,18 +366,18 @@
 \newunicodechar{⨀}{\ensuremath{\bigodot}}
 \newunicodechar{⨁}{\ensuremath{\bigoplus}}
 \newunicodechar{⨂}{\ensuremath{\bigotimes}}
-% endregion circled operators ---------------------------------------------------
+% endregion circled operators ----------------------------------------------------------
 
-% region square operators -----------------------------------------------------
+% region square operators --------------------------------------------------------------
 \newunicodechar{⊡}{\ensuremath{\boxdot}}
 \newunicodechar{⊞}{\ensuremath{\boxplus}}
 \newunicodechar{⊟}{\ensuremath{\boxminus}}
 \newunicodechar{⊠}{\ensuremath{\boxtimes}}
-% endregion square operators ---------------------------------------------------
-% endregion operators ----------------------------------------------------------
+% endregion square operators -----------------------------------------------------------
+% endregion operators ------------------------------------------------------------------
 
 
-% region fractions -------------------------------------------------------------
+% region fractions ---------------------------------------------------------------------
 \newunicodechar{⁄}{\ensuremath{\over}}
 \newunicodechar{↉}{\ensuremath{\tfrac{0}{3}}}
 \newunicodechar{⅟}{\ensuremath{\tfrac{1}}}
@@ -310,10 +399,10 @@
 \newunicodechar{⅚}{\ensuremath{\tfrac{5}{6}}}
 \newunicodechar{⅝}{\ensuremath{\tfrac{5}{8}}}
 \newunicodechar{⅞}{\ensuremath{\tfrac{7}{8}}}
-% endregion fractions ----------------------------------------------------------
+% endregion fractions ------------------------------------------------------------------
 
 
-% region arrows ----------------------------------------------------------------
+% region arrows ------------------------------------------------------------------------
 % https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
 \newunicodechar{←}{\unicode@leftarrow}
 \newunicodechar{→}{\unicode@rightarrow}
@@ -344,10 +433,10 @@
 
 \newunicodechar{⟿}{\ensuremath{\rightsquigarrow}}  % FIXME
 \newunicodechar{⬳}{\ensuremath{\leftsquigarrow}}   % FIXME
-% endregion arrows -------------------------------------------------------------
+% endregion arrows ---------------------------------------------------------------------
 
 
-% region dots ------------------------------------------------------------------
+% region dots --------------------------------------------------------------------------
 \newunicodechar{…}{\ensuremath{\ldots}}
 \newunicodechar{⋯}{\ensuremath{\cdots}}
 \newunicodechar{⋮}{\ensuremath{\vdots}}
@@ -356,15 +445,27 @@
 \newunicodechar{：}{\ensuremath{\colon}}
 \newunicodechar{，}{\ensuremath{,\,}}  % fullwidth colon
 \newunicodechar{；}{\ensuremath{;\,}}  % fullwidth semicolon
-% endregion dots ---------------------------------------------------------------
+% endregion dots -----------------------------------------------------------------------
 
 
-% region probability -----------------------------------------------------------
+% region probability -------------------------------------------------------------------
 \newunicodechar{⫫}{\ensuremath{\indep}}
-% endregion probability --------------------------------------------------------
+% endregion probability ----------------------------------------------------------------
 
 
-% region linear algebra --------------------------------------------------------
+% region brackets ----------------------------------------------------------------------
+\newunicodechar{⟦}{\lBrack}  % U+27E6 Mathematical Left White Square Bracket
+\newunicodechar{⟧}{\rBrack}  % U+27E7 Mathematical Right White Square Bracket
+\newunicodechar{⟪}{\lAngle}  % U+27EA Mathematical Left Angle Bracket
+\newunicodechar{⟫}{\rAngle}  % U+27EB Mathematical Right Angle Bracket
+\newunicodechar{⦃}{\lBrace}  % U+2983 Left White Curly Bracket
+\newunicodechar{⦄}{\rBrace}  % U+2984 Right White Curly Bracket
+\newunicodechar{⦅}{\lParen}   % U+2985 Left White Parenthesis
+\newunicodechar{⦆}{\rParen}   % U+2986 Right White Parenthesis
+% endregion brackets -------------------------------------------------------------------
+
+
+% region linear algebra ----------------------------------------------------------------
 \newunicodechar{⟨}{\ensuremath{\langle}}
 \newunicodechar{⟩}{\ensuremath{\rangle}}
 \newunicodechar{∣}{\ensuremath{\mid}}
@@ -377,10 +478,10 @@
 \newunicodechar{⟂}{\ensuremath{\perp}}
 %\newunicodechar{}{\ensuremath{\vdots}}
 %\newunicodechar{}{\ensuremath{\ddots}}
-% endregion linear algebra -----------------------------------------------------
+% endregion linear algebra -------------------------------------------------------------
 
 
-% region set theory ------------------------------------------------------------
+% region set theory --------------------------------------------------------------------
 \newunicodechar{∈}{\ensuremath{\in}}
 \newunicodechar{∉}{\ensuremath{\notin}}
 \newunicodechar{∋}{\ensuremath{\ni}}
@@ -407,7 +508,7 @@
 
 \newunicodechar{×}{\ensuremath{\times}}  % cartesian product
 \newunicodechar{⨉}{\ensuremath{\bigtimes}}  % cartesian product
-% region multiset --------------------------------------------------------------
+% region multiset ----------------------------------------------------------------------
 \newunicodechar{⊎}{\ensuremath{\uplus}}  % multiset union
 \newunicodechar{⨄}{\ensuremath{\biguplus}}  % multiset union
 \newunicodechar{⊍}{\ensuremath{\cupdot}}  % multiset union
@@ -429,11 +530,11 @@
 \newunicodechar{⨆}{\ensuremath{\bigsqcup}}  % bag union
 \newunicodechar{⊓}{\ensuremath{\sqcap}}  % bag intersection
 \newunicodechar{⨅}{\ensuremath{\bigsqcap}}  % bag intersection
-% endregion multiset -----------------------------------------------------------
-% endregion set theory ---------------------------------------------------------
+% endregion multiset -------------------------------------------------------------------
+% endregion set theory -----------------------------------------------------------------
 
 
-% region inequality-like -------------------------------------------------------
+% region inequality-like ---------------------------------------------------------------
 \newunicodechar{≻}{\ensuremath{\succ}}
 \newunicodechar{⪰}{\ensuremath{\succeq}}
 \newunicodechar{≺}{\ensuremath{\prec}}
@@ -451,10 +552,10 @@
 \newunicodechar{≪}{\ensuremath{\ll}}
 \newunicodechar{⋘}{\ensuremath{\lll}}
 \newunicodechar{⋙}{\ensuremath{\ggg}}
-% endregion inequality-like ----------------------------------------------------
+% endregion inequality-like ------------------------------------------------------------
 
 
-% region equivalence-like ------------------------------------------------------
+% region equivalence-like --------------------------------------------------------------
 \newunicodechar{∼}{\ensuremath{\sim}}
 \newunicodechar{≈}{\ensuremath{\approx}}
 \newunicodechar{≃}{\ensuremath{\simeq}}
@@ -471,17 +572,17 @@
 \newunicodechar{≉}{\ensuremath{\not\approx}}
 \newunicodechar{≆}{\ensuremath{\simneqq}}
 \newunicodechar{≇}{\ensuremath{\ncong}}
-% endregion equivalence-like ---------------------------------------------------
+% endregion equivalence-like -----------------------------------------------------------
 
 
-% region integrals, sums and products ------------------------------------------
+% region integrals, sums and products --------------------------------------------------
 \newunicodechar{∑}{\ensuremath{\sum}}
 \newunicodechar{∏}{\ensuremath{\prod}}
 \newunicodechar{∐}{\ensuremath{\coprod}}
-% endregion integrals, sums and products ---------------------------------------
+% endregion integrals, sums and products -----------------------------------------------
 
 
-% region logic -----------------------------------------------------------------
+% region logic -------------------------------------------------------------------------
 \newunicodechar{⟹}{\ensuremath{\implies}}
 \newunicodechar{⟸}{\ensuremath{\impliedby}}
 \newunicodechar{⟺}{\ensuremath{\iff}}
@@ -504,10 +605,10 @@
 \newunicodechar{∧}{\ensuremath{\wedge}}
 \newunicodechar{⋁}{\ensuremath{\bigvee}}
 \newunicodechar{⋀}{\ensuremath{\bigwedge}}
-% endregion logic --------------------------------------------------------------
+% endregion logic ----------------------------------------------------------------------
 
 
-% region calulus ---------------------------------------------------------------
+% region calulus -----------------------------------------------------------------------
 \newunicodechar{∂}{\ensuremath{\partial}}
 \newunicodechar{∇}{\ensuremath{\nabla}}
 \newunicodechar{∆}{\ensuremath{\increment}}
@@ -518,15 +619,15 @@
 \newunicodechar{∮}{\ensuremath{\oint}}
 \newunicodechar{∯}{\ensuremath{\oiint}}
 \newunicodechar{∰}{\ensuremath{\oiiint}}
-% endregion calculus -----------------------------------------------------------
+% endregion calculus -------------------------------------------------------------------
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Alphabets                                                                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% region greek ------------------------------------------------------------------
-% region greek uppercase -------------------------------------------------------
+% region greek -------------------------------------------------------------------------
+% region greek uppercase ---------------------------------------------------------------
 \newunicodechar{Α}{\ensuremath{\Alpha}}
 \newunicodechar{Β}{\ensuremath{\Beta}}
 \newunicodechar{Γ}{\ensuremath{\Gamma}}
@@ -551,9 +652,9 @@
 \newunicodechar{Χ}{\ensuremath{\Chi}}
 \newunicodechar{Ψ}{\ensuremath{\Psi}}
 \newunicodechar{Ω}{\ensuremath{\Omega}}
-% endregion greek uppercase ----------------------------------------------------
+% endregion greek uppercase ------------------------------------------------------------
 
-% region greek lowercase -------------------------------------------------------
+% region greek lowercase ---------------------------------------------------------------
 \newunicodechar{α}{\ensuremath{\alpha}}
 \newunicodechar{β}{\ensuremath{\beta}}
 \newunicodechar{γ}{\ensuremath{\gamma}}
@@ -578,9 +679,9 @@
 \newunicodechar{χ}{\ensuremath{\chi}}
 \newunicodechar{ψ}{\ensuremath{\psi}}
 \newunicodechar{ω}{\ensuremath{\omega}}
-% endregion greek lowercase ----------------------------------------------------
+% endregion greek lowercase ------------------------------------------------------------
 
-% region greek variants --------------------------------------------------------
+% region greek variants ----------------------------------------------------------------
 \newunicodechar{ϴ}{\ensuremath{\varTheta}}
 \newunicodechar{ε}{\ensuremath{\varepsilon}}
 \newunicodechar{ς}{\ensuremath{\varsigma}}
@@ -589,11 +690,11 @@
 \newunicodechar{ϰ}{\ensuremath{\varkappa}}
 \newunicodechar{ϱ}{\ensuremath{\varrho}}
 \newunicodechar{ϖ}{\ensuremath{\varpi}}
-% endregion greek variants -----------------------------------------------------
-% endregion greek --------------------------------------------------------------
+% endregion greek variants -------------------------------------------------------------
+% endregion greek ----------------------------------------------------------------------
 
-% region hebrew ----------------------------------------------------------------
-% region hebrew numerals -------------------------------------------------------
+% region hebrew ------------------------------------------------------------------------
+% region hebrew numerals ---------------------------------------------------------------
 \newunicodechar{א}{\ensuremath{\aleph}}
 \newunicodechar{ב}{\ensuremath{\beth}}
 \newunicodechar{ג}{\ensuremath{\gimel}}
@@ -604,16 +705,16 @@
 \newunicodechar{ח}{\ensuremath{\chet}}
 \newunicodechar{ט}{\ensuremath{\tet}}
 \newunicodechar{י}{\ensuremath{\yod}}
-% endregion hebrew numerals ----------------------------------------------------
-% endregion hebrew -------------------------------------------------------------
+% endregion hebrew numerals ------------------------------------------------------------
+% endregion hebrew ---------------------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Character variants -- bold, italic, etc.                                     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \_<char>
-% region subscripts (\_<char>) -------------------------------------------------
-% region subscript lowercase latin ---------------------------------------------
+% region subscripts (\_<char>) ---------------------------------------------------------
+% region subscript lowercase latin -----------------------------------------------------
 \newunicodechar{ₐ}{\subscript{a}}
 %\newunicodechar{\_b}{\subscript{b}}
 %\newunicodechar{\_c}{\subscript{c}}
@@ -640,17 +741,17 @@
 \newunicodechar{ₓ}{\subscript{x}}
 %\newunicodechar{\_y}{\subscript{y}}
 %\newunicodechar{\_z}{\subscript{z}}
-% endregion subscript lowercase latin ------------------------------------------
+% endregion subscript lowercase latin --------------------------------------------------
 
-% region subscript lowercase greek ---------------------------------------------
+% region subscript lowercase greek -----------------------------------------------------
 \newunicodechar{ᵦ}{\subscript{\ensuremath{\beta}}}
 \newunicodechar{ᵧ}{\subscript{\ensuremath{\gamma}}}
 \newunicodechar{ᵨ}{\subscript{\ensuremath{\varrho}}}
 \newunicodechar{ᵩ}{\subscript{\ensuremath{\varphi}}}
 \newunicodechar{ᵪ}{\subscript{\ensuremath{\chi}}}
-% endregion subscript lowercase greek ------------------------------------------
+% endregion subscript lowercase greek --------------------------------------------------
 
-% region subscript digits ------------------------------------------------------
+% region subscript digits --------------------------------------------------------------
 \newunicodechar{₁}{\subscript{1}}
 \newunicodechar{₂}{\subscript{2}}
 \newunicodechar{₃}{\subscript{3}}
@@ -661,20 +762,20 @@
 \newunicodechar{₈}{\subscript{8}}
 \newunicodechar{₉}{\subscript{9}}
 \newunicodechar{₀}{\subscript{0}}
-% endregion subscript digits ---------------------------------------------------
+% endregion subscript digits -----------------------------------------------------------
 
-% region subscript symbols -----------------------------------------------------
+% region subscript symbols -------------------------------------------------------------
 \newunicodechar{₊}{\subscript{\texttt{+}}}
 \newunicodechar{₋}{\subscript{\texttt{-}}}
 \newunicodechar{₌}{\subscript{=}}
 \newunicodechar{₍}{\subscript{(}}  % chktex 9 chktex 10
 \newunicodechar{₎}{\subscript{)}}  % chktex 9 chktex 10
-% endregion subscript symbols --------------------------------------------------
-% endregion subscripts (\_<char>) ----------------------------------------------
+% endregion subscript symbols ----------------------------------------------------------
+% endregion subscripts (\_<char>) ------------------------------------------------------
 
 % \^<char>
-% region superscripts (\^<char>) -----------------------------------------------
-% region superscript uppercase latin -------------------------------------------
+% region superscripts (\^<char>) -------------------------------------------------------
+% region superscript uppercase latin ---------------------------------------------------
 \newunicodechar{ᴬ}{\superscript{A}}
 \newunicodechar{ᴮ}{\superscript{B}}
 % \newunicodechar{\^C}{\superscript{C}}
@@ -701,9 +802,9 @@
 %\newunicodechar{\^X}{\superscript{X}}
 %\newunicodechar{\^Y}{\superscript{Y}}
 %\newunicodechar{\^Z}{\superscript{Z}}
-% endregion superscript uppercase latin ----------------------------------------
+% endregion superscript uppercase latin ------------------------------------------------
 
-% region superscript lowercase latin -------------------------------------------
+% region superscript lowercase latin ---------------------------------------------------
 \newunicodechar{ᵃ}{\superscript{a}}
 \newunicodechar{ᵇ}{\superscript{b}}
 \newunicodechar{ᶜ}{\superscript{c}}
@@ -730,9 +831,9 @@
 \newunicodechar{ˣ}{\superscript{x}}
 \newunicodechar{ʸ}{\superscript{y}}
 \newunicodechar{ᶻ}{\superscript{z}}
-% endregion superscript lowercase latin ----------------------------------------
+% endregion superscript lowercase latin ------------------------------------------------
 
-% region superscript lowercase greek -------------------------------------------
+% region superscript lowercase greek ---------------------------------------------------
 \newunicodechar{ᵅ}{\superscript{\ensuremath{\alpha}}}
 \newunicodechar{ᵝ}{\superscript{\ensuremath{\beta}}}
 \newunicodechar{ᵞ}{\superscript{\ensuremath{\gamma}}}
@@ -743,9 +844,9 @@
 \newunicodechar{ᶹ}{\superscript{\ensuremath{\upsilon}}}
 \newunicodechar{ᵠ}{\superscript{\ensuremath{\varphi}}}
 \newunicodechar{ᵡ}{\superscript{\ensuremath{\chi}}}
-% endregion superscript lowercase greek ----------------------------------------
+% endregion superscript lowercase greek ------------------------------------------------
 
-% region superscript digits ----------------------------------------------------
+% region superscript digits ------------------------------------------------------------
 \newunicodechar{¹}{\superscript{1}}
 \newunicodechar{²}{\superscript{2}}
 \newunicodechar{³}{\superscript{3}}
@@ -756,20 +857,20 @@
 \newunicodechar{⁸}{\superscript{8}}
 \newunicodechar{⁹}{\superscript{9}}
 \newunicodechar{⁰}{\superscript{0}}
-% endregion superscript digits -------------------------------------------------
+% endregion superscript digits ---------------------------------------------------------
 
-% region superscript symbols ---------------------------------------------------
+% region superscript symbols -----------------------------------------------------------
 \newunicodechar{⁺}{\superscript{\texttt{+}}}
 \newunicodechar{⁻}{\superscript{\texttt{-}}}
 \newunicodechar{⁼}{\superscript{=}}
 \newunicodechar{⁽}{\superscript{(}}  % chktex 9
 \newunicodechar{⁾}{\superscript{)}}  % chktex 9
-% endregion superscript symbols ------------------------------------------------
-% endregion superscripts (\^<char>) --------------------------------------------
+% endregion superscript symbols --------------------------------------------------------
+% endregion superscripts (\^<char>) ----------------------------------------------------
 
 % \bf<char>
-% region bold characters (\bf<char>) -------------------------------------------
-% region bold uppercase latin --------------------------------------------------
+% region bold characters (\bf<char>) ---------------------------------------------------
+% region bold uppercase latin ----------------------------------------------------------
 \newunicodechar{𝐀}{\ensuremath{\mathbf{A}}}  % U+1D400 Mathematical Bold Capital A
 \newunicodechar{𝐁}{\ensuremath{\mathbf{B}}}  % U+1D401 Mathematical Bold Capital B
 \newunicodechar{𝐂}{\ensuremath{\mathbf{C}}}  % U+1D402 Mathematical Bold Capital C
@@ -796,9 +897,9 @@
 \newunicodechar{𝐗}{\ensuremath{\mathbf{X}}}  % U+1D417 Mathematical Bold Capital X
 \newunicodechar{𝐘}{\ensuremath{\mathbf{Y}}}  % U+1D418 Mathematical Bold Capital Y
 \newunicodechar{𝐙}{\ensuremath{\mathbf{Z}}}  % U+1D419 Mathematical Bold Capital Z
-% endregion bold uppercase latin -----------------------------------------------
+% endregion bold uppercase latin -------------------------------------------------------
 
-% region bold lowercase latin --------------------------------------------------
+% region bold lowercase latin ----------------------------------------------------------
 \newunicodechar{𝐚}{\ensuremath{\mathbf{a}}}  % U+1D41A Mathematical Bold Small A
 \newunicodechar{𝐛}{\ensuremath{\mathbf{b}}}  % U+1D41B Mathematical Bold Small B
 \newunicodechar{𝐜}{\ensuremath{\mathbf{c}}}  % U+1D41C Mathematical Bold Small C
@@ -825,9 +926,9 @@
 \newunicodechar{𝐱}{\ensuremath{\mathbf{x}}}  % U+1D431 Mathematical Bold Small X
 \newunicodechar{𝐲}{\ensuremath{\mathbf{y}}}  % U+1D432 Mathematical Bold Small Y
 \newunicodechar{𝐳}{\ensuremath{\mathbf{z}}}  % U+1D433 Mathematical Bold Small Z
-% endregion bold lowercase latin -----------------------------------------------
+% endregion bold lowercase latin -------------------------------------------------------
 
-% region bold uppercase greek --------------------------------------------------
+% region bold uppercase greek ----------------------------------------------------------
 \newunicodechar{𝚨}{\ensuremath{\boldsymbol{\Alpha}}}
 \newunicodechar{𝚩}{\ensuremath{\boldsymbol{\Beta}}}
 \newunicodechar{𝚪}{\ensuremath{\boldsymbol{\Gamma}}}
@@ -852,9 +953,9 @@
 \newunicodechar{𝚾}{\ensuremath{\boldsymbol{\Chi}}}
 \newunicodechar{𝚿}{\ensuremath{\boldsymbol{\Psi}}}
 \newunicodechar{𝛀}{\ensuremath{\boldsymbol{\Omega}}}
-% endregion bold uppercase greek -----------------------------------------------
+% endregion bold uppercase greek -------------------------------------------------------
 
-% region bold lowercase greek --------------------------------------------------
+% region bold lowercase greek ----------------------------------------------------------
 \newunicodechar{𝛂}{\ensuremath{\boldsymbol{\alpha}}}
 \newunicodechar{𝛃}{\ensuremath{\boldsymbol{\beta}}}
 \newunicodechar{𝛄}{\ensuremath{\boldsymbol{\gamma}}}
@@ -879,9 +980,9 @@
 \newunicodechar{𝛘}{\ensuremath{\boldsymbol{\chi}}}
 \newunicodechar{𝛙}{\ensuremath{\boldsymbol{\psi}}}
 \newunicodechar{𝛚}{\ensuremath{\boldsymbol{\omega}}}
-% endregion bold lowercase greek -----------------------------------------------
+% endregion bold lowercase greek -------------------------------------------------------
 
-% region bold greek variants ---------------------------------------------------
+% region bold greek variants -----------------------------------------------------------
 \newunicodechar{𝛆}{\ensuremath{\boldsymbol{\varepsilon}}}
 \newunicodechar{𝛞}{\ensuremath{\boldsymbol{\varkappa}}}
 \newunicodechar{𝛗}{\ensuremath{\boldsymbol{\varphi}}}
@@ -889,14 +990,14 @@
 \newunicodechar{𝛡}{\ensuremath{\boldsymbol{\varpi}}}
 \newunicodechar{𝛠}{\ensuremath{\boldsymbol{\varrho}}}
 \newunicodechar{𝛓}{\ensuremath{\boldsymbol{\varsigma}}}
-% endregion bold greek variants ------------------------------------------------
+% endregion bold greek variants --------------------------------------------------------
 
-% region bold symbols ----------------------------------------------------------
+% region bold symbols ------------------------------------------------------------------
 \newunicodechar{𝛛}{\ensuremath{\boldsymbol{\partial}}}
 \newunicodechar{𝛁}{\ensuremath{\boldsymbol{\nabla}}}
-% endregion bold symbols -------------------------------------------------------
+% endregion bold symbols ---------------------------------------------------------------
 
-% region bold digits -----------------------------------------------------------
+% region bold digits -------------------------------------------------------------------
 \newunicodechar{𝟎}{\ensuremath{\mathbf{0}}}  % U+1D7CE Mathematical Bold Digit Zero
 \newunicodechar{𝟏}{\ensuremath{\mathbf{1}}}  % U+1D7CF Mathematical Bold Digit One
 \newunicodechar{𝟐}{\ensuremath{\mathbf{2}}}  % U+1D7D0 Mathematical Bold Digit Two
@@ -907,12 +1008,12 @@
 \newunicodechar{𝟕}{\ensuremath{\mathbf{7}}}  % U+1D7D5 Mathematical Bold Digit Seven
 \newunicodechar{𝟖}{\ensuremath{\mathbf{8}}}  % U+1D7D6 Mathematical Bold Digit Eight
 \newunicodechar{𝟗}{\ensuremath{\mathbf{9}}}  % U+1D7D7 Mathematical Bold Digit Nine
-% endregion bold digits --------------------------------------------------------
-% endregion bold characters (\bf<char>) ----------------------------------------
+% endregion bold digits ----------------------------------------------------------------
+% endregion bold characters (\bf<char>) ------------------------------------------------
 
 % \it<char>
-% region italic characters (\it<char>) -----------------------------------------
-% region italic uppercase latin ------------------------------------------------
+% region italic characters (\it<char>) -------------------------------------------------
+% region italic uppercase latin --------------------------------------------------------
 \newunicodechar{𝐴}{\textit{A}}  % U+1D434 Mathematical Italic Capital A
 \newunicodechar{𝐵}{\textit{B}}  % U+1D435 Mathematical Italic Capital B
 \newunicodechar{𝐶}{\textit{C}}  % U+1D436 Mathematical Italic Capital C
@@ -939,9 +1040,9 @@
 \newunicodechar{𝑋}{\textit{X}}  % U+1D44B Mathematical Italic Capital X
 \newunicodechar{𝑌}{\textit{Y}}  % U+1D44C Mathematical Italic Capital Y
 \newunicodechar{𝑍}{\textit{Z}}  % U+1D44D Mathematical Italic Capital Z
-% endregion italic uppercase latin ---------------------------------------------
+% endregion italic uppercase latin -----------------------------------------------------
 
-% region italic lowercase latin ------------------------------------------------
+% region italic lowercase latin --------------------------------------------------------
 \newunicodechar{𝑎}{\textit{a}}  % U+1D44E Mathematical Italic Small A
 \newunicodechar{𝑏}{\textit{b}}  % U+1D44F Mathematical Italic Small B
 \newunicodechar{𝑐}{\textit{c}}  % U+1D450 Mathematical Italic Small C
@@ -968,9 +1069,9 @@
 \newunicodechar{𝑥}{\textit{x}}  % U+1D465 Mathematical Italic Small X
 \newunicodechar{𝑦}{\textit{y}}  % U+1D466 Mathematical Italic Small Y
 \newunicodechar{𝑧}{\textit{z}}  % U+1D467 Mathematical Italic Small Z
-% endregion italic lowercase latin ---------------------------------------------
+% endregion italic lowercase latin -----------------------------------------------------
 
-% region italic uppercase greek ------------------------------------------------
+% region italic uppercase greek --------------------------------------------------------
 \newunicodechar{𝛢}{\ensuremath{\mathit{\Alpha}}}
 \newunicodechar{𝛣}{\ensuremath{\mathit{\Beta}}}
 \newunicodechar{𝛤}{\ensuremath{\mathit{\Gamma}}}
@@ -995,9 +1096,9 @@
 \newunicodechar{𝛸}{\ensuremath{\mathit{\Chi}}}
 \newunicodechar{𝛹}{\ensuremath{\mathit{\Psi}}}
 \newunicodechar{𝛺}{\ensuremath{\mathit{\Omega}}}
-% endregion italic uppercase greek ---------------------------------------------
+% endregion italic uppercase greek -----------------------------------------------------
 
-% region italic lowercase greek ------------------------------------------------
+% region italic lowercase greek --------------------------------------------------------
 \newunicodechar{𝛼}{\ensuremath{\mathit{\alpha}}}
 \newunicodechar{𝛽}{\ensuremath{\mathit{\beta}}}
 \newunicodechar{𝛾}{\ensuremath{\mathit{\gamma}}}
@@ -1022,9 +1123,9 @@
 \newunicodechar{𝜒}{\ensuremath{\mathit{\chi}}}
 \newunicodechar{𝜓}{\ensuremath{\mathit{\psi}}}
 \newunicodechar{𝜔}{\ensuremath{\mathit{\omega}}}
-% endregion italic lowercase greek ---------------------------------------------
+% endregion italic lowercase greek -----------------------------------------------------
 
-% region italic greek variants -------------------------------------------------
+% region italic greek variants ---------------------------------------------------------
 \newunicodechar{𝜀}{\ensuremath{\mathit{\varepsilon}}}
 \newunicodechar{𝜘}{\ensuremath{\mathit{\varkappa}}}
 \newunicodechar{𝜑}{\ensuremath{\mathit{\varphi}}}
@@ -1032,17 +1133,17 @@
 \newunicodechar{𝜛}{\ensuremath{\mathit{\varpi}}}
 \newunicodechar{𝜚}{\ensuremath{\mathit{\varrho}}}
 \newunicodechar{𝜍}{\ensuremath{\mathit{\varsigma}}}
-% endregion italic greek variants ----------------------------------------------
+% endregion italic greek variants ------------------------------------------------------
 
-% region italic symbols --------------------------------------------------------
+% region italic symbols ----------------------------------------------------------------
 \newunicodechar{𝜕}{\ensuremath{\mathit{\partial}}}
 \newunicodechar{𝛻}{\ensuremath{\mathit{\nabla}}}
-% endregion italic symbols -----------------------------------------------------
-% endregion italic characters (\it<char>) --------------------------------------
+% endregion italic symbols -------------------------------------------------------------
+% endregion italic characters (\it<char>) ----------------------------------------------
 
 % \bi<char>
-% region bold italic characters (\bi<char>) ------------------------------------
-% region bold italic uppercase latin -------------------------------------------
+% region bold italic characters (\bi<char>) --------------------------------------------
+% region bold italic uppercase latin ---------------------------------------------------
 \newunicodechar{𝑨}{\ensuremath{\boldsymbol{\mathit{A}}}}  % U+1D468 Mathematical Bold Italic Capital A
 \newunicodechar{𝑩}{\ensuremath{\boldsymbol{\mathit{B}}}}  % U+1D469 Mathematical Bold Italic Capital B
 \newunicodechar{𝑪}{\ensuremath{\boldsymbol{\mathit{C}}}}  % U+1D46A Mathematical Bold Italic Capital C
@@ -1069,9 +1170,9 @@
 \newunicodechar{𝑿}{\ensuremath{\boldsymbol{\mathit{X}}}}  % U+1D47F Mathematical Bold Italic Capital X
 \newunicodechar{𝒀}{\ensuremath{\boldsymbol{\mathit{Y}}}}  % U+1D480 Mathematical Bold Italic Capital Y
 \newunicodechar{𝒁}{\ensuremath{\boldsymbol{\mathit{Z}}}}  % U+1D481 Mathematical Bold Italic Capital Z
-% endregion bold italic uppercase latin ----------------------------------------
+% endregion bold italic uppercase latin ------------------------------------------------
 
-% region bold italic lowercase latin -------------------------------------------
+% region bold italic lowercase latin ---------------------------------------------------
 \newunicodechar{𝒂}{\ensuremath{\boldsymbol{\mathit{a}}}}  % U+1D482 Mathematical Bold Italic Small A
 \newunicodechar{𝒃}{\ensuremath{\boldsymbol{\mathit{b}}}}  % U+1D483 Mathematical Bold Italic Small B
 \newunicodechar{𝒄}{\ensuremath{\boldsymbol{\mathit{c}}}}  % U+1D484 Mathematical Bold Italic Small C
@@ -1098,9 +1199,9 @@
 \newunicodechar{𝒙}{\ensuremath{\boldsymbol{\mathit{x}}}}  % U+1D499 Mathematical Bold Italic Small X
 \newunicodechar{𝒚}{\ensuremath{\boldsymbol{\mathit{y}}}}  % U+1D49A Mathematical Bold Italic Small Y
 \newunicodechar{𝒛}{\ensuremath{\boldsymbol{\mathit{z}}}}  % U+1D49B Mathematical Bold Italic Small Z
-% endregion bold italic lowercase latin ----------------------------------------
+% endregion bold italic lowercase latin ------------------------------------------------
 
-% region bold italic uppercase greek -------------------------------------------
+% region bold italic uppercase greek ---------------------------------------------------
 \newunicodechar{𝜜}{\ensuremath{\boldsymbol{\mathit{\Alpha}}}}
 \newunicodechar{𝜝}{\ensuremath{\boldsymbol{\mathit{\Beta}}}}
 \newunicodechar{𝜞}{\ensuremath{\boldsymbol{\mathit{\Gamma}}}}
@@ -1125,9 +1226,9 @@
 \newunicodechar{𝜲}{\ensuremath{\boldsymbol{\mathit{\Chi}}}}
 \newunicodechar{𝜳}{\ensuremath{\boldsymbol{\mathit{\Psi}}}}
 \newunicodechar{𝜴}{\ensuremath{\boldsymbol{\mathit{\Omega}}}}
-% endregion bold italic uppercase greek ----------------------------------------
+% endregion bold italic uppercase greek ------------------------------------------------
 
-% region bold italic lowercase greek -------------------------------------------
+% region bold italic lowercase greek ---------------------------------------------------
 \newunicodechar{𝜶}{\ensuremath{\boldsymbol{\mathit{\alpha}}}}
 \newunicodechar{𝜷}{\ensuremath{\boldsymbol{\mathit{\beta}}}}
 \newunicodechar{𝜸}{\ensuremath{\boldsymbol{\mathit{\gamma}}}}
@@ -1152,9 +1253,9 @@
 \newunicodechar{𝝌}{\ensuremath{\boldsymbol{\mathit{\chi}}}}
 \newunicodechar{𝝍}{\ensuremath{\boldsymbol{\mathit{\psi}}}}
 \newunicodechar{𝝎}{\ensuremath{\boldsymbol{\mathit{\omega}}}}
-% endregion bold italic lowercase greek ----------------------------------------
+% endregion bold italic lowercase greek ------------------------------------------------
 
-% region bold italic greek variants --------------------------------------------
+% region bold italic greek variants ----------------------------------------------------
 \newunicodechar{𝜺}{\ensuremath{\boldsymbol{\mathit{\varepsilon}}}}
 \newunicodechar{𝝒}{\ensuremath{\boldsymbol{\mathit{\varkappa}}}}
 \newunicodechar{𝝋}{\ensuremath{\boldsymbol{\mathit{\varphi}}}}
@@ -1162,17 +1263,17 @@
 \newunicodechar{𝝕}{\ensuremath{\boldsymbol{\mathit{\varpi}}}}
 \newunicodechar{𝝔}{\ensuremath{\boldsymbol{\mathit{\varrho}}}}
 \newunicodechar{𝝇}{\ensuremath{\boldsymbol{\mathit{\varsigma}}}}
-% endregion bold italic greek variants -----------------------------------------
+% endregion bold italic greek variants -------------------------------------------------
 
-% region bold italic symbols ---------------------------------------------------
+% region bold italic symbols -----------------------------------------------------------
 \newunicodechar{𝝏}{\ensuremath{\boldsymbol{\mathit{\partial}}}}
 \newunicodechar{𝜵}{\ensuremath{\boldsymbol{\mathit{\nabla}}}}
-% endregion bold italic symbols ------------------------------------------------
-% endregion bold italic characters (\bi<char>) ---------------------------------
+% endregion bold italic symbols --------------------------------------------------------
+% endregion bold italic characters (\bi<char>) -----------------------------------------
 
 % \sans<char>
-% region sans serif characters (\sans<char>) -----------------------------------
-% region sans serif uppercase latin --------------------------------------------
+% region sans serif characters (\sans<char>) -------------------------------------------
+% region sans serif uppercase latin ----------------------------------------------------
 \newunicodechar{𝖠}{\textsf{A}}  % U+1D5A0 Mathematical Sans-Serif Capital A
 \newunicodechar{𝖡}{\textsf{B}}  % U+1D5A1 Mathematical Sans-Serif Capital B
 \newunicodechar{𝖢}{\textsf{C}}  % U+1D5A2 Mathematical Sans-Serif Capital C
@@ -1199,9 +1300,9 @@
 \newunicodechar{𝖷}{\textsf{X}}  % U+1D5B7 Mathematical Sans-Serif Capital X
 \newunicodechar{𝖸}{\textsf{Y}}  % U+1D5B8 Mathematical Sans-Serif Capital Y
 \newunicodechar{𝖹}{\textsf{Z}}  % U+1D5B9 Mathematical Sans-Serif Capital Z
-% endregion sans serif uppercase latin -----------------------------------------
+% endregion sans serif uppercase latin -------------------------------------------------
 
-% region sans serif lowercase latin --------------------------------------------
+% region sans serif lowercase latin ----------------------------------------------------
 \newunicodechar{𝖺}{\textsf{a}}  % U+1D5BA Mathematical Sans-Serif Small A
 \newunicodechar{𝖻}{\textsf{b}}  % U+1D5BB Mathematical Sans-Serif Small B
 \newunicodechar{𝖼}{\textsf{c}}  % U+1D5BC Mathematical Sans-Serif Small C
@@ -1228,9 +1329,9 @@
 \newunicodechar{𝗑}{\textsf{x}}  % U+1D5D1 Mathematical Sans-Serif Small X
 \newunicodechar{𝗒}{\textsf{y}}  % U+1D5D2 Mathematical Sans-Serif Small Y
 \newunicodechar{𝗓}{\textsf{z}}  % U+1D5D3 Mathematical Sans-Serif Small Z
-% endregion sans serif lowercase latin -----------------------------------------
+% endregion sans serif lowercase latin -------------------------------------------------
 
-% region sans serif digits -----------------------------------------------------
+% region sans serif digits -------------------------------------------------------------
 \newunicodechar{𝟢}{\textsf{0}}  % U+1D7E2 Mathematical Sans-Serif Digit Zero
 \newunicodechar{𝟣}{\textsf{1}}  % U+1D7E3 Mathematical Sans-Serif Digit One
 \newunicodechar{𝟤}{\textsf{2}}  % U+1D7E4 Mathematical Sans-Serif Digit Two
@@ -1241,12 +1342,12 @@
 \newunicodechar{𝟩}{\textsf{7}}  % U+1D7E9 Mathematical Sans-Serif Digit Seven
 \newunicodechar{𝟪}{\textsf{8}}  % U+1D7EA Mathematical Sans-Serif Digit Eight
 \newunicodechar{𝟫}{\textsf{9}}  % U+1D7EB Mathematical Sans-Serif Digit Nine
-% endregion sans serif digits --------------------------------------------------
-% endregion sans serif characters (\sans<char>) --------------------------------
+% endregion sans serif digits ----------------------------------------------------------
+% endregion sans serif characters (\sans<char>) ----------------------------------------
 
 % \bsans<char>
-% region bold sans serif characters (\bsans<char>) -----------------------------
-% region bold sans serif uppercase latin ---------------------------------------
+% region bold sans serif characters (\bsans<char>) -------------------------------------
+% region bold sans serif uppercase latin -----------------------------------------------
 \newunicodechar{𝗔}{\textsf{\textbf{A}}}  % U+1D5D4 Mathematical Sans-Serif Bold Capital A
 \newunicodechar{𝗕}{\textsf{\textbf{B}}}  % U+1D5D5 Mathematical Sans-Serif Bold Capital B
 \newunicodechar{𝗖}{\textsf{\textbf{C}}}  % U+1D5D6 Mathematical Sans-Serif Bold Capital C
@@ -1273,9 +1374,9 @@
 \newunicodechar{𝗫}{\textsf{\textbf{X}}}  % U+1D5EB Mathematical Sans-Serif Bold Capital X
 \newunicodechar{𝗬}{\textsf{\textbf{Y}}}  % U+1D5EC Mathematical Sans-Serif Bold Capital Y
 \newunicodechar{𝗭}{\textsf{\textbf{Z}}}  % U+1D5ED Mathematical Sans-Serif Bold Capital Z
-% endregion bold sans serif uppercase latin ------------------------------------
+% endregion bold sans serif uppercase latin --------------------------------------------
 
-% region bold sans serif lowercase latin ---------------------------------------
+% region bold sans serif lowercase latin -----------------------------------------------
 \newunicodechar{𝗮}{\textsf{\textbf{a}}}  % U+1D5EE Mathematical Sans-Serif Bold Small A
 \newunicodechar{𝗯}{\textsf{\textbf{b}}}  % U+1D5EF Mathematical Sans-Serif Bold Small B
 \newunicodechar{𝗰}{\textsf{\textbf{c}}}  % U+1D5F0 Mathematical Sans-Serif Bold Small C
@@ -1302,9 +1403,9 @@
 \newunicodechar{𝘅}{\textsf{\textbf{x}}}  % U+1D605 Mathematical Sans-Serif Bold Small X
 \newunicodechar{𝘆}{\textsf{\textbf{y}}}  % U+1D606 Mathematical Sans-Serif Bold Small Y
 \newunicodechar{𝘇}{\textsf{\textbf{z}}}  % U+1D607 Mathematical Sans-Serif Bold Small Z
-% endregion bold sans serif lowercase latin ------------------------------------
+% endregion bold sans serif lowercase latin --------------------------------------------
 
-% region bold sans uppercase greek ---------------------------------------------
+% region bold sans uppercase greek -----------------------------------------------------
 \newunicodechar{𝝖}{\ensuremath{\boldsymbol{\mathsf{\Alpha}}}}
 \newunicodechar{𝝗}{\ensuremath{\boldsymbol{\mathsf{\Beta}}}}
 \newunicodechar{𝝘}{\ensuremath{\boldsymbol{\mathsf{\Gamma}}}}
@@ -1329,9 +1430,9 @@
 \newunicodechar{𝝬}{\ensuremath{\boldsymbol{\mathsf{\Chi}}}}
 \newunicodechar{𝝭}{\ensuremath{\boldsymbol{\mathsf{\Psi}}}}
 \newunicodechar{𝝮}{\ensuremath{\boldsymbol{\mathsf{\Omega}}}}
-% endregion bold sans uppercase greek ------------------------------------------
+% endregion bold sans uppercase greek --------------------------------------------------
 
-% region bold sans lowercase greek ---------------------------------------------
+% region bold sans lowercase greek -----------------------------------------------------
 \newunicodechar{𝝰}{\ensuremath{\boldsymbol{\mathsf{\alpha}}}}
 \newunicodechar{𝝱}{\ensuremath{\boldsymbol{\mathsf{\beta}}}}
 \newunicodechar{𝝲}{\ensuremath{\boldsymbol{\mathsf{\gamma}}}}
@@ -1356,9 +1457,9 @@
 \newunicodechar{𝞆}{\ensuremath{\boldsymbol{\mathsf{\chi}}}}
 \newunicodechar{𝞇}{\ensuremath{\boldsymbol{\mathsf{\psi}}}}
 \newunicodechar{𝞈}{\ensuremath{\boldsymbol{\mathsf{\omega}}}}
-% endregion bold sans lowercase greek ------------------------------------------
+% endregion bold sans lowercase greek --------------------------------------------------
 
-% region bold sans greek variants ----------------------------------------------
+% region bold sans greek variants ------------------------------------------------------
 \newunicodechar{𝝧}{\ensuremath{\boldsymbol{\mathsf{\varTheta}}}}
 \newunicodechar{𝝴}{\ensuremath{\boldsymbol{\mathsf{\varepsilon}}}}
 \newunicodechar{𝞁}{\ensuremath{\boldsymbol{\mathsf{\varsigma}}}}
@@ -1367,14 +1468,14 @@
 \newunicodechar{𝞌}{\ensuremath{\boldsymbol{\mathsf{\varkappa}}}}
 \newunicodechar{𝞎}{\ensuremath{\boldsymbol{\mathsf{\varrho}}}}
 \newunicodechar{𝞏}{\ensuremath{\boldsymbol{\mathsf{\varpi}}}}
-% endregion bold sans greek variants -------------------------------------------
+% endregion bold sans greek variants ---------------------------------------------------
 
-% region bold sans symbols -----------------------------------------------------
+% region bold sans symbols -------------------------------------------------------------
 \newunicodechar{𝝯}{\ensuremath{\boldsymbol{\mathsf{\nabla}}}}
 \newunicodechar{𝞉}{\ensuremath{\boldsymbol{\mathsf{\partial}}}}
-% endregion bold sans symbols --------------------------------------------------
+% endregion bold sans symbols ----------------------------------------------------------
 
-% region bold sans serif digits ------------------------------------------------
+% region bold sans serif digits --------------------------------------------------------
 \newunicodechar{𝟬}{\textsf{\textbf{0}}}  % U+1D7EC Mathematical Sans-Serif Bold Digit Zero
 \newunicodechar{𝟭}{\textsf{\textbf{1}}}  % U+1D7ED Mathematical Sans-Serif Bold Digit One
 \newunicodechar{𝟮}{\textsf{\textbf{2}}}  % U+1D7EE Mathematical Sans-Serif Bold Digit Two
@@ -1385,12 +1486,12 @@
 \newunicodechar{𝟳}{\textsf{\textbf{7}}}  % U+1D7F3 Mathematical Sans-Serif Bold Digit Seven
 \newunicodechar{𝟴}{\textsf{\textbf{8}}}  % U+1D7F4 Mathematical Sans-Serif Bold Digit Eight
 \newunicodechar{𝟵}{\textsf{\textbf{9}}}  % U+1D7F5 Mathematical Sans-Serif Bold Digit Nine
-% endregion bold sans serif digits ---------------------------------------------
-% endregion bold sans serif characters (\bsans<char>) --------------------------
+% endregion bold sans serif digits -----------------------------------------------------
+% endregion bold sans serif characters (\bsans<char>) ----------------------------------
 
 % \isans<char>
-% region sans serif italic characters (\isans<char>) ---------------------------
-% region sans serif italic uppercase latin -------------------------------------
+% region sans serif italic characters (\isans<char>) -----------------------------------
+% region sans serif italic uppercase latin ---------------------------------------------
 \newunicodechar{𝘈}{\textsf{\textit{A}}}  % U+1D608 Mathematical Sans-Serif Italic Capital A
 \newunicodechar{𝘉}{\textsf{\textit{B}}}  % U+1D609 Mathematical Sans-Serif Italic Capital B
 \newunicodechar{𝘊}{\textsf{\textit{C}}}  % U+1D60A Mathematical Sans-Serif Italic Capital C
@@ -1417,9 +1518,9 @@
 \newunicodechar{𝘟}{\textsf{\textit{X}}}  % U+1D61F Mathematical Sans-Serif Italic Capital X
 \newunicodechar{𝘠}{\textsf{\textit{Y}}}  % U+1D620 Mathematical Sans-Serif Italic Capital Y
 \newunicodechar{𝘡}{\textsf{\textit{Z}}}  % U+1D621 Mathematical Sans-Serif Italic Capital Z
-% endregion sans serif italic uppercase latin ----------------------------------
+% endregion sans serif italic uppercase latin ------------------------------------------
 
-% region sans serif italic lowercase latin -------------------------------------
+% region sans serif italic lowercase latin ---------------------------------------------
 \newunicodechar{𝘢}{\textsf{\textit{a}}}  % U+1D622 Mathematical Sans-Serif Italic Small A
 \newunicodechar{𝘣}{\textsf{\textit{b}}}  % U+1D623 Mathematical Sans-Serif Italic Small B
 \newunicodechar{𝘤}{\textsf{\textit{c}}}  % U+1D624 Mathematical Sans-Serif Italic Small C
@@ -1446,12 +1547,12 @@
 \newunicodechar{𝘹}{\textsf{\textit{x}}}  % U+1D639 Mathematical Sans-Serif Italic Small X
 \newunicodechar{𝘺}{\textsf{\textit{y}}}  % U+1D63A Mathematical Sans-Serif Italic Small Y
 \newunicodechar{𝘻}{\textsf{\textit{z}}}  % U+1D63B Mathematical Sans-Serif Italic Small Z
-% endregion sans serif italic lowercase latin ----------------------------------
-% endregion sans serif italic characters (\isans<char>) ------------------------
+% endregion sans serif italic lowercase latin ------------------------------------------
+% endregion sans serif italic characters (\isans<char>) --------------------------------
 
 % \bisans<char>
-% region bold sans serif italic characters (\bisans<char>) ---------------------
-% region sans serif bold italic uppercase latin --------------------------------
+% region bold sans serif italic characters (\bisans<char>) -----------------------------
+% region sans serif bold italic uppercase latin ----------------------------------------
 \newunicodechar{𝘼}{\textsf{\textbf{\textit{A}}}}  % U+1D63C Mathematical Sans-Serif Bold Italic Capital A
 \newunicodechar{𝘽}{\textsf{\textbf{\textit{B}}}}  % U+1D63D Mathematical Sans-Serif Bold Italic Capital B
 \newunicodechar{𝘾}{\textsf{\textbf{\textit{C}}}}  % U+1D63E Mathematical Sans-Serif Bold Italic Capital C
@@ -1478,9 +1579,9 @@
 \newunicodechar{𝙓}{\textsf{\textbf{\textit{X}}}}  % U+1D653 Mathematical Sans-Serif Bold Italic Capital X
 \newunicodechar{𝙔}{\textsf{\textbf{\textit{Y}}}}  % U+1D654 Mathematical Sans-Serif Bold Italic Capital Y
 \newunicodechar{𝙕}{\textsf{\textbf{\textit{Z}}}}  % U+1D655 Mathematical Sans-Serif Bold Italic Capital Z
-% endregion sans serif bold italic uppercase latin -----------------------------
+% endregion sans serif bold italic uppercase latin -------------------------------------
 
-% region sans serif bold italic lowercase latin --------------------------------
+% region sans serif bold italic lowercase latin ----------------------------------------
 \newunicodechar{𝙖}{\textsf{\textbf{\textit{a}}}}  % U+1D656 Mathematical Sans-Serif Bold Italic Small A
 \newunicodechar{𝙗}{\textsf{\textbf{\textit{b}}}}  % U+1D657 Mathematical Sans-Serif Bold Italic Small B
 \newunicodechar{𝙘}{\textsf{\textbf{\textit{c}}}}  % U+1D658 Mathematical Sans-Serif Bold Italic Small C
@@ -1507,9 +1608,9 @@
 \newunicodechar{𝙭}{\textsf{\textbf{\textit{x}}}}  % U+1D66D Mathematical Sans-Serif Bold Italic Small X
 \newunicodechar{𝙮}{\textsf{\textbf{\textit{y}}}}  % U+1D66E Mathematical Sans-Serif Bold Italic Small Y
 \newunicodechar{𝙯}{\textsf{\textbf{\textit{z}}}}  % U+1D66F Mathematical Sans-Serif Bold Italic Small Z
-% endregion sans serif bold italic lowercase latin -----------------------------
+% endregion sans serif bold italic lowercase latin -------------------------------------
 
-% region sans serif bold italic uppercase greek --------------------------------
+% region sans serif bold italic uppercase greek ----------------------------------------
 \newunicodechar{𝞐}{\ensuremath{\bisans{\Alpha}}}
 \newunicodechar{𝞑}{\ensuremath{\bisans{\Beta}}}
 \newunicodechar{𝞒}{\ensuremath{\bisans{\Gamma}}}
@@ -1534,9 +1635,9 @@
 \newunicodechar{𝞦}{\ensuremath{\bisans{\Chi}}}
 \newunicodechar{𝞧}{\ensuremath{\bisans{\Psi}}}
 \newunicodechar{𝞨}{\ensuremath{\bisans{\Omega}}}
-% endregion sans serif bold italic uppercase greek -----------------------------
+% endregion sans serif bold italic uppercase greek -------------------------------------
 
-% region sans serif bold italic lowercase greek --------------------------------
+% region sans serif bold italic lowercase greek ----------------------------------------
 \newunicodechar{𝞪}{\ensuremath{\bisans{\alpha}}}
 \newunicodechar{𝞫}{\ensuremath{\bisans{\beta}}}
 \newunicodechar{𝞬}{\ensuremath{\bisans{\gamma}}}
@@ -1561,9 +1662,9 @@
 \newunicodechar{𝟀}{\ensuremath{\bisans{\chi}}}
 \newunicodechar{𝟁}{\ensuremath{\bisans{\psi}}}
 \newunicodechar{𝟂}{\ensuremath{\bisans{\omega}}}
-% endregion sans serif bold italic lowercase greek -----------------------------
+% endregion sans serif bold italic lowercase greek -------------------------------------
 
-% region sans serif bold italic greek variants ---------------------------------
+% region sans serif bold italic greek variants -----------------------------------------
 \newunicodechar{𝞡}{\ensuremath{\bisans{\varTheta}}}
 \newunicodechar{𝞮}{\ensuremath{\bisans{\varepsilon}}}
 \newunicodechar{𝞻}{\ensuremath{\bisans{\varsigma}}}
@@ -1572,17 +1673,17 @@
 \newunicodechar{𝟆}{\ensuremath{\bisans{\varkappa}}}
 \newunicodechar{𝟈}{\ensuremath{\bisans{\varrho}}}
 \newunicodechar{𝟉}{\ensuremath{\bisans{\varpi}}}
-% endregion sans serif bold italic greek variants ------------------------------
+% endregion sans serif bold italic greek variants --------------------------------------
 
-% region sans serif bold italic symbols ----------------------------------------
+% region sans serif bold italic symbols ------------------------------------------------
 \newunicodechar{𝞩}{\ensuremath{\bisans{\nabla}}}
 \newunicodechar{𝟃}{\ensuremath{\bisans{\partial}}}
-% endregion sans serif bold italic symbols -------------------------------------
-% endregion bold sans serif italic characters (\bisans<char>) ------------------
+% endregion sans serif bold italic symbols ---------------------------------------------
+% endregion bold sans serif italic characters (\bisans<char>) --------------------------
 
 % \scr<char>
-% region script characters (\scr<char>) ----------------------------------------
-% region script uppercase latin ------------------------------------------------
+% region script characters (\scr<char>) ------------------------------------------------
+% region script uppercase latin --------------------------------------------------------
 \newunicodechar{𝒜}{\ensuremath{\mathscr{A}}}  % U+1D49C Mathematical Script Capital A
 \newunicodechar{ℬ}{\ensuremath{\mathscr{B}}}  % U+212C  Mathematical Script Capital B
 \newunicodechar{𝒞}{\ensuremath{\mathscr{C}}}  % U+1D49E Mathematical Script Capital C
@@ -1609,9 +1710,9 @@
 \newunicodechar{𝒳}{\ensuremath{\mathscr{X}}}  % U+1D4B3 Mathematical Script Capital X
 \newunicodechar{𝒴}{\ensuremath{\mathscr{Y}}}  % U+1D4B4 Mathematical Script Capital Y
 \newunicodechar{𝒵}{\ensuremath{\mathscr{Z}}}  % U+1D4B5 Mathematical Script Capital Z
-% endregion script uppercase latin ---------------------------------------------
+% endregion script uppercase latin -----------------------------------------------------
 
-% region script lowercase latin ------------------------------------------------
+% region script lowercase latin --------------------------------------------------------
 \newunicodechar{𝒶}{\ensuremath{\mathscr{a}}}  % U+1D4B6 Mathematical Script Small A
 \newunicodechar{𝒷}{\ensuremath{\mathscr{b}}}  % U+1D4B7 Mathematical Script Small B
 \newunicodechar{𝒸}{\ensuremath{\mathscr{c}}}  % U+1D4B8 Mathematical Script Small C
@@ -1638,12 +1739,12 @@
 \newunicodechar{𝓍}{\ensuremath{\mathscr{x}}}  % U+1D4CD Mathematical Script Small X
 \newunicodechar{𝓎}{\ensuremath{\mathscr{y}}}  % U+1D4CE Mathematical Script Small Y
 \newunicodechar{𝓏}{\ensuremath{\mathscr{z}}}  % U+1D4CF Mathematical Script Small Z
-% endregion script lowercase latin ---------------------------------------------
-% endregion script characters (\scr<char>) -------------------------------------
+% endregion script lowercase latin -----------------------------------------------------
+% endregion script characters (\scr<char>) ---------------------------------------------
 
 % \bscr<char> (\mathcal)
-% region bold script characters (\bscr<char>) ----------------------------------
-% region bold script uppercase latin -------------------------------------------
+% region bold script characters (\bscr<char>) ------------------------------------------
+% region bold script uppercase latin ---------------------------------------------------
 \newunicodechar{𝓐}{\ensuremath{\mathcal{A}}}  % U+1D4D0 Mathematical Bold Script Capital A
 \newunicodechar{𝓑}{\ensuremath{\mathcal{B}}}  % U+1D4D1 Mathematical Bold Script Capital B
 \newunicodechar{𝓒}{\ensuremath{\mathcal{C}}}  % U+1D4D2 Mathematical Bold Script Capital C
@@ -1670,9 +1771,9 @@
 \newunicodechar{𝓧}{\ensuremath{\mathcal{X}}}  % U+1D4E7 Mathematical Bold Script Capital X
 \newunicodechar{𝓨}{\ensuremath{\mathcal{Y}}}  % U+1D4E8 Mathematical Bold Script Capital Y
 \newunicodechar{𝓩}{\ensuremath{\mathcal{Z}}}  % U+1D4E9 Mathematical Bold Script Capital Z
-% endregion bold script uppercase latin ----------------------------------------
+% endregion bold script uppercase latin ------------------------------------------------
 
-% region bold script lowercase latin -------------------------------------------
+% region bold script lowercase latin ---------------------------------------------------
 \newunicodechar{𝓪}{\ensuremath{\mathcal{a}}}  % U+1D4EA Mathematical Bold Script Small A
 \newunicodechar{𝓫}{\ensuremath{\mathcal{b}}}  % U+1D4EB Mathematical Bold Script Small B
 \newunicodechar{𝓬}{\ensuremath{\mathcal{c}}}  % U+1D4EC Mathematical Bold Script Small C
@@ -1699,12 +1800,12 @@
 \newunicodechar{𝔁}{\ensuremath{\mathcal{x}}}  % U+1D501 Mathematical Bold Script Small X
 \newunicodechar{𝔂}{\ensuremath{\mathcal{y}}}  % U+1D502 Mathematical Bold Script Small Y
 \newunicodechar{𝔃}{\ensuremath{\mathcal{z}}}  % U+1D503 Mathematical Bold Script Small Z
-% endregion bold script lowercase latin ----------------------------------------
-% endregion bold script characters (\bscr<char>) -------------------------------
+% endregion bold script lowercase latin ------------------------------------------------
+% endregion bold script characters (\bscr<char>) ---------------------------------------
 
 % \frak<char>
-% region fraktur characters (\frak<char>) --------------------------------------
-% region fraktur uppercase latin -----------------------------------------------
+% region fraktur characters (\frak<char>) ----------------------------------------------
+% region fraktur uppercase latin -------------------------------------------------------
 \newunicodechar{𝔄}{\ensuremath{\mathfrak{A}}}  % U+1D504 Mathematical Fraktur Capital A
 \newunicodechar{𝔅}{\ensuremath{\mathfrak{B}}}  % U+1D505 Mathematical Fraktur Capital B
 \newunicodechar{ℭ}{\ensuremath{\mathfrak{C}}}  % U+212D  Mathematical Fraktur Capital C
@@ -1731,9 +1832,9 @@
 \newunicodechar{𝔛}{\ensuremath{\mathfrak{X}}}  % U+1D51B Mathematical Fraktur Capital X
 \newunicodechar{𝔜}{\ensuremath{\mathfrak{Y}}}  % U+1D51C Mathematical Fraktur Capital Y
 \newunicodechar{ℨ}{\ensuremath{\mathfrak{Z}}}  % U+2128  Mathematical Fraktur Capital Z
-% endregion fraktur uppercase latin --------------------------------------------
+% endregion fraktur uppercase latin ----------------------------------------------------
 
-% region fraktur lowercase latin -----------------------------------------------
+% region fraktur lowercase latin -------------------------------------------------------
 \newunicodechar{𝔞}{\ensuremath{\mathfrak{a}}}  % U+1D51E Mathematical Fraktur Small A
 \newunicodechar{𝔟}{\ensuremath{\mathfrak{b}}}  % U+1D51F Mathematical Fraktur Small B
 \newunicodechar{𝔠}{\ensuremath{\mathfrak{c}}}  % U+1D520 Mathematical Fraktur Small C
@@ -1760,12 +1861,12 @@
 \newunicodechar{𝔵}{\ensuremath{\mathfrak{x}}}  % U+1D535 Mathematical Fraktur Small X
 \newunicodechar{𝔶}{\ensuremath{\mathfrak{y}}}  % U+1D536 Mathematical Fraktur Small Y
 \newunicodechar{𝔷}{\ensuremath{\mathfrak{z}}}  % U+1D537 Mathematical Fraktur Small Z
-% endregion fraktur lowercase latin --------------------------------------------
-% endregion fraktur characters (\frak<char>) -----------------------------------
+% endregion fraktur lowercase latin ----------------------------------------------------
+% endregion fraktur characters (\frak<char>) -------------------------------------------
 
 % \bfrak<char>
-% region bold fraktur characters (\bfrak<char>) --------------------------------
-% region bold fraktur uppercase latin ------------------------------------------
+% region bold fraktur characters (\bfrak<char>) ----------------------------------------
+% region bold fraktur uppercase latin --------------------------------------------------
 \newunicodechar{𝕬}{\enusremath{\boldsymbol{\mathfrak{A}}}}  % U+1D56C Mathematical Bold Fraktur Capital A
 \newunicodechar{𝕭}{\enusremath{\boldsymbol{\mathfrak{B}}}}  % U+1D56D Mathematical Bold Fraktur Capital B
 \newunicodechar{𝕮}{\enusremath{\boldsymbol{\mathfrak{C}}}}  % U+1D56E Mathematical Bold Fraktur Capital C
@@ -1792,9 +1893,9 @@
 \newunicodechar{𝖃}{\enusremath{\boldsymbol{\mathfrak{X}}}}  % U+1D583 Mathematical Bold Fraktur Capital X
 \newunicodechar{𝖄}{\enusremath{\boldsymbol{\mathfrak{Y}}}}  % U+1D584 Mathematical Bold Fraktur Capital Y
 \newunicodechar{𝖅}{\enusremath{\boldsymbol{\mathfrak{Z}}}}  % U+1D585 Mathematical Bold Fraktur Capital Z
-% endregion bold fraktur uppercase latin ---------------------------------------
+% endregion bold fraktur uppercase latin -----------------------------------------------
 
-% region bold fraktur lowercase latin ------------------------------------------
+% region bold fraktur lowercase latin --------------------------------------------------
 \newunicodechar{𝖆}{\enusremath{\boldsymbol{\mathfrak{a}}}}  % U+1D586 Mathematical Bold Fraktur Small A
 \newunicodechar{𝖇}{\enusremath{\boldsymbol{\mathfrak{b}}}}  % U+1D587 Mathematical Bold Fraktur Small B
 \newunicodechar{𝖈}{\enusremath{\boldsymbol{\mathfrak{c}}}}  % U+1D588 Mathematical Bold Fraktur Small C
@@ -1821,12 +1922,12 @@
 \newunicodechar{𝖝}{\enusremath{\boldsymbol{\mathfrak{x}}}}  % U+1D59D Mathematical Bold Fraktur Small X
 \newunicodechar{𝖞}{\enusremath{\boldsymbol{\mathfrak{y}}}}  % U+1D59E Mathematical Bold Fraktur Small Y
 \newunicodechar{𝖟}{\enusremath{\boldsymbol{\mathfrak{z}}}}  % U+1D59F Mathematical Bold Fraktur Small Z
-% endregion bold fraktur lowercase latin -----------------------------------------
-% endregion bold fraktur characters (\bfrak<char>) -----------------------------
+% endregion bold fraktur lowercase latin -----------------------------------------------
+% endregion bold fraktur characters (\bfrak<char>) -------------------------------------
 
 % \bb<char>
-% region blackboard bold characters (\bb<char>) --------------------------------
-% region blackboard bold uppercase latin ---------------------------------------
+% region blackboard bold characters (\bb<char>) ----------------------------------------
+% region blackboard bold uppercase latin -----------------------------------------------
 \newunicodechar{𝔸}{\ensuremath{\mathds{a}}}  % U+1D538 Mathematical Double-Struck Capital A
 \newunicodechar{𝔹}{\ensuremath{\mathds{B}}}  % U+1D539 Mathematical Double-Struck Capital B
 \newunicodechar{ℂ}{\ensuremath{\mathds{C}}}  % U+2102  Mathematical Double-Struck Capital C
@@ -1853,9 +1954,9 @@
 \newunicodechar{𝕏}{\ensuremath{\mathds{X}}}  % U+1D54F Mathematical Double-Struck Capital X
 \newunicodechar{𝕐}{\ensuremath{\mathds{Y}}}  % U+1D550 Mathematical Double-Struck Capital Y
 \newunicodechar{ℤ}{\ensuremath{\mathds{Z}}}  % U+2124  Mathematical Double-Struck Capital Z
-% endregion blackboard bold uppercase latin ------------------------------------
+% endregion blackboard bold uppercase latin --------------------------------------------
 
-% region blackboard bold lowercase latin ---------------------------------------
+% region blackboard bold lowercase latin -----------------------------------------------
 \newunicodechar{𝕒}{\ensuremath{\mathbbm{a}}}  % U+1D552 Mathematical Double-Struck Small A
 \newunicodechar{𝕓}{\ensuremath{\mathbbm{b}}}  % U+1D553 Mathematical Double-Struck Small B
 \newunicodechar{𝕔}{\ensuremath{\mathbbm{c}}}  % U+1D554 Mathematical Double-Struck Small C
@@ -1882,9 +1983,9 @@
 \newunicodechar{𝕩}{\ensuremath{\mathbbm{x}}}  % U+1D569 Mathematical Double-Struck Small X
 \newunicodechar{𝕪}{\ensuremath{\mathbbm{y}}}  % U+1D56A Mathematical Double-Struck Small Y
 \newunicodechar{𝕫}{\ensuremath{\mathbbm{z}}}  % U+1D56B Mathematical Double-Struck Small Z
-% endregion blackboard bold lowercase latin ------------------------------------
+% endregion blackboard bold lowercase latin --------------------------------------------
 
-% region blackboard bold digits ------------------------------------------------
+% region blackboard bold digits --------------------------------------------------------
 \newunicodechar{𝟘}{\ensuremath{\mathbbm{0}}}  % U+1D7D8 Mathematical Double-Struck Digit Zero
 \newunicodechar{𝟙}{\ensuremath{\mathbbm{1}}}  % U+1D7D9 Mathematical Double-Struck Digit One
 \newunicodechar{𝟚}{\ensuremath{\mathbbm{2}}}  % U+1D7DA Mathematical Double-Struck Digit Two
@@ -1895,34 +1996,35 @@
 \newunicodechar{𝟟}{\ensuremath{\mathbbm{7}}}  % U+1D7DF Mathematical Double-Struck Digit Seven
 \newunicodechar{𝟠}{\ensuremath{\mathbbm{8}}}  % U+1D7E0 Mathematical Double-Struck Digit Eight
 \newunicodechar{𝟡}{\ensuremath{\mathbbm{9}}}  % U+1D7E1 Mathematical Double-Struck Digit Nine
-% endregion blackboard bold digits ---------------------------------------------
+% endregion blackboard bold digits -----------------------------------------------------
 
-% region blackboard bold lowercase greek ---------------------------------------
-\newunicodechar{ℽ}{\ensuremath{\mathbbm{\varphi}}}  % U+213D  Double-Struck Small Phi
-\newunicodechar{ℼ}{\ensuremath{\mathbbm{\varpi}}}  % U+213C  Double-Struck Small Pi
-% endregion blackboard bold lowercase greek ------------------------------------
+% region blackboard bold lowercase greek -----------------------------------------------
+\newunicodechar{ℽ}{\ensuremath{\mathbbm{\gamma}}}  % U+213D  Double-Struck Small Gamma
+\newunicodechar{ℼ}{\ensuremath{\mathbbm{\pi}}}     % U+213C  Double-Struck Small Pi
+% endregion blackboard bold lowercase greek --------------------------------------------
 
-% region blackboard bold capital greek -----------------------------------------
-\newunicodechar{ℿ}{\ensuremath{\mathbbm{\Pi}}}  % U+213F  Double-Struck Capital Pi
-% endregion blackboard bold capital greek --------------------------------------
+% region blackboard bold capital greek -------------------------------------------------
+\newunicodechar{ℾ}{\ensuremath{\mathbbm{\Gamma}}}  % U+213E  Double-Struck Capital Gamma
+\newunicodechar{ℿ}{\ensuremath{\mathbbm{\Pi}}}     % U+213F  Double-Struck Capital Pi
+% endregion blackboard bold capital greek ----------------------------------------------
 
-% region blackboard symbols ----------------------------------------------------
-\newunicodechar{⅀}{\ensuremath{\mathds{R}}}  % U+1D53D Mathematical Double-Struck Capital R
-% endregion blackboard symbols -------------------------------------------------\bbiD
-% endregion blackboard bold characters (\bb<char>) -----------------------------
+% region blackboard symbols ------------------------------------------------------------
+\newunicodechar{⅀}{\ensuremath{\mathbbm{\sum}}}  % U+2144 Double-Struck N-Ary Summation
+% endregion blackboard symbols ---------------------------------------------------------
+% endregion blackboard bold characters (\bb<char>) -------------------------------------
 
 % \bbi<char>
-% region blackboard bold italic characters (\bbi<char>) ------------------------
-\newunicodechar{ⅅ}{\ensuremath{\mathbbi{D}}}  % U+2145  Double-Struck Italic Capital D
-\newunicodechar{ⅆ}{\ensuremath{\mathbbi{d}}}  % U+2146  Double-Struck Italic Small D
-\newunicodechar{ⅇ}{\ensuremath{\mathbbi{e}}}  % U+2147  Double-Struck Italic Small E
-\newunicodechar{ⅈ}{\ensuremath{\mathbbi{i}}}  % U+2148  Double-Struck Italic Small I
-\newunicodechar{ⅉ}{\ensuremath{\mathbbi{j}}}  % U+2149  Double-Struck Italic Small J
-% endregion blackboard bold italic characters (\bbi<char>) ---------------------
+% region blackboard bold italic characters (\bbi<char>) --------------------------------
+\newunicodechar{ⅅ}{\ensuremath{\mathbbm{\mathit{D}}}}  % U+2145  Double-Struck Italic Capital D
+\newunicodechar{ⅆ}{\ensuremath{\mathbbm{\mathit{d}}}}  % U+2146  Double-Struck Italic Small D
+\newunicodechar{ⅇ}{\ensuremath{\mathbbm{\mathit{e}}}}  % U+2147  Double-Struck Italic Small E
+\newunicodechar{ⅈ}{\ensuremath{\mathbbm{\mathit{i}}}}  % U+2148  Double-Struck Italic Small I
+\newunicodechar{ⅉ}{\ensuremath{\mathbbm{\mathit{j}}}}  % U+2149  Double-Struck Italic Small J
+% endregion blackboard bold italic characters (\bbi<char>) -----------------------------
 
 % \tt<char>
-% region typewriter characters (\tt<char>) -------------------------------------
-% region typewriter uppercase latin --------------------------------------------
+% region typewriter characters (\tt<char>) ---------------------------------------------
+% region typewriter uppercase latin ----------------------------------------------------
 \newunicodechar{𝙰}{\texttt{A}}  % U+1D670 Mathematical Monospace Capital A
 \newunicodechar{𝙱}{\texttt{B}}  % U+1D671 Mathematical Monospace Capital B
 \newunicodechar{𝙲}{\texttt{C}}  % U+1D672 Mathematical Monospace Capital C
@@ -1949,9 +2051,9 @@
 \newunicodechar{𝚇}{\texttt{X}}  % U+1D687 Mathematical Monospace Capital X
 \newunicodechar{𝚈}{\texttt{Y}}  % U+1D688 Mathematical Monospace Capital Y
 \newunicodechar{𝚉}{\texttt{Z}}  % U+1D689 Mathematical Monospace Capital Z
-% endregion typewriter uppercase latin -----------------------------------------
+% endregion typewriter uppercase latin -------------------------------------------------
 
-% region typewriter lowercase latin --------------------------------------------
+% region typewriter lowercase latin ----------------------------------------------------
 \newunicodechar{𝚊}{\texttt{a}}  % U+1D68A Mathematical Monospace Small A
 \newunicodechar{𝚋}{\texttt{b}}  % U+1D68B Mathematical Monospace Small B
 \newunicodechar{𝚌}{\texttt{c}}  % U+1D68C Mathematical Monospace Small C
@@ -1978,9 +2080,9 @@
 \newunicodechar{𝚡}{\texttt{x}}  % U+1D6A1 Mathematical Monospace Small X
 \newunicodechar{𝚢}{\texttt{y}}  % U+1D6A2 Mathematical Monospace Small Y
 \newunicodechar{𝚣}{\texttt{z}}  % U+1D6A3 Mathematical Monospace Small Z
-% endregion typewriter lowercase latin -----------------------------------------
+% endregion typewriter lowercase latin -------------------------------------------------
 
-% region typewriter digits -----------------------------------------------------
+% region typewriter digits -------------------------------------------------------------
 \newunicodechar{𝟶}{\texttt{0}}  % U+1D7F6 Mathematical Monospace Digit Zero
 \newunicodechar{𝟷}{\texttt{1}}  % U+1D7F7 Mathematical Monospace Digit One
 \newunicodechar{𝟸}{\texttt{2}}  % U+1D7F8 Mathematical Monospace Digit Two
@@ -1991,12 +2093,12 @@
 \newunicodechar{𝟽}{\texttt{7}}  % U+1D7FD Mathematical Monospace Digit Seven
 \newunicodechar{𝟾}{\texttt{8}}  % U+1D7FE Mathematical Monospace Digit Eight
 \newunicodechar{𝟿}{\texttt{9}}  % U+1D7FF Mathematical Monospace Digit Nine
-% endregion typewriter digits --------------------------------------------------
-% endregion typewriter characters (\tt<char>) ----------------------------------
+% endregion typewriter digits ----------------------------------------------------------
+% endregion typewriter characters (\tt<char>) ------------------------------------------
 
 % \sc<char>
-% region small caps characters (\sc<char>) -------------------------------------
-% region small caps uppercase latin --------------------------------------------
+% region small caps characters (\sc<char>) ---------------------------------------------
+% region small caps uppercase latin ----------------------------------------------------
 \newunicodechar{ᴀ}{\textsc{a}}  % U+1D00 Latin Letter Small Capital A
 \newunicodechar{ʙ}{\textsc{b}}  % U+0299 Latin Letter Small Capital B
 \newunicodechar{ᴄ}{\textsc{c}}  % U+1D04 Latin Letter Small Capital C
@@ -2023,12 +2125,12 @@
 %\newunicodechar{}{\textsc{x}}  % U+???? Latin Letter Small Capital X
 \newunicodechar{ʏ}{\textsc{y}}  % U+028F Latin Letter Small Capital Y
 \newunicodechar{ᴢ}{\textsc{z}}  % U+1D22 Latin Letter Small Capital Z
-% endregion small caps uppercase latin -----------------------------------------
-% endregion small caps characters (\sc<char>) ----------------------------------
+% endregion small caps uppercase latin -------------------------------------------------
+% endregion small caps characters (\sc<char>) ------------------------------------------
 
 % \o<char>
-% region circled characters (\o<char>) -----------------------------------------
-% region circled digits --------------------------------------------------------
+% region circled characters (\o<char>) -------------------------------------------------
+% region circled digits ----------------------------------------------------------------
 \newunicodechar{⓪}{\circled{0}}   % U+24EA CIRCLED DIGIT ZERO
 \newunicodechar{①}{\circled{1}}   % U+2460 CIRCLED DIGIT ONE
 \newunicodechar{②}{\circled{2}}   % U+2461 CIRCLED DIGIT TWO
@@ -2050,9 +2152,9 @@
 \newunicodechar{⑱}{\circled{18}}  % U+2471 CIRCLED NUMBER EIGHTEEN
 \newunicodechar{⑲}{\circled{19}}  % U+2472 CIRCLED NUMBER NINETEEN
 \newunicodechar{⑳}{\circled{20}}  % U+2473 CIRCLED NUMBER TWENTY
-% endregion circled digits -----------------------------------------------------
+% endregion circled digits -------------------------------------------------------------
 
-% region circled uppercase latin -----------------------------------------------
+% region circled uppercase latin -------------------------------------------------------
 \newunicodechar{Ⓐ}{\circled{A}}  % U+24B6 CIRCLED LATIN CAPITAL LETTER A
 \newunicodechar{Ⓑ}{\circled{B}}  % U+24B7 CIRCLED LATIN CAPITAL LETTER B
 \newunicodechar{Ⓒ}{\circled{C}}  % U+24B8 CIRCLED LATIN CAPITAL LETTER C
@@ -2079,9 +2181,9 @@
 \newunicodechar{Ⓧ}{\circled{X}}  % U+24CD CIRCLED LATIN CAPITAL LETTER X
 \newunicodechar{Ⓨ}{\circled{Y}}  % U+24CE CIRCLED LATIN CAPITAL LETTER Y
 \newunicodechar{Ⓩ}{\circled{Z}}  % U+24CF CIRCLED LATIN CAPITAL LETTER Z
-% endregion circled uppercase latin --------------------------------------------
+% endregion circled uppercase latin ----------------------------------------------------
 
-% region circled lowercase latin -----------------------------------------------
+% region circled lowercase latin -------------------------------------------------------
 \newunicodechar{ⓐ}{\circled{a}}  % U+24D0 CIRCLED LATIN SMALL LETTER A
 \newunicodechar{ⓑ}{\circled{b}}  % U+24D1 CIRCLED LATIN SMALL LETTER B
 \newunicodechar{ⓒ}{\circled{c}}  % U+24D2 CIRCLED LATIN SMALL LETTER C
@@ -2108,11 +2210,11 @@
 \newunicodechar{ⓧ}{\circled{x}}  % U+24E7 CIRCLED LATIN SMALL LETTER X
 \newunicodechar{ⓨ}{\circled{y}}  % U+24E8 CIRCLED LATIN SMALL LETTER Y
 \newunicodechar{ⓩ}{\circled{z}}  % U+24E9 CIRCLED LATIN SMALL LETTER Z
-% endregion circled lowercase latin --------------------------------------------
-% endregion circled characters (\o<char>) --------------------------------------
+% endregion circled lowercase latin ----------------------------------------------------
+% endregion circled characters (\o<char>) ----------------------------------------------
 
 % \RM<char>
-% region roman numerals (\RM<char>) --------------------------------------------
+% region roman numerals (\RM<char>) ----------------------------------------------------
 \newunicodechar{Ⅰ}{\RomanNumber{1}} % U+2160 Roman Numeral One
 \newunicodechar{Ⅱ}{\RomanNumber{2}} % U+2161 Roman Numeral Two
 \newunicodechar{Ⅲ}{\RomanNumber{3}} % U+2162 Roman Numeral Three
@@ -2129,10 +2231,10 @@
 \newunicodechar{Ⅽ}{\RomanNumber{100}} % U+216D Roman Numeral One Hundred
 \newunicodechar{Ⅾ}{\RomanNumber{500}} % U+216E Roman Numeral Five Hundred
 \newunicodechar{Ⅿ}{\RomanNumber{1000}} % U+216F Roman Numeral One Thousand
-% endregion roman numerals (\RM<char>) -----------------------------------------
+% endregion roman numerals (\RM<char>) -------------------------------------------------
 
 % \rm<char>
-% region small roman numerals (\rm<char>) --------------------------------------
+% region small roman numerals (\rm<char>) ----------------------------------------------
 \newunicodechar{ⅰ}{\romannumber{1}} % U+2170 Small Roman Numeral One
 \newunicodechar{ⅱ}{\romannumber{2}} % U+2171 Small Roman Numeral Two
 \newunicodechar{ⅲ}{\romannumber{3}} % U+2172 Small Roman Numeral Three
@@ -2149,8 +2251,8 @@
 \newunicodechar{ⅽ}{\romannumber{100}} % U+217D Small Roman Numeral One Hundred
 \newunicodechar{ⅾ}{\romannumber{500}} % U+217E Small Roman Numeral Five Hundred
 \newunicodechar{ⅿ}{\romannumber{1000}} % U+217F Small Roman Numeral One Thousand
-% endregion small roman numerals (\rm<char>) -----------------------------------
+% endregion small roman numerals (\rm<char>) -------------------------------------------
 
-% endregion payload ============================================================
+% endregion payload ====================================================================
 \makeatother%
 \endinput%

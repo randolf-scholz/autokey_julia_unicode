@@ -1,8 +1,9 @@
-\documentclass{standalone}
+\documentclass[10pt]{standalone}
 \usepackage[verbose]{newunicodechar}
-\usepackage{unicode-symbols}
+\usepackage[stix]{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
+\usepackage{times}
 
 \DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
 \SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
@@ -18,6 +19,17 @@
 &\multicolumn{4}{c|}{sans} & \multicolumn{4}{|c}{bsans} & \multicolumn{4}{|c}{isans} & \multicolumn{4}{|c}{bisans} \\
 ref&\multicolumn{2}{c|}{text} & \multicolumn{2}{|c|}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math}
 & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} \\
+\midrule
+0 & \SANS{0} & 𝟢 & $\SANS{0}$ & $𝟢$ & \BSANS{0} & 𝟬 & $\BSANS{0}$ & $𝟬$ & \ISANS{0} & — & $\ISANS{0}$ & $—$ & \BISANS{0} & — & $\BISANS{0}$ & $—$ \\
+1 & \SANS{1} & 𝟣 & $\SANS{1}$ & $𝟣$ & \BSANS{1} & 𝟭 & $\BSANS{1}$ & $𝟭$ & \ISANS{1} & — & $\ISANS{1}$ & $—$ & \BISANS{1} & — & $\BISANS{1}$ & $—$ \\
+2 & \SANS{2} & 𝟤 & $\SANS{2}$ & $𝟤$ & \BSANS{2} & 𝟮 & $\BSANS{2}$ & $𝟮$ & \ISANS{2} & — & $\ISANS{2}$ & $—$ & \BISANS{2} & — & $\BISANS{2}$ & $—$ \\
+3 & \SANS{3} & 𝟥 & $\SANS{3}$ & $𝟥$ & \BSANS{3} & 𝟯 & $\BSANS{3}$ & $𝟯$ & \ISANS{3} & — & $\ISANS{3}$ & $—$ & \BISANS{3} & — & $\BISANS{3}$ & $—$ \\
+4 & \SANS{4} & 𝟦 & $\SANS{4}$ & $𝟦$ & \BSANS{4} & 𝟰 & $\BSANS{4}$ & $𝟰$ & \ISANS{4} & — & $\ISANS{4}$ & $—$ & \BISANS{4} & — & $\BISANS{4}$ & $—$ \\
+5 & \SANS{5} & 𝟧 & $\SANS{5}$ & $𝟧$ & \BSANS{5} & 𝟱 & $\BSANS{5}$ & $𝟱$ & \ISANS{5} & — & $\ISANS{5}$ & $—$ & \BISANS{5} & — & $\BISANS{5}$ & $—$ \\
+6 & \SANS{6} & 𝟨 & $\SANS{6}$ & $𝟨$ & \BSANS{6} & 𝟲 & $\BSANS{6}$ & $𝟲$ & \ISANS{6} & — & $\ISANS{6}$ & $—$ & \BISANS{6} & — & $\BISANS{6}$ & $—$ \\
+7 & \SANS{7} & 𝟩 & $\SANS{7}$ & $𝟩$ & \BSANS{7} & 𝟳 & $\BSANS{7}$ & $𝟳$ & \ISANS{7} & — & $\ISANS{7}$ & $—$ & \BISANS{7} & — & $\BISANS{7}$ & $—$ \\
+8 & \SANS{8} & 𝟪 & $\SANS{8}$ & $𝟪$ & \BSANS{8} & 𝟴 & $\BSANS{8}$ & $𝟴$ & \ISANS{8} & — & $\ISANS{8}$ & $—$ & \BISANS{8} & — & $\BISANS{8}$ & $—$ \\
+9 & \SANS{9} & 𝟫 & $\SANS{9}$ & $𝟫$ & \BSANS{9} & 𝟵 & $\BSANS{9}$ & $𝟵$ & \ISANS{9} & — & $\ISANS{9}$ & $—$ & \BISANS{9} & — & $\BISANS{9}$ & $—$ \\
 \midrule
 A & \SANS{A} & 𝖠 & $\SANS{A}$ & $𝖠$ & \BSANS{A} & 𝗔 & $\BSANS{A}$ & $𝗔$ & \ISANS{A} & 𝘈 & $\ISANS{A}$ & $𝘈$ & \BISANS{A} & 𝘼 & $\BISANS{A}$ & $𝘼$  \\
 B & \SANS{B} & 𝖡 & $\SANS{B}$ & $𝖡$ & \BSANS{B} & 𝗕 & $\BSANS{B}$ & $𝗕$ & \ISANS{B} & 𝘉 & $\ISANS{B}$ & $𝘉$ & \BISANS{B} & 𝘽 & $\BISANS{B}$ & $𝘽$  \\
@@ -72,17 +84,6 @@ w & \SANS{w} & 𝗐 & $\SANS{w}$ & $𝗐$ & \BSANS{w} & 𝘄 & $\BSANS{w}$ & $�
 x & \SANS{x} & 𝗑 & $\SANS{x}$ & $𝗑$ & \BSANS{x} & 𝘅 & $\BSANS{x}$ & $𝘅$ & \ISANS{x} & 𝘹 & $\ISANS{x}$ & $𝘹$ & \BISANS{x} & 𝙭 & $\BISANS{x}$ & $𝙭$ \\
 y & \SANS{y} & 𝗒 & $\SANS{y}$ & $𝗒$ & \BSANS{y} & 𝘆 & $\BSANS{y}$ & $𝘆$ & \ISANS{y} & 𝘺 & $\ISANS{y}$ & $𝘺$ & \BISANS{y} & 𝙮 & $\BISANS{y}$ & $𝙮$ \\
 z & \SANS{z} & 𝗓 & $\SANS{z}$ & $𝗓$ & \BSANS{z} & 𝘇 & $\BSANS{z}$ & $𝘇$ & \ISANS{z} & 𝘻 & $\ISANS{z}$ & $𝘻$ & \BISANS{z} & 𝙯 & $\BISANS{z}$ & $𝙯$ \\
-\midrule
-0 & \SANS{0} & 𝟢 & $\SANS{0}$ & $𝟢$ & \BSANS{0} & 𝟬 & $\BSANS{0}$ & $𝟬$ & \ISANS{0} & — & $\ISANS{0}$ & $—$ & \BISANS{0} & — & $\BISANS{0}$ & $—$ \\
-1 & \SANS{1} & 𝟣 & $\SANS{1}$ & $𝟣$ & \BSANS{1} & 𝟭 & $\BSANS{1}$ & $𝟭$ & \ISANS{1} & — & $\ISANS{1}$ & $—$ & \BISANS{1} & — & $\BISANS{1}$ & $—$ \\
-2 & \SANS{2} & 𝟤 & $\SANS{2}$ & $𝟤$ & \BSANS{2} & 𝟮 & $\BSANS{2}$ & $𝟮$ & \ISANS{2} & — & $\ISANS{2}$ & $—$ & \BISANS{2} & — & $\BISANS{2}$ & $—$ \\
-3 & \SANS{3} & 𝟥 & $\SANS{3}$ & $𝟥$ & \BSANS{3} & 𝟯 & $\BSANS{3}$ & $𝟯$ & \ISANS{3} & — & $\ISANS{3}$ & $—$ & \BISANS{3} & — & $\BISANS{3}$ & $—$ \\
-4 & \SANS{4} & 𝟦 & $\SANS{4}$ & $𝟦$ & \BSANS{4} & 𝟰 & $\BSANS{4}$ & $𝟰$ & \ISANS{4} & — & $\ISANS{4}$ & $—$ & \BISANS{4} & — & $\BISANS{4}$ & $—$ \\
-5 & \SANS{5} & 𝟧 & $\SANS{5}$ & $𝟧$ & \BSANS{5} & 𝟱 & $\BSANS{5}$ & $𝟱$ & \ISANS{5} & — & $\ISANS{5}$ & $—$ & \BISANS{5} & — & $\BISANS{5}$ & $—$ \\
-6 & \SANS{6} & 𝟨 & $\SANS{6}$ & $𝟨$ & \BSANS{6} & 𝟲 & $\BSANS{6}$ & $𝟲$ & \ISANS{6} & — & $\ISANS{6}$ & $—$ & \BISANS{6} & — & $\BISANS{6}$ & $—$ \\
-7 & \SANS{7} & 𝟩 & $\SANS{7}$ & $𝟩$ & \BSANS{7} & 𝟳 & $\BSANS{7}$ & $𝟳$ & \ISANS{7} & — & $\ISANS{7}$ & $—$ & \BISANS{7} & — & $\BISANS{7}$ & $—$ \\
-8 & \SANS{8} & 𝟪 & $\SANS{8}$ & $𝟪$ & \BSANS{8} & 𝟴 & $\BSANS{8}$ & $𝟴$ & \ISANS{8} & — & $\ISANS{8}$ & $—$ & \BISANS{8} & — & $\BISANS{8}$ & $—$ \\
-9 & \SANS{9} & 𝟫 & $\SANS{9}$ & $𝟫$ & \BSANS{9} & 𝟵 & $\BSANS{9}$ & $𝟵$ & \ISANS{9} & — & $\ISANS{9}$ & $—$ & \BISANS{9} & — & $\BISANS{9}$ & $—$ \\
 \midrule
 Α & \SANS{—} & — & $\SANS{—}$ & $—$ & \BSANS{—} & 𝝖 & $\BSANS{—}$ & $𝝖$ & \ISANS{—} & — & $\ISANS{—}$ & $—$ & \BISANS{—} & 𝞐 & $\BISANS{—}$ & $𝞐$ \\
 Β & \SANS{—} & — & $\SANS{—}$ & $—$ & \BSANS{—} & 𝝗 & $\BSANS{—}$ & $𝝗$ & \ISANS{—} & — & $\ISANS{—}$ & $—$ & \BISANS{—} & 𝞑 & $\BISANS{—}$ & $𝞑$ \\

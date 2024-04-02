@@ -6,6 +6,8 @@
 % - problems if successor is a unicode character
 % - requires awkward string tests.
 %
+
+% chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{subscript}[2024/02/21 Combining Subscripts]
 %
@@ -22,17 +24,17 @@
 \RequirePackage{xstring}
 \RequirePackage{iftex}
 
-% region Package Options -------------------------------------------------------
+% region Package Options ---------------------------------------------------------------
 \newif\ifsubscript@debug\subscript@debugfalse%  Debug flag
 \newif\ifsubscript@testing\subscript@testingfalse%  Testing flag
 
 \DeclareOption{debug}{\subscript@debugtrue}
 \ProcessOptions\relax%
-% endregion Package Options ----------------------------------------------------
+% endregion Package Options ------------------------------------------------------------
 
 
 
-%region utilities --------------------------------------------------------------
+%region utilities ----------------------------------------------------------------------
 % variables used by the package
 \newcommand{\subscript@start}{\relax}%  marker for the start of a subscript
 \let\subscript@list=\subscript@start%  initialize the list
@@ -68,11 +70,11 @@
 \else%
 	\def\subscript@dispatch{\subscript@dispatch@luatex}%
 \fi%
-%endregion utilities -----------------------------------------------------------
+%endregion utilities -------------------------------------------------------------------
 
 
 
-% region public interface ------------------------------------------------------
+% region public interface --------------------------------------------------------------
 \newcommand{\subscript}[1]{%
 %
 % 1. If we are already in a subscript, \subscript appends the given tokens to the \subscript@list
@@ -98,7 +100,7 @@
 %
 \futurelet\subscript@successor\subscript@dispatch%
 }
-% endregion public interface ---------------------------------------------------
+% endregion public interface -----------------------------------------------------------
 
 \def\subscript@UTFviii@two{\protected macro:->\UTFviii@two@octets}%
 \def\subscript@UTFviii@three{\protected macro:->\UTFviii@three@octets}%
@@ -174,7 +176,7 @@
 
 
 
-% region private implementation ------------------------------------------------
+% region private implementation --------------------------------------------------------
 \newcommand{\subscript@check}[1]{%
 %
 \subscript@log{Testing against '\meaning#1'}%
@@ -264,6 +266,6 @@
 \subscript@log{Reinserting '\meaning#1#2'}%
 #1#2%
 }
-% endregion private implementation ---------------------------------------------
+% endregion private implementation -----------------------------------------------------
 
 \endinput

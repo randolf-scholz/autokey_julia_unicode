@@ -403,7 +403,7 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
 
 # %% Generate help script
 
-HELP_SCRIPT = r"""
+HELP_SCRIPT = r"""#!/usr/bin/env python
 import webbrowser
 webbrowser.open("https://docs.julialang.org/en/v1/manual/unicode-input/")
 """
@@ -419,7 +419,7 @@ HELP_CONFIG: JSON = {
     "showInTrayMenu": True,
     "abbreviation": {
         "abbreviations": [
-            r"\help ",
+            r"\\help ",
         ],
         "backspace": False,
         "ignoreCase": False,
@@ -443,10 +443,12 @@ def generate_help(*, target_dir: Path) -> None:
     LOGGER.info("=" * 80)
     LOGGER.info("Creating help script in %s.", target_dir)
 
-    with open(target_dir / "julia_unicode_help.py", "w", encoding="utf8") as file:
+    target_dir.mkdir(exist_ok=True)
+
+    with open(target_dir / "julia_unicode_help.py", "w+", encoding="utf8") as file:
         file.write(HELP_SCRIPT)
 
-    with open(target_dir / "julia_unicode_help.json", "w", encoding="utf8") as file:
+    with open(target_dir / "julia_unicode_help.json", "w+", encoding="utf8") as file:
         json.dump(HELP_CONFIG, file, indent=True)
 
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
@@ -526,7 +528,7 @@ def main() -> None:
     for directory in args.directories:
         generate_codes(directory, target_dir=target_dir, template=template)
 
-    generate_help(target_dir=target_dir)
+    generate_help(target_dir=target_dir / "help")
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 
