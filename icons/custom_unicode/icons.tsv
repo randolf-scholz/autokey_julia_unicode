@@ -36,7 +36,6 @@ U+27F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
 U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
 U+2AEB	⫫	\indep, \independence, \independent	Independence
 U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
-U+02259	≙	\hateq	Estimates
 U+2983	⦃	\bb{, \lBrace	Left White Curly Bracket
 U+2984	⦄	\bb}, \rBrace	Right White Curly Bracket
 U+2985	⦅	\bb(, \lParen	Left White Parenthesis
@@ -44,3 +43,10 @@ U+2986	⦆	\bb), \rParen	Right White Parenthesis
 U+00B5	µ	\micro	Micro Sign
 U+1E040	𞁀	\transpose, \tp	Modifier Letter Cyrillic Small Te (transpose)
 U+1D78	ᵸ	\hermitian, \htp	Modifier Letter Cyrillic En (Hermitian transpose)
+U+225D	≝	\defeq, \eqdef	Equal to By Definition
+U+2259	≙	\hateq, \wedgeq	Estimates
+U+225F	≟	\?=, \questeq	Questioned Equal To
+U+225C	≜	\deleq, \triangleq, \triangleeq	Delta Equal To
+U+21CF	⇏	\nimplies, \notimplies, \nRightarrow	Rightwards Double Arrow with Stroke
+U+21CD	⇍	\nimpliedby, \notimpliedby, \nLeftarrow	Leftwards Double Arrow with Stroke
+U+21CE	⇎	\niff, \notiff, \nLeftrightarrow	Left Right Double Arrow with Stroke
