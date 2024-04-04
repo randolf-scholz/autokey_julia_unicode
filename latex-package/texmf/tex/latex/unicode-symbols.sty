@@ -71,18 +71,18 @@
 
 %  Get some missing symbols
 \@ifpackageloaded{stix}{}{% REF:https://tex.stackexchange.com/a/318144/119955
-\DeclareFontEncoding{LS2}{}{\noaccents@}
-\DeclareFontSubstitution{LS2}{stix}{m}{n}
-\DeclareSymbolFont{stix@largesymbols}{LS2}{stixex}{m}{n}
-\SetSymbolFont{stix@largesymbols}{bold}{LS2}{stixex}{b}{n}
-\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
-\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
-\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
-\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
-\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
-\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
-\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
-\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
+	\DeclareFontEncoding{LS2}{}{\noaccents@}
+	\DeclareFontSubstitution{LS2}{stix}{m}{n}
+	\DeclareSymbolFont{stix@largesymbols}{LS2}{stixex}{m}{n}
+	\SetSymbolFont{stix@largesymbols}{bold}{LS2}{stixex}{b}{n}
+	\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
+	\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
+	\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
+	\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
+	\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
+	\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
+	\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
+	\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
 }
 
 
@@ -165,6 +165,8 @@
 
 
 % region text/math macros --------------------------------------------------------------
+\newcommand{\unicode@transpose}{\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}
+\newcommand{\unicode@hermitian}{\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}
 \newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
 \newcommand{\unicode@ddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}
 \newcommand{\unicode@times}{\ifmmode\times\else\texttimes\fi}
@@ -288,7 +290,8 @@
 \makeatletter
 
 % region experimental ------------------------------------------------------------------
-\newunicodechar{ᵸ}{^{\mathsf{H}}}  % Hermitian conjugate (note: cyrillic H)
+\newunicodechar{𞁀}{\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}% U+1E040 Modifier Letter Cyrillic Small Te (Transpose)
+\newunicodechar{ᵸ}{\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}% U+1D78 Modifier Letter Cyrillic En (Hermitian conjugate)
 % endregion experimental ---------------------------------------------------------------
 
 % region misc --------------------------------------------------------------------------
@@ -319,6 +322,7 @@
 \newunicodechar{‡}{\unicode@ddagger}
 \newunicodechar{↯}{\unicode@contradiction}
 \newunicodechar{≙}{\hateq} % U+02259 Estimates
+\newunicodechar{⊺}{\intercal}
 % endregion misc -----------------------------------------------------------------------
 
 % region combining characters ----------------------------------------------------------
@@ -2255,4 +2259,5 @@
 
 % endregion payload ====================================================================
 \makeatother%
+\PackageInfo{unicode-symbols}{finished importing symbols}
 \endinput%

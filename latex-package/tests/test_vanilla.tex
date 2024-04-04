@@ -1,0 +1,97 @@
+
+\RequirePackage{iftex}
+\NeedsTeXFormat{LaTeX2e}
+\documentclass{standalone}
+
+\usepackage[utf8]{inputenc}   % allow utf-8 input
+\usepackage[T1]{fontenc}      % use 8-bit T1 fonts
+\usepackage{unicode-symbols}
+
+
+% region subfiles ----------------------------------------------------------------------
+\usepackage{refcount}
+\usepackage{standalone}
+\usepackage{import}
+\usepackage{subfiles}
+\usepackage{xr}                       % cross-referencing between files
+% endregion subfiles -------------------------------------------------------------------
+
+% region graphics ----------------------------------------------------------------------
+\usepackage{adjustbox}         % resize arbitrary content
+\usepackage{float}             % improved float, H option
+\usepackage{graphicx}          % \includegraphics
+\usepackage{svg}               % svg images
+\usepackage[svgnames]{xcolor}  % colors
+\usepackage{tikz}              % tikz figures
+\usepackage{pgfplots}          % function plots
+% endregion graphics -------------------------------------------------------------------
+
+% region maths -------------------------------------------------------------------------
+\usepackage{amsmath}      % math utilities
+\usepackage{physics}      % physics package
+\usepackage{xfrac}        % \sfrac for typesetting fractions a la ½
+\usepackage{cancel}       % \cancel for crossing out terms in equations
+\usepackage{mathtools}    % extension to amsmath
+\usepackage{nicematrix}
+% endregion maths ----------------------------------------------------------------------
+
+% region tables/figures ----------------------------------------------------------------
+\usepackage{tabularx}       % tables with fixed width
+\usepackage{ltablex}        % \tabularx longer than one page
+\usepackage{longtable}      % tabular longer than one page
+\usepackage{wrapfig}        % text wrapping around figures
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{tablefootnote}  % footnotes in tables
+\usepackage{multirow}       % \multirow in tables
+\usepackage{pgfplotstable}  % import csv or tsv files as tables
+\usepackage{arydshln}       % dashed lines in tables
+% \RequirePackage{colortbl}   % color column or row
+\usepackage{caption}		% captions for figures and tables
+\usepackage{subcaption}     % captions for subfigures.
+% endregion tables/figures -------------------------------------------------------------
+
+% region fonts/typography --------------------------------------------------------------
+% \usepackage{times}        % times new roman
+\usepackage{microtype}    % microtypography
+\usepackage{amsfonts}     % math fonts
+\usepackage{lipsum}       % dummy text
+\usepackage{outlines}     % easy nested lists/enumerations
+\usepackage{enumitem}     % customizing lists, provides noitemsep
+%\usepackage{todonotes}    % todos in margin
+% endregion fonts/typography -----------------------------------------------------------
+
+\pgfplotsset{compat=1.18}
+\graphicspath{{images/}}       % Sets the path to the images folder
+\captionsetup{justification=centering}
+\pdfminorversion=7% Set PDF version to 1.7
+
+\usepackage{ismll-mathoperators}
+\newcommand{\crulefill}{\vspace{.25\baselineskip}\hrule\vspace{.25\baselineskip}}
+\definecolor{optional}{rgb}{1.0, 0.4, 0.4}
+\newcommand{\optional}[1]{{\color{optional} #1}}
+
+% consider using ⁇ instead of \? for where-operator? (\Question in stix package)
+\newcommand{\?}{\mathbin{?}}
+% \newcommand{\?}{\mathbin{\ooalign{$\hidewidth?\hidewidth$\cr$\phantom{+}$}}}
+% \newcommand{\nan}{\ifmmode\texttt{NA}\else\GenericError{}{Need math mode}{}{}\fi}
+\newcommand{\nan}{\texttt{NaN}}
+\newcommand{\NA}{\texttt{N\!/\!A}}
+\DeclareMathOperator{\Seq}{Seq}
+\DeclareMathOperator{\codom}{codom}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\range}{range}
+
+% \newcommand{\citeit}{\textcolor{red}{\textsc{reference}}}
+\newcommand{\obs}{{\textsc{obs}}}% observed
+\newcommand{\emp}{{\textsc{emp}}}% empirical
+\newcommand{\now}{{\textsc{now}}}% now
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
+
+
+%\usepackage{amsfonts}     % math fonts
+\begin{document}
+The standard continuous time forecasting task is to predict the value of $𝓨$ over the time interval $(t_\now, t_F]$, called the \emph{forecasting window} or \emph{future horizon}, given all observations in the interval $[t_L, t_\now]$, called the \emph{lookback window} or \emph{observation horizon}.
+
+$$ \textsc{bar} $$
+$$\textsc{foo}  \text{\scshape bar} βα∑ₖ $$
+\end{document}

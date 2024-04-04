@@ -108,8 +108,9 @@ Note: Generally here not all characters are available:
 - Doesn't support multiple sub/super-scripts like Julia does (e.g. in REPL, `a\^(k)+[TAB]`) gives `a⁽ᵏ⁾`. With `AutoKey` we need to add the superscripts one at a time.
 - Seems like it doesn't work with a German keyboard because `AutoKey` interprets `\` and `[AltGr]+?` (what you type on a German keyboard to get backslash) as different things.
 
-## [CHANGELOG](CHANGELOG.md)
+## [Changelog](CHANGELOG.md)
 
+- 2024-04-04: Added transpose and hermitian transpose: `A𞁀` and `Aᵸ`. (use `\transpose`/`\hermitian` or provisional `\tp`/`\htp`)
 - 2024-04-02: Added missing letter-like symbols
 - 2024-03-08: Revamped the installation script, refactored the installation procedure.
 - 2024-02-27: Added italic and bold italic Greek variants to `unicode-symbols.sty`.
