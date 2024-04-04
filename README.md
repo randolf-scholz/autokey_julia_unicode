@@ -110,6 +110,7 @@ Note: Generally here not all characters are available:
 
 ## [CHANGELOG](CHANGELOG.md)
 
+- 2024-04-04: Added transpose and hermitian transpose: `A𞁀` and `Aᵸ`. (use `\transpose`/`\hermitian` or provisional `\tp`/`\htp`)
 - 2024-04-02: Added missing letter-like symbols
 - 2024-03-08: Revamped the installation script, refactored the installation procedure.
 - 2024-02-27: Added italic and bold italic Greek variants to `unicode-symbols.sty`.

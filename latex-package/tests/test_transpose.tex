@@ -1,0 +1,35 @@
+% !TeX document-id = {041f6962-aebb-46f8-8d1e-425e88689d38}
+% !TeX TXS-program:compile = txs:///pdflatex
+\documentclass[10pt]{standalone}
+\usepackage[verbose]{newunicodechar}
+\usepackage[stix]{unicode-symbols}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+% NOTE: We want to test which is the best way to do a tranpose
+
+\newcommand{\T}{{\scriptscriptstyle\mathsf{T}}}
+\newunicodechar{⊺}{\intercal}
+\newcommand{\tp}{^{\mkern-1.5mu\mathsf{T}}}
+\newcommand{\tx}{^{\!\mathsf{T}}}
+\newcommand{\ty}{^{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}
+
+\def\test#1{(#1)(#1)(#1)}
+
+\begin{document}
+\begin{tabular}{llll}\toprule
+	\verb|T|           & $\test{u^T v}$  & $\test{A^T B}$  & $\test{𝐇^T 𝐗}$
+\\  \verb|\intercal|   & $\test{u^⊺ v}$  & $\test{A^⊺ B}$  & $\test{𝐇^⊺ 𝐗}$
+\\  \verb|\top|        & $\test{u^⊤ v}$  & $\test{A^⊤ B}$  & $\test{𝐇^⊤ 𝐗}$
+\\  \verb|\mathsf|     & $\test{u^𝖳 v}$  & $\test{A^𝖳 B}$  & $\test{𝐇^𝖳 𝐗}$
+\\  \verb|sf+small|    & $\test{u^\T v}$ & $\test{A^\T B}$ & $\test{𝐇^\T 𝐗}$
+\\  \verb|!sf|         & $\test{u\tp v}$ & $\test{A\tp B}$ & $\test{𝐇\tp 𝐗}$
+\\  \verb|!!sf|        & $\test{u\tx v}$ & $\test{A\tx B}$ & $\test{𝐇\tx 𝐗}$
+\\  \verb|!sf!|        & $\test{u\ty v}$ & $\test{A\ty B}$ & $\test{𝐇\ty 𝐗}$
+\\  \midrule
+	\verb|ours|        & $\test{u𞁀v}$    & $\test{A𞁀B}$     & $\test{𝐇𞁀𝐗}$
+\\ 	\verb|ours|        & $\test{u⁻𞁀v}$    & $\test{A⁻𞁀B}$     & $\test{𝐇⁻𞁀𝐗}$
+\\ \bottomrule
+\end{tabular}
+
+\end{document}

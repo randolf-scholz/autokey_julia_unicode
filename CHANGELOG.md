@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2024-04-04
+
+Added transpose and hermitian transpose: `A𞁀` and `Aᵸ`.
+
+Key combinations: `\transpose`/`\hermitian` or provisional `\tp`/`\htp`
+
+We abuse the two Cyrillic characters:
+
+- `𞁀`: U+1E040 Modifier Letter Cyrillic Small Te
+- `ᵸ`: U+0480 U+1D78 Modifier Letter Cyrillic En
+
+In `unicode-symbols.sty` we define these as `\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}` and `\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}` respectively. We remove half a thinspace (`\!`=-3.0mu) on each side of the letter to improve spacing.
+
 ## 2024-04-02
 
 - Added missing letter-like symbols (now complete)
@@ -18,7 +31,7 @@
 ## 2024-02-26
 
 Main work was refactoring the `unicode-symbols` package. It is now located in the `latex-package` directory.
-Additionally a main achievement is the novel code for sub- and superscripts which automatically combines multiple sub- and superscripts into a single command.
+Additionally, a main achievement is the novel code for sub- and superscripts which automatically combines multiple sub- and superscripts into a single command.
 
  For example, `$xᵢⱼ$` will render identically to `$x_{ij}$` ($x_{ij}$).
 

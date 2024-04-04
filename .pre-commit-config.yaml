@@ -63,7 +63,7 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.356
+    rev: v1.1.357
     hooks:
       - id: pyright
   # markdownlint
@@ -86,7 +86,7 @@ repos:
       args: ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]
   # custom
   - repo: https://github.com/randolf-scholz/assorted-hooks.git
-    rev: v0.1.63
+    rev: v0.1.64
     hooks:
     - id: chktex
     - id: lacheck
