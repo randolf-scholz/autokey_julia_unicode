@@ -2,15 +2,56 @@
 %
 % © Randolf Scholz
 %
-%% This package simply contains a list of newunicodechar declarations,
-%% which allows to use a reasonable subset of Unicode characters together
-%% with pdflatex.
+% This package simply contains a list of newunicodechar declarations,
+% which allows to use a reasonable subset of Unicode characters together
+% with pdflatex.
+
+% TODO: smarter implementation
+% https://tex.stackexchange.com/a/601583/119955
+%\def\z"{}
+%\def\UnicodeMathSymbol#1#2#3#4{%
+% \ifnum#1>"A0
+%   \DeclareUnicodeCharacter{\z#1}{#2}%
+%  \fi}
+%\input{unicode-math-table}
+
+% region notes -------------------------------------------------------------------------
 %
+% TEX allows only 16 math alphabets to be used simultaneously
+% for script/calligraphic fonts there are 3 main options:
+% - \mathcal builtin
+% - \mathscr from eulerscript package
+% - \mathscr from mathrsfs pacakage
+% BLACKBOARD BOLD OPTIONS:
+% - \mathbb builtin
+% - \varmathbb from txfonts/pxfonts package
+% - \mathbb from bbold/mathbbol package
+% - \mathbb from mbboard pacakge
+% - \mathbbm from bbm package
+% - \mathbb from dsserif package
+% - \mathds from dsfont pacakge
+%
+% Subjectively, \mathds is the most visually pleasing. However, it only covers capital latin letters.
+% Since this is the most important use case, we use \mathds with \mathbbm fallback.
+%
+% endregion notes ---------------------------------------------------------------------
+
+
+
+
 
 % chktex-file 18
 % chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{unicode-symbols}[2024/03/08 Unicode symbols]
+
+
+% region preconditions -----------------------------------------------------------------
+\@ifpackageloaded{amsmath}{%
+	\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
+}{}
+% endregion preconditions --------------------------------------------------------------
+
 
 % region options -----------------------------------------------------------------------
 % option stix/nostix (default: stix)
@@ -20,7 +61,10 @@
 \ProcessOptions\relax
 % endregion options --------------------------------------------------------------------
 
+
+
 % region dependencies ------------------------------------------------------------------
+\RequirePackage{iftex}
 \RequirePackage{newunicodechar}
 \RequirePackage{unicode-subscripts}
 \RequirePackage{unicode-superscripts}
@@ -31,10 +75,8 @@
 % TODO: Add switch to use mathfont (cf mathfont_user_guide) when LuaLaTeX or XeLaTeX is used.
 %\RequirePackage{mathfont}
 
+
 % decide whether to use stix or not
-\@ifpackageloaded{amsmath}{%
-\PackageError{unicode-symbols}{Should be loaded before amsmath}{}
-}{}
 \ifunicode@stix
 	\RequirePackage{stix2}
 	% region stix2-patch ---------------------------------------------------------------
@@ -61,64 +103,22 @@
 	% Used to get rid of dont shape warning
 	\RequirePackage{anyfontsize}%  https://tex.stackexchange.com/questions/58087
 \else
-	\RequirePackage{amsfonts}
+	\RequirePackage{amsfonts}% provides \mathbb, \mathfrak
 	\RequirePackage{amssymb}% not needed with stix2
-	\RequirePackage{mathbbol}
-	\RequirePackage{mathrsfs}  % provides \mathscr
-	\RequirePackage{pifont}    % http://ctan.org/pkg/pifont
+	\RequirePackage{mathbbol}% provides \mathbb for digits and lower case letters.
+	\RequirePackage{mathrsfs}% provides \mathscr
+	\RequirePackage{pifont}  % used for checkmark and xmark http://ctan.org/pkg/pifont
 	% \RequirePackage{fdsymbol}  % NOTE: do not use, some really ugly symbols like ∑.
 \fi
 
-%  Get some missing symbols
-\@ifpackageloaded{stix}{}{% REF:https://tex.stackexchange.com/a/318144/119955
-	\DeclareFontEncoding{LS2}{}{\noaccents@}
-	\DeclareFontSubstitution{LS2}{stix}{m}{n}
-	\DeclareSymbolFont{stix@largesymbols}{LS2}{stixex}{m}{n}
-	\SetSymbolFont{stix@largesymbols}{bold}{LS2}{stixex}{b}{n}
-	\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
-	\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
-	\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
-	\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
-	\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
-	\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
-	\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
-	\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
-}
-
-
-\RequirePackage{amsmath}
-\RequirePackage{dsfont}    % provides \mathds
-%\RequirePackage{bbm}       % provides \mathbbm
-%\RequirePackage{mathbbol}
-\RequirePackage{xfrac}     % provides \sfrac
-
-%\RequirePackage{txfonts}   % leftsquigarrow
-% The package provides commands for Pi fonts (Dingbats, Symbol, etc.); all commands assume you know the character number within the font of the symbol within the font.
-
+\RequirePackage{amsmath}    % provides math and greek symbols and \boldsymbol
+\RequirePackage{dsfont}     % provides \mathds, best looking \mathbb
+\RequirePackage{centernot}  % provides \centernot
+% \RequirePackage{bbm}       % provides \mathbbm
+% \RequirePackage{mathbbol}  % provides \mathbbol
+% \RequirePackage{xfrac}      % provides \sfrac
+% \RequirePackage{txfonts}   % leftsquigarrow
 \unless\ifdefined\mathbbm\let\mathbbm\mathbb\fi
-% region notes -------------------------------------------------------------------------
-%
-% TEX allows only 16 math alphabets to be used simultaneously
-% for script/calligraphic fonts there are 3 main options:
-% - \mathcal builtin
-% - \mathscr from eulerscript package
-% - \mathscr from mathrsfs pacakage
-% BLACKBOARD BOLD OPTIONS:
-% - \mathbb builtin
-% - \varmathbb from txfonts/pxfonts package
-% - \mathbb from bbold/mathbbol package
-% - \mathbb from mbboard pacakge
-% - \mathbbm from bbm package
-% - \mathbb from dsserif package
-% - \mathds from dsfont pacakge
-%
-% Subjectively, \mathds is the most visually pleasing. However, it only covers capital latin letters.
-% Since this is the most important use case, we use \mathds with \mathbbm fallback.
-%
-% endregion notes ----------------------------------------------------------------------
-
-
-
 
 % region bm patch ----------------------------------------------------------------------
 % REF: https://tex.stackexchange.com/q/3676
@@ -129,42 +129,72 @@
 % endregion dependencies ---------------------------------------------------------------
 
 
-% TODO: smarter implementation
-% https://tex.stackexchange.com/a/601583/119955
-%\def\z"{}
-%\def\UnicodeMathSymbol#1#2#3#4{%
-% \ifnum#1>"A0
-%   \DeclareUnicodeCharacter{\z#1}{#2}%
-%  \fi}
-%\input{unicode-math-table}
+% region import missing symbols --------------------------------------------------------
+% Get some missing symbols
+% NOTE: Stix has many symbols, so we use it as a fallback for missing symbols.
+\@ifpackageloaded{stix}{}{%
+	% By default, stix loads 12 math alphabets a 256 characters (pdflatex only supports 16 tables)
+	% stix's \mathcal is ugly, and we do not need all symbols,
+	% REF: https://tex.stackexchange.com/a/318144/119955
+	% REF: https://tex.stackexchange.com/a/14406/119955 (using symbol without wasting alphabets)
+	\DeclareFontEncoding{LS1}{}{}
+	\DeclareFontEncoding{LS2}{}{\noaccents@}
+	\DeclareFontSubstitution{LS1}{stix2}{m}{n}
+	\DeclareFontSubstitution{LS2}{stix2}{m}{n}
+	% \DeclareSymbolFont{stix2@letters}       {LS1}{stix2}     {m}{it}
+	\DeclareSymbolFont{stix2@operators}     {LS1}{stix2}     {m} {n}
+	% \DeclareSymbolFont{stix2@bold-operators}{LS1}{stix2}     {b} {n}
+	% \DeclareSymbolFont{stix2@symbols}       {LS1}{stix2scr}  {m} {n}
+	\DeclareSymbolFont{stix2@symbols2}      {LS1}{stix2frak} {m} {n}
+	\DeclareSymbolFont{stix2@symbols3}      {LS1}{stix2bb}   {m} {n}
+	\DeclareSymbolFont{stix2@symbols4}      {LS1}{stix2bb}   {m}{it}
+	\DeclareSymbolFont{stix2@integrals}     {LS2}{stix2cal}  {m} {n}
+	\DeclareSymbolFont{stix2@largesymbols}  {LS2}{stix2ex}   {m} {n}
+	\DeclareSymbolFont{stix2@arrows1}       {LS1}{stix2sf}   {m} {n}
+	\DeclareSymbolFont{stix2@arrows2}       {LS1}{stix2sf}   {m}{it}
+	\DeclareSymbolFont{stix2@arrows3}       {LS2}{stix2tt}   {m} {n}
+	\SetSymbolFont{stix2@letters}     {bold}{LS1}{stix2}     {b}{it}
+	\SetSymbolFont{stix2@operators}   {bold}{LS1}{stix2}     {b} {n}
+	\SetSymbolFont{stix2@symbols}     {bold}{LS1}{stix2scr}  {b} {n}
+	\SetSymbolFont{stix2@symbols2}    {bold}{LS1}{stix2frak} {b}{n}
+	\SetSymbolFont{stix2@symbols3}    {bold}{LS1}{stix2bb}   {b} {n}
+	\SetSymbolFont{stix2@symbols4}    {bold}{LS1}{stix2bb}   {b}{it}
+	\SetSymbolFont{stix2@integrals}   {bold}{LS2}{stix2cal}  {b} {n}
+	\SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}   {b} {n}
+	\SetSymbolFont{stix2@arrows1}     {bold}{LS1}{stix2sf}   {b} {n}
+	\SetSymbolFont{stix2@arrows2}     {bold}{LS1}{stix2sf}   {b}{it}
+	\SetSymbolFont{stix2@arrows3}     {bold}{LS2}{stix2tt}   {b} {n}
 
+	% \SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}{b}{n}
 
-% region macros ------------------------------------------------------------------------
-\makeatletter
-% region helper macros -----------------------------------------------------------------
-\newcommand{\cmark}{\ding{51}}% ✓
-\newcommand{\xmark}{\ding{55}}% ✗
-\newcommand{\circled}[1]{\textcircled{\footnotesize #1}}
-\newcommand{\reflect@squig}[2]{\reflectbox{$\m@th#1\rightsquigarrow$}}
-\newcommand{\inftyabove}[1]{\overset{\infty}{#1}}
-\providecommand{\leftsquigarrow}{\mathrel{\mathpalette\reflect@squig\relax}}
-\providecommand{\increment}{\Delta} % U+2206
-\newcommand*{\romannumber}[1]{%
-  \relax\ifmmode\mathrm{\romannumeral #1\relax}%
-  \else{\rmfamily\romannumeral #1\relax}\fi%
+	\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
+	\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
+	\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
+	\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
+	\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
+	\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
+	\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
+	\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
+	\DeclareMathSymbol{\increment}            {\mathord}{operators}{"CA}
+	\DeclareMathSymbol{\leftsquigarrow}       {\mathrel}{arrows1}{"E3}
+	\DeclareMathSymbol{\nLeftarrow}           {\mathrel}{arrows1}{"D4}
+	\DeclareMathSymbol{\nLeftrightarrow}      {\mathrel}{arrows1}{"D5}
+	\DeclareMathSymbol{\nRightarrow}          {\mathrel}{arrows1}{"D6}
+	\DeclareMathSymbol{\downzigzagarrow}      {\mathrel}{arrows1}{"B6}
+	\DeclareMathSymbol{\longleftsquigarrow}   {\mathrel}{arrows2}{"2B}
+	\DeclareMathSymbol{\longrightsquigarrow}  {\mathrel}{arrows3}{"0C}
+	\DeclareMathSymbol{\doubleplus}           {\mathbin}{symbols2}{"E7}
+	\DeclareMathSymbol{\Vbar}                 {\mathrel}{symbols4}{"B9}
+	\DeclareMathSymbol{\wedgeq}               {\mathrel}{integrals}{"8A}
+	\DeclareMathSymbol{\eqdef}                {\mathrel}{integrals}{"8E}
+	\DeclareMathSymbol{\triangleq}            {\mathrel}{integrals}{"8D}
+	\DeclareMathSymbol{\questeq}              {\mathrel}{integrals}{"90}
+
 }
-\newcommand*{\RomanNumber}[1]{%
-  \relax\ifmmode\mathrm{\expandafter\@slowromancap\romannumeral #1@}% chktex 21
-  \else{\rmfamily\expandafter\@slowromancap\romannumeral #1@}\fi% chktex 21
-}
-\newcommand{\sans}[1]{\mathsf{#1}}
-\newcommand{\isans}[1]{\mathit{\mathsf{#1}}}
-\newcommand{\bsans}[1]{\boldsymbol{\mathsf{#1}}}
-\newcommand{\bisans}[1]{\boldsymbol{\mathit{\mathsf{#1}}}}
-% endregion helper macros --------------------------------------------------------------
+% endregion import missing symbols -----------------------------------------------------
 
 
-% region text/math macros --------------------------------------------------------------
+% region aliases -----------------------------------------------------------------------
 \newcommand{\unicode@transpose}{\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}
 \newcommand{\unicode@hermitian}{\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}
 \newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
@@ -181,25 +211,93 @@
 \newcommand{\unicode@div}{\ifmmode\div\else\textdiv\fi}
 \newcommand{\unicode@pm}{\ifmmode\pm\else\textpm\fi}
 \newcommand{\unicode@contradiction}{\ensuremath{\downzigzagarrow}}
+% endregion aliases --------------------------------------------------------------------
 
-\ifdefined\doubleplus%
-	\let\unicode@doubleplus=\doubleplus%
-\else%
-	\newcommand{\unicode@doubleplus}{\mathbin{\perp\!\!\!\perp}}% chktex 21
-	\let\doubleplus=\unicode@doubleplus%
-\fi
 
-\ifdefined\indep%
-	\let\unicode@indep=\indep%
-\else
-	\ifdefined\Vbar%
-		\let\unicode@indep=\Vbar%
-	\else%
-		\newcommand{\unicode@indep}{\mathbin{\perp\!\!\!\perp}}% chktex 21
-	\fi%
-	\let\indep=\unicode@indep%
-\fi%
+% region fallbacks ---------------------------------------------------------------------
+% NOTE: These only emulate characters, but are not real unicode glyphs.
+\newcommand{\reflect@squig}[2]{\reflectbox{$\m@th#1\rightsquigarrow$}}
+\newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
+\newcommand{\unicode@unaryminus}{\mathord{\texttt{-}}}
+\newcommand{\unicode@smallplus}{\mathbin{\texttt{+}}}
+\newcommand{\unicode@smallminus}{\mathbin{\texttt{-}}}
+\newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!\!+}}% chktex 21
+\newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
+\newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle \triangle}{=}}}
+\newcommand{\unicode@hateq}{\mathrel{\hat{=}}}
+\newcommand{\unicode@defeq}{\mathrel{\overset{\text{def}}{=}}}
+\newcommand{\unicode@questeq}{\mathrel{\overset{?}{=}}}
+\newcommand{\unicode@exclameq}{\mathrel{\overset{!}{=}}}% not in Unicode!
+\newcommand{\unicode@nimplies}{\centernot{\implies}}
+\newcommand{\unicode@nimpliedby}{\centernot{\impliedby}}
+\newcommand{\unicode@napprox}{\centernot{\approx}}
+\newcommand{\unicode@niff}{\centernot{\iff}}
+\newcommand{\unicode@leftsquigarrow}{\mathrel{\reflectbox{$\rightsquigarrow$}}}% REF: https://tex.stackexchange.com/a/195027/119955
+\newcommand{\unicode@increment}{\Delta} % U+2206
+% endregion fallbacks ------------------------------------------------------------------
+
+
+% region public interface ==============================================================
+% NOTE: These commands are provided for the user to use.
+
+\NewDocumentCommand{\unicode@makealias}{m O{} O{} O{} m}{%
+% Create alias for existing command. Up to 3 options can be provided.
+% \unicode@makealias{\alias}[\option1][\option2][\option3]{\fallback}
+\ifdefined{#2}\let#1=#2%
+\else\ifdefined{#3}\let#1=#3%
+\else\ifdefined{#4}\let#1=#4%
+\else\providecommand{#1}{#5}%
+\fi\fi\fi%
+}
+
+% region new modifiers -----------------------------------------------------------------
+\newcommand*{\romannumber}[1]{%
+  \relax\ifmmode\mathrm{\romannumeral #1\relax}%
+  \else{\rmfamily\romannumeral #1\relax}\fi%
+}
+\newcommand*{\RomanNumber}[1]{%
+  \relax\ifmmode\mathrm{\expandafter\@slowromancap\romannumeral #1@}% chktex 21
+  \else{\rmfamily\expandafter\@slowromancap\romannumeral #1@}\fi% chktex 21
+}
+\newcommand{\sans}[1]{\mathsf{#1}}
+\newcommand{\isans}[1]{\mathit{\mathsf{#1}}}
+\newcommand{\bsans}[1]{\boldsymbol{\mathsf{#1}}}
+\newcommand{\bisans}[1]{\boldsymbol{\mathit{\mathsf{#1}}}}
+\newcommand{\circled}[1]{\textcircled{\footnotesize #1}}
+\newcommand{\inftyabove}[1]{\overset{\infty}{#1}}
+% endregion new modifiers --------------------------------------------------------------
+
+
+
+% region checkmarks --------------------------------------------------------------------
+% We use pifont's `\ding` for checkmarks and crosses, there are no good alternatives.
+\newcommand{\cmark}{\text{\ding{51}}}% ✓ (U+2713: Check Mark)
+\newcommand{\xmark}{\text{\ding{55}}}% ✗ (U+2717: Ballot X)
+\newcommand{\hcmark}{\text{\ding{52}}}% ✔ (U+2714: Heavy Check Mark)
+\newcommand{\hxmark}{\text{\ding{56}}}% ✘ (U+2718: Heavy Ballot X)
+% endregion checkmarks -----------------------------------------------------------------
+
+
+% region text/math macros --------------------------------------------------------------
+\providecommand{\transpose}{\unicode@transpose}
+\providecommand{\hermitian}{\unicode@hermitian}
+\providecommand{\indep}{\unicode@indep}
+\providecommand{\contradiction}{\unicode@contradiction}
+\providecommand{\hateq}{\unicode@hateq}
+\providecommand{\deleq}{\unicode@deleq}
+\providecommand{\defeq}{\unicode@defeq}
+\providecommand{\questeq}{\unicode@questeq}
+\providecommand{\exclameq}{\unicode@exclameq}
+\providecommand{\nimplies}{\unicode@nimplies}
+\providecommand{\nimpliedby}{\unicode@nimpliedby}
+\providecommand{\niff}{\unicode@niff}
+\providecommand{\napprox}{\unicode@napprox}
+\providecommand{\unaryplus}{\unicode@unaryplus}
+\providecommand{\unaryminus}{\unicode@unaryminus}
+\providecommand{\smallplus}{\unicode@smallplus}
+\providecommand{\smallminus}{\unicode@smallminus}
 % endregion text/math macros -----------------------------------------------------------
+
 
 % region greek macros ------------------------------------------------------------------
 % region greek uppercase macros --------------------------------------------------------
@@ -241,57 +339,66 @@
 \newcommand{\vsigma}{\varsigma}   % σ vs ς
 % endregion greek shorthand macros -----------------------------------------------------
 % endregion greek macros ---------------------------------------------------------------
-\makeatother
-% endregion macros ---------------------------------------------------------------------
+% endregion public interface ===========================================================
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Below this line, only \newunicodechar commands are allowed                           %
+% All macro definitions should use non-unicode replacements                            %
+% Desiderata:                                                                          %
+%   - all symbols should be defined by a single `\command`, or `\modifier{\command}`   %
+%   - naming convention: modifier comes first, e.g. \defeq instead of \eqdef           %
+%      - this is more in line with latex, where modifiers must come first.             %
+%   - create list of all modifiers, and tag unicode symbols with them.                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% region payload =======================================================================
 
 % region free previously defined unicode chars -----------------------------------------
 % cf. https://github.com/latex3/latex3/blob/main/texmf/tex/latex/base/utf8enc.dfu
-\expandafter\let\csname u8:\detokenize{–}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{—}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{“}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{”}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{™}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{†}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{±}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{½}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{¼}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{¾}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{←}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{→}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{…}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{×}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{¬}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{²}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{³}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{©}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{§}\endcsname\relax
-\expandafter\let\csname u8:\detokenize{£}\endcsname\relax
+\expandafter\let\csname u8:\detokenize{–}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{—}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{“}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{”}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{™}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{†}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{±}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{½}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¼}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¾}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{←}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{→}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{…}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{×}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¬}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{²}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{³}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{©}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{§}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{£}\endcsname\relax%
 % endregion free previously defined unicode chars --------------------------------------
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Below this line, only \newunicodechar commands are allowed                   %
-% All macro definitions should use non-unicode replacements                    %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% region payload =======================================================================
-\makeatletter
-
 % region experimental ------------------------------------------------------------------
-\newunicodechar{𞁀}{\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}% U+1E040 Modifier Letter Cyrillic Small Te (Transpose)
-\newunicodechar{ᵸ}{\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}% U+1D78 Modifier Letter Cyrillic En (Hermitian conjugate)
+\newunicodechar{𞁀}{\superscript{\transpose}}% U+1E040 Modifier Letter Cyrillic Small Te (Transpose)
+\newunicodechar{ᵸ}{\superscript{\hermitian}}% U+1D78 Modifier Letter Cyrillic En (Hermitian conjugate)
+\newunicodechar{≙}{\hateq}       % U+2259 Estimates
+\newunicodechar{≜}{\deleq}       % U+225C Delta Equal To
+\newunicodechar{≝}{\defeq}       % U+225D Equal to By Definition
+\newunicodechar{≟}{\questeq}     % U+225F Questioned Equal To
+\newunicodechar{⇍}{\nimpliedby}  % U+21CD Leftwards Double Arrow with Stroke
+\newunicodechar{⇎}{\niff}        % U+21CE Left Right Double Arrow with Stroke
+\newunicodechar{⇏}{\nimplies}    % U+21CF Rightwards Double Arrow with Stroke
 % endregion experimental ---------------------------------------------------------------
 
 % region misc --------------------------------------------------------------------------
@@ -299,29 +406,27 @@
 \newunicodechar{¶}{\P}
 \newunicodechar{§}{\S}
 \newunicodechar{£}{\pounds}
-\newunicodechar{✓}{\textbf{\cmark}}
-\newunicodechar{✗}{\textbf{\xmark}}
-\newunicodechar{✔}{\textbf{\cmark}}
-\newunicodechar{✘}{\textbf{\xmark}}
+\newunicodechar{✓}{\cmark}
+\newunicodechar{✗}{\xmark}
+\newunicodechar{✔}{\hcmark}
+\newunicodechar{✘}{\hxmark}
 \newunicodechar{–}{\text{\textendash}}
 \newunicodechar{—}{\text{\textemdash}}
-\newunicodechar{⁎}{\ensuremath{_*}}
-\newunicodechar{﹢}{\ensuremath{\texttt{+}}}  % small, unary +
-\newunicodechar{﹣}{\ensuremath{\texttt{-}}}  % small, unary -
+\newunicodechar{﹢}{\unaryplus}
+\newunicodechar{﹣}{\unaryminus}
 \newunicodechar{√}{\ensuremath{\sqrt}}
 \newunicodechar{∞}{\ensuremath{\infty}}
 \newunicodechar{⧺}{\ensuremath{\doubleplus}}  % concatenation
-\newunicodechar{⌊}{\ensuremath{\lfloor}}
-\newunicodechar{⌋}{\ensuremath{\rfloor}}
-\newunicodechar{⌈}{\ensuremath{\lceil}}
-\newunicodechar{⌉}{\ensuremath{\rceil}}
+\newunicodechar{⌊}{\lfloor}
+\newunicodechar{⌋}{\rfloor}
+\newunicodechar{⌈}{\lceil}
+\newunicodechar{⌉}{\rceil}
 \newunicodechar{“}{\textquotedblleft}
 \newunicodechar{”}{\textquotedblright}
 \newunicodechar{™}{\texttrademark}
 \newunicodechar{†}{\unicode@dagger}
 \newunicodechar{‡}{\unicode@ddagger}
-\newunicodechar{↯}{\unicode@contradiction}
-\newunicodechar{≙}{\hateq} % U+02259 Estimates
+\newunicodechar{↯}{\contradiction}
 \newunicodechar{⊺}{\intercal}
 % endregion misc -----------------------------------------------------------------------
 
@@ -435,8 +540,8 @@
 \newunicodechar{⇜}{\ensuremath{\leftsquigarrow}}
 \newunicodechar{↭}{\ensuremath{\leftrightsquigarrow}}
 
-\newunicodechar{⟿}{\ensuremath{\rightsquigarrow}}  % FIXME
-\newunicodechar{⬳}{\ensuremath{\leftsquigarrow}}   % FIXME
+\newunicodechar{⟿}{\ensuremath{\longrightsquigarrow}}
+\newunicodechar{⬳}{\ensuremath{\longleftsquigarrow}}
 % endregion arrows ---------------------------------------------------------------------
 
 
@@ -470,165 +575,163 @@
 
 
 % region linear algebra ----------------------------------------------------------------
-\newunicodechar{⟨}{\ensuremath{\langle}}
-\newunicodechar{⟩}{\ensuremath{\rangle}}
-\newunicodechar{∣}{\ensuremath{\mid}}
-\newunicodechar{‖}{\ensuremath{\|}}
-\newunicodechar{║}{\ensuremath{\big\|}}  % chktex 21
-\newunicodechar{∥}{\ensuremath{\parallel}}
-\newunicodechar{∠}{\ensuremath{\angle}}
-\newunicodechar{∡}{\ensuremath{\measuredangle}}
-\newunicodechar{∢}{\ensuremath{\sphericalangle}}
-\newunicodechar{⟂}{\ensuremath{\perp}}
-%\newunicodechar{}{\ensuremath{\vdots}}
-%\newunicodechar{}{\ensuremath{\ddots}}
+\newunicodechar{⟨}{\langle}
+\newunicodechar{⟩}{\rangle}
+\newunicodechar{∣}{\mid}
+\newunicodechar{‖}{\|}
+\newunicodechar{║}{\big\|}  % chktex 21
+\newunicodechar{∥}{\parallel}
+\newunicodechar{∠}{\angle}
+\newunicodechar{∡}{\measuredangle}
+\newunicodechar{∢}{\sphericalangle}
+\newunicodechar{⟂}{\perp}
 % endregion linear algebra -------------------------------------------------------------
 
 
 % region set theory --------------------------------------------------------------------
-\newunicodechar{∈}{\ensuremath{\in}}
-\newunicodechar{∉}{\ensuremath{\notin}}
-\newunicodechar{∋}{\ensuremath{\ni}}
-\newunicodechar{∌}{\ensuremath{\nni}}
-\newunicodechar{∅}{\ensuremath{\varnothing}}
-\newunicodechar{∁}{\ensuremath{\complement}}
-\newunicodechar{∖}{\ensuremath{\setminus}}
+\newunicodechar{∈}{\in}
+\newunicodechar{∉}{\notin}
+\newunicodechar{∋}{\ni}
+\newunicodechar{∌}{\nni}
+\newunicodechar{∅}{\varnothing}
+\newunicodechar{∁}{\complement}
+\newunicodechar{∖}{\setminus}
 
-\newunicodechar{⊂}{\ensuremath{\subset}}
-\newunicodechar{⊆}{\ensuremath{\subseteq}}
-\newunicodechar{⊃}{\ensuremath{\supset}}
-\newunicodechar{⊇}{\ensuremath{\supseteq}}
+\newunicodechar{⊂}{\subset}
+\newunicodechar{⊆}{\subseteq}
+\newunicodechar{⊃}{\supset}
+\newunicodechar{⊇}{\supseteq}
 
-\newunicodechar{⊄}{\ensuremath{\nsubset}}
-\newunicodechar{⊈}{\ensuremath{\nsubseteq}}
-\newunicodechar{⊅}{\ensuremath{\nsupset}}
-\newunicodechar{⊉}{\ensuremath{\nsupseteq}}
+\newunicodechar{⊄}{\nsubset}
+\newunicodechar{⊈}{\nsubseteq}
+\newunicodechar{⊅}{\nsupset}
+\newunicodechar{⊉}{\nsupseteq}
 
-\newunicodechar{∪}{\ensuremath{\cup}}  % set union
-\newunicodechar{⋃}{\ensuremath{\bigcup}}  % set union
+\newunicodechar{∪}{\cup}  % set union
+\newunicodechar{⋃}{\bigcup}  % set union
 
-\newunicodechar{∩}{\ensuremath{\cap}}  % set intersection
-\newunicodechar{⋂}{\ensuremath{\bigcap}}  % set intersection
+\newunicodechar{∩}{\cap}  % set intersection
+\newunicodechar{⋂}{\bigcap}  % set intersection
 
-\newunicodechar{×}{\ensuremath{\times}}  % cartesian product
-\newunicodechar{⨉}{\ensuremath{\bigtimes}}  % cartesian product
+\newunicodechar{×}{\times}  % cartesian product
+\newunicodechar{⨉}{\bigtimes}  % cartesian product
 % region multiset ----------------------------------------------------------------------
-\newunicodechar{⊎}{\ensuremath{\uplus}}  % multiset union
-\newunicodechar{⨄}{\ensuremath{\biguplus}}  % multiset union
-\newunicodechar{⊍}{\ensuremath{\cupdot}}  % multiset union
-\newunicodechar{⨃}{\ensuremath{\bigcupdot}}  % multiset union
+\newunicodechar{⊎}{\uplus}     % multiset union
+\newunicodechar{⨄}{\biguplus}  % multiset union
+\newunicodechar{⊍}{\cupdot}    % multiset union
+\newunicodechar{⨃}{\bigcupdot} % multiset union
 
-\newunicodechar{⋿}{\ensuremath{\bagmember}}  % bag membership
+\newunicodechar{⋿}{\bagmember}  % bag membership
 
-\newunicodechar{⊏}{\ensuremath{\sqsubset}} % bag subset
-\newunicodechar{⊑}{\ensuremath{\sqsubseteq}} % bag subseteq
-\newunicodechar{⊐}{\ensuremath{\sqsupset}} % bag superset
-\newunicodechar{⊒}{\ensuremath{\sqsupseteq}} % bag superseteq
+\newunicodechar{⊏}{\sqsubset}   % bag subset
+\newunicodechar{⊑}{\sqsubseteq} % bag subseteq
+\newunicodechar{⊐}{\sqsupset}   % bag superset
+\newunicodechar{⊒}{\sqsupseteq} % bag superseteq
 
-\newunicodechar{⋢}{\ensuremath{\nsqsubseteq}}
-\newunicodechar{⋣}{\ensuremath{\nsqsupseteq}}
-\newunicodechar{⋤}{\ensuremath{\sqsubsetneq}}
-\newunicodechar{⋥}{\ensuremath{\sqsupsetneq}}
+\newunicodechar{⋢}{\nsqsubseteq}
+\newunicodechar{⋣}{\nsqsupseteq}
+\newunicodechar{⋤}{\sqsubsetneq}
+\newunicodechar{⋥}{\sqsupsetneq}
 
-\newunicodechar{⊔}{\ensuremath{\sqcup}}  % bag union
-\newunicodechar{⨆}{\ensuremath{\bigsqcup}}  % bag union
-\newunicodechar{⊓}{\ensuremath{\sqcap}}  % bag intersection
-\newunicodechar{⨅}{\ensuremath{\bigsqcap}}  % bag intersection
+\newunicodechar{⊔}{\sqcup}     % bag union
+\newunicodechar{⨆}{\bigsqcup}  % bag union
+\newunicodechar{⊓}{\sqcap}     % bag intersection
+\newunicodechar{⨅}{\bigsqcap}  % bag intersection
 % endregion multiset -------------------------------------------------------------------
 % endregion set theory -----------------------------------------------------------------
 
 
 % region inequality-like ---------------------------------------------------------------
-\newunicodechar{≻}{\ensuremath{\succ}}
-\newunicodechar{⪰}{\ensuremath{\succeq}}
-\newunicodechar{≺}{\ensuremath{\prec}}
-\newunicodechar{⪯}{\ensuremath{\preceq}}
-\newunicodechar{≍}{\ensuremath{\asymp}}
+\newunicodechar{≻}{\succ}
+\newunicodechar{⪰}{\succeq}
+\newunicodechar{≺}{\prec}
+\newunicodechar{⪯}{\preceq}
+\newunicodechar{≍}{\asymp}
 
-\newunicodechar{≤}{\ensuremath{\le}}
-\newunicodechar{≥}{\ensuremath{\ge}}
-\newunicodechar{≳}{\ensuremath{\gtrsim}}
-\newunicodechar{≲}{\ensuremath{\lesssim}}
-\newunicodechar{⪆}{\ensuremath{\gtrapprox}}
-\newunicodechar{⪅}{\ensuremath{\lessapprox}}
+\newunicodechar{≤}{\le}
+\newunicodechar{≥}{\ge}
+\newunicodechar{≳}{\gtrsim}
+\newunicodechar{≲}{\lesssim}
+\newunicodechar{⪆}{\gtrapprox}
+\newunicodechar{⪅}{\lessapprox}
 
-\newunicodechar{≫}{\ensuremath{\gg}}
-\newunicodechar{≪}{\ensuremath{\ll}}
-\newunicodechar{⋘}{\ensuremath{\lll}}
-\newunicodechar{⋙}{\ensuremath{\ggg}}
+\newunicodechar{≫}{\gg}
+\newunicodechar{≪}{\ll}
+\newunicodechar{⋘}{\lll}
+\newunicodechar{⋙}{\ggg}
 % endregion inequality-like ------------------------------------------------------------
 
 
 % region equivalence-like --------------------------------------------------------------
-\newunicodechar{∼}{\ensuremath{\sim}}
-\newunicodechar{≈}{\ensuremath{\approx}}
-\newunicodechar{≃}{\ensuremath{\simeq}}
-\newunicodechar{≌}{\ensuremath{\backcong}}
-\newunicodechar{≅}{\ensuremath{\cong}}
-\newunicodechar{≊}{\ensuremath{\approxeq}}
-\newunicodechar{≋}{\ensuremath{\approxident}}
-\newunicodechar{≡}{\ensuremath{\equiv}}
-\newunicodechar{≗}{\ensuremath{\circeq}}
-\newunicodechar{≐}{\ensuremath{\doteq}}
+\newunicodechar{∼}{\sim}
+\newunicodechar{≈}{\approx}
+\newunicodechar{≃}{\simeq}
+\newunicodechar{≌}{\backcong}
+\newunicodechar{≅}{\cong}
+\newunicodechar{≊}{\approxeq}
+\newunicodechar{≋}{\approxident}
+\newunicodechar{≡}{\equiv}
+\newunicodechar{≗}{\circeq}
+\newunicodechar{≐}{\doteq}
 
-\newunicodechar{≠}{\ensuremath{\ne}}
-\newunicodechar{≁}{\ensuremath{\nsim}}
-\newunicodechar{≉}{\ensuremath{\not\approx}}
-\newunicodechar{≆}{\ensuremath{\simneqq}}
-\newunicodechar{≇}{\ensuremath{\ncong}}
+\newunicodechar{≠}{\ne}
+\newunicodechar{≁}{\nsim}
+\newunicodechar{≉}{\napprox}
+\newunicodechar{≆}{\simneqq}
+\newunicodechar{≇}{\ncong}
 % endregion equivalence-like -----------------------------------------------------------
 
 
 % region integrals, sums and products --------------------------------------------------
-\newunicodechar{∑}{\ensuremath{\sum}}
-\newunicodechar{∏}{\ensuremath{\prod}}
-\newunicodechar{∐}{\ensuremath{\coprod}}
+\newunicodechar{∑}{\sum}
+\newunicodechar{∏}{\prod}
+\newunicodechar{∐}{\coprod}
 % endregion integrals, sums and products -----------------------------------------------
 
 
 % region logic -------------------------------------------------------------------------
-\newunicodechar{⟹}{\ensuremath{\implies}}
-\newunicodechar{⟸}{\ensuremath{\impliedby}}
-\newunicodechar{⟺}{\ensuremath{\iff}}
-\newunicodechar{¬}{\ensuremath{\neg}}
-\newunicodechar{∃}{\ensuremath{\exists}}
-\newunicodechar{∄}{\ensuremath{\nexists}}
-\newunicodechar{∀}{\ensuremath{\forall}}
+\newunicodechar{⟹}{\implies}
+\newunicodechar{⟸}{\impliedby}
+\newunicodechar{⟺}{\iff}
+\newunicodechar{¬}{\neg}
+\newunicodechar{∃}{\exists}
+\newunicodechar{∄}{\nexists}
+\newunicodechar{∀}{\forall}
 
-\newunicodechar{⊥}{\ensuremath{\bot}}
-\newunicodechar{⊤}{\ensuremath{\top}}
-\newunicodechar{⊢}{\ensuremath{\vdash}}
-\newunicodechar{⊨}{\ensuremath{\vDash}}
+\newunicodechar{⊥}{\bot}
+\newunicodechar{⊤}{\top}
+\newunicodechar{⊢}{\vdash}
+\newunicodechar{⊨}{\vDash}
 
-\newunicodechar{⊬}{\ensuremath{\nvdash}}  % U+22AC
-\newunicodechar{⊭}{\ensuremath{\nvDash}}  % U+22AD
-\newunicodechar{⊮}{\ensuremath{\nVdash}}  % U+22AE
-\newunicodechar{⊯}{\ensuremath{\nVDash}}  % U+22AF
+\newunicodechar{⊬}{\nvdash}  % U+22AC
+\newunicodechar{⊭}{\nvDash}  % U+22AD
+\newunicodechar{⊮}{\nVdash}  % U+22AE
+\newunicodechar{⊯}{\nVDash}  % U+22AF
 
-\newunicodechar{∨}{\ensuremath{\vee}}
-\newunicodechar{∧}{\ensuremath{\wedge}}
-\newunicodechar{⋁}{\ensuremath{\bigvee}}
-\newunicodechar{⋀}{\ensuremath{\bigwedge}}
+\newunicodechar{∨}{\vee}
+\newunicodechar{∧}{\wedge}
+\newunicodechar{⋁}{\bigvee}
+\newunicodechar{⋀}{\bigwedge}
 % endregion logic ----------------------------------------------------------------------
 
 
 % region calulus -----------------------------------------------------------------------
-\newunicodechar{∂}{\ensuremath{\partial}}
-\newunicodechar{∇}{\ensuremath{\nabla}}
-\newunicodechar{∆}{\ensuremath{\increment}}
-\newunicodechar{∫}{\ensuremath{\int}}
-\newunicodechar{∬}{\ensuremath{\iint}}
-\newunicodechar{∭}{\ensuremath{\iiint}}
-\newunicodechar{⨌}{\ensuremath{\iiiint}}
-\newunicodechar{∮}{\ensuremath{\oint}}
-\newunicodechar{∯}{\ensuremath{\oiint}}
-\newunicodechar{∰}{\ensuremath{\oiiint}}
+\newunicodechar{∂}{\partial}
+\newunicodechar{∇}{\nabla}
+\newunicodechar{∆}{\increment}
+\newunicodechar{∫}{\int}
+\newunicodechar{∬}{\iint}
+\newunicodechar{∭}{\iiint}
+\newunicodechar{⨌}{\iiiint}
+\newunicodechar{∮}{\oint}
+\newunicodechar{∯}{\oiint}
+\newunicodechar{∰}{\oiiint}
 % endregion calculus -------------------------------------------------------------------
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Alphabets                                                                    %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Alphabets                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % region greek -------------------------------------------------------------------------
 % region greek uppercase ---------------------------------------------------------------
@@ -774,6 +877,7 @@
 \newunicodechar{₌}{\subscript{=}}
 \newunicodechar{₍}{\subscript{(}}  % chktex 9 chktex 10
 \newunicodechar{₎}{\subscript{)}}  % chktex 9 chktex 10
+\newunicodechar{⁎}{\subscript{*}}
 % endregion subscript symbols ----------------------------------------------------------
 % endregion subscripts (\_<char>) ------------------------------------------------------
 
@@ -864,8 +968,8 @@
 % endregion superscript digits ---------------------------------------------------------
 
 % region superscript symbols -----------------------------------------------------------
-\newunicodechar{⁺}{\superscript{\texttt{+}}}
-\newunicodechar{⁻}{\superscript{\texttt{-}}}
+\newunicodechar{⁺}{\superscript{\smallplus}}
+\newunicodechar{⁻}{\superscript{\smallminus}}
 \newunicodechar{⁼}{\superscript{=}}
 \newunicodechar{⁽}{\superscript{(}}  % chktex 9
 \newunicodechar{⁾}{\superscript{)}}  % chktex 9
@@ -2258,6 +2362,5 @@
 % endregion small roman numerals (\rm<char>) -------------------------------------------
 
 % endregion payload ====================================================================
-\makeatother%
 \PackageInfo{unicode-symbols}{finished importing symbols}
 \endinput%

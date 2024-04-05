@@ -1,97 +1,144 @@
+% !TeX TXS-program:compile = txs:///pdflatex
 
-\RequirePackage{iftex}
+%\RequirePackage{iftex}
+%\ifLuaTeX
+%	\RequirePackage{luatex85}
+%	\RequirePackage{fontspec}
+%	\AtBeginDocument{\setmainfont{Noto Color Emoji}[Renderer=Harfbuzz]}
+%\fi
+
 \NeedsTeXFormat{LaTeX2e}
-\documentclass{standalone}
-
-\usepackage[utf8]{inputenc}   % allow utf-8 input
-\usepackage[T1]{fontenc}      % use 8-bit T1 fonts
-\usepackage{unicode-symbols}
-
-
-% region subfiles ----------------------------------------------------------------------
-\usepackage{refcount}
-\usepackage{standalone}
-\usepackage{import}
-\usepackage{subfiles}
-\usepackage{xr}                       % cross-referencing between files
-% endregion subfiles -------------------------------------------------------------------
-
-% region graphics ----------------------------------------------------------------------
-\usepackage{adjustbox}         % resize arbitrary content
-\usepackage{float}             % improved float, H option
-\usepackage{graphicx}          % \includegraphics
-\usepackage{svg}               % svg images
-\usepackage[svgnames]{xcolor}  % colors
-\usepackage{tikz}              % tikz figures
-\usepackage{pgfplots}          % function plots
-% endregion graphics -------------------------------------------------------------------
-
-% region maths -------------------------------------------------------------------------
-\usepackage{amsmath}      % math utilities
-\usepackage{physics}      % physics package
-\usepackage{xfrac}        % \sfrac for typesetting fractions a la ½
-\usepackage{cancel}       % \cancel for crossing out terms in equations
-\usepackage{mathtools}    % extension to amsmath
-\usepackage{nicematrix}
-% endregion maths ----------------------------------------------------------------------
-
-% region tables/figures ----------------------------------------------------------------
-\usepackage{tabularx}       % tables with fixed width
-\usepackage{ltablex}        % \tabularx longer than one page
-\usepackage{longtable}      % tabular longer than one page
-\usepackage{wrapfig}        % text wrapping around figures
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{tablefootnote}  % footnotes in tables
-\usepackage{multirow}       % \multirow in tables
-\usepackage{pgfplotstable}  % import csv or tsv files as tables
-\usepackage{arydshln}       % dashed lines in tables
-% \RequirePackage{colortbl}   % color column or row
-\usepackage{caption}		% captions for figures and tables
-\usepackage{subcaption}     % captions for subfigures.
-% endregion tables/figures -------------------------------------------------------------
-
-% region fonts/typography --------------------------------------------------------------
-% \usepackage{times}        % times new roman
-\usepackage{microtype}    % microtypography
-\usepackage{amsfonts}     % math fonts
-\usepackage{lipsum}       % dummy text
-\usepackage{outlines}     % easy nested lists/enumerations
-\usepackage{enumitem}     % customizing lists, provides noitemsep
-%\usepackage{todonotes}    % todos in margin
-% endregion fonts/typography -----------------------------------------------------------
-
-\pgfplotsset{compat=1.18}
-\graphicspath{{images/}}       % Sets the path to the images folder
-\captionsetup{justification=centering}
-\pdfminorversion=7% Set PDF version to 1.7
-
-\usepackage{ismll-mathoperators}
-\newcommand{\crulefill}{\vspace{.25\baselineskip}\hrule\vspace{.25\baselineskip}}
-\definecolor{optional}{rgb}{1.0, 0.4, 0.4}
-\newcommand{\optional}[1]{{\color{optional} #1}}
-
-% consider using ⁇ instead of \? for where-operator? (\Question in stix package)
-\newcommand{\?}{\mathbin{?}}
-% \newcommand{\?}{\mathbin{\ooalign{$\hidewidth?\hidewidth$\cr$\phantom{+}$}}}
-% \newcommand{\nan}{\ifmmode\texttt{NA}\else\GenericError{}{Need math mode}{}{}\fi}
-\newcommand{\nan}{\texttt{NaN}}
-\newcommand{\NA}{\texttt{N\!/\!A}}
-\DeclareMathOperator{\Seq}{Seq}
-\DeclareMathOperator{\codom}{codom}
-\DeclareMathOperator{\im}{im}
-\DeclareMathOperator{\range}{range}
-
-% \newcommand{\citeit}{\textcolor{red}{\textsc{reference}}}
-\newcommand{\obs}{{\textsc{obs}}}% observed
-\newcommand{\emp}{{\textsc{emp}}}% empirical
-\newcommand{\now}{{\textsc{now}}}% now
-\newcommand{\TODO}[1]{\textcolor{red}{\textbf{#1}}}
+\documentclass{minimal}
+\usepackage{booktabs}
+%\usepackage{stix}
+%\usepackage{pifont}
+%\usepackage[notext]{stix}
+\usepackage{amsmath}
+\usepackage{mathrsfs}     % math fonts
+\usepackage{amsfonts}
+\usepackage{pifont}
+\usepackage{centernot}
+\newcommand{\PrintMathFonts}{%
+  \count255=0
+  \loop\ifnum\count255<16
+    (\the\count255:~\fontname\textfont\count255)\newline
+    \advance\count255 by 1
+ \repeat}
 
 
-%\usepackage{amsfonts}     % math fonts
+\makeatletter
+\NewDocumentCommand{\alias}{m o m}{%
+% Usage: \unicode@alias{<command>}[<alias>]{<fallback>}
+% Checks if <alias> command is defined. if so, performs \let<command><alias>, else \let<command><fallback>
+\IfValueTF{#2}{%
+	\@ifundefined{#2}{%
+		\PackageInfo{unicode-symbols}{Defining #1 as #3}%
+		\newcommand{#1}{#3}%
+	}{%
+		\let#1=#2%
+	}%
+}{%
+	\newcommand{#1}{#3}%
+}%
+}
+\makeatother
+
+\usepackage{etoolbox}
+\makeatletter
+\NewDocumentCommand{\makealias}{m O{\relax} O{\relax} O{\relax} m}{%
+  % #1 is the new command (\mycommand)
+  % #2 is the existing command (\aliased)
+  % #3 is the fallback
+\ifundef{#2}{\providecommand{#1}{FALLBACK}}{\providecommand{#1}{YES, its #2 my dear}}
+%	\show#1%
+%\show#2%
+%\show#3%
+%\show#4%
+%  \ifdefined#2%
+%    \let#1=#2%
+%  \else\ifdefined#3\else\ifdefined#4\else
+%    \providecommand{#1}{#5}
+%  \fi\fi\fi%
+}
+\makeatother
+
+\newcommand{\original}{This is the aliased command.}
+\makealias{\aliasMISS}{This is the fallback.}
+\makealias{\aliasOK}[\original]{OH NO NO NO}
+\makealias{\aliasFALLBACK}[\undefinedcommand]{This is the fallback.}
+
+
+\newcommand{\cmark}{\ding{51}}% ✓ (U+2713: Check Mark)
+\newcommand{\xmark}{\ding{55}}% ✗ (U+2717: Ballot X)
+\newcommand{\hcmark}{\ding{52}}% ✔ (U+2714: Heavy Check Mark)
+\newcommand{\hxmark}{\ding{56}}% ✘ (U+2718: Heavy Ballot X)
+
+\makeatletter
+\providecommand{\leftsquigarrow}{%
+  \mathrel{\mathpalette\reflect@squig\relax}%
+}
+\newcommand{\reflect@squig}[2]{%
+  \reflectbox{$\m@th#1\rightsquigarrow$}%
+}
+\makeatother
+
+\usepackage{amssymb,graphicx}
 \begin{document}
-The standard continuous time forecasting task is to predict the value of $𝓨$ over the time interval $(t_\now, t_F]$, called the \emph{forecasting window} or \emph{future horizon}, given all observations in the interval $[t_L, t_\now]$, called the \emph{lookback window} or \emph{observation horizon}.
 
-$$ \textsc{bar} $$
-$$\textsc{foo}  \text{\scshape bar} βα∑ₖ $$
+\begin{tabular}{l}
+$x^{n+1}x^{n+1}x^{n+1}x^{n+1}$
+\\ $x^{n\texttt{+}1}x^{n\texttt{+}1}x^{n\texttt{+}1}x^{n\texttt{+}1}$
+\\ $x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}$
+\\ $x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}$
+\end{tabular}
+\aliasMISS\newline
+\aliasOK\newline
+\aliasFALLBACK
+
+$a\mathrel{\reflectbox{$\rightsquigarrow$}}b$  $c\leftsquigarrow d$
+%$a b\implies +\!\!\!\!\!+ c \mathrel{\overset{\scriptscriptstyle \triangle}{=}} d$
+%\PrintMathFonts
+
+%\PrintMathFonts
+\begin{tabular}{ccc}\toprule
+mode & text & math
+\\ \midrule
+   \verb|normal| & \textnormal{F}  & $\mathnormal{F}$
+\\ \verb|bf|     & \textbf{F}      & $\mathbf{F}$
+\\ \verb|it|     & \textit{F}      & $\mathit{F}$
+\\ \verb|rm|     & \textrm{F}      & $\mathrm{F}$
+\\ \verb|sf|     & \textsf{F}      & $\mathsf{F}$
+\\ \verb|tt|     & \texttt{F}      & $\mathtt{F}$
+\\ \verb|bb|     & --              & $\mathbb{F}$
+\\ \verb|sc|     & \textsc{f}      & $--$
+\\ \verb|up|     & \textup{F}      & $--$
+\\ \verb|sl|     & \textsl{F}      & $--$
+\\ \verb|md|     & \textmd{F}      & $--$
+\\ \verb|cal|    & --              & $\mathcal{F}$
+\\ \verb|src|    & --              & $\mathscr{F}$
+\\ \verb|frak|   & --              & $\mathfrak{F}$
+\\ \bottomrule
+\end{tabular}
+\PrintMathFonts
+%\mathring{x}
+%\acute{x}
+%\bar{x}
+%\breve{x}
+%\check{x}
+%\ddot{x}
+%\dot{x}
+%\grave{x}
+%\hat{x}
+%\tilde{x}
+%\vec{x}
+%\overline{x}
+%\underline{x}
+%\widehat{x}
+%\widetilde{x}
+%\overbrace{x}
+%\underbrace{x}
+%\overrightarrow{x}
+%\overleftarrow{x}
+%\mathring{x}
+
 \end{document}
