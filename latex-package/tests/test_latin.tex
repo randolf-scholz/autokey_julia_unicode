@@ -2,13 +2,13 @@
 \documentclass[10pt]{standalone}
 \usepackage[utf8]{inputenc}
 \usepackage[verbose]{newunicodechar}
-\usepackage[nostix]{unicode-symbols}
+\usepackage[stix]{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
 %\usepackage{times}
 
 \usepackage{test_setup}
-
+\usepackage[bb=dsfontserif]{mathalfa}
 
 \NewDocumentCommand{\makerow}{s m O{}}{%
 \pgfkeys{/makerow, default, #3}% set defaults

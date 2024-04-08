@@ -2,19 +2,17 @@
 % !TeX TXS-program:compile = txs:///pdflatex
 \documentclass[10pt]{standalone}
 \usepackage[verbose]{newunicodechar}
-\usepackage[stix]{unicode-symbols}
+\usepackage[nostix]{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
 
 % NOTE: We want to test which is the best way to do a tranpose
-
 \newcommand{\T}{{\scriptscriptstyle\mathsf{T}}}
-\newunicodechar{⊺}{\intercal}
 \newcommand{\tp}{^{\mkern-1.5mu\mathsf{T}}}
 \newcommand{\tx}{^{\!\mathsf{T}}}
 \newcommand{\ty}{^{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}
 
-\def\test#1{(#1)(#1)(#1)}
+\def\test#1{ (#1) (#1) (#1) }
 
 \begin{document}
 \begin{tabular}{llll}\toprule

@@ -75,6 +75,16 @@
 % TODO: Add switch to use mathfont (cf mathfont_user_guide) when LuaLaTeX or XeLaTeX is used.
 %\RequirePackage{mathfont}
 
+% stix by default loads 12 groups, leaving only 4 groups for other fonts.
+% moreover, stix densly packs symbols to save space.
+% unfortunately, stick-mathcal, stix-mathbb and stix-mathscr are really ugly.
+%
+% Font selection:
+% bb: mathds, fallback: dsserif (requires 2 fonts)
+% cal: computer modern
+
+
+
 
 % decide whether to use stix or not
 \ifunicode@stix
@@ -189,7 +199,6 @@
 	% \DeclareMathSymbol{\eqdef}                {\mathrel}{integrals}{"8E}
 	% \DeclareMathSymbol{\triangleq}            {\mathrel}{integrals}{"8D}
 	% \DeclareMathSymbol{\questeq}              {\mathrel}{integrals}{"90}
-
 }
 % endregion import missing symbols -----------------------------------------------------
 
@@ -197,12 +206,22 @@
 % region modifiers ---------------------------------------------------------------------
 \newcommand{\unicode@frak}[1]{\ensuremath{\mathfrak{#1}}}
 \newcommand{\unicode@bfrak}[1]{\ensuremath{\boldsymbol{\mathfrak{#1}}}}
+\newcommand{\unicode@bb}[1]{%
+% We use mathds as primary, and fallback to mathbb.
+\ifnum`#1=\uccode`#1\relax % Check if the character is uppercase
+	\mathds{#1}% Use dsfont
+\else\if#11% Check if the character is literal `1'
+	\mathds{#1}%
+\else% Use fallback
+    \mathbb{#1}%
+\fi\fi%
+}
 % endregion modifiers ------------------------------------------------------------------
 
 
 % region aliases -----------------------------------------------------------------------
-\newcommand{\unicode@transpose}{\superscript{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}}
-\newcommand{\unicode@hermitian}{\superscript{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}}
+\newcommand{\unicode@transpose}{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}
+\newcommand{\unicode@hermitian}{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}
 \newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
 \newcommand{\unicode@ddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}
 \newcommand{\unicode@times}{\ifmmode\times\else\texttimes\fi}
@@ -2048,74 +2067,74 @@
 % \bb<char>
 % region blackboard bold characters (\bb<char>) ----------------------------------------
 % region blackboard bold uppercase latin -----------------------------------------------
-\newunicodechar{𝔸}{\ensuremath{\mathds{a}}}  % U+1D538 Mathematical Double-Struck Capital A
-\newunicodechar{𝔹}{\ensuremath{\mathds{B}}}  % U+1D539 Mathematical Double-Struck Capital B
-\newunicodechar{ℂ}{\ensuremath{\mathds{C}}}  % U+2102  Mathematical Double-Struck Capital C
-\newunicodechar{𝔻}{\ensuremath{\mathds{D}}}  % U+1D53B Mathematical Double-Struck Capital D
-\newunicodechar{𝔼}{\ensuremath{\mathds{E}}}  % U+1D53C Mathematical Double-Struck Capital E
-\newunicodechar{𝔽}{\ensuremath{\mathds{F}}}  % U+1D53D Mathematical Double-Struck Capital F
-\newunicodechar{𝔾}{\ensuremath{\mathds{G}}}  % U+1D53E Mathematical Double-Struck Capital G
-\newunicodechar{ℍ}{\ensuremath{\mathds{H}}}  % U+210D  Mathematical Double-Struck Capital H
-\newunicodechar{𝕀}{\ensuremath{\mathds{I}}}  % U+1D540 Mathematical Double-Struck Capital I
-\newunicodechar{𝕁}{\ensuremath{\mathds{J}}}  % U+1D541 Mathematical Double-Struck Capital J
-\newunicodechar{𝕂}{\ensuremath{\mathds{K}}}  % U+1D542 Mathematical Double-Struck Capital K
-\newunicodechar{𝕃}{\ensuremath{\mathds{L}}}  % U+1D543 Mathematical Double-Struck Capital L
-\newunicodechar{𝕄}{\ensuremath{\mathds{M}}}  % U+1D544 Mathematical Double-Struck Capital M
-\newunicodechar{ℕ}{\ensuremath{\mathds{N}}}  % U+2115  Mathematical Double-Struck Capital N
-\newunicodechar{𝕆}{\ensuremath{\mathds{O}}}  % U+1D546 Mathematical Double-Struck Capital O
-\newunicodechar{ℙ}{\ensuremath{\mathds{P}}}  % U+2119  Mathematical Double-Struck Capital P
-\newunicodechar{ℚ}{\ensuremath{\mathds{Q}}}  % U+211A  Mathematical Double-Struck Capital Q
-\newunicodechar{ℝ}{\ensuremath{\mathds{R}}}  % U+211D  Mathematical Double-Struck Capital R
-\newunicodechar{𝕊}{\ensuremath{\mathds{S}}}  % U+1D54A Mathematical Double-Struck Capital S
-\newunicodechar{𝕋}{\ensuremath{\mathds{T}}}  % U+1D54B Mathematical Double-Struck Capital T
-\newunicodechar{𝕌}{\ensuremath{\mathds{U}}}  % U+1D54C Mathematical Double-Struck Capital U
-\newunicodechar{𝕍}{\ensuremath{\mathds{V}}}  % U+1D54D Mathematical Double-Struck Capital V
-\newunicodechar{𝕎}{\ensuremath{\mathds{W}}}  % U+1D54E Mathematical Double-Struck Capital W
-\newunicodechar{𝕏}{\ensuremath{\mathds{X}}}  % U+1D54F Mathematical Double-Struck Capital X
-\newunicodechar{𝕐}{\ensuremath{\mathds{Y}}}  % U+1D550 Mathematical Double-Struck Capital Y
-\newunicodechar{ℤ}{\ensuremath{\mathds{Z}}}  % U+2124  Mathematical Double-Struck Capital Z
+\newunicodechar{𝔸}{\unicode@bb{a}}  % U+1D538 Mathematical Double-Struck Capital A
+\newunicodechar{𝔹}{\unicode@bb{B}}  % U+1D539 Mathematical Double-Struck Capital B
+\newunicodechar{ℂ}{\unicode@bb{C}}  % U+2102  Mathematical Double-Struck Capital C
+\newunicodechar{𝔻}{\unicode@bb{D}}  % U+1D53B Mathematical Double-Struck Capital D
+\newunicodechar{𝔼}{\unicode@bb{E}}  % U+1D53C Mathematical Double-Struck Capital E
+\newunicodechar{𝔽}{\unicode@bb{F}}  % U+1D53D Mathematical Double-Struck Capital F
+\newunicodechar{𝔾}{\unicode@bb{G}}  % U+1D53E Mathematical Double-Struck Capital G
+\newunicodechar{ℍ}{\unicode@bb{H}}  % U+210D  Mathematical Double-Struck Capital H
+\newunicodechar{𝕀}{\unicode@bb{I}}  % U+1D540 Mathematical Double-Struck Capital I
+\newunicodechar{𝕁}{\unicode@bb{J}}  % U+1D541 Mathematical Double-Struck Capital J
+\newunicodechar{𝕂}{\unicode@bb{K}}  % U+1D542 Mathematical Double-Struck Capital K
+\newunicodechar{𝕃}{\unicode@bb{L}}  % U+1D543 Mathematical Double-Struck Capital L
+\newunicodechar{𝕄}{\unicode@bb{M}}  % U+1D544 Mathematical Double-Struck Capital M
+\newunicodechar{ℕ}{\unicode@bb{N}}  % U+2115  Mathematical Double-Struck Capital N
+\newunicodechar{𝕆}{\unicode@bb{O}}  % U+1D546 Mathematical Double-Struck Capital O
+\newunicodechar{ℙ}{\unicode@bb{P}}  % U+2119  Mathematical Double-Struck Capital P
+\newunicodechar{ℚ}{\unicode@bb{Q}}  % U+211A  Mathematical Double-Struck Capital Q
+\newunicodechar{ℝ}{\unicode@bb{R}}  % U+211D  Mathematical Double-Struck Capital R
+\newunicodechar{𝕊}{\unicode@bb{S}}  % U+1D54A Mathematical Double-Struck Capital S
+\newunicodechar{𝕋}{\unicode@bb{T}}  % U+1D54B Mathematical Double-Struck Capital T
+\newunicodechar{𝕌}{\unicode@bb{U}}  % U+1D54C Mathematical Double-Struck Capital U
+\newunicodechar{𝕍}{\unicode@bb{V}}  % U+1D54D Mathematical Double-Struck Capital V
+\newunicodechar{𝕎}{\unicode@bb{W}}  % U+1D54E Mathematical Double-Struck Capital W
+\newunicodechar{𝕏}{\unicode@bb{X}}  % U+1D54F Mathematical Double-Struck Capital X
+\newunicodechar{𝕐}{\unicode@bb{Y}}  % U+1D550 Mathematical Double-Struck Capital Y
+\newunicodechar{ℤ}{\unicode@bb{Z}}  % U+2124  Mathematical Double-Struck Capital Z
 % endregion blackboard bold uppercase latin --------------------------------------------
 
 % region blackboard bold lowercase latin -----------------------------------------------
-\newunicodechar{𝕒}{\ensuremath{\mathbbm{a}}}  % U+1D552 Mathematical Double-Struck Small A
-\newunicodechar{𝕓}{\ensuremath{\mathbbm{b}}}  % U+1D553 Mathematical Double-Struck Small B
-\newunicodechar{𝕔}{\ensuremath{\mathbbm{c}}}  % U+1D554 Mathematical Double-Struck Small C
-\newunicodechar{𝕕}{\ensuremath{\mathbbm{d}}}  % U+1D555 Mathematical Double-Struck Small D
-\newunicodechar{𝕖}{\ensuremath{\mathbbm{e}}}  % U+1D556 Mathematical Double-Struck Small E
-\newunicodechar{𝕗}{\ensuremath{\mathbbm{f}}}  % U+1D557 Mathematical Double-Struck Small F
-\newunicodechar{𝕘}{\ensuremath{\mathbbm{g}}}  % U+1D558 Mathematical Double-Struck Small G
-\newunicodechar{𝕙}{\ensuremath{\mathbbm{h}}}  % U+1D559 Mathematical Double-Struck Small H
-\newunicodechar{𝕚}{\ensuremath{\mathbbm{i}}}  % U+1D55A Mathematical Double-Struck Small I
-\newunicodechar{𝕛}{\ensuremath{\mathbbm{j}}}  % U+1D55B Mathematical Double-Struck Small J
-\newunicodechar{𝕜}{\ensuremath{\mathbbm{k}}}  % U+1D55C Mathematical Double-Struck Small K
-\newunicodechar{𝕝}{\ensuremath{\mathbbm{l}}}  % U+1D55D Mathematical Double-Struck Small L
-\newunicodechar{𝕞}{\ensuremath{\mathbbm{m}}}  % U+1D55E Mathematical Double-Struck Small M
-\newunicodechar{𝕟}{\ensuremath{\mathbbm{n}}}  % U+1D55F Mathematical Double-Struck Small N
-\newunicodechar{𝕠}{\ensuremath{\mathbbm{o}}}  % U+1D560 Mathematical Double-Struck Small O
-\newunicodechar{𝕡}{\ensuremath{\mathbbm{p}}}  % U+1D561 Mathematical Double-Struck Small P
-\newunicodechar{𝕢}{\ensuremath{\mathbbm{q}}}  % U+1D562 Mathematical Double-Struck Small Q
-\newunicodechar{𝕣}{\ensuremath{\mathbbm{r}}}  % U+1D563 Mathematical Double-Struck Small R
-\newunicodechar{𝕤}{\ensuremath{\mathbbm{s}}}  % U+1D564 Mathematical Double-Struck Small S
-\newunicodechar{𝕥}{\ensuremath{\mathbbm{t}}}  % U+1D565 Mathematical Double-Struck Small T
-\newunicodechar{𝕦}{\ensuremath{\mathbbm{u}}}  % U+1D566 Mathematical Double-Struck Small U
-\newunicodechar{𝕧}{\ensuremath{\mathbbm{v}}}  % U+1D567 Mathematical Double-Struck Small V
-\newunicodechar{𝕨}{\ensuremath{\mathbbm{w}}}  % U+1D568 Mathematical Double-Struck Small W
-\newunicodechar{𝕩}{\ensuremath{\mathbbm{x}}}  % U+1D569 Mathematical Double-Struck Small X
-\newunicodechar{𝕪}{\ensuremath{\mathbbm{y}}}  % U+1D56A Mathematical Double-Struck Small Y
-\newunicodechar{𝕫}{\ensuremath{\mathbbm{z}}}  % U+1D56B Mathematical Double-Struck Small Z
+\newunicodechar{𝕒}{\unicode@bb{a}}  % U+1D552 Mathematical Double-Struck Small A
+\newunicodechar{𝕓}{\unicode@bb{b}}  % U+1D553 Mathematical Double-Struck Small B
+\newunicodechar{𝕔}{\unicode@bb{c}}  % U+1D554 Mathematical Double-Struck Small C
+\newunicodechar{𝕕}{\unicode@bb{d}}  % U+1D555 Mathematical Double-Struck Small D
+\newunicodechar{𝕖}{\unicode@bb{e}}  % U+1D556 Mathematical Double-Struck Small E
+\newunicodechar{𝕗}{\unicode@bb{f}}  % U+1D557 Mathematical Double-Struck Small F
+\newunicodechar{𝕘}{\unicode@bb{g}}  % U+1D558 Mathematical Double-Struck Small G
+\newunicodechar{𝕙}{\unicode@bb{h}}  % U+1D559 Mathematical Double-Struck Small H
+\newunicodechar{𝕚}{\unicode@bb{i}}  % U+1D55A Mathematical Double-Struck Small I
+\newunicodechar{𝕛}{\unicode@bb{j}}  % U+1D55B Mathematical Double-Struck Small J
+\newunicodechar{𝕜}{\unicode@bb{k}}  % U+1D55C Mathematical Double-Struck Small K
+\newunicodechar{𝕝}{\unicode@bb{l}}  % U+1D55D Mathematical Double-Struck Small L
+\newunicodechar{𝕞}{\unicode@bb{m}}  % U+1D55E Mathematical Double-Struck Small M
+\newunicodechar{𝕟}{\unicode@bb{n}}  % U+1D55F Mathematical Double-Struck Small N
+\newunicodechar{𝕠}{\unicode@bb{o}}  % U+1D560 Mathematical Double-Struck Small O
+\newunicodechar{𝕡}{\unicode@bb{p}}  % U+1D561 Mathematical Double-Struck Small P
+\newunicodechar{𝕢}{\unicode@bb{q}}  % U+1D562 Mathematical Double-Struck Small Q
+\newunicodechar{𝕣}{\unicode@bb{r}}  % U+1D563 Mathematical Double-Struck Small R
+\newunicodechar{𝕤}{\unicode@bb{s}}  % U+1D564 Mathematical Double-Struck Small S
+\newunicodechar{𝕥}{\unicode@bb{t}}  % U+1D565 Mathematical Double-Struck Small T
+\newunicodechar{𝕦}{\unicode@bb{u}}  % U+1D566 Mathematical Double-Struck Small U
+\newunicodechar{𝕧}{\unicode@bb{v}}  % U+1D567 Mathematical Double-Struck Small V
+\newunicodechar{𝕨}{\unicode@bb{w}}  % U+1D568 Mathematical Double-Struck Small W
+\newunicodechar{𝕩}{\unicode@bb{x}}  % U+1D569 Mathematical Double-Struck Small X
+\newunicodechar{𝕪}{\unicode@bb{y}}  % U+1D56A Mathematical Double-Struck Small Y
+\newunicodechar{𝕫}{\unicode@bb{z}}  % U+1D56B Mathematical Double-Struck Small Z
 % endregion blackboard bold lowercase latin --------------------------------------------
 
 % region blackboard bold digits --------------------------------------------------------
-\newunicodechar{𝟘}{\ensuremath{\mathbbm{0}}}  % U+1D7D8 Mathematical Double-Struck Digit Zero
-\newunicodechar{𝟙}{\ensuremath{\mathbbm{1}}}  % U+1D7D9 Mathematical Double-Struck Digit One
-\newunicodechar{𝟚}{\ensuremath{\mathbbm{2}}}  % U+1D7DA Mathematical Double-Struck Digit Two
-\newunicodechar{𝟛}{\ensuremath{\mathbbm{3}}}  % U+1D7DB Mathematical Double-Struck Digit Three
-\newunicodechar{𝟜}{\ensuremath{\mathbbm{4}}}  % U+1D7DC Mathematical Double-Struck Digit Four
-\newunicodechar{𝟝}{\ensuremath{\mathbbm{5}}}  % U+1D7DD Mathematical Double-Struck Digit Five
-\newunicodechar{𝟞}{\ensuremath{\mathbbm{6}}}  % U+1D7DE Mathematical Double-Struck Digit Six
-\newunicodechar{𝟟}{\ensuremath{\mathbbm{7}}}  % U+1D7DF Mathematical Double-Struck Digit Seven
-\newunicodechar{𝟠}{\ensuremath{\mathbbm{8}}}  % U+1D7E0 Mathematical Double-Struck Digit Eight
-\newunicodechar{𝟡}{\ensuremath{\mathbbm{9}}}  % U+1D7E1 Mathematical Double-Struck Digit Nine
+\newunicodechar{𝟘}{\unicode@bb{0}}  % U+1D7D8 Mathematical Double-Struck Digit Zero
+\newunicodechar{𝟙}{\unicode@bb{1}}  % U+1D7D9 Mathematical Double-Struck Digit One
+\newunicodechar{𝟚}{\unicode@bb{2}}  % U+1D7DA Mathematical Double-Struck Digit Two
+\newunicodechar{𝟛}{\unicode@bb{3}}  % U+1D7DB Mathematical Double-Struck Digit Three
+\newunicodechar{𝟜}{\unicode@bb{4}}  % U+1D7DC Mathematical Double-Struck Digit Four
+\newunicodechar{𝟝}{\unicode@bb{5}}  % U+1D7DD Mathematical Double-Struck Digit Five
+\newunicodechar{𝟞}{\unicode@bb{6}}  % U+1D7DE Mathematical Double-Struck Digit Six
+\newunicodechar{𝟟}{\unicode@bb{7}}  % U+1D7DF Mathematical Double-Struck Digit Seven
+\newunicodechar{𝟠}{\unicode@bb{8}}  % U+1D7E0 Mathematical Double-Struck Digit Eight
+\newunicodechar{𝟡}{\unicode@bb{9}}  % U+1D7E1 Mathematical Double-Struck Digit Nine
 % endregion blackboard bold digits -----------------------------------------------------
 
 % region blackboard bold lowercase greek -----------------------------------------------
