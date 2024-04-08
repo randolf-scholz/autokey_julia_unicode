@@ -244,8 +244,8 @@
 \newcommand{\reflect@squig}[2]{\reflectbox{$\m@th#1\rightsquigarrow$}}
 \newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
 \newcommand{\unicode@unaryminus}{\mathord{\texttt{-}}}
-\newcommand{\unicode@smallplus}{\mathbin{\texttt{+}}}
-\newcommand{\unicode@smallminus}{\mathbin{\texttt{-}}}
+\newcommand{\unicode@smallplus}{\ifmmode\mathbin{\texttt{+}}\else\texttt{+}\fi}
+\newcommand{\unicode@smallminus}{\ifmmode\mathbin{\texttt{-}}\else\texttt{-}\fi}
 \newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!\!+}}% chktex 21
 \newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
 \newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle \triangle}{=}}}
@@ -900,8 +900,8 @@
 % endregion subscript digits -----------------------------------------------------------
 
 % region subscript symbols -------------------------------------------------------------
-\newunicodechar{₊}{\subscript{\texttt{+}}}
-\newunicodechar{₋}{\subscript{\texttt{-}}}
+\newunicodechar{₊}{\subscript{\smallplus}}
+\newunicodechar{₋}{\subscript{\smallminus}}
 \newunicodechar{₌}{\subscript{=}}
 \newunicodechar{₍}{\subscript{(}}  % chktex 9 chktex 10
 \newunicodechar{₎}{\subscript{)}}  % chktex 9 chktex 10

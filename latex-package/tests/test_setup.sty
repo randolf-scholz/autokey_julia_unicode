@@ -51,6 +51,9 @@ default/.style={
 	% roman
 	roman=\relax,
 	Roman=\relax
+	% sub- and superscript
+	sub=\relax,
+	sup=\relax,
 },
 	% serif
 rm/.code={\gdef\rowRM{#1}},
@@ -75,4 +78,7 @@ circ/.code={\gdef\rowCIRC{#1}},
 % roman
 roman/.code={\gdef\rowRoman{#1}},
 Roman/.code={\gdef\rowROMAN{#1}},
+% sup- and superscript
+sub/.code={\gdef\rowSUB{#1}},
+sup/.code={\gdef\rowSUP{#1}},
 }

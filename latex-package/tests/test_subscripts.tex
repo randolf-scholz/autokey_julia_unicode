@@ -5,94 +5,116 @@
 \usepackage{booktabs}
 \usepackage{multicol}
 
+\usepackage{test_setup}
+\usepackage{etoolbox}
+\usepackage{letltxmacro}
+\usepackage{xstring}
+
+\def\makesub#1{
+\edef\foo{#1}
+\IfStrEq{#1}{-}{}{\fbox{}#1}
+}
+
+
+\NewDocumentCommand{\makerow}{s m O{}}{%
+\pgfkeys{/makerow, default, #3}% set defaults
+	#2%
+	% math mode
+	& $\fbox{}_{#2}$              & \if-\rowSUB\else$\fbox{}\rowSUB$\fi
+	& $\fbox{}^{#2}$              & \if-\rowSUP\else$\fbox{}\rowSUP$\fi
+\IfBooleanT{#1}{% text mode
+	& \fbox{}\textsubscript{#2}   & \if-\rowSUB\else\fbox{}\rowSUB\fi
+	& \fbox{}\textsuperscript{#2} & \if-\rowSUP\else\fbox{}\rowSUP\fi
+}
+}
+
+
 \begin{document}
-\begin{tabular}{ll|ll|ll|ll}  % chktex 44
+\begin{tabular}{l|ll ll|ll ll}  % chktex 44
 \toprule
-\multicolumn{4}{c|}{supscripts} & \multicolumn{4}{|c}{subscripts} \\
-text & uni & math & uni & text & uni & math & uni \\
-\midrule
-\textsubscript{a} & ₐ & $_{a}$ & $ₐ$ & \textsuperscript{a} & ᵃ & $^{a}$ & $ᵃ$ \\
-\textsubscript{b} & — & $_{b}$ & $—$ & \textsuperscript{b} & ᵇ & $^{b}$ & $ᵇ$ \\
-\textsubscript{c} & — & $_{c}$ & $—$ & \textsuperscript{c} & ᶜ & $^{c}$ & $ᶜ$ \\
-\textsubscript{d} & — & $_{d}$ & $—$ & \textsuperscript{d} & ᵈ & $^{d}$ & $ᵈ$ \\
-\textsubscript{e} & ₑ & $_{e}$ & $ₑ$ & \textsuperscript{e} & ᵉ & $^{e}$ & $ᵉ$ \\
-\textsubscript{f} & — & $_{f}$ & $—$ & \textsuperscript{f} & ᶠ & $^{f}$ & $ᶠ$ \\
-\textsubscript{g} & — & $_{g}$ & $—$ & \textsuperscript{g} & ᵍ & $^{g}$ & $ᵍ$ \\
-\textsubscript{h} & ₕ & $_{h}$ & $ₕ$ & \textsuperscript{h} & ʰ & $^{h}$ & $ʰ$ \\
-\textsubscript{i} & ᵢ & $_{i}$ & $ᵢ$ & \textsuperscript{i} & ⁱ & $^{i}$ & $ⁱ$ \\
-\textsubscript{j} & ⱼ & $_{j}$ & $ⱼ$ & \textsuperscript{j} & ʲ & $^{j}$ & $ʲ$ \\
-\textsubscript{k} & ₖ & $_{k}$ & $ₖ$ & \textsuperscript{k} & ᵏ & $^{k}$ & $ᵏ$ \\
-\textsubscript{l} & ₗ & $_{l}$ & $ₗ$ & \textsuperscript{l} & ˡ & $^{l}$ & $ˡ$ \\
-\textsubscript{m} & ₘ & $_{m}$ & $ₘ$ & \textsuperscript{m} & ᵐ & $^{m}$ & $ᵐ$ \\
-\textsubscript{n} & ₙ & $_{n}$ & $ₙ$ & \textsuperscript{n} & ⁿ & $^{n}$ & $ⁿ$ \\
-\textsubscript{o} & ₒ & $_{o}$ & $ₒ$ & \textsuperscript{o} & ᵒ & $^{o}$ & $ᵒ$ \\
-\textsubscript{p} & ₚ & $_{p}$ & $ₚ$ & \textsuperscript{p} & ᵖ & $^{p}$ & $ᵖ$ \\
-\textsubscript{q} & — & $_{q}$ & $—$ & \textsuperscript{q} & — & $^{q}$ & $—$ \\
-\textsubscript{r} & ᵣ & $_{r}$ & $ᵣ$ & \textsuperscript{r} & ʳ & $^{r}$ & $ʳ$ \\
-\textsubscript{s} & ₛ & $_{s}$ & $ₛ$ & \textsuperscript{s} & ˢ & $^{s}$ & $ˢ$ \\
-\textsubscript{t} & ₜ & $_{t}$ & $ₜ$ & \textsuperscript{t} & ᵗ & $^{t}$ & $ᵗ$ \\
-\textsubscript{u} & ᵤ & $_{u}$ & $ᵤ$ & \textsuperscript{u} & ᵘ & $^{u}$ & $ᵘ$ \\
-\textsubscript{v} & ᵥ & $_{v}$ & $ᵥ$ & \textsuperscript{v} & ᵛ & $^{v}$ & $ᵛ$ \\
-\textsubscript{w} & — & $_{w}$ & $—$ & \textsuperscript{w} & ʷ & $^{w}$ & $ʷ$ \\
-\textsubscript{x} & ₓ & $_{x}$ & $ₓ$ & \textsuperscript{x} & ˣ & $^{x}$ & $ˣ$ \\
-\textsubscript{y} & — & $_{y}$ & $—$ & \textsuperscript{y} & ʸ & $^{y}$ & $ʸ$ \\
-\textsubscript{z} & — & $_{z}$ & $—$ & \textsuperscript{z} & ᶻ & $^{z}$ & $ᶻ$ \\
-\midrule
-\textsubscript{A} & — & $_{A}$ & $—$ & \textsuperscript{A} & ᴬ & $^{A}$ & $ᴬ$ \\
-\textsubscript{B} & — & $_{B}$ & $—$ & \textsuperscript{B} & ᴮ & $^{B}$ & $ᴮ$ \\
-\textsubscript{C} & — & $_{C}$ & $—$ & \textsuperscript{C} & — & $^{C}$ & $—$ \\
-\textsubscript{D} & — & $_{D}$ & $—$ & \textsuperscript{D} & ᴰ & $^{D}$ & $ᴰ$ \\
-\textsubscript{E} & — & $_{E}$ & $—$ & \textsuperscript{E} & ᴱ & $^{E}$ & $ᴱ$ \\
-\textsubscript{F} & — & $_{F}$ & $—$ & \textsuperscript{F} & — & $^{F}$ & $—$ \\
-\textsubscript{G} & — & $_{G}$ & $—$ & \textsuperscript{G} & ᴳ & $^{G}$ & $ᴳ$ \\
-\textsubscript{H} & — & $_{H}$ & $—$ & \textsuperscript{H} & ᴴ & $^{H}$ & $ᴴ$ \\
-\textsubscript{I} & — & $_{I}$ & $—$ & \textsuperscript{I} & ᴵ & $^{I}$ & $ᴵ$ \\
-\textsubscript{J} & — & $_{J}$ & $—$ & \textsuperscript{J} & ᴶ & $^{J}$ & $ᴶ$ \\
-\textsubscript{K} & — & $_{K}$ & $—$ & \textsuperscript{K} & ᴷ & $^{K}$ & $ᴷ$ \\
-\textsubscript{L} & — & $_{L}$ & $—$ & \textsuperscript{L} & ᴸ & $^{L}$ & $ᴸ$ \\
-\textsubscript{M} & — & $_{M}$ & $—$ & \textsuperscript{M} & ᴹ & $^{M}$ & $ᴹ$ \\
-\textsubscript{N} & — & $_{N}$ & $—$ & \textsuperscript{N} & ᴺ & $^{N}$ & $ᴺ$ \\
-\textsubscript{O} & — & $_{O}$ & $—$ & \textsuperscript{O} & ᴼ & $^{O}$ & $ᴼ$ \\
-\textsubscript{P} & — & $_{P}$ & $—$ & \textsuperscript{P} & ᴾ & $^{P}$ & $ᴾ$ \\
-\textsubscript{Q} & — & $_{Q}$ & $—$ & \textsuperscript{Q} & — & $^{Q}$ & $—$ \\
-\textsubscript{R} & — & $_{R}$ & $—$ & \textsuperscript{R} & ᴿ & $^{R}$ & $ᴿ$ \\
-\textsubscript{S} & — & $_{S}$ & $—$ & \textsuperscript{S} & — & $^{S}$ & $—$ \\
-\textsubscript{T} & — & $_{T}$ & $—$ & \textsuperscript{T} & ᵀ & $^{T}$ & $ᵀ$ \\
-\textsubscript{U} & — & $_{U}$ & $—$ & \textsuperscript{U} & ᵁ & $^{U}$ & $ᵁ$ \\
-\textsubscript{V} & — & $_{V}$ & $—$ & \textsuperscript{V} & ⱽ & $^{V}$ & $ⱽ$ \\
-\textsubscript{W} & — & $_{W}$ & $—$ & \textsuperscript{W} & ᵂ & $^{W}$ & $ᵂ$ \\
-\textsubscript{X} & — & $_{X}$ & $—$ & \textsuperscript{X} & — & $^{X}$ & $—$ \\
-\textsubscript{Y} & — & $_{Y}$ & $—$ & \textsuperscript{Y} & — & $^{Y}$ & $—$ \\
-\textsubscript{Z} & — & $_{Z}$ & $—$ & \textsuperscript{Z} & — & $^{Z}$ & $—$ \\
-\midrule
-\textsubscript{1} & ₁ & $_{1}$ & $₁$ & \textsuperscript{1} & ¹ & $^{1}$ & $¹$ \\
-\textsubscript{2} & ₂ & $_{2}$ & $₂$ & \textsuperscript{2} & ² & $^{2}$ & $²$ \\
-\textsubscript{3} & ₃ & $_{3}$ & $₃$ & \textsuperscript{3} & ³ & $^{3}$ & $³$ \\
-\textsubscript{4} & ₄ & $_{4}$ & $₄$ & \textsuperscript{4} & ⁴ & $^{4}$ & $⁴$ \\
-\textsubscript{5} & ₅ & $_{5}$ & $₅$ & \textsuperscript{5} & ⁵ & $^{5}$ & $⁵$ \\
-\textsubscript{6} & ₆ & $_{6}$ & $₆$ & \textsuperscript{6} & ⁶ & $^{6}$ & $⁶$ \\
-\textsubscript{7} & ₇ & $_{7}$ & $₇$ & \textsuperscript{7} & ⁷ & $^{7}$ & $⁷$ \\
-\textsubscript{8} & ₈ & $_{8}$ & $₈$ & \textsuperscript{8} & ⁸ & $^{8}$ & $⁸$ \\
-\textsubscript{9} & ₉ & $_{9}$ & $₉$ & \textsuperscript{9} & ⁹ & $^{9}$ & $⁹$ \\
-\textsubscript{0} & ₀ & $_{0}$ & $₀$ & \textsuperscript{0} & ⁰ & $^{0}$ & $⁰$ \\
-\midrule
-\textsubscript{+} & ₊ & $_{+}$ & $₊$ & \textsuperscript{+} & ⁺ & $^{+}$ & $⁺$ \\
-\textsubscript{-} & ₋ & $_{-}$ & $₋$ & \textsuperscript{-} & ⁻ & $^{-}$ & $⁻$ \\
-\textsubscript{=} & ₌ & $_{=}$ & $₌$ & \textsuperscript{=} & ⁼ & $^{=}$ & $⁼$ \\
-\textsubscript{(} & ₍ & $_{(}$ & $₍$ & \textsuperscript{(} & ⁽ & $^{(}$ & $⁽$ \\  % chktex 9
-\textsubscript{)} & ₎ & $_{)}$ & $₎$ & \textsuperscript{)} & ⁾ & $^{)}$ & $⁾$ \\  % chktex 9
-\midrule
-\textsubscript{α} & — & $_{α}$ & $—$ & \textsuperscript{α} & ᵅ & $^{α}$ & $ᵅ$ \\
-\textsubscript{β} & ᵦ & $_{β}$ & $ᵦ$ & \textsuperscript{β} & ᵝ & $^{β}$ & $ᵝ$ \\
-\textsubscript{γ} & ᵧ & $_{γ}$ & $ᵧ$ & \textsuperscript{γ} & ᵞ & $^{γ}$ & $ᵞ$ \\
-\textsubscript{δ} & — & $_{δ}$ & $—$ & \textsuperscript{δ} & ᵟ & $^{δ}$ & $ᵟ$ \\
-\textsubscript{ε} & — & $_{ε}$ & $—$ & \textsuperscript{ε} & ᵋ & $^{ε}$ & $ᵋ$ \\
-\textsubscript{θ} & — & $_{θ}$ & $—$ & \textsuperscript{θ} & ᶿ & $^{θ}$ & $ᶿ$ \\
-\textsubscript{ι} & — & $_{ι}$ & $—$ & \textsuperscript{ι} & ᶥ & $^{ι}$ & $ᶥ$ \\
-\textsubscript{υ} & — & $_{υ}$ & $—$ & \textsuperscript{υ} & ᶹ & $^{υ}$ & $ᶹ$ \\
-\textsubscript{φ} & ᵩ & $_{φ}$ & $ᵩ$ & \textsuperscript{φ} & ᵠ & $^{φ}$ & $ᵠ$ \\
-\textsubscript{χ} & ᵪ & $_{χ}$ & $ᵪ$ & \textsuperscript{χ} & ᵡ & $^{χ}$ & $ᵡ$ \\
-\textsubscript{ϱ} & ᵨ & $_{ϱ}$ & $ᵨ$ & \textsuperscript{ϱ} & — & $^{ϱ}$ & $—$ \\
+	& \multicolumn{4}{c|}{\textbf{math mode}} & \multicolumn{4}{|c}{\textbf{text mode}}
+\\ ref
+	& \multicolumn{2}{c}{sub} & \multicolumn{2}{c}{sup}
+	& \multicolumn{2}{c}{sub} & \multicolumn{2}{c}{sub}
+\\ \midrule
+\makerow*{a}[sub=ₐ, sup=ᵃ] \\
+\makerow*{b}[sub=-, sup=ᵇ] \\
+\makerow*{c}[sub=-, sup=ᶜ] \\
+\makerow*{d}[sub=-, sup=ᵈ] \\
+\makerow*{e}[sub=ₑ, sup=ᵉ] \\
+\makerow*{f}[sub=-, sup=ᶠ] \\
+\makerow*{g}[sub=-, sup=ᵍ] \\
+\makerow*{h}[sub=ₕ, sup=ʰ] \\
+\makerow*{i}[sub=ᵢ, sup=ⁱ] \\
+\makerow*{j}[sub=ⱼ, sup=ʲ] \\
+\makerow*{k}[sub=ₖ, sup=ᵏ] \\
+\makerow*{l}[sub=ₗ, sup=ˡ] \\
+\makerow*{m}[sub=ₘ, sup=ᵐ] \\
+\makerow*{n}[sub=ₙ, sup=ⁿ] \\
+\makerow*{o}[sub=ₒ, sup=ᵒ] \\
+\makerow*{p}[sub=ₚ, sup=ᵖ] \\
+\makerow*{q}[sub=-, sup=-] \\
+\makerow*{r}[sub=ᵣ, sup=ʳ] \\
+\makerow*{s}[sub=ₛ, sup=ˢ] \\
+\makerow*{t}[sub=ₜ, sup=ᵗ] \\
+\makerow*{u}[sub=ᵤ, sup=ᵘ] \\
+\makerow*{v}[sub=ᵥ, sup=ᵛ] \\
+\makerow*{w}[sub=-, sup=ʷ] \\
+\makerow*{x}[sub=ₓ, sup=ˣ] \\
+\makerow*{y}[sub=-, sup=ʸ] \\
+\makerow*{z}[sub=-, sup=ᶻ] \\ \midrule
+\makerow*{A}[sub=-, sup=ᴬ] \\
+\makerow*{B}[sub=-, sup=ᴮ] \\
+\makerow*{C}[sub=-, sup=-] \\
+\makerow*{D}[sub=-, sup=ᴰ] \\
+\makerow*{E}[sub=-, sup=ᴱ] \\
+\makerow*{F}[sub=-, sup=-] \\
+\makerow*{G}[sub=-, sup=ᴳ] \\
+\makerow*{H}[sub=-, sup=ᴴ] \\
+\makerow*{I}[sub=-, sup=ᴵ] \\
+\makerow*{J}[sub=-, sup=ᴶ] \\
+\makerow*{K}[sub=-, sup=ᴷ] \\
+\makerow*{L}[sub=-, sup=ᴸ] \\
+\makerow*{M}[sub=-, sup=ᴹ] \\
+\makerow*{N}[sub=-, sup=ᴺ] \\
+\makerow*{O}[sub=-, sup=ᴼ] \\
+\makerow*{P}[sub=-, sup=ᴾ] \\
+\makerow*{Q}[sub=-, sup=-] \\
+\makerow*{R}[sub=-, sup=ᴿ] \\
+\makerow*{S}[sub=-, sup=-] \\
+\makerow*{T}[sub=-, sup=ᵀ] \\
+\makerow*{U}[sub=-, sup=ᵁ] \\
+\makerow*{V}[sub=-, sup=ⱽ] \\
+\makerow*{W}[sub=-, sup=ᵂ] \\
+\makerow*{X}[sub=-, sup=-] \\
+\makerow*{Y}[sub=-, sup=-] \\
+\makerow*{Z}[sub=-, sup=-] \\ \midrule
+\makerow*{1}[sub=₁, sup=¹] \\
+\makerow*{2}[sub=₂, sup=²] \\
+\makerow*{3}[sub=₃, sup=³] \\
+\makerow*{4}[sub=₄, sup=⁴] \\
+\makerow*{5}[sub=₅, sup=⁵] \\
+\makerow*{6}[sub=₆, sup=⁶] \\
+\makerow*{7}[sub=₇, sup=⁷] \\
+\makerow*{8}[sub=₈, sup=⁸] \\
+\makerow*{9}[sub=₉, sup=⁹] \\
+\makerow*{0}[sub=₀, sup=⁰] \\ \midrule
+\makerow*{+}[sub=₊, sup=⁺] \\
+\makerow*{-}[sub=₋, sup=⁻] \\
+\makerow*{=}[sub=₌, sup=⁼] \\
+\makerow*{(}[sub=₍, sup=⁽] \\
+\makerow*{)}[sub=₎, sup=⁾] \\ \midrule
+\makerow*{α}[sub=-, sup=ᵅ] \\
+\makerow*{β}[sub=ᵦ, sup=ᵝ] \\
+\makerow*{γ}[sub=ᵧ, sup=ᵞ] \\
+\makerow*{δ}[sub=-, sup=ᵟ] \\
+\makerow*{ε}[sub=-, sup=ᵋ] \\
+\makerow*{θ}[sub=-, sup=ᶿ] \\
+\makerow*{ι}[sub=-, sup=ᶥ] \\
+\makerow*{υ}[sub=-, sup=ᶹ] \\
+\makerow*{φ}[sub=ᵩ, sup=ᵠ] \\
+\makerow*{χ}[sub=ᵪ, sup=ᵡ] \\
+\makerow*{ϱ}[sub=ᵨ, sup=-] \\
 \bottomrule
 \end{tabular}
 \end{document}
