@@ -1,0 +1,78 @@
+
+
+\DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
+\SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
+
+\newcommand{\TT}[1]{\ifmmode\mathtt{#1}\else\texttt{#1}\fi}
+\newcommand{\BB}[1]{\ifmmode\mathbbm{#1}\else#1\fi}
+\newcommand{\SCR}[1]{\ifmmode\mathscr{#1}\else#1\fi}
+\newcommand{\CAL}[1]{\ifmmode\mathcal{#1}\else#1\fi}
+\newcommand{\FRAK}[1]{\ifmmode\mathfrak{#1}\else#1\fi}
+\newcommand{\BFRAK}[1]{\ifmmode\boldsymbol{\mathfrak{#1}}\else#1\fi}
+\newcommand{\CIRC}[1]{\ifmmode\circled{#1}\else\circled{#1}\fi}
+\newcommand{\NORMAL}[1]{\ifmmode\mathnormal{#1}\else\textnormal{#1}\fi}
+% serif
+\newcommand{\RM}[1]{\ifmmode\mathrm{#1}\else\textrm{#1}\fi}
+\newcommand{\BF}[1]{\ifmmode\boldsymbol{#1}\else\textbf{#1}\fi}
+\newcommand{\IT}[1]{\ifmmode\mathit{#1}\else\textit{#1}\fi}
+\newcommand{\BI}[1]{\ifmmode\boldsymbol{\mathit{#1}}\else\textbf{\textit{#1}}\fi}
+% sans
+\newcommand{\SF}[1]{\ifmmode\mathsf{#1}\else\textsf{#1}\fi}
+\newcommand{\BSF}[1]{\ifmmode\boldsymbol{\mathsf{#1}}\else\textbf{\textsf{#1}}\fi}
+\newcommand{\ISF}[1]{\ifmmode\mathsfit{#1}\else\textit{\textsf{#1}}\fi}
+\newcommand{\BISF}[1]{\ifmmode\bm{\mathsfit{#1}}\else\textbf{\textsf{\textit{#1}}}\fi}
+
+
+\RequirePackage{pgfkeys}
+\pgfkeys{
+/makerow/.is family, /makerow,
+% here we define the default values
+default/.style={
+	% serif
+	rm=\relax,
+	bf=\relax,
+	it=\relax,
+	bi=\relax,
+	% sans
+	sf=\relax,
+	bsf=\relax,
+	isf=\relax,
+	bisf=\relax,
+	% scriptur
+	scr=\relax,
+	cal=\relax,
+	% fraktur
+	frak=\relax,
+	bfrak=\relax
+	% misc
+	tt=\relax,
+	bb=\relax,
+	circ=\relax,
+	% roman
+	roman=\relax,
+	Roman=\relax
+},
+	% serif
+rm/.code={\gdef\rowRM{#1}},
+bf/.code={\gdef\rowBF{#1}},
+it/.code={\gdef\rowIT{#1}},
+bi/.code={\gdef\rowBI{#1}},
+% sans
+sf/.code={\gdef\rowSF{#1}},
+bsf/.code={\gdef\rowBSF{#1}},
+isf/.code={\gdef\rowISF{#1}},
+bisf/.code={\gdef\rowBISF{#1}},
+% fraktur
+frak/.code={\gdef\rowFRAK{#1}},
+bfrak/.code={\gdef\rowBFRAK{#1}},
+% scriptur
+scr/.code={\gdef\rowSCR{#1}},
+cal/.code={\gdef\rowCAL{#1}},
+% misc
+tt/.code={\gdef\rowTT{#1}},
+bb/.code={\gdef\rowBB{#1}},
+circ/.code={\gdef\rowCIRC{#1}},
+% roman
+roman/.code={\gdef\rowRoman{#1}},
+Roman/.code={\gdef\rowROMAN{#1}},
+}

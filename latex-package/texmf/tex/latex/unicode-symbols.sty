@@ -34,7 +34,7 @@
 % Subjectively, \mathds is the most visually pleasing. However, it only covers capital latin letters.
 % Since this is the most important use case, we use \mathds with \mathbbm fallback.
 %
-% endregion notes ---------------------------------------------------------------------
+% endregion notes ----------------------------------------------------------------------
 
 
 
@@ -137,61 +137,67 @@
 	% stix's \mathcal is ugly, and we do not need all symbols,
 	% REF: https://tex.stackexchange.com/a/318144/119955
 	% REF: https://tex.stackexchange.com/a/14406/119955 (using symbol without wasting alphabets)
-	\DeclareFontEncoding{LS1}{}{}
-	\DeclareFontEncoding{LS2}{}{\noaccents@}
-	\DeclareFontSubstitution{LS1}{stix2}{m}{n}
-	\DeclareFontSubstitution{LS2}{stix2}{m}{n}
+	% \DeclareFontEncoding{LS1}{}{}
+	% \DeclareFontEncoding{LS2}{}{\noaccents@}
+	% \DeclareFontSubstitution{LS1}{stix2}{m}{n}
+	% \DeclareFontSubstitution{LS2}{stix2}{m}{n}
 	% \DeclareSymbolFont{stix2@letters}       {LS1}{stix2}     {m}{it}
-	\DeclareSymbolFont{stix2@operators}     {LS1}{stix2}     {m} {n}
+	% \DeclareSymbolFont{stix2@operators}     {LS1}{stix2}     {m} {n}
 	% \DeclareSymbolFont{stix2@bold-operators}{LS1}{stix2}     {b} {n}
 	% \DeclareSymbolFont{stix2@symbols}       {LS1}{stix2scr}  {m} {n}
-	\DeclareSymbolFont{stix2@symbols2}      {LS1}{stix2frak} {m} {n}
-	\DeclareSymbolFont{stix2@symbols3}      {LS1}{stix2bb}   {m} {n}
-	\DeclareSymbolFont{stix2@symbols4}      {LS1}{stix2bb}   {m}{it}
-	\DeclareSymbolFont{stix2@integrals}     {LS2}{stix2cal}  {m} {n}
-	\DeclareSymbolFont{stix2@largesymbols}  {LS2}{stix2ex}   {m} {n}
-	\DeclareSymbolFont{stix2@arrows1}       {LS1}{stix2sf}   {m} {n}
-	\DeclareSymbolFont{stix2@arrows2}       {LS1}{stix2sf}   {m}{it}
-	\DeclareSymbolFont{stix2@arrows3}       {LS2}{stix2tt}   {m} {n}
-	\SetSymbolFont{stix2@letters}     {bold}{LS1}{stix2}     {b}{it}
-	\SetSymbolFont{stix2@operators}   {bold}{LS1}{stix2}     {b} {n}
-	\SetSymbolFont{stix2@symbols}     {bold}{LS1}{stix2scr}  {b} {n}
-	\SetSymbolFont{stix2@symbols2}    {bold}{LS1}{stix2frak} {b}{n}
-	\SetSymbolFont{stix2@symbols3}    {bold}{LS1}{stix2bb}   {b} {n}
-	\SetSymbolFont{stix2@symbols4}    {bold}{LS1}{stix2bb}   {b}{it}
-	\SetSymbolFont{stix2@integrals}   {bold}{LS2}{stix2cal}  {b} {n}
-	\SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}   {b} {n}
-	\SetSymbolFont{stix2@arrows1}     {bold}{LS1}{stix2sf}   {b} {n}
-	\SetSymbolFont{stix2@arrows2}     {bold}{LS1}{stix2sf}   {b}{it}
-	\SetSymbolFont{stix2@arrows3}     {bold}{LS2}{stix2tt}   {b} {n}
+	% \DeclareSymbolFont{stix2@symbols2}      {LS1}{stix2frak} {m} {n}
+	% \DeclareSymbolFont{stix2@symbols3}      {LS1}{stix2bb}   {m} {n}
+	% \DeclareSymbolFont{stix2@symbols4}      {LS1}{stix2bb}   {m}{it}
+	% \DeclareSymbolFont{stix2@integrals}     {LS2}{stix2cal}  {m} {n}
+	% \DeclareSymbolFont{stix2@largesymbols}  {LS2}{stix2ex}   {m} {n}
+	% \DeclareSymbolFont{stix2@arrows1}       {LS1}{stix2sf}   {m} {n}
+	% \DeclareSymbolFont{stix2@arrows2}       {LS1}{stix2sf}   {m}{it}
+	% \DeclareSymbolFont{stix2@arrows3}       {LS2}{stix2tt}   {m} {n}
+	% \SetSymbolFont{stix2@letters}     {bold}{LS1}{stix2}     {b}{it}
+	% \SetSymbolFont{stix2@operators}   {bold}{LS1}{stix2}     {b} {n}
+	% \SetSymbolFont{stix2@symbols}     {bold}{LS1}{stix2scr}  {b} {n}
+	% \SetSymbolFont{stix2@symbols2}    {bold}{LS1}{stix2frak} {b}{n}
+	% \SetSymbolFont{stix2@symbols3}    {bold}{LS1}{stix2bb}   {b} {n}
+	% \SetSymbolFont{stix2@symbols4}    {bold}{LS1}{stix2bb}   {b}{it}
+	% \SetSymbolFont{stix2@integrals}   {bold}{LS2}{stix2cal}  {b} {n}
+	% \SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}   {b} {n}
+	% \SetSymbolFont{stix2@arrows1}     {bold}{LS1}{stix2sf}   {b} {n}
+	% \SetSymbolFont{stix2@arrows2}     {bold}{LS1}{stix2sf}   {b}{it}
+	% \SetSymbolFont{stix2@arrows3}     {bold}{LS2}{stix2tt}   {b} {n}
 
 	% \SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}{b}{n}
 
-	\DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
-	\DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
-	\DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
-	\DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
-	\DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
-	\DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
-	\DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
-	\DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
-	\DeclareMathSymbol{\increment}            {\mathord}{operators}{"CA}
-	\DeclareMathSymbol{\leftsquigarrow}       {\mathrel}{arrows1}{"E3}
-	\DeclareMathSymbol{\nLeftarrow}           {\mathrel}{arrows1}{"D4}
-	\DeclareMathSymbol{\nLeftrightarrow}      {\mathrel}{arrows1}{"D5}
-	\DeclareMathSymbol{\nRightarrow}          {\mathrel}{arrows1}{"D6}
-	\DeclareMathSymbol{\downzigzagarrow}      {\mathrel}{arrows1}{"B6}
-	\DeclareMathSymbol{\longleftsquigarrow}   {\mathrel}{arrows2}{"2B}
-	\DeclareMathSymbol{\longrightsquigarrow}  {\mathrel}{arrows3}{"0C}
-	\DeclareMathSymbol{\doubleplus}           {\mathbin}{symbols2}{"E7}
-	\DeclareMathSymbol{\Vbar}                 {\mathrel}{symbols4}{"B9}
-	\DeclareMathSymbol{\wedgeq}               {\mathrel}{integrals}{"8A}
-	\DeclareMathSymbol{\eqdef}                {\mathrel}{integrals}{"8E}
-	\DeclareMathSymbol{\triangleq}            {\mathrel}{integrals}{"8D}
-	\DeclareMathSymbol{\questeq}              {\mathrel}{integrals}{"90}
+	% \DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
+	% \DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
+	% \DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
+	% \DeclareMathDelimiter{\rBrace}{\mathclose}{stix@largesymbols}{"E9}{stix@largesymbols}{"0F}
+	% \DeclareMathDelimiter{\lParen}{\mathopen} {stix@largesymbols}{"DE}{stix@largesymbols}{"02}
+	% \DeclareMathDelimiter{\rParen}{\mathclose}{stix@largesymbols}{"DF}{stix@largesymbols}{"03}
+	% \DeclareMathDelimiter{\lAngle}{\mathopen} {stix@largesymbols}{"EC}{stix@largesymbols}{"12}
+	% \DeclareMathDelimiter{\rAngle}{\mathclose}{stix@largesymbols}{"ED}{stix@largesymbols}{"13}
+	% \DeclareMathSymbol{\increment}            {\mathord}{operators}{"CA}
+	% \DeclareMathSymbol{\leftsquigarrow}       {\mathrel}{arrows1}{"E3}
+	% \DeclareMathSymbol{\nLeftarrow}           {\mathrel}{arrows1}{"D4}
+	% \DeclareMathSymbol{\nLeftrightarrow}      {\mathrel}{arrows1}{"D5}
+	% \DeclareMathSymbol{\nRightarrow}          {\mathrel}{arrows1}{"D6}
+	% \DeclareMathSymbol{\downzigzagarrow}      {\mathrel}{arrows1}{"B6}
+	% \DeclareMathSymbol{\longleftsquigarrow}   {\mathrel}{arrows2}{"2B}
+	% \DeclareMathSymbol{\longrightsquigarrow}  {\mathrel}{arrows3}{"0C}
+	% \DeclareMathSymbol{\doubleplus}           {\mathbin}{symbols2}{"E7}
+	% \DeclareMathSymbol{\Vbar}                 {\mathrel}{symbols4}{"B9}
+	% \DeclareMathSymbol{\wedgeq}               {\mathrel}{integrals}{"8A}
+	% \DeclareMathSymbol{\eqdef}                {\mathrel}{integrals}{"8E}
+	% \DeclareMathSymbol{\triangleq}            {\mathrel}{integrals}{"8D}
+	% \DeclareMathSymbol{\questeq}              {\mathrel}{integrals}{"90}
 
 }
 % endregion import missing symbols -----------------------------------------------------
+
+
+% region modifiers ---------------------------------------------------------------------
+\newcommand{\unicode@frak}[1]{\ensuremath{\mathfrak{#1}}}
+\newcommand{\unicode@bfrak}[1]{\ensuremath{\boldsymbol{\mathfrak{#1}}}}
+% endregion modifiers ------------------------------------------------------------------
 
 
 % region aliases -----------------------------------------------------------------------
@@ -301,19 +307,19 @@
 
 % region greek macros ------------------------------------------------------------------
 % region greek uppercase macros --------------------------------------------------------
-\newcommand{\Alpha}  {\rm{A}}
-\newcommand{\Beta}   {\rm{B}}
-\newcommand{\Epsilon}{\rm{E}}
-\newcommand{\Zeta}   {\rm{Z}}
-\newcommand{\Eta}    {\rm{H}}
-\newcommand{\Iota}   {\rm{I}}
-\newcommand{\Kappa}  {\rm{K}}
-\newcommand{\Mu}     {\rm{M}}
-\newcommand{\Nu}     {\rm{N}}
-\newcommand{\Omicron}{\rm{O}}
-\newcommand{\Rho}    {\rm{P}}
-\newcommand{\Tau}    {\rm{T}}
-\newcommand{\Chi}    {\rm{X}}
+\newcommand{\Alpha}  {A}
+\newcommand{\Beta}   {B}
+\newcommand{\Epsilon}{E}
+\newcommand{\Zeta}   {Z}
+\newcommand{\Eta}    {H}
+\newcommand{\Iota}   {I}
+\newcommand{\Kappa}  {K}
+\newcommand{\Mu}     {M}
+\newcommand{\Nu}     {N}
+\newcommand{\Omicron}{O}
+\newcommand{\Rho}    {P}
+\newcommand{\Tau}    {T}
+\newcommand{\Chi}    {X}
 \newcommand{\Heta}   {\Eta}
 % endregion greek uppercase macros -----------------------------------------------------
 
@@ -716,16 +722,14 @@
 
 
 % region calulus -----------------------------------------------------------------------
-\newunicodechar{∂}{\partial}
-\newunicodechar{∇}{\nabla}
-\newunicodechar{∆}{\increment}
-\newunicodechar{∫}{\int}
-\newunicodechar{∬}{\iint}
-\newunicodechar{∭}{\iiint}
-\newunicodechar{⨌}{\iiiint}
-\newunicodechar{∮}{\oint}
-\newunicodechar{∯}{\oiint}
-\newunicodechar{∰}{\oiiint}
+\newunicodechar{∆}{\increment}% U+2206 Increment
+\newunicodechar{∫}{\int}% U+222B Integral
+\newunicodechar{∬}{\iint}% U+222C Double Integral
+\newunicodechar{∭}{\iiint}% U+222D Triple Integral
+\newunicodechar{⨌}{\iiiint}% U+2A0C Quadruple Integral
+\newunicodechar{∮}{\oint}% U+222E Contour Integral
+\newunicodechar{∯}{\oiint}% U+222F Surface Integral
+\newunicodechar{∰}{\oiiint}% U+2230 Volume Integral
 % endregion calculus -------------------------------------------------------------------
 
 
@@ -798,6 +802,11 @@
 \newunicodechar{ϱ}{\ensuremath{\varrho}}
 \newunicodechar{ϖ}{\ensuremath{\varpi}}
 % endregion greek variants -------------------------------------------------------------
+
+% region greek special -----------------------------------------------------------------
+\newunicodechar{∂}{\ensuremath{\partial}}% U+2202 Partial Differential
+\newunicodechar{∇}{\ensuremath{\nabla}}% U+2207 Nabla
+% endregion greek special --------------------------------------------------------------
 % endregion greek ----------------------------------------------------------------------
 
 % region hebrew ------------------------------------------------------------------------
@@ -1091,6 +1100,7 @@
 % endregion bold lowercase greek -------------------------------------------------------
 
 % region bold greek variants -----------------------------------------------------------
+\newunicodechar{𝚹}{\ensuremath{\boldsymbol{\varTheta}}}
 \newunicodechar{𝛆}{\ensuremath{\boldsymbol{\varepsilon}}}
 \newunicodechar{𝛞}{\ensuremath{\boldsymbol{\varkappa}}}
 \newunicodechar{𝛗}{\ensuremath{\boldsymbol{\varphi}}}
@@ -1234,6 +1244,7 @@
 % endregion italic lowercase greek -----------------------------------------------------
 
 % region italic greek variants ---------------------------------------------------------
+\newunicodechar{𝛳}{\ensuremath{\mathit{\varTheta}}}
 \newunicodechar{𝜀}{\ensuremath{\mathit{\varepsilon}}}
 \newunicodechar{𝜘}{\ensuremath{\mathit{\varkappa}}}
 \newunicodechar{𝜑}{\ensuremath{\mathit{\varphi}}}
@@ -1364,6 +1375,7 @@
 % endregion bold italic lowercase greek ------------------------------------------------
 
 % region bold italic greek variants ----------------------------------------------------
+\newunicodechar{𝜭}{\ensuremath{\boldsymbol{\mathit{\varTheta}}}}
 \newunicodechar{𝜺}{\ensuremath{\boldsymbol{\mathit{\varepsilon}}}}
 \newunicodechar{𝝒}{\ensuremath{\boldsymbol{\mathit{\varkappa}}}}
 \newunicodechar{𝝋}{\ensuremath{\boldsymbol{\mathit{\varphi}}}}
@@ -1975,61 +1987,61 @@
 % \bfrak<char>
 % region bold fraktur characters (\bfrak<char>) ----------------------------------------
 % region bold fraktur uppercase latin --------------------------------------------------
-\newunicodechar{𝕬}{\enusremath{\boldsymbol{\mathfrak{A}}}}  % U+1D56C Mathematical Bold Fraktur Capital A
-\newunicodechar{𝕭}{\enusremath{\boldsymbol{\mathfrak{B}}}}  % U+1D56D Mathematical Bold Fraktur Capital B
-\newunicodechar{𝕮}{\enusremath{\boldsymbol{\mathfrak{C}}}}  % U+1D56E Mathematical Bold Fraktur Capital C
-\newunicodechar{𝕯}{\enusremath{\boldsymbol{\mathfrak{D}}}}  % U+1D56F Mathematical Bold Fraktur Capital D
-\newunicodechar{𝕰}{\enusremath{\boldsymbol{\mathfrak{E}}}}  % U+1D570 Mathematical Bold Fraktur Capital E
-\newunicodechar{𝕱}{\enusremath{\boldsymbol{\mathfrak{F}}}}  % U+1D571 Mathematical Bold Fraktur Capital F
-\newunicodechar{𝕲}{\enusremath{\boldsymbol{\mathfrak{G}}}}  % U+1D572 Mathematical Bold Fraktur Capital G
-\newunicodechar{𝕳}{\enusremath{\boldsymbol{\mathfrak{H}}}}  % U+1D573 Mathematical Bold Fraktur Capital H
-\newunicodechar{𝕴}{\enusremath{\boldsymbol{\mathfrak{I}}}}  % U+1D574 Mathematical Bold Fraktur Capital I
-\newunicodechar{𝕵}{\enusremath{\boldsymbol{\mathfrak{J}}}}  % U+1D575 Mathematical Bold Fraktur Capital J
-\newunicodechar{𝕶}{\enusremath{\boldsymbol{\mathfrak{K}}}}  % U+1D576 Mathematical Bold Fraktur Capital K
-\newunicodechar{𝕷}{\enusremath{\boldsymbol{\mathfrak{L}}}}  % U+1D577 Mathematical Bold Fraktur Capital L
-\newunicodechar{𝕸}{\enusremath{\boldsymbol{\mathfrak{M}}}}  % U+1D578 Mathematical Bold Fraktur Capital M
-\newunicodechar{𝕹}{\enusremath{\boldsymbol{\mathfrak{N}}}}  % U+1D579 Mathematical Bold Fraktur Capital N
-\newunicodechar{𝕺}{\enusremath{\boldsymbol{\mathfrak{O}}}}  % U+1D57A Mathematical Bold Fraktur Capital O
-\newunicodechar{𝕻}{\enusremath{\boldsymbol{\mathfrak{P}}}}  % U+1D57B Mathematical Bold Fraktur Capital P
-\newunicodechar{𝕼}{\enusremath{\boldsymbol{\mathfrak{Q}}}}  % U+1D57C Mathematical Bold Fraktur Capital Q
-\newunicodechar{𝕽}{\enusremath{\boldsymbol{\mathfrak{R}}}}  % U+1D57D Mathematical Bold Fraktur Capital R
-\newunicodechar{𝕾}{\enusremath{\boldsymbol{\mathfrak{S}}}}  % U+1D57E Mathematical Bold Fraktur Capital S
-\newunicodechar{𝕿}{\enusremath{\boldsymbol{\mathfrak{T}}}}  % U+1D57F Mathematical Bold Fraktur Capital T
-\newunicodechar{𝖀}{\enusremath{\boldsymbol{\mathfrak{U}}}}  % U+1D580 Mathematical Bold Fraktur Capital U
-\newunicodechar{𝖁}{\enusremath{\boldsymbol{\mathfrak{V}}}}  % U+1D581 Mathematical Bold Fraktur Capital V
-\newunicodechar{𝖂}{\enusremath{\boldsymbol{\mathfrak{W}}}}  % U+1D582 Mathematical Bold Fraktur Capital W
-\newunicodechar{𝖃}{\enusremath{\boldsymbol{\mathfrak{X}}}}  % U+1D583 Mathematical Bold Fraktur Capital X
-\newunicodechar{𝖄}{\enusremath{\boldsymbol{\mathfrak{Y}}}}  % U+1D584 Mathematical Bold Fraktur Capital Y
-\newunicodechar{𝖅}{\enusremath{\boldsymbol{\mathfrak{Z}}}}  % U+1D585 Mathematical Bold Fraktur Capital Z
+\newunicodechar{𝕬}{\unicode@bfrak{A}}  % U+1D56C Mathematical Bold Fraktur Capital A
+\newunicodechar{𝕭}{\unicode@bfrak{B}}  % U+1D56D Mathematical Bold Fraktur Capital B
+\newunicodechar{𝕮}{\unicode@bfrak{C}}  % U+1D56E Mathematical Bold Fraktur Capital C
+\newunicodechar{𝕯}{\unicode@bfrak{D}}  % U+1D56F Mathematical Bold Fraktur Capital D
+\newunicodechar{𝕰}{\unicode@bfrak{E}}  % U+1D570 Mathematical Bold Fraktur Capital E
+\newunicodechar{𝕱}{\unicode@bfrak{F}}  % U+1D571 Mathematical Bold Fraktur Capital F
+\newunicodechar{𝕲}{\unicode@bfrak{G}}  % U+1D572 Mathematical Bold Fraktur Capital G
+\newunicodechar{𝕳}{\unicode@bfrak{H}}  % U+1D573 Mathematical Bold Fraktur Capital H
+\newunicodechar{𝕴}{\unicode@bfrak{I}}  % U+1D574 Mathematical Bold Fraktur Capital I
+\newunicodechar{𝕵}{\unicode@bfrak{J}}  % U+1D575 Mathematical Bold Fraktur Capital J
+\newunicodechar{𝕶}{\unicode@bfrak{K}}  % U+1D576 Mathematical Bold Fraktur Capital K
+\newunicodechar{𝕷}{\unicode@bfrak{L}}  % U+1D577 Mathematical Bold Fraktur Capital L
+\newunicodechar{𝕸}{\unicode@bfrak{M}}  % U+1D578 Mathematical Bold Fraktur Capital M
+\newunicodechar{𝕹}{\unicode@bfrak{N}}  % U+1D579 Mathematical Bold Fraktur Capital N
+\newunicodechar{𝕺}{\unicode@bfrak{O}}  % U+1D57A Mathematical Bold Fraktur Capital O
+\newunicodechar{𝕻}{\unicode@bfrak{P}}  % U+1D57B Mathematical Bold Fraktur Capital P
+\newunicodechar{𝕼}{\unicode@bfrak{Q}}  % U+1D57C Mathematical Bold Fraktur Capital Q
+\newunicodechar{𝕽}{\unicode@bfrak{R}}  % U+1D57D Mathematical Bold Fraktur Capital R
+\newunicodechar{𝕾}{\unicode@bfrak{S}}  % U+1D57E Mathematical Bold Fraktur Capital S
+\newunicodechar{𝕿}{\unicode@bfrak{T}}  % U+1D57F Mathematical Bold Fraktur Capital T
+\newunicodechar{𝖀}{\unicode@bfrak{U}}  % U+1D580 Mathematical Bold Fraktur Capital U
+\newunicodechar{𝖁}{\unicode@bfrak{V}}  % U+1D581 Mathematical Bold Fraktur Capital V
+\newunicodechar{𝖂}{\unicode@bfrak{W}}  % U+1D582 Mathematical Bold Fraktur Capital W
+\newunicodechar{𝖃}{\unicode@bfrak{X}}  % U+1D583 Mathematical Bold Fraktur Capital X
+\newunicodechar{𝖄}{\unicode@bfrak{Y}}  % U+1D584 Mathematical Bold Fraktur Capital Y
+\newunicodechar{𝖅}{\unicode@bfrak{Z}}  % U+1D585 Mathematical Bold Fraktur Capital Z
 % endregion bold fraktur uppercase latin -----------------------------------------------
 
 % region bold fraktur lowercase latin --------------------------------------------------
-\newunicodechar{𝖆}{\enusremath{\boldsymbol{\mathfrak{a}}}}  % U+1D586 Mathematical Bold Fraktur Small A
-\newunicodechar{𝖇}{\enusremath{\boldsymbol{\mathfrak{b}}}}  % U+1D587 Mathematical Bold Fraktur Small B
-\newunicodechar{𝖈}{\enusremath{\boldsymbol{\mathfrak{c}}}}  % U+1D588 Mathematical Bold Fraktur Small C
-\newunicodechar{𝖉}{\enusremath{\boldsymbol{\mathfrak{d}}}}  % U+1D589 Mathematical Bold Fraktur Small D
-\newunicodechar{𝖊}{\enusremath{\boldsymbol{\mathfrak{e}}}}  % U+1D58A Mathematical Bold Fraktur Small E
-\newunicodechar{𝖋}{\enusremath{\boldsymbol{\mathfrak{f}}}}  % U+1D58B Mathematical Bold Fraktur Small F
-\newunicodechar{𝖌}{\enusremath{\boldsymbol{\mathfrak{g}}}}  % U+1D58C Mathematical Bold Fraktur Small G
-\newunicodechar{𝖍}{\enusremath{\boldsymbol{\mathfrak{h}}}}  % U+1D58D Mathematical Bold Fraktur Small H
-\newunicodechar{𝖎}{\enusremath{\boldsymbol{\mathfrak{i}}}}  % U+1D58E Mathematical Bold Fraktur Small I
-\newunicodechar{𝖏}{\enusremath{\boldsymbol{\mathfrak{j}}}}  % U+1D58F Mathematical Bold Fraktur Small J
-\newunicodechar{𝖐}{\enusremath{\boldsymbol{\mathfrak{k}}}}  % U+1D590 Mathematical Bold Fraktur Small K
-\newunicodechar{𝖑}{\enusremath{\boldsymbol{\mathfrak{l}}}}  % U+1D591 Mathematical Bold Fraktur Small L
-\newunicodechar{𝖒}{\enusremath{\boldsymbol{\mathfrak{m}}}}  % U+1D592 Mathematical Bold Fraktur Small M
-\newunicodechar{𝖓}{\enusremath{\boldsymbol{\mathfrak{n}}}}  % U+1D593 Mathematical Bold Fraktur Small N
-\newunicodechar{𝖔}{\enusremath{\boldsymbol{\mathfrak{o}}}}  % U+1D594 Mathematical Bold Fraktur Small O
-\newunicodechar{𝖕}{\enusremath{\boldsymbol{\mathfrak{p}}}}  % U+1D595 Mathematical Bold Fraktur Small P
-\newunicodechar{𝖖}{\enusremath{\boldsymbol{\mathfrak{q}}}}  % U+1D596 Mathematical Bold Fraktur Small Q
-\newunicodechar{𝖗}{\enusremath{\boldsymbol{\mathfrak{r}}}}  % U+1D597 Mathematical Bold Fraktur Small R
-\newunicodechar{𝖘}{\enusremath{\boldsymbol{\mathfrak{s}}}}  % U+1D598 Mathematical Bold Fraktur Small S
-\newunicodechar{𝖙}{\enusremath{\boldsymbol{\mathfrak{t}}}}  % U+1D599 Mathematical Bold Fraktur Small T
-\newunicodechar{𝖚}{\enusremath{\boldsymbol{\mathfrak{u}}}}  % U+1D59A Mathematical Bold Fraktur Small U
-\newunicodechar{𝖛}{\enusremath{\boldsymbol{\mathfrak{v}}}}  % U+1D59B Mathematical Bold Fraktur Small V
-\newunicodechar{𝖜}{\enusremath{\boldsymbol{\mathfrak{w}}}}  % U+1D59C Mathematical Bold Fraktur Small W
-\newunicodechar{𝖝}{\enusremath{\boldsymbol{\mathfrak{x}}}}  % U+1D59D Mathematical Bold Fraktur Small X
-\newunicodechar{𝖞}{\enusremath{\boldsymbol{\mathfrak{y}}}}  % U+1D59E Mathematical Bold Fraktur Small Y
-\newunicodechar{𝖟}{\enusremath{\boldsymbol{\mathfrak{z}}}}  % U+1D59F Mathematical Bold Fraktur Small Z
+\newunicodechar{𝖆}{\unicode@bfrak{a}}  % U+1D586 Mathematical Bold Fraktur Small A
+\newunicodechar{𝖇}{\unicode@bfrak{b}}  % U+1D587 Mathematical Bold Fraktur Small B
+\newunicodechar{𝖈}{\unicode@bfrak{c}}  % U+1D588 Mathematical Bold Fraktur Small C
+\newunicodechar{𝖉}{\unicode@bfrak{d}}  % U+1D589 Mathematical Bold Fraktur Small D
+\newunicodechar{𝖊}{\unicode@bfrak{e}}  % U+1D58A Mathematical Bold Fraktur Small E
+\newunicodechar{𝖋}{\unicode@bfrak{f}}  % U+1D58B Mathematical Bold Fraktur Small F
+\newunicodechar{𝖌}{\unicode@bfrak{g}}  % U+1D58C Mathematical Bold Fraktur Small G
+\newunicodechar{𝖍}{\unicode@bfrak{h}}  % U+1D58D Mathematical Bold Fraktur Small H
+\newunicodechar{𝖎}{\unicode@bfrak{i}}  % U+1D58E Mathematical Bold Fraktur Small I
+\newunicodechar{𝖏}{\unicode@bfrak{j}}  % U+1D58F Mathematical Bold Fraktur Small J
+\newunicodechar{𝖐}{\unicode@bfrak{k}}  % U+1D590 Mathematical Bold Fraktur Small K
+\newunicodechar{𝖑}{\unicode@bfrak{l}}  % U+1D591 Mathematical Bold Fraktur Small L
+\newunicodechar{𝖒}{\unicode@bfrak{m}}  % U+1D592 Mathematical Bold Fraktur Small M
+\newunicodechar{𝖓}{\unicode@bfrak{n}}  % U+1D593 Mathematical Bold Fraktur Small N
+\newunicodechar{𝖔}{\unicode@bfrak{o}}  % U+1D594 Mathematical Bold Fraktur Small O
+\newunicodechar{𝖕}{\unicode@bfrak{p}}  % U+1D595 Mathematical Bold Fraktur Small P
+\newunicodechar{𝖖}{\unicode@bfrak{q}}  % U+1D596 Mathematical Bold Fraktur Small Q
+\newunicodechar{𝖗}{\unicode@bfrak{r}}  % U+1D597 Mathematical Bold Fraktur Small R
+\newunicodechar{𝖘}{\unicode@bfrak{s}}  % U+1D598 Mathematical Bold Fraktur Small S
+\newunicodechar{𝖙}{\unicode@bfrak{t}}  % U+1D599 Mathematical Bold Fraktur Small T
+\newunicodechar{𝖚}{\unicode@bfrak{u}}  % U+1D59A Mathematical Bold Fraktur Small U
+\newunicodechar{𝖛}{\unicode@bfrak{v}}  % U+1D59B Mathematical Bold Fraktur Small V
+\newunicodechar{𝖜}{\unicode@bfrak{w}}  % U+1D59C Mathematical Bold Fraktur Small W
+\newunicodechar{𝖝}{\unicode@bfrak{x}}  % U+1D59D Mathematical Bold Fraktur Small X
+\newunicodechar{𝖞}{\unicode@bfrak{y}}  % U+1D59E Mathematical Bold Fraktur Small Y
+\newunicodechar{𝖟}{\unicode@bfrak{z}}  % U+1D59F Mathematical Bold Fraktur Small Z
 % endregion bold fraktur lowercase latin -----------------------------------------------
 % endregion bold fraktur characters (\bfrak<char>) -------------------------------------
 

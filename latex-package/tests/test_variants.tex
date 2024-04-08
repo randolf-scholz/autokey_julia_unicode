@@ -1,99 +1,105 @@
 % REF: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
 \documentclass[10pt]{standalone}
 \usepackage[verbose]{newunicodechar}
-\usepackage[nostix]{unicode-symbols}
+\usepackage[stix]{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
 
 
+\usepackage{test_setup}
 
 
-
-\DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
-\SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
-
-%\newcommand{\SANS}[1]{\ifmmode\mathsf{#1}\else\textsf{#1}\fi}
-%\newcommand{\BB}[1]{\ifmmode\boldsymbol{\mathsf{#1}}\else\textbf{\textsf{#1}}\fi}
-%\newcommand{\SCR}[1]{\ifmmode\mathsfit{#1}\else\textit{\textsf{#1}}\fi}
-%\newcommand{\CAL}[1]{\ifmmode\bm{\mathsfit{#1}}\else\textbf{\textsf{\textit{#1}}}\fi}
-\newcommand{\TT}[1]{\ifmmode\mathtt{#1}\else\texttt{#1}\fi}
-\newcommand{\BB}[1]{\ifmmode\mathbbm{#1}\else#1\fi}
-\newcommand{\SCR}[1]{\ifmmode\mathscr{#1}\else#1\fi}
-\newcommand{\CAL}[1]{\ifmmode\mathcal{#1}\else#1\fi}
-\newcommand{\FRAK}[1]{\ifmmode\mathfrak{#1}\else#1\fi}
-\newcommand{\BFRAK}[1]{\ifmmode\boldsymbol{\mathfrak{#1}}\else#1\fi}
+\NewDocumentCommand{\makerow}{s m O{}}{%
+\pgfkeys{/makerow, default, #3}% set defaults
+%
+	#2%
+	% math mode
+	& $\TT{#2}$    & $\rowTT$
+	& $\BB{#2}$    & $\rowBB$
+	& $\SCR{#2}$   & $\rowSCR$
+	& $\CAL{#2}$   & $\rowCAL$
+	& $\FRAK{#2}$  & $\rowFRAK$
+	& $\BFRAK{#2}$ & $\rowBFRAK$
+\IfBooleanT{#1}{% only add text if star.
+	& \TT{#2}    & \rowTT
+	& \BB{#2}    & \rowBB
+	& \SCR{#2}   & \rowSCR
+	& \CAL{#2}   & \rowCAL
+	& \FRAK{#2}  & \rowFRAK
+	& \BFRAK{#2} & \rowBFRAK
+}
+}
 
 \begin{document}
-\begin{tabular}{c|cc|cc|cc|cc|cc|cc|cc|cc}  % chktex 44
-\toprule
-&\multicolumn{4}{c|}{mono} & \multicolumn{4}{|c}{blackboard bold} & \multicolumn{4}{|c}{script} & \multicolumn{4}{|c}{bold script} \\
-ref&\multicolumn{2}{c|}{text} & \multicolumn{2}{|c|}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math}
-& \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} & \multicolumn{2}{|c|}{text} & \multicolumn{2}{|c}{math} \\
-\midrule% digits
-0 & \TT{0} & 𝟶 & $\TT{0}$ & $𝟶$ & \BB{0} & 𝟘 & $\BB{0}$ & $𝟘$ & \SCR{0} & — & $\SCR{0}$ & $—$ & \CAL{0} & — & $\CAL{0}$ & $—$ \\
-1 & \TT{1} & 𝟷 & $\TT{1}$ & $𝟷$ & \BB{1} & 𝟙 & $\BB{1}$ & $𝟙$ & \SCR{1} & — & $\SCR{1}$ & $—$ & \CAL{1} & — & $\CAL{1}$ & $—$ \\
-2 & \TT{2} & 𝟸 & $\TT{2}$ & $𝟸$ & \BB{2} & 𝟚 & $\BB{2}$ & $𝟚$ & \SCR{2} & — & $\SCR{2}$ & $—$ & \CAL{2} & — & $\CAL{2}$ & $—$ \\
-3 & \TT{3} & 𝟹 & $\TT{3}$ & $𝟹$ & \BB{3} & 𝟛 & $\BB{3}$ & $𝟛$ & \SCR{3} & — & $\SCR{3}$ & $—$ & \CAL{3} & — & $\CAL{3}$ & $—$ \\
-4 & \TT{4} & 𝟺 & $\TT{4}$ & $𝟺$ & \BB{4} & 𝟜 & $\BB{4}$ & $𝟜$ & \SCR{4} & — & $\SCR{4}$ & $—$ & \CAL{4} & — & $\CAL{4}$ & $—$ \\
-5 & \TT{5} & 𝟻 & $\TT{5}$ & $𝟻$ & \BB{5} & 𝟝 & $\BB{5}$ & $𝟝$ & \SCR{5} & — & $\SCR{5}$ & $—$ & \CAL{5} & — & $\CAL{5}$ & $—$ \\
-6 & \TT{6} & 𝟼 & $\TT{6}$ & $𝟼$ & \BB{6} & 𝟞 & $\BB{6}$ & $𝟞$ & \SCR{6} & — & $\SCR{6}$ & $—$ & \CAL{6} & — & $\CAL{6}$ & $—$ \\
-7 & \TT{7} & 𝟽 & $\TT{7}$ & $𝟽$ & \BB{7} & 𝟟 & $\BB{7}$ & $𝟟$ & \SCR{7} & — & $\SCR{7}$ & $—$ & \CAL{7} & — & $\CAL{7}$ & $—$ \\
-8 & \TT{8} & 𝟾 & $\TT{8}$ & $𝟾$ & \BB{8} & 𝟠 & $\BB{8}$ & $𝟠$ & \SCR{8} & — & $\SCR{8}$ & $—$ & \CAL{8} & — & $\CAL{8}$ & $—$ \\
-9 & \TT{9} & 𝟿 & $\TT{9}$ & $𝟿$ & \BB{9} & 𝟡 & $\BB{9}$ & $𝟡$ & \SCR{9} & — & $\SCR{9}$ & $—$ & \CAL{9} & — & $\CAL{9}$ & $—$ \\
+\begin{tabular}{c|cc cc cc cc cc cc|cc cc cc cc cc cc}  % chktex 44
+	& \multicolumn{12}{|c}{\textbf{math mode}} &  \multicolumn{12}{c|}{\textbf{text mode}} \\
+	& \multicolumn{2}{c}{tt} & \multicolumn{2}{c}{bb} & \multicolumn{2}{c}{scr} & \multicolumn{2}{c}{cal} & \multicolumn{2}{c}{frak} & \multicolumn{2}{c}{bfrak}
+		& \multicolumn{2}{c}{tt} & \multicolumn{2}{c}{bb} & \multicolumn{2}{c}{scr} & \multicolumn{2}{c}{cal} & \multicolumn{2}{c}{frak} & \multicolumn{2}{c}{bfrak}
+\\ \midrule% digits
+\makerow{0}[tt=𝟶, bb=𝟘] \\
+\makerow{0}[tt=𝟷, bb=𝟙] \\
+\makerow{0}[tt=𝟸, bb=𝟚] \\
+\makerow{0}[tt=𝟹, bb=𝟛] \\
+\makerow{0}[tt=𝟺, bb=𝟜] \\
+\makerow{0}[tt=𝟻, bb=𝟝] \\
+\makerow{0}[tt=𝟼, bb=𝟞] \\
+\makerow{0}[tt=𝟽, bb=𝟟] \\
+\makerow{0}[tt=𝟾, bb=𝟠] \\
+\makerow{0}[tt=𝟿, bb=𝟡] \\
 \midrule% latin capital
-A & \TT{A} & 𝙰 & $\TT{A}$ & $𝙰$ & \BB{A} & 𝔸 & $\BB{A}$ & $𝔸$ & \SCR{A} & 𝒜 & $\SCR{A}$ & $𝒜$ & \CAL{A} & 𝓐 & $\CAL{A}$ & $𝓐$ \\
-B & \TT{B} & 𝙱 & $\TT{B}$ & $𝙱$ & \BB{B} & 𝔹 & $\BB{B}$ & $𝔹$ & \SCR{B} & ℬ & $\SCR{B}$ & $ℬ$ & \CAL{B} & 𝓑 & $\CAL{B}$ & $𝓑$ \\
-C & \TT{C} & 𝙲 & $\TT{C}$ & $𝙲$ & \BB{C} & ℂ & $\BB{C}$ & $ℂ$ & \SCR{C} & 𝒞 & $\SCR{C}$ & $𝒞$ & \CAL{C} & 𝓒 & $\CAL{C}$ & $𝓒$ \\
-D & \TT{D} & 𝙳 & $\TT{D}$ & $𝙳$ & \BB{D} & 𝔻 & $\BB{D}$ & $𝔻$ & \SCR{D} & 𝒟 & $\SCR{D}$ & $𝒟$ & \CAL{D} & 𝓓 & $\CAL{D}$ & $𝓓$ \\
-E & \TT{E} & 𝙴 & $\TT{E}$ & $𝙴$ & \BB{E} & 𝔼 & $\BB{E}$ & $𝔼$ & \SCR{E} & ℰ & $\SCR{E}$ & $ℰ$ & \CAL{E} & 𝓔 & $\CAL{E}$ & $𝓔$ \\
-F & \TT{F} & 𝙵 & $\TT{F}$ & $𝙵$ & \BB{F} & 𝔽 & $\BB{F}$ & $𝔽$ & \SCR{F} & ℱ & $\SCR{F}$ & $ℱ$ & \CAL{F} & 𝓕 & $\CAL{F}$ & $𝓕$ \\
-G & \TT{G} & 𝙶 & $\TT{G}$ & $𝙶$ & \BB{G} & 𝔾 & $\BB{G}$ & $𝔾$ & \SCR{G} & 𝒢 & $\SCR{G}$ & $𝒢$ & \CAL{G} & 𝓖 & $\CAL{G}$ & $𝓖$ \\
-H & \TT{H} & 𝙷 & $\TT{H}$ & $𝙷$ & \BB{H} & ℍ & $\BB{H}$ & $ℍ$ & \SCR{H} & ℋ & $\SCR{H}$ & $ℋ$ & \CAL{H} & 𝓗 & $\CAL{H}$ & $𝓗$ \\
-I & \TT{I} & 𝙸 & $\TT{I}$ & $𝙸$ & \BB{I} & 𝕀 & $\BB{I}$ & $𝕀$ & \SCR{I} & ℐ & $\SCR{I}$ & $ℐ$ & \CAL{I} & 𝓘 & $\CAL{I}$ & $𝓘$ \\
-J & \TT{J} & 𝙹 & $\TT{J}$ & $𝙹$ & \BB{J} & 𝕁 & $\BB{J}$ & $𝕁$ & \SCR{J} & 𝒥 & $\SCR{J}$ & $𝒥$ & \CAL{J} & 𝓙 & $\CAL{J}$ & $𝓙$ \\
-K & \TT{K} & 𝙺 & $\TT{K}$ & $𝙺$ & \BB{K} & 𝕂 & $\BB{K}$ & $𝕂$ & \SCR{K} & 𝒦 & $\SCR{K}$ & $𝒦$ & \CAL{K} & 𝓚 & $\CAL{K}$ & $𝓚$ \\
-L & \TT{L} & 𝙻 & $\TT{L}$ & $𝙻$ & \BB{L} & 𝕃 & $\BB{L}$ & $𝕃$ & \SCR{L} & ℒ & $\SCR{L}$ & $ℒ$ & \CAL{L} & 𝓛 & $\CAL{L}$ & $𝓛$ \\
-M & \TT{M} & 𝙼 & $\TT{M}$ & $𝙼$ & \BB{M} & 𝕄 & $\BB{M}$ & $𝕄$ & \SCR{M} & ℳ & $\SCR{M}$ & $ℳ$ & \CAL{M} & 𝓜 & $\CAL{M}$ & $𝓜$ \\
-N & \TT{N} & 𝙽 & $\TT{N}$ & $𝙽$ & \BB{N} & ℕ & $\BB{N}$ & $ℕ$ & \SCR{N} & 𝒩 & $\SCR{N}$ & $𝒩$ & \CAL{N} & 𝓝 & $\CAL{N}$ & $𝓝$ \\
-O & \TT{O} & 𝙾 & $\TT{O}$ & $𝙾$ & \BB{O} & 𝕆 & $\BB{O}$ & $𝕆$ & \SCR{O} & 𝒪 & $\SCR{O}$ & $𝒪$ & \CAL{O} & 𝓞 & $\CAL{O}$ & $𝓞$ \\
-P & \TT{P} & 𝙿 & $\TT{P}$ & $𝙿$ & \BB{P} & ℙ & $\BB{P}$ & $ℙ$ & \SCR{P} & 𝒫 & $\SCR{P}$ & $𝒫$ & \CAL{P} & 𝓟 & $\CAL{P}$ & $𝓟$ \\
-Q & \TT{Q} & 𝚀 & $\TT{Q}$ & $𝚀$ & \BB{Q} & ℚ & $\BB{Q}$ & $ℚ$ & \SCR{Q} & 𝒬 & $\SCR{Q}$ & $𝒬$ & \CAL{Q} & 𝓠 & $\CAL{Q}$ & $𝓠$ \\
-R & \TT{R} & 𝚁 & $\TT{R}$ & $𝚁$ & \BB{R} & ℝ & $\BB{R}$ & $ℝ$ & \SCR{R} & ℛ & $\SCR{R}$ & $ℛ$ & \CAL{R} & 𝓡 & $\CAL{R}$ & $𝓡$ \\
-S & \TT{S} & 𝚂 & $\TT{S}$ & $𝚂$ & \BB{S} & 𝕊 & $\BB{S}$ & $𝕊$ & \SCR{S} & 𝒮 & $\SCR{S}$ & $𝒮$ & \CAL{S} & 𝓢 & $\CAL{S}$ & $𝓢$ \\
-T & \TT{T} & 𝚃 & $\TT{T}$ & $𝚃$ & \BB{T} & 𝕋 & $\BB{T}$ & $𝕋$ & \SCR{T} & 𝒯 & $\SCR{T}$ & $𝒯$ & \CAL{T} & 𝓣 & $\CAL{T}$ & $𝓣$ \\
-U & \TT{U} & 𝚄 & $\TT{U}$ & $𝚄$ & \BB{U} & 𝕌 & $\BB{U}$ & $𝕌$ & \SCR{U} & 𝒰 & $\SCR{U}$ & $𝒰$ & \CAL{U} & 𝓤 & $\CAL{U}$ & $𝓤$ \\
-V & \TT{V} & 𝚅 & $\TT{V}$ & $𝚅$ & \BB{V} & 𝕍 & $\BB{V}$ & $𝕍$ & \SCR{V} & 𝒱 & $\SCR{V}$ & $𝒱$ & \CAL{V} & 𝓥 & $\CAL{V}$ & $𝓥$ \\
-W & \TT{W} & 𝚆 & $\TT{W}$ & $𝚆$ & \BB{W} & 𝕎 & $\BB{W}$ & $𝕎$ & \SCR{W} & 𝒲 & $\SCR{W}$ & $𝒲$ & \CAL{W} & 𝓦 & $\CAL{W}$ & $𝓦$ \\
-X & \TT{X} & 𝚇 & $\TT{X}$ & $𝚇$ & \BB{X} & 𝕏 & $\BB{X}$ & $𝕏$ & \SCR{X} & 𝒳 & $\SCR{X}$ & $𝒳$ & \CAL{X} & 𝓧 & $\CAL{X}$ & $𝓧$ \\
-Y & \TT{Y} & 𝚈 & $\TT{Y}$ & $𝚈$ & \BB{Y} & 𝕐 & $\BB{Y}$ & $𝕐$ & \SCR{Y} & 𝒴 & $\SCR{Y}$ & $𝒴$ & \CAL{Y} & 𝓨 & $\CAL{Y}$ & $𝓨$ \\
-Z & \TT{Z} & 𝚉 & $\TT{Z}$ & $𝚉$ & \BB{Z} & ℤ & $\BB{Z}$ & $ℤ$ & \SCR{Z} & 𝒵 & $\SCR{Z}$ & $𝒵$ & \CAL{Z} & 𝓩 & $\CAL{Z}$ & $𝓩$ \\
-\midrule% latin lower
-a & \TT{a} & 𝚊 & $\TT{a}$ & $𝚊$ & \BB{a} & 𝕒 & $\BB{a}$ & $𝕒$ & \SCR{a} & 𝒶 & $\SCR{a}$ & $𝒶$ & \CAL{a} & 𝓪 & $\CAL{a}$ & $𝓪$ \\
-b & \TT{b} & 𝚋 & $\TT{b}$ & $𝚋$ & \BB{b} & 𝕓 & $\BB{b}$ & $𝕓$ & \SCR{b} & 𝒷 & $\SCR{b}$ & $𝒷$ & \CAL{b} & 𝓫 & $\CAL{b}$ & $𝓫$ \\
-c & \TT{c} & 𝚌 & $\TT{c}$ & $𝚌$ & \BB{c} & 𝕔 & $\BB{c}$ & $𝕔$ & \SCR{c} & 𝒸 & $\SCR{c}$ & $𝒸$ & \CAL{c} & 𝓬 & $\CAL{c}$ & $𝓬$ \\
-d & \TT{d} & 𝚍 & $\TT{d}$ & $𝚍$ & \BB{d} & 𝕕 & $\BB{d}$ & $𝕕$ & \SCR{d} & 𝒹 & $\SCR{d}$ & $𝒹$ & \CAL{d} & 𝓭 & $\CAL{d}$ & $𝓭$ \\
-e & \TT{e} & 𝚎 & $\TT{e}$ & $𝚎$ & \BB{e} & 𝕖 & $\BB{e}$ & $𝕖$ & \SCR{e} & ℯ & $\SCR{e}$ & $ℯ$ & \CAL{e} & 𝓮 & $\CAL{e}$ & $𝓮$ \\
-f & \TT{f} & 𝚏 & $\TT{f}$ & $𝚏$ & \BB{f} & 𝕗 & $\BB{f}$ & $𝕗$ & \SCR{f} & 𝒻 & $\SCR{f}$ & $𝒻$ & \CAL{f} & 𝓯 & $\CAL{f}$ & $𝓯$ \\
-g & \TT{g} & 𝚐 & $\TT{g}$ & $𝚐$ & \BB{g} & 𝕘 & $\BB{g}$ & $𝕘$ & \SCR{g} & ℊ & $\SCR{g}$ & $ℊ$ & \CAL{g} & 𝓰 & $\CAL{g}$ & $𝓰$ \\
-h & \TT{h} & 𝚑 & $\TT{h}$ & $𝚑$ & \BB{h} & 𝕙 & $\BB{h}$ & $𝕙$ & \SCR{h} & 𝒽 & $\SCR{h}$ & $𝒽$ & \CAL{h} & 𝓱 & $\CAL{h}$ & $𝓱$ \\
-i & \TT{i} & 𝚒 & $\TT{i}$ & $𝚒$ & \BB{i} & 𝕚 & $\BB{i}$ & $𝕚$ & \SCR{i} & 𝒾 & $\SCR{i}$ & $𝒾$ & \CAL{i} & 𝓲 & $\CAL{i}$ & $𝓲$ \\
-j & \TT{j} & 𝚓 & $\TT{j}$ & $𝚓$ & \BB{j} & 𝕛 & $\BB{j}$ & $𝕛$ & \SCR{j} & 𝒿 & $\SCR{j}$ & $𝒿$ & \CAL{j} & 𝓳 & $\CAL{j}$ & $𝓳$ \\
-k & \TT{k} & 𝚔 & $\TT{k}$ & $𝚔$ & \BB{k} & 𝕜 & $\BB{k}$ & $𝕜$ & \SCR{k} & 𝓀 & $\SCR{k}$ & $𝓀$ & \CAL{k} & 𝓴 & $\CAL{k}$ & $𝓴$ \\
-l & \TT{l} & 𝚕 & $\TT{l}$ & $𝚕$ & \BB{l} & 𝕝 & $\BB{l}$ & $𝕝$ & \SCR{l} & 𝓁 & $\SCR{l}$ & $𝓁$ & \CAL{l} & 𝓵 & $\CAL{l}$ & $𝓵$ \\
-m & \TT{m} & 𝚖 & $\TT{m}$ & $𝚖$ & \BB{m} & 𝕞 & $\BB{m}$ & $𝕞$ & \SCR{m} & 𝓂 & $\SCR{m}$ & $𝓂$ & \CAL{m} & 𝓶 & $\CAL{m}$ & $𝓶$ \\
-n & \TT{n} & 𝚗 & $\TT{n}$ & $𝚗$ & \BB{n} & 𝕟 & $\BB{n}$ & $𝕟$ & \SCR{n} & 𝓃 & $\SCR{n}$ & $𝓃$ & \CAL{n} & 𝓷 & $\CAL{n}$ & $𝓷$ \\
-o & \TT{o} & 𝚘 & $\TT{o}$ & $𝚘$ & \BB{o} & 𝕠 & $\BB{o}$ & $𝕠$ & \SCR{o} & ℴ & $\SCR{o}$ & $ℴ$ & \CAL{o} & 𝓸 & $\CAL{o}$ & $𝓸$ \\
-p & \TT{p} & 𝚙 & $\TT{p}$ & $𝚙$ & \BB{p} & 𝕡 & $\BB{p}$ & $𝕡$ & \SCR{p} & 𝓅 & $\SCR{p}$ & $𝓅$ & \CAL{p} & 𝓹 & $\CAL{p}$ & $𝓹$ \\
-q & \TT{q} & 𝚚 & $\TT{q}$ & $𝚚$ & \BB{q} & 𝕢 & $\BB{q}$ & $𝕢$ & \SCR{q} & 𝓆 & $\SCR{q}$ & $𝓆$ & \CAL{q} & 𝓺 & $\CAL{q}$ & $𝓺$ \\
-r & \TT{r} & 𝚛 & $\TT{r}$ & $𝚛$ & \BB{r} & 𝕣 & $\BB{r}$ & $𝕣$ & \SCR{r} & 𝓇 & $\SCR{r}$ & $𝓇$ & \CAL{r} & 𝓻 & $\CAL{r}$ & $𝓻$ \\
-s & \TT{s} & 𝚜 & $\TT{s}$ & $𝚜$ & \BB{s} & 𝕤 & $\BB{s}$ & $𝕤$ & \SCR{s} & 𝓈 & $\SCR{s}$ & $𝓈$ & \CAL{s} & 𝓼 & $\CAL{s}$ & $𝓼$ \\
-t & \TT{t} & 𝚝 & $\TT{t}$ & $𝚝$ & \BB{t} & 𝕥 & $\BB{t}$ & $𝕥$ & \SCR{t} & 𝓉 & $\SCR{t}$ & $𝓉$ & \CAL{t} & 𝓽 & $\CAL{t}$ & $𝓽$ \\
-u & \TT{u} & 𝚞 & $\TT{u}$ & $𝚞$ & \BB{u} & 𝕦 & $\BB{u}$ & $𝕦$ & \SCR{u} & 𝓊 & $\SCR{u}$ & $𝓊$ & \CAL{u} & 𝓾 & $\CAL{u}$ & $𝓾$ \\
-v & \TT{v} & 𝚟 & $\TT{v}$ & $𝚟$ & \BB{v} & 𝕧 & $\BB{v}$ & $𝕧$ & \SCR{v} & 𝓋 & $\SCR{v}$ & $𝓋$ & \CAL{v} & 𝓿 & $\CAL{v}$ & $𝓿$ \\
-w & \TT{w} & 𝚠 & $\TT{w}$ & $𝚠$ & \BB{w} & 𝕨 & $\BB{w}$ & $𝕨$ & \SCR{w} & 𝓌 & $\SCR{w}$ & $𝓌$ & \CAL{w} & 𝔀 & $\CAL{w}$ & $𝔀$ \\
-x & \TT{x} & 𝚡 & $\TT{x}$ & $𝚡$ & \BB{x} & 𝕩 & $\BB{x}$ & $𝕩$ & \SCR{x} & 𝓍 & $\SCR{x}$ & $𝓍$ & \CAL{x} & 𝔁 & $\CAL{x}$ & $𝔁$ \\
-y & \TT{y} & 𝚢 & $\TT{y}$ & $𝚢$ & \BB{y} & 𝕪 & $\BB{y}$ & $𝕪$ & \SCR{y} & 𝓎 & $\SCR{y}$ & $𝓎$ & \CAL{y} & 𝔂 & $\CAL{y}$ & $𝔂$ \\
-z & \TT{z} & 𝚣 & $\TT{z}$ & $𝚣$ & \BB{z} & 𝕫 & $\BB{z}$ & $𝕫$ & \SCR{z} & 𝓏 & $\SCR{z}$ & $𝓏$ & \CAL{z} & 𝔃 & $\CAL{z}$ & $𝔃$ \\
+\makerow{A}[tt=𝙰, bb=𝔸, scr=𝒜, cal=𝓐, frak=𝔄, bfrak=𝕬] \\
+\makerow{B}[tt=𝙱, bb=𝔹, scr=ℬ, cal=𝓑, frak=𝔅, bfrak=𝕭] \\
+\makerow{C}[tt=𝙲, bb=ℂ, scr=𝒞, cal=𝓒, frak=ℭ, bfrak=𝕮] \\
+\makerow{D}[tt=𝙳, bb=𝔻, scr=𝒟, cal=𝓓, frak=𝔇, bfrak=𝕯] \\
+\makerow{E}[tt=𝙴, bb=𝔼, scr=ℰ, cal=𝓔, frak=𝔈, bfrak=𝕰] \\
+\makerow{F}[tt=𝙵, bb=𝔽, scr=ℱ, cal=𝓕, frak=𝔉, bfrak=𝕱] \\
+\makerow{G}[tt=𝙶, bb=𝔾, scr=𝒢, cal=𝓖, frak=𝔊, bfrak=𝕲] \\
+\makerow{H}[tt=𝙷, bb=ℍ, scr=ℋ, cal=𝓗, frak=ℌ, bfrak=𝕳] \\
+\makerow{I}[tt=𝙸, bb=𝕀, scr=ℐ, cal=𝓘, frak=ℑ, bfrak=𝕴] \\
+\makerow{J}[tt=𝙹, bb=𝕁, scr=𝒥, cal=𝓙, frak=𝔍, bfrak=𝕵] \\
+\makerow{K}[tt=𝙺, bb=𝕂, scr=𝒦, cal=𝓚, frak=𝔎, bfrak=𝕶] \\
+\makerow{L}[tt=𝙻, bb=𝕃, scr=ℒ, cal=𝓛, frak=𝔏, bfrak=𝕷] \\
+\makerow{M}[tt=𝙼, bb=𝕄, scr=ℳ, cal=𝓜, frak=𝔐, bfrak=𝕸] \\
+\makerow{N}[tt=𝙽, bb=ℕ, scr=𝒩, cal=𝓝, frak=𝔑, bfrak=𝕹] \\
+\makerow{O}[tt=𝙾, bb=𝕆, scr=𝒪, cal=𝓞, frak=𝔒, bfrak=𝕺] \\
+\makerow{P}[tt=𝙿, bb=ℙ, scr=𝒫, cal=𝓟, frak=𝔓, bfrak=𝕻] \\
+\makerow{Q}[tt=𝚀, bb=ℚ, scr=𝒬, cal=𝓠, frak=𝔔, bfrak=𝕼] \\
+\makerow{R}[tt=𝚁, bb=ℝ, scr=ℛ, cal=𝓡, frak=ℜ, bfrak=𝕽] \\
+\makerow{S}[tt=𝚂, bb=𝕊, scr=𝒮, cal=𝓢, frak=𝔖, bfrak=𝕾] \\
+\makerow{T}[tt=𝚃, bb=𝕋, scr=𝒯, cal=𝓣, frak=𝔗, bfrak=𝕿] \\
+\makerow{U}[tt=𝚄, bb=𝕌, scr=𝒰, cal=𝓤, frak=𝔘, bfrak=𝖀] \\
+\makerow{V}[tt=𝚅, bb=𝕍, scr=𝒱, cal=𝓥, frak=𝔙, bfrak=𝖁] \\
+\makerow{W}[tt=𝚆, bb=𝕎, scr=𝒲, cal=𝓦, frak=𝔚, bfrak=𝖂] \\
+\makerow{X}[tt=𝚇, bb=𝕏, scr=𝒳, cal=𝓧, frak=𝔛, bfrak=𝖃] \\
+\makerow{Y}[tt=𝚈, bb=𝕐, scr=𝒴, cal=𝓨, frak=𝔜, bfrak=𝖄] \\
+\makerow{Z}[tt=𝚉, bb=ℤ, scr=𝒵, cal=𝓩, frak=ℨ, bfrak=𝖅] \\ \midrule
+% Latin Lowercase ----------------------------------------------------------------------
+\makerow{a}[tt=𝚊, bb=𝕒, scr=𝒶, cal=𝓪, frak=𝔞, bfrak=𝖆] \\
+\makerow{b}[tt=𝚋, bb=𝕓, scr=𝒷, cal=𝓫, frak=𝔟, bfrak=𝖇] \\
+\makerow{c}[tt=𝚌, bb=𝕔, scr=𝒸, cal=𝓬, frak=𝔠, bfrak=𝖈] \\
+\makerow{d}[tt=𝚍, bb=𝕕, scr=𝒹, cal=𝓭, frak=𝔡, bfrak=𝖉] \\
+\makerow{e}[tt=𝚎, bb=𝕖, scr=ℯ, cal=𝓮, frak=𝔢, bfrak=𝖊] \\
+\makerow{f}[tt=𝚏, bb=𝕗, scr=𝒻, cal=𝓯, frak=𝔣, bfrak=𝖋] \\
+\makerow{g}[tt=𝚐, bb=𝕘, scr=ℊ, cal=𝓰, frak=𝔤, bfrak=𝖌] \\
+\makerow{h}[tt=𝚑, bb=𝕙, scr=𝒽, cal=𝓱, frak=𝔥, bfrak=𝖍] \\
+\makerow{i}[tt=𝚒, bb=𝕚, scr=𝒾, cal=𝓲, frak=𝔦, bfrak=𝖎] \\
+\makerow{j}[tt=𝚓, bb=𝕛, scr=𝒿, cal=𝓳, frak=𝔧, bfrak=𝖏] \\
+\makerow{k}[tt=𝚔, bb=𝕜, scr=𝓀, cal=𝓴, frak=𝔨, bfrak=𝖐] \\
+\makerow{l}[tt=𝚕, bb=𝕝, scr=𝓁, cal=𝓵, frak=𝔩, bfrak=𝖑] \\
+\makerow{m}[tt=𝚖, bb=𝕞, scr=𝓂, cal=𝓶, frak=𝔪, bfrak=𝖒] \\
+\makerow{n}[tt=𝚗, bb=𝕟, scr=𝓃, cal=𝓷, frak=𝔫, bfrak=𝖓] \\
+\makerow{o}[tt=𝚘, bb=𝕠, scr=ℴ, cal=𝓸, frak=𝔬, bfrak=𝖔] \\
+\makerow{p}[tt=𝚙, bb=𝕡, scr=𝓅, cal=𝓹, frak=𝔭, bfrak=𝖕] \\
+\makerow{q}[tt=𝚚, bb=𝕢, scr=𝓆, cal=𝓺, frak=𝔮, bfrak=𝖖] \\
+\makerow{r}[tt=𝚛, bb=𝕣, scr=𝓇, cal=𝓻, frak=𝔯, bfrak=𝖗] \\
+\makerow{s}[tt=𝚜, bb=𝕤, scr=𝓈, cal=𝓼, frak=𝔰, bfrak=𝖘] \\
+\makerow{t}[tt=𝚝, bb=𝕥, scr=𝓉, cal=𝓽, frak=𝔱, bfrak=𝖙] \\
+\makerow{u}[tt=𝚞, bb=𝕦, scr=𝓊, cal=𝓾, frak=𝔲, bfrak=𝖚] \\
+\makerow{v}[tt=𝚟, bb=𝕧, scr=𝓋, cal=𝓿, frak=𝔳, bfrak=𝖛] \\
+\makerow{w}[tt=𝚠, bb=𝕨, scr=𝓌, cal=𝔀, frak=𝔴, bfrak=𝖜] \\
+\makerow{x}[tt=𝚡, bb=𝕩, scr=𝓍, cal=𝔁, frak=𝔵, bfrak=𝖝] \\
+\makerow{y}[tt=𝚢, bb=𝕪, scr=𝓎, cal=𝔂, frak=𝔶, bfrak=𝖞] \\
+\makerow{z}[tt=𝚣, bb=𝕫, scr=𝓏, cal=𝔃, frak=𝔷, bfrak=𝖟] \\
 \bottomrule
 \end{tabular}
 \end{document}

@@ -1,0 +1,66 @@
+% REF: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+\documentclass[10pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[verbose]{newunicodechar}
+\usepackage[nostix]{unicode-symbols}
+\usepackage{booktabs}
+\usepackage{multicol}
+%\usepackage{times}
+
+
+
+\usepackage{test_setup}
+
+
+\NewDocumentCommand{\makerow}{s m O{}}{%
+\pgfkeys{/makerow, default, #3}% set defaults
+%
+	#2%
+	% math-mode
+	% serif
+%	& $\RM{#2}$     & $\rowRM$
+%	& $\IT{#2}$     & $\rowIT$
+	& $\BF{#2}$     & $\rowBF$
+%	& $\BI{#2}$     & $\rowBI$
+	% sans
+	& $\SF{#2}$     & $\rowSF$
+%	& $\ISF{#2}$    & $\rowISF$
+	& $\BSF{#2}$    & $\rowBSF$
+%	& $\BISF{#2}$   & $\rowBISF$
+	% misc
+	& $\TT{#2}$     & $\rowTT$
+	& $\BB{#2}$     & $\rowBB$
+	& $\CIRC{#2}$   & $\rowCIRC$
+	% roman
+	& $\RomanNumber{#2}$    & $\rowROMAN$
+	& $\romannumber{#2}$   & $\rowRoman$
+}
+
+
+\begin{document}
+\begin{tabular}{c | cc | cc cc | cc cc cc | cc cc}  % chktex 44
+\toprule
+	& \multicolumn{16}{|c}{\textbf{math mode}}  \\
+	& \multicolumn{2}{|c|}{serif} & \multicolumn{4}{|c}{sans}
+	& \multicolumn{6}{|c}{misc}
+	& \multicolumn{4}{|c}{roman}
+\\ ref
+	& \multicolumn{2}{|c}{bold}
+	& \multicolumn{2}{|c}{none}  & \multicolumn{2}{c}{bold}
+	& \multicolumn{2}{|c}{tt}    & \multicolumn{2}{c}{bb} & \multicolumn{2}{c}{circ}
+	& \multicolumn{2}{|c}{lower} & \multicolumn{2}{c}{upper}
+\\ \midrule
+% Digits -------------------------------------------------------------------------------
+\makerow*{0}[bf=𝟎, sf=𝟢, bsf=𝟢, tt=𝟶, bb=𝟘, circ=⓪]  \\
+\makerow*{1}[bf=𝟏, sf=𝟣, bsf=𝟣, tt=𝟷, bb=𝟙, circ=①, roman=ⅰ, Roman=Ⅰ] \\
+\makerow*{2}[bf=𝟐, sf=𝟤, bsf=𝟤, tt=𝟸, bb=𝟚, circ=②, roman=ⅱ, Roman=Ⅱ] \\
+\makerow*{3}[bf=𝟑, sf=𝟥, bsf=𝟥, tt=𝟹, bb=𝟛, circ=③, roman=ⅲ, Roman=Ⅲ] \\
+\makerow*{4}[bf=𝟒, sf=𝟦, bsf=𝟦, tt=𝟺, bb=𝟜, circ=④, roman=ⅳ, Roman=Ⅳ] \\
+\makerow*{5}[bf=𝟓, sf=𝟧, bsf=𝟧, tt=𝟻, bb=𝟝, circ=⑤, roman=ⅴ, Roman=Ⅴ] \\
+\makerow*{6}[bf=𝟔, sf=𝟨, bsf=𝟨, tt=𝟼, bb=𝟞, circ=⑥, roman=ⅵ, Roman=Ⅵ] \\
+\makerow*{7}[bf=𝟕, sf=𝟩, bsf=𝟩, tt=𝟽, bb=𝟟, circ=⑦, roman=ⅶ, Roman=Ⅶ] \\
+\makerow*{8}[bf=𝟖, sf=𝟪, bsf=𝟪, tt=𝟾, bb=𝟠, circ=⑧, roman=ⅷ, Roman=Ⅷ] \\
+\makerow*{9}[bf=𝟗, sf=𝟫, bsf=𝟫, tt=𝟿, bb=𝟡, circ=⑨, roman=ⅸ, Roman=Ⅸ] \\
+\bottomrule
+\end{tabular}
+\end{document}
