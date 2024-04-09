@@ -1,0 +1,46 @@
+% REF: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
+
+\usepackage{etoolbox}
+
+\newcommand{\PrintMathFonts}{%
+\count255=0
+\loop\ifnum\count255<16
+(\the\count255:~\fontname\textfont\count255)\newline
+\advance\count255 by 1
+\repeat}
+
+\NewDocumentCommand{\alias}{m o m}{%
+% Usage: \unicode@alias{<command>}[<alias>]{<fallback>}
+% Checks if <alias> command is defined. if so, performs \let<command><alias>, else \let<command><fallback>
+\IfValueTF{#2}{%
+	\@ifundefined{#2}{%
+		\PackageInfo{unicode-symbols}{Defining #1 as #3}%
+		\newcommand{#1}{#3}%
+	}{%
+		\let#1=#2%
+	}%
+}{%
+	\newcommand{#1}{#3}%
+}%
+}
+
+\NewDocumentCommand{\makealias}{m O{\relax} O{\relax} O{\relax} m}{%
+  % #1 is the new command (\mycommand)
+  % #2 is the existing command (\aliased)
+  % #3 is the fallback
+\ifundef{#2}{\providecommand{#1}{FALLBACK}}{\providecommand{#1}{YES, its #2 my dear}}
+%	\show#1%
+%\show#2%
+%\show#3%
+%\show#4%
+%  \ifdefined#2%
+%    \let#1=#2%
+%  \else\ifdefined#3\else\ifdefined#4\else
+%    \providecommand{#1}{#5}
+%  \fi\fi\fi%
+}
+
+\newcommand{\original}{This is the aliased command.}
+\makealias{\aliasMISS}{This is the fallback.}
+\makealias{\aliasOK}[\original]{OH NO NO NO}
+\makealias{\aliasFALLBACK}[\undefinedcommand]{This is the fallback.}

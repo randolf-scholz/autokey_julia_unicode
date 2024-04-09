@@ -1,91 +1,10 @@
-% !TeX TXS-program:compile = txs:///pdflatex
-
-%\RequirePackage{iftex}
-%\ifLuaTeX
-%	\RequirePackage{luatex85}
-%	\RequirePackage{fontspec}
-%	\AtBeginDocument{\setmainfont{Noto Color Emoji}[Renderer=Harfbuzz]}
-%\fi
-
-\NeedsTeXFormat{LaTeX2e}
-\documentclass{minimal}
+\documentclass{standalone}
 \usepackage{booktabs}
-%\usepackage{stix}
-%\usepackage{pifont}
-%\usepackage[notext]{stix}
 \usepackage{amsmath}
 \usepackage{mathrsfs}     % math fonts
 \usepackage{amsfonts}
-\usepackage{pifont}
-\usepackage{centernot}
-\newcommand{\PrintMathFonts}{%
-  \count255=0
-  \loop\ifnum\count255<16
-    (\the\count255:~\fontname\textfont\count255)\newline
-    \advance\count255 by 1
- \repeat}
 
-
-\makeatletter
-\NewDocumentCommand{\alias}{m o m}{%
-% Usage: \unicode@alias{<command>}[<alias>]{<fallback>}
-% Checks if <alias> command is defined. if so, performs \let<command><alias>, else \let<command><fallback>
-\IfValueTF{#2}{%
-	\@ifundefined{#2}{%
-		\PackageInfo{unicode-symbols}{Defining #1 as #3}%
-		\newcommand{#1}{#3}%
-	}{%
-		\let#1=#2%
-	}%
-}{%
-	\newcommand{#1}{#3}%
-}%
-}
-\makeatother
-
-\usepackage{etoolbox}
-\makeatletter
-\NewDocumentCommand{\makealias}{m O{\relax} O{\relax} O{\relax} m}{%
-  % #1 is the new command (\mycommand)
-  % #2 is the existing command (\aliased)
-  % #3 is the fallback
-\ifundef{#2}{\providecommand{#1}{FALLBACK}}{\providecommand{#1}{YES, its #2 my dear}}
-%	\show#1%
-%\show#2%
-%\show#3%
-%\show#4%
-%  \ifdefined#2%
-%    \let#1=#2%
-%  \else\ifdefined#3\else\ifdefined#4\else
-%    \providecommand{#1}{#5}
-%  \fi\fi\fi%
-}
-\makeatother
-
-\newcommand{\original}{This is the aliased command.}
-\makealias{\aliasMISS}{This is the fallback.}
-\makealias{\aliasOK}[\original]{OH NO NO NO}
-\makealias{\aliasFALLBACK}[\undefinedcommand]{This is the fallback.}
-
-
-\newcommand{\cmark}{\ding{51}}% ✓ (U+2713: Check Mark)
-\newcommand{\xmark}{\ding{55}}% ✗ (U+2717: Ballot X)
-\newcommand{\hcmark}{\ding{52}}% ✔ (U+2714: Heavy Check Mark)
-\newcommand{\hxmark}{\ding{56}}% ✘ (U+2718: Heavy Ballot X)
-
-\usepackage{amssymb,graphicx}
 \begin{document}
-
-\begin{tabular}{l}
-$x^{n+1}x^{n+1}x^{n+1}x^{n+1}$
-\\ $x^{n\texttt{+}1}x^{n\texttt{+}1}x^{n\texttt{+}1}x^{n\texttt{+}1}$
-\\ $x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}x^{n\mathord{\texttt{+}}1}$
-\\ $x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}x^{n\mathbin{\texttt{+}}1}$
-\end{tabular}
-\aliasMISS\newline
-\aliasOK\newline
-\aliasFALLBACK
-
 \begin{tabular}{ccc}\toprule
 mode & text & math
 \\ \midrule
@@ -105,7 +24,7 @@ mode & text & math
 \\ \verb|frak|   & --              & $\mathfrak{F}$
 \\ \bottomrule
 \end{tabular}
-\PrintMathFonts
+
 %\mathring{x}
 %\acute{x}
 %\bar{x}
