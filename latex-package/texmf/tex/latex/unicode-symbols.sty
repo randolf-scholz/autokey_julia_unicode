@@ -37,9 +37,6 @@
 % endregion notes ----------------------------------------------------------------------
 
 
-
-
-
 % chktex-file 18
 % chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
@@ -57,10 +54,13 @@
 % option stix/nostix (default: stix)
 \newif\ifunicode@stix\unicode@stixtrue
 \newif\ifunicode@fdsymbol\unicode@fdsymbolfalse
+\newif\ifunicode@mnsymbol\unicode@mnsymbolfalse
 \DeclareOption{stix}{\unicode@stixtrue}
 \DeclareOption{nostix}{\unicode@stixfalse}
-\DeclareOption{fdsymbol}{\unicode@fdsymbolfalse}
-\DeclareOption{nofdsymbol}{\unicode@fdsymboltrue}
+\DeclareOption{fdsymbol}{\unicode@fdsymboltrue}
+\DeclareOption{nofdsymbol}{\unicode@fdsymbolfalse}
+\DeclareOption{mnsymbol}{\unicode@mnsymboltrue}
+\DeclareOption{nomnsymbol}{\unicode@mnsymbolfalse}
 \ProcessOptions\relax
 % endregion options --------------------------------------------------------------------
 
@@ -85,9 +85,6 @@
 % Font selection:
 % bb: mathds, fallback: dsserif (requires 2 fonts)
 % cal: computer modern
-
-
-
 
 % decide whether to use stix or not
 \ifunicode@stix
@@ -114,13 +111,12 @@
 	% endregion stix2-patch ------------------------------------------------------------
 
 	% Used to get rid of dont shape warning
-	\RequirePackage{anyfontsize}%  https://tex.stackexchange.com/questions/58087
+	\RequirePackage{anyfontsize}% https://tex.stackexchange.com/questions/58087
 \else
 	\RequirePackage{amsfonts}% provides \mathbb, \mathfrak
-	\RequirePackage{amssymb}%  not needed with stix2
+	\RequirePackage{amssymb}% not needed with stix2
 	\RequirePackage{mathbbol}% provides \mathbb for digits and lower case letters.
 	\RequirePackage{mathrsfs}% provides \mathscr
-	\RequirePackage{pifont}%   used for checkmark and xmark http://ctan.org/pkg/pifont
 	\RequirePackage{mathtools}% provides \mathclap
 	% \RequirePackage{fdsymbol}% NOTE: do not use, some really ugly symbols like ∑.
 \fi
@@ -130,8 +126,14 @@
 	\RequirePackage{fdsymbol}
 \fi
 
-\RequirePackage{amsmath}    % provides math and greek symbols and \boldsymbol
-\RequirePackage{dsfont}     % provides \mathds, best looking \mathbb
+% decide whether to use mnsymbol or not
+\ifunicode@mnsymbol
+	\RequirePackage{MnSymbol}
+\fi
+
+\RequirePackage{amsmath}% provides math and greek symbols and \boldsymbol
+\RequirePackage{dsfont}% provides \mathds, best looking \mathbb
+\RequirePackage{pifont}% used for checkmark and xmark http://ctan.org/pkg/pifont
 
 % Patch centernot to support \not as macro with argument.
 \RequirePackage{etoolbox}
@@ -146,7 +148,6 @@
 \RequirePackage{bm}% provides \bm
 % endregion bm patch -------------------------------------------------------------------
 % endregion dependencies ---------------------------------------------------------------
-
 
 % region import missing symbols --------------------------------------------------------
 % Get some missing symbols
@@ -299,19 +300,26 @@
 \newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!+}}% chktex 21
 \newcommand{\unicode@cupdot}{\mathbin{\mathaccent\cdot\cup}}% REF: https://tex.stackexchange.com/a/91059
 % operators
-\newcommand{\unicode@bigcupdot}{\mathop{\mathaccent\cdot\bigcup}}% REF: https://tex.stackexchange.com/a/91059
+\newcommand{\unicode@bigcupdot}{\mathop{\mathaccent\cdot{\bigcup\limits}}}% REF: https://tex.stackexchange.com/a/91059
 % relations
+% REF: reflectbox: https://tex.stackexchange.com/a/195027
 \newcommand{\unicode@bagmember}{\mathrel{\mathsf{E}}}
-\newcommand{\unicode@defeq}{\mathrel{\overset{\mathclap{\scriptscriptstyle\text{def}}}{=}}}
+\newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
+% relations overset
+\newcommand{\unicode@defeq}{\mathrel{\overset{\mathclap{\scriptscriptstyle\textsf{def}}}{=}}}
 \newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle\triangle}{=}}}
 \newcommand{\unicode@exclameq}{\mathrel{\overset{!}{=}}}% not in Unicode!
 \newcommand{\unicode@hateq}{\mathrel{\hat{=}}}
-\newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
-\newcommand{\unicode@leftsquigarrow}{\mathrel{\reflectbox{$\rightsquigarrow$}}}% REF: https://tex.stackexchange.com/a/195027
-\newcommand{\unicode@longmapsfrom}{\mathrel{\reflectbox{$\longmapsto$}}}% REF: https://tex.stackexchange.com/a/195027
 \newcommand{\unicode@questeq}{\mathrel{\overset{?}{=}}}
-\newcommand{\unicode@simneqq}{\mathrel{\mathaccent\sim\neq}}
+\newcommand{\unicode@simneqq}{\mathrel{\mathaccent\sim{\neq}}}
 \newcommand{\unicode@circledequal}{\mathrel{\mathrlap{\bigcirc}=}}
+% relations transform
+\newcommand{\unicode@backcong}{\mathrel{\reflectbox{$\cong$}}}
+\newcommand{\unicode@leftsquigarrow}{\mathrel{\reflectbox{$\rightsquigarrow$}}}
+\newcommand{\unicode@longmapsfrom}{\mathrel{\reflectbox{$\longmapsto$}}}
+\newcommand{\unicode@mapsfrom}{\mathrel{\reflectbox{$\mapsto$}}}
+\newcommand{\unicode@mapsdown}{\mathrel{\rotatebox[origin=c]{270}{$\mapsto$}}}
+\newcommand{\unicode@mapsup}{\mathrel{\rotatebox[origin=c]{90}{$\mapsto$}}}
 % relations negated
 \newcommand{\unicode@napprox}{\centernot{\approx}}
 \newcommand{\unicode@niff}{\centernot{\iff}}
@@ -381,9 +389,9 @@
 % endregion checkmarks -----------------------------------------------------------------
 
 % region aliases -----------------------------------------------------------------------
-\providecommand{\mapsup}{\upmapsto}
-\providecommand{\mapsfrom}{\leftmapsto}
-\providecommand{\mapsdown}{\downmapsto}
+% \providecommand{\mapsup}{\upmapsto}
+% \providecommand{\mapsfrom}{\leftmapsto}
+% \providecommand{\mapsdown}{\downmapsto}
 \providecommand{\downzigzagarrow}{\lightning}
 \providecommand{\approxident}{\triplesim}
 % endregion aliases --------------------------------------------------------------------
@@ -395,7 +403,7 @@
 \providecommand{\contradiction}{\unicode@contradiction}
 \providecommand{\hateq}{\unicode@hateq}
 \providecommand{\deleq}{\unicode@deleq}
-\providecommand{\defeq}{\unicode@defeq}
+\providecommand{\defeq}{\ifundef{\eqdef}{\unicode@defeq}{\eqdef}}
 \providecommand{\questeq}{\unicode@questeq}
 \providecommand{\exclameq}{\unicode@exclameq}
 \providecommand{\nimplies}{\unicode@nimplies}
@@ -428,6 +436,10 @@
 \providecommand{\longmapsfrom}{\unicode@longmapsfrom}
 \providecommand{\circledequal}{\unicode@circledequal}
 \providecommand{\simneqq}{\unicode@simneqq}
+\providecommand{\backcong}{\unicode@backcong}
+\providecommand{\mapsfrom}{\unicode@mapsfrom}
+\providecommand{\mapsdown}{\unicode@mapsdown}
+\providecommand{\mapsup}{\unicode@mapsup}
 % endregion text/math macros -----------------------------------------------------------
 
 
@@ -560,7 +572,7 @@
 
 % region operators ---------------------------------------------------------------------
 % region unary operators ---------------------------------------------------------------
-\newunicodechar{√}{\sqrt}
+\newunicodechar{√}{\surd}
 \newunicodechar{∠}{\angle}
 \newunicodechar{∡}{\measuredangle}
 \newunicodechar{∢}{\sphericalangle}

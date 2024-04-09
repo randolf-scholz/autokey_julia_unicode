@@ -3,8 +3,8 @@
 \usepackage{booktabs}
 \usepackage{multicol}
 \usepackage{test_setup}
-\usepackage[nostix]{unicode-symbols}
-\usepackage{MnSymbol}
+\usepackage[stix]{unicode-symbols}
+%\usepackage{MnSymbol}
 
 \NewDocumentCommand{\makerow}{s m}{%
 %\pgfkeys{/makerow, default, #3}% set defaults
@@ -23,8 +23,32 @@
 \begin{tabular}{lll}  % chktex 44
 \toprule
 ref & \textbf{math mode} & \textbf{text mode} \\
+\midrule% symbols ----------------------------------------------------------------------
+\makerow{£}
+\makerow{§}
+\makerow{©}
+\makerow{¶}
+\makerow{ħ}
+\makerow{–}
+\makerow{—}
+\makerow{“}
+\makerow{”}
+\makerow{†}
+\makerow{‡}
+\makerow{ℓ}
+\makerow{™}
+\makerow{ℵ}
+\makerow{ℶ}
+\makerow{ℷ}
+\makerow{ℸ}
+\makerow{∞}
+\makerow{⊺}
+\makerow{✓}
+\makerow{✔}
+\makerow{✗}
+\makerow{✘}
 \midrule% unary operators --------------------------------------------------------------
-%\makerow{√}
+\makerow{√}
 \makerow{∠}
 \makerow{∡}
 \makerow{∢}
@@ -92,7 +116,7 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{∈}
 \makerow{∉}
 \makerow{∋}
-%\makerow{∌}
+\makerow{∌}
 \makerow{∅}
 \makerow{∁}
 \makerow{∖}
@@ -114,7 +138,7 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{⊎}
 \makerow{⨄}
 \makerow{⊍}
-%\makerow{⨃}
+\makerow{⨃}
 \makerow{⋿}
 \makerow{⊏}
 \makerow{⊑}
@@ -122,8 +146,8 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{⊒}
 \makerow{⋢}
 \makerow{⋣}
-\makerow{⋤}
-\makerow{⋥}
+%\makerow{⋤}
+%\makerow{⋥}
 \makerow{⊔}
 \makerow{⨆}
 \makerow{⊓}
@@ -155,7 +179,7 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{≈}
 \makerow{≉}
 \makerow{≊}
-\makerow{≋}
+%\makerow{≋}
 \makerow{≌}
 \makerow{≐}
 \makerow{≗}
@@ -204,7 +228,7 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{；}
 \midrule% Logic ------------------------------------------------------------------------
 \makerow{¬}
-\makerow{↯}
+%\makerow{↯}
 \makerow{⇍}
 \makerow{⇎}
 \makerow{⇏}
@@ -233,32 +257,8 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{∭}
 \makerow{⨌}
 \makerow{∮}
-\makerow{∯}
+%\makerow{∯}
 %\makerow{∰}
-\midrule% symbols ----------------------------------------------------------------------
-\makerow{£}
-\makerow{§}
-\makerow{©}
-\makerow{¶}
-\makerow{ħ}
-\makerow{–}
-\makerow{—}
-\makerow{“}
-\makerow{”}
-\makerow{†}
-\makerow{‡}
-\makerow{ℓ}
-\makerow{™}
-\makerow{ℵ}
-\makerow{ℶ}
-\makerow{ℷ}
-\makerow{ℸ}
-\makerow{∞}
-\makerow{⊺}
-\makerow{✓}
-\makerow{✔}
-\makerow{✗}
-\makerow{✘}
 \bottomrule
 \end{tabular}
 \end{document}
