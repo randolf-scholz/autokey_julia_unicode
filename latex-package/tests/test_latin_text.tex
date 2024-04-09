@@ -6,46 +6,39 @@
 \usepackage{test_setup}
 \usepackage[stix]{unicode-symbols}
 
-%\usepackage[bb=dsfontserif]{mathalfa}
-
 \NewDocumentCommand{\makerow}{m O{}}{%
 \pgfkeys{/makerow, default, #2}% set defaults
 %
 	#1%
 	% serif
-	& $\RM{#1}$     & $\rowRM$
-	& $\IT{#1}$     & $\rowIT$
-	& $\BF{#1}$     & $\rowBF$
-	& $\BI{#1}$     & $\rowBI$
+	& \RM{#1}     & \rowRM
+	& \IT{#1}     & \rowIT
+	& \BF{#1}     & \rowBF
+	& \BI{#1}     & \rowBI
 	% sans
-	& $\SF{#1}$     & $\rowSF$
-	& $\ISF{#1}$    & $\rowISF$
-	& $\BSF{#1}$    & $\rowBSF$
-	& $\BISF{#1}$   & $\rowBISF$
+	& \SF{#1}     & \rowSF
+	& \ISF{#1}    & \rowISF
+	& \BSF{#1}    & \rowBSF
+	& \BISF{#1}   & \rowBISF
 	% script
-	& $\SCR{#1}$    & $\rowSCR$
-	& $\CAL{#1}$    & $\rowCAL$
+	& \SCR{#1}    & \rowSCR
+	& \CAL{#1}    & \rowCAL
 	% fraktur
-	& $\FRAK{#1}$   & $\rowFRAK$
-	& $\BFRAK{#1}$  & $\rowBFRAK$
+	& \FRAK{#1}   & \rowFRAK
+	& \BFRAK{#1}  & \rowBFRAK
 	% misc
-	& $\TT{#1}$     & $\rowTT$
-	& $\BB{#1}$     & $\rowBB$
-	& $\CIRC{#1}$   & $\rowCIRC$
+	& \TT{#1}     & \rowTT
+	& \BB{#1}     & \rowBB
+	& \CIRC{#1}   & \rowCIRC
 	% end
 	\\%
 }
 
 
 \begin{document}
-%$a$
-%\newline\PrintMathFonts
-%$$\boldsymbol{\mathsf{A}}\boldsymbol{\mathsfit{A}}\mathsfit{A}\boldsymbol{\mathrm{A}}A\mathbf{A}\boldsymbol{A}\textsc{a}$$
-%\newline\PrintMathFonts
-%\end{document}
 \begin{tabular}{c|cc cc cc cc|cc cc cc cc|cc cc|cc cc|cc cc cc}  % chktex 44
 \toprule
-	& \multicolumn{30}{|c}{\textbf{math mode}}  \\
+	& \multicolumn{30}{|c}{\textbf{text mode}}  \\
 	& \multicolumn{8}{|c|}{Serif}
 	& \multicolumn{8}{|c}{Sans}
 	& \multicolumn{4}{|c}{Script}

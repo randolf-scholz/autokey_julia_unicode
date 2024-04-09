@@ -1,12 +1,13 @@
 # region custom gitignore settings -----------------------------------------------------
-.ipynb_checkpoints/
-.mypy_cache/
-.virtual_documents/
-.vscode/
-.~lock.*#
-__pycache__/
-__tex__/
+# any hidden folder (.git, .vscode, .mypy_cache)
+/**/.*/
+# any folder with leading underscore (__tex__, __pycache__, __build__)
+/**/_*/
 
+# libreoffice lock files
+.~lock.*#
+
+# compiled pdf files
 *.pdf
 
 # manually include all third party files
