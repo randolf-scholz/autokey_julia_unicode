@@ -2,10 +2,9 @@
 \documentclass{standalone}
 \usepackage{booktabs}
 \usepackage{multicol}
-
 \usepackage{test_setup}
 \usepackage[nostix]{unicode-symbols}
-
+\usepackage{MnSymbol}
 
 \NewDocumentCommand{\makerow}{s m}{%
 %\pgfkeys{/makerow, default, #3}% set defaults
@@ -19,41 +18,81 @@
 	\\%
 }
 
+
 \begin{document}
 \begin{tabular}{lll}  % chktex 44
 \toprule
-ref & \textbf{math mode} & \textbf{text mode}
-\\ \midrule
-\makerow{∝}
+ref & \textbf{math mode} & \textbf{text mode} \\
+\midrule% unary operators --------------------------------------------------------------
+%\makerow{√}
+\makerow{∠}
+\makerow{∡}
+\makerow{∢}
+\makerow{﹢}
+\makerow{﹣}
+\midrule% binary operators -------------------------------------------------------------
+\makerow{±}
+\makerow{÷}
+\makerow{∓}
+\makerow{∘}
+\makerow{∥}
 \makerow{≔}
 \makerow{≕}
-\makerow{÷}
-\makerow{∘}
 \makerow{○}
-\makerow{±}
-\makerow{∓}
+\makerow{⟂}
+\makerow{⧺}
+\makerow{⫫}
+\midrule% n-ary operators --------------------------------------------------------------
+\makerow{∑}
+\makerow{∏}
+\makerow{∐}
+\makerow{⨀}
+\makerow{⨁}
+\makerow{⨂}
+\midrule% circled operators ------------------------------------------------------------
+\makerow{⊙}
+\makerow{⊕}
+\makerow{⊖}
+\makerow{⊗}
+\makerow{⊘}
+\makerow{⊚}
+\makerow{⊛}
+\makerow{⊜}
+\makerow{⊝}
+\midrule% boxed operators --------------------------------------------------------------
+\makerow{⊡}
+\makerow{⊞}
+\makerow{⊟}
+\makerow{⊠}
+\midrule% delimiters -------------------------------------------------------------------
+\makerow{‖}
+\makerow{∣}
+\makerow{⌈}
+\makerow{⌉}
+\makerow{⌊}
+\makerow{⌋}
+\makerow{║}
 \makerow{⟦}
 \makerow{⟧}
+\makerow{⟨}
+\makerow{⟩}
 \makerow{⟪}
 \makerow{⟫}
 \makerow{⦃}
 \makerow{⦄}
 \makerow{⦅}
 \makerow{⦆}
-\makerow{⟨}
-\makerow{⟩}
-\makerow{∣}
-\makerow{‖}
-\makerow{║}
+\midrule% geometry ---------------------------------------------------------------------
 \makerow{∥}
 \makerow{∠}
 \makerow{∡}
 \makerow{∢}
 \makerow{⟂}
+\midrule% set theory -------------------------------------------------------------------
 \makerow{∈}
 \makerow{∉}
 \makerow{∋}
-\makerow{∌}
+%\makerow{∌}
 \makerow{∅}
 \makerow{∁}
 \makerow{∖}
@@ -61,10 +100,36 @@ ref & \textbf{math mode} & \textbf{text mode}
 \makerow{⊆}
 \makerow{⊃}
 \makerow{⊇}
+\makerow{⊄}
+\makerow{⊈}
+\makerow{⊅}
+\makerow{⊉}
+\makerow{∪}
+\makerow{⋃}
+\makerow{∩}
+\makerow{⋂}
+\makerow{×}
+\makerow{⨉}
+\midrule% multisets --------------------------------------------------------------------
+\makerow{⊎}
+\makerow{⨄}
+\makerow{⊍}
+%\makerow{⨃}
+\makerow{⋿}
+\makerow{⊏}
+\makerow{⊑}
+\makerow{⊐}
+\makerow{⊒}
 \makerow{⋢}
 \makerow{⋣}
 \makerow{⋤}
 \makerow{⋥}
+\makerow{⊔}
+\makerow{⨆}
+\makerow{⊓}
+%\makerow{⨅}
+\midrule% relations --------------------------------------------------------------------
+\makerow{∝}
 \makerow{≻}
 \makerow{⪰}
 \makerow{≺}
@@ -76,23 +141,92 @@ ref & \textbf{math mode} & \textbf{text mode}
 \makerow{≲}
 \makerow{⪆}
 \makerow{⪅}
+\makerow{≫}
+\makerow{≪}
+\makerow{⋘}
+\makerow{⋙}
+\midrule% equivalences -----------------------------------------------------------------
 \makerow{∼}
-\makerow{≈}
+\makerow{≁}
 \makerow{≃}
-\makerow{≌}
 \makerow{≅}
+\makerow{≆}
+\makerow{≇}
+\makerow{≈}
+\makerow{≉}
 \makerow{≊}
 \makerow{≋}
-\makerow{≡}
-\makerow{≗}
+\makerow{≌}
 \makerow{≐}
-\makerow{⟹}
-\makerow{⟸}
-\makerow{⟺}
+\makerow{≗}
+\makerow{≙}
+\makerow{≜}
+\makerow{≝}
+\makerow{≟}
+\makerow{≠}
+\makerow{≡}
+\midrule% arrows -----------------------------------------------------------------------
+\makerow{←}
+\makerow{→}
+\makerow{↓}
+\makerow{↑}
+\makerow{↗}
+\makerow{↘}
+\makerow{↙}
+\makerow{↖}
+\makerow{↕}
+\makerow{↔}
+\makerow{↞}
+\makerow{↠}
+\makerow{⟶}
+\makerow{⟵}
+\midrule% arrows with bars -------------------------------------------------------------
+\makerow{↤}
+\makerow{↥}
+\makerow{↦}
+\makerow{↧}
+\makerow{⟻}
+\makerow{⟼}
+\midrule% squiggly arrows --------------------------------------------------------------
+\makerow{⇝}
+\makerow{⇜}
+\makerow{↭}
+%\makerow{⟿}
+%\makerow{⬳}
+\midrule% dots -------------------------------------------------------------------------
+\makerow{…}
+\makerow{⋯}
+\makerow{⋮}
+\makerow{⋱}
+\makerow{⋅}
+\makerow{：}
+\makerow{，}
+\makerow{；}
+\midrule% Logic ------------------------------------------------------------------------
 \makerow{¬}
+\makerow{↯}
+\makerow{⇍}
+\makerow{⇎}
+\makerow{⇏}
+\makerow{∀}
 \makerow{∃}
 \makerow{∄}
-\makerow{∀}
+\makerow{∧}
+\makerow{∨}
+\makerow{⊢}
+\makerow{⊤}
+\makerow{⊥}
+\makerow{⊨}
+\makerow{⊬}
+\makerow{⊭}
+\makerow{⊮}
+\makerow{⊯}
+\makerow{⋀}
+\makerow{⋁}
+\makerow{⟸}
+\makerow{⟹}
+\makerow{⟺}
+\midrule% calculus ---------------------------------------------------------------------
 \makerow{∆}
 \makerow{∫}
 \makerow{∬}
@@ -100,23 +234,31 @@ ref & \textbf{math mode} & \textbf{text mode}
 \makerow{⨌}
 \makerow{∮}
 \makerow{∯}
-\makerow{∰}
-\makerow*{ⅰ}
-\makerow*{ⅱ}
-\makerow*{ⅲ}
-\makerow*{ⅳ}
-\makerow*{ⅴ}
-\makerow*{ⅵ}
-\makerow*{ⅶ}
-\makerow*{ⅷ}
-\makerow*{ⅸ}
-\makerow*{ⅹ}
-\makerow*{ⅺ}
-\makerow*{ⅻ}
-\makerow*{ⅼ}
-\makerow*{ⅽ}
-\makerow*{ⅾ}
-\makerow*{ⅿ}
+%\makerow{∰}
+\midrule% symbols ----------------------------------------------------------------------
+\makerow{£}
+\makerow{§}
+\makerow{©}
+\makerow{¶}
+\makerow{ħ}
+\makerow{–}
+\makerow{—}
+\makerow{“}
+\makerow{”}
+\makerow{†}
+\makerow{‡}
+\makerow{ℓ}
+\makerow{™}
+\makerow{ℵ}
+\makerow{ℶ}
+\makerow{ℷ}
+\makerow{ℸ}
+\makerow{∞}
+\makerow{⊺}
+\makerow{✓}
+\makerow{✔}
+\makerow{✗}
+\makerow{✘}
 \bottomrule
 \end{tabular}
 \end{document}

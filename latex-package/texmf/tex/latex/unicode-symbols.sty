@@ -7,7 +7,7 @@
 % with pdflatex.
 
 % TODO: smarter implementation
-% https://tex.stackexchange.com/a/601583/119955
+% https://tex.stackexchange.com/a/601583
 %\def\z"{}
 %\def\UnicodeMathSymbol#1#2#3#4{%
 % \ifnum#1>"A0
@@ -56,8 +56,11 @@
 % region options -----------------------------------------------------------------------
 % option stix/nostix (default: stix)
 \newif\ifunicode@stix\unicode@stixtrue
+\newif\ifunicode@fdsymbol\unicode@fdsymbolfalse
 \DeclareOption{stix}{\unicode@stixtrue}
 \DeclareOption{nostix}{\unicode@stixfalse}
+\DeclareOption{fdsymbol}{\unicode@fdsymbolfalse}
+\DeclareOption{nofdsymbol}{\unicode@fdsymboltrue}
 \ProcessOptions\relax
 % endregion options --------------------------------------------------------------------
 
@@ -118,12 +121,23 @@
 	\RequirePackage{mathbbol}% provides \mathbb for digits and lower case letters.
 	\RequirePackage{mathrsfs}% provides \mathscr
 	\RequirePackage{pifont}%   used for checkmark and xmark http://ctan.org/pkg/pifont
+	\RequirePackage{mathtools}% provides \mathclap
 	% \RequirePackage{fdsymbol}% NOTE: do not use, some really ugly symbols like ∑.
+\fi
+
+% decide whether to use fdsymbol or not
+\ifunicode@fdsymbol
+	\RequirePackage{fdsymbol}
 \fi
 
 \RequirePackage{amsmath}    % provides math and greek symbols and \boldsymbol
 \RequirePackage{dsfont}     % provides \mathds, best looking \mathbb
-\RequirePackage{centernot}  % provides \centernotf
+
+% Patch centernot to support \not as macro with argument.
+\RequirePackage{etoolbox}
+\RequirePackage{centernot}
+% REF: https://tex.stackexchange.com/a/424007
+\patchcmd\@centernot{\not}{\not{\hphantom{=}}}{}{\errmessage{Patching \noexpand\@centernot failed.}}%
 
 % region bm patch ----------------------------------------------------------------------
 % REF: https://tex.stackexchange.com/q/3676
@@ -144,8 +158,9 @@
 	\SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
 	% By default, stix loads 12 math alphabets a 256 characters (pdflatex only supports 16 tables)
 	% stix's \mathcal is ugly, and we do not need all symbols,
-	% REF: https://tex.stackexchange.com/a/318144/119955
-	% REF: https://tex.stackexchange.com/a/14406/119955 (using symbol without wasting alphabets)
+	% REF: https://tex.stackexchange.com/a/318144
+	% REF: https://tex.stackexchange.com/a/14406 (using symbol without wasting alphabets)
+	% REF:https://tex.stackexchange.com/q/14386
 	% \DeclareFontEncoding{LS1}{}{}
 	% \DeclareFontEncoding{LS2}{}{\noaccents@}
 	% \DeclareFontSubstitution{LS1}{stix2}{m}{n}
@@ -162,6 +177,7 @@
 	% \DeclareSymbolFont{stix2@arrows1}       {LS1}{stix2sf}   {m} {n}
 	% \DeclareSymbolFont{stix2@arrows2}       {LS1}{stix2sf}   {m}{it}
 	% \DeclareSymbolFont{stix2@arrows3}       {LS2}{stix2tt}   {m} {n}
+
 	% \SetSymbolFont{stix2@letters}     {bold}{LS1}{stix2}     {b}{it}
 	% \SetSymbolFont{stix2@operators}   {bold}{LS1}{stix2}     {b} {n}
 	% \SetSymbolFont{stix2@symbols}     {bold}{LS1}{stix2scr}  {b} {n}
@@ -175,7 +191,6 @@
 	% \SetSymbolFont{stix2@arrows3}     {bold}{LS2}{stix2tt}   {b} {n}
 
 	% \SetSymbolFont{stix2@largesymbols}{bold}{LS2}{stix2ex}{b}{n}
-
 	% \DeclareMathDelimiter{\lBrack}{\mathopen} {stix@largesymbols}{"E0}{stix@largesymbols}{"06}
 	% \DeclareMathDelimiter{\rBrack}{\mathclose}{stix@largesymbols}{"E1}{stix@largesymbols}{"07}
 	% \DeclareMathDelimiter{\lBrace}{\mathopen} {stix@largesymbols}{"E8}{stix@largesymbols}{"0E}
@@ -264,27 +279,58 @@
 \newcommand{\unicode@smallminus}{\ifmmode\mathbin{\texttt{-}}\else\texttt{-}\fi}
 % endregion aliases --------------------------------------------------------------------
 
-
 % region fallbacks ---------------------------------------------------------------------
 % NOTE: These only emulate characters, but are not real unicode glyphs.
-\newcommand{\unicode@transpose}{\mkern-1.5mu\mathsf{T}\mkern-1.5mu}
-\newcommand{\unicode@hermitian}{\mkern-1.5mu\mathsf{H}\mkern-1.5mu}
-\newcommand{\unicode@contradiction}{\ensuremath{\downzigzagarrow}}
-\newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
+% \mathbin: binary operator (+, -, etc.)
+% \mathrel: binary relation (=, >, etc.)
+% \mathord: ordinary symbol, unary operators (e.g. \nabla, \exists, \neg)
+% \mathalpha: alphabetic symbol
+% \mathop: operator (\sum, \int, etc.)
+% \mathopen: opening delimiter
+% \mathclose: closing delimiter
+\newcommand{\unicode@transpose}{\ifmmode\mkern-1.5mu\mathsf{T}\mkern-1.5mu\else\kern-0.1em\textsf{T}\kern-0.1em\fi}
+\newcommand{\unicode@hermitian}{\ifmmode\mkern-1.5mu\mathsf{H}\mkern-1.5mu\else\kern-0.1em\textsf{H}\kern-0.1em\fi}
+% unary operators
+\newcommand{\unicode@contradiction}{\mathord{\downzigzagarrow}}
+\newcommand{\unicode@increment}{\mathord{\Delta}}% U+2206
 \newcommand{\unicode@unaryminus}{\mathord{\texttt{-}}}
-\newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!\!+}}% chktex 21
-\newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
-\newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle \triangle}{=}}}
-\newcommand{\unicode@hateq}{\mathrel{\hat{=}}}
-\newcommand{\unicode@defeq}{\mathrel{\overset{\text{def}}{=}}}
-\newcommand{\unicode@questeq}{\mathrel{\overset{?}{=}}}
+\newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
+% binary operators
+\newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!+}}% chktex 21
+\newcommand{\unicode@cupdot}{\mathbin{\mathaccent\cdot\cup}}% REF: https://tex.stackexchange.com/a/91059
+% operators
+\newcommand{\unicode@bigcupdot}{\mathop{\mathaccent\cdot\bigcup}}% REF: https://tex.stackexchange.com/a/91059
+% relations
+\newcommand{\unicode@bagmember}{\mathrel{\mathsf{E}}}
+\newcommand{\unicode@defeq}{\mathrel{\overset{\mathclap{\scriptscriptstyle\text{def}}}{=}}}
+\newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle\triangle}{=}}}
 \newcommand{\unicode@exclameq}{\mathrel{\overset{!}{=}}}% not in Unicode!
-\newcommand{\unicode@nimplies}{\centernot{\implies}}
-\newcommand{\unicode@nimpliedby}{\centernot{\impliedby}}
+\newcommand{\unicode@hateq}{\mathrel{\hat{=}}}
+\newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
+\newcommand{\unicode@leftsquigarrow}{\mathrel{\reflectbox{$\rightsquigarrow$}}}% REF: https://tex.stackexchange.com/a/195027
+\newcommand{\unicode@longmapsfrom}{\mathrel{\reflectbox{$\longmapsto$}}}% REF: https://tex.stackexchange.com/a/195027
+\newcommand{\unicode@questeq}{\mathrel{\overset{?}{=}}}
+\newcommand{\unicode@simneqq}{\mathrel{\mathaccent\sim\neq}}
+\newcommand{\unicode@circledequal}{\mathrel{\mathrlap{\bigcirc}=}}
+% relations negated
 \newcommand{\unicode@napprox}{\centernot{\approx}}
 \newcommand{\unicode@niff}{\centernot{\iff}}
-\newcommand{\unicode@leftsquigarrow}{\mathrel{\reflectbox{$\rightsquigarrow$}}}% REF: https://tex.stackexchange.com/a/195027/119955
-\newcommand{\unicode@increment}{\mathord{\Delta}}% U+2206
+\newcommand{\unicode@nimpliedby}{\centernot{\impliedby}}
+\newcommand{\unicode@nimplies}{\centernot{\implies}}
+\newcommand{\unicode@nni}{\centernot{\ni}}
+\newcommand{\unicode@nsubset}{\centernot{\subset}}
+\newcommand{\unicode@nsupset}{\centernot{\supset}}
+\newcommand{\unicode@nsqsubseteq}{\centernot{\sqsubseteq}}
+\newcommand{\unicode@nsqsupseteq}{\centernot{\sqsupseteq}}
+% delimiters
+\newcommand{\unicode@rParen}{\mathclose{)\!\!)}}% chktex 10
+\newcommand{\unicode@lParen}{\mathopen{(\!\!(}}% chktex 10
+\newcommand{\unicode@rBrace}{\mathclose{\}\!\!\}}}
+\newcommand{\unicode@lBrace}{\mathopen{\{\!\!\{}}
+\newcommand{\unicode@rAngle}{\mathclose{\rangle\!\!\rangle}}
+\newcommand{\unicode@lAngle}{\mathopen{\langle\!\!\langle}}
+\newcommand{\unicode@rBrack}{\mathclose{]\!\!]}}% chktex 15
+\newcommand{\unicode@lBrack}{\mathopen{[\!\![}}% chktex 15
 % endregion fallbacks ------------------------------------------------------------------
 
 
@@ -334,6 +380,13 @@
 \newcommand{\hxmark}{\text{\ding{56}}}% ✘ (U+2718: Heavy Ballot X)
 % endregion checkmarks -----------------------------------------------------------------
 
+% region aliases -----------------------------------------------------------------------
+\providecommand{\mapsup}{\upmapsto}
+\providecommand{\mapsfrom}{\leftmapsto}
+\providecommand{\mapsdown}{\downmapsto}
+\providecommand{\downzigzagarrow}{\lightning}
+\providecommand{\approxident}{\triplesim}
+% endregion aliases --------------------------------------------------------------------
 
 % region text/math macros --------------------------------------------------------------
 \providecommand{\transpose}{\unicode@transpose}
@@ -353,6 +406,28 @@
 \providecommand{\unaryminus}{\unicode@unaryminus}
 \providecommand{\smallplus}{\unicode@smallplus}
 \providecommand{\smallminus}{\unicode@smallminus}
+\providecommand{\increment}{\unicode@increment}
+\providecommand{\bagmember}{\unicode@bagmember}
+\providecommand{\doubleplus}{\unicode@doubleplus}
+\providecommand{\rParen}{\unicode@rParen}
+\providecommand{\lParen}{\unicode@lParen}
+\providecommand{\rBrace}{\unicode@rBrace}
+\providecommand{\lBrace}{\unicode@lBrace}
+\providecommand{\rAngle}{\unicode@rAngle}
+\providecommand{\lAngle}{\unicode@lAngle}
+\providecommand{\rBrack}{\unicode@rBrack}
+\providecommand{\lBrack}{\unicode@lBrack}
+\providecommand{\nni}{\unicode@nni}
+\providecommand{\nsubset}{\unicode@nsubset}
+\providecommand{\nsupset}{\unicode@nsupset}
+\providecommand{\cupdot}{\unicode@cupdot}
+\providecommand{\bigcupdot}{\unicode@bigcupdot}
+\providecommand{\nsqsubseteq}{\unicode@nsqsubseteq}
+\providecommand{\nsqsupseteq}{\unicode@nsqsupseteq}
+\providecommand{\leftsquigarrow}{\unicode@leftsquigarrow}
+\providecommand{\longmapsfrom}{\unicode@longmapsfrom}
+\providecommand{\circledequal}{\unicode@circledequal}
+\providecommand{\simneqq}{\unicode@simneqq}
 % endregion text/math macros -----------------------------------------------------------
 
 
@@ -445,49 +520,31 @@
 \expandafter\let\csname u8:\detokenize{£}\endcsname\relax%
 % endregion free previously defined unicode chars --------------------------------------
 
-
-% region experimental ------------------------------------------------------------------
-\newunicodechar{𞁀}{\superscript{\transpose}}% U+1E040 Modifier Letter Cyrillic Small Te (Transpose)
-\newunicodechar{ᵸ}{\superscript{\hermitian}}% U+1D78 Modifier Letter Cyrillic En (Hermitian conjugate)
-\newunicodechar{≙}{\hateq} % U+2259 Estimates
-\newunicodechar{≜}{\deleq} % U+225C Delta Equal To
-\newunicodechar{≝}{\defeq} % U+225D Equal to By Definition
-\newunicodechar{≟}{\questeq} % U+225F Questioned Equal To
-\newunicodechar{⇍}{\nimpliedby}% U+21CD Leftwards Double Arrow with Stroke
-\newunicodechar{⇎}{\niff}% U+21CE Left Right Double Arrow with Stroke
-\newunicodechar{⇏}{\nimplies}% U+21CF Rightwards Double Arrow with Stroke
-% endregion experimental ---------------------------------------------------------------
-
-
 % region misc --------------------------------------------------------------------------
+\newunicodechar{£}{\pounds}
+\newunicodechar{§}{\S}
 \newunicodechar{©}{\copyright}
 \newunicodechar{¶}{\P}
-\newunicodechar{§}{\S}
-\newunicodechar{£}{\pounds}
-\newunicodechar{✓}{\cmark}
-\newunicodechar{✗}{\xmark}
-\newunicodechar{✔}{\hcmark}
-\newunicodechar{✘}{\hxmark}
-\newunicodechar{–}{\text{\textendash}}
-\newunicodechar{—}{\text{\textemdash}}
-\newunicodechar{﹢}{\unaryplus}
-\newunicodechar{﹣}{\unaryminus}
-\newunicodechar{√}{\ensuremath{\sqrt}}
-\newunicodechar{∞}{\ensuremath{\infty}}
-\newunicodechar{⧺}{\ensuremath{\doubleplus}}% concatenation
-\newunicodechar{⌊}{\lfloor}
-\newunicodechar{⌋}{\rfloor}
-\newunicodechar{⌈}{\lceil}
-\newunicodechar{⌉}{\rceil}
+\newunicodechar{ħ}{\hbar}
+\newunicodechar{–}{\textendash}
+\newunicodechar{—}{\textemdash}
 \newunicodechar{“}{\textquotedblleft}
 \newunicodechar{”}{\textquotedblright}
+\newunicodechar{†}{\dag}
+\newunicodechar{‡}{\ddag}
+\newunicodechar{ℓ}{\ell}
 \newunicodechar{™}{\texttrademark}
-\newunicodechar{†}{\unicode@dagger}
-\newunicodechar{‡}{\unicode@ddagger}
-\newunicodechar{↯}{\contradiction}
+\newunicodechar{ℵ}{\aleph}
+\newunicodechar{ℶ}{\beth}
+\newunicodechar{ℷ}{\gimel}
+\newunicodechar{ℸ}{\daleth}
+\newunicodechar{∞}{\infty}
 \newunicodechar{⊺}{\intercal}
+\newunicodechar{✓}{\cmark}
+\newunicodechar{✔}{\hcmark}
+\newunicodechar{✗}{\xmark}
+\newunicodechar{✘}{\hxmark}
 % endregion misc -----------------------------------------------------------------------
-
 
 % region combining characters ----------------------------------------------------------
 \newunicodechar{̂}{\hat}% chktex 14
@@ -501,26 +558,28 @@
 \newunicodechar{᪲}{\inftyabove}% chktex 14
 % endregion combining characters -------------------------------------------------------
 
-
-% region special characters ------------------------------------------------------------
-\newunicodechar{ℓ}{\ensuremath{\ell}}
-\newunicodechar{ħ}{\ensuremath{\hbar}}
-\newunicodechar{ℵ}{\ensuremath{\aleph}}
-\newunicodechar{ℶ}{\ensuremath{\beth}}
-\newunicodechar{ℷ}{\ensuremath{\gimel}}
-\newunicodechar{ℸ}{\ensuremath{\daleth}}
-% endregion special characters ---------------------------------------------------------
-
-
 % region operators ---------------------------------------------------------------------
-\newunicodechar{∝}{\propto}
+% region unary operators ---------------------------------------------------------------
+\newunicodechar{√}{\sqrt}
+\newunicodechar{∠}{\angle}
+\newunicodechar{∡}{\measuredangle}
+\newunicodechar{∢}{\sphericalangle}
+\newunicodechar{﹢}{\unaryplus}
+\newunicodechar{﹣}{\unaryminus}
+% endregion unary operators ------------------------------------------------------------
+
+% region binary operators --------------------------------------------------------------
+\newunicodechar{±}{\pm}
+\newunicodechar{÷}{\div}
+\newunicodechar{∓}{\mp}
+\newunicodechar{∘}{\circ}
+\newunicodechar{∥}{\parallel}
 \newunicodechar{≔}{\coloneq}
 \newunicodechar{≕}{\eqcolon}
-\newunicodechar{÷}{\div}
-\newunicodechar{∘}{\circ}
 \newunicodechar{○}{\bigcirc}
-\newunicodechar{±}{\pm}
-\newunicodechar{∓}{\mp}
+\newunicodechar{⟂}{\perp}
+\newunicodechar{⧺}{\doubleplus}% concatenation
+\newunicodechar{⫫}{\indep}
 
 % region circled operators -------------------------------------------------------------
 \newunicodechar{⊙}{\odot}
@@ -532,9 +591,6 @@
 \newunicodechar{⊛}{\circledast}
 \newunicodechar{⊜}{\circledequal}
 \newunicodechar{⊝}{\circleddash}
-\newunicodechar{⨀}{\bigodot}
-\newunicodechar{⨁}{\bigoplus}
-\newunicodechar{⨂}{\bigotimes}
 % endregion circled operators ----------------------------------------------------------
 
 % region square operators --------------------------------------------------------------
@@ -543,6 +599,16 @@
 \newunicodechar{⊟}{\boxminus}
 \newunicodechar{⊠}{\boxtimes}
 % endregion square operators -----------------------------------------------------------
+% endregion binary operators -----------------------------------------------------------
+
+% region n-ary operators ---------------------------------------------------------------
+\newunicodechar{∑}{\sum}
+\newunicodechar{∏}{\prod}
+\newunicodechar{∐}{\coprod}
+\newunicodechar{⨀}{\bigodot}
+\newunicodechar{⨁}{\bigoplus}
+\newunicodechar{⨂}{\bigotimes}
+% endregion n-ary operators ------------------------------------------------------------
 % endregion operators ------------------------------------------------------------------
 
 
@@ -577,33 +643,34 @@
 \newunicodechar{→}{\unicode@rightarrow}
 \newunicodechar{↓}{\unicode@downarrow}
 \newunicodechar{↑}{\unicode@uparrow}
+
 \newunicodechar{↗}{\nearrow}
 \newunicodechar{↘}{\searrow}
 \newunicodechar{↙}{\swarrow}
 \newunicodechar{↖}{\nwarrow}
+
 \newunicodechar{↕}{\updownarrow}
 \newunicodechar{↔}{\leftrightarrow}
 
-\newunicodechar{↥}{\mapsup}
 \newunicodechar{↞}{\twoheadleftarrow}
 \newunicodechar{↠}{\twoheadrightarrow}
 
 \newunicodechar{⟶}{\longrightarrow}
-\newunicodechar{↦}{\mapsto}
-\newunicodechar{⟼}{\longmapsto}
-
 \newunicodechar{⟵}{\longleftarrow}
+
 \newunicodechar{↤}{\mapsfrom}
+\newunicodechar{↥}{\mapsup}
+\newunicodechar{↦}{\mapsto}
+\newunicodechar{↧}{\mapsdown}
 \newunicodechar{⟻}{\longmapsfrom}
+\newunicodechar{⟼}{\longmapsto}
 
 \newunicodechar{⇝}{\rightsquigarrow}
 \newunicodechar{⇜}{\leftsquigarrow}
 \newunicodechar{↭}{\leftrightsquigarrow}
-
 \newunicodechar{⟿}{\longrightsquigarrow}
 \newunicodechar{⬳}{\longleftsquigarrow}
 % endregion arrows ---------------------------------------------------------------------
-
 
 % region dots --------------------------------------------------------------------------
 \newunicodechar{…}{\ldots}
@@ -616,36 +683,25 @@
 \newunicodechar{；}{;\,}% fullwidth semicolon
 % endregion dots -----------------------------------------------------------------------
 
-
-% region probability -------------------------------------------------------------------
-\newunicodechar{⫫}{\indep}
-% endregion probability ----------------------------------------------------------------
-
-
-% region brackets ----------------------------------------------------------------------
+% region delimiters --------------------------------------------------------------------
+\newunicodechar{‖}{\|}
+\newunicodechar{∣}{\mid}
+\newunicodechar{⌈}{\lceil}
+\newunicodechar{⌉}{\rceil}
+\newunicodechar{⌊}{\lfloor}
+\newunicodechar{⌋}{\rfloor}
+\newunicodechar{║}{\big\|}% chktex 21
 \newunicodechar{⟦}{\lBrack}% U+27E6 Mathematical Left White Square Bracket
 \newunicodechar{⟧}{\rBrack}% U+27E7 Mathematical Right White Square Bracket
+\newunicodechar{⟨}{\langle}
+\newunicodechar{⟩}{\rangle}
 \newunicodechar{⟪}{\lAngle}% U+27EA Mathematical Left Angle Bracket
 \newunicodechar{⟫}{\rAngle}% U+27EB Mathematical Right Angle Bracket
 \newunicodechar{⦃}{\lBrace}% U+2983 Left White Curly Bracket
 \newunicodechar{⦄}{\rBrace}% U+2984 Right White Curly Bracket
 \newunicodechar{⦅}{\lParen}% U+2985 Left White Parenthesis
 \newunicodechar{⦆}{\rParen}% U+2986 Right White Parenthesis
-% endregion brackets -------------------------------------------------------------------
-
-
-% region linear algebra ----------------------------------------------------------------
-\newunicodechar{⟨}{\langle}
-\newunicodechar{⟩}{\rangle}
-\newunicodechar{∣}{\mid}
-\newunicodechar{‖}{\|}
-\newunicodechar{║}{\big\|}% chktex 21
-\newunicodechar{∥}{\parallel}
-\newunicodechar{∠}{\angle}
-\newunicodechar{∡}{\measuredangle}
-\newunicodechar{∢}{\sphericalangle}
-\newunicodechar{⟂}{\perp}
-% endregion linear algebra -------------------------------------------------------------
+% endregion delimiters -----------------------------------------------------------------
 
 
 % region set theory --------------------------------------------------------------------
@@ -656,23 +712,18 @@
 \newunicodechar{∅}{\varnothing}
 \newunicodechar{∁}{\complement}
 \newunicodechar{∖}{\setminus}
-
 \newunicodechar{⊂}{\subset}
 \newunicodechar{⊆}{\subseteq}
 \newunicodechar{⊃}{\supset}
 \newunicodechar{⊇}{\supseteq}
-
 \newunicodechar{⊄}{\nsubset}
 \newunicodechar{⊈}{\nsubseteq}
 \newunicodechar{⊅}{\nsupset}
 \newunicodechar{⊉}{\nsupseteq}
-
 \newunicodechar{∪}{\cup}% set union
 \newunicodechar{⋃}{\bigcup}% set union
-
 \newunicodechar{∩}{\cap}% set intersection
 \newunicodechar{⋂}{\bigcap}% set intersection
-
 \newunicodechar{×}{\times}% cartesian product
 \newunicodechar{⨉}{\bigtimes}% cartesian product
 % region multiset ----------------------------------------------------------------------
@@ -680,19 +731,15 @@
 \newunicodechar{⨄}{\biguplus}% multiset union
 \newunicodechar{⊍}{\cupdot}% multiset union
 \newunicodechar{⨃}{\bigcupdot}% multiset union
-
 \newunicodechar{⋿}{\bagmember}% bag membership
-
 \newunicodechar{⊏}{\sqsubset}% bag subset
 \newunicodechar{⊑}{\sqsubseteq} % bag subseteq
 \newunicodechar{⊐}{\sqsupset}% bag superset
 \newunicodechar{⊒}{\sqsupseteq}% bag superseteq
-
 \newunicodechar{⋢}{\nsqsubseteq}
 \newunicodechar{⋣}{\nsqsupseteq}
 \newunicodechar{⋤}{\sqsubsetneq}
 \newunicodechar{⋥}{\sqsupsetneq}
-
 \newunicodechar{⊔}{\sqcup}% bag union
 \newunicodechar{⨆}{\bigsqcup}% bag union
 \newunicodechar{⊓}{\sqcap}% bag intersection
@@ -700,21 +747,20 @@
 % endregion multiset -------------------------------------------------------------------
 % endregion set theory -----------------------------------------------------------------
 
-
+% region relations ---------------------------------------------------------------------
 % region inequality-like ---------------------------------------------------------------
+\newunicodechar{∝}{\propto}
 \newunicodechar{≻}{\succ}
 \newunicodechar{⪰}{\succeq}
 \newunicodechar{≺}{\prec}
 \newunicodechar{⪯}{\preceq}
 \newunicodechar{≍}{\asymp}
-
 \newunicodechar{≤}{\le}
 \newunicodechar{≥}{\ge}
 \newunicodechar{≳}{\gtrsim}
 \newunicodechar{≲}{\lesssim}
 \newunicodechar{⪆}{\gtrapprox}
 \newunicodechar{⪅}{\lessapprox}
-
 \newunicodechar{≫}{\gg}
 \newunicodechar{≪}{\ll}
 \newunicodechar{⋘}{\lll}
@@ -724,54 +770,51 @@
 
 % region equivalence-like --------------------------------------------------------------
 \newunicodechar{∼}{\sim}
-\newunicodechar{≈}{\approx}
-\newunicodechar{≃}{\simeq}
-\newunicodechar{≌}{\backcong}
-\newunicodechar{≅}{\cong}
-\newunicodechar{≊}{\approxeq}
-\newunicodechar{≋}{\approxident}
-\newunicodechar{≡}{\equiv}
-\newunicodechar{≗}{\circeq}
-\newunicodechar{≐}{\doteq}
-
-\newunicodechar{≠}{\ne}
 \newunicodechar{≁}{\nsim}
-\newunicodechar{≉}{\napprox}
+\newunicodechar{≃}{\simeq}
+\newunicodechar{≅}{\cong}
 \newunicodechar{≆}{\simneqq}
 \newunicodechar{≇}{\ncong}
+\newunicodechar{≈}{\approx}
+\newunicodechar{≉}{\napprox}
+\newunicodechar{≊}{\approxeq}
+\newunicodechar{≋}{\approxident}
+\newunicodechar{≌}{\backcong}
+\newunicodechar{≐}{\doteq}
+\newunicodechar{≗}{\circeq}
+\newunicodechar{≙}{\hateq}% U+2259 Estimates
+\newunicodechar{≜}{\deleq}% U+225C Delta Equal To
+\newunicodechar{≝}{\defeq}% U+225D Equal to By Definition
+\newunicodechar{≟}{\questeq}% U+225F Questioned Equal To
+\newunicodechar{≠}{\ne}
+\newunicodechar{≡}{\equiv}
 % endregion equivalence-like -----------------------------------------------------------
-
-
-% region integrals, sums and products --------------------------------------------------
-\newunicodechar{∑}{\sum}
-\newunicodechar{∏}{\prod}
-\newunicodechar{∐}{\coprod}
-% endregion integrals, sums and products -----------------------------------------------
-
+% endregion relations ------------------------------------------------------------------
 
 % region logic -------------------------------------------------------------------------
-\newunicodechar{⟹}{\implies}
-\newunicodechar{⟸}{\impliedby}
-\newunicodechar{⟺}{\iff}
 \newunicodechar{¬}{\neg}
+\newunicodechar{↯}{\contradiction}% U+21AF Downwards Zigzag Arrow
+\newunicodechar{⇍}{\nimpliedby}% U+21CD Leftwards Double Arrow with Stroke
+\newunicodechar{⇎}{\niff}% U+21CE Left Right Double Arrow with Stroke
+\newunicodechar{⇏}{\nimplies}% U+21CF Rightwards Double Arrow with Stroke
+\newunicodechar{∀}{\forall}
 \newunicodechar{∃}{\exists}
 \newunicodechar{∄}{\nexists}
-\newunicodechar{∀}{\forall}
-
-\newunicodechar{⊥}{\bot}
-\newunicodechar{⊤}{\top}
+\newunicodechar{∧}{\wedge}
+\newunicodechar{∨}{\vee}
 \newunicodechar{⊢}{\vdash}
+\newunicodechar{⊤}{\top}
+\newunicodechar{⊥}{\bot}
 \newunicodechar{⊨}{\vDash}
-
 \newunicodechar{⊬}{\nvdash}% U+22AC
 \newunicodechar{⊭}{\nvDash}% U+22AD
 \newunicodechar{⊮}{\nVdash}% U+22AE
 \newunicodechar{⊯}{\nVDash}% U+22AF
-
-\newunicodechar{∨}{\vee}
-\newunicodechar{∧}{\wedge}
-\newunicodechar{⋁}{\bigvee}
 \newunicodechar{⋀}{\bigwedge}
+\newunicodechar{⋁}{\bigvee}
+\newunicodechar{⟸}{\impliedby}
+\newunicodechar{⟹}{\implies}
+\newunicodechar{⟺}{\iff}
 % endregion logic ----------------------------------------------------------------------
 
 
@@ -1030,6 +1073,8 @@
 \newunicodechar{⁼}{\superscript{=}}
 \newunicodechar{⁽}{\superscript{(}}% chktex 9
 \newunicodechar{⁾}{\superscript{)}}% chktex 9
+\newunicodechar{𞁀}{\superscript{\transpose}}% U+1E040 Modifier Letter Cyrillic Small Te (Transpose)
+\newunicodechar{ᵸ}{\superscript{\hermitian}}% U+1D78 Modifier Letter Cyrillic En (Hermitian conjugate)
 % endregion superscript symbols --------------------------------------------------------
 % endregion superscripts (\^<char>) ----------------------------------------------------
 

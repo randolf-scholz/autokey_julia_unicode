@@ -15,7 +15,7 @@
 	% text
 	& \rowTEXT & #2
 	% math
-	& \rowMATH & #2
+	& \rowMATH & \ensuremath{#2}
 	% end
 	\\%
 }
@@ -51,7 +51,7 @@ ref & \multicolumn{2}{c|}{\textbf{text}} & \multicolumn{2}{c}{\textbf{math}} \\
 \makerow{ª}[text=\textordfeminine     ]
 \makerow{º}[text=\textordmasculine    ]
 \makerow{¶}[text=\textparagraph       ]
-\makerow{⋅}[text=\textperiodcentered  ]
+%\makerow{⋅}[text=\textperiodcentered  ]
 \makerow{‱}[text=\textpertenthousand  ]
 \makerow{‰}[text=\textperthousand     ]
 \makerow{¿}[text=\textquestiondown    ]
