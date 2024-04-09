@@ -237,6 +237,7 @@
     \ensuremath{\mathbb{#1}}%
 \fi\fi%
 }
+\newcommand{\unicode@bbi}[1]{\mathbb{\mathit{#1}}}
 % endregion font families --------------------------------------------------------------
 
 
@@ -831,7 +832,7 @@
 \newunicodechar{β}{\ensuremath{\beta}}
 \newunicodechar{γ}{\ensuremath{\gamma}}
 \newunicodechar{δ}{\ensuremath{\delta}}
-\newunicodechar{ϵ}{\ensuremath{\epsilon}}
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
 \newunicodechar{ζ}{\ensuremath{\zeta}}
 \newunicodechar{η}{\ensuremath{\heta}}
 \newunicodechar{θ}{\ensuremath{\theta}}
@@ -848,24 +849,18 @@
 \newunicodechar{σ}{\ensuremath{\sigma}}
 \newunicodechar{τ}{\ensuremath{\tau}}
 \newunicodechar{υ}{\ensuremath{\upsilon}}
-\newunicodechar{ϕ}{\ensuremath{\phi}}
+\newunicodechar{φ}{\ensuremath{\varphi}}
 \newunicodechar{χ}{\ensuremath{\chi}}
 \newunicodechar{ψ}{\ensuremath{\psi}}
 \newunicodechar{ω}{\ensuremath{\omega}}
 \newunicodechar{∂}{\ensuremath{\partial}}% U+2202 Partial Differential
-% endregion greek lowercase ------------------------------------------------------------
-
-% region greek variants ----------------------------------------------------------------
-\newunicodechar{ε}{\ensuremath{\varepsilon}}
-\newunicodechar{φ}{\ensuremath{\varphi}}
+\newunicodechar{ϵ}{\ensuremath{\epsilon}}
 \newunicodechar{ϑ}{\ensuremath{\vartheta}}
-\newunicodechar{ϖ}{\ensuremath{\varpi}}
 \newunicodechar{ϰ}{\ensuremath{\varkappa}}
+\newunicodechar{ϕ}{\ensuremath{\phi}}
 \newunicodechar{ϱ}{\ensuremath{\varrho}}
-% endregion greek variants -------------------------------------------------------------
-
-% region greek special -----------------------------------------------------------------
-% endregion greek special --------------------------------------------------------------
+\newunicodechar{ϖ}{\ensuremath{\varpi}}
+% endregion greek lowercase ------------------------------------------------------------
 % endregion greek ----------------------------------------------------------------------
 
 % region hebrew ------------------------------------------------------------------------
@@ -919,11 +914,11 @@
 % endregion subscript lowercase latin --------------------------------------------------
 
 % region subscript lowercase greek -----------------------------------------------------
-\newunicodechar{ᵦ}{\subscript{\ensuremath{\beta}}}
-\newunicodechar{ᵧ}{\subscript{\ensuremath{\gamma}}}
-\newunicodechar{ᵨ}{\subscript{\ensuremath{\varrho}}}
-\newunicodechar{ᵩ}{\subscript{\ensuremath{\varphi}}}
-\newunicodechar{ᵪ}{\subscript{\ensuremath{\chi}}}
+\newunicodechar{ᵦ}{\subscript{β}}
+\newunicodechar{ᵧ}{\subscript{γ}}
+\newunicodechar{ᵨ}{\subscript{ϱ}}
+\newunicodechar{ᵩ}{\subscript{φ}}
+\newunicodechar{ᵪ}{\subscript{χ}}
 % endregion subscript lowercase greek --------------------------------------------------
 
 % region subscript digits --------------------------------------------------------------
@@ -970,14 +965,14 @@
 \newunicodechar{ᴾ}{\superscript{P}}
 % \newunicodechar{\^Q}{\superscript{Q}}
 \newunicodechar{ᴿ}{\superscript{R}}
-%\newunicodechar{\^S}{\superscript{S}}
+% \newunicodechar{\^S}{\superscript{S}}
 \newunicodechar{ᵀ}{\superscript{T}}
 \newunicodechar{ᵁ}{\superscript{U}}
 \newunicodechar{ⱽ}{\superscript{V}}
 \newunicodechar{ᵂ}{\superscript{W}}
-%\newunicodechar{\^X}{\superscript{X}}
-%\newunicodechar{\^Y}{\superscript{Y}}
-%\newunicodechar{\^Z}{\superscript{Z}}
+% \newunicodechar{\^X}{\superscript{X}}
+% \newunicodechar{\^Y}{\superscript{Y}}
+% \newunicodechar{\^Z}{\superscript{Z}}
 % endregion superscript uppercase latin ------------------------------------------------
 
 % region superscript lowercase latin ---------------------------------------------------
@@ -1010,16 +1005,16 @@
 % endregion superscript lowercase latin ------------------------------------------------
 
 % region superscript lowercase greek ---------------------------------------------------
-\newunicodechar{ᵅ}{\superscript{\ensuremath{\alpha}}}
-\newunicodechar{ᵝ}{\superscript{\ensuremath{\beta}}}
-\newunicodechar{ᵞ}{\superscript{\ensuremath{\gamma}}}
-\newunicodechar{ᵟ}{\superscript{\ensuremath{\delta}}}
-\newunicodechar{ᵋ}{\superscript{\ensuremath{\varepsilon}}}
-\newunicodechar{ᶿ}{\superscript{\ensuremath{\theta}}}
-\newunicodechar{ᶥ}{\superscript{\ensuremath{\iota}}}
-\newunicodechar{ᶹ}{\superscript{\ensuremath{\upsilon}}}
-\newunicodechar{ᵠ}{\superscript{\ensuremath{\varphi}}}
-\newunicodechar{ᵡ}{\superscript{\ensuremath{\chi}}}
+\newunicodechar{ᵅ}{\superscript{α}}
+\newunicodechar{ᵋ}{\superscript{ε}}
+\newunicodechar{ᵝ}{\superscript{β}}
+\newunicodechar{ᵞ}{\superscript{γ}}
+\newunicodechar{ᵟ}{\superscript{δ}}
+\newunicodechar{ᵠ}{\superscript{φ}}
+\newunicodechar{ᵡ}{\superscript{χ}}
+\newunicodechar{ᶥ}{\superscript{ι}}
+\newunicodechar{ᶹ}{\superscript{υ}}
+\newunicodechar{ᶿ}{\superscript{θ}}
 % endregion superscript lowercase greek ------------------------------------------------
 
 % region superscript digits ------------------------------------------------------------
@@ -2148,13 +2143,13 @@
 % endregion blackboard bold digits -----------------------------------------------------
 
 % region blackboard bold lowercase greek -----------------------------------------------
-\newunicodechar{ℽ}{\unicode@bb{\gamma}}% U+213D  Double-Struck Small Gamma
-\newunicodechar{ℼ}{\unicode@bb{\pi}}% U+213C  Double-Struck Small Pi
+\newunicodechar{ℽ}{\unicode@bb{γ}}% U+213D  Double-Struck Small Gamma
+\newunicodechar{ℼ}{\unicode@bb{π}}% U+213C  Double-Struck Small Pi
 % endregion blackboard bold lowercase greek --------------------------------------------
 
 % region blackboard bold capital greek -------------------------------------------------
-\newunicodechar{ℾ}{\unicode@bb{\Gamma}}% U+213E  Double-Struck Capital Gamma
-\newunicodechar{ℿ}{\unicode@bb{\Pi}} % U+213F  Double-Struck Capital Pi
+\newunicodechar{ℾ}{\unicode@bb{Γ}}% U+213E  Double-Struck Capital Gamma
+\newunicodechar{ℿ}{\unicode@bb{Π}} % U+213F  Double-Struck Capital Pi
 % endregion blackboard bold capital greek ----------------------------------------------
 
 % region blackboard symbols ------------------------------------------------------------
@@ -2164,11 +2159,11 @@
 
 % \bbi<char>
 % region blackboard bold italic characters (\bbi<char>) --------------------------------
-\newunicodechar{ⅅ}{\unicode@bb{\mathit{D}}}% U+2145  Double-Struck Italic Capital D
-\newunicodechar{ⅆ}{\unicode@bb{\mathit{d}}}% U+2146  Double-Struck Italic Small D
-\newunicodechar{ⅇ}{\unicode@bb{\mathit{e}}}% U+2147  Double-Struck Italic Small E
-\newunicodechar{ⅈ}{\unicode@bb{\mathit{i}}}% U+2148  Double-Struck Italic Small I
-\newunicodechar{ⅉ}{\unicode@bb{\mathit{j}}}% U+2149  Double-Struck Italic Small J
+\newunicodechar{ⅅ}{\unicode@bbi{D}}% U+2145  Double-Struck Italic Capital D
+\newunicodechar{ⅆ}{\unicode@bbi{d}}% U+2146  Double-Struck Italic Small D
+\newunicodechar{ⅇ}{\unicode@bbi{e}}% U+2147  Double-Struck Italic Small E
+\newunicodechar{ⅈ}{\unicode@bbi{i}}% U+2148  Double-Struck Italic Small I
+\newunicodechar{ⅉ}{\unicode@bbi{j}}% U+2149  Double-Struck Italic Small J
 % endregion blackboard bold italic characters (\bbi<char>) -----------------------------
 
 % \tt<char>
@@ -2271,7 +2266,7 @@
 \newunicodechar{ᴜ}{\textsc{u}}% U+1D1C Latin Letter Small Capital U
 \newunicodechar{ᴠ}{\textsc{v}}% U+1D20 Latin Letter Small Capital V
 \newunicodechar{ᴡ}{\textsc{w}}% U+1D21 Latin Letter Small Capital W
-%\newunicodechar{}{\textsc{x}}% U+???? Latin Letter Small Capital X
+% \newunicodechar{}{\textsc{x}}% U+???? Latin Letter Small Capital X
 \newunicodechar{ʏ}{\textsc{y}}% U+028F Latin Letter Small Capital Y
 \newunicodechar{ᴢ}{\textsc{z}}% U+1D22 Latin Letter Small Capital Z
 % endregion small caps uppercase latin -------------------------------------------------
