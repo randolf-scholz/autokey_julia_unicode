@@ -2,94 +2,108 @@
 % This tests symbols defined by the textcomp package.
 %
 \documentclass{standalone}
-\usepackage[T1]{fontenc}
-\usepackage[verbose]{newunicodechar}
-\usepackage{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
-\usepackage{lmodern}
+
+\usepackage{test_setup}
+\usepackage[nostix]{unicode-symbols}
+
+
+\NewDocumentCommand{\makerow}{s m O{}}{%
+\pgfkeys{/makerow, default, #3}% set defaults
+%
+	#2%
+	% text
+	& \rowTEXT & #2
+	% math
+	& \rowMATH & #2
+	% end
+	\\%
+}
 
 \begin{document}
-\begin{tabular}{ll}
+\begin{tabular}{l|ll|ll}  % chktex 44
 \toprule
-\`{x} & \\
-\'{x} & \\
-\^{x} & \\
-\~{x} & \\
-\"{x} & \\
-\H{x} & \\
-\r{x} & \\
-\v{x} & \\
-\u{x} & \\
-\t{x} & \\
-\={x} & \\
-\.{x} & \\
-\b{x} & \\
-\c{x} & \\
-\d{x} & \\
-\k{x} & \\
+ref & \multicolumn{2}{c|}{\textbf{text}} & \multicolumn{2}{c}{\textbf{math}} \\
+\midrule% Modifiers -------------------------------------------------------------------------------
+\makerow{}[text={\`{x}}]
+\makerow{}[text={\'{x}}]
+\makerow{}[text={\^{x}}]
+\makerow{}[text={\~{x}}]
+\makerow{}[text={\"{x}}]
+\makerow{}[text={\H{x}}]
+\makerow{}[text={\r{x}}]
+\makerow{}[text={\v{x}}]
+\makerow{}[text={\u{x}}]
+\makerow{}[text={\t{x}}]
+\makerow{}[text={\={x}}]
+\makerow{}[text={\.{x}}]
+\makerow{}[text={\b{x}}]
+\makerow{}[text={\c{x}}]
+\makerow{}[text={\d{x}}]
+\makerow{}[text={\k{x}}]
+\midrule% Symbols -------------------------------------------------------------------------------
+\makerow{}[text=\AE                 ]
+\makerow{}[text=\DH                 ]
+\makerow{}[text=\DJ                 ]
+\makerow{}[text=\L                  ]
+\makerow{}[text=\NG                 ]
+\makerow{}[text=\OE                 ]
+\makerow{}[text=\O                  ]
+\makerow{}[text=\SS                 ]
+\makerow{}[text=\TH                 ]
+\makerow{}[text=\ae                 ]
+\makerow{}[text=\dh                 ]
+\makerow{}[text=\dj                 ]
+\makerow{}[text=\guillemotleft      ]
+\makerow{}[text=\guillemotright     ]
+\makerow{}[text=\guilsinglleft      ]
+\makerow{}[text=\guilsinglright     ]
+\makerow{}[text=\i                  ]
+\makerow{}[text=\j                  ]
+\makerow{}[text=\l                  ]
+\makerow{}[text=\ng                 ]
+\makerow{}[text=\oe                 ]
+\makerow{}[text=\o                  ]
+\makerow{}[text=\quotedblbase       ]
+\makerow{}[text=\quotesinglbase     ]
+\makerow{}[text=\ss                 ]
+\makerow{}[text=\textasciicircum    ]
+\makerow{}[text=\textasciitilde     ]
+\makerow{}[text=\textbackslash      ]
+\makerow{}[text=\textbar            ]
+\makerow{}[text=\textbraceleft      ]
+\makerow{}[text=\textbraceright     ]
+\makerow{}[text=\textcompwordmark   ]
+\makerow{}[text=\textdollar         ]
+\makerow{}[text=\textemdash         ]
+\makerow{}[text=\textendash         ]
+\makerow{}[text=\textexclamdown     ]
+\makerow{}[text=\textgreater        ]
+\makerow{}[text=\textless           ]
+\makerow{}[text=\textquestiondown   ]
+\makerow{}[text=\textquotedbl       ]
+\makerow{}[text=\textquotedblleft   ]
+\makerow{}[text=\textquotedblright  ]
+\makerow{}[text=\textquoteleft      ]
+\makerow{}[text=\textquoteright     ]
+\makerow{}[text=\textregistered     ]
+\makerow{}[text=\textsection        ]
+\makerow{}[text=\textsterling       ]
+\makerow{}[text=\texttrademark      ]
+\makerow{}[text=\textunderscore     ]
+\makerow{}[text=\textvisiblespace   ]
+\makerow{}[text=\th                 ]
+\midrule% Arrows --------------------------------------------------------------------------------
+\makerow{}[text=\textdownarrow      ]
+\makerow{}[text=\textrightarrow     ]
+\makerow{}[text=\textleftarrow      ]
+\makerow{}[text=\textuparrow        ]
 \midrule
-\AE                 & \\
-\DH                 & \\
-\DJ                 & \\
-\L                  & \\
-\NG                 & \\
-\OE                 & \\
-\O                  & \\
-\SS                 & \\
-\TH                 & \\
-\ae                 & \\
-\dh                 & \\
-\dj                 & \\
-\guillemotleft      & \\
-\guillemotright     & \\
-\guilsinglleft      & \\
-\guilsinglright     & \\
-\i                  & \\
-\j                  & \\
-\l                  & \\
-\ng                 & \\
-\oe                 & \\
-\o                  & \\
-\quotedblbase       & \\
-\quotesinglbase     & \\
-\ss                 & \\
-\textasciicircum    & \\
-\textasciitilde     & \\
-\textbackslash      & \\
-\textbar            & \\
-\textbraceleft      & \\
-\textbraceright     & \\
-\textcompwordmark   & \\
-\textdollar         & \\
-\textemdash         & \\
-\textendash         & \\
-\textexclamdown     & \\
-\textgreater        & \\
-\textless           & \\
-\textquestiondown   & \\
-\textquotedbl       & \\
-\textquotedblleft   & \\
-\textquotedblright  & \\
-\textquoteleft      & \\
-\textquoteright     & \\
-\textregistered     & \\
-\textsection        & \\
-\textsterling       & \\
-\texttrademark      & \\
-\textunderscore     & \\
-\textvisiblespace   & \\
-\th                 & \\
-\midrule
-\textdownarrow      & \\
-\textrightarrow     & \\
-\textleftarrow      & \\
-\textuparrow        & \\
-\midrule
-q\textdblhyphen r\\
-q\textdblhyphenchar r\\
-\texttwelveudash \\
-\textendash \\
+\makerow{}[text={q\textdblhyphen r    }]
+\makerow{}[text={q\textdblhyphenchar r}]
+\makerow{}[text=\texttwelveudash     ]
+\makerow{}[text=\textendash          ]
 \bottomrule
 \end{tabular}
 \end{document}

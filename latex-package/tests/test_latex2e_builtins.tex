@@ -1,65 +1,82 @@
 \documentclass{standalone}
-%\usepackage[T1]{fontenc}
-\usepackage[verbose]{newunicodechar}
-\usepackage{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
 
 
-\begin{document}
+\usepackage{test_setup}
+\usepackage[nostix]{unicode-symbols}
 
-\begin{tabular}{ll|ll}  % chktex 44
+
+
+\NewDocumentCommand{\makerow}{s m O{}}{%
+\pgfkeys{/makerow, default, #3}% set defaults
+%
+	#2%
+	% text
+	& \rowTEXT & #2
+	% math
+	& \rowMATH & #2
+	% end
+	\\%
+}
+
+
+
+\begin{document}
+\begin{tabular}{l|ll|ll}  % chktex 44
 \toprule
-\textasciicircum      & \\
-\textasciitilde       & \\
-\textasteriskcentered & \\
-\textbackslash        & \\
-\textbar              & \\
-\textbardbl           & \\
-\textbigcircle        & \\
-\textbraceleft        & \\
-\textbraceright       & \\
-\textbullet           & \\
-\textcopyright        & \\
-\textcelsius          & \\
-\textdagger           & \\
-\textdaggerdbl        & \\
-\textdollar           & \\
-\textellipsis         & \\
-\textemdash           & \\
-\textendash           & \\
-\textexclamdown       & \\
-\textgreater          & \\
-\textless             & \\
-\textordfeminine      & \\
-\textordmasculine     & \\
-\textparagraph        & \\
-\textperiodcentered   & \\
-\textpertenthousand   & \\
-\textperthousand      & \\
-\textquestiondown     & \\
-\textquotedblleft     & \\
-\textquotedblright    & \\
-\textquoteleft        & \\
-\textquoteright       & \\
-\textregistered       & \\
-\textsection          & \\
-\textsterling         & \\
-\texttrademark        & \\
-\textunderscore       & \\
-\textvisiblespace     & \\
-\midrule
-\{                    &   & $\{        $ & $ $ \\
-\}                    &   & $\}        $ & $ $ \\
-\$                    &   & $\$        $ & $ $ \\
-\_                    &   & $\_        $ & $ $ \\
-\copyright            & © & $\copyright$ & $©$ \\
-\dag                  & † & $\dag      $ & $†$ \\
-\ddag                 & ‡ & $\ddag     $ & $‡$ \\
-\dots                 & … & $\dots     $ & $…$ \\
-\P                    & ¶ & $\P        $ & $¶$ \\
-\S                    & § & $\S        $ & $§$ \\
-\pounds               & £ & $\pounds   $ & $£$ \\
+ref & \multicolumn{2}{c|}{\textbf{text}} & \multicolumn{2}{c}{\textbf{math}} \\
+\midrule% Text symbols ----------------------------------
+\makerow{}[text=\textasciicircum     ]
+\makerow{}[text=\textasciitilde      ]
+\makerow{}[text=\textasteriskcentered]
+\makerow{}[text=\textbackslash       ]
+\makerow{}[text=\textbar             ]
+\makerow{}[text=\textbardbl          ]
+\makerow{}[text=\textbigcircle       ]
+\makerow{}[text=\textbraceleft       ]
+\makerow{}[text=\textbraceright      ]
+\makerow{}[text=\textbullet          ]
+\makerow{©}[text=\textcopyright       ]
+\makerow{℃}[text=\textcelsius         ]
+\makerow{†}[text=\textdagger          ]
+\makerow{‡}[text=\textdaggerdbl       ]
+\makerow{}[text=\textdollar          ]
+\makerow{…}[text=\textellipsis        ]
+\makerow{}[text=\textemdash          ]
+\makerow{}[text=\textendash          ]
+\makerow{¡}[text=\textexclamdown      ]
+\makerow{}[text=\textgreater         ]
+\makerow{}[text=\textless            ]
+\makerow{ª}[text=\textordfeminine     ]
+\makerow{º}[text=\textordmasculine    ]
+\makerow{¶}[text=\textparagraph       ]
+\makerow{⋅}[text=\textperiodcentered  ]
+\makerow{‱}[text=\textpertenthousand  ]
+\makerow{‰}[text=\textperthousand     ]
+\makerow{¿}[text=\textquestiondown    ]
+\makerow{“}[text=\textquotedblleft    ]
+\makerow{”}[text=\textquotedblright   ]
+\makerow{‘}[text=\textquoteleft       ]
+\makerow{’}[text=\textquoteright      ]
+\makerow{®}[text=\textregistered      ]
+\makerow{§}[text=\textsection         ]
+\makerow{£}[text=\textsterling        ]
+\makerow{™}[text=\texttrademark       ]
+\makerow{}[text=\textunderscore      ]
+\makerow{␣}[text=\textvisiblespace    ]
+\midrule% text and math symbols ---------------------------
+\makerow{}[text=\{,          math=\{        ]
+\makerow{}[text=\},          math=\}        ]
+\makerow{}[text=\$,          math=\$        ]
+\makerow{}[text=\_,          math=\_        ]
+\makerow{©}[text=\copyright, math=\copyright]
+\makerow{†}[text=\dag,       math=\dag      ]
+\makerow{‡}[text=\ddag,      math=\ddag     ]
+\makerow{…}[text=\dots,      math=\dots     ]
+\makerow{¶}[text=\P,         math=\P        ]
+\makerow{§}[text=\S,         math=\S        ]
+\makerow{£}[text=\pounds,    math=\pounds   ]
 \bottomrule
 \end{tabular}
 \end{document}

@@ -1,0 +1,45 @@
+% !TeX TXS-program:compile = txs:///pdflatex
+\documentclass{standalone}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\usepackage{test_setup}
+\usepackage{unicode-symbols}
+
+
+\NewDocumentCommand{\makerow}{s m}{%
+%\pgfkeys{/makerow, default, #3}% set defaults
+	\umeaning{#2}%
+	% math mode
+	& $#2$%
+\IfBooleanT{#1}{% text mode
+	& #2%
+}%
+	% end
+	\\%
+}
+
+\begin{document}
+\begin{tabular}{lll}  % chktex 44
+\toprule
+ref & \textbf{math mode} & \textbf{text mode}
+\\ \midrule
+\makerow*{ⅰ}
+\makerow*{ⅱ}
+\makerow*{ⅲ}
+\makerow*{ⅳ}
+\makerow*{ⅴ}
+\makerow*{ⅵ}
+\makerow*{ⅶ}
+\makerow*{ⅷ}
+\makerow*{ⅸ}
+\makerow*{ⅹ}
+\makerow*{ⅺ}
+\makerow*{ⅻ}
+\makerow*{ⅼ}
+\makerow*{ⅽ}
+\makerow*{ⅾ}
+\makerow*{ⅿ}
+\bottomrule
+\end{tabular}
+\end{document}

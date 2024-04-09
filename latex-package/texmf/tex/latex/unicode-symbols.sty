@@ -265,6 +265,15 @@
 % region public interface ==============================================================
 % NOTE: These commands are provided for the user to use.
 
+% \subscript{} and \superscript{} are defined in unicode-subscripts and unicode-superscripts
+% These allow chaining of unicode subscripts, e.g. X\subscript{1}\subcsript{2} is identical to X₁₂
+
+\ProvideDocumentCommand{\umeaning}{m}{% prints the meaning of a unicode symbol
+% Adapted from newunicodechar pacakge
+\edef\unicode@meaning@temp{\detokenize{#1}}%
+\expandafter\expandafter\expandafter\strip@prefix\expandafter\meaning\csname u8:\unicode@meaning@temp\endcsname%
+}%
+
 \NewDocumentCommand{\unicode@makealias}{m O{} O{} O{} m}{%
 % Create alias for existing command. Up to 3 options can be provided.
 % \unicode@makealias{\alias}[\option1][\option2][\option3]{\fallback}

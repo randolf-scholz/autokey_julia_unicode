@@ -1,13 +1,11 @@
 % REF: https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols
 \documentclass[10pt]{standalone}
-\usepackage[utf8]{inputenc}
-\usepackage[verbose]{newunicodechar}
-\usepackage[stix]{unicode-symbols}
 \usepackage{booktabs}
 \usepackage{multicol}
-%\usepackage{times}
 
 \usepackage{test_setup}
+\usepackage[stix]{unicode-symbols}
+
 \usepackage[bb=dsfontserif]{mathalfa}
 
 \NewDocumentCommand{\makerow}{s m O{}}{%
@@ -35,6 +33,8 @@
 	& $\TT{#2}$     & $\rowTT$
 	& $\BB{#2}$     & $\rowBB$
 	& $\CIRC{#2}$   & $\rowCIRC$
+	% end
+	\\%
 }
 
 
@@ -42,72 +42,72 @@
 \begin{tabular}{c|cc cc cc cc|cc cc cc cc|cc cc|cc cc|cc cc cc}  % chktex 44
 \toprule
 	& \multicolumn{30}{|c}{\textbf{math mode}}  \\
-	& \multicolumn{8}{|c|}{serif}
-	& \multicolumn{8}{|c}{sans}
-	& \multicolumn{4}{|c}{script}
-	& \multicolumn{4}{|c}{fraktur}
-	& \multicolumn{6}{|c}{misc}
+	& \multicolumn{8}{|c|}{Serif}
+	& \multicolumn{8}{|c}{Sans}
+	& \multicolumn{4}{|c}{Script}
+	& \multicolumn{4}{|c}{Fraktur}
+	& \multicolumn{6}{|c}{Misc}
 \\ ref
 	& \multicolumn{2}{|c}{none} & \multicolumn{2}{c}{italic} & \multicolumn{2}{c}{bold} & \multicolumn{2}{c}{bf+it}
 	& \multicolumn{2}{|c}{none} & \multicolumn{2}{c}{italic} & \multicolumn{2}{c}{bold} & \multicolumn{2}{c}{bf+it}
 	& \multicolumn{2}{|c}{none} & \multicolumn{2}{c}{bold}
 	& \multicolumn{2}{|c}{none} & \multicolumn{2}{c}{bold}
 	& \multicolumn{2}{|c}{tt}   & \multicolumn{2}{c}{bb} & \multicolumn{2}{c}{circ}
-\\ \midrule
-% Latin uppercase ----------------------------------------------------------------------
-\makerow*{A}[bf=𝐀, it=𝐴, bi=𝑨, sf=𝖠, bsf=𝗔, isf=𝘈, bisf=𝘼, tt=𝙰, bb=𝔸, scr=𝒜, cal=𝓐, frak=𝔄, bfrak=𝕬, circ=Ⓐ] \\
-\makerow*{B}[bf=𝐁, it=𝐵, bi=𝑩, sf=𝖡, bsf=𝗕, isf=𝘉, bisf=𝘽, tt=𝙱, bb=𝔹, scr=ℬ, cal=𝓑, frak=𝔅, bfrak=𝕭, circ=Ⓑ] \\
-\makerow*{C}[bf=𝐂, it=𝐶, bi=𝑪, sf=𝖢, bsf=𝗖, isf=𝘊, bisf=𝘾, tt=𝙲, bb=ℂ, scr=𝒞, cal=𝓒, frak=ℭ, bfrak=𝕮, circ=Ⓒ] \\
-\makerow*{D}[bf=𝐃, it=𝐷, bi=𝑫, sf=𝖣, bsf=𝗗, isf=𝘋, bisf=𝘿, tt=𝙳, bb=𝔻, scr=𝒟, cal=𝓓, frak=𝔇, bfrak=𝕯, circ=Ⓓ] \\
-\makerow*{E}[bf=𝐄, it=𝐸, bi=𝑬, sf=𝖤, bsf=𝗘, isf=𝘌, bisf=𝙀, tt=𝙴, bb=𝔼, scr=ℰ, cal=𝓔, frak=𝔈, bfrak=𝕰, circ=Ⓔ] \\
-\makerow*{F}[bf=𝐅, it=𝐹, bi=𝑭, sf=𝖥, bsf=𝗙, isf=𝘍, bisf=𝙁, tt=𝙵, bb=𝔽, scr=ℱ, cal=𝓕, frak=𝔉, bfrak=𝕱, circ=Ⓕ] \\
-\makerow*{G}[bf=𝐆, it=𝐺, bi=𝑮, sf=𝖦, bsf=𝗚, isf=𝘎, bisf=𝙂, tt=𝙶, bb=𝔾, scr=𝒢, cal=𝓖, frak=𝔊, bfrak=𝕲, circ=Ⓖ] \\
-\makerow*{H}[bf=𝐇, it=𝐻, bi=𝑯, sf=𝖧, bsf=𝗛, isf=𝘏, bisf=𝙃, tt=𝙷, bb=ℍ, scr=ℋ, cal=𝓗, frak=ℌ, bfrak=𝕳, circ=Ⓗ] \\
-\makerow*{I}[bf=𝐈, it=𝐼, bi=𝑰, sf=𝖨, bsf=𝗜, isf=𝘐, bisf=𝙄, tt=𝙸, bb=𝕀, scr=ℐ, cal=𝓘, frak=ℑ, bfrak=𝕴, circ=Ⓘ] \\
-\makerow*{J}[bf=𝐉, it=𝐽, bi=𝑱, sf=𝖩, bsf=𝗝, isf=𝘑, bisf=𝙅, tt=𝙹, bb=𝕁, scr=𝒥, cal=𝓙, frak=𝔍, bfrak=𝕵, circ=Ⓙ] \\
-\makerow*{K}[bf=𝐊, it=𝐾, bi=𝑲, sf=𝖪, bsf=𝗞, isf=𝘒, bisf=𝙆, tt=𝙺, bb=𝕂, scr=𝒦, cal=𝓚, frak=𝔎, bfrak=𝕶, circ=Ⓚ] \\
-\makerow*{L}[bf=𝐋, it=𝐿, bi=𝑳, sf=𝖫, bsf=𝗟, isf=𝘓, bisf=𝙇, tt=𝙻, bb=𝕃, scr=ℒ, cal=𝓛, frak=𝔏, bfrak=𝕷, circ=Ⓛ] \\
-\makerow*{M}[bf=𝐌, it=𝑀, bi=𝑴, sf=𝖬, bsf=𝗠, isf=𝘔, bisf=𝙈, tt=𝙼, bb=𝕄, scr=ℳ, cal=𝓜, frak=𝔐, bfrak=𝕸, circ=Ⓜ] \\
-\makerow*{N}[bf=𝐍, it=𝑁, bi=𝑵, sf=𝖭, bsf=𝗡, isf=𝘕, bisf=𝙉, tt=𝙽, bb=ℕ, scr=𝒩, cal=𝓝, frak=𝔑, bfrak=𝕹, circ=Ⓝ] \\
-\makerow*{O}[bf=𝐎, it=𝑂, bi=𝑶, sf=𝖮, bsf=𝗢, isf=𝘖, bisf=𝙊, tt=𝙾, bb=𝕆, scr=𝒪, cal=𝓞, frak=𝔒, bfrak=𝕺, circ=Ⓞ] \\
-\makerow*{P}[bf=𝐏, it=𝑃, bi=𝑷, sf=𝖯, bsf=𝗣, isf=𝘗, bisf=𝙋, tt=𝙿, bb=ℙ, scr=𝒫, cal=𝓟, frak=𝔓, bfrak=𝕻, circ=Ⓟ] \\
-\makerow*{Q}[bf=𝐐, it=𝑄, bi=𝑸, sf=𝖰, bsf=𝗤, isf=𝘘, bisf=𝙌, tt=𝚀, bb=ℚ, scr=𝒬, cal=𝓠, frak=𝔔, bfrak=𝕼, circ=Ⓠ] \\
-\makerow*{R}[bf=𝐑, it=𝑅, bi=𝑹, sf=𝖱, bsf=𝗥, isf=𝘙, bisf=𝙍, tt=𝚁, bb=ℝ, scr=ℛ, cal=𝓡, frak=ℜ, bfrak=𝕽, circ=Ⓡ] \\
-\makerow*{S}[bf=𝐒, it=𝑆, bi=𝑺, sf=𝖲, bsf=𝗦, isf=𝘚, bisf=𝙎, tt=𝚂, bb=𝕊, scr=𝒮, cal=𝓢, frak=𝔖, bfrak=𝕾, circ=Ⓢ] \\
-\makerow*{T}[bf=𝐓, it=𝑇, bi=𝑻, sf=𝖳, bsf=𝗧, isf=𝘛, bisf=𝙏, tt=𝚃, bb=𝕋, scr=𝒯, cal=𝓣, frak=𝔗, bfrak=𝕿, circ=Ⓣ] \\
-\makerow*{U}[bf=𝐔, it=𝑈, bi=𝑼, sf=𝖴, bsf=𝗨, isf=𝘜, bisf=𝙐, tt=𝚄, bb=𝕌, scr=𝒰, cal=𝓤, frak=𝔘, bfrak=𝖀, circ=Ⓤ] \\
-\makerow*{V}[bf=𝐕, it=𝑉, bi=𝑽, sf=𝖵, bsf=𝗩, isf=𝘝, bisf=𝙑, tt=𝚅, bb=𝕍, scr=𝒱, cal=𝓥, frak=𝔙, bfrak=𝖁, circ=Ⓥ] \\
-\makerow*{W}[bf=𝐖, it=𝑊, bi=𝑾, sf=𝖶, bsf=𝗪, isf=𝘞, bisf=𝙒, tt=𝚆, bb=𝕎, scr=𝒲, cal=𝓦, frak=𝔚, bfrak=𝖂, circ=Ⓦ] \\
-\makerow*{X}[bf=𝐗, it=𝑋, bi=𝑿, sf=𝖷, bsf=𝗫, isf=𝘟, bisf=𝙓, tt=𝚇, bb=𝕏, scr=𝒳, cal=𝓧, frak=𝔛, bfrak=𝖃, circ=Ⓧ] \\
-\makerow*{Y}[bf=𝐘, it=𝑌, bi=𝒀, sf=𝖸, bsf=𝗬, isf=𝘠, bisf=𝙔, tt=𝚈, bb=𝕐, scr=𝒴, cal=𝓨, frak=𝔜, bfrak=𝖄, circ=Ⓨ] \\
-\makerow*{Z}[bf=𝐙, it=𝑍, bi=𝒁, sf=𝖹, bsf=𝗭, isf=𝘡, bisf=𝙕, tt=𝚉, bb=ℤ, scr=𝒵, cal=𝓩, frak=ℨ, bfrak=𝖅, circ=Ⓩ] \\ \midrule
-% latin lowercase ----------------------------------------------------------------------
-\makerow*{a}[bf=𝐚, it=𝑎, bi=𝒂, sf=𝖺, bsf=𝗮, isf=𝘢, bisf=𝙖, tt=𝚊, bb=𝕒, scr=𝒶, cal=𝓪, frak=𝔞, bfrak=𝖆, circ=ⓐ] \\
-\makerow*{b}[bf=𝐛, it=𝑏, bi=𝒃, sf=𝖻, bsf=𝗯, isf=𝘣, bisf=𝙗, tt=𝚋, bb=𝕓, scr=𝒷, cal=𝓫, frak=𝔟, bfrak=𝖇, circ=ⓑ] \\
-\makerow*{c}[bf=𝐜, it=𝑐, bi=𝒄, sf=𝖼, bsf=𝗰, isf=𝘤, bisf=𝙘, tt=𝚌, bb=𝕔, scr=𝒸, cal=𝓬, frak=𝔠, bfrak=𝖈, circ=ⓒ] \\
-\makerow*{d}[bf=𝐝, it=𝑑, bi=𝒅, sf=𝖽, bsf=𝗱, isf=𝘥, bisf=𝙙, tt=𝚍, bb=𝕕, scr=𝒹, cal=𝓭, frak=𝔡, bfrak=𝖉, circ=ⓓ] \\
-\makerow*{e}[bf=𝐞, it=𝑒, bi=𝒆, sf=𝖾, bsf=𝗲, isf=𝘦, bisf=𝙚, tt=𝚎, bb=𝕖, scr=ℯ, cal=𝓮, frak=𝔢, bfrak=𝖊, circ=ⓔ] \\
-\makerow*{f}[bf=𝐟, it=𝑓, bi=𝒇, sf=𝖿, bsf=𝗳, isf=𝘧, bisf=𝙛, tt=𝚏, bb=𝕗, scr=𝒻, cal=𝓯, frak=𝔣, bfrak=𝖋, circ=ⓕ] \\
-\makerow*{g}[bf=𝐠, it=𝑔, bi=𝒈, sf=𝗀, bsf=𝗴, isf=𝘨, bisf=𝙜, tt=𝚐, bb=𝕘, scr=ℊ, cal=𝓰, frak=𝔤, bfrak=𝖌, circ=ⓖ] \\
-\makerow*{h}[bf=𝐡, it=ℎ, bi=𝒉, sf=𝗁, bsf=𝗵, isf=𝘩, bisf=𝙝, tt=𝚑, bb=𝕙, scr=𝒽, cal=𝓱, frak=𝔥, bfrak=𝖍, circ=ⓗ] \\
-\makerow*{i}[bf=𝐢, it=𝑖, bi=𝒊, sf=𝗂, bsf=𝗶, isf=𝘪, bisf=𝙞, tt=𝚒, bb=𝕚, scr=𝒾, cal=𝓲, frak=𝔦, bfrak=𝖎, circ=ⓘ] \\
-\makerow*{j}[bf=𝐣, it=𝑗, bi=𝒋, sf=𝗃, bsf=𝗷, isf=𝘫, bisf=𝙟, tt=𝚓, bb=𝕛, scr=𝒿, cal=𝓳, frak=𝔧, bfrak=𝖏, circ=ⓙ] \\
-\makerow*{k}[bf=𝐤, it=𝑘, bi=𝒌, sf=𝗄, bsf=𝗸, isf=𝘬, bisf=𝙠, tt=𝚔, bb=𝕜, scr=𝓀, cal=𝓴, frak=𝔨, bfrak=𝖐, circ=ⓚ] \\
-\makerow*{l}[bf=𝐥, it=𝑙, bi=𝒍, sf=𝗅, bsf=𝗹, isf=𝘭, bisf=𝙡, tt=𝚕, bb=𝕝, scr=𝓁, cal=𝓵, frak=𝔩, bfrak=𝖑, circ=ⓛ] \\
-\makerow*{m}[bf=𝐦, it=𝑚, bi=𝒎, sf=𝗆, bsf=𝗺, isf=𝘮, bisf=𝙢, tt=𝚖, bb=𝕞, scr=𝓂, cal=𝓶, frak=𝔪, bfrak=𝖒, circ=ⓜ] \\
-\makerow*{n}[bf=𝐧, it=𝑛, bi=𝒏, sf=𝗇, bsf=𝗻, isf=𝘯, bisf=𝙣, tt=𝚗, bb=𝕟, scr=𝓃, cal=𝓷, frak=𝔫, bfrak=𝖓, circ=ⓝ] \\
-\makerow*{o}[bf=𝐨, it=𝑜, bi=𝒐, sf=𝗈, bsf=𝗼, isf=𝘰, bisf=𝙤, tt=𝚘, bb=𝕠, scr=ℴ, cal=𝓸, frak=𝔬, bfrak=𝖔, circ=ⓞ] \\
-\makerow*{p}[bf=𝐩, it=𝑝, bi=𝒑, sf=𝗉, bsf=𝗽, isf=𝘱, bisf=𝙥, tt=𝚙, bb=𝕡, scr=𝓅, cal=𝓹, frak=𝔭, bfrak=𝖕, circ=ⓟ] \\
-\makerow*{q}[bf=𝐪, it=𝑞, bi=𝒒, sf=𝗊, bsf=𝗾, isf=𝘲, bisf=𝙦, tt=𝚚, bb=𝕢, scr=𝓆, cal=𝓺, frak=𝔮, bfrak=𝖖, circ=ⓠ] \\
-\makerow*{r}[bf=𝐫, it=𝑟, bi=𝒓, sf=𝗋, bsf=𝗿, isf=𝘳, bisf=𝙧, tt=𝚛, bb=𝕣, scr=𝓇, cal=𝓻, frak=𝔯, bfrak=𝖗, circ=ⓡ] \\
-\makerow*{s}[bf=𝐬, it=𝑠, bi=𝒔, sf=𝗌, bsf=𝘀, isf=𝘴, bisf=𝙨, tt=𝚜, bb=𝕤, scr=𝓈, cal=𝓼, frak=𝔰, bfrak=𝖘, circ=ⓢ] \\
-\makerow*{t}[bf=𝐭, it=𝑡, bi=𝒕, sf=𝗍, bsf=𝘁, isf=𝘵, bisf=𝙩, tt=𝚝, bb=𝕥, scr=𝓉, cal=𝓽, frak=𝔱, bfrak=𝖙, circ=ⓣ] \\
-\makerow*{u}[bf=𝐮, it=𝑢, bi=𝒖, sf=𝗎, bsf=𝘂, isf=𝘶, bisf=𝙪, tt=𝚞, bb=𝕦, scr=𝓊, cal=𝓾, frak=𝔲, bfrak=𝖚, circ=ⓤ] \\
-\makerow*{v}[bf=𝐯, it=𝑣, bi=𝒗, sf=𝗏, bsf=𝘃, isf=𝘷, bisf=𝙫, tt=𝚟, bb=𝕧, scr=𝓋, cal=𝓿, frak=𝔳, bfrak=𝖛, circ=ⓥ] \\
-\makerow*{w}[bf=𝐰, it=𝑤, bi=𝒘, sf=𝗐, bsf=𝘄, isf=𝘸, bisf=𝙬, tt=𝚠, bb=𝕨, scr=𝓌, cal=𝔀, frak=𝔴, bfrak=𝖜, circ=ⓦ] \\
-\makerow*{x}[bf=𝐱, it=𝑥, bi=𝒙, sf=𝗑, bsf=𝘅, isf=𝘹, bisf=𝙭, tt=𝚡, bb=𝕩, scr=𝓍, cal=𝔁, frak=𝔵, bfrak=𝖝, circ=ⓧ] \\
-\makerow*{y}[bf=𝐲, it=𝑦, bi=𝒚, sf=𝗒, bsf=𝘆, isf=𝘺, bisf=𝙮, tt=𝚢, bb=𝕪, scr=𝓎, cal=𝔂, frak=𝔶, bfrak=𝖞, circ=ⓨ] \\
-\makerow*{z}[bf=𝐳, it=𝑧, bi=𝒛, sf=𝗓, bsf=𝘇, isf=𝘻, bisf=𝙯, tt=𝚣, bb=𝕫, scr=𝓏, cal=𝔃, frak=𝔷, bfrak=𝖟, circ=ⓩ] \\
+\\
+\midrule% Latin uppercase ----------------------------------------------------------------------
+\makerow*{A}[bf=𝐀, it=𝐴, bi=𝑨, sf=𝖠, bsf=𝗔, isf=𝘈, bisf=𝘼, tt=𝙰, bb=𝔸, scr=𝒜, cal=𝓐, frak=𝔄, bfrak=𝕬, circ=Ⓐ]
+\makerow*{B}[bf=𝐁, it=𝐵, bi=𝑩, sf=𝖡, bsf=𝗕, isf=𝘉, bisf=𝘽, tt=𝙱, bb=𝔹, scr=ℬ, cal=𝓑, frak=𝔅, bfrak=𝕭, circ=Ⓑ]
+\makerow*{C}[bf=𝐂, it=𝐶, bi=𝑪, sf=𝖢, bsf=𝗖, isf=𝘊, bisf=𝘾, tt=𝙲, bb=ℂ, scr=𝒞, cal=𝓒, frak=ℭ, bfrak=𝕮, circ=Ⓒ]
+\makerow*{D}[bf=𝐃, it=𝐷, bi=𝑫, sf=𝖣, bsf=𝗗, isf=𝘋, bisf=𝘿, tt=𝙳, bb=𝔻, scr=𝒟, cal=𝓓, frak=𝔇, bfrak=𝕯, circ=Ⓓ]
+\makerow*{E}[bf=𝐄, it=𝐸, bi=𝑬, sf=𝖤, bsf=𝗘, isf=𝘌, bisf=𝙀, tt=𝙴, bb=𝔼, scr=ℰ, cal=𝓔, frak=𝔈, bfrak=𝕰, circ=Ⓔ]
+\makerow*{F}[bf=𝐅, it=𝐹, bi=𝑭, sf=𝖥, bsf=𝗙, isf=𝘍, bisf=𝙁, tt=𝙵, bb=𝔽, scr=ℱ, cal=𝓕, frak=𝔉, bfrak=𝕱, circ=Ⓕ]
+\makerow*{G}[bf=𝐆, it=𝐺, bi=𝑮, sf=𝖦, bsf=𝗚, isf=𝘎, bisf=𝙂, tt=𝙶, bb=𝔾, scr=𝒢, cal=𝓖, frak=𝔊, bfrak=𝕲, circ=Ⓖ]
+\makerow*{H}[bf=𝐇, it=𝐻, bi=𝑯, sf=𝖧, bsf=𝗛, isf=𝘏, bisf=𝙃, tt=𝙷, bb=ℍ, scr=ℋ, cal=𝓗, frak=ℌ, bfrak=𝕳, circ=Ⓗ]
+\makerow*{I}[bf=𝐈, it=𝐼, bi=𝑰, sf=𝖨, bsf=𝗜, isf=𝘐, bisf=𝙄, tt=𝙸, bb=𝕀, scr=ℐ, cal=𝓘, frak=ℑ, bfrak=𝕴, circ=Ⓘ]
+\makerow*{J}[bf=𝐉, it=𝐽, bi=𝑱, sf=𝖩, bsf=𝗝, isf=𝘑, bisf=𝙅, tt=𝙹, bb=𝕁, scr=𝒥, cal=𝓙, frak=𝔍, bfrak=𝕵, circ=Ⓙ]
+\makerow*{K}[bf=𝐊, it=𝐾, bi=𝑲, sf=𝖪, bsf=𝗞, isf=𝘒, bisf=𝙆, tt=𝙺, bb=𝕂, scr=𝒦, cal=𝓚, frak=𝔎, bfrak=𝕶, circ=Ⓚ]
+\makerow*{L}[bf=𝐋, it=𝐿, bi=𝑳, sf=𝖫, bsf=𝗟, isf=𝘓, bisf=𝙇, tt=𝙻, bb=𝕃, scr=ℒ, cal=𝓛, frak=𝔏, bfrak=𝕷, circ=Ⓛ]
+\makerow*{M}[bf=𝐌, it=𝑀, bi=𝑴, sf=𝖬, bsf=𝗠, isf=𝘔, bisf=𝙈, tt=𝙼, bb=𝕄, scr=ℳ, cal=𝓜, frak=𝔐, bfrak=𝕸, circ=Ⓜ]
+\makerow*{N}[bf=𝐍, it=𝑁, bi=𝑵, sf=𝖭, bsf=𝗡, isf=𝘕, bisf=𝙉, tt=𝙽, bb=ℕ, scr=𝒩, cal=𝓝, frak=𝔑, bfrak=𝕹, circ=Ⓝ]
+\makerow*{O}[bf=𝐎, it=𝑂, bi=𝑶, sf=𝖮, bsf=𝗢, isf=𝘖, bisf=𝙊, tt=𝙾, bb=𝕆, scr=𝒪, cal=𝓞, frak=𝔒, bfrak=𝕺, circ=Ⓞ]
+\makerow*{P}[bf=𝐏, it=𝑃, bi=𝑷, sf=𝖯, bsf=𝗣, isf=𝘗, bisf=𝙋, tt=𝙿, bb=ℙ, scr=𝒫, cal=𝓟, frak=𝔓, bfrak=𝕻, circ=Ⓟ]
+\makerow*{Q}[bf=𝐐, it=𝑄, bi=𝑸, sf=𝖰, bsf=𝗤, isf=𝘘, bisf=𝙌, tt=𝚀, bb=ℚ, scr=𝒬, cal=𝓠, frak=𝔔, bfrak=𝕼, circ=Ⓠ]
+\makerow*{R}[bf=𝐑, it=𝑅, bi=𝑹, sf=𝖱, bsf=𝗥, isf=𝘙, bisf=𝙍, tt=𝚁, bb=ℝ, scr=ℛ, cal=𝓡, frak=ℜ, bfrak=𝕽, circ=Ⓡ]
+\makerow*{S}[bf=𝐒, it=𝑆, bi=𝑺, sf=𝖲, bsf=𝗦, isf=𝘚, bisf=𝙎, tt=𝚂, bb=𝕊, scr=𝒮, cal=𝓢, frak=𝔖, bfrak=𝕾, circ=Ⓢ]
+\makerow*{T}[bf=𝐓, it=𝑇, bi=𝑻, sf=𝖳, bsf=𝗧, isf=𝘛, bisf=𝙏, tt=𝚃, bb=𝕋, scr=𝒯, cal=𝓣, frak=𝔗, bfrak=𝕿, circ=Ⓣ]
+\makerow*{U}[bf=𝐔, it=𝑈, bi=𝑼, sf=𝖴, bsf=𝗨, isf=𝘜, bisf=𝙐, tt=𝚄, bb=𝕌, scr=𝒰, cal=𝓤, frak=𝔘, bfrak=𝖀, circ=Ⓤ]
+\makerow*{V}[bf=𝐕, it=𝑉, bi=𝑽, sf=𝖵, bsf=𝗩, isf=𝘝, bisf=𝙑, tt=𝚅, bb=𝕍, scr=𝒱, cal=𝓥, frak=𝔙, bfrak=𝖁, circ=Ⓥ]
+\makerow*{W}[bf=𝐖, it=𝑊, bi=𝑾, sf=𝖶, bsf=𝗪, isf=𝘞, bisf=𝙒, tt=𝚆, bb=𝕎, scr=𝒲, cal=𝓦, frak=𝔚, bfrak=𝖂, circ=Ⓦ]
+\makerow*{X}[bf=𝐗, it=𝑋, bi=𝑿, sf=𝖷, bsf=𝗫, isf=𝘟, bisf=𝙓, tt=𝚇, bb=𝕏, scr=𝒳, cal=𝓧, frak=𝔛, bfrak=𝖃, circ=Ⓧ]
+\makerow*{Y}[bf=𝐘, it=𝑌, bi=𝒀, sf=𝖸, bsf=𝗬, isf=𝘠, bisf=𝙔, tt=𝚈, bb=𝕐, scr=𝒴, cal=𝓨, frak=𝔜, bfrak=𝖄, circ=Ⓨ]
+\makerow*{Z}[bf=𝐙, it=𝑍, bi=𝒁, sf=𝖹, bsf=𝗭, isf=𝘡, bisf=𝙕, tt=𝚉, bb=ℤ, scr=𝒵, cal=𝓩, frak=ℨ, bfrak=𝖅, circ=Ⓩ]
+\midrule% latin lowercase ----------------------------------------------------------------------
+\makerow*{a}[bf=𝐚, it=𝑎, bi=𝒂, sf=𝖺, bsf=𝗮, isf=𝘢, bisf=𝙖, tt=𝚊, bb=𝕒, scr=𝒶, cal=𝓪, frak=𝔞, bfrak=𝖆, circ=ⓐ]
+\makerow*{b}[bf=𝐛, it=𝑏, bi=𝒃, sf=𝖻, bsf=𝗯, isf=𝘣, bisf=𝙗, tt=𝚋, bb=𝕓, scr=𝒷, cal=𝓫, frak=𝔟, bfrak=𝖇, circ=ⓑ]
+\makerow*{c}[bf=𝐜, it=𝑐, bi=𝒄, sf=𝖼, bsf=𝗰, isf=𝘤, bisf=𝙘, tt=𝚌, bb=𝕔, scr=𝒸, cal=𝓬, frak=𝔠, bfrak=𝖈, circ=ⓒ]
+\makerow*{d}[bf=𝐝, it=𝑑, bi=𝒅, sf=𝖽, bsf=𝗱, isf=𝘥, bisf=𝙙, tt=𝚍, bb=𝕕, scr=𝒹, cal=𝓭, frak=𝔡, bfrak=𝖉, circ=ⓓ]
+\makerow*{e}[bf=𝐞, it=𝑒, bi=𝒆, sf=𝖾, bsf=𝗲, isf=𝘦, bisf=𝙚, tt=𝚎, bb=𝕖, scr=ℯ, cal=𝓮, frak=𝔢, bfrak=𝖊, circ=ⓔ]
+\makerow*{f}[bf=𝐟, it=𝑓, bi=𝒇, sf=𝖿, bsf=𝗳, isf=𝘧, bisf=𝙛, tt=𝚏, bb=𝕗, scr=𝒻, cal=𝓯, frak=𝔣, bfrak=𝖋, circ=ⓕ]
+\makerow*{g}[bf=𝐠, it=𝑔, bi=𝒈, sf=𝗀, bsf=𝗴, isf=𝘨, bisf=𝙜, tt=𝚐, bb=𝕘, scr=ℊ, cal=𝓰, frak=𝔤, bfrak=𝖌, circ=ⓖ]
+\makerow*{h}[bf=𝐡, it=ℎ, bi=𝒉, sf=𝗁, bsf=𝗵, isf=𝘩, bisf=𝙝, tt=𝚑, bb=𝕙, scr=𝒽, cal=𝓱, frak=𝔥, bfrak=𝖍, circ=ⓗ]
+\makerow*{i}[bf=𝐢, it=𝑖, bi=𝒊, sf=𝗂, bsf=𝗶, isf=𝘪, bisf=𝙞, tt=𝚒, bb=𝕚, scr=𝒾, cal=𝓲, frak=𝔦, bfrak=𝖎, circ=ⓘ]
+\makerow*{j}[bf=𝐣, it=𝑗, bi=𝒋, sf=𝗃, bsf=𝗷, isf=𝘫, bisf=𝙟, tt=𝚓, bb=𝕛, scr=𝒿, cal=𝓳, frak=𝔧, bfrak=𝖏, circ=ⓙ]
+\makerow*{k}[bf=𝐤, it=𝑘, bi=𝒌, sf=𝗄, bsf=𝗸, isf=𝘬, bisf=𝙠, tt=𝚔, bb=𝕜, scr=𝓀, cal=𝓴, frak=𝔨, bfrak=𝖐, circ=ⓚ]
+\makerow*{l}[bf=𝐥, it=𝑙, bi=𝒍, sf=𝗅, bsf=𝗹, isf=𝘭, bisf=𝙡, tt=𝚕, bb=𝕝, scr=𝓁, cal=𝓵, frak=𝔩, bfrak=𝖑, circ=ⓛ]
+\makerow*{m}[bf=𝐦, it=𝑚, bi=𝒎, sf=𝗆, bsf=𝗺, isf=𝘮, bisf=𝙢, tt=𝚖, bb=𝕞, scr=𝓂, cal=𝓶, frak=𝔪, bfrak=𝖒, circ=ⓜ]
+\makerow*{n}[bf=𝐧, it=𝑛, bi=𝒏, sf=𝗇, bsf=𝗻, isf=𝘯, bisf=𝙣, tt=𝚗, bb=𝕟, scr=𝓃, cal=𝓷, frak=𝔫, bfrak=𝖓, circ=ⓝ]
+\makerow*{o}[bf=𝐨, it=𝑜, bi=𝒐, sf=𝗈, bsf=𝗼, isf=𝘰, bisf=𝙤, tt=𝚘, bb=𝕠, scr=ℴ, cal=𝓸, frak=𝔬, bfrak=𝖔, circ=ⓞ]
+\makerow*{p}[bf=𝐩, it=𝑝, bi=𝒑, sf=𝗉, bsf=𝗽, isf=𝘱, bisf=𝙥, tt=𝚙, bb=𝕡, scr=𝓅, cal=𝓹, frak=𝔭, bfrak=𝖕, circ=ⓟ]
+\makerow*{q}[bf=𝐪, it=𝑞, bi=𝒒, sf=𝗊, bsf=𝗾, isf=𝘲, bisf=𝙦, tt=𝚚, bb=𝕢, scr=𝓆, cal=𝓺, frak=𝔮, bfrak=𝖖, circ=ⓠ]
+\makerow*{r}[bf=𝐫, it=𝑟, bi=𝒓, sf=𝗋, bsf=𝗿, isf=𝘳, bisf=𝙧, tt=𝚛, bb=𝕣, scr=𝓇, cal=𝓻, frak=𝔯, bfrak=𝖗, circ=ⓡ]
+\makerow*{s}[bf=𝐬, it=𝑠, bi=𝒔, sf=𝗌, bsf=𝘀, isf=𝘴, bisf=𝙨, tt=𝚜, bb=𝕤, scr=𝓈, cal=𝓼, frak=𝔰, bfrak=𝖘, circ=ⓢ]
+\makerow*{t}[bf=𝐭, it=𝑡, bi=𝒕, sf=𝗍, bsf=𝘁, isf=𝘵, bisf=𝙩, tt=𝚝, bb=𝕥, scr=𝓉, cal=𝓽, frak=𝔱, bfrak=𝖙, circ=ⓣ]
+\makerow*{u}[bf=𝐮, it=𝑢, bi=𝒖, sf=𝗎, bsf=𝘂, isf=𝘶, bisf=𝙪, tt=𝚞, bb=𝕦, scr=𝓊, cal=𝓾, frak=𝔲, bfrak=𝖚, circ=ⓤ]
+\makerow*{v}[bf=𝐯, it=𝑣, bi=𝒗, sf=𝗏, bsf=𝘃, isf=𝘷, bisf=𝙫, tt=𝚟, bb=𝕧, scr=𝓋, cal=𝓿, frak=𝔳, bfrak=𝖛, circ=ⓥ]
+\makerow*{w}[bf=𝐰, it=𝑤, bi=𝒘, sf=𝗐, bsf=𝘄, isf=𝘸, bisf=𝙬, tt=𝚠, bb=𝕨, scr=𝓌, cal=𝔀, frak=𝔴, bfrak=𝖜, circ=ⓦ]
+\makerow*{x}[bf=𝐱, it=𝑥, bi=𝒙, sf=𝗑, bsf=𝘅, isf=𝘹, bisf=𝙭, tt=𝚡, bb=𝕩, scr=𝓍, cal=𝔁, frak=𝔵, bfrak=𝖝, circ=ⓧ]
+\makerow*{y}[bf=𝐲, it=𝑦, bi=𝒚, sf=𝗒, bsf=𝘆, isf=𝘺, bisf=𝙮, tt=𝚢, bb=𝕪, scr=𝓎, cal=𝔂, frak=𝔶, bfrak=𝖞, circ=ⓨ]
+\makerow*{z}[bf=𝐳, it=𝑧, bi=𝒛, sf=𝗓, bsf=𝘇, isf=𝘻, bisf=𝙯, tt=𝚣, bb=𝕫, scr=𝓏, cal=𝔃, frak=𝔷, bfrak=𝖟, circ=ⓩ]
 \bottomrule
 \end{tabular}
 \end{document}

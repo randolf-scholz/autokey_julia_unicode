@@ -1,4 +1,17 @@
 
+\RequirePackage{pgfkeys}
+\RequirePackage{iftex}
+\RequirePackage[verbose]{newunicodechar}
+
+
+\ifLuaTeX%
+\fi
+
+\ifPDFTeX%
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\fi
+
 
 \DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
 \SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
@@ -23,11 +36,13 @@
 \newcommand{\BISF}[1]{\ifmmode\bm{\mathsfit{#1}}\else\textbf{\textsf{\textit{#1}}}\fi}
 
 
-\RequirePackage{pgfkeys}
-\pgfkeys{
+\pgfkeys{%
 /makerow/.is family, /makerow,
 % here we define the default values
 default/.style={
+	% text/math
+	text=\relax,
+	math=\relax,
 	% serif
 	rm=\relax,
 	bf=\relax,
@@ -55,7 +70,10 @@ default/.style={
 	sub=\relax,
 	sup=\relax,
 },
-	% serif
+% text/math
+text/.code={\gdef\rowTEXT{#1}},
+math/.code={\gdef\rowMATH{#1}},
+% serif
 rm/.code={\gdef\rowRM{#1}},
 bf/.code={\gdef\rowBF{#1}},
 it/.code={\gdef\rowIT{#1}},
