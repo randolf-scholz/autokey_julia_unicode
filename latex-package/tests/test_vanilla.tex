@@ -73,15 +73,6 @@
 \newcommand{\hcmark}{\ding{52}}% ✔ (U+2714: Heavy Check Mark)
 \newcommand{\hxmark}{\ding{56}}% ✘ (U+2718: Heavy Ballot X)
 
-\makeatletter
-\providecommand{\leftsquigarrow}{%
-  \mathrel{\mathpalette\reflect@squig\relax}%
-}
-\newcommand{\reflect@squig}[2]{%
-  \reflectbox{$\m@th#1\rightsquigarrow$}%
-}
-\makeatother
-
 \usepackage{amssymb,graphicx}
 \begin{document}
 
@@ -95,11 +86,6 @@ $x^{n+1}x^{n+1}x^{n+1}x^{n+1}$
 \aliasOK\newline
 \aliasFALLBACK
 
-$a\mathrel{\reflectbox{$\rightsquigarrow$}}b$  $c\leftsquigarrow d$
-%$a b\implies +\!\!\!\!\!+ c \mathrel{\overset{\scriptscriptstyle \triangle}{=}} d$
-%\PrintMathFonts
-
-%\PrintMathFonts
 \begin{tabular}{ccc}\toprule
 mode & text & math
 \\ \midrule

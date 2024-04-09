@@ -6,7 +6,7 @@ default_language_version:
 repos:
   # https://pre-commit.com/hooks.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: check-added-large-files
         description: "prevents giant files from being committed."
@@ -91,3 +91,5 @@ repos:
     - id: chktex
     - id: lacheck
     - id: check-separator-length
+      types: [tex]
+      files: '\.tex$'
