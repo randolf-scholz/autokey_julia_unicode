@@ -263,22 +263,29 @@
 
 
 % region aliases -----------------------------------------------------------------------
-\newcommand{\unicode@dagger}{\ifmmode\dagger\else\textdagger\fi}
-\newcommand{\unicode@ddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}
-\newcommand{\unicode@times}{\ifmmode\times\else\texttimes\fi}
-\newcommand{\unicode@leftarrow}{\ifmmode\leftarrow\else\textleftarrow\fi}
-\newcommand{\unicode@rightarrow}{\ifmmode\rightarrow\else\textrightarrow\fi}
-\newcommand{\unicode@downarrow}{\ifmmode\downarrow\else\textdownarrow\fi}
-\newcommand{\unicode@uparrow}{\ifmmode\uparrow\else\textuparrow\fi}
-\newcommand{\unicode@ellipsis}{\ifmmode\ldots\else\textellipsis\fi}
-\newcommand{\unicode@rangle}{\ifmmode\langle\else\textlangle\fi}
-\newcommand{\unicode@langle}{\ifmmode\rangle\else\textrangle\fi}
-\newcommand{\unicode@neg}{\ifmmode\neg\else\textlnot\fi}
-\newcommand{\unicode@div}{\ifmmode\div\else\textdiv\fi}
-\newcommand{\unicode@pm}{\ifmmode\pm\else\textpm\fi}
-\newcommand{\unicode@smallplus}{\ifmmode\mathbin{\texttt{+}}\else\texttt{+}\fi}
-\newcommand{\unicode@smallminus}{\ifmmode\mathbin{\texttt{-}}\else\texttt{-}\fi}
+% NOTE: based on Table 2 and Table 3 of symbols-a4.pdf
+\newcommand{\autodagger}{\ifmmode\dagger\else\textdagger\fi}% † also: \dag
+\newcommand{\autoddagger}{\ifmmode\ddagger\else\textdaggerdbl\fi}% ‡ also: \ddag
+\newcommand{\autotimes}{\ifmmode\times\else\texttimes\fi}% ×
+\newcommand{\autoleftarrow}{\ifmmode\leftarrow\else\textleftarrow\fi}% ←
+\newcommand{\autorightarrow}{\ifmmode\rightarrow\else\textrightarrow\fi}% →
+\newcommand{\autodownarrow}{\ifmmode\downarrow\else\textdownarrow\fi}% ↓
+\newcommand{\autouparrow}{\ifmmode\uparrow\else\textuparrow\fi}% ↑
+\newcommand{\autoellipsis}{\ifmmode\ldots\else\textellipsis\fi}% …
+\newcommand{\autorangle}{\ifmmode\langle\else\textlangle\fi}% ⟩
+\newcommand{\autolangle}{\ifmmode\rangle\else\textrangle\fi}% ⟨
+\newcommand{\autoneg}{\ifmmode\neg\else\textlnot\fi}% ¬
+\newcommand{\autodiv}{\ifmmode\div\else\textdiv\fi}% ÷
+\newcommand{\autopm}{\ifmmode\pm\else\textpm\fi}% ±
+\newcommand{\autobigcirc}{\ifmmode\bigcirc\else\textbigcirc\fi}% ◯
+\newcommand{\autobullet}{\ifmmode\bullet\else\textbullet\fi}% •
+\newcommand{\autovert}{\ifmmode\vert\else\textbar\fi}% |
+\newcommand{\autoVert}{\ifmmode\Vert\else\textbardbl\fi}% ‖
 % endregion aliases --------------------------------------------------------------------
+
+
+\newcommand{\autosmallplus}{\ifmmode\mathbin{\texttt{+}}\else\texttt{+}\fi}
+\newcommand{\autosmallminus}{\ifmmode\mathbin{\texttt{-}}\else\texttt{-}\fi}
 
 % region fallbacks ---------------------------------------------------------------------
 % NOTE: These only emulate characters, but are not real unicode glyphs.
@@ -289,11 +296,14 @@
 % \mathop: operator (\sum, \int, etc.)
 % \mathopen: opening delimiter
 % \mathclose: closing delimiter
+\newcommand{\unicode@smalltriangleup}{}%▵
 \newcommand{\unicode@transpose}{\ifmmode\mkern-1.5mu\mathsf{T}\mkern-1.5mu\else\kern-0.1em\textsf{T}\kern-0.1em\fi}
 \newcommand{\unicode@hermitian}{\ifmmode\mkern-1.5mu\mathsf{H}\mkern-1.5mu\else\kern-0.1em\textsf{H}\kern-0.1em\fi}
 % unary operators
 \newcommand{\unicode@contradiction}{\mathord{\downzigzagarrow}}
-\newcommand{\unicode@increment}{\mathord{\Delta}}% U+2206
+% REF: https://tex.stackexchange.com/a/655980
+\DeclareMathSymbol\unicode@increment{\mathord}{operators}{\Delta}
+% \newcommand{\unicode@increment}{\mathord{\Delta}}% U+2206
 \newcommand{\unicode@unaryminus}{\mathord{\texttt{-}}}
 \newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
 % binary operators
@@ -306,10 +316,10 @@
 \newcommand{\unicode@bagmember}{\mathrel{\mathsf{E}}}
 \newcommand{\unicode@indep}{\mathrel{\perp\!\!\!\perp}}% chktex 21
 % relations overset
-\newcommand{\unicode@defeq}{\mathrel{\overset{\mathclap{\scriptscriptstyle\textsf{def}}}{=}}}
-\newcommand{\unicode@deleq}{\mathrel{\overset{\scriptscriptstyle\triangle}{=}}}
+\newcommand{\unicode@eqdef}{\mathrel{\overset{\mathclap{\scriptscriptstyle\textsf{def}}}{=}}}
+\newcommand{\unicode@triangleq}{\mathrel{\overset{\smalltriangleup}{=}}}
 \newcommand{\unicode@exclameq}{\mathrel{\overset{!}{=}}}% not in Unicode!
-\newcommand{\unicode@hateq}{\mathrel{\hat{=}}}
+\newcommand{\unicode@wedgeq}{\mathrel{\hat{=}}}
 \newcommand{\unicode@questeq}{\mathrel{\overset{?}{=}}}
 \newcommand{\unicode@simneqq}{\mathrel{\mathaccent\sim{\neq}}}
 \newcommand{\unicode@circledequal}{\mathrel{\mathrlap{\bigcirc}=}}
@@ -389,11 +399,25 @@
 % endregion checkmarks -----------------------------------------------------------------
 
 % region aliases -----------------------------------------------------------------------
+% Example: we want ≙ to be substituted by \hateq. stix has \wedgeq, fdsymbol has \hateq.
+%
+% So, in this case we want aliases to be resolved as follows:
+% 1. If \hateq is defined, use it.
+% 2. If \wedgeq is defined, make \hateq an alias for \wedgeq.
+% 3. If neither \hateq nor \wedgeq is defined, use \unicode@hateq.
+%
+% So, given a ordered list of aliases \a, \b, \c, and a fallback \d, we want to do the following:
+% \ifdefined{\a}\let\uc@impl@canonical=\a\elifdefined\b\let\uc@impl@canonical=\b%
+% \providcommand{\canonical}{\uc@impl@canonical}
+%
 % \providecommand{\mapsup}{\upmapsto}
 % \providecommand{\mapsfrom}{\leftmapsto}
 % \providecommand{\mapsdown}{\downmapsto}
 \providecommand{\downzigzagarrow}{\lightning}
 \providecommand{\approxident}{\triplesim}
+\providecommand{\deleq}{\triangleq}
+\providecommand{\defeq}{\eqdef}
+\providecommand{\hateq}{\wedgeq}
 % endregion aliases --------------------------------------------------------------------
 
 % region text/math macros --------------------------------------------------------------
@@ -401,9 +425,9 @@
 \providecommand{\hermitian}{\unicode@hermitian}
 \providecommand{\indep}{\unicode@indep}
 \providecommand{\contradiction}{\unicode@contradiction}
-\providecommand{\hateq}{\unicode@hateq}
-\providecommand{\deleq}{\unicode@deleq}
-\providecommand{\defeq}{\ifundef{\eqdef}{\unicode@defeq}{\eqdef}}
+\providecommand{\wedgeq}{\unicode@wedgeq}
+\providecommand{\triangleq}{\unicode@triangleq}
+\providecommand{\eqdef}{\unicode@eqdef}
 \providecommand{\questeq}{\unicode@questeq}
 \providecommand{\exclameq}{\unicode@exclameq}
 \providecommand{\nimplies}{\unicode@nimplies}
@@ -412,8 +436,8 @@
 \providecommand{\napprox}{\unicode@napprox}
 \providecommand{\unaryplus}{\unicode@unaryplus}
 \providecommand{\unaryminus}{\unicode@unaryminus}
-\providecommand{\smallplus}{\unicode@smallplus}
-\providecommand{\smallminus}{\unicode@smallminus}
+\providecommand{\smallplus}{\autosmallplus}
+\providecommand{\smallminus}{\autosmallminus}
 \providecommand{\increment}{\unicode@increment}
 \providecommand{\bagmember}{\unicode@bagmember}
 \providecommand{\doubleplus}{\unicode@doubleplus}
@@ -440,7 +464,9 @@
 \providecommand{\mapsfrom}{\unicode@mapsfrom}
 \providecommand{\mapsdown}{\unicode@mapsdown}
 \providecommand{\mapsup}{\unicode@mapsup}
+\providecommand{\smalltriangleup}{\unicode@smalltriangleup}
 % endregion text/math macros -----------------------------------------------------------
+
 
 
 % region greek macros ------------------------------------------------------------------
@@ -499,51 +525,57 @@
 
 % region free previously defined unicode chars -----------------------------------------
 % cf. https://github.com/latex3/latex3/blob/main/texmf/tex/latex/base/utf8enc.dfu
-\expandafter\let\csname u8:\detokenize{–}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{—}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{“}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{”}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{™}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{†}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{±}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{½}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¼}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¾}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{←}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{→}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{…}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{×}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{£}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{§}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{©}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{¬}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{±}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{²}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{³}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{©}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{¶}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{§}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{£}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¼}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{½}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{¾}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{×}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{–}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{—}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{“}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{”}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{†}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{…}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{™}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{←}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{→}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax%
 % endregion free previously defined unicode chars --------------------------------------
 
-% region misc --------------------------------------------------------------------------
+
+
+% region builtin auto-mode commands ----------------------------------------------------
 \newunicodechar{£}{\pounds}
 \newunicodechar{§}{\S}
 \newunicodechar{©}{\copyright}
 \newunicodechar{¶}{\P}
+\newunicodechar{†}{\dag}
+\newunicodechar{‡}{\ddag}
+%\newunicodechar{…}{\dots}
+% endregion builtin auto-mode commands -------------------------------------------------
+
+% region misc --------------------------------------------------------------------------
 \newunicodechar{ħ}{\hbar}
 \newunicodechar{–}{\textendash}
 \newunicodechar{—}{\textemdash}
 \newunicodechar{“}{\textquotedblleft}
 \newunicodechar{”}{\textquotedblright}
-\newunicodechar{†}{\dag}
-\newunicodechar{‡}{\ddag}
 \newunicodechar{ℓ}{\ell}
 \newunicodechar{™}{\texttrademark}
 \newunicodechar{ℵ}{\aleph}
@@ -581,17 +613,11 @@
 % endregion unary operators ------------------------------------------------------------
 
 % region binary operators --------------------------------------------------------------
-\newunicodechar{±}{\pm}
-\newunicodechar{÷}{\div}
+\newunicodechar{±}{\autopm}
+\newunicodechar{÷}{\autodiv}
 \newunicodechar{∓}{\mp}
 \newunicodechar{∘}{\circ}
-\newunicodechar{∥}{\parallel}
-\newunicodechar{≔}{\coloneq}
-\newunicodechar{≕}{\eqcolon}
-\newunicodechar{○}{\bigcirc}
-\newunicodechar{⟂}{\perp}
 \newunicodechar{⧺}{\doubleplus}% concatenation
-\newunicodechar{⫫}{\indep}
 
 % region circled operators -------------------------------------------------------------
 \newunicodechar{⊙}{\odot}
@@ -617,6 +643,7 @@
 \newunicodechar{∑}{\sum}
 \newunicodechar{∏}{\prod}
 \newunicodechar{∐}{\coprod}
+\newunicodechar{○}{\bigcirc}
 \newunicodechar{⨀}{\bigodot}
 \newunicodechar{⨁}{\bigoplus}
 \newunicodechar{⨂}{\bigotimes}
@@ -651,10 +678,10 @@
 
 % region arrows ------------------------------------------------------------------------
 % https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
-\newunicodechar{←}{\unicode@leftarrow}
-\newunicodechar{→}{\unicode@rightarrow}
-\newunicodechar{↓}{\unicode@downarrow}
-\newunicodechar{↑}{\unicode@uparrow}
+\newunicodechar{←}{\autoleftarrow}
+\newunicodechar{→}{\autorightarrow}
+\newunicodechar{↓}{\autodownarrow}
+\newunicodechar{↑}{\autouparrow}
 
 \newunicodechar{↗}{\nearrow}
 \newunicodechar{↘}{\searrow}
@@ -685,7 +712,7 @@
 % endregion arrows ---------------------------------------------------------------------
 
 % region dots --------------------------------------------------------------------------
-\newunicodechar{…}{\ldots}
+\newunicodechar{…}{\dots}% (equivalent to \ldots)
 \newunicodechar{⋯}{\cdots}% chktex 11
 \newunicodechar{⋮}{\vdots}
 \newunicodechar{⋱}{\ddots}
@@ -696,8 +723,7 @@
 % endregion dots -----------------------------------------------------------------------
 
 % region delimiters --------------------------------------------------------------------
-\newunicodechar{‖}{\|}
-\newunicodechar{∣}{\mid}
+\newunicodechar{‖}{\autoVert}
 \newunicodechar{⌈}{\lceil}
 \newunicodechar{⌉}{\rceil}
 \newunicodechar{⌊}{\lfloor}
@@ -705,8 +731,8 @@
 \newunicodechar{║}{\big\|}% chktex 21
 \newunicodechar{⟦}{\lBrack}% U+27E6 Mathematical Left White Square Bracket
 \newunicodechar{⟧}{\rBrack}% U+27E7 Mathematical Right White Square Bracket
-\newunicodechar{⟨}{\langle}
-\newunicodechar{⟩}{\rangle}
+\newunicodechar{⟨}{\autolangle}
+\newunicodechar{⟩}{\autorangle}
 \newunicodechar{⟪}{\lAngle}% U+27EA Mathematical Left Angle Bracket
 \newunicodechar{⟫}{\rAngle}% U+27EB Mathematical Right Angle Bracket
 \newunicodechar{⦃}{\lBrace}% U+2983 Left White Curly Bracket
@@ -736,7 +762,7 @@
 \newunicodechar{⋃}{\bigcup}% set union
 \newunicodechar{∩}{\cap}% set intersection
 \newunicodechar{⋂}{\bigcap}% set intersection
-\newunicodechar{×}{\times}% cartesian product
+\newunicodechar{×}{\autotimes}% cartesian product
 \newunicodechar{⨉}{\bigtimes}% cartesian product
 % region multiset ----------------------------------------------------------------------
 \newunicodechar{⊎}{\uplus}% multiset union
@@ -760,8 +786,17 @@
 % endregion set theory -----------------------------------------------------------------
 
 % region relations ---------------------------------------------------------------------
-% region inequality-like ---------------------------------------------------------------
+% region other relations ---------------------------------------------------------------
+\newunicodechar{∥}{\parallel}
+\newunicodechar{∣}{\mid}% U+2223 Divides
+\newunicodechar{≔}{\coloneq}
+\newunicodechar{≕}{\eqcolon}
+\newunicodechar{⟂}{\perp}
+\newunicodechar{⫫}{\indep}
 \newunicodechar{∝}{\propto}
+% region other relations ---------------------------------------------------------------
+
+% region inequality-like ---------------------------------------------------------------
 \newunicodechar{≻}{\succ}
 \newunicodechar{⪰}{\succeq}
 \newunicodechar{≺}{\prec}
@@ -778,7 +813,6 @@
 \newunicodechar{⋘}{\lll}
 \newunicodechar{⋙}{\ggg}
 % endregion inequality-like ------------------------------------------------------------
-
 
 % region equivalence-like --------------------------------------------------------------
 \newunicodechar{∼}{\sim}
@@ -804,7 +838,7 @@
 % endregion relations ------------------------------------------------------------------
 
 % region logic -------------------------------------------------------------------------
-\newunicodechar{¬}{\neg}
+\newunicodechar{¬}{\autoneg}
 \newunicodechar{↯}{\contradiction}% U+21AF Downwards Zigzag Arrow
 \newunicodechar{⇍}{\nimpliedby}% U+21CD Leftwards Double Arrow with Stroke
 \newunicodechar{⇎}{\niff}% U+21CE Left Right Double Arrow with Stroke

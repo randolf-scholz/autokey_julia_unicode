@@ -3,7 +3,7 @@
 \usepackage{booktabs}
 \usepackage{multicol}
 \usepackage{test_setup}
-\usepackage[stix]{unicode-symbols}
+\usepackage[nostix]{unicode-symbols}
 %\usepackage{MnSymbol}
 
 \NewDocumentCommand{\makerow}{s m}{%
@@ -59,17 +59,12 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{÷}
 \makerow{∓}
 \makerow{∘}
-\makerow{∥}
-\makerow{≔}
-\makerow{≕}
-\makerow{○}
-\makerow{⟂}
 \makerow{⧺}
-\makerow{⫫}
 \midrule% n-ary operators --------------------------------------------------------------
 \makerow{∑}
 \makerow{∏}
 \makerow{∐}
+\makerow{○}
 \makerow{⨀}
 \makerow{⨁}
 \makerow{⨂}
@@ -90,7 +85,6 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{⊠}
 \midrule% delimiters -------------------------------------------------------------------
 \makerow{‖}
-\makerow{∣}
 \makerow{⌈}
 \makerow{⌉}
 \makerow{⌊}
@@ -106,12 +100,6 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 \makerow{⦄}
 \makerow{⦅}
 \makerow{⦆}
-\midrule% geometry ---------------------------------------------------------------------
-\makerow{∥}
-\makerow{∠}
-\makerow{∡}
-\makerow{∢}
-\makerow{⟂}
 \midrule% set theory -------------------------------------------------------------------
 \makerow{∈}
 \makerow{∉}
@@ -154,6 +142,13 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 %\makerow{⨅}
 \midrule% relations --------------------------------------------------------------------
 \makerow{∝}
+\makerow{∣}
+\makerow{∥}
+\makerow{≔}
+\makerow{≕}
+\makerow{⟂}
+\makerow{⫫}
+\midrule% inequalities -----------------------------------------------------------------
 \makerow{≻}
 \makerow{⪰}
 \makerow{≺}
@@ -261,4 +256,5 @@ ref & \textbf{math mode} & \textbf{text mode} \\
 %\makerow{∰}
 \bottomrule
 \end{tabular}
+
 \end{document}

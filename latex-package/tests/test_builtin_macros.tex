@@ -15,7 +15,7 @@
 	% text
 	& \rowTEXT & #2
 	% math
-	& \rowMATH & \ensuremath{#2}
+	& \rowMATH & #2
 	% end
 	\\%
 }
@@ -77,6 +77,20 @@ ref & \multicolumn{2}{c|}{\textbf{text}} & \multicolumn{2}{c}{\textbf{math}} \\
 \makerow{¶}[text=\P,         math=\P        ]
 \makerow{§}[text=\S,         math=\S        ]
 \makerow{£}[text=\pounds,    math=\pounds   ]
+\midrule% math symbols ----------------------------------
+\makerow{†}[text=\textdagger,     math=$\dagger$    ]
+\makerow{‡}[text=\textdaggerdbl,  math=$\ddagger$   ]
+\makerow{×}[text=\texttimes,      math=$\times$     ]
+\makerow{←}[text=\textleftarrow,  math=$\leftarrow$ ]
+\makerow{→}[text=\textrightarrow, math=$\rightarrow$]
+\makerow{↓}[text=\textdownarrow,  math=$\downarrow$ ]
+\makerow{↑}[text=\textuparrow,    math=$\uparrow$   ]
+\makerow{…}[text=\textellipsis,   math=$\ldots$     ]
+\makerow{⟨}[text=\textlangle,     math=$\langle$    ]
+\makerow{⟩}[text=\textrangle,     math=$\rangle$    ]
+\makerow{¬}[text=\textlnot,       math=$\neg$       ]
+\makerow{÷}[text=\textdiv,        math=$\div$       ]
+\makerow{±}[text=\textpm,         math=$\pm$        ]
 \bottomrule
 \end{tabular}
 \end{document}

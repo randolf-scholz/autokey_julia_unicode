@@ -1,0 +1,72 @@
+\documentclass{standalone}
+\usepackage[T1]{fontenc}
+
+\usepackage{etoolbox}
+
+\def\foo{FOO}
+\def\goo{BAR}
+\def\hoo{BAZ}
+\def\fallback{FALLBACK}
+\let\gmm=\relax%
+%\makealias{\csname}[opt1,opt2,opt3,...]{\fallback}
+
+\NewDocumentCommand{\makealias}{m O{\relax} O{\relax} O{\relax} m}{%
+\ifundef{#2}{%
+\ifundef{#3}{%
+\ifundef{#4}{%
+\PackageError{package name}{error text}{help text}%
+}{\let#1=#4}%
+}{\let#1=#3}%
+}{\let#1=#2}%
+}%
+
+%\ifdef{\foo}{%
+%	\let\alias=\foo%
+%	\let\goo=\foo%
+%	\let\hoo=\foo%
+%}{\ifdef{\goo}{%
+%	\let\alias=\goo%
+%	\let\foo=\goo%
+%	\let\hoo=\goo%
+%}{\ifdef{\hoo}{%
+%	\let\alias=\hoo%
+%	\let\foo=\hoo%
+%	\let\goo=\hoo%
+%}{%
+%\PackageError{package name}{error text}{help text}
+%}}}
+
+\makealias{\alias}[\relax][\lllll][\hoo]{\fallback}
+
+\providecommand{\CMD}{\alias}
+
+\def\rep#1{#1#1#1}
+\def\foo{\mathrel{a}}
+\def\goo{{\mathrel{a}}}
+\def\hoo{\bgroup\mathrel{a}\egroup}
+\def\koo{\begingroup\mathrel{a}\endgroup}
+
+\usepackage{amsmath}
+
+\newcommand\myrel{\mathrel{\overset{\textsf{a.e.}}{\sim}}}
+
+\DeclareMathSymbol\mesh{\mathrel}{operators}{`\#}
+\DeclareMathSymbol\increment{\mathord}{operators}{\Delta}
+%\DeclareMathSymbol\mesh{\mathrel}{operators}{`\myrel}
+
+\newcommand\indep{\mathrel{\perp\!\!\!\perp}}
+\begin{document}$x\myrel y$
+%\CMD \\ \alias
+
+\begin{tabular}{l}$x^\increment$
+\rep{${(1\mathord{a}2)}$} \\
+\rep{${(1\mathbin{a}2)}$} \\
+\rep{${(1\mathrel{a}2)}$} \\
+\rep{${(1\foo2)}$} \\
+\rep{${(1\goo2)}$} \\
+\rep{${(1\hoo2)}$} \\
+\rep{${(1\koo2)}$} \\
+\end{tabular}
+
+
+\end{document}
