@@ -1,0 +1,35 @@
+% https://tex.stackexchange.com/a/715288
+
+\documentclass{standalone}
+\usepackage{amsmath}
+
+\makeatletter
+\let\old@sup=^% save a copy of original ^ with catcode 7
+\catcode`\^=13% make ^ and activate character
+\def^#1{\old@sup{#1}}% change definition to call the original ^ with braces
+
+% patch \pr@m@s using `^` with the new catcode.
+\def\pr@m@s{% copy of \@pr@m@s code from latex.ltx
+\ifx'\@let@token% <-- use U+0027
+	\expandafter\pr@@@s%
+\else\ifx^\@let@token%
+	\expandafter\expandafter\expandafter\pr@@@t%
+\else%
+	\egroup%
+\fi\fi%
+}
+\makeatother
+
+\newcommand\mesh{\mathrel{\#}}
+\newcommand\smallplus{\mathbin{\texttt{+}}}
+\newcommand\indep{\mathrel{\perp\!\!\!\perp}}
+\newcommand\myrel{\mathrel{\overset{\textsf{a.e.}}{\sim}}}
+
+\begin{document}
+\begin{tabular}{lllllll}
+$A \mesh B     $ & $A^\mesh     $ & $A^{\mesh}     $ & $A'^\mesh     $ & $A'^{\mesh}     $ & $A''^\mesh     $ & $A''^{\mesh}     $\\
+$A \smallplus B$ & $A^\smallplus$ & $A^{\smallplus}$ & $A'^\smallplus$ & $A'^{\smallplus}$ & $A''^\smallplus$ & $A''^{\smallplus}$\\
+$A \indep B    $ & $A^\indep    $ & $A^{\indep}    $ & $A'^\indep    $ & $A'^{\indep}    $ & $A''^\indep    $ & $A''^{\indep}    $\\
+$A \myrel B    $ & $A^\myrel    $ & $A^{\myrel}    $ & $A'^\myrel    $ & $A'^{\myrel}    $ & $A''^\myrel    $ & $A''^{\myrel}    $\\
+\end{tabular}
+\end{document}

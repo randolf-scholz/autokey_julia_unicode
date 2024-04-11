@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\usepackage{test_setup}
+\usepackage[stix]{unicode-symbols}
+
+\makeatletter
+\DeclareMathOperator*{\@Expectation}{\mathbf{E}}
+\newcommand{\E}{\@Expectation\nolimits}
+\makeatother
+\DeclareMathOperator{\D}{\mathbf{D}}
+\def\repeat#1{(#1)(#1)(#1)}
+\everymath{\displaystyle}
+
+\begin{document}
+\begin{tabular}{ll}\toprule
+\repeat{$\lambda \E[x]$} & \repeat{$\lambda\cdot \Eₓ[x]$} \\
+\repeat{$\lambda 𝐄[x]$}  & \repeat{$\lambda\cdot 𝐄ₓ[x]$}  \\
+\repeat{$\lambda 𝔼[x]$}  & \repeat{$\lambda\cdot 𝔼ₓ[x]$}  \\ \midrule
+\repeat{$\lambda \D[f]$} & \repeat{$\lambda\cdot \D f$}   \\ \midrule
+\end{tabular}
+\end{document}

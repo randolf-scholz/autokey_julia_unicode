@@ -272,15 +272,20 @@
 \newcommand{\autodownarrow}{\ifmmode\downarrow\else\textdownarrow\fi}% ↓
 \newcommand{\autouparrow}{\ifmmode\uparrow\else\textuparrow\fi}% ↑
 \newcommand{\autoellipsis}{\ifmmode\ldots\else\textellipsis\fi}% …
-\newcommand{\autorangle}{\ifmmode\langle\else\textlangle\fi}% ⟩
-\newcommand{\autolangle}{\ifmmode\rangle\else\textrangle\fi}% ⟨
+\newcommand{\autorangle}{\ifmmode\rangle\else\textrangle\fi}% ⟩
+\newcommand{\autolangle}{\ifmmode\langle\else\textlangle\fi}% ⟨
 \newcommand{\autoneg}{\ifmmode\neg\else\textlnot\fi}% ¬
 \newcommand{\autodiv}{\ifmmode\div\else\textdiv\fi}% ÷
 \newcommand{\autopm}{\ifmmode\pm\else\textpm\fi}% ±
-\newcommand{\autobigcirc}{\ifmmode\bigcirc\else\textbigcirc\fi}% ◯
-\newcommand{\autobullet}{\ifmmode\bullet\else\textbullet\fi}% •
+% \newcommand{\autobigcirc}{\ifmmode\bigcirc\else\textbigcircle\fi}% ◯ (U+25CB) not the same as ◯ (U+25EF)
+% \newcommand{\autobullet}{\ifmmode\bullet\else\textbullet\fi}% • (U+2022) not the same as ∙ (U+2219)
+% \newcommand{\autocdotp}{\ifmmode\cdot\else\textperiodcentered\fi}% · (U+00B7) not the same as ⋅ (U+22C5)
 \newcommand{\autovert}{\ifmmode\vert\else\textbar\fi}% |
 \newcommand{\autoVert}{\ifmmode\Vert\else\textbardbl\fi}% ‖
+\newcommand{\autoi}{\ifmmode\imath\else\textimath\fi}% ı
+\newcommand{\autoj}{\ifmmode\jmath\else\textjmath\fi}% ȷ
+\newcommand{\automho}{\ifmmode\mho\else\textmho\fi}% ℧
+\newcommand{\autoast}{\ifmmode\ast\else\textasteriskcentered\fi}% ∗
 % endregion aliases --------------------------------------------------------------------
 
 
@@ -341,14 +346,14 @@
 \newcommand{\unicode@nsqsubseteq}{\centernot{\sqsubseteq}}
 \newcommand{\unicode@nsqsupseteq}{\centernot{\sqsupseteq}}
 % delimiters
-\newcommand{\unicode@rParen}{\mathclose{)\!\!)}}% chktex 10
-\newcommand{\unicode@lParen}{\mathopen{(\!\!(}}% chktex 10
-\newcommand{\unicode@rBrace}{\mathclose{\}\!\!\}}}
-\newcommand{\unicode@lBrace}{\mathopen{\{\!\!\{}}
-\newcommand{\unicode@rAngle}{\mathclose{\rangle\!\!\rangle}}
-\newcommand{\unicode@lAngle}{\mathopen{\langle\!\!\langle}}
-\newcommand{\unicode@rBrack}{\mathclose{]\!\!]}}% chktex 15
-\newcommand{\unicode@lBrack}{\mathopen{[\!\![}}% chktex 15
+\newcommand{\unicode@rParen}{\mathclose{)\mkern-4.5mu)}}% chktex 10
+\newcommand{\unicode@lParen}{\mathopen{(\mkern-4.5mu(}}% chktex 10
+\newcommand{\unicode@rBrace}{\mathclose{\}\mkern-6mu\}}}% NOTE: \!=-3mu
+\newcommand{\unicode@lBrace}{\mathopen{\{\mkern-6mu\{}}% NOTE: \!=-3mu
+\newcommand{\unicode@rAngle}{\mathclose{\rangle\mkern-4.5mu\rangle}}
+\newcommand{\unicode@lAngle}{\mathopen{\langle\mkern-4.5mu\langle}}
+\newcommand{\unicode@rBrack}{\mathclose{]\mkern-3mu]}}% chktex 15
+\newcommand{\unicode@lBrack}{\mathopen{[\mkern-3mu[}}% chktex 15
 % endregion fallbacks ------------------------------------------------------------------
 
 
@@ -361,7 +366,9 @@
 \ProvideDocumentCommand{\umeaning}{m}{% prints the meaning of a unicode symbol
 % Adapted from newunicodechar package
 \edef\unicode@meaning@temp{\detokenize{#1}}%
+\if\unicode@meaning@temp\relax\else%
 \expandafter\expandafter\expandafter\strip@prefix\expandafter\meaning\csname u8:\unicode@meaning@temp\endcsname%
+\fi%
 }%
 
 \newcommand{\PrintMathFonts}{%
@@ -525,37 +532,40 @@
 
 % region free previously defined unicode chars -----------------------------------------
 % cf. https://github.com/latex3/latex3/blob/main/texmf/tex/latex/base/utf8enc.dfu
-\expandafter\let\csname u8:\detokenize{£}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{§}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{©}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¬}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{±}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{²}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{³}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{£}\endcsname\relax% use \pounds
+\expandafter\let\csname u8:\detokenize{§}\endcsname\relax% use \S
+\expandafter\let\csname u8:\detokenize{©}\endcsname\relax% use \copyright
+\expandafter\let\csname u8:\detokenize{¬}\endcsname\relax% use \autoneg
+\expandafter\let\csname u8:\detokenize{±}\endcsname\relax% use \autopm
+\expandafter\let\csname u8:\detokenize{²}\endcsname\relax% use \superscript{2}
+\expandafter\let\csname u8:\detokenize{³}\endcsname\relax% use \superscript{3}
+\expandafter\let\csname u8:\detokenize{¶}\endcsname\relax% use \P
+\expandafter\let\csname u8:\detokenize{¹}\endcsname\relax% use \superscript{1}
 \expandafter\let\csname u8:\detokenize{¼}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{½}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{¾}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{×}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{–}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{—}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{“}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{”}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{†}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{…}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{×}\endcsname\relax% use \autotimes
+\expandafter\let\csname u8:\detokenize{÷}\endcsname\relax% use \autodiv
+% \expandafter\let\csname u8:\detokenize{–}\endcsname\relax%
+% \expandafter\let\csname u8:\detokenize{—}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{‖}\endcsname\relax% use \autoVert
+% \expandafter\let\csname u8:\detokenize{“}\endcsname\relax%
+% \expandafter\let\csname u8:\detokenize{”}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{†}\endcsname\relax% use \dag
+\expandafter\let\csname u8:\detokenize{‡}\endcsname\relax% use \ddag
+\expandafter\let\csname u8:\detokenize{…}\endcsname\relax% use \dots
 \expandafter\let\csname u8:\detokenize{⁄}\endcsname\relax%
 \expandafter\let\csname u8:\detokenize{⁎}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{™}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{←}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{→}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax%
-\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax%
+% \expandafter\let\csname u8:\detokenize{™}\endcsname\relax%
+\expandafter\let\csname u8:\detokenize{←}\endcsname\relax% use \autoleftarrow
+\expandafter\let\csname u8:\detokenize{↑}\endcsname\relax% use \autouparrow
+\expandafter\let\csname u8:\detokenize{→}\endcsname\relax% use \autorightarrow
+\expandafter\let\csname u8:\detokenize{↓}\endcsname\relax% use \autodownarrow
+\expandafter\let\csname u8:\detokenize{⟨}\endcsname\relax% use \autolangle
+\expandafter\let\csname u8:\detokenize{⟩}\endcsname\relax% use \autorangle
+\expandafter\let\csname u8:\detokenize{ı}\endcsname\relax% use \autoi
+\expandafter\let\csname u8:\detokenize{ȷ}\endcsname\relax% use \autoj
+\expandafter\let\csname u8:\detokenize{℧}\endcsname\relax% use \automho
 % endregion free previously defined unicode chars --------------------------------------
 
 
@@ -567,17 +577,18 @@
 \newunicodechar{¶}{\P}
 \newunicodechar{†}{\dag}
 \newunicodechar{‡}{\ddag}
-%\newunicodechar{…}{\dots}
+\newunicodechar{…}{\dots}
 % endregion builtin auto-mode commands -------------------------------------------------
 
 % region misc --------------------------------------------------------------------------
+% \newunicodechar{–}{\textendash}
+% \newunicodechar{—}{\textemdash}
+% \newunicodechar{“}{\textquotedblleft}
+% \newunicodechar{”}{\textquotedblright}
+% \newunicodechar{™}{\texttrademark}
+
 \newunicodechar{ħ}{\hbar}
-\newunicodechar{–}{\textendash}
-\newunicodechar{—}{\textemdash}
-\newunicodechar{“}{\textquotedblleft}
-\newunicodechar{”}{\textquotedblright}
 \newunicodechar{ℓ}{\ell}
-\newunicodechar{™}{\texttrademark}
 \newunicodechar{ℵ}{\aleph}
 \newunicodechar{ℶ}{\beth}
 \newunicodechar{ℷ}{\gimel}
@@ -588,6 +599,12 @@
 \newunicodechar{✔}{\hcmark}
 \newunicodechar{✗}{\xmark}
 \newunicodechar{✘}{\hxmark}
+\newunicodechar{ı}{\autoi}
+\newunicodechar{ȷ}{\autoj}
+\newunicodechar{℘}{\wp}
+\newunicodechar{′}{\prime}
+\newunicodechar{□}{\Box}% also: \square
+\newunicodechar{℧}{\automho}
 % endregion misc -----------------------------------------------------------------------
 
 % region combining characters ----------------------------------------------------------
@@ -618,6 +635,18 @@
 \newunicodechar{∓}{\mp}
 \newunicodechar{∘}{\circ}
 \newunicodechar{⧺}{\doubleplus}% concatenation
+\newunicodechar{⨿}{\amalg}% U+2A3F (Amalgamation or Coproduct)
+\newunicodechar{∗}{\autoast}% U+2217 (Asterisk)
+\newunicodechar{▽}{\bigtriangledown}% U+25BD (White Down-Pointing Triangle)
+\newunicodechar{△}{\bigtriangleup}% U+25B3 (White Up-Pointing Triangle)
+\newunicodechar{∙}{\bullet}% U+2219 (Bullet Operator)
+\newunicodechar{⋄}{\diamond}% U+22C4 (Diamond Operator)
+\newunicodechar{◁}{\lhd}% U+25C1 (White Left-Pointing Triangle)
+\newunicodechar{▷}{\rhd}% U+25B7 (White Right-Pointing Triangle)
+\newunicodechar{⋆}{\star}% U+22C6 (Star Operator)
+\newunicodechar{⊴}{\unlhd}% U+22B4 (Normal Subgroup of or Equal To)
+\newunicodechar{⊵}{\unrhd}% U+22B5 (Contains as Normal Subgroup)
+\newunicodechar{≀}{\wr}% U+2240 (Wreath Product)
 
 % region circled operators -------------------------------------------------------------
 \newunicodechar{⊙}{\odot}
@@ -712,7 +741,7 @@
 % endregion arrows ---------------------------------------------------------------------
 
 % region dots --------------------------------------------------------------------------
-\newunicodechar{…}{\dots}% (equivalent to \ldots)
+% \newunicodechar{…}{\dots}% (equivalent to \ldots)
 \newunicodechar{⋯}{\cdots}% chktex 11
 \newunicodechar{⋮}{\vdots}
 \newunicodechar{⋱}{\ddots}
@@ -724,6 +753,8 @@
 
 % region delimiters --------------------------------------------------------------------
 \newunicodechar{‖}{\autoVert}
+\newunicodechar{⎰}{\lmoustache}% U+23B0 Upper Left or Lower Right Curly Bracket Section
+\newunicodechar{⎱}{\rmoustache}% U+23B1 Upper Right or Lower Left Curly Bracket Section
 \newunicodechar{⌈}{\lceil}
 \newunicodechar{⌉}{\rceil}
 \newunicodechar{⌊}{\lfloor}
@@ -786,54 +817,63 @@
 % endregion set theory -----------------------------------------------------------------
 
 % region relations ---------------------------------------------------------------------
-% region other relations ---------------------------------------------------------------
-\newunicodechar{∥}{\parallel}
+% region binary relations --------------------------------------------------------------
+\newunicodechar{∝}{\propto}
 \newunicodechar{∣}{\mid}% U+2223 Divides
+\newunicodechar{∥}{\parallel}
+\newunicodechar{∼}{\sim}
+\newunicodechar{≃}{\simeq}
+\newunicodechar{≅}{\cong}
+\newunicodechar{≈}{\approx}
+\newunicodechar{≍}{\asymp}
+\newunicodechar{≐}{\doteq}
 \newunicodechar{≔}{\coloneq}
 \newunicodechar{≕}{\eqcolon}
+\newunicodechar{≡}{\equiv}
+\newunicodechar{≺}{\prec}
+\newunicodechar{≻}{\succ}
+\newunicodechar{⊢}{\vdash}
+\newunicodechar{⊣}{\dashv}
+\newunicodechar{⊥}{\perp}
+\newunicodechar{⊧}{\models}
+\newunicodechar{⋈}{\bowtie}
+\newunicodechar{⌢}{\frown}
+\newunicodechar{⌣}{\smile}
 \newunicodechar{⟂}{\perp}
+%\newunicodechar{⊥}{\bot}% NOTE: prefer \perp https://tex.stackexchange.com/a/102187
+\newunicodechar{⨝}{\Join}% *
+\newunicodechar{⪯}{\preceq}
+\newunicodechar{⪰}{\succeq}
 \newunicodechar{⫫}{\indep}
-\newunicodechar{∝}{\propto}
-% region other relations ---------------------------------------------------------------
+% region binary relations --------------------------------------------------------------
 
 % region inequality-like ---------------------------------------------------------------
-\newunicodechar{≻}{\succ}
-\newunicodechar{⪰}{\succeq}
-\newunicodechar{≺}{\prec}
-\newunicodechar{⪯}{\preceq}
-\newunicodechar{≍}{\asymp}
 \newunicodechar{≤}{\le}
 \newunicodechar{≥}{\ge}
-\newunicodechar{≳}{\gtrsim}
-\newunicodechar{≲}{\lesssim}
-\newunicodechar{⪆}{\gtrapprox}
-\newunicodechar{⪅}{\lessapprox}
-\newunicodechar{≫}{\gg}
 \newunicodechar{≪}{\ll}
+\newunicodechar{≫}{\gg}
+\newunicodechar{≲}{\lesssim}
+\newunicodechar{≳}{\gtrsim}
 \newunicodechar{⋘}{\lll}
 \newunicodechar{⋙}{\ggg}
+\newunicodechar{⪅}{\lessapprox}
+\newunicodechar{⪆}{\gtrapprox}
 % endregion inequality-like ------------------------------------------------------------
 
 % region equivalence-like --------------------------------------------------------------
-\newunicodechar{∼}{\sim}
 \newunicodechar{≁}{\nsim}
-\newunicodechar{≃}{\simeq}
-\newunicodechar{≅}{\cong}
 \newunicodechar{≆}{\simneqq}
 \newunicodechar{≇}{\ncong}
-\newunicodechar{≈}{\approx}
 \newunicodechar{≉}{\napprox}
 \newunicodechar{≊}{\approxeq}
 \newunicodechar{≋}{\approxident}
 \newunicodechar{≌}{\backcong}
-\newunicodechar{≐}{\doteq}
 \newunicodechar{≗}{\circeq}
 \newunicodechar{≙}{\hateq}% U+2259 Estimates
 \newunicodechar{≜}{\deleq}% U+225C Delta Equal To
 \newunicodechar{≝}{\defeq}% U+225D Equal to By Definition
 \newunicodechar{≟}{\questeq}% U+225F Questioned Equal To
 \newunicodechar{≠}{\ne}
-\newunicodechar{≡}{\equiv}
 % endregion equivalence-like -----------------------------------------------------------
 % endregion relations ------------------------------------------------------------------
 
@@ -848,9 +888,7 @@
 \newunicodechar{∄}{\nexists}
 \newunicodechar{∧}{\wedge}
 \newunicodechar{∨}{\vee}
-\newunicodechar{⊢}{\vdash}
 \newunicodechar{⊤}{\top}
-\newunicodechar{⊥}{\bot}
 \newunicodechar{⊨}{\vDash}
 \newunicodechar{⊬}{\nvdash}% U+22AC
 \newunicodechar{⊭}{\nvDash}% U+22AD

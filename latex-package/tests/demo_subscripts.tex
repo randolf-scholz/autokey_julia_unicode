@@ -1,0 +1,119 @@
+% https://tex.stackexchange.com/a/715288
+% chktex-file 41
+
+\documentclass{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+% region patch1 ------------------------------------------------------------------------
+%\makeatletter
+%\AtBeginDocument{%
+%  \begingroup % save standard superscript definition
+%    \catcode`\^=7
+%    \global\let\my@standardsup=^
+%  \endgroup
+%  \catcode`\^=12     % set ^ catcode to other
+%  \mathcode`\^="8000 % make ^ active in math mode
+%}
+%
+%%% brace ^ argument
+%\begingroup
+%  \lccode`\~=`\^
+%  \lowercase{\endgroup%
+%  \def~}#1{\my@standardsup{#1}%
+%}%
+%
+%%% fix prime symbol
+%\begingroup \catcode`\^=12%
+%\gdef\pr@m@s{% copy of \@pr@m@s code from latex.ltx
+%  \ifx'\@let@token
+%    \expandafter\pr@@@s
+%  \else
+%    \ifx^\@let@token
+%      \expandafter\expandafter\expandafter\pr@@@t
+%    \else
+%      \egroup
+%    \fi
+%  \fi}
+%\endgroup
+%\makeatother
+% endregion patch1 ---------------------------------------------------------------------
+
+
+% region patch2 ------------------------------------------------------------------------
+\makeatletter
+\let\old@sup=^% save a copy of original ^ (catcode 7)
+\catcode`\^=12% 13 also work!?
+\mathcode`\^="8000% chktex 18
+\lccode`\~=`\^%
+\lowercase{\def~}#1{\old@sup{#1}}% define `lowercase{~} as old superscript.`
+
+% redefine \pr@m@s using `^` with the new catcode.
+\def\pr@m@s{% copy of \@pr@m@s code from latex.ltx
+\ifx'\@let@token% <-- use U+0027
+	\expandafter\pr@@@s%
+\else\ifx^\@let@token%
+	\expandafter\expandafter\expandafter\pr@@@t%
+\else%
+	\egroup%
+\fi\fi%
+}
+\makeatother
+% endregion patch2 ---------------------------------------------------------------------
+
+\newcommand\mesh{\mathrel{\#}}
+\newcommand\smallplus{\mathbin{\texttt{+}}}
+\newcommand\indep{\mathrel{\perp\!\!\!\perp}}
+\newcommand\myrel{\mathrel{\overset{\textsf{a.e.}}{\sim}}}
+
+\begin{document}
+% reference
+\begin{tabular}{l}
+	$A \square B$   \\
+	$A^\square$     \\
+	$A^{\square}$   \\
+	$A'^\square$    \\
+	$A'^{\square}$  \\
+	$A''^\square$   \\
+	$A''^{\square}$ \\
+	$A'''^\square$   \\
+	$A'''^{\square}$ \\
+\end{tabular}
+%\end{document}
+% no prime
+\begin{tabular}{lllllll}
+$A \square B   $ &  $A^\square   $ & $A^{\square}   $ \\
+$A \mesh B     $ &  $A^\mesh     $ & $A^{\mesh}     $ \\
+$A \smallplus B$ &  $A^\smallplus$ & $A^{\smallplus}$ \\
+$A \indep B    $ &  $A^\indep    $ & $A^{\indep}    $ \\
+$A \myrel B    $ &  $A^\myrel    $ & $A^{\myrel}    $ \\
+\end{tabular}
+
+% single prime
+\begin{tabular}{lllllll}
+$A'^\square   $ & $A'^{\square}   $ \\
+$A'^\mesh     $ & $A'^{\mesh}     $ \\
+$A'^\smallplus$ & $A'^{\smallplus}$ \\
+$A'^\indep    $ & $A'^{\indep}    $ \\
+$A'^\myrel    $ & $A'^{\myrel}    $ \\
+\end{tabular}
+
+% double prime
+\begin{tabular}{ll}
+$A''^\square   $ & $A''^{\square}   $ \\
+$A''^\mesh     $ & $A''^{\mesh}     $ \\
+$A''^\smallplus$ & $A''^{\smallplus}$ \\
+$A''^\indep    $ & $A''^{\indep}    $ \\
+$A''^\myrel    $ & $A''^{\myrel}    $ \\
+\end{tabular}
+
+% triple prime
+\begin{tabular}{ll}
+$A'''^\square   $ & $A'''^{\square}   $ \\
+$A'''^\mesh     $ & $A'''^{\mesh}     $ \\
+$A'''^\smallplus$ & $A'''^{\smallplus}$ \\
+$A'''^\indep    $ & $A'''^{\indep}    $ \\
+$A'''^\myrel    $ & $A'''^{\myrel}    $ \\
+\end{tabular}
+\end{document}

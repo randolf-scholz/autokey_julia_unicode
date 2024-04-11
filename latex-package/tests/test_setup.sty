@@ -12,6 +12,13 @@
 \RequirePackage[T1]{fontenc}
 \fi
 
+\ProvideDocumentCommand{\umeaning}{m}{% prints the meaning of a unicode symbol
+% Adapted from newunicodechar package
+\edef\unicode@meaning@temp{\detokenize{#1}}%
+\if\unicode@meaning@temp\relax\else%
+\expandafter\expandafter\expandafter\strip@prefix\expandafter\meaning\csname u8:\unicode@meaning@temp\endcsname%
+\fi%
+}%
 
 \DeclareMathAlphabet{\mathsfit}{T1}{\sfdefault}{\mddefault}{\sldefault}
 \SetMathAlphabet{\mathsfit}{bold}{T1}{\sfdefault}{\bfdefault}{\sldefault}
