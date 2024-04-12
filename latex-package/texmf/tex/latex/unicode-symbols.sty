@@ -347,7 +347,7 @@
 \newcommand{\unicode@nsqsupseteq}{\centernot{\sqsupseteq}}
 % delimiters
 \newcommand{\unicode@rParen}{\mathclose{)\mkern-4.5mu)}}% chktex 10
-\newcommand{\unicode@lParen}{\mathopen{(\mkern-4.5mu(}}% chktex 10
+\newcommand{\unicode@lParen}{\mathopen{(\mkern-4.5mu(}}% chktex 10 chktex 36
 \newcommand{\unicode@rBrace}{\mathclose{\}\mkern-6mu\}}}% NOTE: \!=-3mu
 \newcommand{\unicode@lBrace}{\mathopen{\{\mkern-6mu\{}}% NOTE: \!=-3mu
 \newcommand{\unicode@rAngle}{\mathclose{\rangle\mkern-4.5mu\rangle}}
@@ -630,42 +630,52 @@
 % endregion unary operators ------------------------------------------------------------
 
 % region binary operators --------------------------------------------------------------
+% LaTeX2e core operators (36)
 \newunicodechar{±}{\autopm}
 \newunicodechar{÷}{\autodiv}
 \newunicodechar{∓}{\mp}
-\newunicodechar{∘}{\circ}
-\newunicodechar{⧺}{\doubleplus}% concatenation
-\newunicodechar{⨿}{\amalg}% U+2A3F (Amalgamation or Coproduct)
 \newunicodechar{∗}{\autoast}% U+2217 (Asterisk)
-\newunicodechar{▽}{\bigtriangledown}% U+25BD (White Down-Pointing Triangle)
-\newunicodechar{△}{\bigtriangleup}% U+25B3 (White Up-Pointing Triangle)
+\newunicodechar{∘}{\circ}
 \newunicodechar{∙}{\bullet}% U+2219 (Bullet Operator)
-\newunicodechar{⋄}{\diamond}% U+22C4 (Diamond Operator)
-\newunicodechar{◁}{\lhd}% U+25C1 (White Left-Pointing Triangle)
-\newunicodechar{▷}{\rhd}% U+25B7 (White Right-Pointing Triangle)
-\newunicodechar{⋆}{\star}% U+22C6 (Star Operator)
-\newunicodechar{⊴}{\unlhd}% U+22B4 (Normal Subgroup of or Equal To)
-\newunicodechar{⊵}{\unrhd}% U+22B5 (Contains as Normal Subgroup)
 \newunicodechar{≀}{\wr}% U+2240 (Wreath Product)
-
-% region circled operators -------------------------------------------------------------
-\newunicodechar{⊙}{\odot}
 \newunicodechar{⊕}{\oplus}
-\newunicodechar{⊖}{\ominus}
 \newunicodechar{⊗}{\otimes}
 \newunicodechar{⊘}{\oslash}
-\newunicodechar{⊚}{\circledcirc}
-\newunicodechar{⊛}{\circledast}
-\newunicodechar{⊜}{\circledequal}
-\newunicodechar{⊝}{\circleddash}
-% endregion circled operators ----------------------------------------------------------
-
-% region square operators --------------------------------------------------------------
+\newunicodechar{⊙}{\odot}
+\newunicodechar{⊝}{\ominus}
+\newunicodechar{⊴}{\unlhd}% U+22B4 (Normal Subgroup of or Equal To)
+\newunicodechar{⊵}{\unrhd}% U+22B5 (Contains as Normal Subgroup)
+\newunicodechar{⋄}{\diamond}% U+22C4 (Diamond Operator)
+\newunicodechar{⋆}{\star}% U+22C6 (Star Operator)
+\newunicodechar{△}{\bigtriangleup}% U+25B3 (White Up-Pointing Triangle)
+\newunicodechar{▷}{\rhd}% U+25B7 (White Right-Pointing Triangle)
+\newunicodechar{▽}{\bigtriangledown}% U+25BD (White Down-Pointing Triangle)
+\newunicodechar{◁}{\lhd}% U+25C1 (White Left-Pointing Triangle)
+\newunicodechar{⧺}{\doubleplus}% concatenation
+\newunicodechar{⨿}{\amalg}% U+2A3F (Amalgamation or Coproduct)
+% ams operators
+\newunicodechar{⊼}{\barwedge}
 \newunicodechar{⊡}{\boxdot}
-\newunicodechar{⊞}{\boxplus}
 \newunicodechar{⊟}{\boxminus}
+\newunicodechar{⊞}{\boxplus}
 \newunicodechar{⊠}{\boxtimes}
-% endregion square operators -----------------------------------------------------------
+\newunicodechar{⋒}{\Cap}
+% \newunicodechar{ }{\centerdot}
+\newunicodechar{⊛}{\circledast}
+\newunicodechar{⊚}{\circledcirc}
+\newunicodechar{⊖}{\circleddash}
+\newunicodechar{⋓}{\Cup}
+\newunicodechar{⋎}{\curlyvee}
+\newunicodechar{⋏}{\curlywedge}
+\newunicodechar{⋇}{\divideontimes}
+\newunicodechar{∔}{\dotplus}
+\newunicodechar{⩞}{\doublebarwedge}
+\newunicodechar{⋋}{\leftthreetimes}
+\newunicodechar{⋉}{\ltimes}
+\newunicodechar{⋌}{\rightthreetimes}
+\newunicodechar{⋊}{\rtimes}
+% \newunicodechar{}{\smallsetminus}
+\newunicodechar{⊻}{\veebar}
 % endregion binary operators -----------------------------------------------------------
 
 % region n-ary operators ---------------------------------------------------------------
@@ -720,9 +730,6 @@
 \newunicodechar{↕}{\updownarrow}
 \newunicodechar{↔}{\leftrightarrow}
 
-\newunicodechar{↞}{\twoheadleftarrow}
-\newunicodechar{↠}{\twoheadrightarrow}
-
 \newunicodechar{⟶}{\longrightarrow}
 \newunicodechar{⟵}{\longleftarrow}
 
@@ -733,11 +740,36 @@
 \newunicodechar{⟻}{\longmapsfrom}
 \newunicodechar{⟼}{\longmapsto}
 
-\newunicodechar{⇝}{\rightsquigarrow}
 \newunicodechar{⇜}{\leftsquigarrow}
-\newunicodechar{↭}{\leftrightsquigarrow}
 \newunicodechar{⟿}{\longrightsquigarrow}
 \newunicodechar{⬳}{\longleftsquigarrow}
+
+\newunicodechar{⟲}{\circlearrowleft}% (amsmath)
+\newunicodechar{⟳}{\circlearrowright}% (amsmath)
+\newunicodechar{↶}{\curvearrowleft}% (amsmath)
+\newunicodechar{↷}{\curvearrowright}% (amsmath)
+\newunicodechar{⇠}{\dashleftarrow}% (amsmath)
+\newunicodechar{⇢}{\dashrightarrow}% (amsmath)
+\newunicodechar{⇊}{\downdownarrows}% (amsmath)
+\newunicodechar{↢}{\leftarrowtail}% (amsmath)
+\newunicodechar{⇇}{\leftleftarrows}% (amsmath)
+\newunicodechar{⇆}{\leftrightarrows}% (amsmath)
+\newunicodechar{↭}{\leftrightsquigarrow}% (amsmath)
+\newunicodechar{⇚}{\Lleftarrow}% (amsmath)
+\newunicodechar{↫}{\looparrowleft}% (amsmath)
+\newunicodechar{↬}{\looparrowright}% (amsmath)
+\newunicodechar{↰}{\Lsh}% (amsmath)
+\newunicodechar{↣}{\rightarrowtail}% (amsmath)
+\newunicodechar{⇄}{\rightleftarrows}% (amsmath)
+\newunicodechar{⇒}{\rightrightarrows}% (amsmath)
+\newunicodechar{⇝}{\rightsquigarrow}% (amsmath)
+\newunicodechar{↱}{\Rsh}% (amsmath)
+\newunicodechar{↞}{\twoheadleftarrow}% (amsmath)
+\newunicodechar{↠}{\twoheadrightarrow}% (amsmath)
+\newunicodechar{⇈}{\upuparrows}% (amsmath)
+
+
+
 % endregion arrows ---------------------------------------------------------------------
 
 % region dots --------------------------------------------------------------------------
@@ -795,6 +827,27 @@
 \newunicodechar{⋂}{\bigcap}% set intersection
 \newunicodechar{×}{\autotimes}% cartesian product
 \newunicodechar{⨉}{\bigtimes}% cartesian product
+
+% ams subset
+%\newunicodechar{⊈}{\nsubseteq}
+%\newunicodechar{⊉}{\nsupseteq}
+% \newunicodechar{}{\nsupseteqq}
+%\newunicodechar{⊏}{\sqsubset}
+%\newunicodechar{⊐}{\sqsupset}
+\newunicodechar{⋐}{\Subset}
+\newunicodechar{⫅}{\subseteqq}
+\newunicodechar{⊊}{\subsetneq}
+\newunicodechar{⫋}{\subsetneqq}
+\newunicodechar{⋑}{\Supset}
+\newunicodechar{⫆}{\supseteqq}
+\newunicodechar{⊋}{\supsetneq}
+\newunicodechar{⫌}{\supsetneqq}
+% \newunicodechar{}{\varsubsetneq}
+% \newunicodechar{}{\varsubsetneqq}
+% \newunicodechar{}{\varsupsetneq}
+% \newunicodechar{}{\varsupsetneqq}
+
+
 % region multiset ----------------------------------------------------------------------
 \newunicodechar{⊎}{\uplus}% multiset union
 \newunicodechar{⨄}{\biguplus}% multiset union
@@ -845,7 +898,65 @@
 \newunicodechar{⪯}{\preceq}
 \newunicodechar{⪰}{\succeq}
 \newunicodechar{⫫}{\indep}
+% ams binary relations
+\newunicodechar{≊}{\approxeq}
+\newunicodechar{϶}{\backepsilon}
+\newunicodechar{∽}{\backsim}
+\newunicodechar{⋍}{\backsimeq}
+\newunicodechar{∵}{\because}
+\newunicodechar{≬}{\between}
+\newunicodechar{≎}{\Bumpeq}
+\newunicodechar{≏}{\bumpeq}
+\newunicodechar{⊜}{\circeq}
+\newunicodechar{⋞}{\curlyeqprec}
+\newunicodechar{⋟}{\curlyeqsucc}
+\newunicodechar{≑}{\doteqdot}
+\newunicodechar{≖}{\eqcirc}
+\newunicodechar{≒}{\fallingdotseq}
+\newunicodechar{⊸}{\multimap}
+\newunicodechar{⋔}{\pitchfork}
+\newunicodechar{⪷}{\precapprox}
+\newunicodechar{≼}{\preccurlyeq}
+\newunicodechar{≾}{\precsim}
+\newunicodechar{≓}{\risingdotseq}
+% \newunicodechar{}{\shortmid}
+% \newunicodechar{}{\shortparallel}
+% \newunicodechar{}{\smallfrown}
+% \newunicodechar{}{\smallsmile}
+\newunicodechar{⪸}{\succapprox}
+\newunicodechar{≽}{\succcurlyeq}
+\newunicodechar{≿}{\succsim}
+\newunicodechar{∴}{\therefore}
+% \newunicodechar{}{\thickapprox}
+% \newunicodechar{}{\thicksim}
+% \newunicodechar{}{\varpropto}
+\newunicodechar{⊩}{\Vdash}
+\newunicodechar{⊨}{\vDash}
+\newunicodechar{⊪}{\Vvdash}
 % region binary relations --------------------------------------------------------------
+
+% region negated relations -------------------------------------------------------------
+\newunicodechar{≇}{\ncong}
+\newunicodechar{∤}{\nmid}
+\newunicodechar{∦}{\nparallel}
+\newunicodechar{⊀}{\nprec}
+% \newunicodechar{}{\npreceq}
+% \newunicodechar{}{\nshortmid}
+% \newunicodechar{}{\nshortparallel}
+\newunicodechar{≁}{\nsim}
+\newunicodechar{⊁}{\nsucc}
+% \newunicodechar{}{\nsucceq}
+\newunicodechar{⊭}{\nvDash}
+\newunicodechar{⊬}{\nvdash}
+\newunicodechar{⊯}{\nVDash}
+\newunicodechar{⪹}{\precnapprox}
+\newunicodechar{⋨}{\precnsim}
+\newunicodechar{⪺}{\succnapprox}
+\newunicodechar{⋩}{\succnsim}
+
+
+% endregion negated relations ----------------------------------------------------------
+
 
 % region inequality-like ---------------------------------------------------------------
 \newunicodechar{≤}{\le}
@@ -861,11 +972,8 @@
 % endregion inequality-like ------------------------------------------------------------
 
 % region equivalence-like --------------------------------------------------------------
-\newunicodechar{≁}{\nsim}
 \newunicodechar{≆}{\simneqq}
-\newunicodechar{≇}{\ncong}
 \newunicodechar{≉}{\napprox}
-\newunicodechar{≊}{\approxeq}
 \newunicodechar{≋}{\approxident}
 \newunicodechar{≌}{\backcong}
 \newunicodechar{≗}{\circeq}
@@ -889,11 +997,7 @@
 \newunicodechar{∧}{\wedge}
 \newunicodechar{∨}{\vee}
 \newunicodechar{⊤}{\top}
-\newunicodechar{⊨}{\vDash}
-\newunicodechar{⊬}{\nvdash}% U+22AC
-\newunicodechar{⊭}{\nvDash}% U+22AD
 \newunicodechar{⊮}{\nVdash}% U+22AE
-\newunicodechar{⊯}{\nVDash}% U+22AF
 \newunicodechar{⋀}{\bigwedge}
 \newunicodechar{⋁}{\bigvee}
 \newunicodechar{⟸}{\impliedby}

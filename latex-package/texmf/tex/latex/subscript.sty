@@ -1,0 +1,121 @@
+% Subscript
+%
+% © Randolf Scholz
+%
+% This package simply contains a list of newunicodechar declarations,
+% which allows to use a reasonable subset of Unicode characters together
+% with pdflatex.
+
+% This package provides the commands \subscript and \superscript, which, contrary to
+% the original implementations of ^{} and _{} can be combined: \subscript{x}\subscript{y}
+% is the same as \subscript{xy}. In particular, this package is used to facilitate unicode superscripts such as $Aᵢⱼ$.
+% However, we do not remove erros on $x^{1}^{2}$, since likely this is a user error.
+
+
+% Additionally, this package incorporates other patches to the subscript system
+%
+% 1. `subdepth`: We incorporate the subdepth patch, to ensure that the verical alignment of subscripts is ok.
+% 2.
+%
+
+% chktex-file 18
+% chktex-file 41
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{subscript}[2024/04/12 subscripts]
+
+
+% region subdepth patch ================================================================
+% REF: https://tex.stackexchange.com/q/51678
+% REF: https://ctan.org/pkg/subdepth
+\makeatletter
+\addto@hook\every@math@size{\dch@scr@hook}
+\newif\if@wspr@sup@low@
+
+
+\def\dch@scr@adjust{%
+	\@ifundefined{dch@sizet\f@size}{%
+		\expandafter\dch@set@script\csname dch@sizet\f@size\endcsname%
+	}{%
+		\csname dch@sizet\f@size\endcsname%
+	}%
+}
+
+\def\dch@set@script#1{%
+	\begingroup % fontdimen settings are global anyway
+	\frozen@everymath{}% Prevent recursion!
+	\let#1\@empty%
+	\let\dch@do@one\relax%
+	\dch@set@one\scriptscriptstyle\scriptscriptfont#1\ssf@size%
+	\dch@set@one\scriptstyle\scriptfont#1\sf@size%
+	\dch@set@one\textstyle\textfont#1\f@size%
+	\endgroup%
+	#1%
+}
+
+
+\def\dch@set@one#1#2#3#4{%
+	\@ifundefined{dch@size#4}{%
+		\expandafter\xdef\csname dch@size#4\endcsname{%
+			\unless\if@wspr@sup@low@%
+				\fontdimen13\the#2\tw@=\the\fontdimen13#2\tw@%
+				\fontdimen14\the#2\tw@=\the\fontdimen14#2\tw@%
+				\fontdimen15\the#2\tw@=\the\fontdimen15#2\tw@%
+			\fi%
+			\fontdimen16\the#2\tw@=\the\fontdimen16#2\tw@%
+			\fontdimen17\the#2\tw@=\the\fontdimen17#2\tw@%
+		}%
+	}{%
+		\csname dch@size#4\endcsname%
+	}%
+	\setbox\z@\hbox{$#1H_2$}\@tempdima\dp\z@%
+	\setbox\z@\hbox{$#1H_2^{+\vrule \@height 1em}$}%
+	\ifdim\@tempdima<\dp\z@%
+		\@tempdima\dimexpr (\@tempdima+\dp\z@)/2 \relax%
+		\@tempdimb\dimexpr (\dp\z@-\@tempdima+\ht\z@-1em) \relax%
+		\xdef#3{#3\dch@do@one#2{\the\@tempdimb}{\the\@tempdima}}%
+	\fi%
+}
+
+\def\dch@do@one#1#2#3{%
+	\unless\if@wspr@sup@low@%
+		\fontdimen13#1\tw@#2\relax%
+		\fontdimen14#1\tw@\fontdimen13#1\tw@%
+		\fontdimen15#1\tw@\fontdimen13#1\tw@%
+	\fi%
+	\fontdimen\sixt@@n#1\tw@#3%
+	\fontdimen17#1\tw@%
+	\fontdimen\sixt@@n#1\tw@%
+}%
+
+
+\let\dch@scr@hook\dch@scr@adjust%
+\ifx\glb@currsize\f@size\dch@scr@adjust\fi%
+\makeatother
+% endregion subdepth patch =============================================================
+
+
+% region subscript-braces patch ========================================================
+% NOTE: This patch allows to write subscripts without braces, e.g. x^\max instead of x^{\max}
+% REF: https://tex.stackexchange.com/q/655977
+\makeatletter
+\let\old@sup=^% save a copy of original ^ with catcode 7
+\catcode`\^=13% make ^ and activate character
+\def^#1{\old@sup{#1}}% change definition to call the original ^ with braces
+
+% patch \pr@m@s using `^` with the new catcode.
+\def\pr@m@s{% copy of \@pr@m@s code from latex.ltx
+\ifx'\@let@token% <-- use U+0027
+	\expandafter\pr@@@s%
+\else\ifx^\@let@token%
+	\expandafter\expandafter\expandafter\pr@@@t%
+\else%
+	\egroup%
+\fi\fi%
+}
+\makeatother
+% endregion subscript-braces patch =====================================================
+
+
+% endregion payload ====================================================================
+\PackageInfo{subscript}{finished}
+\endinput%

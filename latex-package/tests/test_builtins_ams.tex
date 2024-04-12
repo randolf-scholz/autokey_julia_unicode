@@ -1,0 +1,162 @@
+\documentclass{standalone}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+\usepackage[verbose]{newunicodechar}
+\usepackage{test_setup}
+%\usepackage[nostix]{unicode-symbols}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\NewDocumentCommand{\makerow}{s m O{}}{%
+	\pgfkeys{/makerow, default, #3}% set defaults
+	\umeaning{#2} & #2 & \rowTEXT & #2 & \rowMATH & $#2$ \\%
+}
+
+\NewDocumentCommand{\maketext}{s m O{}}{%
+	\pgfkeys{/makerow, default, #3}% set defaults
+	\umeaning{#2} & #2 & \rowTEXT & #2 && \\%
+}
+
+
+\NewDocumentCommand{\makemath}{s m O{}}{%
+	\pgfkeys{/makerow, default, #3}% set defaults
+	\rowMATH \\
+%	\umeaning{#2} & $#2$ &&& \rowMATH & $#2$ \\%
+}
+
+\begin{document}
+\begin{tabular}{ll|ll|ll}  % chktex 44
+\toprule
+meaning & symbol & \multicolumn{2}{c|}{\textbf{text}} & \multicolumn{2}{c}{\textbf{math}} \\
+\midrule% Text symbols ----------------------------------
+\makerow{}[text=\checkmark, math=$\checkmark$]
+\midrule% Table 54 (binary operations) -------------------------------------------------
+\makemath{⊼}[math=$\barwedge$       ]
+\makemath{⊡}[math=$\boxdot$         ]
+\makemath{⊟}[math=$\boxminus$       ]
+\makemath{⊞}[math=$\boxplus$        ]
+\makemath{⊠}[math=$\boxtimes$       ]
+\makemath{⋒}[math=$\Cap$            ]
+\makemath{}[math=$\centerdot$      ]
+\makemath{⊛}[math=$\circledast$     ]
+\makemath{⊚}[math=$\circledcirc$    ]
+\makemath{⊖}[math=$\circleddash$    ]
+\makemath{⋓}[math=$\Cup$            ]
+\makemath{⋎}[math=$\curlyvee$       ]
+\makemath{⋏}[math=$\curlywedge$     ]
+\makemath{⋇}[math=$\divideontimes$  ]
+\makemath{∔}[math=$\dotplus$        ]
+\makemath{⩞}[math=$\doublebarwedge$ ]
+\makemath{⊺}[math=$\intercal$       ]% *
+\makemath{⋋}[math=$\leftthreetimes$ ]
+\makemath{⋉}[math=$\ltimes$         ]
+\makemath{⋌}[math=$\rightthreetimes$]
+\makemath{⋊}[math=$\rtimes$         ]
+\makemath{}[math=$\smallsetminus$  ]
+\makemath{⊻}[math=$\veebar$         ]
+\midrule% Table 80 (Variable-sized Math Operators) -------------------------------------
+\makemath{∬}[math=$\iint$          ]
+\makemath{∭}[math=$\iiint$         ]
+\makemath{⨌}[math=$\iiiint$        ]
+\makemath{}[math=$\idotsint$       ]
+\midrule% Table 99 (binary relations) --------------------------------------------------
+\makemath{≊}[math=$\approxeq$      ]
+\makemath{϶}[math=$\backepsilon$   ]
+\makemath{∽}[math=$\backsim$       ]
+\makemath{⋍}[math=$\backsimeq$     ]
+\makemath{∵}[math=$\because$       ]
+\makemath{≬}[math=$\between$       ]
+\makemath{≎}[math=$\Bumpeq$        ]
+\makemath{≏}[math=$\bumpeq$        ]
+\makemath{⊜}[math=$\circeq$        ]
+\makemath{⋞}[math=$\curlyeqprec$   ]
+\makemath{⋟}[math=$\curlyeqsucc$   ]
+\makemath{≑}[math=$\doteqdot$      ]
+\makemath{≖}[math=$\eqcirc$        ]
+\makemath{≒}[math=$\fallingdotseq$ ]
+\makemath{⊸}[math=$\multimap$      ]
+\makemath{⋔}[math=$\pitchfork$     ]
+\makemath{⪷}[math=$\precapprox$    ]
+\makemath{≼}[math=$\preccurlyeq$   ]
+\makemath{≾}[math=$\precsim$       ]
+\makemath{≓}[math=$\risingdotseq$  ]
+\makemath{}[math=$\shortmid$      ]
+\makemath{}[math=$\shortparallel$ ]
+\makemath{}[math=$\smallfrown$    ]
+\makemath{}[math=$\smallsmile$    ]
+\makemath{⪸}[math=$\succapprox$    ]
+\makemath{≽}[math=$\succcurlyeq$   ]
+\makemath{≿}[math=$\succsim$       ]
+\makemath{∴}[math=$\therefore$     ]
+\makemath{}[math=$\thickapprox$   ]
+\makemath{}[math=$\thicksim$      ]
+\makemath{}[math=$\varpropto$     ]
+\makemath{⊩}[math=$\Vdash$         ]
+\makemath{⊨}[math=$\vDash$         ]
+\makemath{⊪}[math=$\Vvdash$        ]
+\midrule% Table 100 (negated binary relations) -----------------------------------------
+\makemath{≇}[math=$\ncong$          ]
+\makemath{∤}[math=$\nmid$           ]
+\makemath{∦}[math=$\nparallel$      ]
+\makemath{⊀}[math=$\nprec$          ]
+\makemath{}[math=$\npreceq$        ]
+\makemath{}[math=$\nshortmid$      ]
+\makemath{}[math=$\nshortparallel$ ]
+\makemath{≁}[math=$\nsim$           ]
+\makemath{⊁}[math=$\nsucc$          ]
+\makemath{}[math=$nsucceq$         ]
+\makemath{⊭}[math=$\nvDash$         ]
+\makemath{⊬}[math=$\nvdash$         ]
+\makemath{⊯}[math=$\nVDash$         ]
+\makemath{⪹}[math=$\precnapprox$    ]
+\makemath{⋨}[math=$\precnsim$       ]
+\makemath{⪺}[math=$\succnapprox$    ]
+\makemath{⋩}[math=$\succnsim$       ]
+\midrule% Table 125 (subset and superset relations) ------------------------------------
+\makemath{⊈}[math=$\nsubseteq$     ]
+\makemath{⊉}[math=$\nsupseteq$     ]
+\makemath{}[math=$\nsupseteqq$    ]
+\makemath{⊏}[math=$\sqsubset$      ]
+\makemath{⊐}[math=$\sqsupset$      ]
+\makemath{⋐}[math=$\Subset$        ]
+\makemath{⫅}[math=$\subseteqq$     ]
+\makemath{⊊}[math=$\subsetneq$     ]
+\makemath{⫋}[math=$\subsetneqq$    ]
+\makemath{⋑}[math=$\Supset$        ]
+\makemath{⫆}[math=$\supseteqq$     ]
+\makemath{⊋}[math=$\supsetneq$     ]
+\makemath{⫌}[math=$\supsetneqq$    ]
+\makemath{}[math=$\varsubsetneq$  ]
+\makemath{}[math=$\varsubsetneqq$ ]
+\makemath{}[math=$\varsupsetneq$  ]
+\makemath{}[math=$\varsupsetneqq$ ]
+\midrule% Table 156 (Arrows) -----------------------------------------------------------
+\makemath{⟲}[math=$\circlearrowleft$    ]
+\makemath{⟳}[math=$\circlearrowright$   ]
+\makemath{↶}[math=$\curvearrowleft$     ]
+\makemath{↷}[math=$\curvearrowright$    ]
+\makemath{⇠}[math=$\dashleftarrow$      ]
+\makemath{⇢}[math=$\dashrightarrow$     ]
+\makemath{⇊}[math=$\downdownarrows$     ]
+\makemath{↢}[math=$\leftarrowtail$      ]
+\makemath{⇇}[math=$\leftleftarrows$     ]
+\makemath{⇆}[math=$\leftrightarrows$    ]
+\makemath{↭}[math=$\leftrightsquigarrow$]
+\makemath{⇚}[math=$\Lleftarrow$         ]
+\makemath{↫}[math=$\looparrowleft$      ]
+\makemath{↬}[math=$\looparrowright$     ]
+\makemath{↰}[math=$\Lsh$                ]
+\makemath{↣}[math=$\rightarrowtail$     ]
+\makemath{⇄}[math=$\rightleftarrows$    ]
+\makemath{⇒}[math=$\rightrightarrows$   ]
+\makemath{⇝}[math=$\rightsquigarrow$    ]
+\makemath{↱}[math=$\Rsh$                ]
+\makemath{↞}[math=$\twoheadleftarrow$   ]
+\makemath{↠}[math=$\twoheadrightarrow$  ]
+\makemath{⇈}[math=$\upuparrows$         ]
+
+
+\bottomrule
+\end{tabular}
+\end{document}
