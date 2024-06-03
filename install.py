@@ -143,9 +143,9 @@ DEFAULT_QUESTION = "Please pick one of the following:"
 
 
 def query_choice(
+    question: str = DEFAULT_QUESTION,
     *,
     choices: list[T] | dict[int, T],
-    question: str = DEFAULT_QUESTION,
     default: int | None = 0,
 ) -> T:
     """Ask the user to pick an option."""
@@ -218,6 +218,21 @@ class UnicodeSample(NamedTuple):
     def __repr__(self) -> str:
         char, ucode, abbrevations = self.char, self.ucode, self.abbreviations
         return f"{ucode}: {char!r}  {abbrevations=!s}"
+
+
+TABULATOR: UnicodeSample = UnicodeSample(
+    ucode=as_ucode("U+0009"),
+    char=as_char("\t"),
+    abbreviations=[as_abbreviation(r"\t ")],
+    description="Tabulator",
+)
+
+NEWLINE: UnicodeSample = UnicodeSample(
+    ucode=as_ucode("U+000A"),
+    char=as_char("\n"),
+    abbreviations=[as_abbreviation(r"\n ")],
+    description="Newline",
+)
 
 
 def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
@@ -299,7 +314,8 @@ def create_autokey_phrase(
     sample: UnicodeSample,
     *,
     path: Path,
-    template: JSON,
+    template: JSON = TEMPLATE,
+    overwrite: bool = False,
 ) -> None:
     """Create the autokey phrase and metadata file."""
     metadata = template | {
@@ -308,9 +324,9 @@ def create_autokey_phrase(
         "description": sample.description,
     }
 
-    if (payload_path := path / f"{sample.ucode}.txt").exists():
+    if (payload_path := path / f"{sample.ucode}.txt").exists() and not overwrite:
         raise FileExistsError(f"File {payload_path} already exists.")
-    if (metadata_path := path / f".{sample.ucode}.json").exists():
+    if (metadata_path := path / f".{sample.ucode}.json").exists() and not overwrite:
         raise FileExistsError(f"File {metadata_path} already exists.")
 
     with (
@@ -324,8 +340,10 @@ def create_autokey_phrase(
 def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -> None:
     """Read the icons from filename and create phrases files in target_dir."""
     folder = Path(directory)
-    assert folder.exists(), f"{folder} does not exist."
-    assert folder.is_dir(), f"{folder} is not a directory."
+    if not folder.exists():
+        raise FileNotFoundError(f"{folder} does not exist.")
+    if not folder.is_dir():
+        raise NotADirectoryError(f"{folder} is not a directory.")
 
     # region make the target directory -----------------------------------------
     # append the fodler name to the target directory
@@ -438,6 +456,35 @@ HELP_CONFIG: JSON = {
 }
 
 
+def generate_character(
+    sample: UnicodeSample,
+    *,
+    template: JSON = TEMPLATE,
+    target_dir: Path,
+    default: bool = False,
+) -> None:
+    """Generate special characters."""
+
+    text_file = target_dir / f"{sample.ucode}.txt"
+    json_file = target_dir / f".{sample.ucode}.json"
+
+    if text_file.exists() or json_file.exists():
+        if query_choice(
+            f"Delete existing special character {sample.char!r}?", choices=[False, True]
+        ):
+            text_file.unlink()
+            json_file.unlink()
+    elif query_choice(
+        f"Do you want to generate special character {sample.char!r}? ({default=})",
+        choices=[default, not default],
+    ):
+        target_dir.mkdir(exist_ok=True)
+        create_autokey_phrase(
+            NEWLINE, template=template, path=target_dir, overwrite=True
+        )
+        LOGGER.info("✅ Added %s.", sample.char)
+
+
 def generate_help(*, target_dir: Path) -> None:
     """Create help script and config."""
     LOGGER.info("=" * 80)
@@ -445,10 +492,10 @@ def generate_help(*, target_dir: Path) -> None:
 
     target_dir.mkdir(exist_ok=True)
 
-    with open(target_dir / "julia_unicode_help.py", "w+", encoding="utf8") as file:
+    with open(target_dir / "julia_unicode_help.py", "w", encoding="utf8") as file:
         file.write(HELP_SCRIPT)
 
-    with open(target_dir / "julia_unicode_help.json", "w+", encoding="utf8") as file:
+    with open(target_dir / "julia_unicode_help.json", "w", encoding="utf8") as file:
         json.dump(HELP_CONFIG, file, indent=True)
 
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
@@ -472,14 +519,15 @@ def make_template(abbreviations: list[str], description: str, sendmode: str) -> 
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
 
-    AUTOKEY_DIR = Path.home() / ".config/autokey/"
-    if AUTOKEY_DIR.exists():
-        LOGGER.debug("Found autokey directory at %s.", AUTOKEY_DIR)
+    detected_directory = Path.home() / ".config/autokey/data/"
+    AUTOKEY_DIR = detected_directory if detected_directory.exists() else Path.cwd()
+
+    if detected_directory.exists():
+        LOGGER.debug("Found autokey directory at %s.", detected_directory)
     else:
         LOGGER.warning(
             "Autokey directory not found. Will generate files locally instead."
         )
-    BASE_PATH = AUTOKEY_DIR / "data/" if AUTOKEY_DIR.exists() else Path.cwd()
 
     parser = argparse.ArgumentParser(
         description="Install icons for usage with autokey.",
@@ -493,22 +541,28 @@ def main() -> None:
     )
     parser.add_argument(
         "--target-directory",
-        default=BASE_PATH,
-        type=Path,
+        default="",
+        type=str,
         help="Where to install the icons.",
     )
     parser.add_argument(
-        "directories",
-        nargs="*",
-        default=["icons/julia_unicode/", "icons/custom_unicode/"],
+        "--autokey-directory",
+        default=AUTOKEY_DIR,
         type=str,
-        help="Directories holding the `.tsv` files to be installed.",
+        help="The data directory of AutoKey.",
     )
     parser.add_argument(
         "--verbose",
         "-v",
         action="store_true",
         help="Increase verbosity.",
+    )
+    parser.add_argument(
+        "source_directories",
+        nargs="*",
+        default=["icons/julia_unicode/", "icons/custom_unicode/"],
+        type=str,
+        help="Directories holding the `.tsv` files to be installed.",
     )
     args = parser.parse_args()
 
@@ -519,14 +573,22 @@ def main() -> None:
     sendmode = get_sendmode() if args.sendmode is None else SEND_MODES[args.sendmode]
 
     # validate target_directory
-    target_dir = Path(args.target_directory)
-    assert target_dir.exists(), f"{target_dir} does not exist."
-    assert target_dir.is_dir(), f"{target_dir} is not a directory."
+    target_dir = AUTOKEY_DIR / args.target_directory
+
+    if not target_dir.exists():
+        raise FileNotFoundError(f"{target_dir} does not exist.")
+    if not target_dir.is_dir():
+        raise NotADirectoryError(f"{target_dir} is not a directory.")
 
     template = TEMPLATE | {"sendMode": sendmode}
 
-    for directory in args.directories:
+    for directory in args.source_directories:
         generate_codes(directory, target_dir=target_dir, template=template)
+
+    # add special characters
+    special = target_dir / "special"
+    generate_character(TABULATOR, target_dir=special, template=template, default=True)
+    generate_character(NEWLINE, target_dir=special, template=template, default=False)
 
     generate_help(target_dir=target_dir / "help")
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
