@@ -28,13 +28,12 @@ For overview see [Supported Alphabets](#supported-alphabets)
 ### Compatibility with MathJax & LaTeX
 
 1. MathJax supports Unicode characters: `$\sin(\theta)$` and `$\sin(θ)$` should look exactly the same.
-2. LaTeX has Unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package and compiling with [LuaLaTeX](http://www.luatex.org/). For usage with `pdflatex`, try the attached `unicode-symbols.sty` package.
+2. [LuaLaTeX](http://www.luatex.org/) has Unicode compatibility, at least in math-mode when using the [unicode-math](https://github.com/wspr/unicode-math) package.
+3. For PDFLaTeX, the package `unicode-symbols.sty` is provided. (should also work with lualatex)
 
 ⚠️ **BEWARE** ⚠️ If you intend to use <https://overleaf.com>,
 this platform only supports the first 65536 Unicode characters
-(the "basic plane"). This means that you cannot use any of the characters in the "supplementary planes"
-(e.g. the Greek letters 𝛼, 𝛽, 𝛾, …). If you want to use these characters, you need to compile your document locally
-([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
+(the "basic plane", which includes for instance the Greek letters 𝛼, 𝛽, 𝛾, …). This means that you cannot use any of the characters in the "supplementary planes", for instance the [Mathematical Alphanumeric Symbols](https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols) such as `𝓝` or `ℒ`. If you want to use these characters, you need to compile your document locally ([details](https://www.overleaf.com/learn/how-to/What_file_encodings_and_line_endings_should_I_use%3F#Invalid/Unsupported_Characters)).
 
 ### Supported Alphabets
 
