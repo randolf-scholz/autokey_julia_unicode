@@ -312,6 +312,7 @@
 \newcommand{\unicode@unaryminus}{\mathord{\texttt{-}}}
 \newcommand{\unicode@unaryplus}{\mathord{\texttt{+}}}
 % binary operators
+\newcommand{\unicode@minus}{\mathbin{-}}% force binary
 \newcommand{\unicode@doubleplus}{\mathbin{+\!\!\!+}}% chktex 21
 \newcommand{\unicode@cupdot}{\mathbin{\mathaccent\cdot\cup}}% REF: https://tex.stackexchange.com/a/91059
 % operators
@@ -472,6 +473,7 @@
 \providecommand{\mapsdown}{\unicode@mapsdown}
 \providecommand{\mapsup}{\unicode@mapsup}
 \providecommand{\smalltriangleup}{\unicode@smalltriangleup}
+\providecommand{\minus}{\unicode@minus}
 % endregion text/math macros -----------------------------------------------------------
 
 
@@ -634,6 +636,7 @@
 \newunicodechar{±}{\autopm}
 \newunicodechar{÷}{\autodiv}
 \newunicodechar{∓}{\mp}
+\newunicodechar{−}{\minus}  % U+2212 (Minus Sign), not the same as U+002D (Hyphen-Minus)
 \newunicodechar{∗}{\autoast}% U+2217 (Asterisk)
 \newunicodechar{∘}{\circ}
 \newunicodechar{∙}{\bullet}% U+2219 (Bullet Operator)
