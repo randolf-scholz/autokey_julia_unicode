@@ -8,7 +8,7 @@
 
 % chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{unicode-superscripts}[2024/02/26 Combining superscripts]
+\ProvidesPackage{unicode-superscripts}[2024/08/26 Combining superscripts]
 \RequirePackage{iftex}
 %
 % Usage: \newunicodechar{ᵢ}{\superscript{i}}
@@ -42,12 +42,15 @@
 \newcommand{\usuperscript@list@append}[1]{\edef\usuperscript@list{\unexpanded\expandafter{\usuperscript@list#1}}}
 \usuperscript@list@reset% initialize the list
 
-\newcommand{\usuperscript@log}[1]{%
-%
-% Prints the given message if the debug flag is set.
-%
-\ifusuperscript@debug\PackageInfo{superscript}{#1}\fi%
-}
+
+\ifusuperscript@debug
+	% Prints the given message if the debug flag is set.
+	\newcommand{\usuperscript@log}[1]{\PackageInfo{superscript}{#1}}
+\else
+	% Does nothing if the debug flag is not set.
+	\newcommand{\usuperscript@log}[1]{}
+\fi
+
 
 \newcommand{\usuperscript@getfirsttok}[2]{%
 %

@@ -8,7 +8,7 @@
 
 % chktex-file 41
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{unicode-subscripts}[2024/02/26 Combining Subscripts]
+\ProvidesPackage{unicode-subscripts}[2024/08/26 Combining Subscripts]
 \RequirePackage{iftex}
 %
 % Usage: \newunicodechar{ᵢ}{\subscript{i}}
@@ -42,12 +42,15 @@
 \newcommand{\usubscript@list@append}[1]{\edef\usubscript@list{\unexpanded\expandafter{\usubscript@list#1}}}
 \usubscript@list@reset% initialize the list
 
-\newcommand{\usubscript@log}[1]{%
-%
-% Prints the given message if the debug flag is set.
-%
-\ifusubscript@debug\PackageInfo{subscript}{#1}\fi%
-}
+
+\ifusubscript@debug
+	% Prints the given message if the debug flag is set.
+	\newcommand{\usubscript@log}[1]{\PackageInfo{subscript}{#1}}
+\else
+	% Does nothing if the debug flag is not set.
+	\newcommand{\usubscript@log}[1]{}
+\fi
+
 
 \newcommand{\usubscript@getfirsttok}[2]{%
 %
