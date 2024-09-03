@@ -141,6 +141,11 @@
 % REF: https://tex.stackexchange.com/a/424007
 \patchcmd\@centernot{\not}{\not{\hphantom{=}}}{}{\errmessage{Patching \noexpand\@centernot failed.}}%
 
+\RequirePackage{xcolor}
+\definecolor{unicode@green}{RGB}{00, 79, 00}% identical to svgname "dark green" #004F00
+\definecolor{unicode@red}{RGB}{79, 00, 00}% identical to svgname "dark red"  #4F0000
+\definecolor{unicode@crimson}{RGB}{220, 20, 60}% identical to svgname "crimson" #DC143C
+
 % region bm patch ----------------------------------------------------------------------
 % REF: https://tex.stackexchange.com/q/3676
 \ProvideDocumentCommand{\hmmax}{}{0}% @bm: prevents "too many alphabets" error
@@ -404,6 +409,8 @@
 \newcommand{\xmark}{\text{\ding{55}}}% ✗ (U+2717: Ballot X)
 \newcommand{\hcmark}{\text{\ding{52}}}% ✔ (U+2714: Heavy Check Mark)
 \newcommand{\hxmark}{\text{\ding{56}}}% ✘ (U+2718: Heavy Ballot X)
+\newcommand{\CMARK}{\textbf{\textcolor{unicode@green}\ding{52}}}% ✅ (U+2705: White Heavy Check Mark)
+\newcommand{\XMARK}{\textbf{\textcolor{unicode@crimson}\ding{56}}}% ❌ (U+274C: Cross Mark)
 % endregion checkmarks -----------------------------------------------------------------
 
 % region aliases -----------------------------------------------------------------------
