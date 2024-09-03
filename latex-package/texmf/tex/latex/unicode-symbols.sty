@@ -145,6 +145,7 @@
 \definecolor{unicode@green}{RGB}{00, 79, 00}% identical to svgname "dark green" #004F00
 \definecolor{unicode@red}{RGB}{79, 00, 00}% identical to svgname "dark red"  #4F0000
 \definecolor{unicode@crimson}{RGB}{220, 20, 60}% identical to svgname "crimson" #DC143C
+\definecolor{unicode@navy}{RGB}{00, 00, 128}% identical to svgname "navy" #000080
 
 % region bm patch ----------------------------------------------------------------------
 % REF: https://tex.stackexchange.com/q/3676
@@ -406,11 +407,14 @@
 % region checkmarks --------------------------------------------------------------------
 % We use pifont's `\ding` for checkmarks and crosses, there are no good alternatives.
 \newcommand{\cmark}{\text{\ding{51}}}% ✓ (U+2713: Check Mark)
+\newcommand{\qmark}{?}% normal question mark
 \newcommand{\xmark}{\text{\ding{55}}}% ✗ (U+2717: Ballot X)
 \newcommand{\hcmark}{\text{\ding{52}}}% ✔ (U+2714: Heavy Check Mark)
+\newcommand{\hqmark}{\textbf{?}}% bold question mark
 \newcommand{\hxmark}{\text{\ding{56}}}% ✘ (U+2718: Heavy Ballot X)
 \newcommand{\CMARK}{\textcolor{unicode@green}{\textbf{\ding{52}}}}% ✅ (U+2705: White Heavy Check Mark)
 \newcommand{\XMARK}{\textcolor{unicode@crimson}{\textbf{\ding{56}}}}% ❌ (U+274C: Cross Mark)
+\newcommand{\QMARK}{\textcolor{unicode@navy}{\textbf{?}}}% ❓ (U+2753: Black Question Mark Ornament)
 % endregion checkmarks -----------------------------------------------------------------
 
 % region aliases -----------------------------------------------------------------------
@@ -610,6 +614,7 @@
 \newunicodechar{✗}{\xmark}
 \newunicodechar{✘}{\hxmark}
 \newunicodechar{❌}{\XMARK}
+\newunicodechar{❓}{\QMARK}
 \newunicodechar{ı}{\autoi}
 \newunicodechar{ȷ}{\autoj}
 \newunicodechar{℘}{\wp}
