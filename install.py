@@ -587,7 +587,7 @@ def main() -> None:
 
     # add special characters
     special = target_dir / "special"
-    generate_character(TABULATOR, target_dir=special, template=template, default=True)
+    generate_character(TABULATOR, target_dir=special, template=template, default=False)
     generate_character(NEWLINE, target_dir=special, template=template, default=False)
 
     generate_help(target_dir=target_dir / "help")
