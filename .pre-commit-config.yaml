@@ -6,7 +6,7 @@ default_language_version:
 repos:
   # https://pre-commit.com/hooks.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
         description: "prevents giant files from being committed."
@@ -16,6 +16,8 @@ repos:
         description: "requires literal syntax when initializing empty or zero python builtin types."
       - id: check-byte-order-marker
         description: "forbids files which have a utf-8 byte-order marker."
+      - id: check-illegal-windows-names
+        description: "checks for windows-incompatible filenames."
       - id: check-json
         description: "checks json files for parseable syntax."
       - id: check-executables-have-shebangs
@@ -50,7 +52,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.6.5
+    rev: v0.6.9
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -63,12 +65,12 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.380
+    rev: v1.1.383
     hooks:
       - id: pyright
   # markdownlint
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.41.0
+    rev: v0.42.0
     hooks:
       - id: markdownlint
         args:
