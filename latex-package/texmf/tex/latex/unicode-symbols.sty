@@ -486,6 +486,8 @@
 \providecommand{\smalltriangleup}{\unicode@smalltriangleup}
 \providecommand{\minus}{\unicode@minus}
 \providecommand{\QED}{\qedsymbol}% Use stix's \QED if loaded, else use amsthm's \qedsymbol
+\providescommand{\Question}{??}% fallback
+\providescommand{\Exclam}{!!}% fallback
 % endregion text/math macros -----------------------------------------------------------
 
 
@@ -588,10 +590,10 @@
 \newunicodechar{£}{\pounds}
 \newunicodechar{§}{\S}
 \newunicodechar{©}{\copyright}
-\newunicodechar{¶}{\P}
-\newunicodechar{†}{\dag}
-\newunicodechar{‡}{\ddag}
-\newunicodechar{…}{\dots}
+\newunicodechar{¶}{\P}% U+00B6 (Pilcrow Sign)
+\newunicodechar{†}{\dag}% U+2020 (Dagger)
+\newunicodechar{‡}{\ddag}% U+2021 (Double Dagger)
+\newunicodechar{…}{\dots}% U+2026 (Horizontal Ellipsis)
 % endregion builtin auto-mode commands -------------------------------------------------
 
 % region misc --------------------------------------------------------------------------
@@ -616,6 +618,8 @@
 \newunicodechar{✘}{\hxmark}
 \newunicodechar{❌}{\XMARK}
 \newunicodechar{❓}{\QMARK}
+\newunicodechar{⁇}{\Question}% U+2047 (Double Question Mark)
+\newunicodechar{‼}{\Exclam}% U+203C (Double Exclamation Mark)
 \newunicodechar{ı}{\autoi}
 \newunicodechar{ȷ}{\autoj}
 \newunicodechar{℘}{\wp}
@@ -639,7 +643,7 @@
 
 % region operators ---------------------------------------------------------------------
 % region unary operators ---------------------------------------------------------------
-\newunicodechar{√}{\surd}
+\newunicodechar{√}{\surd}% instead of \sqrt.
 \newunicodechar{∠}{\angle}
 \newunicodechar{∡}{\measuredangle}
 \newunicodechar{∢}{\sphericalangle}
