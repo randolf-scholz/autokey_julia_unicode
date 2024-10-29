@@ -1,0 +1,4 @@
+CHANGELOG
+AutoKey
+Changelog
+MathJax

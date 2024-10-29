@@ -2,6 +2,7 @@
 # any hidden folder (.git, .vscode, .mypy_cache), exluding .idea
 /**/.*/
 !.idea/
+!.vscode/
 
 # any folder with leading underscore (__tex__, __pycache__, __build__)
 /**/_*/
