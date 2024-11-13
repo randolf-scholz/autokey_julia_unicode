@@ -1,0 +1,3 @@
+[submodule "latex-unicode"]
+	path = latex-unicode
+	url = https://github.com/randolf-scholz/latex-unicode.git

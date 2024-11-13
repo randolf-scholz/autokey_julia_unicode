@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2024-11-13
+
+Converted `latex-unicode` to its own repository, and added it as a submodule.
+
 ## 2024-04-04
 
 Added transpose and hermitian transpose: `A𞁀` and `Aᵸ`.
