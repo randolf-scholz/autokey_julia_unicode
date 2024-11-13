@@ -1,11 +1,11 @@
 # region custom gitignore settings -----------------------------------------------------
-# any hidden folder (.git, .vscode, .mypy_cache), exluding .idea
-/**/.*/
+# any hidden folder (.git, .vscode, .mypy_cache), exluding .idea and .vscode
+.*/
 !.idea/
 !.vscode/
 
-# any folder with leading underscore (__tex__, __pycache__, __build__)
-/**/_*/
+# any folder with double underscore (e.g. __pycache__)
+__*/
 
 # libreoffice lock files
 .~lock.*#
