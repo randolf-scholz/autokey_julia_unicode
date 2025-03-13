@@ -52,7 +52,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.7.1
+    rev: v0.9.10
     hooks:
       - id: ruff
         types_or: [python, pyi]
@@ -65,12 +65,12 @@ repos:
         types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.387
+    rev: v1.1.396
     hooks:
       - id: pyright
   # markdownlint
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.42.0
+    rev: v0.44.0
     hooks:
       - id: markdownlint
         args:
@@ -86,12 +86,3 @@ repos:
     hooks:
     - id: shellcheck
       args: ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]
-  # custom
-  - repo: https://github.com/randolf-scholz/assorted-hooks.git
-    rev: v0.3.73
-    hooks:
-    - id: chktex
-    - id: lacheck
-    - id: check-separator-length
-      types: [tex]
-      files: '\.tex$'
