@@ -1,6 +1,7 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
 U+00B0	°	\deg	Degree Sign
 U+00B5	µ	\micro	Micro Sign
+U+03B5	ε	\eps	Greek Small Letter Epsilon
 U+030A	̊	\ring	Combining Ring Above
 U+039C	Μ	\Mu	Greek Capital Letter Mu
 U+039D	Ν	\Nu	Greek Capital Letter Nu
