@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.11"
+# ///
 """Generate phrases for autokey."""
 
 # %% Imports
@@ -35,8 +38,9 @@ UNICODE_PATTERN = re.compile(r"U\+[0-9A-F]{4,6}")
 LEGAL_CHARS = re.compile(r"[\x21-\x5B\x5D-\x7E]+")
 """Regex pattern for legal characters."""
 ABBREVIATION_PATTERN = re.compile(r"\x5C[\x21-\x7E]+\x20")
-# ABBREVIATION_PATTERN = re.compile(r"\x5C[\x21-\x5B\x5D-\x7E]+\x20")  # exclude x5C (backslash)
 """Regex pattern for abbreviations start with backslash (5C) and end in space (20)."""
+SPECIAL_DIR = "custom_special"
+"""Directory for special characters."""
 
 
 def is_char(s: object, /) -> TypeGuard[CHAR]:
@@ -258,6 +262,7 @@ def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
 
 
 def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
+    r"""Process the unicode samples."""
     samples: list[UnicodeSample] = []
     # parsed = Counter()  # ucode -> count
     # all_abbreviations = defaultdict(list)  # abbrv -> ucode
@@ -463,30 +468,44 @@ def generate_character(
     target_dir: Path,
     default: bool = False,
 ) -> None:
-    """Generate special characters."""
-
+    r"""Generate special characters."""
     text_file = target_dir / f"{sample.ucode}.txt"
     json_file = target_dir / f".{sample.ucode}.json"
-
     if text_file.exists() or json_file.exists():
-        if query_choice(
-            f"Delete existing special character {sample.char!r}?", choices=[False, True]
+        match query_choice(
+            f"Found existing special character {sample.char!r} ({sample.ucode}).",
+            choices=["keep", "delete", "overwrite"],
         ):
-            text_file.unlink()
-            json_file.unlink()
-    elif query_choice(
-        f"Do you want to generate special character {sample.char!r}? ({default=})",
-        choices=[default, not default],
-    ):
-        target_dir.mkdir(exist_ok=True)
-        create_autokey_phrase(
-            NEWLINE, template=template, path=target_dir, overwrite=True
-        )
-        LOGGER.info("✅ Added %s.", sample.char)
+            case "keep":
+                pass
+            case "delete":
+                text_file.unlink()
+                json_file.unlink()
+                return
+            case "overwrite":
+                text_file.unlink()
+                json_file.unlink()
+            case _:
+                raise ValueError("Invalid choice.")
+    else:
+        match query_choice(
+            f"Install special character {sample.char!r}?",
+            choices=[False, True],
+        ):
+            case False:
+                return
+            case True:
+                pass
+            case _:
+                raise ValueError("Invalid choice.")
+
+    target_dir.mkdir(exist_ok=True)
+    create_autokey_phrase(sample, template=template, path=target_dir, overwrite=True)
+    LOGGER.info("✅ Added %s.", sample.char)
 
 
 def generate_help(*, target_dir: Path) -> None:
-    """Create help script and config."""
+    r"""Create help script and config."""
     LOGGER.info("=" * 80)
     LOGGER.info("Creating help script in %s.", target_dir)
 
@@ -505,7 +524,7 @@ def generate_help(*, target_dir: Path) -> None:
 
 
 def make_template(abbreviations: list[str], description: str, sendmode: str) -> JSON:
-    """Create the template."""
+    r"""Create the template."""
     return TEMPLATE | {
         "abbreviation": ABBREVIATION | {"abbreviations": abbreviations},
         "description": description,
@@ -517,6 +536,7 @@ def make_template(abbreviations: list[str], description: str, sendmode: str) -> 
 
 
 def main() -> None:
+    r"""Install function."""
     logging.basicConfig(level=logging.INFO)
 
     detected_directory = Path.home() / ".config/autokey/data/"
@@ -586,7 +606,7 @@ def main() -> None:
         generate_codes(directory, target_dir=target_dir, template=template)
 
     # add special characters
-    special = target_dir / "special"
+    special = target_dir / SPECIAL_DIR
     generate_character(TABULATOR, target_dir=special, template=template, default=False)
     generate_character(NEWLINE, target_dir=special, template=template, default=False)
 

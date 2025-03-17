@@ -52,17 +52,15 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.10
+    rev: v0.11.0
     hooks:
       - id: ruff
-        types_or: [python, pyi]
+        args: ["--output-format", "concise"]
       - id: ruff
         name: ruff-isort
         args: ["--select", "I", "--fix"]
-        types_or: [python, pyi]
       - id: ruff-format
         args: ["--preview"]
-        types_or: [python, pyi]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.396
