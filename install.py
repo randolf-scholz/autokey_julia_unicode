@@ -14,6 +14,7 @@ import re
 import shutil
 import sys
 from collections import Counter, defaultdict
+from collections.abc import Generator, Sequence
 from pathlib import Path
 from typing import Any, Final, NamedTuple, NewType, TypeAlias, TypeGuard, TypeVar
 
@@ -211,6 +212,18 @@ class UnprocessedSample(NamedTuple):
         return f"{char=!r}: {ucode=!r}  {abbrevations=!r}"
 
 
+def read_row(row: Sequence[str] | Generator[str]) -> UnprocessedSample:
+    """Read a row from the tsv file."""
+    row = list(row)
+    try:
+        return UnprocessedSample(*row)
+    except TypeError as exc:
+        exc.add_note(f"Failed to parse row with {len(row)} elements. {row} .\n")
+        for i, col in enumerate(row):
+            exc.add_note(f"Column {i}: {col!r}.")
+        raise
+
+
 class UnicodeSample(NamedTuple):
     """Named tuple for unicode samples."""
 
@@ -245,7 +258,7 @@ def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
 
     with open(fname, "r", encoding="utf8") as tsv_file:
         # scraped from https://docs.julialang.org/en/v1/manual/unicode-input/
-        reader_obj = csv.reader(tsv_file, delimiter="\t")
+        reader_obj = csv.reader(tsv_file, delimiter="\t", quotechar=None)
         items: list[list[str]] = list(reader_obj)
 
     header = items[0]
@@ -257,8 +270,8 @@ def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
     mask = [idx for idx, col in enumerate(header) if col in HEADER]
 
     if mask == [0, 1, 2, 3]:
-        return [UnprocessedSample(*row[:4]) for row in data]
-    return [UnprocessedSample(*(row[i] for i in mask)) for row in data]
+        return [read_row(row[:4]) for row in data]
+    return [read_row(row[i] for i in mask) for row in data]
 
 
 def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:

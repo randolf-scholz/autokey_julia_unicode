@@ -1,6 +1,4 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
-U+00B0	°	\deg	Degree Sign
-U+00B5	µ	\micro	Micro Sign
 U+03B5	ε	\eps	Greek Small Letter Epsilon
 U+030A	̊	\ring	Combining Ring Above
 U+039C	Μ	\Mu	Greek Capital Letter Mu
@@ -22,7 +20,6 @@ U+2259	≙	\hateq, \wedgeq	Estimates
 U+225C	≜	\deleq, \triangleq, \triangleeq	Delta Equal To
 U+225D	≝	\defeq, \eqdef	Equal to By Definition
 U+225F	≟	\?=, \questeq	Questioned Equal To
-U+22C5	⋅	\cdotp	Dot Operator
 U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
 U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
 U+2610	☐	\bbox	Ballot Box
@@ -34,18 +31,20 @@ U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
 U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark
 U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
 U+2753	❓	\QMARK	Black Question Mark Ornament
+U+2757	❗	\EMARK	Heavy Exclamation Mark Symbol
 U+27E6	⟦	\bb[, \[[	Mathematical Left White Square Bracket
 U+27E7	⟧	\bb], \]]	Mathematical Right White Square Bracket
-U+27EA	⟪	\bblangle	Mathematical Left Double Angle Bracket
-U+27EB	⟫	\bbrangle	Mathematical Right Double Angle Bracket
+U+27E8	⟨	\langle, \<	Mathematical Left Angle Bracket
+U+27E9	⟩	\rangle, \>	Mathematical Right Angle Bracket
+U+27EA	⟪	\bb<, \<<, \bblangle	Mathematical Left Double Angle Bracket
+U+27EB	⟫	\bb>, \>>, \bbrangle	Mathematical Right Double Angle Bracket
+U+2E28	⸨	\bb), \((, \bblparen	Left Double Parenthesis
+U+2E29	⸩	\bb(, \)), \bbrparen	Right Double Parenthesis
 U+27F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
 U+27F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
 U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
-U+2983	⦃	\bb{, \lBrace	Left White Curly Bracket
-U+2984	⦄	\bb}, \rBrace	Right White Curly Bracket
-U+2985	⦅	\bb(, \lParen	Left White Parenthesis
-U+2986	⦆	\bb), \rParen	Right White Parenthesis
 U+29FA	⧺	\++	Double Plus
+U+29FB	⧻	\+++	Triple Plus
 U+2AEB	⫫	\indep, \independence, \independent	Independence
 U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
 U+1D78	ᵸ	\hermitian, \htp	Modifier Letter Cyrillic En (Hermitian transpose)

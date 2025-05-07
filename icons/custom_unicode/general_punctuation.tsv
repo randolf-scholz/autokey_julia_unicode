@@ -1,7 +1,11 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
-U+2014	—	\--	Em Dash
-U+2016	‖	\norm, \|	Double Vertical Line
+U+200B	​	\zspace	Zero Width Space
+U+2013	–	\--	En Dash
+U+2014	—	\---	Em Dash
+U+2016	‖	\|, \norm	Double Vertical Line
 U+2022	•	\textbullet	Bullet
+U+2025	‥	\..	Two Dot Leader
+U+2026	…	\...	Horizontal Ellipsis
 U+2030	‰	\%%, \permille	Per Mille Sign
 U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign
 U+2032	′	\'	Prime
@@ -10,10 +14,13 @@ U+2034	‴	\'''	Triple Prime
 U+2035	‵	\`	Reversed Prime
 U+2036	‶	\``	Reversed Double Prime
 U+2037	‷	\```	Reversed Triple Prime
+U+2038	‸	\_^	Caret
 U+203C	‼	\!!	Double Exclamation Mark
-U+2044	⁄	\/, \over	Fraction Slash
+U+2042	⁂	\***	Asterism
+U+2044	⁄	\over	Fraction Slash
 U+2047	⁇	\??	Double Question Mark
 U+2048	⁈	\?!	Question Exclamation Mark
 U+2049	⁉	\!?	Exclamation Question Mark
 U+204E	⁎	\_*	Low Asterisk
+U+2051	⁑	\**	Two Asterisks Aligned Vertically
 U+2057	⁗	\''''	Quadruple Prime

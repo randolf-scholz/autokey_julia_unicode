@@ -148,14 +148,14 @@ U+24F1	⓱		Negative circled number seventeen	17
 U+24F2	⓲		Negative circled number eighteen	18
 U+24F3	⓳		Negative circled number nineteen	19
 U+24F4	⓴		Negative circled number twenty	20
-U+24F5	⓵		Double circled digit one	1
-U+24F6	⓶		Double circled digit two	2
-U+24F7	⓷		Double circled digit three	3
-U+24F8	⓸		Double circled digit four	4
-U+24F9	⓹		Double circled digit five	5
-U+24FA	⓺		Double circled digit six	6
-U+24FB	⓻		Double circled digit seven	7
-U+24FC	⓼		Double circled digit eight	8
-U+24FD	⓽		Double circled digit nine	9
-U+24FE	⓾		Double circled number ten	10
+U+24F5	⓵	\oo1	Double circled digit one	1
+U+24F6	⓶	\oo2	Double circled digit two	2
+U+24F7	⓷	\oo3	Double circled digit three	3
+U+24F8	⓸	\oo4	Double circled digit four	4
+U+24F9	⓹	\oo5	Double circled digit five	5
+U+24FA	⓺	\oo6	Double circled digit six	6
+U+24FB	⓻	\oo7	Double circled digit seven	7
+U+24FC	⓼	\oo8	Double circled digit eight	8
+U+24FD	⓽	\oo9	Double circled digit nine	9
+U+24FE	⓾	\oo10	Double circled number ten	10
 U+24FF	⓿		Negative circled digit zero	0

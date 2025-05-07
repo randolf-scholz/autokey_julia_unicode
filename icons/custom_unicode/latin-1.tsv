@@ -1,0 +1,31 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
+U+00A0	 	\nonbreakingspace	No-Break Space
+U+00A1	¡	\exclamdown, \upemark	Inverted Exclamation Mark
+U+00A2	¢	\cent	Cent Sign
+U+00A3	£	\sterling	Pound Sign
+U+00A4	¤	\currency	Currency Sign
+U+00A5	¥	\yen	Yen Sign
+U+00A6	¦	\brokenbar	Broken Bar / Broken Vertical Bar
+U+00A7	§	\S, \section, \sectionsign	Section Sign
+U+00A8	¨	\diaresis	Diaeresis (Umlaut)
+U+00A9	©	\copyright, \:copyright:	Copyright Sign
+U+00AA	ª	\ordfeminine	Feminine Ordinal Indicator
+U+00AB	«	\guillemotleft	Left-Pointing Double Angle Quotation Mark
+U+00AC	¬	\neg, \negation	Not Sign
+U+00AE	®	\circledR, \:registered:	Registered Sign / Registered Trade Mark Sign
+U+00AF	¯	\highminus	Macron / Spacing Macron
+U+00B0	°	\degree, \deg	Degree Sign
+U+00B1	±	\pm, \plusminus	Plus-Minus Sign / Plus-Or-Minus Sign
+U+00B2	²	\^2	Superscript Two / Superscript Digit Two
+U+00B3	³	\^3	Superscript Three / Superscript Digit Three
+U+00B4	´	\acute	Acute Accent
+U+00B5	µ	\micro	Micro Sign\grave
+U+00B6	¶	\P, \paragraph, \pilcrow	Pilcrow Sign / Paragraph Sign
+U+00B7	·	\cdotp	Middle Dot
+U+00B8	¸	\cedilla	Cedilla
+U+00B9	¹	\^1	Superscript One / Superscript Digit One
+U+00BA	º	\ordmasculine	Masculine Ordinal Indicator
+U+00BC	¼	\1/4	Vulgar Fraction One Quarter / Fraction One Quarter
+U+00BD	½	\1/2	Vulgar Fraction One Half / Fraction One Half
+U+00BE	¾	\3/4	Vulgar Fraction Three Quarters / Fraction Three Quarters
+U+00BF	¿	\questiondown, \upqmark	Inverted Question Mark
