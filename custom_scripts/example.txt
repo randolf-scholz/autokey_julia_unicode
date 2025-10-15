@@ -1,0 +1,3 @@
+\begin{example}[title]\label{ex:label}%
+
+\end{example}%

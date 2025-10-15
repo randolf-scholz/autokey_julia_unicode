@@ -1,0 +1,23 @@
+{
+  "abbreviation": {
+    "abbreviations": [],
+    "backspace": true,
+    "ignoreCase": false,
+    "immediate": false,
+    "triggerInside": false,
+    "wordChars": "[\\w]"
+  },
+  "filter": {
+    "isRecursive": false,
+    "regex": null
+  },
+  "hotkey": {
+    "hotKey": null,
+    "modifiers": []
+  },
+  "modes": [],
+  "showInTrayMenu": false,
+  "title": "custom_scripts",
+  "type": "folder",
+  "usageCount": 0
+}

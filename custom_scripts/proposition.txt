@@ -1,0 +1,3 @@
+\begin{proposition}[title]\label{thm:label}%
+
+\end{proposition}%

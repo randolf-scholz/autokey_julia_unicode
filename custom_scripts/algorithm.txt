@@ -1,0 +1,21 @@
+\begin{algorithm}
+\caption{Riemannian Gradient Descent with Line Search}%
+\label{alg:riemannian_gradient_descent}%
+\begin{algorithmic}%
+\begin{alginputs}
+	\arg{manifold} $𝓜⊆ℝⁿ$ \\
+	\arg{objective function} $f：𝓜→ℝ$ \\
+	\arg{initial guess} $x₀∈ℝⁿ$
+\end{alginputs}
+
+\State $x ← x₀$
+\While {not converged}
+	\State $g ← ∇ₓf(x)$ \Comment{Gradient in $ℝⁿ$}
+	\State $\Tilde{g} ← \proj_{Tₓ𝓜}(g)$ \Comment{Project onto tangent space}
+	\State $γ ← \exp_{𝓜，x}(t⋅\Tilde{g})$ \Comment{Construct the geodesic}
+	\State $x ← \argmin_{t≥0} γ(t)$ \Comment{Follow the Geodesic until minimum}
+\EndWhile
+\Return $x$
+\end{algorithmic}
+\end{algorithm}
+\end{definition}

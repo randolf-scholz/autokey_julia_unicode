@@ -1,0 +1,31 @@
+{
+  "abbreviation": {
+    "abbreviations": [
+      "!rem"
+    ],
+    "backspace": true,
+    "ignoreCase": false,
+    "immediate": true,
+    "triggerInside": false,
+    "wordChars": "[\\w]"
+  },
+  "description": "remark",
+  "filter": {
+    "isRecursive": false,
+    "regex": null
+  },
+  "hotkey": {
+    "hotKey": null,
+    "modifiers": []
+  },
+  "matchCase": false,
+  "modes": [
+    1
+  ],
+  "omitTrigger": false,
+  "prompt": false,
+  "sendMode": "<ctrl>+v",
+  "showInTrayMenu": false,
+  "type": "phrase",
+  "usageCount": 1
+}

@@ -1,0 +1,3 @@
+\begin{lemma}[title]\label{lem:label}%
+
+\end{lemma}%
