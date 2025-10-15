@@ -1,0 +1,43 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+2070	⁰	\^0	Superscript zero	0
+U+2071	ⁱ	\^i	Superscript latin small letter i	i
+U+2074	⁴	\^4	Superscript four	4
+U+2075	⁵	\^5	Superscript five	5
+U+2076	⁶	\^6	Superscript six	6
+U+2077	⁷	\^7	Superscript seven	7
+U+2078	⁸	\^8	Superscript eight	8
+U+2079	⁹	\^9	Superscript nine	9
+U+207A	⁺	\^+	Superscript plus sign	+
+U+207B	⁻	\^-	Superscript minus	-
+U+207C	⁼	\^=	Superscript equals sign	=
+U+207D	⁽	\^(	Superscript left parenthesis	(
+U+207E	⁾	\^)	Superscript right parenthesis	)
+U+207F	ⁿ	\^n	Superscript latin small letter n	n
+U+2080	₀	\_0	Subscript zero	0
+U+2081	₁	\_1	Subscript one	1
+U+2082	₂	\_2	Subscript two	2
+U+2083	₃	\_3	Subscript three	3
+U+2084	₄	\_4	Subscript four	4
+U+2085	₅	\_5	Subscript five	5
+U+2086	₆	\_6	Subscript six	6
+U+2087	₇	\_7	Subscript seven	7
+U+2088	₈	\_8	Subscript eight	8
+U+2089	₉	\_9	Subscript nine	9
+U+208A	₊	\_+	Subscript plus sign	+
+U+208B	₋	\_-	Subscript minus	-
+U+208C	₌	\_=	Subscript equals sign	=
+U+208D	₍	\_(	Subscript left parenthesis	(
+U+208E	₎	\_)	Subscript right parenthesis	)
+U+2090	ₐ	\_a	Latin subscript small letter a	a
+U+2091	ₑ	\_e	Latin subscript small letter e	e
+U+2092	ₒ	\_o	Latin subscript small letter o	o
+U+2093	ₓ	\_x	Latin subscript small letter x	x
+U+2094	ₔ	\_schwa	Latin subscript small letter schwa	ə
+U+2095	ₕ	\_h	Latin subscript small letter h	h
+U+2096	ₖ	\_k	Latin subscript small letter k	k
+U+2097	ₗ	\_l	Latin subscript small letter l	l
+U+2098	ₘ	\_m	Latin subscript small letter m	m
+U+2099	ₙ	\_n	Latin subscript small letter n	n
+U+209A	ₚ	\_p	Latin subscript small letter p	p
+U+209B	ₛ	\_s	Latin subscript small letter s	s
+U+209C	ₜ	\_t	Latin subscript small letter t	t

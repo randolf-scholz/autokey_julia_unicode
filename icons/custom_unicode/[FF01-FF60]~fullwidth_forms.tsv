@@ -93,5 +93,5 @@ U+FF5B	｛	\fw{	Fullwidth left curly bracket	{
 U+FF5C	｜	\fw|	Fullwidth vertical line	|
 U+FF5D	｝	\fw}	Fullwidth right curly bracket	}
 U+FF5E	～	\fw~	Fullwidth tilde	~
-U+FF5F	｟	\fw((	Fullwidth left white parenthesis	
-U+FF60	｠	\fw))	Fullwidth right white parenthesis	
+U+FF5F	｟	\fw((	Fullwidth left white parenthesis	(
+U+FF60	｠	\fw))	Fullwidth right white parenthesis	)

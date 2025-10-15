@@ -1,0 +1,81 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+2100	℀	\a/c	Account of	a/c
+U+2101	℁	\a/s	Addressed to the subject	a/s
+U+2102	ℂ	\bbC	Double-struck capital c	C
+U+2103	℃	\degC, \celsius, \textcelius	Degree celsius	°C
+U+2104	℄	\CenterLine	Centre line symbol	CL
+U+2105	℅	\c/o	Care of	c/o
+U+2106	℆	\c/u	Cada una	c/u
+U+2107	ℇ	\eulermascheroni	Euler constant	e
+U+2108	℈	\scruple	Scruple	
+U+2109	℉	\degF, \fahrenheit	Degree fahrenheit	°F
+U+210A	ℊ	\scrg	Script small g	g
+U+210B	ℋ	\scrH	Script capital h	H
+U+210C	ℌ	\frakH	Black-letter capital h	H
+U+210D	ℍ	\bbH	Double-struck capital h	H
+U+210E	ℎ	\ith, \planck	Planck constant	h
+U+210F	ℏ	\hslash	Planck constant over two pi	h
+U+2110	ℐ	\scrI	Script capital i	I
+U+2111	ℑ	\frakI	Black-letter capital i	I
+U+2112	ℒ	\scrL	Script capital l	L
+U+2113	ℓ	\ell	Script small l	l
+U+2114	℔	\lbbar	L b bar symbol	lb
+U+2115	ℕ	\bbN	Double-struck capital n	N
+U+2116	№	\numero	Numero sign	No
+U+2117	℗	\:phonographic_copyright:	Sound recording copyright	P
+U+2118	℘	\wp, \powerset	Script capital p	P
+U+2119	ℙ	\bbP	Double-struck capital p	P
+U+211A	ℚ	\bbQ	Double-struck capital q	Q
+U+211B	ℛ	\scrR	Script capital r	R
+U+211C	ℜ	\frakR	Black-letter capital r	R
+U+211D	ℝ	\bbR	Double-struck capital r	R
+U+211E	℞	\prescription	Prescription take	Rx
+U+211F	℟	\response	Response	R
+U+2120	℠	\servicemark, \textservicemark	Service mark	SM
+U+2121	℡	\tel	Telephone sign	TEL
+U+2122	™	\trademark, \texttrademark	Trade mark sign	TM
+U+2123	℣	\versicle	Versicle	V
+U+2124	ℤ	\bbZ	Double-struck capital z	Z
+U+2125	℥	\ounce	Ounce sign	oz
+U+2126	Ω	\ohm	Ohm sign	Ω
+U+2127	℧	\mho, \upohm	Inverted ohm sign	Ω
+U+2128	ℨ	\frakZ	Black-letter capital z	Z
+U+2129	℩	\upiota, \turnediota	Turned greek small letter iota	i
+U+212A	K	\degK, \kelvin	Kelvin sign	K
+U+212B	Å	\Angstrom	Angstrom sign	A
+U+212C	ℬ	\scrB	Script capital b	B
+U+212D	ℭ	\frakC	Black-letter capital c	C
+U+212E	℮	\estimated, \textestimated	Estimated symbol	e
+U+212F	ℯ	\scre, \euler	Script small e	e
+U+2130	ℰ	\scrE	Script capital e	E
+U+2131	ℱ	\scrF	Script capital f	F
+U+2132	Ⅎ	\Finv, \upF	Turned capital f	F
+U+2133	ℳ	\scrM	Script capital m	M
+U+2134	ℴ	\scro	Script small o	o
+U+2135	ℵ	\aleph	Alef symbol	
+U+2136	ℶ	\beth	Bet symbol	
+U+2137	ℷ	\gimel	Gimel symbol	
+U+2138	ℸ	\daleth	Dalet symbol	
+U+2139	ℹ	\:information_source:	Information source	i
+U+213A	℺	\rotatedQ	Rotated capital q	Q
+U+213B	℻	\fax	Facsimile sign	FAX
+U+213C	ℼ	\bbpi	Double-struck small pi	π
+U+213D	ℽ	\bbgamma	Double-struck small gamma	γ
+U+213E	ℾ	\bbGamma	Double-struck capital gamma	Γ
+U+213F	ℿ	\bbPi	Double-struck capital pi	Π
+U+2140	⅀	\bbsum	Double-struck n-ary summation	∑
+U+2141	⅁	\Game, \turnedG, \upG	Turned sans-serif capital g	G
+U+2142	⅂	\sansLturned, \turnedL, \upL	Turned sans-serif capital l	L
+U+2143	⅃	\sansLmirrored, \reversedL,	Reversed sans-serif capital l	L
+U+2144	⅄	\Yup, \upY	Turned sans-serif capital y	Y
+U+2145	ⅅ	\bbiD	Double-struck italic capital d	D
+U+2146	ⅆ	\bbid	Double-struck italic small d	d
+U+2147	ⅇ	\bbie	Double-struck italic small e	e
+U+2148	ⅈ	\bbii	Double-struck italic small i	i
+U+2149	ⅉ	\bbij	Double-struck italic small j	j
+U+214A	⅊	\PropertyLine	Property line	PL
+U+214B	⅋	\upand	Turned ampersand	&
+U+214C	⅌	\per	Per sign	per
+U+214D	⅍	\A/S	Aktieselskab	A/S
+U+214E	ⅎ	\upf, \turnedf	Turned small f	f
+U+214F	⅏	\:samaritan_source:	Symbol for samaritan source	

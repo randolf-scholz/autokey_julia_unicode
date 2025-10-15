@@ -1,0 +1,35 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+2190	←	\<-, \leftarrow, \from	Leftwards Arrow	<-
+U+2192	→	\->, \to, \rightarrow	Rightwards Arrow	->
+U+2194	↔	\<->, \leftrightarrow, \:left_right_arrow:	Left Right Arrow	<->
+U+21A2	↢	\<-<, \leftarrowtail	Leftwards Arrow with Tail	<-<
+U+21A3	↣	\>->, \rightarrowtail	Rightwards Arrow with Tail	>->
+U+21A4	↤	\<-|, \mapsfrom	Leftwards Arrow from Bar	<-|
+U+21A6	↦	\|->, \mapsto	Rightwards Arrow from Bar	|->
+U+21AD	↭	\<~>, \leftrightsquigarrow, \corresponds	Left Right Wave Arrow	<~>
+U+21CD	⇍	\<=/=, \nimpliedby, \notimpliedby, \nLeftarrow	Leftwards Double Arrow with Stroke	<=/=
+U+21CE	⇎	\<=/=>, \niff, \notiff, \nLeftrightarrow	Left Right Double Arrow with Stroke	<=/=>
+U+21CF	⇏	\=/=>, \nimplies, \notimplies, \nRightarrow	Rightwards Double Arrow with Stroke	=/=>
+U+21D0	⇐	\=>, \Leftarrow	Leftwards Double Arrow	=>
+U+21D2	⇒	\<=, \Rightarrow	Rightwards Double Arrow	<=
+U+21D4	⇔	\<=>, \Leftrightarrow	Left Right Double Arrow	<=>
+U+21DC	⇜	\<~, \leadsfrom, \leftsquigarrow	Leftwards Squiggle Arrow	<~
+U+21DD	⇝	\~>, \leadsto, \rightsquigarrow	Rightwards Squiggle Arrow	~>
+U+21E4	⇤	\|<-, \barleftarrow	Leftwards Arrow to Bar	|<-
+U+21E5	⇥	\->|, \rightarrowbar	Rightwards Arrow to Bar	->|
+U+27F5	⟵	\<--, \longfrom, \longleftarrow	Long Leftwards Arrow	<--
+U+27F6	⟶	\-->, \longto, \longrightarrow	Long Rightwards Arrow	-->
+U+27F7	⟷	\<-->, \longleftrightarrow	Long Left Right Arrow	<-->
+U+27F8	⟸	\<==, \impliedby, \Longleftarrow	Long Leftwards Double Arrow	<==
+U+27F9	⟹	\==>, \implies, \Longrightarrow	Long Rightwards Double Arrow	==>
+U+27FA	⟺	\<==>, \iff, \Longleftrightarrow	Long Left Right Double Arrow	<==>
+U+27FB	⟻	\<--|, \longmapsfrom	Long Leftwards Arrow From Bar	<--|
+U+27FC	⟼	\|-->, \longmapsto	Long Rightwards Arrow From Bar	|-->
+U+27FD	⟽	\<==|, \Longmapsfrom	Long Leftwards Double Arrow From Bar	<==|
+U+27FE	⟾	\|==>, \Longmapsto	Long Rightwards Double Arrow From Bar	|==>
+U+27FF	⟿	\~~>, \longleadsto, \longrightsquigarrow	Long Rightwards Squiggle Arrow	~~>
+U+2905	⤅	\|->>, \twoheadmapsto	Rightwards Two-Headed Arrow From Bar	|->>
+U+2916	⤖	\>->>, \twoheadrightarrowtail	Rightwards Two-Headed Arrow With Tail	>->>
+U+2B33	⬳	\<~~, \longleadsfrom, \longleftsquigarrow	Long Leftwards Squiggle Arrow	<~~
+U+2B36	⬶	\<<-|, \twoheadmapsfrom	Leftwards Two-Headed Arrow From Bar	<<-|
+U+2B3B	⬻	\<<-<, \twoheadleftarrowtail	Leftwards Two-Headed Arrow With Tail	<<-<

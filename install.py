@@ -50,6 +50,11 @@ def is_char(s: object, /) -> TypeGuard[CHAR]:
     return isinstance(s, str) and len(s) == 1
 
 
+def as_hex(s: str, /) -> str:
+    """Convert string to hex representation."""
+    return str([f"U+{ord(c):04X}" for c in s])
+
+
 def is_unicode(s: object, /) -> TypeGuard[UCODE]:
     """Check whether string is a unicode-code (like U+0000A)."""
     # test exact match against regex
@@ -287,8 +292,11 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
 
         # guard against invalid character
         if not is_char(char):
-            LOGGER.debug("Invalid character: %s", item)
-            skipped.append((item, "Invalid Character"))
+            LOGGER.debug("Invalid character: %s=%s", item)
+            skipped.append((
+                item,
+                f"Invalid character {char!r}={as_hex(char)}",
+            ))
             continue
 
         # guard against invalid unicode

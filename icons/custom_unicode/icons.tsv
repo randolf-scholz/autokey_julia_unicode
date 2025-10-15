@@ -1,54 +1,52 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
-U+03B5	ε	\eps	Greek Small Letter Epsilon
-U+030A	̊	\ring	Combining Ring Above
-U+039C	Μ	\Mu	Greek Capital Letter Mu
-U+039D	Ν	\Nu	Greek Capital Letter Nu
-U+039F	Ο	\Omicron	Greek Capital Letter Omicron
-U+03BF	ο	\omicron	Greek Small Letter Omicron
-U+1AB2	᪲	\^oo, \^infty	Combining Infinity
-U+2190	←	\leftarrow, \from	Leftwards Arrow / Left Arrow
-U+21AD	↭	\leftrightsquigarrow, \corresponds	Left Right Wave Arrow
-U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow, Lightning, Contradiction
-U+21CD	⇍	\nimpliedby, \notimpliedby, \nLeftarrow	Leftwards Double Arrow with Stroke
-U+21CE	⇎	\niff, \notiff, \nLeftrightarrow	Left Right Double Arrow with Stroke
-U+21CF	⇏	\nimplies, \notimplies, \nRightarrow	Rightwards Double Arrow with Stroke
-U+21DC	⇜	\leftsquigarrow, \leadsfrom	Leftwards Squiggle Arrow / Left Squiggle Arrow
-U+21DD	⇝	\rightsquigarrow, \leadsto	Rightwards Squiggle Arrow / Right Squiggle Arrow
-U+2206	∆	\increment, \inc	Increment
-U+2219	∙	\bullet	Bullet Operator
-U+2259	≙	\hateq, \wedgeq	Estimates
-U+225C	≜	\deleq, \triangleq, \triangleeq	Delta Equal To
-U+225D	≝	\defeq, \eqdef	Equal to By Definition
-U+225F	≟	\?=, \questeq	Questioned Equal To
-U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS
-U+2551	║	\bignorm, \big|	Box Drawings Double Vertical
-U+2610	☐	\bbox	Ballot Box
-U+2705	✅	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark
-U+2713	✓	\cmark, \checkmark	Check Mark
-U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark
-U+2717	✗	\xmark, \ballot_x	Ballot X
-U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X
-U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark
-U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark
-U+2753	❓	\QMARK	Black Question Mark Ornament
-U+2757	❗	\EMARK	Heavy Exclamation Mark Symbol
-U+27E6	⟦	\bb[, \[[	Mathematical Left White Square Bracket
-U+27E7	⟧	\bb], \]]	Mathematical Right White Square Bracket
-U+27E8	⟨	\langle, \<	Mathematical Left Angle Bracket
-U+27E9	⟩	\rangle, \>	Mathematical Right Angle Bracket
-U+27EA	⟪	\bb<, \<<, \bblangle	Mathematical Left Double Angle Bracket
-U+27EB	⟫	\bb>, \>>, \bbrangle	Mathematical Right Double Angle Bracket
-U+2E28	⸨	\bb), \((, \bblparen	Left Double Parenthesis
-U+2E29	⸩	\bb(, \)), \bbrparen	Right Double Parenthesis
-U+27F5	⟵	\longleftarrow, \longfrom	Long Leftwards Arrow
-U+27F6	⟶	\longrightarrow, \longto	Long Rightwards Arrow
-U+27FF	⟿	\longrightsquigarrow, \longleadsto	Long Rightwards Squiggle Arrow
-U+29FA	⧺	\++	Double Plus
-U+29FB	⧻	\+++	Triple Plus
-U+2AEB	⫫	\indep, \independence, \independent	Independence
-U+2B33	⬳	\longleftsquigarrow, \longleadsfrom	Long Leftwards Squiggle Arrow
-U+1D78	ᵸ	\hermitian, \htp	Modifier Letter Cyrillic En (Hermitian transpose)
-U+1E040	𞁀	\transpose, \tp	Modifier Letter Cyrillic Small Te (transpose)
-U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X
-U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark
-U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+03B5	ε	\eps	Greek Small Letter Epsilon	e
+U+030A	̊	\ring	Combining Ring Above	°
+U+039C	Μ	\Mu	Greek Capital Letter Mu	M
+U+039D	Ν	\Nu	Greek Capital Letter Nu	N
+U+039F	Ο	\Omicron	Greek Capital Letter Omicron	O
+U+03BF	ο	\omicron	Greek Small Letter Omicron	o
+U+1AB2	᪲	\^oo, \^infty	Combining Infinity	
+U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow
+U+2206	∆	\increment, \inc	Increment	
+U+2219	∙	\bullet	Bullet Operator	
+U+2254	≔	\:=, \coloneq, \coloneqq	Colon Equals	=
+U+2255	≕	\=:, \eqcolon, \eqqcolon	Equals Colon	=
+U+2257	≗	\o=, \circeq	Ring Equal To	=
+U+2259	≙	\hateq, \wedgeq	Estimates	=
+U+225A	≚	\v=, \veeeq	Equiangular To	=
+U+225B	≛	\*=, \stareq	Star Equals	=
+U+225C	≜	\del=, \deleq, \triangleq, \triangleeq	Delta Equal To	=
+U+225D	≝	\def=, \defeq, \eqdef	Equal to By Definition	=
+U+225E	≞	\m=, \measeq	Measured By	=
+U+225F	≟	\?=, \questeq	Questioned Equal To	=
+U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS	~
+U+2551	║	\bignorm, \big|	Box Drawings Double Vertical	|
+U+2610	☐	\bbox	Ballot Box	
+U+26A0	⚠️	\warning, \caution, \cmarkwarning	Warning Sign
+U+26A1	⚡️	\lightning, \thunder, \thunderbolt, \zap	High Voltage Sign
+U+26D4	⛔️	\noentry, \noentrysign, \noentrysymbol	No Entry Sign
+U+2705	✅	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark	
+U+2713	✓	\cmark, \checkmark	Check Mark	
+U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark	
+U+2717	✗	\xmark, \ballot_x	Ballot X	x
+U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X	x
+U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark	X
+U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark	X
+U+2753	❓	\QMARK	Black Question Mark Ornament	?
+U+2757	❗	\EMARK	Heavy Exclamation Mark Symbol	!
+U+27E6	⟦	\bb[, \[[	Mathematical Left White Square Bracket	[[
+U+27E7	⟧	\bb], \]]	Mathematical Right White Square Bracket	]]
+U+27E8	⟨	\langle, \<	Mathematical Left Angle Bracket	<
+U+27E9	⟩	\rangle, \>	Mathematical Right Angle Bracket	>
+U+27EA	⟪	\bb<, \<<, \bblangle	Mathematical Left Double Angle Bracket	<<
+U+27EB	⟫	\bb>, \>>, \bbrangle	Mathematical Right Double Angle Bracket	>>
+U+29FA	⧺	\++	Double Plus	++
+U+29FB	⧻	\+++	Triple Plus	+++
+U+2AEB	⫫	\indep, \independence, \independent	Independence	
+U+2E28	⸨	\bb), \((, \bblparen	Left Double Parenthesis	((
+U+2E29	⸩	\bb(, \)), \bbrparen	Right Double Parenthesis	))
+U+1D78	ᵸ	\hermitian, \htp	Modifier Letter Cyrillic En	H
+U+1E040	𞁀	\transpose, \tp	Modifier Letter Cyrillic Small Te	T
+U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X	
+U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark	
+U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check	
