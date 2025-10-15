@@ -1,8 +1,8 @@
 exclude: '(\.git/|\.venv/|\.idea/|third_party/|experimental/|bugs/)'
 minimum_pre_commit_version: 3.6.0
 default_language_version:
-  python: python3.11
-  node: "20.10.0"
+  python: "3.13"
+  node: "22.20.0"
 repos:
   # https://pre-commit.com/hooks.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
