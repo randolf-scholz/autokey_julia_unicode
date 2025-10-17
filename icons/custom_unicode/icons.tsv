@@ -6,7 +6,7 @@ U+039D	Ν	\Nu	Greek Capital Letter Nu	N
 U+039F	Ο	\Omicron	Greek Capital Letter Omicron	O
 U+03BF	ο	\omicron	Greek Small Letter Omicron	o
 U+1AB2	᪲	\^oo, \^infty	Combining Infinity	
-U+21AF	↯	\downzigarrow, \lightning, \contradiction	Downwards Zigzag Arrow
+U+21AF	↯	\downzigarrow, \contradiction	Downwards Zigzag Arrow
 U+2206	∆	\increment, \inc	Increment	
 U+2219	∙	\bullet	Bullet Operator	
 U+2254	≔	\:=, \coloneq, \coloneqq	Colon Equals	=
@@ -21,19 +21,6 @@ U+225E	≞	\m=, \measeq	Measured By	=
 U+225F	≟	\?=, \questeq	Questioned Equal To	=
 U+2368	⍨	\:~	APL FUNCTIONAL SYMBOL TILDE DIAERESIS	~
 U+2551	║	\bignorm, \big|	Box Drawings Double Vertical	|
-U+2610	☐	\bbox	Ballot Box	
-U+26A0	⚠️	\warning, \caution, \cmarkwarning	Warning Sign
-U+26A1	⚡️	\lightning, \thunder, \thunderbolt, \zap	High Voltage Sign
-U+26D4	⛔️	\noentry, \noentrysign, \noentrysymbol	No Entry Sign
-U+2705	✅	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark	
-U+2713	✓	\cmark, \checkmark	Check Mark	
-U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark	
-U+2717	✗	\xmark, \ballot_x	Ballot X	x
-U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X	x
-U+274C	❌	\XMARK, \redxmark, \cross_mark	Cross Mark	X
-U+274E	❎	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark	X
-U+2753	❓	\QMARK	Black Question Mark Ornament	?
-U+2757	❗	\EMARK	Heavy Exclamation Mark Symbol	!
 U+27E6	⟦	\bb[, \[[	Mathematical Left White Square Bracket	[[
 U+27E7	⟧	\bb], \]]	Mathematical Right White Square Bracket	]]
 U+27E8	⟨	\langle, \<	Mathematical Left Angle Bracket	<
@@ -47,6 +34,3 @@ U+2E28	⸨	\bb), \((, \bblparen	Left Double Parenthesis	((
 U+2E29	⸩	\bb(, \)), \bbrparen	Right Double Parenthesis	))
 U+1D78	ᵸ	\hermitian, \htp	Modifier Letter Cyrillic En	H
 U+1E040	𞁀	\transpose, \tp	Modifier Letter Cyrillic Small Te	T
-U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X	
-U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark	
-U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check	

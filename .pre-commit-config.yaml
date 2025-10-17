@@ -6,53 +6,30 @@ default_language_version:
 repos:
   # https://pre-commit.com/hooks.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
-        description: "prevents giant files from being committed."
-      - id: check-ast
-        description: "simply checks whether the files parse as valid python."
-      - id: check-builtin-literals
-        description: "requires literal syntax when initializing empty or zero python builtin types."
-      - id: check-byte-order-marker
-        description: "forbids files which have a utf-8 byte-order marker."
+      - id: check-case-conflict
       - id: check-illegal-windows-names
-        description: "checks for windows-incompatible filenames."
       - id: check-json
-        description: "checks json files for parseable syntax."
       - id: check-executables-have-shebangs
-        description: "ensures that (non-binary) executables have a shebang."
       - id: check-shebang-scripts-are-executable
-        description: "ensures that (non-binary) files with a shebang are executable."
       - id: check-symlinks
-        description: "checks for symlinks which do not point to anything."
       - id: check-toml
-        description: "checks toml files for parseable syntax."
       - id: check-xml
-        description: "checks xml files for parseable syntax."
       - id: check-yaml
-        description: "checks yaml files for parseable syntax."
-      - id: debug-statements
-        description: "checks for debugger imports and py37+ `breakpoint()` calls in python source."
       - id: end-of-file-fixer
-        description: "ensures that a file is either empty, or ends with one newline."
-      - id: pretty-format-json
-        args: ["--autofix"]
-        exclude: ^.*.ipynb$
-        description: "sets a standard for formatting json files."
-      - id: requirements-txt-fixer
-        description: "sorts entries in requirements.txt"
       - id: trailing-whitespace
         description: "trims trailing whitespace."
         exclude: ^.*.tsv$
   # nbstripout-fast
   - repo: https://github.com/deshaw/nbstripout-fast.git
-    rev: v1.0.4
+    rev: v1.1.1
     hooks:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.8
+    rev: v0.14.1
     hooks:
       - id: ruff
         args: ["--output-format", "concise"]
@@ -63,12 +40,12 @@ repos:
         args: ["--preview"]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.400
+    rev: v1.1.406
     hooks:
       - id: pyright
   # markdownlint
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.44.0
+    rev: v0.45.0
     hooks:
       - id: markdownlint
         args:
@@ -80,7 +57,7 @@ repos:
           ]
   # shellcheck
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: v0.10.0.1
+    rev: v0.11.0.1
     hooks:
     - id: shellcheck
       args: ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]

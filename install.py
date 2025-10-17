@@ -44,10 +44,17 @@ SPECIAL_DIR = "custom_special"
 """Directory for special characters."""
 
 
+def is_variation_selector(s: str, /) -> bool:
+    """Check whether string is a variation selector."""
+    return len(s) == 1 and "\ufe00" <= s <= "\ufe0f"
+
+
 def is_char(s: object, /) -> TypeGuard[CHAR]:
     """Check whether string is a single character."""
     # test exact match against regex
-    return isinstance(s, str) and len(s) == 1
+    return isinstance(s, str) and (
+        len(s) == 1 or (len(s) == 2 and is_variation_selector(s[1]))
+    )
 
 
 def as_hex(s: str, /) -> str:
@@ -326,13 +333,13 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
 
     # check skipped items
     for item, reason in skipped:
-        LOGGER.info("❌ Skipped: %s, reason=%r", item, reason)
+        LOGGER.info("❌️ Skipped: %s, reason=%r", item, reason)
     if skipped:
-        LOGGER.info("❌ %d skipped items.", len(skipped))
+        LOGGER.info("❌️ %d skipped items.", len(skipped))
     else:
-        LOGGER.info("✅ No items skipped.")
+        LOGGER.info("✅️ No items skipped.")
 
-    LOGGER.info("✅ %d items sucessfully pre-processed.", len(samples))
+    LOGGER.info("✅️ %d items sucessfully pre-processed.", len(samples))
     return samples
 
 
@@ -424,25 +431,25 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     num_duplicate_ucodes = 0
     for ucode, count in parsed.items():
         if count > 1:
-            LOGGER.info("❌ Duplicate unicode: %s", ucode)
+            LOGGER.info("❌️ Duplicate unicode: %s", ucode)
             num_duplicate_ucodes += 1
     if num_duplicate_ucodes:
-        LOGGER.info("❌ %d duplicate unicodes.", len(parsed))
+        LOGGER.info("❌️ %d duplicate unicodes.", len(parsed))
     else:
-        LOGGER.info("✅ No duplicates detected.")
+        LOGGER.info("✅️ No duplicates detected.")
 
     # check if all abbreviations are unique
     num_duplicate_abbrv = 0
     for abb, ucodes in all_abbreviations.items():
         if len(ucodes) > 1:
-            LOGGER.info("❌ Duplicate abbreviation: %s -> %s", abb, ucodes)
+            LOGGER.info("❌️ Duplicate abbreviation: %s -> %s", abb, ucodes)
             num_duplicate_abbrv += 1
     if num_duplicate_abbrv:
-        LOGGER.info("❌ %d duplicate abbreviations.", num_duplicate_abbrv)
+        LOGGER.info("❌️ %d duplicate abbreviations.", num_duplicate_abbrv)
     else:
-        LOGGER.info("✅ All abbreviations unique.")
+        LOGGER.info("✅️ All abbreviations unique.")
 
-    LOGGER.info("✅ %d unique characters registered.", len(parsed))
+    LOGGER.info("✅️ %d unique characters registered.", len(parsed))
 
 
 # %% Generate help script
@@ -495,17 +502,17 @@ def generate_character(
     if text_file.exists() or json_file.exists():
         match query_choice(
             f"Found existing special character {sample.char!r} ({sample.ucode}).",
-            choices=["keep", "delete", "overwrite"],
+            choices=["keep", "overwrite", "delete"],
         ):
             case "keep":
                 pass
-            case "delete":
-                text_file.unlink()
-                json_file.unlink()
-                return
             case "overwrite":
                 text_file.unlink()
                 json_file.unlink()
+            case "delete":
+                text_file.unlink()
+                json_file.unlink()
+                return  # exit early
             case _:
                 raise ValueError("Invalid choice.")
     else:
@@ -522,7 +529,7 @@ def generate_character(
 
     target_dir.mkdir(exist_ok=True)
     create_autokey_phrase(sample, template=template, path=target_dir, overwrite=True)
-    LOGGER.info("✅ Added %s.", sample.char)
+    LOGGER.info("✅️ Added %s.", sample.char)
 
 
 def generate_help(*, target_dir: Path) -> None:
