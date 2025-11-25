@@ -9,9 +9,9 @@ U+0027	'	\apostrophe	Apostrophe
 U+0028	(	\lparen	Left Parenthesis	
 U+0029	)	\rparen	Right Parenthesis	
 U+002A	*	\asterisk	Asterisk	
-U+002B	+	\plus	Plus Sign	
-U+002C	,	\comma	Comma	
-U+002D	-	\minus	Minus Sign	
+U+002B	+	\asciiplus	Plus Sign	
+U+002C	,	\asciicomma	Comma	
+U+002D	-	\asciiminus	Minus Sign	
 U+002E	.	\period	Full Stop	
 U+002F	/	\slash	Solidus	
 U+0030	0	\zero	Digit Zero	
@@ -24,8 +24,8 @@ U+0036	6	\six	Digit Six
 U+0037	7	\seven	Digit Seven	
 U+0038	8	\eight	Digit Eight	
 U+0039	9	\nine	Digit Nine	
-U+003A	:	\colon	Colon	
-U+003B	;	\semicolon	Semicolon	
+U+003A	:	\asciicolon	Colon	
+U+003B	;	\asciisemicolon	Semicolon	
 U+003C	<	\lt	Less-Than Sign	
 U+003D	=	\eq	Equals Sign	
 U+003E	>	\gt	Greater-Than Sign	
@@ -37,7 +37,7 @@ U+005D	]	\rbrack	Right Square Bracket
 U+005E	^	\caret	Circumflex Accent	
 U+0060	`	\grave	Grave Accent	
 U+007B	{	\lbrace	Left Curly Bracket	
-U+007C	|	\pipe	Vertical Line	
+U+007C	|	\pipe, \vert	Vertical Line	
 U+007D	}	\rbrace	Right Curly Bracket	
-U+007E	~	\tilde	Tilde	
+U+007E	~	\asciitilde	Tilde	
 U+007F		\delete	Delete	

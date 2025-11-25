@@ -1,8 +1,8 @@
 exclude: '(\.git/|\.venv/|\.idea/|third_party/|experimental/|bugs/)'
-minimum_pre_commit_version: 3.6.0
+minimum_pre_commit_version: 4.5.0
 default_language_version:
   python: "3.13"
-  node: "22.20.0"
+  node: "24.11.1"
 repos:
   # https://pre-commit.com/hooks.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -29,7 +29,7 @@ repos:
       - id: nbstripout-fast
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.1
+    rev: v0.14.6
     hooks:
       - id: ruff
         args: ["--output-format", "concise"]
@@ -40,12 +40,12 @@ repos:
         args: ["--preview"]
   # pyright
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.406
+    rev: v1.1.407
     hooks:
       - id: pyright
   # markdownlint
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.45.0
+    rev: v0.46.0
     hooks:
       - id: markdownlint
         args:
@@ -53,6 +53,7 @@ repos:
             "--disable",
             "MD013", # Line length
             "MD033", # Inline HTML
+            "MD060", # Table column style
             "--"  # otherwise files are interpreted as args
           ]
   # shellcheck
