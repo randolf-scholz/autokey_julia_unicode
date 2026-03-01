@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # /// script
-# requires-python = ">=3.11"
+# requires-python = ">=3.12"
 # ///
 """Generate phrases for autokey."""
 
@@ -16,32 +16,91 @@ import sys
 from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
 from pathlib import Path
-from typing import Any, Final, NamedTuple, NewType, TypeAlias, TypeGuard, TypeVar
+from typing import Any, Final, NamedTuple, Self, TypeIs
 
 # In[2]:
 # Globals / Constants / Templates
-CHAR = NewType("CHAR", str)
-"""Character type."""
-UCODE = NewType("UCODE", str)
-"""Unicode code type."""
-ABBREVIATION = NewType("ABBREVIATION", str)
-"""Abbreviation type."""
 LOGGER = logging.getLogger(__name__)
-
-T = TypeVar("T")
-"""Generic type for choices."""
-JSON: TypeAlias = dict[str, Any]
-# %% Helper scripts
-
-UNICODE_PATTERN = re.compile(r"U\+[0-9A-F]{4,6}")
-"""Regex pattern for unicode codes."""
+type JSON = dict[str, Any]
 # any printable ascii character except backslash (x5C) and space (x20)
 LEGAL_CHARS = re.compile(r"[\x21-\x5B\x5D-\x7E]+")
 """Regex pattern for legal characters."""
-ABBREVIATION_PATTERN = re.compile(r"\x5C[\x21-\x7E]+\x20")
-"""Regex pattern for abbreviations start with backslash (5C) and end in space (20)."""
 SPECIAL_DIR = "custom_special"
 """Directory for special characters."""
+ILLEGAL_FILENAME_CHARS_LINUX = r"""/"""
+ILLEGAL_FILENAME_CHARS_WINDOWS = r"""\/?%*:|"<>.,;="""
+
+
+class Glyph(str):
+    """Character type."""
+
+    def __new__(cls, value: str) -> Self:
+        if not is_glyph(value):
+            raise ValueError(f"{value!r} is not a valid character.")
+        return super().__new__(cls, value)
+
+
+def is_glyph(s: object, /) -> TypeIs[Glyph]:
+    """Check whether string is a single character."""
+    # test exact match against regex
+    return isinstance(s, str) and (
+        len(s) == 1
+        or (
+            len(s) == 2
+            and (is_variation_selector(s[1]) or is_combining_character(s[1]))
+        )
+    )
+
+
+class CodePoint(str):
+    """Unicode code type (like U+)."""
+
+    PATTERN = re.compile(r"U\+[0-9A-F]{4,6}")
+    """Regex pattern for unicode codes."""
+
+    def __new__(cls, value: str) -> Self:
+        if not is_codepoint(value):
+            raise ValueError(f"{value!r} is not a valid unicode code.")
+        return super().__new__(cls, value)
+
+
+def is_codepoint(s: object, /) -> TypeIs[CodePoint]:
+    """Check whether string is a unicode-code (like U+0000A)."""
+    # test exact match against regex
+    return isinstance(s, str) and CodePoint.PATTERN.fullmatch(s) is not None
+
+
+def parse_codepoints(s: str, /) -> list[CodePoint]:
+    """Parse a string of the form 'U+0000A + U+0000B' into a list of CodePoints."""
+    codepoints = [CodePoint(code.strip()) for code in s.split(" + ")]
+    # simplify code points by stripping leading zeros
+    return [CodePoint(f"U+{int(code[2:], 16):04X}") for code in codepoints]
+
+
+class Abbreviation(str):
+    """Abbreviation type."""
+
+    PATTERN = re.compile(r"\x5C[\x21-\x7E]+\x20")
+    """Regex pattern for abbreviations start with backslash (5C) and end in space (20)."""
+
+    def __new__(cls, value: str) -> Self:
+        if not is_abbreviation(value):
+            raise ValueError(
+                f"{value!r} is not a valid abbreviation."
+                "\nAbbrevations must begin with a backslash and terminate with a space."
+                "\nInside the abbrevations only the printable ascii characters x21-x7e are allowed,"
+                " except backslash x5C."
+            )
+        return super().__new__(cls, value)
+
+
+def is_abbreviation(s: object, /) -> TypeIs[Abbreviation]:
+    """Check if string is a valid abbreviation.
+
+    Abbreviations must begin with a backslash followed by one or more
+    legal characters and terminate with a single space.
+    """
+    return isinstance(s, str) and Abbreviation.PATTERN.fullmatch(s) is not None
 
 
 def is_variation_selector(s: str, /) -> bool:
@@ -49,12 +108,9 @@ def is_variation_selector(s: str, /) -> bool:
     return len(s) == 1 and "\ufe00" <= s <= "\ufe0f"
 
 
-def is_char(s: object, /) -> TypeGuard[CHAR]:
-    """Check whether string is a single character."""
-    # test exact match against regex
-    return isinstance(s, str) and (
-        len(s) == 1 or (len(s) == 2 and is_variation_selector(s[1]))
-    )
+def is_combining_character(s: str, /) -> bool:
+    """Check whether string is a combining character."""
+    return len(s) == 1 and "\u0300" <= s <= "\u036f"
 
 
 def as_hex(s: str, /) -> str:
@@ -62,64 +118,31 @@ def as_hex(s: str, /) -> str:
     return str([f"U+{ord(c):04X}" for c in s])
 
 
-def is_unicode(s: object, /) -> TypeGuard[UCODE]:
-    """Check whether string is a unicode-code (like U+0000A)."""
-    # test exact match against regex
-    return isinstance(s, str) and UNICODE_PATTERN.fullmatch(s) is not None
-
-
-def is_abbreviation(s: object, /) -> TypeGuard[ABBREVIATION]:
-    """Check if string is a valid abbreviation.
-
-    Abbreviations must begin with a backslash followed by one or more
-    legal characters and terminate with a single space.
-    """
-    return isinstance(s, str) and ABBREVIATION_PATTERN.fullmatch(s) is not None
-
-
-def as_char(s: str, /) -> CHAR:
-    """Convert string to character."""
-    if not is_char(s):
-        raise ValueError(f"{s!r} is not a valid character.")
-    return s
-
-
-def as_ucode(s: str, /) -> UCODE:
-    """Convert string to unicode code."""
-    if not is_unicode(s):
-        raise ValueError(f"{s!r} is not a valid unicode code.")
-    return s
-
-
-def as_abbreviation(s: str, /) -> ABBREVIATION:
-    """Convert string to abbreviation."""
-    if not is_abbreviation(s):
-        raise ValueError(
-            f"{s!r} is not a valid abbreviation."
-            "\nAbbrevations must begin with a backslash and terminate with a space."
-            "\nInside the abbrevations only the printable ascii characters x21-x7e are allowed,"
-            " except backslash x5C."
-        )
-    return s
-
-
-def make_abbreviations(raw_data: str, /) -> list[ABBREVIATION]:
+def make_abbreviations(raw_data: str, /) -> list[Abbreviation]:
     """Create the abbreviation list from the raw data."""
-    abbreviations: list[ABBREVIATION] = []
+    abbreviations: list[Abbreviation] = []
 
     if not raw_data:
         return abbreviations
 
     for raw_abb in raw_data.split(", "):
-        abb = as_abbreviation(raw_abb + " ")  # add single trailing space
+        abb = Abbreviation(raw_abb + " ")  # add single trailing space
         abbreviations.append(abb)
 
     return abbreviations
 
 
-ILLEGAL_FILENAME_CHARS_LINUX = r"""/"""
-ILLEGAL_FILENAME_CHARS_WINDOWS = r"""\/?%*:|"<>.,;="""
+def str_to_codepoints(s: str, /) -> list[CodePoint]:
+    r"""Convert a string to a list of code points.
 
+    Example:
+        >>> str_to_codepoints("✅️")
+        ['U+2705', 'U+FE0F']
+    """
+    return [CodePoint(f"U+{ord(c):04X}") for c in s]
+
+
+# %% Helper scripts
 TEMPLATE: JSON = {
     "abbreviation": {
         "abbreviations": [],
@@ -159,7 +182,7 @@ SEND_MODES: Final[dict[int, str]] = {
 DEFAULT_QUESTION = "Please pick one of the following:"
 
 
-def query_choice(
+def query_choice[T](
     question: str = DEFAULT_QUESTION,
     *,
     choices: list[T] | dict[int, T],
@@ -200,17 +223,6 @@ def get_sendmode() -> str:
 
 
 # %% Generate phrases
-
-
-HEADER = (
-    "Code point(s)",
-    "Character(s)",
-    "Tab completion sequence(s)",
-    "Unicode name(s)",
-)
-"""Header for the unicode samples."""
-
-
 class UnprocessedSample(NamedTuple):
     """Named tuple for unprocessed unicode samples."""
 
@@ -224,6 +236,42 @@ class UnprocessedSample(NamedTuple):
         return f"{char=!r}: {ucode=!r}  {abbrevations=!r}"
 
 
+class UnicodeSample(NamedTuple):
+    """Named tuple for unicode samples."""
+
+    ucode: list[CodePoint]
+    glyph: Glyph
+    abbreviations: list[Abbreviation]
+    description: str
+
+    def __repr__(self) -> str:
+        char, ucode, abbrevations = self.glyph, self.ucode, self.abbreviations
+        return f"{ucode}: {char!r}  {abbrevations=!s}"
+
+
+TABULATOR: UnicodeSample = UnicodeSample(
+    ucode=[CodePoint("U+0009")],
+    glyph=Glyph("\t"),
+    abbreviations=[Abbreviation(r"\t ")],
+    description="Tabulator",
+)
+
+NEWLINE: UnicodeSample = UnicodeSample(
+    ucode=[CodePoint("U+000A")],
+    glyph=Glyph("\n"),
+    abbreviations=[Abbreviation(r"\n ")],
+    description="Newline",
+)
+
+HEADER = (
+    "Code point(s)",
+    "Character(s)",
+    "Tab completion sequence(s)",
+    "Unicode name(s)",
+)
+"""Header for the unicode samples."""
+
+
 def read_row(row: Sequence[str] | Generator[str]) -> UnprocessedSample:
     """Read a row from the tsv file."""
     row = list(row)
@@ -234,34 +282,6 @@ def read_row(row: Sequence[str] | Generator[str]) -> UnprocessedSample:
         for i, col in enumerate(row):
             exc.add_note(f"Column {i}: {col!r}.")
         raise
-
-
-class UnicodeSample(NamedTuple):
-    """Named tuple for unicode samples."""
-
-    ucode: UCODE
-    char: CHAR
-    abbreviations: list[ABBREVIATION]
-    description: str
-
-    def __repr__(self) -> str:
-        char, ucode, abbrevations = self.char, self.ucode, self.abbreviations
-        return f"{ucode}: {char!r}  {abbrevations=!s}"
-
-
-TABULATOR: UnicodeSample = UnicodeSample(
-    ucode=as_ucode("U+0009"),
-    char=as_char("\t"),
-    abbreviations=[as_abbreviation(r"\t ")],
-    description="Tabulator",
-)
-
-NEWLINE: UnicodeSample = UnicodeSample(
-    ucode=as_ucode("U+000A"),
-    char=as_char("\n"),
-    abbreviations=[as_abbreviation(r"\n ")],
-    description="Newline",
-)
 
 
 def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
@@ -296,9 +316,10 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
 
     for item in data:
         ucode, char, raw_abb, description = item
+        parsed_ucodes = parse_codepoints(ucode)
 
         # guard against invalid character
-        if not is_char(char):
+        if not is_glyph(char):
             LOGGER.debug("Invalid character: %s=%s", item)
             skipped.append((
                 item,
@@ -307,7 +328,7 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
             continue
 
         # guard against invalid unicode
-        if not is_unicode(ucode):
+        if not all(is_codepoint(code) for code in parsed_ucodes):
             LOGGER.debug("Invalid unicode: %s", item)
             skipped.append((item, "Invalid Unicode"))
             continue
@@ -324,8 +345,8 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
             continue
 
         sample = UnicodeSample(
-            ucode=ucode,
-            char=char,
+            ucode=parsed_ucodes,
+            glyph=char,
             abbreviations=abbreviations,
             description=description,
         )
@@ -357,16 +378,24 @@ def create_autokey_phrase(
         "description": sample.description,
     }
 
-    if (payload_path := path / f"{sample.ucode}.txt").exists() and not overwrite:
+    if sample.ucode != str_to_codepoints(sample.glyph):
+        raise ValueError(
+            f"{sample}: Mismatch between ucode and glyph"
+            f"{sample.ucode} != {str_to_codepoints(sample.glyph)}"
+        )
+
+    name = "_".join(sample.ucode)
+
+    if (payload_path := path / f"{name}.txt").exists() and not overwrite:
         raise FileExistsError(f"File {payload_path} already exists.")
-    if (metadata_path := path / f".{sample.ucode}.json").exists() and not overwrite:
+    if (metadata_path := path / f".{name}.json").exists() and not overwrite:
         raise FileExistsError(f"File {metadata_path} already exists.")
 
     with (
         open(payload_path, "w", encoding="utf8") as file,
         open(metadata_path, "w", encoding="utf8") as metadata_file,
     ):
-        file.write(sample.char)
+        file.write(sample.glyph)
         json.dump(metadata, metadata_file, indent=True)
 
 
@@ -402,8 +431,8 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     LOGGER.info("=" * 80)
     LOGGER.info("Installing icons from %s", folder)
 
-    parsed: Counter[UCODE] = Counter()  # ucode -> count
-    all_abbreviations: dict[ABBREVIATION, list[UCODE]] = defaultdict(list)
+    parsed: Counter[Glyph] = Counter()  # ucode -> count
+    all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
 
     # iterate over all .tsv files in the directory
     for filename in folder.glob("*.tsv"):
@@ -420,21 +449,21 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
             )
 
             LOGGER.debug("Registered %s", sample)
-            parsed[sample.ucode] += 1
+            parsed[sample.glyph] += 1
             for abb in sample.abbreviations:
-                all_abbreviations[abb].append(sample.ucode)
+                all_abbreviations[abb].append(sample.glyph)
 
         LOGGER.info("Finished  %s in %s", filename, target_dir)
 
     LOGGER.info("=" * 80)
     # duplicates information
-    num_duplicate_ucodes = 0
-    for ucode, count in parsed.items():
+    num_duplicate_glyphs = 0
+    for glyph, count in parsed.items():
         if count > 1:
-            LOGGER.info("❌️ Duplicate unicode: %s", ucode)
-            num_duplicate_ucodes += 1
-    if num_duplicate_ucodes:
-        LOGGER.info("❌️ %d duplicate unicodes.", len(parsed))
+            LOGGER.info("❌️ Duplicate glyph: %s", glyph)
+            num_duplicate_glyphs += 1
+    if num_duplicate_glyphs:
+        LOGGER.info("❌️ %d duplicate glyphs.", num_duplicate_glyphs)
     else:
         LOGGER.info("✅️ No duplicates detected.")
 
@@ -449,7 +478,7 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
     else:
         LOGGER.info("✅️ All abbreviations unique.")
 
-    LOGGER.info("✅️ %d unique characters registered.", len(parsed))
+    LOGGER.info("✅️ %d unique glyphs registered.", len(parsed))
 
 
 # %% Generate help script
@@ -501,7 +530,7 @@ def generate_character(
     json_file = target_dir / f".{sample.ucode}.json"
     if text_file.exists() or json_file.exists():
         match query_choice(
-            f"Found existing special character {sample.char!r} ({sample.ucode}).",
+            f"Found existing special character {sample.glyph!r} ({sample.ucode}).",
             choices=["keep", "overwrite", "delete"],
         ):
             case "keep":
@@ -517,7 +546,7 @@ def generate_character(
                 raise ValueError("Invalid choice.")
     else:
         match query_choice(
-            f"Install special character {sample.char!r}?",
+            f"Install special character {sample.glyph!r}?",
             choices=[False, True],
         ):
             case False:
@@ -529,7 +558,7 @@ def generate_character(
 
     target_dir.mkdir(exist_ok=True)
     create_autokey_phrase(sample, template=template, path=target_dir, overwrite=True)
-    LOGGER.info("✅️ Added %s.", sample.char)
+    LOGGER.info("✅️ Added %s.", sample.glyph)
 
 
 def generate_help(*, target_dir: Path) -> None:
@@ -554,7 +583,7 @@ def generate_help(*, target_dir: Path) -> None:
 def make_template(abbreviations: list[str], description: str, sendmode: str) -> JSON:
     r"""Create the template."""
     return TEMPLATE | {
-        "abbreviation": ABBREVIATION | {"abbreviations": abbreviations},
+        "abbreviation": Abbreviation | {"abbreviations": abbreviations},
         "description": description,
         "sendMode": sendmode,
     }

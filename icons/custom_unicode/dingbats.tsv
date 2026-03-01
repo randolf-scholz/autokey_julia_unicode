@@ -1,41 +1,41 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
-U+2139	ℹ️	\:info:, \info	Information source	i
+U+2139 + U+FE0F	ℹ️	\:info:, \info	Information source	i
 U+2610	☐	\bbox	Ballot Box	☐
 U+2611	☑	\checkedbox	Checked Checkbox	☑
 U+2612	☒	\checkbox	Checkbox	☒
-U+2620	☠️	\skull	Skull and crossbones	☠
-U+2622	☢️	\radioactive	Radioactive Sign	☢
-U+2623	☣️	\biohazard	Biohazard Sign	☣
-U+267B	♻️	\recycle	Black Universal Recycling Symbol	♻
-U+267F	♿️	\wheelchair	Wheelchair Symbol	♿
-U+2692	⚒️	\hammer&pick	Hammer and Pick	⚒
-U+2693	⚓️	\anchor	Anchor	⚓
-U+2694	⚔️	\swords	Crossed Swords	⚔
-U+2695	⚕️	\medical	Staff of Aesculapius	⚕
-U+2696	⚖️	\scales	Scales of Justice	⚖
-U+2697	⚗️	\alembic	Alembic	⚗
-U+2699	⚙️	\gear	Gear	⚙
-U+269B	⚛️	\atom	Atom Symbol	⚛
-U+269C	⚜️	\fleurdelis	Fleur-de-lis	⚜
+U+2620 + U+FE0F	☠️	\skull	Skull and crossbones	☠
+U+2622 + U+FE0F	☢️	\radioactive	Radioactive Sign	☢
+U+2623 + U+FE0F	☣️	\biohazard	Biohazard Sign	☣
+U+267B + U+FE0F	♻️	\recycle	Black Universal Recycling Symbol	♻
+U+267F + U+FE0F	♿️	\wheelchair	Wheelchair Symbol	♿
+U+2692 + U+FE0F	⚒️	\hammer&pick	Hammer and Pick	⚒
+U+2693 + U+FE0F	⚓️	\anchor	Anchor	⚓
+U+2694 + U+FE0F	⚔️	\swords	Crossed Swords	⚔
+U+2695 + U+FE0F	⚕️	\medical	Staff of Aesculapius	⚕
+U+2696 + U+FE0F	⚖️	\scales	Scales of Justice	⚖
+U+2697 + U+FE0F	⚗️	\alembic	Alembic	⚗
+U+2699 + U+FE0F	⚙️	\gear	Gear	⚙
+U+269B + U+FE0F	⚛️	\atom	Atom Symbol	⚛
+U+269C + U+FE0F	⚜️	\fleurdelis	Fleur-de-lis	⚜
 U+269D	⚝	\white_star	Outlined White Star	⚝
 U+269E	⚞	\leftlines	Three Lines Converging Right	⚞
 U+269F	⚟	\rightlines	Three Lines Converging Left	⚟
-U+26A0	⚠️	\warning, \caution, \wmark	Warning Sign	⚠
-U+26A1	⚡️	\voltage, \lightning, \thunder, \thunderbolt, \zap	High Voltage Sign	⚡
-U+26CF	⛏️	\pick	Pick	⛏
-U+26D3	⛓️	\chains	Chains	⛓
-U+26D4	⛔️	\noentry	No Entry	⛔
-U+2705	✅️	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark	✅
+U+26A0 + U+FE0F	⚠️	\warning, \caution, \wmark	Warning Sign	⚠
+U+26A1 + U+FE0F	⚡️	\voltage, \lightning, \thunder, \thunderbolt, \zap	High Voltage Sign	⚡
+U+26CF + U+FE0F	⛏️	\pick	Pick	⛏
+U+26D3 + U+FE0F	⛓️	\chains	Chains	⛓
+U+26D4 + U+FE0F	⛔️	\noentry	No Entry	⛔
+U+2705 + U+FE0F	✅️	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark	✅
 U+2713	✓	\cmark, \checkmark	Check Mark	✓
 U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark	✔
 U+2717	✗	\xmark, \ballot_x	Ballot X	✗
 U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X	✘
-U+2728	✨️	\sparkles	Sparkles	✨
-U+2744	❄️	\snowflake, \snow	Snowflake	❄
-U+274C	❌️	\XMARK, \redxmark, \cross_mark	Cross Mark	❌
-U+274E	❎️	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark	❎
-U+2753	❓️	\QMARK	Black Question Mark Ornament	❓
-U+2757	❗️	\EMARK	Heavy Exclamation Mark Symbol	❗
+U+2728 + U+FE0F	✨️	\sparkles	Sparkles	✨
+U+2744 + U+FE0F	❄️	\snowflake, \snow	Snowflake	❄
+U+274C + U+FE0F	❌️	\XMARK, \redxmark, \cross_mark	Cross Mark	❌
+U+274E + U+FE0F	❎️	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark	❎
+U+2753 + U+FE0F	❓️	\QMARK	Black Question Mark Ornament	❓
+U+2757 + U+FE0F	❗️	\EMARK	Heavy Exclamation Mark Symbol	❗
 U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X	☒
 U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check	☑
 U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark	
