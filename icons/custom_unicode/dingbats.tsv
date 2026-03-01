@@ -1,7 +1,9 @@
 Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+2139	ℹ️	\:info:, \info	Information source	i
 U+2610	☐	\bbox	Ballot Box	☐
 U+2611	☑	\checkedbox	Checked Checkbox	☑
 U+2612	☒	\checkbox	Checkbox	☒
+U+2620	☠️	\skull	Skull and crossbones	☠
 U+2622	☢️	\radioactive	Radioactive Sign	☢
 U+2623	☣️	\biohazard	Biohazard Sign	☣
 U+267B	♻️	\recycle	Black Universal Recycling Symbol	♻
@@ -20,13 +22,16 @@ U+269E	⚞	\leftlines	Three Lines Converging Right	⚞
 U+269F	⚟	\rightlines	Three Lines Converging Left	⚟
 U+26A0	⚠️	\warning, \caution, \wmark	Warning Sign	⚠
 U+26A1	⚡️	\voltage, \lightning, \thunder, \thunderbolt, \zap	High Voltage Sign	⚡
+U+26CF	⛏️	\pick	Pick	⛏
+U+26D3	⛓️	\chains	Chains	⛓
+U+26D4	⛔️	\noentry	No Entry	⛔
 U+2705	✅️	\CMARK, \greencmark, \cmarkbox	White Heavy Check Mark	✅
 U+2713	✓	\cmark, \checkmark	Check Mark	✓
 U+2714	✔	\hcmark, \heavycheckmark	Heavy Check Mark	✔
 U+2717	✗	\xmark, \ballot_x	Ballot X	✗
+U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X	✘
 U+2728	✨️	\sparkles	Sparkles	✨
 U+2744	❄️	\snowflake, \snow	Snowflake	❄
-U+2718	✘	\hxmark, \heavy_ballot_x	Heavy Ballot X	✘
 U+274C	❌️	\XMARK, \redxmark, \cross_mark	Cross Mark	❌
 U+274E	❎️	\xmarkbox, \negative_squared_cross_mark	Negative Squared Cross Mark	❎
 U+2753	❓️	\QMARK	Black Question Mark Ornament	❓
@@ -34,4 +39,4 @@ U+2757	❗️	\EMARK	Heavy Exclamation Mark Symbol	❗
 U+1F5F7	🗷	\xbbox	Ballot Box with Bold Script X	☒
 U+1F5F9	🗹	\cbbox	Ballot Box with Bold Check	☑
 U+1F5F8	🗸	\lcmark, \lightcheckmark	Light Check Mark	
-U+1F6AB	🚫	\noentrycircle, \prohibited	No Entry Sign
+U+1F6AB	🚫	\noentrycircle, \prohibited, \forbidden	No Entry Sign
