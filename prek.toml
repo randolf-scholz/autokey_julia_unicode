@@ -1,0 +1,104 @@
+# Configuration file for `prek`, a git hook framework written in Rust.
+# See https://prek.j178.dev for more information.
+#:schema https://www.schemastore.org/prek.json
+
+exclude = '(\.git/|\.venv/|\.idea/|third_party/|experimental/|bugs/)'
+minimum_pre_commit_version = "4.5.0"
+default_language_version = {
+    python = "3.13",
+    node = "24.11.1"
+  }
+
+[[repos]]
+repo = "https://github.com/pre-commit/pre-commit-hooks"
+rev = "v6.0.0"
+hooks = [
+  { id = "check-added-large-files" },
+  { id = "check-case-conflict" },
+  { id = "check-illegal-windows-names" },
+  { id = "check-json" },
+  { id = "check-executables-have-shebangs" },
+  { id = "check-shebang-scripts-are-executable" },
+  { id = "check-symlinks" },
+  { id = "check-toml" },
+  { id = "check-xml" },
+  { id = "check-yaml" },
+  { id = "end-of-file-fixer" },
+  {
+    id = "trailing-whitespace",
+    description = "trims trailing whitespace.",
+    exclude = "^.*.tsv$"
+  }
+]
+
+[[repos]]
+repo = "https://github.com/deshaw/nbstripout-fast.git"
+rev = "v1.1.2"
+hooks = [
+  { id = "nbstripout-fast" }
+]
+
+[[repos]]
+repo = "https://github.com/astral-sh/ruff-pre-commit"
+rev = "v0.15.16"
+hooks = [
+  {
+    id = "ruff",
+    args = [
+      "--output-format",
+      "concise"
+    ]
+  },
+  {
+    id = "ruff",
+    name = "ruff-isort",
+    args = [
+      "--select",
+      "I",
+      "--fix"
+    ]
+  },
+  {
+    id = "ruff-format",
+    args = ["--preview"]
+  }
+]
+
+[[repos]]
+repo = "https://github.com/RobertCraigie/pyright-python"
+rev = "v1.1.410"
+hooks = [
+  { id = "pyright" }
+]
+
+[[repos]]
+repo = "https://github.com/igorshubovych/markdownlint-cli"
+rev = "v0.48.0"
+hooks = [
+  {
+    id = "markdownlint",
+    args = [
+      "--disable",
+      "MD013",
+      "MD033",
+      "MD060",
+      "--"
+    ]
+  }
+]
+
+[[repos]]
+repo = "https://github.com/shellcheck-py/shellcheck-py"
+rev = "v0.11.0.1"
+hooks = [
+  {
+    id = "shellcheck",
+    args = [
+      "-x",
+      "--shell=bash",
+      "--color=always",
+      "--format=gcc",
+      "--"
+    ]
+  }
+]
