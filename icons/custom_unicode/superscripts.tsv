@@ -1,0 +1,77 @@
+Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+U+1D2C	ᴬ	\^A	Modifier letter capital A	A
+U+1D2E	ᴮ	\^B	Modifier letter capital B	B
+U+A7F2	ꟲ	\^C	Modifier letter capital C	C
+U+1D30	ᴰ	\^D	Modifier letter capital D	D
+U+1D31	ᴱ	\^E	Modifier letter capital E	E
+U+A7F3	ꟳ	\^F	Modifier letter capital F	F
+U+1D33	ᴳ	\^G	Modifier letter capital G	G
+U+1D34	ᴴ	\^H	Modifier letter capital H	H
+U+1D35	ᴵ	\^I	Modifier letter capital I	I
+U+1D36	ᴶ	\^J	Modifier letter capital J	J
+U+1D37	ᴷ	\^K	Modifier letter capital K	K
+U+1D38	ᴸ	\^L	Modifier letter capital L	L
+U+1D39	ᴹ	\^M	Modifier letter capital M	M
+U+1D3A	ᴺ	\^N	Modifier letter capital N	N
+U+1D3C	ᴼ	\^O	Modifier letter capital O	O
+U+1D3E	ᴾ	\^P	Modifier letter capital P	P
+U+A7F4	ꟴ	\^Q	Modifier letter capital Q	Q
+U+1D3F	ᴿ	\^R	Modifier letter capital R	R
+U+A7F1	꟱	\^S	Modifier letter capital S	S
+U+1D40	ᵀ	\^T	Modifier letter capital T	T
+U+1D41	ᵁ	\^U	Modifier letter capital U	U
+U+2C7D	ⱽ	\^V	Modifier letter capital V	V
+U+1D42	ᵂ	\^W	Modifier letter capital W	W
+U+1D43	ᵃ	\^a	Modifier letter small a	a
+U+1D47	ᵇ	\^b	Modifier letter small b	b
+U+1D9C	ᶜ	\^c	Modifier letter small c	c
+U+1D48	ᵈ	\^d	Modifier letter small d	d
+U+1D49	ᵉ	\^e	Modifier letter small e	e
+U+1DA0	ᶠ	\^f	Modifier letter small f	f
+U+1D4D	ᵍ	\^g	Modifier letter small g	g
+U+02B0	ʰ	\^h	Modifier letter small h	h
+U+2071	ⁱ	\^i	Superscript Latin small letter i	i
+U+02B2	ʲ	\^j	Modifier letter small j	j
+U+1D4F	ᵏ	\^k	Modifier letter small k	k
+U+02E1	ˡ	\^l	Modifier letter small l	l
+U+1D50	ᵐ	\^m	Modifier letter small m	m
+U+207F	ⁿ	\^n	Superscript Latin small letter n	n
+U+1D52	ᵒ	\^o	Modifier letter small o	o
+U+1D56	ᵖ	\^p	Modifier letter small p	p
+U+107A5	𐞥	\^q	Modifier letter small q	q
+U+02B3	ʳ	\^r	Modifier letter small r	r
+U+02E2	ˢ	\^s	Modifier letter small s	s
+U+1D57	ᵗ	\^t	Modifier letter small t	t
+U+1D58	ᵘ	\^u	Modifier letter small u	u
+U+1D5B	ᵛ	\^v	Modifier letter small v	v
+U+02B7	ʷ	\^w	Modifier letter small w	w
+U+02E3	ˣ	\^x	Modifier letter small x	x
+U+02B8	ʸ	\^y	Modifier letter small y	y
+U+1DBB	ᶻ	\^z	Modifier letter small z	z
+U+2070	⁰	\^0	Superscript zero	0
+U+00B9	¹	\^1	Superscript one	1
+U+00B2	²	\^2	Superscript two	2
+U+00B3	³	\^3	Superscript three	3
+U+2074	⁴	\^4	Superscript four	4
+U+2075	⁵	\^5	Superscript five	5
+U+2076	⁶	\^6	Superscript six	6
+U+2077	⁷	\^7	Superscript seven	7
+U+2078	⁸	\^8	Superscript eight	8
+U+2079	⁹	\^9	Superscript nine	9
+U+207A	⁺	\^+	Superscript plus sign	+
+U+207B	⁻	\^-	Superscript minus	-
+U+207C	⁼	\^=	Superscript equals sign	=
+U+207D	⁽	\^(	Superscript left parenthesis	(
+U+207E	⁾	\^)	Superscript right parenthesis	)
+U+1D45	ᵅ	\^alpha	Modifier letter small alpha	α
+U+1D5D	ᵝ	\^beta	Modifier letter small beta	β
+U+1D5E	ᵞ	\^gamma	Modifier letter small Greek gamma	γ
+U+1D5F	ᵟ	\^delta	Modifier letter small delta	δ
+U+1D4B	ᵋ	\^epsilon	Modifier letter small open e	ε
+U+1DBF	ᶿ	\^theta	Modifier letter small theta	θ
+U+1DA5	ᶥ	\^iota	Modifier letter small iota	ι
+U+1DB9	ᶹ	\^upsilon	Modifier letter small v with hook	υ
+U+1D60	ᵠ	\^phi	Modifier letter small Greek phi	φ
+U+1D61	ᵡ	\^chi	Modifier letter small chi	χ
+U+1DFF3	𝿳	\^psi	Modifier letter small Greek psi	ψ
+U+1DFF4	𝿴	\^omega	Modifier letter small Greek omega	ω

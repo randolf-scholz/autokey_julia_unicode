@@ -16,7 +16,7 @@ import sys
 from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
 from pathlib import Path
-from typing import Any, Final, NamedTuple, Self, TypeIs
+from typing import Any, Final, Literal, NamedTuple, Self, TypeIs
 
 # In[2]:
 # Globals / Constants / Templates
@@ -249,6 +249,13 @@ class UnicodeSample(NamedTuple):
         return f"{ucode}: {char!r}  {abbrevations=!s}"
 
 
+class PhraseCreationResult(NamedTuple):
+    """Result of creating an AutoKey phrase."""
+
+    status: Literal["created", "skipped_duplicate"]
+    name: str
+
+
 TABULATOR: UnicodeSample = UnicodeSample(
     ucode=[CodePoint("U+0009")],
     glyph=Glyph("\t"),
@@ -370,7 +377,8 @@ def create_autokey_phrase(
     path: Path,
     template: JSON = TEMPLATE,
     overwrite: bool = False,
-) -> None:
+    duplicates: Literal["error", "skip"] = "error",
+) -> PhraseCreationResult:
     """Create the autokey phrase and metadata file."""
     metadata = template | {
         "abbreviation": template["abbreviation"]
@@ -385,10 +393,14 @@ def create_autokey_phrase(
         )
 
     name = "_".join(sample.ucode)
+    payload_path = path / f"{name}.txt"
+    metadata_path = path / f".{name}.json"
 
-    if (payload_path := path / f"{name}.txt").exists() and not overwrite:
-        raise FileExistsError(f"File {payload_path} already exists.")
-    if (metadata_path := path / f".{name}.json").exists() and not overwrite:
+    if not overwrite and (payload_path.exists() or metadata_path.exists()):
+        if duplicates == "skip":
+            return PhraseCreationResult(status="skipped_duplicate", name=name)
+        if payload_path.exists():
+            raise FileExistsError(f"File {payload_path} already exists.")
         raise FileExistsError(f"File {metadata_path} already exists.")
 
     with (
@@ -398,8 +410,16 @@ def create_autokey_phrase(
         file.write(sample.glyph)
         json.dump(metadata, metadata_file, indent=True)
 
+    return PhraseCreationResult(status="created", name=name)
 
-def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -> None:
+
+def generate_codes(
+    directory: str | Path,
+    *,
+    target_dir: Path,
+    template: JSON,
+    duplicates: Literal["error", "skip"],
+) -> list[UnicodeSample]:
     """Read the icons from filename and create phrases files in target_dir."""
     folder = Path(directory)
     if not folder.exists():
@@ -433,6 +453,7 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
 
     parsed: Counter[Glyph] = Counter()  # ucode -> count
     all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
+    skipped_duplicates: list[UnicodeSample] = []
 
     # iterate over all .tsv files in the directory
     for filename in folder.glob("*.tsv"):
@@ -442,11 +463,19 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
         samples: list[UnicodeSample] = process_icons(raw_icons)
 
         for sample in samples:
-            create_autokey_phrase(
+            result = create_autokey_phrase(
                 sample,
                 path=target_dir,
                 template=template,
+                duplicates=duplicates,
             )
+
+            if result.status == "skipped_duplicate":
+                skipped_duplicates.append(sample)
+                LOGGER.info(
+                    "Skipped duplicate character: %s (%s)", sample.glyph, result.name
+                )
+                continue
 
             LOGGER.debug("Registered %s", sample)
             parsed[sample.glyph] += 1
@@ -457,6 +486,18 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
 
     LOGGER.info("=" * 80)
     # duplicates information
+    if skipped_duplicates:
+        LOGGER.info("Skipped %d duplicate characters:", len(skipped_duplicates))
+        for sample in skipped_duplicates:
+            LOGGER.info(
+                "- %s (%s): %s",
+                sample.glyph,
+                ", ".join(sample.ucode),
+                sample.description,
+            )
+    else:
+        LOGGER.info("✅️ No duplicate characters skipped.")
+
     num_duplicate_glyphs = 0
     for glyph, count in parsed.items():
         if count > 1:
@@ -479,6 +520,7 @@ def generate_codes(directory: str | Path, *, target_dir: Path, template: JSON) -
         LOGGER.info("✅️ All abbreviations unique.")
 
     LOGGER.info("✅️ %d unique glyphs registered.", len(parsed))
+    return skipped_duplicates
 
 
 # %% Generate help script
@@ -635,6 +677,14 @@ def main() -> None:
         help="Increase verbosity.",
     )
     parser.add_argument(
+        "--duplicates",
+        "-d",
+        choices=["error", "skip"],
+        default="skip",
+        type=str,
+        help="How to handle duplicate generated phrase files.",
+    )
+    parser.add_argument(
         "source_directories",
         nargs="*",
         default=["icons/julia_unicode/", "icons/custom_unicode/"],
@@ -660,7 +710,12 @@ def main() -> None:
     template = TEMPLATE | {"sendMode": sendmode}
 
     for directory in args.source_directories:
-        generate_codes(directory, target_dir=target_dir, template=template)
+        generate_codes(
+            directory,
+            target_dir=target_dir,
+            template=template,
+            duplicates=args.duplicates,
+        )
 
     # add special characters
     special = target_dir / SPECIAL_DIR
