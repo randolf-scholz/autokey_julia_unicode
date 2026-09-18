@@ -1,7 +1,6 @@
 # region custom gitignore settings -----------------------------------------------------
-# any hidden folder (.git, .vscode, .mypy_cache), exluding .idea and .vscode
+# any hidden folder (.git, .vscode, .mypy_cache), exluding .vscode
 .*/
-!.idea/
 !.vscode/
 
 # any folder with double underscore (e.g. __pycache__)

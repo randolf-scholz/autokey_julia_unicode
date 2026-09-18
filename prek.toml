@@ -2,8 +2,8 @@
 # See https://prek.j178.dev for more information.
 #:schema https://www.schemastore.org/prek.json
 
-exclude = '(\.git/|\.venv/|\.idea/|third_party/|experimental/|bugs/)'
-minimum_prek_version = "0.4.4"
+exclude = '(\.git/|\.venv/|\.idea/|third_party/|experimental/)'
+minimum_prek_version = "0.5.1"
 default_language_version = { python = "3.14", node = "24.13.0" }
 
 [[repos]]
@@ -40,34 +40,34 @@ hooks = [{ id = "nbstripout-fast" }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
-rev = "v0.15.16"
+rev = "v0.16.8"
 hooks = [
   { id = "ruff", args = ["--output-format", "concise"] },
   { id = "ruff", name = "ruff-isort", args = ["--select", "I", "--fix"] },
-  { id = "ruff-format", args = ["--preview"] }
+  { id = "ruff-format", args = ["--preview"] },
 ]
 
 [[repos]]
 repo = "https://github.com/RobertCraigie/pyright-python"
-rev = "v1.1.410"
+rev = "v1.1.414"
 hooks = [{ id = "pyright" }]
 
 [[repos]]
 repo = "https://github.com/igorshubovych/markdownlint-cli"
-rev = "v0.48.0"
+rev = "v0.49.1"
 hooks = [
   {
     id = "markdownlint",
-    args = ["--disable", "MD013", "MD033", "MD060", "--"]
+    args = ["--disable", "MD013", "MD033", "MD060", "--"],
   }
 ]
 
 [[repos]]
 repo = "https://github.com/shellcheck-py/shellcheck-py"
-rev = "v0.11.0.1"
+rev = "v0.11.0.1-1"
 hooks = [
   {
     id = "shellcheck",
-    args = ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"]
-  }
+    args = ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"],
+  },
 ]

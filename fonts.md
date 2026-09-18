@@ -1,62 +1,62 @@
-# Monospace Font Recommandations
+# Monospace Font Recommendations
 
 ## Tests
 
 Using <https://www.programmingfonts.org/>, several fonts were inspected. Several considerations were made:
 
-### greek tests
+### Greek tests
 
-We check whether greek characters are supported, in particular also the variants of `ε`, `θ`, `ϑ`, `ϰ`, `ϖ`, `ϱ`, `ς`, `φ`.
+We check whether Greek characters are supported, in particular also the variants of `ε`, `θ`, `ϑ`, `ϰ`, `ϖ`, `ϱ`, `ς`, `φ`.
 
-### combining character tests
+### Combining character tests
 
 We check whether combining characters are supported, such as`\vec`, `\hat`, `\bar`, `\dot`, `\ddot`, `\tilde`.
 We inspect visual quality:
 
 - Are the combining characters neatly placed?
-- Do they work well with capital and greek letters?
+- Do they work well with capital and Greek letters?
 
-### mono-spacing tests
+### Mono-spacing tests
 
-1. arrows:  We compare the lengths of 16x arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against the lengths of 8x of the `long` versions of these arrows.
+1. Arrows: We compare the lengths of 16x arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against the lengths of 8x of the `long` versions of these arrows.
    In this test, we value consistency:
    - Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
    - Half marks `✅️` if there are at most 3 different lengths.
    - No marks `❌️` if there are more than 3 different lengths.
-2. dashes: We compare the lengths of 12x`\emdash` against 6x `\twoemdash` and 4x`\threeemdash`.
-3. bigodot: We compare the character `\bigodot` against `\bigoplus` and `\bigotimes`.
-4. greek subscripts: We test whether greek subscripts `ᵦ`, `ᵧ`, etc. are mono-spaced.
-5. combining: Whether combining characters are mono-spaced.
-6. character variants: Whether the character variants `𝐍`, `𝑁`, `𝑵`, `𝙽`, `ℕ`, `𝒩`, `𝓝`, `𝔑`, `𝕹` are mono-spaced.
-7. math-monospacing: We check whether mathematical symbols are mono-spaced, for instance integrals.
+2. Dashes: We compare the lengths of 12x`\emdash` against 6x `\twoemdash` and 4x`\threeemdash`.
+3. Operators: We compare the character `\bigodot` against `\bigoplus` and `\bigotimes`.
+4. Greek subscripts: We test whether Greek subscripts `ᵦ`, `ᵧ`, etc. are monospaced.
+5. Combining: Whether combining characters are monospaced.
+6. Character variants: Whether the character variants `𝐍`, `𝑁`, `𝑵`, `𝙽`, `ℕ`, `𝒩`, `𝓝`, `𝔑`, `𝕹` are monospaced.
+7. Math-monospacing: We check whether mathematical symbols are monospaced, for instance integrals.
 
 ## Results
 
-| Font           | greek | comb.-latin | comb.-greek | double-struck | latin variants | combining | bigodot | arrow | dash | sub | coverage |
-|----------------|-------|-------------|-------------|---------------|----------------|-----------|---------|-------|------|-----|----------|
-| Code New Roman | ✅️     | ✅️✅️          | ❌️           | neat          | ❌️              | ❌️         | ❌️       | ❌️     | ❌️    | ✅️   | ❓️        |
-| DejaVu Mono    | ✅️✅️    | ✅️✅️          | ❌️           | neat          | ❌️              | ❌️         | ❌️       | ✅️     | ❌️    | ❌️   | ❓️        |
-| Droid Sans     | ✅️✅️    | ✅️✅️          | ❌️           | neat          | ❌️              | ❌️         | ❌️       | ✅️     | ❌️    | ❌️   | ❓️        |
-| FairFax        | ✅️✅️    | ✅️           | ✅️           | neat          | ❌️              | ✅️         | ✅️       | ✅️✅️    | ❌️    | ✅️   | ❓️        |
-| FairFax Hax HD | ✅️✅️    | ✅️           | ✅️           | ugly          | ❌️              | ✅️         | ✅️       | ✅️✅️    | ✅️    | ✅️   | ❓️        |
-| FairFax HD     | ✅️✅️    | ∅           | ∅           | ugly          | ❌️              | ✅️         | ✅️       | ✅️     | ❌️    | ✅️   | ❓️        |
-| Iosevka        | ✅️✅️    | ✅️✅️          | ✅️           | neat          | ❌️              | ❌️         | ✅️       | ❌️     | ❌️    | ❌️   | ❓️        |
-| JetBrains Mono | ✅️✅️    | ✅️✅️          | ✅️           | neat          | ❌️              | ❌️         | ❌️       | ✅️     | ❌️    | ❌️   | ❓️        |
-| JuliaMono      | ✅️✅️    | ✅️✅️          | ✅️✅️          | ugly          | ✅️              | ✅️         | ✅️       | ✅️✅️    | ❌️    | ✅️   | ❓️        |
-| Noto Mono      | ❌️     | ✅️✅️          | ✅️           | neat          | ❌️              | ❌️         | ❌️       | ❌️     | ✅️    | ✅️   | ❓️        |
-| Unifont EX     | ✅️✅️    | ✅️✅️          | ✅️✅️          | neat          | ❌️              | ✅️         | ✅️       | ✅️✅️    | ❌️    | ✅️   | ❓️        |
+| Font           | Greek | comb.-Latin | comb.-Greek | double-struck | Latin variants | combining | bigodot | arrow | dash | sub | coverage |
+| -------------- | ----- | ----------- | ----------- | ------------- | -------------- | --------- | ------- | ----- | ---- | --- | -------- |
+| Code New Roman | ✅️    | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ❌️    | ❌️   | ✅️  | ❓️       |
+| DejaVu Mono    | ✅️✅️  | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ✅️    | ❌️   | ❌️  | ❓️       |
+| Droid Sans     | ✅️✅️  | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ✅️    | ❌️   | ❌️  | ❓️       |
+| FairFax        | ✅️✅️  | ✅️          | ✅️          | neat          | ❌️             | ✅️        | ✅️      | ✅️✅️  | ❌️   | ✅️  | ❓️       |
+| FairFax Hax HD | ✅️✅️  | ✅️          | ✅️          | ugly          | ❌️             | ✅️        | ✅️      | ✅️✅️  | ✅️   | ✅️  | ❓️       |
+| FairFax HD     | ✅️✅️  | ∅           | ∅           | ugly          | ❌️             | ✅️        | ✅️      | ✅️    | ❌️   | ✅️  | ❓️       |
+| Iosevka        | ✅️✅️  | ✅️✅️        | ✅️          | neat          | ❌️             | ❌️        | ✅️      | ❌️    | ❌️   | ❌️  | ❓️       |
+| JetBrains Mono | ✅️✅️  | ✅️✅️        | ✅️          | neat          | ❌️             | ❌️        | ❌️      | ✅️    | ❌️   | ❌️  | ❓️       |
+| JuliaMono      | ✅️✅️  | ✅️✅️        | ✅️✅️        | ugly          | ✅️             | ✅️        | ✅️      | ✅️✅️  | ❌️   | ✅️  | ❓️       |
+| Noto Mono      | ❌️    | ✅️✅️        | ✅️          | neat          | ❌️             | ❌️        | ❌️      | ❌️    | ✅️   | ✅️  | ❓️       |
+| Unifont EX     | ✅️✅️  | ✅️✅️        | ✅️✅️        | neat          | ❌️             | ✅️        | ✅️      | ✅️✅️  | ❌️   | ✅️  | ❓️       |
 
 ## Character Variants
 
-| char | bf | it | bi | tt | bb | scr | bscr | frak | bfrak |
-|---|---|---|---|---|---|---|---|---|---|
-| N | 𝐍 | 𝑁 | 𝑵 | 𝙽 | ℕ | 𝒩 | 𝓝 | 𝔑 | 𝕹 |
-| Z | 𝐙 | 𝑍 | 𝒁 | 𝚉 | ℤ | 𝒵 | 𝓩 | ℨ | 𝖅 |
-| Q | 𝐐 | 𝑄 | 𝑸 | 𝚀 | ℚ | 𝒬 | 𝓠 | 𝔔 | 𝕼 |
-| R | 𝐑 | 𝑅 | 𝑹 | 𝚁 | ℝ | ℛ | 𝓡 | ℜ | 𝕽 |
-| C | 𝐂 | 𝐶 | 𝑪 | 𝙲 | ℂ | 𝒞 | 𝓒 | ℭ | 𝕮 |
-| L | 𝐋 | 𝐿 | 𝑳 | 𝙻 | 𝕃 | ℒ | 𝓛 | 𝔏 | 𝕷 |
-| X | 𝐗 | 𝑋 | 𝑿 | 𝚇 | 𝕏 | 𝒳 | 𝓧 | 𝔛 | 𝖃 |
+| char | bf  | it  | bi  | tt  | bb  | scr | bscr | frak | bfrak |
+| ---- | --- | --- | --- | --- | --- | --- | ---- | ---- | ----- |
+| N    | 𝐍   | 𝑁   | 𝑵   | 𝙽   | ℕ   | 𝒩   | 𝓝    | 𝔑    | 𝕹     |
+| Z    | 𝐙   | 𝑍   | 𝒁   | 𝚉   | ℤ   | 𝒵   | 𝓩    | ℨ    | 𝖅     |
+| Q    | 𝐐   | 𝑄   | 𝑸   | 𝚀   | ℚ   | 𝒬   | 𝓠    | 𝔔    | 𝕼     |
+| R    | 𝐑   | 𝑅   | 𝑹   | 𝚁   | ℝ   | ℛ   | 𝓡    | ℜ    | 𝕽     |
+| C    | 𝐂   | 𝐶   | 𝑪   | 𝙲   | ℂ   | 𝒞   | 𝓒    | ℭ    | 𝕮     |
+| L    | 𝐋   | 𝐿   | 𝑳   | 𝙻   | 𝕃   | ℒ   | 𝓛    | 𝔏    | 𝕷     |
+| X    | 𝐗   | 𝑋   | 𝑿   | 𝚇   | 𝕏   | 𝒳   | 𝓧    | 𝔛    | 𝖃     |
 
 ## Test document
 

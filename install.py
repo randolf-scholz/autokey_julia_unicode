@@ -63,6 +63,10 @@ class CodePoint(str):
             raise ValueError(f"{value!r} is not a valid unicode code.")
         return super().__new__(cls, value)
 
+    @property
+    def hex(self) -> int:
+        return int(self[2:], 16)  # ruff: ignore[FURB166]
+
 
 def is_codepoint(s: object, /) -> TypeIs[CodePoint]:
     """Check whether string is a unicode-code (like U+0000A)."""
@@ -72,9 +76,9 @@ def is_codepoint(s: object, /) -> TypeIs[CodePoint]:
 
 def parse_codepoints(s: str, /) -> list[CodePoint]:
     """Parse a string of the form 'U+0000A + U+0000B' into a list of CodePoints."""
-    codepoints = [CodePoint(code.strip()) for code in s.split(" + ")]
-    # simplify code points by stripping leading zeros
-    return [CodePoint(f"U+{int(code[2:], 16):04X}") for code in codepoints]
+    codepoints: list[CodePoint] = [CodePoint(code.strip()) for code in s.split(" + ")]
+    # simplify code points by stripping leading zeros, format as U+XXXX
+    return [CodePoint(f"U+{code.hex:04X}") for code in codepoints]
 
 
 class Abbreviation(str):
@@ -327,7 +331,7 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
 
         # guard against invalid character
         if not is_glyph(char):
-            LOGGER.debug("Invalid character: %s=%s", item)
+            LOGGER.debug("Invalid character: %s=%s", item.ucode, item.char)
             skipped.append((
                 item,
                 f"Invalid character {char!r}={as_hex(char)}",
