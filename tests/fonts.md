@@ -157,6 +157,11 @@ long srarrow (U+27FF): ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
 \textsubscript{ϱ} & ᵨ & $_{ϱ}$ & $ᵨ$ & \textsuperscript{ϱ} & — & $^{ϱ}$ & $—$ \\
 ```
 
+## Latin sub- and superscripts
+
+ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ 𐞥 ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ
+ₐ – – – ₑ – – ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ – ᵣ ₛ ₜ ᵤ ᵥ ₝ ₓ ₞ ₟
+
 ## References
 
 - <https://devfonts.gafi.dev/>
