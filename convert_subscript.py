@@ -1,131 +1,94 @@
-SUBSCRIPTS: dict[str, str] = {
-    "0": "₀",
-    "1": "₁",
-    "2": "₂",
-    "3": "₃",
-    "4": "₄",
-    "5": "₅",
-    "6": "₆",
-    "7": "₇",
-    "8": "₈",
-    "9": "₉",
-    "+": "₊",
-    "-": "₋",
-    "=": "₌",
-    "(": "₍",
-    ")": "₎",
-    # lowercase letters
-    "a": "ₐ",
-    # "b": None,
-    # "c": None,
-    # "d": None,
-    "e": "ₑ",
-    # "f": None,
-    # "g": None,
-    "h": "ₕ",
-    "i": "ᵢ",
-    "j": "ⱼ",
-    "k": "ₖ",
-    "l": "ₗ",
-    "m": "ₘ",
-    "n": "ₙ",
-    "o": "ₒ",
-    "p": "ₚ",
-    # "q": None,
-    "r": "ᵣ",
-    "s": "ₛ",
-    "t": "ₜ",
-    "u": "ᵤ",
-    "v": "ᵥ",
-    "w": "₝",
-    "x": "ₓ",
-    "y": "₞",
-    "z": "₟",
-}
+from functools import partial
 
+from autokey.model.key import Key  # type: ignore
+from autokey.scripting import Engine, Keyboard  # type: ignore
 
-SUPERSCRIPTS: dict[str, str] = {
-    "0": "⁰",
-    "1": "¹",
-    "2": "²",
-    "3": "³",
-    "4": "⁴",
-    "5": "⁵",
-    "6": "⁶",
-    "7": "⁷",
-    "8": "⁸",
-    "9": "⁹",
-    "+": "⁺",
-    "-": "⁻",
-    "=": "⁼",
-    "(": "⁽",
-    ")": "⁾",
+SUBSCRIPTS: dict[str, str | None] = {
+    "0": r"₀", "1": r"₁", "2": r"₂", "3": r"₃", "4": r"₄",
+    "5": r"₅", "6": r"₆", "7": r"₇", "8": r"₈", "9": r"₉",
+    "+": r"₊", "-": r"₋", "=": r"₌", "(": r"₍", ")": r"₎",
     # lowercase letters
-    "a": "ᵃ",
-    "b": "ᵇ",
-    "c": "ᶜ",
-    "d": "ᵈ",
-    "e": "ᵉ",
-    "f": "ᶠ",
-    "g": "ᵍ",
-    "h": "ʰ",
-    "i": "ⁱ",
-    "j": "ʲ",
-    "k": "ᵏ",
-    "l": "ˡ",
-    "m": "ᵐ",
-    "n": "ⁿ",
-    "o": "ᵒ",
-    "p": "ᵖ",
-    "q": "𐞥",
-    "r": "ʳ",
-    "s": "ˢ",
-    "t": "ᵗ",
-    "u": "ᵘ",
-    "v": "ᵛ",
-    "w": "ʷ",
-    "x": "ˣ",
-    "y": "ʸ",
-    "z": "ᶻ",
+    "a": r"ₐ", "b": None, "c": None, "d": None, "e": r"ₑ",
+    "f": None, "g": None, "h": r"ₕ", "i": r"ᵢ", "j": r"ⱼ",
+    "k": r"ₖ", "l": r"ₗ", "m": r"ₘ", "n": r"ₙ", "o": r"ₒ",
+    "p": r"ₚ", "q": None, "r": r"ᵣ", "s": r"ₛ", "t": r"ₜ",
+    "u": r"ᵤ", "v": r"ᵥ", "w": r"₝", "x": r"ₓ", "y": r"₞",
+    "z": r"₟",
+}  # fmt: skip
+
+SUPERSCRIPTS: dict[str, str | None] = {
+    "0": r"⁰", "1": r"¹", "2": r"²", "3": r"³", "4": r"⁴",
+    "5": r"⁵", "6": r"⁶", "7": r"⁷", "8": r"⁸", "9": r"⁹",
+    "+": r"⁺", "-": r"⁻", "=": r"⁼", "(": r"⁽", ")": r"⁾",
+    # lowercase letters
+    "a": r"ᵃ", "b": r"ᵇ", "c": r"ᶜ", "d": r"ᵈ", "e": r"ᵉ",
+    "f": r"ᶠ", "g": r"ᵍ", "h": r"ʰ", "i": r"ⁱ", "j": r"ʲ",
+    "k": r"ᵏ", "l": r"ˡ", "m": r"ᵐ", "n": r"ⁿ", "o": r"ᵒ",
+    "p": r"ᵖ", "q": r"𐞥", "r": r"ʳ", "s": r"ˢ", "t": r"ᵗ",
+    "u": r"ᵘ", "v": r"ᵛ", "w": r"ʷ", "x": r"ˣ", "y": r"ʸ",
+    "z": r"ᶻ",
     # uppercase letters
-    "A": "ᴬ",
-    "B": "ᴮ",
-    "C": "ꟲ",
-    "D": "ᴰ",
-    "E": "ᴱ",
-    "F": "ꟳ",
-    "G": "ᴳ",
-    "H": "ᴴ",
-    "I": "ᴵ",
-    "J": "ᴶ",
-    "K": "ᴷ",
-    "L": "ᴸ",
-    "M": "ᴹ",
-    "N": "ᴺ",
-    "O": "ᴼ",
-    "P": "ᴾ",
-    "Q": "ꟴ",
-    "R": "ᴿ",
-    "S": "꟱",
-    "T": "ᵀ",
-    "U": "ᵁ",
-    "V": "ⱽ",
-    "W": "ᵂ",
-    # "X": None,
-    # "Y": None,
-    # "Z": None,
+    "A": r"ᴬ", "B": r"ᴮ", "C": r"ꟲ", "D": r"ᴰ", "E": r"ᴱ",
+    "F": r"ꟳ", "G": r"ᴳ", "H": r"ᴴ", "I": r"ᴵ", "J": r"ᴶ",
+    "K": r"ᴷ", "L": r"ᴸ", "M": r"ᴹ", "N": r"ᴺ", "O": r"ᴼ",
+    "P": r"ᴾ", "Q": r"ꟴ", "R": r"ᴿ", "S": r"꟱", "T": r"ᵀ",
+    "U": r"ᵁ", "V": r"ⱽ", "W": r"ᵂ", "X": None, "Y": None,
+    "Z": None,
+}  # fmt: skip
+
+MAX_CHARS = 10
+TIMEOUT = 10.0
+TRIGGER = {
+    r"\_{": SUBSCRIPTS,
+    r"\^{": SUPERSCRIPTS,
 }
 
 
-def to_subscript(s: str) -> str:
-    try:
-        return "".join(SUBSCRIPTS[c] for c in s)
-    except KeyError:
-        return s
+def check_keyevent(waiter, raw_key, modifiers, key, *args, chars: list[str]) -> bool:
+    if key == Key.BACKSPACE:
+        if chars:
+            chars.pop()
+            return False
+        return True
+
+    if Key.is_key(key) or not set(modifiers) <= {Key.SHIFT, Key.ALT_GR}:
+        return True
+
+    chars.append(key)
+    return key == "}" or len(chars) > MAX_CHARS
 
 
-def to_superscript(s: str) -> str:
-    try:
-        return "".join(SUPERSCRIPTS[c] for c in s)
-    except KeyError:
-        return s
+def main() -> None:
+    keyboard: Keyboard | None = globals().get("keyboard")
+    engine: Engine | None = globals().get("engine")
+    if keyboard is None or engine is None:
+        raise RuntimeError("Expected keyboard and engine globals injected by autokey.")
+
+    abbreviation, _ = engine.get_triggered_abbreviation()
+    mapping = TRIGGER.get(abbreviation)
+
+    if mapping is None:
+        raise ValueError(f"Expected one of {TRIGGER.keys()}, got {abbreviation!r}")
+
+    chars: list[str] = []  # mutated by wait_for_keyevent
+    keyboard.wait_for_keyevent(
+        partial(check_keyevent, chars=chars),
+        name="unicode-sub-super-script",
+        timeOut=TIMEOUT,
+    )
+
+    if not chars or chars.pop() != "}":
+        # TIMEOUT reached or MAX_CHARS exceeded
+        return
+
+    replacements: list[str | None] = [mapping.get(char) for char in chars]
+
+    if all(replacements):  # no None or empty strings
+        keyboard.send_key(
+            Key.BACKSPACE,
+            repeat=len(abbreviation) + len(chars) + 1,
+        )
+        keyboard.send_keys("".join(replacements))  # type: ignore
+
+
+main()
