@@ -37,6 +37,7 @@ U+0553	Փ	0530..058F	Armenian	Armenian capital letter piwr
 U+0554	Ք	0530..058F	Armenian	Armenian capital letter keh		
 U+0555	Օ	0530..058F	Armenian	Armenian capital letter oh		
 U+0556	Ֆ	0530..058F	Armenian	Armenian capital letter feh		
+U+0558	՘	0530..058F	Armenian	Modifier letter armenian small eh		
 U+0559	ՙ	0530..058F	Armenian	Armenian modifier letter left half ring		
 U+055A	՚	0530..058F	Armenian	Armenian apostrophe		
 U+055B	՛	0530..058F	Armenian	Armenian emphasis mark		
@@ -87,6 +88,8 @@ U+0587	և	0530..058F	Armenian	Armenian small ligature ech yiwn
 U+0588	ֈ	0530..058F	Armenian	Armenian small letter yi with stroke		
 U+0589	։	0530..058F	Armenian	Armenian full stop		
 U+058A	֊	0530..058F	Armenian	Armenian hyphen		
+U+058B	֋	0530..058F	Armenian	Modifier letter armenian small ini		
+U+058C	֌	0530..058F	Armenian	Modifier letter armenian small yi		
 U+058D	֍	0530..058F	Armenian	Right-facing armenian eternity sign		
 U+058E	֎	0530..058F	Armenian	Left-facing armenian eternity sign		
 U+058F	֏	0530..058F	Armenian	Armenian dram sign		

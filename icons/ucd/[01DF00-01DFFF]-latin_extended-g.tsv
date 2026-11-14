@@ -30,9 +30,160 @@ U+1DF1B	𝼛	1DF00..1DFFF	Latin Extended-G	Latin small letter o with retroflex h
 U+1DF1C	𝼜	1DF00..1DFFF	Latin Extended-G	Latin small letter tesh digraph with retroflex hook		
 U+1DF1D	𝼝	1DF00..1DFFF	Latin Extended-G	Latin small letter c with retroflex hook		
 U+1DF1E	𝼞	1DF00..1DFFF	Latin Extended-G	Latin small letter s with curl		
+U+1DF1F	𝼟	1DF00..1DFFF	Latin Extended-G	Latin small letter d-eth digraph		
+U+1DF20	𝼠	1DF00..1DFFF	Latin Extended-G	Latin small letter d-lezh digraph		
+U+1DF21	𝼡	1DF00..1DFFF	Latin Extended-G	Latin small letter d-lezh digraph with retroflex hook		
+U+1DF22	𝼢	1DF00..1DFFF	Latin Extended-G	Latin small letter tl digraph with belt		
+U+1DF23	𝼣	1DF00..1DFFF	Latin Extended-G	Latin small letter tl digraph with retroflex hook and belt		
+U+1DF24	𝼤	1DF00..1DFFF	Latin Extended-G	Latin small letter t-theta digraph		
 U+1DF25	𝼥	1DF00..1DFFF	Latin Extended-G	Latin small letter d with mid-height left hook		
 U+1DF26	𝼦	1DF00..1DFFF	Latin Extended-G	Latin small letter l with mid-height left hook		
 U+1DF27	𝼧	1DF00..1DFFF	Latin Extended-G	Latin small letter n with mid-height left hook		
 U+1DF28	𝼨	1DF00..1DFFF	Latin Extended-G	Latin small letter r with mid-height left hook		
 U+1DF29	𝼩	1DF00..1DFFF	Latin Extended-G	Latin small letter s with mid-height left hook		
 U+1DF2A	𝼪	1DF00..1DFFF	Latin Extended-G	Latin small letter t with mid-height left hook		
+U+1DF2B	𝼫	1DF00..1DFFF	Latin Extended-G	Latin small letter dezh digraph with curl		
+U+1DF2C	𝼬	1DF00..1DFFF	Latin Extended-G	Latin small letter tesh digraph with curl		
+U+1DF2D	𝼭	1DF00..1DFFF	Latin Extended-G	Latin small letter d with hook and palatal hook		
+U+1DF2E	𝼮	1DF00..1DFFF	Latin Extended-G	Latin small letter dz digraph with palatal hook		
+U+1DF2F	𝼯	1DF00..1DFFF	Latin Extended-G	Latin small letter eth with palatal hook		
+U+1DF30	𝼰	1DF00..1DFFF	Latin Extended-G	Latin letter small capital g with palatal hook		
+U+1DF31	𝼱	1DF00..1DFFF	Latin Extended-G	Latin small letter gamma with palatal hook		
+U+1DF32	𝼲	1DF00..1DFFF	Latin Extended-G	Latin small letter h with stroke and palatal hook		
+U+1DF33	𝼳	1DF00..1DFFF	Latin Extended-G	Latin small letter phi with palatal hook		
+U+1DF34	𝼴	1DF00..1DFFF	Latin Extended-G	Latin small letter q with palatal hook		
+U+1DF35	𝼵	1DF00..1DFFF	Latin Extended-G	Latin letter small capital r with palatal hook		
+U+1DF36	𝼶	1DF00..1DFFF	Latin Extended-G	Latin letter small capital inverted r with palatal hook		
+U+1DF37	𝼷	1DF00..1DFFF	Latin Extended-G	Latin small letter r with tail and palatal hook		
+U+1DF38	𝼸	1DF00..1DFFF	Latin Extended-G	Latin small letter ts digraph with palatal hook		
+U+1DF39	𝼹	1DF00..1DFFF	Latin Extended-G	Latin small letter v with hook and palatal hook		
+U+1DF3A	𝼺	1DF00..1DFFF	Latin Extended-G	Latin letter pharyngeal voiced fricative with palatal hook		
+U+1DF3B	𝼻	1DF00..1DFFF	Latin Extended-G	Latin small letter beta with palatal hook		
+U+1DF3C	𝼼	1DF00..1DFFF	Latin Extended-G	Latin small letter theta with palatal hook		
+U+1DF3D	𝼽	1DF00..1DFFF	Latin Extended-G	Latin small letter chi with palatal hook		
+U+1DF3E	𝼾	1DF00..1DFFF	Latin Extended-G	Latin small letter barred turned h		
+U+1DF3F	𝼿	1DF00..1DFFF	Latin Extended-G	Latin small letter barred w		
+U+1DF40	𝽀	1DF00..1DFFF	Latin Extended-G	Latin capital letter barred a		
+U+1DF41	𝽁	1DF00..1DFFF	Latin Extended-G	Latin small letter barred a		
+U+1DF42	𝽂	1DF00..1DFFF	Latin Extended-G	Latin small letter barred open o		
+U+1DF43	𝽃	1DF00..1DFFF	Latin Extended-G	Latin letter small capital barred e		
+U+1DF44	𝽄	1DF00..1DFFF	Latin Extended-G	Latin small letter barred open e		
+U+1DF45	𝽅	1DF00..1DFFF	Latin Extended-G	Latin small letter g with stroke and palatal hook		
+U+1DF46	𝽆	1DF00..1DFFF	Latin Extended-G	Latin small letter barred h		
+U+1DF47	𝽇	1DF00..1DFFF	Latin Extended-G	Latin small letter barred h with hook		
+U+1DF48	𝽈	1DF00..1DFFF	Latin Extended-G	Latin capital letter barred k		
+U+1DF49	𝽉	1DF00..1DFFF	Latin Extended-G	Latin small letter barred k		
+U+1DF4A	𝽊	1DF00..1DFFF	Latin Extended-G	Latin capital letter barred m		
+U+1DF4B	𝽋	1DF00..1DFFF	Latin Extended-G	Latin small letter barred m		
+U+1DF4C	𝽌	1DF00..1DFFF	Latin Extended-G	Latin small letter barred m with hook		
+U+1DF4D	𝽍	1DF00..1DFFF	Latin Extended-G	Latin capital letter barred n		
+U+1DF4E	𝽎	1DF00..1DFFF	Latin Extended-G	Latin small letter barred n		
+U+1DF4F	𝽏	1DF00..1DFFF	Latin Extended-G	Latin small letter barred eng		
+U+1DF50	𝽐	1DF00..1DFFF	Latin Extended-G	Latin small letter turned r with stroke		
+U+1DF51	𝽑	1DF00..1DFFF	Latin Extended-G	Latin capital letter barred v		
+U+1DF52	𝽒	1DF00..1DFFF	Latin Extended-G	Latin small letter barred v		
+U+1DF53	𝽓	1DF00..1DFFF	Latin Extended-G	Latin small letter barred closed omega		
+U+1DF54	𝽔	1DF00..1DFFF	Latin Extended-G	Latin small letter barred chi		
+U+1DF55	𝽕	1DF00..1DFFF	Latin Extended-G	Latin small letter y with low stroke		
+U+1DF56	𝽖	1DF00..1DFFF	Latin Extended-G	Latin letter glottal stop with double stroke		
+U+1DF57	𝽗	1DF00..1DFFF	Latin Extended-G	Latin small letter turned r with mid-height left hook		
+U+1DF58	𝽘	1DF00..1DFFF	Latin Extended-G	Latin small letter split o		
+U+1DF59	𝽙	1DF00..1DFFF	Latin Extended-G	Latin small letter split u		
+U+1DF5A	𝽚	1DF00..1DFFF	Latin Extended-G	Latin small letter half a		
+U+1DF5B	𝽛	1DF00..1DFFF	Latin Extended-G	Latin small letter stretched c-h digraph		
+U+1DF5C	𝽜	1DF00..1DFFF	Latin Extended-G	Latin small letter lunate ee		
+U+1DF5D	𝽝	1DF00..1DFFF	Latin Extended-G	Latin small letter ie		
+U+1DF5E	𝽞	1DF00..1DFFF	Latin Extended-G	Latin small letter oi digraph		
+U+1DF5F	𝽟	1DF00..1DFFF	Latin Extended-G	Latin small letter ou digraph		
+U+1DF60	𝽠	1DF00..1DFFF	Latin Extended-G	Latin small letter omega with loop		
+U+1DF61	𝽡	1DF00..1DFFF	Latin Extended-G	Latin small letter r with left tie		
+U+1DF62	𝽢	1DF00..1DFFF	Latin Extended-G	Latin small letter esh-h digraph		
+U+1DF63	𝽣	1DF00..1DFFF	Latin Extended-G	Latin small letter stretched t-h digraph		
+U+1DF64	𝽤	1DF00..1DFFF	Latin Extended-G	Latin small letter reversed t-h digraph		
+U+1DF65	𝽥	1DF00..1DFFF	Latin Extended-G	Latin small letter wh digraph		
+U+1DF66	𝽦	1DF00..1DFFF	Latin Extended-G	Latin small letter reversed z		
+U+1DF67	𝽧	1DF00..1DFFF	Latin Extended-G	Latin small letter lezh with curl		
+U+1DF68	𝽨	1DF00..1DFFF	Latin Extended-G	Latin capital letter phonotypic a with swash		
+U+1DF69	𝽩	1DF00..1DFFF	Latin Extended-G	Latin small letter phonotypic a with swash		
+U+1DF6A	𝽪	1DF00..1DFFF	Latin Extended-G	Latin capital letter phonotypic roundtop a		
+U+1DF6B	𝽫	1DF00..1DFFF	Latin Extended-G	Latin small letter phonotypic roundtop a		
+U+1DF6C	𝽬	1DF00..1DFFF	Latin Extended-G	Latin capital letter reversed scruple		
+U+1DF6D	𝽭	1DF00..1DFFF	Latin Extended-G	Latin small letter reversed scruple		
+U+1DF6E	𝽮	1DF00..1DFFF	Latin Extended-G	Latin capital letter phonotypic diphthong ai		
+U+1DF6F	𝽯	1DF00..1DFFF	Latin Extended-G	Latin small letter phonotypic diphthong ai		
+U+1DF70	𝽰	1DF00..1DFFF	Latin Extended-G	Latin small letter i with pigtail at bottom		
+U+1DF71	𝽱	1DF00..1DFFF	Latin Extended-G	Latin small letter stretched i		
+U+1DF72	𝽲	1DF00..1DFFF	Latin Extended-G	Latin capital letter o with curl		
+U+1DF73	𝽳	1DF00..1DFFF	Latin Extended-G	Latin small letter o with curl		
+U+1DF74	𝽴	1DF00..1DFFF	Latin Extended-G	Latin capital letter closed omega with long stem		
+U+1DF75	𝽵	1DF00..1DFFF	Latin Extended-G	Latin small letter closed omega with long stem		
+U+1DF76	𝽶	1DF00..1DFFF	Latin Extended-G	Latin capital letter turned closed omega		
+U+1DF77	𝽷	1DF00..1DFFF	Latin Extended-G	Latin small letter turned closed omega		
+U+1DF78	𝽸	1DF00..1DFFF	Latin Extended-G	Latin capital letter phonotypic th		
+U+1DF79	𝽹	1DF00..1DFFF	Latin Extended-G	Latin small letter phonotypic th		
+U+1DF7A	𝽺	1DF00..1DFFF	Latin Extended-G	Latin capital letter u with hook tail		
+U+1DF7B	𝽻	1DF00..1DFFF	Latin Extended-G	Latin small letter u with hook tail		
+U+1DF7C	𝽼	1DF00..1DFFF	Latin Extended-G	Latin capital letter u with notch at bottom		
+U+1DF7D	𝽽	1DF00..1DFFF	Latin Extended-G	Latin small letter u with notch at bottom		
+U+1DF7E	𝽾	1DF00..1DFFF	Latin Extended-G	Latin capital letter reversed u		
+U+1DF7F	𝽿	1DF00..1DFFF	Latin Extended-G	Latin small letter reversed u		
+U+1DF80	𝾀	1DF00..1DFFF	Latin Extended-G	Latin capital letter a with topbar		
+U+1DF81	𝾁	1DF00..1DFFF	Latin Extended-G	Latin capital letter e with bent topbar		
+U+1DF90	𝾐	1DF00..1DFFF	Latin Extended-G	Latin small letter c with low slash		
+U+1DF91	𝾑	1DF00..1DFFF	Latin Extended-G	Latin small letter c with looped cedilla		
+U+1DF92	𝾒	1DF00..1DFFF	Latin Extended-G	Latin small letter c with right loop		
+U+1DF93	𝾓	1DF00..1DFFF	Latin Extended-G	Latin small letter d rotunda with descending crossing loop		
+U+1DF94	𝾔	1DF00..1DFFF	Latin Extended-G	Latin small letter r rotunda with loop		
+U+1DF95	𝾕	1DF00..1DFFF	Latin Extended-G	Latin small ligature long s with descender s		
+U+1DF96	𝾖	1DF00..1DFFF	Latin Extended-G	Latin small letter long s with top loop		
+U+1DFCD	𝿍	1DF00..1DFFF	Latin Extended-G	Modifier letter small turned r with mid-height left hook		
+U+1DFCE	𝿎	1DF00..1DFFF	Latin Extended-G	Modifier letter small split o		
+U+1DFCF	𝿏	1DF00..1DFFF	Latin Extended-G	Modifier letter small split u		
+U+1DFD0	𝿐	1DF00..1DFFF	Latin Extended-G	Latin subscript small letter gamma		
+U+1DFD1	𝿑	1DF00..1DFFF	Latin Extended-G	Modifier letter small capital p		
+U+1DFD2	𝿒	1DF00..1DFFF	Latin Extended-G	Modifier letter small b with stroke		
+U+1DFD3	𝿓	1DF00..1DFFF	Latin Extended-G	Modifier letter small d with stroke		
+U+1DFD4	𝿔	1DF00..1DFFF	Latin Extended-G	Modifier letter small g with stroke		
+U+1DFD5	𝿕	1DF00..1DFFF	Latin Extended-G	Modifier letter small l with stroke		
+U+1DFD6	𝿖	1DF00..1DFFF	Latin Extended-G	Modifier letter small l with bar		
+U+1DFD7	𝿗	1DF00..1DFFF	Latin Extended-G	Modifier letter small turned r with stroke		
+U+1DFD8	𝿘	1DF00..1DFFF	Latin Extended-G	Modifier letter small barred turned h		
+U+1DFD9	𝿙	1DF00..1DFFF	Latin Extended-G	Modifier letter small j with stroke		
+U+1DFDA	𝿚	1DF00..1DFFF	Latin Extended-G	Modifier letter small upsilon with stroke		
+U+1DFDB	𝿛	1DF00..1DFFF	Latin Extended-G	Modifier letter small barred w		
+U+1DFDC	𝿜	1DF00..1DFFF	Latin Extended-G	Modifier letter small n with long right leg		
+U+1DFDD	𝿝	1DF00..1DFFF	Latin Extended-G	Modifier letter small r with long leg		
+U+1DFDE	𝿞	1DF00..1DFFF	Latin Extended-G	Modifier letter small db digraph		
+U+1DFDF	𝿟	1DF00..1DFFF	Latin Extended-G	Modifier letter small qp digraph		
+U+1DFE0	𝿠	1DF00..1DFFF	Latin Extended-G	Modifier letter small dezh digraph with curl		
+U+1DFE1	𝿡	1DF00..1DFFF	Latin Extended-G	Modifier letter small dezh digraph with retroflex hook		
+U+1DFE2	𝿢	1DF00..1DFFF	Latin Extended-G	Modifier letter small esh with curl		
+U+1DFE3	𝿣	1DF00..1DFFF	Latin Extended-G	Modifier letter small esh with retroflex hook		
+U+1DFE4	𝿤	1DF00..1DFFF	Latin Extended-G	Modifier letter small tesh digraph with curl		
+U+1DFE5	𝿥	1DF00..1DFFF	Latin Extended-G	Modifier letter small tesh digraph with retroflex hook		
+U+1DFE6	𝿦	1DF00..1DFFF	Latin Extended-G	Modifier letter small ezh with curl		
+U+1DFE7	𝿧	1DF00..1DFFF	Latin Extended-G	Modifier letter small ezh with retroflex hook		
+U+1DFE8	𝿨	1DF00..1DFFF	Latin Extended-G	Modifier letter small capital d		
+U+1DFE9	𝿩	1DF00..1DFFF	Latin Extended-G	Modifier letter small capital a		
+U+1DFEA	𝿪	1DF00..1DFFF	Latin Extended-G	Modifier letter small capital e		
+U+1DFEB	𝿫	1DF00..1DFFF	Latin Extended-G	Modifier letter small reversed r with fishhook		
+U+1DFEC	𝿬	1DF00..1DFFF	Latin Extended-G	Modifier letter small squat reversed esh		
+U+1DFED	𝿭	1DF00..1DFFF	Latin Extended-G	Modifier letter small turned h with fishhook		
+U+1DFEE	𝿮	1DF00..1DFFF	Latin Extended-G	Modifier letter small turned h with fishhook and tail		
+U+1DFEF	𝿯	1DF00..1DFFF	Latin Extended-G	Modifier letter small d with curl		
+U+1DFF0	𝿰	1DF00..1DFFF	Latin Extended-G	Modifier letter small l with curl		
+U+1DFF1	𝿱	1DF00..1DFFF	Latin Extended-G	Modifier letter small n with curl		
+U+1DFF2	𝿲	1DF00..1DFFF	Latin Extended-G	Modifier letter small t with curl		
+U+1DFF3	𝿳	1DF00..1DFFF	Latin Extended-G	Modifier letter small greek psi		
+U+1DFF4	𝿴	1DF00..1DFFF	Latin Extended-G	Modifier letter small greek omega		
+U+1DFF5	𝿵	1DF00..1DFFF	Latin Extended-G	Modifier letter small d with palatal hook		
+U+1DFF6	𝿶	1DF00..1DFFF	Latin Extended-G	Modifier letter small h with palatal hook		
+U+1DFF7	𝿷	1DF00..1DFFF	Latin Extended-G	Modifier letter small n with palatal hook		
+U+1DFF8	𝿸	1DF00..1DFFF	Latin Extended-G	Modifier letter small s with palatal hook		
+U+1DFF9	𝿹	1DF00..1DFFF	Latin Extended-G	Modifier letter small z with palatal hook		
+U+1DFFA	𝿺	1DF00..1DFFF	Latin Extended-G	Modifier letter small c with hook		
+U+1DFFB	𝿻	1DF00..1DFFF	Latin Extended-G	Modifier letter small k with hook		
+U+1DFFC	𝿼	1DF00..1DFFF	Latin Extended-G	Modifier letter small p with hook		
+U+1DFFD	𝿽	1DF00..1DFFF	Latin Extended-G	Modifier letter small q with hook		
+U+1DFFE	𝿾	1DF00..1DFFF	Latin Extended-G	Modifier letter small t with hook		
+U+1DFFF	𝿿	1DF00..1DFFF	Latin Extended-G	Modifier letter small t with hook and retroflex hook		

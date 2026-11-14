@@ -38,6 +38,8 @@ U+1D123	𝄣	1D100..1D1FF	Musical Symbols	Musical symbol f clef ottava alta
 U+1D124	𝄤	1D100..1D1FF	Musical Symbols	Musical symbol f clef ottava bassa		
 U+1D125	𝄥	1D100..1D1FF	Musical Symbols	Musical symbol drum clef-1		
 U+1D126	𝄦	1D100..1D1FF	Musical Symbols	Musical symbol drum clef-2		
+U+1D127	𝄧	1D100..1D1FF	Musical Symbols	Musical symbol combining stress		
+U+1D128	𝄨	1D100..1D1FF	Musical Symbols	Musical symbol combining unstress		
 U+1D129	𝄩	1D100..1D1FF	Musical Symbols	Musical symbol multiple measure rest		
 U+1D12A	𝄪	1D100..1D1FF	Musical Symbols	Musical symbol double sharp		
 U+1D12B	𝄫	1D100..1D1FF	Musical Symbols	Musical symbol double flat		
@@ -232,3 +234,24 @@ U+1D1E7	𝇧	1D100..1D1FF	Musical Symbols	Musical symbol kievan eighth note stem
 U+1D1E8	𝇨	1D100..1D1FF	Musical Symbols	Musical symbol kievan flat sign		
 U+1D1E9	𝇩	1D100..1D1FF	Musical Symbols	Musical symbol sori		
 U+1D1EA	𝇪	1D100..1D1FF	Musical Symbols	Musical symbol koron		
+U+1D1EB	𝇫	1D100..1D1FF	Musical Symbols	Musical symbol half sharp		
+U+1D1EC	𝇬	1D100..1D1FF	Musical Symbols	Musical symbol one and a half sharp		
+U+1D1ED	𝇭	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat		
+U+1D1EE	𝇮	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat and flat		
+U+1D1EF	𝇯	1D100..1D1FF	Musical Symbols	Musical symbol half sharp up		
+U+1D1F0	𝇰	1D100..1D1FF	Musical Symbols	Musical symbol half sharp down		
+U+1D1F1	𝇱	1D100..1D1FF	Musical Symbols	Musical symbol one and a half sharp up		
+U+1D1F2	𝇲	1D100..1D1FF	Musical Symbols	Musical symbol one and a half sharp down		
+U+1D1F3	𝇳	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat up		
+U+1D1F4	𝇴	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat down		
+U+1D1F5	𝇵	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat and flat up		
+U+1D1F6	𝇶	1D100..1D1FF	Musical Symbols	Musical symbol reversed flat and flat down		
+U+1D1F7	𝇷	1D100..1D1FF	Musical Symbols	Musical symbol digit two with stroke		
+U+1D1F8	𝇸	1D100..1D1FF	Musical Symbols	Musical symbol digit four with stroke		
+U+1D1F9	𝇹	1D100..1D1FF	Musical Symbols	Musical symbol digit five with stroke		
+U+1D1FA	𝇺	1D100..1D1FF	Musical Symbols	Musical symbol digit six with stroke		
+U+1D1FB	𝇻	1D100..1D1FF	Musical Symbols	Musical symbol digit seven with stroke		
+U+1D1FC	𝇼	1D100..1D1FF	Musical Symbols	Musical symbol digit nine with stroke		
+U+1D1FD	𝇽	1D100..1D1FF	Musical Symbols	Musical symbol digit five with low stroke		
+U+1D1FE	𝇾	1D100..1D1FF	Musical Symbols	Musical symbol digit seven with low stroke		
+U+1D1FF	𝇿	1D100..1D1FF	Musical Symbols	Musical symbol longa rest		

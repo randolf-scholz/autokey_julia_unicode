@@ -114,6 +114,22 @@ U+FBBF	﮿	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol ring
 U+FBC0	﯀	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah above		
 U+FBC1	﯁	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol small tah below		
 U+FBC2	﯂	FB50..FDFF	Arabic Presentation Forms-A	Arabic symbol wasla above		
+U+FBC3	﯃	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature jalla wa-alaa		
+U+FBC4	﯄	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature daamat barakaatuhum		
+U+FBC5	﯅	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahmatu allaahi taaalaa alayh		
+U+FBC6	﯆	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahmatu allaahi alayhim		
+U+FBC7	﯇	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahmatu allaahi alayhimaa		
+U+FBC8	﯈	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahum allaahu taaalaa		
+U+FBC9	﯉	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahumaa allaah		
+U+FBCA	﯊	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahumaa allaahu taaalaa		
+U+FBCB	﯋	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu taaalaa anhum		
+U+FBCC	﯌	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hafizahu allaah		
+U+FBCD	﯍	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hafizahu allaahu taaalaa		
+U+FBCE	﯎	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hafizahum allaahu taaalaa		
+U+FBCF	﯏	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature hafizahumaa allaahu taaalaa		
+U+FBD0	﯐	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallaahu taaalaa alayhi wa-sallam		
+U+FBD1	﯑	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ajjal allaahu farajahu ash-shareef		
+U+FBD2	﯒	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature alayhi ar-rahmah		
 U+FBD3	ﯓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng isolated form		
 U+FBD4	ﯔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng final form		
 U+FBD5	ﯕ	FB50..FDFF	Arabic Presentation Forms-A	Arabic letter ng initial form		
@@ -559,6 +575,8 @@ U+FD8C	ﶌ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem
 U+FD8D	ﶍ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with meem initial form		
 U+FD8E	ﶎ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with jeem initial form		
 U+FD8F	ﶏ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with khah with meem initial form		
+U+FD90	﶐	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahmatu allaahi alayh		
+U+FD91	﶑	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahmatu allaahi alayhaa		
 U+FD92	ﶒ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature meem with jeem with khah initial form		
 U+FD93	ﶓ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with jeem initial form		
 U+FD94	ﶔ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature heh with meem with meem initial form		
@@ -613,6 +631,13 @@ U+FDC4	ﷄ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ain with jeem 
 U+FDC5	ﷅ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sad with meem with meem initial form		
 U+FDC6	ﷆ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature seen with khah with yeh final form		
 U+FDC7	ﷇ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature noon with jeem with yeh final form		
+U+FDC8	﷈	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature rahimahu allaah taaalaa		
+U+FDC9	﷉	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu taaalaa anh		
+U+FDCA	﷊	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu taaalaa anhaa		
+U+FDCB	﷋	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature radi allaahu taaalaa anhumaa		
+U+FDCC	﷌	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature sallallahu alayhi wa-alaa aalihee wa-sallam		
+U+FDCD	﷍	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature ajjal allaahu taaalaa farajahu ash-shareef		
+U+FDCE	﷎	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature karrama allaahu wajhah		
 U+FDCF	﷏	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salaamuhu alaynaa		
 U+FDF0	ﷰ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature salla used as koranic stop sign isolated form		
 U+FDF1	ﷱ	FB50..FDFF	Arabic Presentation Forms-A	Arabic ligature qala used as koranic stop sign isolated form		

@@ -28,6 +28,7 @@ U+208B	₋	2070..209F	Superscripts and Subscripts	Subscript minus
 U+208C	₌	2070..209F	Superscripts and Subscripts	Subscript equals sign		
 U+208D	₍	2070..209F	Superscripts and Subscripts	Subscript left parenthesis		
 U+208E	₎	2070..209F	Superscripts and Subscripts	Subscript right parenthesis		
+U+208F	₏	2070..209F	Superscripts and Subscripts	Modifier letter high and low vertical line		
 U+2090	ₐ	2070..209F	Superscripts and Subscripts	Latin subscript small letter a		
 U+2091	ₑ	2070..209F	Superscripts and Subscripts	Latin subscript small letter e		
 U+2092	ₒ	2070..209F	Superscripts and Subscripts	Latin subscript small letter o		
@@ -41,3 +42,6 @@ U+2099	ₙ	2070..209F	Superscripts and Subscripts	Latin subscript small letter n
 U+209A	ₚ	2070..209F	Superscripts and Subscripts	Latin subscript small letter p		
 U+209B	ₛ	2070..209F	Superscripts and Subscripts	Latin subscript small letter s		
 U+209C	ₜ	2070..209F	Superscripts and Subscripts	Latin subscript small letter t		
+U+209D	₝	2070..209F	Superscripts and Subscripts	Latin subscript small letter w		
+U+209E	₞	2070..209F	Superscripts and Subscripts	Latin subscript small letter y		
+U+209F	₟	2070..209F	Superscripts and Subscripts	Latin subscript small letter z		

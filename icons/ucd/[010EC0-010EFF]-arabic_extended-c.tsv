@@ -1,4 +1,61 @@
 code_point	symbol	block	block_name	name	tab_completion	latex_code
+U+10EC2	𐻂	10EC0..10EFF	Arabic Extended-C	Arabic letter dal with two dots vertically below		
+U+10EC3	𐻃	10EC0..10EFF	Arabic Extended-C	Arabic letter tah with two dots vertically below		
+U+10EC4	𐻄	10EC0..10EFF	Arabic Extended-C	Arabic letter kaf with two dots vertically below		
+U+10EC5	𐻅	10EC0..10EFF	Arabic Extended-C	Arabic small yeh barree with two dots below		
+U+10EC6	𐻆	10EC0..10EFF	Arabic Extended-C	Arabic letter thin noon		
+U+10EC7	𐻇	10EC0..10EFF	Arabic Extended-C	Arabic letter yeh with four dots below		
+U+10EC9	𐻉	10EC0..10EFF	Arabic Extended-C	Arabic small baseline fatha		
+U+10ECA	𐻊	10EC0..10EFF	Arabic Extended-C	Arabic small baseline dotless head of khah		
+U+10ECB	𐻋	10EC0..10EFF	Arabic Extended-C	Arabic northeast pointing arrowhead above		
+U+10ECC	𐻌	10EC0..10EFF	Arabic Extended-C	Arabic northeast pointing arrowhead below		
+U+10ECD	𐻍	10EC0..10EFF	Arabic Extended-C	Arabic southwest pointing arrowhead below		
+U+10ECE	𐻎	10EC0..10EFF	Arabic Extended-C	Arabic small circle above		
+U+10ECF	𐻏	10EC0..10EFF	Arabic Extended-C	Arabic large circle above		
+U+10ED0	𐻐	10EC0..10EFF	Arabic Extended-C	Arabic biblical end of verse		
+U+10ED1	𐻑	10EC0..10EFF	Arabic Extended-C	Arabic ligature alayhaa as-salaatu was-salaam		
+U+10ED2	𐻒	10EC0..10EFF	Arabic Extended-C	Arabic ligature alayhim as-salaatu was-salaam		
+U+10ED3	𐻓	10EC0..10EFF	Arabic Extended-C	Arabic ligature alayhimaa as-salaatu was-salaam		
+U+10ED4	𐻔	10EC0..10EFF	Arabic Extended-C	Arabic ligature qaddasa allaahu sirrah		
+U+10ED5	𐻕	10EC0..10EFF	Arabic Extended-C	Arabic ligature quddisa sirruhum		
+U+10ED6	𐻖	10EC0..10EFF	Arabic Extended-C	Arabic ligature quddisa sirruhumaa		
+U+10ED7	𐻗	10EC0..10EFF	Arabic Extended-C	Arabic ligature quddisat asraaruhum		
+U+10ED8	𐻘	10EC0..10EFF	Arabic Extended-C	Arabic ligature nawwara allaahu marqadah		
+U+10ED9	𐻙	10EC0..10EFF	Arabic Extended-C	Arabic crown letter beh		
+U+10EDA	𐻚	10EC0..10EFF	Arabic Extended-C	Arabic crown letter peh		
+U+10EDB	𐻛	10EC0..10EFF	Arabic Extended-C	Arabic crown letter teh		
+U+10EDC	𐻜	10EC0..10EFF	Arabic Extended-C	Arabic crown letter theh		
+U+10EDD	𐻝	10EC0..10EFF	Arabic Extended-C	Arabic crown letter jeem		
+U+10EDE	𐻞	10EC0..10EFF	Arabic Extended-C	Arabic crown letter hah		
+U+10EDF	𐻟	10EC0..10EFF	Arabic Extended-C	Arabic crown letter khah		
+U+10EE0	𐻠	10EC0..10EFF	Arabic Extended-C	Arabic crown letter seen		
+U+10EE1	𐻡	10EC0..10EFF	Arabic Extended-C	Arabic crown letter sheen		
+U+10EE2	𐻢	10EC0..10EFF	Arabic Extended-C	Arabic crown letter sad		
+U+10EE3	𐻣	10EC0..10EFF	Arabic Extended-C	Arabic crown letter dad		
+U+10EE4	𐻤	10EC0..10EFF	Arabic Extended-C	Arabic crown letter tah		
+U+10EE5	𐻥	10EC0..10EFF	Arabic Extended-C	Arabic crown letter zah		
+U+10EE6	𐻦	10EC0..10EFF	Arabic Extended-C	Arabic crown letter ain		
+U+10EE7	𐻧	10EC0..10EFF	Arabic Extended-C	Arabic crown letter ghain		
+U+10EE8	𐻨	10EC0..10EFF	Arabic Extended-C	Arabic crown letter feh		
+U+10EE9	𐻩	10EC0..10EFF	Arabic Extended-C	Arabic crown letter qaf		
+U+10EEA	𐻪	10EC0..10EFF	Arabic Extended-C	Arabic crown letter kaf		
+U+10EEB	𐻫	10EC0..10EFF	Arabic Extended-C	Arabic crown letter meem		
+U+10EEC	𐻬	10EC0..10EFF	Arabic Extended-C	Arabic crown letter noon		
+U+10EED	𐻭	10EC0..10EFF	Arabic Extended-C	Arabic crown letter heh		
+U+10EEE	𐻮	10EC0..10EFF	Arabic Extended-C	Arabic crown letter yeh		
+U+10EF0	𐻰	10EC0..10EFF	Arabic Extended-C	Arabic small low upright rectangular zero		
+U+10EF1	𐻱	10EC0..10EFF	Arabic Extended-C	Arabic square below		
+U+10EF2	𐻲	10EC0..10EFF	Arabic Extended-C	Arabic filled square below		
+U+10EF3	𐻳	10EC0..10EFF	Arabic Extended-C	Arabic small high noon with fatha		
+U+10EF4	𐻴	10EC0..10EFF	Arabic Extended-C	Arabic small low noon with fatha		
+U+10EF5	𐻵	10EC0..10EFF	Arabic Extended-C	Arabic small high noon with damma		
+U+10EF6	𐻶	10EC0..10EFF	Arabic Extended-C	Arabic small low noon with damma		
+U+10EF7	𐻷	10EC0..10EFF	Arabic Extended-C	Arabic small high heh initial form		
+U+10EF8	𐻸	10EC0..10EFF	Arabic Extended-C	Arabic small high word kabbir		
+U+10EF9	𐻹	10EC0..10EFF	Arabic Extended-C	Arabic mark crown		
+U+10EFA	𐻺	10EC0..10EFF	Arabic Extended-C	Arabic double vertical bar below		
+U+10EFB	𐻻	10EC0..10EFF	Arabic Extended-C	Arabic small low noon		
+U+10EFC	𐻼	10EC0..10EFF	Arabic Extended-C	Arabic combining alef overlay		
 U+10EFD	𐻽	10EC0..10EFF	Arabic Extended-C	Arabic small low word sakta		
 U+10EFE	𐻾	10EC0..10EFF	Arabic Extended-C	Arabic small low word qasr		
 U+10EFF	𐻿	10EC0..10EFF	Arabic Extended-C	Arabic small low word madda		
