@@ -2,35 +2,47 @@
 # See https://prek.j178.dev for more information.
 #:schema https://www.schemastore.org/prek.json
 
-exclude = '(\.git/|\.venv/|\.idea/|third_party/|experimental/)'
-minimum_prek_version = "0.5.1"
-default_language_version = { python = "3.14", node = "24.13.0" }
+exclude = '\.idea/|\.vscode/|third_party/|experimental/'
+minimum_prek_version = "0.5.10"
+fail_fast = false
+update.cooldown_days = 7
+default_language_version = { python = "3.15", node = "26.13.0" }
 
 [[repos]]
 repo = "builtin"
 hooks = [
-  { id = "trailing-whitespace", exclude_types = ["tsv"] },
-  { id = "check-added-large-files" },
-  { id = "check-case-conflict" },
-  { id = "check-illegal-windows-names" },
-  { id = "end-of-file-fixer" },
-  { id = "file-contents-sorter" },
-  { id = "fix-byte-order-marker" },
-  { id = "check-json" },
-  { id = "check-json5" },
-  # { id = "pretty-format-json" },
-  { id = "check-toml" },
-  { id = "check-vcs-permalinks" },
-  { id = "check-yaml" },
-  { id = "check-xml" },
-  { id = "mixed-line-ending" },
-  { id = "check-symlinks" },
-  { id = "destroyed-symlinks" },
-  { id = "check-merge-conflict" },
-  { id = "detect-private-key" },
-  # { id = "no-commit-to-branch" },
-  { id = "check-shebang-scripts-are-executable" },
-  { id = "check-executables-have-shebangs" }
+    { id = "trailing-whitespace", exclude_types = ["tsv"] },
+    { id = "check-added-large-files" },
+    { id = "check-case-conflict" },
+    { id = "check-illegal-windows-names" },
+    { id = "end-of-file-fixer" },
+    { id = "file-contents-sorter" },
+    { id = "fix-byte-order-marker" },
+    # { id = "forbid-new-submodules" },
+    { id = "check-json" },
+    { id = "check-json5" },
+    { id = "check-jsonc" },
+    # { id = "pretty-format-json" },
+    { id = "check-toml" },
+    { id = "check-vcs-permalinks" },
+    { id = "check-yaml" },
+    { id = "check-xml" },
+    # { id = "deny-filename-pattern" },
+    # { id = "deny-pattern" },
+    # { id = "replace-pattern" },
+    # { id = "require-filename-pattern" },
+    # { id = "require-pattern" },
+    { id = "mixed-line-ending" },
+    # { id = "normalize-indentation" },
+    { id = "check-symlinks" },
+    { id = "destroyed-symlinks" },
+    { id = "check-merge-conflict" },
+    { id = "detect-private-key" },
+    # { id = "no-commit-to-branch" },
+    # { id = "check-signed-commit" },
+    # { id = "check-commit-trailers" },
+    { id = "check-executables-have-shebangs" },
+    { id = "check-shebang-scripts-are-executable" },
 ]
 
 [[repos]]
@@ -40,34 +52,51 @@ hooks = [{ id = "nbstripout-fast" }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
-rev = "v0.16.8"
+rev = "v0.17.4"
 hooks = [
-  { id = "ruff", args = ["--output-format", "concise"] },
-  { id = "ruff", name = "ruff-isort", args = ["--select", "I", "--fix"] },
-  { id = "ruff-format", args = ["--preview"] },
+    {
+        id = "ruff-check",
+        name = "ruff isort",
+        files = "^src/|^tests/",
+        args = ["--select", "I", "--fix"],
+    },
+    { id = "ruff-format", files = "^src/|^tests/" },
+    { id = "ruff-check", files = "^src/|^tests/" },
 ]
 
-[[repos]]
-repo = "https://github.com/RobertCraigie/pyright-python"
-rev = "v1.1.414"
-hooks = [{ id = "pyright" }]
+
 
 [[repos]]
 repo = "https://github.com/igorshubovych/markdownlint-cli"
-rev = "v0.49.1"
+rev = "v0.50.0"
 hooks = [
-  {
-    id = "markdownlint",
-    args = ["--disable", "MD013", "MD033", "MD060", "--"],
-  }
+    {
+        id = "markdownlint",
+        args = ["--disable", "MD013", "MD033", "MD010", "--"],
+    },
 ]
 
 [[repos]]
-repo = "https://github.com/shellcheck-py/shellcheck-py"
-rev = "v0.11.0.1-1"
+repo = "https://github.com/koalaman/shellcheck-precommit"
+rev = "v0.11.0"
 hooks = [
-  {
-    id = "shellcheck",
-    args = ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"],
-  },
+    {
+        id = "shellcheck",
+        args = ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"],
+    },
+]
+
+[[repos]]
+repo = "local"
+hooks = [
+    {
+        id = "pyrefly",
+        name = "pyrefly",
+        language = "system",
+        require_serial = true,
+        types_or = ["python", "pyi"],
+        files = "^src/|^tests/",
+        entry = "pyrefly",
+        args = ["check", "--output-format=min-text", "--"],
+    },
 ]
