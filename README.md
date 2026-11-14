@@ -84,11 +84,11 @@ To create single characters of the given alphabet, simply type `\<modifier><char
 
 | family      | `\^<>` | `\_<>` | `\o<>` | `\(<>)` | `\sc<>` | `\fw<>` |
 |-------------|--------|--------|--------|---------|---------|---------|
-| Latin upper | ᴵᴶᴷ    | —      | ⒶⒷⒸ    | —       | ᴀʙᴄᴅ    | ＡＢＣ   |
-| Latin lower | ⁱʲᵏ    | ᵢⱼₖ    | ⓐⓑⓒ    | ⒜⒝⒞     | —       | ａｂｃ   |
+| Latin upper | ᴵᴶᴷ    | —      | ⒶⒷⒸ    | —       | ᴀʙᴄᴅ    | ＡＢＣ  |
+| Latin lower | ⁱʲᵏ    | ᵢⱼₖ    | ⓐⓑⓒ    | ⒜⒝⒞     | —       | ａｂｃ  |
 | Greek upper | —      | —      | —      | —       | —       | —       |
 | Greek lower | ᵝᵞᵠ    | ᵦᵧᵩ    | —      | —       | —       | —       |
-| Digits      | ⁰¹²    | ₀₁₂    | ⓪①②    | ⑴⑵⑶     | —       | ０１２   |
+| Digits      | ⁰¹²    | ₀₁₂    | ⓪①②    | ⑴⑵⑶     | —       | ０１２  |
 
 Note: Generally here not all characters are available:
 
