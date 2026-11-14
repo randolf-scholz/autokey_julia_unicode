@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Import Unicode data: ``python src/import_ucd.py --version 18``.
+"""Import Unicode data with ``python src/import_ucd.py --version 18``.
 
-Versions 17 and 18 have dedicated entry points. Other versions use the current
-download layout through ``import_latest``, while still requesting that version.
-Only ``latest`` resolves to the most recent release. The license is downloaded
-from Unicode's current license URL, independently of the selected data version.
+Download and validate the selected release into third_party/ucd.
+Resolve "latest" before downloading release files. Download the license
+independently from Unicode's current license URL.
 """
 
 import argparse
@@ -17,6 +16,9 @@ from urllib.request import urlopen
 UNICODE_URL = "https://www.unicode.org"
 UCD_DIR = Path(__file__).resolve().parents[1] / "third_party" / "ucd"
 UCD_FILENAMES = ("Blocks.txt", "ReadMe.txt", "UnicodeData.txt")
+UNICODE_DATA_FIELD_COUNT = 15
+MAX_CODE_POINT = 0x10FFFF
+DOWNLOAD_TIMEOUT_SECONDS = 30
 
 
 def normalize_version(version: str) -> str:
@@ -33,7 +35,7 @@ def normalize_version(version: str) -> str:
 def download(url: str) -> bytes:
     """Download a file, raising on HTTP errors, timeouts, or empty responses."""
     print(f"Downloading {url}", flush=True)
-    with urlopen(url, timeout=30) as response:
+    with urlopen(url, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:
         data = response.read()
     if not data:
         raise ValueError(f"Empty response from {url}")
@@ -51,34 +53,41 @@ def read_version(readme: bytes) -> str:
 
 def validate_files(files: dict[str, bytes], version: str) -> None:
     """Check file formats and release headers before overwriting local data."""
+    # Confirm the downloaded README identifies the requested release.
     actual_version = read_version(files["ReadMe.txt"])
     if actual_version != version:
         raise ValueError(f"Requested Unicode {version}, received {actual_version}")
 
+    # The current license is independent of the requested Unicode version.
     license_text = files["LICENSE"].decode("utf-8")
     if not license_text.startswith("UNICODE LICENSE V"):
         raise ValueError("The downloaded LICENSE is not a Unicode license")
 
+    # Check the release header and named, inclusive hexadecimal block ranges.
     blocks = files["Blocks.txt"].decode("utf-8")
     if not blocks.startswith(f"# Blocks-{version}.txt"):
         raise ValueError(f"Blocks.txt does not identify Unicode {version}")
     block_rows = [
         line for line in blocks.splitlines() if line and not line.startswith("#")
     ]
-    if not block_rows or any(
-        re.fullmatch(r"[0-9A-F]{4,6}\.\.[0-9A-F]{4,6};\s*\S.*", row) is None
-        for row in block_rows
-    ):
-        raise ValueError("Invalid block ranges in Blocks.txt")
+    if not block_rows:
+        raise ValueError("Blocks.txt contains no block ranges")
+    for row in block_rows:
+        code_range, name = (field.strip() for field in row.split(";"))
+        start, end = (int(bound, 16) for bound in code_range.split(".."))
+        if not name or not 0 <= start <= end <= MAX_CODE_POINT:
+            raise ValueError("Invalid block range in Blocks.txt")
 
+    # UnicodeData has no release header; check record structure and bounds instead.
     rows = files["UnicodeData.txt"].decode("utf-8").splitlines()
     if not rows:
         raise ValueError("UnicodeData.txt contains no records")
     for number, row in enumerate(rows, start=1):
         fields = row.split(";")
-        if len(fields) != 15 or re.fullmatch(r"[0-9A-F]{4,6}", fields[0]) is None:
+        if len(fields) != UNICODE_DATA_FIELD_COUNT:
             raise ValueError(f"Invalid UnicodeData.txt record on line {number}")
-        if int(fields[0], 16) > 0x10FFFF:
+        point = int(fields[0], 16)
+        if not 0 <= point <= MAX_CODE_POINT:
             raise ValueError(f"Invalid Unicode code point on line {number}")
 
 
@@ -93,48 +102,26 @@ def import_release(version: str, destination: Path) -> str:
     validate_files(files, version)
 
     destination = destination.resolve()
-    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(prefix=".ucd-", dir=destination.parent) as staging:
         staging_dir = Path(staging)
         for name, data in files.items():
             (staging_dir / name).write_bytes(data)
-        destination.mkdir(exist_ok=True)
         for name in files:
             (staging_dir / name).replace(destination / name)
+
     print(f"Imported Unicode {version} into {destination}")
     return version
 
 
-def import_v17(destination: Path = UCD_DIR) -> str:
-    """Import the Unicode 17.0.0 release."""
-    return import_release("17.0.0", destination)
-
-
-def import_v18(destination: Path = UCD_DIR) -> str:
-    """Import the Unicode 18.0.0 release."""
-    return import_release("18.0.0", destination)
-
-
-def import_latest(version: str = "latest", destination: Path = UCD_DIR) -> str:
-    """Use the current download layout for the latest or a specified release."""
+def import_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
+    """Import the requested release, resolving latest to a fixed version first."""
     version = normalize_version(version)
     if version == "latest":
         readme = download(f"{UNICODE_URL}/Public/UCD/latest/ucd/ReadMe.txt")
         # Pin the resolved release so a change to latest cannot mix versions.
         version = read_version(readme)
     return import_release(version, destination)
-
-
-def import_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
-    """Dispatch known releases and fall back to the generic importer."""
-    version = normalize_version(version)
-    match version:
-        case "17.0.0":
-            return import_v17(destination)
-        case "18.0.0":
-            return import_v18(destination)
-        case _:
-            return import_latest(version, destination)
 
 
 def main() -> None:
