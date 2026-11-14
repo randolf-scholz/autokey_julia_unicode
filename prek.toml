@@ -2,7 +2,7 @@
 # See https://prek.j178.dev for more information.
 #:schema https://www.schemastore.org/prek.json
 
-exclude = '\.idea/|\.vscode/|third_party/|experimental/'
+exclude = '\.idea/|\.vscode/|third_party/'
 minimum_prek_version = "0.5.10"
 fail_fast = false
 update.cooldown_days = 7
@@ -44,11 +44,6 @@ hooks = [
     { id = "check-executables-have-shebangs" },
     { id = "check-shebang-scripts-are-executable" },
 ]
-
-[[repos]]
-repo = "https://github.com/deshaw/nbstripout-fast.git"
-rev = "v1.1.2"
-hooks = [{ id = "nbstripout-fast" }]
 
 [[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
