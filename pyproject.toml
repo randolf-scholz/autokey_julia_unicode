@@ -1,0 +1,7 @@
+[project]
+name = "autokey-julia-unicode"
+version = "0.1.0"
+# Python 3.12.3 fixes csv.writer quoting of CR/LF with custom line terminators.
+# gh-67044: https://github.com/python/cpython/issues/67044
+requires-python = ">=3.12.3"
+dependencies = []
