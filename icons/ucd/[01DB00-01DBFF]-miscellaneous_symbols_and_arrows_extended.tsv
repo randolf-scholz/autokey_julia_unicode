@@ -1,0 +1,30 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+U+1DB00	𝬀	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian equals sign		
+U+1DB01	𝬁	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian equals sign with double verticals		
+U+1DB02	𝬂	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian equals sign with small s		
+U+1DB03	𝬃	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian greater-than		
+U+1DB04	𝬄	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian less-than		
+U+1DB05	𝬅	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian greater-than with small p		
+U+1DB06	𝬆	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian less-than with small p		
+U+1DB07	𝬇	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian greater-than or less-than		
+U+1DB08	𝬈	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Inverted square left open box operator		
+U+1DB09	𝬉	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Inverted square right open box operator		
+U+1DB0A	𝬊	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Two-line greater-than		
+U+1DB0B	𝬋	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Two-line less-than		
+U+1DB0C	𝬌	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Commensurability		
+U+1DB0D	𝬍	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Incommensurability		
+U+1DB0E	𝬎	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Commensurability in square		
+U+1DB0F	𝬏	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Incommensurability in square		
+U+1DB10	𝬐	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Cartesian equals sign		
+U+1DB11	𝬑	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence		
+U+1DB12	𝬒	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence with vertical bar		
+U+1DB13	𝬓	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence-2		
+U+1DB14	𝬔	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence-2 inverted		
+U+1DB15	𝬕	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence-2 with horizontal bar		
+U+1DB16	𝬖	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian congruence-2 with horizontal and vertical bar		
+U+1DB17	𝬗	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian coincidence		
+U+1DB18	𝬘	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Inverted lazy s over lazy s		
+U+1DB19	𝬙	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian similarity		
+U+1DB1A	𝬚	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian similarity-2		
+U+1DB1B	𝬛	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Leibnizian dissimilarity		
+U+1DB1C	𝬜	1DB00..1DBFF	Miscellaneous Symbols and Arrows Extended	Facit symbol		

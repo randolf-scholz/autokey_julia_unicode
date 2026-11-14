@@ -1,0 +1,70 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+U+10D40	𐵀	10D40..10D8F	Garay	Garay digit zero		
+U+10D41	𐵁	10D40..10D8F	Garay	Garay digit one		
+U+10D42	𐵂	10D40..10D8F	Garay	Garay digit two		
+U+10D43	𐵃	10D40..10D8F	Garay	Garay digit three		
+U+10D44	𐵄	10D40..10D8F	Garay	Garay digit four		
+U+10D45	𐵅	10D40..10D8F	Garay	Garay digit five		
+U+10D46	𐵆	10D40..10D8F	Garay	Garay digit six		
+U+10D47	𐵇	10D40..10D8F	Garay	Garay digit seven		
+U+10D48	𐵈	10D40..10D8F	Garay	Garay digit eight		
+U+10D49	𐵉	10D40..10D8F	Garay	Garay digit nine		
+U+10D4A	𐵊	10D40..10D8F	Garay	Garay vowel sign a		
+U+10D4B	𐵋	10D40..10D8F	Garay	Garay vowel sign i		
+U+10D4C	𐵌	10D40..10D8F	Garay	Garay vowel sign o		
+U+10D4D	𐵍	10D40..10D8F	Garay	Garay vowel sign ee		
+U+10D4E	𐵎	10D40..10D8F	Garay	Garay vowel length mark		
+U+10D4F	𐵏	10D40..10D8F	Garay	Garay sukun		
+U+10D50	𐵐	10D40..10D8F	Garay	Garay capital letter a		
+U+10D51	𐵑	10D40..10D8F	Garay	Garay capital letter ca		
+U+10D52	𐵒	10D40..10D8F	Garay	Garay capital letter ma		
+U+10D53	𐵓	10D40..10D8F	Garay	Garay capital letter ka		
+U+10D54	𐵔	10D40..10D8F	Garay	Garay capital letter ba		
+U+10D55	𐵕	10D40..10D8F	Garay	Garay capital letter ja		
+U+10D56	𐵖	10D40..10D8F	Garay	Garay capital letter sa		
+U+10D57	𐵗	10D40..10D8F	Garay	Garay capital letter wa		
+U+10D58	𐵘	10D40..10D8F	Garay	Garay capital letter la		
+U+10D59	𐵙	10D40..10D8F	Garay	Garay capital letter ga		
+U+10D5A	𐵚	10D40..10D8F	Garay	Garay capital letter da		
+U+10D5B	𐵛	10D40..10D8F	Garay	Garay capital letter xa		
+U+10D5C	𐵜	10D40..10D8F	Garay	Garay capital letter ya		
+U+10D5D	𐵝	10D40..10D8F	Garay	Garay capital letter ta		
+U+10D5E	𐵞	10D40..10D8F	Garay	Garay capital letter ra		
+U+10D5F	𐵟	10D40..10D8F	Garay	Garay capital letter nya		
+U+10D60	𐵠	10D40..10D8F	Garay	Garay capital letter fa		
+U+10D61	𐵡	10D40..10D8F	Garay	Garay capital letter na		
+U+10D62	𐵢	10D40..10D8F	Garay	Garay capital letter pa		
+U+10D63	𐵣	10D40..10D8F	Garay	Garay capital letter ha		
+U+10D64	𐵤	10D40..10D8F	Garay	Garay capital letter old ka		
+U+10D65	𐵥	10D40..10D8F	Garay	Garay capital letter old na		
+U+10D69	𐵩	10D40..10D8F	Garay	Garay vowel sign e		
+U+10D6A	𐵪	10D40..10D8F	Garay	Garay consonant gemination mark		
+U+10D6B	𐵫	10D40..10D8F	Garay	Garay combining dot above		
+U+10D6C	𐵬	10D40..10D8F	Garay	Garay combining double dot above		
+U+10D6D	𐵭	10D40..10D8F	Garay	Garay consonant nasalization mark		
+U+10D6E	𐵮	10D40..10D8F	Garay	Garay hyphen		
+U+10D6F	𐵯	10D40..10D8F	Garay	Garay reduplication mark		
+U+10D70	𐵰	10D40..10D8F	Garay	Garay small letter a		
+U+10D71	𐵱	10D40..10D8F	Garay	Garay small letter ca		
+U+10D72	𐵲	10D40..10D8F	Garay	Garay small letter ma		
+U+10D73	𐵳	10D40..10D8F	Garay	Garay small letter ka		
+U+10D74	𐵴	10D40..10D8F	Garay	Garay small letter ba		
+U+10D75	𐵵	10D40..10D8F	Garay	Garay small letter ja		
+U+10D76	𐵶	10D40..10D8F	Garay	Garay small letter sa		
+U+10D77	𐵷	10D40..10D8F	Garay	Garay small letter wa		
+U+10D78	𐵸	10D40..10D8F	Garay	Garay small letter la		
+U+10D79	𐵹	10D40..10D8F	Garay	Garay small letter ga		
+U+10D7A	𐵺	10D40..10D8F	Garay	Garay small letter da		
+U+10D7B	𐵻	10D40..10D8F	Garay	Garay small letter xa		
+U+10D7C	𐵼	10D40..10D8F	Garay	Garay small letter ya		
+U+10D7D	𐵽	10D40..10D8F	Garay	Garay small letter ta		
+U+10D7E	𐵾	10D40..10D8F	Garay	Garay small letter ra		
+U+10D7F	𐵿	10D40..10D8F	Garay	Garay small letter nya		
+U+10D80	𐶀	10D40..10D8F	Garay	Garay small letter fa		
+U+10D81	𐶁	10D40..10D8F	Garay	Garay small letter na		
+U+10D82	𐶂	10D40..10D8F	Garay	Garay small letter pa		
+U+10D83	𐶃	10D40..10D8F	Garay	Garay small letter ha		
+U+10D84	𐶄	10D40..10D8F	Garay	Garay small letter old ka		
+U+10D85	𐶅	10D40..10D8F	Garay	Garay small letter old na		
+U+10D8E	𐶎	10D40..10D8F	Garay	Garay plus sign		
+U+10D8F	𐶏	10D40..10D8F	Garay	Garay minus sign		

@@ -1,0 +1,696 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+U+1CC00	𜰀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing go-kart		
+U+1CC01	𜰁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing go-kart		
+U+1CC02	𜰂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing stick figure		
+U+1CC03	𜰃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing stick figure		
+U+1CC04	𜰄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing stick figure		
+U+1CC05	𜰅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower horizontal ruler segment		
+U+1CC06	𜰆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right vertical ruler segment		
+U+1CC07	𜰇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right ruler segment		
+U+1CC08	𜰈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Antenna		
+U+1CC09	𜰉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal resistor segment		
+U+1CC0A	𜰊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical resistor segment		
+U+1CC0B	𜰋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left third inductor		
+U+1CC0C	𜰌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Middle third inductor		
+U+1CC0D	𜰍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right third inductor		
+U+1CC0E	𜰎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing diode		
+U+1CC0F	𜰏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing diode		
+U+1CC10	𜰐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Npn transistor		
+U+1CC11	𜰑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Pnp transistor		
+U+1CC12	𜰒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Receptacle		
+U+1CC13	𜰓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal capacitor		
+U+1CC14	𜰔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical capacitor		
+U+1CC15	𜰕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate or		
+U+1CC16	𜰖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate and		
+U+1CC17	𜰗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate inverted inputs		
+U+1CC18	𜰘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate inverted output		
+U+1CC19	𜰙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate buffer		
+U+1CC1A	𜰚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Logic gate buffer with inverted input		
+U+1CC1B	𜰛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light horizontal and upper right		
+U+1CC1C	𜰜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light horizontal and lower right		
+U+1CC1D	𜰝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light top and upper left		
+U+1CC1E	𜰞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light bottom and lower left		
+U+1CC1F	𜰟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings double diagonal upper right to lower left		
+U+1CC20	𜰠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings double diagonal upper left to lower right		
+U+1CC21	𜰡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-1		
+U+1CC22	𜰢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-2		
+U+1CC23	𜰣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-12		
+U+1CC24	𜰤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-3		
+U+1CC25	𜰥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-13		
+U+1CC26	𜰦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-23		
+U+1CC27	𜰧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-123		
+U+1CC28	𜰨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-4		
+U+1CC29	𜰩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-14		
+U+1CC2A	𜰪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-24		
+U+1CC2B	𜰫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-124		
+U+1CC2C	𜰬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-34		
+U+1CC2D	𜰭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-134		
+U+1CC2E	𜰮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-234		
+U+1CC2F	𜰯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block quadrant-1234		
+U+1CC30	𜰰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left twelfth circle		
+U+1CC31	𜰱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper centre left twelfth circle		
+U+1CC32	𜰲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper centre right twelfth circle		
+U+1CC33	𜰳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right twelfth circle		
+U+1CC34	𜰴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle left twelfth circle		
+U+1CC35	𜰵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quarter circle		
+U+1CC36	𜰶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quarter circle		
+U+1CC37	𜰷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle right twelfth circle		
+U+1CC38	𜰸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle left twelfth circle		
+U+1CC39	𜰹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quarter circle		
+U+1CC3A	𜰺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quarter circle		
+U+1CC3B	𜰻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle right twelfth circle		
+U+1CC3C	𜰼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left twelfth circle		
+U+1CC3D	𜰽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower centre left twelfth circle		
+U+1CC3E	𜰾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower centre right twelfth circle		
+U+1CC3F	𜰿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right twelfth circle		
+U+1CC40	𜱀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Sparse horizontal fill		
+U+1CC41	𜱁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Sparse vertical fill		
+U+1CC42	𜱂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Orthogonal crosshatch fill		
+U+1CC43	𜱃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Diagonal crosshatch fill		
+U+1CC44	𜱄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Dense vertical fill		
+U+1CC45	𜱅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Dense horizontal fill		
+U+1CC46	𜱆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Speckle fill frame-1		
+U+1CC47	𜱇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Speckle fill frame-2		
+U+1CC48	𜱈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-facing bassinet		
+U+1CC49	𜱉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-facing bassinet		
+U+1CC4A	𜱊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Flying saucer with beams		
+U+1CC4B	𜱋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Flying saucer without beams		
+U+1CC4C	𜱌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien monster open jaws		
+U+1CC4D	𜱍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien monster closed jaws		
+U+1CC4E	𜱎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien squid open tentacles		
+U+1CC4F	𜱏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien squid closed tentacles		
+U+1CC50	𜱐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien crab stepping right		
+U+1CC51	𜱑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien crab stepping left		
+U+1CC52	𜱒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien spider crouching		
+U+1CC53	𜱓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien spider spread		
+U+1CC54	𜱔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien monster step-1		
+U+1CC55	𜱕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Alien monster step-2		
+U+1CC56	𜱖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing rocket ship		
+U+1CC57	𜱗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing rocket ship		
+U+1CC58	𜱘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing rocket ship		
+U+1CC59	𜱙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing rocket ship		
+U+1CC5A	𜱚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half left-facing robot		
+U+1CC5B	𜱛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half forward-facing robot		
+U+1CC5C	𜱜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half right-facing robot		
+U+1CC5D	𜱝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half left-facing robot		
+U+1CC5E	𜱞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half forward-facing robot		
+U+1CC5F	𜱟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half right-facing robot		
+U+1CC60	𜱠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing atomic bomb		
+U+1CC61	𜱡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing atomic bomb		
+U+1CC62	𜱢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing atomic bomb		
+U+1CC63	𜱣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing atomic bomb		
+U+1CC64	𜱤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Mushroom cloud		
+U+1CC65	𜱥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing rifle		
+U+1CC66	𜱦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing rifle		
+U+1CC67	𜱧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing rifle		
+U+1CC68	𜱨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing rifle		
+U+1CC69	𜱩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Eight rays inward		
+U+1CC6A	𜱪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Eight rays outward		
+U+1CC6B	𜱫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black large circle minus left quarter section		
+U+1CC6C	𜱬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black large circle minus upper quarter section		
+U+1CC6D	𜱭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black large circle minus right quarter section		
+U+1CC6E	𜱮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black large circle minus lower quarter section		
+U+1CC6F	𜱯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black neutral face		
+U+1CC70	𜱰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-facing snake head with open mouth		
+U+1CC71	𜱱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-facing snake head with open mouth		
+U+1CC72	𜱲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-facing snake head with open mouth		
+U+1CC73	𜱳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-facing snake head with open mouth		
+U+1CC74	𜱴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-facing snake head with closed mouth		
+U+1CC75	𜱵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-facing snake head with closed mouth		
+U+1CC76	𜱶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-facing snake head with closed mouth		
+U+1CC77	𜱷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-facing snake head with closed mouth		
+U+1CC78	𜱸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing energy wave		
+U+1CC79	𜱹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing energy wave		
+U+1CC7A	𜱺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing energy wave		
+U+1CC7B	𜱻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing energy wave		
+U+1CC7C	𜱼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square spiral from top left		
+U+1CC7D	𜱽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square spiral from top right		
+U+1CC7E	𜱾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square spiral from bottom right		
+U+1CC7F	𜱿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square spiral from bottom left		
+U+1CC80	𜲀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Striped left-pointing triangle		
+U+1CC81	𜲁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Striped up-pointing triangle		
+U+1CC82	𜲂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Striped right-pointing triangle		
+U+1CC83	𜲃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Striped down-pointing triangle		
+U+1CC84	𜲄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical ladder		
+U+1CC85	𜲅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal ladder		
+U+1CC86	𜲆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	White lower left pointer		
+U+1CC87	𜲇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	White lower right pointer		
+U+1CC88	𜲈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Two rings aligned horizontally		
+U+1CC89	𜲉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square four corner saltires		
+U+1CC8A	𜲊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square four corner diagonals		
+U+1CC8B	𜲋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square four corner black triangles		
+U+1CC8C	𜲌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Square aperture		
+U+1CC8D	𜲍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Inverse black diamond		
+U+1CC8E	𜲎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left and upper one eighth block containing black small square		
+U+1CC8F	𜲏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Inverse black small square		
+U+1CC90	𜲐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical line with four tick marks		
+U+1CC91	𜲑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal line with four tick marks		
+U+1CC92	𜲒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-facing fish		
+U+1CC93	𜲓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-facing fish		
+U+1CC94	𜲔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-facing fish with open mouth		
+U+1CC95	𜲕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-facing fish with open mouth		
+U+1CC96	𜲖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Flapping bird		
+U+1CC97	𜲗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing racing car		
+U+1CC98	𜲘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing racing car		
+U+1CC99	𜲙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing racing car		
+U+1CC9A	𜲚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing racing car		
+U+1CC9B	𜲛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal racing car		
+U+1CC9C	𜲜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical racing car		
+U+1CC9D	𜲝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical go-kart		
+U+1CC9E	𜲞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing tank		
+U+1CC9F	𜲟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing tank		
+U+1CCA0	𜲠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing rocket booster		
+U+1CCA1	𜲡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing rocket booster		
+U+1CCA2	𜲢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing roller coaster car		
+U+1CCA3	𜲣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right-pointing roller coaster car		
+U+1CCA4	𜲤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half flying saucer		
+U+1CCA5	𜲥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half flying saucer		
+U+1CCA6	𜲦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant face with open eyes		
+U+1CCA7	𜲧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant face with open eyes		
+U+1CCA8	𜲨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant face with closed eyes		
+U+1CCA9	𜲩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant face with closed eyes		
+U+1CCAA	𜲪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant smiling face		
+U+1CCAB	𜲫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant smiling face		
+U+1CCAC	𜲬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant neutral face		
+U+1CCAD	𜲭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant neutral face		
+U+1CCAE	𜲮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant face with open mouth		
+U+1CCAF	𜲯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant face with open mouth		
+U+1CCB0	𜲰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant frowning face		
+U+1CCB1	𜲱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant frowning face		
+U+1CCB2	𜲲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant television		
+U+1CCB3	𜲳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant television		
+U+1CCB4	𜲴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant television		
+U+1CCB5	𜲵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant television		
+U+1CCB6	𜲶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant microcomputer		
+U+1CCB7	𜲷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant microcomputer		
+U+1CCB8	𜲸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant microcomputer		
+U+1CCB9	𜲹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant microcomputer		
+U+1CCBA	𜲺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess king		
+U+1CCBB	𜲻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess king		
+U+1CCBC	𜲼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess king		
+U+1CCBD	𜲽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess king		
+U+1CCBE	𜲾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess queen		
+U+1CCBF	𜲿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess queen		
+U+1CCC0	𜳀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess queen		
+U+1CCC1	𜳁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess queen		
+U+1CCC2	𜳂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess rook		
+U+1CCC3	𜳃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess rook		
+U+1CCC4	𜳄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess rook		
+U+1CCC5	𜳅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess rook		
+U+1CCC6	𜳆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess bishop		
+U+1CCC7	𜳇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess bishop		
+U+1CCC8	𜳈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess bishop		
+U+1CCC9	𜳉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess bishop		
+U+1CCCA	𜳊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess knight		
+U+1CCCB	𜳋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess knight		
+U+1CCCC	𜳌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess knight		
+U+1CCCD	𜳍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess knight		
+U+1CCCE	𜳎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant chess pawn		
+U+1CCCF	𜳏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant chess pawn		
+U+1CCD0	𜳐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant chess pawn		
+U+1CCD1	𜳑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant chess pawn		
+U+1CCD2	𜳒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left quadrant standing knight		
+U+1CCD3	𜳓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right quadrant standing knight		
+U+1CCD4	𜳔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left quadrant standing knight		
+U+1CCD5	𜳕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right quadrant standing knight		
+U+1CCD6	𜳖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter a		
+U+1CCD7	𜳗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter b		
+U+1CCD8	𜳘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter c		
+U+1CCD9	𜳙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter d		
+U+1CCDA	𜳚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter e		
+U+1CCDB	𜳛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter f		
+U+1CCDC	𜳜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter g		
+U+1CCDD	𜳝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter h		
+U+1CCDE	𜳞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter i		
+U+1CCDF	𜳟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter j		
+U+1CCE0	𜳠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter k		
+U+1CCE1	𜳡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter l		
+U+1CCE2	𜳢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter m		
+U+1CCE3	𜳣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter n		
+U+1CCE4	𜳤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter o		
+U+1CCE5	𜳥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter p		
+U+1CCE6	𜳦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter q		
+U+1CCE7	𜳧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter r		
+U+1CCE8	𜳨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter s		
+U+1CCE9	𜳩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter t		
+U+1CCEA	𜳪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter u		
+U+1CCEB	𜳫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter v		
+U+1CCEC	𜳬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter w		
+U+1CCED	𜳭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter x		
+U+1CCEE	𜳮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter y		
+U+1CCEF	𜳯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined latin capital letter z		
+U+1CCF0	𜳰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit zero		
+U+1CCF1	𜳱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit one		
+U+1CCF2	𜳲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit two		
+U+1CCF3	𜳳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit three		
+U+1CCF4	𜳴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit four		
+U+1CCF5	𜳵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit five		
+U+1CCF6	𜳶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit six		
+U+1CCF7	𜳷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit seven		
+U+1CCF8	𜳸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit eight		
+U+1CCF9	𜳹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Outlined digit nine		
+U+1CCFA	𜳺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Snake symbol		
+U+1CCFB	𜳻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Flying saucer symbol		
+U+1CCFC	𜳼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Nose symbol		
+U+1CD00	𜴀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3		
+U+1CD01	𜴁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23		
+U+1CD02	𜴂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123		
+U+1CD03	𜴃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-4		
+U+1CD04	𜴄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-14		
+U+1CD05	𜴅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-124		
+U+1CD06	𜴆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-34		
+U+1CD07	𜴇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-134		
+U+1CD08	𜴈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-234		
+U+1CD09	𜴉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-5		
+U+1CD0A	𜴊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-15		
+U+1CD0B	𜴋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-25		
+U+1CD0C	𜴌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-125		
+U+1CD0D	𜴍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-135		
+U+1CD0E	𜴎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-235		
+U+1CD0F	𜴏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1235		
+U+1CD10	𜴐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-45		
+U+1CD11	𜴑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-145		
+U+1CD12	𜴒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-245		
+U+1CD13	𜴓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1245		
+U+1CD14	𜴔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-345		
+U+1CD15	𜴕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1345		
+U+1CD16	𜴖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2345		
+U+1CD17	𜴗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12345		
+U+1CD18	𜴘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-6		
+U+1CD19	𜴙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-16		
+U+1CD1A	𜴚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-26		
+U+1CD1B	𜴛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-126		
+U+1CD1C	𜴜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-36		
+U+1CD1D	𜴝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-136		
+U+1CD1E	𜴞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-236		
+U+1CD1F	𜴟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1236		
+U+1CD20	𜴠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-146		
+U+1CD21	𜴡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-246		
+U+1CD22	𜴢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1246		
+U+1CD23	𜴣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-346		
+U+1CD24	𜴤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1346		
+U+1CD25	𜴥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2346		
+U+1CD26	𜴦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12346		
+U+1CD27	𜴧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-56		
+U+1CD28	𜴨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-156		
+U+1CD29	𜴩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-256		
+U+1CD2A	𜴪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1256		
+U+1CD2B	𜴫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-356		
+U+1CD2C	𜴬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1356		
+U+1CD2D	𜴭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2356		
+U+1CD2E	𜴮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12356		
+U+1CD2F	𜴯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-456		
+U+1CD30	𜴰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1456		
+U+1CD31	𜴱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2456		
+U+1CD32	𜴲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12456		
+U+1CD33	𜴳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3456		
+U+1CD34	𜴴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13456		
+U+1CD35	𜴵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23456		
+U+1CD36	𜴶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-17		
+U+1CD37	𜴷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-27		
+U+1CD38	𜴸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-127		
+U+1CD39	𜴹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-37		
+U+1CD3A	𜴺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-137		
+U+1CD3B	𜴻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-237		
+U+1CD3C	𜴼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1237		
+U+1CD3D	𜴽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-47		
+U+1CD3E	𜴾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-147		
+U+1CD3F	𜴿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-247		
+U+1CD40	𜵀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1247		
+U+1CD41	𜵁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-347		
+U+1CD42	𜵂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1347		
+U+1CD43	𜵃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2347		
+U+1CD44	𜵄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12347		
+U+1CD45	𜵅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-157		
+U+1CD46	𜵆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-257		
+U+1CD47	𜵇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1257		
+U+1CD48	𜵈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-357		
+U+1CD49	𜵉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2357		
+U+1CD4A	𜵊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12357		
+U+1CD4B	𜵋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-457		
+U+1CD4C	𜵌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1457		
+U+1CD4D	𜵍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12457		
+U+1CD4E	𜵎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3457		
+U+1CD4F	𜵏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13457		
+U+1CD50	𜵐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23457		
+U+1CD51	𜵑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-67		
+U+1CD52	𜵒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-167		
+U+1CD53	𜵓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-267		
+U+1CD54	𜵔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1267		
+U+1CD55	𜵕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-367		
+U+1CD56	𜵖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1367		
+U+1CD57	𜵗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2367		
+U+1CD58	𜵘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12367		
+U+1CD59	𜵙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-467		
+U+1CD5A	𜵚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1467		
+U+1CD5B	𜵛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2467		
+U+1CD5C	𜵜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12467		
+U+1CD5D	𜵝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3467		
+U+1CD5E	𜵞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13467		
+U+1CD5F	𜵟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23467		
+U+1CD60	𜵠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123467		
+U+1CD61	𜵡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-567		
+U+1CD62	𜵢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1567		
+U+1CD63	𜵣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2567		
+U+1CD64	𜵤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12567		
+U+1CD65	𜵥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3567		
+U+1CD66	𜵦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13567		
+U+1CD67	𜵧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23567		
+U+1CD68	𜵨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123567		
+U+1CD69	𜵩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-4567		
+U+1CD6A	𜵪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-14567		
+U+1CD6B	𜵫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-24567		
+U+1CD6C	𜵬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-124567		
+U+1CD6D	𜵭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-34567		
+U+1CD6E	𜵮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-134567		
+U+1CD6F	𜵯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-234567		
+U+1CD70	𜵰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1234567		
+U+1CD71	𜵱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-18		
+U+1CD72	𜵲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-28		
+U+1CD73	𜵳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-128		
+U+1CD74	𜵴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-38		
+U+1CD75	𜵵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-138		
+U+1CD76	𜵶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-238		
+U+1CD77	𜵷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1238		
+U+1CD78	𜵸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-48		
+U+1CD79	𜵹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-148		
+U+1CD7A	𜵺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-248		
+U+1CD7B	𜵻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1248		
+U+1CD7C	𜵼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-348		
+U+1CD7D	𜵽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1348		
+U+1CD7E	𜵾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2348		
+U+1CD7F	𜵿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12348		
+U+1CD80	𜶀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-58		
+U+1CD81	𜶁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-158		
+U+1CD82	𜶂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-258		
+U+1CD83	𜶃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1258		
+U+1CD84	𜶄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-358		
+U+1CD85	𜶅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1358		
+U+1CD86	𜶆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2358		
+U+1CD87	𜶇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12358		
+U+1CD88	𜶈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-458		
+U+1CD89	𜶉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1458		
+U+1CD8A	𜶊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2458		
+U+1CD8B	𜶋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12458		
+U+1CD8C	𜶌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3458		
+U+1CD8D	𜶍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13458		
+U+1CD8E	𜶎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23458		
+U+1CD8F	𜶏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123458		
+U+1CD90	𜶐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-168		
+U+1CD91	𜶑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-268		
+U+1CD92	𜶒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1268		
+U+1CD93	𜶓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-368		
+U+1CD94	𜶔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2368		
+U+1CD95	𜶕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12368		
+U+1CD96	𜶖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-468		
+U+1CD97	𜶗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1468		
+U+1CD98	𜶘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12468		
+U+1CD99	𜶙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3468		
+U+1CD9A	𜶚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13468		
+U+1CD9B	𜶛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23468		
+U+1CD9C	𜶜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-568		
+U+1CD9D	𜶝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1568		
+U+1CD9E	𜶞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2568		
+U+1CD9F	𜶟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12568		
+U+1CDA0	𜶠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3568		
+U+1CDA1	𜶡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13568		
+U+1CDA2	𜶢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23568		
+U+1CDA3	𜶣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123568		
+U+1CDA4	𜶤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-4568		
+U+1CDA5	𜶥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-14568		
+U+1CDA6	𜶦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-24568		
+U+1CDA7	𜶧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-124568		
+U+1CDA8	𜶨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-34568		
+U+1CDA9	𜶩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-134568		
+U+1CDAA	𜶪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-234568		
+U+1CDAB	𜶫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1234568		
+U+1CDAC	𜶬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-178		
+U+1CDAD	𜶭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-278		
+U+1CDAE	𜶮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1278		
+U+1CDAF	𜶯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-378		
+U+1CDB0	𜶰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1378		
+U+1CDB1	𜶱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2378		
+U+1CDB2	𜶲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12378		
+U+1CDB3	𜶳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-478		
+U+1CDB4	𜶴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1478		
+U+1CDB5	𜶵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2478		
+U+1CDB6	𜶶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12478		
+U+1CDB7	𜶷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3478		
+U+1CDB8	𜶸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13478		
+U+1CDB9	𜶹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23478		
+U+1CDBA	𜶺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123478		
+U+1CDBB	𜶻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-578		
+U+1CDBC	𜶼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1578		
+U+1CDBD	𜶽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2578		
+U+1CDBE	𜶾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12578		
+U+1CDBF	𜶿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3578		
+U+1CDC0	𜷀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13578		
+U+1CDC1	𜷁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23578		
+U+1CDC2	𜷂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123578		
+U+1CDC3	𜷃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-4578		
+U+1CDC4	𜷄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-14578		
+U+1CDC5	𜷅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-24578		
+U+1CDC6	𜷆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-124578		
+U+1CDC7	𜷇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-34578		
+U+1CDC8	𜷈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-134578		
+U+1CDC9	𜷉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-234578		
+U+1CDCA	𜷊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1234578		
+U+1CDCB	𜷋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-678		
+U+1CDCC	𜷌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1678		
+U+1CDCD	𜷍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2678		
+U+1CDCE	𜷎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-12678		
+U+1CDCF	𜷏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-3678		
+U+1CDD0	𜷐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-13678		
+U+1CDD1	𜷑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-23678		
+U+1CDD2	𜷒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-123678		
+U+1CDD3	𜷓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-4678		
+U+1CDD4	𜷔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-14678		
+U+1CDD5	𜷕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-24678		
+U+1CDD6	𜷖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-124678		
+U+1CDD7	𜷗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-34678		
+U+1CDD8	𜷘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-134678		
+U+1CDD9	𜷙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-234678		
+U+1CDDA	𜷚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1234678		
+U+1CDDB	𜷛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-15678		
+U+1CDDC	𜷜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-25678		
+U+1CDDD	𜷝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-125678		
+U+1CDDE	𜷞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-35678		
+U+1CDDF	𜷟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-235678		
+U+1CDE0	𜷠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1235678		
+U+1CDE1	𜷡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-45678		
+U+1CDE2	𜷢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-145678		
+U+1CDE3	𜷣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1245678		
+U+1CDE4	𜷤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-1345678		
+U+1CDE5	𜷥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Block octant-2345678		
+U+1CDE6	𜷦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half standing person		
+U+1CDE7	𜷧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half standing person		
+U+1CDE8	𜷨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half right-facing runner frame-1		
+U+1CDE9	𜷩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half right-facing runner frame-1		
+U+1CDEA	𜷪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half right-facing runner frame-2		
+U+1CDEB	𜷫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half right-facing runner frame-2		
+U+1CDEC	𜷬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half left-facing runner frame-1		
+U+1CDED	𜷭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half left-facing runner frame-1		
+U+1CDEE	𜷮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half left-facing runner frame-2		
+U+1CDEF	𜷯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half left-facing runner frame-2		
+U+1CDF0	𜷰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half forward-facing runner		
+U+1CDF1	𜷱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half forward-facing runner frame-1		
+U+1CDF2	𜷲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half forward-facing runner frame-2		
+U+1CDF3	𜷳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half forward-facing runner frame-3		
+U+1CDF4	𜷴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Bottom half forward-facing runner frame-4		
+U+1CDF5	𜷵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Moon lander		
+U+1CDF6	𜷶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half flailing robot frame-1		
+U+1CDF7	𜷷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top half flailing robot frame-2		
+U+1CDF8	𜷸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing airplane		
+U+1CDF9	𜷹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left-pointing airplane		
+U+1CDFA	𜷺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Small up-pointing airplane		
+U+1CDFB	𜷻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Up-pointing frog		
+U+1CDFC	𜷼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Down-pointing frog		
+U+1CDFD	𜷽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Explosion frame-1		
+U+1CDFE	𜷾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Explosion frame-2		
+U+1CDFF	𜷿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Explosion frame-3		
+U+1CE00	𜸀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half and left half white circle		
+U+1CE01	𜸁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower half and upper half white circle		
+U+1CE02	𜸂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Explosion at horizon		
+U+1CE03	𜸃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper half heavy white square		
+U+1CE04	𜸄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower half heavy white square		
+U+1CE05	𜸅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Heavy white square containing black very small square		
+U+1CE06	𜸆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	White vertical rectangle with horizontal bar		
+U+1CE07	𜸇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Top left black left-pointing small triangle		
+U+1CE08	𜸈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Funnel		
+U+1CE09	𜸉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings double diagonal lower left to middle centre to lower right		
+U+1CE0A	𜸊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings double diagonal upper left to middle centre to upper right		
+U+1CE0B	𜸋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half white ellipse		
+U+1CE0C	𜸌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half white ellipse		
+U+1CE0D	𜸍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half triple dash horizontal		
+U+1CE0E	𜸎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half triple dash horizontal		
+U+1CE0F	𜸏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal line with tick mark		
+U+1CE10	𜸐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half horizontal line with three tick marks		
+U+1CE11	𜸑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half horizontal line with three tick marks		
+U+1CE12	𜸒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal line with three tick marks		
+U+1CE13	𜸓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower half vertical line with three tick marks		
+U+1CE14	𜸔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper half vertical line with three tick marks		
+U+1CE15	𜸕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Vertical line with three tick marks		
+U+1CE16	𜸖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light vertical and top right		
+U+1CE17	𜸗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light vertical and bottom right		
+U+1CE18	𜸘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light vertical and top left		
+U+1CE19	𜸙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Box drawings light vertical and bottom left		
+U+1CE1A	𜸚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper left arc		
+U+1CE1B	𜸛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper left corner		
+U+1CE1C	𜸜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper terminal		
+U+1CE1D	𜸝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper left crotch		
+U+1CE1E	𜸞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece left arm		
+U+1CE1F	𜸟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece crossbar		
+U+1CE20	𜸠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece crossbar with lower stem		
+U+1CE21	𜸡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper half vertex of m		
+U+1CE22	𜸢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal lower left		
+U+1CE23	𜸣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece short upper terminal		
+U+1CE24	𜸤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper right arc		
+U+1CE25	𜸥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece right arm		
+U+1CE26	𜸦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper right crotch		
+U+1CE27	𜸧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper right corner		
+U+1CE28	𜸨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem with right crossbar		
+U+1CE29	𜸩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem		
+U+1CE2A	𜸪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal upper right and lower right		
+U+1CE2B	𜸫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal upper right		
+U+1CE2C	𜸬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal lower right		
+U+1CE2D	𜸭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece short lower terminal		
+U+1CE2E	𜸮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower left and upper left arc		
+U+1CE2F	𜸯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece centre of k		
+U+1CE30	𜸰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower half vertex of m		
+U+1CE31	𜸱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece upper half vertex of w		
+U+1CE32	𜸲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece centre of x		
+U+1CE33	𜸳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece centre of y		
+U+1CE34	𜸴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece centre of z with crossbar		
+U+1CE35	𜸵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece raised upper left arc		
+U+1CE36	𜸶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem with left crossbar		
+U+1CE37	𜸷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower right and upper right arc		
+U+1CE38	𜸸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal upper left and lower left		
+U+1CE39	𜸹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem with left joint		
+U+1CE3A	𜸺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem with crossbar		
+U+1CE3B	𜸻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece diagonal upper left		
+U+1CE3C	𜸼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower terminal		
+U+1CE3D	𜸽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower left corner		
+U+1CE3E	𜸾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower left arc		
+U+1CE3F	𜸿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower left crotch		
+U+1CE40	𜹀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece crossbar with upper stem		
+U+1CE41	𜹁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece vertex of v		
+U+1CE42	𜹂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower half vertex of w		
+U+1CE43	𜹃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower right arc		
+U+1CE44	𜹄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower right corner		
+U+1CE45	𜹅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower right arc with tail		
+U+1CE46	𜹆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece lower right crotch		
+U+1CE47	𜹇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-45		
+U+1CE48	𜹈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-2345		
+U+1CE49	𜹉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-4		
+U+1CE4A	𜹊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-34		
+U+1CE4B	𜹋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-234		
+U+1CE4C	𜹌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-1234		
+U+1CE4D	𜹍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-3		
+U+1CE4E	𜹎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-23		
+U+1CE4F	𜹏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-2		
+U+1CE50	𜹐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Large type piece stem-12		
+U+1CE51	𜹑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1		
+U+1CE52	𜹒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-2		
+U+1CE53	𜹓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-12		
+U+1CE54	𜹔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-3		
+U+1CE55	𜹕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-13		
+U+1CE56	𜹖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-23		
+U+1CE57	𜹗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-123		
+U+1CE58	𜹘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-4		
+U+1CE59	𜹙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-14		
+U+1CE5A	𜹚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-24		
+U+1CE5B	𜹛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-124		
+U+1CE5C	𜹜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-34		
+U+1CE5D	𜹝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-134		
+U+1CE5E	𜹞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-234		
+U+1CE5F	𜹟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1234		
+U+1CE60	𜹠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-5		
+U+1CE61	𜹡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-15		
+U+1CE62	𜹢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-25		
+U+1CE63	𜹣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-125		
+U+1CE64	𜹤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-35		
+U+1CE65	𜹥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-135		
+U+1CE66	𜹦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-235		
+U+1CE67	𜹧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1235		
+U+1CE68	𜹨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-45		
+U+1CE69	𜹩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-145		
+U+1CE6A	𜹪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-245		
+U+1CE6B	𜹫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1245		
+U+1CE6C	𜹬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-345		
+U+1CE6D	𜹭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1345		
+U+1CE6E	𜹮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-2345		
+U+1CE6F	𜹯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-12345		
+U+1CE70	𜹰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-6		
+U+1CE71	𜹱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-16		
+U+1CE72	𜹲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-26		
+U+1CE73	𜹳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-126		
+U+1CE74	𜹴	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-36		
+U+1CE75	𜹵	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-136		
+U+1CE76	𜹶	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-236		
+U+1CE77	𜹷	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1236		
+U+1CE78	𜹸	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-46		
+U+1CE79	𜹹	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-146		
+U+1CE7A	𜹺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-246		
+U+1CE7B	𜹻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1246		
+U+1CE7C	𜹼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-346		
+U+1CE7D	𜹽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1346		
+U+1CE7E	𜹾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-2346		
+U+1CE7F	𜹿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-12346		
+U+1CE80	𜺀	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-56		
+U+1CE81	𜺁	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-156		
+U+1CE82	𜺂	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-256		
+U+1CE83	𜺃	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1256		
+U+1CE84	𜺄	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-356		
+U+1CE85	𜺅	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1356		
+U+1CE86	𜺆	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-2356		
+U+1CE87	𜺇	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-12356		
+U+1CE88	𜺈	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-456		
+U+1CE89	𜺉	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-1456		
+U+1CE8A	𜺊	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-2456		
+U+1CE8B	𜺋	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-12456		
+U+1CE8C	𜺌	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-3456		
+U+1CE8D	𜺍	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-13456		
+U+1CE8E	𜺎	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-23456		
+U+1CE8F	𜺏	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Separated block sextant-123456		
+U+1CE90	𜺐	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper left one sixteenth block		
+U+1CE91	𜺑	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper centre left one sixteenth block		
+U+1CE92	𜺒	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper centre right one sixteenth block		
+U+1CE93	𜺓	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper right one sixteenth block		
+U+1CE94	𜺔	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle left one sixteenth block		
+U+1CE95	𜺕	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle centre left one sixteenth block		
+U+1CE96	𜺖	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle centre right one sixteenth block		
+U+1CE97	𜺗	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper middle right one sixteenth block		
+U+1CE98	𜺘	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle left one sixteenth block		
+U+1CE99	𜺙	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle centre left one sixteenth block		
+U+1CE9A	𜺚	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle centre right one sixteenth block		
+U+1CE9B	𜺛	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower middle right one sixteenth block		
+U+1CE9C	𜺜	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower left one sixteenth block		
+U+1CE9D	𜺝	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower centre left one sixteenth block		
+U+1CE9E	𜺞	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower centre right one sixteenth block		
+U+1CE9F	𜺟	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower right one sixteenth block		
+U+1CEA0	𜺠	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half lower one quarter block		
+U+1CEA1	𜺡	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right three quarters lower one quarter block		
+U+1CEA2	𜺢	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left three quarters lower one quarter block		
+U+1CEA3	𜺣	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half lower one quarter block		
+U+1CEA4	𜺤	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower half left one quarter block		
+U+1CEA5	𜺥	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower three quarters left one quarter block		
+U+1CEA6	𜺦	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper three quarters left one quarter block		
+U+1CEA7	𜺧	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper half left one quarter block		
+U+1CEA8	𜺨	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left half upper one quarter block		
+U+1CEA9	𜺩	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Left three quarters upper one quarter block		
+U+1CEAA	𜺪	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right three quarters upper one quarter block		
+U+1CEAB	𜺫	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Right half upper one quarter block		
+U+1CEAC	𜺬	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper half right one quarter block		
+U+1CEAD	𜺭	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Upper three quarters right one quarter block		
+U+1CEAE	𜺮	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower three quarters right one quarter block		
+U+1CEAF	𜺯	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Lower half right one quarter block		
+U+1CEB0	𜺰	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Horizontal zigzag line		
+U+1CEB1	𜺱	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Keyhole		
+U+1CEB2	𜺲	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Old personal computer with monitor in portrait orientation		
+U+1CEB3	𜺳	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Black right triangle caret		
+U+1CEBA	𜺺	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Fragile symbol		
+U+1CEBB	𜺻	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Office building symbol		
+U+1CEBC	𜺼	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Tree symbol		
+U+1CEBD	𜺽	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Apple symbol		
+U+1CEBE	𜺾	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Cherry symbol		
+U+1CEBF	𜺿	1CC00..1CEBF	Symbols for Legacy Computing Supplement	Strawberry symbol		

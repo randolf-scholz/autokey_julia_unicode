@@ -1,0 +1,312 @@
+code_point	symbol	block	block_name	name	tab_completion	latex_code
+U+12550	𒕐	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n01		
+U+12551	𒕑	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n01		
+U+12552	𒕒	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n01		
+U+12553	𒕓	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n01		
+U+12554	𒕔	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n01		
+U+12555	𒕕	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n01		
+U+12556	𒕖	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n01		
+U+12557	𒕗	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n01		
+U+12558	𒕘	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n01		
+U+12559	𒕙	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n08		
+U+1255A	𒕚	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n08		
+U+1255B	𒕛	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n08		
+U+1255C	𒕜	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n08		
+U+1255D	𒕝	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n08		
+U+1255E	𒕞	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n08		
+U+1255F	𒕟	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n08		
+U+12560	𒕠	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n08		
+U+12561	𒕡	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n08		
+U+12562	𒕢	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n14		
+U+12563	𒕣	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n14		
+U+12564	𒕤	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n14		
+U+12565	𒕥	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n14		
+U+12566	𒕦	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n14		
+U+12567	𒕧	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n14		
+U+12568	𒕨	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n14		
+U+12569	𒕩	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n14		
+U+1256A	𒕪	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n14		
+U+1256B	𒕫	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n34		
+U+1256C	𒕬	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n34		
+U+1256D	𒕭	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n34		
+U+1256E	𒕮	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n34		
+U+1256F	𒕯	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n34		
+U+12570	𒕰	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n34		
+U+12571	𒕱	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n34		
+U+12572	𒕲	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n34		
+U+12573	𒕳	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n34		
+U+12574	𒕴	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n48		
+U+12575	𒕵	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n48		
+U+12576	𒕶	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n48		
+U+12577	𒕷	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n48		
+U+12578	𒕸	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n48		
+U+12579	𒕹	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n45		
+U+1257A	𒕺	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n45		
+U+1257B	𒕻	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n45		
+U+1257C	𒕼	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n45		
+U+1257D	𒕽	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n45		
+U+1257E	𒕾	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n45		
+U+1257F	𒕿	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n45		
+U+12580	𒖀	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n45		
+U+12581	𒖁	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n45		
+U+12582	𒖂	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n50		
+U+12583	𒖃	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n50		
+U+12584	𒖄	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n50		
+U+12585	𒖅	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n50		
+U+12586	𒖆	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n50		
+U+12587	𒖇	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one eighth iku curved		
+U+12588	𒖈	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one eighth iku curved variant form		
+U+12589	𒖉	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n01 reversed		
+U+1258A	𒖊	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one quarter iku curved variant form		
+U+1258B	𒖋	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one half iku curved variant form		
+U+1258C	𒖌	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n22		
+U+1258D	𒖍	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n22		
+U+1258E	𒖎	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one buru curved		
+U+1258F	𒖏	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two buru curved		
+U+12590	𒖐	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three buru curved		
+U+12591	𒖑	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four buru curved		
+U+12592	𒖒	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five buru curved		
+U+12593	𒖓	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one ban2 curved		
+U+12594	𒖔	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two ban2 curved		
+U+12595	𒖕	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three ban2 curved		
+U+12596	𒖖	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four ban2 curved		
+U+12597	𒖗	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five ban2 curved		
+U+12598	𒖘	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign ninda2 times she plus one ash curved		
+U+12599	𒖙	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign ninda2 times she plus two ash curved		
+U+1259A	𒖚	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n51		
+U+1259B	𒖛	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n51		
+U+1259C	𒖜	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n51		
+U+1259D	𒖝	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n51		
+U+1259E	𒖞	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n51		
+U+1259F	𒖟	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n51		
+U+125A0	𒖠	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n51		
+U+125A1	𒖡	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n51		
+U+125A2	𒖢	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n51		
+U+125A3	𒖣	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n54		
+U+125A4	𒖤	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n54		
+U+125A5	𒖥	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n54		
+U+125A6	𒖦	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n54		
+U+125A7	𒖧	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n54		
+U+125A8	𒖨	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n56		
+U+125A9	𒖩	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n56		
+U+125AA	𒖪	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n24		
+U+125AB	𒖫	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n26		
+U+125AC	𒖬	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n28		
+U+125AD	𒖭	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n29a		
+U+125AE	𒖮	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n29b		
+U+125AF	𒖯	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30a		
+U+125B0	𒖰	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30c		
+U+125B1	𒖱	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30d		
+U+125B2	𒖲	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30e		
+U+125B3	𒖳	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n31		
+U+125B4	𒖴	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n32		
+U+125B5	𒖵	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n33		
+U+125B6	𒖶	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n39a		
+U+125B7	𒖷	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n39a		
+U+125B8	𒖸	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n39a		
+U+125B9	𒖹	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n39a		
+U+125BA	𒖺	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n39b		
+U+125BB	𒖻	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n39b		
+U+125BC	𒖼	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n39b		
+U+125BD	𒖽	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n39b		
+U+125BE	𒖾	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n02		
+U+125BF	𒖿	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n02		
+U+125C0	𒗀	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n02		
+U+125C1	𒗁	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n02		
+U+125C2	𒗂	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n02		
+U+125C3	𒗃	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n02		
+U+125C4	𒗄	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n02		
+U+125C5	𒗅	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n02		
+U+125C6	𒗆	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n02		
+U+125C7	𒗇	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n15		
+U+125C8	𒗈	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n15		
+U+125C9	𒗉	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n15		
+U+125CA	𒗊	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n15		
+U+125CB	𒗋	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n15		
+U+125CC	𒗌	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n35		
+U+125CD	𒗍	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n35		
+U+125CE	𒗎	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n35		
+U+125CF	𒗏	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n35		
+U+125D0	𒗐	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n35		
+U+125D1	𒗑	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n06		
+U+125D2	𒗒	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n06		
+U+125D3	𒗓	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n06		
+U+125D4	𒗔	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n06		
+U+125D5	𒗕	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n06		
+U+125D6	𒗖	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n06		
+U+125D7	𒗗	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n06		
+U+125D8	𒗘	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n06		
+U+125D9	𒗙	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n06		
+U+125DA	𒗚	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n21		
+U+125DB	𒗛	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n21		
+U+125DC	𒗜	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n21		
+U+125DD	𒗝	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n21		
+U+125DE	𒗞	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n21		
+U+125DF	𒗟	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n38		
+U+125E0	𒗠	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n52		
+U+125E1	𒗡	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n52		
+U+125E2	𒗢	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n52		
+U+125E3	𒗣	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n52		
+U+125E4	𒗤	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n52		
+U+125E5	𒗥	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n52		
+U+125E6	𒗦	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n52		
+U+125E7	𒗧	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n52		
+U+125E8	𒗨	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n52		
+U+125E9	𒗩	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n60		
+U+125EA	𒗪	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n24a		
+U+125EB	𒗫	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n40		
+U+125EC	𒗬	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n40		
+U+125ED	𒗭	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n40		
+U+125EE	𒗮	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n40		
+U+125EF	𒗯	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n03		
+U+125F0	𒗰	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n03		
+U+125F1	𒗱	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n03		
+U+125F2	𒗲	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n03		
+U+125F3	𒗳	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n03		
+U+125F4	𒗴	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n18		
+U+125F5	𒗵	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n18		
+U+125F6	𒗶	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n18		
+U+125F7	𒗷	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n18		
+U+125F8	𒗸	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n18		
+U+125F9	𒗹	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n18		
+U+125FA	𒗺	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n18		
+U+125FB	𒗻	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n18		
+U+125FC	𒗼	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n18		
+U+125FD	𒗽	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n45a		
+U+125FE	𒗾	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n24b		
+U+125FF	𒗿	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n26b		
+U+12600	𒘀	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n28b		
+U+12601	𒘁	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n29ab		
+U+12602	𒘂	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n41		
+U+12603	𒘃	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n41		
+U+12604	𒘄	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n41		
+U+12605	𒘅	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n41		
+U+12606	𒘆	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n04		
+U+12607	𒘇	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n04		
+U+12608	𒘈	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n04		
+U+12609	𒘉	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n04		
+U+1260A	𒘊	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n04		
+U+1260B	𒘋	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n19		
+U+1260C	𒘌	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n19		
+U+1260D	𒘍	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n19		
+U+1260E	𒘎	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n19		
+U+1260F	𒘏	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n19		
+U+12610	𒘐	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n19		
+U+12611	𒘑	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n19		
+U+12612	𒘒	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n19		
+U+12613	𒘓	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n19		
+U+12614	𒘔	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n46		
+U+12615	𒘕	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n46		
+U+12616	𒘖	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n36		
+U+12617	𒘗	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n36		
+U+12618	𒘘	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n36		
+U+12619	𒘙	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n36		
+U+1261A	𒘚	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n36		
+U+1261B	𒘛	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n36		
+U+1261C	𒘜	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n36		
+U+1261D	𒘝	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n36		
+U+1261E	𒘞	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n36		
+U+1261F	𒘟	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n49		
+U+12620	𒘠	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n49		
+U+12621	𒘡	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n49		
+U+12622	𒘢	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n49		
+U+12623	𒘣	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n25		
+U+12624	𒘤	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n27		
+U+12625	𒘥	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n28c		
+U+12626	𒘦	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n29ac		
+U+12627	𒘧	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30ac		
+U+12628	𒘨	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n30cc		
+U+12629	𒘩	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n42a		
+U+1262A	𒘪	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n42a		
+U+1262B	𒘫	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n42a		
+U+1262C	𒘬	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n42a		
+U+1262D	𒘭	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n42b		
+U+1262E	𒘮	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n42b		
+U+1262F	𒘯	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n42b		
+U+12630	𒘰	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n42b		
+U+12631	𒘱	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n05		
+U+12632	𒘲	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n05		
+U+12633	𒘳	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n05		
+U+12634	𒘴	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n05		
+U+12635	𒘵	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n05		
+U+12636	𒘶	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n20		
+U+12637	𒘷	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n20		
+U+12638	𒘸	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n20		
+U+12639	𒘹	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n20		
+U+1263A	𒘺	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n20		
+U+1263B	𒘻	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n20		
+U+1263C	𒘼	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n20		
+U+1263D	𒘽	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n20		
+U+1263E	𒘾	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n20		
+U+1263F	𒘿	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n47		
+U+12640	𒙀	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n47		
+U+12641	𒙁	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n37		
+U+12642	𒙂	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n37		
+U+12643	𒙃	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n09		
+U+12644	𒙄	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n11		
+U+12645	𒙅	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n12		
+U+12646	𒙆	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n07a		
+U+12647	𒙇	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n07a		
+U+12648	𒙈	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n07a		
+U+12649	𒙉	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n07b		
+U+1264A	𒙊	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n07b		
+U+1264B	𒙋	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n07b		
+U+1264C	𒙌	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n01 flat		
+U+1264D	𒙍	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n01 flat		
+U+1264E	𒙎	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n01 flat		
+U+1264F	𒙏	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n01 flat		
+U+12650	𒙐	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n01 flat		
+U+12651	𒙑	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n01 flat		
+U+12652	𒙒	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n01 flat		
+U+12653	𒙓	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n01 flat		
+U+12654	𒙔	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n01 flat		
+U+12655	𒙕	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n08 flat		
+U+12656	𒙖	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n14 flat		
+U+12657	𒙗	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n14 flat		
+U+12658	𒙘	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n14 flat		
+U+12659	𒙙	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n14 flat		
+U+1265A	𒙚	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n14 flat		
+U+1265B	𒙛	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n14 flat		
+U+1265C	𒙜	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n14 flat		
+U+1265D	𒙝	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n14 flat		
+U+1265E	𒙞	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n14 flat		
+U+1265F	𒙟	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n34 flat		
+U+12660	𒙠	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n34 flat		
+U+12661	𒙡	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n34 flat		
+U+12662	𒙢	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n34 flat		
+U+12663	𒙣	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n34 flat		
+U+12664	𒙤	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n34 flat		
+U+12665	𒙥	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n34 flat		
+U+12666	𒙦	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n34 flat		
+U+12667	𒙧	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n34 flat		
+U+12668	𒙨	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n45 flat		
+U+12669	𒙩	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n45 flat		
+U+1266A	𒙪	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n22 flat		
+U+1266B	𒙫	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n22 flat		
+U+1266C	𒙬	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n51 flat		
+U+1266D	𒙭	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n51 flat		
+U+1266E	𒙮	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n51 flat		
+U+1266F	𒙯	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n51 flat		
+U+12670	𒙰	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n51 flat		
+U+12671	𒙱	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n51 flat		
+U+12672	𒙲	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n51 flat		
+U+12673	𒙳	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n51 flat		
+U+12674	𒙴	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n51 flat		
+U+12675	𒙵	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n34 flat tenu		
+U+12676	𒙶	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n04 flat		
+U+12677	𒙷	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n04 flat		
+U+12678	𒙸	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n04 flat		
+U+12679	𒙹	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n04 flat		
+U+1267A	𒙺	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n04 flat		
+U+1267B	𒙻	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n19 flat		
+U+1267C	𒙼	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n19 flat		
+U+1267D	𒙽	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign three n19 flat		
+U+1267E	𒙾	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign four n19 flat		
+U+1267F	𒙿	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign five n19 flat		
+U+12680	𒚀	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign six n19 flat		
+U+12681	𒚁	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign seven n19 flat		
+U+12682	𒚂	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign eight n19 flat		
+U+12683	𒚃	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign nine n19 flat		
+U+12684	𒚄	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n46 flat		
+U+12685	𒚅	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign two n46 flat		
+U+12686	𒚆	12550..1268F	Archaic Cuneiform Numerals	Cuneiform numeric sign one n36 flat		
