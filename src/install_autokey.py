@@ -574,7 +574,7 @@ def generate_help(*, target_dir: Path) -> None:
 
     target_dir.mkdir(exist_ok=True)
 
-    source_dir = Path(__file__).resolve().parent
+    source_dir = Path(__file__).resolve().parent / "assets"
     shutil.copyfile(source_dir / "help.py", target_dir / "julia_unicode_help.py")
     shutil.copyfile(source_dir / "help.json", target_dir / "julia_unicode_help.json")
 
