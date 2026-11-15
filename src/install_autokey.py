@@ -517,7 +517,7 @@ def install_icons(
             if output.is_relative_to(path) or path.is_relative_to(output):
                 raise ValueError(f"Build directory {output} overlaps {path}.")
 
-    source = Path(__file__).resolve().parent / "assets" / "template.json"
+    source = Path(__file__).resolve().parent / "assets" / "templates" / "phrase.json"
     with source.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
@@ -590,7 +590,8 @@ def _build_phrases(
         if output.is_relative_to(path) or path.is_relative_to(output):
             raise ValueError(f"Build directory {output} overlaps {path}.")
 
-    with (source_dir.parent / "template.json").open(encoding="utf8") as file:
+    template_file = source_dir.parent / "templates" / "phrase.json"
+    with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
     phrases: list[tuple[Path, str, JSON]] = []
