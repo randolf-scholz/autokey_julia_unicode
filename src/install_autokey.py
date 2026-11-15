@@ -517,47 +517,50 @@ def generate_codes(
 
 
 def install_special_char(
-    source: Path,
     *,
     target_dir: Path,
     sendmode: str,
 ) -> None:
-    """Install a JSON asset's __payload__ and metadata using code point filenames."""
-    with source.open(encoding="utf8") as file:
-        metadata: JSON = json.load(file)
-    payload = Glyph(metadata.pop("__payload__"))
-    metadata["sendMode"] = sendmode
-    codepoints = str_to_codepoints(payload)
-    name = "_".join(codepoints)
+    """Install bundled special characters into target_dir/special_chars."""
+    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
+    target_dir = target_dir / source_dir.name
 
-    text_file = target_dir / f"{name}.txt"
-    json_file = target_dir / f"{name}.json"
-    if text_file.exists() or json_file.exists():
-        match query_choice(
-            f"Found existing special character {payload!r} ({codepoints}).",
-            choices=["keep", "overwrite", "delete"],
+    for source in sorted(source_dir.glob("*.json")):
+        with source.open(encoding="utf8") as file:
+            metadata: JSON = json.load(file)
+        payload = Glyph(metadata.pop("__payload__"))
+        metadata["sendMode"] = sendmode
+        codepoints = str_to_codepoints(payload)
+        name = "_".join(codepoints)
+
+        text_file = target_dir / f"{name}.txt"
+        json_file = target_dir / f"{name}.json"
+        if text_file.exists() or json_file.exists():
+            match query_choice(
+                f"Found existing special character {payload!r} ({codepoints}).",
+                choices=["keep", "overwrite", "delete"],
+            ):
+                case "keep":
+                    continue
+                case "overwrite":
+                    pass
+                case "delete":
+                    text_file.unlink(missing_ok=True)
+                    json_file.unlink(missing_ok=True)
+                    continue
+                case _:
+                    raise ValueError("Invalid choice.")
+        elif not query_choice(
+            f"Install special character {payload!r}?",
+            choices=[False, True],
         ):
-            case "keep":
-                return
-            case "overwrite":
-                pass
-            case "delete":
-                text_file.unlink(missing_ok=True)
-                json_file.unlink(missing_ok=True)
-                return
-            case _:
-                raise ValueError("Invalid choice.")
-    elif not query_choice(
-        f"Install special character {payload!r}?",
-        choices=[False, True],
-    ):
-        return
+            continue
 
-    target_dir.mkdir(exist_ok=True)
-    text_file.write_text(payload, encoding="utf8")
-    with json_file.open("w", encoding="utf8") as file:
-        json.dump(metadata, file, indent=True)
-    LOGGER.info("✅️ Added %s.", payload)
+        target_dir.mkdir(exist_ok=True)
+        text_file.write_text(payload, encoding="utf8")
+        with json_file.open("w", encoding="utf8") as file:
+            json.dump(metadata, file, indent=True)
+        LOGGER.info("✅️ Added %s.", payload)
 
 
 def install_custom_scripts(*, target_dir: Path) -> None:
@@ -672,12 +675,7 @@ def main() -> None:
             duplicates=args.duplicates,
         )
 
-    # add special characters
-    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
-    special = target_dir / source_dir.name
-    for source in sorted(source_dir.glob("*.json")):
-        install_special_char(source, target_dir=special, sendmode=sendmode)
-
+    install_special_char(target_dir=target_dir, sendmode=sendmode)
     install_custom_scripts(target_dir=target_dir)
     install_latex_snippets(target_dir=target_dir)
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
