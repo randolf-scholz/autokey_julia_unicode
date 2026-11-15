@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # /// script
-# requires-python = ">=3.13"
+# requires-python = ">=3.12.3"
 # ///
 """Generate phrases for autokey."""
 
@@ -8,18 +8,51 @@ import argparse
 import csv
 import json
 import logging
+import os
 import re
 import shutil
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
 from pathlib import Path
-from typing import Any, Final, Literal, NamedTuple, Self, TypeIs
+from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 LOGGER = logging.getLogger(__name__)
 type JSON = dict[str, Any]
 SPECIAL_DIR = "custom_special"
 """Directory for special characters."""
+
+
+def check_autokey_version() -> None:
+    """Require system AutoKey >=0.96.0 when its version can be determined."""
+    for command in ("autokey-gtk", "autokey-qt"):
+        # Use the system search path so a virtual environment cannot shadow AutoKey.
+        executable = shutil.which(command, path=os.defpath)
+        if executable is None:
+            continue
+        try:
+            result = subprocess.run(
+                [executable, "--version"],
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=5,
+            )
+        except (OSError, subprocess.SubprocessError):
+            continue
+        match = re.search(r"\b(\d+)\.(\d+)\.(\d+)\b", result.stdout)
+        if match is None:
+            continue
+        if tuple(map(int, match.groups())) < (0, 96, 0):
+            sys.exit(f"AutoKey >=0.96.0 is required; found {match[0]}.")
+        LOGGER.info("Detected AutoKey %s (%s).", match[0], executable)
+        return
+
+    LOGGER.warning(
+        "Could not determine the system AutoKey version; continuing. "
+        "AutoKey >=0.96.0 is required."
+    )
 
 
 class Glyph(str):
@@ -31,7 +64,7 @@ class Glyph(str):
         return super().__new__(cls, value)
 
 
-def is_glyph(s: object, /) -> TypeIs[Glyph]:
+def is_glyph(s: object, /) -> TypeGuard[Glyph]:
     """Check whether string is a single character."""
     return isinstance(s, str) and (
         len(s) == 1
@@ -58,7 +91,7 @@ class CodePoint(str):
         return int(self[2:], 16)  # ruff: ignore[FURB166]
 
 
-def is_codepoint(s: object, /) -> TypeIs[CodePoint]:
+def is_codepoint(s: object, /) -> TypeGuard[CodePoint]:
     """Check whether string is a unicode-code (like U+0000A)."""
     return isinstance(s, str) and CodePoint.PATTERN.fullmatch(s) is not None
 
@@ -87,7 +120,7 @@ class Abbreviation(str):
         return super().__new__(cls, value)
 
 
-def is_abbreviation(s: object, /) -> TypeIs[Abbreviation]:
+def is_abbreviation(s: object, /) -> TypeGuard[Abbreviation]:
     """Check if string is a valid abbreviation.
 
     Abbreviations must begin with a backslash followed by one or more
@@ -372,7 +405,7 @@ def create_autokey_phrase(
 
     name = sample.name
     payload_path = path / f"{name}.txt"
-    metadata_path = path / f".{name}.json"
+    metadata_path = path / f"{name}.json"
 
     if not overwrite and (payload_path.exists() or metadata_path.exists()):
         if duplicates == "skip":
@@ -507,7 +540,7 @@ def generate_character(
 ) -> None:
     r"""Generate special characters."""
     text_file = target_dir / f"{sample.name}.txt"
-    json_file = target_dir / f".{sample.name}.json"
+    json_file = target_dir / f"{sample.name}.json"
     if text_file.exists() or json_file.exists():
         match query_choice(
             f"Found existing special character {sample.glyph!r} ({sample.ucode}).",
@@ -609,6 +642,8 @@ def main() -> None:
 
     if args.verbose:
         LOGGER.setLevel(logging.DEBUG)
+
+    check_autokey_version()
 
     # if sendmode is missing, ask user
     if args.sendmode is None:
