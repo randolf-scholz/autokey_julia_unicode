@@ -1,19 +1,14 @@
 {
     "type": "script",
-    "description": "subscripts",
+    "description": null,
     "store": {},
-    "modes": [
-        1
-    ],
+    "modes": [1],
     "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
     "abbreviation": {
-        "abbreviations": [
-            "\\^{",
-            "\\_{"
-        ],
+        "abbreviations": null,
         "backspace": false,
         "ignoreCase": false,
         "immediate": true,

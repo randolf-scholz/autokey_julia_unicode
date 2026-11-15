@@ -568,14 +568,8 @@ def install_icons(
         LOGGER.info("Installed icons in %s.", destination)
 
 
-def _build_phrases(
-    source_dir: Path,
-    target_dir: Path,
-    *,
-    sendmode: str,
-    codepoint_names: bool = False,
-) -> list[Path]:
-    """Build TOML phrase assets and return their text files in source order."""
+def _get_build_directory(source_dir: Path, target_dir: Path) -> Path:
+    """Locate a build directory after checking cleanup cannot damage other files."""
     target_dir = target_dir / source_dir.name
     build_dir = BUILD_DIR / source_dir.name
 
@@ -589,6 +583,18 @@ def _build_phrases(
         path = path.resolve()
         if output.is_relative_to(path) or path.is_relative_to(output):
             raise ValueError(f"Build directory {output} overlaps {path}.")
+    return build_dir
+
+
+def _build_phrases(
+    source_dir: Path,
+    target_dir: Path,
+    *,
+    sendmode: str,
+    codepoint_names: bool = False,
+) -> list[Path]:
+    """Build TOML phrase assets and return their text files in source order."""
+    build_dir = _get_build_directory(source_dir, target_dir)
 
     template_file = source_dir.parent / "templates" / "phrase.json"
     with template_file.open(encoding="utf8") as file:
@@ -687,14 +693,68 @@ def install_special_chars(
         LOGGER.info("✅️ Added %s.", payload)
 
 
-def install_custom_scripts(target_dir: Path, /) -> None:
-    """Copy bundled scripts and configs into target_dir/custom_scripts."""
+def _merge_dicts(template: JSON, updates: JSON) -> JSON:
+    """Merge nested dictionaries, replacing lists and scalar values."""
+    merged = template | updates
+    for key, value in updates.items():
+        if isinstance(value, dict) and isinstance(template.get(key), dict):
+            merged[key] = _merge_dicts(template[key], value)
+    return merged
+
+
+def install_custom_scripts(target_dir: Path, /, *, build_only: bool = False) -> None:
+    """Build script metadata from TOML overrides, then install scripts and configs."""
     source_dir = Path(__file__).resolve().parent / "assets" / "custom_scripts"
-    target_dir = target_dir / "custom_scripts"
+    build_dir = _get_build_directory(source_dir, target_dir)
+    target_dir = target_dir / source_dir.name
+
+    template_file = source_dir.parent / "templates" / "script.json"
+    with template_file.open(encoding="utf8") as file:
+        template: JSON = json.load(file)
+
+    scripts: list[tuple[Path, JSON]] = []
+    for source in sorted(source_dir.rglob("*.toml")):
+        with source.open("rb") as file:
+            updates = tomllib.load(file)
+        metadata = _merge_dicts(template, updates)
+        abbreviation = metadata.get("abbreviation")
+        if (
+            not isinstance(metadata.get("description"), str)
+            or not isinstance(abbreviation, dict)
+            or not isinstance(abbreviation.get("abbreviations"), list)
+            or not all(
+                isinstance(value, str) for value in abbreviation["abbreviations"]
+            )
+        ):
+            raise ValueError(
+                f"Invalid script config {source}: description (string) and "
+                "abbreviation.abbreviations (list of strings) must be supplied."
+            )
+        if not source.with_suffix(".py").is_file():
+            raise FileNotFoundError(f"Missing Python script for {source}.")
+        scripts.append((source.relative_to(source_dir), metadata))
+
+    if build_dir.exists():
+        shutil.rmtree(build_dir)
+    build_dir.mkdir(parents=True)
 
     LOGGER.info("=" * 80)
+    LOGGER.info("Building custom scripts in %s.", build_dir)
+    for relative_path, metadata in scripts:
+        target = build_dir / relative_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(
+            (source_dir / relative_path).with_suffix(".py"), target.with_suffix(".py")
+        )
+        with target.with_suffix(".json").open("w", encoding="utf8") as file:
+            json.dump(metadata, file, indent=True)
+
+    if build_only:
+        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
+        return
+
     LOGGER.info("Installing custom scripts in %s.", target_dir)
-    shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
+    shutil.copytree(build_dir, target_dir, dirs_exist_ok=True)
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
 
 
@@ -748,7 +808,7 @@ def main() -> None:
         "--build-only",
         "--dry-run",
         action="store_true",
-        help="Build icons, LaTeX snippets and special characters without installing them.",
+        help="Build all AutoKey assets without installing them.",
     )
     parser.add_argument(
         "--verbose",
@@ -804,11 +864,8 @@ def main() -> None:
     )
     install_latex_snippets(target_dir, sendmode=sendmode, build_only=args.build_only)
     install_special_chars(target_dir, sendmode=sendmode, build_only=args.build_only)
+    install_custom_scripts(target_dir, build_only=args.build_only)
 
-    if args.build_only:
-        return
-
-    install_custom_scripts(target_dir)
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 
