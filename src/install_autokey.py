@@ -392,42 +392,6 @@ def generate_codes(
     LOGGER.info("✅️ %d unique glyphs registered.", num_created)
 
 
-def prepare_build_directory(
-    directories: Sequence[str | Path],
-    target_dir: Path,
-) -> None:
-    """Validate paths before removing the entire previous build."""
-    folders = [Path(directory).resolve() for directory in directories]
-    names = [folder.name for folder in folders] + [
-        "latex_snippets",
-        "special_chars",
-        "custom_scripts",
-    ]
-    if len(set(names)) != len(names):
-        raise ValueError("Source directories must have distinct folder names.")
-
-    for folder in folders:
-        if not folder.is_dir():
-            raise NotADirectoryError(f"{folder} is not a directory.")
-
-    for path in (BUILD_DIR, *(BUILD_DIR / name for name in names)):
-        if path.is_symlink():
-            raise ValueError(f"Build directory {path} must not be a symbolic link.")
-        if path.exists() and not path.is_dir():
-            raise NotADirectoryError(f"{path} is not a directory.")
-
-    build_dir = BUILD_DIR.resolve()
-    protected = folders + [ASSETS_DIR.parent] + [target_dir / name for name in names]
-    for path in protected:
-        path = path.resolve()
-        if build_dir.is_relative_to(path) or path.is_relative_to(build_dir):
-            raise ValueError(f"Build directory {build_dir} overlaps {path}.")
-
-    if BUILD_DIR.exists():
-        shutil.rmtree(BUILD_DIR)
-    BUILD_DIR.mkdir(parents=True)
-
-
 def build_icons(
     directories: Sequence[str | Path],
     *,
@@ -469,6 +433,7 @@ def validate_metadata(metadata: JSON, source: Path) -> None:
 def build_phrases(source_dir: Path, *, sendmode: str) -> None:
     """Build TOML phrase assets in BUILD_DIR."""
     build_dir = BUILD_DIR / source_dir.name
+    build_dir.mkdir(parents=True)
 
     template_file = source_dir.parent / "templates" / "phrase.json"
     with template_file.open(encoding="utf8") as file:
@@ -509,6 +474,7 @@ def build_custom_scripts() -> None:
     """Build Python scripts and metadata from TOML overrides in BUILD_DIR."""
     source_dir = ASSETS_DIR / "custom_scripts"
     build_dir = BUILD_DIR / source_dir.name
+    build_dir.mkdir(parents=True)
 
     template_file = source_dir.parent / "templates" / "script.json"
     with template_file.open(encoding="utf8") as file:
@@ -647,8 +613,16 @@ def main() -> None:
     )
 
     target_dir = (args.autokey_directory / args.target_directory).resolve()
+    if target_dir.is_relative_to(BUILD_DIR):
+        raise ValueError(
+            f"Installation target {target_dir} must be outside {BUILD_DIR}."
+        )
 
-    prepare_build_directory(args.source_directories, target_dir)
+    # BUILD_DIR is reserved for disposable generated files.
+    if BUILD_DIR.exists():
+        shutil.rmtree(BUILD_DIR)
+    BUILD_DIR.mkdir(parents=True)
+
     build_icons(
         args.source_directories,
         sendmode=sendmode,
