@@ -16,7 +16,8 @@ import sys
 import tempfile
 import tomllib
 from collections import Counter, defaultdict
-from collections.abc import Iterable, Sequence
+from collections.abc import Iterator, Sequence
+from enum import StrEnum
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
@@ -31,13 +32,15 @@ SEND_MODES: Final[dict[int, str]] = {
 }
 DEFAULT_QUESTION = "Please pick one of the following:"
 
-HEADER = (
-    "Code point(s)",
-    "Character(s)",
-    "Tab completion sequence(s)",
-    "Unicode name(s)",
-)
-"""Header for the unicode samples."""
+
+class Header(StrEnum):
+    """TSV column names for Unicode samples."""
+
+    CODEPOINTS = "Code point(s)"
+    CHARACTERS = "Character(s)"
+    ABBREVIATIONS = "Tab completion sequence(s)"
+    DESCRIPTION = "Unicode name(s)"
+
 
 type JSON = dict[str, Any]
 
@@ -254,31 +257,38 @@ class AutoKeyAsset(NamedTuple):
     metadata: JSON
 
 
-def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
-    """Load TSV icons by column name, ignoring additional columns."""
+def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
+    """Yield TSV icons by column name, ignoring additional columns."""
     LOGGER.info("Parsing %s", fname)
 
     with open(fname, encoding="utf8", newline="") as tsv_file:
         reader = csv.DictReader(tsv_file, delimiter="\t", quoting=csv.QUOTE_NONE)
-        if missing_columns := set(HEADER) - set(reader.fieldnames or ()):
-            raise ValueError(f"Missing columns in {fname}: {sorted(missing_columns)}")
+        if missing_columns := set(Header) - set(reader.fieldnames or ()):
+            raise ValueError(
+                f"Missing columns in {fname}: {', '.join(sorted(missing_columns))}"
+            )
 
-        samples: list[UnprocessedSample] = []
         for row in reader:
-            if missing_values := [column for column in HEADER if row[column] is None]:
+            if missing_values := [
+                column.value for column in Header if row[column] is None
+            ]:
                 raise ValueError(
                     f"Missing values in {fname} at line {reader.line_num}: {missing_values}"
                 )
-            samples.append(UnprocessedSample(*(row[column] for column in HEADER)))
-    return samples
+            yield UnprocessedSample(
+                ucode=row[Header.CODEPOINTS],
+                char=row[Header.CHARACTERS],
+                abbreviations=row[Header.ABBREVIATIONS],
+                description=row[Header.DESCRIPTION],
+            )
 
 
-def process_icons(data: Iterable[UnprocessedSample], /) -> list[UnicodeSample]:
-    """Validate samples, skipping unsupported glyphs and missing abbreviations."""
+def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
+    """Load and validate TSV samples, skipping unsupported glyphs and missing abbreviations."""
     samples: list[UnicodeSample] = []
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
 
-    for item in data:
+    for item in load_icons(fname):
         ucode, char, raw_abb, description = item
         parsed_ucodes = parse_codepoints(ucode)
 
@@ -381,16 +391,12 @@ def generate_codes(
 
     # iterate over all .tsv files in the directory
     for filename in sorted(folder.glob("*.tsv")):
-        # load  and process samples
         LOGGER.info("-" * 80)
-        raw_icons: list[UnprocessedSample] = load_icons(filename)
-        samples: list[UnicodeSample] = process_icons(raw_icons)
-
-        for sample in samples:
+        for sample in process_icons(filename):
             asset = AutoKeyAsset(
-                Path(f"{sample.name}.txt"),
-                sample.glyph.encode("utf8"),
-                _merge_dicts(
+                path=Path(f"{sample.name}.txt"),
+                payload=sample.glyph.encode("utf8"),
+                metadata=_merge_dicts(
                     template,
                     {
                         "sendMode": sendmode,
@@ -550,9 +556,9 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
         relative_path = source.relative_to(source_dir)
         write_asset(
             AutoKeyAsset(
-                relative_path.with_suffix(".txt"),
-                payload.encode("utf8"),
-                metadata,
+                path=relative_path.with_suffix(".txt"),
+                payload=payload.encode("utf8"),
+                metadata=metadata,
             ),
             build_dir,
         )
@@ -586,9 +592,9 @@ def build_custom_scripts() -> None:
             raise FileNotFoundError(f"Missing Python script for {source}.")
         write_asset(
             AutoKeyAsset(
-                source.relative_to(source_dir).with_suffix(".py"),
-                source.with_suffix(".py").read_bytes(),
-                metadata,
+                path=source.relative_to(source_dir).with_suffix(".py"),
+                payload=source.with_suffix(".py").read_bytes(),
+                metadata=metadata,
             ),
             build_dir,
         )
