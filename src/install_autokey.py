@@ -13,12 +13,14 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 LOGGER = logging.getLogger(__name__)
+BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build"
 type JSON = dict[str, Any]
 
 
@@ -412,41 +414,25 @@ def generate_codes(
     template: JSON,
     duplicates: Literal["error", "skip"],
 ) -> list[UnicodeSample]:
-    """Read the icons from filename and create phrases files in target_dir."""
+    """Generate an icon collection in a fresh subdirectory of target_dir."""
     folder = Path(directory)
     if not folder.exists():
         raise FileNotFoundError(f"{folder} does not exist.")
     if not folder.is_dir():
         raise NotADirectoryError(f"{folder} is not a directory.")
 
-    # append the fodler name to the target directory
     target_dir = target_dir / folder.name
-
-    if target_dir.exists():
-        # ask user if they want to overwrite
-        overwrite = query_choice(
-            question=f"Directory {target_dir} already exists. Overwrite?",
-            choices=[False, True],
-        )
-        if not overwrite:
-            LOGGER.debug("Aborting.")
-            sys.exit(0)
-
-        # delete directory
-        shutil.rmtree(target_dir)
-
-    # ensure directory exists
-    target_dir.mkdir(exist_ok=True)
+    target_dir.mkdir(parents=True)
 
     LOGGER.info("=" * 80)
-    LOGGER.info("Installing icons from %s", folder)
+    LOGGER.info("Building icons from %s in %s", folder, target_dir)
 
     parsed: Counter[Glyph] = Counter()  # ucode -> count
     all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
     skipped_duplicates: list[UnicodeSample] = []
 
     # iterate over all .tsv files in the directory
-    for filename in folder.glob("*.tsv"):
+    for filename in sorted(folder.glob("*.tsv")):
         # load  and process samples
         LOGGER.info("-" * 80)
         raw_icons: list[UnprocessedSample] = load_icons(filename)
@@ -511,6 +497,91 @@ def generate_codes(
 
     LOGGER.info("✅️ %d unique glyphs registered.", len(parsed))
     return skipped_duplicates
+
+
+def install_icons(
+    directories: Sequence[str | Path],
+    *,
+    target_dir: Path,
+    template: JSON,
+    duplicates: Literal["error", "skip"],
+    build_only: bool = False,
+) -> None:
+    """Build collections in the repository's build directory, then install them."""
+    folders = [Path(directory).resolve() for directory in directories]
+    build_dir = BUILD_DIR
+    target_dir = target_dir.resolve()
+
+    if build_dir.is_symlink():
+        raise ValueError(f"Build directory {build_dir} must not be a symbolic link.")
+    if build_dir.exists() and not build_dir.is_dir():
+        raise NotADirectoryError(f"{build_dir} is not a directory.")
+
+    if len({folder.name for folder in folders}) != len(folders):
+        raise ValueError("Source directories must have distinct folder names.")
+
+    if not build_only:
+        if not target_dir.exists():
+            raise FileNotFoundError(f"{target_dir} does not exist.")
+        if not target_dir.is_dir():
+            raise NotADirectoryError(f"{target_dir} is not a directory.")
+
+    # Rebuilding must never remove source files or installed collections.
+    protected = folders + [target_dir / folder.name for folder in folders]
+    for folder in folders:
+        output = build_dir / folder.name
+        if output.is_symlink():
+            raise ValueError(f"Build directory {output} must not be a symbolic link.")
+        output = output.resolve()
+        for path in protected:
+            path = path.resolve()
+            if output.is_relative_to(path) or path.is_relative_to(output):
+                raise ValueError(f"Build directory {output} overlaps {path}.")
+
+    build_dir.mkdir(parents=True, exist_ok=True)
+
+    for folder in folders:
+        output = build_dir / folder.name
+        if output.exists():
+            shutil.rmtree(output)
+        generate_codes(
+            folder,
+            target_dir=build_dir,
+            template=template,
+            duplicates=duplicates,
+        )
+
+    if build_only:
+        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
+        return
+
+    # Resolve all overwrite choices before changing any installed collection.
+    for folder in folders:
+        destination = target_dir / folder.name
+        if destination.exists() and not query_choice(
+            question=f"Directory {destination} already exists. Overwrite?",
+            choices=[False, True],
+        ):
+            LOGGER.debug("Aborting.")
+            sys.exit(0)
+
+    for folder in folders:
+        destination = target_dir / folder.name
+        with tempfile.TemporaryDirectory(
+            prefix=".autokey-install-", dir=target_dir
+        ) as temporary:
+            staged = Path(temporary) / "new"
+            backup = Path(temporary) / "old"
+            shutil.copytree(build_dir / folder.name, staged)
+            if destination.exists():
+                destination.rename(backup)
+            try:
+                staged.rename(destination)
+            except OSError:
+                if backup.exists():
+                    backup.rename(destination)
+                raise
+        LOGGER.info("Installed icons in %s.", destination)
 
 
 def install_special_chars(target_dir: Path, /, *, sendmode: str) -> None:
@@ -594,13 +665,6 @@ def main() -> None:
     detected_directory = Path.home() / ".config/autokey/data/"
     AUTOKEY_DIR = detected_directory if detected_directory.exists() else Path.cwd()
 
-    if detected_directory.exists():
-        LOGGER.debug("Found autokey directory at %s.", detected_directory)
-    else:
-        LOGGER.warning(
-            "Autokey directory not found. Will generate files locally instead."
-        )
-
     parser = argparse.ArgumentParser(
         description="Install icons for usage with autokey.",
     )
@@ -620,8 +684,14 @@ def main() -> None:
     parser.add_argument(
         "--autokey-directory",
         default=AUTOKEY_DIR,
-        type=str,
+        type=Path,
         help="The data directory of AutoKey.",
+    )
+    parser.add_argument(
+        "--build-only",
+        "--dry-run",
+        action="store_true",
+        help="Build icon files in the project's build/ directory without installing them.",
     )
     parser.add_argument(
         "--verbose",
@@ -649,7 +719,13 @@ def main() -> None:
     if args.verbose:
         LOGGER.setLevel(logging.DEBUG)
 
-    check_autokey_version()
+    if not args.build_only:
+        check_autokey_version()
+        if not detected_directory.exists():
+            LOGGER.warning(
+                "Autokey directory not found. Installing into %s.",
+                args.autokey_directory / args.target_directory,
+            )
 
     # if sendmode is missing, ask user
     if args.sendmode is None:
@@ -660,23 +736,19 @@ def main() -> None:
     else:
         sendmode = SEND_MODES[args.sendmode]
 
-    # validate target_directory
-    target_dir = AUTOKEY_DIR / args.target_directory
-
-    if not target_dir.exists():
-        raise FileNotFoundError(f"{target_dir} does not exist.")
-    if not target_dir.is_dir():
-        raise NotADirectoryError(f"{target_dir} is not a directory.")
-
+    target_dir = args.autokey_directory / args.target_directory
     template = TEMPLATE | {"sendMode": sendmode}
 
-    for directory in args.source_directories:
-        generate_codes(
-            directory,
-            target_dir=target_dir,
-            template=template,
-            duplicates=args.duplicates,
-        )
+    install_icons(
+        args.source_directories,
+        target_dir=target_dir,
+        template=template,
+        duplicates=args.duplicates,
+        build_only=args.build_only,
+    )
+
+    if args.build_only:
+        return
 
     install_custom_scripts(target_dir)
     install_latex_snippets(target_dir, sendmode=sendmode)
