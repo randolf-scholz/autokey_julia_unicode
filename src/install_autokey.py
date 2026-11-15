@@ -12,7 +12,6 @@ import os
 import re
 import shutil
 import subprocess
-import tempfile
 import tomllib
 from collections import defaultdict
 from collections.abc import Iterator, Sequence
@@ -479,7 +478,7 @@ def build_custom_scripts() -> None:
 
 
 def install_build(target_dir: Path) -> None:
-    """Move all built collections into AutoKey, restoring backups on failure."""
+    """Move built collections into AutoKey, asking before replacing existing ones."""
     collections = sorted(BUILD_DIR.iterdir())
     existing = [
         source.name
@@ -495,29 +494,13 @@ def install_build(target_dir: Path) -> None:
         return
 
     target_dir.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(
-        prefix=".autokey-install-", dir=target_dir
-    ) as temporary:
-        backup_dir = Path(temporary)
-        attempted: list[Path] = []
-        try:
-            for source in collections:
-                destination = target_dir / source.name
-                if destination.exists() or destination.is_symlink():
-                    destination.rename(backup_dir / source.name)
-                attempted.append(source)
-                shutil.move(source, destination)
-        except (OSError, KeyboardInterrupt):
-            for source in reversed(attempted):
-                destination = target_dir / source.name
-                if not source.exists():
-                    shutil.move(destination, source)
-                elif destination.exists():
-                    # A cross-filesystem move can leave an incomplete copy.
-                    shutil.rmtree(destination)
-            for backup in backup_dir.iterdir():
-                backup.rename(target_dir / backup.name)
-            raise
+    for source in collections:
+        destination = target_dir / source.name
+        if destination.is_symlink() or destination.is_file():
+            destination.unlink()
+        elif destination.exists():
+            shutil.rmtree(destination)
+        shutil.move(source, destination)
     LOGGER.info(
         "Installed AutoKey assets in %s. Restart AutoKey to enable them!", target_dir
     )
