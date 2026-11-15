@@ -238,24 +238,19 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
         # guard against invalid character
         if not is_glyph(char):
             LOGGER.debug("Invalid character: %s=%s", item.ucode, item.char)
-            skipped.append(
-                (
-                    item,
-                    f"Invalid character {char!r}={str_to_codepoints(char)}",
-                )
-            )
+            reason = f"Invalid character {char!r}={str_to_codepoints(char)}"
+            skipped.append((item, reason))
             continue
 
-        # guard against invalid abbreviation
-        try:
+        try:  # guard against invalid abbreviation
             abbreviations = make_abbreviations(raw_abb)
         except ValueError as err:
             raise ValueError(f"Invalid abbreviation: {item}") from err
-
-        if not abbreviations:
-            LOGGER.debug("No abbreviations: %s", item)
-            skipped.append((item, "No Abbreviations"))
-            continue
+        else:
+            if not abbreviations:
+                LOGGER.debug("No abbreviations: %s", item)
+                skipped.append((item, "No Abbreviations"))
+                continue
 
         glyph_ucodes = str_to_codepoints(char)
         if parsed_ucodes != glyph_ucodes:
@@ -275,11 +270,7 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
     # check skipped items
     for item, reason in skipped:
         LOGGER.info("❌️ Skipped: %s, reason=%r", item, reason)
-    if skipped:
-        LOGGER.info("❌️ %d skipped items.", len(skipped))
-    else:
-        LOGGER.info("✅️ No items skipped.")
-
+    LOGGER.info(f"ℹ️ {len(skipped)} skipped items.")
     LOGGER.info("✅️ %d items sucessfully pre-processed.", len(samples))
     return samples
 
@@ -365,29 +356,19 @@ def generate_codes(
 
     LOGGER.info("=" * 80)
     # duplicates information
-    if skipped_duplicates:
-        LOGGER.info("Skipped %d duplicate characters:", len(skipped_duplicates))
-        for sample in skipped_duplicates:
-            LOGGER.info(
-                "- %s (%s): %s",
-                sample.glyph,
-                ", ".join(sample.ucode),
-                sample.description,
-            )
-    else:
-        LOGGER.info("✅️ No duplicate characters skipped.")
+    for sample in skipped_duplicates:
+        LOGGER.info(
+            f"Skipped: {sample.glyph} ({', '.join(sample.ucode)}): {sample.description}"
+        )
+    LOGGER.info(f"ℹ️: Skipped {len(skipped_duplicates)} duplicate characters")
 
     # check if all abbreviations are unique
-    num_duplicate_abbrv = 0
+    num_duplicates = 0
     for abb, ucodes in all_abbreviations.items():
         if len(ucodes) > 1:
             LOGGER.info("❌️ Duplicate abbreviation: %s -> %s", abb, ucodes)
-            num_duplicate_abbrv += 1
-    if num_duplicate_abbrv:
-        LOGGER.info("❌️ %d duplicate abbreviations.", num_duplicate_abbrv)
-    else:
-        LOGGER.info("✅️ All abbreviations unique.")
-
+            num_duplicates += 1
+    LOGGER.info(f"ℹ️: {num_duplicates} duplicate abbreviations.")
     LOGGER.info("✅️ %d unique glyphs registered.", num_created)
 
 
