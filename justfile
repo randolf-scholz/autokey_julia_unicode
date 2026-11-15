@@ -1,4 +1,8 @@
-# Install Unicode character abbreviations for AutoKey.
+[doc("Show available recipes.")]
+default:
+    @just --list
+
+[doc("Install Unicode character abbreviations for AutoKey.")]
 [positional-arguments]
 install *args:
     #!/usr/bin/env bash
@@ -9,7 +13,34 @@ install *args:
     fi
     exec "$python" src/install_autokey.py "$@"
 
-# Run Python and Julia test files matching a filename glob (quote globs at the CLI).
+[doc("Export the running Julia version's Unicode completions.")]
+[positional-arguments]
+export-julia *args:
+    julia --startup-file=no src/export_julia.jl "$@"
+
+[doc("Export per-block Unicode TSV files from the locally imported UCD.")]
+[positional-arguments]
+export-ucd *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python="${PYTHON:-python3}"
+    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
+        python=.venv/bin/python
+    fi
+    exec "$python" src/export_ucd.py "$@"
+
+[doc("Download and validate a Unicode Character Database release.")]
+[positional-arguments]
+import-ucd *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python="${PYTHON:-python3}"
+    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
+        python=.venv/bin/python
+    fi
+    exec "$python" src/import_ucd.py "$@"
+
+[doc("Run Python and Julia test files matching a filename glob (quote globs at the CLI).")]
 test name='*':
     #!/usr/bin/env bash
     set -euo pipefail
