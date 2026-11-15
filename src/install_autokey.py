@@ -215,9 +215,7 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
             )
 
         for row in reader:
-            if missing_values := [
-                column.value for column in Header if row[column] is None
-            ]:
+            if missing_values := [col.value for col in Header if row[col] is None]:
                 raise ValueError(
                     f"Missing values in {fname} at line {reader.line_num}: {missing_values}"
                 )
@@ -407,20 +405,24 @@ def prepare_build_directory(
     ]
     if len(set(names)) != len(names):
         raise ValueError("Source directories must have distinct folder names.")
+
     for folder in folders:
         if not folder.is_dir():
             raise NotADirectoryError(f"{folder} is not a directory.")
+
     for path in (BUILD_DIR, *(BUILD_DIR / name for name in names)):
         if path.is_symlink():
             raise ValueError(f"Build directory {path} must not be a symbolic link.")
         if path.exists() and not path.is_dir():
             raise NotADirectoryError(f"{path} is not a directory.")
+
     build_dir = BUILD_DIR.resolve()
     protected = folders + [ASSETS_DIR.parent] + [target_dir / name for name in names]
     for path in protected:
         path = path.resolve()
         if build_dir.is_relative_to(path) or path.is_relative_to(build_dir):
             raise ValueError(f"Build directory {build_dir} overlaps {path}.")
+
     if BUILD_DIR.exists():
         shutil.rmtree(BUILD_DIR)
     BUILD_DIR.mkdir(parents=True)
@@ -433,8 +435,10 @@ def build_icons(
     duplicates: Literal["error", "skip"],
 ) -> None:
     """Build the requested TSV collections in BUILD_DIR."""
-    with (ASSETS_DIR / "templates" / "phrase.json").open(encoding="utf8") as file:
+    template_file = ASSETS_DIR / "templates" / "phrase.json"
+    with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
+
     for directory in directories:
         generate_codes(
             directory,
@@ -448,19 +452,15 @@ def build_icons(
 def validate_metadata(metadata: JSON, source: Path) -> None:
     """Require a description and abbreviation list, reporting the invalid field."""
     if not isinstance(metadata.get("description"), str):
-        raise ValueError(  # noqa: TRY004 - invalid configuration data
-            f"Invalid metadata in {source}: description must be a string."
-        )
+        raise TypeError(f"Invalid metadata in {source}: description must be a string.")
+
     abbreviation = metadata.get("abbreviation")
     if not isinstance(abbreviation, dict):
-        raise ValueError(  # noqa: TRY004 - invalid configuration data
-            f"Invalid metadata in {source}: abbreviation must be a table."
-        )
-    abbreviations = abbreviation.get("abbreviations")
-    if not isinstance(abbreviations, list) or not all(
-        isinstance(value, str) for value in abbreviations
-    ):
-        raise ValueError(
+        raise TypeError(f"Invalid metadata in {source}: abbreviation must be a table.")
+
+    abbs = abbreviation.get("abbreviations")
+    if not isinstance(abbs, list) or not all(isinstance(a, str) for a in abbs):
+        raise TypeError(
             f"Invalid metadata in {source}: "
             "abbreviation.abbreviations must be a list of strings."
         )
@@ -478,11 +478,11 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
     for source in sorted(source_dir.rglob("*.toml")):
         with source.open("rb") as file:
             updates = tomllib.load(file)
+
         payload = updates.pop("payload", None)
         if not isinstance(payload, str):
-            raise ValueError(  # noqa: TRY004 - invalid configuration data
-                f"Invalid snippet {source}: payload must be a string."
-            )
+            raise TypeError(f"Invalid snippet {source}: payload must be a string.")
+
         metadata = _merge_dicts(
             template,
             {"description": source.stem} | updates | {"sendMode": sendmode},
@@ -516,12 +516,15 @@ def build_custom_scripts() -> None:
 
     LOGGER.info("Building custom scripts in %s.", build_dir)
     for source in sorted(source_dir.rglob("*.toml")):
-        with source.open("rb") as file:
-            updates = tomllib.load(file)
-        metadata = _merge_dicts(template, updates)
-        validate_metadata(metadata, source)
         if not source.with_suffix(".py").is_file():
             raise FileNotFoundError(f"Missing Python script for {source}.")
+
+        with source.open("rb") as file:
+            updates = tomllib.load(file)
+
+        metadata = _merge_dicts(template, updates)
+        validate_metadata(metadata, source)
+
         write_asset(
             build_dir / source.relative_to(source_dir).with_suffix(".py"),
             payload=source.with_suffix(".py").read_bytes(),
