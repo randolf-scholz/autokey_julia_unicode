@@ -1,6 +1,6 @@
 # AutoKey Unicode characters
 
-[Usage](#usage) | [Installation](#installation) | [Changelog](#changelog) | [Features](#features) | [Known Issues](#known-issues--limitations) | [References](#references)
+[Usage](#usage) | [Requirements](#requirements) | [Installation](#installation) | [Changelog](#changelog) | [Features](#features) | [Known Issues](#known-issues--limitations) | [References](#references)
 
 ![demo](demo.gif)
 
@@ -8,10 +8,16 @@
 
 This script adds all the Unicode character abbreviations supported by [Julia](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input) to AutoKey. However, instead of `[TAB]`, they are triggered on `[SPACE]`. If you do not want to perform the replacement, simply hit `[BACKSPACE]` afterwards.
 
+## Requirements
+
+- Python ≥3.12.3.
+- [AutoKey](https://github.com/autokey/autokey) ≥0.96.0, running on X11. Wayland is unsupported.
+- Julia ≥1.11 (optional), only needed to regenerate the Julia Unicode tables. Installing the bundled tables does not require Julia.
+
 ## Installation
 
 1. Install [AutoKey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
-2. From the repository root, run `just install` (requires Python ≥3.13 and [just](https://github.com/casey/just)).
+2. From the repository root, run `just install` (requires [just](https://github.com/casey/just)).
 
    If just is not installed, run the installer directly with Python:
 
@@ -28,6 +34,8 @@ This script adds all the Unicode character abbreviations supported by [Julia](ht
    `just install` uses `.venv/bin/python` when available, otherwise `python3`. Set `PYTHON` to override the interpreter. Installer options can be passed through, for example `just install --help`.
 
 3. Restart AutoKey
+
+The installer checks the AutoKey version and stops if it detects a version below 0.96.0. If the version cannot be determined, it warns and continues.
 
 ## Features
 

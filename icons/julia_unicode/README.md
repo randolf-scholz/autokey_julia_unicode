@@ -5,6 +5,10 @@ characters used in Julia, along with their corresponding abbreviations.
 
 This table can be found in the Julia documentation <https://docs.julialang.org/en/v1/manual/unicode-input/>
 
+Installing the bundled tables requires Python ≥3.12.3 and AutoKey ≥0.96.0 on X11.
+Julia ≥1.11 is optional and is only required to regenerate the tables.
+See the [project installation instructions](../../README.md#installation).
+
 Generate a table for the installed Julia version (Julia 1.11 or newer) with:
 
 ```sh
