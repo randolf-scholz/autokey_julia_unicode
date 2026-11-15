@@ -4,8 +4,6 @@
 # ///
 """Generate phrases for autokey."""
 
-# %% Imports
-
 import argparse
 import csv
 import json
@@ -18,17 +16,10 @@ from collections.abc import Generator, Sequence
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeIs
 
-# In[2]:
-# Globals / Constants / Templates
 LOGGER = logging.getLogger(__name__)
 type JSON = dict[str, Any]
-# any printable ascii character except backslash (x5C) and space (x20)
-LEGAL_CHARS = re.compile(r"[\x21-\x5B\x5D-\x7E]+")
-"""Regex pattern for legal characters."""
 SPECIAL_DIR = "custom_special"
 """Directory for special characters."""
-ILLEGAL_FILENAME_CHARS_LINUX = r"""/"""
-ILLEGAL_FILENAME_CHARS_WINDOWS = r"""\/?%*:|"<>.,;="""
 
 
 class Glyph(str):
@@ -42,7 +33,6 @@ class Glyph(str):
 
 def is_glyph(s: object, /) -> TypeIs[Glyph]:
     """Check whether string is a single character."""
-    # test exact match against regex
     return isinstance(s, str) and (
         len(s) == 1
         or (
@@ -70,7 +60,6 @@ class CodePoint(str):
 
 def is_codepoint(s: object, /) -> TypeIs[CodePoint]:
     """Check whether string is a unicode-code (like U+0000A)."""
-    # test exact match against regex
     return isinstance(s, str) and CodePoint.PATTERN.fullmatch(s) is not None
 
 
@@ -146,7 +135,6 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
-# %% Helper scripts
 TEMPLATE: JSON = {
     "abbreviation": {
         "abbreviations": [],
@@ -175,8 +163,6 @@ TEMPLATE: JSON = {
     "usageCount": 0,
 }
 
-
-# %% Helper function send-mode
 
 SEND_MODES: Final[dict[int, str]] = {
     0: r"<ctrl>+v",
@@ -207,26 +193,14 @@ def query_choice[T](
         except (KeyboardInterrupt, SystemExit):
             print("Operation aborted. Exiting.")
             sys.exit(0)
-        else:
-            try:
-                if user_choice == "" and default is not None:
-                    return options[default]
-                return options[int(user_choice)]
-            except (KeyError, ValueError):
-                print("Did not understand input.")
-            continue
+        try:
+            if user_choice == "" and default is not None:
+                return options[default]
+            return options[int(user_choice)]
+        except (KeyError, ValueError):
+            print("Did not understand input.")
 
 
-def get_sendmode() -> str:
-    """Ask the user which sendmode to use."""
-    sendmode = query_choice(
-        question="How should character substitutions be performed?",
-        choices=SEND_MODES,
-    )
-    return sendmode
-
-
-# %% Generate phrases
 class UnprocessedSample(NamedTuple):
     """Named tuple for unprocessed unicode samples."""
 
@@ -247,6 +221,11 @@ class UnicodeSample(NamedTuple):
     glyph: Glyph
     abbreviations: list[Abbreviation]
     description: str
+
+    @property
+    def name(self) -> str:
+        """Filename stem shared by the phrase and its metadata."""
+        return "_".join(self.ucode)
 
     def __repr__(self) -> str:
         char, ucode, abbrevations = self.glyph, self.ucode, self.abbreviations
@@ -318,10 +297,8 @@ def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
 
 
 def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
-    r"""Process the unicode samples."""
+    """Validate samples, skipping unsupported glyphs and missing abbreviations."""
     samples: list[UnicodeSample] = []
-    # parsed = Counter()  # ucode -> count
-    # all_abbreviations = defaultdict(list)  # abbrv -> ucode
     LOGGER.info("Pre-Processing %d items.", len(data))
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
 
@@ -338,12 +315,6 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
             ))
             continue
 
-        # guard against invalid unicode
-        if not all(is_codepoint(code) for code in parsed_ucodes):
-            LOGGER.debug("Invalid unicode: %s", item)
-            skipped.append((item, "Invalid Unicode"))
-            continue
-
         # guard against invalid abbreviation
         try:
             abbreviations = make_abbreviations(raw_abb)
@@ -354,6 +325,13 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
             LOGGER.debug("No abbreviations: %s", item)
             skipped.append((item, "No Abbreviations"))
             continue
+
+        glyph_ucodes = str_to_codepoints(char)
+        if parsed_ucodes != glyph_ucodes:
+            raise ValueError(
+                f"{item}: Mismatch between ucode and glyph: "
+                f"{parsed_ucodes} != {glyph_ucodes}"
+            )
 
         sample = UnicodeSample(
             ucode=parsed_ucodes,
@@ -383,20 +361,14 @@ def create_autokey_phrase(
     overwrite: bool = False,
     duplicates: Literal["error", "skip"] = "error",
 ) -> PhraseCreationResult:
-    """Create the autokey phrase and metadata file."""
+    """Write a validated sample's AutoKey phrase and metadata files."""
     metadata = template | {
         "abbreviation": template["abbreviation"]
         | {"abbreviations": sample.abbreviations},
         "description": sample.description,
     }
 
-    if sample.ucode != str_to_codepoints(sample.glyph):
-        raise ValueError(
-            f"{sample}: Mismatch between ucode and glyph"
-            f"{sample.ucode} != {str_to_codepoints(sample.glyph)}"
-        )
-
-    name = "_".join(sample.ucode)
+    name = sample.name
     payload_path = path / f"{name}.txt"
     metadata_path = path / f".{name}.json"
 
@@ -431,7 +403,6 @@ def generate_codes(
     if not folder.is_dir():
         raise NotADirectoryError(f"{folder} is not a directory.")
 
-    # region make the target directory -----------------------------------------
     # append the fodler name to the target directory
     target_dir = target_dir / folder.name
 
@@ -450,7 +421,6 @@ def generate_codes(
 
     # ensure directory exists
     target_dir.mkdir(exist_ok=True)
-    # endregion ----------------------------------------------------------------
 
     LOGGER.info("=" * 80)
     LOGGER.info("Installing icons from %s", folder)
@@ -527,8 +497,6 @@ def generate_codes(
     return skipped_duplicates
 
 
-# %% Generate help script
-
 HELP_SCRIPT = r"""#!/usr/bin/env python
 import webbrowser
 webbrowser.open("https://docs.julialang.org/en/v1/manual/unicode-input/")
@@ -569,38 +537,30 @@ def generate_character(
     *,
     template: JSON = TEMPLATE,
     target_dir: Path,
-    default: bool = False,
 ) -> None:
     r"""Generate special characters."""
-    text_file = target_dir / f"{sample.ucode}.txt"
-    json_file = target_dir / f".{sample.ucode}.json"
+    text_file = target_dir / f"{sample.name}.txt"
+    json_file = target_dir / f".{sample.name}.json"
     if text_file.exists() or json_file.exists():
         match query_choice(
             f"Found existing special character {sample.glyph!r} ({sample.ucode}).",
             choices=["keep", "overwrite", "delete"],
         ):
             case "keep":
-                pass
-            case "overwrite":
-                text_file.unlink()
-                json_file.unlink()
-            case "delete":
-                text_file.unlink()
-                json_file.unlink()
-                return  # exit early
-            case _:
-                raise ValueError("Invalid choice.")
-    else:
-        match query_choice(
-            f"Install special character {sample.glyph!r}?",
-            choices=[False, True],
-        ):
-            case False:
                 return
-            case True:
+            case "overwrite":
                 pass
+            case "delete":
+                text_file.unlink(missing_ok=True)
+                json_file.unlink(missing_ok=True)
+                return
             case _:
                 raise ValueError("Invalid choice.")
+    elif not query_choice(
+        f"Install special character {sample.glyph!r}?",
+        choices=[False, True],
+    ):
+        return
 
     target_dir.mkdir(exist_ok=True)
     create_autokey_phrase(sample, template=template, path=target_dir, overwrite=True)
@@ -621,21 +581,6 @@ def generate_help(*, target_dir: Path) -> None:
         json.dump(HELP_CONFIG, file, indent=True)
 
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
-
-
-# %% Unused
-
-
-def make_template(abbreviations: list[str], description: str, sendmode: str) -> JSON:
-    r"""Create the template."""
-    return TEMPLATE | {
-        "abbreviation": Abbreviation | {"abbreviations": abbreviations},
-        "description": description,
-        "sendMode": sendmode,
-    }
-
-
-# %% Main
 
 
 def main() -> None:
@@ -701,7 +646,13 @@ def main() -> None:
         LOGGER.setLevel(logging.DEBUG)
 
     # if sendmode is missing, ask user
-    sendmode = get_sendmode() if args.sendmode is None else SEND_MODES[args.sendmode]
+    if args.sendmode is None:
+        sendmode = query_choice(
+            question="How should character substitutions be performed?",
+            choices=SEND_MODES,
+        )
+    else:
+        sendmode = SEND_MODES[args.sendmode]
 
     # validate target_directory
     target_dir = AUTOKEY_DIR / args.target_directory
@@ -723,8 +674,8 @@ def main() -> None:
 
     # add special characters
     special = target_dir / SPECIAL_DIR
-    generate_character(TABULATOR, target_dir=special, template=template, default=False)
-    generate_character(NEWLINE, target_dir=special, template=template, default=False)
+    generate_character(TABULATOR, target_dir=special, template=template)
+    generate_character(NEWLINE, target_dir=special, template=template)
 
     generate_help(target_dir=target_dir / "help")
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
