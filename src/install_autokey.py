@@ -168,35 +168,6 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
-TEMPLATE: JSON = {
-    "abbreviation": {
-        "abbreviations": [],
-        "backspace": True,
-        "ignoreCase": False,
-        "immediate": True,
-        "triggerInside": True,
-        "wordChars": "[^\\t]",
-    },
-    "description": "",
-    "filter": {
-        "regex": None,
-        "isRecursive": False,
-    },
-    "hotkey": {
-        "modifiers": [],
-        "hotKey": None,
-    },
-    "modes": [1],
-    "matchCase": False,
-    "omitTrigger": False,
-    "prompt": False,
-    "sendMode": r"<shift>+<insert>",
-    "showInTrayMenu": False,
-    "type": "phrase",
-    "usageCount": 0,
-}
-
-
 SEND_MODES: Final[dict[int, str]] = {
     0: r"<ctrl>+v",
     1: r"<ctrl>+<shift>+v",
@@ -378,17 +349,12 @@ def create_autokey_phrase(
     sample: UnicodeSample,
     *,
     path: Path,
-    template: JSON = TEMPLATE,
+    template: JSON,
+    sendmode: str,
     overwrite: bool = False,
     duplicates: Literal["error", "skip"] = "error",
 ) -> PhraseCreationResult:
     """Write a validated sample's AutoKey phrase and metadata files."""
-    metadata = template | {
-        "abbreviation": template["abbreviation"]
-        | {"abbreviations": sample.abbreviations},
-        "description": sample.description,
-    }
-
     name = sample.name
     payload_path = path / f"{name}.txt"
     metadata_path = path / f"{name}.json"
@@ -402,7 +368,17 @@ def create_autokey_phrase(
 
     payload_path.write_text(sample.glyph, encoding="utf8")
     with metadata_path.open("w", encoding="utf8") as file:
-        json.dump(metadata, file, indent=True)
+        json.dump(
+            template
+            | {
+                "sendMode": sendmode,
+                "abbreviation": template["abbreviation"]
+                | {"abbreviations": sample.abbreviations},
+                "description": sample.description,
+            },
+            file,
+            indent=True,
+        )
 
     return PhraseCreationResult(status="created", name=name)
 
@@ -412,6 +388,7 @@ def generate_codes(
     *,
     target_dir: Path,
     template: JSON,
+    sendmode: str,
     duplicates: Literal["error", "skip"],
 ) -> list[UnicodeSample]:
     """Generate an icon collection in a fresh subdirectory of target_dir."""
@@ -443,6 +420,7 @@ def generate_codes(
                 sample,
                 path=target_dir,
                 template=template,
+                sendmode=sendmode,
                 duplicates=duplicates,
             )
 
@@ -503,7 +481,7 @@ def install_icons(
     directories: Sequence[str | Path],
     *,
     target_dir: Path,
-    template: JSON,
+    sendmode: str,
     duplicates: Literal["error", "skip"],
     build_only: bool = False,
 ) -> None:
@@ -538,6 +516,10 @@ def install_icons(
             if output.is_relative_to(path) or path.is_relative_to(output):
                 raise ValueError(f"Build directory {output} overlaps {path}.")
 
+    source = Path(__file__).resolve().parent / "assets" / "template.json"
+    with source.open(encoding="utf8") as file:
+        template: JSON = json.load(file)
+
     build_dir.mkdir(parents=True, exist_ok=True)
 
     for folder in folders:
@@ -548,6 +530,7 @@ def install_icons(
             folder,
             target_dir=build_dir,
             template=template,
+            sendmode=sendmode,
             duplicates=duplicates,
         )
 
@@ -737,12 +720,11 @@ def main() -> None:
         sendmode = SEND_MODES[args.sendmode]
 
     target_dir = args.autokey_directory / args.target_directory
-    template = TEMPLATE | {"sendMode": sendmode}
 
     install_icons(
         args.source_directories,
         target_dir=target_dir,
-        template=template,
+        sendmode=sendmode,
         duplicates=args.duplicates,
         build_only=args.build_only,
     )
