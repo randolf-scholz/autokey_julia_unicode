@@ -138,16 +138,9 @@ class Abbreviation(str):
 
 def make_abbreviations(raw_data: str, /) -> list[Abbreviation]:
     """Create the abbreviation list from the raw data."""
-    abbreviations: list[Abbreviation] = []
-
     if not raw_data:
-        return abbreviations
-
-    for raw_abb in raw_data.split(", "):
-        abb = Abbreviation(raw_abb + " ")  # add single trailing space
-        abbreviations.append(abb)
-
-    return abbreviations
+        return []
+    return [Abbreviation(abb + " ") for abb in raw_data.split(", ")]
 
 
 def query_choice[T](
