@@ -15,22 +15,21 @@ import subprocess
 import sys
 import tempfile
 import tomllib
-from collections import Counter, defaultdict
+from collections import defaultdict
 from collections.abc import Iterator, Sequence
 from enum import StrEnum
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
+type JSON = dict[str, Any]
 LOGGER = logging.getLogger(__name__)
 BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
 ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
-
 SEND_MODES: Final[dict[int, str]] = {
     0: r"<ctrl>+v",
     1: r"<ctrl>+<shift>+v",
     2: r"<shift>+<insert>",
 }
-DEFAULT_QUESTION = "Please pick one of the following:"
 
 
 class Header(StrEnum):
@@ -40,9 +39,6 @@ class Header(StrEnum):
     CHARACTERS = "Character(s)"
     ABBREVIATIONS = "Tab completion sequence(s)"
     DESCRIPTION = "Unicode name(s)"
-
-
-type JSON = dict[str, Any]
 
 
 def check_autokey_version() -> None:
@@ -91,7 +87,10 @@ def is_glyph(s: object, /) -> TypeGuard[Glyph]:
         len(s) == 1
         or (
             len(s) == 2
-            and (is_variation_selector(s[1]) or is_combining_character(s[1]))
+            and (
+                ("\ufe00" <= s[1] <= "\ufe0f")  # variation selector
+                or ("\u0300" <= s[1] <= "\u036f")  # combining character
+            )
         )
     )
 
@@ -103,18 +102,13 @@ class CodePoint(str):
     """Regex pattern for unicode codes."""
 
     def __new__(cls, value: str) -> Self:
-        if not is_codepoint(value):
+        if not isinstance(value, str) or CodePoint.PATTERN.fullmatch(value) is None:
             raise ValueError(f"{value!r} is not a valid unicode code.")
         return super().__new__(cls, value)
 
     @property
     def hex(self) -> int:
         return int(self[2:], 16)  # ruff: ignore[FURB166]
-
-
-def is_codepoint(s: object, /) -> TypeGuard[CodePoint]:
-    """Check whether string is a unicode-code (like U+0000A)."""
-    return isinstance(s, str) and CodePoint.PATTERN.fullmatch(s) is not None
 
 
 def parse_codepoints(s: str, /) -> list[CodePoint]:
@@ -131,7 +125,7 @@ class Abbreviation(str):
     """Regex pattern for abbreviations start with backslash (5C) and end in space (20)."""
 
     def __new__(cls, value: str) -> Self:
-        if not is_abbreviation(value):
+        if not isinstance(value, str) or Abbreviation.PATTERN.fullmatch(value) is None:
             raise ValueError(
                 f"{value!r} is not a valid abbreviation."
                 "\nAbbrevations must begin with a backslash and terminate with a space."
@@ -139,30 +133,6 @@ class Abbreviation(str):
                 " except backslash x5C."
             )
         return super().__new__(cls, value)
-
-
-def is_abbreviation(s: object, /) -> TypeGuard[Abbreviation]:
-    """Check if string is a valid abbreviation.
-
-    Abbreviations must begin with a backslash followed by one or more
-    legal characters and terminate with a single space.
-    """
-    return isinstance(s, str) and Abbreviation.PATTERN.fullmatch(s) is not None
-
-
-def is_variation_selector(s: str, /) -> bool:
-    """Check whether string is a variation selector."""
-    return len(s) == 1 and "\ufe00" <= s <= "\ufe0f"
-
-
-def is_combining_character(s: str, /) -> bool:
-    """Check whether string is a combining character."""
-    return len(s) == 1 and "\u0300" <= s <= "\u036f"
-
-
-def as_hex(s: str, /) -> str:
-    """Convert string to hex representation."""
-    return str([f"U+{ord(c):04X}" for c in s])
 
 
 def make_abbreviations(raw_data: str, /) -> list[Abbreviation]:
@@ -189,8 +159,13 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
+def as_hex(s: str, /) -> str:
+    """Convert string to hex representation."""
+    return str([f"U+{ord(c):04X}" for c in s])
+
+
 def query_choice[T](
-    question: str = DEFAULT_QUESTION,
+    question: str = "Please pick one of the following:",
     *,
     choices: list[T] | dict[int, T],
     default: int | None = 0,
@@ -371,7 +346,7 @@ def generate_codes(
     template: JSON,
     sendmode: str,
     duplicates: Literal["error", "skip"],
-) -> list[UnicodeSample]:
+) -> None:
     """Generate an icon collection in a fresh subdirectory of target_dir."""
     folder = Path(directory)
     if not folder.exists():
@@ -385,7 +360,7 @@ def generate_codes(
     LOGGER.info("=" * 80)
     LOGGER.info("Building icons from %s in %s", folder, target_dir)
 
-    parsed: Counter[Glyph] = Counter()  # ucode -> count
+    num_created = 0
     all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
     skipped_duplicates: list[UnicodeSample] = []
 
@@ -414,7 +389,7 @@ def generate_codes(
                 continue
 
             LOGGER.debug("Registered %s", sample)
-            parsed[sample.glyph] += 1
+            num_created += 1
             for abb in sample.abbreviations:
                 all_abbreviations[abb].append(sample.glyph)
 
@@ -434,16 +409,6 @@ def generate_codes(
     else:
         LOGGER.info("✅️ No duplicate characters skipped.")
 
-    num_duplicate_glyphs = 0
-    for glyph, count in parsed.items():
-        if count > 1:
-            LOGGER.info("❌️ Duplicate glyph: %s", glyph)
-            num_duplicate_glyphs += 1
-    if num_duplicate_glyphs:
-        LOGGER.info("❌️ %d duplicate glyphs.", num_duplicate_glyphs)
-    else:
-        LOGGER.info("✅️ No duplicates detected.")
-
     # check if all abbreviations are unique
     num_duplicate_abbrv = 0
     for abb, ucodes in all_abbreviations.items():
@@ -455,8 +420,7 @@ def generate_codes(
     else:
         LOGGER.info("✅️ All abbreviations unique.")
 
-    LOGGER.info("✅️ %d unique glyphs registered.", len(parsed))
-    return skipped_duplicates
+    LOGGER.info("✅️ %d unique glyphs registered.", num_created)
 
 
 def prepare_build_directory(
