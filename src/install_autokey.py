@@ -398,12 +398,9 @@ def create_autokey_phrase(
             raise FileExistsError(f"File {payload_path} already exists.")
         raise FileExistsError(f"File {metadata_path} already exists.")
 
-    with (
-        open(payload_path, "w", encoding="utf8") as file,
-        open(metadata_path, "w", encoding="utf8") as metadata_file,
-    ):
-        file.write(sample.glyph)
-        json.dump(metadata, metadata_file, indent=True)
+    payload_path.write_text(sample.glyph, encoding="utf8")
+    with metadata_path.open("w", encoding="utf8") as file:
+        json.dump(metadata, file, indent=True)
 
     return PhraseCreationResult(status="created", name=name)
 
@@ -516,11 +513,7 @@ def generate_codes(
     return skipped_duplicates
 
 
-def install_special_char(
-    *,
-    target_dir: Path,
-    sendmode: str,
-) -> None:
+def install_special_chars(target_dir: Path, /, *, sendmode: str) -> None:
     """Install bundled special characters into target_dir/special_chars."""
     source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
     target_dir = target_dir / source_dir.name
@@ -529,7 +522,6 @@ def install_special_char(
         with source.open(encoding="utf8") as file:
             metadata: JSON = json.load(file)
         payload = Glyph(metadata.pop("__payload__"))
-        metadata["sendMode"] = sendmode
         codepoints = str_to_codepoints(payload)
         name = "_".join(codepoints)
 
@@ -559,11 +551,11 @@ def install_special_char(
         target_dir.mkdir(exist_ok=True)
         text_file.write_text(payload, encoding="utf8")
         with json_file.open("w", encoding="utf8") as file:
-            json.dump(metadata, file, indent=True)
+            json.dump(metadata | {"sendMode": sendmode}, file, indent=True)
         LOGGER.info("✅️ Added %s.", payload)
 
 
-def install_custom_scripts(*, target_dir: Path) -> None:
+def install_custom_scripts(target_dir: Path, /) -> None:
     """Copy bundled scripts and configs into target_dir/custom_scripts."""
     source_dir = Path(__file__).resolve().parent / "assets" / "custom_scripts"
     target_dir = target_dir / "custom_scripts"
@@ -574,14 +566,25 @@ def install_custom_scripts(*, target_dir: Path) -> None:
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
 
 
-def install_latex_snippets(*, target_dir: Path) -> None:
+def install_latex_snippets(target_dir: Path, /, *, sendmode: str) -> None:
     """Copy bundled snippets into target_dir/latex_snippets."""
     source_dir = Path(__file__).resolve().parent / "assets" / "latex_snippets"
     target_dir = target_dir / "latex_snippets"
 
     LOGGER.info("=" * 80)
     LOGGER.info("Installing LaTeX snippets in %s.", target_dir)
-    shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for source in source_dir.rglob("*"):
+        target = target_dir / source.relative_to(source_dir)
+        if source.is_dir():
+            target.mkdir(parents=True, exist_ok=True)
+        elif source.suffix == ".json":
+            with source.open(encoding="utf8") as file:
+                metadata: JSON = json.load(file)
+            with target.open("w", encoding="utf8") as file:
+                json.dump(metadata | {"sendMode": sendmode}, file, indent=True)
+        else:
+            shutil.copy2(source, target)
 
 
 def main() -> None:
@@ -675,9 +678,9 @@ def main() -> None:
             duplicates=args.duplicates,
         )
 
-    install_special_char(target_dir=target_dir, sendmode=sendmode)
-    install_custom_scripts(target_dir=target_dir)
-    install_latex_snippets(target_dir=target_dir)
+    install_custom_scripts(target_dir)
+    install_latex_snippets(target_dir, sendmode=sendmode)
+    install_special_chars(target_dir, sendmode=sendmode)
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 
