@@ -1,4 +1,4 @@
-%
-\begin{proof}%
-\end{proof}%
-%
+
+\begin{proof}
+
+\end{proof}

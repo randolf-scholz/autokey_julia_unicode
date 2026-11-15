@@ -1,4 +1,5 @@
 %
-\begin{align*}%
-\end{align*}%
+\begin{align*}
+
+\end{align*}
 %

@@ -1,7 +1,7 @@
 \begin{algorithm}
-\caption{Riemannian Gradient Descent with Line Search}%
-\label{alg:riemannian_gradient_descent}%
-\begin{algorithmic}%
+\caption{Riemannian Gradient Descent with Line Search}
+\label{alg:riemannian_gradient_descent}
+\begin{algorithmic}
 \begin{alginputs}
 	\arg{manifold} $𝓜⊆ℝⁿ$ \\
 	\arg{objective function} $f：𝓜→ℝ$ \\

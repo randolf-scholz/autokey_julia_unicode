@@ -1,5 +1,5 @@
 %
-\begin{enumerate}%
+\begin{enumerate}
 	\item
-\end{enumerate}%
+\end{enumerate}
 %

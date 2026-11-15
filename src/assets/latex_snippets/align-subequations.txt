@@ -1,6 +1,7 @@
 %
-\begin{subequations}\label{eq:label}%
-\begin{align}%
-\end{align}%
-\end{subequations}%
+\begin{subequations}\label{eq:label}
+\begin{align}
+
+\end{align}
+\end{subequations}
 %

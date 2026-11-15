@@ -1,5 +1,5 @@
 %
-\begin{itemize}%
+\begin{itemize}
 	\item
-\end{itemize}%
+\end{itemize}
 %

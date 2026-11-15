@@ -1,5 +1,4 @@
-%
-\begin{outline}%
+
+\begin{outline}
 \1
-\end{outline}%
-%
+\end{outline}

@@ -1,0 +1,12 @@
+\begin{table}
+\centering%
+\caption{dummy caption}%
+\label{tab:dummy}%
+\begin{tabular}{ll}
+\toprule
+	foo & bar
+\\	\midrule
+	test & 42
+\\	\bottomrule
+\end{tabular}
+\end{table}

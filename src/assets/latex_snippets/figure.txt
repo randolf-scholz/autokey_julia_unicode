@@ -1,6 +1,6 @@
-\begin{figure}%
+\begin{figure}
 \centering%
 \includegraphics[keepaspectratio, width=\textwidth]{example-image-a}%
 \caption{dummy caption}%
-\label{fig:dummy}%
-\end{figure}%
+\label{fig:dummy}
+\end{figure}
