@@ -1,7 +1,7 @@
 from functools import partial
 
-from autokey.model.key import Key  # type: ignore
-from autokey.scripting import Engine, Keyboard  # type: ignore
+from autokey.model.key import Key
+from autokey.scripting import Engine, Keyboard
 
 SUBSCRIPTS: dict[str, str | None] = {
     "0": r"₀", "1": r"₁", "2": r"₂", "3": r"₃", "4": r"₄",
@@ -65,6 +65,7 @@ def main() -> None:
         raise RuntimeError("Expected keyboard and engine globals injected by autokey.")
 
     abbreviation, _ = engine.get_triggered_abbreviation()
+    assert abbreviation is not None, "Expected a triggered abbreviation"
     mapping = TRIGGER.get(abbreviation)
 
     if mapping is None:
