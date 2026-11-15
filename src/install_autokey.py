@@ -22,6 +22,23 @@ from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 LOGGER = logging.getLogger(__name__)
 BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
+ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
+
+SEND_MODES: Final[dict[int, str]] = {
+    0: r"<ctrl>+v",
+    1: r"<ctrl>+<shift>+v",
+    2: r"<shift>+<insert>",
+}
+DEFAULT_QUESTION = "Please pick one of the following:"
+
+HEADER = (
+    "Code point(s)",
+    "Character(s)",
+    "Tab completion sequence(s)",
+    "Unicode name(s)",
+)
+"""Header for the unicode samples."""
+
 type JSON = dict[str, Any]
 
 
@@ -169,14 +186,6 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
-SEND_MODES: Final[dict[int, str]] = {
-    0: r"<ctrl>+v",
-    1: r"<ctrl>+<shift>+v",
-    2: r"<shift>+<insert>",
-}
-DEFAULT_QUESTION = "Please pick one of the following:"
-
-
 def query_choice[T](
     question: str = DEFAULT_QUESTION,
     *,
@@ -237,20 +246,12 @@ class UnicodeSample(NamedTuple):
         return f"{ucode}: {char!r}  {abbrevations=!s}"
 
 
-class PhraseCreationResult(NamedTuple):
-    """Result of creating an AutoKey phrase."""
+class AutoKeyAsset(NamedTuple):
+    """A payload file and its AutoKey metadata, relative to a collection."""
 
-    status: Literal["created", "skipped_duplicate"]
-    name: str
-
-
-HEADER = (
-    "Code point(s)",
-    "Character(s)",
-    "Tab completion sequence(s)",
-    "Unicode name(s)",
-)
-"""Header for the unicode samples."""
+    path: Path
+    payload: bytes
+    metadata: JSON
 
 
 def read_row(row: Sequence[str] | Generator[str]) -> UnprocessedSample:
@@ -346,43 +347,27 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
     return samples
 
 
-def create_autokey_phrase(
-    sample: UnicodeSample,
+def write_asset(
+    asset: AutoKeyAsset,
+    directory: Path,
     *,
-    path: Path,
-    template: JSON,
-    sendmode: str,
-    overwrite: bool = False,
     duplicates: Literal["error", "skip"] = "error",
-) -> PhraseCreationResult:
-    """Write a validated sample's AutoKey phrase and metadata files."""
-    name = sample.name
-    payload_path = path / f"{name}.txt"
-    metadata_path = path / f"{name}.json"
+) -> bool:
+    """Write a payload/metadata pair, returning False for a skipped duplicate."""
+    payload_path = directory / asset.path
+    metadata_path = payload_path.with_suffix(".json")
 
-    if not overwrite and (payload_path.exists() or metadata_path.exists()):
-        if duplicates == "skip":
-            return PhraseCreationResult(status="skipped_duplicate", name=name)
-        if payload_path.exists():
-            raise FileExistsError(f"File {payload_path} already exists.")
-        raise FileExistsError(f"File {metadata_path} already exists.")
+    for path in (payload_path, metadata_path):
+        if path.exists():
+            if duplicates == "skip":
+                return False
+            raise FileExistsError(f"File {path} already exists.")
 
-    payload_path.write_text(sample.glyph, encoding="utf8")
+    payload_path.parent.mkdir(parents=True, exist_ok=True)
+    payload_path.write_bytes(asset.payload)
     with metadata_path.open("w", encoding="utf8") as file:
-        json.dump(
-            _merge_dicts(
-                template,
-                {
-                    "sendMode": sendmode,
-                    "abbreviation": {"abbreviations": sample.abbreviations},
-                    "description": sample.description,
-                },
-            ),
-            file,
-            indent=True,
-        )
-
-    return PhraseCreationResult(status="created", name=name)
+        json.dump(asset.metadata, file, indent=True)
+    return True
 
 
 def generate_codes(
@@ -418,18 +403,23 @@ def generate_codes(
         samples: list[UnicodeSample] = process_icons(raw_icons)
 
         for sample in samples:
-            result = create_autokey_phrase(
-                sample,
-                path=target_dir,
-                template=template,
-                sendmode=sendmode,
-                duplicates=duplicates,
+            asset = AutoKeyAsset(
+                Path(f"{sample.name}.txt"),
+                sample.glyph.encode("utf8"),
+                _merge_dicts(
+                    template,
+                    {
+                        "sendMode": sendmode,
+                        "abbreviation": {"abbreviations": sample.abbreviations},
+                        "description": sample.description,
+                    },
+                ),
             )
 
-            if result.status == "skipped_duplicate":
+            if not write_asset(asset, target_dir, duplicates=duplicates):
                 skipped_duplicates.append(sample)
                 LOGGER.info(
-                    "Skipped duplicate character: %s (%s)", sample.glyph, result.name
+                    "Skipped duplicate character: %s (%s)", sample.glyph, sample.name
                 )
                 continue
 
@@ -479,129 +469,66 @@ def generate_codes(
     return skipped_duplicates
 
 
-def install_icons(
+def prepare_build_directory(
+    directories: Sequence[str | Path],
+    target_dir: Path,
+) -> None:
+    """Validate paths before removing the entire previous build."""
+    folders = [Path(directory).resolve() for directory in directories]
+    names = [folder.name for folder in folders] + [
+        "latex_snippets",
+        "special_chars",
+        "custom_scripts",
+    ]
+    if len(set(names)) != len(names):
+        raise ValueError("Source directories must have distinct folder names.")
+    for folder in folders:
+        if not folder.is_dir():
+            raise NotADirectoryError(f"{folder} is not a directory.")
+    for path in (BUILD_DIR, *(BUILD_DIR / name for name in names)):
+        if path.is_symlink():
+            raise ValueError(f"Build directory {path} must not be a symbolic link.")
+        if path.exists() and not path.is_dir():
+            raise NotADirectoryError(f"{path} is not a directory.")
+    build_dir = BUILD_DIR.resolve()
+    protected = folders + [ASSETS_DIR.parent] + [target_dir / name for name in names]
+    for path in protected:
+        path = path.resolve()
+        if build_dir.is_relative_to(path) or path.is_relative_to(build_dir):
+            raise ValueError(f"Build directory {build_dir} overlaps {path}.")
+    if BUILD_DIR.exists():
+        shutil.rmtree(BUILD_DIR)
+    BUILD_DIR.mkdir(parents=True)
+
+
+def build_icons(
     directories: Sequence[str | Path],
     *,
-    target_dir: Path,
     sendmode: str,
     duplicates: Literal["error", "skip"],
-    build_only: bool = False,
 ) -> None:
-    """Build collections in the repository's build directory, then install them."""
-    folders = [Path(directory).resolve() for directory in directories]
-    build_dir = BUILD_DIR
-    target_dir = target_dir.resolve()
-
-    if build_dir.is_symlink():
-        raise ValueError(f"Build directory {build_dir} must not be a symbolic link.")
-    if build_dir.exists() and not build_dir.is_dir():
-        raise NotADirectoryError(f"{build_dir} is not a directory.")
-
-    if len({folder.name for folder in folders}) != len(folders):
-        raise ValueError("Source directories must have distinct folder names.")
-
-    if not build_only:
-        if not target_dir.exists():
-            raise FileNotFoundError(f"{target_dir} does not exist.")
-        if not target_dir.is_dir():
-            raise NotADirectoryError(f"{target_dir} is not a directory.")
-
-    # Rebuilding must never remove source files or installed collections.
-    protected = folders + [target_dir / folder.name for folder in folders]
-    for folder in folders:
-        output = build_dir / folder.name
-        if output.is_symlink():
-            raise ValueError(f"Build directory {output} must not be a symbolic link.")
-        output = output.resolve()
-        for path in protected:
-            path = path.resolve()
-            if output.is_relative_to(path) or path.is_relative_to(output):
-                raise ValueError(f"Build directory {output} overlaps {path}.")
-
-    source = Path(__file__).resolve().parent / "assets" / "templates" / "phrase.json"
-    with source.open(encoding="utf8") as file:
+    """Build the requested TSV collections in BUILD_DIR."""
+    with (ASSETS_DIR / "templates" / "phrase.json").open(encoding="utf8") as file:
         template: JSON = json.load(file)
-
-    build_dir.mkdir(parents=True, exist_ok=True)
-
-    for folder in folders:
-        output = build_dir / folder.name
-        if output.exists():
-            shutil.rmtree(output)
+    for directory in directories:
         generate_codes(
-            folder,
-            target_dir=build_dir,
+            directory,
+            target_dir=BUILD_DIR,
             template=template,
             sendmode=sendmode,
             duplicates=duplicates,
         )
 
-    if build_only:
-        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
-        return
 
-    # Resolve all overwrite choices before changing any installed collection.
-    for folder in folders:
-        destination = target_dir / folder.name
-        if destination.exists() and not query_choice(
-            question=f"Directory {destination} already exists. Overwrite?",
-            choices=[False, True],
-        ):
-            LOGGER.debug("Aborting.")
-            sys.exit(0)
-
-    for folder in folders:
-        destination = target_dir / folder.name
-        with tempfile.TemporaryDirectory(
-            prefix=".autokey-install-", dir=target_dir
-        ) as temporary:
-            staged = Path(temporary) / "new"
-            backup = Path(temporary) / "old"
-            shutil.copytree(build_dir / folder.name, staged)
-            if destination.exists():
-                destination.rename(backup)
-            try:
-                staged.rename(destination)
-            except OSError:
-                if backup.exists():
-                    backup.rename(destination)
-                raise
-        LOGGER.info("Installed icons in %s.", destination)
-
-
-def _get_build_directory(source_dir: Path, target_dir: Path) -> Path:
-    """Locate a build directory after checking cleanup cannot damage other files."""
-    target_dir = target_dir / source_dir.name
+def build_phrases(source_dir: Path, *, sendmode: str) -> None:
+    """Build TOML phrase assets in BUILD_DIR."""
     build_dir = BUILD_DIR / source_dir.name
-
-    for path in (BUILD_DIR, build_dir):
-        if path.is_symlink():
-            raise ValueError(f"Build directory {path} must not be a symbolic link.")
-        if path.exists() and not path.is_dir():
-            raise NotADirectoryError(f"{path} is not a directory.")
-    for path in (source_dir, target_dir):
-        output = build_dir.resolve()
-        path = path.resolve()
-        if output.is_relative_to(path) or path.is_relative_to(output):
-            raise ValueError(f"Build directory {output} overlaps {path}.")
-    return build_dir
-
-
-def _build_phrases(
-    source_dir: Path,
-    target_dir: Path,
-    *,
-    sendmode: str,
-    codepoint_names: bool = False,
-) -> list[Path]:
-    """Build TOML phrase assets and return their text files in source order."""
-    build_dir = _get_build_directory(source_dir, target_dir)
 
     template_file = source_dir.parent / "templates" / "phrase.json"
     with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
-    phrases: list[tuple[Path, str, JSON]] = []
+    LOGGER.info("Building phrases in %s.", build_dir)
     for source in sorted(source_dir.rglob("*.toml")):
         with source.open("rb") as file:
             updates = tomllib.load(file)
@@ -626,72 +553,14 @@ def _build_phrases(
                 "with a string description."
             )
         relative_path = source.relative_to(source_dir)
-        if codepoint_names:
-            name = "_".join(str_to_codepoints(Glyph(payload)))
-            relative_path = relative_path.with_stem(name)
-        phrases.append((relative_path, payload, metadata))
-
-    if build_dir.exists():
-        shutil.rmtree(build_dir)
-    build_dir.mkdir(parents=True)
-
-    LOGGER.info("=" * 80)
-    LOGGER.info("Building phrases in %s.", build_dir)
-    files: list[Path] = []
-    for relative_path, payload, metadata in phrases:
-        target = build_dir / relative_path
-        target.parent.mkdir(parents=True, exist_ok=True)
-        text_file = target.with_suffix(".txt")
-        text_file.write_text(payload, encoding="utf8", newline="")
-        with target.with_suffix(".json").open("w", encoding="utf8") as file:
-            json.dump(metadata, file, indent=True)
-        files.append(text_file)
-    return files
-
-
-def install_special_chars(
-    target_dir: Path, /, *, sendmode: str, build_only: bool = False
-) -> None:
-    """Build bundled special characters, then install the selected phrases."""
-    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
-    files = _build_phrases(
-        source_dir, target_dir, sendmode=sendmode, codepoint_names=True
-    )
-    if build_only:
-        LOGGER.info("Special characters built; installation skipped.")
-        return
-    target_dir = target_dir / source_dir.name
-    target_dir.mkdir(parents=True, exist_ok=True)
-
-    for source in files:
-        payload = source.read_bytes().decode("utf8")
-        codepoints = str_to_codepoints(payload)
-        text_file = target_dir / source.name
-        json_file = text_file.with_suffix(".json")
-        if text_file.exists() or json_file.exists():
-            match query_choice(
-                f"Found existing special character {payload!r} ({codepoints}).",
-                choices=["keep", "overwrite", "delete"],
-            ):
-                case "keep":
-                    continue
-                case "overwrite":
-                    pass
-                case "delete":
-                    text_file.unlink(missing_ok=True)
-                    json_file.unlink(missing_ok=True)
-                    continue
-                case _:
-                    raise ValueError("Invalid choice.")
-        elif not query_choice(
-            f"Install special character {payload!r}?",
-            choices=[False, True],
-        ):
-            continue
-
-        shutil.copy2(source, text_file)
-        shutil.copy2(source.with_suffix(".json"), json_file)
-        LOGGER.info("✅️ Added %s.", payload)
+        write_asset(
+            AutoKeyAsset(
+                relative_path.with_suffix(".txt"),
+                payload.encode("utf8"),
+                metadata,
+            ),
+            build_dir,
+        )
 
 
 def _merge_dicts(template: JSON, updates: JSON) -> JSON:
@@ -703,17 +572,16 @@ def _merge_dicts(template: JSON, updates: JSON) -> JSON:
     return merged
 
 
-def install_custom_scripts(target_dir: Path, /, *, build_only: bool = False) -> None:
-    """Build script metadata from TOML overrides, then install scripts and configs."""
-    source_dir = Path(__file__).resolve().parent / "assets" / "custom_scripts"
-    build_dir = _get_build_directory(source_dir, target_dir)
-    target_dir = target_dir / source_dir.name
+def build_custom_scripts() -> None:
+    """Build Python scripts and metadata from TOML overrides in BUILD_DIR."""
+    source_dir = ASSETS_DIR / "custom_scripts"
+    build_dir = BUILD_DIR / source_dir.name
 
     template_file = source_dir.parent / "templates" / "script.json"
     with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
-    scripts: list[tuple[Path, JSON]] = []
+    LOGGER.info("Building custom scripts in %s.", build_dir)
     for source in sorted(source_dir.rglob("*.toml")):
         with source.open("rb") as file:
             updates = tomllib.load(file)
@@ -733,47 +601,69 @@ def install_custom_scripts(target_dir: Path, /, *, build_only: bool = False) -> 
             )
         if not source.with_suffix(".py").is_file():
             raise FileNotFoundError(f"Missing Python script for {source}.")
-        scripts.append((source.relative_to(source_dir), metadata))
-
-    if build_dir.exists():
-        shutil.rmtree(build_dir)
-    build_dir.mkdir(parents=True)
-
-    LOGGER.info("=" * 80)
-    LOGGER.info("Building custom scripts in %s.", build_dir)
-    for relative_path, metadata in scripts:
-        target = build_dir / relative_path
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(
-            (source_dir / relative_path).with_suffix(".py"), target.with_suffix(".py")
+        write_asset(
+            AutoKeyAsset(
+                source.relative_to(source_dir).with_suffix(".py"),
+                source.with_suffix(".py").read_bytes(),
+                metadata,
+            ),
+            build_dir,
         )
-        with target.with_suffix(".json").open("w", encoding="utf8") as file:
-            json.dump(metadata, file, indent=True)
 
-    if build_only:
-        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
+
+def build_latex_snippets(*, sendmode: str) -> None:
+    """Build bundled TOML snippets in BUILD_DIR."""
+    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
+
+
+def build_special_chars(*, sendmode: str) -> None:
+    """Build all bundled special characters with their source filenames."""
+    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
+
+
+def install_build(target_dir: Path) -> None:
+    """Move all built collections into AutoKey, restoring backups on failure."""
+    collections = sorted(BUILD_DIR.iterdir())
+    existing = [
+        source.name
+        for source in collections
+        if (target_dir / source.name).exists()
+        or (target_dir / source.name).is_symlink()
+    ]
+    if existing and not query_choice(
+        f"Replace existing collections in {target_dir}: {', '.join(existing)}?",
+        choices=[False, True],
+    ):
+        LOGGER.info("Installation cancelled; build retained in %s.", BUILD_DIR)
         return
 
-    LOGGER.info("Installing custom scripts in %s.", target_dir)
-    shutil.copytree(build_dir, target_dir, dirs_exist_ok=True)
-    LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
-
-
-def install_latex_snippets(
-    target_dir: Path, /, *, sendmode: str, build_only: bool = False
-) -> None:
-    """Build bundled TOML snippets, then copy them into target_dir/latex_snippets."""
-    source_dir = Path(__file__).resolve().parent / "assets" / "latex_snippets"
-    _build_phrases(source_dir, target_dir, sendmode=sendmode)
-    build_dir = BUILD_DIR / source_dir.name
-    target_dir = target_dir / source_dir.name
-
-    if build_only:
-        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
-        return
-
-    shutil.copytree(build_dir, target_dir, dirs_exist_ok=True)
-    LOGGER.info("Installed LaTeX snippets in %s.", target_dir)
+    target_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(
+        prefix=".autokey-install-", dir=target_dir
+    ) as temporary:
+        backup_dir = Path(temporary)
+        attempted: list[Path] = []
+        try:
+            for source in collections:
+                destination = target_dir / source.name
+                if destination.exists() or destination.is_symlink():
+                    destination.rename(backup_dir / source.name)
+                attempted.append(source)
+                shutil.move(source, destination)
+        except (OSError, KeyboardInterrupt):
+            for source in reversed(attempted):
+                destination = target_dir / source.name
+                if not source.exists():
+                    shutil.move(destination, source)
+                elif destination.exists():
+                    # A cross-filesystem move can leave an incomplete copy.
+                    shutil.rmtree(destination)
+            for backup in backup_dir.iterdir():
+                backup.rename(target_dir / backup.name)
+            raise
+    LOGGER.info(
+        "Installed AutoKey assets in %s. Restart AutoKey to enable them!", target_dir
+    )
 
 
 def main() -> None:
@@ -835,14 +725,6 @@ def main() -> None:
     if args.verbose:
         LOGGER.setLevel(logging.DEBUG)
 
-    if not args.build_only:
-        check_autokey_version()
-        if not detected_directory.exists():
-            LOGGER.warning(
-                "Autokey directory not found. Installing into %s.",
-                args.autokey_directory / args.target_directory,
-            )
-
     # if sendmode is missing, ask user
     sendmode = (
         SEND_MODES[args.sendmode]
@@ -853,20 +735,26 @@ def main() -> None:
         )
     )
 
-    target_dir = args.autokey_directory / args.target_directory
+    target_dir = (args.autokey_directory / args.target_directory).resolve()
 
-    install_icons(
+    prepare_build_directory(args.source_directories, target_dir)
+    build_icons(
         args.source_directories,
-        target_dir=target_dir,
         sendmode=sendmode,
         duplicates=args.duplicates,
-        build_only=args.build_only,
     )
-    install_latex_snippets(target_dir, sendmode=sendmode, build_only=args.build_only)
-    install_special_chars(target_dir, sendmode=sendmode, build_only=args.build_only)
-    install_custom_scripts(target_dir, build_only=args.build_only)
+    build_latex_snippets(sendmode=sendmode)
+    build_special_chars(sendmode=sendmode)
+    build_custom_scripts()
 
-    LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
+    if args.build_only:
+        LOGGER.info("Build complete in %s; installation skipped.", BUILD_DIR)
+        return
+
+    check_autokey_version()
+    if not detected_directory.exists():
+        LOGGER.warning("Autokey directory not found. Installing into %s.", target_dir)
+    install_build(target_dir)
 
 
 if __name__ == "__main__":
