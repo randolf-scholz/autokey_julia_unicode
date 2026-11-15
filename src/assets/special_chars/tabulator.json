@@ -1,0 +1,28 @@
+{
+    "__payload__": "\t",
+    "abbreviation": {
+        "abbreviations": ["\\t "],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": true,
+        "triggerInside": true,
+        "wordChars": "[^\\t]"
+    },
+    "description": "Tabulator",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "modes": [1],
+    "matchCase": false,
+    "omitTrigger": false,
+    "prompt": false,
+    "sendMode": "<shift>+<insert>",
+    "showInTrayMenu": false,
+    "type": "phrase",
+    "usageCount": 0
+}
