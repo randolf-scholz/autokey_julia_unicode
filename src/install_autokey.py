@@ -16,7 +16,7 @@ import sys
 import tempfile
 import tomllib
 from collections import Counter, defaultdict
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
@@ -273,10 +273,9 @@ def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
     return samples
 
 
-def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
+def process_icons(data: Iterable[UnprocessedSample], /) -> list[UnicodeSample]:
     """Validate samples, skipping unsupported glyphs and missing abbreviations."""
     samples: list[UnicodeSample] = []
-    LOGGER.info("Pre-Processing %d items.", len(data))
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
 
     for item in data:
