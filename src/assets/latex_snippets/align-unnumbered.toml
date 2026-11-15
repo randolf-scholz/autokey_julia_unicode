@@ -1,0 +1,8 @@
+abbreviations = ["!math"]
+payload = '''
+%
+\begin{align*}
+
+\end{align*}
+%
+'''

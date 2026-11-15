@@ -1,3 +1,6 @@
+abbreviations = ["!prop"]
+payload = '''
 \begin{proposition}[title]\label{thm:label}
 
 \end{proposition}
+'''

@@ -1,3 +1,6 @@
+abbreviations = ["!ex"]
+payload = '''
 \begin{example}[title]\label{ex:label}
 
 \end{example}
+'''

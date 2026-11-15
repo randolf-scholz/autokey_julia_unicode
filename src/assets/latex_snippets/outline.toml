@@ -1,0 +1,7 @@
+abbreviations = ["!outline"]
+payload = '''
+
+\begin{outline}
+\1
+\end{outline}
+'''

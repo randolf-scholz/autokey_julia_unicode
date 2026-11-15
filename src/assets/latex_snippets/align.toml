@@ -1,5 +1,8 @@
+abbreviations = ["!eq"]
+payload = '''
 %
 \begin{align}\label{eq:label}
 
 \end{align}
 %
+'''

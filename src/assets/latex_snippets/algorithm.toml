@@ -1,3 +1,5 @@
+abbreviations = ["!alg"]
+payload = '''
 \begin{algorithm}
 \caption{Riemannian Gradient Descent with Line Search}
 \label{alg:riemannian_gradient_descent}
@@ -19,3 +21,4 @@
 \end{algorithmic}
 \end{algorithm}
 \end{definition}
+'''

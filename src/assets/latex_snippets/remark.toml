@@ -1,3 +1,6 @@
+abbreviations = ["!rem"]
+payload = '''
 \begin{remark}[title]\label{rem:label}
 
 \end{remark}
+'''

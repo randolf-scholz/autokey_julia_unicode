@@ -1,3 +1,5 @@
+abbreviations = ["!tblr"]
+payload = '''
 \begin{table}
 \centering%
 \caption{dummy caption}%
@@ -12,3 +14,4 @@
     test & 42 \\
 \end{tblr}
 \end{table}
+'''

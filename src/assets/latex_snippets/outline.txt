@@ -1,4 +1,0 @@
-
-\begin{outline}
-\1
-\end{outline}

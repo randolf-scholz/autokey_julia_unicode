@@ -1,6 +1,9 @@
+abbreviations = ["!subfig"]
+payload = '''
 \begin{subfigure}[t]{0.5\textwidth}
 \centering
 \includegraphics[keepaspectratio, width=\linewidth]{example-image-a}
 \caption{dummy}
 \label{fig:dummy}
 \end{subfigure}
+'''

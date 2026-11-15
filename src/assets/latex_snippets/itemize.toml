@@ -1,0 +1,8 @@
+abbreviations = ["!item"]
+payload = '''
+%
+\begin{itemize}
+	\item
+\end{itemize}
+%
+'''

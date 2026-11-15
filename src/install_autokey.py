@@ -14,6 +14,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import tomllib
 from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
 from pathlib import Path
@@ -567,20 +568,98 @@ def install_icons(
         LOGGER.info("Installed icons in %s.", destination)
 
 
-def install_special_chars(target_dir: Path, /, *, sendmode: str) -> None:
-    """Install bundled special characters into target_dir/special_chars."""
-    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
+def _build_phrases(
+    source_dir: Path,
+    target_dir: Path,
+    *,
+    sendmode: str,
+    codepoint_names: bool = False,
+) -> list[Path]:
+    """Build TOML phrase assets and return their text files in source order."""
     target_dir = target_dir / source_dir.name
+    build_dir = BUILD_DIR / source_dir.name
 
-    for source in sorted(source_dir.glob("*.json")):
-        with source.open(encoding="utf8") as file:
-            metadata: JSON = json.load(file)
-        payload = Glyph(metadata.pop("__payload__"))
+    for path in (BUILD_DIR, build_dir):
+        if path.is_symlink():
+            raise ValueError(f"Build directory {path} must not be a symbolic link.")
+        if path.exists() and not path.is_dir():
+            raise NotADirectoryError(f"{path} is not a directory.")
+    for path in (source_dir, target_dir):
+        output = build_dir.resolve()
+        path = path.resolve()
+        if output.is_relative_to(path) or path.is_relative_to(output):
+            raise ValueError(f"Build directory {output} overlaps {path}.")
+
+    with (source_dir.parent / "template.json").open(encoding="utf8") as file:
+        template: JSON = json.load(file)
+
+    phrases: list[tuple[Path, str, JSON]] = []
+    for source in sorted(source_dir.rglob("*.toml")):
+        with source.open("rb") as file:
+            config = tomllib.load(file)
+        if (
+            config.keys() != {"abbreviations", "payload"}
+            or not isinstance(config["payload"], str)
+            or not isinstance(config["abbreviations"], list)
+            or not all(isinstance(value, str) for value in config["abbreviations"])
+        ):
+            raise ValueError(
+                f"Invalid snippet {source}: expected payload (string) "
+                "and abbreviations (list of strings)."
+            )
+        relative_path = source.relative_to(source_dir)
+        if codepoint_names:
+            name = "_".join(str_to_codepoints(Glyph(config["payload"])))
+            relative_path = relative_path.with_stem(name)
+        phrases.append((relative_path, source.stem, config))
+
+    if build_dir.exists():
+        shutil.rmtree(build_dir)
+    build_dir.mkdir(parents=True)
+
+    LOGGER.info("=" * 80)
+    LOGGER.info("Building phrases in %s.", build_dir)
+    files: list[Path] = []
+    for relative_path, description, config in phrases:
+        target = build_dir / relative_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        text_file = target.with_suffix(".txt")
+        text_file.write_text(config["payload"], encoding="utf8", newline="")
+        with target.with_suffix(".json").open("w", encoding="utf8") as file:
+            json.dump(
+                template
+                | {
+                    "abbreviation": template["abbreviation"]
+                    | {"abbreviations": config["abbreviations"]},
+                    "description": description,
+                    "sendMode": sendmode,
+                },
+                file,
+                indent=True,
+            )
+        files.append(text_file)
+    return files
+
+
+def install_special_chars(
+    target_dir: Path, /, *, sendmode: str, build_only: bool = False
+) -> None:
+    """Build bundled special characters, then install the selected phrases."""
+    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
+    files = _build_phrases(
+        source_dir, target_dir, sendmode=sendmode, codepoint_names=True
+    )
+    if build_only:
+        LOGGER.info("Special characters built; installation skipped.")
+        return
+    target_dir = target_dir / source_dir.name
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    for source in files:
+        payload = source.read_bytes().decode("utf8")
         codepoints = str_to_codepoints(payload)
-        name = "_".join(codepoints)
-
-        text_file = target_dir / f"{name}.txt"
-        json_file = target_dir / f"{name}.json"
+        text_file = target_dir / source.name
+        json_file = text_file.with_suffix(".json")
         if text_file.exists() or json_file.exists():
             match query_choice(
                 f"Found existing special character {payload!r} ({codepoints}).",
@@ -602,10 +681,8 @@ def install_special_chars(target_dir: Path, /, *, sendmode: str) -> None:
         ):
             continue
 
-        target_dir.mkdir(exist_ok=True)
-        text_file.write_text(payload, encoding="utf8")
-        with json_file.open("w", encoding="utf8") as file:
-            json.dump(metadata | {"sendMode": sendmode}, file, indent=True)
+        shutil.copy2(source, text_file)
+        shutil.copy2(source.with_suffix(".json"), json_file)
         LOGGER.info("✅️ Added %s.", payload)
 
 
@@ -620,25 +697,21 @@ def install_custom_scripts(target_dir: Path, /) -> None:
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
 
 
-def install_latex_snippets(target_dir: Path, /, *, sendmode: str) -> None:
-    """Copy bundled snippets into target_dir/latex_snippets."""
+def install_latex_snippets(
+    target_dir: Path, /, *, sendmode: str, build_only: bool = False
+) -> None:
+    """Build bundled TOML snippets, then copy them into target_dir/latex_snippets."""
     source_dir = Path(__file__).resolve().parent / "assets" / "latex_snippets"
-    target_dir = target_dir / "latex_snippets"
+    _build_phrases(source_dir, target_dir, sendmode=sendmode)
+    build_dir = BUILD_DIR / source_dir.name
+    target_dir = target_dir / source_dir.name
 
-    LOGGER.info("=" * 80)
-    LOGGER.info("Installing LaTeX snippets in %s.", target_dir)
-    target_dir.mkdir(parents=True, exist_ok=True)
-    for source in source_dir.rglob("*"):
-        target = target_dir / source.relative_to(source_dir)
-        if source.is_dir():
-            target.mkdir(parents=True, exist_ok=True)
-        elif source.suffix == ".json":
-            with source.open(encoding="utf8") as file:
-                metadata: JSON = json.load(file)
-            with target.open("w", encoding="utf8") as file:
-                json.dump(metadata | {"sendMode": sendmode}, file, indent=True)
-        else:
-            shutil.copy2(source, target)
+    if build_only:
+        LOGGER.info("Build complete in %s; installation skipped.", build_dir)
+        return
+
+    shutil.copytree(build_dir, target_dir, dirs_exist_ok=True)
+    LOGGER.info("Installed LaTeX snippets in %s.", target_dir)
 
 
 def main() -> None:
@@ -674,7 +747,7 @@ def main() -> None:
         "--build-only",
         "--dry-run",
         action="store_true",
-        help="Build icon files in the project's build/ directory without installing them.",
+        help="Build icons, LaTeX snippets and special characters without installing them.",
     )
     parser.add_argument(
         "--verbose",
@@ -728,13 +801,13 @@ def main() -> None:
         duplicates=args.duplicates,
         build_only=args.build_only,
     )
+    install_latex_snippets(target_dir, sendmode=sendmode, build_only=args.build_only)
+    install_special_chars(target_dir, sendmode=sendmode, build_only=args.build_only)
 
     if args.build_only:
         return
 
     install_custom_scripts(target_dir)
-    install_latex_snippets(target_dir, sendmode=sendmode)
-    install_special_chars(target_dir, sendmode=sendmode)
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 

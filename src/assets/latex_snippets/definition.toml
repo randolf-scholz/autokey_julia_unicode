@@ -1,3 +1,6 @@
+abbreviations = ["!def"]
+payload = '''
 \begin{definition}[title]\label{def:label}
 
 \end{definition}
+'''

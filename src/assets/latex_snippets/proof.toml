@@ -1,0 +1,7 @@
+abbreviations = ["!proof"]
+payload = '''
+
+\begin{proof}
+
+\end{proof}
+'''

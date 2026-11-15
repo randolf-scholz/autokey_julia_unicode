@@ -1,4 +1,0 @@
-
-\begin{proof}
-
-\end{proof}

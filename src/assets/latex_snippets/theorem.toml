@@ -1,3 +1,6 @@
+abbreviations = ["!thm"]
+payload = '''
 \begin{theorem}[title]\label{thm:label}
 
 \end{theorem}
+'''

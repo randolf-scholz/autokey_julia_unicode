@@ -1,5 +1,8 @@
+abbreviations = ["!enum"]
+payload = '''
 %
 \begin{enumerate}
 	\item
 \end{enumerate}
 %
+'''
