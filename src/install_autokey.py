@@ -14,7 +14,7 @@ import shutil
 import subprocess
 import tomllib
 from collections import defaultdict
-from collections.abc import Iterator, Sequence
+from collections.abc import Iterator
 from enum import StrEnum
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
@@ -298,33 +298,32 @@ def write_asset(
     return True
 
 
-def generate_codes(
-    directory: str | Path,
+def build_phrases_from_tsv(
+    source: str | Path,
     *,
-    target_dir: Path,
     template: JSON,
     sendmode: str,
     duplicates: Literal["error", "skip"],
 ) -> None:
     """Generate an icon collection in a fresh subdirectory of target_dir."""
-    folder = Path(directory)
-    if not folder.exists():
-        raise FileNotFoundError(f"{folder} does not exist.")
-    if not folder.is_dir():
-        raise NotADirectoryError(f"{folder} is not a directory.")
+    source_dir = Path(source)
+    if not source_dir.exists():
+        raise FileNotFoundError(f"{source_dir} does not exist.")
+    if not source_dir.is_dir():
+        raise NotADirectoryError(f"{source_dir} is not a directory.")
 
-    target_dir = target_dir / folder.name
+    target_dir = BUILD_DIR / source_dir.name
     target_dir.mkdir(parents=True)
 
     LOGGER.info("=" * 80)
-    LOGGER.info("Building icons from %s in %s", folder, target_dir)
+    LOGGER.info("Building icons from %s in %s", source_dir, target_dir)
 
     num_created = 0
     all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
     skipped_duplicates: list[UnicodeSample] = []
 
     # iterate over all .tsv files in the directory
-    for filename in sorted(folder.glob("*.tsv")):
+    for filename in sorted(source_dir.glob("*.tsv")):
         LOGGER.info("-" * 80)
         for sample in process_icons(filename):
             if not write_asset(
@@ -369,27 +368,6 @@ def generate_codes(
             num_duplicates += 1
     LOGGER.info(f"ℹ️: {num_duplicates} duplicate abbreviations.")
     LOGGER.info("✅️ %d unique glyphs registered.", num_created)
-
-
-def build_icons(
-    directories: Sequence[str | Path],
-    *,
-    sendmode: str,
-    duplicates: Literal["error", "skip"],
-) -> None:
-    """Build the requested TSV collections in BUILD_DIR."""
-    template_file = ASSETS_DIR / "templates" / "phrase.json"
-    with template_file.open(encoding="utf8") as file:
-        template: JSON = json.load(file)
-
-    for directory in directories:
-        generate_codes(
-            directory,
-            target_dir=BUILD_DIR,
-            template=template,
-            sendmode=sendmode,
-            duplicates=duplicates,
-        )
 
 
 def validate_metadata(metadata: JSON, source: Path) -> None:
@@ -586,7 +564,17 @@ def main() -> None:
         shutil.rmtree(BUILD_DIR)
     BUILD_DIR.mkdir(parents=True)
 
-    build_icons(args.source_directories, sendmode=sendmode, duplicates=args.duplicates)
+    template_file = ASSETS_DIR / "templates" / "phrase.json"
+    with template_file.open(encoding="utf8") as file:
+        template: JSON = json.load(file)
+
+    for source in args.source_directories:
+        build_phrases_from_tsv(
+            source,
+            template=template,
+            sendmode=sendmode,
+            duplicates=args.duplicates,
+        )
     build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
     build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
     build_custom_scripts()
