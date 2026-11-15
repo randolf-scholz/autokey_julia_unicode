@@ -778,8 +778,6 @@ def install_latex_snippets(
 
 def main() -> None:
     r"""Install function."""
-    logging.basicConfig(level=logging.INFO)
-
     detected_directory = Path.home() / ".config/autokey/data/"
     AUTOKEY_DIR = detected_directory if detected_directory.exists() else Path.cwd()
 
@@ -872,4 +870,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     main()
