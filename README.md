@@ -11,7 +11,22 @@ This script adds all the Unicode character abbreviations supported by [Julia](ht
 ## Installation
 
 1. Install [AutoKey](https://github.com/autokey/autokey). Only works on X11, no Wayland support.
-2. Execute `install.py` (requires python ≥3.10)
+2. From the repository root, run `just install` (requires Python ≥3.13 and [just](https://github.com/casey/just)).
+
+   If just is not installed, run the installer directly with Python:
+
+   ```bash
+   python3 src/install_autokey.py
+   ```
+
+   Or invoke the executable script from Bash:
+
+   ```bash
+   ./src/install_autokey.py
+   ```
+
+   `just install` uses `.venv/bin/python` when available, otherwise `python3`. Set `PYTHON` to override the interpreter. Installer options can be passed through, for example `just install --help`.
+
 3. Restart AutoKey
 
 ## Features

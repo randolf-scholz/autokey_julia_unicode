@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.13"
 # ///
 """Generate phrases for autokey."""
 
@@ -309,10 +309,12 @@ def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
         # guard against invalid character
         if not is_glyph(char):
             LOGGER.debug("Invalid character: %s=%s", item.ucode, item.char)
-            skipped.append((
-                item,
-                f"Invalid character {char!r}={as_hex(char)}",
-            ))
+            skipped.append(
+                (
+                    item,
+                    f"Invalid character {char!r}={as_hex(char)}",
+                )
+            )
             continue
 
         # guard against invalid abbreviation
