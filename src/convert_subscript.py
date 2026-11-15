@@ -1,3 +1,23 @@
+r"""Convert brace-delimited AutoKey input to Unicode subscripts or superscripts.
+
+The abbreviations ``\_{`` and ``\^{`` select subscript and superscript conversion,
+respectively. For example, ``\_{123}`` becomes ``₁₂₃`` and ``\^{Ab2}`` becomes
+``ᴬᵇ²``. Conversion requires a closing brace and a mapping for every enclosed
+character; incomplete or unsupported input is left unchanged.
+
+AutoKey must inject the ``keyboard`` and ``engine`` globals before executing this
+script. The script calls ``main()`` immediately when executed or imported.
+
+Attributes:
+    SUBSCRIPTS: Character-to-subscript mapping. None marks unsupported characters.
+    SUPERSCRIPTS: Character-to-superscript mapping. None marks unsupported
+        characters.
+    MAX_CHARS: Maximum buffer length before key-event collection stops. The
+        closing brace counts toward this length.
+    TIMEOUT: Maximum time in seconds to wait for key events.
+    TRIGGER: Mapping from AutoKey abbreviations to their conversion mappings.
+"""
+
 from functools import partial
 
 from autokey.model.key import Key
@@ -45,6 +65,26 @@ TRIGGER = {
 
 
 def check_keyevent(waiter, raw_key, modifiers, key, *args, chars: list[str]) -> bool:
+    """Update the input buffer and decide whether to stop collecting key events.
+
+    Backspace removes the last buffered character, or stops collection if the
+    buffer is empty. Other special keys and modifiers other than Shift or AltGr
+    stop collection. Ordinary key values are appended to the buffer, including
+    the terminating closing brace.
+
+    Args:
+        waiter: AutoKey waiter supplied to the callback; unused.
+        raw_key: Raw key value supplied by AutoKey; unused.
+        modifiers: Active key modifiers for the event.
+        key: Key value to process, including AutoKey special-key identifiers.
+        *args: Additional positional callback arguments; unused.
+        chars: Mutable buffer of collected characters, updated in place.
+
+    Returns:
+        True to stop collection when a closing brace is received, the buffer
+        length exceeds MAX_CHARS, or an interrupting key event occurs. False to
+        continue collecting key events.
+    """
     if key == Key.BACKSPACE:
         if chars:
             chars.pop()
@@ -59,6 +99,23 @@ def check_keyevent(waiter, raw_key, modifiers, key, *args, chars: list[str]) -> 
 
 
 def main() -> None:
+    """Convert input following the triggered AutoKey abbreviation.
+
+    Obtain the conversion mapping from the triggered abbreviation and collect
+    key events for up to TIMEOUT seconds. If the buffer ends with a closing
+    brace and every preceding character has a replacement, erase the abbreviation
+    and collected input, then type the converted text. Otherwise, leave the
+    typed text unchanged. An empty brace pair removes only the abbreviation and
+    closing brace.
+
+    The ``keyboard`` and ``engine`` objects must be provided as module globals
+    by AutoKey.
+
+    Raises:
+        RuntimeError: If either required AutoKey global is missing or None.
+        AssertionError: If AutoKey reports no triggered abbreviation.
+        ValueError: If the triggered abbreviation is not present in TRIGGER.
+    """
     keyboard: Keyboard | None = globals().get("keyboard")
     engine: Engine | None = globals().get("engine")
     if keyboard is None or engine is None:
