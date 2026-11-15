@@ -20,8 +20,6 @@ from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 LOGGER = logging.getLogger(__name__)
 type JSON = dict[str, Any]
-SPECIAL_DIR = "custom_special"
-"""Directory for special characters."""
 
 
 def check_autokey_version() -> None:
@@ -272,20 +270,6 @@ class PhraseCreationResult(NamedTuple):
     name: str
 
 
-TABULATOR: UnicodeSample = UnicodeSample(
-    ucode=[CodePoint("U+0009")],
-    glyph=Glyph("\t"),
-    abbreviations=[Abbreviation(r"\t ")],
-    description="Tabulator",
-)
-
-NEWLINE: UnicodeSample = UnicodeSample(
-    ucode=[CodePoint("U+000A")],
-    glyph=Glyph("\n"),
-    abbreviations=[Abbreviation(r"\n ")],
-    description="Newline",
-)
-
 HEADER = (
     "Code point(s)",
     "Character(s)",
@@ -532,18 +516,25 @@ def generate_codes(
     return skipped_duplicates
 
 
-def generate_character(
-    sample: UnicodeSample,
+def install_special_char(
+    source: Path,
     *,
-    template: JSON = TEMPLATE,
     target_dir: Path,
+    sendmode: str,
 ) -> None:
-    r"""Generate special characters."""
-    text_file = target_dir / f"{sample.name}.txt"
-    json_file = target_dir / f"{sample.name}.json"
+    """Install a JSON asset's __payload__ and metadata using code point filenames."""
+    with source.open(encoding="utf8") as file:
+        metadata: JSON = json.load(file)
+    payload = Glyph(metadata.pop("__payload__"))
+    metadata["sendMode"] = sendmode
+    codepoints = str_to_codepoints(payload)
+    name = "_".join(codepoints)
+
+    text_file = target_dir / f"{name}.txt"
+    json_file = target_dir / f"{name}.json"
     if text_file.exists() or json_file.exists():
         match query_choice(
-            f"Found existing special character {sample.glyph!r} ({sample.ucode}).",
+            f"Found existing special character {payload!r} ({codepoints}).",
             choices=["keep", "overwrite", "delete"],
         ):
             case "keep":
@@ -557,14 +548,16 @@ def generate_character(
             case _:
                 raise ValueError("Invalid choice.")
     elif not query_choice(
-        f"Install special character {sample.glyph!r}?",
+        f"Install special character {payload!r}?",
         choices=[False, True],
     ):
         return
 
     target_dir.mkdir(exist_ok=True)
-    create_autokey_phrase(sample, template=template, path=target_dir, overwrite=True)
-    LOGGER.info("✅️ Added %s.", sample.glyph)
+    text_file.write_text(payload, encoding="utf8")
+    with json_file.open("w", encoding="utf8") as file:
+        json.dump(metadata, file, indent=True)
+    LOGGER.info("✅️ Added %s.", payload)
 
 
 def install_custom_scripts(*, target_dir: Path) -> None:
@@ -680,9 +673,10 @@ def main() -> None:
         )
 
     # add special characters
-    special = target_dir / SPECIAL_DIR
-    generate_character(TABULATOR, target_dir=special, template=template)
-    generate_character(NEWLINE, target_dir=special, template=template)
+    source_dir = Path(__file__).resolve().parent / "assets" / "special_chars"
+    special = target_dir / source_dir.name
+    for source in sorted(source_dir.glob("*.json")):
+        install_special_char(source, target_dir=special, sendmode=sendmode)
 
     install_custom_scripts(target_dir=target_dir)
     install_latex_snippets(target_dir=target_dir)
