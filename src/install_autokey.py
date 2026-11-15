@@ -567,18 +567,25 @@ def generate_character(
     LOGGER.info("✅️ Added %s.", sample.glyph)
 
 
-def generate_help(*, target_dir: Path) -> None:
-    r"""Create help script and config."""
+def install_custom_scripts(*, target_dir: Path) -> None:
+    """Copy bundled scripts and configs into target_dir/custom_scripts."""
+    source_dir = Path(__file__).resolve().parent / "assets" / "custom_scripts"
+    target_dir = target_dir / "custom_scripts"
+
     LOGGER.info("=" * 80)
-    LOGGER.info("Creating help script in %s.", target_dir)
-
-    target_dir.mkdir(exist_ok=True)
-
-    source_dir = Path(__file__).resolve().parent / "assets"
-    shutil.copyfile(source_dir / "help.py", target_dir / "julia_unicode_help.py")
-    shutil.copyfile(source_dir / "help.json", target_dir / "julia_unicode_help.json")
-
+    LOGGER.info("Installing custom scripts in %s.", target_dir)
+    shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
+
+
+def install_latex_snippets(*, target_dir: Path) -> None:
+    """Copy bundled snippets into target_dir/latex_snippets."""
+    source_dir = Path(__file__).resolve().parent / "assets" / "latex_snippets"
+    target_dir = target_dir / "latex_snippets"
+
+    LOGGER.info("=" * 80)
+    LOGGER.info("Installing LaTeX snippets in %s.", target_dir)
+    shutil.copytree(source_dir, target_dir, dirs_exist_ok=True)
 
 
 def main() -> None:
@@ -677,7 +684,8 @@ def main() -> None:
     generate_character(TABULATOR, target_dir=special, template=template)
     generate_character(NEWLINE, target_dir=special, template=template)
 
-    generate_help(target_dir=target_dir / "help")
+    install_custom_scripts(target_dir=target_dir)
+    install_latex_snippets(target_dir=target_dir)
     LOGGER.debug(r"Finished Installation. Restart AutoKey to enable!")
 
 
