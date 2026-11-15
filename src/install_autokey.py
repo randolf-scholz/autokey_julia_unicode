@@ -16,7 +16,7 @@ import sys
 import tempfile
 import tomllib
 from collections import Counter, defaultdict
-from collections.abc import Generator, Sequence
+from collections.abc import Sequence
 from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
@@ -254,38 +254,23 @@ class AutoKeyAsset(NamedTuple):
     metadata: JSON
 
 
-def read_row(row: Sequence[str] | Generator[str]) -> UnprocessedSample:
-    """Read a row from the tsv file."""
-    row = list(row)
-    try:
-        return UnprocessedSample(*row)
-    except TypeError as exc:
-        exc.add_note(f"Failed to parse row with {len(row)} elements. {row} .\n")
-        for i, col in enumerate(row):
-            exc.add_note(f"Column {i}: {col!r}.")
-        raise
-
-
 def load_icons(fname: str | Path, /) -> list[UnprocessedSample]:
-    """Load the icons from the tsv file."""
+    """Load TSV icons by column name, ignoring additional columns."""
     LOGGER.info("Parsing %s", fname)
 
-    with open(fname, "r", encoding="utf8") as tsv_file:
-        # scraped from https://docs.julialang.org/en/v1/manual/unicode-input/
-        reader_obj = csv.reader(tsv_file, delimiter="\t", quotechar=None)
-        items: list[list[str]] = list(reader_obj)
+    with open(fname, encoding="utf8", newline="") as tsv_file:
+        reader = csv.DictReader(tsv_file, delimiter="\t", quoting=csv.QUOTE_NONE)
+        if missing_columns := set(HEADER) - set(reader.fieldnames or ()):
+            raise ValueError(f"Missing columns in {fname}: {sorted(missing_columns)}")
 
-    header = items[0]
-    data = items[1:]
-
-    if missing_cols := set(HEADER) - set(header):  # pyright: ignore[reportOperatorIssue]
-        raise ValueError(f"Missing columns: {missing_cols}")
-
-    mask = [idx for idx, col in enumerate(header) if col in HEADER]
-
-    if mask == [0, 1, 2, 3]:
-        return [read_row(row[:4]) for row in data]
-    return [read_row(row[i] for i in mask) for row in data]
+        samples: list[UnprocessedSample] = []
+        for row in reader:
+            if missing_values := [column for column in HEADER if row[column] is None]:
+                raise ValueError(
+                    f"Missing values in {fname} at line {reader.line_num}: {missing_values}"
+                )
+            samples.append(UnprocessedSample(*(row[column] for column in HEADER)))
+    return samples
 
 
 def process_icons(data: list[UnprocessedSample], /) -> list[UnicodeSample]:
@@ -520,6 +505,27 @@ def build_icons(
         )
 
 
+def validate_metadata(metadata: JSON, source: Path) -> None:
+    """Require a description and abbreviation list, reporting the invalid field."""
+    if not isinstance(metadata.get("description"), str):
+        raise ValueError(  # noqa: TRY004 - invalid configuration data
+            f"Invalid metadata in {source}: description must be a string."
+        )
+    abbreviation = metadata.get("abbreviation")
+    if not isinstance(abbreviation, dict):
+        raise ValueError(  # noqa: TRY004 - invalid configuration data
+            f"Invalid metadata in {source}: abbreviation must be a table."
+        )
+    abbreviations = abbreviation.get("abbreviations")
+    if not isinstance(abbreviations, list) or not all(
+        isinstance(value, str) for value in abbreviations
+    ):
+        raise ValueError(
+            f"Invalid metadata in {source}: "
+            "abbreviation.abbreviations must be a list of strings."
+        )
+
+
 def build_phrases(source_dir: Path, *, sendmode: str) -> None:
     """Build TOML phrase assets in BUILD_DIR."""
     build_dir = BUILD_DIR / source_dir.name
@@ -533,25 +539,15 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
         with source.open("rb") as file:
             updates = tomllib.load(file)
         payload = updates.pop("payload", None)
+        if not isinstance(payload, str):
+            raise ValueError(  # noqa: TRY004 - invalid configuration data
+                f"Invalid snippet {source}: payload must be a string."
+            )
         metadata = _merge_dicts(
             template,
             {"description": source.stem} | updates | {"sendMode": sendmode},
         )
-        abbreviation = metadata.get("abbreviation")
-        if (
-            not isinstance(payload, str)
-            or not isinstance(metadata.get("description"), str)
-            or not isinstance(abbreviation, dict)
-            or not isinstance(abbreviation.get("abbreviations"), list)
-            or not all(
-                isinstance(value, str) for value in abbreviation["abbreviations"]
-            )
-        ):
-            raise ValueError(
-                f"Invalid snippet {source}: expected payload (string) "
-                "and abbreviation.abbreviations (list of strings), "
-                "with a string description."
-            )
+        validate_metadata(metadata, source)
         relative_path = source.relative_to(source_dir)
         write_asset(
             AutoKeyAsset(
@@ -586,19 +582,7 @@ def build_custom_scripts() -> None:
         with source.open("rb") as file:
             updates = tomllib.load(file)
         metadata = _merge_dicts(template, updates)
-        abbreviation = metadata.get("abbreviation")
-        if (
-            not isinstance(metadata.get("description"), str)
-            or not isinstance(abbreviation, dict)
-            or not isinstance(abbreviation.get("abbreviations"), list)
-            or not all(
-                isinstance(value, str) for value in abbreviation["abbreviations"]
-            )
-        ):
-            raise ValueError(
-                f"Invalid script config {source}: description (string) and "
-                "abbreviation.abbreviations (list of strings) must be supplied."
-            )
+        validate_metadata(metadata, source)
         if not source.with_suffix(".py").is_file():
             raise FileNotFoundError(f"Missing Python script for {source}.")
         write_asset(
@@ -609,16 +593,6 @@ def build_custom_scripts() -> None:
             ),
             build_dir,
         )
-
-
-def build_latex_snippets(*, sendmode: str) -> None:
-    """Build bundled TOML snippets in BUILD_DIR."""
-    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
-
-
-def build_special_chars(*, sendmode: str) -> None:
-    """Build all bundled special characters with their source filenames."""
-    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
 
 
 def install_build(target_dir: Path) -> None:
@@ -743,8 +717,8 @@ def main() -> None:
         sendmode=sendmode,
         duplicates=args.duplicates,
     )
-    build_latex_snippets(sendmode=sendmode)
-    build_special_chars(sendmode=sendmode)
+    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
+    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
     build_custom_scripts()
 
     if args.build_only:
