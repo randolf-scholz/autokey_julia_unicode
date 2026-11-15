@@ -1,4 +1,4 @@
-abbreviations = ["!proof"]
+abbreviation.abbreviations = ["!proof"]
 payload = '''
 
 \begin{proof}

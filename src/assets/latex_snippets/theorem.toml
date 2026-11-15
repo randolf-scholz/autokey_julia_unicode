@@ -1,4 +1,4 @@
-abbreviations = ["!thm"]
+abbreviation.abbreviations = ["!thm"]
 payload = '''
 \begin{theorem}[title]\label{thm:label}
 

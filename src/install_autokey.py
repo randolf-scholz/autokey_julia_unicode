@@ -370,13 +370,14 @@ def create_autokey_phrase(
     payload_path.write_text(sample.glyph, encoding="utf8")
     with metadata_path.open("w", encoding="utf8") as file:
         json.dump(
-            template
-            | {
-                "sendMode": sendmode,
-                "abbreviation": template["abbreviation"]
-                | {"abbreviations": sample.abbreviations},
-                "description": sample.description,
-            },
+            _merge_dicts(
+                template,
+                {
+                    "sendMode": sendmode,
+                    "abbreviation": {"abbreviations": sample.abbreviations},
+                    "description": sample.description,
+                },
+            ),
             file,
             indent=True,
         )
@@ -603,22 +604,32 @@ def _build_phrases(
     phrases: list[tuple[Path, str, JSON]] = []
     for source in sorted(source_dir.rglob("*.toml")):
         with source.open("rb") as file:
-            config = tomllib.load(file)
+            updates = tomllib.load(file)
+        payload = updates.pop("payload", None)
+        metadata = _merge_dicts(
+            template,
+            {"description": source.stem} | updates | {"sendMode": sendmode},
+        )
+        abbreviation = metadata.get("abbreviation")
         if (
-            config.keys() != {"abbreviations", "payload"}
-            or not isinstance(config["payload"], str)
-            or not isinstance(config["abbreviations"], list)
-            or not all(isinstance(value, str) for value in config["abbreviations"])
+            not isinstance(payload, str)
+            or not isinstance(metadata.get("description"), str)
+            or not isinstance(abbreviation, dict)
+            or not isinstance(abbreviation.get("abbreviations"), list)
+            or not all(
+                isinstance(value, str) for value in abbreviation["abbreviations"]
+            )
         ):
             raise ValueError(
                 f"Invalid snippet {source}: expected payload (string) "
-                "and abbreviations (list of strings)."
+                "and abbreviation.abbreviations (list of strings), "
+                "with a string description."
             )
         relative_path = source.relative_to(source_dir)
         if codepoint_names:
-            name = "_".join(str_to_codepoints(Glyph(config["payload"])))
+            name = "_".join(str_to_codepoints(Glyph(payload)))
             relative_path = relative_path.with_stem(name)
-        phrases.append((relative_path, source.stem, config))
+        phrases.append((relative_path, payload, metadata))
 
     if build_dir.exists():
         shutil.rmtree(build_dir)
@@ -627,23 +638,13 @@ def _build_phrases(
     LOGGER.info("=" * 80)
     LOGGER.info("Building phrases in %s.", build_dir)
     files: list[Path] = []
-    for relative_path, description, config in phrases:
+    for relative_path, payload, metadata in phrases:
         target = build_dir / relative_path
         target.parent.mkdir(parents=True, exist_ok=True)
         text_file = target.with_suffix(".txt")
-        text_file.write_text(config["payload"], encoding="utf8", newline="")
+        text_file.write_text(payload, encoding="utf8", newline="")
         with target.with_suffix(".json").open("w", encoding="utf8") as file:
-            json.dump(
-                template
-                | {
-                    "abbreviation": template["abbreviation"]
-                    | {"abbreviations": config["abbreviations"]},
-                    "description": description,
-                    "sendMode": sendmode,
-                },
-                file,
-                indent=True,
-            )
+            json.dump(metadata, file, indent=True)
         files.append(text_file)
     return files
 
@@ -845,13 +846,14 @@ def main() -> None:
             )
 
     # if sendmode is missing, ask user
-    if args.sendmode is None:
-        sendmode = query_choice(
+    sendmode = (
+        SEND_MODES[args.sendmode]
+        if args.sendmode is not None
+        else query_choice(
             question="How should character substitutions be performed?",
             choices=SEND_MODES,
         )
-    else:
-        sendmode = SEND_MODES[args.sendmode]
+    )
 
     target_dir = args.autokey_directory / args.target_directory
 

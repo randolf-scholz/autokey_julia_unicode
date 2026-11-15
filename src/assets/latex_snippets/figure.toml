@@ -1,4 +1,4 @@
-abbreviations = ["!fig"]
+abbreviation.abbreviations = ["!fig"]
 payload = '''
 \begin{figure}
 \centering%

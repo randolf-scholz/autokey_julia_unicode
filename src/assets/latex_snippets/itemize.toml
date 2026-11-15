@@ -1,4 +1,4 @@
-abbreviations = ["!item"]
+abbreviation.abbreviations = ["!item"]
 payload = '''
 %
 \begin{itemize}

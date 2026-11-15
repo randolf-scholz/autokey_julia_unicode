@@ -1,4 +1,4 @@
-abbreviations = ["!ex"]
+abbreviation.abbreviations = ["!ex"]
 payload = '''
 \begin{example}[title]\label{ex:label}
 

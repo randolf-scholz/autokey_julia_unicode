@@ -1,4 +1,4 @@
-abbreviations = ["!details"]
+abbreviation.abbreviations = ["!details"]
 payload = '''
 <details><summary></summary>
 

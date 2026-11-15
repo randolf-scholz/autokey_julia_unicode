@@ -1,4 +1,4 @@
-abbreviations = ["!tblr"]
+abbreviation.abbreviations = ["!tblr"]
 payload = '''
 \begin{table}
 \centering%

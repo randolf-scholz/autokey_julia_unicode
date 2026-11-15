@@ -1,4 +1,4 @@
-abbreviations = ["!outline"]
+abbreviation.abbreviations = ["!outline"]
 payload = '''
 
 \begin{outline}

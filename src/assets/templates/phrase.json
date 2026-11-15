@@ -1,13 +1,13 @@
 {
     "abbreviation": {
-        "abbreviations": [],
+        "abbreviations": null,
         "backspace": true,
         "ignoreCase": false,
         "immediate": true,
         "triggerInside": true,
         "wordChars": "[^\\t]"
     },
-    "description": "",
+    "description": null,
     "filter": {
         "regex": null,
         "isRecursive": false
@@ -22,7 +22,7 @@
     "matchCase": false,
     "omitTrigger": false,
     "prompt": false,
-    "sendMode": "<shift>+<insert>",
+    "sendMode": null,
     "showInTrayMenu": false,
     "type": "phrase",
     "usageCount": 0

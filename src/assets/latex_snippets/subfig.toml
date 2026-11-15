@@ -1,4 +1,4 @@
-abbreviations = ["!subfig"]
+abbreviation.abbreviations = ["!subfig"]
 payload = '''
 \begin{subfigure}[t]{0.5\textwidth}
 \centering

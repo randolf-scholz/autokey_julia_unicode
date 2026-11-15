@@ -1,4 +1,4 @@
-abbreviations = ["!lem"]
+abbreviation.abbreviations = ["!lem"]
 payload = '''
 \begin{lemma}[title]\label{lem:label}
 

@@ -1,4 +1,4 @@
-abbreviations = ["!subeq"]
+abbreviation.abbreviations = ["!subeq"]
 payload = '''
 %
 \begin{subequations}\label{eq:label}

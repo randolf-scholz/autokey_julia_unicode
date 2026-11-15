@@ -1,2 +1,2 @@
-abbreviations = ['\n ']
+abbreviation.abbreviations = ['\n ']
 payload = "\n"

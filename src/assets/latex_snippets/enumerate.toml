@@ -1,4 +1,4 @@
-abbreviations = ["!enum"]
+abbreviation.abbreviations = ["!enum"]
 payload = '''
 %
 \begin{enumerate}

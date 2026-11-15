@@ -1,4 +1,4 @@
-abbreviations = ["!alg"]
+abbreviation.abbreviations = ["!alg"]
 payload = '''
 \begin{algorithm}
 \caption{Riemannian Gradient Descent with Line Search}

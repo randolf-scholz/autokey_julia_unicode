@@ -1,4 +1,4 @@
-abbreviations = ["!math"]
+abbreviation.abbreviations = ["!math"]
 payload = '''
 %
 \begin{align*}
