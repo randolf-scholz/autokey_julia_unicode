@@ -5,3 +5,22 @@ version = "0.1.0"
 # gh-67044: https://github.com/python/cpython/issues/67044
 requires-python = ">=3.12.3"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "autokey>=0.96.0",
+    "pyrefly>=1.4.1",
+    "ruff>=0.17.5",
+]
+
+[tool.ruff]
+src = ["src/", "tests/"]
+indent-width = 4
+line-length = 88
+target-version = "py312"
+output-format = "concise"
+
+[tool.pyrefly]
+python-version = "3.12"
+output-format = "min-text"
+search-path = ["src/", "."]
