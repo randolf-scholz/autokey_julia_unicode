@@ -96,7 +96,7 @@ def is_glyph(s: object, /) -> TypeGuard[Glyph]:
 
 
 class CodePoint(str):
-    """Unicode code type (like U+)."""
+    """Unicode code point normalized to U+ followed by at least four hex digits."""
 
     PATTERN = re.compile(r"U\+[0-9A-F]{4,6}")
     """Regex pattern for unicode codes."""
@@ -104,18 +104,9 @@ class CodePoint(str):
     def __new__(cls, value: str) -> Self:
         if not isinstance(value, str) or CodePoint.PATTERN.fullmatch(value) is None:
             raise ValueError(f"{value!r} is not a valid unicode code.")
-        return super().__new__(cls, value)
-
-    @property
-    def hex(self) -> int:
-        return int(self[2:], 16)  # ruff: ignore[FURB166]
-
-
-def parse_codepoints(s: str, /) -> list[CodePoint]:
-    """Parse a string of the form 'U+0000A + U+0000B' into a list of CodePoints."""
-    codepoints: list[CodePoint] = [CodePoint(code.strip()) for code in s.split(" + ")]
-    # simplify code points by stripping leading zeros, format as U+XXXX
-    return [CodePoint(f"U+{code.hex:04X}") for code in codepoints]
+        # Strip excess leading zeros while keeping at least four uppercase hex digits.
+        normalized = f"U+{int(value.removeprefix('U+'), 16):04X}"
+        return super().__new__(cls, normalized)
 
 
 def str_to_codepoints(s: str, /) -> list[CodePoint]:
@@ -252,7 +243,7 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
 
     for item in load_icons(fname):
         ucode, char, raw_abb, description = item
-        parsed_ucodes = parse_codepoints(ucode)
+        parsed_ucodes = [CodePoint(code.strip()) for code in ucode.split(" + ")]
 
         # guard against invalid character
         if not is_glyph(char):
