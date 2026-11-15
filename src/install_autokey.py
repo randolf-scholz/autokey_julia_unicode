@@ -12,7 +12,6 @@ import os
 import re
 import shutil
 import subprocess
-import sys
 import tempfile
 import tomllib
 from collections import defaultdict
@@ -45,9 +44,9 @@ def check_autokey_version() -> None:
     """Require system AutoKey >=0.96.0 when its version can be determined."""
     for command in ("autokey-gtk", "autokey-qt"):
         # Use the system search path so a virtual environment cannot shadow AutoKey.
-        executable = shutil.which(command, path=os.defpath)
-        if executable is None:
+        if (executable := shutil.which(command, path=os.defpath)) is None:
             continue
+
         try:
             result = subprocess.run(
                 [executable, "--version"],
@@ -58,11 +57,13 @@ def check_autokey_version() -> None:
             )
         except (OSError, subprocess.SubprocessError):
             continue
-        match = re.search(r"\b(\d+)\.(\d+)\.(\d+)\b", result.stdout)
-        if match is None:
+
+        if (match := re.search(r"\b(\d+)\.(\d+)\.(\d+)\b", result.stdout)) is None:
             continue
+
         if tuple(map(int, match.groups())) < (0, 96, 0):
-            sys.exit(f"AutoKey >=0.96.0 is required; found {match[0]}.")
+            raise SystemExit(f"AutoKey >=0.96.0 is required; found {match[0]}.")
+
         LOGGER.info("Detected AutoKey %s (%s).", match[0], executable)
         return
 
@@ -161,9 +162,9 @@ def query_choice[T](
             for i, option in options.items():
                 print(f"{i:3d}. {option!r}")
             user_choice = input(f"Enter integer (default: {default}): ")
-        except (KeyboardInterrupt, SystemExit):
-            print("Operation aborted. Exiting.")
-            sys.exit(0)
+        except (KeyboardInterrupt, SystemExit) as exc:
+            exc.add_note("Operation aborted. Exiting.")
+            raise
         try:
             if user_choice == "" and default is not None:
                 return options[default]
@@ -209,15 +210,13 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
 
     with open(fname, encoding="utf8", newline="") as tsv_file:
         reader = csv.DictReader(tsv_file, delimiter="\t", quoting=csv.QUOTE_NONE)
-        if missing_columns := set(Header) - set(reader.fieldnames or ()):
-            raise ValueError(
-                f"Missing columns in {fname}: {', '.join(sorted(missing_columns))}"
-            )
+        if missing_cols := sorted(set(Header) - set(reader.fieldnames or ())):
+            raise ValueError(f"Missing columns in {fname}: {', '.join(missing_cols)}")
 
         for row in reader:
-            if missing_values := [col.value for col in Header if row[col] is None]:
+            if missing_vals := [col.value for col in Header if row[col] is None]:
                 raise ValueError(
-                    f"Missing values in {fname} at line {reader.line_num}: {missing_values}"
+                    f"Missing values in {fname} at line {reader.line_num}: {missing_vals}"
                 )
             yield UnprocessedSample(
                 ucode=row[Header.CODEPOINTS],
@@ -623,11 +622,7 @@ def main() -> None:
         shutil.rmtree(BUILD_DIR)
     BUILD_DIR.mkdir(parents=True)
 
-    build_icons(
-        args.source_directories,
-        sendmode=sendmode,
-        duplicates=args.duplicates,
-    )
+    build_icons(args.source_directories, sendmode=sendmode, duplicates=args.duplicates)
     build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
     build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
     build_custom_scripts()
