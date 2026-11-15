@@ -6,6 +6,7 @@ U+2016	‖	\|, \norm	Double Vertical Line	|
 U+2022	•	\textbullet	Bullet	.
 U+2025	‥	\..	Two Dot Leader	..
 U+2026	…	\...	Horizontal Ellipsis	...
+U+202F	 	\nnbsp	Narrow No-Break Space	\x20
 U+2030	‰	\%%, \permille	Per Mille Sign	%%
 U+2031	‱	\%%%, \permyriad	Per Ten Thousand Sign	%%%
 U+2032	′	\'	Prime	'
