@@ -499,41 +499,6 @@ def generate_codes(
     return skipped_duplicates
 
 
-HELP_SCRIPT = r"""#!/usr/bin/env python
-import webbrowser
-webbrowser.open("https://docs.julialang.org/en/v1/manual/unicode-input/")
-"""
-
-HELP_CONFIG: JSON = {
-    "type": "script",
-    "description": "Help for Julia Unicode",
-    "store": {},
-    "modes": [1],
-    "usageCount": 0,
-    "prompt": False,
-    "omitTrigger": False,
-    "showInTrayMenu": True,
-    "abbreviation": {
-        "abbreviations": [
-            r"\\help ",
-        ],
-        "backspace": False,
-        "ignoreCase": False,
-        "immediate": True,
-        "triggerInside": True,
-        "wordChars": "[\\w]",
-    },
-    "hotkey": {
-        "modifiers": [],
-        "hotKey": None,
-    },
-    "filter": {
-        "regex": None,
-        "isRecursive": False,
-    },
-}
-
-
 def generate_character(
     sample: UnicodeSample,
     *,
@@ -576,11 +541,9 @@ def generate_help(*, target_dir: Path) -> None:
 
     target_dir.mkdir(exist_ok=True)
 
-    with open(target_dir / "julia_unicode_help.py", "w", encoding="utf8") as file:
-        file.write(HELP_SCRIPT)
-
-    with open(target_dir / "julia_unicode_help.json", "w", encoding="utf8") as file:
-        json.dump(HELP_CONFIG, file, indent=True)
+    source_dir = Path(__file__).resolve().parent
+    shutil.copyfile(source_dir / "help.py", target_dir / "julia_unicode_help.py")
+    shutil.copyfile(source_dir / "help.json", target_dir / "julia_unicode_help.json")
 
     LOGGER.info(r"Type '\help'+[SPACE] for list of all abbreviations.")
 
