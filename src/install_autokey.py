@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 LOGGER = logging.getLogger(__name__)
-BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build"
+BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
 type JSON = dict[str, Any]
 
 
