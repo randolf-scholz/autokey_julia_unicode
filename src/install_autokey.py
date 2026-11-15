@@ -118,6 +118,16 @@ def parse_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{code.hex:04X}") for code in codepoints]
 
 
+def str_to_codepoints(s: str, /) -> list[CodePoint]:
+    r"""Convert a string to a list of code points.
+
+    Example:
+        >>> str_to_codepoints("✅️")
+        ['U+2705', 'U+FE0F']
+    """
+    return [CodePoint(f"U+{ord(c):04X}") for c in s]
+
+
 class Abbreviation(str):
     """Abbreviation type."""
 
@@ -147,16 +157,6 @@ def make_abbreviations(raw_data: str, /) -> list[Abbreviation]:
         abbreviations.append(abb)
 
     return abbreviations
-
-
-def str_to_codepoints(s: str, /) -> list[CodePoint]:
-    r"""Convert a string to a list of code points.
-
-    Example:
-        >>> str_to_codepoints("✅️")
-        ['U+2705', 'U+FE0F']
-    """
-    return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
 def query_choice[T](
