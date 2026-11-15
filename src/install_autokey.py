@@ -159,11 +159,6 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
     return [CodePoint(f"U+{ord(c):04X}") for c in s]
 
 
-def as_hex(s: str, /) -> str:
-    """Convert string to hex representation."""
-    return str([f"U+{ord(c):04X}" for c in s])
-
-
 def query_choice[T](
     question: str = "Please pick one of the following:",
     *,
@@ -224,14 +219,6 @@ class UnicodeSample(NamedTuple):
         return f"{ucode}: {char!r}  {abbrevations=!s}"
 
 
-class AutoKeyAsset(NamedTuple):
-    """A payload file and its AutoKey metadata, relative to a collection."""
-
-    path: Path
-    payload: bytes
-    metadata: JSON
-
-
 def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
     """Yield TSV icons by column name, ignoring additional columns."""
     LOGGER.info("Parsing %s", fname)
@@ -273,7 +260,7 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
             skipped.append(
                 (
                     item,
-                    f"Invalid character {char!r}={as_hex(char)}",
+                    f"Invalid character {char!r}={str_to_codepoints(char)}",
                 )
             )
             continue
@@ -317,25 +304,26 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
 
 
 def write_asset(
-    asset: AutoKeyAsset,
-    directory: Path,
+    destination: Path,
+    /,
     *,
+    payload: bytes,
+    metadata: JSON,
     duplicates: Literal["error", "skip"] = "error",
 ) -> bool:
     """Write a payload/metadata pair, returning False for a skipped duplicate."""
-    payload_path = directory / asset.path
-    metadata_path = payload_path.with_suffix(".json")
+    metadata_path = destination.with_suffix(".json")
 
-    for path in (payload_path, metadata_path):
+    for path in (destination, metadata_path):
         if path.exists():
             if duplicates == "skip":
                 return False
             raise FileExistsError(f"File {path} already exists.")
 
-    payload_path.parent.mkdir(parents=True, exist_ok=True)
-    payload_path.write_bytes(asset.payload)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_bytes(payload)
     with metadata_path.open("w", encoding="utf8") as file:
-        json.dump(asset.metadata, file, indent=True)
+        json.dump(metadata, file, indent=True)
     return True
 
 
@@ -368,8 +356,8 @@ def generate_codes(
     for filename in sorted(folder.glob("*.tsv")):
         LOGGER.info("-" * 80)
         for sample in process_icons(filename):
-            asset = AutoKeyAsset(
-                path=Path(f"{sample.name}.txt"),
+            if not write_asset(
+                target_dir / f"{sample.name}.txt",
                 payload=sample.glyph.encode("utf8"),
                 metadata=_merge_dicts(
                     template,
@@ -379,9 +367,8 @@ def generate_codes(
                         "description": sample.description,
                     },
                 ),
-            )
-
-            if not write_asset(asset, target_dir, duplicates=duplicates):
+                duplicates=duplicates,
+            ):
                 skipped_duplicates.append(sample)
                 LOGGER.info(
                     "Skipped duplicate character: %s (%s)", sample.glyph, sample.name
@@ -519,12 +506,9 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
         validate_metadata(metadata, source)
         relative_path = source.relative_to(source_dir)
         write_asset(
-            AutoKeyAsset(
-                path=relative_path.with_suffix(".txt"),
-                payload=payload.encode("utf8"),
-                metadata=metadata,
-            ),
-            build_dir,
+            build_dir / relative_path.with_suffix(".txt"),
+            payload=payload.encode("utf8"),
+            metadata=metadata,
         )
 
 
@@ -555,12 +539,9 @@ def build_custom_scripts() -> None:
         if not source.with_suffix(".py").is_file():
             raise FileNotFoundError(f"Missing Python script for {source}.")
         write_asset(
-            AutoKeyAsset(
-                path=source.relative_to(source_dir).with_suffix(".py"),
-                payload=source.with_suffix(".py").read_bytes(),
-                metadata=metadata,
-            ),
-            build_dir,
+            build_dir / source.relative_to(source_dir).with_suffix(".py"),
+            payload=source.with_suffix(".py").read_bytes(),
+            metadata=metadata,
         )
 
 
