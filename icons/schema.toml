@@ -3,7 +3,7 @@
 # This is a project-specific schema vocabulary, not a standard TOML schema.
 # Columns are identified by table key; TOML table order is not significant.
 # format.column_order defines canonical export order; readers accept any order.
-# `required` governs header presence; `allow_empty` governs individual cells.
+# `required` governs header presence; `allow_empty` governs cells and list items.
 # item_pattern overrides format.item_pattern and uses full-string matching.
 # For strings it matches the whole cell; for lists it matches each split item.
 
@@ -17,21 +17,21 @@ encoding = "utf-8"
 delimiter = "\t"
 quotechar = '"'
 doublequote = true
-# Record separators are LF; the final LF is optional. Embedded tabs/CR/LF
-# and literal double quotes must use TSV double-quoting and quote doubling.
+# Canonical exports use LF; the final LF is optional. Quote fields containing
+# tabs/CR/LF or literal double quotes, doubling quotes within quoted fields.
+# Python readers follow csv parsing rules, accepting CR/CRLF and ignoring blank lines.
 line_terminator = "\n"
 header = true
 allow_unknown_columns = false
 item_type = "string"
 # Accept every character, including tabs, line breaks, and carriage returns.
-# Empty values remain subject to allow_empty and the list settings below.
+# Empty values remain subject to each column's allow_empty setting.
 item_pattern = '[\s\S]*'
 
 # Split on the exact delimiter, not bare commas; preserve item order.
 # An empty cell means an empty list, subject to the column's allow_empty setting.
-lists.separator = ", "
-lists.allow_empty_items = false
-lists.allow_trailing_separator = false
+# A trailing separator produces an empty item, also subject to allow_empty.
+list_separator = ", "
 
 [columns]
 [columns.code_points]
@@ -80,11 +80,12 @@ required = true
 allow_empty = true
 type = "string"
 description = """
-Exact Unicode Name property for a single code point, preserving source spelling
-and uppercase. Empty for unnamed code points (including controls and private-use
-characters) and for multi-code-point sequences. Do not use legacy names, aliases,
-range labels, or custom descriptions. Names are checked against the imported
-UnicodeData.txt, including algorithmically named ranges.
+For a single character, optionally followed by one variation selector or one
+combining mark in U+0300..U+036F, match the base character's unicode_name in
+icons/unicode.tsv, ignoring case. This includes matching empty names for
+unnamed characters present in that table.
+Name checks are skipped for characters absent from the table and for other
+multi-code-point sequences. Whitespace is significant.
 """
 examples = ["GREEK SMALL LETTER ALPHA", "", "DOUBLE-STRUCK CAPITAL N"]
 
