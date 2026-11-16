@@ -114,16 +114,6 @@ type = "string"
 description = "Official name of the Unicode block identified by block; empty if unspecified."
 examples = ["Basic Latin", "Emoticons"]
 
-[columns.latex_code]
-required = false
-allow_empty = true
-type = "string"
-description = """
-LaTeX source representing the replacement text, without surrounding math-mode
-delimiters. This is plain text, not a list. Empty means unspecified.
-"""
-examples = ['\alpha', '\not=']
-
 [columns.base]
 required = false
 allow_empty = true
