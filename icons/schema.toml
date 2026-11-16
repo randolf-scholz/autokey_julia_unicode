@@ -46,6 +46,16 @@ Decoding the values in order must reproduce text exactly.
 """
 examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
 
+[columns.text]
+required = true
+allow_empty = false
+type = "string"
+description = """
+Exact replacement text, without padding added solely for display.
+Preserve whitespace exactly; do not strip or Unicode-normalize the text.
+"""
+examples = ["α", "≠", "✅️"]
+
 [columns.tab_completions]
 required = true
 allow_empty = true
@@ -61,16 +71,6 @@ not be stored. An empty cell means no aliases. A bare comma within an alias
 is allowed because it cannot be followed by a space within that alias.
 """
 examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
-
-[columns.text]
-required = true
-allow_empty = false
-type = "string"
-description = """
-Exact replacement text, without padding added solely for display.
-Preserve whitespace exactly; do not strip or Unicode-normalize the text.
-"""
-examples = ["α", "≠", "✅️"]
 
 [columns.name]
 required = true
