@@ -2,7 +2,7 @@
 # Draft contract for icon TSV files. Existing files have not yet been migrated.
 # This is a project-specific schema vocabulary, not a standard TOML schema.
 # Columns are identified by table key; TOML table order is not significant.
-# Exporters must choose an explicit column order.
+# format.column_order defines canonical export order; readers accept any order.
 # `required` governs header presence; `allow_empty` governs individual cells.
 # item_pattern overrides format.item_pattern and uses full-string matching.
 # For strings it matches the whole cell; for lists it matches each split item.
@@ -11,11 +11,14 @@ schema_version = 1
 status = "draft"
 
 [format]
+column_order = ["code_points", "chars", "tab_completions", "unicode_name", "base"]
 # TSV readers require unique headers and exactly one field per header in each row.
 encoding = "utf-8"
 delimiter = "\t"
 quotechar = '"'
 doublequote = true
+# Record separators are LF; the final LF is optional. Embedded tabs/CR/LF
+# and literal double quotes must use TSV double-quoting and quote doubling.
 line_terminator = "\n"
 header = true
 allow_unknown_columns = false
@@ -42,11 +45,11 @@ Nonempty comma-space-separated list of the replacement text's Unicode scalar
 values, in order. Use uppercase hexadecimal with at least four digits.
 Repeated code points are allowed, including in phrases.
 Values must be U+0000 through U+10FFFF, excluding U+D800 through U+DFFF.
-Decoding the values in order must reproduce text exactly.
+Decoding the values in order must reproduce chars exactly.
 """
 examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
 
-[columns.text]
+[columns.chars]
 required = true
 allow_empty = false
 type = "string"
@@ -72,54 +75,29 @@ is allowed because it cannot be followed by a space within that alias.
 """
 examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
 
-[columns.name]
+[columns.unicode_name]
 required = true
-allow_empty = false
-type = "string"
-description = """
-Human-readable description of the replacement text. May use Unicode names or a
-free-form phrase description. This is plain text, not an encoded list.
-"""
-examples = ["Greek small letter alpha", "Not a Number"]
-
-[columns.display]
-required = false
 allow_empty = true
 type = "string"
 description = """
-Optional presentation text, such as a combining mark surrounded by nonbreaking
-spaces. An absent column or empty cell means display the replacement text.
-This field does not change the replacement text or its code points.
+Exact Unicode Name property for a single code point, preserving source spelling
+and uppercase. Empty for unnamed code points (including controls and private-use
+characters) and for multi-code-point sequences. Do not use legacy names, aliases,
+range labels, or custom descriptions. Names are checked against the imported
+UnicodeData.txt, including algorithmically named ranges.
 """
-
-[columns.block]
-required = false
-allow_empty = true
-type = "string"
-item_pattern = '[0-9A-F]{4,6}\.\.[0-9A-F]{4,6}'
-description = """
-Inclusive Unicode block bounds in uppercase hexadecimal, without U+ prefixes.
-The lower bound must not exceed the upper bound; both must be at most 10FFFF.
-Applies only to a single-code-point entry and must contain that code point.
-If populated, block_name must also be populated and name the same Unicode block.
-Conversely, a populated block_name requires a populated block.
-An absent column or empty cell means unspecified or not applicable.
-"""
-examples = ["0000..007F", "1F600..1F64F"]
-
-[columns.block_name]
-required = false
-allow_empty = true
-type = "string"
-description = "Official name of the Unicode block identified by block; empty if unspecified."
-examples = ["Basic Latin", "Emoticons"]
+examples = ["GREEK SMALL LETTER ALPHA", "", "DOUBLE-STRUCK CAPITAL N"]
 
 [columns.base]
 required = false
 allow_empty = true
 type = "string"
+item_pattern = '[\s\S]'
 description = """
-Related base or unstyled text, for example 'a' for subscript 'ₐ'. May contain
-multiple characters. Empty means unspecified or not applicable.
+Optional project-defined counterpart, usually the unstyled or baseline
+character, for example 'N' for 'ℕ'. Must be exactly one Unicode scalar value
+when populated, not an arbitrary grapheme cluster or string. It may be inferred
+from selected compatibility decompositions or manually curated. Empty means
+unspecified. This relationship does not imply interchangeability.
 """
 examples = ["a", "0"]
