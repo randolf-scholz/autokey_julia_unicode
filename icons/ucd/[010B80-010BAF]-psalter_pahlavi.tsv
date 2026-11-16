@@ -1,30 +1,30 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10B80	𐮀	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter aleph		
-U+10B81	𐮁	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter beth		
-U+10B82	𐮂	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter gimel		
-U+10B83	𐮃	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter daleth		
-U+10B84	𐮄	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter he		
-U+10B85	𐮅	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter waw-ayin-resh		
-U+10B86	𐮆	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter zayin		
-U+10B87	𐮇	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter heth		
-U+10B88	𐮈	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter yodh		
-U+10B89	𐮉	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter kaph		
-U+10B8A	𐮊	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter lamedh		
-U+10B8B	𐮋	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter mem-qoph		
-U+10B8C	𐮌	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter nun		
-U+10B8D	𐮍	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter samekh		
-U+10B8E	𐮎	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter pe		
-U+10B8F	𐮏	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter sadhe		
-U+10B90	𐮐	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter shin		
-U+10B91	𐮑	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi letter taw		
-U+10B99	𐮙	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi section mark		
-U+10B9A	𐮚	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi turned section mark		
-U+10B9B	𐮛	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi four dots with cross		
-U+10B9C	𐮜	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi four dots with dot		
-U+10BA9	𐮩	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number one		
-U+10BAA	𐮪	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number two		
-U+10BAB	𐮫	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number three		
-U+10BAC	𐮬	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number four		
-U+10BAD	𐮭	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number ten		
-U+10BAE	𐮮	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number twenty		
-U+10BAF	𐮯	10B80..10BAF	Psalter Pahlavi	Psalter pahlavi number one hundred		
+code_points	chars	tab_completions	unicode_name	base
+U+10B80	𐮀		PSALTER PAHLAVI LETTER ALEPH	
+U+10B81	𐮁		PSALTER PAHLAVI LETTER BETH	
+U+10B82	𐮂		PSALTER PAHLAVI LETTER GIMEL	
+U+10B83	𐮃		PSALTER PAHLAVI LETTER DALETH	
+U+10B84	𐮄		PSALTER PAHLAVI LETTER HE	
+U+10B85	𐮅		PSALTER PAHLAVI LETTER WAW-AYIN-RESH	
+U+10B86	𐮆		PSALTER PAHLAVI LETTER ZAYIN	
+U+10B87	𐮇		PSALTER PAHLAVI LETTER HETH	
+U+10B88	𐮈		PSALTER PAHLAVI LETTER YODH	
+U+10B89	𐮉		PSALTER PAHLAVI LETTER KAPH	
+U+10B8A	𐮊		PSALTER PAHLAVI LETTER LAMEDH	
+U+10B8B	𐮋		PSALTER PAHLAVI LETTER MEM-QOPH	
+U+10B8C	𐮌		PSALTER PAHLAVI LETTER NUN	
+U+10B8D	𐮍		PSALTER PAHLAVI LETTER SAMEKH	
+U+10B8E	𐮎		PSALTER PAHLAVI LETTER PE	
+U+10B8F	𐮏		PSALTER PAHLAVI LETTER SADHE	
+U+10B90	𐮐		PSALTER PAHLAVI LETTER SHIN	
+U+10B91	𐮑		PSALTER PAHLAVI LETTER TAW	
+U+10B99	𐮙		PSALTER PAHLAVI SECTION MARK	
+U+10B9A	𐮚		PSALTER PAHLAVI TURNED SECTION MARK	
+U+10B9B	𐮛		PSALTER PAHLAVI FOUR DOTS WITH CROSS	
+U+10B9C	𐮜		PSALTER PAHLAVI FOUR DOTS WITH DOT	
+U+10BA9	𐮩		PSALTER PAHLAVI NUMBER ONE	
+U+10BAA	𐮪		PSALTER PAHLAVI NUMBER TWO	
+U+10BAB	𐮫		PSALTER PAHLAVI NUMBER THREE	
+U+10BAC	𐮬		PSALTER PAHLAVI NUMBER FOUR	
+U+10BAD	𐮭		PSALTER PAHLAVI NUMBER TEN	
+U+10BAE	𐮮		PSALTER PAHLAVI NUMBER TWENTY	
+U+10BAF	𐮯		PSALTER PAHLAVI NUMBER ONE HUNDRED	

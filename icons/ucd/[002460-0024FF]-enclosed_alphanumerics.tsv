@@ -1,161 +1,161 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2460	①	2460..24FF	Enclosed Alphanumerics	Circled digit one		
-U+2461	②	2460..24FF	Enclosed Alphanumerics	Circled digit two		
-U+2462	③	2460..24FF	Enclosed Alphanumerics	Circled digit three		
-U+2463	④	2460..24FF	Enclosed Alphanumerics	Circled digit four		
-U+2464	⑤	2460..24FF	Enclosed Alphanumerics	Circled digit five		
-U+2465	⑥	2460..24FF	Enclosed Alphanumerics	Circled digit six		
-U+2466	⑦	2460..24FF	Enclosed Alphanumerics	Circled digit seven		
-U+2467	⑧	2460..24FF	Enclosed Alphanumerics	Circled digit eight		
-U+2468	⑨	2460..24FF	Enclosed Alphanumerics	Circled digit nine		
-U+2469	⑩	2460..24FF	Enclosed Alphanumerics	Circled number ten		
-U+246A	⑪	2460..24FF	Enclosed Alphanumerics	Circled number eleven		
-U+246B	⑫	2460..24FF	Enclosed Alphanumerics	Circled number twelve		
-U+246C	⑬	2460..24FF	Enclosed Alphanumerics	Circled number thirteen		
-U+246D	⑭	2460..24FF	Enclosed Alphanumerics	Circled number fourteen		
-U+246E	⑮	2460..24FF	Enclosed Alphanumerics	Circled number fifteen		
-U+246F	⑯	2460..24FF	Enclosed Alphanumerics	Circled number sixteen		
-U+2470	⑰	2460..24FF	Enclosed Alphanumerics	Circled number seventeen		
-U+2471	⑱	2460..24FF	Enclosed Alphanumerics	Circled number eighteen		
-U+2472	⑲	2460..24FF	Enclosed Alphanumerics	Circled number nineteen		
-U+2473	⑳	2460..24FF	Enclosed Alphanumerics	Circled number twenty		
-U+2474	⑴	2460..24FF	Enclosed Alphanumerics	Parenthesized digit one		
-U+2475	⑵	2460..24FF	Enclosed Alphanumerics	Parenthesized digit two		
-U+2476	⑶	2460..24FF	Enclosed Alphanumerics	Parenthesized digit three		
-U+2477	⑷	2460..24FF	Enclosed Alphanumerics	Parenthesized digit four		
-U+2478	⑸	2460..24FF	Enclosed Alphanumerics	Parenthesized digit five		
-U+2479	⑹	2460..24FF	Enclosed Alphanumerics	Parenthesized digit six		
-U+247A	⑺	2460..24FF	Enclosed Alphanumerics	Parenthesized digit seven		
-U+247B	⑻	2460..24FF	Enclosed Alphanumerics	Parenthesized digit eight		
-U+247C	⑼	2460..24FF	Enclosed Alphanumerics	Parenthesized digit nine		
-U+247D	⑽	2460..24FF	Enclosed Alphanumerics	Parenthesized number ten		
-U+247E	⑾	2460..24FF	Enclosed Alphanumerics	Parenthesized number eleven		
-U+247F	⑿	2460..24FF	Enclosed Alphanumerics	Parenthesized number twelve		
-U+2480	⒀	2460..24FF	Enclosed Alphanumerics	Parenthesized number thirteen		
-U+2481	⒁	2460..24FF	Enclosed Alphanumerics	Parenthesized number fourteen		
-U+2482	⒂	2460..24FF	Enclosed Alphanumerics	Parenthesized number fifteen		
-U+2483	⒃	2460..24FF	Enclosed Alphanumerics	Parenthesized number sixteen		
-U+2484	⒄	2460..24FF	Enclosed Alphanumerics	Parenthesized number seventeen		
-U+2485	⒅	2460..24FF	Enclosed Alphanumerics	Parenthesized number eighteen		
-U+2486	⒆	2460..24FF	Enclosed Alphanumerics	Parenthesized number nineteen		
-U+2487	⒇	2460..24FF	Enclosed Alphanumerics	Parenthesized number twenty		
-U+2488	⒈	2460..24FF	Enclosed Alphanumerics	Digit one full stop		
-U+2489	⒉	2460..24FF	Enclosed Alphanumerics	Digit two full stop		
-U+248A	⒊	2460..24FF	Enclosed Alphanumerics	Digit three full stop		
-U+248B	⒋	2460..24FF	Enclosed Alphanumerics	Digit four full stop		
-U+248C	⒌	2460..24FF	Enclosed Alphanumerics	Digit five full stop		
-U+248D	⒍	2460..24FF	Enclosed Alphanumerics	Digit six full stop		
-U+248E	⒎	2460..24FF	Enclosed Alphanumerics	Digit seven full stop		
-U+248F	⒏	2460..24FF	Enclosed Alphanumerics	Digit eight full stop		
-U+2490	⒐	2460..24FF	Enclosed Alphanumerics	Digit nine full stop		
-U+2491	⒑	2460..24FF	Enclosed Alphanumerics	Number ten full stop		
-U+2492	⒒	2460..24FF	Enclosed Alphanumerics	Number eleven full stop		
-U+2493	⒓	2460..24FF	Enclosed Alphanumerics	Number twelve full stop		
-U+2494	⒔	2460..24FF	Enclosed Alphanumerics	Number thirteen full stop		
-U+2495	⒕	2460..24FF	Enclosed Alphanumerics	Number fourteen full stop		
-U+2496	⒖	2460..24FF	Enclosed Alphanumerics	Number fifteen full stop		
-U+2497	⒗	2460..24FF	Enclosed Alphanumerics	Number sixteen full stop		
-U+2498	⒘	2460..24FF	Enclosed Alphanumerics	Number seventeen full stop		
-U+2499	⒙	2460..24FF	Enclosed Alphanumerics	Number eighteen full stop		
-U+249A	⒚	2460..24FF	Enclosed Alphanumerics	Number nineteen full stop		
-U+249B	⒛	2460..24FF	Enclosed Alphanumerics	Number twenty full stop		
-U+249C	⒜	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter a		
-U+249D	⒝	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter b		
-U+249E	⒞	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter c		
-U+249F	⒟	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter d		
-U+24A0	⒠	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter e		
-U+24A1	⒡	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter f		
-U+24A2	⒢	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter g		
-U+24A3	⒣	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter h		
-U+24A4	⒤	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter i		
-U+24A5	⒥	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter j		
-U+24A6	⒦	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter k		
-U+24A7	⒧	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter l		
-U+24A8	⒨	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter m		
-U+24A9	⒩	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter n		
-U+24AA	⒪	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter o		
-U+24AB	⒫	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter p		
-U+24AC	⒬	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter q		
-U+24AD	⒭	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter r		
-U+24AE	⒮	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter s		
-U+24AF	⒯	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter t		
-U+24B0	⒰	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter u		
-U+24B1	⒱	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter v		
-U+24B2	⒲	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter w		
-U+24B3	⒳	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter x		
-U+24B4	⒴	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter y		
-U+24B5	⒵	2460..24FF	Enclosed Alphanumerics	Parenthesized latin small letter z		
-U+24B6	Ⓐ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter a		
-U+24B7	Ⓑ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter b		
-U+24B8	Ⓒ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter c		
-U+24B9	Ⓓ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter d		
-U+24BA	Ⓔ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter e		
-U+24BB	Ⓕ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter f		
-U+24BC	Ⓖ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter g		
-U+24BD	Ⓗ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter h		
-U+24BE	Ⓘ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter i		
-U+24BF	Ⓙ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter j		
-U+24C0	Ⓚ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter k		
-U+24C1	Ⓛ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter l		
-U+24C2	Ⓜ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter m		
-U+24C3	Ⓝ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter n		
-U+24C4	Ⓞ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter o		
-U+24C5	Ⓟ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter p		
-U+24C6	Ⓠ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter q		
-U+24C7	Ⓡ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter r		
-U+24C8	Ⓢ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter s		
-U+24C9	Ⓣ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter t		
-U+24CA	Ⓤ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter u		
-U+24CB	Ⓥ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter v		
-U+24CC	Ⓦ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter w		
-U+24CD	Ⓧ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter x		
-U+24CE	Ⓨ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter y		
-U+24CF	Ⓩ	2460..24FF	Enclosed Alphanumerics	Circled latin capital letter z		
-U+24D0	ⓐ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter a		
-U+24D1	ⓑ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter b		
-U+24D2	ⓒ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter c		
-U+24D3	ⓓ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter d		
-U+24D4	ⓔ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter e		
-U+24D5	ⓕ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter f		
-U+24D6	ⓖ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter g		
-U+24D7	ⓗ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter h		
-U+24D8	ⓘ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter i		
-U+24D9	ⓙ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter j		
-U+24DA	ⓚ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter k		
-U+24DB	ⓛ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter l		
-U+24DC	ⓜ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter m		
-U+24DD	ⓝ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter n		
-U+24DE	ⓞ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter o		
-U+24DF	ⓟ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter p		
-U+24E0	ⓠ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter q		
-U+24E1	ⓡ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter r		
-U+24E2	ⓢ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter s		
-U+24E3	ⓣ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter t		
-U+24E4	ⓤ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter u		
-U+24E5	ⓥ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter v		
-U+24E6	ⓦ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter w		
-U+24E7	ⓧ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter x		
-U+24E8	ⓨ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter y		
-U+24E9	ⓩ	2460..24FF	Enclosed Alphanumerics	Circled latin small letter z		
-U+24EA	⓪	2460..24FF	Enclosed Alphanumerics	Circled digit zero		
-U+24EB	⓫	2460..24FF	Enclosed Alphanumerics	Negative circled number eleven		
-U+24EC	⓬	2460..24FF	Enclosed Alphanumerics	Negative circled number twelve		
-U+24ED	⓭	2460..24FF	Enclosed Alphanumerics	Negative circled number thirteen		
-U+24EE	⓮	2460..24FF	Enclosed Alphanumerics	Negative circled number fourteen		
-U+24EF	⓯	2460..24FF	Enclosed Alphanumerics	Negative circled number fifteen		
-U+24F0	⓰	2460..24FF	Enclosed Alphanumerics	Negative circled number sixteen		
-U+24F1	⓱	2460..24FF	Enclosed Alphanumerics	Negative circled number seventeen		
-U+24F2	⓲	2460..24FF	Enclosed Alphanumerics	Negative circled number eighteen		
-U+24F3	⓳	2460..24FF	Enclosed Alphanumerics	Negative circled number nineteen		
-U+24F4	⓴	2460..24FF	Enclosed Alphanumerics	Negative circled number twenty		
-U+24F5	⓵	2460..24FF	Enclosed Alphanumerics	Double circled digit one		
-U+24F6	⓶	2460..24FF	Enclosed Alphanumerics	Double circled digit two		
-U+24F7	⓷	2460..24FF	Enclosed Alphanumerics	Double circled digit three		
-U+24F8	⓸	2460..24FF	Enclosed Alphanumerics	Double circled digit four		
-U+24F9	⓹	2460..24FF	Enclosed Alphanumerics	Double circled digit five		
-U+24FA	⓺	2460..24FF	Enclosed Alphanumerics	Double circled digit six		
-U+24FB	⓻	2460..24FF	Enclosed Alphanumerics	Double circled digit seven		
-U+24FC	⓼	2460..24FF	Enclosed Alphanumerics	Double circled digit eight		
-U+24FD	⓽	2460..24FF	Enclosed Alphanumerics	Double circled digit nine		
-U+24FE	⓾	2460..24FF	Enclosed Alphanumerics	Double circled number ten		
-U+24FF	⓿	2460..24FF	Enclosed Alphanumerics	Negative circled digit zero		
+code_points	chars	tab_completions	unicode_name	base
+U+2460	①		CIRCLED DIGIT ONE	
+U+2461	②		CIRCLED DIGIT TWO	
+U+2462	③		CIRCLED DIGIT THREE	
+U+2463	④		CIRCLED DIGIT FOUR	
+U+2464	⑤		CIRCLED DIGIT FIVE	
+U+2465	⑥		CIRCLED DIGIT SIX	
+U+2466	⑦		CIRCLED DIGIT SEVEN	
+U+2467	⑧		CIRCLED DIGIT EIGHT	
+U+2468	⑨		CIRCLED DIGIT NINE	
+U+2469	⑩		CIRCLED NUMBER TEN	
+U+246A	⑪		CIRCLED NUMBER ELEVEN	
+U+246B	⑫		CIRCLED NUMBER TWELVE	
+U+246C	⑬		CIRCLED NUMBER THIRTEEN	
+U+246D	⑭		CIRCLED NUMBER FOURTEEN	
+U+246E	⑮		CIRCLED NUMBER FIFTEEN	
+U+246F	⑯		CIRCLED NUMBER SIXTEEN	
+U+2470	⑰		CIRCLED NUMBER SEVENTEEN	
+U+2471	⑱		CIRCLED NUMBER EIGHTEEN	
+U+2472	⑲		CIRCLED NUMBER NINETEEN	
+U+2473	⑳		CIRCLED NUMBER TWENTY	
+U+2474	⑴		PARENTHESIZED DIGIT ONE	
+U+2475	⑵		PARENTHESIZED DIGIT TWO	
+U+2476	⑶		PARENTHESIZED DIGIT THREE	
+U+2477	⑷		PARENTHESIZED DIGIT FOUR	
+U+2478	⑸		PARENTHESIZED DIGIT FIVE	
+U+2479	⑹		PARENTHESIZED DIGIT SIX	
+U+247A	⑺		PARENTHESIZED DIGIT SEVEN	
+U+247B	⑻		PARENTHESIZED DIGIT EIGHT	
+U+247C	⑼		PARENTHESIZED DIGIT NINE	
+U+247D	⑽		PARENTHESIZED NUMBER TEN	
+U+247E	⑾		PARENTHESIZED NUMBER ELEVEN	
+U+247F	⑿		PARENTHESIZED NUMBER TWELVE	
+U+2480	⒀		PARENTHESIZED NUMBER THIRTEEN	
+U+2481	⒁		PARENTHESIZED NUMBER FOURTEEN	
+U+2482	⒂		PARENTHESIZED NUMBER FIFTEEN	
+U+2483	⒃		PARENTHESIZED NUMBER SIXTEEN	
+U+2484	⒄		PARENTHESIZED NUMBER SEVENTEEN	
+U+2485	⒅		PARENTHESIZED NUMBER EIGHTEEN	
+U+2486	⒆		PARENTHESIZED NUMBER NINETEEN	
+U+2487	⒇		PARENTHESIZED NUMBER TWENTY	
+U+2488	⒈		DIGIT ONE FULL STOP	
+U+2489	⒉		DIGIT TWO FULL STOP	
+U+248A	⒊		DIGIT THREE FULL STOP	
+U+248B	⒋		DIGIT FOUR FULL STOP	
+U+248C	⒌		DIGIT FIVE FULL STOP	
+U+248D	⒍		DIGIT SIX FULL STOP	
+U+248E	⒎		DIGIT SEVEN FULL STOP	
+U+248F	⒏		DIGIT EIGHT FULL STOP	
+U+2490	⒐		DIGIT NINE FULL STOP	
+U+2491	⒑		NUMBER TEN FULL STOP	
+U+2492	⒒		NUMBER ELEVEN FULL STOP	
+U+2493	⒓		NUMBER TWELVE FULL STOP	
+U+2494	⒔		NUMBER THIRTEEN FULL STOP	
+U+2495	⒕		NUMBER FOURTEEN FULL STOP	
+U+2496	⒖		NUMBER FIFTEEN FULL STOP	
+U+2497	⒗		NUMBER SIXTEEN FULL STOP	
+U+2498	⒘		NUMBER SEVENTEEN FULL STOP	
+U+2499	⒙		NUMBER EIGHTEEN FULL STOP	
+U+249A	⒚		NUMBER NINETEEN FULL STOP	
+U+249B	⒛		NUMBER TWENTY FULL STOP	
+U+249C	⒜		PARENTHESIZED LATIN SMALL LETTER A	
+U+249D	⒝		PARENTHESIZED LATIN SMALL LETTER B	
+U+249E	⒞		PARENTHESIZED LATIN SMALL LETTER C	
+U+249F	⒟		PARENTHESIZED LATIN SMALL LETTER D	
+U+24A0	⒠		PARENTHESIZED LATIN SMALL LETTER E	
+U+24A1	⒡		PARENTHESIZED LATIN SMALL LETTER F	
+U+24A2	⒢		PARENTHESIZED LATIN SMALL LETTER G	
+U+24A3	⒣		PARENTHESIZED LATIN SMALL LETTER H	
+U+24A4	⒤		PARENTHESIZED LATIN SMALL LETTER I	
+U+24A5	⒥		PARENTHESIZED LATIN SMALL LETTER J	
+U+24A6	⒦		PARENTHESIZED LATIN SMALL LETTER K	
+U+24A7	⒧		PARENTHESIZED LATIN SMALL LETTER L	
+U+24A8	⒨		PARENTHESIZED LATIN SMALL LETTER M	
+U+24A9	⒩		PARENTHESIZED LATIN SMALL LETTER N	
+U+24AA	⒪		PARENTHESIZED LATIN SMALL LETTER O	
+U+24AB	⒫		PARENTHESIZED LATIN SMALL LETTER P	
+U+24AC	⒬		PARENTHESIZED LATIN SMALL LETTER Q	
+U+24AD	⒭		PARENTHESIZED LATIN SMALL LETTER R	
+U+24AE	⒮		PARENTHESIZED LATIN SMALL LETTER S	
+U+24AF	⒯		PARENTHESIZED LATIN SMALL LETTER T	
+U+24B0	⒰		PARENTHESIZED LATIN SMALL LETTER U	
+U+24B1	⒱		PARENTHESIZED LATIN SMALL LETTER V	
+U+24B2	⒲		PARENTHESIZED LATIN SMALL LETTER W	
+U+24B3	⒳		PARENTHESIZED LATIN SMALL LETTER X	
+U+24B4	⒴		PARENTHESIZED LATIN SMALL LETTER Y	
+U+24B5	⒵		PARENTHESIZED LATIN SMALL LETTER Z	
+U+24B6	Ⓐ		CIRCLED LATIN CAPITAL LETTER A	
+U+24B7	Ⓑ		CIRCLED LATIN CAPITAL LETTER B	
+U+24B8	Ⓒ		CIRCLED LATIN CAPITAL LETTER C	
+U+24B9	Ⓓ		CIRCLED LATIN CAPITAL LETTER D	
+U+24BA	Ⓔ		CIRCLED LATIN CAPITAL LETTER E	
+U+24BB	Ⓕ		CIRCLED LATIN CAPITAL LETTER F	
+U+24BC	Ⓖ		CIRCLED LATIN CAPITAL LETTER G	
+U+24BD	Ⓗ		CIRCLED LATIN CAPITAL LETTER H	
+U+24BE	Ⓘ		CIRCLED LATIN CAPITAL LETTER I	
+U+24BF	Ⓙ		CIRCLED LATIN CAPITAL LETTER J	
+U+24C0	Ⓚ		CIRCLED LATIN CAPITAL LETTER K	
+U+24C1	Ⓛ		CIRCLED LATIN CAPITAL LETTER L	
+U+24C2	Ⓜ		CIRCLED LATIN CAPITAL LETTER M	
+U+24C3	Ⓝ		CIRCLED LATIN CAPITAL LETTER N	
+U+24C4	Ⓞ		CIRCLED LATIN CAPITAL LETTER O	
+U+24C5	Ⓟ		CIRCLED LATIN CAPITAL LETTER P	
+U+24C6	Ⓠ		CIRCLED LATIN CAPITAL LETTER Q	
+U+24C7	Ⓡ		CIRCLED LATIN CAPITAL LETTER R	
+U+24C8	Ⓢ		CIRCLED LATIN CAPITAL LETTER S	
+U+24C9	Ⓣ		CIRCLED LATIN CAPITAL LETTER T	
+U+24CA	Ⓤ		CIRCLED LATIN CAPITAL LETTER U	
+U+24CB	Ⓥ		CIRCLED LATIN CAPITAL LETTER V	
+U+24CC	Ⓦ		CIRCLED LATIN CAPITAL LETTER W	
+U+24CD	Ⓧ		CIRCLED LATIN CAPITAL LETTER X	
+U+24CE	Ⓨ		CIRCLED LATIN CAPITAL LETTER Y	
+U+24CF	Ⓩ		CIRCLED LATIN CAPITAL LETTER Z	
+U+24D0	ⓐ		CIRCLED LATIN SMALL LETTER A	
+U+24D1	ⓑ		CIRCLED LATIN SMALL LETTER B	
+U+24D2	ⓒ		CIRCLED LATIN SMALL LETTER C	
+U+24D3	ⓓ		CIRCLED LATIN SMALL LETTER D	
+U+24D4	ⓔ		CIRCLED LATIN SMALL LETTER E	
+U+24D5	ⓕ		CIRCLED LATIN SMALL LETTER F	
+U+24D6	ⓖ		CIRCLED LATIN SMALL LETTER G	
+U+24D7	ⓗ		CIRCLED LATIN SMALL LETTER H	
+U+24D8	ⓘ		CIRCLED LATIN SMALL LETTER I	
+U+24D9	ⓙ		CIRCLED LATIN SMALL LETTER J	
+U+24DA	ⓚ		CIRCLED LATIN SMALL LETTER K	
+U+24DB	ⓛ		CIRCLED LATIN SMALL LETTER L	
+U+24DC	ⓜ		CIRCLED LATIN SMALL LETTER M	
+U+24DD	ⓝ		CIRCLED LATIN SMALL LETTER N	
+U+24DE	ⓞ		CIRCLED LATIN SMALL LETTER O	
+U+24DF	ⓟ		CIRCLED LATIN SMALL LETTER P	
+U+24E0	ⓠ		CIRCLED LATIN SMALL LETTER Q	
+U+24E1	ⓡ		CIRCLED LATIN SMALL LETTER R	
+U+24E2	ⓢ		CIRCLED LATIN SMALL LETTER S	
+U+24E3	ⓣ		CIRCLED LATIN SMALL LETTER T	
+U+24E4	ⓤ		CIRCLED LATIN SMALL LETTER U	
+U+24E5	ⓥ		CIRCLED LATIN SMALL LETTER V	
+U+24E6	ⓦ		CIRCLED LATIN SMALL LETTER W	
+U+24E7	ⓧ		CIRCLED LATIN SMALL LETTER X	
+U+24E8	ⓨ		CIRCLED LATIN SMALL LETTER Y	
+U+24E9	ⓩ		CIRCLED LATIN SMALL LETTER Z	
+U+24EA	⓪		CIRCLED DIGIT ZERO	
+U+24EB	⓫		NEGATIVE CIRCLED NUMBER ELEVEN	
+U+24EC	⓬		NEGATIVE CIRCLED NUMBER TWELVE	
+U+24ED	⓭		NEGATIVE CIRCLED NUMBER THIRTEEN	
+U+24EE	⓮		NEGATIVE CIRCLED NUMBER FOURTEEN	
+U+24EF	⓯		NEGATIVE CIRCLED NUMBER FIFTEEN	
+U+24F0	⓰		NEGATIVE CIRCLED NUMBER SIXTEEN	
+U+24F1	⓱		NEGATIVE CIRCLED NUMBER SEVENTEEN	
+U+24F2	⓲		NEGATIVE CIRCLED NUMBER EIGHTEEN	
+U+24F3	⓳		NEGATIVE CIRCLED NUMBER NINETEEN	
+U+24F4	⓴		NEGATIVE CIRCLED NUMBER TWENTY	
+U+24F5	⓵		DOUBLE CIRCLED DIGIT ONE	
+U+24F6	⓶		DOUBLE CIRCLED DIGIT TWO	
+U+24F7	⓷		DOUBLE CIRCLED DIGIT THREE	
+U+24F8	⓸		DOUBLE CIRCLED DIGIT FOUR	
+U+24F9	⓹		DOUBLE CIRCLED DIGIT FIVE	
+U+24FA	⓺		DOUBLE CIRCLED DIGIT SIX	
+U+24FB	⓻		DOUBLE CIRCLED DIGIT SEVEN	
+U+24FC	⓼		DOUBLE CIRCLED DIGIT EIGHT	
+U+24FD	⓽		DOUBLE CIRCLED DIGIT NINE	
+U+24FE	⓾		DOUBLE CIRCLED NUMBER TEN	
+U+24FF	⓿		NEGATIVE CIRCLED DIGIT ZERO	

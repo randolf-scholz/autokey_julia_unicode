@@ -1,32 +1,32 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10380	𐎀	10380..1039F	Ugaritic	Ugaritic letter alpa		
-U+10381	𐎁	10380..1039F	Ugaritic	Ugaritic letter beta		
-U+10382	𐎂	10380..1039F	Ugaritic	Ugaritic letter gamla		
-U+10383	𐎃	10380..1039F	Ugaritic	Ugaritic letter kha		
-U+10384	𐎄	10380..1039F	Ugaritic	Ugaritic letter delta		
-U+10385	𐎅	10380..1039F	Ugaritic	Ugaritic letter ho		
-U+10386	𐎆	10380..1039F	Ugaritic	Ugaritic letter wo		
-U+10387	𐎇	10380..1039F	Ugaritic	Ugaritic letter zeta		
-U+10388	𐎈	10380..1039F	Ugaritic	Ugaritic letter hota		
-U+10389	𐎉	10380..1039F	Ugaritic	Ugaritic letter tet		
-U+1038A	𐎊	10380..1039F	Ugaritic	Ugaritic letter yod		
-U+1038B	𐎋	10380..1039F	Ugaritic	Ugaritic letter kaf		
-U+1038C	𐎌	10380..1039F	Ugaritic	Ugaritic letter shin		
-U+1038D	𐎍	10380..1039F	Ugaritic	Ugaritic letter lamda		
-U+1038E	𐎎	10380..1039F	Ugaritic	Ugaritic letter mem		
-U+1038F	𐎏	10380..1039F	Ugaritic	Ugaritic letter dhal		
-U+10390	𐎐	10380..1039F	Ugaritic	Ugaritic letter nun		
-U+10391	𐎑	10380..1039F	Ugaritic	Ugaritic letter zu		
-U+10392	𐎒	10380..1039F	Ugaritic	Ugaritic letter samka		
-U+10393	𐎓	10380..1039F	Ugaritic	Ugaritic letter ain		
-U+10394	𐎔	10380..1039F	Ugaritic	Ugaritic letter pu		
-U+10395	𐎕	10380..1039F	Ugaritic	Ugaritic letter sade		
-U+10396	𐎖	10380..1039F	Ugaritic	Ugaritic letter qopa		
-U+10397	𐎗	10380..1039F	Ugaritic	Ugaritic letter rasha		
-U+10398	𐎘	10380..1039F	Ugaritic	Ugaritic letter thanna		
-U+10399	𐎙	10380..1039F	Ugaritic	Ugaritic letter ghain		
-U+1039A	𐎚	10380..1039F	Ugaritic	Ugaritic letter to		
-U+1039B	𐎛	10380..1039F	Ugaritic	Ugaritic letter i		
-U+1039C	𐎜	10380..1039F	Ugaritic	Ugaritic letter u		
-U+1039D	𐎝	10380..1039F	Ugaritic	Ugaritic letter ssu		
-U+1039F	𐎟	10380..1039F	Ugaritic	Ugaritic word divider		
+code_points	chars	tab_completions	unicode_name	base
+U+10380	𐎀		UGARITIC LETTER ALPA	
+U+10381	𐎁		UGARITIC LETTER BETA	
+U+10382	𐎂		UGARITIC LETTER GAMLA	
+U+10383	𐎃		UGARITIC LETTER KHA	
+U+10384	𐎄		UGARITIC LETTER DELTA	
+U+10385	𐎅		UGARITIC LETTER HO	
+U+10386	𐎆		UGARITIC LETTER WO	
+U+10387	𐎇		UGARITIC LETTER ZETA	
+U+10388	𐎈		UGARITIC LETTER HOTA	
+U+10389	𐎉		UGARITIC LETTER TET	
+U+1038A	𐎊		UGARITIC LETTER YOD	
+U+1038B	𐎋		UGARITIC LETTER KAF	
+U+1038C	𐎌		UGARITIC LETTER SHIN	
+U+1038D	𐎍		UGARITIC LETTER LAMDA	
+U+1038E	𐎎		UGARITIC LETTER MEM	
+U+1038F	𐎏		UGARITIC LETTER DHAL	
+U+10390	𐎐		UGARITIC LETTER NUN	
+U+10391	𐎑		UGARITIC LETTER ZU	
+U+10392	𐎒		UGARITIC LETTER SAMKA	
+U+10393	𐎓		UGARITIC LETTER AIN	
+U+10394	𐎔		UGARITIC LETTER PU	
+U+10395	𐎕		UGARITIC LETTER SADE	
+U+10396	𐎖		UGARITIC LETTER QOPA	
+U+10397	𐎗		UGARITIC LETTER RASHA	
+U+10398	𐎘		UGARITIC LETTER THANNA	
+U+10399	𐎙		UGARITIC LETTER GHAIN	
+U+1039A	𐎚		UGARITIC LETTER TO	
+U+1039B	𐎛		UGARITIC LETTER I	
+U+1039C	𐎜		UGARITIC LETTER U	
+U+1039D	𐎝		UGARITIC LETTER SSU	
+U+1039F	𐎟		UGARITIC WORD DIVIDER	

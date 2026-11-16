@@ -1,53 +1,53 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+105C0	𐗀	105C0..105FF	Todhri	Todhri letter a		
-U+105C1	𐗁	105C0..105FF	Todhri	Todhri letter as		
-U+105C2	𐗂	105C0..105FF	Todhri	Todhri letter ba		
-U+105C3	𐗃	105C0..105FF	Todhri	Todhri letter mba		
-U+105C4	𐗄	105C0..105FF	Todhri	Todhri letter ca		
-U+105C5	𐗅	105C0..105FF	Todhri	Todhri letter cha		
-U+105C6	𐗆	105C0..105FF	Todhri	Todhri letter da		
-U+105C7	𐗇	105C0..105FF	Todhri	Todhri letter nda		
-U+105C8	𐗈	105C0..105FF	Todhri	Todhri letter dha		
-U+105C9	𐗉	105C0..105FF	Todhri	Todhri letter ei		
-U+105CA	𐗊	105C0..105FF	Todhri	Todhri letter e		
-U+105CB	𐗋	105C0..105FF	Todhri	Todhri letter fa		
-U+105CC	𐗌	105C0..105FF	Todhri	Todhri letter ga		
-U+105CD	𐗍	105C0..105FF	Todhri	Todhri letter nga		
-U+105CE	𐗎	105C0..105FF	Todhri	Todhri letter gja		
-U+105CF	𐗏	105C0..105FF	Todhri	Todhri letter ngja		
-U+105D0	𐗐	105C0..105FF	Todhri	Todhri letter ha		
-U+105D1	𐗑	105C0..105FF	Todhri	Todhri letter hja		
-U+105D2	𐗒	105C0..105FF	Todhri	Todhri letter i		
-U+105D3	𐗓	105C0..105FF	Todhri	Todhri letter ja		
-U+105D4	𐗔	105C0..105FF	Todhri	Todhri letter ka		
-U+105D5	𐗕	105C0..105FF	Todhri	Todhri letter la		
-U+105D6	𐗖	105C0..105FF	Todhri	Todhri letter lla		
-U+105D7	𐗗	105C0..105FF	Todhri	Todhri letter ma		
-U+105D8	𐗘	105C0..105FF	Todhri	Todhri letter na		
-U+105D9	𐗙	105C0..105FF	Todhri	Todhri letter njan		
-U+105DA	𐗚	105C0..105FF	Todhri	Todhri letter o		
-U+105DB	𐗛	105C0..105FF	Todhri	Todhri letter pa		
-U+105DC	𐗜	105C0..105FF	Todhri	Todhri letter qa		
-U+105DD	𐗝	105C0..105FF	Todhri	Todhri letter ra		
-U+105DE	𐗞	105C0..105FF	Todhri	Todhri letter rra		
-U+105DF	𐗟	105C0..105FF	Todhri	Todhri letter sa		
-U+105E0	𐗠	105C0..105FF	Todhri	Todhri letter sha		
-U+105E1	𐗡	105C0..105FF	Todhri	Todhri letter shta		
-U+105E2	𐗢	105C0..105FF	Todhri	Todhri letter ta		
-U+105E3	𐗣	105C0..105FF	Todhri	Todhri letter tha		
-U+105E4	𐗤	105C0..105FF	Todhri	Todhri letter u		
-U+105E5	𐗥	105C0..105FF	Todhri	Todhri letter va		
-U+105E6	𐗦	105C0..105FF	Todhri	Todhri letter xa		
-U+105E7	𐗧	105C0..105FF	Todhri	Todhri letter nxa		
-U+105E8	𐗨	105C0..105FF	Todhri	Todhri letter xha		
-U+105E9	𐗩	105C0..105FF	Todhri	Todhri letter nxha		
-U+105EA	𐗪	105C0..105FF	Todhri	Todhri letter y		
-U+105EB	𐗫	105C0..105FF	Todhri	Todhri letter jy		
-U+105EC	𐗬	105C0..105FF	Todhri	Todhri letter za		
-U+105ED	𐗭	105C0..105FF	Todhri	Todhri letter zha		
-U+105EE	𐗮	105C0..105FF	Todhri	Todhri letter gha		
-U+105EF	𐗯	105C0..105FF	Todhri	Todhri letter sta		
-U+105F0	𐗰	105C0..105FF	Todhri	Todhri letter skan		
-U+105F1	𐗱	105C0..105FF	Todhri	Todhri letter kha		
-U+105F2	𐗲	105C0..105FF	Todhri	Todhri letter psa		
-U+105F3	𐗳	105C0..105FF	Todhri	Todhri letter oo		
+code_points	chars	tab_completions	unicode_name	base
+U+105C0	𐗀		TODHRI LETTER A	
+U+105C1	𐗁		TODHRI LETTER AS	
+U+105C2	𐗂		TODHRI LETTER BA	
+U+105C3	𐗃		TODHRI LETTER MBA	
+U+105C4	𐗄		TODHRI LETTER CA	
+U+105C5	𐗅		TODHRI LETTER CHA	
+U+105C6	𐗆		TODHRI LETTER DA	
+U+105C7	𐗇		TODHRI LETTER NDA	
+U+105C8	𐗈		TODHRI LETTER DHA	
+U+105C9	𐗉		TODHRI LETTER EI	
+U+105CA	𐗊		TODHRI LETTER E	
+U+105CB	𐗋		TODHRI LETTER FA	
+U+105CC	𐗌		TODHRI LETTER GA	
+U+105CD	𐗍		TODHRI LETTER NGA	
+U+105CE	𐗎		TODHRI LETTER GJA	
+U+105CF	𐗏		TODHRI LETTER NGJA	
+U+105D0	𐗐		TODHRI LETTER HA	
+U+105D1	𐗑		TODHRI LETTER HJA	
+U+105D2	𐗒		TODHRI LETTER I	
+U+105D3	𐗓		TODHRI LETTER JA	
+U+105D4	𐗔		TODHRI LETTER KA	
+U+105D5	𐗕		TODHRI LETTER LA	
+U+105D6	𐗖		TODHRI LETTER LLA	
+U+105D7	𐗗		TODHRI LETTER MA	
+U+105D8	𐗘		TODHRI LETTER NA	
+U+105D9	𐗙		TODHRI LETTER NJAN	
+U+105DA	𐗚		TODHRI LETTER O	
+U+105DB	𐗛		TODHRI LETTER PA	
+U+105DC	𐗜		TODHRI LETTER QA	
+U+105DD	𐗝		TODHRI LETTER RA	
+U+105DE	𐗞		TODHRI LETTER RRA	
+U+105DF	𐗟		TODHRI LETTER SA	
+U+105E0	𐗠		TODHRI LETTER SHA	
+U+105E1	𐗡		TODHRI LETTER SHTA	
+U+105E2	𐗢		TODHRI LETTER TA	
+U+105E3	𐗣		TODHRI LETTER THA	
+U+105E4	𐗤		TODHRI LETTER U	
+U+105E5	𐗥		TODHRI LETTER VA	
+U+105E6	𐗦		TODHRI LETTER XA	
+U+105E7	𐗧		TODHRI LETTER NXA	
+U+105E8	𐗨		TODHRI LETTER XHA	
+U+105E9	𐗩		TODHRI LETTER NXHA	
+U+105EA	𐗪		TODHRI LETTER Y	
+U+105EB	𐗫		TODHRI LETTER JY	
+U+105EC	𐗬		TODHRI LETTER ZA	
+U+105ED	𐗭		TODHRI LETTER ZHA	
+U+105EE	𐗮		TODHRI LETTER GHA	
+U+105EF	𐗯		TODHRI LETTER STA	
+U+105F0	𐗰		TODHRI LETTER SKAN	
+U+105F1	𐗱		TODHRI LETTER KHA	
+U+105F2	𐗲		TODHRI LETTER PSA	
+U+105F3	𐗳		TODHRI LETTER OO	

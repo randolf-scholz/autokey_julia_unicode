@@ -1,109 +1,109 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10C80	𐲀	10C80..10CFF	Old Hungarian	Old hungarian capital letter a		
-U+10C81	𐲁	10C80..10CFF	Old Hungarian	Old hungarian capital letter aa		
-U+10C82	𐲂	10C80..10CFF	Old Hungarian	Old hungarian capital letter eb		
-U+10C83	𐲃	10C80..10CFF	Old Hungarian	Old hungarian capital letter amb		
-U+10C84	𐲄	10C80..10CFF	Old Hungarian	Old hungarian capital letter ec		
-U+10C85	𐲅	10C80..10CFF	Old Hungarian	Old hungarian capital letter enc		
-U+10C86	𐲆	10C80..10CFF	Old Hungarian	Old hungarian capital letter ecs		
-U+10C87	𐲇	10C80..10CFF	Old Hungarian	Old hungarian capital letter ed		
-U+10C88	𐲈	10C80..10CFF	Old Hungarian	Old hungarian capital letter and		
-U+10C89	𐲉	10C80..10CFF	Old Hungarian	Old hungarian capital letter e		
-U+10C8A	𐲊	10C80..10CFF	Old Hungarian	Old hungarian capital letter close e		
-U+10C8B	𐲋	10C80..10CFF	Old Hungarian	Old hungarian capital letter ee		
-U+10C8C	𐲌	10C80..10CFF	Old Hungarian	Old hungarian capital letter ef		
-U+10C8D	𐲍	10C80..10CFF	Old Hungarian	Old hungarian capital letter eg		
-U+10C8E	𐲎	10C80..10CFF	Old Hungarian	Old hungarian capital letter egy		
-U+10C8F	𐲏	10C80..10CFF	Old Hungarian	Old hungarian capital letter eh		
-U+10C90	𐲐	10C80..10CFF	Old Hungarian	Old hungarian capital letter i		
-U+10C91	𐲑	10C80..10CFF	Old Hungarian	Old hungarian capital letter ii		
-U+10C92	𐲒	10C80..10CFF	Old Hungarian	Old hungarian capital letter ej		
-U+10C93	𐲓	10C80..10CFF	Old Hungarian	Old hungarian capital letter ek		
-U+10C94	𐲔	10C80..10CFF	Old Hungarian	Old hungarian capital letter ak		
-U+10C95	𐲕	10C80..10CFF	Old Hungarian	Old hungarian capital letter unk		
-U+10C96	𐲖	10C80..10CFF	Old Hungarian	Old hungarian capital letter el		
-U+10C97	𐲗	10C80..10CFF	Old Hungarian	Old hungarian capital letter ely		
-U+10C98	𐲘	10C80..10CFF	Old Hungarian	Old hungarian capital letter em		
-U+10C99	𐲙	10C80..10CFF	Old Hungarian	Old hungarian capital letter en		
-U+10C9A	𐲚	10C80..10CFF	Old Hungarian	Old hungarian capital letter eny		
-U+10C9B	𐲛	10C80..10CFF	Old Hungarian	Old hungarian capital letter o		
-U+10C9C	𐲜	10C80..10CFF	Old Hungarian	Old hungarian capital letter oo		
-U+10C9D	𐲝	10C80..10CFF	Old Hungarian	Old hungarian capital letter nikolsburg oe		
-U+10C9E	𐲞	10C80..10CFF	Old Hungarian	Old hungarian capital letter rudimenta oe		
-U+10C9F	𐲟	10C80..10CFF	Old Hungarian	Old hungarian capital letter oee		
-U+10CA0	𐲠	10C80..10CFF	Old Hungarian	Old hungarian capital letter ep		
-U+10CA1	𐲡	10C80..10CFF	Old Hungarian	Old hungarian capital letter emp		
-U+10CA2	𐲢	10C80..10CFF	Old Hungarian	Old hungarian capital letter er		
-U+10CA3	𐲣	10C80..10CFF	Old Hungarian	Old hungarian capital letter short er		
-U+10CA4	𐲤	10C80..10CFF	Old Hungarian	Old hungarian capital letter es		
-U+10CA5	𐲥	10C80..10CFF	Old Hungarian	Old hungarian capital letter esz		
-U+10CA6	𐲦	10C80..10CFF	Old Hungarian	Old hungarian capital letter et		
-U+10CA7	𐲧	10C80..10CFF	Old Hungarian	Old hungarian capital letter ent		
-U+10CA8	𐲨	10C80..10CFF	Old Hungarian	Old hungarian capital letter ety		
-U+10CA9	𐲩	10C80..10CFF	Old Hungarian	Old hungarian capital letter ech		
-U+10CAA	𐲪	10C80..10CFF	Old Hungarian	Old hungarian capital letter u		
-U+10CAB	𐲫	10C80..10CFF	Old Hungarian	Old hungarian capital letter uu		
-U+10CAC	𐲬	10C80..10CFF	Old Hungarian	Old hungarian capital letter nikolsburg ue		
-U+10CAD	𐲭	10C80..10CFF	Old Hungarian	Old hungarian capital letter rudimenta ue		
-U+10CAE	𐲮	10C80..10CFF	Old Hungarian	Old hungarian capital letter ev		
-U+10CAF	𐲯	10C80..10CFF	Old Hungarian	Old hungarian capital letter ez		
-U+10CB0	𐲰	10C80..10CFF	Old Hungarian	Old hungarian capital letter ezs		
-U+10CB1	𐲱	10C80..10CFF	Old Hungarian	Old hungarian capital letter ent-shaped sign		
-U+10CB2	𐲲	10C80..10CFF	Old Hungarian	Old hungarian capital letter us		
-U+10CC0	𐳀	10C80..10CFF	Old Hungarian	Old hungarian small letter a		
-U+10CC1	𐳁	10C80..10CFF	Old Hungarian	Old hungarian small letter aa		
-U+10CC2	𐳂	10C80..10CFF	Old Hungarian	Old hungarian small letter eb		
-U+10CC3	𐳃	10C80..10CFF	Old Hungarian	Old hungarian small letter amb		
-U+10CC4	𐳄	10C80..10CFF	Old Hungarian	Old hungarian small letter ec		
-U+10CC5	𐳅	10C80..10CFF	Old Hungarian	Old hungarian small letter enc		
-U+10CC6	𐳆	10C80..10CFF	Old Hungarian	Old hungarian small letter ecs		
-U+10CC7	𐳇	10C80..10CFF	Old Hungarian	Old hungarian small letter ed		
-U+10CC8	𐳈	10C80..10CFF	Old Hungarian	Old hungarian small letter and		
-U+10CC9	𐳉	10C80..10CFF	Old Hungarian	Old hungarian small letter e		
-U+10CCA	𐳊	10C80..10CFF	Old Hungarian	Old hungarian small letter close e		
-U+10CCB	𐳋	10C80..10CFF	Old Hungarian	Old hungarian small letter ee		
-U+10CCC	𐳌	10C80..10CFF	Old Hungarian	Old hungarian small letter ef		
-U+10CCD	𐳍	10C80..10CFF	Old Hungarian	Old hungarian small letter eg		
-U+10CCE	𐳎	10C80..10CFF	Old Hungarian	Old hungarian small letter egy		
-U+10CCF	𐳏	10C80..10CFF	Old Hungarian	Old hungarian small letter eh		
-U+10CD0	𐳐	10C80..10CFF	Old Hungarian	Old hungarian small letter i		
-U+10CD1	𐳑	10C80..10CFF	Old Hungarian	Old hungarian small letter ii		
-U+10CD2	𐳒	10C80..10CFF	Old Hungarian	Old hungarian small letter ej		
-U+10CD3	𐳓	10C80..10CFF	Old Hungarian	Old hungarian small letter ek		
-U+10CD4	𐳔	10C80..10CFF	Old Hungarian	Old hungarian small letter ak		
-U+10CD5	𐳕	10C80..10CFF	Old Hungarian	Old hungarian small letter unk		
-U+10CD6	𐳖	10C80..10CFF	Old Hungarian	Old hungarian small letter el		
-U+10CD7	𐳗	10C80..10CFF	Old Hungarian	Old hungarian small letter ely		
-U+10CD8	𐳘	10C80..10CFF	Old Hungarian	Old hungarian small letter em		
-U+10CD9	𐳙	10C80..10CFF	Old Hungarian	Old hungarian small letter en		
-U+10CDA	𐳚	10C80..10CFF	Old Hungarian	Old hungarian small letter eny		
-U+10CDB	𐳛	10C80..10CFF	Old Hungarian	Old hungarian small letter o		
-U+10CDC	𐳜	10C80..10CFF	Old Hungarian	Old hungarian small letter oo		
-U+10CDD	𐳝	10C80..10CFF	Old Hungarian	Old hungarian small letter nikolsburg oe		
-U+10CDE	𐳞	10C80..10CFF	Old Hungarian	Old hungarian small letter rudimenta oe		
-U+10CDF	𐳟	10C80..10CFF	Old Hungarian	Old hungarian small letter oee		
-U+10CE0	𐳠	10C80..10CFF	Old Hungarian	Old hungarian small letter ep		
-U+10CE1	𐳡	10C80..10CFF	Old Hungarian	Old hungarian small letter emp		
-U+10CE2	𐳢	10C80..10CFF	Old Hungarian	Old hungarian small letter er		
-U+10CE3	𐳣	10C80..10CFF	Old Hungarian	Old hungarian small letter short er		
-U+10CE4	𐳤	10C80..10CFF	Old Hungarian	Old hungarian small letter es		
-U+10CE5	𐳥	10C80..10CFF	Old Hungarian	Old hungarian small letter esz		
-U+10CE6	𐳦	10C80..10CFF	Old Hungarian	Old hungarian small letter et		
-U+10CE7	𐳧	10C80..10CFF	Old Hungarian	Old hungarian small letter ent		
-U+10CE8	𐳨	10C80..10CFF	Old Hungarian	Old hungarian small letter ety		
-U+10CE9	𐳩	10C80..10CFF	Old Hungarian	Old hungarian small letter ech		
-U+10CEA	𐳪	10C80..10CFF	Old Hungarian	Old hungarian small letter u		
-U+10CEB	𐳫	10C80..10CFF	Old Hungarian	Old hungarian small letter uu		
-U+10CEC	𐳬	10C80..10CFF	Old Hungarian	Old hungarian small letter nikolsburg ue		
-U+10CED	𐳭	10C80..10CFF	Old Hungarian	Old hungarian small letter rudimenta ue		
-U+10CEE	𐳮	10C80..10CFF	Old Hungarian	Old hungarian small letter ev		
-U+10CEF	𐳯	10C80..10CFF	Old Hungarian	Old hungarian small letter ez		
-U+10CF0	𐳰	10C80..10CFF	Old Hungarian	Old hungarian small letter ezs		
-U+10CF1	𐳱	10C80..10CFF	Old Hungarian	Old hungarian small letter ent-shaped sign		
-U+10CF2	𐳲	10C80..10CFF	Old Hungarian	Old hungarian small letter us		
-U+10CFA	𐳺	10C80..10CFF	Old Hungarian	Old hungarian number one		
-U+10CFB	𐳻	10C80..10CFF	Old Hungarian	Old hungarian number five		
-U+10CFC	𐳼	10C80..10CFF	Old Hungarian	Old hungarian number ten		
-U+10CFD	𐳽	10C80..10CFF	Old Hungarian	Old hungarian number fifty		
-U+10CFE	𐳾	10C80..10CFF	Old Hungarian	Old hungarian number one hundred		
-U+10CFF	𐳿	10C80..10CFF	Old Hungarian	Old hungarian number one thousand		
+code_points	chars	tab_completions	unicode_name	base
+U+10C80	𐲀		OLD HUNGARIAN CAPITAL LETTER A	
+U+10C81	𐲁		OLD HUNGARIAN CAPITAL LETTER AA	
+U+10C82	𐲂		OLD HUNGARIAN CAPITAL LETTER EB	
+U+10C83	𐲃		OLD HUNGARIAN CAPITAL LETTER AMB	
+U+10C84	𐲄		OLD HUNGARIAN CAPITAL LETTER EC	
+U+10C85	𐲅		OLD HUNGARIAN CAPITAL LETTER ENC	
+U+10C86	𐲆		OLD HUNGARIAN CAPITAL LETTER ECS	
+U+10C87	𐲇		OLD HUNGARIAN CAPITAL LETTER ED	
+U+10C88	𐲈		OLD HUNGARIAN CAPITAL LETTER AND	
+U+10C89	𐲉		OLD HUNGARIAN CAPITAL LETTER E	
+U+10C8A	𐲊		OLD HUNGARIAN CAPITAL LETTER CLOSE E	
+U+10C8B	𐲋		OLD HUNGARIAN CAPITAL LETTER EE	
+U+10C8C	𐲌		OLD HUNGARIAN CAPITAL LETTER EF	
+U+10C8D	𐲍		OLD HUNGARIAN CAPITAL LETTER EG	
+U+10C8E	𐲎		OLD HUNGARIAN CAPITAL LETTER EGY	
+U+10C8F	𐲏		OLD HUNGARIAN CAPITAL LETTER EH	
+U+10C90	𐲐		OLD HUNGARIAN CAPITAL LETTER I	
+U+10C91	𐲑		OLD HUNGARIAN CAPITAL LETTER II	
+U+10C92	𐲒		OLD HUNGARIAN CAPITAL LETTER EJ	
+U+10C93	𐲓		OLD HUNGARIAN CAPITAL LETTER EK	
+U+10C94	𐲔		OLD HUNGARIAN CAPITAL LETTER AK	
+U+10C95	𐲕		OLD HUNGARIAN CAPITAL LETTER UNK	
+U+10C96	𐲖		OLD HUNGARIAN CAPITAL LETTER EL	
+U+10C97	𐲗		OLD HUNGARIAN CAPITAL LETTER ELY	
+U+10C98	𐲘		OLD HUNGARIAN CAPITAL LETTER EM	
+U+10C99	𐲙		OLD HUNGARIAN CAPITAL LETTER EN	
+U+10C9A	𐲚		OLD HUNGARIAN CAPITAL LETTER ENY	
+U+10C9B	𐲛		OLD HUNGARIAN CAPITAL LETTER O	
+U+10C9C	𐲜		OLD HUNGARIAN CAPITAL LETTER OO	
+U+10C9D	𐲝		OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE	
+U+10C9E	𐲞		OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE	
+U+10C9F	𐲟		OLD HUNGARIAN CAPITAL LETTER OEE	
+U+10CA0	𐲠		OLD HUNGARIAN CAPITAL LETTER EP	
+U+10CA1	𐲡		OLD HUNGARIAN CAPITAL LETTER EMP	
+U+10CA2	𐲢		OLD HUNGARIAN CAPITAL LETTER ER	
+U+10CA3	𐲣		OLD HUNGARIAN CAPITAL LETTER SHORT ER	
+U+10CA4	𐲤		OLD HUNGARIAN CAPITAL LETTER ES	
+U+10CA5	𐲥		OLD HUNGARIAN CAPITAL LETTER ESZ	
+U+10CA6	𐲦		OLD HUNGARIAN CAPITAL LETTER ET	
+U+10CA7	𐲧		OLD HUNGARIAN CAPITAL LETTER ENT	
+U+10CA8	𐲨		OLD HUNGARIAN CAPITAL LETTER ETY	
+U+10CA9	𐲩		OLD HUNGARIAN CAPITAL LETTER ECH	
+U+10CAA	𐲪		OLD HUNGARIAN CAPITAL LETTER U	
+U+10CAB	𐲫		OLD HUNGARIAN CAPITAL LETTER UU	
+U+10CAC	𐲬		OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE	
+U+10CAD	𐲭		OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE	
+U+10CAE	𐲮		OLD HUNGARIAN CAPITAL LETTER EV	
+U+10CAF	𐲯		OLD HUNGARIAN CAPITAL LETTER EZ	
+U+10CB0	𐲰		OLD HUNGARIAN CAPITAL LETTER EZS	
+U+10CB1	𐲱		OLD HUNGARIAN CAPITAL LETTER ENT-SHAPED SIGN	
+U+10CB2	𐲲		OLD HUNGARIAN CAPITAL LETTER US	
+U+10CC0	𐳀		OLD HUNGARIAN SMALL LETTER A	
+U+10CC1	𐳁		OLD HUNGARIAN SMALL LETTER AA	
+U+10CC2	𐳂		OLD HUNGARIAN SMALL LETTER EB	
+U+10CC3	𐳃		OLD HUNGARIAN SMALL LETTER AMB	
+U+10CC4	𐳄		OLD HUNGARIAN SMALL LETTER EC	
+U+10CC5	𐳅		OLD HUNGARIAN SMALL LETTER ENC	
+U+10CC6	𐳆		OLD HUNGARIAN SMALL LETTER ECS	
+U+10CC7	𐳇		OLD HUNGARIAN SMALL LETTER ED	
+U+10CC8	𐳈		OLD HUNGARIAN SMALL LETTER AND	
+U+10CC9	𐳉		OLD HUNGARIAN SMALL LETTER E	
+U+10CCA	𐳊		OLD HUNGARIAN SMALL LETTER CLOSE E	
+U+10CCB	𐳋		OLD HUNGARIAN SMALL LETTER EE	
+U+10CCC	𐳌		OLD HUNGARIAN SMALL LETTER EF	
+U+10CCD	𐳍		OLD HUNGARIAN SMALL LETTER EG	
+U+10CCE	𐳎		OLD HUNGARIAN SMALL LETTER EGY	
+U+10CCF	𐳏		OLD HUNGARIAN SMALL LETTER EH	
+U+10CD0	𐳐		OLD HUNGARIAN SMALL LETTER I	
+U+10CD1	𐳑		OLD HUNGARIAN SMALL LETTER II	
+U+10CD2	𐳒		OLD HUNGARIAN SMALL LETTER EJ	
+U+10CD3	𐳓		OLD HUNGARIAN SMALL LETTER EK	
+U+10CD4	𐳔		OLD HUNGARIAN SMALL LETTER AK	
+U+10CD5	𐳕		OLD HUNGARIAN SMALL LETTER UNK	
+U+10CD6	𐳖		OLD HUNGARIAN SMALL LETTER EL	
+U+10CD7	𐳗		OLD HUNGARIAN SMALL LETTER ELY	
+U+10CD8	𐳘		OLD HUNGARIAN SMALL LETTER EM	
+U+10CD9	𐳙		OLD HUNGARIAN SMALL LETTER EN	
+U+10CDA	𐳚		OLD HUNGARIAN SMALL LETTER ENY	
+U+10CDB	𐳛		OLD HUNGARIAN SMALL LETTER O	
+U+10CDC	𐳜		OLD HUNGARIAN SMALL LETTER OO	
+U+10CDD	𐳝		OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE	
+U+10CDE	𐳞		OLD HUNGARIAN SMALL LETTER RUDIMENTA OE	
+U+10CDF	𐳟		OLD HUNGARIAN SMALL LETTER OEE	
+U+10CE0	𐳠		OLD HUNGARIAN SMALL LETTER EP	
+U+10CE1	𐳡		OLD HUNGARIAN SMALL LETTER EMP	
+U+10CE2	𐳢		OLD HUNGARIAN SMALL LETTER ER	
+U+10CE3	𐳣		OLD HUNGARIAN SMALL LETTER SHORT ER	
+U+10CE4	𐳤		OLD HUNGARIAN SMALL LETTER ES	
+U+10CE5	𐳥		OLD HUNGARIAN SMALL LETTER ESZ	
+U+10CE6	𐳦		OLD HUNGARIAN SMALL LETTER ET	
+U+10CE7	𐳧		OLD HUNGARIAN SMALL LETTER ENT	
+U+10CE8	𐳨		OLD HUNGARIAN SMALL LETTER ETY	
+U+10CE9	𐳩		OLD HUNGARIAN SMALL LETTER ECH	
+U+10CEA	𐳪		OLD HUNGARIAN SMALL LETTER U	
+U+10CEB	𐳫		OLD HUNGARIAN SMALL LETTER UU	
+U+10CEC	𐳬		OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE	
+U+10CED	𐳭		OLD HUNGARIAN SMALL LETTER RUDIMENTA UE	
+U+10CEE	𐳮		OLD HUNGARIAN SMALL LETTER EV	
+U+10CEF	𐳯		OLD HUNGARIAN SMALL LETTER EZ	
+U+10CF0	𐳰		OLD HUNGARIAN SMALL LETTER EZS	
+U+10CF1	𐳱		OLD HUNGARIAN SMALL LETTER ENT-SHAPED SIGN	
+U+10CF2	𐳲		OLD HUNGARIAN SMALL LETTER US	
+U+10CFA	𐳺		OLD HUNGARIAN NUMBER ONE	
+U+10CFB	𐳻		OLD HUNGARIAN NUMBER FIVE	
+U+10CFC	𐳼		OLD HUNGARIAN NUMBER TEN	
+U+10CFD	𐳽		OLD HUNGARIAN NUMBER FIFTY	
+U+10CFE	𐳾		OLD HUNGARIAN NUMBER ONE HUNDRED	
+U+10CFF	𐳿		OLD HUNGARIAN NUMBER ONE THOUSAND	

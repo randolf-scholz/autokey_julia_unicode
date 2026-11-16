@@ -1,60 +1,60 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E2C0	𞋀	1E2C0..1E2FF	Wancho	Wancho letter aa		
-U+1E2C1	𞋁	1E2C0..1E2FF	Wancho	Wancho letter a		
-U+1E2C2	𞋂	1E2C0..1E2FF	Wancho	Wancho letter ba		
-U+1E2C3	𞋃	1E2C0..1E2FF	Wancho	Wancho letter ca		
-U+1E2C4	𞋄	1E2C0..1E2FF	Wancho	Wancho letter da		
-U+1E2C5	𞋅	1E2C0..1E2FF	Wancho	Wancho letter ga		
-U+1E2C6	𞋆	1E2C0..1E2FF	Wancho	Wancho letter ya		
-U+1E2C7	𞋇	1E2C0..1E2FF	Wancho	Wancho letter pha		
-U+1E2C8	𞋈	1E2C0..1E2FF	Wancho	Wancho letter la		
-U+1E2C9	𞋉	1E2C0..1E2FF	Wancho	Wancho letter na		
-U+1E2CA	𞋊	1E2C0..1E2FF	Wancho	Wancho letter pa		
-U+1E2CB	𞋋	1E2C0..1E2FF	Wancho	Wancho letter ta		
-U+1E2CC	𞋌	1E2C0..1E2FF	Wancho	Wancho letter tha		
-U+1E2CD	𞋍	1E2C0..1E2FF	Wancho	Wancho letter fa		
-U+1E2CE	𞋎	1E2C0..1E2FF	Wancho	Wancho letter sa		
-U+1E2CF	𞋏	1E2C0..1E2FF	Wancho	Wancho letter sha		
-U+1E2D0	𞋐	1E2C0..1E2FF	Wancho	Wancho letter ja		
-U+1E2D1	𞋑	1E2C0..1E2FF	Wancho	Wancho letter za		
-U+1E2D2	𞋒	1E2C0..1E2FF	Wancho	Wancho letter wa		
-U+1E2D3	𞋓	1E2C0..1E2FF	Wancho	Wancho letter va		
-U+1E2D4	𞋔	1E2C0..1E2FF	Wancho	Wancho letter ka		
-U+1E2D5	𞋕	1E2C0..1E2FF	Wancho	Wancho letter o		
-U+1E2D6	𞋖	1E2C0..1E2FF	Wancho	Wancho letter au		
-U+1E2D7	𞋗	1E2C0..1E2FF	Wancho	Wancho letter ra		
-U+1E2D8	𞋘	1E2C0..1E2FF	Wancho	Wancho letter ma		
-U+1E2D9	𞋙	1E2C0..1E2FF	Wancho	Wancho letter kha		
-U+1E2DA	𞋚	1E2C0..1E2FF	Wancho	Wancho letter ha		
-U+1E2DB	𞋛	1E2C0..1E2FF	Wancho	Wancho letter e		
-U+1E2DC	𞋜	1E2C0..1E2FF	Wancho	Wancho letter i		
-U+1E2DD	𞋝	1E2C0..1E2FF	Wancho	Wancho letter nga		
-U+1E2DE	𞋞	1E2C0..1E2FF	Wancho	Wancho letter u		
-U+1E2DF	𞋟	1E2C0..1E2FF	Wancho	Wancho letter llha		
-U+1E2E0	𞋠	1E2C0..1E2FF	Wancho	Wancho letter tsa		
-U+1E2E1	𞋡	1E2C0..1E2FF	Wancho	Wancho letter tra		
-U+1E2E2	𞋢	1E2C0..1E2FF	Wancho	Wancho letter ong		
-U+1E2E3	𞋣	1E2C0..1E2FF	Wancho	Wancho letter aang		
-U+1E2E4	𞋤	1E2C0..1E2FF	Wancho	Wancho letter ang		
-U+1E2E5	𞋥	1E2C0..1E2FF	Wancho	Wancho letter ing		
-U+1E2E6	𞋦	1E2C0..1E2FF	Wancho	Wancho letter on		
-U+1E2E7	𞋧	1E2C0..1E2FF	Wancho	Wancho letter en		
-U+1E2E8	𞋨	1E2C0..1E2FF	Wancho	Wancho letter aan		
-U+1E2E9	𞋩	1E2C0..1E2FF	Wancho	Wancho letter nya		
-U+1E2EA	𞋪	1E2C0..1E2FF	Wancho	Wancho letter uen		
-U+1E2EB	𞋫	1E2C0..1E2FF	Wancho	Wancho letter yih		
-U+1E2EC	𞋬	1E2C0..1E2FF	Wancho	Wancho tone tup		
-U+1E2ED	𞋭	1E2C0..1E2FF	Wancho	Wancho tone tupni		
-U+1E2EE	𞋮	1E2C0..1E2FF	Wancho	Wancho tone koi		
-U+1E2EF	𞋯	1E2C0..1E2FF	Wancho	Wancho tone koini		
-U+1E2F0	𞋰	1E2C0..1E2FF	Wancho	Wancho digit zero		
-U+1E2F1	𞋱	1E2C0..1E2FF	Wancho	Wancho digit one		
-U+1E2F2	𞋲	1E2C0..1E2FF	Wancho	Wancho digit two		
-U+1E2F3	𞋳	1E2C0..1E2FF	Wancho	Wancho digit three		
-U+1E2F4	𞋴	1E2C0..1E2FF	Wancho	Wancho digit four		
-U+1E2F5	𞋵	1E2C0..1E2FF	Wancho	Wancho digit five		
-U+1E2F6	𞋶	1E2C0..1E2FF	Wancho	Wancho digit six		
-U+1E2F7	𞋷	1E2C0..1E2FF	Wancho	Wancho digit seven		
-U+1E2F8	𞋸	1E2C0..1E2FF	Wancho	Wancho digit eight		
-U+1E2F9	𞋹	1E2C0..1E2FF	Wancho	Wancho digit nine		
-U+1E2FF	𞋿	1E2C0..1E2FF	Wancho	Wancho ngun sign		
+code_points	chars	tab_completions	unicode_name	base
+U+1E2C0	𞋀		WANCHO LETTER AA	
+U+1E2C1	𞋁		WANCHO LETTER A	
+U+1E2C2	𞋂		WANCHO LETTER BA	
+U+1E2C3	𞋃		WANCHO LETTER CA	
+U+1E2C4	𞋄		WANCHO LETTER DA	
+U+1E2C5	𞋅		WANCHO LETTER GA	
+U+1E2C6	𞋆		WANCHO LETTER YA	
+U+1E2C7	𞋇		WANCHO LETTER PHA	
+U+1E2C8	𞋈		WANCHO LETTER LA	
+U+1E2C9	𞋉		WANCHO LETTER NA	
+U+1E2CA	𞋊		WANCHO LETTER PA	
+U+1E2CB	𞋋		WANCHO LETTER TA	
+U+1E2CC	𞋌		WANCHO LETTER THA	
+U+1E2CD	𞋍		WANCHO LETTER FA	
+U+1E2CE	𞋎		WANCHO LETTER SA	
+U+1E2CF	𞋏		WANCHO LETTER SHA	
+U+1E2D0	𞋐		WANCHO LETTER JA	
+U+1E2D1	𞋑		WANCHO LETTER ZA	
+U+1E2D2	𞋒		WANCHO LETTER WA	
+U+1E2D3	𞋓		WANCHO LETTER VA	
+U+1E2D4	𞋔		WANCHO LETTER KA	
+U+1E2D5	𞋕		WANCHO LETTER O	
+U+1E2D6	𞋖		WANCHO LETTER AU	
+U+1E2D7	𞋗		WANCHO LETTER RA	
+U+1E2D8	𞋘		WANCHO LETTER MA	
+U+1E2D9	𞋙		WANCHO LETTER KHA	
+U+1E2DA	𞋚		WANCHO LETTER HA	
+U+1E2DB	𞋛		WANCHO LETTER E	
+U+1E2DC	𞋜		WANCHO LETTER I	
+U+1E2DD	𞋝		WANCHO LETTER NGA	
+U+1E2DE	𞋞		WANCHO LETTER U	
+U+1E2DF	𞋟		WANCHO LETTER LLHA	
+U+1E2E0	𞋠		WANCHO LETTER TSA	
+U+1E2E1	𞋡		WANCHO LETTER TRA	
+U+1E2E2	𞋢		WANCHO LETTER ONG	
+U+1E2E3	𞋣		WANCHO LETTER AANG	
+U+1E2E4	𞋤		WANCHO LETTER ANG	
+U+1E2E5	𞋥		WANCHO LETTER ING	
+U+1E2E6	𞋦		WANCHO LETTER ON	
+U+1E2E7	𞋧		WANCHO LETTER EN	
+U+1E2E8	𞋨		WANCHO LETTER AAN	
+U+1E2E9	𞋩		WANCHO LETTER NYA	
+U+1E2EA	𞋪		WANCHO LETTER UEN	
+U+1E2EB	𞋫		WANCHO LETTER YIH	
+U+1E2EC	𞋬		WANCHO TONE TUP	
+U+1E2ED	𞋭		WANCHO TONE TUPNI	
+U+1E2EE	𞋮		WANCHO TONE KOI	
+U+1E2EF	𞋯		WANCHO TONE KOINI	
+U+1E2F0	𞋰		WANCHO DIGIT ZERO	
+U+1E2F1	𞋱		WANCHO DIGIT ONE	
+U+1E2F2	𞋲		WANCHO DIGIT TWO	
+U+1E2F3	𞋳		WANCHO DIGIT THREE	
+U+1E2F4	𞋴		WANCHO DIGIT FOUR	
+U+1E2F5	𞋵		WANCHO DIGIT FIVE	
+U+1E2F6	𞋶		WANCHO DIGIT SIX	
+U+1E2F7	𞋷		WANCHO DIGIT SEVEN	
+U+1E2F8	𞋸		WANCHO DIGIT EIGHT	
+U+1E2F9	𞋹		WANCHO DIGIT NINE	
+U+1E2FF	𞋿		WANCHO NGUN SIGN	

@@ -1,81 +1,81 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+02B0	ʰ	02B0..02FF	Spacing Modifier Letters	Modifier letter small h		
-U+02B1	ʱ	02B0..02FF	Spacing Modifier Letters	Modifier letter small h with hook		
-U+02B2	ʲ	02B0..02FF	Spacing Modifier Letters	Modifier letter small j		
-U+02B3	ʳ	02B0..02FF	Spacing Modifier Letters	Modifier letter small r		
-U+02B4	ʴ	02B0..02FF	Spacing Modifier Letters	Modifier letter small turned r		
-U+02B5	ʵ	02B0..02FF	Spacing Modifier Letters	Modifier letter small turned r with hook		
-U+02B6	ʶ	02B0..02FF	Spacing Modifier Letters	Modifier letter small capital inverted r		
-U+02B7	ʷ	02B0..02FF	Spacing Modifier Letters	Modifier letter small w		
-U+02B8	ʸ	02B0..02FF	Spacing Modifier Letters	Modifier letter small y		
-U+02B9	ʹ	02B0..02FF	Spacing Modifier Letters	Modifier letter prime		
-U+02BA	ʺ	02B0..02FF	Spacing Modifier Letters	Modifier letter double prime		
-U+02BB	ʻ	02B0..02FF	Spacing Modifier Letters	Modifier letter turned comma		
-U+02BC	ʼ	02B0..02FF	Spacing Modifier Letters	Modifier letter apostrophe		
-U+02BD	ʽ	02B0..02FF	Spacing Modifier Letters	Modifier letter reversed comma		
-U+02BE	ʾ	02B0..02FF	Spacing Modifier Letters	Modifier letter right half ring		
-U+02BF	ʿ	02B0..02FF	Spacing Modifier Letters	Modifier letter left half ring		
-U+02C0	ˀ	02B0..02FF	Spacing Modifier Letters	Modifier letter glottal stop		
-U+02C1	ˁ	02B0..02FF	Spacing Modifier Letters	Modifier letter reversed glottal stop		
-U+02C2	˂	02B0..02FF	Spacing Modifier Letters	Modifier letter left arrowhead		
-U+02C3	˃	02B0..02FF	Spacing Modifier Letters	Modifier letter right arrowhead		
-U+02C4	˄	02B0..02FF	Spacing Modifier Letters	Modifier letter up arrowhead		
-U+02C5	˅	02B0..02FF	Spacing Modifier Letters	Modifier letter down arrowhead		
-U+02C6	ˆ	02B0..02FF	Spacing Modifier Letters	Modifier letter circumflex accent		
-U+02C7	ˇ	02B0..02FF	Spacing Modifier Letters	Caron		
-U+02C8	ˈ	02B0..02FF	Spacing Modifier Letters	Modifier letter vertical line		
-U+02C9	ˉ	02B0..02FF	Spacing Modifier Letters	Modifier letter macron		
-U+02CA	ˊ	02B0..02FF	Spacing Modifier Letters	Modifier letter acute accent		
-U+02CB	ˋ	02B0..02FF	Spacing Modifier Letters	Modifier letter grave accent		
-U+02CC	ˌ	02B0..02FF	Spacing Modifier Letters	Modifier letter low vertical line		
-U+02CD	ˍ	02B0..02FF	Spacing Modifier Letters	Modifier letter low macron		
-U+02CE	ˎ	02B0..02FF	Spacing Modifier Letters	Modifier letter low grave accent		
-U+02CF	ˏ	02B0..02FF	Spacing Modifier Letters	Modifier letter low acute accent		
-U+02D0	ː	02B0..02FF	Spacing Modifier Letters	Modifier letter triangular colon		
-U+02D1	ˑ	02B0..02FF	Spacing Modifier Letters	Modifier letter half triangular colon		
-U+02D2	˒	02B0..02FF	Spacing Modifier Letters	Modifier letter centred right half ring		
-U+02D3	˓	02B0..02FF	Spacing Modifier Letters	Modifier letter centred left half ring		
-U+02D4	˔	02B0..02FF	Spacing Modifier Letters	Modifier letter up tack		
-U+02D5	˕	02B0..02FF	Spacing Modifier Letters	Modifier letter down tack		
-U+02D6	˖	02B0..02FF	Spacing Modifier Letters	Modifier letter plus sign		
-U+02D7	˗	02B0..02FF	Spacing Modifier Letters	Modifier letter minus sign		
-U+02D8	˘	02B0..02FF	Spacing Modifier Letters	Breve		
-U+02D9	˙	02B0..02FF	Spacing Modifier Letters	Dot above		
-U+02DA	˚	02B0..02FF	Spacing Modifier Letters	Ring above		
-U+02DB	˛	02B0..02FF	Spacing Modifier Letters	Ogonek		
-U+02DC	˜	02B0..02FF	Spacing Modifier Letters	Small tilde		
-U+02DD	˝	02B0..02FF	Spacing Modifier Letters	Double acute accent		
-U+02DE	˞	02B0..02FF	Spacing Modifier Letters	Modifier letter rhotic hook		
-U+02DF	˟	02B0..02FF	Spacing Modifier Letters	Modifier letter cross accent		
-U+02E0	ˠ	02B0..02FF	Spacing Modifier Letters	Modifier letter small gamma		
-U+02E1	ˡ	02B0..02FF	Spacing Modifier Letters	Modifier letter small l		
-U+02E2	ˢ	02B0..02FF	Spacing Modifier Letters	Modifier letter small s		
-U+02E3	ˣ	02B0..02FF	Spacing Modifier Letters	Modifier letter small x		
-U+02E4	ˤ	02B0..02FF	Spacing Modifier Letters	Modifier letter small reversed glottal stop		
-U+02E5	˥	02B0..02FF	Spacing Modifier Letters	Modifier letter extra-high tone bar		
-U+02E6	˦	02B0..02FF	Spacing Modifier Letters	Modifier letter high tone bar		
-U+02E7	˧	02B0..02FF	Spacing Modifier Letters	Modifier letter mid tone bar		
-U+02E8	˨	02B0..02FF	Spacing Modifier Letters	Modifier letter low tone bar		
-U+02E9	˩	02B0..02FF	Spacing Modifier Letters	Modifier letter extra-low tone bar		
-U+02EA	˪	02B0..02FF	Spacing Modifier Letters	Modifier letter yin departing tone mark		
-U+02EB	˫	02B0..02FF	Spacing Modifier Letters	Modifier letter yang departing tone mark		
-U+02EC	ˬ	02B0..02FF	Spacing Modifier Letters	Modifier letter voicing		
-U+02ED	˭	02B0..02FF	Spacing Modifier Letters	Modifier letter unaspirated		
-U+02EE	ˮ	02B0..02FF	Spacing Modifier Letters	Modifier letter double apostrophe		
-U+02EF	˯	02B0..02FF	Spacing Modifier Letters	Modifier letter low down arrowhead		
-U+02F0	˰	02B0..02FF	Spacing Modifier Letters	Modifier letter low up arrowhead		
-U+02F1	˱	02B0..02FF	Spacing Modifier Letters	Modifier letter low left arrowhead		
-U+02F2	˲	02B0..02FF	Spacing Modifier Letters	Modifier letter low right arrowhead		
-U+02F3	˳	02B0..02FF	Spacing Modifier Letters	Modifier letter low ring		
-U+02F4	˴	02B0..02FF	Spacing Modifier Letters	Modifier letter middle grave accent		
-U+02F5	˵	02B0..02FF	Spacing Modifier Letters	Modifier letter middle double grave accent		
-U+02F6	˶	02B0..02FF	Spacing Modifier Letters	Modifier letter middle double acute accent		
-U+02F7	˷	02B0..02FF	Spacing Modifier Letters	Modifier letter low tilde		
-U+02F8	˸	02B0..02FF	Spacing Modifier Letters	Modifier letter raised colon		
-U+02F9	˹	02B0..02FF	Spacing Modifier Letters	Modifier letter begin high tone		
-U+02FA	˺	02B0..02FF	Spacing Modifier Letters	Modifier letter end high tone		
-U+02FB	˻	02B0..02FF	Spacing Modifier Letters	Modifier letter begin low tone		
-U+02FC	˼	02B0..02FF	Spacing Modifier Letters	Modifier letter end low tone		
-U+02FD	˽	02B0..02FF	Spacing Modifier Letters	Modifier letter shelf		
-U+02FE	˾	02B0..02FF	Spacing Modifier Letters	Modifier letter open shelf		
-U+02FF	˿	02B0..02FF	Spacing Modifier Letters	Modifier letter low left arrow		
+code_points	chars	tab_completions	unicode_name	base
+U+02B0	ʰ		MODIFIER LETTER SMALL H	
+U+02B1	ʱ		MODIFIER LETTER SMALL H WITH HOOK	
+U+02B2	ʲ		MODIFIER LETTER SMALL J	
+U+02B3	ʳ		MODIFIER LETTER SMALL R	
+U+02B4	ʴ		MODIFIER LETTER SMALL TURNED R	
+U+02B5	ʵ		MODIFIER LETTER SMALL TURNED R WITH HOOK	
+U+02B6	ʶ		MODIFIER LETTER SMALL CAPITAL INVERTED R	
+U+02B7	ʷ		MODIFIER LETTER SMALL W	
+U+02B8	ʸ		MODIFIER LETTER SMALL Y	
+U+02B9	ʹ		MODIFIER LETTER PRIME	
+U+02BA	ʺ		MODIFIER LETTER DOUBLE PRIME	
+U+02BB	ʻ		MODIFIER LETTER TURNED COMMA	
+U+02BC	ʼ		MODIFIER LETTER APOSTROPHE	
+U+02BD	ʽ		MODIFIER LETTER REVERSED COMMA	
+U+02BE	ʾ		MODIFIER LETTER RIGHT HALF RING	
+U+02BF	ʿ		MODIFIER LETTER LEFT HALF RING	
+U+02C0	ˀ		MODIFIER LETTER GLOTTAL STOP	
+U+02C1	ˁ		MODIFIER LETTER REVERSED GLOTTAL STOP	
+U+02C2	˂		MODIFIER LETTER LEFT ARROWHEAD	
+U+02C3	˃		MODIFIER LETTER RIGHT ARROWHEAD	
+U+02C4	˄		MODIFIER LETTER UP ARROWHEAD	
+U+02C5	˅		MODIFIER LETTER DOWN ARROWHEAD	
+U+02C6	ˆ		MODIFIER LETTER CIRCUMFLEX ACCENT	
+U+02C7	ˇ		CARON	
+U+02C8	ˈ		MODIFIER LETTER VERTICAL LINE	
+U+02C9	ˉ		MODIFIER LETTER MACRON	
+U+02CA	ˊ		MODIFIER LETTER ACUTE ACCENT	
+U+02CB	ˋ		MODIFIER LETTER GRAVE ACCENT	
+U+02CC	ˌ		MODIFIER LETTER LOW VERTICAL LINE	
+U+02CD	ˍ		MODIFIER LETTER LOW MACRON	
+U+02CE	ˎ		MODIFIER LETTER LOW GRAVE ACCENT	
+U+02CF	ˏ		MODIFIER LETTER LOW ACUTE ACCENT	
+U+02D0	ː		MODIFIER LETTER TRIANGULAR COLON	
+U+02D1	ˑ		MODIFIER LETTER HALF TRIANGULAR COLON	
+U+02D2	˒		MODIFIER LETTER CENTRED RIGHT HALF RING	
+U+02D3	˓		MODIFIER LETTER CENTRED LEFT HALF RING	
+U+02D4	˔		MODIFIER LETTER UP TACK	
+U+02D5	˕		MODIFIER LETTER DOWN TACK	
+U+02D6	˖		MODIFIER LETTER PLUS SIGN	
+U+02D7	˗		MODIFIER LETTER MINUS SIGN	
+U+02D8	˘		BREVE	
+U+02D9	˙		DOT ABOVE	
+U+02DA	˚		RING ABOVE	
+U+02DB	˛		OGONEK	
+U+02DC	˜		SMALL TILDE	
+U+02DD	˝		DOUBLE ACUTE ACCENT	
+U+02DE	˞		MODIFIER LETTER RHOTIC HOOK	
+U+02DF	˟		MODIFIER LETTER CROSS ACCENT	
+U+02E0	ˠ		MODIFIER LETTER SMALL GAMMA	
+U+02E1	ˡ		MODIFIER LETTER SMALL L	
+U+02E2	ˢ		MODIFIER LETTER SMALL S	
+U+02E3	ˣ		MODIFIER LETTER SMALL X	
+U+02E4	ˤ		MODIFIER LETTER SMALL REVERSED GLOTTAL STOP	
+U+02E5	˥		MODIFIER LETTER EXTRA-HIGH TONE BAR	
+U+02E6	˦		MODIFIER LETTER HIGH TONE BAR	
+U+02E7	˧		MODIFIER LETTER MID TONE BAR	
+U+02E8	˨		MODIFIER LETTER LOW TONE BAR	
+U+02E9	˩		MODIFIER LETTER EXTRA-LOW TONE BAR	
+U+02EA	˪		MODIFIER LETTER YIN DEPARTING TONE MARK	
+U+02EB	˫		MODIFIER LETTER YANG DEPARTING TONE MARK	
+U+02EC	ˬ		MODIFIER LETTER VOICING	
+U+02ED	˭		MODIFIER LETTER UNASPIRATED	
+U+02EE	ˮ		MODIFIER LETTER DOUBLE APOSTROPHE	
+U+02EF	˯		MODIFIER LETTER LOW DOWN ARROWHEAD	
+U+02F0	˰		MODIFIER LETTER LOW UP ARROWHEAD	
+U+02F1	˱		MODIFIER LETTER LOW LEFT ARROWHEAD	
+U+02F2	˲		MODIFIER LETTER LOW RIGHT ARROWHEAD	
+U+02F3	˳		MODIFIER LETTER LOW RING	
+U+02F4	˴		MODIFIER LETTER MIDDLE GRAVE ACCENT	
+U+02F5	˵		MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT	
+U+02F6	˶		MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT	
+U+02F7	˷		MODIFIER LETTER LOW TILDE	
+U+02F8	˸		MODIFIER LETTER RAISED COLON	
+U+02F9	˹		MODIFIER LETTER BEGIN HIGH TONE	
+U+02FA	˺		MODIFIER LETTER END HIGH TONE	
+U+02FB	˻		MODIFIER LETTER BEGIN LOW TONE	
+U+02FC	˼		MODIFIER LETTER END LOW TONE	
+U+02FD	˽		MODIFIER LETTER SHELF	
+U+02FE	˾		MODIFIER LETTER OPEN SHELF	
+U+02FF	˿		MODIFIER LETTER LOW LEFT ARROW	

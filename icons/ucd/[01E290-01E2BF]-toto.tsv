@@ -1,32 +1,32 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E290	𞊐	1E290..1E2BF	Toto	Toto letter pa		
-U+1E291	𞊑	1E290..1E2BF	Toto	Toto letter ba		
-U+1E292	𞊒	1E290..1E2BF	Toto	Toto letter ta		
-U+1E293	𞊓	1E290..1E2BF	Toto	Toto letter da		
-U+1E294	𞊔	1E290..1E2BF	Toto	Toto letter ka		
-U+1E295	𞊕	1E290..1E2BF	Toto	Toto letter ga		
-U+1E296	𞊖	1E290..1E2BF	Toto	Toto letter ma		
-U+1E297	𞊗	1E290..1E2BF	Toto	Toto letter na		
-U+1E298	𞊘	1E290..1E2BF	Toto	Toto letter nga		
-U+1E299	𞊙	1E290..1E2BF	Toto	Toto letter sa		
-U+1E29A	𞊚	1E290..1E2BF	Toto	Toto letter cha		
-U+1E29B	𞊛	1E290..1E2BF	Toto	Toto letter ya		
-U+1E29C	𞊜	1E290..1E2BF	Toto	Toto letter wa		
-U+1E29D	𞊝	1E290..1E2BF	Toto	Toto letter ja		
-U+1E29E	𞊞	1E290..1E2BF	Toto	Toto letter ha		
-U+1E29F	𞊟	1E290..1E2BF	Toto	Toto letter ra		
-U+1E2A0	𞊠	1E290..1E2BF	Toto	Toto letter la		
-U+1E2A1	𞊡	1E290..1E2BF	Toto	Toto letter i		
-U+1E2A2	𞊢	1E290..1E2BF	Toto	Toto letter breathy i		
-U+1E2A3	𞊣	1E290..1E2BF	Toto	Toto letter iu		
-U+1E2A4	𞊤	1E290..1E2BF	Toto	Toto letter breathy iu		
-U+1E2A5	𞊥	1E290..1E2BF	Toto	Toto letter u		
-U+1E2A6	𞊦	1E290..1E2BF	Toto	Toto letter e		
-U+1E2A7	𞊧	1E290..1E2BF	Toto	Toto letter breathy e		
-U+1E2A8	𞊨	1E290..1E2BF	Toto	Toto letter eo		
-U+1E2A9	𞊩	1E290..1E2BF	Toto	Toto letter breathy eo		
-U+1E2AA	𞊪	1E290..1E2BF	Toto	Toto letter o		
-U+1E2AB	𞊫	1E290..1E2BF	Toto	Toto letter ae		
-U+1E2AC	𞊬	1E290..1E2BF	Toto	Toto letter breathy ae		
-U+1E2AD	𞊭	1E290..1E2BF	Toto	Toto letter a		
-U+1E2AE	𞊮	1E290..1E2BF	Toto	Toto sign rising tone		
+code_points	chars	tab_completions	unicode_name	base
+U+1E290	𞊐		TOTO LETTER PA	
+U+1E291	𞊑		TOTO LETTER BA	
+U+1E292	𞊒		TOTO LETTER TA	
+U+1E293	𞊓		TOTO LETTER DA	
+U+1E294	𞊔		TOTO LETTER KA	
+U+1E295	𞊕		TOTO LETTER GA	
+U+1E296	𞊖		TOTO LETTER MA	
+U+1E297	𞊗		TOTO LETTER NA	
+U+1E298	𞊘		TOTO LETTER NGA	
+U+1E299	𞊙		TOTO LETTER SA	
+U+1E29A	𞊚		TOTO LETTER CHA	
+U+1E29B	𞊛		TOTO LETTER YA	
+U+1E29C	𞊜		TOTO LETTER WA	
+U+1E29D	𞊝		TOTO LETTER JA	
+U+1E29E	𞊞		TOTO LETTER HA	
+U+1E29F	𞊟		TOTO LETTER RA	
+U+1E2A0	𞊠		TOTO LETTER LA	
+U+1E2A1	𞊡		TOTO LETTER I	
+U+1E2A2	𞊢		TOTO LETTER BREATHY I	
+U+1E2A3	𞊣		TOTO LETTER IU	
+U+1E2A4	𞊤		TOTO LETTER BREATHY IU	
+U+1E2A5	𞊥		TOTO LETTER U	
+U+1E2A6	𞊦		TOTO LETTER E	
+U+1E2A7	𞊧		TOTO LETTER BREATHY E	
+U+1E2A8	𞊨		TOTO LETTER EO	
+U+1E2A9	𞊩		TOTO LETTER BREATHY EO	
+U+1E2AA	𞊪		TOTO LETTER O	
+U+1E2AB	𞊫		TOTO LETTER AE	
+U+1E2AC	𞊬		TOTO LETTER BREATHY AE	
+U+1E2AD	𞊭		TOTO LETTER A	
+U+1E2AE	𞊮		TOTO SIGN RISING TONE	

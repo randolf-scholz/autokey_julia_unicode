@@ -1,9 +1,9 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11B60	𑭠	11B60..11B7F	Sharada Supplement	Sharada vowel sign oe		
-U+11B61	𑭡	11B60..11B7F	Sharada Supplement	Sharada vowel sign ooe		
-U+11B62	𑭢	11B60..11B7F	Sharada Supplement	Sharada vowel sign ue		
-U+11B63	𑭣	11B60..11B7F	Sharada Supplement	Sharada vowel sign uue		
-U+11B64	𑭤	11B60..11B7F	Sharada Supplement	Sharada vowel sign short e		
-U+11B65	𑭥	11B60..11B7F	Sharada Supplement	Sharada vowel sign short o		
-U+11B66	𑭦	11B60..11B7F	Sharada Supplement	Sharada vowel sign candra e		
-U+11B67	𑭧	11B60..11B7F	Sharada Supplement	Sharada vowel sign candra o		
+code_points	chars	tab_completions	unicode_name	base
+U+11B60	𑭠		SHARADA VOWEL SIGN OE	
+U+11B61	𑭡		SHARADA VOWEL SIGN OOE	
+U+11B62	𑭢		SHARADA VOWEL SIGN UE	
+U+11B63	𑭣		SHARADA VOWEL SIGN UUE	
+U+11B64	𑭤		SHARADA VOWEL SIGN SHORT E	
+U+11B65	𑭥		SHARADA VOWEL SIGN SHORT O	
+U+11B66	𑭦		SHARADA VOWEL SIGN CANDRA E	
+U+11B67	𑭧		SHARADA VOWEL SIGN CANDRA O	

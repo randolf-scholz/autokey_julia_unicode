@@ -1,100 +1,100 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+12F90	𒾐	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm001		
-U+12F91	𒾑	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm002		
-U+12F92	𒾒	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm004		
-U+12F93	𒾓	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm005		
-U+12F94	𒾔	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm006		
-U+12F95	𒾕	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm007		
-U+12F96	𒾖	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm008		
-U+12F97	𒾗	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm009		
-U+12F98	𒾘	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm010		
-U+12F99	𒾙	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm011		
-U+12F9A	𒾚	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm012		
-U+12F9B	𒾛	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm012b		
-U+12F9C	𒾜	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm013		
-U+12F9D	𒾝	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm015		
-U+12F9E	𒾞	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm017		
-U+12F9F	𒾟	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm019		
-U+12FA0	𒾠	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm021		
-U+12FA1	𒾡	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm023		
-U+12FA2	𒾢	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm024		
-U+12FA3	𒾣	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm025		
-U+12FA4	𒾤	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm026		
-U+12FA5	𒾥	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm027		
-U+12FA6	𒾦	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm028		
-U+12FA7	𒾧	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm029		
-U+12FA8	𒾨	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm030		
-U+12FA9	𒾩	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm033		
-U+12FAA	𒾪	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm034		
-U+12FAB	𒾫	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm035		
-U+12FAC	𒾬	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm036		
-U+12FAD	𒾭	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm037		
-U+12FAE	𒾮	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm038		
-U+12FAF	𒾯	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm039		
-U+12FB0	𒾰	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm040		
-U+12FB1	𒾱	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm041		
-U+12FB2	𒾲	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm044		
-U+12FB3	𒾳	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm046		
-U+12FB4	𒾴	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm047		
-U+12FB5	𒾵	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm049		
-U+12FB6	𒾶	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm050		
-U+12FB7	𒾷	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm051		
-U+12FB8	𒾸	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm052		
-U+12FB9	𒾹	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm053		
-U+12FBA	𒾺	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm054		
-U+12FBB	𒾻	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm055		
-U+12FBC	𒾼	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm056		
-U+12FBD	𒾽	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm058		
-U+12FBE	𒾾	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm059		
-U+12FBF	𒾿	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm060		
-U+12FC0	𒿀	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm061		
-U+12FC1	𒿁	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm062		
-U+12FC2	𒿂	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm063		
-U+12FC3	𒿃	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm064		
-U+12FC4	𒿄	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm066		
-U+12FC5	𒿅	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm067		
-U+12FC6	𒿆	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm068		
-U+12FC7	𒿇	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm069		
-U+12FC8	𒿈	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm070		
-U+12FC9	𒿉	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm071		
-U+12FCA	𒿊	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm072		
-U+12FCB	𒿋	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm073		
-U+12FCC	𒿌	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm074		
-U+12FCD	𒿍	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm075		
-U+12FCE	𒿎	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm075b		
-U+12FCF	𒿏	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm076		
-U+12FD0	𒿐	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm078		
-U+12FD1	𒿑	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm079		
-U+12FD2	𒿒	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm080		
-U+12FD3	𒿓	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm081		
-U+12FD4	𒿔	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm082		
-U+12FD5	𒿕	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm083		
-U+12FD6	𒿖	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm084		
-U+12FD7	𒿗	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm085		
-U+12FD8	𒿘	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm086		
-U+12FD9	𒿙	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm087		
-U+12FDA	𒿚	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm088		
-U+12FDB	𒿛	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm089		
-U+12FDC	𒿜	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm090		
-U+12FDD	𒿝	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm091		
-U+12FDE	𒿞	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm092		
-U+12FDF	𒿟	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm094		
-U+12FE0	𒿠	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm095		
-U+12FE1	𒿡	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm096		
-U+12FE2	𒿢	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm097		
-U+12FE3	𒿣	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm098		
-U+12FE4	𒿤	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm099		
-U+12FE5	𒿥	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm100		
-U+12FE6	𒿦	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm101		
-U+12FE7	𒿧	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm102		
-U+12FE8	𒿨	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm103		
-U+12FE9	𒿩	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm104		
-U+12FEA	𒿪	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm105		
-U+12FEB	𒿫	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm107		
-U+12FEC	𒿬	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm108		
-U+12FED	𒿭	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm109		
-U+12FEE	𒿮	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm110		
-U+12FEF	𒿯	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm112		
-U+12FF0	𒿰	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm114		
-U+12FF1	𒿱	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm301		
-U+12FF2	𒿲	12F90..12FFF	Cypro-Minoan	Cypro-minoan sign cm302		
+code_points	chars	tab_completions	unicode_name	base
+U+12F90	𒾐		CYPRO-MINOAN SIGN CM001	
+U+12F91	𒾑		CYPRO-MINOAN SIGN CM002	
+U+12F92	𒾒		CYPRO-MINOAN SIGN CM004	
+U+12F93	𒾓		CYPRO-MINOAN SIGN CM005	
+U+12F94	𒾔		CYPRO-MINOAN SIGN CM006	
+U+12F95	𒾕		CYPRO-MINOAN SIGN CM007	
+U+12F96	𒾖		CYPRO-MINOAN SIGN CM008	
+U+12F97	𒾗		CYPRO-MINOAN SIGN CM009	
+U+12F98	𒾘		CYPRO-MINOAN SIGN CM010	
+U+12F99	𒾙		CYPRO-MINOAN SIGN CM011	
+U+12F9A	𒾚		CYPRO-MINOAN SIGN CM012	
+U+12F9B	𒾛		CYPRO-MINOAN SIGN CM012B	
+U+12F9C	𒾜		CYPRO-MINOAN SIGN CM013	
+U+12F9D	𒾝		CYPRO-MINOAN SIGN CM015	
+U+12F9E	𒾞		CYPRO-MINOAN SIGN CM017	
+U+12F9F	𒾟		CYPRO-MINOAN SIGN CM019	
+U+12FA0	𒾠		CYPRO-MINOAN SIGN CM021	
+U+12FA1	𒾡		CYPRO-MINOAN SIGN CM023	
+U+12FA2	𒾢		CYPRO-MINOAN SIGN CM024	
+U+12FA3	𒾣		CYPRO-MINOAN SIGN CM025	
+U+12FA4	𒾤		CYPRO-MINOAN SIGN CM026	
+U+12FA5	𒾥		CYPRO-MINOAN SIGN CM027	
+U+12FA6	𒾦		CYPRO-MINOAN SIGN CM028	
+U+12FA7	𒾧		CYPRO-MINOAN SIGN CM029	
+U+12FA8	𒾨		CYPRO-MINOAN SIGN CM030	
+U+12FA9	𒾩		CYPRO-MINOAN SIGN CM033	
+U+12FAA	𒾪		CYPRO-MINOAN SIGN CM034	
+U+12FAB	𒾫		CYPRO-MINOAN SIGN CM035	
+U+12FAC	𒾬		CYPRO-MINOAN SIGN CM036	
+U+12FAD	𒾭		CYPRO-MINOAN SIGN CM037	
+U+12FAE	𒾮		CYPRO-MINOAN SIGN CM038	
+U+12FAF	𒾯		CYPRO-MINOAN SIGN CM039	
+U+12FB0	𒾰		CYPRO-MINOAN SIGN CM040	
+U+12FB1	𒾱		CYPRO-MINOAN SIGN CM041	
+U+12FB2	𒾲		CYPRO-MINOAN SIGN CM044	
+U+12FB3	𒾳		CYPRO-MINOAN SIGN CM046	
+U+12FB4	𒾴		CYPRO-MINOAN SIGN CM047	
+U+12FB5	𒾵		CYPRO-MINOAN SIGN CM049	
+U+12FB6	𒾶		CYPRO-MINOAN SIGN CM050	
+U+12FB7	𒾷		CYPRO-MINOAN SIGN CM051	
+U+12FB8	𒾸		CYPRO-MINOAN SIGN CM052	
+U+12FB9	𒾹		CYPRO-MINOAN SIGN CM053	
+U+12FBA	𒾺		CYPRO-MINOAN SIGN CM054	
+U+12FBB	𒾻		CYPRO-MINOAN SIGN CM055	
+U+12FBC	𒾼		CYPRO-MINOAN SIGN CM056	
+U+12FBD	𒾽		CYPRO-MINOAN SIGN CM058	
+U+12FBE	𒾾		CYPRO-MINOAN SIGN CM059	
+U+12FBF	𒾿		CYPRO-MINOAN SIGN CM060	
+U+12FC0	𒿀		CYPRO-MINOAN SIGN CM061	
+U+12FC1	𒿁		CYPRO-MINOAN SIGN CM062	
+U+12FC2	𒿂		CYPRO-MINOAN SIGN CM063	
+U+12FC3	𒿃		CYPRO-MINOAN SIGN CM064	
+U+12FC4	𒿄		CYPRO-MINOAN SIGN CM066	
+U+12FC5	𒿅		CYPRO-MINOAN SIGN CM067	
+U+12FC6	𒿆		CYPRO-MINOAN SIGN CM068	
+U+12FC7	𒿇		CYPRO-MINOAN SIGN CM069	
+U+12FC8	𒿈		CYPRO-MINOAN SIGN CM070	
+U+12FC9	𒿉		CYPRO-MINOAN SIGN CM071	
+U+12FCA	𒿊		CYPRO-MINOAN SIGN CM072	
+U+12FCB	𒿋		CYPRO-MINOAN SIGN CM073	
+U+12FCC	𒿌		CYPRO-MINOAN SIGN CM074	
+U+12FCD	𒿍		CYPRO-MINOAN SIGN CM075	
+U+12FCE	𒿎		CYPRO-MINOAN SIGN CM075B	
+U+12FCF	𒿏		CYPRO-MINOAN SIGN CM076	
+U+12FD0	𒿐		CYPRO-MINOAN SIGN CM078	
+U+12FD1	𒿑		CYPRO-MINOAN SIGN CM079	
+U+12FD2	𒿒		CYPRO-MINOAN SIGN CM080	
+U+12FD3	𒿓		CYPRO-MINOAN SIGN CM081	
+U+12FD4	𒿔		CYPRO-MINOAN SIGN CM082	
+U+12FD5	𒿕		CYPRO-MINOAN SIGN CM083	
+U+12FD6	𒿖		CYPRO-MINOAN SIGN CM084	
+U+12FD7	𒿗		CYPRO-MINOAN SIGN CM085	
+U+12FD8	𒿘		CYPRO-MINOAN SIGN CM086	
+U+12FD9	𒿙		CYPRO-MINOAN SIGN CM087	
+U+12FDA	𒿚		CYPRO-MINOAN SIGN CM088	
+U+12FDB	𒿛		CYPRO-MINOAN SIGN CM089	
+U+12FDC	𒿜		CYPRO-MINOAN SIGN CM090	
+U+12FDD	𒿝		CYPRO-MINOAN SIGN CM091	
+U+12FDE	𒿞		CYPRO-MINOAN SIGN CM092	
+U+12FDF	𒿟		CYPRO-MINOAN SIGN CM094	
+U+12FE0	𒿠		CYPRO-MINOAN SIGN CM095	
+U+12FE1	𒿡		CYPRO-MINOAN SIGN CM096	
+U+12FE2	𒿢		CYPRO-MINOAN SIGN CM097	
+U+12FE3	𒿣		CYPRO-MINOAN SIGN CM098	
+U+12FE4	𒿤		CYPRO-MINOAN SIGN CM099	
+U+12FE5	𒿥		CYPRO-MINOAN SIGN CM100	
+U+12FE6	𒿦		CYPRO-MINOAN SIGN CM101	
+U+12FE7	𒿧		CYPRO-MINOAN SIGN CM102	
+U+12FE8	𒿨		CYPRO-MINOAN SIGN CM103	
+U+12FE9	𒿩		CYPRO-MINOAN SIGN CM104	
+U+12FEA	𒿪		CYPRO-MINOAN SIGN CM105	
+U+12FEB	𒿫		CYPRO-MINOAN SIGN CM107	
+U+12FEC	𒿬		CYPRO-MINOAN SIGN CM108	
+U+12FED	𒿭		CYPRO-MINOAN SIGN CM109	
+U+12FEE	𒿮		CYPRO-MINOAN SIGN CM110	
+U+12FEF	𒿯		CYPRO-MINOAN SIGN CM112	
+U+12FF0	𒿰		CYPRO-MINOAN SIGN CM114	
+U+12FF1	𒿱		CYPRO-MINOAN SIGN CM301	
+U+12FF2	𒿲		CYPRO-MINOAN SIGN CM302	

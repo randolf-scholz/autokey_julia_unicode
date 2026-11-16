@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Export per-block Unicode TSV files with ``python src/export_ucd.py``.
+"""Export Unicode TSV files with ``python src/export_ucd.py``.
 
-Read Blocks.txt and UnicodeData.txt from third_party/ucd and write icons/ucd.
-Export only explicit UnicodeData records, without expanding First/Last ranges.
+Read Blocks.txt and UnicodeData.txt from third_party/ucd. Write schema-compliant
+tables to icons/unicode_blocks, their concatenation to icons/unicode.tsv, and
+the block index to icons/blocks.tsv. Skip UnicodeData's First/Last ranges,
+including their endpoint records, to keep the symbol tables compact.
 Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
 """
 
@@ -10,13 +12,16 @@ import argparse
 import csv
 import re
 import sys
+import tomllib
 from bisect import bisect_left, bisect_right
 from collections.abc import Iterable
+from enum import StrEnum
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import NamedTuple
 
-if sys.version_info < (3, 12, 3):
+# FIXME: https://youtrack.jetbrains.com/issue/PY-94163/
+if sys.version_info[:3] < (3, 12, 3):
     raise SystemExit(
         "export_ucd.py requires Python 3.12.3 or newer for correct CSV quoting."
     )
@@ -24,6 +29,7 @@ if sys.version_info < (3, 12, 3):
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 UCD_DIR = PROJECT_DIR / "third_party" / "ucd"
 ICON_DIR = PROJECT_DIR / "icons" / "ucd"
+SCHEMA_PATH = PROJECT_DIR / "icons" / "schema.toml"
 UNICODE_DATA_FIELD_COUNT = 15
 MAX_CODE_POINT = 0x10FFFF
 SURROGATE_START = 0xD800
@@ -31,22 +37,39 @@ SURROGATE_END = 0xDFFF
 BLOCK_FILENAME = re.compile(r"\[[0-9A-F]{6}-[0-9A-F]{6}\]-.+\.tsv")
 
 
-class UnicodeEntry(NamedTuple):
-    """The seven columns of each block TSV."""
+class Header(StrEnum):
+    """Icon TSV columns in the schema's canonical export order."""
 
-    code_point: str
-    symbol: str
-    block: str
-    block_name: str
-    name: str
-    tab_completion: str | None = None
-    latex_code: str | None = None
+    CODE_POINTS = "code_points"
+    CHARS = "chars"
+    TAB_COMPLETIONS = "tab_completions"
+    UNICODE_NAME = "unicode_name"
+    BASE = "base"
+
+
+def validate_header(path: Path = SCHEMA_PATH) -> None:
+    """Reject schema changes that would make the exported columns inconsistent."""
+    with path.open("rb") as source:
+        schema = tomllib.load(source)
+    if list(Header) != schema["format"]["column_order"]:
+        raise ValueError(f"{path}: Header must match format.column_order exactly")
+    if set(Header) != set(schema["columns"]):
+        raise ValueError(f"{path}: Header must match the defined columns")
+
+
+class UnicodeEntry(NamedTuple):
+    """The five schema columns of each character row."""
+
+    code_points: str
+    chars: str
+    tab_completions: str = ""
+    unicode_name: str = ""
+    base: str = ""
 
 
 class UnicodeBlock(NamedTuple):
     """A named, inclusive range from Blocks.txt."""
 
-    code_range: str
     name: str
     start: int
     end: int
@@ -67,8 +90,7 @@ def read_blocks(path: Path) -> list[UnicodeBlock]:
                 continue
             code_range, name = (field.strip() for field in line.split(";"))
 
-            # Bounds are inclusive hexadecimal code points. Keep the original
-            # range text for the TSV's block column.
+            # Bounds are inclusive hexadecimal code points.
             start, end = (int(bound, 16) for bound in code_range.split(".."))
             if not name or not 0 <= start <= end <= MAX_CODE_POINT:
                 raise ValueError(f"{path}:{line_number}: invalid block")
@@ -77,7 +99,7 @@ def read_blocks(path: Path) -> list[UnicodeBlock]:
                 raise ValueError(
                     f"{path}:{line_number}: overlapping or unsorted blocks"
                 )
-            blocks.append(UnicodeBlock(code_range, name, start, end))
+            blocks.append(UnicodeBlock(name, start, end))
 
     if not blocks:
         raise ValueError(f"{path}: no blocks found")
@@ -85,8 +107,9 @@ def read_blocks(path: Path) -> list[UnicodeBlock]:
 
 
 def read_unicode_names(path: Path) -> dict[int, str]:
-    """Read explicit UnicodeData records with sentence-cased names."""
+    """Read explicit scalar records, omitting First/Last ranges and surrogates."""
     names = {}
+    has_records = False
     with path.open(encoding="utf-8", newline="") as source:
         # UnicodeData has 15 unquoted fields; the first two are code point and name.
         for line_number, line in enumerate(source, start=1):
@@ -102,33 +125,40 @@ def read_unicode_names(path: Path) -> dict[int, str]:
             point = int(row[0], 16)
             if not 0 <= point <= MAX_CODE_POINT:
                 raise ValueError(f"{path}:{line_number}: invalid code point")
+            has_records = True
 
-            # Surrogates cannot be written as UTF-8 symbols. Their block files
-            # still receive a header, but contain no character rows.
+            name = row[1]
+            if name.endswith((", First>", ", Last>")):
+                continue
+            # Surrogate and range-only block files receive just the header.
             if SURROGATE_START <= point <= SURROGATE_END:
                 continue
             if point in names:
                 raise ValueError(f"{path}:{line_number}: duplicate code point")
+            names[point] = "" if name.startswith("<") else name
 
-            # Sentence-case placeholder names such as <control> and First/Last
-            # markers too.
-            names[point] = row[1].capitalize()
-
-    if not names:
-        raise ValueError(f"{path}: no encodable Unicode records found")
+    if not has_records:
+        raise ValueError(f"{path}: no Unicode records found")
     return names
 
 
-def write_block(path: Path, entries: Iterable[UnicodeEntry]) -> None:
-    """Write one UTF-8 block TSV with the standard header and CSV quoting."""
+def write_tsv(
+    path: Path, entries: Iterable[Iterable[str]], *, header: Iterable[str]
+) -> None:
+    """Write a UTF-8 TSV with LF record separators and standard CSV quoting."""
     with path.open("w", encoding="utf-8", newline="") as target:
         writer = csv.writer(target, delimiter="\t", lineterminator="\n")
-        writer.writerow(UnicodeEntry._fields)
+        writer.writerow(Header)
         writer.writerows(entries)
 
 
 def export_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
-    """Generate the block TSVs and remove obsolete files with generated names."""
+    """Generate block TSVs and sibling blocks.tsv and unicode.tsv summary files.
+
+    output_dir is the block directory; its parent receives the two summary files.
+    Remove obsolete block files with generated names after a successful export.
+    """
+    validate_header()
     blocks = read_blocks(source_dir / "Blocks.txt")
     names = read_unicode_names(source_dir / "UnicodeData.txt")
     points = sorted(names)
@@ -137,24 +167,36 @@ def export_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
 
     with TemporaryDirectory(prefix=".ucd-export-", dir=output_dir.parent) as temporary:
         staging = Path(temporary)
+        write_tsv(
+            staging / "blocks.tsv",
+            (
+                (f"{block.start:04X}", f"{block.end:04X}", block.name)
+                for block in blocks
+            ),
+            header=("block_start", "block_end", "block_name"),
+        )
+
+        all_entries = []
         for block in blocks:
             first = bisect_left(points, block.start)
             stop = bisect_right(points, block.end)
-            entries = (
+            entries = [
                 UnicodeEntry(
-                    code_point=f"U+{point:04X}",
-                    symbol=chr(point),
-                    block=block.code_range,
-                    block_name=block.name,
-                    name=names[point],
+                    code_points=f"U+{point:04X}",
+                    chars=chr(point),
+                    unicode_name=names[point],
                 )
                 for point in points[first:stop]
-            )
-            write_block(staging / block.filename, entries)
+            ]
+            write_tsv(staging / block.filename, entries, header=Header)
+            all_entries.extend(entries)
+        write_tsv(staging / "unicode.tsv", all_entries, header=Header)
 
         # Finish generating every file before replacing existing exports.
         for block in blocks:
             (staging / block.filename).replace(output_dir / block.filename)
+        for filename in ("blocks.tsv", "unicode.tsv"):
+            (staging / filename).replace(output_dir.parent / filename)
 
     # Remove obsolete block exports, preserving files with unrelated names.
     generated = {block.filename for block in blocks}
@@ -178,7 +220,7 @@ def main() -> None:
         "--output-dir",
         type=Path,
         default=ICON_DIR,
-        help="destination directory (default: %(default)s)",
+        help="block directory; summary TSVs go in its parent (default: %(default)s)",
     )
     args = parser.parse_args()
     try:
@@ -186,6 +228,7 @@ def main() -> None:
     except (OSError, ValueError, csv.Error) as error:
         parser.exit(1, f"error: {error}\n")
     print(f"Exported {count} Unicode blocks to {args.output_dir.resolve()}")
+    print(f"Exported blocks.tsv and unicode.tsv to {args.output_dir.resolve().parent}")
 
 
 if __name__ == "__main__":

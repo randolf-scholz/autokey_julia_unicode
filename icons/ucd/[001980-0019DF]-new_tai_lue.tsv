@@ -1,84 +1,84 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1980	ᦀ	1980..19DF	New Tai Lue	New tai lue letter high qa		
-U+1981	ᦁ	1980..19DF	New Tai Lue	New tai lue letter low qa		
-U+1982	ᦂ	1980..19DF	New Tai Lue	New tai lue letter high ka		
-U+1983	ᦃ	1980..19DF	New Tai Lue	New tai lue letter high xa		
-U+1984	ᦄ	1980..19DF	New Tai Lue	New tai lue letter high nga		
-U+1985	ᦅ	1980..19DF	New Tai Lue	New tai lue letter low ka		
-U+1986	ᦆ	1980..19DF	New Tai Lue	New tai lue letter low xa		
-U+1987	ᦇ	1980..19DF	New Tai Lue	New tai lue letter low nga		
-U+1988	ᦈ	1980..19DF	New Tai Lue	New tai lue letter high tsa		
-U+1989	ᦉ	1980..19DF	New Tai Lue	New tai lue letter high sa		
-U+198A	ᦊ	1980..19DF	New Tai Lue	New tai lue letter high ya		
-U+198B	ᦋ	1980..19DF	New Tai Lue	New tai lue letter low tsa		
-U+198C	ᦌ	1980..19DF	New Tai Lue	New tai lue letter low sa		
-U+198D	ᦍ	1980..19DF	New Tai Lue	New tai lue letter low ya		
-U+198E	ᦎ	1980..19DF	New Tai Lue	New tai lue letter high ta		
-U+198F	ᦏ	1980..19DF	New Tai Lue	New tai lue letter high tha		
-U+1990	ᦐ	1980..19DF	New Tai Lue	New tai lue letter high na		
-U+1991	ᦑ	1980..19DF	New Tai Lue	New tai lue letter low ta		
-U+1992	ᦒ	1980..19DF	New Tai Lue	New tai lue letter low tha		
-U+1993	ᦓ	1980..19DF	New Tai Lue	New tai lue letter low na		
-U+1994	ᦔ	1980..19DF	New Tai Lue	New tai lue letter high pa		
-U+1995	ᦕ	1980..19DF	New Tai Lue	New tai lue letter high pha		
-U+1996	ᦖ	1980..19DF	New Tai Lue	New tai lue letter high ma		
-U+1997	ᦗ	1980..19DF	New Tai Lue	New tai lue letter low pa		
-U+1998	ᦘ	1980..19DF	New Tai Lue	New tai lue letter low pha		
-U+1999	ᦙ	1980..19DF	New Tai Lue	New tai lue letter low ma		
-U+199A	ᦚ	1980..19DF	New Tai Lue	New tai lue letter high fa		
-U+199B	ᦛ	1980..19DF	New Tai Lue	New tai lue letter high va		
-U+199C	ᦜ	1980..19DF	New Tai Lue	New tai lue letter high la		
-U+199D	ᦝ	1980..19DF	New Tai Lue	New tai lue letter low fa		
-U+199E	ᦞ	1980..19DF	New Tai Lue	New tai lue letter low va		
-U+199F	ᦟ	1980..19DF	New Tai Lue	New tai lue letter low la		
-U+19A0	ᦠ	1980..19DF	New Tai Lue	New tai lue letter high ha		
-U+19A1	ᦡ	1980..19DF	New Tai Lue	New tai lue letter high da		
-U+19A2	ᦢ	1980..19DF	New Tai Lue	New tai lue letter high ba		
-U+19A3	ᦣ	1980..19DF	New Tai Lue	New tai lue letter low ha		
-U+19A4	ᦤ	1980..19DF	New Tai Lue	New tai lue letter low da		
-U+19A5	ᦥ	1980..19DF	New Tai Lue	New tai lue letter low ba		
-U+19A6	ᦦ	1980..19DF	New Tai Lue	New tai lue letter high kva		
-U+19A7	ᦧ	1980..19DF	New Tai Lue	New tai lue letter high xva		
-U+19A8	ᦨ	1980..19DF	New Tai Lue	New tai lue letter low kva		
-U+19A9	ᦩ	1980..19DF	New Tai Lue	New tai lue letter low xva		
-U+19AA	ᦪ	1980..19DF	New Tai Lue	New tai lue letter high sua		
-U+19AB	ᦫ	1980..19DF	New Tai Lue	New tai lue letter low sua		
-U+19B0	ᦰ	1980..19DF	New Tai Lue	New tai lue vowel sign vowel shortener		
-U+19B1	ᦱ	1980..19DF	New Tai Lue	New tai lue vowel sign aa		
-U+19B2	ᦲ	1980..19DF	New Tai Lue	New tai lue vowel sign ii		
-U+19B3	ᦳ	1980..19DF	New Tai Lue	New tai lue vowel sign u		
-U+19B4	ᦴ	1980..19DF	New Tai Lue	New tai lue vowel sign uu		
-U+19B5	ᦵ	1980..19DF	New Tai Lue	New tai lue vowel sign e		
-U+19B6	ᦶ	1980..19DF	New Tai Lue	New tai lue vowel sign ae		
-U+19B7	ᦷ	1980..19DF	New Tai Lue	New tai lue vowel sign o		
-U+19B8	ᦸ	1980..19DF	New Tai Lue	New tai lue vowel sign oa		
-U+19B9	ᦹ	1980..19DF	New Tai Lue	New tai lue vowel sign ue		
-U+19BA	ᦺ	1980..19DF	New Tai Lue	New tai lue vowel sign ay		
-U+19BB	ᦻ	1980..19DF	New Tai Lue	New tai lue vowel sign aay		
-U+19BC	ᦼ	1980..19DF	New Tai Lue	New tai lue vowel sign uy		
-U+19BD	ᦽ	1980..19DF	New Tai Lue	New tai lue vowel sign oy		
-U+19BE	ᦾ	1980..19DF	New Tai Lue	New tai lue vowel sign oay		
-U+19BF	ᦿ	1980..19DF	New Tai Lue	New tai lue vowel sign uey		
-U+19C0	ᧀ	1980..19DF	New Tai Lue	New tai lue vowel sign iy		
-U+19C1	ᧁ	1980..19DF	New Tai Lue	New tai lue letter final v		
-U+19C2	ᧂ	1980..19DF	New Tai Lue	New tai lue letter final ng		
-U+19C3	ᧃ	1980..19DF	New Tai Lue	New tai lue letter final n		
-U+19C4	ᧄ	1980..19DF	New Tai Lue	New tai lue letter final m		
-U+19C5	ᧅ	1980..19DF	New Tai Lue	New tai lue letter final k		
-U+19C6	ᧆ	1980..19DF	New Tai Lue	New tai lue letter final d		
-U+19C7	ᧇ	1980..19DF	New Tai Lue	New tai lue letter final b		
-U+19C8	ᧈ	1980..19DF	New Tai Lue	New tai lue tone mark-1		
-U+19C9	ᧉ	1980..19DF	New Tai Lue	New tai lue tone mark-2		
-U+19D0	᧐	1980..19DF	New Tai Lue	New tai lue digit zero		
-U+19D1	᧑	1980..19DF	New Tai Lue	New tai lue digit one		
-U+19D2	᧒	1980..19DF	New Tai Lue	New tai lue digit two		
-U+19D3	᧓	1980..19DF	New Tai Lue	New tai lue digit three		
-U+19D4	᧔	1980..19DF	New Tai Lue	New tai lue digit four		
-U+19D5	᧕	1980..19DF	New Tai Lue	New tai lue digit five		
-U+19D6	᧖	1980..19DF	New Tai Lue	New tai lue digit six		
-U+19D7	᧗	1980..19DF	New Tai Lue	New tai lue digit seven		
-U+19D8	᧘	1980..19DF	New Tai Lue	New tai lue digit eight		
-U+19D9	᧙	1980..19DF	New Tai Lue	New tai lue digit nine		
-U+19DA	᧚	1980..19DF	New Tai Lue	New tai lue tham digit one		
-U+19DE	᧞	1980..19DF	New Tai Lue	New tai lue sign lae		
-U+19DF	᧟	1980..19DF	New Tai Lue	New tai lue sign laev		
+code_points	chars	tab_completions	unicode_name	base
+U+1980	ᦀ		NEW TAI LUE LETTER HIGH QA	
+U+1981	ᦁ		NEW TAI LUE LETTER LOW QA	
+U+1982	ᦂ		NEW TAI LUE LETTER HIGH KA	
+U+1983	ᦃ		NEW TAI LUE LETTER HIGH XA	
+U+1984	ᦄ		NEW TAI LUE LETTER HIGH NGA	
+U+1985	ᦅ		NEW TAI LUE LETTER LOW KA	
+U+1986	ᦆ		NEW TAI LUE LETTER LOW XA	
+U+1987	ᦇ		NEW TAI LUE LETTER LOW NGA	
+U+1988	ᦈ		NEW TAI LUE LETTER HIGH TSA	
+U+1989	ᦉ		NEW TAI LUE LETTER HIGH SA	
+U+198A	ᦊ		NEW TAI LUE LETTER HIGH YA	
+U+198B	ᦋ		NEW TAI LUE LETTER LOW TSA	
+U+198C	ᦌ		NEW TAI LUE LETTER LOW SA	
+U+198D	ᦍ		NEW TAI LUE LETTER LOW YA	
+U+198E	ᦎ		NEW TAI LUE LETTER HIGH TA	
+U+198F	ᦏ		NEW TAI LUE LETTER HIGH THA	
+U+1990	ᦐ		NEW TAI LUE LETTER HIGH NA	
+U+1991	ᦑ		NEW TAI LUE LETTER LOW TA	
+U+1992	ᦒ		NEW TAI LUE LETTER LOW THA	
+U+1993	ᦓ		NEW TAI LUE LETTER LOW NA	
+U+1994	ᦔ		NEW TAI LUE LETTER HIGH PA	
+U+1995	ᦕ		NEW TAI LUE LETTER HIGH PHA	
+U+1996	ᦖ		NEW TAI LUE LETTER HIGH MA	
+U+1997	ᦗ		NEW TAI LUE LETTER LOW PA	
+U+1998	ᦘ		NEW TAI LUE LETTER LOW PHA	
+U+1999	ᦙ		NEW TAI LUE LETTER LOW MA	
+U+199A	ᦚ		NEW TAI LUE LETTER HIGH FA	
+U+199B	ᦛ		NEW TAI LUE LETTER HIGH VA	
+U+199C	ᦜ		NEW TAI LUE LETTER HIGH LA	
+U+199D	ᦝ		NEW TAI LUE LETTER LOW FA	
+U+199E	ᦞ		NEW TAI LUE LETTER LOW VA	
+U+199F	ᦟ		NEW TAI LUE LETTER LOW LA	
+U+19A0	ᦠ		NEW TAI LUE LETTER HIGH HA	
+U+19A1	ᦡ		NEW TAI LUE LETTER HIGH DA	
+U+19A2	ᦢ		NEW TAI LUE LETTER HIGH BA	
+U+19A3	ᦣ		NEW TAI LUE LETTER LOW HA	
+U+19A4	ᦤ		NEW TAI LUE LETTER LOW DA	
+U+19A5	ᦥ		NEW TAI LUE LETTER LOW BA	
+U+19A6	ᦦ		NEW TAI LUE LETTER HIGH KVA	
+U+19A7	ᦧ		NEW TAI LUE LETTER HIGH XVA	
+U+19A8	ᦨ		NEW TAI LUE LETTER LOW KVA	
+U+19A9	ᦩ		NEW TAI LUE LETTER LOW XVA	
+U+19AA	ᦪ		NEW TAI LUE LETTER HIGH SUA	
+U+19AB	ᦫ		NEW TAI LUE LETTER LOW SUA	
+U+19B0	ᦰ		NEW TAI LUE VOWEL SIGN VOWEL SHORTENER	
+U+19B1	ᦱ		NEW TAI LUE VOWEL SIGN AA	
+U+19B2	ᦲ		NEW TAI LUE VOWEL SIGN II	
+U+19B3	ᦳ		NEW TAI LUE VOWEL SIGN U	
+U+19B4	ᦴ		NEW TAI LUE VOWEL SIGN UU	
+U+19B5	ᦵ		NEW TAI LUE VOWEL SIGN E	
+U+19B6	ᦶ		NEW TAI LUE VOWEL SIGN AE	
+U+19B7	ᦷ		NEW TAI LUE VOWEL SIGN O	
+U+19B8	ᦸ		NEW TAI LUE VOWEL SIGN OA	
+U+19B9	ᦹ		NEW TAI LUE VOWEL SIGN UE	
+U+19BA	ᦺ		NEW TAI LUE VOWEL SIGN AY	
+U+19BB	ᦻ		NEW TAI LUE VOWEL SIGN AAY	
+U+19BC	ᦼ		NEW TAI LUE VOWEL SIGN UY	
+U+19BD	ᦽ		NEW TAI LUE VOWEL SIGN OY	
+U+19BE	ᦾ		NEW TAI LUE VOWEL SIGN OAY	
+U+19BF	ᦿ		NEW TAI LUE VOWEL SIGN UEY	
+U+19C0	ᧀ		NEW TAI LUE VOWEL SIGN IY	
+U+19C1	ᧁ		NEW TAI LUE LETTER FINAL V	
+U+19C2	ᧂ		NEW TAI LUE LETTER FINAL NG	
+U+19C3	ᧃ		NEW TAI LUE LETTER FINAL N	
+U+19C4	ᧄ		NEW TAI LUE LETTER FINAL M	
+U+19C5	ᧅ		NEW TAI LUE LETTER FINAL K	
+U+19C6	ᧆ		NEW TAI LUE LETTER FINAL D	
+U+19C7	ᧇ		NEW TAI LUE LETTER FINAL B	
+U+19C8	ᧈ		NEW TAI LUE TONE MARK-1	
+U+19C9	ᧉ		NEW TAI LUE TONE MARK-2	
+U+19D0	᧐		NEW TAI LUE DIGIT ZERO	
+U+19D1	᧑		NEW TAI LUE DIGIT ONE	
+U+19D2	᧒		NEW TAI LUE DIGIT TWO	
+U+19D3	᧓		NEW TAI LUE DIGIT THREE	
+U+19D4	᧔		NEW TAI LUE DIGIT FOUR	
+U+19D5	᧕		NEW TAI LUE DIGIT FIVE	
+U+19D6	᧖		NEW TAI LUE DIGIT SIX	
+U+19D7	᧗		NEW TAI LUE DIGIT SEVEN	
+U+19D8	᧘		NEW TAI LUE DIGIT EIGHT	
+U+19D9	᧙		NEW TAI LUE DIGIT NINE	
+U+19DA	᧚		NEW TAI LUE THAM DIGIT ONE	
+U+19DE	᧞		NEW TAI LUE SIGN LAE	
+U+19DF	᧟		NEW TAI LUE SIGN LAEV	

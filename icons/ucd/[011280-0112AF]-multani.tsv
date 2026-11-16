@@ -1,39 +1,39 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11280	𑊀	11280..112AF	Multani	Multani letter a		
-U+11281	𑊁	11280..112AF	Multani	Multani letter i		
-U+11282	𑊂	11280..112AF	Multani	Multani letter u		
-U+11283	𑊃	11280..112AF	Multani	Multani letter e		
-U+11284	𑊄	11280..112AF	Multani	Multani letter ka		
-U+11285	𑊅	11280..112AF	Multani	Multani letter kha		
-U+11286	𑊆	11280..112AF	Multani	Multani letter ga		
-U+11288	𑊈	11280..112AF	Multani	Multani letter gha		
-U+1128A	𑊊	11280..112AF	Multani	Multani letter ca		
-U+1128B	𑊋	11280..112AF	Multani	Multani letter cha		
-U+1128C	𑊌	11280..112AF	Multani	Multani letter ja		
-U+1128D	𑊍	11280..112AF	Multani	Multani letter jja		
-U+1128F	𑊏	11280..112AF	Multani	Multani letter nya		
-U+11290	𑊐	11280..112AF	Multani	Multani letter tta		
-U+11291	𑊑	11280..112AF	Multani	Multani letter ttha		
-U+11292	𑊒	11280..112AF	Multani	Multani letter dda		
-U+11293	𑊓	11280..112AF	Multani	Multani letter ddda		
-U+11294	𑊔	11280..112AF	Multani	Multani letter ddha		
-U+11295	𑊕	11280..112AF	Multani	Multani letter nna		
-U+11296	𑊖	11280..112AF	Multani	Multani letter ta		
-U+11297	𑊗	11280..112AF	Multani	Multani letter tha		
-U+11298	𑊘	11280..112AF	Multani	Multani letter da		
-U+11299	𑊙	11280..112AF	Multani	Multani letter dha		
-U+1129A	𑊚	11280..112AF	Multani	Multani letter na		
-U+1129B	𑊛	11280..112AF	Multani	Multani letter pa		
-U+1129C	𑊜	11280..112AF	Multani	Multani letter pha		
-U+1129D	𑊝	11280..112AF	Multani	Multani letter ba		
-U+1129F	𑊟	11280..112AF	Multani	Multani letter bha		
-U+112A0	𑊠	11280..112AF	Multani	Multani letter ma		
-U+112A1	𑊡	11280..112AF	Multani	Multani letter ya		
-U+112A2	𑊢	11280..112AF	Multani	Multani letter ra		
-U+112A3	𑊣	11280..112AF	Multani	Multani letter la		
-U+112A4	𑊤	11280..112AF	Multani	Multani letter va		
-U+112A5	𑊥	11280..112AF	Multani	Multani letter sa		
-U+112A6	𑊦	11280..112AF	Multani	Multani letter ha		
-U+112A7	𑊧	11280..112AF	Multani	Multani letter rra		
-U+112A8	𑊨	11280..112AF	Multani	Multani letter rha		
-U+112A9	𑊩	11280..112AF	Multani	Multani section mark		
+code_points	chars	tab_completions	unicode_name	base
+U+11280	𑊀		MULTANI LETTER A	
+U+11281	𑊁		MULTANI LETTER I	
+U+11282	𑊂		MULTANI LETTER U	
+U+11283	𑊃		MULTANI LETTER E	
+U+11284	𑊄		MULTANI LETTER KA	
+U+11285	𑊅		MULTANI LETTER KHA	
+U+11286	𑊆		MULTANI LETTER GA	
+U+11288	𑊈		MULTANI LETTER GHA	
+U+1128A	𑊊		MULTANI LETTER CA	
+U+1128B	𑊋		MULTANI LETTER CHA	
+U+1128C	𑊌		MULTANI LETTER JA	
+U+1128D	𑊍		MULTANI LETTER JJA	
+U+1128F	𑊏		MULTANI LETTER NYA	
+U+11290	𑊐		MULTANI LETTER TTA	
+U+11291	𑊑		MULTANI LETTER TTHA	
+U+11292	𑊒		MULTANI LETTER DDA	
+U+11293	𑊓		MULTANI LETTER DDDA	
+U+11294	𑊔		MULTANI LETTER DDHA	
+U+11295	𑊕		MULTANI LETTER NNA	
+U+11296	𑊖		MULTANI LETTER TA	
+U+11297	𑊗		MULTANI LETTER THA	
+U+11298	𑊘		MULTANI LETTER DA	
+U+11299	𑊙		MULTANI LETTER DHA	
+U+1129A	𑊚		MULTANI LETTER NA	
+U+1129B	𑊛		MULTANI LETTER PA	
+U+1129C	𑊜		MULTANI LETTER PHA	
+U+1129D	𑊝		MULTANI LETTER BA	
+U+1129F	𑊟		MULTANI LETTER BHA	
+U+112A0	𑊠		MULTANI LETTER MA	
+U+112A1	𑊡		MULTANI LETTER YA	
+U+112A2	𑊢		MULTANI LETTER RA	
+U+112A3	𑊣		MULTANI LETTER LA	
+U+112A4	𑊤		MULTANI LETTER VA	
+U+112A5	𑊥		MULTANI LETTER SA	
+U+112A6	𑊦		MULTANI LETTER HA	
+U+112A7	𑊧		MULTANI LETTER RRA	
+U+112A8	𑊨		MULTANI LETTER RHA	
+U+112A9	𑊩		MULTANI SECTION MARK	

@@ -1,129 +1,129 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2500	─	2500..257F	Box Drawing	Box drawings light horizontal		
-U+2501	━	2500..257F	Box Drawing	Box drawings heavy horizontal		
-U+2502	│	2500..257F	Box Drawing	Box drawings light vertical		
-U+2503	┃	2500..257F	Box Drawing	Box drawings heavy vertical		
-U+2504	┄	2500..257F	Box Drawing	Box drawings light triple dash horizontal		
-U+2505	┅	2500..257F	Box Drawing	Box drawings heavy triple dash horizontal		
-U+2506	┆	2500..257F	Box Drawing	Box drawings light triple dash vertical		
-U+2507	┇	2500..257F	Box Drawing	Box drawings heavy triple dash vertical		
-U+2508	┈	2500..257F	Box Drawing	Box drawings light quadruple dash horizontal		
-U+2509	┉	2500..257F	Box Drawing	Box drawings heavy quadruple dash horizontal		
-U+250A	┊	2500..257F	Box Drawing	Box drawings light quadruple dash vertical		
-U+250B	┋	2500..257F	Box Drawing	Box drawings heavy quadruple dash vertical		
-U+250C	┌	2500..257F	Box Drawing	Box drawings light down and right		
-U+250D	┍	2500..257F	Box Drawing	Box drawings down light and right heavy		
-U+250E	┎	2500..257F	Box Drawing	Box drawings down heavy and right light		
-U+250F	┏	2500..257F	Box Drawing	Box drawings heavy down and right		
-U+2510	┐	2500..257F	Box Drawing	Box drawings light down and left		
-U+2511	┑	2500..257F	Box Drawing	Box drawings down light and left heavy		
-U+2512	┒	2500..257F	Box Drawing	Box drawings down heavy and left light		
-U+2513	┓	2500..257F	Box Drawing	Box drawings heavy down and left		
-U+2514	└	2500..257F	Box Drawing	Box drawings light up and right		
-U+2515	┕	2500..257F	Box Drawing	Box drawings up light and right heavy		
-U+2516	┖	2500..257F	Box Drawing	Box drawings up heavy and right light		
-U+2517	┗	2500..257F	Box Drawing	Box drawings heavy up and right		
-U+2518	┘	2500..257F	Box Drawing	Box drawings light up and left		
-U+2519	┙	2500..257F	Box Drawing	Box drawings up light and left heavy		
-U+251A	┚	2500..257F	Box Drawing	Box drawings up heavy and left light		
-U+251B	┛	2500..257F	Box Drawing	Box drawings heavy up and left		
-U+251C	├	2500..257F	Box Drawing	Box drawings light vertical and right		
-U+251D	┝	2500..257F	Box Drawing	Box drawings vertical light and right heavy		
-U+251E	┞	2500..257F	Box Drawing	Box drawings up heavy and right down light		
-U+251F	┟	2500..257F	Box Drawing	Box drawings down heavy and right up light		
-U+2520	┠	2500..257F	Box Drawing	Box drawings vertical heavy and right light		
-U+2521	┡	2500..257F	Box Drawing	Box drawings down light and right up heavy		
-U+2522	┢	2500..257F	Box Drawing	Box drawings up light and right down heavy		
-U+2523	┣	2500..257F	Box Drawing	Box drawings heavy vertical and right		
-U+2524	┤	2500..257F	Box Drawing	Box drawings light vertical and left		
-U+2525	┥	2500..257F	Box Drawing	Box drawings vertical light and left heavy		
-U+2526	┦	2500..257F	Box Drawing	Box drawings up heavy and left down light		
-U+2527	┧	2500..257F	Box Drawing	Box drawings down heavy and left up light		
-U+2528	┨	2500..257F	Box Drawing	Box drawings vertical heavy and left light		
-U+2529	┩	2500..257F	Box Drawing	Box drawings down light and left up heavy		
-U+252A	┪	2500..257F	Box Drawing	Box drawings up light and left down heavy		
-U+252B	┫	2500..257F	Box Drawing	Box drawings heavy vertical and left		
-U+252C	┬	2500..257F	Box Drawing	Box drawings light down and horizontal		
-U+252D	┭	2500..257F	Box Drawing	Box drawings left heavy and right down light		
-U+252E	┮	2500..257F	Box Drawing	Box drawings right heavy and left down light		
-U+252F	┯	2500..257F	Box Drawing	Box drawings down light and horizontal heavy		
-U+2530	┰	2500..257F	Box Drawing	Box drawings down heavy and horizontal light		
-U+2531	┱	2500..257F	Box Drawing	Box drawings right light and left down heavy		
-U+2532	┲	2500..257F	Box Drawing	Box drawings left light and right down heavy		
-U+2533	┳	2500..257F	Box Drawing	Box drawings heavy down and horizontal		
-U+2534	┴	2500..257F	Box Drawing	Box drawings light up and horizontal		
-U+2535	┵	2500..257F	Box Drawing	Box drawings left heavy and right up light		
-U+2536	┶	2500..257F	Box Drawing	Box drawings right heavy and left up light		
-U+2537	┷	2500..257F	Box Drawing	Box drawings up light and horizontal heavy		
-U+2538	┸	2500..257F	Box Drawing	Box drawings up heavy and horizontal light		
-U+2539	┹	2500..257F	Box Drawing	Box drawings right light and left up heavy		
-U+253A	┺	2500..257F	Box Drawing	Box drawings left light and right up heavy		
-U+253B	┻	2500..257F	Box Drawing	Box drawings heavy up and horizontal		
-U+253C	┼	2500..257F	Box Drawing	Box drawings light vertical and horizontal		
-U+253D	┽	2500..257F	Box Drawing	Box drawings left heavy and right vertical light		
-U+253E	┾	2500..257F	Box Drawing	Box drawings right heavy and left vertical light		
-U+253F	┿	2500..257F	Box Drawing	Box drawings vertical light and horizontal heavy		
-U+2540	╀	2500..257F	Box Drawing	Box drawings up heavy and down horizontal light		
-U+2541	╁	2500..257F	Box Drawing	Box drawings down heavy and up horizontal light		
-U+2542	╂	2500..257F	Box Drawing	Box drawings vertical heavy and horizontal light		
-U+2543	╃	2500..257F	Box Drawing	Box drawings left up heavy and right down light		
-U+2544	╄	2500..257F	Box Drawing	Box drawings right up heavy and left down light		
-U+2545	╅	2500..257F	Box Drawing	Box drawings left down heavy and right up light		
-U+2546	╆	2500..257F	Box Drawing	Box drawings right down heavy and left up light		
-U+2547	╇	2500..257F	Box Drawing	Box drawings down light and up horizontal heavy		
-U+2548	╈	2500..257F	Box Drawing	Box drawings up light and down horizontal heavy		
-U+2549	╉	2500..257F	Box Drawing	Box drawings right light and left vertical heavy		
-U+254A	╊	2500..257F	Box Drawing	Box drawings left light and right vertical heavy		
-U+254B	╋	2500..257F	Box Drawing	Box drawings heavy vertical and horizontal		
-U+254C	╌	2500..257F	Box Drawing	Box drawings light double dash horizontal		
-U+254D	╍	2500..257F	Box Drawing	Box drawings heavy double dash horizontal		
-U+254E	╎	2500..257F	Box Drawing	Box drawings light double dash vertical		
-U+254F	╏	2500..257F	Box Drawing	Box drawings heavy double dash vertical		
-U+2550	═	2500..257F	Box Drawing	Box drawings double horizontal		
-U+2551	║	2500..257F	Box Drawing	Box drawings double vertical		
-U+2552	╒	2500..257F	Box Drawing	Box drawings down single and right double		
-U+2553	╓	2500..257F	Box Drawing	Box drawings down double and right single		
-U+2554	╔	2500..257F	Box Drawing	Box drawings double down and right		
-U+2555	╕	2500..257F	Box Drawing	Box drawings down single and left double		
-U+2556	╖	2500..257F	Box Drawing	Box drawings down double and left single		
-U+2557	╗	2500..257F	Box Drawing	Box drawings double down and left		
-U+2558	╘	2500..257F	Box Drawing	Box drawings up single and right double		
-U+2559	╙	2500..257F	Box Drawing	Box drawings up double and right single		
-U+255A	╚	2500..257F	Box Drawing	Box drawings double up and right		
-U+255B	╛	2500..257F	Box Drawing	Box drawings up single and left double		
-U+255C	╜	2500..257F	Box Drawing	Box drawings up double and left single		
-U+255D	╝	2500..257F	Box Drawing	Box drawings double up and left		
-U+255E	╞	2500..257F	Box Drawing	Box drawings vertical single and right double		
-U+255F	╟	2500..257F	Box Drawing	Box drawings vertical double and right single		
-U+2560	╠	2500..257F	Box Drawing	Box drawings double vertical and right		
-U+2561	╡	2500..257F	Box Drawing	Box drawings vertical single and left double		
-U+2562	╢	2500..257F	Box Drawing	Box drawings vertical double and left single		
-U+2563	╣	2500..257F	Box Drawing	Box drawings double vertical and left		
-U+2564	╤	2500..257F	Box Drawing	Box drawings down single and horizontal double		
-U+2565	╥	2500..257F	Box Drawing	Box drawings down double and horizontal single		
-U+2566	╦	2500..257F	Box Drawing	Box drawings double down and horizontal		
-U+2567	╧	2500..257F	Box Drawing	Box drawings up single and horizontal double		
-U+2568	╨	2500..257F	Box Drawing	Box drawings up double and horizontal single		
-U+2569	╩	2500..257F	Box Drawing	Box drawings double up and horizontal		
-U+256A	╪	2500..257F	Box Drawing	Box drawings vertical single and horizontal double		
-U+256B	╫	2500..257F	Box Drawing	Box drawings vertical double and horizontal single		
-U+256C	╬	2500..257F	Box Drawing	Box drawings double vertical and horizontal		
-U+256D	╭	2500..257F	Box Drawing	Box drawings light arc down and right		
-U+256E	╮	2500..257F	Box Drawing	Box drawings light arc down and left		
-U+256F	╯	2500..257F	Box Drawing	Box drawings light arc up and left		
-U+2570	╰	2500..257F	Box Drawing	Box drawings light arc up and right		
-U+2571	╱	2500..257F	Box Drawing	Box drawings light diagonal upper right to lower left		
-U+2572	╲	2500..257F	Box Drawing	Box drawings light diagonal upper left to lower right		
-U+2573	╳	2500..257F	Box Drawing	Box drawings light diagonal cross		
-U+2574	╴	2500..257F	Box Drawing	Box drawings light left		
-U+2575	╵	2500..257F	Box Drawing	Box drawings light up		
-U+2576	╶	2500..257F	Box Drawing	Box drawings light right		
-U+2577	╷	2500..257F	Box Drawing	Box drawings light down		
-U+2578	╸	2500..257F	Box Drawing	Box drawings heavy left		
-U+2579	╹	2500..257F	Box Drawing	Box drawings heavy up		
-U+257A	╺	2500..257F	Box Drawing	Box drawings heavy right		
-U+257B	╻	2500..257F	Box Drawing	Box drawings heavy down		
-U+257C	╼	2500..257F	Box Drawing	Box drawings light left and heavy right		
-U+257D	╽	2500..257F	Box Drawing	Box drawings light up and heavy down		
-U+257E	╾	2500..257F	Box Drawing	Box drawings heavy left and light right		
-U+257F	╿	2500..257F	Box Drawing	Box drawings heavy up and light down		
+code_points	chars	tab_completions	unicode_name	base
+U+2500	─		BOX DRAWINGS LIGHT HORIZONTAL	
+U+2501	━		BOX DRAWINGS HEAVY HORIZONTAL	
+U+2502	│		BOX DRAWINGS LIGHT VERTICAL	
+U+2503	┃		BOX DRAWINGS HEAVY VERTICAL	
+U+2504	┄		BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL	
+U+2505	┅		BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL	
+U+2506	┆		BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL	
+U+2507	┇		BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL	
+U+2508	┈		BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL	
+U+2509	┉		BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL	
+U+250A	┊		BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL	
+U+250B	┋		BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL	
+U+250C	┌		BOX DRAWINGS LIGHT DOWN AND RIGHT	
+U+250D	┍		BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY	
+U+250E	┎		BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT	
+U+250F	┏		BOX DRAWINGS HEAVY DOWN AND RIGHT	
+U+2510	┐		BOX DRAWINGS LIGHT DOWN AND LEFT	
+U+2511	┑		BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY	
+U+2512	┒		BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT	
+U+2513	┓		BOX DRAWINGS HEAVY DOWN AND LEFT	
+U+2514	└		BOX DRAWINGS LIGHT UP AND RIGHT	
+U+2515	┕		BOX DRAWINGS UP LIGHT AND RIGHT HEAVY	
+U+2516	┖		BOX DRAWINGS UP HEAVY AND RIGHT LIGHT	
+U+2517	┗		BOX DRAWINGS HEAVY UP AND RIGHT	
+U+2518	┘		BOX DRAWINGS LIGHT UP AND LEFT	
+U+2519	┙		BOX DRAWINGS UP LIGHT AND LEFT HEAVY	
+U+251A	┚		BOX DRAWINGS UP HEAVY AND LEFT LIGHT	
+U+251B	┛		BOX DRAWINGS HEAVY UP AND LEFT	
+U+251C	├		BOX DRAWINGS LIGHT VERTICAL AND RIGHT	
+U+251D	┝		BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY	
+U+251E	┞		BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT	
+U+251F	┟		BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT	
+U+2520	┠		BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT	
+U+2521	┡		BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY	
+U+2522	┢		BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY	
+U+2523	┣		BOX DRAWINGS HEAVY VERTICAL AND RIGHT	
+U+2524	┤		BOX DRAWINGS LIGHT VERTICAL AND LEFT	
+U+2525	┥		BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY	
+U+2526	┦		BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT	
+U+2527	┧		BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT	
+U+2528	┨		BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT	
+U+2529	┩		BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY	
+U+252A	┪		BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY	
+U+252B	┫		BOX DRAWINGS HEAVY VERTICAL AND LEFT	
+U+252C	┬		BOX DRAWINGS LIGHT DOWN AND HORIZONTAL	
+U+252D	┭		BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT	
+U+252E	┮		BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT	
+U+252F	┯		BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY	
+U+2530	┰		BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT	
+U+2531	┱		BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY	
+U+2532	┲		BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY	
+U+2533	┳		BOX DRAWINGS HEAVY DOWN AND HORIZONTAL	
+U+2534	┴		BOX DRAWINGS LIGHT UP AND HORIZONTAL	
+U+2535	┵		BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT	
+U+2536	┶		BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT	
+U+2537	┷		BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY	
+U+2538	┸		BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT	
+U+2539	┹		BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY	
+U+253A	┺		BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY	
+U+253B	┻		BOX DRAWINGS HEAVY UP AND HORIZONTAL	
+U+253C	┼		BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL	
+U+253D	┽		BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT	
+U+253E	┾		BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT	
+U+253F	┿		BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY	
+U+2540	╀		BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT	
+U+2541	╁		BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT	
+U+2542	╂		BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT	
+U+2543	╃		BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT	
+U+2544	╄		BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT	
+U+2545	╅		BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT	
+U+2546	╆		BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT	
+U+2547	╇		BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY	
+U+2548	╈		BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY	
+U+2549	╉		BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY	
+U+254A	╊		BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY	
+U+254B	╋		BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL	
+U+254C	╌		BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL	
+U+254D	╍		BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL	
+U+254E	╎		BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL	
+U+254F	╏		BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL	
+U+2550	═		BOX DRAWINGS DOUBLE HORIZONTAL	
+U+2551	║		BOX DRAWINGS DOUBLE VERTICAL	
+U+2552	╒		BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE	
+U+2553	╓		BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE	
+U+2554	╔		BOX DRAWINGS DOUBLE DOWN AND RIGHT	
+U+2555	╕		BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE	
+U+2556	╖		BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE	
+U+2557	╗		BOX DRAWINGS DOUBLE DOWN AND LEFT	
+U+2558	╘		BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE	
+U+2559	╙		BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE	
+U+255A	╚		BOX DRAWINGS DOUBLE UP AND RIGHT	
+U+255B	╛		BOX DRAWINGS UP SINGLE AND LEFT DOUBLE	
+U+255C	╜		BOX DRAWINGS UP DOUBLE AND LEFT SINGLE	
+U+255D	╝		BOX DRAWINGS DOUBLE UP AND LEFT	
+U+255E	╞		BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE	
+U+255F	╟		BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE	
+U+2560	╠		BOX DRAWINGS DOUBLE VERTICAL AND RIGHT	
+U+2561	╡		BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE	
+U+2562	╢		BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE	
+U+2563	╣		BOX DRAWINGS DOUBLE VERTICAL AND LEFT	
+U+2564	╤		BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE	
+U+2565	╥		BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE	
+U+2566	╦		BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL	
+U+2567	╧		BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE	
+U+2568	╨		BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE	
+U+2569	╩		BOX DRAWINGS DOUBLE UP AND HORIZONTAL	
+U+256A	╪		BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE	
+U+256B	╫		BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE	
+U+256C	╬		BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL	
+U+256D	╭		BOX DRAWINGS LIGHT ARC DOWN AND RIGHT	
+U+256E	╮		BOX DRAWINGS LIGHT ARC DOWN AND LEFT	
+U+256F	╯		BOX DRAWINGS LIGHT ARC UP AND LEFT	
+U+2570	╰		BOX DRAWINGS LIGHT ARC UP AND RIGHT	
+U+2571	╱		BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT	
+U+2572	╲		BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT	
+U+2573	╳		BOX DRAWINGS LIGHT DIAGONAL CROSS	
+U+2574	╴		BOX DRAWINGS LIGHT LEFT	
+U+2575	╵		BOX DRAWINGS LIGHT UP	
+U+2576	╶		BOX DRAWINGS LIGHT RIGHT	
+U+2577	╷		BOX DRAWINGS LIGHT DOWN	
+U+2578	╸		BOX DRAWINGS HEAVY LEFT	
+U+2579	╹		BOX DRAWINGS HEAVY UP	
+U+257A	╺		BOX DRAWINGS HEAVY RIGHT	
+U+257B	╻		BOX DRAWINGS HEAVY DOWN	
+U+257C	╼		BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT	
+U+257D	╽		BOX DRAWINGS LIGHT UP AND HEAVY DOWN	
+U+257E	╾		BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT	
+U+257F	╿		BOX DRAWINGS HEAVY UP AND LIGHT DOWN	

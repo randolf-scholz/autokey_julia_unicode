@@ -1,61 +1,61 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2150	⅐	2150..218F	Number Forms	Vulgar fraction one seventh		
-U+2151	⅑	2150..218F	Number Forms	Vulgar fraction one ninth		
-U+2152	⅒	2150..218F	Number Forms	Vulgar fraction one tenth		
-U+2153	⅓	2150..218F	Number Forms	Vulgar fraction one third		
-U+2154	⅔	2150..218F	Number Forms	Vulgar fraction two thirds		
-U+2155	⅕	2150..218F	Number Forms	Vulgar fraction one fifth		
-U+2156	⅖	2150..218F	Number Forms	Vulgar fraction two fifths		
-U+2157	⅗	2150..218F	Number Forms	Vulgar fraction three fifths		
-U+2158	⅘	2150..218F	Number Forms	Vulgar fraction four fifths		
-U+2159	⅙	2150..218F	Number Forms	Vulgar fraction one sixth		
-U+215A	⅚	2150..218F	Number Forms	Vulgar fraction five sixths		
-U+215B	⅛	2150..218F	Number Forms	Vulgar fraction one eighth		
-U+215C	⅜	2150..218F	Number Forms	Vulgar fraction three eighths		
-U+215D	⅝	2150..218F	Number Forms	Vulgar fraction five eighths		
-U+215E	⅞	2150..218F	Number Forms	Vulgar fraction seven eighths		
-U+215F	⅟	2150..218F	Number Forms	Fraction numerator one		
-U+2160	Ⅰ	2150..218F	Number Forms	Roman numeral one		
-U+2161	Ⅱ	2150..218F	Number Forms	Roman numeral two		
-U+2162	Ⅲ	2150..218F	Number Forms	Roman numeral three		
-U+2163	Ⅳ	2150..218F	Number Forms	Roman numeral four		
-U+2164	Ⅴ	2150..218F	Number Forms	Roman numeral five		
-U+2165	Ⅵ	2150..218F	Number Forms	Roman numeral six		
-U+2166	Ⅶ	2150..218F	Number Forms	Roman numeral seven		
-U+2167	Ⅷ	2150..218F	Number Forms	Roman numeral eight		
-U+2168	Ⅸ	2150..218F	Number Forms	Roman numeral nine		
-U+2169	Ⅹ	2150..218F	Number Forms	Roman numeral ten		
-U+216A	Ⅺ	2150..218F	Number Forms	Roman numeral eleven		
-U+216B	Ⅻ	2150..218F	Number Forms	Roman numeral twelve		
-U+216C	Ⅼ	2150..218F	Number Forms	Roman numeral fifty		
-U+216D	Ⅽ	2150..218F	Number Forms	Roman numeral one hundred		
-U+216E	Ⅾ	2150..218F	Number Forms	Roman numeral five hundred		
-U+216F	Ⅿ	2150..218F	Number Forms	Roman numeral one thousand		
-U+2170	ⅰ	2150..218F	Number Forms	Small roman numeral one		
-U+2171	ⅱ	2150..218F	Number Forms	Small roman numeral two		
-U+2172	ⅲ	2150..218F	Number Forms	Small roman numeral three		
-U+2173	ⅳ	2150..218F	Number Forms	Small roman numeral four		
-U+2174	ⅴ	2150..218F	Number Forms	Small roman numeral five		
-U+2175	ⅵ	2150..218F	Number Forms	Small roman numeral six		
-U+2176	ⅶ	2150..218F	Number Forms	Small roman numeral seven		
-U+2177	ⅷ	2150..218F	Number Forms	Small roman numeral eight		
-U+2178	ⅸ	2150..218F	Number Forms	Small roman numeral nine		
-U+2179	ⅹ	2150..218F	Number Forms	Small roman numeral ten		
-U+217A	ⅺ	2150..218F	Number Forms	Small roman numeral eleven		
-U+217B	ⅻ	2150..218F	Number Forms	Small roman numeral twelve		
-U+217C	ⅼ	2150..218F	Number Forms	Small roman numeral fifty		
-U+217D	ⅽ	2150..218F	Number Forms	Small roman numeral one hundred		
-U+217E	ⅾ	2150..218F	Number Forms	Small roman numeral five hundred		
-U+217F	ⅿ	2150..218F	Number Forms	Small roman numeral one thousand		
-U+2180	ↀ	2150..218F	Number Forms	Roman numeral one thousand c d		
-U+2181	ↁ	2150..218F	Number Forms	Roman numeral five thousand		
-U+2182	ↂ	2150..218F	Number Forms	Roman numeral ten thousand		
-U+2183	Ↄ	2150..218F	Number Forms	Roman numeral reversed one hundred		
-U+2184	ↄ	2150..218F	Number Forms	Latin small letter reversed c		
-U+2185	ↅ	2150..218F	Number Forms	Roman numeral six late form		
-U+2186	ↆ	2150..218F	Number Forms	Roman numeral fifty early form		
-U+2187	ↇ	2150..218F	Number Forms	Roman numeral fifty thousand		
-U+2188	ↈ	2150..218F	Number Forms	Roman numeral one hundred thousand		
-U+2189	↉	2150..218F	Number Forms	Vulgar fraction zero thirds		
-U+218A	↊	2150..218F	Number Forms	Turned digit two		
-U+218B	↋	2150..218F	Number Forms	Turned digit three		
+code_points	chars	tab_completions	unicode_name	base
+U+2150	⅐		VULGAR FRACTION ONE SEVENTH	
+U+2151	⅑		VULGAR FRACTION ONE NINTH	
+U+2152	⅒		VULGAR FRACTION ONE TENTH	
+U+2153	⅓		VULGAR FRACTION ONE THIRD	
+U+2154	⅔		VULGAR FRACTION TWO THIRDS	
+U+2155	⅕		VULGAR FRACTION ONE FIFTH	
+U+2156	⅖		VULGAR FRACTION TWO FIFTHS	
+U+2157	⅗		VULGAR FRACTION THREE FIFTHS	
+U+2158	⅘		VULGAR FRACTION FOUR FIFTHS	
+U+2159	⅙		VULGAR FRACTION ONE SIXTH	
+U+215A	⅚		VULGAR FRACTION FIVE SIXTHS	
+U+215B	⅛		VULGAR FRACTION ONE EIGHTH	
+U+215C	⅜		VULGAR FRACTION THREE EIGHTHS	
+U+215D	⅝		VULGAR FRACTION FIVE EIGHTHS	
+U+215E	⅞		VULGAR FRACTION SEVEN EIGHTHS	
+U+215F	⅟		FRACTION NUMERATOR ONE	
+U+2160	Ⅰ		ROMAN NUMERAL ONE	
+U+2161	Ⅱ		ROMAN NUMERAL TWO	
+U+2162	Ⅲ		ROMAN NUMERAL THREE	
+U+2163	Ⅳ		ROMAN NUMERAL FOUR	
+U+2164	Ⅴ		ROMAN NUMERAL FIVE	
+U+2165	Ⅵ		ROMAN NUMERAL SIX	
+U+2166	Ⅶ		ROMAN NUMERAL SEVEN	
+U+2167	Ⅷ		ROMAN NUMERAL EIGHT	
+U+2168	Ⅸ		ROMAN NUMERAL NINE	
+U+2169	Ⅹ		ROMAN NUMERAL TEN	
+U+216A	Ⅺ		ROMAN NUMERAL ELEVEN	
+U+216B	Ⅻ		ROMAN NUMERAL TWELVE	
+U+216C	Ⅼ		ROMAN NUMERAL FIFTY	
+U+216D	Ⅽ		ROMAN NUMERAL ONE HUNDRED	
+U+216E	Ⅾ		ROMAN NUMERAL FIVE HUNDRED	
+U+216F	Ⅿ		ROMAN NUMERAL ONE THOUSAND	
+U+2170	ⅰ		SMALL ROMAN NUMERAL ONE	
+U+2171	ⅱ		SMALL ROMAN NUMERAL TWO	
+U+2172	ⅲ		SMALL ROMAN NUMERAL THREE	
+U+2173	ⅳ		SMALL ROMAN NUMERAL FOUR	
+U+2174	ⅴ		SMALL ROMAN NUMERAL FIVE	
+U+2175	ⅵ		SMALL ROMAN NUMERAL SIX	
+U+2176	ⅶ		SMALL ROMAN NUMERAL SEVEN	
+U+2177	ⅷ		SMALL ROMAN NUMERAL EIGHT	
+U+2178	ⅸ		SMALL ROMAN NUMERAL NINE	
+U+2179	ⅹ		SMALL ROMAN NUMERAL TEN	
+U+217A	ⅺ		SMALL ROMAN NUMERAL ELEVEN	
+U+217B	ⅻ		SMALL ROMAN NUMERAL TWELVE	
+U+217C	ⅼ		SMALL ROMAN NUMERAL FIFTY	
+U+217D	ⅽ		SMALL ROMAN NUMERAL ONE HUNDRED	
+U+217E	ⅾ		SMALL ROMAN NUMERAL FIVE HUNDRED	
+U+217F	ⅿ		SMALL ROMAN NUMERAL ONE THOUSAND	
+U+2180	ↀ		ROMAN NUMERAL ONE THOUSAND C D	
+U+2181	ↁ		ROMAN NUMERAL FIVE THOUSAND	
+U+2182	ↂ		ROMAN NUMERAL TEN THOUSAND	
+U+2183	Ↄ		ROMAN NUMERAL REVERSED ONE HUNDRED	
+U+2184	ↄ		LATIN SMALL LETTER REVERSED C	
+U+2185	ↅ		ROMAN NUMERAL SIX LATE FORM	
+U+2186	ↆ		ROMAN NUMERAL FIFTY EARLY FORM	
+U+2187	ↇ		ROMAN NUMERAL FIFTY THOUSAND	
+U+2188	ↈ		ROMAN NUMERAL ONE HUNDRED THOUSAND	
+U+2189	↉		VULGAR FRACTION ZERO THIRDS	
+U+218A	↊		TURNED DIGIT TWO	
+U+218B	↋		TURNED DIGIT THREE	

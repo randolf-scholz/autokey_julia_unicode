@@ -1,81 +1,81 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0A01	ਁ	0A00..0A7F	Gurmukhi	Gurmukhi sign adak bindi		
-U+0A02	ਂ	0A00..0A7F	Gurmukhi	Gurmukhi sign bindi		
-U+0A03	ਃ	0A00..0A7F	Gurmukhi	Gurmukhi sign visarga		
-U+0A05	ਅ	0A00..0A7F	Gurmukhi	Gurmukhi letter a		
-U+0A06	ਆ	0A00..0A7F	Gurmukhi	Gurmukhi letter aa		
-U+0A07	ਇ	0A00..0A7F	Gurmukhi	Gurmukhi letter i		
-U+0A08	ਈ	0A00..0A7F	Gurmukhi	Gurmukhi letter ii		
-U+0A09	ਉ	0A00..0A7F	Gurmukhi	Gurmukhi letter u		
-U+0A0A	ਊ	0A00..0A7F	Gurmukhi	Gurmukhi letter uu		
-U+0A0F	ਏ	0A00..0A7F	Gurmukhi	Gurmukhi letter ee		
-U+0A10	ਐ	0A00..0A7F	Gurmukhi	Gurmukhi letter ai		
-U+0A13	ਓ	0A00..0A7F	Gurmukhi	Gurmukhi letter oo		
-U+0A14	ਔ	0A00..0A7F	Gurmukhi	Gurmukhi letter au		
-U+0A15	ਕ	0A00..0A7F	Gurmukhi	Gurmukhi letter ka		
-U+0A16	ਖ	0A00..0A7F	Gurmukhi	Gurmukhi letter kha		
-U+0A17	ਗ	0A00..0A7F	Gurmukhi	Gurmukhi letter ga		
-U+0A18	ਘ	0A00..0A7F	Gurmukhi	Gurmukhi letter gha		
-U+0A19	ਙ	0A00..0A7F	Gurmukhi	Gurmukhi letter nga		
-U+0A1A	ਚ	0A00..0A7F	Gurmukhi	Gurmukhi letter ca		
-U+0A1B	ਛ	0A00..0A7F	Gurmukhi	Gurmukhi letter cha		
-U+0A1C	ਜ	0A00..0A7F	Gurmukhi	Gurmukhi letter ja		
-U+0A1D	ਝ	0A00..0A7F	Gurmukhi	Gurmukhi letter jha		
-U+0A1E	ਞ	0A00..0A7F	Gurmukhi	Gurmukhi letter nya		
-U+0A1F	ਟ	0A00..0A7F	Gurmukhi	Gurmukhi letter tta		
-U+0A20	ਠ	0A00..0A7F	Gurmukhi	Gurmukhi letter ttha		
-U+0A21	ਡ	0A00..0A7F	Gurmukhi	Gurmukhi letter dda		
-U+0A22	ਢ	0A00..0A7F	Gurmukhi	Gurmukhi letter ddha		
-U+0A23	ਣ	0A00..0A7F	Gurmukhi	Gurmukhi letter nna		
-U+0A24	ਤ	0A00..0A7F	Gurmukhi	Gurmukhi letter ta		
-U+0A25	ਥ	0A00..0A7F	Gurmukhi	Gurmukhi letter tha		
-U+0A26	ਦ	0A00..0A7F	Gurmukhi	Gurmukhi letter da		
-U+0A27	ਧ	0A00..0A7F	Gurmukhi	Gurmukhi letter dha		
-U+0A28	ਨ	0A00..0A7F	Gurmukhi	Gurmukhi letter na		
-U+0A2A	ਪ	0A00..0A7F	Gurmukhi	Gurmukhi letter pa		
-U+0A2B	ਫ	0A00..0A7F	Gurmukhi	Gurmukhi letter pha		
-U+0A2C	ਬ	0A00..0A7F	Gurmukhi	Gurmukhi letter ba		
-U+0A2D	ਭ	0A00..0A7F	Gurmukhi	Gurmukhi letter bha		
-U+0A2E	ਮ	0A00..0A7F	Gurmukhi	Gurmukhi letter ma		
-U+0A2F	ਯ	0A00..0A7F	Gurmukhi	Gurmukhi letter ya		
-U+0A30	ਰ	0A00..0A7F	Gurmukhi	Gurmukhi letter ra		
-U+0A32	ਲ	0A00..0A7F	Gurmukhi	Gurmukhi letter la		
-U+0A33	ਲ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter lla		
-U+0A35	ਵ	0A00..0A7F	Gurmukhi	Gurmukhi letter va		
-U+0A36	ਸ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter sha		
-U+0A38	ਸ	0A00..0A7F	Gurmukhi	Gurmukhi letter sa		
-U+0A39	ਹ	0A00..0A7F	Gurmukhi	Gurmukhi letter ha		
-U+0A3C	਼	0A00..0A7F	Gurmukhi	Gurmukhi sign nukta		
-U+0A3E	ਾ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign aa		
-U+0A3F	ਿ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign i		
-U+0A40	ੀ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign ii		
-U+0A41	ੁ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign u		
-U+0A42	ੂ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign uu		
-U+0A47	ੇ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign ee		
-U+0A48	ੈ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign ai		
-U+0A4B	ੋ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign oo		
-U+0A4C	ੌ	0A00..0A7F	Gurmukhi	Gurmukhi vowel sign au		
-U+0A4D	੍	0A00..0A7F	Gurmukhi	Gurmukhi sign virama		
-U+0A51	ੑ	0A00..0A7F	Gurmukhi	Gurmukhi sign udaat		
-U+0A59	ਖ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter khha		
-U+0A5A	ਗ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter ghha		
-U+0A5B	ਜ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter za		
-U+0A5C	ੜ	0A00..0A7F	Gurmukhi	Gurmukhi letter rra		
-U+0A5E	ਫ਼	0A00..0A7F	Gurmukhi	Gurmukhi letter fa		
-U+0A66	੦	0A00..0A7F	Gurmukhi	Gurmukhi digit zero		
-U+0A67	੧	0A00..0A7F	Gurmukhi	Gurmukhi digit one		
-U+0A68	੨	0A00..0A7F	Gurmukhi	Gurmukhi digit two		
-U+0A69	੩	0A00..0A7F	Gurmukhi	Gurmukhi digit three		
-U+0A6A	੪	0A00..0A7F	Gurmukhi	Gurmukhi digit four		
-U+0A6B	੫	0A00..0A7F	Gurmukhi	Gurmukhi digit five		
-U+0A6C	੬	0A00..0A7F	Gurmukhi	Gurmukhi digit six		
-U+0A6D	੭	0A00..0A7F	Gurmukhi	Gurmukhi digit seven		
-U+0A6E	੮	0A00..0A7F	Gurmukhi	Gurmukhi digit eight		
-U+0A6F	੯	0A00..0A7F	Gurmukhi	Gurmukhi digit nine		
-U+0A70	ੰ	0A00..0A7F	Gurmukhi	Gurmukhi tippi		
-U+0A71	ੱ	0A00..0A7F	Gurmukhi	Gurmukhi addak		
-U+0A72	ੲ	0A00..0A7F	Gurmukhi	Gurmukhi iri		
-U+0A73	ੳ	0A00..0A7F	Gurmukhi	Gurmukhi ura		
-U+0A74	ੴ	0A00..0A7F	Gurmukhi	Gurmukhi ek onkar		
-U+0A75	ੵ	0A00..0A7F	Gurmukhi	Gurmukhi sign yakash		
-U+0A76	੶	0A00..0A7F	Gurmukhi	Gurmukhi abbreviation sign		
+code_points	chars	tab_completions	unicode_name	base
+U+0A01	ਁ		GURMUKHI SIGN ADAK BINDI	
+U+0A02	ਂ		GURMUKHI SIGN BINDI	
+U+0A03	ਃ		GURMUKHI SIGN VISARGA	
+U+0A05	ਅ		GURMUKHI LETTER A	
+U+0A06	ਆ		GURMUKHI LETTER AA	
+U+0A07	ਇ		GURMUKHI LETTER I	
+U+0A08	ਈ		GURMUKHI LETTER II	
+U+0A09	ਉ		GURMUKHI LETTER U	
+U+0A0A	ਊ		GURMUKHI LETTER UU	
+U+0A0F	ਏ		GURMUKHI LETTER EE	
+U+0A10	ਐ		GURMUKHI LETTER AI	
+U+0A13	ਓ		GURMUKHI LETTER OO	
+U+0A14	ਔ		GURMUKHI LETTER AU	
+U+0A15	ਕ		GURMUKHI LETTER KA	
+U+0A16	ਖ		GURMUKHI LETTER KHA	
+U+0A17	ਗ		GURMUKHI LETTER GA	
+U+0A18	ਘ		GURMUKHI LETTER GHA	
+U+0A19	ਙ		GURMUKHI LETTER NGA	
+U+0A1A	ਚ		GURMUKHI LETTER CA	
+U+0A1B	ਛ		GURMUKHI LETTER CHA	
+U+0A1C	ਜ		GURMUKHI LETTER JA	
+U+0A1D	ਝ		GURMUKHI LETTER JHA	
+U+0A1E	ਞ		GURMUKHI LETTER NYA	
+U+0A1F	ਟ		GURMUKHI LETTER TTA	
+U+0A20	ਠ		GURMUKHI LETTER TTHA	
+U+0A21	ਡ		GURMUKHI LETTER DDA	
+U+0A22	ਢ		GURMUKHI LETTER DDHA	
+U+0A23	ਣ		GURMUKHI LETTER NNA	
+U+0A24	ਤ		GURMUKHI LETTER TA	
+U+0A25	ਥ		GURMUKHI LETTER THA	
+U+0A26	ਦ		GURMUKHI LETTER DA	
+U+0A27	ਧ		GURMUKHI LETTER DHA	
+U+0A28	ਨ		GURMUKHI LETTER NA	
+U+0A2A	ਪ		GURMUKHI LETTER PA	
+U+0A2B	ਫ		GURMUKHI LETTER PHA	
+U+0A2C	ਬ		GURMUKHI LETTER BA	
+U+0A2D	ਭ		GURMUKHI LETTER BHA	
+U+0A2E	ਮ		GURMUKHI LETTER MA	
+U+0A2F	ਯ		GURMUKHI LETTER YA	
+U+0A30	ਰ		GURMUKHI LETTER RA	
+U+0A32	ਲ		GURMUKHI LETTER LA	
+U+0A33	ਲ਼		GURMUKHI LETTER LLA	
+U+0A35	ਵ		GURMUKHI LETTER VA	
+U+0A36	ਸ਼		GURMUKHI LETTER SHA	
+U+0A38	ਸ		GURMUKHI LETTER SA	
+U+0A39	ਹ		GURMUKHI LETTER HA	
+U+0A3C	਼		GURMUKHI SIGN NUKTA	
+U+0A3E	ਾ		GURMUKHI VOWEL SIGN AA	
+U+0A3F	ਿ		GURMUKHI VOWEL SIGN I	
+U+0A40	ੀ		GURMUKHI VOWEL SIGN II	
+U+0A41	ੁ		GURMUKHI VOWEL SIGN U	
+U+0A42	ੂ		GURMUKHI VOWEL SIGN UU	
+U+0A47	ੇ		GURMUKHI VOWEL SIGN EE	
+U+0A48	ੈ		GURMUKHI VOWEL SIGN AI	
+U+0A4B	ੋ		GURMUKHI VOWEL SIGN OO	
+U+0A4C	ੌ		GURMUKHI VOWEL SIGN AU	
+U+0A4D	੍		GURMUKHI SIGN VIRAMA	
+U+0A51	ੑ		GURMUKHI SIGN UDAAT	
+U+0A59	ਖ਼		GURMUKHI LETTER KHHA	
+U+0A5A	ਗ਼		GURMUKHI LETTER GHHA	
+U+0A5B	ਜ਼		GURMUKHI LETTER ZA	
+U+0A5C	ੜ		GURMUKHI LETTER RRA	
+U+0A5E	ਫ਼		GURMUKHI LETTER FA	
+U+0A66	੦		GURMUKHI DIGIT ZERO	
+U+0A67	੧		GURMUKHI DIGIT ONE	
+U+0A68	੨		GURMUKHI DIGIT TWO	
+U+0A69	੩		GURMUKHI DIGIT THREE	
+U+0A6A	੪		GURMUKHI DIGIT FOUR	
+U+0A6B	੫		GURMUKHI DIGIT FIVE	
+U+0A6C	੬		GURMUKHI DIGIT SIX	
+U+0A6D	੭		GURMUKHI DIGIT SEVEN	
+U+0A6E	੮		GURMUKHI DIGIT EIGHT	
+U+0A6F	੯		GURMUKHI DIGIT NINE	
+U+0A70	ੰ		GURMUKHI TIPPI	
+U+0A71	ੱ		GURMUKHI ADDAK	
+U+0A72	ੲ		GURMUKHI IRI	
+U+0A73	ੳ		GURMUKHI URA	
+U+0A74	ੴ		GURMUKHI EK ONKAR	
+U+0A75	ੵ		GURMUKHI SIGN YAKASH	
+U+0A76	੶		GURMUKHI ABBREVIATION SIGN	

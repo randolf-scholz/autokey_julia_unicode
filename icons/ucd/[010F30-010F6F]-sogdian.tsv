@@ -1,43 +1,43 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10F30	𐼰	10F30..10F6F	Sogdian	Sogdian letter aleph		
-U+10F31	𐼱	10F30..10F6F	Sogdian	Sogdian letter beth		
-U+10F32	𐼲	10F30..10F6F	Sogdian	Sogdian letter gimel		
-U+10F33	𐼳	10F30..10F6F	Sogdian	Sogdian letter he		
-U+10F34	𐼴	10F30..10F6F	Sogdian	Sogdian letter waw		
-U+10F35	𐼵	10F30..10F6F	Sogdian	Sogdian letter zayin		
-U+10F36	𐼶	10F30..10F6F	Sogdian	Sogdian letter heth		
-U+10F37	𐼷	10F30..10F6F	Sogdian	Sogdian letter yodh		
-U+10F38	𐼸	10F30..10F6F	Sogdian	Sogdian letter kaph		
-U+10F39	𐼹	10F30..10F6F	Sogdian	Sogdian letter lamedh		
-U+10F3A	𐼺	10F30..10F6F	Sogdian	Sogdian letter mem		
-U+10F3B	𐼻	10F30..10F6F	Sogdian	Sogdian letter nun		
-U+10F3C	𐼼	10F30..10F6F	Sogdian	Sogdian letter samekh		
-U+10F3D	𐼽	10F30..10F6F	Sogdian	Sogdian letter ayin		
-U+10F3E	𐼾	10F30..10F6F	Sogdian	Sogdian letter pe		
-U+10F3F	𐼿	10F30..10F6F	Sogdian	Sogdian letter sadhe		
-U+10F40	𐽀	10F30..10F6F	Sogdian	Sogdian letter resh-ayin		
-U+10F41	𐽁	10F30..10F6F	Sogdian	Sogdian letter shin		
-U+10F42	𐽂	10F30..10F6F	Sogdian	Sogdian letter taw		
-U+10F43	𐽃	10F30..10F6F	Sogdian	Sogdian letter feth		
-U+10F44	𐽄	10F30..10F6F	Sogdian	Sogdian letter lesh		
-U+10F45	𐽅	10F30..10F6F	Sogdian	Sogdian independent shin		
-U+10F46	𐽆	10F30..10F6F	Sogdian	Sogdian combining dot below		
-U+10F47	𐽇	10F30..10F6F	Sogdian	Sogdian combining two dots below		
-U+10F48	𐽈	10F30..10F6F	Sogdian	Sogdian combining dot above		
-U+10F49	𐽉	10F30..10F6F	Sogdian	Sogdian combining two dots above		
-U+10F4A	𐽊	10F30..10F6F	Sogdian	Sogdian combining curve above		
-U+10F4B	𐽋	10F30..10F6F	Sogdian	Sogdian combining curve below		
-U+10F4C	𐽌	10F30..10F6F	Sogdian	Sogdian combining hook above		
-U+10F4D	𐽍	10F30..10F6F	Sogdian	Sogdian combining hook below		
-U+10F4E	𐽎	10F30..10F6F	Sogdian	Sogdian combining long hook below		
-U+10F4F	𐽏	10F30..10F6F	Sogdian	Sogdian combining resh below		
-U+10F50	𐽐	10F30..10F6F	Sogdian	Sogdian combining stroke below		
-U+10F51	𐽑	10F30..10F6F	Sogdian	Sogdian number one		
-U+10F52	𐽒	10F30..10F6F	Sogdian	Sogdian number ten		
-U+10F53	𐽓	10F30..10F6F	Sogdian	Sogdian number twenty		
-U+10F54	𐽔	10F30..10F6F	Sogdian	Sogdian number one hundred		
-U+10F55	𐽕	10F30..10F6F	Sogdian	Sogdian punctuation two vertical bars		
-U+10F56	𐽖	10F30..10F6F	Sogdian	Sogdian punctuation two vertical bars with dots		
-U+10F57	𐽗	10F30..10F6F	Sogdian	Sogdian punctuation circle with dot		
-U+10F58	𐽘	10F30..10F6F	Sogdian	Sogdian punctuation two circles with dots		
-U+10F59	𐽙	10F30..10F6F	Sogdian	Sogdian punctuation half circle with dot		
+code_points	chars	tab_completions	unicode_name	base
+U+10F30	𐼰		SOGDIAN LETTER ALEPH	
+U+10F31	𐼱		SOGDIAN LETTER BETH	
+U+10F32	𐼲		SOGDIAN LETTER GIMEL	
+U+10F33	𐼳		SOGDIAN LETTER HE	
+U+10F34	𐼴		SOGDIAN LETTER WAW	
+U+10F35	𐼵		SOGDIAN LETTER ZAYIN	
+U+10F36	𐼶		SOGDIAN LETTER HETH	
+U+10F37	𐼷		SOGDIAN LETTER YODH	
+U+10F38	𐼸		SOGDIAN LETTER KAPH	
+U+10F39	𐼹		SOGDIAN LETTER LAMEDH	
+U+10F3A	𐼺		SOGDIAN LETTER MEM	
+U+10F3B	𐼻		SOGDIAN LETTER NUN	
+U+10F3C	𐼼		SOGDIAN LETTER SAMEKH	
+U+10F3D	𐼽		SOGDIAN LETTER AYIN	
+U+10F3E	𐼾		SOGDIAN LETTER PE	
+U+10F3F	𐼿		SOGDIAN LETTER SADHE	
+U+10F40	𐽀		SOGDIAN LETTER RESH-AYIN	
+U+10F41	𐽁		SOGDIAN LETTER SHIN	
+U+10F42	𐽂		SOGDIAN LETTER TAW	
+U+10F43	𐽃		SOGDIAN LETTER FETH	
+U+10F44	𐽄		SOGDIAN LETTER LESH	
+U+10F45	𐽅		SOGDIAN INDEPENDENT SHIN	
+U+10F46	𐽆		SOGDIAN COMBINING DOT BELOW	
+U+10F47	𐽇		SOGDIAN COMBINING TWO DOTS BELOW	
+U+10F48	𐽈		SOGDIAN COMBINING DOT ABOVE	
+U+10F49	𐽉		SOGDIAN COMBINING TWO DOTS ABOVE	
+U+10F4A	𐽊		SOGDIAN COMBINING CURVE ABOVE	
+U+10F4B	𐽋		SOGDIAN COMBINING CURVE BELOW	
+U+10F4C	𐽌		SOGDIAN COMBINING HOOK ABOVE	
+U+10F4D	𐽍		SOGDIAN COMBINING HOOK BELOW	
+U+10F4E	𐽎		SOGDIAN COMBINING LONG HOOK BELOW	
+U+10F4F	𐽏		SOGDIAN COMBINING RESH BELOW	
+U+10F50	𐽐		SOGDIAN COMBINING STROKE BELOW	
+U+10F51	𐽑		SOGDIAN NUMBER ONE	
+U+10F52	𐽒		SOGDIAN NUMBER TEN	
+U+10F53	𐽓		SOGDIAN NUMBER TWENTY	
+U+10F54	𐽔		SOGDIAN NUMBER ONE HUNDRED	
+U+10F55	𐽕		SOGDIAN PUNCTUATION TWO VERTICAL BARS	
+U+10F56	𐽖		SOGDIAN PUNCTUATION TWO VERTICAL BARS WITH DOTS	
+U+10F57	𐽗		SOGDIAN PUNCTUATION CIRCLE WITH DOT	
+U+10F58	𐽘		SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS	
+U+10F59	𐽙		SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT	

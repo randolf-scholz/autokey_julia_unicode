@@ -1,3 +1,1 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+18D00	𘴀	18D00..18D7F	Tangut Supplement	<tangut ideograph supplement, first>		
-U+18D20	𘴠	18D00..18D7F	Tangut Supplement	<tangut ideograph supplement, last>		
+code_points	chars	tab_completions	unicode_name	base

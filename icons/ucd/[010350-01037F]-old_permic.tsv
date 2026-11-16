@@ -1,44 +1,44 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10350	𐍐	10350..1037F	Old Permic	Old permic letter an		
-U+10351	𐍑	10350..1037F	Old Permic	Old permic letter bur		
-U+10352	𐍒	10350..1037F	Old Permic	Old permic letter gai		
-U+10353	𐍓	10350..1037F	Old Permic	Old permic letter doi		
-U+10354	𐍔	10350..1037F	Old Permic	Old permic letter e		
-U+10355	𐍕	10350..1037F	Old Permic	Old permic letter zhoi		
-U+10356	𐍖	10350..1037F	Old Permic	Old permic letter dzhoi		
-U+10357	𐍗	10350..1037F	Old Permic	Old permic letter zata		
-U+10358	𐍘	10350..1037F	Old Permic	Old permic letter dzita		
-U+10359	𐍙	10350..1037F	Old Permic	Old permic letter i		
-U+1035A	𐍚	10350..1037F	Old Permic	Old permic letter koke		
-U+1035B	𐍛	10350..1037F	Old Permic	Old permic letter lei		
-U+1035C	𐍜	10350..1037F	Old Permic	Old permic letter menoe		
-U+1035D	𐍝	10350..1037F	Old Permic	Old permic letter nenoe		
-U+1035E	𐍞	10350..1037F	Old Permic	Old permic letter vooi		
-U+1035F	𐍟	10350..1037F	Old Permic	Old permic letter peei		
-U+10360	𐍠	10350..1037F	Old Permic	Old permic letter rei		
-U+10361	𐍡	10350..1037F	Old Permic	Old permic letter sii		
-U+10362	𐍢	10350..1037F	Old Permic	Old permic letter tai		
-U+10363	𐍣	10350..1037F	Old Permic	Old permic letter u		
-U+10364	𐍤	10350..1037F	Old Permic	Old permic letter chery		
-U+10365	𐍥	10350..1037F	Old Permic	Old permic letter shooi		
-U+10366	𐍦	10350..1037F	Old Permic	Old permic letter shchooi		
-U+10367	𐍧	10350..1037F	Old Permic	Old permic letter yry		
-U+10368	𐍨	10350..1037F	Old Permic	Old permic letter yeru		
-U+10369	𐍩	10350..1037F	Old Permic	Old permic letter o		
-U+1036A	𐍪	10350..1037F	Old Permic	Old permic letter oo		
-U+1036B	𐍫	10350..1037F	Old Permic	Old permic letter ef		
-U+1036C	𐍬	10350..1037F	Old Permic	Old permic letter ha		
-U+1036D	𐍭	10350..1037F	Old Permic	Old permic letter tsiu		
-U+1036E	𐍮	10350..1037F	Old Permic	Old permic letter ver		
-U+1036F	𐍯	10350..1037F	Old Permic	Old permic letter yer		
-U+10370	𐍰	10350..1037F	Old Permic	Old permic letter yeri		
-U+10371	𐍱	10350..1037F	Old Permic	Old permic letter yat		
-U+10372	𐍲	10350..1037F	Old Permic	Old permic letter ie		
-U+10373	𐍳	10350..1037F	Old Permic	Old permic letter yu		
-U+10374	𐍴	10350..1037F	Old Permic	Old permic letter ya		
-U+10375	𐍵	10350..1037F	Old Permic	Old permic letter ia		
-U+10376	𐍶	10350..1037F	Old Permic	Combining old permic letter an		
-U+10377	𐍷	10350..1037F	Old Permic	Combining old permic letter doi		
-U+10378	𐍸	10350..1037F	Old Permic	Combining old permic letter zata		
-U+10379	𐍹	10350..1037F	Old Permic	Combining old permic letter nenoe		
-U+1037A	𐍺	10350..1037F	Old Permic	Combining old permic letter sii		
+code_points	chars	tab_completions	unicode_name	base
+U+10350	𐍐		OLD PERMIC LETTER AN	
+U+10351	𐍑		OLD PERMIC LETTER BUR	
+U+10352	𐍒		OLD PERMIC LETTER GAI	
+U+10353	𐍓		OLD PERMIC LETTER DOI	
+U+10354	𐍔		OLD PERMIC LETTER E	
+U+10355	𐍕		OLD PERMIC LETTER ZHOI	
+U+10356	𐍖		OLD PERMIC LETTER DZHOI	
+U+10357	𐍗		OLD PERMIC LETTER ZATA	
+U+10358	𐍘		OLD PERMIC LETTER DZITA	
+U+10359	𐍙		OLD PERMIC LETTER I	
+U+1035A	𐍚		OLD PERMIC LETTER KOKE	
+U+1035B	𐍛		OLD PERMIC LETTER LEI	
+U+1035C	𐍜		OLD PERMIC LETTER MENOE	
+U+1035D	𐍝		OLD PERMIC LETTER NENOE	
+U+1035E	𐍞		OLD PERMIC LETTER VOOI	
+U+1035F	𐍟		OLD PERMIC LETTER PEEI	
+U+10360	𐍠		OLD PERMIC LETTER REI	
+U+10361	𐍡		OLD PERMIC LETTER SII	
+U+10362	𐍢		OLD PERMIC LETTER TAI	
+U+10363	𐍣		OLD PERMIC LETTER U	
+U+10364	𐍤		OLD PERMIC LETTER CHERY	
+U+10365	𐍥		OLD PERMIC LETTER SHOOI	
+U+10366	𐍦		OLD PERMIC LETTER SHCHOOI	
+U+10367	𐍧		OLD PERMIC LETTER YRY	
+U+10368	𐍨		OLD PERMIC LETTER YERU	
+U+10369	𐍩		OLD PERMIC LETTER O	
+U+1036A	𐍪		OLD PERMIC LETTER OO	
+U+1036B	𐍫		OLD PERMIC LETTER EF	
+U+1036C	𐍬		OLD PERMIC LETTER HA	
+U+1036D	𐍭		OLD PERMIC LETTER TSIU	
+U+1036E	𐍮		OLD PERMIC LETTER VER	
+U+1036F	𐍯		OLD PERMIC LETTER YER	
+U+10370	𐍰		OLD PERMIC LETTER YERI	
+U+10371	𐍱		OLD PERMIC LETTER YAT	
+U+10372	𐍲		OLD PERMIC LETTER IE	
+U+10373	𐍳		OLD PERMIC LETTER YU	
+U+10374	𐍴		OLD PERMIC LETTER YA	
+U+10375	𐍵		OLD PERMIC LETTER IA	
+U+10376	𐍶		COMBINING OLD PERMIC LETTER AN	
+U+10377	𐍷		COMBINING OLD PERMIC LETTER DOI	
+U+10378	𐍸		COMBINING OLD PERMIC LETTER ZATA	
+U+10379	𐍹		COMBINING OLD PERMIC LETTER NENOE	
+U+1037A	𐍺		COMBINING OLD PERMIC LETTER SII	

@@ -1,47 +1,47 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1C90	Ა	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter an		
-U+1C91	Ბ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter ban		
-U+1C92	Გ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter gan		
-U+1C93	Დ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter don		
-U+1C94	Ე	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter en		
-U+1C95	Ვ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter vin		
-U+1C96	Ზ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter zen		
-U+1C97	Თ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter tan		
-U+1C98	Ი	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter in		
-U+1C99	Კ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter kan		
-U+1C9A	Ლ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter las		
-U+1C9B	Მ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter man		
-U+1C9C	Ნ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter nar		
-U+1C9D	Ო	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter on		
-U+1C9E	Პ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter par		
-U+1C9F	Ჟ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter zhar		
-U+1CA0	Რ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter rae		
-U+1CA1	Ს	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter san		
-U+1CA2	Ტ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter tar		
-U+1CA3	Უ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter un		
-U+1CA4	Ფ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter phar		
-U+1CA5	Ქ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter khar		
-U+1CA6	Ღ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter ghan		
-U+1CA7	Ყ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter qar		
-U+1CA8	Შ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter shin		
-U+1CA9	Ჩ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter chin		
-U+1CAA	Ც	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter can		
-U+1CAB	Ძ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter jil		
-U+1CAC	Წ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter cil		
-U+1CAD	Ჭ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter char		
-U+1CAE	Ხ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter xan		
-U+1CAF	Ჯ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter jhan		
-U+1CB0	Ჰ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter hae		
-U+1CB1	Ჱ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter he		
-U+1CB2	Ჲ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter hie		
-U+1CB3	Ჳ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter we		
-U+1CB4	Ჴ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter har		
-U+1CB5	Ჵ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter hoe		
-U+1CB6	Ჶ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter fi		
-U+1CB7	Ჷ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter yn		
-U+1CB8	Ჸ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter elifi		
-U+1CB9	Ჹ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter turned gan		
-U+1CBA	Ჺ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter ain		
-U+1CBD	Ჽ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter aen		
-U+1CBE	Ჾ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter hard sign		
-U+1CBF	Ჿ	1C90..1CBF	Georgian Extended	Georgian mtavruli capital letter labial sign		
+code_points	chars	tab_completions	unicode_name	base
+U+1C90	Ა		GEORGIAN MTAVRULI CAPITAL LETTER AN	
+U+1C91	Ბ		GEORGIAN MTAVRULI CAPITAL LETTER BAN	
+U+1C92	Გ		GEORGIAN MTAVRULI CAPITAL LETTER GAN	
+U+1C93	Დ		GEORGIAN MTAVRULI CAPITAL LETTER DON	
+U+1C94	Ე		GEORGIAN MTAVRULI CAPITAL LETTER EN	
+U+1C95	Ვ		GEORGIAN MTAVRULI CAPITAL LETTER VIN	
+U+1C96	Ზ		GEORGIAN MTAVRULI CAPITAL LETTER ZEN	
+U+1C97	Თ		GEORGIAN MTAVRULI CAPITAL LETTER TAN	
+U+1C98	Ი		GEORGIAN MTAVRULI CAPITAL LETTER IN	
+U+1C99	Კ		GEORGIAN MTAVRULI CAPITAL LETTER KAN	
+U+1C9A	Ლ		GEORGIAN MTAVRULI CAPITAL LETTER LAS	
+U+1C9B	Მ		GEORGIAN MTAVRULI CAPITAL LETTER MAN	
+U+1C9C	Ნ		GEORGIAN MTAVRULI CAPITAL LETTER NAR	
+U+1C9D	Ო		GEORGIAN MTAVRULI CAPITAL LETTER ON	
+U+1C9E	Პ		GEORGIAN MTAVRULI CAPITAL LETTER PAR	
+U+1C9F	Ჟ		GEORGIAN MTAVRULI CAPITAL LETTER ZHAR	
+U+1CA0	Რ		GEORGIAN MTAVRULI CAPITAL LETTER RAE	
+U+1CA1	Ს		GEORGIAN MTAVRULI CAPITAL LETTER SAN	
+U+1CA2	Ტ		GEORGIAN MTAVRULI CAPITAL LETTER TAR	
+U+1CA3	Უ		GEORGIAN MTAVRULI CAPITAL LETTER UN	
+U+1CA4	Ფ		GEORGIAN MTAVRULI CAPITAL LETTER PHAR	
+U+1CA5	Ქ		GEORGIAN MTAVRULI CAPITAL LETTER KHAR	
+U+1CA6	Ღ		GEORGIAN MTAVRULI CAPITAL LETTER GHAN	
+U+1CA7	Ყ		GEORGIAN MTAVRULI CAPITAL LETTER QAR	
+U+1CA8	Შ		GEORGIAN MTAVRULI CAPITAL LETTER SHIN	
+U+1CA9	Ჩ		GEORGIAN MTAVRULI CAPITAL LETTER CHIN	
+U+1CAA	Ც		GEORGIAN MTAVRULI CAPITAL LETTER CAN	
+U+1CAB	Ძ		GEORGIAN MTAVRULI CAPITAL LETTER JIL	
+U+1CAC	Წ		GEORGIAN MTAVRULI CAPITAL LETTER CIL	
+U+1CAD	Ჭ		GEORGIAN MTAVRULI CAPITAL LETTER CHAR	
+U+1CAE	Ხ		GEORGIAN MTAVRULI CAPITAL LETTER XAN	
+U+1CAF	Ჯ		GEORGIAN MTAVRULI CAPITAL LETTER JHAN	
+U+1CB0	Ჰ		GEORGIAN MTAVRULI CAPITAL LETTER HAE	
+U+1CB1	Ჱ		GEORGIAN MTAVRULI CAPITAL LETTER HE	
+U+1CB2	Ჲ		GEORGIAN MTAVRULI CAPITAL LETTER HIE	
+U+1CB3	Ჳ		GEORGIAN MTAVRULI CAPITAL LETTER WE	
+U+1CB4	Ჴ		GEORGIAN MTAVRULI CAPITAL LETTER HAR	
+U+1CB5	Ჵ		GEORGIAN MTAVRULI CAPITAL LETTER HOE	
+U+1CB6	Ჶ		GEORGIAN MTAVRULI CAPITAL LETTER FI	
+U+1CB7	Ჷ		GEORGIAN MTAVRULI CAPITAL LETTER YN	
+U+1CB8	Ჸ		GEORGIAN MTAVRULI CAPITAL LETTER ELIFI	
+U+1CB9	Ჹ		GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN	
+U+1CBA	Ჺ		GEORGIAN MTAVRULI CAPITAL LETTER AIN	
+U+1CBD	Ჽ		GEORGIAN MTAVRULI CAPITAL LETTER AEN	
+U+1CBE	Ჾ		GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN	
+U+1CBF	Ჿ		GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN	

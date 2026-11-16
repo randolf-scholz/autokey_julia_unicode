@@ -1,46 +1,46 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A800	ꠀ	A800..A82F	Syloti Nagri	Syloti nagri letter a		
-U+A801	ꠁ	A800..A82F	Syloti Nagri	Syloti nagri letter i		
-U+A802	ꠂ	A800..A82F	Syloti Nagri	Syloti nagri sign dvisvara		
-U+A803	ꠃ	A800..A82F	Syloti Nagri	Syloti nagri letter u		
-U+A804	ꠄ	A800..A82F	Syloti Nagri	Syloti nagri letter e		
-U+A805	ꠅ	A800..A82F	Syloti Nagri	Syloti nagri letter o		
-U+A806	꠆	A800..A82F	Syloti Nagri	Syloti nagri sign hasanta		
-U+A807	ꠇ	A800..A82F	Syloti Nagri	Syloti nagri letter ko		
-U+A808	ꠈ	A800..A82F	Syloti Nagri	Syloti nagri letter kho		
-U+A809	ꠉ	A800..A82F	Syloti Nagri	Syloti nagri letter go		
-U+A80A	ꠊ	A800..A82F	Syloti Nagri	Syloti nagri letter gho		
-U+A80B	ꠋ	A800..A82F	Syloti Nagri	Syloti nagri sign anusvara		
-U+A80C	ꠌ	A800..A82F	Syloti Nagri	Syloti nagri letter co		
-U+A80D	ꠍ	A800..A82F	Syloti Nagri	Syloti nagri letter cho		
-U+A80E	ꠎ	A800..A82F	Syloti Nagri	Syloti nagri letter jo		
-U+A80F	ꠏ	A800..A82F	Syloti Nagri	Syloti nagri letter jho		
-U+A810	ꠐ	A800..A82F	Syloti Nagri	Syloti nagri letter tto		
-U+A811	ꠑ	A800..A82F	Syloti Nagri	Syloti nagri letter ttho		
-U+A812	ꠒ	A800..A82F	Syloti Nagri	Syloti nagri letter ddo		
-U+A813	ꠓ	A800..A82F	Syloti Nagri	Syloti nagri letter ddho		
-U+A814	ꠔ	A800..A82F	Syloti Nagri	Syloti nagri letter to		
-U+A815	ꠕ	A800..A82F	Syloti Nagri	Syloti nagri letter tho		
-U+A816	ꠖ	A800..A82F	Syloti Nagri	Syloti nagri letter do		
-U+A817	ꠗ	A800..A82F	Syloti Nagri	Syloti nagri letter dho		
-U+A818	ꠘ	A800..A82F	Syloti Nagri	Syloti nagri letter no		
-U+A819	ꠙ	A800..A82F	Syloti Nagri	Syloti nagri letter po		
-U+A81A	ꠚ	A800..A82F	Syloti Nagri	Syloti nagri letter pho		
-U+A81B	ꠛ	A800..A82F	Syloti Nagri	Syloti nagri letter bo		
-U+A81C	ꠜ	A800..A82F	Syloti Nagri	Syloti nagri letter bho		
-U+A81D	ꠝ	A800..A82F	Syloti Nagri	Syloti nagri letter mo		
-U+A81E	ꠞ	A800..A82F	Syloti Nagri	Syloti nagri letter ro		
-U+A81F	ꠟ	A800..A82F	Syloti Nagri	Syloti nagri letter lo		
-U+A820	ꠠ	A800..A82F	Syloti Nagri	Syloti nagri letter rro		
-U+A821	ꠡ	A800..A82F	Syloti Nagri	Syloti nagri letter so		
-U+A822	ꠢ	A800..A82F	Syloti Nagri	Syloti nagri letter ho		
-U+A823	ꠣ	A800..A82F	Syloti Nagri	Syloti nagri vowel sign a		
-U+A824	ꠤ	A800..A82F	Syloti Nagri	Syloti nagri vowel sign i		
-U+A825	ꠥ	A800..A82F	Syloti Nagri	Syloti nagri vowel sign u		
-U+A826	ꠦ	A800..A82F	Syloti Nagri	Syloti nagri vowel sign e		
-U+A827	ꠧ	A800..A82F	Syloti Nagri	Syloti nagri vowel sign oo		
-U+A828	꠨	A800..A82F	Syloti Nagri	Syloti nagri poetry mark-1		
-U+A829	꠩	A800..A82F	Syloti Nagri	Syloti nagri poetry mark-2		
-U+A82A	꠪	A800..A82F	Syloti Nagri	Syloti nagri poetry mark-3		
-U+A82B	꠫	A800..A82F	Syloti Nagri	Syloti nagri poetry mark-4		
-U+A82C	꠬	A800..A82F	Syloti Nagri	Syloti nagri sign alternate hasanta		
+code_points	chars	tab_completions	unicode_name	base
+U+A800	ꠀ		SYLOTI NAGRI LETTER A	
+U+A801	ꠁ		SYLOTI NAGRI LETTER I	
+U+A802	ꠂ		SYLOTI NAGRI SIGN DVISVARA	
+U+A803	ꠃ		SYLOTI NAGRI LETTER U	
+U+A804	ꠄ		SYLOTI NAGRI LETTER E	
+U+A805	ꠅ		SYLOTI NAGRI LETTER O	
+U+A806	꠆		SYLOTI NAGRI SIGN HASANTA	
+U+A807	ꠇ		SYLOTI NAGRI LETTER KO	
+U+A808	ꠈ		SYLOTI NAGRI LETTER KHO	
+U+A809	ꠉ		SYLOTI NAGRI LETTER GO	
+U+A80A	ꠊ		SYLOTI NAGRI LETTER GHO	
+U+A80B	ꠋ		SYLOTI NAGRI SIGN ANUSVARA	
+U+A80C	ꠌ		SYLOTI NAGRI LETTER CO	
+U+A80D	ꠍ		SYLOTI NAGRI LETTER CHO	
+U+A80E	ꠎ		SYLOTI NAGRI LETTER JO	
+U+A80F	ꠏ		SYLOTI NAGRI LETTER JHO	
+U+A810	ꠐ		SYLOTI NAGRI LETTER TTO	
+U+A811	ꠑ		SYLOTI NAGRI LETTER TTHO	
+U+A812	ꠒ		SYLOTI NAGRI LETTER DDO	
+U+A813	ꠓ		SYLOTI NAGRI LETTER DDHO	
+U+A814	ꠔ		SYLOTI NAGRI LETTER TO	
+U+A815	ꠕ		SYLOTI NAGRI LETTER THO	
+U+A816	ꠖ		SYLOTI NAGRI LETTER DO	
+U+A817	ꠗ		SYLOTI NAGRI LETTER DHO	
+U+A818	ꠘ		SYLOTI NAGRI LETTER NO	
+U+A819	ꠙ		SYLOTI NAGRI LETTER PO	
+U+A81A	ꠚ		SYLOTI NAGRI LETTER PHO	
+U+A81B	ꠛ		SYLOTI NAGRI LETTER BO	
+U+A81C	ꠜ		SYLOTI NAGRI LETTER BHO	
+U+A81D	ꠝ		SYLOTI NAGRI LETTER MO	
+U+A81E	ꠞ		SYLOTI NAGRI LETTER RO	
+U+A81F	ꠟ		SYLOTI NAGRI LETTER LO	
+U+A820	ꠠ		SYLOTI NAGRI LETTER RRO	
+U+A821	ꠡ		SYLOTI NAGRI LETTER SO	
+U+A822	ꠢ		SYLOTI NAGRI LETTER HO	
+U+A823	ꠣ		SYLOTI NAGRI VOWEL SIGN A	
+U+A824	ꠤ		SYLOTI NAGRI VOWEL SIGN I	
+U+A825	ꠥ		SYLOTI NAGRI VOWEL SIGN U	
+U+A826	ꠦ		SYLOTI NAGRI VOWEL SIGN E	
+U+A827	ꠧ		SYLOTI NAGRI VOWEL SIGN OO	
+U+A828	꠨		SYLOTI NAGRI POETRY MARK-1	
+U+A829	꠩		SYLOTI NAGRI POETRY MARK-2	
+U+A82A	꠪		SYLOTI NAGRI POETRY MARK-3	
+U+A82B	꠫		SYLOTI NAGRI POETRY MARK-4	
+U+A82C	꠬		SYLOTI NAGRI SIGN ALTERNATE HASANTA	

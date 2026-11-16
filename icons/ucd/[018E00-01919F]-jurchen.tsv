@@ -1,3 +1,1 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+18E00	𘸀	18E00..1919F	Jurchen	<jurchen character, first>		
-U+19191	𙆑	18E00..1919F	Jurchen	<jurchen character, last>		
+code_points	chars	tab_completions	unicode_name	base

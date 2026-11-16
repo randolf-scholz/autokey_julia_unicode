@@ -1,27 +1,27 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10940	𐥀	10940..1095F	Sidetic	Sidetic letter n01		
-U+10941	𐥁	10940..1095F	Sidetic	Sidetic letter n02		
-U+10942	𐥂	10940..1095F	Sidetic	Sidetic letter n03		
-U+10943	𐥃	10940..1095F	Sidetic	Sidetic letter n04		
-U+10944	𐥄	10940..1095F	Sidetic	Sidetic letter n05		
-U+10945	𐥅	10940..1095F	Sidetic	Sidetic letter n06		
-U+10946	𐥆	10940..1095F	Sidetic	Sidetic letter n07		
-U+10947	𐥇	10940..1095F	Sidetic	Sidetic letter n08		
-U+10948	𐥈	10940..1095F	Sidetic	Sidetic letter n09		
-U+10949	𐥉	10940..1095F	Sidetic	Sidetic letter n10		
-U+1094A	𐥊	10940..1095F	Sidetic	Sidetic letter n11		
-U+1094B	𐥋	10940..1095F	Sidetic	Sidetic letter n12		
-U+1094C	𐥌	10940..1095F	Sidetic	Sidetic letter n13		
-U+1094D	𐥍	10940..1095F	Sidetic	Sidetic letter n14		
-U+1094E	𐥎	10940..1095F	Sidetic	Sidetic letter n15		
-U+1094F	𐥏	10940..1095F	Sidetic	Sidetic letter n16		
-U+10950	𐥐	10940..1095F	Sidetic	Sidetic letter n17		
-U+10951	𐥑	10940..1095F	Sidetic	Sidetic letter n18		
-U+10952	𐥒	10940..1095F	Sidetic	Sidetic letter n19		
-U+10953	𐥓	10940..1095F	Sidetic	Sidetic letter n20		
-U+10954	𐥔	10940..1095F	Sidetic	Sidetic letter n21		
-U+10955	𐥕	10940..1095F	Sidetic	Sidetic letter n22		
-U+10956	𐥖	10940..1095F	Sidetic	Sidetic letter n23		
-U+10957	𐥗	10940..1095F	Sidetic	Sidetic letter n24		
-U+10958	𐥘	10940..1095F	Sidetic	Sidetic letter n25		
-U+10959	𐥙	10940..1095F	Sidetic	Sidetic letter n26		
+code_points	chars	tab_completions	unicode_name	base
+U+10940	𐥀		SIDETIC LETTER N01	
+U+10941	𐥁		SIDETIC LETTER N02	
+U+10942	𐥂		SIDETIC LETTER N03	
+U+10943	𐥃		SIDETIC LETTER N04	
+U+10944	𐥄		SIDETIC LETTER N05	
+U+10945	𐥅		SIDETIC LETTER N06	
+U+10946	𐥆		SIDETIC LETTER N07	
+U+10947	𐥇		SIDETIC LETTER N08	
+U+10948	𐥈		SIDETIC LETTER N09	
+U+10949	𐥉		SIDETIC LETTER N10	
+U+1094A	𐥊		SIDETIC LETTER N11	
+U+1094B	𐥋		SIDETIC LETTER N12	
+U+1094C	𐥌		SIDETIC LETTER N13	
+U+1094D	𐥍		SIDETIC LETTER N14	
+U+1094E	𐥎		SIDETIC LETTER N15	
+U+1094F	𐥏		SIDETIC LETTER N16	
+U+10950	𐥐		SIDETIC LETTER N17	
+U+10951	𐥑		SIDETIC LETTER N18	
+U+10952	𐥒		SIDETIC LETTER N19	
+U+10953	𐥓		SIDETIC LETTER N20	
+U+10954	𐥔		SIDETIC LETTER N21	
+U+10955	𐥕		SIDETIC LETTER N22	
+U+10956	𐥖		SIDETIC LETTER N23	
+U+10957	𐥗		SIDETIC LETTER N24	
+U+10958	𐥘		SIDETIC LETTER N25	
+U+10959	𐥙		SIDETIC LETTER N26	

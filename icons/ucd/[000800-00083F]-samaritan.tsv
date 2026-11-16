@@ -1,62 +1,62 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0800	ࠀ	0800..083F	Samaritan	Samaritan letter alaf		
-U+0801	ࠁ	0800..083F	Samaritan	Samaritan letter bit		
-U+0802	ࠂ	0800..083F	Samaritan	Samaritan letter gaman		
-U+0803	ࠃ	0800..083F	Samaritan	Samaritan letter dalat		
-U+0804	ࠄ	0800..083F	Samaritan	Samaritan letter iy		
-U+0805	ࠅ	0800..083F	Samaritan	Samaritan letter baa		
-U+0806	ࠆ	0800..083F	Samaritan	Samaritan letter zen		
-U+0807	ࠇ	0800..083F	Samaritan	Samaritan letter it		
-U+0808	ࠈ	0800..083F	Samaritan	Samaritan letter tit		
-U+0809	ࠉ	0800..083F	Samaritan	Samaritan letter yut		
-U+080A	ࠊ	0800..083F	Samaritan	Samaritan letter kaaf		
-U+080B	ࠋ	0800..083F	Samaritan	Samaritan letter labat		
-U+080C	ࠌ	0800..083F	Samaritan	Samaritan letter mim		
-U+080D	ࠍ	0800..083F	Samaritan	Samaritan letter nun		
-U+080E	ࠎ	0800..083F	Samaritan	Samaritan letter singaat		
-U+080F	ࠏ	0800..083F	Samaritan	Samaritan letter in		
-U+0810	ࠐ	0800..083F	Samaritan	Samaritan letter fi		
-U+0811	ࠑ	0800..083F	Samaritan	Samaritan letter tsaadiy		
-U+0812	ࠒ	0800..083F	Samaritan	Samaritan letter quf		
-U+0813	ࠓ	0800..083F	Samaritan	Samaritan letter rish		
-U+0814	ࠔ	0800..083F	Samaritan	Samaritan letter shan		
-U+0815	ࠕ	0800..083F	Samaritan	Samaritan letter taaf		
-U+0816	ࠖ	0800..083F	Samaritan	Samaritan mark in		
-U+0817	ࠗ	0800..083F	Samaritan	Samaritan mark in-alaf		
-U+0818	࠘	0800..083F	Samaritan	Samaritan mark occlusion		
-U+0819	࠙	0800..083F	Samaritan	Samaritan mark dagesh		
-U+081A	ࠚ	0800..083F	Samaritan	Samaritan modifier letter epenthetic yut		
-U+081B	ࠛ	0800..083F	Samaritan	Samaritan mark epenthetic yut		
-U+081C	ࠜ	0800..083F	Samaritan	Samaritan vowel sign long e		
-U+081D	ࠝ	0800..083F	Samaritan	Samaritan vowel sign e		
-U+081E	ࠞ	0800..083F	Samaritan	Samaritan vowel sign overlong aa		
-U+081F	ࠟ	0800..083F	Samaritan	Samaritan vowel sign long aa		
-U+0820	ࠠ	0800..083F	Samaritan	Samaritan vowel sign aa		
-U+0821	ࠡ	0800..083F	Samaritan	Samaritan vowel sign overlong a		
-U+0822	ࠢ	0800..083F	Samaritan	Samaritan vowel sign long a		
-U+0823	ࠣ	0800..083F	Samaritan	Samaritan vowel sign a		
-U+0824	ࠤ	0800..083F	Samaritan	Samaritan modifier letter short a		
-U+0825	ࠥ	0800..083F	Samaritan	Samaritan vowel sign short a		
-U+0826	ࠦ	0800..083F	Samaritan	Samaritan vowel sign long u		
-U+0827	ࠧ	0800..083F	Samaritan	Samaritan vowel sign u		
-U+0828	ࠨ	0800..083F	Samaritan	Samaritan modifier letter i		
-U+0829	ࠩ	0800..083F	Samaritan	Samaritan vowel sign long i		
-U+082A	ࠪ	0800..083F	Samaritan	Samaritan vowel sign i		
-U+082B	ࠫ	0800..083F	Samaritan	Samaritan vowel sign o		
-U+082C	ࠬ	0800..083F	Samaritan	Samaritan vowel sign sukun		
-U+082D	࠭	0800..083F	Samaritan	Samaritan mark nequdaa		
-U+0830	࠰	0800..083F	Samaritan	Samaritan punctuation nequdaa		
-U+0831	࠱	0800..083F	Samaritan	Samaritan punctuation afsaaq		
-U+0832	࠲	0800..083F	Samaritan	Samaritan punctuation anged		
-U+0833	࠳	0800..083F	Samaritan	Samaritan punctuation bau		
-U+0834	࠴	0800..083F	Samaritan	Samaritan punctuation atmaau		
-U+0835	࠵	0800..083F	Samaritan	Samaritan punctuation shiyyaalaa		
-U+0836	࠶	0800..083F	Samaritan	Samaritan abbreviation mark		
-U+0837	࠷	0800..083F	Samaritan	Samaritan punctuation melodic qitsa		
-U+0838	࠸	0800..083F	Samaritan	Samaritan punctuation ziqaa		
-U+0839	࠹	0800..083F	Samaritan	Samaritan punctuation qitsa		
-U+083A	࠺	0800..083F	Samaritan	Samaritan punctuation zaef		
-U+083B	࠻	0800..083F	Samaritan	Samaritan punctuation turu		
-U+083C	࠼	0800..083F	Samaritan	Samaritan punctuation arkaanu		
-U+083D	࠽	0800..083F	Samaritan	Samaritan punctuation sof mashfaat		
-U+083E	࠾	0800..083F	Samaritan	Samaritan punctuation annaau		
+code_points	chars	tab_completions	unicode_name	base
+U+0800	ࠀ		SAMARITAN LETTER ALAF	
+U+0801	ࠁ		SAMARITAN LETTER BIT	
+U+0802	ࠂ		SAMARITAN LETTER GAMAN	
+U+0803	ࠃ		SAMARITAN LETTER DALAT	
+U+0804	ࠄ		SAMARITAN LETTER IY	
+U+0805	ࠅ		SAMARITAN LETTER BAA	
+U+0806	ࠆ		SAMARITAN LETTER ZEN	
+U+0807	ࠇ		SAMARITAN LETTER IT	
+U+0808	ࠈ		SAMARITAN LETTER TIT	
+U+0809	ࠉ		SAMARITAN LETTER YUT	
+U+080A	ࠊ		SAMARITAN LETTER KAAF	
+U+080B	ࠋ		SAMARITAN LETTER LABAT	
+U+080C	ࠌ		SAMARITAN LETTER MIM	
+U+080D	ࠍ		SAMARITAN LETTER NUN	
+U+080E	ࠎ		SAMARITAN LETTER SINGAAT	
+U+080F	ࠏ		SAMARITAN LETTER IN	
+U+0810	ࠐ		SAMARITAN LETTER FI	
+U+0811	ࠑ		SAMARITAN LETTER TSAADIY	
+U+0812	ࠒ		SAMARITAN LETTER QUF	
+U+0813	ࠓ		SAMARITAN LETTER RISH	
+U+0814	ࠔ		SAMARITAN LETTER SHAN	
+U+0815	ࠕ		SAMARITAN LETTER TAAF	
+U+0816	ࠖ		SAMARITAN MARK IN	
+U+0817	ࠗ		SAMARITAN MARK IN-ALAF	
+U+0818	࠘		SAMARITAN MARK OCCLUSION	
+U+0819	࠙		SAMARITAN MARK DAGESH	
+U+081A	ࠚ		SAMARITAN MODIFIER LETTER EPENTHETIC YUT	
+U+081B	ࠛ		SAMARITAN MARK EPENTHETIC YUT	
+U+081C	ࠜ		SAMARITAN VOWEL SIGN LONG E	
+U+081D	ࠝ		SAMARITAN VOWEL SIGN E	
+U+081E	ࠞ		SAMARITAN VOWEL SIGN OVERLONG AA	
+U+081F	ࠟ		SAMARITAN VOWEL SIGN LONG AA	
+U+0820	ࠠ		SAMARITAN VOWEL SIGN AA	
+U+0821	ࠡ		SAMARITAN VOWEL SIGN OVERLONG A	
+U+0822	ࠢ		SAMARITAN VOWEL SIGN LONG A	
+U+0823	ࠣ		SAMARITAN VOWEL SIGN A	
+U+0824	ࠤ		SAMARITAN MODIFIER LETTER SHORT A	
+U+0825	ࠥ		SAMARITAN VOWEL SIGN SHORT A	
+U+0826	ࠦ		SAMARITAN VOWEL SIGN LONG U	
+U+0827	ࠧ		SAMARITAN VOWEL SIGN U	
+U+0828	ࠨ		SAMARITAN MODIFIER LETTER I	
+U+0829	ࠩ		SAMARITAN VOWEL SIGN LONG I	
+U+082A	ࠪ		SAMARITAN VOWEL SIGN I	
+U+082B	ࠫ		SAMARITAN VOWEL SIGN O	
+U+082C	ࠬ		SAMARITAN VOWEL SIGN SUKUN	
+U+082D	࠭		SAMARITAN MARK NEQUDAA	
+U+0830	࠰		SAMARITAN PUNCTUATION NEQUDAA	
+U+0831	࠱		SAMARITAN PUNCTUATION AFSAAQ	
+U+0832	࠲		SAMARITAN PUNCTUATION ANGED	
+U+0833	࠳		SAMARITAN PUNCTUATION BAU	
+U+0834	࠴		SAMARITAN PUNCTUATION ATMAAU	
+U+0835	࠵		SAMARITAN PUNCTUATION SHIYYAALAA	
+U+0836	࠶		SAMARITAN ABBREVIATION MARK	
+U+0837	࠷		SAMARITAN PUNCTUATION MELODIC QITSA	
+U+0838	࠸		SAMARITAN PUNCTUATION ZIQAA	
+U+0839	࠹		SAMARITAN PUNCTUATION QITSA	
+U+083A	࠺		SAMARITAN PUNCTUATION ZAEF	
+U+083B	࠻		SAMARITAN PUNCTUATION TURU	
+U+083C	࠼		SAMARITAN PUNCTUATION ARKAANU	
+U+083D	࠽		SAMARITAN PUNCTUATION SOF MASHFAAT	
+U+083E	࠾		SAMARITAN PUNCTUATION ANNAAU	

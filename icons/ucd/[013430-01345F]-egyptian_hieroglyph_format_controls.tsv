@@ -1,39 +1,39 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+13430	𓐰	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph vertical joiner		
-U+13431	𓐱	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph horizontal joiner		
-U+13432	𓐲	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top start		
-U+13433	𓐳	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom start		
-U+13434	𓐴	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top end		
-U+13435	𓐵	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom end		
-U+13436	𓐶	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph overlay middle		
-U+13437	𓐷	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin segment		
-U+13438	𓐸	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end segment		
-U+13439	𓐹	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at middle		
-U+1343A	𓐺	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at top		
-U+1343B	𓐻	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph insert at bottom		
-U+1343C	𓐼	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin enclosure		
-U+1343D	𓐽	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end enclosure		
-U+1343E	𓐾	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph begin walled enclosure		
-U+1343F	𓐿	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph end walled enclosure		
-U+13440	𓑀	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph mirror horizontally		
-U+13441	𓑁	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph full blank		
-U+13442	𓑂	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half blank		
-U+13443	𓑃	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph lost sign		
-U+13444	𓑄	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph half lost sign		
-U+13445	𓑅	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph tall lost sign		
-U+13446	𓑆	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph wide lost sign		
-U+13447	𓑇	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start		
-U+13448	𓑈	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start		
-U+13449	𓑉	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start		
-U+1344A	𓑊	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top end		
-U+1344B	𓑋	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top		
-U+1344C	𓑌	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom start and top end		
-U+1344D	𓑍	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and top		
-U+1344E	𓑎	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom end		
-U+1344F	𓑏	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top start and bottom end		
-U+13450	𓑐	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom		
-U+13451	𓑑	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at start and bottom		
-U+13452	𓑒	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at end		
-U+13453	𓑓	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at top and end		
-U+13454	𓑔	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged at bottom and end		
-U+13455	𓑕	13430..1345F	Egyptian Hieroglyph Format Controls	Egyptian hieroglyph modifier damaged		
+code_points	chars	tab_completions	unicode_name	base
+U+13430	𓐰		EGYPTIAN HIEROGLYPH VERTICAL JOINER	
+U+13431	𓐱		EGYPTIAN HIEROGLYPH HORIZONTAL JOINER	
+U+13432	𓐲		EGYPTIAN HIEROGLYPH INSERT AT TOP START	
+U+13433	𓐳		EGYPTIAN HIEROGLYPH INSERT AT BOTTOM START	
+U+13434	𓐴		EGYPTIAN HIEROGLYPH INSERT AT TOP END	
+U+13435	𓐵		EGYPTIAN HIEROGLYPH INSERT AT BOTTOM END	
+U+13436	𓐶		EGYPTIAN HIEROGLYPH OVERLAY MIDDLE	
+U+13437	𓐷		EGYPTIAN HIEROGLYPH BEGIN SEGMENT	
+U+13438	𓐸		EGYPTIAN HIEROGLYPH END SEGMENT	
+U+13439	𓐹		EGYPTIAN HIEROGLYPH INSERT AT MIDDLE	
+U+1343A	𓐺		EGYPTIAN HIEROGLYPH INSERT AT TOP	
+U+1343B	𓐻		EGYPTIAN HIEROGLYPH INSERT AT BOTTOM	
+U+1343C	𓐼		EGYPTIAN HIEROGLYPH BEGIN ENCLOSURE	
+U+1343D	𓐽		EGYPTIAN HIEROGLYPH END ENCLOSURE	
+U+1343E	𓐾		EGYPTIAN HIEROGLYPH BEGIN WALLED ENCLOSURE	
+U+1343F	𓐿		EGYPTIAN HIEROGLYPH END WALLED ENCLOSURE	
+U+13440	𓑀		EGYPTIAN HIEROGLYPH MIRROR HORIZONTALLY	
+U+13441	𓑁		EGYPTIAN HIEROGLYPH FULL BLANK	
+U+13442	𓑂		EGYPTIAN HIEROGLYPH HALF BLANK	
+U+13443	𓑃		EGYPTIAN HIEROGLYPH LOST SIGN	
+U+13444	𓑄		EGYPTIAN HIEROGLYPH HALF LOST SIGN	
+U+13445	𓑅		EGYPTIAN HIEROGLYPH TALL LOST SIGN	
+U+13446	𓑆		EGYPTIAN HIEROGLYPH WIDE LOST SIGN	
+U+13447	𓑇		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START	
+U+13448	𓑈		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START	
+U+13449	𓑉		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START	
+U+1344A	𓑊		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP END	
+U+1344B	𓑋		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP	
+U+1344C	𓑌		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM START AND TOP END	
+U+1344D	𓑍		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND TOP	
+U+1344E	𓑎		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM END	
+U+1344F	𓑏		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP START AND BOTTOM END	
+U+13450	𓑐		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM	
+U+13451	𓑑		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT START AND BOTTOM	
+U+13452	𓑒		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT END	
+U+13453	𓑓		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT TOP AND END	
+U+13454	𓑔		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED AT BOTTOM AND END	
+U+13455	𓑕		EGYPTIAN HIEROGLYPH MODIFIER DAMAGED	

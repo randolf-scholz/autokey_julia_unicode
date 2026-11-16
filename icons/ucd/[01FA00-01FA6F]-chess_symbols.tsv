@@ -1,103 +1,103 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1FA00	🨀	1FA00..1FA6F	Chess Symbols	Neutral chess king		
-U+1FA01	🨁	1FA00..1FA6F	Chess Symbols	Neutral chess queen		
-U+1FA02	🨂	1FA00..1FA6F	Chess Symbols	Neutral chess rook		
-U+1FA03	🨃	1FA00..1FA6F	Chess Symbols	Neutral chess bishop		
-U+1FA04	🨄	1FA00..1FA6F	Chess Symbols	Neutral chess knight		
-U+1FA05	🨅	1FA00..1FA6F	Chess Symbols	Neutral chess pawn		
-U+1FA06	🨆	1FA00..1FA6F	Chess Symbols	White chess knight rotated forty-five degrees		
-U+1FA07	🨇	1FA00..1FA6F	Chess Symbols	Black chess knight rotated forty-five degrees		
-U+1FA08	🨈	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated forty-five degrees		
-U+1FA09	🨉	1FA00..1FA6F	Chess Symbols	White chess king rotated ninety degrees		
-U+1FA0A	🨊	1FA00..1FA6F	Chess Symbols	White chess queen rotated ninety degrees		
-U+1FA0B	🨋	1FA00..1FA6F	Chess Symbols	White chess rook rotated ninety degrees		
-U+1FA0C	🨌	1FA00..1FA6F	Chess Symbols	White chess bishop rotated ninety degrees		
-U+1FA0D	🨍	1FA00..1FA6F	Chess Symbols	White chess knight rotated ninety degrees		
-U+1FA0E	🨎	1FA00..1FA6F	Chess Symbols	White chess pawn rotated ninety degrees		
-U+1FA0F	🨏	1FA00..1FA6F	Chess Symbols	Black chess king rotated ninety degrees		
-U+1FA10	🨐	1FA00..1FA6F	Chess Symbols	Black chess queen rotated ninety degrees		
-U+1FA11	🨑	1FA00..1FA6F	Chess Symbols	Black chess rook rotated ninety degrees		
-U+1FA12	🨒	1FA00..1FA6F	Chess Symbols	Black chess bishop rotated ninety degrees		
-U+1FA13	🨓	1FA00..1FA6F	Chess Symbols	Black chess knight rotated ninety degrees		
-U+1FA14	🨔	1FA00..1FA6F	Chess Symbols	Black chess pawn rotated ninety degrees		
-U+1FA15	🨕	1FA00..1FA6F	Chess Symbols	Neutral chess king rotated ninety degrees		
-U+1FA16	🨖	1FA00..1FA6F	Chess Symbols	Neutral chess queen rotated ninety degrees		
-U+1FA17	🨗	1FA00..1FA6F	Chess Symbols	Neutral chess rook rotated ninety degrees		
-U+1FA18	🨘	1FA00..1FA6F	Chess Symbols	Neutral chess bishop rotated ninety degrees		
-U+1FA19	🨙	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated ninety degrees		
-U+1FA1A	🨚	1FA00..1FA6F	Chess Symbols	Neutral chess pawn rotated ninety degrees		
-U+1FA1B	🨛	1FA00..1FA6F	Chess Symbols	White chess knight rotated one hundred thirty-five degrees		
-U+1FA1C	🨜	1FA00..1FA6F	Chess Symbols	Black chess knight rotated one hundred thirty-five degrees		
-U+1FA1D	🨝	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated one hundred thirty-five degrees		
-U+1FA1E	🨞	1FA00..1FA6F	Chess Symbols	White chess turned king		
-U+1FA1F	🨟	1FA00..1FA6F	Chess Symbols	White chess turned queen		
-U+1FA20	🨠	1FA00..1FA6F	Chess Symbols	White chess turned rook		
-U+1FA21	🨡	1FA00..1FA6F	Chess Symbols	White chess turned bishop		
-U+1FA22	🨢	1FA00..1FA6F	Chess Symbols	White chess turned knight		
-U+1FA23	🨣	1FA00..1FA6F	Chess Symbols	White chess turned pawn		
-U+1FA24	🨤	1FA00..1FA6F	Chess Symbols	Black chess turned king		
-U+1FA25	🨥	1FA00..1FA6F	Chess Symbols	Black chess turned queen		
-U+1FA26	🨦	1FA00..1FA6F	Chess Symbols	Black chess turned rook		
-U+1FA27	🨧	1FA00..1FA6F	Chess Symbols	Black chess turned bishop		
-U+1FA28	🨨	1FA00..1FA6F	Chess Symbols	Black chess turned knight		
-U+1FA29	🨩	1FA00..1FA6F	Chess Symbols	Black chess turned pawn		
-U+1FA2A	🨪	1FA00..1FA6F	Chess Symbols	Neutral chess turned king		
-U+1FA2B	🨫	1FA00..1FA6F	Chess Symbols	Neutral chess turned queen		
-U+1FA2C	🨬	1FA00..1FA6F	Chess Symbols	Neutral chess turned rook		
-U+1FA2D	🨭	1FA00..1FA6F	Chess Symbols	Neutral chess turned bishop		
-U+1FA2E	🨮	1FA00..1FA6F	Chess Symbols	Neutral chess turned knight		
-U+1FA2F	🨯	1FA00..1FA6F	Chess Symbols	Neutral chess turned pawn		
-U+1FA30	🨰	1FA00..1FA6F	Chess Symbols	White chess knight rotated two hundred twenty-five degrees		
-U+1FA31	🨱	1FA00..1FA6F	Chess Symbols	Black chess knight rotated two hundred twenty-five degrees		
-U+1FA32	🨲	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated two hundred twenty-five degrees		
-U+1FA33	🨳	1FA00..1FA6F	Chess Symbols	White chess king rotated two hundred seventy degrees		
-U+1FA34	🨴	1FA00..1FA6F	Chess Symbols	White chess queen rotated two hundred seventy degrees		
-U+1FA35	🨵	1FA00..1FA6F	Chess Symbols	White chess rook rotated two hundred seventy degrees		
-U+1FA36	🨶	1FA00..1FA6F	Chess Symbols	White chess bishop rotated two hundred seventy degrees		
-U+1FA37	🨷	1FA00..1FA6F	Chess Symbols	White chess knight rotated two hundred seventy degrees		
-U+1FA38	🨸	1FA00..1FA6F	Chess Symbols	White chess pawn rotated two hundred seventy degrees		
-U+1FA39	🨹	1FA00..1FA6F	Chess Symbols	Black chess king rotated two hundred seventy degrees		
-U+1FA3A	🨺	1FA00..1FA6F	Chess Symbols	Black chess queen rotated two hundred seventy degrees		
-U+1FA3B	🨻	1FA00..1FA6F	Chess Symbols	Black chess rook rotated two hundred seventy degrees		
-U+1FA3C	🨼	1FA00..1FA6F	Chess Symbols	Black chess bishop rotated two hundred seventy degrees		
-U+1FA3D	🨽	1FA00..1FA6F	Chess Symbols	Black chess knight rotated two hundred seventy degrees		
-U+1FA3E	🨾	1FA00..1FA6F	Chess Symbols	Black chess pawn rotated two hundred seventy degrees		
-U+1FA3F	🨿	1FA00..1FA6F	Chess Symbols	Neutral chess king rotated two hundred seventy degrees		
-U+1FA40	🩀	1FA00..1FA6F	Chess Symbols	Neutral chess queen rotated two hundred seventy degrees		
-U+1FA41	🩁	1FA00..1FA6F	Chess Symbols	Neutral chess rook rotated two hundred seventy degrees		
-U+1FA42	🩂	1FA00..1FA6F	Chess Symbols	Neutral chess bishop rotated two hundred seventy degrees		
-U+1FA43	🩃	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated two hundred seventy degrees		
-U+1FA44	🩄	1FA00..1FA6F	Chess Symbols	Neutral chess pawn rotated two hundred seventy degrees		
-U+1FA45	🩅	1FA00..1FA6F	Chess Symbols	White chess knight rotated three hundred fifteen degrees		
-U+1FA46	🩆	1FA00..1FA6F	Chess Symbols	Black chess knight rotated three hundred fifteen degrees		
-U+1FA47	🩇	1FA00..1FA6F	Chess Symbols	Neutral chess knight rotated three hundred fifteen degrees		
-U+1FA48	🩈	1FA00..1FA6F	Chess Symbols	White chess equihopper		
-U+1FA49	🩉	1FA00..1FA6F	Chess Symbols	Black chess equihopper		
-U+1FA4A	🩊	1FA00..1FA6F	Chess Symbols	Neutral chess equihopper		
-U+1FA4B	🩋	1FA00..1FA6F	Chess Symbols	White chess equihopper rotated ninety degrees		
-U+1FA4C	🩌	1FA00..1FA6F	Chess Symbols	Black chess equihopper rotated ninety degrees		
-U+1FA4D	🩍	1FA00..1FA6F	Chess Symbols	Neutral chess equihopper rotated ninety degrees		
-U+1FA4E	🩎	1FA00..1FA6F	Chess Symbols	White chess knight-queen		
-U+1FA4F	🩏	1FA00..1FA6F	Chess Symbols	White chess knight-rook		
-U+1FA50	🩐	1FA00..1FA6F	Chess Symbols	White chess knight-bishop		
-U+1FA51	🩑	1FA00..1FA6F	Chess Symbols	Black chess knight-queen		
-U+1FA52	🩒	1FA00..1FA6F	Chess Symbols	Black chess knight-rook		
-U+1FA53	🩓	1FA00..1FA6F	Chess Symbols	Black chess knight-bishop		
-U+1FA54	🩔	1FA00..1FA6F	Chess Symbols	White chess ferz		
-U+1FA55	🩕	1FA00..1FA6F	Chess Symbols	White chess alfil		
-U+1FA56	🩖	1FA00..1FA6F	Chess Symbols	Black chess ferz		
-U+1FA57	🩗	1FA00..1FA6F	Chess Symbols	Black chess alfil		
-U+1FA60	🩠	1FA00..1FA6F	Chess Symbols	Xiangqi red general		
-U+1FA61	🩡	1FA00..1FA6F	Chess Symbols	Xiangqi red mandarin		
-U+1FA62	🩢	1FA00..1FA6F	Chess Symbols	Xiangqi red elephant		
-U+1FA63	🩣	1FA00..1FA6F	Chess Symbols	Xiangqi red horse		
-U+1FA64	🩤	1FA00..1FA6F	Chess Symbols	Xiangqi red chariot		
-U+1FA65	🩥	1FA00..1FA6F	Chess Symbols	Xiangqi red cannon		
-U+1FA66	🩦	1FA00..1FA6F	Chess Symbols	Xiangqi red soldier		
-U+1FA67	🩧	1FA00..1FA6F	Chess Symbols	Xiangqi black general		
-U+1FA68	🩨	1FA00..1FA6F	Chess Symbols	Xiangqi black mandarin		
-U+1FA69	🩩	1FA00..1FA6F	Chess Symbols	Xiangqi black elephant		
-U+1FA6A	🩪	1FA00..1FA6F	Chess Symbols	Xiangqi black horse		
-U+1FA6B	🩫	1FA00..1FA6F	Chess Symbols	Xiangqi black chariot		
-U+1FA6C	🩬	1FA00..1FA6F	Chess Symbols	Xiangqi black cannon		
-U+1FA6D	🩭	1FA00..1FA6F	Chess Symbols	Xiangqi black soldier		
+code_points	chars	tab_completions	unicode_name	base
+U+1FA00	🨀		NEUTRAL CHESS KING	
+U+1FA01	🨁		NEUTRAL CHESS QUEEN	
+U+1FA02	🨂		NEUTRAL CHESS ROOK	
+U+1FA03	🨃		NEUTRAL CHESS BISHOP	
+U+1FA04	🨄		NEUTRAL CHESS KNIGHT	
+U+1FA05	🨅		NEUTRAL CHESS PAWN	
+U+1FA06	🨆		WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES	
+U+1FA07	🨇		BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES	
+U+1FA08	🨈		NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES	
+U+1FA09	🨉		WHITE CHESS KING ROTATED NINETY DEGREES	
+U+1FA0A	🨊		WHITE CHESS QUEEN ROTATED NINETY DEGREES	
+U+1FA0B	🨋		WHITE CHESS ROOK ROTATED NINETY DEGREES	
+U+1FA0C	🨌		WHITE CHESS BISHOP ROTATED NINETY DEGREES	
+U+1FA0D	🨍		WHITE CHESS KNIGHT ROTATED NINETY DEGREES	
+U+1FA0E	🨎		WHITE CHESS PAWN ROTATED NINETY DEGREES	
+U+1FA0F	🨏		BLACK CHESS KING ROTATED NINETY DEGREES	
+U+1FA10	🨐		BLACK CHESS QUEEN ROTATED NINETY DEGREES	
+U+1FA11	🨑		BLACK CHESS ROOK ROTATED NINETY DEGREES	
+U+1FA12	🨒		BLACK CHESS BISHOP ROTATED NINETY DEGREES	
+U+1FA13	🨓		BLACK CHESS KNIGHT ROTATED NINETY DEGREES	
+U+1FA14	🨔		BLACK CHESS PAWN ROTATED NINETY DEGREES	
+U+1FA15	🨕		NEUTRAL CHESS KING ROTATED NINETY DEGREES	
+U+1FA16	🨖		NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES	
+U+1FA17	🨗		NEUTRAL CHESS ROOK ROTATED NINETY DEGREES	
+U+1FA18	🨘		NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES	
+U+1FA19	🨙		NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES	
+U+1FA1A	🨚		NEUTRAL CHESS PAWN ROTATED NINETY DEGREES	
+U+1FA1B	🨛		WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES	
+U+1FA1C	🨜		BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES	
+U+1FA1D	🨝		NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES	
+U+1FA1E	🨞		WHITE CHESS TURNED KING	
+U+1FA1F	🨟		WHITE CHESS TURNED QUEEN	
+U+1FA20	🨠		WHITE CHESS TURNED ROOK	
+U+1FA21	🨡		WHITE CHESS TURNED BISHOP	
+U+1FA22	🨢		WHITE CHESS TURNED KNIGHT	
+U+1FA23	🨣		WHITE CHESS TURNED PAWN	
+U+1FA24	🨤		BLACK CHESS TURNED KING	
+U+1FA25	🨥		BLACK CHESS TURNED QUEEN	
+U+1FA26	🨦		BLACK CHESS TURNED ROOK	
+U+1FA27	🨧		BLACK CHESS TURNED BISHOP	
+U+1FA28	🨨		BLACK CHESS TURNED KNIGHT	
+U+1FA29	🨩		BLACK CHESS TURNED PAWN	
+U+1FA2A	🨪		NEUTRAL CHESS TURNED KING	
+U+1FA2B	🨫		NEUTRAL CHESS TURNED QUEEN	
+U+1FA2C	🨬		NEUTRAL CHESS TURNED ROOK	
+U+1FA2D	🨭		NEUTRAL CHESS TURNED BISHOP	
+U+1FA2E	🨮		NEUTRAL CHESS TURNED KNIGHT	
+U+1FA2F	🨯		NEUTRAL CHESS TURNED PAWN	
+U+1FA30	🨰		WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES	
+U+1FA31	🨱		BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES	
+U+1FA32	🨲		NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES	
+U+1FA33	🨳		WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA34	🨴		WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA35	🨵		WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA36	🨶		WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA37	🨷		WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA38	🨸		WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA39	🨹		BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3A	🨺		BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3B	🨻		BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3C	🨼		BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3D	🨽		BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3E	🨾		BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA3F	🨿		NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA40	🩀		NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA41	🩁		NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA42	🩂		NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA43	🩃		NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA44	🩄		NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES	
+U+1FA45	🩅		WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES	
+U+1FA46	🩆		BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES	
+U+1FA47	🩇		NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES	
+U+1FA48	🩈		WHITE CHESS EQUIHOPPER	
+U+1FA49	🩉		BLACK CHESS EQUIHOPPER	
+U+1FA4A	🩊		NEUTRAL CHESS EQUIHOPPER	
+U+1FA4B	🩋		WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES	
+U+1FA4C	🩌		BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES	
+U+1FA4D	🩍		NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES	
+U+1FA4E	🩎		WHITE CHESS KNIGHT-QUEEN	
+U+1FA4F	🩏		WHITE CHESS KNIGHT-ROOK	
+U+1FA50	🩐		WHITE CHESS KNIGHT-BISHOP	
+U+1FA51	🩑		BLACK CHESS KNIGHT-QUEEN	
+U+1FA52	🩒		BLACK CHESS KNIGHT-ROOK	
+U+1FA53	🩓		BLACK CHESS KNIGHT-BISHOP	
+U+1FA54	🩔		WHITE CHESS FERZ	
+U+1FA55	🩕		WHITE CHESS ALFIL	
+U+1FA56	🩖		BLACK CHESS FERZ	
+U+1FA57	🩗		BLACK CHESS ALFIL	
+U+1FA60	🩠		XIANGQI RED GENERAL	
+U+1FA61	🩡		XIANGQI RED MANDARIN	
+U+1FA62	🩢		XIANGQI RED ELEPHANT	
+U+1FA63	🩣		XIANGQI RED HORSE	
+U+1FA64	🩤		XIANGQI RED CHARIOT	
+U+1FA65	🩥		XIANGQI RED CANNON	
+U+1FA66	🩦		XIANGQI RED SOLDIER	
+U+1FA67	🩧		XIANGQI BLACK GENERAL	
+U+1FA68	🩨		XIANGQI BLACK MANDARIN	
+U+1FA69	🩩		XIANGQI BLACK ELEPHANT	
+U+1FA6A	🩪		XIANGQI BLACK HORSE	
+U+1FA6B	🩫		XIANGQI BLACK CHARIOT	
+U+1FA6C	🩬		XIANGQI BLACK CANNON	
+U+1FA6D	🩭		XIANGQI BLACK SOLDIER	

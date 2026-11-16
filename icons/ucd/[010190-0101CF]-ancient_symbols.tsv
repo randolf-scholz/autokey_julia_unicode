@@ -1,15 +1,15 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10190	𐆐	10190..101CF	Ancient Symbols	Roman sextans sign		
-U+10191	𐆑	10190..101CF	Ancient Symbols	Roman uncia sign		
-U+10192	𐆒	10190..101CF	Ancient Symbols	Roman semuncia sign		
-U+10193	𐆓	10190..101CF	Ancient Symbols	Roman sextula sign		
-U+10194	𐆔	10190..101CF	Ancient Symbols	Roman dimidia sextula sign		
-U+10195	𐆕	10190..101CF	Ancient Symbols	Roman siliqua sign		
-U+10196	𐆖	10190..101CF	Ancient Symbols	Roman denarius sign		
-U+10197	𐆗	10190..101CF	Ancient Symbols	Roman quinarius sign		
-U+10198	𐆘	10190..101CF	Ancient Symbols	Roman sestertius sign		
-U+10199	𐆙	10190..101CF	Ancient Symbols	Roman dupondius sign		
-U+1019A	𐆚	10190..101CF	Ancient Symbols	Roman as sign		
-U+1019B	𐆛	10190..101CF	Ancient Symbols	Roman centurial sign		
-U+1019C	𐆜	10190..101CF	Ancient Symbols	Ascia symbol		
-U+101A0	𐆠	10190..101CF	Ancient Symbols	Greek symbol tau rho		
+code_points	chars	tab_completions	unicode_name	base
+U+10190	𐆐		ROMAN SEXTANS SIGN	
+U+10191	𐆑		ROMAN UNCIA SIGN	
+U+10192	𐆒		ROMAN SEMUNCIA SIGN	
+U+10193	𐆓		ROMAN SEXTULA SIGN	
+U+10194	𐆔		ROMAN DIMIDIA SEXTULA SIGN	
+U+10195	𐆕		ROMAN SILIQUA SIGN	
+U+10196	𐆖		ROMAN DENARIUS SIGN	
+U+10197	𐆗		ROMAN QUINARIUS SIGN	
+U+10198	𐆘		ROMAN SESTERTIUS SIGN	
+U+10199	𐆙		ROMAN DUPONDIUS SIGN	
+U+1019A	𐆚		ROMAN AS SIGN	
+U+1019B	𐆛		ROMAN CENTURIAL SIGN	
+U+1019C	𐆜		ASCIA SYMBOL	
+U+101A0	𐆠		GREEK SYMBOL TAU RHO	

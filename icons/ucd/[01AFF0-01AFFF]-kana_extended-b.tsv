@@ -1,14 +1,14 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1AFF0	𚿰	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-2		
-U+1AFF1	𚿱	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-3		
-U+1AFF2	𚿲	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-4		
-U+1AFF3	𚿳	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-5		
-U+1AFF5	𚿵	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-7		
-U+1AFF6	𚿶	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan tone-8		
-U+1AFF7	𚿷	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-1		
-U+1AFF8	𚿸	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-2		
-U+1AFF9	𚿹	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-3		
-U+1AFFA	𚿺	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-4		
-U+1AFFB	𚿻	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-5		
-U+1AFFD	𚿽	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-7		
-U+1AFFE	𚿾	1AFF0..1AFFF	Kana Extended-B	Katakana letter minnan nasalized tone-8		
+code_points	chars	tab_completions	unicode_name	base
+U+1AFF0	𚿰		KATAKANA LETTER MINNAN TONE-2	
+U+1AFF1	𚿱		KATAKANA LETTER MINNAN TONE-3	
+U+1AFF2	𚿲		KATAKANA LETTER MINNAN TONE-4	
+U+1AFF3	𚿳		KATAKANA LETTER MINNAN TONE-5	
+U+1AFF5	𚿵		KATAKANA LETTER MINNAN TONE-7	
+U+1AFF6	𚿶		KATAKANA LETTER MINNAN TONE-8	
+U+1AFF7	𚿷		KATAKANA LETTER MINNAN NASALIZED TONE-1	
+U+1AFF8	𚿸		KATAKANA LETTER MINNAN NASALIZED TONE-2	
+U+1AFF9	𚿹		KATAKANA LETTER MINNAN NASALIZED TONE-3	
+U+1AFFA	𚿺		KATAKANA LETTER MINNAN NASALIZED TONE-4	
+U+1AFFB	𚿻		KATAKANA LETTER MINNAN NASALIZED TONE-5	
+U+1AFFD	𚿽		KATAKANA LETTER MINNAN NASALIZED TONE-7	
+U+1AFFE	𚿾		KATAKANA LETTER MINNAN NASALIZED TONE-8	

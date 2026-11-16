@@ -1,28 +1,28 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10330	𐌰	10330..1034F	Gothic	Gothic letter ahsa		
-U+10331	𐌱	10330..1034F	Gothic	Gothic letter bairkan		
-U+10332	𐌲	10330..1034F	Gothic	Gothic letter giba		
-U+10333	𐌳	10330..1034F	Gothic	Gothic letter dags		
-U+10334	𐌴	10330..1034F	Gothic	Gothic letter aihvus		
-U+10335	𐌵	10330..1034F	Gothic	Gothic letter qairthra		
-U+10336	𐌶	10330..1034F	Gothic	Gothic letter iuja		
-U+10337	𐌷	10330..1034F	Gothic	Gothic letter hagl		
-U+10338	𐌸	10330..1034F	Gothic	Gothic letter thiuth		
-U+10339	𐌹	10330..1034F	Gothic	Gothic letter eis		
-U+1033A	𐌺	10330..1034F	Gothic	Gothic letter kusma		
-U+1033B	𐌻	10330..1034F	Gothic	Gothic letter lagus		
-U+1033C	𐌼	10330..1034F	Gothic	Gothic letter manna		
-U+1033D	𐌽	10330..1034F	Gothic	Gothic letter nauths		
-U+1033E	𐌾	10330..1034F	Gothic	Gothic letter jer		
-U+1033F	𐌿	10330..1034F	Gothic	Gothic letter urus		
-U+10340	𐍀	10330..1034F	Gothic	Gothic letter pairthra		
-U+10341	𐍁	10330..1034F	Gothic	Gothic letter ninety		
-U+10342	𐍂	10330..1034F	Gothic	Gothic letter raida		
-U+10343	𐍃	10330..1034F	Gothic	Gothic letter sauil		
-U+10344	𐍄	10330..1034F	Gothic	Gothic letter teiws		
-U+10345	𐍅	10330..1034F	Gothic	Gothic letter winja		
-U+10346	𐍆	10330..1034F	Gothic	Gothic letter faihu		
-U+10347	𐍇	10330..1034F	Gothic	Gothic letter iggws		
-U+10348	𐍈	10330..1034F	Gothic	Gothic letter hwair		
-U+10349	𐍉	10330..1034F	Gothic	Gothic letter othal		
-U+1034A	𐍊	10330..1034F	Gothic	Gothic letter nine hundred		
+code_points	chars	tab_completions	unicode_name	base
+U+10330	𐌰		GOTHIC LETTER AHSA	
+U+10331	𐌱		GOTHIC LETTER BAIRKAN	
+U+10332	𐌲		GOTHIC LETTER GIBA	
+U+10333	𐌳		GOTHIC LETTER DAGS	
+U+10334	𐌴		GOTHIC LETTER AIHVUS	
+U+10335	𐌵		GOTHIC LETTER QAIRTHRA	
+U+10336	𐌶		GOTHIC LETTER IUJA	
+U+10337	𐌷		GOTHIC LETTER HAGL	
+U+10338	𐌸		GOTHIC LETTER THIUTH	
+U+10339	𐌹		GOTHIC LETTER EIS	
+U+1033A	𐌺		GOTHIC LETTER KUSMA	
+U+1033B	𐌻		GOTHIC LETTER LAGUS	
+U+1033C	𐌼		GOTHIC LETTER MANNA	
+U+1033D	𐌽		GOTHIC LETTER NAUTHS	
+U+1033E	𐌾		GOTHIC LETTER JER	
+U+1033F	𐌿		GOTHIC LETTER URUS	
+U+10340	𐍀		GOTHIC LETTER PAIRTHRA	
+U+10341	𐍁		GOTHIC LETTER NINETY	
+U+10342	𐍂		GOTHIC LETTER RAIDA	
+U+10343	𐍃		GOTHIC LETTER SAUIL	
+U+10344	𐍄		GOTHIC LETTER TEIWS	
+U+10345	𐍅		GOTHIC LETTER WINJA	
+U+10346	𐍆		GOTHIC LETTER FAIHU	
+U+10347	𐍇		GOTHIC LETTER IGGWS	
+U+10348	𐍈		GOTHIC LETTER HWAIR	
+U+10349	𐍉		GOTHIC LETTER OTHAL	
+U+1034A	𐍊		GOTHIC LETTER NINE HUNDRED	

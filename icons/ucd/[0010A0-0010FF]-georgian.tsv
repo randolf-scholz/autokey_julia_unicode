@@ -1,89 +1,89 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10A0	Ⴀ	10A0..10FF	Georgian	Georgian capital letter an		
-U+10A1	Ⴁ	10A0..10FF	Georgian	Georgian capital letter ban		
-U+10A2	Ⴂ	10A0..10FF	Georgian	Georgian capital letter gan		
-U+10A3	Ⴃ	10A0..10FF	Georgian	Georgian capital letter don		
-U+10A4	Ⴄ	10A0..10FF	Georgian	Georgian capital letter en		
-U+10A5	Ⴅ	10A0..10FF	Georgian	Georgian capital letter vin		
-U+10A6	Ⴆ	10A0..10FF	Georgian	Georgian capital letter zen		
-U+10A7	Ⴇ	10A0..10FF	Georgian	Georgian capital letter tan		
-U+10A8	Ⴈ	10A0..10FF	Georgian	Georgian capital letter in		
-U+10A9	Ⴉ	10A0..10FF	Georgian	Georgian capital letter kan		
-U+10AA	Ⴊ	10A0..10FF	Georgian	Georgian capital letter las		
-U+10AB	Ⴋ	10A0..10FF	Georgian	Georgian capital letter man		
-U+10AC	Ⴌ	10A0..10FF	Georgian	Georgian capital letter nar		
-U+10AD	Ⴍ	10A0..10FF	Georgian	Georgian capital letter on		
-U+10AE	Ⴎ	10A0..10FF	Georgian	Georgian capital letter par		
-U+10AF	Ⴏ	10A0..10FF	Georgian	Georgian capital letter zhar		
-U+10B0	Ⴐ	10A0..10FF	Georgian	Georgian capital letter rae		
-U+10B1	Ⴑ	10A0..10FF	Georgian	Georgian capital letter san		
-U+10B2	Ⴒ	10A0..10FF	Georgian	Georgian capital letter tar		
-U+10B3	Ⴓ	10A0..10FF	Georgian	Georgian capital letter un		
-U+10B4	Ⴔ	10A0..10FF	Georgian	Georgian capital letter phar		
-U+10B5	Ⴕ	10A0..10FF	Georgian	Georgian capital letter khar		
-U+10B6	Ⴖ	10A0..10FF	Georgian	Georgian capital letter ghan		
-U+10B7	Ⴗ	10A0..10FF	Georgian	Georgian capital letter qar		
-U+10B8	Ⴘ	10A0..10FF	Georgian	Georgian capital letter shin		
-U+10B9	Ⴙ	10A0..10FF	Georgian	Georgian capital letter chin		
-U+10BA	Ⴚ	10A0..10FF	Georgian	Georgian capital letter can		
-U+10BB	Ⴛ	10A0..10FF	Georgian	Georgian capital letter jil		
-U+10BC	Ⴜ	10A0..10FF	Georgian	Georgian capital letter cil		
-U+10BD	Ⴝ	10A0..10FF	Georgian	Georgian capital letter char		
-U+10BE	Ⴞ	10A0..10FF	Georgian	Georgian capital letter xan		
-U+10BF	Ⴟ	10A0..10FF	Georgian	Georgian capital letter jhan		
-U+10C0	Ⴠ	10A0..10FF	Georgian	Georgian capital letter hae		
-U+10C1	Ⴡ	10A0..10FF	Georgian	Georgian capital letter he		
-U+10C2	Ⴢ	10A0..10FF	Georgian	Georgian capital letter hie		
-U+10C3	Ⴣ	10A0..10FF	Georgian	Georgian capital letter we		
-U+10C4	Ⴤ	10A0..10FF	Georgian	Georgian capital letter har		
-U+10C5	Ⴥ	10A0..10FF	Georgian	Georgian capital letter hoe		
-U+10C7	Ⴧ	10A0..10FF	Georgian	Georgian capital letter yn		
-U+10CD	Ⴭ	10A0..10FF	Georgian	Georgian capital letter aen		
-U+10D0	ა	10A0..10FF	Georgian	Georgian letter an		
-U+10D1	ბ	10A0..10FF	Georgian	Georgian letter ban		
-U+10D2	გ	10A0..10FF	Georgian	Georgian letter gan		
-U+10D3	დ	10A0..10FF	Georgian	Georgian letter don		
-U+10D4	ე	10A0..10FF	Georgian	Georgian letter en		
-U+10D5	ვ	10A0..10FF	Georgian	Georgian letter vin		
-U+10D6	ზ	10A0..10FF	Georgian	Georgian letter zen		
-U+10D7	თ	10A0..10FF	Georgian	Georgian letter tan		
-U+10D8	ი	10A0..10FF	Georgian	Georgian letter in		
-U+10D9	კ	10A0..10FF	Georgian	Georgian letter kan		
-U+10DA	ლ	10A0..10FF	Georgian	Georgian letter las		
-U+10DB	მ	10A0..10FF	Georgian	Georgian letter man		
-U+10DC	ნ	10A0..10FF	Georgian	Georgian letter nar		
-U+10DD	ო	10A0..10FF	Georgian	Georgian letter on		
-U+10DE	პ	10A0..10FF	Georgian	Georgian letter par		
-U+10DF	ჟ	10A0..10FF	Georgian	Georgian letter zhar		
-U+10E0	რ	10A0..10FF	Georgian	Georgian letter rae		
-U+10E1	ს	10A0..10FF	Georgian	Georgian letter san		
-U+10E2	ტ	10A0..10FF	Georgian	Georgian letter tar		
-U+10E3	უ	10A0..10FF	Georgian	Georgian letter un		
-U+10E4	ფ	10A0..10FF	Georgian	Georgian letter phar		
-U+10E5	ქ	10A0..10FF	Georgian	Georgian letter khar		
-U+10E6	ღ	10A0..10FF	Georgian	Georgian letter ghan		
-U+10E7	ყ	10A0..10FF	Georgian	Georgian letter qar		
-U+10E8	შ	10A0..10FF	Georgian	Georgian letter shin		
-U+10E9	ჩ	10A0..10FF	Georgian	Georgian letter chin		
-U+10EA	ც	10A0..10FF	Georgian	Georgian letter can		
-U+10EB	ძ	10A0..10FF	Georgian	Georgian letter jil		
-U+10EC	წ	10A0..10FF	Georgian	Georgian letter cil		
-U+10ED	ჭ	10A0..10FF	Georgian	Georgian letter char		
-U+10EE	ხ	10A0..10FF	Georgian	Georgian letter xan		
-U+10EF	ჯ	10A0..10FF	Georgian	Georgian letter jhan		
-U+10F0	ჰ	10A0..10FF	Georgian	Georgian letter hae		
-U+10F1	ჱ	10A0..10FF	Georgian	Georgian letter he		
-U+10F2	ჲ	10A0..10FF	Georgian	Georgian letter hie		
-U+10F3	ჳ	10A0..10FF	Georgian	Georgian letter we		
-U+10F4	ჴ	10A0..10FF	Georgian	Georgian letter har		
-U+10F5	ჵ	10A0..10FF	Georgian	Georgian letter hoe		
-U+10F6	ჶ	10A0..10FF	Georgian	Georgian letter fi		
-U+10F7	ჷ	10A0..10FF	Georgian	Georgian letter yn		
-U+10F8	ჸ	10A0..10FF	Georgian	Georgian letter elifi		
-U+10F9	ჹ	10A0..10FF	Georgian	Georgian letter turned gan		
-U+10FA	ჺ	10A0..10FF	Georgian	Georgian letter ain		
-U+10FB	჻	10A0..10FF	Georgian	Georgian paragraph separator		
-U+10FC	ჼ	10A0..10FF	Georgian	Modifier letter georgian nar		
-U+10FD	ჽ	10A0..10FF	Georgian	Georgian letter aen		
-U+10FE	ჾ	10A0..10FF	Georgian	Georgian letter hard sign		
-U+10FF	ჿ	10A0..10FF	Georgian	Georgian letter labial sign		
+code_points	chars	tab_completions	unicode_name	base
+U+10A0	Ⴀ		GEORGIAN CAPITAL LETTER AN	
+U+10A1	Ⴁ		GEORGIAN CAPITAL LETTER BAN	
+U+10A2	Ⴂ		GEORGIAN CAPITAL LETTER GAN	
+U+10A3	Ⴃ		GEORGIAN CAPITAL LETTER DON	
+U+10A4	Ⴄ		GEORGIAN CAPITAL LETTER EN	
+U+10A5	Ⴅ		GEORGIAN CAPITAL LETTER VIN	
+U+10A6	Ⴆ		GEORGIAN CAPITAL LETTER ZEN	
+U+10A7	Ⴇ		GEORGIAN CAPITAL LETTER TAN	
+U+10A8	Ⴈ		GEORGIAN CAPITAL LETTER IN	
+U+10A9	Ⴉ		GEORGIAN CAPITAL LETTER KAN	
+U+10AA	Ⴊ		GEORGIAN CAPITAL LETTER LAS	
+U+10AB	Ⴋ		GEORGIAN CAPITAL LETTER MAN	
+U+10AC	Ⴌ		GEORGIAN CAPITAL LETTER NAR	
+U+10AD	Ⴍ		GEORGIAN CAPITAL LETTER ON	
+U+10AE	Ⴎ		GEORGIAN CAPITAL LETTER PAR	
+U+10AF	Ⴏ		GEORGIAN CAPITAL LETTER ZHAR	
+U+10B0	Ⴐ		GEORGIAN CAPITAL LETTER RAE	
+U+10B1	Ⴑ		GEORGIAN CAPITAL LETTER SAN	
+U+10B2	Ⴒ		GEORGIAN CAPITAL LETTER TAR	
+U+10B3	Ⴓ		GEORGIAN CAPITAL LETTER UN	
+U+10B4	Ⴔ		GEORGIAN CAPITAL LETTER PHAR	
+U+10B5	Ⴕ		GEORGIAN CAPITAL LETTER KHAR	
+U+10B6	Ⴖ		GEORGIAN CAPITAL LETTER GHAN	
+U+10B7	Ⴗ		GEORGIAN CAPITAL LETTER QAR	
+U+10B8	Ⴘ		GEORGIAN CAPITAL LETTER SHIN	
+U+10B9	Ⴙ		GEORGIAN CAPITAL LETTER CHIN	
+U+10BA	Ⴚ		GEORGIAN CAPITAL LETTER CAN	
+U+10BB	Ⴛ		GEORGIAN CAPITAL LETTER JIL	
+U+10BC	Ⴜ		GEORGIAN CAPITAL LETTER CIL	
+U+10BD	Ⴝ		GEORGIAN CAPITAL LETTER CHAR	
+U+10BE	Ⴞ		GEORGIAN CAPITAL LETTER XAN	
+U+10BF	Ⴟ		GEORGIAN CAPITAL LETTER JHAN	
+U+10C0	Ⴠ		GEORGIAN CAPITAL LETTER HAE	
+U+10C1	Ⴡ		GEORGIAN CAPITAL LETTER HE	
+U+10C2	Ⴢ		GEORGIAN CAPITAL LETTER HIE	
+U+10C3	Ⴣ		GEORGIAN CAPITAL LETTER WE	
+U+10C4	Ⴤ		GEORGIAN CAPITAL LETTER HAR	
+U+10C5	Ⴥ		GEORGIAN CAPITAL LETTER HOE	
+U+10C7	Ⴧ		GEORGIAN CAPITAL LETTER YN	
+U+10CD	Ⴭ		GEORGIAN CAPITAL LETTER AEN	
+U+10D0	ა		GEORGIAN LETTER AN	
+U+10D1	ბ		GEORGIAN LETTER BAN	
+U+10D2	გ		GEORGIAN LETTER GAN	
+U+10D3	დ		GEORGIAN LETTER DON	
+U+10D4	ე		GEORGIAN LETTER EN	
+U+10D5	ვ		GEORGIAN LETTER VIN	
+U+10D6	ზ		GEORGIAN LETTER ZEN	
+U+10D7	თ		GEORGIAN LETTER TAN	
+U+10D8	ი		GEORGIAN LETTER IN	
+U+10D9	კ		GEORGIAN LETTER KAN	
+U+10DA	ლ		GEORGIAN LETTER LAS	
+U+10DB	მ		GEORGIAN LETTER MAN	
+U+10DC	ნ		GEORGIAN LETTER NAR	
+U+10DD	ო		GEORGIAN LETTER ON	
+U+10DE	პ		GEORGIAN LETTER PAR	
+U+10DF	ჟ		GEORGIAN LETTER ZHAR	
+U+10E0	რ		GEORGIAN LETTER RAE	
+U+10E1	ს		GEORGIAN LETTER SAN	
+U+10E2	ტ		GEORGIAN LETTER TAR	
+U+10E3	უ		GEORGIAN LETTER UN	
+U+10E4	ფ		GEORGIAN LETTER PHAR	
+U+10E5	ქ		GEORGIAN LETTER KHAR	
+U+10E6	ღ		GEORGIAN LETTER GHAN	
+U+10E7	ყ		GEORGIAN LETTER QAR	
+U+10E8	შ		GEORGIAN LETTER SHIN	
+U+10E9	ჩ		GEORGIAN LETTER CHIN	
+U+10EA	ც		GEORGIAN LETTER CAN	
+U+10EB	ძ		GEORGIAN LETTER JIL	
+U+10EC	წ		GEORGIAN LETTER CIL	
+U+10ED	ჭ		GEORGIAN LETTER CHAR	
+U+10EE	ხ		GEORGIAN LETTER XAN	
+U+10EF	ჯ		GEORGIAN LETTER JHAN	
+U+10F0	ჰ		GEORGIAN LETTER HAE	
+U+10F1	ჱ		GEORGIAN LETTER HE	
+U+10F2	ჲ		GEORGIAN LETTER HIE	
+U+10F3	ჳ		GEORGIAN LETTER WE	
+U+10F4	ჴ		GEORGIAN LETTER HAR	
+U+10F5	ჵ		GEORGIAN LETTER HOE	
+U+10F6	ჶ		GEORGIAN LETTER FI	
+U+10F7	ჷ		GEORGIAN LETTER YN	
+U+10F8	ჸ		GEORGIAN LETTER ELIFI	
+U+10F9	ჹ		GEORGIAN LETTER TURNED GAN	
+U+10FA	ჺ		GEORGIAN LETTER AIN	
+U+10FB	჻		GEORGIAN PARAGRAPH SEPARATOR	
+U+10FC	ჼ		MODIFIER LETTER GEORGIAN NAR	
+U+10FD	ჽ		GEORGIAN LETTER AEN	
+U+10FE	ჾ		GEORGIAN LETTER HARD SIGN	
+U+10FF	ჿ		GEORGIAN LETTER LABIAL SIGN	

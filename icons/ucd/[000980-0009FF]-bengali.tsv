@@ -1,97 +1,97 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0980	ঀ	0980..09FF	Bengali	Bengali anji		
-U+0981	ঁ	0980..09FF	Bengali	Bengali sign candrabindu		
-U+0982	ং	0980..09FF	Bengali	Bengali sign anusvara		
-U+0983	ঃ	0980..09FF	Bengali	Bengali sign visarga		
-U+0985	অ	0980..09FF	Bengali	Bengali letter a		
-U+0986	আ	0980..09FF	Bengali	Bengali letter aa		
-U+0987	ই	0980..09FF	Bengali	Bengali letter i		
-U+0988	ঈ	0980..09FF	Bengali	Bengali letter ii		
-U+0989	উ	0980..09FF	Bengali	Bengali letter u		
-U+098A	ঊ	0980..09FF	Bengali	Bengali letter uu		
-U+098B	ঋ	0980..09FF	Bengali	Bengali letter vocalic r		
-U+098C	ঌ	0980..09FF	Bengali	Bengali letter vocalic l		
-U+098F	এ	0980..09FF	Bengali	Bengali letter e		
-U+0990	ঐ	0980..09FF	Bengali	Bengali letter ai		
-U+0993	ও	0980..09FF	Bengali	Bengali letter o		
-U+0994	ঔ	0980..09FF	Bengali	Bengali letter au		
-U+0995	ক	0980..09FF	Bengali	Bengali letter ka		
-U+0996	খ	0980..09FF	Bengali	Bengali letter kha		
-U+0997	গ	0980..09FF	Bengali	Bengali letter ga		
-U+0998	ঘ	0980..09FF	Bengali	Bengali letter gha		
-U+0999	ঙ	0980..09FF	Bengali	Bengali letter nga		
-U+099A	চ	0980..09FF	Bengali	Bengali letter ca		
-U+099B	ছ	0980..09FF	Bengali	Bengali letter cha		
-U+099C	জ	0980..09FF	Bengali	Bengali letter ja		
-U+099D	ঝ	0980..09FF	Bengali	Bengali letter jha		
-U+099E	ঞ	0980..09FF	Bengali	Bengali letter nya		
-U+099F	ট	0980..09FF	Bengali	Bengali letter tta		
-U+09A0	ঠ	0980..09FF	Bengali	Bengali letter ttha		
-U+09A1	ড	0980..09FF	Bengali	Bengali letter dda		
-U+09A2	ঢ	0980..09FF	Bengali	Bengali letter ddha		
-U+09A3	ণ	0980..09FF	Bengali	Bengali letter nna		
-U+09A4	ত	0980..09FF	Bengali	Bengali letter ta		
-U+09A5	থ	0980..09FF	Bengali	Bengali letter tha		
-U+09A6	দ	0980..09FF	Bengali	Bengali letter da		
-U+09A7	ধ	0980..09FF	Bengali	Bengali letter dha		
-U+09A8	ন	0980..09FF	Bengali	Bengali letter na		
-U+09AA	প	0980..09FF	Bengali	Bengali letter pa		
-U+09AB	ফ	0980..09FF	Bengali	Bengali letter pha		
-U+09AC	ব	0980..09FF	Bengali	Bengali letter ba		
-U+09AD	ভ	0980..09FF	Bengali	Bengali letter bha		
-U+09AE	ম	0980..09FF	Bengali	Bengali letter ma		
-U+09AF	য	0980..09FF	Bengali	Bengali letter ya		
-U+09B0	র	0980..09FF	Bengali	Bengali letter ra		
-U+09B2	ল	0980..09FF	Bengali	Bengali letter la		
-U+09B6	শ	0980..09FF	Bengali	Bengali letter sha		
-U+09B7	ষ	0980..09FF	Bengali	Bengali letter ssa		
-U+09B8	স	0980..09FF	Bengali	Bengali letter sa		
-U+09B9	হ	0980..09FF	Bengali	Bengali letter ha		
-U+09BC	়	0980..09FF	Bengali	Bengali sign nukta		
-U+09BD	ঽ	0980..09FF	Bengali	Bengali sign avagraha		
-U+09BE	া	0980..09FF	Bengali	Bengali vowel sign aa		
-U+09BF	ি	0980..09FF	Bengali	Bengali vowel sign i		
-U+09C0	ী	0980..09FF	Bengali	Bengali vowel sign ii		
-U+09C1	ু	0980..09FF	Bengali	Bengali vowel sign u		
-U+09C2	ূ	0980..09FF	Bengali	Bengali vowel sign uu		
-U+09C3	ৃ	0980..09FF	Bengali	Bengali vowel sign vocalic r		
-U+09C4	ৄ	0980..09FF	Bengali	Bengali vowel sign vocalic rr		
-U+09C7	ে	0980..09FF	Bengali	Bengali vowel sign e		
-U+09C8	ৈ	0980..09FF	Bengali	Bengali vowel sign ai		
-U+09CB	ো	0980..09FF	Bengali	Bengali vowel sign o		
-U+09CC	ৌ	0980..09FF	Bengali	Bengali vowel sign au		
-U+09CD	্	0980..09FF	Bengali	Bengali sign virama		
-U+09CE	ৎ	0980..09FF	Bengali	Bengali letter khanda ta		
-U+09D7	ৗ	0980..09FF	Bengali	Bengali au length mark		
-U+09DC	ড়	0980..09FF	Bengali	Bengali letter rra		
-U+09DD	ঢ়	0980..09FF	Bengali	Bengali letter rha		
-U+09DF	য়	0980..09FF	Bengali	Bengali letter yya		
-U+09E0	ৠ	0980..09FF	Bengali	Bengali letter vocalic rr		
-U+09E1	ৡ	0980..09FF	Bengali	Bengali letter vocalic ll		
-U+09E2	ৢ	0980..09FF	Bengali	Bengali vowel sign vocalic l		
-U+09E3	ৣ	0980..09FF	Bengali	Bengali vowel sign vocalic ll		
-U+09E6	০	0980..09FF	Bengali	Bengali digit zero		
-U+09E7	১	0980..09FF	Bengali	Bengali digit one		
-U+09E8	২	0980..09FF	Bengali	Bengali digit two		
-U+09E9	৩	0980..09FF	Bengali	Bengali digit three		
-U+09EA	৪	0980..09FF	Bengali	Bengali digit four		
-U+09EB	৫	0980..09FF	Bengali	Bengali digit five		
-U+09EC	৬	0980..09FF	Bengali	Bengali digit six		
-U+09ED	৭	0980..09FF	Bengali	Bengali digit seven		
-U+09EE	৮	0980..09FF	Bengali	Bengali digit eight		
-U+09EF	৯	0980..09FF	Bengali	Bengali digit nine		
-U+09F0	ৰ	0980..09FF	Bengali	Bengali letter ra with middle diagonal		
-U+09F1	ৱ	0980..09FF	Bengali	Bengali letter ra with lower diagonal		
-U+09F2	৲	0980..09FF	Bengali	Bengali rupee mark		
-U+09F3	৳	0980..09FF	Bengali	Bengali rupee sign		
-U+09F4	৴	0980..09FF	Bengali	Bengali currency numerator one		
-U+09F5	৵	0980..09FF	Bengali	Bengali currency numerator two		
-U+09F6	৶	0980..09FF	Bengali	Bengali currency numerator three		
-U+09F7	৷	0980..09FF	Bengali	Bengali currency numerator four		
-U+09F8	৸	0980..09FF	Bengali	Bengali currency numerator one less than the denominator		
-U+09F9	৹	0980..09FF	Bengali	Bengali currency denominator sixteen		
-U+09FA	৺	0980..09FF	Bengali	Bengali isshar		
-U+09FB	৻	0980..09FF	Bengali	Bengali ganda mark		
-U+09FC	ৼ	0980..09FF	Bengali	Bengali letter vedic anusvara		
-U+09FD	৽	0980..09FF	Bengali	Bengali abbreviation sign		
-U+09FE	৾	0980..09FF	Bengali	Bengali sandhi mark		
+code_points	chars	tab_completions	unicode_name	base
+U+0980	ঀ		BENGALI ANJI	
+U+0981	ঁ		BENGALI SIGN CANDRABINDU	
+U+0982	ং		BENGALI SIGN ANUSVARA	
+U+0983	ঃ		BENGALI SIGN VISARGA	
+U+0985	অ		BENGALI LETTER A	
+U+0986	আ		BENGALI LETTER AA	
+U+0987	ই		BENGALI LETTER I	
+U+0988	ঈ		BENGALI LETTER II	
+U+0989	উ		BENGALI LETTER U	
+U+098A	ঊ		BENGALI LETTER UU	
+U+098B	ঋ		BENGALI LETTER VOCALIC R	
+U+098C	ঌ		BENGALI LETTER VOCALIC L	
+U+098F	এ		BENGALI LETTER E	
+U+0990	ঐ		BENGALI LETTER AI	
+U+0993	ও		BENGALI LETTER O	
+U+0994	ঔ		BENGALI LETTER AU	
+U+0995	ক		BENGALI LETTER KA	
+U+0996	খ		BENGALI LETTER KHA	
+U+0997	গ		BENGALI LETTER GA	
+U+0998	ঘ		BENGALI LETTER GHA	
+U+0999	ঙ		BENGALI LETTER NGA	
+U+099A	চ		BENGALI LETTER CA	
+U+099B	ছ		BENGALI LETTER CHA	
+U+099C	জ		BENGALI LETTER JA	
+U+099D	ঝ		BENGALI LETTER JHA	
+U+099E	ঞ		BENGALI LETTER NYA	
+U+099F	ট		BENGALI LETTER TTA	
+U+09A0	ঠ		BENGALI LETTER TTHA	
+U+09A1	ড		BENGALI LETTER DDA	
+U+09A2	ঢ		BENGALI LETTER DDHA	
+U+09A3	ণ		BENGALI LETTER NNA	
+U+09A4	ত		BENGALI LETTER TA	
+U+09A5	থ		BENGALI LETTER THA	
+U+09A6	দ		BENGALI LETTER DA	
+U+09A7	ধ		BENGALI LETTER DHA	
+U+09A8	ন		BENGALI LETTER NA	
+U+09AA	প		BENGALI LETTER PA	
+U+09AB	ফ		BENGALI LETTER PHA	
+U+09AC	ব		BENGALI LETTER BA	
+U+09AD	ভ		BENGALI LETTER BHA	
+U+09AE	ম		BENGALI LETTER MA	
+U+09AF	য		BENGALI LETTER YA	
+U+09B0	র		BENGALI LETTER RA	
+U+09B2	ল		BENGALI LETTER LA	
+U+09B6	শ		BENGALI LETTER SHA	
+U+09B7	ষ		BENGALI LETTER SSA	
+U+09B8	স		BENGALI LETTER SA	
+U+09B9	হ		BENGALI LETTER HA	
+U+09BC	়		BENGALI SIGN NUKTA	
+U+09BD	ঽ		BENGALI SIGN AVAGRAHA	
+U+09BE	া		BENGALI VOWEL SIGN AA	
+U+09BF	ি		BENGALI VOWEL SIGN I	
+U+09C0	ী		BENGALI VOWEL SIGN II	
+U+09C1	ু		BENGALI VOWEL SIGN U	
+U+09C2	ূ		BENGALI VOWEL SIGN UU	
+U+09C3	ৃ		BENGALI VOWEL SIGN VOCALIC R	
+U+09C4	ৄ		BENGALI VOWEL SIGN VOCALIC RR	
+U+09C7	ে		BENGALI VOWEL SIGN E	
+U+09C8	ৈ		BENGALI VOWEL SIGN AI	
+U+09CB	ো		BENGALI VOWEL SIGN O	
+U+09CC	ৌ		BENGALI VOWEL SIGN AU	
+U+09CD	্		BENGALI SIGN VIRAMA	
+U+09CE	ৎ		BENGALI LETTER KHANDA TA	
+U+09D7	ৗ		BENGALI AU LENGTH MARK	
+U+09DC	ড়		BENGALI LETTER RRA	
+U+09DD	ঢ়		BENGALI LETTER RHA	
+U+09DF	য়		BENGALI LETTER YYA	
+U+09E0	ৠ		BENGALI LETTER VOCALIC RR	
+U+09E1	ৡ		BENGALI LETTER VOCALIC LL	
+U+09E2	ৢ		BENGALI VOWEL SIGN VOCALIC L	
+U+09E3	ৣ		BENGALI VOWEL SIGN VOCALIC LL	
+U+09E6	০		BENGALI DIGIT ZERO	
+U+09E7	১		BENGALI DIGIT ONE	
+U+09E8	২		BENGALI DIGIT TWO	
+U+09E9	৩		BENGALI DIGIT THREE	
+U+09EA	৪		BENGALI DIGIT FOUR	
+U+09EB	৫		BENGALI DIGIT FIVE	
+U+09EC	৬		BENGALI DIGIT SIX	
+U+09ED	৭		BENGALI DIGIT SEVEN	
+U+09EE	৮		BENGALI DIGIT EIGHT	
+U+09EF	৯		BENGALI DIGIT NINE	
+U+09F0	ৰ		BENGALI LETTER RA WITH MIDDLE DIAGONAL	
+U+09F1	ৱ		BENGALI LETTER RA WITH LOWER DIAGONAL	
+U+09F2	৲		BENGALI RUPEE MARK	
+U+09F3	৳		BENGALI RUPEE SIGN	
+U+09F4	৴		BENGALI CURRENCY NUMERATOR ONE	
+U+09F5	৵		BENGALI CURRENCY NUMERATOR TWO	
+U+09F6	৶		BENGALI CURRENCY NUMERATOR THREE	
+U+09F7	৷		BENGALI CURRENCY NUMERATOR FOUR	
+U+09F8	৸		BENGALI CURRENCY NUMERATOR ONE LESS THAN THE DENOMINATOR	
+U+09F9	৹		BENGALI CURRENCY DENOMINATOR SIXTEEN	
+U+09FA	৺		BENGALI ISSHAR	
+U+09FB	৻		BENGALI GANDA MARK	
+U+09FC	ৼ		BENGALI LETTER VEDIC ANUSVARA	
+U+09FD	৽		BENGALI ABBREVIATION SIGN	
+U+09FE	৾		BENGALI SANDHI MARK	

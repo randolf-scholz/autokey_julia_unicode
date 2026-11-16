@@ -1,1166 +1,1166 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A000	ꀀ	A000..A48F	Yi Syllables	Yi syllable it		
-U+A001	ꀁ	A000..A48F	Yi Syllables	Yi syllable ix		
-U+A002	ꀂ	A000..A48F	Yi Syllables	Yi syllable i		
-U+A003	ꀃ	A000..A48F	Yi Syllables	Yi syllable ip		
-U+A004	ꀄ	A000..A48F	Yi Syllables	Yi syllable iet		
-U+A005	ꀅ	A000..A48F	Yi Syllables	Yi syllable iex		
-U+A006	ꀆ	A000..A48F	Yi Syllables	Yi syllable ie		
-U+A007	ꀇ	A000..A48F	Yi Syllables	Yi syllable iep		
-U+A008	ꀈ	A000..A48F	Yi Syllables	Yi syllable at		
-U+A009	ꀉ	A000..A48F	Yi Syllables	Yi syllable ax		
-U+A00A	ꀊ	A000..A48F	Yi Syllables	Yi syllable a		
-U+A00B	ꀋ	A000..A48F	Yi Syllables	Yi syllable ap		
-U+A00C	ꀌ	A000..A48F	Yi Syllables	Yi syllable uox		
-U+A00D	ꀍ	A000..A48F	Yi Syllables	Yi syllable uo		
-U+A00E	ꀎ	A000..A48F	Yi Syllables	Yi syllable uop		
-U+A00F	ꀏ	A000..A48F	Yi Syllables	Yi syllable ot		
-U+A010	ꀐ	A000..A48F	Yi Syllables	Yi syllable ox		
-U+A011	ꀑ	A000..A48F	Yi Syllables	Yi syllable o		
-U+A012	ꀒ	A000..A48F	Yi Syllables	Yi syllable op		
-U+A013	ꀓ	A000..A48F	Yi Syllables	Yi syllable ex		
-U+A014	ꀔ	A000..A48F	Yi Syllables	Yi syllable e		
-U+A015	ꀕ	A000..A48F	Yi Syllables	Yi syllable wu		
-U+A016	ꀖ	A000..A48F	Yi Syllables	Yi syllable bit		
-U+A017	ꀗ	A000..A48F	Yi Syllables	Yi syllable bix		
-U+A018	ꀘ	A000..A48F	Yi Syllables	Yi syllable bi		
-U+A019	ꀙ	A000..A48F	Yi Syllables	Yi syllable bip		
-U+A01A	ꀚ	A000..A48F	Yi Syllables	Yi syllable biet		
-U+A01B	ꀛ	A000..A48F	Yi Syllables	Yi syllable biex		
-U+A01C	ꀜ	A000..A48F	Yi Syllables	Yi syllable bie		
-U+A01D	ꀝ	A000..A48F	Yi Syllables	Yi syllable biep		
-U+A01E	ꀞ	A000..A48F	Yi Syllables	Yi syllable bat		
-U+A01F	ꀟ	A000..A48F	Yi Syllables	Yi syllable bax		
-U+A020	ꀠ	A000..A48F	Yi Syllables	Yi syllable ba		
-U+A021	ꀡ	A000..A48F	Yi Syllables	Yi syllable bap		
-U+A022	ꀢ	A000..A48F	Yi Syllables	Yi syllable buox		
-U+A023	ꀣ	A000..A48F	Yi Syllables	Yi syllable buo		
-U+A024	ꀤ	A000..A48F	Yi Syllables	Yi syllable buop		
-U+A025	ꀥ	A000..A48F	Yi Syllables	Yi syllable bot		
-U+A026	ꀦ	A000..A48F	Yi Syllables	Yi syllable box		
-U+A027	ꀧ	A000..A48F	Yi Syllables	Yi syllable bo		
-U+A028	ꀨ	A000..A48F	Yi Syllables	Yi syllable bop		
-U+A029	ꀩ	A000..A48F	Yi Syllables	Yi syllable bex		
-U+A02A	ꀪ	A000..A48F	Yi Syllables	Yi syllable be		
-U+A02B	ꀫ	A000..A48F	Yi Syllables	Yi syllable bep		
-U+A02C	ꀬ	A000..A48F	Yi Syllables	Yi syllable but		
-U+A02D	ꀭ	A000..A48F	Yi Syllables	Yi syllable bux		
-U+A02E	ꀮ	A000..A48F	Yi Syllables	Yi syllable bu		
-U+A02F	ꀯ	A000..A48F	Yi Syllables	Yi syllable bup		
-U+A030	ꀰ	A000..A48F	Yi Syllables	Yi syllable burx		
-U+A031	ꀱ	A000..A48F	Yi Syllables	Yi syllable bur		
-U+A032	ꀲ	A000..A48F	Yi Syllables	Yi syllable byt		
-U+A033	ꀳ	A000..A48F	Yi Syllables	Yi syllable byx		
-U+A034	ꀴ	A000..A48F	Yi Syllables	Yi syllable by		
-U+A035	ꀵ	A000..A48F	Yi Syllables	Yi syllable byp		
-U+A036	ꀶ	A000..A48F	Yi Syllables	Yi syllable byrx		
-U+A037	ꀷ	A000..A48F	Yi Syllables	Yi syllable byr		
-U+A038	ꀸ	A000..A48F	Yi Syllables	Yi syllable pit		
-U+A039	ꀹ	A000..A48F	Yi Syllables	Yi syllable pix		
-U+A03A	ꀺ	A000..A48F	Yi Syllables	Yi syllable pi		
-U+A03B	ꀻ	A000..A48F	Yi Syllables	Yi syllable pip		
-U+A03C	ꀼ	A000..A48F	Yi Syllables	Yi syllable piex		
-U+A03D	ꀽ	A000..A48F	Yi Syllables	Yi syllable pie		
-U+A03E	ꀾ	A000..A48F	Yi Syllables	Yi syllable piep		
-U+A03F	ꀿ	A000..A48F	Yi Syllables	Yi syllable pat		
-U+A040	ꁀ	A000..A48F	Yi Syllables	Yi syllable pax		
-U+A041	ꁁ	A000..A48F	Yi Syllables	Yi syllable pa		
-U+A042	ꁂ	A000..A48F	Yi Syllables	Yi syllable pap		
-U+A043	ꁃ	A000..A48F	Yi Syllables	Yi syllable puox		
-U+A044	ꁄ	A000..A48F	Yi Syllables	Yi syllable puo		
-U+A045	ꁅ	A000..A48F	Yi Syllables	Yi syllable puop		
-U+A046	ꁆ	A000..A48F	Yi Syllables	Yi syllable pot		
-U+A047	ꁇ	A000..A48F	Yi Syllables	Yi syllable pox		
-U+A048	ꁈ	A000..A48F	Yi Syllables	Yi syllable po		
-U+A049	ꁉ	A000..A48F	Yi Syllables	Yi syllable pop		
-U+A04A	ꁊ	A000..A48F	Yi Syllables	Yi syllable put		
-U+A04B	ꁋ	A000..A48F	Yi Syllables	Yi syllable pux		
-U+A04C	ꁌ	A000..A48F	Yi Syllables	Yi syllable pu		
-U+A04D	ꁍ	A000..A48F	Yi Syllables	Yi syllable pup		
-U+A04E	ꁎ	A000..A48F	Yi Syllables	Yi syllable purx		
-U+A04F	ꁏ	A000..A48F	Yi Syllables	Yi syllable pur		
-U+A050	ꁐ	A000..A48F	Yi Syllables	Yi syllable pyt		
-U+A051	ꁑ	A000..A48F	Yi Syllables	Yi syllable pyx		
-U+A052	ꁒ	A000..A48F	Yi Syllables	Yi syllable py		
-U+A053	ꁓ	A000..A48F	Yi Syllables	Yi syllable pyp		
-U+A054	ꁔ	A000..A48F	Yi Syllables	Yi syllable pyrx		
-U+A055	ꁕ	A000..A48F	Yi Syllables	Yi syllable pyr		
-U+A056	ꁖ	A000..A48F	Yi Syllables	Yi syllable bbit		
-U+A057	ꁗ	A000..A48F	Yi Syllables	Yi syllable bbix		
-U+A058	ꁘ	A000..A48F	Yi Syllables	Yi syllable bbi		
-U+A059	ꁙ	A000..A48F	Yi Syllables	Yi syllable bbip		
-U+A05A	ꁚ	A000..A48F	Yi Syllables	Yi syllable bbiet		
-U+A05B	ꁛ	A000..A48F	Yi Syllables	Yi syllable bbiex		
-U+A05C	ꁜ	A000..A48F	Yi Syllables	Yi syllable bbie		
-U+A05D	ꁝ	A000..A48F	Yi Syllables	Yi syllable bbiep		
-U+A05E	ꁞ	A000..A48F	Yi Syllables	Yi syllable bbat		
-U+A05F	ꁟ	A000..A48F	Yi Syllables	Yi syllable bbax		
-U+A060	ꁠ	A000..A48F	Yi Syllables	Yi syllable bba		
-U+A061	ꁡ	A000..A48F	Yi Syllables	Yi syllable bbap		
-U+A062	ꁢ	A000..A48F	Yi Syllables	Yi syllable bbuox		
-U+A063	ꁣ	A000..A48F	Yi Syllables	Yi syllable bbuo		
-U+A064	ꁤ	A000..A48F	Yi Syllables	Yi syllable bbuop		
-U+A065	ꁥ	A000..A48F	Yi Syllables	Yi syllable bbot		
-U+A066	ꁦ	A000..A48F	Yi Syllables	Yi syllable bbox		
-U+A067	ꁧ	A000..A48F	Yi Syllables	Yi syllable bbo		
-U+A068	ꁨ	A000..A48F	Yi Syllables	Yi syllable bbop		
-U+A069	ꁩ	A000..A48F	Yi Syllables	Yi syllable bbex		
-U+A06A	ꁪ	A000..A48F	Yi Syllables	Yi syllable bbe		
-U+A06B	ꁫ	A000..A48F	Yi Syllables	Yi syllable bbep		
-U+A06C	ꁬ	A000..A48F	Yi Syllables	Yi syllable bbut		
-U+A06D	ꁭ	A000..A48F	Yi Syllables	Yi syllable bbux		
-U+A06E	ꁮ	A000..A48F	Yi Syllables	Yi syllable bbu		
-U+A06F	ꁯ	A000..A48F	Yi Syllables	Yi syllable bbup		
-U+A070	ꁰ	A000..A48F	Yi Syllables	Yi syllable bburx		
-U+A071	ꁱ	A000..A48F	Yi Syllables	Yi syllable bbur		
-U+A072	ꁲ	A000..A48F	Yi Syllables	Yi syllable bbyt		
-U+A073	ꁳ	A000..A48F	Yi Syllables	Yi syllable bbyx		
-U+A074	ꁴ	A000..A48F	Yi Syllables	Yi syllable bby		
-U+A075	ꁵ	A000..A48F	Yi Syllables	Yi syllable bbyp		
-U+A076	ꁶ	A000..A48F	Yi Syllables	Yi syllable nbit		
-U+A077	ꁷ	A000..A48F	Yi Syllables	Yi syllable nbix		
-U+A078	ꁸ	A000..A48F	Yi Syllables	Yi syllable nbi		
-U+A079	ꁹ	A000..A48F	Yi Syllables	Yi syllable nbip		
-U+A07A	ꁺ	A000..A48F	Yi Syllables	Yi syllable nbiex		
-U+A07B	ꁻ	A000..A48F	Yi Syllables	Yi syllable nbie		
-U+A07C	ꁼ	A000..A48F	Yi Syllables	Yi syllable nbiep		
-U+A07D	ꁽ	A000..A48F	Yi Syllables	Yi syllable nbat		
-U+A07E	ꁾ	A000..A48F	Yi Syllables	Yi syllable nbax		
-U+A07F	ꁿ	A000..A48F	Yi Syllables	Yi syllable nba		
-U+A080	ꂀ	A000..A48F	Yi Syllables	Yi syllable nbap		
-U+A081	ꂁ	A000..A48F	Yi Syllables	Yi syllable nbot		
-U+A082	ꂂ	A000..A48F	Yi Syllables	Yi syllable nbox		
-U+A083	ꂃ	A000..A48F	Yi Syllables	Yi syllable nbo		
-U+A084	ꂄ	A000..A48F	Yi Syllables	Yi syllable nbop		
-U+A085	ꂅ	A000..A48F	Yi Syllables	Yi syllable nbut		
-U+A086	ꂆ	A000..A48F	Yi Syllables	Yi syllable nbux		
-U+A087	ꂇ	A000..A48F	Yi Syllables	Yi syllable nbu		
-U+A088	ꂈ	A000..A48F	Yi Syllables	Yi syllable nbup		
-U+A089	ꂉ	A000..A48F	Yi Syllables	Yi syllable nburx		
-U+A08A	ꂊ	A000..A48F	Yi Syllables	Yi syllable nbur		
-U+A08B	ꂋ	A000..A48F	Yi Syllables	Yi syllable nbyt		
-U+A08C	ꂌ	A000..A48F	Yi Syllables	Yi syllable nbyx		
-U+A08D	ꂍ	A000..A48F	Yi Syllables	Yi syllable nby		
-U+A08E	ꂎ	A000..A48F	Yi Syllables	Yi syllable nbyp		
-U+A08F	ꂏ	A000..A48F	Yi Syllables	Yi syllable nbyrx		
-U+A090	ꂐ	A000..A48F	Yi Syllables	Yi syllable nbyr		
-U+A091	ꂑ	A000..A48F	Yi Syllables	Yi syllable hmit		
-U+A092	ꂒ	A000..A48F	Yi Syllables	Yi syllable hmix		
-U+A093	ꂓ	A000..A48F	Yi Syllables	Yi syllable hmi		
-U+A094	ꂔ	A000..A48F	Yi Syllables	Yi syllable hmip		
-U+A095	ꂕ	A000..A48F	Yi Syllables	Yi syllable hmiex		
-U+A096	ꂖ	A000..A48F	Yi Syllables	Yi syllable hmie		
-U+A097	ꂗ	A000..A48F	Yi Syllables	Yi syllable hmiep		
-U+A098	ꂘ	A000..A48F	Yi Syllables	Yi syllable hmat		
-U+A099	ꂙ	A000..A48F	Yi Syllables	Yi syllable hmax		
-U+A09A	ꂚ	A000..A48F	Yi Syllables	Yi syllable hma		
-U+A09B	ꂛ	A000..A48F	Yi Syllables	Yi syllable hmap		
-U+A09C	ꂜ	A000..A48F	Yi Syllables	Yi syllable hmuox		
-U+A09D	ꂝ	A000..A48F	Yi Syllables	Yi syllable hmuo		
-U+A09E	ꂞ	A000..A48F	Yi Syllables	Yi syllable hmuop		
-U+A09F	ꂟ	A000..A48F	Yi Syllables	Yi syllable hmot		
-U+A0A0	ꂠ	A000..A48F	Yi Syllables	Yi syllable hmox		
-U+A0A1	ꂡ	A000..A48F	Yi Syllables	Yi syllable hmo		
-U+A0A2	ꂢ	A000..A48F	Yi Syllables	Yi syllable hmop		
-U+A0A3	ꂣ	A000..A48F	Yi Syllables	Yi syllable hmut		
-U+A0A4	ꂤ	A000..A48F	Yi Syllables	Yi syllable hmux		
-U+A0A5	ꂥ	A000..A48F	Yi Syllables	Yi syllable hmu		
-U+A0A6	ꂦ	A000..A48F	Yi Syllables	Yi syllable hmup		
-U+A0A7	ꂧ	A000..A48F	Yi Syllables	Yi syllable hmurx		
-U+A0A8	ꂨ	A000..A48F	Yi Syllables	Yi syllable hmur		
-U+A0A9	ꂩ	A000..A48F	Yi Syllables	Yi syllable hmyx		
-U+A0AA	ꂪ	A000..A48F	Yi Syllables	Yi syllable hmy		
-U+A0AB	ꂫ	A000..A48F	Yi Syllables	Yi syllable hmyp		
-U+A0AC	ꂬ	A000..A48F	Yi Syllables	Yi syllable hmyrx		
-U+A0AD	ꂭ	A000..A48F	Yi Syllables	Yi syllable hmyr		
-U+A0AE	ꂮ	A000..A48F	Yi Syllables	Yi syllable mit		
-U+A0AF	ꂯ	A000..A48F	Yi Syllables	Yi syllable mix		
-U+A0B0	ꂰ	A000..A48F	Yi Syllables	Yi syllable mi		
-U+A0B1	ꂱ	A000..A48F	Yi Syllables	Yi syllable mip		
-U+A0B2	ꂲ	A000..A48F	Yi Syllables	Yi syllable miex		
-U+A0B3	ꂳ	A000..A48F	Yi Syllables	Yi syllable mie		
-U+A0B4	ꂴ	A000..A48F	Yi Syllables	Yi syllable miep		
-U+A0B5	ꂵ	A000..A48F	Yi Syllables	Yi syllable mat		
-U+A0B6	ꂶ	A000..A48F	Yi Syllables	Yi syllable max		
-U+A0B7	ꂷ	A000..A48F	Yi Syllables	Yi syllable ma		
-U+A0B8	ꂸ	A000..A48F	Yi Syllables	Yi syllable map		
-U+A0B9	ꂹ	A000..A48F	Yi Syllables	Yi syllable muot		
-U+A0BA	ꂺ	A000..A48F	Yi Syllables	Yi syllable muox		
-U+A0BB	ꂻ	A000..A48F	Yi Syllables	Yi syllable muo		
-U+A0BC	ꂼ	A000..A48F	Yi Syllables	Yi syllable muop		
-U+A0BD	ꂽ	A000..A48F	Yi Syllables	Yi syllable mot		
-U+A0BE	ꂾ	A000..A48F	Yi Syllables	Yi syllable mox		
-U+A0BF	ꂿ	A000..A48F	Yi Syllables	Yi syllable mo		
-U+A0C0	ꃀ	A000..A48F	Yi Syllables	Yi syllable mop		
-U+A0C1	ꃁ	A000..A48F	Yi Syllables	Yi syllable mex		
-U+A0C2	ꃂ	A000..A48F	Yi Syllables	Yi syllable me		
-U+A0C3	ꃃ	A000..A48F	Yi Syllables	Yi syllable mut		
-U+A0C4	ꃄ	A000..A48F	Yi Syllables	Yi syllable mux		
-U+A0C5	ꃅ	A000..A48F	Yi Syllables	Yi syllable mu		
-U+A0C6	ꃆ	A000..A48F	Yi Syllables	Yi syllable mup		
-U+A0C7	ꃇ	A000..A48F	Yi Syllables	Yi syllable murx		
-U+A0C8	ꃈ	A000..A48F	Yi Syllables	Yi syllable mur		
-U+A0C9	ꃉ	A000..A48F	Yi Syllables	Yi syllable myt		
-U+A0CA	ꃊ	A000..A48F	Yi Syllables	Yi syllable myx		
-U+A0CB	ꃋ	A000..A48F	Yi Syllables	Yi syllable my		
-U+A0CC	ꃌ	A000..A48F	Yi Syllables	Yi syllable myp		
-U+A0CD	ꃍ	A000..A48F	Yi Syllables	Yi syllable fit		
-U+A0CE	ꃎ	A000..A48F	Yi Syllables	Yi syllable fix		
-U+A0CF	ꃏ	A000..A48F	Yi Syllables	Yi syllable fi		
-U+A0D0	ꃐ	A000..A48F	Yi Syllables	Yi syllable fip		
-U+A0D1	ꃑ	A000..A48F	Yi Syllables	Yi syllable fat		
-U+A0D2	ꃒ	A000..A48F	Yi Syllables	Yi syllable fax		
-U+A0D3	ꃓ	A000..A48F	Yi Syllables	Yi syllable fa		
-U+A0D4	ꃔ	A000..A48F	Yi Syllables	Yi syllable fap		
-U+A0D5	ꃕ	A000..A48F	Yi Syllables	Yi syllable fox		
-U+A0D6	ꃖ	A000..A48F	Yi Syllables	Yi syllable fo		
-U+A0D7	ꃗ	A000..A48F	Yi Syllables	Yi syllable fop		
-U+A0D8	ꃘ	A000..A48F	Yi Syllables	Yi syllable fut		
-U+A0D9	ꃙ	A000..A48F	Yi Syllables	Yi syllable fux		
-U+A0DA	ꃚ	A000..A48F	Yi Syllables	Yi syllable fu		
-U+A0DB	ꃛ	A000..A48F	Yi Syllables	Yi syllable fup		
-U+A0DC	ꃜ	A000..A48F	Yi Syllables	Yi syllable furx		
-U+A0DD	ꃝ	A000..A48F	Yi Syllables	Yi syllable fur		
-U+A0DE	ꃞ	A000..A48F	Yi Syllables	Yi syllable fyt		
-U+A0DF	ꃟ	A000..A48F	Yi Syllables	Yi syllable fyx		
-U+A0E0	ꃠ	A000..A48F	Yi Syllables	Yi syllable fy		
-U+A0E1	ꃡ	A000..A48F	Yi Syllables	Yi syllable fyp		
-U+A0E2	ꃢ	A000..A48F	Yi Syllables	Yi syllable vit		
-U+A0E3	ꃣ	A000..A48F	Yi Syllables	Yi syllable vix		
-U+A0E4	ꃤ	A000..A48F	Yi Syllables	Yi syllable vi		
-U+A0E5	ꃥ	A000..A48F	Yi Syllables	Yi syllable vip		
-U+A0E6	ꃦ	A000..A48F	Yi Syllables	Yi syllable viet		
-U+A0E7	ꃧ	A000..A48F	Yi Syllables	Yi syllable viex		
-U+A0E8	ꃨ	A000..A48F	Yi Syllables	Yi syllable vie		
-U+A0E9	ꃩ	A000..A48F	Yi Syllables	Yi syllable viep		
-U+A0EA	ꃪ	A000..A48F	Yi Syllables	Yi syllable vat		
-U+A0EB	ꃫ	A000..A48F	Yi Syllables	Yi syllable vax		
-U+A0EC	ꃬ	A000..A48F	Yi Syllables	Yi syllable va		
-U+A0ED	ꃭ	A000..A48F	Yi Syllables	Yi syllable vap		
-U+A0EE	ꃮ	A000..A48F	Yi Syllables	Yi syllable vot		
-U+A0EF	ꃯ	A000..A48F	Yi Syllables	Yi syllable vox		
-U+A0F0	ꃰ	A000..A48F	Yi Syllables	Yi syllable vo		
-U+A0F1	ꃱ	A000..A48F	Yi Syllables	Yi syllable vop		
-U+A0F2	ꃲ	A000..A48F	Yi Syllables	Yi syllable vex		
-U+A0F3	ꃳ	A000..A48F	Yi Syllables	Yi syllable vep		
-U+A0F4	ꃴ	A000..A48F	Yi Syllables	Yi syllable vut		
-U+A0F5	ꃵ	A000..A48F	Yi Syllables	Yi syllable vux		
-U+A0F6	ꃶ	A000..A48F	Yi Syllables	Yi syllable vu		
-U+A0F7	ꃷ	A000..A48F	Yi Syllables	Yi syllable vup		
-U+A0F8	ꃸ	A000..A48F	Yi Syllables	Yi syllable vurx		
-U+A0F9	ꃹ	A000..A48F	Yi Syllables	Yi syllable vur		
-U+A0FA	ꃺ	A000..A48F	Yi Syllables	Yi syllable vyt		
-U+A0FB	ꃻ	A000..A48F	Yi Syllables	Yi syllable vyx		
-U+A0FC	ꃼ	A000..A48F	Yi Syllables	Yi syllable vy		
-U+A0FD	ꃽ	A000..A48F	Yi Syllables	Yi syllable vyp		
-U+A0FE	ꃾ	A000..A48F	Yi Syllables	Yi syllable vyrx		
-U+A0FF	ꃿ	A000..A48F	Yi Syllables	Yi syllable vyr		
-U+A100	ꄀ	A000..A48F	Yi Syllables	Yi syllable dit		
-U+A101	ꄁ	A000..A48F	Yi Syllables	Yi syllable dix		
-U+A102	ꄂ	A000..A48F	Yi Syllables	Yi syllable di		
-U+A103	ꄃ	A000..A48F	Yi Syllables	Yi syllable dip		
-U+A104	ꄄ	A000..A48F	Yi Syllables	Yi syllable diex		
-U+A105	ꄅ	A000..A48F	Yi Syllables	Yi syllable die		
-U+A106	ꄆ	A000..A48F	Yi Syllables	Yi syllable diep		
-U+A107	ꄇ	A000..A48F	Yi Syllables	Yi syllable dat		
-U+A108	ꄈ	A000..A48F	Yi Syllables	Yi syllable dax		
-U+A109	ꄉ	A000..A48F	Yi Syllables	Yi syllable da		
-U+A10A	ꄊ	A000..A48F	Yi Syllables	Yi syllable dap		
-U+A10B	ꄋ	A000..A48F	Yi Syllables	Yi syllable duox		
-U+A10C	ꄌ	A000..A48F	Yi Syllables	Yi syllable duo		
-U+A10D	ꄍ	A000..A48F	Yi Syllables	Yi syllable dot		
-U+A10E	ꄎ	A000..A48F	Yi Syllables	Yi syllable dox		
-U+A10F	ꄏ	A000..A48F	Yi Syllables	Yi syllable do		
-U+A110	ꄐ	A000..A48F	Yi Syllables	Yi syllable dop		
-U+A111	ꄑ	A000..A48F	Yi Syllables	Yi syllable dex		
-U+A112	ꄒ	A000..A48F	Yi Syllables	Yi syllable de		
-U+A113	ꄓ	A000..A48F	Yi Syllables	Yi syllable dep		
-U+A114	ꄔ	A000..A48F	Yi Syllables	Yi syllable dut		
-U+A115	ꄕ	A000..A48F	Yi Syllables	Yi syllable dux		
-U+A116	ꄖ	A000..A48F	Yi Syllables	Yi syllable du		
-U+A117	ꄗ	A000..A48F	Yi Syllables	Yi syllable dup		
-U+A118	ꄘ	A000..A48F	Yi Syllables	Yi syllable durx		
-U+A119	ꄙ	A000..A48F	Yi Syllables	Yi syllable dur		
-U+A11A	ꄚ	A000..A48F	Yi Syllables	Yi syllable tit		
-U+A11B	ꄛ	A000..A48F	Yi Syllables	Yi syllable tix		
-U+A11C	ꄜ	A000..A48F	Yi Syllables	Yi syllable ti		
-U+A11D	ꄝ	A000..A48F	Yi Syllables	Yi syllable tip		
-U+A11E	ꄞ	A000..A48F	Yi Syllables	Yi syllable tiex		
-U+A11F	ꄟ	A000..A48F	Yi Syllables	Yi syllable tie		
-U+A120	ꄠ	A000..A48F	Yi Syllables	Yi syllable tiep		
-U+A121	ꄡ	A000..A48F	Yi Syllables	Yi syllable tat		
-U+A122	ꄢ	A000..A48F	Yi Syllables	Yi syllable tax		
-U+A123	ꄣ	A000..A48F	Yi Syllables	Yi syllable ta		
-U+A124	ꄤ	A000..A48F	Yi Syllables	Yi syllable tap		
-U+A125	ꄥ	A000..A48F	Yi Syllables	Yi syllable tuot		
-U+A126	ꄦ	A000..A48F	Yi Syllables	Yi syllable tuox		
-U+A127	ꄧ	A000..A48F	Yi Syllables	Yi syllable tuo		
-U+A128	ꄨ	A000..A48F	Yi Syllables	Yi syllable tuop		
-U+A129	ꄩ	A000..A48F	Yi Syllables	Yi syllable tot		
-U+A12A	ꄪ	A000..A48F	Yi Syllables	Yi syllable tox		
-U+A12B	ꄫ	A000..A48F	Yi Syllables	Yi syllable to		
-U+A12C	ꄬ	A000..A48F	Yi Syllables	Yi syllable top		
-U+A12D	ꄭ	A000..A48F	Yi Syllables	Yi syllable tex		
-U+A12E	ꄮ	A000..A48F	Yi Syllables	Yi syllable te		
-U+A12F	ꄯ	A000..A48F	Yi Syllables	Yi syllable tep		
-U+A130	ꄰ	A000..A48F	Yi Syllables	Yi syllable tut		
-U+A131	ꄱ	A000..A48F	Yi Syllables	Yi syllable tux		
-U+A132	ꄲ	A000..A48F	Yi Syllables	Yi syllable tu		
-U+A133	ꄳ	A000..A48F	Yi Syllables	Yi syllable tup		
-U+A134	ꄴ	A000..A48F	Yi Syllables	Yi syllable turx		
-U+A135	ꄵ	A000..A48F	Yi Syllables	Yi syllable tur		
-U+A136	ꄶ	A000..A48F	Yi Syllables	Yi syllable ddit		
-U+A137	ꄷ	A000..A48F	Yi Syllables	Yi syllable ddix		
-U+A138	ꄸ	A000..A48F	Yi Syllables	Yi syllable ddi		
-U+A139	ꄹ	A000..A48F	Yi Syllables	Yi syllable ddip		
-U+A13A	ꄺ	A000..A48F	Yi Syllables	Yi syllable ddiex		
-U+A13B	ꄻ	A000..A48F	Yi Syllables	Yi syllable ddie		
-U+A13C	ꄼ	A000..A48F	Yi Syllables	Yi syllable ddiep		
-U+A13D	ꄽ	A000..A48F	Yi Syllables	Yi syllable ddat		
-U+A13E	ꄾ	A000..A48F	Yi Syllables	Yi syllable ddax		
-U+A13F	ꄿ	A000..A48F	Yi Syllables	Yi syllable dda		
-U+A140	ꅀ	A000..A48F	Yi Syllables	Yi syllable ddap		
-U+A141	ꅁ	A000..A48F	Yi Syllables	Yi syllable dduox		
-U+A142	ꅂ	A000..A48F	Yi Syllables	Yi syllable dduo		
-U+A143	ꅃ	A000..A48F	Yi Syllables	Yi syllable dduop		
-U+A144	ꅄ	A000..A48F	Yi Syllables	Yi syllable ddot		
-U+A145	ꅅ	A000..A48F	Yi Syllables	Yi syllable ddox		
-U+A146	ꅆ	A000..A48F	Yi Syllables	Yi syllable ddo		
-U+A147	ꅇ	A000..A48F	Yi Syllables	Yi syllable ddop		
-U+A148	ꅈ	A000..A48F	Yi Syllables	Yi syllable ddex		
-U+A149	ꅉ	A000..A48F	Yi Syllables	Yi syllable dde		
-U+A14A	ꅊ	A000..A48F	Yi Syllables	Yi syllable ddep		
-U+A14B	ꅋ	A000..A48F	Yi Syllables	Yi syllable ddut		
-U+A14C	ꅌ	A000..A48F	Yi Syllables	Yi syllable ddux		
-U+A14D	ꅍ	A000..A48F	Yi Syllables	Yi syllable ddu		
-U+A14E	ꅎ	A000..A48F	Yi Syllables	Yi syllable ddup		
-U+A14F	ꅏ	A000..A48F	Yi Syllables	Yi syllable ddurx		
-U+A150	ꅐ	A000..A48F	Yi Syllables	Yi syllable ddur		
-U+A151	ꅑ	A000..A48F	Yi Syllables	Yi syllable ndit		
-U+A152	ꅒ	A000..A48F	Yi Syllables	Yi syllable ndix		
-U+A153	ꅓ	A000..A48F	Yi Syllables	Yi syllable ndi		
-U+A154	ꅔ	A000..A48F	Yi Syllables	Yi syllable ndip		
-U+A155	ꅕ	A000..A48F	Yi Syllables	Yi syllable ndiex		
-U+A156	ꅖ	A000..A48F	Yi Syllables	Yi syllable ndie		
-U+A157	ꅗ	A000..A48F	Yi Syllables	Yi syllable ndat		
-U+A158	ꅘ	A000..A48F	Yi Syllables	Yi syllable ndax		
-U+A159	ꅙ	A000..A48F	Yi Syllables	Yi syllable nda		
-U+A15A	ꅚ	A000..A48F	Yi Syllables	Yi syllable ndap		
-U+A15B	ꅛ	A000..A48F	Yi Syllables	Yi syllable ndot		
-U+A15C	ꅜ	A000..A48F	Yi Syllables	Yi syllable ndox		
-U+A15D	ꅝ	A000..A48F	Yi Syllables	Yi syllable ndo		
-U+A15E	ꅞ	A000..A48F	Yi Syllables	Yi syllable ndop		
-U+A15F	ꅟ	A000..A48F	Yi Syllables	Yi syllable ndex		
-U+A160	ꅠ	A000..A48F	Yi Syllables	Yi syllable nde		
-U+A161	ꅡ	A000..A48F	Yi Syllables	Yi syllable ndep		
-U+A162	ꅢ	A000..A48F	Yi Syllables	Yi syllable ndut		
-U+A163	ꅣ	A000..A48F	Yi Syllables	Yi syllable ndux		
-U+A164	ꅤ	A000..A48F	Yi Syllables	Yi syllable ndu		
-U+A165	ꅥ	A000..A48F	Yi Syllables	Yi syllable ndup		
-U+A166	ꅦ	A000..A48F	Yi Syllables	Yi syllable ndurx		
-U+A167	ꅧ	A000..A48F	Yi Syllables	Yi syllable ndur		
-U+A168	ꅨ	A000..A48F	Yi Syllables	Yi syllable hnit		
-U+A169	ꅩ	A000..A48F	Yi Syllables	Yi syllable hnix		
-U+A16A	ꅪ	A000..A48F	Yi Syllables	Yi syllable hni		
-U+A16B	ꅫ	A000..A48F	Yi Syllables	Yi syllable hnip		
-U+A16C	ꅬ	A000..A48F	Yi Syllables	Yi syllable hniet		
-U+A16D	ꅭ	A000..A48F	Yi Syllables	Yi syllable hniex		
-U+A16E	ꅮ	A000..A48F	Yi Syllables	Yi syllable hnie		
-U+A16F	ꅯ	A000..A48F	Yi Syllables	Yi syllable hniep		
-U+A170	ꅰ	A000..A48F	Yi Syllables	Yi syllable hnat		
-U+A171	ꅱ	A000..A48F	Yi Syllables	Yi syllable hnax		
-U+A172	ꅲ	A000..A48F	Yi Syllables	Yi syllable hna		
-U+A173	ꅳ	A000..A48F	Yi Syllables	Yi syllable hnap		
-U+A174	ꅴ	A000..A48F	Yi Syllables	Yi syllable hnuox		
-U+A175	ꅵ	A000..A48F	Yi Syllables	Yi syllable hnuo		
-U+A176	ꅶ	A000..A48F	Yi Syllables	Yi syllable hnot		
-U+A177	ꅷ	A000..A48F	Yi Syllables	Yi syllable hnox		
-U+A178	ꅸ	A000..A48F	Yi Syllables	Yi syllable hnop		
-U+A179	ꅹ	A000..A48F	Yi Syllables	Yi syllable hnex		
-U+A17A	ꅺ	A000..A48F	Yi Syllables	Yi syllable hne		
-U+A17B	ꅻ	A000..A48F	Yi Syllables	Yi syllable hnep		
-U+A17C	ꅼ	A000..A48F	Yi Syllables	Yi syllable hnut		
-U+A17D	ꅽ	A000..A48F	Yi Syllables	Yi syllable nit		
-U+A17E	ꅾ	A000..A48F	Yi Syllables	Yi syllable nix		
-U+A17F	ꅿ	A000..A48F	Yi Syllables	Yi syllable ni		
-U+A180	ꆀ	A000..A48F	Yi Syllables	Yi syllable nip		
-U+A181	ꆁ	A000..A48F	Yi Syllables	Yi syllable niex		
-U+A182	ꆂ	A000..A48F	Yi Syllables	Yi syllable nie		
-U+A183	ꆃ	A000..A48F	Yi Syllables	Yi syllable niep		
-U+A184	ꆄ	A000..A48F	Yi Syllables	Yi syllable nax		
-U+A185	ꆅ	A000..A48F	Yi Syllables	Yi syllable na		
-U+A186	ꆆ	A000..A48F	Yi Syllables	Yi syllable nap		
-U+A187	ꆇ	A000..A48F	Yi Syllables	Yi syllable nuox		
-U+A188	ꆈ	A000..A48F	Yi Syllables	Yi syllable nuo		
-U+A189	ꆉ	A000..A48F	Yi Syllables	Yi syllable nuop		
-U+A18A	ꆊ	A000..A48F	Yi Syllables	Yi syllable not		
-U+A18B	ꆋ	A000..A48F	Yi Syllables	Yi syllable nox		
-U+A18C	ꆌ	A000..A48F	Yi Syllables	Yi syllable no		
-U+A18D	ꆍ	A000..A48F	Yi Syllables	Yi syllable nop		
-U+A18E	ꆎ	A000..A48F	Yi Syllables	Yi syllable nex		
-U+A18F	ꆏ	A000..A48F	Yi Syllables	Yi syllable ne		
-U+A190	ꆐ	A000..A48F	Yi Syllables	Yi syllable nep		
-U+A191	ꆑ	A000..A48F	Yi Syllables	Yi syllable nut		
-U+A192	ꆒ	A000..A48F	Yi Syllables	Yi syllable nux		
-U+A193	ꆓ	A000..A48F	Yi Syllables	Yi syllable nu		
-U+A194	ꆔ	A000..A48F	Yi Syllables	Yi syllable nup		
-U+A195	ꆕ	A000..A48F	Yi Syllables	Yi syllable nurx		
-U+A196	ꆖ	A000..A48F	Yi Syllables	Yi syllable nur		
-U+A197	ꆗ	A000..A48F	Yi Syllables	Yi syllable hlit		
-U+A198	ꆘ	A000..A48F	Yi Syllables	Yi syllable hlix		
-U+A199	ꆙ	A000..A48F	Yi Syllables	Yi syllable hli		
-U+A19A	ꆚ	A000..A48F	Yi Syllables	Yi syllable hlip		
-U+A19B	ꆛ	A000..A48F	Yi Syllables	Yi syllable hliex		
-U+A19C	ꆜ	A000..A48F	Yi Syllables	Yi syllable hlie		
-U+A19D	ꆝ	A000..A48F	Yi Syllables	Yi syllable hliep		
-U+A19E	ꆞ	A000..A48F	Yi Syllables	Yi syllable hlat		
-U+A19F	ꆟ	A000..A48F	Yi Syllables	Yi syllable hlax		
-U+A1A0	ꆠ	A000..A48F	Yi Syllables	Yi syllable hla		
-U+A1A1	ꆡ	A000..A48F	Yi Syllables	Yi syllable hlap		
-U+A1A2	ꆢ	A000..A48F	Yi Syllables	Yi syllable hluox		
-U+A1A3	ꆣ	A000..A48F	Yi Syllables	Yi syllable hluo		
-U+A1A4	ꆤ	A000..A48F	Yi Syllables	Yi syllable hluop		
-U+A1A5	ꆥ	A000..A48F	Yi Syllables	Yi syllable hlox		
-U+A1A6	ꆦ	A000..A48F	Yi Syllables	Yi syllable hlo		
-U+A1A7	ꆧ	A000..A48F	Yi Syllables	Yi syllable hlop		
-U+A1A8	ꆨ	A000..A48F	Yi Syllables	Yi syllable hlex		
-U+A1A9	ꆩ	A000..A48F	Yi Syllables	Yi syllable hle		
-U+A1AA	ꆪ	A000..A48F	Yi Syllables	Yi syllable hlep		
-U+A1AB	ꆫ	A000..A48F	Yi Syllables	Yi syllable hlut		
-U+A1AC	ꆬ	A000..A48F	Yi Syllables	Yi syllable hlux		
-U+A1AD	ꆭ	A000..A48F	Yi Syllables	Yi syllable hlu		
-U+A1AE	ꆮ	A000..A48F	Yi Syllables	Yi syllable hlup		
-U+A1AF	ꆯ	A000..A48F	Yi Syllables	Yi syllable hlurx		
-U+A1B0	ꆰ	A000..A48F	Yi Syllables	Yi syllable hlur		
-U+A1B1	ꆱ	A000..A48F	Yi Syllables	Yi syllable hlyt		
-U+A1B2	ꆲ	A000..A48F	Yi Syllables	Yi syllable hlyx		
-U+A1B3	ꆳ	A000..A48F	Yi Syllables	Yi syllable hly		
-U+A1B4	ꆴ	A000..A48F	Yi Syllables	Yi syllable hlyp		
-U+A1B5	ꆵ	A000..A48F	Yi Syllables	Yi syllable hlyrx		
-U+A1B6	ꆶ	A000..A48F	Yi Syllables	Yi syllable hlyr		
-U+A1B7	ꆷ	A000..A48F	Yi Syllables	Yi syllable lit		
-U+A1B8	ꆸ	A000..A48F	Yi Syllables	Yi syllable lix		
-U+A1B9	ꆹ	A000..A48F	Yi Syllables	Yi syllable li		
-U+A1BA	ꆺ	A000..A48F	Yi Syllables	Yi syllable lip		
-U+A1BB	ꆻ	A000..A48F	Yi Syllables	Yi syllable liet		
-U+A1BC	ꆼ	A000..A48F	Yi Syllables	Yi syllable liex		
-U+A1BD	ꆽ	A000..A48F	Yi Syllables	Yi syllable lie		
-U+A1BE	ꆾ	A000..A48F	Yi Syllables	Yi syllable liep		
-U+A1BF	ꆿ	A000..A48F	Yi Syllables	Yi syllable lat		
-U+A1C0	ꇀ	A000..A48F	Yi Syllables	Yi syllable lax		
-U+A1C1	ꇁ	A000..A48F	Yi Syllables	Yi syllable la		
-U+A1C2	ꇂ	A000..A48F	Yi Syllables	Yi syllable lap		
-U+A1C3	ꇃ	A000..A48F	Yi Syllables	Yi syllable luot		
-U+A1C4	ꇄ	A000..A48F	Yi Syllables	Yi syllable luox		
-U+A1C5	ꇅ	A000..A48F	Yi Syllables	Yi syllable luo		
-U+A1C6	ꇆ	A000..A48F	Yi Syllables	Yi syllable luop		
-U+A1C7	ꇇ	A000..A48F	Yi Syllables	Yi syllable lot		
-U+A1C8	ꇈ	A000..A48F	Yi Syllables	Yi syllable lox		
-U+A1C9	ꇉ	A000..A48F	Yi Syllables	Yi syllable lo		
-U+A1CA	ꇊ	A000..A48F	Yi Syllables	Yi syllable lop		
-U+A1CB	ꇋ	A000..A48F	Yi Syllables	Yi syllable lex		
-U+A1CC	ꇌ	A000..A48F	Yi Syllables	Yi syllable le		
-U+A1CD	ꇍ	A000..A48F	Yi Syllables	Yi syllable lep		
-U+A1CE	ꇎ	A000..A48F	Yi Syllables	Yi syllable lut		
-U+A1CF	ꇏ	A000..A48F	Yi Syllables	Yi syllable lux		
-U+A1D0	ꇐ	A000..A48F	Yi Syllables	Yi syllable lu		
-U+A1D1	ꇑ	A000..A48F	Yi Syllables	Yi syllable lup		
-U+A1D2	ꇒ	A000..A48F	Yi Syllables	Yi syllable lurx		
-U+A1D3	ꇓ	A000..A48F	Yi Syllables	Yi syllable lur		
-U+A1D4	ꇔ	A000..A48F	Yi Syllables	Yi syllable lyt		
-U+A1D5	ꇕ	A000..A48F	Yi Syllables	Yi syllable lyx		
-U+A1D6	ꇖ	A000..A48F	Yi Syllables	Yi syllable ly		
-U+A1D7	ꇗ	A000..A48F	Yi Syllables	Yi syllable lyp		
-U+A1D8	ꇘ	A000..A48F	Yi Syllables	Yi syllable lyrx		
-U+A1D9	ꇙ	A000..A48F	Yi Syllables	Yi syllable lyr		
-U+A1DA	ꇚ	A000..A48F	Yi Syllables	Yi syllable git		
-U+A1DB	ꇛ	A000..A48F	Yi Syllables	Yi syllable gix		
-U+A1DC	ꇜ	A000..A48F	Yi Syllables	Yi syllable gi		
-U+A1DD	ꇝ	A000..A48F	Yi Syllables	Yi syllable gip		
-U+A1DE	ꇞ	A000..A48F	Yi Syllables	Yi syllable giet		
-U+A1DF	ꇟ	A000..A48F	Yi Syllables	Yi syllable giex		
-U+A1E0	ꇠ	A000..A48F	Yi Syllables	Yi syllable gie		
-U+A1E1	ꇡ	A000..A48F	Yi Syllables	Yi syllable giep		
-U+A1E2	ꇢ	A000..A48F	Yi Syllables	Yi syllable gat		
-U+A1E3	ꇣ	A000..A48F	Yi Syllables	Yi syllable gax		
-U+A1E4	ꇤ	A000..A48F	Yi Syllables	Yi syllable ga		
-U+A1E5	ꇥ	A000..A48F	Yi Syllables	Yi syllable gap		
-U+A1E6	ꇦ	A000..A48F	Yi Syllables	Yi syllable guot		
-U+A1E7	ꇧ	A000..A48F	Yi Syllables	Yi syllable guox		
-U+A1E8	ꇨ	A000..A48F	Yi Syllables	Yi syllable guo		
-U+A1E9	ꇩ	A000..A48F	Yi Syllables	Yi syllable guop		
-U+A1EA	ꇪ	A000..A48F	Yi Syllables	Yi syllable got		
-U+A1EB	ꇫ	A000..A48F	Yi Syllables	Yi syllable gox		
-U+A1EC	ꇬ	A000..A48F	Yi Syllables	Yi syllable go		
-U+A1ED	ꇭ	A000..A48F	Yi Syllables	Yi syllable gop		
-U+A1EE	ꇮ	A000..A48F	Yi Syllables	Yi syllable get		
-U+A1EF	ꇯ	A000..A48F	Yi Syllables	Yi syllable gex		
-U+A1F0	ꇰ	A000..A48F	Yi Syllables	Yi syllable ge		
-U+A1F1	ꇱ	A000..A48F	Yi Syllables	Yi syllable gep		
-U+A1F2	ꇲ	A000..A48F	Yi Syllables	Yi syllable gut		
-U+A1F3	ꇳ	A000..A48F	Yi Syllables	Yi syllable gux		
-U+A1F4	ꇴ	A000..A48F	Yi Syllables	Yi syllable gu		
-U+A1F5	ꇵ	A000..A48F	Yi Syllables	Yi syllable gup		
-U+A1F6	ꇶ	A000..A48F	Yi Syllables	Yi syllable gurx		
-U+A1F7	ꇷ	A000..A48F	Yi Syllables	Yi syllable gur		
-U+A1F8	ꇸ	A000..A48F	Yi Syllables	Yi syllable kit		
-U+A1F9	ꇹ	A000..A48F	Yi Syllables	Yi syllable kix		
-U+A1FA	ꇺ	A000..A48F	Yi Syllables	Yi syllable ki		
-U+A1FB	ꇻ	A000..A48F	Yi Syllables	Yi syllable kip		
-U+A1FC	ꇼ	A000..A48F	Yi Syllables	Yi syllable kiex		
-U+A1FD	ꇽ	A000..A48F	Yi Syllables	Yi syllable kie		
-U+A1FE	ꇾ	A000..A48F	Yi Syllables	Yi syllable kiep		
-U+A1FF	ꇿ	A000..A48F	Yi Syllables	Yi syllable kat		
-U+A200	ꈀ	A000..A48F	Yi Syllables	Yi syllable kax		
-U+A201	ꈁ	A000..A48F	Yi Syllables	Yi syllable ka		
-U+A202	ꈂ	A000..A48F	Yi Syllables	Yi syllable kap		
-U+A203	ꈃ	A000..A48F	Yi Syllables	Yi syllable kuox		
-U+A204	ꈄ	A000..A48F	Yi Syllables	Yi syllable kuo		
-U+A205	ꈅ	A000..A48F	Yi Syllables	Yi syllable kuop		
-U+A206	ꈆ	A000..A48F	Yi Syllables	Yi syllable kot		
-U+A207	ꈇ	A000..A48F	Yi Syllables	Yi syllable kox		
-U+A208	ꈈ	A000..A48F	Yi Syllables	Yi syllable ko		
-U+A209	ꈉ	A000..A48F	Yi Syllables	Yi syllable kop		
-U+A20A	ꈊ	A000..A48F	Yi Syllables	Yi syllable ket		
-U+A20B	ꈋ	A000..A48F	Yi Syllables	Yi syllable kex		
-U+A20C	ꈌ	A000..A48F	Yi Syllables	Yi syllable ke		
-U+A20D	ꈍ	A000..A48F	Yi Syllables	Yi syllable kep		
-U+A20E	ꈎ	A000..A48F	Yi Syllables	Yi syllable kut		
-U+A20F	ꈏ	A000..A48F	Yi Syllables	Yi syllable kux		
-U+A210	ꈐ	A000..A48F	Yi Syllables	Yi syllable ku		
-U+A211	ꈑ	A000..A48F	Yi Syllables	Yi syllable kup		
-U+A212	ꈒ	A000..A48F	Yi Syllables	Yi syllable kurx		
-U+A213	ꈓ	A000..A48F	Yi Syllables	Yi syllable kur		
-U+A214	ꈔ	A000..A48F	Yi Syllables	Yi syllable ggit		
-U+A215	ꈕ	A000..A48F	Yi Syllables	Yi syllable ggix		
-U+A216	ꈖ	A000..A48F	Yi Syllables	Yi syllable ggi		
-U+A217	ꈗ	A000..A48F	Yi Syllables	Yi syllable ggiex		
-U+A218	ꈘ	A000..A48F	Yi Syllables	Yi syllable ggie		
-U+A219	ꈙ	A000..A48F	Yi Syllables	Yi syllable ggiep		
-U+A21A	ꈚ	A000..A48F	Yi Syllables	Yi syllable ggat		
-U+A21B	ꈛ	A000..A48F	Yi Syllables	Yi syllable ggax		
-U+A21C	ꈜ	A000..A48F	Yi Syllables	Yi syllable gga		
-U+A21D	ꈝ	A000..A48F	Yi Syllables	Yi syllable ggap		
-U+A21E	ꈞ	A000..A48F	Yi Syllables	Yi syllable gguot		
-U+A21F	ꈟ	A000..A48F	Yi Syllables	Yi syllable gguox		
-U+A220	ꈠ	A000..A48F	Yi Syllables	Yi syllable gguo		
-U+A221	ꈡ	A000..A48F	Yi Syllables	Yi syllable gguop		
-U+A222	ꈢ	A000..A48F	Yi Syllables	Yi syllable ggot		
-U+A223	ꈣ	A000..A48F	Yi Syllables	Yi syllable ggox		
-U+A224	ꈤ	A000..A48F	Yi Syllables	Yi syllable ggo		
-U+A225	ꈥ	A000..A48F	Yi Syllables	Yi syllable ggop		
-U+A226	ꈦ	A000..A48F	Yi Syllables	Yi syllable gget		
-U+A227	ꈧ	A000..A48F	Yi Syllables	Yi syllable ggex		
-U+A228	ꈨ	A000..A48F	Yi Syllables	Yi syllable gge		
-U+A229	ꈩ	A000..A48F	Yi Syllables	Yi syllable ggep		
-U+A22A	ꈪ	A000..A48F	Yi Syllables	Yi syllable ggut		
-U+A22B	ꈫ	A000..A48F	Yi Syllables	Yi syllable ggux		
-U+A22C	ꈬ	A000..A48F	Yi Syllables	Yi syllable ggu		
-U+A22D	ꈭ	A000..A48F	Yi Syllables	Yi syllable ggup		
-U+A22E	ꈮ	A000..A48F	Yi Syllables	Yi syllable ggurx		
-U+A22F	ꈯ	A000..A48F	Yi Syllables	Yi syllable ggur		
-U+A230	ꈰ	A000..A48F	Yi Syllables	Yi syllable mgiex		
-U+A231	ꈱ	A000..A48F	Yi Syllables	Yi syllable mgie		
-U+A232	ꈲ	A000..A48F	Yi Syllables	Yi syllable mgat		
-U+A233	ꈳ	A000..A48F	Yi Syllables	Yi syllable mgax		
-U+A234	ꈴ	A000..A48F	Yi Syllables	Yi syllable mga		
-U+A235	ꈵ	A000..A48F	Yi Syllables	Yi syllable mgap		
-U+A236	ꈶ	A000..A48F	Yi Syllables	Yi syllable mguox		
-U+A237	ꈷ	A000..A48F	Yi Syllables	Yi syllable mguo		
-U+A238	ꈸ	A000..A48F	Yi Syllables	Yi syllable mguop		
-U+A239	ꈹ	A000..A48F	Yi Syllables	Yi syllable mgot		
-U+A23A	ꈺ	A000..A48F	Yi Syllables	Yi syllable mgox		
-U+A23B	ꈻ	A000..A48F	Yi Syllables	Yi syllable mgo		
-U+A23C	ꈼ	A000..A48F	Yi Syllables	Yi syllable mgop		
-U+A23D	ꈽ	A000..A48F	Yi Syllables	Yi syllable mgex		
-U+A23E	ꈾ	A000..A48F	Yi Syllables	Yi syllable mge		
-U+A23F	ꈿ	A000..A48F	Yi Syllables	Yi syllable mgep		
-U+A240	ꉀ	A000..A48F	Yi Syllables	Yi syllable mgut		
-U+A241	ꉁ	A000..A48F	Yi Syllables	Yi syllable mgux		
-U+A242	ꉂ	A000..A48F	Yi Syllables	Yi syllable mgu		
-U+A243	ꉃ	A000..A48F	Yi Syllables	Yi syllable mgup		
-U+A244	ꉄ	A000..A48F	Yi Syllables	Yi syllable mgurx		
-U+A245	ꉅ	A000..A48F	Yi Syllables	Yi syllable mgur		
-U+A246	ꉆ	A000..A48F	Yi Syllables	Yi syllable hxit		
-U+A247	ꉇ	A000..A48F	Yi Syllables	Yi syllable hxix		
-U+A248	ꉈ	A000..A48F	Yi Syllables	Yi syllable hxi		
-U+A249	ꉉ	A000..A48F	Yi Syllables	Yi syllable hxip		
-U+A24A	ꉊ	A000..A48F	Yi Syllables	Yi syllable hxiet		
-U+A24B	ꉋ	A000..A48F	Yi Syllables	Yi syllable hxiex		
-U+A24C	ꉌ	A000..A48F	Yi Syllables	Yi syllable hxie		
-U+A24D	ꉍ	A000..A48F	Yi Syllables	Yi syllable hxiep		
-U+A24E	ꉎ	A000..A48F	Yi Syllables	Yi syllable hxat		
-U+A24F	ꉏ	A000..A48F	Yi Syllables	Yi syllable hxax		
-U+A250	ꉐ	A000..A48F	Yi Syllables	Yi syllable hxa		
-U+A251	ꉑ	A000..A48F	Yi Syllables	Yi syllable hxap		
-U+A252	ꉒ	A000..A48F	Yi Syllables	Yi syllable hxuot		
-U+A253	ꉓ	A000..A48F	Yi Syllables	Yi syllable hxuox		
-U+A254	ꉔ	A000..A48F	Yi Syllables	Yi syllable hxuo		
-U+A255	ꉕ	A000..A48F	Yi Syllables	Yi syllable hxuop		
-U+A256	ꉖ	A000..A48F	Yi Syllables	Yi syllable hxot		
-U+A257	ꉗ	A000..A48F	Yi Syllables	Yi syllable hxox		
-U+A258	ꉘ	A000..A48F	Yi Syllables	Yi syllable hxo		
-U+A259	ꉙ	A000..A48F	Yi Syllables	Yi syllable hxop		
-U+A25A	ꉚ	A000..A48F	Yi Syllables	Yi syllable hxex		
-U+A25B	ꉛ	A000..A48F	Yi Syllables	Yi syllable hxe		
-U+A25C	ꉜ	A000..A48F	Yi Syllables	Yi syllable hxep		
-U+A25D	ꉝ	A000..A48F	Yi Syllables	Yi syllable ngiex		
-U+A25E	ꉞ	A000..A48F	Yi Syllables	Yi syllable ngie		
-U+A25F	ꉟ	A000..A48F	Yi Syllables	Yi syllable ngiep		
-U+A260	ꉠ	A000..A48F	Yi Syllables	Yi syllable ngat		
-U+A261	ꉡ	A000..A48F	Yi Syllables	Yi syllable ngax		
-U+A262	ꉢ	A000..A48F	Yi Syllables	Yi syllable nga		
-U+A263	ꉣ	A000..A48F	Yi Syllables	Yi syllable ngap		
-U+A264	ꉤ	A000..A48F	Yi Syllables	Yi syllable nguot		
-U+A265	ꉥ	A000..A48F	Yi Syllables	Yi syllable nguox		
-U+A266	ꉦ	A000..A48F	Yi Syllables	Yi syllable nguo		
-U+A267	ꉧ	A000..A48F	Yi Syllables	Yi syllable ngot		
-U+A268	ꉨ	A000..A48F	Yi Syllables	Yi syllable ngox		
-U+A269	ꉩ	A000..A48F	Yi Syllables	Yi syllable ngo		
-U+A26A	ꉪ	A000..A48F	Yi Syllables	Yi syllable ngop		
-U+A26B	ꉫ	A000..A48F	Yi Syllables	Yi syllable ngex		
-U+A26C	ꉬ	A000..A48F	Yi Syllables	Yi syllable nge		
-U+A26D	ꉭ	A000..A48F	Yi Syllables	Yi syllable ngep		
-U+A26E	ꉮ	A000..A48F	Yi Syllables	Yi syllable hit		
-U+A26F	ꉯ	A000..A48F	Yi Syllables	Yi syllable hiex		
-U+A270	ꉰ	A000..A48F	Yi Syllables	Yi syllable hie		
-U+A271	ꉱ	A000..A48F	Yi Syllables	Yi syllable hat		
-U+A272	ꉲ	A000..A48F	Yi Syllables	Yi syllable hax		
-U+A273	ꉳ	A000..A48F	Yi Syllables	Yi syllable ha		
-U+A274	ꉴ	A000..A48F	Yi Syllables	Yi syllable hap		
-U+A275	ꉵ	A000..A48F	Yi Syllables	Yi syllable huot		
-U+A276	ꉶ	A000..A48F	Yi Syllables	Yi syllable huox		
-U+A277	ꉷ	A000..A48F	Yi Syllables	Yi syllable huo		
-U+A278	ꉸ	A000..A48F	Yi Syllables	Yi syllable huop		
-U+A279	ꉹ	A000..A48F	Yi Syllables	Yi syllable hot		
-U+A27A	ꉺ	A000..A48F	Yi Syllables	Yi syllable hox		
-U+A27B	ꉻ	A000..A48F	Yi Syllables	Yi syllable ho		
-U+A27C	ꉼ	A000..A48F	Yi Syllables	Yi syllable hop		
-U+A27D	ꉽ	A000..A48F	Yi Syllables	Yi syllable hex		
-U+A27E	ꉾ	A000..A48F	Yi Syllables	Yi syllable he		
-U+A27F	ꉿ	A000..A48F	Yi Syllables	Yi syllable hep		
-U+A280	ꊀ	A000..A48F	Yi Syllables	Yi syllable wat		
-U+A281	ꊁ	A000..A48F	Yi Syllables	Yi syllable wax		
-U+A282	ꊂ	A000..A48F	Yi Syllables	Yi syllable wa		
-U+A283	ꊃ	A000..A48F	Yi Syllables	Yi syllable wap		
-U+A284	ꊄ	A000..A48F	Yi Syllables	Yi syllable wuox		
-U+A285	ꊅ	A000..A48F	Yi Syllables	Yi syllable wuo		
-U+A286	ꊆ	A000..A48F	Yi Syllables	Yi syllable wuop		
-U+A287	ꊇ	A000..A48F	Yi Syllables	Yi syllable wox		
-U+A288	ꊈ	A000..A48F	Yi Syllables	Yi syllable wo		
-U+A289	ꊉ	A000..A48F	Yi Syllables	Yi syllable wop		
-U+A28A	ꊊ	A000..A48F	Yi Syllables	Yi syllable wex		
-U+A28B	ꊋ	A000..A48F	Yi Syllables	Yi syllable we		
-U+A28C	ꊌ	A000..A48F	Yi Syllables	Yi syllable wep		
-U+A28D	ꊍ	A000..A48F	Yi Syllables	Yi syllable zit		
-U+A28E	ꊎ	A000..A48F	Yi Syllables	Yi syllable zix		
-U+A28F	ꊏ	A000..A48F	Yi Syllables	Yi syllable zi		
-U+A290	ꊐ	A000..A48F	Yi Syllables	Yi syllable zip		
-U+A291	ꊑ	A000..A48F	Yi Syllables	Yi syllable ziex		
-U+A292	ꊒ	A000..A48F	Yi Syllables	Yi syllable zie		
-U+A293	ꊓ	A000..A48F	Yi Syllables	Yi syllable ziep		
-U+A294	ꊔ	A000..A48F	Yi Syllables	Yi syllable zat		
-U+A295	ꊕ	A000..A48F	Yi Syllables	Yi syllable zax		
-U+A296	ꊖ	A000..A48F	Yi Syllables	Yi syllable za		
-U+A297	ꊗ	A000..A48F	Yi Syllables	Yi syllable zap		
-U+A298	ꊘ	A000..A48F	Yi Syllables	Yi syllable zuox		
-U+A299	ꊙ	A000..A48F	Yi Syllables	Yi syllable zuo		
-U+A29A	ꊚ	A000..A48F	Yi Syllables	Yi syllable zuop		
-U+A29B	ꊛ	A000..A48F	Yi Syllables	Yi syllable zot		
-U+A29C	ꊜ	A000..A48F	Yi Syllables	Yi syllable zox		
-U+A29D	ꊝ	A000..A48F	Yi Syllables	Yi syllable zo		
-U+A29E	ꊞ	A000..A48F	Yi Syllables	Yi syllable zop		
-U+A29F	ꊟ	A000..A48F	Yi Syllables	Yi syllable zex		
-U+A2A0	ꊠ	A000..A48F	Yi Syllables	Yi syllable ze		
-U+A2A1	ꊡ	A000..A48F	Yi Syllables	Yi syllable zep		
-U+A2A2	ꊢ	A000..A48F	Yi Syllables	Yi syllable zut		
-U+A2A3	ꊣ	A000..A48F	Yi Syllables	Yi syllable zux		
-U+A2A4	ꊤ	A000..A48F	Yi Syllables	Yi syllable zu		
-U+A2A5	ꊥ	A000..A48F	Yi Syllables	Yi syllable zup		
-U+A2A6	ꊦ	A000..A48F	Yi Syllables	Yi syllable zurx		
-U+A2A7	ꊧ	A000..A48F	Yi Syllables	Yi syllable zur		
-U+A2A8	ꊨ	A000..A48F	Yi Syllables	Yi syllable zyt		
-U+A2A9	ꊩ	A000..A48F	Yi Syllables	Yi syllable zyx		
-U+A2AA	ꊪ	A000..A48F	Yi Syllables	Yi syllable zy		
-U+A2AB	ꊫ	A000..A48F	Yi Syllables	Yi syllable zyp		
-U+A2AC	ꊬ	A000..A48F	Yi Syllables	Yi syllable zyrx		
-U+A2AD	ꊭ	A000..A48F	Yi Syllables	Yi syllable zyr		
-U+A2AE	ꊮ	A000..A48F	Yi Syllables	Yi syllable cit		
-U+A2AF	ꊯ	A000..A48F	Yi Syllables	Yi syllable cix		
-U+A2B0	ꊰ	A000..A48F	Yi Syllables	Yi syllable ci		
-U+A2B1	ꊱ	A000..A48F	Yi Syllables	Yi syllable cip		
-U+A2B2	ꊲ	A000..A48F	Yi Syllables	Yi syllable ciet		
-U+A2B3	ꊳ	A000..A48F	Yi Syllables	Yi syllable ciex		
-U+A2B4	ꊴ	A000..A48F	Yi Syllables	Yi syllable cie		
-U+A2B5	ꊵ	A000..A48F	Yi Syllables	Yi syllable ciep		
-U+A2B6	ꊶ	A000..A48F	Yi Syllables	Yi syllable cat		
-U+A2B7	ꊷ	A000..A48F	Yi Syllables	Yi syllable cax		
-U+A2B8	ꊸ	A000..A48F	Yi Syllables	Yi syllable ca		
-U+A2B9	ꊹ	A000..A48F	Yi Syllables	Yi syllable cap		
-U+A2BA	ꊺ	A000..A48F	Yi Syllables	Yi syllable cuox		
-U+A2BB	ꊻ	A000..A48F	Yi Syllables	Yi syllable cuo		
-U+A2BC	ꊼ	A000..A48F	Yi Syllables	Yi syllable cuop		
-U+A2BD	ꊽ	A000..A48F	Yi Syllables	Yi syllable cot		
-U+A2BE	ꊾ	A000..A48F	Yi Syllables	Yi syllable cox		
-U+A2BF	ꊿ	A000..A48F	Yi Syllables	Yi syllable co		
-U+A2C0	ꋀ	A000..A48F	Yi Syllables	Yi syllable cop		
-U+A2C1	ꋁ	A000..A48F	Yi Syllables	Yi syllable cex		
-U+A2C2	ꋂ	A000..A48F	Yi Syllables	Yi syllable ce		
-U+A2C3	ꋃ	A000..A48F	Yi Syllables	Yi syllable cep		
-U+A2C4	ꋄ	A000..A48F	Yi Syllables	Yi syllable cut		
-U+A2C5	ꋅ	A000..A48F	Yi Syllables	Yi syllable cux		
-U+A2C6	ꋆ	A000..A48F	Yi Syllables	Yi syllable cu		
-U+A2C7	ꋇ	A000..A48F	Yi Syllables	Yi syllable cup		
-U+A2C8	ꋈ	A000..A48F	Yi Syllables	Yi syllable curx		
-U+A2C9	ꋉ	A000..A48F	Yi Syllables	Yi syllable cur		
-U+A2CA	ꋊ	A000..A48F	Yi Syllables	Yi syllable cyt		
-U+A2CB	ꋋ	A000..A48F	Yi Syllables	Yi syllable cyx		
-U+A2CC	ꋌ	A000..A48F	Yi Syllables	Yi syllable cy		
-U+A2CD	ꋍ	A000..A48F	Yi Syllables	Yi syllable cyp		
-U+A2CE	ꋎ	A000..A48F	Yi Syllables	Yi syllable cyrx		
-U+A2CF	ꋏ	A000..A48F	Yi Syllables	Yi syllable cyr		
-U+A2D0	ꋐ	A000..A48F	Yi Syllables	Yi syllable zzit		
-U+A2D1	ꋑ	A000..A48F	Yi Syllables	Yi syllable zzix		
-U+A2D2	ꋒ	A000..A48F	Yi Syllables	Yi syllable zzi		
-U+A2D3	ꋓ	A000..A48F	Yi Syllables	Yi syllable zzip		
-U+A2D4	ꋔ	A000..A48F	Yi Syllables	Yi syllable zziet		
-U+A2D5	ꋕ	A000..A48F	Yi Syllables	Yi syllable zziex		
-U+A2D6	ꋖ	A000..A48F	Yi Syllables	Yi syllable zzie		
-U+A2D7	ꋗ	A000..A48F	Yi Syllables	Yi syllable zziep		
-U+A2D8	ꋘ	A000..A48F	Yi Syllables	Yi syllable zzat		
-U+A2D9	ꋙ	A000..A48F	Yi Syllables	Yi syllable zzax		
-U+A2DA	ꋚ	A000..A48F	Yi Syllables	Yi syllable zza		
-U+A2DB	ꋛ	A000..A48F	Yi Syllables	Yi syllable zzap		
-U+A2DC	ꋜ	A000..A48F	Yi Syllables	Yi syllable zzox		
-U+A2DD	ꋝ	A000..A48F	Yi Syllables	Yi syllable zzo		
-U+A2DE	ꋞ	A000..A48F	Yi Syllables	Yi syllable zzop		
-U+A2DF	ꋟ	A000..A48F	Yi Syllables	Yi syllable zzex		
-U+A2E0	ꋠ	A000..A48F	Yi Syllables	Yi syllable zze		
-U+A2E1	ꋡ	A000..A48F	Yi Syllables	Yi syllable zzep		
-U+A2E2	ꋢ	A000..A48F	Yi Syllables	Yi syllable zzux		
-U+A2E3	ꋣ	A000..A48F	Yi Syllables	Yi syllable zzu		
-U+A2E4	ꋤ	A000..A48F	Yi Syllables	Yi syllable zzup		
-U+A2E5	ꋥ	A000..A48F	Yi Syllables	Yi syllable zzurx		
-U+A2E6	ꋦ	A000..A48F	Yi Syllables	Yi syllable zzur		
-U+A2E7	ꋧ	A000..A48F	Yi Syllables	Yi syllable zzyt		
-U+A2E8	ꋨ	A000..A48F	Yi Syllables	Yi syllable zzyx		
-U+A2E9	ꋩ	A000..A48F	Yi Syllables	Yi syllable zzy		
-U+A2EA	ꋪ	A000..A48F	Yi Syllables	Yi syllable zzyp		
-U+A2EB	ꋫ	A000..A48F	Yi Syllables	Yi syllable zzyrx		
-U+A2EC	ꋬ	A000..A48F	Yi Syllables	Yi syllable zzyr		
-U+A2ED	ꋭ	A000..A48F	Yi Syllables	Yi syllable nzit		
-U+A2EE	ꋮ	A000..A48F	Yi Syllables	Yi syllable nzix		
-U+A2EF	ꋯ	A000..A48F	Yi Syllables	Yi syllable nzi		
-U+A2F0	ꋰ	A000..A48F	Yi Syllables	Yi syllable nzip		
-U+A2F1	ꋱ	A000..A48F	Yi Syllables	Yi syllable nziex		
-U+A2F2	ꋲ	A000..A48F	Yi Syllables	Yi syllable nzie		
-U+A2F3	ꋳ	A000..A48F	Yi Syllables	Yi syllable nziep		
-U+A2F4	ꋴ	A000..A48F	Yi Syllables	Yi syllable nzat		
-U+A2F5	ꋵ	A000..A48F	Yi Syllables	Yi syllable nzax		
-U+A2F6	ꋶ	A000..A48F	Yi Syllables	Yi syllable nza		
-U+A2F7	ꋷ	A000..A48F	Yi Syllables	Yi syllable nzap		
-U+A2F8	ꋸ	A000..A48F	Yi Syllables	Yi syllable nzuox		
-U+A2F9	ꋹ	A000..A48F	Yi Syllables	Yi syllable nzuo		
-U+A2FA	ꋺ	A000..A48F	Yi Syllables	Yi syllable nzox		
-U+A2FB	ꋻ	A000..A48F	Yi Syllables	Yi syllable nzop		
-U+A2FC	ꋼ	A000..A48F	Yi Syllables	Yi syllable nzex		
-U+A2FD	ꋽ	A000..A48F	Yi Syllables	Yi syllable nze		
-U+A2FE	ꋾ	A000..A48F	Yi Syllables	Yi syllable nzux		
-U+A2FF	ꋿ	A000..A48F	Yi Syllables	Yi syllable nzu		
-U+A300	ꌀ	A000..A48F	Yi Syllables	Yi syllable nzup		
-U+A301	ꌁ	A000..A48F	Yi Syllables	Yi syllable nzurx		
-U+A302	ꌂ	A000..A48F	Yi Syllables	Yi syllable nzur		
-U+A303	ꌃ	A000..A48F	Yi Syllables	Yi syllable nzyt		
-U+A304	ꌄ	A000..A48F	Yi Syllables	Yi syllable nzyx		
-U+A305	ꌅ	A000..A48F	Yi Syllables	Yi syllable nzy		
-U+A306	ꌆ	A000..A48F	Yi Syllables	Yi syllable nzyp		
-U+A307	ꌇ	A000..A48F	Yi Syllables	Yi syllable nzyrx		
-U+A308	ꌈ	A000..A48F	Yi Syllables	Yi syllable nzyr		
-U+A309	ꌉ	A000..A48F	Yi Syllables	Yi syllable sit		
-U+A30A	ꌊ	A000..A48F	Yi Syllables	Yi syllable six		
-U+A30B	ꌋ	A000..A48F	Yi Syllables	Yi syllable si		
-U+A30C	ꌌ	A000..A48F	Yi Syllables	Yi syllable sip		
-U+A30D	ꌍ	A000..A48F	Yi Syllables	Yi syllable siex		
-U+A30E	ꌎ	A000..A48F	Yi Syllables	Yi syllable sie		
-U+A30F	ꌏ	A000..A48F	Yi Syllables	Yi syllable siep		
-U+A310	ꌐ	A000..A48F	Yi Syllables	Yi syllable sat		
-U+A311	ꌑ	A000..A48F	Yi Syllables	Yi syllable sax		
-U+A312	ꌒ	A000..A48F	Yi Syllables	Yi syllable sa		
-U+A313	ꌓ	A000..A48F	Yi Syllables	Yi syllable sap		
-U+A314	ꌔ	A000..A48F	Yi Syllables	Yi syllable suox		
-U+A315	ꌕ	A000..A48F	Yi Syllables	Yi syllable suo		
-U+A316	ꌖ	A000..A48F	Yi Syllables	Yi syllable suop		
-U+A317	ꌗ	A000..A48F	Yi Syllables	Yi syllable sot		
-U+A318	ꌘ	A000..A48F	Yi Syllables	Yi syllable sox		
-U+A319	ꌙ	A000..A48F	Yi Syllables	Yi syllable so		
-U+A31A	ꌚ	A000..A48F	Yi Syllables	Yi syllable sop		
-U+A31B	ꌛ	A000..A48F	Yi Syllables	Yi syllable sex		
-U+A31C	ꌜ	A000..A48F	Yi Syllables	Yi syllable se		
-U+A31D	ꌝ	A000..A48F	Yi Syllables	Yi syllable sep		
-U+A31E	ꌞ	A000..A48F	Yi Syllables	Yi syllable sut		
-U+A31F	ꌟ	A000..A48F	Yi Syllables	Yi syllable sux		
-U+A320	ꌠ	A000..A48F	Yi Syllables	Yi syllable su		
-U+A321	ꌡ	A000..A48F	Yi Syllables	Yi syllable sup		
-U+A322	ꌢ	A000..A48F	Yi Syllables	Yi syllable surx		
-U+A323	ꌣ	A000..A48F	Yi Syllables	Yi syllable sur		
-U+A324	ꌤ	A000..A48F	Yi Syllables	Yi syllable syt		
-U+A325	ꌥ	A000..A48F	Yi Syllables	Yi syllable syx		
-U+A326	ꌦ	A000..A48F	Yi Syllables	Yi syllable sy		
-U+A327	ꌧ	A000..A48F	Yi Syllables	Yi syllable syp		
-U+A328	ꌨ	A000..A48F	Yi Syllables	Yi syllable syrx		
-U+A329	ꌩ	A000..A48F	Yi Syllables	Yi syllable syr		
-U+A32A	ꌪ	A000..A48F	Yi Syllables	Yi syllable ssit		
-U+A32B	ꌫ	A000..A48F	Yi Syllables	Yi syllable ssix		
-U+A32C	ꌬ	A000..A48F	Yi Syllables	Yi syllable ssi		
-U+A32D	ꌭ	A000..A48F	Yi Syllables	Yi syllable ssip		
-U+A32E	ꌮ	A000..A48F	Yi Syllables	Yi syllable ssiex		
-U+A32F	ꌯ	A000..A48F	Yi Syllables	Yi syllable ssie		
-U+A330	ꌰ	A000..A48F	Yi Syllables	Yi syllable ssiep		
-U+A331	ꌱ	A000..A48F	Yi Syllables	Yi syllable ssat		
-U+A332	ꌲ	A000..A48F	Yi Syllables	Yi syllable ssax		
-U+A333	ꌳ	A000..A48F	Yi Syllables	Yi syllable ssa		
-U+A334	ꌴ	A000..A48F	Yi Syllables	Yi syllable ssap		
-U+A335	ꌵ	A000..A48F	Yi Syllables	Yi syllable ssot		
-U+A336	ꌶ	A000..A48F	Yi Syllables	Yi syllable ssox		
-U+A337	ꌷ	A000..A48F	Yi Syllables	Yi syllable sso		
-U+A338	ꌸ	A000..A48F	Yi Syllables	Yi syllable ssop		
-U+A339	ꌹ	A000..A48F	Yi Syllables	Yi syllable ssex		
-U+A33A	ꌺ	A000..A48F	Yi Syllables	Yi syllable sse		
-U+A33B	ꌻ	A000..A48F	Yi Syllables	Yi syllable ssep		
-U+A33C	ꌼ	A000..A48F	Yi Syllables	Yi syllable ssut		
-U+A33D	ꌽ	A000..A48F	Yi Syllables	Yi syllable ssux		
-U+A33E	ꌾ	A000..A48F	Yi Syllables	Yi syllable ssu		
-U+A33F	ꌿ	A000..A48F	Yi Syllables	Yi syllable ssup		
-U+A340	ꍀ	A000..A48F	Yi Syllables	Yi syllable ssyt		
-U+A341	ꍁ	A000..A48F	Yi Syllables	Yi syllable ssyx		
-U+A342	ꍂ	A000..A48F	Yi Syllables	Yi syllable ssy		
-U+A343	ꍃ	A000..A48F	Yi Syllables	Yi syllable ssyp		
-U+A344	ꍄ	A000..A48F	Yi Syllables	Yi syllable ssyrx		
-U+A345	ꍅ	A000..A48F	Yi Syllables	Yi syllable ssyr		
-U+A346	ꍆ	A000..A48F	Yi Syllables	Yi syllable zhat		
-U+A347	ꍇ	A000..A48F	Yi Syllables	Yi syllable zhax		
-U+A348	ꍈ	A000..A48F	Yi Syllables	Yi syllable zha		
-U+A349	ꍉ	A000..A48F	Yi Syllables	Yi syllable zhap		
-U+A34A	ꍊ	A000..A48F	Yi Syllables	Yi syllable zhuox		
-U+A34B	ꍋ	A000..A48F	Yi Syllables	Yi syllable zhuo		
-U+A34C	ꍌ	A000..A48F	Yi Syllables	Yi syllable zhuop		
-U+A34D	ꍍ	A000..A48F	Yi Syllables	Yi syllable zhot		
-U+A34E	ꍎ	A000..A48F	Yi Syllables	Yi syllable zhox		
-U+A34F	ꍏ	A000..A48F	Yi Syllables	Yi syllable zho		
-U+A350	ꍐ	A000..A48F	Yi Syllables	Yi syllable zhop		
-U+A351	ꍑ	A000..A48F	Yi Syllables	Yi syllable zhet		
-U+A352	ꍒ	A000..A48F	Yi Syllables	Yi syllable zhex		
-U+A353	ꍓ	A000..A48F	Yi Syllables	Yi syllable zhe		
-U+A354	ꍔ	A000..A48F	Yi Syllables	Yi syllable zhep		
-U+A355	ꍕ	A000..A48F	Yi Syllables	Yi syllable zhut		
-U+A356	ꍖ	A000..A48F	Yi Syllables	Yi syllable zhux		
-U+A357	ꍗ	A000..A48F	Yi Syllables	Yi syllable zhu		
-U+A358	ꍘ	A000..A48F	Yi Syllables	Yi syllable zhup		
-U+A359	ꍙ	A000..A48F	Yi Syllables	Yi syllable zhurx		
-U+A35A	ꍚ	A000..A48F	Yi Syllables	Yi syllable zhur		
-U+A35B	ꍛ	A000..A48F	Yi Syllables	Yi syllable zhyt		
-U+A35C	ꍜ	A000..A48F	Yi Syllables	Yi syllable zhyx		
-U+A35D	ꍝ	A000..A48F	Yi Syllables	Yi syllable zhy		
-U+A35E	ꍞ	A000..A48F	Yi Syllables	Yi syllable zhyp		
-U+A35F	ꍟ	A000..A48F	Yi Syllables	Yi syllable zhyrx		
-U+A360	ꍠ	A000..A48F	Yi Syllables	Yi syllable zhyr		
-U+A361	ꍡ	A000..A48F	Yi Syllables	Yi syllable chat		
-U+A362	ꍢ	A000..A48F	Yi Syllables	Yi syllable chax		
-U+A363	ꍣ	A000..A48F	Yi Syllables	Yi syllable cha		
-U+A364	ꍤ	A000..A48F	Yi Syllables	Yi syllable chap		
-U+A365	ꍥ	A000..A48F	Yi Syllables	Yi syllable chuot		
-U+A366	ꍦ	A000..A48F	Yi Syllables	Yi syllable chuox		
-U+A367	ꍧ	A000..A48F	Yi Syllables	Yi syllable chuo		
-U+A368	ꍨ	A000..A48F	Yi Syllables	Yi syllable chuop		
-U+A369	ꍩ	A000..A48F	Yi Syllables	Yi syllable chot		
-U+A36A	ꍪ	A000..A48F	Yi Syllables	Yi syllable chox		
-U+A36B	ꍫ	A000..A48F	Yi Syllables	Yi syllable cho		
-U+A36C	ꍬ	A000..A48F	Yi Syllables	Yi syllable chop		
-U+A36D	ꍭ	A000..A48F	Yi Syllables	Yi syllable chet		
-U+A36E	ꍮ	A000..A48F	Yi Syllables	Yi syllable chex		
-U+A36F	ꍯ	A000..A48F	Yi Syllables	Yi syllable che		
-U+A370	ꍰ	A000..A48F	Yi Syllables	Yi syllable chep		
-U+A371	ꍱ	A000..A48F	Yi Syllables	Yi syllable chux		
-U+A372	ꍲ	A000..A48F	Yi Syllables	Yi syllable chu		
-U+A373	ꍳ	A000..A48F	Yi Syllables	Yi syllable chup		
-U+A374	ꍴ	A000..A48F	Yi Syllables	Yi syllable churx		
-U+A375	ꍵ	A000..A48F	Yi Syllables	Yi syllable chur		
-U+A376	ꍶ	A000..A48F	Yi Syllables	Yi syllable chyt		
-U+A377	ꍷ	A000..A48F	Yi Syllables	Yi syllable chyx		
-U+A378	ꍸ	A000..A48F	Yi Syllables	Yi syllable chy		
-U+A379	ꍹ	A000..A48F	Yi Syllables	Yi syllable chyp		
-U+A37A	ꍺ	A000..A48F	Yi Syllables	Yi syllable chyrx		
-U+A37B	ꍻ	A000..A48F	Yi Syllables	Yi syllable chyr		
-U+A37C	ꍼ	A000..A48F	Yi Syllables	Yi syllable rrax		
-U+A37D	ꍽ	A000..A48F	Yi Syllables	Yi syllable rra		
-U+A37E	ꍾ	A000..A48F	Yi Syllables	Yi syllable rruox		
-U+A37F	ꍿ	A000..A48F	Yi Syllables	Yi syllable rruo		
-U+A380	ꎀ	A000..A48F	Yi Syllables	Yi syllable rrot		
-U+A381	ꎁ	A000..A48F	Yi Syllables	Yi syllable rrox		
-U+A382	ꎂ	A000..A48F	Yi Syllables	Yi syllable rro		
-U+A383	ꎃ	A000..A48F	Yi Syllables	Yi syllable rrop		
-U+A384	ꎄ	A000..A48F	Yi Syllables	Yi syllable rret		
-U+A385	ꎅ	A000..A48F	Yi Syllables	Yi syllable rrex		
-U+A386	ꎆ	A000..A48F	Yi Syllables	Yi syllable rre		
-U+A387	ꎇ	A000..A48F	Yi Syllables	Yi syllable rrep		
-U+A388	ꎈ	A000..A48F	Yi Syllables	Yi syllable rrut		
-U+A389	ꎉ	A000..A48F	Yi Syllables	Yi syllable rrux		
-U+A38A	ꎊ	A000..A48F	Yi Syllables	Yi syllable rru		
-U+A38B	ꎋ	A000..A48F	Yi Syllables	Yi syllable rrup		
-U+A38C	ꎌ	A000..A48F	Yi Syllables	Yi syllable rrurx		
-U+A38D	ꎍ	A000..A48F	Yi Syllables	Yi syllable rrur		
-U+A38E	ꎎ	A000..A48F	Yi Syllables	Yi syllable rryt		
-U+A38F	ꎏ	A000..A48F	Yi Syllables	Yi syllable rryx		
-U+A390	ꎐ	A000..A48F	Yi Syllables	Yi syllable rry		
-U+A391	ꎑ	A000..A48F	Yi Syllables	Yi syllable rryp		
-U+A392	ꎒ	A000..A48F	Yi Syllables	Yi syllable rryrx		
-U+A393	ꎓ	A000..A48F	Yi Syllables	Yi syllable rryr		
-U+A394	ꎔ	A000..A48F	Yi Syllables	Yi syllable nrat		
-U+A395	ꎕ	A000..A48F	Yi Syllables	Yi syllable nrax		
-U+A396	ꎖ	A000..A48F	Yi Syllables	Yi syllable nra		
-U+A397	ꎗ	A000..A48F	Yi Syllables	Yi syllable nrap		
-U+A398	ꎘ	A000..A48F	Yi Syllables	Yi syllable nrox		
-U+A399	ꎙ	A000..A48F	Yi Syllables	Yi syllable nro		
-U+A39A	ꎚ	A000..A48F	Yi Syllables	Yi syllable nrop		
-U+A39B	ꎛ	A000..A48F	Yi Syllables	Yi syllable nret		
-U+A39C	ꎜ	A000..A48F	Yi Syllables	Yi syllable nrex		
-U+A39D	ꎝ	A000..A48F	Yi Syllables	Yi syllable nre		
-U+A39E	ꎞ	A000..A48F	Yi Syllables	Yi syllable nrep		
-U+A39F	ꎟ	A000..A48F	Yi Syllables	Yi syllable nrut		
-U+A3A0	ꎠ	A000..A48F	Yi Syllables	Yi syllable nrux		
-U+A3A1	ꎡ	A000..A48F	Yi Syllables	Yi syllable nru		
-U+A3A2	ꎢ	A000..A48F	Yi Syllables	Yi syllable nrup		
-U+A3A3	ꎣ	A000..A48F	Yi Syllables	Yi syllable nrurx		
-U+A3A4	ꎤ	A000..A48F	Yi Syllables	Yi syllable nrur		
-U+A3A5	ꎥ	A000..A48F	Yi Syllables	Yi syllable nryt		
-U+A3A6	ꎦ	A000..A48F	Yi Syllables	Yi syllable nryx		
-U+A3A7	ꎧ	A000..A48F	Yi Syllables	Yi syllable nry		
-U+A3A8	ꎨ	A000..A48F	Yi Syllables	Yi syllable nryp		
-U+A3A9	ꎩ	A000..A48F	Yi Syllables	Yi syllable nryrx		
-U+A3AA	ꎪ	A000..A48F	Yi Syllables	Yi syllable nryr		
-U+A3AB	ꎫ	A000..A48F	Yi Syllables	Yi syllable shat		
-U+A3AC	ꎬ	A000..A48F	Yi Syllables	Yi syllable shax		
-U+A3AD	ꎭ	A000..A48F	Yi Syllables	Yi syllable sha		
-U+A3AE	ꎮ	A000..A48F	Yi Syllables	Yi syllable shap		
-U+A3AF	ꎯ	A000..A48F	Yi Syllables	Yi syllable shuox		
-U+A3B0	ꎰ	A000..A48F	Yi Syllables	Yi syllable shuo		
-U+A3B1	ꎱ	A000..A48F	Yi Syllables	Yi syllable shuop		
-U+A3B2	ꎲ	A000..A48F	Yi Syllables	Yi syllable shot		
-U+A3B3	ꎳ	A000..A48F	Yi Syllables	Yi syllable shox		
-U+A3B4	ꎴ	A000..A48F	Yi Syllables	Yi syllable sho		
-U+A3B5	ꎵ	A000..A48F	Yi Syllables	Yi syllable shop		
-U+A3B6	ꎶ	A000..A48F	Yi Syllables	Yi syllable shet		
-U+A3B7	ꎷ	A000..A48F	Yi Syllables	Yi syllable shex		
-U+A3B8	ꎸ	A000..A48F	Yi Syllables	Yi syllable she		
-U+A3B9	ꎹ	A000..A48F	Yi Syllables	Yi syllable shep		
-U+A3BA	ꎺ	A000..A48F	Yi Syllables	Yi syllable shut		
-U+A3BB	ꎻ	A000..A48F	Yi Syllables	Yi syllable shux		
-U+A3BC	ꎼ	A000..A48F	Yi Syllables	Yi syllable shu		
-U+A3BD	ꎽ	A000..A48F	Yi Syllables	Yi syllable shup		
-U+A3BE	ꎾ	A000..A48F	Yi Syllables	Yi syllable shurx		
-U+A3BF	ꎿ	A000..A48F	Yi Syllables	Yi syllable shur		
-U+A3C0	ꏀ	A000..A48F	Yi Syllables	Yi syllable shyt		
-U+A3C1	ꏁ	A000..A48F	Yi Syllables	Yi syllable shyx		
-U+A3C2	ꏂ	A000..A48F	Yi Syllables	Yi syllable shy		
-U+A3C3	ꏃ	A000..A48F	Yi Syllables	Yi syllable shyp		
-U+A3C4	ꏄ	A000..A48F	Yi Syllables	Yi syllable shyrx		
-U+A3C5	ꏅ	A000..A48F	Yi Syllables	Yi syllable shyr		
-U+A3C6	ꏆ	A000..A48F	Yi Syllables	Yi syllable rat		
-U+A3C7	ꏇ	A000..A48F	Yi Syllables	Yi syllable rax		
-U+A3C8	ꏈ	A000..A48F	Yi Syllables	Yi syllable ra		
-U+A3C9	ꏉ	A000..A48F	Yi Syllables	Yi syllable rap		
-U+A3CA	ꏊ	A000..A48F	Yi Syllables	Yi syllable ruox		
-U+A3CB	ꏋ	A000..A48F	Yi Syllables	Yi syllable ruo		
-U+A3CC	ꏌ	A000..A48F	Yi Syllables	Yi syllable ruop		
-U+A3CD	ꏍ	A000..A48F	Yi Syllables	Yi syllable rot		
-U+A3CE	ꏎ	A000..A48F	Yi Syllables	Yi syllable rox		
-U+A3CF	ꏏ	A000..A48F	Yi Syllables	Yi syllable ro		
-U+A3D0	ꏐ	A000..A48F	Yi Syllables	Yi syllable rop		
-U+A3D1	ꏑ	A000..A48F	Yi Syllables	Yi syllable rex		
-U+A3D2	ꏒ	A000..A48F	Yi Syllables	Yi syllable re		
-U+A3D3	ꏓ	A000..A48F	Yi Syllables	Yi syllable rep		
-U+A3D4	ꏔ	A000..A48F	Yi Syllables	Yi syllable rut		
-U+A3D5	ꏕ	A000..A48F	Yi Syllables	Yi syllable rux		
-U+A3D6	ꏖ	A000..A48F	Yi Syllables	Yi syllable ru		
-U+A3D7	ꏗ	A000..A48F	Yi Syllables	Yi syllable rup		
-U+A3D8	ꏘ	A000..A48F	Yi Syllables	Yi syllable rurx		
-U+A3D9	ꏙ	A000..A48F	Yi Syllables	Yi syllable rur		
-U+A3DA	ꏚ	A000..A48F	Yi Syllables	Yi syllable ryt		
-U+A3DB	ꏛ	A000..A48F	Yi Syllables	Yi syllable ryx		
-U+A3DC	ꏜ	A000..A48F	Yi Syllables	Yi syllable ry		
-U+A3DD	ꏝ	A000..A48F	Yi Syllables	Yi syllable ryp		
-U+A3DE	ꏞ	A000..A48F	Yi Syllables	Yi syllable ryrx		
-U+A3DF	ꏟ	A000..A48F	Yi Syllables	Yi syllable ryr		
-U+A3E0	ꏠ	A000..A48F	Yi Syllables	Yi syllable jit		
-U+A3E1	ꏡ	A000..A48F	Yi Syllables	Yi syllable jix		
-U+A3E2	ꏢ	A000..A48F	Yi Syllables	Yi syllable ji		
-U+A3E3	ꏣ	A000..A48F	Yi Syllables	Yi syllable jip		
-U+A3E4	ꏤ	A000..A48F	Yi Syllables	Yi syllable jiet		
-U+A3E5	ꏥ	A000..A48F	Yi Syllables	Yi syllable jiex		
-U+A3E6	ꏦ	A000..A48F	Yi Syllables	Yi syllable jie		
-U+A3E7	ꏧ	A000..A48F	Yi Syllables	Yi syllable jiep		
-U+A3E8	ꏨ	A000..A48F	Yi Syllables	Yi syllable juot		
-U+A3E9	ꏩ	A000..A48F	Yi Syllables	Yi syllable juox		
-U+A3EA	ꏪ	A000..A48F	Yi Syllables	Yi syllable juo		
-U+A3EB	ꏫ	A000..A48F	Yi Syllables	Yi syllable juop		
-U+A3EC	ꏬ	A000..A48F	Yi Syllables	Yi syllable jot		
-U+A3ED	ꏭ	A000..A48F	Yi Syllables	Yi syllable jox		
-U+A3EE	ꏮ	A000..A48F	Yi Syllables	Yi syllable jo		
-U+A3EF	ꏯ	A000..A48F	Yi Syllables	Yi syllable jop		
-U+A3F0	ꏰ	A000..A48F	Yi Syllables	Yi syllable jut		
-U+A3F1	ꏱ	A000..A48F	Yi Syllables	Yi syllable jux		
-U+A3F2	ꏲ	A000..A48F	Yi Syllables	Yi syllable ju		
-U+A3F3	ꏳ	A000..A48F	Yi Syllables	Yi syllable jup		
-U+A3F4	ꏴ	A000..A48F	Yi Syllables	Yi syllable jurx		
-U+A3F5	ꏵ	A000..A48F	Yi Syllables	Yi syllable jur		
-U+A3F6	ꏶ	A000..A48F	Yi Syllables	Yi syllable jyt		
-U+A3F7	ꏷ	A000..A48F	Yi Syllables	Yi syllable jyx		
-U+A3F8	ꏸ	A000..A48F	Yi Syllables	Yi syllable jy		
-U+A3F9	ꏹ	A000..A48F	Yi Syllables	Yi syllable jyp		
-U+A3FA	ꏺ	A000..A48F	Yi Syllables	Yi syllable jyrx		
-U+A3FB	ꏻ	A000..A48F	Yi Syllables	Yi syllable jyr		
-U+A3FC	ꏼ	A000..A48F	Yi Syllables	Yi syllable qit		
-U+A3FD	ꏽ	A000..A48F	Yi Syllables	Yi syllable qix		
-U+A3FE	ꏾ	A000..A48F	Yi Syllables	Yi syllable qi		
-U+A3FF	ꏿ	A000..A48F	Yi Syllables	Yi syllable qip		
-U+A400	ꐀ	A000..A48F	Yi Syllables	Yi syllable qiet		
-U+A401	ꐁ	A000..A48F	Yi Syllables	Yi syllable qiex		
-U+A402	ꐂ	A000..A48F	Yi Syllables	Yi syllable qie		
-U+A403	ꐃ	A000..A48F	Yi Syllables	Yi syllable qiep		
-U+A404	ꐄ	A000..A48F	Yi Syllables	Yi syllable quot		
-U+A405	ꐅ	A000..A48F	Yi Syllables	Yi syllable quox		
-U+A406	ꐆ	A000..A48F	Yi Syllables	Yi syllable quo		
-U+A407	ꐇ	A000..A48F	Yi Syllables	Yi syllable quop		
-U+A408	ꐈ	A000..A48F	Yi Syllables	Yi syllable qot		
-U+A409	ꐉ	A000..A48F	Yi Syllables	Yi syllable qox		
-U+A40A	ꐊ	A000..A48F	Yi Syllables	Yi syllable qo		
-U+A40B	ꐋ	A000..A48F	Yi Syllables	Yi syllable qop		
-U+A40C	ꐌ	A000..A48F	Yi Syllables	Yi syllable qut		
-U+A40D	ꐍ	A000..A48F	Yi Syllables	Yi syllable qux		
-U+A40E	ꐎ	A000..A48F	Yi Syllables	Yi syllable qu		
-U+A40F	ꐏ	A000..A48F	Yi Syllables	Yi syllable qup		
-U+A410	ꐐ	A000..A48F	Yi Syllables	Yi syllable qurx		
-U+A411	ꐑ	A000..A48F	Yi Syllables	Yi syllable qur		
-U+A412	ꐒ	A000..A48F	Yi Syllables	Yi syllable qyt		
-U+A413	ꐓ	A000..A48F	Yi Syllables	Yi syllable qyx		
-U+A414	ꐔ	A000..A48F	Yi Syllables	Yi syllable qy		
-U+A415	ꐕ	A000..A48F	Yi Syllables	Yi syllable qyp		
-U+A416	ꐖ	A000..A48F	Yi Syllables	Yi syllable qyrx		
-U+A417	ꐗ	A000..A48F	Yi Syllables	Yi syllable qyr		
-U+A418	ꐘ	A000..A48F	Yi Syllables	Yi syllable jjit		
-U+A419	ꐙ	A000..A48F	Yi Syllables	Yi syllable jjix		
-U+A41A	ꐚ	A000..A48F	Yi Syllables	Yi syllable jji		
-U+A41B	ꐛ	A000..A48F	Yi Syllables	Yi syllable jjip		
-U+A41C	ꐜ	A000..A48F	Yi Syllables	Yi syllable jjiet		
-U+A41D	ꐝ	A000..A48F	Yi Syllables	Yi syllable jjiex		
-U+A41E	ꐞ	A000..A48F	Yi Syllables	Yi syllable jjie		
-U+A41F	ꐟ	A000..A48F	Yi Syllables	Yi syllable jjiep		
-U+A420	ꐠ	A000..A48F	Yi Syllables	Yi syllable jjuox		
-U+A421	ꐡ	A000..A48F	Yi Syllables	Yi syllable jjuo		
-U+A422	ꐢ	A000..A48F	Yi Syllables	Yi syllable jjuop		
-U+A423	ꐣ	A000..A48F	Yi Syllables	Yi syllable jjot		
-U+A424	ꐤ	A000..A48F	Yi Syllables	Yi syllable jjox		
-U+A425	ꐥ	A000..A48F	Yi Syllables	Yi syllable jjo		
-U+A426	ꐦ	A000..A48F	Yi Syllables	Yi syllable jjop		
-U+A427	ꐧ	A000..A48F	Yi Syllables	Yi syllable jjut		
-U+A428	ꐨ	A000..A48F	Yi Syllables	Yi syllable jjux		
-U+A429	ꐩ	A000..A48F	Yi Syllables	Yi syllable jju		
-U+A42A	ꐪ	A000..A48F	Yi Syllables	Yi syllable jjup		
-U+A42B	ꐫ	A000..A48F	Yi Syllables	Yi syllable jjurx		
-U+A42C	ꐬ	A000..A48F	Yi Syllables	Yi syllable jjur		
-U+A42D	ꐭ	A000..A48F	Yi Syllables	Yi syllable jjyt		
-U+A42E	ꐮ	A000..A48F	Yi Syllables	Yi syllable jjyx		
-U+A42F	ꐯ	A000..A48F	Yi Syllables	Yi syllable jjy		
-U+A430	ꐰ	A000..A48F	Yi Syllables	Yi syllable jjyp		
-U+A431	ꐱ	A000..A48F	Yi Syllables	Yi syllable njit		
-U+A432	ꐲ	A000..A48F	Yi Syllables	Yi syllable njix		
-U+A433	ꐳ	A000..A48F	Yi Syllables	Yi syllable nji		
-U+A434	ꐴ	A000..A48F	Yi Syllables	Yi syllable njip		
-U+A435	ꐵ	A000..A48F	Yi Syllables	Yi syllable njiet		
-U+A436	ꐶ	A000..A48F	Yi Syllables	Yi syllable njiex		
-U+A437	ꐷ	A000..A48F	Yi Syllables	Yi syllable njie		
-U+A438	ꐸ	A000..A48F	Yi Syllables	Yi syllable njiep		
-U+A439	ꐹ	A000..A48F	Yi Syllables	Yi syllable njuox		
-U+A43A	ꐺ	A000..A48F	Yi Syllables	Yi syllable njuo		
-U+A43B	ꐻ	A000..A48F	Yi Syllables	Yi syllable njot		
-U+A43C	ꐼ	A000..A48F	Yi Syllables	Yi syllable njox		
-U+A43D	ꐽ	A000..A48F	Yi Syllables	Yi syllable njo		
-U+A43E	ꐾ	A000..A48F	Yi Syllables	Yi syllable njop		
-U+A43F	ꐿ	A000..A48F	Yi Syllables	Yi syllable njux		
-U+A440	ꑀ	A000..A48F	Yi Syllables	Yi syllable nju		
-U+A441	ꑁ	A000..A48F	Yi Syllables	Yi syllable njup		
-U+A442	ꑂ	A000..A48F	Yi Syllables	Yi syllable njurx		
-U+A443	ꑃ	A000..A48F	Yi Syllables	Yi syllable njur		
-U+A444	ꑄ	A000..A48F	Yi Syllables	Yi syllable njyt		
-U+A445	ꑅ	A000..A48F	Yi Syllables	Yi syllable njyx		
-U+A446	ꑆ	A000..A48F	Yi Syllables	Yi syllable njy		
-U+A447	ꑇ	A000..A48F	Yi Syllables	Yi syllable njyp		
-U+A448	ꑈ	A000..A48F	Yi Syllables	Yi syllable njyrx		
-U+A449	ꑉ	A000..A48F	Yi Syllables	Yi syllable njyr		
-U+A44A	ꑊ	A000..A48F	Yi Syllables	Yi syllable nyit		
-U+A44B	ꑋ	A000..A48F	Yi Syllables	Yi syllable nyix		
-U+A44C	ꑌ	A000..A48F	Yi Syllables	Yi syllable nyi		
-U+A44D	ꑍ	A000..A48F	Yi Syllables	Yi syllable nyip		
-U+A44E	ꑎ	A000..A48F	Yi Syllables	Yi syllable nyiet		
-U+A44F	ꑏ	A000..A48F	Yi Syllables	Yi syllable nyiex		
-U+A450	ꑐ	A000..A48F	Yi Syllables	Yi syllable nyie		
-U+A451	ꑑ	A000..A48F	Yi Syllables	Yi syllable nyiep		
-U+A452	ꑒ	A000..A48F	Yi Syllables	Yi syllable nyuox		
-U+A453	ꑓ	A000..A48F	Yi Syllables	Yi syllable nyuo		
-U+A454	ꑔ	A000..A48F	Yi Syllables	Yi syllable nyuop		
-U+A455	ꑕ	A000..A48F	Yi Syllables	Yi syllable nyot		
-U+A456	ꑖ	A000..A48F	Yi Syllables	Yi syllable nyox		
-U+A457	ꑗ	A000..A48F	Yi Syllables	Yi syllable nyo		
-U+A458	ꑘ	A000..A48F	Yi Syllables	Yi syllable nyop		
-U+A459	ꑙ	A000..A48F	Yi Syllables	Yi syllable nyut		
-U+A45A	ꑚ	A000..A48F	Yi Syllables	Yi syllable nyux		
-U+A45B	ꑛ	A000..A48F	Yi Syllables	Yi syllable nyu		
-U+A45C	ꑜ	A000..A48F	Yi Syllables	Yi syllable nyup		
-U+A45D	ꑝ	A000..A48F	Yi Syllables	Yi syllable xit		
-U+A45E	ꑞ	A000..A48F	Yi Syllables	Yi syllable xix		
-U+A45F	ꑟ	A000..A48F	Yi Syllables	Yi syllable xi		
-U+A460	ꑠ	A000..A48F	Yi Syllables	Yi syllable xip		
-U+A461	ꑡ	A000..A48F	Yi Syllables	Yi syllable xiet		
-U+A462	ꑢ	A000..A48F	Yi Syllables	Yi syllable xiex		
-U+A463	ꑣ	A000..A48F	Yi Syllables	Yi syllable xie		
-U+A464	ꑤ	A000..A48F	Yi Syllables	Yi syllable xiep		
-U+A465	ꑥ	A000..A48F	Yi Syllables	Yi syllable xuox		
-U+A466	ꑦ	A000..A48F	Yi Syllables	Yi syllable xuo		
-U+A467	ꑧ	A000..A48F	Yi Syllables	Yi syllable xot		
-U+A468	ꑨ	A000..A48F	Yi Syllables	Yi syllable xox		
-U+A469	ꑩ	A000..A48F	Yi Syllables	Yi syllable xo		
-U+A46A	ꑪ	A000..A48F	Yi Syllables	Yi syllable xop		
-U+A46B	ꑫ	A000..A48F	Yi Syllables	Yi syllable xyt		
-U+A46C	ꑬ	A000..A48F	Yi Syllables	Yi syllable xyx		
-U+A46D	ꑭ	A000..A48F	Yi Syllables	Yi syllable xy		
-U+A46E	ꑮ	A000..A48F	Yi Syllables	Yi syllable xyp		
-U+A46F	ꑯ	A000..A48F	Yi Syllables	Yi syllable xyrx		
-U+A470	ꑰ	A000..A48F	Yi Syllables	Yi syllable xyr		
-U+A471	ꑱ	A000..A48F	Yi Syllables	Yi syllable yit		
-U+A472	ꑲ	A000..A48F	Yi Syllables	Yi syllable yix		
-U+A473	ꑳ	A000..A48F	Yi Syllables	Yi syllable yi		
-U+A474	ꑴ	A000..A48F	Yi Syllables	Yi syllable yip		
-U+A475	ꑵ	A000..A48F	Yi Syllables	Yi syllable yiet		
-U+A476	ꑶ	A000..A48F	Yi Syllables	Yi syllable yiex		
-U+A477	ꑷ	A000..A48F	Yi Syllables	Yi syllable yie		
-U+A478	ꑸ	A000..A48F	Yi Syllables	Yi syllable yiep		
-U+A479	ꑹ	A000..A48F	Yi Syllables	Yi syllable yuot		
-U+A47A	ꑺ	A000..A48F	Yi Syllables	Yi syllable yuox		
-U+A47B	ꑻ	A000..A48F	Yi Syllables	Yi syllable yuo		
-U+A47C	ꑼ	A000..A48F	Yi Syllables	Yi syllable yuop		
-U+A47D	ꑽ	A000..A48F	Yi Syllables	Yi syllable yot		
-U+A47E	ꑾ	A000..A48F	Yi Syllables	Yi syllable yox		
-U+A47F	ꑿ	A000..A48F	Yi Syllables	Yi syllable yo		
-U+A480	ꒀ	A000..A48F	Yi Syllables	Yi syllable yop		
-U+A481	ꒁ	A000..A48F	Yi Syllables	Yi syllable yut		
-U+A482	ꒂ	A000..A48F	Yi Syllables	Yi syllable yux		
-U+A483	ꒃ	A000..A48F	Yi Syllables	Yi syllable yu		
-U+A484	ꒄ	A000..A48F	Yi Syllables	Yi syllable yup		
-U+A485	ꒅ	A000..A48F	Yi Syllables	Yi syllable yurx		
-U+A486	ꒆ	A000..A48F	Yi Syllables	Yi syllable yur		
-U+A487	ꒇ	A000..A48F	Yi Syllables	Yi syllable yyt		
-U+A488	ꒈ	A000..A48F	Yi Syllables	Yi syllable yyx		
-U+A489	ꒉ	A000..A48F	Yi Syllables	Yi syllable yy		
-U+A48A	ꒊ	A000..A48F	Yi Syllables	Yi syllable yyp		
-U+A48B	ꒋ	A000..A48F	Yi Syllables	Yi syllable yyrx		
-U+A48C	ꒌ	A000..A48F	Yi Syllables	Yi syllable yyr		
+code_points	chars	tab_completions	unicode_name	base
+U+A000	ꀀ		YI SYLLABLE IT	
+U+A001	ꀁ		YI SYLLABLE IX	
+U+A002	ꀂ		YI SYLLABLE I	
+U+A003	ꀃ		YI SYLLABLE IP	
+U+A004	ꀄ		YI SYLLABLE IET	
+U+A005	ꀅ		YI SYLLABLE IEX	
+U+A006	ꀆ		YI SYLLABLE IE	
+U+A007	ꀇ		YI SYLLABLE IEP	
+U+A008	ꀈ		YI SYLLABLE AT	
+U+A009	ꀉ		YI SYLLABLE AX	
+U+A00A	ꀊ		YI SYLLABLE A	
+U+A00B	ꀋ		YI SYLLABLE AP	
+U+A00C	ꀌ		YI SYLLABLE UOX	
+U+A00D	ꀍ		YI SYLLABLE UO	
+U+A00E	ꀎ		YI SYLLABLE UOP	
+U+A00F	ꀏ		YI SYLLABLE OT	
+U+A010	ꀐ		YI SYLLABLE OX	
+U+A011	ꀑ		YI SYLLABLE O	
+U+A012	ꀒ		YI SYLLABLE OP	
+U+A013	ꀓ		YI SYLLABLE EX	
+U+A014	ꀔ		YI SYLLABLE E	
+U+A015	ꀕ		YI SYLLABLE WU	
+U+A016	ꀖ		YI SYLLABLE BIT	
+U+A017	ꀗ		YI SYLLABLE BIX	
+U+A018	ꀘ		YI SYLLABLE BI	
+U+A019	ꀙ		YI SYLLABLE BIP	
+U+A01A	ꀚ		YI SYLLABLE BIET	
+U+A01B	ꀛ		YI SYLLABLE BIEX	
+U+A01C	ꀜ		YI SYLLABLE BIE	
+U+A01D	ꀝ		YI SYLLABLE BIEP	
+U+A01E	ꀞ		YI SYLLABLE BAT	
+U+A01F	ꀟ		YI SYLLABLE BAX	
+U+A020	ꀠ		YI SYLLABLE BA	
+U+A021	ꀡ		YI SYLLABLE BAP	
+U+A022	ꀢ		YI SYLLABLE BUOX	
+U+A023	ꀣ		YI SYLLABLE BUO	
+U+A024	ꀤ		YI SYLLABLE BUOP	
+U+A025	ꀥ		YI SYLLABLE BOT	
+U+A026	ꀦ		YI SYLLABLE BOX	
+U+A027	ꀧ		YI SYLLABLE BO	
+U+A028	ꀨ		YI SYLLABLE BOP	
+U+A029	ꀩ		YI SYLLABLE BEX	
+U+A02A	ꀪ		YI SYLLABLE BE	
+U+A02B	ꀫ		YI SYLLABLE BEP	
+U+A02C	ꀬ		YI SYLLABLE BUT	
+U+A02D	ꀭ		YI SYLLABLE BUX	
+U+A02E	ꀮ		YI SYLLABLE BU	
+U+A02F	ꀯ		YI SYLLABLE BUP	
+U+A030	ꀰ		YI SYLLABLE BURX	
+U+A031	ꀱ		YI SYLLABLE BUR	
+U+A032	ꀲ		YI SYLLABLE BYT	
+U+A033	ꀳ		YI SYLLABLE BYX	
+U+A034	ꀴ		YI SYLLABLE BY	
+U+A035	ꀵ		YI SYLLABLE BYP	
+U+A036	ꀶ		YI SYLLABLE BYRX	
+U+A037	ꀷ		YI SYLLABLE BYR	
+U+A038	ꀸ		YI SYLLABLE PIT	
+U+A039	ꀹ		YI SYLLABLE PIX	
+U+A03A	ꀺ		YI SYLLABLE PI	
+U+A03B	ꀻ		YI SYLLABLE PIP	
+U+A03C	ꀼ		YI SYLLABLE PIEX	
+U+A03D	ꀽ		YI SYLLABLE PIE	
+U+A03E	ꀾ		YI SYLLABLE PIEP	
+U+A03F	ꀿ		YI SYLLABLE PAT	
+U+A040	ꁀ		YI SYLLABLE PAX	
+U+A041	ꁁ		YI SYLLABLE PA	
+U+A042	ꁂ		YI SYLLABLE PAP	
+U+A043	ꁃ		YI SYLLABLE PUOX	
+U+A044	ꁄ		YI SYLLABLE PUO	
+U+A045	ꁅ		YI SYLLABLE PUOP	
+U+A046	ꁆ		YI SYLLABLE POT	
+U+A047	ꁇ		YI SYLLABLE POX	
+U+A048	ꁈ		YI SYLLABLE PO	
+U+A049	ꁉ		YI SYLLABLE POP	
+U+A04A	ꁊ		YI SYLLABLE PUT	
+U+A04B	ꁋ		YI SYLLABLE PUX	
+U+A04C	ꁌ		YI SYLLABLE PU	
+U+A04D	ꁍ		YI SYLLABLE PUP	
+U+A04E	ꁎ		YI SYLLABLE PURX	
+U+A04F	ꁏ		YI SYLLABLE PUR	
+U+A050	ꁐ		YI SYLLABLE PYT	
+U+A051	ꁑ		YI SYLLABLE PYX	
+U+A052	ꁒ		YI SYLLABLE PY	
+U+A053	ꁓ		YI SYLLABLE PYP	
+U+A054	ꁔ		YI SYLLABLE PYRX	
+U+A055	ꁕ		YI SYLLABLE PYR	
+U+A056	ꁖ		YI SYLLABLE BBIT	
+U+A057	ꁗ		YI SYLLABLE BBIX	
+U+A058	ꁘ		YI SYLLABLE BBI	
+U+A059	ꁙ		YI SYLLABLE BBIP	
+U+A05A	ꁚ		YI SYLLABLE BBIET	
+U+A05B	ꁛ		YI SYLLABLE BBIEX	
+U+A05C	ꁜ		YI SYLLABLE BBIE	
+U+A05D	ꁝ		YI SYLLABLE BBIEP	
+U+A05E	ꁞ		YI SYLLABLE BBAT	
+U+A05F	ꁟ		YI SYLLABLE BBAX	
+U+A060	ꁠ		YI SYLLABLE BBA	
+U+A061	ꁡ		YI SYLLABLE BBAP	
+U+A062	ꁢ		YI SYLLABLE BBUOX	
+U+A063	ꁣ		YI SYLLABLE BBUO	
+U+A064	ꁤ		YI SYLLABLE BBUOP	
+U+A065	ꁥ		YI SYLLABLE BBOT	
+U+A066	ꁦ		YI SYLLABLE BBOX	
+U+A067	ꁧ		YI SYLLABLE BBO	
+U+A068	ꁨ		YI SYLLABLE BBOP	
+U+A069	ꁩ		YI SYLLABLE BBEX	
+U+A06A	ꁪ		YI SYLLABLE BBE	
+U+A06B	ꁫ		YI SYLLABLE BBEP	
+U+A06C	ꁬ		YI SYLLABLE BBUT	
+U+A06D	ꁭ		YI SYLLABLE BBUX	
+U+A06E	ꁮ		YI SYLLABLE BBU	
+U+A06F	ꁯ		YI SYLLABLE BBUP	
+U+A070	ꁰ		YI SYLLABLE BBURX	
+U+A071	ꁱ		YI SYLLABLE BBUR	
+U+A072	ꁲ		YI SYLLABLE BBYT	
+U+A073	ꁳ		YI SYLLABLE BBYX	
+U+A074	ꁴ		YI SYLLABLE BBY	
+U+A075	ꁵ		YI SYLLABLE BBYP	
+U+A076	ꁶ		YI SYLLABLE NBIT	
+U+A077	ꁷ		YI SYLLABLE NBIX	
+U+A078	ꁸ		YI SYLLABLE NBI	
+U+A079	ꁹ		YI SYLLABLE NBIP	
+U+A07A	ꁺ		YI SYLLABLE NBIEX	
+U+A07B	ꁻ		YI SYLLABLE NBIE	
+U+A07C	ꁼ		YI SYLLABLE NBIEP	
+U+A07D	ꁽ		YI SYLLABLE NBAT	
+U+A07E	ꁾ		YI SYLLABLE NBAX	
+U+A07F	ꁿ		YI SYLLABLE NBA	
+U+A080	ꂀ		YI SYLLABLE NBAP	
+U+A081	ꂁ		YI SYLLABLE NBOT	
+U+A082	ꂂ		YI SYLLABLE NBOX	
+U+A083	ꂃ		YI SYLLABLE NBO	
+U+A084	ꂄ		YI SYLLABLE NBOP	
+U+A085	ꂅ		YI SYLLABLE NBUT	
+U+A086	ꂆ		YI SYLLABLE NBUX	
+U+A087	ꂇ		YI SYLLABLE NBU	
+U+A088	ꂈ		YI SYLLABLE NBUP	
+U+A089	ꂉ		YI SYLLABLE NBURX	
+U+A08A	ꂊ		YI SYLLABLE NBUR	
+U+A08B	ꂋ		YI SYLLABLE NBYT	
+U+A08C	ꂌ		YI SYLLABLE NBYX	
+U+A08D	ꂍ		YI SYLLABLE NBY	
+U+A08E	ꂎ		YI SYLLABLE NBYP	
+U+A08F	ꂏ		YI SYLLABLE NBYRX	
+U+A090	ꂐ		YI SYLLABLE NBYR	
+U+A091	ꂑ		YI SYLLABLE HMIT	
+U+A092	ꂒ		YI SYLLABLE HMIX	
+U+A093	ꂓ		YI SYLLABLE HMI	
+U+A094	ꂔ		YI SYLLABLE HMIP	
+U+A095	ꂕ		YI SYLLABLE HMIEX	
+U+A096	ꂖ		YI SYLLABLE HMIE	
+U+A097	ꂗ		YI SYLLABLE HMIEP	
+U+A098	ꂘ		YI SYLLABLE HMAT	
+U+A099	ꂙ		YI SYLLABLE HMAX	
+U+A09A	ꂚ		YI SYLLABLE HMA	
+U+A09B	ꂛ		YI SYLLABLE HMAP	
+U+A09C	ꂜ		YI SYLLABLE HMUOX	
+U+A09D	ꂝ		YI SYLLABLE HMUO	
+U+A09E	ꂞ		YI SYLLABLE HMUOP	
+U+A09F	ꂟ		YI SYLLABLE HMOT	
+U+A0A0	ꂠ		YI SYLLABLE HMOX	
+U+A0A1	ꂡ		YI SYLLABLE HMO	
+U+A0A2	ꂢ		YI SYLLABLE HMOP	
+U+A0A3	ꂣ		YI SYLLABLE HMUT	
+U+A0A4	ꂤ		YI SYLLABLE HMUX	
+U+A0A5	ꂥ		YI SYLLABLE HMU	
+U+A0A6	ꂦ		YI SYLLABLE HMUP	
+U+A0A7	ꂧ		YI SYLLABLE HMURX	
+U+A0A8	ꂨ		YI SYLLABLE HMUR	
+U+A0A9	ꂩ		YI SYLLABLE HMYX	
+U+A0AA	ꂪ		YI SYLLABLE HMY	
+U+A0AB	ꂫ		YI SYLLABLE HMYP	
+U+A0AC	ꂬ		YI SYLLABLE HMYRX	
+U+A0AD	ꂭ		YI SYLLABLE HMYR	
+U+A0AE	ꂮ		YI SYLLABLE MIT	
+U+A0AF	ꂯ		YI SYLLABLE MIX	
+U+A0B0	ꂰ		YI SYLLABLE MI	
+U+A0B1	ꂱ		YI SYLLABLE MIP	
+U+A0B2	ꂲ		YI SYLLABLE MIEX	
+U+A0B3	ꂳ		YI SYLLABLE MIE	
+U+A0B4	ꂴ		YI SYLLABLE MIEP	
+U+A0B5	ꂵ		YI SYLLABLE MAT	
+U+A0B6	ꂶ		YI SYLLABLE MAX	
+U+A0B7	ꂷ		YI SYLLABLE MA	
+U+A0B8	ꂸ		YI SYLLABLE MAP	
+U+A0B9	ꂹ		YI SYLLABLE MUOT	
+U+A0BA	ꂺ		YI SYLLABLE MUOX	
+U+A0BB	ꂻ		YI SYLLABLE MUO	
+U+A0BC	ꂼ		YI SYLLABLE MUOP	
+U+A0BD	ꂽ		YI SYLLABLE MOT	
+U+A0BE	ꂾ		YI SYLLABLE MOX	
+U+A0BF	ꂿ		YI SYLLABLE MO	
+U+A0C0	ꃀ		YI SYLLABLE MOP	
+U+A0C1	ꃁ		YI SYLLABLE MEX	
+U+A0C2	ꃂ		YI SYLLABLE ME	
+U+A0C3	ꃃ		YI SYLLABLE MUT	
+U+A0C4	ꃄ		YI SYLLABLE MUX	
+U+A0C5	ꃅ		YI SYLLABLE MU	
+U+A0C6	ꃆ		YI SYLLABLE MUP	
+U+A0C7	ꃇ		YI SYLLABLE MURX	
+U+A0C8	ꃈ		YI SYLLABLE MUR	
+U+A0C9	ꃉ		YI SYLLABLE MYT	
+U+A0CA	ꃊ		YI SYLLABLE MYX	
+U+A0CB	ꃋ		YI SYLLABLE MY	
+U+A0CC	ꃌ		YI SYLLABLE MYP	
+U+A0CD	ꃍ		YI SYLLABLE FIT	
+U+A0CE	ꃎ		YI SYLLABLE FIX	
+U+A0CF	ꃏ		YI SYLLABLE FI	
+U+A0D0	ꃐ		YI SYLLABLE FIP	
+U+A0D1	ꃑ		YI SYLLABLE FAT	
+U+A0D2	ꃒ		YI SYLLABLE FAX	
+U+A0D3	ꃓ		YI SYLLABLE FA	
+U+A0D4	ꃔ		YI SYLLABLE FAP	
+U+A0D5	ꃕ		YI SYLLABLE FOX	
+U+A0D6	ꃖ		YI SYLLABLE FO	
+U+A0D7	ꃗ		YI SYLLABLE FOP	
+U+A0D8	ꃘ		YI SYLLABLE FUT	
+U+A0D9	ꃙ		YI SYLLABLE FUX	
+U+A0DA	ꃚ		YI SYLLABLE FU	
+U+A0DB	ꃛ		YI SYLLABLE FUP	
+U+A0DC	ꃜ		YI SYLLABLE FURX	
+U+A0DD	ꃝ		YI SYLLABLE FUR	
+U+A0DE	ꃞ		YI SYLLABLE FYT	
+U+A0DF	ꃟ		YI SYLLABLE FYX	
+U+A0E0	ꃠ		YI SYLLABLE FY	
+U+A0E1	ꃡ		YI SYLLABLE FYP	
+U+A0E2	ꃢ		YI SYLLABLE VIT	
+U+A0E3	ꃣ		YI SYLLABLE VIX	
+U+A0E4	ꃤ		YI SYLLABLE VI	
+U+A0E5	ꃥ		YI SYLLABLE VIP	
+U+A0E6	ꃦ		YI SYLLABLE VIET	
+U+A0E7	ꃧ		YI SYLLABLE VIEX	
+U+A0E8	ꃨ		YI SYLLABLE VIE	
+U+A0E9	ꃩ		YI SYLLABLE VIEP	
+U+A0EA	ꃪ		YI SYLLABLE VAT	
+U+A0EB	ꃫ		YI SYLLABLE VAX	
+U+A0EC	ꃬ		YI SYLLABLE VA	
+U+A0ED	ꃭ		YI SYLLABLE VAP	
+U+A0EE	ꃮ		YI SYLLABLE VOT	
+U+A0EF	ꃯ		YI SYLLABLE VOX	
+U+A0F0	ꃰ		YI SYLLABLE VO	
+U+A0F1	ꃱ		YI SYLLABLE VOP	
+U+A0F2	ꃲ		YI SYLLABLE VEX	
+U+A0F3	ꃳ		YI SYLLABLE VEP	
+U+A0F4	ꃴ		YI SYLLABLE VUT	
+U+A0F5	ꃵ		YI SYLLABLE VUX	
+U+A0F6	ꃶ		YI SYLLABLE VU	
+U+A0F7	ꃷ		YI SYLLABLE VUP	
+U+A0F8	ꃸ		YI SYLLABLE VURX	
+U+A0F9	ꃹ		YI SYLLABLE VUR	
+U+A0FA	ꃺ		YI SYLLABLE VYT	
+U+A0FB	ꃻ		YI SYLLABLE VYX	
+U+A0FC	ꃼ		YI SYLLABLE VY	
+U+A0FD	ꃽ		YI SYLLABLE VYP	
+U+A0FE	ꃾ		YI SYLLABLE VYRX	
+U+A0FF	ꃿ		YI SYLLABLE VYR	
+U+A100	ꄀ		YI SYLLABLE DIT	
+U+A101	ꄁ		YI SYLLABLE DIX	
+U+A102	ꄂ		YI SYLLABLE DI	
+U+A103	ꄃ		YI SYLLABLE DIP	
+U+A104	ꄄ		YI SYLLABLE DIEX	
+U+A105	ꄅ		YI SYLLABLE DIE	
+U+A106	ꄆ		YI SYLLABLE DIEP	
+U+A107	ꄇ		YI SYLLABLE DAT	
+U+A108	ꄈ		YI SYLLABLE DAX	
+U+A109	ꄉ		YI SYLLABLE DA	
+U+A10A	ꄊ		YI SYLLABLE DAP	
+U+A10B	ꄋ		YI SYLLABLE DUOX	
+U+A10C	ꄌ		YI SYLLABLE DUO	
+U+A10D	ꄍ		YI SYLLABLE DOT	
+U+A10E	ꄎ		YI SYLLABLE DOX	
+U+A10F	ꄏ		YI SYLLABLE DO	
+U+A110	ꄐ		YI SYLLABLE DOP	
+U+A111	ꄑ		YI SYLLABLE DEX	
+U+A112	ꄒ		YI SYLLABLE DE	
+U+A113	ꄓ		YI SYLLABLE DEP	
+U+A114	ꄔ		YI SYLLABLE DUT	
+U+A115	ꄕ		YI SYLLABLE DUX	
+U+A116	ꄖ		YI SYLLABLE DU	
+U+A117	ꄗ		YI SYLLABLE DUP	
+U+A118	ꄘ		YI SYLLABLE DURX	
+U+A119	ꄙ		YI SYLLABLE DUR	
+U+A11A	ꄚ		YI SYLLABLE TIT	
+U+A11B	ꄛ		YI SYLLABLE TIX	
+U+A11C	ꄜ		YI SYLLABLE TI	
+U+A11D	ꄝ		YI SYLLABLE TIP	
+U+A11E	ꄞ		YI SYLLABLE TIEX	
+U+A11F	ꄟ		YI SYLLABLE TIE	
+U+A120	ꄠ		YI SYLLABLE TIEP	
+U+A121	ꄡ		YI SYLLABLE TAT	
+U+A122	ꄢ		YI SYLLABLE TAX	
+U+A123	ꄣ		YI SYLLABLE TA	
+U+A124	ꄤ		YI SYLLABLE TAP	
+U+A125	ꄥ		YI SYLLABLE TUOT	
+U+A126	ꄦ		YI SYLLABLE TUOX	
+U+A127	ꄧ		YI SYLLABLE TUO	
+U+A128	ꄨ		YI SYLLABLE TUOP	
+U+A129	ꄩ		YI SYLLABLE TOT	
+U+A12A	ꄪ		YI SYLLABLE TOX	
+U+A12B	ꄫ		YI SYLLABLE TO	
+U+A12C	ꄬ		YI SYLLABLE TOP	
+U+A12D	ꄭ		YI SYLLABLE TEX	
+U+A12E	ꄮ		YI SYLLABLE TE	
+U+A12F	ꄯ		YI SYLLABLE TEP	
+U+A130	ꄰ		YI SYLLABLE TUT	
+U+A131	ꄱ		YI SYLLABLE TUX	
+U+A132	ꄲ		YI SYLLABLE TU	
+U+A133	ꄳ		YI SYLLABLE TUP	
+U+A134	ꄴ		YI SYLLABLE TURX	
+U+A135	ꄵ		YI SYLLABLE TUR	
+U+A136	ꄶ		YI SYLLABLE DDIT	
+U+A137	ꄷ		YI SYLLABLE DDIX	
+U+A138	ꄸ		YI SYLLABLE DDI	
+U+A139	ꄹ		YI SYLLABLE DDIP	
+U+A13A	ꄺ		YI SYLLABLE DDIEX	
+U+A13B	ꄻ		YI SYLLABLE DDIE	
+U+A13C	ꄼ		YI SYLLABLE DDIEP	
+U+A13D	ꄽ		YI SYLLABLE DDAT	
+U+A13E	ꄾ		YI SYLLABLE DDAX	
+U+A13F	ꄿ		YI SYLLABLE DDA	
+U+A140	ꅀ		YI SYLLABLE DDAP	
+U+A141	ꅁ		YI SYLLABLE DDUOX	
+U+A142	ꅂ		YI SYLLABLE DDUO	
+U+A143	ꅃ		YI SYLLABLE DDUOP	
+U+A144	ꅄ		YI SYLLABLE DDOT	
+U+A145	ꅅ		YI SYLLABLE DDOX	
+U+A146	ꅆ		YI SYLLABLE DDO	
+U+A147	ꅇ		YI SYLLABLE DDOP	
+U+A148	ꅈ		YI SYLLABLE DDEX	
+U+A149	ꅉ		YI SYLLABLE DDE	
+U+A14A	ꅊ		YI SYLLABLE DDEP	
+U+A14B	ꅋ		YI SYLLABLE DDUT	
+U+A14C	ꅌ		YI SYLLABLE DDUX	
+U+A14D	ꅍ		YI SYLLABLE DDU	
+U+A14E	ꅎ		YI SYLLABLE DDUP	
+U+A14F	ꅏ		YI SYLLABLE DDURX	
+U+A150	ꅐ		YI SYLLABLE DDUR	
+U+A151	ꅑ		YI SYLLABLE NDIT	
+U+A152	ꅒ		YI SYLLABLE NDIX	
+U+A153	ꅓ		YI SYLLABLE NDI	
+U+A154	ꅔ		YI SYLLABLE NDIP	
+U+A155	ꅕ		YI SYLLABLE NDIEX	
+U+A156	ꅖ		YI SYLLABLE NDIE	
+U+A157	ꅗ		YI SYLLABLE NDAT	
+U+A158	ꅘ		YI SYLLABLE NDAX	
+U+A159	ꅙ		YI SYLLABLE NDA	
+U+A15A	ꅚ		YI SYLLABLE NDAP	
+U+A15B	ꅛ		YI SYLLABLE NDOT	
+U+A15C	ꅜ		YI SYLLABLE NDOX	
+U+A15D	ꅝ		YI SYLLABLE NDO	
+U+A15E	ꅞ		YI SYLLABLE NDOP	
+U+A15F	ꅟ		YI SYLLABLE NDEX	
+U+A160	ꅠ		YI SYLLABLE NDE	
+U+A161	ꅡ		YI SYLLABLE NDEP	
+U+A162	ꅢ		YI SYLLABLE NDUT	
+U+A163	ꅣ		YI SYLLABLE NDUX	
+U+A164	ꅤ		YI SYLLABLE NDU	
+U+A165	ꅥ		YI SYLLABLE NDUP	
+U+A166	ꅦ		YI SYLLABLE NDURX	
+U+A167	ꅧ		YI SYLLABLE NDUR	
+U+A168	ꅨ		YI SYLLABLE HNIT	
+U+A169	ꅩ		YI SYLLABLE HNIX	
+U+A16A	ꅪ		YI SYLLABLE HNI	
+U+A16B	ꅫ		YI SYLLABLE HNIP	
+U+A16C	ꅬ		YI SYLLABLE HNIET	
+U+A16D	ꅭ		YI SYLLABLE HNIEX	
+U+A16E	ꅮ		YI SYLLABLE HNIE	
+U+A16F	ꅯ		YI SYLLABLE HNIEP	
+U+A170	ꅰ		YI SYLLABLE HNAT	
+U+A171	ꅱ		YI SYLLABLE HNAX	
+U+A172	ꅲ		YI SYLLABLE HNA	
+U+A173	ꅳ		YI SYLLABLE HNAP	
+U+A174	ꅴ		YI SYLLABLE HNUOX	
+U+A175	ꅵ		YI SYLLABLE HNUO	
+U+A176	ꅶ		YI SYLLABLE HNOT	
+U+A177	ꅷ		YI SYLLABLE HNOX	
+U+A178	ꅸ		YI SYLLABLE HNOP	
+U+A179	ꅹ		YI SYLLABLE HNEX	
+U+A17A	ꅺ		YI SYLLABLE HNE	
+U+A17B	ꅻ		YI SYLLABLE HNEP	
+U+A17C	ꅼ		YI SYLLABLE HNUT	
+U+A17D	ꅽ		YI SYLLABLE NIT	
+U+A17E	ꅾ		YI SYLLABLE NIX	
+U+A17F	ꅿ		YI SYLLABLE NI	
+U+A180	ꆀ		YI SYLLABLE NIP	
+U+A181	ꆁ		YI SYLLABLE NIEX	
+U+A182	ꆂ		YI SYLLABLE NIE	
+U+A183	ꆃ		YI SYLLABLE NIEP	
+U+A184	ꆄ		YI SYLLABLE NAX	
+U+A185	ꆅ		YI SYLLABLE NA	
+U+A186	ꆆ		YI SYLLABLE NAP	
+U+A187	ꆇ		YI SYLLABLE NUOX	
+U+A188	ꆈ		YI SYLLABLE NUO	
+U+A189	ꆉ		YI SYLLABLE NUOP	
+U+A18A	ꆊ		YI SYLLABLE NOT	
+U+A18B	ꆋ		YI SYLLABLE NOX	
+U+A18C	ꆌ		YI SYLLABLE NO	
+U+A18D	ꆍ		YI SYLLABLE NOP	
+U+A18E	ꆎ		YI SYLLABLE NEX	
+U+A18F	ꆏ		YI SYLLABLE NE	
+U+A190	ꆐ		YI SYLLABLE NEP	
+U+A191	ꆑ		YI SYLLABLE NUT	
+U+A192	ꆒ		YI SYLLABLE NUX	
+U+A193	ꆓ		YI SYLLABLE NU	
+U+A194	ꆔ		YI SYLLABLE NUP	
+U+A195	ꆕ		YI SYLLABLE NURX	
+U+A196	ꆖ		YI SYLLABLE NUR	
+U+A197	ꆗ		YI SYLLABLE HLIT	
+U+A198	ꆘ		YI SYLLABLE HLIX	
+U+A199	ꆙ		YI SYLLABLE HLI	
+U+A19A	ꆚ		YI SYLLABLE HLIP	
+U+A19B	ꆛ		YI SYLLABLE HLIEX	
+U+A19C	ꆜ		YI SYLLABLE HLIE	
+U+A19D	ꆝ		YI SYLLABLE HLIEP	
+U+A19E	ꆞ		YI SYLLABLE HLAT	
+U+A19F	ꆟ		YI SYLLABLE HLAX	
+U+A1A0	ꆠ		YI SYLLABLE HLA	
+U+A1A1	ꆡ		YI SYLLABLE HLAP	
+U+A1A2	ꆢ		YI SYLLABLE HLUOX	
+U+A1A3	ꆣ		YI SYLLABLE HLUO	
+U+A1A4	ꆤ		YI SYLLABLE HLUOP	
+U+A1A5	ꆥ		YI SYLLABLE HLOX	
+U+A1A6	ꆦ		YI SYLLABLE HLO	
+U+A1A7	ꆧ		YI SYLLABLE HLOP	
+U+A1A8	ꆨ		YI SYLLABLE HLEX	
+U+A1A9	ꆩ		YI SYLLABLE HLE	
+U+A1AA	ꆪ		YI SYLLABLE HLEP	
+U+A1AB	ꆫ		YI SYLLABLE HLUT	
+U+A1AC	ꆬ		YI SYLLABLE HLUX	
+U+A1AD	ꆭ		YI SYLLABLE HLU	
+U+A1AE	ꆮ		YI SYLLABLE HLUP	
+U+A1AF	ꆯ		YI SYLLABLE HLURX	
+U+A1B0	ꆰ		YI SYLLABLE HLUR	
+U+A1B1	ꆱ		YI SYLLABLE HLYT	
+U+A1B2	ꆲ		YI SYLLABLE HLYX	
+U+A1B3	ꆳ		YI SYLLABLE HLY	
+U+A1B4	ꆴ		YI SYLLABLE HLYP	
+U+A1B5	ꆵ		YI SYLLABLE HLYRX	
+U+A1B6	ꆶ		YI SYLLABLE HLYR	
+U+A1B7	ꆷ		YI SYLLABLE LIT	
+U+A1B8	ꆸ		YI SYLLABLE LIX	
+U+A1B9	ꆹ		YI SYLLABLE LI	
+U+A1BA	ꆺ		YI SYLLABLE LIP	
+U+A1BB	ꆻ		YI SYLLABLE LIET	
+U+A1BC	ꆼ		YI SYLLABLE LIEX	
+U+A1BD	ꆽ		YI SYLLABLE LIE	
+U+A1BE	ꆾ		YI SYLLABLE LIEP	
+U+A1BF	ꆿ		YI SYLLABLE LAT	
+U+A1C0	ꇀ		YI SYLLABLE LAX	
+U+A1C1	ꇁ		YI SYLLABLE LA	
+U+A1C2	ꇂ		YI SYLLABLE LAP	
+U+A1C3	ꇃ		YI SYLLABLE LUOT	
+U+A1C4	ꇄ		YI SYLLABLE LUOX	
+U+A1C5	ꇅ		YI SYLLABLE LUO	
+U+A1C6	ꇆ		YI SYLLABLE LUOP	
+U+A1C7	ꇇ		YI SYLLABLE LOT	
+U+A1C8	ꇈ		YI SYLLABLE LOX	
+U+A1C9	ꇉ		YI SYLLABLE LO	
+U+A1CA	ꇊ		YI SYLLABLE LOP	
+U+A1CB	ꇋ		YI SYLLABLE LEX	
+U+A1CC	ꇌ		YI SYLLABLE LE	
+U+A1CD	ꇍ		YI SYLLABLE LEP	
+U+A1CE	ꇎ		YI SYLLABLE LUT	
+U+A1CF	ꇏ		YI SYLLABLE LUX	
+U+A1D0	ꇐ		YI SYLLABLE LU	
+U+A1D1	ꇑ		YI SYLLABLE LUP	
+U+A1D2	ꇒ		YI SYLLABLE LURX	
+U+A1D3	ꇓ		YI SYLLABLE LUR	
+U+A1D4	ꇔ		YI SYLLABLE LYT	
+U+A1D5	ꇕ		YI SYLLABLE LYX	
+U+A1D6	ꇖ		YI SYLLABLE LY	
+U+A1D7	ꇗ		YI SYLLABLE LYP	
+U+A1D8	ꇘ		YI SYLLABLE LYRX	
+U+A1D9	ꇙ		YI SYLLABLE LYR	
+U+A1DA	ꇚ		YI SYLLABLE GIT	
+U+A1DB	ꇛ		YI SYLLABLE GIX	
+U+A1DC	ꇜ		YI SYLLABLE GI	
+U+A1DD	ꇝ		YI SYLLABLE GIP	
+U+A1DE	ꇞ		YI SYLLABLE GIET	
+U+A1DF	ꇟ		YI SYLLABLE GIEX	
+U+A1E0	ꇠ		YI SYLLABLE GIE	
+U+A1E1	ꇡ		YI SYLLABLE GIEP	
+U+A1E2	ꇢ		YI SYLLABLE GAT	
+U+A1E3	ꇣ		YI SYLLABLE GAX	
+U+A1E4	ꇤ		YI SYLLABLE GA	
+U+A1E5	ꇥ		YI SYLLABLE GAP	
+U+A1E6	ꇦ		YI SYLLABLE GUOT	
+U+A1E7	ꇧ		YI SYLLABLE GUOX	
+U+A1E8	ꇨ		YI SYLLABLE GUO	
+U+A1E9	ꇩ		YI SYLLABLE GUOP	
+U+A1EA	ꇪ		YI SYLLABLE GOT	
+U+A1EB	ꇫ		YI SYLLABLE GOX	
+U+A1EC	ꇬ		YI SYLLABLE GO	
+U+A1ED	ꇭ		YI SYLLABLE GOP	
+U+A1EE	ꇮ		YI SYLLABLE GET	
+U+A1EF	ꇯ		YI SYLLABLE GEX	
+U+A1F0	ꇰ		YI SYLLABLE GE	
+U+A1F1	ꇱ		YI SYLLABLE GEP	
+U+A1F2	ꇲ		YI SYLLABLE GUT	
+U+A1F3	ꇳ		YI SYLLABLE GUX	
+U+A1F4	ꇴ		YI SYLLABLE GU	
+U+A1F5	ꇵ		YI SYLLABLE GUP	
+U+A1F6	ꇶ		YI SYLLABLE GURX	
+U+A1F7	ꇷ		YI SYLLABLE GUR	
+U+A1F8	ꇸ		YI SYLLABLE KIT	
+U+A1F9	ꇹ		YI SYLLABLE KIX	
+U+A1FA	ꇺ		YI SYLLABLE KI	
+U+A1FB	ꇻ		YI SYLLABLE KIP	
+U+A1FC	ꇼ		YI SYLLABLE KIEX	
+U+A1FD	ꇽ		YI SYLLABLE KIE	
+U+A1FE	ꇾ		YI SYLLABLE KIEP	
+U+A1FF	ꇿ		YI SYLLABLE KAT	
+U+A200	ꈀ		YI SYLLABLE KAX	
+U+A201	ꈁ		YI SYLLABLE KA	
+U+A202	ꈂ		YI SYLLABLE KAP	
+U+A203	ꈃ		YI SYLLABLE KUOX	
+U+A204	ꈄ		YI SYLLABLE KUO	
+U+A205	ꈅ		YI SYLLABLE KUOP	
+U+A206	ꈆ		YI SYLLABLE KOT	
+U+A207	ꈇ		YI SYLLABLE KOX	
+U+A208	ꈈ		YI SYLLABLE KO	
+U+A209	ꈉ		YI SYLLABLE KOP	
+U+A20A	ꈊ		YI SYLLABLE KET	
+U+A20B	ꈋ		YI SYLLABLE KEX	
+U+A20C	ꈌ		YI SYLLABLE KE	
+U+A20D	ꈍ		YI SYLLABLE KEP	
+U+A20E	ꈎ		YI SYLLABLE KUT	
+U+A20F	ꈏ		YI SYLLABLE KUX	
+U+A210	ꈐ		YI SYLLABLE KU	
+U+A211	ꈑ		YI SYLLABLE KUP	
+U+A212	ꈒ		YI SYLLABLE KURX	
+U+A213	ꈓ		YI SYLLABLE KUR	
+U+A214	ꈔ		YI SYLLABLE GGIT	
+U+A215	ꈕ		YI SYLLABLE GGIX	
+U+A216	ꈖ		YI SYLLABLE GGI	
+U+A217	ꈗ		YI SYLLABLE GGIEX	
+U+A218	ꈘ		YI SYLLABLE GGIE	
+U+A219	ꈙ		YI SYLLABLE GGIEP	
+U+A21A	ꈚ		YI SYLLABLE GGAT	
+U+A21B	ꈛ		YI SYLLABLE GGAX	
+U+A21C	ꈜ		YI SYLLABLE GGA	
+U+A21D	ꈝ		YI SYLLABLE GGAP	
+U+A21E	ꈞ		YI SYLLABLE GGUOT	
+U+A21F	ꈟ		YI SYLLABLE GGUOX	
+U+A220	ꈠ		YI SYLLABLE GGUO	
+U+A221	ꈡ		YI SYLLABLE GGUOP	
+U+A222	ꈢ		YI SYLLABLE GGOT	
+U+A223	ꈣ		YI SYLLABLE GGOX	
+U+A224	ꈤ		YI SYLLABLE GGO	
+U+A225	ꈥ		YI SYLLABLE GGOP	
+U+A226	ꈦ		YI SYLLABLE GGET	
+U+A227	ꈧ		YI SYLLABLE GGEX	
+U+A228	ꈨ		YI SYLLABLE GGE	
+U+A229	ꈩ		YI SYLLABLE GGEP	
+U+A22A	ꈪ		YI SYLLABLE GGUT	
+U+A22B	ꈫ		YI SYLLABLE GGUX	
+U+A22C	ꈬ		YI SYLLABLE GGU	
+U+A22D	ꈭ		YI SYLLABLE GGUP	
+U+A22E	ꈮ		YI SYLLABLE GGURX	
+U+A22F	ꈯ		YI SYLLABLE GGUR	
+U+A230	ꈰ		YI SYLLABLE MGIEX	
+U+A231	ꈱ		YI SYLLABLE MGIE	
+U+A232	ꈲ		YI SYLLABLE MGAT	
+U+A233	ꈳ		YI SYLLABLE MGAX	
+U+A234	ꈴ		YI SYLLABLE MGA	
+U+A235	ꈵ		YI SYLLABLE MGAP	
+U+A236	ꈶ		YI SYLLABLE MGUOX	
+U+A237	ꈷ		YI SYLLABLE MGUO	
+U+A238	ꈸ		YI SYLLABLE MGUOP	
+U+A239	ꈹ		YI SYLLABLE MGOT	
+U+A23A	ꈺ		YI SYLLABLE MGOX	
+U+A23B	ꈻ		YI SYLLABLE MGO	
+U+A23C	ꈼ		YI SYLLABLE MGOP	
+U+A23D	ꈽ		YI SYLLABLE MGEX	
+U+A23E	ꈾ		YI SYLLABLE MGE	
+U+A23F	ꈿ		YI SYLLABLE MGEP	
+U+A240	ꉀ		YI SYLLABLE MGUT	
+U+A241	ꉁ		YI SYLLABLE MGUX	
+U+A242	ꉂ		YI SYLLABLE MGU	
+U+A243	ꉃ		YI SYLLABLE MGUP	
+U+A244	ꉄ		YI SYLLABLE MGURX	
+U+A245	ꉅ		YI SYLLABLE MGUR	
+U+A246	ꉆ		YI SYLLABLE HXIT	
+U+A247	ꉇ		YI SYLLABLE HXIX	
+U+A248	ꉈ		YI SYLLABLE HXI	
+U+A249	ꉉ		YI SYLLABLE HXIP	
+U+A24A	ꉊ		YI SYLLABLE HXIET	
+U+A24B	ꉋ		YI SYLLABLE HXIEX	
+U+A24C	ꉌ		YI SYLLABLE HXIE	
+U+A24D	ꉍ		YI SYLLABLE HXIEP	
+U+A24E	ꉎ		YI SYLLABLE HXAT	
+U+A24F	ꉏ		YI SYLLABLE HXAX	
+U+A250	ꉐ		YI SYLLABLE HXA	
+U+A251	ꉑ		YI SYLLABLE HXAP	
+U+A252	ꉒ		YI SYLLABLE HXUOT	
+U+A253	ꉓ		YI SYLLABLE HXUOX	
+U+A254	ꉔ		YI SYLLABLE HXUO	
+U+A255	ꉕ		YI SYLLABLE HXUOP	
+U+A256	ꉖ		YI SYLLABLE HXOT	
+U+A257	ꉗ		YI SYLLABLE HXOX	
+U+A258	ꉘ		YI SYLLABLE HXO	
+U+A259	ꉙ		YI SYLLABLE HXOP	
+U+A25A	ꉚ		YI SYLLABLE HXEX	
+U+A25B	ꉛ		YI SYLLABLE HXE	
+U+A25C	ꉜ		YI SYLLABLE HXEP	
+U+A25D	ꉝ		YI SYLLABLE NGIEX	
+U+A25E	ꉞ		YI SYLLABLE NGIE	
+U+A25F	ꉟ		YI SYLLABLE NGIEP	
+U+A260	ꉠ		YI SYLLABLE NGAT	
+U+A261	ꉡ		YI SYLLABLE NGAX	
+U+A262	ꉢ		YI SYLLABLE NGA	
+U+A263	ꉣ		YI SYLLABLE NGAP	
+U+A264	ꉤ		YI SYLLABLE NGUOT	
+U+A265	ꉥ		YI SYLLABLE NGUOX	
+U+A266	ꉦ		YI SYLLABLE NGUO	
+U+A267	ꉧ		YI SYLLABLE NGOT	
+U+A268	ꉨ		YI SYLLABLE NGOX	
+U+A269	ꉩ		YI SYLLABLE NGO	
+U+A26A	ꉪ		YI SYLLABLE NGOP	
+U+A26B	ꉫ		YI SYLLABLE NGEX	
+U+A26C	ꉬ		YI SYLLABLE NGE	
+U+A26D	ꉭ		YI SYLLABLE NGEP	
+U+A26E	ꉮ		YI SYLLABLE HIT	
+U+A26F	ꉯ		YI SYLLABLE HIEX	
+U+A270	ꉰ		YI SYLLABLE HIE	
+U+A271	ꉱ		YI SYLLABLE HAT	
+U+A272	ꉲ		YI SYLLABLE HAX	
+U+A273	ꉳ		YI SYLLABLE HA	
+U+A274	ꉴ		YI SYLLABLE HAP	
+U+A275	ꉵ		YI SYLLABLE HUOT	
+U+A276	ꉶ		YI SYLLABLE HUOX	
+U+A277	ꉷ		YI SYLLABLE HUO	
+U+A278	ꉸ		YI SYLLABLE HUOP	
+U+A279	ꉹ		YI SYLLABLE HOT	
+U+A27A	ꉺ		YI SYLLABLE HOX	
+U+A27B	ꉻ		YI SYLLABLE HO	
+U+A27C	ꉼ		YI SYLLABLE HOP	
+U+A27D	ꉽ		YI SYLLABLE HEX	
+U+A27E	ꉾ		YI SYLLABLE HE	
+U+A27F	ꉿ		YI SYLLABLE HEP	
+U+A280	ꊀ		YI SYLLABLE WAT	
+U+A281	ꊁ		YI SYLLABLE WAX	
+U+A282	ꊂ		YI SYLLABLE WA	
+U+A283	ꊃ		YI SYLLABLE WAP	
+U+A284	ꊄ		YI SYLLABLE WUOX	
+U+A285	ꊅ		YI SYLLABLE WUO	
+U+A286	ꊆ		YI SYLLABLE WUOP	
+U+A287	ꊇ		YI SYLLABLE WOX	
+U+A288	ꊈ		YI SYLLABLE WO	
+U+A289	ꊉ		YI SYLLABLE WOP	
+U+A28A	ꊊ		YI SYLLABLE WEX	
+U+A28B	ꊋ		YI SYLLABLE WE	
+U+A28C	ꊌ		YI SYLLABLE WEP	
+U+A28D	ꊍ		YI SYLLABLE ZIT	
+U+A28E	ꊎ		YI SYLLABLE ZIX	
+U+A28F	ꊏ		YI SYLLABLE ZI	
+U+A290	ꊐ		YI SYLLABLE ZIP	
+U+A291	ꊑ		YI SYLLABLE ZIEX	
+U+A292	ꊒ		YI SYLLABLE ZIE	
+U+A293	ꊓ		YI SYLLABLE ZIEP	
+U+A294	ꊔ		YI SYLLABLE ZAT	
+U+A295	ꊕ		YI SYLLABLE ZAX	
+U+A296	ꊖ		YI SYLLABLE ZA	
+U+A297	ꊗ		YI SYLLABLE ZAP	
+U+A298	ꊘ		YI SYLLABLE ZUOX	
+U+A299	ꊙ		YI SYLLABLE ZUO	
+U+A29A	ꊚ		YI SYLLABLE ZUOP	
+U+A29B	ꊛ		YI SYLLABLE ZOT	
+U+A29C	ꊜ		YI SYLLABLE ZOX	
+U+A29D	ꊝ		YI SYLLABLE ZO	
+U+A29E	ꊞ		YI SYLLABLE ZOP	
+U+A29F	ꊟ		YI SYLLABLE ZEX	
+U+A2A0	ꊠ		YI SYLLABLE ZE	
+U+A2A1	ꊡ		YI SYLLABLE ZEP	
+U+A2A2	ꊢ		YI SYLLABLE ZUT	
+U+A2A3	ꊣ		YI SYLLABLE ZUX	
+U+A2A4	ꊤ		YI SYLLABLE ZU	
+U+A2A5	ꊥ		YI SYLLABLE ZUP	
+U+A2A6	ꊦ		YI SYLLABLE ZURX	
+U+A2A7	ꊧ		YI SYLLABLE ZUR	
+U+A2A8	ꊨ		YI SYLLABLE ZYT	
+U+A2A9	ꊩ		YI SYLLABLE ZYX	
+U+A2AA	ꊪ		YI SYLLABLE ZY	
+U+A2AB	ꊫ		YI SYLLABLE ZYP	
+U+A2AC	ꊬ		YI SYLLABLE ZYRX	
+U+A2AD	ꊭ		YI SYLLABLE ZYR	
+U+A2AE	ꊮ		YI SYLLABLE CIT	
+U+A2AF	ꊯ		YI SYLLABLE CIX	
+U+A2B0	ꊰ		YI SYLLABLE CI	
+U+A2B1	ꊱ		YI SYLLABLE CIP	
+U+A2B2	ꊲ		YI SYLLABLE CIET	
+U+A2B3	ꊳ		YI SYLLABLE CIEX	
+U+A2B4	ꊴ		YI SYLLABLE CIE	
+U+A2B5	ꊵ		YI SYLLABLE CIEP	
+U+A2B6	ꊶ		YI SYLLABLE CAT	
+U+A2B7	ꊷ		YI SYLLABLE CAX	
+U+A2B8	ꊸ		YI SYLLABLE CA	
+U+A2B9	ꊹ		YI SYLLABLE CAP	
+U+A2BA	ꊺ		YI SYLLABLE CUOX	
+U+A2BB	ꊻ		YI SYLLABLE CUO	
+U+A2BC	ꊼ		YI SYLLABLE CUOP	
+U+A2BD	ꊽ		YI SYLLABLE COT	
+U+A2BE	ꊾ		YI SYLLABLE COX	
+U+A2BF	ꊿ		YI SYLLABLE CO	
+U+A2C0	ꋀ		YI SYLLABLE COP	
+U+A2C1	ꋁ		YI SYLLABLE CEX	
+U+A2C2	ꋂ		YI SYLLABLE CE	
+U+A2C3	ꋃ		YI SYLLABLE CEP	
+U+A2C4	ꋄ		YI SYLLABLE CUT	
+U+A2C5	ꋅ		YI SYLLABLE CUX	
+U+A2C6	ꋆ		YI SYLLABLE CU	
+U+A2C7	ꋇ		YI SYLLABLE CUP	
+U+A2C8	ꋈ		YI SYLLABLE CURX	
+U+A2C9	ꋉ		YI SYLLABLE CUR	
+U+A2CA	ꋊ		YI SYLLABLE CYT	
+U+A2CB	ꋋ		YI SYLLABLE CYX	
+U+A2CC	ꋌ		YI SYLLABLE CY	
+U+A2CD	ꋍ		YI SYLLABLE CYP	
+U+A2CE	ꋎ		YI SYLLABLE CYRX	
+U+A2CF	ꋏ		YI SYLLABLE CYR	
+U+A2D0	ꋐ		YI SYLLABLE ZZIT	
+U+A2D1	ꋑ		YI SYLLABLE ZZIX	
+U+A2D2	ꋒ		YI SYLLABLE ZZI	
+U+A2D3	ꋓ		YI SYLLABLE ZZIP	
+U+A2D4	ꋔ		YI SYLLABLE ZZIET	
+U+A2D5	ꋕ		YI SYLLABLE ZZIEX	
+U+A2D6	ꋖ		YI SYLLABLE ZZIE	
+U+A2D7	ꋗ		YI SYLLABLE ZZIEP	
+U+A2D8	ꋘ		YI SYLLABLE ZZAT	
+U+A2D9	ꋙ		YI SYLLABLE ZZAX	
+U+A2DA	ꋚ		YI SYLLABLE ZZA	
+U+A2DB	ꋛ		YI SYLLABLE ZZAP	
+U+A2DC	ꋜ		YI SYLLABLE ZZOX	
+U+A2DD	ꋝ		YI SYLLABLE ZZO	
+U+A2DE	ꋞ		YI SYLLABLE ZZOP	
+U+A2DF	ꋟ		YI SYLLABLE ZZEX	
+U+A2E0	ꋠ		YI SYLLABLE ZZE	
+U+A2E1	ꋡ		YI SYLLABLE ZZEP	
+U+A2E2	ꋢ		YI SYLLABLE ZZUX	
+U+A2E3	ꋣ		YI SYLLABLE ZZU	
+U+A2E4	ꋤ		YI SYLLABLE ZZUP	
+U+A2E5	ꋥ		YI SYLLABLE ZZURX	
+U+A2E6	ꋦ		YI SYLLABLE ZZUR	
+U+A2E7	ꋧ		YI SYLLABLE ZZYT	
+U+A2E8	ꋨ		YI SYLLABLE ZZYX	
+U+A2E9	ꋩ		YI SYLLABLE ZZY	
+U+A2EA	ꋪ		YI SYLLABLE ZZYP	
+U+A2EB	ꋫ		YI SYLLABLE ZZYRX	
+U+A2EC	ꋬ		YI SYLLABLE ZZYR	
+U+A2ED	ꋭ		YI SYLLABLE NZIT	
+U+A2EE	ꋮ		YI SYLLABLE NZIX	
+U+A2EF	ꋯ		YI SYLLABLE NZI	
+U+A2F0	ꋰ		YI SYLLABLE NZIP	
+U+A2F1	ꋱ		YI SYLLABLE NZIEX	
+U+A2F2	ꋲ		YI SYLLABLE NZIE	
+U+A2F3	ꋳ		YI SYLLABLE NZIEP	
+U+A2F4	ꋴ		YI SYLLABLE NZAT	
+U+A2F5	ꋵ		YI SYLLABLE NZAX	
+U+A2F6	ꋶ		YI SYLLABLE NZA	
+U+A2F7	ꋷ		YI SYLLABLE NZAP	
+U+A2F8	ꋸ		YI SYLLABLE NZUOX	
+U+A2F9	ꋹ		YI SYLLABLE NZUO	
+U+A2FA	ꋺ		YI SYLLABLE NZOX	
+U+A2FB	ꋻ		YI SYLLABLE NZOP	
+U+A2FC	ꋼ		YI SYLLABLE NZEX	
+U+A2FD	ꋽ		YI SYLLABLE NZE	
+U+A2FE	ꋾ		YI SYLLABLE NZUX	
+U+A2FF	ꋿ		YI SYLLABLE NZU	
+U+A300	ꌀ		YI SYLLABLE NZUP	
+U+A301	ꌁ		YI SYLLABLE NZURX	
+U+A302	ꌂ		YI SYLLABLE NZUR	
+U+A303	ꌃ		YI SYLLABLE NZYT	
+U+A304	ꌄ		YI SYLLABLE NZYX	
+U+A305	ꌅ		YI SYLLABLE NZY	
+U+A306	ꌆ		YI SYLLABLE NZYP	
+U+A307	ꌇ		YI SYLLABLE NZYRX	
+U+A308	ꌈ		YI SYLLABLE NZYR	
+U+A309	ꌉ		YI SYLLABLE SIT	
+U+A30A	ꌊ		YI SYLLABLE SIX	
+U+A30B	ꌋ		YI SYLLABLE SI	
+U+A30C	ꌌ		YI SYLLABLE SIP	
+U+A30D	ꌍ		YI SYLLABLE SIEX	
+U+A30E	ꌎ		YI SYLLABLE SIE	
+U+A30F	ꌏ		YI SYLLABLE SIEP	
+U+A310	ꌐ		YI SYLLABLE SAT	
+U+A311	ꌑ		YI SYLLABLE SAX	
+U+A312	ꌒ		YI SYLLABLE SA	
+U+A313	ꌓ		YI SYLLABLE SAP	
+U+A314	ꌔ		YI SYLLABLE SUOX	
+U+A315	ꌕ		YI SYLLABLE SUO	
+U+A316	ꌖ		YI SYLLABLE SUOP	
+U+A317	ꌗ		YI SYLLABLE SOT	
+U+A318	ꌘ		YI SYLLABLE SOX	
+U+A319	ꌙ		YI SYLLABLE SO	
+U+A31A	ꌚ		YI SYLLABLE SOP	
+U+A31B	ꌛ		YI SYLLABLE SEX	
+U+A31C	ꌜ		YI SYLLABLE SE	
+U+A31D	ꌝ		YI SYLLABLE SEP	
+U+A31E	ꌞ		YI SYLLABLE SUT	
+U+A31F	ꌟ		YI SYLLABLE SUX	
+U+A320	ꌠ		YI SYLLABLE SU	
+U+A321	ꌡ		YI SYLLABLE SUP	
+U+A322	ꌢ		YI SYLLABLE SURX	
+U+A323	ꌣ		YI SYLLABLE SUR	
+U+A324	ꌤ		YI SYLLABLE SYT	
+U+A325	ꌥ		YI SYLLABLE SYX	
+U+A326	ꌦ		YI SYLLABLE SY	
+U+A327	ꌧ		YI SYLLABLE SYP	
+U+A328	ꌨ		YI SYLLABLE SYRX	
+U+A329	ꌩ		YI SYLLABLE SYR	
+U+A32A	ꌪ		YI SYLLABLE SSIT	
+U+A32B	ꌫ		YI SYLLABLE SSIX	
+U+A32C	ꌬ		YI SYLLABLE SSI	
+U+A32D	ꌭ		YI SYLLABLE SSIP	
+U+A32E	ꌮ		YI SYLLABLE SSIEX	
+U+A32F	ꌯ		YI SYLLABLE SSIE	
+U+A330	ꌰ		YI SYLLABLE SSIEP	
+U+A331	ꌱ		YI SYLLABLE SSAT	
+U+A332	ꌲ		YI SYLLABLE SSAX	
+U+A333	ꌳ		YI SYLLABLE SSA	
+U+A334	ꌴ		YI SYLLABLE SSAP	
+U+A335	ꌵ		YI SYLLABLE SSOT	
+U+A336	ꌶ		YI SYLLABLE SSOX	
+U+A337	ꌷ		YI SYLLABLE SSO	
+U+A338	ꌸ		YI SYLLABLE SSOP	
+U+A339	ꌹ		YI SYLLABLE SSEX	
+U+A33A	ꌺ		YI SYLLABLE SSE	
+U+A33B	ꌻ		YI SYLLABLE SSEP	
+U+A33C	ꌼ		YI SYLLABLE SSUT	
+U+A33D	ꌽ		YI SYLLABLE SSUX	
+U+A33E	ꌾ		YI SYLLABLE SSU	
+U+A33F	ꌿ		YI SYLLABLE SSUP	
+U+A340	ꍀ		YI SYLLABLE SSYT	
+U+A341	ꍁ		YI SYLLABLE SSYX	
+U+A342	ꍂ		YI SYLLABLE SSY	
+U+A343	ꍃ		YI SYLLABLE SSYP	
+U+A344	ꍄ		YI SYLLABLE SSYRX	
+U+A345	ꍅ		YI SYLLABLE SSYR	
+U+A346	ꍆ		YI SYLLABLE ZHAT	
+U+A347	ꍇ		YI SYLLABLE ZHAX	
+U+A348	ꍈ		YI SYLLABLE ZHA	
+U+A349	ꍉ		YI SYLLABLE ZHAP	
+U+A34A	ꍊ		YI SYLLABLE ZHUOX	
+U+A34B	ꍋ		YI SYLLABLE ZHUO	
+U+A34C	ꍌ		YI SYLLABLE ZHUOP	
+U+A34D	ꍍ		YI SYLLABLE ZHOT	
+U+A34E	ꍎ		YI SYLLABLE ZHOX	
+U+A34F	ꍏ		YI SYLLABLE ZHO	
+U+A350	ꍐ		YI SYLLABLE ZHOP	
+U+A351	ꍑ		YI SYLLABLE ZHET	
+U+A352	ꍒ		YI SYLLABLE ZHEX	
+U+A353	ꍓ		YI SYLLABLE ZHE	
+U+A354	ꍔ		YI SYLLABLE ZHEP	
+U+A355	ꍕ		YI SYLLABLE ZHUT	
+U+A356	ꍖ		YI SYLLABLE ZHUX	
+U+A357	ꍗ		YI SYLLABLE ZHU	
+U+A358	ꍘ		YI SYLLABLE ZHUP	
+U+A359	ꍙ		YI SYLLABLE ZHURX	
+U+A35A	ꍚ		YI SYLLABLE ZHUR	
+U+A35B	ꍛ		YI SYLLABLE ZHYT	
+U+A35C	ꍜ		YI SYLLABLE ZHYX	
+U+A35D	ꍝ		YI SYLLABLE ZHY	
+U+A35E	ꍞ		YI SYLLABLE ZHYP	
+U+A35F	ꍟ		YI SYLLABLE ZHYRX	
+U+A360	ꍠ		YI SYLLABLE ZHYR	
+U+A361	ꍡ		YI SYLLABLE CHAT	
+U+A362	ꍢ		YI SYLLABLE CHAX	
+U+A363	ꍣ		YI SYLLABLE CHA	
+U+A364	ꍤ		YI SYLLABLE CHAP	
+U+A365	ꍥ		YI SYLLABLE CHUOT	
+U+A366	ꍦ		YI SYLLABLE CHUOX	
+U+A367	ꍧ		YI SYLLABLE CHUO	
+U+A368	ꍨ		YI SYLLABLE CHUOP	
+U+A369	ꍩ		YI SYLLABLE CHOT	
+U+A36A	ꍪ		YI SYLLABLE CHOX	
+U+A36B	ꍫ		YI SYLLABLE CHO	
+U+A36C	ꍬ		YI SYLLABLE CHOP	
+U+A36D	ꍭ		YI SYLLABLE CHET	
+U+A36E	ꍮ		YI SYLLABLE CHEX	
+U+A36F	ꍯ		YI SYLLABLE CHE	
+U+A370	ꍰ		YI SYLLABLE CHEP	
+U+A371	ꍱ		YI SYLLABLE CHUX	
+U+A372	ꍲ		YI SYLLABLE CHU	
+U+A373	ꍳ		YI SYLLABLE CHUP	
+U+A374	ꍴ		YI SYLLABLE CHURX	
+U+A375	ꍵ		YI SYLLABLE CHUR	
+U+A376	ꍶ		YI SYLLABLE CHYT	
+U+A377	ꍷ		YI SYLLABLE CHYX	
+U+A378	ꍸ		YI SYLLABLE CHY	
+U+A379	ꍹ		YI SYLLABLE CHYP	
+U+A37A	ꍺ		YI SYLLABLE CHYRX	
+U+A37B	ꍻ		YI SYLLABLE CHYR	
+U+A37C	ꍼ		YI SYLLABLE RRAX	
+U+A37D	ꍽ		YI SYLLABLE RRA	
+U+A37E	ꍾ		YI SYLLABLE RRUOX	
+U+A37F	ꍿ		YI SYLLABLE RRUO	
+U+A380	ꎀ		YI SYLLABLE RROT	
+U+A381	ꎁ		YI SYLLABLE RROX	
+U+A382	ꎂ		YI SYLLABLE RRO	
+U+A383	ꎃ		YI SYLLABLE RROP	
+U+A384	ꎄ		YI SYLLABLE RRET	
+U+A385	ꎅ		YI SYLLABLE RREX	
+U+A386	ꎆ		YI SYLLABLE RRE	
+U+A387	ꎇ		YI SYLLABLE RREP	
+U+A388	ꎈ		YI SYLLABLE RRUT	
+U+A389	ꎉ		YI SYLLABLE RRUX	
+U+A38A	ꎊ		YI SYLLABLE RRU	
+U+A38B	ꎋ		YI SYLLABLE RRUP	
+U+A38C	ꎌ		YI SYLLABLE RRURX	
+U+A38D	ꎍ		YI SYLLABLE RRUR	
+U+A38E	ꎎ		YI SYLLABLE RRYT	
+U+A38F	ꎏ		YI SYLLABLE RRYX	
+U+A390	ꎐ		YI SYLLABLE RRY	
+U+A391	ꎑ		YI SYLLABLE RRYP	
+U+A392	ꎒ		YI SYLLABLE RRYRX	
+U+A393	ꎓ		YI SYLLABLE RRYR	
+U+A394	ꎔ		YI SYLLABLE NRAT	
+U+A395	ꎕ		YI SYLLABLE NRAX	
+U+A396	ꎖ		YI SYLLABLE NRA	
+U+A397	ꎗ		YI SYLLABLE NRAP	
+U+A398	ꎘ		YI SYLLABLE NROX	
+U+A399	ꎙ		YI SYLLABLE NRO	
+U+A39A	ꎚ		YI SYLLABLE NROP	
+U+A39B	ꎛ		YI SYLLABLE NRET	
+U+A39C	ꎜ		YI SYLLABLE NREX	
+U+A39D	ꎝ		YI SYLLABLE NRE	
+U+A39E	ꎞ		YI SYLLABLE NREP	
+U+A39F	ꎟ		YI SYLLABLE NRUT	
+U+A3A0	ꎠ		YI SYLLABLE NRUX	
+U+A3A1	ꎡ		YI SYLLABLE NRU	
+U+A3A2	ꎢ		YI SYLLABLE NRUP	
+U+A3A3	ꎣ		YI SYLLABLE NRURX	
+U+A3A4	ꎤ		YI SYLLABLE NRUR	
+U+A3A5	ꎥ		YI SYLLABLE NRYT	
+U+A3A6	ꎦ		YI SYLLABLE NRYX	
+U+A3A7	ꎧ		YI SYLLABLE NRY	
+U+A3A8	ꎨ		YI SYLLABLE NRYP	
+U+A3A9	ꎩ		YI SYLLABLE NRYRX	
+U+A3AA	ꎪ		YI SYLLABLE NRYR	
+U+A3AB	ꎫ		YI SYLLABLE SHAT	
+U+A3AC	ꎬ		YI SYLLABLE SHAX	
+U+A3AD	ꎭ		YI SYLLABLE SHA	
+U+A3AE	ꎮ		YI SYLLABLE SHAP	
+U+A3AF	ꎯ		YI SYLLABLE SHUOX	
+U+A3B0	ꎰ		YI SYLLABLE SHUO	
+U+A3B1	ꎱ		YI SYLLABLE SHUOP	
+U+A3B2	ꎲ		YI SYLLABLE SHOT	
+U+A3B3	ꎳ		YI SYLLABLE SHOX	
+U+A3B4	ꎴ		YI SYLLABLE SHO	
+U+A3B5	ꎵ		YI SYLLABLE SHOP	
+U+A3B6	ꎶ		YI SYLLABLE SHET	
+U+A3B7	ꎷ		YI SYLLABLE SHEX	
+U+A3B8	ꎸ		YI SYLLABLE SHE	
+U+A3B9	ꎹ		YI SYLLABLE SHEP	
+U+A3BA	ꎺ		YI SYLLABLE SHUT	
+U+A3BB	ꎻ		YI SYLLABLE SHUX	
+U+A3BC	ꎼ		YI SYLLABLE SHU	
+U+A3BD	ꎽ		YI SYLLABLE SHUP	
+U+A3BE	ꎾ		YI SYLLABLE SHURX	
+U+A3BF	ꎿ		YI SYLLABLE SHUR	
+U+A3C0	ꏀ		YI SYLLABLE SHYT	
+U+A3C1	ꏁ		YI SYLLABLE SHYX	
+U+A3C2	ꏂ		YI SYLLABLE SHY	
+U+A3C3	ꏃ		YI SYLLABLE SHYP	
+U+A3C4	ꏄ		YI SYLLABLE SHYRX	
+U+A3C5	ꏅ		YI SYLLABLE SHYR	
+U+A3C6	ꏆ		YI SYLLABLE RAT	
+U+A3C7	ꏇ		YI SYLLABLE RAX	
+U+A3C8	ꏈ		YI SYLLABLE RA	
+U+A3C9	ꏉ		YI SYLLABLE RAP	
+U+A3CA	ꏊ		YI SYLLABLE RUOX	
+U+A3CB	ꏋ		YI SYLLABLE RUO	
+U+A3CC	ꏌ		YI SYLLABLE RUOP	
+U+A3CD	ꏍ		YI SYLLABLE ROT	
+U+A3CE	ꏎ		YI SYLLABLE ROX	
+U+A3CF	ꏏ		YI SYLLABLE RO	
+U+A3D0	ꏐ		YI SYLLABLE ROP	
+U+A3D1	ꏑ		YI SYLLABLE REX	
+U+A3D2	ꏒ		YI SYLLABLE RE	
+U+A3D3	ꏓ		YI SYLLABLE REP	
+U+A3D4	ꏔ		YI SYLLABLE RUT	
+U+A3D5	ꏕ		YI SYLLABLE RUX	
+U+A3D6	ꏖ		YI SYLLABLE RU	
+U+A3D7	ꏗ		YI SYLLABLE RUP	
+U+A3D8	ꏘ		YI SYLLABLE RURX	
+U+A3D9	ꏙ		YI SYLLABLE RUR	
+U+A3DA	ꏚ		YI SYLLABLE RYT	
+U+A3DB	ꏛ		YI SYLLABLE RYX	
+U+A3DC	ꏜ		YI SYLLABLE RY	
+U+A3DD	ꏝ		YI SYLLABLE RYP	
+U+A3DE	ꏞ		YI SYLLABLE RYRX	
+U+A3DF	ꏟ		YI SYLLABLE RYR	
+U+A3E0	ꏠ		YI SYLLABLE JIT	
+U+A3E1	ꏡ		YI SYLLABLE JIX	
+U+A3E2	ꏢ		YI SYLLABLE JI	
+U+A3E3	ꏣ		YI SYLLABLE JIP	
+U+A3E4	ꏤ		YI SYLLABLE JIET	
+U+A3E5	ꏥ		YI SYLLABLE JIEX	
+U+A3E6	ꏦ		YI SYLLABLE JIE	
+U+A3E7	ꏧ		YI SYLLABLE JIEP	
+U+A3E8	ꏨ		YI SYLLABLE JUOT	
+U+A3E9	ꏩ		YI SYLLABLE JUOX	
+U+A3EA	ꏪ		YI SYLLABLE JUO	
+U+A3EB	ꏫ		YI SYLLABLE JUOP	
+U+A3EC	ꏬ		YI SYLLABLE JOT	
+U+A3ED	ꏭ		YI SYLLABLE JOX	
+U+A3EE	ꏮ		YI SYLLABLE JO	
+U+A3EF	ꏯ		YI SYLLABLE JOP	
+U+A3F0	ꏰ		YI SYLLABLE JUT	
+U+A3F1	ꏱ		YI SYLLABLE JUX	
+U+A3F2	ꏲ		YI SYLLABLE JU	
+U+A3F3	ꏳ		YI SYLLABLE JUP	
+U+A3F4	ꏴ		YI SYLLABLE JURX	
+U+A3F5	ꏵ		YI SYLLABLE JUR	
+U+A3F6	ꏶ		YI SYLLABLE JYT	
+U+A3F7	ꏷ		YI SYLLABLE JYX	
+U+A3F8	ꏸ		YI SYLLABLE JY	
+U+A3F9	ꏹ		YI SYLLABLE JYP	
+U+A3FA	ꏺ		YI SYLLABLE JYRX	
+U+A3FB	ꏻ		YI SYLLABLE JYR	
+U+A3FC	ꏼ		YI SYLLABLE QIT	
+U+A3FD	ꏽ		YI SYLLABLE QIX	
+U+A3FE	ꏾ		YI SYLLABLE QI	
+U+A3FF	ꏿ		YI SYLLABLE QIP	
+U+A400	ꐀ		YI SYLLABLE QIET	
+U+A401	ꐁ		YI SYLLABLE QIEX	
+U+A402	ꐂ		YI SYLLABLE QIE	
+U+A403	ꐃ		YI SYLLABLE QIEP	
+U+A404	ꐄ		YI SYLLABLE QUOT	
+U+A405	ꐅ		YI SYLLABLE QUOX	
+U+A406	ꐆ		YI SYLLABLE QUO	
+U+A407	ꐇ		YI SYLLABLE QUOP	
+U+A408	ꐈ		YI SYLLABLE QOT	
+U+A409	ꐉ		YI SYLLABLE QOX	
+U+A40A	ꐊ		YI SYLLABLE QO	
+U+A40B	ꐋ		YI SYLLABLE QOP	
+U+A40C	ꐌ		YI SYLLABLE QUT	
+U+A40D	ꐍ		YI SYLLABLE QUX	
+U+A40E	ꐎ		YI SYLLABLE QU	
+U+A40F	ꐏ		YI SYLLABLE QUP	
+U+A410	ꐐ		YI SYLLABLE QURX	
+U+A411	ꐑ		YI SYLLABLE QUR	
+U+A412	ꐒ		YI SYLLABLE QYT	
+U+A413	ꐓ		YI SYLLABLE QYX	
+U+A414	ꐔ		YI SYLLABLE QY	
+U+A415	ꐕ		YI SYLLABLE QYP	
+U+A416	ꐖ		YI SYLLABLE QYRX	
+U+A417	ꐗ		YI SYLLABLE QYR	
+U+A418	ꐘ		YI SYLLABLE JJIT	
+U+A419	ꐙ		YI SYLLABLE JJIX	
+U+A41A	ꐚ		YI SYLLABLE JJI	
+U+A41B	ꐛ		YI SYLLABLE JJIP	
+U+A41C	ꐜ		YI SYLLABLE JJIET	
+U+A41D	ꐝ		YI SYLLABLE JJIEX	
+U+A41E	ꐞ		YI SYLLABLE JJIE	
+U+A41F	ꐟ		YI SYLLABLE JJIEP	
+U+A420	ꐠ		YI SYLLABLE JJUOX	
+U+A421	ꐡ		YI SYLLABLE JJUO	
+U+A422	ꐢ		YI SYLLABLE JJUOP	
+U+A423	ꐣ		YI SYLLABLE JJOT	
+U+A424	ꐤ		YI SYLLABLE JJOX	
+U+A425	ꐥ		YI SYLLABLE JJO	
+U+A426	ꐦ		YI SYLLABLE JJOP	
+U+A427	ꐧ		YI SYLLABLE JJUT	
+U+A428	ꐨ		YI SYLLABLE JJUX	
+U+A429	ꐩ		YI SYLLABLE JJU	
+U+A42A	ꐪ		YI SYLLABLE JJUP	
+U+A42B	ꐫ		YI SYLLABLE JJURX	
+U+A42C	ꐬ		YI SYLLABLE JJUR	
+U+A42D	ꐭ		YI SYLLABLE JJYT	
+U+A42E	ꐮ		YI SYLLABLE JJYX	
+U+A42F	ꐯ		YI SYLLABLE JJY	
+U+A430	ꐰ		YI SYLLABLE JJYP	
+U+A431	ꐱ		YI SYLLABLE NJIT	
+U+A432	ꐲ		YI SYLLABLE NJIX	
+U+A433	ꐳ		YI SYLLABLE NJI	
+U+A434	ꐴ		YI SYLLABLE NJIP	
+U+A435	ꐵ		YI SYLLABLE NJIET	
+U+A436	ꐶ		YI SYLLABLE NJIEX	
+U+A437	ꐷ		YI SYLLABLE NJIE	
+U+A438	ꐸ		YI SYLLABLE NJIEP	
+U+A439	ꐹ		YI SYLLABLE NJUOX	
+U+A43A	ꐺ		YI SYLLABLE NJUO	
+U+A43B	ꐻ		YI SYLLABLE NJOT	
+U+A43C	ꐼ		YI SYLLABLE NJOX	
+U+A43D	ꐽ		YI SYLLABLE NJO	
+U+A43E	ꐾ		YI SYLLABLE NJOP	
+U+A43F	ꐿ		YI SYLLABLE NJUX	
+U+A440	ꑀ		YI SYLLABLE NJU	
+U+A441	ꑁ		YI SYLLABLE NJUP	
+U+A442	ꑂ		YI SYLLABLE NJURX	
+U+A443	ꑃ		YI SYLLABLE NJUR	
+U+A444	ꑄ		YI SYLLABLE NJYT	
+U+A445	ꑅ		YI SYLLABLE NJYX	
+U+A446	ꑆ		YI SYLLABLE NJY	
+U+A447	ꑇ		YI SYLLABLE NJYP	
+U+A448	ꑈ		YI SYLLABLE NJYRX	
+U+A449	ꑉ		YI SYLLABLE NJYR	
+U+A44A	ꑊ		YI SYLLABLE NYIT	
+U+A44B	ꑋ		YI SYLLABLE NYIX	
+U+A44C	ꑌ		YI SYLLABLE NYI	
+U+A44D	ꑍ		YI SYLLABLE NYIP	
+U+A44E	ꑎ		YI SYLLABLE NYIET	
+U+A44F	ꑏ		YI SYLLABLE NYIEX	
+U+A450	ꑐ		YI SYLLABLE NYIE	
+U+A451	ꑑ		YI SYLLABLE NYIEP	
+U+A452	ꑒ		YI SYLLABLE NYUOX	
+U+A453	ꑓ		YI SYLLABLE NYUO	
+U+A454	ꑔ		YI SYLLABLE NYUOP	
+U+A455	ꑕ		YI SYLLABLE NYOT	
+U+A456	ꑖ		YI SYLLABLE NYOX	
+U+A457	ꑗ		YI SYLLABLE NYO	
+U+A458	ꑘ		YI SYLLABLE NYOP	
+U+A459	ꑙ		YI SYLLABLE NYUT	
+U+A45A	ꑚ		YI SYLLABLE NYUX	
+U+A45B	ꑛ		YI SYLLABLE NYU	
+U+A45C	ꑜ		YI SYLLABLE NYUP	
+U+A45D	ꑝ		YI SYLLABLE XIT	
+U+A45E	ꑞ		YI SYLLABLE XIX	
+U+A45F	ꑟ		YI SYLLABLE XI	
+U+A460	ꑠ		YI SYLLABLE XIP	
+U+A461	ꑡ		YI SYLLABLE XIET	
+U+A462	ꑢ		YI SYLLABLE XIEX	
+U+A463	ꑣ		YI SYLLABLE XIE	
+U+A464	ꑤ		YI SYLLABLE XIEP	
+U+A465	ꑥ		YI SYLLABLE XUOX	
+U+A466	ꑦ		YI SYLLABLE XUO	
+U+A467	ꑧ		YI SYLLABLE XOT	
+U+A468	ꑨ		YI SYLLABLE XOX	
+U+A469	ꑩ		YI SYLLABLE XO	
+U+A46A	ꑪ		YI SYLLABLE XOP	
+U+A46B	ꑫ		YI SYLLABLE XYT	
+U+A46C	ꑬ		YI SYLLABLE XYX	
+U+A46D	ꑭ		YI SYLLABLE XY	
+U+A46E	ꑮ		YI SYLLABLE XYP	
+U+A46F	ꑯ		YI SYLLABLE XYRX	
+U+A470	ꑰ		YI SYLLABLE XYR	
+U+A471	ꑱ		YI SYLLABLE YIT	
+U+A472	ꑲ		YI SYLLABLE YIX	
+U+A473	ꑳ		YI SYLLABLE YI	
+U+A474	ꑴ		YI SYLLABLE YIP	
+U+A475	ꑵ		YI SYLLABLE YIET	
+U+A476	ꑶ		YI SYLLABLE YIEX	
+U+A477	ꑷ		YI SYLLABLE YIE	
+U+A478	ꑸ		YI SYLLABLE YIEP	
+U+A479	ꑹ		YI SYLLABLE YUOT	
+U+A47A	ꑺ		YI SYLLABLE YUOX	
+U+A47B	ꑻ		YI SYLLABLE YUO	
+U+A47C	ꑼ		YI SYLLABLE YUOP	
+U+A47D	ꑽ		YI SYLLABLE YOT	
+U+A47E	ꑾ		YI SYLLABLE YOX	
+U+A47F	ꑿ		YI SYLLABLE YO	
+U+A480	ꒀ		YI SYLLABLE YOP	
+U+A481	ꒁ		YI SYLLABLE YUT	
+U+A482	ꒂ		YI SYLLABLE YUX	
+U+A483	ꒃ		YI SYLLABLE YU	
+U+A484	ꒄ		YI SYLLABLE YUP	
+U+A485	ꒅ		YI SYLLABLE YURX	
+U+A486	ꒆ		YI SYLLABLE YUR	
+U+A487	ꒇ		YI SYLLABLE YYT	
+U+A488	ꒈ		YI SYLLABLE YYX	
+U+A489	ꒉ		YI SYLLABLE YY	
+U+A48A	ꒊ		YI SYLLABLE YYP	
+U+A48B	ꒋ		YI SYLLABLE YYRX	
+U+A48C	ꒌ		YI SYLLABLE YYR	

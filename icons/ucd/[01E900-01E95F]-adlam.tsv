@@ -1,89 +1,89 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E900	𞤀	1E900..1E95F	Adlam	Adlam capital letter alif		
-U+1E901	𞤁	1E900..1E95F	Adlam	Adlam capital letter daali		
-U+1E902	𞤂	1E900..1E95F	Adlam	Adlam capital letter laam		
-U+1E903	𞤃	1E900..1E95F	Adlam	Adlam capital letter miim		
-U+1E904	𞤄	1E900..1E95F	Adlam	Adlam capital letter ba		
-U+1E905	𞤅	1E900..1E95F	Adlam	Adlam capital letter sinnyiiyhe		
-U+1E906	𞤆	1E900..1E95F	Adlam	Adlam capital letter pe		
-U+1E907	𞤇	1E900..1E95F	Adlam	Adlam capital letter bhe		
-U+1E908	𞤈	1E900..1E95F	Adlam	Adlam capital letter ra		
-U+1E909	𞤉	1E900..1E95F	Adlam	Adlam capital letter e		
-U+1E90A	𞤊	1E900..1E95F	Adlam	Adlam capital letter fa		
-U+1E90B	𞤋	1E900..1E95F	Adlam	Adlam capital letter i		
-U+1E90C	𞤌	1E900..1E95F	Adlam	Adlam capital letter o		
-U+1E90D	𞤍	1E900..1E95F	Adlam	Adlam capital letter dha		
-U+1E90E	𞤎	1E900..1E95F	Adlam	Adlam capital letter yhe		
-U+1E90F	𞤏	1E900..1E95F	Adlam	Adlam capital letter waw		
-U+1E910	𞤐	1E900..1E95F	Adlam	Adlam capital letter nun		
-U+1E911	𞤑	1E900..1E95F	Adlam	Adlam capital letter kaf		
-U+1E912	𞤒	1E900..1E95F	Adlam	Adlam capital letter ya		
-U+1E913	𞤓	1E900..1E95F	Adlam	Adlam capital letter u		
-U+1E914	𞤔	1E900..1E95F	Adlam	Adlam capital letter jiim		
-U+1E915	𞤕	1E900..1E95F	Adlam	Adlam capital letter chi		
-U+1E916	𞤖	1E900..1E95F	Adlam	Adlam capital letter ha		
-U+1E917	𞤗	1E900..1E95F	Adlam	Adlam capital letter qaaf		
-U+1E918	𞤘	1E900..1E95F	Adlam	Adlam capital letter ga		
-U+1E919	𞤙	1E900..1E95F	Adlam	Adlam capital letter nya		
-U+1E91A	𞤚	1E900..1E95F	Adlam	Adlam capital letter tu		
-U+1E91B	𞤛	1E900..1E95F	Adlam	Adlam capital letter nha		
-U+1E91C	𞤜	1E900..1E95F	Adlam	Adlam capital letter va		
-U+1E91D	𞤝	1E900..1E95F	Adlam	Adlam capital letter kha		
-U+1E91E	𞤞	1E900..1E95F	Adlam	Adlam capital letter gbe		
-U+1E91F	𞤟	1E900..1E95F	Adlam	Adlam capital letter zal		
-U+1E920	𞤠	1E900..1E95F	Adlam	Adlam capital letter kpo		
-U+1E921	𞤡	1E900..1E95F	Adlam	Adlam capital letter sha		
-U+1E922	𞤢	1E900..1E95F	Adlam	Adlam small letter alif		
-U+1E923	𞤣	1E900..1E95F	Adlam	Adlam small letter daali		
-U+1E924	𞤤	1E900..1E95F	Adlam	Adlam small letter laam		
-U+1E925	𞤥	1E900..1E95F	Adlam	Adlam small letter miim		
-U+1E926	𞤦	1E900..1E95F	Adlam	Adlam small letter ba		
-U+1E927	𞤧	1E900..1E95F	Adlam	Adlam small letter sinnyiiyhe		
-U+1E928	𞤨	1E900..1E95F	Adlam	Adlam small letter pe		
-U+1E929	𞤩	1E900..1E95F	Adlam	Adlam small letter bhe		
-U+1E92A	𞤪	1E900..1E95F	Adlam	Adlam small letter ra		
-U+1E92B	𞤫	1E900..1E95F	Adlam	Adlam small letter e		
-U+1E92C	𞤬	1E900..1E95F	Adlam	Adlam small letter fa		
-U+1E92D	𞤭	1E900..1E95F	Adlam	Adlam small letter i		
-U+1E92E	𞤮	1E900..1E95F	Adlam	Adlam small letter o		
-U+1E92F	𞤯	1E900..1E95F	Adlam	Adlam small letter dha		
-U+1E930	𞤰	1E900..1E95F	Adlam	Adlam small letter yhe		
-U+1E931	𞤱	1E900..1E95F	Adlam	Adlam small letter waw		
-U+1E932	𞤲	1E900..1E95F	Adlam	Adlam small letter nun		
-U+1E933	𞤳	1E900..1E95F	Adlam	Adlam small letter kaf		
-U+1E934	𞤴	1E900..1E95F	Adlam	Adlam small letter ya		
-U+1E935	𞤵	1E900..1E95F	Adlam	Adlam small letter u		
-U+1E936	𞤶	1E900..1E95F	Adlam	Adlam small letter jiim		
-U+1E937	𞤷	1E900..1E95F	Adlam	Adlam small letter chi		
-U+1E938	𞤸	1E900..1E95F	Adlam	Adlam small letter ha		
-U+1E939	𞤹	1E900..1E95F	Adlam	Adlam small letter qaaf		
-U+1E93A	𞤺	1E900..1E95F	Adlam	Adlam small letter ga		
-U+1E93B	𞤻	1E900..1E95F	Adlam	Adlam small letter nya		
-U+1E93C	𞤼	1E900..1E95F	Adlam	Adlam small letter tu		
-U+1E93D	𞤽	1E900..1E95F	Adlam	Adlam small letter nha		
-U+1E93E	𞤾	1E900..1E95F	Adlam	Adlam small letter va		
-U+1E93F	𞤿	1E900..1E95F	Adlam	Adlam small letter kha		
-U+1E940	𞥀	1E900..1E95F	Adlam	Adlam small letter gbe		
-U+1E941	𞥁	1E900..1E95F	Adlam	Adlam small letter zal		
-U+1E942	𞥂	1E900..1E95F	Adlam	Adlam small letter kpo		
-U+1E943	𞥃	1E900..1E95F	Adlam	Adlam small letter sha		
-U+1E944	𞥄	1E900..1E95F	Adlam	Adlam alif lengthener		
-U+1E945	𞥅	1E900..1E95F	Adlam	Adlam vowel lengthener		
-U+1E946	𞥆	1E900..1E95F	Adlam	Adlam gemination mark		
-U+1E947	𞥇	1E900..1E95F	Adlam	Adlam hamza		
-U+1E948	𞥈	1E900..1E95F	Adlam	Adlam consonant modifier		
-U+1E949	𞥉	1E900..1E95F	Adlam	Adlam geminate consonant modifier		
-U+1E94A	𞥊	1E900..1E95F	Adlam	Adlam nukta		
-U+1E94B	𞥋	1E900..1E95F	Adlam	Adlam nasalization mark		
-U+1E950	𞥐	1E900..1E95F	Adlam	Adlam digit zero		
-U+1E951	𞥑	1E900..1E95F	Adlam	Adlam digit one		
-U+1E952	𞥒	1E900..1E95F	Adlam	Adlam digit two		
-U+1E953	𞥓	1E900..1E95F	Adlam	Adlam digit three		
-U+1E954	𞥔	1E900..1E95F	Adlam	Adlam digit four		
-U+1E955	𞥕	1E900..1E95F	Adlam	Adlam digit five		
-U+1E956	𞥖	1E900..1E95F	Adlam	Adlam digit six		
-U+1E957	𞥗	1E900..1E95F	Adlam	Adlam digit seven		
-U+1E958	𞥘	1E900..1E95F	Adlam	Adlam digit eight		
-U+1E959	𞥙	1E900..1E95F	Adlam	Adlam digit nine		
-U+1E95E	𞥞	1E900..1E95F	Adlam	Adlam initial exclamation mark		
-U+1E95F	𞥟	1E900..1E95F	Adlam	Adlam initial question mark		
+code_points	chars	tab_completions	unicode_name	base
+U+1E900	𞤀		ADLAM CAPITAL LETTER ALIF	
+U+1E901	𞤁		ADLAM CAPITAL LETTER DAALI	
+U+1E902	𞤂		ADLAM CAPITAL LETTER LAAM	
+U+1E903	𞤃		ADLAM CAPITAL LETTER MIIM	
+U+1E904	𞤄		ADLAM CAPITAL LETTER BA	
+U+1E905	𞤅		ADLAM CAPITAL LETTER SINNYIIYHE	
+U+1E906	𞤆		ADLAM CAPITAL LETTER PE	
+U+1E907	𞤇		ADLAM CAPITAL LETTER BHE	
+U+1E908	𞤈		ADLAM CAPITAL LETTER RA	
+U+1E909	𞤉		ADLAM CAPITAL LETTER E	
+U+1E90A	𞤊		ADLAM CAPITAL LETTER FA	
+U+1E90B	𞤋		ADLAM CAPITAL LETTER I	
+U+1E90C	𞤌		ADLAM CAPITAL LETTER O	
+U+1E90D	𞤍		ADLAM CAPITAL LETTER DHA	
+U+1E90E	𞤎		ADLAM CAPITAL LETTER YHE	
+U+1E90F	𞤏		ADLAM CAPITAL LETTER WAW	
+U+1E910	𞤐		ADLAM CAPITAL LETTER NUN	
+U+1E911	𞤑		ADLAM CAPITAL LETTER KAF	
+U+1E912	𞤒		ADLAM CAPITAL LETTER YA	
+U+1E913	𞤓		ADLAM CAPITAL LETTER U	
+U+1E914	𞤔		ADLAM CAPITAL LETTER JIIM	
+U+1E915	𞤕		ADLAM CAPITAL LETTER CHI	
+U+1E916	𞤖		ADLAM CAPITAL LETTER HA	
+U+1E917	𞤗		ADLAM CAPITAL LETTER QAAF	
+U+1E918	𞤘		ADLAM CAPITAL LETTER GA	
+U+1E919	𞤙		ADLAM CAPITAL LETTER NYA	
+U+1E91A	𞤚		ADLAM CAPITAL LETTER TU	
+U+1E91B	𞤛		ADLAM CAPITAL LETTER NHA	
+U+1E91C	𞤜		ADLAM CAPITAL LETTER VA	
+U+1E91D	𞤝		ADLAM CAPITAL LETTER KHA	
+U+1E91E	𞤞		ADLAM CAPITAL LETTER GBE	
+U+1E91F	𞤟		ADLAM CAPITAL LETTER ZAL	
+U+1E920	𞤠		ADLAM CAPITAL LETTER KPO	
+U+1E921	𞤡		ADLAM CAPITAL LETTER SHA	
+U+1E922	𞤢		ADLAM SMALL LETTER ALIF	
+U+1E923	𞤣		ADLAM SMALL LETTER DAALI	
+U+1E924	𞤤		ADLAM SMALL LETTER LAAM	
+U+1E925	𞤥		ADLAM SMALL LETTER MIIM	
+U+1E926	𞤦		ADLAM SMALL LETTER BA	
+U+1E927	𞤧		ADLAM SMALL LETTER SINNYIIYHE	
+U+1E928	𞤨		ADLAM SMALL LETTER PE	
+U+1E929	𞤩		ADLAM SMALL LETTER BHE	
+U+1E92A	𞤪		ADLAM SMALL LETTER RA	
+U+1E92B	𞤫		ADLAM SMALL LETTER E	
+U+1E92C	𞤬		ADLAM SMALL LETTER FA	
+U+1E92D	𞤭		ADLAM SMALL LETTER I	
+U+1E92E	𞤮		ADLAM SMALL LETTER O	
+U+1E92F	𞤯		ADLAM SMALL LETTER DHA	
+U+1E930	𞤰		ADLAM SMALL LETTER YHE	
+U+1E931	𞤱		ADLAM SMALL LETTER WAW	
+U+1E932	𞤲		ADLAM SMALL LETTER NUN	
+U+1E933	𞤳		ADLAM SMALL LETTER KAF	
+U+1E934	𞤴		ADLAM SMALL LETTER YA	
+U+1E935	𞤵		ADLAM SMALL LETTER U	
+U+1E936	𞤶		ADLAM SMALL LETTER JIIM	
+U+1E937	𞤷		ADLAM SMALL LETTER CHI	
+U+1E938	𞤸		ADLAM SMALL LETTER HA	
+U+1E939	𞤹		ADLAM SMALL LETTER QAAF	
+U+1E93A	𞤺		ADLAM SMALL LETTER GA	
+U+1E93B	𞤻		ADLAM SMALL LETTER NYA	
+U+1E93C	𞤼		ADLAM SMALL LETTER TU	
+U+1E93D	𞤽		ADLAM SMALL LETTER NHA	
+U+1E93E	𞤾		ADLAM SMALL LETTER VA	
+U+1E93F	𞤿		ADLAM SMALL LETTER KHA	
+U+1E940	𞥀		ADLAM SMALL LETTER GBE	
+U+1E941	𞥁		ADLAM SMALL LETTER ZAL	
+U+1E942	𞥂		ADLAM SMALL LETTER KPO	
+U+1E943	𞥃		ADLAM SMALL LETTER SHA	
+U+1E944	𞥄		ADLAM ALIF LENGTHENER	
+U+1E945	𞥅		ADLAM VOWEL LENGTHENER	
+U+1E946	𞥆		ADLAM GEMINATION MARK	
+U+1E947	𞥇		ADLAM HAMZA	
+U+1E948	𞥈		ADLAM CONSONANT MODIFIER	
+U+1E949	𞥉		ADLAM GEMINATE CONSONANT MODIFIER	
+U+1E94A	𞥊		ADLAM NUKTA	
+U+1E94B	𞥋		ADLAM NASALIZATION MARK	
+U+1E950	𞥐		ADLAM DIGIT ZERO	
+U+1E951	𞥑		ADLAM DIGIT ONE	
+U+1E952	𞥒		ADLAM DIGIT TWO	
+U+1E953	𞥓		ADLAM DIGIT THREE	
+U+1E954	𞥔		ADLAM DIGIT FOUR	
+U+1E955	𞥕		ADLAM DIGIT FIVE	
+U+1E956	𞥖		ADLAM DIGIT SIX	
+U+1E957	𞥗		ADLAM DIGIT SEVEN	
+U+1E958	𞥘		ADLAM DIGIT EIGHT	
+U+1E959	𞥙		ADLAM DIGIT NINE	
+U+1E95E	𞥞		ADLAM INITIAL EXCLAMATION MARK	
+U+1E95F	𞥟		ADLAM INITIAL QUESTION MARK	

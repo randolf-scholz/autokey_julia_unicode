@@ -1,48 +1,48 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10E80	𐺀	10E80..10EBF	Yezidi	Yezidi letter elif		
-U+10E81	𐺁	10E80..10EBF	Yezidi	Yezidi letter be		
-U+10E82	𐺂	10E80..10EBF	Yezidi	Yezidi letter pe		
-U+10E83	𐺃	10E80..10EBF	Yezidi	Yezidi letter phe		
-U+10E84	𐺄	10E80..10EBF	Yezidi	Yezidi letter the		
-U+10E85	𐺅	10E80..10EBF	Yezidi	Yezidi letter se		
-U+10E86	𐺆	10E80..10EBF	Yezidi	Yezidi letter cim		
-U+10E87	𐺇	10E80..10EBF	Yezidi	Yezidi letter chim		
-U+10E88	𐺈	10E80..10EBF	Yezidi	Yezidi letter chhim		
-U+10E89	𐺉	10E80..10EBF	Yezidi	Yezidi letter hha		
-U+10E8A	𐺊	10E80..10EBF	Yezidi	Yezidi letter xa		
-U+10E8B	𐺋	10E80..10EBF	Yezidi	Yezidi letter dal		
-U+10E8C	𐺌	10E80..10EBF	Yezidi	Yezidi letter zal		
-U+10E8D	𐺍	10E80..10EBF	Yezidi	Yezidi letter ra		
-U+10E8E	𐺎	10E80..10EBF	Yezidi	Yezidi letter rha		
-U+10E8F	𐺏	10E80..10EBF	Yezidi	Yezidi letter za		
-U+10E90	𐺐	10E80..10EBF	Yezidi	Yezidi letter ja		
-U+10E91	𐺑	10E80..10EBF	Yezidi	Yezidi letter sin		
-U+10E92	𐺒	10E80..10EBF	Yezidi	Yezidi letter shin		
-U+10E93	𐺓	10E80..10EBF	Yezidi	Yezidi letter sad		
-U+10E94	𐺔	10E80..10EBF	Yezidi	Yezidi letter dad		
-U+10E95	𐺕	10E80..10EBF	Yezidi	Yezidi letter ta		
-U+10E96	𐺖	10E80..10EBF	Yezidi	Yezidi letter ze		
-U+10E97	𐺗	10E80..10EBF	Yezidi	Yezidi letter eyn		
-U+10E98	𐺘	10E80..10EBF	Yezidi	Yezidi letter xheyn		
-U+10E99	𐺙	10E80..10EBF	Yezidi	Yezidi letter fa		
-U+10E9A	𐺚	10E80..10EBF	Yezidi	Yezidi letter va		
-U+10E9B	𐺛	10E80..10EBF	Yezidi	Yezidi letter va alternate form		
-U+10E9C	𐺜	10E80..10EBF	Yezidi	Yezidi letter qaf		
-U+10E9D	𐺝	10E80..10EBF	Yezidi	Yezidi letter kaf		
-U+10E9E	𐺞	10E80..10EBF	Yezidi	Yezidi letter khaf		
-U+10E9F	𐺟	10E80..10EBF	Yezidi	Yezidi letter gaf		
-U+10EA0	𐺠	10E80..10EBF	Yezidi	Yezidi letter lam		
-U+10EA1	𐺡	10E80..10EBF	Yezidi	Yezidi letter mim		
-U+10EA2	𐺢	10E80..10EBF	Yezidi	Yezidi letter nun		
-U+10EA3	𐺣	10E80..10EBF	Yezidi	Yezidi letter um		
-U+10EA4	𐺤	10E80..10EBF	Yezidi	Yezidi letter waw		
-U+10EA5	𐺥	10E80..10EBF	Yezidi	Yezidi letter ow		
-U+10EA6	𐺦	10E80..10EBF	Yezidi	Yezidi letter ew		
-U+10EA7	𐺧	10E80..10EBF	Yezidi	Yezidi letter hay		
-U+10EA8	𐺨	10E80..10EBF	Yezidi	Yezidi letter yot		
-U+10EA9	𐺩	10E80..10EBF	Yezidi	Yezidi letter et		
-U+10EAB	𐺫	10E80..10EBF	Yezidi	Yezidi combining hamza mark		
-U+10EAC	𐺬	10E80..10EBF	Yezidi	Yezidi combining madda mark		
-U+10EAD	𐺭	10E80..10EBF	Yezidi	Yezidi hyphenation mark		
-U+10EB0	𐺰	10E80..10EBF	Yezidi	Yezidi letter lam with dot above		
-U+10EB1	𐺱	10E80..10EBF	Yezidi	Yezidi letter yot with circumflex above		
+code_points	chars	tab_completions	unicode_name	base
+U+10E80	𐺀		YEZIDI LETTER ELIF	
+U+10E81	𐺁		YEZIDI LETTER BE	
+U+10E82	𐺂		YEZIDI LETTER PE	
+U+10E83	𐺃		YEZIDI LETTER PHE	
+U+10E84	𐺄		YEZIDI LETTER THE	
+U+10E85	𐺅		YEZIDI LETTER SE	
+U+10E86	𐺆		YEZIDI LETTER CIM	
+U+10E87	𐺇		YEZIDI LETTER CHIM	
+U+10E88	𐺈		YEZIDI LETTER CHHIM	
+U+10E89	𐺉		YEZIDI LETTER HHA	
+U+10E8A	𐺊		YEZIDI LETTER XA	
+U+10E8B	𐺋		YEZIDI LETTER DAL	
+U+10E8C	𐺌		YEZIDI LETTER ZAL	
+U+10E8D	𐺍		YEZIDI LETTER RA	
+U+10E8E	𐺎		YEZIDI LETTER RHA	
+U+10E8F	𐺏		YEZIDI LETTER ZA	
+U+10E90	𐺐		YEZIDI LETTER JA	
+U+10E91	𐺑		YEZIDI LETTER SIN	
+U+10E92	𐺒		YEZIDI LETTER SHIN	
+U+10E93	𐺓		YEZIDI LETTER SAD	
+U+10E94	𐺔		YEZIDI LETTER DAD	
+U+10E95	𐺕		YEZIDI LETTER TA	
+U+10E96	𐺖		YEZIDI LETTER ZE	
+U+10E97	𐺗		YEZIDI LETTER EYN	
+U+10E98	𐺘		YEZIDI LETTER XHEYN	
+U+10E99	𐺙		YEZIDI LETTER FA	
+U+10E9A	𐺚		YEZIDI LETTER VA	
+U+10E9B	𐺛		YEZIDI LETTER VA ALTERNATE FORM	
+U+10E9C	𐺜		YEZIDI LETTER QAF	
+U+10E9D	𐺝		YEZIDI LETTER KAF	
+U+10E9E	𐺞		YEZIDI LETTER KHAF	
+U+10E9F	𐺟		YEZIDI LETTER GAF	
+U+10EA0	𐺠		YEZIDI LETTER LAM	
+U+10EA1	𐺡		YEZIDI LETTER MIM	
+U+10EA2	𐺢		YEZIDI LETTER NUN	
+U+10EA3	𐺣		YEZIDI LETTER UM	
+U+10EA4	𐺤		YEZIDI LETTER WAW	
+U+10EA5	𐺥		YEZIDI LETTER OW	
+U+10EA6	𐺦		YEZIDI LETTER EW	
+U+10EA7	𐺧		YEZIDI LETTER HAY	
+U+10EA8	𐺨		YEZIDI LETTER YOT	
+U+10EA9	𐺩		YEZIDI LETTER ET	
+U+10EAB	𐺫		YEZIDI COMBINING HAMZA MARK	
+U+10EAC	𐺬		YEZIDI COMBINING MADDA MARK	
+U+10EAD	𐺭		YEZIDI HYPHENATION MARK	
+U+10EB0	𐺰		YEZIDI LETTER LAM WITH DOT ABOVE	
+U+10EB1	𐺱		YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE	

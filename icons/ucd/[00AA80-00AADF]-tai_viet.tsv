@@ -1,73 +1,73 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+AA80	ꪀ	AA80..AADF	Tai Viet	Tai viet letter low ko		
-U+AA81	ꪁ	AA80..AADF	Tai Viet	Tai viet letter high ko		
-U+AA82	ꪂ	AA80..AADF	Tai Viet	Tai viet letter low kho		
-U+AA83	ꪃ	AA80..AADF	Tai Viet	Tai viet letter high kho		
-U+AA84	ꪄ	AA80..AADF	Tai Viet	Tai viet letter low khho		
-U+AA85	ꪅ	AA80..AADF	Tai Viet	Tai viet letter high khho		
-U+AA86	ꪆ	AA80..AADF	Tai Viet	Tai viet letter low go		
-U+AA87	ꪇ	AA80..AADF	Tai Viet	Tai viet letter high go		
-U+AA88	ꪈ	AA80..AADF	Tai Viet	Tai viet letter low ngo		
-U+AA89	ꪉ	AA80..AADF	Tai Viet	Tai viet letter high ngo		
-U+AA8A	ꪊ	AA80..AADF	Tai Viet	Tai viet letter low co		
-U+AA8B	ꪋ	AA80..AADF	Tai Viet	Tai viet letter high co		
-U+AA8C	ꪌ	AA80..AADF	Tai Viet	Tai viet letter low cho		
-U+AA8D	ꪍ	AA80..AADF	Tai Viet	Tai viet letter high cho		
-U+AA8E	ꪎ	AA80..AADF	Tai Viet	Tai viet letter low so		
-U+AA8F	ꪏ	AA80..AADF	Tai Viet	Tai viet letter high so		
-U+AA90	ꪐ	AA80..AADF	Tai Viet	Tai viet letter low nyo		
-U+AA91	ꪑ	AA80..AADF	Tai Viet	Tai viet letter high nyo		
-U+AA92	ꪒ	AA80..AADF	Tai Viet	Tai viet letter low do		
-U+AA93	ꪓ	AA80..AADF	Tai Viet	Tai viet letter high do		
-U+AA94	ꪔ	AA80..AADF	Tai Viet	Tai viet letter low to		
-U+AA95	ꪕ	AA80..AADF	Tai Viet	Tai viet letter high to		
-U+AA96	ꪖ	AA80..AADF	Tai Viet	Tai viet letter low tho		
-U+AA97	ꪗ	AA80..AADF	Tai Viet	Tai viet letter high tho		
-U+AA98	ꪘ	AA80..AADF	Tai Viet	Tai viet letter low no		
-U+AA99	ꪙ	AA80..AADF	Tai Viet	Tai viet letter high no		
-U+AA9A	ꪚ	AA80..AADF	Tai Viet	Tai viet letter low bo		
-U+AA9B	ꪛ	AA80..AADF	Tai Viet	Tai viet letter high bo		
-U+AA9C	ꪜ	AA80..AADF	Tai Viet	Tai viet letter low po		
-U+AA9D	ꪝ	AA80..AADF	Tai Viet	Tai viet letter high po		
-U+AA9E	ꪞ	AA80..AADF	Tai Viet	Tai viet letter low pho		
-U+AA9F	ꪟ	AA80..AADF	Tai Viet	Tai viet letter high pho		
-U+AAA0	ꪠ	AA80..AADF	Tai Viet	Tai viet letter low fo		
-U+AAA1	ꪡ	AA80..AADF	Tai Viet	Tai viet letter high fo		
-U+AAA2	ꪢ	AA80..AADF	Tai Viet	Tai viet letter low mo		
-U+AAA3	ꪣ	AA80..AADF	Tai Viet	Tai viet letter high mo		
-U+AAA4	ꪤ	AA80..AADF	Tai Viet	Tai viet letter low yo		
-U+AAA5	ꪥ	AA80..AADF	Tai Viet	Tai viet letter high yo		
-U+AAA6	ꪦ	AA80..AADF	Tai Viet	Tai viet letter low ro		
-U+AAA7	ꪧ	AA80..AADF	Tai Viet	Tai viet letter high ro		
-U+AAA8	ꪨ	AA80..AADF	Tai Viet	Tai viet letter low lo		
-U+AAA9	ꪩ	AA80..AADF	Tai Viet	Tai viet letter high lo		
-U+AAAA	ꪪ	AA80..AADF	Tai Viet	Tai viet letter low vo		
-U+AAAB	ꪫ	AA80..AADF	Tai Viet	Tai viet letter high vo		
-U+AAAC	ꪬ	AA80..AADF	Tai Viet	Tai viet letter low ho		
-U+AAAD	ꪭ	AA80..AADF	Tai Viet	Tai viet letter high ho		
-U+AAAE	ꪮ	AA80..AADF	Tai Viet	Tai viet letter low o		
-U+AAAF	ꪯ	AA80..AADF	Tai Viet	Tai viet letter high o		
-U+AAB0	ꪰ	AA80..AADF	Tai Viet	Tai viet mai kang		
-U+AAB1	ꪱ	AA80..AADF	Tai Viet	Tai viet vowel aa		
-U+AAB2	ꪲ	AA80..AADF	Tai Viet	Tai viet vowel i		
-U+AAB3	ꪳ	AA80..AADF	Tai Viet	Tai viet vowel ue		
-U+AAB4	ꪴ	AA80..AADF	Tai Viet	Tai viet vowel u		
-U+AAB5	ꪵ	AA80..AADF	Tai Viet	Tai viet vowel e		
-U+AAB6	ꪶ	AA80..AADF	Tai Viet	Tai viet vowel o		
-U+AAB7	ꪷ	AA80..AADF	Tai Viet	Tai viet mai khit		
-U+AAB8	ꪸ	AA80..AADF	Tai Viet	Tai viet vowel ia		
-U+AAB9	ꪹ	AA80..AADF	Tai Viet	Tai viet vowel uea		
-U+AABA	ꪺ	AA80..AADF	Tai Viet	Tai viet vowel ua		
-U+AABB	ꪻ	AA80..AADF	Tai Viet	Tai viet vowel aue		
-U+AABC	ꪼ	AA80..AADF	Tai Viet	Tai viet vowel ay		
-U+AABD	ꪽ	AA80..AADF	Tai Viet	Tai viet vowel an		
-U+AABE	ꪾ	AA80..AADF	Tai Viet	Tai viet vowel am		
-U+AABF	꪿	AA80..AADF	Tai Viet	Tai viet tone mai ek		
-U+AAC0	ꫀ	AA80..AADF	Tai Viet	Tai viet tone mai nueng		
-U+AAC1	꫁	AA80..AADF	Tai Viet	Tai viet tone mai tho		
-U+AAC2	ꫂ	AA80..AADF	Tai Viet	Tai viet tone mai song		
-U+AADB	ꫛ	AA80..AADF	Tai Viet	Tai viet symbol kon		
-U+AADC	ꫜ	AA80..AADF	Tai Viet	Tai viet symbol nueng		
-U+AADD	ꫝ	AA80..AADF	Tai Viet	Tai viet symbol sam		
-U+AADE	꫞	AA80..AADF	Tai Viet	Tai viet symbol ho hoi		
-U+AADF	꫟	AA80..AADF	Tai Viet	Tai viet symbol koi koi		
+code_points	chars	tab_completions	unicode_name	base
+U+AA80	ꪀ		TAI VIET LETTER LOW KO	
+U+AA81	ꪁ		TAI VIET LETTER HIGH KO	
+U+AA82	ꪂ		TAI VIET LETTER LOW KHO	
+U+AA83	ꪃ		TAI VIET LETTER HIGH KHO	
+U+AA84	ꪄ		TAI VIET LETTER LOW KHHO	
+U+AA85	ꪅ		TAI VIET LETTER HIGH KHHO	
+U+AA86	ꪆ		TAI VIET LETTER LOW GO	
+U+AA87	ꪇ		TAI VIET LETTER HIGH GO	
+U+AA88	ꪈ		TAI VIET LETTER LOW NGO	
+U+AA89	ꪉ		TAI VIET LETTER HIGH NGO	
+U+AA8A	ꪊ		TAI VIET LETTER LOW CO	
+U+AA8B	ꪋ		TAI VIET LETTER HIGH CO	
+U+AA8C	ꪌ		TAI VIET LETTER LOW CHO	
+U+AA8D	ꪍ		TAI VIET LETTER HIGH CHO	
+U+AA8E	ꪎ		TAI VIET LETTER LOW SO	
+U+AA8F	ꪏ		TAI VIET LETTER HIGH SO	
+U+AA90	ꪐ		TAI VIET LETTER LOW NYO	
+U+AA91	ꪑ		TAI VIET LETTER HIGH NYO	
+U+AA92	ꪒ		TAI VIET LETTER LOW DO	
+U+AA93	ꪓ		TAI VIET LETTER HIGH DO	
+U+AA94	ꪔ		TAI VIET LETTER LOW TO	
+U+AA95	ꪕ		TAI VIET LETTER HIGH TO	
+U+AA96	ꪖ		TAI VIET LETTER LOW THO	
+U+AA97	ꪗ		TAI VIET LETTER HIGH THO	
+U+AA98	ꪘ		TAI VIET LETTER LOW NO	
+U+AA99	ꪙ		TAI VIET LETTER HIGH NO	
+U+AA9A	ꪚ		TAI VIET LETTER LOW BO	
+U+AA9B	ꪛ		TAI VIET LETTER HIGH BO	
+U+AA9C	ꪜ		TAI VIET LETTER LOW PO	
+U+AA9D	ꪝ		TAI VIET LETTER HIGH PO	
+U+AA9E	ꪞ		TAI VIET LETTER LOW PHO	
+U+AA9F	ꪟ		TAI VIET LETTER HIGH PHO	
+U+AAA0	ꪠ		TAI VIET LETTER LOW FO	
+U+AAA1	ꪡ		TAI VIET LETTER HIGH FO	
+U+AAA2	ꪢ		TAI VIET LETTER LOW MO	
+U+AAA3	ꪣ		TAI VIET LETTER HIGH MO	
+U+AAA4	ꪤ		TAI VIET LETTER LOW YO	
+U+AAA5	ꪥ		TAI VIET LETTER HIGH YO	
+U+AAA6	ꪦ		TAI VIET LETTER LOW RO	
+U+AAA7	ꪧ		TAI VIET LETTER HIGH RO	
+U+AAA8	ꪨ		TAI VIET LETTER LOW LO	
+U+AAA9	ꪩ		TAI VIET LETTER HIGH LO	
+U+AAAA	ꪪ		TAI VIET LETTER LOW VO	
+U+AAAB	ꪫ		TAI VIET LETTER HIGH VO	
+U+AAAC	ꪬ		TAI VIET LETTER LOW HO	
+U+AAAD	ꪭ		TAI VIET LETTER HIGH HO	
+U+AAAE	ꪮ		TAI VIET LETTER LOW O	
+U+AAAF	ꪯ		TAI VIET LETTER HIGH O	
+U+AAB0	ꪰ		TAI VIET MAI KANG	
+U+AAB1	ꪱ		TAI VIET VOWEL AA	
+U+AAB2	ꪲ		TAI VIET VOWEL I	
+U+AAB3	ꪳ		TAI VIET VOWEL UE	
+U+AAB4	ꪴ		TAI VIET VOWEL U	
+U+AAB5	ꪵ		TAI VIET VOWEL E	
+U+AAB6	ꪶ		TAI VIET VOWEL O	
+U+AAB7	ꪷ		TAI VIET MAI KHIT	
+U+AAB8	ꪸ		TAI VIET VOWEL IA	
+U+AAB9	ꪹ		TAI VIET VOWEL UEA	
+U+AABA	ꪺ		TAI VIET VOWEL UA	
+U+AABB	ꪻ		TAI VIET VOWEL AUE	
+U+AABC	ꪼ		TAI VIET VOWEL AY	
+U+AABD	ꪽ		TAI VIET VOWEL AN	
+U+AABE	ꪾ		TAI VIET VOWEL AM	
+U+AABF	꪿		TAI VIET TONE MAI EK	
+U+AAC0	ꫀ		TAI VIET TONE MAI NUENG	
+U+AAC1	꫁		TAI VIET TONE MAI THO	
+U+AAC2	ꫂ		TAI VIET TONE MAI SONG	
+U+AADB	ꫛ		TAI VIET SYMBOL KON	
+U+AADC	ꫜ		TAI VIET SYMBOL NUENG	
+U+AADD	ꫝ		TAI VIET SYMBOL SAM	
+U+AADE	꫞		TAI VIET SYMBOL HO HOI	
+U+AADF	꫟		TAI VIET SYMBOL KOI KOI	

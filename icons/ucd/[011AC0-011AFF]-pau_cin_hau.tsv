@@ -1,58 +1,58 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11AC0	𑫀	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter pa		
-U+11AC1	𑫁	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ka		
-U+11AC2	𑫂	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter la		
-U+11AC3	𑫃	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ma		
-U+11AC4	𑫄	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter da		
-U+11AC5	𑫅	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter za		
-U+11AC6	𑫆	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter va		
-U+11AC7	𑫇	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter nga		
-U+11AC8	𑫈	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ha		
-U+11AC9	𑫉	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ga		
-U+11ACA	𑫊	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter kha		
-U+11ACB	𑫋	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter sa		
-U+11ACC	𑫌	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ba		
-U+11ACD	𑫍	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ca		
-U+11ACE	𑫎	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ta		
-U+11ACF	𑫏	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter tha		
-U+11AD0	𑫐	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter na		
-U+11AD1	𑫑	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter pha		
-U+11AD2	𑫒	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ra		
-U+11AD3	𑫓	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter fa		
-U+11AD4	𑫔	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter cha		
-U+11AD5	𑫕	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter a		
-U+11AD6	𑫖	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter e		
-U+11AD7	𑫗	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter i		
-U+11AD8	𑫘	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter o		
-U+11AD9	𑫙	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter u		
-U+11ADA	𑫚	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ua		
-U+11ADB	𑫛	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter ia		
-U+11ADC	𑫜	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final p		
-U+11ADD	𑫝	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final k		
-U+11ADE	𑫞	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final t		
-U+11ADF	𑫟	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final m		
-U+11AE0	𑫠	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final n		
-U+11AE1	𑫡	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final l		
-U+11AE2	𑫢	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final w		
-U+11AE3	𑫣	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final ng		
-U+11AE4	𑫤	11AC0..11AFF	Pau Cin Hau	Pau cin hau letter final y		
-U+11AE5	𑫥	11AC0..11AFF	Pau Cin Hau	Pau cin hau rising tone long		
-U+11AE6	𑫦	11AC0..11AFF	Pau Cin Hau	Pau cin hau rising tone		
-U+11AE7	𑫧	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi glottal stop		
-U+11AE8	𑫨	11AC0..11AFF	Pau Cin Hau	Pau cin hau rising tone long final		
-U+11AE9	𑫩	11AC0..11AFF	Pau Cin Hau	Pau cin hau rising tone final		
-U+11AEA	𑫪	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi glottal stop final		
-U+11AEB	𑫫	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi tone long		
-U+11AEC	𑫬	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi tone		
-U+11AED	𑫭	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi tone long final		
-U+11AEE	𑫮	11AC0..11AFF	Pau Cin Hau	Pau cin hau sandhi tone final		
-U+11AEF	𑫯	11AC0..11AFF	Pau Cin Hau	Pau cin hau mid-level tone		
-U+11AF0	𑫰	11AC0..11AFF	Pau Cin Hau	Pau cin hau glottal stop variant		
-U+11AF1	𑫱	11AC0..11AFF	Pau Cin Hau	Pau cin hau mid-level tone long final		
-U+11AF2	𑫲	11AC0..11AFF	Pau Cin Hau	Pau cin hau mid-level tone final		
-U+11AF3	𑫳	11AC0..11AFF	Pau Cin Hau	Pau cin hau low-falling tone long		
-U+11AF4	𑫴	11AC0..11AFF	Pau Cin Hau	Pau cin hau low-falling tone		
-U+11AF5	𑫵	11AC0..11AFF	Pau Cin Hau	Pau cin hau glottal stop		
-U+11AF6	𑫶	11AC0..11AFF	Pau Cin Hau	Pau cin hau low-falling tone long final		
-U+11AF7	𑫷	11AC0..11AFF	Pau Cin Hau	Pau cin hau low-falling tone final		
-U+11AF8	𑫸	11AC0..11AFF	Pau Cin Hau	Pau cin hau glottal stop final		
+code_points	chars	tab_completions	unicode_name	base
+U+11AC0	𑫀		PAU CIN HAU LETTER PA	
+U+11AC1	𑫁		PAU CIN HAU LETTER KA	
+U+11AC2	𑫂		PAU CIN HAU LETTER LA	
+U+11AC3	𑫃		PAU CIN HAU LETTER MA	
+U+11AC4	𑫄		PAU CIN HAU LETTER DA	
+U+11AC5	𑫅		PAU CIN HAU LETTER ZA	
+U+11AC6	𑫆		PAU CIN HAU LETTER VA	
+U+11AC7	𑫇		PAU CIN HAU LETTER NGA	
+U+11AC8	𑫈		PAU CIN HAU LETTER HA	
+U+11AC9	𑫉		PAU CIN HAU LETTER GA	
+U+11ACA	𑫊		PAU CIN HAU LETTER KHA	
+U+11ACB	𑫋		PAU CIN HAU LETTER SA	
+U+11ACC	𑫌		PAU CIN HAU LETTER BA	
+U+11ACD	𑫍		PAU CIN HAU LETTER CA	
+U+11ACE	𑫎		PAU CIN HAU LETTER TA	
+U+11ACF	𑫏		PAU CIN HAU LETTER THA	
+U+11AD0	𑫐		PAU CIN HAU LETTER NA	
+U+11AD1	𑫑		PAU CIN HAU LETTER PHA	
+U+11AD2	𑫒		PAU CIN HAU LETTER RA	
+U+11AD3	𑫓		PAU CIN HAU LETTER FA	
+U+11AD4	𑫔		PAU CIN HAU LETTER CHA	
+U+11AD5	𑫕		PAU CIN HAU LETTER A	
+U+11AD6	𑫖		PAU CIN HAU LETTER E	
+U+11AD7	𑫗		PAU CIN HAU LETTER I	
+U+11AD8	𑫘		PAU CIN HAU LETTER O	
+U+11AD9	𑫙		PAU CIN HAU LETTER U	
+U+11ADA	𑫚		PAU CIN HAU LETTER UA	
+U+11ADB	𑫛		PAU CIN HAU LETTER IA	
+U+11ADC	𑫜		PAU CIN HAU LETTER FINAL P	
+U+11ADD	𑫝		PAU CIN HAU LETTER FINAL K	
+U+11ADE	𑫞		PAU CIN HAU LETTER FINAL T	
+U+11ADF	𑫟		PAU CIN HAU LETTER FINAL M	
+U+11AE0	𑫠		PAU CIN HAU LETTER FINAL N	
+U+11AE1	𑫡		PAU CIN HAU LETTER FINAL L	
+U+11AE2	𑫢		PAU CIN HAU LETTER FINAL W	
+U+11AE3	𑫣		PAU CIN HAU LETTER FINAL NG	
+U+11AE4	𑫤		PAU CIN HAU LETTER FINAL Y	
+U+11AE5	𑫥		PAU CIN HAU RISING TONE LONG	
+U+11AE6	𑫦		PAU CIN HAU RISING TONE	
+U+11AE7	𑫧		PAU CIN HAU SANDHI GLOTTAL STOP	
+U+11AE8	𑫨		PAU CIN HAU RISING TONE LONG FINAL	
+U+11AE9	𑫩		PAU CIN HAU RISING TONE FINAL	
+U+11AEA	𑫪		PAU CIN HAU SANDHI GLOTTAL STOP FINAL	
+U+11AEB	𑫫		PAU CIN HAU SANDHI TONE LONG	
+U+11AEC	𑫬		PAU CIN HAU SANDHI TONE	
+U+11AED	𑫭		PAU CIN HAU SANDHI TONE LONG FINAL	
+U+11AEE	𑫮		PAU CIN HAU SANDHI TONE FINAL	
+U+11AEF	𑫯		PAU CIN HAU MID-LEVEL TONE	
+U+11AF0	𑫰		PAU CIN HAU GLOTTAL STOP VARIANT	
+U+11AF1	𑫱		PAU CIN HAU MID-LEVEL TONE LONG FINAL	
+U+11AF2	𑫲		PAU CIN HAU MID-LEVEL TONE FINAL	
+U+11AF3	𑫳		PAU CIN HAU LOW-FALLING TONE LONG	
+U+11AF4	𑫴		PAU CIN HAU LOW-FALLING TONE	
+U+11AF5	𑫵		PAU CIN HAU GLOTTAL STOP	
+U+11AF6	𑫶		PAU CIN HAU LOW-FALLING TONE LONG FINAL	
+U+11AF7	𑫷		PAU CIN HAU LOW-FALLING TONE FINAL	
+U+11AF8	𑫸		PAU CIN HAU GLOTTAL STOP FINAL	

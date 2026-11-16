@@ -1,59 +1,59 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16100	𖄀	16100..1613F	Gurung Khema	Gurung khema letter a		
-U+16101	𖄁	16100..1613F	Gurung Khema	Gurung khema letter ka		
-U+16102	𖄂	16100..1613F	Gurung Khema	Gurung khema letter kha		
-U+16103	𖄃	16100..1613F	Gurung Khema	Gurung khema letter ga		
-U+16104	𖄄	16100..1613F	Gurung Khema	Gurung khema letter gha		
-U+16105	𖄅	16100..1613F	Gurung Khema	Gurung khema letter nga		
-U+16106	𖄆	16100..1613F	Gurung Khema	Gurung khema letter ca		
-U+16107	𖄇	16100..1613F	Gurung Khema	Gurung khema letter cha		
-U+16108	𖄈	16100..1613F	Gurung Khema	Gurung khema letter ja		
-U+16109	𖄉	16100..1613F	Gurung Khema	Gurung khema letter jha		
-U+1610A	𖄊	16100..1613F	Gurung Khema	Gurung khema letter ha		
-U+1610B	𖄋	16100..1613F	Gurung Khema	Gurung khema letter tta		
-U+1610C	𖄌	16100..1613F	Gurung Khema	Gurung khema letter ttha		
-U+1610D	𖄍	16100..1613F	Gurung Khema	Gurung khema letter dda		
-U+1610E	𖄎	16100..1613F	Gurung Khema	Gurung khema letter ddha		
-U+1610F	𖄏	16100..1613F	Gurung Khema	Gurung khema letter va		
-U+16110	𖄐	16100..1613F	Gurung Khema	Gurung khema letter ta		
-U+16111	𖄑	16100..1613F	Gurung Khema	Gurung khema letter tha		
-U+16112	𖄒	16100..1613F	Gurung Khema	Gurung khema letter da		
-U+16113	𖄓	16100..1613F	Gurung Khema	Gurung khema letter dha		
-U+16114	𖄔	16100..1613F	Gurung Khema	Gurung khema letter na		
-U+16115	𖄕	16100..1613F	Gurung Khema	Gurung khema letter pa		
-U+16116	𖄖	16100..1613F	Gurung Khema	Gurung khema letter pha		
-U+16117	𖄗	16100..1613F	Gurung Khema	Gurung khema letter ba		
-U+16118	𖄘	16100..1613F	Gurung Khema	Gurung khema letter bha		
-U+16119	𖄙	16100..1613F	Gurung Khema	Gurung khema letter ma		
-U+1611A	𖄚	16100..1613F	Gurung Khema	Gurung khema letter ya		
-U+1611B	𖄛	16100..1613F	Gurung Khema	Gurung khema letter ra		
-U+1611C	𖄜	16100..1613F	Gurung Khema	Gurung khema letter la		
-U+1611D	𖄝	16100..1613F	Gurung Khema	Gurung khema letter sa		
-U+1611E	𖄞	16100..1613F	Gurung Khema	Gurung khema vowel sign aa		
-U+1611F	𖄟	16100..1613F	Gurung Khema	Gurung khema vowel sign i		
-U+16120	𖄠	16100..1613F	Gurung Khema	Gurung khema vowel sign ii		
-U+16121	𖄡	16100..1613F	Gurung Khema	Gurung khema vowel sign u		
-U+16122	𖄢	16100..1613F	Gurung Khema	Gurung khema vowel sign uu		
-U+16123	𖄣	16100..1613F	Gurung Khema	Gurung khema vowel sign e		
-U+16124	𖄤	16100..1613F	Gurung Khema	Gurung khema vowel sign ee		
-U+16125	𖄥	16100..1613F	Gurung Khema	Gurung khema vowel sign ai		
-U+16126	𖄦	16100..1613F	Gurung Khema	Gurung khema vowel sign o		
-U+16127	𖄧	16100..1613F	Gurung Khema	Gurung khema vowel sign oo		
-U+16128	𖄨	16100..1613F	Gurung Khema	Gurung khema vowel sign au		
-U+16129	𖄩	16100..1613F	Gurung Khema	Gurung khema vowel length mark		
-U+1612A	𖄪	16100..1613F	Gurung Khema	Gurung khema consonant sign medial ya		
-U+1612B	𖄫	16100..1613F	Gurung Khema	Gurung khema consonant sign medial va		
-U+1612C	𖄬	16100..1613F	Gurung Khema	Gurung khema consonant sign medial ha		
-U+1612D	𖄭	16100..1613F	Gurung Khema	Gurung khema sign anusvara		
-U+1612E	𖄮	16100..1613F	Gurung Khema	Gurung khema consonant sign medial ra		
-U+1612F	𖄯	16100..1613F	Gurung Khema	Gurung khema sign tholhoma		
-U+16130	𖄰	16100..1613F	Gurung Khema	Gurung khema digit zero		
-U+16131	𖄱	16100..1613F	Gurung Khema	Gurung khema digit one		
-U+16132	𖄲	16100..1613F	Gurung Khema	Gurung khema digit two		
-U+16133	𖄳	16100..1613F	Gurung Khema	Gurung khema digit three		
-U+16134	𖄴	16100..1613F	Gurung Khema	Gurung khema digit four		
-U+16135	𖄵	16100..1613F	Gurung Khema	Gurung khema digit five		
-U+16136	𖄶	16100..1613F	Gurung Khema	Gurung khema digit six		
-U+16137	𖄷	16100..1613F	Gurung Khema	Gurung khema digit seven		
-U+16138	𖄸	16100..1613F	Gurung Khema	Gurung khema digit eight		
-U+16139	𖄹	16100..1613F	Gurung Khema	Gurung khema digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+16100	𖄀		GURUNG KHEMA LETTER A	
+U+16101	𖄁		GURUNG KHEMA LETTER KA	
+U+16102	𖄂		GURUNG KHEMA LETTER KHA	
+U+16103	𖄃		GURUNG KHEMA LETTER GA	
+U+16104	𖄄		GURUNG KHEMA LETTER GHA	
+U+16105	𖄅		GURUNG KHEMA LETTER NGA	
+U+16106	𖄆		GURUNG KHEMA LETTER CA	
+U+16107	𖄇		GURUNG KHEMA LETTER CHA	
+U+16108	𖄈		GURUNG KHEMA LETTER JA	
+U+16109	𖄉		GURUNG KHEMA LETTER JHA	
+U+1610A	𖄊		GURUNG KHEMA LETTER HA	
+U+1610B	𖄋		GURUNG KHEMA LETTER TTA	
+U+1610C	𖄌		GURUNG KHEMA LETTER TTHA	
+U+1610D	𖄍		GURUNG KHEMA LETTER DDA	
+U+1610E	𖄎		GURUNG KHEMA LETTER DDHA	
+U+1610F	𖄏		GURUNG KHEMA LETTER VA	
+U+16110	𖄐		GURUNG KHEMA LETTER TA	
+U+16111	𖄑		GURUNG KHEMA LETTER THA	
+U+16112	𖄒		GURUNG KHEMA LETTER DA	
+U+16113	𖄓		GURUNG KHEMA LETTER DHA	
+U+16114	𖄔		GURUNG KHEMA LETTER NA	
+U+16115	𖄕		GURUNG KHEMA LETTER PA	
+U+16116	𖄖		GURUNG KHEMA LETTER PHA	
+U+16117	𖄗		GURUNG KHEMA LETTER BA	
+U+16118	𖄘		GURUNG KHEMA LETTER BHA	
+U+16119	𖄙		GURUNG KHEMA LETTER MA	
+U+1611A	𖄚		GURUNG KHEMA LETTER YA	
+U+1611B	𖄛		GURUNG KHEMA LETTER RA	
+U+1611C	𖄜		GURUNG KHEMA LETTER LA	
+U+1611D	𖄝		GURUNG KHEMA LETTER SA	
+U+1611E	𖄞		GURUNG KHEMA VOWEL SIGN AA	
+U+1611F	𖄟		GURUNG KHEMA VOWEL SIGN I	
+U+16120	𖄠		GURUNG KHEMA VOWEL SIGN II	
+U+16121	𖄡		GURUNG KHEMA VOWEL SIGN U	
+U+16122	𖄢		GURUNG KHEMA VOWEL SIGN UU	
+U+16123	𖄣		GURUNG KHEMA VOWEL SIGN E	
+U+16124	𖄤		GURUNG KHEMA VOWEL SIGN EE	
+U+16125	𖄥		GURUNG KHEMA VOWEL SIGN AI	
+U+16126	𖄦		GURUNG KHEMA VOWEL SIGN O	
+U+16127	𖄧		GURUNG KHEMA VOWEL SIGN OO	
+U+16128	𖄨		GURUNG KHEMA VOWEL SIGN AU	
+U+16129	𖄩		GURUNG KHEMA VOWEL LENGTH MARK	
+U+1612A	𖄪		GURUNG KHEMA CONSONANT SIGN MEDIAL YA	
+U+1612B	𖄫		GURUNG KHEMA CONSONANT SIGN MEDIAL VA	
+U+1612C	𖄬		GURUNG KHEMA CONSONANT SIGN MEDIAL HA	
+U+1612D	𖄭		GURUNG KHEMA SIGN ANUSVARA	
+U+1612E	𖄮		GURUNG KHEMA CONSONANT SIGN MEDIAL RA	
+U+1612F	𖄯		GURUNG KHEMA SIGN THOLHOMA	
+U+16130	𖄰		GURUNG KHEMA DIGIT ZERO	
+U+16131	𖄱		GURUNG KHEMA DIGIT ONE	
+U+16132	𖄲		GURUNG KHEMA DIGIT TWO	
+U+16133	𖄳		GURUNG KHEMA DIGIT THREE	
+U+16134	𖄴		GURUNG KHEMA DIGIT FOUR	
+U+16135	𖄵		GURUNG KHEMA DIGIT FIVE	
+U+16136	𖄶		GURUNG KHEMA DIGIT SIX	
+U+16137	𖄷		GURUNG KHEMA DIGIT SEVEN	
+U+16138	𖄸		GURUNG KHEMA DIGIT EIGHT	
+U+16139	𖄹		GURUNG KHEMA DIGIT NINE	

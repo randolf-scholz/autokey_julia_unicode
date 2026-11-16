@@ -1,116 +1,116 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2E80	⺀	2E80..2EFF	CJK Radicals Supplement	Cjk radical repeat		
-U+2E81	⺁	2E80..2EFF	CJK Radicals Supplement	Cjk radical cliff		
-U+2E82	⺂	2E80..2EFF	CJK Radicals Supplement	Cjk radical second one		
-U+2E83	⺃	2E80..2EFF	CJK Radicals Supplement	Cjk radical second two		
-U+2E84	⺄	2E80..2EFF	CJK Radicals Supplement	Cjk radical second three		
-U+2E85	⺅	2E80..2EFF	CJK Radicals Supplement	Cjk radical person		
-U+2E86	⺆	2E80..2EFF	CJK Radicals Supplement	Cjk radical box		
-U+2E87	⺇	2E80..2EFF	CJK Radicals Supplement	Cjk radical table		
-U+2E88	⺈	2E80..2EFF	CJK Radicals Supplement	Cjk radical knife one		
-U+2E89	⺉	2E80..2EFF	CJK Radicals Supplement	Cjk radical knife two		
-U+2E8A	⺊	2E80..2EFF	CJK Radicals Supplement	Cjk radical divination		
-U+2E8B	⺋	2E80..2EFF	CJK Radicals Supplement	Cjk radical seal		
-U+2E8C	⺌	2E80..2EFF	CJK Radicals Supplement	Cjk radical small one		
-U+2E8D	⺍	2E80..2EFF	CJK Radicals Supplement	Cjk radical small two		
-U+2E8E	⺎	2E80..2EFF	CJK Radicals Supplement	Cjk radical lame one		
-U+2E8F	⺏	2E80..2EFF	CJK Radicals Supplement	Cjk radical lame two		
-U+2E90	⺐	2E80..2EFF	CJK Radicals Supplement	Cjk radical lame three		
-U+2E91	⺑	2E80..2EFF	CJK Radicals Supplement	Cjk radical lame four		
-U+2E92	⺒	2E80..2EFF	CJK Radicals Supplement	Cjk radical snake		
-U+2E93	⺓	2E80..2EFF	CJK Radicals Supplement	Cjk radical thread		
-U+2E94	⺔	2E80..2EFF	CJK Radicals Supplement	Cjk radical snout one		
-U+2E95	⺕	2E80..2EFF	CJK Radicals Supplement	Cjk radical snout two		
-U+2E96	⺖	2E80..2EFF	CJK Radicals Supplement	Cjk radical heart one		
-U+2E97	⺗	2E80..2EFF	CJK Radicals Supplement	Cjk radical heart two		
-U+2E98	⺘	2E80..2EFF	CJK Radicals Supplement	Cjk radical hand		
-U+2E99	⺙	2E80..2EFF	CJK Radicals Supplement	Cjk radical rap		
-U+2E9B	⺛	2E80..2EFF	CJK Radicals Supplement	Cjk radical choke		
-U+2E9C	⺜	2E80..2EFF	CJK Radicals Supplement	Cjk radical sun		
-U+2E9D	⺝	2E80..2EFF	CJK Radicals Supplement	Cjk radical moon		
-U+2E9E	⺞	2E80..2EFF	CJK Radicals Supplement	Cjk radical death		
-U+2E9F	⺟	2E80..2EFF	CJK Radicals Supplement	Cjk radical mother		
-U+2EA0	⺠	2E80..2EFF	CJK Radicals Supplement	Cjk radical civilian		
-U+2EA1	⺡	2E80..2EFF	CJK Radicals Supplement	Cjk radical water one		
-U+2EA2	⺢	2E80..2EFF	CJK Radicals Supplement	Cjk radical water two		
-U+2EA3	⺣	2E80..2EFF	CJK Radicals Supplement	Cjk radical fire		
-U+2EA4	⺤	2E80..2EFF	CJK Radicals Supplement	Cjk radical paw one		
-U+2EA5	⺥	2E80..2EFF	CJK Radicals Supplement	Cjk radical paw two		
-U+2EA6	⺦	2E80..2EFF	CJK Radicals Supplement	Cjk radical simplified half tree trunk		
-U+2EA7	⺧	2E80..2EFF	CJK Radicals Supplement	Cjk radical cow		
-U+2EA8	⺨	2E80..2EFF	CJK Radicals Supplement	Cjk radical dog		
-U+2EA9	⺩	2E80..2EFF	CJK Radicals Supplement	Cjk radical jade		
-U+2EAA	⺪	2E80..2EFF	CJK Radicals Supplement	Cjk radical bolt of cloth		
-U+2EAB	⺫	2E80..2EFF	CJK Radicals Supplement	Cjk radical eye		
-U+2EAC	⺬	2E80..2EFF	CJK Radicals Supplement	Cjk radical spirit one		
-U+2EAD	⺭	2E80..2EFF	CJK Radicals Supplement	Cjk radical spirit two		
-U+2EAE	⺮	2E80..2EFF	CJK Radicals Supplement	Cjk radical bamboo		
-U+2EAF	⺯	2E80..2EFF	CJK Radicals Supplement	Cjk radical silk		
-U+2EB0	⺰	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified silk		
-U+2EB1	⺱	2E80..2EFF	CJK Radicals Supplement	Cjk radical net one		
-U+2EB2	⺲	2E80..2EFF	CJK Radicals Supplement	Cjk radical net two		
-U+2EB3	⺳	2E80..2EFF	CJK Radicals Supplement	Cjk radical net three		
-U+2EB4	⺴	2E80..2EFF	CJK Radicals Supplement	Cjk radical net four		
-U+2EB5	⺵	2E80..2EFF	CJK Radicals Supplement	Cjk radical mesh		
-U+2EB6	⺶	2E80..2EFF	CJK Radicals Supplement	Cjk radical sheep		
-U+2EB7	⺷	2E80..2EFF	CJK Radicals Supplement	Cjk radical ram		
-U+2EB8	⺸	2E80..2EFF	CJK Radicals Supplement	Cjk radical ewe		
-U+2EB9	⺹	2E80..2EFF	CJK Radicals Supplement	Cjk radical old		
-U+2EBA	⺺	2E80..2EFF	CJK Radicals Supplement	Cjk radical brush one		
-U+2EBB	⺻	2E80..2EFF	CJK Radicals Supplement	Cjk radical brush two		
-U+2EBC	⺼	2E80..2EFF	CJK Radicals Supplement	Cjk radical meat		
-U+2EBD	⺽	2E80..2EFF	CJK Radicals Supplement	Cjk radical mortar		
-U+2EBE	⺾	2E80..2EFF	CJK Radicals Supplement	Cjk radical grass one		
-U+2EBF	⺿	2E80..2EFF	CJK Radicals Supplement	Cjk radical grass two		
-U+2EC0	⻀	2E80..2EFF	CJK Radicals Supplement	Cjk radical grass three		
-U+2EC1	⻁	2E80..2EFF	CJK Radicals Supplement	Cjk radical tiger		
-U+2EC2	⻂	2E80..2EFF	CJK Radicals Supplement	Cjk radical clothes		
-U+2EC3	⻃	2E80..2EFF	CJK Radicals Supplement	Cjk radical west one		
-U+2EC4	⻄	2E80..2EFF	CJK Radicals Supplement	Cjk radical west two		
-U+2EC5	⻅	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified see		
-U+2EC6	⻆	2E80..2EFF	CJK Radicals Supplement	Cjk radical simplified horn		
-U+2EC7	⻇	2E80..2EFF	CJK Radicals Supplement	Cjk radical horn		
-U+2EC8	⻈	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified speech		
-U+2EC9	⻉	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified shell		
-U+2ECA	⻊	2E80..2EFF	CJK Radicals Supplement	Cjk radical foot		
-U+2ECB	⻋	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified cart		
-U+2ECC	⻌	2E80..2EFF	CJK Radicals Supplement	Cjk radical simplified walk		
-U+2ECD	⻍	2E80..2EFF	CJK Radicals Supplement	Cjk radical walk one		
-U+2ECE	⻎	2E80..2EFF	CJK Radicals Supplement	Cjk radical walk two		
-U+2ECF	⻏	2E80..2EFF	CJK Radicals Supplement	Cjk radical city		
-U+2ED0	⻐	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified gold		
-U+2ED1	⻑	2E80..2EFF	CJK Radicals Supplement	Cjk radical long one		
-U+2ED2	⻒	2E80..2EFF	CJK Radicals Supplement	Cjk radical long two		
-U+2ED3	⻓	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified long		
-U+2ED4	⻔	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified gate		
-U+2ED5	⻕	2E80..2EFF	CJK Radicals Supplement	Cjk radical mound one		
-U+2ED6	⻖	2E80..2EFF	CJK Radicals Supplement	Cjk radical mound two		
-U+2ED7	⻗	2E80..2EFF	CJK Radicals Supplement	Cjk radical rain		
-U+2ED8	⻘	2E80..2EFF	CJK Radicals Supplement	Cjk radical blue		
-U+2ED9	⻙	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified tanned leather		
-U+2EDA	⻚	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified leaf		
-U+2EDB	⻛	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified wind		
-U+2EDC	⻜	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified fly		
-U+2EDD	⻝	2E80..2EFF	CJK Radicals Supplement	Cjk radical eat one		
-U+2EDE	⻞	2E80..2EFF	CJK Radicals Supplement	Cjk radical eat two		
-U+2EDF	⻟	2E80..2EFF	CJK Radicals Supplement	Cjk radical eat three		
-U+2EE0	⻠	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified eat		
-U+2EE1	⻡	2E80..2EFF	CJK Radicals Supplement	Cjk radical head		
-U+2EE2	⻢	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified horse		
-U+2EE3	⻣	2E80..2EFF	CJK Radicals Supplement	Cjk radical bone		
-U+2EE4	⻤	2E80..2EFF	CJK Radicals Supplement	Cjk radical ghost		
-U+2EE5	⻥	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified fish		
-U+2EE6	⻦	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified bird		
-U+2EE7	⻧	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified salt		
-U+2EE8	⻨	2E80..2EFF	CJK Radicals Supplement	Cjk radical simplified wheat		
-U+2EE9	⻩	2E80..2EFF	CJK Radicals Supplement	Cjk radical simplified yellow		
-U+2EEA	⻪	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified frog		
-U+2EEB	⻫	2E80..2EFF	CJK Radicals Supplement	Cjk radical j-simplified even		
-U+2EEC	⻬	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified even		
-U+2EED	⻭	2E80..2EFF	CJK Radicals Supplement	Cjk radical j-simplified tooth		
-U+2EEE	⻮	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified tooth		
-U+2EEF	⻯	2E80..2EFF	CJK Radicals Supplement	Cjk radical j-simplified dragon		
-U+2EF0	⻰	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified dragon		
-U+2EF1	⻱	2E80..2EFF	CJK Radicals Supplement	Cjk radical turtle		
-U+2EF2	⻲	2E80..2EFF	CJK Radicals Supplement	Cjk radical j-simplified turtle		
-U+2EF3	⻳	2E80..2EFF	CJK Radicals Supplement	Cjk radical c-simplified turtle		
+code_points	chars	tab_completions	unicode_name	base
+U+2E80	⺀		CJK RADICAL REPEAT	
+U+2E81	⺁		CJK RADICAL CLIFF	
+U+2E82	⺂		CJK RADICAL SECOND ONE	
+U+2E83	⺃		CJK RADICAL SECOND TWO	
+U+2E84	⺄		CJK RADICAL SECOND THREE	
+U+2E85	⺅		CJK RADICAL PERSON	
+U+2E86	⺆		CJK RADICAL BOX	
+U+2E87	⺇		CJK RADICAL TABLE	
+U+2E88	⺈		CJK RADICAL KNIFE ONE	
+U+2E89	⺉		CJK RADICAL KNIFE TWO	
+U+2E8A	⺊		CJK RADICAL DIVINATION	
+U+2E8B	⺋		CJK RADICAL SEAL	
+U+2E8C	⺌		CJK RADICAL SMALL ONE	
+U+2E8D	⺍		CJK RADICAL SMALL TWO	
+U+2E8E	⺎		CJK RADICAL LAME ONE	
+U+2E8F	⺏		CJK RADICAL LAME TWO	
+U+2E90	⺐		CJK RADICAL LAME THREE	
+U+2E91	⺑		CJK RADICAL LAME FOUR	
+U+2E92	⺒		CJK RADICAL SNAKE	
+U+2E93	⺓		CJK RADICAL THREAD	
+U+2E94	⺔		CJK RADICAL SNOUT ONE	
+U+2E95	⺕		CJK RADICAL SNOUT TWO	
+U+2E96	⺖		CJK RADICAL HEART ONE	
+U+2E97	⺗		CJK RADICAL HEART TWO	
+U+2E98	⺘		CJK RADICAL HAND	
+U+2E99	⺙		CJK RADICAL RAP	
+U+2E9B	⺛		CJK RADICAL CHOKE	
+U+2E9C	⺜		CJK RADICAL SUN	
+U+2E9D	⺝		CJK RADICAL MOON	
+U+2E9E	⺞		CJK RADICAL DEATH	
+U+2E9F	⺟		CJK RADICAL MOTHER	
+U+2EA0	⺠		CJK RADICAL CIVILIAN	
+U+2EA1	⺡		CJK RADICAL WATER ONE	
+U+2EA2	⺢		CJK RADICAL WATER TWO	
+U+2EA3	⺣		CJK RADICAL FIRE	
+U+2EA4	⺤		CJK RADICAL PAW ONE	
+U+2EA5	⺥		CJK RADICAL PAW TWO	
+U+2EA6	⺦		CJK RADICAL SIMPLIFIED HALF TREE TRUNK	
+U+2EA7	⺧		CJK RADICAL COW	
+U+2EA8	⺨		CJK RADICAL DOG	
+U+2EA9	⺩		CJK RADICAL JADE	
+U+2EAA	⺪		CJK RADICAL BOLT OF CLOTH	
+U+2EAB	⺫		CJK RADICAL EYE	
+U+2EAC	⺬		CJK RADICAL SPIRIT ONE	
+U+2EAD	⺭		CJK RADICAL SPIRIT TWO	
+U+2EAE	⺮		CJK RADICAL BAMBOO	
+U+2EAF	⺯		CJK RADICAL SILK	
+U+2EB0	⺰		CJK RADICAL C-SIMPLIFIED SILK	
+U+2EB1	⺱		CJK RADICAL NET ONE	
+U+2EB2	⺲		CJK RADICAL NET TWO	
+U+2EB3	⺳		CJK RADICAL NET THREE	
+U+2EB4	⺴		CJK RADICAL NET FOUR	
+U+2EB5	⺵		CJK RADICAL MESH	
+U+2EB6	⺶		CJK RADICAL SHEEP	
+U+2EB7	⺷		CJK RADICAL RAM	
+U+2EB8	⺸		CJK RADICAL EWE	
+U+2EB9	⺹		CJK RADICAL OLD	
+U+2EBA	⺺		CJK RADICAL BRUSH ONE	
+U+2EBB	⺻		CJK RADICAL BRUSH TWO	
+U+2EBC	⺼		CJK RADICAL MEAT	
+U+2EBD	⺽		CJK RADICAL MORTAR	
+U+2EBE	⺾		CJK RADICAL GRASS ONE	
+U+2EBF	⺿		CJK RADICAL GRASS TWO	
+U+2EC0	⻀		CJK RADICAL GRASS THREE	
+U+2EC1	⻁		CJK RADICAL TIGER	
+U+2EC2	⻂		CJK RADICAL CLOTHES	
+U+2EC3	⻃		CJK RADICAL WEST ONE	
+U+2EC4	⻄		CJK RADICAL WEST TWO	
+U+2EC5	⻅		CJK RADICAL C-SIMPLIFIED SEE	
+U+2EC6	⻆		CJK RADICAL SIMPLIFIED HORN	
+U+2EC7	⻇		CJK RADICAL HORN	
+U+2EC8	⻈		CJK RADICAL C-SIMPLIFIED SPEECH	
+U+2EC9	⻉		CJK RADICAL C-SIMPLIFIED SHELL	
+U+2ECA	⻊		CJK RADICAL FOOT	
+U+2ECB	⻋		CJK RADICAL C-SIMPLIFIED CART	
+U+2ECC	⻌		CJK RADICAL SIMPLIFIED WALK	
+U+2ECD	⻍		CJK RADICAL WALK ONE	
+U+2ECE	⻎		CJK RADICAL WALK TWO	
+U+2ECF	⻏		CJK RADICAL CITY	
+U+2ED0	⻐		CJK RADICAL C-SIMPLIFIED GOLD	
+U+2ED1	⻑		CJK RADICAL LONG ONE	
+U+2ED2	⻒		CJK RADICAL LONG TWO	
+U+2ED3	⻓		CJK RADICAL C-SIMPLIFIED LONG	
+U+2ED4	⻔		CJK RADICAL C-SIMPLIFIED GATE	
+U+2ED5	⻕		CJK RADICAL MOUND ONE	
+U+2ED6	⻖		CJK RADICAL MOUND TWO	
+U+2ED7	⻗		CJK RADICAL RAIN	
+U+2ED8	⻘		CJK RADICAL BLUE	
+U+2ED9	⻙		CJK RADICAL C-SIMPLIFIED TANNED LEATHER	
+U+2EDA	⻚		CJK RADICAL C-SIMPLIFIED LEAF	
+U+2EDB	⻛		CJK RADICAL C-SIMPLIFIED WIND	
+U+2EDC	⻜		CJK RADICAL C-SIMPLIFIED FLY	
+U+2EDD	⻝		CJK RADICAL EAT ONE	
+U+2EDE	⻞		CJK RADICAL EAT TWO	
+U+2EDF	⻟		CJK RADICAL EAT THREE	
+U+2EE0	⻠		CJK RADICAL C-SIMPLIFIED EAT	
+U+2EE1	⻡		CJK RADICAL HEAD	
+U+2EE2	⻢		CJK RADICAL C-SIMPLIFIED HORSE	
+U+2EE3	⻣		CJK RADICAL BONE	
+U+2EE4	⻤		CJK RADICAL GHOST	
+U+2EE5	⻥		CJK RADICAL C-SIMPLIFIED FISH	
+U+2EE6	⻦		CJK RADICAL C-SIMPLIFIED BIRD	
+U+2EE7	⻧		CJK RADICAL C-SIMPLIFIED SALT	
+U+2EE8	⻨		CJK RADICAL SIMPLIFIED WHEAT	
+U+2EE9	⻩		CJK RADICAL SIMPLIFIED YELLOW	
+U+2EEA	⻪		CJK RADICAL C-SIMPLIFIED FROG	
+U+2EEB	⻫		CJK RADICAL J-SIMPLIFIED EVEN	
+U+2EEC	⻬		CJK RADICAL C-SIMPLIFIED EVEN	
+U+2EED	⻭		CJK RADICAL J-SIMPLIFIED TOOTH	
+U+2EEE	⻮		CJK RADICAL C-SIMPLIFIED TOOTH	
+U+2EEF	⻯		CJK RADICAL J-SIMPLIFIED DRAGON	
+U+2EF0	⻰		CJK RADICAL C-SIMPLIFIED DRAGON	
+U+2EF1	⻱		CJK RADICAL TURTLE	
+U+2EF2	⻲		CJK RADICAL J-SIMPLIFIED TURTLE	
+U+2EF3	⻳		CJK RADICAL C-SIMPLIFIED TURTLE	

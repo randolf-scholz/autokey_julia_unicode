@@ -1,301 +1,301 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A500	ꔀ	A500..A63F	Vai	Vai syllable ee		
-U+A501	ꔁ	A500..A63F	Vai	Vai syllable een		
-U+A502	ꔂ	A500..A63F	Vai	Vai syllable hee		
-U+A503	ꔃ	A500..A63F	Vai	Vai syllable wee		
-U+A504	ꔄ	A500..A63F	Vai	Vai syllable ween		
-U+A505	ꔅ	A500..A63F	Vai	Vai syllable pee		
-U+A506	ꔆ	A500..A63F	Vai	Vai syllable bhee		
-U+A507	ꔇ	A500..A63F	Vai	Vai syllable bee		
-U+A508	ꔈ	A500..A63F	Vai	Vai syllable mbee		
-U+A509	ꔉ	A500..A63F	Vai	Vai syllable kpee		
-U+A50A	ꔊ	A500..A63F	Vai	Vai syllable mgbee		
-U+A50B	ꔋ	A500..A63F	Vai	Vai syllable gbee		
-U+A50C	ꔌ	A500..A63F	Vai	Vai syllable fee		
-U+A50D	ꔍ	A500..A63F	Vai	Vai syllable vee		
-U+A50E	ꔎ	A500..A63F	Vai	Vai syllable tee		
-U+A50F	ꔏ	A500..A63F	Vai	Vai syllable thee		
-U+A510	ꔐ	A500..A63F	Vai	Vai syllable dhee		
-U+A511	ꔑ	A500..A63F	Vai	Vai syllable dhhee		
-U+A512	ꔒ	A500..A63F	Vai	Vai syllable lee		
-U+A513	ꔓ	A500..A63F	Vai	Vai syllable ree		
-U+A514	ꔔ	A500..A63F	Vai	Vai syllable dee		
-U+A515	ꔕ	A500..A63F	Vai	Vai syllable ndee		
-U+A516	ꔖ	A500..A63F	Vai	Vai syllable see		
-U+A517	ꔗ	A500..A63F	Vai	Vai syllable shee		
-U+A518	ꔘ	A500..A63F	Vai	Vai syllable zee		
-U+A519	ꔙ	A500..A63F	Vai	Vai syllable zhee		
-U+A51A	ꔚ	A500..A63F	Vai	Vai syllable cee		
-U+A51B	ꔛ	A500..A63F	Vai	Vai syllable jee		
-U+A51C	ꔜ	A500..A63F	Vai	Vai syllable njee		
-U+A51D	ꔝ	A500..A63F	Vai	Vai syllable yee		
-U+A51E	ꔞ	A500..A63F	Vai	Vai syllable kee		
-U+A51F	ꔟ	A500..A63F	Vai	Vai syllable nggee		
-U+A520	ꔠ	A500..A63F	Vai	Vai syllable gee		
-U+A521	ꔡ	A500..A63F	Vai	Vai syllable mee		
-U+A522	ꔢ	A500..A63F	Vai	Vai syllable nee		
-U+A523	ꔣ	A500..A63F	Vai	Vai syllable nyee		
-U+A524	ꔤ	A500..A63F	Vai	Vai syllable i		
-U+A525	ꔥ	A500..A63F	Vai	Vai syllable in		
-U+A526	ꔦ	A500..A63F	Vai	Vai syllable hi		
-U+A527	ꔧ	A500..A63F	Vai	Vai syllable hin		
-U+A528	ꔨ	A500..A63F	Vai	Vai syllable wi		
-U+A529	ꔩ	A500..A63F	Vai	Vai syllable win		
-U+A52A	ꔪ	A500..A63F	Vai	Vai syllable pi		
-U+A52B	ꔫ	A500..A63F	Vai	Vai syllable bhi		
-U+A52C	ꔬ	A500..A63F	Vai	Vai syllable bi		
-U+A52D	ꔭ	A500..A63F	Vai	Vai syllable mbi		
-U+A52E	ꔮ	A500..A63F	Vai	Vai syllable kpi		
-U+A52F	ꔯ	A500..A63F	Vai	Vai syllable mgbi		
-U+A530	ꔰ	A500..A63F	Vai	Vai syllable gbi		
-U+A531	ꔱ	A500..A63F	Vai	Vai syllable fi		
-U+A532	ꔲ	A500..A63F	Vai	Vai syllable vi		
-U+A533	ꔳ	A500..A63F	Vai	Vai syllable ti		
-U+A534	ꔴ	A500..A63F	Vai	Vai syllable thi		
-U+A535	ꔵ	A500..A63F	Vai	Vai syllable dhi		
-U+A536	ꔶ	A500..A63F	Vai	Vai syllable dhhi		
-U+A537	ꔷ	A500..A63F	Vai	Vai syllable li		
-U+A538	ꔸ	A500..A63F	Vai	Vai syllable ri		
-U+A539	ꔹ	A500..A63F	Vai	Vai syllable di		
-U+A53A	ꔺ	A500..A63F	Vai	Vai syllable ndi		
-U+A53B	ꔻ	A500..A63F	Vai	Vai syllable si		
-U+A53C	ꔼ	A500..A63F	Vai	Vai syllable shi		
-U+A53D	ꔽ	A500..A63F	Vai	Vai syllable zi		
-U+A53E	ꔾ	A500..A63F	Vai	Vai syllable zhi		
-U+A53F	ꔿ	A500..A63F	Vai	Vai syllable ci		
-U+A540	ꕀ	A500..A63F	Vai	Vai syllable ji		
-U+A541	ꕁ	A500..A63F	Vai	Vai syllable nji		
-U+A542	ꕂ	A500..A63F	Vai	Vai syllable yi		
-U+A543	ꕃ	A500..A63F	Vai	Vai syllable ki		
-U+A544	ꕄ	A500..A63F	Vai	Vai syllable nggi		
-U+A545	ꕅ	A500..A63F	Vai	Vai syllable gi		
-U+A546	ꕆ	A500..A63F	Vai	Vai syllable mi		
-U+A547	ꕇ	A500..A63F	Vai	Vai syllable ni		
-U+A548	ꕈ	A500..A63F	Vai	Vai syllable nyi		
-U+A549	ꕉ	A500..A63F	Vai	Vai syllable a		
-U+A54A	ꕊ	A500..A63F	Vai	Vai syllable an		
-U+A54B	ꕋ	A500..A63F	Vai	Vai syllable ngan		
-U+A54C	ꕌ	A500..A63F	Vai	Vai syllable ha		
-U+A54D	ꕍ	A500..A63F	Vai	Vai syllable han		
-U+A54E	ꕎ	A500..A63F	Vai	Vai syllable wa		
-U+A54F	ꕏ	A500..A63F	Vai	Vai syllable wan		
-U+A550	ꕐ	A500..A63F	Vai	Vai syllable pa		
-U+A551	ꕑ	A500..A63F	Vai	Vai syllable bha		
-U+A552	ꕒ	A500..A63F	Vai	Vai syllable ba		
-U+A553	ꕓ	A500..A63F	Vai	Vai syllable mba		
-U+A554	ꕔ	A500..A63F	Vai	Vai syllable kpa		
-U+A555	ꕕ	A500..A63F	Vai	Vai syllable kpan		
-U+A556	ꕖ	A500..A63F	Vai	Vai syllable mgba		
-U+A557	ꕗ	A500..A63F	Vai	Vai syllable gba		
-U+A558	ꕘ	A500..A63F	Vai	Vai syllable fa		
-U+A559	ꕙ	A500..A63F	Vai	Vai syllable va		
-U+A55A	ꕚ	A500..A63F	Vai	Vai syllable ta		
-U+A55B	ꕛ	A500..A63F	Vai	Vai syllable tha		
-U+A55C	ꕜ	A500..A63F	Vai	Vai syllable dha		
-U+A55D	ꕝ	A500..A63F	Vai	Vai syllable dhha		
-U+A55E	ꕞ	A500..A63F	Vai	Vai syllable la		
-U+A55F	ꕟ	A500..A63F	Vai	Vai syllable ra		
-U+A560	ꕠ	A500..A63F	Vai	Vai syllable da		
-U+A561	ꕡ	A500..A63F	Vai	Vai syllable nda		
-U+A562	ꕢ	A500..A63F	Vai	Vai syllable sa		
-U+A563	ꕣ	A500..A63F	Vai	Vai syllable sha		
-U+A564	ꕤ	A500..A63F	Vai	Vai syllable za		
-U+A565	ꕥ	A500..A63F	Vai	Vai syllable zha		
-U+A566	ꕦ	A500..A63F	Vai	Vai syllable ca		
-U+A567	ꕧ	A500..A63F	Vai	Vai syllable ja		
-U+A568	ꕨ	A500..A63F	Vai	Vai syllable nja		
-U+A569	ꕩ	A500..A63F	Vai	Vai syllable ya		
-U+A56A	ꕪ	A500..A63F	Vai	Vai syllable ka		
-U+A56B	ꕫ	A500..A63F	Vai	Vai syllable kan		
-U+A56C	ꕬ	A500..A63F	Vai	Vai syllable ngga		
-U+A56D	ꕭ	A500..A63F	Vai	Vai syllable ga		
-U+A56E	ꕮ	A500..A63F	Vai	Vai syllable ma		
-U+A56F	ꕯ	A500..A63F	Vai	Vai syllable na		
-U+A570	ꕰ	A500..A63F	Vai	Vai syllable nya		
-U+A571	ꕱ	A500..A63F	Vai	Vai syllable oo		
-U+A572	ꕲ	A500..A63F	Vai	Vai syllable oon		
-U+A573	ꕳ	A500..A63F	Vai	Vai syllable hoo		
-U+A574	ꕴ	A500..A63F	Vai	Vai syllable woo		
-U+A575	ꕵ	A500..A63F	Vai	Vai syllable woon		
-U+A576	ꕶ	A500..A63F	Vai	Vai syllable poo		
-U+A577	ꕷ	A500..A63F	Vai	Vai syllable bhoo		
-U+A578	ꕸ	A500..A63F	Vai	Vai syllable boo		
-U+A579	ꕹ	A500..A63F	Vai	Vai syllable mboo		
-U+A57A	ꕺ	A500..A63F	Vai	Vai syllable kpoo		
-U+A57B	ꕻ	A500..A63F	Vai	Vai syllable mgboo		
-U+A57C	ꕼ	A500..A63F	Vai	Vai syllable gboo		
-U+A57D	ꕽ	A500..A63F	Vai	Vai syllable foo		
-U+A57E	ꕾ	A500..A63F	Vai	Vai syllable voo		
-U+A57F	ꕿ	A500..A63F	Vai	Vai syllable too		
-U+A580	ꖀ	A500..A63F	Vai	Vai syllable thoo		
-U+A581	ꖁ	A500..A63F	Vai	Vai syllable dhoo		
-U+A582	ꖂ	A500..A63F	Vai	Vai syllable dhhoo		
-U+A583	ꖃ	A500..A63F	Vai	Vai syllable loo		
-U+A584	ꖄ	A500..A63F	Vai	Vai syllable roo		
-U+A585	ꖅ	A500..A63F	Vai	Vai syllable doo		
-U+A586	ꖆ	A500..A63F	Vai	Vai syllable ndoo		
-U+A587	ꖇ	A500..A63F	Vai	Vai syllable soo		
-U+A588	ꖈ	A500..A63F	Vai	Vai syllable shoo		
-U+A589	ꖉ	A500..A63F	Vai	Vai syllable zoo		
-U+A58A	ꖊ	A500..A63F	Vai	Vai syllable zhoo		
-U+A58B	ꖋ	A500..A63F	Vai	Vai syllable coo		
-U+A58C	ꖌ	A500..A63F	Vai	Vai syllable joo		
-U+A58D	ꖍ	A500..A63F	Vai	Vai syllable njoo		
-U+A58E	ꖎ	A500..A63F	Vai	Vai syllable yoo		
-U+A58F	ꖏ	A500..A63F	Vai	Vai syllable koo		
-U+A590	ꖐ	A500..A63F	Vai	Vai syllable nggoo		
-U+A591	ꖑ	A500..A63F	Vai	Vai syllable goo		
-U+A592	ꖒ	A500..A63F	Vai	Vai syllable moo		
-U+A593	ꖓ	A500..A63F	Vai	Vai syllable noo		
-U+A594	ꖔ	A500..A63F	Vai	Vai syllable nyoo		
-U+A595	ꖕ	A500..A63F	Vai	Vai syllable u		
-U+A596	ꖖ	A500..A63F	Vai	Vai syllable un		
-U+A597	ꖗ	A500..A63F	Vai	Vai syllable hu		
-U+A598	ꖘ	A500..A63F	Vai	Vai syllable hun		
-U+A599	ꖙ	A500..A63F	Vai	Vai syllable wu		
-U+A59A	ꖚ	A500..A63F	Vai	Vai syllable wun		
-U+A59B	ꖛ	A500..A63F	Vai	Vai syllable pu		
-U+A59C	ꖜ	A500..A63F	Vai	Vai syllable bhu		
-U+A59D	ꖝ	A500..A63F	Vai	Vai syllable bu		
-U+A59E	ꖞ	A500..A63F	Vai	Vai syllable mbu		
-U+A59F	ꖟ	A500..A63F	Vai	Vai syllable kpu		
-U+A5A0	ꖠ	A500..A63F	Vai	Vai syllable mgbu		
-U+A5A1	ꖡ	A500..A63F	Vai	Vai syllable gbu		
-U+A5A2	ꖢ	A500..A63F	Vai	Vai syllable fu		
-U+A5A3	ꖣ	A500..A63F	Vai	Vai syllable vu		
-U+A5A4	ꖤ	A500..A63F	Vai	Vai syllable tu		
-U+A5A5	ꖥ	A500..A63F	Vai	Vai syllable thu		
-U+A5A6	ꖦ	A500..A63F	Vai	Vai syllable dhu		
-U+A5A7	ꖧ	A500..A63F	Vai	Vai syllable dhhu		
-U+A5A8	ꖨ	A500..A63F	Vai	Vai syllable lu		
-U+A5A9	ꖩ	A500..A63F	Vai	Vai syllable ru		
-U+A5AA	ꖪ	A500..A63F	Vai	Vai syllable du		
-U+A5AB	ꖫ	A500..A63F	Vai	Vai syllable ndu		
-U+A5AC	ꖬ	A500..A63F	Vai	Vai syllable su		
-U+A5AD	ꖭ	A500..A63F	Vai	Vai syllable shu		
-U+A5AE	ꖮ	A500..A63F	Vai	Vai syllable zu		
-U+A5AF	ꖯ	A500..A63F	Vai	Vai syllable zhu		
-U+A5B0	ꖰ	A500..A63F	Vai	Vai syllable cu		
-U+A5B1	ꖱ	A500..A63F	Vai	Vai syllable ju		
-U+A5B2	ꖲ	A500..A63F	Vai	Vai syllable nju		
-U+A5B3	ꖳ	A500..A63F	Vai	Vai syllable yu		
-U+A5B4	ꖴ	A500..A63F	Vai	Vai syllable ku		
-U+A5B5	ꖵ	A500..A63F	Vai	Vai syllable nggu		
-U+A5B6	ꖶ	A500..A63F	Vai	Vai syllable gu		
-U+A5B7	ꖷ	A500..A63F	Vai	Vai syllable mu		
-U+A5B8	ꖸ	A500..A63F	Vai	Vai syllable nu		
-U+A5B9	ꖹ	A500..A63F	Vai	Vai syllable nyu		
-U+A5BA	ꖺ	A500..A63F	Vai	Vai syllable o		
-U+A5BB	ꖻ	A500..A63F	Vai	Vai syllable on		
-U+A5BC	ꖼ	A500..A63F	Vai	Vai syllable ngon		
-U+A5BD	ꖽ	A500..A63F	Vai	Vai syllable ho		
-U+A5BE	ꖾ	A500..A63F	Vai	Vai syllable hon		
-U+A5BF	ꖿ	A500..A63F	Vai	Vai syllable wo		
-U+A5C0	ꗀ	A500..A63F	Vai	Vai syllable won		
-U+A5C1	ꗁ	A500..A63F	Vai	Vai syllable po		
-U+A5C2	ꗂ	A500..A63F	Vai	Vai syllable bho		
-U+A5C3	ꗃ	A500..A63F	Vai	Vai syllable bo		
-U+A5C4	ꗄ	A500..A63F	Vai	Vai syllable mbo		
-U+A5C5	ꗅ	A500..A63F	Vai	Vai syllable kpo		
-U+A5C6	ꗆ	A500..A63F	Vai	Vai syllable mgbo		
-U+A5C7	ꗇ	A500..A63F	Vai	Vai syllable gbo		
-U+A5C8	ꗈ	A500..A63F	Vai	Vai syllable gbon		
-U+A5C9	ꗉ	A500..A63F	Vai	Vai syllable fo		
-U+A5CA	ꗊ	A500..A63F	Vai	Vai syllable vo		
-U+A5CB	ꗋ	A500..A63F	Vai	Vai syllable to		
-U+A5CC	ꗌ	A500..A63F	Vai	Vai syllable tho		
-U+A5CD	ꗍ	A500..A63F	Vai	Vai syllable dho		
-U+A5CE	ꗎ	A500..A63F	Vai	Vai syllable dhho		
-U+A5CF	ꗏ	A500..A63F	Vai	Vai syllable lo		
-U+A5D0	ꗐ	A500..A63F	Vai	Vai syllable ro		
-U+A5D1	ꗑ	A500..A63F	Vai	Vai syllable do		
-U+A5D2	ꗒ	A500..A63F	Vai	Vai syllable ndo		
-U+A5D3	ꗓ	A500..A63F	Vai	Vai syllable so		
-U+A5D4	ꗔ	A500..A63F	Vai	Vai syllable sho		
-U+A5D5	ꗕ	A500..A63F	Vai	Vai syllable zo		
-U+A5D6	ꗖ	A500..A63F	Vai	Vai syllable zho		
-U+A5D7	ꗗ	A500..A63F	Vai	Vai syllable co		
-U+A5D8	ꗘ	A500..A63F	Vai	Vai syllable jo		
-U+A5D9	ꗙ	A500..A63F	Vai	Vai syllable njo		
-U+A5DA	ꗚ	A500..A63F	Vai	Vai syllable yo		
-U+A5DB	ꗛ	A500..A63F	Vai	Vai syllable ko		
-U+A5DC	ꗜ	A500..A63F	Vai	Vai syllable nggo		
-U+A5DD	ꗝ	A500..A63F	Vai	Vai syllable go		
-U+A5DE	ꗞ	A500..A63F	Vai	Vai syllable mo		
-U+A5DF	ꗟ	A500..A63F	Vai	Vai syllable no		
-U+A5E0	ꗠ	A500..A63F	Vai	Vai syllable nyo		
-U+A5E1	ꗡ	A500..A63F	Vai	Vai syllable e		
-U+A5E2	ꗢ	A500..A63F	Vai	Vai syllable en		
-U+A5E3	ꗣ	A500..A63F	Vai	Vai syllable ngen		
-U+A5E4	ꗤ	A500..A63F	Vai	Vai syllable he		
-U+A5E5	ꗥ	A500..A63F	Vai	Vai syllable hen		
-U+A5E6	ꗦ	A500..A63F	Vai	Vai syllable we		
-U+A5E7	ꗧ	A500..A63F	Vai	Vai syllable wen		
-U+A5E8	ꗨ	A500..A63F	Vai	Vai syllable pe		
-U+A5E9	ꗩ	A500..A63F	Vai	Vai syllable bhe		
-U+A5EA	ꗪ	A500..A63F	Vai	Vai syllable be		
-U+A5EB	ꗫ	A500..A63F	Vai	Vai syllable mbe		
-U+A5EC	ꗬ	A500..A63F	Vai	Vai syllable kpe		
-U+A5ED	ꗭ	A500..A63F	Vai	Vai syllable kpen		
-U+A5EE	ꗮ	A500..A63F	Vai	Vai syllable mgbe		
-U+A5EF	ꗯ	A500..A63F	Vai	Vai syllable gbe		
-U+A5F0	ꗰ	A500..A63F	Vai	Vai syllable gben		
-U+A5F1	ꗱ	A500..A63F	Vai	Vai syllable fe		
-U+A5F2	ꗲ	A500..A63F	Vai	Vai syllable ve		
-U+A5F3	ꗳ	A500..A63F	Vai	Vai syllable te		
-U+A5F4	ꗴ	A500..A63F	Vai	Vai syllable the		
-U+A5F5	ꗵ	A500..A63F	Vai	Vai syllable dhe		
-U+A5F6	ꗶ	A500..A63F	Vai	Vai syllable dhhe		
-U+A5F7	ꗷ	A500..A63F	Vai	Vai syllable le		
-U+A5F8	ꗸ	A500..A63F	Vai	Vai syllable re		
-U+A5F9	ꗹ	A500..A63F	Vai	Vai syllable de		
-U+A5FA	ꗺ	A500..A63F	Vai	Vai syllable nde		
-U+A5FB	ꗻ	A500..A63F	Vai	Vai syllable se		
-U+A5FC	ꗼ	A500..A63F	Vai	Vai syllable she		
-U+A5FD	ꗽ	A500..A63F	Vai	Vai syllable ze		
-U+A5FE	ꗾ	A500..A63F	Vai	Vai syllable zhe		
-U+A5FF	ꗿ	A500..A63F	Vai	Vai syllable ce		
-U+A600	ꘀ	A500..A63F	Vai	Vai syllable je		
-U+A601	ꘁ	A500..A63F	Vai	Vai syllable nje		
-U+A602	ꘂ	A500..A63F	Vai	Vai syllable ye		
-U+A603	ꘃ	A500..A63F	Vai	Vai syllable ke		
-U+A604	ꘄ	A500..A63F	Vai	Vai syllable ngge		
-U+A605	ꘅ	A500..A63F	Vai	Vai syllable nggen		
-U+A606	ꘆ	A500..A63F	Vai	Vai syllable ge		
-U+A607	ꘇ	A500..A63F	Vai	Vai syllable gen		
-U+A608	ꘈ	A500..A63F	Vai	Vai syllable me		
-U+A609	ꘉ	A500..A63F	Vai	Vai syllable ne		
-U+A60A	ꘊ	A500..A63F	Vai	Vai syllable nye		
-U+A60B	ꘋ	A500..A63F	Vai	Vai syllable ng		
-U+A60C	ꘌ	A500..A63F	Vai	Vai syllable lengthener		
-U+A60D	꘍	A500..A63F	Vai	Vai comma		
-U+A60E	꘎	A500..A63F	Vai	Vai full stop		
-U+A60F	꘏	A500..A63F	Vai	Vai question mark		
-U+A610	ꘐ	A500..A63F	Vai	Vai syllable ndole fa		
-U+A611	ꘑ	A500..A63F	Vai	Vai syllable ndole ka		
-U+A612	ꘒ	A500..A63F	Vai	Vai syllable ndole soo		
-U+A613	ꘓ	A500..A63F	Vai	Vai symbol feeng		
-U+A614	ꘔ	A500..A63F	Vai	Vai symbol keeng		
-U+A615	ꘕ	A500..A63F	Vai	Vai symbol ting		
-U+A616	ꘖ	A500..A63F	Vai	Vai symbol nii		
-U+A617	ꘗ	A500..A63F	Vai	Vai symbol bang		
-U+A618	ꘘ	A500..A63F	Vai	Vai symbol faa		
-U+A619	ꘙ	A500..A63F	Vai	Vai symbol taa		
-U+A61A	ꘚ	A500..A63F	Vai	Vai symbol dang		
-U+A61B	ꘛ	A500..A63F	Vai	Vai symbol doong		
-U+A61C	ꘜ	A500..A63F	Vai	Vai symbol kung		
-U+A61D	ꘝ	A500..A63F	Vai	Vai symbol tong		
-U+A61E	ꘞ	A500..A63F	Vai	Vai symbol do-o		
-U+A61F	ꘟ	A500..A63F	Vai	Vai symbol jong		
-U+A620	꘠	A500..A63F	Vai	Vai digit zero		
-U+A621	꘡	A500..A63F	Vai	Vai digit one		
-U+A622	꘢	A500..A63F	Vai	Vai digit two		
-U+A623	꘣	A500..A63F	Vai	Vai digit three		
-U+A624	꘤	A500..A63F	Vai	Vai digit four		
-U+A625	꘥	A500..A63F	Vai	Vai digit five		
-U+A626	꘦	A500..A63F	Vai	Vai digit six		
-U+A627	꘧	A500..A63F	Vai	Vai digit seven		
-U+A628	꘨	A500..A63F	Vai	Vai digit eight		
-U+A629	꘩	A500..A63F	Vai	Vai digit nine		
-U+A62A	ꘪ	A500..A63F	Vai	Vai syllable ndole ma		
-U+A62B	ꘫ	A500..A63F	Vai	Vai syllable ndole do		
+code_points	chars	tab_completions	unicode_name	base
+U+A500	ꔀ		VAI SYLLABLE EE	
+U+A501	ꔁ		VAI SYLLABLE EEN	
+U+A502	ꔂ		VAI SYLLABLE HEE	
+U+A503	ꔃ		VAI SYLLABLE WEE	
+U+A504	ꔄ		VAI SYLLABLE WEEN	
+U+A505	ꔅ		VAI SYLLABLE PEE	
+U+A506	ꔆ		VAI SYLLABLE BHEE	
+U+A507	ꔇ		VAI SYLLABLE BEE	
+U+A508	ꔈ		VAI SYLLABLE MBEE	
+U+A509	ꔉ		VAI SYLLABLE KPEE	
+U+A50A	ꔊ		VAI SYLLABLE MGBEE	
+U+A50B	ꔋ		VAI SYLLABLE GBEE	
+U+A50C	ꔌ		VAI SYLLABLE FEE	
+U+A50D	ꔍ		VAI SYLLABLE VEE	
+U+A50E	ꔎ		VAI SYLLABLE TEE	
+U+A50F	ꔏ		VAI SYLLABLE THEE	
+U+A510	ꔐ		VAI SYLLABLE DHEE	
+U+A511	ꔑ		VAI SYLLABLE DHHEE	
+U+A512	ꔒ		VAI SYLLABLE LEE	
+U+A513	ꔓ		VAI SYLLABLE REE	
+U+A514	ꔔ		VAI SYLLABLE DEE	
+U+A515	ꔕ		VAI SYLLABLE NDEE	
+U+A516	ꔖ		VAI SYLLABLE SEE	
+U+A517	ꔗ		VAI SYLLABLE SHEE	
+U+A518	ꔘ		VAI SYLLABLE ZEE	
+U+A519	ꔙ		VAI SYLLABLE ZHEE	
+U+A51A	ꔚ		VAI SYLLABLE CEE	
+U+A51B	ꔛ		VAI SYLLABLE JEE	
+U+A51C	ꔜ		VAI SYLLABLE NJEE	
+U+A51D	ꔝ		VAI SYLLABLE YEE	
+U+A51E	ꔞ		VAI SYLLABLE KEE	
+U+A51F	ꔟ		VAI SYLLABLE NGGEE	
+U+A520	ꔠ		VAI SYLLABLE GEE	
+U+A521	ꔡ		VAI SYLLABLE MEE	
+U+A522	ꔢ		VAI SYLLABLE NEE	
+U+A523	ꔣ		VAI SYLLABLE NYEE	
+U+A524	ꔤ		VAI SYLLABLE I	
+U+A525	ꔥ		VAI SYLLABLE IN	
+U+A526	ꔦ		VAI SYLLABLE HI	
+U+A527	ꔧ		VAI SYLLABLE HIN	
+U+A528	ꔨ		VAI SYLLABLE WI	
+U+A529	ꔩ		VAI SYLLABLE WIN	
+U+A52A	ꔪ		VAI SYLLABLE PI	
+U+A52B	ꔫ		VAI SYLLABLE BHI	
+U+A52C	ꔬ		VAI SYLLABLE BI	
+U+A52D	ꔭ		VAI SYLLABLE MBI	
+U+A52E	ꔮ		VAI SYLLABLE KPI	
+U+A52F	ꔯ		VAI SYLLABLE MGBI	
+U+A530	ꔰ		VAI SYLLABLE GBI	
+U+A531	ꔱ		VAI SYLLABLE FI	
+U+A532	ꔲ		VAI SYLLABLE VI	
+U+A533	ꔳ		VAI SYLLABLE TI	
+U+A534	ꔴ		VAI SYLLABLE THI	
+U+A535	ꔵ		VAI SYLLABLE DHI	
+U+A536	ꔶ		VAI SYLLABLE DHHI	
+U+A537	ꔷ		VAI SYLLABLE LI	
+U+A538	ꔸ		VAI SYLLABLE RI	
+U+A539	ꔹ		VAI SYLLABLE DI	
+U+A53A	ꔺ		VAI SYLLABLE NDI	
+U+A53B	ꔻ		VAI SYLLABLE SI	
+U+A53C	ꔼ		VAI SYLLABLE SHI	
+U+A53D	ꔽ		VAI SYLLABLE ZI	
+U+A53E	ꔾ		VAI SYLLABLE ZHI	
+U+A53F	ꔿ		VAI SYLLABLE CI	
+U+A540	ꕀ		VAI SYLLABLE JI	
+U+A541	ꕁ		VAI SYLLABLE NJI	
+U+A542	ꕂ		VAI SYLLABLE YI	
+U+A543	ꕃ		VAI SYLLABLE KI	
+U+A544	ꕄ		VAI SYLLABLE NGGI	
+U+A545	ꕅ		VAI SYLLABLE GI	
+U+A546	ꕆ		VAI SYLLABLE MI	
+U+A547	ꕇ		VAI SYLLABLE NI	
+U+A548	ꕈ		VAI SYLLABLE NYI	
+U+A549	ꕉ		VAI SYLLABLE A	
+U+A54A	ꕊ		VAI SYLLABLE AN	
+U+A54B	ꕋ		VAI SYLLABLE NGAN	
+U+A54C	ꕌ		VAI SYLLABLE HA	
+U+A54D	ꕍ		VAI SYLLABLE HAN	
+U+A54E	ꕎ		VAI SYLLABLE WA	
+U+A54F	ꕏ		VAI SYLLABLE WAN	
+U+A550	ꕐ		VAI SYLLABLE PA	
+U+A551	ꕑ		VAI SYLLABLE BHA	
+U+A552	ꕒ		VAI SYLLABLE BA	
+U+A553	ꕓ		VAI SYLLABLE MBA	
+U+A554	ꕔ		VAI SYLLABLE KPA	
+U+A555	ꕕ		VAI SYLLABLE KPAN	
+U+A556	ꕖ		VAI SYLLABLE MGBA	
+U+A557	ꕗ		VAI SYLLABLE GBA	
+U+A558	ꕘ		VAI SYLLABLE FA	
+U+A559	ꕙ		VAI SYLLABLE VA	
+U+A55A	ꕚ		VAI SYLLABLE TA	
+U+A55B	ꕛ		VAI SYLLABLE THA	
+U+A55C	ꕜ		VAI SYLLABLE DHA	
+U+A55D	ꕝ		VAI SYLLABLE DHHA	
+U+A55E	ꕞ		VAI SYLLABLE LA	
+U+A55F	ꕟ		VAI SYLLABLE RA	
+U+A560	ꕠ		VAI SYLLABLE DA	
+U+A561	ꕡ		VAI SYLLABLE NDA	
+U+A562	ꕢ		VAI SYLLABLE SA	
+U+A563	ꕣ		VAI SYLLABLE SHA	
+U+A564	ꕤ		VAI SYLLABLE ZA	
+U+A565	ꕥ		VAI SYLLABLE ZHA	
+U+A566	ꕦ		VAI SYLLABLE CA	
+U+A567	ꕧ		VAI SYLLABLE JA	
+U+A568	ꕨ		VAI SYLLABLE NJA	
+U+A569	ꕩ		VAI SYLLABLE YA	
+U+A56A	ꕪ		VAI SYLLABLE KA	
+U+A56B	ꕫ		VAI SYLLABLE KAN	
+U+A56C	ꕬ		VAI SYLLABLE NGGA	
+U+A56D	ꕭ		VAI SYLLABLE GA	
+U+A56E	ꕮ		VAI SYLLABLE MA	
+U+A56F	ꕯ		VAI SYLLABLE NA	
+U+A570	ꕰ		VAI SYLLABLE NYA	
+U+A571	ꕱ		VAI SYLLABLE OO	
+U+A572	ꕲ		VAI SYLLABLE OON	
+U+A573	ꕳ		VAI SYLLABLE HOO	
+U+A574	ꕴ		VAI SYLLABLE WOO	
+U+A575	ꕵ		VAI SYLLABLE WOON	
+U+A576	ꕶ		VAI SYLLABLE POO	
+U+A577	ꕷ		VAI SYLLABLE BHOO	
+U+A578	ꕸ		VAI SYLLABLE BOO	
+U+A579	ꕹ		VAI SYLLABLE MBOO	
+U+A57A	ꕺ		VAI SYLLABLE KPOO	
+U+A57B	ꕻ		VAI SYLLABLE MGBOO	
+U+A57C	ꕼ		VAI SYLLABLE GBOO	
+U+A57D	ꕽ		VAI SYLLABLE FOO	
+U+A57E	ꕾ		VAI SYLLABLE VOO	
+U+A57F	ꕿ		VAI SYLLABLE TOO	
+U+A580	ꖀ		VAI SYLLABLE THOO	
+U+A581	ꖁ		VAI SYLLABLE DHOO	
+U+A582	ꖂ		VAI SYLLABLE DHHOO	
+U+A583	ꖃ		VAI SYLLABLE LOO	
+U+A584	ꖄ		VAI SYLLABLE ROO	
+U+A585	ꖅ		VAI SYLLABLE DOO	
+U+A586	ꖆ		VAI SYLLABLE NDOO	
+U+A587	ꖇ		VAI SYLLABLE SOO	
+U+A588	ꖈ		VAI SYLLABLE SHOO	
+U+A589	ꖉ		VAI SYLLABLE ZOO	
+U+A58A	ꖊ		VAI SYLLABLE ZHOO	
+U+A58B	ꖋ		VAI SYLLABLE COO	
+U+A58C	ꖌ		VAI SYLLABLE JOO	
+U+A58D	ꖍ		VAI SYLLABLE NJOO	
+U+A58E	ꖎ		VAI SYLLABLE YOO	
+U+A58F	ꖏ		VAI SYLLABLE KOO	
+U+A590	ꖐ		VAI SYLLABLE NGGOO	
+U+A591	ꖑ		VAI SYLLABLE GOO	
+U+A592	ꖒ		VAI SYLLABLE MOO	
+U+A593	ꖓ		VAI SYLLABLE NOO	
+U+A594	ꖔ		VAI SYLLABLE NYOO	
+U+A595	ꖕ		VAI SYLLABLE U	
+U+A596	ꖖ		VAI SYLLABLE UN	
+U+A597	ꖗ		VAI SYLLABLE HU	
+U+A598	ꖘ		VAI SYLLABLE HUN	
+U+A599	ꖙ		VAI SYLLABLE WU	
+U+A59A	ꖚ		VAI SYLLABLE WUN	
+U+A59B	ꖛ		VAI SYLLABLE PU	
+U+A59C	ꖜ		VAI SYLLABLE BHU	
+U+A59D	ꖝ		VAI SYLLABLE BU	
+U+A59E	ꖞ		VAI SYLLABLE MBU	
+U+A59F	ꖟ		VAI SYLLABLE KPU	
+U+A5A0	ꖠ		VAI SYLLABLE MGBU	
+U+A5A1	ꖡ		VAI SYLLABLE GBU	
+U+A5A2	ꖢ		VAI SYLLABLE FU	
+U+A5A3	ꖣ		VAI SYLLABLE VU	
+U+A5A4	ꖤ		VAI SYLLABLE TU	
+U+A5A5	ꖥ		VAI SYLLABLE THU	
+U+A5A6	ꖦ		VAI SYLLABLE DHU	
+U+A5A7	ꖧ		VAI SYLLABLE DHHU	
+U+A5A8	ꖨ		VAI SYLLABLE LU	
+U+A5A9	ꖩ		VAI SYLLABLE RU	
+U+A5AA	ꖪ		VAI SYLLABLE DU	
+U+A5AB	ꖫ		VAI SYLLABLE NDU	
+U+A5AC	ꖬ		VAI SYLLABLE SU	
+U+A5AD	ꖭ		VAI SYLLABLE SHU	
+U+A5AE	ꖮ		VAI SYLLABLE ZU	
+U+A5AF	ꖯ		VAI SYLLABLE ZHU	
+U+A5B0	ꖰ		VAI SYLLABLE CU	
+U+A5B1	ꖱ		VAI SYLLABLE JU	
+U+A5B2	ꖲ		VAI SYLLABLE NJU	
+U+A5B3	ꖳ		VAI SYLLABLE YU	
+U+A5B4	ꖴ		VAI SYLLABLE KU	
+U+A5B5	ꖵ		VAI SYLLABLE NGGU	
+U+A5B6	ꖶ		VAI SYLLABLE GU	
+U+A5B7	ꖷ		VAI SYLLABLE MU	
+U+A5B8	ꖸ		VAI SYLLABLE NU	
+U+A5B9	ꖹ		VAI SYLLABLE NYU	
+U+A5BA	ꖺ		VAI SYLLABLE O	
+U+A5BB	ꖻ		VAI SYLLABLE ON	
+U+A5BC	ꖼ		VAI SYLLABLE NGON	
+U+A5BD	ꖽ		VAI SYLLABLE HO	
+U+A5BE	ꖾ		VAI SYLLABLE HON	
+U+A5BF	ꖿ		VAI SYLLABLE WO	
+U+A5C0	ꗀ		VAI SYLLABLE WON	
+U+A5C1	ꗁ		VAI SYLLABLE PO	
+U+A5C2	ꗂ		VAI SYLLABLE BHO	
+U+A5C3	ꗃ		VAI SYLLABLE BO	
+U+A5C4	ꗄ		VAI SYLLABLE MBO	
+U+A5C5	ꗅ		VAI SYLLABLE KPO	
+U+A5C6	ꗆ		VAI SYLLABLE MGBO	
+U+A5C7	ꗇ		VAI SYLLABLE GBO	
+U+A5C8	ꗈ		VAI SYLLABLE GBON	
+U+A5C9	ꗉ		VAI SYLLABLE FO	
+U+A5CA	ꗊ		VAI SYLLABLE VO	
+U+A5CB	ꗋ		VAI SYLLABLE TO	
+U+A5CC	ꗌ		VAI SYLLABLE THO	
+U+A5CD	ꗍ		VAI SYLLABLE DHO	
+U+A5CE	ꗎ		VAI SYLLABLE DHHO	
+U+A5CF	ꗏ		VAI SYLLABLE LO	
+U+A5D0	ꗐ		VAI SYLLABLE RO	
+U+A5D1	ꗑ		VAI SYLLABLE DO	
+U+A5D2	ꗒ		VAI SYLLABLE NDO	
+U+A5D3	ꗓ		VAI SYLLABLE SO	
+U+A5D4	ꗔ		VAI SYLLABLE SHO	
+U+A5D5	ꗕ		VAI SYLLABLE ZO	
+U+A5D6	ꗖ		VAI SYLLABLE ZHO	
+U+A5D7	ꗗ		VAI SYLLABLE CO	
+U+A5D8	ꗘ		VAI SYLLABLE JO	
+U+A5D9	ꗙ		VAI SYLLABLE NJO	
+U+A5DA	ꗚ		VAI SYLLABLE YO	
+U+A5DB	ꗛ		VAI SYLLABLE KO	
+U+A5DC	ꗜ		VAI SYLLABLE NGGO	
+U+A5DD	ꗝ		VAI SYLLABLE GO	
+U+A5DE	ꗞ		VAI SYLLABLE MO	
+U+A5DF	ꗟ		VAI SYLLABLE NO	
+U+A5E0	ꗠ		VAI SYLLABLE NYO	
+U+A5E1	ꗡ		VAI SYLLABLE E	
+U+A5E2	ꗢ		VAI SYLLABLE EN	
+U+A5E3	ꗣ		VAI SYLLABLE NGEN	
+U+A5E4	ꗤ		VAI SYLLABLE HE	
+U+A5E5	ꗥ		VAI SYLLABLE HEN	
+U+A5E6	ꗦ		VAI SYLLABLE WE	
+U+A5E7	ꗧ		VAI SYLLABLE WEN	
+U+A5E8	ꗨ		VAI SYLLABLE PE	
+U+A5E9	ꗩ		VAI SYLLABLE BHE	
+U+A5EA	ꗪ		VAI SYLLABLE BE	
+U+A5EB	ꗫ		VAI SYLLABLE MBE	
+U+A5EC	ꗬ		VAI SYLLABLE KPE	
+U+A5ED	ꗭ		VAI SYLLABLE KPEN	
+U+A5EE	ꗮ		VAI SYLLABLE MGBE	
+U+A5EF	ꗯ		VAI SYLLABLE GBE	
+U+A5F0	ꗰ		VAI SYLLABLE GBEN	
+U+A5F1	ꗱ		VAI SYLLABLE FE	
+U+A5F2	ꗲ		VAI SYLLABLE VE	
+U+A5F3	ꗳ		VAI SYLLABLE TE	
+U+A5F4	ꗴ		VAI SYLLABLE THE	
+U+A5F5	ꗵ		VAI SYLLABLE DHE	
+U+A5F6	ꗶ		VAI SYLLABLE DHHE	
+U+A5F7	ꗷ		VAI SYLLABLE LE	
+U+A5F8	ꗸ		VAI SYLLABLE RE	
+U+A5F9	ꗹ		VAI SYLLABLE DE	
+U+A5FA	ꗺ		VAI SYLLABLE NDE	
+U+A5FB	ꗻ		VAI SYLLABLE SE	
+U+A5FC	ꗼ		VAI SYLLABLE SHE	
+U+A5FD	ꗽ		VAI SYLLABLE ZE	
+U+A5FE	ꗾ		VAI SYLLABLE ZHE	
+U+A5FF	ꗿ		VAI SYLLABLE CE	
+U+A600	ꘀ		VAI SYLLABLE JE	
+U+A601	ꘁ		VAI SYLLABLE NJE	
+U+A602	ꘂ		VAI SYLLABLE YE	
+U+A603	ꘃ		VAI SYLLABLE KE	
+U+A604	ꘄ		VAI SYLLABLE NGGE	
+U+A605	ꘅ		VAI SYLLABLE NGGEN	
+U+A606	ꘆ		VAI SYLLABLE GE	
+U+A607	ꘇ		VAI SYLLABLE GEN	
+U+A608	ꘈ		VAI SYLLABLE ME	
+U+A609	ꘉ		VAI SYLLABLE NE	
+U+A60A	ꘊ		VAI SYLLABLE NYE	
+U+A60B	ꘋ		VAI SYLLABLE NG	
+U+A60C	ꘌ		VAI SYLLABLE LENGTHENER	
+U+A60D	꘍		VAI COMMA	
+U+A60E	꘎		VAI FULL STOP	
+U+A60F	꘏		VAI QUESTION MARK	
+U+A610	ꘐ		VAI SYLLABLE NDOLE FA	
+U+A611	ꘑ		VAI SYLLABLE NDOLE KA	
+U+A612	ꘒ		VAI SYLLABLE NDOLE SOO	
+U+A613	ꘓ		VAI SYMBOL FEENG	
+U+A614	ꘔ		VAI SYMBOL KEENG	
+U+A615	ꘕ		VAI SYMBOL TING	
+U+A616	ꘖ		VAI SYMBOL NII	
+U+A617	ꘗ		VAI SYMBOL BANG	
+U+A618	ꘘ		VAI SYMBOL FAA	
+U+A619	ꘙ		VAI SYMBOL TAA	
+U+A61A	ꘚ		VAI SYMBOL DANG	
+U+A61B	ꘛ		VAI SYMBOL DOONG	
+U+A61C	ꘜ		VAI SYMBOL KUNG	
+U+A61D	ꘝ		VAI SYMBOL TONG	
+U+A61E	ꘞ		VAI SYMBOL DO-O	
+U+A61F	ꘟ		VAI SYMBOL JONG	
+U+A620	꘠		VAI DIGIT ZERO	
+U+A621	꘡		VAI DIGIT ONE	
+U+A622	꘢		VAI DIGIT TWO	
+U+A623	꘣		VAI DIGIT THREE	
+U+A624	꘤		VAI DIGIT FOUR	
+U+A625	꘥		VAI DIGIT FIVE	
+U+A626	꘦		VAI DIGIT SIX	
+U+A627	꘧		VAI DIGIT SEVEN	
+U+A628	꘨		VAI DIGIT EIGHT	
+U+A629	꘩		VAI DIGIT NINE	
+U+A62A	ꘪ		VAI SYLLABLE NDOLE MA	
+U+A62B	ꘫ		VAI SYLLABLE NDOLE DO	

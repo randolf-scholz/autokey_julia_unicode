@@ -1,59 +1,59 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+FB00	ﬀ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature ff		
-U+FB01	ﬁ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature fi		
-U+FB02	ﬂ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature fl		
-U+FB03	ﬃ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature ffi		
-U+FB04	ﬄ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature ffl		
-U+FB05	ﬅ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature long s t		
-U+FB06	ﬆ	FB00..FB4F	Alphabetic Presentation Forms	Latin small ligature st		
-U+FB13	ﬓ	FB00..FB4F	Alphabetic Presentation Forms	Armenian small ligature men now		
-U+FB14	ﬔ	FB00..FB4F	Alphabetic Presentation Forms	Armenian small ligature men ech		
-U+FB15	ﬕ	FB00..FB4F	Alphabetic Presentation Forms	Armenian small ligature men ini		
-U+FB16	ﬖ	FB00..FB4F	Alphabetic Presentation Forms	Armenian small ligature vew now		
-U+FB17	ﬗ	FB00..FB4F	Alphabetic Presentation Forms	Armenian small ligature men xeh		
-U+FB1D	יִ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter yod with hiriq		
-U+FB1E	ﬞ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew point judeo-spanish varika		
-U+FB1F	ײַ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew ligature yiddish yod yod patah		
-U+FB20	ﬠ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter alternative ayin		
-U+FB21	ﬡ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide alef		
-U+FB22	ﬢ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide dalet		
-U+FB23	ﬣ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide he		
-U+FB24	ﬤ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide kaf		
-U+FB25	ﬥ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide lamed		
-U+FB26	ﬦ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide final mem		
-U+FB27	ﬧ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide resh		
-U+FB28	ﬨ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter wide tav		
-U+FB29	﬩	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter alternative plus sign		
-U+FB2A	שׁ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter shin with shin dot		
-U+FB2B	שׂ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter shin with sin dot		
-U+FB2C	שּׁ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter shin with dagesh and shin dot		
-U+FB2D	שּׂ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter shin with dagesh and sin dot		
-U+FB2E	אַ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter alef with patah		
-U+FB2F	אָ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter alef with qamats		
-U+FB30	אּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter alef with mapiq		
-U+FB31	בּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter bet with dagesh		
-U+FB32	גּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter gimel with dagesh		
-U+FB33	דּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter dalet with dagesh		
-U+FB34	הּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter he with mapiq		
-U+FB35	וּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter vav with dagesh		
-U+FB36	זּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter zayin with dagesh		
-U+FB38	טּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter tet with dagesh		
-U+FB39	יּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter yod with dagesh		
-U+FB3A	ךּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter final kaf with dagesh		
-U+FB3B	כּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter kaf with dagesh		
-U+FB3C	לּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter lamed with dagesh		
-U+FB3E	מּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter mem with dagesh		
-U+FB40	נּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter nun with dagesh		
-U+FB41	סּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter samekh with dagesh		
-U+FB43	ףּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter final pe with dagesh		
-U+FB44	פּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter pe with dagesh		
-U+FB46	צּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter tsadi with dagesh		
-U+FB47	קּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter qof with dagesh		
-U+FB48	רּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter resh with dagesh		
-U+FB49	שּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter shin with dagesh		
-U+FB4A	תּ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter tav with dagesh		
-U+FB4B	וֹ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter vav with holam		
-U+FB4C	בֿ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter bet with rafe		
-U+FB4D	כֿ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter kaf with rafe		
-U+FB4E	פֿ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew letter pe with rafe		
-U+FB4F	ﭏ	FB00..FB4F	Alphabetic Presentation Forms	Hebrew ligature alef lamed		
+code_points	chars	tab_completions	unicode_name	base
+U+FB00	ﬀ		LATIN SMALL LIGATURE FF	
+U+FB01	ﬁ		LATIN SMALL LIGATURE FI	
+U+FB02	ﬂ		LATIN SMALL LIGATURE FL	
+U+FB03	ﬃ		LATIN SMALL LIGATURE FFI	
+U+FB04	ﬄ		LATIN SMALL LIGATURE FFL	
+U+FB05	ﬅ		LATIN SMALL LIGATURE LONG S T	
+U+FB06	ﬆ		LATIN SMALL LIGATURE ST	
+U+FB13	ﬓ		ARMENIAN SMALL LIGATURE MEN NOW	
+U+FB14	ﬔ		ARMENIAN SMALL LIGATURE MEN ECH	
+U+FB15	ﬕ		ARMENIAN SMALL LIGATURE MEN INI	
+U+FB16	ﬖ		ARMENIAN SMALL LIGATURE VEW NOW	
+U+FB17	ﬗ		ARMENIAN SMALL LIGATURE MEN XEH	
+U+FB1D	יִ		HEBREW LETTER YOD WITH HIRIQ	
+U+FB1E	ﬞ		HEBREW POINT JUDEO-SPANISH VARIKA	
+U+FB1F	ײַ		HEBREW LIGATURE YIDDISH YOD YOD PATAH	
+U+FB20	ﬠ		HEBREW LETTER ALTERNATIVE AYIN	
+U+FB21	ﬡ		HEBREW LETTER WIDE ALEF	
+U+FB22	ﬢ		HEBREW LETTER WIDE DALET	
+U+FB23	ﬣ		HEBREW LETTER WIDE HE	
+U+FB24	ﬤ		HEBREW LETTER WIDE KAF	
+U+FB25	ﬥ		HEBREW LETTER WIDE LAMED	
+U+FB26	ﬦ		HEBREW LETTER WIDE FINAL MEM	
+U+FB27	ﬧ		HEBREW LETTER WIDE RESH	
+U+FB28	ﬨ		HEBREW LETTER WIDE TAV	
+U+FB29	﬩		HEBREW LETTER ALTERNATIVE PLUS SIGN	
+U+FB2A	שׁ		HEBREW LETTER SHIN WITH SHIN DOT	
+U+FB2B	שׂ		HEBREW LETTER SHIN WITH SIN DOT	
+U+FB2C	שּׁ		HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT	
+U+FB2D	שּׂ		HEBREW LETTER SHIN WITH DAGESH AND SIN DOT	
+U+FB2E	אַ		HEBREW LETTER ALEF WITH PATAH	
+U+FB2F	אָ		HEBREW LETTER ALEF WITH QAMATS	
+U+FB30	אּ		HEBREW LETTER ALEF WITH MAPIQ	
+U+FB31	בּ		HEBREW LETTER BET WITH DAGESH	
+U+FB32	גּ		HEBREW LETTER GIMEL WITH DAGESH	
+U+FB33	דּ		HEBREW LETTER DALET WITH DAGESH	
+U+FB34	הּ		HEBREW LETTER HE WITH MAPIQ	
+U+FB35	וּ		HEBREW LETTER VAV WITH DAGESH	
+U+FB36	זּ		HEBREW LETTER ZAYIN WITH DAGESH	
+U+FB38	טּ		HEBREW LETTER TET WITH DAGESH	
+U+FB39	יּ		HEBREW LETTER YOD WITH DAGESH	
+U+FB3A	ךּ		HEBREW LETTER FINAL KAF WITH DAGESH	
+U+FB3B	כּ		HEBREW LETTER KAF WITH DAGESH	
+U+FB3C	לּ		HEBREW LETTER LAMED WITH DAGESH	
+U+FB3E	מּ		HEBREW LETTER MEM WITH DAGESH	
+U+FB40	נּ		HEBREW LETTER NUN WITH DAGESH	
+U+FB41	סּ		HEBREW LETTER SAMEKH WITH DAGESH	
+U+FB43	ףּ		HEBREW LETTER FINAL PE WITH DAGESH	
+U+FB44	פּ		HEBREW LETTER PE WITH DAGESH	
+U+FB46	צּ		HEBREW LETTER TSADI WITH DAGESH	
+U+FB47	קּ		HEBREW LETTER QOF WITH DAGESH	
+U+FB48	רּ		HEBREW LETTER RESH WITH DAGESH	
+U+FB49	שּ		HEBREW LETTER SHIN WITH DAGESH	
+U+FB4A	תּ		HEBREW LETTER TAV WITH DAGESH	
+U+FB4B	וֹ		HEBREW LETTER VAV WITH HOLAM	
+U+FB4C	בֿ		HEBREW LETTER BET WITH RAFE	
+U+FB4D	כֿ		HEBREW LETTER KAF WITH RAFE	
+U+FB4E	פֿ		HEBREW LETTER PE WITH RAFE	
+U+FB4F	ﭏ		HEBREW LIGATURE ALEF LAMED	

@@ -1,69 +1,69 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11C70	𑱰	11C70..11CBF	Marchen	Marchen head mark		
-U+11C71	𑱱	11C70..11CBF	Marchen	Marchen mark shad		
-U+11C72	𑱲	11C70..11CBF	Marchen	Marchen letter ka		
-U+11C73	𑱳	11C70..11CBF	Marchen	Marchen letter kha		
-U+11C74	𑱴	11C70..11CBF	Marchen	Marchen letter ga		
-U+11C75	𑱵	11C70..11CBF	Marchen	Marchen letter nga		
-U+11C76	𑱶	11C70..11CBF	Marchen	Marchen letter ca		
-U+11C77	𑱷	11C70..11CBF	Marchen	Marchen letter cha		
-U+11C78	𑱸	11C70..11CBF	Marchen	Marchen letter ja		
-U+11C79	𑱹	11C70..11CBF	Marchen	Marchen letter nya		
-U+11C7A	𑱺	11C70..11CBF	Marchen	Marchen letter ta		
-U+11C7B	𑱻	11C70..11CBF	Marchen	Marchen letter tha		
-U+11C7C	𑱼	11C70..11CBF	Marchen	Marchen letter da		
-U+11C7D	𑱽	11C70..11CBF	Marchen	Marchen letter na		
-U+11C7E	𑱾	11C70..11CBF	Marchen	Marchen letter pa		
-U+11C7F	𑱿	11C70..11CBF	Marchen	Marchen letter pha		
-U+11C80	𑲀	11C70..11CBF	Marchen	Marchen letter ba		
-U+11C81	𑲁	11C70..11CBF	Marchen	Marchen letter ma		
-U+11C82	𑲂	11C70..11CBF	Marchen	Marchen letter tsa		
-U+11C83	𑲃	11C70..11CBF	Marchen	Marchen letter tsha		
-U+11C84	𑲄	11C70..11CBF	Marchen	Marchen letter dza		
-U+11C85	𑲅	11C70..11CBF	Marchen	Marchen letter wa		
-U+11C86	𑲆	11C70..11CBF	Marchen	Marchen letter zha		
-U+11C87	𑲇	11C70..11CBF	Marchen	Marchen letter za		
-U+11C88	𑲈	11C70..11CBF	Marchen	Marchen letter -a		
-U+11C89	𑲉	11C70..11CBF	Marchen	Marchen letter ya		
-U+11C8A	𑲊	11C70..11CBF	Marchen	Marchen letter ra		
-U+11C8B	𑲋	11C70..11CBF	Marchen	Marchen letter la		
-U+11C8C	𑲌	11C70..11CBF	Marchen	Marchen letter sha		
-U+11C8D	𑲍	11C70..11CBF	Marchen	Marchen letter sa		
-U+11C8E	𑲎	11C70..11CBF	Marchen	Marchen letter ha		
-U+11C8F	𑲏	11C70..11CBF	Marchen	Marchen letter a		
-U+11C92	𑲒	11C70..11CBF	Marchen	Marchen subjoined letter ka		
-U+11C93	𑲓	11C70..11CBF	Marchen	Marchen subjoined letter kha		
-U+11C94	𑲔	11C70..11CBF	Marchen	Marchen subjoined letter ga		
-U+11C95	𑲕	11C70..11CBF	Marchen	Marchen subjoined letter nga		
-U+11C96	𑲖	11C70..11CBF	Marchen	Marchen subjoined letter ca		
-U+11C97	𑲗	11C70..11CBF	Marchen	Marchen subjoined letter cha		
-U+11C98	𑲘	11C70..11CBF	Marchen	Marchen subjoined letter ja		
-U+11C99	𑲙	11C70..11CBF	Marchen	Marchen subjoined letter nya		
-U+11C9A	𑲚	11C70..11CBF	Marchen	Marchen subjoined letter ta		
-U+11C9B	𑲛	11C70..11CBF	Marchen	Marchen subjoined letter tha		
-U+11C9C	𑲜	11C70..11CBF	Marchen	Marchen subjoined letter da		
-U+11C9D	𑲝	11C70..11CBF	Marchen	Marchen subjoined letter na		
-U+11C9E	𑲞	11C70..11CBF	Marchen	Marchen subjoined letter pa		
-U+11C9F	𑲟	11C70..11CBF	Marchen	Marchen subjoined letter pha		
-U+11CA0	𑲠	11C70..11CBF	Marchen	Marchen subjoined letter ba		
-U+11CA1	𑲡	11C70..11CBF	Marchen	Marchen subjoined letter ma		
-U+11CA2	𑲢	11C70..11CBF	Marchen	Marchen subjoined letter tsa		
-U+11CA3	𑲣	11C70..11CBF	Marchen	Marchen subjoined letter tsha		
-U+11CA4	𑲤	11C70..11CBF	Marchen	Marchen subjoined letter dza		
-U+11CA5	𑲥	11C70..11CBF	Marchen	Marchen subjoined letter wa		
-U+11CA6	𑲦	11C70..11CBF	Marchen	Marchen subjoined letter zha		
-U+11CA7	𑲧	11C70..11CBF	Marchen	Marchen subjoined letter za		
-U+11CA9	𑲩	11C70..11CBF	Marchen	Marchen subjoined letter ya		
-U+11CAA	𑲪	11C70..11CBF	Marchen	Marchen subjoined letter ra		
-U+11CAB	𑲫	11C70..11CBF	Marchen	Marchen subjoined letter la		
-U+11CAC	𑲬	11C70..11CBF	Marchen	Marchen subjoined letter sha		
-U+11CAD	𑲭	11C70..11CBF	Marchen	Marchen subjoined letter sa		
-U+11CAE	𑲮	11C70..11CBF	Marchen	Marchen subjoined letter ha		
-U+11CAF	𑲯	11C70..11CBF	Marchen	Marchen subjoined letter a		
-U+11CB0	𑲰	11C70..11CBF	Marchen	Marchen vowel sign aa		
-U+11CB1	𑲱	11C70..11CBF	Marchen	Marchen vowel sign i		
-U+11CB2	𑲲	11C70..11CBF	Marchen	Marchen vowel sign u		
-U+11CB3	𑲳	11C70..11CBF	Marchen	Marchen vowel sign e		
-U+11CB4	𑲴	11C70..11CBF	Marchen	Marchen vowel sign o		
-U+11CB5	𑲵	11C70..11CBF	Marchen	Marchen sign anusvara		
-U+11CB6	𑲶	11C70..11CBF	Marchen	Marchen sign candrabindu		
+code_points	chars	tab_completions	unicode_name	base
+U+11C70	𑱰		MARCHEN HEAD MARK	
+U+11C71	𑱱		MARCHEN MARK SHAD	
+U+11C72	𑱲		MARCHEN LETTER KA	
+U+11C73	𑱳		MARCHEN LETTER KHA	
+U+11C74	𑱴		MARCHEN LETTER GA	
+U+11C75	𑱵		MARCHEN LETTER NGA	
+U+11C76	𑱶		MARCHEN LETTER CA	
+U+11C77	𑱷		MARCHEN LETTER CHA	
+U+11C78	𑱸		MARCHEN LETTER JA	
+U+11C79	𑱹		MARCHEN LETTER NYA	
+U+11C7A	𑱺		MARCHEN LETTER TA	
+U+11C7B	𑱻		MARCHEN LETTER THA	
+U+11C7C	𑱼		MARCHEN LETTER DA	
+U+11C7D	𑱽		MARCHEN LETTER NA	
+U+11C7E	𑱾		MARCHEN LETTER PA	
+U+11C7F	𑱿		MARCHEN LETTER PHA	
+U+11C80	𑲀		MARCHEN LETTER BA	
+U+11C81	𑲁		MARCHEN LETTER MA	
+U+11C82	𑲂		MARCHEN LETTER TSA	
+U+11C83	𑲃		MARCHEN LETTER TSHA	
+U+11C84	𑲄		MARCHEN LETTER DZA	
+U+11C85	𑲅		MARCHEN LETTER WA	
+U+11C86	𑲆		MARCHEN LETTER ZHA	
+U+11C87	𑲇		MARCHEN LETTER ZA	
+U+11C88	𑲈		MARCHEN LETTER -A	
+U+11C89	𑲉		MARCHEN LETTER YA	
+U+11C8A	𑲊		MARCHEN LETTER RA	
+U+11C8B	𑲋		MARCHEN LETTER LA	
+U+11C8C	𑲌		MARCHEN LETTER SHA	
+U+11C8D	𑲍		MARCHEN LETTER SA	
+U+11C8E	𑲎		MARCHEN LETTER HA	
+U+11C8F	𑲏		MARCHEN LETTER A	
+U+11C92	𑲒		MARCHEN SUBJOINED LETTER KA	
+U+11C93	𑲓		MARCHEN SUBJOINED LETTER KHA	
+U+11C94	𑲔		MARCHEN SUBJOINED LETTER GA	
+U+11C95	𑲕		MARCHEN SUBJOINED LETTER NGA	
+U+11C96	𑲖		MARCHEN SUBJOINED LETTER CA	
+U+11C97	𑲗		MARCHEN SUBJOINED LETTER CHA	
+U+11C98	𑲘		MARCHEN SUBJOINED LETTER JA	
+U+11C99	𑲙		MARCHEN SUBJOINED LETTER NYA	
+U+11C9A	𑲚		MARCHEN SUBJOINED LETTER TA	
+U+11C9B	𑲛		MARCHEN SUBJOINED LETTER THA	
+U+11C9C	𑲜		MARCHEN SUBJOINED LETTER DA	
+U+11C9D	𑲝		MARCHEN SUBJOINED LETTER NA	
+U+11C9E	𑲞		MARCHEN SUBJOINED LETTER PA	
+U+11C9F	𑲟		MARCHEN SUBJOINED LETTER PHA	
+U+11CA0	𑲠		MARCHEN SUBJOINED LETTER BA	
+U+11CA1	𑲡		MARCHEN SUBJOINED LETTER MA	
+U+11CA2	𑲢		MARCHEN SUBJOINED LETTER TSA	
+U+11CA3	𑲣		MARCHEN SUBJOINED LETTER TSHA	
+U+11CA4	𑲤		MARCHEN SUBJOINED LETTER DZA	
+U+11CA5	𑲥		MARCHEN SUBJOINED LETTER WA	
+U+11CA6	𑲦		MARCHEN SUBJOINED LETTER ZHA	
+U+11CA7	𑲧		MARCHEN SUBJOINED LETTER ZA	
+U+11CA9	𑲩		MARCHEN SUBJOINED LETTER YA	
+U+11CAA	𑲪		MARCHEN SUBJOINED LETTER RA	
+U+11CAB	𑲫		MARCHEN SUBJOINED LETTER LA	
+U+11CAC	𑲬		MARCHEN SUBJOINED LETTER SHA	
+U+11CAD	𑲭		MARCHEN SUBJOINED LETTER SA	
+U+11CAE	𑲮		MARCHEN SUBJOINED LETTER HA	
+U+11CAF	𑲯		MARCHEN SUBJOINED LETTER A	
+U+11CB0	𑲰		MARCHEN VOWEL SIGN AA	
+U+11CB1	𑲱		MARCHEN VOWEL SIGN I	
+U+11CB2	𑲲		MARCHEN VOWEL SIGN U	
+U+11CB3	𑲳		MARCHEN VOWEL SIGN E	
+U+11CB4	𑲴		MARCHEN VOWEL SIGN O	
+U+11CB5	𑲵		MARCHEN SIGN ANUSVARA	
+U+11CB6	𑲶		MARCHEN SIGN CANDRABINDU	

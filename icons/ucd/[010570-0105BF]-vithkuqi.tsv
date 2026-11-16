@@ -1,71 +1,71 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10570	𐕰	10570..105BF	Vithkuqi	Vithkuqi capital letter a		
-U+10571	𐕱	10570..105BF	Vithkuqi	Vithkuqi capital letter bbe		
-U+10572	𐕲	10570..105BF	Vithkuqi	Vithkuqi capital letter be		
-U+10573	𐕳	10570..105BF	Vithkuqi	Vithkuqi capital letter ce		
-U+10574	𐕴	10570..105BF	Vithkuqi	Vithkuqi capital letter che		
-U+10575	𐕵	10570..105BF	Vithkuqi	Vithkuqi capital letter de		
-U+10576	𐕶	10570..105BF	Vithkuqi	Vithkuqi capital letter dhe		
-U+10577	𐕷	10570..105BF	Vithkuqi	Vithkuqi capital letter ei		
-U+10578	𐕸	10570..105BF	Vithkuqi	Vithkuqi capital letter e		
-U+10579	𐕹	10570..105BF	Vithkuqi	Vithkuqi capital letter fe		
-U+1057A	𐕺	10570..105BF	Vithkuqi	Vithkuqi capital letter ga		
-U+1057C	𐕼	10570..105BF	Vithkuqi	Vithkuqi capital letter ha		
-U+1057D	𐕽	10570..105BF	Vithkuqi	Vithkuqi capital letter hha		
-U+1057E	𐕾	10570..105BF	Vithkuqi	Vithkuqi capital letter i		
-U+1057F	𐕿	10570..105BF	Vithkuqi	Vithkuqi capital letter ije		
-U+10580	𐖀	10570..105BF	Vithkuqi	Vithkuqi capital letter je		
-U+10581	𐖁	10570..105BF	Vithkuqi	Vithkuqi capital letter ka		
-U+10582	𐖂	10570..105BF	Vithkuqi	Vithkuqi capital letter la		
-U+10583	𐖃	10570..105BF	Vithkuqi	Vithkuqi capital letter lla		
-U+10584	𐖄	10570..105BF	Vithkuqi	Vithkuqi capital letter me		
-U+10585	𐖅	10570..105BF	Vithkuqi	Vithkuqi capital letter ne		
-U+10586	𐖆	10570..105BF	Vithkuqi	Vithkuqi capital letter nje		
-U+10587	𐖇	10570..105BF	Vithkuqi	Vithkuqi capital letter o		
-U+10588	𐖈	10570..105BF	Vithkuqi	Vithkuqi capital letter pe		
-U+10589	𐖉	10570..105BF	Vithkuqi	Vithkuqi capital letter qa		
-U+1058A	𐖊	10570..105BF	Vithkuqi	Vithkuqi capital letter re		
-U+1058C	𐖌	10570..105BF	Vithkuqi	Vithkuqi capital letter se		
-U+1058D	𐖍	10570..105BF	Vithkuqi	Vithkuqi capital letter she		
-U+1058E	𐖎	10570..105BF	Vithkuqi	Vithkuqi capital letter te		
-U+1058F	𐖏	10570..105BF	Vithkuqi	Vithkuqi capital letter the		
-U+10590	𐖐	10570..105BF	Vithkuqi	Vithkuqi capital letter u		
-U+10591	𐖑	10570..105BF	Vithkuqi	Vithkuqi capital letter ve		
-U+10592	𐖒	10570..105BF	Vithkuqi	Vithkuqi capital letter xe		
-U+10594	𐖔	10570..105BF	Vithkuqi	Vithkuqi capital letter y		
-U+10595	𐖕	10570..105BF	Vithkuqi	Vithkuqi capital letter ze		
-U+10597	𐖗	10570..105BF	Vithkuqi	Vithkuqi small letter a		
-U+10598	𐖘	10570..105BF	Vithkuqi	Vithkuqi small letter bbe		
-U+10599	𐖙	10570..105BF	Vithkuqi	Vithkuqi small letter be		
-U+1059A	𐖚	10570..105BF	Vithkuqi	Vithkuqi small letter ce		
-U+1059B	𐖛	10570..105BF	Vithkuqi	Vithkuqi small letter che		
-U+1059C	𐖜	10570..105BF	Vithkuqi	Vithkuqi small letter de		
-U+1059D	𐖝	10570..105BF	Vithkuqi	Vithkuqi small letter dhe		
-U+1059E	𐖞	10570..105BF	Vithkuqi	Vithkuqi small letter ei		
-U+1059F	𐖟	10570..105BF	Vithkuqi	Vithkuqi small letter e		
-U+105A0	𐖠	10570..105BF	Vithkuqi	Vithkuqi small letter fe		
-U+105A1	𐖡	10570..105BF	Vithkuqi	Vithkuqi small letter ga		
-U+105A3	𐖣	10570..105BF	Vithkuqi	Vithkuqi small letter ha		
-U+105A4	𐖤	10570..105BF	Vithkuqi	Vithkuqi small letter hha		
-U+105A5	𐖥	10570..105BF	Vithkuqi	Vithkuqi small letter i		
-U+105A6	𐖦	10570..105BF	Vithkuqi	Vithkuqi small letter ije		
-U+105A7	𐖧	10570..105BF	Vithkuqi	Vithkuqi small letter je		
-U+105A8	𐖨	10570..105BF	Vithkuqi	Vithkuqi small letter ka		
-U+105A9	𐖩	10570..105BF	Vithkuqi	Vithkuqi small letter la		
-U+105AA	𐖪	10570..105BF	Vithkuqi	Vithkuqi small letter lla		
-U+105AB	𐖫	10570..105BF	Vithkuqi	Vithkuqi small letter me		
-U+105AC	𐖬	10570..105BF	Vithkuqi	Vithkuqi small letter ne		
-U+105AD	𐖭	10570..105BF	Vithkuqi	Vithkuqi small letter nje		
-U+105AE	𐖮	10570..105BF	Vithkuqi	Vithkuqi small letter o		
-U+105AF	𐖯	10570..105BF	Vithkuqi	Vithkuqi small letter pe		
-U+105B0	𐖰	10570..105BF	Vithkuqi	Vithkuqi small letter qa		
-U+105B1	𐖱	10570..105BF	Vithkuqi	Vithkuqi small letter re		
-U+105B3	𐖳	10570..105BF	Vithkuqi	Vithkuqi small letter se		
-U+105B4	𐖴	10570..105BF	Vithkuqi	Vithkuqi small letter she		
-U+105B5	𐖵	10570..105BF	Vithkuqi	Vithkuqi small letter te		
-U+105B6	𐖶	10570..105BF	Vithkuqi	Vithkuqi small letter the		
-U+105B7	𐖷	10570..105BF	Vithkuqi	Vithkuqi small letter u		
-U+105B8	𐖸	10570..105BF	Vithkuqi	Vithkuqi small letter ve		
-U+105B9	𐖹	10570..105BF	Vithkuqi	Vithkuqi small letter xe		
-U+105BB	𐖻	10570..105BF	Vithkuqi	Vithkuqi small letter y		
-U+105BC	𐖼	10570..105BF	Vithkuqi	Vithkuqi small letter ze		
+code_points	chars	tab_completions	unicode_name	base
+U+10570	𐕰		VITHKUQI CAPITAL LETTER A	
+U+10571	𐕱		VITHKUQI CAPITAL LETTER BBE	
+U+10572	𐕲		VITHKUQI CAPITAL LETTER BE	
+U+10573	𐕳		VITHKUQI CAPITAL LETTER CE	
+U+10574	𐕴		VITHKUQI CAPITAL LETTER CHE	
+U+10575	𐕵		VITHKUQI CAPITAL LETTER DE	
+U+10576	𐕶		VITHKUQI CAPITAL LETTER DHE	
+U+10577	𐕷		VITHKUQI CAPITAL LETTER EI	
+U+10578	𐕸		VITHKUQI CAPITAL LETTER E	
+U+10579	𐕹		VITHKUQI CAPITAL LETTER FE	
+U+1057A	𐕺		VITHKUQI CAPITAL LETTER GA	
+U+1057C	𐕼		VITHKUQI CAPITAL LETTER HA	
+U+1057D	𐕽		VITHKUQI CAPITAL LETTER HHA	
+U+1057E	𐕾		VITHKUQI CAPITAL LETTER I	
+U+1057F	𐕿		VITHKUQI CAPITAL LETTER IJE	
+U+10580	𐖀		VITHKUQI CAPITAL LETTER JE	
+U+10581	𐖁		VITHKUQI CAPITAL LETTER KA	
+U+10582	𐖂		VITHKUQI CAPITAL LETTER LA	
+U+10583	𐖃		VITHKUQI CAPITAL LETTER LLA	
+U+10584	𐖄		VITHKUQI CAPITAL LETTER ME	
+U+10585	𐖅		VITHKUQI CAPITAL LETTER NE	
+U+10586	𐖆		VITHKUQI CAPITAL LETTER NJE	
+U+10587	𐖇		VITHKUQI CAPITAL LETTER O	
+U+10588	𐖈		VITHKUQI CAPITAL LETTER PE	
+U+10589	𐖉		VITHKUQI CAPITAL LETTER QA	
+U+1058A	𐖊		VITHKUQI CAPITAL LETTER RE	
+U+1058C	𐖌		VITHKUQI CAPITAL LETTER SE	
+U+1058D	𐖍		VITHKUQI CAPITAL LETTER SHE	
+U+1058E	𐖎		VITHKUQI CAPITAL LETTER TE	
+U+1058F	𐖏		VITHKUQI CAPITAL LETTER THE	
+U+10590	𐖐		VITHKUQI CAPITAL LETTER U	
+U+10591	𐖑		VITHKUQI CAPITAL LETTER VE	
+U+10592	𐖒		VITHKUQI CAPITAL LETTER XE	
+U+10594	𐖔		VITHKUQI CAPITAL LETTER Y	
+U+10595	𐖕		VITHKUQI CAPITAL LETTER ZE	
+U+10597	𐖗		VITHKUQI SMALL LETTER A	
+U+10598	𐖘		VITHKUQI SMALL LETTER BBE	
+U+10599	𐖙		VITHKUQI SMALL LETTER BE	
+U+1059A	𐖚		VITHKUQI SMALL LETTER CE	
+U+1059B	𐖛		VITHKUQI SMALL LETTER CHE	
+U+1059C	𐖜		VITHKUQI SMALL LETTER DE	
+U+1059D	𐖝		VITHKUQI SMALL LETTER DHE	
+U+1059E	𐖞		VITHKUQI SMALL LETTER EI	
+U+1059F	𐖟		VITHKUQI SMALL LETTER E	
+U+105A0	𐖠		VITHKUQI SMALL LETTER FE	
+U+105A1	𐖡		VITHKUQI SMALL LETTER GA	
+U+105A3	𐖣		VITHKUQI SMALL LETTER HA	
+U+105A4	𐖤		VITHKUQI SMALL LETTER HHA	
+U+105A5	𐖥		VITHKUQI SMALL LETTER I	
+U+105A6	𐖦		VITHKUQI SMALL LETTER IJE	
+U+105A7	𐖧		VITHKUQI SMALL LETTER JE	
+U+105A8	𐖨		VITHKUQI SMALL LETTER KA	
+U+105A9	𐖩		VITHKUQI SMALL LETTER LA	
+U+105AA	𐖪		VITHKUQI SMALL LETTER LLA	
+U+105AB	𐖫		VITHKUQI SMALL LETTER ME	
+U+105AC	𐖬		VITHKUQI SMALL LETTER NE	
+U+105AD	𐖭		VITHKUQI SMALL LETTER NJE	
+U+105AE	𐖮		VITHKUQI SMALL LETTER O	
+U+105AF	𐖯		VITHKUQI SMALL LETTER PE	
+U+105B0	𐖰		VITHKUQI SMALL LETTER QA	
+U+105B1	𐖱		VITHKUQI SMALL LETTER RE	
+U+105B3	𐖳		VITHKUQI SMALL LETTER SE	
+U+105B4	𐖴		VITHKUQI SMALL LETTER SHE	
+U+105B5	𐖵		VITHKUQI SMALL LETTER TE	
+U+105B6	𐖶		VITHKUQI SMALL LETTER THE	
+U+105B7	𐖷		VITHKUQI SMALL LETTER U	
+U+105B8	𐖸		VITHKUQI SMALL LETTER VE	
+U+105B9	𐖹		VITHKUQI SMALL LETTER XE	
+U+105BB	𐖻		VITHKUQI SMALL LETTER Y	
+U+105BC	𐖼		VITHKUQI SMALL LETTER ZE	

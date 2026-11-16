@@ -1,81 +1,81 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11380	𑎀	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter a		
-U+11381	𑎁	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter aa		
-U+11382	𑎂	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter i		
-U+11383	𑎃	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ii		
-U+11384	𑎄	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter u		
-U+11385	𑎅	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter uu		
-U+11386	𑎆	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter vocalic r		
-U+11387	𑎇	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter vocalic rr		
-U+11388	𑎈	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter vocalic l		
-U+11389	𑎉	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter vocalic ll		
-U+1138B	𑎋	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ee		
-U+1138E	𑎎	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ai		
-U+11390	𑎐	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter oo		
-U+11391	𑎑	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter au		
-U+11392	𑎒	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ka		
-U+11393	𑎓	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter kha		
-U+11394	𑎔	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ga		
-U+11395	𑎕	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter gha		
-U+11396	𑎖	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter nga		
-U+11397	𑎗	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ca		
-U+11398	𑎘	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter cha		
-U+11399	𑎙	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ja		
-U+1139A	𑎚	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter jha		
-U+1139B	𑎛	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter nya		
-U+1139C	𑎜	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter tta		
-U+1139D	𑎝	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ttha		
-U+1139E	𑎞	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter dda		
-U+1139F	𑎟	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ddha		
-U+113A0	𑎠	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter nna		
-U+113A1	𑎡	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ta		
-U+113A2	𑎢	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter tha		
-U+113A3	𑎣	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter da		
-U+113A4	𑎤	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter dha		
-U+113A5	𑎥	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter na		
-U+113A6	𑎦	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter pa		
-U+113A7	𑎧	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter pha		
-U+113A8	𑎨	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ba		
-U+113A9	𑎩	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter bha		
-U+113AA	𑎪	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ma		
-U+113AB	𑎫	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ya		
-U+113AC	𑎬	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ra		
-U+113AD	𑎭	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter la		
-U+113AE	𑎮	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter va		
-U+113AF	𑎯	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter sha		
-U+113B0	𑎰	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ssa		
-U+113B1	𑎱	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter sa		
-U+113B2	𑎲	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter ha		
-U+113B3	𑎳	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter lla		
-U+113B4	𑎴	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter rra		
-U+113B5	𑎵	11380..113FF	Tulu-Tigalari	Tulu-tigalari letter llla		
-U+113B7	𑎷	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign avagraha		
-U+113B8	𑎸	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign aa		
-U+113B9	𑎹	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign i		
-U+113BA	𑎺	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign ii		
-U+113BB	𑎻	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign u		
-U+113BC	𑎼	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign uu		
-U+113BD	𑎽	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign vocalic r		
-U+113BE	𑎾	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign vocalic rr		
-U+113BF	𑎿	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign vocalic l		
-U+113C0	𑏀	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign vocalic ll		
-U+113C2	𑏂	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign ee		
-U+113C5	𑏅	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign ai		
-U+113C7	𑏇	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign oo		
-U+113C8	𑏈	11380..113FF	Tulu-Tigalari	Tulu-tigalari vowel sign au		
-U+113C9	𑏉	11380..113FF	Tulu-Tigalari	Tulu-tigalari au length mark		
-U+113CA	𑏊	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign candra anunasika		
-U+113CC	𑏌	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign anusvara		
-U+113CD	𑏍	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign visarga		
-U+113CE	𑏎	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign virama		
-U+113CF	𑏏	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign looped virama		
-U+113D0	𑏐	11380..113FF	Tulu-Tigalari	Tulu-tigalari conjoiner		
-U+113D1	𑏑	11380..113FF	Tulu-Tigalari	Tulu-tigalari repha		
-U+113D2	𑏒	11380..113FF	Tulu-Tigalari	Tulu-tigalari gemination mark		
-U+113D3	𑏓	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign pluta		
-U+113D4	𑏔	11380..113FF	Tulu-Tigalari	Tulu-tigalari danda		
-U+113D5	𑏕	11380..113FF	Tulu-Tigalari	Tulu-tigalari double danda		
-U+113D7	𑏗	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign om pushpika		
-U+113D8	𑏘	11380..113FF	Tulu-Tigalari	Tulu-tigalari sign shrii pushpika		
-U+113E1	𑏡	11380..113FF	Tulu-Tigalari	Tulu-tigalari vedic tone svarita		
-U+113E2	𑏢	11380..113FF	Tulu-Tigalari	Tulu-tigalari vedic tone anudatta		
+code_points	chars	tab_completions	unicode_name	base
+U+11380	𑎀		TULU-TIGALARI LETTER A	
+U+11381	𑎁		TULU-TIGALARI LETTER AA	
+U+11382	𑎂		TULU-TIGALARI LETTER I	
+U+11383	𑎃		TULU-TIGALARI LETTER II	
+U+11384	𑎄		TULU-TIGALARI LETTER U	
+U+11385	𑎅		TULU-TIGALARI LETTER UU	
+U+11386	𑎆		TULU-TIGALARI LETTER VOCALIC R	
+U+11387	𑎇		TULU-TIGALARI LETTER VOCALIC RR	
+U+11388	𑎈		TULU-TIGALARI LETTER VOCALIC L	
+U+11389	𑎉		TULU-TIGALARI LETTER VOCALIC LL	
+U+1138B	𑎋		TULU-TIGALARI LETTER EE	
+U+1138E	𑎎		TULU-TIGALARI LETTER AI	
+U+11390	𑎐		TULU-TIGALARI LETTER OO	
+U+11391	𑎑		TULU-TIGALARI LETTER AU	
+U+11392	𑎒		TULU-TIGALARI LETTER KA	
+U+11393	𑎓		TULU-TIGALARI LETTER KHA	
+U+11394	𑎔		TULU-TIGALARI LETTER GA	
+U+11395	𑎕		TULU-TIGALARI LETTER GHA	
+U+11396	𑎖		TULU-TIGALARI LETTER NGA	
+U+11397	𑎗		TULU-TIGALARI LETTER CA	
+U+11398	𑎘		TULU-TIGALARI LETTER CHA	
+U+11399	𑎙		TULU-TIGALARI LETTER JA	
+U+1139A	𑎚		TULU-TIGALARI LETTER JHA	
+U+1139B	𑎛		TULU-TIGALARI LETTER NYA	
+U+1139C	𑎜		TULU-TIGALARI LETTER TTA	
+U+1139D	𑎝		TULU-TIGALARI LETTER TTHA	
+U+1139E	𑎞		TULU-TIGALARI LETTER DDA	
+U+1139F	𑎟		TULU-TIGALARI LETTER DDHA	
+U+113A0	𑎠		TULU-TIGALARI LETTER NNA	
+U+113A1	𑎡		TULU-TIGALARI LETTER TA	
+U+113A2	𑎢		TULU-TIGALARI LETTER THA	
+U+113A3	𑎣		TULU-TIGALARI LETTER DA	
+U+113A4	𑎤		TULU-TIGALARI LETTER DHA	
+U+113A5	𑎥		TULU-TIGALARI LETTER NA	
+U+113A6	𑎦		TULU-TIGALARI LETTER PA	
+U+113A7	𑎧		TULU-TIGALARI LETTER PHA	
+U+113A8	𑎨		TULU-TIGALARI LETTER BA	
+U+113A9	𑎩		TULU-TIGALARI LETTER BHA	
+U+113AA	𑎪		TULU-TIGALARI LETTER MA	
+U+113AB	𑎫		TULU-TIGALARI LETTER YA	
+U+113AC	𑎬		TULU-TIGALARI LETTER RA	
+U+113AD	𑎭		TULU-TIGALARI LETTER LA	
+U+113AE	𑎮		TULU-TIGALARI LETTER VA	
+U+113AF	𑎯		TULU-TIGALARI LETTER SHA	
+U+113B0	𑎰		TULU-TIGALARI LETTER SSA	
+U+113B1	𑎱		TULU-TIGALARI LETTER SA	
+U+113B2	𑎲		TULU-TIGALARI LETTER HA	
+U+113B3	𑎳		TULU-TIGALARI LETTER LLA	
+U+113B4	𑎴		TULU-TIGALARI LETTER RRA	
+U+113B5	𑎵		TULU-TIGALARI LETTER LLLA	
+U+113B7	𑎷		TULU-TIGALARI SIGN AVAGRAHA	
+U+113B8	𑎸		TULU-TIGALARI VOWEL SIGN AA	
+U+113B9	𑎹		TULU-TIGALARI VOWEL SIGN I	
+U+113BA	𑎺		TULU-TIGALARI VOWEL SIGN II	
+U+113BB	𑎻		TULU-TIGALARI VOWEL SIGN U	
+U+113BC	𑎼		TULU-TIGALARI VOWEL SIGN UU	
+U+113BD	𑎽		TULU-TIGALARI VOWEL SIGN VOCALIC R	
+U+113BE	𑎾		TULU-TIGALARI VOWEL SIGN VOCALIC RR	
+U+113BF	𑎿		TULU-TIGALARI VOWEL SIGN VOCALIC L	
+U+113C0	𑏀		TULU-TIGALARI VOWEL SIGN VOCALIC LL	
+U+113C2	𑏂		TULU-TIGALARI VOWEL SIGN EE	
+U+113C5	𑏅		TULU-TIGALARI VOWEL SIGN AI	
+U+113C7	𑏇		TULU-TIGALARI VOWEL SIGN OO	
+U+113C8	𑏈		TULU-TIGALARI VOWEL SIGN AU	
+U+113C9	𑏉		TULU-TIGALARI AU LENGTH MARK	
+U+113CA	𑏊		TULU-TIGALARI SIGN CANDRA ANUNASIKA	
+U+113CC	𑏌		TULU-TIGALARI SIGN ANUSVARA	
+U+113CD	𑏍		TULU-TIGALARI SIGN VISARGA	
+U+113CE	𑏎		TULU-TIGALARI SIGN VIRAMA	
+U+113CF	𑏏		TULU-TIGALARI SIGN LOOPED VIRAMA	
+U+113D0	𑏐		TULU-TIGALARI CONJOINER	
+U+113D1	𑏑		TULU-TIGALARI REPHA	
+U+113D2	𑏒		TULU-TIGALARI GEMINATION MARK	
+U+113D3	𑏓		TULU-TIGALARI SIGN PLUTA	
+U+113D4	𑏔		TULU-TIGALARI DANDA	
+U+113D5	𑏕		TULU-TIGALARI DOUBLE DANDA	
+U+113D7	𑏗		TULU-TIGALARI SIGN OM PUSHPIKA	
+U+113D8	𑏘		TULU-TIGALARI SIGN SHRII PUSHPIKA	
+U+113E1	𑏡		TULU-TIGALARI VEDIC TONE SVARITA	
+U+113E2	𑏢		TULU-TIGALARI VEDIC TONE ANUDATTA	

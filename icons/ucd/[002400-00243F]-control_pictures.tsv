@@ -1,43 +1,43 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2400	␀	2400..243F	Control Pictures	Symbol for null		
-U+2401	␁	2400..243F	Control Pictures	Symbol for start of heading		
-U+2402	␂	2400..243F	Control Pictures	Symbol for start of text		
-U+2403	␃	2400..243F	Control Pictures	Symbol for end of text		
-U+2404	␄	2400..243F	Control Pictures	Symbol for end of transmission		
-U+2405	␅	2400..243F	Control Pictures	Symbol for enquiry		
-U+2406	␆	2400..243F	Control Pictures	Symbol for acknowledge		
-U+2407	␇	2400..243F	Control Pictures	Symbol for bell		
-U+2408	␈	2400..243F	Control Pictures	Symbol for backspace		
-U+2409	␉	2400..243F	Control Pictures	Symbol for horizontal tabulation		
-U+240A	␊	2400..243F	Control Pictures	Symbol for line feed		
-U+240B	␋	2400..243F	Control Pictures	Symbol for vertical tabulation		
-U+240C	␌	2400..243F	Control Pictures	Symbol for form feed		
-U+240D	␍	2400..243F	Control Pictures	Symbol for carriage return		
-U+240E	␎	2400..243F	Control Pictures	Symbol for shift out		
-U+240F	␏	2400..243F	Control Pictures	Symbol for shift in		
-U+2410	␐	2400..243F	Control Pictures	Symbol for data link escape		
-U+2411	␑	2400..243F	Control Pictures	Symbol for device control one		
-U+2412	␒	2400..243F	Control Pictures	Symbol for device control two		
-U+2413	␓	2400..243F	Control Pictures	Symbol for device control three		
-U+2414	␔	2400..243F	Control Pictures	Symbol for device control four		
-U+2415	␕	2400..243F	Control Pictures	Symbol for negative acknowledge		
-U+2416	␖	2400..243F	Control Pictures	Symbol for synchronous idle		
-U+2417	␗	2400..243F	Control Pictures	Symbol for end of transmission block		
-U+2418	␘	2400..243F	Control Pictures	Symbol for cancel		
-U+2419	␙	2400..243F	Control Pictures	Symbol for end of medium		
-U+241A	␚	2400..243F	Control Pictures	Symbol for substitute		
-U+241B	␛	2400..243F	Control Pictures	Symbol for escape		
-U+241C	␜	2400..243F	Control Pictures	Symbol for file separator		
-U+241D	␝	2400..243F	Control Pictures	Symbol for group separator		
-U+241E	␞	2400..243F	Control Pictures	Symbol for record separator		
-U+241F	␟	2400..243F	Control Pictures	Symbol for unit separator		
-U+2420	␠	2400..243F	Control Pictures	Symbol for space		
-U+2421	␡	2400..243F	Control Pictures	Symbol for delete		
-U+2422	␢	2400..243F	Control Pictures	Blank symbol		
-U+2423	␣	2400..243F	Control Pictures	Open box		
-U+2424	␤	2400..243F	Control Pictures	Symbol for newline		
-U+2425	␥	2400..243F	Control Pictures	Symbol for delete form two		
-U+2426	␦	2400..243F	Control Pictures	Symbol for substitute form two		
-U+2427	␧	2400..243F	Control Pictures	Symbol for delete square checker board form		
-U+2428	␨	2400..243F	Control Pictures	Symbol for delete rectangular checker board form		
-U+2429	␩	2400..243F	Control Pictures	Symbol for delete medium shade form		
+code_points	chars	tab_completions	unicode_name	base
+U+2400	␀		SYMBOL FOR NULL	
+U+2401	␁		SYMBOL FOR START OF HEADING	
+U+2402	␂		SYMBOL FOR START OF TEXT	
+U+2403	␃		SYMBOL FOR END OF TEXT	
+U+2404	␄		SYMBOL FOR END OF TRANSMISSION	
+U+2405	␅		SYMBOL FOR ENQUIRY	
+U+2406	␆		SYMBOL FOR ACKNOWLEDGE	
+U+2407	␇		SYMBOL FOR BELL	
+U+2408	␈		SYMBOL FOR BACKSPACE	
+U+2409	␉		SYMBOL FOR HORIZONTAL TABULATION	
+U+240A	␊		SYMBOL FOR LINE FEED	
+U+240B	␋		SYMBOL FOR VERTICAL TABULATION	
+U+240C	␌		SYMBOL FOR FORM FEED	
+U+240D	␍		SYMBOL FOR CARRIAGE RETURN	
+U+240E	␎		SYMBOL FOR SHIFT OUT	
+U+240F	␏		SYMBOL FOR SHIFT IN	
+U+2410	␐		SYMBOL FOR DATA LINK ESCAPE	
+U+2411	␑		SYMBOL FOR DEVICE CONTROL ONE	
+U+2412	␒		SYMBOL FOR DEVICE CONTROL TWO	
+U+2413	␓		SYMBOL FOR DEVICE CONTROL THREE	
+U+2414	␔		SYMBOL FOR DEVICE CONTROL FOUR	
+U+2415	␕		SYMBOL FOR NEGATIVE ACKNOWLEDGE	
+U+2416	␖		SYMBOL FOR SYNCHRONOUS IDLE	
+U+2417	␗		SYMBOL FOR END OF TRANSMISSION BLOCK	
+U+2418	␘		SYMBOL FOR CANCEL	
+U+2419	␙		SYMBOL FOR END OF MEDIUM	
+U+241A	␚		SYMBOL FOR SUBSTITUTE	
+U+241B	␛		SYMBOL FOR ESCAPE	
+U+241C	␜		SYMBOL FOR FILE SEPARATOR	
+U+241D	␝		SYMBOL FOR GROUP SEPARATOR	
+U+241E	␞		SYMBOL FOR RECORD SEPARATOR	
+U+241F	␟		SYMBOL FOR UNIT SEPARATOR	
+U+2420	␠		SYMBOL FOR SPACE	
+U+2421	␡		SYMBOL FOR DELETE	
+U+2422	␢		BLANK SYMBOL	
+U+2423	␣		OPEN BOX	
+U+2424	␤		SYMBOL FOR NEWLINE	
+U+2425	␥		SYMBOL FOR DELETE FORM TWO	
+U+2426	␦		SYMBOL FOR SUBSTITUTE FORM TWO	
+U+2427	␧		SYMBOL FOR DELETE SQUARE CHECKER BOARD FORM	
+U+2428	␨		SYMBOL FOR DELETE RECTANGULAR CHECKER BOARD FORM	
+U+2429	␩		SYMBOL FOR DELETE MEDIUM SHADE FORM	

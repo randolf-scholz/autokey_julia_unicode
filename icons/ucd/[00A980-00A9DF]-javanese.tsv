@@ -1,92 +1,92 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A980	ꦀ	A980..A9DF	Javanese	Javanese sign panyangga		
-U+A981	ꦁ	A980..A9DF	Javanese	Javanese sign cecak		
-U+A982	ꦂ	A980..A9DF	Javanese	Javanese sign layar		
-U+A983	ꦃ	A980..A9DF	Javanese	Javanese sign wignyan		
-U+A984	ꦄ	A980..A9DF	Javanese	Javanese letter a		
-U+A985	ꦅ	A980..A9DF	Javanese	Javanese letter i kawi		
-U+A986	ꦆ	A980..A9DF	Javanese	Javanese letter i		
-U+A987	ꦇ	A980..A9DF	Javanese	Javanese letter ii		
-U+A988	ꦈ	A980..A9DF	Javanese	Javanese letter u		
-U+A989	ꦉ	A980..A9DF	Javanese	Javanese letter pa cerek		
-U+A98A	ꦊ	A980..A9DF	Javanese	Javanese letter nga lelet		
-U+A98B	ꦋ	A980..A9DF	Javanese	Javanese letter nga lelet raswadi		
-U+A98C	ꦌ	A980..A9DF	Javanese	Javanese letter e		
-U+A98D	ꦍ	A980..A9DF	Javanese	Javanese letter ai		
-U+A98E	ꦎ	A980..A9DF	Javanese	Javanese letter o		
-U+A98F	ꦏ	A980..A9DF	Javanese	Javanese letter ka		
-U+A990	ꦐ	A980..A9DF	Javanese	Javanese letter ka sasak		
-U+A991	ꦑ	A980..A9DF	Javanese	Javanese letter ka murda		
-U+A992	ꦒ	A980..A9DF	Javanese	Javanese letter ga		
-U+A993	ꦓ	A980..A9DF	Javanese	Javanese letter ga murda		
-U+A994	ꦔ	A980..A9DF	Javanese	Javanese letter nga		
-U+A995	ꦕ	A980..A9DF	Javanese	Javanese letter ca		
-U+A996	ꦖ	A980..A9DF	Javanese	Javanese letter ca murda		
-U+A997	ꦗ	A980..A9DF	Javanese	Javanese letter ja		
-U+A998	ꦘ	A980..A9DF	Javanese	Javanese letter nya murda		
-U+A999	ꦙ	A980..A9DF	Javanese	Javanese letter ja mahaprana		
-U+A99A	ꦚ	A980..A9DF	Javanese	Javanese letter nya		
-U+A99B	ꦛ	A980..A9DF	Javanese	Javanese letter tta		
-U+A99C	ꦜ	A980..A9DF	Javanese	Javanese letter tta mahaprana		
-U+A99D	ꦝ	A980..A9DF	Javanese	Javanese letter dda		
-U+A99E	ꦞ	A980..A9DF	Javanese	Javanese letter dda mahaprana		
-U+A99F	ꦟ	A980..A9DF	Javanese	Javanese letter na murda		
-U+A9A0	ꦠ	A980..A9DF	Javanese	Javanese letter ta		
-U+A9A1	ꦡ	A980..A9DF	Javanese	Javanese letter ta murda		
-U+A9A2	ꦢ	A980..A9DF	Javanese	Javanese letter da		
-U+A9A3	ꦣ	A980..A9DF	Javanese	Javanese letter da mahaprana		
-U+A9A4	ꦤ	A980..A9DF	Javanese	Javanese letter na		
-U+A9A5	ꦥ	A980..A9DF	Javanese	Javanese letter pa		
-U+A9A6	ꦦ	A980..A9DF	Javanese	Javanese letter pa murda		
-U+A9A7	ꦧ	A980..A9DF	Javanese	Javanese letter ba		
-U+A9A8	ꦨ	A980..A9DF	Javanese	Javanese letter ba murda		
-U+A9A9	ꦩ	A980..A9DF	Javanese	Javanese letter ma		
-U+A9AA	ꦪ	A980..A9DF	Javanese	Javanese letter ya		
-U+A9AB	ꦫ	A980..A9DF	Javanese	Javanese letter ra		
-U+A9AC	ꦬ	A980..A9DF	Javanese	Javanese letter ra agung		
-U+A9AD	ꦭ	A980..A9DF	Javanese	Javanese letter la		
-U+A9AE	ꦮ	A980..A9DF	Javanese	Javanese letter wa		
-U+A9AF	ꦯ	A980..A9DF	Javanese	Javanese letter sa murda		
-U+A9B0	ꦰ	A980..A9DF	Javanese	Javanese letter sa mahaprana		
-U+A9B1	ꦱ	A980..A9DF	Javanese	Javanese letter sa		
-U+A9B2	ꦲ	A980..A9DF	Javanese	Javanese letter ha		
-U+A9B3	꦳	A980..A9DF	Javanese	Javanese sign cecak telu		
-U+A9B4	ꦴ	A980..A9DF	Javanese	Javanese vowel sign tarung		
-U+A9B5	ꦵ	A980..A9DF	Javanese	Javanese vowel sign tolong		
-U+A9B6	ꦶ	A980..A9DF	Javanese	Javanese vowel sign wulu		
-U+A9B7	ꦷ	A980..A9DF	Javanese	Javanese vowel sign wulu melik		
-U+A9B8	ꦸ	A980..A9DF	Javanese	Javanese vowel sign suku		
-U+A9B9	ꦹ	A980..A9DF	Javanese	Javanese vowel sign suku mendut		
-U+A9BA	ꦺ	A980..A9DF	Javanese	Javanese vowel sign taling		
-U+A9BB	ꦻ	A980..A9DF	Javanese	Javanese vowel sign dirga mure		
-U+A9BC	ꦼ	A980..A9DF	Javanese	Javanese vowel sign pepet		
-U+A9BD	ꦽ	A980..A9DF	Javanese	Javanese consonant sign keret		
-U+A9BE	ꦾ	A980..A9DF	Javanese	Javanese consonant sign pengkal		
-U+A9BF	ꦿ	A980..A9DF	Javanese	Javanese consonant sign cakra		
-U+A9C0	꧀	A980..A9DF	Javanese	Javanese pangkon		
-U+A9C1	꧁	A980..A9DF	Javanese	Javanese left rerenggan		
-U+A9C2	꧂	A980..A9DF	Javanese	Javanese right rerenggan		
-U+A9C3	꧃	A980..A9DF	Javanese	Javanese pada andap		
-U+A9C4	꧄	A980..A9DF	Javanese	Javanese pada madya		
-U+A9C5	꧅	A980..A9DF	Javanese	Javanese pada luhur		
-U+A9C6	꧆	A980..A9DF	Javanese	Javanese pada windu		
-U+A9C7	꧇	A980..A9DF	Javanese	Javanese pada pangkat		
-U+A9C8	꧈	A980..A9DF	Javanese	Javanese pada lingsa		
-U+A9C9	꧉	A980..A9DF	Javanese	Javanese pada lungsi		
-U+A9CA	꧊	A980..A9DF	Javanese	Javanese pada adeg		
-U+A9CB	꧋	A980..A9DF	Javanese	Javanese pada adeg adeg		
-U+A9CC	꧌	A980..A9DF	Javanese	Javanese pada piseleh		
-U+A9CD	꧍	A980..A9DF	Javanese	Javanese turned pada piseleh		
-U+A9CF	ꧏ	A980..A9DF	Javanese	Javanese pangrangkep		
-U+A9D0	꧐	A980..A9DF	Javanese	Javanese digit zero		
-U+A9D1	꧑	A980..A9DF	Javanese	Javanese digit one		
-U+A9D2	꧒	A980..A9DF	Javanese	Javanese digit two		
-U+A9D3	꧓	A980..A9DF	Javanese	Javanese digit three		
-U+A9D4	꧔	A980..A9DF	Javanese	Javanese digit four		
-U+A9D5	꧕	A980..A9DF	Javanese	Javanese digit five		
-U+A9D6	꧖	A980..A9DF	Javanese	Javanese digit six		
-U+A9D7	꧗	A980..A9DF	Javanese	Javanese digit seven		
-U+A9D8	꧘	A980..A9DF	Javanese	Javanese digit eight		
-U+A9D9	꧙	A980..A9DF	Javanese	Javanese digit nine		
-U+A9DE	꧞	A980..A9DF	Javanese	Javanese pada tirta tumetes		
-U+A9DF	꧟	A980..A9DF	Javanese	Javanese pada isen-isen		
+code_points	chars	tab_completions	unicode_name	base
+U+A980	ꦀ		JAVANESE SIGN PANYANGGA	
+U+A981	ꦁ		JAVANESE SIGN CECAK	
+U+A982	ꦂ		JAVANESE SIGN LAYAR	
+U+A983	ꦃ		JAVANESE SIGN WIGNYAN	
+U+A984	ꦄ		JAVANESE LETTER A	
+U+A985	ꦅ		JAVANESE LETTER I KAWI	
+U+A986	ꦆ		JAVANESE LETTER I	
+U+A987	ꦇ		JAVANESE LETTER II	
+U+A988	ꦈ		JAVANESE LETTER U	
+U+A989	ꦉ		JAVANESE LETTER PA CEREK	
+U+A98A	ꦊ		JAVANESE LETTER NGA LELET	
+U+A98B	ꦋ		JAVANESE LETTER NGA LELET RASWADI	
+U+A98C	ꦌ		JAVANESE LETTER E	
+U+A98D	ꦍ		JAVANESE LETTER AI	
+U+A98E	ꦎ		JAVANESE LETTER O	
+U+A98F	ꦏ		JAVANESE LETTER KA	
+U+A990	ꦐ		JAVANESE LETTER KA SASAK	
+U+A991	ꦑ		JAVANESE LETTER KA MURDA	
+U+A992	ꦒ		JAVANESE LETTER GA	
+U+A993	ꦓ		JAVANESE LETTER GA MURDA	
+U+A994	ꦔ		JAVANESE LETTER NGA	
+U+A995	ꦕ		JAVANESE LETTER CA	
+U+A996	ꦖ		JAVANESE LETTER CA MURDA	
+U+A997	ꦗ		JAVANESE LETTER JA	
+U+A998	ꦘ		JAVANESE LETTER NYA MURDA	
+U+A999	ꦙ		JAVANESE LETTER JA MAHAPRANA	
+U+A99A	ꦚ		JAVANESE LETTER NYA	
+U+A99B	ꦛ		JAVANESE LETTER TTA	
+U+A99C	ꦜ		JAVANESE LETTER TTA MAHAPRANA	
+U+A99D	ꦝ		JAVANESE LETTER DDA	
+U+A99E	ꦞ		JAVANESE LETTER DDA MAHAPRANA	
+U+A99F	ꦟ		JAVANESE LETTER NA MURDA	
+U+A9A0	ꦠ		JAVANESE LETTER TA	
+U+A9A1	ꦡ		JAVANESE LETTER TA MURDA	
+U+A9A2	ꦢ		JAVANESE LETTER DA	
+U+A9A3	ꦣ		JAVANESE LETTER DA MAHAPRANA	
+U+A9A4	ꦤ		JAVANESE LETTER NA	
+U+A9A5	ꦥ		JAVANESE LETTER PA	
+U+A9A6	ꦦ		JAVANESE LETTER PA MURDA	
+U+A9A7	ꦧ		JAVANESE LETTER BA	
+U+A9A8	ꦨ		JAVANESE LETTER BA MURDA	
+U+A9A9	ꦩ		JAVANESE LETTER MA	
+U+A9AA	ꦪ		JAVANESE LETTER YA	
+U+A9AB	ꦫ		JAVANESE LETTER RA	
+U+A9AC	ꦬ		JAVANESE LETTER RA AGUNG	
+U+A9AD	ꦭ		JAVANESE LETTER LA	
+U+A9AE	ꦮ		JAVANESE LETTER WA	
+U+A9AF	ꦯ		JAVANESE LETTER SA MURDA	
+U+A9B0	ꦰ		JAVANESE LETTER SA MAHAPRANA	
+U+A9B1	ꦱ		JAVANESE LETTER SA	
+U+A9B2	ꦲ		JAVANESE LETTER HA	
+U+A9B3	꦳		JAVANESE SIGN CECAK TELU	
+U+A9B4	ꦴ		JAVANESE VOWEL SIGN TARUNG	
+U+A9B5	ꦵ		JAVANESE VOWEL SIGN TOLONG	
+U+A9B6	ꦶ		JAVANESE VOWEL SIGN WULU	
+U+A9B7	ꦷ		JAVANESE VOWEL SIGN WULU MELIK	
+U+A9B8	ꦸ		JAVANESE VOWEL SIGN SUKU	
+U+A9B9	ꦹ		JAVANESE VOWEL SIGN SUKU MENDUT	
+U+A9BA	ꦺ		JAVANESE VOWEL SIGN TALING	
+U+A9BB	ꦻ		JAVANESE VOWEL SIGN DIRGA MURE	
+U+A9BC	ꦼ		JAVANESE VOWEL SIGN PEPET	
+U+A9BD	ꦽ		JAVANESE CONSONANT SIGN KERET	
+U+A9BE	ꦾ		JAVANESE CONSONANT SIGN PENGKAL	
+U+A9BF	ꦿ		JAVANESE CONSONANT SIGN CAKRA	
+U+A9C0	꧀		JAVANESE PANGKON	
+U+A9C1	꧁		JAVANESE LEFT RERENGGAN	
+U+A9C2	꧂		JAVANESE RIGHT RERENGGAN	
+U+A9C3	꧃		JAVANESE PADA ANDAP	
+U+A9C4	꧄		JAVANESE PADA MADYA	
+U+A9C5	꧅		JAVANESE PADA LUHUR	
+U+A9C6	꧆		JAVANESE PADA WINDU	
+U+A9C7	꧇		JAVANESE PADA PANGKAT	
+U+A9C8	꧈		JAVANESE PADA LINGSA	
+U+A9C9	꧉		JAVANESE PADA LUNGSI	
+U+A9CA	꧊		JAVANESE PADA ADEG	
+U+A9CB	꧋		JAVANESE PADA ADEG ADEG	
+U+A9CC	꧌		JAVANESE PADA PISELEH	
+U+A9CD	꧍		JAVANESE TURNED PADA PISELEH	
+U+A9CF	ꧏ		JAVANESE PANGRANGKEP	
+U+A9D0	꧐		JAVANESE DIGIT ZERO	
+U+A9D1	꧑		JAVANESE DIGIT ONE	
+U+A9D2	꧒		JAVANESE DIGIT TWO	
+U+A9D3	꧓		JAVANESE DIGIT THREE	
+U+A9D4	꧔		JAVANESE DIGIT FOUR	
+U+A9D5	꧕		JAVANESE DIGIT FIVE	
+U+A9D6	꧖		JAVANESE DIGIT SIX	
+U+A9D7	꧗		JAVANESE DIGIT SEVEN	
+U+A9D8	꧘		JAVANESE DIGIT EIGHT	
+U+A9D9	꧙		JAVANESE DIGIT NINE	
+U+A9DE	꧞		JAVANESE PADA TIRTA TUMETES	
+U+A9DF	꧟		JAVANESE PADA ISEN-ISEN	

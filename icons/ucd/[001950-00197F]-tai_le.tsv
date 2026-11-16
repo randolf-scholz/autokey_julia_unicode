@@ -1,36 +1,36 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1950	ᥐ	1950..197F	Tai Le	Tai le letter ka		
-U+1951	ᥑ	1950..197F	Tai Le	Tai le letter xa		
-U+1952	ᥒ	1950..197F	Tai Le	Tai le letter nga		
-U+1953	ᥓ	1950..197F	Tai Le	Tai le letter tsa		
-U+1954	ᥔ	1950..197F	Tai Le	Tai le letter sa		
-U+1955	ᥕ	1950..197F	Tai Le	Tai le letter ya		
-U+1956	ᥖ	1950..197F	Tai Le	Tai le letter ta		
-U+1957	ᥗ	1950..197F	Tai Le	Tai le letter tha		
-U+1958	ᥘ	1950..197F	Tai Le	Tai le letter la		
-U+1959	ᥙ	1950..197F	Tai Le	Tai le letter pa		
-U+195A	ᥚ	1950..197F	Tai Le	Tai le letter pha		
-U+195B	ᥛ	1950..197F	Tai Le	Tai le letter ma		
-U+195C	ᥜ	1950..197F	Tai Le	Tai le letter fa		
-U+195D	ᥝ	1950..197F	Tai Le	Tai le letter va		
-U+195E	ᥞ	1950..197F	Tai Le	Tai le letter ha		
-U+195F	ᥟ	1950..197F	Tai Le	Tai le letter qa		
-U+1960	ᥠ	1950..197F	Tai Le	Tai le letter kha		
-U+1961	ᥡ	1950..197F	Tai Le	Tai le letter tsha		
-U+1962	ᥢ	1950..197F	Tai Le	Tai le letter na		
-U+1963	ᥣ	1950..197F	Tai Le	Tai le letter a		
-U+1964	ᥤ	1950..197F	Tai Le	Tai le letter i		
-U+1965	ᥥ	1950..197F	Tai Le	Tai le letter ee		
-U+1966	ᥦ	1950..197F	Tai Le	Tai le letter eh		
-U+1967	ᥧ	1950..197F	Tai Le	Tai le letter u		
-U+1968	ᥨ	1950..197F	Tai Le	Tai le letter oo		
-U+1969	ᥩ	1950..197F	Tai Le	Tai le letter o		
-U+196A	ᥪ	1950..197F	Tai Le	Tai le letter ue		
-U+196B	ᥫ	1950..197F	Tai Le	Tai le letter e		
-U+196C	ᥬ	1950..197F	Tai Le	Tai le letter aue		
-U+196D	ᥭ	1950..197F	Tai Le	Tai le letter ai		
-U+1970	ᥰ	1950..197F	Tai Le	Tai le letter tone-2		
-U+1971	ᥱ	1950..197F	Tai Le	Tai le letter tone-3		
-U+1972	ᥲ	1950..197F	Tai Le	Tai le letter tone-4		
-U+1973	ᥳ	1950..197F	Tai Le	Tai le letter tone-5		
-U+1974	ᥴ	1950..197F	Tai Le	Tai le letter tone-6		
+code_points	chars	tab_completions	unicode_name	base
+U+1950	ᥐ		TAI LE LETTER KA	
+U+1951	ᥑ		TAI LE LETTER XA	
+U+1952	ᥒ		TAI LE LETTER NGA	
+U+1953	ᥓ		TAI LE LETTER TSA	
+U+1954	ᥔ		TAI LE LETTER SA	
+U+1955	ᥕ		TAI LE LETTER YA	
+U+1956	ᥖ		TAI LE LETTER TA	
+U+1957	ᥗ		TAI LE LETTER THA	
+U+1958	ᥘ		TAI LE LETTER LA	
+U+1959	ᥙ		TAI LE LETTER PA	
+U+195A	ᥚ		TAI LE LETTER PHA	
+U+195B	ᥛ		TAI LE LETTER MA	
+U+195C	ᥜ		TAI LE LETTER FA	
+U+195D	ᥝ		TAI LE LETTER VA	
+U+195E	ᥞ		TAI LE LETTER HA	
+U+195F	ᥟ		TAI LE LETTER QA	
+U+1960	ᥠ		TAI LE LETTER KHA	
+U+1961	ᥡ		TAI LE LETTER TSHA	
+U+1962	ᥢ		TAI LE LETTER NA	
+U+1963	ᥣ		TAI LE LETTER A	
+U+1964	ᥤ		TAI LE LETTER I	
+U+1965	ᥥ		TAI LE LETTER EE	
+U+1966	ᥦ		TAI LE LETTER EH	
+U+1967	ᥧ		TAI LE LETTER U	
+U+1968	ᥨ		TAI LE LETTER OO	
+U+1969	ᥩ		TAI LE LETTER O	
+U+196A	ᥪ		TAI LE LETTER UE	
+U+196B	ᥫ		TAI LE LETTER E	
+U+196C	ᥬ		TAI LE LETTER AUE	
+U+196D	ᥭ		TAI LE LETTER AI	
+U+1970	ᥰ		TAI LE LETTER TONE-2	
+U+1971	ᥱ		TAI LE LETTER TONE-3	
+U+1972	ᥲ		TAI LE LETTER TONE-4	
+U+1973	ᥳ		TAI LE LETTER TONE-5	
+U+1974	ᥴ		TAI LE LETTER TONE-6	

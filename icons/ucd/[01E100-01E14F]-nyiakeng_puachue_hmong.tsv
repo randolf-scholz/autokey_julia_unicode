@@ -1,72 +1,72 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E100	𞄀	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ma		
-U+1E101	𞄁	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter tsa		
-U+1E102	𞄂	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nta		
-U+1E103	𞄃	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ta		
-U+1E104	𞄄	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ha		
-U+1E105	𞄅	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter na		
-U+1E106	𞄆	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter xa		
-U+1E107	𞄇	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nka		
-U+1E108	𞄈	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ca		
-U+1E109	𞄉	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter la		
-U+1E10A	𞄊	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter sa		
-U+1E10B	𞄋	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter za		
-U+1E10C	𞄌	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nca		
-U+1E10D	𞄍	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ntsa		
-U+1E10E	𞄎	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ka		
-U+1E10F	𞄏	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter da		
-U+1E110	𞄐	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nya		
-U+1E111	𞄑	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nra		
-U+1E112	𞄒	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter va		
-U+1E113	𞄓	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ntxa		
-U+1E114	𞄔	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter txa		
-U+1E115	𞄕	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter fa		
-U+1E116	𞄖	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ra		
-U+1E117	𞄗	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter qa		
-U+1E118	𞄘	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ya		
-U+1E119	𞄙	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter nqa		
-U+1E11A	𞄚	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter pa		
-U+1E11B	𞄛	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter xya		
-U+1E11C	𞄜	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter npa		
-U+1E11D	𞄝	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter dla		
-U+1E11E	𞄞	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter npla		
-U+1E11F	𞄟	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter hah		
-U+1E120	𞄠	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter mla		
-U+1E121	𞄡	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter pla		
-U+1E122	𞄢	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ga		
-U+1E123	𞄣	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter rra		
-U+1E124	𞄤	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter a		
-U+1E125	𞄥	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter aa		
-U+1E126	𞄦	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter i		
-U+1E127	𞄧	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter u		
-U+1E128	𞄨	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter o		
-U+1E129	𞄩	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter oo		
-U+1E12A	𞄪	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter e		
-U+1E12B	𞄫	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter ee		
-U+1E12C	𞄬	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong letter w		
-U+1E130	𞄰	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-b		
-U+1E131	𞄱	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-m		
-U+1E132	𞄲	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-j		
-U+1E133	𞄳	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-v		
-U+1E134	𞄴	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-s		
-U+1E135	𞄵	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-g		
-U+1E136	𞄶	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong tone-d		
-U+1E137	𞄷	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign for person		
-U+1E138	𞄸	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign for thing		
-U+1E139	𞄹	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign for location		
-U+1E13A	𞄺	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign for animal		
-U+1E13B	𞄻	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign for invertebrate		
-U+1E13C	𞄼	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong sign xw xw		
-U+1E13D	𞄽	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong syllable lengthener		
-U+1E140	𞅀	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit zero		
-U+1E141	𞅁	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit one		
-U+1E142	𞅂	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit two		
-U+1E143	𞅃	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit three		
-U+1E144	𞅄	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit four		
-U+1E145	𞅅	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit five		
-U+1E146	𞅆	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit six		
-U+1E147	𞅇	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit seven		
-U+1E148	𞅈	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit eight		
-U+1E149	𞅉	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong digit nine		
-U+1E14E	𞅎	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong logogram nyaj		
-U+1E14F	𞅏	1E100..1E14F	Nyiakeng Puachue Hmong	Nyiakeng puachue hmong circled ca		
+code_points	chars	tab_completions	unicode_name	base
+U+1E100	𞄀		NYIAKENG PUACHUE HMONG LETTER MA	
+U+1E101	𞄁		NYIAKENG PUACHUE HMONG LETTER TSA	
+U+1E102	𞄂		NYIAKENG PUACHUE HMONG LETTER NTA	
+U+1E103	𞄃		NYIAKENG PUACHUE HMONG LETTER TA	
+U+1E104	𞄄		NYIAKENG PUACHUE HMONG LETTER HA	
+U+1E105	𞄅		NYIAKENG PUACHUE HMONG LETTER NA	
+U+1E106	𞄆		NYIAKENG PUACHUE HMONG LETTER XA	
+U+1E107	𞄇		NYIAKENG PUACHUE HMONG LETTER NKA	
+U+1E108	𞄈		NYIAKENG PUACHUE HMONG LETTER CA	
+U+1E109	𞄉		NYIAKENG PUACHUE HMONG LETTER LA	
+U+1E10A	𞄊		NYIAKENG PUACHUE HMONG LETTER SA	
+U+1E10B	𞄋		NYIAKENG PUACHUE HMONG LETTER ZA	
+U+1E10C	𞄌		NYIAKENG PUACHUE HMONG LETTER NCA	
+U+1E10D	𞄍		NYIAKENG PUACHUE HMONG LETTER NTSA	
+U+1E10E	𞄎		NYIAKENG PUACHUE HMONG LETTER KA	
+U+1E10F	𞄏		NYIAKENG PUACHUE HMONG LETTER DA	
+U+1E110	𞄐		NYIAKENG PUACHUE HMONG LETTER NYA	
+U+1E111	𞄑		NYIAKENG PUACHUE HMONG LETTER NRA	
+U+1E112	𞄒		NYIAKENG PUACHUE HMONG LETTER VA	
+U+1E113	𞄓		NYIAKENG PUACHUE HMONG LETTER NTXA	
+U+1E114	𞄔		NYIAKENG PUACHUE HMONG LETTER TXA	
+U+1E115	𞄕		NYIAKENG PUACHUE HMONG LETTER FA	
+U+1E116	𞄖		NYIAKENG PUACHUE HMONG LETTER RA	
+U+1E117	𞄗		NYIAKENG PUACHUE HMONG LETTER QA	
+U+1E118	𞄘		NYIAKENG PUACHUE HMONG LETTER YA	
+U+1E119	𞄙		NYIAKENG PUACHUE HMONG LETTER NQA	
+U+1E11A	𞄚		NYIAKENG PUACHUE HMONG LETTER PA	
+U+1E11B	𞄛		NYIAKENG PUACHUE HMONG LETTER XYA	
+U+1E11C	𞄜		NYIAKENG PUACHUE HMONG LETTER NPA	
+U+1E11D	𞄝		NYIAKENG PUACHUE HMONG LETTER DLA	
+U+1E11E	𞄞		NYIAKENG PUACHUE HMONG LETTER NPLA	
+U+1E11F	𞄟		NYIAKENG PUACHUE HMONG LETTER HAH	
+U+1E120	𞄠		NYIAKENG PUACHUE HMONG LETTER MLA	
+U+1E121	𞄡		NYIAKENG PUACHUE HMONG LETTER PLA	
+U+1E122	𞄢		NYIAKENG PUACHUE HMONG LETTER GA	
+U+1E123	𞄣		NYIAKENG PUACHUE HMONG LETTER RRA	
+U+1E124	𞄤		NYIAKENG PUACHUE HMONG LETTER A	
+U+1E125	𞄥		NYIAKENG PUACHUE HMONG LETTER AA	
+U+1E126	𞄦		NYIAKENG PUACHUE HMONG LETTER I	
+U+1E127	𞄧		NYIAKENG PUACHUE HMONG LETTER U	
+U+1E128	𞄨		NYIAKENG PUACHUE HMONG LETTER O	
+U+1E129	𞄩		NYIAKENG PUACHUE HMONG LETTER OO	
+U+1E12A	𞄪		NYIAKENG PUACHUE HMONG LETTER E	
+U+1E12B	𞄫		NYIAKENG PUACHUE HMONG LETTER EE	
+U+1E12C	𞄬		NYIAKENG PUACHUE HMONG LETTER W	
+U+1E130	𞄰		NYIAKENG PUACHUE HMONG TONE-B	
+U+1E131	𞄱		NYIAKENG PUACHUE HMONG TONE-M	
+U+1E132	𞄲		NYIAKENG PUACHUE HMONG TONE-J	
+U+1E133	𞄳		NYIAKENG PUACHUE HMONG TONE-V	
+U+1E134	𞄴		NYIAKENG PUACHUE HMONG TONE-S	
+U+1E135	𞄵		NYIAKENG PUACHUE HMONG TONE-G	
+U+1E136	𞄶		NYIAKENG PUACHUE HMONG TONE-D	
+U+1E137	𞄷		NYIAKENG PUACHUE HMONG SIGN FOR PERSON	
+U+1E138	𞄸		NYIAKENG PUACHUE HMONG SIGN FOR THING	
+U+1E139	𞄹		NYIAKENG PUACHUE HMONG SIGN FOR LOCATION	
+U+1E13A	𞄺		NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL	
+U+1E13B	𞄻		NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE	
+U+1E13C	𞄼		NYIAKENG PUACHUE HMONG SIGN XW XW	
+U+1E13D	𞄽		NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER	
+U+1E140	𞅀		NYIAKENG PUACHUE HMONG DIGIT ZERO	
+U+1E141	𞅁		NYIAKENG PUACHUE HMONG DIGIT ONE	
+U+1E142	𞅂		NYIAKENG PUACHUE HMONG DIGIT TWO	
+U+1E143	𞅃		NYIAKENG PUACHUE HMONG DIGIT THREE	
+U+1E144	𞅄		NYIAKENG PUACHUE HMONG DIGIT FOUR	
+U+1E145	𞅅		NYIAKENG PUACHUE HMONG DIGIT FIVE	
+U+1E146	𞅆		NYIAKENG PUACHUE HMONG DIGIT SIX	
+U+1E147	𞅇		NYIAKENG PUACHUE HMONG DIGIT SEVEN	
+U+1E148	𞅈		NYIAKENG PUACHUE HMONG DIGIT EIGHT	
+U+1E149	𞅉		NYIAKENG PUACHUE HMONG DIGIT NINE	
+U+1E14E	𞅎		NYIAKENG PUACHUE HMONG LOGOGRAM NYAJ	
+U+1E14F	𞅏		NYIAKENG PUACHUE HMONG CIRCLED CA	

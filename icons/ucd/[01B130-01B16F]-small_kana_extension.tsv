@@ -1,11 +1,11 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1B132	𛄲	1B130..1B16F	Small Kana Extension	Hiragana letter small ko		
-U+1B150	𛅐	1B130..1B16F	Small Kana Extension	Hiragana letter small wi		
-U+1B151	𛅑	1B130..1B16F	Small Kana Extension	Hiragana letter small we		
-U+1B152	𛅒	1B130..1B16F	Small Kana Extension	Hiragana letter small wo		
-U+1B155	𛅕	1B130..1B16F	Small Kana Extension	Katakana letter small ko		
-U+1B164	𛅤	1B130..1B16F	Small Kana Extension	Katakana letter small wi		
-U+1B165	𛅥	1B130..1B16F	Small Kana Extension	Katakana letter small we		
-U+1B166	𛅦	1B130..1B16F	Small Kana Extension	Katakana letter small wo		
-U+1B167	𛅧	1B130..1B16F	Small Kana Extension	Katakana letter small n		
-U+1B168	𛅨	1B130..1B16F	Small Kana Extension	Katakana letter small archaic ye		
+code_points	chars	tab_completions	unicode_name	base
+U+1B132	𛄲		HIRAGANA LETTER SMALL KO	
+U+1B150	𛅐		HIRAGANA LETTER SMALL WI	
+U+1B151	𛅑		HIRAGANA LETTER SMALL WE	
+U+1B152	𛅒		HIRAGANA LETTER SMALL WO	
+U+1B155	𛅕		KATAKANA LETTER SMALL KO	
+U+1B164	𛅤		KATAKANA LETTER SMALL WI	
+U+1B165	𛅥		KATAKANA LETTER SMALL WE	
+U+1B166	𛅦		KATAKANA LETTER SMALL WO	
+U+1B167	𛅧		KATAKANA LETTER SMALL N	
+U+1B168	𛅨		KATAKANA LETTER SMALL ARCHAIC YE	

@@ -1,40 +1,40 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11150	𑅐	11150..1117F	Mahajani	Mahajani letter a		
-U+11151	𑅑	11150..1117F	Mahajani	Mahajani letter i		
-U+11152	𑅒	11150..1117F	Mahajani	Mahajani letter u		
-U+11153	𑅓	11150..1117F	Mahajani	Mahajani letter e		
-U+11154	𑅔	11150..1117F	Mahajani	Mahajani letter o		
-U+11155	𑅕	11150..1117F	Mahajani	Mahajani letter ka		
-U+11156	𑅖	11150..1117F	Mahajani	Mahajani letter kha		
-U+11157	𑅗	11150..1117F	Mahajani	Mahajani letter ga		
-U+11158	𑅘	11150..1117F	Mahajani	Mahajani letter gha		
-U+11159	𑅙	11150..1117F	Mahajani	Mahajani letter ca		
-U+1115A	𑅚	11150..1117F	Mahajani	Mahajani letter cha		
-U+1115B	𑅛	11150..1117F	Mahajani	Mahajani letter ja		
-U+1115C	𑅜	11150..1117F	Mahajani	Mahajani letter jha		
-U+1115D	𑅝	11150..1117F	Mahajani	Mahajani letter nya		
-U+1115E	𑅞	11150..1117F	Mahajani	Mahajani letter tta		
-U+1115F	𑅟	11150..1117F	Mahajani	Mahajani letter ttha		
-U+11160	𑅠	11150..1117F	Mahajani	Mahajani letter dda		
-U+11161	𑅡	11150..1117F	Mahajani	Mahajani letter ddha		
-U+11162	𑅢	11150..1117F	Mahajani	Mahajani letter nna		
-U+11163	𑅣	11150..1117F	Mahajani	Mahajani letter ta		
-U+11164	𑅤	11150..1117F	Mahajani	Mahajani letter tha		
-U+11165	𑅥	11150..1117F	Mahajani	Mahajani letter da		
-U+11166	𑅦	11150..1117F	Mahajani	Mahajani letter dha		
-U+11167	𑅧	11150..1117F	Mahajani	Mahajani letter na		
-U+11168	𑅨	11150..1117F	Mahajani	Mahajani letter pa		
-U+11169	𑅩	11150..1117F	Mahajani	Mahajani letter pha		
-U+1116A	𑅪	11150..1117F	Mahajani	Mahajani letter ba		
-U+1116B	𑅫	11150..1117F	Mahajani	Mahajani letter bha		
-U+1116C	𑅬	11150..1117F	Mahajani	Mahajani letter ma		
-U+1116D	𑅭	11150..1117F	Mahajani	Mahajani letter ra		
-U+1116E	𑅮	11150..1117F	Mahajani	Mahajani letter la		
-U+1116F	𑅯	11150..1117F	Mahajani	Mahajani letter va		
-U+11170	𑅰	11150..1117F	Mahajani	Mahajani letter sa		
-U+11171	𑅱	11150..1117F	Mahajani	Mahajani letter ha		
-U+11172	𑅲	11150..1117F	Mahajani	Mahajani letter rra		
-U+11173	𑅳	11150..1117F	Mahajani	Mahajani sign nukta		
-U+11174	𑅴	11150..1117F	Mahajani	Mahajani abbreviation sign		
-U+11175	𑅵	11150..1117F	Mahajani	Mahajani section mark		
-U+11176	𑅶	11150..1117F	Mahajani	Mahajani ligature shri		
+code_points	chars	tab_completions	unicode_name	base
+U+11150	𑅐		MAHAJANI LETTER A	
+U+11151	𑅑		MAHAJANI LETTER I	
+U+11152	𑅒		MAHAJANI LETTER U	
+U+11153	𑅓		MAHAJANI LETTER E	
+U+11154	𑅔		MAHAJANI LETTER O	
+U+11155	𑅕		MAHAJANI LETTER KA	
+U+11156	𑅖		MAHAJANI LETTER KHA	
+U+11157	𑅗		MAHAJANI LETTER GA	
+U+11158	𑅘		MAHAJANI LETTER GHA	
+U+11159	𑅙		MAHAJANI LETTER CA	
+U+1115A	𑅚		MAHAJANI LETTER CHA	
+U+1115B	𑅛		MAHAJANI LETTER JA	
+U+1115C	𑅜		MAHAJANI LETTER JHA	
+U+1115D	𑅝		MAHAJANI LETTER NYA	
+U+1115E	𑅞		MAHAJANI LETTER TTA	
+U+1115F	𑅟		MAHAJANI LETTER TTHA	
+U+11160	𑅠		MAHAJANI LETTER DDA	
+U+11161	𑅡		MAHAJANI LETTER DDHA	
+U+11162	𑅢		MAHAJANI LETTER NNA	
+U+11163	𑅣		MAHAJANI LETTER TA	
+U+11164	𑅤		MAHAJANI LETTER THA	
+U+11165	𑅥		MAHAJANI LETTER DA	
+U+11166	𑅦		MAHAJANI LETTER DHA	
+U+11167	𑅧		MAHAJANI LETTER NA	
+U+11168	𑅨		MAHAJANI LETTER PA	
+U+11169	𑅩		MAHAJANI LETTER PHA	
+U+1116A	𑅪		MAHAJANI LETTER BA	
+U+1116B	𑅫		MAHAJANI LETTER BHA	
+U+1116C	𑅬		MAHAJANI LETTER MA	
+U+1116D	𑅭		MAHAJANI LETTER RA	
+U+1116E	𑅮		MAHAJANI LETTER LA	
+U+1116F	𑅯		MAHAJANI LETTER VA	
+U+11170	𑅰		MAHAJANI LETTER SA	
+U+11171	𑅱		MAHAJANI LETTER HA	
+U+11172	𑅲		MAHAJANI LETTER RRA	
+U+11173	𑅳		MAHAJANI SIGN NUKTA	
+U+11174	𑅴		MAHAJANI ABBREVIATION SIGN	
+U+11175	𑅵		MAHAJANI SECTION MARK	
+U+11176	𑅶		MAHAJANI LIGATURE SHRI	

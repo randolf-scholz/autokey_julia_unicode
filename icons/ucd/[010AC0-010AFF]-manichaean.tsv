@@ -1,52 +1,52 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10AC0	𐫀	10AC0..10AFF	Manichaean	Manichaean letter aleph		
-U+10AC1	𐫁	10AC0..10AFF	Manichaean	Manichaean letter beth		
-U+10AC2	𐫂	10AC0..10AFF	Manichaean	Manichaean letter bheth		
-U+10AC3	𐫃	10AC0..10AFF	Manichaean	Manichaean letter gimel		
-U+10AC4	𐫄	10AC0..10AFF	Manichaean	Manichaean letter ghimel		
-U+10AC5	𐫅	10AC0..10AFF	Manichaean	Manichaean letter daleth		
-U+10AC6	𐫆	10AC0..10AFF	Manichaean	Manichaean letter he		
-U+10AC7	𐫇	10AC0..10AFF	Manichaean	Manichaean letter waw		
-U+10AC8	𐫈	10AC0..10AFF	Manichaean	Manichaean sign ud		
-U+10AC9	𐫉	10AC0..10AFF	Manichaean	Manichaean letter zayin		
-U+10ACA	𐫊	10AC0..10AFF	Manichaean	Manichaean letter zhayin		
-U+10ACB	𐫋	10AC0..10AFF	Manichaean	Manichaean letter jayin		
-U+10ACC	𐫌	10AC0..10AFF	Manichaean	Manichaean letter jhayin		
-U+10ACD	𐫍	10AC0..10AFF	Manichaean	Manichaean letter heth		
-U+10ACE	𐫎	10AC0..10AFF	Manichaean	Manichaean letter teth		
-U+10ACF	𐫏	10AC0..10AFF	Manichaean	Manichaean letter yodh		
-U+10AD0	𐫐	10AC0..10AFF	Manichaean	Manichaean letter kaph		
-U+10AD1	𐫑	10AC0..10AFF	Manichaean	Manichaean letter xaph		
-U+10AD2	𐫒	10AC0..10AFF	Manichaean	Manichaean letter khaph		
-U+10AD3	𐫓	10AC0..10AFF	Manichaean	Manichaean letter lamedh		
-U+10AD4	𐫔	10AC0..10AFF	Manichaean	Manichaean letter dhamedh		
-U+10AD5	𐫕	10AC0..10AFF	Manichaean	Manichaean letter thamedh		
-U+10AD6	𐫖	10AC0..10AFF	Manichaean	Manichaean letter mem		
-U+10AD7	𐫗	10AC0..10AFF	Manichaean	Manichaean letter nun		
-U+10AD8	𐫘	10AC0..10AFF	Manichaean	Manichaean letter samekh		
-U+10AD9	𐫙	10AC0..10AFF	Manichaean	Manichaean letter ayin		
-U+10ADA	𐫚	10AC0..10AFF	Manichaean	Manichaean letter aayin		
-U+10ADB	𐫛	10AC0..10AFF	Manichaean	Manichaean letter pe		
-U+10ADC	𐫜	10AC0..10AFF	Manichaean	Manichaean letter fe		
-U+10ADD	𐫝	10AC0..10AFF	Manichaean	Manichaean letter sadhe		
-U+10ADE	𐫞	10AC0..10AFF	Manichaean	Manichaean letter qoph		
-U+10ADF	𐫟	10AC0..10AFF	Manichaean	Manichaean letter xoph		
-U+10AE0	𐫠	10AC0..10AFF	Manichaean	Manichaean letter qhoph		
-U+10AE1	𐫡	10AC0..10AFF	Manichaean	Manichaean letter resh		
-U+10AE2	𐫢	10AC0..10AFF	Manichaean	Manichaean letter shin		
-U+10AE3	𐫣	10AC0..10AFF	Manichaean	Manichaean letter sshin		
-U+10AE4	𐫤	10AC0..10AFF	Manichaean	Manichaean letter taw		
-U+10AE5	𐫥	10AC0..10AFF	Manichaean	Manichaean abbreviation mark above		
-U+10AE6	𐫦	10AC0..10AFF	Manichaean	Manichaean abbreviation mark below		
-U+10AEB	𐫫	10AC0..10AFF	Manichaean	Manichaean number one		
-U+10AEC	𐫬	10AC0..10AFF	Manichaean	Manichaean number five		
-U+10AED	𐫭	10AC0..10AFF	Manichaean	Manichaean number ten		
-U+10AEE	𐫮	10AC0..10AFF	Manichaean	Manichaean number twenty		
-U+10AEF	𐫯	10AC0..10AFF	Manichaean	Manichaean number one hundred		
-U+10AF0	𐫰	10AC0..10AFF	Manichaean	Manichaean punctuation star		
-U+10AF1	𐫱	10AC0..10AFF	Manichaean	Manichaean punctuation fleuron		
-U+10AF2	𐫲	10AC0..10AFF	Manichaean	Manichaean punctuation double dot within dot		
-U+10AF3	𐫳	10AC0..10AFF	Manichaean	Manichaean punctuation dot within dot		
-U+10AF4	𐫴	10AC0..10AFF	Manichaean	Manichaean punctuation dot		
-U+10AF5	𐫵	10AC0..10AFF	Manichaean	Manichaean punctuation two dots		
-U+10AF6	𐫶	10AC0..10AFF	Manichaean	Manichaean punctuation line filler		
+code_points	chars	tab_completions	unicode_name	base
+U+10AC0	𐫀		MANICHAEAN LETTER ALEPH	
+U+10AC1	𐫁		MANICHAEAN LETTER BETH	
+U+10AC2	𐫂		MANICHAEAN LETTER BHETH	
+U+10AC3	𐫃		MANICHAEAN LETTER GIMEL	
+U+10AC4	𐫄		MANICHAEAN LETTER GHIMEL	
+U+10AC5	𐫅		MANICHAEAN LETTER DALETH	
+U+10AC6	𐫆		MANICHAEAN LETTER HE	
+U+10AC7	𐫇		MANICHAEAN LETTER WAW	
+U+10AC8	𐫈		MANICHAEAN SIGN UD	
+U+10AC9	𐫉		MANICHAEAN LETTER ZAYIN	
+U+10ACA	𐫊		MANICHAEAN LETTER ZHAYIN	
+U+10ACB	𐫋		MANICHAEAN LETTER JAYIN	
+U+10ACC	𐫌		MANICHAEAN LETTER JHAYIN	
+U+10ACD	𐫍		MANICHAEAN LETTER HETH	
+U+10ACE	𐫎		MANICHAEAN LETTER TETH	
+U+10ACF	𐫏		MANICHAEAN LETTER YODH	
+U+10AD0	𐫐		MANICHAEAN LETTER KAPH	
+U+10AD1	𐫑		MANICHAEAN LETTER XAPH	
+U+10AD2	𐫒		MANICHAEAN LETTER KHAPH	
+U+10AD3	𐫓		MANICHAEAN LETTER LAMEDH	
+U+10AD4	𐫔		MANICHAEAN LETTER DHAMEDH	
+U+10AD5	𐫕		MANICHAEAN LETTER THAMEDH	
+U+10AD6	𐫖		MANICHAEAN LETTER MEM	
+U+10AD7	𐫗		MANICHAEAN LETTER NUN	
+U+10AD8	𐫘		MANICHAEAN LETTER SAMEKH	
+U+10AD9	𐫙		MANICHAEAN LETTER AYIN	
+U+10ADA	𐫚		MANICHAEAN LETTER AAYIN	
+U+10ADB	𐫛		MANICHAEAN LETTER PE	
+U+10ADC	𐫜		MANICHAEAN LETTER FE	
+U+10ADD	𐫝		MANICHAEAN LETTER SADHE	
+U+10ADE	𐫞		MANICHAEAN LETTER QOPH	
+U+10ADF	𐫟		MANICHAEAN LETTER XOPH	
+U+10AE0	𐫠		MANICHAEAN LETTER QHOPH	
+U+10AE1	𐫡		MANICHAEAN LETTER RESH	
+U+10AE2	𐫢		MANICHAEAN LETTER SHIN	
+U+10AE3	𐫣		MANICHAEAN LETTER SSHIN	
+U+10AE4	𐫤		MANICHAEAN LETTER TAW	
+U+10AE5	𐫥		MANICHAEAN ABBREVIATION MARK ABOVE	
+U+10AE6	𐫦		MANICHAEAN ABBREVIATION MARK BELOW	
+U+10AEB	𐫫		MANICHAEAN NUMBER ONE	
+U+10AEC	𐫬		MANICHAEAN NUMBER FIVE	
+U+10AED	𐫭		MANICHAEAN NUMBER TEN	
+U+10AEE	𐫮		MANICHAEAN NUMBER TWENTY	
+U+10AEF	𐫯		MANICHAEAN NUMBER ONE HUNDRED	
+U+10AF0	𐫰		MANICHAEAN PUNCTUATION STAR	
+U+10AF1	𐫱		MANICHAEAN PUNCTUATION FLEURON	
+U+10AF2	𐫲		MANICHAEAN PUNCTUATION DOUBLE DOT WITHIN DOT	
+U+10AF3	𐫳		MANICHAEAN PUNCTUATION DOT WITHIN DOT	
+U+10AF4	𐫴		MANICHAEAN PUNCTUATION DOT	
+U+10AF5	𐫵		MANICHAEAN PUNCTUATION TWO DOTS	
+U+10AF6	𐫶		MANICHAEAN PUNCTUATION LINE FILLER	

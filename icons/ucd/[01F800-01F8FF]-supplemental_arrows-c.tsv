@@ -1,172 +1,172 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F800	🠀	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with small triangle arrowhead		
-U+1F801	🠁	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with small triangle arrowhead		
-U+1F802	🠂	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with small triangle arrowhead		
-U+1F803	🠃	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with small triangle arrowhead		
-U+1F804	🠄	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with medium triangle arrowhead		
-U+1F805	🠅	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with medium triangle arrowhead		
-U+1F806	🠆	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with medium triangle arrowhead		
-U+1F807	🠇	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with medium triangle arrowhead		
-U+1F808	🠈	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with large triangle arrowhead		
-U+1F809	🠉	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with large triangle arrowhead		
-U+1F80A	🠊	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with large triangle arrowhead		
-U+1F80B	🠋	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with large triangle arrowhead		
-U+1F810	🠐	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with small equilateral arrowhead		
-U+1F811	🠑	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with small equilateral arrowhead		
-U+1F812	🠒	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with small equilateral arrowhead		
-U+1F813	🠓	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with small equilateral arrowhead		
-U+1F814	🠔	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with equilateral arrowhead		
-U+1F815	🠕	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with equilateral arrowhead		
-U+1F816	🠖	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with equilateral arrowhead		
-U+1F817	🠗	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with equilateral arrowhead		
-U+1F818	🠘	1F800..1F8FF	Supplemental Arrows-C	Heavy leftwards arrow with equilateral arrowhead		
-U+1F819	🠙	1F800..1F8FF	Supplemental Arrows-C	Heavy upwards arrow with equilateral arrowhead		
-U+1F81A	🠚	1F800..1F8FF	Supplemental Arrows-C	Heavy rightwards arrow with equilateral arrowhead		
-U+1F81B	🠛	1F800..1F8FF	Supplemental Arrows-C	Heavy downwards arrow with equilateral arrowhead		
-U+1F81C	🠜	1F800..1F8FF	Supplemental Arrows-C	Heavy leftwards arrow with large equilateral arrowhead		
-U+1F81D	🠝	1F800..1F8FF	Supplemental Arrows-C	Heavy upwards arrow with large equilateral arrowhead		
-U+1F81E	🠞	1F800..1F8FF	Supplemental Arrows-C	Heavy rightwards arrow with large equilateral arrowhead		
-U+1F81F	🠟	1F800..1F8FF	Supplemental Arrows-C	Heavy downwards arrow with large equilateral arrowhead		
-U+1F820	🠠	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle-headed arrow with narrow shaft		
-U+1F821	🠡	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle-headed arrow with narrow shaft		
-U+1F822	🠢	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle-headed arrow with narrow shaft		
-U+1F823	🠣	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle-headed arrow with narrow shaft		
-U+1F824	🠤	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle-headed arrow with medium shaft		
-U+1F825	🠥	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle-headed arrow with medium shaft		
-U+1F826	🠦	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle-headed arrow with medium shaft		
-U+1F827	🠧	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle-headed arrow with medium shaft		
-U+1F828	🠨	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle-headed arrow with bold shaft		
-U+1F829	🠩	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle-headed arrow with bold shaft		
-U+1F82A	🠪	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle-headed arrow with bold shaft		
-U+1F82B	🠫	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle-headed arrow with bold shaft		
-U+1F82C	🠬	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle-headed arrow with heavy shaft		
-U+1F82D	🠭	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle-headed arrow with heavy shaft		
-U+1F82E	🠮	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle-headed arrow with heavy shaft		
-U+1F82F	🠯	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle-headed arrow with heavy shaft		
-U+1F830	🠰	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle-headed arrow with very heavy shaft		
-U+1F831	🠱	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle-headed arrow with very heavy shaft		
-U+1F832	🠲	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle-headed arrow with very heavy shaft		
-U+1F833	🠳	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle-headed arrow with very heavy shaft		
-U+1F834	🠴	1F800..1F8FF	Supplemental Arrows-C	Leftwards finger-post arrow		
-U+1F835	🠵	1F800..1F8FF	Supplemental Arrows-C	Upwards finger-post arrow		
-U+1F836	🠶	1F800..1F8FF	Supplemental Arrows-C	Rightwards finger-post arrow		
-U+1F837	🠷	1F800..1F8FF	Supplemental Arrows-C	Downwards finger-post arrow		
-U+1F838	🠸	1F800..1F8FF	Supplemental Arrows-C	Leftwards squared arrow		
-U+1F839	🠹	1F800..1F8FF	Supplemental Arrows-C	Upwards squared arrow		
-U+1F83A	🠺	1F800..1F8FF	Supplemental Arrows-C	Rightwards squared arrow		
-U+1F83B	🠻	1F800..1F8FF	Supplemental Arrows-C	Downwards squared arrow		
-U+1F83C	🠼	1F800..1F8FF	Supplemental Arrows-C	Leftwards compressed arrow		
-U+1F83D	🠽	1F800..1F8FF	Supplemental Arrows-C	Upwards compressed arrow		
-U+1F83E	🠾	1F800..1F8FF	Supplemental Arrows-C	Rightwards compressed arrow		
-U+1F83F	🠿	1F800..1F8FF	Supplemental Arrows-C	Downwards compressed arrow		
-U+1F840	🡀	1F800..1F8FF	Supplemental Arrows-C	Leftwards heavy compressed arrow		
-U+1F841	🡁	1F800..1F8FF	Supplemental Arrows-C	Upwards heavy compressed arrow		
-U+1F842	🡂	1F800..1F8FF	Supplemental Arrows-C	Rightwards heavy compressed arrow		
-U+1F843	🡃	1F800..1F8FF	Supplemental Arrows-C	Downwards heavy compressed arrow		
-U+1F844	🡄	1F800..1F8FF	Supplemental Arrows-C	Leftwards heavy arrow		
-U+1F845	🡅	1F800..1F8FF	Supplemental Arrows-C	Upwards heavy arrow		
-U+1F846	🡆	1F800..1F8FF	Supplemental Arrows-C	Rightwards heavy arrow		
-U+1F847	🡇	1F800..1F8FF	Supplemental Arrows-C	Downwards heavy arrow		
-U+1F850	🡐	1F800..1F8FF	Supplemental Arrows-C	Leftwards sans-serif arrow		
-U+1F851	🡑	1F800..1F8FF	Supplemental Arrows-C	Upwards sans-serif arrow		
-U+1F852	🡒	1F800..1F8FF	Supplemental Arrows-C	Rightwards sans-serif arrow		
-U+1F853	🡓	1F800..1F8FF	Supplemental Arrows-C	Downwards sans-serif arrow		
-U+1F854	🡔	1F800..1F8FF	Supplemental Arrows-C	North west sans-serif arrow		
-U+1F855	🡕	1F800..1F8FF	Supplemental Arrows-C	North east sans-serif arrow		
-U+1F856	🡖	1F800..1F8FF	Supplemental Arrows-C	South east sans-serif arrow		
-U+1F857	🡗	1F800..1F8FF	Supplemental Arrows-C	South west sans-serif arrow		
-U+1F858	🡘	1F800..1F8FF	Supplemental Arrows-C	Left right sans-serif arrow		
-U+1F859	🡙	1F800..1F8FF	Supplemental Arrows-C	Up down sans-serif arrow		
-U+1F860	🡠	1F800..1F8FF	Supplemental Arrows-C	Wide-headed leftwards light barb arrow		
-U+1F861	🡡	1F800..1F8FF	Supplemental Arrows-C	Wide-headed upwards light barb arrow		
-U+1F862	🡢	1F800..1F8FF	Supplemental Arrows-C	Wide-headed rightwards light barb arrow		
-U+1F863	🡣	1F800..1F8FF	Supplemental Arrows-C	Wide-headed downwards light barb arrow		
-U+1F864	🡤	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north west light barb arrow		
-U+1F865	🡥	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north east light barb arrow		
-U+1F866	🡦	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south east light barb arrow		
-U+1F867	🡧	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south west light barb arrow		
-U+1F868	🡨	1F800..1F8FF	Supplemental Arrows-C	Wide-headed leftwards barb arrow		
-U+1F869	🡩	1F800..1F8FF	Supplemental Arrows-C	Wide-headed upwards barb arrow		
-U+1F86A	🡪	1F800..1F8FF	Supplemental Arrows-C	Wide-headed rightwards barb arrow		
-U+1F86B	🡫	1F800..1F8FF	Supplemental Arrows-C	Wide-headed downwards barb arrow		
-U+1F86C	🡬	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north west barb arrow		
-U+1F86D	🡭	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north east barb arrow		
-U+1F86E	🡮	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south east barb arrow		
-U+1F86F	🡯	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south west barb arrow		
-U+1F870	🡰	1F800..1F8FF	Supplemental Arrows-C	Wide-headed leftwards medium barb arrow		
-U+1F871	🡱	1F800..1F8FF	Supplemental Arrows-C	Wide-headed upwards medium barb arrow		
-U+1F872	🡲	1F800..1F8FF	Supplemental Arrows-C	Wide-headed rightwards medium barb arrow		
-U+1F873	🡳	1F800..1F8FF	Supplemental Arrows-C	Wide-headed downwards medium barb arrow		
-U+1F874	🡴	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north west medium barb arrow		
-U+1F875	🡵	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north east medium barb arrow		
-U+1F876	🡶	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south east medium barb arrow		
-U+1F877	🡷	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south west medium barb arrow		
-U+1F878	🡸	1F800..1F8FF	Supplemental Arrows-C	Wide-headed leftwards heavy barb arrow		
-U+1F879	🡹	1F800..1F8FF	Supplemental Arrows-C	Wide-headed upwards heavy barb arrow		
-U+1F87A	🡺	1F800..1F8FF	Supplemental Arrows-C	Wide-headed rightwards heavy barb arrow		
-U+1F87B	🡻	1F800..1F8FF	Supplemental Arrows-C	Wide-headed downwards heavy barb arrow		
-U+1F87C	🡼	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north west heavy barb arrow		
-U+1F87D	🡽	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north east heavy barb arrow		
-U+1F87E	🡾	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south east heavy barb arrow		
-U+1F87F	🡿	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south west heavy barb arrow		
-U+1F880	🢀	1F800..1F8FF	Supplemental Arrows-C	Wide-headed leftwards very heavy barb arrow		
-U+1F881	🢁	1F800..1F8FF	Supplemental Arrows-C	Wide-headed upwards very heavy barb arrow		
-U+1F882	🢂	1F800..1F8FF	Supplemental Arrows-C	Wide-headed rightwards very heavy barb arrow		
-U+1F883	🢃	1F800..1F8FF	Supplemental Arrows-C	Wide-headed downwards very heavy barb arrow		
-U+1F884	🢄	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north west very heavy barb arrow		
-U+1F885	🢅	1F800..1F8FF	Supplemental Arrows-C	Wide-headed north east very heavy barb arrow		
-U+1F886	🢆	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south east very heavy barb arrow		
-U+1F887	🢇	1F800..1F8FF	Supplemental Arrows-C	Wide-headed south west very heavy barb arrow		
-U+1F890	🢐	1F800..1F8FF	Supplemental Arrows-C	Leftwards triangle arrowhead		
-U+1F891	🢑	1F800..1F8FF	Supplemental Arrows-C	Upwards triangle arrowhead		
-U+1F892	🢒	1F800..1F8FF	Supplemental Arrows-C	Rightwards triangle arrowhead		
-U+1F893	🢓	1F800..1F8FF	Supplemental Arrows-C	Downwards triangle arrowhead		
-U+1F894	🢔	1F800..1F8FF	Supplemental Arrows-C	Leftwards white arrow within triangle arrowhead		
-U+1F895	🢕	1F800..1F8FF	Supplemental Arrows-C	Upwards white arrow within triangle arrowhead		
-U+1F896	🢖	1F800..1F8FF	Supplemental Arrows-C	Rightwards white arrow within triangle arrowhead		
-U+1F897	🢗	1F800..1F8FF	Supplemental Arrows-C	Downwards white arrow within triangle arrowhead		
-U+1F898	🢘	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow with notched tail		
-U+1F899	🢙	1F800..1F8FF	Supplemental Arrows-C	Upwards arrow with notched tail		
-U+1F89A	🢚	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with notched tail		
-U+1F89B	🢛	1F800..1F8FF	Supplemental Arrows-C	Downwards arrow with notched tail		
-U+1F89C	🢜	1F800..1F8FF	Supplemental Arrows-C	Heavy arrow shaft width one		
-U+1F89D	🢝	1F800..1F8FF	Supplemental Arrows-C	Heavy arrow shaft width two thirds		
-U+1F89E	🢞	1F800..1F8FF	Supplemental Arrows-C	Heavy arrow shaft width one half		
-U+1F89F	🢟	1F800..1F8FF	Supplemental Arrows-C	Heavy arrow shaft width one third		
-U+1F8A0	🢠	1F800..1F8FF	Supplemental Arrows-C	Leftwards bottom-shaded white arrow		
-U+1F8A1	🢡	1F800..1F8FF	Supplemental Arrows-C	Rightwards bottom shaded white arrow		
-U+1F8A2	🢢	1F800..1F8FF	Supplemental Arrows-C	Leftwards top shaded white arrow		
-U+1F8A3	🢣	1F800..1F8FF	Supplemental Arrows-C	Rightwards top shaded white arrow		
-U+1F8A4	🢤	1F800..1F8FF	Supplemental Arrows-C	Leftwards left-shaded white arrow		
-U+1F8A5	🢥	1F800..1F8FF	Supplemental Arrows-C	Rightwards right-shaded white arrow		
-U+1F8A6	🢦	1F800..1F8FF	Supplemental Arrows-C	Leftwards right-shaded white arrow		
-U+1F8A7	🢧	1F800..1F8FF	Supplemental Arrows-C	Rightwards left-shaded white arrow		
-U+1F8A8	🢨	1F800..1F8FF	Supplemental Arrows-C	Leftwards back-tilted shadowed white arrow		
-U+1F8A9	🢩	1F800..1F8FF	Supplemental Arrows-C	Rightwards back-tilted shadowed white arrow		
-U+1F8AA	🢪	1F800..1F8FF	Supplemental Arrows-C	Leftwards front-tilted shadowed white arrow		
-U+1F8AB	🢫	1F800..1F8FF	Supplemental Arrows-C	Rightwards front-tilted shadowed white arrow		
-U+1F8AC	🢬	1F800..1F8FF	Supplemental Arrows-C	White arrow shaft width one		
-U+1F8AD	🢭	1F800..1F8FF	Supplemental Arrows-C	White arrow shaft width two thirds		
-U+1F8B0	🢰	1F800..1F8FF	Supplemental Arrows-C	Arrow pointing upwards then north west		
-U+1F8B1	🢱	1F800..1F8FF	Supplemental Arrows-C	Arrow pointing rightwards then curving south west		
-U+1F8B2	🢲	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow with lower hook		
-U+1F8B3	🢳	1F800..1F8FF	Supplemental Arrows-C	Downwards black arrow to bar		
-U+1F8B4	🢴	1F800..1F8FF	Supplemental Arrows-C	Negative squared leftwards arrow		
-U+1F8B5	🢵	1F800..1F8FF	Supplemental Arrows-C	Negative squared upwards arrow		
-U+1F8B6	🢶	1F800..1F8FF	Supplemental Arrows-C	Negative squared rightwards arrow		
-U+1F8B7	🢷	1F800..1F8FF	Supplemental Arrows-C	Negative squared downwards arrow		
-U+1F8B8	🢸	1F800..1F8FF	Supplemental Arrows-C	North west arrow from bar		
-U+1F8B9	🢹	1F800..1F8FF	Supplemental Arrows-C	North east arrow from bar		
-U+1F8BA	🢺	1F800..1F8FF	Supplemental Arrows-C	South east arrow from bar		
-U+1F8BB	🢻	1F800..1F8FF	Supplemental Arrows-C	South west arrow from bar		
-U+1F8C0	🣀	1F800..1F8FF	Supplemental Arrows-C	Leftwards arrow from downwards arrow		
-U+1F8C1	🣁	1F800..1F8FF	Supplemental Arrows-C	Rightwards arrow from downwards arrow		
-U+1F8D0	🣐	1F800..1F8FF	Supplemental Arrows-C	Long rightwards arrow over long leftwards arrow		
-U+1F8D1	🣑	1F800..1F8FF	Supplemental Arrows-C	Long rightwards harpoon over long leftwards harpoon		
-U+1F8D2	🣒	1F800..1F8FF	Supplemental Arrows-C	Long rightwards harpoon above short leftwards harpoon		
-U+1F8D3	🣓	1F800..1F8FF	Supplemental Arrows-C	Short rightwards harpoon above long leftwards harpoon		
-U+1F8D4	🣔	1F800..1F8FF	Supplemental Arrows-C	Long leftwards harpoon above short rightwards harpoon		
-U+1F8D5	🣕	1F800..1F8FF	Supplemental Arrows-C	Short leftwards harpoon above long rightwards harpoon		
-U+1F8D6	🣖	1F800..1F8FF	Supplemental Arrows-C	Long rightwards arrow through x		
-U+1F8D7	🣗	1F800..1F8FF	Supplemental Arrows-C	Long rightwards arrow with double slash		
-U+1F8D8	🣘	1F800..1F8FF	Supplemental Arrows-C	Long left right arrow with dependent lobe		
+code_points	chars	tab_completions	unicode_name	base
+U+1F800	🠀		LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD	
+U+1F801	🠁		UPWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD	
+U+1F802	🠂		RIGHTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD	
+U+1F803	🠃		DOWNWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD	
+U+1F804	🠄		LEFTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD	
+U+1F805	🠅		UPWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD	
+U+1F806	🠆		RIGHTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD	
+U+1F807	🠇		DOWNWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD	
+U+1F808	🠈		LEFTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD	
+U+1F809	🠉		UPWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD	
+U+1F80A	🠊		RIGHTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD	
+U+1F80B	🠋		DOWNWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD	
+U+1F810	🠐		LEFTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD	
+U+1F811	🠑		UPWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD	
+U+1F812	🠒		RIGHTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD	
+U+1F813	🠓		DOWNWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD	
+U+1F814	🠔		LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F815	🠕		UPWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F816	🠖		RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F817	🠗		DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F818	🠘		HEAVY LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F819	🠙		HEAVY UPWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F81A	🠚		HEAVY RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F81B	🠛		HEAVY DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD	
+U+1F81C	🠜		HEAVY LEFTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD	
+U+1F81D	🠝		HEAVY UPWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD	
+U+1F81E	🠞		HEAVY RIGHTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD	
+U+1F81F	🠟		HEAVY DOWNWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD	
+U+1F820	🠠		LEFTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT	
+U+1F821	🠡		UPWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT	
+U+1F822	🠢		RIGHTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT	
+U+1F823	🠣		DOWNWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT	
+U+1F824	🠤		LEFTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT	
+U+1F825	🠥		UPWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT	
+U+1F826	🠦		RIGHTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT	
+U+1F827	🠧		DOWNWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT	
+U+1F828	🠨		LEFTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT	
+U+1F829	🠩		UPWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT	
+U+1F82A	🠪		RIGHTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT	
+U+1F82B	🠫		DOWNWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT	
+U+1F82C	🠬		LEFTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT	
+U+1F82D	🠭		UPWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT	
+U+1F82E	🠮		RIGHTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT	
+U+1F82F	🠯		DOWNWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT	
+U+1F830	🠰		LEFTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT	
+U+1F831	🠱		UPWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT	
+U+1F832	🠲		RIGHTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT	
+U+1F833	🠳		DOWNWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT	
+U+1F834	🠴		LEFTWARDS FINGER-POST ARROW	
+U+1F835	🠵		UPWARDS FINGER-POST ARROW	
+U+1F836	🠶		RIGHTWARDS FINGER-POST ARROW	
+U+1F837	🠷		DOWNWARDS FINGER-POST ARROW	
+U+1F838	🠸		LEFTWARDS SQUARED ARROW	
+U+1F839	🠹		UPWARDS SQUARED ARROW	
+U+1F83A	🠺		RIGHTWARDS SQUARED ARROW	
+U+1F83B	🠻		DOWNWARDS SQUARED ARROW	
+U+1F83C	🠼		LEFTWARDS COMPRESSED ARROW	
+U+1F83D	🠽		UPWARDS COMPRESSED ARROW	
+U+1F83E	🠾		RIGHTWARDS COMPRESSED ARROW	
+U+1F83F	🠿		DOWNWARDS COMPRESSED ARROW	
+U+1F840	🡀		LEFTWARDS HEAVY COMPRESSED ARROW	
+U+1F841	🡁		UPWARDS HEAVY COMPRESSED ARROW	
+U+1F842	🡂		RIGHTWARDS HEAVY COMPRESSED ARROW	
+U+1F843	🡃		DOWNWARDS HEAVY COMPRESSED ARROW	
+U+1F844	🡄		LEFTWARDS HEAVY ARROW	
+U+1F845	🡅		UPWARDS HEAVY ARROW	
+U+1F846	🡆		RIGHTWARDS HEAVY ARROW	
+U+1F847	🡇		DOWNWARDS HEAVY ARROW	
+U+1F850	🡐		LEFTWARDS SANS-SERIF ARROW	
+U+1F851	🡑		UPWARDS SANS-SERIF ARROW	
+U+1F852	🡒		RIGHTWARDS SANS-SERIF ARROW	
+U+1F853	🡓		DOWNWARDS SANS-SERIF ARROW	
+U+1F854	🡔		NORTH WEST SANS-SERIF ARROW	
+U+1F855	🡕		NORTH EAST SANS-SERIF ARROW	
+U+1F856	🡖		SOUTH EAST SANS-SERIF ARROW	
+U+1F857	🡗		SOUTH WEST SANS-SERIF ARROW	
+U+1F858	🡘		LEFT RIGHT SANS-SERIF ARROW	
+U+1F859	🡙		UP DOWN SANS-SERIF ARROW	
+U+1F860	🡠		WIDE-HEADED LEFTWARDS LIGHT BARB ARROW	
+U+1F861	🡡		WIDE-HEADED UPWARDS LIGHT BARB ARROW	
+U+1F862	🡢		WIDE-HEADED RIGHTWARDS LIGHT BARB ARROW	
+U+1F863	🡣		WIDE-HEADED DOWNWARDS LIGHT BARB ARROW	
+U+1F864	🡤		WIDE-HEADED NORTH WEST LIGHT BARB ARROW	
+U+1F865	🡥		WIDE-HEADED NORTH EAST LIGHT BARB ARROW	
+U+1F866	🡦		WIDE-HEADED SOUTH EAST LIGHT BARB ARROW	
+U+1F867	🡧		WIDE-HEADED SOUTH WEST LIGHT BARB ARROW	
+U+1F868	🡨		WIDE-HEADED LEFTWARDS BARB ARROW	
+U+1F869	🡩		WIDE-HEADED UPWARDS BARB ARROW	
+U+1F86A	🡪		WIDE-HEADED RIGHTWARDS BARB ARROW	
+U+1F86B	🡫		WIDE-HEADED DOWNWARDS BARB ARROW	
+U+1F86C	🡬		WIDE-HEADED NORTH WEST BARB ARROW	
+U+1F86D	🡭		WIDE-HEADED NORTH EAST BARB ARROW	
+U+1F86E	🡮		WIDE-HEADED SOUTH EAST BARB ARROW	
+U+1F86F	🡯		WIDE-HEADED SOUTH WEST BARB ARROW	
+U+1F870	🡰		WIDE-HEADED LEFTWARDS MEDIUM BARB ARROW	
+U+1F871	🡱		WIDE-HEADED UPWARDS MEDIUM BARB ARROW	
+U+1F872	🡲		WIDE-HEADED RIGHTWARDS MEDIUM BARB ARROW	
+U+1F873	🡳		WIDE-HEADED DOWNWARDS MEDIUM BARB ARROW	
+U+1F874	🡴		WIDE-HEADED NORTH WEST MEDIUM BARB ARROW	
+U+1F875	🡵		WIDE-HEADED NORTH EAST MEDIUM BARB ARROW	
+U+1F876	🡶		WIDE-HEADED SOUTH EAST MEDIUM BARB ARROW	
+U+1F877	🡷		WIDE-HEADED SOUTH WEST MEDIUM BARB ARROW	
+U+1F878	🡸		WIDE-HEADED LEFTWARDS HEAVY BARB ARROW	
+U+1F879	🡹		WIDE-HEADED UPWARDS HEAVY BARB ARROW	
+U+1F87A	🡺		WIDE-HEADED RIGHTWARDS HEAVY BARB ARROW	
+U+1F87B	🡻		WIDE-HEADED DOWNWARDS HEAVY BARB ARROW	
+U+1F87C	🡼		WIDE-HEADED NORTH WEST HEAVY BARB ARROW	
+U+1F87D	🡽		WIDE-HEADED NORTH EAST HEAVY BARB ARROW	
+U+1F87E	🡾		WIDE-HEADED SOUTH EAST HEAVY BARB ARROW	
+U+1F87F	🡿		WIDE-HEADED SOUTH WEST HEAVY BARB ARROW	
+U+1F880	🢀		WIDE-HEADED LEFTWARDS VERY HEAVY BARB ARROW	
+U+1F881	🢁		WIDE-HEADED UPWARDS VERY HEAVY BARB ARROW	
+U+1F882	🢂		WIDE-HEADED RIGHTWARDS VERY HEAVY BARB ARROW	
+U+1F883	🢃		WIDE-HEADED DOWNWARDS VERY HEAVY BARB ARROW	
+U+1F884	🢄		WIDE-HEADED NORTH WEST VERY HEAVY BARB ARROW	
+U+1F885	🢅		WIDE-HEADED NORTH EAST VERY HEAVY BARB ARROW	
+U+1F886	🢆		WIDE-HEADED SOUTH EAST VERY HEAVY BARB ARROW	
+U+1F887	🢇		WIDE-HEADED SOUTH WEST VERY HEAVY BARB ARROW	
+U+1F890	🢐		LEFTWARDS TRIANGLE ARROWHEAD	
+U+1F891	🢑		UPWARDS TRIANGLE ARROWHEAD	
+U+1F892	🢒		RIGHTWARDS TRIANGLE ARROWHEAD	
+U+1F893	🢓		DOWNWARDS TRIANGLE ARROWHEAD	
+U+1F894	🢔		LEFTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD	
+U+1F895	🢕		UPWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD	
+U+1F896	🢖		RIGHTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD	
+U+1F897	🢗		DOWNWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD	
+U+1F898	🢘		LEFTWARDS ARROW WITH NOTCHED TAIL	
+U+1F899	🢙		UPWARDS ARROW WITH NOTCHED TAIL	
+U+1F89A	🢚		RIGHTWARDS ARROW WITH NOTCHED TAIL	
+U+1F89B	🢛		DOWNWARDS ARROW WITH NOTCHED TAIL	
+U+1F89C	🢜		HEAVY ARROW SHAFT WIDTH ONE	
+U+1F89D	🢝		HEAVY ARROW SHAFT WIDTH TWO THIRDS	
+U+1F89E	🢞		HEAVY ARROW SHAFT WIDTH ONE HALF	
+U+1F89F	🢟		HEAVY ARROW SHAFT WIDTH ONE THIRD	
+U+1F8A0	🢠		LEFTWARDS BOTTOM-SHADED WHITE ARROW	
+U+1F8A1	🢡		RIGHTWARDS BOTTOM SHADED WHITE ARROW	
+U+1F8A2	🢢		LEFTWARDS TOP SHADED WHITE ARROW	
+U+1F8A3	🢣		RIGHTWARDS TOP SHADED WHITE ARROW	
+U+1F8A4	🢤		LEFTWARDS LEFT-SHADED WHITE ARROW	
+U+1F8A5	🢥		RIGHTWARDS RIGHT-SHADED WHITE ARROW	
+U+1F8A6	🢦		LEFTWARDS RIGHT-SHADED WHITE ARROW	
+U+1F8A7	🢧		RIGHTWARDS LEFT-SHADED WHITE ARROW	
+U+1F8A8	🢨		LEFTWARDS BACK-TILTED SHADOWED WHITE ARROW	
+U+1F8A9	🢩		RIGHTWARDS BACK-TILTED SHADOWED WHITE ARROW	
+U+1F8AA	🢪		LEFTWARDS FRONT-TILTED SHADOWED WHITE ARROW	
+U+1F8AB	🢫		RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW	
+U+1F8AC	🢬		WHITE ARROW SHAFT WIDTH ONE	
+U+1F8AD	🢭		WHITE ARROW SHAFT WIDTH TWO THIRDS	
+U+1F8B0	🢰		ARROW POINTING UPWARDS THEN NORTH WEST	
+U+1F8B1	🢱		ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST	
+U+1F8B2	🢲		RIGHTWARDS ARROW WITH LOWER HOOK	
+U+1F8B3	🢳		DOWNWARDS BLACK ARROW TO BAR	
+U+1F8B4	🢴		NEGATIVE SQUARED LEFTWARDS ARROW	
+U+1F8B5	🢵		NEGATIVE SQUARED UPWARDS ARROW	
+U+1F8B6	🢶		NEGATIVE SQUARED RIGHTWARDS ARROW	
+U+1F8B7	🢷		NEGATIVE SQUARED DOWNWARDS ARROW	
+U+1F8B8	🢸		NORTH WEST ARROW FROM BAR	
+U+1F8B9	🢹		NORTH EAST ARROW FROM BAR	
+U+1F8BA	🢺		SOUTH EAST ARROW FROM BAR	
+U+1F8BB	🢻		SOUTH WEST ARROW FROM BAR	
+U+1F8C0	🣀		LEFTWARDS ARROW FROM DOWNWARDS ARROW	
+U+1F8C1	🣁		RIGHTWARDS ARROW FROM DOWNWARDS ARROW	
+U+1F8D0	🣐		LONG RIGHTWARDS ARROW OVER LONG LEFTWARDS ARROW	
+U+1F8D1	🣑		LONG RIGHTWARDS HARPOON OVER LONG LEFTWARDS HARPOON	
+U+1F8D2	🣒		LONG RIGHTWARDS HARPOON ABOVE SHORT LEFTWARDS HARPOON	
+U+1F8D3	🣓		SHORT RIGHTWARDS HARPOON ABOVE LONG LEFTWARDS HARPOON	
+U+1F8D4	🣔		LONG LEFTWARDS HARPOON ABOVE SHORT RIGHTWARDS HARPOON	
+U+1F8D5	🣕		SHORT LEFTWARDS HARPOON ABOVE LONG RIGHTWARDS HARPOON	
+U+1F8D6	🣖		LONG RIGHTWARDS ARROW THROUGH X	
+U+1F8D7	🣗		LONG RIGHTWARDS ARROW WITH DOUBLE SLASH	
+U+1F8D8	🣘		LONG LEFT RIGHT ARROW WITH DEPENDENT LOBE	

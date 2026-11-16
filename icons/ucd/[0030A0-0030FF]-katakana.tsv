@@ -1,97 +1,97 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+30A0	゠	30A0..30FF	Katakana	Katakana-hiragana double hyphen		
-U+30A1	ァ	30A0..30FF	Katakana	Katakana letter small a		
-U+30A2	ア	30A0..30FF	Katakana	Katakana letter a		
-U+30A3	ィ	30A0..30FF	Katakana	Katakana letter small i		
-U+30A4	イ	30A0..30FF	Katakana	Katakana letter i		
-U+30A5	ゥ	30A0..30FF	Katakana	Katakana letter small u		
-U+30A6	ウ	30A0..30FF	Katakana	Katakana letter u		
-U+30A7	ェ	30A0..30FF	Katakana	Katakana letter small e		
-U+30A8	エ	30A0..30FF	Katakana	Katakana letter e		
-U+30A9	ォ	30A0..30FF	Katakana	Katakana letter small o		
-U+30AA	オ	30A0..30FF	Katakana	Katakana letter o		
-U+30AB	カ	30A0..30FF	Katakana	Katakana letter ka		
-U+30AC	ガ	30A0..30FF	Katakana	Katakana letter ga		
-U+30AD	キ	30A0..30FF	Katakana	Katakana letter ki		
-U+30AE	ギ	30A0..30FF	Katakana	Katakana letter gi		
-U+30AF	ク	30A0..30FF	Katakana	Katakana letter ku		
-U+30B0	グ	30A0..30FF	Katakana	Katakana letter gu		
-U+30B1	ケ	30A0..30FF	Katakana	Katakana letter ke		
-U+30B2	ゲ	30A0..30FF	Katakana	Katakana letter ge		
-U+30B3	コ	30A0..30FF	Katakana	Katakana letter ko		
-U+30B4	ゴ	30A0..30FF	Katakana	Katakana letter go		
-U+30B5	サ	30A0..30FF	Katakana	Katakana letter sa		
-U+30B6	ザ	30A0..30FF	Katakana	Katakana letter za		
-U+30B7	シ	30A0..30FF	Katakana	Katakana letter si		
-U+30B8	ジ	30A0..30FF	Katakana	Katakana letter zi		
-U+30B9	ス	30A0..30FF	Katakana	Katakana letter su		
-U+30BA	ズ	30A0..30FF	Katakana	Katakana letter zu		
-U+30BB	セ	30A0..30FF	Katakana	Katakana letter se		
-U+30BC	ゼ	30A0..30FF	Katakana	Katakana letter ze		
-U+30BD	ソ	30A0..30FF	Katakana	Katakana letter so		
-U+30BE	ゾ	30A0..30FF	Katakana	Katakana letter zo		
-U+30BF	タ	30A0..30FF	Katakana	Katakana letter ta		
-U+30C0	ダ	30A0..30FF	Katakana	Katakana letter da		
-U+30C1	チ	30A0..30FF	Katakana	Katakana letter ti		
-U+30C2	ヂ	30A0..30FF	Katakana	Katakana letter di		
-U+30C3	ッ	30A0..30FF	Katakana	Katakana letter small tu		
-U+30C4	ツ	30A0..30FF	Katakana	Katakana letter tu		
-U+30C5	ヅ	30A0..30FF	Katakana	Katakana letter du		
-U+30C6	テ	30A0..30FF	Katakana	Katakana letter te		
-U+30C7	デ	30A0..30FF	Katakana	Katakana letter de		
-U+30C8	ト	30A0..30FF	Katakana	Katakana letter to		
-U+30C9	ド	30A0..30FF	Katakana	Katakana letter do		
-U+30CA	ナ	30A0..30FF	Katakana	Katakana letter na		
-U+30CB	ニ	30A0..30FF	Katakana	Katakana letter ni		
-U+30CC	ヌ	30A0..30FF	Katakana	Katakana letter nu		
-U+30CD	ネ	30A0..30FF	Katakana	Katakana letter ne		
-U+30CE	ノ	30A0..30FF	Katakana	Katakana letter no		
-U+30CF	ハ	30A0..30FF	Katakana	Katakana letter ha		
-U+30D0	バ	30A0..30FF	Katakana	Katakana letter ba		
-U+30D1	パ	30A0..30FF	Katakana	Katakana letter pa		
-U+30D2	ヒ	30A0..30FF	Katakana	Katakana letter hi		
-U+30D3	ビ	30A0..30FF	Katakana	Katakana letter bi		
-U+30D4	ピ	30A0..30FF	Katakana	Katakana letter pi		
-U+30D5	フ	30A0..30FF	Katakana	Katakana letter hu		
-U+30D6	ブ	30A0..30FF	Katakana	Katakana letter bu		
-U+30D7	プ	30A0..30FF	Katakana	Katakana letter pu		
-U+30D8	ヘ	30A0..30FF	Katakana	Katakana letter he		
-U+30D9	ベ	30A0..30FF	Katakana	Katakana letter be		
-U+30DA	ペ	30A0..30FF	Katakana	Katakana letter pe		
-U+30DB	ホ	30A0..30FF	Katakana	Katakana letter ho		
-U+30DC	ボ	30A0..30FF	Katakana	Katakana letter bo		
-U+30DD	ポ	30A0..30FF	Katakana	Katakana letter po		
-U+30DE	マ	30A0..30FF	Katakana	Katakana letter ma		
-U+30DF	ミ	30A0..30FF	Katakana	Katakana letter mi		
-U+30E0	ム	30A0..30FF	Katakana	Katakana letter mu		
-U+30E1	メ	30A0..30FF	Katakana	Katakana letter me		
-U+30E2	モ	30A0..30FF	Katakana	Katakana letter mo		
-U+30E3	ャ	30A0..30FF	Katakana	Katakana letter small ya		
-U+30E4	ヤ	30A0..30FF	Katakana	Katakana letter ya		
-U+30E5	ュ	30A0..30FF	Katakana	Katakana letter small yu		
-U+30E6	ユ	30A0..30FF	Katakana	Katakana letter yu		
-U+30E7	ョ	30A0..30FF	Katakana	Katakana letter small yo		
-U+30E8	ヨ	30A0..30FF	Katakana	Katakana letter yo		
-U+30E9	ラ	30A0..30FF	Katakana	Katakana letter ra		
-U+30EA	リ	30A0..30FF	Katakana	Katakana letter ri		
-U+30EB	ル	30A0..30FF	Katakana	Katakana letter ru		
-U+30EC	レ	30A0..30FF	Katakana	Katakana letter re		
-U+30ED	ロ	30A0..30FF	Katakana	Katakana letter ro		
-U+30EE	ヮ	30A0..30FF	Katakana	Katakana letter small wa		
-U+30EF	ワ	30A0..30FF	Katakana	Katakana letter wa		
-U+30F0	ヰ	30A0..30FF	Katakana	Katakana letter wi		
-U+30F1	ヱ	30A0..30FF	Katakana	Katakana letter we		
-U+30F2	ヲ	30A0..30FF	Katakana	Katakana letter wo		
-U+30F3	ン	30A0..30FF	Katakana	Katakana letter n		
-U+30F4	ヴ	30A0..30FF	Katakana	Katakana letter vu		
-U+30F5	ヵ	30A0..30FF	Katakana	Katakana letter small ka		
-U+30F6	ヶ	30A0..30FF	Katakana	Katakana letter small ke		
-U+30F7	ヷ	30A0..30FF	Katakana	Katakana letter va		
-U+30F8	ヸ	30A0..30FF	Katakana	Katakana letter vi		
-U+30F9	ヹ	30A0..30FF	Katakana	Katakana letter ve		
-U+30FA	ヺ	30A0..30FF	Katakana	Katakana letter vo		
-U+30FB	・	30A0..30FF	Katakana	Katakana middle dot		
-U+30FC	ー	30A0..30FF	Katakana	Katakana-hiragana prolonged sound mark		
-U+30FD	ヽ	30A0..30FF	Katakana	Katakana iteration mark		
-U+30FE	ヾ	30A0..30FF	Katakana	Katakana voiced iteration mark		
-U+30FF	ヿ	30A0..30FF	Katakana	Katakana digraph koto		
+code_points	chars	tab_completions	unicode_name	base
+U+30A0	゠		KATAKANA-HIRAGANA DOUBLE HYPHEN	
+U+30A1	ァ		KATAKANA LETTER SMALL A	
+U+30A2	ア		KATAKANA LETTER A	
+U+30A3	ィ		KATAKANA LETTER SMALL I	
+U+30A4	イ		KATAKANA LETTER I	
+U+30A5	ゥ		KATAKANA LETTER SMALL U	
+U+30A6	ウ		KATAKANA LETTER U	
+U+30A7	ェ		KATAKANA LETTER SMALL E	
+U+30A8	エ		KATAKANA LETTER E	
+U+30A9	ォ		KATAKANA LETTER SMALL O	
+U+30AA	オ		KATAKANA LETTER O	
+U+30AB	カ		KATAKANA LETTER KA	
+U+30AC	ガ		KATAKANA LETTER GA	
+U+30AD	キ		KATAKANA LETTER KI	
+U+30AE	ギ		KATAKANA LETTER GI	
+U+30AF	ク		KATAKANA LETTER KU	
+U+30B0	グ		KATAKANA LETTER GU	
+U+30B1	ケ		KATAKANA LETTER KE	
+U+30B2	ゲ		KATAKANA LETTER GE	
+U+30B3	コ		KATAKANA LETTER KO	
+U+30B4	ゴ		KATAKANA LETTER GO	
+U+30B5	サ		KATAKANA LETTER SA	
+U+30B6	ザ		KATAKANA LETTER ZA	
+U+30B7	シ		KATAKANA LETTER SI	
+U+30B8	ジ		KATAKANA LETTER ZI	
+U+30B9	ス		KATAKANA LETTER SU	
+U+30BA	ズ		KATAKANA LETTER ZU	
+U+30BB	セ		KATAKANA LETTER SE	
+U+30BC	ゼ		KATAKANA LETTER ZE	
+U+30BD	ソ		KATAKANA LETTER SO	
+U+30BE	ゾ		KATAKANA LETTER ZO	
+U+30BF	タ		KATAKANA LETTER TA	
+U+30C0	ダ		KATAKANA LETTER DA	
+U+30C1	チ		KATAKANA LETTER TI	
+U+30C2	ヂ		KATAKANA LETTER DI	
+U+30C3	ッ		KATAKANA LETTER SMALL TU	
+U+30C4	ツ		KATAKANA LETTER TU	
+U+30C5	ヅ		KATAKANA LETTER DU	
+U+30C6	テ		KATAKANA LETTER TE	
+U+30C7	デ		KATAKANA LETTER DE	
+U+30C8	ト		KATAKANA LETTER TO	
+U+30C9	ド		KATAKANA LETTER DO	
+U+30CA	ナ		KATAKANA LETTER NA	
+U+30CB	ニ		KATAKANA LETTER NI	
+U+30CC	ヌ		KATAKANA LETTER NU	
+U+30CD	ネ		KATAKANA LETTER NE	
+U+30CE	ノ		KATAKANA LETTER NO	
+U+30CF	ハ		KATAKANA LETTER HA	
+U+30D0	バ		KATAKANA LETTER BA	
+U+30D1	パ		KATAKANA LETTER PA	
+U+30D2	ヒ		KATAKANA LETTER HI	
+U+30D3	ビ		KATAKANA LETTER BI	
+U+30D4	ピ		KATAKANA LETTER PI	
+U+30D5	フ		KATAKANA LETTER HU	
+U+30D6	ブ		KATAKANA LETTER BU	
+U+30D7	プ		KATAKANA LETTER PU	
+U+30D8	ヘ		KATAKANA LETTER HE	
+U+30D9	ベ		KATAKANA LETTER BE	
+U+30DA	ペ		KATAKANA LETTER PE	
+U+30DB	ホ		KATAKANA LETTER HO	
+U+30DC	ボ		KATAKANA LETTER BO	
+U+30DD	ポ		KATAKANA LETTER PO	
+U+30DE	マ		KATAKANA LETTER MA	
+U+30DF	ミ		KATAKANA LETTER MI	
+U+30E0	ム		KATAKANA LETTER MU	
+U+30E1	メ		KATAKANA LETTER ME	
+U+30E2	モ		KATAKANA LETTER MO	
+U+30E3	ャ		KATAKANA LETTER SMALL YA	
+U+30E4	ヤ		KATAKANA LETTER YA	
+U+30E5	ュ		KATAKANA LETTER SMALL YU	
+U+30E6	ユ		KATAKANA LETTER YU	
+U+30E7	ョ		KATAKANA LETTER SMALL YO	
+U+30E8	ヨ		KATAKANA LETTER YO	
+U+30E9	ラ		KATAKANA LETTER RA	
+U+30EA	リ		KATAKANA LETTER RI	
+U+30EB	ル		KATAKANA LETTER RU	
+U+30EC	レ		KATAKANA LETTER RE	
+U+30ED	ロ		KATAKANA LETTER RO	
+U+30EE	ヮ		KATAKANA LETTER SMALL WA	
+U+30EF	ワ		KATAKANA LETTER WA	
+U+30F0	ヰ		KATAKANA LETTER WI	
+U+30F1	ヱ		KATAKANA LETTER WE	
+U+30F2	ヲ		KATAKANA LETTER WO	
+U+30F3	ン		KATAKANA LETTER N	
+U+30F4	ヴ		KATAKANA LETTER VU	
+U+30F5	ヵ		KATAKANA LETTER SMALL KA	
+U+30F6	ヶ		KATAKANA LETTER SMALL KE	
+U+30F7	ヷ		KATAKANA LETTER VA	
+U+30F8	ヸ		KATAKANA LETTER VI	
+U+30F9	ヹ		KATAKANA LETTER VE	
+U+30FA	ヺ		KATAKANA LETTER VO	
+U+30FB	・		KATAKANA MIDDLE DOT	
+U+30FC	ー		KATAKANA-HIRAGANA PROLONGED SOUND MARK	
+U+30FD	ヽ		KATAKANA ITERATION MARK	
+U+30FE	ヾ		KATAKANA VOICED ITERATION MARK	
+U+30FF	ヿ		KATAKANA DIGRAPH KOTO	

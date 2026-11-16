@@ -1,37 +1,37 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16AD0	𖫐	16AD0..16AFF	Bassa Vah	Bassa vah letter enni		
-U+16AD1	𖫑	16AD0..16AFF	Bassa Vah	Bassa vah letter ka		
-U+16AD2	𖫒	16AD0..16AFF	Bassa Vah	Bassa vah letter se		
-U+16AD3	𖫓	16AD0..16AFF	Bassa Vah	Bassa vah letter fa		
-U+16AD4	𖫔	16AD0..16AFF	Bassa Vah	Bassa vah letter mbe		
-U+16AD5	𖫕	16AD0..16AFF	Bassa Vah	Bassa vah letter yie		
-U+16AD6	𖫖	16AD0..16AFF	Bassa Vah	Bassa vah letter gah		
-U+16AD7	𖫗	16AD0..16AFF	Bassa Vah	Bassa vah letter dhii		
-U+16AD8	𖫘	16AD0..16AFF	Bassa Vah	Bassa vah letter kpah		
-U+16AD9	𖫙	16AD0..16AFF	Bassa Vah	Bassa vah letter jo		
-U+16ADA	𖫚	16AD0..16AFF	Bassa Vah	Bassa vah letter hwah		
-U+16ADB	𖫛	16AD0..16AFF	Bassa Vah	Bassa vah letter wa		
-U+16ADC	𖫜	16AD0..16AFF	Bassa Vah	Bassa vah letter zo		
-U+16ADD	𖫝	16AD0..16AFF	Bassa Vah	Bassa vah letter gbu		
-U+16ADE	𖫞	16AD0..16AFF	Bassa Vah	Bassa vah letter do		
-U+16ADF	𖫟	16AD0..16AFF	Bassa Vah	Bassa vah letter ce		
-U+16AE0	𖫠	16AD0..16AFF	Bassa Vah	Bassa vah letter uwu		
-U+16AE1	𖫡	16AD0..16AFF	Bassa Vah	Bassa vah letter to		
-U+16AE2	𖫢	16AD0..16AFF	Bassa Vah	Bassa vah letter ba		
-U+16AE3	𖫣	16AD0..16AFF	Bassa Vah	Bassa vah letter vu		
-U+16AE4	𖫤	16AD0..16AFF	Bassa Vah	Bassa vah letter yein		
-U+16AE5	𖫥	16AD0..16AFF	Bassa Vah	Bassa vah letter pa		
-U+16AE6	𖫦	16AD0..16AFF	Bassa Vah	Bassa vah letter wadda		
-U+16AE7	𖫧	16AD0..16AFF	Bassa Vah	Bassa vah letter a		
-U+16AE8	𖫨	16AD0..16AFF	Bassa Vah	Bassa vah letter o		
-U+16AE9	𖫩	16AD0..16AFF	Bassa Vah	Bassa vah letter oo		
-U+16AEA	𖫪	16AD0..16AFF	Bassa Vah	Bassa vah letter u		
-U+16AEB	𖫫	16AD0..16AFF	Bassa Vah	Bassa vah letter ee		
-U+16AEC	𖫬	16AD0..16AFF	Bassa Vah	Bassa vah letter e		
-U+16AED	𖫭	16AD0..16AFF	Bassa Vah	Bassa vah letter i		
-U+16AF0	𖫰	16AD0..16AFF	Bassa Vah	Bassa vah combining high tone		
-U+16AF1	𖫱	16AD0..16AFF	Bassa Vah	Bassa vah combining low tone		
-U+16AF2	𖫲	16AD0..16AFF	Bassa Vah	Bassa vah combining mid tone		
-U+16AF3	𖫳	16AD0..16AFF	Bassa Vah	Bassa vah combining low-mid tone		
-U+16AF4	𖫴	16AD0..16AFF	Bassa Vah	Bassa vah combining high-low tone		
-U+16AF5	𖫵	16AD0..16AFF	Bassa Vah	Bassa vah full stop		
+code_points	chars	tab_completions	unicode_name	base
+U+16AD0	𖫐		BASSA VAH LETTER ENNI	
+U+16AD1	𖫑		BASSA VAH LETTER KA	
+U+16AD2	𖫒		BASSA VAH LETTER SE	
+U+16AD3	𖫓		BASSA VAH LETTER FA	
+U+16AD4	𖫔		BASSA VAH LETTER MBE	
+U+16AD5	𖫕		BASSA VAH LETTER YIE	
+U+16AD6	𖫖		BASSA VAH LETTER GAH	
+U+16AD7	𖫗		BASSA VAH LETTER DHII	
+U+16AD8	𖫘		BASSA VAH LETTER KPAH	
+U+16AD9	𖫙		BASSA VAH LETTER JO	
+U+16ADA	𖫚		BASSA VAH LETTER HWAH	
+U+16ADB	𖫛		BASSA VAH LETTER WA	
+U+16ADC	𖫜		BASSA VAH LETTER ZO	
+U+16ADD	𖫝		BASSA VAH LETTER GBU	
+U+16ADE	𖫞		BASSA VAH LETTER DO	
+U+16ADF	𖫟		BASSA VAH LETTER CE	
+U+16AE0	𖫠		BASSA VAH LETTER UWU	
+U+16AE1	𖫡		BASSA VAH LETTER TO	
+U+16AE2	𖫢		BASSA VAH LETTER BA	
+U+16AE3	𖫣		BASSA VAH LETTER VU	
+U+16AE4	𖫤		BASSA VAH LETTER YEIN	
+U+16AE5	𖫥		BASSA VAH LETTER PA	
+U+16AE6	𖫦		BASSA VAH LETTER WADDA	
+U+16AE7	𖫧		BASSA VAH LETTER A	
+U+16AE8	𖫨		BASSA VAH LETTER O	
+U+16AE9	𖫩		BASSA VAH LETTER OO	
+U+16AEA	𖫪		BASSA VAH LETTER U	
+U+16AEB	𖫫		BASSA VAH LETTER EE	
+U+16AEC	𖫬		BASSA VAH LETTER E	
+U+16AED	𖫭		BASSA VAH LETTER I	
+U+16AF0	𖫰		BASSA VAH COMBINING HIGH TONE	
+U+16AF1	𖫱		BASSA VAH COMBINING LOW TONE	
+U+16AF2	𖫲		BASSA VAH COMBINING MID TONE	
+U+16AF3	𖫳		BASSA VAH COMBINING LOW-MID TONE	
+U+16AF4	𖫴		BASSA VAH COMBINING HIGH-LOW TONE	
+U+16AF5	𖫵		BASSA VAH FULL STOP	

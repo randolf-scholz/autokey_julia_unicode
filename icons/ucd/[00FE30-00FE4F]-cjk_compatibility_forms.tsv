@@ -1,33 +1,33 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+FE30	︰	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical two dot leader		
-U+FE31	︱	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical em dash		
-U+FE32	︲	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical en dash		
-U+FE33	︳	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical low line		
-U+FE34	︴	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical wavy low line		
-U+FE35	︵	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left parenthesis		
-U+FE36	︶	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right parenthesis		
-U+FE37	︷	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left curly bracket		
-U+FE38	︸	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right curly bracket		
-U+FE39	︹	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left tortoise shell bracket		
-U+FE3A	︺	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right tortoise shell bracket		
-U+FE3B	︻	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left black lenticular bracket		
-U+FE3C	︼	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right black lenticular bracket		
-U+FE3D	︽	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left double angle bracket		
-U+FE3E	︾	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right double angle bracket		
-U+FE3F	︿	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left angle bracket		
-U+FE40	﹀	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right angle bracket		
-U+FE41	﹁	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left corner bracket		
-U+FE42	﹂	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right corner bracket		
-U+FE43	﹃	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left white corner bracket		
-U+FE44	﹄	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right white corner bracket		
-U+FE45	﹅	FE30..FE4F	CJK Compatibility Forms	Sesame dot		
-U+FE46	﹆	FE30..FE4F	CJK Compatibility Forms	White sesame dot		
-U+FE47	﹇	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical left square bracket		
-U+FE48	﹈	FE30..FE4F	CJK Compatibility Forms	Presentation form for vertical right square bracket		
-U+FE49	﹉	FE30..FE4F	CJK Compatibility Forms	Dashed overline		
-U+FE4A	﹊	FE30..FE4F	CJK Compatibility Forms	Centreline overline		
-U+FE4B	﹋	FE30..FE4F	CJK Compatibility Forms	Wavy overline		
-U+FE4C	﹌	FE30..FE4F	CJK Compatibility Forms	Double wavy overline		
-U+FE4D	﹍	FE30..FE4F	CJK Compatibility Forms	Dashed low line		
-U+FE4E	﹎	FE30..FE4F	CJK Compatibility Forms	Centreline low line		
-U+FE4F	﹏	FE30..FE4F	CJK Compatibility Forms	Wavy low line		
+code_points	chars	tab_completions	unicode_name	base
+U+FE30	︰		PRESENTATION FORM FOR VERTICAL TWO DOT LEADER	
+U+FE31	︱		PRESENTATION FORM FOR VERTICAL EM DASH	
+U+FE32	︲		PRESENTATION FORM FOR VERTICAL EN DASH	
+U+FE33	︳		PRESENTATION FORM FOR VERTICAL LOW LINE	
+U+FE34	︴		PRESENTATION FORM FOR VERTICAL WAVY LOW LINE	
+U+FE35	︵		PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS	
+U+FE36	︶		PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS	
+U+FE37	︷		PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET	
+U+FE38	︸		PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET	
+U+FE39	︹		PRESENTATION FORM FOR VERTICAL LEFT TORTOISE SHELL BRACKET	
+U+FE3A	︺		PRESENTATION FORM FOR VERTICAL RIGHT TORTOISE SHELL BRACKET	
+U+FE3B	︻		PRESENTATION FORM FOR VERTICAL LEFT BLACK LENTICULAR BRACKET	
+U+FE3C	︼		PRESENTATION FORM FOR VERTICAL RIGHT BLACK LENTICULAR BRACKET	
+U+FE3D	︽		PRESENTATION FORM FOR VERTICAL LEFT DOUBLE ANGLE BRACKET	
+U+FE3E	︾		PRESENTATION FORM FOR VERTICAL RIGHT DOUBLE ANGLE BRACKET	
+U+FE3F	︿		PRESENTATION FORM FOR VERTICAL LEFT ANGLE BRACKET	
+U+FE40	﹀		PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET	
+U+FE41	﹁		PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET	
+U+FE42	﹂		PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET	
+U+FE43	﹃		PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET	
+U+FE44	﹄		PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET	
+U+FE45	﹅		SESAME DOT	
+U+FE46	﹆		WHITE SESAME DOT	
+U+FE47	﹇		PRESENTATION FORM FOR VERTICAL LEFT SQUARE BRACKET	
+U+FE48	﹈		PRESENTATION FORM FOR VERTICAL RIGHT SQUARE BRACKET	
+U+FE49	﹉		DASHED OVERLINE	
+U+FE4A	﹊		CENTRELINE OVERLINE	
+U+FE4B	﹋		WAVY OVERLINE	
+U+FE4C	﹌		DOUBLE WAVY OVERLINE	
+U+FE4D	﹍		DASHED LOW LINE	
+U+FE4E	﹎		CENTRELINE LOW LINE	
+U+FE4F	﹏		WAVY LOW LINE	

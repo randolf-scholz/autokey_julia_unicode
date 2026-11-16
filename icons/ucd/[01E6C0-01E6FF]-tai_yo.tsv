@@ -1,56 +1,56 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E6C0	𞛀	1E6C0..1E6FF	Tai Yo	Tai yo letter low ko		
-U+1E6C1	𞛁	1E6C0..1E6FF	Tai Yo	Tai yo letter high ko		
-U+1E6C2	𞛂	1E6C0..1E6FF	Tai Yo	Tai yo letter low kho		
-U+1E6C3	𞛃	1E6C0..1E6FF	Tai Yo	Tai yo letter high kho		
-U+1E6C4	𞛄	1E6C0..1E6FF	Tai Yo	Tai yo letter go		
-U+1E6C5	𞛅	1E6C0..1E6FF	Tai Yo	Tai yo letter ngo		
-U+1E6C6	𞛆	1E6C0..1E6FF	Tai Yo	Tai yo letter co		
-U+1E6C7	𞛇	1E6C0..1E6FF	Tai Yo	Tai yo letter low xo		
-U+1E6C8	𞛈	1E6C0..1E6FF	Tai Yo	Tai yo letter high xo		
-U+1E6C9	𞛉	1E6C0..1E6FF	Tai Yo	Tai yo letter low nyo		
-U+1E6CA	𞛊	1E6C0..1E6FF	Tai Yo	Tai yo letter high nyo		
-U+1E6CB	𞛋	1E6C0..1E6FF	Tai Yo	Tai yo letter do		
-U+1E6CC	𞛌	1E6C0..1E6FF	Tai Yo	Tai yo letter low to		
-U+1E6CD	𞛍	1E6C0..1E6FF	Tai Yo	Tai yo letter high to		
-U+1E6CE	𞛎	1E6C0..1E6FF	Tai Yo	Tai yo letter tho		
-U+1E6CF	𞛏	1E6C0..1E6FF	Tai Yo	Tai yo letter no		
-U+1E6D0	𞛐	1E6C0..1E6FF	Tai Yo	Tai yo letter bo		
-U+1E6D1	𞛑	1E6C0..1E6FF	Tai Yo	Tai yo letter low po		
-U+1E6D2	𞛒	1E6C0..1E6FF	Tai Yo	Tai yo letter high po		
-U+1E6D3	𞛓	1E6C0..1E6FF	Tai Yo	Tai yo letter pho		
-U+1E6D4	𞛔	1E6C0..1E6FF	Tai Yo	Tai yo letter low fo		
-U+1E6D5	𞛕	1E6C0..1E6FF	Tai Yo	Tai yo letter high fo		
-U+1E6D6	𞛖	1E6C0..1E6FF	Tai Yo	Tai yo letter mo		
-U+1E6D7	𞛗	1E6C0..1E6FF	Tai Yo	Tai yo letter yo		
-U+1E6D8	𞛘	1E6C0..1E6FF	Tai Yo	Tai yo letter lo		
-U+1E6D9	𞛙	1E6C0..1E6FF	Tai Yo	Tai yo letter vo		
-U+1E6DA	𞛚	1E6C0..1E6FF	Tai Yo	Tai yo letter low ho		
-U+1E6DB	𞛛	1E6C0..1E6FF	Tai Yo	Tai yo letter high ho		
-U+1E6DC	𞛜	1E6C0..1E6FF	Tai Yo	Tai yo letter qo		
-U+1E6DD	𞛝	1E6C0..1E6FF	Tai Yo	Tai yo letter low kvo		
-U+1E6DE	𞛞	1E6C0..1E6FF	Tai Yo	Tai yo letter high kvo		
-U+1E6E0	𞛠	1E6C0..1E6FF	Tai Yo	Tai yo letter aa		
-U+1E6E1	𞛡	1E6C0..1E6FF	Tai Yo	Tai yo letter i		
-U+1E6E2	𞛢	1E6C0..1E6FF	Tai Yo	Tai yo letter ue		
-U+1E6E3	𞛣	1E6C0..1E6FF	Tai Yo	Tai yo sign ue		
-U+1E6E4	𞛤	1E6C0..1E6FF	Tai Yo	Tai yo letter u		
-U+1E6E5	𞛥	1E6C0..1E6FF	Tai Yo	Tai yo letter ae		
-U+1E6E6	𞛦	1E6C0..1E6FF	Tai Yo	Tai yo sign au		
-U+1E6E7	𞛧	1E6C0..1E6FF	Tai Yo	Tai yo letter o		
-U+1E6E8	𞛨	1E6C0..1E6FF	Tai Yo	Tai yo letter e		
-U+1E6E9	𞛩	1E6C0..1E6FF	Tai Yo	Tai yo letter ia		
-U+1E6EA	𞛪	1E6C0..1E6FF	Tai Yo	Tai yo letter uea		
-U+1E6EB	𞛫	1E6C0..1E6FF	Tai Yo	Tai yo letter ua		
-U+1E6EC	𞛬	1E6C0..1E6FF	Tai Yo	Tai yo letter oo		
-U+1E6ED	𞛭	1E6C0..1E6FF	Tai Yo	Tai yo letter aue		
-U+1E6EE	𞛮	1E6C0..1E6FF	Tai Yo	Tai yo sign ay		
-U+1E6EF	𞛯	1E6C0..1E6FF	Tai Yo	Tai yo sign ang		
-U+1E6F0	𞛰	1E6C0..1E6FF	Tai Yo	Tai yo letter an		
-U+1E6F1	𞛱	1E6C0..1E6FF	Tai Yo	Tai yo letter am		
-U+1E6F2	𞛲	1E6C0..1E6FF	Tai Yo	Tai yo letter ak		
-U+1E6F3	𞛳	1E6C0..1E6FF	Tai Yo	Tai yo letter at		
-U+1E6F4	𞛴	1E6C0..1E6FF	Tai Yo	Tai yo letter ap		
-U+1E6F5	𞛵	1E6C0..1E6FF	Tai Yo	Tai yo sign om		
-U+1E6FE	𞛾	1E6C0..1E6FF	Tai Yo	Tai yo symbol mueang		
-U+1E6FF	𞛿	1E6C0..1E6FF	Tai Yo	Tai yo xam lai		
+code_points	chars	tab_completions	unicode_name	base
+U+1E6C0	𞛀		TAI YO LETTER LOW KO	
+U+1E6C1	𞛁		TAI YO LETTER HIGH KO	
+U+1E6C2	𞛂		TAI YO LETTER LOW KHO	
+U+1E6C3	𞛃		TAI YO LETTER HIGH KHO	
+U+1E6C4	𞛄		TAI YO LETTER GO	
+U+1E6C5	𞛅		TAI YO LETTER NGO	
+U+1E6C6	𞛆		TAI YO LETTER CO	
+U+1E6C7	𞛇		TAI YO LETTER LOW XO	
+U+1E6C8	𞛈		TAI YO LETTER HIGH XO	
+U+1E6C9	𞛉		TAI YO LETTER LOW NYO	
+U+1E6CA	𞛊		TAI YO LETTER HIGH NYO	
+U+1E6CB	𞛋		TAI YO LETTER DO	
+U+1E6CC	𞛌		TAI YO LETTER LOW TO	
+U+1E6CD	𞛍		TAI YO LETTER HIGH TO	
+U+1E6CE	𞛎		TAI YO LETTER THO	
+U+1E6CF	𞛏		TAI YO LETTER NO	
+U+1E6D0	𞛐		TAI YO LETTER BO	
+U+1E6D1	𞛑		TAI YO LETTER LOW PO	
+U+1E6D2	𞛒		TAI YO LETTER HIGH PO	
+U+1E6D3	𞛓		TAI YO LETTER PHO	
+U+1E6D4	𞛔		TAI YO LETTER LOW FO	
+U+1E6D5	𞛕		TAI YO LETTER HIGH FO	
+U+1E6D6	𞛖		TAI YO LETTER MO	
+U+1E6D7	𞛗		TAI YO LETTER YO	
+U+1E6D8	𞛘		TAI YO LETTER LO	
+U+1E6D9	𞛙		TAI YO LETTER VO	
+U+1E6DA	𞛚		TAI YO LETTER LOW HO	
+U+1E6DB	𞛛		TAI YO LETTER HIGH HO	
+U+1E6DC	𞛜		TAI YO LETTER QO	
+U+1E6DD	𞛝		TAI YO LETTER LOW KVO	
+U+1E6DE	𞛞		TAI YO LETTER HIGH KVO	
+U+1E6E0	𞛠		TAI YO LETTER AA	
+U+1E6E1	𞛡		TAI YO LETTER I	
+U+1E6E2	𞛢		TAI YO LETTER UE	
+U+1E6E3	𞛣		TAI YO SIGN UE	
+U+1E6E4	𞛤		TAI YO LETTER U	
+U+1E6E5	𞛥		TAI YO LETTER AE	
+U+1E6E6	𞛦		TAI YO SIGN AU	
+U+1E6E7	𞛧		TAI YO LETTER O	
+U+1E6E8	𞛨		TAI YO LETTER E	
+U+1E6E9	𞛩		TAI YO LETTER IA	
+U+1E6EA	𞛪		TAI YO LETTER UEA	
+U+1E6EB	𞛫		TAI YO LETTER UA	
+U+1E6EC	𞛬		TAI YO LETTER OO	
+U+1E6ED	𞛭		TAI YO LETTER AUE	
+U+1E6EE	𞛮		TAI YO SIGN AY	
+U+1E6EF	𞛯		TAI YO SIGN ANG	
+U+1E6F0	𞛰		TAI YO LETTER AN	
+U+1E6F1	𞛱		TAI YO LETTER AM	
+U+1E6F2	𞛲		TAI YO LETTER AK	
+U+1E6F3	𞛳		TAI YO LETTER AT	
+U+1E6F4	𞛴		TAI YO LETTER AP	
+U+1E6F5	𞛵		TAI YO SIGN OM	
+U+1E6FE	𞛾		TAI YO SYMBOL MUEANG	
+U+1E6FF	𞛿		TAI YO XAM LAI	

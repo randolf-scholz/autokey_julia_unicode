@@ -1,29 +1,29 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E7E0	𞟠	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhya		
-U+1E7E1	𞟡	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyu		
-U+1E7E2	𞟢	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyi		
-U+1E7E3	𞟣	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyaa		
-U+1E7E4	𞟤	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyee		
-U+1E7E5	𞟥	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhye		
-U+1E7E6	𞟦	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhyo		
-U+1E7E8	𞟨	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage hhwa		
-U+1E7E9	𞟩	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwi		
-U+1E7EA	𞟪	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwee		
-U+1E7EB	𞟫	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable hhwe		
-U+1E7ED	𞟭	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage mwi		
-U+1E7EE	𞟮	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage mwee		
-U+1E7F0	𞟰	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwi		
-U+1E7F1	𞟱	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwee		
-U+1E7F2	𞟲	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage qwe		
-U+1E7F3	𞟳	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage bwi		
-U+1E7F4	𞟴	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage bwee		
-U+1E7F5	𞟵	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwi		
-U+1E7F6	𞟶	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwee		
-U+1E7F7	𞟷	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage kwe		
-U+1E7F8	𞟸	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwi		
-U+1E7F9	𞟹	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwee		
-U+1E7FA	𞟺	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage gwe		
-U+1E7FB	𞟻	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage fwi		
-U+1E7FC	𞟼	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage fwee		
-U+1E7FD	𞟽	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage pwi		
-U+1E7FE	𞟾	1E7E0..1E7FF	Ethiopic Extended-B	Ethiopic syllable gurage pwee		
+code_points	chars	tab_completions	unicode_name	base
+U+1E7E0	𞟠		ETHIOPIC SYLLABLE HHYA	
+U+1E7E1	𞟡		ETHIOPIC SYLLABLE HHYU	
+U+1E7E2	𞟢		ETHIOPIC SYLLABLE HHYI	
+U+1E7E3	𞟣		ETHIOPIC SYLLABLE HHYAA	
+U+1E7E4	𞟤		ETHIOPIC SYLLABLE HHYEE	
+U+1E7E5	𞟥		ETHIOPIC SYLLABLE HHYE	
+U+1E7E6	𞟦		ETHIOPIC SYLLABLE HHYO	
+U+1E7E8	𞟨		ETHIOPIC SYLLABLE GURAGE HHWA	
+U+1E7E9	𞟩		ETHIOPIC SYLLABLE HHWI	
+U+1E7EA	𞟪		ETHIOPIC SYLLABLE HHWEE	
+U+1E7EB	𞟫		ETHIOPIC SYLLABLE HHWE	
+U+1E7ED	𞟭		ETHIOPIC SYLLABLE GURAGE MWI	
+U+1E7EE	𞟮		ETHIOPIC SYLLABLE GURAGE MWEE	
+U+1E7F0	𞟰		ETHIOPIC SYLLABLE GURAGE QWI	
+U+1E7F1	𞟱		ETHIOPIC SYLLABLE GURAGE QWEE	
+U+1E7F2	𞟲		ETHIOPIC SYLLABLE GURAGE QWE	
+U+1E7F3	𞟳		ETHIOPIC SYLLABLE GURAGE BWI	
+U+1E7F4	𞟴		ETHIOPIC SYLLABLE GURAGE BWEE	
+U+1E7F5	𞟵		ETHIOPIC SYLLABLE GURAGE KWI	
+U+1E7F6	𞟶		ETHIOPIC SYLLABLE GURAGE KWEE	
+U+1E7F7	𞟷		ETHIOPIC SYLLABLE GURAGE KWE	
+U+1E7F8	𞟸		ETHIOPIC SYLLABLE GURAGE GWI	
+U+1E7F9	𞟹		ETHIOPIC SYLLABLE GURAGE GWEE	
+U+1E7FA	𞟺		ETHIOPIC SYLLABLE GURAGE GWE	
+U+1E7FB	𞟻		ETHIOPIC SYLLABLE GURAGE FWI	
+U+1E7FC	𞟼		ETHIOPIC SYLLABLE GURAGE FWEE	
+U+1E7FD	𞟽		ETHIOPIC SYLLABLE GURAGE PWI	
+U+1E7FE	𞟾		ETHIOPIC SYLLABLE GURAGE PWEE	

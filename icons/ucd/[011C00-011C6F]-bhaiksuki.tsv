@@ -1,98 +1,98 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11C00	𑰀	11C00..11C6F	Bhaiksuki	Bhaiksuki letter a		
-U+11C01	𑰁	11C00..11C6F	Bhaiksuki	Bhaiksuki letter aa		
-U+11C02	𑰂	11C00..11C6F	Bhaiksuki	Bhaiksuki letter i		
-U+11C03	𑰃	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ii		
-U+11C04	𑰄	11C00..11C6F	Bhaiksuki	Bhaiksuki letter u		
-U+11C05	𑰅	11C00..11C6F	Bhaiksuki	Bhaiksuki letter uu		
-U+11C06	𑰆	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic r		
-U+11C07	𑰇	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic rr		
-U+11C08	𑰈	11C00..11C6F	Bhaiksuki	Bhaiksuki letter vocalic l		
-U+11C0A	𑰊	11C00..11C6F	Bhaiksuki	Bhaiksuki letter e		
-U+11C0B	𑰋	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ai		
-U+11C0C	𑰌	11C00..11C6F	Bhaiksuki	Bhaiksuki letter o		
-U+11C0D	𑰍	11C00..11C6F	Bhaiksuki	Bhaiksuki letter au		
-U+11C0E	𑰎	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ka		
-U+11C0F	𑰏	11C00..11C6F	Bhaiksuki	Bhaiksuki letter kha		
-U+11C10	𑰐	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ga		
-U+11C11	𑰑	11C00..11C6F	Bhaiksuki	Bhaiksuki letter gha		
-U+11C12	𑰒	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nga		
-U+11C13	𑰓	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ca		
-U+11C14	𑰔	11C00..11C6F	Bhaiksuki	Bhaiksuki letter cha		
-U+11C15	𑰕	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ja		
-U+11C16	𑰖	11C00..11C6F	Bhaiksuki	Bhaiksuki letter jha		
-U+11C17	𑰗	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nya		
-U+11C18	𑰘	11C00..11C6F	Bhaiksuki	Bhaiksuki letter tta		
-U+11C19	𑰙	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ttha		
-U+11C1A	𑰚	11C00..11C6F	Bhaiksuki	Bhaiksuki letter dda		
-U+11C1B	𑰛	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ddha		
-U+11C1C	𑰜	11C00..11C6F	Bhaiksuki	Bhaiksuki letter nna		
-U+11C1D	𑰝	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ta		
-U+11C1E	𑰞	11C00..11C6F	Bhaiksuki	Bhaiksuki letter tha		
-U+11C1F	𑰟	11C00..11C6F	Bhaiksuki	Bhaiksuki letter da		
-U+11C20	𑰠	11C00..11C6F	Bhaiksuki	Bhaiksuki letter dha		
-U+11C21	𑰡	11C00..11C6F	Bhaiksuki	Bhaiksuki letter na		
-U+11C22	𑰢	11C00..11C6F	Bhaiksuki	Bhaiksuki letter pa		
-U+11C23	𑰣	11C00..11C6F	Bhaiksuki	Bhaiksuki letter pha		
-U+11C24	𑰤	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ba		
-U+11C25	𑰥	11C00..11C6F	Bhaiksuki	Bhaiksuki letter bha		
-U+11C26	𑰦	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ma		
-U+11C27	𑰧	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ya		
-U+11C28	𑰨	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ra		
-U+11C29	𑰩	11C00..11C6F	Bhaiksuki	Bhaiksuki letter la		
-U+11C2A	𑰪	11C00..11C6F	Bhaiksuki	Bhaiksuki letter va		
-U+11C2B	𑰫	11C00..11C6F	Bhaiksuki	Bhaiksuki letter sha		
-U+11C2C	𑰬	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ssa		
-U+11C2D	𑰭	11C00..11C6F	Bhaiksuki	Bhaiksuki letter sa		
-U+11C2E	𑰮	11C00..11C6F	Bhaiksuki	Bhaiksuki letter ha		
-U+11C2F	𑰯	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign aa		
-U+11C30	𑰰	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign i		
-U+11C31	𑰱	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign ii		
-U+11C32	𑰲	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign u		
-U+11C33	𑰳	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign uu		
-U+11C34	𑰴	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic r		
-U+11C35	𑰵	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic rr		
-U+11C36	𑰶	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign vocalic l		
-U+11C38	𑰸	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign e		
-U+11C39	𑰹	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign ai		
-U+11C3A	𑰺	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign o		
-U+11C3B	𑰻	11C00..11C6F	Bhaiksuki	Bhaiksuki vowel sign au		
-U+11C3C	𑰼	11C00..11C6F	Bhaiksuki	Bhaiksuki sign candrabindu		
-U+11C3D	𑰽	11C00..11C6F	Bhaiksuki	Bhaiksuki sign anusvara		
-U+11C3E	𑰾	11C00..11C6F	Bhaiksuki	Bhaiksuki sign visarga		
-U+11C3F	𑰿	11C00..11C6F	Bhaiksuki	Bhaiksuki sign virama		
-U+11C40	𑱀	11C00..11C6F	Bhaiksuki	Bhaiksuki sign avagraha		
-U+11C41	𑱁	11C00..11C6F	Bhaiksuki	Bhaiksuki danda		
-U+11C42	𑱂	11C00..11C6F	Bhaiksuki	Bhaiksuki double danda		
-U+11C43	𑱃	11C00..11C6F	Bhaiksuki	Bhaiksuki word separator		
-U+11C44	𑱄	11C00..11C6F	Bhaiksuki	Bhaiksuki gap filler-1		
-U+11C45	𑱅	11C00..11C6F	Bhaiksuki	Bhaiksuki gap filler-2		
-U+11C50	𑱐	11C00..11C6F	Bhaiksuki	Bhaiksuki digit zero		
-U+11C51	𑱑	11C00..11C6F	Bhaiksuki	Bhaiksuki digit one		
-U+11C52	𑱒	11C00..11C6F	Bhaiksuki	Bhaiksuki digit two		
-U+11C53	𑱓	11C00..11C6F	Bhaiksuki	Bhaiksuki digit three		
-U+11C54	𑱔	11C00..11C6F	Bhaiksuki	Bhaiksuki digit four		
-U+11C55	𑱕	11C00..11C6F	Bhaiksuki	Bhaiksuki digit five		
-U+11C56	𑱖	11C00..11C6F	Bhaiksuki	Bhaiksuki digit six		
-U+11C57	𑱗	11C00..11C6F	Bhaiksuki	Bhaiksuki digit seven		
-U+11C58	𑱘	11C00..11C6F	Bhaiksuki	Bhaiksuki digit eight		
-U+11C59	𑱙	11C00..11C6F	Bhaiksuki	Bhaiksuki digit nine		
-U+11C5A	𑱚	11C00..11C6F	Bhaiksuki	Bhaiksuki number one		
-U+11C5B	𑱛	11C00..11C6F	Bhaiksuki	Bhaiksuki number two		
-U+11C5C	𑱜	11C00..11C6F	Bhaiksuki	Bhaiksuki number three		
-U+11C5D	𑱝	11C00..11C6F	Bhaiksuki	Bhaiksuki number four		
-U+11C5E	𑱞	11C00..11C6F	Bhaiksuki	Bhaiksuki number five		
-U+11C5F	𑱟	11C00..11C6F	Bhaiksuki	Bhaiksuki number six		
-U+11C60	𑱠	11C00..11C6F	Bhaiksuki	Bhaiksuki number seven		
-U+11C61	𑱡	11C00..11C6F	Bhaiksuki	Bhaiksuki number eight		
-U+11C62	𑱢	11C00..11C6F	Bhaiksuki	Bhaiksuki number nine		
-U+11C63	𑱣	11C00..11C6F	Bhaiksuki	Bhaiksuki number ten		
-U+11C64	𑱤	11C00..11C6F	Bhaiksuki	Bhaiksuki number twenty		
-U+11C65	𑱥	11C00..11C6F	Bhaiksuki	Bhaiksuki number thirty		
-U+11C66	𑱦	11C00..11C6F	Bhaiksuki	Bhaiksuki number forty		
-U+11C67	𑱧	11C00..11C6F	Bhaiksuki	Bhaiksuki number fifty		
-U+11C68	𑱨	11C00..11C6F	Bhaiksuki	Bhaiksuki number sixty		
-U+11C69	𑱩	11C00..11C6F	Bhaiksuki	Bhaiksuki number seventy		
-U+11C6A	𑱪	11C00..11C6F	Bhaiksuki	Bhaiksuki number eighty		
-U+11C6B	𑱫	11C00..11C6F	Bhaiksuki	Bhaiksuki number ninety		
-U+11C6C	𑱬	11C00..11C6F	Bhaiksuki	Bhaiksuki hundreds unit mark		
+code_points	chars	tab_completions	unicode_name	base
+U+11C00	𑰀		BHAIKSUKI LETTER A	
+U+11C01	𑰁		BHAIKSUKI LETTER AA	
+U+11C02	𑰂		BHAIKSUKI LETTER I	
+U+11C03	𑰃		BHAIKSUKI LETTER II	
+U+11C04	𑰄		BHAIKSUKI LETTER U	
+U+11C05	𑰅		BHAIKSUKI LETTER UU	
+U+11C06	𑰆		BHAIKSUKI LETTER VOCALIC R	
+U+11C07	𑰇		BHAIKSUKI LETTER VOCALIC RR	
+U+11C08	𑰈		BHAIKSUKI LETTER VOCALIC L	
+U+11C0A	𑰊		BHAIKSUKI LETTER E	
+U+11C0B	𑰋		BHAIKSUKI LETTER AI	
+U+11C0C	𑰌		BHAIKSUKI LETTER O	
+U+11C0D	𑰍		BHAIKSUKI LETTER AU	
+U+11C0E	𑰎		BHAIKSUKI LETTER KA	
+U+11C0F	𑰏		BHAIKSUKI LETTER KHA	
+U+11C10	𑰐		BHAIKSUKI LETTER GA	
+U+11C11	𑰑		BHAIKSUKI LETTER GHA	
+U+11C12	𑰒		BHAIKSUKI LETTER NGA	
+U+11C13	𑰓		BHAIKSUKI LETTER CA	
+U+11C14	𑰔		BHAIKSUKI LETTER CHA	
+U+11C15	𑰕		BHAIKSUKI LETTER JA	
+U+11C16	𑰖		BHAIKSUKI LETTER JHA	
+U+11C17	𑰗		BHAIKSUKI LETTER NYA	
+U+11C18	𑰘		BHAIKSUKI LETTER TTA	
+U+11C19	𑰙		BHAIKSUKI LETTER TTHA	
+U+11C1A	𑰚		BHAIKSUKI LETTER DDA	
+U+11C1B	𑰛		BHAIKSUKI LETTER DDHA	
+U+11C1C	𑰜		BHAIKSUKI LETTER NNA	
+U+11C1D	𑰝		BHAIKSUKI LETTER TA	
+U+11C1E	𑰞		BHAIKSUKI LETTER THA	
+U+11C1F	𑰟		BHAIKSUKI LETTER DA	
+U+11C20	𑰠		BHAIKSUKI LETTER DHA	
+U+11C21	𑰡		BHAIKSUKI LETTER NA	
+U+11C22	𑰢		BHAIKSUKI LETTER PA	
+U+11C23	𑰣		BHAIKSUKI LETTER PHA	
+U+11C24	𑰤		BHAIKSUKI LETTER BA	
+U+11C25	𑰥		BHAIKSUKI LETTER BHA	
+U+11C26	𑰦		BHAIKSUKI LETTER MA	
+U+11C27	𑰧		BHAIKSUKI LETTER YA	
+U+11C28	𑰨		BHAIKSUKI LETTER RA	
+U+11C29	𑰩		BHAIKSUKI LETTER LA	
+U+11C2A	𑰪		BHAIKSUKI LETTER VA	
+U+11C2B	𑰫		BHAIKSUKI LETTER SHA	
+U+11C2C	𑰬		BHAIKSUKI LETTER SSA	
+U+11C2D	𑰭		BHAIKSUKI LETTER SA	
+U+11C2E	𑰮		BHAIKSUKI LETTER HA	
+U+11C2F	𑰯		BHAIKSUKI VOWEL SIGN AA	
+U+11C30	𑰰		BHAIKSUKI VOWEL SIGN I	
+U+11C31	𑰱		BHAIKSUKI VOWEL SIGN II	
+U+11C32	𑰲		BHAIKSUKI VOWEL SIGN U	
+U+11C33	𑰳		BHAIKSUKI VOWEL SIGN UU	
+U+11C34	𑰴		BHAIKSUKI VOWEL SIGN VOCALIC R	
+U+11C35	𑰵		BHAIKSUKI VOWEL SIGN VOCALIC RR	
+U+11C36	𑰶		BHAIKSUKI VOWEL SIGN VOCALIC L	
+U+11C38	𑰸		BHAIKSUKI VOWEL SIGN E	
+U+11C39	𑰹		BHAIKSUKI VOWEL SIGN AI	
+U+11C3A	𑰺		BHAIKSUKI VOWEL SIGN O	
+U+11C3B	𑰻		BHAIKSUKI VOWEL SIGN AU	
+U+11C3C	𑰼		BHAIKSUKI SIGN CANDRABINDU	
+U+11C3D	𑰽		BHAIKSUKI SIGN ANUSVARA	
+U+11C3E	𑰾		BHAIKSUKI SIGN VISARGA	
+U+11C3F	𑰿		BHAIKSUKI SIGN VIRAMA	
+U+11C40	𑱀		BHAIKSUKI SIGN AVAGRAHA	
+U+11C41	𑱁		BHAIKSUKI DANDA	
+U+11C42	𑱂		BHAIKSUKI DOUBLE DANDA	
+U+11C43	𑱃		BHAIKSUKI WORD SEPARATOR	
+U+11C44	𑱄		BHAIKSUKI GAP FILLER-1	
+U+11C45	𑱅		BHAIKSUKI GAP FILLER-2	
+U+11C50	𑱐		BHAIKSUKI DIGIT ZERO	
+U+11C51	𑱑		BHAIKSUKI DIGIT ONE	
+U+11C52	𑱒		BHAIKSUKI DIGIT TWO	
+U+11C53	𑱓		BHAIKSUKI DIGIT THREE	
+U+11C54	𑱔		BHAIKSUKI DIGIT FOUR	
+U+11C55	𑱕		BHAIKSUKI DIGIT FIVE	
+U+11C56	𑱖		BHAIKSUKI DIGIT SIX	
+U+11C57	𑱗		BHAIKSUKI DIGIT SEVEN	
+U+11C58	𑱘		BHAIKSUKI DIGIT EIGHT	
+U+11C59	𑱙		BHAIKSUKI DIGIT NINE	
+U+11C5A	𑱚		BHAIKSUKI NUMBER ONE	
+U+11C5B	𑱛		BHAIKSUKI NUMBER TWO	
+U+11C5C	𑱜		BHAIKSUKI NUMBER THREE	
+U+11C5D	𑱝		BHAIKSUKI NUMBER FOUR	
+U+11C5E	𑱞		BHAIKSUKI NUMBER FIVE	
+U+11C5F	𑱟		BHAIKSUKI NUMBER SIX	
+U+11C60	𑱠		BHAIKSUKI NUMBER SEVEN	
+U+11C61	𑱡		BHAIKSUKI NUMBER EIGHT	
+U+11C62	𑱢		BHAIKSUKI NUMBER NINE	
+U+11C63	𑱣		BHAIKSUKI NUMBER TEN	
+U+11C64	𑱤		BHAIKSUKI NUMBER TWENTY	
+U+11C65	𑱥		BHAIKSUKI NUMBER THIRTY	
+U+11C66	𑱦		BHAIKSUKI NUMBER FORTY	
+U+11C67	𑱧		BHAIKSUKI NUMBER FIFTY	
+U+11C68	𑱨		BHAIKSUKI NUMBER SIXTY	
+U+11C69	𑱩		BHAIKSUKI NUMBER SEVENTY	
+U+11C6A	𑱪		BHAIKSUKI NUMBER EIGHTY	
+U+11C6B	𑱫		BHAIKSUKI NUMBER NINETY	
+U+11C6C	𑱬		BHAIKSUKI HUNDREDS UNIT MARK	

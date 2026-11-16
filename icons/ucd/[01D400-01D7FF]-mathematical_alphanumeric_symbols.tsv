@@ -1,998 +1,998 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D400	𝐀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital a		
-U+1D401	𝐁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital b		
-U+1D402	𝐂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital c		
-U+1D403	𝐃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital d		
-U+1D404	𝐄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital e		
-U+1D405	𝐅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital f		
-U+1D406	𝐆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital g		
-U+1D407	𝐇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital h		
-U+1D408	𝐈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital i		
-U+1D409	𝐉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital j		
-U+1D40A	𝐊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital k		
-U+1D40B	𝐋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital l		
-U+1D40C	𝐌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital m		
-U+1D40D	𝐍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital n		
-U+1D40E	𝐎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital o		
-U+1D40F	𝐏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital p		
-U+1D410	𝐐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital q		
-U+1D411	𝐑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital r		
-U+1D412	𝐒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital s		
-U+1D413	𝐓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital t		
-U+1D414	𝐔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital u		
-U+1D415	𝐕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital v		
-U+1D416	𝐖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital w		
-U+1D417	𝐗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital x		
-U+1D418	𝐘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital y		
-U+1D419	𝐙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital z		
-U+1D41A	𝐚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small a		
-U+1D41B	𝐛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small b		
-U+1D41C	𝐜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small c		
-U+1D41D	𝐝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small d		
-U+1D41E	𝐞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small e		
-U+1D41F	𝐟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small f		
-U+1D420	𝐠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small g		
-U+1D421	𝐡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small h		
-U+1D422	𝐢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small i		
-U+1D423	𝐣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small j		
-U+1D424	𝐤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small k		
-U+1D425	𝐥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small l		
-U+1D426	𝐦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small m		
-U+1D427	𝐧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small n		
-U+1D428	𝐨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small o		
-U+1D429	𝐩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small p		
-U+1D42A	𝐪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small q		
-U+1D42B	𝐫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small r		
-U+1D42C	𝐬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small s		
-U+1D42D	𝐭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small t		
-U+1D42E	𝐮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small u		
-U+1D42F	𝐯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small v		
-U+1D430	𝐰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small w		
-U+1D431	𝐱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small x		
-U+1D432	𝐲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small y		
-U+1D433	𝐳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small z		
-U+1D434	𝐴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital a		
-U+1D435	𝐵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital b		
-U+1D436	𝐶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital c		
-U+1D437	𝐷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital d		
-U+1D438	𝐸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital e		
-U+1D439	𝐹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital f		
-U+1D43A	𝐺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital g		
-U+1D43B	𝐻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital h		
-U+1D43C	𝐼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital i		
-U+1D43D	𝐽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital j		
-U+1D43E	𝐾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital k		
-U+1D43F	𝐿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital l		
-U+1D440	𝑀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital m		
-U+1D441	𝑁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital n		
-U+1D442	𝑂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital o		
-U+1D443	𝑃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital p		
-U+1D444	𝑄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital q		
-U+1D445	𝑅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital r		
-U+1D446	𝑆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital s		
-U+1D447	𝑇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital t		
-U+1D448	𝑈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital u		
-U+1D449	𝑉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital v		
-U+1D44A	𝑊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital w		
-U+1D44B	𝑋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital x		
-U+1D44C	𝑌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital y		
-U+1D44D	𝑍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital z		
-U+1D44E	𝑎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small a		
-U+1D44F	𝑏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small b		
-U+1D450	𝑐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small c		
-U+1D451	𝑑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small d		
-U+1D452	𝑒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small e		
-U+1D453	𝑓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small f		
-U+1D454	𝑔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small g		
-U+1D456	𝑖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small i		
-U+1D457	𝑗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small j		
-U+1D458	𝑘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small k		
-U+1D459	𝑙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small l		
-U+1D45A	𝑚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small m		
-U+1D45B	𝑛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small n		
-U+1D45C	𝑜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small o		
-U+1D45D	𝑝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small p		
-U+1D45E	𝑞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small q		
-U+1D45F	𝑟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small r		
-U+1D460	𝑠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small s		
-U+1D461	𝑡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small t		
-U+1D462	𝑢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small u		
-U+1D463	𝑣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small v		
-U+1D464	𝑤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small w		
-U+1D465	𝑥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small x		
-U+1D466	𝑦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small y		
-U+1D467	𝑧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small z		
-U+1D468	𝑨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital a		
-U+1D469	𝑩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital b		
-U+1D46A	𝑪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital c		
-U+1D46B	𝑫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital d		
-U+1D46C	𝑬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital e		
-U+1D46D	𝑭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital f		
-U+1D46E	𝑮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital g		
-U+1D46F	𝑯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital h		
-U+1D470	𝑰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital i		
-U+1D471	𝑱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital j		
-U+1D472	𝑲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital k		
-U+1D473	𝑳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital l		
-U+1D474	𝑴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital m		
-U+1D475	𝑵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital n		
-U+1D476	𝑶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital o		
-U+1D477	𝑷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital p		
-U+1D478	𝑸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital q		
-U+1D479	𝑹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital r		
-U+1D47A	𝑺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital s		
-U+1D47B	𝑻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital t		
-U+1D47C	𝑼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital u		
-U+1D47D	𝑽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital v		
-U+1D47E	𝑾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital w		
-U+1D47F	𝑿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital x		
-U+1D480	𝒀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital y		
-U+1D481	𝒁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital z		
-U+1D482	𝒂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small a		
-U+1D483	𝒃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small b		
-U+1D484	𝒄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small c		
-U+1D485	𝒅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small d		
-U+1D486	𝒆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small e		
-U+1D487	𝒇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small f		
-U+1D488	𝒈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small g		
-U+1D489	𝒉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small h		
-U+1D48A	𝒊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small i		
-U+1D48B	𝒋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small j		
-U+1D48C	𝒌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small k		
-U+1D48D	𝒍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small l		
-U+1D48E	𝒎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small m		
-U+1D48F	𝒏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small n		
-U+1D490	𝒐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small o		
-U+1D491	𝒑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small p		
-U+1D492	𝒒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small q		
-U+1D493	𝒓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small r		
-U+1D494	𝒔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small s		
-U+1D495	𝒕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small t		
-U+1D496	𝒖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small u		
-U+1D497	𝒗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small v		
-U+1D498	𝒘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small w		
-U+1D499	𝒙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small x		
-U+1D49A	𝒚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small y		
-U+1D49B	𝒛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small z		
-U+1D49C	𝒜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital a		
-U+1D49E	𝒞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital c		
-U+1D49F	𝒟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital d		
-U+1D4A2	𝒢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital g		
-U+1D4A5	𝒥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital j		
-U+1D4A6	𝒦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital k		
-U+1D4A9	𝒩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital n		
-U+1D4AA	𝒪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital o		
-U+1D4AB	𝒫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital p		
-U+1D4AC	𝒬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital q		
-U+1D4AE	𝒮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital s		
-U+1D4AF	𝒯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital t		
-U+1D4B0	𝒰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital u		
-U+1D4B1	𝒱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital v		
-U+1D4B2	𝒲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital w		
-U+1D4B3	𝒳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital x		
-U+1D4B4	𝒴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital y		
-U+1D4B5	𝒵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script capital z		
-U+1D4B6	𝒶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small a		
-U+1D4B7	𝒷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small b		
-U+1D4B8	𝒸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small c		
-U+1D4B9	𝒹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small d		
-U+1D4BB	𝒻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small f		
-U+1D4BD	𝒽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small h		
-U+1D4BE	𝒾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small i		
-U+1D4BF	𝒿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small j		
-U+1D4C0	𝓀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small k		
-U+1D4C1	𝓁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small l		
-U+1D4C2	𝓂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small m		
-U+1D4C3	𝓃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small n		
-U+1D4C5	𝓅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small p		
-U+1D4C6	𝓆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small q		
-U+1D4C7	𝓇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small r		
-U+1D4C8	𝓈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small s		
-U+1D4C9	𝓉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small t		
-U+1D4CA	𝓊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small u		
-U+1D4CB	𝓋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small v		
-U+1D4CC	𝓌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small w		
-U+1D4CD	𝓍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small x		
-U+1D4CE	𝓎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small y		
-U+1D4CF	𝓏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical script small z		
-U+1D4D0	𝓐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital a		
-U+1D4D1	𝓑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital b		
-U+1D4D2	𝓒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital c		
-U+1D4D3	𝓓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital d		
-U+1D4D4	𝓔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital e		
-U+1D4D5	𝓕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital f		
-U+1D4D6	𝓖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital g		
-U+1D4D7	𝓗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital h		
-U+1D4D8	𝓘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital i		
-U+1D4D9	𝓙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital j		
-U+1D4DA	𝓚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital k		
-U+1D4DB	𝓛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital l		
-U+1D4DC	𝓜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital m		
-U+1D4DD	𝓝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital n		
-U+1D4DE	𝓞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital o		
-U+1D4DF	𝓟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital p		
-U+1D4E0	𝓠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital q		
-U+1D4E1	𝓡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital r		
-U+1D4E2	𝓢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital s		
-U+1D4E3	𝓣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital t		
-U+1D4E4	𝓤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital u		
-U+1D4E5	𝓥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital v		
-U+1D4E6	𝓦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital w		
-U+1D4E7	𝓧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital x		
-U+1D4E8	𝓨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital y		
-U+1D4E9	𝓩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script capital z		
-U+1D4EA	𝓪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small a		
-U+1D4EB	𝓫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small b		
-U+1D4EC	𝓬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small c		
-U+1D4ED	𝓭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small d		
-U+1D4EE	𝓮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small e		
-U+1D4EF	𝓯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small f		
-U+1D4F0	𝓰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small g		
-U+1D4F1	𝓱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small h		
-U+1D4F2	𝓲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small i		
-U+1D4F3	𝓳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small j		
-U+1D4F4	𝓴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small k		
-U+1D4F5	𝓵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small l		
-U+1D4F6	𝓶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small m		
-U+1D4F7	𝓷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small n		
-U+1D4F8	𝓸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small o		
-U+1D4F9	𝓹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small p		
-U+1D4FA	𝓺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small q		
-U+1D4FB	𝓻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small r		
-U+1D4FC	𝓼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small s		
-U+1D4FD	𝓽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small t		
-U+1D4FE	𝓾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small u		
-U+1D4FF	𝓿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small v		
-U+1D500	𝔀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small w		
-U+1D501	𝔁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small x		
-U+1D502	𝔂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small y		
-U+1D503	𝔃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold script small z		
-U+1D504	𝔄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital a		
-U+1D505	𝔅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital b		
-U+1D507	𝔇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital d		
-U+1D508	𝔈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital e		
-U+1D509	𝔉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital f		
-U+1D50A	𝔊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital g		
-U+1D50D	𝔍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital j		
-U+1D50E	𝔎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital k		
-U+1D50F	𝔏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital l		
-U+1D510	𝔐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital m		
-U+1D511	𝔑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital n		
-U+1D512	𝔒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital o		
-U+1D513	𝔓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital p		
-U+1D514	𝔔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital q		
-U+1D516	𝔖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital s		
-U+1D517	𝔗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital t		
-U+1D518	𝔘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital u		
-U+1D519	𝔙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital v		
-U+1D51A	𝔚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital w		
-U+1D51B	𝔛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital x		
-U+1D51C	𝔜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur capital y		
-U+1D51E	𝔞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small a		
-U+1D51F	𝔟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small b		
-U+1D520	𝔠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small c		
-U+1D521	𝔡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small d		
-U+1D522	𝔢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small e		
-U+1D523	𝔣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small f		
-U+1D524	𝔤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small g		
-U+1D525	𝔥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small h		
-U+1D526	𝔦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small i		
-U+1D527	𝔧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small j		
-U+1D528	𝔨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small k		
-U+1D529	𝔩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small l		
-U+1D52A	𝔪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small m		
-U+1D52B	𝔫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small n		
-U+1D52C	𝔬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small o		
-U+1D52D	𝔭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small p		
-U+1D52E	𝔮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small q		
-U+1D52F	𝔯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small r		
-U+1D530	𝔰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small s		
-U+1D531	𝔱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small t		
-U+1D532	𝔲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small u		
-U+1D533	𝔳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small v		
-U+1D534	𝔴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small w		
-U+1D535	𝔵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small x		
-U+1D536	𝔶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small y		
-U+1D537	𝔷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical fraktur small z		
-U+1D538	𝔸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital a		
-U+1D539	𝔹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital b		
-U+1D53B	𝔻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital d		
-U+1D53C	𝔼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital e		
-U+1D53D	𝔽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital f		
-U+1D53E	𝔾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital g		
-U+1D540	𝕀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital i		
-U+1D541	𝕁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital j		
-U+1D542	𝕂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital k		
-U+1D543	𝕃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital l		
-U+1D544	𝕄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital m		
-U+1D546	𝕆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital o		
-U+1D54A	𝕊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital s		
-U+1D54B	𝕋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital t		
-U+1D54C	𝕌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital u		
-U+1D54D	𝕍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital v		
-U+1D54E	𝕎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital w		
-U+1D54F	𝕏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital x		
-U+1D550	𝕐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck capital y		
-U+1D552	𝕒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small a		
-U+1D553	𝕓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small b		
-U+1D554	𝕔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small c		
-U+1D555	𝕕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small d		
-U+1D556	𝕖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small e		
-U+1D557	𝕗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small f		
-U+1D558	𝕘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small g		
-U+1D559	𝕙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small h		
-U+1D55A	𝕚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small i		
-U+1D55B	𝕛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small j		
-U+1D55C	𝕜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small k		
-U+1D55D	𝕝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small l		
-U+1D55E	𝕞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small m		
-U+1D55F	𝕟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small n		
-U+1D560	𝕠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small o		
-U+1D561	𝕡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small p		
-U+1D562	𝕢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small q		
-U+1D563	𝕣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small r		
-U+1D564	𝕤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small s		
-U+1D565	𝕥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small t		
-U+1D566	𝕦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small u		
-U+1D567	𝕧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small v		
-U+1D568	𝕨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small w		
-U+1D569	𝕩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small x		
-U+1D56A	𝕪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small y		
-U+1D56B	𝕫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck small z		
-U+1D56C	𝕬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital a		
-U+1D56D	𝕭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital b		
-U+1D56E	𝕮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital c		
-U+1D56F	𝕯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital d		
-U+1D570	𝕰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital e		
-U+1D571	𝕱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital f		
-U+1D572	𝕲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital g		
-U+1D573	𝕳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital h		
-U+1D574	𝕴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital i		
-U+1D575	𝕵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital j		
-U+1D576	𝕶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital k		
-U+1D577	𝕷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital l		
-U+1D578	𝕸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital m		
-U+1D579	𝕹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital n		
-U+1D57A	𝕺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital o		
-U+1D57B	𝕻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital p		
-U+1D57C	𝕼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital q		
-U+1D57D	𝕽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital r		
-U+1D57E	𝕾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital s		
-U+1D57F	𝕿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital t		
-U+1D580	𝖀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital u		
-U+1D581	𝖁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital v		
-U+1D582	𝖂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital w		
-U+1D583	𝖃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital x		
-U+1D584	𝖄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital y		
-U+1D585	𝖅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur capital z		
-U+1D586	𝖆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small a		
-U+1D587	𝖇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small b		
-U+1D588	𝖈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small c		
-U+1D589	𝖉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small d		
-U+1D58A	𝖊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small e		
-U+1D58B	𝖋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small f		
-U+1D58C	𝖌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small g		
-U+1D58D	𝖍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small h		
-U+1D58E	𝖎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small i		
-U+1D58F	𝖏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small j		
-U+1D590	𝖐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small k		
-U+1D591	𝖑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small l		
-U+1D592	𝖒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small m		
-U+1D593	𝖓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small n		
-U+1D594	𝖔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small o		
-U+1D595	𝖕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small p		
-U+1D596	𝖖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small q		
-U+1D597	𝖗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small r		
-U+1D598	𝖘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small s		
-U+1D599	𝖙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small t		
-U+1D59A	𝖚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small u		
-U+1D59B	𝖛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small v		
-U+1D59C	𝖜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small w		
-U+1D59D	𝖝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small x		
-U+1D59E	𝖞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small y		
-U+1D59F	𝖟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold fraktur small z		
-U+1D5A0	𝖠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital a		
-U+1D5A1	𝖡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital b		
-U+1D5A2	𝖢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital c		
-U+1D5A3	𝖣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital d		
-U+1D5A4	𝖤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital e		
-U+1D5A5	𝖥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital f		
-U+1D5A6	𝖦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital g		
-U+1D5A7	𝖧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital h		
-U+1D5A8	𝖨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital i		
-U+1D5A9	𝖩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital j		
-U+1D5AA	𝖪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital k		
-U+1D5AB	𝖫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital l		
-U+1D5AC	𝖬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital m		
-U+1D5AD	𝖭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital n		
-U+1D5AE	𝖮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital o		
-U+1D5AF	𝖯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital p		
-U+1D5B0	𝖰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital q		
-U+1D5B1	𝖱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital r		
-U+1D5B2	𝖲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital s		
-U+1D5B3	𝖳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital t		
-U+1D5B4	𝖴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital u		
-U+1D5B5	𝖵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital v		
-U+1D5B6	𝖶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital w		
-U+1D5B7	𝖷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital x		
-U+1D5B8	𝖸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital y		
-U+1D5B9	𝖹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif capital z		
-U+1D5BA	𝖺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small a		
-U+1D5BB	𝖻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small b		
-U+1D5BC	𝖼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small c		
-U+1D5BD	𝖽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small d		
-U+1D5BE	𝖾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small e		
-U+1D5BF	𝖿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small f		
-U+1D5C0	𝗀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small g		
-U+1D5C1	𝗁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small h		
-U+1D5C2	𝗂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small i		
-U+1D5C3	𝗃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small j		
-U+1D5C4	𝗄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small k		
-U+1D5C5	𝗅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small l		
-U+1D5C6	𝗆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small m		
-U+1D5C7	𝗇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small n		
-U+1D5C8	𝗈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small o		
-U+1D5C9	𝗉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small p		
-U+1D5CA	𝗊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small q		
-U+1D5CB	𝗋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small r		
-U+1D5CC	𝗌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small s		
-U+1D5CD	𝗍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small t		
-U+1D5CE	𝗎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small u		
-U+1D5CF	𝗏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small v		
-U+1D5D0	𝗐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small w		
-U+1D5D1	𝗑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small x		
-U+1D5D2	𝗒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small y		
-U+1D5D3	𝗓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif small z		
-U+1D5D4	𝗔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital a		
-U+1D5D5	𝗕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital b		
-U+1D5D6	𝗖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital c		
-U+1D5D7	𝗗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital d		
-U+1D5D8	𝗘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital e		
-U+1D5D9	𝗙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital f		
-U+1D5DA	𝗚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital g		
-U+1D5DB	𝗛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital h		
-U+1D5DC	𝗜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital i		
-U+1D5DD	𝗝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital j		
-U+1D5DE	𝗞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital k		
-U+1D5DF	𝗟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital l		
-U+1D5E0	𝗠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital m		
-U+1D5E1	𝗡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital n		
-U+1D5E2	𝗢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital o		
-U+1D5E3	𝗣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital p		
-U+1D5E4	𝗤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital q		
-U+1D5E5	𝗥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital r		
-U+1D5E6	𝗦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital s		
-U+1D5E7	𝗧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital t		
-U+1D5E8	𝗨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital u		
-U+1D5E9	𝗩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital v		
-U+1D5EA	𝗪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital w		
-U+1D5EB	𝗫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital x		
-U+1D5EC	𝗬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital y		
-U+1D5ED	𝗭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital z		
-U+1D5EE	𝗮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small a		
-U+1D5EF	𝗯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small b		
-U+1D5F0	𝗰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small c		
-U+1D5F1	𝗱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small d		
-U+1D5F2	𝗲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small e		
-U+1D5F3	𝗳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small f		
-U+1D5F4	𝗴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small g		
-U+1D5F5	𝗵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small h		
-U+1D5F6	𝗶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small i		
-U+1D5F7	𝗷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small j		
-U+1D5F8	𝗸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small k		
-U+1D5F9	𝗹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small l		
-U+1D5FA	𝗺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small m		
-U+1D5FB	𝗻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small n		
-U+1D5FC	𝗼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small o		
-U+1D5FD	𝗽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small p		
-U+1D5FE	𝗾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small q		
-U+1D5FF	𝗿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small r		
-U+1D600	𝘀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small s		
-U+1D601	𝘁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small t		
-U+1D602	𝘂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small u		
-U+1D603	𝘃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small v		
-U+1D604	𝘄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small w		
-U+1D605	𝘅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small x		
-U+1D606	𝘆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small y		
-U+1D607	𝘇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small z		
-U+1D608	𝘈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital a		
-U+1D609	𝘉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital b		
-U+1D60A	𝘊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital c		
-U+1D60B	𝘋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital d		
-U+1D60C	𝘌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital e		
-U+1D60D	𝘍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital f		
-U+1D60E	𝘎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital g		
-U+1D60F	𝘏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital h		
-U+1D610	𝘐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital i		
-U+1D611	𝘑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital j		
-U+1D612	𝘒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital k		
-U+1D613	𝘓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital l		
-U+1D614	𝘔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital m		
-U+1D615	𝘕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital n		
-U+1D616	𝘖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital o		
-U+1D617	𝘗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital p		
-U+1D618	𝘘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital q		
-U+1D619	𝘙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital r		
-U+1D61A	𝘚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital s		
-U+1D61B	𝘛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital t		
-U+1D61C	𝘜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital u		
-U+1D61D	𝘝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital v		
-U+1D61E	𝘞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital w		
-U+1D61F	𝘟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital x		
-U+1D620	𝘠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital y		
-U+1D621	𝘡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic capital z		
-U+1D622	𝘢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small a		
-U+1D623	𝘣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small b		
-U+1D624	𝘤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small c		
-U+1D625	𝘥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small d		
-U+1D626	𝘦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small e		
-U+1D627	𝘧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small f		
-U+1D628	𝘨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small g		
-U+1D629	𝘩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small h		
-U+1D62A	𝘪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small i		
-U+1D62B	𝘫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small j		
-U+1D62C	𝘬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small k		
-U+1D62D	𝘭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small l		
-U+1D62E	𝘮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small m		
-U+1D62F	𝘯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small n		
-U+1D630	𝘰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small o		
-U+1D631	𝘱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small p		
-U+1D632	𝘲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small q		
-U+1D633	𝘳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small r		
-U+1D634	𝘴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small s		
-U+1D635	𝘵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small t		
-U+1D636	𝘶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small u		
-U+1D637	𝘷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small v		
-U+1D638	𝘸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small w		
-U+1D639	𝘹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small x		
-U+1D63A	𝘺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small y		
-U+1D63B	𝘻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif italic small z		
-U+1D63C	𝘼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital a		
-U+1D63D	𝘽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital b		
-U+1D63E	𝘾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital c		
-U+1D63F	𝘿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital d		
-U+1D640	𝙀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital e		
-U+1D641	𝙁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital f		
-U+1D642	𝙂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital g		
-U+1D643	𝙃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital h		
-U+1D644	𝙄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital i		
-U+1D645	𝙅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital j		
-U+1D646	𝙆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital k		
-U+1D647	𝙇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital l		
-U+1D648	𝙈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital m		
-U+1D649	𝙉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital n		
-U+1D64A	𝙊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital o		
-U+1D64B	𝙋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital p		
-U+1D64C	𝙌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital q		
-U+1D64D	𝙍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital r		
-U+1D64E	𝙎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital s		
-U+1D64F	𝙏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital t		
-U+1D650	𝙐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital u		
-U+1D651	𝙑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital v		
-U+1D652	𝙒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital w		
-U+1D653	𝙓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital x		
-U+1D654	𝙔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital y		
-U+1D655	𝙕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital z		
-U+1D656	𝙖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small a		
-U+1D657	𝙗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small b		
-U+1D658	𝙘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small c		
-U+1D659	𝙙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small d		
-U+1D65A	𝙚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small e		
-U+1D65B	𝙛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small f		
-U+1D65C	𝙜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small g		
-U+1D65D	𝙝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small h		
-U+1D65E	𝙞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small i		
-U+1D65F	𝙟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small j		
-U+1D660	𝙠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small k		
-U+1D661	𝙡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small l		
-U+1D662	𝙢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small m		
-U+1D663	𝙣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small n		
-U+1D664	𝙤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small o		
-U+1D665	𝙥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small p		
-U+1D666	𝙦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small q		
-U+1D667	𝙧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small r		
-U+1D668	𝙨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small s		
-U+1D669	𝙩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small t		
-U+1D66A	𝙪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small u		
-U+1D66B	𝙫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small v		
-U+1D66C	𝙬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small w		
-U+1D66D	𝙭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small x		
-U+1D66E	𝙮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small y		
-U+1D66F	𝙯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small z		
-U+1D670	𝙰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital a		
-U+1D671	𝙱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital b		
-U+1D672	𝙲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital c		
-U+1D673	𝙳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital d		
-U+1D674	𝙴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital e		
-U+1D675	𝙵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital f		
-U+1D676	𝙶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital g		
-U+1D677	𝙷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital h		
-U+1D678	𝙸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital i		
-U+1D679	𝙹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital j		
-U+1D67A	𝙺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital k		
-U+1D67B	𝙻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital l		
-U+1D67C	𝙼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital m		
-U+1D67D	𝙽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital n		
-U+1D67E	𝙾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital o		
-U+1D67F	𝙿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital p		
-U+1D680	𝚀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital q		
-U+1D681	𝚁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital r		
-U+1D682	𝚂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital s		
-U+1D683	𝚃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital t		
-U+1D684	𝚄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital u		
-U+1D685	𝚅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital v		
-U+1D686	𝚆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital w		
-U+1D687	𝚇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital x		
-U+1D688	𝚈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital y		
-U+1D689	𝚉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace capital z		
-U+1D68A	𝚊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small a		
-U+1D68B	𝚋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small b		
-U+1D68C	𝚌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small c		
-U+1D68D	𝚍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small d		
-U+1D68E	𝚎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small e		
-U+1D68F	𝚏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small f		
-U+1D690	𝚐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small g		
-U+1D691	𝚑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small h		
-U+1D692	𝚒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small i		
-U+1D693	𝚓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small j		
-U+1D694	𝚔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small k		
-U+1D695	𝚕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small l		
-U+1D696	𝚖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small m		
-U+1D697	𝚗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small n		
-U+1D698	𝚘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small o		
-U+1D699	𝚙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small p		
-U+1D69A	𝚚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small q		
-U+1D69B	𝚛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small r		
-U+1D69C	𝚜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small s		
-U+1D69D	𝚝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small t		
-U+1D69E	𝚞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small u		
-U+1D69F	𝚟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small v		
-U+1D6A0	𝚠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small w		
-U+1D6A1	𝚡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small x		
-U+1D6A2	𝚢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small y		
-U+1D6A3	𝚣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace small z		
-U+1D6A4	𝚤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small dotless i		
-U+1D6A5	𝚥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small dotless j		
-U+1D6A6	𝚦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small ligature long s with descender s		
-U+1D6A8	𝚨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital alpha		
-U+1D6A9	𝚩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital beta		
-U+1D6AA	𝚪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital gamma		
-U+1D6AB	𝚫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital delta		
-U+1D6AC	𝚬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital epsilon		
-U+1D6AD	𝚭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital zeta		
-U+1D6AE	𝚮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital eta		
-U+1D6AF	𝚯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital theta		
-U+1D6B0	𝚰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital iota		
-U+1D6B1	𝚱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital kappa		
-U+1D6B2	𝚲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital lamda		
-U+1D6B3	𝚳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital mu		
-U+1D6B4	𝚴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital nu		
-U+1D6B5	𝚵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital xi		
-U+1D6B6	𝚶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital omicron		
-U+1D6B7	𝚷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital pi		
-U+1D6B8	𝚸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital rho		
-U+1D6B9	𝚹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital theta symbol		
-U+1D6BA	𝚺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital sigma		
-U+1D6BB	𝚻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital tau		
-U+1D6BC	𝚼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital upsilon		
-U+1D6BD	𝚽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital phi		
-U+1D6BE	𝚾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital chi		
-U+1D6BF	𝚿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital psi		
-U+1D6C0	𝛀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital omega		
-U+1D6C1	𝛁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold nabla		
-U+1D6C2	𝛂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small alpha		
-U+1D6C3	𝛃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small beta		
-U+1D6C4	𝛄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small gamma		
-U+1D6C5	𝛅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small delta		
-U+1D6C6	𝛆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small epsilon		
-U+1D6C7	𝛇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small zeta		
-U+1D6C8	𝛈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small eta		
-U+1D6C9	𝛉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small theta		
-U+1D6CA	𝛊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small iota		
-U+1D6CB	𝛋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small kappa		
-U+1D6CC	𝛌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small lamda		
-U+1D6CD	𝛍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small mu		
-U+1D6CE	𝛎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small nu		
-U+1D6CF	𝛏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small xi		
-U+1D6D0	𝛐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small omicron		
-U+1D6D1	𝛑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small pi		
-U+1D6D2	𝛒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small rho		
-U+1D6D3	𝛓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small final sigma		
-U+1D6D4	𝛔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small sigma		
-U+1D6D5	𝛕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small tau		
-U+1D6D6	𝛖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small upsilon		
-U+1D6D7	𝛗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small phi		
-U+1D6D8	𝛘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small chi		
-U+1D6D9	𝛙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small psi		
-U+1D6DA	𝛚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small omega		
-U+1D6DB	𝛛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold partial differential		
-U+1D6DC	𝛜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold epsilon symbol		
-U+1D6DD	𝛝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold theta symbol		
-U+1D6DE	𝛞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold kappa symbol		
-U+1D6DF	𝛟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold phi symbol		
-U+1D6E0	𝛠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold rho symbol		
-U+1D6E1	𝛡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold pi symbol		
-U+1D6E2	𝛢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital alpha		
-U+1D6E3	𝛣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital beta		
-U+1D6E4	𝛤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital gamma		
-U+1D6E5	𝛥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital delta		
-U+1D6E6	𝛦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital epsilon		
-U+1D6E7	𝛧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital zeta		
-U+1D6E8	𝛨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital eta		
-U+1D6E9	𝛩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital theta		
-U+1D6EA	𝛪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital iota		
-U+1D6EB	𝛫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital kappa		
-U+1D6EC	𝛬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital lamda		
-U+1D6ED	𝛭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital mu		
-U+1D6EE	𝛮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital nu		
-U+1D6EF	𝛯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital xi		
-U+1D6F0	𝛰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital omicron		
-U+1D6F1	𝛱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital pi		
-U+1D6F2	𝛲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital rho		
-U+1D6F3	𝛳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital theta symbol		
-U+1D6F4	𝛴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital sigma		
-U+1D6F5	𝛵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital tau		
-U+1D6F6	𝛶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital upsilon		
-U+1D6F7	𝛷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital phi		
-U+1D6F8	𝛸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital chi		
-U+1D6F9	𝛹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital psi		
-U+1D6FA	𝛺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic capital omega		
-U+1D6FB	𝛻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic nabla		
-U+1D6FC	𝛼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small alpha		
-U+1D6FD	𝛽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small beta		
-U+1D6FE	𝛾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small gamma		
-U+1D6FF	𝛿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small delta		
-U+1D700	𝜀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small epsilon		
-U+1D701	𝜁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small zeta		
-U+1D702	𝜂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small eta		
-U+1D703	𝜃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small theta		
-U+1D704	𝜄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small iota		
-U+1D705	𝜅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small kappa		
-U+1D706	𝜆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small lamda		
-U+1D707	𝜇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small mu		
-U+1D708	𝜈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small nu		
-U+1D709	𝜉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small xi		
-U+1D70A	𝜊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small omicron		
-U+1D70B	𝜋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small pi		
-U+1D70C	𝜌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small rho		
-U+1D70D	𝜍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small final sigma		
-U+1D70E	𝜎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small sigma		
-U+1D70F	𝜏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small tau		
-U+1D710	𝜐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small upsilon		
-U+1D711	𝜑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small phi		
-U+1D712	𝜒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small chi		
-U+1D713	𝜓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small psi		
-U+1D714	𝜔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic small omega		
-U+1D715	𝜕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic partial differential		
-U+1D716	𝜖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic epsilon symbol		
-U+1D717	𝜗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic theta symbol		
-U+1D718	𝜘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic kappa symbol		
-U+1D719	𝜙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic phi symbol		
-U+1D71A	𝜚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic rho symbol		
-U+1D71B	𝜛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical italic pi symbol		
-U+1D71C	𝜜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital alpha		
-U+1D71D	𝜝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital beta		
-U+1D71E	𝜞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital gamma		
-U+1D71F	𝜟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital delta		
-U+1D720	𝜠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital epsilon		
-U+1D721	𝜡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital zeta		
-U+1D722	𝜢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital eta		
-U+1D723	𝜣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital theta		
-U+1D724	𝜤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital iota		
-U+1D725	𝜥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital kappa		
-U+1D726	𝜦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital lamda		
-U+1D727	𝜧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital mu		
-U+1D728	𝜨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital nu		
-U+1D729	𝜩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital xi		
-U+1D72A	𝜪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital omicron		
-U+1D72B	𝜫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital pi		
-U+1D72C	𝜬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital rho		
-U+1D72D	𝜭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital theta symbol		
-U+1D72E	𝜮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital sigma		
-U+1D72F	𝜯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital tau		
-U+1D730	𝜰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital upsilon		
-U+1D731	𝜱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital phi		
-U+1D732	𝜲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital chi		
-U+1D733	𝜳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital psi		
-U+1D734	𝜴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic capital omega		
-U+1D735	𝜵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic nabla		
-U+1D736	𝜶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small alpha		
-U+1D737	𝜷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small beta		
-U+1D738	𝜸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small gamma		
-U+1D739	𝜹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small delta		
-U+1D73A	𝜺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small epsilon		
-U+1D73B	𝜻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small zeta		
-U+1D73C	𝜼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small eta		
-U+1D73D	𝜽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small theta		
-U+1D73E	𝜾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small iota		
-U+1D73F	𝜿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small kappa		
-U+1D740	𝝀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small lamda		
-U+1D741	𝝁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small mu		
-U+1D742	𝝂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small nu		
-U+1D743	𝝃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small xi		
-U+1D744	𝝄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small omicron		
-U+1D745	𝝅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small pi		
-U+1D746	𝝆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small rho		
-U+1D747	𝝇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small final sigma		
-U+1D748	𝝈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small sigma		
-U+1D749	𝝉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small tau		
-U+1D74A	𝝊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small upsilon		
-U+1D74B	𝝋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small phi		
-U+1D74C	𝝌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small chi		
-U+1D74D	𝝍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small psi		
-U+1D74E	𝝎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic small omega		
-U+1D74F	𝝏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic partial differential		
-U+1D750	𝝐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic epsilon symbol		
-U+1D751	𝝑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic theta symbol		
-U+1D752	𝝒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic kappa symbol		
-U+1D753	𝝓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic phi symbol		
-U+1D754	𝝔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic rho symbol		
-U+1D755	𝝕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold italic pi symbol		
-U+1D756	𝝖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital alpha		
-U+1D757	𝝗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital beta		
-U+1D758	𝝘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital gamma		
-U+1D759	𝝙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital delta		
-U+1D75A	𝝚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital epsilon		
-U+1D75B	𝝛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital zeta		
-U+1D75C	𝝜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital eta		
-U+1D75D	𝝝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital theta		
-U+1D75E	𝝞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital iota		
-U+1D75F	𝝟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital kappa		
-U+1D760	𝝠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital lamda		
-U+1D761	𝝡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital mu		
-U+1D762	𝝢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital nu		
-U+1D763	𝝣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital xi		
-U+1D764	𝝤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital omicron		
-U+1D765	𝝥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital pi		
-U+1D766	𝝦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital rho		
-U+1D767	𝝧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital theta symbol		
-U+1D768	𝝨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital sigma		
-U+1D769	𝝩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital tau		
-U+1D76A	𝝪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital upsilon		
-U+1D76B	𝝫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital phi		
-U+1D76C	𝝬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital chi		
-U+1D76D	𝝭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital psi		
-U+1D76E	𝝮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold capital omega		
-U+1D76F	𝝯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold nabla		
-U+1D770	𝝰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small alpha		
-U+1D771	𝝱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small beta		
-U+1D772	𝝲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small gamma		
-U+1D773	𝝳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small delta		
-U+1D774	𝝴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small epsilon		
-U+1D775	𝝵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small zeta		
-U+1D776	𝝶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small eta		
-U+1D777	𝝷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small theta		
-U+1D778	𝝸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small iota		
-U+1D779	𝝹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small kappa		
-U+1D77A	𝝺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small lamda		
-U+1D77B	𝝻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small mu		
-U+1D77C	𝝼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small nu		
-U+1D77D	𝝽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small xi		
-U+1D77E	𝝾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small omicron		
-U+1D77F	𝝿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small pi		
-U+1D780	𝞀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small rho		
-U+1D781	𝞁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small final sigma		
-U+1D782	𝞂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small sigma		
-U+1D783	𝞃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small tau		
-U+1D784	𝞄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small upsilon		
-U+1D785	𝞅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small phi		
-U+1D786	𝞆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small chi		
-U+1D787	𝞇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small psi		
-U+1D788	𝞈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold small omega		
-U+1D789	𝞉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold partial differential		
-U+1D78A	𝞊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold epsilon symbol		
-U+1D78B	𝞋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold theta symbol		
-U+1D78C	𝞌	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold kappa symbol		
-U+1D78D	𝞍	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold phi symbol		
-U+1D78E	𝞎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold rho symbol		
-U+1D78F	𝞏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold pi symbol		
-U+1D790	𝞐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital alpha		
-U+1D791	𝞑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital beta		
-U+1D792	𝞒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital gamma		
-U+1D793	𝞓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital delta		
-U+1D794	𝞔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital epsilon		
-U+1D795	𝞕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital zeta		
-U+1D796	𝞖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital eta		
-U+1D797	𝞗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital theta		
-U+1D798	𝞘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital iota		
-U+1D799	𝞙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital kappa		
-U+1D79A	𝞚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital lamda		
-U+1D79B	𝞛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital mu		
-U+1D79C	𝞜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital nu		
-U+1D79D	𝞝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital xi		
-U+1D79E	𝞞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital omicron		
-U+1D79F	𝞟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital pi		
-U+1D7A0	𝞠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital rho		
-U+1D7A1	𝞡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital theta symbol		
-U+1D7A2	𝞢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital sigma		
-U+1D7A3	𝞣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital tau		
-U+1D7A4	𝞤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital upsilon		
-U+1D7A5	𝞥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital phi		
-U+1D7A6	𝞦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital chi		
-U+1D7A7	𝞧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital psi		
-U+1D7A8	𝞨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic capital omega		
-U+1D7A9	𝞩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic nabla		
-U+1D7AA	𝞪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small alpha		
-U+1D7AB	𝞫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small beta		
-U+1D7AC	𝞬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small gamma		
-U+1D7AD	𝞭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small delta		
-U+1D7AE	𝞮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small epsilon		
-U+1D7AF	𝞯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small zeta		
-U+1D7B0	𝞰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small eta		
-U+1D7B1	𝞱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small theta		
-U+1D7B2	𝞲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small iota		
-U+1D7B3	𝞳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small kappa		
-U+1D7B4	𝞴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small lamda		
-U+1D7B5	𝞵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small mu		
-U+1D7B6	𝞶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small nu		
-U+1D7B7	𝞷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small xi		
-U+1D7B8	𝞸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small omicron		
-U+1D7B9	𝞹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small pi		
-U+1D7BA	𝞺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small rho		
-U+1D7BB	𝞻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small final sigma		
-U+1D7BC	𝞼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small sigma		
-U+1D7BD	𝞽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small tau		
-U+1D7BE	𝞾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small upsilon		
-U+1D7BF	𝞿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small phi		
-U+1D7C0	𝟀	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small chi		
-U+1D7C1	𝟁	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small psi		
-U+1D7C2	𝟂	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic small omega		
-U+1D7C3	𝟃	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic partial differential		
-U+1D7C4	𝟄	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic epsilon symbol		
-U+1D7C5	𝟅	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic theta symbol		
-U+1D7C6	𝟆	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic kappa symbol		
-U+1D7C7	𝟇	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic phi symbol		
-U+1D7C8	𝟈	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic rho symbol		
-U+1D7C9	𝟉	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold italic pi symbol		
-U+1D7CA	𝟊	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold capital digamma		
-U+1D7CB	𝟋	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold small digamma		
-U+1D7CE	𝟎	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit zero		
-U+1D7CF	𝟏	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit one		
-U+1D7D0	𝟐	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit two		
-U+1D7D1	𝟑	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit three		
-U+1D7D2	𝟒	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit four		
-U+1D7D3	𝟓	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit five		
-U+1D7D4	𝟔	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit six		
-U+1D7D5	𝟕	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit seven		
-U+1D7D6	𝟖	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit eight		
-U+1D7D7	𝟗	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical bold digit nine		
-U+1D7D8	𝟘	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit zero		
-U+1D7D9	𝟙	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit one		
-U+1D7DA	𝟚	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit two		
-U+1D7DB	𝟛	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit three		
-U+1D7DC	𝟜	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit four		
-U+1D7DD	𝟝	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit five		
-U+1D7DE	𝟞	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit six		
-U+1D7DF	𝟟	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit seven		
-U+1D7E0	𝟠	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit eight		
-U+1D7E1	𝟡	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical double-struck digit nine		
-U+1D7E2	𝟢	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit zero		
-U+1D7E3	𝟣	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit one		
-U+1D7E4	𝟤	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit two		
-U+1D7E5	𝟥	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit three		
-U+1D7E6	𝟦	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit four		
-U+1D7E7	𝟧	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit five		
-U+1D7E8	𝟨	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit six		
-U+1D7E9	𝟩	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit seven		
-U+1D7EA	𝟪	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit eight		
-U+1D7EB	𝟫	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif digit nine		
-U+1D7EC	𝟬	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit zero		
-U+1D7ED	𝟭	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit one		
-U+1D7EE	𝟮	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit two		
-U+1D7EF	𝟯	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit three		
-U+1D7F0	𝟰	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit four		
-U+1D7F1	𝟱	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit five		
-U+1D7F2	𝟲	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit six		
-U+1D7F3	𝟳	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit seven		
-U+1D7F4	𝟴	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit eight		
-U+1D7F5	𝟵	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical sans-serif bold digit nine		
-U+1D7F6	𝟶	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit zero		
-U+1D7F7	𝟷	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit one		
-U+1D7F8	𝟸	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit two		
-U+1D7F9	𝟹	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit three		
-U+1D7FA	𝟺	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit four		
-U+1D7FB	𝟻	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit five		
-U+1D7FC	𝟼	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit six		
-U+1D7FD	𝟽	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit seven		
-U+1D7FE	𝟾	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit eight		
-U+1D7FF	𝟿	1D400..1D7FF	Mathematical Alphanumeric Symbols	Mathematical monospace digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+1D400	𝐀		MATHEMATICAL BOLD CAPITAL A	
+U+1D401	𝐁		MATHEMATICAL BOLD CAPITAL B	
+U+1D402	𝐂		MATHEMATICAL BOLD CAPITAL C	
+U+1D403	𝐃		MATHEMATICAL BOLD CAPITAL D	
+U+1D404	𝐄		MATHEMATICAL BOLD CAPITAL E	
+U+1D405	𝐅		MATHEMATICAL BOLD CAPITAL F	
+U+1D406	𝐆		MATHEMATICAL BOLD CAPITAL G	
+U+1D407	𝐇		MATHEMATICAL BOLD CAPITAL H	
+U+1D408	𝐈		MATHEMATICAL BOLD CAPITAL I	
+U+1D409	𝐉		MATHEMATICAL BOLD CAPITAL J	
+U+1D40A	𝐊		MATHEMATICAL BOLD CAPITAL K	
+U+1D40B	𝐋		MATHEMATICAL BOLD CAPITAL L	
+U+1D40C	𝐌		MATHEMATICAL BOLD CAPITAL M	
+U+1D40D	𝐍		MATHEMATICAL BOLD CAPITAL N	
+U+1D40E	𝐎		MATHEMATICAL BOLD CAPITAL O	
+U+1D40F	𝐏		MATHEMATICAL BOLD CAPITAL P	
+U+1D410	𝐐		MATHEMATICAL BOLD CAPITAL Q	
+U+1D411	𝐑		MATHEMATICAL BOLD CAPITAL R	
+U+1D412	𝐒		MATHEMATICAL BOLD CAPITAL S	
+U+1D413	𝐓		MATHEMATICAL BOLD CAPITAL T	
+U+1D414	𝐔		MATHEMATICAL BOLD CAPITAL U	
+U+1D415	𝐕		MATHEMATICAL BOLD CAPITAL V	
+U+1D416	𝐖		MATHEMATICAL BOLD CAPITAL W	
+U+1D417	𝐗		MATHEMATICAL BOLD CAPITAL X	
+U+1D418	𝐘		MATHEMATICAL BOLD CAPITAL Y	
+U+1D419	𝐙		MATHEMATICAL BOLD CAPITAL Z	
+U+1D41A	𝐚		MATHEMATICAL BOLD SMALL A	
+U+1D41B	𝐛		MATHEMATICAL BOLD SMALL B	
+U+1D41C	𝐜		MATHEMATICAL BOLD SMALL C	
+U+1D41D	𝐝		MATHEMATICAL BOLD SMALL D	
+U+1D41E	𝐞		MATHEMATICAL BOLD SMALL E	
+U+1D41F	𝐟		MATHEMATICAL BOLD SMALL F	
+U+1D420	𝐠		MATHEMATICAL BOLD SMALL G	
+U+1D421	𝐡		MATHEMATICAL BOLD SMALL H	
+U+1D422	𝐢		MATHEMATICAL BOLD SMALL I	
+U+1D423	𝐣		MATHEMATICAL BOLD SMALL J	
+U+1D424	𝐤		MATHEMATICAL BOLD SMALL K	
+U+1D425	𝐥		MATHEMATICAL BOLD SMALL L	
+U+1D426	𝐦		MATHEMATICAL BOLD SMALL M	
+U+1D427	𝐧		MATHEMATICAL BOLD SMALL N	
+U+1D428	𝐨		MATHEMATICAL BOLD SMALL O	
+U+1D429	𝐩		MATHEMATICAL BOLD SMALL P	
+U+1D42A	𝐪		MATHEMATICAL BOLD SMALL Q	
+U+1D42B	𝐫		MATHEMATICAL BOLD SMALL R	
+U+1D42C	𝐬		MATHEMATICAL BOLD SMALL S	
+U+1D42D	𝐭		MATHEMATICAL BOLD SMALL T	
+U+1D42E	𝐮		MATHEMATICAL BOLD SMALL U	
+U+1D42F	𝐯		MATHEMATICAL BOLD SMALL V	
+U+1D430	𝐰		MATHEMATICAL BOLD SMALL W	
+U+1D431	𝐱		MATHEMATICAL BOLD SMALL X	
+U+1D432	𝐲		MATHEMATICAL BOLD SMALL Y	
+U+1D433	𝐳		MATHEMATICAL BOLD SMALL Z	
+U+1D434	𝐴		MATHEMATICAL ITALIC CAPITAL A	
+U+1D435	𝐵		MATHEMATICAL ITALIC CAPITAL B	
+U+1D436	𝐶		MATHEMATICAL ITALIC CAPITAL C	
+U+1D437	𝐷		MATHEMATICAL ITALIC CAPITAL D	
+U+1D438	𝐸		MATHEMATICAL ITALIC CAPITAL E	
+U+1D439	𝐹		MATHEMATICAL ITALIC CAPITAL F	
+U+1D43A	𝐺		MATHEMATICAL ITALIC CAPITAL G	
+U+1D43B	𝐻		MATHEMATICAL ITALIC CAPITAL H	
+U+1D43C	𝐼		MATHEMATICAL ITALIC CAPITAL I	
+U+1D43D	𝐽		MATHEMATICAL ITALIC CAPITAL J	
+U+1D43E	𝐾		MATHEMATICAL ITALIC CAPITAL K	
+U+1D43F	𝐿		MATHEMATICAL ITALIC CAPITAL L	
+U+1D440	𝑀		MATHEMATICAL ITALIC CAPITAL M	
+U+1D441	𝑁		MATHEMATICAL ITALIC CAPITAL N	
+U+1D442	𝑂		MATHEMATICAL ITALIC CAPITAL O	
+U+1D443	𝑃		MATHEMATICAL ITALIC CAPITAL P	
+U+1D444	𝑄		MATHEMATICAL ITALIC CAPITAL Q	
+U+1D445	𝑅		MATHEMATICAL ITALIC CAPITAL R	
+U+1D446	𝑆		MATHEMATICAL ITALIC CAPITAL S	
+U+1D447	𝑇		MATHEMATICAL ITALIC CAPITAL T	
+U+1D448	𝑈		MATHEMATICAL ITALIC CAPITAL U	
+U+1D449	𝑉		MATHEMATICAL ITALIC CAPITAL V	
+U+1D44A	𝑊		MATHEMATICAL ITALIC CAPITAL W	
+U+1D44B	𝑋		MATHEMATICAL ITALIC CAPITAL X	
+U+1D44C	𝑌		MATHEMATICAL ITALIC CAPITAL Y	
+U+1D44D	𝑍		MATHEMATICAL ITALIC CAPITAL Z	
+U+1D44E	𝑎		MATHEMATICAL ITALIC SMALL A	
+U+1D44F	𝑏		MATHEMATICAL ITALIC SMALL B	
+U+1D450	𝑐		MATHEMATICAL ITALIC SMALL C	
+U+1D451	𝑑		MATHEMATICAL ITALIC SMALL D	
+U+1D452	𝑒		MATHEMATICAL ITALIC SMALL E	
+U+1D453	𝑓		MATHEMATICAL ITALIC SMALL F	
+U+1D454	𝑔		MATHEMATICAL ITALIC SMALL G	
+U+1D456	𝑖		MATHEMATICAL ITALIC SMALL I	
+U+1D457	𝑗		MATHEMATICAL ITALIC SMALL J	
+U+1D458	𝑘		MATHEMATICAL ITALIC SMALL K	
+U+1D459	𝑙		MATHEMATICAL ITALIC SMALL L	
+U+1D45A	𝑚		MATHEMATICAL ITALIC SMALL M	
+U+1D45B	𝑛		MATHEMATICAL ITALIC SMALL N	
+U+1D45C	𝑜		MATHEMATICAL ITALIC SMALL O	
+U+1D45D	𝑝		MATHEMATICAL ITALIC SMALL P	
+U+1D45E	𝑞		MATHEMATICAL ITALIC SMALL Q	
+U+1D45F	𝑟		MATHEMATICAL ITALIC SMALL R	
+U+1D460	𝑠		MATHEMATICAL ITALIC SMALL S	
+U+1D461	𝑡		MATHEMATICAL ITALIC SMALL T	
+U+1D462	𝑢		MATHEMATICAL ITALIC SMALL U	
+U+1D463	𝑣		MATHEMATICAL ITALIC SMALL V	
+U+1D464	𝑤		MATHEMATICAL ITALIC SMALL W	
+U+1D465	𝑥		MATHEMATICAL ITALIC SMALL X	
+U+1D466	𝑦		MATHEMATICAL ITALIC SMALL Y	
+U+1D467	𝑧		MATHEMATICAL ITALIC SMALL Z	
+U+1D468	𝑨		MATHEMATICAL BOLD ITALIC CAPITAL A	
+U+1D469	𝑩		MATHEMATICAL BOLD ITALIC CAPITAL B	
+U+1D46A	𝑪		MATHEMATICAL BOLD ITALIC CAPITAL C	
+U+1D46B	𝑫		MATHEMATICAL BOLD ITALIC CAPITAL D	
+U+1D46C	𝑬		MATHEMATICAL BOLD ITALIC CAPITAL E	
+U+1D46D	𝑭		MATHEMATICAL BOLD ITALIC CAPITAL F	
+U+1D46E	𝑮		MATHEMATICAL BOLD ITALIC CAPITAL G	
+U+1D46F	𝑯		MATHEMATICAL BOLD ITALIC CAPITAL H	
+U+1D470	𝑰		MATHEMATICAL BOLD ITALIC CAPITAL I	
+U+1D471	𝑱		MATHEMATICAL BOLD ITALIC CAPITAL J	
+U+1D472	𝑲		MATHEMATICAL BOLD ITALIC CAPITAL K	
+U+1D473	𝑳		MATHEMATICAL BOLD ITALIC CAPITAL L	
+U+1D474	𝑴		MATHEMATICAL BOLD ITALIC CAPITAL M	
+U+1D475	𝑵		MATHEMATICAL BOLD ITALIC CAPITAL N	
+U+1D476	𝑶		MATHEMATICAL BOLD ITALIC CAPITAL O	
+U+1D477	𝑷		MATHEMATICAL BOLD ITALIC CAPITAL P	
+U+1D478	𝑸		MATHEMATICAL BOLD ITALIC CAPITAL Q	
+U+1D479	𝑹		MATHEMATICAL BOLD ITALIC CAPITAL R	
+U+1D47A	𝑺		MATHEMATICAL BOLD ITALIC CAPITAL S	
+U+1D47B	𝑻		MATHEMATICAL BOLD ITALIC CAPITAL T	
+U+1D47C	𝑼		MATHEMATICAL BOLD ITALIC CAPITAL U	
+U+1D47D	𝑽		MATHEMATICAL BOLD ITALIC CAPITAL V	
+U+1D47E	𝑾		MATHEMATICAL BOLD ITALIC CAPITAL W	
+U+1D47F	𝑿		MATHEMATICAL BOLD ITALIC CAPITAL X	
+U+1D480	𝒀		MATHEMATICAL BOLD ITALIC CAPITAL Y	
+U+1D481	𝒁		MATHEMATICAL BOLD ITALIC CAPITAL Z	
+U+1D482	𝒂		MATHEMATICAL BOLD ITALIC SMALL A	
+U+1D483	𝒃		MATHEMATICAL BOLD ITALIC SMALL B	
+U+1D484	𝒄		MATHEMATICAL BOLD ITALIC SMALL C	
+U+1D485	𝒅		MATHEMATICAL BOLD ITALIC SMALL D	
+U+1D486	𝒆		MATHEMATICAL BOLD ITALIC SMALL E	
+U+1D487	𝒇		MATHEMATICAL BOLD ITALIC SMALL F	
+U+1D488	𝒈		MATHEMATICAL BOLD ITALIC SMALL G	
+U+1D489	𝒉		MATHEMATICAL BOLD ITALIC SMALL H	
+U+1D48A	𝒊		MATHEMATICAL BOLD ITALIC SMALL I	
+U+1D48B	𝒋		MATHEMATICAL BOLD ITALIC SMALL J	
+U+1D48C	𝒌		MATHEMATICAL BOLD ITALIC SMALL K	
+U+1D48D	𝒍		MATHEMATICAL BOLD ITALIC SMALL L	
+U+1D48E	𝒎		MATHEMATICAL BOLD ITALIC SMALL M	
+U+1D48F	𝒏		MATHEMATICAL BOLD ITALIC SMALL N	
+U+1D490	𝒐		MATHEMATICAL BOLD ITALIC SMALL O	
+U+1D491	𝒑		MATHEMATICAL BOLD ITALIC SMALL P	
+U+1D492	𝒒		MATHEMATICAL BOLD ITALIC SMALL Q	
+U+1D493	𝒓		MATHEMATICAL BOLD ITALIC SMALL R	
+U+1D494	𝒔		MATHEMATICAL BOLD ITALIC SMALL S	
+U+1D495	𝒕		MATHEMATICAL BOLD ITALIC SMALL T	
+U+1D496	𝒖		MATHEMATICAL BOLD ITALIC SMALL U	
+U+1D497	𝒗		MATHEMATICAL BOLD ITALIC SMALL V	
+U+1D498	𝒘		MATHEMATICAL BOLD ITALIC SMALL W	
+U+1D499	𝒙		MATHEMATICAL BOLD ITALIC SMALL X	
+U+1D49A	𝒚		MATHEMATICAL BOLD ITALIC SMALL Y	
+U+1D49B	𝒛		MATHEMATICAL BOLD ITALIC SMALL Z	
+U+1D49C	𝒜		MATHEMATICAL SCRIPT CAPITAL A	
+U+1D49E	𝒞		MATHEMATICAL SCRIPT CAPITAL C	
+U+1D49F	𝒟		MATHEMATICAL SCRIPT CAPITAL D	
+U+1D4A2	𝒢		MATHEMATICAL SCRIPT CAPITAL G	
+U+1D4A5	𝒥		MATHEMATICAL SCRIPT CAPITAL J	
+U+1D4A6	𝒦		MATHEMATICAL SCRIPT CAPITAL K	
+U+1D4A9	𝒩		MATHEMATICAL SCRIPT CAPITAL N	
+U+1D4AA	𝒪		MATHEMATICAL SCRIPT CAPITAL O	
+U+1D4AB	𝒫		MATHEMATICAL SCRIPT CAPITAL P	
+U+1D4AC	𝒬		MATHEMATICAL SCRIPT CAPITAL Q	
+U+1D4AE	𝒮		MATHEMATICAL SCRIPT CAPITAL S	
+U+1D4AF	𝒯		MATHEMATICAL SCRIPT CAPITAL T	
+U+1D4B0	𝒰		MATHEMATICAL SCRIPT CAPITAL U	
+U+1D4B1	𝒱		MATHEMATICAL SCRIPT CAPITAL V	
+U+1D4B2	𝒲		MATHEMATICAL SCRIPT CAPITAL W	
+U+1D4B3	𝒳		MATHEMATICAL SCRIPT CAPITAL X	
+U+1D4B4	𝒴		MATHEMATICAL SCRIPT CAPITAL Y	
+U+1D4B5	𝒵		MATHEMATICAL SCRIPT CAPITAL Z	
+U+1D4B6	𝒶		MATHEMATICAL SCRIPT SMALL A	
+U+1D4B7	𝒷		MATHEMATICAL SCRIPT SMALL B	
+U+1D4B8	𝒸		MATHEMATICAL SCRIPT SMALL C	
+U+1D4B9	𝒹		MATHEMATICAL SCRIPT SMALL D	
+U+1D4BB	𝒻		MATHEMATICAL SCRIPT SMALL F	
+U+1D4BD	𝒽		MATHEMATICAL SCRIPT SMALL H	
+U+1D4BE	𝒾		MATHEMATICAL SCRIPT SMALL I	
+U+1D4BF	𝒿		MATHEMATICAL SCRIPT SMALL J	
+U+1D4C0	𝓀		MATHEMATICAL SCRIPT SMALL K	
+U+1D4C1	𝓁		MATHEMATICAL SCRIPT SMALL L	
+U+1D4C2	𝓂		MATHEMATICAL SCRIPT SMALL M	
+U+1D4C3	𝓃		MATHEMATICAL SCRIPT SMALL N	
+U+1D4C5	𝓅		MATHEMATICAL SCRIPT SMALL P	
+U+1D4C6	𝓆		MATHEMATICAL SCRIPT SMALL Q	
+U+1D4C7	𝓇		MATHEMATICAL SCRIPT SMALL R	
+U+1D4C8	𝓈		MATHEMATICAL SCRIPT SMALL S	
+U+1D4C9	𝓉		MATHEMATICAL SCRIPT SMALL T	
+U+1D4CA	𝓊		MATHEMATICAL SCRIPT SMALL U	
+U+1D4CB	𝓋		MATHEMATICAL SCRIPT SMALL V	
+U+1D4CC	𝓌		MATHEMATICAL SCRIPT SMALL W	
+U+1D4CD	𝓍		MATHEMATICAL SCRIPT SMALL X	
+U+1D4CE	𝓎		MATHEMATICAL SCRIPT SMALL Y	
+U+1D4CF	𝓏		MATHEMATICAL SCRIPT SMALL Z	
+U+1D4D0	𝓐		MATHEMATICAL BOLD SCRIPT CAPITAL A	
+U+1D4D1	𝓑		MATHEMATICAL BOLD SCRIPT CAPITAL B	
+U+1D4D2	𝓒		MATHEMATICAL BOLD SCRIPT CAPITAL C	
+U+1D4D3	𝓓		MATHEMATICAL BOLD SCRIPT CAPITAL D	
+U+1D4D4	𝓔		MATHEMATICAL BOLD SCRIPT CAPITAL E	
+U+1D4D5	𝓕		MATHEMATICAL BOLD SCRIPT CAPITAL F	
+U+1D4D6	𝓖		MATHEMATICAL BOLD SCRIPT CAPITAL G	
+U+1D4D7	𝓗		MATHEMATICAL BOLD SCRIPT CAPITAL H	
+U+1D4D8	𝓘		MATHEMATICAL BOLD SCRIPT CAPITAL I	
+U+1D4D9	𝓙		MATHEMATICAL BOLD SCRIPT CAPITAL J	
+U+1D4DA	𝓚		MATHEMATICAL BOLD SCRIPT CAPITAL K	
+U+1D4DB	𝓛		MATHEMATICAL BOLD SCRIPT CAPITAL L	
+U+1D4DC	𝓜		MATHEMATICAL BOLD SCRIPT CAPITAL M	
+U+1D4DD	𝓝		MATHEMATICAL BOLD SCRIPT CAPITAL N	
+U+1D4DE	𝓞		MATHEMATICAL BOLD SCRIPT CAPITAL O	
+U+1D4DF	𝓟		MATHEMATICAL BOLD SCRIPT CAPITAL P	
+U+1D4E0	𝓠		MATHEMATICAL BOLD SCRIPT CAPITAL Q	
+U+1D4E1	𝓡		MATHEMATICAL BOLD SCRIPT CAPITAL R	
+U+1D4E2	𝓢		MATHEMATICAL BOLD SCRIPT CAPITAL S	
+U+1D4E3	𝓣		MATHEMATICAL BOLD SCRIPT CAPITAL T	
+U+1D4E4	𝓤		MATHEMATICAL BOLD SCRIPT CAPITAL U	
+U+1D4E5	𝓥		MATHEMATICAL BOLD SCRIPT CAPITAL V	
+U+1D4E6	𝓦		MATHEMATICAL BOLD SCRIPT CAPITAL W	
+U+1D4E7	𝓧		MATHEMATICAL BOLD SCRIPT CAPITAL X	
+U+1D4E8	𝓨		MATHEMATICAL BOLD SCRIPT CAPITAL Y	
+U+1D4E9	𝓩		MATHEMATICAL BOLD SCRIPT CAPITAL Z	
+U+1D4EA	𝓪		MATHEMATICAL BOLD SCRIPT SMALL A	
+U+1D4EB	𝓫		MATHEMATICAL BOLD SCRIPT SMALL B	
+U+1D4EC	𝓬		MATHEMATICAL BOLD SCRIPT SMALL C	
+U+1D4ED	𝓭		MATHEMATICAL BOLD SCRIPT SMALL D	
+U+1D4EE	𝓮		MATHEMATICAL BOLD SCRIPT SMALL E	
+U+1D4EF	𝓯		MATHEMATICAL BOLD SCRIPT SMALL F	
+U+1D4F0	𝓰		MATHEMATICAL BOLD SCRIPT SMALL G	
+U+1D4F1	𝓱		MATHEMATICAL BOLD SCRIPT SMALL H	
+U+1D4F2	𝓲		MATHEMATICAL BOLD SCRIPT SMALL I	
+U+1D4F3	𝓳		MATHEMATICAL BOLD SCRIPT SMALL J	
+U+1D4F4	𝓴		MATHEMATICAL BOLD SCRIPT SMALL K	
+U+1D4F5	𝓵		MATHEMATICAL BOLD SCRIPT SMALL L	
+U+1D4F6	𝓶		MATHEMATICAL BOLD SCRIPT SMALL M	
+U+1D4F7	𝓷		MATHEMATICAL BOLD SCRIPT SMALL N	
+U+1D4F8	𝓸		MATHEMATICAL BOLD SCRIPT SMALL O	
+U+1D4F9	𝓹		MATHEMATICAL BOLD SCRIPT SMALL P	
+U+1D4FA	𝓺		MATHEMATICAL BOLD SCRIPT SMALL Q	
+U+1D4FB	𝓻		MATHEMATICAL BOLD SCRIPT SMALL R	
+U+1D4FC	𝓼		MATHEMATICAL BOLD SCRIPT SMALL S	
+U+1D4FD	𝓽		MATHEMATICAL BOLD SCRIPT SMALL T	
+U+1D4FE	𝓾		MATHEMATICAL BOLD SCRIPT SMALL U	
+U+1D4FF	𝓿		MATHEMATICAL BOLD SCRIPT SMALL V	
+U+1D500	𝔀		MATHEMATICAL BOLD SCRIPT SMALL W	
+U+1D501	𝔁		MATHEMATICAL BOLD SCRIPT SMALL X	
+U+1D502	𝔂		MATHEMATICAL BOLD SCRIPT SMALL Y	
+U+1D503	𝔃		MATHEMATICAL BOLD SCRIPT SMALL Z	
+U+1D504	𝔄		MATHEMATICAL FRAKTUR CAPITAL A	
+U+1D505	𝔅		MATHEMATICAL FRAKTUR CAPITAL B	
+U+1D507	𝔇		MATHEMATICAL FRAKTUR CAPITAL D	
+U+1D508	𝔈		MATHEMATICAL FRAKTUR CAPITAL E	
+U+1D509	𝔉		MATHEMATICAL FRAKTUR CAPITAL F	
+U+1D50A	𝔊		MATHEMATICAL FRAKTUR CAPITAL G	
+U+1D50D	𝔍		MATHEMATICAL FRAKTUR CAPITAL J	
+U+1D50E	𝔎		MATHEMATICAL FRAKTUR CAPITAL K	
+U+1D50F	𝔏		MATHEMATICAL FRAKTUR CAPITAL L	
+U+1D510	𝔐		MATHEMATICAL FRAKTUR CAPITAL M	
+U+1D511	𝔑		MATHEMATICAL FRAKTUR CAPITAL N	
+U+1D512	𝔒		MATHEMATICAL FRAKTUR CAPITAL O	
+U+1D513	𝔓		MATHEMATICAL FRAKTUR CAPITAL P	
+U+1D514	𝔔		MATHEMATICAL FRAKTUR CAPITAL Q	
+U+1D516	𝔖		MATHEMATICAL FRAKTUR CAPITAL S	
+U+1D517	𝔗		MATHEMATICAL FRAKTUR CAPITAL T	
+U+1D518	𝔘		MATHEMATICAL FRAKTUR CAPITAL U	
+U+1D519	𝔙		MATHEMATICAL FRAKTUR CAPITAL V	
+U+1D51A	𝔚		MATHEMATICAL FRAKTUR CAPITAL W	
+U+1D51B	𝔛		MATHEMATICAL FRAKTUR CAPITAL X	
+U+1D51C	𝔜		MATHEMATICAL FRAKTUR CAPITAL Y	
+U+1D51E	𝔞		MATHEMATICAL FRAKTUR SMALL A	
+U+1D51F	𝔟		MATHEMATICAL FRAKTUR SMALL B	
+U+1D520	𝔠		MATHEMATICAL FRAKTUR SMALL C	
+U+1D521	𝔡		MATHEMATICAL FRAKTUR SMALL D	
+U+1D522	𝔢		MATHEMATICAL FRAKTUR SMALL E	
+U+1D523	𝔣		MATHEMATICAL FRAKTUR SMALL F	
+U+1D524	𝔤		MATHEMATICAL FRAKTUR SMALL G	
+U+1D525	𝔥		MATHEMATICAL FRAKTUR SMALL H	
+U+1D526	𝔦		MATHEMATICAL FRAKTUR SMALL I	
+U+1D527	𝔧		MATHEMATICAL FRAKTUR SMALL J	
+U+1D528	𝔨		MATHEMATICAL FRAKTUR SMALL K	
+U+1D529	𝔩		MATHEMATICAL FRAKTUR SMALL L	
+U+1D52A	𝔪		MATHEMATICAL FRAKTUR SMALL M	
+U+1D52B	𝔫		MATHEMATICAL FRAKTUR SMALL N	
+U+1D52C	𝔬		MATHEMATICAL FRAKTUR SMALL O	
+U+1D52D	𝔭		MATHEMATICAL FRAKTUR SMALL P	
+U+1D52E	𝔮		MATHEMATICAL FRAKTUR SMALL Q	
+U+1D52F	𝔯		MATHEMATICAL FRAKTUR SMALL R	
+U+1D530	𝔰		MATHEMATICAL FRAKTUR SMALL S	
+U+1D531	𝔱		MATHEMATICAL FRAKTUR SMALL T	
+U+1D532	𝔲		MATHEMATICAL FRAKTUR SMALL U	
+U+1D533	𝔳		MATHEMATICAL FRAKTUR SMALL V	
+U+1D534	𝔴		MATHEMATICAL FRAKTUR SMALL W	
+U+1D535	𝔵		MATHEMATICAL FRAKTUR SMALL X	
+U+1D536	𝔶		MATHEMATICAL FRAKTUR SMALL Y	
+U+1D537	𝔷		MATHEMATICAL FRAKTUR SMALL Z	
+U+1D538	𝔸		MATHEMATICAL DOUBLE-STRUCK CAPITAL A	
+U+1D539	𝔹		MATHEMATICAL DOUBLE-STRUCK CAPITAL B	
+U+1D53B	𝔻		MATHEMATICAL DOUBLE-STRUCK CAPITAL D	
+U+1D53C	𝔼		MATHEMATICAL DOUBLE-STRUCK CAPITAL E	
+U+1D53D	𝔽		MATHEMATICAL DOUBLE-STRUCK CAPITAL F	
+U+1D53E	𝔾		MATHEMATICAL DOUBLE-STRUCK CAPITAL G	
+U+1D540	𝕀		MATHEMATICAL DOUBLE-STRUCK CAPITAL I	
+U+1D541	𝕁		MATHEMATICAL DOUBLE-STRUCK CAPITAL J	
+U+1D542	𝕂		MATHEMATICAL DOUBLE-STRUCK CAPITAL K	
+U+1D543	𝕃		MATHEMATICAL DOUBLE-STRUCK CAPITAL L	
+U+1D544	𝕄		MATHEMATICAL DOUBLE-STRUCK CAPITAL M	
+U+1D546	𝕆		MATHEMATICAL DOUBLE-STRUCK CAPITAL O	
+U+1D54A	𝕊		MATHEMATICAL DOUBLE-STRUCK CAPITAL S	
+U+1D54B	𝕋		MATHEMATICAL DOUBLE-STRUCK CAPITAL T	
+U+1D54C	𝕌		MATHEMATICAL DOUBLE-STRUCK CAPITAL U	
+U+1D54D	𝕍		MATHEMATICAL DOUBLE-STRUCK CAPITAL V	
+U+1D54E	𝕎		MATHEMATICAL DOUBLE-STRUCK CAPITAL W	
+U+1D54F	𝕏		MATHEMATICAL DOUBLE-STRUCK CAPITAL X	
+U+1D550	𝕐		MATHEMATICAL DOUBLE-STRUCK CAPITAL Y	
+U+1D552	𝕒		MATHEMATICAL DOUBLE-STRUCK SMALL A	
+U+1D553	𝕓		MATHEMATICAL DOUBLE-STRUCK SMALL B	
+U+1D554	𝕔		MATHEMATICAL DOUBLE-STRUCK SMALL C	
+U+1D555	𝕕		MATHEMATICAL DOUBLE-STRUCK SMALL D	
+U+1D556	𝕖		MATHEMATICAL DOUBLE-STRUCK SMALL E	
+U+1D557	𝕗		MATHEMATICAL DOUBLE-STRUCK SMALL F	
+U+1D558	𝕘		MATHEMATICAL DOUBLE-STRUCK SMALL G	
+U+1D559	𝕙		MATHEMATICAL DOUBLE-STRUCK SMALL H	
+U+1D55A	𝕚		MATHEMATICAL DOUBLE-STRUCK SMALL I	
+U+1D55B	𝕛		MATHEMATICAL DOUBLE-STRUCK SMALL J	
+U+1D55C	𝕜		MATHEMATICAL DOUBLE-STRUCK SMALL K	
+U+1D55D	𝕝		MATHEMATICAL DOUBLE-STRUCK SMALL L	
+U+1D55E	𝕞		MATHEMATICAL DOUBLE-STRUCK SMALL M	
+U+1D55F	𝕟		MATHEMATICAL DOUBLE-STRUCK SMALL N	
+U+1D560	𝕠		MATHEMATICAL DOUBLE-STRUCK SMALL O	
+U+1D561	𝕡		MATHEMATICAL DOUBLE-STRUCK SMALL P	
+U+1D562	𝕢		MATHEMATICAL DOUBLE-STRUCK SMALL Q	
+U+1D563	𝕣		MATHEMATICAL DOUBLE-STRUCK SMALL R	
+U+1D564	𝕤		MATHEMATICAL DOUBLE-STRUCK SMALL S	
+U+1D565	𝕥		MATHEMATICAL DOUBLE-STRUCK SMALL T	
+U+1D566	𝕦		MATHEMATICAL DOUBLE-STRUCK SMALL U	
+U+1D567	𝕧		MATHEMATICAL DOUBLE-STRUCK SMALL V	
+U+1D568	𝕨		MATHEMATICAL DOUBLE-STRUCK SMALL W	
+U+1D569	𝕩		MATHEMATICAL DOUBLE-STRUCK SMALL X	
+U+1D56A	𝕪		MATHEMATICAL DOUBLE-STRUCK SMALL Y	
+U+1D56B	𝕫		MATHEMATICAL DOUBLE-STRUCK SMALL Z	
+U+1D56C	𝕬		MATHEMATICAL BOLD FRAKTUR CAPITAL A	
+U+1D56D	𝕭		MATHEMATICAL BOLD FRAKTUR CAPITAL B	
+U+1D56E	𝕮		MATHEMATICAL BOLD FRAKTUR CAPITAL C	
+U+1D56F	𝕯		MATHEMATICAL BOLD FRAKTUR CAPITAL D	
+U+1D570	𝕰		MATHEMATICAL BOLD FRAKTUR CAPITAL E	
+U+1D571	𝕱		MATHEMATICAL BOLD FRAKTUR CAPITAL F	
+U+1D572	𝕲		MATHEMATICAL BOLD FRAKTUR CAPITAL G	
+U+1D573	𝕳		MATHEMATICAL BOLD FRAKTUR CAPITAL H	
+U+1D574	𝕴		MATHEMATICAL BOLD FRAKTUR CAPITAL I	
+U+1D575	𝕵		MATHEMATICAL BOLD FRAKTUR CAPITAL J	
+U+1D576	𝕶		MATHEMATICAL BOLD FRAKTUR CAPITAL K	
+U+1D577	𝕷		MATHEMATICAL BOLD FRAKTUR CAPITAL L	
+U+1D578	𝕸		MATHEMATICAL BOLD FRAKTUR CAPITAL M	
+U+1D579	𝕹		MATHEMATICAL BOLD FRAKTUR CAPITAL N	
+U+1D57A	𝕺		MATHEMATICAL BOLD FRAKTUR CAPITAL O	
+U+1D57B	𝕻		MATHEMATICAL BOLD FRAKTUR CAPITAL P	
+U+1D57C	𝕼		MATHEMATICAL BOLD FRAKTUR CAPITAL Q	
+U+1D57D	𝕽		MATHEMATICAL BOLD FRAKTUR CAPITAL R	
+U+1D57E	𝕾		MATHEMATICAL BOLD FRAKTUR CAPITAL S	
+U+1D57F	𝕿		MATHEMATICAL BOLD FRAKTUR CAPITAL T	
+U+1D580	𝖀		MATHEMATICAL BOLD FRAKTUR CAPITAL U	
+U+1D581	𝖁		MATHEMATICAL BOLD FRAKTUR CAPITAL V	
+U+1D582	𝖂		MATHEMATICAL BOLD FRAKTUR CAPITAL W	
+U+1D583	𝖃		MATHEMATICAL BOLD FRAKTUR CAPITAL X	
+U+1D584	𝖄		MATHEMATICAL BOLD FRAKTUR CAPITAL Y	
+U+1D585	𝖅		MATHEMATICAL BOLD FRAKTUR CAPITAL Z	
+U+1D586	𝖆		MATHEMATICAL BOLD FRAKTUR SMALL A	
+U+1D587	𝖇		MATHEMATICAL BOLD FRAKTUR SMALL B	
+U+1D588	𝖈		MATHEMATICAL BOLD FRAKTUR SMALL C	
+U+1D589	𝖉		MATHEMATICAL BOLD FRAKTUR SMALL D	
+U+1D58A	𝖊		MATHEMATICAL BOLD FRAKTUR SMALL E	
+U+1D58B	𝖋		MATHEMATICAL BOLD FRAKTUR SMALL F	
+U+1D58C	𝖌		MATHEMATICAL BOLD FRAKTUR SMALL G	
+U+1D58D	𝖍		MATHEMATICAL BOLD FRAKTUR SMALL H	
+U+1D58E	𝖎		MATHEMATICAL BOLD FRAKTUR SMALL I	
+U+1D58F	𝖏		MATHEMATICAL BOLD FRAKTUR SMALL J	
+U+1D590	𝖐		MATHEMATICAL BOLD FRAKTUR SMALL K	
+U+1D591	𝖑		MATHEMATICAL BOLD FRAKTUR SMALL L	
+U+1D592	𝖒		MATHEMATICAL BOLD FRAKTUR SMALL M	
+U+1D593	𝖓		MATHEMATICAL BOLD FRAKTUR SMALL N	
+U+1D594	𝖔		MATHEMATICAL BOLD FRAKTUR SMALL O	
+U+1D595	𝖕		MATHEMATICAL BOLD FRAKTUR SMALL P	
+U+1D596	𝖖		MATHEMATICAL BOLD FRAKTUR SMALL Q	
+U+1D597	𝖗		MATHEMATICAL BOLD FRAKTUR SMALL R	
+U+1D598	𝖘		MATHEMATICAL BOLD FRAKTUR SMALL S	
+U+1D599	𝖙		MATHEMATICAL BOLD FRAKTUR SMALL T	
+U+1D59A	𝖚		MATHEMATICAL BOLD FRAKTUR SMALL U	
+U+1D59B	𝖛		MATHEMATICAL BOLD FRAKTUR SMALL V	
+U+1D59C	𝖜		MATHEMATICAL BOLD FRAKTUR SMALL W	
+U+1D59D	𝖝		MATHEMATICAL BOLD FRAKTUR SMALL X	
+U+1D59E	𝖞		MATHEMATICAL BOLD FRAKTUR SMALL Y	
+U+1D59F	𝖟		MATHEMATICAL BOLD FRAKTUR SMALL Z	
+U+1D5A0	𝖠		MATHEMATICAL SANS-SERIF CAPITAL A	
+U+1D5A1	𝖡		MATHEMATICAL SANS-SERIF CAPITAL B	
+U+1D5A2	𝖢		MATHEMATICAL SANS-SERIF CAPITAL C	
+U+1D5A3	𝖣		MATHEMATICAL SANS-SERIF CAPITAL D	
+U+1D5A4	𝖤		MATHEMATICAL SANS-SERIF CAPITAL E	
+U+1D5A5	𝖥		MATHEMATICAL SANS-SERIF CAPITAL F	
+U+1D5A6	𝖦		MATHEMATICAL SANS-SERIF CAPITAL G	
+U+1D5A7	𝖧		MATHEMATICAL SANS-SERIF CAPITAL H	
+U+1D5A8	𝖨		MATHEMATICAL SANS-SERIF CAPITAL I	
+U+1D5A9	𝖩		MATHEMATICAL SANS-SERIF CAPITAL J	
+U+1D5AA	𝖪		MATHEMATICAL SANS-SERIF CAPITAL K	
+U+1D5AB	𝖫		MATHEMATICAL SANS-SERIF CAPITAL L	
+U+1D5AC	𝖬		MATHEMATICAL SANS-SERIF CAPITAL M	
+U+1D5AD	𝖭		MATHEMATICAL SANS-SERIF CAPITAL N	
+U+1D5AE	𝖮		MATHEMATICAL SANS-SERIF CAPITAL O	
+U+1D5AF	𝖯		MATHEMATICAL SANS-SERIF CAPITAL P	
+U+1D5B0	𝖰		MATHEMATICAL SANS-SERIF CAPITAL Q	
+U+1D5B1	𝖱		MATHEMATICAL SANS-SERIF CAPITAL R	
+U+1D5B2	𝖲		MATHEMATICAL SANS-SERIF CAPITAL S	
+U+1D5B3	𝖳		MATHEMATICAL SANS-SERIF CAPITAL T	
+U+1D5B4	𝖴		MATHEMATICAL SANS-SERIF CAPITAL U	
+U+1D5B5	𝖵		MATHEMATICAL SANS-SERIF CAPITAL V	
+U+1D5B6	𝖶		MATHEMATICAL SANS-SERIF CAPITAL W	
+U+1D5B7	𝖷		MATHEMATICAL SANS-SERIF CAPITAL X	
+U+1D5B8	𝖸		MATHEMATICAL SANS-SERIF CAPITAL Y	
+U+1D5B9	𝖹		MATHEMATICAL SANS-SERIF CAPITAL Z	
+U+1D5BA	𝖺		MATHEMATICAL SANS-SERIF SMALL A	
+U+1D5BB	𝖻		MATHEMATICAL SANS-SERIF SMALL B	
+U+1D5BC	𝖼		MATHEMATICAL SANS-SERIF SMALL C	
+U+1D5BD	𝖽		MATHEMATICAL SANS-SERIF SMALL D	
+U+1D5BE	𝖾		MATHEMATICAL SANS-SERIF SMALL E	
+U+1D5BF	𝖿		MATHEMATICAL SANS-SERIF SMALL F	
+U+1D5C0	𝗀		MATHEMATICAL SANS-SERIF SMALL G	
+U+1D5C1	𝗁		MATHEMATICAL SANS-SERIF SMALL H	
+U+1D5C2	𝗂		MATHEMATICAL SANS-SERIF SMALL I	
+U+1D5C3	𝗃		MATHEMATICAL SANS-SERIF SMALL J	
+U+1D5C4	𝗄		MATHEMATICAL SANS-SERIF SMALL K	
+U+1D5C5	𝗅		MATHEMATICAL SANS-SERIF SMALL L	
+U+1D5C6	𝗆		MATHEMATICAL SANS-SERIF SMALL M	
+U+1D5C7	𝗇		MATHEMATICAL SANS-SERIF SMALL N	
+U+1D5C8	𝗈		MATHEMATICAL SANS-SERIF SMALL O	
+U+1D5C9	𝗉		MATHEMATICAL SANS-SERIF SMALL P	
+U+1D5CA	𝗊		MATHEMATICAL SANS-SERIF SMALL Q	
+U+1D5CB	𝗋		MATHEMATICAL SANS-SERIF SMALL R	
+U+1D5CC	𝗌		MATHEMATICAL SANS-SERIF SMALL S	
+U+1D5CD	𝗍		MATHEMATICAL SANS-SERIF SMALL T	
+U+1D5CE	𝗎		MATHEMATICAL SANS-SERIF SMALL U	
+U+1D5CF	𝗏		MATHEMATICAL SANS-SERIF SMALL V	
+U+1D5D0	𝗐		MATHEMATICAL SANS-SERIF SMALL W	
+U+1D5D1	𝗑		MATHEMATICAL SANS-SERIF SMALL X	
+U+1D5D2	𝗒		MATHEMATICAL SANS-SERIF SMALL Y	
+U+1D5D3	𝗓		MATHEMATICAL SANS-SERIF SMALL Z	
+U+1D5D4	𝗔		MATHEMATICAL SANS-SERIF BOLD CAPITAL A	
+U+1D5D5	𝗕		MATHEMATICAL SANS-SERIF BOLD CAPITAL B	
+U+1D5D6	𝗖		MATHEMATICAL SANS-SERIF BOLD CAPITAL C	
+U+1D5D7	𝗗		MATHEMATICAL SANS-SERIF BOLD CAPITAL D	
+U+1D5D8	𝗘		MATHEMATICAL SANS-SERIF BOLD CAPITAL E	
+U+1D5D9	𝗙		MATHEMATICAL SANS-SERIF BOLD CAPITAL F	
+U+1D5DA	𝗚		MATHEMATICAL SANS-SERIF BOLD CAPITAL G	
+U+1D5DB	𝗛		MATHEMATICAL SANS-SERIF BOLD CAPITAL H	
+U+1D5DC	𝗜		MATHEMATICAL SANS-SERIF BOLD CAPITAL I	
+U+1D5DD	𝗝		MATHEMATICAL SANS-SERIF BOLD CAPITAL J	
+U+1D5DE	𝗞		MATHEMATICAL SANS-SERIF BOLD CAPITAL K	
+U+1D5DF	𝗟		MATHEMATICAL SANS-SERIF BOLD CAPITAL L	
+U+1D5E0	𝗠		MATHEMATICAL SANS-SERIF BOLD CAPITAL M	
+U+1D5E1	𝗡		MATHEMATICAL SANS-SERIF BOLD CAPITAL N	
+U+1D5E2	𝗢		MATHEMATICAL SANS-SERIF BOLD CAPITAL O	
+U+1D5E3	𝗣		MATHEMATICAL SANS-SERIF BOLD CAPITAL P	
+U+1D5E4	𝗤		MATHEMATICAL SANS-SERIF BOLD CAPITAL Q	
+U+1D5E5	𝗥		MATHEMATICAL SANS-SERIF BOLD CAPITAL R	
+U+1D5E6	𝗦		MATHEMATICAL SANS-SERIF BOLD CAPITAL S	
+U+1D5E7	𝗧		MATHEMATICAL SANS-SERIF BOLD CAPITAL T	
+U+1D5E8	𝗨		MATHEMATICAL SANS-SERIF BOLD CAPITAL U	
+U+1D5E9	𝗩		MATHEMATICAL SANS-SERIF BOLD CAPITAL V	
+U+1D5EA	𝗪		MATHEMATICAL SANS-SERIF BOLD CAPITAL W	
+U+1D5EB	𝗫		MATHEMATICAL SANS-SERIF BOLD CAPITAL X	
+U+1D5EC	𝗬		MATHEMATICAL SANS-SERIF BOLD CAPITAL Y	
+U+1D5ED	𝗭		MATHEMATICAL SANS-SERIF BOLD CAPITAL Z	
+U+1D5EE	𝗮		MATHEMATICAL SANS-SERIF BOLD SMALL A	
+U+1D5EF	𝗯		MATHEMATICAL SANS-SERIF BOLD SMALL B	
+U+1D5F0	𝗰		MATHEMATICAL SANS-SERIF BOLD SMALL C	
+U+1D5F1	𝗱		MATHEMATICAL SANS-SERIF BOLD SMALL D	
+U+1D5F2	𝗲		MATHEMATICAL SANS-SERIF BOLD SMALL E	
+U+1D5F3	𝗳		MATHEMATICAL SANS-SERIF BOLD SMALL F	
+U+1D5F4	𝗴		MATHEMATICAL SANS-SERIF BOLD SMALL G	
+U+1D5F5	𝗵		MATHEMATICAL SANS-SERIF BOLD SMALL H	
+U+1D5F6	𝗶		MATHEMATICAL SANS-SERIF BOLD SMALL I	
+U+1D5F7	𝗷		MATHEMATICAL SANS-SERIF BOLD SMALL J	
+U+1D5F8	𝗸		MATHEMATICAL SANS-SERIF BOLD SMALL K	
+U+1D5F9	𝗹		MATHEMATICAL SANS-SERIF BOLD SMALL L	
+U+1D5FA	𝗺		MATHEMATICAL SANS-SERIF BOLD SMALL M	
+U+1D5FB	𝗻		MATHEMATICAL SANS-SERIF BOLD SMALL N	
+U+1D5FC	𝗼		MATHEMATICAL SANS-SERIF BOLD SMALL O	
+U+1D5FD	𝗽		MATHEMATICAL SANS-SERIF BOLD SMALL P	
+U+1D5FE	𝗾		MATHEMATICAL SANS-SERIF BOLD SMALL Q	
+U+1D5FF	𝗿		MATHEMATICAL SANS-SERIF BOLD SMALL R	
+U+1D600	𝘀		MATHEMATICAL SANS-SERIF BOLD SMALL S	
+U+1D601	𝘁		MATHEMATICAL SANS-SERIF BOLD SMALL T	
+U+1D602	𝘂		MATHEMATICAL SANS-SERIF BOLD SMALL U	
+U+1D603	𝘃		MATHEMATICAL SANS-SERIF BOLD SMALL V	
+U+1D604	𝘄		MATHEMATICAL SANS-SERIF BOLD SMALL W	
+U+1D605	𝘅		MATHEMATICAL SANS-SERIF BOLD SMALL X	
+U+1D606	𝘆		MATHEMATICAL SANS-SERIF BOLD SMALL Y	
+U+1D607	𝘇		MATHEMATICAL SANS-SERIF BOLD SMALL Z	
+U+1D608	𝘈		MATHEMATICAL SANS-SERIF ITALIC CAPITAL A	
+U+1D609	𝘉		MATHEMATICAL SANS-SERIF ITALIC CAPITAL B	
+U+1D60A	𝘊		MATHEMATICAL SANS-SERIF ITALIC CAPITAL C	
+U+1D60B	𝘋		MATHEMATICAL SANS-SERIF ITALIC CAPITAL D	
+U+1D60C	𝘌		MATHEMATICAL SANS-SERIF ITALIC CAPITAL E	
+U+1D60D	𝘍		MATHEMATICAL SANS-SERIF ITALIC CAPITAL F	
+U+1D60E	𝘎		MATHEMATICAL SANS-SERIF ITALIC CAPITAL G	
+U+1D60F	𝘏		MATHEMATICAL SANS-SERIF ITALIC CAPITAL H	
+U+1D610	𝘐		MATHEMATICAL SANS-SERIF ITALIC CAPITAL I	
+U+1D611	𝘑		MATHEMATICAL SANS-SERIF ITALIC CAPITAL J	
+U+1D612	𝘒		MATHEMATICAL SANS-SERIF ITALIC CAPITAL K	
+U+1D613	𝘓		MATHEMATICAL SANS-SERIF ITALIC CAPITAL L	
+U+1D614	𝘔		MATHEMATICAL SANS-SERIF ITALIC CAPITAL M	
+U+1D615	𝘕		MATHEMATICAL SANS-SERIF ITALIC CAPITAL N	
+U+1D616	𝘖		MATHEMATICAL SANS-SERIF ITALIC CAPITAL O	
+U+1D617	𝘗		MATHEMATICAL SANS-SERIF ITALIC CAPITAL P	
+U+1D618	𝘘		MATHEMATICAL SANS-SERIF ITALIC CAPITAL Q	
+U+1D619	𝘙		MATHEMATICAL SANS-SERIF ITALIC CAPITAL R	
+U+1D61A	𝘚		MATHEMATICAL SANS-SERIF ITALIC CAPITAL S	
+U+1D61B	𝘛		MATHEMATICAL SANS-SERIF ITALIC CAPITAL T	
+U+1D61C	𝘜		MATHEMATICAL SANS-SERIF ITALIC CAPITAL U	
+U+1D61D	𝘝		MATHEMATICAL SANS-SERIF ITALIC CAPITAL V	
+U+1D61E	𝘞		MATHEMATICAL SANS-SERIF ITALIC CAPITAL W	
+U+1D61F	𝘟		MATHEMATICAL SANS-SERIF ITALIC CAPITAL X	
+U+1D620	𝘠		MATHEMATICAL SANS-SERIF ITALIC CAPITAL Y	
+U+1D621	𝘡		MATHEMATICAL SANS-SERIF ITALIC CAPITAL Z	
+U+1D622	𝘢		MATHEMATICAL SANS-SERIF ITALIC SMALL A	
+U+1D623	𝘣		MATHEMATICAL SANS-SERIF ITALIC SMALL B	
+U+1D624	𝘤		MATHEMATICAL SANS-SERIF ITALIC SMALL C	
+U+1D625	𝘥		MATHEMATICAL SANS-SERIF ITALIC SMALL D	
+U+1D626	𝘦		MATHEMATICAL SANS-SERIF ITALIC SMALL E	
+U+1D627	𝘧		MATHEMATICAL SANS-SERIF ITALIC SMALL F	
+U+1D628	𝘨		MATHEMATICAL SANS-SERIF ITALIC SMALL G	
+U+1D629	𝘩		MATHEMATICAL SANS-SERIF ITALIC SMALL H	
+U+1D62A	𝘪		MATHEMATICAL SANS-SERIF ITALIC SMALL I	
+U+1D62B	𝘫		MATHEMATICAL SANS-SERIF ITALIC SMALL J	
+U+1D62C	𝘬		MATHEMATICAL SANS-SERIF ITALIC SMALL K	
+U+1D62D	𝘭		MATHEMATICAL SANS-SERIF ITALIC SMALL L	
+U+1D62E	𝘮		MATHEMATICAL SANS-SERIF ITALIC SMALL M	
+U+1D62F	𝘯		MATHEMATICAL SANS-SERIF ITALIC SMALL N	
+U+1D630	𝘰		MATHEMATICAL SANS-SERIF ITALIC SMALL O	
+U+1D631	𝘱		MATHEMATICAL SANS-SERIF ITALIC SMALL P	
+U+1D632	𝘲		MATHEMATICAL SANS-SERIF ITALIC SMALL Q	
+U+1D633	𝘳		MATHEMATICAL SANS-SERIF ITALIC SMALL R	
+U+1D634	𝘴		MATHEMATICAL SANS-SERIF ITALIC SMALL S	
+U+1D635	𝘵		MATHEMATICAL SANS-SERIF ITALIC SMALL T	
+U+1D636	𝘶		MATHEMATICAL SANS-SERIF ITALIC SMALL U	
+U+1D637	𝘷		MATHEMATICAL SANS-SERIF ITALIC SMALL V	
+U+1D638	𝘸		MATHEMATICAL SANS-SERIF ITALIC SMALL W	
+U+1D639	𝘹		MATHEMATICAL SANS-SERIF ITALIC SMALL X	
+U+1D63A	𝘺		MATHEMATICAL SANS-SERIF ITALIC SMALL Y	
+U+1D63B	𝘻		MATHEMATICAL SANS-SERIF ITALIC SMALL Z	
+U+1D63C	𝘼		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL A	
+U+1D63D	𝘽		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL B	
+U+1D63E	𝘾		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL C	
+U+1D63F	𝘿		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL D	
+U+1D640	𝙀		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL E	
+U+1D641	𝙁		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL F	
+U+1D642	𝙂		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL G	
+U+1D643	𝙃		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL H	
+U+1D644	𝙄		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL I	
+U+1D645	𝙅		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL J	
+U+1D646	𝙆		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL K	
+U+1D647	𝙇		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL L	
+U+1D648	𝙈		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL M	
+U+1D649	𝙉		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL N	
+U+1D64A	𝙊		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL O	
+U+1D64B	𝙋		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL P	
+U+1D64C	𝙌		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Q	
+U+1D64D	𝙍		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL R	
+U+1D64E	𝙎		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL S	
+U+1D64F	𝙏		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL T	
+U+1D650	𝙐		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL U	
+U+1D651	𝙑		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL V	
+U+1D652	𝙒		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL W	
+U+1D653	𝙓		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL X	
+U+1D654	𝙔		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Y	
+U+1D655	𝙕		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Z	
+U+1D656	𝙖		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL A	
+U+1D657	𝙗		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL B	
+U+1D658	𝙘		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL C	
+U+1D659	𝙙		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL D	
+U+1D65A	𝙚		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL E	
+U+1D65B	𝙛		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL F	
+U+1D65C	𝙜		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL G	
+U+1D65D	𝙝		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL H	
+U+1D65E	𝙞		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL I	
+U+1D65F	𝙟		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL J	
+U+1D660	𝙠		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL K	
+U+1D661	𝙡		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL L	
+U+1D662	𝙢		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL M	
+U+1D663	𝙣		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL N	
+U+1D664	𝙤		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL O	
+U+1D665	𝙥		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL P	
+U+1D666	𝙦		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Q	
+U+1D667	𝙧		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL R	
+U+1D668	𝙨		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL S	
+U+1D669	𝙩		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL T	
+U+1D66A	𝙪		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL U	
+U+1D66B	𝙫		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL V	
+U+1D66C	𝙬		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL W	
+U+1D66D	𝙭		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL X	
+U+1D66E	𝙮		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Y	
+U+1D66F	𝙯		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Z	
+U+1D670	𝙰		MATHEMATICAL MONOSPACE CAPITAL A	
+U+1D671	𝙱		MATHEMATICAL MONOSPACE CAPITAL B	
+U+1D672	𝙲		MATHEMATICAL MONOSPACE CAPITAL C	
+U+1D673	𝙳		MATHEMATICAL MONOSPACE CAPITAL D	
+U+1D674	𝙴		MATHEMATICAL MONOSPACE CAPITAL E	
+U+1D675	𝙵		MATHEMATICAL MONOSPACE CAPITAL F	
+U+1D676	𝙶		MATHEMATICAL MONOSPACE CAPITAL G	
+U+1D677	𝙷		MATHEMATICAL MONOSPACE CAPITAL H	
+U+1D678	𝙸		MATHEMATICAL MONOSPACE CAPITAL I	
+U+1D679	𝙹		MATHEMATICAL MONOSPACE CAPITAL J	
+U+1D67A	𝙺		MATHEMATICAL MONOSPACE CAPITAL K	
+U+1D67B	𝙻		MATHEMATICAL MONOSPACE CAPITAL L	
+U+1D67C	𝙼		MATHEMATICAL MONOSPACE CAPITAL M	
+U+1D67D	𝙽		MATHEMATICAL MONOSPACE CAPITAL N	
+U+1D67E	𝙾		MATHEMATICAL MONOSPACE CAPITAL O	
+U+1D67F	𝙿		MATHEMATICAL MONOSPACE CAPITAL P	
+U+1D680	𝚀		MATHEMATICAL MONOSPACE CAPITAL Q	
+U+1D681	𝚁		MATHEMATICAL MONOSPACE CAPITAL R	
+U+1D682	𝚂		MATHEMATICAL MONOSPACE CAPITAL S	
+U+1D683	𝚃		MATHEMATICAL MONOSPACE CAPITAL T	
+U+1D684	𝚄		MATHEMATICAL MONOSPACE CAPITAL U	
+U+1D685	𝚅		MATHEMATICAL MONOSPACE CAPITAL V	
+U+1D686	𝚆		MATHEMATICAL MONOSPACE CAPITAL W	
+U+1D687	𝚇		MATHEMATICAL MONOSPACE CAPITAL X	
+U+1D688	𝚈		MATHEMATICAL MONOSPACE CAPITAL Y	
+U+1D689	𝚉		MATHEMATICAL MONOSPACE CAPITAL Z	
+U+1D68A	𝚊		MATHEMATICAL MONOSPACE SMALL A	
+U+1D68B	𝚋		MATHEMATICAL MONOSPACE SMALL B	
+U+1D68C	𝚌		MATHEMATICAL MONOSPACE SMALL C	
+U+1D68D	𝚍		MATHEMATICAL MONOSPACE SMALL D	
+U+1D68E	𝚎		MATHEMATICAL MONOSPACE SMALL E	
+U+1D68F	𝚏		MATHEMATICAL MONOSPACE SMALL F	
+U+1D690	𝚐		MATHEMATICAL MONOSPACE SMALL G	
+U+1D691	𝚑		MATHEMATICAL MONOSPACE SMALL H	
+U+1D692	𝚒		MATHEMATICAL MONOSPACE SMALL I	
+U+1D693	𝚓		MATHEMATICAL MONOSPACE SMALL J	
+U+1D694	𝚔		MATHEMATICAL MONOSPACE SMALL K	
+U+1D695	𝚕		MATHEMATICAL MONOSPACE SMALL L	
+U+1D696	𝚖		MATHEMATICAL MONOSPACE SMALL M	
+U+1D697	𝚗		MATHEMATICAL MONOSPACE SMALL N	
+U+1D698	𝚘		MATHEMATICAL MONOSPACE SMALL O	
+U+1D699	𝚙		MATHEMATICAL MONOSPACE SMALL P	
+U+1D69A	𝚚		MATHEMATICAL MONOSPACE SMALL Q	
+U+1D69B	𝚛		MATHEMATICAL MONOSPACE SMALL R	
+U+1D69C	𝚜		MATHEMATICAL MONOSPACE SMALL S	
+U+1D69D	𝚝		MATHEMATICAL MONOSPACE SMALL T	
+U+1D69E	𝚞		MATHEMATICAL MONOSPACE SMALL U	
+U+1D69F	𝚟		MATHEMATICAL MONOSPACE SMALL V	
+U+1D6A0	𝚠		MATHEMATICAL MONOSPACE SMALL W	
+U+1D6A1	𝚡		MATHEMATICAL MONOSPACE SMALL X	
+U+1D6A2	𝚢		MATHEMATICAL MONOSPACE SMALL Y	
+U+1D6A3	𝚣		MATHEMATICAL MONOSPACE SMALL Z	
+U+1D6A4	𝚤		MATHEMATICAL ITALIC SMALL DOTLESS I	
+U+1D6A5	𝚥		MATHEMATICAL ITALIC SMALL DOTLESS J	
+U+1D6A6	𝚦		MATHEMATICAL ITALIC SMALL LIGATURE LONG S WITH DESCENDER S	
+U+1D6A8	𝚨		MATHEMATICAL BOLD CAPITAL ALPHA	
+U+1D6A9	𝚩		MATHEMATICAL BOLD CAPITAL BETA	
+U+1D6AA	𝚪		MATHEMATICAL BOLD CAPITAL GAMMA	
+U+1D6AB	𝚫		MATHEMATICAL BOLD CAPITAL DELTA	
+U+1D6AC	𝚬		MATHEMATICAL BOLD CAPITAL EPSILON	
+U+1D6AD	𝚭		MATHEMATICAL BOLD CAPITAL ZETA	
+U+1D6AE	𝚮		MATHEMATICAL BOLD CAPITAL ETA	
+U+1D6AF	𝚯		MATHEMATICAL BOLD CAPITAL THETA	
+U+1D6B0	𝚰		MATHEMATICAL BOLD CAPITAL IOTA	
+U+1D6B1	𝚱		MATHEMATICAL BOLD CAPITAL KAPPA	
+U+1D6B2	𝚲		MATHEMATICAL BOLD CAPITAL LAMDA	
+U+1D6B3	𝚳		MATHEMATICAL BOLD CAPITAL MU	
+U+1D6B4	𝚴		MATHEMATICAL BOLD CAPITAL NU	
+U+1D6B5	𝚵		MATHEMATICAL BOLD CAPITAL XI	
+U+1D6B6	𝚶		MATHEMATICAL BOLD CAPITAL OMICRON	
+U+1D6B7	𝚷		MATHEMATICAL BOLD CAPITAL PI	
+U+1D6B8	𝚸		MATHEMATICAL BOLD CAPITAL RHO	
+U+1D6B9	𝚹		MATHEMATICAL BOLD CAPITAL THETA SYMBOL	
+U+1D6BA	𝚺		MATHEMATICAL BOLD CAPITAL SIGMA	
+U+1D6BB	𝚻		MATHEMATICAL BOLD CAPITAL TAU	
+U+1D6BC	𝚼		MATHEMATICAL BOLD CAPITAL UPSILON	
+U+1D6BD	𝚽		MATHEMATICAL BOLD CAPITAL PHI	
+U+1D6BE	𝚾		MATHEMATICAL BOLD CAPITAL CHI	
+U+1D6BF	𝚿		MATHEMATICAL BOLD CAPITAL PSI	
+U+1D6C0	𝛀		MATHEMATICAL BOLD CAPITAL OMEGA	
+U+1D6C1	𝛁		MATHEMATICAL BOLD NABLA	
+U+1D6C2	𝛂		MATHEMATICAL BOLD SMALL ALPHA	
+U+1D6C3	𝛃		MATHEMATICAL BOLD SMALL BETA	
+U+1D6C4	𝛄		MATHEMATICAL BOLD SMALL GAMMA	
+U+1D6C5	𝛅		MATHEMATICAL BOLD SMALL DELTA	
+U+1D6C6	𝛆		MATHEMATICAL BOLD SMALL EPSILON	
+U+1D6C7	𝛇		MATHEMATICAL BOLD SMALL ZETA	
+U+1D6C8	𝛈		MATHEMATICAL BOLD SMALL ETA	
+U+1D6C9	𝛉		MATHEMATICAL BOLD SMALL THETA	
+U+1D6CA	𝛊		MATHEMATICAL BOLD SMALL IOTA	
+U+1D6CB	𝛋		MATHEMATICAL BOLD SMALL KAPPA	
+U+1D6CC	𝛌		MATHEMATICAL BOLD SMALL LAMDA	
+U+1D6CD	𝛍		MATHEMATICAL BOLD SMALL MU	
+U+1D6CE	𝛎		MATHEMATICAL BOLD SMALL NU	
+U+1D6CF	𝛏		MATHEMATICAL BOLD SMALL XI	
+U+1D6D0	𝛐		MATHEMATICAL BOLD SMALL OMICRON	
+U+1D6D1	𝛑		MATHEMATICAL BOLD SMALL PI	
+U+1D6D2	𝛒		MATHEMATICAL BOLD SMALL RHO	
+U+1D6D3	𝛓		MATHEMATICAL BOLD SMALL FINAL SIGMA	
+U+1D6D4	𝛔		MATHEMATICAL BOLD SMALL SIGMA	
+U+1D6D5	𝛕		MATHEMATICAL BOLD SMALL TAU	
+U+1D6D6	𝛖		MATHEMATICAL BOLD SMALL UPSILON	
+U+1D6D7	𝛗		MATHEMATICAL BOLD SMALL PHI	
+U+1D6D8	𝛘		MATHEMATICAL BOLD SMALL CHI	
+U+1D6D9	𝛙		MATHEMATICAL BOLD SMALL PSI	
+U+1D6DA	𝛚		MATHEMATICAL BOLD SMALL OMEGA	
+U+1D6DB	𝛛		MATHEMATICAL BOLD PARTIAL DIFFERENTIAL	
+U+1D6DC	𝛜		MATHEMATICAL BOLD EPSILON SYMBOL	
+U+1D6DD	𝛝		MATHEMATICAL BOLD THETA SYMBOL	
+U+1D6DE	𝛞		MATHEMATICAL BOLD KAPPA SYMBOL	
+U+1D6DF	𝛟		MATHEMATICAL BOLD PHI SYMBOL	
+U+1D6E0	𝛠		MATHEMATICAL BOLD RHO SYMBOL	
+U+1D6E1	𝛡		MATHEMATICAL BOLD PI SYMBOL	
+U+1D6E2	𝛢		MATHEMATICAL ITALIC CAPITAL ALPHA	
+U+1D6E3	𝛣		MATHEMATICAL ITALIC CAPITAL BETA	
+U+1D6E4	𝛤		MATHEMATICAL ITALIC CAPITAL GAMMA	
+U+1D6E5	𝛥		MATHEMATICAL ITALIC CAPITAL DELTA	
+U+1D6E6	𝛦		MATHEMATICAL ITALIC CAPITAL EPSILON	
+U+1D6E7	𝛧		MATHEMATICAL ITALIC CAPITAL ZETA	
+U+1D6E8	𝛨		MATHEMATICAL ITALIC CAPITAL ETA	
+U+1D6E9	𝛩		MATHEMATICAL ITALIC CAPITAL THETA	
+U+1D6EA	𝛪		MATHEMATICAL ITALIC CAPITAL IOTA	
+U+1D6EB	𝛫		MATHEMATICAL ITALIC CAPITAL KAPPA	
+U+1D6EC	𝛬		MATHEMATICAL ITALIC CAPITAL LAMDA	
+U+1D6ED	𝛭		MATHEMATICAL ITALIC CAPITAL MU	
+U+1D6EE	𝛮		MATHEMATICAL ITALIC CAPITAL NU	
+U+1D6EF	𝛯		MATHEMATICAL ITALIC CAPITAL XI	
+U+1D6F0	𝛰		MATHEMATICAL ITALIC CAPITAL OMICRON	
+U+1D6F1	𝛱		MATHEMATICAL ITALIC CAPITAL PI	
+U+1D6F2	𝛲		MATHEMATICAL ITALIC CAPITAL RHO	
+U+1D6F3	𝛳		MATHEMATICAL ITALIC CAPITAL THETA SYMBOL	
+U+1D6F4	𝛴		MATHEMATICAL ITALIC CAPITAL SIGMA	
+U+1D6F5	𝛵		MATHEMATICAL ITALIC CAPITAL TAU	
+U+1D6F6	𝛶		MATHEMATICAL ITALIC CAPITAL UPSILON	
+U+1D6F7	𝛷		MATHEMATICAL ITALIC CAPITAL PHI	
+U+1D6F8	𝛸		MATHEMATICAL ITALIC CAPITAL CHI	
+U+1D6F9	𝛹		MATHEMATICAL ITALIC CAPITAL PSI	
+U+1D6FA	𝛺		MATHEMATICAL ITALIC CAPITAL OMEGA	
+U+1D6FB	𝛻		MATHEMATICAL ITALIC NABLA	
+U+1D6FC	𝛼		MATHEMATICAL ITALIC SMALL ALPHA	
+U+1D6FD	𝛽		MATHEMATICAL ITALIC SMALL BETA	
+U+1D6FE	𝛾		MATHEMATICAL ITALIC SMALL GAMMA	
+U+1D6FF	𝛿		MATHEMATICAL ITALIC SMALL DELTA	
+U+1D700	𝜀		MATHEMATICAL ITALIC SMALL EPSILON	
+U+1D701	𝜁		MATHEMATICAL ITALIC SMALL ZETA	
+U+1D702	𝜂		MATHEMATICAL ITALIC SMALL ETA	
+U+1D703	𝜃		MATHEMATICAL ITALIC SMALL THETA	
+U+1D704	𝜄		MATHEMATICAL ITALIC SMALL IOTA	
+U+1D705	𝜅		MATHEMATICAL ITALIC SMALL KAPPA	
+U+1D706	𝜆		MATHEMATICAL ITALIC SMALL LAMDA	
+U+1D707	𝜇		MATHEMATICAL ITALIC SMALL MU	
+U+1D708	𝜈		MATHEMATICAL ITALIC SMALL NU	
+U+1D709	𝜉		MATHEMATICAL ITALIC SMALL XI	
+U+1D70A	𝜊		MATHEMATICAL ITALIC SMALL OMICRON	
+U+1D70B	𝜋		MATHEMATICAL ITALIC SMALL PI	
+U+1D70C	𝜌		MATHEMATICAL ITALIC SMALL RHO	
+U+1D70D	𝜍		MATHEMATICAL ITALIC SMALL FINAL SIGMA	
+U+1D70E	𝜎		MATHEMATICAL ITALIC SMALL SIGMA	
+U+1D70F	𝜏		MATHEMATICAL ITALIC SMALL TAU	
+U+1D710	𝜐		MATHEMATICAL ITALIC SMALL UPSILON	
+U+1D711	𝜑		MATHEMATICAL ITALIC SMALL PHI	
+U+1D712	𝜒		MATHEMATICAL ITALIC SMALL CHI	
+U+1D713	𝜓		MATHEMATICAL ITALIC SMALL PSI	
+U+1D714	𝜔		MATHEMATICAL ITALIC SMALL OMEGA	
+U+1D715	𝜕		MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL	
+U+1D716	𝜖		MATHEMATICAL ITALIC EPSILON SYMBOL	
+U+1D717	𝜗		MATHEMATICAL ITALIC THETA SYMBOL	
+U+1D718	𝜘		MATHEMATICAL ITALIC KAPPA SYMBOL	
+U+1D719	𝜙		MATHEMATICAL ITALIC PHI SYMBOL	
+U+1D71A	𝜚		MATHEMATICAL ITALIC RHO SYMBOL	
+U+1D71B	𝜛		MATHEMATICAL ITALIC PI SYMBOL	
+U+1D71C	𝜜		MATHEMATICAL BOLD ITALIC CAPITAL ALPHA	
+U+1D71D	𝜝		MATHEMATICAL BOLD ITALIC CAPITAL BETA	
+U+1D71E	𝜞		MATHEMATICAL BOLD ITALIC CAPITAL GAMMA	
+U+1D71F	𝜟		MATHEMATICAL BOLD ITALIC CAPITAL DELTA	
+U+1D720	𝜠		MATHEMATICAL BOLD ITALIC CAPITAL EPSILON	
+U+1D721	𝜡		MATHEMATICAL BOLD ITALIC CAPITAL ZETA	
+U+1D722	𝜢		MATHEMATICAL BOLD ITALIC CAPITAL ETA	
+U+1D723	𝜣		MATHEMATICAL BOLD ITALIC CAPITAL THETA	
+U+1D724	𝜤		MATHEMATICAL BOLD ITALIC CAPITAL IOTA	
+U+1D725	𝜥		MATHEMATICAL BOLD ITALIC CAPITAL KAPPA	
+U+1D726	𝜦		MATHEMATICAL BOLD ITALIC CAPITAL LAMDA	
+U+1D727	𝜧		MATHEMATICAL BOLD ITALIC CAPITAL MU	
+U+1D728	𝜨		MATHEMATICAL BOLD ITALIC CAPITAL NU	
+U+1D729	𝜩		MATHEMATICAL BOLD ITALIC CAPITAL XI	
+U+1D72A	𝜪		MATHEMATICAL BOLD ITALIC CAPITAL OMICRON	
+U+1D72B	𝜫		MATHEMATICAL BOLD ITALIC CAPITAL PI	
+U+1D72C	𝜬		MATHEMATICAL BOLD ITALIC CAPITAL RHO	
+U+1D72D	𝜭		MATHEMATICAL BOLD ITALIC CAPITAL THETA SYMBOL	
+U+1D72E	𝜮		MATHEMATICAL BOLD ITALIC CAPITAL SIGMA	
+U+1D72F	𝜯		MATHEMATICAL BOLD ITALIC CAPITAL TAU	
+U+1D730	𝜰		MATHEMATICAL BOLD ITALIC CAPITAL UPSILON	
+U+1D731	𝜱		MATHEMATICAL BOLD ITALIC CAPITAL PHI	
+U+1D732	𝜲		MATHEMATICAL BOLD ITALIC CAPITAL CHI	
+U+1D733	𝜳		MATHEMATICAL BOLD ITALIC CAPITAL PSI	
+U+1D734	𝜴		MATHEMATICAL BOLD ITALIC CAPITAL OMEGA	
+U+1D735	𝜵		MATHEMATICAL BOLD ITALIC NABLA	
+U+1D736	𝜶		MATHEMATICAL BOLD ITALIC SMALL ALPHA	
+U+1D737	𝜷		MATHEMATICAL BOLD ITALIC SMALL BETA	
+U+1D738	𝜸		MATHEMATICAL BOLD ITALIC SMALL GAMMA	
+U+1D739	𝜹		MATHEMATICAL BOLD ITALIC SMALL DELTA	
+U+1D73A	𝜺		MATHEMATICAL BOLD ITALIC SMALL EPSILON	
+U+1D73B	𝜻		MATHEMATICAL BOLD ITALIC SMALL ZETA	
+U+1D73C	𝜼		MATHEMATICAL BOLD ITALIC SMALL ETA	
+U+1D73D	𝜽		MATHEMATICAL BOLD ITALIC SMALL THETA	
+U+1D73E	𝜾		MATHEMATICAL BOLD ITALIC SMALL IOTA	
+U+1D73F	𝜿		MATHEMATICAL BOLD ITALIC SMALL KAPPA	
+U+1D740	𝝀		MATHEMATICAL BOLD ITALIC SMALL LAMDA	
+U+1D741	𝝁		MATHEMATICAL BOLD ITALIC SMALL MU	
+U+1D742	𝝂		MATHEMATICAL BOLD ITALIC SMALL NU	
+U+1D743	𝝃		MATHEMATICAL BOLD ITALIC SMALL XI	
+U+1D744	𝝄		MATHEMATICAL BOLD ITALIC SMALL OMICRON	
+U+1D745	𝝅		MATHEMATICAL BOLD ITALIC SMALL PI	
+U+1D746	𝝆		MATHEMATICAL BOLD ITALIC SMALL RHO	
+U+1D747	𝝇		MATHEMATICAL BOLD ITALIC SMALL FINAL SIGMA	
+U+1D748	𝝈		MATHEMATICAL BOLD ITALIC SMALL SIGMA	
+U+1D749	𝝉		MATHEMATICAL BOLD ITALIC SMALL TAU	
+U+1D74A	𝝊		MATHEMATICAL BOLD ITALIC SMALL UPSILON	
+U+1D74B	𝝋		MATHEMATICAL BOLD ITALIC SMALL PHI	
+U+1D74C	𝝌		MATHEMATICAL BOLD ITALIC SMALL CHI	
+U+1D74D	𝝍		MATHEMATICAL BOLD ITALIC SMALL PSI	
+U+1D74E	𝝎		MATHEMATICAL BOLD ITALIC SMALL OMEGA	
+U+1D74F	𝝏		MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL	
+U+1D750	𝝐		MATHEMATICAL BOLD ITALIC EPSILON SYMBOL	
+U+1D751	𝝑		MATHEMATICAL BOLD ITALIC THETA SYMBOL	
+U+1D752	𝝒		MATHEMATICAL BOLD ITALIC KAPPA SYMBOL	
+U+1D753	𝝓		MATHEMATICAL BOLD ITALIC PHI SYMBOL	
+U+1D754	𝝔		MATHEMATICAL BOLD ITALIC RHO SYMBOL	
+U+1D755	𝝕		MATHEMATICAL BOLD ITALIC PI SYMBOL	
+U+1D756	𝝖		MATHEMATICAL SANS-SERIF BOLD CAPITAL ALPHA	
+U+1D757	𝝗		MATHEMATICAL SANS-SERIF BOLD CAPITAL BETA	
+U+1D758	𝝘		MATHEMATICAL SANS-SERIF BOLD CAPITAL GAMMA	
+U+1D759	𝝙		MATHEMATICAL SANS-SERIF BOLD CAPITAL DELTA	
+U+1D75A	𝝚		MATHEMATICAL SANS-SERIF BOLD CAPITAL EPSILON	
+U+1D75B	𝝛		MATHEMATICAL SANS-SERIF BOLD CAPITAL ZETA	
+U+1D75C	𝝜		MATHEMATICAL SANS-SERIF BOLD CAPITAL ETA	
+U+1D75D	𝝝		MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA	
+U+1D75E	𝝞		MATHEMATICAL SANS-SERIF BOLD CAPITAL IOTA	
+U+1D75F	𝝟		MATHEMATICAL SANS-SERIF BOLD CAPITAL KAPPA	
+U+1D760	𝝠		MATHEMATICAL SANS-SERIF BOLD CAPITAL LAMDA	
+U+1D761	𝝡		MATHEMATICAL SANS-SERIF BOLD CAPITAL MU	
+U+1D762	𝝢		MATHEMATICAL SANS-SERIF BOLD CAPITAL NU	
+U+1D763	𝝣		MATHEMATICAL SANS-SERIF BOLD CAPITAL XI	
+U+1D764	𝝤		MATHEMATICAL SANS-SERIF BOLD CAPITAL OMICRON	
+U+1D765	𝝥		MATHEMATICAL SANS-SERIF BOLD CAPITAL PI	
+U+1D766	𝝦		MATHEMATICAL SANS-SERIF BOLD CAPITAL RHO	
+U+1D767	𝝧		MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA SYMBOL	
+U+1D768	𝝨		MATHEMATICAL SANS-SERIF BOLD CAPITAL SIGMA	
+U+1D769	𝝩		MATHEMATICAL SANS-SERIF BOLD CAPITAL TAU	
+U+1D76A	𝝪		MATHEMATICAL SANS-SERIF BOLD CAPITAL UPSILON	
+U+1D76B	𝝫		MATHEMATICAL SANS-SERIF BOLD CAPITAL PHI	
+U+1D76C	𝝬		MATHEMATICAL SANS-SERIF BOLD CAPITAL CHI	
+U+1D76D	𝝭		MATHEMATICAL SANS-SERIF BOLD CAPITAL PSI	
+U+1D76E	𝝮		MATHEMATICAL SANS-SERIF BOLD CAPITAL OMEGA	
+U+1D76F	𝝯		MATHEMATICAL SANS-SERIF BOLD NABLA	
+U+1D770	𝝰		MATHEMATICAL SANS-SERIF BOLD SMALL ALPHA	
+U+1D771	𝝱		MATHEMATICAL SANS-SERIF BOLD SMALL BETA	
+U+1D772	𝝲		MATHEMATICAL SANS-SERIF BOLD SMALL GAMMA	
+U+1D773	𝝳		MATHEMATICAL SANS-SERIF BOLD SMALL DELTA	
+U+1D774	𝝴		MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON	
+U+1D775	𝝵		MATHEMATICAL SANS-SERIF BOLD SMALL ZETA	
+U+1D776	𝝶		MATHEMATICAL SANS-SERIF BOLD SMALL ETA	
+U+1D777	𝝷		MATHEMATICAL SANS-SERIF BOLD SMALL THETA	
+U+1D778	𝝸		MATHEMATICAL SANS-SERIF BOLD SMALL IOTA	
+U+1D779	𝝹		MATHEMATICAL SANS-SERIF BOLD SMALL KAPPA	
+U+1D77A	𝝺		MATHEMATICAL SANS-SERIF BOLD SMALL LAMDA	
+U+1D77B	𝝻		MATHEMATICAL SANS-SERIF BOLD SMALL MU	
+U+1D77C	𝝼		MATHEMATICAL SANS-SERIF BOLD SMALL NU	
+U+1D77D	𝝽		MATHEMATICAL SANS-SERIF BOLD SMALL XI	
+U+1D77E	𝝾		MATHEMATICAL SANS-SERIF BOLD SMALL OMICRON	
+U+1D77F	𝝿		MATHEMATICAL SANS-SERIF BOLD SMALL PI	
+U+1D780	𝞀		MATHEMATICAL SANS-SERIF BOLD SMALL RHO	
+U+1D781	𝞁		MATHEMATICAL SANS-SERIF BOLD SMALL FINAL SIGMA	
+U+1D782	𝞂		MATHEMATICAL SANS-SERIF BOLD SMALL SIGMA	
+U+1D783	𝞃		MATHEMATICAL SANS-SERIF BOLD SMALL TAU	
+U+1D784	𝞄		MATHEMATICAL SANS-SERIF BOLD SMALL UPSILON	
+U+1D785	𝞅		MATHEMATICAL SANS-SERIF BOLD SMALL PHI	
+U+1D786	𝞆		MATHEMATICAL SANS-SERIF BOLD SMALL CHI	
+U+1D787	𝞇		MATHEMATICAL SANS-SERIF BOLD SMALL PSI	
+U+1D788	𝞈		MATHEMATICAL SANS-SERIF BOLD SMALL OMEGA	
+U+1D789	𝞉		MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL	
+U+1D78A	𝞊		MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL	
+U+1D78B	𝞋		MATHEMATICAL SANS-SERIF BOLD THETA SYMBOL	
+U+1D78C	𝞌		MATHEMATICAL SANS-SERIF BOLD KAPPA SYMBOL	
+U+1D78D	𝞍		MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL	
+U+1D78E	𝞎		MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL	
+U+1D78F	𝞏		MATHEMATICAL SANS-SERIF BOLD PI SYMBOL	
+U+1D790	𝞐		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ALPHA	
+U+1D791	𝞑		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL BETA	
+U+1D792	𝞒		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL GAMMA	
+U+1D793	𝞓		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL DELTA	
+U+1D794	𝞔		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL EPSILON	
+U+1D795	𝞕		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ZETA	
+U+1D796	𝞖		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ETA	
+U+1D797	𝞗		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA	
+U+1D798	𝞘		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL IOTA	
+U+1D799	𝞙		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL KAPPA	
+U+1D79A	𝞚		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL LAMDA	
+U+1D79B	𝞛		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL MU	
+U+1D79C	𝞜		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL NU	
+U+1D79D	𝞝		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL XI	
+U+1D79E	𝞞		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMICRON	
+U+1D79F	𝞟		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PI	
+U+1D7A0	𝞠		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL RHO	
+U+1D7A1	𝞡		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA SYMBOL	
+U+1D7A2	𝞢		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL SIGMA	
+U+1D7A3	𝞣		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL TAU	
+U+1D7A4	𝞤		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL UPSILON	
+U+1D7A5	𝞥		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PHI	
+U+1D7A6	𝞦		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL CHI	
+U+1D7A7	𝞧		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PSI	
+U+1D7A8	𝞨		MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMEGA	
+U+1D7A9	𝞩		MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA	
+U+1D7AA	𝞪		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA	
+U+1D7AB	𝞫		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL BETA	
+U+1D7AC	𝞬		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL GAMMA	
+U+1D7AD	𝞭		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL DELTA	
+U+1D7AE	𝞮		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON	
+U+1D7AF	𝞯		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ZETA	
+U+1D7B0	𝞰		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ETA	
+U+1D7B1	𝞱		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL THETA	
+U+1D7B2	𝞲		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL IOTA	
+U+1D7B3	𝞳		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL KAPPA	
+U+1D7B4	𝞴		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL LAMDA	
+U+1D7B5	𝞵		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL MU	
+U+1D7B6	𝞶		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL NU	
+U+1D7B7	𝞷		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL XI	
+U+1D7B8	𝞸		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMICRON	
+U+1D7B9	𝞹		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PI	
+U+1D7BA	𝞺		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL RHO	
+U+1D7BB	𝞻		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL FINAL SIGMA	
+U+1D7BC	𝞼		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL SIGMA	
+U+1D7BD	𝞽		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL TAU	
+U+1D7BE	𝞾		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL UPSILON	
+U+1D7BF	𝞿		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI	
+U+1D7C0	𝟀		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL CHI	
+U+1D7C1	𝟁		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PSI	
+U+1D7C2	𝟂		MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA	
+U+1D7C3	𝟃		MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL	
+U+1D7C4	𝟄		MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL	
+U+1D7C5	𝟅		MATHEMATICAL SANS-SERIF BOLD ITALIC THETA SYMBOL	
+U+1D7C6	𝟆		MATHEMATICAL SANS-SERIF BOLD ITALIC KAPPA SYMBOL	
+U+1D7C7	𝟇		MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL	
+U+1D7C8	𝟈		MATHEMATICAL SANS-SERIF BOLD ITALIC RHO SYMBOL	
+U+1D7C9	𝟉		MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL	
+U+1D7CA	𝟊		MATHEMATICAL BOLD CAPITAL DIGAMMA	
+U+1D7CB	𝟋		MATHEMATICAL BOLD SMALL DIGAMMA	
+U+1D7CE	𝟎		MATHEMATICAL BOLD DIGIT ZERO	
+U+1D7CF	𝟏		MATHEMATICAL BOLD DIGIT ONE	
+U+1D7D0	𝟐		MATHEMATICAL BOLD DIGIT TWO	
+U+1D7D1	𝟑		MATHEMATICAL BOLD DIGIT THREE	
+U+1D7D2	𝟒		MATHEMATICAL BOLD DIGIT FOUR	
+U+1D7D3	𝟓		MATHEMATICAL BOLD DIGIT FIVE	
+U+1D7D4	𝟔		MATHEMATICAL BOLD DIGIT SIX	
+U+1D7D5	𝟕		MATHEMATICAL BOLD DIGIT SEVEN	
+U+1D7D6	𝟖		MATHEMATICAL BOLD DIGIT EIGHT	
+U+1D7D7	𝟗		MATHEMATICAL BOLD DIGIT NINE	
+U+1D7D8	𝟘		MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO	
+U+1D7D9	𝟙		MATHEMATICAL DOUBLE-STRUCK DIGIT ONE	
+U+1D7DA	𝟚		MATHEMATICAL DOUBLE-STRUCK DIGIT TWO	
+U+1D7DB	𝟛		MATHEMATICAL DOUBLE-STRUCK DIGIT THREE	
+U+1D7DC	𝟜		MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR	
+U+1D7DD	𝟝		MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE	
+U+1D7DE	𝟞		MATHEMATICAL DOUBLE-STRUCK DIGIT SIX	
+U+1D7DF	𝟟		MATHEMATICAL DOUBLE-STRUCK DIGIT SEVEN	
+U+1D7E0	𝟠		MATHEMATICAL DOUBLE-STRUCK DIGIT EIGHT	
+U+1D7E1	𝟡		MATHEMATICAL DOUBLE-STRUCK DIGIT NINE	
+U+1D7E2	𝟢		MATHEMATICAL SANS-SERIF DIGIT ZERO	
+U+1D7E3	𝟣		MATHEMATICAL SANS-SERIF DIGIT ONE	
+U+1D7E4	𝟤		MATHEMATICAL SANS-SERIF DIGIT TWO	
+U+1D7E5	𝟥		MATHEMATICAL SANS-SERIF DIGIT THREE	
+U+1D7E6	𝟦		MATHEMATICAL SANS-SERIF DIGIT FOUR	
+U+1D7E7	𝟧		MATHEMATICAL SANS-SERIF DIGIT FIVE	
+U+1D7E8	𝟨		MATHEMATICAL SANS-SERIF DIGIT SIX	
+U+1D7E9	𝟩		MATHEMATICAL SANS-SERIF DIGIT SEVEN	
+U+1D7EA	𝟪		MATHEMATICAL SANS-SERIF DIGIT EIGHT	
+U+1D7EB	𝟫		MATHEMATICAL SANS-SERIF DIGIT NINE	
+U+1D7EC	𝟬		MATHEMATICAL SANS-SERIF BOLD DIGIT ZERO	
+U+1D7ED	𝟭		MATHEMATICAL SANS-SERIF BOLD DIGIT ONE	
+U+1D7EE	𝟮		MATHEMATICAL SANS-SERIF BOLD DIGIT TWO	
+U+1D7EF	𝟯		MATHEMATICAL SANS-SERIF BOLD DIGIT THREE	
+U+1D7F0	𝟰		MATHEMATICAL SANS-SERIF BOLD DIGIT FOUR	
+U+1D7F1	𝟱		MATHEMATICAL SANS-SERIF BOLD DIGIT FIVE	
+U+1D7F2	𝟲		MATHEMATICAL SANS-SERIF BOLD DIGIT SIX	
+U+1D7F3	𝟳		MATHEMATICAL SANS-SERIF BOLD DIGIT SEVEN	
+U+1D7F4	𝟴		MATHEMATICAL SANS-SERIF BOLD DIGIT EIGHT	
+U+1D7F5	𝟵		MATHEMATICAL SANS-SERIF BOLD DIGIT NINE	
+U+1D7F6	𝟶		MATHEMATICAL MONOSPACE DIGIT ZERO	
+U+1D7F7	𝟷		MATHEMATICAL MONOSPACE DIGIT ONE	
+U+1D7F8	𝟸		MATHEMATICAL MONOSPACE DIGIT TWO	
+U+1D7F9	𝟹		MATHEMATICAL MONOSPACE DIGIT THREE	
+U+1D7FA	𝟺		MATHEMATICAL MONOSPACE DIGIT FOUR	
+U+1D7FB	𝟻		MATHEMATICAL MONOSPACE DIGIT FIVE	
+U+1D7FC	𝟼		MATHEMATICAL MONOSPACE DIGIT SIX	
+U+1D7FD	𝟽		MATHEMATICAL MONOSPACE DIGIT SEVEN	
+U+1D7FE	𝟾		MATHEMATICAL MONOSPACE DIGIT EIGHT	
+U+1D7FF	𝟿		MATHEMATICAL MONOSPACE DIGIT NINE	

@@ -1,56 +1,56 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A490	꒐	A490..A4CF	Yi Radicals	Yi radical qot		
-U+A491	꒑	A490..A4CF	Yi Radicals	Yi radical li		
-U+A492	꒒	A490..A4CF	Yi Radicals	Yi radical kit		
-U+A493	꒓	A490..A4CF	Yi Radicals	Yi radical nyip		
-U+A494	꒔	A490..A4CF	Yi Radicals	Yi radical cyp		
-U+A495	꒕	A490..A4CF	Yi Radicals	Yi radical ssi		
-U+A496	꒖	A490..A4CF	Yi Radicals	Yi radical ggop		
-U+A497	꒗	A490..A4CF	Yi Radicals	Yi radical gep		
-U+A498	꒘	A490..A4CF	Yi Radicals	Yi radical mi		
-U+A499	꒙	A490..A4CF	Yi Radicals	Yi radical hxit		
-U+A49A	꒚	A490..A4CF	Yi Radicals	Yi radical lyr		
-U+A49B	꒛	A490..A4CF	Yi Radicals	Yi radical bbut		
-U+A49C	꒜	A490..A4CF	Yi Radicals	Yi radical mop		
-U+A49D	꒝	A490..A4CF	Yi Radicals	Yi radical yo		
-U+A49E	꒞	A490..A4CF	Yi Radicals	Yi radical put		
-U+A49F	꒟	A490..A4CF	Yi Radicals	Yi radical hxuo		
-U+A4A0	꒠	A490..A4CF	Yi Radicals	Yi radical tat		
-U+A4A1	꒡	A490..A4CF	Yi Radicals	Yi radical ga		
-U+A4A2	꒢	A490..A4CF	Yi Radicals	Yi radical zup		
-U+A4A3	꒣	A490..A4CF	Yi Radicals	Yi radical cyt		
-U+A4A4	꒤	A490..A4CF	Yi Radicals	Yi radical ddur		
-U+A4A5	꒥	A490..A4CF	Yi Radicals	Yi radical bur		
-U+A4A6	꒦	A490..A4CF	Yi Radicals	Yi radical gguo		
-U+A4A7	꒧	A490..A4CF	Yi Radicals	Yi radical nyop		
-U+A4A8	꒨	A490..A4CF	Yi Radicals	Yi radical tu		
-U+A4A9	꒩	A490..A4CF	Yi Radicals	Yi radical op		
-U+A4AA	꒪	A490..A4CF	Yi Radicals	Yi radical jjut		
-U+A4AB	꒫	A490..A4CF	Yi Radicals	Yi radical zot		
-U+A4AC	꒬	A490..A4CF	Yi Radicals	Yi radical pyt		
-U+A4AD	꒭	A490..A4CF	Yi Radicals	Yi radical hmo		
-U+A4AE	꒮	A490..A4CF	Yi Radicals	Yi radical yit		
-U+A4AF	꒯	A490..A4CF	Yi Radicals	Yi radical vur		
-U+A4B0	꒰	A490..A4CF	Yi Radicals	Yi radical shy		
-U+A4B1	꒱	A490..A4CF	Yi Radicals	Yi radical vep		
-U+A4B2	꒲	A490..A4CF	Yi Radicals	Yi radical za		
-U+A4B3	꒳	A490..A4CF	Yi Radicals	Yi radical jo		
-U+A4B4	꒴	A490..A4CF	Yi Radicals	Yi radical nzup		
-U+A4B5	꒵	A490..A4CF	Yi Radicals	Yi radical jjy		
-U+A4B6	꒶	A490..A4CF	Yi Radicals	Yi radical got		
-U+A4B7	꒷	A490..A4CF	Yi Radicals	Yi radical jjie		
-U+A4B8	꒸	A490..A4CF	Yi Radicals	Yi radical wo		
-U+A4B9	꒹	A490..A4CF	Yi Radicals	Yi radical du		
-U+A4BA	꒺	A490..A4CF	Yi Radicals	Yi radical shur		
-U+A4BB	꒻	A490..A4CF	Yi Radicals	Yi radical lie		
-U+A4BC	꒼	A490..A4CF	Yi Radicals	Yi radical cy		
-U+A4BD	꒽	A490..A4CF	Yi Radicals	Yi radical cuop		
-U+A4BE	꒾	A490..A4CF	Yi Radicals	Yi radical cip		
-U+A4BF	꒿	A490..A4CF	Yi Radicals	Yi radical hxop		
-U+A4C0	꓀	A490..A4CF	Yi Radicals	Yi radical shat		
-U+A4C1	꓁	A490..A4CF	Yi Radicals	Yi radical zur		
-U+A4C2	꓂	A490..A4CF	Yi Radicals	Yi radical shop		
-U+A4C3	꓃	A490..A4CF	Yi Radicals	Yi radical che		
-U+A4C4	꓄	A490..A4CF	Yi Radicals	Yi radical zziet		
-U+A4C5	꓅	A490..A4CF	Yi Radicals	Yi radical nbie		
-U+A4C6	꓆	A490..A4CF	Yi Radicals	Yi radical ke		
+code_points	chars	tab_completions	unicode_name	base
+U+A490	꒐		YI RADICAL QOT	
+U+A491	꒑		YI RADICAL LI	
+U+A492	꒒		YI RADICAL KIT	
+U+A493	꒓		YI RADICAL NYIP	
+U+A494	꒔		YI RADICAL CYP	
+U+A495	꒕		YI RADICAL SSI	
+U+A496	꒖		YI RADICAL GGOP	
+U+A497	꒗		YI RADICAL GEP	
+U+A498	꒘		YI RADICAL MI	
+U+A499	꒙		YI RADICAL HXIT	
+U+A49A	꒚		YI RADICAL LYR	
+U+A49B	꒛		YI RADICAL BBUT	
+U+A49C	꒜		YI RADICAL MOP	
+U+A49D	꒝		YI RADICAL YO	
+U+A49E	꒞		YI RADICAL PUT	
+U+A49F	꒟		YI RADICAL HXUO	
+U+A4A0	꒠		YI RADICAL TAT	
+U+A4A1	꒡		YI RADICAL GA	
+U+A4A2	꒢		YI RADICAL ZUP	
+U+A4A3	꒣		YI RADICAL CYT	
+U+A4A4	꒤		YI RADICAL DDUR	
+U+A4A5	꒥		YI RADICAL BUR	
+U+A4A6	꒦		YI RADICAL GGUO	
+U+A4A7	꒧		YI RADICAL NYOP	
+U+A4A8	꒨		YI RADICAL TU	
+U+A4A9	꒩		YI RADICAL OP	
+U+A4AA	꒪		YI RADICAL JJUT	
+U+A4AB	꒫		YI RADICAL ZOT	
+U+A4AC	꒬		YI RADICAL PYT	
+U+A4AD	꒭		YI RADICAL HMO	
+U+A4AE	꒮		YI RADICAL YIT	
+U+A4AF	꒯		YI RADICAL VUR	
+U+A4B0	꒰		YI RADICAL SHY	
+U+A4B1	꒱		YI RADICAL VEP	
+U+A4B2	꒲		YI RADICAL ZA	
+U+A4B3	꒳		YI RADICAL JO	
+U+A4B4	꒴		YI RADICAL NZUP	
+U+A4B5	꒵		YI RADICAL JJY	
+U+A4B6	꒶		YI RADICAL GOT	
+U+A4B7	꒷		YI RADICAL JJIE	
+U+A4B8	꒸		YI RADICAL WO	
+U+A4B9	꒹		YI RADICAL DU	
+U+A4BA	꒺		YI RADICAL SHUR	
+U+A4BB	꒻		YI RADICAL LIE	
+U+A4BC	꒼		YI RADICAL CY	
+U+A4BD	꒽		YI RADICAL CUOP	
+U+A4BE	꒾		YI RADICAL CIP	
+U+A4BF	꒿		YI RADICAL HXOP	
+U+A4C0	꓀		YI RADICAL SHAT	
+U+A4C1	꓁		YI RADICAL ZUR	
+U+A4C2	꓂		YI RADICAL SHOP	
+U+A4C3	꓃		YI RADICAL CHE	
+U+A4C4	꓄		YI RADICAL ZZIET	
+U+A4C5	꓅		YI RADICAL NBIE	
+U+A4C6	꓆		YI RADICAL KE	

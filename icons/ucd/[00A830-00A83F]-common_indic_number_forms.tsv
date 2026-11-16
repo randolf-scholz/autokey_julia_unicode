@@ -1,11 +1,11 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A830	꠰	A830..A83F	Common Indic Number Forms	North indic fraction one quarter		
-U+A831	꠱	A830..A83F	Common Indic Number Forms	North indic fraction one half		
-U+A832	꠲	A830..A83F	Common Indic Number Forms	North indic fraction three quarters		
-U+A833	꠳	A830..A83F	Common Indic Number Forms	North indic fraction one sixteenth		
-U+A834	꠴	A830..A83F	Common Indic Number Forms	North indic fraction one eighth		
-U+A835	꠵	A830..A83F	Common Indic Number Forms	North indic fraction three sixteenths		
-U+A836	꠶	A830..A83F	Common Indic Number Forms	North indic quarter mark		
-U+A837	꠷	A830..A83F	Common Indic Number Forms	North indic placeholder mark		
-U+A838	꠸	A830..A83F	Common Indic Number Forms	North indic rupee mark		
-U+A839	꠹	A830..A83F	Common Indic Number Forms	North indic quantity mark		
+code_points	chars	tab_completions	unicode_name	base
+U+A830	꠰		NORTH INDIC FRACTION ONE QUARTER	
+U+A831	꠱		NORTH INDIC FRACTION ONE HALF	
+U+A832	꠲		NORTH INDIC FRACTION THREE QUARTERS	
+U+A833	꠳		NORTH INDIC FRACTION ONE SIXTEENTH	
+U+A834	꠴		NORTH INDIC FRACTION ONE EIGHTH	
+U+A835	꠵		NORTH INDIC FRACTION THREE SIXTEENTHS	
+U+A836	꠶		NORTH INDIC QUARTER MARK	
+U+A837	꠷		NORTH INDIC PLACEHOLDER MARK	
+U+A838	꠸		NORTH INDIC RUPEE MARK	
+U+A839	꠹		NORTH INDIC QUANTITY MARK	

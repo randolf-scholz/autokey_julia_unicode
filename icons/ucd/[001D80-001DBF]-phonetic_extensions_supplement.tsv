@@ -1,65 +1,65 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D80	ᶀ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter b with palatal hook		
-U+1D81	ᶁ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter d with palatal hook		
-U+1D82	ᶂ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter f with palatal hook		
-U+1D83	ᶃ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter g with palatal hook		
-U+1D84	ᶄ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter k with palatal hook		
-U+1D85	ᶅ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter l with palatal hook		
-U+1D86	ᶆ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter m with palatal hook		
-U+1D87	ᶇ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter n with palatal hook		
-U+1D88	ᶈ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter p with palatal hook		
-U+1D89	ᶉ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter r with palatal hook		
-U+1D8A	ᶊ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter s with palatal hook		
-U+1D8B	ᶋ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter esh with palatal hook		
-U+1D8C	ᶌ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter v with palatal hook		
-U+1D8D	ᶍ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter x with palatal hook		
-U+1D8E	ᶎ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter z with palatal hook		
-U+1D8F	ᶏ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter a with retroflex hook		
-U+1D90	ᶐ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter alpha with retroflex hook		
-U+1D91	ᶑ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter d with hook and tail		
-U+1D92	ᶒ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter e with retroflex hook		
-U+1D93	ᶓ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter open e with retroflex hook		
-U+1D94	ᶔ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter reversed open e with retroflex hook		
-U+1D95	ᶕ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter schwa with retroflex hook		
-U+1D96	ᶖ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter i with retroflex hook		
-U+1D97	ᶗ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter open o with retroflex hook		
-U+1D98	ᶘ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter esh with retroflex hook		
-U+1D99	ᶙ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter u with retroflex hook		
-U+1D9A	ᶚ	1D80..1DBF	Phonetic Extensions Supplement	Latin small letter ezh with retroflex hook		
-U+1D9B	ᶛ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small turned alpha		
-U+1D9C	ᶜ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small c		
-U+1D9D	ᶝ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small c with curl		
-U+1D9E	ᶞ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small eth		
-U+1D9F	ᶟ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small reversed open e		
-U+1DA0	ᶠ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small f		
-U+1DA1	ᶡ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small dotless j with stroke		
-U+1DA2	ᶢ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small script g		
-U+1DA3	ᶣ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small turned h		
-U+1DA4	ᶤ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small i with stroke		
-U+1DA5	ᶥ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small iota		
-U+1DA6	ᶦ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small capital i		
-U+1DA7	ᶧ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small capital i with stroke		
-U+1DA8	ᶨ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small j with crossed-tail		
-U+1DA9	ᶩ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small l with retroflex hook		
-U+1DAA	ᶪ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small l with palatal hook		
-U+1DAB	ᶫ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small capital l		
-U+1DAC	ᶬ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small m with hook		
-U+1DAD	ᶭ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small turned m with long leg		
-U+1DAE	ᶮ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small n with left hook		
-U+1DAF	ᶯ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small n with retroflex hook		
-U+1DB0	ᶰ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small capital n		
-U+1DB1	ᶱ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small barred o		
-U+1DB2	ᶲ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small phi		
-U+1DB3	ᶳ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small s with hook		
-U+1DB4	ᶴ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small esh		
-U+1DB5	ᶵ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small t with palatal hook		
-U+1DB6	ᶶ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small u bar		
-U+1DB7	ᶷ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small upsilon		
-U+1DB8	ᶸ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small capital u		
-U+1DB9	ᶹ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small v with hook		
-U+1DBA	ᶺ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small turned v		
-U+1DBB	ᶻ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small z		
-U+1DBC	ᶼ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small z with retroflex hook		
-U+1DBD	ᶽ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small z with curl		
-U+1DBE	ᶾ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small ezh		
-U+1DBF	ᶿ	1D80..1DBF	Phonetic Extensions Supplement	Modifier letter small theta		
+code_points	chars	tab_completions	unicode_name	base
+U+1D80	ᶀ		LATIN SMALL LETTER B WITH PALATAL HOOK	
+U+1D81	ᶁ		LATIN SMALL LETTER D WITH PALATAL HOOK	
+U+1D82	ᶂ		LATIN SMALL LETTER F WITH PALATAL HOOK	
+U+1D83	ᶃ		LATIN SMALL LETTER G WITH PALATAL HOOK	
+U+1D84	ᶄ		LATIN SMALL LETTER K WITH PALATAL HOOK	
+U+1D85	ᶅ		LATIN SMALL LETTER L WITH PALATAL HOOK	
+U+1D86	ᶆ		LATIN SMALL LETTER M WITH PALATAL HOOK	
+U+1D87	ᶇ		LATIN SMALL LETTER N WITH PALATAL HOOK	
+U+1D88	ᶈ		LATIN SMALL LETTER P WITH PALATAL HOOK	
+U+1D89	ᶉ		LATIN SMALL LETTER R WITH PALATAL HOOK	
+U+1D8A	ᶊ		LATIN SMALL LETTER S WITH PALATAL HOOK	
+U+1D8B	ᶋ		LATIN SMALL LETTER ESH WITH PALATAL HOOK	
+U+1D8C	ᶌ		LATIN SMALL LETTER V WITH PALATAL HOOK	
+U+1D8D	ᶍ		LATIN SMALL LETTER X WITH PALATAL HOOK	
+U+1D8E	ᶎ		LATIN SMALL LETTER Z WITH PALATAL HOOK	
+U+1D8F	ᶏ		LATIN SMALL LETTER A WITH RETROFLEX HOOK	
+U+1D90	ᶐ		LATIN SMALL LETTER ALPHA WITH RETROFLEX HOOK	
+U+1D91	ᶑ		LATIN SMALL LETTER D WITH HOOK AND TAIL	
+U+1D92	ᶒ		LATIN SMALL LETTER E WITH RETROFLEX HOOK	
+U+1D93	ᶓ		LATIN SMALL LETTER OPEN E WITH RETROFLEX HOOK	
+U+1D94	ᶔ		LATIN SMALL LETTER REVERSED OPEN E WITH RETROFLEX HOOK	
+U+1D95	ᶕ		LATIN SMALL LETTER SCHWA WITH RETROFLEX HOOK	
+U+1D96	ᶖ		LATIN SMALL LETTER I WITH RETROFLEX HOOK	
+U+1D97	ᶗ		LATIN SMALL LETTER OPEN O WITH RETROFLEX HOOK	
+U+1D98	ᶘ		LATIN SMALL LETTER ESH WITH RETROFLEX HOOK	
+U+1D99	ᶙ		LATIN SMALL LETTER U WITH RETROFLEX HOOK	
+U+1D9A	ᶚ		LATIN SMALL LETTER EZH WITH RETROFLEX HOOK	
+U+1D9B	ᶛ		MODIFIER LETTER SMALL TURNED ALPHA	
+U+1D9C	ᶜ		MODIFIER LETTER SMALL C	
+U+1D9D	ᶝ		MODIFIER LETTER SMALL C WITH CURL	
+U+1D9E	ᶞ		MODIFIER LETTER SMALL ETH	
+U+1D9F	ᶟ		MODIFIER LETTER SMALL REVERSED OPEN E	
+U+1DA0	ᶠ		MODIFIER LETTER SMALL F	
+U+1DA1	ᶡ		MODIFIER LETTER SMALL DOTLESS J WITH STROKE	
+U+1DA2	ᶢ		MODIFIER LETTER SMALL SCRIPT G	
+U+1DA3	ᶣ		MODIFIER LETTER SMALL TURNED H	
+U+1DA4	ᶤ		MODIFIER LETTER SMALL I WITH STROKE	
+U+1DA5	ᶥ		MODIFIER LETTER SMALL IOTA	
+U+1DA6	ᶦ		MODIFIER LETTER SMALL CAPITAL I	
+U+1DA7	ᶧ		MODIFIER LETTER SMALL CAPITAL I WITH STROKE	
+U+1DA8	ᶨ		MODIFIER LETTER SMALL J WITH CROSSED-TAIL	
+U+1DA9	ᶩ		MODIFIER LETTER SMALL L WITH RETROFLEX HOOK	
+U+1DAA	ᶪ		MODIFIER LETTER SMALL L WITH PALATAL HOOK	
+U+1DAB	ᶫ		MODIFIER LETTER SMALL CAPITAL L	
+U+1DAC	ᶬ		MODIFIER LETTER SMALL M WITH HOOK	
+U+1DAD	ᶭ		MODIFIER LETTER SMALL TURNED M WITH LONG LEG	
+U+1DAE	ᶮ		MODIFIER LETTER SMALL N WITH LEFT HOOK	
+U+1DAF	ᶯ		MODIFIER LETTER SMALL N WITH RETROFLEX HOOK	
+U+1DB0	ᶰ		MODIFIER LETTER SMALL CAPITAL N	
+U+1DB1	ᶱ		MODIFIER LETTER SMALL BARRED O	
+U+1DB2	ᶲ		MODIFIER LETTER SMALL PHI	
+U+1DB3	ᶳ		MODIFIER LETTER SMALL S WITH HOOK	
+U+1DB4	ᶴ		MODIFIER LETTER SMALL ESH	
+U+1DB5	ᶵ		MODIFIER LETTER SMALL T WITH PALATAL HOOK	
+U+1DB6	ᶶ		MODIFIER LETTER SMALL U BAR	
+U+1DB7	ᶷ		MODIFIER LETTER SMALL UPSILON	
+U+1DB8	ᶸ		MODIFIER LETTER SMALL CAPITAL U	
+U+1DB9	ᶹ		MODIFIER LETTER SMALL V WITH HOOK	
+U+1DBA	ᶺ		MODIFIER LETTER SMALL TURNED V	
+U+1DBB	ᶻ		MODIFIER LETTER SMALL Z	
+U+1DBC	ᶼ		MODIFIER LETTER SMALL Z WITH RETROFLEX HOOK	
+U+1DBD	ᶽ		MODIFIER LETTER SMALL Z WITH CURL	
+U+1DBE	ᶾ		MODIFIER LETTER SMALL EZH	
+U+1DBF	ᶿ		MODIFIER LETTER SMALL THETA	

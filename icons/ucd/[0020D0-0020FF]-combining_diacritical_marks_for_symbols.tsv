@@ -1,34 +1,34 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+20D0	⃐	20D0..20FF	Combining Diacritical Marks for Symbols	Combining left harpoon above		
-U+20D1	⃑	20D0..20FF	Combining Diacritical Marks for Symbols	Combining right harpoon above		
-U+20D2	⃒	20D0..20FF	Combining Diacritical Marks for Symbols	Combining long vertical line overlay		
-U+20D3	⃓	20D0..20FF	Combining Diacritical Marks for Symbols	Combining short vertical line overlay		
-U+20D4	⃔	20D0..20FF	Combining Diacritical Marks for Symbols	Combining anticlockwise arrow above		
-U+20D5	⃕	20D0..20FF	Combining Diacritical Marks for Symbols	Combining clockwise arrow above		
-U+20D6	⃖	20D0..20FF	Combining Diacritical Marks for Symbols	Combining left arrow above		
-U+20D7	⃗	20D0..20FF	Combining Diacritical Marks for Symbols	Combining right arrow above		
-U+20D8	⃘	20D0..20FF	Combining Diacritical Marks for Symbols	Combining ring overlay		
-U+20D9	⃙	20D0..20FF	Combining Diacritical Marks for Symbols	Combining clockwise ring overlay		
-U+20DA	⃚	20D0..20FF	Combining Diacritical Marks for Symbols	Combining anticlockwise ring overlay		
-U+20DB	⃛	20D0..20FF	Combining Diacritical Marks for Symbols	Combining three dots above		
-U+20DC	⃜	20D0..20FF	Combining Diacritical Marks for Symbols	Combining four dots above		
-U+20DD	⃝	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing circle		
-U+20DE	⃞	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing square		
-U+20DF	⃟	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing diamond		
-U+20E0	⃠	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing circle backslash		
-U+20E1	⃡	20D0..20FF	Combining Diacritical Marks for Symbols	Combining left right arrow above		
-U+20E2	⃢	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing screen		
-U+20E3	⃣	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing keycap		
-U+20E4	⃤	20D0..20FF	Combining Diacritical Marks for Symbols	Combining enclosing upward pointing triangle		
-U+20E5	⃥	20D0..20FF	Combining Diacritical Marks for Symbols	Combining reverse solidus overlay		
-U+20E6	⃦	20D0..20FF	Combining Diacritical Marks for Symbols	Combining double vertical stroke overlay		
-U+20E7	⃧	20D0..20FF	Combining Diacritical Marks for Symbols	Combining annuity symbol		
-U+20E8	⃨	20D0..20FF	Combining Diacritical Marks for Symbols	Combining triple underdot		
-U+20E9	⃩	20D0..20FF	Combining Diacritical Marks for Symbols	Combining wide bridge above		
-U+20EA	⃪	20D0..20FF	Combining Diacritical Marks for Symbols	Combining leftwards arrow overlay		
-U+20EB	⃫	20D0..20FF	Combining Diacritical Marks for Symbols	Combining long double solidus overlay		
-U+20EC	⃬	20D0..20FF	Combining Diacritical Marks for Symbols	Combining rightwards harpoon with barb downwards		
-U+20ED	⃭	20D0..20FF	Combining Diacritical Marks for Symbols	Combining leftwards harpoon with barb downwards		
-U+20EE	⃮	20D0..20FF	Combining Diacritical Marks for Symbols	Combining left arrow below		
-U+20EF	⃯	20D0..20FF	Combining Diacritical Marks for Symbols	Combining right arrow below		
-U+20F0	⃰	20D0..20FF	Combining Diacritical Marks for Symbols	Combining asterisk above		
+code_points	chars	tab_completions	unicode_name	base
+U+20D0	⃐		COMBINING LEFT HARPOON ABOVE	
+U+20D1	⃑		COMBINING RIGHT HARPOON ABOVE	
+U+20D2	⃒		COMBINING LONG VERTICAL LINE OVERLAY	
+U+20D3	⃓		COMBINING SHORT VERTICAL LINE OVERLAY	
+U+20D4	⃔		COMBINING ANTICLOCKWISE ARROW ABOVE	
+U+20D5	⃕		COMBINING CLOCKWISE ARROW ABOVE	
+U+20D6	⃖		COMBINING LEFT ARROW ABOVE	
+U+20D7	⃗		COMBINING RIGHT ARROW ABOVE	
+U+20D8	⃘		COMBINING RING OVERLAY	
+U+20D9	⃙		COMBINING CLOCKWISE RING OVERLAY	
+U+20DA	⃚		COMBINING ANTICLOCKWISE RING OVERLAY	
+U+20DB	⃛		COMBINING THREE DOTS ABOVE	
+U+20DC	⃜		COMBINING FOUR DOTS ABOVE	
+U+20DD	⃝		COMBINING ENCLOSING CIRCLE	
+U+20DE	⃞		COMBINING ENCLOSING SQUARE	
+U+20DF	⃟		COMBINING ENCLOSING DIAMOND	
+U+20E0	⃠		COMBINING ENCLOSING CIRCLE BACKSLASH	
+U+20E1	⃡		COMBINING LEFT RIGHT ARROW ABOVE	
+U+20E2	⃢		COMBINING ENCLOSING SCREEN	
+U+20E3	⃣		COMBINING ENCLOSING KEYCAP	
+U+20E4	⃤		COMBINING ENCLOSING UPWARD POINTING TRIANGLE	
+U+20E5	⃥		COMBINING REVERSE SOLIDUS OVERLAY	
+U+20E6	⃦		COMBINING DOUBLE VERTICAL STROKE OVERLAY	
+U+20E7	⃧		COMBINING ANNUITY SYMBOL	
+U+20E8	⃨		COMBINING TRIPLE UNDERDOT	
+U+20E9	⃩		COMBINING WIDE BRIDGE ABOVE	
+U+20EA	⃪		COMBINING LEFTWARDS ARROW OVERLAY	
+U+20EB	⃫		COMBINING LONG DOUBLE SOLIDUS OVERLAY	
+U+20EC	⃬		COMBINING RIGHTWARDS HARPOON WITH BARB DOWNWARDS	
+U+20ED	⃭		COMBINING LEFTWARDS HARPOON WITH BARB DOWNWARDS	
+U+20EE	⃮		COMBINING LEFT ARROW BELOW	
+U+20EF	⃯		COMBINING RIGHT ARROW BELOW	
+U+20F0	⃰		COMBINING ASTERISK ABOVE	

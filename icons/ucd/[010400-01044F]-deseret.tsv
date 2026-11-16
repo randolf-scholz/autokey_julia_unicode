@@ -1,81 +1,81 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10400	𐐀	10400..1044F	Deseret	Deseret capital letter long i		
-U+10401	𐐁	10400..1044F	Deseret	Deseret capital letter long e		
-U+10402	𐐂	10400..1044F	Deseret	Deseret capital letter long a		
-U+10403	𐐃	10400..1044F	Deseret	Deseret capital letter long ah		
-U+10404	𐐄	10400..1044F	Deseret	Deseret capital letter long o		
-U+10405	𐐅	10400..1044F	Deseret	Deseret capital letter long oo		
-U+10406	𐐆	10400..1044F	Deseret	Deseret capital letter short i		
-U+10407	𐐇	10400..1044F	Deseret	Deseret capital letter short e		
-U+10408	𐐈	10400..1044F	Deseret	Deseret capital letter short a		
-U+10409	𐐉	10400..1044F	Deseret	Deseret capital letter short ah		
-U+1040A	𐐊	10400..1044F	Deseret	Deseret capital letter short o		
-U+1040B	𐐋	10400..1044F	Deseret	Deseret capital letter short oo		
-U+1040C	𐐌	10400..1044F	Deseret	Deseret capital letter ay		
-U+1040D	𐐍	10400..1044F	Deseret	Deseret capital letter ow		
-U+1040E	𐐎	10400..1044F	Deseret	Deseret capital letter wu		
-U+1040F	𐐏	10400..1044F	Deseret	Deseret capital letter yee		
-U+10410	𐐐	10400..1044F	Deseret	Deseret capital letter h		
-U+10411	𐐑	10400..1044F	Deseret	Deseret capital letter pee		
-U+10412	𐐒	10400..1044F	Deseret	Deseret capital letter bee		
-U+10413	𐐓	10400..1044F	Deseret	Deseret capital letter tee		
-U+10414	𐐔	10400..1044F	Deseret	Deseret capital letter dee		
-U+10415	𐐕	10400..1044F	Deseret	Deseret capital letter chee		
-U+10416	𐐖	10400..1044F	Deseret	Deseret capital letter jee		
-U+10417	𐐗	10400..1044F	Deseret	Deseret capital letter kay		
-U+10418	𐐘	10400..1044F	Deseret	Deseret capital letter gay		
-U+10419	𐐙	10400..1044F	Deseret	Deseret capital letter ef		
-U+1041A	𐐚	10400..1044F	Deseret	Deseret capital letter vee		
-U+1041B	𐐛	10400..1044F	Deseret	Deseret capital letter eth		
-U+1041C	𐐜	10400..1044F	Deseret	Deseret capital letter thee		
-U+1041D	𐐝	10400..1044F	Deseret	Deseret capital letter es		
-U+1041E	𐐞	10400..1044F	Deseret	Deseret capital letter zee		
-U+1041F	𐐟	10400..1044F	Deseret	Deseret capital letter esh		
-U+10420	𐐠	10400..1044F	Deseret	Deseret capital letter zhee		
-U+10421	𐐡	10400..1044F	Deseret	Deseret capital letter er		
-U+10422	𐐢	10400..1044F	Deseret	Deseret capital letter el		
-U+10423	𐐣	10400..1044F	Deseret	Deseret capital letter em		
-U+10424	𐐤	10400..1044F	Deseret	Deseret capital letter en		
-U+10425	𐐥	10400..1044F	Deseret	Deseret capital letter eng		
-U+10426	𐐦	10400..1044F	Deseret	Deseret capital letter oi		
-U+10427	𐐧	10400..1044F	Deseret	Deseret capital letter ew		
-U+10428	𐐨	10400..1044F	Deseret	Deseret small letter long i		
-U+10429	𐐩	10400..1044F	Deseret	Deseret small letter long e		
-U+1042A	𐐪	10400..1044F	Deseret	Deseret small letter long a		
-U+1042B	𐐫	10400..1044F	Deseret	Deseret small letter long ah		
-U+1042C	𐐬	10400..1044F	Deseret	Deseret small letter long o		
-U+1042D	𐐭	10400..1044F	Deseret	Deseret small letter long oo		
-U+1042E	𐐮	10400..1044F	Deseret	Deseret small letter short i		
-U+1042F	𐐯	10400..1044F	Deseret	Deseret small letter short e		
-U+10430	𐐰	10400..1044F	Deseret	Deseret small letter short a		
-U+10431	𐐱	10400..1044F	Deseret	Deseret small letter short ah		
-U+10432	𐐲	10400..1044F	Deseret	Deseret small letter short o		
-U+10433	𐐳	10400..1044F	Deseret	Deseret small letter short oo		
-U+10434	𐐴	10400..1044F	Deseret	Deseret small letter ay		
-U+10435	𐐵	10400..1044F	Deseret	Deseret small letter ow		
-U+10436	𐐶	10400..1044F	Deseret	Deseret small letter wu		
-U+10437	𐐷	10400..1044F	Deseret	Deseret small letter yee		
-U+10438	𐐸	10400..1044F	Deseret	Deseret small letter h		
-U+10439	𐐹	10400..1044F	Deseret	Deseret small letter pee		
-U+1043A	𐐺	10400..1044F	Deseret	Deseret small letter bee		
-U+1043B	𐐻	10400..1044F	Deseret	Deseret small letter tee		
-U+1043C	𐐼	10400..1044F	Deseret	Deseret small letter dee		
-U+1043D	𐐽	10400..1044F	Deseret	Deseret small letter chee		
-U+1043E	𐐾	10400..1044F	Deseret	Deseret small letter jee		
-U+1043F	𐐿	10400..1044F	Deseret	Deseret small letter kay		
-U+10440	𐑀	10400..1044F	Deseret	Deseret small letter gay		
-U+10441	𐑁	10400..1044F	Deseret	Deseret small letter ef		
-U+10442	𐑂	10400..1044F	Deseret	Deseret small letter vee		
-U+10443	𐑃	10400..1044F	Deseret	Deseret small letter eth		
-U+10444	𐑄	10400..1044F	Deseret	Deseret small letter thee		
-U+10445	𐑅	10400..1044F	Deseret	Deseret small letter es		
-U+10446	𐑆	10400..1044F	Deseret	Deseret small letter zee		
-U+10447	𐑇	10400..1044F	Deseret	Deseret small letter esh		
-U+10448	𐑈	10400..1044F	Deseret	Deseret small letter zhee		
-U+10449	𐑉	10400..1044F	Deseret	Deseret small letter er		
-U+1044A	𐑊	10400..1044F	Deseret	Deseret small letter el		
-U+1044B	𐑋	10400..1044F	Deseret	Deseret small letter em		
-U+1044C	𐑌	10400..1044F	Deseret	Deseret small letter en		
-U+1044D	𐑍	10400..1044F	Deseret	Deseret small letter eng		
-U+1044E	𐑎	10400..1044F	Deseret	Deseret small letter oi		
-U+1044F	𐑏	10400..1044F	Deseret	Deseret small letter ew		
+code_points	chars	tab_completions	unicode_name	base
+U+10400	𐐀		DESERET CAPITAL LETTER LONG I	
+U+10401	𐐁		DESERET CAPITAL LETTER LONG E	
+U+10402	𐐂		DESERET CAPITAL LETTER LONG A	
+U+10403	𐐃		DESERET CAPITAL LETTER LONG AH	
+U+10404	𐐄		DESERET CAPITAL LETTER LONG O	
+U+10405	𐐅		DESERET CAPITAL LETTER LONG OO	
+U+10406	𐐆		DESERET CAPITAL LETTER SHORT I	
+U+10407	𐐇		DESERET CAPITAL LETTER SHORT E	
+U+10408	𐐈		DESERET CAPITAL LETTER SHORT A	
+U+10409	𐐉		DESERET CAPITAL LETTER SHORT AH	
+U+1040A	𐐊		DESERET CAPITAL LETTER SHORT O	
+U+1040B	𐐋		DESERET CAPITAL LETTER SHORT OO	
+U+1040C	𐐌		DESERET CAPITAL LETTER AY	
+U+1040D	𐐍		DESERET CAPITAL LETTER OW	
+U+1040E	𐐎		DESERET CAPITAL LETTER WU	
+U+1040F	𐐏		DESERET CAPITAL LETTER YEE	
+U+10410	𐐐		DESERET CAPITAL LETTER H	
+U+10411	𐐑		DESERET CAPITAL LETTER PEE	
+U+10412	𐐒		DESERET CAPITAL LETTER BEE	
+U+10413	𐐓		DESERET CAPITAL LETTER TEE	
+U+10414	𐐔		DESERET CAPITAL LETTER DEE	
+U+10415	𐐕		DESERET CAPITAL LETTER CHEE	
+U+10416	𐐖		DESERET CAPITAL LETTER JEE	
+U+10417	𐐗		DESERET CAPITAL LETTER KAY	
+U+10418	𐐘		DESERET CAPITAL LETTER GAY	
+U+10419	𐐙		DESERET CAPITAL LETTER EF	
+U+1041A	𐐚		DESERET CAPITAL LETTER VEE	
+U+1041B	𐐛		DESERET CAPITAL LETTER ETH	
+U+1041C	𐐜		DESERET CAPITAL LETTER THEE	
+U+1041D	𐐝		DESERET CAPITAL LETTER ES	
+U+1041E	𐐞		DESERET CAPITAL LETTER ZEE	
+U+1041F	𐐟		DESERET CAPITAL LETTER ESH	
+U+10420	𐐠		DESERET CAPITAL LETTER ZHEE	
+U+10421	𐐡		DESERET CAPITAL LETTER ER	
+U+10422	𐐢		DESERET CAPITAL LETTER EL	
+U+10423	𐐣		DESERET CAPITAL LETTER EM	
+U+10424	𐐤		DESERET CAPITAL LETTER EN	
+U+10425	𐐥		DESERET CAPITAL LETTER ENG	
+U+10426	𐐦		DESERET CAPITAL LETTER OI	
+U+10427	𐐧		DESERET CAPITAL LETTER EW	
+U+10428	𐐨		DESERET SMALL LETTER LONG I	
+U+10429	𐐩		DESERET SMALL LETTER LONG E	
+U+1042A	𐐪		DESERET SMALL LETTER LONG A	
+U+1042B	𐐫		DESERET SMALL LETTER LONG AH	
+U+1042C	𐐬		DESERET SMALL LETTER LONG O	
+U+1042D	𐐭		DESERET SMALL LETTER LONG OO	
+U+1042E	𐐮		DESERET SMALL LETTER SHORT I	
+U+1042F	𐐯		DESERET SMALL LETTER SHORT E	
+U+10430	𐐰		DESERET SMALL LETTER SHORT A	
+U+10431	𐐱		DESERET SMALL LETTER SHORT AH	
+U+10432	𐐲		DESERET SMALL LETTER SHORT O	
+U+10433	𐐳		DESERET SMALL LETTER SHORT OO	
+U+10434	𐐴		DESERET SMALL LETTER AY	
+U+10435	𐐵		DESERET SMALL LETTER OW	
+U+10436	𐐶		DESERET SMALL LETTER WU	
+U+10437	𐐷		DESERET SMALL LETTER YEE	
+U+10438	𐐸		DESERET SMALL LETTER H	
+U+10439	𐐹		DESERET SMALL LETTER PEE	
+U+1043A	𐐺		DESERET SMALL LETTER BEE	
+U+1043B	𐐻		DESERET SMALL LETTER TEE	
+U+1043C	𐐼		DESERET SMALL LETTER DEE	
+U+1043D	𐐽		DESERET SMALL LETTER CHEE	
+U+1043E	𐐾		DESERET SMALL LETTER JEE	
+U+1043F	𐐿		DESERET SMALL LETTER KAY	
+U+10440	𐑀		DESERET SMALL LETTER GAY	
+U+10441	𐑁		DESERET SMALL LETTER EF	
+U+10442	𐑂		DESERET SMALL LETTER VEE	
+U+10443	𐑃		DESERET SMALL LETTER ETH	
+U+10444	𐑄		DESERET SMALL LETTER THEE	
+U+10445	𐑅		DESERET SMALL LETTER ES	
+U+10446	𐑆		DESERET SMALL LETTER ZEE	
+U+10447	𐑇		DESERET SMALL LETTER ESH	
+U+10448	𐑈		DESERET SMALL LETTER ZHEE	
+U+10449	𐑉		DESERET SMALL LETTER ER	
+U+1044A	𐑊		DESERET SMALL LETTER EL	
+U+1044B	𐑋		DESERET SMALL LETTER EM	
+U+1044C	𐑌		DESERET SMALL LETTER EN	
+U+1044D	𐑍		DESERET SMALL LETTER ENG	
+U+1044E	𐑎		DESERET SMALL LETTER OI	
+U+1044F	𐑏		DESERET SMALL LETTER EW	

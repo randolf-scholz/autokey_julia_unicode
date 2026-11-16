@@ -1,45 +1,45 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F000	🀀	1F000..1F02F	Mahjong Tiles	Mahjong tile east wind		
-U+1F001	🀁	1F000..1F02F	Mahjong Tiles	Mahjong tile south wind		
-U+1F002	🀂	1F000..1F02F	Mahjong Tiles	Mahjong tile west wind		
-U+1F003	🀃	1F000..1F02F	Mahjong Tiles	Mahjong tile north wind		
-U+1F004	🀄	1F000..1F02F	Mahjong Tiles	Mahjong tile red dragon		
-U+1F005	🀅	1F000..1F02F	Mahjong Tiles	Mahjong tile green dragon		
-U+1F006	🀆	1F000..1F02F	Mahjong Tiles	Mahjong tile white dragon		
-U+1F007	🀇	1F000..1F02F	Mahjong Tiles	Mahjong tile one of characters		
-U+1F008	🀈	1F000..1F02F	Mahjong Tiles	Mahjong tile two of characters		
-U+1F009	🀉	1F000..1F02F	Mahjong Tiles	Mahjong tile three of characters		
-U+1F00A	🀊	1F000..1F02F	Mahjong Tiles	Mahjong tile four of characters		
-U+1F00B	🀋	1F000..1F02F	Mahjong Tiles	Mahjong tile five of characters		
-U+1F00C	🀌	1F000..1F02F	Mahjong Tiles	Mahjong tile six of characters		
-U+1F00D	🀍	1F000..1F02F	Mahjong Tiles	Mahjong tile seven of characters		
-U+1F00E	🀎	1F000..1F02F	Mahjong Tiles	Mahjong tile eight of characters		
-U+1F00F	🀏	1F000..1F02F	Mahjong Tiles	Mahjong tile nine of characters		
-U+1F010	🀐	1F000..1F02F	Mahjong Tiles	Mahjong tile one of bamboos		
-U+1F011	🀑	1F000..1F02F	Mahjong Tiles	Mahjong tile two of bamboos		
-U+1F012	🀒	1F000..1F02F	Mahjong Tiles	Mahjong tile three of bamboos		
-U+1F013	🀓	1F000..1F02F	Mahjong Tiles	Mahjong tile four of bamboos		
-U+1F014	🀔	1F000..1F02F	Mahjong Tiles	Mahjong tile five of bamboos		
-U+1F015	🀕	1F000..1F02F	Mahjong Tiles	Mahjong tile six of bamboos		
-U+1F016	🀖	1F000..1F02F	Mahjong Tiles	Mahjong tile seven of bamboos		
-U+1F017	🀗	1F000..1F02F	Mahjong Tiles	Mahjong tile eight of bamboos		
-U+1F018	🀘	1F000..1F02F	Mahjong Tiles	Mahjong tile nine of bamboos		
-U+1F019	🀙	1F000..1F02F	Mahjong Tiles	Mahjong tile one of circles		
-U+1F01A	🀚	1F000..1F02F	Mahjong Tiles	Mahjong tile two of circles		
-U+1F01B	🀛	1F000..1F02F	Mahjong Tiles	Mahjong tile three of circles		
-U+1F01C	🀜	1F000..1F02F	Mahjong Tiles	Mahjong tile four of circles		
-U+1F01D	🀝	1F000..1F02F	Mahjong Tiles	Mahjong tile five of circles		
-U+1F01E	🀞	1F000..1F02F	Mahjong Tiles	Mahjong tile six of circles		
-U+1F01F	🀟	1F000..1F02F	Mahjong Tiles	Mahjong tile seven of circles		
-U+1F020	🀠	1F000..1F02F	Mahjong Tiles	Mahjong tile eight of circles		
-U+1F021	🀡	1F000..1F02F	Mahjong Tiles	Mahjong tile nine of circles		
-U+1F022	🀢	1F000..1F02F	Mahjong Tiles	Mahjong tile plum		
-U+1F023	🀣	1F000..1F02F	Mahjong Tiles	Mahjong tile orchid		
-U+1F024	🀤	1F000..1F02F	Mahjong Tiles	Mahjong tile bamboo		
-U+1F025	🀥	1F000..1F02F	Mahjong Tiles	Mahjong tile chrysanthemum		
-U+1F026	🀦	1F000..1F02F	Mahjong Tiles	Mahjong tile spring		
-U+1F027	🀧	1F000..1F02F	Mahjong Tiles	Mahjong tile summer		
-U+1F028	🀨	1F000..1F02F	Mahjong Tiles	Mahjong tile autumn		
-U+1F029	🀩	1F000..1F02F	Mahjong Tiles	Mahjong tile winter		
-U+1F02A	🀪	1F000..1F02F	Mahjong Tiles	Mahjong tile joker		
-U+1F02B	🀫	1F000..1F02F	Mahjong Tiles	Mahjong tile back		
+code_points	chars	tab_completions	unicode_name	base
+U+1F000	🀀		MAHJONG TILE EAST WIND	
+U+1F001	🀁		MAHJONG TILE SOUTH WIND	
+U+1F002	🀂		MAHJONG TILE WEST WIND	
+U+1F003	🀃		MAHJONG TILE NORTH WIND	
+U+1F004	🀄		MAHJONG TILE RED DRAGON	
+U+1F005	🀅		MAHJONG TILE GREEN DRAGON	
+U+1F006	🀆		MAHJONG TILE WHITE DRAGON	
+U+1F007	🀇		MAHJONG TILE ONE OF CHARACTERS	
+U+1F008	🀈		MAHJONG TILE TWO OF CHARACTERS	
+U+1F009	🀉		MAHJONG TILE THREE OF CHARACTERS	
+U+1F00A	🀊		MAHJONG TILE FOUR OF CHARACTERS	
+U+1F00B	🀋		MAHJONG TILE FIVE OF CHARACTERS	
+U+1F00C	🀌		MAHJONG TILE SIX OF CHARACTERS	
+U+1F00D	🀍		MAHJONG TILE SEVEN OF CHARACTERS	
+U+1F00E	🀎		MAHJONG TILE EIGHT OF CHARACTERS	
+U+1F00F	🀏		MAHJONG TILE NINE OF CHARACTERS	
+U+1F010	🀐		MAHJONG TILE ONE OF BAMBOOS	
+U+1F011	🀑		MAHJONG TILE TWO OF BAMBOOS	
+U+1F012	🀒		MAHJONG TILE THREE OF BAMBOOS	
+U+1F013	🀓		MAHJONG TILE FOUR OF BAMBOOS	
+U+1F014	🀔		MAHJONG TILE FIVE OF BAMBOOS	
+U+1F015	🀕		MAHJONG TILE SIX OF BAMBOOS	
+U+1F016	🀖		MAHJONG TILE SEVEN OF BAMBOOS	
+U+1F017	🀗		MAHJONG TILE EIGHT OF BAMBOOS	
+U+1F018	🀘		MAHJONG TILE NINE OF BAMBOOS	
+U+1F019	🀙		MAHJONG TILE ONE OF CIRCLES	
+U+1F01A	🀚		MAHJONG TILE TWO OF CIRCLES	
+U+1F01B	🀛		MAHJONG TILE THREE OF CIRCLES	
+U+1F01C	🀜		MAHJONG TILE FOUR OF CIRCLES	
+U+1F01D	🀝		MAHJONG TILE FIVE OF CIRCLES	
+U+1F01E	🀞		MAHJONG TILE SIX OF CIRCLES	
+U+1F01F	🀟		MAHJONG TILE SEVEN OF CIRCLES	
+U+1F020	🀠		MAHJONG TILE EIGHT OF CIRCLES	
+U+1F021	🀡		MAHJONG TILE NINE OF CIRCLES	
+U+1F022	🀢		MAHJONG TILE PLUM	
+U+1F023	🀣		MAHJONG TILE ORCHID	
+U+1F024	🀤		MAHJONG TILE BAMBOO	
+U+1F025	🀥		MAHJONG TILE CHRYSANTHEMUM	
+U+1F026	🀦		MAHJONG TILE SPRING	
+U+1F027	🀧		MAHJONG TILE SUMMER	
+U+1F028	🀨		MAHJONG TILE AUTUMN	
+U+1F029	🀩		MAHJONG TILE WINTER	
+U+1F02A	🀪		MAHJONG TILE JOKER	
+U+1F02B	🀫		MAHJONG TILE BACK	

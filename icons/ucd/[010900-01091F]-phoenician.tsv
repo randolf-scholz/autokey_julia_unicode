@@ -1,30 +1,30 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10900	𐤀	10900..1091F	Phoenician	Phoenician letter alf		
-U+10901	𐤁	10900..1091F	Phoenician	Phoenician letter bet		
-U+10902	𐤂	10900..1091F	Phoenician	Phoenician letter gaml		
-U+10903	𐤃	10900..1091F	Phoenician	Phoenician letter delt		
-U+10904	𐤄	10900..1091F	Phoenician	Phoenician letter he		
-U+10905	𐤅	10900..1091F	Phoenician	Phoenician letter wau		
-U+10906	𐤆	10900..1091F	Phoenician	Phoenician letter zai		
-U+10907	𐤇	10900..1091F	Phoenician	Phoenician letter het		
-U+10908	𐤈	10900..1091F	Phoenician	Phoenician letter tet		
-U+10909	𐤉	10900..1091F	Phoenician	Phoenician letter yod		
-U+1090A	𐤊	10900..1091F	Phoenician	Phoenician letter kaf		
-U+1090B	𐤋	10900..1091F	Phoenician	Phoenician letter lamd		
-U+1090C	𐤌	10900..1091F	Phoenician	Phoenician letter mem		
-U+1090D	𐤍	10900..1091F	Phoenician	Phoenician letter nun		
-U+1090E	𐤎	10900..1091F	Phoenician	Phoenician letter semk		
-U+1090F	𐤏	10900..1091F	Phoenician	Phoenician letter ain		
-U+10910	𐤐	10900..1091F	Phoenician	Phoenician letter pe		
-U+10911	𐤑	10900..1091F	Phoenician	Phoenician letter sade		
-U+10912	𐤒	10900..1091F	Phoenician	Phoenician letter qof		
-U+10913	𐤓	10900..1091F	Phoenician	Phoenician letter rosh		
-U+10914	𐤔	10900..1091F	Phoenician	Phoenician letter shin		
-U+10915	𐤕	10900..1091F	Phoenician	Phoenician letter tau		
-U+10916	𐤖	10900..1091F	Phoenician	Phoenician number one		
-U+10917	𐤗	10900..1091F	Phoenician	Phoenician number ten		
-U+10918	𐤘	10900..1091F	Phoenician	Phoenician number twenty		
-U+10919	𐤙	10900..1091F	Phoenician	Phoenician number one hundred		
-U+1091A	𐤚	10900..1091F	Phoenician	Phoenician number two		
-U+1091B	𐤛	10900..1091F	Phoenician	Phoenician number three		
-U+1091F	𐤟	10900..1091F	Phoenician	Phoenician word separator		
+code_points	chars	tab_completions	unicode_name	base
+U+10900	𐤀		PHOENICIAN LETTER ALF	
+U+10901	𐤁		PHOENICIAN LETTER BET	
+U+10902	𐤂		PHOENICIAN LETTER GAML	
+U+10903	𐤃		PHOENICIAN LETTER DELT	
+U+10904	𐤄		PHOENICIAN LETTER HE	
+U+10905	𐤅		PHOENICIAN LETTER WAU	
+U+10906	𐤆		PHOENICIAN LETTER ZAI	
+U+10907	𐤇		PHOENICIAN LETTER HET	
+U+10908	𐤈		PHOENICIAN LETTER TET	
+U+10909	𐤉		PHOENICIAN LETTER YOD	
+U+1090A	𐤊		PHOENICIAN LETTER KAF	
+U+1090B	𐤋		PHOENICIAN LETTER LAMD	
+U+1090C	𐤌		PHOENICIAN LETTER MEM	
+U+1090D	𐤍		PHOENICIAN LETTER NUN	
+U+1090E	𐤎		PHOENICIAN LETTER SEMK	
+U+1090F	𐤏		PHOENICIAN LETTER AIN	
+U+10910	𐤐		PHOENICIAN LETTER PE	
+U+10911	𐤑		PHOENICIAN LETTER SADE	
+U+10912	𐤒		PHOENICIAN LETTER QOF	
+U+10913	𐤓		PHOENICIAN LETTER ROSH	
+U+10914	𐤔		PHOENICIAN LETTER SHIN	
+U+10915	𐤕		PHOENICIAN LETTER TAU	
+U+10916	𐤖		PHOENICIAN NUMBER ONE	
+U+10917	𐤗		PHOENICIAN NUMBER TEN	
+U+10918	𐤘		PHOENICIAN NUMBER TWENTY	
+U+10919	𐤙		PHOENICIAN NUMBER ONE HUNDRED	
+U+1091A	𐤚		PHOENICIAN NUMBER TWO	
+U+1091B	𐤛		PHOENICIAN NUMBER THREE	
+U+1091F	𐤟		PHOENICIAN WORD SEPARATOR	

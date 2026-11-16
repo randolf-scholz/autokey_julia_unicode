@@ -1,234 +1,234 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F00	ἀ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili		
-U+1F01	ἁ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia		
-U+1F02	ἂ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and varia		
-U+1F03	ἃ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and varia		
-U+1F04	ἄ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and oxia		
-U+1F05	ἅ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and oxia		
-U+1F06	ἆ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and perispomeni		
-U+1F07	ἇ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and perispomeni		
-U+1F08	Ἀ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili		
-U+1F09	Ἁ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia		
-U+1F0A	Ἂ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and varia		
-U+1F0B	Ἃ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and varia		
-U+1F0C	Ἄ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and oxia		
-U+1F0D	Ἅ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and oxia		
-U+1F0E	Ἆ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and perispomeni		
-U+1F0F	Ἇ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and perispomeni		
-U+1F10	ἐ	1F00..1FFF	Greek Extended	Greek small letter epsilon with psili		
-U+1F11	ἑ	1F00..1FFF	Greek Extended	Greek small letter epsilon with dasia		
-U+1F12	ἒ	1F00..1FFF	Greek Extended	Greek small letter epsilon with psili and varia		
-U+1F13	ἓ	1F00..1FFF	Greek Extended	Greek small letter epsilon with dasia and varia		
-U+1F14	ἔ	1F00..1FFF	Greek Extended	Greek small letter epsilon with psili and oxia		
-U+1F15	ἕ	1F00..1FFF	Greek Extended	Greek small letter epsilon with dasia and oxia		
-U+1F18	Ἐ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with psili		
-U+1F19	Ἑ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with dasia		
-U+1F1A	Ἒ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with psili and varia		
-U+1F1B	Ἓ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with dasia and varia		
-U+1F1C	Ἔ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with psili and oxia		
-U+1F1D	Ἕ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with dasia and oxia		
-U+1F20	ἠ	1F00..1FFF	Greek Extended	Greek small letter eta with psili		
-U+1F21	ἡ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia		
-U+1F22	ἢ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and varia		
-U+1F23	ἣ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and varia		
-U+1F24	ἤ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and oxia		
-U+1F25	ἥ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and oxia		
-U+1F26	ἦ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and perispomeni		
-U+1F27	ἧ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and perispomeni		
-U+1F28	Ἠ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili		
-U+1F29	Ἡ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia		
-U+1F2A	Ἢ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and varia		
-U+1F2B	Ἣ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and varia		
-U+1F2C	Ἤ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and oxia		
-U+1F2D	Ἥ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and oxia		
-U+1F2E	Ἦ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and perispomeni		
-U+1F2F	Ἧ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and perispomeni		
-U+1F30	ἰ	1F00..1FFF	Greek Extended	Greek small letter iota with psili		
-U+1F31	ἱ	1F00..1FFF	Greek Extended	Greek small letter iota with dasia		
-U+1F32	ἲ	1F00..1FFF	Greek Extended	Greek small letter iota with psili and varia		
-U+1F33	ἳ	1F00..1FFF	Greek Extended	Greek small letter iota with dasia and varia		
-U+1F34	ἴ	1F00..1FFF	Greek Extended	Greek small letter iota with psili and oxia		
-U+1F35	ἵ	1F00..1FFF	Greek Extended	Greek small letter iota with dasia and oxia		
-U+1F36	ἶ	1F00..1FFF	Greek Extended	Greek small letter iota with psili and perispomeni		
-U+1F37	ἷ	1F00..1FFF	Greek Extended	Greek small letter iota with dasia and perispomeni		
-U+1F38	Ἰ	1F00..1FFF	Greek Extended	Greek capital letter iota with psili		
-U+1F39	Ἱ	1F00..1FFF	Greek Extended	Greek capital letter iota with dasia		
-U+1F3A	Ἲ	1F00..1FFF	Greek Extended	Greek capital letter iota with psili and varia		
-U+1F3B	Ἳ	1F00..1FFF	Greek Extended	Greek capital letter iota with dasia and varia		
-U+1F3C	Ἴ	1F00..1FFF	Greek Extended	Greek capital letter iota with psili and oxia		
-U+1F3D	Ἵ	1F00..1FFF	Greek Extended	Greek capital letter iota with dasia and oxia		
-U+1F3E	Ἶ	1F00..1FFF	Greek Extended	Greek capital letter iota with psili and perispomeni		
-U+1F3F	Ἷ	1F00..1FFF	Greek Extended	Greek capital letter iota with dasia and perispomeni		
-U+1F40	ὀ	1F00..1FFF	Greek Extended	Greek small letter omicron with psili		
-U+1F41	ὁ	1F00..1FFF	Greek Extended	Greek small letter omicron with dasia		
-U+1F42	ὂ	1F00..1FFF	Greek Extended	Greek small letter omicron with psili and varia		
-U+1F43	ὃ	1F00..1FFF	Greek Extended	Greek small letter omicron with dasia and varia		
-U+1F44	ὄ	1F00..1FFF	Greek Extended	Greek small letter omicron with psili and oxia		
-U+1F45	ὅ	1F00..1FFF	Greek Extended	Greek small letter omicron with dasia and oxia		
-U+1F48	Ὀ	1F00..1FFF	Greek Extended	Greek capital letter omicron with psili		
-U+1F49	Ὁ	1F00..1FFF	Greek Extended	Greek capital letter omicron with dasia		
-U+1F4A	Ὂ	1F00..1FFF	Greek Extended	Greek capital letter omicron with psili and varia		
-U+1F4B	Ὃ	1F00..1FFF	Greek Extended	Greek capital letter omicron with dasia and varia		
-U+1F4C	Ὄ	1F00..1FFF	Greek Extended	Greek capital letter omicron with psili and oxia		
-U+1F4D	Ὅ	1F00..1FFF	Greek Extended	Greek capital letter omicron with dasia and oxia		
-U+1F50	ὐ	1F00..1FFF	Greek Extended	Greek small letter upsilon with psili		
-U+1F51	ὑ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dasia		
-U+1F52	ὒ	1F00..1FFF	Greek Extended	Greek small letter upsilon with psili and varia		
-U+1F53	ὓ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dasia and varia		
-U+1F54	ὔ	1F00..1FFF	Greek Extended	Greek small letter upsilon with psili and oxia		
-U+1F55	ὕ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dasia and oxia		
-U+1F56	ὖ	1F00..1FFF	Greek Extended	Greek small letter upsilon with psili and perispomeni		
-U+1F57	ὗ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dasia and perispomeni		
-U+1F59	Ὑ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with dasia		
-U+1F5B	Ὓ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with dasia and varia		
-U+1F5D	Ὕ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with dasia and oxia		
-U+1F5F	Ὗ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with dasia and perispomeni		
-U+1F60	ὠ	1F00..1FFF	Greek Extended	Greek small letter omega with psili		
-U+1F61	ὡ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia		
-U+1F62	ὢ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and varia		
-U+1F63	ὣ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and varia		
-U+1F64	ὤ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and oxia		
-U+1F65	ὥ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and oxia		
-U+1F66	ὦ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and perispomeni		
-U+1F67	ὧ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and perispomeni		
-U+1F68	Ὠ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili		
-U+1F69	Ὡ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia		
-U+1F6A	Ὢ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and varia		
-U+1F6B	Ὣ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and varia		
-U+1F6C	Ὤ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and oxia		
-U+1F6D	Ὥ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and oxia		
-U+1F6E	Ὦ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and perispomeni		
-U+1F6F	Ὧ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and perispomeni		
-U+1F70	ὰ	1F00..1FFF	Greek Extended	Greek small letter alpha with varia		
-U+1F71	ά	1F00..1FFF	Greek Extended	Greek small letter alpha with oxia		
-U+1F72	ὲ	1F00..1FFF	Greek Extended	Greek small letter epsilon with varia		
-U+1F73	έ	1F00..1FFF	Greek Extended	Greek small letter epsilon with oxia		
-U+1F74	ὴ	1F00..1FFF	Greek Extended	Greek small letter eta with varia		
-U+1F75	ή	1F00..1FFF	Greek Extended	Greek small letter eta with oxia		
-U+1F76	ὶ	1F00..1FFF	Greek Extended	Greek small letter iota with varia		
-U+1F77	ί	1F00..1FFF	Greek Extended	Greek small letter iota with oxia		
-U+1F78	ὸ	1F00..1FFF	Greek Extended	Greek small letter omicron with varia		
-U+1F79	ό	1F00..1FFF	Greek Extended	Greek small letter omicron with oxia		
-U+1F7A	ὺ	1F00..1FFF	Greek Extended	Greek small letter upsilon with varia		
-U+1F7B	ύ	1F00..1FFF	Greek Extended	Greek small letter upsilon with oxia		
-U+1F7C	ὼ	1F00..1FFF	Greek Extended	Greek small letter omega with varia		
-U+1F7D	ώ	1F00..1FFF	Greek Extended	Greek small letter omega with oxia		
-U+1F80	ᾀ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and ypogegrammeni		
-U+1F81	ᾁ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and ypogegrammeni		
-U+1F82	ᾂ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and varia and ypogegrammeni		
-U+1F83	ᾃ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and varia and ypogegrammeni		
-U+1F84	ᾄ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and oxia and ypogegrammeni		
-U+1F85	ᾅ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and oxia and ypogegrammeni		
-U+1F86	ᾆ	1F00..1FFF	Greek Extended	Greek small letter alpha with psili and perispomeni and ypogegrammeni		
-U+1F87	ᾇ	1F00..1FFF	Greek Extended	Greek small letter alpha with dasia and perispomeni and ypogegrammeni		
-U+1F88	ᾈ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and prosgegrammeni		
-U+1F89	ᾉ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and prosgegrammeni		
-U+1F8A	ᾊ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and varia and prosgegrammeni		
-U+1F8B	ᾋ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and varia and prosgegrammeni		
-U+1F8C	ᾌ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and oxia and prosgegrammeni		
-U+1F8D	ᾍ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and oxia and prosgegrammeni		
-U+1F8E	ᾎ	1F00..1FFF	Greek Extended	Greek capital letter alpha with psili and perispomeni and prosgegrammeni		
-U+1F8F	ᾏ	1F00..1FFF	Greek Extended	Greek capital letter alpha with dasia and perispomeni and prosgegrammeni		
-U+1F90	ᾐ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and ypogegrammeni		
-U+1F91	ᾑ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and ypogegrammeni		
-U+1F92	ᾒ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and varia and ypogegrammeni		
-U+1F93	ᾓ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and varia and ypogegrammeni		
-U+1F94	ᾔ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and oxia and ypogegrammeni		
-U+1F95	ᾕ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and oxia and ypogegrammeni		
-U+1F96	ᾖ	1F00..1FFF	Greek Extended	Greek small letter eta with psili and perispomeni and ypogegrammeni		
-U+1F97	ᾗ	1F00..1FFF	Greek Extended	Greek small letter eta with dasia and perispomeni and ypogegrammeni		
-U+1F98	ᾘ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and prosgegrammeni		
-U+1F99	ᾙ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and prosgegrammeni		
-U+1F9A	ᾚ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and varia and prosgegrammeni		
-U+1F9B	ᾛ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and varia and prosgegrammeni		
-U+1F9C	ᾜ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and oxia and prosgegrammeni		
-U+1F9D	ᾝ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and oxia and prosgegrammeni		
-U+1F9E	ᾞ	1F00..1FFF	Greek Extended	Greek capital letter eta with psili and perispomeni and prosgegrammeni		
-U+1F9F	ᾟ	1F00..1FFF	Greek Extended	Greek capital letter eta with dasia and perispomeni and prosgegrammeni		
-U+1FA0	ᾠ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and ypogegrammeni		
-U+1FA1	ᾡ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and ypogegrammeni		
-U+1FA2	ᾢ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and varia and ypogegrammeni		
-U+1FA3	ᾣ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and varia and ypogegrammeni		
-U+1FA4	ᾤ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and oxia and ypogegrammeni		
-U+1FA5	ᾥ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and oxia and ypogegrammeni		
-U+1FA6	ᾦ	1F00..1FFF	Greek Extended	Greek small letter omega with psili and perispomeni and ypogegrammeni		
-U+1FA7	ᾧ	1F00..1FFF	Greek Extended	Greek small letter omega with dasia and perispomeni and ypogegrammeni		
-U+1FA8	ᾨ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and prosgegrammeni		
-U+1FA9	ᾩ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and prosgegrammeni		
-U+1FAA	ᾪ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and varia and prosgegrammeni		
-U+1FAB	ᾫ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and varia and prosgegrammeni		
-U+1FAC	ᾬ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and oxia and prosgegrammeni		
-U+1FAD	ᾭ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and oxia and prosgegrammeni		
-U+1FAE	ᾮ	1F00..1FFF	Greek Extended	Greek capital letter omega with psili and perispomeni and prosgegrammeni		
-U+1FAF	ᾯ	1F00..1FFF	Greek Extended	Greek capital letter omega with dasia and perispomeni and prosgegrammeni		
-U+1FB0	ᾰ	1F00..1FFF	Greek Extended	Greek small letter alpha with vrachy		
-U+1FB1	ᾱ	1F00..1FFF	Greek Extended	Greek small letter alpha with macron		
-U+1FB2	ᾲ	1F00..1FFF	Greek Extended	Greek small letter alpha with varia and ypogegrammeni		
-U+1FB3	ᾳ	1F00..1FFF	Greek Extended	Greek small letter alpha with ypogegrammeni		
-U+1FB4	ᾴ	1F00..1FFF	Greek Extended	Greek small letter alpha with oxia and ypogegrammeni		
-U+1FB6	ᾶ	1F00..1FFF	Greek Extended	Greek small letter alpha with perispomeni		
-U+1FB7	ᾷ	1F00..1FFF	Greek Extended	Greek small letter alpha with perispomeni and ypogegrammeni		
-U+1FB8	Ᾰ	1F00..1FFF	Greek Extended	Greek capital letter alpha with vrachy		
-U+1FB9	Ᾱ	1F00..1FFF	Greek Extended	Greek capital letter alpha with macron		
-U+1FBA	Ὰ	1F00..1FFF	Greek Extended	Greek capital letter alpha with varia		
-U+1FBB	Ά	1F00..1FFF	Greek Extended	Greek capital letter alpha with oxia		
-U+1FBC	ᾼ	1F00..1FFF	Greek Extended	Greek capital letter alpha with prosgegrammeni		
-U+1FBD	᾽	1F00..1FFF	Greek Extended	Greek koronis		
-U+1FBE	ι	1F00..1FFF	Greek Extended	Greek prosgegrammeni		
-U+1FBF	᾿	1F00..1FFF	Greek Extended	Greek psili		
-U+1FC0	῀	1F00..1FFF	Greek Extended	Greek perispomeni		
-U+1FC1	῁	1F00..1FFF	Greek Extended	Greek dialytika and perispomeni		
-U+1FC2	ῂ	1F00..1FFF	Greek Extended	Greek small letter eta with varia and ypogegrammeni		
-U+1FC3	ῃ	1F00..1FFF	Greek Extended	Greek small letter eta with ypogegrammeni		
-U+1FC4	ῄ	1F00..1FFF	Greek Extended	Greek small letter eta with oxia and ypogegrammeni		
-U+1FC6	ῆ	1F00..1FFF	Greek Extended	Greek small letter eta with perispomeni		
-U+1FC7	ῇ	1F00..1FFF	Greek Extended	Greek small letter eta with perispomeni and ypogegrammeni		
-U+1FC8	Ὲ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with varia		
-U+1FC9	Έ	1F00..1FFF	Greek Extended	Greek capital letter epsilon with oxia		
-U+1FCA	Ὴ	1F00..1FFF	Greek Extended	Greek capital letter eta with varia		
-U+1FCB	Ή	1F00..1FFF	Greek Extended	Greek capital letter eta with oxia		
-U+1FCC	ῌ	1F00..1FFF	Greek Extended	Greek capital letter eta with prosgegrammeni		
-U+1FCD	῍	1F00..1FFF	Greek Extended	Greek psili and varia		
-U+1FCE	῎	1F00..1FFF	Greek Extended	Greek psili and oxia		
-U+1FCF	῏	1F00..1FFF	Greek Extended	Greek psili and perispomeni		
-U+1FD0	ῐ	1F00..1FFF	Greek Extended	Greek small letter iota with vrachy		
-U+1FD1	ῑ	1F00..1FFF	Greek Extended	Greek small letter iota with macron		
-U+1FD2	ῒ	1F00..1FFF	Greek Extended	Greek small letter iota with dialytika and varia		
-U+1FD3	ΐ	1F00..1FFF	Greek Extended	Greek small letter iota with dialytika and oxia		
-U+1FD6	ῖ	1F00..1FFF	Greek Extended	Greek small letter iota with perispomeni		
-U+1FD7	ῗ	1F00..1FFF	Greek Extended	Greek small letter iota with dialytika and perispomeni		
-U+1FD8	Ῐ	1F00..1FFF	Greek Extended	Greek capital letter iota with vrachy		
-U+1FD9	Ῑ	1F00..1FFF	Greek Extended	Greek capital letter iota with macron		
-U+1FDA	Ὶ	1F00..1FFF	Greek Extended	Greek capital letter iota with varia		
-U+1FDB	Ί	1F00..1FFF	Greek Extended	Greek capital letter iota with oxia		
-U+1FDD	῝	1F00..1FFF	Greek Extended	Greek dasia and varia		
-U+1FDE	῞	1F00..1FFF	Greek Extended	Greek dasia and oxia		
-U+1FDF	῟	1F00..1FFF	Greek Extended	Greek dasia and perispomeni		
-U+1FE0	ῠ	1F00..1FFF	Greek Extended	Greek small letter upsilon with vrachy		
-U+1FE1	ῡ	1F00..1FFF	Greek Extended	Greek small letter upsilon with macron		
-U+1FE2	ῢ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dialytika and varia		
-U+1FE3	ΰ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dialytika and oxia		
-U+1FE4	ῤ	1F00..1FFF	Greek Extended	Greek small letter rho with psili		
-U+1FE5	ῥ	1F00..1FFF	Greek Extended	Greek small letter rho with dasia		
-U+1FE6	ῦ	1F00..1FFF	Greek Extended	Greek small letter upsilon with perispomeni		
-U+1FE7	ῧ	1F00..1FFF	Greek Extended	Greek small letter upsilon with dialytika and perispomeni		
-U+1FE8	Ῠ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with vrachy		
-U+1FE9	Ῡ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with macron		
-U+1FEA	Ὺ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with varia		
-U+1FEB	Ύ	1F00..1FFF	Greek Extended	Greek capital letter upsilon with oxia		
-U+1FEC	Ῥ	1F00..1FFF	Greek Extended	Greek capital letter rho with dasia		
-U+1FED	῭	1F00..1FFF	Greek Extended	Greek dialytika and varia		
-U+1FEE	΅	1F00..1FFF	Greek Extended	Greek dialytika and oxia		
-U+1FEF	`	1F00..1FFF	Greek Extended	Greek varia		
-U+1FF2	ῲ	1F00..1FFF	Greek Extended	Greek small letter omega with varia and ypogegrammeni		
-U+1FF3	ῳ	1F00..1FFF	Greek Extended	Greek small letter omega with ypogegrammeni		
-U+1FF4	ῴ	1F00..1FFF	Greek Extended	Greek small letter omega with oxia and ypogegrammeni		
-U+1FF6	ῶ	1F00..1FFF	Greek Extended	Greek small letter omega with perispomeni		
-U+1FF7	ῷ	1F00..1FFF	Greek Extended	Greek small letter omega with perispomeni and ypogegrammeni		
-U+1FF8	Ὸ	1F00..1FFF	Greek Extended	Greek capital letter omicron with varia		
-U+1FF9	Ό	1F00..1FFF	Greek Extended	Greek capital letter omicron with oxia		
-U+1FFA	Ὼ	1F00..1FFF	Greek Extended	Greek capital letter omega with varia		
-U+1FFB	Ώ	1F00..1FFF	Greek Extended	Greek capital letter omega with oxia		
-U+1FFC	ῼ	1F00..1FFF	Greek Extended	Greek capital letter omega with prosgegrammeni		
-U+1FFD	´	1F00..1FFF	Greek Extended	Greek oxia		
-U+1FFE	῾	1F00..1FFF	Greek Extended	Greek dasia		
+code_points	chars	tab_completions	unicode_name	base
+U+1F00	ἀ		GREEK SMALL LETTER ALPHA WITH PSILI	
+U+1F01	ἁ		GREEK SMALL LETTER ALPHA WITH DASIA	
+U+1F02	ἂ		GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA	
+U+1F03	ἃ		GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA	
+U+1F04	ἄ		GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA	
+U+1F05	ἅ		GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA	
+U+1F06	ἆ		GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI	
+U+1F07	ἇ		GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI	
+U+1F08	Ἀ		GREEK CAPITAL LETTER ALPHA WITH PSILI	
+U+1F09	Ἁ		GREEK CAPITAL LETTER ALPHA WITH DASIA	
+U+1F0A	Ἂ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA	
+U+1F0B	Ἃ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA	
+U+1F0C	Ἄ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA	
+U+1F0D	Ἅ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA	
+U+1F0E	Ἆ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI	
+U+1F0F	Ἇ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI	
+U+1F10	ἐ		GREEK SMALL LETTER EPSILON WITH PSILI	
+U+1F11	ἑ		GREEK SMALL LETTER EPSILON WITH DASIA	
+U+1F12	ἒ		GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA	
+U+1F13	ἓ		GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA	
+U+1F14	ἔ		GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA	
+U+1F15	ἕ		GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA	
+U+1F18	Ἐ		GREEK CAPITAL LETTER EPSILON WITH PSILI	
+U+1F19	Ἑ		GREEK CAPITAL LETTER EPSILON WITH DASIA	
+U+1F1A	Ἒ		GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA	
+U+1F1B	Ἓ		GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA	
+U+1F1C	Ἔ		GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA	
+U+1F1D	Ἕ		GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA	
+U+1F20	ἠ		GREEK SMALL LETTER ETA WITH PSILI	
+U+1F21	ἡ		GREEK SMALL LETTER ETA WITH DASIA	
+U+1F22	ἢ		GREEK SMALL LETTER ETA WITH PSILI AND VARIA	
+U+1F23	ἣ		GREEK SMALL LETTER ETA WITH DASIA AND VARIA	
+U+1F24	ἤ		GREEK SMALL LETTER ETA WITH PSILI AND OXIA	
+U+1F25	ἥ		GREEK SMALL LETTER ETA WITH DASIA AND OXIA	
+U+1F26	ἦ		GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI	
+U+1F27	ἧ		GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI	
+U+1F28	Ἠ		GREEK CAPITAL LETTER ETA WITH PSILI	
+U+1F29	Ἡ		GREEK CAPITAL LETTER ETA WITH DASIA	
+U+1F2A	Ἢ		GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA	
+U+1F2B	Ἣ		GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA	
+U+1F2C	Ἤ		GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA	
+U+1F2D	Ἥ		GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA	
+U+1F2E	Ἦ		GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI	
+U+1F2F	Ἧ		GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI	
+U+1F30	ἰ		GREEK SMALL LETTER IOTA WITH PSILI	
+U+1F31	ἱ		GREEK SMALL LETTER IOTA WITH DASIA	
+U+1F32	ἲ		GREEK SMALL LETTER IOTA WITH PSILI AND VARIA	
+U+1F33	ἳ		GREEK SMALL LETTER IOTA WITH DASIA AND VARIA	
+U+1F34	ἴ		GREEK SMALL LETTER IOTA WITH PSILI AND OXIA	
+U+1F35	ἵ		GREEK SMALL LETTER IOTA WITH DASIA AND OXIA	
+U+1F36	ἶ		GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI	
+U+1F37	ἷ		GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI	
+U+1F38	Ἰ		GREEK CAPITAL LETTER IOTA WITH PSILI	
+U+1F39	Ἱ		GREEK CAPITAL LETTER IOTA WITH DASIA	
+U+1F3A	Ἲ		GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA	
+U+1F3B	Ἳ		GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA	
+U+1F3C	Ἴ		GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA	
+U+1F3D	Ἵ		GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA	
+U+1F3E	Ἶ		GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI	
+U+1F3F	Ἷ		GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI	
+U+1F40	ὀ		GREEK SMALL LETTER OMICRON WITH PSILI	
+U+1F41	ὁ		GREEK SMALL LETTER OMICRON WITH DASIA	
+U+1F42	ὂ		GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA	
+U+1F43	ὃ		GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA	
+U+1F44	ὄ		GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA	
+U+1F45	ὅ		GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA	
+U+1F48	Ὀ		GREEK CAPITAL LETTER OMICRON WITH PSILI	
+U+1F49	Ὁ		GREEK CAPITAL LETTER OMICRON WITH DASIA	
+U+1F4A	Ὂ		GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA	
+U+1F4B	Ὃ		GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA	
+U+1F4C	Ὄ		GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA	
+U+1F4D	Ὅ		GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA	
+U+1F50	ὐ		GREEK SMALL LETTER UPSILON WITH PSILI	
+U+1F51	ὑ		GREEK SMALL LETTER UPSILON WITH DASIA	
+U+1F52	ὒ		GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA	
+U+1F53	ὓ		GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA	
+U+1F54	ὔ		GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA	
+U+1F55	ὕ		GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA	
+U+1F56	ὖ		GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI	
+U+1F57	ὗ		GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI	
+U+1F59	Ὑ		GREEK CAPITAL LETTER UPSILON WITH DASIA	
+U+1F5B	Ὓ		GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA	
+U+1F5D	Ὕ		GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA	
+U+1F5F	Ὗ		GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI	
+U+1F60	ὠ		GREEK SMALL LETTER OMEGA WITH PSILI	
+U+1F61	ὡ		GREEK SMALL LETTER OMEGA WITH DASIA	
+U+1F62	ὢ		GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA	
+U+1F63	ὣ		GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA	
+U+1F64	ὤ		GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA	
+U+1F65	ὥ		GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA	
+U+1F66	ὦ		GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI	
+U+1F67	ὧ		GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI	
+U+1F68	Ὠ		GREEK CAPITAL LETTER OMEGA WITH PSILI	
+U+1F69	Ὡ		GREEK CAPITAL LETTER OMEGA WITH DASIA	
+U+1F6A	Ὢ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA	
+U+1F6B	Ὣ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA	
+U+1F6C	Ὤ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA	
+U+1F6D	Ὥ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA	
+U+1F6E	Ὦ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI	
+U+1F6F	Ὧ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI	
+U+1F70	ὰ		GREEK SMALL LETTER ALPHA WITH VARIA	
+U+1F71	ά		GREEK SMALL LETTER ALPHA WITH OXIA	
+U+1F72	ὲ		GREEK SMALL LETTER EPSILON WITH VARIA	
+U+1F73	έ		GREEK SMALL LETTER EPSILON WITH OXIA	
+U+1F74	ὴ		GREEK SMALL LETTER ETA WITH VARIA	
+U+1F75	ή		GREEK SMALL LETTER ETA WITH OXIA	
+U+1F76	ὶ		GREEK SMALL LETTER IOTA WITH VARIA	
+U+1F77	ί		GREEK SMALL LETTER IOTA WITH OXIA	
+U+1F78	ὸ		GREEK SMALL LETTER OMICRON WITH VARIA	
+U+1F79	ό		GREEK SMALL LETTER OMICRON WITH OXIA	
+U+1F7A	ὺ		GREEK SMALL LETTER UPSILON WITH VARIA	
+U+1F7B	ύ		GREEK SMALL LETTER UPSILON WITH OXIA	
+U+1F7C	ὼ		GREEK SMALL LETTER OMEGA WITH VARIA	
+U+1F7D	ώ		GREEK SMALL LETTER OMEGA WITH OXIA	
+U+1F80	ᾀ		GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI	
+U+1F81	ᾁ		GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI	
+U+1F82	ᾂ		GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI	
+U+1F83	ᾃ		GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI	
+U+1F84	ᾄ		GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI	
+U+1F85	ᾅ		GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI	
+U+1F86	ᾆ		GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1F87	ᾇ		GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1F88	ᾈ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI	
+U+1F89	ᾉ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI	
+U+1F8A	ᾊ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI	
+U+1F8B	ᾋ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI	
+U+1F8C	ᾌ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI	
+U+1F8D	ᾍ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI	
+U+1F8E	ᾎ		GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1F8F	ᾏ		GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1F90	ᾐ		GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI	
+U+1F91	ᾑ		GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI	
+U+1F92	ᾒ		GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI	
+U+1F93	ᾓ		GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI	
+U+1F94	ᾔ		GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI	
+U+1F95	ᾕ		GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI	
+U+1F96	ᾖ		GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1F97	ᾗ		GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1F98	ᾘ		GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI	
+U+1F99	ᾙ		GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI	
+U+1F9A	ᾚ		GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI	
+U+1F9B	ᾛ		GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI	
+U+1F9C	ᾜ		GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI	
+U+1F9D	ᾝ		GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI	
+U+1F9E	ᾞ		GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1F9F	ᾟ		GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1FA0	ᾠ		GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI	
+U+1FA1	ᾡ		GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI	
+U+1FA2	ᾢ		GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI	
+U+1FA3	ᾣ		GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI	
+U+1FA4	ᾤ		GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI	
+U+1FA5	ᾥ		GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI	
+U+1FA6	ᾦ		GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1FA7	ᾧ		GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI	
+U+1FA8	ᾨ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI	
+U+1FA9	ᾩ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI	
+U+1FAA	ᾪ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI	
+U+1FAB	ᾫ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI	
+U+1FAC	ᾬ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI	
+U+1FAD	ᾭ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI	
+U+1FAE	ᾮ		GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1FAF	ᾯ		GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI	
+U+1FB0	ᾰ		GREEK SMALL LETTER ALPHA WITH VRACHY	
+U+1FB1	ᾱ		GREEK SMALL LETTER ALPHA WITH MACRON	
+U+1FB2	ᾲ		GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI	
+U+1FB3	ᾳ		GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI	
+U+1FB4	ᾴ		GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI	
+U+1FB6	ᾶ		GREEK SMALL LETTER ALPHA WITH PERISPOMENI	
+U+1FB7	ᾷ		GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI	
+U+1FB8	Ᾰ		GREEK CAPITAL LETTER ALPHA WITH VRACHY	
+U+1FB9	Ᾱ		GREEK CAPITAL LETTER ALPHA WITH MACRON	
+U+1FBA	Ὰ		GREEK CAPITAL LETTER ALPHA WITH VARIA	
+U+1FBB	Ά		GREEK CAPITAL LETTER ALPHA WITH OXIA	
+U+1FBC	ᾼ		GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI	
+U+1FBD	᾽		GREEK KORONIS	
+U+1FBE	ι		GREEK PROSGEGRAMMENI	
+U+1FBF	᾿		GREEK PSILI	
+U+1FC0	῀		GREEK PERISPOMENI	
+U+1FC1	῁		GREEK DIALYTIKA AND PERISPOMENI	
+U+1FC2	ῂ		GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI	
+U+1FC3	ῃ		GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI	
+U+1FC4	ῄ		GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI	
+U+1FC6	ῆ		GREEK SMALL LETTER ETA WITH PERISPOMENI	
+U+1FC7	ῇ		GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI	
+U+1FC8	Ὲ		GREEK CAPITAL LETTER EPSILON WITH VARIA	
+U+1FC9	Έ		GREEK CAPITAL LETTER EPSILON WITH OXIA	
+U+1FCA	Ὴ		GREEK CAPITAL LETTER ETA WITH VARIA	
+U+1FCB	Ή		GREEK CAPITAL LETTER ETA WITH OXIA	
+U+1FCC	ῌ		GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI	
+U+1FCD	῍		GREEK PSILI AND VARIA	
+U+1FCE	῎		GREEK PSILI AND OXIA	
+U+1FCF	῏		GREEK PSILI AND PERISPOMENI	
+U+1FD0	ῐ		GREEK SMALL LETTER IOTA WITH VRACHY	
+U+1FD1	ῑ		GREEK SMALL LETTER IOTA WITH MACRON	
+U+1FD2	ῒ		GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA	
+U+1FD3	ΐ		GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA	
+U+1FD6	ῖ		GREEK SMALL LETTER IOTA WITH PERISPOMENI	
+U+1FD7	ῗ		GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI	
+U+1FD8	Ῐ		GREEK CAPITAL LETTER IOTA WITH VRACHY	
+U+1FD9	Ῑ		GREEK CAPITAL LETTER IOTA WITH MACRON	
+U+1FDA	Ὶ		GREEK CAPITAL LETTER IOTA WITH VARIA	
+U+1FDB	Ί		GREEK CAPITAL LETTER IOTA WITH OXIA	
+U+1FDD	῝		GREEK DASIA AND VARIA	
+U+1FDE	῞		GREEK DASIA AND OXIA	
+U+1FDF	῟		GREEK DASIA AND PERISPOMENI	
+U+1FE0	ῠ		GREEK SMALL LETTER UPSILON WITH VRACHY	
+U+1FE1	ῡ		GREEK SMALL LETTER UPSILON WITH MACRON	
+U+1FE2	ῢ		GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA	
+U+1FE3	ΰ		GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA	
+U+1FE4	ῤ		GREEK SMALL LETTER RHO WITH PSILI	
+U+1FE5	ῥ		GREEK SMALL LETTER RHO WITH DASIA	
+U+1FE6	ῦ		GREEK SMALL LETTER UPSILON WITH PERISPOMENI	
+U+1FE7	ῧ		GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI	
+U+1FE8	Ῠ		GREEK CAPITAL LETTER UPSILON WITH VRACHY	
+U+1FE9	Ῡ		GREEK CAPITAL LETTER UPSILON WITH MACRON	
+U+1FEA	Ὺ		GREEK CAPITAL LETTER UPSILON WITH VARIA	
+U+1FEB	Ύ		GREEK CAPITAL LETTER UPSILON WITH OXIA	
+U+1FEC	Ῥ		GREEK CAPITAL LETTER RHO WITH DASIA	
+U+1FED	῭		GREEK DIALYTIKA AND VARIA	
+U+1FEE	΅		GREEK DIALYTIKA AND OXIA	
+U+1FEF	`		GREEK VARIA	
+U+1FF2	ῲ		GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI	
+U+1FF3	ῳ		GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI	
+U+1FF4	ῴ		GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI	
+U+1FF6	ῶ		GREEK SMALL LETTER OMEGA WITH PERISPOMENI	
+U+1FF7	ῷ		GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI	
+U+1FF8	Ὸ		GREEK CAPITAL LETTER OMICRON WITH VARIA	
+U+1FF9	Ό		GREEK CAPITAL LETTER OMICRON WITH OXIA	
+U+1FFA	Ὼ		GREEK CAPITAL LETTER OMEGA WITH VARIA	
+U+1FFB	Ώ		GREEK CAPITAL LETTER OMEGA WITH OXIA	
+U+1FFC	ῼ		GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI	
+U+1FFD	´		GREEK OXIA	
+U+1FFE	῾		GREEK DASIA	

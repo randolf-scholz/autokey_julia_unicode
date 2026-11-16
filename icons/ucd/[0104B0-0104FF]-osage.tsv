@@ -1,73 +1,73 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+104B0	𐒰	104B0..104FF	Osage	Osage capital letter a		
-U+104B1	𐒱	104B0..104FF	Osage	Osage capital letter ai		
-U+104B2	𐒲	104B0..104FF	Osage	Osage capital letter ain		
-U+104B3	𐒳	104B0..104FF	Osage	Osage capital letter ah		
-U+104B4	𐒴	104B0..104FF	Osage	Osage capital letter bra		
-U+104B5	𐒵	104B0..104FF	Osage	Osage capital letter cha		
-U+104B6	𐒶	104B0..104FF	Osage	Osage capital letter ehcha		
-U+104B7	𐒷	104B0..104FF	Osage	Osage capital letter e		
-U+104B8	𐒸	104B0..104FF	Osage	Osage capital letter ein		
-U+104B9	𐒹	104B0..104FF	Osage	Osage capital letter ha		
-U+104BA	𐒺	104B0..104FF	Osage	Osage capital letter hya		
-U+104BB	𐒻	104B0..104FF	Osage	Osage capital letter i		
-U+104BC	𐒼	104B0..104FF	Osage	Osage capital letter ka		
-U+104BD	𐒽	104B0..104FF	Osage	Osage capital letter ehka		
-U+104BE	𐒾	104B0..104FF	Osage	Osage capital letter kya		
-U+104BF	𐒿	104B0..104FF	Osage	Osage capital letter la		
-U+104C0	𐓀	104B0..104FF	Osage	Osage capital letter ma		
-U+104C1	𐓁	104B0..104FF	Osage	Osage capital letter na		
-U+104C2	𐓂	104B0..104FF	Osage	Osage capital letter o		
-U+104C3	𐓃	104B0..104FF	Osage	Osage capital letter oin		
-U+104C4	𐓄	104B0..104FF	Osage	Osage capital letter pa		
-U+104C5	𐓅	104B0..104FF	Osage	Osage capital letter ehpa		
-U+104C6	𐓆	104B0..104FF	Osage	Osage capital letter sa		
-U+104C7	𐓇	104B0..104FF	Osage	Osage capital letter sha		
-U+104C8	𐓈	104B0..104FF	Osage	Osage capital letter ta		
-U+104C9	𐓉	104B0..104FF	Osage	Osage capital letter ehta		
-U+104CA	𐓊	104B0..104FF	Osage	Osage capital letter tsa		
-U+104CB	𐓋	104B0..104FF	Osage	Osage capital letter ehtsa		
-U+104CC	𐓌	104B0..104FF	Osage	Osage capital letter tsha		
-U+104CD	𐓍	104B0..104FF	Osage	Osage capital letter dha		
-U+104CE	𐓎	104B0..104FF	Osage	Osage capital letter u		
-U+104CF	𐓏	104B0..104FF	Osage	Osage capital letter wa		
-U+104D0	𐓐	104B0..104FF	Osage	Osage capital letter kha		
-U+104D1	𐓑	104B0..104FF	Osage	Osage capital letter gha		
-U+104D2	𐓒	104B0..104FF	Osage	Osage capital letter za		
-U+104D3	𐓓	104B0..104FF	Osage	Osage capital letter zha		
-U+104D8	𐓘	104B0..104FF	Osage	Osage small letter a		
-U+104D9	𐓙	104B0..104FF	Osage	Osage small letter ai		
-U+104DA	𐓚	104B0..104FF	Osage	Osage small letter ain		
-U+104DB	𐓛	104B0..104FF	Osage	Osage small letter ah		
-U+104DC	𐓜	104B0..104FF	Osage	Osage small letter bra		
-U+104DD	𐓝	104B0..104FF	Osage	Osage small letter cha		
-U+104DE	𐓞	104B0..104FF	Osage	Osage small letter ehcha		
-U+104DF	𐓟	104B0..104FF	Osage	Osage small letter e		
-U+104E0	𐓠	104B0..104FF	Osage	Osage small letter ein		
-U+104E1	𐓡	104B0..104FF	Osage	Osage small letter ha		
-U+104E2	𐓢	104B0..104FF	Osage	Osage small letter hya		
-U+104E3	𐓣	104B0..104FF	Osage	Osage small letter i		
-U+104E4	𐓤	104B0..104FF	Osage	Osage small letter ka		
-U+104E5	𐓥	104B0..104FF	Osage	Osage small letter ehka		
-U+104E6	𐓦	104B0..104FF	Osage	Osage small letter kya		
-U+104E7	𐓧	104B0..104FF	Osage	Osage small letter la		
-U+104E8	𐓨	104B0..104FF	Osage	Osage small letter ma		
-U+104E9	𐓩	104B0..104FF	Osage	Osage small letter na		
-U+104EA	𐓪	104B0..104FF	Osage	Osage small letter o		
-U+104EB	𐓫	104B0..104FF	Osage	Osage small letter oin		
-U+104EC	𐓬	104B0..104FF	Osage	Osage small letter pa		
-U+104ED	𐓭	104B0..104FF	Osage	Osage small letter ehpa		
-U+104EE	𐓮	104B0..104FF	Osage	Osage small letter sa		
-U+104EF	𐓯	104B0..104FF	Osage	Osage small letter sha		
-U+104F0	𐓰	104B0..104FF	Osage	Osage small letter ta		
-U+104F1	𐓱	104B0..104FF	Osage	Osage small letter ehta		
-U+104F2	𐓲	104B0..104FF	Osage	Osage small letter tsa		
-U+104F3	𐓳	104B0..104FF	Osage	Osage small letter ehtsa		
-U+104F4	𐓴	104B0..104FF	Osage	Osage small letter tsha		
-U+104F5	𐓵	104B0..104FF	Osage	Osage small letter dha		
-U+104F6	𐓶	104B0..104FF	Osage	Osage small letter u		
-U+104F7	𐓷	104B0..104FF	Osage	Osage small letter wa		
-U+104F8	𐓸	104B0..104FF	Osage	Osage small letter kha		
-U+104F9	𐓹	104B0..104FF	Osage	Osage small letter gha		
-U+104FA	𐓺	104B0..104FF	Osage	Osage small letter za		
-U+104FB	𐓻	104B0..104FF	Osage	Osage small letter zha		
+code_points	chars	tab_completions	unicode_name	base
+U+104B0	𐒰		OSAGE CAPITAL LETTER A	
+U+104B1	𐒱		OSAGE CAPITAL LETTER AI	
+U+104B2	𐒲		OSAGE CAPITAL LETTER AIN	
+U+104B3	𐒳		OSAGE CAPITAL LETTER AH	
+U+104B4	𐒴		OSAGE CAPITAL LETTER BRA	
+U+104B5	𐒵		OSAGE CAPITAL LETTER CHA	
+U+104B6	𐒶		OSAGE CAPITAL LETTER EHCHA	
+U+104B7	𐒷		OSAGE CAPITAL LETTER E	
+U+104B8	𐒸		OSAGE CAPITAL LETTER EIN	
+U+104B9	𐒹		OSAGE CAPITAL LETTER HA	
+U+104BA	𐒺		OSAGE CAPITAL LETTER HYA	
+U+104BB	𐒻		OSAGE CAPITAL LETTER I	
+U+104BC	𐒼		OSAGE CAPITAL LETTER KA	
+U+104BD	𐒽		OSAGE CAPITAL LETTER EHKA	
+U+104BE	𐒾		OSAGE CAPITAL LETTER KYA	
+U+104BF	𐒿		OSAGE CAPITAL LETTER LA	
+U+104C0	𐓀		OSAGE CAPITAL LETTER MA	
+U+104C1	𐓁		OSAGE CAPITAL LETTER NA	
+U+104C2	𐓂		OSAGE CAPITAL LETTER O	
+U+104C3	𐓃		OSAGE CAPITAL LETTER OIN	
+U+104C4	𐓄		OSAGE CAPITAL LETTER PA	
+U+104C5	𐓅		OSAGE CAPITAL LETTER EHPA	
+U+104C6	𐓆		OSAGE CAPITAL LETTER SA	
+U+104C7	𐓇		OSAGE CAPITAL LETTER SHA	
+U+104C8	𐓈		OSAGE CAPITAL LETTER TA	
+U+104C9	𐓉		OSAGE CAPITAL LETTER EHTA	
+U+104CA	𐓊		OSAGE CAPITAL LETTER TSA	
+U+104CB	𐓋		OSAGE CAPITAL LETTER EHTSA	
+U+104CC	𐓌		OSAGE CAPITAL LETTER TSHA	
+U+104CD	𐓍		OSAGE CAPITAL LETTER DHA	
+U+104CE	𐓎		OSAGE CAPITAL LETTER U	
+U+104CF	𐓏		OSAGE CAPITAL LETTER WA	
+U+104D0	𐓐		OSAGE CAPITAL LETTER KHA	
+U+104D1	𐓑		OSAGE CAPITAL LETTER GHA	
+U+104D2	𐓒		OSAGE CAPITAL LETTER ZA	
+U+104D3	𐓓		OSAGE CAPITAL LETTER ZHA	
+U+104D8	𐓘		OSAGE SMALL LETTER A	
+U+104D9	𐓙		OSAGE SMALL LETTER AI	
+U+104DA	𐓚		OSAGE SMALL LETTER AIN	
+U+104DB	𐓛		OSAGE SMALL LETTER AH	
+U+104DC	𐓜		OSAGE SMALL LETTER BRA	
+U+104DD	𐓝		OSAGE SMALL LETTER CHA	
+U+104DE	𐓞		OSAGE SMALL LETTER EHCHA	
+U+104DF	𐓟		OSAGE SMALL LETTER E	
+U+104E0	𐓠		OSAGE SMALL LETTER EIN	
+U+104E1	𐓡		OSAGE SMALL LETTER HA	
+U+104E2	𐓢		OSAGE SMALL LETTER HYA	
+U+104E3	𐓣		OSAGE SMALL LETTER I	
+U+104E4	𐓤		OSAGE SMALL LETTER KA	
+U+104E5	𐓥		OSAGE SMALL LETTER EHKA	
+U+104E6	𐓦		OSAGE SMALL LETTER KYA	
+U+104E7	𐓧		OSAGE SMALL LETTER LA	
+U+104E8	𐓨		OSAGE SMALL LETTER MA	
+U+104E9	𐓩		OSAGE SMALL LETTER NA	
+U+104EA	𐓪		OSAGE SMALL LETTER O	
+U+104EB	𐓫		OSAGE SMALL LETTER OIN	
+U+104EC	𐓬		OSAGE SMALL LETTER PA	
+U+104ED	𐓭		OSAGE SMALL LETTER EHPA	
+U+104EE	𐓮		OSAGE SMALL LETTER SA	
+U+104EF	𐓯		OSAGE SMALL LETTER SHA	
+U+104F0	𐓰		OSAGE SMALL LETTER TA	
+U+104F1	𐓱		OSAGE SMALL LETTER EHTA	
+U+104F2	𐓲		OSAGE SMALL LETTER TSA	
+U+104F3	𐓳		OSAGE SMALL LETTER EHTSA	
+U+104F4	𐓴		OSAGE SMALL LETTER TSHA	
+U+104F5	𐓵		OSAGE SMALL LETTER DHA	
+U+104F6	𐓶		OSAGE SMALL LETTER U	
+U+104F7	𐓷		OSAGE SMALL LETTER WA	
+U+104F8	𐓸		OSAGE SMALL LETTER KHA	
+U+104F9	𐓹		OSAGE SMALL LETTER GHA	
+U+104FA	𐓺		OSAGE SMALL LETTER ZA	
+U+104FB	𐓻		OSAGE SMALL LETTER ZHA	

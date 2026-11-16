@@ -1,52 +1,52 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11FC0	𑿀	11FC0..11FFF	Tamil Supplement	Tamil fraction one three-hundred-and-twentieth		
-U+11FC1	𑿁	11FC0..11FFF	Tamil Supplement	Tamil fraction one one-hundred-and-sixtieth		
-U+11FC2	𑿂	11FC0..11FFF	Tamil Supplement	Tamil fraction one eightieth		
-U+11FC3	𑿃	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixty-fourth		
-U+11FC4	𑿄	11FC0..11FFF	Tamil Supplement	Tamil fraction one fortieth		
-U+11FC5	𑿅	11FC0..11FFF	Tamil Supplement	Tamil fraction one thirty-second		
-U+11FC6	𑿆	11FC0..11FFF	Tamil Supplement	Tamil fraction three eightieths		
-U+11FC7	𑿇	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixty-fourths		
-U+11FC8	𑿈	11FC0..11FFF	Tamil Supplement	Tamil fraction one twentieth		
-U+11FC9	𑿉	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-1		
-U+11FCA	𑿊	11FC0..11FFF	Tamil Supplement	Tamil fraction one sixteenth-2		
-U+11FCB	𑿋	11FC0..11FFF	Tamil Supplement	Tamil fraction one tenth		
-U+11FCC	𑿌	11FC0..11FFF	Tamil Supplement	Tamil fraction one eighth		
-U+11FCD	𑿍	11FC0..11FFF	Tamil Supplement	Tamil fraction three twentieths		
-U+11FCE	𑿎	11FC0..11FFF	Tamil Supplement	Tamil fraction three sixteenths		
-U+11FCF	𑿏	11FC0..11FFF	Tamil Supplement	Tamil fraction one fifth		
-U+11FD0	𑿐	11FC0..11FFF	Tamil Supplement	Tamil fraction one quarter		
-U+11FD1	𑿑	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-1		
-U+11FD2	𑿒	11FC0..11FFF	Tamil Supplement	Tamil fraction one half-2		
-U+11FD3	𑿓	11FC0..11FFF	Tamil Supplement	Tamil fraction three quarters		
-U+11FD4	𑿔	11FC0..11FFF	Tamil Supplement	Tamil fraction downscaling factor kiizh		
-U+11FD5	𑿕	11FC0..11FFF	Tamil Supplement	Tamil sign nel		
-U+11FD6	𑿖	11FC0..11FFF	Tamil Supplement	Tamil sign cevitu		
-U+11FD7	𑿗	11FC0..11FFF	Tamil Supplement	Tamil sign aazhaakku		
-U+11FD8	𑿘	11FC0..11FFF	Tamil Supplement	Tamil sign uzhakku		
-U+11FD9	𑿙	11FC0..11FFF	Tamil Supplement	Tamil sign muuvuzhakku		
-U+11FDA	𑿚	11FC0..11FFF	Tamil Supplement	Tamil sign kuruni		
-U+11FDB	𑿛	11FC0..11FFF	Tamil Supplement	Tamil sign pathakku		
-U+11FDC	𑿜	11FC0..11FFF	Tamil Supplement	Tamil sign mukkuruni		
-U+11FDD	𑿝	11FC0..11FFF	Tamil Supplement	Tamil sign kaacu		
-U+11FDE	𑿞	11FC0..11FFF	Tamil Supplement	Tamil sign panam		
-U+11FDF	𑿟	11FC0..11FFF	Tamil Supplement	Tamil sign pon		
-U+11FE0	𑿠	11FC0..11FFF	Tamil Supplement	Tamil sign varaakan		
-U+11FE1	𑿡	11FC0..11FFF	Tamil Supplement	Tamil sign paaram		
-U+11FE2	𑿢	11FC0..11FFF	Tamil Supplement	Tamil sign kuzhi		
-U+11FE3	𑿣	11FC0..11FFF	Tamil Supplement	Tamil sign veli		
-U+11FE4	𑿤	11FC0..11FFF	Tamil Supplement	Tamil wet cultivation sign		
-U+11FE5	𑿥	11FC0..11FFF	Tamil Supplement	Tamil dry cultivation sign		
-U+11FE6	𑿦	11FC0..11FFF	Tamil Supplement	Tamil land sign		
-U+11FE7	𑿧	11FC0..11FFF	Tamil Supplement	Tamil salt pan sign		
-U+11FE8	𑿨	11FC0..11FFF	Tamil Supplement	Tamil traditional credit sign		
-U+11FE9	𑿩	11FC0..11FFF	Tamil Supplement	Tamil traditional number sign		
-U+11FEA	𑿪	11FC0..11FFF	Tamil Supplement	Tamil current sign		
-U+11FEB	𑿫	11FC0..11FFF	Tamil Supplement	Tamil and odd sign		
-U+11FEC	𑿬	11FC0..11FFF	Tamil Supplement	Tamil spent sign		
-U+11FED	𑿭	11FC0..11FFF	Tamil Supplement	Tamil total sign		
-U+11FEE	𑿮	11FC0..11FFF	Tamil Supplement	Tamil in possession sign		
-U+11FEF	𑿯	11FC0..11FFF	Tamil Supplement	Tamil starting from sign		
-U+11FF0	𑿰	11FC0..11FFF	Tamil Supplement	Tamil sign muthaliya		
-U+11FF1	𑿱	11FC0..11FFF	Tamil Supplement	Tamil sign vakaiyaraa		
-U+11FFF	𑿿	11FC0..11FFF	Tamil Supplement	Tamil punctuation end of text		
+code_points	chars	tab_completions	unicode_name	base
+U+11FC0	𑿀		TAMIL FRACTION ONE THREE-HUNDRED-AND-TWENTIETH	
+U+11FC1	𑿁		TAMIL FRACTION ONE ONE-HUNDRED-AND-SIXTIETH	
+U+11FC2	𑿂		TAMIL FRACTION ONE EIGHTIETH	
+U+11FC3	𑿃		TAMIL FRACTION ONE SIXTY-FOURTH	
+U+11FC4	𑿄		TAMIL FRACTION ONE FORTIETH	
+U+11FC5	𑿅		TAMIL FRACTION ONE THIRTY-SECOND	
+U+11FC6	𑿆		TAMIL FRACTION THREE EIGHTIETHS	
+U+11FC7	𑿇		TAMIL FRACTION THREE SIXTY-FOURTHS	
+U+11FC8	𑿈		TAMIL FRACTION ONE TWENTIETH	
+U+11FC9	𑿉		TAMIL FRACTION ONE SIXTEENTH-1	
+U+11FCA	𑿊		TAMIL FRACTION ONE SIXTEENTH-2	
+U+11FCB	𑿋		TAMIL FRACTION ONE TENTH	
+U+11FCC	𑿌		TAMIL FRACTION ONE EIGHTH	
+U+11FCD	𑿍		TAMIL FRACTION THREE TWENTIETHS	
+U+11FCE	𑿎		TAMIL FRACTION THREE SIXTEENTHS	
+U+11FCF	𑿏		TAMIL FRACTION ONE FIFTH	
+U+11FD0	𑿐		TAMIL FRACTION ONE QUARTER	
+U+11FD1	𑿑		TAMIL FRACTION ONE HALF-1	
+U+11FD2	𑿒		TAMIL FRACTION ONE HALF-2	
+U+11FD3	𑿓		TAMIL FRACTION THREE QUARTERS	
+U+11FD4	𑿔		TAMIL FRACTION DOWNSCALING FACTOR KIIZH	
+U+11FD5	𑿕		TAMIL SIGN NEL	
+U+11FD6	𑿖		TAMIL SIGN CEVITU	
+U+11FD7	𑿗		TAMIL SIGN AAZHAAKKU	
+U+11FD8	𑿘		TAMIL SIGN UZHAKKU	
+U+11FD9	𑿙		TAMIL SIGN MUUVUZHAKKU	
+U+11FDA	𑿚		TAMIL SIGN KURUNI	
+U+11FDB	𑿛		TAMIL SIGN PATHAKKU	
+U+11FDC	𑿜		TAMIL SIGN MUKKURUNI	
+U+11FDD	𑿝		TAMIL SIGN KAACU	
+U+11FDE	𑿞		TAMIL SIGN PANAM	
+U+11FDF	𑿟		TAMIL SIGN PON	
+U+11FE0	𑿠		TAMIL SIGN VARAAKAN	
+U+11FE1	𑿡		TAMIL SIGN PAARAM	
+U+11FE2	𑿢		TAMIL SIGN KUZHI	
+U+11FE3	𑿣		TAMIL SIGN VELI	
+U+11FE4	𑿤		TAMIL WET CULTIVATION SIGN	
+U+11FE5	𑿥		TAMIL DRY CULTIVATION SIGN	
+U+11FE6	𑿦		TAMIL LAND SIGN	
+U+11FE7	𑿧		TAMIL SALT PAN SIGN	
+U+11FE8	𑿨		TAMIL TRADITIONAL CREDIT SIGN	
+U+11FE9	𑿩		TAMIL TRADITIONAL NUMBER SIGN	
+U+11FEA	𑿪		TAMIL CURRENT SIGN	
+U+11FEB	𑿫		TAMIL AND ODD SIGN	
+U+11FEC	𑿬		TAMIL SPENT SIGN	
+U+11FED	𑿭		TAMIL TOTAL SIGN	
+U+11FEE	𑿮		TAMIL IN POSSESSION SIGN	
+U+11FEF	𑿯		TAMIL STARTING FROM SIGN	
+U+11FF0	𑿰		TAMIL SIGN MUTHALIYA	
+U+11FF1	𑿱		TAMIL SIGN VAKAIYARAA	
+U+11FFF	𑿿		TAMIL PUNCTUATION END OF TEXT	

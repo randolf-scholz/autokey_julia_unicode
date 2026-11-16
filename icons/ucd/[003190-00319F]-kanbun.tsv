@@ -1,17 +1,17 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+3190	㆐	3190..319F	Kanbun	Ideographic annotation linking mark		
-U+3191	㆑	3190..319F	Kanbun	Ideographic annotation reverse mark		
-U+3192	㆒	3190..319F	Kanbun	Ideographic annotation one mark		
-U+3193	㆓	3190..319F	Kanbun	Ideographic annotation two mark		
-U+3194	㆔	3190..319F	Kanbun	Ideographic annotation three mark		
-U+3195	㆕	3190..319F	Kanbun	Ideographic annotation four mark		
-U+3196	㆖	3190..319F	Kanbun	Ideographic annotation top mark		
-U+3197	㆗	3190..319F	Kanbun	Ideographic annotation middle mark		
-U+3198	㆘	3190..319F	Kanbun	Ideographic annotation bottom mark		
-U+3199	㆙	3190..319F	Kanbun	Ideographic annotation first mark		
-U+319A	㆚	3190..319F	Kanbun	Ideographic annotation second mark		
-U+319B	㆛	3190..319F	Kanbun	Ideographic annotation third mark		
-U+319C	㆜	3190..319F	Kanbun	Ideographic annotation fourth mark		
-U+319D	㆝	3190..319F	Kanbun	Ideographic annotation heaven mark		
-U+319E	㆞	3190..319F	Kanbun	Ideographic annotation earth mark		
-U+319F	㆟	3190..319F	Kanbun	Ideographic annotation man mark		
+code_points	chars	tab_completions	unicode_name	base
+U+3190	㆐		IDEOGRAPHIC ANNOTATION LINKING MARK	
+U+3191	㆑		IDEOGRAPHIC ANNOTATION REVERSE MARK	
+U+3192	㆒		IDEOGRAPHIC ANNOTATION ONE MARK	
+U+3193	㆓		IDEOGRAPHIC ANNOTATION TWO MARK	
+U+3194	㆔		IDEOGRAPHIC ANNOTATION THREE MARK	
+U+3195	㆕		IDEOGRAPHIC ANNOTATION FOUR MARK	
+U+3196	㆖		IDEOGRAPHIC ANNOTATION TOP MARK	
+U+3197	㆗		IDEOGRAPHIC ANNOTATION MIDDLE MARK	
+U+3198	㆘		IDEOGRAPHIC ANNOTATION BOTTOM MARK	
+U+3199	㆙		IDEOGRAPHIC ANNOTATION FIRST MARK	
+U+319A	㆚		IDEOGRAPHIC ANNOTATION SECOND MARK	
+U+319B	㆛		IDEOGRAPHIC ANNOTATION THIRD MARK	
+U+319C	㆜		IDEOGRAPHIC ANNOTATION FOURTH MARK	
+U+319D	㆝		IDEOGRAPHIC ANNOTATION HEAVEN MARK	
+U+319E	㆞		IDEOGRAPHIC ANNOTATION EARTH MARK	
+U+319F	㆟		IDEOGRAPHIC ANNOTATION MAN MARK	

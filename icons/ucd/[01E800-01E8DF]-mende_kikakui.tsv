@@ -1,214 +1,214 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E800	𞠀	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m001 ki		
-U+1E801	𞠁	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m002 ka		
-U+1E802	𞠂	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m003 ku		
-U+1E803	𞠃	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m065 kee		
-U+1E804	𞠄	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m095 ke		
-U+1E805	𞠅	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m076 koo		
-U+1E806	𞠆	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m048 ko		
-U+1E807	𞠇	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m179 kua		
-U+1E808	𞠈	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m004 wi		
-U+1E809	𞠉	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m005 wa		
-U+1E80A	𞠊	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m006 wu		
-U+1E80B	𞠋	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m126 wee		
-U+1E80C	𞠌	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m118 we		
-U+1E80D	𞠍	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m114 woo		
-U+1E80E	𞠎	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m045 wo		
-U+1E80F	𞠏	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m194 wui		
-U+1E810	𞠐	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m143 wei		
-U+1E811	𞠑	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m061 wvi		
-U+1E812	𞠒	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m049 wva		
-U+1E813	𞠓	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m139 wve		
-U+1E814	𞠔	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m007 min		
-U+1E815	𞠕	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m008 man		
-U+1E816	𞠖	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m009 mun		
-U+1E817	𞠗	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m059 men		
-U+1E818	𞠘	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m094 mon		
-U+1E819	𞠙	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m154 muan		
-U+1E81A	𞠚	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m189 muen		
-U+1E81B	𞠛	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m010 bi		
-U+1E81C	𞠜	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m011 ba		
-U+1E81D	𞠝	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m012 bu		
-U+1E81E	𞠞	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m150 bee		
-U+1E81F	𞠟	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m097 be		
-U+1E820	𞠠	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m103 boo		
-U+1E821	𞠡	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m138 bo		
-U+1E822	𞠢	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m013 i		
-U+1E823	𞠣	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m014 a		
-U+1E824	𞠤	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m015 u		
-U+1E825	𞠥	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m163 ee		
-U+1E826	𞠦	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m100 e		
-U+1E827	𞠧	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m165 oo		
-U+1E828	𞠨	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m147 o		
-U+1E829	𞠩	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m137 ei		
-U+1E82A	𞠪	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m131 in		
-U+1E82B	𞠫	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m135 in		
-U+1E82C	𞠬	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m195 an		
-U+1E82D	𞠭	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m178 en		
-U+1E82E	𞠮	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m019 si		
-U+1E82F	𞠯	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m020 sa		
-U+1E830	𞠰	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m021 su		
-U+1E831	𞠱	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m162 see		
-U+1E832	𞠲	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m116 se		
-U+1E833	𞠳	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m136 soo		
-U+1E834	𞠴	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m079 so		
-U+1E835	𞠵	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m196 sia		
-U+1E836	𞠶	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m025 li		
-U+1E837	𞠷	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m026 la		
-U+1E838	𞠸	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m027 lu		
-U+1E839	𞠹	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m084 lee		
-U+1E83A	𞠺	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m073 le		
-U+1E83B	𞠻	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m054 loo		
-U+1E83C	𞠼	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m153 lo		
-U+1E83D	𞠽	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m110 long le		
-U+1E83E	𞠾	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m016 di		
-U+1E83F	𞠿	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m017 da		
-U+1E840	𞡀	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m018 du		
-U+1E841	𞡁	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m089 dee		
-U+1E842	𞡂	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m180 doo		
-U+1E843	𞡃	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m181 do		
-U+1E844	𞡄	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m022 ti		
-U+1E845	𞡅	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m023 ta		
-U+1E846	𞡆	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m024 tu		
-U+1E847	𞡇	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m091 tee		
-U+1E848	𞡈	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m055 te		
-U+1E849	𞡉	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m104 too		
-U+1E84A	𞡊	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m069 to		
-U+1E84B	𞡋	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m028 ji		
-U+1E84C	𞡌	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m029 ja		
-U+1E84D	𞡍	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m030 ju		
-U+1E84E	𞡎	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m157 jee		
-U+1E84F	𞡏	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m113 je		
-U+1E850	𞡐	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m160 joo		
-U+1E851	𞡑	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m063 jo		
-U+1E852	𞡒	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m175 long jo		
-U+1E853	𞡓	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m031 yi		
-U+1E854	𞡔	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m032 ya		
-U+1E855	𞡕	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m033 yu		
-U+1E856	𞡖	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m109 yee		
-U+1E857	𞡗	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m080 ye		
-U+1E858	𞡘	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m141 yoo		
-U+1E859	𞡙	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m121 yo		
-U+1E85A	𞡚	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m034 fi		
-U+1E85B	𞡛	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m035 fa		
-U+1E85C	𞡜	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m036 fu		
-U+1E85D	𞡝	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m078 fee		
-U+1E85E	𞡞	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m075 fe		
-U+1E85F	𞡟	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m133 foo		
-U+1E860	𞡠	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m088 fo		
-U+1E861	𞡡	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m197 fua		
-U+1E862	𞡢	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m101 fan		
-U+1E863	𞡣	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m037 nin		
-U+1E864	𞡤	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m038 nan		
-U+1E865	𞡥	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m039 nun		
-U+1E866	𞡦	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m117 nen		
-U+1E867	𞡧	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m169 non		
-U+1E868	𞡨	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m176 hi		
-U+1E869	𞡩	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m041 ha		
-U+1E86A	𞡪	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m186 hu		
-U+1E86B	𞡫	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m040 hee		
-U+1E86C	𞡬	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m096 he		
-U+1E86D	𞡭	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m042 hoo		
-U+1E86E	𞡮	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m140 ho		
-U+1E86F	𞡯	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m083 heei		
-U+1E870	𞡰	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m128 hoou		
-U+1E871	𞡱	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m053 hin		
-U+1E872	𞡲	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m130 han		
-U+1E873	𞡳	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m087 hun		
-U+1E874	𞡴	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m052 hen		
-U+1E875	𞡵	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m193 hon		
-U+1E876	𞡶	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m046 huan		
-U+1E877	𞡷	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m090 nggi		
-U+1E878	𞡸	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m043 ngga		
-U+1E879	𞡹	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m082 nggu		
-U+1E87A	𞡺	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m115 nggee		
-U+1E87B	𞡻	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m146 ngge		
-U+1E87C	𞡼	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m156 nggoo		
-U+1E87D	𞡽	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m120 nggo		
-U+1E87E	𞡾	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m159 nggaa		
-U+1E87F	𞡿	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m127 nggua		
-U+1E880	𞢀	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m086 long ngge		
-U+1E881	𞢁	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m106 long nggoo		
-U+1E882	𞢂	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m183 long nggo		
-U+1E883	𞢃	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m155 gi		
-U+1E884	𞢄	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m111 ga		
-U+1E885	𞢅	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m168 gu		
-U+1E886	𞢆	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m190 gee		
-U+1E887	𞢇	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m166 guei		
-U+1E888	𞢈	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m167 guan		
-U+1E889	𞢉	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m184 ngen		
-U+1E88A	𞢊	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m057 ngon		
-U+1E88B	𞢋	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m177 nguan		
-U+1E88C	𞢌	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m068 pi		
-U+1E88D	𞢍	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m099 pa		
-U+1E88E	𞢎	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m050 pu		
-U+1E88F	𞢏	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m081 pee		
-U+1E890	𞢐	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m051 pe		
-U+1E891	𞢑	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m102 poo		
-U+1E892	𞢒	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m066 po		
-U+1E893	𞢓	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m145 mbi		
-U+1E894	𞢔	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m062 mba		
-U+1E895	𞢕	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m122 mbu		
-U+1E896	𞢖	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m047 mbee		
-U+1E897	𞢗	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m188 mbee		
-U+1E898	𞢘	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m072 mbe		
-U+1E899	𞢙	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m172 mboo		
-U+1E89A	𞢚	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m174 mbo		
-U+1E89B	𞢛	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m187 mbuu		
-U+1E89C	𞢜	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m161 long mbe		
-U+1E89D	𞢝	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m105 long mboo		
-U+1E89E	𞢞	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m142 long mbo		
-U+1E89F	𞢟	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m132 kpi		
-U+1E8A0	𞢠	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m092 kpa		
-U+1E8A1	𞢡	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m074 kpu		
-U+1E8A2	𞢢	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m044 kpee		
-U+1E8A3	𞢣	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m108 kpe		
-U+1E8A4	𞢤	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m112 kpoo		
-U+1E8A5	𞢥	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m158 kpo		
-U+1E8A6	𞢦	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m124 gbi		
-U+1E8A7	𞢧	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m056 gba		
-U+1E8A8	𞢨	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m148 gbu		
-U+1E8A9	𞢩	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m093 gbee		
-U+1E8AA	𞢪	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m107 gbe		
-U+1E8AB	𞢫	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m071 gboo		
-U+1E8AC	𞢬	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m070 gbo		
-U+1E8AD	𞢭	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m171 ra		
-U+1E8AE	𞢮	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m123 ndi		
-U+1E8AF	𞢯	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m129 nda		
-U+1E8B0	𞢰	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m125 ndu		
-U+1E8B1	𞢱	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m191 ndee		
-U+1E8B2	𞢲	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m119 nde		
-U+1E8B3	𞢳	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m067 ndoo		
-U+1E8B4	𞢴	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m064 ndo		
-U+1E8B5	𞢵	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m152 nja		
-U+1E8B6	𞢶	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m192 nju		
-U+1E8B7	𞢷	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m149 njee		
-U+1E8B8	𞢸	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m134 njoo		
-U+1E8B9	𞢹	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m182 vi		
-U+1E8BA	𞢺	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m185 va		
-U+1E8BB	𞢻	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m151 vu		
-U+1E8BC	𞢼	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m173 vee		
-U+1E8BD	𞢽	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m085 ve		
-U+1E8BE	𞢾	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m144 voo		
-U+1E8BF	𞢿	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m077 vo		
-U+1E8C0	𞣀	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m164 nyin		
-U+1E8C1	𞣁	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m058 nyan		
-U+1E8C2	𞣂	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m170 nyun		
-U+1E8C3	𞣃	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m098 nyen		
-U+1E8C4	𞣄	1E800..1E8DF	Mende Kikakui	Mende kikakui syllable m060 nyon		
-U+1E8C7	𞣇	1E800..1E8DF	Mende Kikakui	Mende kikakui digit one		
-U+1E8C8	𞣈	1E800..1E8DF	Mende Kikakui	Mende kikakui digit two		
-U+1E8C9	𞣉	1E800..1E8DF	Mende Kikakui	Mende kikakui digit three		
-U+1E8CA	𞣊	1E800..1E8DF	Mende Kikakui	Mende kikakui digit four		
-U+1E8CB	𞣋	1E800..1E8DF	Mende Kikakui	Mende kikakui digit five		
-U+1E8CC	𞣌	1E800..1E8DF	Mende Kikakui	Mende kikakui digit six		
-U+1E8CD	𞣍	1E800..1E8DF	Mende Kikakui	Mende kikakui digit seven		
-U+1E8CE	𞣎	1E800..1E8DF	Mende Kikakui	Mende kikakui digit eight		
-U+1E8CF	𞣏	1E800..1E8DF	Mende Kikakui	Mende kikakui digit nine		
-U+1E8D0	𞣐	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number teens		
-U+1E8D1	𞣑	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number tens		
-U+1E8D2	𞣒	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number hundreds		
-U+1E8D3	𞣓	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number thousands		
-U+1E8D4	𞣔	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number ten thousands		
-U+1E8D5	𞣕	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number hundred thousands		
-U+1E8D6	𞣖	1E800..1E8DF	Mende Kikakui	Mende kikakui combining number millions		
+code_points	chars	tab_completions	unicode_name	base
+U+1E800	𞠀		MENDE KIKAKUI SYLLABLE M001 KI	
+U+1E801	𞠁		MENDE KIKAKUI SYLLABLE M002 KA	
+U+1E802	𞠂		MENDE KIKAKUI SYLLABLE M003 KU	
+U+1E803	𞠃		MENDE KIKAKUI SYLLABLE M065 KEE	
+U+1E804	𞠄		MENDE KIKAKUI SYLLABLE M095 KE	
+U+1E805	𞠅		MENDE KIKAKUI SYLLABLE M076 KOO	
+U+1E806	𞠆		MENDE KIKAKUI SYLLABLE M048 KO	
+U+1E807	𞠇		MENDE KIKAKUI SYLLABLE M179 KUA	
+U+1E808	𞠈		MENDE KIKAKUI SYLLABLE M004 WI	
+U+1E809	𞠉		MENDE KIKAKUI SYLLABLE M005 WA	
+U+1E80A	𞠊		MENDE KIKAKUI SYLLABLE M006 WU	
+U+1E80B	𞠋		MENDE KIKAKUI SYLLABLE M126 WEE	
+U+1E80C	𞠌		MENDE KIKAKUI SYLLABLE M118 WE	
+U+1E80D	𞠍		MENDE KIKAKUI SYLLABLE M114 WOO	
+U+1E80E	𞠎		MENDE KIKAKUI SYLLABLE M045 WO	
+U+1E80F	𞠏		MENDE KIKAKUI SYLLABLE M194 WUI	
+U+1E810	𞠐		MENDE KIKAKUI SYLLABLE M143 WEI	
+U+1E811	𞠑		MENDE KIKAKUI SYLLABLE M061 WVI	
+U+1E812	𞠒		MENDE KIKAKUI SYLLABLE M049 WVA	
+U+1E813	𞠓		MENDE KIKAKUI SYLLABLE M139 WVE	
+U+1E814	𞠔		MENDE KIKAKUI SYLLABLE M007 MIN	
+U+1E815	𞠕		MENDE KIKAKUI SYLLABLE M008 MAN	
+U+1E816	𞠖		MENDE KIKAKUI SYLLABLE M009 MUN	
+U+1E817	𞠗		MENDE KIKAKUI SYLLABLE M059 MEN	
+U+1E818	𞠘		MENDE KIKAKUI SYLLABLE M094 MON	
+U+1E819	𞠙		MENDE KIKAKUI SYLLABLE M154 MUAN	
+U+1E81A	𞠚		MENDE KIKAKUI SYLLABLE M189 MUEN	
+U+1E81B	𞠛		MENDE KIKAKUI SYLLABLE M010 BI	
+U+1E81C	𞠜		MENDE KIKAKUI SYLLABLE M011 BA	
+U+1E81D	𞠝		MENDE KIKAKUI SYLLABLE M012 BU	
+U+1E81E	𞠞		MENDE KIKAKUI SYLLABLE M150 BEE	
+U+1E81F	𞠟		MENDE KIKAKUI SYLLABLE M097 BE	
+U+1E820	𞠠		MENDE KIKAKUI SYLLABLE M103 BOO	
+U+1E821	𞠡		MENDE KIKAKUI SYLLABLE M138 BO	
+U+1E822	𞠢		MENDE KIKAKUI SYLLABLE M013 I	
+U+1E823	𞠣		MENDE KIKAKUI SYLLABLE M014 A	
+U+1E824	𞠤		MENDE KIKAKUI SYLLABLE M015 U	
+U+1E825	𞠥		MENDE KIKAKUI SYLLABLE M163 EE	
+U+1E826	𞠦		MENDE KIKAKUI SYLLABLE M100 E	
+U+1E827	𞠧		MENDE KIKAKUI SYLLABLE M165 OO	
+U+1E828	𞠨		MENDE KIKAKUI SYLLABLE M147 O	
+U+1E829	𞠩		MENDE KIKAKUI SYLLABLE M137 EI	
+U+1E82A	𞠪		MENDE KIKAKUI SYLLABLE M131 IN	
+U+1E82B	𞠫		MENDE KIKAKUI SYLLABLE M135 IN	
+U+1E82C	𞠬		MENDE KIKAKUI SYLLABLE M195 AN	
+U+1E82D	𞠭		MENDE KIKAKUI SYLLABLE M178 EN	
+U+1E82E	𞠮		MENDE KIKAKUI SYLLABLE M019 SI	
+U+1E82F	𞠯		MENDE KIKAKUI SYLLABLE M020 SA	
+U+1E830	𞠰		MENDE KIKAKUI SYLLABLE M021 SU	
+U+1E831	𞠱		MENDE KIKAKUI SYLLABLE M162 SEE	
+U+1E832	𞠲		MENDE KIKAKUI SYLLABLE M116 SE	
+U+1E833	𞠳		MENDE KIKAKUI SYLLABLE M136 SOO	
+U+1E834	𞠴		MENDE KIKAKUI SYLLABLE M079 SO	
+U+1E835	𞠵		MENDE KIKAKUI SYLLABLE M196 SIA	
+U+1E836	𞠶		MENDE KIKAKUI SYLLABLE M025 LI	
+U+1E837	𞠷		MENDE KIKAKUI SYLLABLE M026 LA	
+U+1E838	𞠸		MENDE KIKAKUI SYLLABLE M027 LU	
+U+1E839	𞠹		MENDE KIKAKUI SYLLABLE M084 LEE	
+U+1E83A	𞠺		MENDE KIKAKUI SYLLABLE M073 LE	
+U+1E83B	𞠻		MENDE KIKAKUI SYLLABLE M054 LOO	
+U+1E83C	𞠼		MENDE KIKAKUI SYLLABLE M153 LO	
+U+1E83D	𞠽		MENDE KIKAKUI SYLLABLE M110 LONG LE	
+U+1E83E	𞠾		MENDE KIKAKUI SYLLABLE M016 DI	
+U+1E83F	𞠿		MENDE KIKAKUI SYLLABLE M017 DA	
+U+1E840	𞡀		MENDE KIKAKUI SYLLABLE M018 DU	
+U+1E841	𞡁		MENDE KIKAKUI SYLLABLE M089 DEE	
+U+1E842	𞡂		MENDE KIKAKUI SYLLABLE M180 DOO	
+U+1E843	𞡃		MENDE KIKAKUI SYLLABLE M181 DO	
+U+1E844	𞡄		MENDE KIKAKUI SYLLABLE M022 TI	
+U+1E845	𞡅		MENDE KIKAKUI SYLLABLE M023 TA	
+U+1E846	𞡆		MENDE KIKAKUI SYLLABLE M024 TU	
+U+1E847	𞡇		MENDE KIKAKUI SYLLABLE M091 TEE	
+U+1E848	𞡈		MENDE KIKAKUI SYLLABLE M055 TE	
+U+1E849	𞡉		MENDE KIKAKUI SYLLABLE M104 TOO	
+U+1E84A	𞡊		MENDE KIKAKUI SYLLABLE M069 TO	
+U+1E84B	𞡋		MENDE KIKAKUI SYLLABLE M028 JI	
+U+1E84C	𞡌		MENDE KIKAKUI SYLLABLE M029 JA	
+U+1E84D	𞡍		MENDE KIKAKUI SYLLABLE M030 JU	
+U+1E84E	𞡎		MENDE KIKAKUI SYLLABLE M157 JEE	
+U+1E84F	𞡏		MENDE KIKAKUI SYLLABLE M113 JE	
+U+1E850	𞡐		MENDE KIKAKUI SYLLABLE M160 JOO	
+U+1E851	𞡑		MENDE KIKAKUI SYLLABLE M063 JO	
+U+1E852	𞡒		MENDE KIKAKUI SYLLABLE M175 LONG JO	
+U+1E853	𞡓		MENDE KIKAKUI SYLLABLE M031 YI	
+U+1E854	𞡔		MENDE KIKAKUI SYLLABLE M032 YA	
+U+1E855	𞡕		MENDE KIKAKUI SYLLABLE M033 YU	
+U+1E856	𞡖		MENDE KIKAKUI SYLLABLE M109 YEE	
+U+1E857	𞡗		MENDE KIKAKUI SYLLABLE M080 YE	
+U+1E858	𞡘		MENDE KIKAKUI SYLLABLE M141 YOO	
+U+1E859	𞡙		MENDE KIKAKUI SYLLABLE M121 YO	
+U+1E85A	𞡚		MENDE KIKAKUI SYLLABLE M034 FI	
+U+1E85B	𞡛		MENDE KIKAKUI SYLLABLE M035 FA	
+U+1E85C	𞡜		MENDE KIKAKUI SYLLABLE M036 FU	
+U+1E85D	𞡝		MENDE KIKAKUI SYLLABLE M078 FEE	
+U+1E85E	𞡞		MENDE KIKAKUI SYLLABLE M075 FE	
+U+1E85F	𞡟		MENDE KIKAKUI SYLLABLE M133 FOO	
+U+1E860	𞡠		MENDE KIKAKUI SYLLABLE M088 FO	
+U+1E861	𞡡		MENDE KIKAKUI SYLLABLE M197 FUA	
+U+1E862	𞡢		MENDE KIKAKUI SYLLABLE M101 FAN	
+U+1E863	𞡣		MENDE KIKAKUI SYLLABLE M037 NIN	
+U+1E864	𞡤		MENDE KIKAKUI SYLLABLE M038 NAN	
+U+1E865	𞡥		MENDE KIKAKUI SYLLABLE M039 NUN	
+U+1E866	𞡦		MENDE KIKAKUI SYLLABLE M117 NEN	
+U+1E867	𞡧		MENDE KIKAKUI SYLLABLE M169 NON	
+U+1E868	𞡨		MENDE KIKAKUI SYLLABLE M176 HI	
+U+1E869	𞡩		MENDE KIKAKUI SYLLABLE M041 HA	
+U+1E86A	𞡪		MENDE KIKAKUI SYLLABLE M186 HU	
+U+1E86B	𞡫		MENDE KIKAKUI SYLLABLE M040 HEE	
+U+1E86C	𞡬		MENDE KIKAKUI SYLLABLE M096 HE	
+U+1E86D	𞡭		MENDE KIKAKUI SYLLABLE M042 HOO	
+U+1E86E	𞡮		MENDE KIKAKUI SYLLABLE M140 HO	
+U+1E86F	𞡯		MENDE KIKAKUI SYLLABLE M083 HEEI	
+U+1E870	𞡰		MENDE KIKAKUI SYLLABLE M128 HOOU	
+U+1E871	𞡱		MENDE KIKAKUI SYLLABLE M053 HIN	
+U+1E872	𞡲		MENDE KIKAKUI SYLLABLE M130 HAN	
+U+1E873	𞡳		MENDE KIKAKUI SYLLABLE M087 HUN	
+U+1E874	𞡴		MENDE KIKAKUI SYLLABLE M052 HEN	
+U+1E875	𞡵		MENDE KIKAKUI SYLLABLE M193 HON	
+U+1E876	𞡶		MENDE KIKAKUI SYLLABLE M046 HUAN	
+U+1E877	𞡷		MENDE KIKAKUI SYLLABLE M090 NGGI	
+U+1E878	𞡸		MENDE KIKAKUI SYLLABLE M043 NGGA	
+U+1E879	𞡹		MENDE KIKAKUI SYLLABLE M082 NGGU	
+U+1E87A	𞡺		MENDE KIKAKUI SYLLABLE M115 NGGEE	
+U+1E87B	𞡻		MENDE KIKAKUI SYLLABLE M146 NGGE	
+U+1E87C	𞡼		MENDE KIKAKUI SYLLABLE M156 NGGOO	
+U+1E87D	𞡽		MENDE KIKAKUI SYLLABLE M120 NGGO	
+U+1E87E	𞡾		MENDE KIKAKUI SYLLABLE M159 NGGAA	
+U+1E87F	𞡿		MENDE KIKAKUI SYLLABLE M127 NGGUA	
+U+1E880	𞢀		MENDE KIKAKUI SYLLABLE M086 LONG NGGE	
+U+1E881	𞢁		MENDE KIKAKUI SYLLABLE M106 LONG NGGOO	
+U+1E882	𞢂		MENDE KIKAKUI SYLLABLE M183 LONG NGGO	
+U+1E883	𞢃		MENDE KIKAKUI SYLLABLE M155 GI	
+U+1E884	𞢄		MENDE KIKAKUI SYLLABLE M111 GA	
+U+1E885	𞢅		MENDE KIKAKUI SYLLABLE M168 GU	
+U+1E886	𞢆		MENDE KIKAKUI SYLLABLE M190 GEE	
+U+1E887	𞢇		MENDE KIKAKUI SYLLABLE M166 GUEI	
+U+1E888	𞢈		MENDE KIKAKUI SYLLABLE M167 GUAN	
+U+1E889	𞢉		MENDE KIKAKUI SYLLABLE M184 NGEN	
+U+1E88A	𞢊		MENDE KIKAKUI SYLLABLE M057 NGON	
+U+1E88B	𞢋		MENDE KIKAKUI SYLLABLE M177 NGUAN	
+U+1E88C	𞢌		MENDE KIKAKUI SYLLABLE M068 PI	
+U+1E88D	𞢍		MENDE KIKAKUI SYLLABLE M099 PA	
+U+1E88E	𞢎		MENDE KIKAKUI SYLLABLE M050 PU	
+U+1E88F	𞢏		MENDE KIKAKUI SYLLABLE M081 PEE	
+U+1E890	𞢐		MENDE KIKAKUI SYLLABLE M051 PE	
+U+1E891	𞢑		MENDE KIKAKUI SYLLABLE M102 POO	
+U+1E892	𞢒		MENDE KIKAKUI SYLLABLE M066 PO	
+U+1E893	𞢓		MENDE KIKAKUI SYLLABLE M145 MBI	
+U+1E894	𞢔		MENDE KIKAKUI SYLLABLE M062 MBA	
+U+1E895	𞢕		MENDE KIKAKUI SYLLABLE M122 MBU	
+U+1E896	𞢖		MENDE KIKAKUI SYLLABLE M047 MBEE	
+U+1E897	𞢗		MENDE KIKAKUI SYLLABLE M188 MBEE	
+U+1E898	𞢘		MENDE KIKAKUI SYLLABLE M072 MBE	
+U+1E899	𞢙		MENDE KIKAKUI SYLLABLE M172 MBOO	
+U+1E89A	𞢚		MENDE KIKAKUI SYLLABLE M174 MBO	
+U+1E89B	𞢛		MENDE KIKAKUI SYLLABLE M187 MBUU	
+U+1E89C	𞢜		MENDE KIKAKUI SYLLABLE M161 LONG MBE	
+U+1E89D	𞢝		MENDE KIKAKUI SYLLABLE M105 LONG MBOO	
+U+1E89E	𞢞		MENDE KIKAKUI SYLLABLE M142 LONG MBO	
+U+1E89F	𞢟		MENDE KIKAKUI SYLLABLE M132 KPI	
+U+1E8A0	𞢠		MENDE KIKAKUI SYLLABLE M092 KPA	
+U+1E8A1	𞢡		MENDE KIKAKUI SYLLABLE M074 KPU	
+U+1E8A2	𞢢		MENDE KIKAKUI SYLLABLE M044 KPEE	
+U+1E8A3	𞢣		MENDE KIKAKUI SYLLABLE M108 KPE	
+U+1E8A4	𞢤		MENDE KIKAKUI SYLLABLE M112 KPOO	
+U+1E8A5	𞢥		MENDE KIKAKUI SYLLABLE M158 KPO	
+U+1E8A6	𞢦		MENDE KIKAKUI SYLLABLE M124 GBI	
+U+1E8A7	𞢧		MENDE KIKAKUI SYLLABLE M056 GBA	
+U+1E8A8	𞢨		MENDE KIKAKUI SYLLABLE M148 GBU	
+U+1E8A9	𞢩		MENDE KIKAKUI SYLLABLE M093 GBEE	
+U+1E8AA	𞢪		MENDE KIKAKUI SYLLABLE M107 GBE	
+U+1E8AB	𞢫		MENDE KIKAKUI SYLLABLE M071 GBOO	
+U+1E8AC	𞢬		MENDE KIKAKUI SYLLABLE M070 GBO	
+U+1E8AD	𞢭		MENDE KIKAKUI SYLLABLE M171 RA	
+U+1E8AE	𞢮		MENDE KIKAKUI SYLLABLE M123 NDI	
+U+1E8AF	𞢯		MENDE KIKAKUI SYLLABLE M129 NDA	
+U+1E8B0	𞢰		MENDE KIKAKUI SYLLABLE M125 NDU	
+U+1E8B1	𞢱		MENDE KIKAKUI SYLLABLE M191 NDEE	
+U+1E8B2	𞢲		MENDE KIKAKUI SYLLABLE M119 NDE	
+U+1E8B3	𞢳		MENDE KIKAKUI SYLLABLE M067 NDOO	
+U+1E8B4	𞢴		MENDE KIKAKUI SYLLABLE M064 NDO	
+U+1E8B5	𞢵		MENDE KIKAKUI SYLLABLE M152 NJA	
+U+1E8B6	𞢶		MENDE KIKAKUI SYLLABLE M192 NJU	
+U+1E8B7	𞢷		MENDE KIKAKUI SYLLABLE M149 NJEE	
+U+1E8B8	𞢸		MENDE KIKAKUI SYLLABLE M134 NJOO	
+U+1E8B9	𞢹		MENDE KIKAKUI SYLLABLE M182 VI	
+U+1E8BA	𞢺		MENDE KIKAKUI SYLLABLE M185 VA	
+U+1E8BB	𞢻		MENDE KIKAKUI SYLLABLE M151 VU	
+U+1E8BC	𞢼		MENDE KIKAKUI SYLLABLE M173 VEE	
+U+1E8BD	𞢽		MENDE KIKAKUI SYLLABLE M085 VE	
+U+1E8BE	𞢾		MENDE KIKAKUI SYLLABLE M144 VOO	
+U+1E8BF	𞢿		MENDE KIKAKUI SYLLABLE M077 VO	
+U+1E8C0	𞣀		MENDE KIKAKUI SYLLABLE M164 NYIN	
+U+1E8C1	𞣁		MENDE KIKAKUI SYLLABLE M058 NYAN	
+U+1E8C2	𞣂		MENDE KIKAKUI SYLLABLE M170 NYUN	
+U+1E8C3	𞣃		MENDE KIKAKUI SYLLABLE M098 NYEN	
+U+1E8C4	𞣄		MENDE KIKAKUI SYLLABLE M060 NYON	
+U+1E8C7	𞣇		MENDE KIKAKUI DIGIT ONE	
+U+1E8C8	𞣈		MENDE KIKAKUI DIGIT TWO	
+U+1E8C9	𞣉		MENDE KIKAKUI DIGIT THREE	
+U+1E8CA	𞣊		MENDE KIKAKUI DIGIT FOUR	
+U+1E8CB	𞣋		MENDE KIKAKUI DIGIT FIVE	
+U+1E8CC	𞣌		MENDE KIKAKUI DIGIT SIX	
+U+1E8CD	𞣍		MENDE KIKAKUI DIGIT SEVEN	
+U+1E8CE	𞣎		MENDE KIKAKUI DIGIT EIGHT	
+U+1E8CF	𞣏		MENDE KIKAKUI DIGIT NINE	
+U+1E8D0	𞣐		MENDE KIKAKUI COMBINING NUMBER TEENS	
+U+1E8D1	𞣑		MENDE KIKAKUI COMBINING NUMBER TENS	
+U+1E8D2	𞣒		MENDE KIKAKUI COMBINING NUMBER HUNDREDS	
+U+1E8D3	𞣓		MENDE KIKAKUI COMBINING NUMBER THOUSANDS	
+U+1E8D4	𞣔		MENDE KIKAKUI COMBINING NUMBER TEN THOUSANDS	
+U+1E8D5	𞣕		MENDE KIKAKUI COMBINING NUMBER HUNDRED THOUSANDS	
+U+1E8D6	𞣖		MENDE KIKAKUI COMBINING NUMBER MILLIONS	

@@ -1,28 +1,28 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10920	𐤠	10920..1093F	Lydian	Lydian letter a		
-U+10921	𐤡	10920..1093F	Lydian	Lydian letter b		
-U+10922	𐤢	10920..1093F	Lydian	Lydian letter g		
-U+10923	𐤣	10920..1093F	Lydian	Lydian letter d		
-U+10924	𐤤	10920..1093F	Lydian	Lydian letter e		
-U+10925	𐤥	10920..1093F	Lydian	Lydian letter v		
-U+10926	𐤦	10920..1093F	Lydian	Lydian letter i		
-U+10927	𐤧	10920..1093F	Lydian	Lydian letter y		
-U+10928	𐤨	10920..1093F	Lydian	Lydian letter k		
-U+10929	𐤩	10920..1093F	Lydian	Lydian letter l		
-U+1092A	𐤪	10920..1093F	Lydian	Lydian letter m		
-U+1092B	𐤫	10920..1093F	Lydian	Lydian letter n		
-U+1092C	𐤬	10920..1093F	Lydian	Lydian letter o		
-U+1092D	𐤭	10920..1093F	Lydian	Lydian letter r		
-U+1092E	𐤮	10920..1093F	Lydian	Lydian letter ss		
-U+1092F	𐤯	10920..1093F	Lydian	Lydian letter t		
-U+10930	𐤰	10920..1093F	Lydian	Lydian letter u		
-U+10931	𐤱	10920..1093F	Lydian	Lydian letter f		
-U+10932	𐤲	10920..1093F	Lydian	Lydian letter q		
-U+10933	𐤳	10920..1093F	Lydian	Lydian letter s		
-U+10934	𐤴	10920..1093F	Lydian	Lydian letter tt		
-U+10935	𐤵	10920..1093F	Lydian	Lydian letter an		
-U+10936	𐤶	10920..1093F	Lydian	Lydian letter en		
-U+10937	𐤷	10920..1093F	Lydian	Lydian letter ly		
-U+10938	𐤸	10920..1093F	Lydian	Lydian letter nn		
-U+10939	𐤹	10920..1093F	Lydian	Lydian letter c		
-U+1093F	𐤿	10920..1093F	Lydian	Lydian triangular mark		
+code_points	chars	tab_completions	unicode_name	base
+U+10920	𐤠		LYDIAN LETTER A	
+U+10921	𐤡		LYDIAN LETTER B	
+U+10922	𐤢		LYDIAN LETTER G	
+U+10923	𐤣		LYDIAN LETTER D	
+U+10924	𐤤		LYDIAN LETTER E	
+U+10925	𐤥		LYDIAN LETTER V	
+U+10926	𐤦		LYDIAN LETTER I	
+U+10927	𐤧		LYDIAN LETTER Y	
+U+10928	𐤨		LYDIAN LETTER K	
+U+10929	𐤩		LYDIAN LETTER L	
+U+1092A	𐤪		LYDIAN LETTER M	
+U+1092B	𐤫		LYDIAN LETTER N	
+U+1092C	𐤬		LYDIAN LETTER O	
+U+1092D	𐤭		LYDIAN LETTER R	
+U+1092E	𐤮		LYDIAN LETTER SS	
+U+1092F	𐤯		LYDIAN LETTER T	
+U+10930	𐤰		LYDIAN LETTER U	
+U+10931	𐤱		LYDIAN LETTER F	
+U+10932	𐤲		LYDIAN LETTER Q	
+U+10933	𐤳		LYDIAN LETTER S	
+U+10934	𐤴		LYDIAN LETTER TT	
+U+10935	𐤵		LYDIAN LETTER AN	
+U+10936	𐤶		LYDIAN LETTER EN	
+U+10937	𐤷		LYDIAN LETTER LY	
+U+10938	𐤸		LYDIAN LETTER NN	
+U+10939	𐤹		LYDIAN LETTER C	
+U+1093F	𐤿		LYDIAN TRIANGULAR MARK	

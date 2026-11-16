@@ -1,257 +1,257 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1100	ᄀ	1100..11FF	Hangul Jamo	Hangul choseong kiyeok		
-U+1101	ᄁ	1100..11FF	Hangul Jamo	Hangul choseong ssangkiyeok		
-U+1102	ᄂ	1100..11FF	Hangul Jamo	Hangul choseong nieun		
-U+1103	ᄃ	1100..11FF	Hangul Jamo	Hangul choseong tikeut		
-U+1104	ᄄ	1100..11FF	Hangul Jamo	Hangul choseong ssangtikeut		
-U+1105	ᄅ	1100..11FF	Hangul Jamo	Hangul choseong rieul		
-U+1106	ᄆ	1100..11FF	Hangul Jamo	Hangul choseong mieum		
-U+1107	ᄇ	1100..11FF	Hangul Jamo	Hangul choseong pieup		
-U+1108	ᄈ	1100..11FF	Hangul Jamo	Hangul choseong ssangpieup		
-U+1109	ᄉ	1100..11FF	Hangul Jamo	Hangul choseong sios		
-U+110A	ᄊ	1100..11FF	Hangul Jamo	Hangul choseong ssangsios		
-U+110B	ᄋ	1100..11FF	Hangul Jamo	Hangul choseong ieung		
-U+110C	ᄌ	1100..11FF	Hangul Jamo	Hangul choseong cieuc		
-U+110D	ᄍ	1100..11FF	Hangul Jamo	Hangul choseong ssangcieuc		
-U+110E	ᄎ	1100..11FF	Hangul Jamo	Hangul choseong chieuch		
-U+110F	ᄏ	1100..11FF	Hangul Jamo	Hangul choseong khieukh		
-U+1110	ᄐ	1100..11FF	Hangul Jamo	Hangul choseong thieuth		
-U+1111	ᄑ	1100..11FF	Hangul Jamo	Hangul choseong phieuph		
-U+1112	ᄒ	1100..11FF	Hangul Jamo	Hangul choseong hieuh		
-U+1113	ᄓ	1100..11FF	Hangul Jamo	Hangul choseong nieun-kiyeok		
-U+1114	ᄔ	1100..11FF	Hangul Jamo	Hangul choseong ssangnieun		
-U+1115	ᄕ	1100..11FF	Hangul Jamo	Hangul choseong nieun-tikeut		
-U+1116	ᄖ	1100..11FF	Hangul Jamo	Hangul choseong nieun-pieup		
-U+1117	ᄗ	1100..11FF	Hangul Jamo	Hangul choseong tikeut-kiyeok		
-U+1118	ᄘ	1100..11FF	Hangul Jamo	Hangul choseong rieul-nieun		
-U+1119	ᄙ	1100..11FF	Hangul Jamo	Hangul choseong ssangrieul		
-U+111A	ᄚ	1100..11FF	Hangul Jamo	Hangul choseong rieul-hieuh		
-U+111B	ᄛ	1100..11FF	Hangul Jamo	Hangul choseong kapyeounrieul		
-U+111C	ᄜ	1100..11FF	Hangul Jamo	Hangul choseong mieum-pieup		
-U+111D	ᄝ	1100..11FF	Hangul Jamo	Hangul choseong kapyeounmieum		
-U+111E	ᄞ	1100..11FF	Hangul Jamo	Hangul choseong pieup-kiyeok		
-U+111F	ᄟ	1100..11FF	Hangul Jamo	Hangul choseong pieup-nieun		
-U+1120	ᄠ	1100..11FF	Hangul Jamo	Hangul choseong pieup-tikeut		
-U+1121	ᄡ	1100..11FF	Hangul Jamo	Hangul choseong pieup-sios		
-U+1122	ᄢ	1100..11FF	Hangul Jamo	Hangul choseong pieup-sios-kiyeok		
-U+1123	ᄣ	1100..11FF	Hangul Jamo	Hangul choseong pieup-sios-tikeut		
-U+1124	ᄤ	1100..11FF	Hangul Jamo	Hangul choseong pieup-sios-pieup		
-U+1125	ᄥ	1100..11FF	Hangul Jamo	Hangul choseong pieup-ssangsios		
-U+1126	ᄦ	1100..11FF	Hangul Jamo	Hangul choseong pieup-sios-cieuc		
-U+1127	ᄧ	1100..11FF	Hangul Jamo	Hangul choseong pieup-cieuc		
-U+1128	ᄨ	1100..11FF	Hangul Jamo	Hangul choseong pieup-chieuch		
-U+1129	ᄩ	1100..11FF	Hangul Jamo	Hangul choseong pieup-thieuth		
-U+112A	ᄪ	1100..11FF	Hangul Jamo	Hangul choseong pieup-phieuph		
-U+112B	ᄫ	1100..11FF	Hangul Jamo	Hangul choseong kapyeounpieup		
-U+112C	ᄬ	1100..11FF	Hangul Jamo	Hangul choseong kapyeounssangpieup		
-U+112D	ᄭ	1100..11FF	Hangul Jamo	Hangul choseong sios-kiyeok		
-U+112E	ᄮ	1100..11FF	Hangul Jamo	Hangul choseong sios-nieun		
-U+112F	ᄯ	1100..11FF	Hangul Jamo	Hangul choseong sios-tikeut		
-U+1130	ᄰ	1100..11FF	Hangul Jamo	Hangul choseong sios-rieul		
-U+1131	ᄱ	1100..11FF	Hangul Jamo	Hangul choseong sios-mieum		
-U+1132	ᄲ	1100..11FF	Hangul Jamo	Hangul choseong sios-pieup		
-U+1133	ᄳ	1100..11FF	Hangul Jamo	Hangul choseong sios-pieup-kiyeok		
-U+1134	ᄴ	1100..11FF	Hangul Jamo	Hangul choseong sios-ssangsios		
-U+1135	ᄵ	1100..11FF	Hangul Jamo	Hangul choseong sios-ieung		
-U+1136	ᄶ	1100..11FF	Hangul Jamo	Hangul choseong sios-cieuc		
-U+1137	ᄷ	1100..11FF	Hangul Jamo	Hangul choseong sios-chieuch		
-U+1138	ᄸ	1100..11FF	Hangul Jamo	Hangul choseong sios-khieukh		
-U+1139	ᄹ	1100..11FF	Hangul Jamo	Hangul choseong sios-thieuth		
-U+113A	ᄺ	1100..11FF	Hangul Jamo	Hangul choseong sios-phieuph		
-U+113B	ᄻ	1100..11FF	Hangul Jamo	Hangul choseong sios-hieuh		
-U+113C	ᄼ	1100..11FF	Hangul Jamo	Hangul choseong chitueumsios		
-U+113D	ᄽ	1100..11FF	Hangul Jamo	Hangul choseong chitueumssangsios		
-U+113E	ᄾ	1100..11FF	Hangul Jamo	Hangul choseong ceongchieumsios		
-U+113F	ᄿ	1100..11FF	Hangul Jamo	Hangul choseong ceongchieumssangsios		
-U+1140	ᅀ	1100..11FF	Hangul Jamo	Hangul choseong pansios		
-U+1141	ᅁ	1100..11FF	Hangul Jamo	Hangul choseong ieung-kiyeok		
-U+1142	ᅂ	1100..11FF	Hangul Jamo	Hangul choseong ieung-tikeut		
-U+1143	ᅃ	1100..11FF	Hangul Jamo	Hangul choseong ieung-mieum		
-U+1144	ᅄ	1100..11FF	Hangul Jamo	Hangul choseong ieung-pieup		
-U+1145	ᅅ	1100..11FF	Hangul Jamo	Hangul choseong ieung-sios		
-U+1146	ᅆ	1100..11FF	Hangul Jamo	Hangul choseong ieung-pansios		
-U+1147	ᅇ	1100..11FF	Hangul Jamo	Hangul choseong ssangieung		
-U+1148	ᅈ	1100..11FF	Hangul Jamo	Hangul choseong ieung-cieuc		
-U+1149	ᅉ	1100..11FF	Hangul Jamo	Hangul choseong ieung-chieuch		
-U+114A	ᅊ	1100..11FF	Hangul Jamo	Hangul choseong ieung-thieuth		
-U+114B	ᅋ	1100..11FF	Hangul Jamo	Hangul choseong ieung-phieuph		
-U+114C	ᅌ	1100..11FF	Hangul Jamo	Hangul choseong yesieung		
-U+114D	ᅍ	1100..11FF	Hangul Jamo	Hangul choseong cieuc-ieung		
-U+114E	ᅎ	1100..11FF	Hangul Jamo	Hangul choseong chitueumcieuc		
-U+114F	ᅏ	1100..11FF	Hangul Jamo	Hangul choseong chitueumssangcieuc		
-U+1150	ᅐ	1100..11FF	Hangul Jamo	Hangul choseong ceongchieumcieuc		
-U+1151	ᅑ	1100..11FF	Hangul Jamo	Hangul choseong ceongchieumssangcieuc		
-U+1152	ᅒ	1100..11FF	Hangul Jamo	Hangul choseong chieuch-khieukh		
-U+1153	ᅓ	1100..11FF	Hangul Jamo	Hangul choseong chieuch-hieuh		
-U+1154	ᅔ	1100..11FF	Hangul Jamo	Hangul choseong chitueumchieuch		
-U+1155	ᅕ	1100..11FF	Hangul Jamo	Hangul choseong ceongchieumchieuch		
-U+1156	ᅖ	1100..11FF	Hangul Jamo	Hangul choseong phieuph-pieup		
-U+1157	ᅗ	1100..11FF	Hangul Jamo	Hangul choseong kapyeounphieuph		
-U+1158	ᅘ	1100..11FF	Hangul Jamo	Hangul choseong ssanghieuh		
-U+1159	ᅙ	1100..11FF	Hangul Jamo	Hangul choseong yeorinhieuh		
-U+115A	ᅚ	1100..11FF	Hangul Jamo	Hangul choseong kiyeok-tikeut		
-U+115B	ᅛ	1100..11FF	Hangul Jamo	Hangul choseong nieun-sios		
-U+115C	ᅜ	1100..11FF	Hangul Jamo	Hangul choseong nieun-cieuc		
-U+115D	ᅝ	1100..11FF	Hangul Jamo	Hangul choseong nieun-hieuh		
-U+115E	ᅞ	1100..11FF	Hangul Jamo	Hangul choseong tikeut-rieul		
-U+115F	ᅟ	1100..11FF	Hangul Jamo	Hangul choseong filler		
-U+1160	ᅠ	1100..11FF	Hangul Jamo	Hangul jungseong filler		
-U+1161	ᅡ	1100..11FF	Hangul Jamo	Hangul jungseong a		
-U+1162	ᅢ	1100..11FF	Hangul Jamo	Hangul jungseong ae		
-U+1163	ᅣ	1100..11FF	Hangul Jamo	Hangul jungseong ya		
-U+1164	ᅤ	1100..11FF	Hangul Jamo	Hangul jungseong yae		
-U+1165	ᅥ	1100..11FF	Hangul Jamo	Hangul jungseong eo		
-U+1166	ᅦ	1100..11FF	Hangul Jamo	Hangul jungseong e		
-U+1167	ᅧ	1100..11FF	Hangul Jamo	Hangul jungseong yeo		
-U+1168	ᅨ	1100..11FF	Hangul Jamo	Hangul jungseong ye		
-U+1169	ᅩ	1100..11FF	Hangul Jamo	Hangul jungseong o		
-U+116A	ᅪ	1100..11FF	Hangul Jamo	Hangul jungseong wa		
-U+116B	ᅫ	1100..11FF	Hangul Jamo	Hangul jungseong wae		
-U+116C	ᅬ	1100..11FF	Hangul Jamo	Hangul jungseong oe		
-U+116D	ᅭ	1100..11FF	Hangul Jamo	Hangul jungseong yo		
-U+116E	ᅮ	1100..11FF	Hangul Jamo	Hangul jungseong u		
-U+116F	ᅯ	1100..11FF	Hangul Jamo	Hangul jungseong weo		
-U+1170	ᅰ	1100..11FF	Hangul Jamo	Hangul jungseong we		
-U+1171	ᅱ	1100..11FF	Hangul Jamo	Hangul jungseong wi		
-U+1172	ᅲ	1100..11FF	Hangul Jamo	Hangul jungseong yu		
-U+1173	ᅳ	1100..11FF	Hangul Jamo	Hangul jungseong eu		
-U+1174	ᅴ	1100..11FF	Hangul Jamo	Hangul jungseong yi		
-U+1175	ᅵ	1100..11FF	Hangul Jamo	Hangul jungseong i		
-U+1176	ᅶ	1100..11FF	Hangul Jamo	Hangul jungseong a-o		
-U+1177	ᅷ	1100..11FF	Hangul Jamo	Hangul jungseong a-u		
-U+1178	ᅸ	1100..11FF	Hangul Jamo	Hangul jungseong ya-o		
-U+1179	ᅹ	1100..11FF	Hangul Jamo	Hangul jungseong ya-yo		
-U+117A	ᅺ	1100..11FF	Hangul Jamo	Hangul jungseong eo-o		
-U+117B	ᅻ	1100..11FF	Hangul Jamo	Hangul jungseong eo-u		
-U+117C	ᅼ	1100..11FF	Hangul Jamo	Hangul jungseong eo-eu		
-U+117D	ᅽ	1100..11FF	Hangul Jamo	Hangul jungseong yeo-o		
-U+117E	ᅾ	1100..11FF	Hangul Jamo	Hangul jungseong yeo-u		
-U+117F	ᅿ	1100..11FF	Hangul Jamo	Hangul jungseong o-eo		
-U+1180	ᆀ	1100..11FF	Hangul Jamo	Hangul jungseong o-e		
-U+1181	ᆁ	1100..11FF	Hangul Jamo	Hangul jungseong o-ye		
-U+1182	ᆂ	1100..11FF	Hangul Jamo	Hangul jungseong o-o		
-U+1183	ᆃ	1100..11FF	Hangul Jamo	Hangul jungseong o-u		
-U+1184	ᆄ	1100..11FF	Hangul Jamo	Hangul jungseong yo-ya		
-U+1185	ᆅ	1100..11FF	Hangul Jamo	Hangul jungseong yo-yae		
-U+1186	ᆆ	1100..11FF	Hangul Jamo	Hangul jungseong yo-yeo		
-U+1187	ᆇ	1100..11FF	Hangul Jamo	Hangul jungseong yo-o		
-U+1188	ᆈ	1100..11FF	Hangul Jamo	Hangul jungseong yo-i		
-U+1189	ᆉ	1100..11FF	Hangul Jamo	Hangul jungseong u-a		
-U+118A	ᆊ	1100..11FF	Hangul Jamo	Hangul jungseong u-ae		
-U+118B	ᆋ	1100..11FF	Hangul Jamo	Hangul jungseong u-eo-eu		
-U+118C	ᆌ	1100..11FF	Hangul Jamo	Hangul jungseong u-ye		
-U+118D	ᆍ	1100..11FF	Hangul Jamo	Hangul jungseong u-u		
-U+118E	ᆎ	1100..11FF	Hangul Jamo	Hangul jungseong yu-a		
-U+118F	ᆏ	1100..11FF	Hangul Jamo	Hangul jungseong yu-eo		
-U+1190	ᆐ	1100..11FF	Hangul Jamo	Hangul jungseong yu-e		
-U+1191	ᆑ	1100..11FF	Hangul Jamo	Hangul jungseong yu-yeo		
-U+1192	ᆒ	1100..11FF	Hangul Jamo	Hangul jungseong yu-ye		
-U+1193	ᆓ	1100..11FF	Hangul Jamo	Hangul jungseong yu-u		
-U+1194	ᆔ	1100..11FF	Hangul Jamo	Hangul jungseong yu-i		
-U+1195	ᆕ	1100..11FF	Hangul Jamo	Hangul jungseong eu-u		
-U+1196	ᆖ	1100..11FF	Hangul Jamo	Hangul jungseong eu-eu		
-U+1197	ᆗ	1100..11FF	Hangul Jamo	Hangul jungseong yi-u		
-U+1198	ᆘ	1100..11FF	Hangul Jamo	Hangul jungseong i-a		
-U+1199	ᆙ	1100..11FF	Hangul Jamo	Hangul jungseong i-ya		
-U+119A	ᆚ	1100..11FF	Hangul Jamo	Hangul jungseong i-o		
-U+119B	ᆛ	1100..11FF	Hangul Jamo	Hangul jungseong i-u		
-U+119C	ᆜ	1100..11FF	Hangul Jamo	Hangul jungseong i-eu		
-U+119D	ᆝ	1100..11FF	Hangul Jamo	Hangul jungseong i-araea		
-U+119E	ᆞ	1100..11FF	Hangul Jamo	Hangul jungseong araea		
-U+119F	ᆟ	1100..11FF	Hangul Jamo	Hangul jungseong araea-eo		
-U+11A0	ᆠ	1100..11FF	Hangul Jamo	Hangul jungseong araea-u		
-U+11A1	ᆡ	1100..11FF	Hangul Jamo	Hangul jungseong araea-i		
-U+11A2	ᆢ	1100..11FF	Hangul Jamo	Hangul jungseong ssangaraea		
-U+11A3	ᆣ	1100..11FF	Hangul Jamo	Hangul jungseong a-eu		
-U+11A4	ᆤ	1100..11FF	Hangul Jamo	Hangul jungseong ya-u		
-U+11A5	ᆥ	1100..11FF	Hangul Jamo	Hangul jungseong yeo-ya		
-U+11A6	ᆦ	1100..11FF	Hangul Jamo	Hangul jungseong o-ya		
-U+11A7	ᆧ	1100..11FF	Hangul Jamo	Hangul jungseong o-yae		
-U+11A8	ᆨ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok		
-U+11A9	ᆩ	1100..11FF	Hangul Jamo	Hangul jongseong ssangkiyeok		
-U+11AA	ᆪ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-sios		
-U+11AB	ᆫ	1100..11FF	Hangul Jamo	Hangul jongseong nieun		
-U+11AC	ᆬ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-cieuc		
-U+11AD	ᆭ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-hieuh		
-U+11AE	ᆮ	1100..11FF	Hangul Jamo	Hangul jongseong tikeut		
-U+11AF	ᆯ	1100..11FF	Hangul Jamo	Hangul jongseong rieul		
-U+11B0	ᆰ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-kiyeok		
-U+11B1	ᆱ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-mieum		
-U+11B2	ᆲ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-pieup		
-U+11B3	ᆳ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-sios		
-U+11B4	ᆴ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-thieuth		
-U+11B5	ᆵ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-phieuph		
-U+11B6	ᆶ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-hieuh		
-U+11B7	ᆷ	1100..11FF	Hangul Jamo	Hangul jongseong mieum		
-U+11B8	ᆸ	1100..11FF	Hangul Jamo	Hangul jongseong pieup		
-U+11B9	ᆹ	1100..11FF	Hangul Jamo	Hangul jongseong pieup-sios		
-U+11BA	ᆺ	1100..11FF	Hangul Jamo	Hangul jongseong sios		
-U+11BB	ᆻ	1100..11FF	Hangul Jamo	Hangul jongseong ssangsios		
-U+11BC	ᆼ	1100..11FF	Hangul Jamo	Hangul jongseong ieung		
-U+11BD	ᆽ	1100..11FF	Hangul Jamo	Hangul jongseong cieuc		
-U+11BE	ᆾ	1100..11FF	Hangul Jamo	Hangul jongseong chieuch		
-U+11BF	ᆿ	1100..11FF	Hangul Jamo	Hangul jongseong khieukh		
-U+11C0	ᇀ	1100..11FF	Hangul Jamo	Hangul jongseong thieuth		
-U+11C1	ᇁ	1100..11FF	Hangul Jamo	Hangul jongseong phieuph		
-U+11C2	ᇂ	1100..11FF	Hangul Jamo	Hangul jongseong hieuh		
-U+11C3	ᇃ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-rieul		
-U+11C4	ᇄ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-sios-kiyeok		
-U+11C5	ᇅ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-kiyeok		
-U+11C6	ᇆ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-tikeut		
-U+11C7	ᇇ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-sios		
-U+11C8	ᇈ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-pansios		
-U+11C9	ᇉ	1100..11FF	Hangul Jamo	Hangul jongseong nieun-thieuth		
-U+11CA	ᇊ	1100..11FF	Hangul Jamo	Hangul jongseong tikeut-kiyeok		
-U+11CB	ᇋ	1100..11FF	Hangul Jamo	Hangul jongseong tikeut-rieul		
-U+11CC	ᇌ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-kiyeok-sios		
-U+11CD	ᇍ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-nieun		
-U+11CE	ᇎ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-tikeut		
-U+11CF	ᇏ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-tikeut-hieuh		
-U+11D0	ᇐ	1100..11FF	Hangul Jamo	Hangul jongseong ssangrieul		
-U+11D1	ᇑ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-mieum-kiyeok		
-U+11D2	ᇒ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-mieum-sios		
-U+11D3	ᇓ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-pieup-sios		
-U+11D4	ᇔ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-pieup-hieuh		
-U+11D5	ᇕ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-kapyeounpieup		
-U+11D6	ᇖ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-ssangsios		
-U+11D7	ᇗ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-pansios		
-U+11D8	ᇘ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-khieukh		
-U+11D9	ᇙ	1100..11FF	Hangul Jamo	Hangul jongseong rieul-yeorinhieuh		
-U+11DA	ᇚ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-kiyeok		
-U+11DB	ᇛ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-rieul		
-U+11DC	ᇜ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-pieup		
-U+11DD	ᇝ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-sios		
-U+11DE	ᇞ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-ssangsios		
-U+11DF	ᇟ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-pansios		
-U+11E0	ᇠ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-chieuch		
-U+11E1	ᇡ	1100..11FF	Hangul Jamo	Hangul jongseong mieum-hieuh		
-U+11E2	ᇢ	1100..11FF	Hangul Jamo	Hangul jongseong kapyeounmieum		
-U+11E3	ᇣ	1100..11FF	Hangul Jamo	Hangul jongseong pieup-rieul		
-U+11E4	ᇤ	1100..11FF	Hangul Jamo	Hangul jongseong pieup-phieuph		
-U+11E5	ᇥ	1100..11FF	Hangul Jamo	Hangul jongseong pieup-hieuh		
-U+11E6	ᇦ	1100..11FF	Hangul Jamo	Hangul jongseong kapyeounpieup		
-U+11E7	ᇧ	1100..11FF	Hangul Jamo	Hangul jongseong sios-kiyeok		
-U+11E8	ᇨ	1100..11FF	Hangul Jamo	Hangul jongseong sios-tikeut		
-U+11E9	ᇩ	1100..11FF	Hangul Jamo	Hangul jongseong sios-rieul		
-U+11EA	ᇪ	1100..11FF	Hangul Jamo	Hangul jongseong sios-pieup		
-U+11EB	ᇫ	1100..11FF	Hangul Jamo	Hangul jongseong pansios		
-U+11EC	ᇬ	1100..11FF	Hangul Jamo	Hangul jongseong ieung-kiyeok		
-U+11ED	ᇭ	1100..11FF	Hangul Jamo	Hangul jongseong ieung-ssangkiyeok		
-U+11EE	ᇮ	1100..11FF	Hangul Jamo	Hangul jongseong ssangieung		
-U+11EF	ᇯ	1100..11FF	Hangul Jamo	Hangul jongseong ieung-khieukh		
-U+11F0	ᇰ	1100..11FF	Hangul Jamo	Hangul jongseong yesieung		
-U+11F1	ᇱ	1100..11FF	Hangul Jamo	Hangul jongseong yesieung-sios		
-U+11F2	ᇲ	1100..11FF	Hangul Jamo	Hangul jongseong yesieung-pansios		
-U+11F3	ᇳ	1100..11FF	Hangul Jamo	Hangul jongseong phieuph-pieup		
-U+11F4	ᇴ	1100..11FF	Hangul Jamo	Hangul jongseong kapyeounphieuph		
-U+11F5	ᇵ	1100..11FF	Hangul Jamo	Hangul jongseong hieuh-nieun		
-U+11F6	ᇶ	1100..11FF	Hangul Jamo	Hangul jongseong hieuh-rieul		
-U+11F7	ᇷ	1100..11FF	Hangul Jamo	Hangul jongseong hieuh-mieum		
-U+11F8	ᇸ	1100..11FF	Hangul Jamo	Hangul jongseong hieuh-pieup		
-U+11F9	ᇹ	1100..11FF	Hangul Jamo	Hangul jongseong yeorinhieuh		
-U+11FA	ᇺ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-nieun		
-U+11FB	ᇻ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-pieup		
-U+11FC	ᇼ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-chieuch		
-U+11FD	ᇽ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-khieukh		
-U+11FE	ᇾ	1100..11FF	Hangul Jamo	Hangul jongseong kiyeok-hieuh		
-U+11FF	ᇿ	1100..11FF	Hangul Jamo	Hangul jongseong ssangnieun		
+code_points	chars	tab_completions	unicode_name	base
+U+1100	ᄀ		HANGUL CHOSEONG KIYEOK	
+U+1101	ᄁ		HANGUL CHOSEONG SSANGKIYEOK	
+U+1102	ᄂ		HANGUL CHOSEONG NIEUN	
+U+1103	ᄃ		HANGUL CHOSEONG TIKEUT	
+U+1104	ᄄ		HANGUL CHOSEONG SSANGTIKEUT	
+U+1105	ᄅ		HANGUL CHOSEONG RIEUL	
+U+1106	ᄆ		HANGUL CHOSEONG MIEUM	
+U+1107	ᄇ		HANGUL CHOSEONG PIEUP	
+U+1108	ᄈ		HANGUL CHOSEONG SSANGPIEUP	
+U+1109	ᄉ		HANGUL CHOSEONG SIOS	
+U+110A	ᄊ		HANGUL CHOSEONG SSANGSIOS	
+U+110B	ᄋ		HANGUL CHOSEONG IEUNG	
+U+110C	ᄌ		HANGUL CHOSEONG CIEUC	
+U+110D	ᄍ		HANGUL CHOSEONG SSANGCIEUC	
+U+110E	ᄎ		HANGUL CHOSEONG CHIEUCH	
+U+110F	ᄏ		HANGUL CHOSEONG KHIEUKH	
+U+1110	ᄐ		HANGUL CHOSEONG THIEUTH	
+U+1111	ᄑ		HANGUL CHOSEONG PHIEUPH	
+U+1112	ᄒ		HANGUL CHOSEONG HIEUH	
+U+1113	ᄓ		HANGUL CHOSEONG NIEUN-KIYEOK	
+U+1114	ᄔ		HANGUL CHOSEONG SSANGNIEUN	
+U+1115	ᄕ		HANGUL CHOSEONG NIEUN-TIKEUT	
+U+1116	ᄖ		HANGUL CHOSEONG NIEUN-PIEUP	
+U+1117	ᄗ		HANGUL CHOSEONG TIKEUT-KIYEOK	
+U+1118	ᄘ		HANGUL CHOSEONG RIEUL-NIEUN	
+U+1119	ᄙ		HANGUL CHOSEONG SSANGRIEUL	
+U+111A	ᄚ		HANGUL CHOSEONG RIEUL-HIEUH	
+U+111B	ᄛ		HANGUL CHOSEONG KAPYEOUNRIEUL	
+U+111C	ᄜ		HANGUL CHOSEONG MIEUM-PIEUP	
+U+111D	ᄝ		HANGUL CHOSEONG KAPYEOUNMIEUM	
+U+111E	ᄞ		HANGUL CHOSEONG PIEUP-KIYEOK	
+U+111F	ᄟ		HANGUL CHOSEONG PIEUP-NIEUN	
+U+1120	ᄠ		HANGUL CHOSEONG PIEUP-TIKEUT	
+U+1121	ᄡ		HANGUL CHOSEONG PIEUP-SIOS	
+U+1122	ᄢ		HANGUL CHOSEONG PIEUP-SIOS-KIYEOK	
+U+1123	ᄣ		HANGUL CHOSEONG PIEUP-SIOS-TIKEUT	
+U+1124	ᄤ		HANGUL CHOSEONG PIEUP-SIOS-PIEUP	
+U+1125	ᄥ		HANGUL CHOSEONG PIEUP-SSANGSIOS	
+U+1126	ᄦ		HANGUL CHOSEONG PIEUP-SIOS-CIEUC	
+U+1127	ᄧ		HANGUL CHOSEONG PIEUP-CIEUC	
+U+1128	ᄨ		HANGUL CHOSEONG PIEUP-CHIEUCH	
+U+1129	ᄩ		HANGUL CHOSEONG PIEUP-THIEUTH	
+U+112A	ᄪ		HANGUL CHOSEONG PIEUP-PHIEUPH	
+U+112B	ᄫ		HANGUL CHOSEONG KAPYEOUNPIEUP	
+U+112C	ᄬ		HANGUL CHOSEONG KAPYEOUNSSANGPIEUP	
+U+112D	ᄭ		HANGUL CHOSEONG SIOS-KIYEOK	
+U+112E	ᄮ		HANGUL CHOSEONG SIOS-NIEUN	
+U+112F	ᄯ		HANGUL CHOSEONG SIOS-TIKEUT	
+U+1130	ᄰ		HANGUL CHOSEONG SIOS-RIEUL	
+U+1131	ᄱ		HANGUL CHOSEONG SIOS-MIEUM	
+U+1132	ᄲ		HANGUL CHOSEONG SIOS-PIEUP	
+U+1133	ᄳ		HANGUL CHOSEONG SIOS-PIEUP-KIYEOK	
+U+1134	ᄴ		HANGUL CHOSEONG SIOS-SSANGSIOS	
+U+1135	ᄵ		HANGUL CHOSEONG SIOS-IEUNG	
+U+1136	ᄶ		HANGUL CHOSEONG SIOS-CIEUC	
+U+1137	ᄷ		HANGUL CHOSEONG SIOS-CHIEUCH	
+U+1138	ᄸ		HANGUL CHOSEONG SIOS-KHIEUKH	
+U+1139	ᄹ		HANGUL CHOSEONG SIOS-THIEUTH	
+U+113A	ᄺ		HANGUL CHOSEONG SIOS-PHIEUPH	
+U+113B	ᄻ		HANGUL CHOSEONG SIOS-HIEUH	
+U+113C	ᄼ		HANGUL CHOSEONG CHITUEUMSIOS	
+U+113D	ᄽ		HANGUL CHOSEONG CHITUEUMSSANGSIOS	
+U+113E	ᄾ		HANGUL CHOSEONG CEONGCHIEUMSIOS	
+U+113F	ᄿ		HANGUL CHOSEONG CEONGCHIEUMSSANGSIOS	
+U+1140	ᅀ		HANGUL CHOSEONG PANSIOS	
+U+1141	ᅁ		HANGUL CHOSEONG IEUNG-KIYEOK	
+U+1142	ᅂ		HANGUL CHOSEONG IEUNG-TIKEUT	
+U+1143	ᅃ		HANGUL CHOSEONG IEUNG-MIEUM	
+U+1144	ᅄ		HANGUL CHOSEONG IEUNG-PIEUP	
+U+1145	ᅅ		HANGUL CHOSEONG IEUNG-SIOS	
+U+1146	ᅆ		HANGUL CHOSEONG IEUNG-PANSIOS	
+U+1147	ᅇ		HANGUL CHOSEONG SSANGIEUNG	
+U+1148	ᅈ		HANGUL CHOSEONG IEUNG-CIEUC	
+U+1149	ᅉ		HANGUL CHOSEONG IEUNG-CHIEUCH	
+U+114A	ᅊ		HANGUL CHOSEONG IEUNG-THIEUTH	
+U+114B	ᅋ		HANGUL CHOSEONG IEUNG-PHIEUPH	
+U+114C	ᅌ		HANGUL CHOSEONG YESIEUNG	
+U+114D	ᅍ		HANGUL CHOSEONG CIEUC-IEUNG	
+U+114E	ᅎ		HANGUL CHOSEONG CHITUEUMCIEUC	
+U+114F	ᅏ		HANGUL CHOSEONG CHITUEUMSSANGCIEUC	
+U+1150	ᅐ		HANGUL CHOSEONG CEONGCHIEUMCIEUC	
+U+1151	ᅑ		HANGUL CHOSEONG CEONGCHIEUMSSANGCIEUC	
+U+1152	ᅒ		HANGUL CHOSEONG CHIEUCH-KHIEUKH	
+U+1153	ᅓ		HANGUL CHOSEONG CHIEUCH-HIEUH	
+U+1154	ᅔ		HANGUL CHOSEONG CHITUEUMCHIEUCH	
+U+1155	ᅕ		HANGUL CHOSEONG CEONGCHIEUMCHIEUCH	
+U+1156	ᅖ		HANGUL CHOSEONG PHIEUPH-PIEUP	
+U+1157	ᅗ		HANGUL CHOSEONG KAPYEOUNPHIEUPH	
+U+1158	ᅘ		HANGUL CHOSEONG SSANGHIEUH	
+U+1159	ᅙ		HANGUL CHOSEONG YEORINHIEUH	
+U+115A	ᅚ		HANGUL CHOSEONG KIYEOK-TIKEUT	
+U+115B	ᅛ		HANGUL CHOSEONG NIEUN-SIOS	
+U+115C	ᅜ		HANGUL CHOSEONG NIEUN-CIEUC	
+U+115D	ᅝ		HANGUL CHOSEONG NIEUN-HIEUH	
+U+115E	ᅞ		HANGUL CHOSEONG TIKEUT-RIEUL	
+U+115F	ᅟ		HANGUL CHOSEONG FILLER	
+U+1160	ᅠ		HANGUL JUNGSEONG FILLER	
+U+1161	ᅡ		HANGUL JUNGSEONG A	
+U+1162	ᅢ		HANGUL JUNGSEONG AE	
+U+1163	ᅣ		HANGUL JUNGSEONG YA	
+U+1164	ᅤ		HANGUL JUNGSEONG YAE	
+U+1165	ᅥ		HANGUL JUNGSEONG EO	
+U+1166	ᅦ		HANGUL JUNGSEONG E	
+U+1167	ᅧ		HANGUL JUNGSEONG YEO	
+U+1168	ᅨ		HANGUL JUNGSEONG YE	
+U+1169	ᅩ		HANGUL JUNGSEONG O	
+U+116A	ᅪ		HANGUL JUNGSEONG WA	
+U+116B	ᅫ		HANGUL JUNGSEONG WAE	
+U+116C	ᅬ		HANGUL JUNGSEONG OE	
+U+116D	ᅭ		HANGUL JUNGSEONG YO	
+U+116E	ᅮ		HANGUL JUNGSEONG U	
+U+116F	ᅯ		HANGUL JUNGSEONG WEO	
+U+1170	ᅰ		HANGUL JUNGSEONG WE	
+U+1171	ᅱ		HANGUL JUNGSEONG WI	
+U+1172	ᅲ		HANGUL JUNGSEONG YU	
+U+1173	ᅳ		HANGUL JUNGSEONG EU	
+U+1174	ᅴ		HANGUL JUNGSEONG YI	
+U+1175	ᅵ		HANGUL JUNGSEONG I	
+U+1176	ᅶ		HANGUL JUNGSEONG A-O	
+U+1177	ᅷ		HANGUL JUNGSEONG A-U	
+U+1178	ᅸ		HANGUL JUNGSEONG YA-O	
+U+1179	ᅹ		HANGUL JUNGSEONG YA-YO	
+U+117A	ᅺ		HANGUL JUNGSEONG EO-O	
+U+117B	ᅻ		HANGUL JUNGSEONG EO-U	
+U+117C	ᅼ		HANGUL JUNGSEONG EO-EU	
+U+117D	ᅽ		HANGUL JUNGSEONG YEO-O	
+U+117E	ᅾ		HANGUL JUNGSEONG YEO-U	
+U+117F	ᅿ		HANGUL JUNGSEONG O-EO	
+U+1180	ᆀ		HANGUL JUNGSEONG O-E	
+U+1181	ᆁ		HANGUL JUNGSEONG O-YE	
+U+1182	ᆂ		HANGUL JUNGSEONG O-O	
+U+1183	ᆃ		HANGUL JUNGSEONG O-U	
+U+1184	ᆄ		HANGUL JUNGSEONG YO-YA	
+U+1185	ᆅ		HANGUL JUNGSEONG YO-YAE	
+U+1186	ᆆ		HANGUL JUNGSEONG YO-YEO	
+U+1187	ᆇ		HANGUL JUNGSEONG YO-O	
+U+1188	ᆈ		HANGUL JUNGSEONG YO-I	
+U+1189	ᆉ		HANGUL JUNGSEONG U-A	
+U+118A	ᆊ		HANGUL JUNGSEONG U-AE	
+U+118B	ᆋ		HANGUL JUNGSEONG U-EO-EU	
+U+118C	ᆌ		HANGUL JUNGSEONG U-YE	
+U+118D	ᆍ		HANGUL JUNGSEONG U-U	
+U+118E	ᆎ		HANGUL JUNGSEONG YU-A	
+U+118F	ᆏ		HANGUL JUNGSEONG YU-EO	
+U+1190	ᆐ		HANGUL JUNGSEONG YU-E	
+U+1191	ᆑ		HANGUL JUNGSEONG YU-YEO	
+U+1192	ᆒ		HANGUL JUNGSEONG YU-YE	
+U+1193	ᆓ		HANGUL JUNGSEONG YU-U	
+U+1194	ᆔ		HANGUL JUNGSEONG YU-I	
+U+1195	ᆕ		HANGUL JUNGSEONG EU-U	
+U+1196	ᆖ		HANGUL JUNGSEONG EU-EU	
+U+1197	ᆗ		HANGUL JUNGSEONG YI-U	
+U+1198	ᆘ		HANGUL JUNGSEONG I-A	
+U+1199	ᆙ		HANGUL JUNGSEONG I-YA	
+U+119A	ᆚ		HANGUL JUNGSEONG I-O	
+U+119B	ᆛ		HANGUL JUNGSEONG I-U	
+U+119C	ᆜ		HANGUL JUNGSEONG I-EU	
+U+119D	ᆝ		HANGUL JUNGSEONG I-ARAEA	
+U+119E	ᆞ		HANGUL JUNGSEONG ARAEA	
+U+119F	ᆟ		HANGUL JUNGSEONG ARAEA-EO	
+U+11A0	ᆠ		HANGUL JUNGSEONG ARAEA-U	
+U+11A1	ᆡ		HANGUL JUNGSEONG ARAEA-I	
+U+11A2	ᆢ		HANGUL JUNGSEONG SSANGARAEA	
+U+11A3	ᆣ		HANGUL JUNGSEONG A-EU	
+U+11A4	ᆤ		HANGUL JUNGSEONG YA-U	
+U+11A5	ᆥ		HANGUL JUNGSEONG YEO-YA	
+U+11A6	ᆦ		HANGUL JUNGSEONG O-YA	
+U+11A7	ᆧ		HANGUL JUNGSEONG O-YAE	
+U+11A8	ᆨ		HANGUL JONGSEONG KIYEOK	
+U+11A9	ᆩ		HANGUL JONGSEONG SSANGKIYEOK	
+U+11AA	ᆪ		HANGUL JONGSEONG KIYEOK-SIOS	
+U+11AB	ᆫ		HANGUL JONGSEONG NIEUN	
+U+11AC	ᆬ		HANGUL JONGSEONG NIEUN-CIEUC	
+U+11AD	ᆭ		HANGUL JONGSEONG NIEUN-HIEUH	
+U+11AE	ᆮ		HANGUL JONGSEONG TIKEUT	
+U+11AF	ᆯ		HANGUL JONGSEONG RIEUL	
+U+11B0	ᆰ		HANGUL JONGSEONG RIEUL-KIYEOK	
+U+11B1	ᆱ		HANGUL JONGSEONG RIEUL-MIEUM	
+U+11B2	ᆲ		HANGUL JONGSEONG RIEUL-PIEUP	
+U+11B3	ᆳ		HANGUL JONGSEONG RIEUL-SIOS	
+U+11B4	ᆴ		HANGUL JONGSEONG RIEUL-THIEUTH	
+U+11B5	ᆵ		HANGUL JONGSEONG RIEUL-PHIEUPH	
+U+11B6	ᆶ		HANGUL JONGSEONG RIEUL-HIEUH	
+U+11B7	ᆷ		HANGUL JONGSEONG MIEUM	
+U+11B8	ᆸ		HANGUL JONGSEONG PIEUP	
+U+11B9	ᆹ		HANGUL JONGSEONG PIEUP-SIOS	
+U+11BA	ᆺ		HANGUL JONGSEONG SIOS	
+U+11BB	ᆻ		HANGUL JONGSEONG SSANGSIOS	
+U+11BC	ᆼ		HANGUL JONGSEONG IEUNG	
+U+11BD	ᆽ		HANGUL JONGSEONG CIEUC	
+U+11BE	ᆾ		HANGUL JONGSEONG CHIEUCH	
+U+11BF	ᆿ		HANGUL JONGSEONG KHIEUKH	
+U+11C0	ᇀ		HANGUL JONGSEONG THIEUTH	
+U+11C1	ᇁ		HANGUL JONGSEONG PHIEUPH	
+U+11C2	ᇂ		HANGUL JONGSEONG HIEUH	
+U+11C3	ᇃ		HANGUL JONGSEONG KIYEOK-RIEUL	
+U+11C4	ᇄ		HANGUL JONGSEONG KIYEOK-SIOS-KIYEOK	
+U+11C5	ᇅ		HANGUL JONGSEONG NIEUN-KIYEOK	
+U+11C6	ᇆ		HANGUL JONGSEONG NIEUN-TIKEUT	
+U+11C7	ᇇ		HANGUL JONGSEONG NIEUN-SIOS	
+U+11C8	ᇈ		HANGUL JONGSEONG NIEUN-PANSIOS	
+U+11C9	ᇉ		HANGUL JONGSEONG NIEUN-THIEUTH	
+U+11CA	ᇊ		HANGUL JONGSEONG TIKEUT-KIYEOK	
+U+11CB	ᇋ		HANGUL JONGSEONG TIKEUT-RIEUL	
+U+11CC	ᇌ		HANGUL JONGSEONG RIEUL-KIYEOK-SIOS	
+U+11CD	ᇍ		HANGUL JONGSEONG RIEUL-NIEUN	
+U+11CE	ᇎ		HANGUL JONGSEONG RIEUL-TIKEUT	
+U+11CF	ᇏ		HANGUL JONGSEONG RIEUL-TIKEUT-HIEUH	
+U+11D0	ᇐ		HANGUL JONGSEONG SSANGRIEUL	
+U+11D1	ᇑ		HANGUL JONGSEONG RIEUL-MIEUM-KIYEOK	
+U+11D2	ᇒ		HANGUL JONGSEONG RIEUL-MIEUM-SIOS	
+U+11D3	ᇓ		HANGUL JONGSEONG RIEUL-PIEUP-SIOS	
+U+11D4	ᇔ		HANGUL JONGSEONG RIEUL-PIEUP-HIEUH	
+U+11D5	ᇕ		HANGUL JONGSEONG RIEUL-KAPYEOUNPIEUP	
+U+11D6	ᇖ		HANGUL JONGSEONG RIEUL-SSANGSIOS	
+U+11D7	ᇗ		HANGUL JONGSEONG RIEUL-PANSIOS	
+U+11D8	ᇘ		HANGUL JONGSEONG RIEUL-KHIEUKH	
+U+11D9	ᇙ		HANGUL JONGSEONG RIEUL-YEORINHIEUH	
+U+11DA	ᇚ		HANGUL JONGSEONG MIEUM-KIYEOK	
+U+11DB	ᇛ		HANGUL JONGSEONG MIEUM-RIEUL	
+U+11DC	ᇜ		HANGUL JONGSEONG MIEUM-PIEUP	
+U+11DD	ᇝ		HANGUL JONGSEONG MIEUM-SIOS	
+U+11DE	ᇞ		HANGUL JONGSEONG MIEUM-SSANGSIOS	
+U+11DF	ᇟ		HANGUL JONGSEONG MIEUM-PANSIOS	
+U+11E0	ᇠ		HANGUL JONGSEONG MIEUM-CHIEUCH	
+U+11E1	ᇡ		HANGUL JONGSEONG MIEUM-HIEUH	
+U+11E2	ᇢ		HANGUL JONGSEONG KAPYEOUNMIEUM	
+U+11E3	ᇣ		HANGUL JONGSEONG PIEUP-RIEUL	
+U+11E4	ᇤ		HANGUL JONGSEONG PIEUP-PHIEUPH	
+U+11E5	ᇥ		HANGUL JONGSEONG PIEUP-HIEUH	
+U+11E6	ᇦ		HANGUL JONGSEONG KAPYEOUNPIEUP	
+U+11E7	ᇧ		HANGUL JONGSEONG SIOS-KIYEOK	
+U+11E8	ᇨ		HANGUL JONGSEONG SIOS-TIKEUT	
+U+11E9	ᇩ		HANGUL JONGSEONG SIOS-RIEUL	
+U+11EA	ᇪ		HANGUL JONGSEONG SIOS-PIEUP	
+U+11EB	ᇫ		HANGUL JONGSEONG PANSIOS	
+U+11EC	ᇬ		HANGUL JONGSEONG IEUNG-KIYEOK	
+U+11ED	ᇭ		HANGUL JONGSEONG IEUNG-SSANGKIYEOK	
+U+11EE	ᇮ		HANGUL JONGSEONG SSANGIEUNG	
+U+11EF	ᇯ		HANGUL JONGSEONG IEUNG-KHIEUKH	
+U+11F0	ᇰ		HANGUL JONGSEONG YESIEUNG	
+U+11F1	ᇱ		HANGUL JONGSEONG YESIEUNG-SIOS	
+U+11F2	ᇲ		HANGUL JONGSEONG YESIEUNG-PANSIOS	
+U+11F3	ᇳ		HANGUL JONGSEONG PHIEUPH-PIEUP	
+U+11F4	ᇴ		HANGUL JONGSEONG KAPYEOUNPHIEUPH	
+U+11F5	ᇵ		HANGUL JONGSEONG HIEUH-NIEUN	
+U+11F6	ᇶ		HANGUL JONGSEONG HIEUH-RIEUL	
+U+11F7	ᇷ		HANGUL JONGSEONG HIEUH-MIEUM	
+U+11F8	ᇸ		HANGUL JONGSEONG HIEUH-PIEUP	
+U+11F9	ᇹ		HANGUL JONGSEONG YEORINHIEUH	
+U+11FA	ᇺ		HANGUL JONGSEONG KIYEOK-NIEUN	
+U+11FB	ᇻ		HANGUL JONGSEONG KIYEOK-PIEUP	
+U+11FC	ᇼ		HANGUL JONGSEONG KIYEOK-CHIEUCH	
+U+11FD	ᇽ		HANGUL JONGSEONG KIYEOK-KHIEUKH	
+U+11FE	ᇾ		HANGUL JONGSEONG KIYEOK-HIEUH	
+U+11FF	ᇿ		HANGUL JONGSEONG SSANGNIEUN	

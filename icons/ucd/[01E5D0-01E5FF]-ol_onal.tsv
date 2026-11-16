@@ -1,45 +1,45 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1E5D0	𞗐	1E5D0..1E5FF	Ol Onal	Ol onal letter o		
-U+1E5D1	𞗑	1E5D0..1E5FF	Ol Onal	Ol onal letter om		
-U+1E5D2	𞗒	1E5D0..1E5FF	Ol Onal	Ol onal letter ong		
-U+1E5D3	𞗓	1E5D0..1E5FF	Ol Onal	Ol onal letter orr		
-U+1E5D4	𞗔	1E5D0..1E5FF	Ol Onal	Ol onal letter oo		
-U+1E5D5	𞗕	1E5D0..1E5FF	Ol Onal	Ol onal letter oy		
-U+1E5D6	𞗖	1E5D0..1E5FF	Ol Onal	Ol onal letter a		
-U+1E5D7	𞗗	1E5D0..1E5FF	Ol Onal	Ol onal letter ad		
-U+1E5D8	𞗘	1E5D0..1E5FF	Ol Onal	Ol onal letter ab		
-U+1E5D9	𞗙	1E5D0..1E5FF	Ol Onal	Ol onal letter ah		
-U+1E5DA	𞗚	1E5D0..1E5FF	Ol Onal	Ol onal letter al		
-U+1E5DB	𞗛	1E5D0..1E5FF	Ol Onal	Ol onal letter aw		
-U+1E5DC	𞗜	1E5D0..1E5FF	Ol Onal	Ol onal letter i		
-U+1E5DD	𞗝	1E5D0..1E5FF	Ol Onal	Ol onal letter it		
-U+1E5DE	𞗞	1E5D0..1E5FF	Ol Onal	Ol onal letter ip		
-U+1E5DF	𞗟	1E5D0..1E5FF	Ol Onal	Ol onal letter itt		
-U+1E5E0	𞗠	1E5D0..1E5FF	Ol Onal	Ol onal letter id		
-U+1E5E1	𞗡	1E5D0..1E5FF	Ol Onal	Ol onal letter in		
-U+1E5E2	𞗢	1E5D0..1E5FF	Ol Onal	Ol onal letter u		
-U+1E5E3	𞗣	1E5D0..1E5FF	Ol Onal	Ol onal letter uk		
-U+1E5E4	𞗤	1E5D0..1E5FF	Ol Onal	Ol onal letter udd		
-U+1E5E5	𞗥	1E5D0..1E5FF	Ol Onal	Ol onal letter uj		
-U+1E5E6	𞗦	1E5D0..1E5FF	Ol Onal	Ol onal letter uny		
-U+1E5E7	𞗧	1E5D0..1E5FF	Ol Onal	Ol onal letter ur		
-U+1E5E8	𞗨	1E5D0..1E5FF	Ol Onal	Ol onal letter e		
-U+1E5E9	𞗩	1E5D0..1E5FF	Ol Onal	Ol onal letter es		
-U+1E5EA	𞗪	1E5D0..1E5FF	Ol Onal	Ol onal letter eh		
-U+1E5EB	𞗫	1E5D0..1E5FF	Ol Onal	Ol onal letter ec		
-U+1E5EC	𞗬	1E5D0..1E5FF	Ol Onal	Ol onal letter enn		
-U+1E5ED	𞗭	1E5D0..1E5FF	Ol Onal	Ol onal letter eg		
-U+1E5EE	𞗮	1E5D0..1E5FF	Ol Onal	Ol onal sign mu		
-U+1E5EF	𞗯	1E5D0..1E5FF	Ol Onal	Ol onal sign ikir		
-U+1E5F0	𞗰	1E5D0..1E5FF	Ol Onal	Ol onal sign hoddond		
-U+1E5F1	𞗱	1E5D0..1E5FF	Ol Onal	Ol onal digit zero		
-U+1E5F2	𞗲	1E5D0..1E5FF	Ol Onal	Ol onal digit one		
-U+1E5F3	𞗳	1E5D0..1E5FF	Ol Onal	Ol onal digit two		
-U+1E5F4	𞗴	1E5D0..1E5FF	Ol Onal	Ol onal digit three		
-U+1E5F5	𞗵	1E5D0..1E5FF	Ol Onal	Ol onal digit four		
-U+1E5F6	𞗶	1E5D0..1E5FF	Ol Onal	Ol onal digit five		
-U+1E5F7	𞗷	1E5D0..1E5FF	Ol Onal	Ol onal digit six		
-U+1E5F8	𞗸	1E5D0..1E5FF	Ol Onal	Ol onal digit seven		
-U+1E5F9	𞗹	1E5D0..1E5FF	Ol Onal	Ol onal digit eight		
-U+1E5FA	𞗺	1E5D0..1E5FF	Ol Onal	Ol onal digit nine		
-U+1E5FF	𞗿	1E5D0..1E5FF	Ol Onal	Ol onal abbreviation sign		
+code_points	chars	tab_completions	unicode_name	base
+U+1E5D0	𞗐		OL ONAL LETTER O	
+U+1E5D1	𞗑		OL ONAL LETTER OM	
+U+1E5D2	𞗒		OL ONAL LETTER ONG	
+U+1E5D3	𞗓		OL ONAL LETTER ORR	
+U+1E5D4	𞗔		OL ONAL LETTER OO	
+U+1E5D5	𞗕		OL ONAL LETTER OY	
+U+1E5D6	𞗖		OL ONAL LETTER A	
+U+1E5D7	𞗗		OL ONAL LETTER AD	
+U+1E5D8	𞗘		OL ONAL LETTER AB	
+U+1E5D9	𞗙		OL ONAL LETTER AH	
+U+1E5DA	𞗚		OL ONAL LETTER AL	
+U+1E5DB	𞗛		OL ONAL LETTER AW	
+U+1E5DC	𞗜		OL ONAL LETTER I	
+U+1E5DD	𞗝		OL ONAL LETTER IT	
+U+1E5DE	𞗞		OL ONAL LETTER IP	
+U+1E5DF	𞗟		OL ONAL LETTER ITT	
+U+1E5E0	𞗠		OL ONAL LETTER ID	
+U+1E5E1	𞗡		OL ONAL LETTER IN	
+U+1E5E2	𞗢		OL ONAL LETTER U	
+U+1E5E3	𞗣		OL ONAL LETTER UK	
+U+1E5E4	𞗤		OL ONAL LETTER UDD	
+U+1E5E5	𞗥		OL ONAL LETTER UJ	
+U+1E5E6	𞗦		OL ONAL LETTER UNY	
+U+1E5E7	𞗧		OL ONAL LETTER UR	
+U+1E5E8	𞗨		OL ONAL LETTER E	
+U+1E5E9	𞗩		OL ONAL LETTER ES	
+U+1E5EA	𞗪		OL ONAL LETTER EH	
+U+1E5EB	𞗫		OL ONAL LETTER EC	
+U+1E5EC	𞗬		OL ONAL LETTER ENN	
+U+1E5ED	𞗭		OL ONAL LETTER EG	
+U+1E5EE	𞗮		OL ONAL SIGN MU	
+U+1E5EF	𞗯		OL ONAL SIGN IKIR	
+U+1E5F0	𞗰		OL ONAL SIGN HODDOND	
+U+1E5F1	𞗱		OL ONAL DIGIT ZERO	
+U+1E5F2	𞗲		OL ONAL DIGIT ONE	
+U+1E5F3	𞗳		OL ONAL DIGIT TWO	
+U+1E5F4	𞗴		OL ONAL DIGIT THREE	
+U+1E5F5	𞗵		OL ONAL DIGIT FOUR	
+U+1E5F6	𞗶		OL ONAL DIGIT FIVE	
+U+1E5F7	𞗷		OL ONAL DIGIT SIX	
+U+1E5F8	𞗸		OL ONAL DIGIT SEVEN	
+U+1E5F9	𞗹		OL ONAL DIGIT EIGHT	
+U+1E5FA	𞗺		OL ONAL DIGIT NINE	
+U+1E5FF	𞗿		OL ONAL ABBREVIATION SIGN	

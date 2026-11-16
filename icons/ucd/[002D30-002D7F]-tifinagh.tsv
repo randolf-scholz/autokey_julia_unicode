@@ -1,60 +1,60 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2D30	ⴰ	2D30..2D7F	Tifinagh	Tifinagh letter ya		
-U+2D31	ⴱ	2D30..2D7F	Tifinagh	Tifinagh letter yab		
-U+2D32	ⴲ	2D30..2D7F	Tifinagh	Tifinagh letter yabh		
-U+2D33	ⴳ	2D30..2D7F	Tifinagh	Tifinagh letter yag		
-U+2D34	ⴴ	2D30..2D7F	Tifinagh	Tifinagh letter yaghh		
-U+2D35	ⴵ	2D30..2D7F	Tifinagh	Tifinagh letter berber academy yaj		
-U+2D36	ⴶ	2D30..2D7F	Tifinagh	Tifinagh letter yaj		
-U+2D37	ⴷ	2D30..2D7F	Tifinagh	Tifinagh letter yad		
-U+2D38	ⴸ	2D30..2D7F	Tifinagh	Tifinagh letter yadh		
-U+2D39	ⴹ	2D30..2D7F	Tifinagh	Tifinagh letter yadd		
-U+2D3A	ⴺ	2D30..2D7F	Tifinagh	Tifinagh letter yaddh		
-U+2D3B	ⴻ	2D30..2D7F	Tifinagh	Tifinagh letter yey		
-U+2D3C	ⴼ	2D30..2D7F	Tifinagh	Tifinagh letter yaf		
-U+2D3D	ⴽ	2D30..2D7F	Tifinagh	Tifinagh letter yak		
-U+2D3E	ⴾ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yak		
-U+2D3F	ⴿ	2D30..2D7F	Tifinagh	Tifinagh letter yakhh		
-U+2D40	ⵀ	2D30..2D7F	Tifinagh	Tifinagh letter yah		
-U+2D41	ⵁ	2D30..2D7F	Tifinagh	Tifinagh letter berber academy yah		
-U+2D42	ⵂ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yah		
-U+2D43	ⵃ	2D30..2D7F	Tifinagh	Tifinagh letter yahh		
-U+2D44	ⵄ	2D30..2D7F	Tifinagh	Tifinagh letter yaa		
-U+2D45	ⵅ	2D30..2D7F	Tifinagh	Tifinagh letter yakh		
-U+2D46	ⵆ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yakh		
-U+2D47	ⵇ	2D30..2D7F	Tifinagh	Tifinagh letter yaq		
-U+2D48	ⵈ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yaq		
-U+2D49	ⵉ	2D30..2D7F	Tifinagh	Tifinagh letter yi		
-U+2D4A	ⵊ	2D30..2D7F	Tifinagh	Tifinagh letter yazh		
-U+2D4B	ⵋ	2D30..2D7F	Tifinagh	Tifinagh letter ahaggar yazh		
-U+2D4C	ⵌ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yazh		
-U+2D4D	ⵍ	2D30..2D7F	Tifinagh	Tifinagh letter yal		
-U+2D4E	ⵎ	2D30..2D7F	Tifinagh	Tifinagh letter yam		
-U+2D4F	ⵏ	2D30..2D7F	Tifinagh	Tifinagh letter yan		
-U+2D50	ⵐ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yagn		
-U+2D51	ⵑ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yang		
-U+2D52	ⵒ	2D30..2D7F	Tifinagh	Tifinagh letter yap		
-U+2D53	ⵓ	2D30..2D7F	Tifinagh	Tifinagh letter yu		
-U+2D54	ⵔ	2D30..2D7F	Tifinagh	Tifinagh letter yar		
-U+2D55	ⵕ	2D30..2D7F	Tifinagh	Tifinagh letter yarr		
-U+2D56	ⵖ	2D30..2D7F	Tifinagh	Tifinagh letter yagh		
-U+2D57	ⵗ	2D30..2D7F	Tifinagh	Tifinagh letter tuareg yagh		
-U+2D58	ⵘ	2D30..2D7F	Tifinagh	Tifinagh letter ayer yagh		
-U+2D59	ⵙ	2D30..2D7F	Tifinagh	Tifinagh letter yas		
-U+2D5A	ⵚ	2D30..2D7F	Tifinagh	Tifinagh letter yass		
-U+2D5B	ⵛ	2D30..2D7F	Tifinagh	Tifinagh letter yash		
-U+2D5C	ⵜ	2D30..2D7F	Tifinagh	Tifinagh letter yat		
-U+2D5D	ⵝ	2D30..2D7F	Tifinagh	Tifinagh letter yath		
-U+2D5E	ⵞ	2D30..2D7F	Tifinagh	Tifinagh letter yach		
-U+2D5F	ⵟ	2D30..2D7F	Tifinagh	Tifinagh letter yatt		
-U+2D60	ⵠ	2D30..2D7F	Tifinagh	Tifinagh letter yav		
-U+2D61	ⵡ	2D30..2D7F	Tifinagh	Tifinagh letter yaw		
-U+2D62	ⵢ	2D30..2D7F	Tifinagh	Tifinagh letter yay		
-U+2D63	ⵣ	2D30..2D7F	Tifinagh	Tifinagh letter yaz		
-U+2D64	ⵤ	2D30..2D7F	Tifinagh	Tifinagh letter tawellemet yaz		
-U+2D65	ⵥ	2D30..2D7F	Tifinagh	Tifinagh letter yazz		
-U+2D66	ⵦ	2D30..2D7F	Tifinagh	Tifinagh letter ye		
-U+2D67	ⵧ	2D30..2D7F	Tifinagh	Tifinagh letter yo		
-U+2D6F	ⵯ	2D30..2D7F	Tifinagh	Tifinagh modifier letter labialization mark		
-U+2D70	⵰	2D30..2D7F	Tifinagh	Tifinagh separator mark		
-U+2D7F	⵿	2D30..2D7F	Tifinagh	Tifinagh consonant joiner		
+code_points	chars	tab_completions	unicode_name	base
+U+2D30	ⴰ		TIFINAGH LETTER YA	
+U+2D31	ⴱ		TIFINAGH LETTER YAB	
+U+2D32	ⴲ		TIFINAGH LETTER YABH	
+U+2D33	ⴳ		TIFINAGH LETTER YAG	
+U+2D34	ⴴ		TIFINAGH LETTER YAGHH	
+U+2D35	ⴵ		TIFINAGH LETTER BERBER ACADEMY YAJ	
+U+2D36	ⴶ		TIFINAGH LETTER YAJ	
+U+2D37	ⴷ		TIFINAGH LETTER YAD	
+U+2D38	ⴸ		TIFINAGH LETTER YADH	
+U+2D39	ⴹ		TIFINAGH LETTER YADD	
+U+2D3A	ⴺ		TIFINAGH LETTER YADDH	
+U+2D3B	ⴻ		TIFINAGH LETTER YEY	
+U+2D3C	ⴼ		TIFINAGH LETTER YAF	
+U+2D3D	ⴽ		TIFINAGH LETTER YAK	
+U+2D3E	ⴾ		TIFINAGH LETTER TUAREG YAK	
+U+2D3F	ⴿ		TIFINAGH LETTER YAKHH	
+U+2D40	ⵀ		TIFINAGH LETTER YAH	
+U+2D41	ⵁ		TIFINAGH LETTER BERBER ACADEMY YAH	
+U+2D42	ⵂ		TIFINAGH LETTER TUAREG YAH	
+U+2D43	ⵃ		TIFINAGH LETTER YAHH	
+U+2D44	ⵄ		TIFINAGH LETTER YAA	
+U+2D45	ⵅ		TIFINAGH LETTER YAKH	
+U+2D46	ⵆ		TIFINAGH LETTER TUAREG YAKH	
+U+2D47	ⵇ		TIFINAGH LETTER YAQ	
+U+2D48	ⵈ		TIFINAGH LETTER TUAREG YAQ	
+U+2D49	ⵉ		TIFINAGH LETTER YI	
+U+2D4A	ⵊ		TIFINAGH LETTER YAZH	
+U+2D4B	ⵋ		TIFINAGH LETTER AHAGGAR YAZH	
+U+2D4C	ⵌ		TIFINAGH LETTER TUAREG YAZH	
+U+2D4D	ⵍ		TIFINAGH LETTER YAL	
+U+2D4E	ⵎ		TIFINAGH LETTER YAM	
+U+2D4F	ⵏ		TIFINAGH LETTER YAN	
+U+2D50	ⵐ		TIFINAGH LETTER TUAREG YAGN	
+U+2D51	ⵑ		TIFINAGH LETTER TUAREG YANG	
+U+2D52	ⵒ		TIFINAGH LETTER YAP	
+U+2D53	ⵓ		TIFINAGH LETTER YU	
+U+2D54	ⵔ		TIFINAGH LETTER YAR	
+U+2D55	ⵕ		TIFINAGH LETTER YARR	
+U+2D56	ⵖ		TIFINAGH LETTER YAGH	
+U+2D57	ⵗ		TIFINAGH LETTER TUAREG YAGH	
+U+2D58	ⵘ		TIFINAGH LETTER AYER YAGH	
+U+2D59	ⵙ		TIFINAGH LETTER YAS	
+U+2D5A	ⵚ		TIFINAGH LETTER YASS	
+U+2D5B	ⵛ		TIFINAGH LETTER YASH	
+U+2D5C	ⵜ		TIFINAGH LETTER YAT	
+U+2D5D	ⵝ		TIFINAGH LETTER YATH	
+U+2D5E	ⵞ		TIFINAGH LETTER YACH	
+U+2D5F	ⵟ		TIFINAGH LETTER YATT	
+U+2D60	ⵠ		TIFINAGH LETTER YAV	
+U+2D61	ⵡ		TIFINAGH LETTER YAW	
+U+2D62	ⵢ		TIFINAGH LETTER YAY	
+U+2D63	ⵣ		TIFINAGH LETTER YAZ	
+U+2D64	ⵤ		TIFINAGH LETTER TAWELLEMET YAZ	
+U+2D65	ⵥ		TIFINAGH LETTER YAZZ	
+U+2D66	ⵦ		TIFINAGH LETTER YE	
+U+2D67	ⵧ		TIFINAGH LETTER YO	
+U+2D6F	ⵯ		TIFINAGH MODIFIER LETTER LABIALIZATION MARK	
+U+2D70	⵰		TIFINAGH SEPARATOR MARK	
+U+2D7F	⵿		TIFINAGH CONSONANT JOINER	

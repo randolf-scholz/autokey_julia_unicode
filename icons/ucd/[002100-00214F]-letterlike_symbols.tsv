@@ -1,81 +1,81 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2100	℀	2100..214F	Letterlike Symbols	Account of		
-U+2101	℁	2100..214F	Letterlike Symbols	Addressed to the subject		
-U+2102	ℂ	2100..214F	Letterlike Symbols	Double-struck capital c		
-U+2103	℃	2100..214F	Letterlike Symbols	Degree celsius		
-U+2104	℄	2100..214F	Letterlike Symbols	Centre line symbol		
-U+2105	℅	2100..214F	Letterlike Symbols	Care of		
-U+2106	℆	2100..214F	Letterlike Symbols	Cada una		
-U+2107	ℇ	2100..214F	Letterlike Symbols	Euler constant		
-U+2108	℈	2100..214F	Letterlike Symbols	Scruple		
-U+2109	℉	2100..214F	Letterlike Symbols	Degree fahrenheit		
-U+210A	ℊ	2100..214F	Letterlike Symbols	Script small g		
-U+210B	ℋ	2100..214F	Letterlike Symbols	Script capital h		
-U+210C	ℌ	2100..214F	Letterlike Symbols	Black-letter capital h		
-U+210D	ℍ	2100..214F	Letterlike Symbols	Double-struck capital h		
-U+210E	ℎ	2100..214F	Letterlike Symbols	Planck constant		
-U+210F	ℏ	2100..214F	Letterlike Symbols	Planck constant over two pi		
-U+2110	ℐ	2100..214F	Letterlike Symbols	Script capital i		
-U+2111	ℑ	2100..214F	Letterlike Symbols	Black-letter capital i		
-U+2112	ℒ	2100..214F	Letterlike Symbols	Script capital l		
-U+2113	ℓ	2100..214F	Letterlike Symbols	Script small l		
-U+2114	℔	2100..214F	Letterlike Symbols	L b bar symbol		
-U+2115	ℕ	2100..214F	Letterlike Symbols	Double-struck capital n		
-U+2116	№	2100..214F	Letterlike Symbols	Numero sign		
-U+2117	℗	2100..214F	Letterlike Symbols	Sound recording copyright		
-U+2118	℘	2100..214F	Letterlike Symbols	Script capital p		
-U+2119	ℙ	2100..214F	Letterlike Symbols	Double-struck capital p		
-U+211A	ℚ	2100..214F	Letterlike Symbols	Double-struck capital q		
-U+211B	ℛ	2100..214F	Letterlike Symbols	Script capital r		
-U+211C	ℜ	2100..214F	Letterlike Symbols	Black-letter capital r		
-U+211D	ℝ	2100..214F	Letterlike Symbols	Double-struck capital r		
-U+211E	℞	2100..214F	Letterlike Symbols	Prescription take		
-U+211F	℟	2100..214F	Letterlike Symbols	Response		
-U+2120	℠	2100..214F	Letterlike Symbols	Service mark		
-U+2121	℡	2100..214F	Letterlike Symbols	Telephone sign		
-U+2122	™	2100..214F	Letterlike Symbols	Trade mark sign		
-U+2123	℣	2100..214F	Letterlike Symbols	Versicle		
-U+2124	ℤ	2100..214F	Letterlike Symbols	Double-struck capital z		
-U+2125	℥	2100..214F	Letterlike Symbols	Ounce sign		
-U+2126	Ω	2100..214F	Letterlike Symbols	Ohm sign		
-U+2127	℧	2100..214F	Letterlike Symbols	Inverted ohm sign		
-U+2128	ℨ	2100..214F	Letterlike Symbols	Black-letter capital z		
-U+2129	℩	2100..214F	Letterlike Symbols	Turned greek small letter iota		
-U+212A	K	2100..214F	Letterlike Symbols	Kelvin sign		
-U+212B	Å	2100..214F	Letterlike Symbols	Angstrom sign		
-U+212C	ℬ	2100..214F	Letterlike Symbols	Script capital b		
-U+212D	ℭ	2100..214F	Letterlike Symbols	Black-letter capital c		
-U+212E	℮	2100..214F	Letterlike Symbols	Estimated symbol		
-U+212F	ℯ	2100..214F	Letterlike Symbols	Script small e		
-U+2130	ℰ	2100..214F	Letterlike Symbols	Script capital e		
-U+2131	ℱ	2100..214F	Letterlike Symbols	Script capital f		
-U+2132	Ⅎ	2100..214F	Letterlike Symbols	Turned capital f		
-U+2133	ℳ	2100..214F	Letterlike Symbols	Script capital m		
-U+2134	ℴ	2100..214F	Letterlike Symbols	Script small o		
-U+2135	ℵ	2100..214F	Letterlike Symbols	Alef symbol		
-U+2136	ℶ	2100..214F	Letterlike Symbols	Bet symbol		
-U+2137	ℷ	2100..214F	Letterlike Symbols	Gimel symbol		
-U+2138	ℸ	2100..214F	Letterlike Symbols	Dalet symbol		
-U+2139	ℹ	2100..214F	Letterlike Symbols	Information source		
-U+213A	℺	2100..214F	Letterlike Symbols	Rotated capital q		
-U+213B	℻	2100..214F	Letterlike Symbols	Facsimile sign		
-U+213C	ℼ	2100..214F	Letterlike Symbols	Double-struck small pi		
-U+213D	ℽ	2100..214F	Letterlike Symbols	Double-struck small gamma		
-U+213E	ℾ	2100..214F	Letterlike Symbols	Double-struck capital gamma		
-U+213F	ℿ	2100..214F	Letterlike Symbols	Double-struck capital pi		
-U+2140	⅀	2100..214F	Letterlike Symbols	Double-struck n-ary summation		
-U+2141	⅁	2100..214F	Letterlike Symbols	Turned sans-serif capital g		
-U+2142	⅂	2100..214F	Letterlike Symbols	Turned sans-serif capital l		
-U+2143	⅃	2100..214F	Letterlike Symbols	Reversed sans-serif capital l		
-U+2144	⅄	2100..214F	Letterlike Symbols	Turned sans-serif capital y		
-U+2145	ⅅ	2100..214F	Letterlike Symbols	Double-struck italic capital d		
-U+2146	ⅆ	2100..214F	Letterlike Symbols	Double-struck italic small d		
-U+2147	ⅇ	2100..214F	Letterlike Symbols	Double-struck italic small e		
-U+2148	ⅈ	2100..214F	Letterlike Symbols	Double-struck italic small i		
-U+2149	ⅉ	2100..214F	Letterlike Symbols	Double-struck italic small j		
-U+214A	⅊	2100..214F	Letterlike Symbols	Property line		
-U+214B	⅋	2100..214F	Letterlike Symbols	Turned ampersand		
-U+214C	⅌	2100..214F	Letterlike Symbols	Per sign		
-U+214D	⅍	2100..214F	Letterlike Symbols	Aktieselskab		
-U+214E	ⅎ	2100..214F	Letterlike Symbols	Turned small f		
-U+214F	⅏	2100..214F	Letterlike Symbols	Symbol for samaritan source		
+code_points	chars	tab_completions	unicode_name	base
+U+2100	℀		ACCOUNT OF	
+U+2101	℁		ADDRESSED TO THE SUBJECT	
+U+2102	ℂ		DOUBLE-STRUCK CAPITAL C	
+U+2103	℃		DEGREE CELSIUS	
+U+2104	℄		CENTRE LINE SYMBOL	
+U+2105	℅		CARE OF	
+U+2106	℆		CADA UNA	
+U+2107	ℇ		EULER CONSTANT	
+U+2108	℈		SCRUPLE	
+U+2109	℉		DEGREE FAHRENHEIT	
+U+210A	ℊ		SCRIPT SMALL G	
+U+210B	ℋ		SCRIPT CAPITAL H	
+U+210C	ℌ		BLACK-LETTER CAPITAL H	
+U+210D	ℍ		DOUBLE-STRUCK CAPITAL H	
+U+210E	ℎ		PLANCK CONSTANT	
+U+210F	ℏ		PLANCK CONSTANT OVER TWO PI	
+U+2110	ℐ		SCRIPT CAPITAL I	
+U+2111	ℑ		BLACK-LETTER CAPITAL I	
+U+2112	ℒ		SCRIPT CAPITAL L	
+U+2113	ℓ		SCRIPT SMALL L	
+U+2114	℔		L B BAR SYMBOL	
+U+2115	ℕ		DOUBLE-STRUCK CAPITAL N	
+U+2116	№		NUMERO SIGN	
+U+2117	℗		SOUND RECORDING COPYRIGHT	
+U+2118	℘		SCRIPT CAPITAL P	
+U+2119	ℙ		DOUBLE-STRUCK CAPITAL P	
+U+211A	ℚ		DOUBLE-STRUCK CAPITAL Q	
+U+211B	ℛ		SCRIPT CAPITAL R	
+U+211C	ℜ		BLACK-LETTER CAPITAL R	
+U+211D	ℝ		DOUBLE-STRUCK CAPITAL R	
+U+211E	℞		PRESCRIPTION TAKE	
+U+211F	℟		RESPONSE	
+U+2120	℠		SERVICE MARK	
+U+2121	℡		TELEPHONE SIGN	
+U+2122	™		TRADE MARK SIGN	
+U+2123	℣		VERSICLE	
+U+2124	ℤ		DOUBLE-STRUCK CAPITAL Z	
+U+2125	℥		OUNCE SIGN	
+U+2126	Ω		OHM SIGN	
+U+2127	℧		INVERTED OHM SIGN	
+U+2128	ℨ		BLACK-LETTER CAPITAL Z	
+U+2129	℩		TURNED GREEK SMALL LETTER IOTA	
+U+212A	K		KELVIN SIGN	
+U+212B	Å		ANGSTROM SIGN	
+U+212C	ℬ		SCRIPT CAPITAL B	
+U+212D	ℭ		BLACK-LETTER CAPITAL C	
+U+212E	℮		ESTIMATED SYMBOL	
+U+212F	ℯ		SCRIPT SMALL E	
+U+2130	ℰ		SCRIPT CAPITAL E	
+U+2131	ℱ		SCRIPT CAPITAL F	
+U+2132	Ⅎ		TURNED CAPITAL F	
+U+2133	ℳ		SCRIPT CAPITAL M	
+U+2134	ℴ		SCRIPT SMALL O	
+U+2135	ℵ		ALEF SYMBOL	
+U+2136	ℶ		BET SYMBOL	
+U+2137	ℷ		GIMEL SYMBOL	
+U+2138	ℸ		DALET SYMBOL	
+U+2139	ℹ		INFORMATION SOURCE	
+U+213A	℺		ROTATED CAPITAL Q	
+U+213B	℻		FACSIMILE SIGN	
+U+213C	ℼ		DOUBLE-STRUCK SMALL PI	
+U+213D	ℽ		DOUBLE-STRUCK SMALL GAMMA	
+U+213E	ℾ		DOUBLE-STRUCK CAPITAL GAMMA	
+U+213F	ℿ		DOUBLE-STRUCK CAPITAL PI	
+U+2140	⅀		DOUBLE-STRUCK N-ARY SUMMATION	
+U+2141	⅁		TURNED SANS-SERIF CAPITAL G	
+U+2142	⅂		TURNED SANS-SERIF CAPITAL L	
+U+2143	⅃		REVERSED SANS-SERIF CAPITAL L	
+U+2144	⅄		TURNED SANS-SERIF CAPITAL Y	
+U+2145	ⅅ		DOUBLE-STRUCK ITALIC CAPITAL D	
+U+2146	ⅆ		DOUBLE-STRUCK ITALIC SMALL D	
+U+2147	ⅇ		DOUBLE-STRUCK ITALIC SMALL E	
+U+2148	ⅈ		DOUBLE-STRUCK ITALIC SMALL I	
+U+2149	ⅉ		DOUBLE-STRUCK ITALIC SMALL J	
+U+214A	⅊		PROPERTY LINE	
+U+214B	⅋		TURNED AMPERSAND	
+U+214C	⅌		PER SIGN	
+U+214D	⅍		AKTIESELSKAB	
+U+214E	ⅎ		TURNED SMALL F	
+U+214F	⅏		SYMBOL FOR SAMARITAN SOURCE	

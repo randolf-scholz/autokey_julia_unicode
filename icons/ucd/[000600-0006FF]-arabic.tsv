@@ -1,257 +1,257 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0600	؀	0600..06FF	Arabic	Arabic number sign		
-U+0601	؁	0600..06FF	Arabic	Arabic sign sanah		
-U+0602	؂	0600..06FF	Arabic	Arabic footnote marker		
-U+0603	؃	0600..06FF	Arabic	Arabic sign safha		
-U+0604	؄	0600..06FF	Arabic	Arabic sign samvat		
-U+0605	؅	0600..06FF	Arabic	Arabic number mark above		
-U+0606	؆	0600..06FF	Arabic	Arabic-indic cube root		
-U+0607	؇	0600..06FF	Arabic	Arabic-indic fourth root		
-U+0608	؈	0600..06FF	Arabic	Arabic ray		
-U+0609	؉	0600..06FF	Arabic	Arabic-indic per mille sign		
-U+060A	؊	0600..06FF	Arabic	Arabic-indic per ten thousand sign		
-U+060B	؋	0600..06FF	Arabic	Afghani sign		
-U+060C	،	0600..06FF	Arabic	Arabic comma		
-U+060D	؍	0600..06FF	Arabic	Arabic date separator		
-U+060E	؎	0600..06FF	Arabic	Arabic poetic verse sign		
-U+060F	؏	0600..06FF	Arabic	Arabic sign misra		
-U+0610	ؐ	0600..06FF	Arabic	Arabic sign sallallahou alayhe wassallam		
-U+0611	ؑ	0600..06FF	Arabic	Arabic sign alayhe assallam		
-U+0612	ؒ	0600..06FF	Arabic	Arabic sign rahmatullah alayhe		
-U+0613	ؓ	0600..06FF	Arabic	Arabic sign radi allahou anhu		
-U+0614	ؔ	0600..06FF	Arabic	Arabic sign takhallus		
-U+0615	ؕ	0600..06FF	Arabic	Arabic small high tah		
-U+0616	ؖ	0600..06FF	Arabic	Arabic small high ligature alef with lam with yeh		
-U+0617	ؗ	0600..06FF	Arabic	Arabic small high zain		
-U+0618	ؘ	0600..06FF	Arabic	Arabic small fatha		
-U+0619	ؙ	0600..06FF	Arabic	Arabic small damma		
-U+061A	ؚ	0600..06FF	Arabic	Arabic small kasra		
-U+061B	؛	0600..06FF	Arabic	Arabic semicolon		
-U+061C	؜	0600..06FF	Arabic	Arabic letter mark		
-U+061D	؝	0600..06FF	Arabic	Arabic end of text mark		
-U+061E	؞	0600..06FF	Arabic	Arabic triple dot punctuation mark		
-U+061F	؟	0600..06FF	Arabic	Arabic question mark		
-U+0620	ؠ	0600..06FF	Arabic	Arabic letter kashmiri yeh		
-U+0621	ء	0600..06FF	Arabic	Arabic letter hamza		
-U+0622	آ	0600..06FF	Arabic	Arabic letter alef with madda above		
-U+0623	أ	0600..06FF	Arabic	Arabic letter alef with hamza above		
-U+0624	ؤ	0600..06FF	Arabic	Arabic letter waw with hamza above		
-U+0625	إ	0600..06FF	Arabic	Arabic letter alef with hamza below		
-U+0626	ئ	0600..06FF	Arabic	Arabic letter yeh with hamza above		
-U+0627	ا	0600..06FF	Arabic	Arabic letter alef		
-U+0628	ب	0600..06FF	Arabic	Arabic letter beh		
-U+0629	ة	0600..06FF	Arabic	Arabic letter teh marbuta		
-U+062A	ت	0600..06FF	Arabic	Arabic letter teh		
-U+062B	ث	0600..06FF	Arabic	Arabic letter theh		
-U+062C	ج	0600..06FF	Arabic	Arabic letter jeem		
-U+062D	ح	0600..06FF	Arabic	Arabic letter hah		
-U+062E	خ	0600..06FF	Arabic	Arabic letter khah		
-U+062F	د	0600..06FF	Arabic	Arabic letter dal		
-U+0630	ذ	0600..06FF	Arabic	Arabic letter thal		
-U+0631	ر	0600..06FF	Arabic	Arabic letter reh		
-U+0632	ز	0600..06FF	Arabic	Arabic letter zain		
-U+0633	س	0600..06FF	Arabic	Arabic letter seen		
-U+0634	ش	0600..06FF	Arabic	Arabic letter sheen		
-U+0635	ص	0600..06FF	Arabic	Arabic letter sad		
-U+0636	ض	0600..06FF	Arabic	Arabic letter dad		
-U+0637	ط	0600..06FF	Arabic	Arabic letter tah		
-U+0638	ظ	0600..06FF	Arabic	Arabic letter zah		
-U+0639	ع	0600..06FF	Arabic	Arabic letter ain		
-U+063A	غ	0600..06FF	Arabic	Arabic letter ghain		
-U+063B	ػ	0600..06FF	Arabic	Arabic letter keheh with two dots above		
-U+063C	ؼ	0600..06FF	Arabic	Arabic letter keheh with three dots below		
-U+063D	ؽ	0600..06FF	Arabic	Arabic letter farsi yeh with inverted v		
-U+063E	ؾ	0600..06FF	Arabic	Arabic letter farsi yeh with two dots above		
-U+063F	ؿ	0600..06FF	Arabic	Arabic letter farsi yeh with three dots above		
-U+0640	ـ	0600..06FF	Arabic	Arabic tatweel		
-U+0641	ف	0600..06FF	Arabic	Arabic letter feh		
-U+0642	ق	0600..06FF	Arabic	Arabic letter qaf		
-U+0643	ك	0600..06FF	Arabic	Arabic letter kaf		
-U+0644	ل	0600..06FF	Arabic	Arabic letter lam		
-U+0645	م	0600..06FF	Arabic	Arabic letter meem		
-U+0646	ن	0600..06FF	Arabic	Arabic letter noon		
-U+0647	ه	0600..06FF	Arabic	Arabic letter heh		
-U+0648	و	0600..06FF	Arabic	Arabic letter waw		
-U+0649	ى	0600..06FF	Arabic	Arabic letter alef maksura		
-U+064A	ي	0600..06FF	Arabic	Arabic letter yeh		
-U+064B	ً	0600..06FF	Arabic	Arabic fathatan		
-U+064C	ٌ	0600..06FF	Arabic	Arabic dammatan		
-U+064D	ٍ	0600..06FF	Arabic	Arabic kasratan		
-U+064E	َ	0600..06FF	Arabic	Arabic fatha		
-U+064F	ُ	0600..06FF	Arabic	Arabic damma		
-U+0650	ِ	0600..06FF	Arabic	Arabic kasra		
-U+0651	ّ	0600..06FF	Arabic	Arabic shadda		
-U+0652	ْ	0600..06FF	Arabic	Arabic sukun		
-U+0653	ٓ	0600..06FF	Arabic	Arabic maddah above		
-U+0654	ٔ	0600..06FF	Arabic	Arabic hamza above		
-U+0655	ٕ	0600..06FF	Arabic	Arabic hamza below		
-U+0656	ٖ	0600..06FF	Arabic	Arabic subscript alef		
-U+0657	ٗ	0600..06FF	Arabic	Arabic inverted damma		
-U+0658	٘	0600..06FF	Arabic	Arabic mark noon ghunna		
-U+0659	ٙ	0600..06FF	Arabic	Arabic zwarakay		
-U+065A	ٚ	0600..06FF	Arabic	Arabic vowel sign small v above		
-U+065B	ٛ	0600..06FF	Arabic	Arabic vowel sign inverted small v above		
-U+065C	ٜ	0600..06FF	Arabic	Arabic vowel sign dot below		
-U+065D	ٝ	0600..06FF	Arabic	Arabic reversed damma		
-U+065E	ٞ	0600..06FF	Arabic	Arabic fatha with two dots		
-U+065F	ٟ	0600..06FF	Arabic	Arabic wavy hamza below		
-U+0660	٠	0600..06FF	Arabic	Arabic-indic digit zero		
-U+0661	١	0600..06FF	Arabic	Arabic-indic digit one		
-U+0662	٢	0600..06FF	Arabic	Arabic-indic digit two		
-U+0663	٣	0600..06FF	Arabic	Arabic-indic digit three		
-U+0664	٤	0600..06FF	Arabic	Arabic-indic digit four		
-U+0665	٥	0600..06FF	Arabic	Arabic-indic digit five		
-U+0666	٦	0600..06FF	Arabic	Arabic-indic digit six		
-U+0667	٧	0600..06FF	Arabic	Arabic-indic digit seven		
-U+0668	٨	0600..06FF	Arabic	Arabic-indic digit eight		
-U+0669	٩	0600..06FF	Arabic	Arabic-indic digit nine		
-U+066A	٪	0600..06FF	Arabic	Arabic percent sign		
-U+066B	٫	0600..06FF	Arabic	Arabic decimal separator		
-U+066C	٬	0600..06FF	Arabic	Arabic thousands separator		
-U+066D	٭	0600..06FF	Arabic	Arabic five pointed star		
-U+066E	ٮ	0600..06FF	Arabic	Arabic letter dotless beh		
-U+066F	ٯ	0600..06FF	Arabic	Arabic letter dotless qaf		
-U+0670	ٰ	0600..06FF	Arabic	Arabic letter superscript alef		
-U+0671	ٱ	0600..06FF	Arabic	Arabic letter alef wasla		
-U+0672	ٲ	0600..06FF	Arabic	Arabic letter alef with wavy hamza above		
-U+0673	ٳ	0600..06FF	Arabic	Arabic letter alef with wavy hamza below		
-U+0674	ٴ	0600..06FF	Arabic	Arabic letter high hamza		
-U+0675	ٵ	0600..06FF	Arabic	Arabic letter high hamza alef		
-U+0676	ٶ	0600..06FF	Arabic	Arabic letter high hamza waw		
-U+0677	ٷ	0600..06FF	Arabic	Arabic letter u with hamza above		
-U+0678	ٸ	0600..06FF	Arabic	Arabic letter high hamza yeh		
-U+0679	ٹ	0600..06FF	Arabic	Arabic letter tteh		
-U+067A	ٺ	0600..06FF	Arabic	Arabic letter tteheh		
-U+067B	ٻ	0600..06FF	Arabic	Arabic letter beeh		
-U+067C	ټ	0600..06FF	Arabic	Arabic letter teh with ring		
-U+067D	ٽ	0600..06FF	Arabic	Arabic letter teh with three dots above downwards		
-U+067E	پ	0600..06FF	Arabic	Arabic letter peh		
-U+067F	ٿ	0600..06FF	Arabic	Arabic letter teheh		
-U+0680	ڀ	0600..06FF	Arabic	Arabic letter beheh		
-U+0681	ځ	0600..06FF	Arabic	Arabic letter hah with hamza above		
-U+0682	ڂ	0600..06FF	Arabic	Arabic letter hah with two dots vertical above		
-U+0683	ڃ	0600..06FF	Arabic	Arabic letter nyeh		
-U+0684	ڄ	0600..06FF	Arabic	Arabic letter dyeh		
-U+0685	څ	0600..06FF	Arabic	Arabic letter hah with three dots above		
-U+0686	چ	0600..06FF	Arabic	Arabic letter tcheh		
-U+0687	ڇ	0600..06FF	Arabic	Arabic letter tcheheh		
-U+0688	ڈ	0600..06FF	Arabic	Arabic letter ddal		
-U+0689	ډ	0600..06FF	Arabic	Arabic letter dal with ring		
-U+068A	ڊ	0600..06FF	Arabic	Arabic letter dal with dot below		
-U+068B	ڋ	0600..06FF	Arabic	Arabic letter dal with dot below and small tah		
-U+068C	ڌ	0600..06FF	Arabic	Arabic letter dahal		
-U+068D	ڍ	0600..06FF	Arabic	Arabic letter ddahal		
-U+068E	ڎ	0600..06FF	Arabic	Arabic letter dul		
-U+068F	ڏ	0600..06FF	Arabic	Arabic letter dal with three dots above downwards		
-U+0690	ڐ	0600..06FF	Arabic	Arabic letter dal with four dots above		
-U+0691	ڑ	0600..06FF	Arabic	Arabic letter rreh		
-U+0692	ڒ	0600..06FF	Arabic	Arabic letter reh with small v		
-U+0693	ړ	0600..06FF	Arabic	Arabic letter reh with ring		
-U+0694	ڔ	0600..06FF	Arabic	Arabic letter reh with dot below		
-U+0695	ڕ	0600..06FF	Arabic	Arabic letter reh with small v below		
-U+0696	ږ	0600..06FF	Arabic	Arabic letter reh with dot below and dot above		
-U+0697	ڗ	0600..06FF	Arabic	Arabic letter reh with two dots above		
-U+0698	ژ	0600..06FF	Arabic	Arabic letter jeh		
-U+0699	ڙ	0600..06FF	Arabic	Arabic letter reh with four dots above		
-U+069A	ښ	0600..06FF	Arabic	Arabic letter seen with dot below and dot above		
-U+069B	ڛ	0600..06FF	Arabic	Arabic letter seen with three dots below		
-U+069C	ڜ	0600..06FF	Arabic	Arabic letter seen with three dots below and three dots above		
-U+069D	ڝ	0600..06FF	Arabic	Arabic letter sad with two dots below		
-U+069E	ڞ	0600..06FF	Arabic	Arabic letter sad with three dots above		
-U+069F	ڟ	0600..06FF	Arabic	Arabic letter tah with three dots above		
-U+06A0	ڠ	0600..06FF	Arabic	Arabic letter ain with three dots above		
-U+06A1	ڡ	0600..06FF	Arabic	Arabic letter dotless feh		
-U+06A2	ڢ	0600..06FF	Arabic	Arabic letter feh with dot moved below		
-U+06A3	ڣ	0600..06FF	Arabic	Arabic letter feh with dot below		
-U+06A4	ڤ	0600..06FF	Arabic	Arabic letter veh		
-U+06A5	ڥ	0600..06FF	Arabic	Arabic letter feh with three dots below		
-U+06A6	ڦ	0600..06FF	Arabic	Arabic letter peheh		
-U+06A7	ڧ	0600..06FF	Arabic	Arabic letter qaf with dot above		
-U+06A8	ڨ	0600..06FF	Arabic	Arabic letter qaf with three dots above		
-U+06A9	ک	0600..06FF	Arabic	Arabic letter keheh		
-U+06AA	ڪ	0600..06FF	Arabic	Arabic letter swash kaf		
-U+06AB	ګ	0600..06FF	Arabic	Arabic letter kaf with ring		
-U+06AC	ڬ	0600..06FF	Arabic	Arabic letter kaf with dot above		
-U+06AD	ڭ	0600..06FF	Arabic	Arabic letter ng		
-U+06AE	ڮ	0600..06FF	Arabic	Arabic letter kaf with three dots below		
-U+06AF	گ	0600..06FF	Arabic	Arabic letter gaf		
-U+06B0	ڰ	0600..06FF	Arabic	Arabic letter gaf with ring		
-U+06B1	ڱ	0600..06FF	Arabic	Arabic letter ngoeh		
-U+06B2	ڲ	0600..06FF	Arabic	Arabic letter gaf with two dots below		
-U+06B3	ڳ	0600..06FF	Arabic	Arabic letter gueh		
-U+06B4	ڴ	0600..06FF	Arabic	Arabic letter gaf with three dots above		
-U+06B5	ڵ	0600..06FF	Arabic	Arabic letter lam with small v		
-U+06B6	ڶ	0600..06FF	Arabic	Arabic letter lam with dot above		
-U+06B7	ڷ	0600..06FF	Arabic	Arabic letter lam with three dots above		
-U+06B8	ڸ	0600..06FF	Arabic	Arabic letter lam with three dots below		
-U+06B9	ڹ	0600..06FF	Arabic	Arabic letter noon with dot below		
-U+06BA	ں	0600..06FF	Arabic	Arabic letter noon ghunna		
-U+06BB	ڻ	0600..06FF	Arabic	Arabic letter rnoon		
-U+06BC	ڼ	0600..06FF	Arabic	Arabic letter noon with ring		
-U+06BD	ڽ	0600..06FF	Arabic	Arabic letter noon with three dots above		
-U+06BE	ھ	0600..06FF	Arabic	Arabic letter heh doachashmee		
-U+06BF	ڿ	0600..06FF	Arabic	Arabic letter tcheh with dot above		
-U+06C0	ۀ	0600..06FF	Arabic	Arabic letter heh with yeh above		
-U+06C1	ہ	0600..06FF	Arabic	Arabic letter heh goal		
-U+06C2	ۂ	0600..06FF	Arabic	Arabic letter heh goal with hamza above		
-U+06C3	ۃ	0600..06FF	Arabic	Arabic letter teh marbuta goal		
-U+06C4	ۄ	0600..06FF	Arabic	Arabic letter waw with ring		
-U+06C5	ۅ	0600..06FF	Arabic	Arabic letter kirghiz oe		
-U+06C6	ۆ	0600..06FF	Arabic	Arabic letter oe		
-U+06C7	ۇ	0600..06FF	Arabic	Arabic letter u		
-U+06C8	ۈ	0600..06FF	Arabic	Arabic letter yu		
-U+06C9	ۉ	0600..06FF	Arabic	Arabic letter kirghiz yu		
-U+06CA	ۊ	0600..06FF	Arabic	Arabic letter waw with two dots above		
-U+06CB	ۋ	0600..06FF	Arabic	Arabic letter ve		
-U+06CC	ی	0600..06FF	Arabic	Arabic letter farsi yeh		
-U+06CD	ۍ	0600..06FF	Arabic	Arabic letter yeh with tail		
-U+06CE	ێ	0600..06FF	Arabic	Arabic letter yeh with small v		
-U+06CF	ۏ	0600..06FF	Arabic	Arabic letter waw with dot above		
-U+06D0	ې	0600..06FF	Arabic	Arabic letter e		
-U+06D1	ۑ	0600..06FF	Arabic	Arabic letter yeh with three dots below		
-U+06D2	ے	0600..06FF	Arabic	Arabic letter yeh barree		
-U+06D3	ۓ	0600..06FF	Arabic	Arabic letter yeh barree with hamza above		
-U+06D4	۔	0600..06FF	Arabic	Arabic full stop		
-U+06D5	ە	0600..06FF	Arabic	Arabic letter ae		
-U+06D6	ۖ	0600..06FF	Arabic	Arabic small high ligature sad with lam with alef maksura		
-U+06D7	ۗ	0600..06FF	Arabic	Arabic small high ligature qaf with lam with alef maksura		
-U+06D8	ۘ	0600..06FF	Arabic	Arabic small high meem initial form		
-U+06D9	ۙ	0600..06FF	Arabic	Arabic small high lam alef		
-U+06DA	ۚ	0600..06FF	Arabic	Arabic small high jeem		
-U+06DB	ۛ	0600..06FF	Arabic	Arabic small high three dots		
-U+06DC	ۜ	0600..06FF	Arabic	Arabic small high seen		
-U+06DD	۝	0600..06FF	Arabic	Arabic end of ayah		
-U+06DE	۞	0600..06FF	Arabic	Arabic start of rub el hizb		
-U+06DF	۟	0600..06FF	Arabic	Arabic small high rounded zero		
-U+06E0	۠	0600..06FF	Arabic	Arabic small high upright rectangular zero		
-U+06E1	ۡ	0600..06FF	Arabic	Arabic small high dotless head of khah		
-U+06E2	ۢ	0600..06FF	Arabic	Arabic small high meem isolated form		
-U+06E3	ۣ	0600..06FF	Arabic	Arabic small low seen		
-U+06E4	ۤ	0600..06FF	Arabic	Arabic small high madda		
-U+06E5	ۥ	0600..06FF	Arabic	Arabic small waw		
-U+06E6	ۦ	0600..06FF	Arabic	Arabic small yeh		
-U+06E7	ۧ	0600..06FF	Arabic	Arabic small high yeh		
-U+06E8	ۨ	0600..06FF	Arabic	Arabic small high noon		
-U+06E9	۩	0600..06FF	Arabic	Arabic place of sajdah		
-U+06EA	۪	0600..06FF	Arabic	Arabic empty centre low stop		
-U+06EB	۫	0600..06FF	Arabic	Arabic empty centre high stop		
-U+06EC	۬	0600..06FF	Arabic	Arabic rounded high stop with filled centre		
-U+06ED	ۭ	0600..06FF	Arabic	Arabic small low meem		
-U+06EE	ۮ	0600..06FF	Arabic	Arabic letter dal with inverted v		
-U+06EF	ۯ	0600..06FF	Arabic	Arabic letter reh with inverted v		
-U+06F0	۰	0600..06FF	Arabic	Extended arabic-indic digit zero		
-U+06F1	۱	0600..06FF	Arabic	Extended arabic-indic digit one		
-U+06F2	۲	0600..06FF	Arabic	Extended arabic-indic digit two		
-U+06F3	۳	0600..06FF	Arabic	Extended arabic-indic digit three		
-U+06F4	۴	0600..06FF	Arabic	Extended arabic-indic digit four		
-U+06F5	۵	0600..06FF	Arabic	Extended arabic-indic digit five		
-U+06F6	۶	0600..06FF	Arabic	Extended arabic-indic digit six		
-U+06F7	۷	0600..06FF	Arabic	Extended arabic-indic digit seven		
-U+06F8	۸	0600..06FF	Arabic	Extended arabic-indic digit eight		
-U+06F9	۹	0600..06FF	Arabic	Extended arabic-indic digit nine		
-U+06FA	ۺ	0600..06FF	Arabic	Arabic letter sheen with dot below		
-U+06FB	ۻ	0600..06FF	Arabic	Arabic letter dad with dot below		
-U+06FC	ۼ	0600..06FF	Arabic	Arabic letter ghain with dot below		
-U+06FD	۽	0600..06FF	Arabic	Arabic sign sindhi ampersand		
-U+06FE	۾	0600..06FF	Arabic	Arabic sign sindhi postposition men		
-U+06FF	ۿ	0600..06FF	Arabic	Arabic letter heh with inverted v		
+code_points	chars	tab_completions	unicode_name	base
+U+0600	؀		ARABIC NUMBER SIGN	
+U+0601	؁		ARABIC SIGN SANAH	
+U+0602	؂		ARABIC FOOTNOTE MARKER	
+U+0603	؃		ARABIC SIGN SAFHA	
+U+0604	؄		ARABIC SIGN SAMVAT	
+U+0605	؅		ARABIC NUMBER MARK ABOVE	
+U+0606	؆		ARABIC-INDIC CUBE ROOT	
+U+0607	؇		ARABIC-INDIC FOURTH ROOT	
+U+0608	؈		ARABIC RAY	
+U+0609	؉		ARABIC-INDIC PER MILLE SIGN	
+U+060A	؊		ARABIC-INDIC PER TEN THOUSAND SIGN	
+U+060B	؋		AFGHANI SIGN	
+U+060C	،		ARABIC COMMA	
+U+060D	؍		ARABIC DATE SEPARATOR	
+U+060E	؎		ARABIC POETIC VERSE SIGN	
+U+060F	؏		ARABIC SIGN MISRA	
+U+0610	ؐ		ARABIC SIGN SALLALLAHOU ALAYHE WASSALLAM	
+U+0611	ؑ		ARABIC SIGN ALAYHE ASSALLAM	
+U+0612	ؒ		ARABIC SIGN RAHMATULLAH ALAYHE	
+U+0613	ؓ		ARABIC SIGN RADI ALLAHOU ANHU	
+U+0614	ؔ		ARABIC SIGN TAKHALLUS	
+U+0615	ؕ		ARABIC SMALL HIGH TAH	
+U+0616	ؖ		ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH	
+U+0617	ؗ		ARABIC SMALL HIGH ZAIN	
+U+0618	ؘ		ARABIC SMALL FATHA	
+U+0619	ؙ		ARABIC SMALL DAMMA	
+U+061A	ؚ		ARABIC SMALL KASRA	
+U+061B	؛		ARABIC SEMICOLON	
+U+061C	؜		ARABIC LETTER MARK	
+U+061D	؝		ARABIC END OF TEXT MARK	
+U+061E	؞		ARABIC TRIPLE DOT PUNCTUATION MARK	
+U+061F	؟		ARABIC QUESTION MARK	
+U+0620	ؠ		ARABIC LETTER KASHMIRI YEH	
+U+0621	ء		ARABIC LETTER HAMZA	
+U+0622	آ		ARABIC LETTER ALEF WITH MADDA ABOVE	
+U+0623	أ		ARABIC LETTER ALEF WITH HAMZA ABOVE	
+U+0624	ؤ		ARABIC LETTER WAW WITH HAMZA ABOVE	
+U+0625	إ		ARABIC LETTER ALEF WITH HAMZA BELOW	
+U+0626	ئ		ARABIC LETTER YEH WITH HAMZA ABOVE	
+U+0627	ا		ARABIC LETTER ALEF	
+U+0628	ب		ARABIC LETTER BEH	
+U+0629	ة		ARABIC LETTER TEH MARBUTA	
+U+062A	ت		ARABIC LETTER TEH	
+U+062B	ث		ARABIC LETTER THEH	
+U+062C	ج		ARABIC LETTER JEEM	
+U+062D	ح		ARABIC LETTER HAH	
+U+062E	خ		ARABIC LETTER KHAH	
+U+062F	د		ARABIC LETTER DAL	
+U+0630	ذ		ARABIC LETTER THAL	
+U+0631	ر		ARABIC LETTER REH	
+U+0632	ز		ARABIC LETTER ZAIN	
+U+0633	س		ARABIC LETTER SEEN	
+U+0634	ش		ARABIC LETTER SHEEN	
+U+0635	ص		ARABIC LETTER SAD	
+U+0636	ض		ARABIC LETTER DAD	
+U+0637	ط		ARABIC LETTER TAH	
+U+0638	ظ		ARABIC LETTER ZAH	
+U+0639	ع		ARABIC LETTER AIN	
+U+063A	غ		ARABIC LETTER GHAIN	
+U+063B	ػ		ARABIC LETTER KEHEH WITH TWO DOTS ABOVE	
+U+063C	ؼ		ARABIC LETTER KEHEH WITH THREE DOTS BELOW	
+U+063D	ؽ		ARABIC LETTER FARSI YEH WITH INVERTED V	
+U+063E	ؾ		ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE	
+U+063F	ؿ		ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE	
+U+0640	ـ		ARABIC TATWEEL	
+U+0641	ف		ARABIC LETTER FEH	
+U+0642	ق		ARABIC LETTER QAF	
+U+0643	ك		ARABIC LETTER KAF	
+U+0644	ل		ARABIC LETTER LAM	
+U+0645	م		ARABIC LETTER MEEM	
+U+0646	ن		ARABIC LETTER NOON	
+U+0647	ه		ARABIC LETTER HEH	
+U+0648	و		ARABIC LETTER WAW	
+U+0649	ى		ARABIC LETTER ALEF MAKSURA	
+U+064A	ي		ARABIC LETTER YEH	
+U+064B	ً		ARABIC FATHATAN	
+U+064C	ٌ		ARABIC DAMMATAN	
+U+064D	ٍ		ARABIC KASRATAN	
+U+064E	َ		ARABIC FATHA	
+U+064F	ُ		ARABIC DAMMA	
+U+0650	ِ		ARABIC KASRA	
+U+0651	ّ		ARABIC SHADDA	
+U+0652	ْ		ARABIC SUKUN	
+U+0653	ٓ		ARABIC MADDAH ABOVE	
+U+0654	ٔ		ARABIC HAMZA ABOVE	
+U+0655	ٕ		ARABIC HAMZA BELOW	
+U+0656	ٖ		ARABIC SUBSCRIPT ALEF	
+U+0657	ٗ		ARABIC INVERTED DAMMA	
+U+0658	٘		ARABIC MARK NOON GHUNNA	
+U+0659	ٙ		ARABIC ZWARAKAY	
+U+065A	ٚ		ARABIC VOWEL SIGN SMALL V ABOVE	
+U+065B	ٛ		ARABIC VOWEL SIGN INVERTED SMALL V ABOVE	
+U+065C	ٜ		ARABIC VOWEL SIGN DOT BELOW	
+U+065D	ٝ		ARABIC REVERSED DAMMA	
+U+065E	ٞ		ARABIC FATHA WITH TWO DOTS	
+U+065F	ٟ		ARABIC WAVY HAMZA BELOW	
+U+0660	٠		ARABIC-INDIC DIGIT ZERO	
+U+0661	١		ARABIC-INDIC DIGIT ONE	
+U+0662	٢		ARABIC-INDIC DIGIT TWO	
+U+0663	٣		ARABIC-INDIC DIGIT THREE	
+U+0664	٤		ARABIC-INDIC DIGIT FOUR	
+U+0665	٥		ARABIC-INDIC DIGIT FIVE	
+U+0666	٦		ARABIC-INDIC DIGIT SIX	
+U+0667	٧		ARABIC-INDIC DIGIT SEVEN	
+U+0668	٨		ARABIC-INDIC DIGIT EIGHT	
+U+0669	٩		ARABIC-INDIC DIGIT NINE	
+U+066A	٪		ARABIC PERCENT SIGN	
+U+066B	٫		ARABIC DECIMAL SEPARATOR	
+U+066C	٬		ARABIC THOUSANDS SEPARATOR	
+U+066D	٭		ARABIC FIVE POINTED STAR	
+U+066E	ٮ		ARABIC LETTER DOTLESS BEH	
+U+066F	ٯ		ARABIC LETTER DOTLESS QAF	
+U+0670	ٰ		ARABIC LETTER SUPERSCRIPT ALEF	
+U+0671	ٱ		ARABIC LETTER ALEF WASLA	
+U+0672	ٲ		ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE	
+U+0673	ٳ		ARABIC LETTER ALEF WITH WAVY HAMZA BELOW	
+U+0674	ٴ		ARABIC LETTER HIGH HAMZA	
+U+0675	ٵ		ARABIC LETTER HIGH HAMZA ALEF	
+U+0676	ٶ		ARABIC LETTER HIGH HAMZA WAW	
+U+0677	ٷ		ARABIC LETTER U WITH HAMZA ABOVE	
+U+0678	ٸ		ARABIC LETTER HIGH HAMZA YEH	
+U+0679	ٹ		ARABIC LETTER TTEH	
+U+067A	ٺ		ARABIC LETTER TTEHEH	
+U+067B	ٻ		ARABIC LETTER BEEH	
+U+067C	ټ		ARABIC LETTER TEH WITH RING	
+U+067D	ٽ		ARABIC LETTER TEH WITH THREE DOTS ABOVE DOWNWARDS	
+U+067E	پ		ARABIC LETTER PEH	
+U+067F	ٿ		ARABIC LETTER TEHEH	
+U+0680	ڀ		ARABIC LETTER BEHEH	
+U+0681	ځ		ARABIC LETTER HAH WITH HAMZA ABOVE	
+U+0682	ڂ		ARABIC LETTER HAH WITH TWO DOTS VERTICAL ABOVE	
+U+0683	ڃ		ARABIC LETTER NYEH	
+U+0684	ڄ		ARABIC LETTER DYEH	
+U+0685	څ		ARABIC LETTER HAH WITH THREE DOTS ABOVE	
+U+0686	چ		ARABIC LETTER TCHEH	
+U+0687	ڇ		ARABIC LETTER TCHEHEH	
+U+0688	ڈ		ARABIC LETTER DDAL	
+U+0689	ډ		ARABIC LETTER DAL WITH RING	
+U+068A	ڊ		ARABIC LETTER DAL WITH DOT BELOW	
+U+068B	ڋ		ARABIC LETTER DAL WITH DOT BELOW AND SMALL TAH	
+U+068C	ڌ		ARABIC LETTER DAHAL	
+U+068D	ڍ		ARABIC LETTER DDAHAL	
+U+068E	ڎ		ARABIC LETTER DUL	
+U+068F	ڏ		ARABIC LETTER DAL WITH THREE DOTS ABOVE DOWNWARDS	
+U+0690	ڐ		ARABIC LETTER DAL WITH FOUR DOTS ABOVE	
+U+0691	ڑ		ARABIC LETTER RREH	
+U+0692	ڒ		ARABIC LETTER REH WITH SMALL V	
+U+0693	ړ		ARABIC LETTER REH WITH RING	
+U+0694	ڔ		ARABIC LETTER REH WITH DOT BELOW	
+U+0695	ڕ		ARABIC LETTER REH WITH SMALL V BELOW	
+U+0696	ږ		ARABIC LETTER REH WITH DOT BELOW AND DOT ABOVE	
+U+0697	ڗ		ARABIC LETTER REH WITH TWO DOTS ABOVE	
+U+0698	ژ		ARABIC LETTER JEH	
+U+0699	ڙ		ARABIC LETTER REH WITH FOUR DOTS ABOVE	
+U+069A	ښ		ARABIC LETTER SEEN WITH DOT BELOW AND DOT ABOVE	
+U+069B	ڛ		ARABIC LETTER SEEN WITH THREE DOTS BELOW	
+U+069C	ڜ		ARABIC LETTER SEEN WITH THREE DOTS BELOW AND THREE DOTS ABOVE	
+U+069D	ڝ		ARABIC LETTER SAD WITH TWO DOTS BELOW	
+U+069E	ڞ		ARABIC LETTER SAD WITH THREE DOTS ABOVE	
+U+069F	ڟ		ARABIC LETTER TAH WITH THREE DOTS ABOVE	
+U+06A0	ڠ		ARABIC LETTER AIN WITH THREE DOTS ABOVE	
+U+06A1	ڡ		ARABIC LETTER DOTLESS FEH	
+U+06A2	ڢ		ARABIC LETTER FEH WITH DOT MOVED BELOW	
+U+06A3	ڣ		ARABIC LETTER FEH WITH DOT BELOW	
+U+06A4	ڤ		ARABIC LETTER VEH	
+U+06A5	ڥ		ARABIC LETTER FEH WITH THREE DOTS BELOW	
+U+06A6	ڦ		ARABIC LETTER PEHEH	
+U+06A7	ڧ		ARABIC LETTER QAF WITH DOT ABOVE	
+U+06A8	ڨ		ARABIC LETTER QAF WITH THREE DOTS ABOVE	
+U+06A9	ک		ARABIC LETTER KEHEH	
+U+06AA	ڪ		ARABIC LETTER SWASH KAF	
+U+06AB	ګ		ARABIC LETTER KAF WITH RING	
+U+06AC	ڬ		ARABIC LETTER KAF WITH DOT ABOVE	
+U+06AD	ڭ		ARABIC LETTER NG	
+U+06AE	ڮ		ARABIC LETTER KAF WITH THREE DOTS BELOW	
+U+06AF	گ		ARABIC LETTER GAF	
+U+06B0	ڰ		ARABIC LETTER GAF WITH RING	
+U+06B1	ڱ		ARABIC LETTER NGOEH	
+U+06B2	ڲ		ARABIC LETTER GAF WITH TWO DOTS BELOW	
+U+06B3	ڳ		ARABIC LETTER GUEH	
+U+06B4	ڴ		ARABIC LETTER GAF WITH THREE DOTS ABOVE	
+U+06B5	ڵ		ARABIC LETTER LAM WITH SMALL V	
+U+06B6	ڶ		ARABIC LETTER LAM WITH DOT ABOVE	
+U+06B7	ڷ		ARABIC LETTER LAM WITH THREE DOTS ABOVE	
+U+06B8	ڸ		ARABIC LETTER LAM WITH THREE DOTS BELOW	
+U+06B9	ڹ		ARABIC LETTER NOON WITH DOT BELOW	
+U+06BA	ں		ARABIC LETTER NOON GHUNNA	
+U+06BB	ڻ		ARABIC LETTER RNOON	
+U+06BC	ڼ		ARABIC LETTER NOON WITH RING	
+U+06BD	ڽ		ARABIC LETTER NOON WITH THREE DOTS ABOVE	
+U+06BE	ھ		ARABIC LETTER HEH DOACHASHMEE	
+U+06BF	ڿ		ARABIC LETTER TCHEH WITH DOT ABOVE	
+U+06C0	ۀ		ARABIC LETTER HEH WITH YEH ABOVE	
+U+06C1	ہ		ARABIC LETTER HEH GOAL	
+U+06C2	ۂ		ARABIC LETTER HEH GOAL WITH HAMZA ABOVE	
+U+06C3	ۃ		ARABIC LETTER TEH MARBUTA GOAL	
+U+06C4	ۄ		ARABIC LETTER WAW WITH RING	
+U+06C5	ۅ		ARABIC LETTER KIRGHIZ OE	
+U+06C6	ۆ		ARABIC LETTER OE	
+U+06C7	ۇ		ARABIC LETTER U	
+U+06C8	ۈ		ARABIC LETTER YU	
+U+06C9	ۉ		ARABIC LETTER KIRGHIZ YU	
+U+06CA	ۊ		ARABIC LETTER WAW WITH TWO DOTS ABOVE	
+U+06CB	ۋ		ARABIC LETTER VE	
+U+06CC	ی		ARABIC LETTER FARSI YEH	
+U+06CD	ۍ		ARABIC LETTER YEH WITH TAIL	
+U+06CE	ێ		ARABIC LETTER YEH WITH SMALL V	
+U+06CF	ۏ		ARABIC LETTER WAW WITH DOT ABOVE	
+U+06D0	ې		ARABIC LETTER E	
+U+06D1	ۑ		ARABIC LETTER YEH WITH THREE DOTS BELOW	
+U+06D2	ے		ARABIC LETTER YEH BARREE	
+U+06D3	ۓ		ARABIC LETTER YEH BARREE WITH HAMZA ABOVE	
+U+06D4	۔		ARABIC FULL STOP	
+U+06D5	ە		ARABIC LETTER AE	
+U+06D6	ۖ		ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA	
+U+06D7	ۗ		ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA	
+U+06D8	ۘ		ARABIC SMALL HIGH MEEM INITIAL FORM	
+U+06D9	ۙ		ARABIC SMALL HIGH LAM ALEF	
+U+06DA	ۚ		ARABIC SMALL HIGH JEEM	
+U+06DB	ۛ		ARABIC SMALL HIGH THREE DOTS	
+U+06DC	ۜ		ARABIC SMALL HIGH SEEN	
+U+06DD	۝		ARABIC END OF AYAH	
+U+06DE	۞		ARABIC START OF RUB EL HIZB	
+U+06DF	۟		ARABIC SMALL HIGH ROUNDED ZERO	
+U+06E0	۠		ARABIC SMALL HIGH UPRIGHT RECTANGULAR ZERO	
+U+06E1	ۡ		ARABIC SMALL HIGH DOTLESS HEAD OF KHAH	
+U+06E2	ۢ		ARABIC SMALL HIGH MEEM ISOLATED FORM	
+U+06E3	ۣ		ARABIC SMALL LOW SEEN	
+U+06E4	ۤ		ARABIC SMALL HIGH MADDA	
+U+06E5	ۥ		ARABIC SMALL WAW	
+U+06E6	ۦ		ARABIC SMALL YEH	
+U+06E7	ۧ		ARABIC SMALL HIGH YEH	
+U+06E8	ۨ		ARABIC SMALL HIGH NOON	
+U+06E9	۩		ARABIC PLACE OF SAJDAH	
+U+06EA	۪		ARABIC EMPTY CENTRE LOW STOP	
+U+06EB	۫		ARABIC EMPTY CENTRE HIGH STOP	
+U+06EC	۬		ARABIC ROUNDED HIGH STOP WITH FILLED CENTRE	
+U+06ED	ۭ		ARABIC SMALL LOW MEEM	
+U+06EE	ۮ		ARABIC LETTER DAL WITH INVERTED V	
+U+06EF	ۯ		ARABIC LETTER REH WITH INVERTED V	
+U+06F0	۰		EXTENDED ARABIC-INDIC DIGIT ZERO	
+U+06F1	۱		EXTENDED ARABIC-INDIC DIGIT ONE	
+U+06F2	۲		EXTENDED ARABIC-INDIC DIGIT TWO	
+U+06F3	۳		EXTENDED ARABIC-INDIC DIGIT THREE	
+U+06F4	۴		EXTENDED ARABIC-INDIC DIGIT FOUR	
+U+06F5	۵		EXTENDED ARABIC-INDIC DIGIT FIVE	
+U+06F6	۶		EXTENDED ARABIC-INDIC DIGIT SIX	
+U+06F7	۷		EXTENDED ARABIC-INDIC DIGIT SEVEN	
+U+06F8	۸		EXTENDED ARABIC-INDIC DIGIT EIGHT	
+U+06F9	۹		EXTENDED ARABIC-INDIC DIGIT NINE	
+U+06FA	ۺ		ARABIC LETTER SHEEN WITH DOT BELOW	
+U+06FB	ۻ		ARABIC LETTER DAD WITH DOT BELOW	
+U+06FC	ۼ		ARABIC LETTER GHAIN WITH DOT BELOW	
+U+06FD	۽		ARABIC SIGN SINDHI AMPERSAND	
+U+06FE	۾		ARABIC SIGN SINDHI POSTPOSITION MEN	
+U+06FF	ۿ		ARABIC LETTER HEH WITH INVERTED V	

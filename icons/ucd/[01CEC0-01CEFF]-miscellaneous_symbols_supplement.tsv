@@ -1,54 +1,54 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1CEC0	𜻀	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Hebe		
-U+1CEC1	𜻁	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Iris		
-U+1CEC2	𜻂	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Flora		
-U+1CEC3	𜻃	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Metis		
-U+1CEC4	𜻄	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Parthenope		
-U+1CEC5	𜻅	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Victoria		
-U+1CEC6	𜻆	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Egeria		
-U+1CEC7	𜻇	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Irene		
-U+1CEC8	𜻈	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Eunomia		
-U+1CEC9	𜻉	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Psyche		
-U+1CECA	𜻊	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Thetis		
-U+1CECB	𜻋	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Melpomene		
-U+1CECC	𜻌	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Fortuna		
-U+1CECD	𜻍	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Astronomical symbol for asteroid proserpina		
-U+1CECE	𜻎	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Bellona		
-U+1CECF	𜻏	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Amphitrite		
-U+1CED0	𜻐	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leukothea		
-U+1CED2	𜻒	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Alchemical symbol for oil inverted		
-U+1CED3	𜻓	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Alchemical symbol for moon-jupiter		
-U+1CED4	𜻔	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Alchemical symbol for salt of tartar		
-U+1CEDD	𜻝	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Square root of square root		
-U+1CEDE	𜻞	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Square root of square root of square root		
-U+1CEDF	𜻟	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Square root of square root of square root of square root		
-U+1CEE0	𜻠	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure populus		
-U+1CEE1	𜻡	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure tristitia		
-U+1CEE2	𜻢	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure albus		
-U+1CEE3	𜻣	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure fortuna major		
-U+1CEE4	𜻤	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure rubeus		
-U+1CEE5	𜻥	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure acquisitio		
-U+1CEE6	𜻦	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure conjunctio		
-U+1CEE7	𜻧	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure caput draconis		
-U+1CEE8	𜻨	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure laetitia		
-U+1CEE9	𜻩	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure carcer		
-U+1CEEA	𜻪	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure amissio		
-U+1CEEB	𜻫	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure puella		
-U+1CEEC	𜻬	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure fortuna minor		
-U+1CEED	𜻭	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure puer		
-U+1CEEE	𜻮	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure cauda draconis		
-U+1CEEF	𜻯	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Geomantic figure via		
-U+1CEF0	𜻰	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Medium small white circle with horizontal bar		
-U+1CEF1	𜻱	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leibnizian division sign		
-U+1CEF2	𜻲	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leibnizian multiplication sign		
-U+1CEF3	𜻳	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leibnizian multiplication-division sign		
-U+1CEF4	𜻴	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leibnizian fraction reduction sign-1		
-U+1CEF5	𜻵	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Leibnizian fraction reduction sign-2		
-U+1CEF6	𜻶	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Sector with chord		
-U+1CEF7	𜻷	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Sector with double arc		
-U+1CEF8	𜻸	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Sector with chord and dotted arc		
-U+1CEF9	𜻹	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Measured angle with double arc		
-U+1CEFA	𜻺	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Measured angle with concave arc		
-U+1CEFB	𜻻	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Measured angle with double concave arc		
-U+1CEFC	𜻼	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Angle opening up		
-U+1CEFD	𜻽	1CEC0..1CEFF	Miscellaneous Symbols Supplement	Hyperbola		
+code_points	chars	tab_completions	unicode_name	base
+U+1CEC0	𜻀		HEBE	
+U+1CEC1	𜻁		IRIS	
+U+1CEC2	𜻂		FLORA	
+U+1CEC3	𜻃		METIS	
+U+1CEC4	𜻄		PARTHENOPE	
+U+1CEC5	𜻅		VICTORIA	
+U+1CEC6	𜻆		EGERIA	
+U+1CEC7	𜻇		IRENE	
+U+1CEC8	𜻈		EUNOMIA	
+U+1CEC9	𜻉		PSYCHE	
+U+1CECA	𜻊		THETIS	
+U+1CECB	𜻋		MELPOMENE	
+U+1CECC	𜻌		FORTUNA	
+U+1CECD	𜻍		ASTRONOMICAL SYMBOL FOR ASTEROID PROSERPINA	
+U+1CECE	𜻎		BELLONA	
+U+1CECF	𜻏		AMPHITRITE	
+U+1CED0	𜻐		LEUKOTHEA	
+U+1CED2	𜻒		ALCHEMICAL SYMBOL FOR OIL INVERTED	
+U+1CED3	𜻓		ALCHEMICAL SYMBOL FOR MOON-JUPITER	
+U+1CED4	𜻔		ALCHEMICAL SYMBOL FOR SALT OF TARTAR	
+U+1CEDD	𜻝		SQUARE ROOT OF SQUARE ROOT	
+U+1CEDE	𜻞		SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT	
+U+1CEDF	𜻟		SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT	
+U+1CEE0	𜻠		GEOMANTIC FIGURE POPULUS	
+U+1CEE1	𜻡		GEOMANTIC FIGURE TRISTITIA	
+U+1CEE2	𜻢		GEOMANTIC FIGURE ALBUS	
+U+1CEE3	𜻣		GEOMANTIC FIGURE FORTUNA MAJOR	
+U+1CEE4	𜻤		GEOMANTIC FIGURE RUBEUS	
+U+1CEE5	𜻥		GEOMANTIC FIGURE ACQUISITIO	
+U+1CEE6	𜻦		GEOMANTIC FIGURE CONJUNCTIO	
+U+1CEE7	𜻧		GEOMANTIC FIGURE CAPUT DRACONIS	
+U+1CEE8	𜻨		GEOMANTIC FIGURE LAETITIA	
+U+1CEE9	𜻩		GEOMANTIC FIGURE CARCER	
+U+1CEEA	𜻪		GEOMANTIC FIGURE AMISSIO	
+U+1CEEB	𜻫		GEOMANTIC FIGURE PUELLA	
+U+1CEEC	𜻬		GEOMANTIC FIGURE FORTUNA MINOR	
+U+1CEED	𜻭		GEOMANTIC FIGURE PUER	
+U+1CEEE	𜻮		GEOMANTIC FIGURE CAUDA DRACONIS	
+U+1CEEF	𜻯		GEOMANTIC FIGURE VIA	
+U+1CEF0	𜻰		MEDIUM SMALL WHITE CIRCLE WITH HORIZONTAL BAR	
+U+1CEF1	𜻱		LEIBNIZIAN DIVISION SIGN	
+U+1CEF2	𜻲		LEIBNIZIAN MULTIPLICATION SIGN	
+U+1CEF3	𜻳		LEIBNIZIAN MULTIPLICATION-DIVISION SIGN	
+U+1CEF4	𜻴		LEIBNIZIAN FRACTION REDUCTION SIGN-1	
+U+1CEF5	𜻵		LEIBNIZIAN FRACTION REDUCTION SIGN-2	
+U+1CEF6	𜻶		SECTOR WITH CHORD	
+U+1CEF7	𜻷		SECTOR WITH DOUBLE ARC	
+U+1CEF8	𜻸		SECTOR WITH CHORD AND DOTTED ARC	
+U+1CEF9	𜻹		MEASURED ANGLE WITH DOUBLE ARC	
+U+1CEFA	𜻺		MEASURED ANGLE WITH CONCAVE ARC	
+U+1CEFB	𜻻		MEASURED ANGLE WITH DOUBLE CONCAVE ARC	
+U+1CEFC	𜻼		ANGLE OPENING UP	
+U+1CEFD	𜻽		HYPERBOLA	

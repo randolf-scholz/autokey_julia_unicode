@@ -1,27 +1,27 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1380	ᎀ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit mwa		
-U+1381	ᎁ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwi		
-U+1382	ᎂ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwee		
-U+1383	ᎃ	1380..139F	Ethiopic Supplement	Ethiopic syllable mwe		
-U+1384	ᎄ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit bwa		
-U+1385	ᎅ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwi		
-U+1386	ᎆ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwee		
-U+1387	ᎇ	1380..139F	Ethiopic Supplement	Ethiopic syllable bwe		
-U+1388	ᎈ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit fwa		
-U+1389	ᎉ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwi		
-U+138A	ᎊ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwee		
-U+138B	ᎋ	1380..139F	Ethiopic Supplement	Ethiopic syllable fwe		
-U+138C	ᎌ	1380..139F	Ethiopic Supplement	Ethiopic syllable sebatbeit pwa		
-U+138D	ᎍ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwi		
-U+138E	ᎎ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwee		
-U+138F	ᎏ	1380..139F	Ethiopic Supplement	Ethiopic syllable pwe		
-U+1390	᎐	1380..139F	Ethiopic Supplement	Ethiopic tonal mark yizet		
-U+1391	᎑	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret		
-U+1392	᎒	1380..139F	Ethiopic Supplement	Ethiopic tonal mark rikrik		
-U+1393	᎓	1380..139F	Ethiopic Supplement	Ethiopic tonal mark short rikrik		
-U+1394	᎔	1380..139F	Ethiopic Supplement	Ethiopic tonal mark difat		
-U+1395	᎕	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kenat		
-U+1396	᎖	1380..139F	Ethiopic Supplement	Ethiopic tonal mark chiret		
-U+1397	᎗	1380..139F	Ethiopic Supplement	Ethiopic tonal mark hidet		
-U+1398	᎘	1380..139F	Ethiopic Supplement	Ethiopic tonal mark deret-hidet		
-U+1399	᎙	1380..139F	Ethiopic Supplement	Ethiopic tonal mark kurt		
+code_points	chars	tab_completions	unicode_name	base
+U+1380	ᎀ		ETHIOPIC SYLLABLE SEBATBEIT MWA	
+U+1381	ᎁ		ETHIOPIC SYLLABLE MWI	
+U+1382	ᎂ		ETHIOPIC SYLLABLE MWEE	
+U+1383	ᎃ		ETHIOPIC SYLLABLE MWE	
+U+1384	ᎄ		ETHIOPIC SYLLABLE SEBATBEIT BWA	
+U+1385	ᎅ		ETHIOPIC SYLLABLE BWI	
+U+1386	ᎆ		ETHIOPIC SYLLABLE BWEE	
+U+1387	ᎇ		ETHIOPIC SYLLABLE BWE	
+U+1388	ᎈ		ETHIOPIC SYLLABLE SEBATBEIT FWA	
+U+1389	ᎉ		ETHIOPIC SYLLABLE FWI	
+U+138A	ᎊ		ETHIOPIC SYLLABLE FWEE	
+U+138B	ᎋ		ETHIOPIC SYLLABLE FWE	
+U+138C	ᎌ		ETHIOPIC SYLLABLE SEBATBEIT PWA	
+U+138D	ᎍ		ETHIOPIC SYLLABLE PWI	
+U+138E	ᎎ		ETHIOPIC SYLLABLE PWEE	
+U+138F	ᎏ		ETHIOPIC SYLLABLE PWE	
+U+1390	᎐		ETHIOPIC TONAL MARK YIZET	
+U+1391	᎑		ETHIOPIC TONAL MARK DERET	
+U+1392	᎒		ETHIOPIC TONAL MARK RIKRIK	
+U+1393	᎓		ETHIOPIC TONAL MARK SHORT RIKRIK	
+U+1394	᎔		ETHIOPIC TONAL MARK DIFAT	
+U+1395	᎕		ETHIOPIC TONAL MARK KENAT	
+U+1396	᎖		ETHIOPIC TONAL MARK CHIRET	
+U+1397	᎗		ETHIOPIC TONAL MARK HIDET	
+U+1398	᎘		ETHIOPIC TONAL MARK DERET-HIDET	
+U+1399	᎙		ETHIOPIC TONAL MARK KURT	

@@ -1,41 +1,41 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10500	𐔀	10500..1052F	Elbasan	Elbasan letter a		
-U+10501	𐔁	10500..1052F	Elbasan	Elbasan letter be		
-U+10502	𐔂	10500..1052F	Elbasan	Elbasan letter ce		
-U+10503	𐔃	10500..1052F	Elbasan	Elbasan letter che		
-U+10504	𐔄	10500..1052F	Elbasan	Elbasan letter de		
-U+10505	𐔅	10500..1052F	Elbasan	Elbasan letter nde		
-U+10506	𐔆	10500..1052F	Elbasan	Elbasan letter dhe		
-U+10507	𐔇	10500..1052F	Elbasan	Elbasan letter ei		
-U+10508	𐔈	10500..1052F	Elbasan	Elbasan letter e		
-U+10509	𐔉	10500..1052F	Elbasan	Elbasan letter fe		
-U+1050A	𐔊	10500..1052F	Elbasan	Elbasan letter ge		
-U+1050B	𐔋	10500..1052F	Elbasan	Elbasan letter gje		
-U+1050C	𐔌	10500..1052F	Elbasan	Elbasan letter he		
-U+1050D	𐔍	10500..1052F	Elbasan	Elbasan letter i		
-U+1050E	𐔎	10500..1052F	Elbasan	Elbasan letter je		
-U+1050F	𐔏	10500..1052F	Elbasan	Elbasan letter ke		
-U+10510	𐔐	10500..1052F	Elbasan	Elbasan letter le		
-U+10511	𐔑	10500..1052F	Elbasan	Elbasan letter lle		
-U+10512	𐔒	10500..1052F	Elbasan	Elbasan letter me		
-U+10513	𐔓	10500..1052F	Elbasan	Elbasan letter ne		
-U+10514	𐔔	10500..1052F	Elbasan	Elbasan letter na		
-U+10515	𐔕	10500..1052F	Elbasan	Elbasan letter nje		
-U+10516	𐔖	10500..1052F	Elbasan	Elbasan letter o		
-U+10517	𐔗	10500..1052F	Elbasan	Elbasan letter pe		
-U+10518	𐔘	10500..1052F	Elbasan	Elbasan letter qe		
-U+10519	𐔙	10500..1052F	Elbasan	Elbasan letter re		
-U+1051A	𐔚	10500..1052F	Elbasan	Elbasan letter rre		
-U+1051B	𐔛	10500..1052F	Elbasan	Elbasan letter se		
-U+1051C	𐔜	10500..1052F	Elbasan	Elbasan letter she		
-U+1051D	𐔝	10500..1052F	Elbasan	Elbasan letter te		
-U+1051E	𐔞	10500..1052F	Elbasan	Elbasan letter the		
-U+1051F	𐔟	10500..1052F	Elbasan	Elbasan letter u		
-U+10520	𐔠	10500..1052F	Elbasan	Elbasan letter ve		
-U+10521	𐔡	10500..1052F	Elbasan	Elbasan letter xe		
-U+10522	𐔢	10500..1052F	Elbasan	Elbasan letter y		
-U+10523	𐔣	10500..1052F	Elbasan	Elbasan letter ze		
-U+10524	𐔤	10500..1052F	Elbasan	Elbasan letter zhe		
-U+10525	𐔥	10500..1052F	Elbasan	Elbasan letter ghe		
-U+10526	𐔦	10500..1052F	Elbasan	Elbasan letter ghamma		
-U+10527	𐔧	10500..1052F	Elbasan	Elbasan letter khe		
+code_points	chars	tab_completions	unicode_name	base
+U+10500	𐔀		ELBASAN LETTER A	
+U+10501	𐔁		ELBASAN LETTER BE	
+U+10502	𐔂		ELBASAN LETTER CE	
+U+10503	𐔃		ELBASAN LETTER CHE	
+U+10504	𐔄		ELBASAN LETTER DE	
+U+10505	𐔅		ELBASAN LETTER NDE	
+U+10506	𐔆		ELBASAN LETTER DHE	
+U+10507	𐔇		ELBASAN LETTER EI	
+U+10508	𐔈		ELBASAN LETTER E	
+U+10509	𐔉		ELBASAN LETTER FE	
+U+1050A	𐔊		ELBASAN LETTER GE	
+U+1050B	𐔋		ELBASAN LETTER GJE	
+U+1050C	𐔌		ELBASAN LETTER HE	
+U+1050D	𐔍		ELBASAN LETTER I	
+U+1050E	𐔎		ELBASAN LETTER JE	
+U+1050F	𐔏		ELBASAN LETTER KE	
+U+10510	𐔐		ELBASAN LETTER LE	
+U+10511	𐔑		ELBASAN LETTER LLE	
+U+10512	𐔒		ELBASAN LETTER ME	
+U+10513	𐔓		ELBASAN LETTER NE	
+U+10514	𐔔		ELBASAN LETTER NA	
+U+10515	𐔕		ELBASAN LETTER NJE	
+U+10516	𐔖		ELBASAN LETTER O	
+U+10517	𐔗		ELBASAN LETTER PE	
+U+10518	𐔘		ELBASAN LETTER QE	
+U+10519	𐔙		ELBASAN LETTER RE	
+U+1051A	𐔚		ELBASAN LETTER RRE	
+U+1051B	𐔛		ELBASAN LETTER SE	
+U+1051C	𐔜		ELBASAN LETTER SHE	
+U+1051D	𐔝		ELBASAN LETTER TE	
+U+1051E	𐔞		ELBASAN LETTER THE	
+U+1051F	𐔟		ELBASAN LETTER U	
+U+10520	𐔠		ELBASAN LETTER VE	
+U+10521	𐔡		ELBASAN LETTER XE	
+U+10522	𐔢		ELBASAN LETTER Y	
+U+10523	𐔣		ELBASAN LETTER ZE	
+U+10524	𐔤		ELBASAN LETTER ZHE	
+U+10525	𐔥		ELBASAN LETTER GHE	
+U+10526	𐔦		ELBASAN LETTER GHAMMA	
+U+10527	𐔧		ELBASAN LETTER KHE	

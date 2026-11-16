@@ -1,3 +1,1 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+F0000	󰀀	F0000..FFFFF	Supplementary Private Use Area-A	<plane 15 private use, first>		
-U+FFFFD	󿿽	F0000..FFFFF	Supplementary Private Use Area-A	<plane 15 private use, last>		
+code_points	chars	tab_completions	unicode_name	base

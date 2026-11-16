@@ -1,12 +1,12 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11B00	𑬀	11B00..11B5F	Devanagari Extended-A	Devanagari head mark		
-U+11B01	𑬁	11B00..11B5F	Devanagari Extended-A	Devanagari head mark with headstroke		
-U+11B02	𑬂	11B00..11B5F	Devanagari Extended-A	Devanagari sign bhale		
-U+11B03	𑬃	11B00..11B5F	Devanagari Extended-A	Devanagari sign bhale with hook		
-U+11B04	𑬄	11B00..11B5F	Devanagari Extended-A	Devanagari sign extended bhale		
-U+11B05	𑬅	11B00..11B5F	Devanagari Extended-A	Devanagari sign extended bhale with hook		
-U+11B06	𑬆	11B00..11B5F	Devanagari Extended-A	Devanagari sign western five-like bhale		
-U+11B07	𑬇	11B00..11B5F	Devanagari Extended-A	Devanagari sign western nine-like bhale		
-U+11B08	𑬈	11B00..11B5F	Devanagari Extended-A	Devanagari sign reversed nine-like bhale		
-U+11B09	𑬉	11B00..11B5F	Devanagari Extended-A	Devanagari sign mindu		
-U+11B0A	𑬊	11B00..11B5F	Devanagari Extended-A	Devanagari letter alternate ddda		
+code_points	chars	tab_completions	unicode_name	base
+U+11B00	𑬀		DEVANAGARI HEAD MARK	
+U+11B01	𑬁		DEVANAGARI HEAD MARK WITH HEADSTROKE	
+U+11B02	𑬂		DEVANAGARI SIGN BHALE	
+U+11B03	𑬃		DEVANAGARI SIGN BHALE WITH HOOK	
+U+11B04	𑬄		DEVANAGARI SIGN EXTENDED BHALE	
+U+11B05	𑬅		DEVANAGARI SIGN EXTENDED BHALE WITH HOOK	
+U+11B06	𑬆		DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE	
+U+11B07	𑬇		DEVANAGARI SIGN WESTERN NINE-LIKE BHALE	
+U+11B08	𑬈		DEVANAGARI SIGN REVERSED NINE-LIKE BHALE	
+U+11B09	𑬉		DEVANAGARI SIGN MINDU	
+U+11B0A	𑬊		DEVANAGARI LETTER ALTERNATE DDDA	

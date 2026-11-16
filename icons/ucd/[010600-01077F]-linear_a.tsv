@@ -1,342 +1,342 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10600	𐘀	10600..1077F	Linear A	Linear a sign ab001		
-U+10601	𐘁	10600..1077F	Linear A	Linear a sign ab002		
-U+10602	𐘂	10600..1077F	Linear A	Linear a sign ab003		
-U+10603	𐘃	10600..1077F	Linear A	Linear a sign ab004		
-U+10604	𐘄	10600..1077F	Linear A	Linear a sign ab005		
-U+10605	𐘅	10600..1077F	Linear A	Linear a sign ab006		
-U+10606	𐘆	10600..1077F	Linear A	Linear a sign ab007		
-U+10607	𐘇	10600..1077F	Linear A	Linear a sign ab008		
-U+10608	𐘈	10600..1077F	Linear A	Linear a sign ab009		
-U+10609	𐘉	10600..1077F	Linear A	Linear a sign ab010		
-U+1060A	𐘊	10600..1077F	Linear A	Linear a sign ab011		
-U+1060B	𐘋	10600..1077F	Linear A	Linear a sign ab013		
-U+1060C	𐘌	10600..1077F	Linear A	Linear a sign ab016		
-U+1060D	𐘍	10600..1077F	Linear A	Linear a sign ab017		
-U+1060E	𐘎	10600..1077F	Linear A	Linear a sign ab020		
-U+1060F	𐘏	10600..1077F	Linear A	Linear a sign ab021		
-U+10610	𐘐	10600..1077F	Linear A	Linear a sign ab021f		
-U+10611	𐘑	10600..1077F	Linear A	Linear a sign ab021m		
-U+10612	𐘒	10600..1077F	Linear A	Linear a sign ab022		
-U+10613	𐘓	10600..1077F	Linear A	Linear a sign ab022f		
-U+10614	𐘔	10600..1077F	Linear A	Linear a sign ab022m		
-U+10615	𐘕	10600..1077F	Linear A	Linear a sign ab023		
-U+10616	𐘖	10600..1077F	Linear A	Linear a sign ab023m		
-U+10617	𐘗	10600..1077F	Linear A	Linear a sign ab024		
-U+10618	𐘘	10600..1077F	Linear A	Linear a sign ab026		
-U+10619	𐘙	10600..1077F	Linear A	Linear a sign ab027		
-U+1061A	𐘚	10600..1077F	Linear A	Linear a sign ab028		
-U+1061B	𐘛	10600..1077F	Linear A	Linear a sign a028b		
-U+1061C	𐘜	10600..1077F	Linear A	Linear a sign ab029		
-U+1061D	𐘝	10600..1077F	Linear A	Linear a sign ab030		
-U+1061E	𐘞	10600..1077F	Linear A	Linear a sign ab031		
-U+1061F	𐘟	10600..1077F	Linear A	Linear a sign ab034		
-U+10620	𐘠	10600..1077F	Linear A	Linear a sign ab037		
-U+10621	𐘡	10600..1077F	Linear A	Linear a sign ab038		
-U+10622	𐘢	10600..1077F	Linear A	Linear a sign ab039		
-U+10623	𐘣	10600..1077F	Linear A	Linear a sign ab040		
-U+10624	𐘤	10600..1077F	Linear A	Linear a sign ab041		
-U+10625	𐘥	10600..1077F	Linear A	Linear a sign ab044		
-U+10626	𐘦	10600..1077F	Linear A	Linear a sign ab045		
-U+10627	𐘧	10600..1077F	Linear A	Linear a sign ab046		
-U+10628	𐘨	10600..1077F	Linear A	Linear a sign ab047		
-U+10629	𐘩	10600..1077F	Linear A	Linear a sign ab048		
-U+1062A	𐘪	10600..1077F	Linear A	Linear a sign ab049		
-U+1062B	𐘫	10600..1077F	Linear A	Linear a sign ab050		
-U+1062C	𐘬	10600..1077F	Linear A	Linear a sign ab051		
-U+1062D	𐘭	10600..1077F	Linear A	Linear a sign ab053		
-U+1062E	𐘮	10600..1077F	Linear A	Linear a sign ab054		
-U+1062F	𐘯	10600..1077F	Linear A	Linear a sign ab055		
-U+10630	𐘰	10600..1077F	Linear A	Linear a sign ab056		
-U+10631	𐘱	10600..1077F	Linear A	Linear a sign ab057		
-U+10632	𐘲	10600..1077F	Linear A	Linear a sign ab058		
-U+10633	𐘳	10600..1077F	Linear A	Linear a sign ab059		
-U+10634	𐘴	10600..1077F	Linear A	Linear a sign ab060		
-U+10635	𐘵	10600..1077F	Linear A	Linear a sign ab061		
-U+10636	𐘶	10600..1077F	Linear A	Linear a sign ab065		
-U+10637	𐘷	10600..1077F	Linear A	Linear a sign ab066		
-U+10638	𐘸	10600..1077F	Linear A	Linear a sign ab067		
-U+10639	𐘹	10600..1077F	Linear A	Linear a sign ab069		
-U+1063A	𐘺	10600..1077F	Linear A	Linear a sign ab070		
-U+1063B	𐘻	10600..1077F	Linear A	Linear a sign ab073		
-U+1063C	𐘼	10600..1077F	Linear A	Linear a sign ab074		
-U+1063D	𐘽	10600..1077F	Linear A	Linear a sign ab076		
-U+1063E	𐘾	10600..1077F	Linear A	Linear a sign ab077		
-U+1063F	𐘿	10600..1077F	Linear A	Linear a sign ab078		
-U+10640	𐙀	10600..1077F	Linear A	Linear a sign ab079		
-U+10641	𐙁	10600..1077F	Linear A	Linear a sign ab080		
-U+10642	𐙂	10600..1077F	Linear A	Linear a sign ab081		
-U+10643	𐙃	10600..1077F	Linear A	Linear a sign ab082		
-U+10644	𐙄	10600..1077F	Linear A	Linear a sign ab085		
-U+10645	𐙅	10600..1077F	Linear A	Linear a sign ab086		
-U+10646	𐙆	10600..1077F	Linear A	Linear a sign ab087		
-U+10647	𐙇	10600..1077F	Linear A	Linear a sign a100-102		
-U+10648	𐙈	10600..1077F	Linear A	Linear a sign ab118		
-U+10649	𐙉	10600..1077F	Linear A	Linear a sign ab120		
-U+1064A	𐙊	10600..1077F	Linear A	Linear a sign a120b		
-U+1064B	𐙋	10600..1077F	Linear A	Linear a sign ab122		
-U+1064C	𐙌	10600..1077F	Linear A	Linear a sign ab123		
-U+1064D	𐙍	10600..1077F	Linear A	Linear a sign ab131a		
-U+1064E	𐙎	10600..1077F	Linear A	Linear a sign ab131b		
-U+1064F	𐙏	10600..1077F	Linear A	Linear a sign a131c		
-U+10650	𐙐	10600..1077F	Linear A	Linear a sign ab164		
-U+10651	𐙑	10600..1077F	Linear A	Linear a sign ab171		
-U+10652	𐙒	10600..1077F	Linear A	Linear a sign ab180		
-U+10653	𐙓	10600..1077F	Linear A	Linear a sign ab188		
-U+10654	𐙔	10600..1077F	Linear A	Linear a sign ab191		
-U+10655	𐙕	10600..1077F	Linear A	Linear a sign a301		
-U+10656	𐙖	10600..1077F	Linear A	Linear a sign a302		
-U+10657	𐙗	10600..1077F	Linear A	Linear a sign a303		
-U+10658	𐙘	10600..1077F	Linear A	Linear a sign a304		
-U+10659	𐙙	10600..1077F	Linear A	Linear a sign a305		
-U+1065A	𐙚	10600..1077F	Linear A	Linear a sign a306		
-U+1065B	𐙛	10600..1077F	Linear A	Linear a sign a307		
-U+1065C	𐙜	10600..1077F	Linear A	Linear a sign a308		
-U+1065D	𐙝	10600..1077F	Linear A	Linear a sign a309a		
-U+1065E	𐙞	10600..1077F	Linear A	Linear a sign a309b		
-U+1065F	𐙟	10600..1077F	Linear A	Linear a sign a309c		
-U+10660	𐙠	10600..1077F	Linear A	Linear a sign a310		
-U+10661	𐙡	10600..1077F	Linear A	Linear a sign a311		
-U+10662	𐙢	10600..1077F	Linear A	Linear a sign a312		
-U+10663	𐙣	10600..1077F	Linear A	Linear a sign a313a		
-U+10664	𐙤	10600..1077F	Linear A	Linear a sign a313b		
-U+10665	𐙥	10600..1077F	Linear A	Linear a sign a313c		
-U+10666	𐙦	10600..1077F	Linear A	Linear a sign a314		
-U+10667	𐙧	10600..1077F	Linear A	Linear a sign a315		
-U+10668	𐙨	10600..1077F	Linear A	Linear a sign a316		
-U+10669	𐙩	10600..1077F	Linear A	Linear a sign a317		
-U+1066A	𐙪	10600..1077F	Linear A	Linear a sign a318		
-U+1066B	𐙫	10600..1077F	Linear A	Linear a sign a319		
-U+1066C	𐙬	10600..1077F	Linear A	Linear a sign a320		
-U+1066D	𐙭	10600..1077F	Linear A	Linear a sign a321		
-U+1066E	𐙮	10600..1077F	Linear A	Linear a sign a322		
-U+1066F	𐙯	10600..1077F	Linear A	Linear a sign a323		
-U+10670	𐙰	10600..1077F	Linear A	Linear a sign a324		
-U+10671	𐙱	10600..1077F	Linear A	Linear a sign a325		
-U+10672	𐙲	10600..1077F	Linear A	Linear a sign a326		
-U+10673	𐙳	10600..1077F	Linear A	Linear a sign a327		
-U+10674	𐙴	10600..1077F	Linear A	Linear a sign a328		
-U+10675	𐙵	10600..1077F	Linear A	Linear a sign a329		
-U+10676	𐙶	10600..1077F	Linear A	Linear a sign a330		
-U+10677	𐙷	10600..1077F	Linear A	Linear a sign a331		
-U+10678	𐙸	10600..1077F	Linear A	Linear a sign a332		
-U+10679	𐙹	10600..1077F	Linear A	Linear a sign a333		
-U+1067A	𐙺	10600..1077F	Linear A	Linear a sign a334		
-U+1067B	𐙻	10600..1077F	Linear A	Linear a sign a335		
-U+1067C	𐙼	10600..1077F	Linear A	Linear a sign a336		
-U+1067D	𐙽	10600..1077F	Linear A	Linear a sign a337		
-U+1067E	𐙾	10600..1077F	Linear A	Linear a sign a338		
-U+1067F	𐙿	10600..1077F	Linear A	Linear a sign a339		
-U+10680	𐚀	10600..1077F	Linear A	Linear a sign a340		
-U+10681	𐚁	10600..1077F	Linear A	Linear a sign a341		
-U+10682	𐚂	10600..1077F	Linear A	Linear a sign a342		
-U+10683	𐚃	10600..1077F	Linear A	Linear a sign a343		
-U+10684	𐚄	10600..1077F	Linear A	Linear a sign a344		
-U+10685	𐚅	10600..1077F	Linear A	Linear a sign a345		
-U+10686	𐚆	10600..1077F	Linear A	Linear a sign a346		
-U+10687	𐚇	10600..1077F	Linear A	Linear a sign a347		
-U+10688	𐚈	10600..1077F	Linear A	Linear a sign a348		
-U+10689	𐚉	10600..1077F	Linear A	Linear a sign a349		
-U+1068A	𐚊	10600..1077F	Linear A	Linear a sign a350		
-U+1068B	𐚋	10600..1077F	Linear A	Linear a sign a351		
-U+1068C	𐚌	10600..1077F	Linear A	Linear a sign a352		
-U+1068D	𐚍	10600..1077F	Linear A	Linear a sign a353		
-U+1068E	𐚎	10600..1077F	Linear A	Linear a sign a354		
-U+1068F	𐚏	10600..1077F	Linear A	Linear a sign a355		
-U+10690	𐚐	10600..1077F	Linear A	Linear a sign a356		
-U+10691	𐚑	10600..1077F	Linear A	Linear a sign a357		
-U+10692	𐚒	10600..1077F	Linear A	Linear a sign a358		
-U+10693	𐚓	10600..1077F	Linear A	Linear a sign a359		
-U+10694	𐚔	10600..1077F	Linear A	Linear a sign a360		
-U+10695	𐚕	10600..1077F	Linear A	Linear a sign a361		
-U+10696	𐚖	10600..1077F	Linear A	Linear a sign a362		
-U+10697	𐚗	10600..1077F	Linear A	Linear a sign a363		
-U+10698	𐚘	10600..1077F	Linear A	Linear a sign a364		
-U+10699	𐚙	10600..1077F	Linear A	Linear a sign a365		
-U+1069A	𐚚	10600..1077F	Linear A	Linear a sign a366		
-U+1069B	𐚛	10600..1077F	Linear A	Linear a sign a367		
-U+1069C	𐚜	10600..1077F	Linear A	Linear a sign a368		
-U+1069D	𐚝	10600..1077F	Linear A	Linear a sign a369		
-U+1069E	𐚞	10600..1077F	Linear A	Linear a sign a370		
-U+1069F	𐚟	10600..1077F	Linear A	Linear a sign a371		
-U+106A0	𐚠	10600..1077F	Linear A	Linear a sign a400-vas		
-U+106A1	𐚡	10600..1077F	Linear A	Linear a sign a401-vas		
-U+106A2	𐚢	10600..1077F	Linear A	Linear a sign a402-vas		
-U+106A3	𐚣	10600..1077F	Linear A	Linear a sign a403-vas		
-U+106A4	𐚤	10600..1077F	Linear A	Linear a sign a404-vas		
-U+106A5	𐚥	10600..1077F	Linear A	Linear a sign a405-vas		
-U+106A6	𐚦	10600..1077F	Linear A	Linear a sign a406-vas		
-U+106A7	𐚧	10600..1077F	Linear A	Linear a sign a407-vas		
-U+106A8	𐚨	10600..1077F	Linear A	Linear a sign a408-vas		
-U+106A9	𐚩	10600..1077F	Linear A	Linear a sign a409-vas		
-U+106AA	𐚪	10600..1077F	Linear A	Linear a sign a410-vas		
-U+106AB	𐚫	10600..1077F	Linear A	Linear a sign a411-vas		
-U+106AC	𐚬	10600..1077F	Linear A	Linear a sign a412-vas		
-U+106AD	𐚭	10600..1077F	Linear A	Linear a sign a413-vas		
-U+106AE	𐚮	10600..1077F	Linear A	Linear a sign a414-vas		
-U+106AF	𐚯	10600..1077F	Linear A	Linear a sign a415-vas		
-U+106B0	𐚰	10600..1077F	Linear A	Linear a sign a416-vas		
-U+106B1	𐚱	10600..1077F	Linear A	Linear a sign a417-vas		
-U+106B2	𐚲	10600..1077F	Linear A	Linear a sign a418-vas		
-U+106B3	𐚳	10600..1077F	Linear A	Linear a sign a501		
-U+106B4	𐚴	10600..1077F	Linear A	Linear a sign a502		
-U+106B5	𐚵	10600..1077F	Linear A	Linear a sign a503		
-U+106B6	𐚶	10600..1077F	Linear A	Linear a sign a504		
-U+106B7	𐚷	10600..1077F	Linear A	Linear a sign a505		
-U+106B8	𐚸	10600..1077F	Linear A	Linear a sign a506		
-U+106B9	𐚹	10600..1077F	Linear A	Linear a sign a508		
-U+106BA	𐚺	10600..1077F	Linear A	Linear a sign a509		
-U+106BB	𐚻	10600..1077F	Linear A	Linear a sign a510		
-U+106BC	𐚼	10600..1077F	Linear A	Linear a sign a511		
-U+106BD	𐚽	10600..1077F	Linear A	Linear a sign a512		
-U+106BE	𐚾	10600..1077F	Linear A	Linear a sign a513		
-U+106BF	𐚿	10600..1077F	Linear A	Linear a sign a515		
-U+106C0	𐛀	10600..1077F	Linear A	Linear a sign a516		
-U+106C1	𐛁	10600..1077F	Linear A	Linear a sign a520		
-U+106C2	𐛂	10600..1077F	Linear A	Linear a sign a521		
-U+106C3	𐛃	10600..1077F	Linear A	Linear a sign a523		
-U+106C4	𐛄	10600..1077F	Linear A	Linear a sign a524		
-U+106C5	𐛅	10600..1077F	Linear A	Linear a sign a525		
-U+106C6	𐛆	10600..1077F	Linear A	Linear a sign a526		
-U+106C7	𐛇	10600..1077F	Linear A	Linear a sign a527		
-U+106C8	𐛈	10600..1077F	Linear A	Linear a sign a528		
-U+106C9	𐛉	10600..1077F	Linear A	Linear a sign a529		
-U+106CA	𐛊	10600..1077F	Linear A	Linear a sign a530		
-U+106CB	𐛋	10600..1077F	Linear A	Linear a sign a531		
-U+106CC	𐛌	10600..1077F	Linear A	Linear a sign a532		
-U+106CD	𐛍	10600..1077F	Linear A	Linear a sign a534		
-U+106CE	𐛎	10600..1077F	Linear A	Linear a sign a535		
-U+106CF	𐛏	10600..1077F	Linear A	Linear a sign a536		
-U+106D0	𐛐	10600..1077F	Linear A	Linear a sign a537		
-U+106D1	𐛑	10600..1077F	Linear A	Linear a sign a538		
-U+106D2	𐛒	10600..1077F	Linear A	Linear a sign a539		
-U+106D3	𐛓	10600..1077F	Linear A	Linear a sign a540		
-U+106D4	𐛔	10600..1077F	Linear A	Linear a sign a541		
-U+106D5	𐛕	10600..1077F	Linear A	Linear a sign a542		
-U+106D6	𐛖	10600..1077F	Linear A	Linear a sign a545		
-U+106D7	𐛗	10600..1077F	Linear A	Linear a sign a547		
-U+106D8	𐛘	10600..1077F	Linear A	Linear a sign a548		
-U+106D9	𐛙	10600..1077F	Linear A	Linear a sign a549		
-U+106DA	𐛚	10600..1077F	Linear A	Linear a sign a550		
-U+106DB	𐛛	10600..1077F	Linear A	Linear a sign a551		
-U+106DC	𐛜	10600..1077F	Linear A	Linear a sign a552		
-U+106DD	𐛝	10600..1077F	Linear A	Linear a sign a553		
-U+106DE	𐛞	10600..1077F	Linear A	Linear a sign a554		
-U+106DF	𐛟	10600..1077F	Linear A	Linear a sign a555		
-U+106E0	𐛠	10600..1077F	Linear A	Linear a sign a556		
-U+106E1	𐛡	10600..1077F	Linear A	Linear a sign a557		
-U+106E2	𐛢	10600..1077F	Linear A	Linear a sign a559		
-U+106E3	𐛣	10600..1077F	Linear A	Linear a sign a563		
-U+106E4	𐛤	10600..1077F	Linear A	Linear a sign a564		
-U+106E5	𐛥	10600..1077F	Linear A	Linear a sign a565		
-U+106E6	𐛦	10600..1077F	Linear A	Linear a sign a566		
-U+106E7	𐛧	10600..1077F	Linear A	Linear a sign a568		
-U+106E8	𐛨	10600..1077F	Linear A	Linear a sign a569		
-U+106E9	𐛩	10600..1077F	Linear A	Linear a sign a570		
-U+106EA	𐛪	10600..1077F	Linear A	Linear a sign a571		
-U+106EB	𐛫	10600..1077F	Linear A	Linear a sign a572		
-U+106EC	𐛬	10600..1077F	Linear A	Linear a sign a573		
-U+106ED	𐛭	10600..1077F	Linear A	Linear a sign a574		
-U+106EE	𐛮	10600..1077F	Linear A	Linear a sign a575		
-U+106EF	𐛯	10600..1077F	Linear A	Linear a sign a576		
-U+106F0	𐛰	10600..1077F	Linear A	Linear a sign a577		
-U+106F1	𐛱	10600..1077F	Linear A	Linear a sign a578		
-U+106F2	𐛲	10600..1077F	Linear A	Linear a sign a579		
-U+106F3	𐛳	10600..1077F	Linear A	Linear a sign a580		
-U+106F4	𐛴	10600..1077F	Linear A	Linear a sign a581		
-U+106F5	𐛵	10600..1077F	Linear A	Linear a sign a582		
-U+106F6	𐛶	10600..1077F	Linear A	Linear a sign a583		
-U+106F7	𐛷	10600..1077F	Linear A	Linear a sign a584		
-U+106F8	𐛸	10600..1077F	Linear A	Linear a sign a585		
-U+106F9	𐛹	10600..1077F	Linear A	Linear a sign a586		
-U+106FA	𐛺	10600..1077F	Linear A	Linear a sign a587		
-U+106FB	𐛻	10600..1077F	Linear A	Linear a sign a588		
-U+106FC	𐛼	10600..1077F	Linear A	Linear a sign a589		
-U+106FD	𐛽	10600..1077F	Linear A	Linear a sign a591		
-U+106FE	𐛾	10600..1077F	Linear A	Linear a sign a592		
-U+106FF	𐛿	10600..1077F	Linear A	Linear a sign a594		
-U+10700	𐜀	10600..1077F	Linear A	Linear a sign a595		
-U+10701	𐜁	10600..1077F	Linear A	Linear a sign a596		
-U+10702	𐜂	10600..1077F	Linear A	Linear a sign a598		
-U+10703	𐜃	10600..1077F	Linear A	Linear a sign a600		
-U+10704	𐜄	10600..1077F	Linear A	Linear a sign a601		
-U+10705	𐜅	10600..1077F	Linear A	Linear a sign a602		
-U+10706	𐜆	10600..1077F	Linear A	Linear a sign a603		
-U+10707	𐜇	10600..1077F	Linear A	Linear a sign a604		
-U+10708	𐜈	10600..1077F	Linear A	Linear a sign a606		
-U+10709	𐜉	10600..1077F	Linear A	Linear a sign a608		
-U+1070A	𐜊	10600..1077F	Linear A	Linear a sign a609		
-U+1070B	𐜋	10600..1077F	Linear A	Linear a sign a610		
-U+1070C	𐜌	10600..1077F	Linear A	Linear a sign a611		
-U+1070D	𐜍	10600..1077F	Linear A	Linear a sign a612		
-U+1070E	𐜎	10600..1077F	Linear A	Linear a sign a613		
-U+1070F	𐜏	10600..1077F	Linear A	Linear a sign a614		
-U+10710	𐜐	10600..1077F	Linear A	Linear a sign a615		
-U+10711	𐜑	10600..1077F	Linear A	Linear a sign a616		
-U+10712	𐜒	10600..1077F	Linear A	Linear a sign a617		
-U+10713	𐜓	10600..1077F	Linear A	Linear a sign a618		
-U+10714	𐜔	10600..1077F	Linear A	Linear a sign a619		
-U+10715	𐜕	10600..1077F	Linear A	Linear a sign a620		
-U+10716	𐜖	10600..1077F	Linear A	Linear a sign a621		
-U+10717	𐜗	10600..1077F	Linear A	Linear a sign a622		
-U+10718	𐜘	10600..1077F	Linear A	Linear a sign a623		
-U+10719	𐜙	10600..1077F	Linear A	Linear a sign a624		
-U+1071A	𐜚	10600..1077F	Linear A	Linear a sign a626		
-U+1071B	𐜛	10600..1077F	Linear A	Linear a sign a627		
-U+1071C	𐜜	10600..1077F	Linear A	Linear a sign a628		
-U+1071D	𐜝	10600..1077F	Linear A	Linear a sign a629		
-U+1071E	𐜞	10600..1077F	Linear A	Linear a sign a634		
-U+1071F	𐜟	10600..1077F	Linear A	Linear a sign a637		
-U+10720	𐜠	10600..1077F	Linear A	Linear a sign a638		
-U+10721	𐜡	10600..1077F	Linear A	Linear a sign a640		
-U+10722	𐜢	10600..1077F	Linear A	Linear a sign a642		
-U+10723	𐜣	10600..1077F	Linear A	Linear a sign a643		
-U+10724	𐜤	10600..1077F	Linear A	Linear a sign a644		
-U+10725	𐜥	10600..1077F	Linear A	Linear a sign a645		
-U+10726	𐜦	10600..1077F	Linear A	Linear a sign a646		
-U+10727	𐜧	10600..1077F	Linear A	Linear a sign a648		
-U+10728	𐜨	10600..1077F	Linear A	Linear a sign a649		
-U+10729	𐜩	10600..1077F	Linear A	Linear a sign a651		
-U+1072A	𐜪	10600..1077F	Linear A	Linear a sign a652		
-U+1072B	𐜫	10600..1077F	Linear A	Linear a sign a653		
-U+1072C	𐜬	10600..1077F	Linear A	Linear a sign a654		
-U+1072D	𐜭	10600..1077F	Linear A	Linear a sign a655		
-U+1072E	𐜮	10600..1077F	Linear A	Linear a sign a656		
-U+1072F	𐜯	10600..1077F	Linear A	Linear a sign a657		
-U+10730	𐜰	10600..1077F	Linear A	Linear a sign a658		
-U+10731	𐜱	10600..1077F	Linear A	Linear a sign a659		
-U+10732	𐜲	10600..1077F	Linear A	Linear a sign a660		
-U+10733	𐜳	10600..1077F	Linear A	Linear a sign a661		
-U+10734	𐜴	10600..1077F	Linear A	Linear a sign a662		
-U+10735	𐜵	10600..1077F	Linear A	Linear a sign a663		
-U+10736	𐜶	10600..1077F	Linear A	Linear a sign a664		
-U+10740	𐝀	10600..1077F	Linear A	Linear a sign a701 a		
-U+10741	𐝁	10600..1077F	Linear A	Linear a sign a702 b		
-U+10742	𐝂	10600..1077F	Linear A	Linear a sign a703 d		
-U+10743	𐝃	10600..1077F	Linear A	Linear a sign a704 e		
-U+10744	𐝄	10600..1077F	Linear A	Linear a sign a705 f		
-U+10745	𐝅	10600..1077F	Linear A	Linear a sign a706 h		
-U+10746	𐝆	10600..1077F	Linear A	Linear a sign a707 j		
-U+10747	𐝇	10600..1077F	Linear A	Linear a sign a708 k		
-U+10748	𐝈	10600..1077F	Linear A	Linear a sign a709 l		
-U+10749	𐝉	10600..1077F	Linear A	Linear a sign a709-2 l2		
-U+1074A	𐝊	10600..1077F	Linear A	Linear a sign a709-3 l3		
-U+1074B	𐝋	10600..1077F	Linear A	Linear a sign a709-4 l4		
-U+1074C	𐝌	10600..1077F	Linear A	Linear a sign a709-6 l6		
-U+1074D	𐝍	10600..1077F	Linear A	Linear a sign a710 w		
-U+1074E	𐝎	10600..1077F	Linear A	Linear a sign a711 x		
-U+1074F	𐝏	10600..1077F	Linear A	Linear a sign a712 y		
-U+10750	𐝐	10600..1077F	Linear A	Linear a sign a713 omega		
-U+10751	𐝑	10600..1077F	Linear A	Linear a sign a714 abb		
-U+10752	𐝒	10600..1077F	Linear A	Linear a sign a715 bb		
-U+10753	𐝓	10600..1077F	Linear A	Linear a sign a717 dd		
-U+10754	𐝔	10600..1077F	Linear A	Linear a sign a726 eyyy		
-U+10755	𐝕	10600..1077F	Linear A	Linear a sign a732 je		
-U+10760	𐝠	10600..1077F	Linear A	Linear a sign a800		
-U+10761	𐝡	10600..1077F	Linear A	Linear a sign a801		
-U+10762	𐝢	10600..1077F	Linear A	Linear a sign a802		
-U+10763	𐝣	10600..1077F	Linear A	Linear a sign a803		
-U+10764	𐝤	10600..1077F	Linear A	Linear a sign a804		
-U+10765	𐝥	10600..1077F	Linear A	Linear a sign a805		
-U+10766	𐝦	10600..1077F	Linear A	Linear a sign a806		
-U+10767	𐝧	10600..1077F	Linear A	Linear a sign a807		
+code_points	chars	tab_completions	unicode_name	base
+U+10600	𐘀		LINEAR A SIGN AB001	
+U+10601	𐘁		LINEAR A SIGN AB002	
+U+10602	𐘂		LINEAR A SIGN AB003	
+U+10603	𐘃		LINEAR A SIGN AB004	
+U+10604	𐘄		LINEAR A SIGN AB005	
+U+10605	𐘅		LINEAR A SIGN AB006	
+U+10606	𐘆		LINEAR A SIGN AB007	
+U+10607	𐘇		LINEAR A SIGN AB008	
+U+10608	𐘈		LINEAR A SIGN AB009	
+U+10609	𐘉		LINEAR A SIGN AB010	
+U+1060A	𐘊		LINEAR A SIGN AB011	
+U+1060B	𐘋		LINEAR A SIGN AB013	
+U+1060C	𐘌		LINEAR A SIGN AB016	
+U+1060D	𐘍		LINEAR A SIGN AB017	
+U+1060E	𐘎		LINEAR A SIGN AB020	
+U+1060F	𐘏		LINEAR A SIGN AB021	
+U+10610	𐘐		LINEAR A SIGN AB021F	
+U+10611	𐘑		LINEAR A SIGN AB021M	
+U+10612	𐘒		LINEAR A SIGN AB022	
+U+10613	𐘓		LINEAR A SIGN AB022F	
+U+10614	𐘔		LINEAR A SIGN AB022M	
+U+10615	𐘕		LINEAR A SIGN AB023	
+U+10616	𐘖		LINEAR A SIGN AB023M	
+U+10617	𐘗		LINEAR A SIGN AB024	
+U+10618	𐘘		LINEAR A SIGN AB026	
+U+10619	𐘙		LINEAR A SIGN AB027	
+U+1061A	𐘚		LINEAR A SIGN AB028	
+U+1061B	𐘛		LINEAR A SIGN A028B	
+U+1061C	𐘜		LINEAR A SIGN AB029	
+U+1061D	𐘝		LINEAR A SIGN AB030	
+U+1061E	𐘞		LINEAR A SIGN AB031	
+U+1061F	𐘟		LINEAR A SIGN AB034	
+U+10620	𐘠		LINEAR A SIGN AB037	
+U+10621	𐘡		LINEAR A SIGN AB038	
+U+10622	𐘢		LINEAR A SIGN AB039	
+U+10623	𐘣		LINEAR A SIGN AB040	
+U+10624	𐘤		LINEAR A SIGN AB041	
+U+10625	𐘥		LINEAR A SIGN AB044	
+U+10626	𐘦		LINEAR A SIGN AB045	
+U+10627	𐘧		LINEAR A SIGN AB046	
+U+10628	𐘨		LINEAR A SIGN AB047	
+U+10629	𐘩		LINEAR A SIGN AB048	
+U+1062A	𐘪		LINEAR A SIGN AB049	
+U+1062B	𐘫		LINEAR A SIGN AB050	
+U+1062C	𐘬		LINEAR A SIGN AB051	
+U+1062D	𐘭		LINEAR A SIGN AB053	
+U+1062E	𐘮		LINEAR A SIGN AB054	
+U+1062F	𐘯		LINEAR A SIGN AB055	
+U+10630	𐘰		LINEAR A SIGN AB056	
+U+10631	𐘱		LINEAR A SIGN AB057	
+U+10632	𐘲		LINEAR A SIGN AB058	
+U+10633	𐘳		LINEAR A SIGN AB059	
+U+10634	𐘴		LINEAR A SIGN AB060	
+U+10635	𐘵		LINEAR A SIGN AB061	
+U+10636	𐘶		LINEAR A SIGN AB065	
+U+10637	𐘷		LINEAR A SIGN AB066	
+U+10638	𐘸		LINEAR A SIGN AB067	
+U+10639	𐘹		LINEAR A SIGN AB069	
+U+1063A	𐘺		LINEAR A SIGN AB070	
+U+1063B	𐘻		LINEAR A SIGN AB073	
+U+1063C	𐘼		LINEAR A SIGN AB074	
+U+1063D	𐘽		LINEAR A SIGN AB076	
+U+1063E	𐘾		LINEAR A SIGN AB077	
+U+1063F	𐘿		LINEAR A SIGN AB078	
+U+10640	𐙀		LINEAR A SIGN AB079	
+U+10641	𐙁		LINEAR A SIGN AB080	
+U+10642	𐙂		LINEAR A SIGN AB081	
+U+10643	𐙃		LINEAR A SIGN AB082	
+U+10644	𐙄		LINEAR A SIGN AB085	
+U+10645	𐙅		LINEAR A SIGN AB086	
+U+10646	𐙆		LINEAR A SIGN AB087	
+U+10647	𐙇		LINEAR A SIGN A100-102	
+U+10648	𐙈		LINEAR A SIGN AB118	
+U+10649	𐙉		LINEAR A SIGN AB120	
+U+1064A	𐙊		LINEAR A SIGN A120B	
+U+1064B	𐙋		LINEAR A SIGN AB122	
+U+1064C	𐙌		LINEAR A SIGN AB123	
+U+1064D	𐙍		LINEAR A SIGN AB131A	
+U+1064E	𐙎		LINEAR A SIGN AB131B	
+U+1064F	𐙏		LINEAR A SIGN A131C	
+U+10650	𐙐		LINEAR A SIGN AB164	
+U+10651	𐙑		LINEAR A SIGN AB171	
+U+10652	𐙒		LINEAR A SIGN AB180	
+U+10653	𐙓		LINEAR A SIGN AB188	
+U+10654	𐙔		LINEAR A SIGN AB191	
+U+10655	𐙕		LINEAR A SIGN A301	
+U+10656	𐙖		LINEAR A SIGN A302	
+U+10657	𐙗		LINEAR A SIGN A303	
+U+10658	𐙘		LINEAR A SIGN A304	
+U+10659	𐙙		LINEAR A SIGN A305	
+U+1065A	𐙚		LINEAR A SIGN A306	
+U+1065B	𐙛		LINEAR A SIGN A307	
+U+1065C	𐙜		LINEAR A SIGN A308	
+U+1065D	𐙝		LINEAR A SIGN A309A	
+U+1065E	𐙞		LINEAR A SIGN A309B	
+U+1065F	𐙟		LINEAR A SIGN A309C	
+U+10660	𐙠		LINEAR A SIGN A310	
+U+10661	𐙡		LINEAR A SIGN A311	
+U+10662	𐙢		LINEAR A SIGN A312	
+U+10663	𐙣		LINEAR A SIGN A313A	
+U+10664	𐙤		LINEAR A SIGN A313B	
+U+10665	𐙥		LINEAR A SIGN A313C	
+U+10666	𐙦		LINEAR A SIGN A314	
+U+10667	𐙧		LINEAR A SIGN A315	
+U+10668	𐙨		LINEAR A SIGN A316	
+U+10669	𐙩		LINEAR A SIGN A317	
+U+1066A	𐙪		LINEAR A SIGN A318	
+U+1066B	𐙫		LINEAR A SIGN A319	
+U+1066C	𐙬		LINEAR A SIGN A320	
+U+1066D	𐙭		LINEAR A SIGN A321	
+U+1066E	𐙮		LINEAR A SIGN A322	
+U+1066F	𐙯		LINEAR A SIGN A323	
+U+10670	𐙰		LINEAR A SIGN A324	
+U+10671	𐙱		LINEAR A SIGN A325	
+U+10672	𐙲		LINEAR A SIGN A326	
+U+10673	𐙳		LINEAR A SIGN A327	
+U+10674	𐙴		LINEAR A SIGN A328	
+U+10675	𐙵		LINEAR A SIGN A329	
+U+10676	𐙶		LINEAR A SIGN A330	
+U+10677	𐙷		LINEAR A SIGN A331	
+U+10678	𐙸		LINEAR A SIGN A332	
+U+10679	𐙹		LINEAR A SIGN A333	
+U+1067A	𐙺		LINEAR A SIGN A334	
+U+1067B	𐙻		LINEAR A SIGN A335	
+U+1067C	𐙼		LINEAR A SIGN A336	
+U+1067D	𐙽		LINEAR A SIGN A337	
+U+1067E	𐙾		LINEAR A SIGN A338	
+U+1067F	𐙿		LINEAR A SIGN A339	
+U+10680	𐚀		LINEAR A SIGN A340	
+U+10681	𐚁		LINEAR A SIGN A341	
+U+10682	𐚂		LINEAR A SIGN A342	
+U+10683	𐚃		LINEAR A SIGN A343	
+U+10684	𐚄		LINEAR A SIGN A344	
+U+10685	𐚅		LINEAR A SIGN A345	
+U+10686	𐚆		LINEAR A SIGN A346	
+U+10687	𐚇		LINEAR A SIGN A347	
+U+10688	𐚈		LINEAR A SIGN A348	
+U+10689	𐚉		LINEAR A SIGN A349	
+U+1068A	𐚊		LINEAR A SIGN A350	
+U+1068B	𐚋		LINEAR A SIGN A351	
+U+1068C	𐚌		LINEAR A SIGN A352	
+U+1068D	𐚍		LINEAR A SIGN A353	
+U+1068E	𐚎		LINEAR A SIGN A354	
+U+1068F	𐚏		LINEAR A SIGN A355	
+U+10690	𐚐		LINEAR A SIGN A356	
+U+10691	𐚑		LINEAR A SIGN A357	
+U+10692	𐚒		LINEAR A SIGN A358	
+U+10693	𐚓		LINEAR A SIGN A359	
+U+10694	𐚔		LINEAR A SIGN A360	
+U+10695	𐚕		LINEAR A SIGN A361	
+U+10696	𐚖		LINEAR A SIGN A362	
+U+10697	𐚗		LINEAR A SIGN A363	
+U+10698	𐚘		LINEAR A SIGN A364	
+U+10699	𐚙		LINEAR A SIGN A365	
+U+1069A	𐚚		LINEAR A SIGN A366	
+U+1069B	𐚛		LINEAR A SIGN A367	
+U+1069C	𐚜		LINEAR A SIGN A368	
+U+1069D	𐚝		LINEAR A SIGN A369	
+U+1069E	𐚞		LINEAR A SIGN A370	
+U+1069F	𐚟		LINEAR A SIGN A371	
+U+106A0	𐚠		LINEAR A SIGN A400-VAS	
+U+106A1	𐚡		LINEAR A SIGN A401-VAS	
+U+106A2	𐚢		LINEAR A SIGN A402-VAS	
+U+106A3	𐚣		LINEAR A SIGN A403-VAS	
+U+106A4	𐚤		LINEAR A SIGN A404-VAS	
+U+106A5	𐚥		LINEAR A SIGN A405-VAS	
+U+106A6	𐚦		LINEAR A SIGN A406-VAS	
+U+106A7	𐚧		LINEAR A SIGN A407-VAS	
+U+106A8	𐚨		LINEAR A SIGN A408-VAS	
+U+106A9	𐚩		LINEAR A SIGN A409-VAS	
+U+106AA	𐚪		LINEAR A SIGN A410-VAS	
+U+106AB	𐚫		LINEAR A SIGN A411-VAS	
+U+106AC	𐚬		LINEAR A SIGN A412-VAS	
+U+106AD	𐚭		LINEAR A SIGN A413-VAS	
+U+106AE	𐚮		LINEAR A SIGN A414-VAS	
+U+106AF	𐚯		LINEAR A SIGN A415-VAS	
+U+106B0	𐚰		LINEAR A SIGN A416-VAS	
+U+106B1	𐚱		LINEAR A SIGN A417-VAS	
+U+106B2	𐚲		LINEAR A SIGN A418-VAS	
+U+106B3	𐚳		LINEAR A SIGN A501	
+U+106B4	𐚴		LINEAR A SIGN A502	
+U+106B5	𐚵		LINEAR A SIGN A503	
+U+106B6	𐚶		LINEAR A SIGN A504	
+U+106B7	𐚷		LINEAR A SIGN A505	
+U+106B8	𐚸		LINEAR A SIGN A506	
+U+106B9	𐚹		LINEAR A SIGN A508	
+U+106BA	𐚺		LINEAR A SIGN A509	
+U+106BB	𐚻		LINEAR A SIGN A510	
+U+106BC	𐚼		LINEAR A SIGN A511	
+U+106BD	𐚽		LINEAR A SIGN A512	
+U+106BE	𐚾		LINEAR A SIGN A513	
+U+106BF	𐚿		LINEAR A SIGN A515	
+U+106C0	𐛀		LINEAR A SIGN A516	
+U+106C1	𐛁		LINEAR A SIGN A520	
+U+106C2	𐛂		LINEAR A SIGN A521	
+U+106C3	𐛃		LINEAR A SIGN A523	
+U+106C4	𐛄		LINEAR A SIGN A524	
+U+106C5	𐛅		LINEAR A SIGN A525	
+U+106C6	𐛆		LINEAR A SIGN A526	
+U+106C7	𐛇		LINEAR A SIGN A527	
+U+106C8	𐛈		LINEAR A SIGN A528	
+U+106C9	𐛉		LINEAR A SIGN A529	
+U+106CA	𐛊		LINEAR A SIGN A530	
+U+106CB	𐛋		LINEAR A SIGN A531	
+U+106CC	𐛌		LINEAR A SIGN A532	
+U+106CD	𐛍		LINEAR A SIGN A534	
+U+106CE	𐛎		LINEAR A SIGN A535	
+U+106CF	𐛏		LINEAR A SIGN A536	
+U+106D0	𐛐		LINEAR A SIGN A537	
+U+106D1	𐛑		LINEAR A SIGN A538	
+U+106D2	𐛒		LINEAR A SIGN A539	
+U+106D3	𐛓		LINEAR A SIGN A540	
+U+106D4	𐛔		LINEAR A SIGN A541	
+U+106D5	𐛕		LINEAR A SIGN A542	
+U+106D6	𐛖		LINEAR A SIGN A545	
+U+106D7	𐛗		LINEAR A SIGN A547	
+U+106D8	𐛘		LINEAR A SIGN A548	
+U+106D9	𐛙		LINEAR A SIGN A549	
+U+106DA	𐛚		LINEAR A SIGN A550	
+U+106DB	𐛛		LINEAR A SIGN A551	
+U+106DC	𐛜		LINEAR A SIGN A552	
+U+106DD	𐛝		LINEAR A SIGN A553	
+U+106DE	𐛞		LINEAR A SIGN A554	
+U+106DF	𐛟		LINEAR A SIGN A555	
+U+106E0	𐛠		LINEAR A SIGN A556	
+U+106E1	𐛡		LINEAR A SIGN A557	
+U+106E2	𐛢		LINEAR A SIGN A559	
+U+106E3	𐛣		LINEAR A SIGN A563	
+U+106E4	𐛤		LINEAR A SIGN A564	
+U+106E5	𐛥		LINEAR A SIGN A565	
+U+106E6	𐛦		LINEAR A SIGN A566	
+U+106E7	𐛧		LINEAR A SIGN A568	
+U+106E8	𐛨		LINEAR A SIGN A569	
+U+106E9	𐛩		LINEAR A SIGN A570	
+U+106EA	𐛪		LINEAR A SIGN A571	
+U+106EB	𐛫		LINEAR A SIGN A572	
+U+106EC	𐛬		LINEAR A SIGN A573	
+U+106ED	𐛭		LINEAR A SIGN A574	
+U+106EE	𐛮		LINEAR A SIGN A575	
+U+106EF	𐛯		LINEAR A SIGN A576	
+U+106F0	𐛰		LINEAR A SIGN A577	
+U+106F1	𐛱		LINEAR A SIGN A578	
+U+106F2	𐛲		LINEAR A SIGN A579	
+U+106F3	𐛳		LINEAR A SIGN A580	
+U+106F4	𐛴		LINEAR A SIGN A581	
+U+106F5	𐛵		LINEAR A SIGN A582	
+U+106F6	𐛶		LINEAR A SIGN A583	
+U+106F7	𐛷		LINEAR A SIGN A584	
+U+106F8	𐛸		LINEAR A SIGN A585	
+U+106F9	𐛹		LINEAR A SIGN A586	
+U+106FA	𐛺		LINEAR A SIGN A587	
+U+106FB	𐛻		LINEAR A SIGN A588	
+U+106FC	𐛼		LINEAR A SIGN A589	
+U+106FD	𐛽		LINEAR A SIGN A591	
+U+106FE	𐛾		LINEAR A SIGN A592	
+U+106FF	𐛿		LINEAR A SIGN A594	
+U+10700	𐜀		LINEAR A SIGN A595	
+U+10701	𐜁		LINEAR A SIGN A596	
+U+10702	𐜂		LINEAR A SIGN A598	
+U+10703	𐜃		LINEAR A SIGN A600	
+U+10704	𐜄		LINEAR A SIGN A601	
+U+10705	𐜅		LINEAR A SIGN A602	
+U+10706	𐜆		LINEAR A SIGN A603	
+U+10707	𐜇		LINEAR A SIGN A604	
+U+10708	𐜈		LINEAR A SIGN A606	
+U+10709	𐜉		LINEAR A SIGN A608	
+U+1070A	𐜊		LINEAR A SIGN A609	
+U+1070B	𐜋		LINEAR A SIGN A610	
+U+1070C	𐜌		LINEAR A SIGN A611	
+U+1070D	𐜍		LINEAR A SIGN A612	
+U+1070E	𐜎		LINEAR A SIGN A613	
+U+1070F	𐜏		LINEAR A SIGN A614	
+U+10710	𐜐		LINEAR A SIGN A615	
+U+10711	𐜑		LINEAR A SIGN A616	
+U+10712	𐜒		LINEAR A SIGN A617	
+U+10713	𐜓		LINEAR A SIGN A618	
+U+10714	𐜔		LINEAR A SIGN A619	
+U+10715	𐜕		LINEAR A SIGN A620	
+U+10716	𐜖		LINEAR A SIGN A621	
+U+10717	𐜗		LINEAR A SIGN A622	
+U+10718	𐜘		LINEAR A SIGN A623	
+U+10719	𐜙		LINEAR A SIGN A624	
+U+1071A	𐜚		LINEAR A SIGN A626	
+U+1071B	𐜛		LINEAR A SIGN A627	
+U+1071C	𐜜		LINEAR A SIGN A628	
+U+1071D	𐜝		LINEAR A SIGN A629	
+U+1071E	𐜞		LINEAR A SIGN A634	
+U+1071F	𐜟		LINEAR A SIGN A637	
+U+10720	𐜠		LINEAR A SIGN A638	
+U+10721	𐜡		LINEAR A SIGN A640	
+U+10722	𐜢		LINEAR A SIGN A642	
+U+10723	𐜣		LINEAR A SIGN A643	
+U+10724	𐜤		LINEAR A SIGN A644	
+U+10725	𐜥		LINEAR A SIGN A645	
+U+10726	𐜦		LINEAR A SIGN A646	
+U+10727	𐜧		LINEAR A SIGN A648	
+U+10728	𐜨		LINEAR A SIGN A649	
+U+10729	𐜩		LINEAR A SIGN A651	
+U+1072A	𐜪		LINEAR A SIGN A652	
+U+1072B	𐜫		LINEAR A SIGN A653	
+U+1072C	𐜬		LINEAR A SIGN A654	
+U+1072D	𐜭		LINEAR A SIGN A655	
+U+1072E	𐜮		LINEAR A SIGN A656	
+U+1072F	𐜯		LINEAR A SIGN A657	
+U+10730	𐜰		LINEAR A SIGN A658	
+U+10731	𐜱		LINEAR A SIGN A659	
+U+10732	𐜲		LINEAR A SIGN A660	
+U+10733	𐜳		LINEAR A SIGN A661	
+U+10734	𐜴		LINEAR A SIGN A662	
+U+10735	𐜵		LINEAR A SIGN A663	
+U+10736	𐜶		LINEAR A SIGN A664	
+U+10740	𐝀		LINEAR A SIGN A701 A	
+U+10741	𐝁		LINEAR A SIGN A702 B	
+U+10742	𐝂		LINEAR A SIGN A703 D	
+U+10743	𐝃		LINEAR A SIGN A704 E	
+U+10744	𐝄		LINEAR A SIGN A705 F	
+U+10745	𐝅		LINEAR A SIGN A706 H	
+U+10746	𐝆		LINEAR A SIGN A707 J	
+U+10747	𐝇		LINEAR A SIGN A708 K	
+U+10748	𐝈		LINEAR A SIGN A709 L	
+U+10749	𐝉		LINEAR A SIGN A709-2 L2	
+U+1074A	𐝊		LINEAR A SIGN A709-3 L3	
+U+1074B	𐝋		LINEAR A SIGN A709-4 L4	
+U+1074C	𐝌		LINEAR A SIGN A709-6 L6	
+U+1074D	𐝍		LINEAR A SIGN A710 W	
+U+1074E	𐝎		LINEAR A SIGN A711 X	
+U+1074F	𐝏		LINEAR A SIGN A712 Y	
+U+10750	𐝐		LINEAR A SIGN A713 OMEGA	
+U+10751	𐝑		LINEAR A SIGN A714 ABB	
+U+10752	𐝒		LINEAR A SIGN A715 BB	
+U+10753	𐝓		LINEAR A SIGN A717 DD	
+U+10754	𐝔		LINEAR A SIGN A726 EYYY	
+U+10755	𐝕		LINEAR A SIGN A732 JE	
+U+10760	𐝠		LINEAR A SIGN A800	
+U+10761	𐝡		LINEAR A SIGN A801	
+U+10762	𐝢		LINEAR A SIGN A802	
+U+10763	𐝣		LINEAR A SIGN A803	
+U+10764	𐝤		LINEAR A SIGN A804	
+U+10765	𐝥		LINEAR A SIGN A805	
+U+10766	𐝦		LINEAR A SIGN A806	
+U+10767	𐝧		LINEAR A SIGN A807	

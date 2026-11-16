@@ -1,51 +1,51 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D250	𝉐	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining flag-6		
-U+1D251	𝉑	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining flag-7		
-U+1D252	𝉒	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining flag-8		
-U+1D253	𝉓	1D250..1D28F	Musical Symbols Supplement	Musical symbol two hundred fifty-sixth rest		
-U+1D254	𝉔	1D250..1D28F	Musical Symbols Supplement	Musical symbol five hundred twelfth rest		
-U+1D255	𝉕	1D250..1D28F	Musical Symbols Supplement	Musical symbol one thousand twenty-fourth rest		
-U+1D256	𝉖	1D250..1D28F	Musical Symbols Supplement	Musical symbol flat with stroke		
-U+1D257	𝉗	1D250..1D28F	Musical Symbols Supplement	Musical symbol flat with double stroke		
-U+1D258	𝉘	1D250..1D28F	Musical Symbols Supplement	Musical symbol flat with double stem		
-U+1D259	𝉙	1D250..1D28F	Musical Symbols Supplement	Musical symbol half sharp with stroke		
-U+1D25A	𝉚	1D250..1D28F	Musical Symbols Supplement	Musical symbol sharp with stroke		
-U+1D25B	𝉛	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining tremolo-4		
-U+1D25C	𝉜	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining tremolo-5		
-U+1D25D	𝉝	1D250..1D28F	Musical Symbols Supplement	Musical symbol fingered tremolo-4		
-U+1D25E	𝉞	1D250..1D28F	Musical Symbols Supplement	Musical symbol fingered tremolo-5		
-U+1D25F	𝉟	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining buzz roll stem		
-U+1D260	𝉠	1D250..1D28F	Musical Symbols Supplement	Musical symbol triple flat		
-U+1D261	𝉡	1D250..1D28F	Musical Symbols Supplement	Musical symbol suspension		
-U+1D262	𝉢	1D250..1D28F	Musical Symbols Supplement	Musical symbol heavy double barline		
-U+1D263	𝉣	1D250..1D28F	Musical Symbols Supplement	Musical symbol system divider		
-U+1D264	𝉤	1D250..1D28F	Musical Symbols Supplement	Musical symbol niente		
-U+1D265	𝉥	1D250..1D28F	Musical Symbols Supplement	Musical symbol crescendo with ring		
-U+1D266	𝉦	1D250..1D28F	Musical Symbols Supplement	Musical symbol decrescendo with ring		
-U+1D267	𝉧	1D250..1D28F	Musical Symbols Supplement	Musical symbol diamond notehead whole		
-U+1D268	𝉨	1D250..1D28F	Musical Symbols Supplement	Musical symbol diamond notehead white		
-U+1D269	𝉩	1D250..1D28F	Musical Symbols Supplement	Musical symbol diamond notehead black		
-U+1D26A	𝉪	1D250..1D28F	Musical Symbols Supplement	Musical symbol diamond notehead half-filled		
-U+1D26B	𝉫	1D250..1D28F	Musical Symbols Supplement	Musical symbol triangular fermata		
-U+1D26C	𝉬	1D250..1D28F	Musical Symbols Supplement	Musical symbol double triangular fermata		
-U+1D26D	𝉭	1D250..1D28F	Musical Symbols Supplement	Musical symbol square fermata		
-U+1D26E	𝉮	1D250..1D28F	Musical Symbols Supplement	Musical symbol double square fermata		
-U+1D26F	𝉯	1D250..1D28F	Musical Symbols Supplement	Musical symbol henze long fermata		
-U+1D270	𝉰	1D250..1D28F	Musical Symbols Supplement	Musical symbol henze short fermata		
-U+1D271	𝉱	1D250..1D28F	Musical Symbols Supplement	Musical symbol curlew		
-U+1D272	𝉲	1D250..1D28F	Musical Symbols Supplement	Musical symbol salzedo breath mark		
-U+1D273	𝉳	1D250..1D28F	Musical Symbols Supplement	Musical symbol organ pedal heel		
-U+1D274	𝉴	1D250..1D28F	Musical Symbols Supplement	Musical symbol organ pedal toe		
-U+1D275	𝉵	1D250..1D28F	Musical Symbols Supplement	Musical symbol g clef optionally ottava bassa		
-U+1D276	𝉶	1D250..1D28F	Musical Symbols Supplement	Musical symbol double g clef		
-U+1D277	𝉷	1D250..1D28F	Musical Symbols Supplement	Musical symbol g clef ottava bassa with c clef		
-U+1D278	𝉸	1D250..1D28F	Musical Symbols Supplement	Musical symbol c clef ottava bassa		
-U+1D279	𝉹	1D250..1D28F	Musical Symbols Supplement	Musical symbol g clef quindicesima alta		
-U+1D27A	𝉺	1D250..1D28F	Musical Symbols Supplement	Musical symbol g clef quindicesima bassa		
-U+1D27B	𝉻	1D250..1D28F	Musical Symbols Supplement	Musical symbol f clef quindicesima alta		
-U+1D27C	𝉼	1D250..1D28F	Musical Symbols Supplement	Musical symbol f clef quindicesima bassa		
-U+1D27D	𝉽	1D250..1D28F	Musical Symbols Supplement	Musical symbol c clef quindicesima bassa		
-U+1D27E	𝉾	1D250..1D28F	Musical Symbols Supplement	Musical symbol tablature clef		
-U+1D27F	𝉿	1D250..1D28F	Musical Symbols Supplement	Musical symbol arpeggiato up with arrow		
-U+1D280	𝊀	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining stem bow behind bridge		
-U+1D281	𝊁	1D250..1D28F	Musical Symbols Supplement	Musical symbol combining stem bow on top of bridge		
+code_points	chars	tab_completions	unicode_name	base
+U+1D250	𝉐		MUSICAL SYMBOL COMBINING FLAG-6	
+U+1D251	𝉑		MUSICAL SYMBOL COMBINING FLAG-7	
+U+1D252	𝉒		MUSICAL SYMBOL COMBINING FLAG-8	
+U+1D253	𝉓		MUSICAL SYMBOL TWO HUNDRED FIFTY-SIXTH REST	
+U+1D254	𝉔		MUSICAL SYMBOL FIVE HUNDRED TWELFTH REST	
+U+1D255	𝉕		MUSICAL SYMBOL ONE THOUSAND TWENTY-FOURTH REST	
+U+1D256	𝉖		MUSICAL SYMBOL FLAT WITH STROKE	
+U+1D257	𝉗		MUSICAL SYMBOL FLAT WITH DOUBLE STROKE	
+U+1D258	𝉘		MUSICAL SYMBOL FLAT WITH DOUBLE STEM	
+U+1D259	𝉙		MUSICAL SYMBOL HALF SHARP WITH STROKE	
+U+1D25A	𝉚		MUSICAL SYMBOL SHARP WITH STROKE	
+U+1D25B	𝉛		MUSICAL SYMBOL COMBINING TREMOLO-4	
+U+1D25C	𝉜		MUSICAL SYMBOL COMBINING TREMOLO-5	
+U+1D25D	𝉝		MUSICAL SYMBOL FINGERED TREMOLO-4	
+U+1D25E	𝉞		MUSICAL SYMBOL FINGERED TREMOLO-5	
+U+1D25F	𝉟		MUSICAL SYMBOL COMBINING BUZZ ROLL STEM	
+U+1D260	𝉠		MUSICAL SYMBOL TRIPLE FLAT	
+U+1D261	𝉡		MUSICAL SYMBOL SUSPENSION	
+U+1D262	𝉢		MUSICAL SYMBOL HEAVY DOUBLE BARLINE	
+U+1D263	𝉣		MUSICAL SYMBOL SYSTEM DIVIDER	
+U+1D264	𝉤		MUSICAL SYMBOL NIENTE	
+U+1D265	𝉥		MUSICAL SYMBOL CRESCENDO WITH RING	
+U+1D266	𝉦		MUSICAL SYMBOL DECRESCENDO WITH RING	
+U+1D267	𝉧		MUSICAL SYMBOL DIAMOND NOTEHEAD WHOLE	
+U+1D268	𝉨		MUSICAL SYMBOL DIAMOND NOTEHEAD WHITE	
+U+1D269	𝉩		MUSICAL SYMBOL DIAMOND NOTEHEAD BLACK	
+U+1D26A	𝉪		MUSICAL SYMBOL DIAMOND NOTEHEAD HALF-FILLED	
+U+1D26B	𝉫		MUSICAL SYMBOL TRIANGULAR FERMATA	
+U+1D26C	𝉬		MUSICAL SYMBOL DOUBLE TRIANGULAR FERMATA	
+U+1D26D	𝉭		MUSICAL SYMBOL SQUARE FERMATA	
+U+1D26E	𝉮		MUSICAL SYMBOL DOUBLE SQUARE FERMATA	
+U+1D26F	𝉯		MUSICAL SYMBOL HENZE LONG FERMATA	
+U+1D270	𝉰		MUSICAL SYMBOL HENZE SHORT FERMATA	
+U+1D271	𝉱		MUSICAL SYMBOL CURLEW	
+U+1D272	𝉲		MUSICAL SYMBOL SALZEDO BREATH MARK	
+U+1D273	𝉳		MUSICAL SYMBOL ORGAN PEDAL HEEL	
+U+1D274	𝉴		MUSICAL SYMBOL ORGAN PEDAL TOE	
+U+1D275	𝉵		MUSICAL SYMBOL G CLEF OPTIONALLY OTTAVA BASSA	
+U+1D276	𝉶		MUSICAL SYMBOL DOUBLE G CLEF	
+U+1D277	𝉷		MUSICAL SYMBOL G CLEF OTTAVA BASSA WITH C CLEF	
+U+1D278	𝉸		MUSICAL SYMBOL C CLEF OTTAVA BASSA	
+U+1D279	𝉹		MUSICAL SYMBOL G CLEF QUINDICESIMA ALTA	
+U+1D27A	𝉺		MUSICAL SYMBOL G CLEF QUINDICESIMA BASSA	
+U+1D27B	𝉻		MUSICAL SYMBOL F CLEF QUINDICESIMA ALTA	
+U+1D27C	𝉼		MUSICAL SYMBOL F CLEF QUINDICESIMA BASSA	
+U+1D27D	𝉽		MUSICAL SYMBOL C CLEF QUINDICESIMA BASSA	
+U+1D27E	𝉾		MUSICAL SYMBOL TABLATURE CLEF	
+U+1D27F	𝉿		MUSICAL SYMBOL ARPEGGIATO UP WITH ARROW	
+U+1D280	𝊀		MUSICAL SYMBOL COMBINING STEM BOW BEHIND BRIDGE	
+U+1D281	𝊁		MUSICAL SYMBOL COMBINING STEM BOW ON TOP OF BRIDGE	

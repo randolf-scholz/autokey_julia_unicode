@@ -1,28 +1,28 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10B60	𐭠	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter aleph		
-U+10B61	𐭡	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter beth		
-U+10B62	𐭢	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter gimel		
-U+10B63	𐭣	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter daleth		
-U+10B64	𐭤	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter he		
-U+10B65	𐭥	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter waw-ayin-resh		
-U+10B66	𐭦	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter zayin		
-U+10B67	𐭧	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter heth		
-U+10B68	𐭨	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter teth		
-U+10B69	𐭩	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter yodh		
-U+10B6A	𐭪	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter kaph		
-U+10B6B	𐭫	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter lamedh		
-U+10B6C	𐭬	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter mem-qoph		
-U+10B6D	𐭭	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter nun		
-U+10B6E	𐭮	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter samekh		
-U+10B6F	𐭯	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter pe		
-U+10B70	𐭰	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter sadhe		
-U+10B71	𐭱	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter shin		
-U+10B72	𐭲	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi letter taw		
-U+10B78	𐭸	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number one		
-U+10B79	𐭹	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number two		
-U+10B7A	𐭺	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number three		
-U+10B7B	𐭻	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number four		
-U+10B7C	𐭼	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number ten		
-U+10B7D	𐭽	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number twenty		
-U+10B7E	𐭾	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number one hundred		
-U+10B7F	𐭿	10B60..10B7F	Inscriptional Pahlavi	Inscriptional pahlavi number one thousand		
+code_points	chars	tab_completions	unicode_name	base
+U+10B60	𐭠		INSCRIPTIONAL PAHLAVI LETTER ALEPH	
+U+10B61	𐭡		INSCRIPTIONAL PAHLAVI LETTER BETH	
+U+10B62	𐭢		INSCRIPTIONAL PAHLAVI LETTER GIMEL	
+U+10B63	𐭣		INSCRIPTIONAL PAHLAVI LETTER DALETH	
+U+10B64	𐭤		INSCRIPTIONAL PAHLAVI LETTER HE	
+U+10B65	𐭥		INSCRIPTIONAL PAHLAVI LETTER WAW-AYIN-RESH	
+U+10B66	𐭦		INSCRIPTIONAL PAHLAVI LETTER ZAYIN	
+U+10B67	𐭧		INSCRIPTIONAL PAHLAVI LETTER HETH	
+U+10B68	𐭨		INSCRIPTIONAL PAHLAVI LETTER TETH	
+U+10B69	𐭩		INSCRIPTIONAL PAHLAVI LETTER YODH	
+U+10B6A	𐭪		INSCRIPTIONAL PAHLAVI LETTER KAPH	
+U+10B6B	𐭫		INSCRIPTIONAL PAHLAVI LETTER LAMEDH	
+U+10B6C	𐭬		INSCRIPTIONAL PAHLAVI LETTER MEM-QOPH	
+U+10B6D	𐭭		INSCRIPTIONAL PAHLAVI LETTER NUN	
+U+10B6E	𐭮		INSCRIPTIONAL PAHLAVI LETTER SAMEKH	
+U+10B6F	𐭯		INSCRIPTIONAL PAHLAVI LETTER PE	
+U+10B70	𐭰		INSCRIPTIONAL PAHLAVI LETTER SADHE	
+U+10B71	𐭱		INSCRIPTIONAL PAHLAVI LETTER SHIN	
+U+10B72	𐭲		INSCRIPTIONAL PAHLAVI LETTER TAW	
+U+10B78	𐭸		INSCRIPTIONAL PAHLAVI NUMBER ONE	
+U+10B79	𐭹		INSCRIPTIONAL PAHLAVI NUMBER TWO	
+U+10B7A	𐭺		INSCRIPTIONAL PAHLAVI NUMBER THREE	
+U+10B7B	𐭻		INSCRIPTIONAL PAHLAVI NUMBER FOUR	
+U+10B7C	𐭼		INSCRIPTIONAL PAHLAVI NUMBER TEN	
+U+10B7D	𐭽		INSCRIPTIONAL PAHLAVI NUMBER TWENTY	
+U+10B7E	𐭾		INSCRIPTIONAL PAHLAVI NUMBER ONE HUNDRED	
+U+10B7F	𐭿		INSCRIPTIONAL PAHLAVI NUMBER ONE THOUSAND	

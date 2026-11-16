@@ -1,21 +1,21 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+116D0	𑛐	116D0..116FF	Myanmar Extended-C	Myanmar pao digit zero		
-U+116D1	𑛑	116D0..116FF	Myanmar Extended-C	Myanmar pao digit one		
-U+116D2	𑛒	116D0..116FF	Myanmar Extended-C	Myanmar pao digit two		
-U+116D3	𑛓	116D0..116FF	Myanmar Extended-C	Myanmar pao digit three		
-U+116D4	𑛔	116D0..116FF	Myanmar Extended-C	Myanmar pao digit four		
-U+116D5	𑛕	116D0..116FF	Myanmar Extended-C	Myanmar pao digit five		
-U+116D6	𑛖	116D0..116FF	Myanmar Extended-C	Myanmar pao digit six		
-U+116D7	𑛗	116D0..116FF	Myanmar Extended-C	Myanmar pao digit seven		
-U+116D8	𑛘	116D0..116FF	Myanmar Extended-C	Myanmar pao digit eight		
-U+116D9	𑛙	116D0..116FF	Myanmar Extended-C	Myanmar pao digit nine		
-U+116DA	𑛚	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit zero		
-U+116DB	𑛛	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit one		
-U+116DC	𑛜	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit two		
-U+116DD	𑛝	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit three		
-U+116DE	𑛞	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit four		
-U+116DF	𑛟	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit five		
-U+116E0	𑛠	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit six		
-U+116E1	𑛡	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit seven		
-U+116E2	𑛢	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit eight		
-U+116E3	𑛣	116D0..116FF	Myanmar Extended-C	Myanmar eastern pwo karen digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+116D0	𑛐		MYANMAR PAO DIGIT ZERO	
+U+116D1	𑛑		MYANMAR PAO DIGIT ONE	
+U+116D2	𑛒		MYANMAR PAO DIGIT TWO	
+U+116D3	𑛓		MYANMAR PAO DIGIT THREE	
+U+116D4	𑛔		MYANMAR PAO DIGIT FOUR	
+U+116D5	𑛕		MYANMAR PAO DIGIT FIVE	
+U+116D6	𑛖		MYANMAR PAO DIGIT SIX	
+U+116D7	𑛗		MYANMAR PAO DIGIT SEVEN	
+U+116D8	𑛘		MYANMAR PAO DIGIT EIGHT	
+U+116D9	𑛙		MYANMAR PAO DIGIT NINE	
+U+116DA	𑛚		MYANMAR EASTERN PWO KAREN DIGIT ZERO	
+U+116DB	𑛛		MYANMAR EASTERN PWO KAREN DIGIT ONE	
+U+116DC	𑛜		MYANMAR EASTERN PWO KAREN DIGIT TWO	
+U+116DD	𑛝		MYANMAR EASTERN PWO KAREN DIGIT THREE	
+U+116DE	𑛞		MYANMAR EASTERN PWO KAREN DIGIT FOUR	
+U+116DF	𑛟		MYANMAR EASTERN PWO KAREN DIGIT FIVE	
+U+116E0	𑛠		MYANMAR EASTERN PWO KAREN DIGIT SIX	
+U+116E1	𑛡		MYANMAR EASTERN PWO KAREN DIGIT SEVEN	
+U+116E2	𑛢		MYANMAR EASTERN PWO KAREN DIGIT EIGHT	
+U+116E3	𑛣		MYANMAR EASTERN PWO KAREN DIGIT NINE	

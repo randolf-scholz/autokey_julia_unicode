@@ -1,83 +1,83 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A880	ꢀ	A880..A8DF	Saurashtra	Saurashtra sign anusvara		
-U+A881	ꢁ	A880..A8DF	Saurashtra	Saurashtra sign visarga		
-U+A882	ꢂ	A880..A8DF	Saurashtra	Saurashtra letter a		
-U+A883	ꢃ	A880..A8DF	Saurashtra	Saurashtra letter aa		
-U+A884	ꢄ	A880..A8DF	Saurashtra	Saurashtra letter i		
-U+A885	ꢅ	A880..A8DF	Saurashtra	Saurashtra letter ii		
-U+A886	ꢆ	A880..A8DF	Saurashtra	Saurashtra letter u		
-U+A887	ꢇ	A880..A8DF	Saurashtra	Saurashtra letter uu		
-U+A888	ꢈ	A880..A8DF	Saurashtra	Saurashtra letter vocalic r		
-U+A889	ꢉ	A880..A8DF	Saurashtra	Saurashtra letter vocalic rr		
-U+A88A	ꢊ	A880..A8DF	Saurashtra	Saurashtra letter vocalic l		
-U+A88B	ꢋ	A880..A8DF	Saurashtra	Saurashtra letter vocalic ll		
-U+A88C	ꢌ	A880..A8DF	Saurashtra	Saurashtra letter e		
-U+A88D	ꢍ	A880..A8DF	Saurashtra	Saurashtra letter ee		
-U+A88E	ꢎ	A880..A8DF	Saurashtra	Saurashtra letter ai		
-U+A88F	ꢏ	A880..A8DF	Saurashtra	Saurashtra letter o		
-U+A890	ꢐ	A880..A8DF	Saurashtra	Saurashtra letter oo		
-U+A891	ꢑ	A880..A8DF	Saurashtra	Saurashtra letter au		
-U+A892	ꢒ	A880..A8DF	Saurashtra	Saurashtra letter ka		
-U+A893	ꢓ	A880..A8DF	Saurashtra	Saurashtra letter kha		
-U+A894	ꢔ	A880..A8DF	Saurashtra	Saurashtra letter ga		
-U+A895	ꢕ	A880..A8DF	Saurashtra	Saurashtra letter gha		
-U+A896	ꢖ	A880..A8DF	Saurashtra	Saurashtra letter nga		
-U+A897	ꢗ	A880..A8DF	Saurashtra	Saurashtra letter ca		
-U+A898	ꢘ	A880..A8DF	Saurashtra	Saurashtra letter cha		
-U+A899	ꢙ	A880..A8DF	Saurashtra	Saurashtra letter ja		
-U+A89A	ꢚ	A880..A8DF	Saurashtra	Saurashtra letter jha		
-U+A89B	ꢛ	A880..A8DF	Saurashtra	Saurashtra letter nya		
-U+A89C	ꢜ	A880..A8DF	Saurashtra	Saurashtra letter tta		
-U+A89D	ꢝ	A880..A8DF	Saurashtra	Saurashtra letter ttha		
-U+A89E	ꢞ	A880..A8DF	Saurashtra	Saurashtra letter dda		
-U+A89F	ꢟ	A880..A8DF	Saurashtra	Saurashtra letter ddha		
-U+A8A0	ꢠ	A880..A8DF	Saurashtra	Saurashtra letter nna		
-U+A8A1	ꢡ	A880..A8DF	Saurashtra	Saurashtra letter ta		
-U+A8A2	ꢢ	A880..A8DF	Saurashtra	Saurashtra letter tha		
-U+A8A3	ꢣ	A880..A8DF	Saurashtra	Saurashtra letter da		
-U+A8A4	ꢤ	A880..A8DF	Saurashtra	Saurashtra letter dha		
-U+A8A5	ꢥ	A880..A8DF	Saurashtra	Saurashtra letter na		
-U+A8A6	ꢦ	A880..A8DF	Saurashtra	Saurashtra letter pa		
-U+A8A7	ꢧ	A880..A8DF	Saurashtra	Saurashtra letter pha		
-U+A8A8	ꢨ	A880..A8DF	Saurashtra	Saurashtra letter ba		
-U+A8A9	ꢩ	A880..A8DF	Saurashtra	Saurashtra letter bha		
-U+A8AA	ꢪ	A880..A8DF	Saurashtra	Saurashtra letter ma		
-U+A8AB	ꢫ	A880..A8DF	Saurashtra	Saurashtra letter ya		
-U+A8AC	ꢬ	A880..A8DF	Saurashtra	Saurashtra letter ra		
-U+A8AD	ꢭ	A880..A8DF	Saurashtra	Saurashtra letter la		
-U+A8AE	ꢮ	A880..A8DF	Saurashtra	Saurashtra letter va		
-U+A8AF	ꢯ	A880..A8DF	Saurashtra	Saurashtra letter sha		
-U+A8B0	ꢰ	A880..A8DF	Saurashtra	Saurashtra letter ssa		
-U+A8B1	ꢱ	A880..A8DF	Saurashtra	Saurashtra letter sa		
-U+A8B2	ꢲ	A880..A8DF	Saurashtra	Saurashtra letter ha		
-U+A8B3	ꢳ	A880..A8DF	Saurashtra	Saurashtra letter lla		
-U+A8B4	ꢴ	A880..A8DF	Saurashtra	Saurashtra consonant sign haaru		
-U+A8B5	ꢵ	A880..A8DF	Saurashtra	Saurashtra vowel sign aa		
-U+A8B6	ꢶ	A880..A8DF	Saurashtra	Saurashtra vowel sign i		
-U+A8B7	ꢷ	A880..A8DF	Saurashtra	Saurashtra vowel sign ii		
-U+A8B8	ꢸ	A880..A8DF	Saurashtra	Saurashtra vowel sign u		
-U+A8B9	ꢹ	A880..A8DF	Saurashtra	Saurashtra vowel sign uu		
-U+A8BA	ꢺ	A880..A8DF	Saurashtra	Saurashtra vowel sign vocalic r		
-U+A8BB	ꢻ	A880..A8DF	Saurashtra	Saurashtra vowel sign vocalic rr		
-U+A8BC	ꢼ	A880..A8DF	Saurashtra	Saurashtra vowel sign vocalic l		
-U+A8BD	ꢽ	A880..A8DF	Saurashtra	Saurashtra vowel sign vocalic ll		
-U+A8BE	ꢾ	A880..A8DF	Saurashtra	Saurashtra vowel sign e		
-U+A8BF	ꢿ	A880..A8DF	Saurashtra	Saurashtra vowel sign ee		
-U+A8C0	ꣀ	A880..A8DF	Saurashtra	Saurashtra vowel sign ai		
-U+A8C1	ꣁ	A880..A8DF	Saurashtra	Saurashtra vowel sign o		
-U+A8C2	ꣂ	A880..A8DF	Saurashtra	Saurashtra vowel sign oo		
-U+A8C3	ꣃ	A880..A8DF	Saurashtra	Saurashtra vowel sign au		
-U+A8C4	꣄	A880..A8DF	Saurashtra	Saurashtra sign virama		
-U+A8C5	ꣅ	A880..A8DF	Saurashtra	Saurashtra sign candrabindu		
-U+A8CE	꣎	A880..A8DF	Saurashtra	Saurashtra danda		
-U+A8CF	꣏	A880..A8DF	Saurashtra	Saurashtra double danda		
-U+A8D0	꣐	A880..A8DF	Saurashtra	Saurashtra digit zero		
-U+A8D1	꣑	A880..A8DF	Saurashtra	Saurashtra digit one		
-U+A8D2	꣒	A880..A8DF	Saurashtra	Saurashtra digit two		
-U+A8D3	꣓	A880..A8DF	Saurashtra	Saurashtra digit three		
-U+A8D4	꣔	A880..A8DF	Saurashtra	Saurashtra digit four		
-U+A8D5	꣕	A880..A8DF	Saurashtra	Saurashtra digit five		
-U+A8D6	꣖	A880..A8DF	Saurashtra	Saurashtra digit six		
-U+A8D7	꣗	A880..A8DF	Saurashtra	Saurashtra digit seven		
-U+A8D8	꣘	A880..A8DF	Saurashtra	Saurashtra digit eight		
-U+A8D9	꣙	A880..A8DF	Saurashtra	Saurashtra digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+A880	ꢀ		SAURASHTRA SIGN ANUSVARA	
+U+A881	ꢁ		SAURASHTRA SIGN VISARGA	
+U+A882	ꢂ		SAURASHTRA LETTER A	
+U+A883	ꢃ		SAURASHTRA LETTER AA	
+U+A884	ꢄ		SAURASHTRA LETTER I	
+U+A885	ꢅ		SAURASHTRA LETTER II	
+U+A886	ꢆ		SAURASHTRA LETTER U	
+U+A887	ꢇ		SAURASHTRA LETTER UU	
+U+A888	ꢈ		SAURASHTRA LETTER VOCALIC R	
+U+A889	ꢉ		SAURASHTRA LETTER VOCALIC RR	
+U+A88A	ꢊ		SAURASHTRA LETTER VOCALIC L	
+U+A88B	ꢋ		SAURASHTRA LETTER VOCALIC LL	
+U+A88C	ꢌ		SAURASHTRA LETTER E	
+U+A88D	ꢍ		SAURASHTRA LETTER EE	
+U+A88E	ꢎ		SAURASHTRA LETTER AI	
+U+A88F	ꢏ		SAURASHTRA LETTER O	
+U+A890	ꢐ		SAURASHTRA LETTER OO	
+U+A891	ꢑ		SAURASHTRA LETTER AU	
+U+A892	ꢒ		SAURASHTRA LETTER KA	
+U+A893	ꢓ		SAURASHTRA LETTER KHA	
+U+A894	ꢔ		SAURASHTRA LETTER GA	
+U+A895	ꢕ		SAURASHTRA LETTER GHA	
+U+A896	ꢖ		SAURASHTRA LETTER NGA	
+U+A897	ꢗ		SAURASHTRA LETTER CA	
+U+A898	ꢘ		SAURASHTRA LETTER CHA	
+U+A899	ꢙ		SAURASHTRA LETTER JA	
+U+A89A	ꢚ		SAURASHTRA LETTER JHA	
+U+A89B	ꢛ		SAURASHTRA LETTER NYA	
+U+A89C	ꢜ		SAURASHTRA LETTER TTA	
+U+A89D	ꢝ		SAURASHTRA LETTER TTHA	
+U+A89E	ꢞ		SAURASHTRA LETTER DDA	
+U+A89F	ꢟ		SAURASHTRA LETTER DDHA	
+U+A8A0	ꢠ		SAURASHTRA LETTER NNA	
+U+A8A1	ꢡ		SAURASHTRA LETTER TA	
+U+A8A2	ꢢ		SAURASHTRA LETTER THA	
+U+A8A3	ꢣ		SAURASHTRA LETTER DA	
+U+A8A4	ꢤ		SAURASHTRA LETTER DHA	
+U+A8A5	ꢥ		SAURASHTRA LETTER NA	
+U+A8A6	ꢦ		SAURASHTRA LETTER PA	
+U+A8A7	ꢧ		SAURASHTRA LETTER PHA	
+U+A8A8	ꢨ		SAURASHTRA LETTER BA	
+U+A8A9	ꢩ		SAURASHTRA LETTER BHA	
+U+A8AA	ꢪ		SAURASHTRA LETTER MA	
+U+A8AB	ꢫ		SAURASHTRA LETTER YA	
+U+A8AC	ꢬ		SAURASHTRA LETTER RA	
+U+A8AD	ꢭ		SAURASHTRA LETTER LA	
+U+A8AE	ꢮ		SAURASHTRA LETTER VA	
+U+A8AF	ꢯ		SAURASHTRA LETTER SHA	
+U+A8B0	ꢰ		SAURASHTRA LETTER SSA	
+U+A8B1	ꢱ		SAURASHTRA LETTER SA	
+U+A8B2	ꢲ		SAURASHTRA LETTER HA	
+U+A8B3	ꢳ		SAURASHTRA LETTER LLA	
+U+A8B4	ꢴ		SAURASHTRA CONSONANT SIGN HAARU	
+U+A8B5	ꢵ		SAURASHTRA VOWEL SIGN AA	
+U+A8B6	ꢶ		SAURASHTRA VOWEL SIGN I	
+U+A8B7	ꢷ		SAURASHTRA VOWEL SIGN II	
+U+A8B8	ꢸ		SAURASHTRA VOWEL SIGN U	
+U+A8B9	ꢹ		SAURASHTRA VOWEL SIGN UU	
+U+A8BA	ꢺ		SAURASHTRA VOWEL SIGN VOCALIC R	
+U+A8BB	ꢻ		SAURASHTRA VOWEL SIGN VOCALIC RR	
+U+A8BC	ꢼ		SAURASHTRA VOWEL SIGN VOCALIC L	
+U+A8BD	ꢽ		SAURASHTRA VOWEL SIGN VOCALIC LL	
+U+A8BE	ꢾ		SAURASHTRA VOWEL SIGN E	
+U+A8BF	ꢿ		SAURASHTRA VOWEL SIGN EE	
+U+A8C0	ꣀ		SAURASHTRA VOWEL SIGN AI	
+U+A8C1	ꣁ		SAURASHTRA VOWEL SIGN O	
+U+A8C2	ꣂ		SAURASHTRA VOWEL SIGN OO	
+U+A8C3	ꣃ		SAURASHTRA VOWEL SIGN AU	
+U+A8C4	꣄		SAURASHTRA SIGN VIRAMA	
+U+A8C5	ꣅ		SAURASHTRA SIGN CANDRABINDU	
+U+A8CE	꣎		SAURASHTRA DANDA	
+U+A8CF	꣏		SAURASHTRA DOUBLE DANDA	
+U+A8D0	꣐		SAURASHTRA DIGIT ZERO	
+U+A8D1	꣑		SAURASHTRA DIGIT ONE	
+U+A8D2	꣒		SAURASHTRA DIGIT TWO	
+U+A8D3	꣓		SAURASHTRA DIGIT THREE	
+U+A8D4	꣔		SAURASHTRA DIGIT FOUR	
+U+A8D5	꣕		SAURASHTRA DIGIT FIVE	
+U+A8D6	꣖		SAURASHTRA DIGIT SIX	
+U+A8D7	꣗		SAURASHTRA DIGIT SEVEN	
+U+A8D8	꣘		SAURASHTRA DIGIT EIGHT	
+U+A8D9	꣙		SAURASHTRA DIGIT NINE	

@@ -1,247 +1,247 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D000	𝀀	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psili		
-U+1D001	𝀁	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol daseia		
-U+1D002	𝀂	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol perispomeni		
-U+1D003	𝀃	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oxeia ekfonitikon		
-U+1D004	𝀄	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oxeia dipli		
-U+1D005	𝀅	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol vareia ekfonitikon		
-U+1D006	𝀆	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol vareia dipli		
-U+1D007	𝀇	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kathisti		
-U+1D008	𝀈	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol syrmatiki		
-U+1D009	𝀉	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol paraklitiki		
-U+1D00A	𝀊	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ypokrisis		
-U+1D00B	𝀋	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ypokrisis dipli		
-U+1D00C	𝀌	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kremasti		
-U+1D00D	𝀍	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apeso ekfonitikon		
-U+1D00E	𝀎	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol exo ekfonitikon		
-U+1D00F	𝀏	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol teleia		
-U+1D010	𝀐	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentimata		
-U+1D011	𝀑	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apostrofos		
-U+1D012	𝀒	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apostrofos dipli		
-U+1D013	𝀓	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol synevma		
-U+1D014	𝀔	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thita		
-U+1D015	𝀕	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oligon archaion		
-U+1D016	𝀖	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgon archaion		
-U+1D017	𝀗	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psilon		
-U+1D018	𝀘	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chamilon		
-U+1D019	𝀙	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol vathy		
-U+1D01A	𝀚	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ison archaion		
-U+1D01B	𝀛	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentima archaion		
-U+1D01C	𝀜	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentimata archaion		
-U+1D01D	𝀝	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol saximata		
-U+1D01E	𝀞	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol parichon		
-U+1D01F	𝀟	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol stavros apodexia		
-U+1D020	𝀠	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oxeiai archaion		
-U+1D021	𝀡	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol vareiai archaion		
-U+1D022	𝀢	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apoderma archaion		
-U+1D023	𝀣	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apothema		
-U+1D024	𝀤	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol klasma		
-U+1D025	𝀥	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol revma		
-U+1D026	𝀦	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol piasma archaion		
-U+1D027	𝀧	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tinagma		
-U+1D028	𝀨	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol anatrichisma		
-U+1D029	𝀩	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol seisma		
-U+1D02A	𝀪	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol synagma archaion		
-U+1D02B	𝀫	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol synagma meta stavrou		
-U+1D02C	𝀬	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oyranisma archaion		
-U+1D02D	𝀭	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thema		
-U+1D02E	𝀮	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol lemoi		
-U+1D02F	𝀯	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol dyo		
-U+1D030	𝀰	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tria		
-U+1D031	𝀱	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tessera		
-U+1D032	𝀲	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratimata		
-U+1D033	𝀳	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apeso exo neo		
-U+1D034	𝀴	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora archaion		
-U+1D035	𝀵	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol imifthora		
-U+1D036	𝀶	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikon archaion		
-U+1D037	𝀷	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol katava tromikon		
-U+1D038	𝀸	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol pelaston		
-U+1D039	𝀹	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psifiston		
-U+1D03A	𝀺	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kontevma		
-U+1D03B	𝀻	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chorevma archaion		
-U+1D03C	𝀼	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol rapisma		
-U+1D03D	𝀽	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol parakalesma archaion		
-U+1D03E	𝀾	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol paraklitiki archaion		
-U+1D03F	𝀿	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ichadin		
-U+1D040	𝁀	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol nana		
-U+1D041	𝁁	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol petasma		
-U+1D042	𝁂	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kontevma allo		
-U+1D043	𝁃	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikon allo		
-U+1D044	𝁄	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol straggismata		
-U+1D045	𝁅	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gronthismata		
-U+1D046	𝁆	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ison neo		
-U+1D047	𝁇	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oligon neo		
-U+1D048	𝁈	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oxeia neo		
-U+1D049	𝁉	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol petasti		
-U+1D04A	𝁊	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol koufisma		
-U+1D04B	𝁋	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol petastokoufisma		
-U+1D04C	𝁌	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratimokoufisma		
-U+1D04D	𝁍	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol pelaston neo		
-U+1D04E	𝁎	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentimata neo ano		
-U+1D04F	𝁏	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentima neo ano		
-U+1D050	𝁐	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ypsili		
-U+1D051	𝁑	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apostrofos neo		
-U+1D052	𝁒	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apostrofoi syndesmos neo		
-U+1D053	𝁓	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yporroi		
-U+1D054	𝁔	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratimoyporroon		
-U+1D055	𝁕	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol elafron		
-U+1D056	𝁖	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chamili		
-U+1D057	𝁗	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol mikron ison		
-U+1D058	𝁘	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol vareia neo		
-U+1D059	𝁙	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol piasma neo		
-U+1D05A	𝁚	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psifiston neo		
-U+1D05B	𝁛	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol omalon		
-U+1D05C	𝁜	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol antikenoma		
-U+1D05D	𝁝	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol lygisma		
-U+1D05E	𝁞	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol paraklitiki neo		
-U+1D05F	𝁟	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol parakalesma neo		
-U+1D060	𝁠	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol eteron parakalesma		
-U+1D061	𝁡	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kylisma		
-U+1D062	𝁢	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol antikenokylisma		
-U+1D063	𝁣	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikon neo		
-U+1D064	𝁤	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol ekstrepton		
-U+1D065	𝁥	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol synagma neo		
-U+1D066	𝁦	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol syrma		
-U+1D067	𝁧	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chorevma neo		
-U+1D068	𝁨	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol epegerma		
-U+1D069	𝁩	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol seisma neo		
-U+1D06A	𝁪	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol xiron klasma		
-U+1D06B	𝁫	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikopsifiston		
-U+1D06C	𝁬	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psifistolygisma		
-U+1D06D	𝁭	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikolygisma		
-U+1D06E	𝁮	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikoparakalesma		
-U+1D06F	𝁯	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psifistoparakalesma		
-U+1D070	𝁰	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tromikosynagma		
-U+1D071	𝁱	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol psifistosynagma		
-U+1D072	𝁲	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgosyntheton		
-U+1D073	𝁳	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol argosyntheton		
-U+1D074	𝁴	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol eteron argosyntheton		
-U+1D075	𝁵	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol oyranisma neo		
-U+1D076	𝁶	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thematismos eso		
-U+1D077	𝁷	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thematismos exo		
-U+1D078	𝁸	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thema aploun		
-U+1D079	𝁹	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol thes kai apothes		
-U+1D07A	𝁺	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol katavasma		
-U+1D07B	𝁻	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol endofonon		
-U+1D07C	𝁼	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfen kato		
-U+1D07D	𝁽	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfen ano		
-U+1D07E	𝁾	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol stavros		
-U+1D07F	𝁿	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol klasma ano		
-U+1D080	𝂀	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol dipli archaion		
-U+1D081	𝂁	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratima archaion		
-U+1D082	𝂂	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratima allo		
-U+1D083	𝂃	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kratima neo		
-U+1D084	𝂄	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apoderma neo		
-U+1D085	𝂅	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apli		
-U+1D086	𝂆	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol dipli		
-U+1D087	𝂇	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tripli		
-U+1D088	𝂈	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol tetrapli		
-U+1D089	𝂉	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol koronis		
-U+1D08A	𝂊	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol leimma enos chronou		
-U+1D08B	𝂋	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol leimma dyo chronon		
-U+1D08C	𝂌	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol leimma trion chronon		
-U+1D08D	𝂍	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol leimma tessaron chronon		
-U+1D08E	𝂎	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol leimma imiseos chronou		
-U+1D08F	𝂏	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgon neo ano		
-U+1D090	𝂐	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgon parestigmenon aristera		
-U+1D091	𝂑	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgon parestigmenon dexia		
-U+1D092	𝂒	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol digorgon		
-U+1D093	𝂓	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol digorgon parestigmenon aristera kato		
-U+1D094	𝂔	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol digorgon parestigmenon aristera ano		
-U+1D095	𝂕	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol digorgon parestigmenon dexia		
-U+1D096	𝂖	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol trigorgon		
-U+1D097	𝂗	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol argon		
-U+1D098	𝂘	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol imidiargon		
-U+1D099	𝂙	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diargon		
-U+1D09A	𝂚	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi poli argi		
-U+1D09B	𝂛	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi argoteri		
-U+1D09C	𝂜	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi argi		
-U+1D09D	𝂝	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi metria		
-U+1D09E	𝂞	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi mesi		
-U+1D09F	𝂟	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi gorgi		
-U+1D0A0	𝂠	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi gorgoteri		
-U+1D0A1	𝂡	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol agogi poli gorgi		
-U+1D0A2	𝂢	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria protos ichos		
-U+1D0A3	𝂣	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria alli protos ichos		
-U+1D0A4	𝂤	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria deyteros ichos		
-U+1D0A5	𝂥	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria alli deyteros ichos		
-U+1D0A6	𝂦	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria tritos ichos		
-U+1D0A7	𝂧	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria trifonias		
-U+1D0A8	𝂨	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria tetartos ichos		
-U+1D0A9	𝂩	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria tetartos legetos ichos		
-U+1D0AA	𝂪	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria legetos ichos		
-U+1D0AB	𝂫	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria plagios ichos		
-U+1D0AC	𝂬	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol isakia telous ichimatos		
-U+1D0AD	𝂭	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol apostrofoi telous ichimatos		
-U+1D0AE	𝂮	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fanerosis tetrafonias		
-U+1D0AF	𝂯	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fanerosis monofonias		
-U+1D0B0	𝂰	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fanerosis difonias		
-U+1D0B1	𝂱	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria varys ichos		
-U+1D0B2	𝂲	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria protovarys ichos		
-U+1D0B3	𝂳	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol martyria plagios tetartos ichos		
-U+1D0B4	𝂴	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorthmikon n aploun		
-U+1D0B5	𝂵	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorthmikon n diploun		
-U+1D0B6	𝂶	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol enarxis kai fthora vou		
-U+1D0B7	𝂷	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol imifonon		
-U+1D0B8	𝂸	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol imifthoron		
-U+1D0B9	𝂹	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora archaion deyterou ichou		
-U+1D0BA	𝂺	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki pa		
-U+1D0BB	𝂻	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki nana		
-U+1D0BC	𝂼	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora naos ichos		
-U+1D0BD	𝂽	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki di		
-U+1D0BE	𝂾	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora skliron diatonon di		
-U+1D0BF	𝂿	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki ke		
-U+1D0C0	𝃀	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki zo		
-U+1D0C1	𝃁	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki ni kato		
-U+1D0C2	𝃂	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora diatoniki ni ano		
-U+1D0C3	𝃃	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora malakon chroma difonias		
-U+1D0C4	𝃄	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora malakon chroma monofonias		
-U+1D0C5	𝃅	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fhtora skliron chroma vasis		
-U+1D0C6	𝃆	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora skliron chroma synafi		
-U+1D0C7	𝃇	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora nenano		
-U+1D0C8	𝃈	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chroa zygos		
-U+1D0C9	𝃉	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chroa kliton		
-U+1D0CA	𝃊	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol chroa spathi		
-U+1D0CB	𝃋	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora i yfesis tetartimorion		
-U+1D0CC	𝃌	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol fthora enarmonios antifonia		
-U+1D0CD	𝃍	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfesis tritimorion		
-U+1D0CE	𝃎	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis tritimorion		
-U+1D0CF	𝃏	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis tetartimorion		
-U+1D0D0	𝃐	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis apli dyo dodekata		
-U+1D0D1	𝃑	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis monogrammos tessera dodekata		
-U+1D0D2	𝃒	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis digrammos ex dodekata		
-U+1D0D3	𝃓	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diesis trigrammos okto dodekata		
-U+1D0D4	𝃔	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfesis apli dyo dodekata		
-U+1D0D5	𝃕	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfesis monogrammos tessera dodekata		
-U+1D0D6	𝃖	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfesis digrammos ex dodekata		
-U+1D0D7	𝃗	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol yfesis trigrammos okto dodekata		
-U+1D0D8	𝃘	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol geniki diesis		
-U+1D0D9	𝃙	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol geniki yfesis		
-U+1D0DA	𝃚	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diastoli apli mikri		
-U+1D0DB	𝃛	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diastoli apli megali		
-U+1D0DC	𝃜	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diastoli dipli		
-U+1D0DD	𝃝	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diastoli theseos		
-U+1D0DE	𝃞	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis theseos		
-U+1D0DF	𝃟	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis theseos disimou		
-U+1D0E0	𝃠	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis theseos trisimou		
-U+1D0E1	𝃡	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis theseos tetrasimou		
-U+1D0E2	𝃢	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis arseos		
-U+1D0E3	𝃣	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis arseos disimou		
-U+1D0E4	𝃤	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis arseos trisimou		
-U+1D0E5	𝃥	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol simansis arseos tetrasimou		
-U+1D0E6	𝃦	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol digramma gg		
-U+1D0E7	𝃧	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol diftoggos ou		
-U+1D0E8	𝃨	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol stigma		
-U+1D0E9	𝃩	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko pa		
-U+1D0EA	𝃪	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko vou		
-U+1D0EB	𝃫	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko ga		
-U+1D0EC	𝃬	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko di		
-U+1D0ED	𝃭	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko ke		
-U+1D0EE	𝃮	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko zo		
-U+1D0EF	𝃯	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol arktiko ni		
-U+1D0F0	𝃰	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentimata neo meso		
-U+1D0F1	𝃱	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentima neo meso		
-U+1D0F2	𝃲	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentimata neo kato		
-U+1D0F3	𝃳	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol kentima neo kato		
-U+1D0F4	𝃴	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol klasma kato		
-U+1D0F5	𝃵	1D000..1D0FF	Byzantine Musical Symbols	Byzantine musical symbol gorgon neo kato		
+code_points	chars	tab_completions	unicode_name	base
+U+1D000	𝀀		BYZANTINE MUSICAL SYMBOL PSILI	
+U+1D001	𝀁		BYZANTINE MUSICAL SYMBOL DASEIA	
+U+1D002	𝀂		BYZANTINE MUSICAL SYMBOL PERISPOMENI	
+U+1D003	𝀃		BYZANTINE MUSICAL SYMBOL OXEIA EKFONITIKON	
+U+1D004	𝀄		BYZANTINE MUSICAL SYMBOL OXEIA DIPLI	
+U+1D005	𝀅		BYZANTINE MUSICAL SYMBOL VAREIA EKFONITIKON	
+U+1D006	𝀆		BYZANTINE MUSICAL SYMBOL VAREIA DIPLI	
+U+1D007	𝀇		BYZANTINE MUSICAL SYMBOL KATHISTI	
+U+1D008	𝀈		BYZANTINE MUSICAL SYMBOL SYRMATIKI	
+U+1D009	𝀉		BYZANTINE MUSICAL SYMBOL PARAKLITIKI	
+U+1D00A	𝀊		BYZANTINE MUSICAL SYMBOL YPOKRISIS	
+U+1D00B	𝀋		BYZANTINE MUSICAL SYMBOL YPOKRISIS DIPLI	
+U+1D00C	𝀌		BYZANTINE MUSICAL SYMBOL KREMASTI	
+U+1D00D	𝀍		BYZANTINE MUSICAL SYMBOL APESO EKFONITIKON	
+U+1D00E	𝀎		BYZANTINE MUSICAL SYMBOL EXO EKFONITIKON	
+U+1D00F	𝀏		BYZANTINE MUSICAL SYMBOL TELEIA	
+U+1D010	𝀐		BYZANTINE MUSICAL SYMBOL KENTIMATA	
+U+1D011	𝀑		BYZANTINE MUSICAL SYMBOL APOSTROFOS	
+U+1D012	𝀒		BYZANTINE MUSICAL SYMBOL APOSTROFOS DIPLI	
+U+1D013	𝀓		BYZANTINE MUSICAL SYMBOL SYNEVMA	
+U+1D014	𝀔		BYZANTINE MUSICAL SYMBOL THITA	
+U+1D015	𝀕		BYZANTINE MUSICAL SYMBOL OLIGON ARCHAION	
+U+1D016	𝀖		BYZANTINE MUSICAL SYMBOL GORGON ARCHAION	
+U+1D017	𝀗		BYZANTINE MUSICAL SYMBOL PSILON	
+U+1D018	𝀘		BYZANTINE MUSICAL SYMBOL CHAMILON	
+U+1D019	𝀙		BYZANTINE MUSICAL SYMBOL VATHY	
+U+1D01A	𝀚		BYZANTINE MUSICAL SYMBOL ISON ARCHAION	
+U+1D01B	𝀛		BYZANTINE MUSICAL SYMBOL KENTIMA ARCHAION	
+U+1D01C	𝀜		BYZANTINE MUSICAL SYMBOL KENTIMATA ARCHAION	
+U+1D01D	𝀝		BYZANTINE MUSICAL SYMBOL SAXIMATA	
+U+1D01E	𝀞		BYZANTINE MUSICAL SYMBOL PARICHON	
+U+1D01F	𝀟		BYZANTINE MUSICAL SYMBOL STAVROS APODEXIA	
+U+1D020	𝀠		BYZANTINE MUSICAL SYMBOL OXEIAI ARCHAION	
+U+1D021	𝀡		BYZANTINE MUSICAL SYMBOL VAREIAI ARCHAION	
+U+1D022	𝀢		BYZANTINE MUSICAL SYMBOL APODERMA ARCHAION	
+U+1D023	𝀣		BYZANTINE MUSICAL SYMBOL APOTHEMA	
+U+1D024	𝀤		BYZANTINE MUSICAL SYMBOL KLASMA	
+U+1D025	𝀥		BYZANTINE MUSICAL SYMBOL REVMA	
+U+1D026	𝀦		BYZANTINE MUSICAL SYMBOL PIASMA ARCHAION	
+U+1D027	𝀧		BYZANTINE MUSICAL SYMBOL TINAGMA	
+U+1D028	𝀨		BYZANTINE MUSICAL SYMBOL ANATRICHISMA	
+U+1D029	𝀩		BYZANTINE MUSICAL SYMBOL SEISMA	
+U+1D02A	𝀪		BYZANTINE MUSICAL SYMBOL SYNAGMA ARCHAION	
+U+1D02B	𝀫		BYZANTINE MUSICAL SYMBOL SYNAGMA META STAVROU	
+U+1D02C	𝀬		BYZANTINE MUSICAL SYMBOL OYRANISMA ARCHAION	
+U+1D02D	𝀭		BYZANTINE MUSICAL SYMBOL THEMA	
+U+1D02E	𝀮		BYZANTINE MUSICAL SYMBOL LEMOI	
+U+1D02F	𝀯		BYZANTINE MUSICAL SYMBOL DYO	
+U+1D030	𝀰		BYZANTINE MUSICAL SYMBOL TRIA	
+U+1D031	𝀱		BYZANTINE MUSICAL SYMBOL TESSERA	
+U+1D032	𝀲		BYZANTINE MUSICAL SYMBOL KRATIMATA	
+U+1D033	𝀳		BYZANTINE MUSICAL SYMBOL APESO EXO NEO	
+U+1D034	𝀴		BYZANTINE MUSICAL SYMBOL FTHORA ARCHAION	
+U+1D035	𝀵		BYZANTINE MUSICAL SYMBOL IMIFTHORA	
+U+1D036	𝀶		BYZANTINE MUSICAL SYMBOL TROMIKON ARCHAION	
+U+1D037	𝀷		BYZANTINE MUSICAL SYMBOL KATAVA TROMIKON	
+U+1D038	𝀸		BYZANTINE MUSICAL SYMBOL PELASTON	
+U+1D039	𝀹		BYZANTINE MUSICAL SYMBOL PSIFISTON	
+U+1D03A	𝀺		BYZANTINE MUSICAL SYMBOL KONTEVMA	
+U+1D03B	𝀻		BYZANTINE MUSICAL SYMBOL CHOREVMA ARCHAION	
+U+1D03C	𝀼		BYZANTINE MUSICAL SYMBOL RAPISMA	
+U+1D03D	𝀽		BYZANTINE MUSICAL SYMBOL PARAKALESMA ARCHAION	
+U+1D03E	𝀾		BYZANTINE MUSICAL SYMBOL PARAKLITIKI ARCHAION	
+U+1D03F	𝀿		BYZANTINE MUSICAL SYMBOL ICHADIN	
+U+1D040	𝁀		BYZANTINE MUSICAL SYMBOL NANA	
+U+1D041	𝁁		BYZANTINE MUSICAL SYMBOL PETASMA	
+U+1D042	𝁂		BYZANTINE MUSICAL SYMBOL KONTEVMA ALLO	
+U+1D043	𝁃		BYZANTINE MUSICAL SYMBOL TROMIKON ALLO	
+U+1D044	𝁄		BYZANTINE MUSICAL SYMBOL STRAGGISMATA	
+U+1D045	𝁅		BYZANTINE MUSICAL SYMBOL GRONTHISMATA	
+U+1D046	𝁆		BYZANTINE MUSICAL SYMBOL ISON NEO	
+U+1D047	𝁇		BYZANTINE MUSICAL SYMBOL OLIGON NEO	
+U+1D048	𝁈		BYZANTINE MUSICAL SYMBOL OXEIA NEO	
+U+1D049	𝁉		BYZANTINE MUSICAL SYMBOL PETASTI	
+U+1D04A	𝁊		BYZANTINE MUSICAL SYMBOL KOUFISMA	
+U+1D04B	𝁋		BYZANTINE MUSICAL SYMBOL PETASTOKOUFISMA	
+U+1D04C	𝁌		BYZANTINE MUSICAL SYMBOL KRATIMOKOUFISMA	
+U+1D04D	𝁍		BYZANTINE MUSICAL SYMBOL PELASTON NEO	
+U+1D04E	𝁎		BYZANTINE MUSICAL SYMBOL KENTIMATA NEO ANO	
+U+1D04F	𝁏		BYZANTINE MUSICAL SYMBOL KENTIMA NEO ANO	
+U+1D050	𝁐		BYZANTINE MUSICAL SYMBOL YPSILI	
+U+1D051	𝁑		BYZANTINE MUSICAL SYMBOL APOSTROFOS NEO	
+U+1D052	𝁒		BYZANTINE MUSICAL SYMBOL APOSTROFOI SYNDESMOS NEO	
+U+1D053	𝁓		BYZANTINE MUSICAL SYMBOL YPORROI	
+U+1D054	𝁔		BYZANTINE MUSICAL SYMBOL KRATIMOYPORROON	
+U+1D055	𝁕		BYZANTINE MUSICAL SYMBOL ELAFRON	
+U+1D056	𝁖		BYZANTINE MUSICAL SYMBOL CHAMILI	
+U+1D057	𝁗		BYZANTINE MUSICAL SYMBOL MIKRON ISON	
+U+1D058	𝁘		BYZANTINE MUSICAL SYMBOL VAREIA NEO	
+U+1D059	𝁙		BYZANTINE MUSICAL SYMBOL PIASMA NEO	
+U+1D05A	𝁚		BYZANTINE MUSICAL SYMBOL PSIFISTON NEO	
+U+1D05B	𝁛		BYZANTINE MUSICAL SYMBOL OMALON	
+U+1D05C	𝁜		BYZANTINE MUSICAL SYMBOL ANTIKENOMA	
+U+1D05D	𝁝		BYZANTINE MUSICAL SYMBOL LYGISMA	
+U+1D05E	𝁞		BYZANTINE MUSICAL SYMBOL PARAKLITIKI NEO	
+U+1D05F	𝁟		BYZANTINE MUSICAL SYMBOL PARAKALESMA NEO	
+U+1D060	𝁠		BYZANTINE MUSICAL SYMBOL ETERON PARAKALESMA	
+U+1D061	𝁡		BYZANTINE MUSICAL SYMBOL KYLISMA	
+U+1D062	𝁢		BYZANTINE MUSICAL SYMBOL ANTIKENOKYLISMA	
+U+1D063	𝁣		BYZANTINE MUSICAL SYMBOL TROMIKON NEO	
+U+1D064	𝁤		BYZANTINE MUSICAL SYMBOL EKSTREPTON	
+U+1D065	𝁥		BYZANTINE MUSICAL SYMBOL SYNAGMA NEO	
+U+1D066	𝁦		BYZANTINE MUSICAL SYMBOL SYRMA	
+U+1D067	𝁧		BYZANTINE MUSICAL SYMBOL CHOREVMA NEO	
+U+1D068	𝁨		BYZANTINE MUSICAL SYMBOL EPEGERMA	
+U+1D069	𝁩		BYZANTINE MUSICAL SYMBOL SEISMA NEO	
+U+1D06A	𝁪		BYZANTINE MUSICAL SYMBOL XIRON KLASMA	
+U+1D06B	𝁫		BYZANTINE MUSICAL SYMBOL TROMIKOPSIFISTON	
+U+1D06C	𝁬		BYZANTINE MUSICAL SYMBOL PSIFISTOLYGISMA	
+U+1D06D	𝁭		BYZANTINE MUSICAL SYMBOL TROMIKOLYGISMA	
+U+1D06E	𝁮		BYZANTINE MUSICAL SYMBOL TROMIKOPARAKALESMA	
+U+1D06F	𝁯		BYZANTINE MUSICAL SYMBOL PSIFISTOPARAKALESMA	
+U+1D070	𝁰		BYZANTINE MUSICAL SYMBOL TROMIKOSYNAGMA	
+U+1D071	𝁱		BYZANTINE MUSICAL SYMBOL PSIFISTOSYNAGMA	
+U+1D072	𝁲		BYZANTINE MUSICAL SYMBOL GORGOSYNTHETON	
+U+1D073	𝁳		BYZANTINE MUSICAL SYMBOL ARGOSYNTHETON	
+U+1D074	𝁴		BYZANTINE MUSICAL SYMBOL ETERON ARGOSYNTHETON	
+U+1D075	𝁵		BYZANTINE MUSICAL SYMBOL OYRANISMA NEO	
+U+1D076	𝁶		BYZANTINE MUSICAL SYMBOL THEMATISMOS ESO	
+U+1D077	𝁷		BYZANTINE MUSICAL SYMBOL THEMATISMOS EXO	
+U+1D078	𝁸		BYZANTINE MUSICAL SYMBOL THEMA APLOUN	
+U+1D079	𝁹		BYZANTINE MUSICAL SYMBOL THES KAI APOTHES	
+U+1D07A	𝁺		BYZANTINE MUSICAL SYMBOL KATAVASMA	
+U+1D07B	𝁻		BYZANTINE MUSICAL SYMBOL ENDOFONON	
+U+1D07C	𝁼		BYZANTINE MUSICAL SYMBOL YFEN KATO	
+U+1D07D	𝁽		BYZANTINE MUSICAL SYMBOL YFEN ANO	
+U+1D07E	𝁾		BYZANTINE MUSICAL SYMBOL STAVROS	
+U+1D07F	𝁿		BYZANTINE MUSICAL SYMBOL KLASMA ANO	
+U+1D080	𝂀		BYZANTINE MUSICAL SYMBOL DIPLI ARCHAION	
+U+1D081	𝂁		BYZANTINE MUSICAL SYMBOL KRATIMA ARCHAION	
+U+1D082	𝂂		BYZANTINE MUSICAL SYMBOL KRATIMA ALLO	
+U+1D083	𝂃		BYZANTINE MUSICAL SYMBOL KRATIMA NEO	
+U+1D084	𝂄		BYZANTINE MUSICAL SYMBOL APODERMA NEO	
+U+1D085	𝂅		BYZANTINE MUSICAL SYMBOL APLI	
+U+1D086	𝂆		BYZANTINE MUSICAL SYMBOL DIPLI	
+U+1D087	𝂇		BYZANTINE MUSICAL SYMBOL TRIPLI	
+U+1D088	𝂈		BYZANTINE MUSICAL SYMBOL TETRAPLI	
+U+1D089	𝂉		BYZANTINE MUSICAL SYMBOL KORONIS	
+U+1D08A	𝂊		BYZANTINE MUSICAL SYMBOL LEIMMA ENOS CHRONOU	
+U+1D08B	𝂋		BYZANTINE MUSICAL SYMBOL LEIMMA DYO CHRONON	
+U+1D08C	𝂌		BYZANTINE MUSICAL SYMBOL LEIMMA TRION CHRONON	
+U+1D08D	𝂍		BYZANTINE MUSICAL SYMBOL LEIMMA TESSARON CHRONON	
+U+1D08E	𝂎		BYZANTINE MUSICAL SYMBOL LEIMMA IMISEOS CHRONOU	
+U+1D08F	𝂏		BYZANTINE MUSICAL SYMBOL GORGON NEO ANO	
+U+1D090	𝂐		BYZANTINE MUSICAL SYMBOL GORGON PARESTIGMENON ARISTERA	
+U+1D091	𝂑		BYZANTINE MUSICAL SYMBOL GORGON PARESTIGMENON DEXIA	
+U+1D092	𝂒		BYZANTINE MUSICAL SYMBOL DIGORGON	
+U+1D093	𝂓		BYZANTINE MUSICAL SYMBOL DIGORGON PARESTIGMENON ARISTERA KATO	
+U+1D094	𝂔		BYZANTINE MUSICAL SYMBOL DIGORGON PARESTIGMENON ARISTERA ANO	
+U+1D095	𝂕		BYZANTINE MUSICAL SYMBOL DIGORGON PARESTIGMENON DEXIA	
+U+1D096	𝂖		BYZANTINE MUSICAL SYMBOL TRIGORGON	
+U+1D097	𝂗		BYZANTINE MUSICAL SYMBOL ARGON	
+U+1D098	𝂘		BYZANTINE MUSICAL SYMBOL IMIDIARGON	
+U+1D099	𝂙		BYZANTINE MUSICAL SYMBOL DIARGON	
+U+1D09A	𝂚		BYZANTINE MUSICAL SYMBOL AGOGI POLI ARGI	
+U+1D09B	𝂛		BYZANTINE MUSICAL SYMBOL AGOGI ARGOTERI	
+U+1D09C	𝂜		BYZANTINE MUSICAL SYMBOL AGOGI ARGI	
+U+1D09D	𝂝		BYZANTINE MUSICAL SYMBOL AGOGI METRIA	
+U+1D09E	𝂞		BYZANTINE MUSICAL SYMBOL AGOGI MESI	
+U+1D09F	𝂟		BYZANTINE MUSICAL SYMBOL AGOGI GORGI	
+U+1D0A0	𝂠		BYZANTINE MUSICAL SYMBOL AGOGI GORGOTERI	
+U+1D0A1	𝂡		BYZANTINE MUSICAL SYMBOL AGOGI POLI GORGI	
+U+1D0A2	𝂢		BYZANTINE MUSICAL SYMBOL MARTYRIA PROTOS ICHOS	
+U+1D0A3	𝂣		BYZANTINE MUSICAL SYMBOL MARTYRIA ALLI PROTOS ICHOS	
+U+1D0A4	𝂤		BYZANTINE MUSICAL SYMBOL MARTYRIA DEYTEROS ICHOS	
+U+1D0A5	𝂥		BYZANTINE MUSICAL SYMBOL MARTYRIA ALLI DEYTEROS ICHOS	
+U+1D0A6	𝂦		BYZANTINE MUSICAL SYMBOL MARTYRIA TRITOS ICHOS	
+U+1D0A7	𝂧		BYZANTINE MUSICAL SYMBOL MARTYRIA TRIFONIAS	
+U+1D0A8	𝂨		BYZANTINE MUSICAL SYMBOL MARTYRIA TETARTOS ICHOS	
+U+1D0A9	𝂩		BYZANTINE MUSICAL SYMBOL MARTYRIA TETARTOS LEGETOS ICHOS	
+U+1D0AA	𝂪		BYZANTINE MUSICAL SYMBOL MARTYRIA LEGETOS ICHOS	
+U+1D0AB	𝂫		BYZANTINE MUSICAL SYMBOL MARTYRIA PLAGIOS ICHOS	
+U+1D0AC	𝂬		BYZANTINE MUSICAL SYMBOL ISAKIA TELOUS ICHIMATOS	
+U+1D0AD	𝂭		BYZANTINE MUSICAL SYMBOL APOSTROFOI TELOUS ICHIMATOS	
+U+1D0AE	𝂮		BYZANTINE MUSICAL SYMBOL FANEROSIS TETRAFONIAS	
+U+1D0AF	𝂯		BYZANTINE MUSICAL SYMBOL FANEROSIS MONOFONIAS	
+U+1D0B0	𝂰		BYZANTINE MUSICAL SYMBOL FANEROSIS DIFONIAS	
+U+1D0B1	𝂱		BYZANTINE MUSICAL SYMBOL MARTYRIA VARYS ICHOS	
+U+1D0B2	𝂲		BYZANTINE MUSICAL SYMBOL MARTYRIA PROTOVARYS ICHOS	
+U+1D0B3	𝂳		BYZANTINE MUSICAL SYMBOL MARTYRIA PLAGIOS TETARTOS ICHOS	
+U+1D0B4	𝂴		BYZANTINE MUSICAL SYMBOL GORTHMIKON N APLOUN	
+U+1D0B5	𝂵		BYZANTINE MUSICAL SYMBOL GORTHMIKON N DIPLOUN	
+U+1D0B6	𝂶		BYZANTINE MUSICAL SYMBOL ENARXIS KAI FTHORA VOU	
+U+1D0B7	𝂷		BYZANTINE MUSICAL SYMBOL IMIFONON	
+U+1D0B8	𝂸		BYZANTINE MUSICAL SYMBOL IMIFTHORON	
+U+1D0B9	𝂹		BYZANTINE MUSICAL SYMBOL FTHORA ARCHAION DEYTEROU ICHOU	
+U+1D0BA	𝂺		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI PA	
+U+1D0BB	𝂻		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI NANA	
+U+1D0BC	𝂼		BYZANTINE MUSICAL SYMBOL FTHORA NAOS ICHOS	
+U+1D0BD	𝂽		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI DI	
+U+1D0BE	𝂾		BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON DIATONON DI	
+U+1D0BF	𝂿		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI KE	
+U+1D0C0	𝃀		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI ZO	
+U+1D0C1	𝃁		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI NI KATO	
+U+1D0C2	𝃂		BYZANTINE MUSICAL SYMBOL FTHORA DIATONIKI NI ANO	
+U+1D0C3	𝃃		BYZANTINE MUSICAL SYMBOL FTHORA MALAKON CHROMA DIFONIAS	
+U+1D0C4	𝃄		BYZANTINE MUSICAL SYMBOL FTHORA MALAKON CHROMA MONOFONIAS	
+U+1D0C5	𝃅		BYZANTINE MUSICAL SYMBOL FHTORA SKLIRON CHROMA VASIS	
+U+1D0C6	𝃆		BYZANTINE MUSICAL SYMBOL FTHORA SKLIRON CHROMA SYNAFI	
+U+1D0C7	𝃇		BYZANTINE MUSICAL SYMBOL FTHORA NENANO	
+U+1D0C8	𝃈		BYZANTINE MUSICAL SYMBOL CHROA ZYGOS	
+U+1D0C9	𝃉		BYZANTINE MUSICAL SYMBOL CHROA KLITON	
+U+1D0CA	𝃊		BYZANTINE MUSICAL SYMBOL CHROA SPATHI	
+U+1D0CB	𝃋		BYZANTINE MUSICAL SYMBOL FTHORA I YFESIS TETARTIMORION	
+U+1D0CC	𝃌		BYZANTINE MUSICAL SYMBOL FTHORA ENARMONIOS ANTIFONIA	
+U+1D0CD	𝃍		BYZANTINE MUSICAL SYMBOL YFESIS TRITIMORION	
+U+1D0CE	𝃎		BYZANTINE MUSICAL SYMBOL DIESIS TRITIMORION	
+U+1D0CF	𝃏		BYZANTINE MUSICAL SYMBOL DIESIS TETARTIMORION	
+U+1D0D0	𝃐		BYZANTINE MUSICAL SYMBOL DIESIS APLI DYO DODEKATA	
+U+1D0D1	𝃑		BYZANTINE MUSICAL SYMBOL DIESIS MONOGRAMMOS TESSERA DODEKATA	
+U+1D0D2	𝃒		BYZANTINE MUSICAL SYMBOL DIESIS DIGRAMMOS EX DODEKATA	
+U+1D0D3	𝃓		BYZANTINE MUSICAL SYMBOL DIESIS TRIGRAMMOS OKTO DODEKATA	
+U+1D0D4	𝃔		BYZANTINE MUSICAL SYMBOL YFESIS APLI DYO DODEKATA	
+U+1D0D5	𝃕		BYZANTINE MUSICAL SYMBOL YFESIS MONOGRAMMOS TESSERA DODEKATA	
+U+1D0D6	𝃖		BYZANTINE MUSICAL SYMBOL YFESIS DIGRAMMOS EX DODEKATA	
+U+1D0D7	𝃗		BYZANTINE MUSICAL SYMBOL YFESIS TRIGRAMMOS OKTO DODEKATA	
+U+1D0D8	𝃘		BYZANTINE MUSICAL SYMBOL GENIKI DIESIS	
+U+1D0D9	𝃙		BYZANTINE MUSICAL SYMBOL GENIKI YFESIS	
+U+1D0DA	𝃚		BYZANTINE MUSICAL SYMBOL DIASTOLI APLI MIKRI	
+U+1D0DB	𝃛		BYZANTINE MUSICAL SYMBOL DIASTOLI APLI MEGALI	
+U+1D0DC	𝃜		BYZANTINE MUSICAL SYMBOL DIASTOLI DIPLI	
+U+1D0DD	𝃝		BYZANTINE MUSICAL SYMBOL DIASTOLI THESEOS	
+U+1D0DE	𝃞		BYZANTINE MUSICAL SYMBOL SIMANSIS THESEOS	
+U+1D0DF	𝃟		BYZANTINE MUSICAL SYMBOL SIMANSIS THESEOS DISIMOU	
+U+1D0E0	𝃠		BYZANTINE MUSICAL SYMBOL SIMANSIS THESEOS TRISIMOU	
+U+1D0E1	𝃡		BYZANTINE MUSICAL SYMBOL SIMANSIS THESEOS TETRASIMOU	
+U+1D0E2	𝃢		BYZANTINE MUSICAL SYMBOL SIMANSIS ARSEOS	
+U+1D0E3	𝃣		BYZANTINE MUSICAL SYMBOL SIMANSIS ARSEOS DISIMOU	
+U+1D0E4	𝃤		BYZANTINE MUSICAL SYMBOL SIMANSIS ARSEOS TRISIMOU	
+U+1D0E5	𝃥		BYZANTINE MUSICAL SYMBOL SIMANSIS ARSEOS TETRASIMOU	
+U+1D0E6	𝃦		BYZANTINE MUSICAL SYMBOL DIGRAMMA GG	
+U+1D0E7	𝃧		BYZANTINE MUSICAL SYMBOL DIFTOGGOS OU	
+U+1D0E8	𝃨		BYZANTINE MUSICAL SYMBOL STIGMA	
+U+1D0E9	𝃩		BYZANTINE MUSICAL SYMBOL ARKTIKO PA	
+U+1D0EA	𝃪		BYZANTINE MUSICAL SYMBOL ARKTIKO VOU	
+U+1D0EB	𝃫		BYZANTINE MUSICAL SYMBOL ARKTIKO GA	
+U+1D0EC	𝃬		BYZANTINE MUSICAL SYMBOL ARKTIKO DI	
+U+1D0ED	𝃭		BYZANTINE MUSICAL SYMBOL ARKTIKO KE	
+U+1D0EE	𝃮		BYZANTINE MUSICAL SYMBOL ARKTIKO ZO	
+U+1D0EF	𝃯		BYZANTINE MUSICAL SYMBOL ARKTIKO NI	
+U+1D0F0	𝃰		BYZANTINE MUSICAL SYMBOL KENTIMATA NEO MESO	
+U+1D0F1	𝃱		BYZANTINE MUSICAL SYMBOL KENTIMA NEO MESO	
+U+1D0F2	𝃲		BYZANTINE MUSICAL SYMBOL KENTIMATA NEO KATO	
+U+1D0F3	𝃳		BYZANTINE MUSICAL SYMBOL KENTIMA NEO KATO	
+U+1D0F4	𝃴		BYZANTINE MUSICAL SYMBOL KLASMA KATO	
+U+1D0F5	𝃵		BYZANTINE MUSICAL SYMBOL GORGON NEO KATO	

@@ -1,5 +1,5 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1BCA0	𛲠	1BCA0..1BCAF	Shorthand Format Controls	Shorthand format letter overlap		
-U+1BCA1	𛲡	1BCA0..1BCAF	Shorthand Format Controls	Shorthand format continuing overlap		
-U+1BCA2	𛲢	1BCA0..1BCAF	Shorthand Format Controls	Shorthand format down step		
-U+1BCA3	𛲣	1BCA0..1BCAF	Shorthand Format Controls	Shorthand format up step		
+code_points	chars	tab_completions	unicode_name	base
+U+1BCA0	𛲠		SHORTHAND FORMAT LETTER OVERLAP	
+U+1BCA1	𛲡		SHORTHAND FORMAT CONTINUING OVERLAP	
+U+1BCA2	𛲢		SHORTHAND FORMAT DOWN STEP	
+U+1BCA3	𛲣		SHORTHAND FORMAT UP STEP	

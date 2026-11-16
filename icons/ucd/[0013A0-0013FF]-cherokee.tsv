@@ -1,93 +1,93 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+13A0	Ꭰ	13A0..13FF	Cherokee	Cherokee letter a		
-U+13A1	Ꭱ	13A0..13FF	Cherokee	Cherokee letter e		
-U+13A2	Ꭲ	13A0..13FF	Cherokee	Cherokee letter i		
-U+13A3	Ꭳ	13A0..13FF	Cherokee	Cherokee letter o		
-U+13A4	Ꭴ	13A0..13FF	Cherokee	Cherokee letter u		
-U+13A5	Ꭵ	13A0..13FF	Cherokee	Cherokee letter v		
-U+13A6	Ꭶ	13A0..13FF	Cherokee	Cherokee letter ga		
-U+13A7	Ꭷ	13A0..13FF	Cherokee	Cherokee letter ka		
-U+13A8	Ꭸ	13A0..13FF	Cherokee	Cherokee letter ge		
-U+13A9	Ꭹ	13A0..13FF	Cherokee	Cherokee letter gi		
-U+13AA	Ꭺ	13A0..13FF	Cherokee	Cherokee letter go		
-U+13AB	Ꭻ	13A0..13FF	Cherokee	Cherokee letter gu		
-U+13AC	Ꭼ	13A0..13FF	Cherokee	Cherokee letter gv		
-U+13AD	Ꭽ	13A0..13FF	Cherokee	Cherokee letter ha		
-U+13AE	Ꭾ	13A0..13FF	Cherokee	Cherokee letter he		
-U+13AF	Ꭿ	13A0..13FF	Cherokee	Cherokee letter hi		
-U+13B0	Ꮀ	13A0..13FF	Cherokee	Cherokee letter ho		
-U+13B1	Ꮁ	13A0..13FF	Cherokee	Cherokee letter hu		
-U+13B2	Ꮂ	13A0..13FF	Cherokee	Cherokee letter hv		
-U+13B3	Ꮃ	13A0..13FF	Cherokee	Cherokee letter la		
-U+13B4	Ꮄ	13A0..13FF	Cherokee	Cherokee letter le		
-U+13B5	Ꮅ	13A0..13FF	Cherokee	Cherokee letter li		
-U+13B6	Ꮆ	13A0..13FF	Cherokee	Cherokee letter lo		
-U+13B7	Ꮇ	13A0..13FF	Cherokee	Cherokee letter lu		
-U+13B8	Ꮈ	13A0..13FF	Cherokee	Cherokee letter lv		
-U+13B9	Ꮉ	13A0..13FF	Cherokee	Cherokee letter ma		
-U+13BA	Ꮊ	13A0..13FF	Cherokee	Cherokee letter me		
-U+13BB	Ꮋ	13A0..13FF	Cherokee	Cherokee letter mi		
-U+13BC	Ꮌ	13A0..13FF	Cherokee	Cherokee letter mo		
-U+13BD	Ꮍ	13A0..13FF	Cherokee	Cherokee letter mu		
-U+13BE	Ꮎ	13A0..13FF	Cherokee	Cherokee letter na		
-U+13BF	Ꮏ	13A0..13FF	Cherokee	Cherokee letter hna		
-U+13C0	Ꮐ	13A0..13FF	Cherokee	Cherokee letter nah		
-U+13C1	Ꮑ	13A0..13FF	Cherokee	Cherokee letter ne		
-U+13C2	Ꮒ	13A0..13FF	Cherokee	Cherokee letter ni		
-U+13C3	Ꮓ	13A0..13FF	Cherokee	Cherokee letter no		
-U+13C4	Ꮔ	13A0..13FF	Cherokee	Cherokee letter nu		
-U+13C5	Ꮕ	13A0..13FF	Cherokee	Cherokee letter nv		
-U+13C6	Ꮖ	13A0..13FF	Cherokee	Cherokee letter qua		
-U+13C7	Ꮗ	13A0..13FF	Cherokee	Cherokee letter que		
-U+13C8	Ꮘ	13A0..13FF	Cherokee	Cherokee letter qui		
-U+13C9	Ꮙ	13A0..13FF	Cherokee	Cherokee letter quo		
-U+13CA	Ꮚ	13A0..13FF	Cherokee	Cherokee letter quu		
-U+13CB	Ꮛ	13A0..13FF	Cherokee	Cherokee letter quv		
-U+13CC	Ꮜ	13A0..13FF	Cherokee	Cherokee letter sa		
-U+13CD	Ꮝ	13A0..13FF	Cherokee	Cherokee letter s		
-U+13CE	Ꮞ	13A0..13FF	Cherokee	Cherokee letter se		
-U+13CF	Ꮟ	13A0..13FF	Cherokee	Cherokee letter si		
-U+13D0	Ꮠ	13A0..13FF	Cherokee	Cherokee letter so		
-U+13D1	Ꮡ	13A0..13FF	Cherokee	Cherokee letter su		
-U+13D2	Ꮢ	13A0..13FF	Cherokee	Cherokee letter sv		
-U+13D3	Ꮣ	13A0..13FF	Cherokee	Cherokee letter da		
-U+13D4	Ꮤ	13A0..13FF	Cherokee	Cherokee letter ta		
-U+13D5	Ꮥ	13A0..13FF	Cherokee	Cherokee letter de		
-U+13D6	Ꮦ	13A0..13FF	Cherokee	Cherokee letter te		
-U+13D7	Ꮧ	13A0..13FF	Cherokee	Cherokee letter di		
-U+13D8	Ꮨ	13A0..13FF	Cherokee	Cherokee letter ti		
-U+13D9	Ꮩ	13A0..13FF	Cherokee	Cherokee letter do		
-U+13DA	Ꮪ	13A0..13FF	Cherokee	Cherokee letter du		
-U+13DB	Ꮫ	13A0..13FF	Cherokee	Cherokee letter dv		
-U+13DC	Ꮬ	13A0..13FF	Cherokee	Cherokee letter dla		
-U+13DD	Ꮭ	13A0..13FF	Cherokee	Cherokee letter tla		
-U+13DE	Ꮮ	13A0..13FF	Cherokee	Cherokee letter tle		
-U+13DF	Ꮯ	13A0..13FF	Cherokee	Cherokee letter tli		
-U+13E0	Ꮰ	13A0..13FF	Cherokee	Cherokee letter tlo		
-U+13E1	Ꮱ	13A0..13FF	Cherokee	Cherokee letter tlu		
-U+13E2	Ꮲ	13A0..13FF	Cherokee	Cherokee letter tlv		
-U+13E3	Ꮳ	13A0..13FF	Cherokee	Cherokee letter tsa		
-U+13E4	Ꮴ	13A0..13FF	Cherokee	Cherokee letter tse		
-U+13E5	Ꮵ	13A0..13FF	Cherokee	Cherokee letter tsi		
-U+13E6	Ꮶ	13A0..13FF	Cherokee	Cherokee letter tso		
-U+13E7	Ꮷ	13A0..13FF	Cherokee	Cherokee letter tsu		
-U+13E8	Ꮸ	13A0..13FF	Cherokee	Cherokee letter tsv		
-U+13E9	Ꮹ	13A0..13FF	Cherokee	Cherokee letter wa		
-U+13EA	Ꮺ	13A0..13FF	Cherokee	Cherokee letter we		
-U+13EB	Ꮻ	13A0..13FF	Cherokee	Cherokee letter wi		
-U+13EC	Ꮼ	13A0..13FF	Cherokee	Cherokee letter wo		
-U+13ED	Ꮽ	13A0..13FF	Cherokee	Cherokee letter wu		
-U+13EE	Ꮾ	13A0..13FF	Cherokee	Cherokee letter wv		
-U+13EF	Ꮿ	13A0..13FF	Cherokee	Cherokee letter ya		
-U+13F0	Ᏸ	13A0..13FF	Cherokee	Cherokee letter ye		
-U+13F1	Ᏹ	13A0..13FF	Cherokee	Cherokee letter yi		
-U+13F2	Ᏺ	13A0..13FF	Cherokee	Cherokee letter yo		
-U+13F3	Ᏻ	13A0..13FF	Cherokee	Cherokee letter yu		
-U+13F4	Ᏼ	13A0..13FF	Cherokee	Cherokee letter yv		
-U+13F5	Ᏽ	13A0..13FF	Cherokee	Cherokee letter mv		
-U+13F8	ᏸ	13A0..13FF	Cherokee	Cherokee small letter ye		
-U+13F9	ᏹ	13A0..13FF	Cherokee	Cherokee small letter yi		
-U+13FA	ᏺ	13A0..13FF	Cherokee	Cherokee small letter yo		
-U+13FB	ᏻ	13A0..13FF	Cherokee	Cherokee small letter yu		
-U+13FC	ᏼ	13A0..13FF	Cherokee	Cherokee small letter yv		
-U+13FD	ᏽ	13A0..13FF	Cherokee	Cherokee small letter mv		
+code_points	chars	tab_completions	unicode_name	base
+U+13A0	Ꭰ		CHEROKEE LETTER A	
+U+13A1	Ꭱ		CHEROKEE LETTER E	
+U+13A2	Ꭲ		CHEROKEE LETTER I	
+U+13A3	Ꭳ		CHEROKEE LETTER O	
+U+13A4	Ꭴ		CHEROKEE LETTER U	
+U+13A5	Ꭵ		CHEROKEE LETTER V	
+U+13A6	Ꭶ		CHEROKEE LETTER GA	
+U+13A7	Ꭷ		CHEROKEE LETTER KA	
+U+13A8	Ꭸ		CHEROKEE LETTER GE	
+U+13A9	Ꭹ		CHEROKEE LETTER GI	
+U+13AA	Ꭺ		CHEROKEE LETTER GO	
+U+13AB	Ꭻ		CHEROKEE LETTER GU	
+U+13AC	Ꭼ		CHEROKEE LETTER GV	
+U+13AD	Ꭽ		CHEROKEE LETTER HA	
+U+13AE	Ꭾ		CHEROKEE LETTER HE	
+U+13AF	Ꭿ		CHEROKEE LETTER HI	
+U+13B0	Ꮀ		CHEROKEE LETTER HO	
+U+13B1	Ꮁ		CHEROKEE LETTER HU	
+U+13B2	Ꮂ		CHEROKEE LETTER HV	
+U+13B3	Ꮃ		CHEROKEE LETTER LA	
+U+13B4	Ꮄ		CHEROKEE LETTER LE	
+U+13B5	Ꮅ		CHEROKEE LETTER LI	
+U+13B6	Ꮆ		CHEROKEE LETTER LO	
+U+13B7	Ꮇ		CHEROKEE LETTER LU	
+U+13B8	Ꮈ		CHEROKEE LETTER LV	
+U+13B9	Ꮉ		CHEROKEE LETTER MA	
+U+13BA	Ꮊ		CHEROKEE LETTER ME	
+U+13BB	Ꮋ		CHEROKEE LETTER MI	
+U+13BC	Ꮌ		CHEROKEE LETTER MO	
+U+13BD	Ꮍ		CHEROKEE LETTER MU	
+U+13BE	Ꮎ		CHEROKEE LETTER NA	
+U+13BF	Ꮏ		CHEROKEE LETTER HNA	
+U+13C0	Ꮐ		CHEROKEE LETTER NAH	
+U+13C1	Ꮑ		CHEROKEE LETTER NE	
+U+13C2	Ꮒ		CHEROKEE LETTER NI	
+U+13C3	Ꮓ		CHEROKEE LETTER NO	
+U+13C4	Ꮔ		CHEROKEE LETTER NU	
+U+13C5	Ꮕ		CHEROKEE LETTER NV	
+U+13C6	Ꮖ		CHEROKEE LETTER QUA	
+U+13C7	Ꮗ		CHEROKEE LETTER QUE	
+U+13C8	Ꮘ		CHEROKEE LETTER QUI	
+U+13C9	Ꮙ		CHEROKEE LETTER QUO	
+U+13CA	Ꮚ		CHEROKEE LETTER QUU	
+U+13CB	Ꮛ		CHEROKEE LETTER QUV	
+U+13CC	Ꮜ		CHEROKEE LETTER SA	
+U+13CD	Ꮝ		CHEROKEE LETTER S	
+U+13CE	Ꮞ		CHEROKEE LETTER SE	
+U+13CF	Ꮟ		CHEROKEE LETTER SI	
+U+13D0	Ꮠ		CHEROKEE LETTER SO	
+U+13D1	Ꮡ		CHEROKEE LETTER SU	
+U+13D2	Ꮢ		CHEROKEE LETTER SV	
+U+13D3	Ꮣ		CHEROKEE LETTER DA	
+U+13D4	Ꮤ		CHEROKEE LETTER TA	
+U+13D5	Ꮥ		CHEROKEE LETTER DE	
+U+13D6	Ꮦ		CHEROKEE LETTER TE	
+U+13D7	Ꮧ		CHEROKEE LETTER DI	
+U+13D8	Ꮨ		CHEROKEE LETTER TI	
+U+13D9	Ꮩ		CHEROKEE LETTER DO	
+U+13DA	Ꮪ		CHEROKEE LETTER DU	
+U+13DB	Ꮫ		CHEROKEE LETTER DV	
+U+13DC	Ꮬ		CHEROKEE LETTER DLA	
+U+13DD	Ꮭ		CHEROKEE LETTER TLA	
+U+13DE	Ꮮ		CHEROKEE LETTER TLE	
+U+13DF	Ꮯ		CHEROKEE LETTER TLI	
+U+13E0	Ꮰ		CHEROKEE LETTER TLO	
+U+13E1	Ꮱ		CHEROKEE LETTER TLU	
+U+13E2	Ꮲ		CHEROKEE LETTER TLV	
+U+13E3	Ꮳ		CHEROKEE LETTER TSA	
+U+13E4	Ꮴ		CHEROKEE LETTER TSE	
+U+13E5	Ꮵ		CHEROKEE LETTER TSI	
+U+13E6	Ꮶ		CHEROKEE LETTER TSO	
+U+13E7	Ꮷ		CHEROKEE LETTER TSU	
+U+13E8	Ꮸ		CHEROKEE LETTER TSV	
+U+13E9	Ꮹ		CHEROKEE LETTER WA	
+U+13EA	Ꮺ		CHEROKEE LETTER WE	
+U+13EB	Ꮻ		CHEROKEE LETTER WI	
+U+13EC	Ꮼ		CHEROKEE LETTER WO	
+U+13ED	Ꮽ		CHEROKEE LETTER WU	
+U+13EE	Ꮾ		CHEROKEE LETTER WV	
+U+13EF	Ꮿ		CHEROKEE LETTER YA	
+U+13F0	Ᏸ		CHEROKEE LETTER YE	
+U+13F1	Ᏹ		CHEROKEE LETTER YI	
+U+13F2	Ᏺ		CHEROKEE LETTER YO	
+U+13F3	Ᏻ		CHEROKEE LETTER YU	
+U+13F4	Ᏼ		CHEROKEE LETTER YV	
+U+13F5	Ᏽ		CHEROKEE LETTER MV	
+U+13F8	ᏸ		CHEROKEE SMALL LETTER YE	
+U+13F9	ᏹ		CHEROKEE SMALL LETTER YI	
+U+13FA	ᏺ		CHEROKEE SMALL LETTER YO	
+U+13FB	ᏻ		CHEROKEE SMALL LETTER YU	
+U+13FC	ᏼ		CHEROKEE SMALL LETTER YV	
+U+13FD	ᏽ		CHEROKEE SMALL LETTER MV	

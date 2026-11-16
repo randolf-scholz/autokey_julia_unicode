@@ -1,65 +1,65 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+3000	　	3000..303F	CJK Symbols and Punctuation	Ideographic space		
-U+3001	、	3000..303F	CJK Symbols and Punctuation	Ideographic comma		
-U+3002	。	3000..303F	CJK Symbols and Punctuation	Ideographic full stop		
-U+3003	〃	3000..303F	CJK Symbols and Punctuation	Ditto mark		
-U+3004	〄	3000..303F	CJK Symbols and Punctuation	Japanese industrial standard symbol		
-U+3005	々	3000..303F	CJK Symbols and Punctuation	Ideographic iteration mark		
-U+3006	〆	3000..303F	CJK Symbols and Punctuation	Ideographic closing mark		
-U+3007	〇	3000..303F	CJK Symbols and Punctuation	Ideographic number zero		
-U+3008	〈	3000..303F	CJK Symbols and Punctuation	Left angle bracket		
-U+3009	〉	3000..303F	CJK Symbols and Punctuation	Right angle bracket		
-U+300A	《	3000..303F	CJK Symbols and Punctuation	Left double angle bracket		
-U+300B	》	3000..303F	CJK Symbols and Punctuation	Right double angle bracket		
-U+300C	「	3000..303F	CJK Symbols and Punctuation	Left corner bracket		
-U+300D	」	3000..303F	CJK Symbols and Punctuation	Right corner bracket		
-U+300E	『	3000..303F	CJK Symbols and Punctuation	Left white corner bracket		
-U+300F	』	3000..303F	CJK Symbols and Punctuation	Right white corner bracket		
-U+3010	【	3000..303F	CJK Symbols and Punctuation	Left black lenticular bracket		
-U+3011	】	3000..303F	CJK Symbols and Punctuation	Right black lenticular bracket		
-U+3012	〒	3000..303F	CJK Symbols and Punctuation	Postal mark		
-U+3013	〓	3000..303F	CJK Symbols and Punctuation	Geta mark		
-U+3014	〔	3000..303F	CJK Symbols and Punctuation	Left tortoise shell bracket		
-U+3015	〕	3000..303F	CJK Symbols and Punctuation	Right tortoise shell bracket		
-U+3016	〖	3000..303F	CJK Symbols and Punctuation	Left white lenticular bracket		
-U+3017	〗	3000..303F	CJK Symbols and Punctuation	Right white lenticular bracket		
-U+3018	〘	3000..303F	CJK Symbols and Punctuation	Left white tortoise shell bracket		
-U+3019	〙	3000..303F	CJK Symbols and Punctuation	Right white tortoise shell bracket		
-U+301A	〚	3000..303F	CJK Symbols and Punctuation	Left white square bracket		
-U+301B	〛	3000..303F	CJK Symbols and Punctuation	Right white square bracket		
-U+301C	〜	3000..303F	CJK Symbols and Punctuation	Wave dash		
-U+301D	〝	3000..303F	CJK Symbols and Punctuation	Reversed double prime quotation mark		
-U+301E	〞	3000..303F	CJK Symbols and Punctuation	Double prime quotation mark		
-U+301F	〟	3000..303F	CJK Symbols and Punctuation	Low double prime quotation mark		
-U+3020	〠	3000..303F	CJK Symbols and Punctuation	Postal mark face		
-U+3021	〡	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral one		
-U+3022	〢	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral two		
-U+3023	〣	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral three		
-U+3024	〤	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral four		
-U+3025	〥	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral five		
-U+3026	〦	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral six		
-U+3027	〧	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral seven		
-U+3028	〨	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral eight		
-U+3029	〩	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral nine		
-U+302A	〪	3000..303F	CJK Symbols and Punctuation	Ideographic level tone mark		
-U+302B	〫	3000..303F	CJK Symbols and Punctuation	Ideographic rising tone mark		
-U+302C	〬	3000..303F	CJK Symbols and Punctuation	Ideographic departing tone mark		
-U+302D	〭	3000..303F	CJK Symbols and Punctuation	Ideographic entering tone mark		
-U+302E	〮	3000..303F	CJK Symbols and Punctuation	Hangul single dot tone mark		
-U+302F	〯	3000..303F	CJK Symbols and Punctuation	Hangul double dot tone mark		
-U+3030	〰	3000..303F	CJK Symbols and Punctuation	Wavy dash		
-U+3031	〱	3000..303F	CJK Symbols and Punctuation	Vertical kana repeat mark		
-U+3032	〲	3000..303F	CJK Symbols and Punctuation	Vertical kana repeat with voiced sound mark		
-U+3033	〳	3000..303F	CJK Symbols and Punctuation	Vertical kana repeat mark upper half		
-U+3034	〴	3000..303F	CJK Symbols and Punctuation	Vertical kana repeat with voiced sound mark upper half		
-U+3035	〵	3000..303F	CJK Symbols and Punctuation	Vertical kana repeat mark lower half		
-U+3036	〶	3000..303F	CJK Symbols and Punctuation	Circled postal mark		
-U+3037	〷	3000..303F	CJK Symbols and Punctuation	Ideographic telegraph line feed separator symbol		
-U+3038	〸	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral ten		
-U+3039	〹	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral twenty		
-U+303A	〺	3000..303F	CJK Symbols and Punctuation	Hangzhou numeral thirty		
-U+303B	〻	3000..303F	CJK Symbols and Punctuation	Vertical ideographic iteration mark		
-U+303C	〼	3000..303F	CJK Symbols and Punctuation	Masu mark		
-U+303D	〽	3000..303F	CJK Symbols and Punctuation	Part alternation mark		
-U+303E	〾	3000..303F	CJK Symbols and Punctuation	Ideographic variation indicator		
-U+303F	〿	3000..303F	CJK Symbols and Punctuation	Ideographic half fill space		
+code_points	chars	tab_completions	unicode_name	base
+U+3000	　		IDEOGRAPHIC SPACE	
+U+3001	、		IDEOGRAPHIC COMMA	
+U+3002	。		IDEOGRAPHIC FULL STOP	
+U+3003	〃		DITTO MARK	
+U+3004	〄		JAPANESE INDUSTRIAL STANDARD SYMBOL	
+U+3005	々		IDEOGRAPHIC ITERATION MARK	
+U+3006	〆		IDEOGRAPHIC CLOSING MARK	
+U+3007	〇		IDEOGRAPHIC NUMBER ZERO	
+U+3008	〈		LEFT ANGLE BRACKET	
+U+3009	〉		RIGHT ANGLE BRACKET	
+U+300A	《		LEFT DOUBLE ANGLE BRACKET	
+U+300B	》		RIGHT DOUBLE ANGLE BRACKET	
+U+300C	「		LEFT CORNER BRACKET	
+U+300D	」		RIGHT CORNER BRACKET	
+U+300E	『		LEFT WHITE CORNER BRACKET	
+U+300F	』		RIGHT WHITE CORNER BRACKET	
+U+3010	【		LEFT BLACK LENTICULAR BRACKET	
+U+3011	】		RIGHT BLACK LENTICULAR BRACKET	
+U+3012	〒		POSTAL MARK	
+U+3013	〓		GETA MARK	
+U+3014	〔		LEFT TORTOISE SHELL BRACKET	
+U+3015	〕		RIGHT TORTOISE SHELL BRACKET	
+U+3016	〖		LEFT WHITE LENTICULAR BRACKET	
+U+3017	〗		RIGHT WHITE LENTICULAR BRACKET	
+U+3018	〘		LEFT WHITE TORTOISE SHELL BRACKET	
+U+3019	〙		RIGHT WHITE TORTOISE SHELL BRACKET	
+U+301A	〚		LEFT WHITE SQUARE BRACKET	
+U+301B	〛		RIGHT WHITE SQUARE BRACKET	
+U+301C	〜		WAVE DASH	
+U+301D	〝		REVERSED DOUBLE PRIME QUOTATION MARK	
+U+301E	〞		DOUBLE PRIME QUOTATION MARK	
+U+301F	〟		LOW DOUBLE PRIME QUOTATION MARK	
+U+3020	〠		POSTAL MARK FACE	
+U+3021	〡		HANGZHOU NUMERAL ONE	
+U+3022	〢		HANGZHOU NUMERAL TWO	
+U+3023	〣		HANGZHOU NUMERAL THREE	
+U+3024	〤		HANGZHOU NUMERAL FOUR	
+U+3025	〥		HANGZHOU NUMERAL FIVE	
+U+3026	〦		HANGZHOU NUMERAL SIX	
+U+3027	〧		HANGZHOU NUMERAL SEVEN	
+U+3028	〨		HANGZHOU NUMERAL EIGHT	
+U+3029	〩		HANGZHOU NUMERAL NINE	
+U+302A	〪		IDEOGRAPHIC LEVEL TONE MARK	
+U+302B	〫		IDEOGRAPHIC RISING TONE MARK	
+U+302C	〬		IDEOGRAPHIC DEPARTING TONE MARK	
+U+302D	〭		IDEOGRAPHIC ENTERING TONE MARK	
+U+302E	〮		HANGUL SINGLE DOT TONE MARK	
+U+302F	〯		HANGUL DOUBLE DOT TONE MARK	
+U+3030	〰		WAVY DASH	
+U+3031	〱		VERTICAL KANA REPEAT MARK	
+U+3032	〲		VERTICAL KANA REPEAT WITH VOICED SOUND MARK	
+U+3033	〳		VERTICAL KANA REPEAT MARK UPPER HALF	
+U+3034	〴		VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF	
+U+3035	〵		VERTICAL KANA REPEAT MARK LOWER HALF	
+U+3036	〶		CIRCLED POSTAL MARK	
+U+3037	〷		IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL	
+U+3038	〸		HANGZHOU NUMERAL TEN	
+U+3039	〹		HANGZHOU NUMERAL TWENTY	
+U+303A	〺		HANGZHOU NUMERAL THIRTY	
+U+303B	〻		VERTICAL IDEOGRAPHIC ITERATION MARK	
+U+303C	〼		MASU MARK	
+U+303D	〽		PART ALTERNATION MARK	
+U+303E	〾		IDEOGRAPHIC VARIATION INDICATOR	
+U+303F	〿		IDEOGRAPHIC HALF FILL SPACE	

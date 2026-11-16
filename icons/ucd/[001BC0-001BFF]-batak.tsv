@@ -1,57 +1,57 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1BC0	ᯀ	1BC0..1BFF	Batak	Batak letter a		
-U+1BC1	ᯁ	1BC0..1BFF	Batak	Batak letter simalungun a		
-U+1BC2	ᯂ	1BC0..1BFF	Batak	Batak letter ha		
-U+1BC3	ᯃ	1BC0..1BFF	Batak	Batak letter simalungun ha		
-U+1BC4	ᯄ	1BC0..1BFF	Batak	Batak letter mandailing ha		
-U+1BC5	ᯅ	1BC0..1BFF	Batak	Batak letter ba		
-U+1BC6	ᯆ	1BC0..1BFF	Batak	Batak letter karo ba		
-U+1BC7	ᯇ	1BC0..1BFF	Batak	Batak letter pa		
-U+1BC8	ᯈ	1BC0..1BFF	Batak	Batak letter simalungun pa		
-U+1BC9	ᯉ	1BC0..1BFF	Batak	Batak letter na		
-U+1BCA	ᯊ	1BC0..1BFF	Batak	Batak letter mandailing na		
-U+1BCB	ᯋ	1BC0..1BFF	Batak	Batak letter wa		
-U+1BCC	ᯌ	1BC0..1BFF	Batak	Batak letter simalungun wa		
-U+1BCD	ᯍ	1BC0..1BFF	Batak	Batak letter pakpak wa		
-U+1BCE	ᯎ	1BC0..1BFF	Batak	Batak letter ga		
-U+1BCF	ᯏ	1BC0..1BFF	Batak	Batak letter simalungun ga		
-U+1BD0	ᯐ	1BC0..1BFF	Batak	Batak letter ja		
-U+1BD1	ᯑ	1BC0..1BFF	Batak	Batak letter da		
-U+1BD2	ᯒ	1BC0..1BFF	Batak	Batak letter ra		
-U+1BD3	ᯓ	1BC0..1BFF	Batak	Batak letter simalungun ra		
-U+1BD4	ᯔ	1BC0..1BFF	Batak	Batak letter ma		
-U+1BD5	ᯕ	1BC0..1BFF	Batak	Batak letter simalungun ma		
-U+1BD6	ᯖ	1BC0..1BFF	Batak	Batak letter southern ta		
-U+1BD7	ᯗ	1BC0..1BFF	Batak	Batak letter northern ta		
-U+1BD8	ᯘ	1BC0..1BFF	Batak	Batak letter sa		
-U+1BD9	ᯙ	1BC0..1BFF	Batak	Batak letter simalungun sa		
-U+1BDA	ᯚ	1BC0..1BFF	Batak	Batak letter mandailing sa		
-U+1BDB	ᯛ	1BC0..1BFF	Batak	Batak letter ya		
-U+1BDC	ᯜ	1BC0..1BFF	Batak	Batak letter simalungun ya		
-U+1BDD	ᯝ	1BC0..1BFF	Batak	Batak letter nga		
-U+1BDE	ᯞ	1BC0..1BFF	Batak	Batak letter la		
-U+1BDF	ᯟ	1BC0..1BFF	Batak	Batak letter simalungun la		
-U+1BE0	ᯠ	1BC0..1BFF	Batak	Batak letter nya		
-U+1BE1	ᯡ	1BC0..1BFF	Batak	Batak letter ca		
-U+1BE2	ᯢ	1BC0..1BFF	Batak	Batak letter nda		
-U+1BE3	ᯣ	1BC0..1BFF	Batak	Batak letter mba		
-U+1BE4	ᯤ	1BC0..1BFF	Batak	Batak letter i		
-U+1BE5	ᯥ	1BC0..1BFF	Batak	Batak letter u		
-U+1BE6	᯦	1BC0..1BFF	Batak	Batak sign tompi		
-U+1BE7	ᯧ	1BC0..1BFF	Batak	Batak vowel sign e		
-U+1BE8	ᯨ	1BC0..1BFF	Batak	Batak vowel sign pakpak e		
-U+1BE9	ᯩ	1BC0..1BFF	Batak	Batak vowel sign ee		
-U+1BEA	ᯪ	1BC0..1BFF	Batak	Batak vowel sign i		
-U+1BEB	ᯫ	1BC0..1BFF	Batak	Batak vowel sign karo i		
-U+1BEC	ᯬ	1BC0..1BFF	Batak	Batak vowel sign o		
-U+1BED	ᯭ	1BC0..1BFF	Batak	Batak vowel sign karo o		
-U+1BEE	ᯮ	1BC0..1BFF	Batak	Batak vowel sign u		
-U+1BEF	ᯯ	1BC0..1BFF	Batak	Batak vowel sign u for simalungun sa		
-U+1BF0	ᯰ	1BC0..1BFF	Batak	Batak consonant sign ng		
-U+1BF1	ᯱ	1BC0..1BFF	Batak	Batak consonant sign h		
-U+1BF2	᯲	1BC0..1BFF	Batak	Batak pangolat		
-U+1BF3	᯳	1BC0..1BFF	Batak	Batak panongonan		
-U+1BFC	᯼	1BC0..1BFF	Batak	Batak symbol bindu na metek		
-U+1BFD	᯽	1BC0..1BFF	Batak	Batak symbol bindu pinarboras		
-U+1BFE	᯾	1BC0..1BFF	Batak	Batak symbol bindu judul		
-U+1BFF	᯿	1BC0..1BFF	Batak	Batak symbol bindu pangolat		
+code_points	chars	tab_completions	unicode_name	base
+U+1BC0	ᯀ		BATAK LETTER A	
+U+1BC1	ᯁ		BATAK LETTER SIMALUNGUN A	
+U+1BC2	ᯂ		BATAK LETTER HA	
+U+1BC3	ᯃ		BATAK LETTER SIMALUNGUN HA	
+U+1BC4	ᯄ		BATAK LETTER MANDAILING HA	
+U+1BC5	ᯅ		BATAK LETTER BA	
+U+1BC6	ᯆ		BATAK LETTER KARO BA	
+U+1BC7	ᯇ		BATAK LETTER PA	
+U+1BC8	ᯈ		BATAK LETTER SIMALUNGUN PA	
+U+1BC9	ᯉ		BATAK LETTER NA	
+U+1BCA	ᯊ		BATAK LETTER MANDAILING NA	
+U+1BCB	ᯋ		BATAK LETTER WA	
+U+1BCC	ᯌ		BATAK LETTER SIMALUNGUN WA	
+U+1BCD	ᯍ		BATAK LETTER PAKPAK WA	
+U+1BCE	ᯎ		BATAK LETTER GA	
+U+1BCF	ᯏ		BATAK LETTER SIMALUNGUN GA	
+U+1BD0	ᯐ		BATAK LETTER JA	
+U+1BD1	ᯑ		BATAK LETTER DA	
+U+1BD2	ᯒ		BATAK LETTER RA	
+U+1BD3	ᯓ		BATAK LETTER SIMALUNGUN RA	
+U+1BD4	ᯔ		BATAK LETTER MA	
+U+1BD5	ᯕ		BATAK LETTER SIMALUNGUN MA	
+U+1BD6	ᯖ		BATAK LETTER SOUTHERN TA	
+U+1BD7	ᯗ		BATAK LETTER NORTHERN TA	
+U+1BD8	ᯘ		BATAK LETTER SA	
+U+1BD9	ᯙ		BATAK LETTER SIMALUNGUN SA	
+U+1BDA	ᯚ		BATAK LETTER MANDAILING SA	
+U+1BDB	ᯛ		BATAK LETTER YA	
+U+1BDC	ᯜ		BATAK LETTER SIMALUNGUN YA	
+U+1BDD	ᯝ		BATAK LETTER NGA	
+U+1BDE	ᯞ		BATAK LETTER LA	
+U+1BDF	ᯟ		BATAK LETTER SIMALUNGUN LA	
+U+1BE0	ᯠ		BATAK LETTER NYA	
+U+1BE1	ᯡ		BATAK LETTER CA	
+U+1BE2	ᯢ		BATAK LETTER NDA	
+U+1BE3	ᯣ		BATAK LETTER MBA	
+U+1BE4	ᯤ		BATAK LETTER I	
+U+1BE5	ᯥ		BATAK LETTER U	
+U+1BE6	᯦		BATAK SIGN TOMPI	
+U+1BE7	ᯧ		BATAK VOWEL SIGN E	
+U+1BE8	ᯨ		BATAK VOWEL SIGN PAKPAK E	
+U+1BE9	ᯩ		BATAK VOWEL SIGN EE	
+U+1BEA	ᯪ		BATAK VOWEL SIGN I	
+U+1BEB	ᯫ		BATAK VOWEL SIGN KARO I	
+U+1BEC	ᯬ		BATAK VOWEL SIGN O	
+U+1BED	ᯭ		BATAK VOWEL SIGN KARO O	
+U+1BEE	ᯮ		BATAK VOWEL SIGN U	
+U+1BEF	ᯯ		BATAK VOWEL SIGN U FOR SIMALUNGUN SA	
+U+1BF0	ᯰ		BATAK CONSONANT SIGN NG	
+U+1BF1	ᯱ		BATAK CONSONANT SIGN H	
+U+1BF2	᯲		BATAK PANGOLAT	
+U+1BF3	᯳		BATAK PANONGONAN	
+U+1BFC	᯼		BATAK SYMBOL BINDU NA METEK	
+U+1BFD	᯽		BATAK SYMBOL BINDU PINARBORAS	
+U+1BFE	᯾		BATAK SYMBOL BINDU JUDUL	
+U+1BFF	᯿		BATAK SYMBOL BINDU PANGOLAT	

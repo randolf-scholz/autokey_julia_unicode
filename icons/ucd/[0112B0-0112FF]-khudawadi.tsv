@@ -1,70 +1,70 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+112B0	𑊰	112B0..112FF	Khudawadi	Khudawadi letter a		
-U+112B1	𑊱	112B0..112FF	Khudawadi	Khudawadi letter aa		
-U+112B2	𑊲	112B0..112FF	Khudawadi	Khudawadi letter i		
-U+112B3	𑊳	112B0..112FF	Khudawadi	Khudawadi letter ii		
-U+112B4	𑊴	112B0..112FF	Khudawadi	Khudawadi letter u		
-U+112B5	𑊵	112B0..112FF	Khudawadi	Khudawadi letter uu		
-U+112B6	𑊶	112B0..112FF	Khudawadi	Khudawadi letter e		
-U+112B7	𑊷	112B0..112FF	Khudawadi	Khudawadi letter ai		
-U+112B8	𑊸	112B0..112FF	Khudawadi	Khudawadi letter o		
-U+112B9	𑊹	112B0..112FF	Khudawadi	Khudawadi letter au		
-U+112BA	𑊺	112B0..112FF	Khudawadi	Khudawadi letter ka		
-U+112BB	𑊻	112B0..112FF	Khudawadi	Khudawadi letter kha		
-U+112BC	𑊼	112B0..112FF	Khudawadi	Khudawadi letter ga		
-U+112BD	𑊽	112B0..112FF	Khudawadi	Khudawadi letter gga		
-U+112BE	𑊾	112B0..112FF	Khudawadi	Khudawadi letter gha		
-U+112BF	𑊿	112B0..112FF	Khudawadi	Khudawadi letter nga		
-U+112C0	𑋀	112B0..112FF	Khudawadi	Khudawadi letter ca		
-U+112C1	𑋁	112B0..112FF	Khudawadi	Khudawadi letter cha		
-U+112C2	𑋂	112B0..112FF	Khudawadi	Khudawadi letter ja		
-U+112C3	𑋃	112B0..112FF	Khudawadi	Khudawadi letter jja		
-U+112C4	𑋄	112B0..112FF	Khudawadi	Khudawadi letter jha		
-U+112C5	𑋅	112B0..112FF	Khudawadi	Khudawadi letter nya		
-U+112C6	𑋆	112B0..112FF	Khudawadi	Khudawadi letter tta		
-U+112C7	𑋇	112B0..112FF	Khudawadi	Khudawadi letter ttha		
-U+112C8	𑋈	112B0..112FF	Khudawadi	Khudawadi letter dda		
-U+112C9	𑋉	112B0..112FF	Khudawadi	Khudawadi letter ddda		
-U+112CA	𑋊	112B0..112FF	Khudawadi	Khudawadi letter rra		
-U+112CB	𑋋	112B0..112FF	Khudawadi	Khudawadi letter ddha		
-U+112CC	𑋌	112B0..112FF	Khudawadi	Khudawadi letter nna		
-U+112CD	𑋍	112B0..112FF	Khudawadi	Khudawadi letter ta		
-U+112CE	𑋎	112B0..112FF	Khudawadi	Khudawadi letter tha		
-U+112CF	𑋏	112B0..112FF	Khudawadi	Khudawadi letter da		
-U+112D0	𑋐	112B0..112FF	Khudawadi	Khudawadi letter dha		
-U+112D1	𑋑	112B0..112FF	Khudawadi	Khudawadi letter na		
-U+112D2	𑋒	112B0..112FF	Khudawadi	Khudawadi letter pa		
-U+112D3	𑋓	112B0..112FF	Khudawadi	Khudawadi letter pha		
-U+112D4	𑋔	112B0..112FF	Khudawadi	Khudawadi letter ba		
-U+112D5	𑋕	112B0..112FF	Khudawadi	Khudawadi letter bba		
-U+112D6	𑋖	112B0..112FF	Khudawadi	Khudawadi letter bha		
-U+112D7	𑋗	112B0..112FF	Khudawadi	Khudawadi letter ma		
-U+112D8	𑋘	112B0..112FF	Khudawadi	Khudawadi letter ya		
-U+112D9	𑋙	112B0..112FF	Khudawadi	Khudawadi letter ra		
-U+112DA	𑋚	112B0..112FF	Khudawadi	Khudawadi letter la		
-U+112DB	𑋛	112B0..112FF	Khudawadi	Khudawadi letter va		
-U+112DC	𑋜	112B0..112FF	Khudawadi	Khudawadi letter sha		
-U+112DD	𑋝	112B0..112FF	Khudawadi	Khudawadi letter sa		
-U+112DE	𑋞	112B0..112FF	Khudawadi	Khudawadi letter ha		
-U+112DF	𑋟	112B0..112FF	Khudawadi	Khudawadi sign anusvara		
-U+112E0	𑋠	112B0..112FF	Khudawadi	Khudawadi vowel sign aa		
-U+112E1	𑋡	112B0..112FF	Khudawadi	Khudawadi vowel sign i		
-U+112E2	𑋢	112B0..112FF	Khudawadi	Khudawadi vowel sign ii		
-U+112E3	𑋣	112B0..112FF	Khudawadi	Khudawadi vowel sign u		
-U+112E4	𑋤	112B0..112FF	Khudawadi	Khudawadi vowel sign uu		
-U+112E5	𑋥	112B0..112FF	Khudawadi	Khudawadi vowel sign e		
-U+112E6	𑋦	112B0..112FF	Khudawadi	Khudawadi vowel sign ai		
-U+112E7	𑋧	112B0..112FF	Khudawadi	Khudawadi vowel sign o		
-U+112E8	𑋨	112B0..112FF	Khudawadi	Khudawadi vowel sign au		
-U+112E9	𑋩	112B0..112FF	Khudawadi	Khudawadi sign nukta		
-U+112EA	𑋪	112B0..112FF	Khudawadi	Khudawadi sign virama		
-U+112F0	𑋰	112B0..112FF	Khudawadi	Khudawadi digit zero		
-U+112F1	𑋱	112B0..112FF	Khudawadi	Khudawadi digit one		
-U+112F2	𑋲	112B0..112FF	Khudawadi	Khudawadi digit two		
-U+112F3	𑋳	112B0..112FF	Khudawadi	Khudawadi digit three		
-U+112F4	𑋴	112B0..112FF	Khudawadi	Khudawadi digit four		
-U+112F5	𑋵	112B0..112FF	Khudawadi	Khudawadi digit five		
-U+112F6	𑋶	112B0..112FF	Khudawadi	Khudawadi digit six		
-U+112F7	𑋷	112B0..112FF	Khudawadi	Khudawadi digit seven		
-U+112F8	𑋸	112B0..112FF	Khudawadi	Khudawadi digit eight		
-U+112F9	𑋹	112B0..112FF	Khudawadi	Khudawadi digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+112B0	𑊰		KHUDAWADI LETTER A	
+U+112B1	𑊱		KHUDAWADI LETTER AA	
+U+112B2	𑊲		KHUDAWADI LETTER I	
+U+112B3	𑊳		KHUDAWADI LETTER II	
+U+112B4	𑊴		KHUDAWADI LETTER U	
+U+112B5	𑊵		KHUDAWADI LETTER UU	
+U+112B6	𑊶		KHUDAWADI LETTER E	
+U+112B7	𑊷		KHUDAWADI LETTER AI	
+U+112B8	𑊸		KHUDAWADI LETTER O	
+U+112B9	𑊹		KHUDAWADI LETTER AU	
+U+112BA	𑊺		KHUDAWADI LETTER KA	
+U+112BB	𑊻		KHUDAWADI LETTER KHA	
+U+112BC	𑊼		KHUDAWADI LETTER GA	
+U+112BD	𑊽		KHUDAWADI LETTER GGA	
+U+112BE	𑊾		KHUDAWADI LETTER GHA	
+U+112BF	𑊿		KHUDAWADI LETTER NGA	
+U+112C0	𑋀		KHUDAWADI LETTER CA	
+U+112C1	𑋁		KHUDAWADI LETTER CHA	
+U+112C2	𑋂		KHUDAWADI LETTER JA	
+U+112C3	𑋃		KHUDAWADI LETTER JJA	
+U+112C4	𑋄		KHUDAWADI LETTER JHA	
+U+112C5	𑋅		KHUDAWADI LETTER NYA	
+U+112C6	𑋆		KHUDAWADI LETTER TTA	
+U+112C7	𑋇		KHUDAWADI LETTER TTHA	
+U+112C8	𑋈		KHUDAWADI LETTER DDA	
+U+112C9	𑋉		KHUDAWADI LETTER DDDA	
+U+112CA	𑋊		KHUDAWADI LETTER RRA	
+U+112CB	𑋋		KHUDAWADI LETTER DDHA	
+U+112CC	𑋌		KHUDAWADI LETTER NNA	
+U+112CD	𑋍		KHUDAWADI LETTER TA	
+U+112CE	𑋎		KHUDAWADI LETTER THA	
+U+112CF	𑋏		KHUDAWADI LETTER DA	
+U+112D0	𑋐		KHUDAWADI LETTER DHA	
+U+112D1	𑋑		KHUDAWADI LETTER NA	
+U+112D2	𑋒		KHUDAWADI LETTER PA	
+U+112D3	𑋓		KHUDAWADI LETTER PHA	
+U+112D4	𑋔		KHUDAWADI LETTER BA	
+U+112D5	𑋕		KHUDAWADI LETTER BBA	
+U+112D6	𑋖		KHUDAWADI LETTER BHA	
+U+112D7	𑋗		KHUDAWADI LETTER MA	
+U+112D8	𑋘		KHUDAWADI LETTER YA	
+U+112D9	𑋙		KHUDAWADI LETTER RA	
+U+112DA	𑋚		KHUDAWADI LETTER LA	
+U+112DB	𑋛		KHUDAWADI LETTER VA	
+U+112DC	𑋜		KHUDAWADI LETTER SHA	
+U+112DD	𑋝		KHUDAWADI LETTER SA	
+U+112DE	𑋞		KHUDAWADI LETTER HA	
+U+112DF	𑋟		KHUDAWADI SIGN ANUSVARA	
+U+112E0	𑋠		KHUDAWADI VOWEL SIGN AA	
+U+112E1	𑋡		KHUDAWADI VOWEL SIGN I	
+U+112E2	𑋢		KHUDAWADI VOWEL SIGN II	
+U+112E3	𑋣		KHUDAWADI VOWEL SIGN U	
+U+112E4	𑋤		KHUDAWADI VOWEL SIGN UU	
+U+112E5	𑋥		KHUDAWADI VOWEL SIGN E	
+U+112E6	𑋦		KHUDAWADI VOWEL SIGN AI	
+U+112E7	𑋧		KHUDAWADI VOWEL SIGN O	
+U+112E8	𑋨		KHUDAWADI VOWEL SIGN AU	
+U+112E9	𑋩		KHUDAWADI SIGN NUKTA	
+U+112EA	𑋪		KHUDAWADI SIGN VIRAMA	
+U+112F0	𑋰		KHUDAWADI DIGIT ZERO	
+U+112F1	𑋱		KHUDAWADI DIGIT ONE	
+U+112F2	𑋲		KHUDAWADI DIGIT TWO	
+U+112F3	𑋳		KHUDAWADI DIGIT THREE	
+U+112F4	𑋴		KHUDAWADI DIGIT FOUR	
+U+112F5	𑋵		KHUDAWADI DIGIT FIVE	
+U+112F6	𑋶		KHUDAWADI DIGIT SIX	
+U+112F7	𑋷		KHUDAWADI DIGIT SEVEN	
+U+112F8	𑋸		KHUDAWADI DIGIT EIGHT	
+U+112F9	𑋹		KHUDAWADI DIGIT NINE	

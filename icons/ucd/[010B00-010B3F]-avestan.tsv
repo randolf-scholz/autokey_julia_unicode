@@ -1,62 +1,62 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10B00	𐬀	10B00..10B3F	Avestan	Avestan letter a		
-U+10B01	𐬁	10B00..10B3F	Avestan	Avestan letter aa		
-U+10B02	𐬂	10B00..10B3F	Avestan	Avestan letter ao		
-U+10B03	𐬃	10B00..10B3F	Avestan	Avestan letter aao		
-U+10B04	𐬄	10B00..10B3F	Avestan	Avestan letter an		
-U+10B05	𐬅	10B00..10B3F	Avestan	Avestan letter aan		
-U+10B06	𐬆	10B00..10B3F	Avestan	Avestan letter ae		
-U+10B07	𐬇	10B00..10B3F	Avestan	Avestan letter aee		
-U+10B08	𐬈	10B00..10B3F	Avestan	Avestan letter e		
-U+10B09	𐬉	10B00..10B3F	Avestan	Avestan letter ee		
-U+10B0A	𐬊	10B00..10B3F	Avestan	Avestan letter o		
-U+10B0B	𐬋	10B00..10B3F	Avestan	Avestan letter oo		
-U+10B0C	𐬌	10B00..10B3F	Avestan	Avestan letter i		
-U+10B0D	𐬍	10B00..10B3F	Avestan	Avestan letter ii		
-U+10B0E	𐬎	10B00..10B3F	Avestan	Avestan letter u		
-U+10B0F	𐬏	10B00..10B3F	Avestan	Avestan letter uu		
-U+10B10	𐬐	10B00..10B3F	Avestan	Avestan letter ke		
-U+10B11	𐬑	10B00..10B3F	Avestan	Avestan letter xe		
-U+10B12	𐬒	10B00..10B3F	Avestan	Avestan letter xye		
-U+10B13	𐬓	10B00..10B3F	Avestan	Avestan letter xve		
-U+10B14	𐬔	10B00..10B3F	Avestan	Avestan letter ge		
-U+10B15	𐬕	10B00..10B3F	Avestan	Avestan letter gge		
-U+10B16	𐬖	10B00..10B3F	Avestan	Avestan letter ghe		
-U+10B17	𐬗	10B00..10B3F	Avestan	Avestan letter ce		
-U+10B18	𐬘	10B00..10B3F	Avestan	Avestan letter je		
-U+10B19	𐬙	10B00..10B3F	Avestan	Avestan letter te		
-U+10B1A	𐬚	10B00..10B3F	Avestan	Avestan letter the		
-U+10B1B	𐬛	10B00..10B3F	Avestan	Avestan letter de		
-U+10B1C	𐬜	10B00..10B3F	Avestan	Avestan letter dhe		
-U+10B1D	𐬝	10B00..10B3F	Avestan	Avestan letter tte		
-U+10B1E	𐬞	10B00..10B3F	Avestan	Avestan letter pe		
-U+10B1F	𐬟	10B00..10B3F	Avestan	Avestan letter fe		
-U+10B20	𐬠	10B00..10B3F	Avestan	Avestan letter be		
-U+10B21	𐬡	10B00..10B3F	Avestan	Avestan letter bhe		
-U+10B22	𐬢	10B00..10B3F	Avestan	Avestan letter nge		
-U+10B23	𐬣	10B00..10B3F	Avestan	Avestan letter ngye		
-U+10B24	𐬤	10B00..10B3F	Avestan	Avestan letter ngve		
-U+10B25	𐬥	10B00..10B3F	Avestan	Avestan letter ne		
-U+10B26	𐬦	10B00..10B3F	Avestan	Avestan letter nye		
-U+10B27	𐬧	10B00..10B3F	Avestan	Avestan letter nne		
-U+10B28	𐬨	10B00..10B3F	Avestan	Avestan letter me		
-U+10B29	𐬩	10B00..10B3F	Avestan	Avestan letter hme		
-U+10B2A	𐬪	10B00..10B3F	Avestan	Avestan letter yye		
-U+10B2B	𐬫	10B00..10B3F	Avestan	Avestan letter ye		
-U+10B2C	𐬬	10B00..10B3F	Avestan	Avestan letter ve		
-U+10B2D	𐬭	10B00..10B3F	Avestan	Avestan letter re		
-U+10B2E	𐬮	10B00..10B3F	Avestan	Avestan letter le		
-U+10B2F	𐬯	10B00..10B3F	Avestan	Avestan letter se		
-U+10B30	𐬰	10B00..10B3F	Avestan	Avestan letter ze		
-U+10B31	𐬱	10B00..10B3F	Avestan	Avestan letter she		
-U+10B32	𐬲	10B00..10B3F	Avestan	Avestan letter zhe		
-U+10B33	𐬳	10B00..10B3F	Avestan	Avestan letter shye		
-U+10B34	𐬴	10B00..10B3F	Avestan	Avestan letter sshe		
-U+10B35	𐬵	10B00..10B3F	Avestan	Avestan letter he		
-U+10B39	𐬹	10B00..10B3F	Avestan	Avestan abbreviation mark		
-U+10B3A	𐬺	10B00..10B3F	Avestan	Tiny two dots over one dot punctuation		
-U+10B3B	𐬻	10B00..10B3F	Avestan	Small two dots over one dot punctuation		
-U+10B3C	𐬼	10B00..10B3F	Avestan	Large two dots over one dot punctuation		
-U+10B3D	𐬽	10B00..10B3F	Avestan	Large one dot over two dots punctuation		
-U+10B3E	𐬾	10B00..10B3F	Avestan	Large two rings over one ring punctuation		
-U+10B3F	𐬿	10B00..10B3F	Avestan	Large one ring over two rings punctuation		
+code_points	chars	tab_completions	unicode_name	base
+U+10B00	𐬀		AVESTAN LETTER A	
+U+10B01	𐬁		AVESTAN LETTER AA	
+U+10B02	𐬂		AVESTAN LETTER AO	
+U+10B03	𐬃		AVESTAN LETTER AAO	
+U+10B04	𐬄		AVESTAN LETTER AN	
+U+10B05	𐬅		AVESTAN LETTER AAN	
+U+10B06	𐬆		AVESTAN LETTER AE	
+U+10B07	𐬇		AVESTAN LETTER AEE	
+U+10B08	𐬈		AVESTAN LETTER E	
+U+10B09	𐬉		AVESTAN LETTER EE	
+U+10B0A	𐬊		AVESTAN LETTER O	
+U+10B0B	𐬋		AVESTAN LETTER OO	
+U+10B0C	𐬌		AVESTAN LETTER I	
+U+10B0D	𐬍		AVESTAN LETTER II	
+U+10B0E	𐬎		AVESTAN LETTER U	
+U+10B0F	𐬏		AVESTAN LETTER UU	
+U+10B10	𐬐		AVESTAN LETTER KE	
+U+10B11	𐬑		AVESTAN LETTER XE	
+U+10B12	𐬒		AVESTAN LETTER XYE	
+U+10B13	𐬓		AVESTAN LETTER XVE	
+U+10B14	𐬔		AVESTAN LETTER GE	
+U+10B15	𐬕		AVESTAN LETTER GGE	
+U+10B16	𐬖		AVESTAN LETTER GHE	
+U+10B17	𐬗		AVESTAN LETTER CE	
+U+10B18	𐬘		AVESTAN LETTER JE	
+U+10B19	𐬙		AVESTAN LETTER TE	
+U+10B1A	𐬚		AVESTAN LETTER THE	
+U+10B1B	𐬛		AVESTAN LETTER DE	
+U+10B1C	𐬜		AVESTAN LETTER DHE	
+U+10B1D	𐬝		AVESTAN LETTER TTE	
+U+10B1E	𐬞		AVESTAN LETTER PE	
+U+10B1F	𐬟		AVESTAN LETTER FE	
+U+10B20	𐬠		AVESTAN LETTER BE	
+U+10B21	𐬡		AVESTAN LETTER BHE	
+U+10B22	𐬢		AVESTAN LETTER NGE	
+U+10B23	𐬣		AVESTAN LETTER NGYE	
+U+10B24	𐬤		AVESTAN LETTER NGVE	
+U+10B25	𐬥		AVESTAN LETTER NE	
+U+10B26	𐬦		AVESTAN LETTER NYE	
+U+10B27	𐬧		AVESTAN LETTER NNE	
+U+10B28	𐬨		AVESTAN LETTER ME	
+U+10B29	𐬩		AVESTAN LETTER HME	
+U+10B2A	𐬪		AVESTAN LETTER YYE	
+U+10B2B	𐬫		AVESTAN LETTER YE	
+U+10B2C	𐬬		AVESTAN LETTER VE	
+U+10B2D	𐬭		AVESTAN LETTER RE	
+U+10B2E	𐬮		AVESTAN LETTER LE	
+U+10B2F	𐬯		AVESTAN LETTER SE	
+U+10B30	𐬰		AVESTAN LETTER ZE	
+U+10B31	𐬱		AVESTAN LETTER SHE	
+U+10B32	𐬲		AVESTAN LETTER ZHE	
+U+10B33	𐬳		AVESTAN LETTER SHYE	
+U+10B34	𐬴		AVESTAN LETTER SSHE	
+U+10B35	𐬵		AVESTAN LETTER HE	
+U+10B39	𐬹		AVESTAN ABBREVIATION MARK	
+U+10B3A	𐬺		TINY TWO DOTS OVER ONE DOT PUNCTUATION	
+U+10B3B	𐬻		SMALL TWO DOTS OVER ONE DOT PUNCTUATION	
+U+10B3C	𐬼		LARGE TWO DOTS OVER ONE DOT PUNCTUATION	
+U+10B3D	𐬽		LARGE ONE DOT OVER TWO DOTS PUNCTUATION	
+U+10B3E	𐬾		LARGE TWO RINGS OVER ONE RING PUNCTUATION	
+U+10B3F	𐬿		LARGE ONE RING OVER TWO RINGS PUNCTUATION	

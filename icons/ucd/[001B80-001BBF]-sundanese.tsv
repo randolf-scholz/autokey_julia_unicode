@@ -1,65 +1,65 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1B80	ᮀ	1B80..1BBF	Sundanese	Sundanese sign panyecek		
-U+1B81	ᮁ	1B80..1BBF	Sundanese	Sundanese sign panglayar		
-U+1B82	ᮂ	1B80..1BBF	Sundanese	Sundanese sign pangwisad		
-U+1B83	ᮃ	1B80..1BBF	Sundanese	Sundanese letter a		
-U+1B84	ᮄ	1B80..1BBF	Sundanese	Sundanese letter i		
-U+1B85	ᮅ	1B80..1BBF	Sundanese	Sundanese letter u		
-U+1B86	ᮆ	1B80..1BBF	Sundanese	Sundanese letter ae		
-U+1B87	ᮇ	1B80..1BBF	Sundanese	Sundanese letter o		
-U+1B88	ᮈ	1B80..1BBF	Sundanese	Sundanese letter e		
-U+1B89	ᮉ	1B80..1BBF	Sundanese	Sundanese letter eu		
-U+1B8A	ᮊ	1B80..1BBF	Sundanese	Sundanese letter ka		
-U+1B8B	ᮋ	1B80..1BBF	Sundanese	Sundanese letter qa		
-U+1B8C	ᮌ	1B80..1BBF	Sundanese	Sundanese letter ga		
-U+1B8D	ᮍ	1B80..1BBF	Sundanese	Sundanese letter nga		
-U+1B8E	ᮎ	1B80..1BBF	Sundanese	Sundanese letter ca		
-U+1B8F	ᮏ	1B80..1BBF	Sundanese	Sundanese letter ja		
-U+1B90	ᮐ	1B80..1BBF	Sundanese	Sundanese letter za		
-U+1B91	ᮑ	1B80..1BBF	Sundanese	Sundanese letter nya		
-U+1B92	ᮒ	1B80..1BBF	Sundanese	Sundanese letter ta		
-U+1B93	ᮓ	1B80..1BBF	Sundanese	Sundanese letter da		
-U+1B94	ᮔ	1B80..1BBF	Sundanese	Sundanese letter na		
-U+1B95	ᮕ	1B80..1BBF	Sundanese	Sundanese letter pa		
-U+1B96	ᮖ	1B80..1BBF	Sundanese	Sundanese letter fa		
-U+1B97	ᮗ	1B80..1BBF	Sundanese	Sundanese letter va		
-U+1B98	ᮘ	1B80..1BBF	Sundanese	Sundanese letter ba		
-U+1B99	ᮙ	1B80..1BBF	Sundanese	Sundanese letter ma		
-U+1B9A	ᮚ	1B80..1BBF	Sundanese	Sundanese letter ya		
-U+1B9B	ᮛ	1B80..1BBF	Sundanese	Sundanese letter ra		
-U+1B9C	ᮜ	1B80..1BBF	Sundanese	Sundanese letter la		
-U+1B9D	ᮝ	1B80..1BBF	Sundanese	Sundanese letter wa		
-U+1B9E	ᮞ	1B80..1BBF	Sundanese	Sundanese letter sa		
-U+1B9F	ᮟ	1B80..1BBF	Sundanese	Sundanese letter xa		
-U+1BA0	ᮠ	1B80..1BBF	Sundanese	Sundanese letter ha		
-U+1BA1	ᮡ	1B80..1BBF	Sundanese	Sundanese consonant sign pamingkal		
-U+1BA2	ᮢ	1B80..1BBF	Sundanese	Sundanese consonant sign panyakra		
-U+1BA3	ᮣ	1B80..1BBF	Sundanese	Sundanese consonant sign panyiku		
-U+1BA4	ᮤ	1B80..1BBF	Sundanese	Sundanese vowel sign panghulu		
-U+1BA5	ᮥ	1B80..1BBF	Sundanese	Sundanese vowel sign panyuku		
-U+1BA6	ᮦ	1B80..1BBF	Sundanese	Sundanese vowel sign panaelaeng		
-U+1BA7	ᮧ	1B80..1BBF	Sundanese	Sundanese vowel sign panolong		
-U+1BA8	ᮨ	1B80..1BBF	Sundanese	Sundanese vowel sign pamepet		
-U+1BA9	ᮩ	1B80..1BBF	Sundanese	Sundanese vowel sign paneuleung		
-U+1BAA	᮪	1B80..1BBF	Sundanese	Sundanese sign pamaaeh		
-U+1BAB	᮫	1B80..1BBF	Sundanese	Sundanese sign virama		
-U+1BAC	ᮬ	1B80..1BBF	Sundanese	Sundanese consonant sign pasangan ma		
-U+1BAD	ᮭ	1B80..1BBF	Sundanese	Sundanese consonant sign pasangan wa		
-U+1BAE	ᮮ	1B80..1BBF	Sundanese	Sundanese letter kha		
-U+1BAF	ᮯ	1B80..1BBF	Sundanese	Sundanese letter sya		
-U+1BB0	᮰	1B80..1BBF	Sundanese	Sundanese digit zero		
-U+1BB1	᮱	1B80..1BBF	Sundanese	Sundanese digit one		
-U+1BB2	᮲	1B80..1BBF	Sundanese	Sundanese digit two		
-U+1BB3	᮳	1B80..1BBF	Sundanese	Sundanese digit three		
-U+1BB4	᮴	1B80..1BBF	Sundanese	Sundanese digit four		
-U+1BB5	᮵	1B80..1BBF	Sundanese	Sundanese digit five		
-U+1BB6	᮶	1B80..1BBF	Sundanese	Sundanese digit six		
-U+1BB7	᮷	1B80..1BBF	Sundanese	Sundanese digit seven		
-U+1BB8	᮸	1B80..1BBF	Sundanese	Sundanese digit eight		
-U+1BB9	᮹	1B80..1BBF	Sundanese	Sundanese digit nine		
-U+1BBA	ᮺ	1B80..1BBF	Sundanese	Sundanese avagraha		
-U+1BBB	ᮻ	1B80..1BBF	Sundanese	Sundanese letter reu		
-U+1BBC	ᮼ	1B80..1BBF	Sundanese	Sundanese letter leu		
-U+1BBD	ᮽ	1B80..1BBF	Sundanese	Sundanese letter bha		
-U+1BBE	ᮾ	1B80..1BBF	Sundanese	Sundanese letter final k		
-U+1BBF	ᮿ	1B80..1BBF	Sundanese	Sundanese letter final m		
+code_points	chars	tab_completions	unicode_name	base
+U+1B80	ᮀ		SUNDANESE SIGN PANYECEK	
+U+1B81	ᮁ		SUNDANESE SIGN PANGLAYAR	
+U+1B82	ᮂ		SUNDANESE SIGN PANGWISAD	
+U+1B83	ᮃ		SUNDANESE LETTER A	
+U+1B84	ᮄ		SUNDANESE LETTER I	
+U+1B85	ᮅ		SUNDANESE LETTER U	
+U+1B86	ᮆ		SUNDANESE LETTER AE	
+U+1B87	ᮇ		SUNDANESE LETTER O	
+U+1B88	ᮈ		SUNDANESE LETTER E	
+U+1B89	ᮉ		SUNDANESE LETTER EU	
+U+1B8A	ᮊ		SUNDANESE LETTER KA	
+U+1B8B	ᮋ		SUNDANESE LETTER QA	
+U+1B8C	ᮌ		SUNDANESE LETTER GA	
+U+1B8D	ᮍ		SUNDANESE LETTER NGA	
+U+1B8E	ᮎ		SUNDANESE LETTER CA	
+U+1B8F	ᮏ		SUNDANESE LETTER JA	
+U+1B90	ᮐ		SUNDANESE LETTER ZA	
+U+1B91	ᮑ		SUNDANESE LETTER NYA	
+U+1B92	ᮒ		SUNDANESE LETTER TA	
+U+1B93	ᮓ		SUNDANESE LETTER DA	
+U+1B94	ᮔ		SUNDANESE LETTER NA	
+U+1B95	ᮕ		SUNDANESE LETTER PA	
+U+1B96	ᮖ		SUNDANESE LETTER FA	
+U+1B97	ᮗ		SUNDANESE LETTER VA	
+U+1B98	ᮘ		SUNDANESE LETTER BA	
+U+1B99	ᮙ		SUNDANESE LETTER MA	
+U+1B9A	ᮚ		SUNDANESE LETTER YA	
+U+1B9B	ᮛ		SUNDANESE LETTER RA	
+U+1B9C	ᮜ		SUNDANESE LETTER LA	
+U+1B9D	ᮝ		SUNDANESE LETTER WA	
+U+1B9E	ᮞ		SUNDANESE LETTER SA	
+U+1B9F	ᮟ		SUNDANESE LETTER XA	
+U+1BA0	ᮠ		SUNDANESE LETTER HA	
+U+1BA1	ᮡ		SUNDANESE CONSONANT SIGN PAMINGKAL	
+U+1BA2	ᮢ		SUNDANESE CONSONANT SIGN PANYAKRA	
+U+1BA3	ᮣ		SUNDANESE CONSONANT SIGN PANYIKU	
+U+1BA4	ᮤ		SUNDANESE VOWEL SIGN PANGHULU	
+U+1BA5	ᮥ		SUNDANESE VOWEL SIGN PANYUKU	
+U+1BA6	ᮦ		SUNDANESE VOWEL SIGN PANAELAENG	
+U+1BA7	ᮧ		SUNDANESE VOWEL SIGN PANOLONG	
+U+1BA8	ᮨ		SUNDANESE VOWEL SIGN PAMEPET	
+U+1BA9	ᮩ		SUNDANESE VOWEL SIGN PANEULEUNG	
+U+1BAA	᮪		SUNDANESE SIGN PAMAAEH	
+U+1BAB	᮫		SUNDANESE SIGN VIRAMA	
+U+1BAC	ᮬ		SUNDANESE CONSONANT SIGN PASANGAN MA	
+U+1BAD	ᮭ		SUNDANESE CONSONANT SIGN PASANGAN WA	
+U+1BAE	ᮮ		SUNDANESE LETTER KHA	
+U+1BAF	ᮯ		SUNDANESE LETTER SYA	
+U+1BB0	᮰		SUNDANESE DIGIT ZERO	
+U+1BB1	᮱		SUNDANESE DIGIT ONE	
+U+1BB2	᮲		SUNDANESE DIGIT TWO	
+U+1BB3	᮳		SUNDANESE DIGIT THREE	
+U+1BB4	᮴		SUNDANESE DIGIT FOUR	
+U+1BB5	᮵		SUNDANESE DIGIT FIVE	
+U+1BB6	᮶		SUNDANESE DIGIT SIX	
+U+1BB7	᮷		SUNDANESE DIGIT SEVEN	
+U+1BB8	᮸		SUNDANESE DIGIT EIGHT	
+U+1BB9	᮹		SUNDANESE DIGIT NINE	
+U+1BBA	ᮺ		SUNDANESE AVAGRAHA	
+U+1BBB	ᮻ		SUNDANESE LETTER REU	
+U+1BBC	ᮼ		SUNDANESE LETTER LEU	
+U+1BBD	ᮽ		SUNDANESE LETTER BHA	
+U+1BBE	ᮾ		SUNDANESE LETTER FINAL K	
+U+1BBF	ᮿ		SUNDANESE LETTER FINAL M	

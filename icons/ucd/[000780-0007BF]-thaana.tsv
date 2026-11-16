@@ -1,51 +1,51 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0780	ހ	0780..07BF	Thaana	Thaana letter haa		
-U+0781	ށ	0780..07BF	Thaana	Thaana letter shaviyani		
-U+0782	ނ	0780..07BF	Thaana	Thaana letter noonu		
-U+0783	ރ	0780..07BF	Thaana	Thaana letter raa		
-U+0784	ބ	0780..07BF	Thaana	Thaana letter baa		
-U+0785	ޅ	0780..07BF	Thaana	Thaana letter lhaviyani		
-U+0786	ކ	0780..07BF	Thaana	Thaana letter kaafu		
-U+0787	އ	0780..07BF	Thaana	Thaana letter alifu		
-U+0788	ވ	0780..07BF	Thaana	Thaana letter vaavu		
-U+0789	މ	0780..07BF	Thaana	Thaana letter meemu		
-U+078A	ފ	0780..07BF	Thaana	Thaana letter faafu		
-U+078B	ދ	0780..07BF	Thaana	Thaana letter dhaalu		
-U+078C	ތ	0780..07BF	Thaana	Thaana letter thaa		
-U+078D	ލ	0780..07BF	Thaana	Thaana letter laamu		
-U+078E	ގ	0780..07BF	Thaana	Thaana letter gaafu		
-U+078F	ޏ	0780..07BF	Thaana	Thaana letter gnaviyani		
-U+0790	ސ	0780..07BF	Thaana	Thaana letter seenu		
-U+0791	ޑ	0780..07BF	Thaana	Thaana letter daviyani		
-U+0792	ޒ	0780..07BF	Thaana	Thaana letter zaviyani		
-U+0793	ޓ	0780..07BF	Thaana	Thaana letter taviyani		
-U+0794	ޔ	0780..07BF	Thaana	Thaana letter yaa		
-U+0795	ޕ	0780..07BF	Thaana	Thaana letter paviyani		
-U+0796	ޖ	0780..07BF	Thaana	Thaana letter javiyani		
-U+0797	ޗ	0780..07BF	Thaana	Thaana letter chaviyani		
-U+0798	ޘ	0780..07BF	Thaana	Thaana letter ttaa		
-U+0799	ޙ	0780..07BF	Thaana	Thaana letter hhaa		
-U+079A	ޚ	0780..07BF	Thaana	Thaana letter khaa		
-U+079B	ޛ	0780..07BF	Thaana	Thaana letter thaalu		
-U+079C	ޜ	0780..07BF	Thaana	Thaana letter zaa		
-U+079D	ޝ	0780..07BF	Thaana	Thaana letter sheenu		
-U+079E	ޞ	0780..07BF	Thaana	Thaana letter saadhu		
-U+079F	ޟ	0780..07BF	Thaana	Thaana letter daadhu		
-U+07A0	ޠ	0780..07BF	Thaana	Thaana letter to		
-U+07A1	ޡ	0780..07BF	Thaana	Thaana letter zo		
-U+07A2	ޢ	0780..07BF	Thaana	Thaana letter ainu		
-U+07A3	ޣ	0780..07BF	Thaana	Thaana letter ghainu		
-U+07A4	ޤ	0780..07BF	Thaana	Thaana letter qaafu		
-U+07A5	ޥ	0780..07BF	Thaana	Thaana letter waavu		
-U+07A6	ަ	0780..07BF	Thaana	Thaana abafili		
-U+07A7	ާ	0780..07BF	Thaana	Thaana aabaafili		
-U+07A8	ި	0780..07BF	Thaana	Thaana ibifili		
-U+07A9	ީ	0780..07BF	Thaana	Thaana eebeefili		
-U+07AA	ު	0780..07BF	Thaana	Thaana ubufili		
-U+07AB	ޫ	0780..07BF	Thaana	Thaana ooboofili		
-U+07AC	ެ	0780..07BF	Thaana	Thaana ebefili		
-U+07AD	ޭ	0780..07BF	Thaana	Thaana eybeyfili		
-U+07AE	ޮ	0780..07BF	Thaana	Thaana obofili		
-U+07AF	ޯ	0780..07BF	Thaana	Thaana oaboafili		
-U+07B0	ް	0780..07BF	Thaana	Thaana sukun		
-U+07B1	ޱ	0780..07BF	Thaana	Thaana letter naa		
+code_points	chars	tab_completions	unicode_name	base
+U+0780	ހ		THAANA LETTER HAA	
+U+0781	ށ		THAANA LETTER SHAVIYANI	
+U+0782	ނ		THAANA LETTER NOONU	
+U+0783	ރ		THAANA LETTER RAA	
+U+0784	ބ		THAANA LETTER BAA	
+U+0785	ޅ		THAANA LETTER LHAVIYANI	
+U+0786	ކ		THAANA LETTER KAAFU	
+U+0787	އ		THAANA LETTER ALIFU	
+U+0788	ވ		THAANA LETTER VAAVU	
+U+0789	މ		THAANA LETTER MEEMU	
+U+078A	ފ		THAANA LETTER FAAFU	
+U+078B	ދ		THAANA LETTER DHAALU	
+U+078C	ތ		THAANA LETTER THAA	
+U+078D	ލ		THAANA LETTER LAAMU	
+U+078E	ގ		THAANA LETTER GAAFU	
+U+078F	ޏ		THAANA LETTER GNAVIYANI	
+U+0790	ސ		THAANA LETTER SEENU	
+U+0791	ޑ		THAANA LETTER DAVIYANI	
+U+0792	ޒ		THAANA LETTER ZAVIYANI	
+U+0793	ޓ		THAANA LETTER TAVIYANI	
+U+0794	ޔ		THAANA LETTER YAA	
+U+0795	ޕ		THAANA LETTER PAVIYANI	
+U+0796	ޖ		THAANA LETTER JAVIYANI	
+U+0797	ޗ		THAANA LETTER CHAVIYANI	
+U+0798	ޘ		THAANA LETTER TTAA	
+U+0799	ޙ		THAANA LETTER HHAA	
+U+079A	ޚ		THAANA LETTER KHAA	
+U+079B	ޛ		THAANA LETTER THAALU	
+U+079C	ޜ		THAANA LETTER ZAA	
+U+079D	ޝ		THAANA LETTER SHEENU	
+U+079E	ޞ		THAANA LETTER SAADHU	
+U+079F	ޟ		THAANA LETTER DAADHU	
+U+07A0	ޠ		THAANA LETTER TO	
+U+07A1	ޡ		THAANA LETTER ZO	
+U+07A2	ޢ		THAANA LETTER AINU	
+U+07A3	ޣ		THAANA LETTER GHAINU	
+U+07A4	ޤ		THAANA LETTER QAAFU	
+U+07A5	ޥ		THAANA LETTER WAAVU	
+U+07A6	ަ		THAANA ABAFILI	
+U+07A7	ާ		THAANA AABAAFILI	
+U+07A8	ި		THAANA IBIFILI	
+U+07A9	ީ		THAANA EEBEEFILI	
+U+07AA	ު		THAANA UBUFILI	
+U+07AB	ޫ		THAANA OOBOOFILI	
+U+07AC	ެ		THAANA EBEFILI	
+U+07AD	ޭ		THAANA EYBEYFILI	
+U+07AE	ޮ		THAANA OBOFILI	
+U+07AF	ޯ		THAANA OABOAFILI	
+U+07B0	ް		THAANA SUKUN	
+U+07B1	ޱ		THAANA LETTER NAA	

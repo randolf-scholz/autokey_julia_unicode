@@ -1,49 +1,49 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10450	𐑐	10450..1047F	Shavian	Shavian letter peep		
-U+10451	𐑑	10450..1047F	Shavian	Shavian letter tot		
-U+10452	𐑒	10450..1047F	Shavian	Shavian letter kick		
-U+10453	𐑓	10450..1047F	Shavian	Shavian letter fee		
-U+10454	𐑔	10450..1047F	Shavian	Shavian letter thigh		
-U+10455	𐑕	10450..1047F	Shavian	Shavian letter so		
-U+10456	𐑖	10450..1047F	Shavian	Shavian letter sure		
-U+10457	𐑗	10450..1047F	Shavian	Shavian letter church		
-U+10458	𐑘	10450..1047F	Shavian	Shavian letter yea		
-U+10459	𐑙	10450..1047F	Shavian	Shavian letter hung		
-U+1045A	𐑚	10450..1047F	Shavian	Shavian letter bib		
-U+1045B	𐑛	10450..1047F	Shavian	Shavian letter dead		
-U+1045C	𐑜	10450..1047F	Shavian	Shavian letter gag		
-U+1045D	𐑝	10450..1047F	Shavian	Shavian letter vow		
-U+1045E	𐑞	10450..1047F	Shavian	Shavian letter they		
-U+1045F	𐑟	10450..1047F	Shavian	Shavian letter zoo		
-U+10460	𐑠	10450..1047F	Shavian	Shavian letter measure		
-U+10461	𐑡	10450..1047F	Shavian	Shavian letter judge		
-U+10462	𐑢	10450..1047F	Shavian	Shavian letter woe		
-U+10463	𐑣	10450..1047F	Shavian	Shavian letter ha-ha		
-U+10464	𐑤	10450..1047F	Shavian	Shavian letter loll		
-U+10465	𐑥	10450..1047F	Shavian	Shavian letter mime		
-U+10466	𐑦	10450..1047F	Shavian	Shavian letter if		
-U+10467	𐑧	10450..1047F	Shavian	Shavian letter egg		
-U+10468	𐑨	10450..1047F	Shavian	Shavian letter ash		
-U+10469	𐑩	10450..1047F	Shavian	Shavian letter ado		
-U+1046A	𐑪	10450..1047F	Shavian	Shavian letter on		
-U+1046B	𐑫	10450..1047F	Shavian	Shavian letter wool		
-U+1046C	𐑬	10450..1047F	Shavian	Shavian letter out		
-U+1046D	𐑭	10450..1047F	Shavian	Shavian letter ah		
-U+1046E	𐑮	10450..1047F	Shavian	Shavian letter roar		
-U+1046F	𐑯	10450..1047F	Shavian	Shavian letter nun		
-U+10470	𐑰	10450..1047F	Shavian	Shavian letter eat		
-U+10471	𐑱	10450..1047F	Shavian	Shavian letter age		
-U+10472	𐑲	10450..1047F	Shavian	Shavian letter ice		
-U+10473	𐑳	10450..1047F	Shavian	Shavian letter up		
-U+10474	𐑴	10450..1047F	Shavian	Shavian letter oak		
-U+10475	𐑵	10450..1047F	Shavian	Shavian letter ooze		
-U+10476	𐑶	10450..1047F	Shavian	Shavian letter oil		
-U+10477	𐑷	10450..1047F	Shavian	Shavian letter awe		
-U+10478	𐑸	10450..1047F	Shavian	Shavian letter are		
-U+10479	𐑹	10450..1047F	Shavian	Shavian letter or		
-U+1047A	𐑺	10450..1047F	Shavian	Shavian letter air		
-U+1047B	𐑻	10450..1047F	Shavian	Shavian letter err		
-U+1047C	𐑼	10450..1047F	Shavian	Shavian letter array		
-U+1047D	𐑽	10450..1047F	Shavian	Shavian letter ear		
-U+1047E	𐑾	10450..1047F	Shavian	Shavian letter ian		
-U+1047F	𐑿	10450..1047F	Shavian	Shavian letter yew		
+code_points	chars	tab_completions	unicode_name	base
+U+10450	𐑐		SHAVIAN LETTER PEEP	
+U+10451	𐑑		SHAVIAN LETTER TOT	
+U+10452	𐑒		SHAVIAN LETTER KICK	
+U+10453	𐑓		SHAVIAN LETTER FEE	
+U+10454	𐑔		SHAVIAN LETTER THIGH	
+U+10455	𐑕		SHAVIAN LETTER SO	
+U+10456	𐑖		SHAVIAN LETTER SURE	
+U+10457	𐑗		SHAVIAN LETTER CHURCH	
+U+10458	𐑘		SHAVIAN LETTER YEA	
+U+10459	𐑙		SHAVIAN LETTER HUNG	
+U+1045A	𐑚		SHAVIAN LETTER BIB	
+U+1045B	𐑛		SHAVIAN LETTER DEAD	
+U+1045C	𐑜		SHAVIAN LETTER GAG	
+U+1045D	𐑝		SHAVIAN LETTER VOW	
+U+1045E	𐑞		SHAVIAN LETTER THEY	
+U+1045F	𐑟		SHAVIAN LETTER ZOO	
+U+10460	𐑠		SHAVIAN LETTER MEASURE	
+U+10461	𐑡		SHAVIAN LETTER JUDGE	
+U+10462	𐑢		SHAVIAN LETTER WOE	
+U+10463	𐑣		SHAVIAN LETTER HA-HA	
+U+10464	𐑤		SHAVIAN LETTER LOLL	
+U+10465	𐑥		SHAVIAN LETTER MIME	
+U+10466	𐑦		SHAVIAN LETTER IF	
+U+10467	𐑧		SHAVIAN LETTER EGG	
+U+10468	𐑨		SHAVIAN LETTER ASH	
+U+10469	𐑩		SHAVIAN LETTER ADO	
+U+1046A	𐑪		SHAVIAN LETTER ON	
+U+1046B	𐑫		SHAVIAN LETTER WOOL	
+U+1046C	𐑬		SHAVIAN LETTER OUT	
+U+1046D	𐑭		SHAVIAN LETTER AH	
+U+1046E	𐑮		SHAVIAN LETTER ROAR	
+U+1046F	𐑯		SHAVIAN LETTER NUN	
+U+10470	𐑰		SHAVIAN LETTER EAT	
+U+10471	𐑱		SHAVIAN LETTER AGE	
+U+10472	𐑲		SHAVIAN LETTER ICE	
+U+10473	𐑳		SHAVIAN LETTER UP	
+U+10474	𐑴		SHAVIAN LETTER OAK	
+U+10475	𐑵		SHAVIAN LETTER OOZE	
+U+10476	𐑶		SHAVIAN LETTER OIL	
+U+10477	𐑷		SHAVIAN LETTER AWE	
+U+10478	𐑸		SHAVIAN LETTER ARE	
+U+10479	𐑹		SHAVIAN LETTER OR	
+U+1047A	𐑺		SHAVIAN LETTER AIR	
+U+1047B	𐑻		SHAVIAN LETTER ERR	
+U+1047C	𐑼		SHAVIAN LETTER ARRAY	
+U+1047D	𐑽		SHAVIAN LETTER EAR	
+U+1047E	𐑾		SHAVIAN LETTER IAN	
+U+1047F	𐑿		SHAVIAN LETTER YEW	

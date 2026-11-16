@@ -1,144 +1,144 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1EE00	𞸀	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical alef		
-U+1EE01	𞸁	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical beh		
-U+1EE02	𞸂	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical jeem		
-U+1EE03	𞸃	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dal		
-U+1EE05	𞸅	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical waw		
-U+1EE06	𞸆	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical zain		
-U+1EE07	𞸇	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical hah		
-U+1EE08	𞸈	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tah		
-U+1EE09	𞸉	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical yeh		
-U+1EE0A	𞸊	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical kaf		
-U+1EE0B	𞸋	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical lam		
-U+1EE0C	𞸌	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical meem		
-U+1EE0D	𞸍	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical noon		
-U+1EE0E	𞸎	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical seen		
-U+1EE0F	𞸏	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical ain		
-U+1EE10	𞸐	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical feh		
-U+1EE11	𞸑	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical sad		
-U+1EE12	𞸒	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical qaf		
-U+1EE13	𞸓	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical reh		
-U+1EE14	𞸔	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical sheen		
-U+1EE15	𞸕	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical teh		
-U+1EE16	𞸖	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical theh		
-U+1EE17	𞸗	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical khah		
-U+1EE18	𞸘	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical thal		
-U+1EE19	𞸙	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dad		
-U+1EE1A	𞸚	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical zah		
-U+1EE1B	𞸛	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical ghain		
-U+1EE1C	𞸜	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dotless beh		
-U+1EE1D	𞸝	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dotless noon		
-U+1EE1E	𞸞	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dotless feh		
-U+1EE1F	𞸟	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical dotless qaf		
-U+1EE21	𞸡	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial beh		
-U+1EE22	𞸢	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial jeem		
-U+1EE24	𞸤	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial heh		
-U+1EE27	𞸧	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial hah		
-U+1EE29	𞸩	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial yeh		
-U+1EE2A	𞸪	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial kaf		
-U+1EE2B	𞸫	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial lam		
-U+1EE2C	𞸬	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial meem		
-U+1EE2D	𞸭	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial noon		
-U+1EE2E	𞸮	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial seen		
-U+1EE2F	𞸯	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial ain		
-U+1EE30	𞸰	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial feh		
-U+1EE31	𞸱	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial sad		
-U+1EE32	𞸲	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial qaf		
-U+1EE34	𞸴	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial sheen		
-U+1EE35	𞸵	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial teh		
-U+1EE36	𞸶	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial theh		
-U+1EE37	𞸷	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial khah		
-U+1EE39	𞸹	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial dad		
-U+1EE3B	𞸻	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical initial ghain		
-U+1EE42	𞹂	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed jeem		
-U+1EE47	𞹇	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed hah		
-U+1EE49	𞹉	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed yeh		
-U+1EE4B	𞹋	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed lam		
-U+1EE4D	𞹍	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed noon		
-U+1EE4E	𞹎	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed seen		
-U+1EE4F	𞹏	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed ain		
-U+1EE51	𞹑	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed sad		
-U+1EE52	𞹒	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed qaf		
-U+1EE54	𞹔	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed sheen		
-U+1EE57	𞹗	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed khah		
-U+1EE59	𞹙	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed dad		
-U+1EE5B	𞹛	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed ghain		
-U+1EE5D	𞹝	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed dotless noon		
-U+1EE5F	𞹟	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical tailed dotless qaf		
-U+1EE61	𞹡	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched beh		
-U+1EE62	𞹢	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched jeem		
-U+1EE64	𞹤	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched heh		
-U+1EE67	𞹧	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched hah		
-U+1EE68	𞹨	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched tah		
-U+1EE69	𞹩	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched yeh		
-U+1EE6A	𞹪	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched kaf		
-U+1EE6C	𞹬	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched meem		
-U+1EE6D	𞹭	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched noon		
-U+1EE6E	𞹮	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched seen		
-U+1EE6F	𞹯	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched ain		
-U+1EE70	𞹰	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched feh		
-U+1EE71	𞹱	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched sad		
-U+1EE72	𞹲	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched qaf		
-U+1EE74	𞹴	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched sheen		
-U+1EE75	𞹵	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched teh		
-U+1EE76	𞹶	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched theh		
-U+1EE77	𞹷	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched khah		
-U+1EE79	𞹹	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched dad		
-U+1EE7A	𞹺	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched zah		
-U+1EE7B	𞹻	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched ghain		
-U+1EE7C	𞹼	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched dotless beh		
-U+1EE7E	𞹾	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical stretched dotless feh		
-U+1EE80	𞺀	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped alef		
-U+1EE81	𞺁	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped beh		
-U+1EE82	𞺂	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped jeem		
-U+1EE83	𞺃	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped dal		
-U+1EE84	𞺄	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped heh		
-U+1EE85	𞺅	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped waw		
-U+1EE86	𞺆	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped zain		
-U+1EE87	𞺇	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped hah		
-U+1EE88	𞺈	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped tah		
-U+1EE89	𞺉	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped yeh		
-U+1EE8B	𞺋	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped lam		
-U+1EE8C	𞺌	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped meem		
-U+1EE8D	𞺍	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped noon		
-U+1EE8E	𞺎	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped seen		
-U+1EE8F	𞺏	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped ain		
-U+1EE90	𞺐	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped feh		
-U+1EE91	𞺑	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped sad		
-U+1EE92	𞺒	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped qaf		
-U+1EE93	𞺓	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped reh		
-U+1EE94	𞺔	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped sheen		
-U+1EE95	𞺕	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped teh		
-U+1EE96	𞺖	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped theh		
-U+1EE97	𞺗	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped khah		
-U+1EE98	𞺘	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped thal		
-U+1EE99	𞺙	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped dad		
-U+1EE9A	𞺚	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped zah		
-U+1EE9B	𞺛	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical looped ghain		
-U+1EEA1	𞺡	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck beh		
-U+1EEA2	𞺢	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck jeem		
-U+1EEA3	𞺣	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck dal		
-U+1EEA5	𞺥	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck waw		
-U+1EEA6	𞺦	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck zain		
-U+1EEA7	𞺧	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck hah		
-U+1EEA8	𞺨	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck tah		
-U+1EEA9	𞺩	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck yeh		
-U+1EEAB	𞺫	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck lam		
-U+1EEAC	𞺬	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck meem		
-U+1EEAD	𞺭	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck noon		
-U+1EEAE	𞺮	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck seen		
-U+1EEAF	𞺯	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck ain		
-U+1EEB0	𞺰	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck feh		
-U+1EEB1	𞺱	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck sad		
-U+1EEB2	𞺲	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck qaf		
-U+1EEB3	𞺳	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck reh		
-U+1EEB4	𞺴	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck sheen		
-U+1EEB5	𞺵	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck teh		
-U+1EEB6	𞺶	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck theh		
-U+1EEB7	𞺷	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck khah		
-U+1EEB8	𞺸	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck thal		
-U+1EEB9	𞺹	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck dad		
-U+1EEBA	𞺺	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck zah		
-U+1EEBB	𞺻	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical double-struck ghain		
-U+1EEF0	𞻰	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical operator meem with hah with tatweel		
-U+1EEF1	𞻱	1EE00..1EEFF	Arabic Mathematical Alphabetic Symbols	Arabic mathematical operator hah with dal		
+code_points	chars	tab_completions	unicode_name	base
+U+1EE00	𞸀		ARABIC MATHEMATICAL ALEF	
+U+1EE01	𞸁		ARABIC MATHEMATICAL BEH	
+U+1EE02	𞸂		ARABIC MATHEMATICAL JEEM	
+U+1EE03	𞸃		ARABIC MATHEMATICAL DAL	
+U+1EE05	𞸅		ARABIC MATHEMATICAL WAW	
+U+1EE06	𞸆		ARABIC MATHEMATICAL ZAIN	
+U+1EE07	𞸇		ARABIC MATHEMATICAL HAH	
+U+1EE08	𞸈		ARABIC MATHEMATICAL TAH	
+U+1EE09	𞸉		ARABIC MATHEMATICAL YEH	
+U+1EE0A	𞸊		ARABIC MATHEMATICAL KAF	
+U+1EE0B	𞸋		ARABIC MATHEMATICAL LAM	
+U+1EE0C	𞸌		ARABIC MATHEMATICAL MEEM	
+U+1EE0D	𞸍		ARABIC MATHEMATICAL NOON	
+U+1EE0E	𞸎		ARABIC MATHEMATICAL SEEN	
+U+1EE0F	𞸏		ARABIC MATHEMATICAL AIN	
+U+1EE10	𞸐		ARABIC MATHEMATICAL FEH	
+U+1EE11	𞸑		ARABIC MATHEMATICAL SAD	
+U+1EE12	𞸒		ARABIC MATHEMATICAL QAF	
+U+1EE13	𞸓		ARABIC MATHEMATICAL REH	
+U+1EE14	𞸔		ARABIC MATHEMATICAL SHEEN	
+U+1EE15	𞸕		ARABIC MATHEMATICAL TEH	
+U+1EE16	𞸖		ARABIC MATHEMATICAL THEH	
+U+1EE17	𞸗		ARABIC MATHEMATICAL KHAH	
+U+1EE18	𞸘		ARABIC MATHEMATICAL THAL	
+U+1EE19	𞸙		ARABIC MATHEMATICAL DAD	
+U+1EE1A	𞸚		ARABIC MATHEMATICAL ZAH	
+U+1EE1B	𞸛		ARABIC MATHEMATICAL GHAIN	
+U+1EE1C	𞸜		ARABIC MATHEMATICAL DOTLESS BEH	
+U+1EE1D	𞸝		ARABIC MATHEMATICAL DOTLESS NOON	
+U+1EE1E	𞸞		ARABIC MATHEMATICAL DOTLESS FEH	
+U+1EE1F	𞸟		ARABIC MATHEMATICAL DOTLESS QAF	
+U+1EE21	𞸡		ARABIC MATHEMATICAL INITIAL BEH	
+U+1EE22	𞸢		ARABIC MATHEMATICAL INITIAL JEEM	
+U+1EE24	𞸤		ARABIC MATHEMATICAL INITIAL HEH	
+U+1EE27	𞸧		ARABIC MATHEMATICAL INITIAL HAH	
+U+1EE29	𞸩		ARABIC MATHEMATICAL INITIAL YEH	
+U+1EE2A	𞸪		ARABIC MATHEMATICAL INITIAL KAF	
+U+1EE2B	𞸫		ARABIC MATHEMATICAL INITIAL LAM	
+U+1EE2C	𞸬		ARABIC MATHEMATICAL INITIAL MEEM	
+U+1EE2D	𞸭		ARABIC MATHEMATICAL INITIAL NOON	
+U+1EE2E	𞸮		ARABIC MATHEMATICAL INITIAL SEEN	
+U+1EE2F	𞸯		ARABIC MATHEMATICAL INITIAL AIN	
+U+1EE30	𞸰		ARABIC MATHEMATICAL INITIAL FEH	
+U+1EE31	𞸱		ARABIC MATHEMATICAL INITIAL SAD	
+U+1EE32	𞸲		ARABIC MATHEMATICAL INITIAL QAF	
+U+1EE34	𞸴		ARABIC MATHEMATICAL INITIAL SHEEN	
+U+1EE35	𞸵		ARABIC MATHEMATICAL INITIAL TEH	
+U+1EE36	𞸶		ARABIC MATHEMATICAL INITIAL THEH	
+U+1EE37	𞸷		ARABIC MATHEMATICAL INITIAL KHAH	
+U+1EE39	𞸹		ARABIC MATHEMATICAL INITIAL DAD	
+U+1EE3B	𞸻		ARABIC MATHEMATICAL INITIAL GHAIN	
+U+1EE42	𞹂		ARABIC MATHEMATICAL TAILED JEEM	
+U+1EE47	𞹇		ARABIC MATHEMATICAL TAILED HAH	
+U+1EE49	𞹉		ARABIC MATHEMATICAL TAILED YEH	
+U+1EE4B	𞹋		ARABIC MATHEMATICAL TAILED LAM	
+U+1EE4D	𞹍		ARABIC MATHEMATICAL TAILED NOON	
+U+1EE4E	𞹎		ARABIC MATHEMATICAL TAILED SEEN	
+U+1EE4F	𞹏		ARABIC MATHEMATICAL TAILED AIN	
+U+1EE51	𞹑		ARABIC MATHEMATICAL TAILED SAD	
+U+1EE52	𞹒		ARABIC MATHEMATICAL TAILED QAF	
+U+1EE54	𞹔		ARABIC MATHEMATICAL TAILED SHEEN	
+U+1EE57	𞹗		ARABIC MATHEMATICAL TAILED KHAH	
+U+1EE59	𞹙		ARABIC MATHEMATICAL TAILED DAD	
+U+1EE5B	𞹛		ARABIC MATHEMATICAL TAILED GHAIN	
+U+1EE5D	𞹝		ARABIC MATHEMATICAL TAILED DOTLESS NOON	
+U+1EE5F	𞹟		ARABIC MATHEMATICAL TAILED DOTLESS QAF	
+U+1EE61	𞹡		ARABIC MATHEMATICAL STRETCHED BEH	
+U+1EE62	𞹢		ARABIC MATHEMATICAL STRETCHED JEEM	
+U+1EE64	𞹤		ARABIC MATHEMATICAL STRETCHED HEH	
+U+1EE67	𞹧		ARABIC MATHEMATICAL STRETCHED HAH	
+U+1EE68	𞹨		ARABIC MATHEMATICAL STRETCHED TAH	
+U+1EE69	𞹩		ARABIC MATHEMATICAL STRETCHED YEH	
+U+1EE6A	𞹪		ARABIC MATHEMATICAL STRETCHED KAF	
+U+1EE6C	𞹬		ARABIC MATHEMATICAL STRETCHED MEEM	
+U+1EE6D	𞹭		ARABIC MATHEMATICAL STRETCHED NOON	
+U+1EE6E	𞹮		ARABIC MATHEMATICAL STRETCHED SEEN	
+U+1EE6F	𞹯		ARABIC MATHEMATICAL STRETCHED AIN	
+U+1EE70	𞹰		ARABIC MATHEMATICAL STRETCHED FEH	
+U+1EE71	𞹱		ARABIC MATHEMATICAL STRETCHED SAD	
+U+1EE72	𞹲		ARABIC MATHEMATICAL STRETCHED QAF	
+U+1EE74	𞹴		ARABIC MATHEMATICAL STRETCHED SHEEN	
+U+1EE75	𞹵		ARABIC MATHEMATICAL STRETCHED TEH	
+U+1EE76	𞹶		ARABIC MATHEMATICAL STRETCHED THEH	
+U+1EE77	𞹷		ARABIC MATHEMATICAL STRETCHED KHAH	
+U+1EE79	𞹹		ARABIC MATHEMATICAL STRETCHED DAD	
+U+1EE7A	𞹺		ARABIC MATHEMATICAL STRETCHED ZAH	
+U+1EE7B	𞹻		ARABIC MATHEMATICAL STRETCHED GHAIN	
+U+1EE7C	𞹼		ARABIC MATHEMATICAL STRETCHED DOTLESS BEH	
+U+1EE7E	𞹾		ARABIC MATHEMATICAL STRETCHED DOTLESS FEH	
+U+1EE80	𞺀		ARABIC MATHEMATICAL LOOPED ALEF	
+U+1EE81	𞺁		ARABIC MATHEMATICAL LOOPED BEH	
+U+1EE82	𞺂		ARABIC MATHEMATICAL LOOPED JEEM	
+U+1EE83	𞺃		ARABIC MATHEMATICAL LOOPED DAL	
+U+1EE84	𞺄		ARABIC MATHEMATICAL LOOPED HEH	
+U+1EE85	𞺅		ARABIC MATHEMATICAL LOOPED WAW	
+U+1EE86	𞺆		ARABIC MATHEMATICAL LOOPED ZAIN	
+U+1EE87	𞺇		ARABIC MATHEMATICAL LOOPED HAH	
+U+1EE88	𞺈		ARABIC MATHEMATICAL LOOPED TAH	
+U+1EE89	𞺉		ARABIC MATHEMATICAL LOOPED YEH	
+U+1EE8B	𞺋		ARABIC MATHEMATICAL LOOPED LAM	
+U+1EE8C	𞺌		ARABIC MATHEMATICAL LOOPED MEEM	
+U+1EE8D	𞺍		ARABIC MATHEMATICAL LOOPED NOON	
+U+1EE8E	𞺎		ARABIC MATHEMATICAL LOOPED SEEN	
+U+1EE8F	𞺏		ARABIC MATHEMATICAL LOOPED AIN	
+U+1EE90	𞺐		ARABIC MATHEMATICAL LOOPED FEH	
+U+1EE91	𞺑		ARABIC MATHEMATICAL LOOPED SAD	
+U+1EE92	𞺒		ARABIC MATHEMATICAL LOOPED QAF	
+U+1EE93	𞺓		ARABIC MATHEMATICAL LOOPED REH	
+U+1EE94	𞺔		ARABIC MATHEMATICAL LOOPED SHEEN	
+U+1EE95	𞺕		ARABIC MATHEMATICAL LOOPED TEH	
+U+1EE96	𞺖		ARABIC MATHEMATICAL LOOPED THEH	
+U+1EE97	𞺗		ARABIC MATHEMATICAL LOOPED KHAH	
+U+1EE98	𞺘		ARABIC MATHEMATICAL LOOPED THAL	
+U+1EE99	𞺙		ARABIC MATHEMATICAL LOOPED DAD	
+U+1EE9A	𞺚		ARABIC MATHEMATICAL LOOPED ZAH	
+U+1EE9B	𞺛		ARABIC MATHEMATICAL LOOPED GHAIN	
+U+1EEA1	𞺡		ARABIC MATHEMATICAL DOUBLE-STRUCK BEH	
+U+1EEA2	𞺢		ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM	
+U+1EEA3	𞺣		ARABIC MATHEMATICAL DOUBLE-STRUCK DAL	
+U+1EEA5	𞺥		ARABIC MATHEMATICAL DOUBLE-STRUCK WAW	
+U+1EEA6	𞺦		ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN	
+U+1EEA7	𞺧		ARABIC MATHEMATICAL DOUBLE-STRUCK HAH	
+U+1EEA8	𞺨		ARABIC MATHEMATICAL DOUBLE-STRUCK TAH	
+U+1EEA9	𞺩		ARABIC MATHEMATICAL DOUBLE-STRUCK YEH	
+U+1EEAB	𞺫		ARABIC MATHEMATICAL DOUBLE-STRUCK LAM	
+U+1EEAC	𞺬		ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM	
+U+1EEAD	𞺭		ARABIC MATHEMATICAL DOUBLE-STRUCK NOON	
+U+1EEAE	𞺮		ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN	
+U+1EEAF	𞺯		ARABIC MATHEMATICAL DOUBLE-STRUCK AIN	
+U+1EEB0	𞺰		ARABIC MATHEMATICAL DOUBLE-STRUCK FEH	
+U+1EEB1	𞺱		ARABIC MATHEMATICAL DOUBLE-STRUCK SAD	
+U+1EEB2	𞺲		ARABIC MATHEMATICAL DOUBLE-STRUCK QAF	
+U+1EEB3	𞺳		ARABIC MATHEMATICAL DOUBLE-STRUCK REH	
+U+1EEB4	𞺴		ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN	
+U+1EEB5	𞺵		ARABIC MATHEMATICAL DOUBLE-STRUCK TEH	
+U+1EEB6	𞺶		ARABIC MATHEMATICAL DOUBLE-STRUCK THEH	
+U+1EEB7	𞺷		ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH	
+U+1EEB8	𞺸		ARABIC MATHEMATICAL DOUBLE-STRUCK THAL	
+U+1EEB9	𞺹		ARABIC MATHEMATICAL DOUBLE-STRUCK DAD	
+U+1EEBA	𞺺		ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH	
+U+1EEBB	𞺻		ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN	
+U+1EEF0	𞻰		ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL	
+U+1EEF1	𞻱		ARABIC MATHEMATICAL OPERATOR HAH WITH DAL	

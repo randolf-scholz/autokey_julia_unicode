@@ -1,257 +1,257 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1B000	𛀀	1B000..1B0FF	Kana Supplement	Katakana letter archaic e		
-U+1B001	𛀁	1B000..1B0FF	Kana Supplement	Hiragana letter archaic ye		
-U+1B002	𛀂	1B000..1B0FF	Kana Supplement	Hentaigana letter a-1		
-U+1B003	𛀃	1B000..1B0FF	Kana Supplement	Hentaigana letter a-2		
-U+1B004	𛀄	1B000..1B0FF	Kana Supplement	Hentaigana letter a-3		
-U+1B005	𛀅	1B000..1B0FF	Kana Supplement	Hentaigana letter a-wo		
-U+1B006	𛀆	1B000..1B0FF	Kana Supplement	Hentaigana letter i-1		
-U+1B007	𛀇	1B000..1B0FF	Kana Supplement	Hentaigana letter i-2		
-U+1B008	𛀈	1B000..1B0FF	Kana Supplement	Hentaigana letter i-3		
-U+1B009	𛀉	1B000..1B0FF	Kana Supplement	Hentaigana letter i-4		
-U+1B00A	𛀊	1B000..1B0FF	Kana Supplement	Hentaigana letter u-1		
-U+1B00B	𛀋	1B000..1B0FF	Kana Supplement	Hentaigana letter u-2		
-U+1B00C	𛀌	1B000..1B0FF	Kana Supplement	Hentaigana letter u-3		
-U+1B00D	𛀍	1B000..1B0FF	Kana Supplement	Hentaigana letter u-4		
-U+1B00E	𛀎	1B000..1B0FF	Kana Supplement	Hentaigana letter u-5		
-U+1B00F	𛀏	1B000..1B0FF	Kana Supplement	Hentaigana letter e-2		
-U+1B010	𛀐	1B000..1B0FF	Kana Supplement	Hentaigana letter e-3		
-U+1B011	𛀑	1B000..1B0FF	Kana Supplement	Hentaigana letter e-4		
-U+1B012	𛀒	1B000..1B0FF	Kana Supplement	Hentaigana letter e-5		
-U+1B013	𛀓	1B000..1B0FF	Kana Supplement	Hentaigana letter e-6		
-U+1B014	𛀔	1B000..1B0FF	Kana Supplement	Hentaigana letter o-1		
-U+1B015	𛀕	1B000..1B0FF	Kana Supplement	Hentaigana letter o-2		
-U+1B016	𛀖	1B000..1B0FF	Kana Supplement	Hentaigana letter o-3		
-U+1B017	𛀗	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-1		
-U+1B018	𛀘	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-2		
-U+1B019	𛀙	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-3		
-U+1B01A	𛀚	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-4		
-U+1B01B	𛀛	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-5		
-U+1B01C	𛀜	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-6		
-U+1B01D	𛀝	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-7		
-U+1B01E	𛀞	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-8		
-U+1B01F	𛀟	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-9		
-U+1B020	𛀠	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-10		
-U+1B021	𛀡	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-11		
-U+1B022	𛀢	1B000..1B0FF	Kana Supplement	Hentaigana letter ka-ke		
-U+1B023	𛀣	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-1		
-U+1B024	𛀤	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-2		
-U+1B025	𛀥	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-3		
-U+1B026	𛀦	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-4		
-U+1B027	𛀧	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-5		
-U+1B028	𛀨	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-6		
-U+1B029	𛀩	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-7		
-U+1B02A	𛀪	1B000..1B0FF	Kana Supplement	Hentaigana letter ki-8		
-U+1B02B	𛀫	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-1		
-U+1B02C	𛀬	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-2		
-U+1B02D	𛀭	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-3		
-U+1B02E	𛀮	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-4		
-U+1B02F	𛀯	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-5		
-U+1B030	𛀰	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-6		
-U+1B031	𛀱	1B000..1B0FF	Kana Supplement	Hentaigana letter ku-7		
-U+1B032	𛀲	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-1		
-U+1B033	𛀳	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-2		
-U+1B034	𛀴	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-3		
-U+1B035	𛀵	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-4		
-U+1B036	𛀶	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-5		
-U+1B037	𛀷	1B000..1B0FF	Kana Supplement	Hentaigana letter ke-6		
-U+1B038	𛀸	1B000..1B0FF	Kana Supplement	Hentaigana letter ko-1		
-U+1B039	𛀹	1B000..1B0FF	Kana Supplement	Hentaigana letter ko-2		
-U+1B03A	𛀺	1B000..1B0FF	Kana Supplement	Hentaigana letter ko-3		
-U+1B03B	𛀻	1B000..1B0FF	Kana Supplement	Hentaigana letter ko-ki		
-U+1B03C	𛀼	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-1		
-U+1B03D	𛀽	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-2		
-U+1B03E	𛀾	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-3		
-U+1B03F	𛀿	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-4		
-U+1B040	𛁀	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-5		
-U+1B041	𛁁	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-6		
-U+1B042	𛁂	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-7		
-U+1B043	𛁃	1B000..1B0FF	Kana Supplement	Hentaigana letter sa-8		
-U+1B044	𛁄	1B000..1B0FF	Kana Supplement	Hentaigana letter si-1		
-U+1B045	𛁅	1B000..1B0FF	Kana Supplement	Hentaigana letter si-2		
-U+1B046	𛁆	1B000..1B0FF	Kana Supplement	Hentaigana letter si-3		
-U+1B047	𛁇	1B000..1B0FF	Kana Supplement	Hentaigana letter si-4		
-U+1B048	𛁈	1B000..1B0FF	Kana Supplement	Hentaigana letter si-5		
-U+1B049	𛁉	1B000..1B0FF	Kana Supplement	Hentaigana letter si-6		
-U+1B04A	𛁊	1B000..1B0FF	Kana Supplement	Hentaigana letter su-1		
-U+1B04B	𛁋	1B000..1B0FF	Kana Supplement	Hentaigana letter su-2		
-U+1B04C	𛁌	1B000..1B0FF	Kana Supplement	Hentaigana letter su-3		
-U+1B04D	𛁍	1B000..1B0FF	Kana Supplement	Hentaigana letter su-4		
-U+1B04E	𛁎	1B000..1B0FF	Kana Supplement	Hentaigana letter su-5		
-U+1B04F	𛁏	1B000..1B0FF	Kana Supplement	Hentaigana letter su-6		
-U+1B050	𛁐	1B000..1B0FF	Kana Supplement	Hentaigana letter su-7		
-U+1B051	𛁑	1B000..1B0FF	Kana Supplement	Hentaigana letter su-8		
-U+1B052	𛁒	1B000..1B0FF	Kana Supplement	Hentaigana letter se-1		
-U+1B053	𛁓	1B000..1B0FF	Kana Supplement	Hentaigana letter se-2		
-U+1B054	𛁔	1B000..1B0FF	Kana Supplement	Hentaigana letter se-3		
-U+1B055	𛁕	1B000..1B0FF	Kana Supplement	Hentaigana letter se-4		
-U+1B056	𛁖	1B000..1B0FF	Kana Supplement	Hentaigana letter se-5		
-U+1B057	𛁗	1B000..1B0FF	Kana Supplement	Hentaigana letter so-1		
-U+1B058	𛁘	1B000..1B0FF	Kana Supplement	Hentaigana letter so-2		
-U+1B059	𛁙	1B000..1B0FF	Kana Supplement	Hentaigana letter so-3		
-U+1B05A	𛁚	1B000..1B0FF	Kana Supplement	Hentaigana letter so-4		
-U+1B05B	𛁛	1B000..1B0FF	Kana Supplement	Hentaigana letter so-5		
-U+1B05C	𛁜	1B000..1B0FF	Kana Supplement	Hentaigana letter so-6		
-U+1B05D	𛁝	1B000..1B0FF	Kana Supplement	Hentaigana letter so-7		
-U+1B05E	𛁞	1B000..1B0FF	Kana Supplement	Hentaigana letter ta-1		
-U+1B05F	𛁟	1B000..1B0FF	Kana Supplement	Hentaigana letter ta-2		
-U+1B060	𛁠	1B000..1B0FF	Kana Supplement	Hentaigana letter ta-3		
-U+1B061	𛁡	1B000..1B0FF	Kana Supplement	Hentaigana letter ta-4		
-U+1B062	𛁢	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-1		
-U+1B063	𛁣	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-2		
-U+1B064	𛁤	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-3		
-U+1B065	𛁥	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-4		
-U+1B066	𛁦	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-5		
-U+1B067	𛁧	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-6		
-U+1B068	𛁨	1B000..1B0FF	Kana Supplement	Hentaigana letter ti-7		
-U+1B069	𛁩	1B000..1B0FF	Kana Supplement	Hentaigana letter tu-1		
-U+1B06A	𛁪	1B000..1B0FF	Kana Supplement	Hentaigana letter tu-2		
-U+1B06B	𛁫	1B000..1B0FF	Kana Supplement	Hentaigana letter tu-3		
-U+1B06C	𛁬	1B000..1B0FF	Kana Supplement	Hentaigana letter tu-4		
-U+1B06D	𛁭	1B000..1B0FF	Kana Supplement	Hentaigana letter tu-to		
-U+1B06E	𛁮	1B000..1B0FF	Kana Supplement	Hentaigana letter te-1		
-U+1B06F	𛁯	1B000..1B0FF	Kana Supplement	Hentaigana letter te-2		
-U+1B070	𛁰	1B000..1B0FF	Kana Supplement	Hentaigana letter te-3		
-U+1B071	𛁱	1B000..1B0FF	Kana Supplement	Hentaigana letter te-4		
-U+1B072	𛁲	1B000..1B0FF	Kana Supplement	Hentaigana letter te-5		
-U+1B073	𛁳	1B000..1B0FF	Kana Supplement	Hentaigana letter te-6		
-U+1B074	𛁴	1B000..1B0FF	Kana Supplement	Hentaigana letter te-7		
-U+1B075	𛁵	1B000..1B0FF	Kana Supplement	Hentaigana letter te-8		
-U+1B076	𛁶	1B000..1B0FF	Kana Supplement	Hentaigana letter te-9		
-U+1B077	𛁷	1B000..1B0FF	Kana Supplement	Hentaigana letter to-1		
-U+1B078	𛁸	1B000..1B0FF	Kana Supplement	Hentaigana letter to-2		
-U+1B079	𛁹	1B000..1B0FF	Kana Supplement	Hentaigana letter to-3		
-U+1B07A	𛁺	1B000..1B0FF	Kana Supplement	Hentaigana letter to-4		
-U+1B07B	𛁻	1B000..1B0FF	Kana Supplement	Hentaigana letter to-5		
-U+1B07C	𛁼	1B000..1B0FF	Kana Supplement	Hentaigana letter to-6		
-U+1B07D	𛁽	1B000..1B0FF	Kana Supplement	Hentaigana letter to-ra		
-U+1B07E	𛁾	1B000..1B0FF	Kana Supplement	Hentaigana letter na-1		
-U+1B07F	𛁿	1B000..1B0FF	Kana Supplement	Hentaigana letter na-2		
-U+1B080	𛂀	1B000..1B0FF	Kana Supplement	Hentaigana letter na-3		
-U+1B081	𛂁	1B000..1B0FF	Kana Supplement	Hentaigana letter na-4		
-U+1B082	𛂂	1B000..1B0FF	Kana Supplement	Hentaigana letter na-5		
-U+1B083	𛂃	1B000..1B0FF	Kana Supplement	Hentaigana letter na-6		
-U+1B084	𛂄	1B000..1B0FF	Kana Supplement	Hentaigana letter na-7		
-U+1B085	𛂅	1B000..1B0FF	Kana Supplement	Hentaigana letter na-8		
-U+1B086	𛂆	1B000..1B0FF	Kana Supplement	Hentaigana letter na-9		
-U+1B087	𛂇	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-1		
-U+1B088	𛂈	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-2		
-U+1B089	𛂉	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-3		
-U+1B08A	𛂊	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-4		
-U+1B08B	𛂋	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-5		
-U+1B08C	𛂌	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-6		
-U+1B08D	𛂍	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-7		
-U+1B08E	𛂎	1B000..1B0FF	Kana Supplement	Hentaigana letter ni-te		
-U+1B08F	𛂏	1B000..1B0FF	Kana Supplement	Hentaigana letter nu-1		
-U+1B090	𛂐	1B000..1B0FF	Kana Supplement	Hentaigana letter nu-2		
-U+1B091	𛂑	1B000..1B0FF	Kana Supplement	Hentaigana letter nu-3		
-U+1B092	𛂒	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-1		
-U+1B093	𛂓	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-2		
-U+1B094	𛂔	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-3		
-U+1B095	𛂕	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-4		
-U+1B096	𛂖	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-5		
-U+1B097	𛂗	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-6		
-U+1B098	𛂘	1B000..1B0FF	Kana Supplement	Hentaigana letter ne-ko		
-U+1B099	𛂙	1B000..1B0FF	Kana Supplement	Hentaigana letter no-1		
-U+1B09A	𛂚	1B000..1B0FF	Kana Supplement	Hentaigana letter no-2		
-U+1B09B	𛂛	1B000..1B0FF	Kana Supplement	Hentaigana letter no-3		
-U+1B09C	𛂜	1B000..1B0FF	Kana Supplement	Hentaigana letter no-4		
-U+1B09D	𛂝	1B000..1B0FF	Kana Supplement	Hentaigana letter no-5		
-U+1B09E	𛂞	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-1		
-U+1B09F	𛂟	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-2		
-U+1B0A0	𛂠	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-3		
-U+1B0A1	𛂡	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-4		
-U+1B0A2	𛂢	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-5		
-U+1B0A3	𛂣	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-6		
-U+1B0A4	𛂤	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-7		
-U+1B0A5	𛂥	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-8		
-U+1B0A6	𛂦	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-9		
-U+1B0A7	𛂧	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-10		
-U+1B0A8	𛂨	1B000..1B0FF	Kana Supplement	Hentaigana letter ha-11		
-U+1B0A9	𛂩	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-1		
-U+1B0AA	𛂪	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-2		
-U+1B0AB	𛂫	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-3		
-U+1B0AC	𛂬	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-4		
-U+1B0AD	𛂭	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-5		
-U+1B0AE	𛂮	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-6		
-U+1B0AF	𛂯	1B000..1B0FF	Kana Supplement	Hentaigana letter hi-7		
-U+1B0B0	𛂰	1B000..1B0FF	Kana Supplement	Hentaigana letter hu-1		
-U+1B0B1	𛂱	1B000..1B0FF	Kana Supplement	Hentaigana letter hu-2		
-U+1B0B2	𛂲	1B000..1B0FF	Kana Supplement	Hentaigana letter hu-3		
-U+1B0B3	𛂳	1B000..1B0FF	Kana Supplement	Hentaigana letter he-1		
-U+1B0B4	𛂴	1B000..1B0FF	Kana Supplement	Hentaigana letter he-2		
-U+1B0B5	𛂵	1B000..1B0FF	Kana Supplement	Hentaigana letter he-3		
-U+1B0B6	𛂶	1B000..1B0FF	Kana Supplement	Hentaigana letter he-4		
-U+1B0B7	𛂷	1B000..1B0FF	Kana Supplement	Hentaigana letter he-5		
-U+1B0B8	𛂸	1B000..1B0FF	Kana Supplement	Hentaigana letter he-6		
-U+1B0B9	𛂹	1B000..1B0FF	Kana Supplement	Hentaigana letter he-7		
-U+1B0BA	𛂺	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-1		
-U+1B0BB	𛂻	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-2		
-U+1B0BC	𛂼	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-3		
-U+1B0BD	𛂽	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-4		
-U+1B0BE	𛂾	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-5		
-U+1B0BF	𛂿	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-6		
-U+1B0C0	𛃀	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-7		
-U+1B0C1	𛃁	1B000..1B0FF	Kana Supplement	Hentaigana letter ho-8		
-U+1B0C2	𛃂	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-1		
-U+1B0C3	𛃃	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-2		
-U+1B0C4	𛃄	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-3		
-U+1B0C5	𛃅	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-4		
-U+1B0C6	𛃆	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-5		
-U+1B0C7	𛃇	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-6		
-U+1B0C8	𛃈	1B000..1B0FF	Kana Supplement	Hentaigana letter ma-7		
-U+1B0C9	𛃉	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-1		
-U+1B0CA	𛃊	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-2		
-U+1B0CB	𛃋	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-3		
-U+1B0CC	𛃌	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-4		
-U+1B0CD	𛃍	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-5		
-U+1B0CE	𛃎	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-6		
-U+1B0CF	𛃏	1B000..1B0FF	Kana Supplement	Hentaigana letter mi-7		
-U+1B0D0	𛃐	1B000..1B0FF	Kana Supplement	Hentaigana letter mu-1		
-U+1B0D1	𛃑	1B000..1B0FF	Kana Supplement	Hentaigana letter mu-2		
-U+1B0D2	𛃒	1B000..1B0FF	Kana Supplement	Hentaigana letter mu-3		
-U+1B0D3	𛃓	1B000..1B0FF	Kana Supplement	Hentaigana letter mu-4		
-U+1B0D4	𛃔	1B000..1B0FF	Kana Supplement	Hentaigana letter me-1		
-U+1B0D5	𛃕	1B000..1B0FF	Kana Supplement	Hentaigana letter me-2		
-U+1B0D6	𛃖	1B000..1B0FF	Kana Supplement	Hentaigana letter me-ma		
-U+1B0D7	𛃗	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-1		
-U+1B0D8	𛃘	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-2		
-U+1B0D9	𛃙	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-3		
-U+1B0DA	𛃚	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-4		
-U+1B0DB	𛃛	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-5		
-U+1B0DC	𛃜	1B000..1B0FF	Kana Supplement	Hentaigana letter mo-6		
-U+1B0DD	𛃝	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-1		
-U+1B0DE	𛃞	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-2		
-U+1B0DF	𛃟	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-3		
-U+1B0E0	𛃠	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-4		
-U+1B0E1	𛃡	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-5		
-U+1B0E2	𛃢	1B000..1B0FF	Kana Supplement	Hentaigana letter ya-yo		
-U+1B0E3	𛃣	1B000..1B0FF	Kana Supplement	Hentaigana letter yu-1		
-U+1B0E4	𛃤	1B000..1B0FF	Kana Supplement	Hentaigana letter yu-2		
-U+1B0E5	𛃥	1B000..1B0FF	Kana Supplement	Hentaigana letter yu-3		
-U+1B0E6	𛃦	1B000..1B0FF	Kana Supplement	Hentaigana letter yu-4		
-U+1B0E7	𛃧	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-1		
-U+1B0E8	𛃨	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-2		
-U+1B0E9	𛃩	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-3		
-U+1B0EA	𛃪	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-4		
-U+1B0EB	𛃫	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-5		
-U+1B0EC	𛃬	1B000..1B0FF	Kana Supplement	Hentaigana letter yo-6		
-U+1B0ED	𛃭	1B000..1B0FF	Kana Supplement	Hentaigana letter ra-1		
-U+1B0EE	𛃮	1B000..1B0FF	Kana Supplement	Hentaigana letter ra-2		
-U+1B0EF	𛃯	1B000..1B0FF	Kana Supplement	Hentaigana letter ra-3		
-U+1B0F0	𛃰	1B000..1B0FF	Kana Supplement	Hentaigana letter ra-4		
-U+1B0F1	𛃱	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-1		
-U+1B0F2	𛃲	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-2		
-U+1B0F3	𛃳	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-3		
-U+1B0F4	𛃴	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-4		
-U+1B0F5	𛃵	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-5		
-U+1B0F6	𛃶	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-6		
-U+1B0F7	𛃷	1B000..1B0FF	Kana Supplement	Hentaigana letter ri-7		
-U+1B0F8	𛃸	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-1		
-U+1B0F9	𛃹	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-2		
-U+1B0FA	𛃺	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-3		
-U+1B0FB	𛃻	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-4		
-U+1B0FC	𛃼	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-5		
-U+1B0FD	𛃽	1B000..1B0FF	Kana Supplement	Hentaigana letter ru-6		
-U+1B0FE	𛃾	1B000..1B0FF	Kana Supplement	Hentaigana letter re-1		
-U+1B0FF	𛃿	1B000..1B0FF	Kana Supplement	Hentaigana letter re-2		
+code_points	chars	tab_completions	unicode_name	base
+U+1B000	𛀀		KATAKANA LETTER ARCHAIC E	
+U+1B001	𛀁		HIRAGANA LETTER ARCHAIC YE	
+U+1B002	𛀂		HENTAIGANA LETTER A-1	
+U+1B003	𛀃		HENTAIGANA LETTER A-2	
+U+1B004	𛀄		HENTAIGANA LETTER A-3	
+U+1B005	𛀅		HENTAIGANA LETTER A-WO	
+U+1B006	𛀆		HENTAIGANA LETTER I-1	
+U+1B007	𛀇		HENTAIGANA LETTER I-2	
+U+1B008	𛀈		HENTAIGANA LETTER I-3	
+U+1B009	𛀉		HENTAIGANA LETTER I-4	
+U+1B00A	𛀊		HENTAIGANA LETTER U-1	
+U+1B00B	𛀋		HENTAIGANA LETTER U-2	
+U+1B00C	𛀌		HENTAIGANA LETTER U-3	
+U+1B00D	𛀍		HENTAIGANA LETTER U-4	
+U+1B00E	𛀎		HENTAIGANA LETTER U-5	
+U+1B00F	𛀏		HENTAIGANA LETTER E-2	
+U+1B010	𛀐		HENTAIGANA LETTER E-3	
+U+1B011	𛀑		HENTAIGANA LETTER E-4	
+U+1B012	𛀒		HENTAIGANA LETTER E-5	
+U+1B013	𛀓		HENTAIGANA LETTER E-6	
+U+1B014	𛀔		HENTAIGANA LETTER O-1	
+U+1B015	𛀕		HENTAIGANA LETTER O-2	
+U+1B016	𛀖		HENTAIGANA LETTER O-3	
+U+1B017	𛀗		HENTAIGANA LETTER KA-1	
+U+1B018	𛀘		HENTAIGANA LETTER KA-2	
+U+1B019	𛀙		HENTAIGANA LETTER KA-3	
+U+1B01A	𛀚		HENTAIGANA LETTER KA-4	
+U+1B01B	𛀛		HENTAIGANA LETTER KA-5	
+U+1B01C	𛀜		HENTAIGANA LETTER KA-6	
+U+1B01D	𛀝		HENTAIGANA LETTER KA-7	
+U+1B01E	𛀞		HENTAIGANA LETTER KA-8	
+U+1B01F	𛀟		HENTAIGANA LETTER KA-9	
+U+1B020	𛀠		HENTAIGANA LETTER KA-10	
+U+1B021	𛀡		HENTAIGANA LETTER KA-11	
+U+1B022	𛀢		HENTAIGANA LETTER KA-KE	
+U+1B023	𛀣		HENTAIGANA LETTER KI-1	
+U+1B024	𛀤		HENTAIGANA LETTER KI-2	
+U+1B025	𛀥		HENTAIGANA LETTER KI-3	
+U+1B026	𛀦		HENTAIGANA LETTER KI-4	
+U+1B027	𛀧		HENTAIGANA LETTER KI-5	
+U+1B028	𛀨		HENTAIGANA LETTER KI-6	
+U+1B029	𛀩		HENTAIGANA LETTER KI-7	
+U+1B02A	𛀪		HENTAIGANA LETTER KI-8	
+U+1B02B	𛀫		HENTAIGANA LETTER KU-1	
+U+1B02C	𛀬		HENTAIGANA LETTER KU-2	
+U+1B02D	𛀭		HENTAIGANA LETTER KU-3	
+U+1B02E	𛀮		HENTAIGANA LETTER KU-4	
+U+1B02F	𛀯		HENTAIGANA LETTER KU-5	
+U+1B030	𛀰		HENTAIGANA LETTER KU-6	
+U+1B031	𛀱		HENTAIGANA LETTER KU-7	
+U+1B032	𛀲		HENTAIGANA LETTER KE-1	
+U+1B033	𛀳		HENTAIGANA LETTER KE-2	
+U+1B034	𛀴		HENTAIGANA LETTER KE-3	
+U+1B035	𛀵		HENTAIGANA LETTER KE-4	
+U+1B036	𛀶		HENTAIGANA LETTER KE-5	
+U+1B037	𛀷		HENTAIGANA LETTER KE-6	
+U+1B038	𛀸		HENTAIGANA LETTER KO-1	
+U+1B039	𛀹		HENTAIGANA LETTER KO-2	
+U+1B03A	𛀺		HENTAIGANA LETTER KO-3	
+U+1B03B	𛀻		HENTAIGANA LETTER KO-KI	
+U+1B03C	𛀼		HENTAIGANA LETTER SA-1	
+U+1B03D	𛀽		HENTAIGANA LETTER SA-2	
+U+1B03E	𛀾		HENTAIGANA LETTER SA-3	
+U+1B03F	𛀿		HENTAIGANA LETTER SA-4	
+U+1B040	𛁀		HENTAIGANA LETTER SA-5	
+U+1B041	𛁁		HENTAIGANA LETTER SA-6	
+U+1B042	𛁂		HENTAIGANA LETTER SA-7	
+U+1B043	𛁃		HENTAIGANA LETTER SA-8	
+U+1B044	𛁄		HENTAIGANA LETTER SI-1	
+U+1B045	𛁅		HENTAIGANA LETTER SI-2	
+U+1B046	𛁆		HENTAIGANA LETTER SI-3	
+U+1B047	𛁇		HENTAIGANA LETTER SI-4	
+U+1B048	𛁈		HENTAIGANA LETTER SI-5	
+U+1B049	𛁉		HENTAIGANA LETTER SI-6	
+U+1B04A	𛁊		HENTAIGANA LETTER SU-1	
+U+1B04B	𛁋		HENTAIGANA LETTER SU-2	
+U+1B04C	𛁌		HENTAIGANA LETTER SU-3	
+U+1B04D	𛁍		HENTAIGANA LETTER SU-4	
+U+1B04E	𛁎		HENTAIGANA LETTER SU-5	
+U+1B04F	𛁏		HENTAIGANA LETTER SU-6	
+U+1B050	𛁐		HENTAIGANA LETTER SU-7	
+U+1B051	𛁑		HENTAIGANA LETTER SU-8	
+U+1B052	𛁒		HENTAIGANA LETTER SE-1	
+U+1B053	𛁓		HENTAIGANA LETTER SE-2	
+U+1B054	𛁔		HENTAIGANA LETTER SE-3	
+U+1B055	𛁕		HENTAIGANA LETTER SE-4	
+U+1B056	𛁖		HENTAIGANA LETTER SE-5	
+U+1B057	𛁗		HENTAIGANA LETTER SO-1	
+U+1B058	𛁘		HENTAIGANA LETTER SO-2	
+U+1B059	𛁙		HENTAIGANA LETTER SO-3	
+U+1B05A	𛁚		HENTAIGANA LETTER SO-4	
+U+1B05B	𛁛		HENTAIGANA LETTER SO-5	
+U+1B05C	𛁜		HENTAIGANA LETTER SO-6	
+U+1B05D	𛁝		HENTAIGANA LETTER SO-7	
+U+1B05E	𛁞		HENTAIGANA LETTER TA-1	
+U+1B05F	𛁟		HENTAIGANA LETTER TA-2	
+U+1B060	𛁠		HENTAIGANA LETTER TA-3	
+U+1B061	𛁡		HENTAIGANA LETTER TA-4	
+U+1B062	𛁢		HENTAIGANA LETTER TI-1	
+U+1B063	𛁣		HENTAIGANA LETTER TI-2	
+U+1B064	𛁤		HENTAIGANA LETTER TI-3	
+U+1B065	𛁥		HENTAIGANA LETTER TI-4	
+U+1B066	𛁦		HENTAIGANA LETTER TI-5	
+U+1B067	𛁧		HENTAIGANA LETTER TI-6	
+U+1B068	𛁨		HENTAIGANA LETTER TI-7	
+U+1B069	𛁩		HENTAIGANA LETTER TU-1	
+U+1B06A	𛁪		HENTAIGANA LETTER TU-2	
+U+1B06B	𛁫		HENTAIGANA LETTER TU-3	
+U+1B06C	𛁬		HENTAIGANA LETTER TU-4	
+U+1B06D	𛁭		HENTAIGANA LETTER TU-TO	
+U+1B06E	𛁮		HENTAIGANA LETTER TE-1	
+U+1B06F	𛁯		HENTAIGANA LETTER TE-2	
+U+1B070	𛁰		HENTAIGANA LETTER TE-3	
+U+1B071	𛁱		HENTAIGANA LETTER TE-4	
+U+1B072	𛁲		HENTAIGANA LETTER TE-5	
+U+1B073	𛁳		HENTAIGANA LETTER TE-6	
+U+1B074	𛁴		HENTAIGANA LETTER TE-7	
+U+1B075	𛁵		HENTAIGANA LETTER TE-8	
+U+1B076	𛁶		HENTAIGANA LETTER TE-9	
+U+1B077	𛁷		HENTAIGANA LETTER TO-1	
+U+1B078	𛁸		HENTAIGANA LETTER TO-2	
+U+1B079	𛁹		HENTAIGANA LETTER TO-3	
+U+1B07A	𛁺		HENTAIGANA LETTER TO-4	
+U+1B07B	𛁻		HENTAIGANA LETTER TO-5	
+U+1B07C	𛁼		HENTAIGANA LETTER TO-6	
+U+1B07D	𛁽		HENTAIGANA LETTER TO-RA	
+U+1B07E	𛁾		HENTAIGANA LETTER NA-1	
+U+1B07F	𛁿		HENTAIGANA LETTER NA-2	
+U+1B080	𛂀		HENTAIGANA LETTER NA-3	
+U+1B081	𛂁		HENTAIGANA LETTER NA-4	
+U+1B082	𛂂		HENTAIGANA LETTER NA-5	
+U+1B083	𛂃		HENTAIGANA LETTER NA-6	
+U+1B084	𛂄		HENTAIGANA LETTER NA-7	
+U+1B085	𛂅		HENTAIGANA LETTER NA-8	
+U+1B086	𛂆		HENTAIGANA LETTER NA-9	
+U+1B087	𛂇		HENTAIGANA LETTER NI-1	
+U+1B088	𛂈		HENTAIGANA LETTER NI-2	
+U+1B089	𛂉		HENTAIGANA LETTER NI-3	
+U+1B08A	𛂊		HENTAIGANA LETTER NI-4	
+U+1B08B	𛂋		HENTAIGANA LETTER NI-5	
+U+1B08C	𛂌		HENTAIGANA LETTER NI-6	
+U+1B08D	𛂍		HENTAIGANA LETTER NI-7	
+U+1B08E	𛂎		HENTAIGANA LETTER NI-TE	
+U+1B08F	𛂏		HENTAIGANA LETTER NU-1	
+U+1B090	𛂐		HENTAIGANA LETTER NU-2	
+U+1B091	𛂑		HENTAIGANA LETTER NU-3	
+U+1B092	𛂒		HENTAIGANA LETTER NE-1	
+U+1B093	𛂓		HENTAIGANA LETTER NE-2	
+U+1B094	𛂔		HENTAIGANA LETTER NE-3	
+U+1B095	𛂕		HENTAIGANA LETTER NE-4	
+U+1B096	𛂖		HENTAIGANA LETTER NE-5	
+U+1B097	𛂗		HENTAIGANA LETTER NE-6	
+U+1B098	𛂘		HENTAIGANA LETTER NE-KO	
+U+1B099	𛂙		HENTAIGANA LETTER NO-1	
+U+1B09A	𛂚		HENTAIGANA LETTER NO-2	
+U+1B09B	𛂛		HENTAIGANA LETTER NO-3	
+U+1B09C	𛂜		HENTAIGANA LETTER NO-4	
+U+1B09D	𛂝		HENTAIGANA LETTER NO-5	
+U+1B09E	𛂞		HENTAIGANA LETTER HA-1	
+U+1B09F	𛂟		HENTAIGANA LETTER HA-2	
+U+1B0A0	𛂠		HENTAIGANA LETTER HA-3	
+U+1B0A1	𛂡		HENTAIGANA LETTER HA-4	
+U+1B0A2	𛂢		HENTAIGANA LETTER HA-5	
+U+1B0A3	𛂣		HENTAIGANA LETTER HA-6	
+U+1B0A4	𛂤		HENTAIGANA LETTER HA-7	
+U+1B0A5	𛂥		HENTAIGANA LETTER HA-8	
+U+1B0A6	𛂦		HENTAIGANA LETTER HA-9	
+U+1B0A7	𛂧		HENTAIGANA LETTER HA-10	
+U+1B0A8	𛂨		HENTAIGANA LETTER HA-11	
+U+1B0A9	𛂩		HENTAIGANA LETTER HI-1	
+U+1B0AA	𛂪		HENTAIGANA LETTER HI-2	
+U+1B0AB	𛂫		HENTAIGANA LETTER HI-3	
+U+1B0AC	𛂬		HENTAIGANA LETTER HI-4	
+U+1B0AD	𛂭		HENTAIGANA LETTER HI-5	
+U+1B0AE	𛂮		HENTAIGANA LETTER HI-6	
+U+1B0AF	𛂯		HENTAIGANA LETTER HI-7	
+U+1B0B0	𛂰		HENTAIGANA LETTER HU-1	
+U+1B0B1	𛂱		HENTAIGANA LETTER HU-2	
+U+1B0B2	𛂲		HENTAIGANA LETTER HU-3	
+U+1B0B3	𛂳		HENTAIGANA LETTER HE-1	
+U+1B0B4	𛂴		HENTAIGANA LETTER HE-2	
+U+1B0B5	𛂵		HENTAIGANA LETTER HE-3	
+U+1B0B6	𛂶		HENTAIGANA LETTER HE-4	
+U+1B0B7	𛂷		HENTAIGANA LETTER HE-5	
+U+1B0B8	𛂸		HENTAIGANA LETTER HE-6	
+U+1B0B9	𛂹		HENTAIGANA LETTER HE-7	
+U+1B0BA	𛂺		HENTAIGANA LETTER HO-1	
+U+1B0BB	𛂻		HENTAIGANA LETTER HO-2	
+U+1B0BC	𛂼		HENTAIGANA LETTER HO-3	
+U+1B0BD	𛂽		HENTAIGANA LETTER HO-4	
+U+1B0BE	𛂾		HENTAIGANA LETTER HO-5	
+U+1B0BF	𛂿		HENTAIGANA LETTER HO-6	
+U+1B0C0	𛃀		HENTAIGANA LETTER HO-7	
+U+1B0C1	𛃁		HENTAIGANA LETTER HO-8	
+U+1B0C2	𛃂		HENTAIGANA LETTER MA-1	
+U+1B0C3	𛃃		HENTAIGANA LETTER MA-2	
+U+1B0C4	𛃄		HENTAIGANA LETTER MA-3	
+U+1B0C5	𛃅		HENTAIGANA LETTER MA-4	
+U+1B0C6	𛃆		HENTAIGANA LETTER MA-5	
+U+1B0C7	𛃇		HENTAIGANA LETTER MA-6	
+U+1B0C8	𛃈		HENTAIGANA LETTER MA-7	
+U+1B0C9	𛃉		HENTAIGANA LETTER MI-1	
+U+1B0CA	𛃊		HENTAIGANA LETTER MI-2	
+U+1B0CB	𛃋		HENTAIGANA LETTER MI-3	
+U+1B0CC	𛃌		HENTAIGANA LETTER MI-4	
+U+1B0CD	𛃍		HENTAIGANA LETTER MI-5	
+U+1B0CE	𛃎		HENTAIGANA LETTER MI-6	
+U+1B0CF	𛃏		HENTAIGANA LETTER MI-7	
+U+1B0D0	𛃐		HENTAIGANA LETTER MU-1	
+U+1B0D1	𛃑		HENTAIGANA LETTER MU-2	
+U+1B0D2	𛃒		HENTAIGANA LETTER MU-3	
+U+1B0D3	𛃓		HENTAIGANA LETTER MU-4	
+U+1B0D4	𛃔		HENTAIGANA LETTER ME-1	
+U+1B0D5	𛃕		HENTAIGANA LETTER ME-2	
+U+1B0D6	𛃖		HENTAIGANA LETTER ME-MA	
+U+1B0D7	𛃗		HENTAIGANA LETTER MO-1	
+U+1B0D8	𛃘		HENTAIGANA LETTER MO-2	
+U+1B0D9	𛃙		HENTAIGANA LETTER MO-3	
+U+1B0DA	𛃚		HENTAIGANA LETTER MO-4	
+U+1B0DB	𛃛		HENTAIGANA LETTER MO-5	
+U+1B0DC	𛃜		HENTAIGANA LETTER MO-6	
+U+1B0DD	𛃝		HENTAIGANA LETTER YA-1	
+U+1B0DE	𛃞		HENTAIGANA LETTER YA-2	
+U+1B0DF	𛃟		HENTAIGANA LETTER YA-3	
+U+1B0E0	𛃠		HENTAIGANA LETTER YA-4	
+U+1B0E1	𛃡		HENTAIGANA LETTER YA-5	
+U+1B0E2	𛃢		HENTAIGANA LETTER YA-YO	
+U+1B0E3	𛃣		HENTAIGANA LETTER YU-1	
+U+1B0E4	𛃤		HENTAIGANA LETTER YU-2	
+U+1B0E5	𛃥		HENTAIGANA LETTER YU-3	
+U+1B0E6	𛃦		HENTAIGANA LETTER YU-4	
+U+1B0E7	𛃧		HENTAIGANA LETTER YO-1	
+U+1B0E8	𛃨		HENTAIGANA LETTER YO-2	
+U+1B0E9	𛃩		HENTAIGANA LETTER YO-3	
+U+1B0EA	𛃪		HENTAIGANA LETTER YO-4	
+U+1B0EB	𛃫		HENTAIGANA LETTER YO-5	
+U+1B0EC	𛃬		HENTAIGANA LETTER YO-6	
+U+1B0ED	𛃭		HENTAIGANA LETTER RA-1	
+U+1B0EE	𛃮		HENTAIGANA LETTER RA-2	
+U+1B0EF	𛃯		HENTAIGANA LETTER RA-3	
+U+1B0F0	𛃰		HENTAIGANA LETTER RA-4	
+U+1B0F1	𛃱		HENTAIGANA LETTER RI-1	
+U+1B0F2	𛃲		HENTAIGANA LETTER RI-2	
+U+1B0F3	𛃳		HENTAIGANA LETTER RI-3	
+U+1B0F4	𛃴		HENTAIGANA LETTER RI-4	
+U+1B0F5	𛃵		HENTAIGANA LETTER RI-5	
+U+1B0F6	𛃶		HENTAIGANA LETTER RI-6	
+U+1B0F7	𛃷		HENTAIGANA LETTER RI-7	
+U+1B0F8	𛃸		HENTAIGANA LETTER RU-1	
+U+1B0F9	𛃹		HENTAIGANA LETTER RU-2	
+U+1B0FA	𛃺		HENTAIGANA LETTER RU-3	
+U+1B0FB	𛃻		HENTAIGANA LETTER RU-4	
+U+1B0FC	𛃼		HENTAIGANA LETTER RU-5	
+U+1B0FD	𛃽		HENTAIGANA LETTER RU-6	
+U+1B0FE	𛃾		HENTAIGANA LETTER RE-1	
+U+1B0FF	𛃿		HENTAIGANA LETTER RE-2	

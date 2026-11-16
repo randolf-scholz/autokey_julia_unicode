@@ -1,54 +1,54 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10530	𐔰	10530..1056F	Caucasian Albanian	Caucasian albanian letter alt		
-U+10531	𐔱	10530..1056F	Caucasian Albanian	Caucasian albanian letter bet		
-U+10532	𐔲	10530..1056F	Caucasian Albanian	Caucasian albanian letter gim		
-U+10533	𐔳	10530..1056F	Caucasian Albanian	Caucasian albanian letter dat		
-U+10534	𐔴	10530..1056F	Caucasian Albanian	Caucasian albanian letter eb		
-U+10535	𐔵	10530..1056F	Caucasian Albanian	Caucasian albanian letter zarl		
-U+10536	𐔶	10530..1056F	Caucasian Albanian	Caucasian albanian letter eyn		
-U+10537	𐔷	10530..1056F	Caucasian Albanian	Caucasian albanian letter zhil		
-U+10538	𐔸	10530..1056F	Caucasian Albanian	Caucasian albanian letter tas		
-U+10539	𐔹	10530..1056F	Caucasian Albanian	Caucasian albanian letter cha		
-U+1053A	𐔺	10530..1056F	Caucasian Albanian	Caucasian albanian letter yowd		
-U+1053B	𐔻	10530..1056F	Caucasian Albanian	Caucasian albanian letter zha		
-U+1053C	𐔼	10530..1056F	Caucasian Albanian	Caucasian albanian letter irb		
-U+1053D	𐔽	10530..1056F	Caucasian Albanian	Caucasian albanian letter sha		
-U+1053E	𐔾	10530..1056F	Caucasian Albanian	Caucasian albanian letter lan		
-U+1053F	𐔿	10530..1056F	Caucasian Albanian	Caucasian albanian letter inya		
-U+10540	𐕀	10530..1056F	Caucasian Albanian	Caucasian albanian letter xeyn		
-U+10541	𐕁	10530..1056F	Caucasian Albanian	Caucasian albanian letter dyan		
-U+10542	𐕂	10530..1056F	Caucasian Albanian	Caucasian albanian letter car		
-U+10543	𐕃	10530..1056F	Caucasian Albanian	Caucasian albanian letter jhox		
-U+10544	𐕄	10530..1056F	Caucasian Albanian	Caucasian albanian letter kar		
-U+10545	𐕅	10530..1056F	Caucasian Albanian	Caucasian albanian letter lyit		
-U+10546	𐕆	10530..1056F	Caucasian Albanian	Caucasian albanian letter heyt		
-U+10547	𐕇	10530..1056F	Caucasian Albanian	Caucasian albanian letter qay		
-U+10548	𐕈	10530..1056F	Caucasian Albanian	Caucasian albanian letter aor		
-U+10549	𐕉	10530..1056F	Caucasian Albanian	Caucasian albanian letter choy		
-U+1054A	𐕊	10530..1056F	Caucasian Albanian	Caucasian albanian letter chi		
-U+1054B	𐕋	10530..1056F	Caucasian Albanian	Caucasian albanian letter cyay		
-U+1054C	𐕌	10530..1056F	Caucasian Albanian	Caucasian albanian letter maq		
-U+1054D	𐕍	10530..1056F	Caucasian Albanian	Caucasian albanian letter qar		
-U+1054E	𐕎	10530..1056F	Caucasian Albanian	Caucasian albanian letter nowc		
-U+1054F	𐕏	10530..1056F	Caucasian Albanian	Caucasian albanian letter dzyay		
-U+10550	𐕐	10530..1056F	Caucasian Albanian	Caucasian albanian letter shak		
-U+10551	𐕑	10530..1056F	Caucasian Albanian	Caucasian albanian letter jayn		
-U+10552	𐕒	10530..1056F	Caucasian Albanian	Caucasian albanian letter on		
-U+10553	𐕓	10530..1056F	Caucasian Albanian	Caucasian albanian letter tyay		
-U+10554	𐕔	10530..1056F	Caucasian Albanian	Caucasian albanian letter fam		
-U+10555	𐕕	10530..1056F	Caucasian Albanian	Caucasian albanian letter dzay		
-U+10556	𐕖	10530..1056F	Caucasian Albanian	Caucasian albanian letter chat		
-U+10557	𐕗	10530..1056F	Caucasian Albanian	Caucasian albanian letter pen		
-U+10558	𐕘	10530..1056F	Caucasian Albanian	Caucasian albanian letter gheys		
-U+10559	𐕙	10530..1056F	Caucasian Albanian	Caucasian albanian letter rat		
-U+1055A	𐕚	10530..1056F	Caucasian Albanian	Caucasian albanian letter seyk		
-U+1055B	𐕛	10530..1056F	Caucasian Albanian	Caucasian albanian letter veyz		
-U+1055C	𐕜	10530..1056F	Caucasian Albanian	Caucasian albanian letter tiwr		
-U+1055D	𐕝	10530..1056F	Caucasian Albanian	Caucasian albanian letter shoy		
-U+1055E	𐕞	10530..1056F	Caucasian Albanian	Caucasian albanian letter iwn		
-U+1055F	𐕟	10530..1056F	Caucasian Albanian	Caucasian albanian letter cyaw		
-U+10560	𐕠	10530..1056F	Caucasian Albanian	Caucasian albanian letter cayn		
-U+10561	𐕡	10530..1056F	Caucasian Albanian	Caucasian albanian letter yayd		
-U+10562	𐕢	10530..1056F	Caucasian Albanian	Caucasian albanian letter piwr		
-U+10563	𐕣	10530..1056F	Caucasian Albanian	Caucasian albanian letter kiw		
-U+1056F	𐕯	10530..1056F	Caucasian Albanian	Caucasian albanian citation mark		
+code_points	chars	tab_completions	unicode_name	base
+U+10530	𐔰		CAUCASIAN ALBANIAN LETTER ALT	
+U+10531	𐔱		CAUCASIAN ALBANIAN LETTER BET	
+U+10532	𐔲		CAUCASIAN ALBANIAN LETTER GIM	
+U+10533	𐔳		CAUCASIAN ALBANIAN LETTER DAT	
+U+10534	𐔴		CAUCASIAN ALBANIAN LETTER EB	
+U+10535	𐔵		CAUCASIAN ALBANIAN LETTER ZARL	
+U+10536	𐔶		CAUCASIAN ALBANIAN LETTER EYN	
+U+10537	𐔷		CAUCASIAN ALBANIAN LETTER ZHIL	
+U+10538	𐔸		CAUCASIAN ALBANIAN LETTER TAS	
+U+10539	𐔹		CAUCASIAN ALBANIAN LETTER CHA	
+U+1053A	𐔺		CAUCASIAN ALBANIAN LETTER YOWD	
+U+1053B	𐔻		CAUCASIAN ALBANIAN LETTER ZHA	
+U+1053C	𐔼		CAUCASIAN ALBANIAN LETTER IRB	
+U+1053D	𐔽		CAUCASIAN ALBANIAN LETTER SHA	
+U+1053E	𐔾		CAUCASIAN ALBANIAN LETTER LAN	
+U+1053F	𐔿		CAUCASIAN ALBANIAN LETTER INYA	
+U+10540	𐕀		CAUCASIAN ALBANIAN LETTER XEYN	
+U+10541	𐕁		CAUCASIAN ALBANIAN LETTER DYAN	
+U+10542	𐕂		CAUCASIAN ALBANIAN LETTER CAR	
+U+10543	𐕃		CAUCASIAN ALBANIAN LETTER JHOX	
+U+10544	𐕄		CAUCASIAN ALBANIAN LETTER KAR	
+U+10545	𐕅		CAUCASIAN ALBANIAN LETTER LYIT	
+U+10546	𐕆		CAUCASIAN ALBANIAN LETTER HEYT	
+U+10547	𐕇		CAUCASIAN ALBANIAN LETTER QAY	
+U+10548	𐕈		CAUCASIAN ALBANIAN LETTER AOR	
+U+10549	𐕉		CAUCASIAN ALBANIAN LETTER CHOY	
+U+1054A	𐕊		CAUCASIAN ALBANIAN LETTER CHI	
+U+1054B	𐕋		CAUCASIAN ALBANIAN LETTER CYAY	
+U+1054C	𐕌		CAUCASIAN ALBANIAN LETTER MAQ	
+U+1054D	𐕍		CAUCASIAN ALBANIAN LETTER QAR	
+U+1054E	𐕎		CAUCASIAN ALBANIAN LETTER NOWC	
+U+1054F	𐕏		CAUCASIAN ALBANIAN LETTER DZYAY	
+U+10550	𐕐		CAUCASIAN ALBANIAN LETTER SHAK	
+U+10551	𐕑		CAUCASIAN ALBANIAN LETTER JAYN	
+U+10552	𐕒		CAUCASIAN ALBANIAN LETTER ON	
+U+10553	𐕓		CAUCASIAN ALBANIAN LETTER TYAY	
+U+10554	𐕔		CAUCASIAN ALBANIAN LETTER FAM	
+U+10555	𐕕		CAUCASIAN ALBANIAN LETTER DZAY	
+U+10556	𐕖		CAUCASIAN ALBANIAN LETTER CHAT	
+U+10557	𐕗		CAUCASIAN ALBANIAN LETTER PEN	
+U+10558	𐕘		CAUCASIAN ALBANIAN LETTER GHEYS	
+U+10559	𐕙		CAUCASIAN ALBANIAN LETTER RAT	
+U+1055A	𐕚		CAUCASIAN ALBANIAN LETTER SEYK	
+U+1055B	𐕛		CAUCASIAN ALBANIAN LETTER VEYZ	
+U+1055C	𐕜		CAUCASIAN ALBANIAN LETTER TIWR	
+U+1055D	𐕝		CAUCASIAN ALBANIAN LETTER SHOY	
+U+1055E	𐕞		CAUCASIAN ALBANIAN LETTER IWN	
+U+1055F	𐕟		CAUCASIAN ALBANIAN LETTER CYAW	
+U+10560	𐕠		CAUCASIAN ALBANIAN LETTER CAYN	
+U+10561	𐕡		CAUCASIAN ALBANIAN LETTER YAYD	
+U+10562	𐕢		CAUCASIAN ALBANIAN LETTER PIWR	
+U+10563	𐕣		CAUCASIAN ALBANIAN LETTER KIW	
+U+1056F	𐕯		CAUCASIAN ALBANIAN CITATION MARK	

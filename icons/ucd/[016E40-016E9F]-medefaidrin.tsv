@@ -1,92 +1,92 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16E40	𖹀	16E40..16E9F	Medefaidrin	Medefaidrin capital letter m		
-U+16E41	𖹁	16E40..16E9F	Medefaidrin	Medefaidrin capital letter s		
-U+16E42	𖹂	16E40..16E9F	Medefaidrin	Medefaidrin capital letter v		
-U+16E43	𖹃	16E40..16E9F	Medefaidrin	Medefaidrin capital letter w		
-U+16E44	𖹄	16E40..16E9F	Medefaidrin	Medefaidrin capital letter atiu		
-U+16E45	𖹅	16E40..16E9F	Medefaidrin	Medefaidrin capital letter z		
-U+16E46	𖹆	16E40..16E9F	Medefaidrin	Medefaidrin capital letter kp		
-U+16E47	𖹇	16E40..16E9F	Medefaidrin	Medefaidrin capital letter p		
-U+16E48	𖹈	16E40..16E9F	Medefaidrin	Medefaidrin capital letter t		
-U+16E49	𖹉	16E40..16E9F	Medefaidrin	Medefaidrin capital letter g		
-U+16E4A	𖹊	16E40..16E9F	Medefaidrin	Medefaidrin capital letter f		
-U+16E4B	𖹋	16E40..16E9F	Medefaidrin	Medefaidrin capital letter i		
-U+16E4C	𖹌	16E40..16E9F	Medefaidrin	Medefaidrin capital letter k		
-U+16E4D	𖹍	16E40..16E9F	Medefaidrin	Medefaidrin capital letter a		
-U+16E4E	𖹎	16E40..16E9F	Medefaidrin	Medefaidrin capital letter j		
-U+16E4F	𖹏	16E40..16E9F	Medefaidrin	Medefaidrin capital letter e		
-U+16E50	𖹐	16E40..16E9F	Medefaidrin	Medefaidrin capital letter b		
-U+16E51	𖹑	16E40..16E9F	Medefaidrin	Medefaidrin capital letter c		
-U+16E52	𖹒	16E40..16E9F	Medefaidrin	Medefaidrin capital letter u		
-U+16E53	𖹓	16E40..16E9F	Medefaidrin	Medefaidrin capital letter yu		
-U+16E54	𖹔	16E40..16E9F	Medefaidrin	Medefaidrin capital letter l		
-U+16E55	𖹕	16E40..16E9F	Medefaidrin	Medefaidrin capital letter q		
-U+16E56	𖹖	16E40..16E9F	Medefaidrin	Medefaidrin capital letter hp		
-U+16E57	𖹗	16E40..16E9F	Medefaidrin	Medefaidrin capital letter ny		
-U+16E58	𖹘	16E40..16E9F	Medefaidrin	Medefaidrin capital letter x		
-U+16E59	𖹙	16E40..16E9F	Medefaidrin	Medefaidrin capital letter d		
-U+16E5A	𖹚	16E40..16E9F	Medefaidrin	Medefaidrin capital letter oe		
-U+16E5B	𖹛	16E40..16E9F	Medefaidrin	Medefaidrin capital letter n		
-U+16E5C	𖹜	16E40..16E9F	Medefaidrin	Medefaidrin capital letter r		
-U+16E5D	𖹝	16E40..16E9F	Medefaidrin	Medefaidrin capital letter o		
-U+16E5E	𖹞	16E40..16E9F	Medefaidrin	Medefaidrin capital letter ai		
-U+16E5F	𖹟	16E40..16E9F	Medefaidrin	Medefaidrin capital letter y		
-U+16E60	𖹠	16E40..16E9F	Medefaidrin	Medefaidrin small letter m		
-U+16E61	𖹡	16E40..16E9F	Medefaidrin	Medefaidrin small letter s		
-U+16E62	𖹢	16E40..16E9F	Medefaidrin	Medefaidrin small letter v		
-U+16E63	𖹣	16E40..16E9F	Medefaidrin	Medefaidrin small letter w		
-U+16E64	𖹤	16E40..16E9F	Medefaidrin	Medefaidrin small letter atiu		
-U+16E65	𖹥	16E40..16E9F	Medefaidrin	Medefaidrin small letter z		
-U+16E66	𖹦	16E40..16E9F	Medefaidrin	Medefaidrin small letter kp		
-U+16E67	𖹧	16E40..16E9F	Medefaidrin	Medefaidrin small letter p		
-U+16E68	𖹨	16E40..16E9F	Medefaidrin	Medefaidrin small letter t		
-U+16E69	𖹩	16E40..16E9F	Medefaidrin	Medefaidrin small letter g		
-U+16E6A	𖹪	16E40..16E9F	Medefaidrin	Medefaidrin small letter f		
-U+16E6B	𖹫	16E40..16E9F	Medefaidrin	Medefaidrin small letter i		
-U+16E6C	𖹬	16E40..16E9F	Medefaidrin	Medefaidrin small letter k		
-U+16E6D	𖹭	16E40..16E9F	Medefaidrin	Medefaidrin small letter a		
-U+16E6E	𖹮	16E40..16E9F	Medefaidrin	Medefaidrin small letter j		
-U+16E6F	𖹯	16E40..16E9F	Medefaidrin	Medefaidrin small letter e		
-U+16E70	𖹰	16E40..16E9F	Medefaidrin	Medefaidrin small letter b		
-U+16E71	𖹱	16E40..16E9F	Medefaidrin	Medefaidrin small letter c		
-U+16E72	𖹲	16E40..16E9F	Medefaidrin	Medefaidrin small letter u		
-U+16E73	𖹳	16E40..16E9F	Medefaidrin	Medefaidrin small letter yu		
-U+16E74	𖹴	16E40..16E9F	Medefaidrin	Medefaidrin small letter l		
-U+16E75	𖹵	16E40..16E9F	Medefaidrin	Medefaidrin small letter q		
-U+16E76	𖹶	16E40..16E9F	Medefaidrin	Medefaidrin small letter hp		
-U+16E77	𖹷	16E40..16E9F	Medefaidrin	Medefaidrin small letter ny		
-U+16E78	𖹸	16E40..16E9F	Medefaidrin	Medefaidrin small letter x		
-U+16E79	𖹹	16E40..16E9F	Medefaidrin	Medefaidrin small letter d		
-U+16E7A	𖹺	16E40..16E9F	Medefaidrin	Medefaidrin small letter oe		
-U+16E7B	𖹻	16E40..16E9F	Medefaidrin	Medefaidrin small letter n		
-U+16E7C	𖹼	16E40..16E9F	Medefaidrin	Medefaidrin small letter r		
-U+16E7D	𖹽	16E40..16E9F	Medefaidrin	Medefaidrin small letter o		
-U+16E7E	𖹾	16E40..16E9F	Medefaidrin	Medefaidrin small letter ai		
-U+16E7F	𖹿	16E40..16E9F	Medefaidrin	Medefaidrin small letter y		
-U+16E80	𖺀	16E40..16E9F	Medefaidrin	Medefaidrin digit zero		
-U+16E81	𖺁	16E40..16E9F	Medefaidrin	Medefaidrin digit one		
-U+16E82	𖺂	16E40..16E9F	Medefaidrin	Medefaidrin digit two		
-U+16E83	𖺃	16E40..16E9F	Medefaidrin	Medefaidrin digit three		
-U+16E84	𖺄	16E40..16E9F	Medefaidrin	Medefaidrin digit four		
-U+16E85	𖺅	16E40..16E9F	Medefaidrin	Medefaidrin digit five		
-U+16E86	𖺆	16E40..16E9F	Medefaidrin	Medefaidrin digit six		
-U+16E87	𖺇	16E40..16E9F	Medefaidrin	Medefaidrin digit seven		
-U+16E88	𖺈	16E40..16E9F	Medefaidrin	Medefaidrin digit eight		
-U+16E89	𖺉	16E40..16E9F	Medefaidrin	Medefaidrin digit nine		
-U+16E8A	𖺊	16E40..16E9F	Medefaidrin	Medefaidrin number ten		
-U+16E8B	𖺋	16E40..16E9F	Medefaidrin	Medefaidrin number eleven		
-U+16E8C	𖺌	16E40..16E9F	Medefaidrin	Medefaidrin number twelve		
-U+16E8D	𖺍	16E40..16E9F	Medefaidrin	Medefaidrin number thirteen		
-U+16E8E	𖺎	16E40..16E9F	Medefaidrin	Medefaidrin number fourteen		
-U+16E8F	𖺏	16E40..16E9F	Medefaidrin	Medefaidrin number fifteen		
-U+16E90	𖺐	16E40..16E9F	Medefaidrin	Medefaidrin number sixteen		
-U+16E91	𖺑	16E40..16E9F	Medefaidrin	Medefaidrin number seventeen		
-U+16E92	𖺒	16E40..16E9F	Medefaidrin	Medefaidrin number eighteen		
-U+16E93	𖺓	16E40..16E9F	Medefaidrin	Medefaidrin number nineteen		
-U+16E94	𖺔	16E40..16E9F	Medefaidrin	Medefaidrin digit one alternate form		
-U+16E95	𖺕	16E40..16E9F	Medefaidrin	Medefaidrin digit two alternate form		
-U+16E96	𖺖	16E40..16E9F	Medefaidrin	Medefaidrin digit three alternate form		
-U+16E97	𖺗	16E40..16E9F	Medefaidrin	Medefaidrin comma		
-U+16E98	𖺘	16E40..16E9F	Medefaidrin	Medefaidrin full stop		
-U+16E99	𖺙	16E40..16E9F	Medefaidrin	Medefaidrin symbol aiva		
-U+16E9A	𖺚	16E40..16E9F	Medefaidrin	Medefaidrin exclamation oh		
+code_points	chars	tab_completions	unicode_name	base
+U+16E40	𖹀		MEDEFAIDRIN CAPITAL LETTER M	
+U+16E41	𖹁		MEDEFAIDRIN CAPITAL LETTER S	
+U+16E42	𖹂		MEDEFAIDRIN CAPITAL LETTER V	
+U+16E43	𖹃		MEDEFAIDRIN CAPITAL LETTER W	
+U+16E44	𖹄		MEDEFAIDRIN CAPITAL LETTER ATIU	
+U+16E45	𖹅		MEDEFAIDRIN CAPITAL LETTER Z	
+U+16E46	𖹆		MEDEFAIDRIN CAPITAL LETTER KP	
+U+16E47	𖹇		MEDEFAIDRIN CAPITAL LETTER P	
+U+16E48	𖹈		MEDEFAIDRIN CAPITAL LETTER T	
+U+16E49	𖹉		MEDEFAIDRIN CAPITAL LETTER G	
+U+16E4A	𖹊		MEDEFAIDRIN CAPITAL LETTER F	
+U+16E4B	𖹋		MEDEFAIDRIN CAPITAL LETTER I	
+U+16E4C	𖹌		MEDEFAIDRIN CAPITAL LETTER K	
+U+16E4D	𖹍		MEDEFAIDRIN CAPITAL LETTER A	
+U+16E4E	𖹎		MEDEFAIDRIN CAPITAL LETTER J	
+U+16E4F	𖹏		MEDEFAIDRIN CAPITAL LETTER E	
+U+16E50	𖹐		MEDEFAIDRIN CAPITAL LETTER B	
+U+16E51	𖹑		MEDEFAIDRIN CAPITAL LETTER C	
+U+16E52	𖹒		MEDEFAIDRIN CAPITAL LETTER U	
+U+16E53	𖹓		MEDEFAIDRIN CAPITAL LETTER YU	
+U+16E54	𖹔		MEDEFAIDRIN CAPITAL LETTER L	
+U+16E55	𖹕		MEDEFAIDRIN CAPITAL LETTER Q	
+U+16E56	𖹖		MEDEFAIDRIN CAPITAL LETTER HP	
+U+16E57	𖹗		MEDEFAIDRIN CAPITAL LETTER NY	
+U+16E58	𖹘		MEDEFAIDRIN CAPITAL LETTER X	
+U+16E59	𖹙		MEDEFAIDRIN CAPITAL LETTER D	
+U+16E5A	𖹚		MEDEFAIDRIN CAPITAL LETTER OE	
+U+16E5B	𖹛		MEDEFAIDRIN CAPITAL LETTER N	
+U+16E5C	𖹜		MEDEFAIDRIN CAPITAL LETTER R	
+U+16E5D	𖹝		MEDEFAIDRIN CAPITAL LETTER O	
+U+16E5E	𖹞		MEDEFAIDRIN CAPITAL LETTER AI	
+U+16E5F	𖹟		MEDEFAIDRIN CAPITAL LETTER Y	
+U+16E60	𖹠		MEDEFAIDRIN SMALL LETTER M	
+U+16E61	𖹡		MEDEFAIDRIN SMALL LETTER S	
+U+16E62	𖹢		MEDEFAIDRIN SMALL LETTER V	
+U+16E63	𖹣		MEDEFAIDRIN SMALL LETTER W	
+U+16E64	𖹤		MEDEFAIDRIN SMALL LETTER ATIU	
+U+16E65	𖹥		MEDEFAIDRIN SMALL LETTER Z	
+U+16E66	𖹦		MEDEFAIDRIN SMALL LETTER KP	
+U+16E67	𖹧		MEDEFAIDRIN SMALL LETTER P	
+U+16E68	𖹨		MEDEFAIDRIN SMALL LETTER T	
+U+16E69	𖹩		MEDEFAIDRIN SMALL LETTER G	
+U+16E6A	𖹪		MEDEFAIDRIN SMALL LETTER F	
+U+16E6B	𖹫		MEDEFAIDRIN SMALL LETTER I	
+U+16E6C	𖹬		MEDEFAIDRIN SMALL LETTER K	
+U+16E6D	𖹭		MEDEFAIDRIN SMALL LETTER A	
+U+16E6E	𖹮		MEDEFAIDRIN SMALL LETTER J	
+U+16E6F	𖹯		MEDEFAIDRIN SMALL LETTER E	
+U+16E70	𖹰		MEDEFAIDRIN SMALL LETTER B	
+U+16E71	𖹱		MEDEFAIDRIN SMALL LETTER C	
+U+16E72	𖹲		MEDEFAIDRIN SMALL LETTER U	
+U+16E73	𖹳		MEDEFAIDRIN SMALL LETTER YU	
+U+16E74	𖹴		MEDEFAIDRIN SMALL LETTER L	
+U+16E75	𖹵		MEDEFAIDRIN SMALL LETTER Q	
+U+16E76	𖹶		MEDEFAIDRIN SMALL LETTER HP	
+U+16E77	𖹷		MEDEFAIDRIN SMALL LETTER NY	
+U+16E78	𖹸		MEDEFAIDRIN SMALL LETTER X	
+U+16E79	𖹹		MEDEFAIDRIN SMALL LETTER D	
+U+16E7A	𖹺		MEDEFAIDRIN SMALL LETTER OE	
+U+16E7B	𖹻		MEDEFAIDRIN SMALL LETTER N	
+U+16E7C	𖹼		MEDEFAIDRIN SMALL LETTER R	
+U+16E7D	𖹽		MEDEFAIDRIN SMALL LETTER O	
+U+16E7E	𖹾		MEDEFAIDRIN SMALL LETTER AI	
+U+16E7F	𖹿		MEDEFAIDRIN SMALL LETTER Y	
+U+16E80	𖺀		MEDEFAIDRIN DIGIT ZERO	
+U+16E81	𖺁		MEDEFAIDRIN DIGIT ONE	
+U+16E82	𖺂		MEDEFAIDRIN DIGIT TWO	
+U+16E83	𖺃		MEDEFAIDRIN DIGIT THREE	
+U+16E84	𖺄		MEDEFAIDRIN DIGIT FOUR	
+U+16E85	𖺅		MEDEFAIDRIN DIGIT FIVE	
+U+16E86	𖺆		MEDEFAIDRIN DIGIT SIX	
+U+16E87	𖺇		MEDEFAIDRIN DIGIT SEVEN	
+U+16E88	𖺈		MEDEFAIDRIN DIGIT EIGHT	
+U+16E89	𖺉		MEDEFAIDRIN DIGIT NINE	
+U+16E8A	𖺊		MEDEFAIDRIN NUMBER TEN	
+U+16E8B	𖺋		MEDEFAIDRIN NUMBER ELEVEN	
+U+16E8C	𖺌		MEDEFAIDRIN NUMBER TWELVE	
+U+16E8D	𖺍		MEDEFAIDRIN NUMBER THIRTEEN	
+U+16E8E	𖺎		MEDEFAIDRIN NUMBER FOURTEEN	
+U+16E8F	𖺏		MEDEFAIDRIN NUMBER FIFTEEN	
+U+16E90	𖺐		MEDEFAIDRIN NUMBER SIXTEEN	
+U+16E91	𖺑		MEDEFAIDRIN NUMBER SEVENTEEN	
+U+16E92	𖺒		MEDEFAIDRIN NUMBER EIGHTEEN	
+U+16E93	𖺓		MEDEFAIDRIN NUMBER NINETEEN	
+U+16E94	𖺔		MEDEFAIDRIN DIGIT ONE ALTERNATE FORM	
+U+16E95	𖺕		MEDEFAIDRIN DIGIT TWO ALTERNATE FORM	
+U+16E96	𖺖		MEDEFAIDRIN DIGIT THREE ALTERNATE FORM	
+U+16E97	𖺗		MEDEFAIDRIN COMMA	
+U+16E98	𖺘		MEDEFAIDRIN FULL STOP	
+U+16E99	𖺙		MEDEFAIDRIN SYMBOL AIVA	
+U+16E9A	𖺚		MEDEFAIDRIN EXCLAMATION OH	

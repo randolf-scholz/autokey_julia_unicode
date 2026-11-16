@@ -1,570 +1,570 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16800	𖠀	16800..16A3F	Bamum Supplement	Bamum letter phase-a ngkue mfon		
-U+16801	𖠁	16800..16A3F	Bamum Supplement	Bamum letter phase-a gbiee fon		
-U+16802	𖠂	16800..16A3F	Bamum Supplement	Bamum letter phase-a pon mfon pipaemgbiee		
-U+16803	𖠃	16800..16A3F	Bamum Supplement	Bamum letter phase-a pon mfon pipaemba		
-U+16804	𖠄	16800..16A3F	Bamum Supplement	Bamum letter phase-a naa mfon		
-U+16805	𖠅	16800..16A3F	Bamum Supplement	Bamum letter phase-a shuenshuet		
-U+16806	𖠆	16800..16A3F	Bamum Supplement	Bamum letter phase-a tita mfon		
-U+16807	𖠇	16800..16A3F	Bamum Supplement	Bamum letter phase-a nza mfon		
-U+16808	𖠈	16800..16A3F	Bamum Supplement	Bamum letter phase-a shinda pa nji		
-U+16809	𖠉	16800..16A3F	Bamum Supplement	Bamum letter phase-a pon pa nji pipaemgbiee		
-U+1680A	𖠊	16800..16A3F	Bamum Supplement	Bamum letter phase-a pon pa nji pipaemba		
-U+1680B	𖠋	16800..16A3F	Bamum Supplement	Bamum letter phase-a maembgbiee		
-U+1680C	𖠌	16800..16A3F	Bamum Supplement	Bamum letter phase-a tu maemba		
-U+1680D	𖠍	16800..16A3F	Bamum Supplement	Bamum letter phase-a ngangu		
-U+1680E	𖠎	16800..16A3F	Bamum Supplement	Bamum letter phase-a maemveux		
-U+1680F	𖠏	16800..16A3F	Bamum Supplement	Bamum letter phase-a mansuae		
-U+16810	𖠐	16800..16A3F	Bamum Supplement	Bamum letter phase-a mveuaengam		
-U+16811	𖠑	16800..16A3F	Bamum Supplement	Bamum letter phase-a seunyam		
-U+16812	𖠒	16800..16A3F	Bamum Supplement	Bamum letter phase-a ntoqpen		
-U+16813	𖠓	16800..16A3F	Bamum Supplement	Bamum letter phase-a keukeutnda		
-U+16814	𖠔	16800..16A3F	Bamum Supplement	Bamum letter phase-a nkindi		
-U+16815	𖠕	16800..16A3F	Bamum Supplement	Bamum letter phase-a suu		
-U+16816	𖠖	16800..16A3F	Bamum Supplement	Bamum letter phase-a ngkuenzeum		
-U+16817	𖠗	16800..16A3F	Bamum Supplement	Bamum letter phase-a lapaq		
-U+16818	𖠘	16800..16A3F	Bamum Supplement	Bamum letter phase-a let kut		
-U+16819	𖠙	16800..16A3F	Bamum Supplement	Bamum letter phase-a ntap mfaa		
-U+1681A	𖠚	16800..16A3F	Bamum Supplement	Bamum letter phase-a maekeup		
-U+1681B	𖠛	16800..16A3F	Bamum Supplement	Bamum letter phase-a pashae		
-U+1681C	𖠜	16800..16A3F	Bamum Supplement	Bamum letter phase-a gheuaerae		
-U+1681D	𖠝	16800..16A3F	Bamum Supplement	Bamum letter phase-a pamshae		
-U+1681E	𖠞	16800..16A3F	Bamum Supplement	Bamum letter phase-a mon nggeuaet		
-U+1681F	𖠟	16800..16A3F	Bamum Supplement	Bamum letter phase-a nzun meut		
-U+16820	𖠠	16800..16A3F	Bamum Supplement	Bamum letter phase-a u yuq nae		
-U+16821	𖠡	16800..16A3F	Bamum Supplement	Bamum letter phase-a gheuaegheuae		
-U+16822	𖠢	16800..16A3F	Bamum Supplement	Bamum letter phase-a ntap ntaa		
-U+16823	𖠣	16800..16A3F	Bamum Supplement	Bamum letter phase-a sisa		
-U+16824	𖠤	16800..16A3F	Bamum Supplement	Bamum letter phase-a mgbasa		
-U+16825	𖠥	16800..16A3F	Bamum Supplement	Bamum letter phase-a meunjomndeuq		
-U+16826	𖠦	16800..16A3F	Bamum Supplement	Bamum letter phase-a moompuq		
-U+16827	𖠧	16800..16A3F	Bamum Supplement	Bamum letter phase-a kafa		
-U+16828	𖠨	16800..16A3F	Bamum Supplement	Bamum letter phase-a pa leeraewa		
-U+16829	𖠩	16800..16A3F	Bamum Supplement	Bamum letter phase-a nda leeraewa		
-U+1682A	𖠪	16800..16A3F	Bamum Supplement	Bamum letter phase-a pet		
-U+1682B	𖠫	16800..16A3F	Bamum Supplement	Bamum letter phase-a maemkpen		
-U+1682C	𖠬	16800..16A3F	Bamum Supplement	Bamum letter phase-a nika		
-U+1682D	𖠭	16800..16A3F	Bamum Supplement	Bamum letter phase-a pup		
-U+1682E	𖠮	16800..16A3F	Bamum Supplement	Bamum letter phase-a tuaep		
-U+1682F	𖠯	16800..16A3F	Bamum Supplement	Bamum letter phase-a luaep		
-U+16830	𖠰	16800..16A3F	Bamum Supplement	Bamum letter phase-a sonjam		
-U+16831	𖠱	16800..16A3F	Bamum Supplement	Bamum letter phase-a teuteuwen		
-U+16832	𖠲	16800..16A3F	Bamum Supplement	Bamum letter phase-a maenyi		
-U+16833	𖠳	16800..16A3F	Bamum Supplement	Bamum letter phase-a ket		
-U+16834	𖠴	16800..16A3F	Bamum Supplement	Bamum letter phase-a ndaanggeuaet		
-U+16835	𖠵	16800..16A3F	Bamum Supplement	Bamum letter phase-a kuoq		
-U+16836	𖠶	16800..16A3F	Bamum Supplement	Bamum letter phase-a moomeut		
-U+16837	𖠷	16800..16A3F	Bamum Supplement	Bamum letter phase-a shum		
-U+16838	𖠸	16800..16A3F	Bamum Supplement	Bamum letter phase-a lommae		
-U+16839	𖠹	16800..16A3F	Bamum Supplement	Bamum letter phase-a firi		
-U+1683A	𖠺	16800..16A3F	Bamum Supplement	Bamum letter phase-a rom		
-U+1683B	𖠻	16800..16A3F	Bamum Supplement	Bamum letter phase-a kpoq		
-U+1683C	𖠼	16800..16A3F	Bamum Supplement	Bamum letter phase-a soq		
-U+1683D	𖠽	16800..16A3F	Bamum Supplement	Bamum letter phase-a map pieet		
-U+1683E	𖠾	16800..16A3F	Bamum Supplement	Bamum letter phase-a shirae		
-U+1683F	𖠿	16800..16A3F	Bamum Supplement	Bamum letter phase-a ntap		
-U+16840	𖡀	16800..16A3F	Bamum Supplement	Bamum letter phase-a shoq nshut yum		
-U+16841	𖡁	16800..16A3F	Bamum Supplement	Bamum letter phase-a nyit mongkeuaeq		
-U+16842	𖡂	16800..16A3F	Bamum Supplement	Bamum letter phase-a paarae		
-U+16843	𖡃	16800..16A3F	Bamum Supplement	Bamum letter phase-a nkaarae		
-U+16844	𖡄	16800..16A3F	Bamum Supplement	Bamum letter phase-a unknown		
-U+16845	𖡅	16800..16A3F	Bamum Supplement	Bamum letter phase-a nggen		
-U+16846	𖡆	16800..16A3F	Bamum Supplement	Bamum letter phase-a maesi		
-U+16847	𖡇	16800..16A3F	Bamum Supplement	Bamum letter phase-a njam		
-U+16848	𖡈	16800..16A3F	Bamum Supplement	Bamum letter phase-a mbanyi		
-U+16849	𖡉	16800..16A3F	Bamum Supplement	Bamum letter phase-a nyet		
-U+1684A	𖡊	16800..16A3F	Bamum Supplement	Bamum letter phase-a teuaen		
-U+1684B	𖡋	16800..16A3F	Bamum Supplement	Bamum letter phase-a sot		
-U+1684C	𖡌	16800..16A3F	Bamum Supplement	Bamum letter phase-a paam		
-U+1684D	𖡍	16800..16A3F	Bamum Supplement	Bamum letter phase-a nshiee		
-U+1684E	𖡎	16800..16A3F	Bamum Supplement	Bamum letter phase-a maem		
-U+1684F	𖡏	16800..16A3F	Bamum Supplement	Bamum letter phase-a nyi		
-U+16850	𖡐	16800..16A3F	Bamum Supplement	Bamum letter phase-a kaq		
-U+16851	𖡑	16800..16A3F	Bamum Supplement	Bamum letter phase-a nsha		
-U+16852	𖡒	16800..16A3F	Bamum Supplement	Bamum letter phase-a vee		
-U+16853	𖡓	16800..16A3F	Bamum Supplement	Bamum letter phase-a lu		
-U+16854	𖡔	16800..16A3F	Bamum Supplement	Bamum letter phase-a nen		
-U+16855	𖡕	16800..16A3F	Bamum Supplement	Bamum letter phase-a naq		
-U+16856	𖡖	16800..16A3F	Bamum Supplement	Bamum letter phase-a mbaq		
-U+16857	𖡗	16800..16A3F	Bamum Supplement	Bamum letter phase-b nshuet		
-U+16858	𖡘	16800..16A3F	Bamum Supplement	Bamum letter phase-b tu maemgbiee		
-U+16859	𖡙	16800..16A3F	Bamum Supplement	Bamum letter phase-b siee		
-U+1685A	𖡚	16800..16A3F	Bamum Supplement	Bamum letter phase-b set tu		
-U+1685B	𖡛	16800..16A3F	Bamum Supplement	Bamum letter phase-b lom nteum		
-U+1685C	𖡜	16800..16A3F	Bamum Supplement	Bamum letter phase-b mba maelee		
-U+1685D	𖡝	16800..16A3F	Bamum Supplement	Bamum letter phase-b kieem		
-U+1685E	𖡞	16800..16A3F	Bamum Supplement	Bamum letter phase-b yeurae		
-U+1685F	𖡟	16800..16A3F	Bamum Supplement	Bamum letter phase-b mbaarae		
-U+16860	𖡠	16800..16A3F	Bamum Supplement	Bamum letter phase-b kam		
-U+16861	𖡡	16800..16A3F	Bamum Supplement	Bamum letter phase-b peeshi		
-U+16862	𖡢	16800..16A3F	Bamum Supplement	Bamum letter phase-b yafu leeraewa		
-U+16863	𖡣	16800..16A3F	Bamum Supplement	Bamum letter phase-b lam nshut nyam		
-U+16864	𖡤	16800..16A3F	Bamum Supplement	Bamum letter phase-b ntiee sheuoq		
-U+16865	𖡥	16800..16A3F	Bamum Supplement	Bamum letter phase-b ndu njaa		
-U+16866	𖡦	16800..16A3F	Bamum Supplement	Bamum letter phase-b gheugheuaem		
-U+16867	𖡧	16800..16A3F	Bamum Supplement	Bamum letter phase-b pit		
-U+16868	𖡨	16800..16A3F	Bamum Supplement	Bamum letter phase-b tu nsiee		
-U+16869	𖡩	16800..16A3F	Bamum Supplement	Bamum letter phase-b shet njaq		
-U+1686A	𖡪	16800..16A3F	Bamum Supplement	Bamum letter phase-b sheuaeqtu		
-U+1686B	𖡫	16800..16A3F	Bamum Supplement	Bamum letter phase-b mfon teuaeq		
-U+1686C	𖡬	16800..16A3F	Bamum Supplement	Bamum letter phase-b mbit mbaaket		
-U+1686D	𖡭	16800..16A3F	Bamum Supplement	Bamum letter phase-b nyi nteum		
-U+1686E	𖡮	16800..16A3F	Bamum Supplement	Bamum letter phase-b keupuq		
-U+1686F	𖡯	16800..16A3F	Bamum Supplement	Bamum letter phase-b gheughen		
-U+16870	𖡰	16800..16A3F	Bamum Supplement	Bamum letter phase-b keuyeux		
-U+16871	𖡱	16800..16A3F	Bamum Supplement	Bamum letter phase-b laanae		
-U+16872	𖡲	16800..16A3F	Bamum Supplement	Bamum letter phase-b parum		
-U+16873	𖡳	16800..16A3F	Bamum Supplement	Bamum letter phase-b veum		
-U+16874	𖡴	16800..16A3F	Bamum Supplement	Bamum letter phase-b ngkindi mvop		
-U+16875	𖡵	16800..16A3F	Bamum Supplement	Bamum letter phase-b nggeu mbu		
-U+16876	𖡶	16800..16A3F	Bamum Supplement	Bamum letter phase-b wuaet		
-U+16877	𖡷	16800..16A3F	Bamum Supplement	Bamum letter phase-b sakeuae		
-U+16878	𖡸	16800..16A3F	Bamum Supplement	Bamum letter phase-b taam		
-U+16879	𖡹	16800..16A3F	Bamum Supplement	Bamum letter phase-b meuq		
-U+1687A	𖡺	16800..16A3F	Bamum Supplement	Bamum letter phase-b ngguoq		
-U+1687B	𖡻	16800..16A3F	Bamum Supplement	Bamum letter phase-b ngguoq large		
-U+1687C	𖡼	16800..16A3F	Bamum Supplement	Bamum letter phase-b mfiyaq		
-U+1687D	𖡽	16800..16A3F	Bamum Supplement	Bamum letter phase-b sue		
-U+1687E	𖡾	16800..16A3F	Bamum Supplement	Bamum letter phase-b mbeuri		
-U+1687F	𖡿	16800..16A3F	Bamum Supplement	Bamum letter phase-b montieen		
-U+16880	𖢀	16800..16A3F	Bamum Supplement	Bamum letter phase-b nyaemae		
-U+16881	𖢁	16800..16A3F	Bamum Supplement	Bamum letter phase-b pungaam		
-U+16882	𖢂	16800..16A3F	Bamum Supplement	Bamum letter phase-b meut nggeet		
-U+16883	𖢃	16800..16A3F	Bamum Supplement	Bamum letter phase-b feux		
-U+16884	𖢄	16800..16A3F	Bamum Supplement	Bamum letter phase-b mbuoq		
-U+16885	𖢅	16800..16A3F	Bamum Supplement	Bamum letter phase-b fee		
-U+16886	𖢆	16800..16A3F	Bamum Supplement	Bamum letter phase-b keuaem		
-U+16887	𖢇	16800..16A3F	Bamum Supplement	Bamum letter phase-b ma njeuaena		
-U+16888	𖢈	16800..16A3F	Bamum Supplement	Bamum letter phase-b ma njuqa		
-U+16889	𖢉	16800..16A3F	Bamum Supplement	Bamum letter phase-b let		
-U+1688A	𖢊	16800..16A3F	Bamum Supplement	Bamum letter phase-b nggaam		
-U+1688B	𖢋	16800..16A3F	Bamum Supplement	Bamum letter phase-b nsen		
-U+1688C	𖢌	16800..16A3F	Bamum Supplement	Bamum letter phase-b ma		
-U+1688D	𖢍	16800..16A3F	Bamum Supplement	Bamum letter phase-b kiq		
-U+1688E	𖢎	16800..16A3F	Bamum Supplement	Bamum letter phase-b ngom		
-U+1688F	𖢏	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngkue maemba		
-U+16890	𖢐	16800..16A3F	Bamum Supplement	Bamum letter phase-c nza		
-U+16891	𖢑	16800..16A3F	Bamum Supplement	Bamum letter phase-c yum		
-U+16892	𖢒	16800..16A3F	Bamum Supplement	Bamum letter phase-c wangkuoq		
-U+16893	𖢓	16800..16A3F	Bamum Supplement	Bamum letter phase-c nggen		
-U+16894	𖢔	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndeuaeree		
-U+16895	𖢕	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngkaq		
-U+16896	𖢖	16800..16A3F	Bamum Supplement	Bamum letter phase-c gharae		
-U+16897	𖢗	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbeekeet		
-U+16898	𖢘	16800..16A3F	Bamum Supplement	Bamum letter phase-c gbayi		
-U+16899	𖢙	16800..16A3F	Bamum Supplement	Bamum letter phase-c nyir mkparaq meun		
-U+1689A	𖢚	16800..16A3F	Bamum Supplement	Bamum letter phase-c ntu mbit		
-U+1689B	𖢛	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbeum		
-U+1689C	𖢜	16800..16A3F	Bamum Supplement	Bamum letter phase-c pirieen		
-U+1689D	𖢝	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndombu		
-U+1689E	𖢞	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbaa cabbage-tree		
-U+1689F	𖢟	16800..16A3F	Bamum Supplement	Bamum letter phase-c keusheuaep		
-U+168A0	𖢠	16800..16A3F	Bamum Supplement	Bamum letter phase-c ghap		
-U+168A1	𖢡	16800..16A3F	Bamum Supplement	Bamum letter phase-c keukaq		
-U+168A2	𖢢	16800..16A3F	Bamum Supplement	Bamum letter phase-c yu muomae		
-U+168A3	𖢣	16800..16A3F	Bamum Supplement	Bamum letter phase-c nzeum		
-U+168A4	𖢤	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbue		
-U+168A5	𖢥	16800..16A3F	Bamum Supplement	Bamum letter phase-c nseuaen		
-U+168A6	𖢦	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbit		
-U+168A7	𖢧	16800..16A3F	Bamum Supplement	Bamum letter phase-c yeuq		
-U+168A8	𖢨	16800..16A3F	Bamum Supplement	Bamum letter phase-c kparaq		
-U+168A9	𖢩	16800..16A3F	Bamum Supplement	Bamum letter phase-c kaa		
-U+168AA	𖢪	16800..16A3F	Bamum Supplement	Bamum letter phase-c seux		
-U+168AB	𖢫	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndida		
-U+168AC	𖢬	16800..16A3F	Bamum Supplement	Bamum letter phase-c taashae		
-U+168AD	𖢭	16800..16A3F	Bamum Supplement	Bamum letter phase-c njueq		
-U+168AE	𖢮	16800..16A3F	Bamum Supplement	Bamum letter phase-c tita yue		
-U+168AF	𖢯	16800..16A3F	Bamum Supplement	Bamum letter phase-c suaet		
-U+168B0	𖢰	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngguaen nyam		
-U+168B1	𖢱	16800..16A3F	Bamum Supplement	Bamum letter phase-c veux		
-U+168B2	𖢲	16800..16A3F	Bamum Supplement	Bamum letter phase-c nansanaq		
-U+168B3	𖢳	16800..16A3F	Bamum Supplement	Bamum letter phase-c ma keuaeri		
-U+168B4	𖢴	16800..16A3F	Bamum Supplement	Bamum letter phase-c ntaa		
-U+168B5	𖢵	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngguon		
-U+168B6	𖢶	16800..16A3F	Bamum Supplement	Bamum letter phase-c lap		
-U+168B7	𖢷	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbirieen		
-U+168B8	𖢸	16800..16A3F	Bamum Supplement	Bamum letter phase-c mgbasaq		
-U+168B9	𖢹	16800..16A3F	Bamum Supplement	Bamum letter phase-c nteungba		
-U+168BA	𖢺	16800..16A3F	Bamum Supplement	Bamum letter phase-c teuteux		
-U+168BB	𖢻	16800..16A3F	Bamum Supplement	Bamum letter phase-c nggum		
-U+168BC	𖢼	16800..16A3F	Bamum Supplement	Bamum letter phase-c fue		
-U+168BD	𖢽	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndeut		
-U+168BE	𖢾	16800..16A3F	Bamum Supplement	Bamum letter phase-c nsa		
-U+168BF	𖢿	16800..16A3F	Bamum Supplement	Bamum letter phase-c nshaq		
-U+168C0	𖣀	16800..16A3F	Bamum Supplement	Bamum letter phase-c bung		
-U+168C1	𖣁	16800..16A3F	Bamum Supplement	Bamum letter phase-c veuaepen		
-U+168C2	𖣂	16800..16A3F	Bamum Supplement	Bamum letter phase-c mberae		
-U+168C3	𖣃	16800..16A3F	Bamum Supplement	Bamum letter phase-c ru		
-U+168C4	𖣄	16800..16A3F	Bamum Supplement	Bamum letter phase-c njaem		
-U+168C5	𖣅	16800..16A3F	Bamum Supplement	Bamum letter phase-c lam		
-U+168C6	𖣆	16800..16A3F	Bamum Supplement	Bamum letter phase-c tituaep		
-U+168C7	𖣇	16800..16A3F	Bamum Supplement	Bamum letter phase-c nsuot ngom		
-U+168C8	𖣈	16800..16A3F	Bamum Supplement	Bamum letter phase-c njeeee		
-U+168C9	𖣉	16800..16A3F	Bamum Supplement	Bamum letter phase-c ket		
-U+168CA	𖣊	16800..16A3F	Bamum Supplement	Bamum letter phase-c nggu		
-U+168CB	𖣋	16800..16A3F	Bamum Supplement	Bamum letter phase-c maesi		
-U+168CC	𖣌	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbuaem		
-U+168CD	𖣍	16800..16A3F	Bamum Supplement	Bamum letter phase-c lu		
-U+168CE	𖣎	16800..16A3F	Bamum Supplement	Bamum letter phase-c kut		
-U+168CF	𖣏	16800..16A3F	Bamum Supplement	Bamum letter phase-c njam		
-U+168D0	𖣐	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngom		
-U+168D1	𖣑	16800..16A3F	Bamum Supplement	Bamum letter phase-c wup		
-U+168D2	𖣒	16800..16A3F	Bamum Supplement	Bamum letter phase-c nggueet		
-U+168D3	𖣓	16800..16A3F	Bamum Supplement	Bamum letter phase-c nsom		
-U+168D4	𖣔	16800..16A3F	Bamum Supplement	Bamum letter phase-c nten		
-U+168D5	𖣕	16800..16A3F	Bamum Supplement	Bamum letter phase-c kuop nkaarae		
-U+168D6	𖣖	16800..16A3F	Bamum Supplement	Bamum letter phase-c nsun		
-U+168D7	𖣗	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndam		
-U+168D8	𖣘	16800..16A3F	Bamum Supplement	Bamum letter phase-c ma nsiee		
-U+168D9	𖣙	16800..16A3F	Bamum Supplement	Bamum letter phase-c yaa		
-U+168DA	𖣚	16800..16A3F	Bamum Supplement	Bamum letter phase-c ndap		
-U+168DB	𖣛	16800..16A3F	Bamum Supplement	Bamum letter phase-c shueq		
-U+168DC	𖣜	16800..16A3F	Bamum Supplement	Bamum letter phase-c setfon		
-U+168DD	𖣝	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbi		
-U+168DE	𖣞	16800..16A3F	Bamum Supplement	Bamum letter phase-c maemba		
-U+168DF	𖣟	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbanyi		
-U+168E0	𖣠	16800..16A3F	Bamum Supplement	Bamum letter phase-c keuseux		
-U+168E1	𖣡	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbeux		
-U+168E2	𖣢	16800..16A3F	Bamum Supplement	Bamum letter phase-c keum		
-U+168E3	𖣣	16800..16A3F	Bamum Supplement	Bamum letter phase-c mbaa picket		
-U+168E4	𖣤	16800..16A3F	Bamum Supplement	Bamum letter phase-c yuwoq		
-U+168E5	𖣥	16800..16A3F	Bamum Supplement	Bamum letter phase-c njeux		
-U+168E6	𖣦	16800..16A3F	Bamum Supplement	Bamum letter phase-c miee		
-U+168E7	𖣧	16800..16A3F	Bamum Supplement	Bamum letter phase-c muae		
-U+168E8	𖣨	16800..16A3F	Bamum Supplement	Bamum letter phase-c shiq		
-U+168E9	𖣩	16800..16A3F	Bamum Supplement	Bamum letter phase-c ken law		
-U+168EA	𖣪	16800..16A3F	Bamum Supplement	Bamum letter phase-c ken fatigue		
-U+168EB	𖣫	16800..16A3F	Bamum Supplement	Bamum letter phase-c ngaq		
-U+168EC	𖣬	16800..16A3F	Bamum Supplement	Bamum letter phase-c naq		
-U+168ED	𖣭	16800..16A3F	Bamum Supplement	Bamum letter phase-c liq		
-U+168EE	𖣮	16800..16A3F	Bamum Supplement	Bamum letter phase-c pin		
-U+168EF	𖣯	16800..16A3F	Bamum Supplement	Bamum letter phase-c pen		
-U+168F0	𖣰	16800..16A3F	Bamum Supplement	Bamum letter phase-c tet		
-U+168F1	𖣱	16800..16A3F	Bamum Supplement	Bamum letter phase-d mbuo		
-U+168F2	𖣲	16800..16A3F	Bamum Supplement	Bamum letter phase-d wap		
-U+168F3	𖣳	16800..16A3F	Bamum Supplement	Bamum letter phase-d nji		
-U+168F4	𖣴	16800..16A3F	Bamum Supplement	Bamum letter phase-d mfon		
-U+168F5	𖣵	16800..16A3F	Bamum Supplement	Bamum letter phase-d njiee		
-U+168F6	𖣶	16800..16A3F	Bamum Supplement	Bamum letter phase-d liee		
-U+168F7	𖣷	16800..16A3F	Bamum Supplement	Bamum letter phase-d njeut		
-U+168F8	𖣸	16800..16A3F	Bamum Supplement	Bamum letter phase-d nshee		
-U+168F9	𖣹	16800..16A3F	Bamum Supplement	Bamum letter phase-d nggaamae		
-U+168FA	𖣺	16800..16A3F	Bamum Supplement	Bamum letter phase-d nyam		
-U+168FB	𖣻	16800..16A3F	Bamum Supplement	Bamum letter phase-d wuaen		
-U+168FC	𖣼	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkun		
-U+168FD	𖣽	16800..16A3F	Bamum Supplement	Bamum letter phase-d shee		
-U+168FE	𖣾	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkap		
-U+168FF	𖣿	16800..16A3F	Bamum Supplement	Bamum letter phase-d keuaetmeun		
-U+16900	𖤀	16800..16A3F	Bamum Supplement	Bamum letter phase-d teut		
-U+16901	𖤁	16800..16A3F	Bamum Supplement	Bamum letter phase-d sheuae		
-U+16902	𖤂	16800..16A3F	Bamum Supplement	Bamum letter phase-d njap		
-U+16903	𖤃	16800..16A3F	Bamum Supplement	Bamum letter phase-d sue		
-U+16904	𖤄	16800..16A3F	Bamum Supplement	Bamum letter phase-d ket		
-U+16905	𖤅	16800..16A3F	Bamum Supplement	Bamum letter phase-d yaemmae		
-U+16906	𖤆	16800..16A3F	Bamum Supplement	Bamum letter phase-d kuom		
-U+16907	𖤇	16800..16A3F	Bamum Supplement	Bamum letter phase-d sap		
-U+16908	𖤈	16800..16A3F	Bamum Supplement	Bamum letter phase-d mfeut		
-U+16909	𖤉	16800..16A3F	Bamum Supplement	Bamum letter phase-d ndeux		
-U+1690A	𖤊	16800..16A3F	Bamum Supplement	Bamum letter phase-d maleeri		
-U+1690B	𖤋	16800..16A3F	Bamum Supplement	Bamum letter phase-d meut		
-U+1690C	𖤌	16800..16A3F	Bamum Supplement	Bamum letter phase-d seuaeq		
-U+1690D	𖤍	16800..16A3F	Bamum Supplement	Bamum letter phase-d yen		
-U+1690E	𖤎	16800..16A3F	Bamum Supplement	Bamum letter phase-d njeuaem		
-U+1690F	𖤏	16800..16A3F	Bamum Supplement	Bamum letter phase-d keuot mbuae		
-U+16910	𖤐	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkeuri		
-U+16911	𖤑	16800..16A3F	Bamum Supplement	Bamum letter phase-d tu		
-U+16912	𖤒	16800..16A3F	Bamum Supplement	Bamum letter phase-d ghaa		
-U+16913	𖤓	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkyee		
-U+16914	𖤔	16800..16A3F	Bamum Supplement	Bamum letter phase-d feufeuaet		
-U+16915	𖤕	16800..16A3F	Bamum Supplement	Bamum letter phase-d ndee		
-U+16916	𖤖	16800..16A3F	Bamum Supplement	Bamum letter phase-d mgbofum		
-U+16917	𖤗	16800..16A3F	Bamum Supplement	Bamum letter phase-d leuaep		
-U+16918	𖤘	16800..16A3F	Bamum Supplement	Bamum letter phase-d ndon		
-U+16919	𖤙	16800..16A3F	Bamum Supplement	Bamum letter phase-d moni		
-U+1691A	𖤚	16800..16A3F	Bamum Supplement	Bamum letter phase-d mgbeun		
-U+1691B	𖤛	16800..16A3F	Bamum Supplement	Bamum letter phase-d puut		
-U+1691C	𖤜	16800..16A3F	Bamum Supplement	Bamum letter phase-d mgbiee		
-U+1691D	𖤝	16800..16A3F	Bamum Supplement	Bamum letter phase-d mfo		
-U+1691E	𖤞	16800..16A3F	Bamum Supplement	Bamum letter phase-d lum		
-U+1691F	𖤟	16800..16A3F	Bamum Supplement	Bamum letter phase-d nsieep		
-U+16920	𖤠	16800..16A3F	Bamum Supplement	Bamum letter phase-d mbaa		
-U+16921	𖤡	16800..16A3F	Bamum Supplement	Bamum letter phase-d kwaet		
-U+16922	𖤢	16800..16A3F	Bamum Supplement	Bamum letter phase-d nyet		
-U+16923	𖤣	16800..16A3F	Bamum Supplement	Bamum letter phase-d teuaen		
-U+16924	𖤤	16800..16A3F	Bamum Supplement	Bamum letter phase-d sot		
-U+16925	𖤥	16800..16A3F	Bamum Supplement	Bamum letter phase-d yuwoq		
-U+16926	𖤦	16800..16A3F	Bamum Supplement	Bamum letter phase-d keum		
-U+16927	𖤧	16800..16A3F	Bamum Supplement	Bamum letter phase-d raem		
-U+16928	𖤨	16800..16A3F	Bamum Supplement	Bamum letter phase-d teeee		
-U+16929	𖤩	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkeuaeq		
-U+1692A	𖤪	16800..16A3F	Bamum Supplement	Bamum letter phase-d mfeuae		
-U+1692B	𖤫	16800..16A3F	Bamum Supplement	Bamum letter phase-d nsieet		
-U+1692C	𖤬	16800..16A3F	Bamum Supplement	Bamum letter phase-d keup		
-U+1692D	𖤭	16800..16A3F	Bamum Supplement	Bamum letter phase-d pip		
-U+1692E	𖤮	16800..16A3F	Bamum Supplement	Bamum letter phase-d peutae		
-U+1692F	𖤯	16800..16A3F	Bamum Supplement	Bamum letter phase-d nyue		
-U+16930	𖤰	16800..16A3F	Bamum Supplement	Bamum letter phase-d let		
-U+16931	𖤱	16800..16A3F	Bamum Supplement	Bamum letter phase-d nggaam		
-U+16932	𖤲	16800..16A3F	Bamum Supplement	Bamum letter phase-d mfiee		
-U+16933	𖤳	16800..16A3F	Bamum Supplement	Bamum letter phase-d nggwaen		
-U+16934	𖤴	16800..16A3F	Bamum Supplement	Bamum letter phase-d yuom		
-U+16935	𖤵	16800..16A3F	Bamum Supplement	Bamum letter phase-d pap		
-U+16936	𖤶	16800..16A3F	Bamum Supplement	Bamum letter phase-d yuop		
-U+16937	𖤷	16800..16A3F	Bamum Supplement	Bamum letter phase-d ndam		
-U+16938	𖤸	16800..16A3F	Bamum Supplement	Bamum letter phase-d nteum		
-U+16939	𖤹	16800..16A3F	Bamum Supplement	Bamum letter phase-d suae		
-U+1693A	𖤺	16800..16A3F	Bamum Supplement	Bamum letter phase-d kun		
-U+1693B	𖤻	16800..16A3F	Bamum Supplement	Bamum letter phase-d nggeux		
-U+1693C	𖤼	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngkiee		
-U+1693D	𖤽	16800..16A3F	Bamum Supplement	Bamum letter phase-d tuot		
-U+1693E	𖤾	16800..16A3F	Bamum Supplement	Bamum letter phase-d meun		
-U+1693F	𖤿	16800..16A3F	Bamum Supplement	Bamum letter phase-d kuq		
-U+16940	𖥀	16800..16A3F	Bamum Supplement	Bamum letter phase-d nsum		
-U+16941	𖥁	16800..16A3F	Bamum Supplement	Bamum letter phase-d teun		
-U+16942	𖥂	16800..16A3F	Bamum Supplement	Bamum letter phase-d maenjet		
-U+16943	𖥃	16800..16A3F	Bamum Supplement	Bamum letter phase-d nggap		
-U+16944	𖥄	16800..16A3F	Bamum Supplement	Bamum letter phase-d leum		
-U+16945	𖥅	16800..16A3F	Bamum Supplement	Bamum letter phase-d ngguom		
-U+16946	𖥆	16800..16A3F	Bamum Supplement	Bamum letter phase-d nshut		
-U+16947	𖥇	16800..16A3F	Bamum Supplement	Bamum letter phase-d njueq		
-U+16948	𖥈	16800..16A3F	Bamum Supplement	Bamum letter phase-d gheuae		
-U+16949	𖥉	16800..16A3F	Bamum Supplement	Bamum letter phase-d ku		
-U+1694A	𖥊	16800..16A3F	Bamum Supplement	Bamum letter phase-d ren old		
-U+1694B	𖥋	16800..16A3F	Bamum Supplement	Bamum letter phase-d tae		
-U+1694C	𖥌	16800..16A3F	Bamum Supplement	Bamum letter phase-d toq		
-U+1694D	𖥍	16800..16A3F	Bamum Supplement	Bamum letter phase-d nyi		
-U+1694E	𖥎	16800..16A3F	Bamum Supplement	Bamum letter phase-d rii		
-U+1694F	𖥏	16800..16A3F	Bamum Supplement	Bamum letter phase-d leeee		
-U+16950	𖥐	16800..16A3F	Bamum Supplement	Bamum letter phase-d meeee		
-U+16951	𖥑	16800..16A3F	Bamum Supplement	Bamum letter phase-d m		
-U+16952	𖥒	16800..16A3F	Bamum Supplement	Bamum letter phase-d suu		
-U+16953	𖥓	16800..16A3F	Bamum Supplement	Bamum letter phase-d mu		
-U+16954	𖥔	16800..16A3F	Bamum Supplement	Bamum letter phase-d shii		
-U+16955	𖥕	16800..16A3F	Bamum Supplement	Bamum letter phase-d sheux		
-U+16956	𖥖	16800..16A3F	Bamum Supplement	Bamum letter phase-d kyee		
-U+16957	𖥗	16800..16A3F	Bamum Supplement	Bamum letter phase-d nu		
-U+16958	𖥘	16800..16A3F	Bamum Supplement	Bamum letter phase-d shu		
-U+16959	𖥙	16800..16A3F	Bamum Supplement	Bamum letter phase-d ntee		
-U+1695A	𖥚	16800..16A3F	Bamum Supplement	Bamum letter phase-d pee		
-U+1695B	𖥛	16800..16A3F	Bamum Supplement	Bamum letter phase-d ni		
-U+1695C	𖥜	16800..16A3F	Bamum Supplement	Bamum letter phase-d shoq		
-U+1695D	𖥝	16800..16A3F	Bamum Supplement	Bamum letter phase-d puq		
-U+1695E	𖥞	16800..16A3F	Bamum Supplement	Bamum letter phase-d mvop		
-U+1695F	𖥟	16800..16A3F	Bamum Supplement	Bamum letter phase-d loq		
-U+16960	𖥠	16800..16A3F	Bamum Supplement	Bamum letter phase-d ren much		
-U+16961	𖥡	16800..16A3F	Bamum Supplement	Bamum letter phase-d ti		
-U+16962	𖥢	16800..16A3F	Bamum Supplement	Bamum letter phase-d ntuu		
-U+16963	𖥣	16800..16A3F	Bamum Supplement	Bamum letter phase-d mbaa seven		
-U+16964	𖥤	16800..16A3F	Bamum Supplement	Bamum letter phase-d saq		
-U+16965	𖥥	16800..16A3F	Bamum Supplement	Bamum letter phase-d faa		
-U+16966	𖥦	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndap		
-U+16967	𖥧	16800..16A3F	Bamum Supplement	Bamum letter phase-e toon		
-U+16968	𖥨	16800..16A3F	Bamum Supplement	Bamum letter phase-e mbeum		
-U+16969	𖥩	16800..16A3F	Bamum Supplement	Bamum letter phase-e lap		
-U+1696A	𖥪	16800..16A3F	Bamum Supplement	Bamum letter phase-e vom		
-U+1696B	𖥫	16800..16A3F	Bamum Supplement	Bamum letter phase-e loon		
-U+1696C	𖥬	16800..16A3F	Bamum Supplement	Bamum letter phase-e paa		
-U+1696D	𖥭	16800..16A3F	Bamum Supplement	Bamum letter phase-e som		
-U+1696E	𖥮	16800..16A3F	Bamum Supplement	Bamum letter phase-e raq		
-U+1696F	𖥯	16800..16A3F	Bamum Supplement	Bamum letter phase-e nshuop		
-U+16970	𖥰	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndun		
-U+16971	𖥱	16800..16A3F	Bamum Supplement	Bamum letter phase-e puae		
-U+16972	𖥲	16800..16A3F	Bamum Supplement	Bamum letter phase-e tam		
-U+16973	𖥳	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngka		
-U+16974	𖥴	16800..16A3F	Bamum Supplement	Bamum letter phase-e kpeux		
-U+16975	𖥵	16800..16A3F	Bamum Supplement	Bamum letter phase-e wuo		
-U+16976	𖥶	16800..16A3F	Bamum Supplement	Bamum letter phase-e see		
-U+16977	𖥷	16800..16A3F	Bamum Supplement	Bamum letter phase-e nggeuaet		
-U+16978	𖥸	16800..16A3F	Bamum Supplement	Bamum letter phase-e paam		
-U+16979	𖥹	16800..16A3F	Bamum Supplement	Bamum letter phase-e too		
-U+1697A	𖥺	16800..16A3F	Bamum Supplement	Bamum letter phase-e kuop		
-U+1697B	𖥻	16800..16A3F	Bamum Supplement	Bamum letter phase-e lom		
-U+1697C	𖥼	16800..16A3F	Bamum Supplement	Bamum letter phase-e nshiee		
-U+1697D	𖥽	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngop		
-U+1697E	𖥾	16800..16A3F	Bamum Supplement	Bamum letter phase-e maem		
-U+1697F	𖥿	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngkeux		
-U+16980	𖦀	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngoq		
-U+16981	𖦁	16800..16A3F	Bamum Supplement	Bamum letter phase-e nshue		
-U+16982	𖦂	16800..16A3F	Bamum Supplement	Bamum letter phase-e rimgba		
-U+16983	𖦃	16800..16A3F	Bamum Supplement	Bamum letter phase-e njeux		
-U+16984	𖦄	16800..16A3F	Bamum Supplement	Bamum letter phase-e peem		
-U+16985	𖦅	16800..16A3F	Bamum Supplement	Bamum letter phase-e saa		
-U+16986	𖦆	16800..16A3F	Bamum Supplement	Bamum letter phase-e nggurae		
-U+16987	𖦇	16800..16A3F	Bamum Supplement	Bamum letter phase-e mgba		
-U+16988	𖦈	16800..16A3F	Bamum Supplement	Bamum letter phase-e gheux		
-U+16989	𖦉	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngkeuaem		
-U+1698A	𖦊	16800..16A3F	Bamum Supplement	Bamum letter phase-e njaemli		
-U+1698B	𖦋	16800..16A3F	Bamum Supplement	Bamum letter phase-e map		
-U+1698C	𖦌	16800..16A3F	Bamum Supplement	Bamum letter phase-e loot		
-U+1698D	𖦍	16800..16A3F	Bamum Supplement	Bamum letter phase-e nggeeee		
-U+1698E	𖦎	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndiq		
-U+1698F	𖦏	16800..16A3F	Bamum Supplement	Bamum letter phase-e taen nteum		
-U+16990	𖦐	16800..16A3F	Bamum Supplement	Bamum letter phase-e set		
-U+16991	𖦑	16800..16A3F	Bamum Supplement	Bamum letter phase-e pum		
-U+16992	𖦒	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndaa softness		
-U+16993	𖦓	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngguaeshae nyam		
-U+16994	𖦔	16800..16A3F	Bamum Supplement	Bamum letter phase-e yiee		
-U+16995	𖦕	16800..16A3F	Bamum Supplement	Bamum letter phase-e gheun		
-U+16996	𖦖	16800..16A3F	Bamum Supplement	Bamum letter phase-e tuae		
-U+16997	𖦗	16800..16A3F	Bamum Supplement	Bamum letter phase-e yeuae		
-U+16998	𖦘	16800..16A3F	Bamum Supplement	Bamum letter phase-e po		
-U+16999	𖦙	16800..16A3F	Bamum Supplement	Bamum letter phase-e tumae		
-U+1699A	𖦚	16800..16A3F	Bamum Supplement	Bamum letter phase-e keuae		
-U+1699B	𖦛	16800..16A3F	Bamum Supplement	Bamum letter phase-e suaen		
-U+1699C	𖦜	16800..16A3F	Bamum Supplement	Bamum letter phase-e teuaeq		
-U+1699D	𖦝	16800..16A3F	Bamum Supplement	Bamum letter phase-e veuae		
-U+1699E	𖦞	16800..16A3F	Bamum Supplement	Bamum letter phase-e weux		
-U+1699F	𖦟	16800..16A3F	Bamum Supplement	Bamum letter phase-e laam		
-U+169A0	𖦠	16800..16A3F	Bamum Supplement	Bamum letter phase-e pu		
-U+169A1	𖦡	16800..16A3F	Bamum Supplement	Bamum letter phase-e taaq		
-U+169A2	𖦢	16800..16A3F	Bamum Supplement	Bamum letter phase-e ghaamae		
-U+169A3	𖦣	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngeureut		
-U+169A4	𖦤	16800..16A3F	Bamum Supplement	Bamum letter phase-e sheuaeq		
-U+169A5	𖦥	16800..16A3F	Bamum Supplement	Bamum letter phase-e mgben		
-U+169A6	𖦦	16800..16A3F	Bamum Supplement	Bamum letter phase-e mbee		
-U+169A7	𖦧	16800..16A3F	Bamum Supplement	Bamum letter phase-e nzaq		
-U+169A8	𖦨	16800..16A3F	Bamum Supplement	Bamum letter phase-e nkom		
-U+169A9	𖦩	16800..16A3F	Bamum Supplement	Bamum letter phase-e gbet		
-U+169AA	𖦪	16800..16A3F	Bamum Supplement	Bamum letter phase-e tum		
-U+169AB	𖦫	16800..16A3F	Bamum Supplement	Bamum letter phase-e kuet		
-U+169AC	𖦬	16800..16A3F	Bamum Supplement	Bamum letter phase-e yap		
-U+169AD	𖦭	16800..16A3F	Bamum Supplement	Bamum letter phase-e nyi cleaver		
-U+169AE	𖦮	16800..16A3F	Bamum Supplement	Bamum letter phase-e yit		
-U+169AF	𖦯	16800..16A3F	Bamum Supplement	Bamum letter phase-e mfeuq		
-U+169B0	𖦰	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndiaq		
-U+169B1	𖦱	16800..16A3F	Bamum Supplement	Bamum letter phase-e pieeq		
-U+169B2	𖦲	16800..16A3F	Bamum Supplement	Bamum letter phase-e yueq		
-U+169B3	𖦳	16800..16A3F	Bamum Supplement	Bamum letter phase-e leuaem		
-U+169B4	𖦴	16800..16A3F	Bamum Supplement	Bamum letter phase-e fue		
-U+169B5	𖦵	16800..16A3F	Bamum Supplement	Bamum letter phase-e gbeux		
-U+169B6	𖦶	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngkup		
-U+169B7	𖦷	16800..16A3F	Bamum Supplement	Bamum letter phase-e ket		
-U+169B8	𖦸	16800..16A3F	Bamum Supplement	Bamum letter phase-e mae		
-U+169B9	𖦹	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngkaami		
-U+169BA	𖦺	16800..16A3F	Bamum Supplement	Bamum letter phase-e ghet		
-U+169BB	𖦻	16800..16A3F	Bamum Supplement	Bamum letter phase-e fa		
-U+169BC	𖦼	16800..16A3F	Bamum Supplement	Bamum letter phase-e ntum		
-U+169BD	𖦽	16800..16A3F	Bamum Supplement	Bamum letter phase-e peut		
-U+169BE	𖦾	16800..16A3F	Bamum Supplement	Bamum letter phase-e yeum		
-U+169BF	𖦿	16800..16A3F	Bamum Supplement	Bamum letter phase-e nggeuae		
-U+169C0	𖧀	16800..16A3F	Bamum Supplement	Bamum letter phase-e nyi between		
-U+169C1	𖧁	16800..16A3F	Bamum Supplement	Bamum letter phase-e nzuq		
-U+169C2	𖧂	16800..16A3F	Bamum Supplement	Bamum letter phase-e poon		
-U+169C3	𖧃	16800..16A3F	Bamum Supplement	Bamum letter phase-e miee		
-U+169C4	𖧄	16800..16A3F	Bamum Supplement	Bamum letter phase-e fuet		
-U+169C5	𖧅	16800..16A3F	Bamum Supplement	Bamum letter phase-e nae		
-U+169C6	𖧆	16800..16A3F	Bamum Supplement	Bamum letter phase-e muae		
-U+169C7	𖧇	16800..16A3F	Bamum Supplement	Bamum letter phase-e gheuae		
-U+169C8	𖧈	16800..16A3F	Bamum Supplement	Bamum letter phase-e fu i		
-U+169C9	𖧉	16800..16A3F	Bamum Supplement	Bamum letter phase-e mvi		
-U+169CA	𖧊	16800..16A3F	Bamum Supplement	Bamum letter phase-e puaq		
-U+169CB	𖧋	16800..16A3F	Bamum Supplement	Bamum letter phase-e ngkum		
-U+169CC	𖧌	16800..16A3F	Bamum Supplement	Bamum letter phase-e kut		
-U+169CD	𖧍	16800..16A3F	Bamum Supplement	Bamum letter phase-e piet		
-U+169CE	𖧎	16800..16A3F	Bamum Supplement	Bamum letter phase-e ntap		
-U+169CF	𖧏	16800..16A3F	Bamum Supplement	Bamum letter phase-e yeuaet		
-U+169D0	𖧐	16800..16A3F	Bamum Supplement	Bamum letter phase-e nggup		
-U+169D1	𖧑	16800..16A3F	Bamum Supplement	Bamum letter phase-e pa people		
-U+169D2	𖧒	16800..16A3F	Bamum Supplement	Bamum letter phase-e fu call		
-U+169D3	𖧓	16800..16A3F	Bamum Supplement	Bamum letter phase-e fom		
-U+169D4	𖧔	16800..16A3F	Bamum Supplement	Bamum letter phase-e njee		
-U+169D5	𖧕	16800..16A3F	Bamum Supplement	Bamum letter phase-e a		
-U+169D6	𖧖	16800..16A3F	Bamum Supplement	Bamum letter phase-e toq		
-U+169D7	𖧗	16800..16A3F	Bamum Supplement	Bamum letter phase-e o		
-U+169D8	𖧘	16800..16A3F	Bamum Supplement	Bamum letter phase-e i		
-U+169D9	𖧙	16800..16A3F	Bamum Supplement	Bamum letter phase-e laq		
-U+169DA	𖧚	16800..16A3F	Bamum Supplement	Bamum letter phase-e pa plural		
-U+169DB	𖧛	16800..16A3F	Bamum Supplement	Bamum letter phase-e taa		
-U+169DC	𖧜	16800..16A3F	Bamum Supplement	Bamum letter phase-e taq		
-U+169DD	𖧝	16800..16A3F	Bamum Supplement	Bamum letter phase-e ndaa my house		
-U+169DE	𖧞	16800..16A3F	Bamum Supplement	Bamum letter phase-e shiq		
-U+169DF	𖧟	16800..16A3F	Bamum Supplement	Bamum letter phase-e yeux		
-U+169E0	𖧠	16800..16A3F	Bamum Supplement	Bamum letter phase-e nguae		
-U+169E1	𖧡	16800..16A3F	Bamum Supplement	Bamum letter phase-e yuaen		
-U+169E2	𖧢	16800..16A3F	Bamum Supplement	Bamum letter phase-e yoq swimming		
-U+169E3	𖧣	16800..16A3F	Bamum Supplement	Bamum letter phase-e yoq cover		
-U+169E4	𖧤	16800..16A3F	Bamum Supplement	Bamum letter phase-e yuq		
-U+169E5	𖧥	16800..16A3F	Bamum Supplement	Bamum letter phase-e yun		
-U+169E6	𖧦	16800..16A3F	Bamum Supplement	Bamum letter phase-e keux		
-U+169E7	𖧧	16800..16A3F	Bamum Supplement	Bamum letter phase-e peux		
-U+169E8	𖧨	16800..16A3F	Bamum Supplement	Bamum letter phase-e njee epoch		
-U+169E9	𖧩	16800..16A3F	Bamum Supplement	Bamum letter phase-e pue		
-U+169EA	𖧪	16800..16A3F	Bamum Supplement	Bamum letter phase-e wue		
-U+169EB	𖧫	16800..16A3F	Bamum Supplement	Bamum letter phase-e fee		
-U+169EC	𖧬	16800..16A3F	Bamum Supplement	Bamum letter phase-e vee		
-U+169ED	𖧭	16800..16A3F	Bamum Supplement	Bamum letter phase-e lu		
-U+169EE	𖧮	16800..16A3F	Bamum Supplement	Bamum letter phase-e mi		
-U+169EF	𖧯	16800..16A3F	Bamum Supplement	Bamum letter phase-e reux		
-U+169F0	𖧰	16800..16A3F	Bamum Supplement	Bamum letter phase-e rae		
-U+169F1	𖧱	16800..16A3F	Bamum Supplement	Bamum letter phase-e nguaet		
-U+169F2	𖧲	16800..16A3F	Bamum Supplement	Bamum letter phase-e nga		
-U+169F3	𖧳	16800..16A3F	Bamum Supplement	Bamum letter phase-e sho		
-U+169F4	𖧴	16800..16A3F	Bamum Supplement	Bamum letter phase-e shoq		
-U+169F5	𖧵	16800..16A3F	Bamum Supplement	Bamum letter phase-e fu remedy		
-U+169F6	𖧶	16800..16A3F	Bamum Supplement	Bamum letter phase-e na		
-U+169F7	𖧷	16800..16A3F	Bamum Supplement	Bamum letter phase-e pi		
-U+169F8	𖧸	16800..16A3F	Bamum Supplement	Bamum letter phase-e loq		
-U+169F9	𖧹	16800..16A3F	Bamum Supplement	Bamum letter phase-e ko		
-U+169FA	𖧺	16800..16A3F	Bamum Supplement	Bamum letter phase-e men		
-U+169FB	𖧻	16800..16A3F	Bamum Supplement	Bamum letter phase-e ma		
-U+169FC	𖧼	16800..16A3F	Bamum Supplement	Bamum letter phase-e maq		
-U+169FD	𖧽	16800..16A3F	Bamum Supplement	Bamum letter phase-e teu		
-U+169FE	𖧾	16800..16A3F	Bamum Supplement	Bamum letter phase-e ki		
-U+169FF	𖧿	16800..16A3F	Bamum Supplement	Bamum letter phase-e mon		
-U+16A00	𖨀	16800..16A3F	Bamum Supplement	Bamum letter phase-e ten		
-U+16A01	𖨁	16800..16A3F	Bamum Supplement	Bamum letter phase-e faq		
-U+16A02	𖨂	16800..16A3F	Bamum Supplement	Bamum letter phase-e ghom		
-U+16A03	𖨃	16800..16A3F	Bamum Supplement	Bamum letter phase-f ka		
-U+16A04	𖨄	16800..16A3F	Bamum Supplement	Bamum letter phase-f u		
-U+16A05	𖨅	16800..16A3F	Bamum Supplement	Bamum letter phase-f ku		
-U+16A06	𖨆	16800..16A3F	Bamum Supplement	Bamum letter phase-f ee		
-U+16A07	𖨇	16800..16A3F	Bamum Supplement	Bamum letter phase-f ree		
-U+16A08	𖨈	16800..16A3F	Bamum Supplement	Bamum letter phase-f tae		
-U+16A09	𖨉	16800..16A3F	Bamum Supplement	Bamum letter phase-f nyi		
-U+16A0A	𖨊	16800..16A3F	Bamum Supplement	Bamum letter phase-f la		
-U+16A0B	𖨋	16800..16A3F	Bamum Supplement	Bamum letter phase-f rii		
-U+16A0C	𖨌	16800..16A3F	Bamum Supplement	Bamum letter phase-f riee		
-U+16A0D	𖨍	16800..16A3F	Bamum Supplement	Bamum letter phase-f meeee		
-U+16A0E	𖨎	16800..16A3F	Bamum Supplement	Bamum letter phase-f taa		
-U+16A0F	𖨏	16800..16A3F	Bamum Supplement	Bamum letter phase-f ndaa		
-U+16A10	𖨐	16800..16A3F	Bamum Supplement	Bamum letter phase-f njaem		
-U+16A11	𖨑	16800..16A3F	Bamum Supplement	Bamum letter phase-f m		
-U+16A12	𖨒	16800..16A3F	Bamum Supplement	Bamum letter phase-f suu		
-U+16A13	𖨓	16800..16A3F	Bamum Supplement	Bamum letter phase-f shii		
-U+16A14	𖨔	16800..16A3F	Bamum Supplement	Bamum letter phase-f si		
-U+16A15	𖨕	16800..16A3F	Bamum Supplement	Bamum letter phase-f seux		
-U+16A16	𖨖	16800..16A3F	Bamum Supplement	Bamum letter phase-f kyee		
-U+16A17	𖨗	16800..16A3F	Bamum Supplement	Bamum letter phase-f ket		
-U+16A18	𖨘	16800..16A3F	Bamum Supplement	Bamum letter phase-f nuae		
-U+16A19	𖨙	16800..16A3F	Bamum Supplement	Bamum letter phase-f nu		
-U+16A1A	𖨚	16800..16A3F	Bamum Supplement	Bamum letter phase-f njuae		
-U+16A1B	𖨛	16800..16A3F	Bamum Supplement	Bamum letter phase-f yoq		
-U+16A1C	𖨜	16800..16A3F	Bamum Supplement	Bamum letter phase-f shu		
-U+16A1D	𖨝	16800..16A3F	Bamum Supplement	Bamum letter phase-f ya		
-U+16A1E	𖨞	16800..16A3F	Bamum Supplement	Bamum letter phase-f nsha		
-U+16A1F	𖨟	16800..16A3F	Bamum Supplement	Bamum letter phase-f peux		
-U+16A20	𖨠	16800..16A3F	Bamum Supplement	Bamum letter phase-f ntee		
-U+16A21	𖨡	16800..16A3F	Bamum Supplement	Bamum letter phase-f wue		
-U+16A22	𖨢	16800..16A3F	Bamum Supplement	Bamum letter phase-f pee		
-U+16A23	𖨣	16800..16A3F	Bamum Supplement	Bamum letter phase-f ru		
-U+16A24	𖨤	16800..16A3F	Bamum Supplement	Bamum letter phase-f ni		
-U+16A25	𖨥	16800..16A3F	Bamum Supplement	Bamum letter phase-f reux		
-U+16A26	𖨦	16800..16A3F	Bamum Supplement	Bamum letter phase-f ken		
-U+16A27	𖨧	16800..16A3F	Bamum Supplement	Bamum letter phase-f ngkwaen		
-U+16A28	𖨨	16800..16A3F	Bamum Supplement	Bamum letter phase-f ngga		
-U+16A29	𖨩	16800..16A3F	Bamum Supplement	Bamum letter phase-f sho		
-U+16A2A	𖨪	16800..16A3F	Bamum Supplement	Bamum letter phase-f puae		
-U+16A2B	𖨫	16800..16A3F	Bamum Supplement	Bamum letter phase-f fom		
-U+16A2C	𖨬	16800..16A3F	Bamum Supplement	Bamum letter phase-f wa		
-U+16A2D	𖨭	16800..16A3F	Bamum Supplement	Bamum letter phase-f li		
-U+16A2E	𖨮	16800..16A3F	Bamum Supplement	Bamum letter phase-f loq		
-U+16A2F	𖨯	16800..16A3F	Bamum Supplement	Bamum letter phase-f ko		
-U+16A30	𖨰	16800..16A3F	Bamum Supplement	Bamum letter phase-f mben		
-U+16A31	𖨱	16800..16A3F	Bamum Supplement	Bamum letter phase-f ren		
-U+16A32	𖨲	16800..16A3F	Bamum Supplement	Bamum letter phase-f ma		
-U+16A33	𖨳	16800..16A3F	Bamum Supplement	Bamum letter phase-f mo		
-U+16A34	𖨴	16800..16A3F	Bamum Supplement	Bamum letter phase-f mbaa		
-U+16A35	𖨵	16800..16A3F	Bamum Supplement	Bamum letter phase-f tet		
-U+16A36	𖨶	16800..16A3F	Bamum Supplement	Bamum letter phase-f kpa		
-U+16A37	𖨷	16800..16A3F	Bamum Supplement	Bamum letter phase-f samba		
-U+16A38	𖨸	16800..16A3F	Bamum Supplement	Bamum letter phase-f vueq		
+code_points	chars	tab_completions	unicode_name	base
+U+16800	𖠀		BAMUM LETTER PHASE-A NGKUE MFON	
+U+16801	𖠁		BAMUM LETTER PHASE-A GBIEE FON	
+U+16802	𖠂		BAMUM LETTER PHASE-A PON MFON PIPAEMGBIEE	
+U+16803	𖠃		BAMUM LETTER PHASE-A PON MFON PIPAEMBA	
+U+16804	𖠄		BAMUM LETTER PHASE-A NAA MFON	
+U+16805	𖠅		BAMUM LETTER PHASE-A SHUENSHUET	
+U+16806	𖠆		BAMUM LETTER PHASE-A TITA MFON	
+U+16807	𖠇		BAMUM LETTER PHASE-A NZA MFON	
+U+16808	𖠈		BAMUM LETTER PHASE-A SHINDA PA NJI	
+U+16809	𖠉		BAMUM LETTER PHASE-A PON PA NJI PIPAEMGBIEE	
+U+1680A	𖠊		BAMUM LETTER PHASE-A PON PA NJI PIPAEMBA	
+U+1680B	𖠋		BAMUM LETTER PHASE-A MAEMBGBIEE	
+U+1680C	𖠌		BAMUM LETTER PHASE-A TU MAEMBA	
+U+1680D	𖠍		BAMUM LETTER PHASE-A NGANGU	
+U+1680E	𖠎		BAMUM LETTER PHASE-A MAEMVEUX	
+U+1680F	𖠏		BAMUM LETTER PHASE-A MANSUAE	
+U+16810	𖠐		BAMUM LETTER PHASE-A MVEUAENGAM	
+U+16811	𖠑		BAMUM LETTER PHASE-A SEUNYAM	
+U+16812	𖠒		BAMUM LETTER PHASE-A NTOQPEN	
+U+16813	𖠓		BAMUM LETTER PHASE-A KEUKEUTNDA	
+U+16814	𖠔		BAMUM LETTER PHASE-A NKINDI	
+U+16815	𖠕		BAMUM LETTER PHASE-A SUU	
+U+16816	𖠖		BAMUM LETTER PHASE-A NGKUENZEUM	
+U+16817	𖠗		BAMUM LETTER PHASE-A LAPAQ	
+U+16818	𖠘		BAMUM LETTER PHASE-A LET KUT	
+U+16819	𖠙		BAMUM LETTER PHASE-A NTAP MFAA	
+U+1681A	𖠚		BAMUM LETTER PHASE-A MAEKEUP	
+U+1681B	𖠛		BAMUM LETTER PHASE-A PASHAE	
+U+1681C	𖠜		BAMUM LETTER PHASE-A GHEUAERAE	
+U+1681D	𖠝		BAMUM LETTER PHASE-A PAMSHAE	
+U+1681E	𖠞		BAMUM LETTER PHASE-A MON NGGEUAET	
+U+1681F	𖠟		BAMUM LETTER PHASE-A NZUN MEUT	
+U+16820	𖠠		BAMUM LETTER PHASE-A U YUQ NAE	
+U+16821	𖠡		BAMUM LETTER PHASE-A GHEUAEGHEUAE	
+U+16822	𖠢		BAMUM LETTER PHASE-A NTAP NTAA	
+U+16823	𖠣		BAMUM LETTER PHASE-A SISA	
+U+16824	𖠤		BAMUM LETTER PHASE-A MGBASA	
+U+16825	𖠥		BAMUM LETTER PHASE-A MEUNJOMNDEUQ	
+U+16826	𖠦		BAMUM LETTER PHASE-A MOOMPUQ	
+U+16827	𖠧		BAMUM LETTER PHASE-A KAFA	
+U+16828	𖠨		BAMUM LETTER PHASE-A PA LEERAEWA	
+U+16829	𖠩		BAMUM LETTER PHASE-A NDA LEERAEWA	
+U+1682A	𖠪		BAMUM LETTER PHASE-A PET	
+U+1682B	𖠫		BAMUM LETTER PHASE-A MAEMKPEN	
+U+1682C	𖠬		BAMUM LETTER PHASE-A NIKA	
+U+1682D	𖠭		BAMUM LETTER PHASE-A PUP	
+U+1682E	𖠮		BAMUM LETTER PHASE-A TUAEP	
+U+1682F	𖠯		BAMUM LETTER PHASE-A LUAEP	
+U+16830	𖠰		BAMUM LETTER PHASE-A SONJAM	
+U+16831	𖠱		BAMUM LETTER PHASE-A TEUTEUWEN	
+U+16832	𖠲		BAMUM LETTER PHASE-A MAENYI	
+U+16833	𖠳		BAMUM LETTER PHASE-A KET	
+U+16834	𖠴		BAMUM LETTER PHASE-A NDAANGGEUAET	
+U+16835	𖠵		BAMUM LETTER PHASE-A KUOQ	
+U+16836	𖠶		BAMUM LETTER PHASE-A MOOMEUT	
+U+16837	𖠷		BAMUM LETTER PHASE-A SHUM	
+U+16838	𖠸		BAMUM LETTER PHASE-A LOMMAE	
+U+16839	𖠹		BAMUM LETTER PHASE-A FIRI	
+U+1683A	𖠺		BAMUM LETTER PHASE-A ROM	
+U+1683B	𖠻		BAMUM LETTER PHASE-A KPOQ	
+U+1683C	𖠼		BAMUM LETTER PHASE-A SOQ	
+U+1683D	𖠽		BAMUM LETTER PHASE-A MAP PIEET	
+U+1683E	𖠾		BAMUM LETTER PHASE-A SHIRAE	
+U+1683F	𖠿		BAMUM LETTER PHASE-A NTAP	
+U+16840	𖡀		BAMUM LETTER PHASE-A SHOQ NSHUT YUM	
+U+16841	𖡁		BAMUM LETTER PHASE-A NYIT MONGKEUAEQ	
+U+16842	𖡂		BAMUM LETTER PHASE-A PAARAE	
+U+16843	𖡃		BAMUM LETTER PHASE-A NKAARAE	
+U+16844	𖡄		BAMUM LETTER PHASE-A UNKNOWN	
+U+16845	𖡅		BAMUM LETTER PHASE-A NGGEN	
+U+16846	𖡆		BAMUM LETTER PHASE-A MAESI	
+U+16847	𖡇		BAMUM LETTER PHASE-A NJAM	
+U+16848	𖡈		BAMUM LETTER PHASE-A MBANYI	
+U+16849	𖡉		BAMUM LETTER PHASE-A NYET	
+U+1684A	𖡊		BAMUM LETTER PHASE-A TEUAEN	
+U+1684B	𖡋		BAMUM LETTER PHASE-A SOT	
+U+1684C	𖡌		BAMUM LETTER PHASE-A PAAM	
+U+1684D	𖡍		BAMUM LETTER PHASE-A NSHIEE	
+U+1684E	𖡎		BAMUM LETTER PHASE-A MAEM	
+U+1684F	𖡏		BAMUM LETTER PHASE-A NYI	
+U+16850	𖡐		BAMUM LETTER PHASE-A KAQ	
+U+16851	𖡑		BAMUM LETTER PHASE-A NSHA	
+U+16852	𖡒		BAMUM LETTER PHASE-A VEE	
+U+16853	𖡓		BAMUM LETTER PHASE-A LU	
+U+16854	𖡔		BAMUM LETTER PHASE-A NEN	
+U+16855	𖡕		BAMUM LETTER PHASE-A NAQ	
+U+16856	𖡖		BAMUM LETTER PHASE-A MBAQ	
+U+16857	𖡗		BAMUM LETTER PHASE-B NSHUET	
+U+16858	𖡘		BAMUM LETTER PHASE-B TU MAEMGBIEE	
+U+16859	𖡙		BAMUM LETTER PHASE-B SIEE	
+U+1685A	𖡚		BAMUM LETTER PHASE-B SET TU	
+U+1685B	𖡛		BAMUM LETTER PHASE-B LOM NTEUM	
+U+1685C	𖡜		BAMUM LETTER PHASE-B MBA MAELEE	
+U+1685D	𖡝		BAMUM LETTER PHASE-B KIEEM	
+U+1685E	𖡞		BAMUM LETTER PHASE-B YEURAE	
+U+1685F	𖡟		BAMUM LETTER PHASE-B MBAARAE	
+U+16860	𖡠		BAMUM LETTER PHASE-B KAM	
+U+16861	𖡡		BAMUM LETTER PHASE-B PEESHI	
+U+16862	𖡢		BAMUM LETTER PHASE-B YAFU LEERAEWA	
+U+16863	𖡣		BAMUM LETTER PHASE-B LAM NSHUT NYAM	
+U+16864	𖡤		BAMUM LETTER PHASE-B NTIEE SHEUOQ	
+U+16865	𖡥		BAMUM LETTER PHASE-B NDU NJAA	
+U+16866	𖡦		BAMUM LETTER PHASE-B GHEUGHEUAEM	
+U+16867	𖡧		BAMUM LETTER PHASE-B PIT	
+U+16868	𖡨		BAMUM LETTER PHASE-B TU NSIEE	
+U+16869	𖡩		BAMUM LETTER PHASE-B SHET NJAQ	
+U+1686A	𖡪		BAMUM LETTER PHASE-B SHEUAEQTU	
+U+1686B	𖡫		BAMUM LETTER PHASE-B MFON TEUAEQ	
+U+1686C	𖡬		BAMUM LETTER PHASE-B MBIT MBAAKET	
+U+1686D	𖡭		BAMUM LETTER PHASE-B NYI NTEUM	
+U+1686E	𖡮		BAMUM LETTER PHASE-B KEUPUQ	
+U+1686F	𖡯		BAMUM LETTER PHASE-B GHEUGHEN	
+U+16870	𖡰		BAMUM LETTER PHASE-B KEUYEUX	
+U+16871	𖡱		BAMUM LETTER PHASE-B LAANAE	
+U+16872	𖡲		BAMUM LETTER PHASE-B PARUM	
+U+16873	𖡳		BAMUM LETTER PHASE-B VEUM	
+U+16874	𖡴		BAMUM LETTER PHASE-B NGKINDI MVOP	
+U+16875	𖡵		BAMUM LETTER PHASE-B NGGEU MBU	
+U+16876	𖡶		BAMUM LETTER PHASE-B WUAET	
+U+16877	𖡷		BAMUM LETTER PHASE-B SAKEUAE	
+U+16878	𖡸		BAMUM LETTER PHASE-B TAAM	
+U+16879	𖡹		BAMUM LETTER PHASE-B MEUQ	
+U+1687A	𖡺		BAMUM LETTER PHASE-B NGGUOQ	
+U+1687B	𖡻		BAMUM LETTER PHASE-B NGGUOQ LARGE	
+U+1687C	𖡼		BAMUM LETTER PHASE-B MFIYAQ	
+U+1687D	𖡽		BAMUM LETTER PHASE-B SUE	
+U+1687E	𖡾		BAMUM LETTER PHASE-B MBEURI	
+U+1687F	𖡿		BAMUM LETTER PHASE-B MONTIEEN	
+U+16880	𖢀		BAMUM LETTER PHASE-B NYAEMAE	
+U+16881	𖢁		BAMUM LETTER PHASE-B PUNGAAM	
+U+16882	𖢂		BAMUM LETTER PHASE-B MEUT NGGEET	
+U+16883	𖢃		BAMUM LETTER PHASE-B FEUX	
+U+16884	𖢄		BAMUM LETTER PHASE-B MBUOQ	
+U+16885	𖢅		BAMUM LETTER PHASE-B FEE	
+U+16886	𖢆		BAMUM LETTER PHASE-B KEUAEM	
+U+16887	𖢇		BAMUM LETTER PHASE-B MA NJEUAENA	
+U+16888	𖢈		BAMUM LETTER PHASE-B MA NJUQA	
+U+16889	𖢉		BAMUM LETTER PHASE-B LET	
+U+1688A	𖢊		BAMUM LETTER PHASE-B NGGAAM	
+U+1688B	𖢋		BAMUM LETTER PHASE-B NSEN	
+U+1688C	𖢌		BAMUM LETTER PHASE-B MA	
+U+1688D	𖢍		BAMUM LETTER PHASE-B KIQ	
+U+1688E	𖢎		BAMUM LETTER PHASE-B NGOM	
+U+1688F	𖢏		BAMUM LETTER PHASE-C NGKUE MAEMBA	
+U+16890	𖢐		BAMUM LETTER PHASE-C NZA	
+U+16891	𖢑		BAMUM LETTER PHASE-C YUM	
+U+16892	𖢒		BAMUM LETTER PHASE-C WANGKUOQ	
+U+16893	𖢓		BAMUM LETTER PHASE-C NGGEN	
+U+16894	𖢔		BAMUM LETTER PHASE-C NDEUAEREE	
+U+16895	𖢕		BAMUM LETTER PHASE-C NGKAQ	
+U+16896	𖢖		BAMUM LETTER PHASE-C GHARAE	
+U+16897	𖢗		BAMUM LETTER PHASE-C MBEEKEET	
+U+16898	𖢘		BAMUM LETTER PHASE-C GBAYI	
+U+16899	𖢙		BAMUM LETTER PHASE-C NYIR MKPARAQ MEUN	
+U+1689A	𖢚		BAMUM LETTER PHASE-C NTU MBIT	
+U+1689B	𖢛		BAMUM LETTER PHASE-C MBEUM	
+U+1689C	𖢜		BAMUM LETTER PHASE-C PIRIEEN	
+U+1689D	𖢝		BAMUM LETTER PHASE-C NDOMBU	
+U+1689E	𖢞		BAMUM LETTER PHASE-C MBAA CABBAGE-TREE	
+U+1689F	𖢟		BAMUM LETTER PHASE-C KEUSHEUAEP	
+U+168A0	𖢠		BAMUM LETTER PHASE-C GHAP	
+U+168A1	𖢡		BAMUM LETTER PHASE-C KEUKAQ	
+U+168A2	𖢢		BAMUM LETTER PHASE-C YU MUOMAE	
+U+168A3	𖢣		BAMUM LETTER PHASE-C NZEUM	
+U+168A4	𖢤		BAMUM LETTER PHASE-C MBUE	
+U+168A5	𖢥		BAMUM LETTER PHASE-C NSEUAEN	
+U+168A6	𖢦		BAMUM LETTER PHASE-C MBIT	
+U+168A7	𖢧		BAMUM LETTER PHASE-C YEUQ	
+U+168A8	𖢨		BAMUM LETTER PHASE-C KPARAQ	
+U+168A9	𖢩		BAMUM LETTER PHASE-C KAA	
+U+168AA	𖢪		BAMUM LETTER PHASE-C SEUX	
+U+168AB	𖢫		BAMUM LETTER PHASE-C NDIDA	
+U+168AC	𖢬		BAMUM LETTER PHASE-C TAASHAE	
+U+168AD	𖢭		BAMUM LETTER PHASE-C NJUEQ	
+U+168AE	𖢮		BAMUM LETTER PHASE-C TITA YUE	
+U+168AF	𖢯		BAMUM LETTER PHASE-C SUAET	
+U+168B0	𖢰		BAMUM LETTER PHASE-C NGGUAEN NYAM	
+U+168B1	𖢱		BAMUM LETTER PHASE-C VEUX	
+U+168B2	𖢲		BAMUM LETTER PHASE-C NANSANAQ	
+U+168B3	𖢳		BAMUM LETTER PHASE-C MA KEUAERI	
+U+168B4	𖢴		BAMUM LETTER PHASE-C NTAA	
+U+168B5	𖢵		BAMUM LETTER PHASE-C NGGUON	
+U+168B6	𖢶		BAMUM LETTER PHASE-C LAP	
+U+168B7	𖢷		BAMUM LETTER PHASE-C MBIRIEEN	
+U+168B8	𖢸		BAMUM LETTER PHASE-C MGBASAQ	
+U+168B9	𖢹		BAMUM LETTER PHASE-C NTEUNGBA	
+U+168BA	𖢺		BAMUM LETTER PHASE-C TEUTEUX	
+U+168BB	𖢻		BAMUM LETTER PHASE-C NGGUM	
+U+168BC	𖢼		BAMUM LETTER PHASE-C FUE	
+U+168BD	𖢽		BAMUM LETTER PHASE-C NDEUT	
+U+168BE	𖢾		BAMUM LETTER PHASE-C NSA	
+U+168BF	𖢿		BAMUM LETTER PHASE-C NSHAQ	
+U+168C0	𖣀		BAMUM LETTER PHASE-C BUNG	
+U+168C1	𖣁		BAMUM LETTER PHASE-C VEUAEPEN	
+U+168C2	𖣂		BAMUM LETTER PHASE-C MBERAE	
+U+168C3	𖣃		BAMUM LETTER PHASE-C RU	
+U+168C4	𖣄		BAMUM LETTER PHASE-C NJAEM	
+U+168C5	𖣅		BAMUM LETTER PHASE-C LAM	
+U+168C6	𖣆		BAMUM LETTER PHASE-C TITUAEP	
+U+168C7	𖣇		BAMUM LETTER PHASE-C NSUOT NGOM	
+U+168C8	𖣈		BAMUM LETTER PHASE-C NJEEEE	
+U+168C9	𖣉		BAMUM LETTER PHASE-C KET	
+U+168CA	𖣊		BAMUM LETTER PHASE-C NGGU	
+U+168CB	𖣋		BAMUM LETTER PHASE-C MAESI	
+U+168CC	𖣌		BAMUM LETTER PHASE-C MBUAEM	
+U+168CD	𖣍		BAMUM LETTER PHASE-C LU	
+U+168CE	𖣎		BAMUM LETTER PHASE-C KUT	
+U+168CF	𖣏		BAMUM LETTER PHASE-C NJAM	
+U+168D0	𖣐		BAMUM LETTER PHASE-C NGOM	
+U+168D1	𖣑		BAMUM LETTER PHASE-C WUP	
+U+168D2	𖣒		BAMUM LETTER PHASE-C NGGUEET	
+U+168D3	𖣓		BAMUM LETTER PHASE-C NSOM	
+U+168D4	𖣔		BAMUM LETTER PHASE-C NTEN	
+U+168D5	𖣕		BAMUM LETTER PHASE-C KUOP NKAARAE	
+U+168D6	𖣖		BAMUM LETTER PHASE-C NSUN	
+U+168D7	𖣗		BAMUM LETTER PHASE-C NDAM	
+U+168D8	𖣘		BAMUM LETTER PHASE-C MA NSIEE	
+U+168D9	𖣙		BAMUM LETTER PHASE-C YAA	
+U+168DA	𖣚		BAMUM LETTER PHASE-C NDAP	
+U+168DB	𖣛		BAMUM LETTER PHASE-C SHUEQ	
+U+168DC	𖣜		BAMUM LETTER PHASE-C SETFON	
+U+168DD	𖣝		BAMUM LETTER PHASE-C MBI	
+U+168DE	𖣞		BAMUM LETTER PHASE-C MAEMBA	
+U+168DF	𖣟		BAMUM LETTER PHASE-C MBANYI	
+U+168E0	𖣠		BAMUM LETTER PHASE-C KEUSEUX	
+U+168E1	𖣡		BAMUM LETTER PHASE-C MBEUX	
+U+168E2	𖣢		BAMUM LETTER PHASE-C KEUM	
+U+168E3	𖣣		BAMUM LETTER PHASE-C MBAA PICKET	
+U+168E4	𖣤		BAMUM LETTER PHASE-C YUWOQ	
+U+168E5	𖣥		BAMUM LETTER PHASE-C NJEUX	
+U+168E6	𖣦		BAMUM LETTER PHASE-C MIEE	
+U+168E7	𖣧		BAMUM LETTER PHASE-C MUAE	
+U+168E8	𖣨		BAMUM LETTER PHASE-C SHIQ	
+U+168E9	𖣩		BAMUM LETTER PHASE-C KEN LAW	
+U+168EA	𖣪		BAMUM LETTER PHASE-C KEN FATIGUE	
+U+168EB	𖣫		BAMUM LETTER PHASE-C NGAQ	
+U+168EC	𖣬		BAMUM LETTER PHASE-C NAQ	
+U+168ED	𖣭		BAMUM LETTER PHASE-C LIQ	
+U+168EE	𖣮		BAMUM LETTER PHASE-C PIN	
+U+168EF	𖣯		BAMUM LETTER PHASE-C PEN	
+U+168F0	𖣰		BAMUM LETTER PHASE-C TET	
+U+168F1	𖣱		BAMUM LETTER PHASE-D MBUO	
+U+168F2	𖣲		BAMUM LETTER PHASE-D WAP	
+U+168F3	𖣳		BAMUM LETTER PHASE-D NJI	
+U+168F4	𖣴		BAMUM LETTER PHASE-D MFON	
+U+168F5	𖣵		BAMUM LETTER PHASE-D NJIEE	
+U+168F6	𖣶		BAMUM LETTER PHASE-D LIEE	
+U+168F7	𖣷		BAMUM LETTER PHASE-D NJEUT	
+U+168F8	𖣸		BAMUM LETTER PHASE-D NSHEE	
+U+168F9	𖣹		BAMUM LETTER PHASE-D NGGAAMAE	
+U+168FA	𖣺		BAMUM LETTER PHASE-D NYAM	
+U+168FB	𖣻		BAMUM LETTER PHASE-D WUAEN	
+U+168FC	𖣼		BAMUM LETTER PHASE-D NGKUN	
+U+168FD	𖣽		BAMUM LETTER PHASE-D SHEE	
+U+168FE	𖣾		BAMUM LETTER PHASE-D NGKAP	
+U+168FF	𖣿		BAMUM LETTER PHASE-D KEUAETMEUN	
+U+16900	𖤀		BAMUM LETTER PHASE-D TEUT	
+U+16901	𖤁		BAMUM LETTER PHASE-D SHEUAE	
+U+16902	𖤂		BAMUM LETTER PHASE-D NJAP	
+U+16903	𖤃		BAMUM LETTER PHASE-D SUE	
+U+16904	𖤄		BAMUM LETTER PHASE-D KET	
+U+16905	𖤅		BAMUM LETTER PHASE-D YAEMMAE	
+U+16906	𖤆		BAMUM LETTER PHASE-D KUOM	
+U+16907	𖤇		BAMUM LETTER PHASE-D SAP	
+U+16908	𖤈		BAMUM LETTER PHASE-D MFEUT	
+U+16909	𖤉		BAMUM LETTER PHASE-D NDEUX	
+U+1690A	𖤊		BAMUM LETTER PHASE-D MALEERI	
+U+1690B	𖤋		BAMUM LETTER PHASE-D MEUT	
+U+1690C	𖤌		BAMUM LETTER PHASE-D SEUAEQ	
+U+1690D	𖤍		BAMUM LETTER PHASE-D YEN	
+U+1690E	𖤎		BAMUM LETTER PHASE-D NJEUAEM	
+U+1690F	𖤏		BAMUM LETTER PHASE-D KEUOT MBUAE	
+U+16910	𖤐		BAMUM LETTER PHASE-D NGKEURI	
+U+16911	𖤑		BAMUM LETTER PHASE-D TU	
+U+16912	𖤒		BAMUM LETTER PHASE-D GHAA	
+U+16913	𖤓		BAMUM LETTER PHASE-D NGKYEE	
+U+16914	𖤔		BAMUM LETTER PHASE-D FEUFEUAET	
+U+16915	𖤕		BAMUM LETTER PHASE-D NDEE	
+U+16916	𖤖		BAMUM LETTER PHASE-D MGBOFUM	
+U+16917	𖤗		BAMUM LETTER PHASE-D LEUAEP	
+U+16918	𖤘		BAMUM LETTER PHASE-D NDON	
+U+16919	𖤙		BAMUM LETTER PHASE-D MONI	
+U+1691A	𖤚		BAMUM LETTER PHASE-D MGBEUN	
+U+1691B	𖤛		BAMUM LETTER PHASE-D PUUT	
+U+1691C	𖤜		BAMUM LETTER PHASE-D MGBIEE	
+U+1691D	𖤝		BAMUM LETTER PHASE-D MFO	
+U+1691E	𖤞		BAMUM LETTER PHASE-D LUM	
+U+1691F	𖤟		BAMUM LETTER PHASE-D NSIEEP	
+U+16920	𖤠		BAMUM LETTER PHASE-D MBAA	
+U+16921	𖤡		BAMUM LETTER PHASE-D KWAET	
+U+16922	𖤢		BAMUM LETTER PHASE-D NYET	
+U+16923	𖤣		BAMUM LETTER PHASE-D TEUAEN	
+U+16924	𖤤		BAMUM LETTER PHASE-D SOT	
+U+16925	𖤥		BAMUM LETTER PHASE-D YUWOQ	
+U+16926	𖤦		BAMUM LETTER PHASE-D KEUM	
+U+16927	𖤧		BAMUM LETTER PHASE-D RAEM	
+U+16928	𖤨		BAMUM LETTER PHASE-D TEEEE	
+U+16929	𖤩		BAMUM LETTER PHASE-D NGKEUAEQ	
+U+1692A	𖤪		BAMUM LETTER PHASE-D MFEUAE	
+U+1692B	𖤫		BAMUM LETTER PHASE-D NSIEET	
+U+1692C	𖤬		BAMUM LETTER PHASE-D KEUP	
+U+1692D	𖤭		BAMUM LETTER PHASE-D PIP	
+U+1692E	𖤮		BAMUM LETTER PHASE-D PEUTAE	
+U+1692F	𖤯		BAMUM LETTER PHASE-D NYUE	
+U+16930	𖤰		BAMUM LETTER PHASE-D LET	
+U+16931	𖤱		BAMUM LETTER PHASE-D NGGAAM	
+U+16932	𖤲		BAMUM LETTER PHASE-D MFIEE	
+U+16933	𖤳		BAMUM LETTER PHASE-D NGGWAEN	
+U+16934	𖤴		BAMUM LETTER PHASE-D YUOM	
+U+16935	𖤵		BAMUM LETTER PHASE-D PAP	
+U+16936	𖤶		BAMUM LETTER PHASE-D YUOP	
+U+16937	𖤷		BAMUM LETTER PHASE-D NDAM	
+U+16938	𖤸		BAMUM LETTER PHASE-D NTEUM	
+U+16939	𖤹		BAMUM LETTER PHASE-D SUAE	
+U+1693A	𖤺		BAMUM LETTER PHASE-D KUN	
+U+1693B	𖤻		BAMUM LETTER PHASE-D NGGEUX	
+U+1693C	𖤼		BAMUM LETTER PHASE-D NGKIEE	
+U+1693D	𖤽		BAMUM LETTER PHASE-D TUOT	
+U+1693E	𖤾		BAMUM LETTER PHASE-D MEUN	
+U+1693F	𖤿		BAMUM LETTER PHASE-D KUQ	
+U+16940	𖥀		BAMUM LETTER PHASE-D NSUM	
+U+16941	𖥁		BAMUM LETTER PHASE-D TEUN	
+U+16942	𖥂		BAMUM LETTER PHASE-D MAENJET	
+U+16943	𖥃		BAMUM LETTER PHASE-D NGGAP	
+U+16944	𖥄		BAMUM LETTER PHASE-D LEUM	
+U+16945	𖥅		BAMUM LETTER PHASE-D NGGUOM	
+U+16946	𖥆		BAMUM LETTER PHASE-D NSHUT	
+U+16947	𖥇		BAMUM LETTER PHASE-D NJUEQ	
+U+16948	𖥈		BAMUM LETTER PHASE-D GHEUAE	
+U+16949	𖥉		BAMUM LETTER PHASE-D KU	
+U+1694A	𖥊		BAMUM LETTER PHASE-D REN OLD	
+U+1694B	𖥋		BAMUM LETTER PHASE-D TAE	
+U+1694C	𖥌		BAMUM LETTER PHASE-D TOQ	
+U+1694D	𖥍		BAMUM LETTER PHASE-D NYI	
+U+1694E	𖥎		BAMUM LETTER PHASE-D RII	
+U+1694F	𖥏		BAMUM LETTER PHASE-D LEEEE	
+U+16950	𖥐		BAMUM LETTER PHASE-D MEEEE	
+U+16951	𖥑		BAMUM LETTER PHASE-D M	
+U+16952	𖥒		BAMUM LETTER PHASE-D SUU	
+U+16953	𖥓		BAMUM LETTER PHASE-D MU	
+U+16954	𖥔		BAMUM LETTER PHASE-D SHII	
+U+16955	𖥕		BAMUM LETTER PHASE-D SHEUX	
+U+16956	𖥖		BAMUM LETTER PHASE-D KYEE	
+U+16957	𖥗		BAMUM LETTER PHASE-D NU	
+U+16958	𖥘		BAMUM LETTER PHASE-D SHU	
+U+16959	𖥙		BAMUM LETTER PHASE-D NTEE	
+U+1695A	𖥚		BAMUM LETTER PHASE-D PEE	
+U+1695B	𖥛		BAMUM LETTER PHASE-D NI	
+U+1695C	𖥜		BAMUM LETTER PHASE-D SHOQ	
+U+1695D	𖥝		BAMUM LETTER PHASE-D PUQ	
+U+1695E	𖥞		BAMUM LETTER PHASE-D MVOP	
+U+1695F	𖥟		BAMUM LETTER PHASE-D LOQ	
+U+16960	𖥠		BAMUM LETTER PHASE-D REN MUCH	
+U+16961	𖥡		BAMUM LETTER PHASE-D TI	
+U+16962	𖥢		BAMUM LETTER PHASE-D NTUU	
+U+16963	𖥣		BAMUM LETTER PHASE-D MBAA SEVEN	
+U+16964	𖥤		BAMUM LETTER PHASE-D SAQ	
+U+16965	𖥥		BAMUM LETTER PHASE-D FAA	
+U+16966	𖥦		BAMUM LETTER PHASE-E NDAP	
+U+16967	𖥧		BAMUM LETTER PHASE-E TOON	
+U+16968	𖥨		BAMUM LETTER PHASE-E MBEUM	
+U+16969	𖥩		BAMUM LETTER PHASE-E LAP	
+U+1696A	𖥪		BAMUM LETTER PHASE-E VOM	
+U+1696B	𖥫		BAMUM LETTER PHASE-E LOON	
+U+1696C	𖥬		BAMUM LETTER PHASE-E PAA	
+U+1696D	𖥭		BAMUM LETTER PHASE-E SOM	
+U+1696E	𖥮		BAMUM LETTER PHASE-E RAQ	
+U+1696F	𖥯		BAMUM LETTER PHASE-E NSHUOP	
+U+16970	𖥰		BAMUM LETTER PHASE-E NDUN	
+U+16971	𖥱		BAMUM LETTER PHASE-E PUAE	
+U+16972	𖥲		BAMUM LETTER PHASE-E TAM	
+U+16973	𖥳		BAMUM LETTER PHASE-E NGKA	
+U+16974	𖥴		BAMUM LETTER PHASE-E KPEUX	
+U+16975	𖥵		BAMUM LETTER PHASE-E WUO	
+U+16976	𖥶		BAMUM LETTER PHASE-E SEE	
+U+16977	𖥷		BAMUM LETTER PHASE-E NGGEUAET	
+U+16978	𖥸		BAMUM LETTER PHASE-E PAAM	
+U+16979	𖥹		BAMUM LETTER PHASE-E TOO	
+U+1697A	𖥺		BAMUM LETTER PHASE-E KUOP	
+U+1697B	𖥻		BAMUM LETTER PHASE-E LOM	
+U+1697C	𖥼		BAMUM LETTER PHASE-E NSHIEE	
+U+1697D	𖥽		BAMUM LETTER PHASE-E NGOP	
+U+1697E	𖥾		BAMUM LETTER PHASE-E MAEM	
+U+1697F	𖥿		BAMUM LETTER PHASE-E NGKEUX	
+U+16980	𖦀		BAMUM LETTER PHASE-E NGOQ	
+U+16981	𖦁		BAMUM LETTER PHASE-E NSHUE	
+U+16982	𖦂		BAMUM LETTER PHASE-E RIMGBA	
+U+16983	𖦃		BAMUM LETTER PHASE-E NJEUX	
+U+16984	𖦄		BAMUM LETTER PHASE-E PEEM	
+U+16985	𖦅		BAMUM LETTER PHASE-E SAA	
+U+16986	𖦆		BAMUM LETTER PHASE-E NGGURAE	
+U+16987	𖦇		BAMUM LETTER PHASE-E MGBA	
+U+16988	𖦈		BAMUM LETTER PHASE-E GHEUX	
+U+16989	𖦉		BAMUM LETTER PHASE-E NGKEUAEM	
+U+1698A	𖦊		BAMUM LETTER PHASE-E NJAEMLI	
+U+1698B	𖦋		BAMUM LETTER PHASE-E MAP	
+U+1698C	𖦌		BAMUM LETTER PHASE-E LOOT	
+U+1698D	𖦍		BAMUM LETTER PHASE-E NGGEEEE	
+U+1698E	𖦎		BAMUM LETTER PHASE-E NDIQ	
+U+1698F	𖦏		BAMUM LETTER PHASE-E TAEN NTEUM	
+U+16990	𖦐		BAMUM LETTER PHASE-E SET	
+U+16991	𖦑		BAMUM LETTER PHASE-E PUM	
+U+16992	𖦒		BAMUM LETTER PHASE-E NDAA SOFTNESS	
+U+16993	𖦓		BAMUM LETTER PHASE-E NGGUAESHAE NYAM	
+U+16994	𖦔		BAMUM LETTER PHASE-E YIEE	
+U+16995	𖦕		BAMUM LETTER PHASE-E GHEUN	
+U+16996	𖦖		BAMUM LETTER PHASE-E TUAE	
+U+16997	𖦗		BAMUM LETTER PHASE-E YEUAE	
+U+16998	𖦘		BAMUM LETTER PHASE-E PO	
+U+16999	𖦙		BAMUM LETTER PHASE-E TUMAE	
+U+1699A	𖦚		BAMUM LETTER PHASE-E KEUAE	
+U+1699B	𖦛		BAMUM LETTER PHASE-E SUAEN	
+U+1699C	𖦜		BAMUM LETTER PHASE-E TEUAEQ	
+U+1699D	𖦝		BAMUM LETTER PHASE-E VEUAE	
+U+1699E	𖦞		BAMUM LETTER PHASE-E WEUX	
+U+1699F	𖦟		BAMUM LETTER PHASE-E LAAM	
+U+169A0	𖦠		BAMUM LETTER PHASE-E PU	
+U+169A1	𖦡		BAMUM LETTER PHASE-E TAAQ	
+U+169A2	𖦢		BAMUM LETTER PHASE-E GHAAMAE	
+U+169A3	𖦣		BAMUM LETTER PHASE-E NGEUREUT	
+U+169A4	𖦤		BAMUM LETTER PHASE-E SHEUAEQ	
+U+169A5	𖦥		BAMUM LETTER PHASE-E MGBEN	
+U+169A6	𖦦		BAMUM LETTER PHASE-E MBEE	
+U+169A7	𖦧		BAMUM LETTER PHASE-E NZAQ	
+U+169A8	𖦨		BAMUM LETTER PHASE-E NKOM	
+U+169A9	𖦩		BAMUM LETTER PHASE-E GBET	
+U+169AA	𖦪		BAMUM LETTER PHASE-E TUM	
+U+169AB	𖦫		BAMUM LETTER PHASE-E KUET	
+U+169AC	𖦬		BAMUM LETTER PHASE-E YAP	
+U+169AD	𖦭		BAMUM LETTER PHASE-E NYI CLEAVER	
+U+169AE	𖦮		BAMUM LETTER PHASE-E YIT	
+U+169AF	𖦯		BAMUM LETTER PHASE-E MFEUQ	
+U+169B0	𖦰		BAMUM LETTER PHASE-E NDIAQ	
+U+169B1	𖦱		BAMUM LETTER PHASE-E PIEEQ	
+U+169B2	𖦲		BAMUM LETTER PHASE-E YUEQ	
+U+169B3	𖦳		BAMUM LETTER PHASE-E LEUAEM	
+U+169B4	𖦴		BAMUM LETTER PHASE-E FUE	
+U+169B5	𖦵		BAMUM LETTER PHASE-E GBEUX	
+U+169B6	𖦶		BAMUM LETTER PHASE-E NGKUP	
+U+169B7	𖦷		BAMUM LETTER PHASE-E KET	
+U+169B8	𖦸		BAMUM LETTER PHASE-E MAE	
+U+169B9	𖦹		BAMUM LETTER PHASE-E NGKAAMI	
+U+169BA	𖦺		BAMUM LETTER PHASE-E GHET	
+U+169BB	𖦻		BAMUM LETTER PHASE-E FA	
+U+169BC	𖦼		BAMUM LETTER PHASE-E NTUM	
+U+169BD	𖦽		BAMUM LETTER PHASE-E PEUT	
+U+169BE	𖦾		BAMUM LETTER PHASE-E YEUM	
+U+169BF	𖦿		BAMUM LETTER PHASE-E NGGEUAE	
+U+169C0	𖧀		BAMUM LETTER PHASE-E NYI BETWEEN	
+U+169C1	𖧁		BAMUM LETTER PHASE-E NZUQ	
+U+169C2	𖧂		BAMUM LETTER PHASE-E POON	
+U+169C3	𖧃		BAMUM LETTER PHASE-E MIEE	
+U+169C4	𖧄		BAMUM LETTER PHASE-E FUET	
+U+169C5	𖧅		BAMUM LETTER PHASE-E NAE	
+U+169C6	𖧆		BAMUM LETTER PHASE-E MUAE	
+U+169C7	𖧇		BAMUM LETTER PHASE-E GHEUAE	
+U+169C8	𖧈		BAMUM LETTER PHASE-E FU I	
+U+169C9	𖧉		BAMUM LETTER PHASE-E MVI	
+U+169CA	𖧊		BAMUM LETTER PHASE-E PUAQ	
+U+169CB	𖧋		BAMUM LETTER PHASE-E NGKUM	
+U+169CC	𖧌		BAMUM LETTER PHASE-E KUT	
+U+169CD	𖧍		BAMUM LETTER PHASE-E PIET	
+U+169CE	𖧎		BAMUM LETTER PHASE-E NTAP	
+U+169CF	𖧏		BAMUM LETTER PHASE-E YEUAET	
+U+169D0	𖧐		BAMUM LETTER PHASE-E NGGUP	
+U+169D1	𖧑		BAMUM LETTER PHASE-E PA PEOPLE	
+U+169D2	𖧒		BAMUM LETTER PHASE-E FU CALL	
+U+169D3	𖧓		BAMUM LETTER PHASE-E FOM	
+U+169D4	𖧔		BAMUM LETTER PHASE-E NJEE	
+U+169D5	𖧕		BAMUM LETTER PHASE-E A	
+U+169D6	𖧖		BAMUM LETTER PHASE-E TOQ	
+U+169D7	𖧗		BAMUM LETTER PHASE-E O	
+U+169D8	𖧘		BAMUM LETTER PHASE-E I	
+U+169D9	𖧙		BAMUM LETTER PHASE-E LAQ	
+U+169DA	𖧚		BAMUM LETTER PHASE-E PA PLURAL	
+U+169DB	𖧛		BAMUM LETTER PHASE-E TAA	
+U+169DC	𖧜		BAMUM LETTER PHASE-E TAQ	
+U+169DD	𖧝		BAMUM LETTER PHASE-E NDAA MY HOUSE	
+U+169DE	𖧞		BAMUM LETTER PHASE-E SHIQ	
+U+169DF	𖧟		BAMUM LETTER PHASE-E YEUX	
+U+169E0	𖧠		BAMUM LETTER PHASE-E NGUAE	
+U+169E1	𖧡		BAMUM LETTER PHASE-E YUAEN	
+U+169E2	𖧢		BAMUM LETTER PHASE-E YOQ SWIMMING	
+U+169E3	𖧣		BAMUM LETTER PHASE-E YOQ COVER	
+U+169E4	𖧤		BAMUM LETTER PHASE-E YUQ	
+U+169E5	𖧥		BAMUM LETTER PHASE-E YUN	
+U+169E6	𖧦		BAMUM LETTER PHASE-E KEUX	
+U+169E7	𖧧		BAMUM LETTER PHASE-E PEUX	
+U+169E8	𖧨		BAMUM LETTER PHASE-E NJEE EPOCH	
+U+169E9	𖧩		BAMUM LETTER PHASE-E PUE	
+U+169EA	𖧪		BAMUM LETTER PHASE-E WUE	
+U+169EB	𖧫		BAMUM LETTER PHASE-E FEE	
+U+169EC	𖧬		BAMUM LETTER PHASE-E VEE	
+U+169ED	𖧭		BAMUM LETTER PHASE-E LU	
+U+169EE	𖧮		BAMUM LETTER PHASE-E MI	
+U+169EF	𖧯		BAMUM LETTER PHASE-E REUX	
+U+169F0	𖧰		BAMUM LETTER PHASE-E RAE	
+U+169F1	𖧱		BAMUM LETTER PHASE-E NGUAET	
+U+169F2	𖧲		BAMUM LETTER PHASE-E NGA	
+U+169F3	𖧳		BAMUM LETTER PHASE-E SHO	
+U+169F4	𖧴		BAMUM LETTER PHASE-E SHOQ	
+U+169F5	𖧵		BAMUM LETTER PHASE-E FU REMEDY	
+U+169F6	𖧶		BAMUM LETTER PHASE-E NA	
+U+169F7	𖧷		BAMUM LETTER PHASE-E PI	
+U+169F8	𖧸		BAMUM LETTER PHASE-E LOQ	
+U+169F9	𖧹		BAMUM LETTER PHASE-E KO	
+U+169FA	𖧺		BAMUM LETTER PHASE-E MEN	
+U+169FB	𖧻		BAMUM LETTER PHASE-E MA	
+U+169FC	𖧼		BAMUM LETTER PHASE-E MAQ	
+U+169FD	𖧽		BAMUM LETTER PHASE-E TEU	
+U+169FE	𖧾		BAMUM LETTER PHASE-E KI	
+U+169FF	𖧿		BAMUM LETTER PHASE-E MON	
+U+16A00	𖨀		BAMUM LETTER PHASE-E TEN	
+U+16A01	𖨁		BAMUM LETTER PHASE-E FAQ	
+U+16A02	𖨂		BAMUM LETTER PHASE-E GHOM	
+U+16A03	𖨃		BAMUM LETTER PHASE-F KA	
+U+16A04	𖨄		BAMUM LETTER PHASE-F U	
+U+16A05	𖨅		BAMUM LETTER PHASE-F KU	
+U+16A06	𖨆		BAMUM LETTER PHASE-F EE	
+U+16A07	𖨇		BAMUM LETTER PHASE-F REE	
+U+16A08	𖨈		BAMUM LETTER PHASE-F TAE	
+U+16A09	𖨉		BAMUM LETTER PHASE-F NYI	
+U+16A0A	𖨊		BAMUM LETTER PHASE-F LA	
+U+16A0B	𖨋		BAMUM LETTER PHASE-F RII	
+U+16A0C	𖨌		BAMUM LETTER PHASE-F RIEE	
+U+16A0D	𖨍		BAMUM LETTER PHASE-F MEEEE	
+U+16A0E	𖨎		BAMUM LETTER PHASE-F TAA	
+U+16A0F	𖨏		BAMUM LETTER PHASE-F NDAA	
+U+16A10	𖨐		BAMUM LETTER PHASE-F NJAEM	
+U+16A11	𖨑		BAMUM LETTER PHASE-F M	
+U+16A12	𖨒		BAMUM LETTER PHASE-F SUU	
+U+16A13	𖨓		BAMUM LETTER PHASE-F SHII	
+U+16A14	𖨔		BAMUM LETTER PHASE-F SI	
+U+16A15	𖨕		BAMUM LETTER PHASE-F SEUX	
+U+16A16	𖨖		BAMUM LETTER PHASE-F KYEE	
+U+16A17	𖨗		BAMUM LETTER PHASE-F KET	
+U+16A18	𖨘		BAMUM LETTER PHASE-F NUAE	
+U+16A19	𖨙		BAMUM LETTER PHASE-F NU	
+U+16A1A	𖨚		BAMUM LETTER PHASE-F NJUAE	
+U+16A1B	𖨛		BAMUM LETTER PHASE-F YOQ	
+U+16A1C	𖨜		BAMUM LETTER PHASE-F SHU	
+U+16A1D	𖨝		BAMUM LETTER PHASE-F YA	
+U+16A1E	𖨞		BAMUM LETTER PHASE-F NSHA	
+U+16A1F	𖨟		BAMUM LETTER PHASE-F PEUX	
+U+16A20	𖨠		BAMUM LETTER PHASE-F NTEE	
+U+16A21	𖨡		BAMUM LETTER PHASE-F WUE	
+U+16A22	𖨢		BAMUM LETTER PHASE-F PEE	
+U+16A23	𖨣		BAMUM LETTER PHASE-F RU	
+U+16A24	𖨤		BAMUM LETTER PHASE-F NI	
+U+16A25	𖨥		BAMUM LETTER PHASE-F REUX	
+U+16A26	𖨦		BAMUM LETTER PHASE-F KEN	
+U+16A27	𖨧		BAMUM LETTER PHASE-F NGKWAEN	
+U+16A28	𖨨		BAMUM LETTER PHASE-F NGGA	
+U+16A29	𖨩		BAMUM LETTER PHASE-F SHO	
+U+16A2A	𖨪		BAMUM LETTER PHASE-F PUAE	
+U+16A2B	𖨫		BAMUM LETTER PHASE-F FOM	
+U+16A2C	𖨬		BAMUM LETTER PHASE-F WA	
+U+16A2D	𖨭		BAMUM LETTER PHASE-F LI	
+U+16A2E	𖨮		BAMUM LETTER PHASE-F LOQ	
+U+16A2F	𖨯		BAMUM LETTER PHASE-F KO	
+U+16A30	𖨰		BAMUM LETTER PHASE-F MBEN	
+U+16A31	𖨱		BAMUM LETTER PHASE-F REN	
+U+16A32	𖨲		BAMUM LETTER PHASE-F MA	
+U+16A33	𖨳		BAMUM LETTER PHASE-F MO	
+U+16A34	𖨴		BAMUM LETTER PHASE-F MBAA	
+U+16A35	𖨵		BAMUM LETTER PHASE-F TET	
+U+16A36	𖨶		BAMUM LETTER PHASE-F KPA	
+U+16A37	𖨷		BAMUM LETTER PHASE-F SAMBA	
+U+16A38	𖨸		BAMUM LETTER PHASE-F VUEQ	

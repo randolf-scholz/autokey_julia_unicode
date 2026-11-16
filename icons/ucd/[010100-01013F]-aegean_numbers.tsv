@@ -1,58 +1,58 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10100	𐄀	10100..1013F	Aegean Numbers	Aegean word separator line		
-U+10101	𐄁	10100..1013F	Aegean Numbers	Aegean word separator dot		
-U+10102	𐄂	10100..1013F	Aegean Numbers	Aegean check mark		
-U+10107	𐄇	10100..1013F	Aegean Numbers	Aegean number one		
-U+10108	𐄈	10100..1013F	Aegean Numbers	Aegean number two		
-U+10109	𐄉	10100..1013F	Aegean Numbers	Aegean number three		
-U+1010A	𐄊	10100..1013F	Aegean Numbers	Aegean number four		
-U+1010B	𐄋	10100..1013F	Aegean Numbers	Aegean number five		
-U+1010C	𐄌	10100..1013F	Aegean Numbers	Aegean number six		
-U+1010D	𐄍	10100..1013F	Aegean Numbers	Aegean number seven		
-U+1010E	𐄎	10100..1013F	Aegean Numbers	Aegean number eight		
-U+1010F	𐄏	10100..1013F	Aegean Numbers	Aegean number nine		
-U+10110	𐄐	10100..1013F	Aegean Numbers	Aegean number ten		
-U+10111	𐄑	10100..1013F	Aegean Numbers	Aegean number twenty		
-U+10112	𐄒	10100..1013F	Aegean Numbers	Aegean number thirty		
-U+10113	𐄓	10100..1013F	Aegean Numbers	Aegean number forty		
-U+10114	𐄔	10100..1013F	Aegean Numbers	Aegean number fifty		
-U+10115	𐄕	10100..1013F	Aegean Numbers	Aegean number sixty		
-U+10116	𐄖	10100..1013F	Aegean Numbers	Aegean number seventy		
-U+10117	𐄗	10100..1013F	Aegean Numbers	Aegean number eighty		
-U+10118	𐄘	10100..1013F	Aegean Numbers	Aegean number ninety		
-U+10119	𐄙	10100..1013F	Aegean Numbers	Aegean number one hundred		
-U+1011A	𐄚	10100..1013F	Aegean Numbers	Aegean number two hundred		
-U+1011B	𐄛	10100..1013F	Aegean Numbers	Aegean number three hundred		
-U+1011C	𐄜	10100..1013F	Aegean Numbers	Aegean number four hundred		
-U+1011D	𐄝	10100..1013F	Aegean Numbers	Aegean number five hundred		
-U+1011E	𐄞	10100..1013F	Aegean Numbers	Aegean number six hundred		
-U+1011F	𐄟	10100..1013F	Aegean Numbers	Aegean number seven hundred		
-U+10120	𐄠	10100..1013F	Aegean Numbers	Aegean number eight hundred		
-U+10121	𐄡	10100..1013F	Aegean Numbers	Aegean number nine hundred		
-U+10122	𐄢	10100..1013F	Aegean Numbers	Aegean number one thousand		
-U+10123	𐄣	10100..1013F	Aegean Numbers	Aegean number two thousand		
-U+10124	𐄤	10100..1013F	Aegean Numbers	Aegean number three thousand		
-U+10125	𐄥	10100..1013F	Aegean Numbers	Aegean number four thousand		
-U+10126	𐄦	10100..1013F	Aegean Numbers	Aegean number five thousand		
-U+10127	𐄧	10100..1013F	Aegean Numbers	Aegean number six thousand		
-U+10128	𐄨	10100..1013F	Aegean Numbers	Aegean number seven thousand		
-U+10129	𐄩	10100..1013F	Aegean Numbers	Aegean number eight thousand		
-U+1012A	𐄪	10100..1013F	Aegean Numbers	Aegean number nine thousand		
-U+1012B	𐄫	10100..1013F	Aegean Numbers	Aegean number ten thousand		
-U+1012C	𐄬	10100..1013F	Aegean Numbers	Aegean number twenty thousand		
-U+1012D	𐄭	10100..1013F	Aegean Numbers	Aegean number thirty thousand		
-U+1012E	𐄮	10100..1013F	Aegean Numbers	Aegean number forty thousand		
-U+1012F	𐄯	10100..1013F	Aegean Numbers	Aegean number fifty thousand		
-U+10130	𐄰	10100..1013F	Aegean Numbers	Aegean number sixty thousand		
-U+10131	𐄱	10100..1013F	Aegean Numbers	Aegean number seventy thousand		
-U+10132	𐄲	10100..1013F	Aegean Numbers	Aegean number eighty thousand		
-U+10133	𐄳	10100..1013F	Aegean Numbers	Aegean number ninety thousand		
-U+10137	𐄷	10100..1013F	Aegean Numbers	Aegean weight base unit		
-U+10138	𐄸	10100..1013F	Aegean Numbers	Aegean weight first subunit		
-U+10139	𐄹	10100..1013F	Aegean Numbers	Aegean weight second subunit		
-U+1013A	𐄺	10100..1013F	Aegean Numbers	Aegean weight third subunit		
-U+1013B	𐄻	10100..1013F	Aegean Numbers	Aegean weight fourth subunit		
-U+1013C	𐄼	10100..1013F	Aegean Numbers	Aegean dry measure first subunit		
-U+1013D	𐄽	10100..1013F	Aegean Numbers	Aegean liquid measure first subunit		
-U+1013E	𐄾	10100..1013F	Aegean Numbers	Aegean measure second subunit		
-U+1013F	𐄿	10100..1013F	Aegean Numbers	Aegean measure third subunit		
+code_points	chars	tab_completions	unicode_name	base
+U+10100	𐄀		AEGEAN WORD SEPARATOR LINE	
+U+10101	𐄁		AEGEAN WORD SEPARATOR DOT	
+U+10102	𐄂		AEGEAN CHECK MARK	
+U+10107	𐄇		AEGEAN NUMBER ONE	
+U+10108	𐄈		AEGEAN NUMBER TWO	
+U+10109	𐄉		AEGEAN NUMBER THREE	
+U+1010A	𐄊		AEGEAN NUMBER FOUR	
+U+1010B	𐄋		AEGEAN NUMBER FIVE	
+U+1010C	𐄌		AEGEAN NUMBER SIX	
+U+1010D	𐄍		AEGEAN NUMBER SEVEN	
+U+1010E	𐄎		AEGEAN NUMBER EIGHT	
+U+1010F	𐄏		AEGEAN NUMBER NINE	
+U+10110	𐄐		AEGEAN NUMBER TEN	
+U+10111	𐄑		AEGEAN NUMBER TWENTY	
+U+10112	𐄒		AEGEAN NUMBER THIRTY	
+U+10113	𐄓		AEGEAN NUMBER FORTY	
+U+10114	𐄔		AEGEAN NUMBER FIFTY	
+U+10115	𐄕		AEGEAN NUMBER SIXTY	
+U+10116	𐄖		AEGEAN NUMBER SEVENTY	
+U+10117	𐄗		AEGEAN NUMBER EIGHTY	
+U+10118	𐄘		AEGEAN NUMBER NINETY	
+U+10119	𐄙		AEGEAN NUMBER ONE HUNDRED	
+U+1011A	𐄚		AEGEAN NUMBER TWO HUNDRED	
+U+1011B	𐄛		AEGEAN NUMBER THREE HUNDRED	
+U+1011C	𐄜		AEGEAN NUMBER FOUR HUNDRED	
+U+1011D	𐄝		AEGEAN NUMBER FIVE HUNDRED	
+U+1011E	𐄞		AEGEAN NUMBER SIX HUNDRED	
+U+1011F	𐄟		AEGEAN NUMBER SEVEN HUNDRED	
+U+10120	𐄠		AEGEAN NUMBER EIGHT HUNDRED	
+U+10121	𐄡		AEGEAN NUMBER NINE HUNDRED	
+U+10122	𐄢		AEGEAN NUMBER ONE THOUSAND	
+U+10123	𐄣		AEGEAN NUMBER TWO THOUSAND	
+U+10124	𐄤		AEGEAN NUMBER THREE THOUSAND	
+U+10125	𐄥		AEGEAN NUMBER FOUR THOUSAND	
+U+10126	𐄦		AEGEAN NUMBER FIVE THOUSAND	
+U+10127	𐄧		AEGEAN NUMBER SIX THOUSAND	
+U+10128	𐄨		AEGEAN NUMBER SEVEN THOUSAND	
+U+10129	𐄩		AEGEAN NUMBER EIGHT THOUSAND	
+U+1012A	𐄪		AEGEAN NUMBER NINE THOUSAND	
+U+1012B	𐄫		AEGEAN NUMBER TEN THOUSAND	
+U+1012C	𐄬		AEGEAN NUMBER TWENTY THOUSAND	
+U+1012D	𐄭		AEGEAN NUMBER THIRTY THOUSAND	
+U+1012E	𐄮		AEGEAN NUMBER FORTY THOUSAND	
+U+1012F	𐄯		AEGEAN NUMBER FIFTY THOUSAND	
+U+10130	𐄰		AEGEAN NUMBER SIXTY THOUSAND	
+U+10131	𐄱		AEGEAN NUMBER SEVENTY THOUSAND	
+U+10132	𐄲		AEGEAN NUMBER EIGHTY THOUSAND	
+U+10133	𐄳		AEGEAN NUMBER NINETY THOUSAND	
+U+10137	𐄷		AEGEAN WEIGHT BASE UNIT	
+U+10138	𐄸		AEGEAN WEIGHT FIRST SUBUNIT	
+U+10139	𐄹		AEGEAN WEIGHT SECOND SUBUNIT	
+U+1013A	𐄺		AEGEAN WEIGHT THIRD SUBUNIT	
+U+1013B	𐄻		AEGEAN WEIGHT FOURTH SUBUNIT	
+U+1013C	𐄼		AEGEAN DRY MEASURE FIRST SUBUNIT	
+U+1013D	𐄽		AEGEAN LIQUID MEASURE FIRST SUBUNIT	
+U+1013E	𐄾		AEGEAN MEASURE SECOND SUBUNIT	
+U+1013F	𐄿		AEGEAN MEASURE THIRD SUBUNIT	

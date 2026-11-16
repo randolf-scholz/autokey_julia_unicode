@@ -1,33 +1,33 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10860	𐡠	10860..1087F	Palmyrene	Palmyrene letter aleph		
-U+10861	𐡡	10860..1087F	Palmyrene	Palmyrene letter beth		
-U+10862	𐡢	10860..1087F	Palmyrene	Palmyrene letter gimel		
-U+10863	𐡣	10860..1087F	Palmyrene	Palmyrene letter daleth		
-U+10864	𐡤	10860..1087F	Palmyrene	Palmyrene letter he		
-U+10865	𐡥	10860..1087F	Palmyrene	Palmyrene letter waw		
-U+10866	𐡦	10860..1087F	Palmyrene	Palmyrene letter zayin		
-U+10867	𐡧	10860..1087F	Palmyrene	Palmyrene letter heth		
-U+10868	𐡨	10860..1087F	Palmyrene	Palmyrene letter teth		
-U+10869	𐡩	10860..1087F	Palmyrene	Palmyrene letter yodh		
-U+1086A	𐡪	10860..1087F	Palmyrene	Palmyrene letter kaph		
-U+1086B	𐡫	10860..1087F	Palmyrene	Palmyrene letter lamedh		
-U+1086C	𐡬	10860..1087F	Palmyrene	Palmyrene letter mem		
-U+1086D	𐡭	10860..1087F	Palmyrene	Palmyrene letter final nun		
-U+1086E	𐡮	10860..1087F	Palmyrene	Palmyrene letter nun		
-U+1086F	𐡯	10860..1087F	Palmyrene	Palmyrene letter samekh		
-U+10870	𐡰	10860..1087F	Palmyrene	Palmyrene letter ayin		
-U+10871	𐡱	10860..1087F	Palmyrene	Palmyrene letter pe		
-U+10872	𐡲	10860..1087F	Palmyrene	Palmyrene letter sadhe		
-U+10873	𐡳	10860..1087F	Palmyrene	Palmyrene letter qoph		
-U+10874	𐡴	10860..1087F	Palmyrene	Palmyrene letter resh		
-U+10875	𐡵	10860..1087F	Palmyrene	Palmyrene letter shin		
-U+10876	𐡶	10860..1087F	Palmyrene	Palmyrene letter taw		
-U+10877	𐡷	10860..1087F	Palmyrene	Palmyrene left-pointing fleuron		
-U+10878	𐡸	10860..1087F	Palmyrene	Palmyrene right-pointing fleuron		
-U+10879	𐡹	10860..1087F	Palmyrene	Palmyrene number one		
-U+1087A	𐡺	10860..1087F	Palmyrene	Palmyrene number two		
-U+1087B	𐡻	10860..1087F	Palmyrene	Palmyrene number three		
-U+1087C	𐡼	10860..1087F	Palmyrene	Palmyrene number four		
-U+1087D	𐡽	10860..1087F	Palmyrene	Palmyrene number five		
-U+1087E	𐡾	10860..1087F	Palmyrene	Palmyrene number ten		
-U+1087F	𐡿	10860..1087F	Palmyrene	Palmyrene number twenty		
+code_points	chars	tab_completions	unicode_name	base
+U+10860	𐡠		PALMYRENE LETTER ALEPH	
+U+10861	𐡡		PALMYRENE LETTER BETH	
+U+10862	𐡢		PALMYRENE LETTER GIMEL	
+U+10863	𐡣		PALMYRENE LETTER DALETH	
+U+10864	𐡤		PALMYRENE LETTER HE	
+U+10865	𐡥		PALMYRENE LETTER WAW	
+U+10866	𐡦		PALMYRENE LETTER ZAYIN	
+U+10867	𐡧		PALMYRENE LETTER HETH	
+U+10868	𐡨		PALMYRENE LETTER TETH	
+U+10869	𐡩		PALMYRENE LETTER YODH	
+U+1086A	𐡪		PALMYRENE LETTER KAPH	
+U+1086B	𐡫		PALMYRENE LETTER LAMEDH	
+U+1086C	𐡬		PALMYRENE LETTER MEM	
+U+1086D	𐡭		PALMYRENE LETTER FINAL NUN	
+U+1086E	𐡮		PALMYRENE LETTER NUN	
+U+1086F	𐡯		PALMYRENE LETTER SAMEKH	
+U+10870	𐡰		PALMYRENE LETTER AYIN	
+U+10871	𐡱		PALMYRENE LETTER PE	
+U+10872	𐡲		PALMYRENE LETTER SADHE	
+U+10873	𐡳		PALMYRENE LETTER QOPH	
+U+10874	𐡴		PALMYRENE LETTER RESH	
+U+10875	𐡵		PALMYRENE LETTER SHIN	
+U+10876	𐡶		PALMYRENE LETTER TAW	
+U+10877	𐡷		PALMYRENE LEFT-POINTING FLEURON	
+U+10878	𐡸		PALMYRENE RIGHT-POINTING FLEURON	
+U+10879	𐡹		PALMYRENE NUMBER ONE	
+U+1087A	𐡺		PALMYRENE NUMBER TWO	
+U+1087B	𐡻		PALMYRENE NUMBER THREE	
+U+1087C	𐡼		PALMYRENE NUMBER FOUR	
+U+1087D	𐡽		PALMYRENE NUMBER FIVE	
+U+1087E	𐡾		PALMYRENE NUMBER TEN	
+U+1087F	𐡿		PALMYRENE NUMBER TWENTY	

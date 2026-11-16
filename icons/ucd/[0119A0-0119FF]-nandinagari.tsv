@@ -1,66 +1,66 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+119A0	𑦠	119A0..119FF	Nandinagari	Nandinagari letter a		
-U+119A1	𑦡	119A0..119FF	Nandinagari	Nandinagari letter aa		
-U+119A2	𑦢	119A0..119FF	Nandinagari	Nandinagari letter i		
-U+119A3	𑦣	119A0..119FF	Nandinagari	Nandinagari letter ii		
-U+119A4	𑦤	119A0..119FF	Nandinagari	Nandinagari letter u		
-U+119A5	𑦥	119A0..119FF	Nandinagari	Nandinagari letter uu		
-U+119A6	𑦦	119A0..119FF	Nandinagari	Nandinagari letter vocalic r		
-U+119A7	𑦧	119A0..119FF	Nandinagari	Nandinagari letter vocalic rr		
-U+119AA	𑦪	119A0..119FF	Nandinagari	Nandinagari letter e		
-U+119AB	𑦫	119A0..119FF	Nandinagari	Nandinagari letter ai		
-U+119AC	𑦬	119A0..119FF	Nandinagari	Nandinagari letter o		
-U+119AD	𑦭	119A0..119FF	Nandinagari	Nandinagari letter au		
-U+119AE	𑦮	119A0..119FF	Nandinagari	Nandinagari letter ka		
-U+119AF	𑦯	119A0..119FF	Nandinagari	Nandinagari letter kha		
-U+119B0	𑦰	119A0..119FF	Nandinagari	Nandinagari letter ga		
-U+119B1	𑦱	119A0..119FF	Nandinagari	Nandinagari letter gha		
-U+119B2	𑦲	119A0..119FF	Nandinagari	Nandinagari letter nga		
-U+119B3	𑦳	119A0..119FF	Nandinagari	Nandinagari letter ca		
-U+119B4	𑦴	119A0..119FF	Nandinagari	Nandinagari letter cha		
-U+119B5	𑦵	119A0..119FF	Nandinagari	Nandinagari letter ja		
-U+119B6	𑦶	119A0..119FF	Nandinagari	Nandinagari letter jha		
-U+119B7	𑦷	119A0..119FF	Nandinagari	Nandinagari letter nya		
-U+119B8	𑦸	119A0..119FF	Nandinagari	Nandinagari letter tta		
-U+119B9	𑦹	119A0..119FF	Nandinagari	Nandinagari letter ttha		
-U+119BA	𑦺	119A0..119FF	Nandinagari	Nandinagari letter dda		
-U+119BB	𑦻	119A0..119FF	Nandinagari	Nandinagari letter ddha		
-U+119BC	𑦼	119A0..119FF	Nandinagari	Nandinagari letter nna		
-U+119BD	𑦽	119A0..119FF	Nandinagari	Nandinagari letter ta		
-U+119BE	𑦾	119A0..119FF	Nandinagari	Nandinagari letter tha		
-U+119BF	𑦿	119A0..119FF	Nandinagari	Nandinagari letter da		
-U+119C0	𑧀	119A0..119FF	Nandinagari	Nandinagari letter dha		
-U+119C1	𑧁	119A0..119FF	Nandinagari	Nandinagari letter na		
-U+119C2	𑧂	119A0..119FF	Nandinagari	Nandinagari letter pa		
-U+119C3	𑧃	119A0..119FF	Nandinagari	Nandinagari letter pha		
-U+119C4	𑧄	119A0..119FF	Nandinagari	Nandinagari letter ba		
-U+119C5	𑧅	119A0..119FF	Nandinagari	Nandinagari letter bha		
-U+119C6	𑧆	119A0..119FF	Nandinagari	Nandinagari letter ma		
-U+119C7	𑧇	119A0..119FF	Nandinagari	Nandinagari letter ya		
-U+119C8	𑧈	119A0..119FF	Nandinagari	Nandinagari letter ra		
-U+119C9	𑧉	119A0..119FF	Nandinagari	Nandinagari letter la		
-U+119CA	𑧊	119A0..119FF	Nandinagari	Nandinagari letter va		
-U+119CB	𑧋	119A0..119FF	Nandinagari	Nandinagari letter sha		
-U+119CC	𑧌	119A0..119FF	Nandinagari	Nandinagari letter ssa		
-U+119CD	𑧍	119A0..119FF	Nandinagari	Nandinagari letter sa		
-U+119CE	𑧎	119A0..119FF	Nandinagari	Nandinagari letter ha		
-U+119CF	𑧏	119A0..119FF	Nandinagari	Nandinagari letter lla		
-U+119D0	𑧐	119A0..119FF	Nandinagari	Nandinagari letter rra		
-U+119D1	𑧑	119A0..119FF	Nandinagari	Nandinagari vowel sign aa		
-U+119D2	𑧒	119A0..119FF	Nandinagari	Nandinagari vowel sign i		
-U+119D3	𑧓	119A0..119FF	Nandinagari	Nandinagari vowel sign ii		
-U+119D4	𑧔	119A0..119FF	Nandinagari	Nandinagari vowel sign u		
-U+119D5	𑧕	119A0..119FF	Nandinagari	Nandinagari vowel sign uu		
-U+119D6	𑧖	119A0..119FF	Nandinagari	Nandinagari vowel sign vocalic r		
-U+119D7	𑧗	119A0..119FF	Nandinagari	Nandinagari vowel sign vocalic rr		
-U+119DA	𑧚	119A0..119FF	Nandinagari	Nandinagari vowel sign e		
-U+119DB	𑧛	119A0..119FF	Nandinagari	Nandinagari vowel sign ai		
-U+119DC	𑧜	119A0..119FF	Nandinagari	Nandinagari vowel sign o		
-U+119DD	𑧝	119A0..119FF	Nandinagari	Nandinagari vowel sign au		
-U+119DE	𑧞	119A0..119FF	Nandinagari	Nandinagari sign anusvara		
-U+119DF	𑧟	119A0..119FF	Nandinagari	Nandinagari sign visarga		
-U+119E0	𑧠	119A0..119FF	Nandinagari	Nandinagari sign virama		
-U+119E1	𑧡	119A0..119FF	Nandinagari	Nandinagari sign avagraha		
-U+119E2	𑧢	119A0..119FF	Nandinagari	Nandinagari sign siddham		
-U+119E3	𑧣	119A0..119FF	Nandinagari	Nandinagari headstroke		
-U+119E4	𑧤	119A0..119FF	Nandinagari	Nandinagari vowel sign prishthamatra e		
+code_points	chars	tab_completions	unicode_name	base
+U+119A0	𑦠		NANDINAGARI LETTER A	
+U+119A1	𑦡		NANDINAGARI LETTER AA	
+U+119A2	𑦢		NANDINAGARI LETTER I	
+U+119A3	𑦣		NANDINAGARI LETTER II	
+U+119A4	𑦤		NANDINAGARI LETTER U	
+U+119A5	𑦥		NANDINAGARI LETTER UU	
+U+119A6	𑦦		NANDINAGARI LETTER VOCALIC R	
+U+119A7	𑦧		NANDINAGARI LETTER VOCALIC RR	
+U+119AA	𑦪		NANDINAGARI LETTER E	
+U+119AB	𑦫		NANDINAGARI LETTER AI	
+U+119AC	𑦬		NANDINAGARI LETTER O	
+U+119AD	𑦭		NANDINAGARI LETTER AU	
+U+119AE	𑦮		NANDINAGARI LETTER KA	
+U+119AF	𑦯		NANDINAGARI LETTER KHA	
+U+119B0	𑦰		NANDINAGARI LETTER GA	
+U+119B1	𑦱		NANDINAGARI LETTER GHA	
+U+119B2	𑦲		NANDINAGARI LETTER NGA	
+U+119B3	𑦳		NANDINAGARI LETTER CA	
+U+119B4	𑦴		NANDINAGARI LETTER CHA	
+U+119B5	𑦵		NANDINAGARI LETTER JA	
+U+119B6	𑦶		NANDINAGARI LETTER JHA	
+U+119B7	𑦷		NANDINAGARI LETTER NYA	
+U+119B8	𑦸		NANDINAGARI LETTER TTA	
+U+119B9	𑦹		NANDINAGARI LETTER TTHA	
+U+119BA	𑦺		NANDINAGARI LETTER DDA	
+U+119BB	𑦻		NANDINAGARI LETTER DDHA	
+U+119BC	𑦼		NANDINAGARI LETTER NNA	
+U+119BD	𑦽		NANDINAGARI LETTER TA	
+U+119BE	𑦾		NANDINAGARI LETTER THA	
+U+119BF	𑦿		NANDINAGARI LETTER DA	
+U+119C0	𑧀		NANDINAGARI LETTER DHA	
+U+119C1	𑧁		NANDINAGARI LETTER NA	
+U+119C2	𑧂		NANDINAGARI LETTER PA	
+U+119C3	𑧃		NANDINAGARI LETTER PHA	
+U+119C4	𑧄		NANDINAGARI LETTER BA	
+U+119C5	𑧅		NANDINAGARI LETTER BHA	
+U+119C6	𑧆		NANDINAGARI LETTER MA	
+U+119C7	𑧇		NANDINAGARI LETTER YA	
+U+119C8	𑧈		NANDINAGARI LETTER RA	
+U+119C9	𑧉		NANDINAGARI LETTER LA	
+U+119CA	𑧊		NANDINAGARI LETTER VA	
+U+119CB	𑧋		NANDINAGARI LETTER SHA	
+U+119CC	𑧌		NANDINAGARI LETTER SSA	
+U+119CD	𑧍		NANDINAGARI LETTER SA	
+U+119CE	𑧎		NANDINAGARI LETTER HA	
+U+119CF	𑧏		NANDINAGARI LETTER LLA	
+U+119D0	𑧐		NANDINAGARI LETTER RRA	
+U+119D1	𑧑		NANDINAGARI VOWEL SIGN AA	
+U+119D2	𑧒		NANDINAGARI VOWEL SIGN I	
+U+119D3	𑧓		NANDINAGARI VOWEL SIGN II	
+U+119D4	𑧔		NANDINAGARI VOWEL SIGN U	
+U+119D5	𑧕		NANDINAGARI VOWEL SIGN UU	
+U+119D6	𑧖		NANDINAGARI VOWEL SIGN VOCALIC R	
+U+119D7	𑧗		NANDINAGARI VOWEL SIGN VOCALIC RR	
+U+119DA	𑧚		NANDINAGARI VOWEL SIGN E	
+U+119DB	𑧛		NANDINAGARI VOWEL SIGN AI	
+U+119DC	𑧜		NANDINAGARI VOWEL SIGN O	
+U+119DD	𑧝		NANDINAGARI VOWEL SIGN AU	
+U+119DE	𑧞		NANDINAGARI SIGN ANUSVARA	
+U+119DF	𑧟		NANDINAGARI SIGN VISARGA	
+U+119E0	𑧠		NANDINAGARI SIGN VIRAMA	
+U+119E1	𑧡		NANDINAGARI SIGN AVAGRAHA	
+U+119E2	𑧢		NANDINAGARI SIGN SIDDHAM	
+U+119E3	𑧣		NANDINAGARI HEADSTROKE	
+U+119E4	𑧤		NANDINAGARI VOWEL SIGN PRISHTHAMATRA E	

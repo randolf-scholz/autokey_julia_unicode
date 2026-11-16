@@ -1,51 +1,51 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+103A0	𐎠	103A0..103DF	Old Persian	Old persian sign a		
-U+103A1	𐎡	103A0..103DF	Old Persian	Old persian sign i		
-U+103A2	𐎢	103A0..103DF	Old Persian	Old persian sign u		
-U+103A3	𐎣	103A0..103DF	Old Persian	Old persian sign ka		
-U+103A4	𐎤	103A0..103DF	Old Persian	Old persian sign ku		
-U+103A5	𐎥	103A0..103DF	Old Persian	Old persian sign ga		
-U+103A6	𐎦	103A0..103DF	Old Persian	Old persian sign gu		
-U+103A7	𐎧	103A0..103DF	Old Persian	Old persian sign xa		
-U+103A8	𐎨	103A0..103DF	Old Persian	Old persian sign ca		
-U+103A9	𐎩	103A0..103DF	Old Persian	Old persian sign ja		
-U+103AA	𐎪	103A0..103DF	Old Persian	Old persian sign ji		
-U+103AB	𐎫	103A0..103DF	Old Persian	Old persian sign ta		
-U+103AC	𐎬	103A0..103DF	Old Persian	Old persian sign tu		
-U+103AD	𐎭	103A0..103DF	Old Persian	Old persian sign da		
-U+103AE	𐎮	103A0..103DF	Old Persian	Old persian sign di		
-U+103AF	𐎯	103A0..103DF	Old Persian	Old persian sign du		
-U+103B0	𐎰	103A0..103DF	Old Persian	Old persian sign tha		
-U+103B1	𐎱	103A0..103DF	Old Persian	Old persian sign pa		
-U+103B2	𐎲	103A0..103DF	Old Persian	Old persian sign ba		
-U+103B3	𐎳	103A0..103DF	Old Persian	Old persian sign fa		
-U+103B4	𐎴	103A0..103DF	Old Persian	Old persian sign na		
-U+103B5	𐎵	103A0..103DF	Old Persian	Old persian sign nu		
-U+103B6	𐎶	103A0..103DF	Old Persian	Old persian sign ma		
-U+103B7	𐎷	103A0..103DF	Old Persian	Old persian sign mi		
-U+103B8	𐎸	103A0..103DF	Old Persian	Old persian sign mu		
-U+103B9	𐎹	103A0..103DF	Old Persian	Old persian sign ya		
-U+103BA	𐎺	103A0..103DF	Old Persian	Old persian sign va		
-U+103BB	𐎻	103A0..103DF	Old Persian	Old persian sign vi		
-U+103BC	𐎼	103A0..103DF	Old Persian	Old persian sign ra		
-U+103BD	𐎽	103A0..103DF	Old Persian	Old persian sign ru		
-U+103BE	𐎾	103A0..103DF	Old Persian	Old persian sign la		
-U+103BF	𐎿	103A0..103DF	Old Persian	Old persian sign sa		
-U+103C0	𐏀	103A0..103DF	Old Persian	Old persian sign za		
-U+103C1	𐏁	103A0..103DF	Old Persian	Old persian sign sha		
-U+103C2	𐏂	103A0..103DF	Old Persian	Old persian sign ssa		
-U+103C3	𐏃	103A0..103DF	Old Persian	Old persian sign ha		
-U+103C8	𐏈	103A0..103DF	Old Persian	Old persian sign auramazdaa		
-U+103C9	𐏉	103A0..103DF	Old Persian	Old persian sign auramazdaa-2		
-U+103CA	𐏊	103A0..103DF	Old Persian	Old persian sign auramazdaaha		
-U+103CB	𐏋	103A0..103DF	Old Persian	Old persian sign xshaayathiya		
-U+103CC	𐏌	103A0..103DF	Old Persian	Old persian sign dahyaaush		
-U+103CD	𐏍	103A0..103DF	Old Persian	Old persian sign dahyaaush-2		
-U+103CE	𐏎	103A0..103DF	Old Persian	Old persian sign baga		
-U+103CF	𐏏	103A0..103DF	Old Persian	Old persian sign buumish		
-U+103D0	𐏐	103A0..103DF	Old Persian	Old persian word divider		
-U+103D1	𐏑	103A0..103DF	Old Persian	Old persian number one		
-U+103D2	𐏒	103A0..103DF	Old Persian	Old persian number two		
-U+103D3	𐏓	103A0..103DF	Old Persian	Old persian number ten		
-U+103D4	𐏔	103A0..103DF	Old Persian	Old persian number twenty		
-U+103D5	𐏕	103A0..103DF	Old Persian	Old persian number hundred		
+code_points	chars	tab_completions	unicode_name	base
+U+103A0	𐎠		OLD PERSIAN SIGN A	
+U+103A1	𐎡		OLD PERSIAN SIGN I	
+U+103A2	𐎢		OLD PERSIAN SIGN U	
+U+103A3	𐎣		OLD PERSIAN SIGN KA	
+U+103A4	𐎤		OLD PERSIAN SIGN KU	
+U+103A5	𐎥		OLD PERSIAN SIGN GA	
+U+103A6	𐎦		OLD PERSIAN SIGN GU	
+U+103A7	𐎧		OLD PERSIAN SIGN XA	
+U+103A8	𐎨		OLD PERSIAN SIGN CA	
+U+103A9	𐎩		OLD PERSIAN SIGN JA	
+U+103AA	𐎪		OLD PERSIAN SIGN JI	
+U+103AB	𐎫		OLD PERSIAN SIGN TA	
+U+103AC	𐎬		OLD PERSIAN SIGN TU	
+U+103AD	𐎭		OLD PERSIAN SIGN DA	
+U+103AE	𐎮		OLD PERSIAN SIGN DI	
+U+103AF	𐎯		OLD PERSIAN SIGN DU	
+U+103B0	𐎰		OLD PERSIAN SIGN THA	
+U+103B1	𐎱		OLD PERSIAN SIGN PA	
+U+103B2	𐎲		OLD PERSIAN SIGN BA	
+U+103B3	𐎳		OLD PERSIAN SIGN FA	
+U+103B4	𐎴		OLD PERSIAN SIGN NA	
+U+103B5	𐎵		OLD PERSIAN SIGN NU	
+U+103B6	𐎶		OLD PERSIAN SIGN MA	
+U+103B7	𐎷		OLD PERSIAN SIGN MI	
+U+103B8	𐎸		OLD PERSIAN SIGN MU	
+U+103B9	𐎹		OLD PERSIAN SIGN YA	
+U+103BA	𐎺		OLD PERSIAN SIGN VA	
+U+103BB	𐎻		OLD PERSIAN SIGN VI	
+U+103BC	𐎼		OLD PERSIAN SIGN RA	
+U+103BD	𐎽		OLD PERSIAN SIGN RU	
+U+103BE	𐎾		OLD PERSIAN SIGN LA	
+U+103BF	𐎿		OLD PERSIAN SIGN SA	
+U+103C0	𐏀		OLD PERSIAN SIGN ZA	
+U+103C1	𐏁		OLD PERSIAN SIGN SHA	
+U+103C2	𐏂		OLD PERSIAN SIGN SSA	
+U+103C3	𐏃		OLD PERSIAN SIGN HA	
+U+103C8	𐏈		OLD PERSIAN SIGN AURAMAZDAA	
+U+103C9	𐏉		OLD PERSIAN SIGN AURAMAZDAA-2	
+U+103CA	𐏊		OLD PERSIAN SIGN AURAMAZDAAHA	
+U+103CB	𐏋		OLD PERSIAN SIGN XSHAAYATHIYA	
+U+103CC	𐏌		OLD PERSIAN SIGN DAHYAAUSH	
+U+103CD	𐏍		OLD PERSIAN SIGN DAHYAAUSH-2	
+U+103CE	𐏎		OLD PERSIAN SIGN BAGA	
+U+103CF	𐏏		OLD PERSIAN SIGN BUUMISH	
+U+103D0	𐏐		OLD PERSIAN WORD DIVIDER	
+U+103D1	𐏑		OLD PERSIAN NUMBER ONE	
+U+103D2	𐏒		OLD PERSIAN NUMBER TWO	
+U+103D3	𐏓		OLD PERSIAN NUMBER TEN	
+U+103D4	𐏔		OLD PERSIAN NUMBER TWENTY	
+U+103D5	𐏕		OLD PERSIAN NUMBER HUNDRED	

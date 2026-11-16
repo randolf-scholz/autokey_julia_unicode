@@ -1,90 +1,90 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16A0	ᚠ	16A0..16FF	Runic	Runic letter fehu feoh fe f		
-U+16A1	ᚡ	16A0..16FF	Runic	Runic letter v		
-U+16A2	ᚢ	16A0..16FF	Runic	Runic letter uruz ur u		
-U+16A3	ᚣ	16A0..16FF	Runic	Runic letter yr		
-U+16A4	ᚤ	16A0..16FF	Runic	Runic letter y		
-U+16A5	ᚥ	16A0..16FF	Runic	Runic letter w		
-U+16A6	ᚦ	16A0..16FF	Runic	Runic letter thurisaz thurs thorn		
-U+16A7	ᚧ	16A0..16FF	Runic	Runic letter eth		
-U+16A8	ᚨ	16A0..16FF	Runic	Runic letter ansuz a		
-U+16A9	ᚩ	16A0..16FF	Runic	Runic letter os o		
-U+16AA	ᚪ	16A0..16FF	Runic	Runic letter ac a		
-U+16AB	ᚫ	16A0..16FF	Runic	Runic letter aesc		
-U+16AC	ᚬ	16A0..16FF	Runic	Runic letter long-branch-oss o		
-U+16AD	ᚭ	16A0..16FF	Runic	Runic letter short-twig-oss o		
-U+16AE	ᚮ	16A0..16FF	Runic	Runic letter o		
-U+16AF	ᚯ	16A0..16FF	Runic	Runic letter oe		
-U+16B0	ᚰ	16A0..16FF	Runic	Runic letter on		
-U+16B1	ᚱ	16A0..16FF	Runic	Runic letter raido rad reid r		
-U+16B2	ᚲ	16A0..16FF	Runic	Runic letter kauna		
-U+16B3	ᚳ	16A0..16FF	Runic	Runic letter cen		
-U+16B4	ᚴ	16A0..16FF	Runic	Runic letter kaun k		
-U+16B5	ᚵ	16A0..16FF	Runic	Runic letter g		
-U+16B6	ᚶ	16A0..16FF	Runic	Runic letter eng		
-U+16B7	ᚷ	16A0..16FF	Runic	Runic letter gebo gyfu g		
-U+16B8	ᚸ	16A0..16FF	Runic	Runic letter gar		
-U+16B9	ᚹ	16A0..16FF	Runic	Runic letter wunjo wynn w		
-U+16BA	ᚺ	16A0..16FF	Runic	Runic letter haglaz h		
-U+16BB	ᚻ	16A0..16FF	Runic	Runic letter haegl h		
-U+16BC	ᚼ	16A0..16FF	Runic	Runic letter long-branch-hagall h		
-U+16BD	ᚽ	16A0..16FF	Runic	Runic letter short-twig-hagall h		
-U+16BE	ᚾ	16A0..16FF	Runic	Runic letter naudiz nyd naud n		
-U+16BF	ᚿ	16A0..16FF	Runic	Runic letter short-twig-naud n		
-U+16C0	ᛀ	16A0..16FF	Runic	Runic letter dotted-n		
-U+16C1	ᛁ	16A0..16FF	Runic	Runic letter isaz is iss i		
-U+16C2	ᛂ	16A0..16FF	Runic	Runic letter e		
-U+16C3	ᛃ	16A0..16FF	Runic	Runic letter jeran j		
-U+16C4	ᛄ	16A0..16FF	Runic	Runic letter ger		
-U+16C5	ᛅ	16A0..16FF	Runic	Runic letter long-branch-ar ae		
-U+16C6	ᛆ	16A0..16FF	Runic	Runic letter short-twig-ar a		
-U+16C7	ᛇ	16A0..16FF	Runic	Runic letter iwaz eoh		
-U+16C8	ᛈ	16A0..16FF	Runic	Runic letter pertho peorth p		
-U+16C9	ᛉ	16A0..16FF	Runic	Runic letter algiz eolhx		
-U+16CA	ᛊ	16A0..16FF	Runic	Runic letter sowilo s		
-U+16CB	ᛋ	16A0..16FF	Runic	Runic letter sigel long-branch-sol s		
-U+16CC	ᛌ	16A0..16FF	Runic	Runic letter short-twig-sol s		
-U+16CD	ᛍ	16A0..16FF	Runic	Runic letter c		
-U+16CE	ᛎ	16A0..16FF	Runic	Runic letter z		
-U+16CF	ᛏ	16A0..16FF	Runic	Runic letter tiwaz tir tyr t		
-U+16D0	ᛐ	16A0..16FF	Runic	Runic letter short-twig-tyr t		
-U+16D1	ᛑ	16A0..16FF	Runic	Runic letter d		
-U+16D2	ᛒ	16A0..16FF	Runic	Runic letter berkanan beorc bjarkan b		
-U+16D3	ᛓ	16A0..16FF	Runic	Runic letter short-twig-bjarkan b		
-U+16D4	ᛔ	16A0..16FF	Runic	Runic letter dotted-p		
-U+16D5	ᛕ	16A0..16FF	Runic	Runic letter open-p		
-U+16D6	ᛖ	16A0..16FF	Runic	Runic letter ehwaz eh e		
-U+16D7	ᛗ	16A0..16FF	Runic	Runic letter mannaz man m		
-U+16D8	ᛘ	16A0..16FF	Runic	Runic letter long-branch-madr m		
-U+16D9	ᛙ	16A0..16FF	Runic	Runic letter short-twig-madr m		
-U+16DA	ᛚ	16A0..16FF	Runic	Runic letter laukaz lagu logr l		
-U+16DB	ᛛ	16A0..16FF	Runic	Runic letter dotted-l		
-U+16DC	ᛜ	16A0..16FF	Runic	Runic letter ingwaz		
-U+16DD	ᛝ	16A0..16FF	Runic	Runic letter ing		
-U+16DE	ᛞ	16A0..16FF	Runic	Runic letter dagaz daeg d		
-U+16DF	ᛟ	16A0..16FF	Runic	Runic letter othalan ethel o		
-U+16E0	ᛠ	16A0..16FF	Runic	Runic letter ear		
-U+16E1	ᛡ	16A0..16FF	Runic	Runic letter ior		
-U+16E2	ᛢ	16A0..16FF	Runic	Runic letter cweorth		
-U+16E3	ᛣ	16A0..16FF	Runic	Runic letter calc		
-U+16E4	ᛤ	16A0..16FF	Runic	Runic letter cealc		
-U+16E5	ᛥ	16A0..16FF	Runic	Runic letter stan		
-U+16E6	ᛦ	16A0..16FF	Runic	Runic letter long-branch-yr		
-U+16E7	ᛧ	16A0..16FF	Runic	Runic letter short-twig-yr		
-U+16E8	ᛨ	16A0..16FF	Runic	Runic letter icelandic-yr		
-U+16E9	ᛩ	16A0..16FF	Runic	Runic letter q		
-U+16EA	ᛪ	16A0..16FF	Runic	Runic letter x		
-U+16EB	᛫	16A0..16FF	Runic	Runic single punctuation		
-U+16EC	᛬	16A0..16FF	Runic	Runic multiple punctuation		
-U+16ED	᛭	16A0..16FF	Runic	Runic cross punctuation		
-U+16EE	ᛮ	16A0..16FF	Runic	Runic arlaug symbol		
-U+16EF	ᛯ	16A0..16FF	Runic	Runic tvimadur symbol		
-U+16F0	ᛰ	16A0..16FF	Runic	Runic belgthor symbol		
-U+16F1	ᛱ	16A0..16FF	Runic	Runic letter k		
-U+16F2	ᛲ	16A0..16FF	Runic	Runic letter sh		
-U+16F3	ᛳ	16A0..16FF	Runic	Runic letter oo		
-U+16F4	ᛴ	16A0..16FF	Runic	Runic letter franks casket os		
-U+16F5	ᛵ	16A0..16FF	Runic	Runic letter franks casket is		
-U+16F6	ᛶ	16A0..16FF	Runic	Runic letter franks casket eh		
-U+16F7	ᛷ	16A0..16FF	Runic	Runic letter franks casket ac		
-U+16F8	ᛸ	16A0..16FF	Runic	Runic letter franks casket aesc		
+code_points	chars	tab_completions	unicode_name	base
+U+16A0	ᚠ		RUNIC LETTER FEHU FEOH FE F	
+U+16A1	ᚡ		RUNIC LETTER V	
+U+16A2	ᚢ		RUNIC LETTER URUZ UR U	
+U+16A3	ᚣ		RUNIC LETTER YR	
+U+16A4	ᚤ		RUNIC LETTER Y	
+U+16A5	ᚥ		RUNIC LETTER W	
+U+16A6	ᚦ		RUNIC LETTER THURISAZ THURS THORN	
+U+16A7	ᚧ		RUNIC LETTER ETH	
+U+16A8	ᚨ		RUNIC LETTER ANSUZ A	
+U+16A9	ᚩ		RUNIC LETTER OS O	
+U+16AA	ᚪ		RUNIC LETTER AC A	
+U+16AB	ᚫ		RUNIC LETTER AESC	
+U+16AC	ᚬ		RUNIC LETTER LONG-BRANCH-OSS O	
+U+16AD	ᚭ		RUNIC LETTER SHORT-TWIG-OSS O	
+U+16AE	ᚮ		RUNIC LETTER O	
+U+16AF	ᚯ		RUNIC LETTER OE	
+U+16B0	ᚰ		RUNIC LETTER ON	
+U+16B1	ᚱ		RUNIC LETTER RAIDO RAD REID R	
+U+16B2	ᚲ		RUNIC LETTER KAUNA	
+U+16B3	ᚳ		RUNIC LETTER CEN	
+U+16B4	ᚴ		RUNIC LETTER KAUN K	
+U+16B5	ᚵ		RUNIC LETTER G	
+U+16B6	ᚶ		RUNIC LETTER ENG	
+U+16B7	ᚷ		RUNIC LETTER GEBO GYFU G	
+U+16B8	ᚸ		RUNIC LETTER GAR	
+U+16B9	ᚹ		RUNIC LETTER WUNJO WYNN W	
+U+16BA	ᚺ		RUNIC LETTER HAGLAZ H	
+U+16BB	ᚻ		RUNIC LETTER HAEGL H	
+U+16BC	ᚼ		RUNIC LETTER LONG-BRANCH-HAGALL H	
+U+16BD	ᚽ		RUNIC LETTER SHORT-TWIG-HAGALL H	
+U+16BE	ᚾ		RUNIC LETTER NAUDIZ NYD NAUD N	
+U+16BF	ᚿ		RUNIC LETTER SHORT-TWIG-NAUD N	
+U+16C0	ᛀ		RUNIC LETTER DOTTED-N	
+U+16C1	ᛁ		RUNIC LETTER ISAZ IS ISS I	
+U+16C2	ᛂ		RUNIC LETTER E	
+U+16C3	ᛃ		RUNIC LETTER JERAN J	
+U+16C4	ᛄ		RUNIC LETTER GER	
+U+16C5	ᛅ		RUNIC LETTER LONG-BRANCH-AR AE	
+U+16C6	ᛆ		RUNIC LETTER SHORT-TWIG-AR A	
+U+16C7	ᛇ		RUNIC LETTER IWAZ EOH	
+U+16C8	ᛈ		RUNIC LETTER PERTHO PEORTH P	
+U+16C9	ᛉ		RUNIC LETTER ALGIZ EOLHX	
+U+16CA	ᛊ		RUNIC LETTER SOWILO S	
+U+16CB	ᛋ		RUNIC LETTER SIGEL LONG-BRANCH-SOL S	
+U+16CC	ᛌ		RUNIC LETTER SHORT-TWIG-SOL S	
+U+16CD	ᛍ		RUNIC LETTER C	
+U+16CE	ᛎ		RUNIC LETTER Z	
+U+16CF	ᛏ		RUNIC LETTER TIWAZ TIR TYR T	
+U+16D0	ᛐ		RUNIC LETTER SHORT-TWIG-TYR T	
+U+16D1	ᛑ		RUNIC LETTER D	
+U+16D2	ᛒ		RUNIC LETTER BERKANAN BEORC BJARKAN B	
+U+16D3	ᛓ		RUNIC LETTER SHORT-TWIG-BJARKAN B	
+U+16D4	ᛔ		RUNIC LETTER DOTTED-P	
+U+16D5	ᛕ		RUNIC LETTER OPEN-P	
+U+16D6	ᛖ		RUNIC LETTER EHWAZ EH E	
+U+16D7	ᛗ		RUNIC LETTER MANNAZ MAN M	
+U+16D8	ᛘ		RUNIC LETTER LONG-BRANCH-MADR M	
+U+16D9	ᛙ		RUNIC LETTER SHORT-TWIG-MADR M	
+U+16DA	ᛚ		RUNIC LETTER LAUKAZ LAGU LOGR L	
+U+16DB	ᛛ		RUNIC LETTER DOTTED-L	
+U+16DC	ᛜ		RUNIC LETTER INGWAZ	
+U+16DD	ᛝ		RUNIC LETTER ING	
+U+16DE	ᛞ		RUNIC LETTER DAGAZ DAEG D	
+U+16DF	ᛟ		RUNIC LETTER OTHALAN ETHEL O	
+U+16E0	ᛠ		RUNIC LETTER EAR	
+U+16E1	ᛡ		RUNIC LETTER IOR	
+U+16E2	ᛢ		RUNIC LETTER CWEORTH	
+U+16E3	ᛣ		RUNIC LETTER CALC	
+U+16E4	ᛤ		RUNIC LETTER CEALC	
+U+16E5	ᛥ		RUNIC LETTER STAN	
+U+16E6	ᛦ		RUNIC LETTER LONG-BRANCH-YR	
+U+16E7	ᛧ		RUNIC LETTER SHORT-TWIG-YR	
+U+16E8	ᛨ		RUNIC LETTER ICELANDIC-YR	
+U+16E9	ᛩ		RUNIC LETTER Q	
+U+16EA	ᛪ		RUNIC LETTER X	
+U+16EB	᛫		RUNIC SINGLE PUNCTUATION	
+U+16EC	᛬		RUNIC MULTIPLE PUNCTUATION	
+U+16ED	᛭		RUNIC CROSS PUNCTUATION	
+U+16EE	ᛮ		RUNIC ARLAUG SYMBOL	
+U+16EF	ᛯ		RUNIC TVIMADUR SYMBOL	
+U+16F0	ᛰ		RUNIC BELGTHOR SYMBOL	
+U+16F1	ᛱ		RUNIC LETTER K	
+U+16F2	ᛲ		RUNIC LETTER SH	
+U+16F3	ᛳ		RUNIC LETTER OO	
+U+16F4	ᛴ		RUNIC LETTER FRANKS CASKET OS	
+U+16F5	ᛵ		RUNIC LETTER FRANKS CASKET IS	
+U+16F6	ᛶ		RUNIC LETTER FRANKS CASKET EH	
+U+16F7	ᛷ		RUNIC LETTER FRANKS CASKET AC	
+U+16F8	ᛸ		RUNIC LETTER FRANKS CASKET AESC	

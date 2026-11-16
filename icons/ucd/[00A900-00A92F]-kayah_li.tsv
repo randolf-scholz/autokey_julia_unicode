@@ -1,49 +1,49 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A900	꤀	A900..A92F	Kayah Li	Kayah li digit zero		
-U+A901	꤁	A900..A92F	Kayah Li	Kayah li digit one		
-U+A902	꤂	A900..A92F	Kayah Li	Kayah li digit two		
-U+A903	꤃	A900..A92F	Kayah Li	Kayah li digit three		
-U+A904	꤄	A900..A92F	Kayah Li	Kayah li digit four		
-U+A905	꤅	A900..A92F	Kayah Li	Kayah li digit five		
-U+A906	꤆	A900..A92F	Kayah Li	Kayah li digit six		
-U+A907	꤇	A900..A92F	Kayah Li	Kayah li digit seven		
-U+A908	꤈	A900..A92F	Kayah Li	Kayah li digit eight		
-U+A909	꤉	A900..A92F	Kayah Li	Kayah li digit nine		
-U+A90A	ꤊ	A900..A92F	Kayah Li	Kayah li letter ka		
-U+A90B	ꤋ	A900..A92F	Kayah Li	Kayah li letter kha		
-U+A90C	ꤌ	A900..A92F	Kayah Li	Kayah li letter ga		
-U+A90D	ꤍ	A900..A92F	Kayah Li	Kayah li letter nga		
-U+A90E	ꤎ	A900..A92F	Kayah Li	Kayah li letter sa		
-U+A90F	ꤏ	A900..A92F	Kayah Li	Kayah li letter sha		
-U+A910	ꤐ	A900..A92F	Kayah Li	Kayah li letter za		
-U+A911	ꤑ	A900..A92F	Kayah Li	Kayah li letter nya		
-U+A912	ꤒ	A900..A92F	Kayah Li	Kayah li letter ta		
-U+A913	ꤓ	A900..A92F	Kayah Li	Kayah li letter hta		
-U+A914	ꤔ	A900..A92F	Kayah Li	Kayah li letter na		
-U+A915	ꤕ	A900..A92F	Kayah Li	Kayah li letter pa		
-U+A916	ꤖ	A900..A92F	Kayah Li	Kayah li letter pha		
-U+A917	ꤗ	A900..A92F	Kayah Li	Kayah li letter ma		
-U+A918	ꤘ	A900..A92F	Kayah Li	Kayah li letter da		
-U+A919	ꤙ	A900..A92F	Kayah Li	Kayah li letter ba		
-U+A91A	ꤚ	A900..A92F	Kayah Li	Kayah li letter ra		
-U+A91B	ꤛ	A900..A92F	Kayah Li	Kayah li letter ya		
-U+A91C	ꤜ	A900..A92F	Kayah Li	Kayah li letter la		
-U+A91D	ꤝ	A900..A92F	Kayah Li	Kayah li letter wa		
-U+A91E	ꤞ	A900..A92F	Kayah Li	Kayah li letter tha		
-U+A91F	ꤟ	A900..A92F	Kayah Li	Kayah li letter ha		
-U+A920	ꤠ	A900..A92F	Kayah Li	Kayah li letter va		
-U+A921	ꤡ	A900..A92F	Kayah Li	Kayah li letter ca		
-U+A922	ꤢ	A900..A92F	Kayah Li	Kayah li letter a		
-U+A923	ꤣ	A900..A92F	Kayah Li	Kayah li letter oe		
-U+A924	ꤤ	A900..A92F	Kayah Li	Kayah li letter i		
-U+A925	ꤥ	A900..A92F	Kayah Li	Kayah li letter oo		
-U+A926	ꤦ	A900..A92F	Kayah Li	Kayah li vowel ue		
-U+A927	ꤧ	A900..A92F	Kayah Li	Kayah li vowel e		
-U+A928	ꤨ	A900..A92F	Kayah Li	Kayah li vowel u		
-U+A929	ꤩ	A900..A92F	Kayah Li	Kayah li vowel ee		
-U+A92A	ꤪ	A900..A92F	Kayah Li	Kayah li vowel o		
-U+A92B	꤫	A900..A92F	Kayah Li	Kayah li tone plophu		
-U+A92C	꤬	A900..A92F	Kayah Li	Kayah li tone calya		
-U+A92D	꤭	A900..A92F	Kayah Li	Kayah li tone calya plophu		
-U+A92E	꤮	A900..A92F	Kayah Li	Kayah li sign cwi		
-U+A92F	꤯	A900..A92F	Kayah Li	Kayah li sign shya		
+code_points	chars	tab_completions	unicode_name	base
+U+A900	꤀		KAYAH LI DIGIT ZERO	
+U+A901	꤁		KAYAH LI DIGIT ONE	
+U+A902	꤂		KAYAH LI DIGIT TWO	
+U+A903	꤃		KAYAH LI DIGIT THREE	
+U+A904	꤄		KAYAH LI DIGIT FOUR	
+U+A905	꤅		KAYAH LI DIGIT FIVE	
+U+A906	꤆		KAYAH LI DIGIT SIX	
+U+A907	꤇		KAYAH LI DIGIT SEVEN	
+U+A908	꤈		KAYAH LI DIGIT EIGHT	
+U+A909	꤉		KAYAH LI DIGIT NINE	
+U+A90A	ꤊ		KAYAH LI LETTER KA	
+U+A90B	ꤋ		KAYAH LI LETTER KHA	
+U+A90C	ꤌ		KAYAH LI LETTER GA	
+U+A90D	ꤍ		KAYAH LI LETTER NGA	
+U+A90E	ꤎ		KAYAH LI LETTER SA	
+U+A90F	ꤏ		KAYAH LI LETTER SHA	
+U+A910	ꤐ		KAYAH LI LETTER ZA	
+U+A911	ꤑ		KAYAH LI LETTER NYA	
+U+A912	ꤒ		KAYAH LI LETTER TA	
+U+A913	ꤓ		KAYAH LI LETTER HTA	
+U+A914	ꤔ		KAYAH LI LETTER NA	
+U+A915	ꤕ		KAYAH LI LETTER PA	
+U+A916	ꤖ		KAYAH LI LETTER PHA	
+U+A917	ꤗ		KAYAH LI LETTER MA	
+U+A918	ꤘ		KAYAH LI LETTER DA	
+U+A919	ꤙ		KAYAH LI LETTER BA	
+U+A91A	ꤚ		KAYAH LI LETTER RA	
+U+A91B	ꤛ		KAYAH LI LETTER YA	
+U+A91C	ꤜ		KAYAH LI LETTER LA	
+U+A91D	ꤝ		KAYAH LI LETTER WA	
+U+A91E	ꤞ		KAYAH LI LETTER THA	
+U+A91F	ꤟ		KAYAH LI LETTER HA	
+U+A920	ꤠ		KAYAH LI LETTER VA	
+U+A921	ꤡ		KAYAH LI LETTER CA	
+U+A922	ꤢ		KAYAH LI LETTER A	
+U+A923	ꤣ		KAYAH LI LETTER OE	
+U+A924	ꤤ		KAYAH LI LETTER I	
+U+A925	ꤥ		KAYAH LI LETTER OO	
+U+A926	ꤦ		KAYAH LI VOWEL UE	
+U+A927	ꤧ		KAYAH LI VOWEL E	
+U+A928	ꤨ		KAYAH LI VOWEL U	
+U+A929	ꤩ		KAYAH LI VOWEL EE	
+U+A92A	ꤪ		KAYAH LI VOWEL O	
+U+A92B	꤫		KAYAH LI TONE PLOPHU	
+U+A92C	꤬		KAYAH LI TONE CALYA	
+U+A92D	꤭		KAYAH LI TONE CALYA PLOPHU	
+U+A92E	꤮		KAYAH LI SIGN CWI	
+U+A92F	꤯		KAYAH LI SIGN SHYA	

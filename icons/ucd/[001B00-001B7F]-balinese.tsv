@@ -1,128 +1,128 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1B00	ᬀ	1B00..1B7F	Balinese	Balinese sign ulu ricem		
-U+1B01	ᬁ	1B00..1B7F	Balinese	Balinese sign ulu candra		
-U+1B02	ᬂ	1B00..1B7F	Balinese	Balinese sign cecek		
-U+1B03	ᬃ	1B00..1B7F	Balinese	Balinese sign surang		
-U+1B04	ᬄ	1B00..1B7F	Balinese	Balinese sign bisah		
-U+1B05	ᬅ	1B00..1B7F	Balinese	Balinese letter akara		
-U+1B06	ᬆ	1B00..1B7F	Balinese	Balinese letter akara tedung		
-U+1B07	ᬇ	1B00..1B7F	Balinese	Balinese letter ikara		
-U+1B08	ᬈ	1B00..1B7F	Balinese	Balinese letter ikara tedung		
-U+1B09	ᬉ	1B00..1B7F	Balinese	Balinese letter ukara		
-U+1B0A	ᬊ	1B00..1B7F	Balinese	Balinese letter ukara tedung		
-U+1B0B	ᬋ	1B00..1B7F	Balinese	Balinese letter ra repa		
-U+1B0C	ᬌ	1B00..1B7F	Balinese	Balinese letter ra repa tedung		
-U+1B0D	ᬍ	1B00..1B7F	Balinese	Balinese letter la lenga		
-U+1B0E	ᬎ	1B00..1B7F	Balinese	Balinese letter la lenga tedung		
-U+1B0F	ᬏ	1B00..1B7F	Balinese	Balinese letter ekara		
-U+1B10	ᬐ	1B00..1B7F	Balinese	Balinese letter aikara		
-U+1B11	ᬑ	1B00..1B7F	Balinese	Balinese letter okara		
-U+1B12	ᬒ	1B00..1B7F	Balinese	Balinese letter okara tedung		
-U+1B13	ᬓ	1B00..1B7F	Balinese	Balinese letter ka		
-U+1B14	ᬔ	1B00..1B7F	Balinese	Balinese letter ka mahaprana		
-U+1B15	ᬕ	1B00..1B7F	Balinese	Balinese letter ga		
-U+1B16	ᬖ	1B00..1B7F	Balinese	Balinese letter ga gora		
-U+1B17	ᬗ	1B00..1B7F	Balinese	Balinese letter nga		
-U+1B18	ᬘ	1B00..1B7F	Balinese	Balinese letter ca		
-U+1B19	ᬙ	1B00..1B7F	Balinese	Balinese letter ca laca		
-U+1B1A	ᬚ	1B00..1B7F	Balinese	Balinese letter ja		
-U+1B1B	ᬛ	1B00..1B7F	Balinese	Balinese letter ja jera		
-U+1B1C	ᬜ	1B00..1B7F	Balinese	Balinese letter nya		
-U+1B1D	ᬝ	1B00..1B7F	Balinese	Balinese letter ta latik		
-U+1B1E	ᬞ	1B00..1B7F	Balinese	Balinese letter ta murda mahaprana		
-U+1B1F	ᬟ	1B00..1B7F	Balinese	Balinese letter da murda alpaprana		
-U+1B20	ᬠ	1B00..1B7F	Balinese	Balinese letter da murda mahaprana		
-U+1B21	ᬡ	1B00..1B7F	Balinese	Balinese letter na rambat		
-U+1B22	ᬢ	1B00..1B7F	Balinese	Balinese letter ta		
-U+1B23	ᬣ	1B00..1B7F	Balinese	Balinese letter ta tawa		
-U+1B24	ᬤ	1B00..1B7F	Balinese	Balinese letter da		
-U+1B25	ᬥ	1B00..1B7F	Balinese	Balinese letter da madu		
-U+1B26	ᬦ	1B00..1B7F	Balinese	Balinese letter na		
-U+1B27	ᬧ	1B00..1B7F	Balinese	Balinese letter pa		
-U+1B28	ᬨ	1B00..1B7F	Balinese	Balinese letter pa kapal		
-U+1B29	ᬩ	1B00..1B7F	Balinese	Balinese letter ba		
-U+1B2A	ᬪ	1B00..1B7F	Balinese	Balinese letter ba kembang		
-U+1B2B	ᬫ	1B00..1B7F	Balinese	Balinese letter ma		
-U+1B2C	ᬬ	1B00..1B7F	Balinese	Balinese letter ya		
-U+1B2D	ᬭ	1B00..1B7F	Balinese	Balinese letter ra		
-U+1B2E	ᬮ	1B00..1B7F	Balinese	Balinese letter la		
-U+1B2F	ᬯ	1B00..1B7F	Balinese	Balinese letter wa		
-U+1B30	ᬰ	1B00..1B7F	Balinese	Balinese letter sa saga		
-U+1B31	ᬱ	1B00..1B7F	Balinese	Balinese letter sa sapa		
-U+1B32	ᬲ	1B00..1B7F	Balinese	Balinese letter sa		
-U+1B33	ᬳ	1B00..1B7F	Balinese	Balinese letter ha		
-U+1B34	᬴	1B00..1B7F	Balinese	Balinese sign rerekan		
-U+1B35	ᬵ	1B00..1B7F	Balinese	Balinese vowel sign tedung		
-U+1B36	ᬶ	1B00..1B7F	Balinese	Balinese vowel sign ulu		
-U+1B37	ᬷ	1B00..1B7F	Balinese	Balinese vowel sign ulu sari		
-U+1B38	ᬸ	1B00..1B7F	Balinese	Balinese vowel sign suku		
-U+1B39	ᬹ	1B00..1B7F	Balinese	Balinese vowel sign suku ilut		
-U+1B3A	ᬺ	1B00..1B7F	Balinese	Balinese vowel sign ra repa		
-U+1B3B	ᬻ	1B00..1B7F	Balinese	Balinese vowel sign ra repa tedung		
-U+1B3C	ᬼ	1B00..1B7F	Balinese	Balinese vowel sign la lenga		
-U+1B3D	ᬽ	1B00..1B7F	Balinese	Balinese vowel sign la lenga tedung		
-U+1B3E	ᬾ	1B00..1B7F	Balinese	Balinese vowel sign taling		
-U+1B3F	ᬿ	1B00..1B7F	Balinese	Balinese vowel sign taling repa		
-U+1B40	ᭀ	1B00..1B7F	Balinese	Balinese vowel sign taling tedung		
-U+1B41	ᭁ	1B00..1B7F	Balinese	Balinese vowel sign taling repa tedung		
-U+1B42	ᭂ	1B00..1B7F	Balinese	Balinese vowel sign pepet		
-U+1B43	ᭃ	1B00..1B7F	Balinese	Balinese vowel sign pepet tedung		
-U+1B44	᭄	1B00..1B7F	Balinese	Balinese adeg adeg		
-U+1B45	ᭅ	1B00..1B7F	Balinese	Balinese letter kaf sasak		
-U+1B46	ᭆ	1B00..1B7F	Balinese	Balinese letter khot sasak		
-U+1B47	ᭇ	1B00..1B7F	Balinese	Balinese letter tzir sasak		
-U+1B48	ᭈ	1B00..1B7F	Balinese	Balinese letter ef sasak		
-U+1B49	ᭉ	1B00..1B7F	Balinese	Balinese letter ve sasak		
-U+1B4A	ᭊ	1B00..1B7F	Balinese	Balinese letter zal sasak		
-U+1B4B	ᭋ	1B00..1B7F	Balinese	Balinese letter asyura sasak		
-U+1B4C	ᭌ	1B00..1B7F	Balinese	Balinese letter archaic jnya		
-U+1B4E	᭎	1B00..1B7F	Balinese	Balinese inverted carik siki		
-U+1B4F	᭏	1B00..1B7F	Balinese	Balinese inverted carik pareren		
-U+1B50	᭐	1B00..1B7F	Balinese	Balinese digit zero		
-U+1B51	᭑	1B00..1B7F	Balinese	Balinese digit one		
-U+1B52	᭒	1B00..1B7F	Balinese	Balinese digit two		
-U+1B53	᭓	1B00..1B7F	Balinese	Balinese digit three		
-U+1B54	᭔	1B00..1B7F	Balinese	Balinese digit four		
-U+1B55	᭕	1B00..1B7F	Balinese	Balinese digit five		
-U+1B56	᭖	1B00..1B7F	Balinese	Balinese digit six		
-U+1B57	᭗	1B00..1B7F	Balinese	Balinese digit seven		
-U+1B58	᭘	1B00..1B7F	Balinese	Balinese digit eight		
-U+1B59	᭙	1B00..1B7F	Balinese	Balinese digit nine		
-U+1B5A	᭚	1B00..1B7F	Balinese	Balinese panti		
-U+1B5B	᭛	1B00..1B7F	Balinese	Balinese pamada		
-U+1B5C	᭜	1B00..1B7F	Balinese	Balinese windu		
-U+1B5D	᭝	1B00..1B7F	Balinese	Balinese carik pamungkah		
-U+1B5E	᭞	1B00..1B7F	Balinese	Balinese carik siki		
-U+1B5F	᭟	1B00..1B7F	Balinese	Balinese carik pareren		
-U+1B60	᭠	1B00..1B7F	Balinese	Balinese pameneng		
-U+1B61	᭡	1B00..1B7F	Balinese	Balinese musical symbol dong		
-U+1B62	᭢	1B00..1B7F	Balinese	Balinese musical symbol deng		
-U+1B63	᭣	1B00..1B7F	Balinese	Balinese musical symbol dung		
-U+1B64	᭤	1B00..1B7F	Balinese	Balinese musical symbol dang		
-U+1B65	᭥	1B00..1B7F	Balinese	Balinese musical symbol dang surang		
-U+1B66	᭦	1B00..1B7F	Balinese	Balinese musical symbol ding		
-U+1B67	᭧	1B00..1B7F	Balinese	Balinese musical symbol daeng		
-U+1B68	᭨	1B00..1B7F	Balinese	Balinese musical symbol deung		
-U+1B69	᭩	1B00..1B7F	Balinese	Balinese musical symbol daing		
-U+1B6A	᭪	1B00..1B7F	Balinese	Balinese musical symbol dang gede		
-U+1B6B	᭫	1B00..1B7F	Balinese	Balinese musical symbol combining tegeh		
-U+1B6C	᭬	1B00..1B7F	Balinese	Balinese musical symbol combining endep		
-U+1B6D	᭭	1B00..1B7F	Balinese	Balinese musical symbol combining kempul		
-U+1B6E	᭮	1B00..1B7F	Balinese	Balinese musical symbol combining kempli		
-U+1B6F	᭯	1B00..1B7F	Balinese	Balinese musical symbol combining jegogan		
-U+1B70	᭰	1B00..1B7F	Balinese	Balinese musical symbol combining kempul with jegogan		
-U+1B71	᭱	1B00..1B7F	Balinese	Balinese musical symbol combining kempli with jegogan		
-U+1B72	᭲	1B00..1B7F	Balinese	Balinese musical symbol combining bende		
-U+1B73	᭳	1B00..1B7F	Balinese	Balinese musical symbol combining gong		
-U+1B74	᭴	1B00..1B7F	Balinese	Balinese musical symbol right-hand open dug		
-U+1B75	᭵	1B00..1B7F	Balinese	Balinese musical symbol right-hand open dag		
-U+1B76	᭶	1B00..1B7F	Balinese	Balinese musical symbol right-hand closed tuk		
-U+1B77	᭷	1B00..1B7F	Balinese	Balinese musical symbol right-hand closed tak		
-U+1B78	᭸	1B00..1B7F	Balinese	Balinese musical symbol left-hand open pang		
-U+1B79	᭹	1B00..1B7F	Balinese	Balinese musical symbol left-hand open pung		
-U+1B7A	᭺	1B00..1B7F	Balinese	Balinese musical symbol left-hand closed plak		
-U+1B7B	᭻	1B00..1B7F	Balinese	Balinese musical symbol left-hand closed pluk		
-U+1B7C	᭼	1B00..1B7F	Balinese	Balinese musical symbol left-hand open ping		
-U+1B7D	᭽	1B00..1B7F	Balinese	Balinese panti lantang		
-U+1B7E	᭾	1B00..1B7F	Balinese	Balinese pamada lantang		
-U+1B7F	᭿	1B00..1B7F	Balinese	Balinese panti bawak		
+code_points	chars	tab_completions	unicode_name	base
+U+1B00	ᬀ		BALINESE SIGN ULU RICEM	
+U+1B01	ᬁ		BALINESE SIGN ULU CANDRA	
+U+1B02	ᬂ		BALINESE SIGN CECEK	
+U+1B03	ᬃ		BALINESE SIGN SURANG	
+U+1B04	ᬄ		BALINESE SIGN BISAH	
+U+1B05	ᬅ		BALINESE LETTER AKARA	
+U+1B06	ᬆ		BALINESE LETTER AKARA TEDUNG	
+U+1B07	ᬇ		BALINESE LETTER IKARA	
+U+1B08	ᬈ		BALINESE LETTER IKARA TEDUNG	
+U+1B09	ᬉ		BALINESE LETTER UKARA	
+U+1B0A	ᬊ		BALINESE LETTER UKARA TEDUNG	
+U+1B0B	ᬋ		BALINESE LETTER RA REPA	
+U+1B0C	ᬌ		BALINESE LETTER RA REPA TEDUNG	
+U+1B0D	ᬍ		BALINESE LETTER LA LENGA	
+U+1B0E	ᬎ		BALINESE LETTER LA LENGA TEDUNG	
+U+1B0F	ᬏ		BALINESE LETTER EKARA	
+U+1B10	ᬐ		BALINESE LETTER AIKARA	
+U+1B11	ᬑ		BALINESE LETTER OKARA	
+U+1B12	ᬒ		BALINESE LETTER OKARA TEDUNG	
+U+1B13	ᬓ		BALINESE LETTER KA	
+U+1B14	ᬔ		BALINESE LETTER KA MAHAPRANA	
+U+1B15	ᬕ		BALINESE LETTER GA	
+U+1B16	ᬖ		BALINESE LETTER GA GORA	
+U+1B17	ᬗ		BALINESE LETTER NGA	
+U+1B18	ᬘ		BALINESE LETTER CA	
+U+1B19	ᬙ		BALINESE LETTER CA LACA	
+U+1B1A	ᬚ		BALINESE LETTER JA	
+U+1B1B	ᬛ		BALINESE LETTER JA JERA	
+U+1B1C	ᬜ		BALINESE LETTER NYA	
+U+1B1D	ᬝ		BALINESE LETTER TA LATIK	
+U+1B1E	ᬞ		BALINESE LETTER TA MURDA MAHAPRANA	
+U+1B1F	ᬟ		BALINESE LETTER DA MURDA ALPAPRANA	
+U+1B20	ᬠ		BALINESE LETTER DA MURDA MAHAPRANA	
+U+1B21	ᬡ		BALINESE LETTER NA RAMBAT	
+U+1B22	ᬢ		BALINESE LETTER TA	
+U+1B23	ᬣ		BALINESE LETTER TA TAWA	
+U+1B24	ᬤ		BALINESE LETTER DA	
+U+1B25	ᬥ		BALINESE LETTER DA MADU	
+U+1B26	ᬦ		BALINESE LETTER NA	
+U+1B27	ᬧ		BALINESE LETTER PA	
+U+1B28	ᬨ		BALINESE LETTER PA KAPAL	
+U+1B29	ᬩ		BALINESE LETTER BA	
+U+1B2A	ᬪ		BALINESE LETTER BA KEMBANG	
+U+1B2B	ᬫ		BALINESE LETTER MA	
+U+1B2C	ᬬ		BALINESE LETTER YA	
+U+1B2D	ᬭ		BALINESE LETTER RA	
+U+1B2E	ᬮ		BALINESE LETTER LA	
+U+1B2F	ᬯ		BALINESE LETTER WA	
+U+1B30	ᬰ		BALINESE LETTER SA SAGA	
+U+1B31	ᬱ		BALINESE LETTER SA SAPA	
+U+1B32	ᬲ		BALINESE LETTER SA	
+U+1B33	ᬳ		BALINESE LETTER HA	
+U+1B34	᬴		BALINESE SIGN REREKAN	
+U+1B35	ᬵ		BALINESE VOWEL SIGN TEDUNG	
+U+1B36	ᬶ		BALINESE VOWEL SIGN ULU	
+U+1B37	ᬷ		BALINESE VOWEL SIGN ULU SARI	
+U+1B38	ᬸ		BALINESE VOWEL SIGN SUKU	
+U+1B39	ᬹ		BALINESE VOWEL SIGN SUKU ILUT	
+U+1B3A	ᬺ		BALINESE VOWEL SIGN RA REPA	
+U+1B3B	ᬻ		BALINESE VOWEL SIGN RA REPA TEDUNG	
+U+1B3C	ᬼ		BALINESE VOWEL SIGN LA LENGA	
+U+1B3D	ᬽ		BALINESE VOWEL SIGN LA LENGA TEDUNG	
+U+1B3E	ᬾ		BALINESE VOWEL SIGN TALING	
+U+1B3F	ᬿ		BALINESE VOWEL SIGN TALING REPA	
+U+1B40	ᭀ		BALINESE VOWEL SIGN TALING TEDUNG	
+U+1B41	ᭁ		BALINESE VOWEL SIGN TALING REPA TEDUNG	
+U+1B42	ᭂ		BALINESE VOWEL SIGN PEPET	
+U+1B43	ᭃ		BALINESE VOWEL SIGN PEPET TEDUNG	
+U+1B44	᭄		BALINESE ADEG ADEG	
+U+1B45	ᭅ		BALINESE LETTER KAF SASAK	
+U+1B46	ᭆ		BALINESE LETTER KHOT SASAK	
+U+1B47	ᭇ		BALINESE LETTER TZIR SASAK	
+U+1B48	ᭈ		BALINESE LETTER EF SASAK	
+U+1B49	ᭉ		BALINESE LETTER VE SASAK	
+U+1B4A	ᭊ		BALINESE LETTER ZAL SASAK	
+U+1B4B	ᭋ		BALINESE LETTER ASYURA SASAK	
+U+1B4C	ᭌ		BALINESE LETTER ARCHAIC JNYA	
+U+1B4E	᭎		BALINESE INVERTED CARIK SIKI	
+U+1B4F	᭏		BALINESE INVERTED CARIK PAREREN	
+U+1B50	᭐		BALINESE DIGIT ZERO	
+U+1B51	᭑		BALINESE DIGIT ONE	
+U+1B52	᭒		BALINESE DIGIT TWO	
+U+1B53	᭓		BALINESE DIGIT THREE	
+U+1B54	᭔		BALINESE DIGIT FOUR	
+U+1B55	᭕		BALINESE DIGIT FIVE	
+U+1B56	᭖		BALINESE DIGIT SIX	
+U+1B57	᭗		BALINESE DIGIT SEVEN	
+U+1B58	᭘		BALINESE DIGIT EIGHT	
+U+1B59	᭙		BALINESE DIGIT NINE	
+U+1B5A	᭚		BALINESE PANTI	
+U+1B5B	᭛		BALINESE PAMADA	
+U+1B5C	᭜		BALINESE WINDU	
+U+1B5D	᭝		BALINESE CARIK PAMUNGKAH	
+U+1B5E	᭞		BALINESE CARIK SIKI	
+U+1B5F	᭟		BALINESE CARIK PAREREN	
+U+1B60	᭠		BALINESE PAMENENG	
+U+1B61	᭡		BALINESE MUSICAL SYMBOL DONG	
+U+1B62	᭢		BALINESE MUSICAL SYMBOL DENG	
+U+1B63	᭣		BALINESE MUSICAL SYMBOL DUNG	
+U+1B64	᭤		BALINESE MUSICAL SYMBOL DANG	
+U+1B65	᭥		BALINESE MUSICAL SYMBOL DANG SURANG	
+U+1B66	᭦		BALINESE MUSICAL SYMBOL DING	
+U+1B67	᭧		BALINESE MUSICAL SYMBOL DAENG	
+U+1B68	᭨		BALINESE MUSICAL SYMBOL DEUNG	
+U+1B69	᭩		BALINESE MUSICAL SYMBOL DAING	
+U+1B6A	᭪		BALINESE MUSICAL SYMBOL DANG GEDE	
+U+1B6B	᭫		BALINESE MUSICAL SYMBOL COMBINING TEGEH	
+U+1B6C	᭬		BALINESE MUSICAL SYMBOL COMBINING ENDEP	
+U+1B6D	᭭		BALINESE MUSICAL SYMBOL COMBINING KEMPUL	
+U+1B6E	᭮		BALINESE MUSICAL SYMBOL COMBINING KEMPLI	
+U+1B6F	᭯		BALINESE MUSICAL SYMBOL COMBINING JEGOGAN	
+U+1B70	᭰		BALINESE MUSICAL SYMBOL COMBINING KEMPUL WITH JEGOGAN	
+U+1B71	᭱		BALINESE MUSICAL SYMBOL COMBINING KEMPLI WITH JEGOGAN	
+U+1B72	᭲		BALINESE MUSICAL SYMBOL COMBINING BENDE	
+U+1B73	᭳		BALINESE MUSICAL SYMBOL COMBINING GONG	
+U+1B74	᭴		BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DUG	
+U+1B75	᭵		BALINESE MUSICAL SYMBOL RIGHT-HAND OPEN DAG	
+U+1B76	᭶		BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TUK	
+U+1B77	᭷		BALINESE MUSICAL SYMBOL RIGHT-HAND CLOSED TAK	
+U+1B78	᭸		BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PANG	
+U+1B79	᭹		BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PUNG	
+U+1B7A	᭺		BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLAK	
+U+1B7B	᭻		BALINESE MUSICAL SYMBOL LEFT-HAND CLOSED PLUK	
+U+1B7C	᭼		BALINESE MUSICAL SYMBOL LEFT-HAND OPEN PING	
+U+1B7D	᭽		BALINESE PANTI LANTANG	
+U+1B7E	᭾		BALINESE PAMADA LANTANG	
+U+1B7F	᭿		BALINESE PANTI BAWAK	

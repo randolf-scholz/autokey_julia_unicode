@@ -1,12 +1,12 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1C80	ᲀ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter rounded ve		
-U+1C81	ᲁ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter long-legged de		
-U+1C82	ᲂ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter narrow o		
-U+1C83	ᲃ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter wide es		
-U+1C84	ᲄ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter tall te		
-U+1C85	ᲅ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter three-legged te		
-U+1C86	ᲆ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter tall hard sign		
-U+1C87	ᲇ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter tall yat		
-U+1C88	ᲈ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter unblended uk		
-U+1C89	Ᲊ	1C80..1C8F	Cyrillic Extended-C	Cyrillic capital letter tje		
-U+1C8A	ᲊ	1C80..1C8F	Cyrillic Extended-C	Cyrillic small letter tje		
+code_points	chars	tab_completions	unicode_name	base
+U+1C80	ᲀ		CYRILLIC SMALL LETTER ROUNDED VE	
+U+1C81	ᲁ		CYRILLIC SMALL LETTER LONG-LEGGED DE	
+U+1C82	ᲂ		CYRILLIC SMALL LETTER NARROW O	
+U+1C83	ᲃ		CYRILLIC SMALL LETTER WIDE ES	
+U+1C84	ᲄ		CYRILLIC SMALL LETTER TALL TE	
+U+1C85	ᲅ		CYRILLIC SMALL LETTER THREE-LEGGED TE	
+U+1C86	ᲆ		CYRILLIC SMALL LETTER TALL HARD SIGN	
+U+1C87	ᲇ		CYRILLIC SMALL LETTER TALL YAT	
+U+1C88	ᲈ		CYRILLIC SMALL LETTER UNBLENDED UK	
+U+1C89	Ᲊ		CYRILLIC CAPITAL LETTER TJE	
+U+1C8A	ᲊ		CYRILLIC SMALL LETTER TJE	

@@ -1,32 +1,32 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10840	𐡀	10840..1085F	Imperial Aramaic	Imperial aramaic letter aleph		
-U+10841	𐡁	10840..1085F	Imperial Aramaic	Imperial aramaic letter beth		
-U+10842	𐡂	10840..1085F	Imperial Aramaic	Imperial aramaic letter gimel		
-U+10843	𐡃	10840..1085F	Imperial Aramaic	Imperial aramaic letter daleth		
-U+10844	𐡄	10840..1085F	Imperial Aramaic	Imperial aramaic letter he		
-U+10845	𐡅	10840..1085F	Imperial Aramaic	Imperial aramaic letter waw		
-U+10846	𐡆	10840..1085F	Imperial Aramaic	Imperial aramaic letter zayin		
-U+10847	𐡇	10840..1085F	Imperial Aramaic	Imperial aramaic letter heth		
-U+10848	𐡈	10840..1085F	Imperial Aramaic	Imperial aramaic letter teth		
-U+10849	𐡉	10840..1085F	Imperial Aramaic	Imperial aramaic letter yodh		
-U+1084A	𐡊	10840..1085F	Imperial Aramaic	Imperial aramaic letter kaph		
-U+1084B	𐡋	10840..1085F	Imperial Aramaic	Imperial aramaic letter lamedh		
-U+1084C	𐡌	10840..1085F	Imperial Aramaic	Imperial aramaic letter mem		
-U+1084D	𐡍	10840..1085F	Imperial Aramaic	Imperial aramaic letter nun		
-U+1084E	𐡎	10840..1085F	Imperial Aramaic	Imperial aramaic letter samekh		
-U+1084F	𐡏	10840..1085F	Imperial Aramaic	Imperial aramaic letter ayin		
-U+10850	𐡐	10840..1085F	Imperial Aramaic	Imperial aramaic letter pe		
-U+10851	𐡑	10840..1085F	Imperial Aramaic	Imperial aramaic letter sadhe		
-U+10852	𐡒	10840..1085F	Imperial Aramaic	Imperial aramaic letter qoph		
-U+10853	𐡓	10840..1085F	Imperial Aramaic	Imperial aramaic letter resh		
-U+10854	𐡔	10840..1085F	Imperial Aramaic	Imperial aramaic letter shin		
-U+10855	𐡕	10840..1085F	Imperial Aramaic	Imperial aramaic letter taw		
-U+10857	𐡗	10840..1085F	Imperial Aramaic	Imperial aramaic section sign		
-U+10858	𐡘	10840..1085F	Imperial Aramaic	Imperial aramaic number one		
-U+10859	𐡙	10840..1085F	Imperial Aramaic	Imperial aramaic number two		
-U+1085A	𐡚	10840..1085F	Imperial Aramaic	Imperial aramaic number three		
-U+1085B	𐡛	10840..1085F	Imperial Aramaic	Imperial aramaic number ten		
-U+1085C	𐡜	10840..1085F	Imperial Aramaic	Imperial aramaic number twenty		
-U+1085D	𐡝	10840..1085F	Imperial Aramaic	Imperial aramaic number one hundred		
-U+1085E	𐡞	10840..1085F	Imperial Aramaic	Imperial aramaic number one thousand		
-U+1085F	𐡟	10840..1085F	Imperial Aramaic	Imperial aramaic number ten thousand		
+code_points	chars	tab_completions	unicode_name	base
+U+10840	𐡀		IMPERIAL ARAMAIC LETTER ALEPH	
+U+10841	𐡁		IMPERIAL ARAMAIC LETTER BETH	
+U+10842	𐡂		IMPERIAL ARAMAIC LETTER GIMEL	
+U+10843	𐡃		IMPERIAL ARAMAIC LETTER DALETH	
+U+10844	𐡄		IMPERIAL ARAMAIC LETTER HE	
+U+10845	𐡅		IMPERIAL ARAMAIC LETTER WAW	
+U+10846	𐡆		IMPERIAL ARAMAIC LETTER ZAYIN	
+U+10847	𐡇		IMPERIAL ARAMAIC LETTER HETH	
+U+10848	𐡈		IMPERIAL ARAMAIC LETTER TETH	
+U+10849	𐡉		IMPERIAL ARAMAIC LETTER YODH	
+U+1084A	𐡊		IMPERIAL ARAMAIC LETTER KAPH	
+U+1084B	𐡋		IMPERIAL ARAMAIC LETTER LAMEDH	
+U+1084C	𐡌		IMPERIAL ARAMAIC LETTER MEM	
+U+1084D	𐡍		IMPERIAL ARAMAIC LETTER NUN	
+U+1084E	𐡎		IMPERIAL ARAMAIC LETTER SAMEKH	
+U+1084F	𐡏		IMPERIAL ARAMAIC LETTER AYIN	
+U+10850	𐡐		IMPERIAL ARAMAIC LETTER PE	
+U+10851	𐡑		IMPERIAL ARAMAIC LETTER SADHE	
+U+10852	𐡒		IMPERIAL ARAMAIC LETTER QOPH	
+U+10853	𐡓		IMPERIAL ARAMAIC LETTER RESH	
+U+10854	𐡔		IMPERIAL ARAMAIC LETTER SHIN	
+U+10855	𐡕		IMPERIAL ARAMAIC LETTER TAW	
+U+10857	𐡗		IMPERIAL ARAMAIC SECTION SIGN	
+U+10858	𐡘		IMPERIAL ARAMAIC NUMBER ONE	
+U+10859	𐡙		IMPERIAL ARAMAIC NUMBER TWO	
+U+1085A	𐡚		IMPERIAL ARAMAIC NUMBER THREE	
+U+1085B	𐡛		IMPERIAL ARAMAIC NUMBER TEN	
+U+1085C	𐡜		IMPERIAL ARAMAIC NUMBER TWENTY	
+U+1085D	𐡝		IMPERIAL ARAMAIC NUMBER ONE HUNDRED	
+U+1085E	𐡞		IMPERIAL ARAMAIC NUMBER ONE THOUSAND	
+U+1085F	𐡟		IMPERIAL ARAMAIC NUMBER TEN THOUSAND	

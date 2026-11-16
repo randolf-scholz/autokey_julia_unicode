@@ -1,42 +1,42 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1B100	𛄀	1B100..1B12F	Kana Extended-A	Hentaigana letter re-3		
-U+1B101	𛄁	1B100..1B12F	Kana Extended-A	Hentaigana letter re-4		
-U+1B102	𛄂	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-1		
-U+1B103	𛄃	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-2		
-U+1B104	𛄄	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-3		
-U+1B105	𛄅	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-4		
-U+1B106	𛄆	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-5		
-U+1B107	𛄇	1B100..1B12F	Kana Extended-A	Hentaigana letter ro-6		
-U+1B108	𛄈	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-1		
-U+1B109	𛄉	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-2		
-U+1B10A	𛄊	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-3		
-U+1B10B	𛄋	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-4		
-U+1B10C	𛄌	1B100..1B12F	Kana Extended-A	Hentaigana letter wa-5		
-U+1B10D	𛄍	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-1		
-U+1B10E	𛄎	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-2		
-U+1B10F	𛄏	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-3		
-U+1B110	𛄐	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-4		
-U+1B111	𛄑	1B100..1B12F	Kana Extended-A	Hentaigana letter wi-5		
-U+1B112	𛄒	1B100..1B12F	Kana Extended-A	Hentaigana letter we-1		
-U+1B113	𛄓	1B100..1B12F	Kana Extended-A	Hentaigana letter we-2		
-U+1B114	𛄔	1B100..1B12F	Kana Extended-A	Hentaigana letter we-3		
-U+1B115	𛄕	1B100..1B12F	Kana Extended-A	Hentaigana letter we-4		
-U+1B116	𛄖	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-1		
-U+1B117	𛄗	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-2		
-U+1B118	𛄘	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-3		
-U+1B119	𛄙	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-4		
-U+1B11A	𛄚	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-5		
-U+1B11B	𛄛	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-6		
-U+1B11C	𛄜	1B100..1B12F	Kana Extended-A	Hentaigana letter wo-7		
-U+1B11D	𛄝	1B100..1B12F	Kana Extended-A	Hentaigana letter n-mu-mo-1		
-U+1B11E	𛄞	1B100..1B12F	Kana Extended-A	Hentaigana letter n-mu-mo-2		
-U+1B11F	𛄟	1B100..1B12F	Kana Extended-A	Hiragana letter archaic wu		
-U+1B120	𛄠	1B100..1B12F	Kana Extended-A	Katakana letter archaic yi		
-U+1B121	𛄡	1B100..1B12F	Kana Extended-A	Katakana letter archaic ye		
-U+1B122	𛄢	1B100..1B12F	Kana Extended-A	Katakana letter archaic wu		
-U+1B123	𛄣	1B100..1B12F	Kana Extended-A	Hiragana digraph koto		
-U+1B124	𛄤	1B100..1B12F	Kana Extended-A	Katakana digraph toki		
-U+1B125	𛄥	1B100..1B12F	Kana Extended-A	Katakana digraph tote		
-U+1B126	𛄦	1B100..1B12F	Kana Extended-A	Katakana digraph yori		
-U+1B127	𛄧	1B100..1B12F	Kana Extended-A	Katakana letter alternate ne		
-U+1B128	𛄨	1B100..1B12F	Kana Extended-A	Katakana letter alternate wi		
+code_points	chars	tab_completions	unicode_name	base
+U+1B100	𛄀		HENTAIGANA LETTER RE-3	
+U+1B101	𛄁		HENTAIGANA LETTER RE-4	
+U+1B102	𛄂		HENTAIGANA LETTER RO-1	
+U+1B103	𛄃		HENTAIGANA LETTER RO-2	
+U+1B104	𛄄		HENTAIGANA LETTER RO-3	
+U+1B105	𛄅		HENTAIGANA LETTER RO-4	
+U+1B106	𛄆		HENTAIGANA LETTER RO-5	
+U+1B107	𛄇		HENTAIGANA LETTER RO-6	
+U+1B108	𛄈		HENTAIGANA LETTER WA-1	
+U+1B109	𛄉		HENTAIGANA LETTER WA-2	
+U+1B10A	𛄊		HENTAIGANA LETTER WA-3	
+U+1B10B	𛄋		HENTAIGANA LETTER WA-4	
+U+1B10C	𛄌		HENTAIGANA LETTER WA-5	
+U+1B10D	𛄍		HENTAIGANA LETTER WI-1	
+U+1B10E	𛄎		HENTAIGANA LETTER WI-2	
+U+1B10F	𛄏		HENTAIGANA LETTER WI-3	
+U+1B110	𛄐		HENTAIGANA LETTER WI-4	
+U+1B111	𛄑		HENTAIGANA LETTER WI-5	
+U+1B112	𛄒		HENTAIGANA LETTER WE-1	
+U+1B113	𛄓		HENTAIGANA LETTER WE-2	
+U+1B114	𛄔		HENTAIGANA LETTER WE-3	
+U+1B115	𛄕		HENTAIGANA LETTER WE-4	
+U+1B116	𛄖		HENTAIGANA LETTER WO-1	
+U+1B117	𛄗		HENTAIGANA LETTER WO-2	
+U+1B118	𛄘		HENTAIGANA LETTER WO-3	
+U+1B119	𛄙		HENTAIGANA LETTER WO-4	
+U+1B11A	𛄚		HENTAIGANA LETTER WO-5	
+U+1B11B	𛄛		HENTAIGANA LETTER WO-6	
+U+1B11C	𛄜		HENTAIGANA LETTER WO-7	
+U+1B11D	𛄝		HENTAIGANA LETTER N-MU-MO-1	
+U+1B11E	𛄞		HENTAIGANA LETTER N-MU-MO-2	
+U+1B11F	𛄟		HIRAGANA LETTER ARCHAIC WU	
+U+1B120	𛄠		KATAKANA LETTER ARCHAIC YI	
+U+1B121	𛄡		KATAKANA LETTER ARCHAIC YE	
+U+1B122	𛄢		KATAKANA LETTER ARCHAIC WU	
+U+1B123	𛄣		HIRAGANA DIGRAPH KOTO	
+U+1B124	𛄤		KATAKANA DIGRAPH TOKI	
+U+1B125	𛄥		KATAKANA DIGRAPH TOTE	
+U+1B126	𛄦		KATAKANA DIGRAPH YORI	
+U+1B127	𛄧		KATAKANA LETTER ALTERNATE NE	
+U+1B128	𛄨		KATAKANA LETTER ALTERNATE WI	

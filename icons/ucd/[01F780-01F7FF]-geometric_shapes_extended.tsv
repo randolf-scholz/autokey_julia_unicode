@@ -1,121 +1,121 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F780	🞀	1F780..1F7FF	Geometric Shapes Extended	Black left-pointing isosceles right triangle		
-U+1F781	🞁	1F780..1F7FF	Geometric Shapes Extended	Black up-pointing isosceles right triangle		
-U+1F782	🞂	1F780..1F7FF	Geometric Shapes Extended	Black right-pointing isosceles right triangle		
-U+1F783	🞃	1F780..1F7FF	Geometric Shapes Extended	Black down-pointing isosceles right triangle		
-U+1F784	🞄	1F780..1F7FF	Geometric Shapes Extended	Black slightly small circle		
-U+1F785	🞅	1F780..1F7FF	Geometric Shapes Extended	Medium bold white circle		
-U+1F786	🞆	1F780..1F7FF	Geometric Shapes Extended	Bold white circle		
-U+1F787	🞇	1F780..1F7FF	Geometric Shapes Extended	Heavy white circle		
-U+1F788	🞈	1F780..1F7FF	Geometric Shapes Extended	Very heavy white circle		
-U+1F789	🞉	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy white circle		
-U+1F78A	🞊	1F780..1F7FF	Geometric Shapes Extended	White circle containing black small circle		
-U+1F78B	🞋	1F780..1F7FF	Geometric Shapes Extended	Round target		
-U+1F78C	🞌	1F780..1F7FF	Geometric Shapes Extended	Black tiny square		
-U+1F78D	🞍	1F780..1F7FF	Geometric Shapes Extended	Black slightly small square		
-U+1F78E	🞎	1F780..1F7FF	Geometric Shapes Extended	Light white square		
-U+1F78F	🞏	1F780..1F7FF	Geometric Shapes Extended	Medium white square		
-U+1F790	🞐	1F780..1F7FF	Geometric Shapes Extended	Bold white square		
-U+1F791	🞑	1F780..1F7FF	Geometric Shapes Extended	Heavy white square		
-U+1F792	🞒	1F780..1F7FF	Geometric Shapes Extended	Very heavy white square		
-U+1F793	🞓	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy white square		
-U+1F794	🞔	1F780..1F7FF	Geometric Shapes Extended	White square containing black very small square		
-U+1F795	🞕	1F780..1F7FF	Geometric Shapes Extended	White square containing black medium square		
-U+1F796	🞖	1F780..1F7FF	Geometric Shapes Extended	Square target		
-U+1F797	🞗	1F780..1F7FF	Geometric Shapes Extended	Black tiny diamond		
-U+1F798	🞘	1F780..1F7FF	Geometric Shapes Extended	Black very small diamond		
-U+1F799	🞙	1F780..1F7FF	Geometric Shapes Extended	Black medium small diamond		
-U+1F79A	🞚	1F780..1F7FF	Geometric Shapes Extended	White diamond containing black very small diamond		
-U+1F79B	🞛	1F780..1F7FF	Geometric Shapes Extended	White diamond containing black medium diamond		
-U+1F79C	🞜	1F780..1F7FF	Geometric Shapes Extended	Diamond target		
-U+1F79D	🞝	1F780..1F7FF	Geometric Shapes Extended	Black tiny lozenge		
-U+1F79E	🞞	1F780..1F7FF	Geometric Shapes Extended	Black very small lozenge		
-U+1F79F	🞟	1F780..1F7FF	Geometric Shapes Extended	Black medium small lozenge		
-U+1F7A0	🞠	1F780..1F7FF	Geometric Shapes Extended	White lozenge containing black small lozenge		
-U+1F7A1	🞡	1F780..1F7FF	Geometric Shapes Extended	Thin greek cross		
-U+1F7A2	🞢	1F780..1F7FF	Geometric Shapes Extended	Light greek cross		
-U+1F7A3	🞣	1F780..1F7FF	Geometric Shapes Extended	Medium greek cross		
-U+1F7A4	🞤	1F780..1F7FF	Geometric Shapes Extended	Bold greek cross		
-U+1F7A5	🞥	1F780..1F7FF	Geometric Shapes Extended	Very bold greek cross		
-U+1F7A6	🞦	1F780..1F7FF	Geometric Shapes Extended	Very heavy greek cross		
-U+1F7A7	🞧	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy greek cross		
-U+1F7A8	🞨	1F780..1F7FF	Geometric Shapes Extended	Thin saltire		
-U+1F7A9	🞩	1F780..1F7FF	Geometric Shapes Extended	Light saltire		
-U+1F7AA	🞪	1F780..1F7FF	Geometric Shapes Extended	Medium saltire		
-U+1F7AB	🞫	1F780..1F7FF	Geometric Shapes Extended	Bold saltire		
-U+1F7AC	🞬	1F780..1F7FF	Geometric Shapes Extended	Heavy saltire		
-U+1F7AD	🞭	1F780..1F7FF	Geometric Shapes Extended	Very heavy saltire		
-U+1F7AE	🞮	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy saltire		
-U+1F7AF	🞯	1F780..1F7FF	Geometric Shapes Extended	Light five spoked asterisk		
-U+1F7B0	🞰	1F780..1F7FF	Geometric Shapes Extended	Medium five spoked asterisk		
-U+1F7B1	🞱	1F780..1F7FF	Geometric Shapes Extended	Bold five spoked asterisk		
-U+1F7B2	🞲	1F780..1F7FF	Geometric Shapes Extended	Heavy five spoked asterisk		
-U+1F7B3	🞳	1F780..1F7FF	Geometric Shapes Extended	Very heavy five spoked asterisk		
-U+1F7B4	🞴	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy five spoked asterisk		
-U+1F7B5	🞵	1F780..1F7FF	Geometric Shapes Extended	Light six spoked asterisk		
-U+1F7B6	🞶	1F780..1F7FF	Geometric Shapes Extended	Medium six spoked asterisk		
-U+1F7B7	🞷	1F780..1F7FF	Geometric Shapes Extended	Bold six spoked asterisk		
-U+1F7B8	🞸	1F780..1F7FF	Geometric Shapes Extended	Heavy six spoked asterisk		
-U+1F7B9	🞹	1F780..1F7FF	Geometric Shapes Extended	Very heavy six spoked asterisk		
-U+1F7BA	🞺	1F780..1F7FF	Geometric Shapes Extended	Extremely heavy six spoked asterisk		
-U+1F7BB	🞻	1F780..1F7FF	Geometric Shapes Extended	Light eight spoked asterisk		
-U+1F7BC	🞼	1F780..1F7FF	Geometric Shapes Extended	Medium eight spoked asterisk		
-U+1F7BD	🞽	1F780..1F7FF	Geometric Shapes Extended	Bold eight spoked asterisk		
-U+1F7BE	🞾	1F780..1F7FF	Geometric Shapes Extended	Heavy eight spoked asterisk		
-U+1F7BF	🞿	1F780..1F7FF	Geometric Shapes Extended	Very heavy eight spoked asterisk		
-U+1F7C0	🟀	1F780..1F7FF	Geometric Shapes Extended	Light three pointed black star		
-U+1F7C1	🟁	1F780..1F7FF	Geometric Shapes Extended	Medium three pointed black star		
-U+1F7C2	🟂	1F780..1F7FF	Geometric Shapes Extended	Three pointed black star		
-U+1F7C3	🟃	1F780..1F7FF	Geometric Shapes Extended	Medium three pointed pinwheel star		
-U+1F7C4	🟄	1F780..1F7FF	Geometric Shapes Extended	Light four pointed black star		
-U+1F7C5	🟅	1F780..1F7FF	Geometric Shapes Extended	Medium four pointed black star		
-U+1F7C6	🟆	1F780..1F7FF	Geometric Shapes Extended	Four pointed black star		
-U+1F7C7	🟇	1F780..1F7FF	Geometric Shapes Extended	Medium four pointed pinwheel star		
-U+1F7C8	🟈	1F780..1F7FF	Geometric Shapes Extended	Reverse light four pointed pinwheel star		
-U+1F7C9	🟉	1F780..1F7FF	Geometric Shapes Extended	Light five pointed black star		
-U+1F7CA	🟊	1F780..1F7FF	Geometric Shapes Extended	Heavy five pointed black star		
-U+1F7CB	🟋	1F780..1F7FF	Geometric Shapes Extended	Medium six pointed black star		
-U+1F7CC	🟌	1F780..1F7FF	Geometric Shapes Extended	Heavy six pointed black star		
-U+1F7CD	🟍	1F780..1F7FF	Geometric Shapes Extended	Six pointed pinwheel star		
-U+1F7CE	🟎	1F780..1F7FF	Geometric Shapes Extended	Medium eight pointed black star		
-U+1F7CF	🟏	1F780..1F7FF	Geometric Shapes Extended	Heavy eight pointed black star		
-U+1F7D0	🟐	1F780..1F7FF	Geometric Shapes Extended	Very heavy eight pointed black star		
-U+1F7D1	🟑	1F780..1F7FF	Geometric Shapes Extended	Heavy eight pointed pinwheel star		
-U+1F7D2	🟒	1F780..1F7FF	Geometric Shapes Extended	Light twelve pointed black star		
-U+1F7D3	🟓	1F780..1F7FF	Geometric Shapes Extended	Heavy twelve pointed black star		
-U+1F7D4	🟔	1F780..1F7FF	Geometric Shapes Extended	Heavy twelve pointed pinwheel star		
-U+1F7D5	🟕	1F780..1F7FF	Geometric Shapes Extended	Circled triangle		
-U+1F7D6	🟖	1F780..1F7FF	Geometric Shapes Extended	Negative circled triangle		
-U+1F7D7	🟗	1F780..1F7FF	Geometric Shapes Extended	Circled square		
-U+1F7D8	🟘	1F780..1F7FF	Geometric Shapes Extended	Negative circled square		
-U+1F7D9	🟙	1F780..1F7FF	Geometric Shapes Extended	Nine pointed white star		
-U+1F7DA	🟚	1F780..1F7FF	Geometric Shapes Extended	Black circle with white vertical bar		
-U+1F7DB	🟛	1F780..1F7FF	Geometric Shapes Extended	Bullet in double circle		
-U+1F7E0	🟠	1F780..1F7FF	Geometric Shapes Extended	Large orange circle		
-U+1F7E1	🟡	1F780..1F7FF	Geometric Shapes Extended	Large yellow circle		
-U+1F7E2	🟢	1F780..1F7FF	Geometric Shapes Extended	Large green circle		
-U+1F7E3	🟣	1F780..1F7FF	Geometric Shapes Extended	Large purple circle		
-U+1F7E4	🟤	1F780..1F7FF	Geometric Shapes Extended	Large brown circle		
-U+1F7E5	🟥	1F780..1F7FF	Geometric Shapes Extended	Large red square		
-U+1F7E6	🟦	1F780..1F7FF	Geometric Shapes Extended	Large blue square		
-U+1F7E7	🟧	1F780..1F7FF	Geometric Shapes Extended	Large orange square		
-U+1F7E8	🟨	1F780..1F7FF	Geometric Shapes Extended	Large yellow square		
-U+1F7E9	🟩	1F780..1F7FF	Geometric Shapes Extended	Large green square		
-U+1F7EA	🟪	1F780..1F7FF	Geometric Shapes Extended	Large purple square		
-U+1F7EB	🟫	1F780..1F7FF	Geometric Shapes Extended	Large brown square		
-U+1F7F0	🟰	1F780..1F7FF	Geometric Shapes Extended	Heavy equals sign		
-U+1F7F1	🟱	1F780..1F7FF	Geometric Shapes Extended	Circle with double vertical and horizontal line		
-U+1F7F2	🟲	1F780..1F7FF	Geometric Shapes Extended	Double circle with double horizontal line		
-U+1F7F3	🟳	1F780..1F7FF	Geometric Shapes Extended	Circled bottom right oblique half black circle		
-U+1F7F4	🟴	1F780..1F7FF	Geometric Shapes Extended	Left half white circle		
-U+1F7F5	🟵	1F780..1F7FF	Geometric Shapes Extended	Right half white circle		
-U+1F7F6	🟶	1F780..1F7FF	Geometric Shapes Extended	Transparent cube		
-U+1F7F7	🟷	1F780..1F7FF	Geometric Shapes Extended	White cube		
-U+1F7F8	🟸	1F780..1F7FF	Geometric Shapes Extended	Horizontal double white small square		
-U+1F7F9	🟹	1F780..1F7FF	Geometric Shapes Extended	Vertical double white small square		
-U+1F7FA	🟺	1F780..1F7FF	Geometric Shapes Extended	White square with bottom half bisected		
-U+1F7FB	🟻	1F780..1F7FF	Geometric Shapes Extended	White square with top half bisected		
-U+1F7FC	🟼	1F780..1F7FF	Geometric Shapes Extended	White square with horizontal and vertical bisecting lines		
-U+1F7FD	🟽	1F780..1F7FF	Geometric Shapes Extended	Lower left flattened right triangle		
-U+1F7FE	🟾	1F780..1F7FF	Geometric Shapes Extended	Lower right flattened right triangle		
-U+1F7FF	🟿	1F780..1F7FF	Geometric Shapes Extended	Rhombus		
+code_points	chars	tab_completions	unicode_name	base
+U+1F780	🞀		BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE	
+U+1F781	🞁		BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE	
+U+1F782	🞂		BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE	
+U+1F783	🞃		BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE	
+U+1F784	🞄		BLACK SLIGHTLY SMALL CIRCLE	
+U+1F785	🞅		MEDIUM BOLD WHITE CIRCLE	
+U+1F786	🞆		BOLD WHITE CIRCLE	
+U+1F787	🞇		HEAVY WHITE CIRCLE	
+U+1F788	🞈		VERY HEAVY WHITE CIRCLE	
+U+1F789	🞉		EXTREMELY HEAVY WHITE CIRCLE	
+U+1F78A	🞊		WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE	
+U+1F78B	🞋		ROUND TARGET	
+U+1F78C	🞌		BLACK TINY SQUARE	
+U+1F78D	🞍		BLACK SLIGHTLY SMALL SQUARE	
+U+1F78E	🞎		LIGHT WHITE SQUARE	
+U+1F78F	🞏		MEDIUM WHITE SQUARE	
+U+1F790	🞐		BOLD WHITE SQUARE	
+U+1F791	🞑		HEAVY WHITE SQUARE	
+U+1F792	🞒		VERY HEAVY WHITE SQUARE	
+U+1F793	🞓		EXTREMELY HEAVY WHITE SQUARE	
+U+1F794	🞔		WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE	
+U+1F795	🞕		WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE	
+U+1F796	🞖		SQUARE TARGET	
+U+1F797	🞗		BLACK TINY DIAMOND	
+U+1F798	🞘		BLACK VERY SMALL DIAMOND	
+U+1F799	🞙		BLACK MEDIUM SMALL DIAMOND	
+U+1F79A	🞚		WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND	
+U+1F79B	🞛		WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND	
+U+1F79C	🞜		DIAMOND TARGET	
+U+1F79D	🞝		BLACK TINY LOZENGE	
+U+1F79E	🞞		BLACK VERY SMALL LOZENGE	
+U+1F79F	🞟		BLACK MEDIUM SMALL LOZENGE	
+U+1F7A0	🞠		WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE	
+U+1F7A1	🞡		THIN GREEK CROSS	
+U+1F7A2	🞢		LIGHT GREEK CROSS	
+U+1F7A3	🞣		MEDIUM GREEK CROSS	
+U+1F7A4	🞤		BOLD GREEK CROSS	
+U+1F7A5	🞥		VERY BOLD GREEK CROSS	
+U+1F7A6	🞦		VERY HEAVY GREEK CROSS	
+U+1F7A7	🞧		EXTREMELY HEAVY GREEK CROSS	
+U+1F7A8	🞨		THIN SALTIRE	
+U+1F7A9	🞩		LIGHT SALTIRE	
+U+1F7AA	🞪		MEDIUM SALTIRE	
+U+1F7AB	🞫		BOLD SALTIRE	
+U+1F7AC	🞬		HEAVY SALTIRE	
+U+1F7AD	🞭		VERY HEAVY SALTIRE	
+U+1F7AE	🞮		EXTREMELY HEAVY SALTIRE	
+U+1F7AF	🞯		LIGHT FIVE SPOKED ASTERISK	
+U+1F7B0	🞰		MEDIUM FIVE SPOKED ASTERISK	
+U+1F7B1	🞱		BOLD FIVE SPOKED ASTERISK	
+U+1F7B2	🞲		HEAVY FIVE SPOKED ASTERISK	
+U+1F7B3	🞳		VERY HEAVY FIVE SPOKED ASTERISK	
+U+1F7B4	🞴		EXTREMELY HEAVY FIVE SPOKED ASTERISK	
+U+1F7B5	🞵		LIGHT SIX SPOKED ASTERISK	
+U+1F7B6	🞶		MEDIUM SIX SPOKED ASTERISK	
+U+1F7B7	🞷		BOLD SIX SPOKED ASTERISK	
+U+1F7B8	🞸		HEAVY SIX SPOKED ASTERISK	
+U+1F7B9	🞹		VERY HEAVY SIX SPOKED ASTERISK	
+U+1F7BA	🞺		EXTREMELY HEAVY SIX SPOKED ASTERISK	
+U+1F7BB	🞻		LIGHT EIGHT SPOKED ASTERISK	
+U+1F7BC	🞼		MEDIUM EIGHT SPOKED ASTERISK	
+U+1F7BD	🞽		BOLD EIGHT SPOKED ASTERISK	
+U+1F7BE	🞾		HEAVY EIGHT SPOKED ASTERISK	
+U+1F7BF	🞿		VERY HEAVY EIGHT SPOKED ASTERISK	
+U+1F7C0	🟀		LIGHT THREE POINTED BLACK STAR	
+U+1F7C1	🟁		MEDIUM THREE POINTED BLACK STAR	
+U+1F7C2	🟂		THREE POINTED BLACK STAR	
+U+1F7C3	🟃		MEDIUM THREE POINTED PINWHEEL STAR	
+U+1F7C4	🟄		LIGHT FOUR POINTED BLACK STAR	
+U+1F7C5	🟅		MEDIUM FOUR POINTED BLACK STAR	
+U+1F7C6	🟆		FOUR POINTED BLACK STAR	
+U+1F7C7	🟇		MEDIUM FOUR POINTED PINWHEEL STAR	
+U+1F7C8	🟈		REVERSE LIGHT FOUR POINTED PINWHEEL STAR	
+U+1F7C9	🟉		LIGHT FIVE POINTED BLACK STAR	
+U+1F7CA	🟊		HEAVY FIVE POINTED BLACK STAR	
+U+1F7CB	🟋		MEDIUM SIX POINTED BLACK STAR	
+U+1F7CC	🟌		HEAVY SIX POINTED BLACK STAR	
+U+1F7CD	🟍		SIX POINTED PINWHEEL STAR	
+U+1F7CE	🟎		MEDIUM EIGHT POINTED BLACK STAR	
+U+1F7CF	🟏		HEAVY EIGHT POINTED BLACK STAR	
+U+1F7D0	🟐		VERY HEAVY EIGHT POINTED BLACK STAR	
+U+1F7D1	🟑		HEAVY EIGHT POINTED PINWHEEL STAR	
+U+1F7D2	🟒		LIGHT TWELVE POINTED BLACK STAR	
+U+1F7D3	🟓		HEAVY TWELVE POINTED BLACK STAR	
+U+1F7D4	🟔		HEAVY TWELVE POINTED PINWHEEL STAR	
+U+1F7D5	🟕		CIRCLED TRIANGLE	
+U+1F7D6	🟖		NEGATIVE CIRCLED TRIANGLE	
+U+1F7D7	🟗		CIRCLED SQUARE	
+U+1F7D8	🟘		NEGATIVE CIRCLED SQUARE	
+U+1F7D9	🟙		NINE POINTED WHITE STAR	
+U+1F7DA	🟚		BLACK CIRCLE WITH WHITE VERTICAL BAR	
+U+1F7DB	🟛		BULLET IN DOUBLE CIRCLE	
+U+1F7E0	🟠		LARGE ORANGE CIRCLE	
+U+1F7E1	🟡		LARGE YELLOW CIRCLE	
+U+1F7E2	🟢		LARGE GREEN CIRCLE	
+U+1F7E3	🟣		LARGE PURPLE CIRCLE	
+U+1F7E4	🟤		LARGE BROWN CIRCLE	
+U+1F7E5	🟥		LARGE RED SQUARE	
+U+1F7E6	🟦		LARGE BLUE SQUARE	
+U+1F7E7	🟧		LARGE ORANGE SQUARE	
+U+1F7E8	🟨		LARGE YELLOW SQUARE	
+U+1F7E9	🟩		LARGE GREEN SQUARE	
+U+1F7EA	🟪		LARGE PURPLE SQUARE	
+U+1F7EB	🟫		LARGE BROWN SQUARE	
+U+1F7F0	🟰		HEAVY EQUALS SIGN	
+U+1F7F1	🟱		CIRCLE WITH DOUBLE VERTICAL AND HORIZONTAL LINE	
+U+1F7F2	🟲		DOUBLE CIRCLE WITH DOUBLE HORIZONTAL LINE	
+U+1F7F3	🟳		CIRCLED BOTTOM RIGHT OBLIQUE HALF BLACK CIRCLE	
+U+1F7F4	🟴		LEFT HALF WHITE CIRCLE	
+U+1F7F5	🟵		RIGHT HALF WHITE CIRCLE	
+U+1F7F6	🟶		TRANSPARENT CUBE	
+U+1F7F7	🟷		WHITE CUBE	
+U+1F7F8	🟸		HORIZONTAL DOUBLE WHITE SMALL SQUARE	
+U+1F7F9	🟹		VERTICAL DOUBLE WHITE SMALL SQUARE	
+U+1F7FA	🟺		WHITE SQUARE WITH BOTTOM HALF BISECTED	
+U+1F7FB	🟻		WHITE SQUARE WITH TOP HALF BISECTED	
+U+1F7FC	🟼		WHITE SQUARE WITH HORIZONTAL AND VERTICAL BISECTING LINES	
+U+1F7FD	🟽		LOWER LEFT FLATTENED RIGHT TRIANGLE	
+U+1F7FE	🟾		LOWER RIGHT FLATTENED RIGHT TRIANGLE	
+U+1F7FF	🟿		RHOMBUS	

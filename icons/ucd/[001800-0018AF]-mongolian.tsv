@@ -1,159 +1,159 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1800	᠀	1800..18AF	Mongolian	Mongolian birga		
-U+1801	᠁	1800..18AF	Mongolian	Mongolian ellipsis		
-U+1802	᠂	1800..18AF	Mongolian	Mongolian comma		
-U+1803	᠃	1800..18AF	Mongolian	Mongolian full stop		
-U+1804	᠄	1800..18AF	Mongolian	Mongolian colon		
-U+1805	᠅	1800..18AF	Mongolian	Mongolian four dots		
-U+1806	᠆	1800..18AF	Mongolian	Mongolian todo soft hyphen		
-U+1807	᠇	1800..18AF	Mongolian	Mongolian sibe syllable boundary marker		
-U+1808	᠈	1800..18AF	Mongolian	Mongolian manchu comma		
-U+1809	᠉	1800..18AF	Mongolian	Mongolian manchu full stop		
-U+180A	᠊	1800..18AF	Mongolian	Mongolian nirugu		
-U+180B	᠋	1800..18AF	Mongolian	Mongolian free variation selector one		
-U+180C	᠌	1800..18AF	Mongolian	Mongolian free variation selector two		
-U+180D	᠍	1800..18AF	Mongolian	Mongolian free variation selector three		
-U+180E	᠎	1800..18AF	Mongolian	Mongolian vowel separator		
-U+180F	᠏	1800..18AF	Mongolian	Mongolian free variation selector four		
-U+1810	᠐	1800..18AF	Mongolian	Mongolian digit zero		
-U+1811	᠑	1800..18AF	Mongolian	Mongolian digit one		
-U+1812	᠒	1800..18AF	Mongolian	Mongolian digit two		
-U+1813	᠓	1800..18AF	Mongolian	Mongolian digit three		
-U+1814	᠔	1800..18AF	Mongolian	Mongolian digit four		
-U+1815	᠕	1800..18AF	Mongolian	Mongolian digit five		
-U+1816	᠖	1800..18AF	Mongolian	Mongolian digit six		
-U+1817	᠗	1800..18AF	Mongolian	Mongolian digit seven		
-U+1818	᠘	1800..18AF	Mongolian	Mongolian digit eight		
-U+1819	᠙	1800..18AF	Mongolian	Mongolian digit nine		
-U+1820	ᠠ	1800..18AF	Mongolian	Mongolian letter a		
-U+1821	ᠡ	1800..18AF	Mongolian	Mongolian letter e		
-U+1822	ᠢ	1800..18AF	Mongolian	Mongolian letter i		
-U+1823	ᠣ	1800..18AF	Mongolian	Mongolian letter o		
-U+1824	ᠤ	1800..18AF	Mongolian	Mongolian letter u		
-U+1825	ᠥ	1800..18AF	Mongolian	Mongolian letter oe		
-U+1826	ᠦ	1800..18AF	Mongolian	Mongolian letter ue		
-U+1827	ᠧ	1800..18AF	Mongolian	Mongolian letter ee		
-U+1828	ᠨ	1800..18AF	Mongolian	Mongolian letter na		
-U+1829	ᠩ	1800..18AF	Mongolian	Mongolian letter ang		
-U+182A	ᠪ	1800..18AF	Mongolian	Mongolian letter ba		
-U+182B	ᠫ	1800..18AF	Mongolian	Mongolian letter pa		
-U+182C	ᠬ	1800..18AF	Mongolian	Mongolian letter qa		
-U+182D	ᠭ	1800..18AF	Mongolian	Mongolian letter ga		
-U+182E	ᠮ	1800..18AF	Mongolian	Mongolian letter ma		
-U+182F	ᠯ	1800..18AF	Mongolian	Mongolian letter la		
-U+1830	ᠰ	1800..18AF	Mongolian	Mongolian letter sa		
-U+1831	ᠱ	1800..18AF	Mongolian	Mongolian letter sha		
-U+1832	ᠲ	1800..18AF	Mongolian	Mongolian letter ta		
-U+1833	ᠳ	1800..18AF	Mongolian	Mongolian letter da		
-U+1834	ᠴ	1800..18AF	Mongolian	Mongolian letter cha		
-U+1835	ᠵ	1800..18AF	Mongolian	Mongolian letter ja		
-U+1836	ᠶ	1800..18AF	Mongolian	Mongolian letter ya		
-U+1837	ᠷ	1800..18AF	Mongolian	Mongolian letter ra		
-U+1838	ᠸ	1800..18AF	Mongolian	Mongolian letter wa		
-U+1839	ᠹ	1800..18AF	Mongolian	Mongolian letter fa		
-U+183A	ᠺ	1800..18AF	Mongolian	Mongolian letter ka		
-U+183B	ᠻ	1800..18AF	Mongolian	Mongolian letter kha		
-U+183C	ᠼ	1800..18AF	Mongolian	Mongolian letter tsa		
-U+183D	ᠽ	1800..18AF	Mongolian	Mongolian letter za		
-U+183E	ᠾ	1800..18AF	Mongolian	Mongolian letter haa		
-U+183F	ᠿ	1800..18AF	Mongolian	Mongolian letter zra		
-U+1840	ᡀ	1800..18AF	Mongolian	Mongolian letter lha		
-U+1841	ᡁ	1800..18AF	Mongolian	Mongolian letter zhi		
-U+1842	ᡂ	1800..18AF	Mongolian	Mongolian letter chi		
-U+1843	ᡃ	1800..18AF	Mongolian	Mongolian letter todo long vowel sign		
-U+1844	ᡄ	1800..18AF	Mongolian	Mongolian letter todo e		
-U+1845	ᡅ	1800..18AF	Mongolian	Mongolian letter todo i		
-U+1846	ᡆ	1800..18AF	Mongolian	Mongolian letter todo o		
-U+1847	ᡇ	1800..18AF	Mongolian	Mongolian letter todo u		
-U+1848	ᡈ	1800..18AF	Mongolian	Mongolian letter todo oe		
-U+1849	ᡉ	1800..18AF	Mongolian	Mongolian letter todo ue		
-U+184A	ᡊ	1800..18AF	Mongolian	Mongolian letter todo ang		
-U+184B	ᡋ	1800..18AF	Mongolian	Mongolian letter todo ba		
-U+184C	ᡌ	1800..18AF	Mongolian	Mongolian letter todo pa		
-U+184D	ᡍ	1800..18AF	Mongolian	Mongolian letter todo qa		
-U+184E	ᡎ	1800..18AF	Mongolian	Mongolian letter todo ga		
-U+184F	ᡏ	1800..18AF	Mongolian	Mongolian letter todo ma		
-U+1850	ᡐ	1800..18AF	Mongolian	Mongolian letter todo ta		
-U+1851	ᡑ	1800..18AF	Mongolian	Mongolian letter todo da		
-U+1852	ᡒ	1800..18AF	Mongolian	Mongolian letter todo cha		
-U+1853	ᡓ	1800..18AF	Mongolian	Mongolian letter todo ja		
-U+1854	ᡔ	1800..18AF	Mongolian	Mongolian letter todo tsa		
-U+1855	ᡕ	1800..18AF	Mongolian	Mongolian letter todo ya		
-U+1856	ᡖ	1800..18AF	Mongolian	Mongolian letter todo wa		
-U+1857	ᡗ	1800..18AF	Mongolian	Mongolian letter todo ka		
-U+1858	ᡘ	1800..18AF	Mongolian	Mongolian letter todo gaa		
-U+1859	ᡙ	1800..18AF	Mongolian	Mongolian letter todo haa		
-U+185A	ᡚ	1800..18AF	Mongolian	Mongolian letter todo jia		
-U+185B	ᡛ	1800..18AF	Mongolian	Mongolian letter todo nia		
-U+185C	ᡜ	1800..18AF	Mongolian	Mongolian letter todo dza		
-U+185D	ᡝ	1800..18AF	Mongolian	Mongolian letter sibe e		
-U+185E	ᡞ	1800..18AF	Mongolian	Mongolian letter sibe i		
-U+185F	ᡟ	1800..18AF	Mongolian	Mongolian letter sibe iy		
-U+1860	ᡠ	1800..18AF	Mongolian	Mongolian letter sibe ue		
-U+1861	ᡡ	1800..18AF	Mongolian	Mongolian letter sibe u		
-U+1862	ᡢ	1800..18AF	Mongolian	Mongolian letter sibe ang		
-U+1863	ᡣ	1800..18AF	Mongolian	Mongolian letter sibe ka		
-U+1864	ᡤ	1800..18AF	Mongolian	Mongolian letter sibe ga		
-U+1865	ᡥ	1800..18AF	Mongolian	Mongolian letter sibe ha		
-U+1866	ᡦ	1800..18AF	Mongolian	Mongolian letter sibe pa		
-U+1867	ᡧ	1800..18AF	Mongolian	Mongolian letter sibe sha		
-U+1868	ᡨ	1800..18AF	Mongolian	Mongolian letter sibe ta		
-U+1869	ᡩ	1800..18AF	Mongolian	Mongolian letter sibe da		
-U+186A	ᡪ	1800..18AF	Mongolian	Mongolian letter sibe ja		
-U+186B	ᡫ	1800..18AF	Mongolian	Mongolian letter sibe fa		
-U+186C	ᡬ	1800..18AF	Mongolian	Mongolian letter sibe gaa		
-U+186D	ᡭ	1800..18AF	Mongolian	Mongolian letter sibe haa		
-U+186E	ᡮ	1800..18AF	Mongolian	Mongolian letter sibe tsa		
-U+186F	ᡯ	1800..18AF	Mongolian	Mongolian letter sibe za		
-U+1870	ᡰ	1800..18AF	Mongolian	Mongolian letter sibe raa		
-U+1871	ᡱ	1800..18AF	Mongolian	Mongolian letter sibe cha		
-U+1872	ᡲ	1800..18AF	Mongolian	Mongolian letter sibe zha		
-U+1873	ᡳ	1800..18AF	Mongolian	Mongolian letter manchu i		
-U+1874	ᡴ	1800..18AF	Mongolian	Mongolian letter manchu ka		
-U+1875	ᡵ	1800..18AF	Mongolian	Mongolian letter manchu ra		
-U+1876	ᡶ	1800..18AF	Mongolian	Mongolian letter manchu fa		
-U+1877	ᡷ	1800..18AF	Mongolian	Mongolian letter manchu zha		
-U+1878	ᡸ	1800..18AF	Mongolian	Mongolian letter cha with two dots		
-U+1880	ᢀ	1800..18AF	Mongolian	Mongolian letter ali gali anusvara one		
-U+1881	ᢁ	1800..18AF	Mongolian	Mongolian letter ali gali visarga one		
-U+1882	ᢂ	1800..18AF	Mongolian	Mongolian letter ali gali damaru		
-U+1883	ᢃ	1800..18AF	Mongolian	Mongolian letter ali gali ubadama		
-U+1884	ᢄ	1800..18AF	Mongolian	Mongolian letter ali gali inverted ubadama		
-U+1885	ᢅ	1800..18AF	Mongolian	Mongolian letter ali gali baluda		
-U+1886	ᢆ	1800..18AF	Mongolian	Mongolian letter ali gali three baluda		
-U+1887	ᢇ	1800..18AF	Mongolian	Mongolian letter ali gali a		
-U+1888	ᢈ	1800..18AF	Mongolian	Mongolian letter ali gali i		
-U+1889	ᢉ	1800..18AF	Mongolian	Mongolian letter ali gali ka		
-U+188A	ᢊ	1800..18AF	Mongolian	Mongolian letter ali gali nga		
-U+188B	ᢋ	1800..18AF	Mongolian	Mongolian letter ali gali ca		
-U+188C	ᢌ	1800..18AF	Mongolian	Mongolian letter ali gali tta		
-U+188D	ᢍ	1800..18AF	Mongolian	Mongolian letter ali gali ttha		
-U+188E	ᢎ	1800..18AF	Mongolian	Mongolian letter ali gali dda		
-U+188F	ᢏ	1800..18AF	Mongolian	Mongolian letter ali gali nna		
-U+1890	ᢐ	1800..18AF	Mongolian	Mongolian letter ali gali ta		
-U+1891	ᢑ	1800..18AF	Mongolian	Mongolian letter ali gali da		
-U+1892	ᢒ	1800..18AF	Mongolian	Mongolian letter ali gali pa		
-U+1893	ᢓ	1800..18AF	Mongolian	Mongolian letter ali gali pha		
-U+1894	ᢔ	1800..18AF	Mongolian	Mongolian letter ali gali ssa		
-U+1895	ᢕ	1800..18AF	Mongolian	Mongolian letter ali gali zha		
-U+1896	ᢖ	1800..18AF	Mongolian	Mongolian letter ali gali za		
-U+1897	ᢗ	1800..18AF	Mongolian	Mongolian letter ali gali ah		
-U+1898	ᢘ	1800..18AF	Mongolian	Mongolian letter todo ali gali ta		
-U+1899	ᢙ	1800..18AF	Mongolian	Mongolian letter todo ali gali zha		
-U+189A	ᢚ	1800..18AF	Mongolian	Mongolian letter manchu ali gali gha		
-U+189B	ᢛ	1800..18AF	Mongolian	Mongolian letter manchu ali gali nga		
-U+189C	ᢜ	1800..18AF	Mongolian	Mongolian letter manchu ali gali ca		
-U+189D	ᢝ	1800..18AF	Mongolian	Mongolian letter manchu ali gali jha		
-U+189E	ᢞ	1800..18AF	Mongolian	Mongolian letter manchu ali gali tta		
-U+189F	ᢟ	1800..18AF	Mongolian	Mongolian letter manchu ali gali ddha		
-U+18A0	ᢠ	1800..18AF	Mongolian	Mongolian letter manchu ali gali ta		
-U+18A1	ᢡ	1800..18AF	Mongolian	Mongolian letter manchu ali gali dha		
-U+18A2	ᢢ	1800..18AF	Mongolian	Mongolian letter manchu ali gali ssa		
-U+18A3	ᢣ	1800..18AF	Mongolian	Mongolian letter manchu ali gali cya		
-U+18A4	ᢤ	1800..18AF	Mongolian	Mongolian letter manchu ali gali zha		
-U+18A5	ᢥ	1800..18AF	Mongolian	Mongolian letter manchu ali gali za		
-U+18A6	ᢦ	1800..18AF	Mongolian	Mongolian letter ali gali half u		
-U+18A7	ᢧ	1800..18AF	Mongolian	Mongolian letter ali gali half ya		
-U+18A8	ᢨ	1800..18AF	Mongolian	Mongolian letter manchu ali gali bha		
-U+18A9	ᢩ	1800..18AF	Mongolian	Mongolian letter ali gali dagalga		
-U+18AA	ᢪ	1800..18AF	Mongolian	Mongolian letter manchu ali gali lha		
+code_points	chars	tab_completions	unicode_name	base
+U+1800	᠀		MONGOLIAN BIRGA	
+U+1801	᠁		MONGOLIAN ELLIPSIS	
+U+1802	᠂		MONGOLIAN COMMA	
+U+1803	᠃		MONGOLIAN FULL STOP	
+U+1804	᠄		MONGOLIAN COLON	
+U+1805	᠅		MONGOLIAN FOUR DOTS	
+U+1806	᠆		MONGOLIAN TODO SOFT HYPHEN	
+U+1807	᠇		MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER	
+U+1808	᠈		MONGOLIAN MANCHU COMMA	
+U+1809	᠉		MONGOLIAN MANCHU FULL STOP	
+U+180A	᠊		MONGOLIAN NIRUGU	
+U+180B	᠋		MONGOLIAN FREE VARIATION SELECTOR ONE	
+U+180C	᠌		MONGOLIAN FREE VARIATION SELECTOR TWO	
+U+180D	᠍		MONGOLIAN FREE VARIATION SELECTOR THREE	
+U+180E	᠎		MONGOLIAN VOWEL SEPARATOR	
+U+180F	᠏		MONGOLIAN FREE VARIATION SELECTOR FOUR	
+U+1810	᠐		MONGOLIAN DIGIT ZERO	
+U+1811	᠑		MONGOLIAN DIGIT ONE	
+U+1812	᠒		MONGOLIAN DIGIT TWO	
+U+1813	᠓		MONGOLIAN DIGIT THREE	
+U+1814	᠔		MONGOLIAN DIGIT FOUR	
+U+1815	᠕		MONGOLIAN DIGIT FIVE	
+U+1816	᠖		MONGOLIAN DIGIT SIX	
+U+1817	᠗		MONGOLIAN DIGIT SEVEN	
+U+1818	᠘		MONGOLIAN DIGIT EIGHT	
+U+1819	᠙		MONGOLIAN DIGIT NINE	
+U+1820	ᠠ		MONGOLIAN LETTER A	
+U+1821	ᠡ		MONGOLIAN LETTER E	
+U+1822	ᠢ		MONGOLIAN LETTER I	
+U+1823	ᠣ		MONGOLIAN LETTER O	
+U+1824	ᠤ		MONGOLIAN LETTER U	
+U+1825	ᠥ		MONGOLIAN LETTER OE	
+U+1826	ᠦ		MONGOLIAN LETTER UE	
+U+1827	ᠧ		MONGOLIAN LETTER EE	
+U+1828	ᠨ		MONGOLIAN LETTER NA	
+U+1829	ᠩ		MONGOLIAN LETTER ANG	
+U+182A	ᠪ		MONGOLIAN LETTER BA	
+U+182B	ᠫ		MONGOLIAN LETTER PA	
+U+182C	ᠬ		MONGOLIAN LETTER QA	
+U+182D	ᠭ		MONGOLIAN LETTER GA	
+U+182E	ᠮ		MONGOLIAN LETTER MA	
+U+182F	ᠯ		MONGOLIAN LETTER LA	
+U+1830	ᠰ		MONGOLIAN LETTER SA	
+U+1831	ᠱ		MONGOLIAN LETTER SHA	
+U+1832	ᠲ		MONGOLIAN LETTER TA	
+U+1833	ᠳ		MONGOLIAN LETTER DA	
+U+1834	ᠴ		MONGOLIAN LETTER CHA	
+U+1835	ᠵ		MONGOLIAN LETTER JA	
+U+1836	ᠶ		MONGOLIAN LETTER YA	
+U+1837	ᠷ		MONGOLIAN LETTER RA	
+U+1838	ᠸ		MONGOLIAN LETTER WA	
+U+1839	ᠹ		MONGOLIAN LETTER FA	
+U+183A	ᠺ		MONGOLIAN LETTER KA	
+U+183B	ᠻ		MONGOLIAN LETTER KHA	
+U+183C	ᠼ		MONGOLIAN LETTER TSA	
+U+183D	ᠽ		MONGOLIAN LETTER ZA	
+U+183E	ᠾ		MONGOLIAN LETTER HAA	
+U+183F	ᠿ		MONGOLIAN LETTER ZRA	
+U+1840	ᡀ		MONGOLIAN LETTER LHA	
+U+1841	ᡁ		MONGOLIAN LETTER ZHI	
+U+1842	ᡂ		MONGOLIAN LETTER CHI	
+U+1843	ᡃ		MONGOLIAN LETTER TODO LONG VOWEL SIGN	
+U+1844	ᡄ		MONGOLIAN LETTER TODO E	
+U+1845	ᡅ		MONGOLIAN LETTER TODO I	
+U+1846	ᡆ		MONGOLIAN LETTER TODO O	
+U+1847	ᡇ		MONGOLIAN LETTER TODO U	
+U+1848	ᡈ		MONGOLIAN LETTER TODO OE	
+U+1849	ᡉ		MONGOLIAN LETTER TODO UE	
+U+184A	ᡊ		MONGOLIAN LETTER TODO ANG	
+U+184B	ᡋ		MONGOLIAN LETTER TODO BA	
+U+184C	ᡌ		MONGOLIAN LETTER TODO PA	
+U+184D	ᡍ		MONGOLIAN LETTER TODO QA	
+U+184E	ᡎ		MONGOLIAN LETTER TODO GA	
+U+184F	ᡏ		MONGOLIAN LETTER TODO MA	
+U+1850	ᡐ		MONGOLIAN LETTER TODO TA	
+U+1851	ᡑ		MONGOLIAN LETTER TODO DA	
+U+1852	ᡒ		MONGOLIAN LETTER TODO CHA	
+U+1853	ᡓ		MONGOLIAN LETTER TODO JA	
+U+1854	ᡔ		MONGOLIAN LETTER TODO TSA	
+U+1855	ᡕ		MONGOLIAN LETTER TODO YA	
+U+1856	ᡖ		MONGOLIAN LETTER TODO WA	
+U+1857	ᡗ		MONGOLIAN LETTER TODO KA	
+U+1858	ᡘ		MONGOLIAN LETTER TODO GAA	
+U+1859	ᡙ		MONGOLIAN LETTER TODO HAA	
+U+185A	ᡚ		MONGOLIAN LETTER TODO JIA	
+U+185B	ᡛ		MONGOLIAN LETTER TODO NIA	
+U+185C	ᡜ		MONGOLIAN LETTER TODO DZA	
+U+185D	ᡝ		MONGOLIAN LETTER SIBE E	
+U+185E	ᡞ		MONGOLIAN LETTER SIBE I	
+U+185F	ᡟ		MONGOLIAN LETTER SIBE IY	
+U+1860	ᡠ		MONGOLIAN LETTER SIBE UE	
+U+1861	ᡡ		MONGOLIAN LETTER SIBE U	
+U+1862	ᡢ		MONGOLIAN LETTER SIBE ANG	
+U+1863	ᡣ		MONGOLIAN LETTER SIBE KA	
+U+1864	ᡤ		MONGOLIAN LETTER SIBE GA	
+U+1865	ᡥ		MONGOLIAN LETTER SIBE HA	
+U+1866	ᡦ		MONGOLIAN LETTER SIBE PA	
+U+1867	ᡧ		MONGOLIAN LETTER SIBE SHA	
+U+1868	ᡨ		MONGOLIAN LETTER SIBE TA	
+U+1869	ᡩ		MONGOLIAN LETTER SIBE DA	
+U+186A	ᡪ		MONGOLIAN LETTER SIBE JA	
+U+186B	ᡫ		MONGOLIAN LETTER SIBE FA	
+U+186C	ᡬ		MONGOLIAN LETTER SIBE GAA	
+U+186D	ᡭ		MONGOLIAN LETTER SIBE HAA	
+U+186E	ᡮ		MONGOLIAN LETTER SIBE TSA	
+U+186F	ᡯ		MONGOLIAN LETTER SIBE ZA	
+U+1870	ᡰ		MONGOLIAN LETTER SIBE RAA	
+U+1871	ᡱ		MONGOLIAN LETTER SIBE CHA	
+U+1872	ᡲ		MONGOLIAN LETTER SIBE ZHA	
+U+1873	ᡳ		MONGOLIAN LETTER MANCHU I	
+U+1874	ᡴ		MONGOLIAN LETTER MANCHU KA	
+U+1875	ᡵ		MONGOLIAN LETTER MANCHU RA	
+U+1876	ᡶ		MONGOLIAN LETTER MANCHU FA	
+U+1877	ᡷ		MONGOLIAN LETTER MANCHU ZHA	
+U+1878	ᡸ		MONGOLIAN LETTER CHA WITH TWO DOTS	
+U+1880	ᢀ		MONGOLIAN LETTER ALI GALI ANUSVARA ONE	
+U+1881	ᢁ		MONGOLIAN LETTER ALI GALI VISARGA ONE	
+U+1882	ᢂ		MONGOLIAN LETTER ALI GALI DAMARU	
+U+1883	ᢃ		MONGOLIAN LETTER ALI GALI UBADAMA	
+U+1884	ᢄ		MONGOLIAN LETTER ALI GALI INVERTED UBADAMA	
+U+1885	ᢅ		MONGOLIAN LETTER ALI GALI BALUDA	
+U+1886	ᢆ		MONGOLIAN LETTER ALI GALI THREE BALUDA	
+U+1887	ᢇ		MONGOLIAN LETTER ALI GALI A	
+U+1888	ᢈ		MONGOLIAN LETTER ALI GALI I	
+U+1889	ᢉ		MONGOLIAN LETTER ALI GALI KA	
+U+188A	ᢊ		MONGOLIAN LETTER ALI GALI NGA	
+U+188B	ᢋ		MONGOLIAN LETTER ALI GALI CA	
+U+188C	ᢌ		MONGOLIAN LETTER ALI GALI TTA	
+U+188D	ᢍ		MONGOLIAN LETTER ALI GALI TTHA	
+U+188E	ᢎ		MONGOLIAN LETTER ALI GALI DDA	
+U+188F	ᢏ		MONGOLIAN LETTER ALI GALI NNA	
+U+1890	ᢐ		MONGOLIAN LETTER ALI GALI TA	
+U+1891	ᢑ		MONGOLIAN LETTER ALI GALI DA	
+U+1892	ᢒ		MONGOLIAN LETTER ALI GALI PA	
+U+1893	ᢓ		MONGOLIAN LETTER ALI GALI PHA	
+U+1894	ᢔ		MONGOLIAN LETTER ALI GALI SSA	
+U+1895	ᢕ		MONGOLIAN LETTER ALI GALI ZHA	
+U+1896	ᢖ		MONGOLIAN LETTER ALI GALI ZA	
+U+1897	ᢗ		MONGOLIAN LETTER ALI GALI AH	
+U+1898	ᢘ		MONGOLIAN LETTER TODO ALI GALI TA	
+U+1899	ᢙ		MONGOLIAN LETTER TODO ALI GALI ZHA	
+U+189A	ᢚ		MONGOLIAN LETTER MANCHU ALI GALI GHA	
+U+189B	ᢛ		MONGOLIAN LETTER MANCHU ALI GALI NGA	
+U+189C	ᢜ		MONGOLIAN LETTER MANCHU ALI GALI CA	
+U+189D	ᢝ		MONGOLIAN LETTER MANCHU ALI GALI JHA	
+U+189E	ᢞ		MONGOLIAN LETTER MANCHU ALI GALI TTA	
+U+189F	ᢟ		MONGOLIAN LETTER MANCHU ALI GALI DDHA	
+U+18A0	ᢠ		MONGOLIAN LETTER MANCHU ALI GALI TA	
+U+18A1	ᢡ		MONGOLIAN LETTER MANCHU ALI GALI DHA	
+U+18A2	ᢢ		MONGOLIAN LETTER MANCHU ALI GALI SSA	
+U+18A3	ᢣ		MONGOLIAN LETTER MANCHU ALI GALI CYA	
+U+18A4	ᢤ		MONGOLIAN LETTER MANCHU ALI GALI ZHA	
+U+18A5	ᢥ		MONGOLIAN LETTER MANCHU ALI GALI ZA	
+U+18A6	ᢦ		MONGOLIAN LETTER ALI GALI HALF U	
+U+18A7	ᢧ		MONGOLIAN LETTER ALI GALI HALF YA	
+U+18A8	ᢨ		MONGOLIAN LETTER MANCHU ALI GALI BHA	
+U+18A9	ᢩ		MONGOLIAN LETTER ALI GALI DAGALGA	
+U+18AA	ᢪ		MONGOLIAN LETTER MANCHU ALI GALI LHA	

@@ -1,9 +1,9 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1CC0	᳀	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu surya		
-U+1CC1	᳁	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu panglong		
-U+1CC2	᳂	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu purnama		
-U+1CC3	᳃	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu cakra		
-U+1CC4	᳄	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu leu satanga		
-U+1CC5	᳅	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu ka satanga		
-U+1CC6	᳆	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu da satanga		
-U+1CC7	᳇	1CC0..1CCF	Sundanese Supplement	Sundanese punctuation bindu ba satanga		
+code_points	chars	tab_completions	unicode_name	base
+U+1CC0	᳀		SUNDANESE PUNCTUATION BINDU SURYA	
+U+1CC1	᳁		SUNDANESE PUNCTUATION BINDU PANGLONG	
+U+1CC2	᳂		SUNDANESE PUNCTUATION BINDU PURNAMA	
+U+1CC3	᳃		SUNDANESE PUNCTUATION BINDU CAKRA	
+U+1CC4	᳄		SUNDANESE PUNCTUATION BINDU LEU SATANGA	
+U+1CC5	᳅		SUNDANESE PUNCTUATION BINDU KA SATANGA	
+U+1CC6	᳆		SUNDANESE PUNCTUATION BINDU DA SATANGA	
+U+1CC7	᳇		SUNDANESE PUNCTUATION BINDU BA SATANGA	

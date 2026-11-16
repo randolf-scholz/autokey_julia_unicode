@@ -1,49 +1,49 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F650	🙐	1F650..1F67F	Ornamental Dingbats	North west pointing leaf		
-U+1F651	🙑	1F650..1F67F	Ornamental Dingbats	South west pointing leaf		
-U+1F652	🙒	1F650..1F67F	Ornamental Dingbats	North east pointing leaf		
-U+1F653	🙓	1F650..1F67F	Ornamental Dingbats	South east pointing leaf		
-U+1F654	🙔	1F650..1F67F	Ornamental Dingbats	Turned north west pointing leaf		
-U+1F655	🙕	1F650..1F67F	Ornamental Dingbats	Turned south west pointing leaf		
-U+1F656	🙖	1F650..1F67F	Ornamental Dingbats	Turned north east pointing leaf		
-U+1F657	🙗	1F650..1F67F	Ornamental Dingbats	Turned south east pointing leaf		
-U+1F658	🙘	1F650..1F67F	Ornamental Dingbats	North west pointing vine leaf		
-U+1F659	🙙	1F650..1F67F	Ornamental Dingbats	South west pointing vine leaf		
-U+1F65A	🙚	1F650..1F67F	Ornamental Dingbats	North east pointing vine leaf		
-U+1F65B	🙛	1F650..1F67F	Ornamental Dingbats	South east pointing vine leaf		
-U+1F65C	🙜	1F650..1F67F	Ornamental Dingbats	Heavy north west pointing vine leaf		
-U+1F65D	🙝	1F650..1F67F	Ornamental Dingbats	Heavy south west pointing vine leaf		
-U+1F65E	🙞	1F650..1F67F	Ornamental Dingbats	Heavy north east pointing vine leaf		
-U+1F65F	🙟	1F650..1F67F	Ornamental Dingbats	Heavy south east pointing vine leaf		
-U+1F660	🙠	1F650..1F67F	Ornamental Dingbats	North west pointing bud		
-U+1F661	🙡	1F650..1F67F	Ornamental Dingbats	South west pointing bud		
-U+1F662	🙢	1F650..1F67F	Ornamental Dingbats	North east pointing bud		
-U+1F663	🙣	1F650..1F67F	Ornamental Dingbats	South east pointing bud		
-U+1F664	🙤	1F650..1F67F	Ornamental Dingbats	Heavy north west pointing bud		
-U+1F665	🙥	1F650..1F67F	Ornamental Dingbats	Heavy south west pointing bud		
-U+1F666	🙦	1F650..1F67F	Ornamental Dingbats	Heavy north east pointing bud		
-U+1F667	🙧	1F650..1F67F	Ornamental Dingbats	Heavy south east pointing bud		
-U+1F668	🙨	1F650..1F67F	Ornamental Dingbats	Hollow quilt square ornament		
-U+1F669	🙩	1F650..1F67F	Ornamental Dingbats	Hollow quilt square ornament in black square		
-U+1F66A	🙪	1F650..1F67F	Ornamental Dingbats	Solid quilt square ornament		
-U+1F66B	🙫	1F650..1F67F	Ornamental Dingbats	Solid quilt square ornament in black square		
-U+1F66C	🙬	1F650..1F67F	Ornamental Dingbats	Leftwards rocket		
-U+1F66D	🙭	1F650..1F67F	Ornamental Dingbats	Upwards rocket		
-U+1F66E	🙮	1F650..1F67F	Ornamental Dingbats	Rightwards rocket		
-U+1F66F	🙯	1F650..1F67F	Ornamental Dingbats	Downwards rocket		
-U+1F670	🙰	1F650..1F67F	Ornamental Dingbats	Script ligature et ornament		
-U+1F671	🙱	1F650..1F67F	Ornamental Dingbats	Heavy script ligature et ornament		
-U+1F672	🙲	1F650..1F67F	Ornamental Dingbats	Ligature open et ornament		
-U+1F673	🙳	1F650..1F67F	Ornamental Dingbats	Heavy ligature open et ornament		
-U+1F674	🙴	1F650..1F67F	Ornamental Dingbats	Heavy ampersand ornament		
-U+1F675	🙵	1F650..1F67F	Ornamental Dingbats	Swash ampersand ornament		
-U+1F676	🙶	1F650..1F67F	Ornamental Dingbats	Sans-serif heavy double turned comma quotation mark ornament		
-U+1F677	🙷	1F650..1F67F	Ornamental Dingbats	Sans-serif heavy double comma quotation mark ornament		
-U+1F678	🙸	1F650..1F67F	Ornamental Dingbats	Sans-serif heavy low double comma quotation mark ornament		
-U+1F679	🙹	1F650..1F67F	Ornamental Dingbats	Heavy interrobang ornament		
-U+1F67A	🙺	1F650..1F67F	Ornamental Dingbats	Sans-serif interrobang ornament		
-U+1F67B	🙻	1F650..1F67F	Ornamental Dingbats	Heavy sans-serif interrobang ornament		
-U+1F67C	🙼	1F650..1F67F	Ornamental Dingbats	Very heavy solidus		
-U+1F67D	🙽	1F650..1F67F	Ornamental Dingbats	Very heavy reverse solidus		
-U+1F67E	🙾	1F650..1F67F	Ornamental Dingbats	Checker board		
-U+1F67F	🙿	1F650..1F67F	Ornamental Dingbats	Reverse checker board		
+code_points	chars	tab_completions	unicode_name	base
+U+1F650	🙐		NORTH WEST POINTING LEAF	
+U+1F651	🙑		SOUTH WEST POINTING LEAF	
+U+1F652	🙒		NORTH EAST POINTING LEAF	
+U+1F653	🙓		SOUTH EAST POINTING LEAF	
+U+1F654	🙔		TURNED NORTH WEST POINTING LEAF	
+U+1F655	🙕		TURNED SOUTH WEST POINTING LEAF	
+U+1F656	🙖		TURNED NORTH EAST POINTING LEAF	
+U+1F657	🙗		TURNED SOUTH EAST POINTING LEAF	
+U+1F658	🙘		NORTH WEST POINTING VINE LEAF	
+U+1F659	🙙		SOUTH WEST POINTING VINE LEAF	
+U+1F65A	🙚		NORTH EAST POINTING VINE LEAF	
+U+1F65B	🙛		SOUTH EAST POINTING VINE LEAF	
+U+1F65C	🙜		HEAVY NORTH WEST POINTING VINE LEAF	
+U+1F65D	🙝		HEAVY SOUTH WEST POINTING VINE LEAF	
+U+1F65E	🙞		HEAVY NORTH EAST POINTING VINE LEAF	
+U+1F65F	🙟		HEAVY SOUTH EAST POINTING VINE LEAF	
+U+1F660	🙠		NORTH WEST POINTING BUD	
+U+1F661	🙡		SOUTH WEST POINTING BUD	
+U+1F662	🙢		NORTH EAST POINTING BUD	
+U+1F663	🙣		SOUTH EAST POINTING BUD	
+U+1F664	🙤		HEAVY NORTH WEST POINTING BUD	
+U+1F665	🙥		HEAVY SOUTH WEST POINTING BUD	
+U+1F666	🙦		HEAVY NORTH EAST POINTING BUD	
+U+1F667	🙧		HEAVY SOUTH EAST POINTING BUD	
+U+1F668	🙨		HOLLOW QUILT SQUARE ORNAMENT	
+U+1F669	🙩		HOLLOW QUILT SQUARE ORNAMENT IN BLACK SQUARE	
+U+1F66A	🙪		SOLID QUILT SQUARE ORNAMENT	
+U+1F66B	🙫		SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE	
+U+1F66C	🙬		LEFTWARDS ROCKET	
+U+1F66D	🙭		UPWARDS ROCKET	
+U+1F66E	🙮		RIGHTWARDS ROCKET	
+U+1F66F	🙯		DOWNWARDS ROCKET	
+U+1F670	🙰		SCRIPT LIGATURE ET ORNAMENT	
+U+1F671	🙱		HEAVY SCRIPT LIGATURE ET ORNAMENT	
+U+1F672	🙲		LIGATURE OPEN ET ORNAMENT	
+U+1F673	🙳		HEAVY LIGATURE OPEN ET ORNAMENT	
+U+1F674	🙴		HEAVY AMPERSAND ORNAMENT	
+U+1F675	🙵		SWASH AMPERSAND ORNAMENT	
+U+1F676	🙶		SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT	
+U+1F677	🙷		SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT	
+U+1F678	🙸		SANS-SERIF HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT	
+U+1F679	🙹		HEAVY INTERROBANG ORNAMENT	
+U+1F67A	🙺		SANS-SERIF INTERROBANG ORNAMENT	
+U+1F67B	🙻		HEAVY SANS-SERIF INTERROBANG ORNAMENT	
+U+1F67C	🙼		VERY HEAVY SOLIDUS	
+U+1F67D	🙽		VERY HEAVY REVERSE SOLIDUS	
+U+1F67E	🙾		CHECKER BOARD	
+U+1F67F	🙿		REVERSE CHECKER BOARD	

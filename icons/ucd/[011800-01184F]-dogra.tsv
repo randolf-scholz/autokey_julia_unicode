@@ -1,61 +1,61 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11800	𑠀	11800..1184F	Dogra	Dogra letter a		
-U+11801	𑠁	11800..1184F	Dogra	Dogra letter aa		
-U+11802	𑠂	11800..1184F	Dogra	Dogra letter i		
-U+11803	𑠃	11800..1184F	Dogra	Dogra letter ii		
-U+11804	𑠄	11800..1184F	Dogra	Dogra letter u		
-U+11805	𑠅	11800..1184F	Dogra	Dogra letter uu		
-U+11806	𑠆	11800..1184F	Dogra	Dogra letter e		
-U+11807	𑠇	11800..1184F	Dogra	Dogra letter ai		
-U+11808	𑠈	11800..1184F	Dogra	Dogra letter o		
-U+11809	𑠉	11800..1184F	Dogra	Dogra letter au		
-U+1180A	𑠊	11800..1184F	Dogra	Dogra letter ka		
-U+1180B	𑠋	11800..1184F	Dogra	Dogra letter kha		
-U+1180C	𑠌	11800..1184F	Dogra	Dogra letter ga		
-U+1180D	𑠍	11800..1184F	Dogra	Dogra letter gha		
-U+1180E	𑠎	11800..1184F	Dogra	Dogra letter nga		
-U+1180F	𑠏	11800..1184F	Dogra	Dogra letter ca		
-U+11810	𑠐	11800..1184F	Dogra	Dogra letter cha		
-U+11811	𑠑	11800..1184F	Dogra	Dogra letter ja		
-U+11812	𑠒	11800..1184F	Dogra	Dogra letter jha		
-U+11813	𑠓	11800..1184F	Dogra	Dogra letter nya		
-U+11814	𑠔	11800..1184F	Dogra	Dogra letter tta		
-U+11815	𑠕	11800..1184F	Dogra	Dogra letter ttha		
-U+11816	𑠖	11800..1184F	Dogra	Dogra letter dda		
-U+11817	𑠗	11800..1184F	Dogra	Dogra letter ddha		
-U+11818	𑠘	11800..1184F	Dogra	Dogra letter nna		
-U+11819	𑠙	11800..1184F	Dogra	Dogra letter ta		
-U+1181A	𑠚	11800..1184F	Dogra	Dogra letter tha		
-U+1181B	𑠛	11800..1184F	Dogra	Dogra letter da		
-U+1181C	𑠜	11800..1184F	Dogra	Dogra letter dha		
-U+1181D	𑠝	11800..1184F	Dogra	Dogra letter na		
-U+1181E	𑠞	11800..1184F	Dogra	Dogra letter pa		
-U+1181F	𑠟	11800..1184F	Dogra	Dogra letter pha		
-U+11820	𑠠	11800..1184F	Dogra	Dogra letter ba		
-U+11821	𑠡	11800..1184F	Dogra	Dogra letter bha		
-U+11822	𑠢	11800..1184F	Dogra	Dogra letter ma		
-U+11823	𑠣	11800..1184F	Dogra	Dogra letter ya		
-U+11824	𑠤	11800..1184F	Dogra	Dogra letter ra		
-U+11825	𑠥	11800..1184F	Dogra	Dogra letter la		
-U+11826	𑠦	11800..1184F	Dogra	Dogra letter va		
-U+11827	𑠧	11800..1184F	Dogra	Dogra letter sha		
-U+11828	𑠨	11800..1184F	Dogra	Dogra letter ssa		
-U+11829	𑠩	11800..1184F	Dogra	Dogra letter sa		
-U+1182A	𑠪	11800..1184F	Dogra	Dogra letter ha		
-U+1182B	𑠫	11800..1184F	Dogra	Dogra letter rra		
-U+1182C	𑠬	11800..1184F	Dogra	Dogra vowel sign aa		
-U+1182D	𑠭	11800..1184F	Dogra	Dogra vowel sign i		
-U+1182E	𑠮	11800..1184F	Dogra	Dogra vowel sign ii		
-U+1182F	𑠯	11800..1184F	Dogra	Dogra vowel sign u		
-U+11830	𑠰	11800..1184F	Dogra	Dogra vowel sign uu		
-U+11831	𑠱	11800..1184F	Dogra	Dogra vowel sign vocalic r		
-U+11832	𑠲	11800..1184F	Dogra	Dogra vowel sign vocalic rr		
-U+11833	𑠳	11800..1184F	Dogra	Dogra vowel sign e		
-U+11834	𑠴	11800..1184F	Dogra	Dogra vowel sign ai		
-U+11835	𑠵	11800..1184F	Dogra	Dogra vowel sign o		
-U+11836	𑠶	11800..1184F	Dogra	Dogra vowel sign au		
-U+11837	𑠷	11800..1184F	Dogra	Dogra sign anusvara		
-U+11838	𑠸	11800..1184F	Dogra	Dogra sign visarga		
-U+11839	𑠹	11800..1184F	Dogra	Dogra sign virama		
-U+1183A	𑠺	11800..1184F	Dogra	Dogra sign nukta		
-U+1183B	𑠻	11800..1184F	Dogra	Dogra abbreviation sign		
+code_points	chars	tab_completions	unicode_name	base
+U+11800	𑠀		DOGRA LETTER A	
+U+11801	𑠁		DOGRA LETTER AA	
+U+11802	𑠂		DOGRA LETTER I	
+U+11803	𑠃		DOGRA LETTER II	
+U+11804	𑠄		DOGRA LETTER U	
+U+11805	𑠅		DOGRA LETTER UU	
+U+11806	𑠆		DOGRA LETTER E	
+U+11807	𑠇		DOGRA LETTER AI	
+U+11808	𑠈		DOGRA LETTER O	
+U+11809	𑠉		DOGRA LETTER AU	
+U+1180A	𑠊		DOGRA LETTER KA	
+U+1180B	𑠋		DOGRA LETTER KHA	
+U+1180C	𑠌		DOGRA LETTER GA	
+U+1180D	𑠍		DOGRA LETTER GHA	
+U+1180E	𑠎		DOGRA LETTER NGA	
+U+1180F	𑠏		DOGRA LETTER CA	
+U+11810	𑠐		DOGRA LETTER CHA	
+U+11811	𑠑		DOGRA LETTER JA	
+U+11812	𑠒		DOGRA LETTER JHA	
+U+11813	𑠓		DOGRA LETTER NYA	
+U+11814	𑠔		DOGRA LETTER TTA	
+U+11815	𑠕		DOGRA LETTER TTHA	
+U+11816	𑠖		DOGRA LETTER DDA	
+U+11817	𑠗		DOGRA LETTER DDHA	
+U+11818	𑠘		DOGRA LETTER NNA	
+U+11819	𑠙		DOGRA LETTER TA	
+U+1181A	𑠚		DOGRA LETTER THA	
+U+1181B	𑠛		DOGRA LETTER DA	
+U+1181C	𑠜		DOGRA LETTER DHA	
+U+1181D	𑠝		DOGRA LETTER NA	
+U+1181E	𑠞		DOGRA LETTER PA	
+U+1181F	𑠟		DOGRA LETTER PHA	
+U+11820	𑠠		DOGRA LETTER BA	
+U+11821	𑠡		DOGRA LETTER BHA	
+U+11822	𑠢		DOGRA LETTER MA	
+U+11823	𑠣		DOGRA LETTER YA	
+U+11824	𑠤		DOGRA LETTER RA	
+U+11825	𑠥		DOGRA LETTER LA	
+U+11826	𑠦		DOGRA LETTER VA	
+U+11827	𑠧		DOGRA LETTER SHA	
+U+11828	𑠨		DOGRA LETTER SSA	
+U+11829	𑠩		DOGRA LETTER SA	
+U+1182A	𑠪		DOGRA LETTER HA	
+U+1182B	𑠫		DOGRA LETTER RRA	
+U+1182C	𑠬		DOGRA VOWEL SIGN AA	
+U+1182D	𑠭		DOGRA VOWEL SIGN I	
+U+1182E	𑠮		DOGRA VOWEL SIGN II	
+U+1182F	𑠯		DOGRA VOWEL SIGN U	
+U+11830	𑠰		DOGRA VOWEL SIGN UU	
+U+11831	𑠱		DOGRA VOWEL SIGN VOCALIC R	
+U+11832	𑠲		DOGRA VOWEL SIGN VOCALIC RR	
+U+11833	𑠳		DOGRA VOWEL SIGN E	
+U+11834	𑠴		DOGRA VOWEL SIGN AI	
+U+11835	𑠵		DOGRA VOWEL SIGN O	
+U+11836	𑠶		DOGRA VOWEL SIGN AU	
+U+11837	𑠷		DOGRA SIGN ANUSVARA	
+U+11838	𑠸		DOGRA SIGN VISARGA	
+U+11839	𑠹		DOGRA SIGN VIRAMA	
+U+1183A	𑠺		DOGRA SIGN NUKTA	
+U+1183B	𑠻		DOGRA ABBREVIATION SIGN	

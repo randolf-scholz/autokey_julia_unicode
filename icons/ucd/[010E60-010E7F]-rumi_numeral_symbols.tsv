@@ -1,32 +1,32 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10E60	𐹠	10E60..10E7F	Rumi Numeral Symbols	Rumi digit one		
-U+10E61	𐹡	10E60..10E7F	Rumi Numeral Symbols	Rumi digit two		
-U+10E62	𐹢	10E60..10E7F	Rumi Numeral Symbols	Rumi digit three		
-U+10E63	𐹣	10E60..10E7F	Rumi Numeral Symbols	Rumi digit four		
-U+10E64	𐹤	10E60..10E7F	Rumi Numeral Symbols	Rumi digit five		
-U+10E65	𐹥	10E60..10E7F	Rumi Numeral Symbols	Rumi digit six		
-U+10E66	𐹦	10E60..10E7F	Rumi Numeral Symbols	Rumi digit seven		
-U+10E67	𐹧	10E60..10E7F	Rumi Numeral Symbols	Rumi digit eight		
-U+10E68	𐹨	10E60..10E7F	Rumi Numeral Symbols	Rumi digit nine		
-U+10E69	𐹩	10E60..10E7F	Rumi Numeral Symbols	Rumi number ten		
-U+10E6A	𐹪	10E60..10E7F	Rumi Numeral Symbols	Rumi number twenty		
-U+10E6B	𐹫	10E60..10E7F	Rumi Numeral Symbols	Rumi number thirty		
-U+10E6C	𐹬	10E60..10E7F	Rumi Numeral Symbols	Rumi number forty		
-U+10E6D	𐹭	10E60..10E7F	Rumi Numeral Symbols	Rumi number fifty		
-U+10E6E	𐹮	10E60..10E7F	Rumi Numeral Symbols	Rumi number sixty		
-U+10E6F	𐹯	10E60..10E7F	Rumi Numeral Symbols	Rumi number seventy		
-U+10E70	𐹰	10E60..10E7F	Rumi Numeral Symbols	Rumi number eighty		
-U+10E71	𐹱	10E60..10E7F	Rumi Numeral Symbols	Rumi number ninety		
-U+10E72	𐹲	10E60..10E7F	Rumi Numeral Symbols	Rumi number one hundred		
-U+10E73	𐹳	10E60..10E7F	Rumi Numeral Symbols	Rumi number two hundred		
-U+10E74	𐹴	10E60..10E7F	Rumi Numeral Symbols	Rumi number three hundred		
-U+10E75	𐹵	10E60..10E7F	Rumi Numeral Symbols	Rumi number four hundred		
-U+10E76	𐹶	10E60..10E7F	Rumi Numeral Symbols	Rumi number five hundred		
-U+10E77	𐹷	10E60..10E7F	Rumi Numeral Symbols	Rumi number six hundred		
-U+10E78	𐹸	10E60..10E7F	Rumi Numeral Symbols	Rumi number seven hundred		
-U+10E79	𐹹	10E60..10E7F	Rumi Numeral Symbols	Rumi number eight hundred		
-U+10E7A	𐹺	10E60..10E7F	Rumi Numeral Symbols	Rumi number nine hundred		
-U+10E7B	𐹻	10E60..10E7F	Rumi Numeral Symbols	Rumi fraction one half		
-U+10E7C	𐹼	10E60..10E7F	Rumi Numeral Symbols	Rumi fraction one quarter		
-U+10E7D	𐹽	10E60..10E7F	Rumi Numeral Symbols	Rumi fraction one third		
-U+10E7E	𐹾	10E60..10E7F	Rumi Numeral Symbols	Rumi fraction two thirds		
+code_points	chars	tab_completions	unicode_name	base
+U+10E60	𐹠		RUMI DIGIT ONE	
+U+10E61	𐹡		RUMI DIGIT TWO	
+U+10E62	𐹢		RUMI DIGIT THREE	
+U+10E63	𐹣		RUMI DIGIT FOUR	
+U+10E64	𐹤		RUMI DIGIT FIVE	
+U+10E65	𐹥		RUMI DIGIT SIX	
+U+10E66	𐹦		RUMI DIGIT SEVEN	
+U+10E67	𐹧		RUMI DIGIT EIGHT	
+U+10E68	𐹨		RUMI DIGIT NINE	
+U+10E69	𐹩		RUMI NUMBER TEN	
+U+10E6A	𐹪		RUMI NUMBER TWENTY	
+U+10E6B	𐹫		RUMI NUMBER THIRTY	
+U+10E6C	𐹬		RUMI NUMBER FORTY	
+U+10E6D	𐹭		RUMI NUMBER FIFTY	
+U+10E6E	𐹮		RUMI NUMBER SIXTY	
+U+10E6F	𐹯		RUMI NUMBER SEVENTY	
+U+10E70	𐹰		RUMI NUMBER EIGHTY	
+U+10E71	𐹱		RUMI NUMBER NINETY	
+U+10E72	𐹲		RUMI NUMBER ONE HUNDRED	
+U+10E73	𐹳		RUMI NUMBER TWO HUNDRED	
+U+10E74	𐹴		RUMI NUMBER THREE HUNDRED	
+U+10E75	𐹵		RUMI NUMBER FOUR HUNDRED	
+U+10E76	𐹶		RUMI NUMBER FIVE HUNDRED	
+U+10E77	𐹷		RUMI NUMBER SIX HUNDRED	
+U+10E78	𐹸		RUMI NUMBER SEVEN HUNDRED	
+U+10E79	𐹹		RUMI NUMBER EIGHT HUNDRED	
+U+10E7A	𐹺		RUMI NUMBER NINE HUNDRED	
+U+10E7B	𐹻		RUMI FRACTION ONE HALF	
+U+10E7C	𐹼		RUMI FRACTION ONE QUARTER	
+U+10E7D	𐹽		RUMI FRACTION ONE THIRD	
+U+10E7E	𐹾		RUMI FRACTION TWO THIRDS	

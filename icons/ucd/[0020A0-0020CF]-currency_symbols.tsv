@@ -1,38 +1,38 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+20A0	₠	20A0..20CF	Currency Symbols	Euro-currency sign		
-U+20A1	₡	20A0..20CF	Currency Symbols	Colon sign		
-U+20A2	₢	20A0..20CF	Currency Symbols	Cruzeiro sign		
-U+20A3	₣	20A0..20CF	Currency Symbols	French franc sign		
-U+20A4	₤	20A0..20CF	Currency Symbols	Lira sign		
-U+20A5	₥	20A0..20CF	Currency Symbols	Mill sign		
-U+20A6	₦	20A0..20CF	Currency Symbols	Naira sign		
-U+20A7	₧	20A0..20CF	Currency Symbols	Peseta sign		
-U+20A8	₨	20A0..20CF	Currency Symbols	Rupee sign		
-U+20A9	₩	20A0..20CF	Currency Symbols	Won sign		
-U+20AA	₪	20A0..20CF	Currency Symbols	New sheqel sign		
-U+20AB	₫	20A0..20CF	Currency Symbols	Dong sign		
-U+20AC	€	20A0..20CF	Currency Symbols	Euro sign		
-U+20AD	₭	20A0..20CF	Currency Symbols	Kip sign		
-U+20AE	₮	20A0..20CF	Currency Symbols	Tugrik sign		
-U+20AF	₯	20A0..20CF	Currency Symbols	Drachma sign		
-U+20B0	₰	20A0..20CF	Currency Symbols	German penny sign		
-U+20B1	₱	20A0..20CF	Currency Symbols	Peso sign		
-U+20B2	₲	20A0..20CF	Currency Symbols	Guarani sign		
-U+20B3	₳	20A0..20CF	Currency Symbols	Austral sign		
-U+20B4	₴	20A0..20CF	Currency Symbols	Hryvnia sign		
-U+20B5	₵	20A0..20CF	Currency Symbols	Cedi sign		
-U+20B6	₶	20A0..20CF	Currency Symbols	Livre tournois sign		
-U+20B7	₷	20A0..20CF	Currency Symbols	Spesmilo sign		
-U+20B8	₸	20A0..20CF	Currency Symbols	Tenge sign		
-U+20B9	₹	20A0..20CF	Currency Symbols	Indian rupee sign		
-U+20BA	₺	20A0..20CF	Currency Symbols	Turkish lira sign		
-U+20BB	₻	20A0..20CF	Currency Symbols	Nordic mark sign		
-U+20BC	₼	20A0..20CF	Currency Symbols	Manat sign		
-U+20BD	₽	20A0..20CF	Currency Symbols	Ruble sign		
-U+20BE	₾	20A0..20CF	Currency Symbols	Lari sign		
-U+20BF	₿	20A0..20CF	Currency Symbols	Bitcoin sign		
-U+20C0	⃀	20A0..20CF	Currency Symbols	Som sign		
-U+20C1	⃁	20A0..20CF	Currency Symbols	Saudi riyal sign		
-U+20C2	⃂	20A0..20CF	Currency Symbols	Rufiyaa sign		
-U+20C3	⃃	20A0..20CF	Currency Symbols	Uae dirham sign		
-U+20C4	⃄	20A0..20CF	Currency Symbols	Omani rial sign		
+code_points	chars	tab_completions	unicode_name	base
+U+20A0	₠		EURO-CURRENCY SIGN	
+U+20A1	₡		COLON SIGN	
+U+20A2	₢		CRUZEIRO SIGN	
+U+20A3	₣		FRENCH FRANC SIGN	
+U+20A4	₤		LIRA SIGN	
+U+20A5	₥		MILL SIGN	
+U+20A6	₦		NAIRA SIGN	
+U+20A7	₧		PESETA SIGN	
+U+20A8	₨		RUPEE SIGN	
+U+20A9	₩		WON SIGN	
+U+20AA	₪		NEW SHEQEL SIGN	
+U+20AB	₫		DONG SIGN	
+U+20AC	€		EURO SIGN	
+U+20AD	₭		KIP SIGN	
+U+20AE	₮		TUGRIK SIGN	
+U+20AF	₯		DRACHMA SIGN	
+U+20B0	₰		GERMAN PENNY SIGN	
+U+20B1	₱		PESO SIGN	
+U+20B2	₲		GUARANI SIGN	
+U+20B3	₳		AUSTRAL SIGN	
+U+20B4	₴		HRYVNIA SIGN	
+U+20B5	₵		CEDI SIGN	
+U+20B6	₶		LIVRE TOURNOIS SIGN	
+U+20B7	₷		SPESMILO SIGN	
+U+20B8	₸		TENGE SIGN	
+U+20B9	₹		INDIAN RUPEE SIGN	
+U+20BA	₺		TURKISH LIRA SIGN	
+U+20BB	₻		NORDIC MARK SIGN	
+U+20BC	₼		MANAT SIGN	
+U+20BD	₽		RUBLE SIGN	
+U+20BE	₾		LARI SIGN	
+U+20BF	₿		BITCOIN SIGN	
+U+20C0	⃀		SOM SIGN	
+U+20C1	⃁		SAUDI RIYAL SIGN	
+U+20C2	⃂		RUFIYAA SIGN	
+U+20C3	⃃		UAE DIRHAM SIGN	
+U+20C4	⃄		OMANI RIAL SIGN	

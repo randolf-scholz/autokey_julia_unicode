@@ -1,38 +1,38 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A930	ꤰ	A930..A95F	Rejang	Rejang letter ka		
-U+A931	ꤱ	A930..A95F	Rejang	Rejang letter ga		
-U+A932	ꤲ	A930..A95F	Rejang	Rejang letter nga		
-U+A933	ꤳ	A930..A95F	Rejang	Rejang letter ta		
-U+A934	ꤴ	A930..A95F	Rejang	Rejang letter da		
-U+A935	ꤵ	A930..A95F	Rejang	Rejang letter na		
-U+A936	ꤶ	A930..A95F	Rejang	Rejang letter pa		
-U+A937	ꤷ	A930..A95F	Rejang	Rejang letter ba		
-U+A938	ꤸ	A930..A95F	Rejang	Rejang letter ma		
-U+A939	ꤹ	A930..A95F	Rejang	Rejang letter ca		
-U+A93A	ꤺ	A930..A95F	Rejang	Rejang letter ja		
-U+A93B	ꤻ	A930..A95F	Rejang	Rejang letter nya		
-U+A93C	ꤼ	A930..A95F	Rejang	Rejang letter sa		
-U+A93D	ꤽ	A930..A95F	Rejang	Rejang letter ra		
-U+A93E	ꤾ	A930..A95F	Rejang	Rejang letter la		
-U+A93F	ꤿ	A930..A95F	Rejang	Rejang letter ya		
-U+A940	ꥀ	A930..A95F	Rejang	Rejang letter wa		
-U+A941	ꥁ	A930..A95F	Rejang	Rejang letter ha		
-U+A942	ꥂ	A930..A95F	Rejang	Rejang letter mba		
-U+A943	ꥃ	A930..A95F	Rejang	Rejang letter ngga		
-U+A944	ꥄ	A930..A95F	Rejang	Rejang letter nda		
-U+A945	ꥅ	A930..A95F	Rejang	Rejang letter nyja		
-U+A946	ꥆ	A930..A95F	Rejang	Rejang letter a		
-U+A947	ꥇ	A930..A95F	Rejang	Rejang vowel sign i		
-U+A948	ꥈ	A930..A95F	Rejang	Rejang vowel sign u		
-U+A949	ꥉ	A930..A95F	Rejang	Rejang vowel sign e		
-U+A94A	ꥊ	A930..A95F	Rejang	Rejang vowel sign ai		
-U+A94B	ꥋ	A930..A95F	Rejang	Rejang vowel sign o		
-U+A94C	ꥌ	A930..A95F	Rejang	Rejang vowel sign au		
-U+A94D	ꥍ	A930..A95F	Rejang	Rejang vowel sign eu		
-U+A94E	ꥎ	A930..A95F	Rejang	Rejang vowel sign ea		
-U+A94F	ꥏ	A930..A95F	Rejang	Rejang consonant sign ng		
-U+A950	ꥐ	A930..A95F	Rejang	Rejang consonant sign n		
-U+A951	ꥑ	A930..A95F	Rejang	Rejang consonant sign r		
-U+A952	ꥒ	A930..A95F	Rejang	Rejang consonant sign h		
-U+A953	꥓	A930..A95F	Rejang	Rejang virama		
-U+A95F	꥟	A930..A95F	Rejang	Rejang section mark		
+code_points	chars	tab_completions	unicode_name	base
+U+A930	ꤰ		REJANG LETTER KA	
+U+A931	ꤱ		REJANG LETTER GA	
+U+A932	ꤲ		REJANG LETTER NGA	
+U+A933	ꤳ		REJANG LETTER TA	
+U+A934	ꤴ		REJANG LETTER DA	
+U+A935	ꤵ		REJANG LETTER NA	
+U+A936	ꤶ		REJANG LETTER PA	
+U+A937	ꤷ		REJANG LETTER BA	
+U+A938	ꤸ		REJANG LETTER MA	
+U+A939	ꤹ		REJANG LETTER CA	
+U+A93A	ꤺ		REJANG LETTER JA	
+U+A93B	ꤻ		REJANG LETTER NYA	
+U+A93C	ꤼ		REJANG LETTER SA	
+U+A93D	ꤽ		REJANG LETTER RA	
+U+A93E	ꤾ		REJANG LETTER LA	
+U+A93F	ꤿ		REJANG LETTER YA	
+U+A940	ꥀ		REJANG LETTER WA	
+U+A941	ꥁ		REJANG LETTER HA	
+U+A942	ꥂ		REJANG LETTER MBA	
+U+A943	ꥃ		REJANG LETTER NGGA	
+U+A944	ꥄ		REJANG LETTER NDA	
+U+A945	ꥅ		REJANG LETTER NYJA	
+U+A946	ꥆ		REJANG LETTER A	
+U+A947	ꥇ		REJANG VOWEL SIGN I	
+U+A948	ꥈ		REJANG VOWEL SIGN U	
+U+A949	ꥉ		REJANG VOWEL SIGN E	
+U+A94A	ꥊ		REJANG VOWEL SIGN AI	
+U+A94B	ꥋ		REJANG VOWEL SIGN O	
+U+A94C	ꥌ		REJANG VOWEL SIGN AU	
+U+A94D	ꥍ		REJANG VOWEL SIGN EU	
+U+A94E	ꥎ		REJANG VOWEL SIGN EA	
+U+A94F	ꥏ		REJANG CONSONANT SIGN NG	
+U+A950	ꥐ		REJANG CONSONANT SIGN N	
+U+A951	ꥑ		REJANG CONSONANT SIGN R	
+U+A952	ꥒ		REJANG CONSONANT SIGN H	
+U+A953	꥓		REJANG VIRAMA	
+U+A95F	꥟		REJANG SECTION MARK	

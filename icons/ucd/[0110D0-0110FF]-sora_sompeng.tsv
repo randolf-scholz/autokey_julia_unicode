@@ -1,36 +1,36 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+110D0	𑃐	110D0..110FF	Sora Sompeng	Sora sompeng letter sah		
-U+110D1	𑃑	110D0..110FF	Sora Sompeng	Sora sompeng letter tah		
-U+110D2	𑃒	110D0..110FF	Sora Sompeng	Sora sompeng letter bah		
-U+110D3	𑃓	110D0..110FF	Sora Sompeng	Sora sompeng letter cah		
-U+110D4	𑃔	110D0..110FF	Sora Sompeng	Sora sompeng letter dah		
-U+110D5	𑃕	110D0..110FF	Sora Sompeng	Sora sompeng letter gah		
-U+110D6	𑃖	110D0..110FF	Sora Sompeng	Sora sompeng letter mah		
-U+110D7	𑃗	110D0..110FF	Sora Sompeng	Sora sompeng letter ngah		
-U+110D8	𑃘	110D0..110FF	Sora Sompeng	Sora sompeng letter lah		
-U+110D9	𑃙	110D0..110FF	Sora Sompeng	Sora sompeng letter nah		
-U+110DA	𑃚	110D0..110FF	Sora Sompeng	Sora sompeng letter vah		
-U+110DB	𑃛	110D0..110FF	Sora Sompeng	Sora sompeng letter pah		
-U+110DC	𑃜	110D0..110FF	Sora Sompeng	Sora sompeng letter yah		
-U+110DD	𑃝	110D0..110FF	Sora Sompeng	Sora sompeng letter rah		
-U+110DE	𑃞	110D0..110FF	Sora Sompeng	Sora sompeng letter hah		
-U+110DF	𑃟	110D0..110FF	Sora Sompeng	Sora sompeng letter kah		
-U+110E0	𑃠	110D0..110FF	Sora Sompeng	Sora sompeng letter jah		
-U+110E1	𑃡	110D0..110FF	Sora Sompeng	Sora sompeng letter nyah		
-U+110E2	𑃢	110D0..110FF	Sora Sompeng	Sora sompeng letter ah		
-U+110E3	𑃣	110D0..110FF	Sora Sompeng	Sora sompeng letter eeh		
-U+110E4	𑃤	110D0..110FF	Sora Sompeng	Sora sompeng letter ih		
-U+110E5	𑃥	110D0..110FF	Sora Sompeng	Sora sompeng letter uh		
-U+110E6	𑃦	110D0..110FF	Sora Sompeng	Sora sompeng letter oh		
-U+110E7	𑃧	110D0..110FF	Sora Sompeng	Sora sompeng letter eh		
-U+110E8	𑃨	110D0..110FF	Sora Sompeng	Sora sompeng letter mae		
-U+110F0	𑃰	110D0..110FF	Sora Sompeng	Sora sompeng digit zero		
-U+110F1	𑃱	110D0..110FF	Sora Sompeng	Sora sompeng digit one		
-U+110F2	𑃲	110D0..110FF	Sora Sompeng	Sora sompeng digit two		
-U+110F3	𑃳	110D0..110FF	Sora Sompeng	Sora sompeng digit three		
-U+110F4	𑃴	110D0..110FF	Sora Sompeng	Sora sompeng digit four		
-U+110F5	𑃵	110D0..110FF	Sora Sompeng	Sora sompeng digit five		
-U+110F6	𑃶	110D0..110FF	Sora Sompeng	Sora sompeng digit six		
-U+110F7	𑃷	110D0..110FF	Sora Sompeng	Sora sompeng digit seven		
-U+110F8	𑃸	110D0..110FF	Sora Sompeng	Sora sompeng digit eight		
-U+110F9	𑃹	110D0..110FF	Sora Sompeng	Sora sompeng digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+110D0	𑃐		SORA SOMPENG LETTER SAH	
+U+110D1	𑃑		SORA SOMPENG LETTER TAH	
+U+110D2	𑃒		SORA SOMPENG LETTER BAH	
+U+110D3	𑃓		SORA SOMPENG LETTER CAH	
+U+110D4	𑃔		SORA SOMPENG LETTER DAH	
+U+110D5	𑃕		SORA SOMPENG LETTER GAH	
+U+110D6	𑃖		SORA SOMPENG LETTER MAH	
+U+110D7	𑃗		SORA SOMPENG LETTER NGAH	
+U+110D8	𑃘		SORA SOMPENG LETTER LAH	
+U+110D9	𑃙		SORA SOMPENG LETTER NAH	
+U+110DA	𑃚		SORA SOMPENG LETTER VAH	
+U+110DB	𑃛		SORA SOMPENG LETTER PAH	
+U+110DC	𑃜		SORA SOMPENG LETTER YAH	
+U+110DD	𑃝		SORA SOMPENG LETTER RAH	
+U+110DE	𑃞		SORA SOMPENG LETTER HAH	
+U+110DF	𑃟		SORA SOMPENG LETTER KAH	
+U+110E0	𑃠		SORA SOMPENG LETTER JAH	
+U+110E1	𑃡		SORA SOMPENG LETTER NYAH	
+U+110E2	𑃢		SORA SOMPENG LETTER AH	
+U+110E3	𑃣		SORA SOMPENG LETTER EEH	
+U+110E4	𑃤		SORA SOMPENG LETTER IH	
+U+110E5	𑃥		SORA SOMPENG LETTER UH	
+U+110E6	𑃦		SORA SOMPENG LETTER OH	
+U+110E7	𑃧		SORA SOMPENG LETTER EH	
+U+110E8	𑃨		SORA SOMPENG LETTER MAE	
+U+110F0	𑃰		SORA SOMPENG DIGIT ZERO	
+U+110F1	𑃱		SORA SOMPENG DIGIT ONE	
+U+110F2	𑃲		SORA SOMPENG DIGIT TWO	
+U+110F3	𑃳		SORA SOMPENG DIGIT THREE	
+U+110F4	𑃴		SORA SOMPENG DIGIT FOUR	
+U+110F5	𑃵		SORA SOMPENG DIGIT FIVE	
+U+110F6	𑃶		SORA SOMPENG DIGIT SIX	
+U+110F7	𑃷		SORA SOMPENG DIGIT SEVEN	
+U+110F8	𑃸		SORA SOMPENG DIGIT EIGHT	
+U+110F9	𑃹		SORA SOMPENG DIGIT NINE	

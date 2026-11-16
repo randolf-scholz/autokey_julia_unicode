@@ -1,33 +1,33 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+19E0	᧠	19E0..19FF	Khmer Symbols	Khmer symbol pathamasat		
-U+19E1	᧡	19E0..19FF	Khmer Symbols	Khmer symbol muoy koet		
-U+19E2	᧢	19E0..19FF	Khmer Symbols	Khmer symbol pii koet		
-U+19E3	᧣	19E0..19FF	Khmer Symbols	Khmer symbol bei koet		
-U+19E4	᧤	19E0..19FF	Khmer Symbols	Khmer symbol buon koet		
-U+19E5	᧥	19E0..19FF	Khmer Symbols	Khmer symbol pram koet		
-U+19E6	᧦	19E0..19FF	Khmer Symbols	Khmer symbol pram-muoy koet		
-U+19E7	᧧	19E0..19FF	Khmer Symbols	Khmer symbol pram-pii koet		
-U+19E8	᧨	19E0..19FF	Khmer Symbols	Khmer symbol pram-bei koet		
-U+19E9	᧩	19E0..19FF	Khmer Symbols	Khmer symbol pram-buon koet		
-U+19EA	᧪	19E0..19FF	Khmer Symbols	Khmer symbol dap koet		
-U+19EB	᧫	19E0..19FF	Khmer Symbols	Khmer symbol dap-muoy koet		
-U+19EC	᧬	19E0..19FF	Khmer Symbols	Khmer symbol dap-pii koet		
-U+19ED	᧭	19E0..19FF	Khmer Symbols	Khmer symbol dap-bei koet		
-U+19EE	᧮	19E0..19FF	Khmer Symbols	Khmer symbol dap-buon koet		
-U+19EF	᧯	19E0..19FF	Khmer Symbols	Khmer symbol dap-pram koet		
-U+19F0	᧰	19E0..19FF	Khmer Symbols	Khmer symbol tuteyasat		
-U+19F1	᧱	19E0..19FF	Khmer Symbols	Khmer symbol muoy roc		
-U+19F2	᧲	19E0..19FF	Khmer Symbols	Khmer symbol pii roc		
-U+19F3	᧳	19E0..19FF	Khmer Symbols	Khmer symbol bei roc		
-U+19F4	᧴	19E0..19FF	Khmer Symbols	Khmer symbol buon roc		
-U+19F5	᧵	19E0..19FF	Khmer Symbols	Khmer symbol pram roc		
-U+19F6	᧶	19E0..19FF	Khmer Symbols	Khmer symbol pram-muoy roc		
-U+19F7	᧷	19E0..19FF	Khmer Symbols	Khmer symbol pram-pii roc		
-U+19F8	᧸	19E0..19FF	Khmer Symbols	Khmer symbol pram-bei roc		
-U+19F9	᧹	19E0..19FF	Khmer Symbols	Khmer symbol pram-buon roc		
-U+19FA	᧺	19E0..19FF	Khmer Symbols	Khmer symbol dap roc		
-U+19FB	᧻	19E0..19FF	Khmer Symbols	Khmer symbol dap-muoy roc		
-U+19FC	᧼	19E0..19FF	Khmer Symbols	Khmer symbol dap-pii roc		
-U+19FD	᧽	19E0..19FF	Khmer Symbols	Khmer symbol dap-bei roc		
-U+19FE	᧾	19E0..19FF	Khmer Symbols	Khmer symbol dap-buon roc		
-U+19FF	᧿	19E0..19FF	Khmer Symbols	Khmer symbol dap-pram roc		
+code_points	chars	tab_completions	unicode_name	base
+U+19E0	᧠		KHMER SYMBOL PATHAMASAT	
+U+19E1	᧡		KHMER SYMBOL MUOY KOET	
+U+19E2	᧢		KHMER SYMBOL PII KOET	
+U+19E3	᧣		KHMER SYMBOL BEI KOET	
+U+19E4	᧤		KHMER SYMBOL BUON KOET	
+U+19E5	᧥		KHMER SYMBOL PRAM KOET	
+U+19E6	᧦		KHMER SYMBOL PRAM-MUOY KOET	
+U+19E7	᧧		KHMER SYMBOL PRAM-PII KOET	
+U+19E8	᧨		KHMER SYMBOL PRAM-BEI KOET	
+U+19E9	᧩		KHMER SYMBOL PRAM-BUON KOET	
+U+19EA	᧪		KHMER SYMBOL DAP KOET	
+U+19EB	᧫		KHMER SYMBOL DAP-MUOY KOET	
+U+19EC	᧬		KHMER SYMBOL DAP-PII KOET	
+U+19ED	᧭		KHMER SYMBOL DAP-BEI KOET	
+U+19EE	᧮		KHMER SYMBOL DAP-BUON KOET	
+U+19EF	᧯		KHMER SYMBOL DAP-PRAM KOET	
+U+19F0	᧰		KHMER SYMBOL TUTEYASAT	
+U+19F1	᧱		KHMER SYMBOL MUOY ROC	
+U+19F2	᧲		KHMER SYMBOL PII ROC	
+U+19F3	᧳		KHMER SYMBOL BEI ROC	
+U+19F4	᧴		KHMER SYMBOL BUON ROC	
+U+19F5	᧵		KHMER SYMBOL PRAM ROC	
+U+19F6	᧶		KHMER SYMBOL PRAM-MUOY ROC	
+U+19F7	᧷		KHMER SYMBOL PRAM-PII ROC	
+U+19F8	᧸		KHMER SYMBOL PRAM-BEI ROC	
+U+19F9	᧹		KHMER SYMBOL PRAM-BUON ROC	
+U+19FA	᧺		KHMER SYMBOL DAP ROC	
+U+19FB	᧻		KHMER SYMBOL DAP-MUOY ROC	
+U+19FC	᧼		KHMER SYMBOL DAP-PII ROC	
+U+19FD	᧽		KHMER SYMBOL DAP-BEI ROC	
+U+19FE	᧾		KHMER SYMBOL DAP-BUON ROC	
+U+19FF	᧿		KHMER SYMBOL DAP-PRAM ROC	

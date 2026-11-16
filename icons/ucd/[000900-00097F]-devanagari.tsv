@@ -1,129 +1,129 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0900	ऀ	0900..097F	Devanagari	Devanagari sign inverted candrabindu		
-U+0901	ँ	0900..097F	Devanagari	Devanagari sign candrabindu		
-U+0902	ं	0900..097F	Devanagari	Devanagari sign anusvara		
-U+0903	ः	0900..097F	Devanagari	Devanagari sign visarga		
-U+0904	ऄ	0900..097F	Devanagari	Devanagari letter short a		
-U+0905	अ	0900..097F	Devanagari	Devanagari letter a		
-U+0906	आ	0900..097F	Devanagari	Devanagari letter aa		
-U+0907	इ	0900..097F	Devanagari	Devanagari letter i		
-U+0908	ई	0900..097F	Devanagari	Devanagari letter ii		
-U+0909	उ	0900..097F	Devanagari	Devanagari letter u		
-U+090A	ऊ	0900..097F	Devanagari	Devanagari letter uu		
-U+090B	ऋ	0900..097F	Devanagari	Devanagari letter vocalic r		
-U+090C	ऌ	0900..097F	Devanagari	Devanagari letter vocalic l		
-U+090D	ऍ	0900..097F	Devanagari	Devanagari letter candra e		
-U+090E	ऎ	0900..097F	Devanagari	Devanagari letter short e		
-U+090F	ए	0900..097F	Devanagari	Devanagari letter e		
-U+0910	ऐ	0900..097F	Devanagari	Devanagari letter ai		
-U+0911	ऑ	0900..097F	Devanagari	Devanagari letter candra o		
-U+0912	ऒ	0900..097F	Devanagari	Devanagari letter short o		
-U+0913	ओ	0900..097F	Devanagari	Devanagari letter o		
-U+0914	औ	0900..097F	Devanagari	Devanagari letter au		
-U+0915	क	0900..097F	Devanagari	Devanagari letter ka		
-U+0916	ख	0900..097F	Devanagari	Devanagari letter kha		
-U+0917	ग	0900..097F	Devanagari	Devanagari letter ga		
-U+0918	घ	0900..097F	Devanagari	Devanagari letter gha		
-U+0919	ङ	0900..097F	Devanagari	Devanagari letter nga		
-U+091A	च	0900..097F	Devanagari	Devanagari letter ca		
-U+091B	छ	0900..097F	Devanagari	Devanagari letter cha		
-U+091C	ज	0900..097F	Devanagari	Devanagari letter ja		
-U+091D	झ	0900..097F	Devanagari	Devanagari letter jha		
-U+091E	ञ	0900..097F	Devanagari	Devanagari letter nya		
-U+091F	ट	0900..097F	Devanagari	Devanagari letter tta		
-U+0920	ठ	0900..097F	Devanagari	Devanagari letter ttha		
-U+0921	ड	0900..097F	Devanagari	Devanagari letter dda		
-U+0922	ढ	0900..097F	Devanagari	Devanagari letter ddha		
-U+0923	ण	0900..097F	Devanagari	Devanagari letter nna		
-U+0924	त	0900..097F	Devanagari	Devanagari letter ta		
-U+0925	थ	0900..097F	Devanagari	Devanagari letter tha		
-U+0926	द	0900..097F	Devanagari	Devanagari letter da		
-U+0927	ध	0900..097F	Devanagari	Devanagari letter dha		
-U+0928	न	0900..097F	Devanagari	Devanagari letter na		
-U+0929	ऩ	0900..097F	Devanagari	Devanagari letter nnna		
-U+092A	प	0900..097F	Devanagari	Devanagari letter pa		
-U+092B	फ	0900..097F	Devanagari	Devanagari letter pha		
-U+092C	ब	0900..097F	Devanagari	Devanagari letter ba		
-U+092D	भ	0900..097F	Devanagari	Devanagari letter bha		
-U+092E	म	0900..097F	Devanagari	Devanagari letter ma		
-U+092F	य	0900..097F	Devanagari	Devanagari letter ya		
-U+0930	र	0900..097F	Devanagari	Devanagari letter ra		
-U+0931	ऱ	0900..097F	Devanagari	Devanagari letter rra		
-U+0932	ल	0900..097F	Devanagari	Devanagari letter la		
-U+0933	ळ	0900..097F	Devanagari	Devanagari letter lla		
-U+0934	ऴ	0900..097F	Devanagari	Devanagari letter llla		
-U+0935	व	0900..097F	Devanagari	Devanagari letter va		
-U+0936	श	0900..097F	Devanagari	Devanagari letter sha		
-U+0937	ष	0900..097F	Devanagari	Devanagari letter ssa		
-U+0938	स	0900..097F	Devanagari	Devanagari letter sa		
-U+0939	ह	0900..097F	Devanagari	Devanagari letter ha		
-U+093A	ऺ	0900..097F	Devanagari	Devanagari vowel sign oe		
-U+093B	ऻ	0900..097F	Devanagari	Devanagari vowel sign ooe		
-U+093C	़	0900..097F	Devanagari	Devanagari sign nukta		
-U+093D	ऽ	0900..097F	Devanagari	Devanagari sign avagraha		
-U+093E	ा	0900..097F	Devanagari	Devanagari vowel sign aa		
-U+093F	ि	0900..097F	Devanagari	Devanagari vowel sign i		
-U+0940	ी	0900..097F	Devanagari	Devanagari vowel sign ii		
-U+0941	ु	0900..097F	Devanagari	Devanagari vowel sign u		
-U+0942	ू	0900..097F	Devanagari	Devanagari vowel sign uu		
-U+0943	ृ	0900..097F	Devanagari	Devanagari vowel sign vocalic r		
-U+0944	ॄ	0900..097F	Devanagari	Devanagari vowel sign vocalic rr		
-U+0945	ॅ	0900..097F	Devanagari	Devanagari vowel sign candra e		
-U+0946	ॆ	0900..097F	Devanagari	Devanagari vowel sign short e		
-U+0947	े	0900..097F	Devanagari	Devanagari vowel sign e		
-U+0948	ै	0900..097F	Devanagari	Devanagari vowel sign ai		
-U+0949	ॉ	0900..097F	Devanagari	Devanagari vowel sign candra o		
-U+094A	ॊ	0900..097F	Devanagari	Devanagari vowel sign short o		
-U+094B	ो	0900..097F	Devanagari	Devanagari vowel sign o		
-U+094C	ौ	0900..097F	Devanagari	Devanagari vowel sign au		
-U+094D	्	0900..097F	Devanagari	Devanagari sign virama		
-U+094E	ॎ	0900..097F	Devanagari	Devanagari vowel sign prishthamatra e		
-U+094F	ॏ	0900..097F	Devanagari	Devanagari vowel sign aw		
-U+0950	ॐ	0900..097F	Devanagari	Devanagari om		
-U+0951	॑	0900..097F	Devanagari	Devanagari stress sign udatta		
-U+0952	॒	0900..097F	Devanagari	Devanagari stress sign anudatta		
-U+0953	॓	0900..097F	Devanagari	Devanagari grave accent		
-U+0954	॔	0900..097F	Devanagari	Devanagari acute accent		
-U+0955	ॕ	0900..097F	Devanagari	Devanagari vowel sign candra long e		
-U+0956	ॖ	0900..097F	Devanagari	Devanagari vowel sign ue		
-U+0957	ॗ	0900..097F	Devanagari	Devanagari vowel sign uue		
-U+0958	क़	0900..097F	Devanagari	Devanagari letter qa		
-U+0959	ख़	0900..097F	Devanagari	Devanagari letter khha		
-U+095A	ग़	0900..097F	Devanagari	Devanagari letter ghha		
-U+095B	ज़	0900..097F	Devanagari	Devanagari letter za		
-U+095C	ड़	0900..097F	Devanagari	Devanagari letter dddha		
-U+095D	ढ़	0900..097F	Devanagari	Devanagari letter rha		
-U+095E	फ़	0900..097F	Devanagari	Devanagari letter fa		
-U+095F	य़	0900..097F	Devanagari	Devanagari letter yya		
-U+0960	ॠ	0900..097F	Devanagari	Devanagari letter vocalic rr		
-U+0961	ॡ	0900..097F	Devanagari	Devanagari letter vocalic ll		
-U+0962	ॢ	0900..097F	Devanagari	Devanagari vowel sign vocalic l		
-U+0963	ॣ	0900..097F	Devanagari	Devanagari vowel sign vocalic ll		
-U+0964	।	0900..097F	Devanagari	Devanagari danda		
-U+0965	॥	0900..097F	Devanagari	Devanagari double danda		
-U+0966	०	0900..097F	Devanagari	Devanagari digit zero		
-U+0967	१	0900..097F	Devanagari	Devanagari digit one		
-U+0968	२	0900..097F	Devanagari	Devanagari digit two		
-U+0969	३	0900..097F	Devanagari	Devanagari digit three		
-U+096A	४	0900..097F	Devanagari	Devanagari digit four		
-U+096B	५	0900..097F	Devanagari	Devanagari digit five		
-U+096C	६	0900..097F	Devanagari	Devanagari digit six		
-U+096D	७	0900..097F	Devanagari	Devanagari digit seven		
-U+096E	८	0900..097F	Devanagari	Devanagari digit eight		
-U+096F	९	0900..097F	Devanagari	Devanagari digit nine		
-U+0970	॰	0900..097F	Devanagari	Devanagari abbreviation sign		
-U+0971	ॱ	0900..097F	Devanagari	Devanagari sign high spacing dot		
-U+0972	ॲ	0900..097F	Devanagari	Devanagari letter candra a		
-U+0973	ॳ	0900..097F	Devanagari	Devanagari letter oe		
-U+0974	ॴ	0900..097F	Devanagari	Devanagari letter ooe		
-U+0975	ॵ	0900..097F	Devanagari	Devanagari letter aw		
-U+0976	ॶ	0900..097F	Devanagari	Devanagari letter ue		
-U+0977	ॷ	0900..097F	Devanagari	Devanagari letter uue		
-U+0978	ॸ	0900..097F	Devanagari	Devanagari letter marwari dda		
-U+0979	ॹ	0900..097F	Devanagari	Devanagari letter zha		
-U+097A	ॺ	0900..097F	Devanagari	Devanagari letter heavy ya		
-U+097B	ॻ	0900..097F	Devanagari	Devanagari letter gga		
-U+097C	ॼ	0900..097F	Devanagari	Devanagari letter jja		
-U+097D	ॽ	0900..097F	Devanagari	Devanagari letter glottal stop		
-U+097E	ॾ	0900..097F	Devanagari	Devanagari letter ddda		
-U+097F	ॿ	0900..097F	Devanagari	Devanagari letter bba		
+code_points	chars	tab_completions	unicode_name	base
+U+0900	ऀ		DEVANAGARI SIGN INVERTED CANDRABINDU	
+U+0901	ँ		DEVANAGARI SIGN CANDRABINDU	
+U+0902	ं		DEVANAGARI SIGN ANUSVARA	
+U+0903	ः		DEVANAGARI SIGN VISARGA	
+U+0904	ऄ		DEVANAGARI LETTER SHORT A	
+U+0905	अ		DEVANAGARI LETTER A	
+U+0906	आ		DEVANAGARI LETTER AA	
+U+0907	इ		DEVANAGARI LETTER I	
+U+0908	ई		DEVANAGARI LETTER II	
+U+0909	उ		DEVANAGARI LETTER U	
+U+090A	ऊ		DEVANAGARI LETTER UU	
+U+090B	ऋ		DEVANAGARI LETTER VOCALIC R	
+U+090C	ऌ		DEVANAGARI LETTER VOCALIC L	
+U+090D	ऍ		DEVANAGARI LETTER CANDRA E	
+U+090E	ऎ		DEVANAGARI LETTER SHORT E	
+U+090F	ए		DEVANAGARI LETTER E	
+U+0910	ऐ		DEVANAGARI LETTER AI	
+U+0911	ऑ		DEVANAGARI LETTER CANDRA O	
+U+0912	ऒ		DEVANAGARI LETTER SHORT O	
+U+0913	ओ		DEVANAGARI LETTER O	
+U+0914	औ		DEVANAGARI LETTER AU	
+U+0915	क		DEVANAGARI LETTER KA	
+U+0916	ख		DEVANAGARI LETTER KHA	
+U+0917	ग		DEVANAGARI LETTER GA	
+U+0918	घ		DEVANAGARI LETTER GHA	
+U+0919	ङ		DEVANAGARI LETTER NGA	
+U+091A	च		DEVANAGARI LETTER CA	
+U+091B	छ		DEVANAGARI LETTER CHA	
+U+091C	ज		DEVANAGARI LETTER JA	
+U+091D	झ		DEVANAGARI LETTER JHA	
+U+091E	ञ		DEVANAGARI LETTER NYA	
+U+091F	ट		DEVANAGARI LETTER TTA	
+U+0920	ठ		DEVANAGARI LETTER TTHA	
+U+0921	ड		DEVANAGARI LETTER DDA	
+U+0922	ढ		DEVANAGARI LETTER DDHA	
+U+0923	ण		DEVANAGARI LETTER NNA	
+U+0924	त		DEVANAGARI LETTER TA	
+U+0925	थ		DEVANAGARI LETTER THA	
+U+0926	द		DEVANAGARI LETTER DA	
+U+0927	ध		DEVANAGARI LETTER DHA	
+U+0928	न		DEVANAGARI LETTER NA	
+U+0929	ऩ		DEVANAGARI LETTER NNNA	
+U+092A	प		DEVANAGARI LETTER PA	
+U+092B	फ		DEVANAGARI LETTER PHA	
+U+092C	ब		DEVANAGARI LETTER BA	
+U+092D	भ		DEVANAGARI LETTER BHA	
+U+092E	म		DEVANAGARI LETTER MA	
+U+092F	य		DEVANAGARI LETTER YA	
+U+0930	र		DEVANAGARI LETTER RA	
+U+0931	ऱ		DEVANAGARI LETTER RRA	
+U+0932	ल		DEVANAGARI LETTER LA	
+U+0933	ळ		DEVANAGARI LETTER LLA	
+U+0934	ऴ		DEVANAGARI LETTER LLLA	
+U+0935	व		DEVANAGARI LETTER VA	
+U+0936	श		DEVANAGARI LETTER SHA	
+U+0937	ष		DEVANAGARI LETTER SSA	
+U+0938	स		DEVANAGARI LETTER SA	
+U+0939	ह		DEVANAGARI LETTER HA	
+U+093A	ऺ		DEVANAGARI VOWEL SIGN OE	
+U+093B	ऻ		DEVANAGARI VOWEL SIGN OOE	
+U+093C	़		DEVANAGARI SIGN NUKTA	
+U+093D	ऽ		DEVANAGARI SIGN AVAGRAHA	
+U+093E	ा		DEVANAGARI VOWEL SIGN AA	
+U+093F	ि		DEVANAGARI VOWEL SIGN I	
+U+0940	ी		DEVANAGARI VOWEL SIGN II	
+U+0941	ु		DEVANAGARI VOWEL SIGN U	
+U+0942	ू		DEVANAGARI VOWEL SIGN UU	
+U+0943	ृ		DEVANAGARI VOWEL SIGN VOCALIC R	
+U+0944	ॄ		DEVANAGARI VOWEL SIGN VOCALIC RR	
+U+0945	ॅ		DEVANAGARI VOWEL SIGN CANDRA E	
+U+0946	ॆ		DEVANAGARI VOWEL SIGN SHORT E	
+U+0947	े		DEVANAGARI VOWEL SIGN E	
+U+0948	ै		DEVANAGARI VOWEL SIGN AI	
+U+0949	ॉ		DEVANAGARI VOWEL SIGN CANDRA O	
+U+094A	ॊ		DEVANAGARI VOWEL SIGN SHORT O	
+U+094B	ो		DEVANAGARI VOWEL SIGN O	
+U+094C	ौ		DEVANAGARI VOWEL SIGN AU	
+U+094D	्		DEVANAGARI SIGN VIRAMA	
+U+094E	ॎ		DEVANAGARI VOWEL SIGN PRISHTHAMATRA E	
+U+094F	ॏ		DEVANAGARI VOWEL SIGN AW	
+U+0950	ॐ		DEVANAGARI OM	
+U+0951	॑		DEVANAGARI STRESS SIGN UDATTA	
+U+0952	॒		DEVANAGARI STRESS SIGN ANUDATTA	
+U+0953	॓		DEVANAGARI GRAVE ACCENT	
+U+0954	॔		DEVANAGARI ACUTE ACCENT	
+U+0955	ॕ		DEVANAGARI VOWEL SIGN CANDRA LONG E	
+U+0956	ॖ		DEVANAGARI VOWEL SIGN UE	
+U+0957	ॗ		DEVANAGARI VOWEL SIGN UUE	
+U+0958	क़		DEVANAGARI LETTER QA	
+U+0959	ख़		DEVANAGARI LETTER KHHA	
+U+095A	ग़		DEVANAGARI LETTER GHHA	
+U+095B	ज़		DEVANAGARI LETTER ZA	
+U+095C	ड़		DEVANAGARI LETTER DDDHA	
+U+095D	ढ़		DEVANAGARI LETTER RHA	
+U+095E	फ़		DEVANAGARI LETTER FA	
+U+095F	य़		DEVANAGARI LETTER YYA	
+U+0960	ॠ		DEVANAGARI LETTER VOCALIC RR	
+U+0961	ॡ		DEVANAGARI LETTER VOCALIC LL	
+U+0962	ॢ		DEVANAGARI VOWEL SIGN VOCALIC L	
+U+0963	ॣ		DEVANAGARI VOWEL SIGN VOCALIC LL	
+U+0964	।		DEVANAGARI DANDA	
+U+0965	॥		DEVANAGARI DOUBLE DANDA	
+U+0966	०		DEVANAGARI DIGIT ZERO	
+U+0967	१		DEVANAGARI DIGIT ONE	
+U+0968	२		DEVANAGARI DIGIT TWO	
+U+0969	३		DEVANAGARI DIGIT THREE	
+U+096A	४		DEVANAGARI DIGIT FOUR	
+U+096B	५		DEVANAGARI DIGIT FIVE	
+U+096C	६		DEVANAGARI DIGIT SIX	
+U+096D	७		DEVANAGARI DIGIT SEVEN	
+U+096E	८		DEVANAGARI DIGIT EIGHT	
+U+096F	९		DEVANAGARI DIGIT NINE	
+U+0970	॰		DEVANAGARI ABBREVIATION SIGN	
+U+0971	ॱ		DEVANAGARI SIGN HIGH SPACING DOT	
+U+0972	ॲ		DEVANAGARI LETTER CANDRA A	
+U+0973	ॳ		DEVANAGARI LETTER OE	
+U+0974	ॴ		DEVANAGARI LETTER OOE	
+U+0975	ॵ		DEVANAGARI LETTER AW	
+U+0976	ॶ		DEVANAGARI LETTER UE	
+U+0977	ॷ		DEVANAGARI LETTER UUE	
+U+0978	ॸ		DEVANAGARI LETTER MARWARI DDA	
+U+0979	ॹ		DEVANAGARI LETTER ZHA	
+U+097A	ॺ		DEVANAGARI LETTER HEAVY YA	
+U+097B	ॻ		DEVANAGARI LETTER GGA	
+U+097C	ॼ		DEVANAGARI LETTER JJA	
+U+097D	ॽ		DEVANAGARI LETTER GLOTTAL STOP	
+U+097E	ॾ		DEVANAGARI LETTER DDDA	
+U+097F	ॿ		DEVANAGARI LETTER BBA	

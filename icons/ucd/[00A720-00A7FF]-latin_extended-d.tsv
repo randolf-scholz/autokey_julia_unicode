@@ -1,207 +1,207 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+A720	꜠	A720..A7FF	Latin Extended-D	Modifier letter stress and high tone		
-U+A721	꜡	A720..A7FF	Latin Extended-D	Modifier letter stress and low tone		
-U+A722	Ꜣ	A720..A7FF	Latin Extended-D	Latin capital letter egyptological alef		
-U+A723	ꜣ	A720..A7FF	Latin Extended-D	Latin small letter egyptological alef		
-U+A724	Ꜥ	A720..A7FF	Latin Extended-D	Latin capital letter egyptological ain		
-U+A725	ꜥ	A720..A7FF	Latin Extended-D	Latin small letter egyptological ain		
-U+A726	Ꜧ	A720..A7FF	Latin Extended-D	Latin capital letter heng		
-U+A727	ꜧ	A720..A7FF	Latin Extended-D	Latin small letter heng		
-U+A728	Ꜩ	A720..A7FF	Latin Extended-D	Latin capital letter tz		
-U+A729	ꜩ	A720..A7FF	Latin Extended-D	Latin small letter tz		
-U+A72A	Ꜫ	A720..A7FF	Latin Extended-D	Latin capital letter tresillo		
-U+A72B	ꜫ	A720..A7FF	Latin Extended-D	Latin small letter tresillo		
-U+A72C	Ꜭ	A720..A7FF	Latin Extended-D	Latin capital letter cuatrillo		
-U+A72D	ꜭ	A720..A7FF	Latin Extended-D	Latin small letter cuatrillo		
-U+A72E	Ꜯ	A720..A7FF	Latin Extended-D	Latin capital letter cuatrillo with comma		
-U+A72F	ꜯ	A720..A7FF	Latin Extended-D	Latin small letter cuatrillo with comma		
-U+A730	ꜰ	A720..A7FF	Latin Extended-D	Latin letter small capital f		
-U+A731	ꜱ	A720..A7FF	Latin Extended-D	Latin letter small capital s		
-U+A732	Ꜳ	A720..A7FF	Latin Extended-D	Latin capital letter aa		
-U+A733	ꜳ	A720..A7FF	Latin Extended-D	Latin small letter aa		
-U+A734	Ꜵ	A720..A7FF	Latin Extended-D	Latin capital letter ao		
-U+A735	ꜵ	A720..A7FF	Latin Extended-D	Latin small letter ao		
-U+A736	Ꜷ	A720..A7FF	Latin Extended-D	Latin capital letter au		
-U+A737	ꜷ	A720..A7FF	Latin Extended-D	Latin small letter au		
-U+A738	Ꜹ	A720..A7FF	Latin Extended-D	Latin capital letter av		
-U+A739	ꜹ	A720..A7FF	Latin Extended-D	Latin small letter av		
-U+A73A	Ꜻ	A720..A7FF	Latin Extended-D	Latin capital letter av with horizontal bar		
-U+A73B	ꜻ	A720..A7FF	Latin Extended-D	Latin small letter av with horizontal bar		
-U+A73C	Ꜽ	A720..A7FF	Latin Extended-D	Latin capital letter ay		
-U+A73D	ꜽ	A720..A7FF	Latin Extended-D	Latin small letter ay		
-U+A73E	Ꜿ	A720..A7FF	Latin Extended-D	Latin capital letter reversed c with dot		
-U+A73F	ꜿ	A720..A7FF	Latin Extended-D	Latin small letter reversed c with dot		
-U+A740	Ꝁ	A720..A7FF	Latin Extended-D	Latin capital letter k with stroke		
-U+A741	ꝁ	A720..A7FF	Latin Extended-D	Latin small letter k with stroke		
-U+A742	Ꝃ	A720..A7FF	Latin Extended-D	Latin capital letter k with diagonal stroke		
-U+A743	ꝃ	A720..A7FF	Latin Extended-D	Latin small letter k with diagonal stroke		
-U+A744	Ꝅ	A720..A7FF	Latin Extended-D	Latin capital letter k with stroke and diagonal stroke		
-U+A745	ꝅ	A720..A7FF	Latin Extended-D	Latin small letter k with stroke and diagonal stroke		
-U+A746	Ꝇ	A720..A7FF	Latin Extended-D	Latin capital letter broken l		
-U+A747	ꝇ	A720..A7FF	Latin Extended-D	Latin small letter broken l		
-U+A748	Ꝉ	A720..A7FF	Latin Extended-D	Latin capital letter l with high stroke		
-U+A749	ꝉ	A720..A7FF	Latin Extended-D	Latin small letter l with high stroke		
-U+A74A	Ꝋ	A720..A7FF	Latin Extended-D	Latin capital letter o with long stroke overlay		
-U+A74B	ꝋ	A720..A7FF	Latin Extended-D	Latin small letter o with long stroke overlay		
-U+A74C	Ꝍ	A720..A7FF	Latin Extended-D	Latin capital letter o with loop		
-U+A74D	ꝍ	A720..A7FF	Latin Extended-D	Latin small letter o with loop		
-U+A74E	Ꝏ	A720..A7FF	Latin Extended-D	Latin capital letter oo		
-U+A74F	ꝏ	A720..A7FF	Latin Extended-D	Latin small letter oo		
-U+A750	Ꝑ	A720..A7FF	Latin Extended-D	Latin capital letter p with stroke through descender		
-U+A751	ꝑ	A720..A7FF	Latin Extended-D	Latin small letter p with stroke through descender		
-U+A752	Ꝓ	A720..A7FF	Latin Extended-D	Latin capital letter p with flourish		
-U+A753	ꝓ	A720..A7FF	Latin Extended-D	Latin small letter p with flourish		
-U+A754	Ꝕ	A720..A7FF	Latin Extended-D	Latin capital letter p with squirrel tail		
-U+A755	ꝕ	A720..A7FF	Latin Extended-D	Latin small letter p with squirrel tail		
-U+A756	Ꝗ	A720..A7FF	Latin Extended-D	Latin capital letter q with stroke through descender		
-U+A757	ꝗ	A720..A7FF	Latin Extended-D	Latin small letter q with stroke through descender		
-U+A758	Ꝙ	A720..A7FF	Latin Extended-D	Latin capital letter q with diagonal stroke		
-U+A759	ꝙ	A720..A7FF	Latin Extended-D	Latin small letter q with diagonal stroke		
-U+A75A	Ꝛ	A720..A7FF	Latin Extended-D	Latin capital letter r rotunda		
-U+A75B	ꝛ	A720..A7FF	Latin Extended-D	Latin small letter r rotunda		
-U+A75C	Ꝝ	A720..A7FF	Latin Extended-D	Latin capital letter rum rotunda		
-U+A75D	ꝝ	A720..A7FF	Latin Extended-D	Latin small letter rum rotunda		
-U+A75E	Ꝟ	A720..A7FF	Latin Extended-D	Latin capital letter v with diagonal stroke		
-U+A75F	ꝟ	A720..A7FF	Latin Extended-D	Latin small letter v with diagonal stroke		
-U+A760	Ꝡ	A720..A7FF	Latin Extended-D	Latin capital letter vy		
-U+A761	ꝡ	A720..A7FF	Latin Extended-D	Latin small letter vy		
-U+A762	Ꝣ	A720..A7FF	Latin Extended-D	Latin capital letter visigothic z		
-U+A763	ꝣ	A720..A7FF	Latin Extended-D	Latin small letter visigothic z		
-U+A764	Ꝥ	A720..A7FF	Latin Extended-D	Latin capital letter thorn with stroke		
-U+A765	ꝥ	A720..A7FF	Latin Extended-D	Latin small letter thorn with stroke		
-U+A766	Ꝧ	A720..A7FF	Latin Extended-D	Latin capital letter thorn with stroke through descender		
-U+A767	ꝧ	A720..A7FF	Latin Extended-D	Latin small letter thorn with stroke through descender		
-U+A768	Ꝩ	A720..A7FF	Latin Extended-D	Latin capital letter vend		
-U+A769	ꝩ	A720..A7FF	Latin Extended-D	Latin small letter vend		
-U+A76A	Ꝫ	A720..A7FF	Latin Extended-D	Latin capital letter et		
-U+A76B	ꝫ	A720..A7FF	Latin Extended-D	Latin small letter et		
-U+A76C	Ꝭ	A720..A7FF	Latin Extended-D	Latin capital letter is		
-U+A76D	ꝭ	A720..A7FF	Latin Extended-D	Latin small letter is		
-U+A76E	Ꝯ	A720..A7FF	Latin Extended-D	Latin capital letter con		
-U+A76F	ꝯ	A720..A7FF	Latin Extended-D	Latin small letter con		
-U+A770	ꝰ	A720..A7FF	Latin Extended-D	Modifier letter us		
-U+A771	ꝱ	A720..A7FF	Latin Extended-D	Latin small letter dum		
-U+A772	ꝲ	A720..A7FF	Latin Extended-D	Latin small letter lum		
-U+A773	ꝳ	A720..A7FF	Latin Extended-D	Latin small letter mum		
-U+A774	ꝴ	A720..A7FF	Latin Extended-D	Latin small letter num		
-U+A775	ꝵ	A720..A7FF	Latin Extended-D	Latin small letter rum		
-U+A776	ꝶ	A720..A7FF	Latin Extended-D	Latin letter small capital rum		
-U+A777	ꝷ	A720..A7FF	Latin Extended-D	Latin small letter tum		
-U+A778	ꝸ	A720..A7FF	Latin Extended-D	Latin small letter um		
-U+A779	Ꝺ	A720..A7FF	Latin Extended-D	Latin capital letter insular d		
-U+A77A	ꝺ	A720..A7FF	Latin Extended-D	Latin small letter insular d		
-U+A77B	Ꝼ	A720..A7FF	Latin Extended-D	Latin capital letter insular f		
-U+A77C	ꝼ	A720..A7FF	Latin Extended-D	Latin small letter insular f		
-U+A77D	Ᵹ	A720..A7FF	Latin Extended-D	Latin capital letter insular g		
-U+A77E	Ꝿ	A720..A7FF	Latin Extended-D	Latin capital letter turned insular g		
-U+A77F	ꝿ	A720..A7FF	Latin Extended-D	Latin small letter turned insular g		
-U+A780	Ꞁ	A720..A7FF	Latin Extended-D	Latin capital letter turned l		
-U+A781	ꞁ	A720..A7FF	Latin Extended-D	Latin small letter turned l		
-U+A782	Ꞃ	A720..A7FF	Latin Extended-D	Latin capital letter insular r		
-U+A783	ꞃ	A720..A7FF	Latin Extended-D	Latin small letter insular r		
-U+A784	Ꞅ	A720..A7FF	Latin Extended-D	Latin capital letter insular s		
-U+A785	ꞅ	A720..A7FF	Latin Extended-D	Latin small letter insular s		
-U+A786	Ꞇ	A720..A7FF	Latin Extended-D	Latin capital letter insular t		
-U+A787	ꞇ	A720..A7FF	Latin Extended-D	Latin small letter insular t		
-U+A788	ꞈ	A720..A7FF	Latin Extended-D	Modifier letter low circumflex accent		
-U+A789	꞉	A720..A7FF	Latin Extended-D	Modifier letter colon		
-U+A78A	꞊	A720..A7FF	Latin Extended-D	Modifier letter short equals sign		
-U+A78B	Ꞌ	A720..A7FF	Latin Extended-D	Latin capital letter saltillo		
-U+A78C	ꞌ	A720..A7FF	Latin Extended-D	Latin small letter saltillo		
-U+A78D	Ɥ	A720..A7FF	Latin Extended-D	Latin capital letter turned h		
-U+A78E	ꞎ	A720..A7FF	Latin Extended-D	Latin small letter l with retroflex hook and belt		
-U+A78F	ꞏ	A720..A7FF	Latin Extended-D	Latin letter sinological dot		
-U+A790	Ꞑ	A720..A7FF	Latin Extended-D	Latin capital letter n with descender		
-U+A791	ꞑ	A720..A7FF	Latin Extended-D	Latin small letter n with descender		
-U+A792	Ꞓ	A720..A7FF	Latin Extended-D	Latin capital letter c with bar		
-U+A793	ꞓ	A720..A7FF	Latin Extended-D	Latin small letter c with bar		
-U+A794	ꞔ	A720..A7FF	Latin Extended-D	Latin small letter c with palatal hook		
-U+A795	ꞕ	A720..A7FF	Latin Extended-D	Latin small letter h with palatal hook		
-U+A796	Ꞗ	A720..A7FF	Latin Extended-D	Latin capital letter b with flourish		
-U+A797	ꞗ	A720..A7FF	Latin Extended-D	Latin small letter b with flourish		
-U+A798	Ꞙ	A720..A7FF	Latin Extended-D	Latin capital letter f with stroke		
-U+A799	ꞙ	A720..A7FF	Latin Extended-D	Latin small letter f with stroke		
-U+A79A	Ꞛ	A720..A7FF	Latin Extended-D	Latin capital letter volapuk ae		
-U+A79B	ꞛ	A720..A7FF	Latin Extended-D	Latin small letter volapuk ae		
-U+A79C	Ꞝ	A720..A7FF	Latin Extended-D	Latin capital letter volapuk oe		
-U+A79D	ꞝ	A720..A7FF	Latin Extended-D	Latin small letter volapuk oe		
-U+A79E	Ꞟ	A720..A7FF	Latin Extended-D	Latin capital letter volapuk ue		
-U+A79F	ꞟ	A720..A7FF	Latin Extended-D	Latin small letter volapuk ue		
-U+A7A0	Ꞡ	A720..A7FF	Latin Extended-D	Latin capital letter g with oblique stroke		
-U+A7A1	ꞡ	A720..A7FF	Latin Extended-D	Latin small letter g with oblique stroke		
-U+A7A2	Ꞣ	A720..A7FF	Latin Extended-D	Latin capital letter k with oblique stroke		
-U+A7A3	ꞣ	A720..A7FF	Latin Extended-D	Latin small letter k with oblique stroke		
-U+A7A4	Ꞥ	A720..A7FF	Latin Extended-D	Latin capital letter n with oblique stroke		
-U+A7A5	ꞥ	A720..A7FF	Latin Extended-D	Latin small letter n with oblique stroke		
-U+A7A6	Ꞧ	A720..A7FF	Latin Extended-D	Latin capital letter r with oblique stroke		
-U+A7A7	ꞧ	A720..A7FF	Latin Extended-D	Latin small letter r with oblique stroke		
-U+A7A8	Ꞩ	A720..A7FF	Latin Extended-D	Latin capital letter s with oblique stroke		
-U+A7A9	ꞩ	A720..A7FF	Latin Extended-D	Latin small letter s with oblique stroke		
-U+A7AA	Ɦ	A720..A7FF	Latin Extended-D	Latin capital letter h with hook		
-U+A7AB	Ɜ	A720..A7FF	Latin Extended-D	Latin capital letter reversed open e		
-U+A7AC	Ɡ	A720..A7FF	Latin Extended-D	Latin capital letter script g		
-U+A7AD	Ɬ	A720..A7FF	Latin Extended-D	Latin capital letter l with belt		
-U+A7AE	Ɪ	A720..A7FF	Latin Extended-D	Latin capital letter small capital i		
-U+A7AF	ꞯ	A720..A7FF	Latin Extended-D	Latin letter small capital q		
-U+A7B0	Ʞ	A720..A7FF	Latin Extended-D	Latin capital letter turned k		
-U+A7B1	Ʇ	A720..A7FF	Latin Extended-D	Latin capital letter turned t		
-U+A7B2	Ʝ	A720..A7FF	Latin Extended-D	Latin capital letter j with crossed-tail		
-U+A7B3	Ꭓ	A720..A7FF	Latin Extended-D	Latin capital letter chi		
-U+A7B4	Ꞵ	A720..A7FF	Latin Extended-D	Latin capital letter beta		
-U+A7B5	ꞵ	A720..A7FF	Latin Extended-D	Latin small letter beta		
-U+A7B6	Ꞷ	A720..A7FF	Latin Extended-D	Latin capital letter omega		
-U+A7B7	ꞷ	A720..A7FF	Latin Extended-D	Latin small letter omega		
-U+A7B8	Ꞹ	A720..A7FF	Latin Extended-D	Latin capital letter u with stroke		
-U+A7B9	ꞹ	A720..A7FF	Latin Extended-D	Latin small letter u with stroke		
-U+A7BA	Ꞻ	A720..A7FF	Latin Extended-D	Latin capital letter glottal a		
-U+A7BB	ꞻ	A720..A7FF	Latin Extended-D	Latin small letter glottal a		
-U+A7BC	Ꞽ	A720..A7FF	Latin Extended-D	Latin capital letter glottal i		
-U+A7BD	ꞽ	A720..A7FF	Latin Extended-D	Latin small letter glottal i		
-U+A7BE	Ꞿ	A720..A7FF	Latin Extended-D	Latin capital letter glottal u		
-U+A7BF	ꞿ	A720..A7FF	Latin Extended-D	Latin small letter glottal u		
-U+A7C0	Ꟁ	A720..A7FF	Latin Extended-D	Latin capital letter old polish o		
-U+A7C1	ꟁ	A720..A7FF	Latin Extended-D	Latin small letter old polish o		
-U+A7C2	Ꟃ	A720..A7FF	Latin Extended-D	Latin capital letter anglicana w		
-U+A7C3	ꟃ	A720..A7FF	Latin Extended-D	Latin small letter anglicana w		
-U+A7C4	Ꞔ	A720..A7FF	Latin Extended-D	Latin capital letter c with palatal hook		
-U+A7C5	Ʂ	A720..A7FF	Latin Extended-D	Latin capital letter s with hook		
-U+A7C6	Ᶎ	A720..A7FF	Latin Extended-D	Latin capital letter z with palatal hook		
-U+A7C7	Ꟈ	A720..A7FF	Latin Extended-D	Latin capital letter d with short stroke overlay		
-U+A7C8	ꟈ	A720..A7FF	Latin Extended-D	Latin small letter d with short stroke overlay		
-U+A7C9	Ꟊ	A720..A7FF	Latin Extended-D	Latin capital letter s with short stroke overlay		
-U+A7CA	ꟊ	A720..A7FF	Latin Extended-D	Latin small letter s with short stroke overlay		
-U+A7CB	Ɤ	A720..A7FF	Latin Extended-D	Latin capital letter rams horn		
-U+A7CC	Ꟍ	A720..A7FF	Latin Extended-D	Latin capital letter s with diagonal stroke		
-U+A7CD	ꟍ	A720..A7FF	Latin Extended-D	Latin small letter s with diagonal stroke		
-U+A7CE	꟎	A720..A7FF	Latin Extended-D	Latin capital letter pharyngeal voiced fricative		
-U+A7CF	꟏	A720..A7FF	Latin Extended-D	Latin small letter pharyngeal voiced fricative		
-U+A7D0	Ꟑ	A720..A7FF	Latin Extended-D	Latin capital letter closed insular g		
-U+A7D1	ꟑ	A720..A7FF	Latin Extended-D	Latin small letter closed insular g		
-U+A7D2	꟒	A720..A7FF	Latin Extended-D	Latin capital letter double thorn		
-U+A7D3	ꟓ	A720..A7FF	Latin Extended-D	Latin small letter double thorn		
-U+A7D4	꟔	A720..A7FF	Latin Extended-D	Latin capital letter double wynn		
-U+A7D5	ꟕ	A720..A7FF	Latin Extended-D	Latin small letter double wynn		
-U+A7D6	Ꟗ	A720..A7FF	Latin Extended-D	Latin capital letter middle scots s		
-U+A7D7	ꟗ	A720..A7FF	Latin Extended-D	Latin small letter middle scots s		
-U+A7D8	Ꟙ	A720..A7FF	Latin Extended-D	Latin capital letter sigmoid s		
-U+A7D9	ꟙ	A720..A7FF	Latin Extended-D	Latin small letter sigmoid s		
-U+A7DA	Ꟛ	A720..A7FF	Latin Extended-D	Latin capital letter lambda		
-U+A7DB	ꟛ	A720..A7FF	Latin Extended-D	Latin small letter lambda		
-U+A7DC	Ƛ	A720..A7FF	Latin Extended-D	Latin capital letter lambda with stroke		
-U+A7DD	꟝	A720..A7FF	Latin Extended-D	Latin capital letter closed omega		
-U+A7E2	꟢	A720..A7FF	Latin Extended-D	Latin capital letter r with long leg		
-U+A7F1	꟱	A720..A7FF	Latin Extended-D	Modifier letter capital s		
-U+A7F2	ꟲ	A720..A7FF	Latin Extended-D	Modifier letter capital c		
-U+A7F3	ꟳ	A720..A7FF	Latin Extended-D	Modifier letter capital f		
-U+A7F4	ꟴ	A720..A7FF	Latin Extended-D	Modifier letter capital q		
-U+A7F5	Ꟶ	A720..A7FF	Latin Extended-D	Latin capital letter reversed half h		
-U+A7F6	ꟶ	A720..A7FF	Latin Extended-D	Latin small letter reversed half h		
-U+A7F7	ꟷ	A720..A7FF	Latin Extended-D	Latin epigraphic letter sideways i		
-U+A7F8	ꟸ	A720..A7FF	Latin Extended-D	Modifier letter capital h with stroke		
-U+A7F9	ꟹ	A720..A7FF	Latin Extended-D	Modifier letter small ligature oe		
-U+A7FA	ꟺ	A720..A7FF	Latin Extended-D	Latin letter small capital turned m		
-U+A7FB	ꟻ	A720..A7FF	Latin Extended-D	Latin epigraphic letter reversed f		
-U+A7FC	ꟼ	A720..A7FF	Latin Extended-D	Latin epigraphic letter reversed p		
-U+A7FD	ꟽ	A720..A7FF	Latin Extended-D	Latin epigraphic letter inverted m		
-U+A7FE	ꟾ	A720..A7FF	Latin Extended-D	Latin epigraphic letter i longa		
-U+A7FF	ꟿ	A720..A7FF	Latin Extended-D	Latin epigraphic letter archaic m		
+code_points	chars	tab_completions	unicode_name	base
+U+A720	꜠		MODIFIER LETTER STRESS AND HIGH TONE	
+U+A721	꜡		MODIFIER LETTER STRESS AND LOW TONE	
+U+A722	Ꜣ		LATIN CAPITAL LETTER EGYPTOLOGICAL ALEF	
+U+A723	ꜣ		LATIN SMALL LETTER EGYPTOLOGICAL ALEF	
+U+A724	Ꜥ		LATIN CAPITAL LETTER EGYPTOLOGICAL AIN	
+U+A725	ꜥ		LATIN SMALL LETTER EGYPTOLOGICAL AIN	
+U+A726	Ꜧ		LATIN CAPITAL LETTER HENG	
+U+A727	ꜧ		LATIN SMALL LETTER HENG	
+U+A728	Ꜩ		LATIN CAPITAL LETTER TZ	
+U+A729	ꜩ		LATIN SMALL LETTER TZ	
+U+A72A	Ꜫ		LATIN CAPITAL LETTER TRESILLO	
+U+A72B	ꜫ		LATIN SMALL LETTER TRESILLO	
+U+A72C	Ꜭ		LATIN CAPITAL LETTER CUATRILLO	
+U+A72D	ꜭ		LATIN SMALL LETTER CUATRILLO	
+U+A72E	Ꜯ		LATIN CAPITAL LETTER CUATRILLO WITH COMMA	
+U+A72F	ꜯ		LATIN SMALL LETTER CUATRILLO WITH COMMA	
+U+A730	ꜰ		LATIN LETTER SMALL CAPITAL F	
+U+A731	ꜱ		LATIN LETTER SMALL CAPITAL S	
+U+A732	Ꜳ		LATIN CAPITAL LETTER AA	
+U+A733	ꜳ		LATIN SMALL LETTER AA	
+U+A734	Ꜵ		LATIN CAPITAL LETTER AO	
+U+A735	ꜵ		LATIN SMALL LETTER AO	
+U+A736	Ꜷ		LATIN CAPITAL LETTER AU	
+U+A737	ꜷ		LATIN SMALL LETTER AU	
+U+A738	Ꜹ		LATIN CAPITAL LETTER AV	
+U+A739	ꜹ		LATIN SMALL LETTER AV	
+U+A73A	Ꜻ		LATIN CAPITAL LETTER AV WITH HORIZONTAL BAR	
+U+A73B	ꜻ		LATIN SMALL LETTER AV WITH HORIZONTAL BAR	
+U+A73C	Ꜽ		LATIN CAPITAL LETTER AY	
+U+A73D	ꜽ		LATIN SMALL LETTER AY	
+U+A73E	Ꜿ		LATIN CAPITAL LETTER REVERSED C WITH DOT	
+U+A73F	ꜿ		LATIN SMALL LETTER REVERSED C WITH DOT	
+U+A740	Ꝁ		LATIN CAPITAL LETTER K WITH STROKE	
+U+A741	ꝁ		LATIN SMALL LETTER K WITH STROKE	
+U+A742	Ꝃ		LATIN CAPITAL LETTER K WITH DIAGONAL STROKE	
+U+A743	ꝃ		LATIN SMALL LETTER K WITH DIAGONAL STROKE	
+U+A744	Ꝅ		LATIN CAPITAL LETTER K WITH STROKE AND DIAGONAL STROKE	
+U+A745	ꝅ		LATIN SMALL LETTER K WITH STROKE AND DIAGONAL STROKE	
+U+A746	Ꝇ		LATIN CAPITAL LETTER BROKEN L	
+U+A747	ꝇ		LATIN SMALL LETTER BROKEN L	
+U+A748	Ꝉ		LATIN CAPITAL LETTER L WITH HIGH STROKE	
+U+A749	ꝉ		LATIN SMALL LETTER L WITH HIGH STROKE	
+U+A74A	Ꝋ		LATIN CAPITAL LETTER O WITH LONG STROKE OVERLAY	
+U+A74B	ꝋ		LATIN SMALL LETTER O WITH LONG STROKE OVERLAY	
+U+A74C	Ꝍ		LATIN CAPITAL LETTER O WITH LOOP	
+U+A74D	ꝍ		LATIN SMALL LETTER O WITH LOOP	
+U+A74E	Ꝏ		LATIN CAPITAL LETTER OO	
+U+A74F	ꝏ		LATIN SMALL LETTER OO	
+U+A750	Ꝑ		LATIN CAPITAL LETTER P WITH STROKE THROUGH DESCENDER	
+U+A751	ꝑ		LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER	
+U+A752	Ꝓ		LATIN CAPITAL LETTER P WITH FLOURISH	
+U+A753	ꝓ		LATIN SMALL LETTER P WITH FLOURISH	
+U+A754	Ꝕ		LATIN CAPITAL LETTER P WITH SQUIRREL TAIL	
+U+A755	ꝕ		LATIN SMALL LETTER P WITH SQUIRREL TAIL	
+U+A756	Ꝗ		LATIN CAPITAL LETTER Q WITH STROKE THROUGH DESCENDER	
+U+A757	ꝗ		LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER	
+U+A758	Ꝙ		LATIN CAPITAL LETTER Q WITH DIAGONAL STROKE	
+U+A759	ꝙ		LATIN SMALL LETTER Q WITH DIAGONAL STROKE	
+U+A75A	Ꝛ		LATIN CAPITAL LETTER R ROTUNDA	
+U+A75B	ꝛ		LATIN SMALL LETTER R ROTUNDA	
+U+A75C	Ꝝ		LATIN CAPITAL LETTER RUM ROTUNDA	
+U+A75D	ꝝ		LATIN SMALL LETTER RUM ROTUNDA	
+U+A75E	Ꝟ		LATIN CAPITAL LETTER V WITH DIAGONAL STROKE	
+U+A75F	ꝟ		LATIN SMALL LETTER V WITH DIAGONAL STROKE	
+U+A760	Ꝡ		LATIN CAPITAL LETTER VY	
+U+A761	ꝡ		LATIN SMALL LETTER VY	
+U+A762	Ꝣ		LATIN CAPITAL LETTER VISIGOTHIC Z	
+U+A763	ꝣ		LATIN SMALL LETTER VISIGOTHIC Z	
+U+A764	Ꝥ		LATIN CAPITAL LETTER THORN WITH STROKE	
+U+A765	ꝥ		LATIN SMALL LETTER THORN WITH STROKE	
+U+A766	Ꝧ		LATIN CAPITAL LETTER THORN WITH STROKE THROUGH DESCENDER	
+U+A767	ꝧ		LATIN SMALL LETTER THORN WITH STROKE THROUGH DESCENDER	
+U+A768	Ꝩ		LATIN CAPITAL LETTER VEND	
+U+A769	ꝩ		LATIN SMALL LETTER VEND	
+U+A76A	Ꝫ		LATIN CAPITAL LETTER ET	
+U+A76B	ꝫ		LATIN SMALL LETTER ET	
+U+A76C	Ꝭ		LATIN CAPITAL LETTER IS	
+U+A76D	ꝭ		LATIN SMALL LETTER IS	
+U+A76E	Ꝯ		LATIN CAPITAL LETTER CON	
+U+A76F	ꝯ		LATIN SMALL LETTER CON	
+U+A770	ꝰ		MODIFIER LETTER US	
+U+A771	ꝱ		LATIN SMALL LETTER DUM	
+U+A772	ꝲ		LATIN SMALL LETTER LUM	
+U+A773	ꝳ		LATIN SMALL LETTER MUM	
+U+A774	ꝴ		LATIN SMALL LETTER NUM	
+U+A775	ꝵ		LATIN SMALL LETTER RUM	
+U+A776	ꝶ		LATIN LETTER SMALL CAPITAL RUM	
+U+A777	ꝷ		LATIN SMALL LETTER TUM	
+U+A778	ꝸ		LATIN SMALL LETTER UM	
+U+A779	Ꝺ		LATIN CAPITAL LETTER INSULAR D	
+U+A77A	ꝺ		LATIN SMALL LETTER INSULAR D	
+U+A77B	Ꝼ		LATIN CAPITAL LETTER INSULAR F	
+U+A77C	ꝼ		LATIN SMALL LETTER INSULAR F	
+U+A77D	Ᵹ		LATIN CAPITAL LETTER INSULAR G	
+U+A77E	Ꝿ		LATIN CAPITAL LETTER TURNED INSULAR G	
+U+A77F	ꝿ		LATIN SMALL LETTER TURNED INSULAR G	
+U+A780	Ꞁ		LATIN CAPITAL LETTER TURNED L	
+U+A781	ꞁ		LATIN SMALL LETTER TURNED L	
+U+A782	Ꞃ		LATIN CAPITAL LETTER INSULAR R	
+U+A783	ꞃ		LATIN SMALL LETTER INSULAR R	
+U+A784	Ꞅ		LATIN CAPITAL LETTER INSULAR S	
+U+A785	ꞅ		LATIN SMALL LETTER INSULAR S	
+U+A786	Ꞇ		LATIN CAPITAL LETTER INSULAR T	
+U+A787	ꞇ		LATIN SMALL LETTER INSULAR T	
+U+A788	ꞈ		MODIFIER LETTER LOW CIRCUMFLEX ACCENT	
+U+A789	꞉		MODIFIER LETTER COLON	
+U+A78A	꞊		MODIFIER LETTER SHORT EQUALS SIGN	
+U+A78B	Ꞌ		LATIN CAPITAL LETTER SALTILLO	
+U+A78C	ꞌ		LATIN SMALL LETTER SALTILLO	
+U+A78D	Ɥ		LATIN CAPITAL LETTER TURNED H	
+U+A78E	ꞎ		LATIN SMALL LETTER L WITH RETROFLEX HOOK AND BELT	
+U+A78F	ꞏ		LATIN LETTER SINOLOGICAL DOT	
+U+A790	Ꞑ		LATIN CAPITAL LETTER N WITH DESCENDER	
+U+A791	ꞑ		LATIN SMALL LETTER N WITH DESCENDER	
+U+A792	Ꞓ		LATIN CAPITAL LETTER C WITH BAR	
+U+A793	ꞓ		LATIN SMALL LETTER C WITH BAR	
+U+A794	ꞔ		LATIN SMALL LETTER C WITH PALATAL HOOK	
+U+A795	ꞕ		LATIN SMALL LETTER H WITH PALATAL HOOK	
+U+A796	Ꞗ		LATIN CAPITAL LETTER B WITH FLOURISH	
+U+A797	ꞗ		LATIN SMALL LETTER B WITH FLOURISH	
+U+A798	Ꞙ		LATIN CAPITAL LETTER F WITH STROKE	
+U+A799	ꞙ		LATIN SMALL LETTER F WITH STROKE	
+U+A79A	Ꞛ		LATIN CAPITAL LETTER VOLAPUK AE	
+U+A79B	ꞛ		LATIN SMALL LETTER VOLAPUK AE	
+U+A79C	Ꞝ		LATIN CAPITAL LETTER VOLAPUK OE	
+U+A79D	ꞝ		LATIN SMALL LETTER VOLAPUK OE	
+U+A79E	Ꞟ		LATIN CAPITAL LETTER VOLAPUK UE	
+U+A79F	ꞟ		LATIN SMALL LETTER VOLAPUK UE	
+U+A7A0	Ꞡ		LATIN CAPITAL LETTER G WITH OBLIQUE STROKE	
+U+A7A1	ꞡ		LATIN SMALL LETTER G WITH OBLIQUE STROKE	
+U+A7A2	Ꞣ		LATIN CAPITAL LETTER K WITH OBLIQUE STROKE	
+U+A7A3	ꞣ		LATIN SMALL LETTER K WITH OBLIQUE STROKE	
+U+A7A4	Ꞥ		LATIN CAPITAL LETTER N WITH OBLIQUE STROKE	
+U+A7A5	ꞥ		LATIN SMALL LETTER N WITH OBLIQUE STROKE	
+U+A7A6	Ꞧ		LATIN CAPITAL LETTER R WITH OBLIQUE STROKE	
+U+A7A7	ꞧ		LATIN SMALL LETTER R WITH OBLIQUE STROKE	
+U+A7A8	Ꞩ		LATIN CAPITAL LETTER S WITH OBLIQUE STROKE	
+U+A7A9	ꞩ		LATIN SMALL LETTER S WITH OBLIQUE STROKE	
+U+A7AA	Ɦ		LATIN CAPITAL LETTER H WITH HOOK	
+U+A7AB	Ɜ		LATIN CAPITAL LETTER REVERSED OPEN E	
+U+A7AC	Ɡ		LATIN CAPITAL LETTER SCRIPT G	
+U+A7AD	Ɬ		LATIN CAPITAL LETTER L WITH BELT	
+U+A7AE	Ɪ		LATIN CAPITAL LETTER SMALL CAPITAL I	
+U+A7AF	ꞯ		LATIN LETTER SMALL CAPITAL Q	
+U+A7B0	Ʞ		LATIN CAPITAL LETTER TURNED K	
+U+A7B1	Ʇ		LATIN CAPITAL LETTER TURNED T	
+U+A7B2	Ʝ		LATIN CAPITAL LETTER J WITH CROSSED-TAIL	
+U+A7B3	Ꭓ		LATIN CAPITAL LETTER CHI	
+U+A7B4	Ꞵ		LATIN CAPITAL LETTER BETA	
+U+A7B5	ꞵ		LATIN SMALL LETTER BETA	
+U+A7B6	Ꞷ		LATIN CAPITAL LETTER OMEGA	
+U+A7B7	ꞷ		LATIN SMALL LETTER OMEGA	
+U+A7B8	Ꞹ		LATIN CAPITAL LETTER U WITH STROKE	
+U+A7B9	ꞹ		LATIN SMALL LETTER U WITH STROKE	
+U+A7BA	Ꞻ		LATIN CAPITAL LETTER GLOTTAL A	
+U+A7BB	ꞻ		LATIN SMALL LETTER GLOTTAL A	
+U+A7BC	Ꞽ		LATIN CAPITAL LETTER GLOTTAL I	
+U+A7BD	ꞽ		LATIN SMALL LETTER GLOTTAL I	
+U+A7BE	Ꞿ		LATIN CAPITAL LETTER GLOTTAL U	
+U+A7BF	ꞿ		LATIN SMALL LETTER GLOTTAL U	
+U+A7C0	Ꟁ		LATIN CAPITAL LETTER OLD POLISH O	
+U+A7C1	ꟁ		LATIN SMALL LETTER OLD POLISH O	
+U+A7C2	Ꟃ		LATIN CAPITAL LETTER ANGLICANA W	
+U+A7C3	ꟃ		LATIN SMALL LETTER ANGLICANA W	
+U+A7C4	Ꞔ		LATIN CAPITAL LETTER C WITH PALATAL HOOK	
+U+A7C5	Ʂ		LATIN CAPITAL LETTER S WITH HOOK	
+U+A7C6	Ᶎ		LATIN CAPITAL LETTER Z WITH PALATAL HOOK	
+U+A7C7	Ꟈ		LATIN CAPITAL LETTER D WITH SHORT STROKE OVERLAY	
+U+A7C8	ꟈ		LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY	
+U+A7C9	Ꟊ		LATIN CAPITAL LETTER S WITH SHORT STROKE OVERLAY	
+U+A7CA	ꟊ		LATIN SMALL LETTER S WITH SHORT STROKE OVERLAY	
+U+A7CB	Ɤ		LATIN CAPITAL LETTER RAMS HORN	
+U+A7CC	Ꟍ		LATIN CAPITAL LETTER S WITH DIAGONAL STROKE	
+U+A7CD	ꟍ		LATIN SMALL LETTER S WITH DIAGONAL STROKE	
+U+A7CE	꟎		LATIN CAPITAL LETTER PHARYNGEAL VOICED FRICATIVE	
+U+A7CF	꟏		LATIN SMALL LETTER PHARYNGEAL VOICED FRICATIVE	
+U+A7D0	Ꟑ		LATIN CAPITAL LETTER CLOSED INSULAR G	
+U+A7D1	ꟑ		LATIN SMALL LETTER CLOSED INSULAR G	
+U+A7D2	꟒		LATIN CAPITAL LETTER DOUBLE THORN	
+U+A7D3	ꟓ		LATIN SMALL LETTER DOUBLE THORN	
+U+A7D4	꟔		LATIN CAPITAL LETTER DOUBLE WYNN	
+U+A7D5	ꟕ		LATIN SMALL LETTER DOUBLE WYNN	
+U+A7D6	Ꟗ		LATIN CAPITAL LETTER MIDDLE SCOTS S	
+U+A7D7	ꟗ		LATIN SMALL LETTER MIDDLE SCOTS S	
+U+A7D8	Ꟙ		LATIN CAPITAL LETTER SIGMOID S	
+U+A7D9	ꟙ		LATIN SMALL LETTER SIGMOID S	
+U+A7DA	Ꟛ		LATIN CAPITAL LETTER LAMBDA	
+U+A7DB	ꟛ		LATIN SMALL LETTER LAMBDA	
+U+A7DC	Ƛ		LATIN CAPITAL LETTER LAMBDA WITH STROKE	
+U+A7DD	꟝		LATIN CAPITAL LETTER CLOSED OMEGA	
+U+A7E2	꟢		LATIN CAPITAL LETTER R WITH LONG LEG	
+U+A7F1	꟱		MODIFIER LETTER CAPITAL S	
+U+A7F2	ꟲ		MODIFIER LETTER CAPITAL C	
+U+A7F3	ꟳ		MODIFIER LETTER CAPITAL F	
+U+A7F4	ꟴ		MODIFIER LETTER CAPITAL Q	
+U+A7F5	Ꟶ		LATIN CAPITAL LETTER REVERSED HALF H	
+U+A7F6	ꟶ		LATIN SMALL LETTER REVERSED HALF H	
+U+A7F7	ꟷ		LATIN EPIGRAPHIC LETTER SIDEWAYS I	
+U+A7F8	ꟸ		MODIFIER LETTER CAPITAL H WITH STROKE	
+U+A7F9	ꟹ		MODIFIER LETTER SMALL LIGATURE OE	
+U+A7FA	ꟺ		LATIN LETTER SMALL CAPITAL TURNED M	
+U+A7FB	ꟻ		LATIN EPIGRAPHIC LETTER REVERSED F	
+U+A7FC	ꟼ		LATIN EPIGRAPHIC LETTER REVERSED P	
+U+A7FD	ꟽ		LATIN EPIGRAPHIC LETTER INVERTED M	
+U+A7FE	ꟾ		LATIN EPIGRAPHIC LETTER I LONGA	
+U+A7FF	ꟿ		LATIN EPIGRAPHIC LETTER ARCHAIC M	

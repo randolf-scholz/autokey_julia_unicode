@@ -1,33 +1,33 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2DE0	ⷠ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter be		
-U+2DE1	ⷡ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ve		
-U+2DE2	ⷢ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ghe		
-U+2DE3	ⷣ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter de		
-U+2DE4	ⷤ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter zhe		
-U+2DE5	ⷥ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ze		
-U+2DE6	ⷦ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ka		
-U+2DE7	ⷧ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter el		
-U+2DE8	ⷨ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter em		
-U+2DE9	ⷩ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter en		
-U+2DEA	ⷪ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter o		
-U+2DEB	ⷫ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter pe		
-U+2DEC	ⷬ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter er		
-U+2DED	ⷭ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter es		
-U+2DEE	ⷮ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter te		
-U+2DEF	ⷯ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ha		
-U+2DF0	ⷰ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter tse		
-U+2DF1	ⷱ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter che		
-U+2DF2	ⷲ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter sha		
-U+2DF3	ⷳ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter shcha		
-U+2DF4	ⷴ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter fita		
-U+2DF5	ⷵ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter es-te		
-U+2DF6	ⷶ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter a		
-U+2DF7	ⷷ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter ie		
-U+2DF8	ⷸ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter djerv		
-U+2DF9	ⷹ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter monograph uk		
-U+2DFA	ⷺ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter yat		
-U+2DFB	ⷻ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter yu		
-U+2DFC	ⷼ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter iotified a		
-U+2DFD	ⷽ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter little yus		
-U+2DFE	ⷾ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter big yus		
-U+2DFF	ⷿ	2DE0..2DFF	Cyrillic Extended-A	Combining cyrillic letter iotified big yus		
+code_points	chars	tab_completions	unicode_name	base
+U+2DE0	ⷠ		COMBINING CYRILLIC LETTER BE	
+U+2DE1	ⷡ		COMBINING CYRILLIC LETTER VE	
+U+2DE2	ⷢ		COMBINING CYRILLIC LETTER GHE	
+U+2DE3	ⷣ		COMBINING CYRILLIC LETTER DE	
+U+2DE4	ⷤ		COMBINING CYRILLIC LETTER ZHE	
+U+2DE5	ⷥ		COMBINING CYRILLIC LETTER ZE	
+U+2DE6	ⷦ		COMBINING CYRILLIC LETTER KA	
+U+2DE7	ⷧ		COMBINING CYRILLIC LETTER EL	
+U+2DE8	ⷨ		COMBINING CYRILLIC LETTER EM	
+U+2DE9	ⷩ		COMBINING CYRILLIC LETTER EN	
+U+2DEA	ⷪ		COMBINING CYRILLIC LETTER O	
+U+2DEB	ⷫ		COMBINING CYRILLIC LETTER PE	
+U+2DEC	ⷬ		COMBINING CYRILLIC LETTER ER	
+U+2DED	ⷭ		COMBINING CYRILLIC LETTER ES	
+U+2DEE	ⷮ		COMBINING CYRILLIC LETTER TE	
+U+2DEF	ⷯ		COMBINING CYRILLIC LETTER HA	
+U+2DF0	ⷰ		COMBINING CYRILLIC LETTER TSE	
+U+2DF1	ⷱ		COMBINING CYRILLIC LETTER CHE	
+U+2DF2	ⷲ		COMBINING CYRILLIC LETTER SHA	
+U+2DF3	ⷳ		COMBINING CYRILLIC LETTER SHCHA	
+U+2DF4	ⷴ		COMBINING CYRILLIC LETTER FITA	
+U+2DF5	ⷵ		COMBINING CYRILLIC LETTER ES-TE	
+U+2DF6	ⷶ		COMBINING CYRILLIC LETTER A	
+U+2DF7	ⷷ		COMBINING CYRILLIC LETTER IE	
+U+2DF8	ⷸ		COMBINING CYRILLIC LETTER DJERV	
+U+2DF9	ⷹ		COMBINING CYRILLIC LETTER MONOGRAPH UK	
+U+2DFA	ⷺ		COMBINING CYRILLIC LETTER YAT	
+U+2DFB	ⷻ		COMBINING CYRILLIC LETTER YU	
+U+2DFC	ⷼ		COMBINING CYRILLIC LETTER IOTIFIED A	
+U+2DFD	ⷽ		COMBINING CYRILLIC LETTER LITTLE YUS	
+U+2DFE	ⷾ		COMBINING CYRILLIC LETTER BIG YUS	
+U+2DFF	ⷿ		COMBINING CYRILLIC LETTER IOTIFIED BIG YUS	

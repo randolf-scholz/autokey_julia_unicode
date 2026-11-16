@@ -1,112 +1,112 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2000	 	2000..206F	General Punctuation	En quad		
-U+2001	 	2000..206F	General Punctuation	Em quad		
-U+2002	 	2000..206F	General Punctuation	En space		
-U+2003	 	2000..206F	General Punctuation	Em space		
-U+2004	 	2000..206F	General Punctuation	Three-per-em space		
-U+2005	 	2000..206F	General Punctuation	Four-per-em space		
-U+2006	 	2000..206F	General Punctuation	Six-per-em space		
-U+2007	 	2000..206F	General Punctuation	Figure space		
-U+2008	 	2000..206F	General Punctuation	Punctuation space		
-U+2009	 	2000..206F	General Punctuation	Thin space		
-U+200A	 	2000..206F	General Punctuation	Hair space		
-U+200B	​	2000..206F	General Punctuation	Zero width space		
-U+200C	‌	2000..206F	General Punctuation	Zero width non-joiner		
-U+200D	‍	2000..206F	General Punctuation	Zero width joiner		
-U+200E	‎	2000..206F	General Punctuation	Left-to-right mark		
-U+200F	‏	2000..206F	General Punctuation	Right-to-left mark		
-U+2010	‐	2000..206F	General Punctuation	Hyphen		
-U+2011	‑	2000..206F	General Punctuation	Non-breaking hyphen		
-U+2012	‒	2000..206F	General Punctuation	Figure dash		
-U+2013	–	2000..206F	General Punctuation	En dash		
-U+2014	—	2000..206F	General Punctuation	Em dash		
-U+2015	―	2000..206F	General Punctuation	Horizontal bar		
-U+2016	‖	2000..206F	General Punctuation	Double vertical line		
-U+2017	‗	2000..206F	General Punctuation	Double low line		
-U+2018	‘	2000..206F	General Punctuation	Left single quotation mark		
-U+2019	’	2000..206F	General Punctuation	Right single quotation mark		
-U+201A	‚	2000..206F	General Punctuation	Single low-9 quotation mark		
-U+201B	‛	2000..206F	General Punctuation	Single high-reversed-9 quotation mark		
-U+201C	“	2000..206F	General Punctuation	Left double quotation mark		
-U+201D	”	2000..206F	General Punctuation	Right double quotation mark		
-U+201E	„	2000..206F	General Punctuation	Double low-9 quotation mark		
-U+201F	‟	2000..206F	General Punctuation	Double high-reversed-9 quotation mark		
-U+2020	†	2000..206F	General Punctuation	Dagger		
-U+2021	‡	2000..206F	General Punctuation	Double dagger		
-U+2022	•	2000..206F	General Punctuation	Bullet		
-U+2023	‣	2000..206F	General Punctuation	Triangular bullet		
-U+2024	․	2000..206F	General Punctuation	One dot leader		
-U+2025	‥	2000..206F	General Punctuation	Two dot leader		
-U+2026	…	2000..206F	General Punctuation	Horizontal ellipsis		
-U+2027	‧	2000..206F	General Punctuation	Hyphenation point		
-U+2028	 	2000..206F	General Punctuation	Line separator		
-U+2029	 	2000..206F	General Punctuation	Paragraph separator		
-U+202A	‪	2000..206F	General Punctuation	Left-to-right embedding		
-U+202B	‫	2000..206F	General Punctuation	Right-to-left embedding		
-U+202C	‬	2000..206F	General Punctuation	Pop directional formatting		
-U+202D	‭	2000..206F	General Punctuation	Left-to-right override		
-U+202E	‮	2000..206F	General Punctuation	Right-to-left override		
-U+202F	 	2000..206F	General Punctuation	Narrow no-break space		
-U+2030	‰	2000..206F	General Punctuation	Per mille sign		
-U+2031	‱	2000..206F	General Punctuation	Per ten thousand sign		
-U+2032	′	2000..206F	General Punctuation	Prime		
-U+2033	″	2000..206F	General Punctuation	Double prime		
-U+2034	‴	2000..206F	General Punctuation	Triple prime		
-U+2035	‵	2000..206F	General Punctuation	Reversed prime		
-U+2036	‶	2000..206F	General Punctuation	Reversed double prime		
-U+2037	‷	2000..206F	General Punctuation	Reversed triple prime		
-U+2038	‸	2000..206F	General Punctuation	Caret		
-U+2039	‹	2000..206F	General Punctuation	Single left-pointing angle quotation mark		
-U+203A	›	2000..206F	General Punctuation	Single right-pointing angle quotation mark		
-U+203B	※	2000..206F	General Punctuation	Reference mark		
-U+203C	‼	2000..206F	General Punctuation	Double exclamation mark		
-U+203D	‽	2000..206F	General Punctuation	Interrobang		
-U+203E	‾	2000..206F	General Punctuation	Overline		
-U+203F	‿	2000..206F	General Punctuation	Undertie		
-U+2040	⁀	2000..206F	General Punctuation	Character tie		
-U+2041	⁁	2000..206F	General Punctuation	Caret insertion point		
-U+2042	⁂	2000..206F	General Punctuation	Asterism		
-U+2043	⁃	2000..206F	General Punctuation	Hyphen bullet		
-U+2044	⁄	2000..206F	General Punctuation	Fraction slash		
-U+2045	⁅	2000..206F	General Punctuation	Left square bracket with quill		
-U+2046	⁆	2000..206F	General Punctuation	Right square bracket with quill		
-U+2047	⁇	2000..206F	General Punctuation	Double question mark		
-U+2048	⁈	2000..206F	General Punctuation	Question exclamation mark		
-U+2049	⁉	2000..206F	General Punctuation	Exclamation question mark		
-U+204A	⁊	2000..206F	General Punctuation	Tironian sign et		
-U+204B	⁋	2000..206F	General Punctuation	Reversed pilcrow sign		
-U+204C	⁌	2000..206F	General Punctuation	Black leftwards bullet		
-U+204D	⁍	2000..206F	General Punctuation	Black rightwards bullet		
-U+204E	⁎	2000..206F	General Punctuation	Low asterisk		
-U+204F	⁏	2000..206F	General Punctuation	Reversed semicolon		
-U+2050	⁐	2000..206F	General Punctuation	Close up		
-U+2051	⁑	2000..206F	General Punctuation	Two asterisks aligned vertically		
-U+2052	⁒	2000..206F	General Punctuation	Commercial minus sign		
-U+2053	⁓	2000..206F	General Punctuation	Swung dash		
-U+2054	⁔	2000..206F	General Punctuation	Inverted undertie		
-U+2055	⁕	2000..206F	General Punctuation	Flower punctuation mark		
-U+2056	⁖	2000..206F	General Punctuation	Three dot punctuation		
-U+2057	⁗	2000..206F	General Punctuation	Quadruple prime		
-U+2058	⁘	2000..206F	General Punctuation	Four dot punctuation		
-U+2059	⁙	2000..206F	General Punctuation	Five dot punctuation		
-U+205A	⁚	2000..206F	General Punctuation	Two dot punctuation		
-U+205B	⁛	2000..206F	General Punctuation	Four dot mark		
-U+205C	⁜	2000..206F	General Punctuation	Dotted cross		
-U+205D	⁝	2000..206F	General Punctuation	Tricolon		
-U+205E	⁞	2000..206F	General Punctuation	Vertical four dots		
-U+205F	 	2000..206F	General Punctuation	Medium mathematical space		
-U+2060	⁠	2000..206F	General Punctuation	Word joiner		
-U+2061	⁡	2000..206F	General Punctuation	Function application		
-U+2062	⁢	2000..206F	General Punctuation	Invisible times		
-U+2063	⁣	2000..206F	General Punctuation	Invisible separator		
-U+2064	⁤	2000..206F	General Punctuation	Invisible plus		
-U+2066	⁦	2000..206F	General Punctuation	Left-to-right isolate		
-U+2067	⁧	2000..206F	General Punctuation	Right-to-left isolate		
-U+2068	⁨	2000..206F	General Punctuation	First strong isolate		
-U+2069	⁩	2000..206F	General Punctuation	Pop directional isolate		
-U+206A	⁪	2000..206F	General Punctuation	Inhibit symmetric swapping		
-U+206B	⁫	2000..206F	General Punctuation	Activate symmetric swapping		
-U+206C	⁬	2000..206F	General Punctuation	Inhibit arabic form shaping		
-U+206D	⁭	2000..206F	General Punctuation	Activate arabic form shaping		
-U+206E	⁮	2000..206F	General Punctuation	National digit shapes		
-U+206F	⁯	2000..206F	General Punctuation	Nominal digit shapes		
+code_points	chars	tab_completions	unicode_name	base
+U+2000	 		EN QUAD	
+U+2001	 		EM QUAD	
+U+2002	 		EN SPACE	
+U+2003	 		EM SPACE	
+U+2004	 		THREE-PER-EM SPACE	
+U+2005	 		FOUR-PER-EM SPACE	
+U+2006	 		SIX-PER-EM SPACE	
+U+2007	 		FIGURE SPACE	
+U+2008	 		PUNCTUATION SPACE	
+U+2009	 		THIN SPACE	
+U+200A	 		HAIR SPACE	
+U+200B	​		ZERO WIDTH SPACE	
+U+200C	‌		ZERO WIDTH NON-JOINER	
+U+200D	‍		ZERO WIDTH JOINER	
+U+200E	‎		LEFT-TO-RIGHT MARK	
+U+200F	‏		RIGHT-TO-LEFT MARK	
+U+2010	‐		HYPHEN	
+U+2011	‑		NON-BREAKING HYPHEN	
+U+2012	‒		FIGURE DASH	
+U+2013	–		EN DASH	
+U+2014	—		EM DASH	
+U+2015	―		HORIZONTAL BAR	
+U+2016	‖		DOUBLE VERTICAL LINE	
+U+2017	‗		DOUBLE LOW LINE	
+U+2018	‘		LEFT SINGLE QUOTATION MARK	
+U+2019	’		RIGHT SINGLE QUOTATION MARK	
+U+201A	‚		SINGLE LOW-9 QUOTATION MARK	
+U+201B	‛		SINGLE HIGH-REVERSED-9 QUOTATION MARK	
+U+201C	“		LEFT DOUBLE QUOTATION MARK	
+U+201D	”		RIGHT DOUBLE QUOTATION MARK	
+U+201E	„		DOUBLE LOW-9 QUOTATION MARK	
+U+201F	‟		DOUBLE HIGH-REVERSED-9 QUOTATION MARK	
+U+2020	†		DAGGER	
+U+2021	‡		DOUBLE DAGGER	
+U+2022	•		BULLET	
+U+2023	‣		TRIANGULAR BULLET	
+U+2024	․		ONE DOT LEADER	
+U+2025	‥		TWO DOT LEADER	
+U+2026	…		HORIZONTAL ELLIPSIS	
+U+2027	‧		HYPHENATION POINT	
+U+2028	 		LINE SEPARATOR	
+U+2029	 		PARAGRAPH SEPARATOR	
+U+202A	‪		LEFT-TO-RIGHT EMBEDDING	
+U+202B	‫		RIGHT-TO-LEFT EMBEDDING	
+U+202C	‬		POP DIRECTIONAL FORMATTING	
+U+202D	‭		LEFT-TO-RIGHT OVERRIDE	
+U+202E	‮		RIGHT-TO-LEFT OVERRIDE	
+U+202F	 		NARROW NO-BREAK SPACE	
+U+2030	‰		PER MILLE SIGN	
+U+2031	‱		PER TEN THOUSAND SIGN	
+U+2032	′		PRIME	
+U+2033	″		DOUBLE PRIME	
+U+2034	‴		TRIPLE PRIME	
+U+2035	‵		REVERSED PRIME	
+U+2036	‶		REVERSED DOUBLE PRIME	
+U+2037	‷		REVERSED TRIPLE PRIME	
+U+2038	‸		CARET	
+U+2039	‹		SINGLE LEFT-POINTING ANGLE QUOTATION MARK	
+U+203A	›		SINGLE RIGHT-POINTING ANGLE QUOTATION MARK	
+U+203B	※		REFERENCE MARK	
+U+203C	‼		DOUBLE EXCLAMATION MARK	
+U+203D	‽		INTERROBANG	
+U+203E	‾		OVERLINE	
+U+203F	‿		UNDERTIE	
+U+2040	⁀		CHARACTER TIE	
+U+2041	⁁		CARET INSERTION POINT	
+U+2042	⁂		ASTERISM	
+U+2043	⁃		HYPHEN BULLET	
+U+2044	⁄		FRACTION SLASH	
+U+2045	⁅		LEFT SQUARE BRACKET WITH QUILL	
+U+2046	⁆		RIGHT SQUARE BRACKET WITH QUILL	
+U+2047	⁇		DOUBLE QUESTION MARK	
+U+2048	⁈		QUESTION EXCLAMATION MARK	
+U+2049	⁉		EXCLAMATION QUESTION MARK	
+U+204A	⁊		TIRONIAN SIGN ET	
+U+204B	⁋		REVERSED PILCROW SIGN	
+U+204C	⁌		BLACK LEFTWARDS BULLET	
+U+204D	⁍		BLACK RIGHTWARDS BULLET	
+U+204E	⁎		LOW ASTERISK	
+U+204F	⁏		REVERSED SEMICOLON	
+U+2050	⁐		CLOSE UP	
+U+2051	⁑		TWO ASTERISKS ALIGNED VERTICALLY	
+U+2052	⁒		COMMERCIAL MINUS SIGN	
+U+2053	⁓		SWUNG DASH	
+U+2054	⁔		INVERTED UNDERTIE	
+U+2055	⁕		FLOWER PUNCTUATION MARK	
+U+2056	⁖		THREE DOT PUNCTUATION	
+U+2057	⁗		QUADRUPLE PRIME	
+U+2058	⁘		FOUR DOT PUNCTUATION	
+U+2059	⁙		FIVE DOT PUNCTUATION	
+U+205A	⁚		TWO DOT PUNCTUATION	
+U+205B	⁛		FOUR DOT MARK	
+U+205C	⁜		DOTTED CROSS	
+U+205D	⁝		TRICOLON	
+U+205E	⁞		VERTICAL FOUR DOTS	
+U+205F	 		MEDIUM MATHEMATICAL SPACE	
+U+2060	⁠		WORD JOINER	
+U+2061	⁡		FUNCTION APPLICATION	
+U+2062	⁢		INVISIBLE TIMES	
+U+2063	⁣		INVISIBLE SEPARATOR	
+U+2064	⁤		INVISIBLE PLUS	
+U+2066	⁦		LEFT-TO-RIGHT ISOLATE	
+U+2067	⁧		RIGHT-TO-LEFT ISOLATE	
+U+2068	⁨		FIRST STRONG ISOLATE	
+U+2069	⁩		POP DIRECTIONAL ISOLATE	
+U+206A	⁪		INHIBIT SYMMETRIC SWAPPING	
+U+206B	⁫		ACTIVATE SYMMETRIC SWAPPING	
+U+206C	⁬		INHIBIT ARABIC FORM SHAPING	
+U+206D	⁭		ACTIVATE ARABIC FORM SHAPING	
+U+206E	⁮		NATIONAL DIGIT SHAPES	
+U+206F	⁯		NOMINAL DIGIT SHAPES	

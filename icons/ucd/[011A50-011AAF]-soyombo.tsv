@@ -1,84 +1,84 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11A50	𑩐	11A50..11AAF	Soyombo	Soyombo letter a		
-U+11A51	𑩑	11A50..11AAF	Soyombo	Soyombo vowel sign i		
-U+11A52	𑩒	11A50..11AAF	Soyombo	Soyombo vowel sign ue		
-U+11A53	𑩓	11A50..11AAF	Soyombo	Soyombo vowel sign u		
-U+11A54	𑩔	11A50..11AAF	Soyombo	Soyombo vowel sign e		
-U+11A55	𑩕	11A50..11AAF	Soyombo	Soyombo vowel sign o		
-U+11A56	𑩖	11A50..11AAF	Soyombo	Soyombo vowel sign oe		
-U+11A57	𑩗	11A50..11AAF	Soyombo	Soyombo vowel sign ai		
-U+11A58	𑩘	11A50..11AAF	Soyombo	Soyombo vowel sign au		
-U+11A59	𑩙	11A50..11AAF	Soyombo	Soyombo vowel sign vocalic r		
-U+11A5A	𑩚	11A50..11AAF	Soyombo	Soyombo vowel sign vocalic l		
-U+11A5B	𑩛	11A50..11AAF	Soyombo	Soyombo vowel length mark		
-U+11A5C	𑩜	11A50..11AAF	Soyombo	Soyombo letter ka		
-U+11A5D	𑩝	11A50..11AAF	Soyombo	Soyombo letter kha		
-U+11A5E	𑩞	11A50..11AAF	Soyombo	Soyombo letter ga		
-U+11A5F	𑩟	11A50..11AAF	Soyombo	Soyombo letter gha		
-U+11A60	𑩠	11A50..11AAF	Soyombo	Soyombo letter nga		
-U+11A61	𑩡	11A50..11AAF	Soyombo	Soyombo letter ca		
-U+11A62	𑩢	11A50..11AAF	Soyombo	Soyombo letter cha		
-U+11A63	𑩣	11A50..11AAF	Soyombo	Soyombo letter ja		
-U+11A64	𑩤	11A50..11AAF	Soyombo	Soyombo letter jha		
-U+11A65	𑩥	11A50..11AAF	Soyombo	Soyombo letter nya		
-U+11A66	𑩦	11A50..11AAF	Soyombo	Soyombo letter tta		
-U+11A67	𑩧	11A50..11AAF	Soyombo	Soyombo letter ttha		
-U+11A68	𑩨	11A50..11AAF	Soyombo	Soyombo letter dda		
-U+11A69	𑩩	11A50..11AAF	Soyombo	Soyombo letter ddha		
-U+11A6A	𑩪	11A50..11AAF	Soyombo	Soyombo letter nna		
-U+11A6B	𑩫	11A50..11AAF	Soyombo	Soyombo letter ta		
-U+11A6C	𑩬	11A50..11AAF	Soyombo	Soyombo letter tha		
-U+11A6D	𑩭	11A50..11AAF	Soyombo	Soyombo letter da		
-U+11A6E	𑩮	11A50..11AAF	Soyombo	Soyombo letter dha		
-U+11A6F	𑩯	11A50..11AAF	Soyombo	Soyombo letter na		
-U+11A70	𑩰	11A50..11AAF	Soyombo	Soyombo letter pa		
-U+11A71	𑩱	11A50..11AAF	Soyombo	Soyombo letter pha		
-U+11A72	𑩲	11A50..11AAF	Soyombo	Soyombo letter ba		
-U+11A73	𑩳	11A50..11AAF	Soyombo	Soyombo letter bha		
-U+11A74	𑩴	11A50..11AAF	Soyombo	Soyombo letter ma		
-U+11A75	𑩵	11A50..11AAF	Soyombo	Soyombo letter tsa		
-U+11A76	𑩶	11A50..11AAF	Soyombo	Soyombo letter tsha		
-U+11A77	𑩷	11A50..11AAF	Soyombo	Soyombo letter dza		
-U+11A78	𑩸	11A50..11AAF	Soyombo	Soyombo letter zha		
-U+11A79	𑩹	11A50..11AAF	Soyombo	Soyombo letter za		
-U+11A7A	𑩺	11A50..11AAF	Soyombo	Soyombo letter -a		
-U+11A7B	𑩻	11A50..11AAF	Soyombo	Soyombo letter ya		
-U+11A7C	𑩼	11A50..11AAF	Soyombo	Soyombo letter ra		
-U+11A7D	𑩽	11A50..11AAF	Soyombo	Soyombo letter la		
-U+11A7E	𑩾	11A50..11AAF	Soyombo	Soyombo letter va		
-U+11A7F	𑩿	11A50..11AAF	Soyombo	Soyombo letter sha		
-U+11A80	𑪀	11A50..11AAF	Soyombo	Soyombo letter ssa		
-U+11A81	𑪁	11A50..11AAF	Soyombo	Soyombo letter sa		
-U+11A82	𑪂	11A50..11AAF	Soyombo	Soyombo letter ha		
-U+11A83	𑪃	11A50..11AAF	Soyombo	Soyombo letter kssa		
-U+11A84	𑪄	11A50..11AAF	Soyombo	Soyombo sign jihvamuliya		
-U+11A85	𑪅	11A50..11AAF	Soyombo	Soyombo sign upadhmaniya		
-U+11A86	𑪆	11A50..11AAF	Soyombo	Soyombo cluster-initial letter ra		
-U+11A87	𑪇	11A50..11AAF	Soyombo	Soyombo cluster-initial letter la		
-U+11A88	𑪈	11A50..11AAF	Soyombo	Soyombo cluster-initial letter sha		
-U+11A89	𑪉	11A50..11AAF	Soyombo	Soyombo cluster-initial letter sa		
-U+11A8A	𑪊	11A50..11AAF	Soyombo	Soyombo final consonant sign g		
-U+11A8B	𑪋	11A50..11AAF	Soyombo	Soyombo final consonant sign k		
-U+11A8C	𑪌	11A50..11AAF	Soyombo	Soyombo final consonant sign ng		
-U+11A8D	𑪍	11A50..11AAF	Soyombo	Soyombo final consonant sign d		
-U+11A8E	𑪎	11A50..11AAF	Soyombo	Soyombo final consonant sign n		
-U+11A8F	𑪏	11A50..11AAF	Soyombo	Soyombo final consonant sign b		
-U+11A90	𑪐	11A50..11AAF	Soyombo	Soyombo final consonant sign m		
-U+11A91	𑪑	11A50..11AAF	Soyombo	Soyombo final consonant sign r		
-U+11A92	𑪒	11A50..11AAF	Soyombo	Soyombo final consonant sign l		
-U+11A93	𑪓	11A50..11AAF	Soyombo	Soyombo final consonant sign sh		
-U+11A94	𑪔	11A50..11AAF	Soyombo	Soyombo final consonant sign s		
-U+11A95	𑪕	11A50..11AAF	Soyombo	Soyombo final consonant sign -a		
-U+11A96	𑪖	11A50..11AAF	Soyombo	Soyombo sign anusvara		
-U+11A97	𑪗	11A50..11AAF	Soyombo	Soyombo sign visarga		
-U+11A98	𑪘	11A50..11AAF	Soyombo	Soyombo gemination mark		
-U+11A99	𑪙	11A50..11AAF	Soyombo	Soyombo subjoiner		
-U+11A9A	𑪚	11A50..11AAF	Soyombo	Soyombo mark tsheg		
-U+11A9B	𑪛	11A50..11AAF	Soyombo	Soyombo mark shad		
-U+11A9C	𑪜	11A50..11AAF	Soyombo	Soyombo mark double shad		
-U+11A9D	𑪝	11A50..11AAF	Soyombo	Soyombo mark pluta		
-U+11A9E	𑪞	11A50..11AAF	Soyombo	Soyombo head mark with moon and sun and triple flame		
-U+11A9F	𑪟	11A50..11AAF	Soyombo	Soyombo head mark with moon and sun and flame		
-U+11AA0	𑪠	11A50..11AAF	Soyombo	Soyombo head mark with moon and sun		
-U+11AA1	𑪡	11A50..11AAF	Soyombo	Soyombo terminal mark-1		
-U+11AA2	𑪢	11A50..11AAF	Soyombo	Soyombo terminal mark-2		
+code_points	chars	tab_completions	unicode_name	base
+U+11A50	𑩐		SOYOMBO LETTER A	
+U+11A51	𑩑		SOYOMBO VOWEL SIGN I	
+U+11A52	𑩒		SOYOMBO VOWEL SIGN UE	
+U+11A53	𑩓		SOYOMBO VOWEL SIGN U	
+U+11A54	𑩔		SOYOMBO VOWEL SIGN E	
+U+11A55	𑩕		SOYOMBO VOWEL SIGN O	
+U+11A56	𑩖		SOYOMBO VOWEL SIGN OE	
+U+11A57	𑩗		SOYOMBO VOWEL SIGN AI	
+U+11A58	𑩘		SOYOMBO VOWEL SIGN AU	
+U+11A59	𑩙		SOYOMBO VOWEL SIGN VOCALIC R	
+U+11A5A	𑩚		SOYOMBO VOWEL SIGN VOCALIC L	
+U+11A5B	𑩛		SOYOMBO VOWEL LENGTH MARK	
+U+11A5C	𑩜		SOYOMBO LETTER KA	
+U+11A5D	𑩝		SOYOMBO LETTER KHA	
+U+11A5E	𑩞		SOYOMBO LETTER GA	
+U+11A5F	𑩟		SOYOMBO LETTER GHA	
+U+11A60	𑩠		SOYOMBO LETTER NGA	
+U+11A61	𑩡		SOYOMBO LETTER CA	
+U+11A62	𑩢		SOYOMBO LETTER CHA	
+U+11A63	𑩣		SOYOMBO LETTER JA	
+U+11A64	𑩤		SOYOMBO LETTER JHA	
+U+11A65	𑩥		SOYOMBO LETTER NYA	
+U+11A66	𑩦		SOYOMBO LETTER TTA	
+U+11A67	𑩧		SOYOMBO LETTER TTHA	
+U+11A68	𑩨		SOYOMBO LETTER DDA	
+U+11A69	𑩩		SOYOMBO LETTER DDHA	
+U+11A6A	𑩪		SOYOMBO LETTER NNA	
+U+11A6B	𑩫		SOYOMBO LETTER TA	
+U+11A6C	𑩬		SOYOMBO LETTER THA	
+U+11A6D	𑩭		SOYOMBO LETTER DA	
+U+11A6E	𑩮		SOYOMBO LETTER DHA	
+U+11A6F	𑩯		SOYOMBO LETTER NA	
+U+11A70	𑩰		SOYOMBO LETTER PA	
+U+11A71	𑩱		SOYOMBO LETTER PHA	
+U+11A72	𑩲		SOYOMBO LETTER BA	
+U+11A73	𑩳		SOYOMBO LETTER BHA	
+U+11A74	𑩴		SOYOMBO LETTER MA	
+U+11A75	𑩵		SOYOMBO LETTER TSA	
+U+11A76	𑩶		SOYOMBO LETTER TSHA	
+U+11A77	𑩷		SOYOMBO LETTER DZA	
+U+11A78	𑩸		SOYOMBO LETTER ZHA	
+U+11A79	𑩹		SOYOMBO LETTER ZA	
+U+11A7A	𑩺		SOYOMBO LETTER -A	
+U+11A7B	𑩻		SOYOMBO LETTER YA	
+U+11A7C	𑩼		SOYOMBO LETTER RA	
+U+11A7D	𑩽		SOYOMBO LETTER LA	
+U+11A7E	𑩾		SOYOMBO LETTER VA	
+U+11A7F	𑩿		SOYOMBO LETTER SHA	
+U+11A80	𑪀		SOYOMBO LETTER SSA	
+U+11A81	𑪁		SOYOMBO LETTER SA	
+U+11A82	𑪂		SOYOMBO LETTER HA	
+U+11A83	𑪃		SOYOMBO LETTER KSSA	
+U+11A84	𑪄		SOYOMBO SIGN JIHVAMULIYA	
+U+11A85	𑪅		SOYOMBO SIGN UPADHMANIYA	
+U+11A86	𑪆		SOYOMBO CLUSTER-INITIAL LETTER RA	
+U+11A87	𑪇		SOYOMBO CLUSTER-INITIAL LETTER LA	
+U+11A88	𑪈		SOYOMBO CLUSTER-INITIAL LETTER SHA	
+U+11A89	𑪉		SOYOMBO CLUSTER-INITIAL LETTER SA	
+U+11A8A	𑪊		SOYOMBO FINAL CONSONANT SIGN G	
+U+11A8B	𑪋		SOYOMBO FINAL CONSONANT SIGN K	
+U+11A8C	𑪌		SOYOMBO FINAL CONSONANT SIGN NG	
+U+11A8D	𑪍		SOYOMBO FINAL CONSONANT SIGN D	
+U+11A8E	𑪎		SOYOMBO FINAL CONSONANT SIGN N	
+U+11A8F	𑪏		SOYOMBO FINAL CONSONANT SIGN B	
+U+11A90	𑪐		SOYOMBO FINAL CONSONANT SIGN M	
+U+11A91	𑪑		SOYOMBO FINAL CONSONANT SIGN R	
+U+11A92	𑪒		SOYOMBO FINAL CONSONANT SIGN L	
+U+11A93	𑪓		SOYOMBO FINAL CONSONANT SIGN SH	
+U+11A94	𑪔		SOYOMBO FINAL CONSONANT SIGN S	
+U+11A95	𑪕		SOYOMBO FINAL CONSONANT SIGN -A	
+U+11A96	𑪖		SOYOMBO SIGN ANUSVARA	
+U+11A97	𑪗		SOYOMBO SIGN VISARGA	
+U+11A98	𑪘		SOYOMBO GEMINATION MARK	
+U+11A99	𑪙		SOYOMBO SUBJOINER	
+U+11A9A	𑪚		SOYOMBO MARK TSHEG	
+U+11A9B	𑪛		SOYOMBO MARK SHAD	
+U+11A9C	𑪜		SOYOMBO MARK DOUBLE SHAD	
+U+11A9D	𑪝		SOYOMBO MARK PLUTA	
+U+11A9E	𑪞		SOYOMBO HEAD MARK WITH MOON AND SUN AND TRIPLE FLAME	
+U+11A9F	𑪟		SOYOMBO HEAD MARK WITH MOON AND SUN AND FLAME	
+U+11AA0	𑪠		SOYOMBO HEAD MARK WITH MOON AND SUN	
+U+11AA1	𑪡		SOYOMBO TERMINAL MARK-1	
+U+11AA2	𑪢		SOYOMBO TERMINAL MARK-2	

@@ -1,47 +1,47 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+101D0	𐇐	101D0..101FF	Phaistos Disc	Phaistos disc sign pedestrian		
-U+101D1	𐇑	101D0..101FF	Phaistos Disc	Phaistos disc sign plumed head		
-U+101D2	𐇒	101D0..101FF	Phaistos Disc	Phaistos disc sign tattooed head		
-U+101D3	𐇓	101D0..101FF	Phaistos Disc	Phaistos disc sign captive		
-U+101D4	𐇔	101D0..101FF	Phaistos Disc	Phaistos disc sign child		
-U+101D5	𐇕	101D0..101FF	Phaistos Disc	Phaistos disc sign woman		
-U+101D6	𐇖	101D0..101FF	Phaistos Disc	Phaistos disc sign helmet		
-U+101D7	𐇗	101D0..101FF	Phaistos Disc	Phaistos disc sign gauntlet		
-U+101D8	𐇘	101D0..101FF	Phaistos Disc	Phaistos disc sign tiara		
-U+101D9	𐇙	101D0..101FF	Phaistos Disc	Phaistos disc sign arrow		
-U+101DA	𐇚	101D0..101FF	Phaistos Disc	Phaistos disc sign bow		
-U+101DB	𐇛	101D0..101FF	Phaistos Disc	Phaistos disc sign shield		
-U+101DC	𐇜	101D0..101FF	Phaistos Disc	Phaistos disc sign club		
-U+101DD	𐇝	101D0..101FF	Phaistos Disc	Phaistos disc sign manacles		
-U+101DE	𐇞	101D0..101FF	Phaistos Disc	Phaistos disc sign mattock		
-U+101DF	𐇟	101D0..101FF	Phaistos Disc	Phaistos disc sign saw		
-U+101E0	𐇠	101D0..101FF	Phaistos Disc	Phaistos disc sign lid		
-U+101E1	𐇡	101D0..101FF	Phaistos Disc	Phaistos disc sign boomerang		
-U+101E2	𐇢	101D0..101FF	Phaistos Disc	Phaistos disc sign carpentry plane		
-U+101E3	𐇣	101D0..101FF	Phaistos Disc	Phaistos disc sign dolium		
-U+101E4	𐇤	101D0..101FF	Phaistos Disc	Phaistos disc sign comb		
-U+101E5	𐇥	101D0..101FF	Phaistos Disc	Phaistos disc sign sling		
-U+101E6	𐇦	101D0..101FF	Phaistos Disc	Phaistos disc sign column		
-U+101E7	𐇧	101D0..101FF	Phaistos Disc	Phaistos disc sign beehive		
-U+101E8	𐇨	101D0..101FF	Phaistos Disc	Phaistos disc sign ship		
-U+101E9	𐇩	101D0..101FF	Phaistos Disc	Phaistos disc sign horn		
-U+101EA	𐇪	101D0..101FF	Phaistos Disc	Phaistos disc sign hide		
-U+101EB	𐇫	101D0..101FF	Phaistos Disc	Phaistos disc sign bulls leg		
-U+101EC	𐇬	101D0..101FF	Phaistos Disc	Phaistos disc sign cat		
-U+101ED	𐇭	101D0..101FF	Phaistos Disc	Phaistos disc sign ram		
-U+101EE	𐇮	101D0..101FF	Phaistos Disc	Phaistos disc sign eagle		
-U+101EF	𐇯	101D0..101FF	Phaistos Disc	Phaistos disc sign dove		
-U+101F0	𐇰	101D0..101FF	Phaistos Disc	Phaistos disc sign tunny		
-U+101F1	𐇱	101D0..101FF	Phaistos Disc	Phaistos disc sign bee		
-U+101F2	𐇲	101D0..101FF	Phaistos Disc	Phaistos disc sign plane tree		
-U+101F3	𐇳	101D0..101FF	Phaistos Disc	Phaistos disc sign vine		
-U+101F4	𐇴	101D0..101FF	Phaistos Disc	Phaistos disc sign papyrus		
-U+101F5	𐇵	101D0..101FF	Phaistos Disc	Phaistos disc sign rosette		
-U+101F6	𐇶	101D0..101FF	Phaistos Disc	Phaistos disc sign lily		
-U+101F7	𐇷	101D0..101FF	Phaistos Disc	Phaistos disc sign ox back		
-U+101F8	𐇸	101D0..101FF	Phaistos Disc	Phaistos disc sign flute		
-U+101F9	𐇹	101D0..101FF	Phaistos Disc	Phaistos disc sign grater		
-U+101FA	𐇺	101D0..101FF	Phaistos Disc	Phaistos disc sign strainer		
-U+101FB	𐇻	101D0..101FF	Phaistos Disc	Phaistos disc sign small axe		
-U+101FC	𐇼	101D0..101FF	Phaistos Disc	Phaistos disc sign wavy band		
-U+101FD	𐇽	101D0..101FF	Phaistos Disc	Phaistos disc sign combining oblique stroke		
+code_points	chars	tab_completions	unicode_name	base
+U+101D0	𐇐		PHAISTOS DISC SIGN PEDESTRIAN	
+U+101D1	𐇑		PHAISTOS DISC SIGN PLUMED HEAD	
+U+101D2	𐇒		PHAISTOS DISC SIGN TATTOOED HEAD	
+U+101D3	𐇓		PHAISTOS DISC SIGN CAPTIVE	
+U+101D4	𐇔		PHAISTOS DISC SIGN CHILD	
+U+101D5	𐇕		PHAISTOS DISC SIGN WOMAN	
+U+101D6	𐇖		PHAISTOS DISC SIGN HELMET	
+U+101D7	𐇗		PHAISTOS DISC SIGN GAUNTLET	
+U+101D8	𐇘		PHAISTOS DISC SIGN TIARA	
+U+101D9	𐇙		PHAISTOS DISC SIGN ARROW	
+U+101DA	𐇚		PHAISTOS DISC SIGN BOW	
+U+101DB	𐇛		PHAISTOS DISC SIGN SHIELD	
+U+101DC	𐇜		PHAISTOS DISC SIGN CLUB	
+U+101DD	𐇝		PHAISTOS DISC SIGN MANACLES	
+U+101DE	𐇞		PHAISTOS DISC SIGN MATTOCK	
+U+101DF	𐇟		PHAISTOS DISC SIGN SAW	
+U+101E0	𐇠		PHAISTOS DISC SIGN LID	
+U+101E1	𐇡		PHAISTOS DISC SIGN BOOMERANG	
+U+101E2	𐇢		PHAISTOS DISC SIGN CARPENTRY PLANE	
+U+101E3	𐇣		PHAISTOS DISC SIGN DOLIUM	
+U+101E4	𐇤		PHAISTOS DISC SIGN COMB	
+U+101E5	𐇥		PHAISTOS DISC SIGN SLING	
+U+101E6	𐇦		PHAISTOS DISC SIGN COLUMN	
+U+101E7	𐇧		PHAISTOS DISC SIGN BEEHIVE	
+U+101E8	𐇨		PHAISTOS DISC SIGN SHIP	
+U+101E9	𐇩		PHAISTOS DISC SIGN HORN	
+U+101EA	𐇪		PHAISTOS DISC SIGN HIDE	
+U+101EB	𐇫		PHAISTOS DISC SIGN BULLS LEG	
+U+101EC	𐇬		PHAISTOS DISC SIGN CAT	
+U+101ED	𐇭		PHAISTOS DISC SIGN RAM	
+U+101EE	𐇮		PHAISTOS DISC SIGN EAGLE	
+U+101EF	𐇯		PHAISTOS DISC SIGN DOVE	
+U+101F0	𐇰		PHAISTOS DISC SIGN TUNNY	
+U+101F1	𐇱		PHAISTOS DISC SIGN BEE	
+U+101F2	𐇲		PHAISTOS DISC SIGN PLANE TREE	
+U+101F3	𐇳		PHAISTOS DISC SIGN VINE	
+U+101F4	𐇴		PHAISTOS DISC SIGN PAPYRUS	
+U+101F5	𐇵		PHAISTOS DISC SIGN ROSETTE	
+U+101F6	𐇶		PHAISTOS DISC SIGN LILY	
+U+101F7	𐇷		PHAISTOS DISC SIGN OX BACK	
+U+101F8	𐇸		PHAISTOS DISC SIGN FLUTE	
+U+101F9	𐇹		PHAISTOS DISC SIGN GRATER	
+U+101FA	𐇺		PHAISTOS DISC SIGN STRAINER	
+U+101FB	𐇻		PHAISTOS DISC SIGN SMALL AXE	
+U+101FC	𐇼		PHAISTOS DISC SIGN WAVY BAND	
+U+101FD	𐇽		PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE	

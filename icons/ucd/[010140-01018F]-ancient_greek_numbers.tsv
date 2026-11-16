@@ -1,80 +1,80 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10140	𐅀	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one quarter		
-U+10141	𐅁	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one half		
-U+10142	𐅂	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one drachma		
-U+10143	𐅃	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five		
-U+10144	𐅄	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic fifty		
-U+10145	𐅅	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five hundred		
-U+10146	𐅆	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five thousand		
-U+10147	𐅇	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic fifty thousand		
-U+10148	𐅈	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five talents		
-U+10149	𐅉	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic ten talents		
-U+1014A	𐅊	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic fifty talents		
-U+1014B	𐅋	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one hundred talents		
-U+1014C	𐅌	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five hundred talents		
-U+1014D	𐅍	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one thousand talents		
-U+1014E	𐅎	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five thousand talents		
-U+1014F	𐅏	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five staters		
-U+10150	𐅐	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic ten staters		
-U+10151	𐅑	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic fifty staters		
-U+10152	𐅒	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one hundred staters		
-U+10153	𐅓	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic five hundred staters		
-U+10154	𐅔	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic one thousand staters		
-U+10155	𐅕	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic ten thousand staters		
-U+10156	𐅖	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic fifty thousand staters		
-U+10157	𐅗	10140..1018F	Ancient Greek Numbers	Greek acrophonic attic ten mnas		
-U+10158	𐅘	10140..1018F	Ancient Greek Numbers	Greek acrophonic heraeum one plethron		
-U+10159	𐅙	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian one		
-U+1015A	𐅚	10140..1018F	Ancient Greek Numbers	Greek acrophonic hermionian one		
-U+1015B	𐅛	10140..1018F	Ancient Greek Numbers	Greek acrophonic epidaurean two		
-U+1015C	𐅜	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian two		
-U+1015D	𐅝	10140..1018F	Ancient Greek Numbers	Greek acrophonic cyrenaic two drachmas		
-U+1015E	𐅞	10140..1018F	Ancient Greek Numbers	Greek acrophonic epidaurean two drachmas		
-U+1015F	𐅟	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian five		
-U+10160	𐅠	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian ten		
-U+10161	𐅡	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian ten alternate form		
-U+10162	𐅢	10140..1018F	Ancient Greek Numbers	Greek acrophonic hermionian ten		
-U+10163	𐅣	10140..1018F	Ancient Greek Numbers	Greek acrophonic messenian ten		
-U+10164	𐅤	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian ten		
-U+10165	𐅥	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian thirty		
-U+10166	𐅦	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian fifty		
-U+10167	𐅧	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian fifty alternate form		
-U+10168	𐅨	10140..1018F	Ancient Greek Numbers	Greek acrophonic hermionian fifty		
-U+10169	𐅩	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian fifty		
-U+1016A	𐅪	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian one hundred		
-U+1016B	𐅫	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian three hundred		
-U+1016C	𐅬	10140..1018F	Ancient Greek Numbers	Greek acrophonic epidaurean five hundred		
-U+1016D	𐅭	10140..1018F	Ancient Greek Numbers	Greek acrophonic troezenian five hundred		
-U+1016E	𐅮	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian five hundred		
-U+1016F	𐅯	10140..1018F	Ancient Greek Numbers	Greek acrophonic carystian five hundred		
-U+10170	𐅰	10140..1018F	Ancient Greek Numbers	Greek acrophonic naxian five hundred		
-U+10171	𐅱	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian one thousand		
-U+10172	𐅲	10140..1018F	Ancient Greek Numbers	Greek acrophonic thespian five thousand		
-U+10173	𐅳	10140..1018F	Ancient Greek Numbers	Greek acrophonic delphic five mnas		
-U+10174	𐅴	10140..1018F	Ancient Greek Numbers	Greek acrophonic stratian fifty mnas		
-U+10175	𐅵	10140..1018F	Ancient Greek Numbers	Greek one half sign		
-U+10176	𐅶	10140..1018F	Ancient Greek Numbers	Greek one half sign alternate form		
-U+10177	𐅷	10140..1018F	Ancient Greek Numbers	Greek two thirds sign		
-U+10178	𐅸	10140..1018F	Ancient Greek Numbers	Greek three quarters sign		
-U+10179	𐅹	10140..1018F	Ancient Greek Numbers	Greek year sign		
-U+1017A	𐅺	10140..1018F	Ancient Greek Numbers	Greek talent sign		
-U+1017B	𐅻	10140..1018F	Ancient Greek Numbers	Greek drachma sign		
-U+1017C	𐅼	10140..1018F	Ancient Greek Numbers	Greek obol sign		
-U+1017D	𐅽	10140..1018F	Ancient Greek Numbers	Greek two obols sign		
-U+1017E	𐅾	10140..1018F	Ancient Greek Numbers	Greek three obols sign		
-U+1017F	𐅿	10140..1018F	Ancient Greek Numbers	Greek four obols sign		
-U+10180	𐆀	10140..1018F	Ancient Greek Numbers	Greek five obols sign		
-U+10181	𐆁	10140..1018F	Ancient Greek Numbers	Greek metretes sign		
-U+10182	𐆂	10140..1018F	Ancient Greek Numbers	Greek kyathos base sign		
-U+10183	𐆃	10140..1018F	Ancient Greek Numbers	Greek litra sign		
-U+10184	𐆄	10140..1018F	Ancient Greek Numbers	Greek ounkia sign		
-U+10185	𐆅	10140..1018F	Ancient Greek Numbers	Greek xestes sign		
-U+10186	𐆆	10140..1018F	Ancient Greek Numbers	Greek artabe sign		
-U+10187	𐆇	10140..1018F	Ancient Greek Numbers	Greek aroura sign		
-U+10188	𐆈	10140..1018F	Ancient Greek Numbers	Greek gramma sign		
-U+10189	𐆉	10140..1018F	Ancient Greek Numbers	Greek tryblion base sign		
-U+1018A	𐆊	10140..1018F	Ancient Greek Numbers	Greek zero sign		
-U+1018B	𐆋	10140..1018F	Ancient Greek Numbers	Greek one quarter sign		
-U+1018C	𐆌	10140..1018F	Ancient Greek Numbers	Greek sinusoid sign		
-U+1018D	𐆍	10140..1018F	Ancient Greek Numbers	Greek indiction sign		
-U+1018E	𐆎	10140..1018F	Ancient Greek Numbers	Nomisma sign		
+code_points	chars	tab_completions	unicode_name	base
+U+10140	𐅀		GREEK ACROPHONIC ATTIC ONE QUARTER	
+U+10141	𐅁		GREEK ACROPHONIC ATTIC ONE HALF	
+U+10142	𐅂		GREEK ACROPHONIC ATTIC ONE DRACHMA	
+U+10143	𐅃		GREEK ACROPHONIC ATTIC FIVE	
+U+10144	𐅄		GREEK ACROPHONIC ATTIC FIFTY	
+U+10145	𐅅		GREEK ACROPHONIC ATTIC FIVE HUNDRED	
+U+10146	𐅆		GREEK ACROPHONIC ATTIC FIVE THOUSAND	
+U+10147	𐅇		GREEK ACROPHONIC ATTIC FIFTY THOUSAND	
+U+10148	𐅈		GREEK ACROPHONIC ATTIC FIVE TALENTS	
+U+10149	𐅉		GREEK ACROPHONIC ATTIC TEN TALENTS	
+U+1014A	𐅊		GREEK ACROPHONIC ATTIC FIFTY TALENTS	
+U+1014B	𐅋		GREEK ACROPHONIC ATTIC ONE HUNDRED TALENTS	
+U+1014C	𐅌		GREEK ACROPHONIC ATTIC FIVE HUNDRED TALENTS	
+U+1014D	𐅍		GREEK ACROPHONIC ATTIC ONE THOUSAND TALENTS	
+U+1014E	𐅎		GREEK ACROPHONIC ATTIC FIVE THOUSAND TALENTS	
+U+1014F	𐅏		GREEK ACROPHONIC ATTIC FIVE STATERS	
+U+10150	𐅐		GREEK ACROPHONIC ATTIC TEN STATERS	
+U+10151	𐅑		GREEK ACROPHONIC ATTIC FIFTY STATERS	
+U+10152	𐅒		GREEK ACROPHONIC ATTIC ONE HUNDRED STATERS	
+U+10153	𐅓		GREEK ACROPHONIC ATTIC FIVE HUNDRED STATERS	
+U+10154	𐅔		GREEK ACROPHONIC ATTIC ONE THOUSAND STATERS	
+U+10155	𐅕		GREEK ACROPHONIC ATTIC TEN THOUSAND STATERS	
+U+10156	𐅖		GREEK ACROPHONIC ATTIC FIFTY THOUSAND STATERS	
+U+10157	𐅗		GREEK ACROPHONIC ATTIC TEN MNAS	
+U+10158	𐅘		GREEK ACROPHONIC HERAEUM ONE PLETHRON	
+U+10159	𐅙		GREEK ACROPHONIC THESPIAN ONE	
+U+1015A	𐅚		GREEK ACROPHONIC HERMIONIAN ONE	
+U+1015B	𐅛		GREEK ACROPHONIC EPIDAUREAN TWO	
+U+1015C	𐅜		GREEK ACROPHONIC THESPIAN TWO	
+U+1015D	𐅝		GREEK ACROPHONIC CYRENAIC TWO DRACHMAS	
+U+1015E	𐅞		GREEK ACROPHONIC EPIDAUREAN TWO DRACHMAS	
+U+1015F	𐅟		GREEK ACROPHONIC TROEZENIAN FIVE	
+U+10160	𐅠		GREEK ACROPHONIC TROEZENIAN TEN	
+U+10161	𐅡		GREEK ACROPHONIC TROEZENIAN TEN ALTERNATE FORM	
+U+10162	𐅢		GREEK ACROPHONIC HERMIONIAN TEN	
+U+10163	𐅣		GREEK ACROPHONIC MESSENIAN TEN	
+U+10164	𐅤		GREEK ACROPHONIC THESPIAN TEN	
+U+10165	𐅥		GREEK ACROPHONIC THESPIAN THIRTY	
+U+10166	𐅦		GREEK ACROPHONIC TROEZENIAN FIFTY	
+U+10167	𐅧		GREEK ACROPHONIC TROEZENIAN FIFTY ALTERNATE FORM	
+U+10168	𐅨		GREEK ACROPHONIC HERMIONIAN FIFTY	
+U+10169	𐅩		GREEK ACROPHONIC THESPIAN FIFTY	
+U+1016A	𐅪		GREEK ACROPHONIC THESPIAN ONE HUNDRED	
+U+1016B	𐅫		GREEK ACROPHONIC THESPIAN THREE HUNDRED	
+U+1016C	𐅬		GREEK ACROPHONIC EPIDAUREAN FIVE HUNDRED	
+U+1016D	𐅭		GREEK ACROPHONIC TROEZENIAN FIVE HUNDRED	
+U+1016E	𐅮		GREEK ACROPHONIC THESPIAN FIVE HUNDRED	
+U+1016F	𐅯		GREEK ACROPHONIC CARYSTIAN FIVE HUNDRED	
+U+10170	𐅰		GREEK ACROPHONIC NAXIAN FIVE HUNDRED	
+U+10171	𐅱		GREEK ACROPHONIC THESPIAN ONE THOUSAND	
+U+10172	𐅲		GREEK ACROPHONIC THESPIAN FIVE THOUSAND	
+U+10173	𐅳		GREEK ACROPHONIC DELPHIC FIVE MNAS	
+U+10174	𐅴		GREEK ACROPHONIC STRATIAN FIFTY MNAS	
+U+10175	𐅵		GREEK ONE HALF SIGN	
+U+10176	𐅶		GREEK ONE HALF SIGN ALTERNATE FORM	
+U+10177	𐅷		GREEK TWO THIRDS SIGN	
+U+10178	𐅸		GREEK THREE QUARTERS SIGN	
+U+10179	𐅹		GREEK YEAR SIGN	
+U+1017A	𐅺		GREEK TALENT SIGN	
+U+1017B	𐅻		GREEK DRACHMA SIGN	
+U+1017C	𐅼		GREEK OBOL SIGN	
+U+1017D	𐅽		GREEK TWO OBOLS SIGN	
+U+1017E	𐅾		GREEK THREE OBOLS SIGN	
+U+1017F	𐅿		GREEK FOUR OBOLS SIGN	
+U+10180	𐆀		GREEK FIVE OBOLS SIGN	
+U+10181	𐆁		GREEK METRETES SIGN	
+U+10182	𐆂		GREEK KYATHOS BASE SIGN	
+U+10183	𐆃		GREEK LITRA SIGN	
+U+10184	𐆄		GREEK OUNKIA SIGN	
+U+10185	𐆅		GREEK XESTES SIGN	
+U+10186	𐆆		GREEK ARTABE SIGN	
+U+10187	𐆇		GREEK AROURA SIGN	
+U+10188	𐆈		GREEK GRAMMA SIGN	
+U+10189	𐆉		GREEK TRYBLION BASE SIGN	
+U+1018A	𐆊		GREEK ZERO SIGN	
+U+1018B	𐆋		GREEK ONE QUARTER SIGN	
+U+1018C	𐆌		GREEK SINUSOID SIGN	
+U+1018D	𐆍		GREEK INDICTION SIGN	
+U+1018E	𐆎		NOMISMA SIGN	

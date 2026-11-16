@@ -1,27 +1,27 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10F70	𐽰	10F70..10FAF	Old Uyghur	Old uyghur letter aleph		
-U+10F71	𐽱	10F70..10FAF	Old Uyghur	Old uyghur letter beth		
-U+10F72	𐽲	10F70..10FAF	Old Uyghur	Old uyghur letter gimel-heth		
-U+10F73	𐽳	10F70..10FAF	Old Uyghur	Old uyghur letter waw		
-U+10F74	𐽴	10F70..10FAF	Old Uyghur	Old uyghur letter zayin		
-U+10F75	𐽵	10F70..10FAF	Old Uyghur	Old uyghur letter final heth		
-U+10F76	𐽶	10F70..10FAF	Old Uyghur	Old uyghur letter yodh		
-U+10F77	𐽷	10F70..10FAF	Old Uyghur	Old uyghur letter kaph		
-U+10F78	𐽸	10F70..10FAF	Old Uyghur	Old uyghur letter lamedh		
-U+10F79	𐽹	10F70..10FAF	Old Uyghur	Old uyghur letter mem		
-U+10F7A	𐽺	10F70..10FAF	Old Uyghur	Old uyghur letter nun		
-U+10F7B	𐽻	10F70..10FAF	Old Uyghur	Old uyghur letter samekh		
-U+10F7C	𐽼	10F70..10FAF	Old Uyghur	Old uyghur letter pe		
-U+10F7D	𐽽	10F70..10FAF	Old Uyghur	Old uyghur letter sadhe		
-U+10F7E	𐽾	10F70..10FAF	Old Uyghur	Old uyghur letter resh		
-U+10F7F	𐽿	10F70..10FAF	Old Uyghur	Old uyghur letter shin		
-U+10F80	𐾀	10F70..10FAF	Old Uyghur	Old uyghur letter taw		
-U+10F81	𐾁	10F70..10FAF	Old Uyghur	Old uyghur letter lesh		
-U+10F82	𐾂	10F70..10FAF	Old Uyghur	Old uyghur combining dot above		
-U+10F83	𐾃	10F70..10FAF	Old Uyghur	Old uyghur combining dot below		
-U+10F84	𐾄	10F70..10FAF	Old Uyghur	Old uyghur combining two dots above		
-U+10F85	𐾅	10F70..10FAF	Old Uyghur	Old uyghur combining two dots below		
-U+10F86	𐾆	10F70..10FAF	Old Uyghur	Old uyghur punctuation bar		
-U+10F87	𐾇	10F70..10FAF	Old Uyghur	Old uyghur punctuation two bars		
-U+10F88	𐾈	10F70..10FAF	Old Uyghur	Old uyghur punctuation two dots		
-U+10F89	𐾉	10F70..10FAF	Old Uyghur	Old uyghur punctuation four dots		
+code_points	chars	tab_completions	unicode_name	base
+U+10F70	𐽰		OLD UYGHUR LETTER ALEPH	
+U+10F71	𐽱		OLD UYGHUR LETTER BETH	
+U+10F72	𐽲		OLD UYGHUR LETTER GIMEL-HETH	
+U+10F73	𐽳		OLD UYGHUR LETTER WAW	
+U+10F74	𐽴		OLD UYGHUR LETTER ZAYIN	
+U+10F75	𐽵		OLD UYGHUR LETTER FINAL HETH	
+U+10F76	𐽶		OLD UYGHUR LETTER YODH	
+U+10F77	𐽷		OLD UYGHUR LETTER KAPH	
+U+10F78	𐽸		OLD UYGHUR LETTER LAMEDH	
+U+10F79	𐽹		OLD UYGHUR LETTER MEM	
+U+10F7A	𐽺		OLD UYGHUR LETTER NUN	
+U+10F7B	𐽻		OLD UYGHUR LETTER SAMEKH	
+U+10F7C	𐽼		OLD UYGHUR LETTER PE	
+U+10F7D	𐽽		OLD UYGHUR LETTER SADHE	
+U+10F7E	𐽾		OLD UYGHUR LETTER RESH	
+U+10F7F	𐽿		OLD UYGHUR LETTER SHIN	
+U+10F80	𐾀		OLD UYGHUR LETTER TAW	
+U+10F81	𐾁		OLD UYGHUR LETTER LESH	
+U+10F82	𐾂		OLD UYGHUR COMBINING DOT ABOVE	
+U+10F83	𐾃		OLD UYGHUR COMBINING DOT BELOW	
+U+10F84	𐾄		OLD UYGHUR COMBINING TWO DOTS ABOVE	
+U+10F85	𐾅		OLD UYGHUR COMBINING TWO DOTS BELOW	
+U+10F86	𐾆		OLD UYGHUR PUNCTUATION BAR	
+U+10F87	𐾇		OLD UYGHUR PUNCTUATION TWO BARS	
+U+10F88	𐾈		OLD UYGHUR PUNCTUATION TWO DOTS	
+U+10F89	𐾉		OLD UYGHUR PUNCTUATION FOUR DOTS	

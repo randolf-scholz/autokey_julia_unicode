@@ -1,41 +1,41 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10880	𐢀	10880..108AF	Nabataean	Nabataean letter final aleph		
-U+10881	𐢁	10880..108AF	Nabataean	Nabataean letter aleph		
-U+10882	𐢂	10880..108AF	Nabataean	Nabataean letter final beth		
-U+10883	𐢃	10880..108AF	Nabataean	Nabataean letter beth		
-U+10884	𐢄	10880..108AF	Nabataean	Nabataean letter gimel		
-U+10885	𐢅	10880..108AF	Nabataean	Nabataean letter daleth		
-U+10886	𐢆	10880..108AF	Nabataean	Nabataean letter final he		
-U+10887	𐢇	10880..108AF	Nabataean	Nabataean letter he		
-U+10888	𐢈	10880..108AF	Nabataean	Nabataean letter waw		
-U+10889	𐢉	10880..108AF	Nabataean	Nabataean letter zayin		
-U+1088A	𐢊	10880..108AF	Nabataean	Nabataean letter heth		
-U+1088B	𐢋	10880..108AF	Nabataean	Nabataean letter teth		
-U+1088C	𐢌	10880..108AF	Nabataean	Nabataean letter final yodh		
-U+1088D	𐢍	10880..108AF	Nabataean	Nabataean letter yodh		
-U+1088E	𐢎	10880..108AF	Nabataean	Nabataean letter final kaph		
-U+1088F	𐢏	10880..108AF	Nabataean	Nabataean letter kaph		
-U+10890	𐢐	10880..108AF	Nabataean	Nabataean letter final lamedh		
-U+10891	𐢑	10880..108AF	Nabataean	Nabataean letter lamedh		
-U+10892	𐢒	10880..108AF	Nabataean	Nabataean letter final mem		
-U+10893	𐢓	10880..108AF	Nabataean	Nabataean letter mem		
-U+10894	𐢔	10880..108AF	Nabataean	Nabataean letter final nun		
-U+10895	𐢕	10880..108AF	Nabataean	Nabataean letter nun		
-U+10896	𐢖	10880..108AF	Nabataean	Nabataean letter samekh		
-U+10897	𐢗	10880..108AF	Nabataean	Nabataean letter ayin		
-U+10898	𐢘	10880..108AF	Nabataean	Nabataean letter pe		
-U+10899	𐢙	10880..108AF	Nabataean	Nabataean letter sadhe		
-U+1089A	𐢚	10880..108AF	Nabataean	Nabataean letter qoph		
-U+1089B	𐢛	10880..108AF	Nabataean	Nabataean letter resh		
-U+1089C	𐢜	10880..108AF	Nabataean	Nabataean letter final shin		
-U+1089D	𐢝	10880..108AF	Nabataean	Nabataean letter shin		
-U+1089E	𐢞	10880..108AF	Nabataean	Nabataean letter taw		
-U+108A7	𐢧	10880..108AF	Nabataean	Nabataean number one		
-U+108A8	𐢨	10880..108AF	Nabataean	Nabataean number two		
-U+108A9	𐢩	10880..108AF	Nabataean	Nabataean number three		
-U+108AA	𐢪	10880..108AF	Nabataean	Nabataean number four		
-U+108AB	𐢫	10880..108AF	Nabataean	Nabataean cruciform number four		
-U+108AC	𐢬	10880..108AF	Nabataean	Nabataean number five		
-U+108AD	𐢭	10880..108AF	Nabataean	Nabataean number ten		
-U+108AE	𐢮	10880..108AF	Nabataean	Nabataean number twenty		
-U+108AF	𐢯	10880..108AF	Nabataean	Nabataean number one hundred		
+code_points	chars	tab_completions	unicode_name	base
+U+10880	𐢀		NABATAEAN LETTER FINAL ALEPH	
+U+10881	𐢁		NABATAEAN LETTER ALEPH	
+U+10882	𐢂		NABATAEAN LETTER FINAL BETH	
+U+10883	𐢃		NABATAEAN LETTER BETH	
+U+10884	𐢄		NABATAEAN LETTER GIMEL	
+U+10885	𐢅		NABATAEAN LETTER DALETH	
+U+10886	𐢆		NABATAEAN LETTER FINAL HE	
+U+10887	𐢇		NABATAEAN LETTER HE	
+U+10888	𐢈		NABATAEAN LETTER WAW	
+U+10889	𐢉		NABATAEAN LETTER ZAYIN	
+U+1088A	𐢊		NABATAEAN LETTER HETH	
+U+1088B	𐢋		NABATAEAN LETTER TETH	
+U+1088C	𐢌		NABATAEAN LETTER FINAL YODH	
+U+1088D	𐢍		NABATAEAN LETTER YODH	
+U+1088E	𐢎		NABATAEAN LETTER FINAL KAPH	
+U+1088F	𐢏		NABATAEAN LETTER KAPH	
+U+10890	𐢐		NABATAEAN LETTER FINAL LAMEDH	
+U+10891	𐢑		NABATAEAN LETTER LAMEDH	
+U+10892	𐢒		NABATAEAN LETTER FINAL MEM	
+U+10893	𐢓		NABATAEAN LETTER MEM	
+U+10894	𐢔		NABATAEAN LETTER FINAL NUN	
+U+10895	𐢕		NABATAEAN LETTER NUN	
+U+10896	𐢖		NABATAEAN LETTER SAMEKH	
+U+10897	𐢗		NABATAEAN LETTER AYIN	
+U+10898	𐢘		NABATAEAN LETTER PE	
+U+10899	𐢙		NABATAEAN LETTER SADHE	
+U+1089A	𐢚		NABATAEAN LETTER QOPH	
+U+1089B	𐢛		NABATAEAN LETTER RESH	
+U+1089C	𐢜		NABATAEAN LETTER FINAL SHIN	
+U+1089D	𐢝		NABATAEAN LETTER SHIN	
+U+1089E	𐢞		NABATAEAN LETTER TAW	
+U+108A7	𐢧		NABATAEAN NUMBER ONE	
+U+108A8	𐢨		NABATAEAN NUMBER TWO	
+U+108A9	𐢩		NABATAEAN NUMBER THREE	
+U+108AA	𐢪		NABATAEAN NUMBER FOUR	
+U+108AB	𐢫		NABATAEAN CRUCIFORM NUMBER FOUR	
+U+108AC	𐢬		NABATAEAN NUMBER FIVE	
+U+108AD	𐢭		NABATAEAN NUMBER TEN	
+U+108AE	𐢮		NABATAEAN NUMBER TWENTY	
+U+108AF	𐢯		NABATAEAN NUMBER ONE HUNDRED	

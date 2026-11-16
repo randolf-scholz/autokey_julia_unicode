@@ -1,129 +1,129 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D00	ᴀ	1D00..1D7F	Phonetic Extensions	Latin letter small capital a		
-U+1D01	ᴁ	1D00..1D7F	Phonetic Extensions	Latin letter small capital ae		
-U+1D02	ᴂ	1D00..1D7F	Phonetic Extensions	Latin small letter turned ae		
-U+1D03	ᴃ	1D00..1D7F	Phonetic Extensions	Latin letter small capital barred b		
-U+1D04	ᴄ	1D00..1D7F	Phonetic Extensions	Latin letter small capital c		
-U+1D05	ᴅ	1D00..1D7F	Phonetic Extensions	Latin letter small capital d		
-U+1D06	ᴆ	1D00..1D7F	Phonetic Extensions	Latin letter small capital eth		
-U+1D07	ᴇ	1D00..1D7F	Phonetic Extensions	Latin letter small capital e		
-U+1D08	ᴈ	1D00..1D7F	Phonetic Extensions	Latin small letter turned open e		
-U+1D09	ᴉ	1D00..1D7F	Phonetic Extensions	Latin small letter turned i		
-U+1D0A	ᴊ	1D00..1D7F	Phonetic Extensions	Latin letter small capital j		
-U+1D0B	ᴋ	1D00..1D7F	Phonetic Extensions	Latin letter small capital k		
-U+1D0C	ᴌ	1D00..1D7F	Phonetic Extensions	Latin letter small capital l with stroke		
-U+1D0D	ᴍ	1D00..1D7F	Phonetic Extensions	Latin letter small capital m		
-U+1D0E	ᴎ	1D00..1D7F	Phonetic Extensions	Latin letter small capital reversed n		
-U+1D0F	ᴏ	1D00..1D7F	Phonetic Extensions	Latin letter small capital o		
-U+1D10	ᴐ	1D00..1D7F	Phonetic Extensions	Latin letter small capital open o		
-U+1D11	ᴑ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways o		
-U+1D12	ᴒ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways open o		
-U+1D13	ᴓ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways o with stroke		
-U+1D14	ᴔ	1D00..1D7F	Phonetic Extensions	Latin small letter turned oe		
-U+1D15	ᴕ	1D00..1D7F	Phonetic Extensions	Latin letter small capital ou		
-U+1D16	ᴖ	1D00..1D7F	Phonetic Extensions	Latin small letter top half o		
-U+1D17	ᴗ	1D00..1D7F	Phonetic Extensions	Latin small letter bottom half o		
-U+1D18	ᴘ	1D00..1D7F	Phonetic Extensions	Latin letter small capital p		
-U+1D19	ᴙ	1D00..1D7F	Phonetic Extensions	Latin letter small capital reversed r		
-U+1D1A	ᴚ	1D00..1D7F	Phonetic Extensions	Latin letter small capital turned r		
-U+1D1B	ᴛ	1D00..1D7F	Phonetic Extensions	Latin letter small capital t		
-U+1D1C	ᴜ	1D00..1D7F	Phonetic Extensions	Latin letter small capital u		
-U+1D1D	ᴝ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways u		
-U+1D1E	ᴞ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways diaeresized u		
-U+1D1F	ᴟ	1D00..1D7F	Phonetic Extensions	Latin small letter sideways turned m		
-U+1D20	ᴠ	1D00..1D7F	Phonetic Extensions	Latin letter small capital v		
-U+1D21	ᴡ	1D00..1D7F	Phonetic Extensions	Latin letter small capital w		
-U+1D22	ᴢ	1D00..1D7F	Phonetic Extensions	Latin letter small capital z		
-U+1D23	ᴣ	1D00..1D7F	Phonetic Extensions	Latin letter small capital ezh		
-U+1D24	ᴤ	1D00..1D7F	Phonetic Extensions	Latin letter voiced laryngeal spirant		
-U+1D25	ᴥ	1D00..1D7F	Phonetic Extensions	Latin letter ain		
-U+1D26	ᴦ	1D00..1D7F	Phonetic Extensions	Greek letter small capital gamma		
-U+1D27	ᴧ	1D00..1D7F	Phonetic Extensions	Greek letter small capital lamda		
-U+1D28	ᴨ	1D00..1D7F	Phonetic Extensions	Greek letter small capital pi		
-U+1D29	ᴩ	1D00..1D7F	Phonetic Extensions	Greek letter small capital rho		
-U+1D2A	ᴪ	1D00..1D7F	Phonetic Extensions	Greek letter small capital psi		
-U+1D2B	ᴫ	1D00..1D7F	Phonetic Extensions	Cyrillic letter small capital el		
-U+1D2C	ᴬ	1D00..1D7F	Phonetic Extensions	Modifier letter capital a		
-U+1D2D	ᴭ	1D00..1D7F	Phonetic Extensions	Modifier letter capital ae		
-U+1D2E	ᴮ	1D00..1D7F	Phonetic Extensions	Modifier letter capital b		
-U+1D2F	ᴯ	1D00..1D7F	Phonetic Extensions	Modifier letter capital barred b		
-U+1D30	ᴰ	1D00..1D7F	Phonetic Extensions	Modifier letter capital d		
-U+1D31	ᴱ	1D00..1D7F	Phonetic Extensions	Modifier letter capital e		
-U+1D32	ᴲ	1D00..1D7F	Phonetic Extensions	Modifier letter capital reversed e		
-U+1D33	ᴳ	1D00..1D7F	Phonetic Extensions	Modifier letter capital g		
-U+1D34	ᴴ	1D00..1D7F	Phonetic Extensions	Modifier letter capital h		
-U+1D35	ᴵ	1D00..1D7F	Phonetic Extensions	Modifier letter capital i		
-U+1D36	ᴶ	1D00..1D7F	Phonetic Extensions	Modifier letter capital j		
-U+1D37	ᴷ	1D00..1D7F	Phonetic Extensions	Modifier letter capital k		
-U+1D38	ᴸ	1D00..1D7F	Phonetic Extensions	Modifier letter capital l		
-U+1D39	ᴹ	1D00..1D7F	Phonetic Extensions	Modifier letter capital m		
-U+1D3A	ᴺ	1D00..1D7F	Phonetic Extensions	Modifier letter capital n		
-U+1D3B	ᴻ	1D00..1D7F	Phonetic Extensions	Modifier letter capital reversed n		
-U+1D3C	ᴼ	1D00..1D7F	Phonetic Extensions	Modifier letter capital o		
-U+1D3D	ᴽ	1D00..1D7F	Phonetic Extensions	Modifier letter capital ou		
-U+1D3E	ᴾ	1D00..1D7F	Phonetic Extensions	Modifier letter capital p		
-U+1D3F	ᴿ	1D00..1D7F	Phonetic Extensions	Modifier letter capital r		
-U+1D40	ᵀ	1D00..1D7F	Phonetic Extensions	Modifier letter capital t		
-U+1D41	ᵁ	1D00..1D7F	Phonetic Extensions	Modifier letter capital u		
-U+1D42	ᵂ	1D00..1D7F	Phonetic Extensions	Modifier letter capital w		
-U+1D43	ᵃ	1D00..1D7F	Phonetic Extensions	Modifier letter small a		
-U+1D44	ᵄ	1D00..1D7F	Phonetic Extensions	Modifier letter small turned a		
-U+1D45	ᵅ	1D00..1D7F	Phonetic Extensions	Modifier letter small alpha		
-U+1D46	ᵆ	1D00..1D7F	Phonetic Extensions	Modifier letter small turned ae		
-U+1D47	ᵇ	1D00..1D7F	Phonetic Extensions	Modifier letter small b		
-U+1D48	ᵈ	1D00..1D7F	Phonetic Extensions	Modifier letter small d		
-U+1D49	ᵉ	1D00..1D7F	Phonetic Extensions	Modifier letter small e		
-U+1D4A	ᵊ	1D00..1D7F	Phonetic Extensions	Modifier letter small schwa		
-U+1D4B	ᵋ	1D00..1D7F	Phonetic Extensions	Modifier letter small open e		
-U+1D4C	ᵌ	1D00..1D7F	Phonetic Extensions	Modifier letter small turned open e		
-U+1D4D	ᵍ	1D00..1D7F	Phonetic Extensions	Modifier letter small g		
-U+1D4E	ᵎ	1D00..1D7F	Phonetic Extensions	Modifier letter small turned i		
-U+1D4F	ᵏ	1D00..1D7F	Phonetic Extensions	Modifier letter small k		
-U+1D50	ᵐ	1D00..1D7F	Phonetic Extensions	Modifier letter small m		
-U+1D51	ᵑ	1D00..1D7F	Phonetic Extensions	Modifier letter small eng		
-U+1D52	ᵒ	1D00..1D7F	Phonetic Extensions	Modifier letter small o		
-U+1D53	ᵓ	1D00..1D7F	Phonetic Extensions	Modifier letter small open o		
-U+1D54	ᵔ	1D00..1D7F	Phonetic Extensions	Modifier letter small top half o		
-U+1D55	ᵕ	1D00..1D7F	Phonetic Extensions	Modifier letter small bottom half o		
-U+1D56	ᵖ	1D00..1D7F	Phonetic Extensions	Modifier letter small p		
-U+1D57	ᵗ	1D00..1D7F	Phonetic Extensions	Modifier letter small t		
-U+1D58	ᵘ	1D00..1D7F	Phonetic Extensions	Modifier letter small u		
-U+1D59	ᵙ	1D00..1D7F	Phonetic Extensions	Modifier letter small sideways u		
-U+1D5A	ᵚ	1D00..1D7F	Phonetic Extensions	Modifier letter small turned m		
-U+1D5B	ᵛ	1D00..1D7F	Phonetic Extensions	Modifier letter small v		
-U+1D5C	ᵜ	1D00..1D7F	Phonetic Extensions	Modifier letter small ain		
-U+1D5D	ᵝ	1D00..1D7F	Phonetic Extensions	Modifier letter small beta		
-U+1D5E	ᵞ	1D00..1D7F	Phonetic Extensions	Modifier letter small greek gamma		
-U+1D5F	ᵟ	1D00..1D7F	Phonetic Extensions	Modifier letter small delta		
-U+1D60	ᵠ	1D00..1D7F	Phonetic Extensions	Modifier letter small greek phi		
-U+1D61	ᵡ	1D00..1D7F	Phonetic Extensions	Modifier letter small chi		
-U+1D62	ᵢ	1D00..1D7F	Phonetic Extensions	Latin subscript small letter i		
-U+1D63	ᵣ	1D00..1D7F	Phonetic Extensions	Latin subscript small letter r		
-U+1D64	ᵤ	1D00..1D7F	Phonetic Extensions	Latin subscript small letter u		
-U+1D65	ᵥ	1D00..1D7F	Phonetic Extensions	Latin subscript small letter v		
-U+1D66	ᵦ	1D00..1D7F	Phonetic Extensions	Greek subscript small letter beta		
-U+1D67	ᵧ	1D00..1D7F	Phonetic Extensions	Greek subscript small letter gamma		
-U+1D68	ᵨ	1D00..1D7F	Phonetic Extensions	Greek subscript small letter rho		
-U+1D69	ᵩ	1D00..1D7F	Phonetic Extensions	Greek subscript small letter phi		
-U+1D6A	ᵪ	1D00..1D7F	Phonetic Extensions	Greek subscript small letter chi		
-U+1D6B	ᵫ	1D00..1D7F	Phonetic Extensions	Latin small letter ue		
-U+1D6C	ᵬ	1D00..1D7F	Phonetic Extensions	Latin small letter b with middle tilde		
-U+1D6D	ᵭ	1D00..1D7F	Phonetic Extensions	Latin small letter d with middle tilde		
-U+1D6E	ᵮ	1D00..1D7F	Phonetic Extensions	Latin small letter f with middle tilde		
-U+1D6F	ᵯ	1D00..1D7F	Phonetic Extensions	Latin small letter m with middle tilde		
-U+1D70	ᵰ	1D00..1D7F	Phonetic Extensions	Latin small letter n with middle tilde		
-U+1D71	ᵱ	1D00..1D7F	Phonetic Extensions	Latin small letter p with middle tilde		
-U+1D72	ᵲ	1D00..1D7F	Phonetic Extensions	Latin small letter r with middle tilde		
-U+1D73	ᵳ	1D00..1D7F	Phonetic Extensions	Latin small letter r with fishhook and middle tilde		
-U+1D74	ᵴ	1D00..1D7F	Phonetic Extensions	Latin small letter s with middle tilde		
-U+1D75	ᵵ	1D00..1D7F	Phonetic Extensions	Latin small letter t with middle tilde		
-U+1D76	ᵶ	1D00..1D7F	Phonetic Extensions	Latin small letter z with middle tilde		
-U+1D77	ᵷ	1D00..1D7F	Phonetic Extensions	Latin small letter turned g		
-U+1D78	ᵸ	1D00..1D7F	Phonetic Extensions	Modifier letter cyrillic en		
-U+1D79	ᵹ	1D00..1D7F	Phonetic Extensions	Latin small letter insular g		
-U+1D7A	ᵺ	1D00..1D7F	Phonetic Extensions	Latin small letter th with strikethrough		
-U+1D7B	ᵻ	1D00..1D7F	Phonetic Extensions	Latin small capital letter i with stroke		
-U+1D7C	ᵼ	1D00..1D7F	Phonetic Extensions	Latin small letter iota with stroke		
-U+1D7D	ᵽ	1D00..1D7F	Phonetic Extensions	Latin small letter p with stroke		
-U+1D7E	ᵾ	1D00..1D7F	Phonetic Extensions	Latin small capital letter u with stroke		
-U+1D7F	ᵿ	1D00..1D7F	Phonetic Extensions	Latin small letter upsilon with stroke		
+code_points	chars	tab_completions	unicode_name	base
+U+1D00	ᴀ		LATIN LETTER SMALL CAPITAL A	
+U+1D01	ᴁ		LATIN LETTER SMALL CAPITAL AE	
+U+1D02	ᴂ		LATIN SMALL LETTER TURNED AE	
+U+1D03	ᴃ		LATIN LETTER SMALL CAPITAL BARRED B	
+U+1D04	ᴄ		LATIN LETTER SMALL CAPITAL C	
+U+1D05	ᴅ		LATIN LETTER SMALL CAPITAL D	
+U+1D06	ᴆ		LATIN LETTER SMALL CAPITAL ETH	
+U+1D07	ᴇ		LATIN LETTER SMALL CAPITAL E	
+U+1D08	ᴈ		LATIN SMALL LETTER TURNED OPEN E	
+U+1D09	ᴉ		LATIN SMALL LETTER TURNED I	
+U+1D0A	ᴊ		LATIN LETTER SMALL CAPITAL J	
+U+1D0B	ᴋ		LATIN LETTER SMALL CAPITAL K	
+U+1D0C	ᴌ		LATIN LETTER SMALL CAPITAL L WITH STROKE	
+U+1D0D	ᴍ		LATIN LETTER SMALL CAPITAL M	
+U+1D0E	ᴎ		LATIN LETTER SMALL CAPITAL REVERSED N	
+U+1D0F	ᴏ		LATIN LETTER SMALL CAPITAL O	
+U+1D10	ᴐ		LATIN LETTER SMALL CAPITAL OPEN O	
+U+1D11	ᴑ		LATIN SMALL LETTER SIDEWAYS O	
+U+1D12	ᴒ		LATIN SMALL LETTER SIDEWAYS OPEN O	
+U+1D13	ᴓ		LATIN SMALL LETTER SIDEWAYS O WITH STROKE	
+U+1D14	ᴔ		LATIN SMALL LETTER TURNED OE	
+U+1D15	ᴕ		LATIN LETTER SMALL CAPITAL OU	
+U+1D16	ᴖ		LATIN SMALL LETTER TOP HALF O	
+U+1D17	ᴗ		LATIN SMALL LETTER BOTTOM HALF O	
+U+1D18	ᴘ		LATIN LETTER SMALL CAPITAL P	
+U+1D19	ᴙ		LATIN LETTER SMALL CAPITAL REVERSED R	
+U+1D1A	ᴚ		LATIN LETTER SMALL CAPITAL TURNED R	
+U+1D1B	ᴛ		LATIN LETTER SMALL CAPITAL T	
+U+1D1C	ᴜ		LATIN LETTER SMALL CAPITAL U	
+U+1D1D	ᴝ		LATIN SMALL LETTER SIDEWAYS U	
+U+1D1E	ᴞ		LATIN SMALL LETTER SIDEWAYS DIAERESIZED U	
+U+1D1F	ᴟ		LATIN SMALL LETTER SIDEWAYS TURNED M	
+U+1D20	ᴠ		LATIN LETTER SMALL CAPITAL V	
+U+1D21	ᴡ		LATIN LETTER SMALL CAPITAL W	
+U+1D22	ᴢ		LATIN LETTER SMALL CAPITAL Z	
+U+1D23	ᴣ		LATIN LETTER SMALL CAPITAL EZH	
+U+1D24	ᴤ		LATIN LETTER VOICED LARYNGEAL SPIRANT	
+U+1D25	ᴥ		LATIN LETTER AIN	
+U+1D26	ᴦ		GREEK LETTER SMALL CAPITAL GAMMA	
+U+1D27	ᴧ		GREEK LETTER SMALL CAPITAL LAMDA	
+U+1D28	ᴨ		GREEK LETTER SMALL CAPITAL PI	
+U+1D29	ᴩ		GREEK LETTER SMALL CAPITAL RHO	
+U+1D2A	ᴪ		GREEK LETTER SMALL CAPITAL PSI	
+U+1D2B	ᴫ		CYRILLIC LETTER SMALL CAPITAL EL	
+U+1D2C	ᴬ		MODIFIER LETTER CAPITAL A	
+U+1D2D	ᴭ		MODIFIER LETTER CAPITAL AE	
+U+1D2E	ᴮ		MODIFIER LETTER CAPITAL B	
+U+1D2F	ᴯ		MODIFIER LETTER CAPITAL BARRED B	
+U+1D30	ᴰ		MODIFIER LETTER CAPITAL D	
+U+1D31	ᴱ		MODIFIER LETTER CAPITAL E	
+U+1D32	ᴲ		MODIFIER LETTER CAPITAL REVERSED E	
+U+1D33	ᴳ		MODIFIER LETTER CAPITAL G	
+U+1D34	ᴴ		MODIFIER LETTER CAPITAL H	
+U+1D35	ᴵ		MODIFIER LETTER CAPITAL I	
+U+1D36	ᴶ		MODIFIER LETTER CAPITAL J	
+U+1D37	ᴷ		MODIFIER LETTER CAPITAL K	
+U+1D38	ᴸ		MODIFIER LETTER CAPITAL L	
+U+1D39	ᴹ		MODIFIER LETTER CAPITAL M	
+U+1D3A	ᴺ		MODIFIER LETTER CAPITAL N	
+U+1D3B	ᴻ		MODIFIER LETTER CAPITAL REVERSED N	
+U+1D3C	ᴼ		MODIFIER LETTER CAPITAL O	
+U+1D3D	ᴽ		MODIFIER LETTER CAPITAL OU	
+U+1D3E	ᴾ		MODIFIER LETTER CAPITAL P	
+U+1D3F	ᴿ		MODIFIER LETTER CAPITAL R	
+U+1D40	ᵀ		MODIFIER LETTER CAPITAL T	
+U+1D41	ᵁ		MODIFIER LETTER CAPITAL U	
+U+1D42	ᵂ		MODIFIER LETTER CAPITAL W	
+U+1D43	ᵃ		MODIFIER LETTER SMALL A	
+U+1D44	ᵄ		MODIFIER LETTER SMALL TURNED A	
+U+1D45	ᵅ		MODIFIER LETTER SMALL ALPHA	
+U+1D46	ᵆ		MODIFIER LETTER SMALL TURNED AE	
+U+1D47	ᵇ		MODIFIER LETTER SMALL B	
+U+1D48	ᵈ		MODIFIER LETTER SMALL D	
+U+1D49	ᵉ		MODIFIER LETTER SMALL E	
+U+1D4A	ᵊ		MODIFIER LETTER SMALL SCHWA	
+U+1D4B	ᵋ		MODIFIER LETTER SMALL OPEN E	
+U+1D4C	ᵌ		MODIFIER LETTER SMALL TURNED OPEN E	
+U+1D4D	ᵍ		MODIFIER LETTER SMALL G	
+U+1D4E	ᵎ		MODIFIER LETTER SMALL TURNED I	
+U+1D4F	ᵏ		MODIFIER LETTER SMALL K	
+U+1D50	ᵐ		MODIFIER LETTER SMALL M	
+U+1D51	ᵑ		MODIFIER LETTER SMALL ENG	
+U+1D52	ᵒ		MODIFIER LETTER SMALL O	
+U+1D53	ᵓ		MODIFIER LETTER SMALL OPEN O	
+U+1D54	ᵔ		MODIFIER LETTER SMALL TOP HALF O	
+U+1D55	ᵕ		MODIFIER LETTER SMALL BOTTOM HALF O	
+U+1D56	ᵖ		MODIFIER LETTER SMALL P	
+U+1D57	ᵗ		MODIFIER LETTER SMALL T	
+U+1D58	ᵘ		MODIFIER LETTER SMALL U	
+U+1D59	ᵙ		MODIFIER LETTER SMALL SIDEWAYS U	
+U+1D5A	ᵚ		MODIFIER LETTER SMALL TURNED M	
+U+1D5B	ᵛ		MODIFIER LETTER SMALL V	
+U+1D5C	ᵜ		MODIFIER LETTER SMALL AIN	
+U+1D5D	ᵝ		MODIFIER LETTER SMALL BETA	
+U+1D5E	ᵞ		MODIFIER LETTER SMALL GREEK GAMMA	
+U+1D5F	ᵟ		MODIFIER LETTER SMALL DELTA	
+U+1D60	ᵠ		MODIFIER LETTER SMALL GREEK PHI	
+U+1D61	ᵡ		MODIFIER LETTER SMALL CHI	
+U+1D62	ᵢ		LATIN SUBSCRIPT SMALL LETTER I	
+U+1D63	ᵣ		LATIN SUBSCRIPT SMALL LETTER R	
+U+1D64	ᵤ		LATIN SUBSCRIPT SMALL LETTER U	
+U+1D65	ᵥ		LATIN SUBSCRIPT SMALL LETTER V	
+U+1D66	ᵦ		GREEK SUBSCRIPT SMALL LETTER BETA	
+U+1D67	ᵧ		GREEK SUBSCRIPT SMALL LETTER GAMMA	
+U+1D68	ᵨ		GREEK SUBSCRIPT SMALL LETTER RHO	
+U+1D69	ᵩ		GREEK SUBSCRIPT SMALL LETTER PHI	
+U+1D6A	ᵪ		GREEK SUBSCRIPT SMALL LETTER CHI	
+U+1D6B	ᵫ		LATIN SMALL LETTER UE	
+U+1D6C	ᵬ		LATIN SMALL LETTER B WITH MIDDLE TILDE	
+U+1D6D	ᵭ		LATIN SMALL LETTER D WITH MIDDLE TILDE	
+U+1D6E	ᵮ		LATIN SMALL LETTER F WITH MIDDLE TILDE	
+U+1D6F	ᵯ		LATIN SMALL LETTER M WITH MIDDLE TILDE	
+U+1D70	ᵰ		LATIN SMALL LETTER N WITH MIDDLE TILDE	
+U+1D71	ᵱ		LATIN SMALL LETTER P WITH MIDDLE TILDE	
+U+1D72	ᵲ		LATIN SMALL LETTER R WITH MIDDLE TILDE	
+U+1D73	ᵳ		LATIN SMALL LETTER R WITH FISHHOOK AND MIDDLE TILDE	
+U+1D74	ᵴ		LATIN SMALL LETTER S WITH MIDDLE TILDE	
+U+1D75	ᵵ		LATIN SMALL LETTER T WITH MIDDLE TILDE	
+U+1D76	ᵶ		LATIN SMALL LETTER Z WITH MIDDLE TILDE	
+U+1D77	ᵷ		LATIN SMALL LETTER TURNED G	
+U+1D78	ᵸ		MODIFIER LETTER CYRILLIC EN	
+U+1D79	ᵹ		LATIN SMALL LETTER INSULAR G	
+U+1D7A	ᵺ		LATIN SMALL LETTER TH WITH STRIKETHROUGH	
+U+1D7B	ᵻ		LATIN SMALL CAPITAL LETTER I WITH STROKE	
+U+1D7C	ᵼ		LATIN SMALL LETTER IOTA WITH STROKE	
+U+1D7D	ᵽ		LATIN SMALL LETTER P WITH STROKE	
+U+1D7E	ᵾ		LATIN SMALL CAPITAL LETTER U WITH STROKE	
+U+1D7F	ᵿ		LATIN SMALL LETTER UPSILON WITH STROKE	

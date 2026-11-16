@@ -1,1073 +1,1073 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+13000	𓀀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a001		
-U+13001	𓀁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a002		
-U+13002	𓀂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a003		
-U+13003	𓀃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a004		
-U+13004	𓀄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a005		
-U+13005	𓀅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a005a		
-U+13006	𓀆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a006		
-U+13007	𓀇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a006a		
-U+13008	𓀈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a006b		
-U+13009	𓀉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a007		
-U+1300A	𓀊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a008		
-U+1300B	𓀋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a009		
-U+1300C	𓀌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a010		
-U+1300D	𓀍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a011		
-U+1300E	𓀎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a012		
-U+1300F	𓀏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a013		
-U+13010	𓀐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a014		
-U+13011	𓀑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a014a		
-U+13012	𓀒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a015		
-U+13013	𓀓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a016		
-U+13014	𓀔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a017		
-U+13015	𓀕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a017a		
-U+13016	𓀖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a018		
-U+13017	𓀗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a019		
-U+13018	𓀘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a020		
-U+13019	𓀙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a021		
-U+1301A	𓀚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a022		
-U+1301B	𓀛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a023		
-U+1301C	𓀜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a024		
-U+1301D	𓀝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a025		
-U+1301E	𓀞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a026		
-U+1301F	𓀟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a027		
-U+13020	𓀠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a028		
-U+13021	𓀡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a029		
-U+13022	𓀢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a030		
-U+13023	𓀣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a031		
-U+13024	𓀤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a032		
-U+13025	𓀥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a032a		
-U+13026	𓀦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a033		
-U+13027	𓀧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a034		
-U+13028	𓀨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a035		
-U+13029	𓀩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a036		
-U+1302A	𓀪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a037		
-U+1302B	𓀫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a038		
-U+1302C	𓀬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a039		
-U+1302D	𓀭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a040		
-U+1302E	𓀮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a040a		
-U+1302F	𓀯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a041		
-U+13030	𓀰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a042		
-U+13031	𓀱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a042a		
-U+13032	𓀲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a043		
-U+13033	𓀳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a043a		
-U+13034	𓀴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a044		
-U+13035	𓀵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a045		
-U+13036	𓀶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a045a		
-U+13037	𓀷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a046		
-U+13038	𓀸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a047		
-U+13039	𓀹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a048		
-U+1303A	𓀺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a049		
-U+1303B	𓀻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a050		
-U+1303C	𓀼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a051		
-U+1303D	𓀽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a052		
-U+1303E	𓀾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a053		
-U+1303F	𓀿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a054		
-U+13040	𓁀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a055		
-U+13041	𓁁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a056		
-U+13042	𓁂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a057		
-U+13043	𓁃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a058		
-U+13044	𓁄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a059		
-U+13045	𓁅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a060		
-U+13046	𓁆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a061		
-U+13047	𓁇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a062		
-U+13048	𓁈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a063		
-U+13049	𓁉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a064		
-U+1304A	𓁊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a065		
-U+1304B	𓁋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a066		
-U+1304C	𓁌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a067		
-U+1304D	𓁍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a068		
-U+1304E	𓁎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a069		
-U+1304F	𓁏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph a070		
-U+13050	𓁐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b001		
-U+13051	𓁑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b002		
-U+13052	𓁒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b003		
-U+13053	𓁓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b004		
-U+13054	𓁔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b005		
-U+13055	𓁕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b005a		
-U+13056	𓁖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b006		
-U+13057	𓁗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b007		
-U+13058	𓁘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b008		
-U+13059	𓁙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph b009		
-U+1305A	𓁚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c001		
-U+1305B	𓁛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c002		
-U+1305C	𓁜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c002a		
-U+1305D	𓁝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c002b		
-U+1305E	𓁞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c002c		
-U+1305F	𓁟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c003		
-U+13060	𓁠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c004		
-U+13061	𓁡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c005		
-U+13062	𓁢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c006		
-U+13063	𓁣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c007		
-U+13064	𓁤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c008		
-U+13065	𓁥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c009		
-U+13066	𓁦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c010		
-U+13067	𓁧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c010a		
-U+13068	𓁨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c011		
-U+13069	𓁩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c012		
-U+1306A	𓁪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c013		
-U+1306B	𓁫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c014		
-U+1306C	𓁬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c015		
-U+1306D	𓁭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c016		
-U+1306E	𓁮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c017		
-U+1306F	𓁯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c018		
-U+13070	𓁰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c019		
-U+13071	𓁱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c020		
-U+13072	𓁲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c021		
-U+13073	𓁳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c022		
-U+13074	𓁴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c023		
-U+13075	𓁵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph c024		
-U+13076	𓁶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d001		
-U+13077	𓁷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d002		
-U+13078	𓁸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d003		
-U+13079	𓁹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d004		
-U+1307A	𓁺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d005		
-U+1307B	𓁻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d006		
-U+1307C	𓁼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d007		
-U+1307D	𓁽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d008		
-U+1307E	𓁾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d008a		
-U+1307F	𓁿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d009		
-U+13080	𓂀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d010		
-U+13081	𓂁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d011		
-U+13082	𓂂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d012		
-U+13083	𓂃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d013		
-U+13084	𓂄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d014		
-U+13085	𓂅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d015		
-U+13086	𓂆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d016		
-U+13087	𓂇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d017		
-U+13088	𓂈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d018		
-U+13089	𓂉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d019		
-U+1308A	𓂊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d020		
-U+1308B	𓂋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d021		
-U+1308C	𓂌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d022		
-U+1308D	𓂍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d023		
-U+1308E	𓂎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d024		
-U+1308F	𓂏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d025		
-U+13090	𓂐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d026		
-U+13091	𓂑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d027		
-U+13092	𓂒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d027a		
-U+13093	𓂓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d028		
-U+13094	𓂔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d029		
-U+13095	𓂕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d030		
-U+13096	𓂖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d031		
-U+13097	𓂗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d031a		
-U+13098	𓂘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d032		
-U+13099	𓂙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d033		
-U+1309A	𓂚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d034		
-U+1309B	𓂛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d034a		
-U+1309C	𓂜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d035		
-U+1309D	𓂝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d036		
-U+1309E	𓂞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d037		
-U+1309F	𓂟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d038		
-U+130A0	𓂠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d039		
-U+130A1	𓂡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d040		
-U+130A2	𓂢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d041		
-U+130A3	𓂣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d042		
-U+130A4	𓂤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d043		
-U+130A5	𓂥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d044		
-U+130A6	𓂦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d045		
-U+130A7	𓂧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d046		
-U+130A8	𓂨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d046a		
-U+130A9	𓂩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d047		
-U+130AA	𓂪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d048		
-U+130AB	𓂫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d048a		
-U+130AC	𓂬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d049		
-U+130AD	𓂭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050		
-U+130AE	𓂮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050a		
-U+130AF	𓂯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050b		
-U+130B0	𓂰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050c		
-U+130B1	𓂱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050d		
-U+130B2	𓂲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050e		
-U+130B3	𓂳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050f		
-U+130B4	𓂴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050g		
-U+130B5	𓂵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050h		
-U+130B6	𓂶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d050i		
-U+130B7	𓂷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d051		
-U+130B8	𓂸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d052		
-U+130B9	𓂹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d052a		
-U+130BA	𓂺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d053		
-U+130BB	𓂻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d054		
-U+130BC	𓂼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d054a		
-U+130BD	𓂽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d055		
-U+130BE	𓂾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d056		
-U+130BF	𓂿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d057		
-U+130C0	𓃀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d058		
-U+130C1	𓃁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d059		
-U+130C2	𓃂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d060		
-U+130C3	𓃃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d061		
-U+130C4	𓃄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d062		
-U+130C5	𓃅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d063		
-U+130C6	𓃆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d064		
-U+130C7	𓃇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d065		
-U+130C8	𓃈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d066		
-U+130C9	𓃉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067		
-U+130CA	𓃊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067a		
-U+130CB	𓃋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067b		
-U+130CC	𓃌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067c		
-U+130CD	𓃍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067d		
-U+130CE	𓃎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067e		
-U+130CF	𓃏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067f		
-U+130D0	𓃐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067g		
-U+130D1	𓃑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph d067h		
-U+130D2	𓃒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e001		
-U+130D3	𓃓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e002		
-U+130D4	𓃔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e003		
-U+130D5	𓃕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e004		
-U+130D6	𓃖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e005		
-U+130D7	𓃗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e006		
-U+130D8	𓃘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e007		
-U+130D9	𓃙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e008		
-U+130DA	𓃚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e008a		
-U+130DB	𓃛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e009		
-U+130DC	𓃜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e009a		
-U+130DD	𓃝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e010		
-U+130DE	𓃞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e011		
-U+130DF	𓃟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e012		
-U+130E0	𓃠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e013		
-U+130E1	𓃡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e014		
-U+130E2	𓃢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e015		
-U+130E3	𓃣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e016		
-U+130E4	𓃤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e016a		
-U+130E5	𓃥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e017		
-U+130E6	𓃦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e017a		
-U+130E7	𓃧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e018		
-U+130E8	𓃨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e019		
-U+130E9	𓃩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e020		
-U+130EA	𓃪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e020a		
-U+130EB	𓃫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e021		
-U+130EC	𓃬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e022		
-U+130ED	𓃭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e023		
-U+130EE	𓃮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e024		
-U+130EF	𓃯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e025		
-U+130F0	𓃰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e026		
-U+130F1	𓃱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e027		
-U+130F2	𓃲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e028		
-U+130F3	𓃳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e028a		
-U+130F4	𓃴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e029		
-U+130F5	𓃵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e030		
-U+130F6	𓃶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e031		
-U+130F7	𓃷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e032		
-U+130F8	𓃸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e033		
-U+130F9	𓃹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e034		
-U+130FA	𓃺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e034a		
-U+130FB	𓃻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e036		
-U+130FC	𓃼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e037		
-U+130FD	𓃽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph e038		
-U+130FE	𓃾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f001		
-U+130FF	𓃿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f001a		
-U+13100	𓄀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f002		
-U+13101	𓄁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f003		
-U+13102	𓄂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f004		
-U+13103	𓄃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f005		
-U+13104	𓄄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f006		
-U+13105	𓄅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f007		
-U+13106	𓄆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f008		
-U+13107	𓄇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f009		
-U+13108	𓄈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f010		
-U+13109	𓄉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f011		
-U+1310A	𓄊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f012		
-U+1310B	𓄋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f013		
-U+1310C	𓄌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f013a		
-U+1310D	𓄍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f014		
-U+1310E	𓄎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f015		
-U+1310F	𓄏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f016		
-U+13110	𓄐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f017		
-U+13111	𓄑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f018		
-U+13112	𓄒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f019		
-U+13113	𓄓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f020		
-U+13114	𓄔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f021		
-U+13115	𓄕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f021a		
-U+13116	𓄖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f022		
-U+13117	𓄗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f023		
-U+13118	𓄘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f024		
-U+13119	𓄙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f025		
-U+1311A	𓄚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f026		
-U+1311B	𓄛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f027		
-U+1311C	𓄜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f028		
-U+1311D	𓄝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f029		
-U+1311E	𓄞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f030		
-U+1311F	𓄟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f031		
-U+13120	𓄠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f031a		
-U+13121	𓄡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f032		
-U+13122	𓄢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f033		
-U+13123	𓄣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f034		
-U+13124	𓄤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f035		
-U+13125	𓄥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f036		
-U+13126	𓄦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f037		
-U+13127	𓄧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f037a		
-U+13128	𓄨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f038		
-U+13129	𓄩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f038a		
-U+1312A	𓄪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f039		
-U+1312B	𓄫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f040		
-U+1312C	𓄬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f041		
-U+1312D	𓄭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f042		
-U+1312E	𓄮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f043		
-U+1312F	𓄯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f044		
-U+13130	𓄰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f045		
-U+13131	𓄱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f045a		
-U+13132	𓄲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f046		
-U+13133	𓄳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f046a		
-U+13134	𓄴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f047		
-U+13135	𓄵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f047a		
-U+13136	𓄶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f048		
-U+13137	𓄷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f049		
-U+13138	𓄸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f050		
-U+13139	𓄹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f051		
-U+1313A	𓄺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f051a		
-U+1313B	𓄻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f051b		
-U+1313C	𓄼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f051c		
-U+1313D	𓄽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f052		
-U+1313E	𓄾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph f053		
-U+1313F	𓄿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g001		
-U+13140	𓅀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g002		
-U+13141	𓅁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g003		
-U+13142	𓅂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g004		
-U+13143	𓅃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g005		
-U+13144	𓅄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g006		
-U+13145	𓅅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g006a		
-U+13146	𓅆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g007		
-U+13147	𓅇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g007a		
-U+13148	𓅈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g007b		
-U+13149	𓅉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g008		
-U+1314A	𓅊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g009		
-U+1314B	𓅋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g010		
-U+1314C	𓅌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g011		
-U+1314D	𓅍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g011a		
-U+1314E	𓅎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g012		
-U+1314F	𓅏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g013		
-U+13150	𓅐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g014		
-U+13151	𓅑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g015		
-U+13152	𓅒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g016		
-U+13153	𓅓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g017		
-U+13154	𓅔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g018		
-U+13155	𓅕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g019		
-U+13156	𓅖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g020		
-U+13157	𓅗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g020a		
-U+13158	𓅘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g021		
-U+13159	𓅙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g022		
-U+1315A	𓅚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g023		
-U+1315B	𓅛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g024		
-U+1315C	𓅜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g025		
-U+1315D	𓅝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g026		
-U+1315E	𓅞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g026a		
-U+1315F	𓅟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g027		
-U+13160	𓅠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g028		
-U+13161	𓅡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g029		
-U+13162	𓅢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g030		
-U+13163	𓅣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g031		
-U+13164	𓅤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g032		
-U+13165	𓅥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g033		
-U+13166	𓅦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g034		
-U+13167	𓅧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g035		
-U+13168	𓅨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g036		
-U+13169	𓅩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g036a		
-U+1316A	𓅪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g037		
-U+1316B	𓅫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g037a		
-U+1316C	𓅬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g038		
-U+1316D	𓅭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g039		
-U+1316E	𓅮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g040		
-U+1316F	𓅯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g041		
-U+13170	𓅰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g042		
-U+13171	𓅱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g043		
-U+13172	𓅲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g043a		
-U+13173	𓅳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g044		
-U+13174	𓅴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g045		
-U+13175	𓅵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g045a		
-U+13176	𓅶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g046		
-U+13177	𓅷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g047		
-U+13178	𓅸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g048		
-U+13179	𓅹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g049		
-U+1317A	𓅺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g050		
-U+1317B	𓅻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g051		
-U+1317C	𓅼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g052		
-U+1317D	𓅽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g053		
-U+1317E	𓅾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph g054		
-U+1317F	𓅿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h001		
-U+13180	𓆀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h002		
-U+13181	𓆁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h003		
-U+13182	𓆂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h004		
-U+13183	𓆃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h005		
-U+13184	𓆄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h006		
-U+13185	𓆅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h006a		
-U+13186	𓆆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h007		
-U+13187	𓆇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph h008		
-U+13188	𓆈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i001		
-U+13189	𓆉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i002		
-U+1318A	𓆊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i003		
-U+1318B	𓆋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i004		
-U+1318C	𓆌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i005		
-U+1318D	𓆍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i005a		
-U+1318E	𓆎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i006		
-U+1318F	𓆏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i007		
-U+13190	𓆐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i008		
-U+13191	𓆑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i009		
-U+13192	𓆒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i009a		
-U+13193	𓆓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i010		
-U+13194	𓆔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i010a		
-U+13195	𓆕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i011		
-U+13196	𓆖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i011a		
-U+13197	𓆗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i012		
-U+13198	𓆘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i013		
-U+13199	𓆙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i014		
-U+1319A	𓆚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph i015		
-U+1319B	𓆛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k001		
-U+1319C	𓆜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k002		
-U+1319D	𓆝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k003		
-U+1319E	𓆞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k004		
-U+1319F	𓆟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k005		
-U+131A0	𓆠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k006		
-U+131A1	𓆡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k007		
-U+131A2	𓆢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph k008		
-U+131A3	𓆣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l001		
-U+131A4	𓆤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l002		
-U+131A5	𓆥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l002a		
-U+131A6	𓆦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l003		
-U+131A7	𓆧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l004		
-U+131A8	𓆨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l005		
-U+131A9	𓆩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l006		
-U+131AA	𓆪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l006a		
-U+131AB	𓆫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l007		
-U+131AC	𓆬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph l008		
-U+131AD	𓆭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m001		
-U+131AE	𓆮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m001a		
-U+131AF	𓆯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m001b		
-U+131B0	𓆰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m002		
-U+131B1	𓆱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m003		
-U+131B2	𓆲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m003a		
-U+131B3	𓆳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m004		
-U+131B4	𓆴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m005		
-U+131B5	𓆵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m006		
-U+131B6	𓆶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m007		
-U+131B7	𓆷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m008		
-U+131B8	𓆸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m009		
-U+131B9	𓆹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m010		
-U+131BA	𓆺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m010a		
-U+131BB	𓆻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m011		
-U+131BC	𓆼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012		
-U+131BD	𓆽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012a		
-U+131BE	𓆾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012b		
-U+131BF	𓆿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012c		
-U+131C0	𓇀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012d		
-U+131C1	𓇁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012e		
-U+131C2	𓇂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012f		
-U+131C3	𓇃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012g		
-U+131C4	𓇄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m012h		
-U+131C5	𓇅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m013		
-U+131C6	𓇆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m014		
-U+131C7	𓇇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m015		
-U+131C8	𓇈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m015a		
-U+131C9	𓇉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m016		
-U+131CA	𓇊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m016a		
-U+131CB	𓇋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m017		
-U+131CC	𓇌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m017a		
-U+131CD	𓇍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m018		
-U+131CE	𓇎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m019		
-U+131CF	𓇏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m020		
-U+131D0	𓇐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m021		
-U+131D1	𓇑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m022		
-U+131D2	𓇒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m022a		
-U+131D3	𓇓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m023		
-U+131D4	𓇔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m024		
-U+131D5	𓇕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m024a		
-U+131D6	𓇖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m025		
-U+131D7	𓇗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m026		
-U+131D8	𓇘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m027		
-U+131D9	𓇙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m028		
-U+131DA	𓇚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m028a		
-U+131DB	𓇛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m029		
-U+131DC	𓇜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m030		
-U+131DD	𓇝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m031		
-U+131DE	𓇞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m031a		
-U+131DF	𓇟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m032		
-U+131E0	𓇠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m033		
-U+131E1	𓇡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m033a		
-U+131E2	𓇢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m033b		
-U+131E3	𓇣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m034		
-U+131E4	𓇤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m035		
-U+131E5	𓇥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m036		
-U+131E6	𓇦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m037		
-U+131E7	𓇧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m038		
-U+131E8	𓇨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m039		
-U+131E9	𓇩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m040		
-U+131EA	𓇪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m040a		
-U+131EB	𓇫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m041		
-U+131EC	𓇬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m042		
-U+131ED	𓇭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m043		
-U+131EE	𓇮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph m044		
-U+131EF	𓇯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n001		
-U+131F0	𓇰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n002		
-U+131F1	𓇱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n003		
-U+131F2	𓇲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n004		
-U+131F3	𓇳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n005		
-U+131F4	𓇴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n006		
-U+131F5	𓇵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n007		
-U+131F6	𓇶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n008		
-U+131F7	𓇷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n009		
-U+131F8	𓇸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n010		
-U+131F9	𓇹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n011		
-U+131FA	𓇺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n012		
-U+131FB	𓇻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n013		
-U+131FC	𓇼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n014		
-U+131FD	𓇽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n015		
-U+131FE	𓇾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n016		
-U+131FF	𓇿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n017		
-U+13200	𓈀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n018		
-U+13201	𓈁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n018a		
-U+13202	𓈂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n018b		
-U+13203	𓈃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n019		
-U+13204	𓈄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n020		
-U+13205	𓈅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n021		
-U+13206	𓈆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n022		
-U+13207	𓈇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n023		
-U+13208	𓈈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n024		
-U+13209	𓈉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n025		
-U+1320A	𓈊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n025a		
-U+1320B	𓈋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n026		
-U+1320C	𓈌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n027		
-U+1320D	𓈍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n028		
-U+1320E	𓈎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n029		
-U+1320F	𓈏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n030		
-U+13210	𓈐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n031		
-U+13211	𓈑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n032		
-U+13212	𓈒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n033		
-U+13213	𓈓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n033a		
-U+13214	𓈔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n034		
-U+13215	𓈕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n034a		
-U+13216	𓈖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n035		
-U+13217	𓈗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n035a		
-U+13218	𓈘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n036		
-U+13219	𓈙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n037		
-U+1321A	𓈚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n037a		
-U+1321B	𓈛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n038		
-U+1321C	𓈜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n039		
-U+1321D	𓈝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n040		
-U+1321E	𓈞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n041		
-U+1321F	𓈟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph n042		
-U+13220	𓈠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl001		
-U+13221	𓈡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl002		
-U+13222	𓈢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl003		
-U+13223	𓈣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl004		
-U+13224	𓈤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl005		
-U+13225	𓈥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl005a		
-U+13226	𓈦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl006		
-U+13227	𓈧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl007		
-U+13228	𓈨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl008		
-U+13229	𓈩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl009		
-U+1322A	𓈪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl010		
-U+1322B	𓈫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl011		
-U+1322C	𓈬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl012		
-U+1322D	𓈭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl013		
-U+1322E	𓈮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl014		
-U+1322F	𓈯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl015		
-U+13230	𓈰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl016		
-U+13231	𓈱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl017		
-U+13232	𓈲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl017a		
-U+13233	𓈳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl018		
-U+13234	𓈴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl019		
-U+13235	𓈵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nl020		
-U+13236	𓈶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu001		
-U+13237	𓈷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu002		
-U+13238	𓈸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu003		
-U+13239	𓈹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu004		
-U+1323A	𓈺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu005		
-U+1323B	𓈻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu006		
-U+1323C	𓈼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu007		
-U+1323D	𓈽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu008		
-U+1323E	𓈾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu009		
-U+1323F	𓈿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu010		
-U+13240	𓉀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu010a		
-U+13241	𓉁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu011		
-U+13242	𓉂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu011a		
-U+13243	𓉃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu012		
-U+13244	𓉄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu013		
-U+13245	𓉅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu014		
-U+13246	𓉆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu015		
-U+13247	𓉇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu016		
-U+13248	𓉈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu017		
-U+13249	𓉉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu018		
-U+1324A	𓉊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu018a		
-U+1324B	𓉋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu019		
-U+1324C	𓉌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu020		
-U+1324D	𓉍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu021		
-U+1324E	𓉎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu022		
-U+1324F	𓉏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph nu022a		
-U+13250	𓉐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o001		
-U+13251	𓉑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o001a		
-U+13252	𓉒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o002		
-U+13253	𓉓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o003		
-U+13254	𓉔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o004		
-U+13255	𓉕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o005		
-U+13256	𓉖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o005a		
-U+13257	𓉗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006		
-U+13258	𓉘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006a		
-U+13259	𓉙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006b		
-U+1325A	𓉚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006c		
-U+1325B	𓉛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006d		
-U+1325C	𓉜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006e		
-U+1325D	𓉝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o006f		
-U+1325E	𓉞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o007		
-U+1325F	𓉟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o008		
-U+13260	𓉠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o009		
-U+13261	𓉡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o010		
-U+13262	𓉢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o010a		
-U+13263	𓉣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o010b		
-U+13264	𓉤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o010c		
-U+13265	𓉥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o011		
-U+13266	𓉦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o012		
-U+13267	𓉧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o013		
-U+13268	𓉨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o014		
-U+13269	𓉩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o015		
-U+1326A	𓉪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o016		
-U+1326B	𓉫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o017		
-U+1326C	𓉬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o018		
-U+1326D	𓉭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o019		
-U+1326E	𓉮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o019a		
-U+1326F	𓉯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o020		
-U+13270	𓉰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o020a		
-U+13271	𓉱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o021		
-U+13272	𓉲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o022		
-U+13273	𓉳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o023		
-U+13274	𓉴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o024		
-U+13275	𓉵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o024a		
-U+13276	𓉶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o025		
-U+13277	𓉷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o025a		
-U+13278	𓉸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o026		
-U+13279	𓉹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o027		
-U+1327A	𓉺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o028		
-U+1327B	𓉻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o029		
-U+1327C	𓉼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o029a		
-U+1327D	𓉽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o030		
-U+1327E	𓉾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o030a		
-U+1327F	𓉿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o031		
-U+13280	𓊀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o032		
-U+13281	𓊁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o033		
-U+13282	𓊂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o033a		
-U+13283	𓊃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o034		
-U+13284	𓊄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o035		
-U+13285	𓊅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o036		
-U+13286	𓊆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o036a		
-U+13287	𓊇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o036b		
-U+13288	𓊈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o036c		
-U+13289	𓊉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o036d		
-U+1328A	𓊊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o037		
-U+1328B	𓊋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o038		
-U+1328C	𓊌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o039		
-U+1328D	𓊍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o040		
-U+1328E	𓊎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o041		
-U+1328F	𓊏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o042		
-U+13290	𓊐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o043		
-U+13291	𓊑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o044		
-U+13292	𓊒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o045		
-U+13293	𓊓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o046		
-U+13294	𓊔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o047		
-U+13295	𓊕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o048		
-U+13296	𓊖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o049		
-U+13297	𓊗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o050		
-U+13298	𓊘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o050a		
-U+13299	𓊙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o050b		
-U+1329A	𓊚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph o051		
-U+1329B	𓊛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p001		
-U+1329C	𓊜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p001a		
-U+1329D	𓊝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p002		
-U+1329E	𓊞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p003		
-U+1329F	𓊟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p003a		
-U+132A0	𓊠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p004		
-U+132A1	𓊡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p005		
-U+132A2	𓊢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p006		
-U+132A3	𓊣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p007		
-U+132A4	𓊤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p008		
-U+132A5	𓊥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p009		
-U+132A6	𓊦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p010		
-U+132A7	𓊧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph p011		
-U+132A8	𓊨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q001		
-U+132A9	𓊩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q002		
-U+132AA	𓊪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q003		
-U+132AB	𓊫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q004		
-U+132AC	𓊬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q005		
-U+132AD	𓊭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q006		
-U+132AE	𓊮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph q007		
-U+132AF	𓊯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r001		
-U+132B0	𓊰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r002		
-U+132B1	𓊱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r002a		
-U+132B2	𓊲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r003		
-U+132B3	𓊳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r003a		
-U+132B4	𓊴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r003b		
-U+132B5	𓊵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r004		
-U+132B6	𓊶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r005		
-U+132B7	𓊷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r006		
-U+132B8	𓊸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r007		
-U+132B9	𓊹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r008		
-U+132BA	𓊺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r009		
-U+132BB	𓊻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r010		
-U+132BC	𓊼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r010a		
-U+132BD	𓊽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r011		
-U+132BE	𓊾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r012		
-U+132BF	𓊿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r013		
-U+132C0	𓋀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r014		
-U+132C1	𓋁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r015		
-U+132C2	𓋂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r016		
-U+132C3	𓋃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r016a		
-U+132C4	𓋄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r017		
-U+132C5	𓋅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r018		
-U+132C6	𓋆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r019		
-U+132C7	𓋇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r020		
-U+132C8	𓋈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r021		
-U+132C9	𓋉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r022		
-U+132CA	𓋊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r023		
-U+132CB	𓋋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r024		
-U+132CC	𓋌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r025		
-U+132CD	𓋍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r026		
-U+132CE	𓋎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r027		
-U+132CF	𓋏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r028		
-U+132D0	𓋐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph r029		
-U+132D1	𓋑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s001		
-U+132D2	𓋒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s002		
-U+132D3	𓋓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s002a		
-U+132D4	𓋔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s003		
-U+132D5	𓋕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s004		
-U+132D6	𓋖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s005		
-U+132D7	𓋗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s006		
-U+132D8	𓋘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s006a		
-U+132D9	𓋙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s007		
-U+132DA	𓋚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s008		
-U+132DB	𓋛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s009		
-U+132DC	𓋜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s010		
-U+132DD	𓋝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s011		
-U+132DE	𓋞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s012		
-U+132DF	𓋟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s013		
-U+132E0	𓋠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s014		
-U+132E1	𓋡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s014a		
-U+132E2	𓋢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s014b		
-U+132E3	𓋣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s015		
-U+132E4	𓋤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s016		
-U+132E5	𓋥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s017		
-U+132E6	𓋦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s017a		
-U+132E7	𓋧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s018		
-U+132E8	𓋨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s019		
-U+132E9	𓋩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s020		
-U+132EA	𓋪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s021		
-U+132EB	𓋫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s022		
-U+132EC	𓋬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s023		
-U+132ED	𓋭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s024		
-U+132EE	𓋮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s025		
-U+132EF	𓋯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s026		
-U+132F0	𓋰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s026a		
-U+132F1	𓋱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s026b		
-U+132F2	𓋲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s027		
-U+132F3	𓋳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s028		
-U+132F4	𓋴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s029		
-U+132F5	𓋵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s030		
-U+132F6	𓋶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s031		
-U+132F7	𓋷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s032		
-U+132F8	𓋸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s033		
-U+132F9	𓋹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s034		
-U+132FA	𓋺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s035		
-U+132FB	𓋻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s035a		
-U+132FC	𓋼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s036		
-U+132FD	𓋽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s037		
-U+132FE	𓋾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s038		
-U+132FF	𓋿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s039		
-U+13300	𓌀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s040		
-U+13301	𓌁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s041		
-U+13302	𓌂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s042		
-U+13303	𓌃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s043		
-U+13304	𓌄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s044		
-U+13305	𓌅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s045		
-U+13306	𓌆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph s046		
-U+13307	𓌇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t001		
-U+13308	𓌈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t002		
-U+13309	𓌉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t003		
-U+1330A	𓌊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t003a		
-U+1330B	𓌋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t004		
-U+1330C	𓌌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t005		
-U+1330D	𓌍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t006		
-U+1330E	𓌎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t007		
-U+1330F	𓌏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t007a		
-U+13310	𓌐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t008		
-U+13311	𓌑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t008a		
-U+13312	𓌒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t009		
-U+13313	𓌓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t009a		
-U+13314	𓌔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t010		
-U+13315	𓌕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t011		
-U+13316	𓌖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t011a		
-U+13317	𓌗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t012		
-U+13318	𓌘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t013		
-U+13319	𓌙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t014		
-U+1331A	𓌚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t015		
-U+1331B	𓌛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t016		
-U+1331C	𓌜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t016a		
-U+1331D	𓌝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t017		
-U+1331E	𓌞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t018		
-U+1331F	𓌟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t019		
-U+13320	𓌠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t020		
-U+13321	𓌡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t021		
-U+13322	𓌢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t022		
-U+13323	𓌣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t023		
-U+13324	𓌤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t024		
-U+13325	𓌥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t025		
-U+13326	𓌦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t026		
-U+13327	𓌧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t027		
-U+13328	𓌨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t028		
-U+13329	𓌩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t029		
-U+1332A	𓌪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t030		
-U+1332B	𓌫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t031		
-U+1332C	𓌬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t032		
-U+1332D	𓌭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t032a		
-U+1332E	𓌮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t033		
-U+1332F	𓌯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t033a		
-U+13330	𓌰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t034		
-U+13331	𓌱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t035		
-U+13332	𓌲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph t036		
-U+13333	𓌳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u001		
-U+13334	𓌴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u002		
-U+13335	𓌵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u003		
-U+13336	𓌶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u004		
-U+13337	𓌷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u005		
-U+13338	𓌸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u006		
-U+13339	𓌹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u006a		
-U+1333A	𓌺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u006b		
-U+1333B	𓌻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u007		
-U+1333C	𓌼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u008		
-U+1333D	𓌽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u009		
-U+1333E	𓌾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u010		
-U+1333F	𓌿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u011		
-U+13340	𓍀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u012		
-U+13341	𓍁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u013		
-U+13342	𓍂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u014		
-U+13343	𓍃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u015		
-U+13344	𓍄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u016		
-U+13345	𓍅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u017		
-U+13346	𓍆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u018		
-U+13347	𓍇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u019		
-U+13348	𓍈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u020		
-U+13349	𓍉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u021		
-U+1334A	𓍊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u022		
-U+1334B	𓍋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u023		
-U+1334C	𓍌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u023a		
-U+1334D	𓍍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u024		
-U+1334E	𓍎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u025		
-U+1334F	𓍏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u026		
-U+13350	𓍐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u027		
-U+13351	𓍑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u028		
-U+13352	𓍒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u029		
-U+13353	𓍓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u029a		
-U+13354	𓍔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u030		
-U+13355	𓍕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u031		
-U+13356	𓍖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u032		
-U+13357	𓍗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u032a		
-U+13358	𓍘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u033		
-U+13359	𓍙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u034		
-U+1335A	𓍚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u035		
-U+1335B	𓍛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u036		
-U+1335C	𓍜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u037		
-U+1335D	𓍝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u038		
-U+1335E	𓍞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u039		
-U+1335F	𓍟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u040		
-U+13360	𓍠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u041		
-U+13361	𓍡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph u042		
-U+13362	𓍢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001		
-U+13363	𓍣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001a		
-U+13364	𓍤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001b		
-U+13365	𓍥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001c		
-U+13366	𓍦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001d		
-U+13367	𓍧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001e		
-U+13368	𓍨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001f		
-U+13369	𓍩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001g		
-U+1336A	𓍪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001h		
-U+1336B	𓍫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v001i		
-U+1336C	𓍬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v002		
-U+1336D	𓍭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v002a		
-U+1336E	𓍮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v003		
-U+1336F	𓍯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v004		
-U+13370	𓍰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v005		
-U+13371	𓍱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v006		
-U+13372	𓍲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v007		
-U+13373	𓍳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v007a		
-U+13374	𓍴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v007b		
-U+13375	𓍵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v008		
-U+13376	𓍶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v009		
-U+13377	𓍷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v010		
-U+13378	𓍸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v011		
-U+13379	𓍹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v011a		
-U+1337A	𓍺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v011b		
-U+1337B	𓍻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v011c		
-U+1337C	𓍼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v012		
-U+1337D	𓍽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v012a		
-U+1337E	𓍾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v012b		
-U+1337F	𓍿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v013		
-U+13380	𓎀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v014		
-U+13381	𓎁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v015		
-U+13382	𓎂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v016		
-U+13383	𓎃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v017		
-U+13384	𓎄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v018		
-U+13385	𓎅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v019		
-U+13386	𓎆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020		
-U+13387	𓎇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020a		
-U+13388	𓎈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020b		
-U+13389	𓎉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020c		
-U+1338A	𓎊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020d		
-U+1338B	𓎋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020e		
-U+1338C	𓎌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020f		
-U+1338D	𓎍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020g		
-U+1338E	𓎎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020h		
-U+1338F	𓎏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020i		
-U+13390	𓎐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020j		
-U+13391	𓎑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020k		
-U+13392	𓎒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v020l		
-U+13393	𓎓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v021		
-U+13394	𓎔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v022		
-U+13395	𓎕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v023		
-U+13396	𓎖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v023a		
-U+13397	𓎗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v024		
-U+13398	𓎘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v025		
-U+13399	𓎙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v026		
-U+1339A	𓎚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v027		
-U+1339B	𓎛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v028		
-U+1339C	𓎜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v028a		
-U+1339D	𓎝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v029		
-U+1339E	𓎞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v029a		
-U+1339F	𓎟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v030		
-U+133A0	𓎠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v030a		
-U+133A1	𓎡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v031		
-U+133A2	𓎢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v031a		
-U+133A3	𓎣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v032		
-U+133A4	𓎤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v033		
-U+133A5	𓎥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v033a		
-U+133A6	𓎦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v034		
-U+133A7	𓎧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v035		
-U+133A8	𓎨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v036		
-U+133A9	𓎩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v037		
-U+133AA	𓎪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v037a		
-U+133AB	𓎫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v038		
-U+133AC	𓎬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v039		
-U+133AD	𓎭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v040		
-U+133AE	𓎮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v040a		
-U+133AF	𓎯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w001		
-U+133B0	𓎰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w002		
-U+133B1	𓎱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w003		
-U+133B2	𓎲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w003a		
-U+133B3	𓎳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w004		
-U+133B4	𓎴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w005		
-U+133B5	𓎵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w006		
-U+133B6	𓎶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w007		
-U+133B7	𓎷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w008		
-U+133B8	𓎸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w009		
-U+133B9	𓎹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w009a		
-U+133BA	𓎺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w010		
-U+133BB	𓎻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w010a		
-U+133BC	𓎼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w011		
-U+133BD	𓎽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w012		
-U+133BE	𓎾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w013		
-U+133BF	𓎿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w014		
-U+133C0	𓏀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w014a		
-U+133C1	𓏁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w015		
-U+133C2	𓏂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w016		
-U+133C3	𓏃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w017		
-U+133C4	𓏄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w017a		
-U+133C5	𓏅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w018		
-U+133C6	𓏆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w018a		
-U+133C7	𓏇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w019		
-U+133C8	𓏈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w020		
-U+133C9	𓏉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w021		
-U+133CA	𓏊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w022		
-U+133CB	𓏋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w023		
-U+133CC	𓏌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w024		
-U+133CD	𓏍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w024a		
-U+133CE	𓏎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph w025		
-U+133CF	𓏏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x001		
-U+133D0	𓏐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x002		
-U+133D1	𓏑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x003		
-U+133D2	𓏒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x004		
-U+133D3	𓏓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x004a		
-U+133D4	𓏔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x004b		
-U+133D5	𓏕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x005		
-U+133D6	𓏖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x006		
-U+133D7	𓏗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x006a		
-U+133D8	𓏘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x007		
-U+133D9	𓏙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x008		
-U+133DA	𓏚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph x008a		
-U+133DB	𓏛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y001		
-U+133DC	𓏜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y001a		
-U+133DD	𓏝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y002		
-U+133DE	𓏞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y003		
-U+133DF	𓏟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y004		
-U+133E0	𓏠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y005		
-U+133E1	𓏡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y006		
-U+133E2	𓏢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y007		
-U+133E3	𓏣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph y008		
-U+133E4	𓏤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z001		
-U+133E5	𓏥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z002		
-U+133E6	𓏦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z002a		
-U+133E7	𓏧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z002b		
-U+133E8	𓏨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z002c		
-U+133E9	𓏩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z002d		
-U+133EA	𓏪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z003		
-U+133EB	𓏫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z003a		
-U+133EC	𓏬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z003b		
-U+133ED	𓏭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z004		
-U+133EE	𓏮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z004a		
-U+133EF	𓏯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z005		
-U+133F0	𓏰	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z005a		
-U+133F1	𓏱	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z006		
-U+133F2	𓏲	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z007		
-U+133F3	𓏳	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z008		
-U+133F4	𓏴	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z009		
-U+133F5	𓏵	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z010		
-U+133F6	𓏶	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z011		
-U+133F7	𓏷	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z012		
-U+133F8	𓏸	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z013		
-U+133F9	𓏹	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z014		
-U+133FA	𓏺	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015		
-U+133FB	𓏻	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015a		
-U+133FC	𓏼	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015b		
-U+133FD	𓏽	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015c		
-U+133FE	𓏾	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015d		
-U+133FF	𓏿	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015e		
-U+13400	𓐀	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015f		
-U+13401	𓐁	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015g		
-U+13402	𓐂	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015h		
-U+13403	𓐃	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z015i		
-U+13404	𓐄	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016		
-U+13405	𓐅	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016a		
-U+13406	𓐆	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016b		
-U+13407	𓐇	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016c		
-U+13408	𓐈	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016d		
-U+13409	𓐉	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016e		
-U+1340A	𓐊	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016f		
-U+1340B	𓐋	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016g		
-U+1340C	𓐌	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph z016h		
-U+1340D	𓐍	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa001		
-U+1340E	𓐎	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa002		
-U+1340F	𓐏	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa003		
-U+13410	𓐐	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa004		
-U+13411	𓐑	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa005		
-U+13412	𓐒	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa006		
-U+13413	𓐓	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa007		
-U+13414	𓐔	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa007a		
-U+13415	𓐕	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa007b		
-U+13416	𓐖	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa008		
-U+13417	𓐗	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa009		
-U+13418	𓐘	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa010		
-U+13419	𓐙	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa011		
-U+1341A	𓐚	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa012		
-U+1341B	𓐛	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa013		
-U+1341C	𓐜	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa014		
-U+1341D	𓐝	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa015		
-U+1341E	𓐞	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa016		
-U+1341F	𓐟	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa017		
-U+13420	𓐠	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa018		
-U+13421	𓐡	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa019		
-U+13422	𓐢	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa020		
-U+13423	𓐣	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa021		
-U+13424	𓐤	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa022		
-U+13425	𓐥	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa023		
-U+13426	𓐦	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa024		
-U+13427	𓐧	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa025		
-U+13428	𓐨	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa026		
-U+13429	𓐩	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa027		
-U+1342A	𓐪	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa028		
-U+1342B	𓐫	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa029		
-U+1342C	𓐬	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa030		
-U+1342D	𓐭	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa031		
-U+1342E	𓐮	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph aa032		
-U+1342F	𓐯	13000..1342F	Egyptian Hieroglyphs	Egyptian hieroglyph v011d		
+code_points	chars	tab_completions	unicode_name	base
+U+13000	𓀀		EGYPTIAN HIEROGLYPH A001	
+U+13001	𓀁		EGYPTIAN HIEROGLYPH A002	
+U+13002	𓀂		EGYPTIAN HIEROGLYPH A003	
+U+13003	𓀃		EGYPTIAN HIEROGLYPH A004	
+U+13004	𓀄		EGYPTIAN HIEROGLYPH A005	
+U+13005	𓀅		EGYPTIAN HIEROGLYPH A005A	
+U+13006	𓀆		EGYPTIAN HIEROGLYPH A006	
+U+13007	𓀇		EGYPTIAN HIEROGLYPH A006A	
+U+13008	𓀈		EGYPTIAN HIEROGLYPH A006B	
+U+13009	𓀉		EGYPTIAN HIEROGLYPH A007	
+U+1300A	𓀊		EGYPTIAN HIEROGLYPH A008	
+U+1300B	𓀋		EGYPTIAN HIEROGLYPH A009	
+U+1300C	𓀌		EGYPTIAN HIEROGLYPH A010	
+U+1300D	𓀍		EGYPTIAN HIEROGLYPH A011	
+U+1300E	𓀎		EGYPTIAN HIEROGLYPH A012	
+U+1300F	𓀏		EGYPTIAN HIEROGLYPH A013	
+U+13010	𓀐		EGYPTIAN HIEROGLYPH A014	
+U+13011	𓀑		EGYPTIAN HIEROGLYPH A014A	
+U+13012	𓀒		EGYPTIAN HIEROGLYPH A015	
+U+13013	𓀓		EGYPTIAN HIEROGLYPH A016	
+U+13014	𓀔		EGYPTIAN HIEROGLYPH A017	
+U+13015	𓀕		EGYPTIAN HIEROGLYPH A017A	
+U+13016	𓀖		EGYPTIAN HIEROGLYPH A018	
+U+13017	𓀗		EGYPTIAN HIEROGLYPH A019	
+U+13018	𓀘		EGYPTIAN HIEROGLYPH A020	
+U+13019	𓀙		EGYPTIAN HIEROGLYPH A021	
+U+1301A	𓀚		EGYPTIAN HIEROGLYPH A022	
+U+1301B	𓀛		EGYPTIAN HIEROGLYPH A023	
+U+1301C	𓀜		EGYPTIAN HIEROGLYPH A024	
+U+1301D	𓀝		EGYPTIAN HIEROGLYPH A025	
+U+1301E	𓀞		EGYPTIAN HIEROGLYPH A026	
+U+1301F	𓀟		EGYPTIAN HIEROGLYPH A027	
+U+13020	𓀠		EGYPTIAN HIEROGLYPH A028	
+U+13021	𓀡		EGYPTIAN HIEROGLYPH A029	
+U+13022	𓀢		EGYPTIAN HIEROGLYPH A030	
+U+13023	𓀣		EGYPTIAN HIEROGLYPH A031	
+U+13024	𓀤		EGYPTIAN HIEROGLYPH A032	
+U+13025	𓀥		EGYPTIAN HIEROGLYPH A032A	
+U+13026	𓀦		EGYPTIAN HIEROGLYPH A033	
+U+13027	𓀧		EGYPTIAN HIEROGLYPH A034	
+U+13028	𓀨		EGYPTIAN HIEROGLYPH A035	
+U+13029	𓀩		EGYPTIAN HIEROGLYPH A036	
+U+1302A	𓀪		EGYPTIAN HIEROGLYPH A037	
+U+1302B	𓀫		EGYPTIAN HIEROGLYPH A038	
+U+1302C	𓀬		EGYPTIAN HIEROGLYPH A039	
+U+1302D	𓀭		EGYPTIAN HIEROGLYPH A040	
+U+1302E	𓀮		EGYPTIAN HIEROGLYPH A040A	
+U+1302F	𓀯		EGYPTIAN HIEROGLYPH A041	
+U+13030	𓀰		EGYPTIAN HIEROGLYPH A042	
+U+13031	𓀱		EGYPTIAN HIEROGLYPH A042A	
+U+13032	𓀲		EGYPTIAN HIEROGLYPH A043	
+U+13033	𓀳		EGYPTIAN HIEROGLYPH A043A	
+U+13034	𓀴		EGYPTIAN HIEROGLYPH A044	
+U+13035	𓀵		EGYPTIAN HIEROGLYPH A045	
+U+13036	𓀶		EGYPTIAN HIEROGLYPH A045A	
+U+13037	𓀷		EGYPTIAN HIEROGLYPH A046	
+U+13038	𓀸		EGYPTIAN HIEROGLYPH A047	
+U+13039	𓀹		EGYPTIAN HIEROGLYPH A048	
+U+1303A	𓀺		EGYPTIAN HIEROGLYPH A049	
+U+1303B	𓀻		EGYPTIAN HIEROGLYPH A050	
+U+1303C	𓀼		EGYPTIAN HIEROGLYPH A051	
+U+1303D	𓀽		EGYPTIAN HIEROGLYPH A052	
+U+1303E	𓀾		EGYPTIAN HIEROGLYPH A053	
+U+1303F	𓀿		EGYPTIAN HIEROGLYPH A054	
+U+13040	𓁀		EGYPTIAN HIEROGLYPH A055	
+U+13041	𓁁		EGYPTIAN HIEROGLYPH A056	
+U+13042	𓁂		EGYPTIAN HIEROGLYPH A057	
+U+13043	𓁃		EGYPTIAN HIEROGLYPH A058	
+U+13044	𓁄		EGYPTIAN HIEROGLYPH A059	
+U+13045	𓁅		EGYPTIAN HIEROGLYPH A060	
+U+13046	𓁆		EGYPTIAN HIEROGLYPH A061	
+U+13047	𓁇		EGYPTIAN HIEROGLYPH A062	
+U+13048	𓁈		EGYPTIAN HIEROGLYPH A063	
+U+13049	𓁉		EGYPTIAN HIEROGLYPH A064	
+U+1304A	𓁊		EGYPTIAN HIEROGLYPH A065	
+U+1304B	𓁋		EGYPTIAN HIEROGLYPH A066	
+U+1304C	𓁌		EGYPTIAN HIEROGLYPH A067	
+U+1304D	𓁍		EGYPTIAN HIEROGLYPH A068	
+U+1304E	𓁎		EGYPTIAN HIEROGLYPH A069	
+U+1304F	𓁏		EGYPTIAN HIEROGLYPH A070	
+U+13050	𓁐		EGYPTIAN HIEROGLYPH B001	
+U+13051	𓁑		EGYPTIAN HIEROGLYPH B002	
+U+13052	𓁒		EGYPTIAN HIEROGLYPH B003	
+U+13053	𓁓		EGYPTIAN HIEROGLYPH B004	
+U+13054	𓁔		EGYPTIAN HIEROGLYPH B005	
+U+13055	𓁕		EGYPTIAN HIEROGLYPH B005A	
+U+13056	𓁖		EGYPTIAN HIEROGLYPH B006	
+U+13057	𓁗		EGYPTIAN HIEROGLYPH B007	
+U+13058	𓁘		EGYPTIAN HIEROGLYPH B008	
+U+13059	𓁙		EGYPTIAN HIEROGLYPH B009	
+U+1305A	𓁚		EGYPTIAN HIEROGLYPH C001	
+U+1305B	𓁛		EGYPTIAN HIEROGLYPH C002	
+U+1305C	𓁜		EGYPTIAN HIEROGLYPH C002A	
+U+1305D	𓁝		EGYPTIAN HIEROGLYPH C002B	
+U+1305E	𓁞		EGYPTIAN HIEROGLYPH C002C	
+U+1305F	𓁟		EGYPTIAN HIEROGLYPH C003	
+U+13060	𓁠		EGYPTIAN HIEROGLYPH C004	
+U+13061	𓁡		EGYPTIAN HIEROGLYPH C005	
+U+13062	𓁢		EGYPTIAN HIEROGLYPH C006	
+U+13063	𓁣		EGYPTIAN HIEROGLYPH C007	
+U+13064	𓁤		EGYPTIAN HIEROGLYPH C008	
+U+13065	𓁥		EGYPTIAN HIEROGLYPH C009	
+U+13066	𓁦		EGYPTIAN HIEROGLYPH C010	
+U+13067	𓁧		EGYPTIAN HIEROGLYPH C010A	
+U+13068	𓁨		EGYPTIAN HIEROGLYPH C011	
+U+13069	𓁩		EGYPTIAN HIEROGLYPH C012	
+U+1306A	𓁪		EGYPTIAN HIEROGLYPH C013	
+U+1306B	𓁫		EGYPTIAN HIEROGLYPH C014	
+U+1306C	𓁬		EGYPTIAN HIEROGLYPH C015	
+U+1306D	𓁭		EGYPTIAN HIEROGLYPH C016	
+U+1306E	𓁮		EGYPTIAN HIEROGLYPH C017	
+U+1306F	𓁯		EGYPTIAN HIEROGLYPH C018	
+U+13070	𓁰		EGYPTIAN HIEROGLYPH C019	
+U+13071	𓁱		EGYPTIAN HIEROGLYPH C020	
+U+13072	𓁲		EGYPTIAN HIEROGLYPH C021	
+U+13073	𓁳		EGYPTIAN HIEROGLYPH C022	
+U+13074	𓁴		EGYPTIAN HIEROGLYPH C023	
+U+13075	𓁵		EGYPTIAN HIEROGLYPH C024	
+U+13076	𓁶		EGYPTIAN HIEROGLYPH D001	
+U+13077	𓁷		EGYPTIAN HIEROGLYPH D002	
+U+13078	𓁸		EGYPTIAN HIEROGLYPH D003	
+U+13079	𓁹		EGYPTIAN HIEROGLYPH D004	
+U+1307A	𓁺		EGYPTIAN HIEROGLYPH D005	
+U+1307B	𓁻		EGYPTIAN HIEROGLYPH D006	
+U+1307C	𓁼		EGYPTIAN HIEROGLYPH D007	
+U+1307D	𓁽		EGYPTIAN HIEROGLYPH D008	
+U+1307E	𓁾		EGYPTIAN HIEROGLYPH D008A	
+U+1307F	𓁿		EGYPTIAN HIEROGLYPH D009	
+U+13080	𓂀		EGYPTIAN HIEROGLYPH D010	
+U+13081	𓂁		EGYPTIAN HIEROGLYPH D011	
+U+13082	𓂂		EGYPTIAN HIEROGLYPH D012	
+U+13083	𓂃		EGYPTIAN HIEROGLYPH D013	
+U+13084	𓂄		EGYPTIAN HIEROGLYPH D014	
+U+13085	𓂅		EGYPTIAN HIEROGLYPH D015	
+U+13086	𓂆		EGYPTIAN HIEROGLYPH D016	
+U+13087	𓂇		EGYPTIAN HIEROGLYPH D017	
+U+13088	𓂈		EGYPTIAN HIEROGLYPH D018	
+U+13089	𓂉		EGYPTIAN HIEROGLYPH D019	
+U+1308A	𓂊		EGYPTIAN HIEROGLYPH D020	
+U+1308B	𓂋		EGYPTIAN HIEROGLYPH D021	
+U+1308C	𓂌		EGYPTIAN HIEROGLYPH D022	
+U+1308D	𓂍		EGYPTIAN HIEROGLYPH D023	
+U+1308E	𓂎		EGYPTIAN HIEROGLYPH D024	
+U+1308F	𓂏		EGYPTIAN HIEROGLYPH D025	
+U+13090	𓂐		EGYPTIAN HIEROGLYPH D026	
+U+13091	𓂑		EGYPTIAN HIEROGLYPH D027	
+U+13092	𓂒		EGYPTIAN HIEROGLYPH D027A	
+U+13093	𓂓		EGYPTIAN HIEROGLYPH D028	
+U+13094	𓂔		EGYPTIAN HIEROGLYPH D029	
+U+13095	𓂕		EGYPTIAN HIEROGLYPH D030	
+U+13096	𓂖		EGYPTIAN HIEROGLYPH D031	
+U+13097	𓂗		EGYPTIAN HIEROGLYPH D031A	
+U+13098	𓂘		EGYPTIAN HIEROGLYPH D032	
+U+13099	𓂙		EGYPTIAN HIEROGLYPH D033	
+U+1309A	𓂚		EGYPTIAN HIEROGLYPH D034	
+U+1309B	𓂛		EGYPTIAN HIEROGLYPH D034A	
+U+1309C	𓂜		EGYPTIAN HIEROGLYPH D035	
+U+1309D	𓂝		EGYPTIAN HIEROGLYPH D036	
+U+1309E	𓂞		EGYPTIAN HIEROGLYPH D037	
+U+1309F	𓂟		EGYPTIAN HIEROGLYPH D038	
+U+130A0	𓂠		EGYPTIAN HIEROGLYPH D039	
+U+130A1	𓂡		EGYPTIAN HIEROGLYPH D040	
+U+130A2	𓂢		EGYPTIAN HIEROGLYPH D041	
+U+130A3	𓂣		EGYPTIAN HIEROGLYPH D042	
+U+130A4	𓂤		EGYPTIAN HIEROGLYPH D043	
+U+130A5	𓂥		EGYPTIAN HIEROGLYPH D044	
+U+130A6	𓂦		EGYPTIAN HIEROGLYPH D045	
+U+130A7	𓂧		EGYPTIAN HIEROGLYPH D046	
+U+130A8	𓂨		EGYPTIAN HIEROGLYPH D046A	
+U+130A9	𓂩		EGYPTIAN HIEROGLYPH D047	
+U+130AA	𓂪		EGYPTIAN HIEROGLYPH D048	
+U+130AB	𓂫		EGYPTIAN HIEROGLYPH D048A	
+U+130AC	𓂬		EGYPTIAN HIEROGLYPH D049	
+U+130AD	𓂭		EGYPTIAN HIEROGLYPH D050	
+U+130AE	𓂮		EGYPTIAN HIEROGLYPH D050A	
+U+130AF	𓂯		EGYPTIAN HIEROGLYPH D050B	
+U+130B0	𓂰		EGYPTIAN HIEROGLYPH D050C	
+U+130B1	𓂱		EGYPTIAN HIEROGLYPH D050D	
+U+130B2	𓂲		EGYPTIAN HIEROGLYPH D050E	
+U+130B3	𓂳		EGYPTIAN HIEROGLYPH D050F	
+U+130B4	𓂴		EGYPTIAN HIEROGLYPH D050G	
+U+130B5	𓂵		EGYPTIAN HIEROGLYPH D050H	
+U+130B6	𓂶		EGYPTIAN HIEROGLYPH D050I	
+U+130B7	𓂷		EGYPTIAN HIEROGLYPH D051	
+U+130B8	𓂸		EGYPTIAN HIEROGLYPH D052	
+U+130B9	𓂹		EGYPTIAN HIEROGLYPH D052A	
+U+130BA	𓂺		EGYPTIAN HIEROGLYPH D053	
+U+130BB	𓂻		EGYPTIAN HIEROGLYPH D054	
+U+130BC	𓂼		EGYPTIAN HIEROGLYPH D054A	
+U+130BD	𓂽		EGYPTIAN HIEROGLYPH D055	
+U+130BE	𓂾		EGYPTIAN HIEROGLYPH D056	
+U+130BF	𓂿		EGYPTIAN HIEROGLYPH D057	
+U+130C0	𓃀		EGYPTIAN HIEROGLYPH D058	
+U+130C1	𓃁		EGYPTIAN HIEROGLYPH D059	
+U+130C2	𓃂		EGYPTIAN HIEROGLYPH D060	
+U+130C3	𓃃		EGYPTIAN HIEROGLYPH D061	
+U+130C4	𓃄		EGYPTIAN HIEROGLYPH D062	
+U+130C5	𓃅		EGYPTIAN HIEROGLYPH D063	
+U+130C6	𓃆		EGYPTIAN HIEROGLYPH D064	
+U+130C7	𓃇		EGYPTIAN HIEROGLYPH D065	
+U+130C8	𓃈		EGYPTIAN HIEROGLYPH D066	
+U+130C9	𓃉		EGYPTIAN HIEROGLYPH D067	
+U+130CA	𓃊		EGYPTIAN HIEROGLYPH D067A	
+U+130CB	𓃋		EGYPTIAN HIEROGLYPH D067B	
+U+130CC	𓃌		EGYPTIAN HIEROGLYPH D067C	
+U+130CD	𓃍		EGYPTIAN HIEROGLYPH D067D	
+U+130CE	𓃎		EGYPTIAN HIEROGLYPH D067E	
+U+130CF	𓃏		EGYPTIAN HIEROGLYPH D067F	
+U+130D0	𓃐		EGYPTIAN HIEROGLYPH D067G	
+U+130D1	𓃑		EGYPTIAN HIEROGLYPH D067H	
+U+130D2	𓃒		EGYPTIAN HIEROGLYPH E001	
+U+130D3	𓃓		EGYPTIAN HIEROGLYPH E002	
+U+130D4	𓃔		EGYPTIAN HIEROGLYPH E003	
+U+130D5	𓃕		EGYPTIAN HIEROGLYPH E004	
+U+130D6	𓃖		EGYPTIAN HIEROGLYPH E005	
+U+130D7	𓃗		EGYPTIAN HIEROGLYPH E006	
+U+130D8	𓃘		EGYPTIAN HIEROGLYPH E007	
+U+130D9	𓃙		EGYPTIAN HIEROGLYPH E008	
+U+130DA	𓃚		EGYPTIAN HIEROGLYPH E008A	
+U+130DB	𓃛		EGYPTIAN HIEROGLYPH E009	
+U+130DC	𓃜		EGYPTIAN HIEROGLYPH E009A	
+U+130DD	𓃝		EGYPTIAN HIEROGLYPH E010	
+U+130DE	𓃞		EGYPTIAN HIEROGLYPH E011	
+U+130DF	𓃟		EGYPTIAN HIEROGLYPH E012	
+U+130E0	𓃠		EGYPTIAN HIEROGLYPH E013	
+U+130E1	𓃡		EGYPTIAN HIEROGLYPH E014	
+U+130E2	𓃢		EGYPTIAN HIEROGLYPH E015	
+U+130E3	𓃣		EGYPTIAN HIEROGLYPH E016	
+U+130E4	𓃤		EGYPTIAN HIEROGLYPH E016A	
+U+130E5	𓃥		EGYPTIAN HIEROGLYPH E017	
+U+130E6	𓃦		EGYPTIAN HIEROGLYPH E017A	
+U+130E7	𓃧		EGYPTIAN HIEROGLYPH E018	
+U+130E8	𓃨		EGYPTIAN HIEROGLYPH E019	
+U+130E9	𓃩		EGYPTIAN HIEROGLYPH E020	
+U+130EA	𓃪		EGYPTIAN HIEROGLYPH E020A	
+U+130EB	𓃫		EGYPTIAN HIEROGLYPH E021	
+U+130EC	𓃬		EGYPTIAN HIEROGLYPH E022	
+U+130ED	𓃭		EGYPTIAN HIEROGLYPH E023	
+U+130EE	𓃮		EGYPTIAN HIEROGLYPH E024	
+U+130EF	𓃯		EGYPTIAN HIEROGLYPH E025	
+U+130F0	𓃰		EGYPTIAN HIEROGLYPH E026	
+U+130F1	𓃱		EGYPTIAN HIEROGLYPH E027	
+U+130F2	𓃲		EGYPTIAN HIEROGLYPH E028	
+U+130F3	𓃳		EGYPTIAN HIEROGLYPH E028A	
+U+130F4	𓃴		EGYPTIAN HIEROGLYPH E029	
+U+130F5	𓃵		EGYPTIAN HIEROGLYPH E030	
+U+130F6	𓃶		EGYPTIAN HIEROGLYPH E031	
+U+130F7	𓃷		EGYPTIAN HIEROGLYPH E032	
+U+130F8	𓃸		EGYPTIAN HIEROGLYPH E033	
+U+130F9	𓃹		EGYPTIAN HIEROGLYPH E034	
+U+130FA	𓃺		EGYPTIAN HIEROGLYPH E034A	
+U+130FB	𓃻		EGYPTIAN HIEROGLYPH E036	
+U+130FC	𓃼		EGYPTIAN HIEROGLYPH E037	
+U+130FD	𓃽		EGYPTIAN HIEROGLYPH E038	
+U+130FE	𓃾		EGYPTIAN HIEROGLYPH F001	
+U+130FF	𓃿		EGYPTIAN HIEROGLYPH F001A	
+U+13100	𓄀		EGYPTIAN HIEROGLYPH F002	
+U+13101	𓄁		EGYPTIAN HIEROGLYPH F003	
+U+13102	𓄂		EGYPTIAN HIEROGLYPH F004	
+U+13103	𓄃		EGYPTIAN HIEROGLYPH F005	
+U+13104	𓄄		EGYPTIAN HIEROGLYPH F006	
+U+13105	𓄅		EGYPTIAN HIEROGLYPH F007	
+U+13106	𓄆		EGYPTIAN HIEROGLYPH F008	
+U+13107	𓄇		EGYPTIAN HIEROGLYPH F009	
+U+13108	𓄈		EGYPTIAN HIEROGLYPH F010	
+U+13109	𓄉		EGYPTIAN HIEROGLYPH F011	
+U+1310A	𓄊		EGYPTIAN HIEROGLYPH F012	
+U+1310B	𓄋		EGYPTIAN HIEROGLYPH F013	
+U+1310C	𓄌		EGYPTIAN HIEROGLYPH F013A	
+U+1310D	𓄍		EGYPTIAN HIEROGLYPH F014	
+U+1310E	𓄎		EGYPTIAN HIEROGLYPH F015	
+U+1310F	𓄏		EGYPTIAN HIEROGLYPH F016	
+U+13110	𓄐		EGYPTIAN HIEROGLYPH F017	
+U+13111	𓄑		EGYPTIAN HIEROGLYPH F018	
+U+13112	𓄒		EGYPTIAN HIEROGLYPH F019	
+U+13113	𓄓		EGYPTIAN HIEROGLYPH F020	
+U+13114	𓄔		EGYPTIAN HIEROGLYPH F021	
+U+13115	𓄕		EGYPTIAN HIEROGLYPH F021A	
+U+13116	𓄖		EGYPTIAN HIEROGLYPH F022	
+U+13117	𓄗		EGYPTIAN HIEROGLYPH F023	
+U+13118	𓄘		EGYPTIAN HIEROGLYPH F024	
+U+13119	𓄙		EGYPTIAN HIEROGLYPH F025	
+U+1311A	𓄚		EGYPTIAN HIEROGLYPH F026	
+U+1311B	𓄛		EGYPTIAN HIEROGLYPH F027	
+U+1311C	𓄜		EGYPTIAN HIEROGLYPH F028	
+U+1311D	𓄝		EGYPTIAN HIEROGLYPH F029	
+U+1311E	𓄞		EGYPTIAN HIEROGLYPH F030	
+U+1311F	𓄟		EGYPTIAN HIEROGLYPH F031	
+U+13120	𓄠		EGYPTIAN HIEROGLYPH F031A	
+U+13121	𓄡		EGYPTIAN HIEROGLYPH F032	
+U+13122	𓄢		EGYPTIAN HIEROGLYPH F033	
+U+13123	𓄣		EGYPTIAN HIEROGLYPH F034	
+U+13124	𓄤		EGYPTIAN HIEROGLYPH F035	
+U+13125	𓄥		EGYPTIAN HIEROGLYPH F036	
+U+13126	𓄦		EGYPTIAN HIEROGLYPH F037	
+U+13127	𓄧		EGYPTIAN HIEROGLYPH F037A	
+U+13128	𓄨		EGYPTIAN HIEROGLYPH F038	
+U+13129	𓄩		EGYPTIAN HIEROGLYPH F038A	
+U+1312A	𓄪		EGYPTIAN HIEROGLYPH F039	
+U+1312B	𓄫		EGYPTIAN HIEROGLYPH F040	
+U+1312C	𓄬		EGYPTIAN HIEROGLYPH F041	
+U+1312D	𓄭		EGYPTIAN HIEROGLYPH F042	
+U+1312E	𓄮		EGYPTIAN HIEROGLYPH F043	
+U+1312F	𓄯		EGYPTIAN HIEROGLYPH F044	
+U+13130	𓄰		EGYPTIAN HIEROGLYPH F045	
+U+13131	𓄱		EGYPTIAN HIEROGLYPH F045A	
+U+13132	𓄲		EGYPTIAN HIEROGLYPH F046	
+U+13133	𓄳		EGYPTIAN HIEROGLYPH F046A	
+U+13134	𓄴		EGYPTIAN HIEROGLYPH F047	
+U+13135	𓄵		EGYPTIAN HIEROGLYPH F047A	
+U+13136	𓄶		EGYPTIAN HIEROGLYPH F048	
+U+13137	𓄷		EGYPTIAN HIEROGLYPH F049	
+U+13138	𓄸		EGYPTIAN HIEROGLYPH F050	
+U+13139	𓄹		EGYPTIAN HIEROGLYPH F051	
+U+1313A	𓄺		EGYPTIAN HIEROGLYPH F051A	
+U+1313B	𓄻		EGYPTIAN HIEROGLYPH F051B	
+U+1313C	𓄼		EGYPTIAN HIEROGLYPH F051C	
+U+1313D	𓄽		EGYPTIAN HIEROGLYPH F052	
+U+1313E	𓄾		EGYPTIAN HIEROGLYPH F053	
+U+1313F	𓄿		EGYPTIAN HIEROGLYPH G001	
+U+13140	𓅀		EGYPTIAN HIEROGLYPH G002	
+U+13141	𓅁		EGYPTIAN HIEROGLYPH G003	
+U+13142	𓅂		EGYPTIAN HIEROGLYPH G004	
+U+13143	𓅃		EGYPTIAN HIEROGLYPH G005	
+U+13144	𓅄		EGYPTIAN HIEROGLYPH G006	
+U+13145	𓅅		EGYPTIAN HIEROGLYPH G006A	
+U+13146	𓅆		EGYPTIAN HIEROGLYPH G007	
+U+13147	𓅇		EGYPTIAN HIEROGLYPH G007A	
+U+13148	𓅈		EGYPTIAN HIEROGLYPH G007B	
+U+13149	𓅉		EGYPTIAN HIEROGLYPH G008	
+U+1314A	𓅊		EGYPTIAN HIEROGLYPH G009	
+U+1314B	𓅋		EGYPTIAN HIEROGLYPH G010	
+U+1314C	𓅌		EGYPTIAN HIEROGLYPH G011	
+U+1314D	𓅍		EGYPTIAN HIEROGLYPH G011A	
+U+1314E	𓅎		EGYPTIAN HIEROGLYPH G012	
+U+1314F	𓅏		EGYPTIAN HIEROGLYPH G013	
+U+13150	𓅐		EGYPTIAN HIEROGLYPH G014	
+U+13151	𓅑		EGYPTIAN HIEROGLYPH G015	
+U+13152	𓅒		EGYPTIAN HIEROGLYPH G016	
+U+13153	𓅓		EGYPTIAN HIEROGLYPH G017	
+U+13154	𓅔		EGYPTIAN HIEROGLYPH G018	
+U+13155	𓅕		EGYPTIAN HIEROGLYPH G019	
+U+13156	𓅖		EGYPTIAN HIEROGLYPH G020	
+U+13157	𓅗		EGYPTIAN HIEROGLYPH G020A	
+U+13158	𓅘		EGYPTIAN HIEROGLYPH G021	
+U+13159	𓅙		EGYPTIAN HIEROGLYPH G022	
+U+1315A	𓅚		EGYPTIAN HIEROGLYPH G023	
+U+1315B	𓅛		EGYPTIAN HIEROGLYPH G024	
+U+1315C	𓅜		EGYPTIAN HIEROGLYPH G025	
+U+1315D	𓅝		EGYPTIAN HIEROGLYPH G026	
+U+1315E	𓅞		EGYPTIAN HIEROGLYPH G026A	
+U+1315F	𓅟		EGYPTIAN HIEROGLYPH G027	
+U+13160	𓅠		EGYPTIAN HIEROGLYPH G028	
+U+13161	𓅡		EGYPTIAN HIEROGLYPH G029	
+U+13162	𓅢		EGYPTIAN HIEROGLYPH G030	
+U+13163	𓅣		EGYPTIAN HIEROGLYPH G031	
+U+13164	𓅤		EGYPTIAN HIEROGLYPH G032	
+U+13165	𓅥		EGYPTIAN HIEROGLYPH G033	
+U+13166	𓅦		EGYPTIAN HIEROGLYPH G034	
+U+13167	𓅧		EGYPTIAN HIEROGLYPH G035	
+U+13168	𓅨		EGYPTIAN HIEROGLYPH G036	
+U+13169	𓅩		EGYPTIAN HIEROGLYPH G036A	
+U+1316A	𓅪		EGYPTIAN HIEROGLYPH G037	
+U+1316B	𓅫		EGYPTIAN HIEROGLYPH G037A	
+U+1316C	𓅬		EGYPTIAN HIEROGLYPH G038	
+U+1316D	𓅭		EGYPTIAN HIEROGLYPH G039	
+U+1316E	𓅮		EGYPTIAN HIEROGLYPH G040	
+U+1316F	𓅯		EGYPTIAN HIEROGLYPH G041	
+U+13170	𓅰		EGYPTIAN HIEROGLYPH G042	
+U+13171	𓅱		EGYPTIAN HIEROGLYPH G043	
+U+13172	𓅲		EGYPTIAN HIEROGLYPH G043A	
+U+13173	𓅳		EGYPTIAN HIEROGLYPH G044	
+U+13174	𓅴		EGYPTIAN HIEROGLYPH G045	
+U+13175	𓅵		EGYPTIAN HIEROGLYPH G045A	
+U+13176	𓅶		EGYPTIAN HIEROGLYPH G046	
+U+13177	𓅷		EGYPTIAN HIEROGLYPH G047	
+U+13178	𓅸		EGYPTIAN HIEROGLYPH G048	
+U+13179	𓅹		EGYPTIAN HIEROGLYPH G049	
+U+1317A	𓅺		EGYPTIAN HIEROGLYPH G050	
+U+1317B	𓅻		EGYPTIAN HIEROGLYPH G051	
+U+1317C	𓅼		EGYPTIAN HIEROGLYPH G052	
+U+1317D	𓅽		EGYPTIAN HIEROGLYPH G053	
+U+1317E	𓅾		EGYPTIAN HIEROGLYPH G054	
+U+1317F	𓅿		EGYPTIAN HIEROGLYPH H001	
+U+13180	𓆀		EGYPTIAN HIEROGLYPH H002	
+U+13181	𓆁		EGYPTIAN HIEROGLYPH H003	
+U+13182	𓆂		EGYPTIAN HIEROGLYPH H004	
+U+13183	𓆃		EGYPTIAN HIEROGLYPH H005	
+U+13184	𓆄		EGYPTIAN HIEROGLYPH H006	
+U+13185	𓆅		EGYPTIAN HIEROGLYPH H006A	
+U+13186	𓆆		EGYPTIAN HIEROGLYPH H007	
+U+13187	𓆇		EGYPTIAN HIEROGLYPH H008	
+U+13188	𓆈		EGYPTIAN HIEROGLYPH I001	
+U+13189	𓆉		EGYPTIAN HIEROGLYPH I002	
+U+1318A	𓆊		EGYPTIAN HIEROGLYPH I003	
+U+1318B	𓆋		EGYPTIAN HIEROGLYPH I004	
+U+1318C	𓆌		EGYPTIAN HIEROGLYPH I005	
+U+1318D	𓆍		EGYPTIAN HIEROGLYPH I005A	
+U+1318E	𓆎		EGYPTIAN HIEROGLYPH I006	
+U+1318F	𓆏		EGYPTIAN HIEROGLYPH I007	
+U+13190	𓆐		EGYPTIAN HIEROGLYPH I008	
+U+13191	𓆑		EGYPTIAN HIEROGLYPH I009	
+U+13192	𓆒		EGYPTIAN HIEROGLYPH I009A	
+U+13193	𓆓		EGYPTIAN HIEROGLYPH I010	
+U+13194	𓆔		EGYPTIAN HIEROGLYPH I010A	
+U+13195	𓆕		EGYPTIAN HIEROGLYPH I011	
+U+13196	𓆖		EGYPTIAN HIEROGLYPH I011A	
+U+13197	𓆗		EGYPTIAN HIEROGLYPH I012	
+U+13198	𓆘		EGYPTIAN HIEROGLYPH I013	
+U+13199	𓆙		EGYPTIAN HIEROGLYPH I014	
+U+1319A	𓆚		EGYPTIAN HIEROGLYPH I015	
+U+1319B	𓆛		EGYPTIAN HIEROGLYPH K001	
+U+1319C	𓆜		EGYPTIAN HIEROGLYPH K002	
+U+1319D	𓆝		EGYPTIAN HIEROGLYPH K003	
+U+1319E	𓆞		EGYPTIAN HIEROGLYPH K004	
+U+1319F	𓆟		EGYPTIAN HIEROGLYPH K005	
+U+131A0	𓆠		EGYPTIAN HIEROGLYPH K006	
+U+131A1	𓆡		EGYPTIAN HIEROGLYPH K007	
+U+131A2	𓆢		EGYPTIAN HIEROGLYPH K008	
+U+131A3	𓆣		EGYPTIAN HIEROGLYPH L001	
+U+131A4	𓆤		EGYPTIAN HIEROGLYPH L002	
+U+131A5	𓆥		EGYPTIAN HIEROGLYPH L002A	
+U+131A6	𓆦		EGYPTIAN HIEROGLYPH L003	
+U+131A7	𓆧		EGYPTIAN HIEROGLYPH L004	
+U+131A8	𓆨		EGYPTIAN HIEROGLYPH L005	
+U+131A9	𓆩		EGYPTIAN HIEROGLYPH L006	
+U+131AA	𓆪		EGYPTIAN HIEROGLYPH L006A	
+U+131AB	𓆫		EGYPTIAN HIEROGLYPH L007	
+U+131AC	𓆬		EGYPTIAN HIEROGLYPH L008	
+U+131AD	𓆭		EGYPTIAN HIEROGLYPH M001	
+U+131AE	𓆮		EGYPTIAN HIEROGLYPH M001A	
+U+131AF	𓆯		EGYPTIAN HIEROGLYPH M001B	
+U+131B0	𓆰		EGYPTIAN HIEROGLYPH M002	
+U+131B1	𓆱		EGYPTIAN HIEROGLYPH M003	
+U+131B2	𓆲		EGYPTIAN HIEROGLYPH M003A	
+U+131B3	𓆳		EGYPTIAN HIEROGLYPH M004	
+U+131B4	𓆴		EGYPTIAN HIEROGLYPH M005	
+U+131B5	𓆵		EGYPTIAN HIEROGLYPH M006	
+U+131B6	𓆶		EGYPTIAN HIEROGLYPH M007	
+U+131B7	𓆷		EGYPTIAN HIEROGLYPH M008	
+U+131B8	𓆸		EGYPTIAN HIEROGLYPH M009	
+U+131B9	𓆹		EGYPTIAN HIEROGLYPH M010	
+U+131BA	𓆺		EGYPTIAN HIEROGLYPH M010A	
+U+131BB	𓆻		EGYPTIAN HIEROGLYPH M011	
+U+131BC	𓆼		EGYPTIAN HIEROGLYPH M012	
+U+131BD	𓆽		EGYPTIAN HIEROGLYPH M012A	
+U+131BE	𓆾		EGYPTIAN HIEROGLYPH M012B	
+U+131BF	𓆿		EGYPTIAN HIEROGLYPH M012C	
+U+131C0	𓇀		EGYPTIAN HIEROGLYPH M012D	
+U+131C1	𓇁		EGYPTIAN HIEROGLYPH M012E	
+U+131C2	𓇂		EGYPTIAN HIEROGLYPH M012F	
+U+131C3	𓇃		EGYPTIAN HIEROGLYPH M012G	
+U+131C4	𓇄		EGYPTIAN HIEROGLYPH M012H	
+U+131C5	𓇅		EGYPTIAN HIEROGLYPH M013	
+U+131C6	𓇆		EGYPTIAN HIEROGLYPH M014	
+U+131C7	𓇇		EGYPTIAN HIEROGLYPH M015	
+U+131C8	𓇈		EGYPTIAN HIEROGLYPH M015A	
+U+131C9	𓇉		EGYPTIAN HIEROGLYPH M016	
+U+131CA	𓇊		EGYPTIAN HIEROGLYPH M016A	
+U+131CB	𓇋		EGYPTIAN HIEROGLYPH M017	
+U+131CC	𓇌		EGYPTIAN HIEROGLYPH M017A	
+U+131CD	𓇍		EGYPTIAN HIEROGLYPH M018	
+U+131CE	𓇎		EGYPTIAN HIEROGLYPH M019	
+U+131CF	𓇏		EGYPTIAN HIEROGLYPH M020	
+U+131D0	𓇐		EGYPTIAN HIEROGLYPH M021	
+U+131D1	𓇑		EGYPTIAN HIEROGLYPH M022	
+U+131D2	𓇒		EGYPTIAN HIEROGLYPH M022A	
+U+131D3	𓇓		EGYPTIAN HIEROGLYPH M023	
+U+131D4	𓇔		EGYPTIAN HIEROGLYPH M024	
+U+131D5	𓇕		EGYPTIAN HIEROGLYPH M024A	
+U+131D6	𓇖		EGYPTIAN HIEROGLYPH M025	
+U+131D7	𓇗		EGYPTIAN HIEROGLYPH M026	
+U+131D8	𓇘		EGYPTIAN HIEROGLYPH M027	
+U+131D9	𓇙		EGYPTIAN HIEROGLYPH M028	
+U+131DA	𓇚		EGYPTIAN HIEROGLYPH M028A	
+U+131DB	𓇛		EGYPTIAN HIEROGLYPH M029	
+U+131DC	𓇜		EGYPTIAN HIEROGLYPH M030	
+U+131DD	𓇝		EGYPTIAN HIEROGLYPH M031	
+U+131DE	𓇞		EGYPTIAN HIEROGLYPH M031A	
+U+131DF	𓇟		EGYPTIAN HIEROGLYPH M032	
+U+131E0	𓇠		EGYPTIAN HIEROGLYPH M033	
+U+131E1	𓇡		EGYPTIAN HIEROGLYPH M033A	
+U+131E2	𓇢		EGYPTIAN HIEROGLYPH M033B	
+U+131E3	𓇣		EGYPTIAN HIEROGLYPH M034	
+U+131E4	𓇤		EGYPTIAN HIEROGLYPH M035	
+U+131E5	𓇥		EGYPTIAN HIEROGLYPH M036	
+U+131E6	𓇦		EGYPTIAN HIEROGLYPH M037	
+U+131E7	𓇧		EGYPTIAN HIEROGLYPH M038	
+U+131E8	𓇨		EGYPTIAN HIEROGLYPH M039	
+U+131E9	𓇩		EGYPTIAN HIEROGLYPH M040	
+U+131EA	𓇪		EGYPTIAN HIEROGLYPH M040A	
+U+131EB	𓇫		EGYPTIAN HIEROGLYPH M041	
+U+131EC	𓇬		EGYPTIAN HIEROGLYPH M042	
+U+131ED	𓇭		EGYPTIAN HIEROGLYPH M043	
+U+131EE	𓇮		EGYPTIAN HIEROGLYPH M044	
+U+131EF	𓇯		EGYPTIAN HIEROGLYPH N001	
+U+131F0	𓇰		EGYPTIAN HIEROGLYPH N002	
+U+131F1	𓇱		EGYPTIAN HIEROGLYPH N003	
+U+131F2	𓇲		EGYPTIAN HIEROGLYPH N004	
+U+131F3	𓇳		EGYPTIAN HIEROGLYPH N005	
+U+131F4	𓇴		EGYPTIAN HIEROGLYPH N006	
+U+131F5	𓇵		EGYPTIAN HIEROGLYPH N007	
+U+131F6	𓇶		EGYPTIAN HIEROGLYPH N008	
+U+131F7	𓇷		EGYPTIAN HIEROGLYPH N009	
+U+131F8	𓇸		EGYPTIAN HIEROGLYPH N010	
+U+131F9	𓇹		EGYPTIAN HIEROGLYPH N011	
+U+131FA	𓇺		EGYPTIAN HIEROGLYPH N012	
+U+131FB	𓇻		EGYPTIAN HIEROGLYPH N013	
+U+131FC	𓇼		EGYPTIAN HIEROGLYPH N014	
+U+131FD	𓇽		EGYPTIAN HIEROGLYPH N015	
+U+131FE	𓇾		EGYPTIAN HIEROGLYPH N016	
+U+131FF	𓇿		EGYPTIAN HIEROGLYPH N017	
+U+13200	𓈀		EGYPTIAN HIEROGLYPH N018	
+U+13201	𓈁		EGYPTIAN HIEROGLYPH N018A	
+U+13202	𓈂		EGYPTIAN HIEROGLYPH N018B	
+U+13203	𓈃		EGYPTIAN HIEROGLYPH N019	
+U+13204	𓈄		EGYPTIAN HIEROGLYPH N020	
+U+13205	𓈅		EGYPTIAN HIEROGLYPH N021	
+U+13206	𓈆		EGYPTIAN HIEROGLYPH N022	
+U+13207	𓈇		EGYPTIAN HIEROGLYPH N023	
+U+13208	𓈈		EGYPTIAN HIEROGLYPH N024	
+U+13209	𓈉		EGYPTIAN HIEROGLYPH N025	
+U+1320A	𓈊		EGYPTIAN HIEROGLYPH N025A	
+U+1320B	𓈋		EGYPTIAN HIEROGLYPH N026	
+U+1320C	𓈌		EGYPTIAN HIEROGLYPH N027	
+U+1320D	𓈍		EGYPTIAN HIEROGLYPH N028	
+U+1320E	𓈎		EGYPTIAN HIEROGLYPH N029	
+U+1320F	𓈏		EGYPTIAN HIEROGLYPH N030	
+U+13210	𓈐		EGYPTIAN HIEROGLYPH N031	
+U+13211	𓈑		EGYPTIAN HIEROGLYPH N032	
+U+13212	𓈒		EGYPTIAN HIEROGLYPH N033	
+U+13213	𓈓		EGYPTIAN HIEROGLYPH N033A	
+U+13214	𓈔		EGYPTIAN HIEROGLYPH N034	
+U+13215	𓈕		EGYPTIAN HIEROGLYPH N034A	
+U+13216	𓈖		EGYPTIAN HIEROGLYPH N035	
+U+13217	𓈗		EGYPTIAN HIEROGLYPH N035A	
+U+13218	𓈘		EGYPTIAN HIEROGLYPH N036	
+U+13219	𓈙		EGYPTIAN HIEROGLYPH N037	
+U+1321A	𓈚		EGYPTIAN HIEROGLYPH N037A	
+U+1321B	𓈛		EGYPTIAN HIEROGLYPH N038	
+U+1321C	𓈜		EGYPTIAN HIEROGLYPH N039	
+U+1321D	𓈝		EGYPTIAN HIEROGLYPH N040	
+U+1321E	𓈞		EGYPTIAN HIEROGLYPH N041	
+U+1321F	𓈟		EGYPTIAN HIEROGLYPH N042	
+U+13220	𓈠		EGYPTIAN HIEROGLYPH NL001	
+U+13221	𓈡		EGYPTIAN HIEROGLYPH NL002	
+U+13222	𓈢		EGYPTIAN HIEROGLYPH NL003	
+U+13223	𓈣		EGYPTIAN HIEROGLYPH NL004	
+U+13224	𓈤		EGYPTIAN HIEROGLYPH NL005	
+U+13225	𓈥		EGYPTIAN HIEROGLYPH NL005A	
+U+13226	𓈦		EGYPTIAN HIEROGLYPH NL006	
+U+13227	𓈧		EGYPTIAN HIEROGLYPH NL007	
+U+13228	𓈨		EGYPTIAN HIEROGLYPH NL008	
+U+13229	𓈩		EGYPTIAN HIEROGLYPH NL009	
+U+1322A	𓈪		EGYPTIAN HIEROGLYPH NL010	
+U+1322B	𓈫		EGYPTIAN HIEROGLYPH NL011	
+U+1322C	𓈬		EGYPTIAN HIEROGLYPH NL012	
+U+1322D	𓈭		EGYPTIAN HIEROGLYPH NL013	
+U+1322E	𓈮		EGYPTIAN HIEROGLYPH NL014	
+U+1322F	𓈯		EGYPTIAN HIEROGLYPH NL015	
+U+13230	𓈰		EGYPTIAN HIEROGLYPH NL016	
+U+13231	𓈱		EGYPTIAN HIEROGLYPH NL017	
+U+13232	𓈲		EGYPTIAN HIEROGLYPH NL017A	
+U+13233	𓈳		EGYPTIAN HIEROGLYPH NL018	
+U+13234	𓈴		EGYPTIAN HIEROGLYPH NL019	
+U+13235	𓈵		EGYPTIAN HIEROGLYPH NL020	
+U+13236	𓈶		EGYPTIAN HIEROGLYPH NU001	
+U+13237	𓈷		EGYPTIAN HIEROGLYPH NU002	
+U+13238	𓈸		EGYPTIAN HIEROGLYPH NU003	
+U+13239	𓈹		EGYPTIAN HIEROGLYPH NU004	
+U+1323A	𓈺		EGYPTIAN HIEROGLYPH NU005	
+U+1323B	𓈻		EGYPTIAN HIEROGLYPH NU006	
+U+1323C	𓈼		EGYPTIAN HIEROGLYPH NU007	
+U+1323D	𓈽		EGYPTIAN HIEROGLYPH NU008	
+U+1323E	𓈾		EGYPTIAN HIEROGLYPH NU009	
+U+1323F	𓈿		EGYPTIAN HIEROGLYPH NU010	
+U+13240	𓉀		EGYPTIAN HIEROGLYPH NU010A	
+U+13241	𓉁		EGYPTIAN HIEROGLYPH NU011	
+U+13242	𓉂		EGYPTIAN HIEROGLYPH NU011A	
+U+13243	𓉃		EGYPTIAN HIEROGLYPH NU012	
+U+13244	𓉄		EGYPTIAN HIEROGLYPH NU013	
+U+13245	𓉅		EGYPTIAN HIEROGLYPH NU014	
+U+13246	𓉆		EGYPTIAN HIEROGLYPH NU015	
+U+13247	𓉇		EGYPTIAN HIEROGLYPH NU016	
+U+13248	𓉈		EGYPTIAN HIEROGLYPH NU017	
+U+13249	𓉉		EGYPTIAN HIEROGLYPH NU018	
+U+1324A	𓉊		EGYPTIAN HIEROGLYPH NU018A	
+U+1324B	𓉋		EGYPTIAN HIEROGLYPH NU019	
+U+1324C	𓉌		EGYPTIAN HIEROGLYPH NU020	
+U+1324D	𓉍		EGYPTIAN HIEROGLYPH NU021	
+U+1324E	𓉎		EGYPTIAN HIEROGLYPH NU022	
+U+1324F	𓉏		EGYPTIAN HIEROGLYPH NU022A	
+U+13250	𓉐		EGYPTIAN HIEROGLYPH O001	
+U+13251	𓉑		EGYPTIAN HIEROGLYPH O001A	
+U+13252	𓉒		EGYPTIAN HIEROGLYPH O002	
+U+13253	𓉓		EGYPTIAN HIEROGLYPH O003	
+U+13254	𓉔		EGYPTIAN HIEROGLYPH O004	
+U+13255	𓉕		EGYPTIAN HIEROGLYPH O005	
+U+13256	𓉖		EGYPTIAN HIEROGLYPH O005A	
+U+13257	𓉗		EGYPTIAN HIEROGLYPH O006	
+U+13258	𓉘		EGYPTIAN HIEROGLYPH O006A	
+U+13259	𓉙		EGYPTIAN HIEROGLYPH O006B	
+U+1325A	𓉚		EGYPTIAN HIEROGLYPH O006C	
+U+1325B	𓉛		EGYPTIAN HIEROGLYPH O006D	
+U+1325C	𓉜		EGYPTIAN HIEROGLYPH O006E	
+U+1325D	𓉝		EGYPTIAN HIEROGLYPH O006F	
+U+1325E	𓉞		EGYPTIAN HIEROGLYPH O007	
+U+1325F	𓉟		EGYPTIAN HIEROGLYPH O008	
+U+13260	𓉠		EGYPTIAN HIEROGLYPH O009	
+U+13261	𓉡		EGYPTIAN HIEROGLYPH O010	
+U+13262	𓉢		EGYPTIAN HIEROGLYPH O010A	
+U+13263	𓉣		EGYPTIAN HIEROGLYPH O010B	
+U+13264	𓉤		EGYPTIAN HIEROGLYPH O010C	
+U+13265	𓉥		EGYPTIAN HIEROGLYPH O011	
+U+13266	𓉦		EGYPTIAN HIEROGLYPH O012	
+U+13267	𓉧		EGYPTIAN HIEROGLYPH O013	
+U+13268	𓉨		EGYPTIAN HIEROGLYPH O014	
+U+13269	𓉩		EGYPTIAN HIEROGLYPH O015	
+U+1326A	𓉪		EGYPTIAN HIEROGLYPH O016	
+U+1326B	𓉫		EGYPTIAN HIEROGLYPH O017	
+U+1326C	𓉬		EGYPTIAN HIEROGLYPH O018	
+U+1326D	𓉭		EGYPTIAN HIEROGLYPH O019	
+U+1326E	𓉮		EGYPTIAN HIEROGLYPH O019A	
+U+1326F	𓉯		EGYPTIAN HIEROGLYPH O020	
+U+13270	𓉰		EGYPTIAN HIEROGLYPH O020A	
+U+13271	𓉱		EGYPTIAN HIEROGLYPH O021	
+U+13272	𓉲		EGYPTIAN HIEROGLYPH O022	
+U+13273	𓉳		EGYPTIAN HIEROGLYPH O023	
+U+13274	𓉴		EGYPTIAN HIEROGLYPH O024	
+U+13275	𓉵		EGYPTIAN HIEROGLYPH O024A	
+U+13276	𓉶		EGYPTIAN HIEROGLYPH O025	
+U+13277	𓉷		EGYPTIAN HIEROGLYPH O025A	
+U+13278	𓉸		EGYPTIAN HIEROGLYPH O026	
+U+13279	𓉹		EGYPTIAN HIEROGLYPH O027	
+U+1327A	𓉺		EGYPTIAN HIEROGLYPH O028	
+U+1327B	𓉻		EGYPTIAN HIEROGLYPH O029	
+U+1327C	𓉼		EGYPTIAN HIEROGLYPH O029A	
+U+1327D	𓉽		EGYPTIAN HIEROGLYPH O030	
+U+1327E	𓉾		EGYPTIAN HIEROGLYPH O030A	
+U+1327F	𓉿		EGYPTIAN HIEROGLYPH O031	
+U+13280	𓊀		EGYPTIAN HIEROGLYPH O032	
+U+13281	𓊁		EGYPTIAN HIEROGLYPH O033	
+U+13282	𓊂		EGYPTIAN HIEROGLYPH O033A	
+U+13283	𓊃		EGYPTIAN HIEROGLYPH O034	
+U+13284	𓊄		EGYPTIAN HIEROGLYPH O035	
+U+13285	𓊅		EGYPTIAN HIEROGLYPH O036	
+U+13286	𓊆		EGYPTIAN HIEROGLYPH O036A	
+U+13287	𓊇		EGYPTIAN HIEROGLYPH O036B	
+U+13288	𓊈		EGYPTIAN HIEROGLYPH O036C	
+U+13289	𓊉		EGYPTIAN HIEROGLYPH O036D	
+U+1328A	𓊊		EGYPTIAN HIEROGLYPH O037	
+U+1328B	𓊋		EGYPTIAN HIEROGLYPH O038	
+U+1328C	𓊌		EGYPTIAN HIEROGLYPH O039	
+U+1328D	𓊍		EGYPTIAN HIEROGLYPH O040	
+U+1328E	𓊎		EGYPTIAN HIEROGLYPH O041	
+U+1328F	𓊏		EGYPTIAN HIEROGLYPH O042	
+U+13290	𓊐		EGYPTIAN HIEROGLYPH O043	
+U+13291	𓊑		EGYPTIAN HIEROGLYPH O044	
+U+13292	𓊒		EGYPTIAN HIEROGLYPH O045	
+U+13293	𓊓		EGYPTIAN HIEROGLYPH O046	
+U+13294	𓊔		EGYPTIAN HIEROGLYPH O047	
+U+13295	𓊕		EGYPTIAN HIEROGLYPH O048	
+U+13296	𓊖		EGYPTIAN HIEROGLYPH O049	
+U+13297	𓊗		EGYPTIAN HIEROGLYPH O050	
+U+13298	𓊘		EGYPTIAN HIEROGLYPH O050A	
+U+13299	𓊙		EGYPTIAN HIEROGLYPH O050B	
+U+1329A	𓊚		EGYPTIAN HIEROGLYPH O051	
+U+1329B	𓊛		EGYPTIAN HIEROGLYPH P001	
+U+1329C	𓊜		EGYPTIAN HIEROGLYPH P001A	
+U+1329D	𓊝		EGYPTIAN HIEROGLYPH P002	
+U+1329E	𓊞		EGYPTIAN HIEROGLYPH P003	
+U+1329F	𓊟		EGYPTIAN HIEROGLYPH P003A	
+U+132A0	𓊠		EGYPTIAN HIEROGLYPH P004	
+U+132A1	𓊡		EGYPTIAN HIEROGLYPH P005	
+U+132A2	𓊢		EGYPTIAN HIEROGLYPH P006	
+U+132A3	𓊣		EGYPTIAN HIEROGLYPH P007	
+U+132A4	𓊤		EGYPTIAN HIEROGLYPH P008	
+U+132A5	𓊥		EGYPTIAN HIEROGLYPH P009	
+U+132A6	𓊦		EGYPTIAN HIEROGLYPH P010	
+U+132A7	𓊧		EGYPTIAN HIEROGLYPH P011	
+U+132A8	𓊨		EGYPTIAN HIEROGLYPH Q001	
+U+132A9	𓊩		EGYPTIAN HIEROGLYPH Q002	
+U+132AA	𓊪		EGYPTIAN HIEROGLYPH Q003	
+U+132AB	𓊫		EGYPTIAN HIEROGLYPH Q004	
+U+132AC	𓊬		EGYPTIAN HIEROGLYPH Q005	
+U+132AD	𓊭		EGYPTIAN HIEROGLYPH Q006	
+U+132AE	𓊮		EGYPTIAN HIEROGLYPH Q007	
+U+132AF	𓊯		EGYPTIAN HIEROGLYPH R001	
+U+132B0	𓊰		EGYPTIAN HIEROGLYPH R002	
+U+132B1	𓊱		EGYPTIAN HIEROGLYPH R002A	
+U+132B2	𓊲		EGYPTIAN HIEROGLYPH R003	
+U+132B3	𓊳		EGYPTIAN HIEROGLYPH R003A	
+U+132B4	𓊴		EGYPTIAN HIEROGLYPH R003B	
+U+132B5	𓊵		EGYPTIAN HIEROGLYPH R004	
+U+132B6	𓊶		EGYPTIAN HIEROGLYPH R005	
+U+132B7	𓊷		EGYPTIAN HIEROGLYPH R006	
+U+132B8	𓊸		EGYPTIAN HIEROGLYPH R007	
+U+132B9	𓊹		EGYPTIAN HIEROGLYPH R008	
+U+132BA	𓊺		EGYPTIAN HIEROGLYPH R009	
+U+132BB	𓊻		EGYPTIAN HIEROGLYPH R010	
+U+132BC	𓊼		EGYPTIAN HIEROGLYPH R010A	
+U+132BD	𓊽		EGYPTIAN HIEROGLYPH R011	
+U+132BE	𓊾		EGYPTIAN HIEROGLYPH R012	
+U+132BF	𓊿		EGYPTIAN HIEROGLYPH R013	
+U+132C0	𓋀		EGYPTIAN HIEROGLYPH R014	
+U+132C1	𓋁		EGYPTIAN HIEROGLYPH R015	
+U+132C2	𓋂		EGYPTIAN HIEROGLYPH R016	
+U+132C3	𓋃		EGYPTIAN HIEROGLYPH R016A	
+U+132C4	𓋄		EGYPTIAN HIEROGLYPH R017	
+U+132C5	𓋅		EGYPTIAN HIEROGLYPH R018	
+U+132C6	𓋆		EGYPTIAN HIEROGLYPH R019	
+U+132C7	𓋇		EGYPTIAN HIEROGLYPH R020	
+U+132C8	𓋈		EGYPTIAN HIEROGLYPH R021	
+U+132C9	𓋉		EGYPTIAN HIEROGLYPH R022	
+U+132CA	𓋊		EGYPTIAN HIEROGLYPH R023	
+U+132CB	𓋋		EGYPTIAN HIEROGLYPH R024	
+U+132CC	𓋌		EGYPTIAN HIEROGLYPH R025	
+U+132CD	𓋍		EGYPTIAN HIEROGLYPH R026	
+U+132CE	𓋎		EGYPTIAN HIEROGLYPH R027	
+U+132CF	𓋏		EGYPTIAN HIEROGLYPH R028	
+U+132D0	𓋐		EGYPTIAN HIEROGLYPH R029	
+U+132D1	𓋑		EGYPTIAN HIEROGLYPH S001	
+U+132D2	𓋒		EGYPTIAN HIEROGLYPH S002	
+U+132D3	𓋓		EGYPTIAN HIEROGLYPH S002A	
+U+132D4	𓋔		EGYPTIAN HIEROGLYPH S003	
+U+132D5	𓋕		EGYPTIAN HIEROGLYPH S004	
+U+132D6	𓋖		EGYPTIAN HIEROGLYPH S005	
+U+132D7	𓋗		EGYPTIAN HIEROGLYPH S006	
+U+132D8	𓋘		EGYPTIAN HIEROGLYPH S006A	
+U+132D9	𓋙		EGYPTIAN HIEROGLYPH S007	
+U+132DA	𓋚		EGYPTIAN HIEROGLYPH S008	
+U+132DB	𓋛		EGYPTIAN HIEROGLYPH S009	
+U+132DC	𓋜		EGYPTIAN HIEROGLYPH S010	
+U+132DD	𓋝		EGYPTIAN HIEROGLYPH S011	
+U+132DE	𓋞		EGYPTIAN HIEROGLYPH S012	
+U+132DF	𓋟		EGYPTIAN HIEROGLYPH S013	
+U+132E0	𓋠		EGYPTIAN HIEROGLYPH S014	
+U+132E1	𓋡		EGYPTIAN HIEROGLYPH S014A	
+U+132E2	𓋢		EGYPTIAN HIEROGLYPH S014B	
+U+132E3	𓋣		EGYPTIAN HIEROGLYPH S015	
+U+132E4	𓋤		EGYPTIAN HIEROGLYPH S016	
+U+132E5	𓋥		EGYPTIAN HIEROGLYPH S017	
+U+132E6	𓋦		EGYPTIAN HIEROGLYPH S017A	
+U+132E7	𓋧		EGYPTIAN HIEROGLYPH S018	
+U+132E8	𓋨		EGYPTIAN HIEROGLYPH S019	
+U+132E9	𓋩		EGYPTIAN HIEROGLYPH S020	
+U+132EA	𓋪		EGYPTIAN HIEROGLYPH S021	
+U+132EB	𓋫		EGYPTIAN HIEROGLYPH S022	
+U+132EC	𓋬		EGYPTIAN HIEROGLYPH S023	
+U+132ED	𓋭		EGYPTIAN HIEROGLYPH S024	
+U+132EE	𓋮		EGYPTIAN HIEROGLYPH S025	
+U+132EF	𓋯		EGYPTIAN HIEROGLYPH S026	
+U+132F0	𓋰		EGYPTIAN HIEROGLYPH S026A	
+U+132F1	𓋱		EGYPTIAN HIEROGLYPH S026B	
+U+132F2	𓋲		EGYPTIAN HIEROGLYPH S027	
+U+132F3	𓋳		EGYPTIAN HIEROGLYPH S028	
+U+132F4	𓋴		EGYPTIAN HIEROGLYPH S029	
+U+132F5	𓋵		EGYPTIAN HIEROGLYPH S030	
+U+132F6	𓋶		EGYPTIAN HIEROGLYPH S031	
+U+132F7	𓋷		EGYPTIAN HIEROGLYPH S032	
+U+132F8	𓋸		EGYPTIAN HIEROGLYPH S033	
+U+132F9	𓋹		EGYPTIAN HIEROGLYPH S034	
+U+132FA	𓋺		EGYPTIAN HIEROGLYPH S035	
+U+132FB	𓋻		EGYPTIAN HIEROGLYPH S035A	
+U+132FC	𓋼		EGYPTIAN HIEROGLYPH S036	
+U+132FD	𓋽		EGYPTIAN HIEROGLYPH S037	
+U+132FE	𓋾		EGYPTIAN HIEROGLYPH S038	
+U+132FF	𓋿		EGYPTIAN HIEROGLYPH S039	
+U+13300	𓌀		EGYPTIAN HIEROGLYPH S040	
+U+13301	𓌁		EGYPTIAN HIEROGLYPH S041	
+U+13302	𓌂		EGYPTIAN HIEROGLYPH S042	
+U+13303	𓌃		EGYPTIAN HIEROGLYPH S043	
+U+13304	𓌄		EGYPTIAN HIEROGLYPH S044	
+U+13305	𓌅		EGYPTIAN HIEROGLYPH S045	
+U+13306	𓌆		EGYPTIAN HIEROGLYPH S046	
+U+13307	𓌇		EGYPTIAN HIEROGLYPH T001	
+U+13308	𓌈		EGYPTIAN HIEROGLYPH T002	
+U+13309	𓌉		EGYPTIAN HIEROGLYPH T003	
+U+1330A	𓌊		EGYPTIAN HIEROGLYPH T003A	
+U+1330B	𓌋		EGYPTIAN HIEROGLYPH T004	
+U+1330C	𓌌		EGYPTIAN HIEROGLYPH T005	
+U+1330D	𓌍		EGYPTIAN HIEROGLYPH T006	
+U+1330E	𓌎		EGYPTIAN HIEROGLYPH T007	
+U+1330F	𓌏		EGYPTIAN HIEROGLYPH T007A	
+U+13310	𓌐		EGYPTIAN HIEROGLYPH T008	
+U+13311	𓌑		EGYPTIAN HIEROGLYPH T008A	
+U+13312	𓌒		EGYPTIAN HIEROGLYPH T009	
+U+13313	𓌓		EGYPTIAN HIEROGLYPH T009A	
+U+13314	𓌔		EGYPTIAN HIEROGLYPH T010	
+U+13315	𓌕		EGYPTIAN HIEROGLYPH T011	
+U+13316	𓌖		EGYPTIAN HIEROGLYPH T011A	
+U+13317	𓌗		EGYPTIAN HIEROGLYPH T012	
+U+13318	𓌘		EGYPTIAN HIEROGLYPH T013	
+U+13319	𓌙		EGYPTIAN HIEROGLYPH T014	
+U+1331A	𓌚		EGYPTIAN HIEROGLYPH T015	
+U+1331B	𓌛		EGYPTIAN HIEROGLYPH T016	
+U+1331C	𓌜		EGYPTIAN HIEROGLYPH T016A	
+U+1331D	𓌝		EGYPTIAN HIEROGLYPH T017	
+U+1331E	𓌞		EGYPTIAN HIEROGLYPH T018	
+U+1331F	𓌟		EGYPTIAN HIEROGLYPH T019	
+U+13320	𓌠		EGYPTIAN HIEROGLYPH T020	
+U+13321	𓌡		EGYPTIAN HIEROGLYPH T021	
+U+13322	𓌢		EGYPTIAN HIEROGLYPH T022	
+U+13323	𓌣		EGYPTIAN HIEROGLYPH T023	
+U+13324	𓌤		EGYPTIAN HIEROGLYPH T024	
+U+13325	𓌥		EGYPTIAN HIEROGLYPH T025	
+U+13326	𓌦		EGYPTIAN HIEROGLYPH T026	
+U+13327	𓌧		EGYPTIAN HIEROGLYPH T027	
+U+13328	𓌨		EGYPTIAN HIEROGLYPH T028	
+U+13329	𓌩		EGYPTIAN HIEROGLYPH T029	
+U+1332A	𓌪		EGYPTIAN HIEROGLYPH T030	
+U+1332B	𓌫		EGYPTIAN HIEROGLYPH T031	
+U+1332C	𓌬		EGYPTIAN HIEROGLYPH T032	
+U+1332D	𓌭		EGYPTIAN HIEROGLYPH T032A	
+U+1332E	𓌮		EGYPTIAN HIEROGLYPH T033	
+U+1332F	𓌯		EGYPTIAN HIEROGLYPH T033A	
+U+13330	𓌰		EGYPTIAN HIEROGLYPH T034	
+U+13331	𓌱		EGYPTIAN HIEROGLYPH T035	
+U+13332	𓌲		EGYPTIAN HIEROGLYPH T036	
+U+13333	𓌳		EGYPTIAN HIEROGLYPH U001	
+U+13334	𓌴		EGYPTIAN HIEROGLYPH U002	
+U+13335	𓌵		EGYPTIAN HIEROGLYPH U003	
+U+13336	𓌶		EGYPTIAN HIEROGLYPH U004	
+U+13337	𓌷		EGYPTIAN HIEROGLYPH U005	
+U+13338	𓌸		EGYPTIAN HIEROGLYPH U006	
+U+13339	𓌹		EGYPTIAN HIEROGLYPH U006A	
+U+1333A	𓌺		EGYPTIAN HIEROGLYPH U006B	
+U+1333B	𓌻		EGYPTIAN HIEROGLYPH U007	
+U+1333C	𓌼		EGYPTIAN HIEROGLYPH U008	
+U+1333D	𓌽		EGYPTIAN HIEROGLYPH U009	
+U+1333E	𓌾		EGYPTIAN HIEROGLYPH U010	
+U+1333F	𓌿		EGYPTIAN HIEROGLYPH U011	
+U+13340	𓍀		EGYPTIAN HIEROGLYPH U012	
+U+13341	𓍁		EGYPTIAN HIEROGLYPH U013	
+U+13342	𓍂		EGYPTIAN HIEROGLYPH U014	
+U+13343	𓍃		EGYPTIAN HIEROGLYPH U015	
+U+13344	𓍄		EGYPTIAN HIEROGLYPH U016	
+U+13345	𓍅		EGYPTIAN HIEROGLYPH U017	
+U+13346	𓍆		EGYPTIAN HIEROGLYPH U018	
+U+13347	𓍇		EGYPTIAN HIEROGLYPH U019	
+U+13348	𓍈		EGYPTIAN HIEROGLYPH U020	
+U+13349	𓍉		EGYPTIAN HIEROGLYPH U021	
+U+1334A	𓍊		EGYPTIAN HIEROGLYPH U022	
+U+1334B	𓍋		EGYPTIAN HIEROGLYPH U023	
+U+1334C	𓍌		EGYPTIAN HIEROGLYPH U023A	
+U+1334D	𓍍		EGYPTIAN HIEROGLYPH U024	
+U+1334E	𓍎		EGYPTIAN HIEROGLYPH U025	
+U+1334F	𓍏		EGYPTIAN HIEROGLYPH U026	
+U+13350	𓍐		EGYPTIAN HIEROGLYPH U027	
+U+13351	𓍑		EGYPTIAN HIEROGLYPH U028	
+U+13352	𓍒		EGYPTIAN HIEROGLYPH U029	
+U+13353	𓍓		EGYPTIAN HIEROGLYPH U029A	
+U+13354	𓍔		EGYPTIAN HIEROGLYPH U030	
+U+13355	𓍕		EGYPTIAN HIEROGLYPH U031	
+U+13356	𓍖		EGYPTIAN HIEROGLYPH U032	
+U+13357	𓍗		EGYPTIAN HIEROGLYPH U032A	
+U+13358	𓍘		EGYPTIAN HIEROGLYPH U033	
+U+13359	𓍙		EGYPTIAN HIEROGLYPH U034	
+U+1335A	𓍚		EGYPTIAN HIEROGLYPH U035	
+U+1335B	𓍛		EGYPTIAN HIEROGLYPH U036	
+U+1335C	𓍜		EGYPTIAN HIEROGLYPH U037	
+U+1335D	𓍝		EGYPTIAN HIEROGLYPH U038	
+U+1335E	𓍞		EGYPTIAN HIEROGLYPH U039	
+U+1335F	𓍟		EGYPTIAN HIEROGLYPH U040	
+U+13360	𓍠		EGYPTIAN HIEROGLYPH U041	
+U+13361	𓍡		EGYPTIAN HIEROGLYPH U042	
+U+13362	𓍢		EGYPTIAN HIEROGLYPH V001	
+U+13363	𓍣		EGYPTIAN HIEROGLYPH V001A	
+U+13364	𓍤		EGYPTIAN HIEROGLYPH V001B	
+U+13365	𓍥		EGYPTIAN HIEROGLYPH V001C	
+U+13366	𓍦		EGYPTIAN HIEROGLYPH V001D	
+U+13367	𓍧		EGYPTIAN HIEROGLYPH V001E	
+U+13368	𓍨		EGYPTIAN HIEROGLYPH V001F	
+U+13369	𓍩		EGYPTIAN HIEROGLYPH V001G	
+U+1336A	𓍪		EGYPTIAN HIEROGLYPH V001H	
+U+1336B	𓍫		EGYPTIAN HIEROGLYPH V001I	
+U+1336C	𓍬		EGYPTIAN HIEROGLYPH V002	
+U+1336D	𓍭		EGYPTIAN HIEROGLYPH V002A	
+U+1336E	𓍮		EGYPTIAN HIEROGLYPH V003	
+U+1336F	𓍯		EGYPTIAN HIEROGLYPH V004	
+U+13370	𓍰		EGYPTIAN HIEROGLYPH V005	
+U+13371	𓍱		EGYPTIAN HIEROGLYPH V006	
+U+13372	𓍲		EGYPTIAN HIEROGLYPH V007	
+U+13373	𓍳		EGYPTIAN HIEROGLYPH V007A	
+U+13374	𓍴		EGYPTIAN HIEROGLYPH V007B	
+U+13375	𓍵		EGYPTIAN HIEROGLYPH V008	
+U+13376	𓍶		EGYPTIAN HIEROGLYPH V009	
+U+13377	𓍷		EGYPTIAN HIEROGLYPH V010	
+U+13378	𓍸		EGYPTIAN HIEROGLYPH V011	
+U+13379	𓍹		EGYPTIAN HIEROGLYPH V011A	
+U+1337A	𓍺		EGYPTIAN HIEROGLYPH V011B	
+U+1337B	𓍻		EGYPTIAN HIEROGLYPH V011C	
+U+1337C	𓍼		EGYPTIAN HIEROGLYPH V012	
+U+1337D	𓍽		EGYPTIAN HIEROGLYPH V012A	
+U+1337E	𓍾		EGYPTIAN HIEROGLYPH V012B	
+U+1337F	𓍿		EGYPTIAN HIEROGLYPH V013	
+U+13380	𓎀		EGYPTIAN HIEROGLYPH V014	
+U+13381	𓎁		EGYPTIAN HIEROGLYPH V015	
+U+13382	𓎂		EGYPTIAN HIEROGLYPH V016	
+U+13383	𓎃		EGYPTIAN HIEROGLYPH V017	
+U+13384	𓎄		EGYPTIAN HIEROGLYPH V018	
+U+13385	𓎅		EGYPTIAN HIEROGLYPH V019	
+U+13386	𓎆		EGYPTIAN HIEROGLYPH V020	
+U+13387	𓎇		EGYPTIAN HIEROGLYPH V020A	
+U+13388	𓎈		EGYPTIAN HIEROGLYPH V020B	
+U+13389	𓎉		EGYPTIAN HIEROGLYPH V020C	
+U+1338A	𓎊		EGYPTIAN HIEROGLYPH V020D	
+U+1338B	𓎋		EGYPTIAN HIEROGLYPH V020E	
+U+1338C	𓎌		EGYPTIAN HIEROGLYPH V020F	
+U+1338D	𓎍		EGYPTIAN HIEROGLYPH V020G	
+U+1338E	𓎎		EGYPTIAN HIEROGLYPH V020H	
+U+1338F	𓎏		EGYPTIAN HIEROGLYPH V020I	
+U+13390	𓎐		EGYPTIAN HIEROGLYPH V020J	
+U+13391	𓎑		EGYPTIAN HIEROGLYPH V020K	
+U+13392	𓎒		EGYPTIAN HIEROGLYPH V020L	
+U+13393	𓎓		EGYPTIAN HIEROGLYPH V021	
+U+13394	𓎔		EGYPTIAN HIEROGLYPH V022	
+U+13395	𓎕		EGYPTIAN HIEROGLYPH V023	
+U+13396	𓎖		EGYPTIAN HIEROGLYPH V023A	
+U+13397	𓎗		EGYPTIAN HIEROGLYPH V024	
+U+13398	𓎘		EGYPTIAN HIEROGLYPH V025	
+U+13399	𓎙		EGYPTIAN HIEROGLYPH V026	
+U+1339A	𓎚		EGYPTIAN HIEROGLYPH V027	
+U+1339B	𓎛		EGYPTIAN HIEROGLYPH V028	
+U+1339C	𓎜		EGYPTIAN HIEROGLYPH V028A	
+U+1339D	𓎝		EGYPTIAN HIEROGLYPH V029	
+U+1339E	𓎞		EGYPTIAN HIEROGLYPH V029A	
+U+1339F	𓎟		EGYPTIAN HIEROGLYPH V030	
+U+133A0	𓎠		EGYPTIAN HIEROGLYPH V030A	
+U+133A1	𓎡		EGYPTIAN HIEROGLYPH V031	
+U+133A2	𓎢		EGYPTIAN HIEROGLYPH V031A	
+U+133A3	𓎣		EGYPTIAN HIEROGLYPH V032	
+U+133A4	𓎤		EGYPTIAN HIEROGLYPH V033	
+U+133A5	𓎥		EGYPTIAN HIEROGLYPH V033A	
+U+133A6	𓎦		EGYPTIAN HIEROGLYPH V034	
+U+133A7	𓎧		EGYPTIAN HIEROGLYPH V035	
+U+133A8	𓎨		EGYPTIAN HIEROGLYPH V036	
+U+133A9	𓎩		EGYPTIAN HIEROGLYPH V037	
+U+133AA	𓎪		EGYPTIAN HIEROGLYPH V037A	
+U+133AB	𓎫		EGYPTIAN HIEROGLYPH V038	
+U+133AC	𓎬		EGYPTIAN HIEROGLYPH V039	
+U+133AD	𓎭		EGYPTIAN HIEROGLYPH V040	
+U+133AE	𓎮		EGYPTIAN HIEROGLYPH V040A	
+U+133AF	𓎯		EGYPTIAN HIEROGLYPH W001	
+U+133B0	𓎰		EGYPTIAN HIEROGLYPH W002	
+U+133B1	𓎱		EGYPTIAN HIEROGLYPH W003	
+U+133B2	𓎲		EGYPTIAN HIEROGLYPH W003A	
+U+133B3	𓎳		EGYPTIAN HIEROGLYPH W004	
+U+133B4	𓎴		EGYPTIAN HIEROGLYPH W005	
+U+133B5	𓎵		EGYPTIAN HIEROGLYPH W006	
+U+133B6	𓎶		EGYPTIAN HIEROGLYPH W007	
+U+133B7	𓎷		EGYPTIAN HIEROGLYPH W008	
+U+133B8	𓎸		EGYPTIAN HIEROGLYPH W009	
+U+133B9	𓎹		EGYPTIAN HIEROGLYPH W009A	
+U+133BA	𓎺		EGYPTIAN HIEROGLYPH W010	
+U+133BB	𓎻		EGYPTIAN HIEROGLYPH W010A	
+U+133BC	𓎼		EGYPTIAN HIEROGLYPH W011	
+U+133BD	𓎽		EGYPTIAN HIEROGLYPH W012	
+U+133BE	𓎾		EGYPTIAN HIEROGLYPH W013	
+U+133BF	𓎿		EGYPTIAN HIEROGLYPH W014	
+U+133C0	𓏀		EGYPTIAN HIEROGLYPH W014A	
+U+133C1	𓏁		EGYPTIAN HIEROGLYPH W015	
+U+133C2	𓏂		EGYPTIAN HIEROGLYPH W016	
+U+133C3	𓏃		EGYPTIAN HIEROGLYPH W017	
+U+133C4	𓏄		EGYPTIAN HIEROGLYPH W017A	
+U+133C5	𓏅		EGYPTIAN HIEROGLYPH W018	
+U+133C6	𓏆		EGYPTIAN HIEROGLYPH W018A	
+U+133C7	𓏇		EGYPTIAN HIEROGLYPH W019	
+U+133C8	𓏈		EGYPTIAN HIEROGLYPH W020	
+U+133C9	𓏉		EGYPTIAN HIEROGLYPH W021	
+U+133CA	𓏊		EGYPTIAN HIEROGLYPH W022	
+U+133CB	𓏋		EGYPTIAN HIEROGLYPH W023	
+U+133CC	𓏌		EGYPTIAN HIEROGLYPH W024	
+U+133CD	𓏍		EGYPTIAN HIEROGLYPH W024A	
+U+133CE	𓏎		EGYPTIAN HIEROGLYPH W025	
+U+133CF	𓏏		EGYPTIAN HIEROGLYPH X001	
+U+133D0	𓏐		EGYPTIAN HIEROGLYPH X002	
+U+133D1	𓏑		EGYPTIAN HIEROGLYPH X003	
+U+133D2	𓏒		EGYPTIAN HIEROGLYPH X004	
+U+133D3	𓏓		EGYPTIAN HIEROGLYPH X004A	
+U+133D4	𓏔		EGYPTIAN HIEROGLYPH X004B	
+U+133D5	𓏕		EGYPTIAN HIEROGLYPH X005	
+U+133D6	𓏖		EGYPTIAN HIEROGLYPH X006	
+U+133D7	𓏗		EGYPTIAN HIEROGLYPH X006A	
+U+133D8	𓏘		EGYPTIAN HIEROGLYPH X007	
+U+133D9	𓏙		EGYPTIAN HIEROGLYPH X008	
+U+133DA	𓏚		EGYPTIAN HIEROGLYPH X008A	
+U+133DB	𓏛		EGYPTIAN HIEROGLYPH Y001	
+U+133DC	𓏜		EGYPTIAN HIEROGLYPH Y001A	
+U+133DD	𓏝		EGYPTIAN HIEROGLYPH Y002	
+U+133DE	𓏞		EGYPTIAN HIEROGLYPH Y003	
+U+133DF	𓏟		EGYPTIAN HIEROGLYPH Y004	
+U+133E0	𓏠		EGYPTIAN HIEROGLYPH Y005	
+U+133E1	𓏡		EGYPTIAN HIEROGLYPH Y006	
+U+133E2	𓏢		EGYPTIAN HIEROGLYPH Y007	
+U+133E3	𓏣		EGYPTIAN HIEROGLYPH Y008	
+U+133E4	𓏤		EGYPTIAN HIEROGLYPH Z001	
+U+133E5	𓏥		EGYPTIAN HIEROGLYPH Z002	
+U+133E6	𓏦		EGYPTIAN HIEROGLYPH Z002A	
+U+133E7	𓏧		EGYPTIAN HIEROGLYPH Z002B	
+U+133E8	𓏨		EGYPTIAN HIEROGLYPH Z002C	
+U+133E9	𓏩		EGYPTIAN HIEROGLYPH Z002D	
+U+133EA	𓏪		EGYPTIAN HIEROGLYPH Z003	
+U+133EB	𓏫		EGYPTIAN HIEROGLYPH Z003A	
+U+133EC	𓏬		EGYPTIAN HIEROGLYPH Z003B	
+U+133ED	𓏭		EGYPTIAN HIEROGLYPH Z004	
+U+133EE	𓏮		EGYPTIAN HIEROGLYPH Z004A	
+U+133EF	𓏯		EGYPTIAN HIEROGLYPH Z005	
+U+133F0	𓏰		EGYPTIAN HIEROGLYPH Z005A	
+U+133F1	𓏱		EGYPTIAN HIEROGLYPH Z006	
+U+133F2	𓏲		EGYPTIAN HIEROGLYPH Z007	
+U+133F3	𓏳		EGYPTIAN HIEROGLYPH Z008	
+U+133F4	𓏴		EGYPTIAN HIEROGLYPH Z009	
+U+133F5	𓏵		EGYPTIAN HIEROGLYPH Z010	
+U+133F6	𓏶		EGYPTIAN HIEROGLYPH Z011	
+U+133F7	𓏷		EGYPTIAN HIEROGLYPH Z012	
+U+133F8	𓏸		EGYPTIAN HIEROGLYPH Z013	
+U+133F9	𓏹		EGYPTIAN HIEROGLYPH Z014	
+U+133FA	𓏺		EGYPTIAN HIEROGLYPH Z015	
+U+133FB	𓏻		EGYPTIAN HIEROGLYPH Z015A	
+U+133FC	𓏼		EGYPTIAN HIEROGLYPH Z015B	
+U+133FD	𓏽		EGYPTIAN HIEROGLYPH Z015C	
+U+133FE	𓏾		EGYPTIAN HIEROGLYPH Z015D	
+U+133FF	𓏿		EGYPTIAN HIEROGLYPH Z015E	
+U+13400	𓐀		EGYPTIAN HIEROGLYPH Z015F	
+U+13401	𓐁		EGYPTIAN HIEROGLYPH Z015G	
+U+13402	𓐂		EGYPTIAN HIEROGLYPH Z015H	
+U+13403	𓐃		EGYPTIAN HIEROGLYPH Z015I	
+U+13404	𓐄		EGYPTIAN HIEROGLYPH Z016	
+U+13405	𓐅		EGYPTIAN HIEROGLYPH Z016A	
+U+13406	𓐆		EGYPTIAN HIEROGLYPH Z016B	
+U+13407	𓐇		EGYPTIAN HIEROGLYPH Z016C	
+U+13408	𓐈		EGYPTIAN HIEROGLYPH Z016D	
+U+13409	𓐉		EGYPTIAN HIEROGLYPH Z016E	
+U+1340A	𓐊		EGYPTIAN HIEROGLYPH Z016F	
+U+1340B	𓐋		EGYPTIAN HIEROGLYPH Z016G	
+U+1340C	𓐌		EGYPTIAN HIEROGLYPH Z016H	
+U+1340D	𓐍		EGYPTIAN HIEROGLYPH AA001	
+U+1340E	𓐎		EGYPTIAN HIEROGLYPH AA002	
+U+1340F	𓐏		EGYPTIAN HIEROGLYPH AA003	
+U+13410	𓐐		EGYPTIAN HIEROGLYPH AA004	
+U+13411	𓐑		EGYPTIAN HIEROGLYPH AA005	
+U+13412	𓐒		EGYPTIAN HIEROGLYPH AA006	
+U+13413	𓐓		EGYPTIAN HIEROGLYPH AA007	
+U+13414	𓐔		EGYPTIAN HIEROGLYPH AA007A	
+U+13415	𓐕		EGYPTIAN HIEROGLYPH AA007B	
+U+13416	𓐖		EGYPTIAN HIEROGLYPH AA008	
+U+13417	𓐗		EGYPTIAN HIEROGLYPH AA009	
+U+13418	𓐘		EGYPTIAN HIEROGLYPH AA010	
+U+13419	𓐙		EGYPTIAN HIEROGLYPH AA011	
+U+1341A	𓐚		EGYPTIAN HIEROGLYPH AA012	
+U+1341B	𓐛		EGYPTIAN HIEROGLYPH AA013	
+U+1341C	𓐜		EGYPTIAN HIEROGLYPH AA014	
+U+1341D	𓐝		EGYPTIAN HIEROGLYPH AA015	
+U+1341E	𓐞		EGYPTIAN HIEROGLYPH AA016	
+U+1341F	𓐟		EGYPTIAN HIEROGLYPH AA017	
+U+13420	𓐠		EGYPTIAN HIEROGLYPH AA018	
+U+13421	𓐡		EGYPTIAN HIEROGLYPH AA019	
+U+13422	𓐢		EGYPTIAN HIEROGLYPH AA020	
+U+13423	𓐣		EGYPTIAN HIEROGLYPH AA021	
+U+13424	𓐤		EGYPTIAN HIEROGLYPH AA022	
+U+13425	𓐥		EGYPTIAN HIEROGLYPH AA023	
+U+13426	𓐦		EGYPTIAN HIEROGLYPH AA024	
+U+13427	𓐧		EGYPTIAN HIEROGLYPH AA025	
+U+13428	𓐨		EGYPTIAN HIEROGLYPH AA026	
+U+13429	𓐩		EGYPTIAN HIEROGLYPH AA027	
+U+1342A	𓐪		EGYPTIAN HIEROGLYPH AA028	
+U+1342B	𓐫		EGYPTIAN HIEROGLYPH AA029	
+U+1342C	𓐬		EGYPTIAN HIEROGLYPH AA030	
+U+1342D	𓐭		EGYPTIAN HIEROGLYPH AA031	
+U+1342E	𓐮		EGYPTIAN HIEROGLYPH AA032	
+U+1342F	𓐯		EGYPTIAN HIEROGLYPH V011D	

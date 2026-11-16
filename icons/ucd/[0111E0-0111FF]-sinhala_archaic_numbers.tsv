@@ -1,21 +1,21 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+111E1	𑇡	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit one		
-U+111E2	𑇢	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit two		
-U+111E3	𑇣	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit three		
-U+111E4	𑇤	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit four		
-U+111E5	𑇥	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit five		
-U+111E6	𑇦	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit six		
-U+111E7	𑇧	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit seven		
-U+111E8	𑇨	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit eight		
-U+111E9	𑇩	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic digit nine		
-U+111EA	𑇪	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number ten		
-U+111EB	𑇫	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number twenty		
-U+111EC	𑇬	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number thirty		
-U+111ED	𑇭	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number forty		
-U+111EE	𑇮	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number fifty		
-U+111EF	𑇯	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number sixty		
-U+111F0	𑇰	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number seventy		
-U+111F1	𑇱	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number eighty		
-U+111F2	𑇲	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number ninety		
-U+111F3	𑇳	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number one hundred		
-U+111F4	𑇴	111E0..111FF	Sinhala Archaic Numbers	Sinhala archaic number one thousand		
+code_points	chars	tab_completions	unicode_name	base
+U+111E1	𑇡		SINHALA ARCHAIC DIGIT ONE	
+U+111E2	𑇢		SINHALA ARCHAIC DIGIT TWO	
+U+111E3	𑇣		SINHALA ARCHAIC DIGIT THREE	
+U+111E4	𑇤		SINHALA ARCHAIC DIGIT FOUR	
+U+111E5	𑇥		SINHALA ARCHAIC DIGIT FIVE	
+U+111E6	𑇦		SINHALA ARCHAIC DIGIT SIX	
+U+111E7	𑇧		SINHALA ARCHAIC DIGIT SEVEN	
+U+111E8	𑇨		SINHALA ARCHAIC DIGIT EIGHT	
+U+111E9	𑇩		SINHALA ARCHAIC DIGIT NINE	
+U+111EA	𑇪		SINHALA ARCHAIC NUMBER TEN	
+U+111EB	𑇫		SINHALA ARCHAIC NUMBER TWENTY	
+U+111EC	𑇬		SINHALA ARCHAIC NUMBER THIRTY	
+U+111ED	𑇭		SINHALA ARCHAIC NUMBER FORTY	
+U+111EE	𑇮		SINHALA ARCHAIC NUMBER FIFTY	
+U+111EF	𑇯		SINHALA ARCHAIC NUMBER SIXTY	
+U+111F0	𑇰		SINHALA ARCHAIC NUMBER SEVENTY	
+U+111F1	𑇱		SINHALA ARCHAIC NUMBER EIGHTY	
+U+111F2	𑇲		SINHALA ARCHAIC NUMBER NINETY	
+U+111F3	𑇳		SINHALA ARCHAIC NUMBER ONE HUNDRED	
+U+111F4	𑇴		SINHALA ARCHAIC NUMBER ONE THOUSAND	

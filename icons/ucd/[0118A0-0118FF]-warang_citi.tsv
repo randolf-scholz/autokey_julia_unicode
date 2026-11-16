@@ -1,85 +1,85 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+118A0	𑢠	118A0..118FF	Warang Citi	Warang citi capital letter ngaa		
-U+118A1	𑢡	118A0..118FF	Warang Citi	Warang citi capital letter a		
-U+118A2	𑢢	118A0..118FF	Warang Citi	Warang citi capital letter wi		
-U+118A3	𑢣	118A0..118FF	Warang Citi	Warang citi capital letter yu		
-U+118A4	𑢤	118A0..118FF	Warang Citi	Warang citi capital letter ya		
-U+118A5	𑢥	118A0..118FF	Warang Citi	Warang citi capital letter yo		
-U+118A6	𑢦	118A0..118FF	Warang Citi	Warang citi capital letter ii		
-U+118A7	𑢧	118A0..118FF	Warang Citi	Warang citi capital letter uu		
-U+118A8	𑢨	118A0..118FF	Warang Citi	Warang citi capital letter e		
-U+118A9	𑢩	118A0..118FF	Warang Citi	Warang citi capital letter o		
-U+118AA	𑢪	118A0..118FF	Warang Citi	Warang citi capital letter ang		
-U+118AB	𑢫	118A0..118FF	Warang Citi	Warang citi capital letter ga		
-U+118AC	𑢬	118A0..118FF	Warang Citi	Warang citi capital letter ko		
-U+118AD	𑢭	118A0..118FF	Warang Citi	Warang citi capital letter eny		
-U+118AE	𑢮	118A0..118FF	Warang Citi	Warang citi capital letter yuj		
-U+118AF	𑢯	118A0..118FF	Warang Citi	Warang citi capital letter uc		
-U+118B0	𑢰	118A0..118FF	Warang Citi	Warang citi capital letter enn		
-U+118B1	𑢱	118A0..118FF	Warang Citi	Warang citi capital letter odd		
-U+118B2	𑢲	118A0..118FF	Warang Citi	Warang citi capital letter tte		
-U+118B3	𑢳	118A0..118FF	Warang Citi	Warang citi capital letter nung		
-U+118B4	𑢴	118A0..118FF	Warang Citi	Warang citi capital letter da		
-U+118B5	𑢵	118A0..118FF	Warang Citi	Warang citi capital letter at		
-U+118B6	𑢶	118A0..118FF	Warang Citi	Warang citi capital letter am		
-U+118B7	𑢷	118A0..118FF	Warang Citi	Warang citi capital letter bu		
-U+118B8	𑢸	118A0..118FF	Warang Citi	Warang citi capital letter pu		
-U+118B9	𑢹	118A0..118FF	Warang Citi	Warang citi capital letter hiyo		
-U+118BA	𑢺	118A0..118FF	Warang Citi	Warang citi capital letter holo		
-U+118BB	𑢻	118A0..118FF	Warang Citi	Warang citi capital letter horr		
-U+118BC	𑢼	118A0..118FF	Warang Citi	Warang citi capital letter har		
-U+118BD	𑢽	118A0..118FF	Warang Citi	Warang citi capital letter ssuu		
-U+118BE	𑢾	118A0..118FF	Warang Citi	Warang citi capital letter sii		
-U+118BF	𑢿	118A0..118FF	Warang Citi	Warang citi capital letter viyo		
-U+118C0	𑣀	118A0..118FF	Warang Citi	Warang citi small letter ngaa		
-U+118C1	𑣁	118A0..118FF	Warang Citi	Warang citi small letter a		
-U+118C2	𑣂	118A0..118FF	Warang Citi	Warang citi small letter wi		
-U+118C3	𑣃	118A0..118FF	Warang Citi	Warang citi small letter yu		
-U+118C4	𑣄	118A0..118FF	Warang Citi	Warang citi small letter ya		
-U+118C5	𑣅	118A0..118FF	Warang Citi	Warang citi small letter yo		
-U+118C6	𑣆	118A0..118FF	Warang Citi	Warang citi small letter ii		
-U+118C7	𑣇	118A0..118FF	Warang Citi	Warang citi small letter uu		
-U+118C8	𑣈	118A0..118FF	Warang Citi	Warang citi small letter e		
-U+118C9	𑣉	118A0..118FF	Warang Citi	Warang citi small letter o		
-U+118CA	𑣊	118A0..118FF	Warang Citi	Warang citi small letter ang		
-U+118CB	𑣋	118A0..118FF	Warang Citi	Warang citi small letter ga		
-U+118CC	𑣌	118A0..118FF	Warang Citi	Warang citi small letter ko		
-U+118CD	𑣍	118A0..118FF	Warang Citi	Warang citi small letter eny		
-U+118CE	𑣎	118A0..118FF	Warang Citi	Warang citi small letter yuj		
-U+118CF	𑣏	118A0..118FF	Warang Citi	Warang citi small letter uc		
-U+118D0	𑣐	118A0..118FF	Warang Citi	Warang citi small letter enn		
-U+118D1	𑣑	118A0..118FF	Warang Citi	Warang citi small letter odd		
-U+118D2	𑣒	118A0..118FF	Warang Citi	Warang citi small letter tte		
-U+118D3	𑣓	118A0..118FF	Warang Citi	Warang citi small letter nung		
-U+118D4	𑣔	118A0..118FF	Warang Citi	Warang citi small letter da		
-U+118D5	𑣕	118A0..118FF	Warang Citi	Warang citi small letter at		
-U+118D6	𑣖	118A0..118FF	Warang Citi	Warang citi small letter am		
-U+118D7	𑣗	118A0..118FF	Warang Citi	Warang citi small letter bu		
-U+118D8	𑣘	118A0..118FF	Warang Citi	Warang citi small letter pu		
-U+118D9	𑣙	118A0..118FF	Warang Citi	Warang citi small letter hiyo		
-U+118DA	𑣚	118A0..118FF	Warang Citi	Warang citi small letter holo		
-U+118DB	𑣛	118A0..118FF	Warang Citi	Warang citi small letter horr		
-U+118DC	𑣜	118A0..118FF	Warang Citi	Warang citi small letter har		
-U+118DD	𑣝	118A0..118FF	Warang Citi	Warang citi small letter ssuu		
-U+118DE	𑣞	118A0..118FF	Warang Citi	Warang citi small letter sii		
-U+118DF	𑣟	118A0..118FF	Warang Citi	Warang citi small letter viyo		
-U+118E0	𑣠	118A0..118FF	Warang Citi	Warang citi digit zero		
-U+118E1	𑣡	118A0..118FF	Warang Citi	Warang citi digit one		
-U+118E2	𑣢	118A0..118FF	Warang Citi	Warang citi digit two		
-U+118E3	𑣣	118A0..118FF	Warang Citi	Warang citi digit three		
-U+118E4	𑣤	118A0..118FF	Warang Citi	Warang citi digit four		
-U+118E5	𑣥	118A0..118FF	Warang Citi	Warang citi digit five		
-U+118E6	𑣦	118A0..118FF	Warang Citi	Warang citi digit six		
-U+118E7	𑣧	118A0..118FF	Warang Citi	Warang citi digit seven		
-U+118E8	𑣨	118A0..118FF	Warang Citi	Warang citi digit eight		
-U+118E9	𑣩	118A0..118FF	Warang Citi	Warang citi digit nine		
-U+118EA	𑣪	118A0..118FF	Warang Citi	Warang citi number ten		
-U+118EB	𑣫	118A0..118FF	Warang Citi	Warang citi number twenty		
-U+118EC	𑣬	118A0..118FF	Warang Citi	Warang citi number thirty		
-U+118ED	𑣭	118A0..118FF	Warang Citi	Warang citi number forty		
-U+118EE	𑣮	118A0..118FF	Warang Citi	Warang citi number fifty		
-U+118EF	𑣯	118A0..118FF	Warang Citi	Warang citi number sixty		
-U+118F0	𑣰	118A0..118FF	Warang Citi	Warang citi number seventy		
-U+118F1	𑣱	118A0..118FF	Warang Citi	Warang citi number eighty		
-U+118F2	𑣲	118A0..118FF	Warang Citi	Warang citi number ninety		
-U+118FF	𑣿	118A0..118FF	Warang Citi	Warang citi om		
+code_points	chars	tab_completions	unicode_name	base
+U+118A0	𑢠		WARANG CITI CAPITAL LETTER NGAA	
+U+118A1	𑢡		WARANG CITI CAPITAL LETTER A	
+U+118A2	𑢢		WARANG CITI CAPITAL LETTER WI	
+U+118A3	𑢣		WARANG CITI CAPITAL LETTER YU	
+U+118A4	𑢤		WARANG CITI CAPITAL LETTER YA	
+U+118A5	𑢥		WARANG CITI CAPITAL LETTER YO	
+U+118A6	𑢦		WARANG CITI CAPITAL LETTER II	
+U+118A7	𑢧		WARANG CITI CAPITAL LETTER UU	
+U+118A8	𑢨		WARANG CITI CAPITAL LETTER E	
+U+118A9	𑢩		WARANG CITI CAPITAL LETTER O	
+U+118AA	𑢪		WARANG CITI CAPITAL LETTER ANG	
+U+118AB	𑢫		WARANG CITI CAPITAL LETTER GA	
+U+118AC	𑢬		WARANG CITI CAPITAL LETTER KO	
+U+118AD	𑢭		WARANG CITI CAPITAL LETTER ENY	
+U+118AE	𑢮		WARANG CITI CAPITAL LETTER YUJ	
+U+118AF	𑢯		WARANG CITI CAPITAL LETTER UC	
+U+118B0	𑢰		WARANG CITI CAPITAL LETTER ENN	
+U+118B1	𑢱		WARANG CITI CAPITAL LETTER ODD	
+U+118B2	𑢲		WARANG CITI CAPITAL LETTER TTE	
+U+118B3	𑢳		WARANG CITI CAPITAL LETTER NUNG	
+U+118B4	𑢴		WARANG CITI CAPITAL LETTER DA	
+U+118B5	𑢵		WARANG CITI CAPITAL LETTER AT	
+U+118B6	𑢶		WARANG CITI CAPITAL LETTER AM	
+U+118B7	𑢷		WARANG CITI CAPITAL LETTER BU	
+U+118B8	𑢸		WARANG CITI CAPITAL LETTER PU	
+U+118B9	𑢹		WARANG CITI CAPITAL LETTER HIYO	
+U+118BA	𑢺		WARANG CITI CAPITAL LETTER HOLO	
+U+118BB	𑢻		WARANG CITI CAPITAL LETTER HORR	
+U+118BC	𑢼		WARANG CITI CAPITAL LETTER HAR	
+U+118BD	𑢽		WARANG CITI CAPITAL LETTER SSUU	
+U+118BE	𑢾		WARANG CITI CAPITAL LETTER SII	
+U+118BF	𑢿		WARANG CITI CAPITAL LETTER VIYO	
+U+118C0	𑣀		WARANG CITI SMALL LETTER NGAA	
+U+118C1	𑣁		WARANG CITI SMALL LETTER A	
+U+118C2	𑣂		WARANG CITI SMALL LETTER WI	
+U+118C3	𑣃		WARANG CITI SMALL LETTER YU	
+U+118C4	𑣄		WARANG CITI SMALL LETTER YA	
+U+118C5	𑣅		WARANG CITI SMALL LETTER YO	
+U+118C6	𑣆		WARANG CITI SMALL LETTER II	
+U+118C7	𑣇		WARANG CITI SMALL LETTER UU	
+U+118C8	𑣈		WARANG CITI SMALL LETTER E	
+U+118C9	𑣉		WARANG CITI SMALL LETTER O	
+U+118CA	𑣊		WARANG CITI SMALL LETTER ANG	
+U+118CB	𑣋		WARANG CITI SMALL LETTER GA	
+U+118CC	𑣌		WARANG CITI SMALL LETTER KO	
+U+118CD	𑣍		WARANG CITI SMALL LETTER ENY	
+U+118CE	𑣎		WARANG CITI SMALL LETTER YUJ	
+U+118CF	𑣏		WARANG CITI SMALL LETTER UC	
+U+118D0	𑣐		WARANG CITI SMALL LETTER ENN	
+U+118D1	𑣑		WARANG CITI SMALL LETTER ODD	
+U+118D2	𑣒		WARANG CITI SMALL LETTER TTE	
+U+118D3	𑣓		WARANG CITI SMALL LETTER NUNG	
+U+118D4	𑣔		WARANG CITI SMALL LETTER DA	
+U+118D5	𑣕		WARANG CITI SMALL LETTER AT	
+U+118D6	𑣖		WARANG CITI SMALL LETTER AM	
+U+118D7	𑣗		WARANG CITI SMALL LETTER BU	
+U+118D8	𑣘		WARANG CITI SMALL LETTER PU	
+U+118D9	𑣙		WARANG CITI SMALL LETTER HIYO	
+U+118DA	𑣚		WARANG CITI SMALL LETTER HOLO	
+U+118DB	𑣛		WARANG CITI SMALL LETTER HORR	
+U+118DC	𑣜		WARANG CITI SMALL LETTER HAR	
+U+118DD	𑣝		WARANG CITI SMALL LETTER SSUU	
+U+118DE	𑣞		WARANG CITI SMALL LETTER SII	
+U+118DF	𑣟		WARANG CITI SMALL LETTER VIYO	
+U+118E0	𑣠		WARANG CITI DIGIT ZERO	
+U+118E1	𑣡		WARANG CITI DIGIT ONE	
+U+118E2	𑣢		WARANG CITI DIGIT TWO	
+U+118E3	𑣣		WARANG CITI DIGIT THREE	
+U+118E4	𑣤		WARANG CITI DIGIT FOUR	
+U+118E5	𑣥		WARANG CITI DIGIT FIVE	
+U+118E6	𑣦		WARANG CITI DIGIT SIX	
+U+118E7	𑣧		WARANG CITI DIGIT SEVEN	
+U+118E8	𑣨		WARANG CITI DIGIT EIGHT	
+U+118E9	𑣩		WARANG CITI DIGIT NINE	
+U+118EA	𑣪		WARANG CITI NUMBER TEN	
+U+118EB	𑣫		WARANG CITI NUMBER TWENTY	
+U+118EC	𑣬		WARANG CITI NUMBER THIRTY	
+U+118ED	𑣭		WARANG CITI NUMBER FORTY	
+U+118EE	𑣮		WARANG CITI NUMBER FIFTY	
+U+118EF	𑣯		WARANG CITI NUMBER SIXTY	
+U+118F0	𑣰		WARANG CITI NUMBER SEVENTY	
+U+118F1	𑣱		WARANG CITI NUMBER EIGHTY	
+U+118F2	𑣲		WARANG CITI NUMBER NINETY	
+U+118FF	𑣿		WARANG CITI OM	

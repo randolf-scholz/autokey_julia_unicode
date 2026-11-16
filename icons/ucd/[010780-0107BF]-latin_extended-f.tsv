@@ -1,63 +1,63 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10780	𐞀	10780..107BF	Latin Extended-F	Modifier letter small capital aa		
-U+10781	𐞁	10780..107BF	Latin Extended-F	Modifier letter superscript triangular colon		
-U+10782	𐞂	10780..107BF	Latin Extended-F	Modifier letter superscript half triangular colon		
-U+10783	𐞃	10780..107BF	Latin Extended-F	Modifier letter small ae		
-U+10784	𐞄	10780..107BF	Latin Extended-F	Modifier letter small capital b		
-U+10785	𐞅	10780..107BF	Latin Extended-F	Modifier letter small b with hook		
-U+10787	𐞇	10780..107BF	Latin Extended-F	Modifier letter small dz digraph		
-U+10788	𐞈	10780..107BF	Latin Extended-F	Modifier letter small dz digraph with retroflex hook		
-U+10789	𐞉	10780..107BF	Latin Extended-F	Modifier letter small dz digraph with curl		
-U+1078A	𐞊	10780..107BF	Latin Extended-F	Modifier letter small dezh digraph		
-U+1078B	𐞋	10780..107BF	Latin Extended-F	Modifier letter small d with tail		
-U+1078C	𐞌	10780..107BF	Latin Extended-F	Modifier letter small d with hook		
-U+1078D	𐞍	10780..107BF	Latin Extended-F	Modifier letter small d with hook and tail		
-U+1078E	𐞎	10780..107BF	Latin Extended-F	Modifier letter small reversed e		
-U+1078F	𐞏	10780..107BF	Latin Extended-F	Modifier letter small closed reversed open e		
-U+10790	𐞐	10780..107BF	Latin Extended-F	Modifier letter small feng digraph		
-U+10791	𐞑	10780..107BF	Latin Extended-F	Modifier letter small rams horn		
-U+10792	𐞒	10780..107BF	Latin Extended-F	Modifier letter small capital g		
-U+10793	𐞓	10780..107BF	Latin Extended-F	Modifier letter small g with hook		
-U+10794	𐞔	10780..107BF	Latin Extended-F	Modifier letter small capital g with hook		
-U+10795	𐞕	10780..107BF	Latin Extended-F	Modifier letter small h with stroke		
-U+10796	𐞖	10780..107BF	Latin Extended-F	Modifier letter small capital h		
-U+10797	𐞗	10780..107BF	Latin Extended-F	Modifier letter small heng with hook		
-U+10798	𐞘	10780..107BF	Latin Extended-F	Modifier letter small dotless j with stroke and hook		
-U+10799	𐞙	10780..107BF	Latin Extended-F	Modifier letter small ls digraph		
-U+1079A	𐞚	10780..107BF	Latin Extended-F	Modifier letter small lz digraph		
-U+1079B	𐞛	10780..107BF	Latin Extended-F	Modifier letter small l with belt		
-U+1079C	𐞜	10780..107BF	Latin Extended-F	Modifier letter small capital l with belt		
-U+1079D	𐞝	10780..107BF	Latin Extended-F	Modifier letter small l with retroflex hook and belt		
-U+1079E	𐞞	10780..107BF	Latin Extended-F	Modifier letter small lezh		
-U+1079F	𐞟	10780..107BF	Latin Extended-F	Modifier letter small lezh with retroflex hook		
-U+107A0	𐞠	10780..107BF	Latin Extended-F	Modifier letter small turned y		
-U+107A1	𐞡	10780..107BF	Latin Extended-F	Modifier letter small turned y with belt		
-U+107A2	𐞢	10780..107BF	Latin Extended-F	Modifier letter small o with stroke		
-U+107A3	𐞣	10780..107BF	Latin Extended-F	Modifier letter small capital oe		
-U+107A4	𐞤	10780..107BF	Latin Extended-F	Modifier letter small closed omega		
-U+107A5	𐞥	10780..107BF	Latin Extended-F	Modifier letter small q		
-U+107A6	𐞦	10780..107BF	Latin Extended-F	Modifier letter small turned r with long leg		
-U+107A7	𐞧	10780..107BF	Latin Extended-F	Modifier letter small turned r with long leg and retroflex hook		
-U+107A8	𐞨	10780..107BF	Latin Extended-F	Modifier letter small r with tail		
-U+107A9	𐞩	10780..107BF	Latin Extended-F	Modifier letter small r with fishhook		
-U+107AA	𐞪	10780..107BF	Latin Extended-F	Modifier letter small capital r		
-U+107AB	𐞫	10780..107BF	Latin Extended-F	Modifier letter small tc digraph with curl		
-U+107AC	𐞬	10780..107BF	Latin Extended-F	Modifier letter small ts digraph		
-U+107AD	𐞭	10780..107BF	Latin Extended-F	Modifier letter small ts digraph with retroflex hook		
-U+107AE	𐞮	10780..107BF	Latin Extended-F	Modifier letter small tesh digraph		
-U+107AF	𐞯	10780..107BF	Latin Extended-F	Modifier letter small t with retroflex hook		
-U+107B0	𐞰	10780..107BF	Latin Extended-F	Modifier letter small v with right hook		
-U+107B2	𐞲	10780..107BF	Latin Extended-F	Modifier letter small capital y		
-U+107B3	𐞳	10780..107BF	Latin Extended-F	Modifier letter glottal stop with stroke		
-U+107B4	𐞴	10780..107BF	Latin Extended-F	Modifier letter reversed glottal stop with stroke		
-U+107B5	𐞵	10780..107BF	Latin Extended-F	Modifier letter bilabial click		
-U+107B6	𐞶	10780..107BF	Latin Extended-F	Modifier letter dental click		
-U+107B7	𐞷	10780..107BF	Latin Extended-F	Modifier letter lateral click		
-U+107B8	𐞸	10780..107BF	Latin Extended-F	Modifier letter alveolar click		
-U+107B9	𐞹	10780..107BF	Latin Extended-F	Modifier letter retroflex click with retroflex hook		
-U+107BA	𐞺	10780..107BF	Latin Extended-F	Modifier letter small s with curl		
-U+107BB	𐞻	10780..107BF	Latin Extended-F	Modifier letter small turned t		
-U+107BC	𐞼	10780..107BF	Latin Extended-F	Modifier letter inverted glottal stop		
-U+107BD	𐞽	10780..107BF	Latin Extended-F	Modifier letter stretched c		
-U+107BE	𐞾	10780..107BF	Latin Extended-F	Modifier letter small turned k		
-U+107BF	𐞿	10780..107BF	Latin Extended-F	Modifier letter small esh with double bar		
+code_points	chars	tab_completions	unicode_name	base
+U+10780	𐞀		MODIFIER LETTER SMALL CAPITAL AA	
+U+10781	𐞁		MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON	
+U+10782	𐞂		MODIFIER LETTER SUPERSCRIPT HALF TRIANGULAR COLON	
+U+10783	𐞃		MODIFIER LETTER SMALL AE	
+U+10784	𐞄		MODIFIER LETTER SMALL CAPITAL B	
+U+10785	𐞅		MODIFIER LETTER SMALL B WITH HOOK	
+U+10787	𐞇		MODIFIER LETTER SMALL DZ DIGRAPH	
+U+10788	𐞈		MODIFIER LETTER SMALL DZ DIGRAPH WITH RETROFLEX HOOK	
+U+10789	𐞉		MODIFIER LETTER SMALL DZ DIGRAPH WITH CURL	
+U+1078A	𐞊		MODIFIER LETTER SMALL DEZH DIGRAPH	
+U+1078B	𐞋		MODIFIER LETTER SMALL D WITH TAIL	
+U+1078C	𐞌		MODIFIER LETTER SMALL D WITH HOOK	
+U+1078D	𐞍		MODIFIER LETTER SMALL D WITH HOOK AND TAIL	
+U+1078E	𐞎		MODIFIER LETTER SMALL REVERSED E	
+U+1078F	𐞏		MODIFIER LETTER SMALL CLOSED REVERSED OPEN E	
+U+10790	𐞐		MODIFIER LETTER SMALL FENG DIGRAPH	
+U+10791	𐞑		MODIFIER LETTER SMALL RAMS HORN	
+U+10792	𐞒		MODIFIER LETTER SMALL CAPITAL G	
+U+10793	𐞓		MODIFIER LETTER SMALL G WITH HOOK	
+U+10794	𐞔		MODIFIER LETTER SMALL CAPITAL G WITH HOOK	
+U+10795	𐞕		MODIFIER LETTER SMALL H WITH STROKE	
+U+10796	𐞖		MODIFIER LETTER SMALL CAPITAL H	
+U+10797	𐞗		MODIFIER LETTER SMALL HENG WITH HOOK	
+U+10798	𐞘		MODIFIER LETTER SMALL DOTLESS J WITH STROKE AND HOOK	
+U+10799	𐞙		MODIFIER LETTER SMALL LS DIGRAPH	
+U+1079A	𐞚		MODIFIER LETTER SMALL LZ DIGRAPH	
+U+1079B	𐞛		MODIFIER LETTER SMALL L WITH BELT	
+U+1079C	𐞜		MODIFIER LETTER SMALL CAPITAL L WITH BELT	
+U+1079D	𐞝		MODIFIER LETTER SMALL L WITH RETROFLEX HOOK AND BELT	
+U+1079E	𐞞		MODIFIER LETTER SMALL LEZH	
+U+1079F	𐞟		MODIFIER LETTER SMALL LEZH WITH RETROFLEX HOOK	
+U+107A0	𐞠		MODIFIER LETTER SMALL TURNED Y	
+U+107A1	𐞡		MODIFIER LETTER SMALL TURNED Y WITH BELT	
+U+107A2	𐞢		MODIFIER LETTER SMALL O WITH STROKE	
+U+107A3	𐞣		MODIFIER LETTER SMALL CAPITAL OE	
+U+107A4	𐞤		MODIFIER LETTER SMALL CLOSED OMEGA	
+U+107A5	𐞥		MODIFIER LETTER SMALL Q	
+U+107A6	𐞦		MODIFIER LETTER SMALL TURNED R WITH LONG LEG	
+U+107A7	𐞧		MODIFIER LETTER SMALL TURNED R WITH LONG LEG AND RETROFLEX HOOK	
+U+107A8	𐞨		MODIFIER LETTER SMALL R WITH TAIL	
+U+107A9	𐞩		MODIFIER LETTER SMALL R WITH FISHHOOK	
+U+107AA	𐞪		MODIFIER LETTER SMALL CAPITAL R	
+U+107AB	𐞫		MODIFIER LETTER SMALL TC DIGRAPH WITH CURL	
+U+107AC	𐞬		MODIFIER LETTER SMALL TS DIGRAPH	
+U+107AD	𐞭		MODIFIER LETTER SMALL TS DIGRAPH WITH RETROFLEX HOOK	
+U+107AE	𐞮		MODIFIER LETTER SMALL TESH DIGRAPH	
+U+107AF	𐞯		MODIFIER LETTER SMALL T WITH RETROFLEX HOOK	
+U+107B0	𐞰		MODIFIER LETTER SMALL V WITH RIGHT HOOK	
+U+107B2	𐞲		MODIFIER LETTER SMALL CAPITAL Y	
+U+107B3	𐞳		MODIFIER LETTER GLOTTAL STOP WITH STROKE	
+U+107B4	𐞴		MODIFIER LETTER REVERSED GLOTTAL STOP WITH STROKE	
+U+107B5	𐞵		MODIFIER LETTER BILABIAL CLICK	
+U+107B6	𐞶		MODIFIER LETTER DENTAL CLICK	
+U+107B7	𐞷		MODIFIER LETTER LATERAL CLICK	
+U+107B8	𐞸		MODIFIER LETTER ALVEOLAR CLICK	
+U+107B9	𐞹		MODIFIER LETTER RETROFLEX CLICK WITH RETROFLEX HOOK	
+U+107BA	𐞺		MODIFIER LETTER SMALL S WITH CURL	
+U+107BB	𐞻		MODIFIER LETTER SMALL TURNED T	
+U+107BC	𐞼		MODIFIER LETTER INVERTED GLOTTAL STOP	
+U+107BD	𐞽		MODIFIER LETTER STRETCHED C	
+U+107BE	𐞾		MODIFIER LETTER SMALL TURNED K	
+U+107BF	𐞿		MODIFIER LETTER SMALL ESH WITH DOUBLE BAR	

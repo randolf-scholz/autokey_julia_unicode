@@ -1,65 +1,65 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F200	🈀	1F200..1F2FF	Enclosed Ideographic Supplement	Square hiragana hoka		
-U+1F201	🈁	1F200..1F2FF	Enclosed Ideographic Supplement	Squared katakana koko		
-U+1F202	🈂	1F200..1F2FF	Enclosed Ideographic Supplement	Squared katakana sa		
-U+1F210	🈐	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-624b		
-U+1F211	🈑	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5b57		
-U+1F212	🈒	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-53cc		
-U+1F213	🈓	1F200..1F2FF	Enclosed Ideographic Supplement	Squared katakana de		
-U+1F214	🈔	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-4e8c		
-U+1F215	🈕	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-591a		
-U+1F216	🈖	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-89e3		
-U+1F217	🈗	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5929		
-U+1F218	🈘	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-4ea4		
-U+1F219	🈙	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6620		
-U+1F21A	🈚	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-7121		
-U+1F21B	🈛	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6599		
-U+1F21C	🈜	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-524d		
-U+1F21D	🈝	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5f8c		
-U+1F21E	🈞	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-518d		
-U+1F21F	🈟	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-65b0		
-U+1F220	🈠	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-521d		
-U+1F221	🈡	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-7d42		
-U+1F222	🈢	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-751f		
-U+1F223	🈣	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-8ca9		
-U+1F224	🈤	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-58f0		
-U+1F225	🈥	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5439		
-U+1F226	🈦	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6f14		
-U+1F227	🈧	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6295		
-U+1F228	🈨	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6355		
-U+1F229	🈩	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-4e00		
-U+1F22A	🈪	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-4e09		
-U+1F22B	🈫	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-904a		
-U+1F22C	🈬	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5de6		
-U+1F22D	🈭	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-4e2d		
-U+1F22E	🈮	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-53f3		
-U+1F22F	🈯	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6307		
-U+1F230	🈰	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-8d70		
-U+1F231	🈱	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6253		
-U+1F232	🈲	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-7981		
-U+1F233	🈳	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-7a7a		
-U+1F234	🈴	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5408		
-U+1F235	🈵	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6e80		
-U+1F236	🈶	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6709		
-U+1F237	🈷	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-6708		
-U+1F238	🈸	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-7533		
-U+1F239	🈹	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-5272		
-U+1F23A	🈺	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-55b6		
-U+1F23B	🈻	1F200..1F2FF	Enclosed Ideographic Supplement	Squared cjk unified ideograph-914d		
-U+1F240	🉀	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-672c		
-U+1F241	🉁	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-4e09		
-U+1F242	🉂	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-4e8c		
-U+1F243	🉃	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-5b89		
-U+1F244	🉄	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-70b9		
-U+1F245	🉅	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-6253		
-U+1F246	🉆	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-76d7		
-U+1F247	🉇	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-52dd		
-U+1F248	🉈	1F200..1F2FF	Enclosed Ideographic Supplement	Tortoise shell bracketed cjk unified ideograph-6557		
-U+1F250	🉐	1F200..1F2FF	Enclosed Ideographic Supplement	Circled ideograph advantage		
-U+1F251	🉑	1F200..1F2FF	Enclosed Ideographic Supplement	Circled ideograph accept		
-U+1F260	🉠	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for fu		
-U+1F261	🉡	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for lu		
-U+1F262	🉢	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for shou		
-U+1F263	🉣	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for xi		
-U+1F264	🉤	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for shuangxi		
-U+1F265	🉥	1F200..1F2FF	Enclosed Ideographic Supplement	Rounded symbol for cai		
+code_points	chars	tab_completions	unicode_name	base
+U+1F200	🈀		SQUARE HIRAGANA HOKA	
+U+1F201	🈁		SQUARED KATAKANA KOKO	
+U+1F202	🈂		SQUARED KATAKANA SA	
+U+1F210	🈐		SQUARED CJK UNIFIED IDEOGRAPH-624B	
+U+1F211	🈑		SQUARED CJK UNIFIED IDEOGRAPH-5B57	
+U+1F212	🈒		SQUARED CJK UNIFIED IDEOGRAPH-53CC	
+U+1F213	🈓		SQUARED KATAKANA DE	
+U+1F214	🈔		SQUARED CJK UNIFIED IDEOGRAPH-4E8C	
+U+1F215	🈕		SQUARED CJK UNIFIED IDEOGRAPH-591A	
+U+1F216	🈖		SQUARED CJK UNIFIED IDEOGRAPH-89E3	
+U+1F217	🈗		SQUARED CJK UNIFIED IDEOGRAPH-5929	
+U+1F218	🈘		SQUARED CJK UNIFIED IDEOGRAPH-4EA4	
+U+1F219	🈙		SQUARED CJK UNIFIED IDEOGRAPH-6620	
+U+1F21A	🈚		SQUARED CJK UNIFIED IDEOGRAPH-7121	
+U+1F21B	🈛		SQUARED CJK UNIFIED IDEOGRAPH-6599	
+U+1F21C	🈜		SQUARED CJK UNIFIED IDEOGRAPH-524D	
+U+1F21D	🈝		SQUARED CJK UNIFIED IDEOGRAPH-5F8C	
+U+1F21E	🈞		SQUARED CJK UNIFIED IDEOGRAPH-518D	
+U+1F21F	🈟		SQUARED CJK UNIFIED IDEOGRAPH-65B0	
+U+1F220	🈠		SQUARED CJK UNIFIED IDEOGRAPH-521D	
+U+1F221	🈡		SQUARED CJK UNIFIED IDEOGRAPH-7D42	
+U+1F222	🈢		SQUARED CJK UNIFIED IDEOGRAPH-751F	
+U+1F223	🈣		SQUARED CJK UNIFIED IDEOGRAPH-8CA9	
+U+1F224	🈤		SQUARED CJK UNIFIED IDEOGRAPH-58F0	
+U+1F225	🈥		SQUARED CJK UNIFIED IDEOGRAPH-5439	
+U+1F226	🈦		SQUARED CJK UNIFIED IDEOGRAPH-6F14	
+U+1F227	🈧		SQUARED CJK UNIFIED IDEOGRAPH-6295	
+U+1F228	🈨		SQUARED CJK UNIFIED IDEOGRAPH-6355	
+U+1F229	🈩		SQUARED CJK UNIFIED IDEOGRAPH-4E00	
+U+1F22A	🈪		SQUARED CJK UNIFIED IDEOGRAPH-4E09	
+U+1F22B	🈫		SQUARED CJK UNIFIED IDEOGRAPH-904A	
+U+1F22C	🈬		SQUARED CJK UNIFIED IDEOGRAPH-5DE6	
+U+1F22D	🈭		SQUARED CJK UNIFIED IDEOGRAPH-4E2D	
+U+1F22E	🈮		SQUARED CJK UNIFIED IDEOGRAPH-53F3	
+U+1F22F	🈯		SQUARED CJK UNIFIED IDEOGRAPH-6307	
+U+1F230	🈰		SQUARED CJK UNIFIED IDEOGRAPH-8D70	
+U+1F231	🈱		SQUARED CJK UNIFIED IDEOGRAPH-6253	
+U+1F232	🈲		SQUARED CJK UNIFIED IDEOGRAPH-7981	
+U+1F233	🈳		SQUARED CJK UNIFIED IDEOGRAPH-7A7A	
+U+1F234	🈴		SQUARED CJK UNIFIED IDEOGRAPH-5408	
+U+1F235	🈵		SQUARED CJK UNIFIED IDEOGRAPH-6E80	
+U+1F236	🈶		SQUARED CJK UNIFIED IDEOGRAPH-6709	
+U+1F237	🈷		SQUARED CJK UNIFIED IDEOGRAPH-6708	
+U+1F238	🈸		SQUARED CJK UNIFIED IDEOGRAPH-7533	
+U+1F239	🈹		SQUARED CJK UNIFIED IDEOGRAPH-5272	
+U+1F23A	🈺		SQUARED CJK UNIFIED IDEOGRAPH-55B6	
+U+1F23B	🈻		SQUARED CJK UNIFIED IDEOGRAPH-914D	
+U+1F240	🉀		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-672C	
+U+1F241	🉁		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-4E09	
+U+1F242	🉂		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-4E8C	
+U+1F243	🉃		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-5B89	
+U+1F244	🉄		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-70B9	
+U+1F245	🉅		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-6253	
+U+1F246	🉆		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-76D7	
+U+1F247	🉇		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-52DD	
+U+1F248	🉈		TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-6557	
+U+1F250	🉐		CIRCLED IDEOGRAPH ADVANTAGE	
+U+1F251	🉑		CIRCLED IDEOGRAPH ACCEPT	
+U+1F260	🉠		ROUNDED SYMBOL FOR FU	
+U+1F261	🉡		ROUNDED SYMBOL FOR LU	
+U+1F262	🉢		ROUNDED SYMBOL FOR SHOU	
+U+1F263	🉣		ROUNDED SYMBOL FOR XI	
+U+1F264	🉤		ROUNDED SYMBOL FOR SHUANGXI	
+U+1F265	🉥		ROUNDED SYMBOL FOR CAI	

@@ -1,83 +1,83 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F0A0	🂠	1F0A0..1F0FF	Playing Cards	Playing card back		
-U+1F0A1	🂡	1F0A0..1F0FF	Playing Cards	Playing card ace of spades		
-U+1F0A2	🂢	1F0A0..1F0FF	Playing Cards	Playing card two of spades		
-U+1F0A3	🂣	1F0A0..1F0FF	Playing Cards	Playing card three of spades		
-U+1F0A4	🂤	1F0A0..1F0FF	Playing Cards	Playing card four of spades		
-U+1F0A5	🂥	1F0A0..1F0FF	Playing Cards	Playing card five of spades		
-U+1F0A6	🂦	1F0A0..1F0FF	Playing Cards	Playing card six of spades		
-U+1F0A7	🂧	1F0A0..1F0FF	Playing Cards	Playing card seven of spades		
-U+1F0A8	🂨	1F0A0..1F0FF	Playing Cards	Playing card eight of spades		
-U+1F0A9	🂩	1F0A0..1F0FF	Playing Cards	Playing card nine of spades		
-U+1F0AA	🂪	1F0A0..1F0FF	Playing Cards	Playing card ten of spades		
-U+1F0AB	🂫	1F0A0..1F0FF	Playing Cards	Playing card jack of spades		
-U+1F0AC	🂬	1F0A0..1F0FF	Playing Cards	Playing card knight of spades		
-U+1F0AD	🂭	1F0A0..1F0FF	Playing Cards	Playing card queen of spades		
-U+1F0AE	🂮	1F0A0..1F0FF	Playing Cards	Playing card king of spades		
-U+1F0B1	🂱	1F0A0..1F0FF	Playing Cards	Playing card ace of hearts		
-U+1F0B2	🂲	1F0A0..1F0FF	Playing Cards	Playing card two of hearts		
-U+1F0B3	🂳	1F0A0..1F0FF	Playing Cards	Playing card three of hearts		
-U+1F0B4	🂴	1F0A0..1F0FF	Playing Cards	Playing card four of hearts		
-U+1F0B5	🂵	1F0A0..1F0FF	Playing Cards	Playing card five of hearts		
-U+1F0B6	🂶	1F0A0..1F0FF	Playing Cards	Playing card six of hearts		
-U+1F0B7	🂷	1F0A0..1F0FF	Playing Cards	Playing card seven of hearts		
-U+1F0B8	🂸	1F0A0..1F0FF	Playing Cards	Playing card eight of hearts		
-U+1F0B9	🂹	1F0A0..1F0FF	Playing Cards	Playing card nine of hearts		
-U+1F0BA	🂺	1F0A0..1F0FF	Playing Cards	Playing card ten of hearts		
-U+1F0BB	🂻	1F0A0..1F0FF	Playing Cards	Playing card jack of hearts		
-U+1F0BC	🂼	1F0A0..1F0FF	Playing Cards	Playing card knight of hearts		
-U+1F0BD	🂽	1F0A0..1F0FF	Playing Cards	Playing card queen of hearts		
-U+1F0BE	🂾	1F0A0..1F0FF	Playing Cards	Playing card king of hearts		
-U+1F0BF	🂿	1F0A0..1F0FF	Playing Cards	Playing card red joker		
-U+1F0C1	🃁	1F0A0..1F0FF	Playing Cards	Playing card ace of diamonds		
-U+1F0C2	🃂	1F0A0..1F0FF	Playing Cards	Playing card two of diamonds		
-U+1F0C3	🃃	1F0A0..1F0FF	Playing Cards	Playing card three of diamonds		
-U+1F0C4	🃄	1F0A0..1F0FF	Playing Cards	Playing card four of diamonds		
-U+1F0C5	🃅	1F0A0..1F0FF	Playing Cards	Playing card five of diamonds		
-U+1F0C6	🃆	1F0A0..1F0FF	Playing Cards	Playing card six of diamonds		
-U+1F0C7	🃇	1F0A0..1F0FF	Playing Cards	Playing card seven of diamonds		
-U+1F0C8	🃈	1F0A0..1F0FF	Playing Cards	Playing card eight of diamonds		
-U+1F0C9	🃉	1F0A0..1F0FF	Playing Cards	Playing card nine of diamonds		
-U+1F0CA	🃊	1F0A0..1F0FF	Playing Cards	Playing card ten of diamonds		
-U+1F0CB	🃋	1F0A0..1F0FF	Playing Cards	Playing card jack of diamonds		
-U+1F0CC	🃌	1F0A0..1F0FF	Playing Cards	Playing card knight of diamonds		
-U+1F0CD	🃍	1F0A0..1F0FF	Playing Cards	Playing card queen of diamonds		
-U+1F0CE	🃎	1F0A0..1F0FF	Playing Cards	Playing card king of diamonds		
-U+1F0CF	🃏	1F0A0..1F0FF	Playing Cards	Playing card black joker		
-U+1F0D1	🃑	1F0A0..1F0FF	Playing Cards	Playing card ace of clubs		
-U+1F0D2	🃒	1F0A0..1F0FF	Playing Cards	Playing card two of clubs		
-U+1F0D3	🃓	1F0A0..1F0FF	Playing Cards	Playing card three of clubs		
-U+1F0D4	🃔	1F0A0..1F0FF	Playing Cards	Playing card four of clubs		
-U+1F0D5	🃕	1F0A0..1F0FF	Playing Cards	Playing card five of clubs		
-U+1F0D6	🃖	1F0A0..1F0FF	Playing Cards	Playing card six of clubs		
-U+1F0D7	🃗	1F0A0..1F0FF	Playing Cards	Playing card seven of clubs		
-U+1F0D8	🃘	1F0A0..1F0FF	Playing Cards	Playing card eight of clubs		
-U+1F0D9	🃙	1F0A0..1F0FF	Playing Cards	Playing card nine of clubs		
-U+1F0DA	🃚	1F0A0..1F0FF	Playing Cards	Playing card ten of clubs		
-U+1F0DB	🃛	1F0A0..1F0FF	Playing Cards	Playing card jack of clubs		
-U+1F0DC	🃜	1F0A0..1F0FF	Playing Cards	Playing card knight of clubs		
-U+1F0DD	🃝	1F0A0..1F0FF	Playing Cards	Playing card queen of clubs		
-U+1F0DE	🃞	1F0A0..1F0FF	Playing Cards	Playing card king of clubs		
-U+1F0DF	🃟	1F0A0..1F0FF	Playing Cards	Playing card white joker		
-U+1F0E0	🃠	1F0A0..1F0FF	Playing Cards	Playing card fool		
-U+1F0E1	🃡	1F0A0..1F0FF	Playing Cards	Playing card trump-1		
-U+1F0E2	🃢	1F0A0..1F0FF	Playing Cards	Playing card trump-2		
-U+1F0E3	🃣	1F0A0..1F0FF	Playing Cards	Playing card trump-3		
-U+1F0E4	🃤	1F0A0..1F0FF	Playing Cards	Playing card trump-4		
-U+1F0E5	🃥	1F0A0..1F0FF	Playing Cards	Playing card trump-5		
-U+1F0E6	🃦	1F0A0..1F0FF	Playing Cards	Playing card trump-6		
-U+1F0E7	🃧	1F0A0..1F0FF	Playing Cards	Playing card trump-7		
-U+1F0E8	🃨	1F0A0..1F0FF	Playing Cards	Playing card trump-8		
-U+1F0E9	🃩	1F0A0..1F0FF	Playing Cards	Playing card trump-9		
-U+1F0EA	🃪	1F0A0..1F0FF	Playing Cards	Playing card trump-10		
-U+1F0EB	🃫	1F0A0..1F0FF	Playing Cards	Playing card trump-11		
-U+1F0EC	🃬	1F0A0..1F0FF	Playing Cards	Playing card trump-12		
-U+1F0ED	🃭	1F0A0..1F0FF	Playing Cards	Playing card trump-13		
-U+1F0EE	🃮	1F0A0..1F0FF	Playing Cards	Playing card trump-14		
-U+1F0EF	🃯	1F0A0..1F0FF	Playing Cards	Playing card trump-15		
-U+1F0F0	🃰	1F0A0..1F0FF	Playing Cards	Playing card trump-16		
-U+1F0F1	🃱	1F0A0..1F0FF	Playing Cards	Playing card trump-17		
-U+1F0F2	🃲	1F0A0..1F0FF	Playing Cards	Playing card trump-18		
-U+1F0F3	🃳	1F0A0..1F0FF	Playing Cards	Playing card trump-19		
-U+1F0F4	🃴	1F0A0..1F0FF	Playing Cards	Playing card trump-20		
-U+1F0F5	🃵	1F0A0..1F0FF	Playing Cards	Playing card trump-21		
+code_points	chars	tab_completions	unicode_name	base
+U+1F0A0	🂠		PLAYING CARD BACK	
+U+1F0A1	🂡		PLAYING CARD ACE OF SPADES	
+U+1F0A2	🂢		PLAYING CARD TWO OF SPADES	
+U+1F0A3	🂣		PLAYING CARD THREE OF SPADES	
+U+1F0A4	🂤		PLAYING CARD FOUR OF SPADES	
+U+1F0A5	🂥		PLAYING CARD FIVE OF SPADES	
+U+1F0A6	🂦		PLAYING CARD SIX OF SPADES	
+U+1F0A7	🂧		PLAYING CARD SEVEN OF SPADES	
+U+1F0A8	🂨		PLAYING CARD EIGHT OF SPADES	
+U+1F0A9	🂩		PLAYING CARD NINE OF SPADES	
+U+1F0AA	🂪		PLAYING CARD TEN OF SPADES	
+U+1F0AB	🂫		PLAYING CARD JACK OF SPADES	
+U+1F0AC	🂬		PLAYING CARD KNIGHT OF SPADES	
+U+1F0AD	🂭		PLAYING CARD QUEEN OF SPADES	
+U+1F0AE	🂮		PLAYING CARD KING OF SPADES	
+U+1F0B1	🂱		PLAYING CARD ACE OF HEARTS	
+U+1F0B2	🂲		PLAYING CARD TWO OF HEARTS	
+U+1F0B3	🂳		PLAYING CARD THREE OF HEARTS	
+U+1F0B4	🂴		PLAYING CARD FOUR OF HEARTS	
+U+1F0B5	🂵		PLAYING CARD FIVE OF HEARTS	
+U+1F0B6	🂶		PLAYING CARD SIX OF HEARTS	
+U+1F0B7	🂷		PLAYING CARD SEVEN OF HEARTS	
+U+1F0B8	🂸		PLAYING CARD EIGHT OF HEARTS	
+U+1F0B9	🂹		PLAYING CARD NINE OF HEARTS	
+U+1F0BA	🂺		PLAYING CARD TEN OF HEARTS	
+U+1F0BB	🂻		PLAYING CARD JACK OF HEARTS	
+U+1F0BC	🂼		PLAYING CARD KNIGHT OF HEARTS	
+U+1F0BD	🂽		PLAYING CARD QUEEN OF HEARTS	
+U+1F0BE	🂾		PLAYING CARD KING OF HEARTS	
+U+1F0BF	🂿		PLAYING CARD RED JOKER	
+U+1F0C1	🃁		PLAYING CARD ACE OF DIAMONDS	
+U+1F0C2	🃂		PLAYING CARD TWO OF DIAMONDS	
+U+1F0C3	🃃		PLAYING CARD THREE OF DIAMONDS	
+U+1F0C4	🃄		PLAYING CARD FOUR OF DIAMONDS	
+U+1F0C5	🃅		PLAYING CARD FIVE OF DIAMONDS	
+U+1F0C6	🃆		PLAYING CARD SIX OF DIAMONDS	
+U+1F0C7	🃇		PLAYING CARD SEVEN OF DIAMONDS	
+U+1F0C8	🃈		PLAYING CARD EIGHT OF DIAMONDS	
+U+1F0C9	🃉		PLAYING CARD NINE OF DIAMONDS	
+U+1F0CA	🃊		PLAYING CARD TEN OF DIAMONDS	
+U+1F0CB	🃋		PLAYING CARD JACK OF DIAMONDS	
+U+1F0CC	🃌		PLAYING CARD KNIGHT OF DIAMONDS	
+U+1F0CD	🃍		PLAYING CARD QUEEN OF DIAMONDS	
+U+1F0CE	🃎		PLAYING CARD KING OF DIAMONDS	
+U+1F0CF	🃏		PLAYING CARD BLACK JOKER	
+U+1F0D1	🃑		PLAYING CARD ACE OF CLUBS	
+U+1F0D2	🃒		PLAYING CARD TWO OF CLUBS	
+U+1F0D3	🃓		PLAYING CARD THREE OF CLUBS	
+U+1F0D4	🃔		PLAYING CARD FOUR OF CLUBS	
+U+1F0D5	🃕		PLAYING CARD FIVE OF CLUBS	
+U+1F0D6	🃖		PLAYING CARD SIX OF CLUBS	
+U+1F0D7	🃗		PLAYING CARD SEVEN OF CLUBS	
+U+1F0D8	🃘		PLAYING CARD EIGHT OF CLUBS	
+U+1F0D9	🃙		PLAYING CARD NINE OF CLUBS	
+U+1F0DA	🃚		PLAYING CARD TEN OF CLUBS	
+U+1F0DB	🃛		PLAYING CARD JACK OF CLUBS	
+U+1F0DC	🃜		PLAYING CARD KNIGHT OF CLUBS	
+U+1F0DD	🃝		PLAYING CARD QUEEN OF CLUBS	
+U+1F0DE	🃞		PLAYING CARD KING OF CLUBS	
+U+1F0DF	🃟		PLAYING CARD WHITE JOKER	
+U+1F0E0	🃠		PLAYING CARD FOOL	
+U+1F0E1	🃡		PLAYING CARD TRUMP-1	
+U+1F0E2	🃢		PLAYING CARD TRUMP-2	
+U+1F0E3	🃣		PLAYING CARD TRUMP-3	
+U+1F0E4	🃤		PLAYING CARD TRUMP-4	
+U+1F0E5	🃥		PLAYING CARD TRUMP-5	
+U+1F0E6	🃦		PLAYING CARD TRUMP-6	
+U+1F0E7	🃧		PLAYING CARD TRUMP-7	
+U+1F0E8	🃨		PLAYING CARD TRUMP-8	
+U+1F0E9	🃩		PLAYING CARD TRUMP-9	
+U+1F0EA	🃪		PLAYING CARD TRUMP-10	
+U+1F0EB	🃫		PLAYING CARD TRUMP-11	
+U+1F0EC	🃬		PLAYING CARD TRUMP-12	
+U+1F0ED	🃭		PLAYING CARD TRUMP-13	
+U+1F0EE	🃮		PLAYING CARD TRUMP-14	
+U+1F0EF	🃯		PLAYING CARD TRUMP-15	
+U+1F0F0	🃰		PLAYING CARD TRUMP-16	
+U+1F0F1	🃱		PLAYING CARD TRUMP-17	
+U+1F0F2	🃲		PLAYING CARD TRUMP-18	
+U+1F0F3	🃳		PLAYING CARD TRUMP-19	
+U+1F0F4	🃴		PLAYING CARD TRUMP-20	
+U+1F0F5	🃵		PLAYING CARD TRUMP-21	

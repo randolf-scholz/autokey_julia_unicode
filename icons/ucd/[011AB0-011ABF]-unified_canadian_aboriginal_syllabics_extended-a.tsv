@@ -1,17 +1,17 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11AB0	𑪰	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik hi		
-U+11AB1	𑪱	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik hii		
-U+11AB2	𑪲	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik ho		
-U+11AB3	𑪳	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik hoo		
-U+11AB4	𑪴	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik ha		
-U+11AB5	𑪵	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik haa		
-U+11AB6	𑪶	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shri		
-U+11AB7	𑪷	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shrii		
-U+11AB8	𑪸	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shro		
-U+11AB9	𑪹	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shroo		
-U+11ABA	𑪺	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shra		
-U+11ABB	𑪻	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics nattilik shraa		
-U+11ABC	𑪼	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics spe		
-U+11ABD	𑪽	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics spi		
-U+11ABE	𑪾	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics spo		
-U+11ABF	𑪿	11AB0..11ABF	Unified Canadian Aboriginal Syllabics Extended-A	Canadian syllabics spa		
+code_points	chars	tab_completions	unicode_name	base
+U+11AB0	𑪰		CANADIAN SYLLABICS NATTILIK HI	
+U+11AB1	𑪱		CANADIAN SYLLABICS NATTILIK HII	
+U+11AB2	𑪲		CANADIAN SYLLABICS NATTILIK HO	
+U+11AB3	𑪳		CANADIAN SYLLABICS NATTILIK HOO	
+U+11AB4	𑪴		CANADIAN SYLLABICS NATTILIK HA	
+U+11AB5	𑪵		CANADIAN SYLLABICS NATTILIK HAA	
+U+11AB6	𑪶		CANADIAN SYLLABICS NATTILIK SHRI	
+U+11AB7	𑪷		CANADIAN SYLLABICS NATTILIK SHRII	
+U+11AB8	𑪸		CANADIAN SYLLABICS NATTILIK SHRO	
+U+11AB9	𑪹		CANADIAN SYLLABICS NATTILIK SHROO	
+U+11ABA	𑪺		CANADIAN SYLLABICS NATTILIK SHRA	
+U+11ABB	𑪻		CANADIAN SYLLABICS NATTILIK SHRAA	
+U+11ABC	𑪼		CANADIAN SYLLABICS SPE	
+U+11ABD	𑪽		CANADIAN SYLLABICS SPI	
+U+11ABE	𑪾		CANADIAN SYLLABICS SPO	
+U+11ABF	𑪿		CANADIAN SYLLABICS SPA	

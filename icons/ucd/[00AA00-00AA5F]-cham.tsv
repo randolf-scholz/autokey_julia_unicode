@@ -1,84 +1,84 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+AA00	ꨀ	AA00..AA5F	Cham	Cham letter a		
-U+AA01	ꨁ	AA00..AA5F	Cham	Cham letter i		
-U+AA02	ꨂ	AA00..AA5F	Cham	Cham letter u		
-U+AA03	ꨃ	AA00..AA5F	Cham	Cham letter e		
-U+AA04	ꨄ	AA00..AA5F	Cham	Cham letter ai		
-U+AA05	ꨅ	AA00..AA5F	Cham	Cham letter o		
-U+AA06	ꨆ	AA00..AA5F	Cham	Cham letter ka		
-U+AA07	ꨇ	AA00..AA5F	Cham	Cham letter kha		
-U+AA08	ꨈ	AA00..AA5F	Cham	Cham letter ga		
-U+AA09	ꨉ	AA00..AA5F	Cham	Cham letter gha		
-U+AA0A	ꨊ	AA00..AA5F	Cham	Cham letter ngue		
-U+AA0B	ꨋ	AA00..AA5F	Cham	Cham letter nga		
-U+AA0C	ꨌ	AA00..AA5F	Cham	Cham letter cha		
-U+AA0D	ꨍ	AA00..AA5F	Cham	Cham letter chha		
-U+AA0E	ꨎ	AA00..AA5F	Cham	Cham letter ja		
-U+AA0F	ꨏ	AA00..AA5F	Cham	Cham letter jha		
-U+AA10	ꨐ	AA00..AA5F	Cham	Cham letter nhue		
-U+AA11	ꨑ	AA00..AA5F	Cham	Cham letter nha		
-U+AA12	ꨒ	AA00..AA5F	Cham	Cham letter nhja		
-U+AA13	ꨓ	AA00..AA5F	Cham	Cham letter ta		
-U+AA14	ꨔ	AA00..AA5F	Cham	Cham letter tha		
-U+AA15	ꨕ	AA00..AA5F	Cham	Cham letter da		
-U+AA16	ꨖ	AA00..AA5F	Cham	Cham letter dha		
-U+AA17	ꨗ	AA00..AA5F	Cham	Cham letter nue		
-U+AA18	ꨘ	AA00..AA5F	Cham	Cham letter na		
-U+AA19	ꨙ	AA00..AA5F	Cham	Cham letter dda		
-U+AA1A	ꨚ	AA00..AA5F	Cham	Cham letter pa		
-U+AA1B	ꨛ	AA00..AA5F	Cham	Cham letter ppa		
-U+AA1C	ꨜ	AA00..AA5F	Cham	Cham letter pha		
-U+AA1D	ꨝ	AA00..AA5F	Cham	Cham letter ba		
-U+AA1E	ꨞ	AA00..AA5F	Cham	Cham letter bha		
-U+AA1F	ꨟ	AA00..AA5F	Cham	Cham letter mue		
-U+AA20	ꨠ	AA00..AA5F	Cham	Cham letter ma		
-U+AA21	ꨡ	AA00..AA5F	Cham	Cham letter bba		
-U+AA22	ꨢ	AA00..AA5F	Cham	Cham letter ya		
-U+AA23	ꨣ	AA00..AA5F	Cham	Cham letter ra		
-U+AA24	ꨤ	AA00..AA5F	Cham	Cham letter la		
-U+AA25	ꨥ	AA00..AA5F	Cham	Cham letter va		
-U+AA26	ꨦ	AA00..AA5F	Cham	Cham letter ssa		
-U+AA27	ꨧ	AA00..AA5F	Cham	Cham letter sa		
-U+AA28	ꨨ	AA00..AA5F	Cham	Cham letter ha		
-U+AA29	ꨩ	AA00..AA5F	Cham	Cham vowel sign aa		
-U+AA2A	ꨪ	AA00..AA5F	Cham	Cham vowel sign i		
-U+AA2B	ꨫ	AA00..AA5F	Cham	Cham vowel sign ii		
-U+AA2C	ꨬ	AA00..AA5F	Cham	Cham vowel sign ei		
-U+AA2D	ꨭ	AA00..AA5F	Cham	Cham vowel sign u		
-U+AA2E	ꨮ	AA00..AA5F	Cham	Cham vowel sign oe		
-U+AA2F	ꨯ	AA00..AA5F	Cham	Cham vowel sign o		
-U+AA30	ꨰ	AA00..AA5F	Cham	Cham vowel sign ai		
-U+AA31	ꨱ	AA00..AA5F	Cham	Cham vowel sign au		
-U+AA32	ꨲ	AA00..AA5F	Cham	Cham vowel sign ue		
-U+AA33	ꨳ	AA00..AA5F	Cham	Cham consonant sign ya		
-U+AA34	ꨴ	AA00..AA5F	Cham	Cham consonant sign ra		
-U+AA35	ꨵ	AA00..AA5F	Cham	Cham consonant sign la		
-U+AA36	ꨶ	AA00..AA5F	Cham	Cham consonant sign wa		
-U+AA40	ꩀ	AA00..AA5F	Cham	Cham letter final k		
-U+AA41	ꩁ	AA00..AA5F	Cham	Cham letter final g		
-U+AA42	ꩂ	AA00..AA5F	Cham	Cham letter final ng		
-U+AA43	ꩃ	AA00..AA5F	Cham	Cham consonant sign final ng		
-U+AA44	ꩄ	AA00..AA5F	Cham	Cham letter final ch		
-U+AA45	ꩅ	AA00..AA5F	Cham	Cham letter final t		
-U+AA46	ꩆ	AA00..AA5F	Cham	Cham letter final n		
-U+AA47	ꩇ	AA00..AA5F	Cham	Cham letter final p		
-U+AA48	ꩈ	AA00..AA5F	Cham	Cham letter final y		
-U+AA49	ꩉ	AA00..AA5F	Cham	Cham letter final r		
-U+AA4A	ꩊ	AA00..AA5F	Cham	Cham letter final l		
-U+AA4B	ꩋ	AA00..AA5F	Cham	Cham letter final ss		
-U+AA4C	ꩌ	AA00..AA5F	Cham	Cham consonant sign final m		
-U+AA4D	ꩍ	AA00..AA5F	Cham	Cham consonant sign final h		
-U+AA50	꩐	AA00..AA5F	Cham	Cham digit zero		
-U+AA51	꩑	AA00..AA5F	Cham	Cham digit one		
-U+AA52	꩒	AA00..AA5F	Cham	Cham digit two		
-U+AA53	꩓	AA00..AA5F	Cham	Cham digit three		
-U+AA54	꩔	AA00..AA5F	Cham	Cham digit four		
-U+AA55	꩕	AA00..AA5F	Cham	Cham digit five		
-U+AA56	꩖	AA00..AA5F	Cham	Cham digit six		
-U+AA57	꩗	AA00..AA5F	Cham	Cham digit seven		
-U+AA58	꩘	AA00..AA5F	Cham	Cham digit eight		
-U+AA59	꩙	AA00..AA5F	Cham	Cham digit nine		
-U+AA5C	꩜	AA00..AA5F	Cham	Cham punctuation spiral		
-U+AA5D	꩝	AA00..AA5F	Cham	Cham punctuation danda		
-U+AA5E	꩞	AA00..AA5F	Cham	Cham punctuation double danda		
-U+AA5F	꩟	AA00..AA5F	Cham	Cham punctuation triple danda		
+code_points	chars	tab_completions	unicode_name	base
+U+AA00	ꨀ		CHAM LETTER A	
+U+AA01	ꨁ		CHAM LETTER I	
+U+AA02	ꨂ		CHAM LETTER U	
+U+AA03	ꨃ		CHAM LETTER E	
+U+AA04	ꨄ		CHAM LETTER AI	
+U+AA05	ꨅ		CHAM LETTER O	
+U+AA06	ꨆ		CHAM LETTER KA	
+U+AA07	ꨇ		CHAM LETTER KHA	
+U+AA08	ꨈ		CHAM LETTER GA	
+U+AA09	ꨉ		CHAM LETTER GHA	
+U+AA0A	ꨊ		CHAM LETTER NGUE	
+U+AA0B	ꨋ		CHAM LETTER NGA	
+U+AA0C	ꨌ		CHAM LETTER CHA	
+U+AA0D	ꨍ		CHAM LETTER CHHA	
+U+AA0E	ꨎ		CHAM LETTER JA	
+U+AA0F	ꨏ		CHAM LETTER JHA	
+U+AA10	ꨐ		CHAM LETTER NHUE	
+U+AA11	ꨑ		CHAM LETTER NHA	
+U+AA12	ꨒ		CHAM LETTER NHJA	
+U+AA13	ꨓ		CHAM LETTER TA	
+U+AA14	ꨔ		CHAM LETTER THA	
+U+AA15	ꨕ		CHAM LETTER DA	
+U+AA16	ꨖ		CHAM LETTER DHA	
+U+AA17	ꨗ		CHAM LETTER NUE	
+U+AA18	ꨘ		CHAM LETTER NA	
+U+AA19	ꨙ		CHAM LETTER DDA	
+U+AA1A	ꨚ		CHAM LETTER PA	
+U+AA1B	ꨛ		CHAM LETTER PPA	
+U+AA1C	ꨜ		CHAM LETTER PHA	
+U+AA1D	ꨝ		CHAM LETTER BA	
+U+AA1E	ꨞ		CHAM LETTER BHA	
+U+AA1F	ꨟ		CHAM LETTER MUE	
+U+AA20	ꨠ		CHAM LETTER MA	
+U+AA21	ꨡ		CHAM LETTER BBA	
+U+AA22	ꨢ		CHAM LETTER YA	
+U+AA23	ꨣ		CHAM LETTER RA	
+U+AA24	ꨤ		CHAM LETTER LA	
+U+AA25	ꨥ		CHAM LETTER VA	
+U+AA26	ꨦ		CHAM LETTER SSA	
+U+AA27	ꨧ		CHAM LETTER SA	
+U+AA28	ꨨ		CHAM LETTER HA	
+U+AA29	ꨩ		CHAM VOWEL SIGN AA	
+U+AA2A	ꨪ		CHAM VOWEL SIGN I	
+U+AA2B	ꨫ		CHAM VOWEL SIGN II	
+U+AA2C	ꨬ		CHAM VOWEL SIGN EI	
+U+AA2D	ꨭ		CHAM VOWEL SIGN U	
+U+AA2E	ꨮ		CHAM VOWEL SIGN OE	
+U+AA2F	ꨯ		CHAM VOWEL SIGN O	
+U+AA30	ꨰ		CHAM VOWEL SIGN AI	
+U+AA31	ꨱ		CHAM VOWEL SIGN AU	
+U+AA32	ꨲ		CHAM VOWEL SIGN UE	
+U+AA33	ꨳ		CHAM CONSONANT SIGN YA	
+U+AA34	ꨴ		CHAM CONSONANT SIGN RA	
+U+AA35	ꨵ		CHAM CONSONANT SIGN LA	
+U+AA36	ꨶ		CHAM CONSONANT SIGN WA	
+U+AA40	ꩀ		CHAM LETTER FINAL K	
+U+AA41	ꩁ		CHAM LETTER FINAL G	
+U+AA42	ꩂ		CHAM LETTER FINAL NG	
+U+AA43	ꩃ		CHAM CONSONANT SIGN FINAL NG	
+U+AA44	ꩄ		CHAM LETTER FINAL CH	
+U+AA45	ꩅ		CHAM LETTER FINAL T	
+U+AA46	ꩆ		CHAM LETTER FINAL N	
+U+AA47	ꩇ		CHAM LETTER FINAL P	
+U+AA48	ꩈ		CHAM LETTER FINAL Y	
+U+AA49	ꩉ		CHAM LETTER FINAL R	
+U+AA4A	ꩊ		CHAM LETTER FINAL L	
+U+AA4B	ꩋ		CHAM LETTER FINAL SS	
+U+AA4C	ꩌ		CHAM CONSONANT SIGN FINAL M	
+U+AA4D	ꩍ		CHAM CONSONANT SIGN FINAL H	
+U+AA50	꩐		CHAM DIGIT ZERO	
+U+AA51	꩑		CHAM DIGIT ONE	
+U+AA52	꩒		CHAM DIGIT TWO	
+U+AA53	꩓		CHAM DIGIT THREE	
+U+AA54	꩔		CHAM DIGIT FOUR	
+U+AA55	꩕		CHAM DIGIT FIVE	
+U+AA56	꩖		CHAM DIGIT SIX	
+U+AA57	꩗		CHAM DIGIT SEVEN	
+U+AA58	꩘		CHAM DIGIT EIGHT	
+U+AA59	꩙		CHAM DIGIT NINE	
+U+AA5C	꩜		CHAM PUNCTUATION SPIRAL	
+U+AA5D	꩝		CHAM PUNCTUATION DANDA	
+U+AA5E	꩞		CHAM PUNCTUATION DOUBLE DANDA	
+U+AA5F	꩟		CHAM PUNCTUATION TRIPLE DANDA	

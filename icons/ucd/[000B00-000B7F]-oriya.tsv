@@ -1,94 +1,94 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0B01	ଁ	0B00..0B7F	Oriya	Oriya sign candrabindu		
-U+0B02	ଂ	0B00..0B7F	Oriya	Oriya sign anusvara		
-U+0B03	ଃ	0B00..0B7F	Oriya	Oriya sign visarga		
-U+0B05	ଅ	0B00..0B7F	Oriya	Oriya letter a		
-U+0B06	ଆ	0B00..0B7F	Oriya	Oriya letter aa		
-U+0B07	ଇ	0B00..0B7F	Oriya	Oriya letter i		
-U+0B08	ଈ	0B00..0B7F	Oriya	Oriya letter ii		
-U+0B09	ଉ	0B00..0B7F	Oriya	Oriya letter u		
-U+0B0A	ଊ	0B00..0B7F	Oriya	Oriya letter uu		
-U+0B0B	ଋ	0B00..0B7F	Oriya	Oriya letter vocalic r		
-U+0B0C	ଌ	0B00..0B7F	Oriya	Oriya letter vocalic l		
-U+0B0F	ଏ	0B00..0B7F	Oriya	Oriya letter e		
-U+0B10	ଐ	0B00..0B7F	Oriya	Oriya letter ai		
-U+0B13	ଓ	0B00..0B7F	Oriya	Oriya letter o		
-U+0B14	ଔ	0B00..0B7F	Oriya	Oriya letter au		
-U+0B15	କ	0B00..0B7F	Oriya	Oriya letter ka		
-U+0B16	ଖ	0B00..0B7F	Oriya	Oriya letter kha		
-U+0B17	ଗ	0B00..0B7F	Oriya	Oriya letter ga		
-U+0B18	ଘ	0B00..0B7F	Oriya	Oriya letter gha		
-U+0B19	ଙ	0B00..0B7F	Oriya	Oriya letter nga		
-U+0B1A	ଚ	0B00..0B7F	Oriya	Oriya letter ca		
-U+0B1B	ଛ	0B00..0B7F	Oriya	Oriya letter cha		
-U+0B1C	ଜ	0B00..0B7F	Oriya	Oriya letter ja		
-U+0B1D	ଝ	0B00..0B7F	Oriya	Oriya letter jha		
-U+0B1E	ଞ	0B00..0B7F	Oriya	Oriya letter nya		
-U+0B1F	ଟ	0B00..0B7F	Oriya	Oriya letter tta		
-U+0B20	ଠ	0B00..0B7F	Oriya	Oriya letter ttha		
-U+0B21	ଡ	0B00..0B7F	Oriya	Oriya letter dda		
-U+0B22	ଢ	0B00..0B7F	Oriya	Oriya letter ddha		
-U+0B23	ଣ	0B00..0B7F	Oriya	Oriya letter nna		
-U+0B24	ତ	0B00..0B7F	Oriya	Oriya letter ta		
-U+0B25	ଥ	0B00..0B7F	Oriya	Oriya letter tha		
-U+0B26	ଦ	0B00..0B7F	Oriya	Oriya letter da		
-U+0B27	ଧ	0B00..0B7F	Oriya	Oriya letter dha		
-U+0B28	ନ	0B00..0B7F	Oriya	Oriya letter na		
-U+0B2A	ପ	0B00..0B7F	Oriya	Oriya letter pa		
-U+0B2B	ଫ	0B00..0B7F	Oriya	Oriya letter pha		
-U+0B2C	ବ	0B00..0B7F	Oriya	Oriya letter ba		
-U+0B2D	ଭ	0B00..0B7F	Oriya	Oriya letter bha		
-U+0B2E	ମ	0B00..0B7F	Oriya	Oriya letter ma		
-U+0B2F	ଯ	0B00..0B7F	Oriya	Oriya letter ya		
-U+0B30	ର	0B00..0B7F	Oriya	Oriya letter ra		
-U+0B32	ଲ	0B00..0B7F	Oriya	Oriya letter la		
-U+0B33	ଳ	0B00..0B7F	Oriya	Oriya letter lla		
-U+0B35	ଵ	0B00..0B7F	Oriya	Oriya letter va		
-U+0B36	ଶ	0B00..0B7F	Oriya	Oriya letter sha		
-U+0B37	ଷ	0B00..0B7F	Oriya	Oriya letter ssa		
-U+0B38	ସ	0B00..0B7F	Oriya	Oriya letter sa		
-U+0B39	ହ	0B00..0B7F	Oriya	Oriya letter ha		
-U+0B3C	଼	0B00..0B7F	Oriya	Oriya sign nukta		
-U+0B3D	ଽ	0B00..0B7F	Oriya	Oriya sign avagraha		
-U+0B3E	ା	0B00..0B7F	Oriya	Oriya vowel sign aa		
-U+0B3F	ି	0B00..0B7F	Oriya	Oriya vowel sign i		
-U+0B40	ୀ	0B00..0B7F	Oriya	Oriya vowel sign ii		
-U+0B41	ୁ	0B00..0B7F	Oriya	Oriya vowel sign u		
-U+0B42	ୂ	0B00..0B7F	Oriya	Oriya vowel sign uu		
-U+0B43	ୃ	0B00..0B7F	Oriya	Oriya vowel sign vocalic r		
-U+0B44	ୄ	0B00..0B7F	Oriya	Oriya vowel sign vocalic rr		
-U+0B47	େ	0B00..0B7F	Oriya	Oriya vowel sign e		
-U+0B48	ୈ	0B00..0B7F	Oriya	Oriya vowel sign ai		
-U+0B4B	ୋ	0B00..0B7F	Oriya	Oriya vowel sign o		
-U+0B4C	ୌ	0B00..0B7F	Oriya	Oriya vowel sign au		
-U+0B4D	୍	0B00..0B7F	Oriya	Oriya sign virama		
-U+0B53	୓	0B00..0B7F	Oriya	Oriya sign dot above		
-U+0B54	୔	0B00..0B7F	Oriya	Oriya sign double dot above		
-U+0B55	୕	0B00..0B7F	Oriya	Oriya sign overline		
-U+0B56	ୖ	0B00..0B7F	Oriya	Oriya ai length mark		
-U+0B57	ୗ	0B00..0B7F	Oriya	Oriya au length mark		
-U+0B5C	ଡ଼	0B00..0B7F	Oriya	Oriya letter rra		
-U+0B5D	ଢ଼	0B00..0B7F	Oriya	Oriya letter rha		
-U+0B5F	ୟ	0B00..0B7F	Oriya	Oriya letter yya		
-U+0B60	ୠ	0B00..0B7F	Oriya	Oriya letter vocalic rr		
-U+0B61	ୡ	0B00..0B7F	Oriya	Oriya letter vocalic ll		
-U+0B62	ୢ	0B00..0B7F	Oriya	Oriya vowel sign vocalic l		
-U+0B63	ୣ	0B00..0B7F	Oriya	Oriya vowel sign vocalic ll		
-U+0B66	୦	0B00..0B7F	Oriya	Oriya digit zero		
-U+0B67	୧	0B00..0B7F	Oriya	Oriya digit one		
-U+0B68	୨	0B00..0B7F	Oriya	Oriya digit two		
-U+0B69	୩	0B00..0B7F	Oriya	Oriya digit three		
-U+0B6A	୪	0B00..0B7F	Oriya	Oriya digit four		
-U+0B6B	୫	0B00..0B7F	Oriya	Oriya digit five		
-U+0B6C	୬	0B00..0B7F	Oriya	Oriya digit six		
-U+0B6D	୭	0B00..0B7F	Oriya	Oriya digit seven		
-U+0B6E	୮	0B00..0B7F	Oriya	Oriya digit eight		
-U+0B6F	୯	0B00..0B7F	Oriya	Oriya digit nine		
-U+0B70	୰	0B00..0B7F	Oriya	Oriya isshar		
-U+0B71	ୱ	0B00..0B7F	Oriya	Oriya letter wa		
-U+0B72	୲	0B00..0B7F	Oriya	Oriya fraction one quarter		
-U+0B73	୳	0B00..0B7F	Oriya	Oriya fraction one half		
-U+0B74	୴	0B00..0B7F	Oriya	Oriya fraction three quarters		
-U+0B75	୵	0B00..0B7F	Oriya	Oriya fraction one sixteenth		
-U+0B76	୶	0B00..0B7F	Oriya	Oriya fraction one eighth		
-U+0B77	୷	0B00..0B7F	Oriya	Oriya fraction three sixteenths		
+code_points	chars	tab_completions	unicode_name	base
+U+0B01	ଁ		ORIYA SIGN CANDRABINDU	
+U+0B02	ଂ		ORIYA SIGN ANUSVARA	
+U+0B03	ଃ		ORIYA SIGN VISARGA	
+U+0B05	ଅ		ORIYA LETTER A	
+U+0B06	ଆ		ORIYA LETTER AA	
+U+0B07	ଇ		ORIYA LETTER I	
+U+0B08	ଈ		ORIYA LETTER II	
+U+0B09	ଉ		ORIYA LETTER U	
+U+0B0A	ଊ		ORIYA LETTER UU	
+U+0B0B	ଋ		ORIYA LETTER VOCALIC R	
+U+0B0C	ଌ		ORIYA LETTER VOCALIC L	
+U+0B0F	ଏ		ORIYA LETTER E	
+U+0B10	ଐ		ORIYA LETTER AI	
+U+0B13	ଓ		ORIYA LETTER O	
+U+0B14	ଔ		ORIYA LETTER AU	
+U+0B15	କ		ORIYA LETTER KA	
+U+0B16	ଖ		ORIYA LETTER KHA	
+U+0B17	ଗ		ORIYA LETTER GA	
+U+0B18	ଘ		ORIYA LETTER GHA	
+U+0B19	ଙ		ORIYA LETTER NGA	
+U+0B1A	ଚ		ORIYA LETTER CA	
+U+0B1B	ଛ		ORIYA LETTER CHA	
+U+0B1C	ଜ		ORIYA LETTER JA	
+U+0B1D	ଝ		ORIYA LETTER JHA	
+U+0B1E	ଞ		ORIYA LETTER NYA	
+U+0B1F	ଟ		ORIYA LETTER TTA	
+U+0B20	ଠ		ORIYA LETTER TTHA	
+U+0B21	ଡ		ORIYA LETTER DDA	
+U+0B22	ଢ		ORIYA LETTER DDHA	
+U+0B23	ଣ		ORIYA LETTER NNA	
+U+0B24	ତ		ORIYA LETTER TA	
+U+0B25	ଥ		ORIYA LETTER THA	
+U+0B26	ଦ		ORIYA LETTER DA	
+U+0B27	ଧ		ORIYA LETTER DHA	
+U+0B28	ନ		ORIYA LETTER NA	
+U+0B2A	ପ		ORIYA LETTER PA	
+U+0B2B	ଫ		ORIYA LETTER PHA	
+U+0B2C	ବ		ORIYA LETTER BA	
+U+0B2D	ଭ		ORIYA LETTER BHA	
+U+0B2E	ମ		ORIYA LETTER MA	
+U+0B2F	ଯ		ORIYA LETTER YA	
+U+0B30	ର		ORIYA LETTER RA	
+U+0B32	ଲ		ORIYA LETTER LA	
+U+0B33	ଳ		ORIYA LETTER LLA	
+U+0B35	ଵ		ORIYA LETTER VA	
+U+0B36	ଶ		ORIYA LETTER SHA	
+U+0B37	ଷ		ORIYA LETTER SSA	
+U+0B38	ସ		ORIYA LETTER SA	
+U+0B39	ହ		ORIYA LETTER HA	
+U+0B3C	଼		ORIYA SIGN NUKTA	
+U+0B3D	ଽ		ORIYA SIGN AVAGRAHA	
+U+0B3E	ା		ORIYA VOWEL SIGN AA	
+U+0B3F	ି		ORIYA VOWEL SIGN I	
+U+0B40	ୀ		ORIYA VOWEL SIGN II	
+U+0B41	ୁ		ORIYA VOWEL SIGN U	
+U+0B42	ୂ		ORIYA VOWEL SIGN UU	
+U+0B43	ୃ		ORIYA VOWEL SIGN VOCALIC R	
+U+0B44	ୄ		ORIYA VOWEL SIGN VOCALIC RR	
+U+0B47	େ		ORIYA VOWEL SIGN E	
+U+0B48	ୈ		ORIYA VOWEL SIGN AI	
+U+0B4B	ୋ		ORIYA VOWEL SIGN O	
+U+0B4C	ୌ		ORIYA VOWEL SIGN AU	
+U+0B4D	୍		ORIYA SIGN VIRAMA	
+U+0B53	୓		ORIYA SIGN DOT ABOVE	
+U+0B54	୔		ORIYA SIGN DOUBLE DOT ABOVE	
+U+0B55	୕		ORIYA SIGN OVERLINE	
+U+0B56	ୖ		ORIYA AI LENGTH MARK	
+U+0B57	ୗ		ORIYA AU LENGTH MARK	
+U+0B5C	ଡ଼		ORIYA LETTER RRA	
+U+0B5D	ଢ଼		ORIYA LETTER RHA	
+U+0B5F	ୟ		ORIYA LETTER YYA	
+U+0B60	ୠ		ORIYA LETTER VOCALIC RR	
+U+0B61	ୡ		ORIYA LETTER VOCALIC LL	
+U+0B62	ୢ		ORIYA VOWEL SIGN VOCALIC L	
+U+0B63	ୣ		ORIYA VOWEL SIGN VOCALIC LL	
+U+0B66	୦		ORIYA DIGIT ZERO	
+U+0B67	୧		ORIYA DIGIT ONE	
+U+0B68	୨		ORIYA DIGIT TWO	
+U+0B69	୩		ORIYA DIGIT THREE	
+U+0B6A	୪		ORIYA DIGIT FOUR	
+U+0B6B	୫		ORIYA DIGIT FIVE	
+U+0B6C	୬		ORIYA DIGIT SIX	
+U+0B6D	୭		ORIYA DIGIT SEVEN	
+U+0B6E	୮		ORIYA DIGIT EIGHT	
+U+0B6F	୯		ORIYA DIGIT NINE	
+U+0B70	୰		ORIYA ISSHAR	
+U+0B71	ୱ		ORIYA LETTER WA	
+U+0B72	୲		ORIYA FRACTION ONE QUARTER	
+U+0B73	୳		ORIYA FRACTION ONE HALF	
+U+0B74	୴		ORIYA FRACTION THREE QUARTERS	
+U+0B75	୵		ORIYA FRACTION ONE SIXTEENTH	
+U+0B76	୶		ORIYA FRACTION ONE EIGHTH	
+U+0B77	୷		ORIYA FRACTION THREE SIXTEENTHS	

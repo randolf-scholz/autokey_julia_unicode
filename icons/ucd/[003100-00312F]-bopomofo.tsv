@@ -1,44 +1,44 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+3105	ㄅ	3100..312F	Bopomofo	Bopomofo letter b		
-U+3106	ㄆ	3100..312F	Bopomofo	Bopomofo letter p		
-U+3107	ㄇ	3100..312F	Bopomofo	Bopomofo letter m		
-U+3108	ㄈ	3100..312F	Bopomofo	Bopomofo letter f		
-U+3109	ㄉ	3100..312F	Bopomofo	Bopomofo letter d		
-U+310A	ㄊ	3100..312F	Bopomofo	Bopomofo letter t		
-U+310B	ㄋ	3100..312F	Bopomofo	Bopomofo letter n		
-U+310C	ㄌ	3100..312F	Bopomofo	Bopomofo letter l		
-U+310D	ㄍ	3100..312F	Bopomofo	Bopomofo letter g		
-U+310E	ㄎ	3100..312F	Bopomofo	Bopomofo letter k		
-U+310F	ㄏ	3100..312F	Bopomofo	Bopomofo letter h		
-U+3110	ㄐ	3100..312F	Bopomofo	Bopomofo letter j		
-U+3111	ㄑ	3100..312F	Bopomofo	Bopomofo letter q		
-U+3112	ㄒ	3100..312F	Bopomofo	Bopomofo letter x		
-U+3113	ㄓ	3100..312F	Bopomofo	Bopomofo letter zh		
-U+3114	ㄔ	3100..312F	Bopomofo	Bopomofo letter ch		
-U+3115	ㄕ	3100..312F	Bopomofo	Bopomofo letter sh		
-U+3116	ㄖ	3100..312F	Bopomofo	Bopomofo letter r		
-U+3117	ㄗ	3100..312F	Bopomofo	Bopomofo letter z		
-U+3118	ㄘ	3100..312F	Bopomofo	Bopomofo letter c		
-U+3119	ㄙ	3100..312F	Bopomofo	Bopomofo letter s		
-U+311A	ㄚ	3100..312F	Bopomofo	Bopomofo letter a		
-U+311B	ㄛ	3100..312F	Bopomofo	Bopomofo letter o		
-U+311C	ㄜ	3100..312F	Bopomofo	Bopomofo letter e		
-U+311D	ㄝ	3100..312F	Bopomofo	Bopomofo letter eh		
-U+311E	ㄞ	3100..312F	Bopomofo	Bopomofo letter ai		
-U+311F	ㄟ	3100..312F	Bopomofo	Bopomofo letter ei		
-U+3120	ㄠ	3100..312F	Bopomofo	Bopomofo letter au		
-U+3121	ㄡ	3100..312F	Bopomofo	Bopomofo letter ou		
-U+3122	ㄢ	3100..312F	Bopomofo	Bopomofo letter an		
-U+3123	ㄣ	3100..312F	Bopomofo	Bopomofo letter en		
-U+3124	ㄤ	3100..312F	Bopomofo	Bopomofo letter ang		
-U+3125	ㄥ	3100..312F	Bopomofo	Bopomofo letter eng		
-U+3126	ㄦ	3100..312F	Bopomofo	Bopomofo letter er		
-U+3127	ㄧ	3100..312F	Bopomofo	Bopomofo letter i		
-U+3128	ㄨ	3100..312F	Bopomofo	Bopomofo letter u		
-U+3129	ㄩ	3100..312F	Bopomofo	Bopomofo letter iu		
-U+312A	ㄪ	3100..312F	Bopomofo	Bopomofo letter v		
-U+312B	ㄫ	3100..312F	Bopomofo	Bopomofo letter ng		
-U+312C	ㄬ	3100..312F	Bopomofo	Bopomofo letter gn		
-U+312D	ㄭ	3100..312F	Bopomofo	Bopomofo letter ih		
-U+312E	ㄮ	3100..312F	Bopomofo	Bopomofo letter o with dot above		
-U+312F	ㄯ	3100..312F	Bopomofo	Bopomofo letter nn		
+code_points	chars	tab_completions	unicode_name	base
+U+3105	ㄅ		BOPOMOFO LETTER B	
+U+3106	ㄆ		BOPOMOFO LETTER P	
+U+3107	ㄇ		BOPOMOFO LETTER M	
+U+3108	ㄈ		BOPOMOFO LETTER F	
+U+3109	ㄉ		BOPOMOFO LETTER D	
+U+310A	ㄊ		BOPOMOFO LETTER T	
+U+310B	ㄋ		BOPOMOFO LETTER N	
+U+310C	ㄌ		BOPOMOFO LETTER L	
+U+310D	ㄍ		BOPOMOFO LETTER G	
+U+310E	ㄎ		BOPOMOFO LETTER K	
+U+310F	ㄏ		BOPOMOFO LETTER H	
+U+3110	ㄐ		BOPOMOFO LETTER J	
+U+3111	ㄑ		BOPOMOFO LETTER Q	
+U+3112	ㄒ		BOPOMOFO LETTER X	
+U+3113	ㄓ		BOPOMOFO LETTER ZH	
+U+3114	ㄔ		BOPOMOFO LETTER CH	
+U+3115	ㄕ		BOPOMOFO LETTER SH	
+U+3116	ㄖ		BOPOMOFO LETTER R	
+U+3117	ㄗ		BOPOMOFO LETTER Z	
+U+3118	ㄘ		BOPOMOFO LETTER C	
+U+3119	ㄙ		BOPOMOFO LETTER S	
+U+311A	ㄚ		BOPOMOFO LETTER A	
+U+311B	ㄛ		BOPOMOFO LETTER O	
+U+311C	ㄜ		BOPOMOFO LETTER E	
+U+311D	ㄝ		BOPOMOFO LETTER EH	
+U+311E	ㄞ		BOPOMOFO LETTER AI	
+U+311F	ㄟ		BOPOMOFO LETTER EI	
+U+3120	ㄠ		BOPOMOFO LETTER AU	
+U+3121	ㄡ		BOPOMOFO LETTER OU	
+U+3122	ㄢ		BOPOMOFO LETTER AN	
+U+3123	ㄣ		BOPOMOFO LETTER EN	
+U+3124	ㄤ		BOPOMOFO LETTER ANG	
+U+3125	ㄥ		BOPOMOFO LETTER ENG	
+U+3126	ㄦ		BOPOMOFO LETTER ER	
+U+3127	ㄧ		BOPOMOFO LETTER I	
+U+3128	ㄨ		BOPOMOFO LETTER U	
+U+3129	ㄩ		BOPOMOFO LETTER IU	
+U+312A	ㄪ		BOPOMOFO LETTER V	
+U+312B	ㄫ		BOPOMOFO LETTER NG	
+U+312C	ㄬ		BOPOMOFO LETTER GN	
+U+312D	ㄭ		BOPOMOFO LETTER IH	
+U+312E	ㄮ		BOPOMOFO LETTER O WITH DOT ABOVE	
+U+312F	ㄯ		BOPOMOFO LETTER NN	

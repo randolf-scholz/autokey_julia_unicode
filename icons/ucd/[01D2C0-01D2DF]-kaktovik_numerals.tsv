@@ -1,21 +1,21 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1D2C0	𝋀	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral zero		
-U+1D2C1	𝋁	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral one		
-U+1D2C2	𝋂	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral two		
-U+1D2C3	𝋃	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral three		
-U+1D2C4	𝋄	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral four		
-U+1D2C5	𝋅	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral five		
-U+1D2C6	𝋆	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral six		
-U+1D2C7	𝋇	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral seven		
-U+1D2C8	𝋈	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral eight		
-U+1D2C9	𝋉	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral nine		
-U+1D2CA	𝋊	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral ten		
-U+1D2CB	𝋋	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral eleven		
-U+1D2CC	𝋌	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral twelve		
-U+1D2CD	𝋍	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral thirteen		
-U+1D2CE	𝋎	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral fourteen		
-U+1D2CF	𝋏	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral fifteen		
-U+1D2D0	𝋐	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral sixteen		
-U+1D2D1	𝋑	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral seventeen		
-U+1D2D2	𝋒	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral eighteen		
-U+1D2D3	𝋓	1D2C0..1D2DF	Kaktovik Numerals	Kaktovik numeral nineteen		
+code_points	chars	tab_completions	unicode_name	base
+U+1D2C0	𝋀		KAKTOVIK NUMERAL ZERO	
+U+1D2C1	𝋁		KAKTOVIK NUMERAL ONE	
+U+1D2C2	𝋂		KAKTOVIK NUMERAL TWO	
+U+1D2C3	𝋃		KAKTOVIK NUMERAL THREE	
+U+1D2C4	𝋄		KAKTOVIK NUMERAL FOUR	
+U+1D2C5	𝋅		KAKTOVIK NUMERAL FIVE	
+U+1D2C6	𝋆		KAKTOVIK NUMERAL SIX	
+U+1D2C7	𝋇		KAKTOVIK NUMERAL SEVEN	
+U+1D2C8	𝋈		KAKTOVIK NUMERAL EIGHT	
+U+1D2C9	𝋉		KAKTOVIK NUMERAL NINE	
+U+1D2CA	𝋊		KAKTOVIK NUMERAL TEN	
+U+1D2CB	𝋋		KAKTOVIK NUMERAL ELEVEN	
+U+1D2CC	𝋌		KAKTOVIK NUMERAL TWELVE	
+U+1D2CD	𝋍		KAKTOVIK NUMERAL THIRTEEN	
+U+1D2CE	𝋎		KAKTOVIK NUMERAL FOURTEEN	
+U+1D2CF	𝋏		KAKTOVIK NUMERAL FIFTEEN	
+U+1D2D0	𝋐		KAKTOVIK NUMERAL SIXTEEN	
+U+1D2D1	𝋑		KAKTOVIK NUMERAL SEVENTEEN	
+U+1D2D2	𝋒		KAKTOVIK NUMERAL EIGHTEEN	
+U+1D2D3	𝋓		KAKTOVIK NUMERAL NINETEEN	

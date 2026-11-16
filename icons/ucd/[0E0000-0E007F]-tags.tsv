@@ -1,98 +1,98 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+E0001	󠀁	E0000..E007F	Tags	Language tag		
-U+E0020	󠀠	E0000..E007F	Tags	Tag space		
-U+E0021	󠀡	E0000..E007F	Tags	Tag exclamation mark		
-U+E0022	󠀢	E0000..E007F	Tags	Tag quotation mark		
-U+E0023	󠀣	E0000..E007F	Tags	Tag number sign		
-U+E0024	󠀤	E0000..E007F	Tags	Tag dollar sign		
-U+E0025	󠀥	E0000..E007F	Tags	Tag percent sign		
-U+E0026	󠀦	E0000..E007F	Tags	Tag ampersand		
-U+E0027	󠀧	E0000..E007F	Tags	Tag apostrophe		
-U+E0028	󠀨	E0000..E007F	Tags	Tag left parenthesis		
-U+E0029	󠀩	E0000..E007F	Tags	Tag right parenthesis		
-U+E002A	󠀪	E0000..E007F	Tags	Tag asterisk		
-U+E002B	󠀫	E0000..E007F	Tags	Tag plus sign		
-U+E002C	󠀬	E0000..E007F	Tags	Tag comma		
-U+E002D	󠀭	E0000..E007F	Tags	Tag hyphen-minus		
-U+E002E	󠀮	E0000..E007F	Tags	Tag full stop		
-U+E002F	󠀯	E0000..E007F	Tags	Tag solidus		
-U+E0030	󠀰	E0000..E007F	Tags	Tag digit zero		
-U+E0031	󠀱	E0000..E007F	Tags	Tag digit one		
-U+E0032	󠀲	E0000..E007F	Tags	Tag digit two		
-U+E0033	󠀳	E0000..E007F	Tags	Tag digit three		
-U+E0034	󠀴	E0000..E007F	Tags	Tag digit four		
-U+E0035	󠀵	E0000..E007F	Tags	Tag digit five		
-U+E0036	󠀶	E0000..E007F	Tags	Tag digit six		
-U+E0037	󠀷	E0000..E007F	Tags	Tag digit seven		
-U+E0038	󠀸	E0000..E007F	Tags	Tag digit eight		
-U+E0039	󠀹	E0000..E007F	Tags	Tag digit nine		
-U+E003A	󠀺	E0000..E007F	Tags	Tag colon		
-U+E003B	󠀻	E0000..E007F	Tags	Tag semicolon		
-U+E003C	󠀼	E0000..E007F	Tags	Tag less-than sign		
-U+E003D	󠀽	E0000..E007F	Tags	Tag equals sign		
-U+E003E	󠀾	E0000..E007F	Tags	Tag greater-than sign		
-U+E003F	󠀿	E0000..E007F	Tags	Tag question mark		
-U+E0040	󠁀	E0000..E007F	Tags	Tag commercial at		
-U+E0041	󠁁	E0000..E007F	Tags	Tag latin capital letter a		
-U+E0042	󠁂	E0000..E007F	Tags	Tag latin capital letter b		
-U+E0043	󠁃	E0000..E007F	Tags	Tag latin capital letter c		
-U+E0044	󠁄	E0000..E007F	Tags	Tag latin capital letter d		
-U+E0045	󠁅	E0000..E007F	Tags	Tag latin capital letter e		
-U+E0046	󠁆	E0000..E007F	Tags	Tag latin capital letter f		
-U+E0047	󠁇	E0000..E007F	Tags	Tag latin capital letter g		
-U+E0048	󠁈	E0000..E007F	Tags	Tag latin capital letter h		
-U+E0049	󠁉	E0000..E007F	Tags	Tag latin capital letter i		
-U+E004A	󠁊	E0000..E007F	Tags	Tag latin capital letter j		
-U+E004B	󠁋	E0000..E007F	Tags	Tag latin capital letter k		
-U+E004C	󠁌	E0000..E007F	Tags	Tag latin capital letter l		
-U+E004D	󠁍	E0000..E007F	Tags	Tag latin capital letter m		
-U+E004E	󠁎	E0000..E007F	Tags	Tag latin capital letter n		
-U+E004F	󠁏	E0000..E007F	Tags	Tag latin capital letter o		
-U+E0050	󠁐	E0000..E007F	Tags	Tag latin capital letter p		
-U+E0051	󠁑	E0000..E007F	Tags	Tag latin capital letter q		
-U+E0052	󠁒	E0000..E007F	Tags	Tag latin capital letter r		
-U+E0053	󠁓	E0000..E007F	Tags	Tag latin capital letter s		
-U+E0054	󠁔	E0000..E007F	Tags	Tag latin capital letter t		
-U+E0055	󠁕	E0000..E007F	Tags	Tag latin capital letter u		
-U+E0056	󠁖	E0000..E007F	Tags	Tag latin capital letter v		
-U+E0057	󠁗	E0000..E007F	Tags	Tag latin capital letter w		
-U+E0058	󠁘	E0000..E007F	Tags	Tag latin capital letter x		
-U+E0059	󠁙	E0000..E007F	Tags	Tag latin capital letter y		
-U+E005A	󠁚	E0000..E007F	Tags	Tag latin capital letter z		
-U+E005B	󠁛	E0000..E007F	Tags	Tag left square bracket		
-U+E005C	󠁜	E0000..E007F	Tags	Tag reverse solidus		
-U+E005D	󠁝	E0000..E007F	Tags	Tag right square bracket		
-U+E005E	󠁞	E0000..E007F	Tags	Tag circumflex accent		
-U+E005F	󠁟	E0000..E007F	Tags	Tag low line		
-U+E0060	󠁠	E0000..E007F	Tags	Tag grave accent		
-U+E0061	󠁡	E0000..E007F	Tags	Tag latin small letter a		
-U+E0062	󠁢	E0000..E007F	Tags	Tag latin small letter b		
-U+E0063	󠁣	E0000..E007F	Tags	Tag latin small letter c		
-U+E0064	󠁤	E0000..E007F	Tags	Tag latin small letter d		
-U+E0065	󠁥	E0000..E007F	Tags	Tag latin small letter e		
-U+E0066	󠁦	E0000..E007F	Tags	Tag latin small letter f		
-U+E0067	󠁧	E0000..E007F	Tags	Tag latin small letter g		
-U+E0068	󠁨	E0000..E007F	Tags	Tag latin small letter h		
-U+E0069	󠁩	E0000..E007F	Tags	Tag latin small letter i		
-U+E006A	󠁪	E0000..E007F	Tags	Tag latin small letter j		
-U+E006B	󠁫	E0000..E007F	Tags	Tag latin small letter k		
-U+E006C	󠁬	E0000..E007F	Tags	Tag latin small letter l		
-U+E006D	󠁭	E0000..E007F	Tags	Tag latin small letter m		
-U+E006E	󠁮	E0000..E007F	Tags	Tag latin small letter n		
-U+E006F	󠁯	E0000..E007F	Tags	Tag latin small letter o		
-U+E0070	󠁰	E0000..E007F	Tags	Tag latin small letter p		
-U+E0071	󠁱	E0000..E007F	Tags	Tag latin small letter q		
-U+E0072	󠁲	E0000..E007F	Tags	Tag latin small letter r		
-U+E0073	󠁳	E0000..E007F	Tags	Tag latin small letter s		
-U+E0074	󠁴	E0000..E007F	Tags	Tag latin small letter t		
-U+E0075	󠁵	E0000..E007F	Tags	Tag latin small letter u		
-U+E0076	󠁶	E0000..E007F	Tags	Tag latin small letter v		
-U+E0077	󠁷	E0000..E007F	Tags	Tag latin small letter w		
-U+E0078	󠁸	E0000..E007F	Tags	Tag latin small letter x		
-U+E0079	󠁹	E0000..E007F	Tags	Tag latin small letter y		
-U+E007A	󠁺	E0000..E007F	Tags	Tag latin small letter z		
-U+E007B	󠁻	E0000..E007F	Tags	Tag left curly bracket		
-U+E007C	󠁼	E0000..E007F	Tags	Tag vertical line		
-U+E007D	󠁽	E0000..E007F	Tags	Tag right curly bracket		
-U+E007E	󠁾	E0000..E007F	Tags	Tag tilde		
-U+E007F	󠁿	E0000..E007F	Tags	Cancel tag		
+code_points	chars	tab_completions	unicode_name	base
+U+E0001	󠀁		LANGUAGE TAG	
+U+E0020	󠀠		TAG SPACE	
+U+E0021	󠀡		TAG EXCLAMATION MARK	
+U+E0022	󠀢		TAG QUOTATION MARK	
+U+E0023	󠀣		TAG NUMBER SIGN	
+U+E0024	󠀤		TAG DOLLAR SIGN	
+U+E0025	󠀥		TAG PERCENT SIGN	
+U+E0026	󠀦		TAG AMPERSAND	
+U+E0027	󠀧		TAG APOSTROPHE	
+U+E0028	󠀨		TAG LEFT PARENTHESIS	
+U+E0029	󠀩		TAG RIGHT PARENTHESIS	
+U+E002A	󠀪		TAG ASTERISK	
+U+E002B	󠀫		TAG PLUS SIGN	
+U+E002C	󠀬		TAG COMMA	
+U+E002D	󠀭		TAG HYPHEN-MINUS	
+U+E002E	󠀮		TAG FULL STOP	
+U+E002F	󠀯		TAG SOLIDUS	
+U+E0030	󠀰		TAG DIGIT ZERO	
+U+E0031	󠀱		TAG DIGIT ONE	
+U+E0032	󠀲		TAG DIGIT TWO	
+U+E0033	󠀳		TAG DIGIT THREE	
+U+E0034	󠀴		TAG DIGIT FOUR	
+U+E0035	󠀵		TAG DIGIT FIVE	
+U+E0036	󠀶		TAG DIGIT SIX	
+U+E0037	󠀷		TAG DIGIT SEVEN	
+U+E0038	󠀸		TAG DIGIT EIGHT	
+U+E0039	󠀹		TAG DIGIT NINE	
+U+E003A	󠀺		TAG COLON	
+U+E003B	󠀻		TAG SEMICOLON	
+U+E003C	󠀼		TAG LESS-THAN SIGN	
+U+E003D	󠀽		TAG EQUALS SIGN	
+U+E003E	󠀾		TAG GREATER-THAN SIGN	
+U+E003F	󠀿		TAG QUESTION MARK	
+U+E0040	󠁀		TAG COMMERCIAL AT	
+U+E0041	󠁁		TAG LATIN CAPITAL LETTER A	
+U+E0042	󠁂		TAG LATIN CAPITAL LETTER B	
+U+E0043	󠁃		TAG LATIN CAPITAL LETTER C	
+U+E0044	󠁄		TAG LATIN CAPITAL LETTER D	
+U+E0045	󠁅		TAG LATIN CAPITAL LETTER E	
+U+E0046	󠁆		TAG LATIN CAPITAL LETTER F	
+U+E0047	󠁇		TAG LATIN CAPITAL LETTER G	
+U+E0048	󠁈		TAG LATIN CAPITAL LETTER H	
+U+E0049	󠁉		TAG LATIN CAPITAL LETTER I	
+U+E004A	󠁊		TAG LATIN CAPITAL LETTER J	
+U+E004B	󠁋		TAG LATIN CAPITAL LETTER K	
+U+E004C	󠁌		TAG LATIN CAPITAL LETTER L	
+U+E004D	󠁍		TAG LATIN CAPITAL LETTER M	
+U+E004E	󠁎		TAG LATIN CAPITAL LETTER N	
+U+E004F	󠁏		TAG LATIN CAPITAL LETTER O	
+U+E0050	󠁐		TAG LATIN CAPITAL LETTER P	
+U+E0051	󠁑		TAG LATIN CAPITAL LETTER Q	
+U+E0052	󠁒		TAG LATIN CAPITAL LETTER R	
+U+E0053	󠁓		TAG LATIN CAPITAL LETTER S	
+U+E0054	󠁔		TAG LATIN CAPITAL LETTER T	
+U+E0055	󠁕		TAG LATIN CAPITAL LETTER U	
+U+E0056	󠁖		TAG LATIN CAPITAL LETTER V	
+U+E0057	󠁗		TAG LATIN CAPITAL LETTER W	
+U+E0058	󠁘		TAG LATIN CAPITAL LETTER X	
+U+E0059	󠁙		TAG LATIN CAPITAL LETTER Y	
+U+E005A	󠁚		TAG LATIN CAPITAL LETTER Z	
+U+E005B	󠁛		TAG LEFT SQUARE BRACKET	
+U+E005C	󠁜		TAG REVERSE SOLIDUS	
+U+E005D	󠁝		TAG RIGHT SQUARE BRACKET	
+U+E005E	󠁞		TAG CIRCUMFLEX ACCENT	
+U+E005F	󠁟		TAG LOW LINE	
+U+E0060	󠁠		TAG GRAVE ACCENT	
+U+E0061	󠁡		TAG LATIN SMALL LETTER A	
+U+E0062	󠁢		TAG LATIN SMALL LETTER B	
+U+E0063	󠁣		TAG LATIN SMALL LETTER C	
+U+E0064	󠁤		TAG LATIN SMALL LETTER D	
+U+E0065	󠁥		TAG LATIN SMALL LETTER E	
+U+E0066	󠁦		TAG LATIN SMALL LETTER F	
+U+E0067	󠁧		TAG LATIN SMALL LETTER G	
+U+E0068	󠁨		TAG LATIN SMALL LETTER H	
+U+E0069	󠁩		TAG LATIN SMALL LETTER I	
+U+E006A	󠁪		TAG LATIN SMALL LETTER J	
+U+E006B	󠁫		TAG LATIN SMALL LETTER K	
+U+E006C	󠁬		TAG LATIN SMALL LETTER L	
+U+E006D	󠁭		TAG LATIN SMALL LETTER M	
+U+E006E	󠁮		TAG LATIN SMALL LETTER N	
+U+E006F	󠁯		TAG LATIN SMALL LETTER O	
+U+E0070	󠁰		TAG LATIN SMALL LETTER P	
+U+E0071	󠁱		TAG LATIN SMALL LETTER Q	
+U+E0072	󠁲		TAG LATIN SMALL LETTER R	
+U+E0073	󠁳		TAG LATIN SMALL LETTER S	
+U+E0074	󠁴		TAG LATIN SMALL LETTER T	
+U+E0075	󠁵		TAG LATIN SMALL LETTER U	
+U+E0076	󠁶		TAG LATIN SMALL LETTER V	
+U+E0077	󠁷		TAG LATIN SMALL LETTER W	
+U+E0078	󠁸		TAG LATIN SMALL LETTER X	
+U+E0079	󠁹		TAG LATIN SMALL LETTER Y	
+U+E007A	󠁺		TAG LATIN SMALL LETTER Z	
+U+E007B	󠁻		TAG LEFT CURLY BRACKET	
+U+E007C	󠁼		TAG VERTICAL LINE	
+U+E007D	󠁽		TAG RIGHT CURLY BRACKET	
+U+E007E	󠁾		TAG TILDE	
+U+E007F	󠁿		CANCEL TAG	

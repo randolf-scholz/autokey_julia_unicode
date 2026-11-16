@@ -1,33 +1,33 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10980	𐦀	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter a		
-U+10981	𐦁	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter e		
-U+10982	𐦂	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter i		
-U+10983	𐦃	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter o		
-U+10984	𐦄	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ya		
-U+10985	𐦅	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter wa		
-U+10986	𐦆	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ba		
-U+10987	𐦇	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ba-2		
-U+10988	𐦈	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter pa		
-U+10989	𐦉	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ma		
-U+1098A	𐦊	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter na		
-U+1098B	𐦋	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter na-2		
-U+1098C	𐦌	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ne		
-U+1098D	𐦍	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ne-2		
-U+1098E	𐦎	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ra		
-U+1098F	𐦏	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ra-2		
-U+10990	𐦐	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter la		
-U+10991	𐦑	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter kha		
-U+10992	𐦒	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter hha		
-U+10993	𐦓	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter sa		
-U+10994	𐦔	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter sa-2		
-U+10995	𐦕	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter se		
-U+10996	𐦖	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ka		
-U+10997	𐦗	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter qa		
-U+10998	𐦘	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ta		
-U+10999	𐦙	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter ta-2		
-U+1099A	𐦚	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter te		
-U+1099B	𐦛	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter te-2		
-U+1099C	𐦜	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter to		
-U+1099D	𐦝	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic letter da		
-U+1099E	𐦞	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic symbol vidj		
-U+1099F	𐦟	10980..1099F	Meroitic Hieroglyphs	Meroitic hieroglyphic symbol vidj-2		
+code_points	chars	tab_completions	unicode_name	base
+U+10980	𐦀		MEROITIC HIEROGLYPHIC LETTER A	
+U+10981	𐦁		MEROITIC HIEROGLYPHIC LETTER E	
+U+10982	𐦂		MEROITIC HIEROGLYPHIC LETTER I	
+U+10983	𐦃		MEROITIC HIEROGLYPHIC LETTER O	
+U+10984	𐦄		MEROITIC HIEROGLYPHIC LETTER YA	
+U+10985	𐦅		MEROITIC HIEROGLYPHIC LETTER WA	
+U+10986	𐦆		MEROITIC HIEROGLYPHIC LETTER BA	
+U+10987	𐦇		MEROITIC HIEROGLYPHIC LETTER BA-2	
+U+10988	𐦈		MEROITIC HIEROGLYPHIC LETTER PA	
+U+10989	𐦉		MEROITIC HIEROGLYPHIC LETTER MA	
+U+1098A	𐦊		MEROITIC HIEROGLYPHIC LETTER NA	
+U+1098B	𐦋		MEROITIC HIEROGLYPHIC LETTER NA-2	
+U+1098C	𐦌		MEROITIC HIEROGLYPHIC LETTER NE	
+U+1098D	𐦍		MEROITIC HIEROGLYPHIC LETTER NE-2	
+U+1098E	𐦎		MEROITIC HIEROGLYPHIC LETTER RA	
+U+1098F	𐦏		MEROITIC HIEROGLYPHIC LETTER RA-2	
+U+10990	𐦐		MEROITIC HIEROGLYPHIC LETTER LA	
+U+10991	𐦑		MEROITIC HIEROGLYPHIC LETTER KHA	
+U+10992	𐦒		MEROITIC HIEROGLYPHIC LETTER HHA	
+U+10993	𐦓		MEROITIC HIEROGLYPHIC LETTER SA	
+U+10994	𐦔		MEROITIC HIEROGLYPHIC LETTER SA-2	
+U+10995	𐦕		MEROITIC HIEROGLYPHIC LETTER SE	
+U+10996	𐦖		MEROITIC HIEROGLYPHIC LETTER KA	
+U+10997	𐦗		MEROITIC HIEROGLYPHIC LETTER QA	
+U+10998	𐦘		MEROITIC HIEROGLYPHIC LETTER TA	
+U+10999	𐦙		MEROITIC HIEROGLYPHIC LETTER TA-2	
+U+1099A	𐦚		MEROITIC HIEROGLYPHIC LETTER TE	
+U+1099B	𐦛		MEROITIC HIEROGLYPHIC LETTER TE-2	
+U+1099C	𐦜		MEROITIC HIEROGLYPHIC LETTER TO	
+U+1099D	𐦝		MEROITIC HIEROGLYPHIC LETTER DA	
+U+1099E	𐦞		MEROITIC HIEROGLYPHIC SYMBOL VIDJ	
+U+1099F	𐦟		MEROITIC HIEROGLYPHIC SYMBOL VIDJ-2	

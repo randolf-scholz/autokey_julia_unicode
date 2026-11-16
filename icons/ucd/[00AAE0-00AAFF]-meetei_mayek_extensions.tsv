@@ -1,24 +1,24 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+AAE0	ꫠ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter e		
-U+AAE1	ꫡ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter o		
-U+AAE2	ꫢ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter cha		
-U+AAE3	ꫣ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter nya		
-U+AAE4	ꫤ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter tta		
-U+AAE5	ꫥ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter ttha		
-U+AAE6	ꫦ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter dda		
-U+AAE7	ꫧ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter ddha		
-U+AAE8	ꫨ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter nna		
-U+AAE9	ꫩ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter sha		
-U+AAEA	ꫪ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek letter ssa		
-U+AAEB	ꫫ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign ii		
-U+AAEC	ꫬ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign uu		
-U+AAED	ꫭ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign aai		
-U+AAEE	ꫮ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign au		
-U+AAEF	ꫯ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign aau		
-U+AAF0	꫰	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek cheikhan		
-U+AAF1	꫱	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek ahang khudam		
-U+AAF2	ꫲ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek anji		
-U+AAF3	ꫳ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek syllable repetition mark		
-U+AAF4	ꫴ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek word repetition mark		
-U+AAF5	ꫵ	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek vowel sign visarga		
-U+AAF6	꫶	AAE0..AAFF	Meetei Mayek Extensions	Meetei mayek virama		
+code_points	chars	tab_completions	unicode_name	base
+U+AAE0	ꫠ		MEETEI MAYEK LETTER E	
+U+AAE1	ꫡ		MEETEI MAYEK LETTER O	
+U+AAE2	ꫢ		MEETEI MAYEK LETTER CHA	
+U+AAE3	ꫣ		MEETEI MAYEK LETTER NYA	
+U+AAE4	ꫤ		MEETEI MAYEK LETTER TTA	
+U+AAE5	ꫥ		MEETEI MAYEK LETTER TTHA	
+U+AAE6	ꫦ		MEETEI MAYEK LETTER DDA	
+U+AAE7	ꫧ		MEETEI MAYEK LETTER DDHA	
+U+AAE8	ꫨ		MEETEI MAYEK LETTER NNA	
+U+AAE9	ꫩ		MEETEI MAYEK LETTER SHA	
+U+AAEA	ꫪ		MEETEI MAYEK LETTER SSA	
+U+AAEB	ꫫ		MEETEI MAYEK VOWEL SIGN II	
+U+AAEC	ꫬ		MEETEI MAYEK VOWEL SIGN UU	
+U+AAED	ꫭ		MEETEI MAYEK VOWEL SIGN AAI	
+U+AAEE	ꫮ		MEETEI MAYEK VOWEL SIGN AU	
+U+AAEF	ꫯ		MEETEI MAYEK VOWEL SIGN AAU	
+U+AAF0	꫰		MEETEI MAYEK CHEIKHAN	
+U+AAF1	꫱		MEETEI MAYEK AHANG KHUDAM	
+U+AAF2	ꫲ		MEETEI MAYEK ANJI	
+U+AAF3	ꫳ		MEETEI MAYEK SYLLABLE REPETITION MARK	
+U+AAF4	ꫴ		MEETEI MAYEK WORD REPETITION MARK	
+U+AAF5	ꫵ		MEETEI MAYEK VOWEL SIGN VISARGA	
+U+AAF6	꫶		MEETEI MAYEK VIRAMA	

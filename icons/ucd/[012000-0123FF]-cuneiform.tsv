@@ -1,923 +1,923 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+12000	𒀀	12000..123FF	Cuneiform	Cuneiform sign a		
-U+12001	𒀁	12000..123FF	Cuneiform	Cuneiform sign a times a		
-U+12002	𒀂	12000..123FF	Cuneiform	Cuneiform sign a times bad		
-U+12003	𒀃	12000..123FF	Cuneiform	Cuneiform sign a times gan2 tenu		
-U+12004	𒀄	12000..123FF	Cuneiform	Cuneiform sign a times ha		
-U+12005	𒀅	12000..123FF	Cuneiform	Cuneiform sign a times igi		
-U+12006	𒀆	12000..123FF	Cuneiform	Cuneiform sign a times lagar gunu		
-U+12007	𒀇	12000..123FF	Cuneiform	Cuneiform sign a times mush		
-U+12008	𒀈	12000..123FF	Cuneiform	Cuneiform sign a times sag		
-U+12009	𒀉	12000..123FF	Cuneiform	Cuneiform sign a2		
-U+1200A	𒀊	12000..123FF	Cuneiform	Cuneiform sign ab		
-U+1200B	𒀋	12000..123FF	Cuneiform	Cuneiform sign ab times ash2		
-U+1200C	𒀌	12000..123FF	Cuneiform	Cuneiform sign ab times dun3 gunu		
-U+1200D	𒀍	12000..123FF	Cuneiform	Cuneiform sign ab times gal		
-U+1200E	𒀎	12000..123FF	Cuneiform	Cuneiform sign ab times gan2 tenu		
-U+1200F	𒀏	12000..123FF	Cuneiform	Cuneiform sign ab times ha		
-U+12010	𒀐	12000..123FF	Cuneiform	Cuneiform sign ab times igi gunu		
-U+12011	𒀑	12000..123FF	Cuneiform	Cuneiform sign ab times imin		
-U+12012	𒀒	12000..123FF	Cuneiform	Cuneiform sign ab times lagab		
-U+12013	𒀓	12000..123FF	Cuneiform	Cuneiform sign ab times shesh		
-U+12014	𒀔	12000..123FF	Cuneiform	Cuneiform sign ab times u plus u plus u		
-U+12015	𒀕	12000..123FF	Cuneiform	Cuneiform sign ab gunu		
-U+12016	𒀖	12000..123FF	Cuneiform	Cuneiform sign ab2		
-U+12017	𒀗	12000..123FF	Cuneiform	Cuneiform sign ab2 times balag		
-U+12018	𒀘	12000..123FF	Cuneiform	Cuneiform sign ab2 times gan2 tenu		
-U+12019	𒀙	12000..123FF	Cuneiform	Cuneiform sign ab2 times me plus en		
-U+1201A	𒀚	12000..123FF	Cuneiform	Cuneiform sign ab2 times sha3		
-U+1201B	𒀛	12000..123FF	Cuneiform	Cuneiform sign ab2 times tak4		
-U+1201C	𒀜	12000..123FF	Cuneiform	Cuneiform sign ad		
-U+1201D	𒀝	12000..123FF	Cuneiform	Cuneiform sign ak		
-U+1201E	𒀞	12000..123FF	Cuneiform	Cuneiform sign ak times erin2		
-U+1201F	𒀟	12000..123FF	Cuneiform	Cuneiform sign ak times shita plus gish		
-U+12020	𒀠	12000..123FF	Cuneiform	Cuneiform sign al		
-U+12021	𒀡	12000..123FF	Cuneiform	Cuneiform sign al times al		
-U+12022	𒀢	12000..123FF	Cuneiform	Cuneiform sign al times dim2		
-U+12023	𒀣	12000..123FF	Cuneiform	Cuneiform sign al times gish		
-U+12024	𒀤	12000..123FF	Cuneiform	Cuneiform sign al times ha		
-U+12025	𒀥	12000..123FF	Cuneiform	Cuneiform sign al times kad3		
-U+12026	𒀦	12000..123FF	Cuneiform	Cuneiform sign al times ki		
-U+12027	𒀧	12000..123FF	Cuneiform	Cuneiform sign al times she		
-U+12028	𒀨	12000..123FF	Cuneiform	Cuneiform sign al times ush		
-U+12029	𒀩	12000..123FF	Cuneiform	Cuneiform sign alan		
-U+1202A	𒀪	12000..123FF	Cuneiform	Cuneiform sign aleph		
-U+1202B	𒀫	12000..123FF	Cuneiform	Cuneiform sign amar		
-U+1202C	𒀬	12000..123FF	Cuneiform	Cuneiform sign amar times she		
-U+1202D	𒀭	12000..123FF	Cuneiform	Cuneiform sign an		
-U+1202E	𒀮	12000..123FF	Cuneiform	Cuneiform sign an over an		
-U+1202F	𒀯	12000..123FF	Cuneiform	Cuneiform sign an three times		
-U+12030	𒀰	12000..123FF	Cuneiform	Cuneiform sign an plus naga opposing an plus naga		
-U+12031	𒀱	12000..123FF	Cuneiform	Cuneiform sign an plus naga squared		
-U+12032	𒀲	12000..123FF	Cuneiform	Cuneiform sign anshe		
-U+12033	𒀳	12000..123FF	Cuneiform	Cuneiform sign apin		
-U+12034	𒀴	12000..123FF	Cuneiform	Cuneiform sign arad		
-U+12035	𒀵	12000..123FF	Cuneiform	Cuneiform sign arad times kur		
-U+12036	𒀶	12000..123FF	Cuneiform	Cuneiform sign arkab		
-U+12037	𒀷	12000..123FF	Cuneiform	Cuneiform sign asal2		
-U+12038	𒀸	12000..123FF	Cuneiform	Cuneiform sign ash		
-U+12039	𒀹	12000..123FF	Cuneiform	Cuneiform sign ash zida tenu		
-U+1203A	𒀺	12000..123FF	Cuneiform	Cuneiform sign ash kaba tenu		
-U+1203B	𒀻	12000..123FF	Cuneiform	Cuneiform sign ash over ash tug2 over tug2 tug2 over tug2 pap		
-U+1203C	𒀼	12000..123FF	Cuneiform	Cuneiform sign ash over ash over ash		
-U+1203D	𒀽	12000..123FF	Cuneiform	Cuneiform sign ash over ash over ash crossing ash over ash over ash		
-U+1203E	𒀾	12000..123FF	Cuneiform	Cuneiform sign ash2		
-U+1203F	𒀿	12000..123FF	Cuneiform	Cuneiform sign ashgab		
-U+12040	𒁀	12000..123FF	Cuneiform	Cuneiform sign ba		
-U+12041	𒁁	12000..123FF	Cuneiform	Cuneiform sign bad		
-U+12042	𒁂	12000..123FF	Cuneiform	Cuneiform sign bag3		
-U+12043	𒁃	12000..123FF	Cuneiform	Cuneiform sign bahar2		
-U+12044	𒁄	12000..123FF	Cuneiform	Cuneiform sign bal		
-U+12045	𒁅	12000..123FF	Cuneiform	Cuneiform sign bal over bal		
-U+12046	𒁆	12000..123FF	Cuneiform	Cuneiform sign balag		
-U+12047	𒁇	12000..123FF	Cuneiform	Cuneiform sign bar		
-U+12048	𒁈	12000..123FF	Cuneiform	Cuneiform sign bara2		
-U+12049	𒁉	12000..123FF	Cuneiform	Cuneiform sign bi		
-U+1204A	𒁊	12000..123FF	Cuneiform	Cuneiform sign bi times a		
-U+1204B	𒁋	12000..123FF	Cuneiform	Cuneiform sign bi times gar		
-U+1204C	𒁌	12000..123FF	Cuneiform	Cuneiform sign bi times igi gunu		
-U+1204D	𒁍	12000..123FF	Cuneiform	Cuneiform sign bu		
-U+1204E	𒁎	12000..123FF	Cuneiform	Cuneiform sign bu over bu ab		
-U+1204F	𒁏	12000..123FF	Cuneiform	Cuneiform sign bu over bu un		
-U+12050	𒁐	12000..123FF	Cuneiform	Cuneiform sign bu crossing bu		
-U+12051	𒁑	12000..123FF	Cuneiform	Cuneiform sign bulug		
-U+12052	𒁒	12000..123FF	Cuneiform	Cuneiform sign bulug over bulug		
-U+12053	𒁓	12000..123FF	Cuneiform	Cuneiform sign bur		
-U+12054	𒁔	12000..123FF	Cuneiform	Cuneiform sign bur2		
-U+12055	𒁕	12000..123FF	Cuneiform	Cuneiform sign da		
-U+12056	𒁖	12000..123FF	Cuneiform	Cuneiform sign dag		
-U+12057	𒁗	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times a plus mash		
-U+12058	𒁘	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times amar		
-U+12059	𒁙	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times balag		
-U+1205A	𒁚	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times bi		
-U+1205B	𒁛	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ga		
-U+1205C	𒁜	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ga plus mash		
-U+1205D	𒁝	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gi		
-U+1205E	𒁞	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gir2		
-U+1205F	𒁟	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times gud		
-U+12060	𒁠	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ha		
-U+12061	𒁡	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ir		
-U+12062	𒁢	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ir plus lu		
-U+12063	𒁣	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times kak		
-U+12064	𒁤	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times la		
-U+12065	𒁥	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lu		
-U+12066	𒁦	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lu plus mash2		
-U+12067	𒁧	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times lum		
-U+12068	𒁨	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ne		
-U+12069	𒁩	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times pap plus pap		
-U+1206A	𒁪	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times si		
-U+1206B	𒁫	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times tak4		
-U+1206C	𒁬	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times u2 plus gir2		
-U+1206D	𒁭	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times ush		
-U+1206E	𒁮	12000..123FF	Cuneiform	Cuneiform sign dam		
-U+1206F	𒁯	12000..123FF	Cuneiform	Cuneiform sign dar		
-U+12070	𒁰	12000..123FF	Cuneiform	Cuneiform sign dara3		
-U+12071	𒁱	12000..123FF	Cuneiform	Cuneiform sign dara4		
-U+12072	𒁲	12000..123FF	Cuneiform	Cuneiform sign di		
-U+12073	𒁳	12000..123FF	Cuneiform	Cuneiform sign dib		
-U+12074	𒁴	12000..123FF	Cuneiform	Cuneiform sign dim		
-U+12075	𒁵	12000..123FF	Cuneiform	Cuneiform sign dim times she		
-U+12076	𒁶	12000..123FF	Cuneiform	Cuneiform sign dim2		
-U+12077	𒁷	12000..123FF	Cuneiform	Cuneiform sign din		
-U+12078	𒁸	12000..123FF	Cuneiform	Cuneiform sign din kaskal u gunu dish		
-U+12079	𒁹	12000..123FF	Cuneiform	Cuneiform sign dish		
-U+1207A	𒁺	12000..123FF	Cuneiform	Cuneiform sign du		
-U+1207B	𒁻	12000..123FF	Cuneiform	Cuneiform sign du over du		
-U+1207C	𒁼	12000..123FF	Cuneiform	Cuneiform sign du gunu		
-U+1207D	𒁽	12000..123FF	Cuneiform	Cuneiform sign du sheshig		
-U+1207E	𒁾	12000..123FF	Cuneiform	Cuneiform sign dub		
-U+1207F	𒁿	12000..123FF	Cuneiform	Cuneiform sign dub times esh2		
-U+12080	𒂀	12000..123FF	Cuneiform	Cuneiform sign dub2		
-U+12081	𒂁	12000..123FF	Cuneiform	Cuneiform sign dug		
-U+12082	𒂂	12000..123FF	Cuneiform	Cuneiform sign dugud		
-U+12083	𒂃	12000..123FF	Cuneiform	Cuneiform sign duh		
-U+12084	𒂄	12000..123FF	Cuneiform	Cuneiform sign dun		
-U+12085	𒂅	12000..123FF	Cuneiform	Cuneiform sign dun3		
-U+12086	𒂆	12000..123FF	Cuneiform	Cuneiform sign dun3 gunu		
-U+12087	𒂇	12000..123FF	Cuneiform	Cuneiform sign dun3 gunu gunu		
-U+12088	𒂈	12000..123FF	Cuneiform	Cuneiform sign dun4		
-U+12089	𒂉	12000..123FF	Cuneiform	Cuneiform sign dur2		
-U+1208A	𒂊	12000..123FF	Cuneiform	Cuneiform sign e		
-U+1208B	𒂋	12000..123FF	Cuneiform	Cuneiform sign e times pap		
-U+1208C	𒂌	12000..123FF	Cuneiform	Cuneiform sign e over e nun over nun		
-U+1208D	𒂍	12000..123FF	Cuneiform	Cuneiform sign e2		
-U+1208E	𒂎	12000..123FF	Cuneiform	Cuneiform sign e2 times a plus ha plus da		
-U+1208F	𒂏	12000..123FF	Cuneiform	Cuneiform sign e2 times gar		
-U+12090	𒂐	12000..123FF	Cuneiform	Cuneiform sign e2 times mi		
-U+12091	𒂑	12000..123FF	Cuneiform	Cuneiform sign e2 times sal		
-U+12092	𒂒	12000..123FF	Cuneiform	Cuneiform sign e2 times she		
-U+12093	𒂓	12000..123FF	Cuneiform	Cuneiform sign e2 times u		
-U+12094	𒂔	12000..123FF	Cuneiform	Cuneiform sign edin		
-U+12095	𒂕	12000..123FF	Cuneiform	Cuneiform sign egir		
-U+12096	𒂖	12000..123FF	Cuneiform	Cuneiform sign el		
-U+12097	𒂗	12000..123FF	Cuneiform	Cuneiform sign en		
-U+12098	𒂘	12000..123FF	Cuneiform	Cuneiform sign en times gan2		
-U+12099	𒂙	12000..123FF	Cuneiform	Cuneiform sign en times gan2 tenu		
-U+1209A	𒂚	12000..123FF	Cuneiform	Cuneiform sign en times me		
-U+1209B	𒂛	12000..123FF	Cuneiform	Cuneiform sign en crossing en		
-U+1209C	𒂜	12000..123FF	Cuneiform	Cuneiform sign en opposing en		
-U+1209D	𒂝	12000..123FF	Cuneiform	Cuneiform sign en squared		
-U+1209E	𒂞	12000..123FF	Cuneiform	Cuneiform sign eren		
-U+1209F	𒂟	12000..123FF	Cuneiform	Cuneiform sign erin2		
-U+120A0	𒂠	12000..123FF	Cuneiform	Cuneiform sign esh2		
-U+120A1	𒂡	12000..123FF	Cuneiform	Cuneiform sign ezen		
-U+120A2	𒂢	12000..123FF	Cuneiform	Cuneiform sign ezen times a		
-U+120A3	𒂣	12000..123FF	Cuneiform	Cuneiform sign ezen times a plus lal		
-U+120A4	𒂤	12000..123FF	Cuneiform	Cuneiform sign ezen times a plus lal times lal		
-U+120A5	𒂥	12000..123FF	Cuneiform	Cuneiform sign ezen times an		
-U+120A6	𒂦	12000..123FF	Cuneiform	Cuneiform sign ezen times bad		
-U+120A7	𒂧	12000..123FF	Cuneiform	Cuneiform sign ezen times dun3 gunu		
-U+120A8	𒂨	12000..123FF	Cuneiform	Cuneiform sign ezen times dun3 gunu gunu		
-U+120A9	𒂩	12000..123FF	Cuneiform	Cuneiform sign ezen times ha		
-U+120AA	𒂪	12000..123FF	Cuneiform	Cuneiform sign ezen times ha gunu		
-U+120AB	𒂫	12000..123FF	Cuneiform	Cuneiform sign ezen times igi gunu		
-U+120AC	𒂬	12000..123FF	Cuneiform	Cuneiform sign ezen times kaskal		
-U+120AD	𒂭	12000..123FF	Cuneiform	Cuneiform sign ezen times kaskal squared		
-U+120AE	𒂮	12000..123FF	Cuneiform	Cuneiform sign ezen times ku3		
-U+120AF	𒂯	12000..123FF	Cuneiform	Cuneiform sign ezen times la		
-U+120B0	𒂰	12000..123FF	Cuneiform	Cuneiform sign ezen times lal times lal		
-U+120B1	𒂱	12000..123FF	Cuneiform	Cuneiform sign ezen times li		
-U+120B2	𒂲	12000..123FF	Cuneiform	Cuneiform sign ezen times lu		
-U+120B3	𒂳	12000..123FF	Cuneiform	Cuneiform sign ezen times u2		
-U+120B4	𒂴	12000..123FF	Cuneiform	Cuneiform sign ezen times ud		
-U+120B5	𒂵	12000..123FF	Cuneiform	Cuneiform sign ga		
-U+120B6	𒂶	12000..123FF	Cuneiform	Cuneiform sign ga gunu		
-U+120B7	𒂷	12000..123FF	Cuneiform	Cuneiform sign ga2		
-U+120B8	𒂸	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus da plus ha		
-U+120B9	𒂹	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus ha		
-U+120BA	𒂺	12000..123FF	Cuneiform	Cuneiform sign ga2 times a plus igi		
-U+120BB	𒂻	12000..123FF	Cuneiform	Cuneiform sign ga2 times ab2 tenu plus tab		
-U+120BC	𒂼	12000..123FF	Cuneiform	Cuneiform sign ga2 times an		
-U+120BD	𒂽	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash		
-U+120BE	𒂾	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash2 plus gal		
-U+120BF	𒂿	12000..123FF	Cuneiform	Cuneiform sign ga2 times bad		
-U+120C0	𒃀	12000..123FF	Cuneiform	Cuneiform sign ga2 times bar plus ra		
-U+120C1	𒃁	12000..123FF	Cuneiform	Cuneiform sign ga2 times bur		
-U+120C2	𒃂	12000..123FF	Cuneiform	Cuneiform sign ga2 times bur plus ra		
-U+120C3	𒃃	12000..123FF	Cuneiform	Cuneiform sign ga2 times da		
-U+120C4	𒃄	12000..123FF	Cuneiform	Cuneiform sign ga2 times di		
-U+120C5	𒃅	12000..123FF	Cuneiform	Cuneiform sign ga2 times dim times she		
-U+120C6	𒃆	12000..123FF	Cuneiform	Cuneiform sign ga2 times dub		
-U+120C7	𒃇	12000..123FF	Cuneiform	Cuneiform sign ga2 times el		
-U+120C8	𒃈	12000..123FF	Cuneiform	Cuneiform sign ga2 times el plus la		
-U+120C9	𒃉	12000..123FF	Cuneiform	Cuneiform sign ga2 times en		
-U+120CA	𒃊	12000..123FF	Cuneiform	Cuneiform sign ga2 times en times gan2 tenu		
-U+120CB	𒃋	12000..123FF	Cuneiform	Cuneiform sign ga2 times gan2 tenu		
-U+120CC	𒃌	12000..123FF	Cuneiform	Cuneiform sign ga2 times gar		
-U+120CD	𒃍	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi		
-U+120CE	𒃎	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi4		
-U+120CF	𒃏	12000..123FF	Cuneiform	Cuneiform sign ga2 times gi4 plus a		
-U+120D0	𒃐	12000..123FF	Cuneiform	Cuneiform sign ga2 times gir2 plus su		
-U+120D1	𒃑	12000..123FF	Cuneiform	Cuneiform sign ga2 times ha plus lu plus esh2		
-U+120D2	𒃒	12000..123FF	Cuneiform	Cuneiform sign ga2 times hal		
-U+120D3	𒃓	12000..123FF	Cuneiform	Cuneiform sign ga2 times hal plus la		
-U+120D4	𒃔	12000..123FF	Cuneiform	Cuneiform sign ga2 times hi plus li		
-U+120D5	𒃕	12000..123FF	Cuneiform	Cuneiform sign ga2 times hub2		
-U+120D6	𒃖	12000..123FF	Cuneiform	Cuneiform sign ga2 times igi gunu		
-U+120D7	𒃗	12000..123FF	Cuneiform	Cuneiform sign ga2 times ish plus hu plus ash		
-U+120D8	𒃘	12000..123FF	Cuneiform	Cuneiform sign ga2 times kak		
-U+120D9	𒃙	12000..123FF	Cuneiform	Cuneiform sign ga2 times kaskal		
-U+120DA	𒃚	12000..123FF	Cuneiform	Cuneiform sign ga2 times kid		
-U+120DB	𒃛	12000..123FF	Cuneiform	Cuneiform sign ga2 times kid plus lal		
-U+120DC	𒃜	12000..123FF	Cuneiform	Cuneiform sign ga2 times ku3 plus an		
-U+120DD	𒃝	12000..123FF	Cuneiform	Cuneiform sign ga2 times la		
-U+120DE	𒃞	12000..123FF	Cuneiform	Cuneiform sign ga2 times me plus en		
-U+120DF	𒃟	12000..123FF	Cuneiform	Cuneiform sign ga2 times mi		
-U+120E0	𒃠	12000..123FF	Cuneiform	Cuneiform sign ga2 times nun		
-U+120E1	𒃡	12000..123FF	Cuneiform	Cuneiform sign ga2 times nun over nun		
-U+120E2	𒃢	12000..123FF	Cuneiform	Cuneiform sign ga2 times pa		
-U+120E3	𒃣	12000..123FF	Cuneiform	Cuneiform sign ga2 times sal		
-U+120E4	𒃤	12000..123FF	Cuneiform	Cuneiform sign ga2 times sar		
-U+120E5	𒃥	12000..123FF	Cuneiform	Cuneiform sign ga2 times she		
-U+120E6	𒃦	12000..123FF	Cuneiform	Cuneiform sign ga2 times she plus tur		
-U+120E7	𒃧	12000..123FF	Cuneiform	Cuneiform sign ga2 times shid		
-U+120E8	𒃨	12000..123FF	Cuneiform	Cuneiform sign ga2 times sum		
-U+120E9	𒃩	12000..123FF	Cuneiform	Cuneiform sign ga2 times tak4		
-U+120EA	𒃪	12000..123FF	Cuneiform	Cuneiform sign ga2 times u		
-U+120EB	𒃫	12000..123FF	Cuneiform	Cuneiform sign ga2 times ud		
-U+120EC	𒃬	12000..123FF	Cuneiform	Cuneiform sign ga2 times ud plus du		
-U+120ED	𒃭	12000..123FF	Cuneiform	Cuneiform sign ga2 over ga2		
-U+120EE	𒃮	12000..123FF	Cuneiform	Cuneiform sign gaba		
-U+120EF	𒃯	12000..123FF	Cuneiform	Cuneiform sign gaba crossing gaba		
-U+120F0	𒃰	12000..123FF	Cuneiform	Cuneiform sign gad		
-U+120F1	𒃱	12000..123FF	Cuneiform	Cuneiform sign gad over gad gar over gar		
-U+120F2	𒃲	12000..123FF	Cuneiform	Cuneiform sign gal		
-U+120F3	𒃳	12000..123FF	Cuneiform	Cuneiform sign gal gad over gad gar over gar		
-U+120F4	𒃴	12000..123FF	Cuneiform	Cuneiform sign galam		
-U+120F5	𒃵	12000..123FF	Cuneiform	Cuneiform sign gam		
-U+120F6	𒃶	12000..123FF	Cuneiform	Cuneiform sign gan		
-U+120F7	𒃷	12000..123FF	Cuneiform	Cuneiform sign gan2		
-U+120F8	𒃸	12000..123FF	Cuneiform	Cuneiform sign gan2 tenu		
-U+120F9	𒃹	12000..123FF	Cuneiform	Cuneiform sign gan2 over gan2		
-U+120FA	𒃺	12000..123FF	Cuneiform	Cuneiform sign gan2 crossing gan2		
-U+120FB	𒃻	12000..123FF	Cuneiform	Cuneiform sign gar		
-U+120FC	𒃼	12000..123FF	Cuneiform	Cuneiform sign gar3		
-U+120FD	𒃽	12000..123FF	Cuneiform	Cuneiform sign gashan		
-U+120FE	𒃾	12000..123FF	Cuneiform	Cuneiform sign geshtin		
-U+120FF	𒃿	12000..123FF	Cuneiform	Cuneiform sign geshtin times kur		
-U+12100	𒄀	12000..123FF	Cuneiform	Cuneiform sign gi		
-U+12101	𒄁	12000..123FF	Cuneiform	Cuneiform sign gi times e		
-U+12102	𒄂	12000..123FF	Cuneiform	Cuneiform sign gi times u		
-U+12103	𒄃	12000..123FF	Cuneiform	Cuneiform sign gi crossing gi		
-U+12104	𒄄	12000..123FF	Cuneiform	Cuneiform sign gi4		
-U+12105	𒄅	12000..123FF	Cuneiform	Cuneiform sign gi4 over gi4		
-U+12106	𒄆	12000..123FF	Cuneiform	Cuneiform sign gi4 crossing gi4		
-U+12107	𒄇	12000..123FF	Cuneiform	Cuneiform sign gidim		
-U+12108	𒄈	12000..123FF	Cuneiform	Cuneiform sign gir2		
-U+12109	𒄉	12000..123FF	Cuneiform	Cuneiform sign gir2 gunu		
-U+1210A	𒄊	12000..123FF	Cuneiform	Cuneiform sign gir3		
-U+1210B	𒄋	12000..123FF	Cuneiform	Cuneiform sign gir3 times a plus igi		
-U+1210C	𒄌	12000..123FF	Cuneiform	Cuneiform sign gir3 times gan2 tenu		
-U+1210D	𒄍	12000..123FF	Cuneiform	Cuneiform sign gir3 times igi		
-U+1210E	𒄎	12000..123FF	Cuneiform	Cuneiform sign gir3 times lu plus igi		
-U+1210F	𒄏	12000..123FF	Cuneiform	Cuneiform sign gir3 times pa		
-U+12110	𒄐	12000..123FF	Cuneiform	Cuneiform sign gisal		
-U+12111	𒄑	12000..123FF	Cuneiform	Cuneiform sign gish		
-U+12112	𒄒	12000..123FF	Cuneiform	Cuneiform sign gish crossing gish		
-U+12113	𒄓	12000..123FF	Cuneiform	Cuneiform sign gish times bad		
-U+12114	𒄔	12000..123FF	Cuneiform	Cuneiform sign gish times tak4		
-U+12115	𒄕	12000..123FF	Cuneiform	Cuneiform sign gish tenu		
-U+12116	𒄖	12000..123FF	Cuneiform	Cuneiform sign gu		
-U+12117	𒄗	12000..123FF	Cuneiform	Cuneiform sign gu crossing gu		
-U+12118	𒄘	12000..123FF	Cuneiform	Cuneiform sign gu2		
-U+12119	𒄙	12000..123FF	Cuneiform	Cuneiform sign gu2 times kak		
-U+1211A	𒄚	12000..123FF	Cuneiform	Cuneiform sign gu2 times kak times igi gunu		
-U+1211B	𒄛	12000..123FF	Cuneiform	Cuneiform sign gu2 times nun		
-U+1211C	𒄜	12000..123FF	Cuneiform	Cuneiform sign gu2 times sal plus tug2		
-U+1211D	𒄝	12000..123FF	Cuneiform	Cuneiform sign gu2 gunu		
-U+1211E	𒄞	12000..123FF	Cuneiform	Cuneiform sign gud		
-U+1211F	𒄟	12000..123FF	Cuneiform	Cuneiform sign gud times a plus kur		
-U+12120	𒄠	12000..123FF	Cuneiform	Cuneiform sign gud times kur		
-U+12121	𒄡	12000..123FF	Cuneiform	Cuneiform sign gud over gud lugal		
-U+12122	𒄢	12000..123FF	Cuneiform	Cuneiform sign gul		
-U+12123	𒄣	12000..123FF	Cuneiform	Cuneiform sign gum		
-U+12124	𒄤	12000..123FF	Cuneiform	Cuneiform sign gum times she		
-U+12125	𒄥	12000..123FF	Cuneiform	Cuneiform sign gur		
-U+12126	𒄦	12000..123FF	Cuneiform	Cuneiform sign gur7		
-U+12127	𒄧	12000..123FF	Cuneiform	Cuneiform sign gurun		
-U+12128	𒄨	12000..123FF	Cuneiform	Cuneiform sign gurush		
-U+12129	𒄩	12000..123FF	Cuneiform	Cuneiform sign ha		
-U+1212A	𒄪	12000..123FF	Cuneiform	Cuneiform sign ha tenu		
-U+1212B	𒄫	12000..123FF	Cuneiform	Cuneiform sign ha gunu		
-U+1212C	𒄬	12000..123FF	Cuneiform	Cuneiform sign hal		
-U+1212D	𒄭	12000..123FF	Cuneiform	Cuneiform sign hi		
-U+1212E	𒄮	12000..123FF	Cuneiform	Cuneiform sign hi times ash		
-U+1212F	𒄯	12000..123FF	Cuneiform	Cuneiform sign hi times ash2		
-U+12130	𒄰	12000..123FF	Cuneiform	Cuneiform sign hi times bad		
-U+12131	𒄱	12000..123FF	Cuneiform	Cuneiform sign hi times dish		
-U+12132	𒄲	12000..123FF	Cuneiform	Cuneiform sign hi times gad		
-U+12133	𒄳	12000..123FF	Cuneiform	Cuneiform sign hi times kin		
-U+12134	𒄴	12000..123FF	Cuneiform	Cuneiform sign hi times nun		
-U+12135	𒄵	12000..123FF	Cuneiform	Cuneiform sign hi times she		
-U+12136	𒄶	12000..123FF	Cuneiform	Cuneiform sign hi times u		
-U+12137	𒄷	12000..123FF	Cuneiform	Cuneiform sign hu		
-U+12138	𒄸	12000..123FF	Cuneiform	Cuneiform sign hub2		
-U+12139	𒄹	12000..123FF	Cuneiform	Cuneiform sign hub2 times an		
-U+1213A	𒄺	12000..123FF	Cuneiform	Cuneiform sign hub2 times hal		
-U+1213B	𒄻	12000..123FF	Cuneiform	Cuneiform sign hub2 times kaskal		
-U+1213C	𒄼	12000..123FF	Cuneiform	Cuneiform sign hub2 times lish		
-U+1213D	𒄽	12000..123FF	Cuneiform	Cuneiform sign hub2 times ud		
-U+1213E	𒄾	12000..123FF	Cuneiform	Cuneiform sign hul2		
-U+1213F	𒄿	12000..123FF	Cuneiform	Cuneiform sign i		
-U+12140	𒅀	12000..123FF	Cuneiform	Cuneiform sign i a		
-U+12141	𒅁	12000..123FF	Cuneiform	Cuneiform sign ib		
-U+12142	𒅂	12000..123FF	Cuneiform	Cuneiform sign idim		
-U+12143	𒅃	12000..123FF	Cuneiform	Cuneiform sign idim over idim bur		
-U+12144	𒅄	12000..123FF	Cuneiform	Cuneiform sign idim over idim squared		
-U+12145	𒅅	12000..123FF	Cuneiform	Cuneiform sign ig		
-U+12146	𒅆	12000..123FF	Cuneiform	Cuneiform sign igi		
-U+12147	𒅇	12000..123FF	Cuneiform	Cuneiform sign igi dib		
-U+12148	𒅈	12000..123FF	Cuneiform	Cuneiform sign igi ri		
-U+12149	𒅉	12000..123FF	Cuneiform	Cuneiform sign igi over igi shir over shir ud over ud		
-U+1214A	𒅊	12000..123FF	Cuneiform	Cuneiform sign igi gunu		
-U+1214B	𒅋	12000..123FF	Cuneiform	Cuneiform sign il		
-U+1214C	𒅌	12000..123FF	Cuneiform	Cuneiform sign il times gan2 tenu		
-U+1214D	𒅍	12000..123FF	Cuneiform	Cuneiform sign il2		
-U+1214E	𒅎	12000..123FF	Cuneiform	Cuneiform sign im		
-U+1214F	𒅏	12000..123FF	Cuneiform	Cuneiform sign im times tak4		
-U+12150	𒅐	12000..123FF	Cuneiform	Cuneiform sign im crossing im		
-U+12151	𒅑	12000..123FF	Cuneiform	Cuneiform sign im opposing im		
-U+12152	𒅒	12000..123FF	Cuneiform	Cuneiform sign im squared		
-U+12153	𒅓	12000..123FF	Cuneiform	Cuneiform sign imin		
-U+12154	𒅔	12000..123FF	Cuneiform	Cuneiform sign in		
-U+12155	𒅕	12000..123FF	Cuneiform	Cuneiform sign ir		
-U+12156	𒅖	12000..123FF	Cuneiform	Cuneiform sign ish		
-U+12157	𒅗	12000..123FF	Cuneiform	Cuneiform sign ka		
-U+12158	𒅘	12000..123FF	Cuneiform	Cuneiform sign ka times a		
-U+12159	𒅙	12000..123FF	Cuneiform	Cuneiform sign ka times ad		
-U+1215A	𒅚	12000..123FF	Cuneiform	Cuneiform sign ka times ad plus ku3		
-U+1215B	𒅛	12000..123FF	Cuneiform	Cuneiform sign ka times ash2		
-U+1215C	𒅜	12000..123FF	Cuneiform	Cuneiform sign ka times bad		
-U+1215D	𒅝	12000..123FF	Cuneiform	Cuneiform sign ka times balag		
-U+1215E	𒅞	12000..123FF	Cuneiform	Cuneiform sign ka times bar		
-U+1215F	𒅟	12000..123FF	Cuneiform	Cuneiform sign ka times bi		
-U+12160	𒅠	12000..123FF	Cuneiform	Cuneiform sign ka times erin2		
-U+12161	𒅡	12000..123FF	Cuneiform	Cuneiform sign ka times esh2		
-U+12162	𒅢	12000..123FF	Cuneiform	Cuneiform sign ka times ga		
-U+12163	𒅣	12000..123FF	Cuneiform	Cuneiform sign ka times gal		
-U+12164	𒅤	12000..123FF	Cuneiform	Cuneiform sign ka times gan2 tenu		
-U+12165	𒅥	12000..123FF	Cuneiform	Cuneiform sign ka times gar		
-U+12166	𒅦	12000..123FF	Cuneiform	Cuneiform sign ka times gar plus sha3 plus a		
-U+12167	𒅧	12000..123FF	Cuneiform	Cuneiform sign ka times gi		
-U+12168	𒅨	12000..123FF	Cuneiform	Cuneiform sign ka times gir2		
-U+12169	𒅩	12000..123FF	Cuneiform	Cuneiform sign ka times gish plus sar		
-U+1216A	𒅪	12000..123FF	Cuneiform	Cuneiform sign ka times gish crossing gish		
-U+1216B	𒅫	12000..123FF	Cuneiform	Cuneiform sign ka times gu		
-U+1216C	𒅬	12000..123FF	Cuneiform	Cuneiform sign ka times gur7		
-U+1216D	𒅭	12000..123FF	Cuneiform	Cuneiform sign ka times igi		
-U+1216E	𒅮	12000..123FF	Cuneiform	Cuneiform sign ka times im		
-U+1216F	𒅯	12000..123FF	Cuneiform	Cuneiform sign ka times kak		
-U+12170	𒅰	12000..123FF	Cuneiform	Cuneiform sign ka times ki		
-U+12171	𒅱	12000..123FF	Cuneiform	Cuneiform sign ka times kid		
-U+12172	𒅲	12000..123FF	Cuneiform	Cuneiform sign ka times li		
-U+12173	𒅳	12000..123FF	Cuneiform	Cuneiform sign ka times lu		
-U+12174	𒅴	12000..123FF	Cuneiform	Cuneiform sign ka times me		
-U+12175	𒅵	12000..123FF	Cuneiform	Cuneiform sign ka times me plus du		
-U+12176	𒅶	12000..123FF	Cuneiform	Cuneiform sign ka times me plus gi		
-U+12177	𒅷	12000..123FF	Cuneiform	Cuneiform sign ka times me plus te		
-U+12178	𒅸	12000..123FF	Cuneiform	Cuneiform sign ka times mi		
-U+12179	𒅹	12000..123FF	Cuneiform	Cuneiform sign ka times mi plus nunuz		
-U+1217A	𒅺	12000..123FF	Cuneiform	Cuneiform sign ka times ne		
-U+1217B	𒅻	12000..123FF	Cuneiform	Cuneiform sign ka times nun		
-U+1217C	𒅼	12000..123FF	Cuneiform	Cuneiform sign ka times pi		
-U+1217D	𒅽	12000..123FF	Cuneiform	Cuneiform sign ka times ru		
-U+1217E	𒅾	12000..123FF	Cuneiform	Cuneiform sign ka times sa		
-U+1217F	𒅿	12000..123FF	Cuneiform	Cuneiform sign ka times sar		
-U+12180	𒆀	12000..123FF	Cuneiform	Cuneiform sign ka times sha		
-U+12181	𒆁	12000..123FF	Cuneiform	Cuneiform sign ka times she		
-U+12182	𒆂	12000..123FF	Cuneiform	Cuneiform sign ka times shid		
-U+12183	𒆃	12000..123FF	Cuneiform	Cuneiform sign ka times shu		
-U+12184	𒆄	12000..123FF	Cuneiform	Cuneiform sign ka times sig		
-U+12185	𒆅	12000..123FF	Cuneiform	Cuneiform sign ka times suhur		
-U+12186	𒆆	12000..123FF	Cuneiform	Cuneiform sign ka times tar		
-U+12187	𒆇	12000..123FF	Cuneiform	Cuneiform sign ka times u		
-U+12188	𒆈	12000..123FF	Cuneiform	Cuneiform sign ka times u2		
-U+12189	𒆉	12000..123FF	Cuneiform	Cuneiform sign ka times ud		
-U+1218A	𒆊	12000..123FF	Cuneiform	Cuneiform sign ka times umum times pa		
-U+1218B	𒆋	12000..123FF	Cuneiform	Cuneiform sign ka times ush		
-U+1218C	𒆌	12000..123FF	Cuneiform	Cuneiform sign ka times zi		
-U+1218D	𒆍	12000..123FF	Cuneiform	Cuneiform sign ka2		
-U+1218E	𒆎	12000..123FF	Cuneiform	Cuneiform sign ka2 crossing ka2		
-U+1218F	𒆏	12000..123FF	Cuneiform	Cuneiform sign kab		
-U+12190	𒆐	12000..123FF	Cuneiform	Cuneiform sign kad2		
-U+12191	𒆑	12000..123FF	Cuneiform	Cuneiform sign kad3		
-U+12192	𒆒	12000..123FF	Cuneiform	Cuneiform sign kad4		
-U+12193	𒆓	12000..123FF	Cuneiform	Cuneiform sign kad5		
-U+12194	𒆔	12000..123FF	Cuneiform	Cuneiform sign kad5 over kad5		
-U+12195	𒆕	12000..123FF	Cuneiform	Cuneiform sign kak		
-U+12196	𒆖	12000..123FF	Cuneiform	Cuneiform sign kak times igi gunu		
-U+12197	𒆗	12000..123FF	Cuneiform	Cuneiform sign kal		
-U+12198	𒆘	12000..123FF	Cuneiform	Cuneiform sign kal times bad		
-U+12199	𒆙	12000..123FF	Cuneiform	Cuneiform sign kal crossing kal		
-U+1219A	𒆚	12000..123FF	Cuneiform	Cuneiform sign kam2		
-U+1219B	𒆛	12000..123FF	Cuneiform	Cuneiform sign kam4		
-U+1219C	𒆜	12000..123FF	Cuneiform	Cuneiform sign kaskal		
-U+1219D	𒆝	12000..123FF	Cuneiform	Cuneiform sign kaskal lagab times u over lagab times u		
-U+1219E	𒆞	12000..123FF	Cuneiform	Cuneiform sign kaskal over kaskal lagab times u over lagab times u		
-U+1219F	𒆟	12000..123FF	Cuneiform	Cuneiform sign kesh2		
-U+121A0	𒆠	12000..123FF	Cuneiform	Cuneiform sign ki		
-U+121A1	𒆡	12000..123FF	Cuneiform	Cuneiform sign ki times bad		
-U+121A2	𒆢	12000..123FF	Cuneiform	Cuneiform sign ki times u		
-U+121A3	𒆣	12000..123FF	Cuneiform	Cuneiform sign ki times ud		
-U+121A4	𒆤	12000..123FF	Cuneiform	Cuneiform sign kid		
-U+121A5	𒆥	12000..123FF	Cuneiform	Cuneiform sign kin		
-U+121A6	𒆦	12000..123FF	Cuneiform	Cuneiform sign kisal		
-U+121A7	𒆧	12000..123FF	Cuneiform	Cuneiform sign kish		
-U+121A8	𒆨	12000..123FF	Cuneiform	Cuneiform sign kisim5		
-U+121A9	𒆩	12000..123FF	Cuneiform	Cuneiform sign kisim5 over kisim5		
-U+121AA	𒆪	12000..123FF	Cuneiform	Cuneiform sign ku		
-U+121AB	𒆫	12000..123FF	Cuneiform	Cuneiform sign ku over hi times ash2 ku over hi times ash2		
-U+121AC	𒆬	12000..123FF	Cuneiform	Cuneiform sign ku3		
-U+121AD	𒆭	12000..123FF	Cuneiform	Cuneiform sign ku4		
-U+121AE	𒆮	12000..123FF	Cuneiform	Cuneiform sign ku4 variant form		
-U+121AF	𒆯	12000..123FF	Cuneiform	Cuneiform sign ku7		
-U+121B0	𒆰	12000..123FF	Cuneiform	Cuneiform sign kul		
-U+121B1	𒆱	12000..123FF	Cuneiform	Cuneiform sign kul gunu		
-U+121B2	𒆲	12000..123FF	Cuneiform	Cuneiform sign kun		
-U+121B3	𒆳	12000..123FF	Cuneiform	Cuneiform sign kur		
-U+121B4	𒆴	12000..123FF	Cuneiform	Cuneiform sign kur opposing kur		
-U+121B5	𒆵	12000..123FF	Cuneiform	Cuneiform sign kushu2		
-U+121B6	𒆶	12000..123FF	Cuneiform	Cuneiform sign kwu318		
-U+121B7	𒆷	12000..123FF	Cuneiform	Cuneiform sign la		
-U+121B8	𒆸	12000..123FF	Cuneiform	Cuneiform sign lagab		
-U+121B9	𒆹	12000..123FF	Cuneiform	Cuneiform sign lagab times a		
-U+121BA	𒆺	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus da plus ha		
-U+121BB	𒆻	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus gar		
-U+121BC	𒆼	12000..123FF	Cuneiform	Cuneiform sign lagab times a plus lal		
-U+121BD	𒆽	12000..123FF	Cuneiform	Cuneiform sign lagab times al		
-U+121BE	𒆾	12000..123FF	Cuneiform	Cuneiform sign lagab times an		
-U+121BF	𒆿	12000..123FF	Cuneiform	Cuneiform sign lagab times ash zida tenu		
-U+121C0	𒇀	12000..123FF	Cuneiform	Cuneiform sign lagab times bad		
-U+121C1	𒇁	12000..123FF	Cuneiform	Cuneiform sign lagab times bi		
-U+121C2	𒇂	12000..123FF	Cuneiform	Cuneiform sign lagab times dar		
-U+121C3	𒇃	12000..123FF	Cuneiform	Cuneiform sign lagab times en		
-U+121C4	𒇄	12000..123FF	Cuneiform	Cuneiform sign lagab times ga		
-U+121C5	𒇅	12000..123FF	Cuneiform	Cuneiform sign lagab times gar		
-U+121C6	𒇆	12000..123FF	Cuneiform	Cuneiform sign lagab times gud		
-U+121C7	𒇇	12000..123FF	Cuneiform	Cuneiform sign lagab times gud plus gud		
-U+121C8	𒇈	12000..123FF	Cuneiform	Cuneiform sign lagab times ha		
-U+121C9	𒇉	12000..123FF	Cuneiform	Cuneiform sign lagab times hal		
-U+121CA	𒇊	12000..123FF	Cuneiform	Cuneiform sign lagab times hi times nun		
-U+121CB	𒇋	12000..123FF	Cuneiform	Cuneiform sign lagab times igi gunu		
-U+121CC	𒇌	12000..123FF	Cuneiform	Cuneiform sign lagab times im		
-U+121CD	𒇍	12000..123FF	Cuneiform	Cuneiform sign lagab times im plus ha		
-U+121CE	𒇎	12000..123FF	Cuneiform	Cuneiform sign lagab times im plus lu		
-U+121CF	𒇏	12000..123FF	Cuneiform	Cuneiform sign lagab times ki		
-U+121D0	𒇐	12000..123FF	Cuneiform	Cuneiform sign lagab times kin		
-U+121D1	𒇑	12000..123FF	Cuneiform	Cuneiform sign lagab times ku3		
-U+121D2	𒇒	12000..123FF	Cuneiform	Cuneiform sign lagab times kul		
-U+121D3	𒇓	12000..123FF	Cuneiform	Cuneiform sign lagab times kul plus hi plus a		
-U+121D4	𒇔	12000..123FF	Cuneiform	Cuneiform sign lagab times lagab		
-U+121D5	𒇕	12000..123FF	Cuneiform	Cuneiform sign lagab times lish		
-U+121D6	𒇖	12000..123FF	Cuneiform	Cuneiform sign lagab times lu		
-U+121D7	𒇗	12000..123FF	Cuneiform	Cuneiform sign lagab times lul		
-U+121D8	𒇘	12000..123FF	Cuneiform	Cuneiform sign lagab times me		
-U+121D9	𒇙	12000..123FF	Cuneiform	Cuneiform sign lagab times me plus en		
-U+121DA	𒇚	12000..123FF	Cuneiform	Cuneiform sign lagab times mush		
-U+121DB	𒇛	12000..123FF	Cuneiform	Cuneiform sign lagab times ne		
-U+121DC	𒇜	12000..123FF	Cuneiform	Cuneiform sign lagab times she plus sum		
-U+121DD	𒇝	12000..123FF	Cuneiform	Cuneiform sign lagab times shita plus gish plus erin2		
-U+121DE	𒇞	12000..123FF	Cuneiform	Cuneiform sign lagab times shita plus gish tenu		
-U+121DF	𒇟	12000..123FF	Cuneiform	Cuneiform sign lagab times shu2		
-U+121E0	𒇠	12000..123FF	Cuneiform	Cuneiform sign lagab times shu2 plus shu2		
-U+121E1	𒇡	12000..123FF	Cuneiform	Cuneiform sign lagab times sum		
-U+121E2	𒇢	12000..123FF	Cuneiform	Cuneiform sign lagab times tag		
-U+121E3	𒇣	12000..123FF	Cuneiform	Cuneiform sign lagab times tak4		
-U+121E4	𒇤	12000..123FF	Cuneiform	Cuneiform sign lagab times te plus a plus su plus na		
-U+121E5	𒇥	12000..123FF	Cuneiform	Cuneiform sign lagab times u		
-U+121E6	𒇦	12000..123FF	Cuneiform	Cuneiform sign lagab times u plus a		
-U+121E7	𒇧	12000..123FF	Cuneiform	Cuneiform sign lagab times u plus u plus u		
-U+121E8	𒇨	12000..123FF	Cuneiform	Cuneiform sign lagab times u2 plus ash		
-U+121E9	𒇩	12000..123FF	Cuneiform	Cuneiform sign lagab times ud		
-U+121EA	𒇪	12000..123FF	Cuneiform	Cuneiform sign lagab times ush		
-U+121EB	𒇫	12000..123FF	Cuneiform	Cuneiform sign lagab squared		
-U+121EC	𒇬	12000..123FF	Cuneiform	Cuneiform sign lagar		
-U+121ED	𒇭	12000..123FF	Cuneiform	Cuneiform sign lagar times she		
-U+121EE	𒇮	12000..123FF	Cuneiform	Cuneiform sign lagar times she plus sum		
-U+121EF	𒇯	12000..123FF	Cuneiform	Cuneiform sign lagar gunu		
-U+121F0	𒇰	12000..123FF	Cuneiform	Cuneiform sign lagar gunu over lagar gunu she		
-U+121F1	𒇱	12000..123FF	Cuneiform	Cuneiform sign lahshu		
-U+121F2	𒇲	12000..123FF	Cuneiform	Cuneiform sign lal		
-U+121F3	𒇳	12000..123FF	Cuneiform	Cuneiform sign lal times lal		
-U+121F4	𒇴	12000..123FF	Cuneiform	Cuneiform sign lam		
-U+121F5	𒇵	12000..123FF	Cuneiform	Cuneiform sign lam times kur		
-U+121F6	𒇶	12000..123FF	Cuneiform	Cuneiform sign lam times kur plus ru		
-U+121F7	𒇷	12000..123FF	Cuneiform	Cuneiform sign li		
-U+121F8	𒇸	12000..123FF	Cuneiform	Cuneiform sign lil		
-U+121F9	𒇹	12000..123FF	Cuneiform	Cuneiform sign limmu2		
-U+121FA	𒇺	12000..123FF	Cuneiform	Cuneiform sign lish		
-U+121FB	𒇻	12000..123FF	Cuneiform	Cuneiform sign lu		
-U+121FC	𒇼	12000..123FF	Cuneiform	Cuneiform sign lu times bad		
-U+121FD	𒇽	12000..123FF	Cuneiform	Cuneiform sign lu2		
-U+121FE	𒇾	12000..123FF	Cuneiform	Cuneiform sign lu2 times al		
-U+121FF	𒇿	12000..123FF	Cuneiform	Cuneiform sign lu2 times bad		
-U+12200	𒈀	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2		
-U+12201	𒈁	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2 tenu		
-U+12202	𒈂	12000..123FF	Cuneiform	Cuneiform sign lu2 times gan2 tenu		
-U+12203	𒈃	12000..123FF	Cuneiform	Cuneiform sign lu2 times hi times bad		
-U+12204	𒈄	12000..123FF	Cuneiform	Cuneiform sign lu2 times im		
-U+12205	𒈅	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad2		
-U+12206	𒈆	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad3		
-U+12207	𒈇	12000..123FF	Cuneiform	Cuneiform sign lu2 times kad3 plus ash		
-U+12208	𒈈	12000..123FF	Cuneiform	Cuneiform sign lu2 times ki		
-U+12209	𒈉	12000..123FF	Cuneiform	Cuneiform sign lu2 times la plus ash		
-U+1220A	𒈊	12000..123FF	Cuneiform	Cuneiform sign lu2 times lagab		
-U+1220B	𒈋	12000..123FF	Cuneiform	Cuneiform sign lu2 times me plus en		
-U+1220C	𒈌	12000..123FF	Cuneiform	Cuneiform sign lu2 times ne		
-U+1220D	𒈍	12000..123FF	Cuneiform	Cuneiform sign lu2 times nu		
-U+1220E	𒈎	12000..123FF	Cuneiform	Cuneiform sign lu2 times si plus ash		
-U+1220F	𒈏	12000..123FF	Cuneiform	Cuneiform sign lu2 times sik2 plus bu		
-U+12210	𒈐	12000..123FF	Cuneiform	Cuneiform sign lu2 times tug2		
-U+12211	𒈑	12000..123FF	Cuneiform	Cuneiform sign lu2 tenu		
-U+12212	𒈒	12000..123FF	Cuneiform	Cuneiform sign lu2 crossing lu2		
-U+12213	𒈓	12000..123FF	Cuneiform	Cuneiform sign lu2 opposing lu2		
-U+12214	𒈔	12000..123FF	Cuneiform	Cuneiform sign lu2 squared		
-U+12215	𒈕	12000..123FF	Cuneiform	Cuneiform sign lu2 sheshig		
-U+12216	𒈖	12000..123FF	Cuneiform	Cuneiform sign lu3		
-U+12217	𒈗	12000..123FF	Cuneiform	Cuneiform sign lugal		
-U+12218	𒈘	12000..123FF	Cuneiform	Cuneiform sign lugal over lugal		
-U+12219	𒈙	12000..123FF	Cuneiform	Cuneiform sign lugal opposing lugal		
-U+1221A	𒈚	12000..123FF	Cuneiform	Cuneiform sign lugal sheshig		
-U+1221B	𒈛	12000..123FF	Cuneiform	Cuneiform sign luh		
-U+1221C	𒈜	12000..123FF	Cuneiform	Cuneiform sign lul		
-U+1221D	𒈝	12000..123FF	Cuneiform	Cuneiform sign lum		
-U+1221E	𒈞	12000..123FF	Cuneiform	Cuneiform sign lum over lum		
-U+1221F	𒈟	12000..123FF	Cuneiform	Cuneiform sign lum over lum gar over gar		
-U+12220	𒈠	12000..123FF	Cuneiform	Cuneiform sign ma		
-U+12221	𒈡	12000..123FF	Cuneiform	Cuneiform sign ma times tak4		
-U+12222	𒈢	12000..123FF	Cuneiform	Cuneiform sign ma gunu		
-U+12223	𒈣	12000..123FF	Cuneiform	Cuneiform sign ma2		
-U+12224	𒈤	12000..123FF	Cuneiform	Cuneiform sign mah		
-U+12225	𒈥	12000..123FF	Cuneiform	Cuneiform sign mar		
-U+12226	𒈦	12000..123FF	Cuneiform	Cuneiform sign mash		
-U+12227	𒈧	12000..123FF	Cuneiform	Cuneiform sign mash2		
-U+12228	𒈨	12000..123FF	Cuneiform	Cuneiform sign me		
-U+12229	𒈩	12000..123FF	Cuneiform	Cuneiform sign mes		
-U+1222A	𒈪	12000..123FF	Cuneiform	Cuneiform sign mi		
-U+1222B	𒈫	12000..123FF	Cuneiform	Cuneiform sign min		
-U+1222C	𒈬	12000..123FF	Cuneiform	Cuneiform sign mu		
-U+1222D	𒈭	12000..123FF	Cuneiform	Cuneiform sign mu over mu		
-U+1222E	𒈮	12000..123FF	Cuneiform	Cuneiform sign mug		
-U+1222F	𒈯	12000..123FF	Cuneiform	Cuneiform sign mug gunu		
-U+12230	𒈰	12000..123FF	Cuneiform	Cuneiform sign munsub		
-U+12231	𒈱	12000..123FF	Cuneiform	Cuneiform sign murgu2		
-U+12232	𒈲	12000..123FF	Cuneiform	Cuneiform sign mush		
-U+12233	𒈳	12000..123FF	Cuneiform	Cuneiform sign mush times a		
-U+12234	𒈴	12000..123FF	Cuneiform	Cuneiform sign mush times kur		
-U+12235	𒈵	12000..123FF	Cuneiform	Cuneiform sign mush times za		
-U+12236	𒈶	12000..123FF	Cuneiform	Cuneiform sign mush over mush		
-U+12237	𒈷	12000..123FF	Cuneiform	Cuneiform sign mush over mush times a plus na		
-U+12238	𒈸	12000..123FF	Cuneiform	Cuneiform sign mush crossing mush		
-U+12239	𒈹	12000..123FF	Cuneiform	Cuneiform sign mush3		
-U+1223A	𒈺	12000..123FF	Cuneiform	Cuneiform sign mush3 times a		
-U+1223B	𒈻	12000..123FF	Cuneiform	Cuneiform sign mush3 times a plus di		
-U+1223C	𒈼	12000..123FF	Cuneiform	Cuneiform sign mush3 times di		
-U+1223D	𒈽	12000..123FF	Cuneiform	Cuneiform sign mush3 gunu		
-U+1223E	𒈾	12000..123FF	Cuneiform	Cuneiform sign na		
-U+1223F	𒈿	12000..123FF	Cuneiform	Cuneiform sign na2		
-U+12240	𒉀	12000..123FF	Cuneiform	Cuneiform sign naga		
-U+12241	𒉁	12000..123FF	Cuneiform	Cuneiform sign naga inverted		
-U+12242	𒉂	12000..123FF	Cuneiform	Cuneiform sign naga times shu tenu		
-U+12243	𒉃	12000..123FF	Cuneiform	Cuneiform sign naga opposing naga		
-U+12244	𒉄	12000..123FF	Cuneiform	Cuneiform sign nagar		
-U+12245	𒉅	12000..123FF	Cuneiform	Cuneiform sign nam nutillu		
-U+12246	𒉆	12000..123FF	Cuneiform	Cuneiform sign nam		
-U+12247	𒉇	12000..123FF	Cuneiform	Cuneiform sign nam2		
-U+12248	𒉈	12000..123FF	Cuneiform	Cuneiform sign ne		
-U+12249	𒉉	12000..123FF	Cuneiform	Cuneiform sign ne times a		
-U+1224A	𒉊	12000..123FF	Cuneiform	Cuneiform sign ne times ud		
-U+1224B	𒉋	12000..123FF	Cuneiform	Cuneiform sign ne sheshig		
-U+1224C	𒉌	12000..123FF	Cuneiform	Cuneiform sign ni		
-U+1224D	𒉍	12000..123FF	Cuneiform	Cuneiform sign ni times e		
-U+1224E	𒉎	12000..123FF	Cuneiform	Cuneiform sign ni2		
-U+1224F	𒉏	12000..123FF	Cuneiform	Cuneiform sign nim		
-U+12250	𒉐	12000..123FF	Cuneiform	Cuneiform sign nim times gan2 tenu		
-U+12251	𒉑	12000..123FF	Cuneiform	Cuneiform sign nim times gar plus gan2 tenu		
-U+12252	𒉒	12000..123FF	Cuneiform	Cuneiform sign ninda2		
-U+12253	𒉓	12000..123FF	Cuneiform	Cuneiform sign ninda2 times an		
-U+12254	𒉔	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ash		
-U+12255	𒉕	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ash plus ash		
-U+12256	𒉖	12000..123FF	Cuneiform	Cuneiform sign ninda2 times gud		
-U+12257	𒉗	12000..123FF	Cuneiform	Cuneiform sign ninda2 times me plus gan2 tenu		
-U+12258	𒉘	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ne		
-U+12259	𒉙	12000..123FF	Cuneiform	Cuneiform sign ninda2 times nun		
-U+1225A	𒉚	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she		
-U+1225B	𒉛	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus a an		
-U+1225C	𒉜	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus ash		
-U+1225D	𒉝	12000..123FF	Cuneiform	Cuneiform sign ninda2 times she plus ash plus ash		
-U+1225E	𒉞	12000..123FF	Cuneiform	Cuneiform sign ninda2 times u2 plus ash		
-U+1225F	𒉟	12000..123FF	Cuneiform	Cuneiform sign ninda2 times ush		
-U+12260	𒉠	12000..123FF	Cuneiform	Cuneiform sign nisag		
-U+12261	𒉡	12000..123FF	Cuneiform	Cuneiform sign nu		
-U+12262	𒉢	12000..123FF	Cuneiform	Cuneiform sign nu11		
-U+12263	𒉣	12000..123FF	Cuneiform	Cuneiform sign nun		
-U+12264	𒉤	12000..123FF	Cuneiform	Cuneiform sign nun lagar times gar		
-U+12265	𒉥	12000..123FF	Cuneiform	Cuneiform sign nun lagar times mash		
-U+12266	𒉦	12000..123FF	Cuneiform	Cuneiform sign nun lagar times sal		
-U+12267	𒉧	12000..123FF	Cuneiform	Cuneiform sign nun lagar times sal over nun lagar times sal		
-U+12268	𒉨	12000..123FF	Cuneiform	Cuneiform sign nun lagar times ush		
-U+12269	𒉩	12000..123FF	Cuneiform	Cuneiform sign nun tenu		
-U+1226A	𒉪	12000..123FF	Cuneiform	Cuneiform sign nun over nun		
-U+1226B	𒉫	12000..123FF	Cuneiform	Cuneiform sign nun crossing nun		
-U+1226C	𒉬	12000..123FF	Cuneiform	Cuneiform sign nun crossing nun lagar over lagar		
-U+1226D	𒉭	12000..123FF	Cuneiform	Cuneiform sign nunuz		
-U+1226E	𒉮	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times ashgab		
-U+1226F	𒉯	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times bi		
-U+12270	𒉰	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times dug		
-U+12271	𒉱	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times gud		
-U+12272	𒉲	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times igi gunu		
-U+12273	𒉳	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times kad3		
-U+12274	𒉴	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times la		
-U+12275	𒉵	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times ne		
-U+12276	𒉶	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times sila3		
-U+12277	𒉷	12000..123FF	Cuneiform	Cuneiform sign nunuz ab2 times u2		
-U+12278	𒉸	12000..123FF	Cuneiform	Cuneiform sign nunuz kisim5 times bi		
-U+12279	𒉹	12000..123FF	Cuneiform	Cuneiform sign nunuz kisim5 times bi u		
-U+1227A	𒉺	12000..123FF	Cuneiform	Cuneiform sign pa		
-U+1227B	𒉻	12000..123FF	Cuneiform	Cuneiform sign pad		
-U+1227C	𒉼	12000..123FF	Cuneiform	Cuneiform sign pan		
-U+1227D	𒉽	12000..123FF	Cuneiform	Cuneiform sign pap		
-U+1227E	𒉾	12000..123FF	Cuneiform	Cuneiform sign pesh2		
-U+1227F	𒉿	12000..123FF	Cuneiform	Cuneiform sign pi		
-U+12280	𒊀	12000..123FF	Cuneiform	Cuneiform sign pi times a		
-U+12281	𒊁	12000..123FF	Cuneiform	Cuneiform sign pi times ab		
-U+12282	𒊂	12000..123FF	Cuneiform	Cuneiform sign pi times bi		
-U+12283	𒊃	12000..123FF	Cuneiform	Cuneiform sign pi times bu		
-U+12284	𒊄	12000..123FF	Cuneiform	Cuneiform sign pi times e		
-U+12285	𒊅	12000..123FF	Cuneiform	Cuneiform sign pi times i		
-U+12286	𒊆	12000..123FF	Cuneiform	Cuneiform sign pi times ib		
-U+12287	𒊇	12000..123FF	Cuneiform	Cuneiform sign pi times u		
-U+12288	𒊈	12000..123FF	Cuneiform	Cuneiform sign pi times u2		
-U+12289	𒊉	12000..123FF	Cuneiform	Cuneiform sign pi crossing pi		
-U+1228A	𒊊	12000..123FF	Cuneiform	Cuneiform sign pirig		
-U+1228B	𒊋	12000..123FF	Cuneiform	Cuneiform sign pirig times kal		
-U+1228C	𒊌	12000..123FF	Cuneiform	Cuneiform sign pirig times ud		
-U+1228D	𒊍	12000..123FF	Cuneiform	Cuneiform sign pirig times za		
-U+1228E	𒊎	12000..123FF	Cuneiform	Cuneiform sign pirig opposing pirig		
-U+1228F	𒊏	12000..123FF	Cuneiform	Cuneiform sign ra		
-U+12290	𒊐	12000..123FF	Cuneiform	Cuneiform sign rab		
-U+12291	𒊑	12000..123FF	Cuneiform	Cuneiform sign ri		
-U+12292	𒊒	12000..123FF	Cuneiform	Cuneiform sign ru		
-U+12293	𒊓	12000..123FF	Cuneiform	Cuneiform sign sa		
-U+12294	𒊔	12000..123FF	Cuneiform	Cuneiform sign sag nutillu		
-U+12295	𒊕	12000..123FF	Cuneiform	Cuneiform sign sag		
-U+12296	𒊖	12000..123FF	Cuneiform	Cuneiform sign sag times a		
-U+12297	𒊗	12000..123FF	Cuneiform	Cuneiform sign sag times du		
-U+12298	𒊘	12000..123FF	Cuneiform	Cuneiform sign sag times dub		
-U+12299	𒊙	12000..123FF	Cuneiform	Cuneiform sign sag times ha		
-U+1229A	𒊚	12000..123FF	Cuneiform	Cuneiform sign sag times kak		
-U+1229B	𒊛	12000..123FF	Cuneiform	Cuneiform sign sag times kur		
-U+1229C	𒊜	12000..123FF	Cuneiform	Cuneiform sign sag times lum		
-U+1229D	𒊝	12000..123FF	Cuneiform	Cuneiform sign sag times mi		
-U+1229E	𒊞	12000..123FF	Cuneiform	Cuneiform sign sag times nun		
-U+1229F	𒊟	12000..123FF	Cuneiform	Cuneiform sign sag times sal		
-U+122A0	𒊠	12000..123FF	Cuneiform	Cuneiform sign sag times shid		
-U+122A1	𒊡	12000..123FF	Cuneiform	Cuneiform sign sag times tab		
-U+122A2	𒊢	12000..123FF	Cuneiform	Cuneiform sign sag times u2		
-U+122A3	𒊣	12000..123FF	Cuneiform	Cuneiform sign sag times ub		
-U+122A4	𒊤	12000..123FF	Cuneiform	Cuneiform sign sag times um		
-U+122A5	𒊥	12000..123FF	Cuneiform	Cuneiform sign sag times ur		
-U+122A6	𒊦	12000..123FF	Cuneiform	Cuneiform sign sag times ush		
-U+122A7	𒊧	12000..123FF	Cuneiform	Cuneiform sign sag over sag		
-U+122A8	𒊨	12000..123FF	Cuneiform	Cuneiform sign sag gunu		
-U+122A9	𒊩	12000..123FF	Cuneiform	Cuneiform sign sal		
-U+122AA	𒊪	12000..123FF	Cuneiform	Cuneiform sign sal lagab times ash2		
-U+122AB	𒊫	12000..123FF	Cuneiform	Cuneiform sign sanga2		
-U+122AC	𒊬	12000..123FF	Cuneiform	Cuneiform sign sar		
-U+122AD	𒊭	12000..123FF	Cuneiform	Cuneiform sign sha		
-U+122AE	𒊮	12000..123FF	Cuneiform	Cuneiform sign sha3		
-U+122AF	𒊯	12000..123FF	Cuneiform	Cuneiform sign sha3 times a		
-U+122B0	𒊰	12000..123FF	Cuneiform	Cuneiform sign sha3 times bad		
-U+122B1	𒊱	12000..123FF	Cuneiform	Cuneiform sign sha3 times gish		
-U+122B2	𒊲	12000..123FF	Cuneiform	Cuneiform sign sha3 times ne		
-U+122B3	𒊳	12000..123FF	Cuneiform	Cuneiform sign sha3 times shu2		
-U+122B4	𒊴	12000..123FF	Cuneiform	Cuneiform sign sha3 times tur		
-U+122B5	𒊵	12000..123FF	Cuneiform	Cuneiform sign sha3 times u		
-U+122B6	𒊶	12000..123FF	Cuneiform	Cuneiform sign sha3 times u plus a		
-U+122B7	𒊷	12000..123FF	Cuneiform	Cuneiform sign sha6		
-U+122B8	𒊸	12000..123FF	Cuneiform	Cuneiform sign shab6		
-U+122B9	𒊹	12000..123FF	Cuneiform	Cuneiform sign shar2		
-U+122BA	𒊺	12000..123FF	Cuneiform	Cuneiform sign she		
-U+122BB	𒊻	12000..123FF	Cuneiform	Cuneiform sign she hu		
-U+122BC	𒊼	12000..123FF	Cuneiform	Cuneiform sign she over she gad over gad gar over gar		
-U+122BD	𒊽	12000..123FF	Cuneiform	Cuneiform sign she over she tab over tab gar over gar		
-U+122BE	𒊾	12000..123FF	Cuneiform	Cuneiform sign sheg9		
-U+122BF	𒊿	12000..123FF	Cuneiform	Cuneiform sign shen		
-U+122C0	𒋀	12000..123FF	Cuneiform	Cuneiform sign shesh		
-U+122C1	𒋁	12000..123FF	Cuneiform	Cuneiform sign shesh2		
-U+122C2	𒋂	12000..123FF	Cuneiform	Cuneiform sign sheshlam		
-U+122C3	𒋃	12000..123FF	Cuneiform	Cuneiform sign shid		
-U+122C4	𒋄	12000..123FF	Cuneiform	Cuneiform sign shid times a		
-U+122C5	𒋅	12000..123FF	Cuneiform	Cuneiform sign shid times im		
-U+122C6	𒋆	12000..123FF	Cuneiform	Cuneiform sign shim		
-U+122C7	𒋇	12000..123FF	Cuneiform	Cuneiform sign shim times a		
-U+122C8	𒋈	12000..123FF	Cuneiform	Cuneiform sign shim times bal		
-U+122C9	𒋉	12000..123FF	Cuneiform	Cuneiform sign shim times bulug		
-U+122CA	𒋊	12000..123FF	Cuneiform	Cuneiform sign shim times din		
-U+122CB	𒋋	12000..123FF	Cuneiform	Cuneiform sign shim times gar		
-U+122CC	𒋌	12000..123FF	Cuneiform	Cuneiform sign shim times igi		
-U+122CD	𒋍	12000..123FF	Cuneiform	Cuneiform sign shim times igi gunu		
-U+122CE	𒋎	12000..123FF	Cuneiform	Cuneiform sign shim times kushu2		
-U+122CF	𒋏	12000..123FF	Cuneiform	Cuneiform sign shim times lul		
-U+122D0	𒋐	12000..123FF	Cuneiform	Cuneiform sign shim times mug		
-U+122D1	𒋑	12000..123FF	Cuneiform	Cuneiform sign shim times sal		
-U+122D2	𒋒	12000..123FF	Cuneiform	Cuneiform sign shinig		
-U+122D3	𒋓	12000..123FF	Cuneiform	Cuneiform sign shir		
-U+122D4	𒋔	12000..123FF	Cuneiform	Cuneiform sign shir tenu		
-U+122D5	𒋕	12000..123FF	Cuneiform	Cuneiform sign shir over shir bur over bur		
-U+122D6	𒋖	12000..123FF	Cuneiform	Cuneiform sign shita		
-U+122D7	𒋗	12000..123FF	Cuneiform	Cuneiform sign shu		
-U+122D8	𒋘	12000..123FF	Cuneiform	Cuneiform sign shu over inverted shu		
-U+122D9	𒋙	12000..123FF	Cuneiform	Cuneiform sign shu2		
-U+122DA	𒋚	12000..123FF	Cuneiform	Cuneiform sign shubur		
-U+122DB	𒋛	12000..123FF	Cuneiform	Cuneiform sign si		
-U+122DC	𒋜	12000..123FF	Cuneiform	Cuneiform sign si gunu		
-U+122DD	𒋝	12000..123FF	Cuneiform	Cuneiform sign sig		
-U+122DE	𒋞	12000..123FF	Cuneiform	Cuneiform sign sig4		
-U+122DF	𒋟	12000..123FF	Cuneiform	Cuneiform sign sig4 over sig4 shu2		
-U+122E0	𒋠	12000..123FF	Cuneiform	Cuneiform sign sik2		
-U+122E1	𒋡	12000..123FF	Cuneiform	Cuneiform sign sila3		
-U+122E2	𒋢	12000..123FF	Cuneiform	Cuneiform sign su		
-U+122E3	𒋣	12000..123FF	Cuneiform	Cuneiform sign su over su		
-U+122E4	𒋤	12000..123FF	Cuneiform	Cuneiform sign sud		
-U+122E5	𒋥	12000..123FF	Cuneiform	Cuneiform sign sud2		
-U+122E6	𒋦	12000..123FF	Cuneiform	Cuneiform sign suhur		
-U+122E7	𒋧	12000..123FF	Cuneiform	Cuneiform sign sum		
-U+122E8	𒋨	12000..123FF	Cuneiform	Cuneiform sign sumash		
-U+122E9	𒋩	12000..123FF	Cuneiform	Cuneiform sign sur		
-U+122EA	𒋪	12000..123FF	Cuneiform	Cuneiform sign sur9		
-U+122EB	𒋫	12000..123FF	Cuneiform	Cuneiform sign ta		
-U+122EC	𒋬	12000..123FF	Cuneiform	Cuneiform sign ta asterisk		
-U+122ED	𒋭	12000..123FF	Cuneiform	Cuneiform sign ta times hi		
-U+122EE	𒋮	12000..123FF	Cuneiform	Cuneiform sign ta times mi		
-U+122EF	𒋯	12000..123FF	Cuneiform	Cuneiform sign ta gunu		
-U+122F0	𒋰	12000..123FF	Cuneiform	Cuneiform sign tab		
-U+122F1	𒋱	12000..123FF	Cuneiform	Cuneiform sign tab over tab ni over ni dish over dish		
-U+122F2	𒋲	12000..123FF	Cuneiform	Cuneiform sign tab squared		
-U+122F3	𒋳	12000..123FF	Cuneiform	Cuneiform sign tag		
-U+122F4	𒋴	12000..123FF	Cuneiform	Cuneiform sign tag times bi		
-U+122F5	𒋵	12000..123FF	Cuneiform	Cuneiform sign tag times gud		
-U+122F6	𒋶	12000..123FF	Cuneiform	Cuneiform sign tag times she		
-U+122F7	𒋷	12000..123FF	Cuneiform	Cuneiform sign tag times shu		
-U+122F8	𒋸	12000..123FF	Cuneiform	Cuneiform sign tag times tug2		
-U+122F9	𒋹	12000..123FF	Cuneiform	Cuneiform sign tag times ud		
-U+122FA	𒋺	12000..123FF	Cuneiform	Cuneiform sign tak4		
-U+122FB	𒋻	12000..123FF	Cuneiform	Cuneiform sign tar		
-U+122FC	𒋼	12000..123FF	Cuneiform	Cuneiform sign te		
-U+122FD	𒋽	12000..123FF	Cuneiform	Cuneiform sign te gunu		
-U+122FE	𒋾	12000..123FF	Cuneiform	Cuneiform sign ti		
-U+122FF	𒋿	12000..123FF	Cuneiform	Cuneiform sign ti tenu		
-U+12300	𒌀	12000..123FF	Cuneiform	Cuneiform sign til		
-U+12301	𒌁	12000..123FF	Cuneiform	Cuneiform sign tir		
-U+12302	𒌂	12000..123FF	Cuneiform	Cuneiform sign tir times tak4		
-U+12303	𒌃	12000..123FF	Cuneiform	Cuneiform sign tir over tir		
-U+12304	𒌄	12000..123FF	Cuneiform	Cuneiform sign tir over tir gad over gad gar over gar		
-U+12305	𒌅	12000..123FF	Cuneiform	Cuneiform sign tu		
-U+12306	𒌆	12000..123FF	Cuneiform	Cuneiform sign tug2		
-U+12307	𒌇	12000..123FF	Cuneiform	Cuneiform sign tuk		
-U+12308	𒌈	12000..123FF	Cuneiform	Cuneiform sign tum		
-U+12309	𒌉	12000..123FF	Cuneiform	Cuneiform sign tur		
-U+1230A	𒌊	12000..123FF	Cuneiform	Cuneiform sign tur over tur za over za		
-U+1230B	𒌋	12000..123FF	Cuneiform	Cuneiform sign u		
-U+1230C	𒌌	12000..123FF	Cuneiform	Cuneiform sign u gud		
-U+1230D	𒌍	12000..123FF	Cuneiform	Cuneiform sign u u u		
-U+1230E	𒌎	12000..123FF	Cuneiform	Cuneiform sign u over u pa over pa gar over gar		
-U+1230F	𒌏	12000..123FF	Cuneiform	Cuneiform sign u over u sur over sur		
-U+12310	𒌐	12000..123FF	Cuneiform	Cuneiform sign u over u u reversed over u reversed		
-U+12311	𒌑	12000..123FF	Cuneiform	Cuneiform sign u2		
-U+12312	𒌒	12000..123FF	Cuneiform	Cuneiform sign ub		
-U+12313	𒌓	12000..123FF	Cuneiform	Cuneiform sign ud		
-U+12314	𒌔	12000..123FF	Cuneiform	Cuneiform sign ud kushu2		
-U+12315	𒌕	12000..123FF	Cuneiform	Cuneiform sign ud times bad		
-U+12316	𒌖	12000..123FF	Cuneiform	Cuneiform sign ud times mi		
-U+12317	𒌗	12000..123FF	Cuneiform	Cuneiform sign ud times u plus u plus u		
-U+12318	𒌘	12000..123FF	Cuneiform	Cuneiform sign ud times u plus u plus u gunu		
-U+12319	𒌙	12000..123FF	Cuneiform	Cuneiform sign ud gunu		
-U+1231A	𒌚	12000..123FF	Cuneiform	Cuneiform sign ud sheshig		
-U+1231B	𒌛	12000..123FF	Cuneiform	Cuneiform sign ud sheshig times bad		
-U+1231C	𒌜	12000..123FF	Cuneiform	Cuneiform sign udug		
-U+1231D	𒌝	12000..123FF	Cuneiform	Cuneiform sign um		
-U+1231E	𒌞	12000..123FF	Cuneiform	Cuneiform sign um times lagab		
-U+1231F	𒌟	12000..123FF	Cuneiform	Cuneiform sign um times me plus da		
-U+12320	𒌠	12000..123FF	Cuneiform	Cuneiform sign um times sha3		
-U+12321	𒌡	12000..123FF	Cuneiform	Cuneiform sign um times u		
-U+12322	𒌢	12000..123FF	Cuneiform	Cuneiform sign umbin		
-U+12323	𒌣	12000..123FF	Cuneiform	Cuneiform sign umum		
-U+12324	𒌤	12000..123FF	Cuneiform	Cuneiform sign umum times kaskal		
-U+12325	𒌥	12000..123FF	Cuneiform	Cuneiform sign umum times pa		
-U+12326	𒌦	12000..123FF	Cuneiform	Cuneiform sign un		
-U+12327	𒌧	12000..123FF	Cuneiform	Cuneiform sign un gunu		
-U+12328	𒌨	12000..123FF	Cuneiform	Cuneiform sign ur		
-U+12329	𒌩	12000..123FF	Cuneiform	Cuneiform sign ur crossing ur		
-U+1232A	𒌪	12000..123FF	Cuneiform	Cuneiform sign ur sheshig		
-U+1232B	𒌫	12000..123FF	Cuneiform	Cuneiform sign ur2		
-U+1232C	𒌬	12000..123FF	Cuneiform	Cuneiform sign ur2 times a plus ha		
-U+1232D	𒌭	12000..123FF	Cuneiform	Cuneiform sign ur2 times a plus na		
-U+1232E	𒌮	12000..123FF	Cuneiform	Cuneiform sign ur2 times al		
-U+1232F	𒌯	12000..123FF	Cuneiform	Cuneiform sign ur2 times ha		
-U+12330	𒌰	12000..123FF	Cuneiform	Cuneiform sign ur2 times nun		
-U+12331	𒌱	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2		
-U+12332	𒌲	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2 plus ash		
-U+12333	𒌳	12000..123FF	Cuneiform	Cuneiform sign ur2 times u2 plus bi		
-U+12334	𒌴	12000..123FF	Cuneiform	Cuneiform sign ur4		
-U+12335	𒌵	12000..123FF	Cuneiform	Cuneiform sign uri		
-U+12336	𒌶	12000..123FF	Cuneiform	Cuneiform sign uri3		
-U+12337	𒌷	12000..123FF	Cuneiform	Cuneiform sign uru		
-U+12338	𒌸	12000..123FF	Cuneiform	Cuneiform sign uru times a		
-U+12339	𒌹	12000..123FF	Cuneiform	Cuneiform sign uru times ashgab		
-U+1233A	𒌺	12000..123FF	Cuneiform	Cuneiform sign uru times bar		
-U+1233B	𒌻	12000..123FF	Cuneiform	Cuneiform sign uru times dun		
-U+1233C	𒌼	12000..123FF	Cuneiform	Cuneiform sign uru times ga		
-U+1233D	𒌽	12000..123FF	Cuneiform	Cuneiform sign uru times gal		
-U+1233E	𒌾	12000..123FF	Cuneiform	Cuneiform sign uru times gan2 tenu		
-U+1233F	𒌿	12000..123FF	Cuneiform	Cuneiform sign uru times gar		
-U+12340	𒍀	12000..123FF	Cuneiform	Cuneiform sign uru times gu		
-U+12341	𒍁	12000..123FF	Cuneiform	Cuneiform sign uru times ha		
-U+12342	𒍂	12000..123FF	Cuneiform	Cuneiform sign uru times igi		
-U+12343	𒍃	12000..123FF	Cuneiform	Cuneiform sign uru times im		
-U+12344	𒍄	12000..123FF	Cuneiform	Cuneiform sign uru times ish		
-U+12345	𒍅	12000..123FF	Cuneiform	Cuneiform sign uru times ki		
-U+12346	𒍆	12000..123FF	Cuneiform	Cuneiform sign uru times lum		
-U+12347	𒍇	12000..123FF	Cuneiform	Cuneiform sign uru times min		
-U+12348	𒍈	12000..123FF	Cuneiform	Cuneiform sign uru times pa		
-U+12349	𒍉	12000..123FF	Cuneiform	Cuneiform sign uru times she		
-U+1234A	𒍊	12000..123FF	Cuneiform	Cuneiform sign uru times sig4		
-U+1234B	𒍋	12000..123FF	Cuneiform	Cuneiform sign uru times tu		
-U+1234C	𒍌	12000..123FF	Cuneiform	Cuneiform sign uru times u plus gud		
-U+1234D	𒍍	12000..123FF	Cuneiform	Cuneiform sign uru times ud		
-U+1234E	𒍎	12000..123FF	Cuneiform	Cuneiform sign uru times uruda		
-U+1234F	𒍏	12000..123FF	Cuneiform	Cuneiform sign uruda		
-U+12350	𒍐	12000..123FF	Cuneiform	Cuneiform sign uruda times u		
-U+12351	𒍑	12000..123FF	Cuneiform	Cuneiform sign ush		
-U+12352	𒍒	12000..123FF	Cuneiform	Cuneiform sign ush times a		
-U+12353	𒍓	12000..123FF	Cuneiform	Cuneiform sign ush times ku		
-U+12354	𒍔	12000..123FF	Cuneiform	Cuneiform sign ush times kur		
-U+12355	𒍕	12000..123FF	Cuneiform	Cuneiform sign ush times tak4		
-U+12356	𒍖	12000..123FF	Cuneiform	Cuneiform sign ushx		
-U+12357	𒍗	12000..123FF	Cuneiform	Cuneiform sign ush2		
-U+12358	𒍘	12000..123FF	Cuneiform	Cuneiform sign ushumx		
-U+12359	𒍙	12000..123FF	Cuneiform	Cuneiform sign utuki		
-U+1235A	𒍚	12000..123FF	Cuneiform	Cuneiform sign uz3		
-U+1235B	𒍛	12000..123FF	Cuneiform	Cuneiform sign uz3 times kaskal		
-U+1235C	𒍜	12000..123FF	Cuneiform	Cuneiform sign uzu		
-U+1235D	𒍝	12000..123FF	Cuneiform	Cuneiform sign za		
-U+1235E	𒍞	12000..123FF	Cuneiform	Cuneiform sign za tenu		
-U+1235F	𒍟	12000..123FF	Cuneiform	Cuneiform sign za squared times kur		
-U+12360	𒍠	12000..123FF	Cuneiform	Cuneiform sign zag		
-U+12361	𒍡	12000..123FF	Cuneiform	Cuneiform sign zamx		
-U+12362	𒍢	12000..123FF	Cuneiform	Cuneiform sign ze2		
-U+12363	𒍣	12000..123FF	Cuneiform	Cuneiform sign zi		
-U+12364	𒍤	12000..123FF	Cuneiform	Cuneiform sign zi over zi		
-U+12365	𒍥	12000..123FF	Cuneiform	Cuneiform sign zi3		
-U+12366	𒍦	12000..123FF	Cuneiform	Cuneiform sign zib		
-U+12367	𒍧	12000..123FF	Cuneiform	Cuneiform sign zib kaba tenu		
-U+12368	𒍨	12000..123FF	Cuneiform	Cuneiform sign zig		
-U+12369	𒍩	12000..123FF	Cuneiform	Cuneiform sign ziz2		
-U+1236A	𒍪	12000..123FF	Cuneiform	Cuneiform sign zu		
-U+1236B	𒍫	12000..123FF	Cuneiform	Cuneiform sign zu5		
-U+1236C	𒍬	12000..123FF	Cuneiform	Cuneiform sign zu5 times a		
-U+1236D	𒍭	12000..123FF	Cuneiform	Cuneiform sign zubur		
-U+1236E	𒍮	12000..123FF	Cuneiform	Cuneiform sign zum		
-U+1236F	𒍯	12000..123FF	Cuneiform	Cuneiform sign kap elamite		
-U+12370	𒍰	12000..123FF	Cuneiform	Cuneiform sign ab times nun		
-U+12371	𒍱	12000..123FF	Cuneiform	Cuneiform sign ab2 times a		
-U+12372	𒍲	12000..123FF	Cuneiform	Cuneiform sign amar times kug		
-U+12373	𒍳	12000..123FF	Cuneiform	Cuneiform sign dag kisim5 times u2 plus mash		
-U+12374	𒍴	12000..123FF	Cuneiform	Cuneiform sign dag3		
-U+12375	𒍵	12000..123FF	Cuneiform	Cuneiform sign dish plus shu		
-U+12376	𒍶	12000..123FF	Cuneiform	Cuneiform sign dub times she		
-U+12377	𒍷	12000..123FF	Cuneiform	Cuneiform sign ezen times gud		
-U+12378	𒍸	12000..123FF	Cuneiform	Cuneiform sign ezen times she		
-U+12379	𒍹	12000..123FF	Cuneiform	Cuneiform sign ga2 times an plus kak plus a		
-U+1237A	𒍺	12000..123FF	Cuneiform	Cuneiform sign ga2 times ash2		
-U+1237B	𒍻	12000..123FF	Cuneiform	Cuneiform sign ge22		
-U+1237C	𒍼	12000..123FF	Cuneiform	Cuneiform sign gig		
-U+1237D	𒍽	12000..123FF	Cuneiform	Cuneiform sign hush		
-U+1237E	𒍾	12000..123FF	Cuneiform	Cuneiform sign ka times anshe		
-U+1237F	𒍿	12000..123FF	Cuneiform	Cuneiform sign ka times ash3		
-U+12380	𒎀	12000..123FF	Cuneiform	Cuneiform sign ka times gish		
-U+12381	𒎁	12000..123FF	Cuneiform	Cuneiform sign ka times gud		
-U+12382	𒎂	12000..123FF	Cuneiform	Cuneiform sign ka times hi times ash2		
-U+12383	𒎃	12000..123FF	Cuneiform	Cuneiform sign ka times lum		
-U+12384	𒎄	12000..123FF	Cuneiform	Cuneiform sign ka times pa		
-U+12385	𒎅	12000..123FF	Cuneiform	Cuneiform sign ka times shul		
-U+12386	𒎆	12000..123FF	Cuneiform	Cuneiform sign ka times tu		
-U+12387	𒎇	12000..123FF	Cuneiform	Cuneiform sign ka times ur2		
-U+12388	𒎈	12000..123FF	Cuneiform	Cuneiform sign lagab times gi		
-U+12389	𒎉	12000..123FF	Cuneiform	Cuneiform sign lu2 sheshig times bad		
-U+1238A	𒎊	12000..123FF	Cuneiform	Cuneiform sign lu2 times esh2 plus lal		
-U+1238B	𒎋	12000..123FF	Cuneiform	Cuneiform sign lu2 times shu		
-U+1238C	𒎌	12000..123FF	Cuneiform	Cuneiform sign mesh		
-U+1238D	𒎍	12000..123FF	Cuneiform	Cuneiform sign mush3 times za		
-U+1238E	𒎎	12000..123FF	Cuneiform	Cuneiform sign na4		
-U+1238F	𒎏	12000..123FF	Cuneiform	Cuneiform sign nin		
-U+12390	𒎐	12000..123FF	Cuneiform	Cuneiform sign nin9		
-U+12391	𒎑	12000..123FF	Cuneiform	Cuneiform sign ninda2 times bal		
-U+12392	𒎒	12000..123FF	Cuneiform	Cuneiform sign ninda2 times gi		
-U+12393	𒎓	12000..123FF	Cuneiform	Cuneiform sign nu11 rotated ninety degrees		
-U+12394	𒎔	12000..123FF	Cuneiform	Cuneiform sign pesh2 asterisk		
-U+12395	𒎕	12000..123FF	Cuneiform	Cuneiform sign pir2		
-U+12396	𒎖	12000..123FF	Cuneiform	Cuneiform sign sag times igi gunu		
-U+12397	𒎗	12000..123FF	Cuneiform	Cuneiform sign ti2		
-U+12398	𒎘	12000..123FF	Cuneiform	Cuneiform sign um times me		
-U+12399	𒎙	12000..123FF	Cuneiform	Cuneiform sign u u		
+code_points	chars	tab_completions	unicode_name	base
+U+12000	𒀀		CUNEIFORM SIGN A	
+U+12001	𒀁		CUNEIFORM SIGN A TIMES A	
+U+12002	𒀂		CUNEIFORM SIGN A TIMES BAD	
+U+12003	𒀃		CUNEIFORM SIGN A TIMES GAN2 TENU	
+U+12004	𒀄		CUNEIFORM SIGN A TIMES HA	
+U+12005	𒀅		CUNEIFORM SIGN A TIMES IGI	
+U+12006	𒀆		CUNEIFORM SIGN A TIMES LAGAR GUNU	
+U+12007	𒀇		CUNEIFORM SIGN A TIMES MUSH	
+U+12008	𒀈		CUNEIFORM SIGN A TIMES SAG	
+U+12009	𒀉		CUNEIFORM SIGN A2	
+U+1200A	𒀊		CUNEIFORM SIGN AB	
+U+1200B	𒀋		CUNEIFORM SIGN AB TIMES ASH2	
+U+1200C	𒀌		CUNEIFORM SIGN AB TIMES DUN3 GUNU	
+U+1200D	𒀍		CUNEIFORM SIGN AB TIMES GAL	
+U+1200E	𒀎		CUNEIFORM SIGN AB TIMES GAN2 TENU	
+U+1200F	𒀏		CUNEIFORM SIGN AB TIMES HA	
+U+12010	𒀐		CUNEIFORM SIGN AB TIMES IGI GUNU	
+U+12011	𒀑		CUNEIFORM SIGN AB TIMES IMIN	
+U+12012	𒀒		CUNEIFORM SIGN AB TIMES LAGAB	
+U+12013	𒀓		CUNEIFORM SIGN AB TIMES SHESH	
+U+12014	𒀔		CUNEIFORM SIGN AB TIMES U PLUS U PLUS U	
+U+12015	𒀕		CUNEIFORM SIGN AB GUNU	
+U+12016	𒀖		CUNEIFORM SIGN AB2	
+U+12017	𒀗		CUNEIFORM SIGN AB2 TIMES BALAG	
+U+12018	𒀘		CUNEIFORM SIGN AB2 TIMES GAN2 TENU	
+U+12019	𒀙		CUNEIFORM SIGN AB2 TIMES ME PLUS EN	
+U+1201A	𒀚		CUNEIFORM SIGN AB2 TIMES SHA3	
+U+1201B	𒀛		CUNEIFORM SIGN AB2 TIMES TAK4	
+U+1201C	𒀜		CUNEIFORM SIGN AD	
+U+1201D	𒀝		CUNEIFORM SIGN AK	
+U+1201E	𒀞		CUNEIFORM SIGN AK TIMES ERIN2	
+U+1201F	𒀟		CUNEIFORM SIGN AK TIMES SHITA PLUS GISH	
+U+12020	𒀠		CUNEIFORM SIGN AL	
+U+12021	𒀡		CUNEIFORM SIGN AL TIMES AL	
+U+12022	𒀢		CUNEIFORM SIGN AL TIMES DIM2	
+U+12023	𒀣		CUNEIFORM SIGN AL TIMES GISH	
+U+12024	𒀤		CUNEIFORM SIGN AL TIMES HA	
+U+12025	𒀥		CUNEIFORM SIGN AL TIMES KAD3	
+U+12026	𒀦		CUNEIFORM SIGN AL TIMES KI	
+U+12027	𒀧		CUNEIFORM SIGN AL TIMES SHE	
+U+12028	𒀨		CUNEIFORM SIGN AL TIMES USH	
+U+12029	𒀩		CUNEIFORM SIGN ALAN	
+U+1202A	𒀪		CUNEIFORM SIGN ALEPH	
+U+1202B	𒀫		CUNEIFORM SIGN AMAR	
+U+1202C	𒀬		CUNEIFORM SIGN AMAR TIMES SHE	
+U+1202D	𒀭		CUNEIFORM SIGN AN	
+U+1202E	𒀮		CUNEIFORM SIGN AN OVER AN	
+U+1202F	𒀯		CUNEIFORM SIGN AN THREE TIMES	
+U+12030	𒀰		CUNEIFORM SIGN AN PLUS NAGA OPPOSING AN PLUS NAGA	
+U+12031	𒀱		CUNEIFORM SIGN AN PLUS NAGA SQUARED	
+U+12032	𒀲		CUNEIFORM SIGN ANSHE	
+U+12033	𒀳		CUNEIFORM SIGN APIN	
+U+12034	𒀴		CUNEIFORM SIGN ARAD	
+U+12035	𒀵		CUNEIFORM SIGN ARAD TIMES KUR	
+U+12036	𒀶		CUNEIFORM SIGN ARKAB	
+U+12037	𒀷		CUNEIFORM SIGN ASAL2	
+U+12038	𒀸		CUNEIFORM SIGN ASH	
+U+12039	𒀹		CUNEIFORM SIGN ASH ZIDA TENU	
+U+1203A	𒀺		CUNEIFORM SIGN ASH KABA TENU	
+U+1203B	𒀻		CUNEIFORM SIGN ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP	
+U+1203C	𒀼		CUNEIFORM SIGN ASH OVER ASH OVER ASH	
+U+1203D	𒀽		CUNEIFORM SIGN ASH OVER ASH OVER ASH CROSSING ASH OVER ASH OVER ASH	
+U+1203E	𒀾		CUNEIFORM SIGN ASH2	
+U+1203F	𒀿		CUNEIFORM SIGN ASHGAB	
+U+12040	𒁀		CUNEIFORM SIGN BA	
+U+12041	𒁁		CUNEIFORM SIGN BAD	
+U+12042	𒁂		CUNEIFORM SIGN BAG3	
+U+12043	𒁃		CUNEIFORM SIGN BAHAR2	
+U+12044	𒁄		CUNEIFORM SIGN BAL	
+U+12045	𒁅		CUNEIFORM SIGN BAL OVER BAL	
+U+12046	𒁆		CUNEIFORM SIGN BALAG	
+U+12047	𒁇		CUNEIFORM SIGN BAR	
+U+12048	𒁈		CUNEIFORM SIGN BARA2	
+U+12049	𒁉		CUNEIFORM SIGN BI	
+U+1204A	𒁊		CUNEIFORM SIGN BI TIMES A	
+U+1204B	𒁋		CUNEIFORM SIGN BI TIMES GAR	
+U+1204C	𒁌		CUNEIFORM SIGN BI TIMES IGI GUNU	
+U+1204D	𒁍		CUNEIFORM SIGN BU	
+U+1204E	𒁎		CUNEIFORM SIGN BU OVER BU AB	
+U+1204F	𒁏		CUNEIFORM SIGN BU OVER BU UN	
+U+12050	𒁐		CUNEIFORM SIGN BU CROSSING BU	
+U+12051	𒁑		CUNEIFORM SIGN BULUG	
+U+12052	𒁒		CUNEIFORM SIGN BULUG OVER BULUG	
+U+12053	𒁓		CUNEIFORM SIGN BUR	
+U+12054	𒁔		CUNEIFORM SIGN BUR2	
+U+12055	𒁕		CUNEIFORM SIGN DA	
+U+12056	𒁖		CUNEIFORM SIGN DAG	
+U+12057	𒁗		CUNEIFORM SIGN DAG KISIM5 TIMES A PLUS MASH	
+U+12058	𒁘		CUNEIFORM SIGN DAG KISIM5 TIMES AMAR	
+U+12059	𒁙		CUNEIFORM SIGN DAG KISIM5 TIMES BALAG	
+U+1205A	𒁚		CUNEIFORM SIGN DAG KISIM5 TIMES BI	
+U+1205B	𒁛		CUNEIFORM SIGN DAG KISIM5 TIMES GA	
+U+1205C	𒁜		CUNEIFORM SIGN DAG KISIM5 TIMES GA PLUS MASH	
+U+1205D	𒁝		CUNEIFORM SIGN DAG KISIM5 TIMES GI	
+U+1205E	𒁞		CUNEIFORM SIGN DAG KISIM5 TIMES GIR2	
+U+1205F	𒁟		CUNEIFORM SIGN DAG KISIM5 TIMES GUD	
+U+12060	𒁠		CUNEIFORM SIGN DAG KISIM5 TIMES HA	
+U+12061	𒁡		CUNEIFORM SIGN DAG KISIM5 TIMES IR	
+U+12062	𒁢		CUNEIFORM SIGN DAG KISIM5 TIMES IR PLUS LU	
+U+12063	𒁣		CUNEIFORM SIGN DAG KISIM5 TIMES KAK	
+U+12064	𒁤		CUNEIFORM SIGN DAG KISIM5 TIMES LA	
+U+12065	𒁥		CUNEIFORM SIGN DAG KISIM5 TIMES LU	
+U+12066	𒁦		CUNEIFORM SIGN DAG KISIM5 TIMES LU PLUS MASH2	
+U+12067	𒁧		CUNEIFORM SIGN DAG KISIM5 TIMES LUM	
+U+12068	𒁨		CUNEIFORM SIGN DAG KISIM5 TIMES NE	
+U+12069	𒁩		CUNEIFORM SIGN DAG KISIM5 TIMES PAP PLUS PAP	
+U+1206A	𒁪		CUNEIFORM SIGN DAG KISIM5 TIMES SI	
+U+1206B	𒁫		CUNEIFORM SIGN DAG KISIM5 TIMES TAK4	
+U+1206C	𒁬		CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS GIR2	
+U+1206D	𒁭		CUNEIFORM SIGN DAG KISIM5 TIMES USH	
+U+1206E	𒁮		CUNEIFORM SIGN DAM	
+U+1206F	𒁯		CUNEIFORM SIGN DAR	
+U+12070	𒁰		CUNEIFORM SIGN DARA3	
+U+12071	𒁱		CUNEIFORM SIGN DARA4	
+U+12072	𒁲		CUNEIFORM SIGN DI	
+U+12073	𒁳		CUNEIFORM SIGN DIB	
+U+12074	𒁴		CUNEIFORM SIGN DIM	
+U+12075	𒁵		CUNEIFORM SIGN DIM TIMES SHE	
+U+12076	𒁶		CUNEIFORM SIGN DIM2	
+U+12077	𒁷		CUNEIFORM SIGN DIN	
+U+12078	𒁸		CUNEIFORM SIGN DIN KASKAL U GUNU DISH	
+U+12079	𒁹		CUNEIFORM SIGN DISH	
+U+1207A	𒁺		CUNEIFORM SIGN DU	
+U+1207B	𒁻		CUNEIFORM SIGN DU OVER DU	
+U+1207C	𒁼		CUNEIFORM SIGN DU GUNU	
+U+1207D	𒁽		CUNEIFORM SIGN DU SHESHIG	
+U+1207E	𒁾		CUNEIFORM SIGN DUB	
+U+1207F	𒁿		CUNEIFORM SIGN DUB TIMES ESH2	
+U+12080	𒂀		CUNEIFORM SIGN DUB2	
+U+12081	𒂁		CUNEIFORM SIGN DUG	
+U+12082	𒂂		CUNEIFORM SIGN DUGUD	
+U+12083	𒂃		CUNEIFORM SIGN DUH	
+U+12084	𒂄		CUNEIFORM SIGN DUN	
+U+12085	𒂅		CUNEIFORM SIGN DUN3	
+U+12086	𒂆		CUNEIFORM SIGN DUN3 GUNU	
+U+12087	𒂇		CUNEIFORM SIGN DUN3 GUNU GUNU	
+U+12088	𒂈		CUNEIFORM SIGN DUN4	
+U+12089	𒂉		CUNEIFORM SIGN DUR2	
+U+1208A	𒂊		CUNEIFORM SIGN E	
+U+1208B	𒂋		CUNEIFORM SIGN E TIMES PAP	
+U+1208C	𒂌		CUNEIFORM SIGN E OVER E NUN OVER NUN	
+U+1208D	𒂍		CUNEIFORM SIGN E2	
+U+1208E	𒂎		CUNEIFORM SIGN E2 TIMES A PLUS HA PLUS DA	
+U+1208F	𒂏		CUNEIFORM SIGN E2 TIMES GAR	
+U+12090	𒂐		CUNEIFORM SIGN E2 TIMES MI	
+U+12091	𒂑		CUNEIFORM SIGN E2 TIMES SAL	
+U+12092	𒂒		CUNEIFORM SIGN E2 TIMES SHE	
+U+12093	𒂓		CUNEIFORM SIGN E2 TIMES U	
+U+12094	𒂔		CUNEIFORM SIGN EDIN	
+U+12095	𒂕		CUNEIFORM SIGN EGIR	
+U+12096	𒂖		CUNEIFORM SIGN EL	
+U+12097	𒂗		CUNEIFORM SIGN EN	
+U+12098	𒂘		CUNEIFORM SIGN EN TIMES GAN2	
+U+12099	𒂙		CUNEIFORM SIGN EN TIMES GAN2 TENU	
+U+1209A	𒂚		CUNEIFORM SIGN EN TIMES ME	
+U+1209B	𒂛		CUNEIFORM SIGN EN CROSSING EN	
+U+1209C	𒂜		CUNEIFORM SIGN EN OPPOSING EN	
+U+1209D	𒂝		CUNEIFORM SIGN EN SQUARED	
+U+1209E	𒂞		CUNEIFORM SIGN EREN	
+U+1209F	𒂟		CUNEIFORM SIGN ERIN2	
+U+120A0	𒂠		CUNEIFORM SIGN ESH2	
+U+120A1	𒂡		CUNEIFORM SIGN EZEN	
+U+120A2	𒂢		CUNEIFORM SIGN EZEN TIMES A	
+U+120A3	𒂣		CUNEIFORM SIGN EZEN TIMES A PLUS LAL	
+U+120A4	𒂤		CUNEIFORM SIGN EZEN TIMES A PLUS LAL TIMES LAL	
+U+120A5	𒂥		CUNEIFORM SIGN EZEN TIMES AN	
+U+120A6	𒂦		CUNEIFORM SIGN EZEN TIMES BAD	
+U+120A7	𒂧		CUNEIFORM SIGN EZEN TIMES DUN3 GUNU	
+U+120A8	𒂨		CUNEIFORM SIGN EZEN TIMES DUN3 GUNU GUNU	
+U+120A9	𒂩		CUNEIFORM SIGN EZEN TIMES HA	
+U+120AA	𒂪		CUNEIFORM SIGN EZEN TIMES HA GUNU	
+U+120AB	𒂫		CUNEIFORM SIGN EZEN TIMES IGI GUNU	
+U+120AC	𒂬		CUNEIFORM SIGN EZEN TIMES KASKAL	
+U+120AD	𒂭		CUNEIFORM SIGN EZEN TIMES KASKAL SQUARED	
+U+120AE	𒂮		CUNEIFORM SIGN EZEN TIMES KU3	
+U+120AF	𒂯		CUNEIFORM SIGN EZEN TIMES LA	
+U+120B0	𒂰		CUNEIFORM SIGN EZEN TIMES LAL TIMES LAL	
+U+120B1	𒂱		CUNEIFORM SIGN EZEN TIMES LI	
+U+120B2	𒂲		CUNEIFORM SIGN EZEN TIMES LU	
+U+120B3	𒂳		CUNEIFORM SIGN EZEN TIMES U2	
+U+120B4	𒂴		CUNEIFORM SIGN EZEN TIMES UD	
+U+120B5	𒂵		CUNEIFORM SIGN GA	
+U+120B6	𒂶		CUNEIFORM SIGN GA GUNU	
+U+120B7	𒂷		CUNEIFORM SIGN GA2	
+U+120B8	𒂸		CUNEIFORM SIGN GA2 TIMES A PLUS DA PLUS HA	
+U+120B9	𒂹		CUNEIFORM SIGN GA2 TIMES A PLUS HA	
+U+120BA	𒂺		CUNEIFORM SIGN GA2 TIMES A PLUS IGI	
+U+120BB	𒂻		CUNEIFORM SIGN GA2 TIMES AB2 TENU PLUS TAB	
+U+120BC	𒂼		CUNEIFORM SIGN GA2 TIMES AN	
+U+120BD	𒂽		CUNEIFORM SIGN GA2 TIMES ASH	
+U+120BE	𒂾		CUNEIFORM SIGN GA2 TIMES ASH2 PLUS GAL	
+U+120BF	𒂿		CUNEIFORM SIGN GA2 TIMES BAD	
+U+120C0	𒃀		CUNEIFORM SIGN GA2 TIMES BAR PLUS RA	
+U+120C1	𒃁		CUNEIFORM SIGN GA2 TIMES BUR	
+U+120C2	𒃂		CUNEIFORM SIGN GA2 TIMES BUR PLUS RA	
+U+120C3	𒃃		CUNEIFORM SIGN GA2 TIMES DA	
+U+120C4	𒃄		CUNEIFORM SIGN GA2 TIMES DI	
+U+120C5	𒃅		CUNEIFORM SIGN GA2 TIMES DIM TIMES SHE	
+U+120C6	𒃆		CUNEIFORM SIGN GA2 TIMES DUB	
+U+120C7	𒃇		CUNEIFORM SIGN GA2 TIMES EL	
+U+120C8	𒃈		CUNEIFORM SIGN GA2 TIMES EL PLUS LA	
+U+120C9	𒃉		CUNEIFORM SIGN GA2 TIMES EN	
+U+120CA	𒃊		CUNEIFORM SIGN GA2 TIMES EN TIMES GAN2 TENU	
+U+120CB	𒃋		CUNEIFORM SIGN GA2 TIMES GAN2 TENU	
+U+120CC	𒃌		CUNEIFORM SIGN GA2 TIMES GAR	
+U+120CD	𒃍		CUNEIFORM SIGN GA2 TIMES GI	
+U+120CE	𒃎		CUNEIFORM SIGN GA2 TIMES GI4	
+U+120CF	𒃏		CUNEIFORM SIGN GA2 TIMES GI4 PLUS A	
+U+120D0	𒃐		CUNEIFORM SIGN GA2 TIMES GIR2 PLUS SU	
+U+120D1	𒃑		CUNEIFORM SIGN GA2 TIMES HA PLUS LU PLUS ESH2	
+U+120D2	𒃒		CUNEIFORM SIGN GA2 TIMES HAL	
+U+120D3	𒃓		CUNEIFORM SIGN GA2 TIMES HAL PLUS LA	
+U+120D4	𒃔		CUNEIFORM SIGN GA2 TIMES HI PLUS LI	
+U+120D5	𒃕		CUNEIFORM SIGN GA2 TIMES HUB2	
+U+120D6	𒃖		CUNEIFORM SIGN GA2 TIMES IGI GUNU	
+U+120D7	𒃗		CUNEIFORM SIGN GA2 TIMES ISH PLUS HU PLUS ASH	
+U+120D8	𒃘		CUNEIFORM SIGN GA2 TIMES KAK	
+U+120D9	𒃙		CUNEIFORM SIGN GA2 TIMES KASKAL	
+U+120DA	𒃚		CUNEIFORM SIGN GA2 TIMES KID	
+U+120DB	𒃛		CUNEIFORM SIGN GA2 TIMES KID PLUS LAL	
+U+120DC	𒃜		CUNEIFORM SIGN GA2 TIMES KU3 PLUS AN	
+U+120DD	𒃝		CUNEIFORM SIGN GA2 TIMES LA	
+U+120DE	𒃞		CUNEIFORM SIGN GA2 TIMES ME PLUS EN	
+U+120DF	𒃟		CUNEIFORM SIGN GA2 TIMES MI	
+U+120E0	𒃠		CUNEIFORM SIGN GA2 TIMES NUN	
+U+120E1	𒃡		CUNEIFORM SIGN GA2 TIMES NUN OVER NUN	
+U+120E2	𒃢		CUNEIFORM SIGN GA2 TIMES PA	
+U+120E3	𒃣		CUNEIFORM SIGN GA2 TIMES SAL	
+U+120E4	𒃤		CUNEIFORM SIGN GA2 TIMES SAR	
+U+120E5	𒃥		CUNEIFORM SIGN GA2 TIMES SHE	
+U+120E6	𒃦		CUNEIFORM SIGN GA2 TIMES SHE PLUS TUR	
+U+120E7	𒃧		CUNEIFORM SIGN GA2 TIMES SHID	
+U+120E8	𒃨		CUNEIFORM SIGN GA2 TIMES SUM	
+U+120E9	𒃩		CUNEIFORM SIGN GA2 TIMES TAK4	
+U+120EA	𒃪		CUNEIFORM SIGN GA2 TIMES U	
+U+120EB	𒃫		CUNEIFORM SIGN GA2 TIMES UD	
+U+120EC	𒃬		CUNEIFORM SIGN GA2 TIMES UD PLUS DU	
+U+120ED	𒃭		CUNEIFORM SIGN GA2 OVER GA2	
+U+120EE	𒃮		CUNEIFORM SIGN GABA	
+U+120EF	𒃯		CUNEIFORM SIGN GABA CROSSING GABA	
+U+120F0	𒃰		CUNEIFORM SIGN GAD	
+U+120F1	𒃱		CUNEIFORM SIGN GAD OVER GAD GAR OVER GAR	
+U+120F2	𒃲		CUNEIFORM SIGN GAL	
+U+120F3	𒃳		CUNEIFORM SIGN GAL GAD OVER GAD GAR OVER GAR	
+U+120F4	𒃴		CUNEIFORM SIGN GALAM	
+U+120F5	𒃵		CUNEIFORM SIGN GAM	
+U+120F6	𒃶		CUNEIFORM SIGN GAN	
+U+120F7	𒃷		CUNEIFORM SIGN GAN2	
+U+120F8	𒃸		CUNEIFORM SIGN GAN2 TENU	
+U+120F9	𒃹		CUNEIFORM SIGN GAN2 OVER GAN2	
+U+120FA	𒃺		CUNEIFORM SIGN GAN2 CROSSING GAN2	
+U+120FB	𒃻		CUNEIFORM SIGN GAR	
+U+120FC	𒃼		CUNEIFORM SIGN GAR3	
+U+120FD	𒃽		CUNEIFORM SIGN GASHAN	
+U+120FE	𒃾		CUNEIFORM SIGN GESHTIN	
+U+120FF	𒃿		CUNEIFORM SIGN GESHTIN TIMES KUR	
+U+12100	𒄀		CUNEIFORM SIGN GI	
+U+12101	𒄁		CUNEIFORM SIGN GI TIMES E	
+U+12102	𒄂		CUNEIFORM SIGN GI TIMES U	
+U+12103	𒄃		CUNEIFORM SIGN GI CROSSING GI	
+U+12104	𒄄		CUNEIFORM SIGN GI4	
+U+12105	𒄅		CUNEIFORM SIGN GI4 OVER GI4	
+U+12106	𒄆		CUNEIFORM SIGN GI4 CROSSING GI4	
+U+12107	𒄇		CUNEIFORM SIGN GIDIM	
+U+12108	𒄈		CUNEIFORM SIGN GIR2	
+U+12109	𒄉		CUNEIFORM SIGN GIR2 GUNU	
+U+1210A	𒄊		CUNEIFORM SIGN GIR3	
+U+1210B	𒄋		CUNEIFORM SIGN GIR3 TIMES A PLUS IGI	
+U+1210C	𒄌		CUNEIFORM SIGN GIR3 TIMES GAN2 TENU	
+U+1210D	𒄍		CUNEIFORM SIGN GIR3 TIMES IGI	
+U+1210E	𒄎		CUNEIFORM SIGN GIR3 TIMES LU PLUS IGI	
+U+1210F	𒄏		CUNEIFORM SIGN GIR3 TIMES PA	
+U+12110	𒄐		CUNEIFORM SIGN GISAL	
+U+12111	𒄑		CUNEIFORM SIGN GISH	
+U+12112	𒄒		CUNEIFORM SIGN GISH CROSSING GISH	
+U+12113	𒄓		CUNEIFORM SIGN GISH TIMES BAD	
+U+12114	𒄔		CUNEIFORM SIGN GISH TIMES TAK4	
+U+12115	𒄕		CUNEIFORM SIGN GISH TENU	
+U+12116	𒄖		CUNEIFORM SIGN GU	
+U+12117	𒄗		CUNEIFORM SIGN GU CROSSING GU	
+U+12118	𒄘		CUNEIFORM SIGN GU2	
+U+12119	𒄙		CUNEIFORM SIGN GU2 TIMES KAK	
+U+1211A	𒄚		CUNEIFORM SIGN GU2 TIMES KAK TIMES IGI GUNU	
+U+1211B	𒄛		CUNEIFORM SIGN GU2 TIMES NUN	
+U+1211C	𒄜		CUNEIFORM SIGN GU2 TIMES SAL PLUS TUG2	
+U+1211D	𒄝		CUNEIFORM SIGN GU2 GUNU	
+U+1211E	𒄞		CUNEIFORM SIGN GUD	
+U+1211F	𒄟		CUNEIFORM SIGN GUD TIMES A PLUS KUR	
+U+12120	𒄠		CUNEIFORM SIGN GUD TIMES KUR	
+U+12121	𒄡		CUNEIFORM SIGN GUD OVER GUD LUGAL	
+U+12122	𒄢		CUNEIFORM SIGN GUL	
+U+12123	𒄣		CUNEIFORM SIGN GUM	
+U+12124	𒄤		CUNEIFORM SIGN GUM TIMES SHE	
+U+12125	𒄥		CUNEIFORM SIGN GUR	
+U+12126	𒄦		CUNEIFORM SIGN GUR7	
+U+12127	𒄧		CUNEIFORM SIGN GURUN	
+U+12128	𒄨		CUNEIFORM SIGN GURUSH	
+U+12129	𒄩		CUNEIFORM SIGN HA	
+U+1212A	𒄪		CUNEIFORM SIGN HA TENU	
+U+1212B	𒄫		CUNEIFORM SIGN HA GUNU	
+U+1212C	𒄬		CUNEIFORM SIGN HAL	
+U+1212D	𒄭		CUNEIFORM SIGN HI	
+U+1212E	𒄮		CUNEIFORM SIGN HI TIMES ASH	
+U+1212F	𒄯		CUNEIFORM SIGN HI TIMES ASH2	
+U+12130	𒄰		CUNEIFORM SIGN HI TIMES BAD	
+U+12131	𒄱		CUNEIFORM SIGN HI TIMES DISH	
+U+12132	𒄲		CUNEIFORM SIGN HI TIMES GAD	
+U+12133	𒄳		CUNEIFORM SIGN HI TIMES KIN	
+U+12134	𒄴		CUNEIFORM SIGN HI TIMES NUN	
+U+12135	𒄵		CUNEIFORM SIGN HI TIMES SHE	
+U+12136	𒄶		CUNEIFORM SIGN HI TIMES U	
+U+12137	𒄷		CUNEIFORM SIGN HU	
+U+12138	𒄸		CUNEIFORM SIGN HUB2	
+U+12139	𒄹		CUNEIFORM SIGN HUB2 TIMES AN	
+U+1213A	𒄺		CUNEIFORM SIGN HUB2 TIMES HAL	
+U+1213B	𒄻		CUNEIFORM SIGN HUB2 TIMES KASKAL	
+U+1213C	𒄼		CUNEIFORM SIGN HUB2 TIMES LISH	
+U+1213D	𒄽		CUNEIFORM SIGN HUB2 TIMES UD	
+U+1213E	𒄾		CUNEIFORM SIGN HUL2	
+U+1213F	𒄿		CUNEIFORM SIGN I	
+U+12140	𒅀		CUNEIFORM SIGN I A	
+U+12141	𒅁		CUNEIFORM SIGN IB	
+U+12142	𒅂		CUNEIFORM SIGN IDIM	
+U+12143	𒅃		CUNEIFORM SIGN IDIM OVER IDIM BUR	
+U+12144	𒅄		CUNEIFORM SIGN IDIM OVER IDIM SQUARED	
+U+12145	𒅅		CUNEIFORM SIGN IG	
+U+12146	𒅆		CUNEIFORM SIGN IGI	
+U+12147	𒅇		CUNEIFORM SIGN IGI DIB	
+U+12148	𒅈		CUNEIFORM SIGN IGI RI	
+U+12149	𒅉		CUNEIFORM SIGN IGI OVER IGI SHIR OVER SHIR UD OVER UD	
+U+1214A	𒅊		CUNEIFORM SIGN IGI GUNU	
+U+1214B	𒅋		CUNEIFORM SIGN IL	
+U+1214C	𒅌		CUNEIFORM SIGN IL TIMES GAN2 TENU	
+U+1214D	𒅍		CUNEIFORM SIGN IL2	
+U+1214E	𒅎		CUNEIFORM SIGN IM	
+U+1214F	𒅏		CUNEIFORM SIGN IM TIMES TAK4	
+U+12150	𒅐		CUNEIFORM SIGN IM CROSSING IM	
+U+12151	𒅑		CUNEIFORM SIGN IM OPPOSING IM	
+U+12152	𒅒		CUNEIFORM SIGN IM SQUARED	
+U+12153	𒅓		CUNEIFORM SIGN IMIN	
+U+12154	𒅔		CUNEIFORM SIGN IN	
+U+12155	𒅕		CUNEIFORM SIGN IR	
+U+12156	𒅖		CUNEIFORM SIGN ISH	
+U+12157	𒅗		CUNEIFORM SIGN KA	
+U+12158	𒅘		CUNEIFORM SIGN KA TIMES A	
+U+12159	𒅙		CUNEIFORM SIGN KA TIMES AD	
+U+1215A	𒅚		CUNEIFORM SIGN KA TIMES AD PLUS KU3	
+U+1215B	𒅛		CUNEIFORM SIGN KA TIMES ASH2	
+U+1215C	𒅜		CUNEIFORM SIGN KA TIMES BAD	
+U+1215D	𒅝		CUNEIFORM SIGN KA TIMES BALAG	
+U+1215E	𒅞		CUNEIFORM SIGN KA TIMES BAR	
+U+1215F	𒅟		CUNEIFORM SIGN KA TIMES BI	
+U+12160	𒅠		CUNEIFORM SIGN KA TIMES ERIN2	
+U+12161	𒅡		CUNEIFORM SIGN KA TIMES ESH2	
+U+12162	𒅢		CUNEIFORM SIGN KA TIMES GA	
+U+12163	𒅣		CUNEIFORM SIGN KA TIMES GAL	
+U+12164	𒅤		CUNEIFORM SIGN KA TIMES GAN2 TENU	
+U+12165	𒅥		CUNEIFORM SIGN KA TIMES GAR	
+U+12166	𒅦		CUNEIFORM SIGN KA TIMES GAR PLUS SHA3 PLUS A	
+U+12167	𒅧		CUNEIFORM SIGN KA TIMES GI	
+U+12168	𒅨		CUNEIFORM SIGN KA TIMES GIR2	
+U+12169	𒅩		CUNEIFORM SIGN KA TIMES GISH PLUS SAR	
+U+1216A	𒅪		CUNEIFORM SIGN KA TIMES GISH CROSSING GISH	
+U+1216B	𒅫		CUNEIFORM SIGN KA TIMES GU	
+U+1216C	𒅬		CUNEIFORM SIGN KA TIMES GUR7	
+U+1216D	𒅭		CUNEIFORM SIGN KA TIMES IGI	
+U+1216E	𒅮		CUNEIFORM SIGN KA TIMES IM	
+U+1216F	𒅯		CUNEIFORM SIGN KA TIMES KAK	
+U+12170	𒅰		CUNEIFORM SIGN KA TIMES KI	
+U+12171	𒅱		CUNEIFORM SIGN KA TIMES KID	
+U+12172	𒅲		CUNEIFORM SIGN KA TIMES LI	
+U+12173	𒅳		CUNEIFORM SIGN KA TIMES LU	
+U+12174	𒅴		CUNEIFORM SIGN KA TIMES ME	
+U+12175	𒅵		CUNEIFORM SIGN KA TIMES ME PLUS DU	
+U+12176	𒅶		CUNEIFORM SIGN KA TIMES ME PLUS GI	
+U+12177	𒅷		CUNEIFORM SIGN KA TIMES ME PLUS TE	
+U+12178	𒅸		CUNEIFORM SIGN KA TIMES MI	
+U+12179	𒅹		CUNEIFORM SIGN KA TIMES MI PLUS NUNUZ	
+U+1217A	𒅺		CUNEIFORM SIGN KA TIMES NE	
+U+1217B	𒅻		CUNEIFORM SIGN KA TIMES NUN	
+U+1217C	𒅼		CUNEIFORM SIGN KA TIMES PI	
+U+1217D	𒅽		CUNEIFORM SIGN KA TIMES RU	
+U+1217E	𒅾		CUNEIFORM SIGN KA TIMES SA	
+U+1217F	𒅿		CUNEIFORM SIGN KA TIMES SAR	
+U+12180	𒆀		CUNEIFORM SIGN KA TIMES SHA	
+U+12181	𒆁		CUNEIFORM SIGN KA TIMES SHE	
+U+12182	𒆂		CUNEIFORM SIGN KA TIMES SHID	
+U+12183	𒆃		CUNEIFORM SIGN KA TIMES SHU	
+U+12184	𒆄		CUNEIFORM SIGN KA TIMES SIG	
+U+12185	𒆅		CUNEIFORM SIGN KA TIMES SUHUR	
+U+12186	𒆆		CUNEIFORM SIGN KA TIMES TAR	
+U+12187	𒆇		CUNEIFORM SIGN KA TIMES U	
+U+12188	𒆈		CUNEIFORM SIGN KA TIMES U2	
+U+12189	𒆉		CUNEIFORM SIGN KA TIMES UD	
+U+1218A	𒆊		CUNEIFORM SIGN KA TIMES UMUM TIMES PA	
+U+1218B	𒆋		CUNEIFORM SIGN KA TIMES USH	
+U+1218C	𒆌		CUNEIFORM SIGN KA TIMES ZI	
+U+1218D	𒆍		CUNEIFORM SIGN KA2	
+U+1218E	𒆎		CUNEIFORM SIGN KA2 CROSSING KA2	
+U+1218F	𒆏		CUNEIFORM SIGN KAB	
+U+12190	𒆐		CUNEIFORM SIGN KAD2	
+U+12191	𒆑		CUNEIFORM SIGN KAD3	
+U+12192	𒆒		CUNEIFORM SIGN KAD4	
+U+12193	𒆓		CUNEIFORM SIGN KAD5	
+U+12194	𒆔		CUNEIFORM SIGN KAD5 OVER KAD5	
+U+12195	𒆕		CUNEIFORM SIGN KAK	
+U+12196	𒆖		CUNEIFORM SIGN KAK TIMES IGI GUNU	
+U+12197	𒆗		CUNEIFORM SIGN KAL	
+U+12198	𒆘		CUNEIFORM SIGN KAL TIMES BAD	
+U+12199	𒆙		CUNEIFORM SIGN KAL CROSSING KAL	
+U+1219A	𒆚		CUNEIFORM SIGN KAM2	
+U+1219B	𒆛		CUNEIFORM SIGN KAM4	
+U+1219C	𒆜		CUNEIFORM SIGN KASKAL	
+U+1219D	𒆝		CUNEIFORM SIGN KASKAL LAGAB TIMES U OVER LAGAB TIMES U	
+U+1219E	𒆞		CUNEIFORM SIGN KASKAL OVER KASKAL LAGAB TIMES U OVER LAGAB TIMES U	
+U+1219F	𒆟		CUNEIFORM SIGN KESH2	
+U+121A0	𒆠		CUNEIFORM SIGN KI	
+U+121A1	𒆡		CUNEIFORM SIGN KI TIMES BAD	
+U+121A2	𒆢		CUNEIFORM SIGN KI TIMES U	
+U+121A3	𒆣		CUNEIFORM SIGN KI TIMES UD	
+U+121A4	𒆤		CUNEIFORM SIGN KID	
+U+121A5	𒆥		CUNEIFORM SIGN KIN	
+U+121A6	𒆦		CUNEIFORM SIGN KISAL	
+U+121A7	𒆧		CUNEIFORM SIGN KISH	
+U+121A8	𒆨		CUNEIFORM SIGN KISIM5	
+U+121A9	𒆩		CUNEIFORM SIGN KISIM5 OVER KISIM5	
+U+121AA	𒆪		CUNEIFORM SIGN KU	
+U+121AB	𒆫		CUNEIFORM SIGN KU OVER HI TIMES ASH2 KU OVER HI TIMES ASH2	
+U+121AC	𒆬		CUNEIFORM SIGN KU3	
+U+121AD	𒆭		CUNEIFORM SIGN KU4	
+U+121AE	𒆮		CUNEIFORM SIGN KU4 VARIANT FORM	
+U+121AF	𒆯		CUNEIFORM SIGN KU7	
+U+121B0	𒆰		CUNEIFORM SIGN KUL	
+U+121B1	𒆱		CUNEIFORM SIGN KUL GUNU	
+U+121B2	𒆲		CUNEIFORM SIGN KUN	
+U+121B3	𒆳		CUNEIFORM SIGN KUR	
+U+121B4	𒆴		CUNEIFORM SIGN KUR OPPOSING KUR	
+U+121B5	𒆵		CUNEIFORM SIGN KUSHU2	
+U+121B6	𒆶		CUNEIFORM SIGN KWU318	
+U+121B7	𒆷		CUNEIFORM SIGN LA	
+U+121B8	𒆸		CUNEIFORM SIGN LAGAB	
+U+121B9	𒆹		CUNEIFORM SIGN LAGAB TIMES A	
+U+121BA	𒆺		CUNEIFORM SIGN LAGAB TIMES A PLUS DA PLUS HA	
+U+121BB	𒆻		CUNEIFORM SIGN LAGAB TIMES A PLUS GAR	
+U+121BC	𒆼		CUNEIFORM SIGN LAGAB TIMES A PLUS LAL	
+U+121BD	𒆽		CUNEIFORM SIGN LAGAB TIMES AL	
+U+121BE	𒆾		CUNEIFORM SIGN LAGAB TIMES AN	
+U+121BF	𒆿		CUNEIFORM SIGN LAGAB TIMES ASH ZIDA TENU	
+U+121C0	𒇀		CUNEIFORM SIGN LAGAB TIMES BAD	
+U+121C1	𒇁		CUNEIFORM SIGN LAGAB TIMES BI	
+U+121C2	𒇂		CUNEIFORM SIGN LAGAB TIMES DAR	
+U+121C3	𒇃		CUNEIFORM SIGN LAGAB TIMES EN	
+U+121C4	𒇄		CUNEIFORM SIGN LAGAB TIMES GA	
+U+121C5	𒇅		CUNEIFORM SIGN LAGAB TIMES GAR	
+U+121C6	𒇆		CUNEIFORM SIGN LAGAB TIMES GUD	
+U+121C7	𒇇		CUNEIFORM SIGN LAGAB TIMES GUD PLUS GUD	
+U+121C8	𒇈		CUNEIFORM SIGN LAGAB TIMES HA	
+U+121C9	𒇉		CUNEIFORM SIGN LAGAB TIMES HAL	
+U+121CA	𒇊		CUNEIFORM SIGN LAGAB TIMES HI TIMES NUN	
+U+121CB	𒇋		CUNEIFORM SIGN LAGAB TIMES IGI GUNU	
+U+121CC	𒇌		CUNEIFORM SIGN LAGAB TIMES IM	
+U+121CD	𒇍		CUNEIFORM SIGN LAGAB TIMES IM PLUS HA	
+U+121CE	𒇎		CUNEIFORM SIGN LAGAB TIMES IM PLUS LU	
+U+121CF	𒇏		CUNEIFORM SIGN LAGAB TIMES KI	
+U+121D0	𒇐		CUNEIFORM SIGN LAGAB TIMES KIN	
+U+121D1	𒇑		CUNEIFORM SIGN LAGAB TIMES KU3	
+U+121D2	𒇒		CUNEIFORM SIGN LAGAB TIMES KUL	
+U+121D3	𒇓		CUNEIFORM SIGN LAGAB TIMES KUL PLUS HI PLUS A	
+U+121D4	𒇔		CUNEIFORM SIGN LAGAB TIMES LAGAB	
+U+121D5	𒇕		CUNEIFORM SIGN LAGAB TIMES LISH	
+U+121D6	𒇖		CUNEIFORM SIGN LAGAB TIMES LU	
+U+121D7	𒇗		CUNEIFORM SIGN LAGAB TIMES LUL	
+U+121D8	𒇘		CUNEIFORM SIGN LAGAB TIMES ME	
+U+121D9	𒇙		CUNEIFORM SIGN LAGAB TIMES ME PLUS EN	
+U+121DA	𒇚		CUNEIFORM SIGN LAGAB TIMES MUSH	
+U+121DB	𒇛		CUNEIFORM SIGN LAGAB TIMES NE	
+U+121DC	𒇜		CUNEIFORM SIGN LAGAB TIMES SHE PLUS SUM	
+U+121DD	𒇝		CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH PLUS ERIN2	
+U+121DE	𒇞		CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH TENU	
+U+121DF	𒇟		CUNEIFORM SIGN LAGAB TIMES SHU2	
+U+121E0	𒇠		CUNEIFORM SIGN LAGAB TIMES SHU2 PLUS SHU2	
+U+121E1	𒇡		CUNEIFORM SIGN LAGAB TIMES SUM	
+U+121E2	𒇢		CUNEIFORM SIGN LAGAB TIMES TAG	
+U+121E3	𒇣		CUNEIFORM SIGN LAGAB TIMES TAK4	
+U+121E4	𒇤		CUNEIFORM SIGN LAGAB TIMES TE PLUS A PLUS SU PLUS NA	
+U+121E5	𒇥		CUNEIFORM SIGN LAGAB TIMES U	
+U+121E6	𒇦		CUNEIFORM SIGN LAGAB TIMES U PLUS A	
+U+121E7	𒇧		CUNEIFORM SIGN LAGAB TIMES U PLUS U PLUS U	
+U+121E8	𒇨		CUNEIFORM SIGN LAGAB TIMES U2 PLUS ASH	
+U+121E9	𒇩		CUNEIFORM SIGN LAGAB TIMES UD	
+U+121EA	𒇪		CUNEIFORM SIGN LAGAB TIMES USH	
+U+121EB	𒇫		CUNEIFORM SIGN LAGAB SQUARED	
+U+121EC	𒇬		CUNEIFORM SIGN LAGAR	
+U+121ED	𒇭		CUNEIFORM SIGN LAGAR TIMES SHE	
+U+121EE	𒇮		CUNEIFORM SIGN LAGAR TIMES SHE PLUS SUM	
+U+121EF	𒇯		CUNEIFORM SIGN LAGAR GUNU	
+U+121F0	𒇰		CUNEIFORM SIGN LAGAR GUNU OVER LAGAR GUNU SHE	
+U+121F1	𒇱		CUNEIFORM SIGN LAHSHU	
+U+121F2	𒇲		CUNEIFORM SIGN LAL	
+U+121F3	𒇳		CUNEIFORM SIGN LAL TIMES LAL	
+U+121F4	𒇴		CUNEIFORM SIGN LAM	
+U+121F5	𒇵		CUNEIFORM SIGN LAM TIMES KUR	
+U+121F6	𒇶		CUNEIFORM SIGN LAM TIMES KUR PLUS RU	
+U+121F7	𒇷		CUNEIFORM SIGN LI	
+U+121F8	𒇸		CUNEIFORM SIGN LIL	
+U+121F9	𒇹		CUNEIFORM SIGN LIMMU2	
+U+121FA	𒇺		CUNEIFORM SIGN LISH	
+U+121FB	𒇻		CUNEIFORM SIGN LU	
+U+121FC	𒇼		CUNEIFORM SIGN LU TIMES BAD	
+U+121FD	𒇽		CUNEIFORM SIGN LU2	
+U+121FE	𒇾		CUNEIFORM SIGN LU2 TIMES AL	
+U+121FF	𒇿		CUNEIFORM SIGN LU2 TIMES BAD	
+U+12200	𒈀		CUNEIFORM SIGN LU2 TIMES ESH2	
+U+12201	𒈁		CUNEIFORM SIGN LU2 TIMES ESH2 TENU	
+U+12202	𒈂		CUNEIFORM SIGN LU2 TIMES GAN2 TENU	
+U+12203	𒈃		CUNEIFORM SIGN LU2 TIMES HI TIMES BAD	
+U+12204	𒈄		CUNEIFORM SIGN LU2 TIMES IM	
+U+12205	𒈅		CUNEIFORM SIGN LU2 TIMES KAD2	
+U+12206	𒈆		CUNEIFORM SIGN LU2 TIMES KAD3	
+U+12207	𒈇		CUNEIFORM SIGN LU2 TIMES KAD3 PLUS ASH	
+U+12208	𒈈		CUNEIFORM SIGN LU2 TIMES KI	
+U+12209	𒈉		CUNEIFORM SIGN LU2 TIMES LA PLUS ASH	
+U+1220A	𒈊		CUNEIFORM SIGN LU2 TIMES LAGAB	
+U+1220B	𒈋		CUNEIFORM SIGN LU2 TIMES ME PLUS EN	
+U+1220C	𒈌		CUNEIFORM SIGN LU2 TIMES NE	
+U+1220D	𒈍		CUNEIFORM SIGN LU2 TIMES NU	
+U+1220E	𒈎		CUNEIFORM SIGN LU2 TIMES SI PLUS ASH	
+U+1220F	𒈏		CUNEIFORM SIGN LU2 TIMES SIK2 PLUS BU	
+U+12210	𒈐		CUNEIFORM SIGN LU2 TIMES TUG2	
+U+12211	𒈑		CUNEIFORM SIGN LU2 TENU	
+U+12212	𒈒		CUNEIFORM SIGN LU2 CROSSING LU2	
+U+12213	𒈓		CUNEIFORM SIGN LU2 OPPOSING LU2	
+U+12214	𒈔		CUNEIFORM SIGN LU2 SQUARED	
+U+12215	𒈕		CUNEIFORM SIGN LU2 SHESHIG	
+U+12216	𒈖		CUNEIFORM SIGN LU3	
+U+12217	𒈗		CUNEIFORM SIGN LUGAL	
+U+12218	𒈘		CUNEIFORM SIGN LUGAL OVER LUGAL	
+U+12219	𒈙		CUNEIFORM SIGN LUGAL OPPOSING LUGAL	
+U+1221A	𒈚		CUNEIFORM SIGN LUGAL SHESHIG	
+U+1221B	𒈛		CUNEIFORM SIGN LUH	
+U+1221C	𒈜		CUNEIFORM SIGN LUL	
+U+1221D	𒈝		CUNEIFORM SIGN LUM	
+U+1221E	𒈞		CUNEIFORM SIGN LUM OVER LUM	
+U+1221F	𒈟		CUNEIFORM SIGN LUM OVER LUM GAR OVER GAR	
+U+12220	𒈠		CUNEIFORM SIGN MA	
+U+12221	𒈡		CUNEIFORM SIGN MA TIMES TAK4	
+U+12222	𒈢		CUNEIFORM SIGN MA GUNU	
+U+12223	𒈣		CUNEIFORM SIGN MA2	
+U+12224	𒈤		CUNEIFORM SIGN MAH	
+U+12225	𒈥		CUNEIFORM SIGN MAR	
+U+12226	𒈦		CUNEIFORM SIGN MASH	
+U+12227	𒈧		CUNEIFORM SIGN MASH2	
+U+12228	𒈨		CUNEIFORM SIGN ME	
+U+12229	𒈩		CUNEIFORM SIGN MES	
+U+1222A	𒈪		CUNEIFORM SIGN MI	
+U+1222B	𒈫		CUNEIFORM SIGN MIN	
+U+1222C	𒈬		CUNEIFORM SIGN MU	
+U+1222D	𒈭		CUNEIFORM SIGN MU OVER MU	
+U+1222E	𒈮		CUNEIFORM SIGN MUG	
+U+1222F	𒈯		CUNEIFORM SIGN MUG GUNU	
+U+12230	𒈰		CUNEIFORM SIGN MUNSUB	
+U+12231	𒈱		CUNEIFORM SIGN MURGU2	
+U+12232	𒈲		CUNEIFORM SIGN MUSH	
+U+12233	𒈳		CUNEIFORM SIGN MUSH TIMES A	
+U+12234	𒈴		CUNEIFORM SIGN MUSH TIMES KUR	
+U+12235	𒈵		CUNEIFORM SIGN MUSH TIMES ZA	
+U+12236	𒈶		CUNEIFORM SIGN MUSH OVER MUSH	
+U+12237	𒈷		CUNEIFORM SIGN MUSH OVER MUSH TIMES A PLUS NA	
+U+12238	𒈸		CUNEIFORM SIGN MUSH CROSSING MUSH	
+U+12239	𒈹		CUNEIFORM SIGN MUSH3	
+U+1223A	𒈺		CUNEIFORM SIGN MUSH3 TIMES A	
+U+1223B	𒈻		CUNEIFORM SIGN MUSH3 TIMES A PLUS DI	
+U+1223C	𒈼		CUNEIFORM SIGN MUSH3 TIMES DI	
+U+1223D	𒈽		CUNEIFORM SIGN MUSH3 GUNU	
+U+1223E	𒈾		CUNEIFORM SIGN NA	
+U+1223F	𒈿		CUNEIFORM SIGN NA2	
+U+12240	𒉀		CUNEIFORM SIGN NAGA	
+U+12241	𒉁		CUNEIFORM SIGN NAGA INVERTED	
+U+12242	𒉂		CUNEIFORM SIGN NAGA TIMES SHU TENU	
+U+12243	𒉃		CUNEIFORM SIGN NAGA OPPOSING NAGA	
+U+12244	𒉄		CUNEIFORM SIGN NAGAR	
+U+12245	𒉅		CUNEIFORM SIGN NAM NUTILLU	
+U+12246	𒉆		CUNEIFORM SIGN NAM	
+U+12247	𒉇		CUNEIFORM SIGN NAM2	
+U+12248	𒉈		CUNEIFORM SIGN NE	
+U+12249	𒉉		CUNEIFORM SIGN NE TIMES A	
+U+1224A	𒉊		CUNEIFORM SIGN NE TIMES UD	
+U+1224B	𒉋		CUNEIFORM SIGN NE SHESHIG	
+U+1224C	𒉌		CUNEIFORM SIGN NI	
+U+1224D	𒉍		CUNEIFORM SIGN NI TIMES E	
+U+1224E	𒉎		CUNEIFORM SIGN NI2	
+U+1224F	𒉏		CUNEIFORM SIGN NIM	
+U+12250	𒉐		CUNEIFORM SIGN NIM TIMES GAN2 TENU	
+U+12251	𒉑		CUNEIFORM SIGN NIM TIMES GAR PLUS GAN2 TENU	
+U+12252	𒉒		CUNEIFORM SIGN NINDA2	
+U+12253	𒉓		CUNEIFORM SIGN NINDA2 TIMES AN	
+U+12254	𒉔		CUNEIFORM SIGN NINDA2 TIMES ASH	
+U+12255	𒉕		CUNEIFORM SIGN NINDA2 TIMES ASH PLUS ASH	
+U+12256	𒉖		CUNEIFORM SIGN NINDA2 TIMES GUD	
+U+12257	𒉗		CUNEIFORM SIGN NINDA2 TIMES ME PLUS GAN2 TENU	
+U+12258	𒉘		CUNEIFORM SIGN NINDA2 TIMES NE	
+U+12259	𒉙		CUNEIFORM SIGN NINDA2 TIMES NUN	
+U+1225A	𒉚		CUNEIFORM SIGN NINDA2 TIMES SHE	
+U+1225B	𒉛		CUNEIFORM SIGN NINDA2 TIMES SHE PLUS A AN	
+U+1225C	𒉜		CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH	
+U+1225D	𒉝		CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH PLUS ASH	
+U+1225E	𒉞		CUNEIFORM SIGN NINDA2 TIMES U2 PLUS ASH	
+U+1225F	𒉟		CUNEIFORM SIGN NINDA2 TIMES USH	
+U+12260	𒉠		CUNEIFORM SIGN NISAG	
+U+12261	𒉡		CUNEIFORM SIGN NU	
+U+12262	𒉢		CUNEIFORM SIGN NU11	
+U+12263	𒉣		CUNEIFORM SIGN NUN	
+U+12264	𒉤		CUNEIFORM SIGN NUN LAGAR TIMES GAR	
+U+12265	𒉥		CUNEIFORM SIGN NUN LAGAR TIMES MASH	
+U+12266	𒉦		CUNEIFORM SIGN NUN LAGAR TIMES SAL	
+U+12267	𒉧		CUNEIFORM SIGN NUN LAGAR TIMES SAL OVER NUN LAGAR TIMES SAL	
+U+12268	𒉨		CUNEIFORM SIGN NUN LAGAR TIMES USH	
+U+12269	𒉩		CUNEIFORM SIGN NUN TENU	
+U+1226A	𒉪		CUNEIFORM SIGN NUN OVER NUN	
+U+1226B	𒉫		CUNEIFORM SIGN NUN CROSSING NUN	
+U+1226C	𒉬		CUNEIFORM SIGN NUN CROSSING NUN LAGAR OVER LAGAR	
+U+1226D	𒉭		CUNEIFORM SIGN NUNUZ	
+U+1226E	𒉮		CUNEIFORM SIGN NUNUZ AB2 TIMES ASHGAB	
+U+1226F	𒉯		CUNEIFORM SIGN NUNUZ AB2 TIMES BI	
+U+12270	𒉰		CUNEIFORM SIGN NUNUZ AB2 TIMES DUG	
+U+12271	𒉱		CUNEIFORM SIGN NUNUZ AB2 TIMES GUD	
+U+12272	𒉲		CUNEIFORM SIGN NUNUZ AB2 TIMES IGI GUNU	
+U+12273	𒉳		CUNEIFORM SIGN NUNUZ AB2 TIMES KAD3	
+U+12274	𒉴		CUNEIFORM SIGN NUNUZ AB2 TIMES LA	
+U+12275	𒉵		CUNEIFORM SIGN NUNUZ AB2 TIMES NE	
+U+12276	𒉶		CUNEIFORM SIGN NUNUZ AB2 TIMES SILA3	
+U+12277	𒉷		CUNEIFORM SIGN NUNUZ AB2 TIMES U2	
+U+12278	𒉸		CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI	
+U+12279	𒉹		CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI U	
+U+1227A	𒉺		CUNEIFORM SIGN PA	
+U+1227B	𒉻		CUNEIFORM SIGN PAD	
+U+1227C	𒉼		CUNEIFORM SIGN PAN	
+U+1227D	𒉽		CUNEIFORM SIGN PAP	
+U+1227E	𒉾		CUNEIFORM SIGN PESH2	
+U+1227F	𒉿		CUNEIFORM SIGN PI	
+U+12280	𒊀		CUNEIFORM SIGN PI TIMES A	
+U+12281	𒊁		CUNEIFORM SIGN PI TIMES AB	
+U+12282	𒊂		CUNEIFORM SIGN PI TIMES BI	
+U+12283	𒊃		CUNEIFORM SIGN PI TIMES BU	
+U+12284	𒊄		CUNEIFORM SIGN PI TIMES E	
+U+12285	𒊅		CUNEIFORM SIGN PI TIMES I	
+U+12286	𒊆		CUNEIFORM SIGN PI TIMES IB	
+U+12287	𒊇		CUNEIFORM SIGN PI TIMES U	
+U+12288	𒊈		CUNEIFORM SIGN PI TIMES U2	
+U+12289	𒊉		CUNEIFORM SIGN PI CROSSING PI	
+U+1228A	𒊊		CUNEIFORM SIGN PIRIG	
+U+1228B	𒊋		CUNEIFORM SIGN PIRIG TIMES KAL	
+U+1228C	𒊌		CUNEIFORM SIGN PIRIG TIMES UD	
+U+1228D	𒊍		CUNEIFORM SIGN PIRIG TIMES ZA	
+U+1228E	𒊎		CUNEIFORM SIGN PIRIG OPPOSING PIRIG	
+U+1228F	𒊏		CUNEIFORM SIGN RA	
+U+12290	𒊐		CUNEIFORM SIGN RAB	
+U+12291	𒊑		CUNEIFORM SIGN RI	
+U+12292	𒊒		CUNEIFORM SIGN RU	
+U+12293	𒊓		CUNEIFORM SIGN SA	
+U+12294	𒊔		CUNEIFORM SIGN SAG NUTILLU	
+U+12295	𒊕		CUNEIFORM SIGN SAG	
+U+12296	𒊖		CUNEIFORM SIGN SAG TIMES A	
+U+12297	𒊗		CUNEIFORM SIGN SAG TIMES DU	
+U+12298	𒊘		CUNEIFORM SIGN SAG TIMES DUB	
+U+12299	𒊙		CUNEIFORM SIGN SAG TIMES HA	
+U+1229A	𒊚		CUNEIFORM SIGN SAG TIMES KAK	
+U+1229B	𒊛		CUNEIFORM SIGN SAG TIMES KUR	
+U+1229C	𒊜		CUNEIFORM SIGN SAG TIMES LUM	
+U+1229D	𒊝		CUNEIFORM SIGN SAG TIMES MI	
+U+1229E	𒊞		CUNEIFORM SIGN SAG TIMES NUN	
+U+1229F	𒊟		CUNEIFORM SIGN SAG TIMES SAL	
+U+122A0	𒊠		CUNEIFORM SIGN SAG TIMES SHID	
+U+122A1	𒊡		CUNEIFORM SIGN SAG TIMES TAB	
+U+122A2	𒊢		CUNEIFORM SIGN SAG TIMES U2	
+U+122A3	𒊣		CUNEIFORM SIGN SAG TIMES UB	
+U+122A4	𒊤		CUNEIFORM SIGN SAG TIMES UM	
+U+122A5	𒊥		CUNEIFORM SIGN SAG TIMES UR	
+U+122A6	𒊦		CUNEIFORM SIGN SAG TIMES USH	
+U+122A7	𒊧		CUNEIFORM SIGN SAG OVER SAG	
+U+122A8	𒊨		CUNEIFORM SIGN SAG GUNU	
+U+122A9	𒊩		CUNEIFORM SIGN SAL	
+U+122AA	𒊪		CUNEIFORM SIGN SAL LAGAB TIMES ASH2	
+U+122AB	𒊫		CUNEIFORM SIGN SANGA2	
+U+122AC	𒊬		CUNEIFORM SIGN SAR	
+U+122AD	𒊭		CUNEIFORM SIGN SHA	
+U+122AE	𒊮		CUNEIFORM SIGN SHA3	
+U+122AF	𒊯		CUNEIFORM SIGN SHA3 TIMES A	
+U+122B0	𒊰		CUNEIFORM SIGN SHA3 TIMES BAD	
+U+122B1	𒊱		CUNEIFORM SIGN SHA3 TIMES GISH	
+U+122B2	𒊲		CUNEIFORM SIGN SHA3 TIMES NE	
+U+122B3	𒊳		CUNEIFORM SIGN SHA3 TIMES SHU2	
+U+122B4	𒊴		CUNEIFORM SIGN SHA3 TIMES TUR	
+U+122B5	𒊵		CUNEIFORM SIGN SHA3 TIMES U	
+U+122B6	𒊶		CUNEIFORM SIGN SHA3 TIMES U PLUS A	
+U+122B7	𒊷		CUNEIFORM SIGN SHA6	
+U+122B8	𒊸		CUNEIFORM SIGN SHAB6	
+U+122B9	𒊹		CUNEIFORM SIGN SHAR2	
+U+122BA	𒊺		CUNEIFORM SIGN SHE	
+U+122BB	𒊻		CUNEIFORM SIGN SHE HU	
+U+122BC	𒊼		CUNEIFORM SIGN SHE OVER SHE GAD OVER GAD GAR OVER GAR	
+U+122BD	𒊽		CUNEIFORM SIGN SHE OVER SHE TAB OVER TAB GAR OVER GAR	
+U+122BE	𒊾		CUNEIFORM SIGN SHEG9	
+U+122BF	𒊿		CUNEIFORM SIGN SHEN	
+U+122C0	𒋀		CUNEIFORM SIGN SHESH	
+U+122C1	𒋁		CUNEIFORM SIGN SHESH2	
+U+122C2	𒋂		CUNEIFORM SIGN SHESHLAM	
+U+122C3	𒋃		CUNEIFORM SIGN SHID	
+U+122C4	𒋄		CUNEIFORM SIGN SHID TIMES A	
+U+122C5	𒋅		CUNEIFORM SIGN SHID TIMES IM	
+U+122C6	𒋆		CUNEIFORM SIGN SHIM	
+U+122C7	𒋇		CUNEIFORM SIGN SHIM TIMES A	
+U+122C8	𒋈		CUNEIFORM SIGN SHIM TIMES BAL	
+U+122C9	𒋉		CUNEIFORM SIGN SHIM TIMES BULUG	
+U+122CA	𒋊		CUNEIFORM SIGN SHIM TIMES DIN	
+U+122CB	𒋋		CUNEIFORM SIGN SHIM TIMES GAR	
+U+122CC	𒋌		CUNEIFORM SIGN SHIM TIMES IGI	
+U+122CD	𒋍		CUNEIFORM SIGN SHIM TIMES IGI GUNU	
+U+122CE	𒋎		CUNEIFORM SIGN SHIM TIMES KUSHU2	
+U+122CF	𒋏		CUNEIFORM SIGN SHIM TIMES LUL	
+U+122D0	𒋐		CUNEIFORM SIGN SHIM TIMES MUG	
+U+122D1	𒋑		CUNEIFORM SIGN SHIM TIMES SAL	
+U+122D2	𒋒		CUNEIFORM SIGN SHINIG	
+U+122D3	𒋓		CUNEIFORM SIGN SHIR	
+U+122D4	𒋔		CUNEIFORM SIGN SHIR TENU	
+U+122D5	𒋕		CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR	
+U+122D6	𒋖		CUNEIFORM SIGN SHITA	
+U+122D7	𒋗		CUNEIFORM SIGN SHU	
+U+122D8	𒋘		CUNEIFORM SIGN SHU OVER INVERTED SHU	
+U+122D9	𒋙		CUNEIFORM SIGN SHU2	
+U+122DA	𒋚		CUNEIFORM SIGN SHUBUR	
+U+122DB	𒋛		CUNEIFORM SIGN SI	
+U+122DC	𒋜		CUNEIFORM SIGN SI GUNU	
+U+122DD	𒋝		CUNEIFORM SIGN SIG	
+U+122DE	𒋞		CUNEIFORM SIGN SIG4	
+U+122DF	𒋟		CUNEIFORM SIGN SIG4 OVER SIG4 SHU2	
+U+122E0	𒋠		CUNEIFORM SIGN SIK2	
+U+122E1	𒋡		CUNEIFORM SIGN SILA3	
+U+122E2	𒋢		CUNEIFORM SIGN SU	
+U+122E3	𒋣		CUNEIFORM SIGN SU OVER SU	
+U+122E4	𒋤		CUNEIFORM SIGN SUD	
+U+122E5	𒋥		CUNEIFORM SIGN SUD2	
+U+122E6	𒋦		CUNEIFORM SIGN SUHUR	
+U+122E7	𒋧		CUNEIFORM SIGN SUM	
+U+122E8	𒋨		CUNEIFORM SIGN SUMASH	
+U+122E9	𒋩		CUNEIFORM SIGN SUR	
+U+122EA	𒋪		CUNEIFORM SIGN SUR9	
+U+122EB	𒋫		CUNEIFORM SIGN TA	
+U+122EC	𒋬		CUNEIFORM SIGN TA ASTERISK	
+U+122ED	𒋭		CUNEIFORM SIGN TA TIMES HI	
+U+122EE	𒋮		CUNEIFORM SIGN TA TIMES MI	
+U+122EF	𒋯		CUNEIFORM SIGN TA GUNU	
+U+122F0	𒋰		CUNEIFORM SIGN TAB	
+U+122F1	𒋱		CUNEIFORM SIGN TAB OVER TAB NI OVER NI DISH OVER DISH	
+U+122F2	𒋲		CUNEIFORM SIGN TAB SQUARED	
+U+122F3	𒋳		CUNEIFORM SIGN TAG	
+U+122F4	𒋴		CUNEIFORM SIGN TAG TIMES BI	
+U+122F5	𒋵		CUNEIFORM SIGN TAG TIMES GUD	
+U+122F6	𒋶		CUNEIFORM SIGN TAG TIMES SHE	
+U+122F7	𒋷		CUNEIFORM SIGN TAG TIMES SHU	
+U+122F8	𒋸		CUNEIFORM SIGN TAG TIMES TUG2	
+U+122F9	𒋹		CUNEIFORM SIGN TAG TIMES UD	
+U+122FA	𒋺		CUNEIFORM SIGN TAK4	
+U+122FB	𒋻		CUNEIFORM SIGN TAR	
+U+122FC	𒋼		CUNEIFORM SIGN TE	
+U+122FD	𒋽		CUNEIFORM SIGN TE GUNU	
+U+122FE	𒋾		CUNEIFORM SIGN TI	
+U+122FF	𒋿		CUNEIFORM SIGN TI TENU	
+U+12300	𒌀		CUNEIFORM SIGN TIL	
+U+12301	𒌁		CUNEIFORM SIGN TIR	
+U+12302	𒌂		CUNEIFORM SIGN TIR TIMES TAK4	
+U+12303	𒌃		CUNEIFORM SIGN TIR OVER TIR	
+U+12304	𒌄		CUNEIFORM SIGN TIR OVER TIR GAD OVER GAD GAR OVER GAR	
+U+12305	𒌅		CUNEIFORM SIGN TU	
+U+12306	𒌆		CUNEIFORM SIGN TUG2	
+U+12307	𒌇		CUNEIFORM SIGN TUK	
+U+12308	𒌈		CUNEIFORM SIGN TUM	
+U+12309	𒌉		CUNEIFORM SIGN TUR	
+U+1230A	𒌊		CUNEIFORM SIGN TUR OVER TUR ZA OVER ZA	
+U+1230B	𒌋		CUNEIFORM SIGN U	
+U+1230C	𒌌		CUNEIFORM SIGN U GUD	
+U+1230D	𒌍		CUNEIFORM SIGN U U U	
+U+1230E	𒌎		CUNEIFORM SIGN U OVER U PA OVER PA GAR OVER GAR	
+U+1230F	𒌏		CUNEIFORM SIGN U OVER U SUR OVER SUR	
+U+12310	𒌐		CUNEIFORM SIGN U OVER U U REVERSED OVER U REVERSED	
+U+12311	𒌑		CUNEIFORM SIGN U2	
+U+12312	𒌒		CUNEIFORM SIGN UB	
+U+12313	𒌓		CUNEIFORM SIGN UD	
+U+12314	𒌔		CUNEIFORM SIGN UD KUSHU2	
+U+12315	𒌕		CUNEIFORM SIGN UD TIMES BAD	
+U+12316	𒌖		CUNEIFORM SIGN UD TIMES MI	
+U+12317	𒌗		CUNEIFORM SIGN UD TIMES U PLUS U PLUS U	
+U+12318	𒌘		CUNEIFORM SIGN UD TIMES U PLUS U PLUS U GUNU	
+U+12319	𒌙		CUNEIFORM SIGN UD GUNU	
+U+1231A	𒌚		CUNEIFORM SIGN UD SHESHIG	
+U+1231B	𒌛		CUNEIFORM SIGN UD SHESHIG TIMES BAD	
+U+1231C	𒌜		CUNEIFORM SIGN UDUG	
+U+1231D	𒌝		CUNEIFORM SIGN UM	
+U+1231E	𒌞		CUNEIFORM SIGN UM TIMES LAGAB	
+U+1231F	𒌟		CUNEIFORM SIGN UM TIMES ME PLUS DA	
+U+12320	𒌠		CUNEIFORM SIGN UM TIMES SHA3	
+U+12321	𒌡		CUNEIFORM SIGN UM TIMES U	
+U+12322	𒌢		CUNEIFORM SIGN UMBIN	
+U+12323	𒌣		CUNEIFORM SIGN UMUM	
+U+12324	𒌤		CUNEIFORM SIGN UMUM TIMES KASKAL	
+U+12325	𒌥		CUNEIFORM SIGN UMUM TIMES PA	
+U+12326	𒌦		CUNEIFORM SIGN UN	
+U+12327	𒌧		CUNEIFORM SIGN UN GUNU	
+U+12328	𒌨		CUNEIFORM SIGN UR	
+U+12329	𒌩		CUNEIFORM SIGN UR CROSSING UR	
+U+1232A	𒌪		CUNEIFORM SIGN UR SHESHIG	
+U+1232B	𒌫		CUNEIFORM SIGN UR2	
+U+1232C	𒌬		CUNEIFORM SIGN UR2 TIMES A PLUS HA	
+U+1232D	𒌭		CUNEIFORM SIGN UR2 TIMES A PLUS NA	
+U+1232E	𒌮		CUNEIFORM SIGN UR2 TIMES AL	
+U+1232F	𒌯		CUNEIFORM SIGN UR2 TIMES HA	
+U+12330	𒌰		CUNEIFORM SIGN UR2 TIMES NUN	
+U+12331	𒌱		CUNEIFORM SIGN UR2 TIMES U2	
+U+12332	𒌲		CUNEIFORM SIGN UR2 TIMES U2 PLUS ASH	
+U+12333	𒌳		CUNEIFORM SIGN UR2 TIMES U2 PLUS BI	
+U+12334	𒌴		CUNEIFORM SIGN UR4	
+U+12335	𒌵		CUNEIFORM SIGN URI	
+U+12336	𒌶		CUNEIFORM SIGN URI3	
+U+12337	𒌷		CUNEIFORM SIGN URU	
+U+12338	𒌸		CUNEIFORM SIGN URU TIMES A	
+U+12339	𒌹		CUNEIFORM SIGN URU TIMES ASHGAB	
+U+1233A	𒌺		CUNEIFORM SIGN URU TIMES BAR	
+U+1233B	𒌻		CUNEIFORM SIGN URU TIMES DUN	
+U+1233C	𒌼		CUNEIFORM SIGN URU TIMES GA	
+U+1233D	𒌽		CUNEIFORM SIGN URU TIMES GAL	
+U+1233E	𒌾		CUNEIFORM SIGN URU TIMES GAN2 TENU	
+U+1233F	𒌿		CUNEIFORM SIGN URU TIMES GAR	
+U+12340	𒍀		CUNEIFORM SIGN URU TIMES GU	
+U+12341	𒍁		CUNEIFORM SIGN URU TIMES HA	
+U+12342	𒍂		CUNEIFORM SIGN URU TIMES IGI	
+U+12343	𒍃		CUNEIFORM SIGN URU TIMES IM	
+U+12344	𒍄		CUNEIFORM SIGN URU TIMES ISH	
+U+12345	𒍅		CUNEIFORM SIGN URU TIMES KI	
+U+12346	𒍆		CUNEIFORM SIGN URU TIMES LUM	
+U+12347	𒍇		CUNEIFORM SIGN URU TIMES MIN	
+U+12348	𒍈		CUNEIFORM SIGN URU TIMES PA	
+U+12349	𒍉		CUNEIFORM SIGN URU TIMES SHE	
+U+1234A	𒍊		CUNEIFORM SIGN URU TIMES SIG4	
+U+1234B	𒍋		CUNEIFORM SIGN URU TIMES TU	
+U+1234C	𒍌		CUNEIFORM SIGN URU TIMES U PLUS GUD	
+U+1234D	𒍍		CUNEIFORM SIGN URU TIMES UD	
+U+1234E	𒍎		CUNEIFORM SIGN URU TIMES URUDA	
+U+1234F	𒍏		CUNEIFORM SIGN URUDA	
+U+12350	𒍐		CUNEIFORM SIGN URUDA TIMES U	
+U+12351	𒍑		CUNEIFORM SIGN USH	
+U+12352	𒍒		CUNEIFORM SIGN USH TIMES A	
+U+12353	𒍓		CUNEIFORM SIGN USH TIMES KU	
+U+12354	𒍔		CUNEIFORM SIGN USH TIMES KUR	
+U+12355	𒍕		CUNEIFORM SIGN USH TIMES TAK4	
+U+12356	𒍖		CUNEIFORM SIGN USHX	
+U+12357	𒍗		CUNEIFORM SIGN USH2	
+U+12358	𒍘		CUNEIFORM SIGN USHUMX	
+U+12359	𒍙		CUNEIFORM SIGN UTUKI	
+U+1235A	𒍚		CUNEIFORM SIGN UZ3	
+U+1235B	𒍛		CUNEIFORM SIGN UZ3 TIMES KASKAL	
+U+1235C	𒍜		CUNEIFORM SIGN UZU	
+U+1235D	𒍝		CUNEIFORM SIGN ZA	
+U+1235E	𒍞		CUNEIFORM SIGN ZA TENU	
+U+1235F	𒍟		CUNEIFORM SIGN ZA SQUARED TIMES KUR	
+U+12360	𒍠		CUNEIFORM SIGN ZAG	
+U+12361	𒍡		CUNEIFORM SIGN ZAMX	
+U+12362	𒍢		CUNEIFORM SIGN ZE2	
+U+12363	𒍣		CUNEIFORM SIGN ZI	
+U+12364	𒍤		CUNEIFORM SIGN ZI OVER ZI	
+U+12365	𒍥		CUNEIFORM SIGN ZI3	
+U+12366	𒍦		CUNEIFORM SIGN ZIB	
+U+12367	𒍧		CUNEIFORM SIGN ZIB KABA TENU	
+U+12368	𒍨		CUNEIFORM SIGN ZIG	
+U+12369	𒍩		CUNEIFORM SIGN ZIZ2	
+U+1236A	𒍪		CUNEIFORM SIGN ZU	
+U+1236B	𒍫		CUNEIFORM SIGN ZU5	
+U+1236C	𒍬		CUNEIFORM SIGN ZU5 TIMES A	
+U+1236D	𒍭		CUNEIFORM SIGN ZUBUR	
+U+1236E	𒍮		CUNEIFORM SIGN ZUM	
+U+1236F	𒍯		CUNEIFORM SIGN KAP ELAMITE	
+U+12370	𒍰		CUNEIFORM SIGN AB TIMES NUN	
+U+12371	𒍱		CUNEIFORM SIGN AB2 TIMES A	
+U+12372	𒍲		CUNEIFORM SIGN AMAR TIMES KUG	
+U+12373	𒍳		CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS MASH	
+U+12374	𒍴		CUNEIFORM SIGN DAG3	
+U+12375	𒍵		CUNEIFORM SIGN DISH PLUS SHU	
+U+12376	𒍶		CUNEIFORM SIGN DUB TIMES SHE	
+U+12377	𒍷		CUNEIFORM SIGN EZEN TIMES GUD	
+U+12378	𒍸		CUNEIFORM SIGN EZEN TIMES SHE	
+U+12379	𒍹		CUNEIFORM SIGN GA2 TIMES AN PLUS KAK PLUS A	
+U+1237A	𒍺		CUNEIFORM SIGN GA2 TIMES ASH2	
+U+1237B	𒍻		CUNEIFORM SIGN GE22	
+U+1237C	𒍼		CUNEIFORM SIGN GIG	
+U+1237D	𒍽		CUNEIFORM SIGN HUSH	
+U+1237E	𒍾		CUNEIFORM SIGN KA TIMES ANSHE	
+U+1237F	𒍿		CUNEIFORM SIGN KA TIMES ASH3	
+U+12380	𒎀		CUNEIFORM SIGN KA TIMES GISH	
+U+12381	𒎁		CUNEIFORM SIGN KA TIMES GUD	
+U+12382	𒎂		CUNEIFORM SIGN KA TIMES HI TIMES ASH2	
+U+12383	𒎃		CUNEIFORM SIGN KA TIMES LUM	
+U+12384	𒎄		CUNEIFORM SIGN KA TIMES PA	
+U+12385	𒎅		CUNEIFORM SIGN KA TIMES SHUL	
+U+12386	𒎆		CUNEIFORM SIGN KA TIMES TU	
+U+12387	𒎇		CUNEIFORM SIGN KA TIMES UR2	
+U+12388	𒎈		CUNEIFORM SIGN LAGAB TIMES GI	
+U+12389	𒎉		CUNEIFORM SIGN LU2 SHESHIG TIMES BAD	
+U+1238A	𒎊		CUNEIFORM SIGN LU2 TIMES ESH2 PLUS LAL	
+U+1238B	𒎋		CUNEIFORM SIGN LU2 TIMES SHU	
+U+1238C	𒎌		CUNEIFORM SIGN MESH	
+U+1238D	𒎍		CUNEIFORM SIGN MUSH3 TIMES ZA	
+U+1238E	𒎎		CUNEIFORM SIGN NA4	
+U+1238F	𒎏		CUNEIFORM SIGN NIN	
+U+12390	𒎐		CUNEIFORM SIGN NIN9	
+U+12391	𒎑		CUNEIFORM SIGN NINDA2 TIMES BAL	
+U+12392	𒎒		CUNEIFORM SIGN NINDA2 TIMES GI	
+U+12393	𒎓		CUNEIFORM SIGN NU11 ROTATED NINETY DEGREES	
+U+12394	𒎔		CUNEIFORM SIGN PESH2 ASTERISK	
+U+12395	𒎕		CUNEIFORM SIGN PIR2	
+U+12396	𒎖		CUNEIFORM SIGN SAG TIMES IGI GUNU	
+U+12397	𒎗		CUNEIFORM SIGN TI2	
+U+12398	𒎘		CUNEIFORM SIGN UM TIMES ME	
+U+12399	𒎙		CUNEIFORM SIGN U U	

@@ -1,31 +1,31 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+10B40	𐭀	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter aleph		
-U+10B41	𐭁	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter beth		
-U+10B42	𐭂	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter gimel		
-U+10B43	𐭃	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter daleth		
-U+10B44	𐭄	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter he		
-U+10B45	𐭅	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter waw		
-U+10B46	𐭆	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter zayin		
-U+10B47	𐭇	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter heth		
-U+10B48	𐭈	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter teth		
-U+10B49	𐭉	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter yodh		
-U+10B4A	𐭊	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter kaph		
-U+10B4B	𐭋	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter lamedh		
-U+10B4C	𐭌	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter mem		
-U+10B4D	𐭍	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter nun		
-U+10B4E	𐭎	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter samekh		
-U+10B4F	𐭏	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter ayin		
-U+10B50	𐭐	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter pe		
-U+10B51	𐭑	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter sadhe		
-U+10B52	𐭒	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter qoph		
-U+10B53	𐭓	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter resh		
-U+10B54	𐭔	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter shin		
-U+10B55	𐭕	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian letter taw		
-U+10B58	𐭘	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one		
-U+10B59	𐭙	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number two		
-U+10B5A	𐭚	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number three		
-U+10B5B	𐭛	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number four		
-U+10B5C	𐭜	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number ten		
-U+10B5D	𐭝	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number twenty		
-U+10B5E	𐭞	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one hundred		
-U+10B5F	𐭟	10B40..10B5F	Inscriptional Parthian	Inscriptional parthian number one thousand		
+code_points	chars	tab_completions	unicode_name	base
+U+10B40	𐭀		INSCRIPTIONAL PARTHIAN LETTER ALEPH	
+U+10B41	𐭁		INSCRIPTIONAL PARTHIAN LETTER BETH	
+U+10B42	𐭂		INSCRIPTIONAL PARTHIAN LETTER GIMEL	
+U+10B43	𐭃		INSCRIPTIONAL PARTHIAN LETTER DALETH	
+U+10B44	𐭄		INSCRIPTIONAL PARTHIAN LETTER HE	
+U+10B45	𐭅		INSCRIPTIONAL PARTHIAN LETTER WAW	
+U+10B46	𐭆		INSCRIPTIONAL PARTHIAN LETTER ZAYIN	
+U+10B47	𐭇		INSCRIPTIONAL PARTHIAN LETTER HETH	
+U+10B48	𐭈		INSCRIPTIONAL PARTHIAN LETTER TETH	
+U+10B49	𐭉		INSCRIPTIONAL PARTHIAN LETTER YODH	
+U+10B4A	𐭊		INSCRIPTIONAL PARTHIAN LETTER KAPH	
+U+10B4B	𐭋		INSCRIPTIONAL PARTHIAN LETTER LAMEDH	
+U+10B4C	𐭌		INSCRIPTIONAL PARTHIAN LETTER MEM	
+U+10B4D	𐭍		INSCRIPTIONAL PARTHIAN LETTER NUN	
+U+10B4E	𐭎		INSCRIPTIONAL PARTHIAN LETTER SAMEKH	
+U+10B4F	𐭏		INSCRIPTIONAL PARTHIAN LETTER AYIN	
+U+10B50	𐭐		INSCRIPTIONAL PARTHIAN LETTER PE	
+U+10B51	𐭑		INSCRIPTIONAL PARTHIAN LETTER SADHE	
+U+10B52	𐭒		INSCRIPTIONAL PARTHIAN LETTER QOPH	
+U+10B53	𐭓		INSCRIPTIONAL PARTHIAN LETTER RESH	
+U+10B54	𐭔		INSCRIPTIONAL PARTHIAN LETTER SHIN	
+U+10B55	𐭕		INSCRIPTIONAL PARTHIAN LETTER TAW	
+U+10B58	𐭘		INSCRIPTIONAL PARTHIAN NUMBER ONE	
+U+10B59	𐭙		INSCRIPTIONAL PARTHIAN NUMBER TWO	
+U+10B5A	𐭚		INSCRIPTIONAL PARTHIAN NUMBER THREE	
+U+10B5B	𐭛		INSCRIPTIONAL PARTHIAN NUMBER FOUR	
+U+10B5C	𐭜		INSCRIPTIONAL PARTHIAN NUMBER TEN	
+U+10B5D	𐭝		INSCRIPTIONAL PARTHIAN NUMBER TWENTY	
+U+10B5E	𐭞		INSCRIPTIONAL PARTHIAN NUMBER ONE HUNDRED	
+U+10B5F	𐭟		INSCRIPTIONAL PARTHIAN NUMBER ONE THOUSAND	

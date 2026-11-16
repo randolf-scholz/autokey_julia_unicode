@@ -1,47 +1,47 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2070	⁰	2070..209F	Superscripts and Subscripts	Superscript zero		
-U+2071	ⁱ	2070..209F	Superscripts and Subscripts	Superscript latin small letter i		
-U+2074	⁴	2070..209F	Superscripts and Subscripts	Superscript four		
-U+2075	⁵	2070..209F	Superscripts and Subscripts	Superscript five		
-U+2076	⁶	2070..209F	Superscripts and Subscripts	Superscript six		
-U+2077	⁷	2070..209F	Superscripts and Subscripts	Superscript seven		
-U+2078	⁸	2070..209F	Superscripts and Subscripts	Superscript eight		
-U+2079	⁹	2070..209F	Superscripts and Subscripts	Superscript nine		
-U+207A	⁺	2070..209F	Superscripts and Subscripts	Superscript plus sign		
-U+207B	⁻	2070..209F	Superscripts and Subscripts	Superscript minus		
-U+207C	⁼	2070..209F	Superscripts and Subscripts	Superscript equals sign		
-U+207D	⁽	2070..209F	Superscripts and Subscripts	Superscript left parenthesis		
-U+207E	⁾	2070..209F	Superscripts and Subscripts	Superscript right parenthesis		
-U+207F	ⁿ	2070..209F	Superscripts and Subscripts	Superscript latin small letter n		
-U+2080	₀	2070..209F	Superscripts and Subscripts	Subscript zero		
-U+2081	₁	2070..209F	Superscripts and Subscripts	Subscript one		
-U+2082	₂	2070..209F	Superscripts and Subscripts	Subscript two		
-U+2083	₃	2070..209F	Superscripts and Subscripts	Subscript three		
-U+2084	₄	2070..209F	Superscripts and Subscripts	Subscript four		
-U+2085	₅	2070..209F	Superscripts and Subscripts	Subscript five		
-U+2086	₆	2070..209F	Superscripts and Subscripts	Subscript six		
-U+2087	₇	2070..209F	Superscripts and Subscripts	Subscript seven		
-U+2088	₈	2070..209F	Superscripts and Subscripts	Subscript eight		
-U+2089	₉	2070..209F	Superscripts and Subscripts	Subscript nine		
-U+208A	₊	2070..209F	Superscripts and Subscripts	Subscript plus sign		
-U+208B	₋	2070..209F	Superscripts and Subscripts	Subscript minus		
-U+208C	₌	2070..209F	Superscripts and Subscripts	Subscript equals sign		
-U+208D	₍	2070..209F	Superscripts and Subscripts	Subscript left parenthesis		
-U+208E	₎	2070..209F	Superscripts and Subscripts	Subscript right parenthesis		
-U+208F	₏	2070..209F	Superscripts and Subscripts	Modifier letter high and low vertical line		
-U+2090	ₐ	2070..209F	Superscripts and Subscripts	Latin subscript small letter a		
-U+2091	ₑ	2070..209F	Superscripts and Subscripts	Latin subscript small letter e		
-U+2092	ₒ	2070..209F	Superscripts and Subscripts	Latin subscript small letter o		
-U+2093	ₓ	2070..209F	Superscripts and Subscripts	Latin subscript small letter x		
-U+2094	ₔ	2070..209F	Superscripts and Subscripts	Latin subscript small letter schwa		
-U+2095	ₕ	2070..209F	Superscripts and Subscripts	Latin subscript small letter h		
-U+2096	ₖ	2070..209F	Superscripts and Subscripts	Latin subscript small letter k		
-U+2097	ₗ	2070..209F	Superscripts and Subscripts	Latin subscript small letter l		
-U+2098	ₘ	2070..209F	Superscripts and Subscripts	Latin subscript small letter m		
-U+2099	ₙ	2070..209F	Superscripts and Subscripts	Latin subscript small letter n		
-U+209A	ₚ	2070..209F	Superscripts and Subscripts	Latin subscript small letter p		
-U+209B	ₛ	2070..209F	Superscripts and Subscripts	Latin subscript small letter s		
-U+209C	ₜ	2070..209F	Superscripts and Subscripts	Latin subscript small letter t		
-U+209D	₝	2070..209F	Superscripts and Subscripts	Latin subscript small letter w		
-U+209E	₞	2070..209F	Superscripts and Subscripts	Latin subscript small letter y		
-U+209F	₟	2070..209F	Superscripts and Subscripts	Latin subscript small letter z		
+code_points	chars	tab_completions	unicode_name	base
+U+2070	⁰		SUPERSCRIPT ZERO	
+U+2071	ⁱ		SUPERSCRIPT LATIN SMALL LETTER I	
+U+2074	⁴		SUPERSCRIPT FOUR	
+U+2075	⁵		SUPERSCRIPT FIVE	
+U+2076	⁶		SUPERSCRIPT SIX	
+U+2077	⁷		SUPERSCRIPT SEVEN	
+U+2078	⁸		SUPERSCRIPT EIGHT	
+U+2079	⁹		SUPERSCRIPT NINE	
+U+207A	⁺		SUPERSCRIPT PLUS SIGN	
+U+207B	⁻		SUPERSCRIPT MINUS	
+U+207C	⁼		SUPERSCRIPT EQUALS SIGN	
+U+207D	⁽		SUPERSCRIPT LEFT PARENTHESIS	
+U+207E	⁾		SUPERSCRIPT RIGHT PARENTHESIS	
+U+207F	ⁿ		SUPERSCRIPT LATIN SMALL LETTER N	
+U+2080	₀		SUBSCRIPT ZERO	
+U+2081	₁		SUBSCRIPT ONE	
+U+2082	₂		SUBSCRIPT TWO	
+U+2083	₃		SUBSCRIPT THREE	
+U+2084	₄		SUBSCRIPT FOUR	
+U+2085	₅		SUBSCRIPT FIVE	
+U+2086	₆		SUBSCRIPT SIX	
+U+2087	₇		SUBSCRIPT SEVEN	
+U+2088	₈		SUBSCRIPT EIGHT	
+U+2089	₉		SUBSCRIPT NINE	
+U+208A	₊		SUBSCRIPT PLUS SIGN	
+U+208B	₋		SUBSCRIPT MINUS	
+U+208C	₌		SUBSCRIPT EQUALS SIGN	
+U+208D	₍		SUBSCRIPT LEFT PARENTHESIS	
+U+208E	₎		SUBSCRIPT RIGHT PARENTHESIS	
+U+208F	₏		MODIFIER LETTER HIGH AND LOW VERTICAL LINE	
+U+2090	ₐ		LATIN SUBSCRIPT SMALL LETTER A	
+U+2091	ₑ		LATIN SUBSCRIPT SMALL LETTER E	
+U+2092	ₒ		LATIN SUBSCRIPT SMALL LETTER O	
+U+2093	ₓ		LATIN SUBSCRIPT SMALL LETTER X	
+U+2094	ₔ		LATIN SUBSCRIPT SMALL LETTER SCHWA	
+U+2095	ₕ		LATIN SUBSCRIPT SMALL LETTER H	
+U+2096	ₖ		LATIN SUBSCRIPT SMALL LETTER K	
+U+2097	ₗ		LATIN SUBSCRIPT SMALL LETTER L	
+U+2098	ₘ		LATIN SUBSCRIPT SMALL LETTER M	
+U+2099	ₙ		LATIN SUBSCRIPT SMALL LETTER N	
+U+209A	ₚ		LATIN SUBSCRIPT SMALL LETTER P	
+U+209B	ₛ		LATIN SUBSCRIPT SMALL LETTER S	
+U+209C	ₜ		LATIN SUBSCRIPT SMALL LETTER T	
+U+209D	₝		LATIN SUBSCRIPT SMALL LETTER W	
+U+209E	₞		LATIN SUBSCRIPT SMALL LETTER Y	
+U+209F	₟		LATIN SUBSCRIPT SMALL LETTER Z	

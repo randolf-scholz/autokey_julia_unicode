@@ -1,97 +1,97 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0250	ɐ	0250..02AF	IPA Extensions	Latin small letter turned a		
-U+0251	ɑ	0250..02AF	IPA Extensions	Latin small letter alpha		
-U+0252	ɒ	0250..02AF	IPA Extensions	Latin small letter turned alpha		
-U+0253	ɓ	0250..02AF	IPA Extensions	Latin small letter b with hook		
-U+0254	ɔ	0250..02AF	IPA Extensions	Latin small letter open o		
-U+0255	ɕ	0250..02AF	IPA Extensions	Latin small letter c with curl		
-U+0256	ɖ	0250..02AF	IPA Extensions	Latin small letter d with tail		
-U+0257	ɗ	0250..02AF	IPA Extensions	Latin small letter d with hook		
-U+0258	ɘ	0250..02AF	IPA Extensions	Latin small letter reversed e		
-U+0259	ə	0250..02AF	IPA Extensions	Latin small letter schwa		
-U+025A	ɚ	0250..02AF	IPA Extensions	Latin small letter schwa with hook		
-U+025B	ɛ	0250..02AF	IPA Extensions	Latin small letter open e		
-U+025C	ɜ	0250..02AF	IPA Extensions	Latin small letter reversed open e		
-U+025D	ɝ	0250..02AF	IPA Extensions	Latin small letter reversed open e with hook		
-U+025E	ɞ	0250..02AF	IPA Extensions	Latin small letter closed reversed open e		
-U+025F	ɟ	0250..02AF	IPA Extensions	Latin small letter dotless j with stroke		
-U+0260	ɠ	0250..02AF	IPA Extensions	Latin small letter g with hook		
-U+0261	ɡ	0250..02AF	IPA Extensions	Latin small letter script g		
-U+0262	ɢ	0250..02AF	IPA Extensions	Latin letter small capital g		
-U+0263	ɣ	0250..02AF	IPA Extensions	Latin small letter gamma		
-U+0264	ɤ	0250..02AF	IPA Extensions	Latin small letter rams horn		
-U+0265	ɥ	0250..02AF	IPA Extensions	Latin small letter turned h		
-U+0266	ɦ	0250..02AF	IPA Extensions	Latin small letter h with hook		
-U+0267	ɧ	0250..02AF	IPA Extensions	Latin small letter heng with hook		
-U+0268	ɨ	0250..02AF	IPA Extensions	Latin small letter i with stroke		
-U+0269	ɩ	0250..02AF	IPA Extensions	Latin small letter iota		
-U+026A	ɪ	0250..02AF	IPA Extensions	Latin letter small capital i		
-U+026B	ɫ	0250..02AF	IPA Extensions	Latin small letter l with middle tilde		
-U+026C	ɬ	0250..02AF	IPA Extensions	Latin small letter l with belt		
-U+026D	ɭ	0250..02AF	IPA Extensions	Latin small letter l with retroflex hook		
-U+026E	ɮ	0250..02AF	IPA Extensions	Latin small letter lezh		
-U+026F	ɯ	0250..02AF	IPA Extensions	Latin small letter turned m		
-U+0270	ɰ	0250..02AF	IPA Extensions	Latin small letter turned m with long leg		
-U+0271	ɱ	0250..02AF	IPA Extensions	Latin small letter m with hook		
-U+0272	ɲ	0250..02AF	IPA Extensions	Latin small letter n with left hook		
-U+0273	ɳ	0250..02AF	IPA Extensions	Latin small letter n with retroflex hook		
-U+0274	ɴ	0250..02AF	IPA Extensions	Latin letter small capital n		
-U+0275	ɵ	0250..02AF	IPA Extensions	Latin small letter barred o		
-U+0276	ɶ	0250..02AF	IPA Extensions	Latin letter small capital oe		
-U+0277	ɷ	0250..02AF	IPA Extensions	Latin small letter closed omega		
-U+0278	ɸ	0250..02AF	IPA Extensions	Latin small letter phi		
-U+0279	ɹ	0250..02AF	IPA Extensions	Latin small letter turned r		
-U+027A	ɺ	0250..02AF	IPA Extensions	Latin small letter turned r with long leg		
-U+027B	ɻ	0250..02AF	IPA Extensions	Latin small letter turned r with hook		
-U+027C	ɼ	0250..02AF	IPA Extensions	Latin small letter r with long leg		
-U+027D	ɽ	0250..02AF	IPA Extensions	Latin small letter r with tail		
-U+027E	ɾ	0250..02AF	IPA Extensions	Latin small letter r with fishhook		
-U+027F	ɿ	0250..02AF	IPA Extensions	Latin small letter reversed r with fishhook		
-U+0280	ʀ	0250..02AF	IPA Extensions	Latin letter small capital r		
-U+0281	ʁ	0250..02AF	IPA Extensions	Latin letter small capital inverted r		
-U+0282	ʂ	0250..02AF	IPA Extensions	Latin small letter s with hook		
-U+0283	ʃ	0250..02AF	IPA Extensions	Latin small letter esh		
-U+0284	ʄ	0250..02AF	IPA Extensions	Latin small letter dotless j with stroke and hook		
-U+0285	ʅ	0250..02AF	IPA Extensions	Latin small letter squat reversed esh		
-U+0286	ʆ	0250..02AF	IPA Extensions	Latin small letter esh with curl		
-U+0287	ʇ	0250..02AF	IPA Extensions	Latin small letter turned t		
-U+0288	ʈ	0250..02AF	IPA Extensions	Latin small letter t with retroflex hook		
-U+0289	ʉ	0250..02AF	IPA Extensions	Latin small letter u bar		
-U+028A	ʊ	0250..02AF	IPA Extensions	Latin small letter upsilon		
-U+028B	ʋ	0250..02AF	IPA Extensions	Latin small letter v with hook		
-U+028C	ʌ	0250..02AF	IPA Extensions	Latin small letter turned v		
-U+028D	ʍ	0250..02AF	IPA Extensions	Latin small letter turned w		
-U+028E	ʎ	0250..02AF	IPA Extensions	Latin small letter turned y		
-U+028F	ʏ	0250..02AF	IPA Extensions	Latin letter small capital y		
-U+0290	ʐ	0250..02AF	IPA Extensions	Latin small letter z with retroflex hook		
-U+0291	ʑ	0250..02AF	IPA Extensions	Latin small letter z with curl		
-U+0292	ʒ	0250..02AF	IPA Extensions	Latin small letter ezh		
-U+0293	ʓ	0250..02AF	IPA Extensions	Latin small letter ezh with curl		
-U+0294	ʔ	0250..02AF	IPA Extensions	Latin letter glottal stop		
-U+0295	ʕ	0250..02AF	IPA Extensions	Latin letter pharyngeal voiced fricative		
-U+0296	ʖ	0250..02AF	IPA Extensions	Latin letter inverted glottal stop		
-U+0297	ʗ	0250..02AF	IPA Extensions	Latin letter stretched c		
-U+0298	ʘ	0250..02AF	IPA Extensions	Latin letter bilabial click		
-U+0299	ʙ	0250..02AF	IPA Extensions	Latin letter small capital b		
-U+029A	ʚ	0250..02AF	IPA Extensions	Latin small letter closed open e		
-U+029B	ʛ	0250..02AF	IPA Extensions	Latin letter small capital g with hook		
-U+029C	ʜ	0250..02AF	IPA Extensions	Latin letter small capital h		
-U+029D	ʝ	0250..02AF	IPA Extensions	Latin small letter j with crossed-tail		
-U+029E	ʞ	0250..02AF	IPA Extensions	Latin small letter turned k		
-U+029F	ʟ	0250..02AF	IPA Extensions	Latin letter small capital l		
-U+02A0	ʠ	0250..02AF	IPA Extensions	Latin small letter q with hook		
-U+02A1	ʡ	0250..02AF	IPA Extensions	Latin letter glottal stop with stroke		
-U+02A2	ʢ	0250..02AF	IPA Extensions	Latin letter reversed glottal stop with stroke		
-U+02A3	ʣ	0250..02AF	IPA Extensions	Latin small letter dz digraph		
-U+02A4	ʤ	0250..02AF	IPA Extensions	Latin small letter dezh digraph		
-U+02A5	ʥ	0250..02AF	IPA Extensions	Latin small letter dz digraph with curl		
-U+02A6	ʦ	0250..02AF	IPA Extensions	Latin small letter ts digraph		
-U+02A7	ʧ	0250..02AF	IPA Extensions	Latin small letter tesh digraph		
-U+02A8	ʨ	0250..02AF	IPA Extensions	Latin small letter tc digraph with curl		
-U+02A9	ʩ	0250..02AF	IPA Extensions	Latin small letter feng digraph		
-U+02AA	ʪ	0250..02AF	IPA Extensions	Latin small letter ls digraph		
-U+02AB	ʫ	0250..02AF	IPA Extensions	Latin small letter lz digraph		
-U+02AC	ʬ	0250..02AF	IPA Extensions	Latin letter bilabial percussive		
-U+02AD	ʭ	0250..02AF	IPA Extensions	Latin letter bidental percussive		
-U+02AE	ʮ	0250..02AF	IPA Extensions	Latin small letter turned h with fishhook		
-U+02AF	ʯ	0250..02AF	IPA Extensions	Latin small letter turned h with fishhook and tail		
+code_points	chars	tab_completions	unicode_name	base
+U+0250	ɐ		LATIN SMALL LETTER TURNED A	
+U+0251	ɑ		LATIN SMALL LETTER ALPHA	
+U+0252	ɒ		LATIN SMALL LETTER TURNED ALPHA	
+U+0253	ɓ		LATIN SMALL LETTER B WITH HOOK	
+U+0254	ɔ		LATIN SMALL LETTER OPEN O	
+U+0255	ɕ		LATIN SMALL LETTER C WITH CURL	
+U+0256	ɖ		LATIN SMALL LETTER D WITH TAIL	
+U+0257	ɗ		LATIN SMALL LETTER D WITH HOOK	
+U+0258	ɘ		LATIN SMALL LETTER REVERSED E	
+U+0259	ə		LATIN SMALL LETTER SCHWA	
+U+025A	ɚ		LATIN SMALL LETTER SCHWA WITH HOOK	
+U+025B	ɛ		LATIN SMALL LETTER OPEN E	
+U+025C	ɜ		LATIN SMALL LETTER REVERSED OPEN E	
+U+025D	ɝ		LATIN SMALL LETTER REVERSED OPEN E WITH HOOK	
+U+025E	ɞ		LATIN SMALL LETTER CLOSED REVERSED OPEN E	
+U+025F	ɟ		LATIN SMALL LETTER DOTLESS J WITH STROKE	
+U+0260	ɠ		LATIN SMALL LETTER G WITH HOOK	
+U+0261	ɡ		LATIN SMALL LETTER SCRIPT G	
+U+0262	ɢ		LATIN LETTER SMALL CAPITAL G	
+U+0263	ɣ		LATIN SMALL LETTER GAMMA	
+U+0264	ɤ		LATIN SMALL LETTER RAMS HORN	
+U+0265	ɥ		LATIN SMALL LETTER TURNED H	
+U+0266	ɦ		LATIN SMALL LETTER H WITH HOOK	
+U+0267	ɧ		LATIN SMALL LETTER HENG WITH HOOK	
+U+0268	ɨ		LATIN SMALL LETTER I WITH STROKE	
+U+0269	ɩ		LATIN SMALL LETTER IOTA	
+U+026A	ɪ		LATIN LETTER SMALL CAPITAL I	
+U+026B	ɫ		LATIN SMALL LETTER L WITH MIDDLE TILDE	
+U+026C	ɬ		LATIN SMALL LETTER L WITH BELT	
+U+026D	ɭ		LATIN SMALL LETTER L WITH RETROFLEX HOOK	
+U+026E	ɮ		LATIN SMALL LETTER LEZH	
+U+026F	ɯ		LATIN SMALL LETTER TURNED M	
+U+0270	ɰ		LATIN SMALL LETTER TURNED M WITH LONG LEG	
+U+0271	ɱ		LATIN SMALL LETTER M WITH HOOK	
+U+0272	ɲ		LATIN SMALL LETTER N WITH LEFT HOOK	
+U+0273	ɳ		LATIN SMALL LETTER N WITH RETROFLEX HOOK	
+U+0274	ɴ		LATIN LETTER SMALL CAPITAL N	
+U+0275	ɵ		LATIN SMALL LETTER BARRED O	
+U+0276	ɶ		LATIN LETTER SMALL CAPITAL OE	
+U+0277	ɷ		LATIN SMALL LETTER CLOSED OMEGA	
+U+0278	ɸ		LATIN SMALL LETTER PHI	
+U+0279	ɹ		LATIN SMALL LETTER TURNED R	
+U+027A	ɺ		LATIN SMALL LETTER TURNED R WITH LONG LEG	
+U+027B	ɻ		LATIN SMALL LETTER TURNED R WITH HOOK	
+U+027C	ɼ		LATIN SMALL LETTER R WITH LONG LEG	
+U+027D	ɽ		LATIN SMALL LETTER R WITH TAIL	
+U+027E	ɾ		LATIN SMALL LETTER R WITH FISHHOOK	
+U+027F	ɿ		LATIN SMALL LETTER REVERSED R WITH FISHHOOK	
+U+0280	ʀ		LATIN LETTER SMALL CAPITAL R	
+U+0281	ʁ		LATIN LETTER SMALL CAPITAL INVERTED R	
+U+0282	ʂ		LATIN SMALL LETTER S WITH HOOK	
+U+0283	ʃ		LATIN SMALL LETTER ESH	
+U+0284	ʄ		LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK	
+U+0285	ʅ		LATIN SMALL LETTER SQUAT REVERSED ESH	
+U+0286	ʆ		LATIN SMALL LETTER ESH WITH CURL	
+U+0287	ʇ		LATIN SMALL LETTER TURNED T	
+U+0288	ʈ		LATIN SMALL LETTER T WITH RETROFLEX HOOK	
+U+0289	ʉ		LATIN SMALL LETTER U BAR	
+U+028A	ʊ		LATIN SMALL LETTER UPSILON	
+U+028B	ʋ		LATIN SMALL LETTER V WITH HOOK	
+U+028C	ʌ		LATIN SMALL LETTER TURNED V	
+U+028D	ʍ		LATIN SMALL LETTER TURNED W	
+U+028E	ʎ		LATIN SMALL LETTER TURNED Y	
+U+028F	ʏ		LATIN LETTER SMALL CAPITAL Y	
+U+0290	ʐ		LATIN SMALL LETTER Z WITH RETROFLEX HOOK	
+U+0291	ʑ		LATIN SMALL LETTER Z WITH CURL	
+U+0292	ʒ		LATIN SMALL LETTER EZH	
+U+0293	ʓ		LATIN SMALL LETTER EZH WITH CURL	
+U+0294	ʔ		LATIN LETTER GLOTTAL STOP	
+U+0295	ʕ		LATIN LETTER PHARYNGEAL VOICED FRICATIVE	
+U+0296	ʖ		LATIN LETTER INVERTED GLOTTAL STOP	
+U+0297	ʗ		LATIN LETTER STRETCHED C	
+U+0298	ʘ		LATIN LETTER BILABIAL CLICK	
+U+0299	ʙ		LATIN LETTER SMALL CAPITAL B	
+U+029A	ʚ		LATIN SMALL LETTER CLOSED OPEN E	
+U+029B	ʛ		LATIN LETTER SMALL CAPITAL G WITH HOOK	
+U+029C	ʜ		LATIN LETTER SMALL CAPITAL H	
+U+029D	ʝ		LATIN SMALL LETTER J WITH CROSSED-TAIL	
+U+029E	ʞ		LATIN SMALL LETTER TURNED K	
+U+029F	ʟ		LATIN LETTER SMALL CAPITAL L	
+U+02A0	ʠ		LATIN SMALL LETTER Q WITH HOOK	
+U+02A1	ʡ		LATIN LETTER GLOTTAL STOP WITH STROKE	
+U+02A2	ʢ		LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE	
+U+02A3	ʣ		LATIN SMALL LETTER DZ DIGRAPH	
+U+02A4	ʤ		LATIN SMALL LETTER DEZH DIGRAPH	
+U+02A5	ʥ		LATIN SMALL LETTER DZ DIGRAPH WITH CURL	
+U+02A6	ʦ		LATIN SMALL LETTER TS DIGRAPH	
+U+02A7	ʧ		LATIN SMALL LETTER TESH DIGRAPH	
+U+02A8	ʨ		LATIN SMALL LETTER TC DIGRAPH WITH CURL	
+U+02A9	ʩ		LATIN SMALL LETTER FENG DIGRAPH	
+U+02AA	ʪ		LATIN SMALL LETTER LS DIGRAPH	
+U+02AB	ʫ		LATIN SMALL LETTER LZ DIGRAPH	
+U+02AC	ʬ		LATIN LETTER BILABIAL PERCUSSIVE	
+U+02AD	ʭ		LATIN LETTER BIDENTAL PERCUSSIVE	
+U+02AE	ʮ		LATIN SMALL LETTER TURNED H WITH FISHHOOK	
+U+02AF	ʯ		LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL	

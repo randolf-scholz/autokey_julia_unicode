@@ -1,102 +1,102 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0C00	ఀ	0C00..0C7F	Telugu	Telugu sign combining candrabindu above		
-U+0C01	ఁ	0C00..0C7F	Telugu	Telugu sign candrabindu		
-U+0C02	ం	0C00..0C7F	Telugu	Telugu sign anusvara		
-U+0C03	ః	0C00..0C7F	Telugu	Telugu sign visarga		
-U+0C04	ఄ	0C00..0C7F	Telugu	Telugu sign combining anusvara above		
-U+0C05	అ	0C00..0C7F	Telugu	Telugu letter a		
-U+0C06	ఆ	0C00..0C7F	Telugu	Telugu letter aa		
-U+0C07	ఇ	0C00..0C7F	Telugu	Telugu letter i		
-U+0C08	ఈ	0C00..0C7F	Telugu	Telugu letter ii		
-U+0C09	ఉ	0C00..0C7F	Telugu	Telugu letter u		
-U+0C0A	ఊ	0C00..0C7F	Telugu	Telugu letter uu		
-U+0C0B	ఋ	0C00..0C7F	Telugu	Telugu letter vocalic r		
-U+0C0C	ఌ	0C00..0C7F	Telugu	Telugu letter vocalic l		
-U+0C0E	ఎ	0C00..0C7F	Telugu	Telugu letter e		
-U+0C0F	ఏ	0C00..0C7F	Telugu	Telugu letter ee		
-U+0C10	ఐ	0C00..0C7F	Telugu	Telugu letter ai		
-U+0C12	ఒ	0C00..0C7F	Telugu	Telugu letter o		
-U+0C13	ఓ	0C00..0C7F	Telugu	Telugu letter oo		
-U+0C14	ఔ	0C00..0C7F	Telugu	Telugu letter au		
-U+0C15	క	0C00..0C7F	Telugu	Telugu letter ka		
-U+0C16	ఖ	0C00..0C7F	Telugu	Telugu letter kha		
-U+0C17	గ	0C00..0C7F	Telugu	Telugu letter ga		
-U+0C18	ఘ	0C00..0C7F	Telugu	Telugu letter gha		
-U+0C19	ఙ	0C00..0C7F	Telugu	Telugu letter nga		
-U+0C1A	చ	0C00..0C7F	Telugu	Telugu letter ca		
-U+0C1B	ఛ	0C00..0C7F	Telugu	Telugu letter cha		
-U+0C1C	జ	0C00..0C7F	Telugu	Telugu letter ja		
-U+0C1D	ఝ	0C00..0C7F	Telugu	Telugu letter jha		
-U+0C1E	ఞ	0C00..0C7F	Telugu	Telugu letter nya		
-U+0C1F	ట	0C00..0C7F	Telugu	Telugu letter tta		
-U+0C20	ఠ	0C00..0C7F	Telugu	Telugu letter ttha		
-U+0C21	డ	0C00..0C7F	Telugu	Telugu letter dda		
-U+0C22	ఢ	0C00..0C7F	Telugu	Telugu letter ddha		
-U+0C23	ణ	0C00..0C7F	Telugu	Telugu letter nna		
-U+0C24	త	0C00..0C7F	Telugu	Telugu letter ta		
-U+0C25	థ	0C00..0C7F	Telugu	Telugu letter tha		
-U+0C26	ద	0C00..0C7F	Telugu	Telugu letter da		
-U+0C27	ధ	0C00..0C7F	Telugu	Telugu letter dha		
-U+0C28	న	0C00..0C7F	Telugu	Telugu letter na		
-U+0C2A	ప	0C00..0C7F	Telugu	Telugu letter pa		
-U+0C2B	ఫ	0C00..0C7F	Telugu	Telugu letter pha		
-U+0C2C	బ	0C00..0C7F	Telugu	Telugu letter ba		
-U+0C2D	భ	0C00..0C7F	Telugu	Telugu letter bha		
-U+0C2E	మ	0C00..0C7F	Telugu	Telugu letter ma		
-U+0C2F	య	0C00..0C7F	Telugu	Telugu letter ya		
-U+0C30	ర	0C00..0C7F	Telugu	Telugu letter ra		
-U+0C31	ఱ	0C00..0C7F	Telugu	Telugu letter rra		
-U+0C32	ల	0C00..0C7F	Telugu	Telugu letter la		
-U+0C33	ళ	0C00..0C7F	Telugu	Telugu letter lla		
-U+0C34	ఴ	0C00..0C7F	Telugu	Telugu letter llla		
-U+0C35	వ	0C00..0C7F	Telugu	Telugu letter va		
-U+0C36	శ	0C00..0C7F	Telugu	Telugu letter sha		
-U+0C37	ష	0C00..0C7F	Telugu	Telugu letter ssa		
-U+0C38	స	0C00..0C7F	Telugu	Telugu letter sa		
-U+0C39	హ	0C00..0C7F	Telugu	Telugu letter ha		
-U+0C3C	఼	0C00..0C7F	Telugu	Telugu sign nukta		
-U+0C3D	ఽ	0C00..0C7F	Telugu	Telugu sign avagraha		
-U+0C3E	ా	0C00..0C7F	Telugu	Telugu vowel sign aa		
-U+0C3F	ి	0C00..0C7F	Telugu	Telugu vowel sign i		
-U+0C40	ీ	0C00..0C7F	Telugu	Telugu vowel sign ii		
-U+0C41	ు	0C00..0C7F	Telugu	Telugu vowel sign u		
-U+0C42	ూ	0C00..0C7F	Telugu	Telugu vowel sign uu		
-U+0C43	ృ	0C00..0C7F	Telugu	Telugu vowel sign vocalic r		
-U+0C44	ౄ	0C00..0C7F	Telugu	Telugu vowel sign vocalic rr		
-U+0C46	ె	0C00..0C7F	Telugu	Telugu vowel sign e		
-U+0C47	ే	0C00..0C7F	Telugu	Telugu vowel sign ee		
-U+0C48	ై	0C00..0C7F	Telugu	Telugu vowel sign ai		
-U+0C4A	ొ	0C00..0C7F	Telugu	Telugu vowel sign o		
-U+0C4B	ో	0C00..0C7F	Telugu	Telugu vowel sign oo		
-U+0C4C	ౌ	0C00..0C7F	Telugu	Telugu vowel sign au		
-U+0C4D	్	0C00..0C7F	Telugu	Telugu sign virama		
-U+0C55	ౕ	0C00..0C7F	Telugu	Telugu length mark		
-U+0C56	ౖ	0C00..0C7F	Telugu	Telugu ai length mark		
-U+0C58	ౘ	0C00..0C7F	Telugu	Telugu letter tsa		
-U+0C59	ౙ	0C00..0C7F	Telugu	Telugu letter dza		
-U+0C5A	ౚ	0C00..0C7F	Telugu	Telugu letter rrra		
-U+0C5C	౜	0C00..0C7F	Telugu	Telugu archaic shrii		
-U+0C5D	ౝ	0C00..0C7F	Telugu	Telugu letter nakaara pollu		
-U+0C60	ౠ	0C00..0C7F	Telugu	Telugu letter vocalic rr		
-U+0C61	ౡ	0C00..0C7F	Telugu	Telugu letter vocalic ll		
-U+0C62	ౢ	0C00..0C7F	Telugu	Telugu vowel sign vocalic l		
-U+0C63	ౣ	0C00..0C7F	Telugu	Telugu vowel sign vocalic ll		
-U+0C66	౦	0C00..0C7F	Telugu	Telugu digit zero		
-U+0C67	౧	0C00..0C7F	Telugu	Telugu digit one		
-U+0C68	౨	0C00..0C7F	Telugu	Telugu digit two		
-U+0C69	౩	0C00..0C7F	Telugu	Telugu digit three		
-U+0C6A	౪	0C00..0C7F	Telugu	Telugu digit four		
-U+0C6B	౫	0C00..0C7F	Telugu	Telugu digit five		
-U+0C6C	౬	0C00..0C7F	Telugu	Telugu digit six		
-U+0C6D	౭	0C00..0C7F	Telugu	Telugu digit seven		
-U+0C6E	౮	0C00..0C7F	Telugu	Telugu digit eight		
-U+0C6F	౯	0C00..0C7F	Telugu	Telugu digit nine		
-U+0C77	౷	0C00..0C7F	Telugu	Telugu sign siddham		
-U+0C78	౸	0C00..0C7F	Telugu	Telugu fraction digit zero for odd powers of four		
-U+0C79	౹	0C00..0C7F	Telugu	Telugu fraction digit one for odd powers of four		
-U+0C7A	౺	0C00..0C7F	Telugu	Telugu fraction digit two for odd powers of four		
-U+0C7B	౻	0C00..0C7F	Telugu	Telugu fraction digit three for odd powers of four		
-U+0C7C	౼	0C00..0C7F	Telugu	Telugu fraction digit one for even powers of four		
-U+0C7D	౽	0C00..0C7F	Telugu	Telugu fraction digit two for even powers of four		
-U+0C7E	౾	0C00..0C7F	Telugu	Telugu fraction digit three for even powers of four		
-U+0C7F	౿	0C00..0C7F	Telugu	Telugu sign tuumu		
+code_points	chars	tab_completions	unicode_name	base
+U+0C00	ఀ		TELUGU SIGN COMBINING CANDRABINDU ABOVE	
+U+0C01	ఁ		TELUGU SIGN CANDRABINDU	
+U+0C02	ం		TELUGU SIGN ANUSVARA	
+U+0C03	ః		TELUGU SIGN VISARGA	
+U+0C04	ఄ		TELUGU SIGN COMBINING ANUSVARA ABOVE	
+U+0C05	అ		TELUGU LETTER A	
+U+0C06	ఆ		TELUGU LETTER AA	
+U+0C07	ఇ		TELUGU LETTER I	
+U+0C08	ఈ		TELUGU LETTER II	
+U+0C09	ఉ		TELUGU LETTER U	
+U+0C0A	ఊ		TELUGU LETTER UU	
+U+0C0B	ఋ		TELUGU LETTER VOCALIC R	
+U+0C0C	ఌ		TELUGU LETTER VOCALIC L	
+U+0C0E	ఎ		TELUGU LETTER E	
+U+0C0F	ఏ		TELUGU LETTER EE	
+U+0C10	ఐ		TELUGU LETTER AI	
+U+0C12	ఒ		TELUGU LETTER O	
+U+0C13	ఓ		TELUGU LETTER OO	
+U+0C14	ఔ		TELUGU LETTER AU	
+U+0C15	క		TELUGU LETTER KA	
+U+0C16	ఖ		TELUGU LETTER KHA	
+U+0C17	గ		TELUGU LETTER GA	
+U+0C18	ఘ		TELUGU LETTER GHA	
+U+0C19	ఙ		TELUGU LETTER NGA	
+U+0C1A	చ		TELUGU LETTER CA	
+U+0C1B	ఛ		TELUGU LETTER CHA	
+U+0C1C	జ		TELUGU LETTER JA	
+U+0C1D	ఝ		TELUGU LETTER JHA	
+U+0C1E	ఞ		TELUGU LETTER NYA	
+U+0C1F	ట		TELUGU LETTER TTA	
+U+0C20	ఠ		TELUGU LETTER TTHA	
+U+0C21	డ		TELUGU LETTER DDA	
+U+0C22	ఢ		TELUGU LETTER DDHA	
+U+0C23	ణ		TELUGU LETTER NNA	
+U+0C24	త		TELUGU LETTER TA	
+U+0C25	థ		TELUGU LETTER THA	
+U+0C26	ద		TELUGU LETTER DA	
+U+0C27	ధ		TELUGU LETTER DHA	
+U+0C28	న		TELUGU LETTER NA	
+U+0C2A	ప		TELUGU LETTER PA	
+U+0C2B	ఫ		TELUGU LETTER PHA	
+U+0C2C	బ		TELUGU LETTER BA	
+U+0C2D	భ		TELUGU LETTER BHA	
+U+0C2E	మ		TELUGU LETTER MA	
+U+0C2F	య		TELUGU LETTER YA	
+U+0C30	ర		TELUGU LETTER RA	
+U+0C31	ఱ		TELUGU LETTER RRA	
+U+0C32	ల		TELUGU LETTER LA	
+U+0C33	ళ		TELUGU LETTER LLA	
+U+0C34	ఴ		TELUGU LETTER LLLA	
+U+0C35	వ		TELUGU LETTER VA	
+U+0C36	శ		TELUGU LETTER SHA	
+U+0C37	ష		TELUGU LETTER SSA	
+U+0C38	స		TELUGU LETTER SA	
+U+0C39	హ		TELUGU LETTER HA	
+U+0C3C	఼		TELUGU SIGN NUKTA	
+U+0C3D	ఽ		TELUGU SIGN AVAGRAHA	
+U+0C3E	ా		TELUGU VOWEL SIGN AA	
+U+0C3F	ి		TELUGU VOWEL SIGN I	
+U+0C40	ీ		TELUGU VOWEL SIGN II	
+U+0C41	ు		TELUGU VOWEL SIGN U	
+U+0C42	ూ		TELUGU VOWEL SIGN UU	
+U+0C43	ృ		TELUGU VOWEL SIGN VOCALIC R	
+U+0C44	ౄ		TELUGU VOWEL SIGN VOCALIC RR	
+U+0C46	ె		TELUGU VOWEL SIGN E	
+U+0C47	ే		TELUGU VOWEL SIGN EE	
+U+0C48	ై		TELUGU VOWEL SIGN AI	
+U+0C4A	ొ		TELUGU VOWEL SIGN O	
+U+0C4B	ో		TELUGU VOWEL SIGN OO	
+U+0C4C	ౌ		TELUGU VOWEL SIGN AU	
+U+0C4D	్		TELUGU SIGN VIRAMA	
+U+0C55	ౕ		TELUGU LENGTH MARK	
+U+0C56	ౖ		TELUGU AI LENGTH MARK	
+U+0C58	ౘ		TELUGU LETTER TSA	
+U+0C59	ౙ		TELUGU LETTER DZA	
+U+0C5A	ౚ		TELUGU LETTER RRRA	
+U+0C5C	౜		TELUGU ARCHAIC SHRII	
+U+0C5D	ౝ		TELUGU LETTER NAKAARA POLLU	
+U+0C60	ౠ		TELUGU LETTER VOCALIC RR	
+U+0C61	ౡ		TELUGU LETTER VOCALIC LL	
+U+0C62	ౢ		TELUGU VOWEL SIGN VOCALIC L	
+U+0C63	ౣ		TELUGU VOWEL SIGN VOCALIC LL	
+U+0C66	౦		TELUGU DIGIT ZERO	
+U+0C67	౧		TELUGU DIGIT ONE	
+U+0C68	౨		TELUGU DIGIT TWO	
+U+0C69	౩		TELUGU DIGIT THREE	
+U+0C6A	౪		TELUGU DIGIT FOUR	
+U+0C6B	౫		TELUGU DIGIT FIVE	
+U+0C6C	౬		TELUGU DIGIT SIX	
+U+0C6D	౭		TELUGU DIGIT SEVEN	
+U+0C6E	౮		TELUGU DIGIT EIGHT	
+U+0C6F	౯		TELUGU DIGIT NINE	
+U+0C77	౷		TELUGU SIGN SIDDHAM	
+U+0C78	౸		TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR	
+U+0C79	౹		TELUGU FRACTION DIGIT ONE FOR ODD POWERS OF FOUR	
+U+0C7A	౺		TELUGU FRACTION DIGIT TWO FOR ODD POWERS OF FOUR	
+U+0C7B	౻		TELUGU FRACTION DIGIT THREE FOR ODD POWERS OF FOUR	
+U+0C7C	౼		TELUGU FRACTION DIGIT ONE FOR EVEN POWERS OF FOUR	
+U+0C7D	౽		TELUGU FRACTION DIGIT TWO FOR EVEN POWERS OF FOUR	
+U+0C7E	౾		TELUGU FRACTION DIGIT THREE FOR EVEN POWERS OF FOUR	
+U+0C7F	౿		TELUGU SIGN TUUMU	

@@ -1,69 +1,69 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1900	ᤀ	1900..194F	Limbu	Limbu vowel-carrier letter		
-U+1901	ᤁ	1900..194F	Limbu	Limbu letter ka		
-U+1902	ᤂ	1900..194F	Limbu	Limbu letter kha		
-U+1903	ᤃ	1900..194F	Limbu	Limbu letter ga		
-U+1904	ᤄ	1900..194F	Limbu	Limbu letter gha		
-U+1905	ᤅ	1900..194F	Limbu	Limbu letter nga		
-U+1906	ᤆ	1900..194F	Limbu	Limbu letter ca		
-U+1907	ᤇ	1900..194F	Limbu	Limbu letter cha		
-U+1908	ᤈ	1900..194F	Limbu	Limbu letter ja		
-U+1909	ᤉ	1900..194F	Limbu	Limbu letter jha		
-U+190A	ᤊ	1900..194F	Limbu	Limbu letter yan		
-U+190B	ᤋ	1900..194F	Limbu	Limbu letter ta		
-U+190C	ᤌ	1900..194F	Limbu	Limbu letter tha		
-U+190D	ᤍ	1900..194F	Limbu	Limbu letter da		
-U+190E	ᤎ	1900..194F	Limbu	Limbu letter dha		
-U+190F	ᤏ	1900..194F	Limbu	Limbu letter na		
-U+1910	ᤐ	1900..194F	Limbu	Limbu letter pa		
-U+1911	ᤑ	1900..194F	Limbu	Limbu letter pha		
-U+1912	ᤒ	1900..194F	Limbu	Limbu letter ba		
-U+1913	ᤓ	1900..194F	Limbu	Limbu letter bha		
-U+1914	ᤔ	1900..194F	Limbu	Limbu letter ma		
-U+1915	ᤕ	1900..194F	Limbu	Limbu letter ya		
-U+1916	ᤖ	1900..194F	Limbu	Limbu letter ra		
-U+1917	ᤗ	1900..194F	Limbu	Limbu letter la		
-U+1918	ᤘ	1900..194F	Limbu	Limbu letter wa		
-U+1919	ᤙ	1900..194F	Limbu	Limbu letter sha		
-U+191A	ᤚ	1900..194F	Limbu	Limbu letter ssa		
-U+191B	ᤛ	1900..194F	Limbu	Limbu letter sa		
-U+191C	ᤜ	1900..194F	Limbu	Limbu letter ha		
-U+191D	ᤝ	1900..194F	Limbu	Limbu letter gyan		
-U+191E	ᤞ	1900..194F	Limbu	Limbu letter tra		
-U+1920	ᤠ	1900..194F	Limbu	Limbu vowel sign a		
-U+1921	ᤡ	1900..194F	Limbu	Limbu vowel sign i		
-U+1922	ᤢ	1900..194F	Limbu	Limbu vowel sign u		
-U+1923	ᤣ	1900..194F	Limbu	Limbu vowel sign ee		
-U+1924	ᤤ	1900..194F	Limbu	Limbu vowel sign ai		
-U+1925	ᤥ	1900..194F	Limbu	Limbu vowel sign oo		
-U+1926	ᤦ	1900..194F	Limbu	Limbu vowel sign au		
-U+1927	ᤧ	1900..194F	Limbu	Limbu vowel sign e		
-U+1928	ᤨ	1900..194F	Limbu	Limbu vowel sign o		
-U+1929	ᤩ	1900..194F	Limbu	Limbu subjoined letter ya		
-U+192A	ᤪ	1900..194F	Limbu	Limbu subjoined letter ra		
-U+192B	ᤫ	1900..194F	Limbu	Limbu subjoined letter wa		
-U+1930	ᤰ	1900..194F	Limbu	Limbu small letter ka		
-U+1931	ᤱ	1900..194F	Limbu	Limbu small letter nga		
-U+1932	ᤲ	1900..194F	Limbu	Limbu small letter anusvara		
-U+1933	ᤳ	1900..194F	Limbu	Limbu small letter ta		
-U+1934	ᤴ	1900..194F	Limbu	Limbu small letter na		
-U+1935	ᤵ	1900..194F	Limbu	Limbu small letter pa		
-U+1936	ᤶ	1900..194F	Limbu	Limbu small letter ma		
-U+1937	ᤷ	1900..194F	Limbu	Limbu small letter ra		
-U+1938	ᤸ	1900..194F	Limbu	Limbu small letter la		
-U+1939	᤹	1900..194F	Limbu	Limbu sign mukphreng		
-U+193A	᤺	1900..194F	Limbu	Limbu sign kemphreng		
-U+193B	᤻	1900..194F	Limbu	Limbu sign sa-i		
-U+1940	᥀	1900..194F	Limbu	Limbu sign loo		
-U+1944	᥄	1900..194F	Limbu	Limbu exclamation mark		
-U+1945	᥅	1900..194F	Limbu	Limbu question mark		
-U+1946	᥆	1900..194F	Limbu	Limbu digit zero		
-U+1947	᥇	1900..194F	Limbu	Limbu digit one		
-U+1948	᥈	1900..194F	Limbu	Limbu digit two		
-U+1949	᥉	1900..194F	Limbu	Limbu digit three		
-U+194A	᥊	1900..194F	Limbu	Limbu digit four		
-U+194B	᥋	1900..194F	Limbu	Limbu digit five		
-U+194C	᥌	1900..194F	Limbu	Limbu digit six		
-U+194D	᥍	1900..194F	Limbu	Limbu digit seven		
-U+194E	᥎	1900..194F	Limbu	Limbu digit eight		
-U+194F	᥏	1900..194F	Limbu	Limbu digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+1900	ᤀ		LIMBU VOWEL-CARRIER LETTER	
+U+1901	ᤁ		LIMBU LETTER KA	
+U+1902	ᤂ		LIMBU LETTER KHA	
+U+1903	ᤃ		LIMBU LETTER GA	
+U+1904	ᤄ		LIMBU LETTER GHA	
+U+1905	ᤅ		LIMBU LETTER NGA	
+U+1906	ᤆ		LIMBU LETTER CA	
+U+1907	ᤇ		LIMBU LETTER CHA	
+U+1908	ᤈ		LIMBU LETTER JA	
+U+1909	ᤉ		LIMBU LETTER JHA	
+U+190A	ᤊ		LIMBU LETTER YAN	
+U+190B	ᤋ		LIMBU LETTER TA	
+U+190C	ᤌ		LIMBU LETTER THA	
+U+190D	ᤍ		LIMBU LETTER DA	
+U+190E	ᤎ		LIMBU LETTER DHA	
+U+190F	ᤏ		LIMBU LETTER NA	
+U+1910	ᤐ		LIMBU LETTER PA	
+U+1911	ᤑ		LIMBU LETTER PHA	
+U+1912	ᤒ		LIMBU LETTER BA	
+U+1913	ᤓ		LIMBU LETTER BHA	
+U+1914	ᤔ		LIMBU LETTER MA	
+U+1915	ᤕ		LIMBU LETTER YA	
+U+1916	ᤖ		LIMBU LETTER RA	
+U+1917	ᤗ		LIMBU LETTER LA	
+U+1918	ᤘ		LIMBU LETTER WA	
+U+1919	ᤙ		LIMBU LETTER SHA	
+U+191A	ᤚ		LIMBU LETTER SSA	
+U+191B	ᤛ		LIMBU LETTER SA	
+U+191C	ᤜ		LIMBU LETTER HA	
+U+191D	ᤝ		LIMBU LETTER GYAN	
+U+191E	ᤞ		LIMBU LETTER TRA	
+U+1920	ᤠ		LIMBU VOWEL SIGN A	
+U+1921	ᤡ		LIMBU VOWEL SIGN I	
+U+1922	ᤢ		LIMBU VOWEL SIGN U	
+U+1923	ᤣ		LIMBU VOWEL SIGN EE	
+U+1924	ᤤ		LIMBU VOWEL SIGN AI	
+U+1925	ᤥ		LIMBU VOWEL SIGN OO	
+U+1926	ᤦ		LIMBU VOWEL SIGN AU	
+U+1927	ᤧ		LIMBU VOWEL SIGN E	
+U+1928	ᤨ		LIMBU VOWEL SIGN O	
+U+1929	ᤩ		LIMBU SUBJOINED LETTER YA	
+U+192A	ᤪ		LIMBU SUBJOINED LETTER RA	
+U+192B	ᤫ		LIMBU SUBJOINED LETTER WA	
+U+1930	ᤰ		LIMBU SMALL LETTER KA	
+U+1931	ᤱ		LIMBU SMALL LETTER NGA	
+U+1932	ᤲ		LIMBU SMALL LETTER ANUSVARA	
+U+1933	ᤳ		LIMBU SMALL LETTER TA	
+U+1934	ᤴ		LIMBU SMALL LETTER NA	
+U+1935	ᤵ		LIMBU SMALL LETTER PA	
+U+1936	ᤶ		LIMBU SMALL LETTER MA	
+U+1937	ᤷ		LIMBU SMALL LETTER RA	
+U+1938	ᤸ		LIMBU SMALL LETTER LA	
+U+1939	᤹		LIMBU SIGN MUKPHRENG	
+U+193A	᤺		LIMBU SIGN KEMPHRENG	
+U+193B	᤻		LIMBU SIGN SA-I	
+U+1940	᥀		LIMBU SIGN LOO	
+U+1944	᥄		LIMBU EXCLAMATION MARK	
+U+1945	᥅		LIMBU QUESTION MARK	
+U+1946	᥆		LIMBU DIGIT ZERO	
+U+1947	᥇		LIMBU DIGIT ONE	
+U+1948	᥈		LIMBU DIGIT TWO	
+U+1949	᥉		LIMBU DIGIT THREE	
+U+194A	᥊		LIMBU DIGIT FOUR	
+U+194B	᥋		LIMBU DIGIT FIVE	
+U+194C	᥌		LIMBU DIGIT SIX	
+U+194D	᥍		LIMBU DIGIT SEVEN	
+U+194E	᥎		LIMBU DIGIT EIGHT	
+U+194F	᥏		LIMBU DIGIT NINE	

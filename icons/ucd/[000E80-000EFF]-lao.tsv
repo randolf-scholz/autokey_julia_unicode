@@ -1,84 +1,84 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+0E81	ກ	0E80..0EFF	Lao	Lao letter ko		
-U+0E82	ຂ	0E80..0EFF	Lao	Lao letter kho sung		
-U+0E84	ຄ	0E80..0EFF	Lao	Lao letter kho tam		
-U+0E86	ຆ	0E80..0EFF	Lao	Lao letter pali gha		
-U+0E87	ງ	0E80..0EFF	Lao	Lao letter ngo		
-U+0E88	ຈ	0E80..0EFF	Lao	Lao letter co		
-U+0E89	ຉ	0E80..0EFF	Lao	Lao letter pali cha		
-U+0E8A	ຊ	0E80..0EFF	Lao	Lao letter so tam		
-U+0E8C	ຌ	0E80..0EFF	Lao	Lao letter pali jha		
-U+0E8D	ຍ	0E80..0EFF	Lao	Lao letter nyo		
-U+0E8E	ຎ	0E80..0EFF	Lao	Lao letter pali nya		
-U+0E8F	ຏ	0E80..0EFF	Lao	Lao letter pali tta		
-U+0E90	ຐ	0E80..0EFF	Lao	Lao letter pali ttha		
-U+0E91	ຑ	0E80..0EFF	Lao	Lao letter pali dda		
-U+0E92	ຒ	0E80..0EFF	Lao	Lao letter pali ddha		
-U+0E93	ຓ	0E80..0EFF	Lao	Lao letter pali nna		
-U+0E94	ດ	0E80..0EFF	Lao	Lao letter do		
-U+0E95	ຕ	0E80..0EFF	Lao	Lao letter to		
-U+0E96	ຖ	0E80..0EFF	Lao	Lao letter tho sung		
-U+0E97	ທ	0E80..0EFF	Lao	Lao letter tho tam		
-U+0E98	ຘ	0E80..0EFF	Lao	Lao letter pali dha		
-U+0E99	ນ	0E80..0EFF	Lao	Lao letter no		
-U+0E9A	ບ	0E80..0EFF	Lao	Lao letter bo		
-U+0E9B	ປ	0E80..0EFF	Lao	Lao letter po		
-U+0E9C	ຜ	0E80..0EFF	Lao	Lao letter pho sung		
-U+0E9D	ຝ	0E80..0EFF	Lao	Lao letter fo tam		
-U+0E9E	ພ	0E80..0EFF	Lao	Lao letter pho tam		
-U+0E9F	ຟ	0E80..0EFF	Lao	Lao letter fo sung		
-U+0EA0	ຠ	0E80..0EFF	Lao	Lao letter pali bha		
-U+0EA1	ມ	0E80..0EFF	Lao	Lao letter mo		
-U+0EA2	ຢ	0E80..0EFF	Lao	Lao letter yo		
-U+0EA3	ຣ	0E80..0EFF	Lao	Lao letter lo ling		
-U+0EA5	ລ	0E80..0EFF	Lao	Lao letter lo loot		
-U+0EA7	ວ	0E80..0EFF	Lao	Lao letter wo		
-U+0EA8	ຨ	0E80..0EFF	Lao	Lao letter sanskrit sha		
-U+0EA9	ຩ	0E80..0EFF	Lao	Lao letter sanskrit ssa		
-U+0EAA	ສ	0E80..0EFF	Lao	Lao letter so sung		
-U+0EAB	ຫ	0E80..0EFF	Lao	Lao letter ho sung		
-U+0EAC	ຬ	0E80..0EFF	Lao	Lao letter pali lla		
-U+0EAD	ອ	0E80..0EFF	Lao	Lao letter o		
-U+0EAE	ຮ	0E80..0EFF	Lao	Lao letter ho tam		
-U+0EAF	ຯ	0E80..0EFF	Lao	Lao ellipsis		
-U+0EB0	ະ	0E80..0EFF	Lao	Lao vowel sign a		
-U+0EB1	ັ	0E80..0EFF	Lao	Lao vowel sign mai kan		
-U+0EB2	າ	0E80..0EFF	Lao	Lao vowel sign aa		
-U+0EB3	ຳ	0E80..0EFF	Lao	Lao vowel sign am		
-U+0EB4	ິ	0E80..0EFF	Lao	Lao vowel sign i		
-U+0EB5	ີ	0E80..0EFF	Lao	Lao vowel sign ii		
-U+0EB6	ຶ	0E80..0EFF	Lao	Lao vowel sign y		
-U+0EB7	ື	0E80..0EFF	Lao	Lao vowel sign yy		
-U+0EB8	ຸ	0E80..0EFF	Lao	Lao vowel sign u		
-U+0EB9	ູ	0E80..0EFF	Lao	Lao vowel sign uu		
-U+0EBA	຺	0E80..0EFF	Lao	Lao sign pali virama		
-U+0EBB	ົ	0E80..0EFF	Lao	Lao vowel sign mai kon		
-U+0EBC	ຼ	0E80..0EFF	Lao	Lao semivowel sign lo		
-U+0EBD	ຽ	0E80..0EFF	Lao	Lao semivowel sign nyo		
-U+0EC0	ເ	0E80..0EFF	Lao	Lao vowel sign e		
-U+0EC1	ແ	0E80..0EFF	Lao	Lao vowel sign ei		
-U+0EC2	ໂ	0E80..0EFF	Lao	Lao vowel sign o		
-U+0EC3	ໃ	0E80..0EFF	Lao	Lao vowel sign ay		
-U+0EC4	ໄ	0E80..0EFF	Lao	Lao vowel sign ai		
-U+0EC6	ໆ	0E80..0EFF	Lao	Lao ko la		
-U+0EC8	່	0E80..0EFF	Lao	Lao tone mai ek		
-U+0EC9	້	0E80..0EFF	Lao	Lao tone mai tho		
-U+0ECA	໊	0E80..0EFF	Lao	Lao tone mai ti		
-U+0ECB	໋	0E80..0EFF	Lao	Lao tone mai catawa		
-U+0ECC	໌	0E80..0EFF	Lao	Lao cancellation mark		
-U+0ECD	ໍ	0E80..0EFF	Lao	Lao niggahita		
-U+0ECE	໎	0E80..0EFF	Lao	Lao yamakkan		
-U+0ED0	໐	0E80..0EFF	Lao	Lao digit zero		
-U+0ED1	໑	0E80..0EFF	Lao	Lao digit one		
-U+0ED2	໒	0E80..0EFF	Lao	Lao digit two		
-U+0ED3	໓	0E80..0EFF	Lao	Lao digit three		
-U+0ED4	໔	0E80..0EFF	Lao	Lao digit four		
-U+0ED5	໕	0E80..0EFF	Lao	Lao digit five		
-U+0ED6	໖	0E80..0EFF	Lao	Lao digit six		
-U+0ED7	໗	0E80..0EFF	Lao	Lao digit seven		
-U+0ED8	໘	0E80..0EFF	Lao	Lao digit eight		
-U+0ED9	໙	0E80..0EFF	Lao	Lao digit nine		
-U+0EDC	ໜ	0E80..0EFF	Lao	Lao ho no		
-U+0EDD	ໝ	0E80..0EFF	Lao	Lao ho mo		
-U+0EDE	ໞ	0E80..0EFF	Lao	Lao letter khmu go		
-U+0EDF	ໟ	0E80..0EFF	Lao	Lao letter khmu nyo		
+code_points	chars	tab_completions	unicode_name	base
+U+0E81	ກ		LAO LETTER KO	
+U+0E82	ຂ		LAO LETTER KHO SUNG	
+U+0E84	ຄ		LAO LETTER KHO TAM	
+U+0E86	ຆ		LAO LETTER PALI GHA	
+U+0E87	ງ		LAO LETTER NGO	
+U+0E88	ຈ		LAO LETTER CO	
+U+0E89	ຉ		LAO LETTER PALI CHA	
+U+0E8A	ຊ		LAO LETTER SO TAM	
+U+0E8C	ຌ		LAO LETTER PALI JHA	
+U+0E8D	ຍ		LAO LETTER NYO	
+U+0E8E	ຎ		LAO LETTER PALI NYA	
+U+0E8F	ຏ		LAO LETTER PALI TTA	
+U+0E90	ຐ		LAO LETTER PALI TTHA	
+U+0E91	ຑ		LAO LETTER PALI DDA	
+U+0E92	ຒ		LAO LETTER PALI DDHA	
+U+0E93	ຓ		LAO LETTER PALI NNA	
+U+0E94	ດ		LAO LETTER DO	
+U+0E95	ຕ		LAO LETTER TO	
+U+0E96	ຖ		LAO LETTER THO SUNG	
+U+0E97	ທ		LAO LETTER THO TAM	
+U+0E98	ຘ		LAO LETTER PALI DHA	
+U+0E99	ນ		LAO LETTER NO	
+U+0E9A	ບ		LAO LETTER BO	
+U+0E9B	ປ		LAO LETTER PO	
+U+0E9C	ຜ		LAO LETTER PHO SUNG	
+U+0E9D	ຝ		LAO LETTER FO TAM	
+U+0E9E	ພ		LAO LETTER PHO TAM	
+U+0E9F	ຟ		LAO LETTER FO SUNG	
+U+0EA0	ຠ		LAO LETTER PALI BHA	
+U+0EA1	ມ		LAO LETTER MO	
+U+0EA2	ຢ		LAO LETTER YO	
+U+0EA3	ຣ		LAO LETTER LO LING	
+U+0EA5	ລ		LAO LETTER LO LOOT	
+U+0EA7	ວ		LAO LETTER WO	
+U+0EA8	ຨ		LAO LETTER SANSKRIT SHA	
+U+0EA9	ຩ		LAO LETTER SANSKRIT SSA	
+U+0EAA	ສ		LAO LETTER SO SUNG	
+U+0EAB	ຫ		LAO LETTER HO SUNG	
+U+0EAC	ຬ		LAO LETTER PALI LLA	
+U+0EAD	ອ		LAO LETTER O	
+U+0EAE	ຮ		LAO LETTER HO TAM	
+U+0EAF	ຯ		LAO ELLIPSIS	
+U+0EB0	ະ		LAO VOWEL SIGN A	
+U+0EB1	ັ		LAO VOWEL SIGN MAI KAN	
+U+0EB2	າ		LAO VOWEL SIGN AA	
+U+0EB3	ຳ		LAO VOWEL SIGN AM	
+U+0EB4	ິ		LAO VOWEL SIGN I	
+U+0EB5	ີ		LAO VOWEL SIGN II	
+U+0EB6	ຶ		LAO VOWEL SIGN Y	
+U+0EB7	ື		LAO VOWEL SIGN YY	
+U+0EB8	ຸ		LAO VOWEL SIGN U	
+U+0EB9	ູ		LAO VOWEL SIGN UU	
+U+0EBA	຺		LAO SIGN PALI VIRAMA	
+U+0EBB	ົ		LAO VOWEL SIGN MAI KON	
+U+0EBC	ຼ		LAO SEMIVOWEL SIGN LO	
+U+0EBD	ຽ		LAO SEMIVOWEL SIGN NYO	
+U+0EC0	ເ		LAO VOWEL SIGN E	
+U+0EC1	ແ		LAO VOWEL SIGN EI	
+U+0EC2	ໂ		LAO VOWEL SIGN O	
+U+0EC3	ໃ		LAO VOWEL SIGN AY	
+U+0EC4	ໄ		LAO VOWEL SIGN AI	
+U+0EC6	ໆ		LAO KO LA	
+U+0EC8	່		LAO TONE MAI EK	
+U+0EC9	້		LAO TONE MAI THO	
+U+0ECA	໊		LAO TONE MAI TI	
+U+0ECB	໋		LAO TONE MAI CATAWA	
+U+0ECC	໌		LAO CANCELLATION MARK	
+U+0ECD	ໍ		LAO NIGGAHITA	
+U+0ECE	໎		LAO YAMAKKAN	
+U+0ED0	໐		LAO DIGIT ZERO	
+U+0ED1	໑		LAO DIGIT ONE	
+U+0ED2	໒		LAO DIGIT TWO	
+U+0ED3	໓		LAO DIGIT THREE	
+U+0ED4	໔		LAO DIGIT FOUR	
+U+0ED5	໕		LAO DIGIT FIVE	
+U+0ED6	໖		LAO DIGIT SIX	
+U+0ED7	໗		LAO DIGIT SEVEN	
+U+0ED8	໘		LAO DIGIT EIGHT	
+U+0ED9	໙		LAO DIGIT NINE	
+U+0EDC	ໜ		LAO HO NO	
+U+0EDD	ໝ		LAO HO MO	
+U+0EDE	ໞ		LAO LETTER KHMU GO	
+U+0EDF	ໟ		LAO LETTER KHMU NYO	

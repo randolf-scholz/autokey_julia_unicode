@@ -1,64 +1,64 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+11D60	𑵠	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter a		
-U+11D61	𑵡	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter aa		
-U+11D62	𑵢	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter i		
-U+11D63	𑵣	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ii		
-U+11D64	𑵤	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter u		
-U+11D65	𑵥	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter uu		
-U+11D67	𑵧	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ee		
-U+11D68	𑵨	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ai		
-U+11D6A	𑵪	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter oo		
-U+11D6B	𑵫	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter au		
-U+11D6C	𑵬	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ya		
-U+11D6D	𑵭	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter va		
-U+11D6E	𑵮	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ba		
-U+11D6F	𑵯	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter bha		
-U+11D70	𑵰	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ma		
-U+11D71	𑵱	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ka		
-U+11D72	𑵲	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter kha		
-U+11D73	𑵳	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ta		
-U+11D74	𑵴	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter tha		
-U+11D75	𑵵	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter la		
-U+11D76	𑵶	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ga		
-U+11D77	𑵷	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter gha		
-U+11D78	𑵸	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter da		
-U+11D79	𑵹	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter dha		
-U+11D7A	𑵺	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter na		
-U+11D7B	𑵻	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ca		
-U+11D7C	𑵼	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter cha		
-U+11D7D	𑵽	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter tta		
-U+11D7E	𑵾	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ttha		
-U+11D7F	𑵿	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter lla		
-U+11D80	𑶀	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ja		
-U+11D81	𑶁	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter jha		
-U+11D82	𑶂	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter dda		
-U+11D83	𑶃	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ddha		
-U+11D84	𑶄	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter nga		
-U+11D85	𑶅	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter pa		
-U+11D86	𑶆	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter pha		
-U+11D87	𑶇	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ha		
-U+11D88	𑶈	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter ra		
-U+11D89	𑶉	11D60..11DAF	Gunjala Gondi	Gunjala gondi letter sa		
-U+11D8A	𑶊	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign aa		
-U+11D8B	𑶋	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign i		
-U+11D8C	𑶌	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign ii		
-U+11D8D	𑶍	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign u		
-U+11D8E	𑶎	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign uu		
-U+11D90	𑶐	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign ee		
-U+11D91	𑶑	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign ai		
-U+11D93	𑶓	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign oo		
-U+11D94	𑶔	11D60..11DAF	Gunjala Gondi	Gunjala gondi vowel sign au		
-U+11D95	𑶕	11D60..11DAF	Gunjala Gondi	Gunjala gondi sign anusvara		
-U+11D96	𑶖	11D60..11DAF	Gunjala Gondi	Gunjala gondi sign visarga		
-U+11D97	𑶗	11D60..11DAF	Gunjala Gondi	Gunjala gondi virama		
-U+11D98	𑶘	11D60..11DAF	Gunjala Gondi	Gunjala gondi om		
-U+11DA0	𑶠	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit zero		
-U+11DA1	𑶡	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit one		
-U+11DA2	𑶢	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit two		
-U+11DA3	𑶣	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit three		
-U+11DA4	𑶤	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit four		
-U+11DA5	𑶥	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit five		
-U+11DA6	𑶦	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit six		
-U+11DA7	𑶧	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit seven		
-U+11DA8	𑶨	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit eight		
-U+11DA9	𑶩	11D60..11DAF	Gunjala Gondi	Gunjala gondi digit nine		
+code_points	chars	tab_completions	unicode_name	base
+U+11D60	𑵠		GUNJALA GONDI LETTER A	
+U+11D61	𑵡		GUNJALA GONDI LETTER AA	
+U+11D62	𑵢		GUNJALA GONDI LETTER I	
+U+11D63	𑵣		GUNJALA GONDI LETTER II	
+U+11D64	𑵤		GUNJALA GONDI LETTER U	
+U+11D65	𑵥		GUNJALA GONDI LETTER UU	
+U+11D67	𑵧		GUNJALA GONDI LETTER EE	
+U+11D68	𑵨		GUNJALA GONDI LETTER AI	
+U+11D6A	𑵪		GUNJALA GONDI LETTER OO	
+U+11D6B	𑵫		GUNJALA GONDI LETTER AU	
+U+11D6C	𑵬		GUNJALA GONDI LETTER YA	
+U+11D6D	𑵭		GUNJALA GONDI LETTER VA	
+U+11D6E	𑵮		GUNJALA GONDI LETTER BA	
+U+11D6F	𑵯		GUNJALA GONDI LETTER BHA	
+U+11D70	𑵰		GUNJALA GONDI LETTER MA	
+U+11D71	𑵱		GUNJALA GONDI LETTER KA	
+U+11D72	𑵲		GUNJALA GONDI LETTER KHA	
+U+11D73	𑵳		GUNJALA GONDI LETTER TA	
+U+11D74	𑵴		GUNJALA GONDI LETTER THA	
+U+11D75	𑵵		GUNJALA GONDI LETTER LA	
+U+11D76	𑵶		GUNJALA GONDI LETTER GA	
+U+11D77	𑵷		GUNJALA GONDI LETTER GHA	
+U+11D78	𑵸		GUNJALA GONDI LETTER DA	
+U+11D79	𑵹		GUNJALA GONDI LETTER DHA	
+U+11D7A	𑵺		GUNJALA GONDI LETTER NA	
+U+11D7B	𑵻		GUNJALA GONDI LETTER CA	
+U+11D7C	𑵼		GUNJALA GONDI LETTER CHA	
+U+11D7D	𑵽		GUNJALA GONDI LETTER TTA	
+U+11D7E	𑵾		GUNJALA GONDI LETTER TTHA	
+U+11D7F	𑵿		GUNJALA GONDI LETTER LLA	
+U+11D80	𑶀		GUNJALA GONDI LETTER JA	
+U+11D81	𑶁		GUNJALA GONDI LETTER JHA	
+U+11D82	𑶂		GUNJALA GONDI LETTER DDA	
+U+11D83	𑶃		GUNJALA GONDI LETTER DDHA	
+U+11D84	𑶄		GUNJALA GONDI LETTER NGA	
+U+11D85	𑶅		GUNJALA GONDI LETTER PA	
+U+11D86	𑶆		GUNJALA GONDI LETTER PHA	
+U+11D87	𑶇		GUNJALA GONDI LETTER HA	
+U+11D88	𑶈		GUNJALA GONDI LETTER RA	
+U+11D89	𑶉		GUNJALA GONDI LETTER SA	
+U+11D8A	𑶊		GUNJALA GONDI VOWEL SIGN AA	
+U+11D8B	𑶋		GUNJALA GONDI VOWEL SIGN I	
+U+11D8C	𑶌		GUNJALA GONDI VOWEL SIGN II	
+U+11D8D	𑶍		GUNJALA GONDI VOWEL SIGN U	
+U+11D8E	𑶎		GUNJALA GONDI VOWEL SIGN UU	
+U+11D90	𑶐		GUNJALA GONDI VOWEL SIGN EE	
+U+11D91	𑶑		GUNJALA GONDI VOWEL SIGN AI	
+U+11D93	𑶓		GUNJALA GONDI VOWEL SIGN OO	
+U+11D94	𑶔		GUNJALA GONDI VOWEL SIGN AU	
+U+11D95	𑶕		GUNJALA GONDI SIGN ANUSVARA	
+U+11D96	𑶖		GUNJALA GONDI SIGN VISARGA	
+U+11D97	𑶗		GUNJALA GONDI VIRAMA	
+U+11D98	𑶘		GUNJALA GONDI OM	
+U+11DA0	𑶠		GUNJALA GONDI DIGIT ZERO	
+U+11DA1	𑶡		GUNJALA GONDI DIGIT ONE	
+U+11DA2	𑶢		GUNJALA GONDI DIGIT TWO	
+U+11DA3	𑶣		GUNJALA GONDI DIGIT THREE	
+U+11DA4	𑶤		GUNJALA GONDI DIGIT FOUR	
+U+11DA5	𑶥		GUNJALA GONDI DIGIT FIVE	
+U+11DA6	𑶦		GUNJALA GONDI DIGIT SIX	
+U+11DA7	𑶧		GUNJALA GONDI DIGIT SEVEN	
+U+11DA8	𑶨		GUNJALA GONDI DIGIT EIGHT	
+U+11DA9	𑶩		GUNJALA GONDI DIGIT NINE	

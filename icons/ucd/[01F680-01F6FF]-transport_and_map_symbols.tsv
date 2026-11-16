@@ -1,121 +1,121 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1F680	🚀	1F680..1F6FF	Transport and Map Symbols	Rocket		
-U+1F681	🚁	1F680..1F6FF	Transport and Map Symbols	Helicopter		
-U+1F682	🚂	1F680..1F6FF	Transport and Map Symbols	Steam locomotive		
-U+1F683	🚃	1F680..1F6FF	Transport and Map Symbols	Railway car		
-U+1F684	🚄	1F680..1F6FF	Transport and Map Symbols	High-speed train		
-U+1F685	🚅	1F680..1F6FF	Transport and Map Symbols	High-speed train with bullet nose		
-U+1F686	🚆	1F680..1F6FF	Transport and Map Symbols	Train		
-U+1F687	🚇	1F680..1F6FF	Transport and Map Symbols	Metro		
-U+1F688	🚈	1F680..1F6FF	Transport and Map Symbols	Light rail		
-U+1F689	🚉	1F680..1F6FF	Transport and Map Symbols	Station		
-U+1F68A	🚊	1F680..1F6FF	Transport and Map Symbols	Tram		
-U+1F68B	🚋	1F680..1F6FF	Transport and Map Symbols	Tram car		
-U+1F68C	🚌	1F680..1F6FF	Transport and Map Symbols	Bus		
-U+1F68D	🚍	1F680..1F6FF	Transport and Map Symbols	Oncoming bus		
-U+1F68E	🚎	1F680..1F6FF	Transport and Map Symbols	Trolleybus		
-U+1F68F	🚏	1F680..1F6FF	Transport and Map Symbols	Bus stop		
-U+1F690	🚐	1F680..1F6FF	Transport and Map Symbols	Minibus		
-U+1F691	🚑	1F680..1F6FF	Transport and Map Symbols	Ambulance		
-U+1F692	🚒	1F680..1F6FF	Transport and Map Symbols	Fire engine		
-U+1F693	🚓	1F680..1F6FF	Transport and Map Symbols	Police car		
-U+1F694	🚔	1F680..1F6FF	Transport and Map Symbols	Oncoming police car		
-U+1F695	🚕	1F680..1F6FF	Transport and Map Symbols	Taxi		
-U+1F696	🚖	1F680..1F6FF	Transport and Map Symbols	Oncoming taxi		
-U+1F697	🚗	1F680..1F6FF	Transport and Map Symbols	Automobile		
-U+1F698	🚘	1F680..1F6FF	Transport and Map Symbols	Oncoming automobile		
-U+1F699	🚙	1F680..1F6FF	Transport and Map Symbols	Recreational vehicle		
-U+1F69A	🚚	1F680..1F6FF	Transport and Map Symbols	Delivery truck		
-U+1F69B	🚛	1F680..1F6FF	Transport and Map Symbols	Articulated lorry		
-U+1F69C	🚜	1F680..1F6FF	Transport and Map Symbols	Tractor		
-U+1F69D	🚝	1F680..1F6FF	Transport and Map Symbols	Monorail		
-U+1F69E	🚞	1F680..1F6FF	Transport and Map Symbols	Mountain railway		
-U+1F69F	🚟	1F680..1F6FF	Transport and Map Symbols	Suspension railway		
-U+1F6A0	🚠	1F680..1F6FF	Transport and Map Symbols	Mountain cableway		
-U+1F6A1	🚡	1F680..1F6FF	Transport and Map Symbols	Aerial tramway		
-U+1F6A2	🚢	1F680..1F6FF	Transport and Map Symbols	Ship		
-U+1F6A3	🚣	1F680..1F6FF	Transport and Map Symbols	Rowboat		
-U+1F6A4	🚤	1F680..1F6FF	Transport and Map Symbols	Speedboat		
-U+1F6A5	🚥	1F680..1F6FF	Transport and Map Symbols	Horizontal traffic light		
-U+1F6A6	🚦	1F680..1F6FF	Transport and Map Symbols	Vertical traffic light		
-U+1F6A7	🚧	1F680..1F6FF	Transport and Map Symbols	Construction sign		
-U+1F6A8	🚨	1F680..1F6FF	Transport and Map Symbols	Police cars revolving light		
-U+1F6A9	🚩	1F680..1F6FF	Transport and Map Symbols	Triangular flag on post		
-U+1F6AA	🚪	1F680..1F6FF	Transport and Map Symbols	Door		
-U+1F6AB	🚫	1F680..1F6FF	Transport and Map Symbols	No entry sign		
-U+1F6AC	🚬	1F680..1F6FF	Transport and Map Symbols	Smoking symbol		
-U+1F6AD	🚭	1F680..1F6FF	Transport and Map Symbols	No smoking symbol		
-U+1F6AE	🚮	1F680..1F6FF	Transport and Map Symbols	Put litter in its place symbol		
-U+1F6AF	🚯	1F680..1F6FF	Transport and Map Symbols	Do not litter symbol		
-U+1F6B0	🚰	1F680..1F6FF	Transport and Map Symbols	Potable water symbol		
-U+1F6B1	🚱	1F680..1F6FF	Transport and Map Symbols	Non-potable water symbol		
-U+1F6B2	🚲	1F680..1F6FF	Transport and Map Symbols	Bicycle		
-U+1F6B3	🚳	1F680..1F6FF	Transport and Map Symbols	No bicycles		
-U+1F6B4	🚴	1F680..1F6FF	Transport and Map Symbols	Bicyclist		
-U+1F6B5	🚵	1F680..1F6FF	Transport and Map Symbols	Mountain bicyclist		
-U+1F6B6	🚶	1F680..1F6FF	Transport and Map Symbols	Pedestrian		
-U+1F6B7	🚷	1F680..1F6FF	Transport and Map Symbols	No pedestrians		
-U+1F6B8	🚸	1F680..1F6FF	Transport and Map Symbols	Children crossing		
-U+1F6B9	🚹	1F680..1F6FF	Transport and Map Symbols	Mens symbol		
-U+1F6BA	🚺	1F680..1F6FF	Transport and Map Symbols	Womens symbol		
-U+1F6BB	🚻	1F680..1F6FF	Transport and Map Symbols	Restroom		
-U+1F6BC	🚼	1F680..1F6FF	Transport and Map Symbols	Baby symbol		
-U+1F6BD	🚽	1F680..1F6FF	Transport and Map Symbols	Toilet		
-U+1F6BE	🚾	1F680..1F6FF	Transport and Map Symbols	Water closet		
-U+1F6BF	🚿	1F680..1F6FF	Transport and Map Symbols	Shower		
-U+1F6C0	🛀	1F680..1F6FF	Transport and Map Symbols	Bath		
-U+1F6C1	🛁	1F680..1F6FF	Transport and Map Symbols	Bathtub		
-U+1F6C2	🛂	1F680..1F6FF	Transport and Map Symbols	Passport control		
-U+1F6C3	🛃	1F680..1F6FF	Transport and Map Symbols	Customs		
-U+1F6C4	🛄	1F680..1F6FF	Transport and Map Symbols	Baggage claim		
-U+1F6C5	🛅	1F680..1F6FF	Transport and Map Symbols	Left luggage		
-U+1F6C6	🛆	1F680..1F6FF	Transport and Map Symbols	Triangle with rounded corners		
-U+1F6C7	🛇	1F680..1F6FF	Transport and Map Symbols	Prohibited sign		
-U+1F6C8	🛈	1F680..1F6FF	Transport and Map Symbols	Circled information source		
-U+1F6C9	🛉	1F680..1F6FF	Transport and Map Symbols	Boys symbol		
-U+1F6CA	🛊	1F680..1F6FF	Transport and Map Symbols	Girls symbol		
-U+1F6CB	🛋	1F680..1F6FF	Transport and Map Symbols	Couch and lamp		
-U+1F6CC	🛌	1F680..1F6FF	Transport and Map Symbols	Sleeping accommodation		
-U+1F6CD	🛍	1F680..1F6FF	Transport and Map Symbols	Shopping bags		
-U+1F6CE	🛎	1F680..1F6FF	Transport and Map Symbols	Bellhop bell		
-U+1F6CF	🛏	1F680..1F6FF	Transport and Map Symbols	Bed		
-U+1F6D0	🛐	1F680..1F6FF	Transport and Map Symbols	Place of worship		
-U+1F6D1	🛑	1F680..1F6FF	Transport and Map Symbols	Octagonal sign		
-U+1F6D2	🛒	1F680..1F6FF	Transport and Map Symbols	Shopping trolley		
-U+1F6D3	🛓	1F680..1F6FF	Transport and Map Symbols	Stupa		
-U+1F6D4	🛔	1F680..1F6FF	Transport and Map Symbols	Pagoda		
-U+1F6D5	🛕	1F680..1F6FF	Transport and Map Symbols	Hindu temple		
-U+1F6D6	🛖	1F680..1F6FF	Transport and Map Symbols	Hut		
-U+1F6D7	🛗	1F680..1F6FF	Transport and Map Symbols	Elevator		
-U+1F6D8	🛘	1F680..1F6FF	Transport and Map Symbols	Landslide		
-U+1F6D9	🛙	1F680..1F6FF	Transport and Map Symbols	Lighthouse		
-U+1F6DC	🛜	1F680..1F6FF	Transport and Map Symbols	Wireless		
-U+1F6DD	🛝	1F680..1F6FF	Transport and Map Symbols	Playground slide		
-U+1F6DE	🛞	1F680..1F6FF	Transport and Map Symbols	Wheel		
-U+1F6DF	🛟	1F680..1F6FF	Transport and Map Symbols	Ring buoy		
-U+1F6E0	🛠	1F680..1F6FF	Transport and Map Symbols	Hammer and wrench		
-U+1F6E1	🛡	1F680..1F6FF	Transport and Map Symbols	Shield		
-U+1F6E2	🛢	1F680..1F6FF	Transport and Map Symbols	Oil drum		
-U+1F6E3	🛣	1F680..1F6FF	Transport and Map Symbols	Motorway		
-U+1F6E4	🛤	1F680..1F6FF	Transport and Map Symbols	Railway track		
-U+1F6E5	🛥	1F680..1F6FF	Transport and Map Symbols	Motor boat		
-U+1F6E6	🛦	1F680..1F6FF	Transport and Map Symbols	Up-pointing military airplane		
-U+1F6E7	🛧	1F680..1F6FF	Transport and Map Symbols	Up-pointing airplane		
-U+1F6E8	🛨	1F680..1F6FF	Transport and Map Symbols	Up-pointing small airplane		
-U+1F6E9	🛩	1F680..1F6FF	Transport and Map Symbols	Small airplane		
-U+1F6EA	🛪	1F680..1F6FF	Transport and Map Symbols	Northeast-pointing airplane		
-U+1F6EB	🛫	1F680..1F6FF	Transport and Map Symbols	Airplane departure		
-U+1F6EC	🛬	1F680..1F6FF	Transport and Map Symbols	Airplane arriving		
-U+1F6F0	🛰	1F680..1F6FF	Transport and Map Symbols	Satellite		
-U+1F6F1	🛱	1F680..1F6FF	Transport and Map Symbols	Oncoming fire engine		
-U+1F6F2	🛲	1F680..1F6FF	Transport and Map Symbols	Diesel locomotive		
-U+1F6F3	🛳	1F680..1F6FF	Transport and Map Symbols	Passenger ship		
-U+1F6F4	🛴	1F680..1F6FF	Transport and Map Symbols	Scooter		
-U+1F6F5	🛵	1F680..1F6FF	Transport and Map Symbols	Motor scooter		
-U+1F6F6	🛶	1F680..1F6FF	Transport and Map Symbols	Canoe		
-U+1F6F7	🛷	1F680..1F6FF	Transport and Map Symbols	Sled		
-U+1F6F8	🛸	1F680..1F6FF	Transport and Map Symbols	Flying saucer		
-U+1F6F9	🛹	1F680..1F6FF	Transport and Map Symbols	Skateboard		
-U+1F6FA	🛺	1F680..1F6FF	Transport and Map Symbols	Auto rickshaw		
-U+1F6FB	🛻	1F680..1F6FF	Transport and Map Symbols	Pickup truck		
-U+1F6FC	🛼	1F680..1F6FF	Transport and Map Symbols	Roller skate		
+code_points	chars	tab_completions	unicode_name	base
+U+1F680	🚀		ROCKET	
+U+1F681	🚁		HELICOPTER	
+U+1F682	🚂		STEAM LOCOMOTIVE	
+U+1F683	🚃		RAILWAY CAR	
+U+1F684	🚄		HIGH-SPEED TRAIN	
+U+1F685	🚅		HIGH-SPEED TRAIN WITH BULLET NOSE	
+U+1F686	🚆		TRAIN	
+U+1F687	🚇		METRO	
+U+1F688	🚈		LIGHT RAIL	
+U+1F689	🚉		STATION	
+U+1F68A	🚊		TRAM	
+U+1F68B	🚋		TRAM CAR	
+U+1F68C	🚌		BUS	
+U+1F68D	🚍		ONCOMING BUS	
+U+1F68E	🚎		TROLLEYBUS	
+U+1F68F	🚏		BUS STOP	
+U+1F690	🚐		MINIBUS	
+U+1F691	🚑		AMBULANCE	
+U+1F692	🚒		FIRE ENGINE	
+U+1F693	🚓		POLICE CAR	
+U+1F694	🚔		ONCOMING POLICE CAR	
+U+1F695	🚕		TAXI	
+U+1F696	🚖		ONCOMING TAXI	
+U+1F697	🚗		AUTOMOBILE	
+U+1F698	🚘		ONCOMING AUTOMOBILE	
+U+1F699	🚙		RECREATIONAL VEHICLE	
+U+1F69A	🚚		DELIVERY TRUCK	
+U+1F69B	🚛		ARTICULATED LORRY	
+U+1F69C	🚜		TRACTOR	
+U+1F69D	🚝		MONORAIL	
+U+1F69E	🚞		MOUNTAIN RAILWAY	
+U+1F69F	🚟		SUSPENSION RAILWAY	
+U+1F6A0	🚠		MOUNTAIN CABLEWAY	
+U+1F6A1	🚡		AERIAL TRAMWAY	
+U+1F6A2	🚢		SHIP	
+U+1F6A3	🚣		ROWBOAT	
+U+1F6A4	🚤		SPEEDBOAT	
+U+1F6A5	🚥		HORIZONTAL TRAFFIC LIGHT	
+U+1F6A6	🚦		VERTICAL TRAFFIC LIGHT	
+U+1F6A7	🚧		CONSTRUCTION SIGN	
+U+1F6A8	🚨		POLICE CARS REVOLVING LIGHT	
+U+1F6A9	🚩		TRIANGULAR FLAG ON POST	
+U+1F6AA	🚪		DOOR	
+U+1F6AB	🚫		NO ENTRY SIGN	
+U+1F6AC	🚬		SMOKING SYMBOL	
+U+1F6AD	🚭		NO SMOKING SYMBOL	
+U+1F6AE	🚮		PUT LITTER IN ITS PLACE SYMBOL	
+U+1F6AF	🚯		DO NOT LITTER SYMBOL	
+U+1F6B0	🚰		POTABLE WATER SYMBOL	
+U+1F6B1	🚱		NON-POTABLE WATER SYMBOL	
+U+1F6B2	🚲		BICYCLE	
+U+1F6B3	🚳		NO BICYCLES	
+U+1F6B4	🚴		BICYCLIST	
+U+1F6B5	🚵		MOUNTAIN BICYCLIST	
+U+1F6B6	🚶		PEDESTRIAN	
+U+1F6B7	🚷		NO PEDESTRIANS	
+U+1F6B8	🚸		CHILDREN CROSSING	
+U+1F6B9	🚹		MENS SYMBOL	
+U+1F6BA	🚺		WOMENS SYMBOL	
+U+1F6BB	🚻		RESTROOM	
+U+1F6BC	🚼		BABY SYMBOL	
+U+1F6BD	🚽		TOILET	
+U+1F6BE	🚾		WATER CLOSET	
+U+1F6BF	🚿		SHOWER	
+U+1F6C0	🛀		BATH	
+U+1F6C1	🛁		BATHTUB	
+U+1F6C2	🛂		PASSPORT CONTROL	
+U+1F6C3	🛃		CUSTOMS	
+U+1F6C4	🛄		BAGGAGE CLAIM	
+U+1F6C5	🛅		LEFT LUGGAGE	
+U+1F6C6	🛆		TRIANGLE WITH ROUNDED CORNERS	
+U+1F6C7	🛇		PROHIBITED SIGN	
+U+1F6C8	🛈		CIRCLED INFORMATION SOURCE	
+U+1F6C9	🛉		BOYS SYMBOL	
+U+1F6CA	🛊		GIRLS SYMBOL	
+U+1F6CB	🛋		COUCH AND LAMP	
+U+1F6CC	🛌		SLEEPING ACCOMMODATION	
+U+1F6CD	🛍		SHOPPING BAGS	
+U+1F6CE	🛎		BELLHOP BELL	
+U+1F6CF	🛏		BED	
+U+1F6D0	🛐		PLACE OF WORSHIP	
+U+1F6D1	🛑		OCTAGONAL SIGN	
+U+1F6D2	🛒		SHOPPING TROLLEY	
+U+1F6D3	🛓		STUPA	
+U+1F6D4	🛔		PAGODA	
+U+1F6D5	🛕		HINDU TEMPLE	
+U+1F6D6	🛖		HUT	
+U+1F6D7	🛗		ELEVATOR	
+U+1F6D8	🛘		LANDSLIDE	
+U+1F6D9	🛙		LIGHTHOUSE	
+U+1F6DC	🛜		WIRELESS	
+U+1F6DD	🛝		PLAYGROUND SLIDE	
+U+1F6DE	🛞		WHEEL	
+U+1F6DF	🛟		RING BUOY	
+U+1F6E0	🛠		HAMMER AND WRENCH	
+U+1F6E1	🛡		SHIELD	
+U+1F6E2	🛢		OIL DRUM	
+U+1F6E3	🛣		MOTORWAY	
+U+1F6E4	🛤		RAILWAY TRACK	
+U+1F6E5	🛥		MOTOR BOAT	
+U+1F6E6	🛦		UP-POINTING MILITARY AIRPLANE	
+U+1F6E7	🛧		UP-POINTING AIRPLANE	
+U+1F6E8	🛨		UP-POINTING SMALL AIRPLANE	
+U+1F6E9	🛩		SMALL AIRPLANE	
+U+1F6EA	🛪		NORTHEAST-POINTING AIRPLANE	
+U+1F6EB	🛫		AIRPLANE DEPARTURE	
+U+1F6EC	🛬		AIRPLANE ARRIVING	
+U+1F6F0	🛰		SATELLITE	
+U+1F6F1	🛱		ONCOMING FIRE ENGINE	
+U+1F6F2	🛲		DIESEL LOCOMOTIVE	
+U+1F6F3	🛳		PASSENGER SHIP	
+U+1F6F4	🛴		SCOOTER	
+U+1F6F5	🛵		MOTOR SCOOTER	
+U+1F6F6	🛶		CANOE	
+U+1F6F7	🛷		SLED	
+U+1F6F8	🛸		FLYING SAUCER	
+U+1F6F9	🛹		SKATEBOARD	
+U+1F6FA	🛺		AUTO RICKSHAW	
+U+1F6FB	🛻		PICKUP TRUCK	
+U+1F6FC	🛼		ROLLER SKATE	

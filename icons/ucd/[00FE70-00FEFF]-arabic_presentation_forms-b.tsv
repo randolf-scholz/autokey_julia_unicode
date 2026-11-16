@@ -1,142 +1,142 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+FE70	ﹰ	FE70..FEFF	Arabic Presentation Forms-B	Arabic fathatan isolated form		
-U+FE71	ﹱ	FE70..FEFF	Arabic Presentation Forms-B	Arabic tatweel with fathatan above		
-U+FE72	ﹲ	FE70..FEFF	Arabic Presentation Forms-B	Arabic dammatan isolated form		
-U+FE73	ﹳ	FE70..FEFF	Arabic Presentation Forms-B	Arabic tail fragment		
-U+FE74	ﹴ	FE70..FEFF	Arabic Presentation Forms-B	Arabic kasratan isolated form		
-U+FE76	ﹶ	FE70..FEFF	Arabic Presentation Forms-B	Arabic fatha isolated form		
-U+FE77	ﹷ	FE70..FEFF	Arabic Presentation Forms-B	Arabic fatha medial form		
-U+FE78	ﹸ	FE70..FEFF	Arabic Presentation Forms-B	Arabic damma isolated form		
-U+FE79	ﹹ	FE70..FEFF	Arabic Presentation Forms-B	Arabic damma medial form		
-U+FE7A	ﹺ	FE70..FEFF	Arabic Presentation Forms-B	Arabic kasra isolated form		
-U+FE7B	ﹻ	FE70..FEFF	Arabic Presentation Forms-B	Arabic kasra medial form		
-U+FE7C	ﹼ	FE70..FEFF	Arabic Presentation Forms-B	Arabic shadda isolated form		
-U+FE7D	ﹽ	FE70..FEFF	Arabic Presentation Forms-B	Arabic shadda medial form		
-U+FE7E	ﹾ	FE70..FEFF	Arabic Presentation Forms-B	Arabic sukun isolated form		
-U+FE7F	ﹿ	FE70..FEFF	Arabic Presentation Forms-B	Arabic sukun medial form		
-U+FE80	ﺀ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter hamza isolated form		
-U+FE81	ﺁ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with madda above isolated form		
-U+FE82	ﺂ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with madda above final form		
-U+FE83	ﺃ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with hamza above isolated form		
-U+FE84	ﺄ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with hamza above final form		
-U+FE85	ﺅ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter waw with hamza above isolated form		
-U+FE86	ﺆ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter waw with hamza above final form		
-U+FE87	ﺇ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with hamza below isolated form		
-U+FE88	ﺈ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef with hamza below final form		
-U+FE89	ﺉ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh with hamza above isolated form		
-U+FE8A	ﺊ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh with hamza above final form		
-U+FE8B	ﺋ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh with hamza above initial form		
-U+FE8C	ﺌ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh with hamza above medial form		
-U+FE8D	ﺍ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef isolated form		
-U+FE8E	ﺎ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef final form		
-U+FE8F	ﺏ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter beh isolated form		
-U+FE90	ﺐ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter beh final form		
-U+FE91	ﺑ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter beh initial form		
-U+FE92	ﺒ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter beh medial form		
-U+FE93	ﺓ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh marbuta isolated form		
-U+FE94	ﺔ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh marbuta final form		
-U+FE95	ﺕ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh isolated form		
-U+FE96	ﺖ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh final form		
-U+FE97	ﺗ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh initial form		
-U+FE98	ﺘ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter teh medial form		
-U+FE99	ﺙ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter theh isolated form		
-U+FE9A	ﺚ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter theh final form		
-U+FE9B	ﺛ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter theh initial form		
-U+FE9C	ﺜ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter theh medial form		
-U+FE9D	ﺝ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter jeem isolated form		
-U+FE9E	ﺞ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter jeem final form		
-U+FE9F	ﺟ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter jeem initial form		
-U+FEA0	ﺠ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter jeem medial form		
-U+FEA1	ﺡ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter hah isolated form		
-U+FEA2	ﺢ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter hah final form		
-U+FEA3	ﺣ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter hah initial form		
-U+FEA4	ﺤ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter hah medial form		
-U+FEA5	ﺥ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter khah isolated form		
-U+FEA6	ﺦ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter khah final form		
-U+FEA7	ﺧ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter khah initial form		
-U+FEA8	ﺨ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter khah medial form		
-U+FEA9	ﺩ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dal isolated form		
-U+FEAA	ﺪ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dal final form		
-U+FEAB	ﺫ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter thal isolated form		
-U+FEAC	ﺬ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter thal final form		
-U+FEAD	ﺭ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter reh isolated form		
-U+FEAE	ﺮ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter reh final form		
-U+FEAF	ﺯ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zain isolated form		
-U+FEB0	ﺰ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zain final form		
-U+FEB1	ﺱ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter seen isolated form		
-U+FEB2	ﺲ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter seen final form		
-U+FEB3	ﺳ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter seen initial form		
-U+FEB4	ﺴ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter seen medial form		
-U+FEB5	ﺵ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sheen isolated form		
-U+FEB6	ﺶ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sheen final form		
-U+FEB7	ﺷ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sheen initial form		
-U+FEB8	ﺸ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sheen medial form		
-U+FEB9	ﺹ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sad isolated form		
-U+FEBA	ﺺ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sad final form		
-U+FEBB	ﺻ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sad initial form		
-U+FEBC	ﺼ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter sad medial form		
-U+FEBD	ﺽ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dad isolated form		
-U+FEBE	ﺾ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dad final form		
-U+FEBF	ﺿ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dad initial form		
-U+FEC0	ﻀ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter dad medial form		
-U+FEC1	ﻁ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter tah isolated form		
-U+FEC2	ﻂ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter tah final form		
-U+FEC3	ﻃ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter tah initial form		
-U+FEC4	ﻄ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter tah medial form		
-U+FEC5	ﻅ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zah isolated form		
-U+FEC6	ﻆ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zah final form		
-U+FEC7	ﻇ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zah initial form		
-U+FEC8	ﻈ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter zah medial form		
-U+FEC9	ﻉ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ain isolated form		
-U+FECA	ﻊ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ain final form		
-U+FECB	ﻋ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ain initial form		
-U+FECC	ﻌ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ain medial form		
-U+FECD	ﻍ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ghain isolated form		
-U+FECE	ﻎ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ghain final form		
-U+FECF	ﻏ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ghain initial form		
-U+FED0	ﻐ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter ghain medial form		
-U+FED1	ﻑ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter feh isolated form		
-U+FED2	ﻒ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter feh final form		
-U+FED3	ﻓ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter feh initial form		
-U+FED4	ﻔ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter feh medial form		
-U+FED5	ﻕ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter qaf isolated form		
-U+FED6	ﻖ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter qaf final form		
-U+FED7	ﻗ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter qaf initial form		
-U+FED8	ﻘ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter qaf medial form		
-U+FED9	ﻙ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter kaf isolated form		
-U+FEDA	ﻚ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter kaf final form		
-U+FEDB	ﻛ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter kaf initial form		
-U+FEDC	ﻜ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter kaf medial form		
-U+FEDD	ﻝ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter lam isolated form		
-U+FEDE	ﻞ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter lam final form		
-U+FEDF	ﻟ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter lam initial form		
-U+FEE0	ﻠ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter lam medial form		
-U+FEE1	ﻡ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter meem isolated form		
-U+FEE2	ﻢ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter meem final form		
-U+FEE3	ﻣ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter meem initial form		
-U+FEE4	ﻤ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter meem medial form		
-U+FEE5	ﻥ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter noon isolated form		
-U+FEE6	ﻦ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter noon final form		
-U+FEE7	ﻧ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter noon initial form		
-U+FEE8	ﻨ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter noon medial form		
-U+FEE9	ﻩ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter heh isolated form		
-U+FEEA	ﻪ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter heh final form		
-U+FEEB	ﻫ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter heh initial form		
-U+FEEC	ﻬ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter heh medial form		
-U+FEED	ﻭ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter waw isolated form		
-U+FEEE	ﻮ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter waw final form		
-U+FEEF	ﻯ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef maksura isolated form		
-U+FEF0	ﻰ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter alef maksura final form		
-U+FEF1	ﻱ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh isolated form		
-U+FEF2	ﻲ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh final form		
-U+FEF3	ﻳ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh initial form		
-U+FEF4	ﻴ	FE70..FEFF	Arabic Presentation Forms-B	Arabic letter yeh medial form		
-U+FEF5	ﻵ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with madda above isolated form		
-U+FEF6	ﻶ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with madda above final form		
-U+FEF7	ﻷ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with hamza above isolated form		
-U+FEF8	ﻸ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with hamza above final form		
-U+FEF9	ﻹ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with hamza below isolated form		
-U+FEFA	ﻺ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef with hamza below final form		
-U+FEFB	ﻻ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef isolated form		
-U+FEFC	ﻼ	FE70..FEFF	Arabic Presentation Forms-B	Arabic ligature lam with alef final form		
-U+FEFF	﻿	FE70..FEFF	Arabic Presentation Forms-B	Zero width no-break space		
+code_points	chars	tab_completions	unicode_name	base
+U+FE70	ﹰ		ARABIC FATHATAN ISOLATED FORM	
+U+FE71	ﹱ		ARABIC TATWEEL WITH FATHATAN ABOVE	
+U+FE72	ﹲ		ARABIC DAMMATAN ISOLATED FORM	
+U+FE73	ﹳ		ARABIC TAIL FRAGMENT	
+U+FE74	ﹴ		ARABIC KASRATAN ISOLATED FORM	
+U+FE76	ﹶ		ARABIC FATHA ISOLATED FORM	
+U+FE77	ﹷ		ARABIC FATHA MEDIAL FORM	
+U+FE78	ﹸ		ARABIC DAMMA ISOLATED FORM	
+U+FE79	ﹹ		ARABIC DAMMA MEDIAL FORM	
+U+FE7A	ﹺ		ARABIC KASRA ISOLATED FORM	
+U+FE7B	ﹻ		ARABIC KASRA MEDIAL FORM	
+U+FE7C	ﹼ		ARABIC SHADDA ISOLATED FORM	
+U+FE7D	ﹽ		ARABIC SHADDA MEDIAL FORM	
+U+FE7E	ﹾ		ARABIC SUKUN ISOLATED FORM	
+U+FE7F	ﹿ		ARABIC SUKUN MEDIAL FORM	
+U+FE80	ﺀ		ARABIC LETTER HAMZA ISOLATED FORM	
+U+FE81	ﺁ		ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM	
+U+FE82	ﺂ		ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM	
+U+FE83	ﺃ		ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM	
+U+FE84	ﺄ		ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM	
+U+FE85	ﺅ		ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM	
+U+FE86	ﺆ		ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM	
+U+FE87	ﺇ		ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM	
+U+FE88	ﺈ		ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM	
+U+FE89	ﺉ		ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM	
+U+FE8A	ﺊ		ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM	
+U+FE8B	ﺋ		ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM	
+U+FE8C	ﺌ		ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM	
+U+FE8D	ﺍ		ARABIC LETTER ALEF ISOLATED FORM	
+U+FE8E	ﺎ		ARABIC LETTER ALEF FINAL FORM	
+U+FE8F	ﺏ		ARABIC LETTER BEH ISOLATED FORM	
+U+FE90	ﺐ		ARABIC LETTER BEH FINAL FORM	
+U+FE91	ﺑ		ARABIC LETTER BEH INITIAL FORM	
+U+FE92	ﺒ		ARABIC LETTER BEH MEDIAL FORM	
+U+FE93	ﺓ		ARABIC LETTER TEH MARBUTA ISOLATED FORM	
+U+FE94	ﺔ		ARABIC LETTER TEH MARBUTA FINAL FORM	
+U+FE95	ﺕ		ARABIC LETTER TEH ISOLATED FORM	
+U+FE96	ﺖ		ARABIC LETTER TEH FINAL FORM	
+U+FE97	ﺗ		ARABIC LETTER TEH INITIAL FORM	
+U+FE98	ﺘ		ARABIC LETTER TEH MEDIAL FORM	
+U+FE99	ﺙ		ARABIC LETTER THEH ISOLATED FORM	
+U+FE9A	ﺚ		ARABIC LETTER THEH FINAL FORM	
+U+FE9B	ﺛ		ARABIC LETTER THEH INITIAL FORM	
+U+FE9C	ﺜ		ARABIC LETTER THEH MEDIAL FORM	
+U+FE9D	ﺝ		ARABIC LETTER JEEM ISOLATED FORM	
+U+FE9E	ﺞ		ARABIC LETTER JEEM FINAL FORM	
+U+FE9F	ﺟ		ARABIC LETTER JEEM INITIAL FORM	
+U+FEA0	ﺠ		ARABIC LETTER JEEM MEDIAL FORM	
+U+FEA1	ﺡ		ARABIC LETTER HAH ISOLATED FORM	
+U+FEA2	ﺢ		ARABIC LETTER HAH FINAL FORM	
+U+FEA3	ﺣ		ARABIC LETTER HAH INITIAL FORM	
+U+FEA4	ﺤ		ARABIC LETTER HAH MEDIAL FORM	
+U+FEA5	ﺥ		ARABIC LETTER KHAH ISOLATED FORM	
+U+FEA6	ﺦ		ARABIC LETTER KHAH FINAL FORM	
+U+FEA7	ﺧ		ARABIC LETTER KHAH INITIAL FORM	
+U+FEA8	ﺨ		ARABIC LETTER KHAH MEDIAL FORM	
+U+FEA9	ﺩ		ARABIC LETTER DAL ISOLATED FORM	
+U+FEAA	ﺪ		ARABIC LETTER DAL FINAL FORM	
+U+FEAB	ﺫ		ARABIC LETTER THAL ISOLATED FORM	
+U+FEAC	ﺬ		ARABIC LETTER THAL FINAL FORM	
+U+FEAD	ﺭ		ARABIC LETTER REH ISOLATED FORM	
+U+FEAE	ﺮ		ARABIC LETTER REH FINAL FORM	
+U+FEAF	ﺯ		ARABIC LETTER ZAIN ISOLATED FORM	
+U+FEB0	ﺰ		ARABIC LETTER ZAIN FINAL FORM	
+U+FEB1	ﺱ		ARABIC LETTER SEEN ISOLATED FORM	
+U+FEB2	ﺲ		ARABIC LETTER SEEN FINAL FORM	
+U+FEB3	ﺳ		ARABIC LETTER SEEN INITIAL FORM	
+U+FEB4	ﺴ		ARABIC LETTER SEEN MEDIAL FORM	
+U+FEB5	ﺵ		ARABIC LETTER SHEEN ISOLATED FORM	
+U+FEB6	ﺶ		ARABIC LETTER SHEEN FINAL FORM	
+U+FEB7	ﺷ		ARABIC LETTER SHEEN INITIAL FORM	
+U+FEB8	ﺸ		ARABIC LETTER SHEEN MEDIAL FORM	
+U+FEB9	ﺹ		ARABIC LETTER SAD ISOLATED FORM	
+U+FEBA	ﺺ		ARABIC LETTER SAD FINAL FORM	
+U+FEBB	ﺻ		ARABIC LETTER SAD INITIAL FORM	
+U+FEBC	ﺼ		ARABIC LETTER SAD MEDIAL FORM	
+U+FEBD	ﺽ		ARABIC LETTER DAD ISOLATED FORM	
+U+FEBE	ﺾ		ARABIC LETTER DAD FINAL FORM	
+U+FEBF	ﺿ		ARABIC LETTER DAD INITIAL FORM	
+U+FEC0	ﻀ		ARABIC LETTER DAD MEDIAL FORM	
+U+FEC1	ﻁ		ARABIC LETTER TAH ISOLATED FORM	
+U+FEC2	ﻂ		ARABIC LETTER TAH FINAL FORM	
+U+FEC3	ﻃ		ARABIC LETTER TAH INITIAL FORM	
+U+FEC4	ﻄ		ARABIC LETTER TAH MEDIAL FORM	
+U+FEC5	ﻅ		ARABIC LETTER ZAH ISOLATED FORM	
+U+FEC6	ﻆ		ARABIC LETTER ZAH FINAL FORM	
+U+FEC7	ﻇ		ARABIC LETTER ZAH INITIAL FORM	
+U+FEC8	ﻈ		ARABIC LETTER ZAH MEDIAL FORM	
+U+FEC9	ﻉ		ARABIC LETTER AIN ISOLATED FORM	
+U+FECA	ﻊ		ARABIC LETTER AIN FINAL FORM	
+U+FECB	ﻋ		ARABIC LETTER AIN INITIAL FORM	
+U+FECC	ﻌ		ARABIC LETTER AIN MEDIAL FORM	
+U+FECD	ﻍ		ARABIC LETTER GHAIN ISOLATED FORM	
+U+FECE	ﻎ		ARABIC LETTER GHAIN FINAL FORM	
+U+FECF	ﻏ		ARABIC LETTER GHAIN INITIAL FORM	
+U+FED0	ﻐ		ARABIC LETTER GHAIN MEDIAL FORM	
+U+FED1	ﻑ		ARABIC LETTER FEH ISOLATED FORM	
+U+FED2	ﻒ		ARABIC LETTER FEH FINAL FORM	
+U+FED3	ﻓ		ARABIC LETTER FEH INITIAL FORM	
+U+FED4	ﻔ		ARABIC LETTER FEH MEDIAL FORM	
+U+FED5	ﻕ		ARABIC LETTER QAF ISOLATED FORM	
+U+FED6	ﻖ		ARABIC LETTER QAF FINAL FORM	
+U+FED7	ﻗ		ARABIC LETTER QAF INITIAL FORM	
+U+FED8	ﻘ		ARABIC LETTER QAF MEDIAL FORM	
+U+FED9	ﻙ		ARABIC LETTER KAF ISOLATED FORM	
+U+FEDA	ﻚ		ARABIC LETTER KAF FINAL FORM	
+U+FEDB	ﻛ		ARABIC LETTER KAF INITIAL FORM	
+U+FEDC	ﻜ		ARABIC LETTER KAF MEDIAL FORM	
+U+FEDD	ﻝ		ARABIC LETTER LAM ISOLATED FORM	
+U+FEDE	ﻞ		ARABIC LETTER LAM FINAL FORM	
+U+FEDF	ﻟ		ARABIC LETTER LAM INITIAL FORM	
+U+FEE0	ﻠ		ARABIC LETTER LAM MEDIAL FORM	
+U+FEE1	ﻡ		ARABIC LETTER MEEM ISOLATED FORM	
+U+FEE2	ﻢ		ARABIC LETTER MEEM FINAL FORM	
+U+FEE3	ﻣ		ARABIC LETTER MEEM INITIAL FORM	
+U+FEE4	ﻤ		ARABIC LETTER MEEM MEDIAL FORM	
+U+FEE5	ﻥ		ARABIC LETTER NOON ISOLATED FORM	
+U+FEE6	ﻦ		ARABIC LETTER NOON FINAL FORM	
+U+FEE7	ﻧ		ARABIC LETTER NOON INITIAL FORM	
+U+FEE8	ﻨ		ARABIC LETTER NOON MEDIAL FORM	
+U+FEE9	ﻩ		ARABIC LETTER HEH ISOLATED FORM	
+U+FEEA	ﻪ		ARABIC LETTER HEH FINAL FORM	
+U+FEEB	ﻫ		ARABIC LETTER HEH INITIAL FORM	
+U+FEEC	ﻬ		ARABIC LETTER HEH MEDIAL FORM	
+U+FEED	ﻭ		ARABIC LETTER WAW ISOLATED FORM	
+U+FEEE	ﻮ		ARABIC LETTER WAW FINAL FORM	
+U+FEEF	ﻯ		ARABIC LETTER ALEF MAKSURA ISOLATED FORM	
+U+FEF0	ﻰ		ARABIC LETTER ALEF MAKSURA FINAL FORM	
+U+FEF1	ﻱ		ARABIC LETTER YEH ISOLATED FORM	
+U+FEF2	ﻲ		ARABIC LETTER YEH FINAL FORM	
+U+FEF3	ﻳ		ARABIC LETTER YEH INITIAL FORM	
+U+FEF4	ﻴ		ARABIC LETTER YEH MEDIAL FORM	
+U+FEF5	ﻵ		ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM	
+U+FEF6	ﻶ		ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM	
+U+FEF7	ﻷ		ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM	
+U+FEF8	ﻸ		ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM	
+U+FEF9	ﻹ		ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM	
+U+FEFA	ﻺ		ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM	
+U+FEFB	ﻻ		ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM	
+U+FEFC	ﻼ		ARABIC LIGATURE LAM WITH ALEF FINAL FORM	
+U+FEFF	﻿		ZERO WIDTH NO-BREAK SPACE	

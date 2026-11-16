@@ -1,144 +1,144 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+1BC00	𛰀	1BC00..1BC9F	Duployan	Duployan letter h		
-U+1BC01	𛰁	1BC00..1BC9F	Duployan	Duployan letter x		
-U+1BC02	𛰂	1BC00..1BC9F	Duployan	Duployan letter p		
-U+1BC03	𛰃	1BC00..1BC9F	Duployan	Duployan letter t		
-U+1BC04	𛰄	1BC00..1BC9F	Duployan	Duployan letter f		
-U+1BC05	𛰅	1BC00..1BC9F	Duployan	Duployan letter k		
-U+1BC06	𛰆	1BC00..1BC9F	Duployan	Duployan letter l		
-U+1BC07	𛰇	1BC00..1BC9F	Duployan	Duployan letter b		
-U+1BC08	𛰈	1BC00..1BC9F	Duployan	Duployan letter d		
-U+1BC09	𛰉	1BC00..1BC9F	Duployan	Duployan letter v		
-U+1BC0A	𛰊	1BC00..1BC9F	Duployan	Duployan letter g		
-U+1BC0B	𛰋	1BC00..1BC9F	Duployan	Duployan letter r		
-U+1BC0C	𛰌	1BC00..1BC9F	Duployan	Duployan letter p n		
-U+1BC0D	𛰍	1BC00..1BC9F	Duployan	Duployan letter d s		
-U+1BC0E	𛰎	1BC00..1BC9F	Duployan	Duployan letter f n		
-U+1BC0F	𛰏	1BC00..1BC9F	Duployan	Duployan letter k m		
-U+1BC10	𛰐	1BC00..1BC9F	Duployan	Duployan letter r s		
-U+1BC11	𛰑	1BC00..1BC9F	Duployan	Duployan letter th		
-U+1BC12	𛰒	1BC00..1BC9F	Duployan	Duployan letter sloan dh		
-U+1BC13	𛰓	1BC00..1BC9F	Duployan	Duployan letter dh		
-U+1BC14	𛰔	1BC00..1BC9F	Duployan	Duployan letter kk		
-U+1BC15	𛰕	1BC00..1BC9F	Duployan	Duployan letter sloan j		
-U+1BC16	𛰖	1BC00..1BC9F	Duployan	Duployan letter hl		
-U+1BC17	𛰗	1BC00..1BC9F	Duployan	Duployan letter lh		
-U+1BC18	𛰘	1BC00..1BC9F	Duployan	Duployan letter rh		
-U+1BC19	𛰙	1BC00..1BC9F	Duployan	Duployan letter m		
-U+1BC1A	𛰚	1BC00..1BC9F	Duployan	Duployan letter n		
-U+1BC1B	𛰛	1BC00..1BC9F	Duployan	Duployan letter j		
-U+1BC1C	𛰜	1BC00..1BC9F	Duployan	Duployan letter s		
-U+1BC1D	𛰝	1BC00..1BC9F	Duployan	Duployan letter m n		
-U+1BC1E	𛰞	1BC00..1BC9F	Duployan	Duployan letter n m		
-U+1BC1F	𛰟	1BC00..1BC9F	Duployan	Duployan letter j m		
-U+1BC20	𛰠	1BC00..1BC9F	Duployan	Duployan letter s j		
-U+1BC21	𛰡	1BC00..1BC9F	Duployan	Duployan letter m with dot		
-U+1BC22	𛰢	1BC00..1BC9F	Duployan	Duployan letter n with dot		
-U+1BC23	𛰣	1BC00..1BC9F	Duployan	Duployan letter j with dot		
-U+1BC24	𛰤	1BC00..1BC9F	Duployan	Duployan letter j with dots inside and above		
-U+1BC25	𛰥	1BC00..1BC9F	Duployan	Duployan letter s with dot		
-U+1BC26	𛰦	1BC00..1BC9F	Duployan	Duployan letter s with dot below		
-U+1BC27	𛰧	1BC00..1BC9F	Duployan	Duployan letter m s		
-U+1BC28	𛰨	1BC00..1BC9F	Duployan	Duployan letter n s		
-U+1BC29	𛰩	1BC00..1BC9F	Duployan	Duployan letter j s		
-U+1BC2A	𛰪	1BC00..1BC9F	Duployan	Duployan letter s s		
-U+1BC2B	𛰫	1BC00..1BC9F	Duployan	Duployan letter m n s		
-U+1BC2C	𛰬	1BC00..1BC9F	Duployan	Duployan letter n m s		
-U+1BC2D	𛰭	1BC00..1BC9F	Duployan	Duployan letter j m s		
-U+1BC2E	𛰮	1BC00..1BC9F	Duployan	Duployan letter s j s		
-U+1BC2F	𛰯	1BC00..1BC9F	Duployan	Duployan letter j s with dot		
-U+1BC30	𛰰	1BC00..1BC9F	Duployan	Duployan letter j n		
-U+1BC31	𛰱	1BC00..1BC9F	Duployan	Duployan letter j n s		
-U+1BC32	𛰲	1BC00..1BC9F	Duployan	Duployan letter s t		
-U+1BC33	𛰳	1BC00..1BC9F	Duployan	Duployan letter s t r		
-U+1BC34	𛰴	1BC00..1BC9F	Duployan	Duployan letter s p		
-U+1BC35	𛰵	1BC00..1BC9F	Duployan	Duployan letter s p r		
-U+1BC36	𛰶	1BC00..1BC9F	Duployan	Duployan letter t s		
-U+1BC37	𛰷	1BC00..1BC9F	Duployan	Duployan letter t r s		
-U+1BC38	𛰸	1BC00..1BC9F	Duployan	Duployan letter w		
-U+1BC39	𛰹	1BC00..1BC9F	Duployan	Duployan letter wh		
-U+1BC3A	𛰺	1BC00..1BC9F	Duployan	Duployan letter w r		
-U+1BC3B	𛰻	1BC00..1BC9F	Duployan	Duployan letter s n		
-U+1BC3C	𛰼	1BC00..1BC9F	Duployan	Duployan letter s m		
-U+1BC3D	𛰽	1BC00..1BC9F	Duployan	Duployan letter k r s		
-U+1BC3E	𛰾	1BC00..1BC9F	Duployan	Duployan letter g r s		
-U+1BC3F	𛰿	1BC00..1BC9F	Duployan	Duployan letter s k		
-U+1BC40	𛱀	1BC00..1BC9F	Duployan	Duployan letter s k r		
-U+1BC41	𛱁	1BC00..1BC9F	Duployan	Duployan letter a		
-U+1BC42	𛱂	1BC00..1BC9F	Duployan	Duployan letter sloan ow		
-U+1BC43	𛱃	1BC00..1BC9F	Duployan	Duployan letter oa		
-U+1BC44	𛱄	1BC00..1BC9F	Duployan	Duployan letter o		
-U+1BC45	𛱅	1BC00..1BC9F	Duployan	Duployan letter aou		
-U+1BC46	𛱆	1BC00..1BC9F	Duployan	Duployan letter i		
-U+1BC47	𛱇	1BC00..1BC9F	Duployan	Duployan letter e		
-U+1BC48	𛱈	1BC00..1BC9F	Duployan	Duployan letter ie		
-U+1BC49	𛱉	1BC00..1BC9F	Duployan	Duployan letter short i		
-U+1BC4A	𛱊	1BC00..1BC9F	Duployan	Duployan letter ui		
-U+1BC4B	𛱋	1BC00..1BC9F	Duployan	Duployan letter ee		
-U+1BC4C	𛱌	1BC00..1BC9F	Duployan	Duployan letter sloan eh		
-U+1BC4D	𛱍	1BC00..1BC9F	Duployan	Duployan letter romanian i		
-U+1BC4E	𛱎	1BC00..1BC9F	Duployan	Duployan letter sloan ee		
-U+1BC4F	𛱏	1BC00..1BC9F	Duployan	Duployan letter long i		
-U+1BC50	𛱐	1BC00..1BC9F	Duployan	Duployan letter ye		
-U+1BC51	𛱑	1BC00..1BC9F	Duployan	Duployan letter u		
-U+1BC52	𛱒	1BC00..1BC9F	Duployan	Duployan letter eu		
-U+1BC53	𛱓	1BC00..1BC9F	Duployan	Duployan letter xw		
-U+1BC54	𛱔	1BC00..1BC9F	Duployan	Duployan letter u n		
-U+1BC55	𛱕	1BC00..1BC9F	Duployan	Duployan letter long u		
-U+1BC56	𛱖	1BC00..1BC9F	Duployan	Duployan letter romanian u		
-U+1BC57	𛱗	1BC00..1BC9F	Duployan	Duployan letter uh		
-U+1BC58	𛱘	1BC00..1BC9F	Duployan	Duployan letter sloan u		
-U+1BC59	𛱙	1BC00..1BC9F	Duployan	Duployan letter ooh		
-U+1BC5A	𛱚	1BC00..1BC9F	Duployan	Duployan letter ow		
-U+1BC5B	𛱛	1BC00..1BC9F	Duployan	Duployan letter ou		
-U+1BC5C	𛱜	1BC00..1BC9F	Duployan	Duployan letter wa		
-U+1BC5D	𛱝	1BC00..1BC9F	Duployan	Duployan letter wo		
-U+1BC5E	𛱞	1BC00..1BC9F	Duployan	Duployan letter wi		
-U+1BC5F	𛱟	1BC00..1BC9F	Duployan	Duployan letter wei		
-U+1BC60	𛱠	1BC00..1BC9F	Duployan	Duployan letter wow		
-U+1BC61	𛱡	1BC00..1BC9F	Duployan	Duployan letter nasal u		
-U+1BC62	𛱢	1BC00..1BC9F	Duployan	Duployan letter nasal o		
-U+1BC63	𛱣	1BC00..1BC9F	Duployan	Duployan letter nasal i		
-U+1BC64	𛱤	1BC00..1BC9F	Duployan	Duployan letter nasal a		
-U+1BC65	𛱥	1BC00..1BC9F	Duployan	Duployan letter pernin an		
-U+1BC66	𛱦	1BC00..1BC9F	Duployan	Duployan letter pernin am		
-U+1BC67	𛱧	1BC00..1BC9F	Duployan	Duployan letter sloan en		
-U+1BC68	𛱨	1BC00..1BC9F	Duployan	Duployan letter sloan an		
-U+1BC69	𛱩	1BC00..1BC9F	Duployan	Duployan letter sloan on		
-U+1BC6A	𛱪	1BC00..1BC9F	Duployan	Duployan letter vocalic m		
-U+1BC70	𛱰	1BC00..1BC9F	Duployan	Duployan affix left horizontal secant		
-U+1BC71	𛱱	1BC00..1BC9F	Duployan	Duployan affix mid horizontal secant		
-U+1BC72	𛱲	1BC00..1BC9F	Duployan	Duployan affix right horizontal secant		
-U+1BC73	𛱳	1BC00..1BC9F	Duployan	Duployan affix low vertical secant		
-U+1BC74	𛱴	1BC00..1BC9F	Duployan	Duployan affix mid vertical secant		
-U+1BC75	𛱵	1BC00..1BC9F	Duployan	Duployan affix high vertical secant		
-U+1BC76	𛱶	1BC00..1BC9F	Duployan	Duployan affix attached secant		
-U+1BC77	𛱷	1BC00..1BC9F	Duployan	Duployan affix attached left-to-right secant		
-U+1BC78	𛱸	1BC00..1BC9F	Duployan	Duployan affix attached tangent		
-U+1BC79	𛱹	1BC00..1BC9F	Duployan	Duployan affix attached tail		
-U+1BC7A	𛱺	1BC00..1BC9F	Duployan	Duployan affix attached e hook		
-U+1BC7B	𛱻	1BC00..1BC9F	Duployan	Duployan affix attached i hook		
-U+1BC7C	𛱼	1BC00..1BC9F	Duployan	Duployan affix attached tangent hook		
-U+1BC80	𛲀	1BC00..1BC9F	Duployan	Duployan affix high acute		
-U+1BC81	𛲁	1BC00..1BC9F	Duployan	Duployan affix high tight acute		
-U+1BC82	𛲂	1BC00..1BC9F	Duployan	Duployan affix high grave		
-U+1BC83	𛲃	1BC00..1BC9F	Duployan	Duployan affix high long grave		
-U+1BC84	𛲄	1BC00..1BC9F	Duployan	Duployan affix high dot		
-U+1BC85	𛲅	1BC00..1BC9F	Duployan	Duployan affix high circle		
-U+1BC86	𛲆	1BC00..1BC9F	Duployan	Duployan affix high line		
-U+1BC87	𛲇	1BC00..1BC9F	Duployan	Duployan affix high wave		
-U+1BC88	𛲈	1BC00..1BC9F	Duployan	Duployan affix high vertical		
-U+1BC90	𛲐	1BC00..1BC9F	Duployan	Duployan affix low acute		
-U+1BC91	𛲑	1BC00..1BC9F	Duployan	Duployan affix low tight acute		
-U+1BC92	𛲒	1BC00..1BC9F	Duployan	Duployan affix low grave		
-U+1BC93	𛲓	1BC00..1BC9F	Duployan	Duployan affix low long grave		
-U+1BC94	𛲔	1BC00..1BC9F	Duployan	Duployan affix low dot		
-U+1BC95	𛲕	1BC00..1BC9F	Duployan	Duployan affix low circle		
-U+1BC96	𛲖	1BC00..1BC9F	Duployan	Duployan affix low line		
-U+1BC97	𛲗	1BC00..1BC9F	Duployan	Duployan affix low wave		
-U+1BC98	𛲘	1BC00..1BC9F	Duployan	Duployan affix low vertical		
-U+1BC99	𛲙	1BC00..1BC9F	Duployan	Duployan affix low arrow		
-U+1BC9C	𛲜	1BC00..1BC9F	Duployan	Duployan sign o with cross		
-U+1BC9D	𛲝	1BC00..1BC9F	Duployan	Duployan thick letter selector		
-U+1BC9E	𛲞	1BC00..1BC9F	Duployan	Duployan double mark		
-U+1BC9F	𛲟	1BC00..1BC9F	Duployan	Duployan punctuation chinook full stop		
+code_points	chars	tab_completions	unicode_name	base
+U+1BC00	𛰀		DUPLOYAN LETTER H	
+U+1BC01	𛰁		DUPLOYAN LETTER X	
+U+1BC02	𛰂		DUPLOYAN LETTER P	
+U+1BC03	𛰃		DUPLOYAN LETTER T	
+U+1BC04	𛰄		DUPLOYAN LETTER F	
+U+1BC05	𛰅		DUPLOYAN LETTER K	
+U+1BC06	𛰆		DUPLOYAN LETTER L	
+U+1BC07	𛰇		DUPLOYAN LETTER B	
+U+1BC08	𛰈		DUPLOYAN LETTER D	
+U+1BC09	𛰉		DUPLOYAN LETTER V	
+U+1BC0A	𛰊		DUPLOYAN LETTER G	
+U+1BC0B	𛰋		DUPLOYAN LETTER R	
+U+1BC0C	𛰌		DUPLOYAN LETTER P N	
+U+1BC0D	𛰍		DUPLOYAN LETTER D S	
+U+1BC0E	𛰎		DUPLOYAN LETTER F N	
+U+1BC0F	𛰏		DUPLOYAN LETTER K M	
+U+1BC10	𛰐		DUPLOYAN LETTER R S	
+U+1BC11	𛰑		DUPLOYAN LETTER TH	
+U+1BC12	𛰒		DUPLOYAN LETTER SLOAN DH	
+U+1BC13	𛰓		DUPLOYAN LETTER DH	
+U+1BC14	𛰔		DUPLOYAN LETTER KK	
+U+1BC15	𛰕		DUPLOYAN LETTER SLOAN J	
+U+1BC16	𛰖		DUPLOYAN LETTER HL	
+U+1BC17	𛰗		DUPLOYAN LETTER LH	
+U+1BC18	𛰘		DUPLOYAN LETTER RH	
+U+1BC19	𛰙		DUPLOYAN LETTER M	
+U+1BC1A	𛰚		DUPLOYAN LETTER N	
+U+1BC1B	𛰛		DUPLOYAN LETTER J	
+U+1BC1C	𛰜		DUPLOYAN LETTER S	
+U+1BC1D	𛰝		DUPLOYAN LETTER M N	
+U+1BC1E	𛰞		DUPLOYAN LETTER N M	
+U+1BC1F	𛰟		DUPLOYAN LETTER J M	
+U+1BC20	𛰠		DUPLOYAN LETTER S J	
+U+1BC21	𛰡		DUPLOYAN LETTER M WITH DOT	
+U+1BC22	𛰢		DUPLOYAN LETTER N WITH DOT	
+U+1BC23	𛰣		DUPLOYAN LETTER J WITH DOT	
+U+1BC24	𛰤		DUPLOYAN LETTER J WITH DOTS INSIDE AND ABOVE	
+U+1BC25	𛰥		DUPLOYAN LETTER S WITH DOT	
+U+1BC26	𛰦		DUPLOYAN LETTER S WITH DOT BELOW	
+U+1BC27	𛰧		DUPLOYAN LETTER M S	
+U+1BC28	𛰨		DUPLOYAN LETTER N S	
+U+1BC29	𛰩		DUPLOYAN LETTER J S	
+U+1BC2A	𛰪		DUPLOYAN LETTER S S	
+U+1BC2B	𛰫		DUPLOYAN LETTER M N S	
+U+1BC2C	𛰬		DUPLOYAN LETTER N M S	
+U+1BC2D	𛰭		DUPLOYAN LETTER J M S	
+U+1BC2E	𛰮		DUPLOYAN LETTER S J S	
+U+1BC2F	𛰯		DUPLOYAN LETTER J S WITH DOT	
+U+1BC30	𛰰		DUPLOYAN LETTER J N	
+U+1BC31	𛰱		DUPLOYAN LETTER J N S	
+U+1BC32	𛰲		DUPLOYAN LETTER S T	
+U+1BC33	𛰳		DUPLOYAN LETTER S T R	
+U+1BC34	𛰴		DUPLOYAN LETTER S P	
+U+1BC35	𛰵		DUPLOYAN LETTER S P R	
+U+1BC36	𛰶		DUPLOYAN LETTER T S	
+U+1BC37	𛰷		DUPLOYAN LETTER T R S	
+U+1BC38	𛰸		DUPLOYAN LETTER W	
+U+1BC39	𛰹		DUPLOYAN LETTER WH	
+U+1BC3A	𛰺		DUPLOYAN LETTER W R	
+U+1BC3B	𛰻		DUPLOYAN LETTER S N	
+U+1BC3C	𛰼		DUPLOYAN LETTER S M	
+U+1BC3D	𛰽		DUPLOYAN LETTER K R S	
+U+1BC3E	𛰾		DUPLOYAN LETTER G R S	
+U+1BC3F	𛰿		DUPLOYAN LETTER S K	
+U+1BC40	𛱀		DUPLOYAN LETTER S K R	
+U+1BC41	𛱁		DUPLOYAN LETTER A	
+U+1BC42	𛱂		DUPLOYAN LETTER SLOAN OW	
+U+1BC43	𛱃		DUPLOYAN LETTER OA	
+U+1BC44	𛱄		DUPLOYAN LETTER O	
+U+1BC45	𛱅		DUPLOYAN LETTER AOU	
+U+1BC46	𛱆		DUPLOYAN LETTER I	
+U+1BC47	𛱇		DUPLOYAN LETTER E	
+U+1BC48	𛱈		DUPLOYAN LETTER IE	
+U+1BC49	𛱉		DUPLOYAN LETTER SHORT I	
+U+1BC4A	𛱊		DUPLOYAN LETTER UI	
+U+1BC4B	𛱋		DUPLOYAN LETTER EE	
+U+1BC4C	𛱌		DUPLOYAN LETTER SLOAN EH	
+U+1BC4D	𛱍		DUPLOYAN LETTER ROMANIAN I	
+U+1BC4E	𛱎		DUPLOYAN LETTER SLOAN EE	
+U+1BC4F	𛱏		DUPLOYAN LETTER LONG I	
+U+1BC50	𛱐		DUPLOYAN LETTER YE	
+U+1BC51	𛱑		DUPLOYAN LETTER U	
+U+1BC52	𛱒		DUPLOYAN LETTER EU	
+U+1BC53	𛱓		DUPLOYAN LETTER XW	
+U+1BC54	𛱔		DUPLOYAN LETTER U N	
+U+1BC55	𛱕		DUPLOYAN LETTER LONG U	
+U+1BC56	𛱖		DUPLOYAN LETTER ROMANIAN U	
+U+1BC57	𛱗		DUPLOYAN LETTER UH	
+U+1BC58	𛱘		DUPLOYAN LETTER SLOAN U	
+U+1BC59	𛱙		DUPLOYAN LETTER OOH	
+U+1BC5A	𛱚		DUPLOYAN LETTER OW	
+U+1BC5B	𛱛		DUPLOYAN LETTER OU	
+U+1BC5C	𛱜		DUPLOYAN LETTER WA	
+U+1BC5D	𛱝		DUPLOYAN LETTER WO	
+U+1BC5E	𛱞		DUPLOYAN LETTER WI	
+U+1BC5F	𛱟		DUPLOYAN LETTER WEI	
+U+1BC60	𛱠		DUPLOYAN LETTER WOW	
+U+1BC61	𛱡		DUPLOYAN LETTER NASAL U	
+U+1BC62	𛱢		DUPLOYAN LETTER NASAL O	
+U+1BC63	𛱣		DUPLOYAN LETTER NASAL I	
+U+1BC64	𛱤		DUPLOYAN LETTER NASAL A	
+U+1BC65	𛱥		DUPLOYAN LETTER PERNIN AN	
+U+1BC66	𛱦		DUPLOYAN LETTER PERNIN AM	
+U+1BC67	𛱧		DUPLOYAN LETTER SLOAN EN	
+U+1BC68	𛱨		DUPLOYAN LETTER SLOAN AN	
+U+1BC69	𛱩		DUPLOYAN LETTER SLOAN ON	
+U+1BC6A	𛱪		DUPLOYAN LETTER VOCALIC M	
+U+1BC70	𛱰		DUPLOYAN AFFIX LEFT HORIZONTAL SECANT	
+U+1BC71	𛱱		DUPLOYAN AFFIX MID HORIZONTAL SECANT	
+U+1BC72	𛱲		DUPLOYAN AFFIX RIGHT HORIZONTAL SECANT	
+U+1BC73	𛱳		DUPLOYAN AFFIX LOW VERTICAL SECANT	
+U+1BC74	𛱴		DUPLOYAN AFFIX MID VERTICAL SECANT	
+U+1BC75	𛱵		DUPLOYAN AFFIX HIGH VERTICAL SECANT	
+U+1BC76	𛱶		DUPLOYAN AFFIX ATTACHED SECANT	
+U+1BC77	𛱷		DUPLOYAN AFFIX ATTACHED LEFT-TO-RIGHT SECANT	
+U+1BC78	𛱸		DUPLOYAN AFFIX ATTACHED TANGENT	
+U+1BC79	𛱹		DUPLOYAN AFFIX ATTACHED TAIL	
+U+1BC7A	𛱺		DUPLOYAN AFFIX ATTACHED E HOOK	
+U+1BC7B	𛱻		DUPLOYAN AFFIX ATTACHED I HOOK	
+U+1BC7C	𛱼		DUPLOYAN AFFIX ATTACHED TANGENT HOOK	
+U+1BC80	𛲀		DUPLOYAN AFFIX HIGH ACUTE	
+U+1BC81	𛲁		DUPLOYAN AFFIX HIGH TIGHT ACUTE	
+U+1BC82	𛲂		DUPLOYAN AFFIX HIGH GRAVE	
+U+1BC83	𛲃		DUPLOYAN AFFIX HIGH LONG GRAVE	
+U+1BC84	𛲄		DUPLOYAN AFFIX HIGH DOT	
+U+1BC85	𛲅		DUPLOYAN AFFIX HIGH CIRCLE	
+U+1BC86	𛲆		DUPLOYAN AFFIX HIGH LINE	
+U+1BC87	𛲇		DUPLOYAN AFFIX HIGH WAVE	
+U+1BC88	𛲈		DUPLOYAN AFFIX HIGH VERTICAL	
+U+1BC90	𛲐		DUPLOYAN AFFIX LOW ACUTE	
+U+1BC91	𛲑		DUPLOYAN AFFIX LOW TIGHT ACUTE	
+U+1BC92	𛲒		DUPLOYAN AFFIX LOW GRAVE	
+U+1BC93	𛲓		DUPLOYAN AFFIX LOW LONG GRAVE	
+U+1BC94	𛲔		DUPLOYAN AFFIX LOW DOT	
+U+1BC95	𛲕		DUPLOYAN AFFIX LOW CIRCLE	
+U+1BC96	𛲖		DUPLOYAN AFFIX LOW LINE	
+U+1BC97	𛲗		DUPLOYAN AFFIX LOW WAVE	
+U+1BC98	𛲘		DUPLOYAN AFFIX LOW VERTICAL	
+U+1BC99	𛲙		DUPLOYAN AFFIX LOW ARROW	
+U+1BC9C	𛲜		DUPLOYAN SIGN O WITH CROSS	
+U+1BC9D	𛲝		DUPLOYAN THICK LETTER SELECTOR	
+U+1BC9E	𛲞		DUPLOYAN DOUBLE MARK	
+U+1BC9F	𛲟		DUPLOYAN PUNCTUATION CHINOOK FULL STOP	

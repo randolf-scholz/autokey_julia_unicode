@@ -1,128 +1,128 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+16B00	𖬀	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel keeb		
-U+16B01	𖬁	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel keev		
-U+16B02	𖬂	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kib		
-U+16B03	𖬃	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kiv		
-U+16B04	𖬄	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kaub		
-U+16B05	𖬅	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kauv		
-U+16B06	𖬆	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kub		
-U+16B07	𖬇	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kuv		
-U+16B08	𖬈	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel keb		
-U+16B09	𖬉	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kev		
-U+16B0A	𖬊	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kaib		
-U+16B0B	𖬋	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kaiv		
-U+16B0C	𖬌	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel koob		
-U+16B0D	𖬍	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel koov		
-U+16B0E	𖬎	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kawb		
-U+16B0F	𖬏	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kawv		
-U+16B10	𖬐	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kuab		
-U+16B11	𖬑	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kuav		
-U+16B12	𖬒	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kob		
-U+16B13	𖬓	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kov		
-U+16B14	𖬔	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kiab		
-U+16B15	𖬕	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kiav		
-U+16B16	𖬖	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kab		
-U+16B17	𖬗	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kav		
-U+16B18	𖬘	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kwb		
-U+16B19	𖬙	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kwv		
-U+16B1A	𖬚	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kaab		
-U+16B1B	𖬛	16B00..16B8F	Pahawh Hmong	Pahawh hmong vowel kaav		
-U+16B1C	𖬜	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant vau		
-U+16B1D	𖬝	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant ntsau		
-U+16B1E	𖬞	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant lau		
-U+16B1F	𖬟	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant hau		
-U+16B20	𖬠	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant nlau		
-U+16B21	𖬡	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant rau		
-U+16B22	𖬢	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant nkau		
-U+16B23	𖬣	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant qhau		
-U+16B24	𖬤	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant yau		
-U+16B25	𖬥	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant hlau		
-U+16B26	𖬦	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant mau		
-U+16B27	𖬧	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant chau		
-U+16B28	𖬨	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant nchau		
-U+16B29	𖬩	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant hnau		
-U+16B2A	𖬪	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant plhau		
-U+16B2B	𖬫	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant nthau		
-U+16B2C	𖬬	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant nau		
-U+16B2D	𖬭	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant au		
-U+16B2E	𖬮	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant xau		
-U+16B2F	𖬯	16B00..16B8F	Pahawh Hmong	Pahawh hmong consonant cau		
-U+16B30	𖬰	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim tub		
-U+16B31	𖬱	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim so		
-U+16B32	𖬲	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim kes		
-U+16B33	𖬳	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim khav		
-U+16B34	𖬴	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim suam		
-U+16B35	𖬵	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim hom		
-U+16B36	𖬶	16B00..16B8F	Pahawh Hmong	Pahawh hmong mark cim taum		
-U+16B37	𖬷	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos thom		
-U+16B38	𖬸	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos tshab ceeb		
-U+16B39	𖬹	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim cheem		
-U+16B3A	𖬺	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos thiab		
-U+16B3B	𖬻	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos feem		
-U+16B3C	𖬼	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xyeem ntxiv		
-U+16B3D	𖬽	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xyeem rho		
-U+16B3E	𖬾	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xyeem tov		
-U+16B3F	𖬿	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xyeem faib		
-U+16B40	𖭀	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos seev		
-U+16B41	𖭁	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign meej suab		
-U+16B42	𖭂	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos nrua		
-U+16B43	𖭃	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign ib yam		
-U+16B44	𖭄	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xaus		
-U+16B45	𖭅	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim tsov rog		
-U+16B50	𖭐	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit zero		
-U+16B51	𖭑	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit one		
-U+16B52	𖭒	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit two		
-U+16B53	𖭓	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit three		
-U+16B54	𖭔	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit four		
-U+16B55	𖭕	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit five		
-U+16B56	𖭖	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit six		
-U+16B57	𖭗	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit seven		
-U+16B58	𖭘	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit eight		
-U+16B59	𖭙	16B00..16B8F	Pahawh Hmong	Pahawh hmong digit nine		
-U+16B5B	𖭛	16B00..16B8F	Pahawh Hmong	Pahawh hmong number tens		
-U+16B5C	𖭜	16B00..16B8F	Pahawh Hmong	Pahawh hmong number hundreds		
-U+16B5D	𖭝	16B00..16B8F	Pahawh Hmong	Pahawh hmong number ten thousands		
-U+16B5E	𖭞	16B00..16B8F	Pahawh Hmong	Pahawh hmong number millions		
-U+16B5F	𖭟	16B00..16B8F	Pahawh Hmong	Pahawh hmong number hundred millions		
-U+16B60	𖭠	16B00..16B8F	Pahawh Hmong	Pahawh hmong number ten billions		
-U+16B61	𖭡	16B00..16B8F	Pahawh Hmong	Pahawh hmong number trillions		
-U+16B63	𖭣	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign vos lub		
-U+16B64	𖭤	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xyoo		
-U+16B65	𖭥	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign hli		
-U+16B66	𖭦	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign third-stage hli		
-U+16B67	𖭧	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign zwj thaj		
-U+16B68	𖭨	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign hnub		
-U+16B69	𖭩	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign nqig		
-U+16B6A	𖭪	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign xiab		
-U+16B6B	𖭫	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign ntuj		
-U+16B6C	𖭬	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign av		
-U+16B6D	𖭭	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign txheej ceev		
-U+16B6E	𖭮	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign meej tseeb		
-U+16B6F	𖭯	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign tau		
-U+16B70	𖭰	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign los		
-U+16B71	𖭱	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign mus		
-U+16B72	𖭲	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim hais lus ntog ntog		
-U+16B73	𖭳	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim cuam tshooj		
-U+16B74	𖭴	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim txwv		
-U+16B75	𖭵	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim txwv chwv		
-U+16B76	𖭶	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim pub dawb		
-U+16B77	𖭷	16B00..16B8F	Pahawh Hmong	Pahawh hmong sign cim nres tos		
-U+16B7D	𖭽	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign tsheej		
-U+16B7E	𖭾	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign yeeg		
-U+16B7F	𖭿	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign lis		
-U+16B80	𖮀	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign lauj		
-U+16B81	𖮁	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign xyooj		
-U+16B82	𖮂	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign koo		
-U+16B83	𖮃	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign hawj		
-U+16B84	𖮄	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign muas		
-U+16B85	𖮅	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign thoj		
-U+16B86	𖮆	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign tsab		
-U+16B87	𖮇	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign phab		
-U+16B88	𖮈	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign khab		
-U+16B89	𖮉	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign ham		
-U+16B8A	𖮊	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign vaj		
-U+16B8B	𖮋	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign faj		
-U+16B8C	𖮌	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign yaj		
-U+16B8D	𖮍	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign tswb		
-U+16B8E	𖮎	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign kwm		
-U+16B8F	𖮏	16B00..16B8F	Pahawh Hmong	Pahawh hmong clan sign vwj		
+code_points	chars	tab_completions	unicode_name	base
+U+16B00	𖬀		PAHAWH HMONG VOWEL KEEB	
+U+16B01	𖬁		PAHAWH HMONG VOWEL KEEV	
+U+16B02	𖬂		PAHAWH HMONG VOWEL KIB	
+U+16B03	𖬃		PAHAWH HMONG VOWEL KIV	
+U+16B04	𖬄		PAHAWH HMONG VOWEL KAUB	
+U+16B05	𖬅		PAHAWH HMONG VOWEL KAUV	
+U+16B06	𖬆		PAHAWH HMONG VOWEL KUB	
+U+16B07	𖬇		PAHAWH HMONG VOWEL KUV	
+U+16B08	𖬈		PAHAWH HMONG VOWEL KEB	
+U+16B09	𖬉		PAHAWH HMONG VOWEL KEV	
+U+16B0A	𖬊		PAHAWH HMONG VOWEL KAIB	
+U+16B0B	𖬋		PAHAWH HMONG VOWEL KAIV	
+U+16B0C	𖬌		PAHAWH HMONG VOWEL KOOB	
+U+16B0D	𖬍		PAHAWH HMONG VOWEL KOOV	
+U+16B0E	𖬎		PAHAWH HMONG VOWEL KAWB	
+U+16B0F	𖬏		PAHAWH HMONG VOWEL KAWV	
+U+16B10	𖬐		PAHAWH HMONG VOWEL KUAB	
+U+16B11	𖬑		PAHAWH HMONG VOWEL KUAV	
+U+16B12	𖬒		PAHAWH HMONG VOWEL KOB	
+U+16B13	𖬓		PAHAWH HMONG VOWEL KOV	
+U+16B14	𖬔		PAHAWH HMONG VOWEL KIAB	
+U+16B15	𖬕		PAHAWH HMONG VOWEL KIAV	
+U+16B16	𖬖		PAHAWH HMONG VOWEL KAB	
+U+16B17	𖬗		PAHAWH HMONG VOWEL KAV	
+U+16B18	𖬘		PAHAWH HMONG VOWEL KWB	
+U+16B19	𖬙		PAHAWH HMONG VOWEL KWV	
+U+16B1A	𖬚		PAHAWH HMONG VOWEL KAAB	
+U+16B1B	𖬛		PAHAWH HMONG VOWEL KAAV	
+U+16B1C	𖬜		PAHAWH HMONG CONSONANT VAU	
+U+16B1D	𖬝		PAHAWH HMONG CONSONANT NTSAU	
+U+16B1E	𖬞		PAHAWH HMONG CONSONANT LAU	
+U+16B1F	𖬟		PAHAWH HMONG CONSONANT HAU	
+U+16B20	𖬠		PAHAWH HMONG CONSONANT NLAU	
+U+16B21	𖬡		PAHAWH HMONG CONSONANT RAU	
+U+16B22	𖬢		PAHAWH HMONG CONSONANT NKAU	
+U+16B23	𖬣		PAHAWH HMONG CONSONANT QHAU	
+U+16B24	𖬤		PAHAWH HMONG CONSONANT YAU	
+U+16B25	𖬥		PAHAWH HMONG CONSONANT HLAU	
+U+16B26	𖬦		PAHAWH HMONG CONSONANT MAU	
+U+16B27	𖬧		PAHAWH HMONG CONSONANT CHAU	
+U+16B28	𖬨		PAHAWH HMONG CONSONANT NCHAU	
+U+16B29	𖬩		PAHAWH HMONG CONSONANT HNAU	
+U+16B2A	𖬪		PAHAWH HMONG CONSONANT PLHAU	
+U+16B2B	𖬫		PAHAWH HMONG CONSONANT NTHAU	
+U+16B2C	𖬬		PAHAWH HMONG CONSONANT NAU	
+U+16B2D	𖬭		PAHAWH HMONG CONSONANT AU	
+U+16B2E	𖬮		PAHAWH HMONG CONSONANT XAU	
+U+16B2F	𖬯		PAHAWH HMONG CONSONANT CAU	
+U+16B30	𖬰		PAHAWH HMONG MARK CIM TUB	
+U+16B31	𖬱		PAHAWH HMONG MARK CIM SO	
+U+16B32	𖬲		PAHAWH HMONG MARK CIM KES	
+U+16B33	𖬳		PAHAWH HMONG MARK CIM KHAV	
+U+16B34	𖬴		PAHAWH HMONG MARK CIM SUAM	
+U+16B35	𖬵		PAHAWH HMONG MARK CIM HOM	
+U+16B36	𖬶		PAHAWH HMONG MARK CIM TAUM	
+U+16B37	𖬷		PAHAWH HMONG SIGN VOS THOM	
+U+16B38	𖬸		PAHAWH HMONG SIGN VOS TSHAB CEEB	
+U+16B39	𖬹		PAHAWH HMONG SIGN CIM CHEEM	
+U+16B3A	𖬺		PAHAWH HMONG SIGN VOS THIAB	
+U+16B3B	𖬻		PAHAWH HMONG SIGN VOS FEEM	
+U+16B3C	𖬼		PAHAWH HMONG SIGN XYEEM NTXIV	
+U+16B3D	𖬽		PAHAWH HMONG SIGN XYEEM RHO	
+U+16B3E	𖬾		PAHAWH HMONG SIGN XYEEM TOV	
+U+16B3F	𖬿		PAHAWH HMONG SIGN XYEEM FAIB	
+U+16B40	𖭀		PAHAWH HMONG SIGN VOS SEEV	
+U+16B41	𖭁		PAHAWH HMONG SIGN MEEJ SUAB	
+U+16B42	𖭂		PAHAWH HMONG SIGN VOS NRUA	
+U+16B43	𖭃		PAHAWH HMONG SIGN IB YAM	
+U+16B44	𖭄		PAHAWH HMONG SIGN XAUS	
+U+16B45	𖭅		PAHAWH HMONG SIGN CIM TSOV ROG	
+U+16B50	𖭐		PAHAWH HMONG DIGIT ZERO	
+U+16B51	𖭑		PAHAWH HMONG DIGIT ONE	
+U+16B52	𖭒		PAHAWH HMONG DIGIT TWO	
+U+16B53	𖭓		PAHAWH HMONG DIGIT THREE	
+U+16B54	𖭔		PAHAWH HMONG DIGIT FOUR	
+U+16B55	𖭕		PAHAWH HMONG DIGIT FIVE	
+U+16B56	𖭖		PAHAWH HMONG DIGIT SIX	
+U+16B57	𖭗		PAHAWH HMONG DIGIT SEVEN	
+U+16B58	𖭘		PAHAWH HMONG DIGIT EIGHT	
+U+16B59	𖭙		PAHAWH HMONG DIGIT NINE	
+U+16B5B	𖭛		PAHAWH HMONG NUMBER TENS	
+U+16B5C	𖭜		PAHAWH HMONG NUMBER HUNDREDS	
+U+16B5D	𖭝		PAHAWH HMONG NUMBER TEN THOUSANDS	
+U+16B5E	𖭞		PAHAWH HMONG NUMBER MILLIONS	
+U+16B5F	𖭟		PAHAWH HMONG NUMBER HUNDRED MILLIONS	
+U+16B60	𖭠		PAHAWH HMONG NUMBER TEN BILLIONS	
+U+16B61	𖭡		PAHAWH HMONG NUMBER TRILLIONS	
+U+16B63	𖭣		PAHAWH HMONG SIGN VOS LUB	
+U+16B64	𖭤		PAHAWH HMONG SIGN XYOO	
+U+16B65	𖭥		PAHAWH HMONG SIGN HLI	
+U+16B66	𖭦		PAHAWH HMONG SIGN THIRD-STAGE HLI	
+U+16B67	𖭧		PAHAWH HMONG SIGN ZWJ THAJ	
+U+16B68	𖭨		PAHAWH HMONG SIGN HNUB	
+U+16B69	𖭩		PAHAWH HMONG SIGN NQIG	
+U+16B6A	𖭪		PAHAWH HMONG SIGN XIAB	
+U+16B6B	𖭫		PAHAWH HMONG SIGN NTUJ	
+U+16B6C	𖭬		PAHAWH HMONG SIGN AV	
+U+16B6D	𖭭		PAHAWH HMONG SIGN TXHEEJ CEEV	
+U+16B6E	𖭮		PAHAWH HMONG SIGN MEEJ TSEEB	
+U+16B6F	𖭯		PAHAWH HMONG SIGN TAU	
+U+16B70	𖭰		PAHAWH HMONG SIGN LOS	
+U+16B71	𖭱		PAHAWH HMONG SIGN MUS	
+U+16B72	𖭲		PAHAWH HMONG SIGN CIM HAIS LUS NTOG NTOG	
+U+16B73	𖭳		PAHAWH HMONG SIGN CIM CUAM TSHOOJ	
+U+16B74	𖭴		PAHAWH HMONG SIGN CIM TXWV	
+U+16B75	𖭵		PAHAWH HMONG SIGN CIM TXWV CHWV	
+U+16B76	𖭶		PAHAWH HMONG SIGN CIM PUB DAWB	
+U+16B77	𖭷		PAHAWH HMONG SIGN CIM NRES TOS	
+U+16B7D	𖭽		PAHAWH HMONG CLAN SIGN TSHEEJ	
+U+16B7E	𖭾		PAHAWH HMONG CLAN SIGN YEEG	
+U+16B7F	𖭿		PAHAWH HMONG CLAN SIGN LIS	
+U+16B80	𖮀		PAHAWH HMONG CLAN SIGN LAUJ	
+U+16B81	𖮁		PAHAWH HMONG CLAN SIGN XYOOJ	
+U+16B82	𖮂		PAHAWH HMONG CLAN SIGN KOO	
+U+16B83	𖮃		PAHAWH HMONG CLAN SIGN HAWJ	
+U+16B84	𖮄		PAHAWH HMONG CLAN SIGN MUAS	
+U+16B85	𖮅		PAHAWH HMONG CLAN SIGN THOJ	
+U+16B86	𖮆		PAHAWH HMONG CLAN SIGN TSAB	
+U+16B87	𖮇		PAHAWH HMONG CLAN SIGN PHAB	
+U+16B88	𖮈		PAHAWH HMONG CLAN SIGN KHAB	
+U+16B89	𖮉		PAHAWH HMONG CLAN SIGN HAM	
+U+16B8A	𖮊		PAHAWH HMONG CLAN SIGN VAJ	
+U+16B8B	𖮋		PAHAWH HMONG CLAN SIGN FAJ	
+U+16B8C	𖮌		PAHAWH HMONG CLAN SIGN YAJ	
+U+16B8D	𖮍		PAHAWH HMONG CLAN SIGN TSWB	
+U+16B8E	𖮎		PAHAWH HMONG CLAN SIGN KWM	
+U+16B8F	𖮏		PAHAWH HMONG CLAN SIGN VWJ	

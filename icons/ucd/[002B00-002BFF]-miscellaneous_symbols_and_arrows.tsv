@@ -1,255 +1,255 @@
-code_point	symbol	block	block_name	name	tab_completion	latex_code
-U+2B00	⬀	2B00..2BFF	Miscellaneous Symbols and Arrows	North east white arrow		
-U+2B01	⬁	2B00..2BFF	Miscellaneous Symbols and Arrows	North west white arrow		
-U+2B02	⬂	2B00..2BFF	Miscellaneous Symbols and Arrows	South east white arrow		
-U+2B03	⬃	2B00..2BFF	Miscellaneous Symbols and Arrows	South west white arrow		
-U+2B04	⬄	2B00..2BFF	Miscellaneous Symbols and Arrows	Left right white arrow		
-U+2B05	⬅	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards black arrow		
-U+2B06	⬆	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards black arrow		
-U+2B07	⬇	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards black arrow		
-U+2B08	⬈	2B00..2BFF	Miscellaneous Symbols and Arrows	North east black arrow		
-U+2B09	⬉	2B00..2BFF	Miscellaneous Symbols and Arrows	North west black arrow		
-U+2B0A	⬊	2B00..2BFF	Miscellaneous Symbols and Arrows	South east black arrow		
-U+2B0B	⬋	2B00..2BFF	Miscellaneous Symbols and Arrows	South west black arrow		
-U+2B0C	⬌	2B00..2BFF	Miscellaneous Symbols and Arrows	Left right black arrow		
-U+2B0D	⬍	2B00..2BFF	Miscellaneous Symbols and Arrows	Up down black arrow		
-U+2B0E	⬎	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow with tip downwards		
-U+2B0F	⬏	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow with tip upwards		
-U+2B10	⬐	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow with tip downwards		
-U+2B11	⬑	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow with tip upwards		
-U+2B12	⬒	2B00..2BFF	Miscellaneous Symbols and Arrows	Square with top half black		
-U+2B13	⬓	2B00..2BFF	Miscellaneous Symbols and Arrows	Square with bottom half black		
-U+2B14	⬔	2B00..2BFF	Miscellaneous Symbols and Arrows	Square with upper right diagonal half black		
-U+2B15	⬕	2B00..2BFF	Miscellaneous Symbols and Arrows	Square with lower left diagonal half black		
-U+2B16	⬖	2B00..2BFF	Miscellaneous Symbols and Arrows	Diamond with left half black		
-U+2B17	⬗	2B00..2BFF	Miscellaneous Symbols and Arrows	Diamond with right half black		
-U+2B18	⬘	2B00..2BFF	Miscellaneous Symbols and Arrows	Diamond with top half black		
-U+2B19	⬙	2B00..2BFF	Miscellaneous Symbols and Arrows	Diamond with bottom half black		
-U+2B1A	⬚	2B00..2BFF	Miscellaneous Symbols and Arrows	Dotted square		
-U+2B1B	⬛	2B00..2BFF	Miscellaneous Symbols and Arrows	Black large square		
-U+2B1C	⬜	2B00..2BFF	Miscellaneous Symbols and Arrows	White large square		
-U+2B1D	⬝	2B00..2BFF	Miscellaneous Symbols and Arrows	Black very small square		
-U+2B1E	⬞	2B00..2BFF	Miscellaneous Symbols and Arrows	White very small square		
-U+2B1F	⬟	2B00..2BFF	Miscellaneous Symbols and Arrows	Black pentagon		
-U+2B20	⬠	2B00..2BFF	Miscellaneous Symbols and Arrows	White pentagon		
-U+2B21	⬡	2B00..2BFF	Miscellaneous Symbols and Arrows	White hexagon		
-U+2B22	⬢	2B00..2BFF	Miscellaneous Symbols and Arrows	Black hexagon		
-U+2B23	⬣	2B00..2BFF	Miscellaneous Symbols and Arrows	Horizontal black hexagon		
-U+2B24	⬤	2B00..2BFF	Miscellaneous Symbols and Arrows	Black large circle		
-U+2B25	⬥	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium diamond		
-U+2B26	⬦	2B00..2BFF	Miscellaneous Symbols and Arrows	White medium diamond		
-U+2B27	⬧	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium lozenge		
-U+2B28	⬨	2B00..2BFF	Miscellaneous Symbols and Arrows	White medium lozenge		
-U+2B29	⬩	2B00..2BFF	Miscellaneous Symbols and Arrows	Black small diamond		
-U+2B2A	⬪	2B00..2BFF	Miscellaneous Symbols and Arrows	Black small lozenge		
-U+2B2B	⬫	2B00..2BFF	Miscellaneous Symbols and Arrows	White small lozenge		
-U+2B2C	⬬	2B00..2BFF	Miscellaneous Symbols and Arrows	Black horizontal ellipse		
-U+2B2D	⬭	2B00..2BFF	Miscellaneous Symbols and Arrows	White horizontal ellipse		
-U+2B2E	⬮	2B00..2BFF	Miscellaneous Symbols and Arrows	Black vertical ellipse		
-U+2B2F	⬯	2B00..2BFF	Miscellaneous Symbols and Arrows	White vertical ellipse		
-U+2B30	⬰	2B00..2BFF	Miscellaneous Symbols and Arrows	Left arrow with small circle		
-U+2B31	⬱	2B00..2BFF	Miscellaneous Symbols and Arrows	Three leftwards arrows		
-U+2B32	⬲	2B00..2BFF	Miscellaneous Symbols and Arrows	Left arrow with circled plus		
-U+2B33	⬳	2B00..2BFF	Miscellaneous Symbols and Arrows	Long leftwards squiggle arrow		
-U+2B34	⬴	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with vertical stroke		
-U+2B35	⬵	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with double vertical stroke		
-U+2B36	⬶	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow from bar		
-U+2B37	⬷	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed triple dash arrow		
-U+2B38	⬸	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow with dotted stem		
-U+2B39	⬹	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow with tail with vertical stroke		
-U+2B3A	⬺	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow with tail with double vertical stroke		
-U+2B3B	⬻	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with tail		
-U+2B3C	⬼	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with tail with vertical stroke		
-U+2B3D	⬽	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with tail with double vertical stroke		
-U+2B3E	⬾	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow through x		
-U+2B3F	⬿	2B00..2BFF	Miscellaneous Symbols and Arrows	Wave arrow pointing directly left		
-U+2B40	⭀	2B00..2BFF	Miscellaneous Symbols and Arrows	Equals sign above leftwards arrow		
-U+2B41	⭁	2B00..2BFF	Miscellaneous Symbols and Arrows	Reverse tilde operator above leftwards arrow		
-U+2B42	⭂	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow above reverse almost equal to		
-U+2B43	⭃	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow through greater-than		
-U+2B44	⭄	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow through superset		
-U+2B45	⭅	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards quadruple arrow		
-U+2B46	⭆	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards quadruple arrow		
-U+2B47	⭇	2B00..2BFF	Miscellaneous Symbols and Arrows	Reverse tilde operator above rightwards arrow		
-U+2B48	⭈	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow above reverse almost equal to		
-U+2B49	⭉	2B00..2BFF	Miscellaneous Symbols and Arrows	Tilde operator above leftwards arrow		
-U+2B4A	⭊	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow above almost equal to		
-U+2B4B	⭋	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards arrow above reverse tilde operator		
-U+2B4C	⭌	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards arrow above reverse tilde operator		
-U+2B4D	⭍	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed zigzag arrow		
-U+2B4E	⭎	2B00..2BFF	Miscellaneous Symbols and Arrows	Short slanted north arrow		
-U+2B4F	⭏	2B00..2BFF	Miscellaneous Symbols and Arrows	Short backslanted south arrow		
-U+2B50	⭐	2B00..2BFF	Miscellaneous Symbols and Arrows	White medium star		
-U+2B51	⭑	2B00..2BFF	Miscellaneous Symbols and Arrows	Black small star		
-U+2B52	⭒	2B00..2BFF	Miscellaneous Symbols and Arrows	White small star		
-U+2B53	⭓	2B00..2BFF	Miscellaneous Symbols and Arrows	Black right-pointing pentagon		
-U+2B54	⭔	2B00..2BFF	Miscellaneous Symbols and Arrows	White right-pointing pentagon		
-U+2B55	⭕	2B00..2BFF	Miscellaneous Symbols and Arrows	Heavy large circle		
-U+2B56	⭖	2B00..2BFF	Miscellaneous Symbols and Arrows	Heavy oval with oval inside		
-U+2B57	⭗	2B00..2BFF	Miscellaneous Symbols and Arrows	Heavy circle with circle inside		
-U+2B58	⭘	2B00..2BFF	Miscellaneous Symbols and Arrows	Heavy circle		
-U+2B59	⭙	2B00..2BFF	Miscellaneous Symbols and Arrows	Heavy circled saltire		
-U+2B5A	⭚	2B00..2BFF	Miscellaneous Symbols and Arrows	Slanted north arrow with hooked head		
-U+2B5B	⭛	2B00..2BFF	Miscellaneous Symbols and Arrows	Backslanted south arrow with hooked tail		
-U+2B5C	⭜	2B00..2BFF	Miscellaneous Symbols and Arrows	Slanted north arrow with horizontal tail		
-U+2B5D	⭝	2B00..2BFF	Miscellaneous Symbols and Arrows	Backslanted south arrow with horizontal tail		
-U+2B5E	⭞	2B00..2BFF	Miscellaneous Symbols and Arrows	Bent arrow pointing downwards then north east		
-U+2B5F	⭟	2B00..2BFF	Miscellaneous Symbols and Arrows	Short bent arrow pointing downwards then north east		
-U+2B60	⭠	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow		
-U+2B61	⭡	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow		
-U+2B62	⭢	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow		
-U+2B63	⭣	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow		
-U+2B64	⭤	2B00..2BFF	Miscellaneous Symbols and Arrows	Left right triangle-headed arrow		
-U+2B65	⭥	2B00..2BFF	Miscellaneous Symbols and Arrows	Up down triangle-headed arrow		
-U+2B66	⭦	2B00..2BFF	Miscellaneous Symbols and Arrows	North west triangle-headed arrow		
-U+2B67	⭧	2B00..2BFF	Miscellaneous Symbols and Arrows	North east triangle-headed arrow		
-U+2B68	⭨	2B00..2BFF	Miscellaneous Symbols and Arrows	South east triangle-headed arrow		
-U+2B69	⭩	2B00..2BFF	Miscellaneous Symbols and Arrows	South west triangle-headed arrow		
-U+2B6A	⭪	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed dashed arrow		
-U+2B6B	⭫	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed dashed arrow		
-U+2B6C	⭬	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed dashed arrow		
-U+2B6D	⭭	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed dashed arrow		
-U+2B6E	⭮	2B00..2BFF	Miscellaneous Symbols and Arrows	Clockwise triangle-headed open circle arrow		
-U+2B6F	⭯	2B00..2BFF	Miscellaneous Symbols and Arrows	Anticlockwise triangle-headed open circle arrow		
-U+2B70	⭰	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow to bar		
-U+2B71	⭱	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow to bar		
-U+2B72	⭲	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow to bar		
-U+2B73	⭳	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow to bar		
-U+2B76	⭶	2B00..2BFF	Miscellaneous Symbols and Arrows	North west triangle-headed arrow to bar		
-U+2B77	⭷	2B00..2BFF	Miscellaneous Symbols and Arrows	North east triangle-headed arrow to bar		
-U+2B78	⭸	2B00..2BFF	Miscellaneous Symbols and Arrows	South east triangle-headed arrow to bar		
-U+2B79	⭹	2B00..2BFF	Miscellaneous Symbols and Arrows	South west triangle-headed arrow to bar		
-U+2B7A	⭺	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow with double horizontal stroke		
-U+2B7B	⭻	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow with double horizontal stroke		
-U+2B7C	⭼	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow with double horizontal stroke		
-U+2B7D	⭽	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow with double horizontal stroke		
-U+2B7E	⭾	2B00..2BFF	Miscellaneous Symbols and Arrows	Horizontal tab key		
-U+2B7F	⭿	2B00..2BFF	Miscellaneous Symbols and Arrows	Vertical tab key		
-U+2B80	⮀	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow over rightwards triangle-headed arrow		
-U+2B81	⮁	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow leftwards of downwards triangle-headed arrow		
-U+2B82	⮂	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow over leftwards triangle-headed arrow		
-U+2B83	⮃	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow leftwards of upwards triangle-headed arrow		
-U+2B84	⮄	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed paired arrows		
-U+2B85	⮅	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed paired arrows		
-U+2B86	⮆	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed paired arrows		
-U+2B87	⮇	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed paired arrows		
-U+2B88	⮈	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards black circled white arrow		
-U+2B89	⮉	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards black circled white arrow		
-U+2B8A	⮊	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards black circled white arrow		
-U+2B8B	⮋	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards black circled white arrow		
-U+2B8C	⮌	2B00..2BFF	Miscellaneous Symbols and Arrows	Anticlockwise triangle-headed right u-shaped arrow		
-U+2B8D	⮍	2B00..2BFF	Miscellaneous Symbols and Arrows	Anticlockwise triangle-headed bottom u-shaped arrow		
-U+2B8E	⮎	2B00..2BFF	Miscellaneous Symbols and Arrows	Anticlockwise triangle-headed left u-shaped arrow		
-U+2B8F	⮏	2B00..2BFF	Miscellaneous Symbols and Arrows	Anticlockwise triangle-headed top u-shaped arrow		
-U+2B90	⮐	2B00..2BFF	Miscellaneous Symbols and Arrows	Return left		
-U+2B91	⮑	2B00..2BFF	Miscellaneous Symbols and Arrows	Return right		
-U+2B92	⮒	2B00..2BFF	Miscellaneous Symbols and Arrows	Newline left		
-U+2B93	⮓	2B00..2BFF	Miscellaneous Symbols and Arrows	Newline right		
-U+2B94	⮔	2B00..2BFF	Miscellaneous Symbols and Arrows	Four corner arrows circling anticlockwise		
-U+2B95	⮕	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards black arrow		
-U+2B96	⮖	2B00..2BFF	Miscellaneous Symbols and Arrows	Equals sign with infinity above		
-U+2B97	⮗	2B00..2BFF	Miscellaneous Symbols and Arrows	Symbol for type a electronics		
-U+2B98	⮘	2B00..2BFF	Miscellaneous Symbols and Arrows	Three-d top-lighted leftwards equilateral arrowhead		
-U+2B99	⮙	2B00..2BFF	Miscellaneous Symbols and Arrows	Three-d right-lighted upwards equilateral arrowhead		
-U+2B9A	⮚	2B00..2BFF	Miscellaneous Symbols and Arrows	Three-d top-lighted rightwards equilateral arrowhead		
-U+2B9B	⮛	2B00..2BFF	Miscellaneous Symbols and Arrows	Three-d left-lighted downwards equilateral arrowhead		
-U+2B9C	⮜	2B00..2BFF	Miscellaneous Symbols and Arrows	Black leftwards equilateral arrowhead		
-U+2B9D	⮝	2B00..2BFF	Miscellaneous Symbols and Arrows	Black upwards equilateral arrowhead		
-U+2B9E	⮞	2B00..2BFF	Miscellaneous Symbols and Arrows	Black rightwards equilateral arrowhead		
-U+2B9F	⮟	2B00..2BFF	Miscellaneous Symbols and Arrows	Black downwards equilateral arrowhead		
-U+2BA0	⮠	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow with long tip leftwards		
-U+2BA1	⮡	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards triangle-headed arrow with long tip rightwards		
-U+2BA2	⮢	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow with long tip leftwards		
-U+2BA3	⮣	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards triangle-headed arrow with long tip rightwards		
-U+2BA4	⮤	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow with long tip upwards		
-U+2BA5	⮥	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow with long tip upwards		
-U+2BA6	⮦	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards triangle-headed arrow with long tip downwards		
-U+2BA7	⮧	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards triangle-headed arrow with long tip downwards		
-U+2BA8	⮨	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved downwards and leftwards arrow		
-U+2BA9	⮩	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved downwards and rightwards arrow		
-U+2BAA	⮪	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved upwards and leftwards arrow		
-U+2BAB	⮫	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved upwards and rightwards arrow		
-U+2BAC	⮬	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved leftwards and upwards arrow		
-U+2BAD	⮭	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved rightwards and upwards arrow		
-U+2BAE	⮮	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved leftwards and downwards arrow		
-U+2BAF	⮯	2B00..2BFF	Miscellaneous Symbols and Arrows	Black curved rightwards and downwards arrow		
-U+2BB0	⮰	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow down left		
-U+2BB1	⮱	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow down right		
-U+2BB2	⮲	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow up left		
-U+2BB3	⮳	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow up right		
-U+2BB4	⮴	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow left up		
-U+2BB5	⮵	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow right up		
-U+2BB6	⮶	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow left down		
-U+2BB7	⮷	2B00..2BFF	Miscellaneous Symbols and Arrows	Ribbon arrow right down		
-U+2BB8	⮸	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards white arrow from bar with horizontal bar		
-U+2BB9	⮹	2B00..2BFF	Miscellaneous Symbols and Arrows	Up arrowhead in a rectangle box		
-U+2BBA	⮺	2B00..2BFF	Miscellaneous Symbols and Arrows	Overlapping white squares		
-U+2BBB	⮻	2B00..2BFF	Miscellaneous Symbols and Arrows	Overlapping white and black squares		
-U+2BBC	⮼	2B00..2BFF	Miscellaneous Symbols and Arrows	Overlapping black squares		
-U+2BBD	⮽	2B00..2BFF	Miscellaneous Symbols and Arrows	Ballot box with light x		
-U+2BBE	⮾	2B00..2BFF	Miscellaneous Symbols and Arrows	Circled x		
-U+2BBF	⮿	2B00..2BFF	Miscellaneous Symbols and Arrows	Circled bold x		
-U+2BC0	⯀	2B00..2BFF	Miscellaneous Symbols and Arrows	Black square centred		
-U+2BC1	⯁	2B00..2BFF	Miscellaneous Symbols and Arrows	Black diamond centred		
-U+2BC2	⯂	2B00..2BFF	Miscellaneous Symbols and Arrows	Turned black pentagon		
-U+2BC3	⯃	2B00..2BFF	Miscellaneous Symbols and Arrows	Horizontal black octagon		
-U+2BC4	⯄	2B00..2BFF	Miscellaneous Symbols and Arrows	Black octagon		
-U+2BC5	⯅	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium up-pointing triangle centred		
-U+2BC6	⯆	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium down-pointing triangle centred		
-U+2BC7	⯇	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium left-pointing triangle centred		
-U+2BC8	⯈	2B00..2BFF	Miscellaneous Symbols and Arrows	Black medium right-pointing triangle centred		
-U+2BC9	⯉	2B00..2BFF	Miscellaneous Symbols and Arrows	Neptune form two		
-U+2BCA	⯊	2B00..2BFF	Miscellaneous Symbols and Arrows	Top half black circle		
-U+2BCB	⯋	2B00..2BFF	Miscellaneous Symbols and Arrows	Bottom half black circle		
-U+2BCC	⯌	2B00..2BFF	Miscellaneous Symbols and Arrows	Light four pointed black cusp		
-U+2BCD	⯍	2B00..2BFF	Miscellaneous Symbols and Arrows	Rotated light four pointed black cusp		
-U+2BCE	⯎	2B00..2BFF	Miscellaneous Symbols and Arrows	White four pointed cusp		
-U+2BCF	⯏	2B00..2BFF	Miscellaneous Symbols and Arrows	Rotated white four pointed cusp		
-U+2BD0	⯐	2B00..2BFF	Miscellaneous Symbols and Arrows	Square position indicator		
-U+2BD1	⯑	2B00..2BFF	Miscellaneous Symbols and Arrows	Uncertainty sign		
-U+2BD2	⯒	2B00..2BFF	Miscellaneous Symbols and Arrows	Group mark		
-U+2BD3	⯓	2B00..2BFF	Miscellaneous Symbols and Arrows	Pluto form two		
-U+2BD4	⯔	2B00..2BFF	Miscellaneous Symbols and Arrows	Pluto form three		
-U+2BD5	⯕	2B00..2BFF	Miscellaneous Symbols and Arrows	Pluto form four		
-U+2BD6	⯖	2B00..2BFF	Miscellaneous Symbols and Arrows	Pluto form five		
-U+2BD7	⯗	2B00..2BFF	Miscellaneous Symbols and Arrows	Transpluto		
-U+2BD8	⯘	2B00..2BFF	Miscellaneous Symbols and Arrows	Proserpina		
-U+2BD9	⯙	2B00..2BFF	Miscellaneous Symbols and Arrows	Astraea		
-U+2BDA	⯚	2B00..2BFF	Miscellaneous Symbols and Arrows	Hygiea		
-U+2BDB	⯛	2B00..2BFF	Miscellaneous Symbols and Arrows	Pholus		
-U+2BDC	⯜	2B00..2BFF	Miscellaneous Symbols and Arrows	Nessus		
-U+2BDD	⯝	2B00..2BFF	Miscellaneous Symbols and Arrows	White moon selena		
-U+2BDE	⯞	2B00..2BFF	Miscellaneous Symbols and Arrows	Black diamond on cross		
-U+2BDF	⯟	2B00..2BFF	Miscellaneous Symbols and Arrows	True light moon arta		
-U+2BE0	⯠	2B00..2BFF	Miscellaneous Symbols and Arrows	Cupido		
-U+2BE1	⯡	2B00..2BFF	Miscellaneous Symbols and Arrows	Hades		
-U+2BE2	⯢	2B00..2BFF	Miscellaneous Symbols and Arrows	Zeus		
-U+2BE3	⯣	2B00..2BFF	Miscellaneous Symbols and Arrows	Kronos		
-U+2BE4	⯤	2B00..2BFF	Miscellaneous Symbols and Arrows	Apollon		
-U+2BE5	⯥	2B00..2BFF	Miscellaneous Symbols and Arrows	Admetos		
-U+2BE6	⯦	2B00..2BFF	Miscellaneous Symbols and Arrows	Vulcanus		
-U+2BE7	⯧	2B00..2BFF	Miscellaneous Symbols and Arrows	Poseidon		
-U+2BE8	⯨	2B00..2BFF	Miscellaneous Symbols and Arrows	Left half black star		
-U+2BE9	⯩	2B00..2BFF	Miscellaneous Symbols and Arrows	Right half black star		
-U+2BEA	⯪	2B00..2BFF	Miscellaneous Symbols and Arrows	Star with left half black		
-U+2BEB	⯫	2B00..2BFF	Miscellaneous Symbols and Arrows	Star with right half black		
-U+2BEC	⯬	2B00..2BFF	Miscellaneous Symbols and Arrows	Leftwards two-headed arrow with triangle arrowheads		
-U+2BED	⯭	2B00..2BFF	Miscellaneous Symbols and Arrows	Upwards two-headed arrow with triangle arrowheads		
-U+2BEE	⯮	2B00..2BFF	Miscellaneous Symbols and Arrows	Rightwards two-headed arrow with triangle arrowheads		
-U+2BEF	⯯	2B00..2BFF	Miscellaneous Symbols and Arrows	Downwards two-headed arrow with triangle arrowheads		
-U+2BF0	⯰	2B00..2BFF	Miscellaneous Symbols and Arrows	Eris form one		
-U+2BF1	⯱	2B00..2BFF	Miscellaneous Symbols and Arrows	Eris form two		
-U+2BF2	⯲	2B00..2BFF	Miscellaneous Symbols and Arrows	Sedna		
-U+2BF3	⯳	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol vigintile		
-U+2BF4	⯴	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol novile		
-U+2BF5	⯵	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol quintile		
-U+2BF6	⯶	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol binovile		
-U+2BF7	⯷	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol sentagon		
-U+2BF8	⯸	2B00..2BFF	Miscellaneous Symbols and Arrows	Russian astrological symbol tredecile		
-U+2BF9	⯹	2B00..2BFF	Miscellaneous Symbols and Arrows	Equals sign with infinity below		
-U+2BFA	⯺	2B00..2BFF	Miscellaneous Symbols and Arrows	United symbol		
-U+2BFB	⯻	2B00..2BFF	Miscellaneous Symbols and Arrows	Separated symbol		
-U+2BFC	⯼	2B00..2BFF	Miscellaneous Symbols and Arrows	Doubled symbol		
-U+2BFD	⯽	2B00..2BFF	Miscellaneous Symbols and Arrows	Passed symbol		
-U+2BFE	⯾	2B00..2BFF	Miscellaneous Symbols and Arrows	Reversed right angle		
-U+2BFF	⯿	2B00..2BFF	Miscellaneous Symbols and Arrows	Hellschreiber pause symbol		
+code_points	chars	tab_completions	unicode_name	base
+U+2B00	⬀		NORTH EAST WHITE ARROW	
+U+2B01	⬁		NORTH WEST WHITE ARROW	
+U+2B02	⬂		SOUTH EAST WHITE ARROW	
+U+2B03	⬃		SOUTH WEST WHITE ARROW	
+U+2B04	⬄		LEFT RIGHT WHITE ARROW	
+U+2B05	⬅		LEFTWARDS BLACK ARROW	
+U+2B06	⬆		UPWARDS BLACK ARROW	
+U+2B07	⬇		DOWNWARDS BLACK ARROW	
+U+2B08	⬈		NORTH EAST BLACK ARROW	
+U+2B09	⬉		NORTH WEST BLACK ARROW	
+U+2B0A	⬊		SOUTH EAST BLACK ARROW	
+U+2B0B	⬋		SOUTH WEST BLACK ARROW	
+U+2B0C	⬌		LEFT RIGHT BLACK ARROW	
+U+2B0D	⬍		UP DOWN BLACK ARROW	
+U+2B0E	⬎		RIGHTWARDS ARROW WITH TIP DOWNWARDS	
+U+2B0F	⬏		RIGHTWARDS ARROW WITH TIP UPWARDS	
+U+2B10	⬐		LEFTWARDS ARROW WITH TIP DOWNWARDS	
+U+2B11	⬑		LEFTWARDS ARROW WITH TIP UPWARDS	
+U+2B12	⬒		SQUARE WITH TOP HALF BLACK	
+U+2B13	⬓		SQUARE WITH BOTTOM HALF BLACK	
+U+2B14	⬔		SQUARE WITH UPPER RIGHT DIAGONAL HALF BLACK	
+U+2B15	⬕		SQUARE WITH LOWER LEFT DIAGONAL HALF BLACK	
+U+2B16	⬖		DIAMOND WITH LEFT HALF BLACK	
+U+2B17	⬗		DIAMOND WITH RIGHT HALF BLACK	
+U+2B18	⬘		DIAMOND WITH TOP HALF BLACK	
+U+2B19	⬙		DIAMOND WITH BOTTOM HALF BLACK	
+U+2B1A	⬚		DOTTED SQUARE	
+U+2B1B	⬛		BLACK LARGE SQUARE	
+U+2B1C	⬜		WHITE LARGE SQUARE	
+U+2B1D	⬝		BLACK VERY SMALL SQUARE	
+U+2B1E	⬞		WHITE VERY SMALL SQUARE	
+U+2B1F	⬟		BLACK PENTAGON	
+U+2B20	⬠		WHITE PENTAGON	
+U+2B21	⬡		WHITE HEXAGON	
+U+2B22	⬢		BLACK HEXAGON	
+U+2B23	⬣		HORIZONTAL BLACK HEXAGON	
+U+2B24	⬤		BLACK LARGE CIRCLE	
+U+2B25	⬥		BLACK MEDIUM DIAMOND	
+U+2B26	⬦		WHITE MEDIUM DIAMOND	
+U+2B27	⬧		BLACK MEDIUM LOZENGE	
+U+2B28	⬨		WHITE MEDIUM LOZENGE	
+U+2B29	⬩		BLACK SMALL DIAMOND	
+U+2B2A	⬪		BLACK SMALL LOZENGE	
+U+2B2B	⬫		WHITE SMALL LOZENGE	
+U+2B2C	⬬		BLACK HORIZONTAL ELLIPSE	
+U+2B2D	⬭		WHITE HORIZONTAL ELLIPSE	
+U+2B2E	⬮		BLACK VERTICAL ELLIPSE	
+U+2B2F	⬯		WHITE VERTICAL ELLIPSE	
+U+2B30	⬰		LEFT ARROW WITH SMALL CIRCLE	
+U+2B31	⬱		THREE LEFTWARDS ARROWS	
+U+2B32	⬲		LEFT ARROW WITH CIRCLED PLUS	
+U+2B33	⬳		LONG LEFTWARDS SQUIGGLE ARROW	
+U+2B34	⬴		LEFTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE	
+U+2B35	⬵		LEFTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE	
+U+2B36	⬶		LEFTWARDS TWO-HEADED ARROW FROM BAR	
+U+2B37	⬷		LEFTWARDS TWO-HEADED TRIPLE DASH ARROW	
+U+2B38	⬸		LEFTWARDS ARROW WITH DOTTED STEM	
+U+2B39	⬹		LEFTWARDS ARROW WITH TAIL WITH VERTICAL STROKE	
+U+2B3A	⬺		LEFTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE	
+U+2B3B	⬻		LEFTWARDS TWO-HEADED ARROW WITH TAIL	
+U+2B3C	⬼		LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE	
+U+2B3D	⬽		LEFTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE	
+U+2B3E	⬾		LEFTWARDS ARROW THROUGH X	
+U+2B3F	⬿		WAVE ARROW POINTING DIRECTLY LEFT	
+U+2B40	⭀		EQUALS SIGN ABOVE LEFTWARDS ARROW	
+U+2B41	⭁		REVERSE TILDE OPERATOR ABOVE LEFTWARDS ARROW	
+U+2B42	⭂		LEFTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO	
+U+2B43	⭃		RIGHTWARDS ARROW THROUGH GREATER-THAN	
+U+2B44	⭄		RIGHTWARDS ARROW THROUGH SUPERSET	
+U+2B45	⭅		LEFTWARDS QUADRUPLE ARROW	
+U+2B46	⭆		RIGHTWARDS QUADRUPLE ARROW	
+U+2B47	⭇		REVERSE TILDE OPERATOR ABOVE RIGHTWARDS ARROW	
+U+2B48	⭈		RIGHTWARDS ARROW ABOVE REVERSE ALMOST EQUAL TO	
+U+2B49	⭉		TILDE OPERATOR ABOVE LEFTWARDS ARROW	
+U+2B4A	⭊		LEFTWARDS ARROW ABOVE ALMOST EQUAL TO	
+U+2B4B	⭋		LEFTWARDS ARROW ABOVE REVERSE TILDE OPERATOR	
+U+2B4C	⭌		RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR	
+U+2B4D	⭍		DOWNWARDS TRIANGLE-HEADED ZIGZAG ARROW	
+U+2B4E	⭎		SHORT SLANTED NORTH ARROW	
+U+2B4F	⭏		SHORT BACKSLANTED SOUTH ARROW	
+U+2B50	⭐		WHITE MEDIUM STAR	
+U+2B51	⭑		BLACK SMALL STAR	
+U+2B52	⭒		WHITE SMALL STAR	
+U+2B53	⭓		BLACK RIGHT-POINTING PENTAGON	
+U+2B54	⭔		WHITE RIGHT-POINTING PENTAGON	
+U+2B55	⭕		HEAVY LARGE CIRCLE	
+U+2B56	⭖		HEAVY OVAL WITH OVAL INSIDE	
+U+2B57	⭗		HEAVY CIRCLE WITH CIRCLE INSIDE	
+U+2B58	⭘		HEAVY CIRCLE	
+U+2B59	⭙		HEAVY CIRCLED SALTIRE	
+U+2B5A	⭚		SLANTED NORTH ARROW WITH HOOKED HEAD	
+U+2B5B	⭛		BACKSLANTED SOUTH ARROW WITH HOOKED TAIL	
+U+2B5C	⭜		SLANTED NORTH ARROW WITH HORIZONTAL TAIL	
+U+2B5D	⭝		BACKSLANTED SOUTH ARROW WITH HORIZONTAL TAIL	
+U+2B5E	⭞		BENT ARROW POINTING DOWNWARDS THEN NORTH EAST	
+U+2B5F	⭟		SHORT BENT ARROW POINTING DOWNWARDS THEN NORTH EAST	
+U+2B60	⭠		LEFTWARDS TRIANGLE-HEADED ARROW	
+U+2B61	⭡		UPWARDS TRIANGLE-HEADED ARROW	
+U+2B62	⭢		RIGHTWARDS TRIANGLE-HEADED ARROW	
+U+2B63	⭣		DOWNWARDS TRIANGLE-HEADED ARROW	
+U+2B64	⭤		LEFT RIGHT TRIANGLE-HEADED ARROW	
+U+2B65	⭥		UP DOWN TRIANGLE-HEADED ARROW	
+U+2B66	⭦		NORTH WEST TRIANGLE-HEADED ARROW	
+U+2B67	⭧		NORTH EAST TRIANGLE-HEADED ARROW	
+U+2B68	⭨		SOUTH EAST TRIANGLE-HEADED ARROW	
+U+2B69	⭩		SOUTH WEST TRIANGLE-HEADED ARROW	
+U+2B6A	⭪		LEFTWARDS TRIANGLE-HEADED DASHED ARROW	
+U+2B6B	⭫		UPWARDS TRIANGLE-HEADED DASHED ARROW	
+U+2B6C	⭬		RIGHTWARDS TRIANGLE-HEADED DASHED ARROW	
+U+2B6D	⭭		DOWNWARDS TRIANGLE-HEADED DASHED ARROW	
+U+2B6E	⭮		CLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW	
+U+2B6F	⭯		ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW	
+U+2B70	⭰		LEFTWARDS TRIANGLE-HEADED ARROW TO BAR	
+U+2B71	⭱		UPWARDS TRIANGLE-HEADED ARROW TO BAR	
+U+2B72	⭲		RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR	
+U+2B73	⭳		DOWNWARDS TRIANGLE-HEADED ARROW TO BAR	
+U+2B76	⭶		NORTH WEST TRIANGLE-HEADED ARROW TO BAR	
+U+2B77	⭷		NORTH EAST TRIANGLE-HEADED ARROW TO BAR	
+U+2B78	⭸		SOUTH EAST TRIANGLE-HEADED ARROW TO BAR	
+U+2B79	⭹		SOUTH WEST TRIANGLE-HEADED ARROW TO BAR	
+U+2B7A	⭺		LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE	
+U+2B7B	⭻		UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE	
+U+2B7C	⭼		RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE	
+U+2B7D	⭽		DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE	
+U+2B7E	⭾		HORIZONTAL TAB KEY	
+U+2B7F	⭿		VERTICAL TAB KEY	
+U+2B80	⮀		LEFTWARDS TRIANGLE-HEADED ARROW OVER RIGHTWARDS TRIANGLE-HEADED ARROW	
+U+2B81	⮁		UPWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF DOWNWARDS TRIANGLE-HEADED ARROW	
+U+2B82	⮂		RIGHTWARDS TRIANGLE-HEADED ARROW OVER LEFTWARDS TRIANGLE-HEADED ARROW	
+U+2B83	⮃		DOWNWARDS TRIANGLE-HEADED ARROW LEFTWARDS OF UPWARDS TRIANGLE-HEADED ARROW	
+U+2B84	⮄		LEFTWARDS TRIANGLE-HEADED PAIRED ARROWS	
+U+2B85	⮅		UPWARDS TRIANGLE-HEADED PAIRED ARROWS	
+U+2B86	⮆		RIGHTWARDS TRIANGLE-HEADED PAIRED ARROWS	
+U+2B87	⮇		DOWNWARDS TRIANGLE-HEADED PAIRED ARROWS	
+U+2B88	⮈		LEFTWARDS BLACK CIRCLED WHITE ARROW	
+U+2B89	⮉		UPWARDS BLACK CIRCLED WHITE ARROW	
+U+2B8A	⮊		RIGHTWARDS BLACK CIRCLED WHITE ARROW	
+U+2B8B	⮋		DOWNWARDS BLACK CIRCLED WHITE ARROW	
+U+2B8C	⮌		ANTICLOCKWISE TRIANGLE-HEADED RIGHT U-SHAPED ARROW	
+U+2B8D	⮍		ANTICLOCKWISE TRIANGLE-HEADED BOTTOM U-SHAPED ARROW	
+U+2B8E	⮎		ANTICLOCKWISE TRIANGLE-HEADED LEFT U-SHAPED ARROW	
+U+2B8F	⮏		ANTICLOCKWISE TRIANGLE-HEADED TOP U-SHAPED ARROW	
+U+2B90	⮐		RETURN LEFT	
+U+2B91	⮑		RETURN RIGHT	
+U+2B92	⮒		NEWLINE LEFT	
+U+2B93	⮓		NEWLINE RIGHT	
+U+2B94	⮔		FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE	
+U+2B95	⮕		RIGHTWARDS BLACK ARROW	
+U+2B96	⮖		EQUALS SIGN WITH INFINITY ABOVE	
+U+2B97	⮗		SYMBOL FOR TYPE A ELECTRONICS	
+U+2B98	⮘		THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD	
+U+2B99	⮙		THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD	
+U+2B9A	⮚		THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD	
+U+2B9B	⮛		THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD	
+U+2B9C	⮜		BLACK LEFTWARDS EQUILATERAL ARROWHEAD	
+U+2B9D	⮝		BLACK UPWARDS EQUILATERAL ARROWHEAD	
+U+2B9E	⮞		BLACK RIGHTWARDS EQUILATERAL ARROWHEAD	
+U+2B9F	⮟		BLACK DOWNWARDS EQUILATERAL ARROWHEAD	
+U+2BA0	⮠		DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS	
+U+2BA1	⮡		DOWNWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS	
+U+2BA2	⮢		UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP LEFTWARDS	
+U+2BA3	⮣		UPWARDS TRIANGLE-HEADED ARROW WITH LONG TIP RIGHTWARDS	
+U+2BA4	⮤		LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS	
+U+2BA5	⮥		RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP UPWARDS	
+U+2BA6	⮦		LEFTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS	
+U+2BA7	⮧		RIGHTWARDS TRIANGLE-HEADED ARROW WITH LONG TIP DOWNWARDS	
+U+2BA8	⮨		BLACK CURVED DOWNWARDS AND LEFTWARDS ARROW	
+U+2BA9	⮩		BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW	
+U+2BAA	⮪		BLACK CURVED UPWARDS AND LEFTWARDS ARROW	
+U+2BAB	⮫		BLACK CURVED UPWARDS AND RIGHTWARDS ARROW	
+U+2BAC	⮬		BLACK CURVED LEFTWARDS AND UPWARDS ARROW	
+U+2BAD	⮭		BLACK CURVED RIGHTWARDS AND UPWARDS ARROW	
+U+2BAE	⮮		BLACK CURVED LEFTWARDS AND DOWNWARDS ARROW	
+U+2BAF	⮯		BLACK CURVED RIGHTWARDS AND DOWNWARDS ARROW	
+U+2BB0	⮰		RIBBON ARROW DOWN LEFT	
+U+2BB1	⮱		RIBBON ARROW DOWN RIGHT	
+U+2BB2	⮲		RIBBON ARROW UP LEFT	
+U+2BB3	⮳		RIBBON ARROW UP RIGHT	
+U+2BB4	⮴		RIBBON ARROW LEFT UP	
+U+2BB5	⮵		RIBBON ARROW RIGHT UP	
+U+2BB6	⮶		RIBBON ARROW LEFT DOWN	
+U+2BB7	⮷		RIBBON ARROW RIGHT DOWN	
+U+2BB8	⮸		UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR	
+U+2BB9	⮹		UP ARROWHEAD IN A RECTANGLE BOX	
+U+2BBA	⮺		OVERLAPPING WHITE SQUARES	
+U+2BBB	⮻		OVERLAPPING WHITE AND BLACK SQUARES	
+U+2BBC	⮼		OVERLAPPING BLACK SQUARES	
+U+2BBD	⮽		BALLOT BOX WITH LIGHT X	
+U+2BBE	⮾		CIRCLED X	
+U+2BBF	⮿		CIRCLED BOLD X	
+U+2BC0	⯀		BLACK SQUARE CENTRED	
+U+2BC1	⯁		BLACK DIAMOND CENTRED	
+U+2BC2	⯂		TURNED BLACK PENTAGON	
+U+2BC3	⯃		HORIZONTAL BLACK OCTAGON	
+U+2BC4	⯄		BLACK OCTAGON	
+U+2BC5	⯅		BLACK MEDIUM UP-POINTING TRIANGLE CENTRED	
+U+2BC6	⯆		BLACK MEDIUM DOWN-POINTING TRIANGLE CENTRED	
+U+2BC7	⯇		BLACK MEDIUM LEFT-POINTING TRIANGLE CENTRED	
+U+2BC8	⯈		BLACK MEDIUM RIGHT-POINTING TRIANGLE CENTRED	
+U+2BC9	⯉		NEPTUNE FORM TWO	
+U+2BCA	⯊		TOP HALF BLACK CIRCLE	
+U+2BCB	⯋		BOTTOM HALF BLACK CIRCLE	
+U+2BCC	⯌		LIGHT FOUR POINTED BLACK CUSP	
+U+2BCD	⯍		ROTATED LIGHT FOUR POINTED BLACK CUSP	
+U+2BCE	⯎		WHITE FOUR POINTED CUSP	
+U+2BCF	⯏		ROTATED WHITE FOUR POINTED CUSP	
+U+2BD0	⯐		SQUARE POSITION INDICATOR	
+U+2BD1	⯑		UNCERTAINTY SIGN	
+U+2BD2	⯒		GROUP MARK	
+U+2BD3	⯓		PLUTO FORM TWO	
+U+2BD4	⯔		PLUTO FORM THREE	
+U+2BD5	⯕		PLUTO FORM FOUR	
+U+2BD6	⯖		PLUTO FORM FIVE	
+U+2BD7	⯗		TRANSPLUTO	
+U+2BD8	⯘		PROSERPINA	
+U+2BD9	⯙		ASTRAEA	
+U+2BDA	⯚		HYGIEA	
+U+2BDB	⯛		PHOLUS	
+U+2BDC	⯜		NESSUS	
+U+2BDD	⯝		WHITE MOON SELENA	
+U+2BDE	⯞		BLACK DIAMOND ON CROSS	
+U+2BDF	⯟		TRUE LIGHT MOON ARTA	
+U+2BE0	⯠		CUPIDO	
+U+2BE1	⯡		HADES	
+U+2BE2	⯢		ZEUS	
+U+2BE3	⯣		KRONOS	
+U+2BE4	⯤		APOLLON	
+U+2BE5	⯥		ADMETOS	
+U+2BE6	⯦		VULCANUS	
+U+2BE7	⯧		POSEIDON	
+U+2BE8	⯨		LEFT HALF BLACK STAR	
+U+2BE9	⯩		RIGHT HALF BLACK STAR	
+U+2BEA	⯪		STAR WITH LEFT HALF BLACK	
+U+2BEB	⯫		STAR WITH RIGHT HALF BLACK	
+U+2BEC	⯬		LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS	
+U+2BED	⯭		UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS	
+U+2BEE	⯮		RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS	
+U+2BEF	⯯		DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS	
+U+2BF0	⯰		ERIS FORM ONE	
+U+2BF1	⯱		ERIS FORM TWO	
+U+2BF2	⯲		SEDNA	
+U+2BF3	⯳		RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE	
+U+2BF4	⯴		RUSSIAN ASTROLOGICAL SYMBOL NOVILE	
+U+2BF5	⯵		RUSSIAN ASTROLOGICAL SYMBOL QUINTILE	
+U+2BF6	⯶		RUSSIAN ASTROLOGICAL SYMBOL BINOVILE	
+U+2BF7	⯷		RUSSIAN ASTROLOGICAL SYMBOL SENTAGON	
+U+2BF8	⯸		RUSSIAN ASTROLOGICAL SYMBOL TREDECILE	
+U+2BF9	⯹		EQUALS SIGN WITH INFINITY BELOW	
+U+2BFA	⯺		UNITED SYMBOL	
+U+2BFB	⯻		SEPARATED SYMBOL	
+U+2BFC	⯼		DOUBLED SYMBOL	
+U+2BFD	⯽		PASSED SYMBOL	
+U+2BFE	⯾		REVERSED RIGHT ANGLE	
+U+2BFF	⯿		HELLSCHREIBER PAUSE SYMBOL	
