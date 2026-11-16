@@ -4,12 +4,14 @@
 # Columns are identified by table key; TOML table order is not significant.
 # Exporters must choose an explicit column order.
 # `required` governs header presence; `allow_empty` governs individual cells.
-# Patterns are full-string matches, applied to each item after splitting lists.
+# item_pattern overrides format.item_pattern and uses full-string matching.
+# For strings it matches the whole cell; for lists it matches each split item.
 
 schema_version = 1
 status = "draft"
 
 [format]
+# TSV readers require unique headers and exactly one field per header in each row.
 encoding = "utf-8"
 delimiter = "\t"
 quotechar = '"'
@@ -17,62 +19,37 @@ doublequote = true
 line_terminator = "\n"
 header = true
 allow_unknown_columns = false
+item_type = "string"
+# Accept every character, including tabs, line breaks, and carriage returns.
+# Empty values remain subject to allow_empty and the list settings below.
+item_pattern = '[\s\S]*'
 
-[lists]
-separator = ", "
-empty_cell = "empty list"
-description = """
-Split nonempty cells on the exact comma-space delimiter, not on bare commas.
-Do not store a trailing delimiter or empty items. Preserve item order.
-Each list column specifies whether an empty list is allowed.
-"""
+# Split on the exact delimiter, not bare commas; preserve item order.
+# An empty cell means an empty list, subject to the column's allow_empty setting.
+lists.separator = ", "
+lists.allow_empty_items = false
+lists.allow_trailing_separator = false
 
-[validation]
-rules = [
-    "Header names must be unique; every row must have exactly the header's number of fields.",
-    "Code points must be Unicode scalar values: U+0000 through U+10FFFF, excluding U+D800 through U+DFFF.",
-    "Decoding code_points in order must reproduce text exactly.",
-    "Preserve text exactly, including whitespace; do not strip or normalize it.",
-    "If populated, block and block_name must both be populated and describe the same Unicode block.",
-    "A populated block applies only to a single-code-point entry and must contain that code point.",
-]
-
+[columns]
 [columns.code_points]
 required = true
 allow_empty = false
 type = "list"
-item_type = "string"
 min_items = 1
 item_pattern = 'U\+[0-9A-F]{4,6}'
 description = """
 Nonempty comma-space-separated list of the replacement text's Unicode scalar
 values, in order. Use uppercase hexadecimal with at least four digits.
 Repeated code points are allowed, including in phrases.
+Values must be U+0000 through U+10FFFF, excluding U+D800 through U+DFFF.
+Decoding the values in order must reproduce text exactly.
 """
 examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
-
-[columns.text]
-required = true
-allow_empty = false
-type = "string"
-description = "Exact replacement text, without padding added solely for display."
-examples = ["α", "≠", "✅️"]
-
-[columns.name]
-required = true
-allow_empty = false
-type = "string"
-description = """
-Human-readable description of the replacement text. May use Unicode names or a
-free-form phrase description. This is plain text, not an encoded list.
-"""
-examples = ["Greek small letter alpha", "Not a Number"]
 
 [columns.tab_completions]
 required = true
 allow_empty = true
 type = "list"
-item_type = "string"
 item_pattern = '\\[\x21-\x5B\x5D-\x7E]+'
 unique_items = true
 description = """
@@ -84,6 +61,26 @@ not be stored. An empty cell means no aliases. A bare comma within an alias
 is allowed because it cannot be followed by a space within that alias.
 """
 examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
+
+[columns.text]
+required = true
+allow_empty = false
+type = "string"
+description = """
+Exact replacement text, without padding added solely for display.
+Preserve whitespace exactly; do not strip or Unicode-normalize the text.
+"""
+examples = ["α", "≠", "✅️"]
+
+[columns.name]
+required = true
+allow_empty = false
+type = "string"
+description = """
+Human-readable description of the replacement text. May use Unicode names or a
+free-form phrase description. This is plain text, not an encoded list.
+"""
+examples = ["Greek small letter alpha", "Not a Number"]
 
 [columns.display]
 required = false
@@ -99,10 +96,13 @@ This field does not change the replacement text or its code points.
 required = false
 allow_empty = true
 type = "string"
-pattern = '[0-9A-F]{4,6}\.\.[0-9A-F]{4,6}'
+item_pattern = '[0-9A-F]{4,6}\.\.[0-9A-F]{4,6}'
 description = """
 Inclusive Unicode block bounds in uppercase hexadecimal, without U+ prefixes.
 The lower bound must not exceed the upper bound; both must be at most 10FFFF.
+Applies only to a single-code-point entry and must contain that code point.
+If populated, block_name must also be populated and name the same Unicode block.
+Conversely, a populated block_name requires a populated block.
 An absent column or empty cell means unspecified or not applicable.
 """
 examples = ["0000..007F", "1F600..1F64F"]
