@@ -1,0 +1,135 @@
+#:schema ./schema-definition.json
+# Draft contract for icon TSV files. Existing files have not yet been migrated.
+# This is a project-specific schema vocabulary, not a standard TOML schema.
+# Columns are identified by table key; TOML table order is not significant.
+# Exporters must choose an explicit column order.
+# `required` governs header presence; `allow_empty` governs individual cells.
+# Patterns are full-string matches, applied to each item after splitting lists.
+
+schema_version = 1
+status = "draft"
+
+[format]
+encoding = "utf-8"
+delimiter = "\t"
+quotechar = '"'
+doublequote = true
+line_terminator = "\n"
+header = true
+allow_unknown_columns = false
+
+[lists]
+separator = ", "
+empty_cell = "empty list"
+description = """
+Split nonempty cells on the exact comma-space delimiter, not on bare commas.
+Do not store a trailing delimiter or empty items. Preserve item order.
+Each list column specifies whether an empty list is allowed.
+"""
+
+[validation]
+rules = [
+    "Header names must be unique; every row must have exactly the header's number of fields.",
+    "Code points must be Unicode scalar values: U+0000 through U+10FFFF, excluding U+D800 through U+DFFF.",
+    "Decoding code_points in order must reproduce text exactly.",
+    "Preserve text exactly, including whitespace; do not strip or normalize it.",
+    "If populated, block and block_name must both be populated and describe the same Unicode block.",
+    "A populated block applies only to a single-code-point entry and must contain that code point.",
+]
+
+[columns.code_points]
+required = true
+allow_empty = false
+type = "list"
+item_type = "string"
+min_items = 1
+item_pattern = 'U\+[0-9A-F]{4,6}'
+description = """
+Nonempty comma-space-separated list of the replacement text's Unicode scalar
+values, in order. Use uppercase hexadecimal with at least four digits.
+Repeated code points are allowed, including in phrases.
+"""
+examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
+
+[columns.text]
+required = true
+allow_empty = false
+type = "string"
+description = "Exact replacement text, without padding added solely for display."
+examples = ["α", "≠", "✅️"]
+
+[columns.name]
+required = true
+allow_empty = false
+type = "string"
+description = """
+Human-readable description of the replacement text. May use Unicode names or a
+free-form phrase description. This is plain text, not an encoded list.
+"""
+examples = ["Greek small letter alpha", "Not a Number"]
+
+[columns.tab_completions]
+required = true
+allow_empty = true
+type = "list"
+item_type = "string"
+item_pattern = '\\[\x21-\x5B\x5D-\x7E]+'
+unique_items = true
+description = """
+Comma-space-separated completion aliases. Each alias begins with a backslash,
+followed by one or more printable ASCII characters other than backslash
+(U+0021 through U+007E, excluding U+005C). Spaces are forbidden within aliases.
+The terminating space used to trigger AutoKey expansion is implicit and must
+not be stored. An empty cell means no aliases. A bare comma within an alias
+is allowed because it cannot be followed by a space within that alias.
+"""
+examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
+
+[columns.display]
+required = false
+allow_empty = true
+type = "string"
+description = """
+Optional presentation text, such as a combining mark surrounded by nonbreaking
+spaces. An absent column or empty cell means display the replacement text.
+This field does not change the replacement text or its code points.
+"""
+
+[columns.block]
+required = false
+allow_empty = true
+type = "string"
+pattern = '[0-9A-F]{4,6}\.\.[0-9A-F]{4,6}'
+description = """
+Inclusive Unicode block bounds in uppercase hexadecimal, without U+ prefixes.
+The lower bound must not exceed the upper bound; both must be at most 10FFFF.
+An absent column or empty cell means unspecified or not applicable.
+"""
+examples = ["0000..007F", "1F600..1F64F"]
+
+[columns.block_name]
+required = false
+allow_empty = true
+type = "string"
+description = "Official name of the Unicode block identified by block; empty if unspecified."
+examples = ["Basic Latin", "Emoticons"]
+
+[columns.latex_code]
+required = false
+allow_empty = true
+type = "string"
+description = """
+LaTeX source representing the replacement text, without surrounding math-mode
+delimiters. This is plain text, not a list. Empty means unspecified.
+"""
+examples = ['\alpha', '\not=']
+
+[columns.base]
+required = false
+allow_empty = true
+type = "string"
+description = """
+Related base or unstyled text, for example 'a' for subscript 'ₐ'. May contain
+multiple characters. Empty means unspecified or not applicable.
+"""
+examples = ["a", "0"]

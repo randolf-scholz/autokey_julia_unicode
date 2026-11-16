@@ -8,17 +8,9 @@
         "wordChars": "[^\\t]"
     },
     "description": null,
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    },
-    "hotkey": {
-        "modifiers": [],
-        "hotKey": null
-    },
-    "modes": [
-        1
-    ],
+    "filter": { "regex": null, "isRecursive": false },
+    "hotkey": { "modifiers": [], "hotKey": null },
+    "modes": [1],
     "matchCase": false,
     "omitTrigger": false,
     "prompt": false,

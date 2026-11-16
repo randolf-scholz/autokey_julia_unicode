@@ -15,12 +15,6 @@
         "triggerInside": true,
         "wordChars": "[\\w]"
     },
-    "hotkey": {
-        "modifiers": [],
-        "hotKey": null
-    },
-    "filter": {
-        "regex": null,
-        "isRecursive": false
-    }
+    "hotkey": { "modifiers": [], "hotKey": null },
+    "filter": { "regex": null, "isRecursive": false }
 }

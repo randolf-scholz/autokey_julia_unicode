@@ -46,6 +46,14 @@ hooks = [
 ]
 
 [[repos]]
+repo = "https://github.com/tombi-toml/tombi-pre-commit"
+rev = "v1.11.2"
+hooks = [
+    { id = "tombi-format", args = ["--offline"] },
+    { id = "tombi-lint", args = ["--offline"] },
+]
+
+[[repos]]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
 rev = "v0.17.4"
 hooks = [
@@ -58,8 +66,6 @@ hooks = [
     { id = "ruff-format", files = "^src/|^tests/" },
     { id = "ruff-check", files = "^src/|^tests/" },
 ]
-
-
 
 [[repos]]
 repo = "https://github.com/igorshubovych/markdownlint-cli"
@@ -78,6 +84,23 @@ hooks = [
     {
         id = "shellcheck",
         args = ["-x", "--shell=bash", "--color=always", "--format=gcc", "--"],
+    },
+]
+
+[[repos]]
+repo = "https://github.com/biomejs/pre-commit"
+rev = "v2.6.6"
+hooks = [
+    {
+        id = "biome-format",
+        types = ["json"],
+        args = [
+            "--json-formatter-expand=never",
+            "--json-formatter-bracket-spacing=true",
+            "--json-formatter-indent-style=space",
+            "--json-formatter-indent-width=4",
+            "--json-formatter-line-width=88",
+        ],
     },
 ]
 

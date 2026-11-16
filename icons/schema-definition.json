@@ -1,0 +1,124 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Icon TSV schema definition",
+    "description": "Validates the structure of icons/schema.toml after TOML parsing. TSV content rules and regex semantics require separate validation.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "schema_version",
+        "status",
+        "format",
+        "lists",
+        "validation",
+        "columns"
+    ],
+    "properties": {
+        "schema_version": { "const": 1 },
+        "status": { "enum": ["draft", "stable"] },
+        "format": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "encoding",
+                "delimiter",
+                "quotechar",
+                "doublequote",
+                "line_terminator",
+                "header",
+                "allow_unknown_columns"
+            ],
+            "properties": {
+                "encoding": { "const": "utf-8" },
+                "delimiter": { "const": "\t" },
+                "quotechar": { "const": "\"" },
+                "doublequote": { "const": true },
+                "line_terminator": { "const": "\n" },
+                "header": { "const": true },
+                "allow_unknown_columns": { "type": "boolean" }
+            }
+        },
+        "lists": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["separator", "empty_cell", "description"],
+            "properties": {
+                "separator": { "const": ", " },
+                "empty_cell": { "const": "empty list" },
+                "description": { "type": "string", "minLength": 1 }
+            }
+        },
+        "validation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rules"],
+            "properties": {
+                "rules": {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": { "type": "string", "minLength": 1 }
+                }
+            }
+        },
+        "columns": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": { "pattern": "^[a-z][a-z0-9_]*$" },
+            "additionalProperties": { "$ref": "#/$defs/column" }
+        }
+    },
+    "$defs": {
+        "column": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["required", "allow_empty", "type", "description"],
+            "properties": {
+                "required": { "type": "boolean" },
+                "allow_empty": { "type": "boolean" },
+                "type": { "enum": ["string", "list"] },
+                "description": { "type": "string", "minLength": 1 },
+                "item_type": { "const": "string" },
+                "min_items": { "type": "integer", "minimum": 0 },
+                "item_pattern": { "type": "string", "minLength": 1 },
+                "unique_items": { "type": "boolean" },
+                "pattern": { "type": "string", "minLength": 1 },
+                "examples": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": { "type": "string" }
+                }
+            },
+            "allOf": [
+                {
+                    "if": { "properties": { "type": { "const": "list" } } },
+                    "then": {
+                        "required": ["item_type"],
+                        "not": { "required": ["pattern"] }
+                    },
+                    "else": {
+                        "not": {
+                            "anyOf": [
+                                { "required": ["item_type"] },
+                                { "required": ["min_items"] },
+                                { "required": ["item_pattern"] },
+                                { "required": ["unique_items"] }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "type": { "const": "list" },
+                            "allow_empty": { "const": false }
+                        }
+                    },
+                    "then": {
+                        "required": ["min_items"],
+                        "properties": { "min_items": { "minimum": 1 } }
+                    }
+                }
+            ]
+        }
+    }
+}

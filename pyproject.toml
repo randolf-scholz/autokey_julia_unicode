@@ -11,6 +11,7 @@ dev = [
     "autokey>=0.96.0",
     "pyrefly>=1.4.1",
     "ruff>=0.17.5",
+    "tombi>=1.11.2",
 ]
 
 [tool.ruff]
@@ -24,3 +25,14 @@ output-format = "concise"
 python-version = "3.12"
 output-format = "min-text"
 search-path = ["src/", "."]
+
+[tool.tombi]
+lint.rules.tables-out-of-order = "off"
+format.rules.indent-width = 4
+
+[[tool.tombi.schemas]]
+# XREF: https://tombi-toml.github.io/tombi/docs/formatter/auto-sorting/
+path = "tombi://www.schemastore.org/pyproject.json"
+include = ["pyproject.toml"]
+format.rules.array-values-order.enabled = false
+format.rules.table-keys-order.enabled = false
