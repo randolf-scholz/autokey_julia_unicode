@@ -70,12 +70,8 @@ function export_icons(
                 for c in chars
             ), ", ")
 
-            # Surround a leading nonspacing/enclosing mark with NBSPs so it is visible.
-            characters = join((
-                i == 1 && Base.Unicode.category_code(c) in (6, 8) ?
-                    "\u00a0$c\u00a0" : string(c)
-                for (i, c) in enumerate(chars)
-            ))
+            # Store replacement text exactly; omit cells that would break TSV records.
+            characters = occursin(r"[\t\r\n]", chars) ? "" : chars
 
             unicode_names = join((
                 get(names, UInt32(c), "(No Unicode name)")
