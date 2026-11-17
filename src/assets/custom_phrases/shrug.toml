@@ -1,0 +1,3 @@
+description = "Ascii Shrug Emoji"
+abbreviation.abbreviations = ['\:shrug: ']
+payload = '¯\_(ツ)_/¯'

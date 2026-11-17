@@ -1,0 +1,3 @@
+description = "constant"
+abbreviation.abbreviations = ['\const ']
+payload = "𝚌𝚘𝚗𝚜𝚝."

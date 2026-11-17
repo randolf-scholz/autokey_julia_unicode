@@ -1,0 +1,3 @@
+description = "Not a Number"
+abbreviation.abbreviations = ['\NaN ', '\nan ', '\NAN ']
+payload = "𝙽𝚊𝙽"

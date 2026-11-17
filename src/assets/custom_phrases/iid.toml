@@ -1,0 +1,3 @@
+description = "Independent and identically distributed random variables"
+abbreviation.abbreviations = ['\iid ']
+payload = "𝚒𝚒𝚍"
