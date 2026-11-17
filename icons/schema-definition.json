@@ -1,11 +1,22 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Icon TSV schema definition",
-    "description": "Validates only the columns table in icons/schema.toml. Other top-level settings are unrestricted. TSV content rules and regex semantics require separate validation.",
+    "description": "Validates required-column declarations and column specifications. Required column names must reference defined columns; this relationship, TSV contents, and regex semantics require separate validation.",
     "type": "object",
     "additionalProperties": true,
-    "required": ["columns"],
+    "required": ["format", "columns"],
     "properties": {
+        "format": {
+            "type": "object",
+            "required": ["required_columns"],
+            "properties": {
+                "required_columns": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+                }
+            }
+        },
         "columns": {
             "type": "object",
             "minProperties": 1,
@@ -17,9 +28,8 @@
         "column": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["required", "allow_empty", "description", "item_pattern"],
+            "required": ["allow_empty", "description", "item_pattern"],
             "properties": {
-                "required": { "type": "boolean" },
                 "allow_empty": { "type": "boolean" },
                 "list_separator": { "type": "string", "minLength": 1 },
                 "description": { "type": "string", "minLength": 1 },

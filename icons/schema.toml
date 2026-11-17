@@ -2,8 +2,8 @@
 # Draft contract for icon TSV files. Existing files have not yet been migrated.
 # This is a project-specific schema vocabulary, not a standard TOML schema.
 # Columns are identified by table key; TOML table order is not significant.
-# format.column_order defines canonical export order; readers accept any order.
-# `required` governs header presence; `allow_empty` governs cells and list items.
+# format.required_columns defines mandatory headers and canonical export order.
+# Readers accept any header order; allow_empty governs cells and list items.
 # Each column requires item_pattern; all values and list items are strings.
 # A nonempty list_separator defines a list column; omit it for a single string.
 # item_pattern uses full-string matching.
@@ -15,7 +15,7 @@ schema_version = 1
 status = "draft"
 
 [format]
-column_order = ["code_points", "chars", "tab_completions", "unicode_name", "base"]
+required_columns = ["code_points", "chars", "tab_completions", "unicode_name"]
 # TSV readers require unique headers and exactly one field per header in each row.
 encoding = "utf-8"
 delimiter = "\t"
@@ -25,11 +25,11 @@ quoting = "none"
 # Python readers also accept CR/CRLF record separators and ignore blank lines.
 line_terminator = "\n"
 header = true
-allow_unknown_columns = false
+# Extra columns are optional metadata; only the defined columns are validated.
+allow_unknown_columns = true
 
 [columns]
 [columns.code_points]
-required = true
 allow_empty = false
 min_items = 1
 item_pattern = 'U\+[0-9A-F]{4,6}'
@@ -45,7 +45,6 @@ When chars is empty, readers reconstruct the text from these values instead.
 examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
 
 [columns.chars]
-required = true
 allow_empty = true
 item_pattern = '[^\t\r\n]*'
 description = """
@@ -57,7 +56,6 @@ Leave the entire cell empty when the text contains a tab, CR, or LF.
 examples = ["α", "≠", "✅️", ""]
 
 [columns.tab_completions]
-required = true
 allow_empty = true
 item_pattern = '\\[\x21-\x5B\x5D-\x7E]+'
 list_separator = ", "
@@ -73,7 +71,6 @@ is allowed because it cannot be followed by a space within that alias.
 examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
 
 [columns.unicode_name]
-required = true
 allow_empty = true
 item_pattern = '[^\t\r\n]*'
 description = """
@@ -85,16 +82,3 @@ Name checks are skipped for characters absent from the table and for other
 multi-code-point sequences. Whitespace is significant.
 """
 examples = ["GREEK SMALL LETTER ALPHA", "", "DOUBLE-STRUCK CAPITAL N"]
-
-[columns.base]
-required = false
-allow_empty = true
-item_pattern = '[^\t\r\n]'
-description = """
-Optional project-defined counterpart, usually the unstyled or baseline
-character, for example 'N' for 'ℕ'. Must be exactly one Unicode scalar value
-when populated, not an arbitrary grapheme cluster or string. It may be inferred
-from selected compatibility decompositions or manually curated. Empty means
-unspecified. This relationship does not imply interchangeability.
-"""
-examples = ["a", "0"]

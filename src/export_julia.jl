@@ -1,11 +1,22 @@
 #!/usr/bin/env julia
-# Usage: julia src/import_julia.jl [output.tsv]
-import REPL
+# Usage: julia src/export_julia.jl [output.tsv]
+import REPL, TOML
 
 const UNICODE_DATA = joinpath(@__DIR__, "..", "third_party", "ucd", "UnicodeData.txt")
+const SCHEMA_PATH = joinpath(@__DIR__, "..", "icons", "schema.toml")
+const HEADER = ("code_points", "chars", "tab_completions", "unicode_name")
 const ICONS_PATH = normpath(joinpath(
     @__DIR__, "..", "icons", "julia_unicode", "icons-$(VERSION).tsv"
 ))
+
+"""Require the exported header to match the schema's ordered required columns."""
+function validate_header(path::AbstractString=SCHEMA_PATH)
+    schema = TOML.parsefile(path)
+    collect(HEADER) == schema["format"]["required_columns"] || throw(ArgumentError(
+        "$path: HEADER must match format.required_columns exactly"
+    ))
+    return nothing
+end
 
 """Read current and legacy Unicode names from the locally imported UCD."""
 function read_unicode_names(path::AbstractString)
@@ -25,21 +36,23 @@ function read_unicode_names(path::AbstractString)
 end
 
 """
-    export_icons(output_path=ICONS_PATH; unicode_data=UNICODE_DATA)
+    export_icons(output_path=ICONS_PATH; unicode_data=UNICODE_DATA, schema_path=SCHEMA_PATH)
 
-Export the running Julia version's LaTeX and emoji completions in the same four
-columns as icons/julia_unicode/icons.tsv. The default output is
-icons/julia_unicode/icons-<julia-version>.tsv. Both default paths are relative to
-the repository, independent of the working directory.
+Export the running Julia version's LaTeX and emoji completions in the icon
+schema's column order. The default output is
+icons/julia_unicode/icons-<julia-version>.tsv. Default paths are relative to the
+repository, independent of the working directory.
 """
 function export_icons(
     output_path::AbstractString=ICONS_PATH;
     unicode_data::AbstractString=UNICODE_DATA,
+    schema_path::AbstractString=SCHEMA_PATH,
     symbols=merge(
         REPL.REPLCompletions.latex_symbols,
         REPL.REPLCompletions.emoji_symbols,
     ),
 )
+    validate_header(schema_path)
     names = read_unicode_names(unicode_data)
 
     # Group aliases for each character or multi-code-point sequence.
@@ -49,18 +62,13 @@ function export_icons(
     end
 
     open(output_path, "w") do io
-        println(io, join((
-            "Code point(s)",
-            "Character(s)",
-            "Tab completion sequence(s)",
-            "Unicode name(s)",
-        ), '\t'))
+        println(io, join(HEADER, '\t'))
 
         for (chars, sequences) in sort!(collect(completions); by=first)
             points = join((
                 "U+" * uppercase(string(UInt32(c); base=16, pad=5))
                 for c in chars
-            ), " + ")
+            ), ", ")
 
             # Surround a leading nonspacing/enclosing mark with NBSPs so it is visible.
             characters = join((

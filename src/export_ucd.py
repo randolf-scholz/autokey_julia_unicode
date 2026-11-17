@@ -38,27 +38,25 @@ class Header(StrEnum):
     CHARS = "chars"
     TAB_COMPLETIONS = "tab_completions"
     UNICODE_NAME = "unicode_name"
-    BASE = "base"
 
 
 def validate_header(path: Path = SCHEMA_PATH) -> None:
     """Reject schema changes that would make the exported columns inconsistent."""
     with path.open("rb") as source:
         schema = tomllib.load(source)
-    if list(Header) != schema["format"]["column_order"]:
-        raise ValueError(f"{path}: Header must match format.column_order exactly")
-    if set(Header) != set(schema["columns"]):
+    if list(Header) != schema["format"]["required_columns"]:
+        raise ValueError(f"{path}: Header must match format.required_columns exactly")
+    if not set(Header) <= schema["columns"].keys():
         raise ValueError(f"{path}: Header must match the defined columns")
 
 
 class UnicodeEntry(NamedTuple):
-    """The five schema columns of each character row."""
+    """The four schema columns of each character row."""
 
     code_points: str
     chars: str
     tab_completions: str = ""
     unicode_name: str = ""
-    base: str = ""
 
 
 class UnicodeBlock(NamedTuple):

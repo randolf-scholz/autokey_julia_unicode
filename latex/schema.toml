@@ -10,7 +10,7 @@ schema_version = 1
 status = "draft"
 
 [format]
-column_order = ["code_points", "chars", "mode", "latex_code"]
+required_columns = ["code_points", "mode", "latex_code"]
 encoding = "utf-8"
 delimiter = "\t"
 quotechar = '"'
@@ -21,7 +21,6 @@ allow_unknown_columns = false
 
 [columns]
 [columns.code_points]
-required = true
 allow_empty = false
 min_items = 1
 item_pattern = 'U\+[0-9A-F]{4,6}'
@@ -36,7 +35,6 @@ Mappings describe Unicode character identity, not TeX spacing or font metrics.
 examples = ["U+03B1", "U+003D, U+0338"]
 
 [columns.chars]
-required = false
 allow_empty = false
 item_pattern = '[\s\S]*'
 description = """
@@ -47,7 +45,6 @@ An absent column means consumers must derive chars from code_points.
 examples = ["α", "ä", "≠"]
 
 [columns.mode]
-required = true
 allow_empty = false
 item_pattern = "math|text|both"
 description = """
@@ -59,7 +56,6 @@ separate rows for math and text; those rows must not overlap a both row.
 examples = ["math", "text", "both"]
 
 [columns.latex_code]
-required = true
 allow_empty = false
 item_pattern = '\\[\s\S]+'
 description = """
