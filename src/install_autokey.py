@@ -33,10 +33,10 @@ SEND_MODES: Final[dict[int, str]] = {
 class Header(StrEnum):
     """TSV column names for Unicode samples."""
 
-    CODEPOINTS = "Code point(s)"
-    CHARACTERS = "Character(s)"
-    ABBREVIATIONS = "Tab completion sequence(s)"
-    DESCRIPTION = "Unicode name(s)"
+    CODEPOINTS = "code_points"
+    CHARACTERS = "chars"
+    ABBREVIATIONS = "tab_completions"
+    DESCRIPTION = "unicode_name"
 
 
 def check_autokey_version() -> None:
@@ -105,8 +105,16 @@ class CodePoint(str):
         if not isinstance(value, str) or CodePoint.PATTERN.fullmatch(value) is None:
             raise ValueError(f"{value!r} is not a valid unicode code.")
         # Strip excess leading zeros while keeping at least four uppercase hex digits.
-        normalized = f"U+{int(value.removeprefix('U+'), 16):04X}"
+        point = int(value.removeprefix("U+"), 16)
+        if point > 0x10FFFF or 0xD800 <= point <= 0xDFFF:
+            raise ValueError(f"{value!r} is not a Unicode scalar value.")
+        normalized = f"U+{point:04X}"
         return super().__new__(cls, normalized)
+
+
+def parse_codepoints(value: str, /) -> list[CodePoint]:
+    """Read the schema's comma-space-separated code points."""
+    return [CodePoint(code) for code in value.split(", ")]
 
 
 def str_to_codepoints(s: str, /) -> list[CodePoint]:
@@ -204,11 +212,16 @@ class UnicodeSample(NamedTuple):
 
 
 def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
-    """Yield TSV icons by column name, ignoring additional columns."""
+    """Yield unquoted TSV icons, reconstructing omitted chars from code points."""
     LOGGER.info("Parsing %s", fname)
 
     with open(fname, encoding="utf8", newline="") as tsv_file:
-        reader = csv.DictReader(tsv_file, delimiter="\t", quoting=csv.QUOTE_NONE)
+        reader = csv.DictReader(
+            tsv_file,
+            delimiter="\t",
+            quoting=csv.QUOTE_NONE,
+            quotechar=None,
+        )
         if missing_cols := sorted(set(Header) - set(reader.fieldnames or ())):
             raise ValueError(f"Missing columns in {fname}: {', '.join(missing_cols)}")
 
@@ -217,9 +230,20 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
                 raise ValueError(
                     f"Missing values in {fname} at line {reader.line_num}: {missing_vals}"
                 )
+            chars = row[Header.CHARACTERS]
+            if not chars:
+                try:
+                    chars = "".join(
+                        chr(int(point.removeprefix("U+"), 16))
+                        for point in parse_codepoints(row[Header.CODEPOINTS])
+                    )
+                except ValueError as error:
+                    raise ValueError(
+                        f"{fname}:{reader.line_num}: invalid code_points: {error}"
+                    ) from error
             yield UnprocessedSample(
                 ucode=row[Header.CODEPOINTS],
-                char=row[Header.CHARACTERS],
+                char=chars,
                 abbreviations=row[Header.ABBREVIATIONS],
                 description=row[Header.DESCRIPTION],
             )
@@ -232,7 +256,7 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
 
     for item in load_icons(fname):
         ucode, char, raw_abb, description = item
-        parsed_ucodes = [CodePoint(code.strip()) for code in ucode.split(" + ")]
+        parsed_ucodes = parse_codepoints(ucode)
 
         # guard against invalid character
         if not is_glyph(char):
