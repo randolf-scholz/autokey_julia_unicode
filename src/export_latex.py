@@ -15,7 +15,7 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 OUTPUT = PROJECT_DIR / "latex" / "latex2e.tsv"
-HEADER = ("code_points", "text", "mode", "latex_code")
+HEADER = ("code_points", "chars", "mode", "latex_code")
 
 # Fragments/modifiers and extensible fills have no standalone character identity.
 EXCLUDED_MATH = frozenset(

@@ -2,7 +2,7 @@
 """Export Unicode TSV files with ``python src/export_ucd.py``.
 
 Read Blocks.txt and UnicodeData.txt from third_party/ucd. Write schema-compliant
-tables to icons/unicode_blocks, their concatenation to icons/unicode.tsv, and
+tables to icons/ucd, their concatenation to icons/unicode.tsv, and
 the block index to icons/blocks.tsv. Skip UnicodeData's First/Last ranges,
 including their endpoint records, to keep the symbol tables compact.
 Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
@@ -11,7 +11,6 @@ Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
 import argparse
 import csv
 import re
-import sys
 import tomllib
 from bisect import bisect_left, bisect_right
 from collections.abc import Iterable
@@ -20,16 +19,11 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import NamedTuple
 
-# FIXME: https://youtrack.jetbrains.com/issue/PY-94163/
-if sys.version_info[:3] < (3, 12, 3):
-    raise SystemExit(
-        "export_ucd.py requires Python 3.12.3 or newer for correct CSV quoting."
-    )
-
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 UCD_DIR = PROJECT_DIR / "third_party" / "ucd"
 ICON_DIR = PROJECT_DIR / "icons" / "ucd"
 SCHEMA_PATH = PROJECT_DIR / "icons" / "schema.toml"
+EXCLUDED_CHARS = frozenset("\t\r\n")
 UNICODE_DATA_FIELD_COUNT = 15
 MAX_CODE_POINT = 0x10FFFF
 SURROGATE_START = 0xD800
@@ -145,10 +139,17 @@ def read_unicode_names(path: Path) -> dict[int, str]:
 def write_tsv(
     path: Path, entries: Iterable[Iterable[str]], *, header: Iterable[str]
 ) -> None:
-    """Write a UTF-8 TSV with LF record separators and standard CSV quoting."""
+    """Write unquoted UTF-8 TSV, rejecting delimiters inside fields."""
     with path.open("w", encoding="utf-8", newline="") as target:
-        writer = csv.writer(target, delimiter="\t", lineterminator="\n")
-        writer.writerow(Header)
+        writer = csv.writer(
+            target,
+            delimiter="\t",
+            lineterminator="\n",
+            quoting=csv.QUOTE_NONE,
+            quotechar=None,
+            escapechar=None,
+        )
+        writer.writerow(header)
         writer.writerows(entries)
 
 
@@ -183,7 +184,7 @@ def export_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
             entries = [
                 UnicodeEntry(
                     code_points=f"U+{point:04X}",
-                    chars=chr(point),
+                    chars="" if chr(point) in EXCLUDED_CHARS else chr(point),
                     unicode_name=names[point],
                 )
                 for point in points[first:stop]
