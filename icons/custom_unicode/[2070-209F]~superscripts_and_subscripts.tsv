@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2070	⁰	\^0	Superscript zero	0
 U+2071	ⁱ	\^i	Superscript latin small letter i	i
 U+2074	⁴	\^4	Superscript four	4

@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2639 + U+FE0F	☹️	\sad	White Frowning Face	☹
 U+263A + U+FE0F	☺️	\happy	White Smiling Face	☺
 U+270A + U+FE0F	✊️	\punch, \fistbump	Raised Fist	✊

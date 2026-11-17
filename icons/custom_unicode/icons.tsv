@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+03B5	ε	\eps	Greek Small Letter Epsilon	e
 U+030A	̊	\ring	Combining Ring Above	°
 U+039C	Μ	\Mu	Greek Capital Letter Mu	M

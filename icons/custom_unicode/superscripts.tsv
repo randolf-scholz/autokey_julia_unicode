@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+1D2C	ᴬ	\^A	Modifier letter capital A	A
 U+1D2E	ᴮ	\^B	Modifier letter capital B	B
 U+A7F2	ꟲ	\^C	Modifier letter capital C	C

@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
+code_points	chars	tab_completions	unicode_name
 U+00A0	 	\nonbreakingspace	No-Break Space
 U+00A1	¡	\exclamdown, \upemark	Inverted Exclamation Mark
 U+00A2	¢	\cent	Cent Sign

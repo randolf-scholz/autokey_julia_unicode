@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+FE00	︀	\vs1	Variation selector-1		
 U+FE01	︁	\vs2	Variation selector-2		
 U+FE02	︂	\vs3	Variation selector-3		

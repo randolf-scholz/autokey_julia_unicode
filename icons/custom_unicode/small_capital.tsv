@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+0262	ɢ	\scG	Latin Letter Small Capital G	G
 U+026A	ɪ	\scI	Latin Letter Small Capital I	I
 U+0274	ɴ	\scN	Latin Letter Small Capital N	N

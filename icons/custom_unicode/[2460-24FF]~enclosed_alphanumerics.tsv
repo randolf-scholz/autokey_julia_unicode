@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2460	①	\o1	CIRCLED DIGIT ONE	1
 U+2461	②	\o2	CIRCLED DIGIT TWO	2
 U+2462	③	\o3	CIRCLED DIGIT THREE	3

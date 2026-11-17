@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2160	Ⅰ	\RM1	Roman Numeral One	1
 U+2161	Ⅱ	\RM2	Roman Numeral Two	2
 U+2162	Ⅲ	\RM3	Roman Numeral Three	3

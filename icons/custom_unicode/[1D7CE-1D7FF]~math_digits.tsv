@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+1D7CE	𝟎	\bf0	Mathematical Bold Digit Zero	0
 U+1D7CF	𝟏	\bf1	Mathematical Bold Digit One	1
 U+1D7D0	𝟐	\bf2	Mathematical Bold Digit Two	2

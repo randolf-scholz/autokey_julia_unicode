@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2090	ₐ	\_a	Latin subscript small letter a	a
 U+2091	ₑ	\_e	Latin subscript small letter e	e
 U+2094	ₔ	\_schwa	Latin subscript small letter schwa	ə

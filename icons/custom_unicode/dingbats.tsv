@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2139 + U+FE0F	ℹ️	\:info:, \info	Information source	i
 U+2610	☐	\bbox	Ballot Box	☐
 U+2611	☑	\checkedbox	Checked Checkbox	☑

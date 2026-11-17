@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)	base
+code_points	chars	tab_completions	unicode_name	base
 U+2100	℀	\a/c	Account of	a/c
 U+2101	℁	\a/s	Addressed to the subject	a/s
 U+2102	ℂ	\bbC	Double-struck capital c	C
