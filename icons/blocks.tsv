@@ -1,4 +1,4 @@
-code_points	chars	tab_completions	unicode_name	base
+block_start	block_end	block_name
 0000	007F	Basic Latin
 0080	00FF	Latin-1 Supplement
 0100	017F	Latin Extended-A

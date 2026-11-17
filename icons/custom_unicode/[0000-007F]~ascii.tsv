@@ -1,6 +1,6 @@
 code_points	chars	tab_completions	unicode_name	base
 U+0021	!	\emark	Exclamation Mark	
-U+0022	"	\quote	Double Quote	
+U+0022	"	\quote	Double Quote
 U+0023	#	\pound, \number, \hash	Pound Sign	
 U+0024	$	\dollar	Dollar Sign	
 U+0025	%	\percent	Percent Sign	
