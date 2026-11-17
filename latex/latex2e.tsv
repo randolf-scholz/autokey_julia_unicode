@@ -1,4 +1,4 @@
-code_points	text	mode	latex_code
+code_points	chars	mode	latex_code
 U+0022	""""	text	\textquotedbl
 U+0023	#	both	\#
 U+0024	$	both	\$

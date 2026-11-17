@@ -13,7 +13,7 @@ the column definitions with Tombi.
 | Column        | Required | Meaning                                                   |
 |---------------|----------|-----------------------------------------------------------|
 | `code_points` | Yes      | Nonempty comma-space-separated Unicode scalar sequence    |
-| `text`        | No       | The decoded Unicode sequence, included for readability    |
+| `chars`       | No       | The decoded Unicode sequence, included for readability    |
 | `mode`        | Yes      | `math`, `text`, or `both`                                 |
 | `latex_code`  | Yes      | A complete command or expression, without math delimiters |
 
@@ -93,7 +93,7 @@ uv run python src/export_latex.py
 
 The exporter prints the input hashes and sorts rows by numeric code-point
 sequence, then by LaTeX expression and mode to break ties. It writes columns
-in the order `code_points`, `text`, `mode`, `latex_code`.
+in the order `code_points`, `chars`, `mode`, `latex_code`.
 To compare another installation
 without replacing the checked-in snapshot:
 

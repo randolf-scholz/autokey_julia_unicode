@@ -1,12 +1,13 @@
 #:schema ../icons/schema-definition.json
 # Package-context tables map LaTeX expressions to Unicode sequences.
 # The shared definition validates the column vocabulary, not TSV contents.
-# Export order: code_points, text, mode, latex_code. Readers identify columns by name.
+# Export order: code_points, chars, mode, latex_code. Readers identify columns by name.
 
 schema_version = 1
 status = "draft"
 
 [format]
+column_order = ["code_points", "chars", "mode", "latex_code"]
 encoding = "utf-8"
 delimiter = "\t"
 quotechar = '"'
@@ -17,9 +18,8 @@ allow_unknown_columns = false
 item_type = "string"
 # Full-string matches against decoded cells or individual list items.
 item_pattern = '[\s\S]*'
-lists.separator = ", "
-lists.allow_empty_items = false
-lists.allow_trailing_separator = false
+# Split on the exact delimiter; allow_empty governs cells and list items.
+list_separator = ", "
 
 [columns]
 [columns.code_points]
@@ -32,19 +32,19 @@ description = """
 Nonempty comma-space-separated list of Unicode scalar values, in order.
 Use uppercase hexadecimal with at least four digits. Values must be U+0000
 through U+10FFFF, excluding U+D800 through U+DFFF. Repetition is allowed.
-Decoding the sequence must reproduce text exactly when text is present.
+Decoding the sequence must reproduce chars exactly when chars is present.
 Mappings describe Unicode character identity, not TeX spacing or font metrics.
 """
 examples = ["U+03B1", "U+003D, U+0338"]
 
-[columns.text]
+[columns.chars]
 required = false
 allow_empty = false
 type = "string"
 description = """
 Unicode text corresponding exactly to code_points, included for readability.
 Preserve whitespace and code-point identity; do not strip or normalize it.
-An absent column means consumers must derive text from code_points.
+An absent column means consumers must derive chars from code_points.
 """
 examples = ["α", "ä", "≠"]
 
