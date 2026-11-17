@@ -1,10 +1,10 @@
 code_points	chars	tab_completions	unicode_name	base
-U+2639 + U+FE0F	☹️	\sad	White Frowning Face	☹
-U+263A + U+FE0F	☺️	\happy	White Smiling Face	☺
-U+270A + U+FE0F	✊️	\punch, \fistbump	Raised Fist	✊
-U+270B + U+FE0F	✋️	\hand, \highfive	Raised Hand	✋
-U+270C + U+FE0F	✌️	\peace, \victory	Victory Hand	✌
-U+270D + U+FE0F	✍️	\write, \writinghand	Writing Hand	✍
+U+2639, U+FE0F	☹️	\sad	White Frowning Face	☹
+U+263A, U+FE0F	☺️	\happy	White Smiling Face	☺
+U+270A, U+FE0F	✊️	\punch, \fistbump	Raised Fist	✊
+U+270B, U+FE0F	✋️	\hand, \highfive	Raised Hand	✋
+U+270C, U+FE0F	✌️	\peace, \victory	Victory Hand	✌
+U+270D, U+FE0F	✍️	\write, \writinghand	Writing Hand	✍
 U+1F596	🖖	\vulcan, \spock, \live_long_and_prosper	Raised hand with part between middle and ring fingers	
 U+1F603	😃	\smile, \:D	Smiling Face with Open Mouth	
 U+1F604	😄	\bigsmile, \:DD	Smiling Face with Open Mouth and Smiling Eyes	
