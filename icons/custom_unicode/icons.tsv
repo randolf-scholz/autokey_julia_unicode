@@ -6,8 +6,8 @@ U+039D	Ν	\Nu	Greek Capital Letter Nu	N
 U+039F	Ο	\Omicron	Greek Capital Letter Omicron	O
 U+03BF	ο	\omicron	Greek Small Letter Omicron	o
 U+1AB2	᪲	\^oo, \^infty	Combining Infinity	
-U+21AF	↯	\downzigarrow, \contradiction	Downwards Zigzag Arrow
-U+2206	∆	\increment, \inc	Increment	
+U+21AF	↯	\downzigarrow, \contradiction	Downwards Zigzag Arrow	
+U+2206	∆	\increment, \inc	Increment	Δ
 U+2219	∙	\bullet	Bullet Operator	
 U+2254	≔	\:=, \coloneq, \coloneqq	Colon Equals	=
 U+2255	≕	\=:, \eqcolon, \eqqcolon	Equals Colon	=

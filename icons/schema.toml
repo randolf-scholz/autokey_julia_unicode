@@ -39,7 +39,8 @@ Nonempty comma-space-separated list of the replacement text's Unicode scalar
 values, in order. Use uppercase hexadecimal with at least four digits.
 Repeated code points are allowed, including in phrases.
 Values must be U+0000 through U+10FFFF, excluding U+D800 through U+DFFF.
-Decoding the values in order must reproduce chars exactly when it is populated.
+Decoding the values in order must reproduce chars exactly when it is populated,
+including all variation selectors.
 When chars is empty, readers reconstruct the text from these values instead.
 """
 examples = ["U+03B1", "U+003D, U+0338", "U+2705, U+FE0F"]
@@ -49,6 +50,11 @@ allow_empty = true
 item_pattern = '[^\t\r\n]*'
 description = """
 Exact replacement text, without padding added solely for display.
+When populated, it must equal the decoded code_points sequence exactly.
+Every variation selector in chars must also be listed in code_points, in order;
+selectors must not be added, removed, or substituted.
+No other added characters are allowed, including NBSP padding around combining
+marks. These relationships are checked by the icon validator by default.
 Preserve whitespace exactly; do not strip or Unicode-normalize the text.
 An empty cell means reconstruct the text from code_points, not an empty replacement.
 Leave the entire cell empty when the text contains a tab, CR, or LF.
@@ -57,18 +63,20 @@ examples = ["α", "≠", "✅️", ""]
 
 [columns.tab_completions]
 allow_empty = true
-item_pattern = '\\[\x21-\x5B\x5D-\x7E]+'
+# Printable ASCII U+0021..U+007E, including backslash (U+005C), excluding space.
+# [\x21-\x5B\x5D-\x7E] would exclude backslash by leaving a gap at \x5C.
+item_pattern = '\\[\x21-\x7E]+'
 list_separator = ", "
 unique_items = true
 description = """
 Comma-space-separated completion aliases. Each alias begins with a backslash,
-followed by one or more printable ASCII characters other than backslash
-(U+0021 through U+007E, excluding U+005C). Spaces are forbidden within aliases.
+followed by one or more printable ASCII characters (U+0021 through U+007E),
+including backslash. Spaces are forbidden within aliases.
 The terminating space used to trigger AutoKey expansion is implicit and must
 not be stored. An empty cell means no aliases. A bare comma within an alias
 is allowed because it cannot be followed by a space within that alias.
 """
-examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright']
+examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright', '\sc\L']
 
 [columns.unicode_name]
 allow_empty = true
