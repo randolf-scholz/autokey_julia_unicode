@@ -2,6 +2,9 @@
 # Package-context tables map LaTeX expressions to Unicode sequences.
 # The shared definition validates the column vocabulary, not TSV contents.
 # Export order: code_points, chars, mode, latex_code. Readers identify columns by name.
+# Each column requires a full-string item_pattern; values and items are strings.
+# A list_separator defines a list column; omit it for a single string.
+# Split on the exact separator; allow_empty governs cells and list items.
 
 schema_version = 1
 status = "draft"
@@ -15,19 +18,14 @@ doublequote = true
 line_terminator = "\n"
 header = true
 allow_unknown_columns = false
-item_type = "string"
-# Full-string matches against decoded cells or individual list items.
-item_pattern = '[\s\S]*'
-# Split on the exact delimiter; allow_empty governs cells and list items.
-list_separator = ", "
 
 [columns]
 [columns.code_points]
 required = true
 allow_empty = false
-type = "list"
 min_items = 1
 item_pattern = 'U\+[0-9A-F]{4,6}'
+list_separator = ", "
 description = """
 Nonempty comma-space-separated list of Unicode scalar values, in order.
 Use uppercase hexadecimal with at least four digits. Values must be U+0000
@@ -40,7 +38,7 @@ examples = ["U+03B1", "U+003D, U+0338"]
 [columns.chars]
 required = false
 allow_empty = false
-type = "string"
+item_pattern = '[\s\S]*'
 description = """
 Unicode text corresponding exactly to code_points, included for readability.
 Preserve whitespace and code-point identity; do not strip or normalize it.
@@ -51,7 +49,6 @@ examples = ["α", "ä", "≠"]
 [columns.mode]
 required = true
 allow_empty = false
-type = "string"
 item_pattern = "math|text|both"
 description = """
 The mode in which the expression is valid: math, text, or both. Both means the
@@ -64,7 +61,6 @@ examples = ["math", "text", "both"]
 [columns.latex_code]
 required = true
 allow_empty = false
-type = "string"
 item_pattern = '\\[\s\S]+'
 description = """
 A complete LaTeX command or expression, without surrounding math delimiters.
