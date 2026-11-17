@@ -40,6 +40,17 @@ import-ucd *args:
     fi
     exec "$python" src/import_ucd.py "$@"
 
+[doc("Validate TSV files or path globs (quote globs at the CLI).")]
+[positional-arguments]
+validate +args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python="${PYTHON:-python3}"
+    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
+        python=.venv/bin/python
+    fi
+    exec "$python" src/validate_tsv.py "$@"
+
 [doc("Run Python and Julia test files matching a filename glob (quote globs at the CLI).")]
 test name='*':
     #!/usr/bin/env bash
