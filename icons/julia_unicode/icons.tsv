@@ -1,4 +1,4 @@
-Code point(s)	Character(s)	Tab completion sequence(s)	Unicode name(s)
+code_points	chars	tab_completions	unicode_name
 U+000A1	¡	\exclamdown	Inverted Exclamation Mark
 U+000A3	£	\sterling	Pound Sign
 U+000A5	¥	\yen	Yen Sign
@@ -593,7 +593,7 @@ U+0223F	∿	\sinewave	Sine Wave
 U+02240	≀	\wr	Wreath Product
 U+02241	≁	\nsim	Not Tilde
 U+02242	≂	\eqsim	Minus Tilde
-U+02242 + U+00338	≂̸	\neqsim	Minus Tilde + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02242, U+00338	≂̸	\neqsim	Minus Tilde + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02243	≃	\simeq	Asymptotically Equal To
 U+02244	≄	\nsime	Not Asymptotically Equal To
 U+02245	≅	\cong	Approximately Equal To
@@ -606,9 +606,9 @@ U+0224B	≋	\tildetrpl	Triple Tilde
 U+0224C	≌	\allequal	All Equal To
 U+0224D	≍	\asymp	Equivalent To
 U+0224E	≎	\Bumpeq	Geometrically Equivalent To
-U+0224E + U+00338	≎̸	\nBumpeq	Geometrically Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0224E, U+00338	≎̸	\nBumpeq	Geometrically Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+0224F	≏	\bumpeq	Difference Between
-U+0224F + U+00338	≏̸	\nbumpeq	Difference Between + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0224F, U+00338	≏̸	\nbumpeq	Difference Between + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02250	≐	\doteq	Approaches The Limit
 U+02251	≑	\Doteq	Geometrically Equal To
 U+02252	≒	\fallingdotseq	Approximately Equal To Or The Image Of
@@ -634,13 +634,13 @@ U+02265	≥	\ge, \geq	Greater-Than Or Equal To / Greater Than Or Equal To
 U+02266	≦	\leqq	Less-Than Over Equal To / Less Than Over Equal To
 U+02267	≧	\geqq	Greater-Than Over Equal To / Greater Than Over Equal To
 U+02268	≨	\lneqq	Less-Than But Not Equal To / Less Than But Not Equal To
-U+02268 + U+0FE00	≨︀	\lvertneqq	Less-Than But Not Equal To / Less Than But Not Equal To + Variation Selector-1
+U+02268, U+0FE00	≨︀	\lvertneqq	Less-Than But Not Equal To / Less Than But Not Equal To + Variation Selector-1
 U+02269	≩	\gneqq	Greater-Than But Not Equal To / Greater Than But Not Equal To
-U+02269 + U+0FE00	≩︀	\gvertneqq	Greater-Than But Not Equal To / Greater Than But Not Equal To + Variation Selector-1
+U+02269, U+0FE00	≩︀	\gvertneqq	Greater-Than But Not Equal To / Greater Than But Not Equal To + Variation Selector-1
 U+0226A	≪	\ll	Much Less-Than / Much Less Than
-U+0226A + U+00338	≪̸	\NotLessLess	Much Less-Than / Much Less Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0226A, U+00338	≪̸	\NotLessLess	Much Less-Than / Much Less Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+0226B	≫	\gg	Much Greater-Than / Much Greater Than
-U+0226B + U+00338	≫̸	\NotGreaterGreater	Much Greater-Than / Much Greater Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0226B, U+00338	≫̸	\NotGreaterGreater	Much Greater-Than / Much Greater Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+0226C	≬	\between	Between
 U+0226D	≭	\nasymp	Not Equivalent To
 U+0226E	≮	\nless	Not Less-Than / Not Less Than
@@ -660,9 +660,9 @@ U+0227B	≻	\succ	Succeeds
 U+0227C	≼	\preccurlyeq	Precedes Or Equal To
 U+0227D	≽	\succcurlyeq	Succeeds Or Equal To
 U+0227E	≾	\precsim	Precedes Or Equivalent To
-U+0227E + U+00338	≾̸	\nprecsim	Precedes Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0227E, U+00338	≾̸	\nprecsim	Precedes Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+0227F	≿	\succsim	Succeeds Or Equivalent To
-U+0227F + U+00338	≿̸	\nsuccsim	Succeeds Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0227F, U+00338	≿̸	\nsuccsim	Succeeds Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02280	⊀	\nprec	Does Not Precede
 U+02281	⊁	\nsucc	Does Not Succeed
 U+02282	⊂	\subset	Subset Of
@@ -674,15 +674,15 @@ U+02287	⊇	\supseteq	Superset Of Or Equal To
 U+02288	⊈	\nsubseteq	Neither A Subset Of Nor Equal To
 U+02289	⊉	\nsupseteq	Neither A Superset Of Nor Equal To
 U+0228A	⊊	\subsetneq	Subset Of With Not Equal To / Subset Of Or Not Equal To
-U+0228A + U+0FE00	⊊︀	\varsubsetneqq	Subset Of With Not Equal To / Subset Of Or Not Equal To + Variation Selector-1
+U+0228A, U+0FE00	⊊︀	\varsubsetneqq	Subset Of With Not Equal To / Subset Of Or Not Equal To + Variation Selector-1
 U+0228B	⊋	\supsetneq	Superset Of With Not Equal To / Superset Of Or Not Equal To
-U+0228B + U+0FE00	⊋︀	\varsupsetneq	Superset Of With Not Equal To / Superset Of Or Not Equal To + Variation Selector-1
+U+0228B, U+0FE00	⊋︀	\varsupsetneq	Superset Of With Not Equal To / Superset Of Or Not Equal To + Variation Selector-1
 U+0228D	⊍	\cupdot	Multiset Multiplication
 U+0228E	⊎	\uplus	Multiset Union
 U+0228F	⊏	\sqsubset	Square Image Of
-U+0228F + U+00338	⊏̸	\NotSquareSubset	Square Image Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0228F, U+00338	⊏̸	\NotSquareSubset	Square Image Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02290	⊐	\sqsupset	Square Original Of
-U+02290 + U+00338	⊐̸	\NotSquareSuperset	Square Original Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02290, U+00338	⊐̸	\NotSquareSuperset	Square Original Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02291	⊑	\sqsubseteq	Square Image Of Or Equal To
 U+02292	⊒	\sqsupseteq	Square Original Of Or Equal To
 U+02293	⊓	\sqcap	Square Cap
@@ -1243,9 +1243,9 @@ U+029C7	⧇	\boxcircle	Squared Small Circle
 U+029CA	⧊	\Lap	Triangle With Dot Above
 U+029CB	⧋	\defas	Triangle With Underbar
 U+029CF	⧏	\LeftTriangleBar	Left Triangle Beside Vertical Bar
-U+029CF + U+00338	⧏̸	\NotLeftTriangleBar	Left Triangle Beside Vertical Bar + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+029CF, U+00338	⧏̸	\NotLeftTriangleBar	Left Triangle Beside Vertical Bar + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+029D0	⧐	\RightTriangleBar	Vertical Bar Beside Right Triangle
-U+029D0 + U+00338	⧐̸	\NotRightTriangleBar	Vertical Bar Beside Right Triangle + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+029D0, U+00338	⧐̸	\NotRightTriangleBar	Vertical Bar Beside Right Triangle + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+029DF	⧟	\dualmap	Double-Ended Multimap
 U+029E1	⧡	\lrtriangleeq	Increases As
 U+029E2	⧢	\shuffle	Shuffle Product
@@ -1370,9 +1370,9 @@ U+02A7A	⩺	\gtcir	Greater-Than With Circle Inside
 U+02A7B	⩻	\ltquest	Less-Than With Question Mark Above
 U+02A7C	⩼	\gtquest	Greater-Than With Question Mark Above
 U+02A7D	⩽	\leqslant	Less-Than Or Slanted Equal To
-U+02A7D + U+00338	⩽̸	\nleqslant	Less-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02A7D, U+00338	⩽̸	\nleqslant	Less-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02A7E	⩾	\geqslant	Greater-Than Or Slanted Equal To
-U+02A7E + U+00338	⩾̸	\ngeqslant	Greater-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02A7E, U+00338	⩾̸	\ngeqslant	Greater-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02A7F	⩿	\lesdot	Less-Than Or Slanted Equal To With Dot Inside
 U+02A80	⪀	\gesdot	Greater-Than Or Slanted Equal To With Dot Inside
 U+02A81	⪁	\lesdoto	Less-Than Or Slanted Equal To With Dot Above
@@ -1408,9 +1408,9 @@ U+02A9E	⪞	\simgtr	Similar Or Greater-Than
 U+02A9F	⪟	\simlE	Similar Above Less-Than Above Equals Sign
 U+02AA0	⪠	\simgE	Similar Above Greater-Than Above Equals Sign
 U+02AA1	⪡	\NestedLessLess	Double Nested Less-Than
-U+02AA1 + U+00338	⪡̸	\NotNestedLessLess	Double Nested Less-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AA1, U+00338	⪡̸	\NotNestedLessLess	Double Nested Less-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AA2	⪢	\NestedGreaterGreater	Double Nested Greater-Than
-U+02AA2 + U+00338	⪢̸	\NotNestedGreaterGreater	Double Nested Greater-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AA2, U+00338	⪢̸	\NotNestedGreaterGreater	Double Nested Greater-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AA3	⪣	\partialmeetcontraction	Double Nested Less-Than With Underbar
 U+02AA4	⪤	\glj	Greater-Than Overlapping Less-Than
 U+02AA5	⪥	\gla	Greater-Than Beside Less-Than
@@ -1424,9 +1424,9 @@ U+02AAC	⪬	\smte	Smaller Than Or Equal To
 U+02AAD	⪭	\late	Larger Than Or Equal To
 U+02AAE	⪮	\bumpeqq	Equals Sign With Bumpy Above
 U+02AAF	⪯	\preceq	Precedes Above Single-Line Equals Sign
-U+02AAF + U+00338	⪯̸	\npreceq	Precedes Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AAF, U+00338	⪯̸	\npreceq	Precedes Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AB0	⪰	\succeq	Succeeds Above Single-Line Equals Sign
-U+02AB0 + U+00338	⪰̸	\nsucceq	Succeeds Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AB0, U+00338	⪰̸	\nsucceq	Succeeds Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AB1	⪱	\precneq	Precedes Above Single-Line Not Equal To
 U+02AB2	⪲	\succneq	Succeeds Above Single-Line Not Equal To
 U+02AB3	⪳	\preceqq	Precedes Above Equals Sign
@@ -1448,9 +1448,9 @@ U+02AC2	⫂	\supmult	Superset With Multiplication Sign Below
 U+02AC3	⫃	\subedot	Subset Of Or Equal To With Dot Above
 U+02AC4	⫄	\supedot	Superset Of Or Equal To With Dot Above
 U+02AC5	⫅	\subseteqq	Subset Of Above Equals Sign
-U+02AC5 + U+00338	⫅̸	\nsubseteqq	Subset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AC5, U+00338	⫅̸	\nsubseteqq	Subset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AC6	⫆	\supseteqq	Superset Of Above Equals Sign
-U+02AC6 + U+00338	⫆̸	\nsupseteqq	Superset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AC6, U+00338	⫆̸	\nsupseteqq	Superset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+02AC7	⫇	\subsim	Subset Of Above Tilde Operator
 U+02AC8	⫈	\supsim	Superset Of Above Tilde Operator
 U+02AC9	⫉	\subsetapprox	Subset Of Above Almost Equal To
