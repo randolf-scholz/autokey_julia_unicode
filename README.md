@@ -13,16 +13,16 @@ by [Julia](https://docs.julialang.org/en/v1/manual/unicode-input/#Unicode-Input)
 `[TAB]`, they are triggered on `[SPACE]`. If you do not want to perform the replacement, simply hit `[BACKSPACE]`
 afterwards.
 
-The bundled Unicode reference data uses **Unicode 18.0.0**. Available abbreviations
-come from the [Julia and custom icon collections](icons/README.md); displaying a
-character requires a [font with the corresponding glyph](#choosing-a-font).
-
 ## Requirements
 
 - Python ≥3.12.3.
 - [AutoKey](https://github.com/autokey/autokey) ≥0.96.0, running on X11. Wayland is unsupported.
 - Julia ≥1.11 (optional), only needed to regenerate the Julia Unicode tables. Installing the bundled tables does not
   require Julia.
+
+The bundled Unicode reference data uses **Unicode 18.0.0**. Available abbreviations
+come from the [Julia and custom icon collections](icons/README.md); displaying a
+character requires a [font with the corresponding glyph](#choosing-a-font).
 
 ## Installation
 
