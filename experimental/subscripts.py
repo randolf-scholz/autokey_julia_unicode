@@ -149,4 +149,5 @@ def main() -> None:
         keyboard.send_keys("".join(replacements))  # type: ignore
 
 
+# FIXME: does not work with AutoKey 0.96.0 (https://github.com/autokey/autokey/issues/721)
 main()
