@@ -23,6 +23,31 @@ line-length = 88
 target-version = "py312"
 output-format = "concise"
 
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN",
+    "C90",
+    "COM",
+    "CPY",
+    "DTZ",
+    "EM",
+    "ERA",
+    "FIX",
+    "PLR",
+    "PLW",
+    "T20",
+    "TD",
+    "TRY",
+    #
+    "D102",
+    "D105",
+    "D107",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
 [tool.pytest]
 testpaths = ["tests"]
 pythonpath = ["."]
