@@ -28,8 +28,8 @@ DATA_DIR: Final[Path] = PROJECT_DIR / "data"
 AUTOKEY_DIR: Final[Path] = Path.home() / ".config" / "autokey" / "data"
 DEFAULT_TARGET_DIR: Final[Path] = AUTOKEY_DIR / "julia_unicode"
 BUILD_DIR: Final[Path] = PROJECT_DIR / "build" / "autokey"
-LOG_FILENAME: Final[str] = "install.log"
 ASSETS_DIR: Final[Path] = DATA_DIR / "autokey"
+LOG_FILENAME: Final[str] = "install.log"
 
 
 class SendMode(StrEnum):
@@ -847,6 +847,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             source_directories,
             send_mode=SendMode(send_mode),
             duplicates=args.duplicates,
+            build_dir=BUILD_DIR,
+            assets_dir=ASSETS_DIR,
         )
 
         if args.build_only:
