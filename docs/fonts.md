@@ -16,7 +16,8 @@ observations and may vary with the font version, editor, and fallback fonts.
 
 ### Greek tests
 
-We check whether Greek characters are supported, in particular also the variants of `ε`, `θ`, `ϑ`, `ϰ`, `ϖ`, `ϱ`, `ς`, `φ`.
+We check whether Greek characters are supported, in particular also the variants of `ε`, `θ`, `ϑ`, `ϰ`, `ϖ`, `ϱ`, `ς`,
+`φ`.
 
 ### Combining character tests
 
@@ -28,11 +29,14 @@ We inspect visual quality:
 
 ### Mono-spacing tests
 
-1. Arrows: We compare the lengths of 16x arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against the lengths of 8x of the `long` versions of these arrows.
+1. Arrows: We compare the lengths of 16x arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against the
+   lengths of 8x of the `long` versions of these arrows.
    In this test, we value consistency:
-   - Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
-   - Half marks `✅️` if there are at most 3 different lengths.
-   - No marks `❌️` if there are more than 3 different lengths.
+
+- Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
+- Half marks `✅️` if there are at most 3 different lengths.
+- No marks `❌️` if there are more than 3 different lengths.
+
 2. Dashes: We compare the lengths of 12x`\emdash` against 6x `\twoemdash` and 4x`\threeemdash`.
 3. Operators: We compare the character `\bigodot` against `\bigoplus` and `\bigotimes`.
 4. Greek subscripts: We test whether Greek subscripts `ᵦ`, `ᵧ`, etc. are monospaced.
@@ -43,7 +47,7 @@ We inspect visual quality:
 ## Results
 
 | Font           | Greek | comb.-Latin | comb.-Greek | double-struck | Latin variants | combining | bigodot | arrow | dash | sub | coverage |
-| -------------- | ----- | ----------- | ----------- | ------------- | -------------- | --------- | ------- | ----- | ---- | --- | -------- |
+|----------------|-------|-------------|-------------|---------------|----------------|-----------|---------|-------|------|-----|----------|
 | Code New Roman | ✅️    | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ❌️    | ❌️   | ✅️  | ❓️       |
 | DejaVu Mono    | ✅️✅️  | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ✅️    | ❌️   | ❌️  | ❓️       |
 | Droid Sans     | ✅️✅️  | ✅️✅️        | ❌️          | neat          | ❌️             | ❌️        | ❌️      | ✅️    | ❌️   | ❌️  | ❓️       |
@@ -58,15 +62,15 @@ We inspect visual quality:
 
 ## Character Variants
 
-| char | bf  | it  | bi  | tt  | bb  | scr | bscr | frak | bfrak |
-| ---- | --- | --- | --- | --- | --- | --- | ---- | ---- | ----- |
-| N    | 𝐍   | 𝑁   | 𝑵   | 𝙽   | ℕ   | 𝒩   | 𝓝    | 𝔑    | 𝕹     |
-| Z    | 𝐙   | 𝑍   | 𝒁   | 𝚉   | ℤ   | 𝒵   | 𝓩    | ℨ    | 𝖅     |
-| Q    | 𝐐   | 𝑄   | 𝑸   | 𝚀   | ℚ   | 𝒬   | 𝓠    | 𝔔    | 𝕼     |
-| R    | 𝐑   | 𝑅   | 𝑹   | 𝚁   | ℝ   | ℛ   | 𝓡    | ℜ    | 𝕽     |
-| C    | 𝐂   | 𝐶   | 𝑪   | 𝙲   | ℂ   | 𝒞   | 𝓒    | ℭ    | 𝕮     |
-| L    | 𝐋   | 𝐿   | 𝑳   | 𝙻   | 𝕃   | ℒ   | 𝓛    | 𝔏    | 𝕷     |
-| X    | 𝐗   | 𝑋   | 𝑿   | 𝚇   | 𝕏   | 𝒳   | 𝓧    | 𝔛    | 𝖃     |
+| char | bf | it | bi | tt | bb | scr | bscr | frak | bfrak |
+|------|----|----|----|----|----|-----|------|------|-------|
+| N    | 𝐍  | 𝑁  | 𝑵  | 𝙽  | ℕ  | 𝒩   | 𝓝    | 𝔑    | 𝕹     |
+| Z    | 𝐙  | 𝑍  | 𝒁  | 𝚉  | ℤ  | 𝒵   | 𝓩    | ℨ    | 𝖅     |
+| Q    | 𝐐  | 𝑄  | 𝑸  | 𝚀  | ℚ  | 𝒬   | 𝓠    | 𝔔    | 𝕼     |
+| R    | 𝐑  | 𝑅  | 𝑹  | 𝚁  | ℝ  | ℛ   | 𝓡    | ℜ    | 𝕽     |
+| C    | 𝐂  | 𝐶  | 𝑪  | 𝙲  | ℂ  | 𝒞   | 𝓒    | ℭ    | 𝕮     |
+| L    | 𝐋  | 𝐿  | 𝑳  | 𝙻  | 𝕃  | ℒ   | 𝓛    | 𝔏    | 𝕷     |
+| X    | 𝐗  | 𝑋  | 𝑿  | 𝚇  | 𝕏  | 𝒳   | 𝓧    | 𝔛    | 𝖃     |
 
 ## Character samples
 
@@ -91,8 +95,8 @@ We inspect visual quality:
 ⎟⎠⎡⎢⎣⎤⎥⎦⎧⎨⎩⎪⎫⎬⎭⎮⎯⎰⎱⎲⎳⎴⎵⎶⎷⎸⎹⎺⎻⎼⎽⎾⎿⏀⏁⏂⏃⏄⏅⏆⏇⏈⏉⏊⏋⏌⏍⏎⏏⏐⏑⏒⏓⏔⏕⏖⏗⏘⏙⏚⏛⏜⏝⏞⏟⏠⏡⏢⏣⏤⏥⏦⏧⏨
 ⏩⏪⏫⏬⏭⏮⏯⏰⏱⏲⏳⏴⏵⏶⏷⏸⏹⏺⏻⏼⏽⏾⏿
 
-% dingbat highlights
-✅️⛔❌️⏳♻⚠⚡⚒⚓⚔🌀🔔⭐
+% dingbat highlights (these should render as colored emoji)
+✅️❌️⚠️ℹ⚒️⚓️⚡️⚙️❗️❓️⛔️❄️✨️♻️
 
 % combining characters
 x⃗, ȳ, z̃, ẋ, ÿ, z⃛, x̂, y᪲
