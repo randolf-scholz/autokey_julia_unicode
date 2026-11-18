@@ -36,7 +36,7 @@ def snapshot(path: Path) -> dict[Path, bytes]:
 
 def test_import_sorts_records_and_writes_block_and_character_indexes(
     source: Path, tmp_path: Path
-):
+) -> None:
     write_input(
         source,
         "# Comment\n0000..007F; Basic Latin # comment\n"
@@ -74,7 +74,7 @@ def test_import_sorts_records_and_writes_block_and_character_indexes(
 
 def test_control_cells_are_omitted_and_quotes_remain_literal(
     source: Path, tmp_path: Path
-):
+) -> None:
     points = [0x00, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x22, 0x5C]
     write_input(
         source, "0000..007F; Basic Latin\n", [(point, "<control>") for point in points]
@@ -82,16 +82,9 @@ def test_control_cells_are_omitted_and_quotes_remain_literal(
     output = tmp_path / "output"
     ucd.import_ucd(source, output)
     path = output / "[000000-00007F]-basic_latin.tsv"
-    assert [row[1] for row in read_output(path)[1:]] == [
-        "\0",
-        "",
-        "",
-        "\v",
-        "\f",
-        "",
-        '"',
-        "\\",
-    ]
+    actual = [row[1] for row in read_output(path)[1:]]
+    expected = ["\0", "", "", "\v", "\f", "", '"', "\\"]
+    assert actual == expected
     assert path.read_bytes().count(b"\n") == len(points) + 1
     assert b'U+0022\t"\t\t\n' in path.read_bytes()
     assert list(validate_tsv(path)) == []
