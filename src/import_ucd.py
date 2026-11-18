@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export Unicode TSV files with ``python src/import_ucd.py``.
+"""Import Unicode data into TSV files with ``python src/import_ucd.py``.
 
 Read Blocks.txt and UnicodeData.txt from third_party/ucd. Write schema-compliant
 tables to icons/ucd, their concatenation to icons/unicode.tsv, and
@@ -151,7 +151,7 @@ def write_tsv(
         writer.writerows(entries)
 
 
-def export_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
+def import_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
     """Generate block TSVs and sibling blocks.tsv and unicode.tsv summary files.
 
     output_dir is the block directory; its parent receives the two summary files.
@@ -207,7 +207,7 @@ def export_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
 
 
 def main() -> None:
-    """Export the locally imported UCD using paths independent of the cwd."""
+    """Import the locally fetched UCD using paths independent of the cwd."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--source-dir",
@@ -223,11 +223,11 @@ def main() -> None:
     )
     args = parser.parse_args()
     try:
-        count = export_ucd(args.source_dir, args.output_dir)
+        count = import_ucd(args.source_dir, args.output_dir)
     except (OSError, ValueError, csv.Error) as error:
         parser.exit(1, f"error: {error}\n")
-    print(f"Exported {count} Unicode blocks to {args.output_dir.resolve()}")
-    print(f"Exported blocks.tsv and unicode.tsv to {args.output_dir.resolve().parent}")
+    print(f"Generated {count} Unicode blocks to {args.output_dir.resolve()}")
+    print(f"Generated blocks.tsv and unicode.tsv to {args.output_dir.resolve().parent}")
 
 
 if __name__ == "__main__":

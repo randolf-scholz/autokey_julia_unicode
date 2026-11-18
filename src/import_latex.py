@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export base LaTeX symbol mappings from an installed TeX distribution.
+"""Import base LaTeX symbol mappings from an installed TeX distribution.
 
 Requires kpsewhich and the LaTeX base and unicode-math source tables.
 unicode-math supplies Unicode identities, not the inventory of base commands.
@@ -227,8 +227,8 @@ def rows(math: dict[str, str], text: dict[str, str]):
             yield points, value, mode, name
 
 
-def export_latex(output: Path = OUTPUT) -> int:
-    """Locate installed sources and export a deterministic UTF-8 TSV."""
+def import_latex(output: Path = OUTPUT) -> int:
+    """Locate installed sources and generate a deterministic UTF-8 TSV."""
     sources = {}
     for filename in (
         "fontmath.ltx",
@@ -266,7 +266,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args()
-    print(f"Exported {export_latex(args.output)} mappings to {args.output}")
+    print(f"Imported {import_latex(args.output)} mappings to {args.output}")
 
 
 if __name__ == "__main__":

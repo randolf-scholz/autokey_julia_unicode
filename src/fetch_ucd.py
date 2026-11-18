@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import Unicode data with ``python src/fetch_ucd.py --version 18``.
+"""Fetch Unicode data with ``python src/fetch_ucd.py --version 18``.
 
 Download and validate the selected release into third_party/ucd.
 Resolve "latest" before downloading release files. Download the license
@@ -91,7 +91,7 @@ def validate_files(files: dict[str, bytes], version: str) -> None:
             raise ValueError(f"Invalid Unicode code point on line {number}")
 
 
-def import_release(version: str, destination: Path) -> str:
+def fetch_release(version: str, destination: Path) -> str:
     """Download and validate all four files, then replace the local copies."""
     base_url = f"{UNICODE_URL}/Public/{version}/ucd"
     sources = {
@@ -110,22 +110,22 @@ def import_release(version: str, destination: Path) -> str:
         for name in files:
             (staging_dir / name).replace(destination / name)
 
-    print(f"Imported Unicode {version} into {destination}")
+    print(f"Fetched Unicode {version} into {destination}")
     return version
 
 
-def import_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
-    """Import the requested release, resolving latest to a fixed version first."""
+def fetch_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
+    """Fetch the requested release, resolving latest to a fixed version first."""
     version = normalize_version(version)
     if version == "latest":
         readme = download(f"{UNICODE_URL}/Public/UCD/latest/ucd/ReadMe.txt")
         # Pin the resolved release so a change to latest cannot mix versions.
         version = read_version(readme)
-    return import_release(version, destination)
+    return fetch_release(version, destination)
 
 
 def main() -> None:
-    """Import a Unicode release selected on the command line."""
+    """Fetch a Unicode release selected on the command line."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--version",
@@ -140,7 +140,7 @@ def main() -> None:
     )
     args = parser.parse_args()
     try:
-        import_ucd(args.version, args.output_dir)
+        fetch_ucd(args.version, args.output_dir)
     except (OSError, ValueError, HTTPException) as error:
         parser.exit(1, f"error: {error}\n")
 

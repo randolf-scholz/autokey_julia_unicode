@@ -1,12 +1,12 @@
 #!/usr/bin/env julia
-# Usage: julia src/export_julia.jl [output.tsv]
+# Usage: julia src/import_julia.jl [output.tsv]
 import REPL, TOML
 
 const UNICODE_DATA = joinpath(@__DIR__, "..", "third_party", "ucd", "UnicodeData.txt")
 const SCHEMA_PATH = joinpath(@__DIR__, "..", "icons", "schema.toml")
 const HEADER = ("code_points", "chars", "tab_completions", "unicode_name")
 const ICONS_PATH = normpath(joinpath(
-    @__DIR__, "..", "icons", "julia_unicode", "icons-$(VERSION).tsv"
+    @__DIR__, "..", "icons", "julia_unicode", "icons-$(VERSION).local.tsv"
 ))
 
 """Require the exported header to match the schema's ordered required columns."""
@@ -36,14 +36,14 @@ function read_unicode_names(path::AbstractString)
 end
 
 """
-    export_icons(output_path=ICONS_PATH; unicode_data=UNICODE_DATA, schema_path=SCHEMA_PATH)
+    import_icons(output_path=ICONS_PATH; unicode_data=UNICODE_DATA, schema_path=SCHEMA_PATH)
 
-Export the running Julia version's LaTeX and emoji completions in the icon
+Import the running Julia version's LaTeX and emoji completions in the icon
 schema's column order. The default output is
-icons/julia_unicode/icons-<julia-version>.tsv. Default paths are relative to the
+icons/julia_unicode/icons-<julia-version>.local.tsv. Default paths are relative to the
 repository, independent of the working directory.
 """
-function export_icons(
+function import_icons(
     output_path::AbstractString=ICONS_PATH;
     unicode_data::AbstractString=UNICODE_DATA,
     schema_path::AbstractString=SCHEMA_PATH,
@@ -90,9 +90,9 @@ function export_icons(
 end
 
 function (@main)(args)
-    length(args) <= 1 || error("Usage: julia src/export_julia.jl [output.tsv]")
+    length(args) <= 1 || error("Usage: julia src/import_julia.jl [output.tsv]")
     output_path = isempty(args) ? ICONS_PATH : only(args)
-    export_icons(output_path)
-    println("Exported Julia $VERSION icons to $(abspath(output_path))")
+    import_icons(output_path)
+    println("Imported Julia $VERSION icons to $(abspath(output_path))")
     return nothing
 end
