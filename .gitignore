@@ -6,6 +6,8 @@
 # any folder with double underscore (e.g. __pycache__)
 __*/
 
+*.local.*
+
 /build/
 
 # libreoffice lock files
