@@ -24,6 +24,22 @@ just install --help
 
 Restart AutoKey after installation to load the installed collections.
 
+### Installation directory
+
+By default, collections are installed under `~/.config/autokey/data/julia_unicode/`.
+The module constant `AUTOKEY_DIR` identifies `~/.config/autokey/data/`; this
+directory must already exist when using the default destination. If it is missing,
+the installer errors before prompting or building. Start AutoKey once to initialize
+its data directory, or provide a destination explicitly:
+
+```bash
+./src/install_autokey.py --autokey-directory /path/to/autokey/collection
+```
+
+An explicit destination can be created during installation. `--target-directory`
+appends a subdirectory to the selected destination, or overrides it with an
+absolute path. Build-only runs do not require the default AutoKey data directory.
+
 ## AutoKey version check
 
 The installer checks the AutoKey version and stops if it detects a version below 0.96.0. If the

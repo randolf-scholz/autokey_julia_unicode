@@ -21,6 +21,8 @@ from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 type JSON = dict[str, Any]
 LOGGER = logging.getLogger(__name__)
+AUTOKEY_DIR: Final[Path] = Path.home() / ".config" / "autokey" / "data"
+DEFAULT_TARGET_DIR: Final[Path] = AUTOKEY_DIR / "julia_unicode"
 BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
 ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
 SEND_MODES: Final[dict[int, str]] = {
@@ -510,9 +512,6 @@ def install_build(target_dir: Path) -> None:
 
 def main() -> None:
     r"""Install function."""
-    detected_directory = Path.home() / ".config/autokey/data/"
-    AUTOKEY_DIR = detected_directory if detected_directory.exists() else Path.cwd()
-
     parser = argparse.ArgumentParser(
         description="Install icons for usage with autokey.",
     )
@@ -527,13 +526,13 @@ def main() -> None:
         "--target-directory",
         default="",
         type=str,
-        help="Where to install the icons.",
+        help="Subdirectory of the installation directory; an absolute path overrides it.",
     )
     parser.add_argument(
         "--autokey-directory",
-        default=AUTOKEY_DIR,
+        default=None,
         type=Path,
-        help="The data directory of AutoKey.",
+        help=f"Install location. If omitted, uses {DEFAULT_TARGET_DIR}.",
     )
     parser.add_argument(
         "--build-only",
@@ -564,6 +563,26 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    autokey_directory = args.autokey_directory
+    if autokey_directory is None:
+        if (
+            not args.build_only
+            and not Path(args.target_directory).is_absolute()
+            and not AUTOKEY_DIR.is_dir()
+        ):
+            parser.error(
+                f"AutoKey data directory {AUTOKEY_DIR} does not exist or is not "
+                "a directory. Start AutoKey to initialize it, or provide "
+                "--autokey-directory."
+            )
+        autokey_directory = DEFAULT_TARGET_DIR
+
+    target_dir = (autokey_directory / args.target_directory).resolve()
+    if target_dir.is_relative_to(BUILD_DIR):
+        raise ValueError(
+            f"Installation target {target_dir} must be outside {BUILD_DIR}."
+        )
+
     if args.verbose:
         LOGGER.setLevel(logging.DEBUG)
 
@@ -576,12 +595,6 @@ def main() -> None:
             choices=SEND_MODES,
         )
     )
-
-    target_dir = (args.autokey_directory / args.target_directory).resolve()
-    if target_dir.is_relative_to(BUILD_DIR):
-        raise ValueError(
-            f"Installation target {target_dir} must be outside {BUILD_DIR}."
-        )
 
     # BUILD_DIR is reserved for disposable generated files.
     if BUILD_DIR.exists():
@@ -608,8 +621,6 @@ def main() -> None:
         return
 
     check_autokey_version()
-    if not detected_directory.exists():
-        LOGGER.warning("Autokey directory not found. Installing into %s.", target_dir)
     install_build(target_dir)
 
 
