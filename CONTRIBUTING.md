@@ -17,7 +17,7 @@ source .venv/bin/activate
 
 The project requires Python ≥3.12.3. Development dependencies are declared in
 `pyproject.toml`; `uv.lock` records the resolved versions. `uv sync` installs
-prek, Ruff, Pyrefly, Tombi, and the AutoKey Python package into `.venv`.
+pytest, prek, Ruff, Pyrefly, Tombi, and the AutoKey Python package into `.venv`.
 
 The Python recipes in `justfile` use `.venv/bin/python` when available. Set
 `PYTHON` to override the interpreter. `uv run` also uses the project environment
@@ -97,7 +97,7 @@ just test test_import_julia.jl
 Without just, or when Julia is unavailable, run the Python suite separately:
 
 ```sh
-uv run python -m unittest discover -s tests -p 'test_*.py'
+uv run python -m pytest
 ```
 
 Run Julia checks directly with:
@@ -105,6 +105,16 @@ Run Julia checks directly with:
 ```sh
 julia --startup-file=no tests/test_import_julia.jl
 ```
+
+Python tests use pytest's temporary directories, output capture, and parametrized
+cases. Pass command-line arguments directly to `main(argv)`; use explicit source
+and build paths for installer helpers. Interactive installation tests supply real
+stdin to subprocesses. Only HTTP requests in the UCD fetch tests are mocked.
+
+Keep tests focused on generated files, Unicode identities, input validation, and
+preserving existing data on failure. Avoid assertions about internal call counts,
+exact terminal colors, or unsupported hypothetical options. LaTeX parser tests use
+small source examples and validate the bundled mapping table without requiring TeX.
 
 To inspect generated AutoKey assets without changing an installation:
 

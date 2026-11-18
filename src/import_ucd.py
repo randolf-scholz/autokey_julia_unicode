@@ -11,9 +11,10 @@ Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
 import argparse
 import csv
 import re
+import sys
 import tomllib
 from bisect import bisect_left, bisect_right
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 from enum import StrEnum
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -206,7 +207,7 @@ def import_ucd(source_dir: Path = UCD_DIR, output_dir: Path = ICON_DIR) -> int:
     return len(blocks)
 
 
-def main() -> None:
+def main(argv: Sequence[str] | None = None) -> int:
     """Import the locally fetched UCD using paths independent of the cwd."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -221,14 +222,16 @@ def main() -> None:
         default=ICON_DIR,
         help="block directory; summary TSVs go in its parent (default: %(default)s)",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     try:
         count = import_ucd(args.source_dir, args.output_dir)
     except (OSError, ValueError, csv.Error) as error:
-        parser.exit(1, f"error: {error}\n")
+        print(f"error: {error}", file=sys.stderr)
+        return 1
     print(f"Generated {count} Unicode blocks to {args.output_dir.resolve()}")
     print(f"Generated blocks.tsv and unicode.tsv to {args.output_dir.resolve().parent}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

@@ -394,7 +394,7 @@ def expand_files(patterns: Sequence[str]) -> Iterator[Path | Error]:
             yield Error(str(error))
 
 
-def main() -> None:
+def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "files", nargs="+", help="file paths, directories, or glob patterns"
@@ -416,7 +416,7 @@ def main() -> None:
         default=UNICODE_TSV,
         help="Unicode names table used with --check-icons",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     error_count = 0
     files_validated = 0
     files_total = 0
@@ -446,8 +446,8 @@ def main() -> None:
         print(f"{files_validated}/{files_total} files validated")
     if error_count:
         print(f"{error_count} errors found", file=sys.stderr)
-        raise SystemExit(1)
+    return int(bool(error_count))
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

@@ -12,9 +12,10 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import tomllib
 from collections import defaultdict
-from collections.abc import Generator, Iterable, Iterator, Mapping
+from collections.abc import Generator, Iterable, Iterator, Mapping, Sequence
 from contextlib import contextmanager
 from enum import StrEnum
 from pathlib import Path
@@ -100,12 +101,12 @@ def log_build_summary(
 
 
 @contextmanager
-def installation_logging(*, verbose: bool) -> Generator[None, None, None]:
+def installation_logging(build_dir: Path, *, verbose: bool) -> Generator:
     """Show summaries on stderr and retain all debug records in the build log."""
-    if BUILD_DIR.is_symlink():
-        raise OSError(f"Build directory {BUILD_DIR} must not be a symlink.")
-    BUILD_DIR.mkdir(parents=True, exist_ok=True)
-    log_path = BUILD_DIR / LOG_FILENAME
+    if build_dir.is_symlink():
+        raise OSError(f"Build directory {build_dir} must not be a symlink.")
+    build_dir.mkdir(parents=True, exist_ok=True)
+    log_path = build_dir / LOG_FILENAME
     if log_path.is_symlink():
         log_path.unlink()
 
@@ -153,11 +154,11 @@ class Header(StrEnum):
     DESCRIPTION = "unicode_name"
 
 
-def check_autokey_version() -> None:
+def check_autokey_version(search_path: str = os.defpath, /) -> None:
     """Require system AutoKey >=0.96.0 when its version can be determined."""
     for command in ("autokey-gtk", "autokey-qt"):
         # Use the system search path so a virtual environment cannot shadow AutoKey.
-        if (executable := shutil.which(command, path=os.defpath)) is None:
+        if (executable := shutil.which(command, path=search_path)) is None:
             continue
 
         try:
@@ -456,20 +457,21 @@ def write_asset(
 
 
 def build_phrases_from_tsv(
-    source: str | Path,
+    source_dir: str | Path,
+    build_dir: Path,
     *,
     template: JSON,
     send_mode: SendMode,
     duplicates: Literal["error", "skip"],
 ) -> None:
-    """Generate an icon collection in a fresh subdirectory of target_dir."""
-    source_dir = Path(source)
+    """Generate an icon collection in a fresh subdirectory of build_dir."""
+    source_dir = Path(source_dir)
     if not source_dir.exists():
         raise FileNotFoundError(f"{source_dir} does not exist.")
     if not source_dir.is_dir():
         raise NotADirectoryError(f"{source_dir} is not a directory.")
 
-    target_dir = BUILD_DIR / source_dir.name
+    target_dir = build_dir / source_dir.name
     target_dir.mkdir(parents=True)
 
     LOGGER.debug("Building icons from %s in %s", source_dir, target_dir)
@@ -549,9 +551,9 @@ def validate_metadata(metadata: JSON, source: Path) -> None:
         )
 
 
-def build_phrases(source_dir: Path, *, send_mode: SendMode) -> None:
-    """Build TOML phrase assets in BUILD_DIR."""
-    build_dir = BUILD_DIR / source_dir.name
+def build_phrases(source_dir: Path, build_dir: Path, *, send_mode: SendMode) -> None:
+    """Build TOML phrase assets in a collection under build_dir."""
+    build_dir = build_dir / source_dir.name
     build_dir.mkdir(parents=True)
 
     template_file = source_dir.parent / "templates" / "phrase.json"
@@ -592,10 +594,9 @@ def _merge_dicts(template: JSON, updates: JSON) -> JSON:
     return merged
 
 
-def build_custom_scripts() -> None:
-    """Build Python scripts and metadata from TOML overrides in BUILD_DIR."""
-    source_dir = ASSETS_DIR / "custom_scripts"
-    build_dir = BUILD_DIR / source_dir.name
+def build_custom_scripts(source_dir: Path, build_dir: Path) -> None:
+    """Build Python scripts and TOML metadata overrides under build_dir."""
+    build_dir = build_dir / source_dir.name
     build_dir.mkdir(parents=True)
 
     template_file = source_dir.parent / "templates" / "script.json"
@@ -623,12 +624,12 @@ def build_custom_scripts() -> None:
     log_build_summary(source_dir, num_created, unit="scripts")
 
 
-def clear_build_assets() -> None:
+def clear_build_assets(build_dir: Path) -> None:
     """Remove generated assets while retaining the current run's log."""
-    if BUILD_DIR.is_symlink():
-        raise OSError(f"Build directory {BUILD_DIR} must not be a symlink.")
-    BUILD_DIR.mkdir(parents=True, exist_ok=True)
-    for path in BUILD_DIR.iterdir():
+    if build_dir.is_symlink():
+        raise OSError(f"Build directory {build_dir} must not be a symlink.")
+    build_dir.mkdir(parents=True, exist_ok=True)
+    for path in build_dir.iterdir():
         if path.name == LOG_FILENAME:
             continue
         if path.is_symlink() or not path.is_dir():
@@ -642,64 +643,71 @@ def build_assets(
     *,
     send_mode: SendMode,
     duplicates: Literal["error", "skip"],
+    build_dir: Path = BUILD_DIR,
+    assets_dir: Path = ASSETS_DIR,
 ) -> None:
-    """Reset BUILD_DIR and build all assets without prompts or installation."""
-    clear_build_assets()
+    """Reset build_dir and build all assets without prompts or installation."""
+    clear_build_assets(build_dir)
 
-    template_file = ASSETS_DIR / "templates" / "phrase.json"
+    template_file = assets_dir / "templates" / "phrase.json"
     with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
     for source in source_directories:
         build_phrases_from_tsv(
             source,
+            build_dir,
             template=template,
             send_mode=send_mode,
             duplicates=duplicates,
         )
-    build_phrases(ASSETS_DIR / "latex_snippets", send_mode=send_mode)
-    build_phrases(ASSETS_DIR / "special_chars", send_mode=send_mode)
-    build_custom_scripts()
+    build_phrases(assets_dir / "latex_snippets", build_dir, send_mode=send_mode)
+    build_phrases(assets_dir / "special_chars", build_dir, send_mode=send_mode)
+    build_custom_scripts(assets_dir / "custom_scripts", build_dir)
 
 
-def validate_install_target(target_dir: Path) -> Path:
+def validate_install_target(
+    target_dir: Path, build_dir: Path, *, autokey_dir: Path
+) -> Path:
     """Require a dedicated target separate from the build and AutoKey data root."""
     target_dir = Path(os.path.abspath(target_dir))
     # Resolve parent aliases, preserving a final symlink so it can be replaced.
     target_dir = target_dir.parent.resolve() / target_dir.name
     resolved = target_dir.resolve()
-    build_dir = BUILD_DIR.resolve()
+    build_dir = build_dir.resolve()
     if resolved.is_relative_to(build_dir) or build_dir.is_relative_to(resolved):
         raise ValueError(
-            f"Installation target {target_dir} must be outside {BUILD_DIR} "
+            f"Installation target {target_dir} must be outside {build_dir} "
             "and must not contain it."
         )
-    if AUTOKEY_DIR.resolve().is_relative_to(resolved):
+    if autokey_dir.resolve().is_relative_to(resolved):
         raise ValueError(
             f"Installation target {target_dir} must not be the AutoKey data "
-            f"directory {AUTOKEY_DIR} or one of its parents."
+            f"directory {autokey_dir} or one of its parents."
         )
     return target_dir
 
 
-def install_build(target_dir: Path) -> None:
+def install_build(target_dir: Path, build_dir: Path) -> None:
     """Select optional assets and replace the dedicated target with a staged build."""
-    target_dir = validate_install_target(target_dir)
+    target_dir = validate_install_target(
+        target_dir, build_dir=build_dir, autokey_dir=AUTOKEY_DIR
+    )
     if (target_dir.exists() or target_dir.is_symlink()) and not query_choice(
         f"Replace the entire installation directory {target_dir} and all its contents?",
         choices=[False, True],
     ):
-        LOGGER.info("Installation cancelled; build retained in %s.", BUILD_DIR)
+        LOGGER.info("Installation cancelled; build retained in %s.", build_dir)
         return
 
     skipped: list[Path] = []
-    for source in sorted((BUILD_DIR / "special_chars").rglob("*.txt")):
+    for source in sorted((build_dir / "special_chars").rglob("*.txt")):
         payload = source.read_text(encoding="utf8")
         if not query_choice(
             f"Install special character {source.stem} ({payload!r})?",
             choices=[False, True],
         ):
-            skipped.append(source.relative_to(BUILD_DIR))
+            skipped.append(source.relative_to(build_dir))
 
     # Stage on the target filesystem; the complete build remains available on failure.
     target_dir.parent.mkdir(parents=True, exist_ok=True)
@@ -708,7 +716,7 @@ def install_build(target_dir: Path) -> None:
     backup = temporary / "previous"
     installed = False
     try:
-        shutil.copytree(BUILD_DIR, staging, ignore=shutil.ignore_patterns(LOG_FILENAME))
+        shutil.copytree(build_dir, staging, ignore=shutil.ignore_patterns(LOG_FILENAME))
         for relative in skipped:
             (staging / relative).unlink()
             (staging / relative.with_suffix(".json")).unlink()
@@ -736,7 +744,7 @@ def install_build(target_dir: Path) -> None:
     LOGGER.info(r"Type \help followed by a space to open Julia's Unicode input page.")
 
 
-def main() -> None:
+def main(argv: Sequence[str] | None = None) -> int:
     r"""Install function."""
     parser = argparse.ArgumentParser(
         description="Install icons for usage with autokey.",
@@ -790,7 +798,7 @@ def main() -> None:
         type=str,
         help="Directories holding the `.tsv` files to be installed.",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     autokey_directory = args.autokey_directory
     if autokey_directory is None:
@@ -806,9 +814,13 @@ def main() -> None:
             )
         autokey_directory = DEFAULT_TARGET_DIR
 
-    target_dir = validate_install_target(autokey_directory / args.target_directory)
+    target_dir = validate_install_target(
+        autokey_directory / args.target_directory,
+        build_dir=BUILD_DIR,
+        autokey_dir=AUTOKEY_DIR,
+    )
 
-    with installation_logging(verbose=args.verbose):
+    with installation_logging(BUILD_DIR, verbose=args.verbose):
         # Build-only mode needs no interactive choices.
         if args.sendmode is not None:
             send_mode = SEND_MODES[args.sendmode]
@@ -828,11 +840,12 @@ def main() -> None:
 
         if args.build_only:
             LOGGER.info("Build complete in %s; installation skipped.", BUILD_DIR)
-            return
+            return 0
 
         check_autokey_version()
-        install_build(target_dir)
+        install_build(target_dir, BUILD_DIR)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

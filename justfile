@@ -71,19 +71,29 @@ test name='*':
     if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
         python=.venv/bin/python
     fi
-    matched=false
+    python_tests=()
+    julia_tests=()
     for file in tests/test_*.py tests/test_*.jl; do
         [[ -f "$file" ]] || continue
         filename="${file##*/}"
         [[ "$filename" == $pattern ]] || continue
-        matched=true
-        echo "Running $file"
         case "$file" in
-            *.py) "$python" -m unittest discover -s tests -p "$filename" ;;
-            *.jl) julia --startup-file=no "$file" ;;
+            *.py) python_tests+=("$file") ;;
+            *.jl) julia_tests+=("$file") ;;
         esac
     done
-    if [[ "$matched" == false ]]; then
+    if (( ${#python_tests[@]} + ${#julia_tests[@]} == 0 )); then
         echo "No test files match: $pattern" >&2
         exit 1
     fi
+    if (( ${#python_tests[@]} )); then
+        if [[ "$pattern" == '*' ]]; then
+            "$python" -m pytest tests
+        else
+            "$python" -m pytest "${python_tests[@]}"
+        fi
+    fi
+    for file in "${julia_tests[@]}"; do
+        echo "Running $file"
+        julia --startup-file=no "$file"
+    done

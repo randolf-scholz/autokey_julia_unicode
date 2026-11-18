@@ -11,6 +11,7 @@ dev = [
     "autokey>=0.96.0",
     "prek>=0.5.11",
     "pyrefly>=1.4.1",
+    "pytest>=9.2.0",
     "ruff>=0.17.5",
     "tombi>=1.11.2",
 ]
@@ -21,6 +22,10 @@ indent-width = 4
 line-length = 88
 target-version = "py312"
 output-format = "concise"
+
+[tool.pytest]
+testpaths = ["tests"]
+pythonpath = ["."]
 
 [tool.pyrefly]
 python-version = "3.12"

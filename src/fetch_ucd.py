@@ -8,6 +8,8 @@ independently from Unicode's current license URL.
 
 import argparse
 import re
+import sys
+from collections.abc import Sequence
 from http.client import HTTPException
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -124,7 +126,7 @@ def fetch_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
     return fetch_release(version, destination)
 
 
-def main() -> None:
+def main(argv: Sequence[str] | None = None) -> int:
     """Fetch a Unicode release selected on the command line."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -138,12 +140,14 @@ def main() -> None:
         default=UCD_DIR,
         help="destination directory (default: %(default)s)",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     try:
         fetch_ucd(args.version, args.output_dir)
     except (OSError, ValueError, HTTPException) as error:
-        parser.exit(1, f"error: {error}\n")
+        print(f"error: {error}", file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

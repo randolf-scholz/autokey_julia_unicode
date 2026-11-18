@@ -11,6 +11,7 @@ import csv
 import hashlib
 import re
 import subprocess
+from collections.abc import Sequence
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
@@ -262,12 +263,13 @@ def import_latex(output: Path = OUTPUT) -> int:
     return len(entries)
 
 
-def main() -> None:
+def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     print(f"Imported {import_latex(args.output)} mappings to {args.output}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
