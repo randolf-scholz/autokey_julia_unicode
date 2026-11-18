@@ -9,6 +9,7 @@ dependencies = []
 [dependency-groups]
 dev = [
     "autokey>=0.96.0",
+    "prek>=0.5.11",
     "pyrefly>=1.4.1",
     "ruff>=0.17.5",
     "tombi>=1.11.2",
