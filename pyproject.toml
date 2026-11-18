@@ -40,9 +40,16 @@ ignore = [
     "TD",
     "TRY",
     #
+    "RUF001",
     "D102",
     "D105",
     "D107",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/test*" = [
+    "D103",
+    "S101",
 ]
 
 [tool.ruff.lint.pydocstyle]
