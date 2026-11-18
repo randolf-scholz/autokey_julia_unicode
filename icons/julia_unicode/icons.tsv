@@ -4,10 +4,11 @@ U+000A3	£	\sterling	Pound Sign
 U+000A5	¥	\yen	Yen Sign
 U+000A6	¦	\brokenbar	Broken Bar / Broken Vertical Bar
 U+000A7	§	\S	Section Sign
-U+000A9	©	\copyright, \:copyright:	Copyright Sign
+U+000A9	©	\:copyright:, \copyright	Copyright Sign
 U+000AA	ª	\ordfeminine	Feminine Ordinal Indicator
+U+000AB	«	\guillemotleft	Left-Pointing Double Angle Quotation Mark / Left Pointing Guillemet
 U+000AC	¬	\neg	Not Sign
-U+000AE	®	\circledR, \:registered:	Registered Sign / Registered Trade Mark Sign
+U+000AE	®	\:registered:, \circledR	Registered Sign / Registered Trade Mark Sign
 U+000AF	¯	\highminus	Macron / Spacing Macron
 U+000B0	°	\degree	Degree Sign
 U+000B1	±	\pm	Plus-Minus Sign / Plus-Or-Minus Sign
@@ -17,6 +18,7 @@ U+000B6	¶	\P	Pilcrow Sign / Paragraph Sign
 U+000B7	·	\cdotp	Middle Dot
 U+000B9	¹	\^1	Superscript One / Superscript Digit One
 U+000BA	º	\ordmasculine	Masculine Ordinal Indicator
+U+000BB	»	\guillemotright	Right-Pointing Double Angle Quotation Mark / Right Pointing Guillemet
 U+000BC	¼	\1/4	Vulgar Fraction One Quarter / Fraction One Quarter
 U+000BD	½	\1/2	Vulgar Fraction One Half / Fraction One Half
 U+000BE	¾	\3/4	Vulgar Fraction Three Quarters / Fraction Three Quarters
@@ -30,7 +32,7 @@ U+000DE	Þ	\TH	Latin Capital Letter Thorn
 U+000DF	ß	\ss	Latin Small Letter Sharp S
 U+000E5	å	\aa	Latin Small Letter A With Ring Above / Latin Small Letter A Ring
 U+000E6	æ	\ae	Latin Small Letter Ae / Latin Small Letter A E
-U+000F0	ð	\eth, \dh	Latin Small Letter Eth
+U+000F0	ð	\dh, \eth	Latin Small Letter Eth
 U+000F7	÷	\div	Division Sign
 U+000F8	ø	\o	Latin Small Letter O With Stroke / Latin Small Letter O Slash
 U+000FE	þ	\th	Latin Small Letter Thorn
@@ -108,6 +110,8 @@ U+002DC	˜	\tildelow	Small Tilde / Spacing Tilde
 U+002E1	ˡ	\^l	Modifier Letter Small L
 U+002E2	ˢ	\^s	Modifier Letter Small S
 U+002E3	ˣ	\^x	Modifier Letter Small X
+U+002F1	˱	\_<	Modifier Letter Low Left Arrowhead
+U+002F2	˲	\_>	Modifier Letter Low Right Arrowhead
 U+00300	̀	\grave	Combining Grave Accent / Non-Spacing Grave
 U+00301	́	\acute	Combining Acute Accent / Non-Spacing Acute
 U+00302	̂	\hat	Combining Circumflex Accent / Non-Spacing Circumflex
@@ -132,7 +136,7 @@ U+00328	̨	\k	Combining Ogonek / Non-Spacing Ogonek
 U+0032A	̪	\sbbrg	Combining Bridge Below / Non-Spacing Bridge Below
 U+00330	̰	\wideutilde	Combining Tilde Below / Non-Spacing Tilde Below
 U+00332	̲	\underbar	Combining Low Line / Non-Spacing Underscore
-U+00336	̶	\strike, \sout	Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay
+U+00336	̶	\sout, \strike	Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay
 U+00338	̸	\not	Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
 U+0034D	͍	\underleftrightarrow	Combining Left Right Arrow Below
 U+00391	Α	\Alpha	Greek Capital Letter Alpha
@@ -146,10 +150,10 @@ U+00398	Θ	\Theta	Greek Capital Letter Theta
 U+00399	Ι	\Iota	Greek Capital Letter Iota
 U+0039A	Κ	\Kappa	Greek Capital Letter Kappa
 U+0039B	Λ	\Lambda	Greek Capital Letter Lamda / Greek Capital Letter Lambda
-U+0039C	Μ	\upMu	Greek Capital Letter Mu
-U+0039D	Ν	\upNu	Greek Capital Letter Nu
+U+0039C	Μ	\Mu	Greek Capital Letter Mu
+U+0039D	Ν	\Nu	Greek Capital Letter Nu
 U+0039E	Ξ	\Xi	Greek Capital Letter Xi
-U+0039F	Ο	\upOmicron	Greek Capital Letter Omicron
+U+0039F	Ο	\Omicron	Greek Capital Letter Omicron
 U+003A0	Π	\Pi	Greek Capital Letter Pi
 U+003A1	Ρ	\Rho	Greek Capital Letter Rho
 U+003A3	Σ	\Sigma	Greek Capital Letter Sigma
@@ -163,7 +167,7 @@ U+003B1	α	\alpha	Greek Small Letter Alpha
 U+003B2	β	\beta	Greek Small Letter Beta
 U+003B3	γ	\gamma	Greek Small Letter Gamma
 U+003B4	δ	\delta	Greek Small Letter Delta
-U+003B5	ε	\upepsilon, \varepsilon	Greek Small Letter Epsilon
+U+003B5	ε	\varepsilon	Greek Small Letter Epsilon
 U+003B6	ζ	\zeta	Greek Small Letter Zeta
 U+003B7	η	\eta	Greek Small Letter Eta
 U+003B8	θ	\theta	Greek Small Letter Theta
@@ -173,7 +177,7 @@ U+003BB	λ	\lambda	Greek Small Letter Lamda / Greek Small Letter Lambda
 U+003BC	μ	\mu	Greek Small Letter Mu
 U+003BD	ν	\nu	Greek Small Letter Nu
 U+003BE	ξ	\xi	Greek Small Letter Xi
-U+003BF	ο	\upomicron	Greek Small Letter Omicron
+U+003BF	ο	\omicron	Greek Small Letter Omicron
 U+003C0	π	\pi	Greek Small Letter Pi
 U+003C1	ρ	\rho	Greek Small Letter Rho
 U+003C2	ς	\varsigma	Greek Small Letter Final Sigma
@@ -184,20 +188,20 @@ U+003C6	φ	\varphi	Greek Small Letter Phi
 U+003C7	χ	\chi	Greek Small Letter Chi
 U+003C8	ψ	\psi	Greek Small Letter Psi
 U+003C9	ω	\omega	Greek Small Letter Omega
-U+003D0	ϐ	\upvarbeta	Greek Beta Symbol / Greek Small Letter Curled Beta
+U+003D0	ϐ	\varbeta	Greek Beta Symbol / Greek Small Letter Curled Beta
 U+003D1	ϑ	\vartheta	Greek Theta Symbol / Greek Small Letter Script Theta
 U+003D5	ϕ	\phi	Greek Phi Symbol / Greek Small Letter Script Phi
 U+003D6	ϖ	\varpi	Greek Pi Symbol / Greek Small Letter Omega Pi
-U+003D8	Ϙ	\upoldKoppa	Greek Letter Archaic Koppa
-U+003D9	ϙ	\upoldkoppa	Greek Small Letter Archaic Koppa
+U+003D8	Ϙ	\oldKoppa	Greek Letter Archaic Koppa
+U+003D9	ϙ	\oldkoppa	Greek Small Letter Archaic Koppa
 U+003DA	Ϛ	\Stigma	Greek Letter Stigma / Greek Capital Letter Stigma
-U+003DB	ϛ	\upstigma	Greek Small Letter Stigma
+U+003DB	ϛ	\stigma	Greek Small Letter Stigma
 U+003DC	Ϝ	\Digamma	Greek Letter Digamma / Greek Capital Letter Digamma
 U+003DD	ϝ	\digamma	Greek Small Letter Digamma
 U+003DE	Ϟ	\Koppa	Greek Letter Koppa / Greek Capital Letter Koppa
-U+003DF	ϟ	\upkoppa	Greek Small Letter Koppa
+U+003DF	ϟ	\koppa	Greek Small Letter Koppa
 U+003E0	Ϡ	\Sampi	Greek Letter Sampi / Greek Capital Letter Sampi
-U+003E1	ϡ	\upsampi	Greek Small Letter Sampi
+U+003E1	ϡ	\sampi	Greek Small Letter Sampi
 U+003F0	ϰ	\varkappa	Greek Kappa Symbol / Greek Small Letter Script Kappa
 U+003F1	ϱ	\varrho	Greek Rho Symbol / Greek Small Letter Tailed Rho
 U+003F4	ϴ	\varTheta	Greek Capital Theta Symbol
@@ -373,7 +377,7 @@ U+0211B	ℛ	\scrR	Script Capital R / Script R
 U+0211C	ℜ	\Re, \frakR	Black-Letter Capital R / Black-Letter R
 U+0211D	ℝ	\bbR	Double-Struck Capital R / Double-Struck R
 U+0211E	℞	\xrat	Prescription Take
-U+02122	™	\trademark, \:tm:	Trade Mark Sign / Trademark
+U+02122	™	\:tm:, \trademark	Trade Mark Sign / Trademark
 U+02124	ℤ	\bbZ	Double-Struck Capital Z / Double-Struck Z
 U+02126	Ω	\ohm	Ohm Sign / Ohm
 U+02127	℧	\mho	Inverted Ohm Sign / Mho
@@ -382,7 +386,7 @@ U+02129	℩	\turnediota	Turned Greek Small Letter Iota
 U+0212B	Å	\Angstrom	Angstrom Sign / Angstrom Unit
 U+0212C	ℬ	\scrB	Script Capital B / Script B
 U+0212D	ℭ	\frakC	Black-Letter Capital C / Black-Letter C
-U+0212F	ℯ	\scre, \euler	Script Small E
+U+0212F	ℯ	\euler, \scre	Script Small E
 U+02130	ℰ	\scrE	Script Capital E / Script E
 U+02131	ℱ	\scrF	Script Capital F / Script F
 U+02132	Ⅎ	\Finv	Turned Capital F / Turned F
@@ -428,14 +432,14 @@ U+0215F	⅟	\1/	Fraction Numerator One
 U+02189	↉	\0/3	Vulgar Fraction Zero Thirds
 U+02190	←	\leftarrow	Leftwards Arrow / Left Arrow
 U+02191	↑	\uparrow	Upwards Arrow / Up Arrow
-U+02192	→	\to, \rightarrow	Rightwards Arrow / Right Arrow
+U+02192	→	\rightarrow, \to	Rightwards Arrow / Right Arrow
 U+02193	↓	\downarrow	Downwards Arrow / Down Arrow
-U+02194	↔	\leftrightarrow, \:left_right_arrow:	Left Right Arrow
-U+02195	↕	\updownarrow, \:arrow_up_down:	Up Down Arrow
-U+02196	↖	\nwarrow, \:arrow_upper_left:	North West Arrow / Upper Left Arrow
-U+02197	↗	\nearrow, \:arrow_upper_right:	North East Arrow / Upper Right Arrow
-U+02198	↘	\searrow, \:arrow_lower_right:	South East Arrow / Lower Right Arrow
-U+02199	↙	\swarrow, \:arrow_lower_left:	South West Arrow / Lower Left Arrow
+U+02194	↔	\:left_right_arrow:, \leftrightarrow	Left Right Arrow
+U+02195	↕	\:arrow_up_down:, \updownarrow	Up Down Arrow
+U+02196	↖	\:arrow_upper_left:, \nwarrow	North West Arrow / Upper Left Arrow
+U+02197	↗	\:arrow_upper_right:, \nearrow	North East Arrow / Upper Right Arrow
+U+02198	↘	\:arrow_lower_right:, \searrow	South East Arrow / Lower Right Arrow
+U+02199	↙	\:arrow_lower_left:, \swarrow	South West Arrow / Lower Left Arrow
 U+0219A	↚	\nleftarrow	Leftwards Arrow With Stroke / Left Arrow With Stroke
 U+0219B	↛	\nrightarrow	Rightwards Arrow With Stroke / Right Arrow With Stroke
 U+0219C	↜	\leftwavearrow	Leftwards Wave Arrow / Left Wave Arrow
@@ -451,8 +455,8 @@ U+021A5	↥	\mapsup	Upwards Arrow From Bar / Up Arrow From Bar
 U+021A6	↦	\mapsto	Rightwards Arrow From Bar / Right Arrow From Bar
 U+021A7	↧	\mapsdown	Downwards Arrow From Bar / Down Arrow From Bar
 U+021A8	↨	\updownarrowbar	Up Down Arrow With Base
-U+021A9	↩	\hookleftarrow, \:leftwards_arrow_with_hook:	Leftwards Arrow With Hook / Left Arrow With Hook
-U+021AA	↪	\hookrightarrow, \:arrow_right_hook:	Rightwards Arrow With Hook / Right Arrow With Hook
+U+021A9	↩	\:leftwards_arrow_with_hook:, \hookleftarrow	Leftwards Arrow With Hook / Left Arrow With Hook
+U+021AA	↪	\:arrow_right_hook:, \hookrightarrow	Rightwards Arrow With Hook / Right Arrow With Hook
 U+021AB	↫	\looparrowleft	Leftwards Arrow With Loop / Left Arrow With Loop
 U+021AC	↬	\looparrowright	Rightwards Arrow With Loop / Right Arrow With Loop
 U+021AD	↭	\leftrightsquigarrow	Left Right Wave Arrow
@@ -534,7 +538,7 @@ U+02201	∁	\complement	Complement
 U+02202	∂	\partial	Partial Differential
 U+02203	∃	\exists	There Exists
 U+02204	∄	\nexists	There Does Not Exist
-U+02205	∅	\varnothing, \emptyset	Empty Set
+U+02205	∅	\emptyset, \varnothing	Empty Set
 U+02206	∆	\increment	Increment
 U+02207	∇	\del, \nabla	Nabla
 U+02208	∈	\in	Element Of
@@ -554,7 +558,7 @@ U+02216	∖	\setminus	Set Minus
 U+02217	∗	\ast	Asterisk Operator
 U+02218	∘	\circ	Ring Operator
 U+02219	∙	\vysmblkcircle	Bullet Operator
-U+0221A	√	\surd, \sqrt	Square Root
+U+0221A	√	\sqrt, \surd	Square Root
 U+0221B	∛	\cbrt	Cube Root
 U+0221C	∜	\fourthroot	Fourth Root
 U+0221D	∝	\propto	Proportional To
@@ -625,7 +629,7 @@ U+0225C	≜	\triangleq	Delta Equal To
 U+0225D	≝	\eqdef	Equal To By Definition
 U+0225E	≞	\measeq	Measured By
 U+0225F	≟	\questeq	Questioned Equal To
-U+02260	≠	\ne	Not Equal To
+U+02260	≠	\ne, \neq	Not Equal To
 U+02261	≡	\equiv	Identical To
 U+02262	≢	\nequiv	Not Identical To
 U+02263	≣	\Equiv	Strictly Equivalent To
@@ -766,7 +770,7 @@ U+022E1	⋡	\nsucccurlyeq	Does Not Succeed Or Equal
 U+022E2	⋢	\nsqsubseteq	Not Square Image Of Or Equal To
 U+022E3	⋣	\nsqsupseteq	Not Square Original Of Or Equal To
 U+022E4	⋤	\sqsubsetneq	Square Image Of Or Not Equal To
-U+022E5	⋥	\sqspne	Square Original Of Or Not Equal To
+U+022E5	⋥	\sqsupsetneq	Square Original Of Or Not Equal To
 U+022E6	⋦	\lnsim	Less-Than But Not Equivalent To / Less Than But Not Equivalent To
 U+022E7	⋧	\gnsim	Greater-Than But Not Equivalent To / Greater Than But Not Equivalent To
 U+022E8	⋨	\precnsim	Precedes But Not Equivalent To
@@ -875,8 +879,8 @@ U+025A6	▦	\squarehvfill	Square With Orthogonal Crosshatch Fill
 U+025A7	▧	\squarenwsefill	Square With Upper Left To Lower Right Fill
 U+025A8	▨	\squareneswfill	Square With Upper Right To Lower Left Fill
 U+025A9	▩	\squarecrossfill	Square With Diagonal Crosshatch Fill
-U+025AA	▪	\smblksquare, \:black_small_square:	Black Small Square
-U+025AB	▫	\smwhtsquare, \:white_small_square:	White Small Square
+U+025AA	▪	\:black_small_square:, \smblksquare	Black Small Square
+U+025AB	▫	\:white_small_square:, \smwhtsquare	White Small Square
 U+025AC	▬	\hrectangleblack	Black Rectangle
 U+025AD	▭	\hrectangle	White Rectangle
 U+025AE	▮	\vrectangleblack	Black Vertical Rectangle
@@ -887,7 +891,7 @@ U+025B2	▲	\bigblacktriangleup	Black Up-Pointing Triangle / Black Up Pointing T
 U+025B3	△	\bigtriangleup	White Up-Pointing Triangle / White Up Pointing Triangle
 U+025B4	▴	\blacktriangle	Black Up-Pointing Small Triangle / Black Up Pointing Small Triangle
 U+025B5	▵	\vartriangle	White Up-Pointing Small Triangle / White Up Pointing Small Triangle
-U+025B6	▶	\blacktriangleright, \:arrow_forward:	Black Right-Pointing Triangle / Black Right Pointing Triangle
+U+025B6	▶	\:arrow_forward:, \blacktriangleright	Black Right-Pointing Triangle / Black Right Pointing Triangle
 U+025B7	▷	\triangleright	White Right-Pointing Triangle / White Right Pointing Triangle
 U+025B8	▸	\smallblacktriangleright	Black Right-Pointing Small Triangle / Black Right Pointing Small Triangle
 U+025B9	▹	\smalltriangleright	White Right-Pointing Small Triangle / White Right Pointing Small Triangle
@@ -897,7 +901,7 @@ U+025BC	▼	\bigblacktriangledown	Black Down-Pointing Triangle / Black Down Poin
 U+025BD	▽	\bigtriangledown	White Down-Pointing Triangle / White Down Pointing Triangle
 U+025BE	▾	\blacktriangledown	Black Down-Pointing Small Triangle / Black Down Pointing Small Triangle
 U+025BF	▿	\triangledown	White Down-Pointing Small Triangle / White Down Pointing Small Triangle
-U+025C0	◀	\blacktriangleleft, \:arrow_backward:	Black Left-Pointing Triangle / Black Left Pointing Triangle
+U+025C0	◀	\:arrow_backward:, \blacktriangleleft	Black Left-Pointing Triangle / Black Left Pointing Triangle
 U+025C1	◁	\triangleleft	White Left-Pointing Triangle / White Left Pointing Triangle
 U+025C2	◂	\smallblacktriangleleft	Black Left-Pointing Small Triangle / Black Left Pointing Small Triangle
 U+025C3	◃	\smalltriangleleft	White Left-Pointing Small Triangle / White Left Pointing Small Triangle
@@ -956,10 +960,10 @@ U+025F7	◷	\circleurquad	White Circle With Upper Right Quadrant
 U+025F8	◸	\ultriangle	Upper Left Triangle
 U+025F9	◹	\urtriangle	Upper Right Triangle
 U+025FA	◺	\lltriangle	Lower Left Triangle
-U+025FB	◻	\mdwhtsquare, \:white_medium_square:	White Medium Square
-U+025FC	◼	\mdblksquare, \:black_medium_square:	Black Medium Square
-U+025FD	◽	\mdsmwhtsquare, \:white_medium_small_square:	White Medium Small Square
-U+025FE	◾	\mdsmblksquare, \:black_medium_small_square:	Black Medium Small Square
+U+025FB	◻	\:white_medium_square:, \mdwhtsquare	White Medium Square
+U+025FC	◼	\:black_medium_square:, \mdblksquare	Black Medium Square
+U+025FD	◽	\:white_medium_small_square:, \mdsmwhtsquare	White Medium Small Square
+U+025FE	◾	\:black_medium_small_square:, \mdsmblksquare	Black Medium Small Square
 U+025FF	◿	\lrtriangle	Lower Right Triangle
 U+02600	☀	\:sunny:	Black Sun With Rays
 U+02601	☁	\:cloud:	Cloud
@@ -968,7 +972,7 @@ U+02606	☆	\bigwhitestar	White Star
 U+02609	☉	\astrosun	Sun
 U+0260E	☎	\:phone:	Black Telephone
 U+02611	☑	\:ballot_box_with_check:	Ballot Box With Check
-U+02614	☔	\:umbrella_with_rain_drops:, \:umbrella:	Umbrella With Rain Drops
+U+02614	☔	\:umbrella:, \:umbrella_with_rain_drops:	Umbrella With Rain Drops
 U+02615	☕	\:coffee:	Hot Beverage
 U+0261D	☝	\:point_up:	White Up Pointing Index
 U+02621	☡	\danger	Caution Sign
@@ -978,32 +982,32 @@ U+0263C	☼	\sun	White Sun With Rays
 U+0263D	☽	\rightmoon	First Quarter Moon
 U+0263E	☾	\leftmoon	Last Quarter Moon
 U+0263F	☿	\mercury	Mercury
-U+02640	♀	\venus, \female	Female Sign
+U+02640	♀	\female, \venus	Female Sign
 U+02642	♂	\male, \mars	Male Sign
 U+02643	♃	\jupiter	Jupiter
 U+02644	♄	\saturn	Saturn
 U+02645	♅	\uranus	Uranus
 U+02646	♆	\neptune	Neptune
 U+02647	♇	\pluto	Pluto
-U+02648	♈	\aries, \:aries:	Aries
-U+02649	♉	\taurus, \:taurus:	Taurus
-U+0264A	♊	\gemini, \:gemini:	Gemini
-U+0264B	♋	\cancer, \:cancer:	Cancer
-U+0264C	♌	\leo, \:leo:	Leo
-U+0264D	♍	\virgo, \:virgo:	Virgo
-U+0264E	♎	\libra, \:libra:	Libra
-U+0264F	♏	\scorpio, \:scorpius:	Scorpius
-U+02650	♐	\sagittarius, \:sagittarius:	Sagittarius
-U+02651	♑	\capricornus, \:capricorn:	Capricorn
-U+02652	♒	\aquarius, \:aquarius:	Aquarius
-U+02653	♓	\pisces, \:pisces:	Pisces
-U+02660	♠	\spadesuit, \:spades:	Black Spade Suit
+U+02648	♈	\:aries:, \aries	Aries
+U+02649	♉	\:taurus:, \taurus	Taurus
+U+0264A	♊	\:gemini:, \gemini	Gemini
+U+0264B	♋	\:cancer:, \cancer	Cancer
+U+0264C	♌	\:leo:, \leo	Leo
+U+0264D	♍	\:virgo:, \virgo	Virgo
+U+0264E	♎	\:libra:, \libra	Libra
+U+0264F	♏	\:scorpius:, \scorpio	Scorpius
+U+02650	♐	\:sagittarius:, \sagittarius	Sagittarius
+U+02651	♑	\:capricorn:, \capricornus	Capricorn
+U+02652	♒	\:aquarius:, \aquarius	Aquarius
+U+02653	♓	\:pisces:, \pisces	Pisces
+U+02660	♠	\:spades:, \spadesuit	Black Spade Suit
 U+02661	♡	\heartsuit	White Heart Suit
 U+02662	♢	\diamondsuit	White Diamond Suit
-U+02663	♣	\clubsuit, \:clubs:	Black Club Suit
+U+02663	♣	\:clubs:, \clubsuit	Black Club Suit
 U+02664	♤	\varspadesuit	White Spade Suit
-U+02665	♥	\varheartsuit, \:hearts:	Black Heart Suit
-U+02666	♦	\vardiamondsuit, \:diamonds:	Black Diamond Suit
+U+02665	♥	\:hearts:, \varheartsuit	Black Heart Suit
+U+02666	♦	\:diamonds:, \vardiamondsuit	Black Diamond Suit
 U+02667	♧	\varclubsuit	White Club Suit
 U+02668	♨	\:hotsprings:	Hot Springs
 U+02669	♩	\quarternote	Quarter Note
@@ -1029,8 +1033,8 @@ U+02693	⚓	\:anchor:	Anchor
 U+026A0	⚠	\:warning:	Warning Sign
 U+026A1	⚡	\:zap:	High Voltage Sign
 U+026A5	⚥	\hermaphrodite	Male And Female Sign
-U+026AA	⚪	\mdwhtcircle, \:white_circle:	Medium White Circle
-U+026AB	⚫	\mdblkcircle, \:black_circle:	Medium Black Circle
+U+026AA	⚪	\:white_circle:, \mdwhtcircle	Medium White Circle
+U+026AB	⚫	\:black_circle:, \mdblkcircle	Medium Black Circle
 U+026AC	⚬	\mdsmwhtcircle	Medium Small White Circle
 U+026B2	⚲	\neuter	Neuter
 U+026BD	⚽	\:soccer:	Soccer Ball
@@ -1083,6 +1087,7 @@ U+027BF	➿	\:loop:	Double Curly Loop
 U+027C0	⟀	\threedangle	Three Dimensional Angle
 U+027C1	⟁	\whiteinwhitetriangle	White Triangle Containing Small White Triangle
 U+027C2	⟂	\perp	Perpendicular
+U+027C7	⟇	\veedot	Or With Dot Inside
 U+027C8	⟈	\bsolhsub	Reverse Solidus Preceding Subset
 U+027C9	⟉	\suphsol	Superset Preceding Solidus
 U+027D1	⟑	\wedgedot	And With Dot
@@ -1101,8 +1106,8 @@ U+027F1	⟱	\DDownarrow	Downwards Quadruple Arrow
 U+027F5	⟵	\longleftarrow	Long Leftwards Arrow
 U+027F6	⟶	\longrightarrow	Long Rightwards Arrow
 U+027F7	⟷	\longleftrightarrow	Long Left Right Arrow
-U+027F8	⟸	\impliedby, \Longleftarrow	Long Leftwards Double Arrow
-U+027F9	⟹	\implies, \Longrightarrow	Long Rightwards Double Arrow
+U+027F8	⟸	\Longleftarrow, \impliedby	Long Leftwards Double Arrow
+U+027F9	⟹	\Longrightarrow, \implies	Long Rightwards Double Arrow
 U+027FA	⟺	\Longleftrightarrow, \iff	Long Left Right Double Arrow
 U+027FB	⟻	\longmapsfrom	Long Leftwards Arrow From Bar
 U+027FC	⟼	\longmapsto	Long Rightwards Arrow From Bar
@@ -1200,6 +1205,8 @@ U+0296D	⥭	\dashrightharpoondown	Rightwards Harpoon With Barb Down Below Long D
 U+0296E	⥮	\UpEquilibrium	Upwards Harpoon With Barb Left Beside Downwards Harpoon With Barb Right
 U+0296F	⥯	\ReverseUpEquilibrium	Downwards Harpoon With Barb Left Beside Upwards Harpoon With Barb Right
 U+02970	⥰	\RoundImplies	Right Double Arrow With Rounded Head
+U+02977	⥷	\leftarrowless	Leftwards Arrow Through Less-Than
+U+0297A	⥺	\leftarrowsubset	Leftwards Arrow Through Subset
 U+02980	⦀	\Vvert	Triple Vertical Bar Delimiter
 U+02986	⦆	\Elroang	Right White Parenthesis
 U+02999	⦙	\ddfnc	Dotted Fence
@@ -1476,7 +1483,7 @@ U+02ADD	⫝	\forksnot	Nonforking
 U+02AE3	⫣	\dashV	Double Vertical Bar Left Turnstile
 U+02AE4	⫤	\Dashv	Vertical Bar Double Left Turnstile
 U+02AEA	⫪	\Top, \downvDash	Double Down Tack
-U+02AEB	⫫	\upvDash, \Bot, \indep	Double Up Tack
+U+02AEB	⫫	\Bot, \indep, \upvDash	Double Up Tack
 U+02AF4	⫴	\interleave	Triple Vertical Bar Binary Relation
 U+02AF6	⫶	\tdcol	Triple Colon Operator
 U+02AF7	⫷	\lllnest	Triple Nested Less-Than
@@ -1495,8 +1502,8 @@ U+02B17	⬗	\diamondrightblack	Diamond With Right Half Black
 U+02B18	⬘	\diamondtopblack	Diamond With Top Half Black
 U+02B19	⬙	\diamondbotblack	Diamond With Bottom Half Black
 U+02B1A	⬚	\dottedsquare	Dotted Square
-U+02B1B	⬛	\lgblksquare, \:black_large_square:	Black Large Square
-U+02B1C	⬜	\lgwhtsquare, \:white_large_square:	White Large Square
+U+02B1B	⬛	\:black_large_square:, \lgblksquare	Black Large Square
+U+02B1C	⬜	\:white_large_square:, \lgwhtsquare	White Large Square
 U+02B1D	⬝	\vysmblksquare	Black Very Small Square
 U+02B1E	⬞	\vysmwhtsquare	White Very Small Square
 U+02B1F	⬟	\pentagonblack	Black Pentagon
@@ -1545,7 +1552,7 @@ U+02B49	⭉	\similarleftarrow	Tilde Operator Above Leftwards Arrow
 U+02B4A	⭊	\leftarrowapprox	Leftwards Arrow Above Almost Equal To
 U+02B4B	⭋	\leftarrowbsimilar	Leftwards Arrow Above Reverse Tilde Operator
 U+02B4C	⭌	\rightarrowbsimilar	Rightwards Arrow Above Reverse Tilde Operator
-U+02B50	⭐	\medwhitestar, \:star:	White Medium Star
+U+02B50	⭐	\:star:, \medwhitestar	White Medium Star
 U+02B51	⭑	\medblackstar	Black Small Star
 U+02B52	⭒	\smwhitestar	White Small Star
 U+02B53	⭓	\rightpentagonblack	Black Right-Pointing Pentagon
@@ -1561,6 +1568,40 @@ U+03299	㊙	\:secret:	Circled Ideograph Secret
 U+0A71B	ꜛ	\^uparrow	Modifier Letter Raised Up Arrow
 U+0A71C	ꜜ	\^downarrow	Modifier Letter Raised Down Arrow
 U+0A71D	ꜝ	\^!	Modifier Letter Raised Exclamation Mark
+U+107A5	𐞥	\^q	Modifier Letter Small Q
+U+1D106	𝄆	\leftrepeatsign	Musical Symbol Left Repeat Sign
+U+1D107	𝄇	\rightrepeatsign	Musical Symbol Right Repeat Sign
+U+1D109	𝄉	\dalsegno	Musical Symbol Dal Segno
+U+1D10A	𝄊	\dacapo	Musical Symbol Da Capo
+U+1D10B	𝄋	\segno	Musical Symbol Segno
+U+1D10C	𝄌	\coda	Musical Symbol Coda
+U+1D11E	𝄞	\clefg	Musical Symbol G Clef
+U+1D11F	𝄟	\clefg8va	Musical Symbol G Clef Ottava Alta
+U+1D120	𝄠	\clefg8vb	Musical Symbol G Clef Ottava Bassa
+U+1D121	𝄡	\clefc	Musical Symbol C Clef
+U+1D122	𝄢	\cleff	Musical Symbol F Clef
+U+1D123	𝄣	\cleff8va	Musical Symbol F Clef Ottava Alta
+U+1D124	𝄤	\cleff8vb	Musical Symbol F Clef Ottava Bassa
+U+1D12A	𝄪	\sharpsharp	Musical Symbol Double Sharp
+U+1D12B	𝄫	\flatflat	Musical Symbol Double Flat
+U+1D13A	𝄺	\restmulti	Musical Symbol Multi Rest
+U+1D13B	𝄻	\restwhole	Musical Symbol Whole Rest
+U+1D13C	𝄼	\resthalf	Musical Symbol Half Rest
+U+1D13D	𝄽	\restquarter	Musical Symbol Quarter Rest
+U+1D13E	𝄾	\rest8th	Musical Symbol Eighth Rest
+U+1D13F	𝄿	\rest16th	Musical Symbol Sixteenth Rest
+U+1D140	𝅀	\rest32th	Musical Symbol Thirty-Second Rest
+U+1D141	𝅁	\rest64th	Musical Symbol Sixty-Fourth Rest
+U+1D142	𝅂	\rest128th	Musical Symbol One Hundred Twenty-Eighth Rest
+U+1D15C	𝅜	\notedoublewhole	Musical Symbol Breve
+U+1D15D	𝅝	\notewhole	Musical Symbol Whole Note
+U+1D15E	𝅗𝅥	\notehalf	Musical Symbol Half Note
+U+1D15F	𝅘𝅥	\notequarter	Musical Symbol Quarter Note
+U+1D160	𝅘𝅥𝅮	\note8th	Musical Symbol Eighth Note
+U+1D161	𝅘𝅥𝅯	\note16th	Musical Symbol Sixteenth Note
+U+1D162	𝅘𝅥𝅰	\note32th	Musical Symbol Thirty-Second Note
+U+1D163	𝅘𝅥𝅱	\note64th	Musical Symbol Sixty-Fourth Note
+U+1D164	𝅘𝅥𝅲	\note128th	Musical Symbol One Hundred Twenty-Eighth Note
 U+1D400	𝐀	\bfA	Mathematical Bold Capital A
 U+1D401	𝐁	\bfB	Mathematical Bold Capital B
 U+1D402	𝐂	\bfC	Mathematical Bold Capital C
@@ -3305,6 +3346,10 @@ U+1F6D2	🛒	\:shopping_trolley:	Shopping Trolley
 U+1F6D5	🛕	\:hindu_temple:	Hindu Temple
 U+1F6D6	🛖	\:hut:	Hut
 U+1F6D7	🛗	\:elevator:	Elevator
+U+1F6DC	🛜	\:wireless:	Wireless
+U+1F6DD	🛝	\:playground_slide:	Playground Slide
+U+1F6DE	🛞	\:wheel:	Wheel
+U+1F6DF	🛟	\:ring_buoy:	Ring Buoy
 U+1F6EB	🛫	\:airplane_departure:	Airplane Departure
 U+1F6EC	🛬	\:airplane_arriving:	Airplane Arriving
 U+1F6F4	🛴	\:scooter:	Scooter
@@ -3328,6 +3373,8 @@ U+1F7E8	🟨	\:large_yellow_square:	Large Yellow Square
 U+1F7E9	🟩	\:large_green_square:	Large Green Square
 U+1F7EA	🟪	\:large_purple_square:	Large Purple Square
 U+1F7EB	🟫	\:large_brown_square:	Large Brown Square
+U+1F7F0	🟰	\:heavy_equals_sign:	Heavy Equals Sign
+U+1F8B2	🢲	\hookunderrightarrow	Rightwards Arrow With Lower Hook
 U+1F90C	🤌	\:pinched_fingers:	Pinched Fingers
 U+1F90D	🤍	\:white_heart:	White Heart
 U+1F90E	🤎	\:brown_heart:	Brown Heart
@@ -3435,6 +3482,7 @@ U+1F975	🥵	\:hot_face:	Overheated Face
 U+1F976	🥶	\:cold_face:	Freezing Face
 U+1F977	🥷	\:ninja:	Ninja
 U+1F978	🥸	\:disguised_face:	Disguised Face
+U+1F979	🥹	\:face_holding_back_tears:	Face Holding Back Tears
 U+1F97A	🥺	\:pleading_face:	Face With Pleading Eyes
 U+1F97B	🥻	\:sari:	Sari
 U+1F97C	🥼	\:lab_coat:	Lab Coat
@@ -3513,6 +3561,7 @@ U+1F9C8	🧈	\:butter:	Butter
 U+1F9C9	🧉	\:mate_drink:	Mate Drink
 U+1F9CA	🧊	\:ice_cube:	Ice Cube
 U+1F9CB	🧋	\:bubble_tea:	Bubble Tea
+U+1F9CC	🧌	\:troll:	Troll
 U+1F9CD	🧍	\:standing_person:	Standing Person
 U+1F9CE	🧎	\:kneeling_person:	Kneeling Person
 U+1F9CF	🧏	\:deaf_person:	Deaf Person
@@ -3569,9 +3618,14 @@ U+1FA71	🩱	\:one-piece_swimsuit:	One-Piece Swimsuit
 U+1FA72	🩲	\:briefs:	Briefs
 U+1FA73	🩳	\:shorts:	Shorts
 U+1FA74	🩴	\:thong_sandal:	Thong Sandal
+U+1FA75	🩵	\:light_blue_heart:	Light Blue Heart
+U+1FA76	🩶	\:grey_heart:	Grey Heart
+U+1FA77	🩷	\:pink_heart:	Pink Heart
 U+1FA78	🩸	\:drop_of_blood:	Drop Of Blood
 U+1FA79	🩹	\:adhesive_bandage:	Adhesive Bandage
 U+1FA7A	🩺	\:stethoscope:	Stethoscope
+U+1FA7B	🩻	\:x-ray:	X-Ray
+U+1FA7C	🩼	\:crutch:	Crutch
 U+1FA80	🪀	\:yo-yo:	Yo-Yo
 U+1FA81	🪁	\:kite:	Kite
 U+1FA82	🪂	\:parachute:	Parachute
@@ -3579,6 +3633,8 @@ U+1FA83	🪃	\:boomerang:	Boomerang
 U+1FA84	🪄	\:magic_wand:	Magic Wand
 U+1FA85	🪅	\:pinata:	Pinata
 U+1FA86	🪆	\:nesting_dolls:	Nesting Dolls
+U+1FA87	🪇	\:maracas:	Maracas
+U+1FA88	🪈	\:flute:	Flute
 U+1FA90	🪐	\:ringed_planet:	Ringed Planet
 U+1FA91	🪑	\:chair:	Chair
 U+1FA92	🪒	\:razor:	Razor
@@ -3604,6 +3660,13 @@ U+1FAA5	🪥	\:toothbrush:	Toothbrush
 U+1FAA6	🪦	\:headstone:	Headstone
 U+1FAA7	🪧	\:placard:	Placard
 U+1FAA8	🪨	\:rock:	Rock
+U+1FAA9	🪩	\:mirror_ball:	Mirror Ball
+U+1FAAA	🪪	\:identification_card:	Identification Card
+U+1FAAB	🪫	\:low_battery:	Low Battery
+U+1FAAC	🪬	\:hamsa:	Hamsa
+U+1FAAD	🪭	\:folding_hand_fan:	Folding Hand Fan
+U+1FAAE	🪮	\:hair_pick:	Hair Pick
+U+1FAAF	🪯	\:khanda:	Khanda
 U+1FAB0	🪰	\:fly:	Fly
 U+1FAB1	🪱	\:worm:	Worm
 U+1FAB2	🪲	\:beetle:	Beetle
@@ -3611,9 +3674,22 @@ U+1FAB3	🪳	\:cockroach:	Cockroach
 U+1FAB4	🪴	\:potted_plant:	Potted Plant
 U+1FAB5	🪵	\:wood:	Wood
 U+1FAB6	🪶	\:feather:	Feather
+U+1FAB7	🪷	\:lotus:	Lotus
+U+1FAB8	🪸	\:coral:	Coral
+U+1FAB9	🪹	\:empty_nest:	Empty Nest
+U+1FABA	🪺	\:nest_with_eggs:	Nest With Eggs
+U+1FABB	🪻	\:hyacinth:	Hyacinth
+U+1FABC	🪼	\:jellyfish:	Jellyfish
+U+1FABD	🪽	\:wing:	Wing
+U+1FABF	🪿	\:goose:	Goose
 U+1FAC0	🫀	\:anatomical_heart:	Anatomical Heart
 U+1FAC1	🫁	\:lungs:	Lungs
 U+1FAC2	🫂	\:people_hugging:	People Hugging
+U+1FAC3	🫃	\:pregnant_man:	Pregnant Man
+U+1FAC4	🫄	\:pregnant_person:	Pregnant Person
+U+1FAC5	🫅	\:person_with_crown:	Person With Crown
+U+1FACE	🫎	\:moose:	Moose
+U+1FACF	🫏	\:donkey:	Donkey
 U+1FAD0	🫐	\:blueberries:	Blueberries
 U+1FAD1	🫑	\:bell_pepper:	Bell Pepper
 U+1FAD2	🫒	\:olive:	Olive
@@ -3621,3 +3697,26 @@ U+1FAD3	🫓	\:flatbread:	Flatbread
 U+1FAD4	🫔	\:tamale:	Tamale
 U+1FAD5	🫕	\:fondue:	Fondue
 U+1FAD6	🫖	\:teapot:	Teapot
+U+1FAD7	🫗	\:pouring_liquid:	Pouring Liquid
+U+1FAD8	🫘	\:beans:	Beans
+U+1FAD9	🫙	\:jar:	Jar
+U+1FADA	🫚	\:ginger_root:	Ginger Root
+U+1FADB	🫛	\:pea_pod:	Pea Pod
+U+1FAE0	🫠	\:melting_face:	Melting Face
+U+1FAE1	🫡	\:saluting_face:	Saluting Face
+U+1FAE2	🫢	\:face_with_open_eyes_and_hand_over_mouth:	Face With Open Eyes And Hand Over Mouth
+U+1FAE3	🫣	\:face_with_peeking_eye:	Face With Peeking Eye
+U+1FAE4	🫤	\:face_with_diagonal_mouth:	Face With Diagonal Mouth
+U+1FAE5	🫥	\:dotted_line_face:	Dotted Line Face
+U+1FAE6	🫦	\:biting_lip:	Biting Lip
+U+1FAE7	🫧	\:bubbles:	Bubbles
+U+1FAE8	🫨	\:shaking_face:	Shaking Face
+U+1FAF0	🫰	\:hand_with_index_finger_and_thumb_crossed:	Hand With Index Finger And Thumb Crossed
+U+1FAF1	🫱	\:rightwards_hand:	Rightwards Hand
+U+1FAF2	🫲	\:leftwards_hand:	Leftwards Hand
+U+1FAF3	🫳	\:palm_down_hand:	Palm Down Hand
+U+1FAF4	🫴	\:palm_up_hand:	Palm Up Hand
+U+1FAF5	🫵	\:index_pointing_at_the_viewer:	Index Pointing At The Viewer
+U+1FAF6	🫶	\:heart_hands:	Heart Hands
+U+1FAF7	🫷	\:leftwards_pushing_hand:	Leftwards Pushing Hand
+U+1FAF8	🫸	\:rightwards_pushing_hand:	Rightwards Pushing Hand
