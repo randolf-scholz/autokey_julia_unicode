@@ -83,7 +83,7 @@ allow_empty = true
 item_pattern = '[^\t\r\n]*'
 description = """
 For a single character, optionally followed by one variation selector,
-match the base character's unicode_name in icons/unicode.tsv, ignoring case.
+match the base character's unicode_name in data/ucd/unicode.tsv, ignoring case.
 This includes matching empty names for unnamed characters present in that table.
 Name checks are skipped for characters absent from the table and for other
 multi-code-point sequences, including base characters followed by combining marks.

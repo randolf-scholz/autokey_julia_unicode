@@ -6,8 +6,8 @@ repeated in every row. Different packages may define the same command differentl
 The reverse index, from Unicode sequences to available LaTeX expressions, can be
 derived by joining on `code_points`.
 
-[`schema.toml`](schema.toml) defines the columns and serialization. It reuses
-[`../icons/schema-definition.json`](../icons/schema-definition.json) to validate
+The shared [LaTeX schema](../schemas/latex.toml) defines the columns and serialization.
+It reuses [schema-definition.json](../schemas/schema-definition.json) to validate
 the column definitions with Tombi.
 
 | Column        | Required | Meaning                                                   |
@@ -105,7 +105,7 @@ Structural and mapping checks run without TeX installed:
 
 ```bash
 uv run python -m unittest tests.test_import_latex
-tombi lint --offline latex/schema.toml
+tombi lint --offline data/schemas/latex.toml
 ```
 
 The generated snapshot was also checked by typesetting every expression in each

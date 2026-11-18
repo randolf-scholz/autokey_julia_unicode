@@ -1,4 +1,4 @@
-#:schema ../icons/schema-definition.json
+#:schema ./schema-definition.json
 # Package-context tables map LaTeX expressions to Unicode sequences.
 # The shared definition validates the column vocabulary, not TSV contents.
 # Export order: code_points, chars, mode, latex_code. Readers identify columns by name.
