@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 0.2.0 (unreleased)
+
+- Updated installation requirements to AutoKey ≥0.96.0 and Python ≥3.12.3.
+  Renamed `install.py` to `src/install_autokey.py` and added `just install`.
+  Generated metadata now uses AutoKey 0.96's non-hidden JSON filenames.
+- Changed the default installation location to `~/.config/autokey/data/julia_unicode/`.
+  Reinstallation confirms before replacing the entire extension directory; keep
+  personal phrases and scripts outside it. A missing default AutoKey data
+  directory now produces an error instead of silently generating files locally.
+- Separated building from installation. Generated assets and a detailed
+  `install.log` are retained in `build/autokey/`. Added `--build-only` / `--dry-run`
+  to generate files without AutoKey or installation prompts. Installation stages
+  a complete replacement and restores the previous installation if replacement fails.
+- Refreshed Julia's Unicode and emoji completions: added 111 aliases and removed
+  12 obsolete aliases, increasing the table by 99 replacement entries. For example,
+  use `\Mu` instead of `\upMu`, `\omicron` instead of `\upomicron`, and
+  `\sqsupsetneq` instead of `\sqspne`.
+- Integrated the bundled LaTeX snippets and brace-delimited subscript/superscript
+  conversion script into installation, e.g. `\_{123}` → `₁₂₃`.
+  Added table, `tblr`, and Markdown details snippets.
+- Added scripts and `just` recipes to refresh source tables: `import-julia` for
+  Julia's installed LaTeX and emoji completions, `fetch-ucd` to download a selected
+  or latest UCD release, `import-ucd` to regenerate Unicode block tables, and
+  `import-latex` to extract LaTeX mappings from an installed TeX distribution.
+  Julia and TeX are only required for their respective imports.
+- Updated bundled Unicode reference data from 15.1.0 to 18.0.0. Regenerated the
+  per-block tables and added a combined character table and block index.
+  Available abbreviations still come from the Julia and custom icon collections.
+- Standardized icon TSVs and added schemas and validation. Custom tables must use
+  the new column names (`code_points`, `chars`, `tab_completions`, `unicode_name`)
+  and comma-space-separated code points. Replacement text is preserved exactly,
+  without display padding and including variation selectors. Added
+  `src/validate_tsv.py` / `just validate`, with optional Unicode-name checks.
+- Added a LaTeX2e-to-Unicode reference table with 635 mappings, distinguishing
+  text and math modes, together with its schema and source provenance.
+- Added installation and contributor guides, source-data and schema documentation,
+  and font guidance with updated character samples.
+
 ## 2024-11-13
 
 Converted `latex-unicode` to its own repository, and added it as a submodule.
