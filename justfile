@@ -13,23 +13,12 @@ install *args:
     fi
     exec "$python" src/install_autokey.py "$@"
 
-[doc("Export the running Julia version's Unicode completions.")]
+[doc("Import the running Julia version's Unicode completions.")]
 [positional-arguments]
-export-julia *args:
-    julia --startup-file=no src/export_julia.jl "$@"
+import-julia *args:
+    julia --startup-file=no src/import_julia.jl "$@"
 
-[doc("Export per-block Unicode TSV files from the locally imported UCD.")]
-[positional-arguments]
-export-ucd *args:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    python="${PYTHON:-python3}"
-    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
-        python=.venv/bin/python
-    fi
-    exec "$python" src/export_ucd.py "$@"
-
-[doc("Download and validate a Unicode Character Database release.")]
+[doc("Import the locally fetched UCD into per-block Unicode TSV files.")]
 [positional-arguments]
 import-ucd *args:
     #!/usr/bin/env bash
@@ -39,6 +28,28 @@ import-ucd *args:
         python=.venv/bin/python
     fi
     exec "$python" src/import_ucd.py "$@"
+
+[doc("Download and validate a Unicode Character Database release.")]
+[positional-arguments]
+fetch-ucd *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python="${PYTHON:-python3}"
+    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
+        python=.venv/bin/python
+    fi
+    exec "$python" src/fetch_ucd.py "$@"
+
+[doc("Import base LaTeX symbol mappings from an installed TeX distribution.")]
+[positional-arguments]
+import-latex *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python="${PYTHON:-python3}"
+    if [[ -z "${PYTHON:-}" && -x .venv/bin/python ]]; then
+        python=.venv/bin/python
+    fi
+    exec "$python" src/import_latex.py "$@"
 
 [doc("Validate TSV files or path globs (quote globs at the CLI).")]
 [positional-arguments]
