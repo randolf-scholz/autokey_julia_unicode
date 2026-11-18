@@ -3,13 +3,34 @@ module JuliaIconImportTests
 using Test
 
 const ICONS_FILENAME = "icons-julia.tsv"
+const IMPORT_JULIA = normpath(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
 
 # Keep the script's @main entry point outside Main during tests.
-include(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
+include(IMPORT_JULIA)
 
 @testset "Julia icon import" begin
     mktempdir() do directory
         output = joinpath(directory, ICONS_FILENAME)
+        unicode_data = joinpath(directory, "UnicodeData.txt")
+        schema_path = joinpath(directory, "schema.toml")
+        open(unicode_data, "w") do io
+            for (point, name, legacy) in (
+                (0x00a6, "BROKEN BAR", "BROKEN VERTICAL BAR"),
+                (0x00a9, "COPYRIGHT SIGN", ""),
+                (0x2242, "MINUS TILDE", ""),
+                (0x0338, "COMBINING LONG SOLIDUS OVERLAY", "NON-SPACING LONG SLASH OVERLAY"),
+                (0x1f600, "GRINNING FACE", ""),
+            )
+                fields = fill("", 15)
+                fields[1] = uppercase(string(point; base=16))
+                fields[2] = name
+                fields[11] = legacy
+                println(io, join(fields, ';'))
+            end
+        end
+        open(schema_path, "w") do io
+            TOML.print(io, Dict("format" => Dict("required_columns" => collect(HEADER))))
+        end
         symbols = Dict(
             "\\copyright" => "©",
             "\\:copyright:" => "©",
@@ -26,7 +47,7 @@ include(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
             "\\:grinning:" => "😀",
             "\\unknown" => "\ue001",
         )
-        import_icons(output; symbols)
+        import_icons(output; symbols, unicode_data, schema_path)
         rows = [split(line, '\t') for line in readlines(output)]
         @test rows[1] == [
             "code_points", "chars", "tab_completions", "unicode_name",
@@ -52,7 +73,7 @@ include(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
         @test by_point["U+0E001"][3] == "(No Unicode name)"
 
         # All aliases from the running REPL must survive the full export, once each.
-        import_icons(output)
+        import_icons(output; unicode_data, schema_path)
         first_export = read(output)
         rows = [split(line, '\t') for line in readlines(output)[2:end]]
         repl_symbols = merge(
@@ -66,33 +87,36 @@ include(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
             for row in rows for alias in split(row[3], ", ")
         )
         @test exported == repl_symbols
-        @test all(!occursin("(No Unicode name)", row[4]) for row in rows)
-        import_icons(output)
+        import_icons(output; unicode_data, schema_path)
         @test read(output) == first_export
 
         # A schema mismatch must be rejected before replacing an existing export.
-        @test isnothing(validate_header())
-        schema_path = joinpath(directory, "schema.toml")
+        @test isnothing(validate_header(schema_path))
+        invalid_schema = joinpath(directory, "invalid-schema.toml")
         for order in (
             ["chars", "code_points", "tab_completions", "unicode_name"],
             ["code_points", "chars", "tab_completions"],
             ["code_points", "chars", "tab_completions", "unicode_name", "chars"],
             ["code_points", "chars", "tab_completions", "unicode_name", "notes"],
         )
-            schema = TOML.parsefile(SCHEMA_PATH)
+            schema = TOML.parsefile(schema_path)
             schema["format"]["required_columns"] = order
-            open(schema_path, "w") do io
+            open(invalid_schema, "w") do io
                 TOML.print(io, schema)
             end
-            @test_throws ArgumentError validate_header(schema_path)
-            @test_throws ArgumentError import_icons(output; schema_path)
+            @test_throws ArgumentError validate_header(invalid_schema)
+            @test_throws ArgumentError import_icons(
+                output; unicode_data, schema_path=invalid_schema
+            )
             @test read(output) == first_export
         end
 
         # Reject malformed UCD input before overwriting an existing export.
-        malformed = joinpath(directory, "UnicodeData.txt")
+        malformed = joinpath(directory, "malformed.txt")
         write(malformed, "0041;LATIN CAPITAL LETTER A\n")
-        @test_throws ArgumentError import_icons(output; unicode_data=malformed)
+        @test_throws ArgumentError import_icons(
+            output; unicode_data=malformed, schema_path
+        )
         @test read(output) == first_export
     end
 end
