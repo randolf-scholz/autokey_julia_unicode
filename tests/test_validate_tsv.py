@@ -13,6 +13,7 @@ from src.validate_tsv import (
 )
 
 ICONS_FILENAME = "icons-julia.tsv"
+LATEX_SCHEMA = ROOT / "data/schemas/latex.toml"
 HEADER = "code_points\tchars\ttab_completions\tunicode_name\n"
 ROW = "U+0041\tA\t\\A\tLATIN CAPITAL LETTER A\n"
 
@@ -55,7 +56,7 @@ def unicode_tsv(tmp_path: Path) -> Path:
         "U+FF3C\t＼\t\\fw\\\tFULLWIDTH REVERSE SOLIDUS\n",
     ],
 )
-def test_valid_icon_records(tmp_path: Path, row: str):
+def test_valid_icon_records(tmp_path: Path, row: str) -> None:
     path = tmp_path / ICONS_FILENAME
     contents = (HEADER + row).encode()
     path.write_bytes(contents)
@@ -86,7 +87,9 @@ def test_valid_icon_records(tmp_path: Path, row: str):
         (HEADER + 'U+0022\t""\t\t\n', "chars: does not match code_points"),
     ],
 )
-def test_invalid_icon_records_report_file(tmp_path: Path, contents: str, error: str):
+def test_invalid_icon_records_report_file(
+    tmp_path: Path, contents: str, error: str
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(contents)
     errors = list(validate_tsv(path))
@@ -109,7 +112,7 @@ def test_invalid_icon_records_report_file(tmp_path: Path, contents: str, error: 
 )
 def test_exact_replacement_identity_is_checked_without_name_checks(
     tmp_path: Path, points: str, chars: str
-):
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER + f"{points}\t{chars}\t\t\n")
     assert "chars: does not match code_points" in "\n".join(
@@ -120,7 +123,7 @@ def test_exact_replacement_identity_is_checked_without_name_checks(
 @pytest.mark.parametrize("point", [0xFE00, 0xFE0F, 0xE0100, 0xE01EF])
 def test_variation_selectors_are_preserved_and_use_base_name(
     tmp_path: Path, unicode_tsv: Path, point: int
-):
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(
         HEADER + f"U+1F600, U+{point:04X}\t😀{chr(point)}\t\tGrinning Face\n"
@@ -145,14 +148,14 @@ def test_variation_selectors_are_preserved_and_use_base_name(
 )
 def test_unicode_name_contract(
     tmp_path: Path, unicode_tsv: Path, row: str, valid: bool
-):
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER + row)
     errors = list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
     assert bool(errors) is not valid
 
 
-def test_headers_use_names_and_allow_extra_metadata(tmp_path: Path):
+def test_headers_use_names_and_allow_extra_metadata(tmp_path: Path) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(
         "notes\tunicode_name\ttab_completions\tchars\tcode_points\n"
@@ -161,15 +164,14 @@ def test_headers_use_names_and_allow_extra_metadata(tmp_path: Path):
     assert list(validate_tsv(path)) == []
 
 
-def test_latex_schema_validates_optional_chars_and_mode(tmp_path: Path):
+def test_latex_schema_validates_optional_chars_and_mode(tmp_path: Path) -> None:
     path = tmp_path / "latex.tsv"
-    schema = ROOT / "data/schemas/latex.toml"
     path.write_text("code_points\tmode\tlatex_code\nU+03B1\tmath\t\\alpha\n")
-    assert list(validate_tsv(path, schema_path=schema)) == []
+    assert list(validate_tsv(path, schema_path=LATEX_SCHEMA)) == []
     path.write_text(
         "code_points\tchars\tmode\tlatex_code\nU+03B1\t\tinvalid\t\\alpha\n"
     )
-    errors = "\n".join(map(str, validate_tsv(path, schema_path=schema)))
+    errors = "\n".join(map(str, validate_tsv(path, schema_path=LATEX_SCHEMA)))
     assert "chars: must not be empty" in errors
     assert "mode: invalid item pattern" in errors
 
@@ -194,7 +196,7 @@ def test_latex_schema_validates_optional_chars_and_mode(tmp_path: Path):
 )
 def test_constraints_come_from_schema(
     tmp_path: Path, before: str, after: str, row: str, error: str
-):
+) -> None:
     schema = tmp_path / "schema.toml"
     source = SCHEMA_PATH.read_text()
     assert before in source
@@ -207,14 +209,14 @@ def test_constraints_come_from_schema(
 @pytest.mark.parametrize("replacement", ['"chars"', '"unknown"'])
 def test_schema_rejects_duplicate_or_undefined_required_columns(
     tmp_path: Path, replacement: str
-):
+) -> None:
     schema = tmp_path / "schema.toml"
     schema.write_text(SCHEMA_PATH.read_text().replace('"unicode_name"', replacement, 1))
     with pytest.raises(ValueError, match="required_columns"):
         TSVSchema.from_spec(schema)
 
 
-def test_reader_uses_schema_encoding_delimiter_and_quoting(tmp_path: Path):
+def test_reader_uses_schema_encoding_delimiter_and_quoting(tmp_path: Path) -> None:
     schema = tmp_path / "schema.toml"
     schema.write_text(
         SCHEMA_PATH.read_text()
@@ -232,7 +234,9 @@ def test_reader_uses_schema_encoding_delimiter_and_quoting(tmp_path: Path):
     assert list(validate_tsv(path, schema_path=schema)) == []
 
 
-def test_validation_recovers_from_row_errors_and_counts_valid_rows(tmp_path: Path):
+def test_validation_recovers_from_row_errors_and_counts_valid_rows(
+    tmp_path: Path,
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER + "bad\tA\talias\t\n" + "U+0041\tN\t\\A\t\n" + ROW)
     stats = ValidationStats()
@@ -244,7 +248,7 @@ def test_validation_recovers_from_row_errors_and_counts_valid_rows(tmp_path: Pat
     assert ":3: chars:" in str(errors[2])
 
 
-def test_validation_recovers_from_csv_parse_error(tmp_path: Path):
+def test_validation_recovers_from_csv_parse_error(tmp_path: Path) -> None:
     schema = tmp_path / "schema.toml"
     schema.write_text(
         SCHEMA_PATH.read_text().replace('quoting = "none"', 'quoting = "minimal"')
@@ -258,7 +262,9 @@ def test_validation_recovers_from_csv_parse_error(tmp_path: Path):
     assert stats == ValidationStats(rows_validated=1, rows_total=2)
 
 
-def test_command_line_icon_checks_are_opt_in(tmp_path: Path, unicode_tsv: Path, capsys):
+def test_command_line_icon_checks_are_opt_in(
+    tmp_path: Path, unicode_tsv: Path, capsys
+) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER + ROW.replace("LATIN CAPITAL LETTER A", "Incorrect name"))
     args = ["--unicode-tsv", str(unicode_tsv), str(path)]
@@ -270,7 +276,7 @@ def test_command_line_icon_checks_are_opt_in(tmp_path: Path, unicode_tsv: Path, 
 
 def test_cli_continues_after_missing_files_bad_headers_and_encoding(
     tmp_path: Path, capsys
-):
+) -> None:
     (tmp_path / "bad-header.tsv").write_text("code_points\tchars\n")
     (tmp_path / "bad-encoding.tsv").write_bytes(b"\xff")
     (tmp_path / "valid.tsv").write_text(HEADER + ROW)
@@ -287,7 +293,7 @@ def test_cli_continues_after_missing_files_bad_headers_and_encoding(
     assert "1/3 files validated" in output.out
 
 
-def test_cli_counts_valid_rows_on_failure(tmp_path: Path, capsys):
+def test_cli_counts_valid_rows_on_failure(tmp_path: Path, capsys) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER + "bad\n" + ROW)
     assert main(["--verbose", str(path)]) == 1
@@ -302,7 +308,7 @@ def test_cli_counts_valid_rows_on_failure(tmp_path: Path, capsys):
 )
 def test_cli_directories_globs_and_literal_paths(
     tmp_path: Path, capsys, pattern: str, count: int
-):
+) -> None:
     nested = tmp_path / "nested"
     nested.mkdir()
     for path in (
@@ -316,7 +322,7 @@ def test_cli_directories_globs_and_literal_paths(
     assert f"{count}/{count} files validated" in capsys.readouterr().out
 
 
-def test_missing_schema_is_a_diagnostic(tmp_path: Path, capsys):
+def test_missing_schema_is_a_diagnostic(tmp_path: Path, capsys) -> None:
     path = tmp_path / ICONS_FILENAME
     path.write_text(HEADER)
     missing = tmp_path / "missing.toml"
