@@ -1,16 +1,16 @@
 # Bundled data
 
-| Directory | Contents |
-| --------- | -------- |
-| `autokey/` | AutoKey phrase and script sources, plus metadata templates |
-| [icons/](icons/README.md) | Julia completions and custom AutoKey abbreviations |
-| `ucd/` | Generated Unicode character and block reference tables |
-| [latex/](latex/README.md) | LaTeX expressions mapped to Unicode sequences |
-| `schemas/` | Shared table schemas and their JSON schema definition |
+| Directory                 | Contents                                                   |
+|---------------------------|------------------------------------------------------------|
+| `autokey/`                | AutoKey phrase and script sources, plus metadata templates |
+| [icons/](icons/README.md) | Julia completions and custom AutoKey abbreviations         |
+| `ucd/`                    | Generated Unicode character and block reference tables     |
+| [latex/](latex/README.md) | LaTeX expressions mapped to Unicode sequences              |
+| `schemas/`                | Shared table schemas and their JSON schema definition      |
 
 The installer uses `icons/` as its default collection root. Each immediate
 subdirectory is one collection: `icons/julia/` contains Julia's tables, and
-`icons/custom_unicode/` contains custom abbreviations. All immediate `*.tsv`
+`icons/custom` contains custom abbreviations. All immediate `*.tsv`
 files in a collection share an output directory and duplicate checks.
 
 AutoKey asset sources and templates live in `autokey/`. Scripts delivered to

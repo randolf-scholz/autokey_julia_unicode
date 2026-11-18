@@ -7,10 +7,10 @@ bundled tables, or [Contributing](../../CONTRIBUTING.md) for development setup a
 
 ## Collections
 
-| Path | Contents |
-| ------ | ---------- |
+| Path     | Contents                                                                     |
+|----------|------------------------------------------------------------------------------|
 | `julia/` | Julia's LaTeX and emoji completions, including the bundled `icons-julia.tsv` |
-| `custom_unicode/` | Additional Unicode characters and custom abbreviations |
+| `custom` | Additional Unicode characters and custom abbreviations                       |
 
 The installer discovers each immediate subdirectory as one collection. It
 combines that directory's `*.tsv` files into a single output folder and checks
@@ -21,12 +21,12 @@ duplicates across those tables. Julia and custom collections are independent.
 The shared [icon TSV schema](../schemas/icons.toml) defines the columns and
 serialization rules for completion tables and UCD character tables.
 
-| Column | Meaning |
-| -------- | --------- |
-| `code_points` | Ordered Unicode scalar values, separated by comma-space |
-| `chars` | Exact replacement text; an empty cell means reconstruct it from `code_points` |
-| `tab_completions` | Completion aliases separated by comma-space, without the triggering space |
-| `unicode_name` | Unicode character name or sequence description |
+| Column            | Meaning                                                                       |
+|-------------------|-------------------------------------------------------------------------------|
+| `code_points`     | Ordered Unicode scalar values, separated by comma-space                       |
+| `chars`           | Exact replacement text; an empty cell means reconstruct it from `code_points` |
+| `tab_completions` | Completion aliases separated by comma-space, without the triggering space     |
+| `unicode_name`    | Unicode character name or sequence description                                |
 
 The `chars` column stores the actual replacement text, including combining
 marks without display padding such as non-breaking spaces (NBSPs). It must
@@ -65,7 +65,7 @@ Run the import checks with `just test test_import_julia.jl`.
 
 ## Custom Unicode Icons
 
-The files in `custom_unicode/` define custom abbreviations that differ from
+The files in `custom` define custom abbreviations that differ from
 Julia's and additional characters absent from Julia's completion tables.
 
 The `dingbats` and `emoticons` files also include variants consisting of the
@@ -89,7 +89,7 @@ them:
 
 ```sh
 just validate 'data/icons/julia/*.tsv'
-just validate 'data/icons/custom_unicode/*.tsv'
+just validate 'data/icons/custom/*.tsv'
 ```
 
 These checks validate the schema and the relationship between `chars` and
