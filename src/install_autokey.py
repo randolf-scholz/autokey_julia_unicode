@@ -14,7 +14,7 @@ import shutil
 import subprocess
 import tomllib
 from collections import defaultdict
-from collections.abc import Generator, Iterable, Iterator
+from collections.abc import Generator, Iterable, Iterator, Mapping
 from contextlib import contextmanager
 from enum import StrEnum
 from pathlib import Path
@@ -28,11 +28,17 @@ DEFAULT_TARGET_DIR: Final[Path] = AUTOKEY_DIR / "julia_unicode"
 BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
 LOG_FILENAME: Final[str] = "install.log"
 ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
-SEND_MODES: Final[dict[int, str]] = {
-    0: r"<ctrl>+v",
-    1: r"<ctrl>+<shift>+v",
-    2: r"<shift>+<insert>",
-}
+
+
+class SendMode(StrEnum):
+    """Keyboard shortcuts used to paste character substitutions."""
+
+    CTRL_V = "<ctrl>+v"
+    CTRL_SHIFT_V = "<ctrl>+<shift>+v"
+    SHIFT_INSERT = "<shift>+<insert>"
+
+
+SEND_MODES: Final[Mapping[int, str]] = {i: m.value for i, m in enumerate(SendMode)}
 
 
 class ConsoleFormatter(logging.Formatter):
@@ -262,11 +268,11 @@ def make_abbreviations(raw_data: str, /) -> list[Abbreviation]:
 def query_choice[T](
     question: str = "Please pick one of the following:",
     *,
-    choices: list[T] | dict[int, T],
+    choices: list[T] | Mapping[int, T],
     default: int | None = 0,
 ) -> T:
     """Ask the user to pick an option."""
-    options = choices if isinstance(choices, dict) else dict(enumerate(choices))
+    options = choices if isinstance(choices, Mapping) else dict(enumerate(choices))
 
     if default is not None:
         assert default in options, f"Default {default} not in {options}"
@@ -278,7 +284,8 @@ def query_choice[T](
             )
             print(question)
             for i, option in options.items():
-                print(f"{i:3d}. {option!r}")
+                label = option.value if isinstance(option, StrEnum) else option
+                print(f"{i:3d}. {label!r}")
             user_choice = input(f"Enter integer (default: {default}): ")
             LOGGER.debug("User input: %r", user_choice)
         except (KeyboardInterrupt, SystemExit) as exc:
@@ -452,7 +459,7 @@ def build_phrases_from_tsv(
     source: str | Path,
     *,
     template: JSON,
-    sendmode: str,
+    send_mode: SendMode,
     duplicates: Literal["error", "skip"],
 ) -> None:
     """Generate an icon collection in a fresh subdirectory of target_dir."""
@@ -483,7 +490,7 @@ def build_phrases_from_tsv(
                 metadata=_merge_dicts(
                     template,
                     {
-                        "sendMode": sendmode,
+                        "sendMode": str(send_mode),
                         "abbreviation": {"abbreviations": sample.abbreviations},
                         "description": sample.description,
                     },
@@ -542,7 +549,7 @@ def validate_metadata(metadata: JSON, source: Path) -> None:
         )
 
 
-def build_phrases(source_dir: Path, *, sendmode: str) -> None:
+def build_phrases(source_dir: Path, *, send_mode: SendMode) -> None:
     """Build TOML phrase assets in BUILD_DIR."""
     build_dir = BUILD_DIR / source_dir.name
     build_dir.mkdir(parents=True)
@@ -563,7 +570,7 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
 
         metadata = _merge_dicts(
             template,
-            {"description": source.stem} | updates | {"sendMode": sendmode},
+            {"description": source.stem} | updates | {"sendMode": str(send_mode)},
         )
         validate_metadata(metadata, source)
         relative_path = source.relative_to(source_dir)
@@ -633,7 +640,7 @@ def clear_build_assets() -> None:
 def build_assets(
     source_directories: Iterable[str | Path],
     *,
-    sendmode: str,
+    send_mode: SendMode,
     duplicates: Literal["error", "skip"],
 ) -> None:
     """Reset BUILD_DIR and build all assets without prompts or installation."""
@@ -645,10 +652,13 @@ def build_assets(
 
     for source in source_directories:
         build_phrases_from_tsv(
-            source, template=template, sendmode=sendmode, duplicates=duplicates
+            source,
+            template=template,
+            send_mode=send_mode,
+            duplicates=duplicates,
         )
-    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
-    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
+    build_phrases(ASSETS_DIR / "latex_snippets", send_mode=send_mode)
+    build_phrases(ASSETS_DIR / "special_chars", send_mode=send_mode)
     build_custom_scripts()
 
 
@@ -801,17 +811,19 @@ def main() -> None:
     with installation_logging(verbose=args.verbose):
         # Build-only mode needs no interactive choices.
         if args.sendmode is not None:
-            sendmode = SEND_MODES[args.sendmode]
+            send_mode = SEND_MODES[args.sendmode]
         elif args.build_only:
-            sendmode = SEND_MODES[0]
+            send_mode = SendMode.CTRL_V
         else:
-            sendmode = query_choice(
+            send_mode = query_choice(
                 question="How should character substitutions be performed?",
                 choices=SEND_MODES,
             )
 
         build_assets(
-            args.source_directories, sendmode=sendmode, duplicates=args.duplicates
+            args.source_directories,
+            send_mode=SendMode(send_mode),
+            duplicates=args.duplicates,
         )
 
         if args.build_only:

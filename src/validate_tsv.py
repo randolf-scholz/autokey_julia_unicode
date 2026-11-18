@@ -261,15 +261,6 @@ def is_variation_selector(point: int, /) -> bool:
     return 0xFE00 <= point <= 0xFE0F or 0xE0100 <= point <= 0xE01EF
 
 
-def is_name_modifier(point: int, /) -> bool:
-    """A trailing combining mark or variation selector that uses the base name."""
-    return (
-        0x0300 <= point <= 0x036F  # Combining Diacritical Marks
-        or 0xFE00 <= point <= 0xFE0F  # Variation Selectors
-        or 0xE0100 <= point <= 0xE01EF  # Variation Selectors Supplement
-    )
-
-
 def validate_icon(icon: Icon, names: dict[int, str], *, context: str) -> list[Error]:
     """Check scalars and exact chars; empty chars implicitly uses code_points."""
     points = icon.code_points
