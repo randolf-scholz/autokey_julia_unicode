@@ -5,7 +5,7 @@ import shlex
 import shutil
 import tomllib
 from collections.abc import Iterator
-from contextlib import chdir, contextmanager, redirect_stderr, redirect_stdout
+from contextlib import chdir, contextmanager, nullcontext, redirect_stderr
 from io import StringIO
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -113,11 +113,10 @@ def run_install(target: Path, answers: str) -> int:
         return install.main(["--autokey-directory", str(target), "--sendmode", "1"])
 
 
-def test_phrase_overrides_merge_with_defaults_and_preserve_payload() -> None:
+def test_phrase_overrides_preserve_payload() -> None:
     with temporary_project() as directory:
         # Replace the sample snippet with overrides for nested template fields.
-        assets = install.ASSETS_DIR
-        source = assets / LATEX_SNIPPETS.name
+        source = install.ASSETS_DIR / LATEX_SNIPPETS.name
         shutil.rmtree(source)
         source.mkdir()
         (source / "custom.toml").write_text("""
@@ -173,20 +172,21 @@ def test_phrase_overrides_merge_with_defaults_and_preserve_payload() -> None:
 )
 def test_invalid_phrase_metadata_reports_source(contents: str, field: str) -> None:
     with temporary_project() as directory:
-        assets = install.ASSETS_DIR
-        source = assets / "phrases"
+        source = install.ASSETS_DIR / "phrases"
         source.mkdir()
         config = source / "bad.toml"
         config.write_text(contents)
         with pytest.raises(TypeError) as error:
             install.build_phrases(
-                source, send_mode=install.SendMode.CTRL_V, build_dir=directory
+                source,
+                send_mode=install.SendMode.CTRL_V,
+                build_dir=directory,
             )
         assert str(config) in str(error.value)
         assert field in str(error.value)
 
 
-def test_script_payload_is_copied_and_metadata_is_merged() -> None:
+def test_script_payload_and_merged_metadata() -> None:
     with temporary_project():
         build = build_project()
         assert (build / SCRIPT_FILE).read_bytes() == SCRIPT_CONTENT
@@ -200,248 +200,227 @@ def test_script_payload_is_copied_and_metadata_is_merged() -> None:
 
 def test_script_metadata_requires_description() -> None:
     with temporary_project() as directory:
-        assets = install.ASSETS_DIR
-        (assets / SCRIPT_METADATA).write_text(
+        (install.ASSETS_DIR / SCRIPT_METADATA).write_text(
             "abbreviation.abbreviations = ['!script']"
         )
         with pytest.raises(TypeError, match="description"):
             install.build_custom_scripts(
-                assets / CUSTOM_SCRIPTS.name, build_dir=directory
+                install.ASSETS_DIR / CUSTOM_SCRIPTS.name, build_dir=directory
             )
 
 
-@pytest.mark.parametrize(
-    ("rows", "expected"),
-    [
-        ("U+00041\tA\t\\A\tLetter A\n", {"U+0041.txt": b"A"}),
-        (
-            "U+2705, U+FE0F\t\t\\check\tCheck mark\n",
-            {"U+2705_U+FE0F.txt": "✅️".encode()},
-        ),
-        ("U+0301\t́\t\\acute\tCombining acute\n", {"U+0301.txt": "́".encode()}),
-        ("U+0009\t\t\\t\t\n", {"U+0009.txt": b"\t"}),
-        ("U+0041, U+0042\tAB\t\\AB\tPhrase\nU+0042\tB\t\tNo alias\n", {}),
-    ],
-)
-def test_icon_processing_builds_supported_replacements(
-    rows: str, expected: dict
-) -> None:
-    with temporary_project() as directory:
-        # Build a collection containing the parametrized Unicode representation.
-        assets = install.ASSETS_DIR
-        source = write_icons(directory / "icons" / ICONS_FILENAME, rows).parent
-        output = directory / "build"
+class TestIcons:
+    """Check icon parsing, replacement payloads, and collection conflicts."""
 
-        install.build_assets(
-            [source],
-            send_mode=install.SendMode.CTRL_V,
-            duplicates="skip",
-            build_dir=output,
-            assets_dir=assets,
-        )
-
-        # Compare payload files; unsupported rows must not create replacements.
-        actual = {p.name: p.read_bytes() for p in (output / "icons").glob("*.txt")}
-        assert actual == expected
-
-
-@pytest.mark.parametrize(
-    ("row", "diagnostic"),
-    [
-        ("U+0042\tA\t\\A\tMismatch\n", "Mismatch"),
-        ("U+D800\t\t\\A\tSurrogate\n", "Unicode scalar value"),
-        ("U+110000\t\t\\A\tOut of range\n", "Unicode scalar value"),
-        ("U+0041 + U+0042\tA\t\\A\tOld format\n", "valid unicode code"),
-    ],
-)
-def test_invalid_icon_codes_and_mismatches_are_rejected(
-    row: str, diagnostic: str
-) -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        path = write_icons(directory / ICONS_FILENAME, row)
-        with pytest.raises(ValueError, match=diagnostic):
-            install.process_icons(path)
-
-
-def test_icon_reader_accepts_reordered_columns_and_literal_quotes() -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        path = directory / ICONS_FILENAME
-        path.write_text(
-            "notes\tunicode_name\ttab_completions\tchars\tcode_points\n"
-            'ignored\tQUOTATION MARK\t\\quote\t"\tU+0022\n'
-        )
-        (sample,) = install.process_icons(path).samples
-        assert sample.glyph == '"'
-        assert sample.abbreviations == ["\\quote "]
-
-
-@pytest.mark.parametrize(
-    ("text", "diagnostic"),
-    [
-        ("", "Missing columns"),
-        (
+    @pytest.mark.parametrize(
+        ("rows", "expected"),
+        [
+            ("U+00041\tA\t\\A\tLetter A\n", {"U+0041.txt": b"A"}),
             (
-                "Code point(s)\tCharacter(s)\tTab completion sequence(s)\t"
-                "Unicode name(s)\n"
+                "U+2705, U+FE0F\t\t\\check\tCheck mark\n",
+                {"U+2705_U+FE0F.txt": "✅️".encode()},
             ),
-            "Missing columns",
-        ),
-        (HEADER + "U+0041\tA\t\\A\n", "Missing values"),
-    ],
-)
-def test_malformed_icon_file_reports_path(text: str, diagnostic: str) -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        path = directory / ICONS_FILENAME
-        path.write_text(text)
-        with pytest.raises(ValueError, match=diagnostic) as error:
-            list(install.load_icons(path))
-        assert str(path) in str(error.value)
+            ("U+0301\t́\t\\acute\tCombining acute\n", {"U+0301.txt": "́".encode()}),
+            ("U+0009\t\t\\t\t\n", {"U+0009.txt": b"\t"}),
+            ("U+0041, U+0042\tAB\t\\AB\tPhrase\nU+0042\tB\t\tNo alias\n", {}),
+        ],
+    )
+    def test_builds_supported_replacements(self, rows: str, expected: dict) -> None:
+        with temporary_project() as directory:
+            # Build a collection containing the parametrized Unicode representation.
+            source = write_icons(directory / "icons" / ICONS_FILENAME, rows).parent
 
+            install.build_assets(
+                [source],
+                send_mode=install.SendMode.CTRL_V,
+                duplicates="skip",
+                build_dir=directory / "build",
+                assets_dir=install.ASSETS_DIR,
+            )
 
-@pytest.mark.parametrize("policy", ["skip", "error"])
-def test_duplicate_policy(policy: Literal["skip", "error"]) -> None:
-    with temporary_project() as directory:
-        # Both files define A; sorted filenames determine which alias comes first.
-        assets = install.ASSETS_DIR
-        source = write_icons(
-            directory / "letters/a-first.tsv",
-            "U+0041\tA\t\\first\tLetter A\n",
-        ).parent
-        write_icons(source / "z-last.tsv")
-        output = directory / "build"
+            # Compare payload files; unsupported rows must not create replacements.
+            actual = {
+                p.name: p.read_bytes()
+                for p in (directory / "build" / "icons").glob("*.txt")
+            }
+            assert actual == expected
 
-        if policy == "error":
-            with pytest.raises(FileExistsError):
+    @pytest.mark.parametrize(
+        ("row", "diagnostic"),
+        [
+            ("U+0042\tA\t\\A\tMismatch\n", "Mismatch"),
+            ("U+D800\t\t\\A\tSurrogate\n", "Unicode scalar value"),
+            ("U+110000\t\t\\A\tOut of range\n", "Unicode scalar value"),
+            ("U+0041 + U+0042\tA\t\\A\tOld format\n", "valid unicode code"),
+        ],
+    )
+    def test_rejects_invalid_codes(self, row: str, diagnostic: str) -> None:
+        with TemporaryDirectory() as tmpdir:
+            path = write_icons(Path(tmpdir) / ICONS_FILENAME, row)
+            with pytest.raises(ValueError, match=diagnostic):
+                install.process_icons(path)
+
+    def test_reordered_columns_and_literal_quotes(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / ICONS_FILENAME
+            path.write_text(
+                "notes\tunicode_name\ttab_completions\tchars\tcode_points\n"
+                'ignored\tQUOTATION MARK\t\\quote\t"\tU+0022\n'
+            )
+            (sample,) = install.process_icons(path).samples
+            assert sample.glyph == '"'
+            assert sample.abbreviations == ["\\quote "]
+
+    @pytest.mark.parametrize(
+        ("text", "diagnostic"),
+        [
+            ("", "Missing columns"),
+            (
+                (
+                    "Code point(s)\tCharacter(s)\tTab completion sequence(s)\t"
+                    "Unicode name(s)\n"
+                ),
+                "Missing columns",
+            ),
+            (HEADER + "U+0041\tA\t\\A\n", "Missing values"),
+        ],
+    )
+    def test_malformed_file_reports_path(self, text: str, diagnostic: str) -> None:
+        with TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / ICONS_FILENAME
+            path.write_text(text)
+            with pytest.raises(ValueError, match=diagnostic) as error:
+                list(install.load_icons(path))
+            assert str(path) in str(error.value)
+
+    @pytest.mark.parametrize("policy", ["skip", "error"])
+    def test_duplicate_policy(self, policy: Literal["skip", "error"]) -> None:
+        with temporary_project() as directory:
+            # Both files define A; sorted filenames determine which alias comes first.
+            source = write_icons(
+                directory / "letters/a-first.tsv",
+                "U+0041\tA\t\\first\tLetter A\n",
+            ).parent
+            write_icons(source / "z-last.tsv")
+            with pytest.raises(FileExistsError) if policy == "error" else nullcontext():
                 install.build_assets(
                     [source],
                     send_mode=install.SendMode.CTRL_V,
                     duplicates=policy,
-                    build_dir=output,
-                    assets_dir=assets,
+                    build_dir=directory / "build",
+                    assets_dir=install.ASSETS_DIR,
                 )
-        else:
-            # Skipping duplicates preserves the first definition's metadata.
-            install.build_assets(
-                [source],
-                send_mode=install.SendMode.CTRL_V,
-                duplicates=policy,
-                build_dir=output,
-                assets_dir=assets,
-            )
 
-            metadata = json.loads((output / "letters/U+0041.json").read_text())
-            assert metadata["abbreviation"]["abbreviations"] == ["\\first "]
+            if policy == "skip":
+                # Skipping duplicates preserves the first definition's metadata.
+                metadata = json.loads(
+                    (directory / "build/letters/U+0041.json").read_text()
+                )
+                assert metadata["abbreviation"]["abbreviations"] == ["\\first "]
 
-
-def test_colliding_collection_names_are_rejected() -> None:
-    with temporary_project() as directory:
-        assets = install.ASSETS_DIR
-        first = write_icons(directory / "one/letters" / ICONS_FILENAME).parent
-        second = write_icons(directory / "two/letters" / ICONS_FILENAME).parent
-        with pytest.raises(FileExistsError):
-            install.build_assets(
-                [first, second],
-                send_mode=install.SendMode.CTRL_V,
-                duplicates="skip",
-                build_dir=directory / "build",
-                assets_dir=assets,
-            )
+    def test_rejects_collection_name_collisions(self) -> None:
+        with temporary_project() as directory:
+            first = write_icons(directory / "one/letters" / ICONS_FILENAME).parent
+            second = write_icons(directory / "two/letters" / ICONS_FILENAME).parent
+            with pytest.raises(FileExistsError):
+                install.build_assets(
+                    [first, second],
+                    send_mode=install.SendMode.CTRL_V,
+                    duplicates="skip",
+                    build_dir=directory / "build",
+                    assets_dir=install.ASSETS_DIR,
+                )
 
 
-@pytest.mark.parametrize(
-    ("answers", "selected"),
-    [("0\n1\n", {"tabulator"}), ("\n\n", set()), ("1\n1\n", {"newline", "tabulator"})],
-)
-def test_install_selects_special_characters_and_retains_independent_build(
-    answers: str, selected: set
-) -> None:
-    with temporary_project() as directory:
-        # Record the complete build before choosing optional special characters.
-        build = build_project()
-        target = directory / "installed"
-        before = snapshot(build)
-        (build / install.LOG_FILENAME).write_text("build log")
+class TestInstallation:
+    """Check replacement, prompt selection, and preservation of existing files."""
 
-        assert run_install(target, answers) == 0
+    @pytest.mark.parametrize(
+        ("answers", "selected"),
+        [
+            ("0\n1\n", {"tabulator"}),
+            ("\n\n", set()),
+            ("1\n1\n", {"newline", "tabulator"}),
+        ],
+    )
+    def test_selection_preserves_build(self, answers: str, selected: set) -> None:
+        with temporary_project() as directory:
+            # Record the complete build before choosing optional special characters.
+            build = build_project()
+            target = directory / "installed"
+            before = snapshot(build)
+            (build / install.LOG_FILENAME).write_text("build log")
 
-        # Install only the selected characters, and exclude the build log.
-        assert {p.stem for p in (target / SPECIAL_CHARS.name).glob("*.txt")} == selected
-        expected = {
-            path: data
-            for path, data in before.items()
-            if path.parts[0] != SPECIAL_CHARS.name or path.stem in selected
-        }
-        assert snapshot(target) == expected
-        assert not (target / install.LOG_FILENAME).exists()
-
-        # Editing the installed copy must not alter the retained build.
-        (target / "letters/U+0041.txt").write_bytes(b"edited")
-        assert snapshot(build) == before
-
-
-def test_reinstall_replaces_entire_target_but_preserves_siblings() -> None:
-    with temporary_project() as directory:
-        # Place obsolete content inside the target and personal content beside it.
-        build = build_project()
-        target = directory / "installed"
-        target.mkdir()
-        (target / "obsolete.txt").write_text("obsolete")
-        sibling = directory / "personal.txt"
-        sibling.write_text("keep")
-
-        # Retry invalid choices, then approve replacement and both special characters.
-        assert run_install(target, "invalid\n9\n1\n1\n1\n") == 0
-
-        assert snapshot(target) == snapshot(build)
-        assert sibling.read_text() == "keep"
-        assert not list(directory.glob(".installed-*"))
-
-
-@pytest.mark.parametrize("answers", ["\n", "1\n0\n"])
-def test_declining_or_interrupting_prompts_preserves_target_and_build(
-    answers: str,
-) -> None:
-    with temporary_project() as directory:
-        # Keep snapshots of the build and an existing installation to protect.
-        build = build_project()
-        target = directory / "installed"
-        target.mkdir()
-        (target / "keep.txt").write_text("keep")
-        before = snapshot(build)
-
-        # Either decline replacement or exhaust input during character selection.
-        if answers == "\n":
             assert run_install(target, answers) == 0
-        else:
-            with pytest.raises(EOFError):
-                run_install(target, answers)
 
-        assert snapshot(target) == {Path("keep.txt"): b"keep"}
-        assert snapshot(build) == before
+            # Install only the selected characters, and exclude the build log.
+            actual = {p.stem for p in (target / SPECIAL_CHARS.name).glob("*.txt")}
+            assert actual == selected
+            expected = {
+                path: data
+                for path, data in before.items()
+                if path.parts[0] != SPECIAL_CHARS.name or path.stem in selected
+            }
+            assert snapshot(target) == expected
+            assert not (target / install.LOG_FILENAME).exists()
 
+            # Editing the installed copy must not alter the retained build.
+            (target / "letters/U+0041.txt").write_bytes(b"edited")
+            assert snapshot(build) == before
 
-@pytest.mark.parametrize("dangling", [False, True])
-def test_replacing_target_symlink_preserves_external_files(*, dangling: bool) -> None:
-    with temporary_project() as directory:
-        # Point the installation at either an external directory or a missing one.
-        build = build_project()
-        external = directory / "external"
-        external.mkdir()
-        (external / "keep.txt").write_text("keep")
-        target = directory / "installed"
-        target.symlink_to(
-            directory / "missing" if dangling else external, target_is_directory=True
-        )
+    def test_replacement_preserves_siblings(self) -> None:
+        with temporary_project() as directory:
+            # Place obsolete content inside the target and personal content beside it.
+            build = build_project()
+            target = directory / "installed"
+            target.mkdir()
+            (target / "obsolete.txt").write_text("obsolete")
+            sibling = directory / "personal.txt"
+            sibling.write_text("keep")
 
-        assert run_install(target, "1\n1\n1\n") == 0
+            # Retry invalid choices, then approve replacement and both characters.
+            assert run_install(target, "invalid\n9\n1\n1\n1\n") == 0
 
-        # Replace the link itself while preserving files outside the target.
-        assert not target.is_symlink()
-        assert snapshot(target) == snapshot(build)
-        assert (external / "keep.txt").read_text() == "keep"
+            assert snapshot(target) == snapshot(build)
+            assert sibling.read_text() == "keep"
+            assert not list(directory.glob(".installed-*"))
+
+    @pytest.mark.parametrize("answers", ["\n", "1\n0\n"])
+    def test_cancelled_prompts_preserve_files(self, answers: str) -> None:
+        with temporary_project() as directory:
+            # Keep snapshots of the build and an existing installation to protect.
+            build = build_project()
+            target = directory / "installed"
+            target.mkdir()
+            (target / "keep.txt").write_text("keep")
+            before = snapshot(build)
+
+            # Either decline replacement or exhaust input during character selection.
+            with nullcontext() if answers == "\n" else pytest.raises(EOFError):
+                assert run_install(target, answers) == 0
+
+            assert snapshot(target) == {Path("keep.txt"): b"keep"}
+            assert snapshot(build) == before
+
+    @pytest.mark.parametrize("dangling", [False, True])
+    def test_symlink_preserves_external_files(self, *, dangling: bool) -> None:
+        with temporary_project() as directory:
+            # Point the installation at either an external directory or a missing one.
+            build = build_project()
+            external = directory / "external"
+            external.mkdir()
+            (external / "keep.txt").write_text("keep")
+            target = directory / "installed"
+            target.symlink_to(
+                directory / "missing" if dangling else external,
+                target_is_directory=True,
+            )
+            assert run_install(target, "1\n1\n1\n") == 0
+
+            # Replace the link itself while preserving files outside the target.
+            assert not target.is_symlink()
+            assert snapshot(target) == snapshot(build)
+            assert (external / "keep.txt").read_text() == "keep"
 
 
 def test_build_cleanup_unlinks_children_and_rejects_symlink_root() -> None:
@@ -469,41 +448,43 @@ def test_build_cleanup_unlinks_children_and_rejects_symlink_root() -> None:
         assert (external / "keep.txt").read_text() == "keep"
 
 
-@pytest.mark.parametrize(
-    "target", ["build", "build/installed", ".", "autokey/data", "autokey"]
-)
-def test_unsafe_targets_are_rejected(target: str) -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        with pytest.raises(
-            ValueError, match=r"must be outside|must not be the AutoKey data"
-        ):
-            install.validate_install_target(
-                directory / target,
-                build_dir=directory / "build",
-                autokey_dir=directory / "autokey/data",
-            )
+class TestTargetValidation:
+    """Check unsafe installation paths and aliases."""
 
+    @pytest.mark.parametrize(
+        "target", ["build", "build/installed", ".", "autokey/data", "autokey"]
+    )
+    def test_rejects_unsafe_paths(self, target: str) -> None:
+        with TemporaryDirectory() as tmpdir:
+            directory = Path(tmpdir)
+            with pytest.raises(
+                ValueError, match=r"must be outside|must not be the AutoKey data"
+            ):
+                install.validate_install_target(
+                    directory / target,
+                    build_dir=directory / "build",
+                    autokey_dir=directory / "autokey/data",
+                )
 
-def test_target_checks_resolve_symlink_aliases() -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        build = directory / "build"
-        build.mkdir()
-        alias = directory / "alias"
-        alias.symlink_to(build, target_is_directory=True)
-        with pytest.raises(ValueError, match="outside"):
-            install.validate_install_target(
-                alias / "installed",
-                build_dir=build,
-                autokey_dir=directory / "autokey/data",
-            )
+    def test_resolves_symlink_aliases(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            directory = Path(tmpdir)
+            build = directory / "build"
+            build.mkdir()
+            alias = directory / "alias"
+            alias.symlink_to(build, target_is_directory=True)
+            with pytest.raises(ValueError, match="outside"):
+                install.validate_install_target(
+                    alias / "installed",
+                    build_dir=build,
+                    autokey_dir=directory / "autokey/data",
+                )
 
 
 @pytest.mark.parametrize(
     ("flag", "verbose"), [("--build-only", False), ("--dry-run", True)]
 )
-def test_build_only_cli_needs_no_autokey_or_input(flag: str, *, verbose: bool) -> None:
+def test_build_only_needs_no_autokey_or_input(flag: str, *, verbose: bool) -> None:
     with (
         temporary_project() as directory,
         redirect_stderr(StringIO()) as stderr,
@@ -532,7 +513,7 @@ def test_build_only_cli_needs_no_autokey_or_input(flag: str, *, verbose: bool) -
         assert ("DEBUG:" in stderr.getvalue()) == verbose
 
 
-def test_missing_default_autokey_directory_fails_before_build() -> None:
+def test_missing_autokey_directory_fails_before_build() -> None:
     with (
         temporary_project(),
         redirect_stderr(StringIO()) as stderr,
@@ -544,7 +525,7 @@ def test_missing_default_autokey_directory_fails_before_build() -> None:
         assert not install.BUILD_DIR.exists()
 
 
-def test_default_sources_build_flat_icons_collection() -> None:
+def test_default_sources_build_flat_collections() -> None:
     with temporary_project() as directory:
         # Populate multiple collections, including duplicate definitions of B.
         icons = install.DATA_DIR / ICONS_DIR
@@ -588,18 +569,14 @@ def test_default_sources_build_flat_icons_collection() -> None:
         assert not (build / EXTENSION_NAME).exists()
 
 
-def test_late_build_error_preserves_installation_and_logs_failure() -> None:
-    with (
-        temporary_project() as directory,
-        redirect_stdout(StringIO()) as stdout,
-    ):
+def test_build_error_preserves_target(capsys: pytest.CaptureFixture[str]) -> None:
+    with temporary_project() as directory:
         # Break a snippet processed after icons, with an existing target in place.
-        assets = install.ASSETS_DIR
         source = write_icons(directory / "collections/letters" / ICONS_FILENAME).parent
         target = directory / "installed"
         target.mkdir()
         (target / "keep.txt").write_text("keep")
-        (assets / SNIPPET_FILE).write_text("not valid TOML =")
+        (install.ASSETS_DIR / SNIPPET_FILE).write_text("not valid TOML =")
 
         with pytest.raises(tomllib.TOMLDecodeError):
             install.main(
@@ -613,7 +590,7 @@ def test_late_build_error_preserves_installation_and_logs_failure() -> None:
             )
 
         # Failure precedes replacement prompts and leaves the installation intact.
-        assert "Replace the entire" not in stdout.getvalue()
+        assert "Replace the entire" not in capsys.readouterr().out
         build = install.BUILD_DIR
         assert snapshot(target) == {Path("keep.txt"): b"keep"}
 
@@ -632,36 +609,39 @@ def write_frontend(directory: Path, name: str, output: str | OSError) -> None:
     executable.chmod(0o755)
 
 
-@pytest.mark.parametrize("version", ["0.96.0", "0.100.0", "1.0.0", "0.95.10"])
-def test_system_version_check_runs_frontend(version: str) -> None:
-    with TemporaryDirectory() as tmpdir:
-        write_frontend(Path(tmpdir), "autokey-gtk", f"autokey-gtk Version {version}")
-        if version == "0.95.10":
+class TestVersionDetection:
+    """Check frontend execution, fallback, and unavailable version information."""
+
+    @pytest.mark.parametrize("version", ["0.96.0", "0.100.0", "1.0.0", "0.95.10"])
+    def test_runs_frontend(self, version: str) -> None:
+        with TemporaryDirectory() as tmpdir:
+            write_frontend(
+                Path(tmpdir), "autokey-gtk", f"autokey-gtk Version {version}"
+            )
+            if version == "0.95.10":
+                with pytest.raises(SystemExit, match=r"found 0\.95\.10"):
+                    install.check_autokey_version(tmpdir)
+            else:
+                install.check_autokey_version(tmpdir)
+
+    def test_falls_back_to_qt(self) -> None:
+        with TemporaryDirectory() as tmpdir:
+            directory = Path(tmpdir)
+            write_frontend(directory, "autokey-gtk", OSError("unavailable"))
+            write_frontend(directory, "autokey-qt", "AutoKey 0.95.10")
             with pytest.raises(SystemExit, match=r"found 0\.95\.10"):
                 install.check_autokey_version(tmpdir)
-        else:
+
+    @pytest.mark.parametrize(
+        "output", [None, "unknown version", OSError("unavailable")]
+    )
+    def test_unavailable_version_warns(self, output: str | OSError | None) -> None:
+        with (
+            TemporaryDirectory() as tmpdir,
+            redirect_stderr(StringIO()) as stderr,
+            install.installation_logging(Path(tmpdir) / "build", verbose=False),
+        ):
+            if output is not None:
+                write_frontend(Path(tmpdir), "autokey-gtk", output)
             install.check_autokey_version(tmpdir)
-
-
-def test_version_check_uses_qt_if_gtk_fails() -> None:
-    with TemporaryDirectory() as tmpdir:
-        directory = Path(tmpdir)
-        write_frontend(directory, "autokey-gtk", OSError("unavailable"))
-        write_frontend(directory, "autokey-qt", "AutoKey 0.95.10")
-        with pytest.raises(SystemExit, match=r"found 0\.95\.10"):
-            install.check_autokey_version(tmpdir)
-
-
-@pytest.mark.parametrize("output", [None, "unknown version", OSError("unavailable")])
-def test_missing_or_unreadable_version_warns_and_continues(
-    output: str | OSError | None,
-) -> None:
-    with (
-        TemporaryDirectory() as tmpdir,
-        redirect_stderr(StringIO()) as stderr,
-        install.installation_logging(Path(tmpdir) / "build", verbose=False),
-    ):
-        if output is not None:
-            write_frontend(Path(tmpdir), "autokey-gtk", output)
-        install.check_autokey_version(tmpdir)
-    assert "Could not determine" in stderr.getvalue()
+        assert "Could not determine" in stderr.getvalue()
