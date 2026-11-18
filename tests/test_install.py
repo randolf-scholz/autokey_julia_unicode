@@ -13,6 +13,7 @@ import pytest
 from src import install_autokey as install
 
 ROOT = Path(__file__).resolve().parents[1]
+ICONS_FILENAME = "icons-julia.tsv"
 HEADER = "code_points\tchars\ttab_completions\tunicode_name\n"
 
 
@@ -37,7 +38,7 @@ def assets(tmp_path: Path) -> Path:
 
 @pytest.fixture
 def build(tmp_path: Path, assets: Path) -> Path:
-    source = write_icons(tmp_path / "letters" / "icons.tsv").parent
+    source = write_icons(tmp_path / "letters" / ICONS_FILENAME).parent
     directory = tmp_path / "build"
     install.build_assets(
         [source],
@@ -211,7 +212,7 @@ def test_script_metadata_requires_description(tmp_path: Path, assets: Path):
 def test_icon_processing_builds_supported_replacements(
     tmp_path: Path, assets: Path, rows: str, expected: dict
 ):
-    source = write_icons(tmp_path / "icons/icons.tsv", rows).parent
+    source = write_icons(tmp_path / "icons" / ICONS_FILENAME, rows).parent
     output = tmp_path / "build"
     install.build_assets(
         [source],
@@ -235,13 +236,13 @@ def test_icon_processing_builds_supported_replacements(
     ],
 )
 def test_invalid_icon_codes_and_mismatches_are_rejected(tmp_path: Path, row: str):
-    path = write_icons(tmp_path / "icons.tsv", row)
+    path = write_icons(tmp_path / ICONS_FILENAME, row)
     with pytest.raises(ValueError):
         install.process_icons(path)
 
 
 def test_icon_reader_accepts_reordered_columns_and_literal_quotes(tmp_path: Path):
-    path = tmp_path / "icons.tsv"
+    path = tmp_path / ICONS_FILENAME
     path.write_text(
         "notes\tunicode_name\ttab_completions\tchars\tcode_points\n"
         'ignored\tQUOTATION MARK\t\\quote\t"\tU+0022\n'
@@ -263,7 +264,7 @@ def test_icon_reader_accepts_reordered_columns_and_literal_quotes(tmp_path: Path
     ],
 )
 def test_malformed_icon_file_reports_path(tmp_path: Path, text: str, diagnostic: str):
-    path = tmp_path / "icons.tsv"
+    path = tmp_path / ICONS_FILENAME
     path.write_text(text)
     with pytest.raises(ValueError, match=diagnostic) as error:
         list(install.load_icons(path))
@@ -301,8 +302,8 @@ def test_duplicate_policy(
 
 
 def test_colliding_collection_names_are_rejected(tmp_path: Path, assets: Path):
-    first = write_icons(tmp_path / "one/letters/icons.tsv").parent
-    second = write_icons(tmp_path / "two/letters/icons.tsv").parent
+    first = write_icons(tmp_path / "one/letters" / ICONS_FILENAME).parent
+    second = write_icons(tmp_path / "two/letters" / ICONS_FILENAME).parent
     with pytest.raises(FileExistsError):
         install.build_assets(
             [first, second],
@@ -430,7 +431,7 @@ def installer(tmp_path: Path, assets: Path) -> Path:
     source = tmp_path / "project/src"
     source.mkdir(parents=True)
     script = Path(shutil.copy2(install.__file__, source / "install_autokey.py"))
-    shutil.copytree(assets, source / "assets")
+    shutil.copytree(assets, source.parent / "data/autokey")
     return script
 
 
@@ -440,7 +441,7 @@ def installer(tmp_path: Path, assets: Path) -> Path:
 def test_build_only_cli_needs_no_autokey_or_input(
     installer: Path, tmp_path: Path, flag: str, verbose: bool
 ):
-    source = write_icons(tmp_path / "letters/icons.tsv").parent
+    source = write_icons(tmp_path / "letters" / ICONS_FILENAME).parent
     result = subprocess.run(
         [
             sys.executable,
@@ -486,14 +487,43 @@ def test_missing_default_autokey_directory_fails_before_build(
     assert not (installer.parents[1] / "build").exists()
 
 
+def test_default_sources_build_flat_icons_collection(installer: Path, tmp_path: Path):
+    project = installer.parents[1]
+    icons = write_icons(project / "data/icons" / ICONS_FILENAME).parent
+    write_icons(icons / "custom_unicode/custom.tsv", "U+0042\tB\t\\B\tLetter B\n")
+    ucd = project / "data/ucd"
+    ucd.mkdir()
+    (ucd / "blocks.tsv").write_text(
+        "block_start\tblock_end\tblock_name\n0000\t007F\tBasic Latin\n"
+    )
+    (ucd / "unicode.tsv").write_text(HEADER + "U+0041\tA\t\tLetter A\n")
+    result = subprocess.run(
+        [sys.executable, str(installer), "--build-only"],
+        cwd=project,
+        env=os.environ | {"HOME": str(tmp_path / "home")},
+        input="",
+        capture_output=True,
+        text=True,
+        timeout=10,
+        check=False,
+    )
+    assert result.returncode == 0, result.stderr
+    build = project / "build/autokey"
+    assert (build / "icons/U+0041.txt").read_bytes() == b"A"
+    assert (build / "custom_unicode/U+0042.txt").read_bytes() == b"B"
+    assert not (build / "julia_unicode").exists()
+    assert "blocks.tsv" not in result.stderr
+    assert "unicode.tsv" not in result.stderr
+
+
 def test_late_build_error_preserves_installation_and_logs_failure(
     tmp_path: Path, installer: Path
 ):
-    source = write_icons(tmp_path / "letters/icons.tsv").parent
+    source = write_icons(tmp_path / "letters" / ICONS_FILENAME).parent
     target = tmp_path / "installed"
     target.mkdir()
     (target / "keep.txt").write_text("keep")
-    (installer.parent / "assets/latex_snippets/align.toml").write_text(
+    (installer.parents[1] / "data/autokey/latex_snippets/align.toml").write_text(
         "not valid TOML ="
     )
     result = subprocess.run(

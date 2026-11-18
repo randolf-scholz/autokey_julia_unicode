@@ -2,12 +2,14 @@ module JuliaIconImportTests
 
 using Test
 
+const ICONS_FILENAME = "icons-julia.tsv"
+
 # Keep the script's @main entry point outside Main during tests.
 include(joinpath(@__DIR__, "..", "src", "import_julia.jl"))
 
 @testset "Julia icon import" begin
     mktempdir() do directory
-        output = joinpath(directory, "icons.tsv")
+        output = joinpath(directory, ICONS_FILENAME)
         symbols = Dict(
             "\\copyright" => "©",
             "\\:copyright:" => "©",

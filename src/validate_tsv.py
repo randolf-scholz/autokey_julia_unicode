@@ -6,7 +6,7 @@ Inputs may be file paths, directories, or quoted glob patterns, including **.
 Directories select their immediate *.tsv files. Each input must select a file.
 Only standard-library modules are required. Header order is unrestricted.
 Icon tables always check Unicode scalars and the chars/code_points relationship.
-With --check-icons, also check names against icons/unicode.tsv, ignoring case.
+With --check-icons, also check names against data/ucd/unicode.tsv, ignoring case.
 All readable rows and matched files are checked; every error is printed.
 Successful validation is silent unless --verbose prints row and file statistics.
 """
@@ -24,8 +24,8 @@ from pathlib import Path
 from typing import Any, Literal
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_PATH = ROOT / "icons" / "schema.toml"
-UNICODE_TSV = ROOT / "icons" / "unicode.tsv"
+SCHEMA_PATH = ROOT / "data" / "schemas" / "icons.toml"
+UNICODE_TSV = ROOT / "data" / "ucd" / "unicode.tsv"
 
 
 @dataclass(frozen=True)

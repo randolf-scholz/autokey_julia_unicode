@@ -2,8 +2,8 @@
 """Import Unicode data into TSV files with ``python src/import_ucd.py``.
 
 Read Blocks.txt and UnicodeData.txt from third_party/ucd. Write schema-compliant
-tables to icons/ucd, their concatenation to icons/unicode.tsv, and
-the block index to icons/blocks.tsv. Skip UnicodeData's First/Last ranges,
+tables to data/ucd/blocks, their concatenation to data/ucd/unicode.tsv, and
+the block index to data/ucd/blocks.tsv. Skip UnicodeData's First/Last ranges,
 including their endpoint records, to keep the symbol tables compact.
 Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
 """
@@ -22,8 +22,8 @@ from typing import NamedTuple
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 UCD_DIR = PROJECT_DIR / "third_party" / "ucd"
-ICON_DIR = PROJECT_DIR / "icons" / "ucd"
-SCHEMA_PATH = PROJECT_DIR / "icons" / "schema.toml"
+ICON_DIR = PROJECT_DIR / "data" / "ucd" / "blocks"
+SCHEMA_PATH = PROJECT_DIR / "data" / "schemas" / "icons.toml"
 EXCLUDED_CHARS = frozenset("\t\r\n")
 UNICODE_DATA_FIELD_COUNT = 15
 MAX_CODE_POINT = 0x10FFFF

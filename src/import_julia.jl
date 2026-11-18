@@ -2,12 +2,13 @@
 # Usage: julia src/import_julia.jl [output.tsv]
 import REPL, TOML
 
-const UNICODE_DATA = joinpath(@__DIR__, "..", "third_party", "ucd", "UnicodeData.txt")
-const SCHEMA_PATH = joinpath(@__DIR__, "..", "icons", "schema.toml")
+const PROJECT_DIR = normpath(joinpath(@__DIR__, ".."))
+const DATA_DIR = joinpath(PROJECT_DIR, "data")
+
+const UNICODE_DATA = joinpath(PROJECT_DIR, "third_party", "ucd", "UnicodeData.txt")
+const SCHEMA_PATH = joinpath(DATA_DIR, "schemas", "icons.toml")
+const ICONS_PATH = joinpath(DATA_DIR, "icons", "icons-julia-$(VERSION).local.tsv")
 const HEADER = ("code_points", "chars", "tab_completions", "unicode_name")
-const ICONS_PATH = normpath(joinpath(
-    @__DIR__, "..", "icons", "julia_unicode", "icons-$(VERSION).local.tsv"
-))
 
 """Require the exported header to match the schema's ordered required columns."""
 function validate_header(path::AbstractString=SCHEMA_PATH)
@@ -40,7 +41,7 @@ end
 
 Import the running Julia version's LaTeX and emoji completions in the icon
 schema's column order. The default output is
-icons/julia_unicode/icons-<julia-version>.local.tsv. Default paths are relative to the
+data/icons/icons-julia-<julia-version>.local.tsv. Default paths are relative to the
 repository, independent of the working directory.
 """
 function import_icons(

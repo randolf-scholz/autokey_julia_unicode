@@ -3,7 +3,7 @@
 
 Requires kpsewhich and the LaTeX base and unicode-math source tables.
 unicode-math supplies Unicode identities, not the inventory of base commands.
-See latex/README.md for the exact coverage and encoding assumptions.
+See data/latex/README.md for the exact coverage and encoding assumptions.
 """
 
 import argparse
@@ -15,7 +15,7 @@ from collections.abc import Sequence
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
-OUTPUT = PROJECT_DIR / "latex" / "latex2e.tsv"
+OUTPUT = PROJECT_DIR / "data" / "latex" / "latex2e.tsv"
 HEADER = ("code_points", "chars", "mode", "latex_code")
 
 # Fragments/modifiers and extensible fills have no standalone character identity.

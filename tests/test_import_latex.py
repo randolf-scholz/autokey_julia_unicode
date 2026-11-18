@@ -86,8 +86,8 @@ def test_unicode_number_rejects_surrogates_and_legacy_slots(value: str):
 
 
 def test_bundled_table_matches_schema_and_known_symbol_identities():
-    path = ROOT / "latex/latex2e.tsv"
-    assert list(validate_tsv(path, schema_path=ROOT / "latex/schema.toml")) == []
+    path = ROOT / "data/latex/latex2e.tsv"
+    assert list(validate_tsv(path, schema_path=ROOT / "data/schemas/latex.toml")) == []
     with path.open(encoding="utf8", newline="") as source:
         entries = list(csv.DictReader(source, delimiter="\t"))
     mappings = {
