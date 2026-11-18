@@ -14,9 +14,11 @@ import shutil
 import subprocess
 import tomllib
 from collections import defaultdict
-from collections.abc import Iterator
+from collections.abc import Generator, Iterable, Iterator
+from contextlib import contextmanager
 from enum import StrEnum
 from pathlib import Path
+from tempfile import mkdtemp
 from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 type JSON = dict[str, Any]
@@ -24,12 +26,116 @@ LOGGER = logging.getLogger(__name__)
 AUTOKEY_DIR: Final[Path] = Path.home() / ".config" / "autokey" / "data"
 DEFAULT_TARGET_DIR: Final[Path] = AUTOKEY_DIR / "julia_unicode"
 BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
+LOG_FILENAME: Final[str] = "install.log"
 ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
 SEND_MODES: Final[dict[int, str]] = {
     0: r"<ctrl>+v",
     1: r"<ctrl>+<shift>+v",
     2: r"<shift>+<insert>",
 }
+
+
+class ConsoleFormatter(logging.Formatter):
+    """Color summary fields on terminals without modifying the shared log record."""
+
+    def __init__(self, *, color: bool) -> None:
+        super().__init__("%(levelname)s: %(message)s")
+        self.color = color
+
+    def format(self, record: logging.LogRecord) -> str:
+        summary: tuple[str, list[tuple[str, int]]] | None = getattr(
+            record, "summary", None
+        )
+        if not self.color or summary is None:
+            return super().format(record)
+        path, fields = summary
+        colored_fields = ", ".join(
+            f"\033[{color}m{text}\033[0m" for text, color in fields
+        )
+        colored = logging.makeLogRecord(record.__dict__)
+        colored.msg = f"\033[34m{path}\033[0m: {colored_fields}."
+        colored.args = ()
+        return super().format(colored)
+
+
+def log_build_summary(
+    path: Path,
+    created: int,
+    *,
+    unit: str = "phrases",
+    skipped: int | None = None,
+    duplicates: int | None = None,
+    duplicate_abbreviations: int | None = None,
+) -> None:
+    """Log a plain summary with optional color metadata for the console."""
+    project_dir = Path(__file__).resolve().parents[1]
+    if path.is_relative_to(project_dir):
+        path = path.relative_to(project_dir)
+    fields = [(f"{created} {unit}", 32)]
+    if skipped is not None:
+        fields.append((f"{skipped} skipped", 33 if skipped else 90))
+    if duplicates is not None:
+        fields.append(
+            (f"{duplicates} duplicate characters skipped", 31 if duplicates else 90)
+        )
+    if duplicate_abbreviations is not None:
+        fields.append(
+            (
+                f"{duplicate_abbreviations} duplicate abbreviations",
+                31 if duplicate_abbreviations else 90,
+            )
+        )
+    LOGGER.info(
+        "%s: %s.",
+        path,
+        ", ".join(text for text, _ in fields),
+        extra={"summary": (str(path), fields)},
+    )
+
+
+@contextmanager
+def installation_logging(*, verbose: bool) -> Generator[None, None, None]:
+    """Show summaries on stderr and retain all debug records in the build log."""
+    if BUILD_DIR.is_symlink():
+        raise OSError(f"Build directory {BUILD_DIR} must not be a symlink.")
+    BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    log_path = BUILD_DIR / LOG_FILENAME
+    if log_path.is_symlink():
+        log_path.unlink()
+
+    file_handler = logging.FileHandler(log_path, mode="w", encoding="utf8")
+    file_handler.setLevel(logging.DEBUG)
+    file_handler.setFormatter(
+        logging.Formatter("%(asctime)s %(levelname)s: %(message)s")
+    )
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.DEBUG if verbose else logging.INFO)
+    console_handler.setFormatter(
+        ConsoleFormatter(
+            color=(
+                console_handler.stream.isatty()
+                and "NO_COLOR" not in os.environ
+                and os.environ.get("TERM") != "dumb"
+            )
+        )
+    )
+
+    previous = LOGGER.level, LOGGER.handlers, LOGGER.propagate
+    LOGGER.setLevel(logging.DEBUG)
+    LOGGER.handlers = [console_handler, file_handler]
+    LOGGER.propagate = False
+    try:
+        LOGGER.info("Full log: %s", log_path)
+        yield
+    except BaseException:
+        LOGGER.debug("Installer interrupted or failed.", exc_info=True)
+        raise
+    finally:
+        LOGGER.setLevel(previous[0])
+        LOGGER.handlers = previous[1]
+        LOGGER.propagate = previous[2]
+        file_handler.close()
+        console_handler.close()
 
 
 class Header(StrEnum):
@@ -167,18 +273,27 @@ def query_choice[T](
 
     while True:
         try:
+            LOGGER.debug(
+                "Prompt: %s; choices=%r; default=%r", question, options, default
+            )
             print(question)
             for i, option in options.items():
                 print(f"{i:3d}. {option!r}")
             user_choice = input(f"Enter integer (default: {default}): ")
+            LOGGER.debug("User input: %r", user_choice)
         except (KeyboardInterrupt, SystemExit) as exc:
             exc.add_note("Operation aborted. Exiting.")
             raise
         try:
-            if user_choice == "" and default is not None:
-                return options[default]
-            return options[int(user_choice)]
+            choice = options[
+                default
+                if user_choice == "" and default is not None
+                else int(user_choice)
+            ]
+            LOGGER.debug("Selected: %r", choice)
+            return choice
         except (KeyError, ValueError):
+            LOGGER.debug("Did not understand input: %r", user_choice)
             print("Did not understand input.")
 
 
@@ -215,7 +330,7 @@ class UnicodeSample(NamedTuple):
 
 def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
     """Yield unquoted TSV icons, reconstructing omitted chars from code points."""
-    LOGGER.info("Parsing %s", fname)
+    LOGGER.debug("Parsing %s", fname)
 
     with open(fname, encoding="utf8", newline="") as tsv_file:
         reader = csv.DictReader(
@@ -251,7 +366,14 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
             )
 
 
-def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
+class ProcessedIcons(NamedTuple):
+    """Validated samples and the number of omitted source rows."""
+
+    samples: list[UnicodeSample]
+    skipped: int
+
+
+def process_icons(fname: str | Path, /) -> ProcessedIcons:
     """Load and validate TSV samples, skipping unsupported glyphs and missing abbreviations."""
     samples: list[UnicodeSample] = []
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
@@ -294,10 +416,11 @@ def process_icons(fname: str | Path, /) -> list[UnicodeSample]:
 
     # check skipped items
     for item, reason in skipped:
-        LOGGER.info("❌️ Skipped: %s, reason=%r", item, reason)
-    LOGGER.info(f"ℹ️ {len(skipped)} skipped items.")
-    LOGGER.info("✅️ %d items sucessfully pre-processed.", len(samples))
-    return samples
+        LOGGER.debug("Skipped: %s, reason=%r", item, reason)
+    LOGGER.debug(
+        "Processed %s: %d accepted, %d skipped.", fname, len(samples), len(skipped)
+    )
+    return ProcessedIcons(samples, len(skipped))
 
 
 def write_asset(
@@ -321,6 +444,7 @@ def write_asset(
     destination.write_bytes(payload)
     with metadata_path.open("w", encoding="utf8") as file:
         json.dump(metadata, file, indent=True)
+    LOGGER.debug("Wrote %s and %s", destination, metadata_path)
     return True
 
 
@@ -341,8 +465,7 @@ def build_phrases_from_tsv(
     target_dir = BUILD_DIR / source_dir.name
     target_dir.mkdir(parents=True)
 
-    LOGGER.info("=" * 80)
-    LOGGER.info("Building icons from %s in %s", source_dir, target_dir)
+    LOGGER.debug("Building icons from %s in %s", source_dir, target_dir)
 
     num_created = 0
     all_abbreviations: dict[Abbreviation, list[Glyph]] = defaultdict(list)
@@ -350,8 +473,10 @@ def build_phrases_from_tsv(
 
     # iterate over all .tsv files in the directory
     for filename in sorted(source_dir.glob("*.tsv")):
-        LOGGER.info("-" * 80)
-        for sample in process_icons(filename):
+        file_created = 0
+        file_duplicates = 0
+        processed = process_icons(filename)
+        for sample in processed.samples:
             if not write_asset(
                 target_dir / f"{sample.name}.txt",
                 payload=sample.glyph.encode("utf8"),
@@ -366,34 +491,38 @@ def build_phrases_from_tsv(
                 duplicates=duplicates,
             ):
                 skipped_duplicates.append(sample)
-                LOGGER.info(
+                file_duplicates += 1
+                LOGGER.debug(
                     "Skipped duplicate character: %s (%s)", sample.glyph, sample.name
                 )
                 continue
 
             LOGGER.debug("Registered %s", sample)
             num_created += 1
+            file_created += 1
             for abb in sample.abbreviations:
                 all_abbreviations[abb].append(sample.glyph)
 
-        LOGGER.info("Finished  %s in %s", filename, target_dir)
-
-    LOGGER.info("=" * 80)
-    # duplicates information
-    for sample in skipped_duplicates:
-        LOGGER.info(
-            f"Skipped: {sample.glyph} ({', '.join(sample.ucode)}): {sample.description}"
+        log_build_summary(
+            filename,
+            file_created,
+            skipped=processed.skipped,
+            duplicates=file_duplicates,
         )
-    LOGGER.info(f"ℹ️: Skipped {len(skipped_duplicates)} duplicate characters")
 
     # check if all abbreviations are unique
     num_duplicates = 0
     for abb, ucodes in all_abbreviations.items():
         if len(ucodes) > 1:
-            LOGGER.info("❌️ Duplicate abbreviation: %s -> %s", abb, ucodes)
+            LOGGER.debug("Duplicate abbreviation: %s -> %s", abb, ucodes)
             num_duplicates += 1
-    LOGGER.info(f"ℹ️: {num_duplicates} duplicate abbreviations.")
-    LOGGER.info("✅️ %d unique glyphs registered.", num_created)
+    log_build_summary(
+        source_dir,
+        num_created,
+        unit="glyphs",
+        duplicates=len(skipped_duplicates),
+        duplicate_abbreviations=num_duplicates,
+    )
 
 
 def validate_metadata(metadata: JSON, source: Path) -> None:
@@ -422,7 +551,8 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
     with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
-    LOGGER.info("Building phrases in %s.", build_dir)
+    LOGGER.debug("Building phrases in %s.", build_dir)
+    num_created = 0
     for source in sorted(source_dir.rglob("*.toml")):
         with source.open("rb") as file:
             updates = tomllib.load(file)
@@ -442,6 +572,8 @@ def build_phrases(source_dir: Path, *, sendmode: str) -> None:
             payload=payload.encode("utf8"),
             metadata=metadata,
         )
+        num_created += 1
+    log_build_summary(source_dir, num_created)
 
 
 def _merge_dicts(template: JSON, updates: JSON) -> JSON:
@@ -463,7 +595,8 @@ def build_custom_scripts() -> None:
     with template_file.open(encoding="utf8") as file:
         template: JSON = json.load(file)
 
-    LOGGER.info("Building custom scripts in %s.", build_dir)
+    LOGGER.debug("Building custom scripts in %s.", build_dir)
+    num_created = 0
     for source in sorted(source_dir.rglob("*.toml")):
         if not source.with_suffix(".py").is_file():
             raise FileNotFoundError(f"Missing Python script for {source}.")
@@ -479,35 +612,118 @@ def build_custom_scripts() -> None:
             payload=source.with_suffix(".py").read_bytes(),
             metadata=metadata,
         )
+        num_created += 1
+    log_build_summary(source_dir, num_created, unit="scripts")
+
+
+def clear_build_assets() -> None:
+    """Remove generated assets while retaining the current run's log."""
+    if BUILD_DIR.is_symlink():
+        raise OSError(f"Build directory {BUILD_DIR} must not be a symlink.")
+    BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    for path in BUILD_DIR.iterdir():
+        if path.name == LOG_FILENAME:
+            continue
+        if path.is_symlink() or not path.is_dir():
+            path.unlink()
+        else:
+            shutil.rmtree(path)
+
+
+def build_assets(
+    source_directories: Iterable[str | Path],
+    *,
+    sendmode: str,
+    duplicates: Literal["error", "skip"],
+) -> None:
+    """Reset BUILD_DIR and build all assets without prompts or installation."""
+    clear_build_assets()
+
+    template_file = ASSETS_DIR / "templates" / "phrase.json"
+    with template_file.open(encoding="utf8") as file:
+        template: JSON = json.load(file)
+
+    for source in source_directories:
+        build_phrases_from_tsv(
+            source, template=template, sendmode=sendmode, duplicates=duplicates
+        )
+    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
+    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
+    build_custom_scripts()
+
+
+def validate_install_target(target_dir: Path) -> Path:
+    """Require a dedicated target separate from the build and AutoKey data root."""
+    target_dir = Path(os.path.abspath(target_dir))
+    # Resolve parent aliases, preserving a final symlink so it can be replaced.
+    target_dir = target_dir.parent.resolve() / target_dir.name
+    resolved = target_dir.resolve()
+    build_dir = BUILD_DIR.resolve()
+    if resolved.is_relative_to(build_dir) or build_dir.is_relative_to(resolved):
+        raise ValueError(
+            f"Installation target {target_dir} must be outside {BUILD_DIR} "
+            "and must not contain it."
+        )
+    if AUTOKEY_DIR.resolve().is_relative_to(resolved):
+        raise ValueError(
+            f"Installation target {target_dir} must not be the AutoKey data "
+            f"directory {AUTOKEY_DIR} or one of its parents."
+        )
+    return target_dir
 
 
 def install_build(target_dir: Path) -> None:
-    """Move built collections into AutoKey, asking before replacing existing ones."""
-    collections = sorted(BUILD_DIR.iterdir())
-    existing = [
-        source.name
-        for source in collections
-        if (target_dir / source.name).exists()
-        or (target_dir / source.name).is_symlink()
-    ]
-    if existing and not query_choice(
-        f"Replace existing collections in {target_dir}: {', '.join(existing)}?",
+    """Select optional assets and replace the dedicated target with a staged build."""
+    target_dir = validate_install_target(target_dir)
+    if (target_dir.exists() or target_dir.is_symlink()) and not query_choice(
+        f"Replace the entire installation directory {target_dir} and all its contents?",
         choices=[False, True],
     ):
         LOGGER.info("Installation cancelled; build retained in %s.", BUILD_DIR)
         return
 
-    target_dir.mkdir(parents=True, exist_ok=True)
-    for source in collections:
-        destination = target_dir / source.name
-        if destination.is_symlink() or destination.is_file():
-            destination.unlink()
-        elif destination.exists():
-            shutil.rmtree(destination)
-        shutil.move(source, destination)
+    skipped: list[Path] = []
+    for source in sorted((BUILD_DIR / "special_chars").rglob("*.txt")):
+        payload = source.read_text(encoding="utf8")
+        if not query_choice(
+            f"Install special character {source.stem} ({payload!r})?",
+            choices=[False, True],
+        ):
+            skipped.append(source.relative_to(BUILD_DIR))
+
+    # Stage on the target filesystem; the complete build remains available on failure.
+    target_dir.parent.mkdir(parents=True, exist_ok=True)
+    temporary = Path(mkdtemp(prefix=f".{target_dir.name}-", dir=target_dir.parent))
+    staging = temporary / "installation"
+    backup = temporary / "previous"
+    installed = False
+    try:
+        shutil.copytree(BUILD_DIR, staging, ignore=shutil.ignore_patterns(LOG_FILENAME))
+        for relative in skipped:
+            (staging / relative).unlink()
+            (staging / relative.with_suffix(".json")).unlink()
+
+        if target_dir.exists() or target_dir.is_symlink():
+            target_dir.rename(backup)
+        try:
+            staging.rename(target_dir)
+        except BaseException:
+            if backup.exists() or backup.is_symlink():
+                backup.rename(target_dir)
+            raise
+        installed = True
+    finally:
+        if installed or not (backup.exists() or backup.is_symlink()):
+            shutil.rmtree(temporary)
+        else:
+            LOGGER.error(
+                "Could not restore the previous installation; retained at %s.", backup
+            )
+
     LOGGER.info(
         "Installed AutoKey assets in %s. Restart AutoKey to enable them!", target_dir
     )
+    LOGGER.info(r"Type \help followed by a space to open Julia's Unicode input page.")
 
 
 def main() -> None:
@@ -520,7 +736,10 @@ def main() -> None:
         choices=SEND_MODES,
         default=None,
         type=int,
-        help=f"How should character substitutions be performed?\n{SEND_MODES}",
+        help=(
+            f"How should character substitutions be performed?\n{SEND_MODES}. "
+            "Prompt if omitted; build-only defaults to 0."
+        ),
     )
     parser.add_argument(
         "--target-directory",
@@ -577,53 +796,31 @@ def main() -> None:
             )
         autokey_directory = DEFAULT_TARGET_DIR
 
-    target_dir = (autokey_directory / args.target_directory).resolve()
-    if target_dir.is_relative_to(BUILD_DIR):
-        raise ValueError(
-            f"Installation target {target_dir} must be outside {BUILD_DIR}."
+    target_dir = validate_install_target(autokey_directory / args.target_directory)
+
+    with installation_logging(verbose=args.verbose):
+        # Build-only mode needs no interactive choices.
+        if args.sendmode is not None:
+            sendmode = SEND_MODES[args.sendmode]
+        elif args.build_only:
+            sendmode = SEND_MODES[0]
+        else:
+            sendmode = query_choice(
+                question="How should character substitutions be performed?",
+                choices=SEND_MODES,
+            )
+
+        build_assets(
+            args.source_directories, sendmode=sendmode, duplicates=args.duplicates
         )
 
-    if args.verbose:
-        LOGGER.setLevel(logging.DEBUG)
+        if args.build_only:
+            LOGGER.info("Build complete in %s; installation skipped.", BUILD_DIR)
+            return
 
-    # if sendmode is missing, ask user
-    sendmode = (
-        SEND_MODES[args.sendmode]
-        if args.sendmode is not None
-        else query_choice(
-            question="How should character substitutions be performed?",
-            choices=SEND_MODES,
-        )
-    )
-
-    # BUILD_DIR is reserved for disposable generated files.
-    if BUILD_DIR.exists():
-        shutil.rmtree(BUILD_DIR)
-    BUILD_DIR.mkdir(parents=True)
-
-    template_file = ASSETS_DIR / "templates" / "phrase.json"
-    with template_file.open(encoding="utf8") as file:
-        template: JSON = json.load(file)
-
-    for source in args.source_directories:
-        build_phrases_from_tsv(
-            source,
-            template=template,
-            sendmode=sendmode,
-            duplicates=args.duplicates,
-        )
-    build_phrases(ASSETS_DIR / "latex_snippets", sendmode=sendmode)
-    build_phrases(ASSETS_DIR / "special_chars", sendmode=sendmode)
-    build_custom_scripts()
-
-    if args.build_only:
-        LOGGER.info("Build complete in %s; installation skipped.", BUILD_DIR)
-        return
-
-    check_autokey_version()
-    install_build(target_dir)
+        check_autokey_version()
+        install_build(target_dir)
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
     main()

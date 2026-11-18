@@ -26,7 +26,11 @@ Restart AutoKey after installation to load the installed collections.
 
 ### Installation directory
 
-By default, collections are installed under `~/.config/autokey/data/julia_unicode/`.
+By default, collections are installed under `~/.config/autokey/data/julia_unicode/`,
+identified by `DEFAULT_TARGET_DIR`. The selected target is owned entirely by this
+extension, including when set explicitly: reinstalling replaces all its contents.
+Keep personal phrases and scripts elsewhere in the AutoKey data directory.
+
 The module constant `AUTOKEY_DIR` identifies `~/.config/autokey/data/`; this
 directory must already exist when using the default destination. If it is missing,
 the installer errors before prompting or building. Start AutoKey once to initialize
@@ -39,6 +43,8 @@ its data directory, or provide a destination explicitly:
 An explicit destination can be created during installation. `--target-directory`
 appends a subdirectory to the selected destination, or overrides it with an
 absolute path. Build-only runs do not require the default AutoKey data directory.
+The target cannot be the AutoKey data root or one of its parents, and it must
+neither contain nor be inside the build directory.
 
 ## AutoKey version check
 
@@ -48,15 +54,60 @@ version cannot be determined, it warns and continues.
 ## Build and installation behavior
 
 All AutoKey assets are generated under `build/autokey/` in the project root before installation
-begins. The entire build directory is cleared at the start of each run; reserve it for disposable
-generated files. Keep source files and installed collections outside this directory. Child symlinks
+begins. Previous generated assets are cleared at the start of each build; reserve this directory
+for disposable generated files and the installation log. Keep source files and installed collections outside this directory. Child symlinks
 are removed without following them. Each builder creates a fresh collection directory and fails if
 its name is already in use. Icon collections use `build/autokey/<source-folder>/`.
 
-After a successful build, all generated collections are moved into the AutoKey target directory.
-Existing collections with matching names are replaced after one overwrite confirmation; other
-collections are preserved. If installation fails, the previous collections and generated build are
-restored. Successful installation leaves the build directory empty.
+`build_assets()` builds every collection, including all special characters. It does
+not prompt or modify an AutoKey installation; the send mode and duplicate policy
+are supplied by the caller.
+
+### Installing built assets
+
+`install_build()` installs from a copy of the completed build without modifying
+the generated files:
+
+1. If the target exists, ask once whether to replace the entire directory and all
+   its contents. Declining leaves the installation and complete build unchanged.
+2. Ask separately whether to install each special character, including `newline`
+   and `tabulator`. Each defaults to skipping; choose tabulator and skip newline
+   to install only the tab abbreviation.
+3. Copy the build to a temporary staging directory beside the target and omit
+   unselected special-character payloads and metadata from that copy.
+4. Move the existing target aside, then put the staged installation in its place.
+   If replacement fails, restore the previous target. On success, remove the old
+   target and retain the complete build alongside `install.log`.
+
+All prompts happen before modifying the target. The complete build is retained
+after success, cancellation, or installation failure, including optional characters
+that were declined. It contains independent copies of all installed files and
+is cleared when the next build starts. A target symlink is replaced without
+deleting the directory it points to.
+If restoring the previous target also fails, its backup is retained and its path
+is logged for recovery.
+
+### Logging
+
+Regular runs show file and collection summaries on the console. Individual
+skipped characters, duplicates, and generated files are logged at DEBUG level;
+use `--verbose` to show those details on the console too.
+
+Each TSV produces one summary starting with its filename, for example:
+
+```text
+INFO: icons/custom_unicode/arrows.tsv: 34 phrases, 0 skipped, 0 duplicate characters skipped.
+```
+
+On terminals, paths are blue and created counts are green. Nonzero skipped
+counts are yellow and duplicate counts are red; zero skipped/duplicate counts
+are gray. Redirected output and the log remain plain text. Set `NO_COLOR` to
+disable colors in the terminal.
+
+Every build/install run writes the full DEBUG log to `build/autokey/install.log`,
+including prompt choices and failure tracebacks. The log is replaced on the next
+run and remains available after successful installation, cancellation, or failure.
+It is not copied into AutoKey's installation directory.
 
 ## Asset sources
 
@@ -73,8 +124,8 @@ and `abbreviation.abbreviations` null until generation supplies them. The result
 
 Special characters use the same TOML format in `src/assets/special_chars/`. Their generated files
 are built in `build/autokey/special_chars/` with source filenames such as `tabulator.txt` and
-`newline.txt`. Both characters are built and installed together with the other collections, using
-the same collection overwrite confirmation.
+`newline.txt`. Both are always built. Installation asks about each individually
+and includes only the selected payload/metadata pairs.
 
 ### Custom scripts
 
@@ -94,6 +145,8 @@ To build all AutoKey assets without changing an AutoKey installation, run:
 
 `--dry-run` is an alias for `--build-only`: both write the build files and skip installation of icons and bundled
 assets. AutoKey is not required for either option.
+Build-only runs do not prompt; when `--sendmode` is omitted, they use mode 0
+(`<ctrl>+v`). Ordinary installation prompts for a send mode when it is omitted.
 
 ## Refreshing source data
 

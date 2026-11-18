@@ -37,7 +37,8 @@ character requires a [font with the corresponding glyph](#choosing-a-font).
 
 3. Restart AutoKey.
 
-The installer asks before replacing existing collections with matching names.
+The installer asks which special characters to include and confirms before replacing
+the entire extension directory; keep personal phrases and scripts outside that directory.
 
 ### Installation details
 

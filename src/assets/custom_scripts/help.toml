@@ -1,3 +1,3 @@
 description = "Help for Julia Unicode"
-abbreviation.abbreviations = ['\\help ']
+abbreviation.abbreviations = ['\help ']
 showInTrayMenu = true
