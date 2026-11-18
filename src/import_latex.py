@@ -12,8 +12,9 @@ import hashlib
 import re
 import shutil
 import subprocess
-from collections.abc import Sequence
+from collections.abc import Iterator, Sequence
 from pathlib import Path
+from typing import NamedTuple
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 OUTPUT = PROJECT_DIR / "data" / "latex" / "latex2e.tsv"
@@ -60,17 +61,56 @@ MATH_ALIASES = {
 }
 
 
+# Fixed kernel wrappers whose meanings are explicit in latex.ltx.
+KERNEL_WRAPPERS = {
+    r"\$": ("$", "both"),
+    r"\{": ("{", "both"),
+    r"\}": ("}", "both"),
+    r"\P": ("¶", "both"),
+    r"\S": ("§", "both"),
+    r"\dag": ("†", "both"),
+    r"\ddag": ("‡", "both"),
+    r"\_": ("_", "both"),
+    r"\copyright": ("©", "both"),
+    r"\pounds": ("£", "both"),
+    r"\dots": ("…", "both"),
+    r"\ldots": ("…", "both"),
+    r"\%": ("%", "both"),
+    r"\&": ("&", "both"),
+    r"\#": ("#", "both"),
+    r"\lbrack": ("[", "both"),
+    r"\rbrack": ("]", "both"),
+    r"\slash": ("/", "both"),
+    r"\lq": ("‘", "text"),
+    r"\rq": ("’", "text"),
+    r"\aa": ("å", "text"),
+    r"\AA": ("Å", "text"),
+}
+
+
+class LatexMapping(NamedTuple):
+    """A LaTeX command mapping in TSV column order."""
+
+    code_points: str
+    chars: str
+    mode: str
+    latex_code: str
+
+
 def without_comments(source: str) -> str:
     """Strip TeX comments while preserving escaped percent signs."""
     return re.sub(r"(?<!\\)((?:\\\\)*)%[^\n]*", r"\1", source)
 
 
-def argument(source: str, offset: int) -> tuple[str, int]:
+def parse_tex_argument(source: str, offset: int) -> tuple[str, int]:
     """Read a braced group, control sequence, or single TeX token."""
+    # Whitespace before an argument is not part of its value.
     while offset < len(source) and source[offset].isspace():
         offset += 1
     if offset == len(source):
         raise ValueError("Missing TeX argument")
+
+    # Track nested groups and return the contents without the outer braces.
     start = offset
     if source[offset] == "{":
         depth = 1
@@ -80,6 +120,7 @@ def argument(source: str, offset: int) -> tuple[str, int]:
                 # A control symbol such as \{ is not a grouping brace.
                 offset += 2
                 continue
+
             if source[offset] == "{":
                 depth += 1
             elif source[offset] == "}":
@@ -88,23 +129,29 @@ def argument(source: str, offset: int) -> tuple[str, int]:
                     return source[start + 1 : offset], offset + 1
             offset += 1
         raise ValueError("Unclosed TeX group")
+
+    # An unbraced control sequence consumes a full name or one control symbol.
     if source[offset] == "\\":
         match = re.match(r"\\(?:[A-Za-z@]+|.)", source[offset:])
         if match is None:
             raise ValueError("Incomplete control sequence")
         return match[0], offset + len(match[0])
+
+    # Any other unbraced argument is a single character.
     return source[offset], offset + 1
 
 
-def calls(source: str, name: str, count: int):
+def iter_declaration_calls(
+    source: str, name: str, count: int
+) -> Iterator[tuple[str, ...]]:
     """Read literal declaration calls, skipping definitions and parameterized ones."""
     for match in re.finditer(r"\\" + name + r"\b", source):
-        first, offset = argument(source, match.end())
+        first, offset = parse_tex_argument(source, match.end())
         if not first.startswith("\\") or source[offset:].lstrip().startswith("["):
             continue
         values = [first]
         for _ in range(count - 1):
-            value, offset = argument(source, offset)
+            value, offset = parse_tex_argument(source, offset)
             values.append(value)
         yield tuple(values)
 
@@ -121,12 +168,9 @@ def unicode_number(value: str) -> str:
 
 def math_mappings(fontmath: str, table: str, aliases: str) -> dict[str, str]:
     """Map only standalone commands declared by fontmath.ltx."""
-    points = {
-        name: chr(int(point, 16))
-        for point, name in re.findall(
-            r'\\UnicodeMathSymbol\{"([0-9A-F]+)\}\{(\\[A-Za-z]+)\s*\}', table
-        )
-    }
+    # language=regexp
+    pattern = r'\\UnicodeMathSymbol\{"([0-9A-F]+)\}\{(\\[A-Za-z]+)\s*\}'
+    points = {name: chr(int(point, 16)) for point, name in re.findall(pattern, table)}
     # Legacy Greek names denote character identities, without adding font styling.
     for name, text in list(points.items()):
         if name.startswith(r"\mup"):
@@ -159,15 +203,17 @@ def text_mappings(tuenc: str) -> dict[str, str]:
     """Read Unicode symbols, fixed commands, and explicitly declared composites."""
     result = {
         name: unicode_number(value)
-        for name, value in calls(tuenc, "DeclareUnicodeSymbol", 2)
+        for name, value in iter_declaration_calls(tuenc, "DeclareUnicodeSymbol", 2)
     }
-    for name, body in calls(tuenc, "DeclareUnicodeCommand", 2):
+    for name, body in iter_declaration_calls(tuenc, "DeclareUnicodeCommand", 2):
         # Fixed commands use a Unicode slot directly or test it before a fallback.
         value = re.search(r'"[0-9A-Fa-f]+', body)
         if value is None:
             raise ValueError(f"No Unicode slot for text command {name}")
         result[name] = unicode_number(value[0])
-    for accent, base, value in calls(tuenc, "DeclareUnicodeComposite", 3):
+    for accent, base, value in iter_declaration_calls(
+        tuenc, "DeclareUnicodeComposite", 3
+    ):
         result[f"{accent}{{{base}}}"] = unicode_number(value)
     return result
 
@@ -175,36 +221,13 @@ def text_mappings(tuenc: str) -> dict[str, str]:
 def kernel_aliases(kernel: str, math: dict[str, str], text: dict[str, str]) -> None:
     """Add fixed kernel wrappers whose meanings are explicit in latex.ltx."""
     # Modern textcomp support has additional direct Unicode declarations here.
-    for name, value in re.findall(
-        r'\\DeclareTextSymbol\s*\{(\\[^}]+)\}\s*\\UnicodeEncodingName\s*\{("[0-9A-F]+)\}',
-        kernel,
-    ):
+    pattern = (
+        # language=regexp
+        r'\\DeclareTextSymbol\s*\{(\\[^}]+)\}\s*\\UnicodeEncodingName\s*\{("[0-9A-F]+)\}'
+    )
+    for name, value in re.findall(pattern, kernel):
         text[name] = unicode_number(value)
-    wrappers = {
-        r"\$": ("$", "both"),
-        r"\{": ("{", "both"),
-        r"\}": ("}", "both"),
-        r"\P": ("¶", "both"),
-        r"\S": ("§", "both"),
-        r"\dag": ("†", "both"),
-        r"\ddag": ("‡", "both"),
-        r"\_": ("_", "both"),
-        r"\copyright": ("©", "both"),
-        r"\pounds": ("£", "both"),
-        r"\dots": ("…", "both"),
-        r"\ldots": ("…", "both"),
-        r"\%": ("%", "both"),
-        r"\&": ("&", "both"),
-        r"\#": ("#", "both"),
-        r"\lbrack": ("[", "both"),
-        r"\rbrack": ("]", "both"),
-        r"\slash": ("/", "both"),
-        r"\lq": ("‘", "text"),
-        r"\rq": ("’", "text"),
-        r"\aa": ("å", "text"),
-        r"\AA": ("Å", "text"),
-    }
-    for name, (value, mode) in wrappers.items():
+    for name, (value, mode) in KERNEL_WRAPPERS.items():
         # Guard against applying the curated mappings to a different kernel API.
         if name not in kernel:
             raise ValueError(f"Kernel no longer contains {name}")
@@ -213,7 +236,9 @@ def kernel_aliases(kernel: str, math: dict[str, str], text: dict[str, str]) -> N
         text[name] = value
 
 
-def rows(math: dict[str, str], text: dict[str, str]):
+def merge_math_and_text_mappings(
+    math: dict[str, str], text: dict[str, str]
+) -> Iterator[LatexMapping]:
     """Merge identical mappings across modes and retain all command aliases."""
     for name in sorted(math.keys() | text.keys()):
         if name in math and name in text and math[name] == text[name]:
@@ -226,14 +251,16 @@ def rows(math: dict[str, str], text: dict[str, str]):
             ]
         for mode, value in values:
             points = ", ".join(f"U+{ord(char):04X}" for char in value)
-            yield points, value, mode, name
+            yield LatexMapping(points, value, mode, name)
 
 
 def import_latex(output: Path = OUTPUT) -> int:
     """Locate installed sources and generate a deterministic UTF-8 TSV."""
+    # Use the TeX distribution's resolver to locate its installed source files.
     executable = shutil.which("kpsewhich")
     if executable is None:
         raise FileNotFoundError("kpsewhich executable not found on PATH")
+
     sources = {}
     for filename in (
         "fontmath.ltx",
@@ -248,9 +275,13 @@ def import_latex(output: Path = OUTPUT) -> int:
         ).strip()
         if not location:
             raise FileNotFoundError(f"kpsewhich could not find {filename}")
+
+        # Report hashes of the original sources before stripping TeX comments.
         raw = Path(location).read_bytes()
         print(f"{filename}: SHA256 {hashlib.sha256(raw).hexdigest()}")
         sources[filename] = without_comments(raw.decode("utf-8"))
+
+    # Build each mode's inventory, then add the fixed kernel aliases.
     math = math_mappings(
         sources["fontmath.ltx"],
         sources["unicode-math-table.tex"],
@@ -258,15 +289,20 @@ def import_latex(output: Path = OUTPUT) -> int:
     )
     text = text_mappings(sources["tuenc.def"])
     kernel_aliases(sources["latex.ltx"], math, text)
+
+    # Merge shared mappings and sort by Unicode sequence, command, then mode.
     entries = sorted(
-        rows(math, text),
-        key=lambda row: (tuple(map(ord, row[1])), row[3], row[2]),
+        merge_math_and_text_mappings(math, text),
+        key=lambda row: (tuple(map(ord, row.chars)), row.latex_code, row.mode),
     )
+
+    # Write a reproducible TSV with explicit UTF-8 encoding and LF line endings.
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8", newline="") as target:
         writer = csv.writer(target, delimiter="\t", lineterminator="\n")
         writer.writerow(HEADER)
         writer.writerows(entries)
+
     return len(entries)
 
 
