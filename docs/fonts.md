@@ -33,9 +33,9 @@ We inspect visual quality:
    lengths of 8x of the `long` versions of these arrows.
    In this test, we value consistency:
 
-- Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
-- Half marks `✅️` if there are at most 3 different lengths.
-- No marks `❌️` if there are more than 3 different lengths.
+   - Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
+   - Half marks `✅️` if there are at most 3 different lengths.
+   - No marks `❌️` if there are more than 3 different lengths.
 
 2. Dashes: We compare the lengths of 12x`\emdash` against 6x `\twoemdash` and 4x`\threeemdash`.
 3. Operators: We compare the character `\bigodot` against `\bigoplus` and `\bigotimes`.
