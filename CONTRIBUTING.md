@@ -118,7 +118,7 @@ required for a build-only run.
 ## Data and documentation
 
 See the [icon documentation](icons/README.md) for collections, the TSV format,
-and validation commands. The [main README](README.md#refreshing-source-data)
+and validation commands. The [source data guide](docs/updating-data.md)
 lists data refresh recipes; [third-party notes](third_party/README.md) document
 upstream sources, and [LaTeX mapping notes](latex/README.md) describe mapping
 coverage and provenance.

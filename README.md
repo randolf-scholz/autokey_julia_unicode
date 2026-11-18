@@ -2,7 +2,7 @@
 
 [Contributing](CONTRIBUTING.md) | [License](LICENSE) | [Changelog](CHANGELOG.md)
 
-[Usage](#usage) | [Requirements](#requirements) | [Installation](#installation) | [Features](#features) | [Known Issues](#known-issues--limitations) | [References](#references)
+[Usage](#usage) | [Requirements](#requirements) | [Installation](#installation) | [Features](#features) | [Choosing a font](#choosing-a-font) | [Known Issues](#known-issues--limitations) | [References](#references)
 
 ![demo](demo.gif)
 
@@ -80,31 +80,28 @@ To build all AutoKey assets without changing an AutoKey installation, run:
 `--dry-run` is an alias for `--build-only`: both write the build files and skip installation of icons and bundled
 assets. AutoKey is not required for either option.
 
-## Refreshing source data
+### Refreshing source data
 
-The bundled tables can be installed without refreshing them. To update them,
-run these recipes from the repository root:
+The bundled tables are ready to install; see [Refreshing source data](docs/updating-data.md) to regenerate them.
 
-| Command                       | Reads                                                                        | Writes                                                                        |
-|-------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| `just fetch-ucd --version 18` | A release from unicode.org                                                   | Upstream files in `third_party/ucd/`                                          |
-| `just import-ucd`             | Local files in `third_party/ucd/`                                            | Block tables in `icons/ucd/`, plus `icons/blocks.tsv` and `icons/unicode.tsv` |
-| `just import-julia`           | The installed Julia's LaTeX and emoji completions, plus local UCD names      | `icons/julia_unicode/icons-.local.tsv`                                        |
-| `just import-latex`           | An installed TeX distribution with the LaTeX base and `unicode-math` sources | `latex/latex2e.tsv`                                                           |
+## Choosing a font
 
-`fetch-ucd` downloads upstream files; the `import-*` recipes convert source data
-into this project's tables. Fetch the UCD before importing it or refreshing the
-Julia tables when updating Unicode data. `fetch-ucd` also accepts `--version latest`.
+For a monospaced editor font with good mathematical Unicode coverage, try:
 
-Each recipe forwards arguments to its matching script in `src/`, for example
-`just import-latex --output /tmp/latex2e.tsv`. The Python recipes use the same
-interpreter selection as `just install`. See the [UCD notes](third_party/README.md),
-[Julia table notes](icons/README.md#julia-unicode-icons), and [LaTeX mapping notes](latex/README.md)
-for details.
+- [JuliaMono](https://juliamono.netlify.app/): our first recommendation for
+  mathematical code and notes, with broad coverage of Greek letters,
+  mathematical operators, and styled mathematical alphabets.
+- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd/): an
+  alternative with broad symbol coverage, including the Mathematical Operators
+  block; coverage of styled Mathematical Alphanumeric Symbols is partial.
 
-Run all tests with `just test`, or select files with a quoted filename glob such
-as `just test 'test_import_*'`. Validate the icon tables with
-`just validate 'icons/julia_unicode/icons-*.tsv'`.
+Open the [Unicode font samples](docs/fonts.md) as plain text in your preferred
+editor and select the font you want to use. The samples help you inspect Greek
+letters, mathematical symbols, combining marks, and character widths.
+
+[Programming Fonts](https://www.programmingfonts.org/) also lets you compare
+fonts in the browser. Paste the character samples there, then check how they
+look in your own editor.
 
 ## Features
 
