@@ -7,7 +7,7 @@ const DATA_DIR = joinpath(PROJECT_DIR, "data")
 
 const UNICODE_DATA = joinpath(PROJECT_DIR, "third_party", "ucd", "UnicodeData.txt")
 const SCHEMA_PATH = joinpath(DATA_DIR, "schemas", "icons.toml")
-const ICONS_PATH = joinpath(DATA_DIR, "icons", "icons-julia-$(VERSION).local.tsv")
+const ICONS_PATH = joinpath(DATA_DIR, "icons", "julia", "icons-julia-$(VERSION).local.tsv")
 const HEADER = ("code_points", "chars", "tab_completions", "unicode_name")
 
 """Require the exported header to match the schema's ordered required columns."""
@@ -41,7 +41,7 @@ end
 
 Import the running Julia version's LaTeX and emoji completions in the icon
 schema's column order. The default output is
-data/icons/icons-julia-<julia-version>.local.tsv. Default paths are relative to the
+data/icons/julia/icons-julia-<julia-version>.local.tsv. Default paths are relative to the
 repository, independent of the working directory.
 """
 function import_icons(

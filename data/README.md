@@ -8,8 +8,10 @@
 | [latex/](latex/README.md) | LaTeX expressions mapped to Unicode sequences |
 | `schemas/` | Shared table schemas and their JSON schema definition |
 
-The installer reads completion tables from `icons/` and `icons/custom_unicode/`.
-Each selected directory supplies its immediate `*.tsv` files as one collection.
+The installer uses `icons/` as its default collection root. Each immediate
+subdirectory is one collection: `icons/julia/` contains Julia's tables, and
+`icons/custom_unicode/` contains custom abbreviations. All immediate `*.tsv`
+files in a collection share an output directory and duplicate checks.
 
 AutoKey asset sources and templates live in `autokey/`. Scripts delivered to
 AutoKey are kept there with their TOML metadata. See the

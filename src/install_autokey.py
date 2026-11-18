@@ -12,7 +12,6 @@ import os
 import re
 import shutil
 import subprocess
-import sys
 import tomllib
 from collections import defaultdict
 from collections.abc import Generator, Iterable, Iterator, Mapping, Sequence
@@ -24,11 +23,13 @@ from typing import Any, Final, Literal, NamedTuple, Self, TypeGuard
 
 type JSON = dict[str, Any]
 LOGGER = logging.getLogger(__name__)
+PROJECT_DIR: Final[Path] = Path(__file__).resolve().parents[1]
+DATA_DIR: Final[Path] = PROJECT_DIR / "data"
 AUTOKEY_DIR: Final[Path] = Path.home() / ".config" / "autokey" / "data"
 DEFAULT_TARGET_DIR: Final[Path] = AUTOKEY_DIR / "julia_unicode"
-BUILD_DIR: Final[Path] = Path(__file__).resolve().parents[1] / "build" / "autokey"
+BUILD_DIR: Final[Path] = PROJECT_DIR / "build" / "autokey"
 LOG_FILENAME: Final[str] = "install.log"
-ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent / "assets"
+ASSETS_DIR: Final[Path] = DATA_DIR / "autokey"
 
 
 class SendMode(StrEnum):
@@ -75,9 +76,8 @@ def log_build_summary(
     duplicate_abbreviations: int | None = None,
 ) -> None:
     """Log a plain summary with optional color metadata for the console."""
-    project_dir = Path(__file__).resolve().parents[1]
-    if path.is_relative_to(project_dir):
-        path = path.relative_to(project_dir)
+    if path.is_relative_to(PROJECT_DIR):
+        path = path.relative_to(PROJECT_DIR)
     fields = [(f"{created} {unit}", 32)]
     if skipped is not None:
         fields.append((f"{skipped} skipped", 33 if skipped else 90))
@@ -750,6 +750,16 @@ def main(argv: Sequence[str] | None = None) -> int:
         description="Install icons for usage with autokey.",
     )
     parser.add_argument(
+        "paths",
+        nargs="*",
+        default=[DATA_DIR / "icons"],
+        type=Path,
+        help=(
+            "Directories whose immediate subdirectories are icon collections "
+            f"(default: {DATA_DIR / 'icons'})."
+        ),
+    )
+    parser.add_argument(
         "--sendmode",
         choices=SEND_MODES,
         default=None,
@@ -791,13 +801,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         type=str,
         help="How to handle duplicate generated phrase files.",
     )
-    parser.add_argument(
-        "source_directories",
-        nargs="*",
-        default=["icons/julia_unicode/", "icons/custom_unicode/"],
-        type=str,
-        help="Directories holding the `.tsv` files to be installed.",
-    )
+
     args = parser.parse_args(argv)
 
     autokey_directory = args.autokey_directory
@@ -821,6 +825,13 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
 
     with installation_logging(BUILD_DIR, verbose=args.verbose):
+        source_directories = [
+            directory
+            for root in args.paths
+            for directory in sorted(root.iterdir())
+            if directory.is_dir()
+        ]
+
         # Build-only mode needs no interactive choices.
         if args.sendmode is not None:
             send_mode = SEND_MODES[args.sendmode]
@@ -833,7 +844,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
 
         build_assets(
-            args.source_directories,
+            source_directories,
             send_mode=SendMode(send_mode),
             duplicates=args.duplicates,
         )
@@ -848,4 +859,4 @@ def main(argv: Sequence[str] | None = None) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())
