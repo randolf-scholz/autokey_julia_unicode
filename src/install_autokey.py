@@ -162,7 +162,8 @@ def check_autokey_version(search_path: str = os.defpath, /) -> None:
             continue
 
         try:
-            result = subprocess.run(
+            # The executable comes from the system search path; arguments are fixed.
+            result = subprocess.run(  # noqa: S603
                 [executable, "--version"],
                 capture_output=True,
                 text=True,
@@ -190,6 +191,8 @@ def check_autokey_version(search_path: str = os.defpath, /) -> None:
 class Glyph(str):
     """Character type."""
 
+    __slots__ = ()
+
     def __new__(cls, value: str) -> Self:
         if not is_glyph(value):
             raise ValueError(f"{value!r} is not a valid character.")
@@ -212,6 +215,8 @@ def is_glyph(s: object, /) -> TypeGuard[Glyph]:
 
 class CodePoint(str):
     """Unicode code point normalized to U+ followed by at least four hex digits."""
+
+    __slots__ = ()
 
     PATTERN = re.compile(r"U\+[0-9A-F]{4,6}")
     """Regex pattern for unicode codes."""
@@ -245,15 +250,18 @@ def str_to_codepoints(s: str, /) -> list[CodePoint]:
 class Abbreviation(str):
     """Abbreviation type."""
 
+    __slots__ = ()
+
     PATTERN = re.compile(r"\x5C[\x21-\x7E]+\x20")
-    """Regex pattern for abbreviations start with backslash (5C) and end in space (20)."""
+    """Match abbreviations starting with a backslash and ending with a space."""
 
     def __new__(cls, value: str) -> Self:
         if not isinstance(value, str) or Abbreviation.PATTERN.fullmatch(value) is None:
             raise ValueError(
                 f"{value!r} is not a valid abbreviation."
                 "\nAbbrevations must begin with a backslash and terminate with a space."
-                "\nInside the abbrevations only the printable ascii characters x21-x7e are allowed,"
+                "\nInside the abbrevations only the printable ascii characters "
+                "x21-x7e are allowed,"
                 " except backslash x5C."
             )
         return super().__new__(cls, value)
@@ -275,8 +283,8 @@ def query_choice[T](
     """Ask the user to pick an option."""
     options = choices if isinstance(choices, Mapping) else dict(enumerate(choices))
 
-    if default is not None:
-        assert default in options, f"Default {default} not in {options}"
+    if default is not None and default not in options:
+        raise ValueError(f"Default {default} not in {options}")
 
     while True:
         try:
@@ -340,7 +348,7 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
     """Yield unquoted TSV icons, reconstructing omitted chars from code points."""
     LOGGER.debug("Parsing %s", fname)
 
-    with open(fname, encoding="utf8", newline="") as tsv_file:
+    with Path(fname).open(encoding="utf8", newline="") as tsv_file:
         reader = csv.DictReader(
             tsv_file,
             delimiter="\t",
@@ -353,7 +361,8 @@ def load_icons(fname: str | Path, /) -> Iterator[UnprocessedSample]:
         for row in reader:
             if missing_vals := [col.value for col in Header if row[col] is None]:
                 raise ValueError(
-                    f"Missing values in {fname} at line {reader.line_num}: {missing_vals}"
+                    f"Missing values in {fname} at line {reader.line_num}: "
+                    f"{missing_vals}"
                 )
             chars = row[Header.CHARACTERS]
             if not chars:
@@ -382,7 +391,7 @@ class ProcessedIcons(NamedTuple):
 
 
 def process_icons(fname: str | Path, /) -> ProcessedIcons:
-    """Load and validate TSV samples, skipping unsupported glyphs and missing abbreviations."""
+    """Validate samples, skipping unsupported glyphs and missing abbreviations."""
     samples: list[UnicodeSample] = []
     skipped: list[tuple[UnprocessedSample, str]] = []  # items
 
@@ -670,7 +679,6 @@ def validate_install_target(
     target_dir: Path, build_dir: Path, *, autokey_dir: Path
 ) -> Path:
     """Require a dedicated target separate from the build and AutoKey data root."""
-    target_dir = Path(os.path.abspath(target_dir))
     # Resolve parent aliases, preserving a final symlink so it can be replaced.
     target_dir = target_dir.parent.resolve() / target_dir.name
     resolved = target_dir.resolve()
@@ -773,7 +781,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         "--target-directory",
         default="",
         type=str,
-        help="Subdirectory of the installation directory; an absolute path overrides it.",
+        help=(
+            "Subdirectory of the installation directory; an absolute path overrides it."
+        ),
     )
     parser.add_argument(
         "--autokey-directory",

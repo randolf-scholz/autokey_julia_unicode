@@ -13,7 +13,6 @@ Successful validation is silent unless --verbose prints row and file statistics.
 
 import argparse
 import csv
-import glob
 import re
 import sys
 import tomllib
@@ -373,10 +372,12 @@ def expand_files(patterns: Sequence[str]) -> Iterator[Path | Error]:
     for pattern in patterns:
         try:
             path = Path(pattern)
+            # Path.glob expects a relative pattern, including for absolute inputs.
+            anchor = Path(path.anchor)
             matches = (
                 [path]
                 if path.exists()
-                else sorted(map(Path, glob.glob(pattern, recursive=True)))
+                else sorted(anchor.glob(str(path.relative_to(anchor))))
             )
             files = []
             for match in matches:
@@ -390,11 +391,12 @@ def expand_files(patterns: Sequence[str]) -> Iterator[Path | Error]:
                 yield from files
             else:
                 yield Error(f"No files match: {pattern}")
-        except OSError as error:
+        except (OSError, ValueError) as error:
             yield Error(str(error))
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """Validate requested TSV files and report all errors."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "files", nargs="+", help="file paths, directories, or glob patterns"

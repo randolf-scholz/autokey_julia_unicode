@@ -10,6 +10,7 @@ import argparse
 import csv
 import hashlib
 import re
+import shutil
 import subprocess
 from collections.abc import Sequence
 from pathlib import Path
@@ -230,6 +231,9 @@ def rows(math: dict[str, str], text: dict[str, str]):
 
 def import_latex(output: Path = OUTPUT) -> int:
     """Locate installed sources and generate a deterministic UTF-8 TSV."""
+    executable = shutil.which("kpsewhich")
+    if executable is None:
+        raise FileNotFoundError("kpsewhich executable not found on PATH")
     sources = {}
     for filename in (
         "fontmath.ltx",
@@ -238,7 +242,10 @@ def import_latex(output: Path = OUTPUT) -> int:
         "unicode-math-table.tex",
         "unicode-math-luatex.sty",
     ):
-        location = subprocess.check_output(["kpsewhich", filename], text=True).strip()
+        # The resolved executable and source filenames are controlled by this importer.
+        location = subprocess.check_output(  # noqa: S603
+            [executable, filename], text=True
+        ).strip()
         if not location:
             raise FileNotFoundError(f"kpsewhich could not find {filename}")
         raw = Path(location).read_bytes()
@@ -264,6 +271,7 @@ def import_latex(output: Path = OUTPUT) -> int:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """Import LaTeX mappings into a TSV using command-line options."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args(argv)

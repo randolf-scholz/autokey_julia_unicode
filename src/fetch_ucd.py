@@ -37,7 +37,8 @@ def normalize_version(version: str) -> str:
 def download(url: str) -> bytes:
     """Download a file, raising on HTTP errors, timeouts, or empty responses."""
     print(f"Downloading {url}", flush=True)
-    with urlopen(url, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:
+    # Release URLs use the fixed HTTPS Unicode host and validated versions.
+    with urlopen(url, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:  # noqa: S310
         data = response.read()
     if not data:
         raise ValueError(f"Empty response from {url}")
