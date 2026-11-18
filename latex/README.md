@@ -88,23 +88,23 @@ b901badb8469dc6b004d51e5fd5706f761d000972ade219b57ac01731504a94f  unicode-math-l
 Regenerate from an installation containing the LaTeX base and `unicode-math`:
 
 ```bash
-uv run python src/export_latex.py
+uv run python src/import_latex.py
 ```
 
-The exporter prints the input hashes and sorts rows by numeric code-point
+The importer prints the input hashes and sorts rows by numeric code-point
 sequence, then by LaTeX expression and mode to break ties. It writes columns
 in the order `code_points`, `chars`, `mode`, `latex_code`.
 To compare another installation
 without replacing the checked-in snapshot:
 
 ```bash
-uv run python src/export_latex.py --output /tmp/latex2e.tsv
+uv run python src/import_latex.py --output /tmp/latex2e.tsv
 ```
 
 Structural and mapping checks run without TeX installed:
 
 ```bash
-uv run python -m unittest tests.test_export_latex
+uv run python -m unittest tests.test_import_latex
 tombi lint --offline latex/schema.toml
 ```
 
