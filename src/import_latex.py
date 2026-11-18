@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Import base LaTeX symbol mappings from an installed TeX distribution.
 
-Requires kpsewhich and the LaTeX base and unicode-math source tables.
+Requires the LaTeX base and unicode-math source tables, and kpsewhich unless
+--source-dir is provided.
 unicode-math supplies Unicode identities, not the inventory of base commands.
 See data/latex/README.md for the exact coverage and encoding assumptions.
 """
@@ -254,12 +255,10 @@ def merge_math_and_text_mappings(
             yield LatexMapping(points, value, mode, name)
 
 
-def import_latex(output: Path = OUTPUT) -> int:
-    """Locate installed sources and generate a deterministic UTF-8 TSV."""
-    # Use the TeX distribution's resolver to locate its installed source files.
-    executable = shutil.which("kpsewhich")
-    if executable is None:
-        raise FileNotFoundError("kpsewhich executable not found on PATH")
+def import_latex(output: Path = OUTPUT, *, source_dir: Path | None = None) -> int:
+    """Generate a deterministic UTF-8 TSV from local or installed TeX sources."""
+    # Resolve installed sources only when no explicit source directory is given.
+    executable = shutil.which("kpsewhich") if source_dir is None else None
 
     sources = {}
     for filename in (
@@ -269,15 +268,21 @@ def import_latex(output: Path = OUTPUT) -> int:
         "unicode-math-table.tex",
         "unicode-math-luatex.sty",
     ):
-        # The resolved executable and source filenames are controlled by this importer.
-        location = subprocess.check_output(  # noqa: S603
-            [executable, filename], text=True
-        ).strip()
-        if not location:
-            raise FileNotFoundError(f"kpsewhich could not find {filename}")
+        if source_dir is not None:
+            source = source_dir / filename
+        else:
+            if executable is None:
+                raise FileNotFoundError("kpsewhich executable not found on PATH")
+            # The executable and source filenames are controlled by this importer.
+            location = subprocess.check_output(  # noqa: S603
+                [executable, filename], text=True
+            ).strip()
+            if not location:
+                raise FileNotFoundError(f"kpsewhich could not find {filename}")
+            source = Path(location)
 
         # Report hashes of the original sources before stripping TeX comments.
-        raw = Path(location).read_bytes()
+        raw = source.read_bytes()
         print(f"{filename}: SHA256 {hashlib.sha256(raw).hexdigest()}")
         sources[filename] = without_comments(raw.decode("utf-8"))
 
@@ -310,8 +315,14 @@ def main(argv: Sequence[str] | None = None) -> int:
     """Import LaTeX mappings into a TSV using command-line options."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
+    parser.add_argument(
+        "--source-dir",
+        type=Path,
+        help="Read TeX sources here instead of using kpsewhich",
+    )
     args = parser.parse_args(argv)
-    print(f"Imported {import_latex(args.output)} mappings to {args.output}")
+    count = import_latex(args.output, source_dir=args.source_dir)
+    print(f"Imported {count} mappings to {args.output}")
     return 0
 
 
