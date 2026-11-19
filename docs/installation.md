@@ -59,6 +59,10 @@ for disposable generated files and the installation log. Keep source files and i
 are removed without following them. Each builder creates a fresh collection directory and fails if
 its name is already in use. Icon collections use `build/autokey/<source-folder>/`.
 
+By default, `data/icons/julia/` and `data/icons/custom/` supply the icon collections.
+Pass other collection roots as positional arguments; each immediate subdirectory
+becomes a collection combining its `*.tsv` files, with duplicate checks per collection.
+
 `build_assets()` builds every collection, including all special characters. It does
 not prompt or modify an AutoKey installation; the send mode and duplicate policy
 are supplied by the caller.
@@ -96,7 +100,7 @@ use `--verbose` to show those details on the console too.
 Each TSV produces one summary starting with its filename, for example:
 
 ```text
-INFO: icons/custom_unicode/arrows.tsv: 34 phrases, 0 skipped, 0 duplicate characters skipped.
+INFO: data/icons/custom/arrows.tsv: 34 phrases, 0 skipped, 0 duplicate characters skipped.
 ```
 
 On terminals, paths are blue and created counts are green. Nonzero skipped
@@ -113,24 +117,24 @@ It is not copied into AutoKey's installation directory.
 
 ### LaTeX snippets
 
-LaTeX snippets are stored in `src/assets/latex_snippets/*.toml`, with `abbreviation.abbreviations`
+LaTeX snippets are stored in `data/autokey/latex_snippets/*.toml`, with `abbreviation.abbreviations`
 and a literal multiline `payload`. The installer removes the payload and recursively merges the
-remaining overrides with `src/assets/templates/phrase.json`, defaulting the description to the
+remaining overrides with `data/autokey/templates/phrase.json`, defaulting the description to the
 filename stem and applying the selected send mode. The template leaves `description`, `sendMode`,
 and `abbreviation.abbreviations` null until generation supplies them. The resulting `.txt` and
 `.json` files are built in `build/autokey/latex_snippets/`.
 
 ### Special characters
 
-Special characters use the same TOML format in `src/assets/special_chars/`. Their generated files
+Special characters use the same TOML format in `data/autokey/special_chars/`. Their generated files
 are built in `build/autokey/special_chars/` with source filenames such as `tabulator.txt` and
 `newline.txt`. Both are always built. Installation asks about each individually
 and includes only the selected payload/metadata pairs.
 
 ### Custom scripts
 
-Custom scripts keep their Python code in `src/assets/custom_scripts/*.py`. Each corresponding
-`.toml` file contains only metadata overrides for `src/assets/templates/script.json`. Nested
+Custom scripts keep their Python code in `data/autokey/custom_scripts/*.py`. Each corresponding
+`.toml` file contains only metadata overrides for `data/autokey/templates/script.json`. Nested
 dictionaries are merged recursively; lists and scalar values replace template defaults. The template
 leaves `description` and `abbreviation.abbreviations` null, so each script must supply them. The
 installer builds the Python and merged JSON files in `build/autokey/custom_scripts/`.
@@ -154,11 +158,11 @@ The bundled tables can be installed without refreshing them. To update them,
 run these recipes from the repository root:
 
 | Command | Reads | Writes |
-| ------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| --- | --- | --- |
 | `just fetch-ucd --version 18` | A release from unicode.org | Upstream files in `third_party/ucd/` |
-| `just import-ucd` | Local files in `third_party/ucd/` | Block tables in `icons/ucd/`, plus `icons/blocks.tsv` and `icons/unicode.tsv` |
-| `just import-julia` | The installed Julia's LaTeX and emoji completions, plus local UCD names | `icons/julia_unicode/icons-<julia-version>.local.tsv` |
-| `just import-latex` | An installed TeX distribution with the LaTeX base and `unicode-math` sources | `latex/latex2e.tsv` |
+| `just import-ucd` | Local files in `third_party/ucd/` | Block tables in `data/ucd/blocks/`, plus `data/ucd/blocks.tsv` and `data/ucd/unicode.tsv` |
+| `just import-julia` | The installed Julia's LaTeX and emoji completions, plus local UCD names | `data/icons/julia/icons-julia-<julia-version>.local.tsv` |
+| `just import-latex` | An installed TeX distribution with the LaTeX base and `unicode-math` sources | `data/latex/latex2e.tsv` |
 
 `fetch-ucd` downloads upstream files; the `import-*` recipes convert source data
 into this project's tables. Fetch the UCD before importing it or refreshing the
@@ -167,13 +171,13 @@ Julia tables when updating Unicode data. `fetch-ucd` also accepts `--version lat
 Each recipe forwards arguments to its matching script in `src/`, for example
 `just import-latex --output /tmp/latex2e.tsv`. The Python recipes use the same
 interpreter selection as `just install`. See the [UCD notes](../third_party/README.md),
-[Julia table notes](../icons/README.md#julia-unicode-icons), and [LaTeX mapping notes](../latex/README.md)
+[Julia table notes](../data/icons/README.md#julia-unicode-icons), and [LaTeX mapping notes](../data/latex/README.md)
 for details.
 
 ## Validation and tests
 
 Run all tests with `just test`, or select files with a quoted filename glob such
 as `just test 'test_import_*'`. Validate the icon tables with
-`just validate 'icons/julia_unicode/icons-*.tsv'`.
+`just validate 'data/icons/julia/*.tsv'` (default schema: `data/schemas/icons.toml`).
 
 See [Contributing](../CONTRIBUTING.md) for development environment setup and the full test workflow.
