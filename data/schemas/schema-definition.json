@@ -8,6 +8,7 @@
     "properties": {
         "format": {
             "type": "object",
+            "additionalProperties": true,
             "required": ["required_columns"],
             "properties": {
                 "required_columns": {
