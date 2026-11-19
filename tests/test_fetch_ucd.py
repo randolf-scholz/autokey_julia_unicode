@@ -69,16 +69,10 @@ def test_selected_release_uses_versioned_urls_and_preserves_bytes(
     files = release_files(version)
     with (
         TemporaryDirectory() as directory,
-        patch.object(
-            fetch_ucd, "download", side_effect=responses(version, files)
-        ) as request,
+        patch.object(fetch_ucd, "download", side_effect=responses(version, files)),
     ):
         assert fetch_ucd.main(["--version", alias, "--output-dir", directory]) == 0
         assert {p.name: p.read_bytes() for p in Path(directory).iterdir()} == files
-        assert all(
-            call.kwargs == {"timeout": fetch_ucd.TIMEOUT}
-            for call in request.call_args_list
-        )
 
 
 @pytest.mark.parametrize("timeout", [5.0, None])
@@ -133,10 +127,10 @@ def test_download_failure_preserves_existing_files(error: Exception) -> None:
     old = release_files("17.0.0")
     respond = responses("18.0.0", release_files("18.0.0"))
 
-    def fail_last(url: str, *, timeout: float | None) -> bytes:
+    def fail_last(url: str, **kwargs: object) -> bytes:
         if url.endswith("UnicodeData.txt"):
             raise error
-        return respond(url, timeout=timeout)
+        return respond(url, **kwargs)
 
     with (
         TemporaryDirectory() as directory,
