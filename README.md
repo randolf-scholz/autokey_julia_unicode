@@ -46,22 +46,32 @@ See the [technical installation guide](docs/installation.md) for options, build 
 
 ## Choosing a font
 
-For a monospaced editor font with good mathematical Unicode coverage, try:
+Use [Programming Fonts](https://www.programmingfonts.org/) to compare editor
+fonts in the browser. Paste in the [Unicode font demo](docs/demo.md), then
+open the sample file as plain text in your own editor to check glyph shapes,
+combining marks, and character widths. The [font guide](docs/fonts.md) explains
+what to inspect and records previous comparison results.
+
+For mathematical code and notes, try these monospaced fonts:
 
 - [JuliaMono](https://juliamono.netlify.app/): our first recommendation for
   mathematical code and notes, with broad coverage of Greek letters,
   mathematical operators, and styled mathematical alphabets.
-- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd/): an
-  alternative with broad symbol coverage, including the Mathematical Operators
-  block; coverage of styled Mathematical Alphanumeric Symbols is partial.
+- [PragmataPro Mono](https://fsd.it/shop/fonts/pragmatapro/): a commercial
+  alternative with extensive mathematical symbol and
+  [styled alphabet coverage](https://fsd.it/pragmatapro/All_chars.txt).
+  Choose the full Mono family for fixed-width text; the Essential edition has
+  reduced character coverage.
+- [Iosevka](https://github.com/be5invis/Iosevka): a customizable alternative
+  with Greek letters and many mathematical symbols. Consult its
+  [character specimen](https://typeof.net/Iosevka/specimen) and check the styled
+  mathematical alphabets you need in your installed version.
 
-Open the [Unicode font samples](docs/fonts.md) as plain text in your preferred
-editor and select the font you want to use. The samples help you inspect Greek
-letters, mathematical symbols, combining marks, and character widths.
-
-[Programming Fonts](https://www.programmingfonts.org/) also lets you compare
-fonts in the browser. Paste the character samples there, then check how they
-look in your own editor.
+For styled letters such as `𝐀`, `𝑥`, `𝔸`, and `𝛼` (Mathematical Alphanumeric
+Symbols, U+1D400–U+1D7FF), prefer JuliaMono or the full PragmataPro Mono.
+Coverage depends on the font version and style, and applications can silently
+substitute fallback fonts. See [checking installed font coverage](docs/fonts.md#checking-installed-font-coverage)
+for Linux commands to check whether a font contains a particular character.
 
 ## Features
 

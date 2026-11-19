@@ -1,16 +1,65 @@
-# Unicode Font Samples
+# Choosing and Checking Fonts
 
-Open this file as plain text in your preferred editor and select the font you
+Open the [Unicode font demo](demo.md) as plain text in your preferred editor and select the font you
 want to inspect. Check for missing glyphs, misplaced combining marks, and
 inconsistent character widths. A Markdown preview may use a different font from
 the editor, so inspect the source text when evaluating your editor's font.
 
-You can also copy the [character samples](#character-samples) into
+You can also copy the [character samples](demo.md#character-samples) into
 [Programming Fonts](https://www.programmingfonts.org/) to compare fonts in the
 browser. Check the result in your own editor as well.
 
-This is a manual visual reference. The comparison results below record previous
+See the [font recommendations](../README.md#choosing-a-font) for suggested
+monospaced fonts for mathematical code and notes.
+
+The comparison results below record previous
 observations and may vary with the font version, editor, and fallback fonts.
+
+## Checking installed font coverage
+
+On Linux, use `fc-list` from [Fontconfig](https://fontconfig.pages.freedesktop.org/fontconfig/fontconfig-user.html)
+to list installed fonts containing a character. Supply its hexadecimal Unicode
+code point without the `U+` prefix. For example, `𝛼` (mathematical italic small
+alpha) is U+1D6FC; ordinary `α` is a different character, U+03B1.
+
+```bash
+# All installed font faces containing 𝛼 (U+1D6FC).
+fc-list ':charset=1d6fc' family style file
+
+# Only faces in the JuliaMono family containing that character.
+fc-list 'JuliaMono:charset=1d6fc' family style file
+
+# Restrict the query to a style as well.
+fc-list 'JuliaMono:style=Regular:charset=1d6fc' family style file
+
+# Faces containing ALL of these: 𝐀, 𝑥, 𝔸, 𝛼.
+fc-list ':charset=1d400 1d465 1d538 1d6fc' family style file
+```
+
+Replace `JuliaMono` with the installed family name. Output identifies matching
+families, styles, and font files; no output means no installed face matches all
+the requested properties. To distinguish a missing font from a missing glyph,
+list its installed faces without the character filter:
+
+```bash
+fc-list 'JuliaMono' family style file
+```
+
+For a yes/no check in Bash, use `--quiet`, which returns exit status 1 when
+there is no match (`fc-list` normally succeeds even with no output):
+
+```bash
+if fc-list --quiet 'JuliaMono:charset=1d6fc'; then
+    echo 'An installed JuliaMono face contains 𝛼.'
+else
+    echo 'No installed JuliaMono face contains 𝛼.'
+fi
+```
+
+`fc-match` finds the closest available font and can return a substitute, so its
+output alone does not prove that the requested font contains the character.
+These queries check encoded character coverage; use the [demo](demo.md) to judge
+appearance, spacing, and combining-mark placement in your editor.
 
 ## What to inspect
 
@@ -29,8 +78,8 @@ We inspect visual quality:
 
 ### Mono-spacing tests
 
-1. Arrows: We compare the lengths of 16x arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against the
-   lengths of 8x of the `long` versions of these arrows.
+1. Arrows: We compare rows of 12 arrows `\rightarrow`, `\mapsto`, `\leadsto` and `\leftrightarrow` against
+   rows of 12 of the `long` versions of these arrows in the [demo](demo.md#character-samples).
    In this test, we value consistency:
 
    - Full marks `✅️✅️` if all long arrows are the same length and all short arrows are the same length.
@@ -59,122 +108,6 @@ We inspect visual quality:
 | JuliaMono      | ✅️✅️  | ✅️✅️        | ✅️✅️        | ugly          | ✅️             | ✅️        | ✅️      | ✅️✅️  | ❌️   | ✅️  | ❓️       |
 | Noto Mono      | ❌️    | ✅️✅️        | ✅️          | neat          | ❌️             | ❌️        | ❌️      | ❌️    | ✅️   | ✅️  | ❓️       |
 | Unifont EX     | ✅️✅️  | ✅️✅️        | ✅️✅️        | neat          | ❌️             | ✅️        | ✅️      | ✅️✅️  | ❌️   | ✅️  | ❓️       |
-
-## Character Variants
-
-| char | bf | it | bi | tt | bb | scr | bscr | frak | bfrak |
-|------|----|----|----|----|----|-----|------|------|-------|
-| N    | 𝐍  | 𝑁  | 𝑵  | 𝙽  | ℕ  | 𝒩   | 𝓝    | 𝔑    | 𝕹     |
-| Z    | 𝐙  | 𝑍  | 𝒁  | 𝚉  | ℤ  | 𝒵   | 𝓩    | ℨ    | 𝖅     |
-| Q    | 𝐐  | 𝑄  | 𝑸  | 𝚀  | ℚ  | 𝒬   | 𝓠    | 𝔔    | 𝕼     |
-| R    | 𝐑  | 𝑅  | 𝑹  | 𝚁  | ℝ  | ℛ   | 𝓡    | ℜ    | 𝕽     |
-| C    | 𝐂  | 𝐶  | 𝑪  | 𝙲  | ℂ  | 𝒞   | 𝓒    | ℭ    | 𝕮     |
-| L    | 𝐋  | 𝐿  | 𝑳  | 𝙻  | 𝕃  | ℒ   | 𝓛    | 𝔏    | 𝕷     |
-| X    | 𝐗  | 𝑋  | 𝑿  | 𝚇  | 𝕏  | 𝒳   | 𝓧    | 𝔛    | 𝖃     |
-
-## Character samples
-
-```tex
-% special characters
-â é ù ï ø ç Ã Ē Æ œ
-
-% dingbats
-✀✁✂✃✄✅️✆✇✈✉✊✋✌✍✎✏✐✑✒✓✔✕✖✗✘✙✚✛✜✝✞✟✠✡✢✣✤✥✦✧✨✩✪✫✬✭✮✯✰✱✲✳✴✵✶✷✸✹✺✻✼✽
-✾✿❀❁❂❃❄❅❆❇❈❉❊❋❌️❍❎❏❐❑❒❓❔❕❖❗❘❙❚❛❜❝❞❟❠❡❢❣❤❥❦❧❨❩❪❫❬❭❮❯❰❱❲❳❴❵❶❷❸❹❺❻❼❽❾❿
-➀➁➂➃➄➅➆➇➈➉➊➋➌➍➎➏➐➑➒➓➔➕➖➗➘➙➚➛➜➝➞➟➠➡➢➣➤➥➦➧➨➩➪➫➬➭➮➯➰➱➲➳➴➵➶➷➸➹➺➻➼➽➾➿
-
-% miscellanea
-☀☁☂☃☄★☆☇☈☉☊☋☌☍☎☏☐☑☒☓☔☕☖☗☘☙☚☛☜☝☞☟☠☡☢☣☤☥☦☧☨☩☪☫☬☭☮☯☰☱☲☳☴☵☶☷☸☹☺☻☼☽☾☿♀♁♂♃♄♅♆♇
-♈♉♊♋♌♍♎♏♐♑♒♓♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧♨♩♪♫♬♭♮♯♰♱♲♳♴♵♶♷♸♹♺♻♼♽♾♿⚀⚁⚂⚃⚄⚅⚆⚇⚈⚉⚊⚋⚌⚍⚎⚏⚐⚑⚒⚓
-⚔⚕⚖⚗⚘⚙⚚⚛⚜⚝⚞⚟⚠⚡⚢⚣⚤⚥⚦⚧⚨⚩⚪⚫⚬⚭⚮⚯⚰⚱⚲⚳⚴⚵⚶⚷⚸⚹⚺⚻⚼⚽⚾⚿⛀⛁⛂⛃⛄⛅⛆⛇⛈⛉⛊⛋⛌⛍⛎⛏⛐⛑⛒⛓
-⛔⛕⛖⛗⛘⛙⛚⛛⛜⛝⛞⛟⛠⛡⛢⛣⛤⛥⛦⛧⛨⛩⛪⛫⛬⛭⛮⛯⛰⛱⛲⛳⛴⛵⛶⛷⛸⛹⛺⛻⛼⛽⛾⛿
-
-% misc technical
-⌀⌁⌂⌃⌄⌅⌆⌇⌈⌉⌊⌋⌌⌍⌎⌏⌐⌑⌒⌓⌔⌕⌖⌗⌘⌙⌚⌛⌜⌝⌞⌟⌠⌡⌢⌣⌤⌥⌦⌧⌨〈〉⌫⌬⌭⌮⌯⌰⌱⌲⌳⌴⌵⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋⍌⍍
-⍎⍏⍐⍑⍒⍓⍔⍕⍖⍗⍘⍙⍚⍛⍜⍝⍞⍟⍠⍡⍢⍣⍤⍥⍦⍧⍨⍩⍪⍫⍬⍭⍮⍯⍰⍱⍲⍳⍴⍵⍶⍷⍸⍹⍺⍻⍼⍽⍾⍿⎀⎁⎂⎃⎄⎅⎆⎇⎈⎉⎊⎋⎌⎍⎎⎏⎐⎑⎒⎓⎔⎕⎖⎗⎘⎙⎚⎛⎜⎝⎞
-⎟⎠⎡⎢⎣⎤⎥⎦⎧⎨⎩⎪⎫⎬⎭⎮⎯⎰⎱⎲⎳⎴⎵⎶⎷⎸⎹⎺⎻⎼⎽⎾⎿⏀⏁⏂⏃⏄⏅⏆⏇⏈⏉⏊⏋⏌⏍⏎⏏⏐⏑⏒⏓⏔⏕⏖⏗⏘⏙⏚⏛⏜⏝⏞⏟⏠⏡⏢⏣⏤⏥⏦⏧⏨
-⏩⏪⏫⏬⏭⏮⏯⏰⏱⏲⏳⏴⏵⏶⏷⏸⏹⏺⏻⏼⏽⏾⏿
-
-% dingbat highlights (these should render as colored emoji)
-✅️❌️⚠️ℹ⚒️⚓️⚡️⚙️❗️❓️⛔️❄️✨️♻️
-
-% combining characters
-x⃗, ȳ, z̃, ẋ, ÿ, z⃛, x̂, y᪲
-X⃗, Ȳ, Z̃, Ẋ, Ÿ, Z⃛, X̂, Y᪲
-μ⃗, ν̄, ξ̃, μ̇, ν̈, ξ⃛, μ̂, ν᪲
-Μ⃗, Ν̄, Ξ̃, Μ̇, Ν̈, Ξ⃛, Μ̂, Ν᪲
-
-% character variants
-| char | bf | it | bi | tt | bb | scr | bscr | frak | bfrak |
-|---|---|---|---|---|---|---|---|---|---|
-| N | 𝐍 | 𝑁 | 𝑵 | 𝙽 | ℕ | 𝒩 | 𝓝 | 𝔑 | 𝕹 |
-| Z | 𝐙 | 𝑍 | 𝒁 | 𝚉 | ℤ | 𝒵 | 𝓩 | ℨ | 𝖅 |
-| Q | 𝐐 | 𝑄 | 𝑸 | 𝚀 | ℚ | 𝒬 | 𝓠 | 𝔔 | 𝕼 |
-| R | 𝐑 | 𝑅 | 𝑹 | 𝚁 | ℝ | ℛ | 𝓡 | ℜ | 𝕽 |
-| C | 𝐂 | 𝐶 | 𝑪 | 𝙲 | ℂ | 𝒞 | 𝓒 | ℭ | 𝕮 |
-| L | 𝐋 | 𝐿 | 𝑳 | 𝙻 | 𝕃 | ℒ | 𝓛 | 𝔏 | 𝕷 |
-
-% greek
-Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω
-α, β, γ, δ, ϵ, ζ, η, θ, ι, κ, λ, μ, ν, ξ, ο, π, ρ, σ, τ, υ, ϕ, χ, ψ, ω
-            ε        ϑ,    ϰ,                ϖ, ϱ, ς,       φ,
-
-% mono-space test: math
-∑∑∑∑∑∑∑∑∑∑∑∑
-∏∏∏∏∏∏∏∏∏∏∏∏
-∫∫∫∫∫∫∮∮∮∮∮∮
-∬∬∬∬∬∬∯∯∯∯∯∯
-∭∭∭∭∭∭∰∰∰∰∰∰
-⋀⋀⋀⋀⋀⋀⋀⋀⋀⋀⋀⋀
-⋁⋁⋁⋁⋁⋁⋁⋁⋁⋁⋁⋁
-⋂⋂⋂⋂⋂⋂⋂⋂⋂⋂⋂⋂
-⋃⋃⋃⋃⋃⋃⋃⋃⋃⋃⋃⋃
-⨁⨁⨁⨁⨁⨁⨁⨁⨁⨁⨁⨁
-⨂⨂⨂⨂⨂⨂⨂⨂⨂⨂⨂⨂
-
-% bigodot
-⨁⨂⨀
-
-% mono-space test: arrows (12x each)
-
-right  arrow (U+2192): →→→→→→→→→→→→
-long  rarrow (U+27F6): ⟶⟶⟶⟶⟶⟶⟶⟶⟶⟶⟶⟶
-right mapsto (U+21A6): ↦↦↦↦↦↦↦↦↦↦↦↦
-long rmapsto (U+27FC): ⟼⟼⟼⟼⟼⟼⟼⟼⟼⟼⟼⟼
-double arrow (U+2194): ↔↔↔↔↔↔↔↔↔↔↔↔
-right sarrow (U+21DD): ⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝⇝
-long  darrow (U+27F7): ⟷⟷⟷⟷⟷⟷⟷⟷⟷⟷⟷⟷
-long drarrow (U+27F9): ⟹⟹⟹⟹⟹⟹⟹⟹⟹⟹⟹⟹
-long dlarrow (U+27F8): ⟸⟸⟸⟸⟸⟸⟸⟸⟸⟸⟸⟸
-long ddarrow (U+27FA): ⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺⟺
-long srarrow (U+27FF): ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
-
-
-% mono-space test: dash
-12 times  hyphen (U+002D): ------------
-12 times 1endash (U+2013): ––––––––––––
-12 times 1emdash (U+2014): ————————————
- 6 times 2emdash (U+2E3A): ⸺⸺⸺⸺⸺⸺
- 4 times 3emdash (U+2E3B): ⸻⸻⸻⸻
-
-% mono-space test: greek subscripts
-\textsubscript{α} & — & $_{α}$ & $—$ & \textsuperscript{α} & ᵅ & $^{α}$ & $ᵅ$ \\
-\textsubscript{β} & ᵦ & $_{β}$ & $ᵦ$ & \textsuperscript{β} & ᵝ & $^{β}$ & $ᵝ$ \\
-\textsubscript{γ} & ᵧ & $_{γ}$ & $ᵧ$ & \textsuperscript{γ} & ᵞ & $^{γ}$ & $ᵞ$ \\
-\textsubscript{δ} & — & $_{δ}$ & $—$ & \textsuperscript{δ} & ᵟ & $^{δ}$ & $ᵟ$ \\
-\textsubscript{ε} & — & $_{ε}$ & $—$ & \textsuperscript{ε} & ᵋ & $^{ε}$ & $ᵋ$ \\
-\textsubscript{θ} & — & $_{θ}$ & $—$ & \textsuperscript{θ} & ᶿ & $^{θ}$ & $ᶿ$ \\
-\textsubscript{ι} & — & $_{ι}$ & $—$ & \textsuperscript{ι} & ᶥ & $^{ι}$ & $ᶥ$ \\
-\textsubscript{υ} & — & $_{υ}$ & $—$ & \textsuperscript{υ} & ᶹ & $^{υ}$ & $ᶹ$ \\
-\textsubscript{φ} & ᵩ & $_{φ}$ & $ᵩ$ & \textsuperscript{φ} & ᵠ & $^{φ}$ & $ᵠ$ \\
-\textsubscript{χ} & ᵪ & $_{χ}$ & $ᵪ$ & \textsuperscript{χ} & ᵡ & $^{χ}$ & $ᵡ$ \\
-\textsubscript{ϱ} & ᵨ & $_{ϱ}$ & $ᵨ$ & \textsuperscript{ϱ} & — & $^{ϱ}$ & $—$ \\
-```
-
-## Latin sub- and superscripts
-
-ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ 𐞥 ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ
-ₐ – – – ₑ – – ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ – ᵣ ₛ ₜ ᵤ ᵥ ₝ ₓ ₞ ₟
 
 ## References
 
