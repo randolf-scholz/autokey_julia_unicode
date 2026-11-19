@@ -33,23 +33,23 @@ overwrites their local copies only after all downloads and checks succeed:
 The license URL provides the current Unicode license, independently of the data
 release. The three UCD files retain their upstream contents and filenames.
 
-Generate the block tables in `icons/unicode_blocks` from the imported data with:
+Generate the block tables in `data/ucd/blocks/` from the imported data with:
 
 ```sh
 python src/import_ucd.py
 ```
 
 This standard-library importer writes one TSV per block using the columns and
-order in `icons/schema.toml`: `code_points`, `chars`, `tab_completions`,
-`unicode_name`, and `base`. Completion aliases and base values are empty.
+order in `data/schemas/icons.toml`: `code_points`, `chars`, `tab_completions`,
+and `unicode_name`. Completion aliases are empty.
 Unicode names retain their exact uppercase spelling; unnamed characters have
 empty names. Compressed First/Last ranges, including their endpoint records,
 are skipped to keep the symbol tables compact. Explicit mathematical symbols
 remain included. Surrogate symbols are omitted so every output file is valid
 UTF-8; blocks with no retained characters contain only the header.
 
-`icons/blocks.tsv` lists each block's inclusive hexadecimal `block_start` and
-`block_end` (without `U+`) and its `block_name`. `icons/unicode.tsv` concatenates
+`data/ucd/blocks.tsv` lists each block's inclusive hexadecimal `block_start` and
+`block_end` (without `U+`) and its `block_name`. `data/ucd/unicode.tsv` concatenates
 all block rows in code point order under a single schema header. Obsolete block
 TSVs are removed when regenerating the directory. Use `--source-dir` and
 `--output-dir` to select other input and block output directories; the two

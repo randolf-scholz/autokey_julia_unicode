@@ -73,7 +73,7 @@ uv run ruff format src tests
 Check the project configuration and table schemas with:
 
 ```sh
-uv run tombi lint --offline pyproject.toml icons/schema.toml latex/schema.toml
+uv run tombi lint --offline pyproject.toml data/schemas/icons.toml data/schemas/latex.toml
 ```
 
 Use `prek run --all-files` for the complete set of checks, including Markdown.
@@ -108,13 +108,15 @@ julia --startup-file=no tests/test_import_julia.jl
 
 Python tests use pytest's temporary directories, output capture, and parametrized
 cases. Pass command-line arguments directly to `main(argv)`; use explicit source
-and build paths for installer helpers. Interactive installation tests supply real
-stdin to subprocesses. Only HTTP requests in the UCD fetch tests are mocked.
+and build paths for installer helpers. Use small synthetic inputs rather than
+bundled tables, templates, or assets. Installer tests call `main(argv)` in process,
+patch prompt input, and redirect paths to temporary directories. Mock external
+boundaries such as HTTP requests and executable/version lookups.
 
 Keep tests focused on generated files, Unicode identities, input validation, and
 preserving existing data on failure. Avoid assertions about internal call counts,
 exact terminal colors, or unsupported hypothetical options. LaTeX parser tests use
-small source examples and validate the bundled mapping table without requiring TeX.
+small source examples and validate generated mappings without requiring TeX.
 
 To inspect generated AutoKey assets without changing an installation:
 
@@ -127,12 +129,13 @@ required for a build-only run.
 
 ## Data and documentation
 
-See the [icon documentation](icons/README.md) for collections, the TSV format,
+See the [bundled data overview](data/README.md) for the directory layout and shared
+schemas, and the [icon documentation](data/icons/README.md) for collections, the TSV format,
 and validation commands. The [technical installation guide](docs/installation.md)
 describes the installer and data refresh recipes; [third-party notes](third_party/README.md) document
-upstream sources, and [LaTeX mapping notes](latex/README.md) describe mapping
+upstream sources, and [LaTeX mapping notes](data/latex/README.md) describe mapping
 coverage and provenance.
 
-Keep documentation in the root or top-level directory READMEs instead of adding
-READMEs inside collection directories. When changing behavior, update the
+Keep documentation in the root or dataset READMEs instead of adding
+READMEs inside individual collection directories. When changing behavior, update the
 relevant documentation and [changelog](CHANGELOG.md).

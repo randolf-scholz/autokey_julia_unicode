@@ -21,7 +21,7 @@ afterwards.
   require Julia.
 
 The bundled Unicode reference data uses **Unicode 18.0.0**. Available abbreviations
-come from the [Julia and custom icon collections](icons/README.md); displaying a
+come from the [Julia and custom icon collections](data/icons/README.md); displaying a
 character requires a [font with the corresponding glyph](#choosing-a-font).
 
 ## Installation
