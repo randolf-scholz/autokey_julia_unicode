@@ -2,95 +2,95 @@ code_points	chars	tab_completions	unicode_name
 U+000A1	¡	\exclamdown	Inverted Exclamation Mark
 U+000A3	£	\sterling	Pound Sign
 U+000A5	¥	\yen	Yen Sign
-U+000A6	¦	\brokenbar	Broken Bar / Broken Vertical Bar
+U+000A6	¦	\brokenbar	Broken Bar
 U+000A7	§	\S	Section Sign
 U+000A9	©	\:copyright:, \copyright	Copyright Sign
 U+000AA	ª	\ordfeminine	Feminine Ordinal Indicator
-U+000AB	«	\guillemotleft	Left-Pointing Double Angle Quotation Mark / Left Pointing Guillemet
+U+000AB	«	\guillemotleft	Left-Pointing Double Angle Quotation Mark
 U+000AC	¬	\neg	Not Sign
-U+000AE	®	\:registered:, \circledR	Registered Sign / Registered Trade Mark Sign
-U+000AF	¯	\highminus	Macron / Spacing Macron
+U+000AE	®	\:registered:, \circledR	Registered Sign
+U+000AF	¯	\highminus	Macron
 U+000B0	°	\degree	Degree Sign
-U+000B1	±	\pm	Plus-Minus Sign / Plus-Or-Minus Sign
-U+000B2	²	\^2	Superscript Two / Superscript Digit Two
-U+000B3	³	\^3	Superscript Three / Superscript Digit Three
-U+000B6	¶	\P	Pilcrow Sign / Paragraph Sign
+U+000B1	±	\pm	Plus-Minus Sign
+U+000B2	²	\^2	Superscript Two
+U+000B3	³	\^3	Superscript Three
+U+000B6	¶	\P	Pilcrow Sign
 U+000B7	·	\cdotp	Middle Dot
-U+000B9	¹	\^1	Superscript One / Superscript Digit One
+U+000B9	¹	\^1	Superscript One
 U+000BA	º	\ordmasculine	Masculine Ordinal Indicator
-U+000BB	»	\guillemotright	Right-Pointing Double Angle Quotation Mark / Right Pointing Guillemet
-U+000BC	¼	\1/4	Vulgar Fraction One Quarter / Fraction One Quarter
-U+000BD	½	\1/2	Vulgar Fraction One Half / Fraction One Half
-U+000BE	¾	\3/4	Vulgar Fraction Three Quarters / Fraction Three Quarters
+U+000BB	»	\guillemotright	Right-Pointing Double Angle Quotation Mark
+U+000BC	¼	\1/4	Vulgar Fraction One Quarter
+U+000BD	½	\1/2	Vulgar Fraction One Half
+U+000BE	¾	\3/4	Vulgar Fraction Three Quarters
 U+000BF	¿	\questiondown	Inverted Question Mark
-U+000C5	Å	\AA	Latin Capital Letter A With Ring Above / Latin Capital Letter A Ring
-U+000C6	Æ	\AE	Latin Capital Letter Ae / Latin Capital Letter A E
+U+000C5	Å	\AA	Latin Capital Letter A With Ring Above
+U+000C6	Æ	\AE	Latin Capital Letter Ae
 U+000D0	Ð	\DH	Latin Capital Letter Eth
 U+000D7	×	\times	Multiplication Sign
-U+000D8	Ø	\O	Latin Capital Letter O With Stroke / Latin Capital Letter O Slash
+U+000D8	Ø	\O	Latin Capital Letter O With Stroke
 U+000DE	Þ	\TH	Latin Capital Letter Thorn
 U+000DF	ß	\ss	Latin Small Letter Sharp S
-U+000E5	å	\aa	Latin Small Letter A With Ring Above / Latin Small Letter A Ring
-U+000E6	æ	\ae	Latin Small Letter Ae / Latin Small Letter A E
+U+000E5	å	\aa	Latin Small Letter A With Ring Above
+U+000E6	æ	\ae	Latin Small Letter Ae
 U+000F0	ð	\dh, \eth	Latin Small Letter Eth
 U+000F7	÷	\div	Division Sign
-U+000F8	ø	\o	Latin Small Letter O With Stroke / Latin Small Letter O Slash
+U+000F8	ø	\o	Latin Small Letter O With Stroke
 U+000FE	þ	\th	Latin Small Letter Thorn
-U+00110	Đ	\DJ	Latin Capital Letter D With Stroke / Latin Capital Letter D Bar
-U+00111	đ	\dj	Latin Small Letter D With Stroke / Latin Small Letter D Bar
-U+00127	ħ	\hbar	Latin Small Letter H With Stroke / Latin Small Letter H Bar
+U+00110	Đ	\DJ	Latin Capital Letter D With Stroke
+U+00111	đ	\dj	Latin Small Letter D With Stroke
+U+00127	ħ	\hbar	Latin Small Letter H With Stroke
 U+00131	ı	\imath	Latin Small Letter Dotless I
-U+00141	Ł	\L	Latin Capital Letter L With Stroke / Latin Capital Letter L Slash
-U+00142	ł	\l	Latin Small Letter L With Stroke / Latin Small Letter L Slash
+U+00141	Ł	\L	Latin Capital Letter L With Stroke
+U+00142	ł	\l	Latin Small Letter L With Stroke
 U+0014A	Ŋ	\NG	Latin Capital Letter Eng
 U+0014B	ŋ	\ng	Latin Small Letter Eng
-U+00152	Œ	\OE	Latin Capital Ligature Oe / Latin Capital Letter O E
-U+00153	œ	\oe	Latin Small Ligature Oe / Latin Small Letter O E
-U+00195	ƕ	\hvlig	Latin Small Letter Hv / Latin Small Letter H V
+U+00152	Œ	\OE	Latin Capital Ligature Oe
+U+00153	œ	\oe	Latin Small Ligature Oe
+U+00195	ƕ	\hvlig	Latin Small Letter Hv
 U+0019E	ƞ	\nrleg	Latin Small Letter N With Long Right Leg
-U+001B5	Ƶ	\Zbar	Latin Capital Letter Z With Stroke / Latin Capital Letter Z Bar
-U+001C2	ǂ	\doublepipe	Latin Letter Alveolar Click / Latin Letter Pipe Double Bar
+U+001B5	Ƶ	\Zbar	Latin Capital Letter Z With Stroke
+U+001C2	ǂ	\doublepipe	Latin Letter Alveolar Click
 U+00237	ȷ	\jmath	Latin Small Letter Dotless J
 U+00250	ɐ	\trna	Latin Small Letter Turned A
-U+00252	ɒ	\trnsa	Latin Small Letter Turned Alpha / Latin Small Letter Turned Script A
+U+00252	ɒ	\trnsa	Latin Small Letter Turned Alpha
 U+00254	ɔ	\openo	Latin Small Letter Open O
-U+00256	ɖ	\rtld	Latin Small Letter D With Tail / Latin Small Letter D Retroflex Hook
+U+00256	ɖ	\rtld	Latin Small Letter D With Tail
 U+00259	ə	\schwa	Latin Small Letter Schwa
 U+00263	ɣ	\pgamma	Latin Small Letter Gamma
-U+00264	ɤ	\pbgam	Latin Small Letter Rams Horn / Latin Small Letter Baby Gamma
+U+00264	ɤ	\pbgam	Latin Small Letter Rams Horn
 U+00265	ɥ	\trnh	Latin Small Letter Turned H
-U+0026C	ɬ	\btdl	Latin Small Letter L With Belt / Latin Small Letter L Belt
-U+0026D	ɭ	\rtll	Latin Small Letter L With Retroflex Hook / Latin Small Letter L Retroflex Hook
+U+0026C	ɬ	\btdl	Latin Small Letter L With Belt
+U+0026D	ɭ	\rtll	Latin Small Letter L With Retroflex Hook
 U+0026F	ɯ	\trnm	Latin Small Letter Turned M
 U+00270	ɰ	\trnmlr	Latin Small Letter Turned M With Long Leg
-U+00271	ɱ	\ltlmr	Latin Small Letter M With Hook / Latin Small Letter M Hook
-U+00272	ɲ	\ltln	Latin Small Letter N With Left Hook / Latin Small Letter N Hook
-U+00273	ɳ	\rtln	Latin Small Letter N With Retroflex Hook / Latin Small Letter N Retroflex Hook
+U+00271	ɱ	\ltlmr	Latin Small Letter M With Hook
+U+00272	ɲ	\ltln	Latin Small Letter N With Left Hook
+U+00273	ɳ	\rtln	Latin Small Letter N With Retroflex Hook
 U+00277	ɷ	\clomeg	Latin Small Letter Closed Omega
 U+00278	ɸ	\ltphi	Latin Small Letter Phi
 U+00279	ɹ	\trnr	Latin Small Letter Turned R
 U+0027A	ɺ	\trnrl	Latin Small Letter Turned R With Long Leg
-U+0027B	ɻ	\rttrnr	Latin Small Letter Turned R With Hook / Latin Small Letter Turned R Hook
+U+0027B	ɻ	\rttrnr	Latin Small Letter Turned R With Hook
 U+0027C	ɼ	\rl	Latin Small Letter R With Long Leg
-U+0027D	ɽ	\rtlr	Latin Small Letter R With Tail / Latin Small Letter R Hook
-U+0027E	ɾ	\fhr	Latin Small Letter R With Fishhook / Latin Small Letter Fishhook R
-U+00282	ʂ	\rtls	Latin Small Letter S With Hook / Latin Small Letter S Hook
+U+0027D	ɽ	\rtlr	Latin Small Letter R With Tail
+U+0027E	ɾ	\fhr	Latin Small Letter R With Fishhook
+U+00282	ʂ	\rtls	Latin Small Letter S With Hook
 U+00283	ʃ	\esh	Latin Small Letter Esh
 U+00287	ʇ	\trnt	Latin Small Letter Turned T
-U+00288	ʈ	\rtlt	Latin Small Letter T With Retroflex Hook / Latin Small Letter T Retroflex Hook
+U+00288	ʈ	\rtlt	Latin Small Letter T With Retroflex Hook
 U+0028A	ʊ	\pupsil	Latin Small Letter Upsilon
-U+0028B	ʋ	\pscrv	Latin Small Letter V With Hook / Latin Small Letter Script V
+U+0028B	ʋ	\pscrv	Latin Small Letter V With Hook
 U+0028C	ʌ	\invv	Latin Small Letter Turned V
 U+0028D	ʍ	\invw	Latin Small Letter Turned W
 U+0028E	ʎ	\trny	Latin Small Letter Turned Y
-U+00290	ʐ	\rtlz	Latin Small Letter Z With Retroflex Hook / Latin Small Letter Z Retroflex Hook
-U+00292	ʒ	\yogh	Latin Small Letter Ezh / Latin Small Letter Yogh
+U+00290	ʐ	\rtlz	Latin Small Letter Z With Retroflex Hook
+U+00292	ʒ	\yogh	Latin Small Letter Ezh
 U+00294	ʔ	\glst	Latin Letter Glottal Stop
-U+00295	ʕ	\reglst	Latin Letter Pharyngeal Voiced Fricative / Latin Letter Reversed Glottal Stop
+U+00295	ʕ	\reglst	Latin Letter Pharyngeal Voiced Fricative
 U+00296	ʖ	\inglst	Latin Letter Inverted Glottal Stop
 U+0029E	ʞ	\turnk	Latin Small Letter Turned K
-U+002A4	ʤ	\dyogh	Latin Small Letter Dezh Digraph / Latin Small Letter D Yogh
-U+002A7	ʧ	\tesh	Latin Small Letter Tesh Digraph / Latin Small Letter T Esh
+U+002A4	ʤ	\dyogh	Latin Small Letter Dezh Digraph
+U+002A7	ʧ	\tesh	Latin Small Letter Tesh Digraph
 U+002B0	ʰ	\^h	Modifier Letter Small H
 U+002B2	ʲ	\^j	Modifier Letter Small J
 U+002B3	ʳ	\^r	Modifier Letter Small R
@@ -101,43 +101,43 @@ U+002C8	ˈ	\verts	Modifier Letter Vertical Line
 U+002CC	ˌ	\verti	Modifier Letter Low Vertical Line
 U+002D0	ː	\lmrk	Modifier Letter Triangular Colon
 U+002D1	ˑ	\hlmrk	Modifier Letter Half Triangular Colon
-U+002D2	˒	\sbrhr	Modifier Letter Centred Right Half Ring / Modifier Letter Centered Right Half Ring
-U+002D3	˓	\sblhr	Modifier Letter Centred Left Half Ring / Modifier Letter Centered Left Half Ring
+U+002D2	˒	\sbrhr	Modifier Letter Centred Right Half Ring
+U+002D3	˓	\sblhr	Modifier Letter Centred Left Half Ring
 U+002D4	˔	\rais	Modifier Letter Up Tack
 U+002D5	˕	\low	Modifier Letter Down Tack
-U+002D8	˘	\u	Breve / Spacing Breve
-U+002DC	˜	\tildelow	Small Tilde / Spacing Tilde
+U+002D8	˘	\u	Breve
+U+002DC	˜	\tildelow	Small Tilde
 U+002E1	ˡ	\^l	Modifier Letter Small L
 U+002E2	ˢ	\^s	Modifier Letter Small S
 U+002E3	ˣ	\^x	Modifier Letter Small X
 U+002F1	˱	\_<	Modifier Letter Low Left Arrowhead
 U+002F2	˲	\_>	Modifier Letter Low Right Arrowhead
-U+00300	̀	\grave	Combining Grave Accent / Non-Spacing Grave
-U+00301	́	\acute	Combining Acute Accent / Non-Spacing Acute
-U+00302	̂	\hat	Combining Circumflex Accent / Non-Spacing Circumflex
-U+00303	̃	\tilde	Combining Tilde / Non-Spacing Tilde
-U+00304	̄	\bar	Combining Macron / Non-Spacing Macron
-U+00305	̅	\overbar	Combining Overline / Non-Spacing Overscore
-U+00306	̆	\breve	Combining Breve / Non-Spacing Breve
-U+00307	̇	\dot	Combining Dot Above / Non-Spacing Dot Above
-U+00308	̈	\ddot	Combining Diaeresis / Non-Spacing Diaeresis
-U+00309	̉	\ovhook	Combining Hook Above / Non-Spacing Hook Above
-U+0030A	̊	\ocirc	Combining Ring Above / Non-Spacing Ring Above
-U+0030B	̋	\H	Combining Double Acute Accent / Non-Spacing Double Acute
-U+0030C	̌	\check	Combining Caron / Non-Spacing Hacek
-U+00310	̐	\candra	Combining Candrabindu / Non-Spacing Candrabindu
-U+00312	̒	\oturnedcomma	Combining Turned Comma Above / Non-Spacing Turned Comma Above
-U+00315	̕	\ocommatopright	Combining Comma Above Right / Non-Spacing Comma Above Right
-U+0031A	̚	\droang	Combining Left Angle Above / Non-Spacing Left Angle Above
-U+00321	̡	\palh	Combining Palatalized Hook Below / Non-Spacing Palatalized Hook Below
-U+00322	̢	\rh	Combining Retroflex Hook Below / Non-Spacing Retroflex Hook Below
-U+00327	̧	\c	Combining Cedilla / Non-Spacing Cedilla
-U+00328	̨	\k	Combining Ogonek / Non-Spacing Ogonek
-U+0032A	̪	\sbbrg	Combining Bridge Below / Non-Spacing Bridge Below
-U+00330	̰	\wideutilde	Combining Tilde Below / Non-Spacing Tilde Below
-U+00332	̲	\underbar	Combining Low Line / Non-Spacing Underscore
-U+00336	̶	\sout, \strike	Combining Long Stroke Overlay / Non-Spacing Long Bar Overlay
-U+00338	̸	\not	Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+00300	̀	\grave	Combining Grave Accent
+U+00301	́	\acute	Combining Acute Accent
+U+00302	̂	\hat	Combining Circumflex Accent
+U+00303	̃	\tilde	Combining Tilde
+U+00304	̄	\bar	Combining Macron
+U+00305	̅	\overbar	Combining Overline
+U+00306	̆	\breve	Combining Breve
+U+00307	̇	\dot	Combining Dot Above
+U+00308	̈	\ddot	Combining Diaeresis
+U+00309	̉	\ovhook	Combining Hook Above
+U+0030A	̊	\ocirc	Combining Ring Above
+U+0030B	̋	\H	Combining Double Acute Accent
+U+0030C	̌	\check	Combining Caron
+U+00310	̐	\candra	Combining Candrabindu
+U+00312	̒	\oturnedcomma	Combining Turned Comma Above
+U+00315	̕	\ocommatopright	Combining Comma Above Right
+U+0031A	̚	\droang	Combining Left Angle Above
+U+00321	̡	\palh	Combining Palatalized Hook Below
+U+00322	̢	\rh	Combining Retroflex Hook Below
+U+00327	̧	\c	Combining Cedilla
+U+00328	̨	\k	Combining Ogonek
+U+0032A	̪	\sbbrg	Combining Bridge Below
+U+00330	̰	\wideutilde	Combining Tilde Below
+U+00332	̲	\underbar	Combining Low Line
+U+00336	̶	\sout, \strike	Combining Long Stroke Overlay
+U+00338	̸	\not	Combining Long Solidus Overlay
 U+0034D	͍	\underleftrightarrow	Combining Left Right Arrow Below
 U+00391	Α	\Alpha	Greek Capital Letter Alpha
 U+00392	Β	\Beta	Greek Capital Letter Beta
@@ -149,7 +149,7 @@ U+00397	Η	\Eta	Greek Capital Letter Eta
 U+00398	Θ	\Theta	Greek Capital Letter Theta
 U+00399	Ι	\Iota	Greek Capital Letter Iota
 U+0039A	Κ	\Kappa	Greek Capital Letter Kappa
-U+0039B	Λ	\Lambda	Greek Capital Letter Lamda / Greek Capital Letter Lambda
+U+0039B	Λ	\Lambda	Greek Capital Letter Lamda
 U+0039C	Μ	\Mu	Greek Capital Letter Mu
 U+0039D	Ν	\Nu	Greek Capital Letter Nu
 U+0039E	Ξ	\Xi	Greek Capital Letter Xi
@@ -173,7 +173,7 @@ U+003B7	η	\eta	Greek Small Letter Eta
 U+003B8	θ	\theta	Greek Small Letter Theta
 U+003B9	ι	\iota	Greek Small Letter Iota
 U+003BA	κ	\kappa	Greek Small Letter Kappa
-U+003BB	λ	\lambda	Greek Small Letter Lamda / Greek Small Letter Lambda
+U+003BB	λ	\lambda	Greek Small Letter Lamda
 U+003BC	μ	\mu	Greek Small Letter Mu
 U+003BD	ν	\nu	Greek Small Letter Nu
 U+003BE	ξ	\xi	Greek Small Letter Xi
@@ -188,22 +188,22 @@ U+003C6	φ	\varphi	Greek Small Letter Phi
 U+003C7	χ	\chi	Greek Small Letter Chi
 U+003C8	ψ	\psi	Greek Small Letter Psi
 U+003C9	ω	\omega	Greek Small Letter Omega
-U+003D0	ϐ	\varbeta	Greek Beta Symbol / Greek Small Letter Curled Beta
-U+003D1	ϑ	\vartheta	Greek Theta Symbol / Greek Small Letter Script Theta
-U+003D5	ϕ	\phi	Greek Phi Symbol / Greek Small Letter Script Phi
-U+003D6	ϖ	\varpi	Greek Pi Symbol / Greek Small Letter Omega Pi
+U+003D0	ϐ	\varbeta	Greek Beta Symbol
+U+003D1	ϑ	\vartheta	Greek Theta Symbol
+U+003D5	ϕ	\phi	Greek Phi Symbol
+U+003D6	ϖ	\varpi	Greek Pi Symbol
 U+003D8	Ϙ	\oldKoppa	Greek Letter Archaic Koppa
 U+003D9	ϙ	\oldkoppa	Greek Small Letter Archaic Koppa
-U+003DA	Ϛ	\Stigma	Greek Letter Stigma / Greek Capital Letter Stigma
+U+003DA	Ϛ	\Stigma	Greek Letter Stigma
 U+003DB	ϛ	\stigma	Greek Small Letter Stigma
-U+003DC	Ϝ	\Digamma	Greek Letter Digamma / Greek Capital Letter Digamma
+U+003DC	Ϝ	\Digamma	Greek Letter Digamma
 U+003DD	ϝ	\digamma	Greek Small Letter Digamma
-U+003DE	Ϟ	\Koppa	Greek Letter Koppa / Greek Capital Letter Koppa
+U+003DE	Ϟ	\Koppa	Greek Letter Koppa
 U+003DF	ϟ	\koppa	Greek Small Letter Koppa
-U+003E0	Ϡ	\Sampi	Greek Letter Sampi / Greek Capital Letter Sampi
+U+003E0	Ϡ	\Sampi	Greek Letter Sampi
 U+003E1	ϡ	\sampi	Greek Small Letter Sampi
-U+003F0	ϰ	\varkappa	Greek Kappa Symbol / Greek Small Letter Script Kappa
-U+003F1	ϱ	\varrho	Greek Rho Symbol / Greek Small Letter Tailed Rho
+U+003F0	ϰ	\varkappa	Greek Kappa Symbol
+U+003F1	ϱ	\varrho	Greek Rho Symbol
 U+003F4	ϴ	\varTheta	Greek Capital Theta Symbol
 U+003F5	ϵ	\epsilon	Greek Lunate Epsilon Symbol
 U+003F6	϶	\backepsilon	Greek Reversed Lunate Epsilon Symbol
@@ -266,12 +266,12 @@ U+02009	 	\thinspace	Thin Space
 U+0200A	 	\hspace	Hair Space
 U+02013	–	\endash	En Dash
 U+02014	—	\emdash	Em Dash
-U+02016	‖	\Vert	Double Vertical Line / Double Vertical Bar
-U+02018	‘	\lq	Left Single Quotation Mark / Single Turned Comma Quotation Mark
-U+02019	’	\rq	Right Single Quotation Mark / Single Comma Quotation Mark
-U+0201B	‛	\reapos	Single High-Reversed-9 Quotation Mark / Single Reversed Comma Quotation Mark
-U+0201C	“	\ldq	Left Double Quotation Mark / Double Turned Comma Quotation Mark
-U+0201D	”	\rdq	Right Double Quotation Mark / Double Comma Quotation Mark
+U+02016	‖	\Vert	Double Vertical Line
+U+02018	‘	\lq	Left Single Quotation Mark
+U+02019	’	\rq	Right Single Quotation Mark
+U+0201B	‛	\reapos	Single High-Reversed-9 Quotation Mark
+U+0201C	“	\ldq	Left Double Quotation Mark
+U+0201D	”	\rdq	Right Double Quotation Mark
 U+02020	†	\dagger	Dagger
 U+02021	‡	\ddagger	Double Dagger
 U+02022	•	\bullet	Bullet
@@ -284,43 +284,43 @@ U+02034	‴	\ppprime	Triple Prime
 U+02035	‵	\backprime	Reversed Prime
 U+02036	‶	\backpprime	Reversed Double Prime
 U+02037	‷	\backppprime	Reversed Triple Prime
-U+02039	‹	\guilsinglleft	Single Left-Pointing Angle Quotation Mark / Left Pointing Single Guillemet
-U+0203A	›	\guilsinglright	Single Right-Pointing Angle Quotation Mark / Right Pointing Single Guillemet
+U+02039	‹	\guilsinglleft	Single Left-Pointing Angle Quotation Mark
+U+0203A	›	\guilsinglright	Single Right-Pointing Angle Quotation Mark
 U+0203C	‼	\:bangbang:	Double Exclamation Mark
 U+02040	⁀	\tieconcat	Character Tie
 U+02049	⁉	\:interrobang:	Exclamation Question Mark
 U+02057	⁗	\pppprime	Quadruple Prime
 U+0205D	⁝	\tricolon	Tricolon
 U+02060	⁠	\nolinebreak	Word Joiner
-U+02070	⁰	\^0	Superscript Zero / Superscript Digit Zero
+U+02070	⁰	\^0	Superscript Zero
 U+02071	ⁱ	\^i	Superscript Latin Small Letter I
-U+02074	⁴	\^4	Superscript Four / Superscript Digit Four
-U+02075	⁵	\^5	Superscript Five / Superscript Digit Five
-U+02076	⁶	\^6	Superscript Six / Superscript Digit Six
-U+02077	⁷	\^7	Superscript Seven / Superscript Digit Seven
-U+02078	⁸	\^8	Superscript Eight / Superscript Digit Eight
-U+02079	⁹	\^9	Superscript Nine / Superscript Digit Nine
+U+02074	⁴	\^4	Superscript Four
+U+02075	⁵	\^5	Superscript Five
+U+02076	⁶	\^6	Superscript Six
+U+02077	⁷	\^7	Superscript Seven
+U+02078	⁸	\^8	Superscript Eight
+U+02079	⁹	\^9	Superscript Nine
 U+0207A	⁺	\^+	Superscript Plus Sign
-U+0207B	⁻	\^-	Superscript Minus / Superscript Hyphen-Minus
+U+0207B	⁻	\^-	Superscript Minus
 U+0207C	⁼	\^=	Superscript Equals Sign
-U+0207D	⁽	\^(	Superscript Left Parenthesis / Superscript Opening Parenthesis
-U+0207E	⁾	\^)	Superscript Right Parenthesis / Superscript Closing Parenthesis
+U+0207D	⁽	\^(	Superscript Left Parenthesis
+U+0207E	⁾	\^)	Superscript Right Parenthesis
 U+0207F	ⁿ	\^n	Superscript Latin Small Letter N
-U+02080	₀	\_0	Subscript Zero / Subscript Digit Zero
-U+02081	₁	\_1	Subscript One / Subscript Digit One
-U+02082	₂	\_2	Subscript Two / Subscript Digit Two
-U+02083	₃	\_3	Subscript Three / Subscript Digit Three
-U+02084	₄	\_4	Subscript Four / Subscript Digit Four
-U+02085	₅	\_5	Subscript Five / Subscript Digit Five
-U+02086	₆	\_6	Subscript Six / Subscript Digit Six
-U+02087	₇	\_7	Subscript Seven / Subscript Digit Seven
-U+02088	₈	\_8	Subscript Eight / Subscript Digit Eight
-U+02089	₉	\_9	Subscript Nine / Subscript Digit Nine
+U+02080	₀	\_0	Subscript Zero
+U+02081	₁	\_1	Subscript One
+U+02082	₂	\_2	Subscript Two
+U+02083	₃	\_3	Subscript Three
+U+02084	₄	\_4	Subscript Four
+U+02085	₅	\_5	Subscript Five
+U+02086	₆	\_6	Subscript Six
+U+02087	₇	\_7	Subscript Seven
+U+02088	₈	\_8	Subscript Eight
+U+02089	₉	\_9	Subscript Nine
 U+0208A	₊	\_+	Subscript Plus Sign
-U+0208B	₋	\_-	Subscript Minus / Subscript Hyphen-Minus
+U+0208B	₋	\_-	Subscript Minus
 U+0208C	₌	\_=	Subscript Equals Sign
-U+0208D	₍	\_(	Subscript Left Parenthesis / Subscript Opening Parenthesis
-U+0208E	₎	\_)	Subscript Right Parenthesis / Subscript Closing Parenthesis
+U+0208D	₍	\_(	Subscript Left Parenthesis
+U+0208E	₎	\_)	Subscript Right Parenthesis
 U+02090	ₐ	\_a	Latin Subscript Small Letter A
 U+02091	ₑ	\_e	Latin Subscript Small Letter E
 U+02092	ₒ	\_o	Latin Subscript Small Letter O
@@ -336,17 +336,17 @@ U+0209B	ₛ	\_s	Latin Subscript Small Letter S
 U+0209C	ₜ	\_t	Latin Subscript Small Letter T
 U+020A7	₧	\pes	Peseta Sign
 U+020AC	€	\euro	Euro Sign
-U+020D0	⃐	\leftharpoonaccent	Combining Left Harpoon Above / Non-Spacing Left Harpoon Above
-U+020D1	⃑	\rightharpoonaccent	Combining Right Harpoon Above / Non-Spacing Right Harpoon Above
-U+020D2	⃒	\vertoverlay	Combining Long Vertical Line Overlay / Non-Spacing Long Vertical Bar Overlay
-U+020D6	⃖	\overleftarrow	Combining Left Arrow Above / Non-Spacing Left Arrow Above
-U+020D7	⃗	\vec	Combining Right Arrow Above / Non-Spacing Right Arrow Above
-U+020DB	⃛	\dddot	Combining Three Dots Above / Non-Spacing Three Dots Above
-U+020DC	⃜	\ddddot	Combining Four Dots Above / Non-Spacing Four Dots Above
-U+020DD	⃝	\enclosecircle	Combining Enclosing Circle / Enclosing Circle
-U+020DE	⃞	\enclosesquare	Combining Enclosing Square / Enclosing Square
-U+020DF	⃟	\enclosediamond	Combining Enclosing Diamond / Enclosing Diamond
-U+020E1	⃡	\overleftrightarrow	Combining Left Right Arrow Above / Non-Spacing Left Right Arrow Above
+U+020D0	⃐	\leftharpoonaccent	Combining Left Harpoon Above
+U+020D1	⃑	\rightharpoonaccent	Combining Right Harpoon Above
+U+020D2	⃒	\vertoverlay	Combining Long Vertical Line Overlay
+U+020D6	⃖	\overleftarrow	Combining Left Arrow Above
+U+020D7	⃗	\vec	Combining Right Arrow Above
+U+020DB	⃛	\dddot	Combining Three Dots Above
+U+020DC	⃜	\ddddot	Combining Four Dots Above
+U+020DD	⃝	\enclosecircle	Combining Enclosing Circle
+U+020DE	⃞	\enclosesquare	Combining Enclosing Square
+U+020DF	⃟	\enclosediamond	Combining Enclosing Diamond
+U+020E1	⃡	\overleftrightarrow	Combining Left Right Arrow Above
 U+020E4	⃤	\enclosetriangle	Combining Enclosing Upward Pointing Triangle
 U+020E7	⃧	\annuity	Combining Annuity Symbol
 U+020E8	⃨	\threeunderdot	Combining Triple Underdot
@@ -356,46 +356,46 @@ U+020ED	⃭	\underleftharpoondown	Combining Leftwards Harpoon With Barb Downward
 U+020EE	⃮	\underleftarrow	Combining Left Arrow Below
 U+020EF	⃯	\underrightarrow	Combining Right Arrow Below
 U+020F0	⃰	\asteraccent	Combining Asterisk Above
-U+02102	ℂ	\bbC	Double-Struck Capital C / Double-Struck C
-U+02107	ℇ	\eulermascheroni	Euler Constant / Eulers
+U+02102	ℂ	\bbC	Double-Struck Capital C
+U+02107	ℇ	\eulermascheroni	Euler Constant
 U+0210A	ℊ	\scrg	Script Small G
-U+0210B	ℋ	\scrH	Script Capital H / Script H
-U+0210C	ℌ	\frakH	Black-Letter Capital H / Black-Letter H
-U+0210D	ℍ	\bbH	Double-Struck Capital H / Double-Struck H
+U+0210B	ℋ	\scrH	Script Capital H
+U+0210C	ℌ	\frakH	Black-Letter Capital H
+U+0210D	ℍ	\bbH	Double-Struck Capital H
 U+0210E	ℎ	\ith, \planck	Planck Constant
-U+0210F	ℏ	\hslash	Planck Constant Over Two Pi / Planck Constant Over 2 Pi
-U+02110	ℐ	\scrI	Script Capital I / Script I
-U+02111	ℑ	\Im, \frakI	Black-Letter Capital I / Black-Letter I
-U+02112	ℒ	\scrL	Script Capital L / Script L
+U+0210F	ℏ	\hslash	Planck Constant Over Two Pi
+U+02110	ℐ	\scrI	Script Capital I
+U+02111	ℑ	\Im, \frakI	Black-Letter Capital I
+U+02112	ℒ	\scrL	Script Capital L
 U+02113	ℓ	\ell	Script Small L
-U+02115	ℕ	\bbN	Double-Struck Capital N / Double-Struck N
-U+02116	№	\numero	Numero Sign / Numero
-U+02118	℘	\wp	Script Capital P / Script P
-U+02119	ℙ	\bbP	Double-Struck Capital P / Double-Struck P
-U+0211A	ℚ	\bbQ	Double-Struck Capital Q / Double-Struck Q
-U+0211B	ℛ	\scrR	Script Capital R / Script R
-U+0211C	ℜ	\Re, \frakR	Black-Letter Capital R / Black-Letter R
-U+0211D	ℝ	\bbR	Double-Struck Capital R / Double-Struck R
+U+02115	ℕ	\bbN	Double-Struck Capital N
+U+02116	№	\numero	Numero Sign
+U+02118	℘	\wp	Script Capital P
+U+02119	ℙ	\bbP	Double-Struck Capital P
+U+0211A	ℚ	\bbQ	Double-Struck Capital Q
+U+0211B	ℛ	\scrR	Script Capital R
+U+0211C	ℜ	\Re, \frakR	Black-Letter Capital R
+U+0211D	ℝ	\bbR	Double-Struck Capital R
 U+0211E	℞	\xrat	Prescription Take
-U+02122	™	\:tm:, \trademark	Trade Mark Sign / Trademark
-U+02124	ℤ	\bbZ	Double-Struck Capital Z / Double-Struck Z
-U+02126	Ω	\ohm	Ohm Sign / Ohm
-U+02127	℧	\mho	Inverted Ohm Sign / Mho
-U+02128	ℨ	\frakZ	Black-Letter Capital Z / Black-Letter Z
+U+02122	™	\:tm:, \trademark	Trade Mark Sign
+U+02124	ℤ	\bbZ	Double-Struck Capital Z
+U+02126	Ω	\ohm	Ohm Sign
+U+02127	℧	\mho	Inverted Ohm Sign
+U+02128	ℨ	\frakZ	Black-Letter Capital Z
 U+02129	℩	\turnediota	Turned Greek Small Letter Iota
-U+0212B	Å	\Angstrom	Angstrom Sign / Angstrom Unit
-U+0212C	ℬ	\scrB	Script Capital B / Script B
-U+0212D	ℭ	\frakC	Black-Letter Capital C / Black-Letter C
+U+0212B	Å	\Angstrom	Angstrom Sign
+U+0212C	ℬ	\scrB	Script Capital B
+U+0212D	ℭ	\frakC	Black-Letter Capital C
 U+0212F	ℯ	\euler, \scre	Script Small E
-U+02130	ℰ	\scrE	Script Capital E / Script E
-U+02131	ℱ	\scrF	Script Capital F / Script F
-U+02132	Ⅎ	\Finv	Turned Capital F / Turned F
-U+02133	ℳ	\scrM	Script Capital M / Script M
+U+02130	ℰ	\scrE	Script Capital E
+U+02131	ℱ	\scrF	Script Capital F
+U+02132	Ⅎ	\Finv	Turned Capital F
+U+02133	ℳ	\scrM	Script Capital M
 U+02134	ℴ	\scro	Script Small O
-U+02135	ℵ	\aleph	Alef Symbol / First Transfinite Cardinal
-U+02136	ℶ	\beth	Bet Symbol / Second Transfinite Cardinal
-U+02137	ℷ	\gimel	Gimel Symbol / Third Transfinite Cardinal
-U+02138	ℸ	\daleth	Dalet Symbol / Fourth Transfinite Cardinal
+U+02135	ℵ	\aleph	Alef Symbol
+U+02136	ℶ	\beth	Bet Symbol
+U+02137	ℷ	\gimel	Gimel Symbol
+U+02138	ℸ	\daleth	Dalet Symbol
 U+02139	ℹ	\:information_source:	Information Source
 U+0213C	ℼ	\bbpi	Double-Struck Small Pi
 U+0213D	ℽ	\bbgamma	Double-Struck Small Gamma
@@ -416,111 +416,111 @@ U+0214B	⅋	\upand	Turned Ampersand
 U+02150	⅐	\1/7	Vulgar Fraction One Seventh
 U+02151	⅑	\1/9	Vulgar Fraction One Ninth
 U+02152	⅒	\1/10	Vulgar Fraction One Tenth
-U+02153	⅓	\1/3	Vulgar Fraction One Third / Fraction One Third
-U+02154	⅔	\2/3	Vulgar Fraction Two Thirds / Fraction Two Thirds
-U+02155	⅕	\1/5	Vulgar Fraction One Fifth / Fraction One Fifth
-U+02156	⅖	\2/5	Vulgar Fraction Two Fifths / Fraction Two Fifths
-U+02157	⅗	\3/5	Vulgar Fraction Three Fifths / Fraction Three Fifths
-U+02158	⅘	\4/5	Vulgar Fraction Four Fifths / Fraction Four Fifths
-U+02159	⅙	\1/6	Vulgar Fraction One Sixth / Fraction One Sixth
-U+0215A	⅚	\5/6	Vulgar Fraction Five Sixths / Fraction Five Sixths
-U+0215B	⅛	\1/8	Vulgar Fraction One Eighth / Fraction One Eighth
-U+0215C	⅜	\3/8	Vulgar Fraction Three Eighths / Fraction Three Eighths
-U+0215D	⅝	\5/8	Vulgar Fraction Five Eighths / Fraction Five Eighths
-U+0215E	⅞	\7/8	Vulgar Fraction Seven Eighths / Fraction Seven Eighths
+U+02153	⅓	\1/3	Vulgar Fraction One Third
+U+02154	⅔	\2/3	Vulgar Fraction Two Thirds
+U+02155	⅕	\1/5	Vulgar Fraction One Fifth
+U+02156	⅖	\2/5	Vulgar Fraction Two Fifths
+U+02157	⅗	\3/5	Vulgar Fraction Three Fifths
+U+02158	⅘	\4/5	Vulgar Fraction Four Fifths
+U+02159	⅙	\1/6	Vulgar Fraction One Sixth
+U+0215A	⅚	\5/6	Vulgar Fraction Five Sixths
+U+0215B	⅛	\1/8	Vulgar Fraction One Eighth
+U+0215C	⅜	\3/8	Vulgar Fraction Three Eighths
+U+0215D	⅝	\5/8	Vulgar Fraction Five Eighths
+U+0215E	⅞	\7/8	Vulgar Fraction Seven Eighths
 U+0215F	⅟	\1/	Fraction Numerator One
 U+02189	↉	\0/3	Vulgar Fraction Zero Thirds
-U+02190	←	\leftarrow	Leftwards Arrow / Left Arrow
-U+02191	↑	\uparrow	Upwards Arrow / Up Arrow
-U+02192	→	\rightarrow, \to	Rightwards Arrow / Right Arrow
-U+02193	↓	\downarrow	Downwards Arrow / Down Arrow
+U+02190	←	\leftarrow	Leftwards Arrow
+U+02191	↑	\uparrow	Upwards Arrow
+U+02192	→	\rightarrow, \to	Rightwards Arrow
+U+02193	↓	\downarrow	Downwards Arrow
 U+02194	↔	\:left_right_arrow:, \leftrightarrow	Left Right Arrow
 U+02195	↕	\:arrow_up_down:, \updownarrow	Up Down Arrow
-U+02196	↖	\:arrow_upper_left:, \nwarrow	North West Arrow / Upper Left Arrow
-U+02197	↗	\:arrow_upper_right:, \nearrow	North East Arrow / Upper Right Arrow
-U+02198	↘	\:arrow_lower_right:, \searrow	South East Arrow / Lower Right Arrow
-U+02199	↙	\:arrow_lower_left:, \swarrow	South West Arrow / Lower Left Arrow
-U+0219A	↚	\nleftarrow	Leftwards Arrow With Stroke / Left Arrow With Stroke
-U+0219B	↛	\nrightarrow	Rightwards Arrow With Stroke / Right Arrow With Stroke
-U+0219C	↜	\leftwavearrow	Leftwards Wave Arrow / Left Wave Arrow
-U+0219D	↝	\rightwavearrow	Rightwards Wave Arrow / Right Wave Arrow
-U+0219E	↞	\twoheadleftarrow	Leftwards Two Headed Arrow / Left Two Headed Arrow
-U+0219F	↟	\twoheaduparrow	Upwards Two Headed Arrow / Up Two Headed Arrow
-U+021A0	↠	\twoheadrightarrow	Rightwards Two Headed Arrow / Right Two Headed Arrow
-U+021A1	↡	\twoheaddownarrow	Downwards Two Headed Arrow / Down Two Headed Arrow
-U+021A2	↢	\leftarrowtail	Leftwards Arrow With Tail / Left Arrow With Tail
-U+021A3	↣	\rightarrowtail	Rightwards Arrow With Tail / Right Arrow With Tail
-U+021A4	↤	\mapsfrom	Leftwards Arrow From Bar / Left Arrow From Bar
-U+021A5	↥	\mapsup	Upwards Arrow From Bar / Up Arrow From Bar
-U+021A6	↦	\mapsto	Rightwards Arrow From Bar / Right Arrow From Bar
-U+021A7	↧	\mapsdown	Downwards Arrow From Bar / Down Arrow From Bar
+U+02196	↖	\:arrow_upper_left:, \nwarrow	North West Arrow
+U+02197	↗	\:arrow_upper_right:, \nearrow	North East Arrow
+U+02198	↘	\:arrow_lower_right:, \searrow	South East Arrow
+U+02199	↙	\:arrow_lower_left:, \swarrow	South West Arrow
+U+0219A	↚	\nleftarrow	Leftwards Arrow With Stroke
+U+0219B	↛	\nrightarrow	Rightwards Arrow With Stroke
+U+0219C	↜	\leftwavearrow	Leftwards Wave Arrow
+U+0219D	↝	\rightwavearrow	Rightwards Wave Arrow
+U+0219E	↞	\twoheadleftarrow	Leftwards Two Headed Arrow
+U+0219F	↟	\twoheaduparrow	Upwards Two Headed Arrow
+U+021A0	↠	\twoheadrightarrow	Rightwards Two Headed Arrow
+U+021A1	↡	\twoheaddownarrow	Downwards Two Headed Arrow
+U+021A2	↢	\leftarrowtail	Leftwards Arrow With Tail
+U+021A3	↣	\rightarrowtail	Rightwards Arrow With Tail
+U+021A4	↤	\mapsfrom	Leftwards Arrow From Bar
+U+021A5	↥	\mapsup	Upwards Arrow From Bar
+U+021A6	↦	\mapsto	Rightwards Arrow From Bar
+U+021A7	↧	\mapsdown	Downwards Arrow From Bar
 U+021A8	↨	\updownarrowbar	Up Down Arrow With Base
-U+021A9	↩	\:leftwards_arrow_with_hook:, \hookleftarrow	Leftwards Arrow With Hook / Left Arrow With Hook
-U+021AA	↪	\:arrow_right_hook:, \hookrightarrow	Rightwards Arrow With Hook / Right Arrow With Hook
-U+021AB	↫	\looparrowleft	Leftwards Arrow With Loop / Left Arrow With Loop
-U+021AC	↬	\looparrowright	Rightwards Arrow With Loop / Right Arrow With Loop
+U+021A9	↩	\:leftwards_arrow_with_hook:, \hookleftarrow	Leftwards Arrow With Hook
+U+021AA	↪	\:arrow_right_hook:, \hookrightarrow	Rightwards Arrow With Hook
+U+021AB	↫	\looparrowleft	Leftwards Arrow With Loop
+U+021AC	↬	\looparrowright	Rightwards Arrow With Loop
 U+021AD	↭	\leftrightsquigarrow	Left Right Wave Arrow
 U+021AE	↮	\nleftrightarrow	Left Right Arrow With Stroke
-U+021AF	↯	\downzigzagarrow	Downwards Zigzag Arrow / Down Zigzag Arrow
-U+021B0	↰	\Lsh	Upwards Arrow With Tip Leftwards / Up Arrow With Tip Left
-U+021B1	↱	\Rsh	Upwards Arrow With Tip Rightwards / Up Arrow With Tip Right
-U+021B2	↲	\Ldsh	Downwards Arrow With Tip Leftwards / Down Arrow With Tip Left
-U+021B3	↳	\Rdsh	Downwards Arrow With Tip Rightwards / Down Arrow With Tip Right
-U+021B4	↴	\linefeed	Rightwards Arrow With Corner Downwards / Right Arrow With Corner Down
-U+021B5	↵	\carriagereturn	Downwards Arrow With Corner Leftwards / Down Arrow With Corner Left
+U+021AF	↯	\downzigzagarrow	Downwards Zigzag Arrow
+U+021B0	↰	\Lsh	Upwards Arrow With Tip Leftwards
+U+021B1	↱	\Rsh	Upwards Arrow With Tip Rightwards
+U+021B2	↲	\Ldsh	Downwards Arrow With Tip Leftwards
+U+021B3	↳	\Rdsh	Downwards Arrow With Tip Rightwards
+U+021B4	↴	\linefeed	Rightwards Arrow With Corner Downwards
+U+021B5	↵	\carriagereturn	Downwards Arrow With Corner Leftwards
 U+021B6	↶	\curvearrowleft	Anticlockwise Top Semicircle Arrow
 U+021B7	↷	\curvearrowright	Clockwise Top Semicircle Arrow
-U+021B8	↸	\barovernorthwestarrow	North West Arrow To Long Bar / Upper Left Arrow To Long Bar
-U+021B9	↹	\barleftarrowrightarrowbar	Leftwards Arrow To Bar Over Rightwards Arrow To Bar / Left Arrow To Bar Over Right Arrow To Bar
+U+021B8	↸	\barovernorthwestarrow	North West Arrow To Long Bar
+U+021B9	↹	\barleftarrowrightarrowbar	Leftwards Arrow To Bar Over Rightwards Arrow To Bar
 U+021BA	↺	\circlearrowleft	Anticlockwise Open Circle Arrow
 U+021BB	↻	\circlearrowright	Clockwise Open Circle Arrow
-U+021BC	↼	\leftharpoonup	Leftwards Harpoon With Barb Upwards / Left Harpoon With Barb Up
-U+021BD	↽	\leftharpoondown	Leftwards Harpoon With Barb Downwards / Left Harpoon With Barb Down
-U+021BE	↾	\upharpoonright	Upwards Harpoon With Barb Rightwards / Up Harpoon With Barb Right
-U+021BF	↿	\upharpoonleft	Upwards Harpoon With Barb Leftwards / Up Harpoon With Barb Left
-U+021C0	⇀	\rightharpoonup	Rightwards Harpoon With Barb Upwards / Right Harpoon With Barb Up
-U+021C1	⇁	\rightharpoondown	Rightwards Harpoon With Barb Downwards / Right Harpoon With Barb Down
-U+021C2	⇂	\downharpoonright	Downwards Harpoon With Barb Rightwards / Down Harpoon With Barb Right
-U+021C3	⇃	\downharpoonleft	Downwards Harpoon With Barb Leftwards / Down Harpoon With Barb Left
-U+021C4	⇄	\rightleftarrows	Rightwards Arrow Over Leftwards Arrow / Right Arrow Over Left Arrow
-U+021C5	⇅	\dblarrowupdown	Upwards Arrow Leftwards Of Downwards Arrow / Up Arrow Left Of Down Arrow
-U+021C6	⇆	\leftrightarrows	Leftwards Arrow Over Rightwards Arrow / Left Arrow Over Right Arrow
-U+021C7	⇇	\leftleftarrows	Leftwards Paired Arrows / Left Paired Arrows
-U+021C8	⇈	\upuparrows	Upwards Paired Arrows / Up Paired Arrows
-U+021C9	⇉	\rightrightarrows	Rightwards Paired Arrows / Right Paired Arrows
-U+021CA	⇊	\downdownarrows	Downwards Paired Arrows / Down Paired Arrows
-U+021CB	⇋	\leftrightharpoons	Leftwards Harpoon Over Rightwards Harpoon / Left Harpoon Over Right Harpoon
-U+021CC	⇌	\rightleftharpoons	Rightwards Harpoon Over Leftwards Harpoon / Right Harpoon Over Left Harpoon
-U+021CD	⇍	\nLeftarrow	Leftwards Double Arrow With Stroke / Left Double Arrow With Stroke
+U+021BC	↼	\leftharpoonup	Leftwards Harpoon With Barb Upwards
+U+021BD	↽	\leftharpoondown	Leftwards Harpoon With Barb Downwards
+U+021BE	↾	\upharpoonright	Upwards Harpoon With Barb Rightwards
+U+021BF	↿	\upharpoonleft	Upwards Harpoon With Barb Leftwards
+U+021C0	⇀	\rightharpoonup	Rightwards Harpoon With Barb Upwards
+U+021C1	⇁	\rightharpoondown	Rightwards Harpoon With Barb Downwards
+U+021C2	⇂	\downharpoonright	Downwards Harpoon With Barb Rightwards
+U+021C3	⇃	\downharpoonleft	Downwards Harpoon With Barb Leftwards
+U+021C4	⇄	\rightleftarrows	Rightwards Arrow Over Leftwards Arrow
+U+021C5	⇅	\dblarrowupdown	Upwards Arrow Leftwards Of Downwards Arrow
+U+021C6	⇆	\leftrightarrows	Leftwards Arrow Over Rightwards Arrow
+U+021C7	⇇	\leftleftarrows	Leftwards Paired Arrows
+U+021C8	⇈	\upuparrows	Upwards Paired Arrows
+U+021C9	⇉	\rightrightarrows	Rightwards Paired Arrows
+U+021CA	⇊	\downdownarrows	Downwards Paired Arrows
+U+021CB	⇋	\leftrightharpoons	Leftwards Harpoon Over Rightwards Harpoon
+U+021CC	⇌	\rightleftharpoons	Rightwards Harpoon Over Leftwards Harpoon
+U+021CD	⇍	\nLeftarrow	Leftwards Double Arrow With Stroke
 U+021CE	⇎	\nLeftrightarrow	Left Right Double Arrow With Stroke
-U+021CF	⇏	\nRightarrow	Rightwards Double Arrow With Stroke / Right Double Arrow With Stroke
-U+021D0	⇐	\Leftarrow	Leftwards Double Arrow / Left Double Arrow
-U+021D1	⇑	\Uparrow	Upwards Double Arrow / Up Double Arrow
-U+021D2	⇒	\Rightarrow	Rightwards Double Arrow / Right Double Arrow
-U+021D3	⇓	\Downarrow	Downwards Double Arrow / Down Double Arrow
+U+021CF	⇏	\nRightarrow	Rightwards Double Arrow With Stroke
+U+021D0	⇐	\Leftarrow	Leftwards Double Arrow
+U+021D1	⇑	\Uparrow	Upwards Double Arrow
+U+021D2	⇒	\Rightarrow	Rightwards Double Arrow
+U+021D3	⇓	\Downarrow	Downwards Double Arrow
 U+021D4	⇔	\Leftrightarrow	Left Right Double Arrow
 U+021D5	⇕	\Updownarrow	Up Down Double Arrow
-U+021D6	⇖	\Nwarrow	North West Double Arrow / Upper Left Double Arrow
-U+021D7	⇗	\Nearrow	North East Double Arrow / Upper Right Double Arrow
-U+021D8	⇘	\Searrow	South East Double Arrow / Lower Right Double Arrow
-U+021D9	⇙	\Swarrow	South West Double Arrow / Lower Left Double Arrow
-U+021DA	⇚	\Lleftarrow	Leftwards Triple Arrow / Left Triple Arrow
-U+021DB	⇛	\Rrightarrow	Rightwards Triple Arrow / Right Triple Arrow
-U+021DC	⇜	\leftsquigarrow	Leftwards Squiggle Arrow / Left Squiggle Arrow
-U+021DD	⇝	\rightsquigarrow	Rightwards Squiggle Arrow / Right Squiggle Arrow
-U+021DE	⇞	\nHuparrow	Upwards Arrow With Double Stroke / Up Arrow With Double Stroke
-U+021DF	⇟	\nHdownarrow	Downwards Arrow With Double Stroke / Down Arrow With Double Stroke
-U+021E0	⇠	\leftdasharrow	Leftwards Dashed Arrow / Left Dashed Arrow
-U+021E1	⇡	\updasharrow	Upwards Dashed Arrow / Up Dashed Arrow
-U+021E2	⇢	\rightdasharrow	Rightwards Dashed Arrow / Right Dashed Arrow
-U+021E3	⇣	\downdasharrow	Downwards Dashed Arrow / Down Dashed Arrow
-U+021E4	⇤	\barleftarrow	Leftwards Arrow To Bar / Left Arrow To Bar
-U+021E5	⇥	\rightarrowbar	Rightwards Arrow To Bar / Right Arrow To Bar
-U+021E6	⇦	\leftwhitearrow	Leftwards White Arrow / White Left Arrow
-U+021E7	⇧	\upwhitearrow	Upwards White Arrow / White Up Arrow
-U+021E8	⇨	\rightwhitearrow	Rightwards White Arrow / White Right Arrow
-U+021E9	⇩	\downwhitearrow	Downwards White Arrow / White Down Arrow
-U+021EA	⇪	\whitearrowupfrombar	Upwards White Arrow From Bar / White Up Arrow From Bar
+U+021D6	⇖	\Nwarrow	North West Double Arrow
+U+021D7	⇗	\Nearrow	North East Double Arrow
+U+021D8	⇘	\Searrow	South East Double Arrow
+U+021D9	⇙	\Swarrow	South West Double Arrow
+U+021DA	⇚	\Lleftarrow	Leftwards Triple Arrow
+U+021DB	⇛	\Rrightarrow	Rightwards Triple Arrow
+U+021DC	⇜	\leftsquigarrow	Leftwards Squiggle Arrow
+U+021DD	⇝	\rightsquigarrow	Rightwards Squiggle Arrow
+U+021DE	⇞	\nHuparrow	Upwards Arrow With Double Stroke
+U+021DF	⇟	\nHdownarrow	Downwards Arrow With Double Stroke
+U+021E0	⇠	\leftdasharrow	Leftwards Dashed Arrow
+U+021E1	⇡	\updasharrow	Upwards Dashed Arrow
+U+021E2	⇢	\rightdasharrow	Rightwards Dashed Arrow
+U+021E3	⇣	\downdasharrow	Downwards Dashed Arrow
+U+021E4	⇤	\barleftarrow	Leftwards Arrow To Bar
+U+021E5	⇥	\rightarrowbar	Rightwards Arrow To Bar
+U+021E6	⇦	\leftwhitearrow	Leftwards White Arrow
+U+021E7	⇧	\upwhitearrow	Upwards White Arrow
+U+021E8	⇨	\rightwhitearrow	Rightwards White Arrow
+U+021E9	⇩	\downwhitearrow	Downwards White Arrow
+U+021EA	⇪	\whitearrowupfrombar	Upwards White Arrow From Bar
 U+021F4	⇴	\circleonrightarrow	Right Arrow With Small Circle
 U+021F5	⇵	\DownArrowUpArrow	Downwards Arrow Leftwards Of Upwards Arrow
 U+021F6	⇶	\rightthreearrows	Three Rightwards Arrows
@@ -597,7 +597,7 @@ U+0223F	∿	\sinewave	Sine Wave
 U+02240	≀	\wr	Wreath Product
 U+02241	≁	\nsim	Not Tilde
 U+02242	≂	\eqsim	Minus Tilde
-U+02242, U+00338	≂̸	\neqsim	Minus Tilde + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02242, U+00338	≂̸	\neqsim	Minus Tilde, Combining Long Solidus Overlay
 U+02243	≃	\simeq	Asymptotically Equal To
 U+02244	≄	\nsime	Not Asymptotically Equal To
 U+02245	≅	\cong	Approximately Equal To
@@ -610,15 +610,15 @@ U+0224B	≋	\tildetrpl	Triple Tilde
 U+0224C	≌	\allequal	All Equal To
 U+0224D	≍	\asymp	Equivalent To
 U+0224E	≎	\Bumpeq	Geometrically Equivalent To
-U+0224E, U+00338	≎̸	\nBumpeq	Geometrically Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0224E, U+00338	≎̸	\nBumpeq	Geometrically Equivalent To, Combining Long Solidus Overlay
 U+0224F	≏	\bumpeq	Difference Between
-U+0224F, U+00338	≏̸	\nbumpeq	Difference Between + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0224F, U+00338	≏̸	\nbumpeq	Difference Between, Combining Long Solidus Overlay
 U+02250	≐	\doteq	Approaches The Limit
 U+02251	≑	\Doteq	Geometrically Equal To
 U+02252	≒	\fallingdotseq	Approximately Equal To Or The Image Of
 U+02253	≓	\risingdotseq	Image Of Or Approximately Equal To
-U+02254	≔	\coloneq	Colon Equals / Colon Equal
-U+02255	≕	\eqcolon	Equals Colon / Equal Colon
+U+02254	≔	\coloneq	Colon Equals
+U+02255	≕	\eqcolon	Equals Colon
 U+02256	≖	\eqcirc	Ring In Equal To
 U+02257	≗	\circeq	Ring Equal To
 U+02258	≘	\arceq	Corresponds To
@@ -633,40 +633,40 @@ U+02260	≠	\ne, \neq	Not Equal To
 U+02261	≡	\equiv	Identical To
 U+02262	≢	\nequiv	Not Identical To
 U+02263	≣	\Equiv	Strictly Equivalent To
-U+02264	≤	\le, \leq	Less-Than Or Equal To / Less Than Or Equal To
-U+02265	≥	\ge, \geq	Greater-Than Or Equal To / Greater Than Or Equal To
-U+02266	≦	\leqq	Less-Than Over Equal To / Less Than Over Equal To
-U+02267	≧	\geqq	Greater-Than Over Equal To / Greater Than Over Equal To
-U+02268	≨	\lneqq	Less-Than But Not Equal To / Less Than But Not Equal To
-U+02268, U+0FE00	≨︀	\lvertneqq	Less-Than But Not Equal To / Less Than But Not Equal To + Variation Selector-1
-U+02269	≩	\gneqq	Greater-Than But Not Equal To / Greater Than But Not Equal To
-U+02269, U+0FE00	≩︀	\gvertneqq	Greater-Than But Not Equal To / Greater Than But Not Equal To + Variation Selector-1
-U+0226A	≪	\ll	Much Less-Than / Much Less Than
-U+0226A, U+00338	≪̸	\NotLessLess	Much Less-Than / Much Less Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
-U+0226B	≫	\gg	Much Greater-Than / Much Greater Than
-U+0226B, U+00338	≫̸	\NotGreaterGreater	Much Greater-Than / Much Greater Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02264	≤	\le, \leq	Less-Than Or Equal To
+U+02265	≥	\ge, \geq	Greater-Than Or Equal To
+U+02266	≦	\leqq	Less-Than Over Equal To
+U+02267	≧	\geqq	Greater-Than Over Equal To
+U+02268	≨	\lneqq	Less-Than But Not Equal To
+U+02268, U+0FE00	≨︀	\lvertneqq	Less-Than But Not Equal To, Variation Selector-1
+U+02269	≩	\gneqq	Greater-Than But Not Equal To
+U+02269, U+0FE00	≩︀	\gvertneqq	Greater-Than But Not Equal To, Variation Selector-1
+U+0226A	≪	\ll	Much Less-Than
+U+0226A, U+00338	≪̸	\NotLessLess	Much Less-Than, Combining Long Solidus Overlay
+U+0226B	≫	\gg	Much Greater-Than
+U+0226B, U+00338	≫̸	\NotGreaterGreater	Much Greater-Than, Combining Long Solidus Overlay
 U+0226C	≬	\between	Between
 U+0226D	≭	\nasymp	Not Equivalent To
-U+0226E	≮	\nless	Not Less-Than / Not Less Than
-U+0226F	≯	\ngtr	Not Greater-Than / Not Greater Than
-U+02270	≰	\nleq	Neither Less-Than Nor Equal To / Neither Less Than Nor Equal To
-U+02271	≱	\ngeq	Neither Greater-Than Nor Equal To / Neither Greater Than Nor Equal To
-U+02272	≲	\lesssim	Less-Than Or Equivalent To / Less Than Or Equivalent To
-U+02273	≳	\gtrsim	Greater-Than Or Equivalent To / Greater Than Or Equivalent To
-U+02274	≴	\nlesssim	Neither Less-Than Nor Equivalent To / Neither Less Than Nor Equivalent To
-U+02275	≵	\ngtrsim	Neither Greater-Than Nor Equivalent To / Neither Greater Than Nor Equivalent To
-U+02276	≶	\lessgtr	Less-Than Or Greater-Than / Less Than Or Greater Than
-U+02277	≷	\gtrless	Greater-Than Or Less-Than / Greater Than Or Less Than
-U+02278	≸	\notlessgreater	Neither Less-Than Nor Greater-Than / Neither Less Than Nor Greater Than
-U+02279	≹	\notgreaterless	Neither Greater-Than Nor Less-Than / Neither Greater Than Nor Less Than
+U+0226E	≮	\nless	Not Less-Than
+U+0226F	≯	\ngtr	Not Greater-Than
+U+02270	≰	\nleq	Neither Less-Than Nor Equal To
+U+02271	≱	\ngeq	Neither Greater-Than Nor Equal To
+U+02272	≲	\lesssim	Less-Than Or Equivalent To
+U+02273	≳	\gtrsim	Greater-Than Or Equivalent To
+U+02274	≴	\nlesssim	Neither Less-Than Nor Equivalent To
+U+02275	≵	\ngtrsim	Neither Greater-Than Nor Equivalent To
+U+02276	≶	\lessgtr	Less-Than Or Greater-Than
+U+02277	≷	\gtrless	Greater-Than Or Less-Than
+U+02278	≸	\notlessgreater	Neither Less-Than Nor Greater-Than
+U+02279	≹	\notgreaterless	Neither Greater-Than Nor Less-Than
 U+0227A	≺	\prec	Precedes
 U+0227B	≻	\succ	Succeeds
 U+0227C	≼	\preccurlyeq	Precedes Or Equal To
 U+0227D	≽	\succcurlyeq	Succeeds Or Equal To
 U+0227E	≾	\precsim	Precedes Or Equivalent To
-U+0227E, U+00338	≾̸	\nprecsim	Precedes Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0227E, U+00338	≾̸	\nprecsim	Precedes Or Equivalent To, Combining Long Solidus Overlay
 U+0227F	≿	\succsim	Succeeds Or Equivalent To
-U+0227F, U+00338	≿̸	\nsuccsim	Succeeds Or Equivalent To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0227F, U+00338	≿̸	\nsuccsim	Succeeds Or Equivalent To, Combining Long Solidus Overlay
 U+02280	⊀	\nprec	Does Not Precede
 U+02281	⊁	\nsucc	Does Not Succeed
 U+02282	⊂	\subset	Subset Of
@@ -677,16 +677,16 @@ U+02286	⊆	\subseteq	Subset Of Or Equal To
 U+02287	⊇	\supseteq	Superset Of Or Equal To
 U+02288	⊈	\nsubseteq	Neither A Subset Of Nor Equal To
 U+02289	⊉	\nsupseteq	Neither A Superset Of Nor Equal To
-U+0228A	⊊	\subsetneq	Subset Of With Not Equal To / Subset Of Or Not Equal To
-U+0228A, U+0FE00	⊊︀	\varsubsetneqq	Subset Of With Not Equal To / Subset Of Or Not Equal To + Variation Selector-1
-U+0228B	⊋	\supsetneq	Superset Of With Not Equal To / Superset Of Or Not Equal To
-U+0228B, U+0FE00	⊋︀	\varsupsetneq	Superset Of With Not Equal To / Superset Of Or Not Equal To + Variation Selector-1
+U+0228A	⊊	\subsetneq	Subset Of With Not Equal To
+U+0228A, U+0FE00	⊊︀	\varsubsetneqq	Subset Of With Not Equal To, Variation Selector-1
+U+0228B	⊋	\supsetneq	Superset Of With Not Equal To
+U+0228B, U+0FE00	⊋︀	\varsupsetneq	Superset Of With Not Equal To, Variation Selector-1
 U+0228D	⊍	\cupdot	Multiset Multiplication
 U+0228E	⊎	\uplus	Multiset Union
 U+0228F	⊏	\sqsubset	Square Image Of
-U+0228F, U+00338	⊏̸	\NotSquareSubset	Square Image Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+0228F, U+00338	⊏̸	\NotSquareSubset	Square Image Of, Combining Long Solidus Overlay
 U+02290	⊐	\sqsupset	Square Original Of
-U+02290, U+00338	⊐̸	\NotSquareSuperset	Square Original Of + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02290, U+00338	⊐̸	\NotSquareSuperset	Square Original Of, Combining Long Solidus Overlay
 U+02291	⊑	\sqsubseteq	Square Image Of Or Equal To
 U+02292	⊒	\sqsupseteq	Square Original Of Or Equal To
 U+02293	⊓	\sqcap	Square Cap
@@ -755,14 +755,14 @@ U+022D2	⋒	\Cap	Double Intersection
 U+022D3	⋓	\Cup	Double Union
 U+022D4	⋔	\pitchfork	Pitchfork
 U+022D5	⋕	\equalparallel	Equal And Parallel To
-U+022D6	⋖	\lessdot	Less-Than With Dot / Less Than With Dot
-U+022D7	⋗	\gtrdot	Greater-Than With Dot / Greater Than With Dot
-U+022D8	⋘	\verymuchless	Very Much Less-Than / Very Much Less Than
-U+022D9	⋙	\ggg	Very Much Greater-Than / Very Much Greater Than
-U+022DA	⋚	\lesseqgtr	Less-Than Equal To Or Greater-Than / Less Than Equal To Or Greater Than
-U+022DB	⋛	\gtreqless	Greater-Than Equal To Or Less-Than / Greater Than Equal To Or Less Than
-U+022DC	⋜	\eqless	Equal To Or Less-Than / Equal To Or Less Than
-U+022DD	⋝	\eqgtr	Equal To Or Greater-Than / Equal To Or Greater Than
+U+022D6	⋖	\lessdot	Less-Than With Dot
+U+022D7	⋗	\gtrdot	Greater-Than With Dot
+U+022D8	⋘	\verymuchless	Very Much Less-Than
+U+022D9	⋙	\ggg	Very Much Greater-Than
+U+022DA	⋚	\lesseqgtr	Less-Than Equal To Or Greater-Than
+U+022DB	⋛	\gtreqless	Greater-Than Equal To Or Less-Than
+U+022DC	⋜	\eqless	Equal To Or Less-Than
+U+022DD	⋝	\eqgtr	Equal To Or Greater-Than
 U+022DE	⋞	\curlyeqprec	Equal To Or Precedes
 U+022DF	⋟	\curlyeqsucc	Equal To Or Succeeds
 U+022E0	⋠	\npreccurlyeq	Does Not Precede Or Equal
@@ -771,8 +771,8 @@ U+022E2	⋢	\nsqsubseteq	Not Square Image Of Or Equal To
 U+022E3	⋣	\nsqsupseteq	Not Square Original Of Or Equal To
 U+022E4	⋤	\sqsubsetneq	Square Image Of Or Not Equal To
 U+022E5	⋥	\sqsupsetneq	Square Original Of Or Not Equal To
-U+022E6	⋦	\lnsim	Less-Than But Not Equivalent To / Less Than But Not Equivalent To
-U+022E7	⋧	\gnsim	Greater-Than But Not Equivalent To / Greater Than But Not Equivalent To
+U+022E6	⋦	\lnsim	Less-Than But Not Equivalent To
+U+022E7	⋧	\gnsim	Greater-Than But Not Equivalent To
 U+022E8	⋨	\precnsim	Precedes But Not Equivalent To
 U+022E9	⋩	\succnsim	Succeeds But Not Equivalent To
 U+022EA	⋪	\ntriangleleft	Not Normal Subgroup Of
@@ -853,14 +853,14 @@ U+023EB	⏫	\:arrow_double_up:	Black Up-Pointing Double Triangle
 U+023EC	⏬	\:arrow_double_down:	Black Down-Pointing Double Triangle
 U+023F0	⏰	\:alarm_clock:	Alarm Clock
 U+023F3	⏳	\:hourglass_flowing_sand:	Hourglass With Flowing Sand
-U+02422	␢	\blanksymbol	Blank Symbol / Blank
+U+02422	␢	\blanksymbol	Blank Symbol
 U+02423	␣	\visiblespace	Open Box
 U+024C2	Ⓜ	\:m:	Circled Latin Capital Letter M
 U+024C8	Ⓢ	\circledS	Circled Latin Capital Letter S
-U+02506	┆	\dshfnc	Box Drawings Light Triple Dash Vertical / Forms Light Triple Dash Vertical
-U+02519	┙	\sqfnw	Box Drawings Up Light And Left Heavy / Forms Up Light And Left Heavy
-U+02571	╱	\diagup	Box Drawings Light Diagonal Upper Right To Lower Left / Forms Light Diagonal Upper Right To Lower Left
-U+02572	╲	\diagdown	Box Drawings Light Diagonal Upper Left To Lower Right / Forms Light Diagonal Upper Left To Lower Right
+U+02506	┆	\dshfnc	Box Drawings Light Triple Dash Vertical
+U+02519	┙	\sqfnw	Box Drawings Up Light And Left Heavy
+U+02571	╱	\diagup	Box Drawings Light Diagonal Upper Right To Lower Left
+U+02572	╲	\diagdown	Box Drawings Light Diagonal Upper Left To Lower Right
 U+02580	▀	\blockuphalf	Upper Half Block
 U+02584	▄	\blocklowhalf	Lower Half Block
 U+02588	█	\blockfull	Full Block
@@ -887,26 +887,26 @@ U+025AE	▮	\vrectangleblack	Black Vertical Rectangle
 U+025AF	▯	\vrecto	White Vertical Rectangle
 U+025B0	▰	\parallelogramblack	Black Parallelogram
 U+025B1	▱	\parallelogram	White Parallelogram
-U+025B2	▲	\bigblacktriangleup	Black Up-Pointing Triangle / Black Up Pointing Triangle
-U+025B3	△	\bigtriangleup	White Up-Pointing Triangle / White Up Pointing Triangle
-U+025B4	▴	\blacktriangle	Black Up-Pointing Small Triangle / Black Up Pointing Small Triangle
-U+025B5	▵	\vartriangle	White Up-Pointing Small Triangle / White Up Pointing Small Triangle
-U+025B6	▶	\:arrow_forward:, \blacktriangleright	Black Right-Pointing Triangle / Black Right Pointing Triangle
-U+025B7	▷	\triangleright	White Right-Pointing Triangle / White Right Pointing Triangle
-U+025B8	▸	\smallblacktriangleright	Black Right-Pointing Small Triangle / Black Right Pointing Small Triangle
-U+025B9	▹	\smalltriangleright	White Right-Pointing Small Triangle / White Right Pointing Small Triangle
-U+025BA	►	\blackpointerright	Black Right-Pointing Pointer / Black Right Pointing Pointer
-U+025BB	▻	\whitepointerright	White Right-Pointing Pointer / White Right Pointing Pointer
-U+025BC	▼	\bigblacktriangledown	Black Down-Pointing Triangle / Black Down Pointing Triangle
-U+025BD	▽	\bigtriangledown	White Down-Pointing Triangle / White Down Pointing Triangle
-U+025BE	▾	\blacktriangledown	Black Down-Pointing Small Triangle / Black Down Pointing Small Triangle
-U+025BF	▿	\triangledown	White Down-Pointing Small Triangle / White Down Pointing Small Triangle
-U+025C0	◀	\:arrow_backward:, \blacktriangleleft	Black Left-Pointing Triangle / Black Left Pointing Triangle
-U+025C1	◁	\triangleleft	White Left-Pointing Triangle / White Left Pointing Triangle
-U+025C2	◂	\smallblacktriangleleft	Black Left-Pointing Small Triangle / Black Left Pointing Small Triangle
-U+025C3	◃	\smalltriangleleft	White Left-Pointing Small Triangle / White Left Pointing Small Triangle
-U+025C4	◄	\blackpointerleft	Black Left-Pointing Pointer / Black Left Pointing Pointer
-U+025C5	◅	\whitepointerleft	White Left-Pointing Pointer / White Left Pointing Pointer
+U+025B2	▲	\bigblacktriangleup	Black Up-Pointing Triangle
+U+025B3	△	\bigtriangleup	White Up-Pointing Triangle
+U+025B4	▴	\blacktriangle	Black Up-Pointing Small Triangle
+U+025B5	▵	\vartriangle	White Up-Pointing Small Triangle
+U+025B6	▶	\:arrow_forward:, \blacktriangleright	Black Right-Pointing Triangle
+U+025B7	▷	\triangleright	White Right-Pointing Triangle
+U+025B8	▸	\smallblacktriangleright	Black Right-Pointing Small Triangle
+U+025B9	▹	\smalltriangleright	White Right-Pointing Small Triangle
+U+025BA	►	\blackpointerright	Black Right-Pointing Pointer
+U+025BB	▻	\whitepointerright	White Right-Pointing Pointer
+U+025BC	▼	\bigblacktriangledown	Black Down-Pointing Triangle
+U+025BD	▽	\bigtriangledown	White Down-Pointing Triangle
+U+025BE	▾	\blacktriangledown	Black Down-Pointing Small Triangle
+U+025BF	▿	\triangledown	White Down-Pointing Small Triangle
+U+025C0	◀	\:arrow_backward:, \blacktriangleleft	Black Left-Pointing Triangle
+U+025C1	◁	\triangleleft	White Left-Pointing Triangle
+U+025C2	◂	\smallblacktriangleleft	Black Left-Pointing Small Triangle
+U+025C3	◃	\smalltriangleleft	White Left-Pointing Small Triangle
+U+025C4	◄	\blackpointerleft	Black Left-Pointing Pointer
+U+025C5	◅	\whitepointerleft	White Left-Pointing Pointer
 U+025C6	◆	\mdlgblkdiamond	Black Diamond
 U+025C7	◇	\mdlgwhtdiamond	White Diamond
 U+025C8	◈	\blackinwhitediamond	White Diamond Containing Black Small Diamond
@@ -945,9 +945,9 @@ U+025E8	◨	\sqfr	Square With Right Half Black
 U+025E9	◩	\squareulblack	Square With Upper Left Diagonal Half Black
 U+025EA	◪	\sqfse	Square With Lower Right Diagonal Half Black
 U+025EB	◫	\boxbar	White Square With Vertical Bisecting Line
-U+025EC	◬	\trianglecdot	White Up-Pointing Triangle With Dot / White Up Pointing Triangle With Dot
-U+025ED	◭	\triangleleftblack	Up-Pointing Triangle With Left Half Black / Up Pointing Triangle With Left Half Black
-U+025EE	◮	\trianglerightblack	Up-Pointing Triangle With Right Half Black / Up Pointing Triangle With Right Half Black
+U+025EC	◬	\trianglecdot	White Up-Pointing Triangle With Dot
+U+025ED	◭	\triangleleftblack	Up-Pointing Triangle With Left Half Black
+U+025EE	◮	\trianglerightblack	Up-Pointing Triangle With Right Half Black
 U+025EF	◯	\lgwhtcircle	Large Circle
 U+025F0	◰	\squareulquad	White Square With Upper Left Quadrant
 U+025F1	◱	\squarellquad	White Square With Lower Left Quadrant
@@ -1012,10 +1012,10 @@ U+02667	♧	\varclubsuit	White Club Suit
 U+02668	♨	\:hotsprings:	Hot Springs
 U+02669	♩	\quarternote	Quarter Note
 U+0266A	♪	\eighthnote	Eighth Note
-U+0266B	♫	\twonotes	Beamed Eighth Notes / Barred Eighth Notes
-U+0266D	♭	\flat	Music Flat Sign / Flat
-U+0266E	♮	\natural	Music Natural Sign / Natural
-U+0266F	♯	\sharp	Music Sharp Sign / Sharp
+U+0266B	♫	\twonotes	Beamed Eighth Notes
+U+0266D	♭	\flat	Music Flat Sign
+U+0266E	♮	\natural	Music Natural Sign
+U+0266F	♯	\sharp	Music Sharp Sign
 U+0267B	♻	\:recycle:	Black Universal Recycling Symbol
 U+0267E	♾	\acidfree	Permanent Paper Sign
 U+0267F	♿	\:wheelchair:	Wheelchair Symbol
@@ -1080,8 +1080,8 @@ U+02764	❤	\:heart:	Heavy Black Heart
 U+02795	➕	\:heavy_plus_sign:	Heavy Plus Sign
 U+02796	➖	\:heavy_minus_sign:	Heavy Minus Sign
 U+02797	➗	\:heavy_division_sign:	Heavy Division Sign
-U+0279B	➛	\draftingarrow	Drafting Point Rightwards Arrow / Drafting Point Right Arrow
-U+027A1	➡	\:arrow_right:	Black Rightwards Arrow / Black Right Arrow
+U+0279B	➛	\draftingarrow	Drafting Point Rightwards Arrow
+U+027A1	➡	\:arrow_right:	Black Rightwards Arrow
 U+027B0	➰	\:curly_loop:	Curly Loop
 U+027BF	➿	\:loop:	Double Curly Loop
 U+027C0	⟀	\threedangle	Three Dimensional Angle
@@ -1250,9 +1250,9 @@ U+029C7	⧇	\boxcircle	Squared Small Circle
 U+029CA	⧊	\Lap	Triangle With Dot Above
 U+029CB	⧋	\defas	Triangle With Underbar
 U+029CF	⧏	\LeftTriangleBar	Left Triangle Beside Vertical Bar
-U+029CF, U+00338	⧏̸	\NotLeftTriangleBar	Left Triangle Beside Vertical Bar + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+029CF, U+00338	⧏̸	\NotLeftTriangleBar	Left Triangle Beside Vertical Bar, Combining Long Solidus Overlay
 U+029D0	⧐	\RightTriangleBar	Vertical Bar Beside Right Triangle
-U+029D0, U+00338	⧐̸	\NotRightTriangleBar	Vertical Bar Beside Right Triangle + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+029D0, U+00338	⧐̸	\NotRightTriangleBar	Vertical Bar Beside Right Triangle, Combining Long Solidus Overlay
 U+029DF	⧟	\dualmap	Double-Ended Multimap
 U+029E1	⧡	\lrtriangleeq	Increases As
 U+029E2	⧢	\shuffle	Shuffle Product
@@ -1377,9 +1377,9 @@ U+02A7A	⩺	\gtcir	Greater-Than With Circle Inside
 U+02A7B	⩻	\ltquest	Less-Than With Question Mark Above
 U+02A7C	⩼	\gtquest	Greater-Than With Question Mark Above
 U+02A7D	⩽	\leqslant	Less-Than Or Slanted Equal To
-U+02A7D, U+00338	⩽̸	\nleqslant	Less-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02A7D, U+00338	⩽̸	\nleqslant	Less-Than Or Slanted Equal To, Combining Long Solidus Overlay
 U+02A7E	⩾	\geqslant	Greater-Than Or Slanted Equal To
-U+02A7E, U+00338	⩾̸	\ngeqslant	Greater-Than Or Slanted Equal To + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02A7E, U+00338	⩾̸	\ngeqslant	Greater-Than Or Slanted Equal To, Combining Long Solidus Overlay
 U+02A7F	⩿	\lesdot	Less-Than Or Slanted Equal To With Dot Inside
 U+02A80	⪀	\gesdot	Greater-Than Or Slanted Equal To With Dot Inside
 U+02A81	⪁	\lesdoto	Less-Than Or Slanted Equal To With Dot Above
@@ -1415,9 +1415,9 @@ U+02A9E	⪞	\simgtr	Similar Or Greater-Than
 U+02A9F	⪟	\simlE	Similar Above Less-Than Above Equals Sign
 U+02AA0	⪠	\simgE	Similar Above Greater-Than Above Equals Sign
 U+02AA1	⪡	\NestedLessLess	Double Nested Less-Than
-U+02AA1, U+00338	⪡̸	\NotNestedLessLess	Double Nested Less-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AA1, U+00338	⪡̸	\NotNestedLessLess	Double Nested Less-Than, Combining Long Solidus Overlay
 U+02AA2	⪢	\NestedGreaterGreater	Double Nested Greater-Than
-U+02AA2, U+00338	⪢̸	\NotNestedGreaterGreater	Double Nested Greater-Than + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AA2, U+00338	⪢̸	\NotNestedGreaterGreater	Double Nested Greater-Than, Combining Long Solidus Overlay
 U+02AA3	⪣	\partialmeetcontraction	Double Nested Less-Than With Underbar
 U+02AA4	⪤	\glj	Greater-Than Overlapping Less-Than
 U+02AA5	⪥	\gla	Greater-Than Beside Less-Than
@@ -1431,9 +1431,9 @@ U+02AAC	⪬	\smte	Smaller Than Or Equal To
 U+02AAD	⪭	\late	Larger Than Or Equal To
 U+02AAE	⪮	\bumpeqq	Equals Sign With Bumpy Above
 U+02AAF	⪯	\preceq	Precedes Above Single-Line Equals Sign
-U+02AAF, U+00338	⪯̸	\npreceq	Precedes Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AAF, U+00338	⪯̸	\npreceq	Precedes Above Single-Line Equals Sign, Combining Long Solidus Overlay
 U+02AB0	⪰	\succeq	Succeeds Above Single-Line Equals Sign
-U+02AB0, U+00338	⪰̸	\nsucceq	Succeeds Above Single-Line Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AB0, U+00338	⪰̸	\nsucceq	Succeeds Above Single-Line Equals Sign, Combining Long Solidus Overlay
 U+02AB1	⪱	\precneq	Precedes Above Single-Line Not Equal To
 U+02AB2	⪲	\succneq	Succeeds Above Single-Line Not Equal To
 U+02AB3	⪳	\preceqq	Precedes Above Equals Sign
@@ -1455,9 +1455,9 @@ U+02AC2	⫂	\supmult	Superset With Multiplication Sign Below
 U+02AC3	⫃	\subedot	Subset Of Or Equal To With Dot Above
 U+02AC4	⫄	\supedot	Superset Of Or Equal To With Dot Above
 U+02AC5	⫅	\subseteqq	Subset Of Above Equals Sign
-U+02AC5, U+00338	⫅̸	\nsubseteqq	Subset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AC5, U+00338	⫅̸	\nsubseteqq	Subset Of Above Equals Sign, Combining Long Solidus Overlay
 U+02AC6	⫆	\supseteqq	Superset Of Above Equals Sign
-U+02AC6, U+00338	⫆̸	\nsupseteqq	Superset Of Above Equals Sign + Combining Long Solidus Overlay / Non-Spacing Long Slash Overlay
+U+02AC6, U+00338	⫆̸	\nsupseteqq	Superset Of Above Equals Sign, Combining Long Solidus Overlay
 U+02AC7	⫇	\subsim	Subset Of Above Tilde Operator
 U+02AC8	⫈	\supsim	Superset Of Above Tilde Operator
 U+02AC9	⫉	\subsetapprox	Subset Of Above Almost Equal To

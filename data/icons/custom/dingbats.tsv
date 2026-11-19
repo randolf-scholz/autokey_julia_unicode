@@ -1,8 +1,8 @@
 code_points	chars	tab_completions	unicode_name	base
 U+2139, U+FE0F	ℹ️	\:info:, \info	Information source	i
 U+2610	☐	\bbox	Ballot Box	☐
-U+2611	☑	\checkedbox	Checked Checkbox	☑
-U+2612	☒	\checkbox	Checkbox	☒
+U+2611	☑	\checkedbox	Ballot Box With Check	☑
+U+2612	☒	\checkbox	Ballot Box With X	☒
 U+2620, U+FE0F	☠️	\skull	Skull and crossbones	☠
 U+2622, U+FE0F	☢️	\radioactive	Radioactive Sign	☢
 U+2623, U+FE0F	☣️	\biohazard	Biohazard Sign	☣
@@ -12,7 +12,7 @@ U+2692, U+FE0F	⚒️	\hammer&pick	Hammer and Pick	⚒
 U+2693, U+FE0F	⚓️	\anchor	Anchor	⚓
 U+2694, U+FE0F	⚔️	\swords	Crossed Swords	⚔
 U+2695, U+FE0F	⚕️	\medical	Staff of Aesculapius	⚕
-U+2696, U+FE0F	⚖️	\scales	Scales of Justice	⚖
+U+2696, U+FE0F	⚖️	\scales	Scales	⚖
 U+2697, U+FE0F	⚗️	\alembic	Alembic	⚗
 U+2699, U+FE0F	⚙️	\gear	Gear	⚙
 U+269B, U+FE0F	⚛️	\atom	Atom Symbol	⚛

@@ -1,7 +1,7 @@
 code_points	chars	tab_completions	unicode_name
 U+0021	!	\emark	Exclamation Mark
-U+0022	"	\quote	Double Quote
-U+0023	#	\pound, \number, \hash	Pound Sign
+U+0022	"	\quote	Quotation Mark
+U+0023	#	\pound, \number, \hash	Number Sign
 U+0024	$	\dollar	Dollar Sign
 U+0025	%	\percent	Percent Sign
 U+0026	&	\ampersand	Ampersand
@@ -11,7 +11,7 @@ U+0029	)	\rparen	Right Parenthesis
 U+002A	*	\asterisk	Asterisk
 U+002B	+	\asciiplus	Plus Sign
 U+002C	,	\asciicomma	Comma
-U+002D	-	\asciiminus	Minus Sign
+U+002D	-	\asciiminus	Hyphen-Minus
 U+002E	.	\period	Full Stop
 U+002F	/	\slash	Solidus
 U+0030	0	\zero	Digit Zero
