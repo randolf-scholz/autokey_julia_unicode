@@ -119,9 +119,8 @@ def test_exact_replacement_identity_is_checked_without_name_checks(
     with TemporaryDirectory() as directory:
         path = Path(directory) / ICONS_FILENAME
         path.write_text(HEADER + f"{points}\t{chars}\t\t\n")
-        assert "chars: does not match code_points" in "\n".join(
-            map(str, validate_tsv(path))
-        )
+        errors = list(validate_tsv(path))
+        assert "chars: does not match code_points" in "\n".join(map(str, errors))
 
 
 @pytest.mark.parametrize("point", [0xFE00, 0xFE0F, 0xE0100, 0xE01EF])
@@ -134,9 +133,8 @@ def test_variation_selectors_are_preserved_and_use_base_name(point: int) -> None
         )
         assert list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv)) == []
         path.write_text(path.read_text().replace("Grinning Face", "Wrong name"))
-        assert "unicode_name: expected" in "\n".join(
-            map(str, validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
-        )
+        errors = list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
+        assert "unicode_name: expected" in "\n".join(map(str, errors))
 
 
 @pytest.mark.parametrize(
@@ -302,12 +300,8 @@ def test_cli_continues_after_missing_files_bad_headers_and_encoding() -> None:
         (directory / "bad-header.tsv").write_text("code_points\tchars\n")
         (directory / "bad-encoding.tsv").write_bytes(b"\xff")
         (directory / "valid.tsv").write_text(HEADER + ROW)
-        assert (
-            main(
-                ["--verbose", str(directory / "missing*.tsv"), str(directory / "*.tsv")]
-            )
-            == 1
-        )
+        args = ["--verbose", str(directory / "missing*.tsv"), str(directory / "*.tsv")]
+        assert main(args) == 1
         assert "No files match" in stderr.getvalue()
         assert "invalid UTF-8" in stderr.getvalue()
         assert "missing required columns" in stderr.getvalue()
