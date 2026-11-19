@@ -17,8 +17,7 @@
   12 obsolete aliases, increasing the table by 99 replacement entries. For example,
   use `\Mu` instead of `\upMu`, `\omicron` instead of `\upomicron`, and
   `\sqsupsetneq` instead of `\sqspne`.
-- Integrated the bundled LaTeX snippets and brace-delimited subscript/superscript
-  conversion script into installation, e.g. `\_{123}` → `₁₂₃`.
+- Integrated the bundled LaTeX snippets into installation.
   Added table, `tblr`, and Markdown details snippets.
 - Added scripts and `just` recipes to refresh source tables: `import-julia` for
   Julia's installed LaTeX and emoji completions, `fetch-ucd` to download a selected
