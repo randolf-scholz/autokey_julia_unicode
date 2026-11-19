@@ -20,7 +20,7 @@ UCD_DIR = Path(__file__).resolve().parents[1] / "third_party" / "ucd"
 UCD_FILENAMES = ("Blocks.txt", "ReadMe.txt", "UnicodeData.txt")
 UNICODE_DATA_FIELD_COUNT = 15
 MAX_CODE_POINT = 0x10FFFF
-DOWNLOAD_TIMEOUT_SECONDS = 30
+TIMEOUT = 30
 
 
 def normalize_version(version: str) -> str:
@@ -34,11 +34,11 @@ def normalize_version(version: str) -> str:
     return ".".join(str(int(part or "0")) for part in match.groups())
 
 
-def download(url: str) -> bytes:
-    """Download a file, raising on HTTP errors, timeouts, or empty responses."""
+def download(url: str, *, timeout: float | None = TIMEOUT, **request_kwargs) -> bytes:
+    """Read a response body, raising on request errors or empty responses."""
     print(f"Downloading {url}", flush=True)
-    # Release URLs use the fixed HTTPS Unicode host and validated versions.
-    with urlopen(url, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response:  # noqa: S310
+    # Fetching releases uses the fixed HTTPS Unicode host and validated versions.
+    with urlopen(url, timeout=timeout, **request_kwargs) as response:  # noqa: S310
         data = response.read()
     if not data:
         raise ValueError(f"Empty response from {url}")
@@ -94,14 +94,21 @@ def validate_files(files: dict[str, bytes], version: str) -> None:
             raise ValueError(f"Invalid Unicode code point on line {number}")
 
 
-def fetch_release(version: str, destination: Path) -> str:
-    """Download and validate all four files, then replace the local copies."""
+def fetch_release(version: str, destination: Path, **request_kwargs) -> str:
+    """Fetch and validate release files, then replace local copies."""
+    version = normalize_version(version)
+    if version == "latest":
+        url = f"{UNICODE_URL}/Public/UCD/latest/ucd/ReadMe.txt"
+        readme = download(url, **request_kwargs)
+        # Pin the resolved release so a change to latest cannot mix versions.
+        version = read_version(readme)
+
     base_url = f"{UNICODE_URL}/Public/{version}/ucd"
     sources = {
         "LICENSE": f"{UNICODE_URL}/license.txt",
         **{name: f"{base_url}/{name}" for name in UCD_FILENAMES},
     }
-    files = {name: download(url) for name, url in sources.items()}
+    files = {name: download(url, **request_kwargs) for name, url in sources.items()}
     validate_files(files, version)
 
     destination = destination.resolve()
@@ -115,16 +122,6 @@ def fetch_release(version: str, destination: Path) -> str:
 
     print(f"Fetched Unicode {version} into {destination}")
     return version
-
-
-def fetch_ucd(version: str = "latest", destination: Path = UCD_DIR) -> str:
-    """Fetch the requested release, resolving latest to a fixed version first."""
-    version = normalize_version(version)
-    if version == "latest":
-        readme = download(f"{UNICODE_URL}/Public/UCD/latest/ucd/ReadMe.txt")
-        # Pin the resolved release so a change to latest cannot mix versions.
-        version = read_version(readme)
-    return fetch_release(version, destination)
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -143,7 +140,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
     try:
-        fetch_ucd(args.version, args.output_dir)
+        fetch_release(args.version, args.output_dir)
     except (OSError, ValueError, HTTPException) as error:
         print(f"error: {error}", file=sys.stderr)
         return 1

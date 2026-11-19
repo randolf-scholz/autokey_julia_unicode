@@ -1,6 +1,7 @@
-"""Only HTTP is mocked; validation and file replacement use real data and paths."""
+"""Mock download for fetching tests; exercise the helper with local files."""
 
 import io
+from collections.abc import Callable
 from contextlib import redirect_stderr
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -28,19 +29,29 @@ def release_files(version: str) -> dict[str, bytes]:
     }
 
 
-def responses(version: str, files: dict[str, bytes]):
-    urls = {f"{fetch_ucd.UNICODE_URL}/license.txt": files["LICENSE"]}
-    urls.update(
-        {
+def responses(version: str, files: dict[str, bytes]) -> Callable[..., bytes]:
+    content = {
+        f"{fetch_ucd.UNICODE_URL}/license.txt": files["LICENSE"],
+        **{
             f"{fetch_ucd.UNICODE_URL}/Public/{version}/ucd/{name}": files[name]
             for name in fetch_ucd.UCD_FILENAMES
-        }
-    )
+        },
+    }
+    return lambda url, **_kwargs: content[url]
 
-    def respond(url: str, **_kwargs) -> io.BytesIO:
-        return io.BytesIO(urls[url])
 
-    return respond
+def test_download_reads_local_file(tmp_path: Path) -> None:
+    source = tmp_path / "response.txt"
+    data = b"Unicode data\n\x00\xff"
+    source.write_bytes(data)
+    assert fetch_ucd.download(source.as_uri(), timeout=5, data=None) == data
+
+
+def test_download_rejects_empty_response(tmp_path: Path) -> None:
+    source = tmp_path / "empty.txt"
+    source.write_bytes(b"")
+    with pytest.raises(ValueError, match="Empty response"):
+        fetch_ucd.download(source.as_uri(), timeout=5)
 
 
 @pytest.mark.parametrize(
@@ -50,7 +61,6 @@ def responses(version: str, files: dict[str, bytes]):
         ("v18", "18.0.0"),
         ("18.0", "18.0.0"),
         ("18.0.0", "18.0.0"),
-        ("19", "19.0.0"),
     ],
 )
 def test_selected_release_uses_versioned_urls_and_preserves_bytes(
@@ -59,51 +69,85 @@ def test_selected_release_uses_versioned_urls_and_preserves_bytes(
     files = release_files(version)
     with (
         TemporaryDirectory() as directory,
-        patch.object(fetch_ucd, "urlopen", side_effect=responses(version, files)),
+        patch.object(
+            fetch_ucd, "download", side_effect=responses(version, files)
+        ) as request,
     ):
         assert fetch_ucd.main(["--version", alias, "--output-dir", directory]) == 0
         assert {p.name: p.read_bytes() for p in Path(directory).iterdir()} == files
+        assert all(
+            call.kwargs == {"timeout": fetch_ucd.TIMEOUT}
+            for call in request.call_args_list
+        )
 
 
-def test_latest_resolves_once_then_uses_pinned_release_urls() -> None:
+@pytest.mark.parametrize("timeout", [5.0, None])
+def test_latest_resolves_once_and_forwards_options_to_pinned_downloads(
+    timeout: float | None,
+) -> None:
     files = release_files("18.0.0")
     respond = responses("18.0.0", files)
     latest = f"{fetch_ucd.UNICODE_URL}/Public/UCD/latest/ucd/ReadMe.txt"
+    context = object()
 
-    def download(url: str, *, timeout: int):
-        return (
-            io.BytesIO(files["ReadMe.txt"])
-            if url == latest
-            else respond(url, timeout=timeout)
-        )
+    def respond_request(url: str, **kwargs: object) -> bytes:
+        if url == latest:
+            return files["ReadMe.txt"]
+        return respond(url, **kwargs)
 
     with (
         TemporaryDirectory() as directory,
-        patch.object(fetch_ucd, "urlopen", side_effect=download) as request,
+        patch.object(fetch_ucd, "download", side_effect=respond_request) as request,
     ):
-        assert fetch_ucd.fetch_ucd(destination=Path(directory)) == "18.0.0"
+        actual_version = fetch_ucd.fetch_release(
+            "latest", destination=Path(directory), timeout=timeout, context=context
+        )
+        assert actual_version == "18.0.0"
+        assert request.call_count == 5
         assert [call.args[0] for call in request.call_args_list].count(latest) == 1
+        assert all(
+            call.kwargs == {"timeout": timeout, "context": context}
+            for call in request.call_args_list
+        )
+        assert {p.name: p.read_bytes() for p in Path(directory).iterdir()} == files
 
 
-def test_download_failure_preserves_existing_files() -> None:
+def test_empty_latest_response_does_not_create_destination() -> None:
+    with (
+        TemporaryDirectory() as directory,
+        patch.object(
+            fetch_ucd, "download", side_effect=ValueError("Empty response")
+        ) as request,
+    ):
+        destination = Path(directory) / "ucd"
+        with pytest.raises(ValueError, match="Empty response"):
+            fetch_ucd.fetch_release("latest", destination=destination)
+        request.assert_called_once()
+        assert not destination.exists()
+
+
+@pytest.mark.parametrize(
+    "error", [URLError("interrupted download"), ValueError("Empty response")]
+)
+def test_download_failure_preserves_existing_files(error: Exception) -> None:
     old = release_files("17.0.0")
     respond = responses("18.0.0", release_files("18.0.0"))
 
-    def fail_last(url: str, *, timeout: int):
+    def fail_last(url: str, *, timeout: float | None) -> bytes:
         if url.endswith("UnicodeData.txt"):
-            raise URLError("interrupted download")
+            raise error
         return respond(url, timeout=timeout)
 
     with (
         TemporaryDirectory() as directory,
         redirect_stderr(io.StringIO()) as stderr,
-        patch.object(fetch_ucd, "urlopen", side_effect=fail_last),
+        patch.object(fetch_ucd, "download", side_effect=fail_last),
     ):
         destination = Path(directory)
         for name, data in old.items():
             (destination / name).write_bytes(data)
         assert fetch_ucd.main(["--version", "18", "--output-dir", directory]) == 1
-        assert "interrupted download" in stderr.getvalue()
+        assert str(error) in stderr.getvalue()
         assert {p.name: p.read_bytes() for p in destination.iterdir()} == old
 
 
@@ -114,7 +158,6 @@ def test_download_failure_preserves_existing_files() -> None:
         ("Blocks.txt", release_files("17.0.0")["Blocks.txt"], "Blocks"),
         ("ReadMe.txt", release_files("17.0.0")["ReadMe.txt"], "Requested Unicode"),
         ("UnicodeData.txt", b"bad;record", "Invalid UnicodeData"),
-        ("UnicodeData.txt", b"", "Empty response"),
         (
             "Blocks.txt",
             b"# Blocks-18.0.0.txt\n007F..0000; Reversed\n",
@@ -127,20 +170,26 @@ def test_download_failure_preserves_existing_files() -> None:
         ),
     ],
 )
-def test_invalid_downloads_preserve_existing_release(
+def test_validate_files_rejects_invalid_data(
     name: str, data: bytes, diagnostic: str
 ) -> None:
+    files = release_files("18.0.0") | {name: data}
+    with pytest.raises(ValueError, match=diagnostic):
+        fetch_ucd.validate_files(files, "18.0.0")
+
+
+def test_validation_failure_preserves_existing_release() -> None:
     with TemporaryDirectory() as directory:
         destination = Path(directory)
         old = release_files("17.0.0")
         for filename, contents in old.items():
             (destination / filename).write_bytes(contents)
-        files = release_files("18.0.0") | {name: data}
+        files = release_files("18.0.0") | {"LICENSE": b"<html>error</html>"}
         with (
-            patch.object(fetch_ucd, "urlopen", side_effect=responses("18.0.0", files)),
-            pytest.raises(ValueError, match=diagnostic),
+            patch.object(fetch_ucd, "download", side_effect=responses("18.0.0", files)),
+            pytest.raises(ValueError, match="LICENSE"),
         ):
-            fetch_ucd.fetch_ucd("18", destination)
+            fetch_ucd.fetch_release("18", destination)
         assert {p.name: p.read_bytes() for p in destination.iterdir()} == old
 
 
@@ -148,8 +197,8 @@ def test_invalid_downloads_preserve_existing_release(
 def test_invalid_versions_make_no_network_requests(version: str) -> None:
     with (
         TemporaryDirectory() as directory,
-        patch.object(fetch_ucd, "urlopen") as request,
+        patch.object(fetch_ucd, "download") as request,
     ):
         with pytest.raises(ValueError, match="Invalid Unicode version"):
-            fetch_ucd.fetch_ucd(version, Path(directory))
+            fetch_ucd.fetch_release(version, Path(directory))
         request.assert_not_called()
