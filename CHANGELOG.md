@@ -17,6 +17,8 @@
   12 obsolete aliases, increasing the table by 99 replacement entries. For example,
   use `\Mu` instead of `\upMu`, `\omicron` instead of `\upomicron`, and
   `\sqsupsetneq` instead of `\sqspne`.
+  Generated descriptions use current Unicode names, omitting legacy Unicode 1.0 names.
+  Names for sequences are comma-space-separated, including variation selectors.
 - Integrated the bundled LaTeX snippets into installation.
   Added table, `tblr`, and Markdown details snippets.
 - Added scripts and `just` recipes to refresh source tables: `import-julia` for
@@ -26,12 +28,15 @@
   Julia and TeX are only required for their respective imports.
 - Updated bundled Unicode reference data from 15.1.0 to 18.0.0. Regenerated the
   per-block tables and added a combined character table and block index.
+  Fetch and use `NameAliases.txt` to fill unnamed entries with their first alias;
+  exported name lists must be nonempty.
   Available abbreviations still come from the Julia and custom icon collections.
 - Standardized icon TSVs and added schemas and validation. Custom tables must use
   the new column names (`code_points`, `chars`, `tab_completions`, `unicode_name`)
   and comma-space-separated code points. Replacement text is preserved exactly,
   without display padding and including variation selectors. Added
   `src/validate_tsv.py` / `just validate`, with optional Unicode-name checks.
+  Directory inputs select TSV files recursively; files and glob patterns can be mixed.
 - Added a LaTeX2e-to-Unicode reference table with 635 mappings, distinguishing
   text and math modes, together with its schema and source provenance.
 - Added installation and contributor guides, source-data and schema documentation,

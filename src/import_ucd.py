@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Import Unicode data into TSV files with ``python src/import_ucd.py``.
 
-Read Blocks.txt and UnicodeData.txt from third_party/ucd. Write schema-compliant
-tables to data/ucd/blocks, their concatenation to data/ucd/unicode.tsv, and
-the block index to data/ucd/blocks.tsv. Skip UnicodeData's First/Last ranges,
+Read Blocks.txt, UnicodeData.txt, and NameAliases.txt from third_party/ucd.
+Write schema-compliant tables to data/ucd/blocks, their concatenation to
+data/ucd/unicode.tsv, and the block index to data/ucd/blocks.tsv.
+Skip UnicodeData's First/Last ranges,
 including their endpoint records, to keep the symbol tables compact.
 Omit surrogates because they cannot be encoded as standalone UTF-8 symbols.
 """
@@ -99,8 +100,27 @@ def read_blocks(path: Path) -> list[UnicodeBlock]:
     return blocks
 
 
+def read_name_aliases(path: Path) -> dict[int, str]:
+    """Read the first alias for each code point, preserving file order."""
+    aliases = {}
+    with path.open(encoding="utf-8") as source:
+        for number, line in enumerate(source, start=1):
+            line = line.partition("#")[0].strip()
+            if not line:
+                continue
+            fields = [field.strip() for field in line.split(";")]
+            if len(fields) != 3 or not fields[1] or not fields[2]:
+                raise ValueError(f"{path}:{number}: invalid name alias")
+            point = int(fields[0], 16)
+            if not 0 <= point <= MAX_CODE_POINT:
+                raise ValueError(f"{path}:{number}: invalid alias code point")
+            aliases.setdefault(point, fields[1])
+    return aliases
+
+
 def read_unicode_names(path: Path) -> dict[int, str]:
     """Read explicit scalar records, omitting First/Last ranges and surrogates."""
+    aliases = read_name_aliases(path.with_name("NameAliases.txt"))
     names = {}
     has_records = False
     with path.open(encoding="utf-8", newline="") as source:
@@ -128,7 +148,13 @@ def read_unicode_names(path: Path) -> dict[int, str]:
                 continue
             if point in names:
                 raise ValueError(f"{path}:{line_number}: duplicate code point")
-            names[point] = "" if name.startswith("<") else name
+            name = "" if name.startswith("<") else name
+            name = name or aliases.get(point, "")
+            if not name:
+                raise ValueError(
+                    f"{path}:{line_number}: no name or alias for U+{point:04X}"
+                )
+            names[point] = name
 
     if not has_records:
         raise ValueError(f"{path}: no Unicode records found")

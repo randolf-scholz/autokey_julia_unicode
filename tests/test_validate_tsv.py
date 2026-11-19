@@ -27,8 +27,14 @@ def write_unicode_tsv(directory: Path) -> Path:
     path.write_text(
         "unicode_name\tcode_points\tchars\n"
         "LATIN CAPITAL LETTER A\tU+0041\tA\n"
-        "\tU+000A\t\n"
+        "LATIN SMALL LETTER E\tU+0065\te\n"
+        "COMBINING ACUTE ACCENT\tU+0301\t́\n"
+        "LINE FEED\tU+000A\t\n"
         "GRINNING FACE\tU+1F600\t😀\n"
+        "VARIATION SELECTOR-1\tU+FE00\t︀\n"
+        "VARIATION SELECTOR-16\tU+FE0F\t️\n"
+        "VARIATION SELECTOR-17\tU+E0100\t󠄀\n"
+        "VARIATION SELECTOR-256\tU+E01EF\t󠇯\n"
     )
     return path
 
@@ -43,14 +49,14 @@ def write_unicode_tsv(directory: Path) -> Path:
         ROW.rstrip("\n"),
         ROW.replace("\n", "\r\n"),
         "U+0041\t\t\\A\tLATIN CAPITAL LETTER A\n",
-        "U+0009\t\t\t\n",
-        "U+000D, U+000A\t\t\t\n",
+        "U+0009\t\t\tCHARACTER TABULATION\n",
+        "U+000D, U+000A\t\t\tCARRIAGE RETURN, LINE FEED\n",
         'U+0022\t"\t\\quote\tQUOTATION MARK\n',
-        "U+005C, U+006E\t\\n\t\t\n",
-        "U+000B\t\v\t\t\n",
-        "U+0000\t\0\t\t\n",
+        "U+005C, U+006E\t\\n\t\tREVERSE SOLIDUS, LATIN SMALL LETTER N\n",
+        "U+000B\t\v\t\tLINE TABULATION\n",
+        "U+0000\t\0\t\tNULL\n",
         "U+0020\t \t\tSPACE\n",
-        "U+0041, U+0041\tAA\t\\AA\t\n",
+        "U+0041, U+0041\tAA\t\\AA\tLATIN CAPITAL LETTER A, LATIN CAPITAL LETTER A\n",
         "U+0301\t́\t\\acute\tCOMBINING ACUTE ACCENT\n",
         "U+0065, U+0301\té\t\\eacute\tCustom sequence name\n",
         "U+0041\tA\t\tLATIN CAPITAL LETTER A\n",
@@ -77,18 +83,29 @@ def test_valid_icon_records(row: str) -> None:
         (HEADER + "U+0041\tA\t\\A\n", "expected 4 fields"),
         (HEADER + ROW.rstrip("\n") + "\textra\n", "expected 4 fields"),
         (HEADER + "\tA\t\\A\t\n", "code_points: must not be empty"),
-        (HEADER + "U+0041, \tA\t\t\n", "empty list item"),
-        (HEADER + "U+0041,U+0041\tAA\t\t\n", "invalid item pattern"),
-        (HEADER + "U+41\tA\t\t\n", "invalid item pattern"),
-        (HEADER + "U+03b1\tα\t\t\n", "invalid item pattern"),
-        (HEADER + "U+D800\t\t\t\n", "invalid Unicode scalar value"),
-        (HEADER + "U+110000\t\t\t\n", "invalid Unicode scalar value"),
+        (HEADER + "U+0041, \tA\t\tNAME\n", "empty list item"),
+        (HEADER + "U+0041,U+0041\tAA\t\tNAME\n", "invalid item pattern"),
+        (HEADER + "U+41\tA\t\tNAME\n", "invalid item pattern"),
+        (HEADER + "U+03b1\tα\t\tNAME\n", "invalid item pattern"),
+        (HEADER + "U+D800\t\t\tNAME\n", "invalid Unicode scalar value"),
+        (HEADER + "U+110000\t\t\tNAME\n", "invalid Unicode scalar value"),
+        (
+            HEADER + ROW.replace("LATIN CAPITAL LETTER A", ""),
+            "unicode_name: must not be empty",
+        ),
+        (
+            HEADER + ROW.replace("LATIN CAPITAL LETTER A", "NAME, "),
+            "unicode_name: empty list item",
+        ),
         (HEADER + ROW.replace("\\A", "A"), "tab_completions: invalid item pattern"),
         (HEADER + ROW.replace("\\A", "\\A "), "tab_completions: invalid item pattern"),
         (HEADER + ROW.replace("\\A", "\\α"), "tab_completions: invalid item pattern"),
         (HEADER + ROW.replace("\\A", "\\A, \\A"), "duplicate list item"),
         (HEADER + 'U+0009\t"\t"\t\t\n', "expected 4 fields"),
-        (HEADER + 'U+0022\t""\t\t\n', "chars: does not match code_points"),
+        (
+            HEADER + 'U+0022\t""\t\tQUOTATION MARK\n',
+            "chars: does not match code_points",
+        ),
     ],
 )
 def test_invalid_icon_records_report_file(contents: str, error: str) -> None:
@@ -118,19 +135,24 @@ def test_exact_replacement_identity_is_checked_without_name_checks(
 ) -> None:
     with TemporaryDirectory() as directory:
         path = Path(directory) / ICONS_FILENAME
-        path.write_text(HEADER + f"{points}\t{chars}\t\t\n")
+        path.write_text(HEADER + f"{points}\t{chars}\t\tNAME\n")
         errors = list(validate_tsv(path))
         assert "chars: does not match code_points" in "\n".join(map(str, errors))
 
 
 @pytest.mark.parametrize("point", [0xFE00, 0xFE0F, 0xE0100, 0xE01EF])
-def test_variation_selectors_are_preserved_and_use_base_name(point: int) -> None:
+@pytest.mark.parametrize("include_selector", [False, True])
+def test_variation_selectors_accept_full_or_base_names(
+    point: int, *, include_selector: bool
+) -> None:
     with TemporaryDirectory() as directory:
         path = Path(directory) / ICONS_FILENAME
         unicode_tsv = write_unicode_tsv(Path(directory))
-        path.write_text(
-            HEADER + f"U+1F600, U+{point:04X}\t😀{chr(point)}\t\tGrinning Face\n"
-        )
+        name = "Grinning Face"
+        if include_selector:
+            number = point - 0xFE00 + 1 if point <= 0xFE0F else point - 0xE0100 + 17
+            name += f", Variation Selector-{number}"
+        path.write_text(HEADER + f"U+1F600, U+{point:04X}\t😀{chr(point)}\t\t{name}\n")
         assert list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv)) == []
         path.write_text(path.read_text().replace("Grinning Face", "Wrong name"))
         errors = list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
@@ -144,7 +166,20 @@ def test_variation_selectors_are_preserved_and_use_base_name(point: int) -> None
         (ROW.replace("LATIN CAPITAL LETTER A", ""), False),
         (ROW.replace("LATIN CAPITAL LETTER A", "LATIN CAPITAL LETTER A "), False),
         ("U+E001\t\t\tCustom name\n", True),
-        ("U+0065, U+0301\té\t\tCustom sequence name\n", True),
+        ("U+0065, U+0301\té\t\tCustom sequence name\n", False),
+        ("U+0065, U+0301\té\t\tLatin Small Letter E, Combining Acute Accent\n", True),
+        ("U+0065, U+0301\té\t\tCombining Acute Accent, Latin Small Letter E\n", False),
+        ("U+0065, U+0301\té\t\tLatin Small Letter E\n", False),
+        (
+            "U+0041, U+0041\tAA\t\tLATIN CAPITAL LETTER A, LATIN CAPITAL LETTER A\n",
+            True,
+        ),
+        ("U+1F600, U+FE0F\t😀️\t\tGrinning Face, Variation Selector-1\n", False),
+        ("U+000A, U+0041\t\t\tLINE FEED, LATIN CAPITAL LETTER A\n", True),
+        ("U+0041, U+000A\t\t\tLATIN CAPITAL LETTER A, LINE FEED\n", True),
+        ("U+000A, U+000A\t\t\tLINE FEED, LINE FEED\n", True),
+        ("U+000A\t\t\tLINE FEED\n", True),
+        ("U+000A\t\t\t\n", False),
         ("U+000A\t\t\tLINE FEED (LF)\n", False),
     ],
 )
@@ -155,6 +190,44 @@ def test_unicode_name_contract(row: str, *, valid: bool) -> None:
         path.write_text(HEADER + row)
         errors = list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
         assert bool(errors) is not valid
+
+
+@pytest.mark.parametrize(
+    "name",
+    [
+        "NAME / LEGACY NAME",
+        "NAME + OTHER NAME",
+        "NAME (ALIAS)",
+        "NAME,OTHER NAME",
+        "NÁME",
+    ],
+)
+def test_unicode_name_pattern_rejects_nonstandard_items(
+    name: str, tmp_path: Path
+) -> None:
+    path = tmp_path / ICONS_FILENAME
+    path.write_text(HEADER + ROW.replace("LATIN CAPITAL LETTER A", name))
+    assert "unicode_name: invalid item pattern" in "\n".join(
+        map(str, validate_tsv(path))
+    )
+
+
+@pytest.mark.parametrize("name", ["TIBETAN LETTER -A", "VARIATION SELECTOR-16"])
+def test_unicode_name_pattern_accepts_hyphenated_names(
+    name: str, tmp_path: Path
+) -> None:
+    path = tmp_path / ICONS_FILENAME
+    path.write_text(HEADER + ROW.replace("LATIN CAPITAL LETTER A", name))
+    assert list(validate_tsv(path)) == []
+
+
+def test_unicode_name_spacing_is_checked_against_reference(tmp_path: Path) -> None:
+    path = tmp_path / ICONS_FILENAME
+    path.write_text(HEADER + ROW.replace("CAPITAL LETTER", "CAPITAL  LETTER"))
+    assert list(validate_tsv(path)) == []
+    unicode_tsv = write_unicode_tsv(tmp_path)
+    errors = list(validate_tsv(path, check_icons=True, unicode_tsv=unicode_tsv))
+    assert "unicode_name: expected" in "\n".join(map(str, errors))
 
 
 def test_headers_use_names_and_allow_extra_metadata() -> None:
@@ -246,7 +319,9 @@ def test_reader_uses_schema_encoding_delimiter_and_quoting() -> None:
 def test_validation_recovers_from_row_errors_and_counts_valid_rows() -> None:
     with TemporaryDirectory() as directory:
         path = Path(directory) / ICONS_FILENAME
-        path.write_text(HEADER + "bad\tA\talias\t\n" + "U+0041\tN\t\\A\t\n" + ROW)
+        path.write_text(
+            HEADER + "bad\tA\talias\tNAME\n" + "U+0041\tN\t\\A\tNAME\n" + ROW
+        )
         stats = ValidationStats()
         errors = list(validate_tsv(path, stats=stats))
         assert stats == ValidationStats(rows_validated=1, rows_total=3)
@@ -326,7 +401,16 @@ def test_cli_counts_valid_rows_on_failure() -> None:
 
 @pytest.mark.parametrize(
     ("pattern", "count"),
-    [(".", 2), ("*.tsv", 2), ("**/*.tsv", 3), ("literal[1].tsv", 1)],
+    [
+        (".", 3),
+        ("./", 3),
+        ("nested", 1),
+        ("nested/", 1),
+        ("*", 3),
+        ("*.tsv", 2),
+        ("**/*.tsv", 3),
+        ("literal[1].tsv", 1),
+    ],
 )
 @pytest.mark.parametrize("absolute", [False, True])
 def test_cli_directories_globs_and_literal_paths(
@@ -345,11 +429,39 @@ def test_cli_directories_globs_and_literal_paths(
             nested / "second.tsv",
         ):
             path.write_text(HEADER)
+        (nested / "ignored.md").write_text("Not a TSV file")
         (directory / "not-a-file.tsv").mkdir()
         path = directory / pattern
         argument = str(path if absolute else path.relative_to(Path.cwd(), walk_up=True))
+        if pattern.endswith("/"):
+            argument += "/"
         assert main(["--verbose", argument]) == 0
         assert f"{count}/{count} files validated" in stdout.getvalue()
+
+
+def test_cli_accepts_multiple_files_directories_and_globs(tmp_path: Path) -> None:
+    direct = tmp_path / "direct.tsv"
+    collection = tmp_path / "collection"
+    nested = collection / "nested" / "icons.tsv"
+    patterns = tmp_path / "patterns"
+    nested.parent.mkdir(parents=True)
+    patterns.mkdir()
+    for path in (direct, nested, patterns / "selected.tsv"):
+        path.write_text(HEADER + ROW)
+    (collection / "ignored.txt").write_text("Not a TSV file")
+    with redirect_stdout(StringIO()) as stdout:
+        assert (
+            main(["--verbose", str(direct), str(collection), str(patterns / "*.tsv")])
+            == 0
+        )
+    assert "3/3 files validated" in stdout.getvalue()
+
+
+def test_cli_reports_directories_without_tsv_files(tmp_path: Path) -> None:
+    (tmp_path / "ignored.txt").write_text("Not a TSV file")
+    with redirect_stderr(StringIO()) as stderr:
+        assert main([str(tmp_path)]) == 1
+    assert f"No files match: {tmp_path}" in stderr.getvalue()
 
 
 def test_missing_schema_is_a_diagnostic() -> None:

@@ -17,7 +17,7 @@ from urllib.request import urlopen
 
 UNICODE_URL = "https://www.unicode.org"
 UCD_DIR = Path(__file__).resolve().parents[1] / "third_party" / "ucd"
-UCD_FILENAMES = ("Blocks.txt", "ReadMe.txt", "UnicodeData.txt")
+UCD_FILENAMES = ("Blocks.txt", "ReadMe.txt", "UnicodeData.txt", "NameAliases.txt")
 UNICODE_DATA_FIELD_COUNT = 15
 MAX_CODE_POINT = 0x10FFFF
 TIMEOUT = 30
@@ -92,6 +92,25 @@ def validate_files(files: dict[str, bytes], version: str) -> None:
         point = int(fields[0], 16)
         if not 0 <= point <= MAX_CODE_POINT:
             raise ValueError(f"Invalid Unicode code point on line {number}")
+
+    aliases = files["NameAliases.txt"].decode("utf-8")
+    if not aliases.startswith(f"# NameAliases-{version}.txt"):
+        raise ValueError(f"NameAliases.txt does not identify Unicode {version}")
+    alias_rows = [line.partition("#")[0].strip() for line in aliases.splitlines()]
+    alias_rows = [line for line in alias_rows if line]
+    if not alias_rows:
+        raise ValueError("NameAliases.txt contains no aliases")
+    for row in alias_rows:
+        fields = [field.strip() for field in row.split(";")]
+        if (
+            len(fields) != 3
+            or not fields[1]
+            or fields[2]
+            not in {"correction", "control", "alternate", "figment", "abbreviation"}
+        ):
+            raise ValueError("Invalid NameAliases.txt record")
+        if not 0 <= int(fields[0], 16) <= MAX_CODE_POINT:
+            raise ValueError("Invalid NameAliases.txt code point")
 
 
 def fetch_release(version: str, destination: Path, **request_kwargs) -> str:

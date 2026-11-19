@@ -29,9 +29,10 @@ overwrites their local copies only after all downloads and checks succeed:
 | `ucd/Blocks.txt`      | <https://www.unicode.org/Public/18.0.0/ucd/Blocks.txt>      |
 | `ucd/ReadMe.txt`      | <https://www.unicode.org/Public/18.0.0/ucd/ReadMe.txt>      |
 | `ucd/UnicodeData.txt` | <https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt> |
+| `ucd/NameAliases.txt` | <https://www.unicode.org/Public/18.0.0/ucd/NameAliases.txt> |
 
 The license URL provides the current Unicode license, independently of the data
-release. The three UCD files retain their upstream contents and filenames.
+release. The four UCD files retain their upstream contents and filenames.
 
 Generate the block tables in `data/ucd/blocks/` from the imported data with:
 
@@ -42,8 +43,9 @@ python src/import_ucd.py
 This standard-library importer writes one TSV per block using the columns and
 order in `data/schemas/icons.toml`: `code_points`, `chars`, `tab_completions`,
 and `unicode_name`. Completion aliases are empty.
-Unicode names retain their exact uppercase spelling; unnamed characters have
-empty names. Compressed First/Last ranges, including their endpoint records,
+Unicode names retain their exact uppercase spelling. Characters without a formal
+name use the first alias in `NameAliases.txt`; missing names and aliases are errors.
+Every exported row has a nonempty name. Compressed First/Last ranges, including their endpoint records,
 are skipped to keep the symbol tables compact. Explicit mathematical symbols
 remain included. Surrogate symbols are omitted so every output file is valid
 UTF-8; blocks with no retained characters contain only the header.

@@ -1,5 +1,5 @@
 #:schema ./schema-definition.json
-# Draft contract for icon TSV files. Existing files have not yet been migrated.
+# Draft contract for icon TSV files.
 # This is a project-specific schema vocabulary, not a standard TOML schema.
 # Columns are identified by table key; TOML table order is not significant.
 # format.required_columns defines mandatory headers and canonical export order.
@@ -79,14 +79,26 @@ is allowed because it cannot be followed by a space within that alias.
 examples = ['\alpha', '\neq, \ne', '\:copyright:, \copyright', '\sc\L']
 
 [columns.unicode_name]
-allow_empty = true
-item_pattern = '[^\t\r\n]*'
+allow_empty = false
+min_items = 1
+# Allowed-character surrogate for Unicode 18.0, Section 4.8, Name Syntax (R1):
+# https://www.unicode.org/versions/Unicode18.0.0/core-spec/chapter-4/
+# Also accept lowercase ASCII for title-cased exports. Positional rules R2-R4
+# are not enforced here; --check-icons checks actual names against the UCD.
+# Full grammar: UAX #44, Section 5.11.4, Tables 20-21:
+# https://www.unicode.org/reports/tr44/#Validation
+item_pattern = "[A-Za-z0-9 -]+"
+list_separator = ", "
 description = """
-For a single character, optionally followed by one variation selector,
-match the base character's unicode_name in data/ucd/unicode.tsv, ignoring case.
-This includes matching empty names for unnamed characters present in that table.
-Name checks are skipped for characters absent from the table and for other
-multi-code-point sequences, including base characters followed by combining marks.
-Whitespace is significant.
+Comma-space-separated current Unicode names in code_points order, including
+variation selectors. Repeated names are allowed. Use ASCII letters, digits,
+spaces, and hyphens; case is ignored. The pattern checks allowed characters,
+not the full Unicode naming grammar. Every cell and list item must be nonempty.
+If a character has no formal name, use its first alias in NameAliases.txt, in file order.
+UnicodeData range labels and legacy names are not character names.
+With --check-icons, match the names against data/ucd/unicode.tsv, ignoring case.
+For a base character followed by one variation selector, the base name alone
+is also accepted. Skip name checks for sequences containing code points absent
+from the reference table. Whitespace is significant.
 """
-examples = ["GREEK SMALL LETTER ALPHA", "", "DOUBLE-STRUCK CAPITAL N"]
+examples = ["GREEK SMALL LETTER ALPHA", "DELETE", "GRINNING FACE, VARIATION SELECTOR-16"]

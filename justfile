@@ -51,7 +51,7 @@ import-latex *args:
     fi
     exec "$python" src/import_latex.py "$@"
 
-[doc("Validate TSV files or path globs (quote globs at the CLI).")]
+[doc("Validate TSV files, directories recursively, or quoted glob patterns.")]
 [positional-arguments]
 validate +args:
     #!/usr/bin/env bash

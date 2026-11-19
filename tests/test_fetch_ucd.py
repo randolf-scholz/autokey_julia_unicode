@@ -26,6 +26,9 @@ def release_files(version: str) -> dict[str, bytes]:
         "Blocks.txt": f"# Blocks-{version}.txt\n0000..007F; Basic Latin\n".encode(),
         "ReadMe.txt": readme.encode(),
         "UnicodeData.txt": b"0041;LATIN CAPITAL LETTER A;Lu;0;L;;;;;N;;;;0061;\n",
+        "NameAliases.txt": (
+            f"# NameAliases-{version}.txt\n007F;DELETE;control\n"
+        ).encode(),
     }
 
 
@@ -97,7 +100,7 @@ def test_latest_resolves_once_and_forwards_options_to_pinned_downloads(
             "latest", destination=Path(directory), timeout=timeout, context=context
         )
         assert actual_version == "18.0.0"
-        assert request.call_count == 5
+        assert request.call_count == 6
         assert [call.args[0] for call in request.call_args_list].count(latest) == 1
         assert all(
             call.kwargs == {"timeout": timeout, "context": context}
@@ -123,12 +126,15 @@ def test_empty_latest_response_does_not_create_destination() -> None:
 @pytest.mark.parametrize(
     "error", [URLError("interrupted download"), ValueError("Empty response")]
 )
-def test_download_failure_preserves_existing_files(error: Exception) -> None:
+@pytest.mark.parametrize("failed_file", ["UnicodeData.txt", "NameAliases.txt"])
+def test_download_failure_preserves_existing_files(
+    error: Exception, failed_file: str
+) -> None:
     old = release_files("17.0.0")
     respond = responses("18.0.0", release_files("18.0.0"))
 
     def fail_last(url: str, **kwargs: object) -> bytes:
-        if url.endswith("UnicodeData.txt"):
+        if url.endswith(failed_file):
             raise error
         return respond(url, **kwargs)
 
@@ -152,6 +158,18 @@ def test_download_failure_preserves_existing_files(error: Exception) -> None:
         ("Blocks.txt", release_files("17.0.0")["Blocks.txt"], "Blocks"),
         ("ReadMe.txt", release_files("17.0.0")["ReadMe.txt"], "Requested Unicode"),
         ("UnicodeData.txt", b"bad;record", "Invalid UnicodeData"),
+        ("NameAliases.txt", release_files("17.0.0")["NameAliases.txt"], "NameAliases"),
+        ("NameAliases.txt", b"# NameAliases-18.0.0.txt\n", "no aliases"),
+        (
+            "NameAliases.txt",
+            b"# NameAliases-18.0.0.txt\nbad;record\n",
+            "Invalid NameAliases",
+        ),
+        (
+            "NameAliases.txt",
+            b"# NameAliases-18.0.0.txt\n110000;NAME;control\n",
+            "code point",
+        ),
         (
             "Blocks.txt",
             b"# Blocks-18.0.0.txt\n007F..0000; Reversed\n",

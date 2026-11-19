@@ -26,7 +26,7 @@ serialization rules for completion tables and UCD character tables.
 | `code_points`     | Ordered Unicode scalar values, separated by comma-space                       |
 | `chars`           | Exact replacement text; an empty cell means reconstruct it from `code_points` |
 | `tab_completions` | Completion aliases separated by comma-space, without the triggering space     |
-| `unicode_name`    | Unicode character name or sequence description                                |
+| `unicode_name`    | Current Unicode names in code-point order, separated by comma-space           |
 
 The `chars` column stores the actual replacement text, including combining
 marks without display padding such as non-breaking spaces (NBSPs). It must
@@ -34,6 +34,11 @@ equal the decoded `code_points` exactly, including all variation selectors.
 Leave `chars` empty for replacements containing a tab, CR, or LF so that each TSV
 record stays on one line. Quotes and backslashes are literal data; fields are
 neither quoted nor escaped.
+
+Names use letters, digits, spaces, and hyphens and must be nonempty. Characters
+without a formal name use their first alias from `NameAliases.txt`.
+A base character followed by a variation selector may use the base
+name alone; generated Julia tables include both names.
 
 ## Julia Unicode Icons
 
@@ -53,7 +58,8 @@ just import-julia
 
 Without just, run `julia --startup-file=no src/import_julia.jl`.
 This writes `data/icons/julia/icons-julia-<julia-version>.local.tsv`, using Julia's
-LaTeX and emoji completions and the names in `third_party/ucd/UnicodeData.txt`.
+LaTeX and emoji completions and the current names in `third_party/ucd/UnicodeData.txt`.
+Missing names fall back to the first alias in `third_party/ucd/NameAliases.txt`.
 An optional output path can be passed as the first argument. The UCD input and
 default output are located relative to the script, so the script can also run
 from other directories.

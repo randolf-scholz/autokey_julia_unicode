@@ -3,7 +3,7 @@
 
 Usage: python src/validate_tsv.py [--schema SCHEMA.toml] [--check-icons] FILE.tsv ...
 Inputs may be file paths, directories, or quoted glob patterns, including **.
-Directories select their immediate *.tsv files. Each input must select a file.
+Directories select *.tsv files recursively. Each input must select a file.
 Only standard-library modules are required. Header order is unrestricted.
 Icon tables always check Unicode scalars and the chars/code_points relationship.
 With --check-icons, also check names against data/ucd/unicode.tsv, ignoring case.
@@ -175,12 +175,12 @@ class TSVSchema:
 
 @dataclass(frozen=True)
 class Icon:
-    """Known icon fields, with numeric code points and scalar text values."""
+    """Known icon fields, with numeric code points and ordered names."""
 
     code_points: list[int]
     chars: str
     tab_completions: list[str]
-    unicode_name: str
+    unicode_name: list[str]
 
     @classmethod
     def from_row(cls, parsed: dict[str, list[str]]) -> "Icon":
@@ -191,7 +191,7 @@ class Icon:
             ],
             chars="".join(parsed["chars"]),
             tab_completions=parsed["tab_completions"],
-            unicode_name="".join(parsed["unicode_name"]),
+            unicode_name=parsed["unicode_name"],
         )
 
 
@@ -226,7 +226,11 @@ class FieldValidator:
             if column.unique_items and len(items) != len(set(items)):
                 raise ValueError(f"{context}: duplicate list item")
 
-        if any(self.pattern.fullmatch(item) is None for item in items):
+        if any(
+            self.pattern.fullmatch(item) is None
+            for item in items
+            if item or not column.allow_empty
+        ):
             raise ValueError(f"{context}: invalid item pattern")
         return items
 
@@ -269,10 +273,19 @@ def validate_icon(icon: Icon, names: dict[int, str], *, context: str) -> list[Er
     expected_chars = "".join(map(chr, points))
     if icon.chars and icon.chars != expected_chars:
         errors.append(Error(f"{context}: chars: does not match code_points"))
-    if len(points) == 1 or (len(points) == 2 and is_variation_selector(points[1])):
-        expected = names.get(points[0])
-        if expected is not None and icon.unicode_name.lower() != expected.lower():
-            errors.append(Error(f"{context}: unicode_name: expected {expected!r}"))
+    name_points = points
+    if (
+        len(points) == 2
+        and is_variation_selector(points[1])
+        and len(icon.unicode_name) <= 1
+    ):
+        name_points = points[:1]
+    if all(point in names for point in name_points):
+        expected = [names[point].lower() for point in name_points]
+        actual = [name.lower() for name in icon.unicode_name]
+        if actual != expected:
+            expected_text = ", ".join(names[point] for point in name_points)
+            errors.append(Error(f"{context}: unicode_name: expected {expected_text!r}"))
     return errors
 
 
@@ -291,8 +304,8 @@ def validate_tsv(
 
     Icon tables always check Unicode scalar values and exact chars/code_points
     equality, including variation selectors. With check_icons, check names against
-    unicode_tsv, ignoring case and one optional trailing variation selector.
-    Skip names for other sequences and characters absent from the table.
+    unicode_tsv in code-point order, ignoring case. A trailing variation selector
+    may omit its name. Skip names for sequences with points absent from the table.
     Never strip or normalize chars.
     """
     path = Path(path)
@@ -366,7 +379,7 @@ def validate_tsv(
 def expand_files(patterns: Sequence[str]) -> Iterator[Path | Error]:
     """Yield files or input errors, continuing after invalid inputs.
 
-    Directories select immediate *.tsv files; globs support recursive **.
+    Directories select *.tsv files recursively; globs support recursive **.
     Existing literal paths take precedence over glob syntax in their names.
     """
     for pattern in patterns:
@@ -383,7 +396,7 @@ def expand_files(patterns: Sequence[str]) -> Iterator[Path | Error]:
             for match in matches:
                 if match.is_dir():
                     files.extend(
-                        file for file in sorted(match.glob("*.tsv")) if file.is_file()
+                        file for file in sorted(match.rglob("*.tsv")) if file.is_file()
                     )
                 else:
                     files.append(match)
@@ -399,7 +412,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     """Validate requested TSV files and report all errors."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "files", nargs="+", help="file paths, directories, or glob patterns"
+        "files",
+        nargs="+",
+        help="file paths, directories (recursive *.tsv), or glob patterns",
     )
     parser.add_argument("--schema", type=Path, default=SCHEMA_PATH)
     parser.add_argument(

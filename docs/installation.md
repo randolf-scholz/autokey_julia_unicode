@@ -178,6 +178,6 @@ for details.
 
 Run all tests with `just test`, or select files with a quoted filename glob such
 as `just test 'test_import_*'`. Validate the icon tables with
-`just validate 'data/icons/julia/*.tsv'` (default schema: `data/schemas/icons.toml`).
+`just validate data/icons` to check all nested TSVs (default schema: `data/schemas/icons.toml`).
 
 See [Contributing](../CONTRIBUTING.md) for development environment setup and the full test workflow.

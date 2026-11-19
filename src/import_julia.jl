@@ -19,8 +19,24 @@ function validate_header(path::AbstractString=SCHEMA_PATH)
     return nothing
 end
 
-"""Read current and legacy Unicode names from the locally imported UCD."""
+"""Read the first alias for each code point, preserving file order."""
+function read_name_aliases(path::AbstractString)
+    aliases = Dict{UInt32,String}()
+    for (line_number, line) in enumerate(eachline(path))
+        line = strip(first(split(line, '#'; limit=2)))
+        isempty(line) && continue
+        fields = strip.(split(line, ';'; keepempty=true))
+        length(fields) == 3 && !isempty(fields[2]) && !isempty(fields[3]) || throw(ArgumentError(
+            "$path:$line_number: invalid name alias"
+        ))
+        get!(aliases, parse(UInt32, fields[1]; base=16), String(fields[2]))
+    end
+    return aliases
+end
+
+"""Read current names, falling back to the first alias for unnamed characters."""
 function read_unicode_names(path::AbstractString)
+    aliases = read_name_aliases(joinpath(dirname(path), "NameAliases.txt"))
     names = Dict{UInt32,String}()
     for (line_number, line) in enumerate(eachline(path))
         isempty(line) && continue
@@ -28,10 +44,10 @@ function read_unicode_names(path::AbstractString)
         length(fields) == 15 || throw(ArgumentError(
             "$path:$line_number: expected 15 UnicodeData fields"
         ))
-        name, legacy = fields[2], fields[11]
-        names[parse(UInt32, fields[1]; base=16)] = titlecase(lowercase(
-            isempty(legacy) ? name : "$name / $legacy"
-        ))
+        point = parse(UInt32, fields[1]; base=16)
+        name = startswith(fields[2], "<") ? "" : fields[2]
+        isempty(name) && (name = get(aliases, point, ""))
+        names[point] = titlecase(lowercase(name))
     end
     return names
 end
@@ -55,6 +71,7 @@ function import_icons(
 )
     validate_header(schema_path)
     names = read_unicode_names(unicode_data)
+    name_separator = ", "
 
     # Group aliases for each character or multi-code-point sequence.
     completions = Dict{String,Vector{String}}()
@@ -74,16 +91,17 @@ function import_icons(
             # Store replacement text exactly; omit cells that would break TSV records.
             characters = occursin(r"[\t\r\n]", chars) ? "" : chars
 
-            unicode_names = join((
-                get(names, UInt32(c), "(No Unicode name)")
+            unicode_names = [
+                get(names, UInt32(c), "")
                 for c in chars
-            ), " + ")
+            ]
+            @assert !any(name -> occursin(name_separator, name), unicode_names) "Unicode name contains the list separator"
 
             println(io, join((
                 points,
                 characters,
                 join(sort!(sequences), ", "),
-                unicode_names,
+                join(unicode_names, name_separator),
             ), '\t'))
         end
     end
