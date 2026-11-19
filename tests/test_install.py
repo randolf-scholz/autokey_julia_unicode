@@ -4,7 +4,7 @@ import json
 import shlex
 import shutil
 import tomllib
-from collections.abc import Iterator
+from collections.abc import Generator
 from contextlib import chdir, contextmanager, nullcontext, redirect_stderr
 from io import StringIO
 from pathlib import Path
@@ -79,7 +79,7 @@ def write_assets(directory: Path) -> Path:
 
 
 @contextmanager
-def temporary_project() -> Iterator[Path]:
+def temporary_project() -> Generator[Path]:
     """Keep installer paths and generated assets inside a temporary directory."""
     with TemporaryDirectory() as tmpdir:
         directory = Path(tmpdir)
